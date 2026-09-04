@@ -119,7 +119,7 @@ Ids are in `raw/manifest.json`. Update this file when docs are added or merged.
 | doc | sources |
 |---|---|
 | users-and-groups | P1-14, P2-L91 |
-| multi-user-workspaces | P2-L90, L95 (checkout details) |
+| multi-user-workspaces | P2-L90, L95 (checkout details), L138 (synchronization policy, currently in best-practices/synchronisation-not-waits) |
 | branches | P2-L92 |
 | backup-and-restore | P2-L93 |
 | command-line-tools | P2-L78 (TCShell), L94 (TCWorkspaceUtil) |
@@ -133,7 +133,7 @@ Ids are in `raw/manifest.json`. Update this file when docs are added or merged.
 | naming-conventions | P2-L97 |
 | test-case-structure | P2-L98 (verification points), L103 (folders), L102 (loops), L105 (workstates) |
 | module-hygiene | P2-L99 (limited attributes), L104 (merge duplicates) |
-| synchronisation-not-waits | P2-L100, L101, L138 |
+| synchronisation-not-waits | P2-L100, L101 (L138 synchronization policy is covered there for now; it belongs to multi-user workspaces) |
 | review-process | P2-L106b |
 
 ## troubleshooting (level 3)
