@@ -44,12 +44,11 @@ Intervals only work with the **Verify** ActionMode, on numeric or string data ty
 
 Tosca's own description uses base 100: a limit of 25 gives 75 to 125; a lower boundary of 10 and an upper boundary of 50 give 90 to 150.
 
-Worked example, from the Tricentis vehicle insurance sample application: after vehicle, insurance and product data are entered, the *Select price option* screen shows a table of plans (silver, gold, platinum, ultimate) with a *claims discount* row. The discount changes with the data the user enters but always stays between 0 and 10, so verifying a static `5` would break the TestCase.
+Worked example (Tricentis vehicle insurance sample application): after vehicle, insurance and product data are entered, *Select price option* shows a table of plans (silver, gold, platinum, ultimate) with a *claims discount* row. The discount depends on the entered data but always stays between 0 and 10, so a static `5` would break the TestCase.
 
-1. Drag the scanned `Select price option` table Module into the TestCase.
-2. In the column choose `Platinum`; identify the row cell by typing the complete text of the row label instead of the cell index, so the TestStep addresses the claims-discount cell.
-3. First run with ActionMode **Buffer** into `B_discount` to confirm the cell is read correctly; the log shows the buffer holding `5`.
-4. Copy the TestStep, set ActionMode **Verify** and the value `{INTERVAL[10][5]}` (simple interval), then another copy with `{INTERVAL[10][6][5]}` (custom interval, 4 to 15; Lesson 37 uses `{INTERVAL[10][5][5]}`). Both verifications pass. As soon as you click away from a valid expression the cell shows it highlighted; if it stays plain text a bracket is missing.
+1. Drag the scanned `Select price option` table Module into the TestCase; column `Platinum`, row addressed by the full text of its label instead of a cell index.
+2. Run once with ActionMode **Buffer** into `B_discount` to confirm the cell is read; the log shows `5`.
+3. Copy the TestStep with ActionMode **Verify** and `{INTERVAL[10][5]}`, then another with `{INTERVAL[10][6][5]}` (4 to 15; Lesson 37 uses `{INTERVAL[10][5][5]}`). Both pass. A valid expression is highlighted once you click away from the cell; plain text means a bracket is missing.
 
 :::note
 An interval verification does not write a line to the log info; a passed TestCase is the confirmation that the value was inside the range. Both lessons state that intervals also apply to strings but demonstrate only numbers.
@@ -61,13 +60,13 @@ An interval verification does not write a line to the log info; a passed TestCas
 {REGEX["pattern"]}
 ```
 
-Type `{`, choose `REGEX` from the autocomplete list, open a square bracket, put the pattern in double quotes, and close the bracket and the brace. Lesson 33 omits the quotes (`{REGEX[pattern]}`) and the run passes as well. Tosca's own description of the expression adds the form for extracting text:
+Type `{`, pick `REGEX` from the autocomplete, and put the pattern in double quotes inside the square brackets; Lesson 33 omits the quotes (`{REGEX[pattern]}`) and passes as well. Tosca's own description adds the form for extracting text:
 
 ```
 {REGEX[expression(?<BufferName>subexpression)expression]}
 ```
 
-The expression as a whole verifies that the text matches the pattern; each `(?<BufferName>subexpression)` is a named group whose match is saved to the buffer of that name. The buffer name is free; the sub-expression describes the dynamic part.
+The whole expression verifies that the text matches the pattern; each `(?<BufferName>subexpression)` is a named group whose match is saved to the buffer of that (free) name, the sub-expression describing the dynamic part.
 
 | Regex element | Meaning (as used in the videos) |
 |---|---|
@@ -82,18 +81,16 @@ The expression as a whole verifies that the text matches the pattern; each `(?<B
 
 ## Multilingual identification with alternatives
 
-A site offered in English and French keeps the same layout, but the page title and the link texts change with the language. A control with a language-independent property such as an ID keeps working; the *Cameras* link in the example is identified by `InnerText` and tag only, so switching the site to French breaks both the Module's page title and the link.
-
-Instead of one Module per language, put both texts into one regular expression with `|` and use it in the identification property:
+A site in English and French keeps its layout, but the page title and link texts change with the language. A control with a language-independent property such as an ID keeps working; the example's *Cameras* link is identified by `InnerText` and tag only, so switching to French breaks both the Module's page title and the link. Instead of one Module per language, put both texts into one regular expression with `|` in the identification property:
 
 | ModuleAttribute property | Value |
 |---|---|
 | Page title (Module) | `{REGEX["Cameras from Nikon.*\|Appareils photo.*"]}` |
 | `InnerText` of the Cameras link | `{REGEX["Cameras\|Appareils photo.*"]}` |
 
-Each alternative keeps only the constant part of the text and ends with `.*`, so trailing text may change. The same pattern extends to any number of languages: add one alternative per language for every control whose text is translated. The TestCase (`Click cameras`, one Module, click the link) then passes with the site in French and again in English.
+Each alternative keeps only the constant part and ends with `.*`, so trailing text may change; add one alternative per language for every translated control. The TestCase (`Click cameras`, one Module, click the link) then passes in French and in English.
 
-The same technique works for a whole text block (Lesson 33, moodle.org in English and Dutch): a description paragraph is identified by its full `InnerText` and verified with `Exists == true` before a link is clicked. Switching the site to Dutch fails the verification until the `InnerText` becomes `{REGEX[English paragraph|Dutch paragraph]}`, with the Dutch text copied from the browser's inspect pane; the TestCase then passes in both languages.
+The same works for a whole text block (Lesson 33, moodle.org in English and Dutch): a description paragraph identified by its full `InnerText` and verified with `Exists == true` fails in Dutch until the `InnerText` becomes `{REGEX[English paragraph|Dutch paragraph]}`, the Dutch text copied from the browser's inspect pane; the TestCase then passes in both languages.
 
 :::note
 The French link text is only shown on screen in Lesson 35; `Appareils photo` is the standard French wording for *Cameras*. Check the exact strings (in Chrome: inspect, search for `title` or the element's inner text) on the page you automate.
@@ -117,8 +114,8 @@ A transaction ID such as `IN` + a bank abbreviation + a three-digit number + mor
 | `part3` | `\d{3}` | Exactly the next three digits |
 | `part4` | `\d*` | All remaining digits |
 
-3. Set the Workstate to Completed and run. With ActionMode **Input** the run fails (*input is not supported for regex values*); extracting text with `REGEX` requires **Verify**.
-4. Check the results in **Tools > Buffer Viewer**; searching for `part` lists the four buffers.
+3. Set the Workstate to Completed and run; with ActionMode **Input** the run fails (*input is not supported for regex values*), `REGEX` extraction requires **Verify**.
+4. Check **Tools > Buffer Viewer**; searching for `part` lists the four buffers.
 
 The same technique reads three random numbers out of a random sentence in [Random values](/ToscaBase/expressions/random-values/#extract-several-random-numbers-from-a-random-string-named-groups), where the groups are separated by lazy `.*?` and the pattern is anchored with `^` and `$`.
 

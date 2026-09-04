@@ -39,31 +39,28 @@ sources:
     at: "17:33"
 ---
 
-At run time Tosca has to find each control on the screen from what the Module stores about it. XScan offers four identification methods, selectable from the **Identify by** menu in the Advanced view: **properties**, **anchor**, **image** and **index**. They form a hierarchy: try them in that order and stop at the first that makes the control unique. A fifth technique, the `ExplicitName` configuration parameter, is not an XScan method but a way to choose one of several identical controls from the TestCase. Worked problem cases are in [Obstacles: identifying controls](/ToscaBase/troubleshooting/obstacles-identification/). The playlist 1 sources use the Google start page, where the *Google Search* button is not unique because a second, invisible button has the same `name`, `type` and `value`; the Tosca 16 lessons use the Tricentis demo web shop.
+At run time Tosca must find each control on the screen from what the Module stores about it. XScan offers four identification methods in the **Identify by** menu of the Advanced view: **properties**, **anchor**, **image** and **index**, a hierarchy to try in that order, stopping at the first that makes the control unique. A fifth technique, the `ExplicitName` configuration parameter, is not an XScan method but chooses one of several identical controls from the TestCase. Problem cases: [Obstacles: identifying controls](/ToscaBase/troubleshooting/obstacles-identification/). Playlist 1 uses the Google start page, the Tosca 16 lessons the Tricentis demo web shop.
 
 ## Identify by properties
 
-The default. Tosca matches the technical properties ticked in XScan (`id`, `name`, `tag`, `value`, `InnerText`, `alt`, ...). Always prefer it: it is the most stable and the fastest.
+The default and always the first choice: Tosca matches the technical properties ticked in XScan (`id`, `name`, `tag`, `value`, `InnerText`, `alt`, ...), the most stable and fastest method.
 
-When XScan reports *selected item is not unique*, the first move is to tick more properties in the Advanced view. Often one extra property is enough (`alt` for the Google logo, `value` for a radio button in [Rescan Modules](/ToscaBase/modules/rescan-modules/), `visible` for a *Books* category link that shares `tag` and `InnerText` with a product tab). Any number of properties can be ticked, but each one costs time at run time, so tick only what is necessary and stable, and prefer properties that describe identity, not state. If every sensible property is ticked and the control is still not unique, as with the *Google Search* button, move on to anchor.
+When XScan reports *selected item is not unique*, tick more properties in the Advanced view; often one extra is enough (`alt` for the Google logo, `value` for a radio button in [Rescan Modules](/ToscaBase/modules/rescan-modules/), `visible` for a *Books* category link that shares `tag` and `InnerText` with a product tab). Each ticked property costs run time, so tick only what is necessary and stable, preferring properties that describe identity, not state. If the control is still not unique with every sensible property ticked, as with the *Google Search* button (an invisible second button shares its `name`, `type` and `value`), move on to anchor.
 
 ### Wildcards for dynamic values
 
-A property value that changes between pages or runs (a *dynamic ID* in the source) is matched with `*` in place of the changing part. The demo web shop's title is `Demo Web Shop. Login` on one page and `Demo Web Shop. Register` on the next; setting the Module's `Title` technical ID to `Demo Web Shop.*` lets one Module match every page. Any technical ID can be edited this way, in XScan (click the value) or later in the **Properties** pane: an order container whose `OuterText` starts with `Order number: 1234` gets `Order number: *`. Tosca then matches only the constant part, so a wildcard can make several controls match on purpose; see the order example under `ExplicitName`.
+A property value that changes between pages or runs (a *dynamic ID*) is matched with `*` in place of the changing part: the demo web shop's title is `Demo Web Shop. Login` on one page and `Demo Web Shop. Register` on the next, so a `Title` technical ID of `Demo Web Shop.*` matches every page. Edit any technical ID this way in XScan (click the value) or later in the **Properties** pane. Since only the constant part is matched, a wildcard can also match several controls on purpose (see the order example under `ExplicitName`).
 
 ## Identify by anchor
 
-An anchor is another control near the target that *is* unique. Tosca finds the anchor first and then the target relative to it. Use it only when properties fail; if no stable, unique control is available nearby, this method is not an option. A container is a good anchor: the demo web shop's category links (*Books*, *Computers*, ...) all match by properties, but each is unique relative to the `ul` element that holds them.
+An anchor is a nearby control that *is* unique; Tosca finds it first and then the target relative to it. Use it only when properties fail and a stable, unique neighbour exists. A container is a good anchor: the demo web shop's category links (*Books*, *Computers*, ...) share properties, but each is unique relative to the `ul` that holds them.
 
 1. Raise **Filtered items** if the anchor you want (a `div` or `ul` container) is not in the tree.
-2. Select the target control and choose **Identify by > Anchor**. The **Identify by anchor** pane opens on the right.
-3. Drag a unique control from the tree into the anchor slot (the *I'm Feeling Lucky* button, or the `ul` container), or click **Select on screen** and click the anchor in the application. The pane reports *target control was successfully identified*.
-4. The anchor itself must be unique. If the pane says it is not, click **Make anchor unique** (Tosca ticks an extra property, `InnerHTML` in the source) or tick one yourself.
-5. Add more anchors if one is not enough. Repeat for each target; one container anchors all of its children and need not become a control itself.
+2. Select the target, choose **Identify by > Anchor**, and in the **Identify by anchor** pane drag a unique control from the tree into the anchor slot (*I'm Feeling Lucky*, or the `ul`), or click **Select on screen** and click the anchor in the application. The pane reports *target control was successfully identified*, and the target's orange *not unique* bar disappears.
+3. If the anchor itself is not unique, click **Make anchor unique** (Tosca ticks an extra property, `InnerHTML`) or tick one yourself.
+4. Add more anchors if needed; one container anchors all its children and need not become a control itself.
 
-The **relative algorithm** setting decides how Tosca walks from anchor to target: **Shortest path** follows the control tree from the anchor; **Coordinate** uses screen positions, which break when the resolution changes; **Auto**, the default in both sources, tries the shortest path first and falls back to coordinates. Leave it on *Auto* or *Shortest path*.
-
-The message on the target changes to *selected item is unique* and the orange bar disappears.
+The **relative algorithm** decides how Tosca walks from anchor to target: **Shortest path** follows the control tree, **Coordinate** uses screen positions (which break when the resolution changes), and **Auto**, the default, tries the shortest path first, then coordinates. Leave it on *Auto* or *Shortest path*.
 
 :::note
 Lesson 6 (playlist 1) also names an option *Always* that Lesson 7 (Tosca 16) does not show; check the option names in your version.
@@ -71,46 +68,43 @@ Lesson 6 (playlist 1) also names an option *Always* that Lesson 7 (Tosca 16) doe
 
 ## Identify by image
 
-Tosca stores a bitmap of the control and finds it on screen by image matching. It is the fallback after anchor, and the source is explicit that it should be the last resort before index, because it depends on many run-time conditions.
+Tosca stores a bitmap of the control and finds it on screen by image matching: the fallback after anchor and the last resort before index, because it depends on many run-time conditions.
 
-1. Select the control and choose **Identify by > Image**. The **Identify by image** pane opens with the control's image.
-2. Click **add image** (a picture with a plus). The pointer becomes a cross; drag a rectangle around the area to use, or press **Return** to take the control's own area. **Escape** cancels; the save icon stores the selection.
-3. Tosca warns that image identification may run for a long time without a visible XScan window; answer **Yes** (tick *Remember my decision* to stop the prompt).
-4. Fill in the **image properties**: a name, and check the recorded **screen resolution**, **offset** (image position relative to the control), **method** (*full screen* in the source) and **accuracy** (95 % by default).
+1. Choose **Identify by > Image**; the **Identify by image** pane shows the control's image.
+2. Click **add image**, then drag a rectangle around the area to use or press **Return** for the control's own area; **Escape** cancels, the save icon stores the selection.
+3. Answer **Yes** to the warning that image identification may run long without a visible XScan window (tick *Remember my decision* to stop the prompt).
+4. Fill in the **image properties**: a name, plus the recorded **screen resolution**, **offset** (image position relative to the control), **method** (*full screen* in the source) and **accuracy** (95 % by default).
 
-The control is then identified by properties **and** image. The recorded values are its weakness: a different resolution at execution time, a changed offset, another method, or a match below the accuracy threshold all make the step fail. Keep execution machines identical to the scanning machine if you use it.
+The control is then identified by properties **and** image; a different resolution, offset or method at execution time, or a match below the accuracy threshold, fails the step, so keep execution machines identical to the scanning machine.
 
 ## Identify by index (ConstraintIndex)
 
-When several controls have the same properties, the index is the position of the target among them. It is the last option in the hierarchy.
+When several controls share the same properties, the index is the target's position among them, the last option in the hierarchy.
 
-1. Choose **Identify by > Index**. The **Identify by index** pane warns to use the index only if no identification criteria uniquely identify the control.
-2. Tosca has already detected which index the selected control has; tick it. The message changes to *selected item is unique*.
+1. Choose **Identify by > Index**; the pane warns to use the index only if no identification criteria uniquely identify the control.
+2. Tick the index Tosca has already detected; the message changes to *selected item is unique*.
 
-Under the hood the Module gets the configuration parameter `ConstraintIndex` with that number; it can also be created by hand, see [Module properties and parameters](/ToscaBase/modules/module-properties-and-parameters/). The index is fragile: the order of identical controls can change with the page, and a similar control may end up at the recorded index.
+The Module then gets the configuration parameter `ConstraintIndex` with that number (or create it by hand, see [Module properties and parameters](/ToscaBase/modules/module-properties-and-parameters/)). The index is fragile: the order of identical controls can change with the page, and a similar control may end up at the recorded index.
 
 ## ExplicitName: choosing from the TestCase
 
-Sometimes you do not want to fix the identity in the Module at all. On a product list every *Add to cart* button has the same properties; which one to click depends on the TestCase. By default a TestStepValue name cannot be changed in the TestCase, and a click on the scanned button fails with *more than one control found*.
+Sometimes the choice belongs in the TestCase: every *Add to cart* button on a product list has the same properties, and which one to click depends on the test. A TestStepValue name cannot normally be changed in the TestCase, and clicking the scanned button fails with *more than one control found*.
 
-1. In the Module, select the attribute and, in the **Properties** pane, right-click and choose **Create configuration parameter**. Name it `ExplicitName`.
-2. Set it to `True`. (A value range is also allowed; the TestCase may then use any name from the range.)
-3. In the TestStep, rename the attribute to `#3`. Tosca clicks the third *Add to cart* button.
+1. In the Module, select the attribute and in the **Properties** pane right-click → **Create configuration parameter**; name it `ExplicitName` and set it to `True` (or a value range the TestCase may pick any name from).
+2. In the TestStep, rename the attribute to `#3`. Tosca clicks the third *Add to cart* button.
 
-The `#n` syntax is an index by another name, but it is set per TestStep instead of being baked into the Module, so one Module serves every product. The source calls it more stable than *Identify by index*, because the index is chosen where the context is known. `ExplicitName` with a cardinality of `0-n` is also how one scanned list item steers many entries, see [Obstacles: identifying controls](/ToscaBase/troubleshooting/obstacles-identification/).
+`#n` is an index set per TestStep instead of baked into the Module, so one Module serves every product; the source calls it more stable than *Identify by index* because the index is chosen where the context is known. The name can also be an expression such as `{REPETITION}`, which steers control 1, 2, 3 ... on successive passes of a repeated TestStep folder (how Lesson 24 empties the cart; see [Repetitions](/ToscaBase/test-cases/repetitions/)), and with a cardinality of `0-n` one scanned list item can steer many entries ([Obstacles: identifying controls](/ToscaBase/troubleshooting/obstacles-identification/)).
 
-**Example: the latest order.** The demo web shop's order history lists every order in its own `div`, newest on top. Scan one container with its order number and total, make it match by `Order number: *` (see wildcards above), give it `ExplicitName = True`, and name it `#1` in the TestStep: it steers the first container whatever the number. Its `InnerText` is verified against `Order number: {B[order number]}*`, the number having been buffered on the confirmation page ([Buffers](/ToscaBase/data-and-parameters/buffers/)).
-
-The name can also be an expression: in a TestStep folder with a Repetition, `{REPETITION}` steers control 1, 2, 3 ... on successive passes (Lesson 24 uses it as a table row selector to tick the *Remove* checkbox of every row); see [Repetitions](/ToscaBase/test-cases/repetitions/).
+**Example: the latest order.** Orders in the demo web shop's history are separate `div`s, newest on top. Scan one container (order number and total), wildcard its `OuterText` to `Order number: *`, set `ExplicitName = True` and name it `#1` in the TestStep to steer the newest order whatever its number; verify its `InnerText` against `Order number: {B[order number]}*`, the number buffered earlier on the confirmation page ([Buffers](/ToscaBase/data-and-parameters/buffers/)).
 
 ## Summary
 
 | Method | Use when | Risk |
 |---|---|---|
-| Properties | Always first | None if the properties are stable |
-| Anchor | Properties do not make the control unique, a unique neighbour exists | Neighbour changes |
+| Properties | Always first | None if stable |
+| Anchor | Properties fail, unique neighbour exists | Neighbour changes |
 | Image | Nothing else works | Resolution, offset, accuracy |
-| Index | Nothing else works and image is impractical | Order of identical controls changes |
-| `ExplicitName` (`#n`) | The right control depends on the TestCase | Same as index, but chosen per step |
+| Index | Image impractical too | Order of identical controls changes |
+| `ExplicitName` (`#n`) | Choice depends on the TestCase | As index, chosen per step |
 
-Whatever you pick, the whole execution depends on it, so choose deliberately and name the attribute sensibly.
+The whole execution depends on this choice: make it deliberately and name the attribute sensibly.

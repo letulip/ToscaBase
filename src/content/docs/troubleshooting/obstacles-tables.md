@@ -75,79 +75,66 @@ sources:
     at: "01:13"
 ---
 
-Most real-world steering problems live in web tables: rows move between page loads, the row count is unknown, a "table" is a pile of `div` elements, or a control sits inside a cell but XScan placed it outside the row. The toolset is small: the `Constraint` ActionMode to pick a row, `Buffer` to read a cell, the properties `RowCount`, `ColumnCount` and `ResultCount`, row selectors such as `$last`, `{XB[...]}`, embedded controls, and the `Repetition` folder property. Concepts are in [Table controls](/ToscaBase/modules/table-controls/) and [ActionModes](/ToscaBase/test-cases/action-modes/).
+Most real-world steering problems live in web tables: rows move between page loads, the row count is unknown, a "table" is a pile of `div` elements, or a control sits in a cell but XScan placed it outside the row. The toolset is small: ActionMode `Constraint` to pick a row, `Buffer` to read a cell, the properties `RowCount`, `ColumnCount` and `ResultCount`, row selectors such as `$last`, `{XB[...]}`, embedded controls and the `Repetition` folder property. Concepts: [Table controls](/ToscaBase/modules/table-controls/), [ActionModes](/ToscaBase/test-cases/action-modes/). Comparing a whole table with a saved snapshot (obstacle 34 of the Tosca 16 series) is covered in [Table baseline comparison](/ToscaBase/modules/table-baseline-comparison/).
 
-Routine for every obstacle: scan a Module into an *Obstacles* folder, create a TestCase named after the obstacle, drag the Module in, set Workstate *Completed*, run in ScratchBook. The Tosca 16 series (Lessons 45–68; *Drop-down table* is obstacle 26 there) solves each identically; its extra details are noted in place.
+Routine for every obstacle: scan a Module into an *Obstacles* folder, create a TestCase named after the obstacle, drag the Module in, set Workstate *Completed*, run in ScratchBook. The Tosca 16 series (Lessons 45–68; *Drop-down table* is obstacle 26 there) solves each identically; extra details are noted in place.
 
 ## Not a table (obstacle 3)
 
 **Problem.** Clicking *Generate order ID* adds an order number to a table-like block, at a random row. Buffer the number and type it into a text box.
 
-**Cause.** XScan shows no rows or cells: the "table" is nested `div` elements. The order-number `div` has a dynamic `InnerText` and nothing else distinguishing; without `InnerText` it is one `div` among many.
+**Cause.** XScan shows no rows or cells: the "table" is nested `div` elements, and the order-number `div` has nothing distinguishing except a dynamic `InnerText`.
 
 **Solution.**
 
 1. Raise the **filtered items** level until the order-number `div` is listed.
-2. Untick `InnerText` and switch from *Identify by properties* to *Identify by anchor*.
-3. Drag the `div` with the static label *Order ID* into the anchor slot: wherever the row lands, the label is next to the number, so the item is unique.
-4. Lower the filter level, add the *Generate order ID* link and the text box, rename the number attribute to `Order ID`.
-5. TestCase: link → `X`; `Order ID` → property `InnerText`, ActionMode `Buffer`, value `orderId`; text box → `{B[orderId]}`.
-
-Anchor identification is described in [Control identification](/ToscaBase/modules/control-identification/).
+2. Untick `InnerText`, switch to *Identify by anchor* and drag the `div` with the static label *Order ID* into the anchor slot: the label stays next to the number wherever the row lands ([Control identification](/ToscaBase/modules/control-identification/)).
+3. Lower the filter level, add the *Generate order ID* link and the text box, rename the number attribute to `Order ID`.
+4. TestCase: link → `X`; `Order ID` → property `InnerText`, ActionMode `Buffer`, value `orderId`; text box → `{B[orderId]}`.
 
 ## Complex table interactions (obstacle 5)
 
 **Problem.** Click the *Edit* button in the row of *John Doe*. Every refresh shuffles the rows, and two rows have the first name *John*.
 
-**Cause.** The row index is meaningless, and XScan puts the scanned *Edit* button next to the table instead of inside a row.
+**Cause.** The row index is meaningless, and XScan places the scanned *Edit* button outside the row.
 
 **Solution.**
 
-1. Scan the table and one *Edit* button (ignore *not unique*) and make the button an embedded control of the row, as described in [Embedded controls inside a table](/ToscaBase/modules/table-controls/#embedded-controls-inside-a-table).
-2. TestCase: in the row, cell *First name* = `John` and cell *Last name* = `Doe`, both with ActionMode `Constraint` (one is not enough because *John* appears twice); *Edit* → `X`.
-
-Two constraints filter to exactly one row regardless of its position; the click applies to that row's button.
+1. Scan the table and one *Edit* button (ignore *not unique*) and make it an [embedded control](/ToscaBase/modules/table-controls/#embedded-controls-inside-a-table) of the row.
+2. TestCase: in the row, cell *First name* = `John` and cell *Last name* = `Doe`, both ActionMode `Constraint` (one is not enough, *John* appears twice); *Edit* → `X`. Two constraints filter to exactly one row regardless of position; the click hits that row's button.
 
 ## To-do list (obstacle 9)
 
 **Problem.** Two tables, *To-do tasks* and *Completed tasks*. Drag every row of the first table into the second, in the order of the *ID* column (1 to 6).
 
-**Cause.** A single drag and drop is solved with `{DRAG}` and `{DROP}` as in [Drag and drop image](/ToscaBase/troubleshooting/obstacles-input-and-clicks/#drag-and-drop-image-obstacle-8). The difficulty is doing it six times, on a different row each time, without six copies of the TestStep.
+**Cause.** A single drag and drop is `{DRAG}` plus `{DROP}` as in [Drag and drop image](/ToscaBase/troubleshooting/obstacles-input-and-clicks/#drag-and-drop-image-obstacle-8); the difficulty is doing it six times, on a different row each time, without six copies of the TestStep.
 
 **Solution.**
 
 1. Module: both tables.
-2. TestCase: in the *To-do tasks* table choose the column *ID*, cell value `1`; the row → `{DRAG}` (ActionMode `Input`); the *Completed tasks* table → `{DROP}` (also `Input`), with no row or column, so the row lands in the table as a whole. Run once to confirm one row moves.
-3. Create a folder `Repetition`, move the TestStep into it and set the folder's [Repetition](/ToscaBase/test-cases/repetitions/) property to `6`.
-4. Replace the `1` with `{REPETITION}`. The expression returns the current pass number (1, then 2, and so on), so each pass addresses the row whose ID equals it.
-
-Pass number and ID advance together, so the rows move in order; the execution log lists each pass separately. Any unique column numbered 1 to *n* can play the role of *ID*.
+2. TestCase: in *To-do tasks* choose column *ID*, cell value `1`; row → `{DRAG}` (ActionMode `Input`); *Completed tasks* table → `{DROP}` (also `Input`), without row or column, so the row lands in the table as a whole. Run once to confirm one row moves.
+3. Move the TestStep into a folder `Repetition` and set the folder's [Repetition](/ToscaBase/test-cases/repetitions/) property to `6`.
+4. Replace the `1` with `{REPETITION}`, the current pass number (1, 2, ...): each pass addresses the row whose ID equals it, so the rows move in order; the log lists each pass separately. Any unique column numbered 1 to *n* can serve as *ID*.
 
 :::note
-The subtitles garble the expression name; it is `{REPETITION}`. None of the three lessons says which ActionMode the *ID* cell uses; `Constraint` (obstacle 5) is the natural fit. If `{DROP}` is left on the default `Verify`, the run fails with *could not find table* (Lesson 37).
+The subtitles garble the name; it is `{REPETITION}`. No lesson says which ActionMode the *ID* cell uses; `Constraint` (obstacle 5) is the natural fit. `{DROP}` left on the default `Verify` fails with *could not find table* (Lesson 37).
 :::
 
 ## Lots of rows (obstacle 18)
 
-**Problem.** Count the rows of a table, type the count into *Row count*, click the button. The table changes size after each click, so a static number does not work.
+**Problem.** Count the rows of a table, type the count into *Row count*, click the button. The table changes size after each click.
 
-**Cause.** The row count is only known at run time.
+**Cause.** The row count is only known at run time; a static number does not work.
 
-**Solution.** A table control exposes `RowCount` and `ColumnCount`.
-
-1. Module: table, text box, button.
-2. Table → property `RowCount`, ActionMode `Buffer`, value `rows`.
-3. Text box → `{B[rows]}`; button → `X`.
+**Solution.** A table control exposes `RowCount` (and `ColumnCount`). Module: table, text box, button. Table → property `RowCount`, ActionMode `Buffer`, value `rows`; text box → `{B[rows]}`; button → `X`.
 
 ## Last row (obstacle 19)
 
-**Problem.** Verify that the last row shows an order value and copy that value into a text box. Neither the value nor the number of rows is constant.
+**Problem.** Verify that the last row shows an order value and copy it into a text box; neither the value nor the row count is constant.
 
 **Cause.** The row index of "the last row" changes.
 
-**Solution.** In the table's row attribute use a row selector from the drop-down instead of a number: `$last` selects the last row; `$lastContentRow` does the same here and needs ActionMode `Select` on the row. In the cell of the *Value* column set ActionMode `Buffer` with value `b_val`, and enter `{B[b_val]}` into the text box.
-
-The drop-down also offers `$1`, `$n`, the header row and the first empty row, so any row can be addressed without hard-coding its position.
+**Solution.** In the row attribute pick a row selector from the drop-down instead of a number: `$last` selects the last row (`$lastContentRow` does the same here and needs ActionMode `Select` on the row). *Value* cell → ActionMode `Buffer`, value `b_val`; text box → `{B[b_val]}`. The drop-down also offers `$1`, `$n`, the header row and the first empty row, so no position is hard-coded.
 
 ## Table search (obstacle 21)
 
@@ -158,8 +145,8 @@ The drop-down also offers `$1`, `$n`, the header row and the first empty row, so
 **Solution.**
 
 1. Module: the table and the text box.
-2. TestCase: in the row, set a cell to `15` with ActionMode `Constraint`. Tosca filters the rows to the one containing that cell, in any column.
-3. On the row, use the property `Exists` with ActionMode `Buffer` and value `b_exists`. The buffer receives `True` if the constrained row was found and `False` otherwise.
+2. TestCase: in the row, set a cell to `15` with ActionMode `Constraint`; Tosca filters to the row containing that cell, in any column.
+3. Row → property `Exists`, ActionMode `Buffer`, value `b_exists`: `True` if the constrained row was found, `False` otherwise.
 4. Text box → `{B[b_exists]}`.
 
 Constraint plus `Exists` is the fastest whole-table search.
@@ -173,8 +160,8 @@ Constraint plus `Exists` is the fastest whole-table search.
 **Solution.**
 
 1. Module: the timetable and the result text box.
-2. TestCase: in the row attribute, type the row header text (`11 - 13`, as it appears on the page), ActionMode `Select`. Tosca selects the row by that text as long as it is unique.
-3. Cell: choose the column `Thursday` from the column headers, ActionMode `Buffer`, value `b_status`.
+2. Row attribute: type the row header text (`11 - 13`, as on the page), ActionMode `Select`; Tosca selects the row by that text as long as it is unique.
+3. Cell: choose column `Thursday` from the headers, ActionMode `Buffer`, value `b_status`.
 4. Text box → `{B[b_status]}` with `Input` (Lesson 128 uses `{SENDKEYS "{B[b_status]}"}`; both work).
 
 :::note
@@ -189,12 +176,10 @@ A dynamic time would have to be buffered or constrained first; the speaker menti
 
 **Solution.**
 
-1. Click *Generate* before scanning so that the drop-downs exist. Module: *Generate*, *Submit*, the table, and one drop-down (not unique; fine). Drag the `select` into the cell so it becomes an [embedded control](/ToscaBase/modules/table-controls/#embedded-controls-inside-a-table) that exists in every row.
+1. Click *Generate* before scanning so that the drop-downs exist. Module: *Generate*, *Submit*, the table and one drop-down (not unique; fine); drag the `select` into the cell so it becomes an [embedded control](/ToscaBase/modules/table-controls/#embedded-controls-inside-a-table) present in every row.
 2. TestCase:
    - *Generate* → `X`.
-   - Row `$2` (row 1 is the header). First cell → ActionMode `Verify`, value: the constant text followed by `{XB[letter]}`. The dynamic XBuffer verifies the fixed part and stores the changing letter in `letter` at the same time.
-   - Second cell → ActionMode `Select` (Tosca defaults to `Verify`). Nested drop-down → `{B[letter]}*`: the word starting with that letter, whatever follows.
-   - Copy the row block for rows `$3` to `$6`, changing only the row number. Each row overwrites the same buffer.
+   - Row `$2` (row 1 is the header). First cell → ActionMode `Verify`, value: the constant text followed by `{XB[letter]}`, which verifies the fixed part and stores the changing letter in `letter` at once ([Buffers](/ToscaBase/data-and-parameters/buffers/)).
+   - Second cell → ActionMode `Select` (default is `Verify`). Nested drop-down → `{B[letter]}*`: the word starting with that letter.
+   - Copy the row block for rows `$3` to `$6`, changing only the row number; each row overwrites the same buffer.
    - *Submit* → `X`.
-
-`{XB[...]}` is covered in [Buffers](/ToscaBase/data-and-parameters/buffers/).

@@ -63,51 +63,50 @@ sources:
     at: "01:14"
 ---
 
-The Tricentis *Obstacle Course* is a public web page of small automation riddles taken from real applications. This doc collects the obstacles whose difficulty is in **identifying** the control: XScan reports *selected item is not unique*, the identifying property changes between runs, or the element is not visible at all. The lesson is the same every time: `id` is a good default, but when it fails, use other properties, the parent hierarchy, a different identification method or a steering parameter. The methods themselves are described in [Control identification](/ToscaBase/modules/control-identification/); here you see them applied. Table obstacles are in [Obstacles: tables](/ToscaBase/troubleshooting/obstacles-tables/), input and click obstacles in [Obstacles: input and clicks](/ToscaBase/troubleshooting/obstacles-input-and-clicks/), loops in [Obstacles: loops and conditions](/ToscaBase/troubleshooting/obstacles-logic/). Every obstacle was solved identically in two lesson series (107–137 and the Tosca 16 Lessons 43–75, which count *Hidden element* as 25 and *Scroll into view* as 27); differences are noted in place.
+The Tricentis *Obstacle Course* is a public web page of small automation riddles taken from real applications. This doc collects those whose difficulty is **identifying** the control: XScan reports *selected item is not unique*, the identifying property changes between runs, or the element is not visible at all. The lesson is always the same: `id` is a good default; when it fails, use other properties, the parent hierarchy, another identification method or a steering parameter ([Control identification](/ToscaBase/modules/control-identification/) explains the methods, here they are applied). Table obstacles: [Obstacles: tables](/ToscaBase/troubleshooting/obstacles-tables/); input and clicks: [Obstacles: input and clicks](/ToscaBase/troubleshooting/obstacles-input-and-clicks/); loops: [Obstacles: loops and conditions](/ToscaBase/troubleshooting/obstacles-logic/). Both lesson series (107–137 and the Tosca 16 Lessons 43–75, which count *Hidden element* as 25 and *Scroll into view* as 27) solve every obstacle identically; differences are noted in place.
 
 :::tip
-All obstacles are clicked with the value `X` (ActionMode `Input`) rather than `{CLICK}`. `{CLICK}` drives the real mouse, which is slower and not recommended by Tricentis; `X` does the same through the engine. `{CLICK}` still helps while debugging: the cursor visibly moves, so you see which twin was hit.
+All obstacles are clicked with the value `X` (ActionMode `Input`) rather than `{CLICK}`, which drives the real mouse: slower and not recommended by Tricentis. `{CLICK}` still helps while debugging, because the moving cursor shows which twin was hit.
 :::
 
 ## IDs are not everything (obstacle 1)
 
-**Problem.** The page has two links, *Don't* and *Click me*. When you select *Click me* in XScan, Tosca reports that the item is not unique.
+**Problem.** Two links, *Don't* and *Click me*; selecting *Click me* in XScan gives *not unique*.
 
-**Cause.** Both links share the same `id` and, being links, the same `tag`. Identification by these two properties alone cannot separate them.
+**Cause.** Both links share the same `id` and, being links, the same `tag`.
 
 **Solution.**
 
-1. In XScan, compare the technical properties of the control with those of its twin.
-2. Pick a property that differs. Here `InnerText` differs (*Click me* vs *Don't*); tick it and XScan reports the item as unique.
-3. Save the Module, drag it into a TestCase, set `X` on the link and run.
+1. In XScan, compare the technical properties of the control with its twin's and tick one that differs: here `InnerText` (*Click me* vs *Don't*) makes the item unique.
+2. Save the Module, drag it into a TestCase, set `X` on the link and run.
 
-Combine several technical properties when one is not enough; do not stick to `id` by habit.
+Combine several properties when one is not enough; do not stick to `id` by habit.
 
 ## Twins (obstacle 2)
 
-**Problem.** Two identical buttons labelled *I am the one*; the task is to click the second one (on the right). `id`, `InnerText` and `tag` are identical, so ticking more properties still leaves the item not unique.
+**Problem.** Two identical buttons labelled *I am the one*; click the second (right-hand) one. `id`, `InnerText` and `tag` are identical, so ticking more properties does not help.
 
-**Cause.** The controls themselves carry no distinguishing property. The difference is only in *where* they sit in the page structure.
+**Cause.** The controls carry no distinguishing property; they differ only in *where* they sit in the page structure.
 
-**Solution.** [Identify by index](/ToscaBase/modules/control-identification/#4-identify-by-index) works but breaks as soon as a similar link is added to the page. Identify through the parent container instead:
+**Solution.** [Identify by index](/ToscaBase/modules/control-identification/#4-identify-by-index) works but breaks as soon as a similar link is added. Identify through the parent container instead:
 
-1. In XScan, raise the **filtered items** level so that parent elements become visible.
-2. Find the container wrapping the target button; here the right-hand container has a unique `id`, the left-hand one's is empty.
-3. Add the container to the Module, then the button inside it. In the TestCase Tosca sets the container's ActionMode to `Select`; put `X` on the nested link.
+1. Raise the **filtered items** level in XScan so that parents become visible.
+2. Find the container wrapping the target button; here the right-hand one has a unique `id`, the left-hand one's is empty.
+3. Add the container to the Module, then the button inside it. Tosca gives the container ActionMode `Select`; put `X` on the nested link.
 
 Parents and neighbours often carry the property the element lacks.
 
 ## Two times (obstacle 4)
 
-**Problem.** A button must be clicked twice in a row. The label changes from *Click me twice* to *Click me once more* after the first click, and the TestStep that worked for the first click fails on the second.
+**Problem.** A button must be clicked twice. After the first click its label changes from *Click me twice* to *Click me once more*, and the TestStep that worked once fails the second time.
 
 **Cause.** The button's `id` is `rd_` followed by a number that changes after every click. A Module scanned before the click identifies the control by the old `id`.
 
 **Solution.**
 
-1. Scan before the first click; to see which part of the `id` moves, click once and rescan.
-2. In the ModuleAttribute, replace the changing numeric part of the `id` with `*`, keeping the constant prefix (`rd_*`). The wildcard matches whatever digits appear.
-3. Drag the Module into the TestCase twice (*Click once*, *Click twice*), each with the value `X`.
+1. Scan before the first click, click once and rescan to see which part of the `id` moves.
+2. In the ModuleAttribute replace the changing digits with `*`, keeping the constant prefix (`rd_*`).
+3. Drag the Module into the TestCase twice (*Click once*, *Click twice*), each with `X`.
 
 :::note
 The speaker calls `*` a regular expression; in Tosca property values it is a wildcard. Full regular expressions are covered in [Intervals and verification expressions](/ToscaBase/expressions/intervals-and-verification-expressions/).
@@ -117,11 +116,11 @@ The speaker calls `*` a regular expression; in Tosca property values it is a wil
 
 **Problem.** A multi-select list box lists testing methods. Four of them (*Functional testing*, *GUI testing*, *End-to-End testing*, *Exploratory testing*) must be selected.
 
-**Cause.** By default a ModuleAttribute can be used once per TestStep (cardinality `0-1`), and its name is fixed in the Module, so one scanned list item cannot address four different entries.
+**Cause.** By default a ModuleAttribute is usable once per TestStep (cardinality `0-1`) under its fixed Module name, so one scanned list item cannot address four entries.
 
-**Solution.** Scan only the list box and **one** list item. Untick the item's `InnerText` (identified by `tag` alone, *not unique* is fine) and rename it `item`. On the item attribute set **cardinality** to `0-n` and right-click → **Create Configuration Parameter** `ExplicitName = True`, so that the attribute can be used any number of times and the name given in the TestStep decides which item is steered (mechanism: [Control identification](/ToscaBase/modules/control-identification/#choosing-from-the-testcase-explicitname)).
+**Solution.** Scan only the list box and **one** list item. Untick the item's `InnerText` (`tag` alone; *not unique* is fine) and rename it `item`. Set its **cardinality** to `0-n` and right-click → **Create Configuration Parameter** `ExplicitName = True`: the attribute can now be used any number of times and the name typed in the TestStep decides which item is steered ([Control identification](/ToscaBase/modules/control-identification/#choosing-from-the-testcase-explicitname)).
 
-In the TestCase the list box gets ActionMode `Select`. Rename the item to `Functional testing`; a fresh empty item row appears, which you rename to the next method, and so on. The items keep ActionMode `Input`, which selects the entry. Use the full visible name (`End-to-End testing`, not `End-to-End`), otherwise the entry is not matched.
+In the TestCase the list box gets ActionMode `Select`. Rename the item to `Functional testing`; an empty item row appears, which you rename to the next method, and so on. The items keep ActionMode `Input`, which selects the entry. Use the full visible name (`End-to-End testing`, not `End-to-End`), otherwise nothing is matched.
 
 ## Autocomplete text box (obstacle 7, "And counting")
 
@@ -129,37 +128,37 @@ In the TestCase the list box gets ActionMode `Select`. Rename the item to `Funct
 
 **Cause.** The search text is dynamic; a normal `Input` into the autocomplete box does not open the suggestion list; the suggestions are a list of unknown length.
 
-**Solution.** Type any text into the box *before* scanning, otherwise the suggestion list does not exist in the DOM. Module: the `span` (untick its dynamic `InnerText`, keep `id` and `tag`), the autocomplete box, one `li` of the suggestion list, and the count text box. The page title may be dynamic; put a wildcard in the title property. TestSteps:
+**Solution.** Type any text into the box *before* scanning, otherwise the suggestion list does not exist in the DOM. Module: the `span` (untick its dynamic `InnerText`, keep `id` and `tag`), the autocomplete box, one `li` of the suggestion list, and the count text box; wildcard the page title property if it is dynamic. TestSteps:
 
 1. `span` → property `InnerText`, ActionMode `Buffer`, value `text`.
-2. Autocomplete box → `{SENDKEYS "{B[text]}"}`. Sending keys one by one triggers the autocomplete; a plain `Input` does not.
-3. List item → property `ResultCount`, ActionMode `Buffer`, value `count`. `ResultCount` returns how many controls matched the attribute.
-4. Count text box → `{B[count]}` with ActionMode `Input`.
+2. Autocomplete box → `{SENDKEYS "{B[text]}"}`; key-by-key input triggers the autocomplete, a plain `Input` does not.
+3. List item → property `ResultCount`, ActionMode `Buffer`, value `count`.
+4. Count text box → `{B[count]}`, ActionMode `Input`.
 
-`ResultCount` only counts what the attribute matches, so untick the `li`'s `id` (unique per entry) and keep `tag` alone; Lesson 113 additionally sets cardinality `0-n`. It is the same trick used to count links in [Common problems and fixes](/ToscaBase/troubleshooting/common-problems-and-fixes/).
+`ResultCount` returns how many controls match the attribute, so untick the `li`'s `id` (unique per entry) and keep `tag` alone; Lesson 113 additionally sets cardinality `0-n`. The same trick counts links in [Common problems and fixes](/ToscaBase/troubleshooting/common-problems-and-fixes/).
 
 ## Hidden element (obstacle 24)
 
-**Problem.** "Who turned off the lights?" The element to click is not visible on the page, so there is nothing to select on screen.
+**Problem.** "Who turned off the lights?" The element to click is invisible, so there is nothing to select on screen.
 
-**Cause.** Visibility is not identification. Tosca steers whatever XScan can resolve from the DOM, whether or not the user can see it.
+**Cause.** Visibility is not identification: Tosca steers whatever XScan resolves from the DOM, seen or not.
 
 **Solution.**
 
 1. Raise the **filtered items** level in XScan until the whole HTML tree is listed.
-2. Orient yourself by visible neighbours (here the text *easy* sits in the same `div`) and find the target `span`. It has a unique `id`; no other property is needed.
-3. Add it to the Module and click it with `X` in the TestCase; all the work is in the scan.
+2. Orient by visible neighbours (the text *easy* sits in the same `div`) and find the target `span`; its `id` is unique.
+3. Add it to the Module and click it with `X`; all the work is in the scan.
 
 ## Scroll into view (obstacle 25)
 
-**Problem.** A text box inside an `iframe` is outside the visible area and something overlays the UI. Text entered while the box is out of view is discarded; it must be scrolled into view first, then filled and submitted.
+**Problem.** A text box inside an `iframe` lies outside the visible area and something overlays the UI. Text entered while it is out of view is discarded; it must be scrolled into view, filled and submitted.
 
-**Cause.** The browser only accepts the input when the control is positioned in the viewport.
+**Cause.** The browser accepts the input only while the control is in the viewport.
 
 **Solution.** Use a **steering parameter** instead of a scroll step:
 
-1. Scan the text field (XScan shows it nested `iframe` → HTML document → text field) and the *Submit* button.
-2. Right-click the text field attribute, **Create Steering Parameter**, name it `ScrollingBehavior` (exact spelling, no space) and set it to `Top` (other values: `Bottom`, `Center`, `None`).
+1. Scan the text field (nested `iframe` → HTML document → text field) and the *Submit* button.
+2. Right-click the field attribute, **Create Steering Parameter**, name it `ScrollingBehavior` (exact spelling, no space), value `Top` (others: `Bottom`, `Center`, `None`).
 3. TestCase: *Enter text* (`Tosca`, ActionMode `Input`), then *Click submit* (`X`).
 
-Tosca scrolls the field to the top of the viewport before typing; no static wait or scroll module is needed. Other steering parameters are listed in [Module properties and parameters](/ToscaBase/modules/module-properties-and-parameters/); see also [Synchronisation, not waits](/ToscaBase/best-practices/synchronisation-not-waits/).
+Tosca scrolls the field to the top of the viewport before typing; no static wait or scroll Module is needed. Other steering parameters: [Module properties and parameters](/ToscaBase/modules/module-properties-and-parameters/); see also [Synchronisation, not waits](/ToscaBase/best-practices/synchronisation-not-waits/).

@@ -27,13 +27,13 @@ sources:
     at: "12:22"
 ---
 
-A table scanned with XScan becomes a TBox table control: a ModuleAttribute with a fixed inner structure of rows, columns and cells. In the TestCase you do not address a cell by its HTML; you say which row, which column and which cell, using selectors, constraints and properties that Tosca provides for every table. This doc covers the structure, the selectors, the ActionModes and properties, and the standard steering patterns. Problem tables (shuffled rows, `div` tables, unknown row counts) are in [Obstacles: tables](/ToscaBase/troubleshooting/obstacles-tables/); comparing a table against a saved snapshot is in [Table baseline comparison](/ToscaBase/modules/table-baseline-comparison/).
+A table scanned with XScan becomes a TBox table control: a ModuleAttribute with a fixed inner structure of rows, columns and cells. In the TestCase you do not address a cell by its HTML; you say which row, column and cell, using the selectors, constraints and properties Tosca provides for every table. This doc covers structure, selectors, ActionModes, properties and the standard steering patterns. Problem tables (shuffled rows, `div` tables, unknown row counts) are in [Obstacles: tables](/ToscaBase/troubleshooting/obstacles-tables/); comparing a table against a saved snapshot is in [Table baseline comparison](/ToscaBase/modules/table-baseline-comparison/).
 
 ## Structure
 
-When you drag a Module with a table into a TestCase, the TestStep shows the table with two child nodes, **Row** and **Column**. A row has cells; a column has cells too. So there are three levels to steer: the row (or column), then a cell inside it, then the cell's value or property. XScan reports the control with tag type `table`.
+When you drag a Module with a table into a TestCase, the TestStep shows the table with two child nodes, **Row** and **Column**, each containing cells; so there are three levels to steer: the row (or column), a cell inside it, and the cell's value or property. XScan reports the control with tag type `table`.
 
-In the Module, the table has a **header row** setting under its properties. It defaults to the first row; change it if the header is elsewhere.
+In the Module, the table's **header row** setting defaults to the first row; change it if the header is elsewhere.
 
 ## Selectors for rows, columns and cells
 
@@ -49,19 +49,17 @@ The same selectors work on rows, columns and cells:
 | `#2` | The second match when a constraint matches several rows (see example 4) |
 
 :::note
-The speaker reads *last content row* and *first empty row* aloud without showing the spelling. `$lastContentRow` is confirmed by Lesson 125 ([Obstacles: tables](/ToscaBase/troubleshooting/obstacles-tables/#last-row-obstacle-19)); the spelling of the first-empty-row selector is not shown, so look it up in the value drop-down of the row node.
+The speaker reads *last content row* and *first empty row* aloud without showing the spelling. `$lastContentRow` is confirmed by Lesson 125 ([Obstacles: tables](/ToscaBase/troubleshooting/obstacles-tables/#last-row-obstacle-19)); for the first-empty-row selector, look in the value drop-down of the row node.
 :::
 
 ## ActionModes on tables
 
-The usual ActionModes apply, with table-specific meaning:
+The usual [ActionModes](/ToscaBase/test-cases/action-modes/) apply, with table-specific meaning:
 
 - **Input**: enter a value into a cell.
 - **Verify**: verify a cell value or a table property.
 - **Constraint**: restrict the search. A constraint on a cell selects the row (or column) where that cell has the given value; the rest of the TestStep then acts on that row.
 - **Buffer**: store the value of a cell, row or column in a Buffer; see [Buffers](/ToscaBase/data-and-parameters/buffers/).
-
-ActionModes in general are in [ActionModes](/ToscaBase/test-cases/action-modes/).
 
 ## Table properties
 
@@ -77,39 +75,39 @@ Set on the table node (or a row/column/cell node) by choosing the property inste
 
 ## Steering examples
 
-All examples use the obstacle-list table of the Tricentis Obstacle Course (columns include `ID`, `Name`, `Category`), scanned into a Module `Obstacle list`. Each example is one TestStep of the Module.
+All examples use the obstacle-list table of the Tricentis Obstacle Course (columns include `ID`, `Name`, `Category`), scanned into a Module `Obstacle list`; each example is one TestStep of it.
 
-1. **Fixed row position.** Row `$3`, cell `Name`, ActionMode `Verify`, value `Not a table`. Use only when the row number never changes.
+1. **Fixed row position.** Row `$3`, cell `Name`, ActionMode `Verify`, value `Not a table`. Only when the row number never changes.
 2. **Row by a cell value (constraint).** Row, cell `Name` = `Fun with tables` with ActionMode `Constraint`; cell `Category` = `hard` with `Verify`. Tosca searches every row for the constraint value and selects the matching row. Two constraints (for example `ID` and `Name`) narrow further when one value is not unique.
-3. **Row by value, without constraint.** Put the value directly on the row node: row = `Wait a moment`, then cell `Category` = `easy` with `Verify`. Works only when the value is unique across all rows; it is faster than a constraint on a large table, because a constraint has to filter the rows.
+3. **Row by value, without constraint.** Put the value directly on the row node: row = `Wait a moment`, then cell `Category` = `easy` with `Verify`. Works only when the value is unique across all rows; on a large table it is faster than a constraint, which has to filter the rows.
 4. **The n-th matching row.** Row `#2`, cell `Category` = `easy` with `Constraint`, cell `Name` = `Twins` with `Verify`. Several rows have category `easy`; `#2` takes the second of them.
 5. **Row and column count.** On the table node choose property `RowCount`, ActionMode `Verify`, value `12`. The same with `ColumnCount`; the speaker's guess of `10` fails because the table has nine columns. The verification runs at table level, so the log shows less detail than a cell verification.
 6. **Buffer a cell.** Column `Name`, cell `$5`, property `Text`, ActionMode `Buffer`, value `b_name`. The Buffer receives `Fun with tables`, visible afterwards in the Buffer Viewer.
 
-The pattern is always the same: first find the row or column by a search criterion, then act on a cell in it.
+The pattern is always the same: find the row or column by a search criterion, then act on a cell in it.
 
 ## Verify row and column count with a Buffer
 
-Example 5 verifies the count directly. The other source does it in two steps, which is useful when the expected number is computed elsewhere:
+Example 5 verifies the count directly; the other source does it in two steps, useful when the expected number is computed elsewhere:
 
 1. Table node → property `RowCount`, ActionMode `Buffer`, value `rowcount`.
 2. TestStep `TBox Evaluation Tool` with the expression `{B[rowcount]}==5`.
 3. Same for `ColumnCount` into `columncount`, evaluated against `4`.
 
-On the sample table the header row is counted: four data rows give `RowCount = 5`. See [Evaluation tool](/ToscaBase/standard-modules/evaluation-tool/) for the expression syntax.
+The header row is counted: four data rows give `RowCount = 5`. Expression syntax: [Evaluation tool](/ToscaBase/standard-modules/evaluation-tool/).
 
-Lesson 24 does the same on the web shop cart with `ResultCount`: row node → property `ResultCount`, ActionMode `Buffer`, value `cart items`; `TBox Set Buffer` then computes `{MATH[{B[cart items]}-1]}` to drop the header, and the result drives a folder Repetition that ticks the *Remove* checkbox of row `{REPETITION}` on every pass; see [Repetitions](/ToscaBase/test-cases/repetitions/).
+Lesson 24 buffers `ResultCount` from the row node of the web shop cart the same way, subtracts the header with `TBox Set Buffer` and `{MATH[{B[cart items]}-1]}`, and lets the result drive a folder Repetition over row `{REPETITION}`; see [Repetitions](/ToscaBase/test-cases/repetitions/).
 
 ## Embedded controls inside a table
 
-A button, link or checkbox that appears in every row (a *Go for it* link in the obstacle list, the *Remove* checkbox in the web shop cart) is scanned by XScan as a control **next to** the table, not inside a row. All such controls share the same properties (`name` = `removefromcart`, `tag` = `input` for every checkbox), so steering one fails with *more than one control found*. The fix is to make the control part of a cell, so that it is addressed through the row.
+A button, link or checkbox that appears in every row (a *Go for it* link in the obstacle list, the *Remove* checkbox in the web shop cart) is scanned by XScan as a control **next to** the table, not inside a row. All such controls share the same properties (`name` = `removefromcart`, `tag` = `input` for every checkbox), so steering one fails with *more than one control found*. The fix is to make the control part of a cell, addressed through the row.
 
-**Way 1, rearrange the scanned control.** Scan the table and one link (ignore *not unique* on the control; if the table itself is not unique, click **Make unique**, and raise **Filtered items** to see the `table` and `tr` elements). In the Module, drag the link attribute into the cell of the row that contains it. The tree now reads table → row → cell → link. Re-add the Module to the TestCase: row `$1`, cell `Action` with ActionMode `Select`, link → click. The click lands on the first row's link. For the checkbox: row `$1`, cell `Remove` → `Select`, checkbox → `True`.
+**Way 1, rearrange the scanned control.** Scan the table and one link (ignore *not unique* on the control; if the table itself is not unique, click **Make unique**, and raise **Filtered items** to see the `table` and `tr` elements). In the Module, drag the link attribute into the cell of the row that contains it, so the tree reads table → row → cell → link. Re-add the Module to the TestCase: row `$1`, cell `Action` with ActionMode `Select`, link → click lands on the first row's link. For the checkbox: row `$1`, cell `Remove` → `Select`, checkbox → `True`.
 
 **Way 2, create the embedded control by hand.** With only the table scanned:
 
 1. In the Module, right-click the cell under the row, open the **...** menu and choose **Create embedded link control** (**Create embedded checkbox control** and other types are offered). Name it, for example `Go`.
 2. Right-click the new control, open **...** again and **Create technical ID parameter**. Add the properties you know: `tag` = `a`, and optionally `InnerText` = `Go for it`. Without technical properties the control only works while the cell holds a single control of that business type: Lesson 30 deletes the checkbox's `name` and `tag` parameters again and row `$2` → `Remove` → `True` still works.
-3. In the TestCase: row `$1`, cell `Action` → `Select`, `Go` → type the click method by hand; the drop-down does not offer it for a custom control.
+3. In the TestCase: row `$1`, cell `Action` → `Select`, `Go` → type the click method by hand (the drop-down does not offer it for a custom control).
 
-Both ways work for any container, not only tables. The same technique solves obstacle 5 in [Obstacles: tables](/ToscaBase/troubleshooting/obstacles-tables/).
+Both ways work for any container, not only tables; the same technique solves obstacle 5 in [Obstacles: tables](/ToscaBase/troubleshooting/obstacles-tables/).
