@@ -19,8 +19,9 @@ Built with Astro + Starlight, hosted on GitHub Pages at https://letulip.github.i
 2. In a Claude Code session: run the deduplication step from `CONTENT_GUIDE.md` (find existing
    docs on the same topics, write a merge plan), then update or create topic docs, then translate
    every touched page into `ru/`. Add new docs to `reference/learning-path.md`.
-3. Record the produced doc paths in `raw/manifest.json` under that video.
-4. `npm run build` must pass. Commit and push; GitHub Actions deploys.
+3. `python3 scripts/fill_manifest_docs.py` records doc paths per video in `raw/manifest.json` (from each doc's `sources`).
+4. `npm run build` must pass; `python3 scripts/check_links.py` must report 0 missing targets. Commit and push; GitHub Actions deploys.
+5. Update `raw/topic-map.md` if docs were added, split or merged.
 
 ## Development
 
