@@ -1,0 +1,1052 @@
+[
+ {
+  "start": 1.68,
+  "end": 4.85,
+  "text": "foreign"
+ },
+ {
+  "start": 17.33,
+  "end": 17.34,
+  "text": "Advanced Training"
+ },
+ {
+  "start": 17.34,
+  "end": 20.45,
+  "text": "so this is our lesson 22"
+ },
+ {
+  "start": 20.46,
+  "end": 23.39,
+  "text": "in terms of overall try sentence Tasker"
+ },
+ {
+  "start": 23.4,
+  "end": 24.59,
+  "text": "training"
+ },
+ {
+  "start": 24.6,
+  "end": 28.37,
+  "text": "R it's a lesson 7 in terms of Advanced"
+ },
+ {
+  "start": 28.38,
+  "end": 30.349,
+  "text": "Training so I would recommend you guys"
+ },
+ {
+  "start": 30.359,
+  "end": 32.389,
+  "text": "to please visit my previous videos"
+ },
+ {
+  "start": 32.399,
+  "end": 35.03,
+  "text": "before you watch this session to"
+ },
+ {
+  "start": 35.04,
+  "end": 37.729,
+  "text": "understand the concepts very well"
+ },
+ {
+  "start": 37.739,
+  "end": 40.209,
+  "text": "so in this lesson I'm going to teach you"
+ },
+ {
+  "start": 40.219,
+  "end": 43.91,
+  "text": "how can you use a dynamic comparison or"
+ },
+ {
+  "start": 43.92,
+  "end": 46.33,
+  "text": "how can you perform Dynamic comparison"
+ },
+ {
+  "start": 46.34,
+  "end": 50.69,
+  "text": "while automating your test cases are"
+ },
+ {
+  "start": 50.7,
+  "end": 53.029,
+  "text": "while validating your"
+ },
+ {
+  "start": 53.039,
+  "end": 56.27,
+  "text": "test cases by using tricentish task"
+ },
+ {
+  "start": 56.28,
+  "end": 57.59,
+  "text": "automation"
+ },
+ {
+  "start": 57.6,
+  "end": 60.17,
+  "text": "so Dynamic for dynamic comparison we use"
+ },
+ {
+  "start": 60.18,
+  "end": 63.47,
+  "text": "x buffer so you're gonna learn X buffer"
+ },
+ {
+  "start": 63.48,
+  "end": 66.289,
+  "text": "Concept in this particular training"
+ },
+ {
+  "start": 66.299,
+  "end": 67.31,
+  "text": "session"
+ },
+ {
+  "start": 67.32,
+  "end": 70.609,
+  "text": "please do subscribe to the channel click"
+ },
+ {
+  "start": 70.619,
+  "end": 72.109,
+  "text": "on Bell icon you'll receive"
+ },
+ {
+  "start": 72.119,
+  "end": 74.63,
+  "text": "notifications whenever I publish more"
+ },
+ {
+  "start": 74.64,
+  "end": 78.05,
+  "text": "videos thank you"
+ },
+ {
+  "start": 78.06,
+  "end": 79.07,
+  "text": "okay"
+ },
+ {
+  "start": 79.08,
+  "end": 81.469,
+  "text": "so what is dynamic comparison"
+ },
+ {
+  "start": 81.479,
+  "end": 83.63,
+  "text": "so in this lesson you I'm gonna teach"
+ },
+ {
+  "start": 83.64,
+  "end": 86.45,
+  "text": "you how can you set up and then how to"
+ },
+ {
+  "start": 86.46,
+  "end": 88.67,
+  "text": "use Dynamic comparison"
+ },
+ {
+  "start": 88.68,
+  "end": 91.37,
+  "text": "and the dynamic comparison is a feature"
+ },
+ {
+  "start": 91.38,
+  "end": 95.569,
+  "text": "within Tosca that allows you to verify a"
+ },
+ {
+  "start": 95.579,
+  "end": 99.289,
+  "text": "portion of the string that is static so"
+ },
+ {
+  "start": 99.299,
+  "end": 101.149,
+  "text": "basically you can verify static portion"
+ },
+ {
+  "start": 101.159,
+  "end": 105.289,
+  "text": "of the string and you can buffer another"
+ },
+ {
+  "start": 105.299,
+  "end": 109.069,
+  "text": "portion of the string which is dynamic"
+ },
+ {
+  "start": 109.079,
+  "end": 114.17,
+  "text": "okay so let's assume once you order your"
+ },
+ {
+  "start": 114.18,
+  "end": 117.77,
+  "text": "product in any e-commerce site right it"
+ },
+ {
+  "start": 117.78,
+  "end": 121.13,
+  "text": "says your order has been successfully"
+ },
+ {
+  "start": 121.14,
+  "end": 124.13,
+  "text": "placed and it gives you the order number"
+ },
+ {
+  "start": 124.14,
+  "end": 127.01,
+  "text": "so in this case the order number is a"
+ },
+ {
+  "start": 127.02,
+  "end": 130.309,
+  "text": "dynamic and your order has been"
+ },
+ {
+  "start": 130.319,
+  "end": 132.77,
+  "text": "successfully placed that is a static"
+ },
+ {
+  "start": 132.78,
+  "end": 135.89,
+  "text": "text so now how can you validate this"
+ },
+ {
+  "start": 135.9,
+  "end": 137.93,
+  "text": "entire string"
+ },
+ {
+  "start": 137.94,
+  "end": 140.57,
+  "text": "part of string is dynamic and part of"
+ },
+ {
+  "start": 140.58,
+  "end": 143.65,
+  "text": "string is static so that is where"
+ },
+ {
+  "start": 143.66,
+  "end": 146.809,
+  "text": "this Dynamic comparison comes into"
+ },
+ {
+  "start": 146.819,
+  "end": 147.949,
+  "text": "picture"
+ },
+ {
+  "start": 147.959,
+  "end": 151.07,
+  "text": "okay so this is also represented as X"
+ },
+ {
+  "start": 151.08,
+  "end": 155.57,
+  "text": "buffer which is Curly braces XB in Tosca"
+ },
+ {
+  "start": 155.58,
+  "end": 157.97,
+  "text": "so basically this helps you to verify"
+ },
+ {
+  "start": 157.98,
+  "end": 160.91,
+  "text": "the string with Dynamic elements"
+ },
+ {
+  "start": 160.92,
+  "end": 164.509,
+  "text": "and as well as simultaneously"
+ },
+ {
+  "start": 164.519,
+  "end": 167.089,
+  "text": "you can buffer the element within the"
+ },
+ {
+  "start": 167.099,
+  "end": 170.99,
+  "text": "string which is a dynamic and you can"
+ },
+ {
+  "start": 171.0,
+  "end": 173.69,
+  "text": "utilize them later in your test"
+ },
+ {
+  "start": 173.7,
+  "end": 174.89,
+  "text": "validations"
+ },
+ {
+  "start": 174.9,
+  "end": 178.13,
+  "text": "okay so let's jump onto the system and"
+ },
+ {
+  "start": 178.14,
+  "end": 181.25,
+  "text": "see how can we perform this Dynamic"
+ },
+ {
+  "start": 181.26,
+  "end": 185.03,
+  "text": "comparison by using X buffer concept by"
+ },
+ {
+  "start": 185.04,
+  "end": 187.61,
+  "text": "using latest version try sentence task"
+ },
+ {
+  "start": 187.62,
+  "end": 189.71,
+  "text": "16."
+ },
+ {
+  "start": 189.72,
+  "end": 193.43,
+  "text": "so this is my task 16 okay where we are"
+ },
+ {
+  "start": 193.44,
+  "end": 195.05,
+  "text": "going to start working on Dynamic"
+ },
+ {
+  "start": 195.06,
+  "end": 198.05,
+  "text": "comparison so if you see I already"
+ },
+ {
+  "start": 198.06,
+  "end": 200.449,
+  "text": "explained you one end to end scenario"
+ },
+ {
+  "start": 200.459,
+  "end": 202.25,
+  "text": "where"
+ },
+ {
+  "start": 202.26,
+  "end": 205.25,
+  "text": "we go to if you see this is my demo web"
+ },
+ {
+  "start": 205.26,
+  "end": 206.27,
+  "text": "shop"
+ },
+ {
+  "start": 206.28,
+  "end": 208.49,
+  "text": "that is where we are working from past"
+ },
+ {
+  "start": 208.5,
+  "end": 211.009,
+  "text": "21 sessions okay you log I mean you"
+ },
+ {
+  "start": 211.019,
+  "end": 213.53,
+  "text": "basically logged into demo webshop go to"
+ },
+ {
+  "start": 213.54,
+  "end": 216.35,
+  "text": "operation shoes so I'm gonna teach you I"
+ },
+ {
+  "start": 216.36,
+  "end": 217.91,
+  "text": "mean I'm gonna tell you what scenario we"
+ },
+ {
+  "start": 217.92,
+  "end": 220.309,
+  "text": "are automating here okay and go to Blue"
+ },
+ {
+  "start": 220.319,
+  "end": 221.869,
+  "text": "Jeans"
+ },
+ {
+  "start": 221.879,
+  "end": 224.869,
+  "text": "and add to cart quantity one"
+ },
+ {
+  "start": 224.879,
+  "end": 228.47,
+  "text": "okay and then go to shopping cart"
+ },
+ {
+  "start": 228.48,
+  "end": 231.41,
+  "text": "and here agree the terms"
+ },
+ {
+  "start": 231.42,
+  "end": 233.869,
+  "text": "check out"
+ },
+ {
+  "start": 233.879,
+  "end": 235.43,
+  "text": "and here"
+ },
+ {
+  "start": 235.44,
+  "end": 237.47,
+  "text": "billing address"
+ },
+ {
+  "start": 237.48,
+  "end": 239.21,
+  "text": "shipping address so this is all already"
+ },
+ {
+  "start": 239.22,
+  "end": 241.91,
+  "text": "I explained you okay guys okay so here"
+ },
+ {
+  "start": 241.92,
+  "end": 244.07,
+  "text": "once you complete your"
+ },
+ {
+  "start": 244.08,
+  "end": 247.809,
+  "text": "entire order once you confirm the order"
+ },
+ {
+  "start": 247.819,
+  "end": 250.85,
+  "text": "you will get an order number okay so if"
+ },
+ {
+  "start": 250.86,
+  "end": 255.789,
+  "text": "you see here this text order number"
+ },
+ {
+  "start": 255.799,
+  "end": 261.349,
+  "text": "140912 correct so here order number is a"
+ },
+ {
+  "start": 261.359,
+  "end": 262.43,
+  "text": "static"
+ },
+ {
+  "start": 262.44,
+  "end": 264.49,
+  "text": "and"
+ },
+ {
+  "start": 264.5,
+  "end": 267.77,
+  "text": "1401912 is dynamic text"
+ },
+ {
+  "start": 267.78,
+  "end": 273.11,
+  "text": "okay so that means now I want to verify"
+ },
+ {
+  "start": 273.12,
+  "end": 276.23,
+  "text": "this text how can I verify this text"
+ },
+ {
+  "start": 276.24,
+  "end": 278.15,
+  "text": "so that is where Dynamic comparison"
+ },
+ {
+  "start": 278.16,
+  "end": 281.39,
+  "text": "comes into picture so let's go here so I"
+ },
+ {
+  "start": 281.4,
+  "end": 283.73,
+  "text": "already automated that entire scenario"
+ },
+ {
+  "start": 283.74,
+  "end": 286.909,
+  "text": "logging in and then check out and verify"
+ },
+ {
+  "start": 286.919,
+  "end": 290.51,
+  "text": "so here if you see there is one module"
+ },
+ {
+  "start": 290.52,
+  "end": 293.689,
+  "text": "test case step called verify the order"
+ },
+ {
+  "start": 293.699,
+  "end": 298.57,
+  "text": "success where I am verifying the"
+ },
+ {
+  "start": 298.58,
+  "end": 301.67,
+  "text": "successful order your order has been"
+ },
+ {
+  "start": 301.68,
+  "end": 304.61,
+  "text": "successfully processed and here the"
+ },
+ {
+  "start": 304.62,
+  "end": 307.55,
+  "text": "order number okay what I'm gonna do here"
+ },
+ {
+  "start": 307.56,
+  "end": 311.05,
+  "text": "I'm gonna verify this also select verify"
+ },
+ {
+  "start": 311.06,
+  "end": 314.93,
+  "text": "and here inner text this is my object"
+ },
+ {
+  "start": 314.94,
+  "end": 317.81,
+  "text": "control related to this one okay here"
+ },
+ {
+  "start": 317.82,
+  "end": 319.61,
+  "text": "I'm gonna select"
+ },
+ {
+  "start": 319.62,
+  "end": 321.65,
+  "text": "inner text"
+ },
+ {
+  "start": 321.66,
+  "end": 325.73,
+  "text": "and my inner text is equal to my inner"
+ },
+ {
+  "start": 325.74,
+  "end": 328.31,
+  "text": "text is equal to what here copy this"
+ },
+ {
+  "start": 328.32,
+  "end": 329.45,
+  "text": "okay"
+ },
+ {
+  "start": 329.46,
+  "end": 331.61,
+  "text": "copy this"
+ },
+ {
+  "start": 331.62,
+  "end": 335.87,
+  "text": "and paste here sorry this one inner text"
+ },
+ {
+  "start": 335.88,
+  "end": 338.99,
+  "text": "equal to here this is my Dynamic part"
+ },
+ {
+  "start": 339.0,
+  "end": 340.909,
+  "text": "right that one"
+ },
+ {
+  "start": 340.919,
+  "end": 344.27,
+  "text": "I'm gonna specify as X buffer"
+ },
+ {
+  "start": 344.28,
+  "end": 346.01,
+  "text": "exclude"
+ },
+ {
+  "start": 346.02,
+  "end": 347.87,
+  "text": "the verification"
+ },
+ {
+  "start": 347.88,
+  "end": 351.23,
+  "text": "and buffer this particular text this"
+ },
+ {
+  "start": 351.24,
+  "end": 353.39,
+  "text": "particular part of the string and what"
+ },
+ {
+  "start": 353.4,
+  "end": 356.87,
+  "text": "I'm doing I am specifying verify this"
+ },
+ {
+  "start": 356.88,
+  "end": 359.749,
+  "text": "entire text from here to here"
+ },
+ {
+  "start": 359.759,
+  "end": 362.95,
+  "text": "and while verifying exclude this part"
+ },
+ {
+  "start": 362.96,
+  "end": 366.17,
+  "text": "and then store this in a buffer value"
+ },
+ {
+  "start": 366.18,
+  "end": 369.11,
+  "text": "okay so for that that's the reason I'm"
+ },
+ {
+  "start": 369.12,
+  "end": 374.27,
+  "text": "going to specify x b x buffer here I'm"
+ },
+ {
+  "start": 374.28,
+  "end": 376.969,
+  "text": "gonna tell this as order number what I'm"
+ },
+ {
+  "start": 376.979,
+  "end": 380.21,
+  "text": "doing this particular string after order"
+ },
+ {
+  "start": 380.22,
+  "end": 382.309,
+  "text": "number whatever exists"
+ },
+ {
+  "start": 382.319,
+  "end": 384.35,
+  "text": "exclude that"
+ },
+ {
+  "start": 384.36,
+  "end": 387.17,
+  "text": "in the verification and store it into"
+ },
+ {
+  "start": 387.18,
+  "end": 389.689,
+  "text": "buffer called order number"
+ },
+ {
+  "start": 389.699,
+  "end": 390.95,
+  "text": "that's it"
+ },
+ {
+  "start": 390.96,
+  "end": 392.93,
+  "text": "so now if you see"
+ },
+ {
+  "start": 392.94,
+  "end": 395.749,
+  "text": "I am verifying this entire State text"
+ },
+ {
+  "start": 395.759,
+  "end": 399.469,
+  "text": "entire string but I'm excluding the part"
+ },
+ {
+  "start": 399.479,
+  "end": 402.17,
+  "text": "of string and storing that particular"
+ },
+ {
+  "start": 402.18,
+  "end": 404.87,
+  "text": "order number into order number"
+ },
+ {
+  "start": 404.88,
+  "end": 408.77,
+  "text": "buffer okay so now we are done"
+ },
+ {
+  "start": 408.78,
+  "end": 412.07,
+  "text": "so basically before you make any changes"
+ },
+ {
+  "start": 412.08,
+  "end": 414.71,
+  "text": "it's recommended to"
+ },
+ {
+  "start": 414.72,
+  "end": 416.99,
+  "text": "resolve the references"
+ },
+ {
+  "start": 417.0,
+  "end": 419.57,
+  "text": "because this actually we created by"
+ },
+ {
+  "start": 419.58,
+  "end": 420.77,
+  "text": "using Library"
+ },
+ {
+  "start": 420.78,
+  "end": 422.629,
+  "text": "so Library functions and all these"
+ },
+ {
+  "start": 422.639,
+  "end": 424.07,
+  "text": "things I already explained you guys okay"
+ },
+ {
+  "start": 424.08,
+  "end": 426.05,
+  "text": "so now"
+ },
+ {
+  "start": 426.06,
+  "end": 427.49,
+  "text": "here"
+ },
+ {
+  "start": 427.5,
+  "end": 429.59,
+  "text": "I want to run this particular test case"
+ },
+ {
+  "start": 429.6,
+  "end": 435.909,
+  "text": "as it is okay let me first log out here"
+ },
+ {
+  "start": 442.909,
+  "end": 442.919,
+  "text": "okay now right click and run in"
+ },
+ {
+  "start": 442.919,
+  "end": 446.87,
+  "text": "scratchbook which opens your webshop and"
+ },
+ {
+  "start": 446.88,
+  "end": 448.85,
+  "text": "it logs into webshop"
+ },
+ {
+  "start": 448.86,
+  "end": 451.37,
+  "text": "so logging in providing the credentials"
+ },
+ {
+  "start": 451.38,
+  "end": 453.95,
+  "text": "and then go to appearance and choose"
+ },
+ {
+  "start": 453.96,
+  "end": 456.29,
+  "text": "and it orders the genes"
+ },
+ {
+  "start": 456.3,
+  "end": 458.87,
+  "text": "is going to add that into card see it's"
+ },
+ {
+  "start": 458.88,
+  "end": 461.029,
+  "text": "adding into the cut"
+ },
+ {
+  "start": 461.039,
+  "end": 464.749,
+  "text": "done 25 amount go to shopping cart agree"
+ },
+ {
+  "start": 464.759,
+  "end": 465.95,
+  "text": "terms"
+ },
+ {
+  "start": 465.96,
+  "end": 467.45,
+  "text": "so basically it is applying the coupon"
+ },
+ {
+  "start": 467.46,
+  "end": 469.43,
+  "text": "agree terms"
+ },
+ {
+  "start": 469.44,
+  "end": 471.05,
+  "text": "check out"
+ },
+ {
+  "start": 471.06,
+  "end": 473.99,
+  "text": "click on continue continue and then it"
+ },
+ {
+  "start": 474.0,
+  "end": 475.85,
+  "text": "is actually shipping method it's"
+ },
+ {
+  "start": 475.86,
+  "end": 477.77,
+  "text": "selecting payment method"
+ },
+ {
+  "start": 477.78,
+  "end": 480.409,
+  "text": "right and it's selecting"
+ },
+ {
+  "start": 480.419,
+  "end": 482.87,
+  "text": "the credit card and then it's click on"
+ },
+ {
+  "start": 482.88,
+  "end": 485.15,
+  "text": "confirm so once you click on confirm"
+ },
+ {
+  "start": 485.16,
+  "end": 486.73,
+  "text": "it's going to verify the success message"
+ },
+ {
+  "start": 486.74,
+  "end": 490.07,
+  "text": "and it's going to verify this also right"
+ },
+ {
+  "start": 490.08,
+  "end": 492.11,
+  "text": "and then it's going to log out"
+ },
+ {
+  "start": 492.12,
+  "end": 495.589,
+  "text": "okay it's done logged out so if you see"
+ },
+ {
+  "start": 495.599,
+  "end": 496.39,
+  "text": "here"
+ },
+ {
+  "start": 496.4,
+  "end": 499.369,
+  "text": "successfully completed so if I go to"
+ },
+ {
+  "start": 499.379,
+  "end": 502.73,
+  "text": "test results if I go to test results"
+ },
+ {
+  "start": 502.74,
+  "end": 505.73,
+  "text": "let's go to test results now if you see"
+ },
+ {
+  "start": 505.74,
+  "end": 509.629,
+  "text": "here under shopping cart"
+ },
+ {
+  "start": 509.639,
+  "end": 514.07,
+  "text": "procedure here verify order success if"
+ },
+ {
+  "start": 514.08,
+  "end": 515.57,
+  "text": "you see here"
+ },
+ {
+  "start": 515.58,
+  "end": 518.87,
+  "text": "it says this order number verification"
+ },
+ {
+  "start": 518.88,
+  "end": 523.19,
+  "text": "is successful and the order number is"
+ },
+ {
+  "start": 523.2,
+  "end": 524.99,
+  "text": "placed here okay so let me see the"
+ },
+ {
+  "start": 525.0,
+  "end": 526.85,
+  "text": "buffer how does it buffer stored okay"
+ },
+ {
+  "start": 526.86,
+  "end": 529.37,
+  "text": "let's go to tools and click on Buffer"
+ },
+ {
+  "start": 529.38,
+  "end": 532.55,
+  "text": "overview and if you see here order"
+ },
+ {
+  "start": 532.56,
+  "end": 536.389,
+  "text": "number see buffer called order number is"
+ },
+ {
+  "start": 536.399,
+  "end": 539.87,
+  "text": "stored with actual order number"
+ },
+ {
+  "start": 539.88,
+  "end": 542.93,
+  "text": "so you have to go to tools click on"
+ },
+ {
+  "start": 542.94,
+  "end": 544.31,
+  "text": "Buffer viewer"
+ },
+ {
+  "start": 544.32,
+  "end": 547.55,
+  "text": "see this is where I see the order number"
+ },
+ {
+  "start": 547.56,
+  "end": 550.97,
+  "text": "whatever the buffer I specified I can"
+ },
+ {
+  "start": 550.98,
+  "end": 553.25,
+  "text": "see here see this is the order number XB"
+ },
+ {
+  "start": 553.26,
+  "end": 556.37,
+  "text": "so that order number has been placed"
+ },
+ {
+  "start": 556.38,
+  "end": 558.59,
+  "text": "correct so now I can use this order"
+ },
+ {
+  "start": 558.6,
+  "end": 561.829,
+  "text": "number to verify the order number right"
+ },
+ {
+  "start": 561.839,
+  "end": 565.07,
+  "text": "so hope you all understand the concept"
+ },
+ {
+  "start": 565.08,
+  "end": 568.55,
+  "text": "of dynamic comparison how can you"
+ },
+ {
+  "start": 568.56,
+  "end": 572.15,
+  "text": "validate a message which is a dynamic"
+ },
+ {
+  "start": 572.16,
+  "end": 574.49,
+  "text": "some portion of the message is static"
+ },
+ {
+  "start": 574.5,
+  "end": 575.99,
+  "text": "and some portion of the message is"
+ },
+ {
+  "start": 576.0,
+  "end": 578.509,
+  "text": "dynamic okay so if you have any queries"
+ },
+ {
+  "start": 578.519,
+  "end": 580.49,
+  "text": "leave your comments in the comment box"
+ },
+ {
+  "start": 580.5,
+  "end": 582.59,
+  "text": "I'll try to respond to your queries"
+ },
+ {
+  "start": 582.6,
+  "end": 584.99,
+  "text": "please do subscribe to the channel click"
+ },
+ {
+  "start": 585.0,
+  "end": 586.25,
+  "text": "on Bell icon you'll receive"
+ },
+ {
+  "start": 586.26,
+  "end": 588.29,
+  "text": "notifications whenever I publish more"
+ },
+ {
+  "start": 588.3,
+  "end": 591.56,
+  "text": "videos thank you"
+ }
+]

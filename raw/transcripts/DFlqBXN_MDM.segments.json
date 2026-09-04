@@ -1,0 +1,2342 @@
+[
+ {
+  "start": 0.48,
+  "end": 0.98,
+  "text": "foreign"
+ },
+ {
+  "start": 17.93,
+  "end": 17.94,
+  "text": "automation tutorial"
+ },
+ {
+  "start": 17.94,
+  "end": 20.09,
+  "text": "so as you all know I have already"
+ },
+ {
+  "start": 20.1,
+  "end": 26.589,
+  "text": "published around 11 YouTube videos on"
+ },
+ {
+  "start": 26.599,
+  "end": 29.41,
+  "text": "tricentistoska latest version 16"
+ },
+ {
+  "start": 29.42,
+  "end": 32.87,
+  "text": "covering different topics of test case"
+ },
+ {
+  "start": 32.88,
+  "end": 34.79,
+  "text": "automation"
+ },
+ {
+  "start": 34.8,
+  "end": 38.75,
+  "text": "so this is our lesson 12 where I'm gonna"
+ },
+ {
+  "start": 38.76,
+  "end": 41.63,
+  "text": "teach you about the action modes that"
+ },
+ {
+  "start": 41.64,
+  "end": 45.17,
+  "text": "are available in tricentice Tosca 16."
+ },
+ {
+  "start": 45.18,
+  "end": 49.01,
+  "text": "and also I'm gonna teach you setting up"
+ },
+ {
+  "start": 49.02,
+  "end": 52.97,
+  "text": "action modes like wait on verify and"
+ },
+ {
+  "start": 52.98,
+  "end": 57.049,
+  "text": "select action modes by automating some"
+ },
+ {
+  "start": 57.059,
+  "end": 61.549,
+  "text": "of the test cases related to webshop"
+ },
+ {
+  "start": 61.559,
+  "end": 64.549,
+  "text": "please do subscribe to the channel click"
+ },
+ {
+  "start": 64.559,
+  "end": 66.17,
+  "text": "on Bell icon you'll receive"
+ },
+ {
+  "start": 66.18,
+  "end": 68.87,
+  "text": "notifications whenever I publish more"
+ },
+ {
+  "start": 68.88,
+  "end": 69.77,
+  "text": "videos"
+ },
+ {
+  "start": 69.78,
+  "end": 73.609,
+  "text": "thank you"
+ },
+ {
+  "start": 76.67,
+  "end": 76.68,
+  "text": "okay so what is our agent item"
+ },
+ {
+  "start": 76.68,
+  "end": 79.31,
+  "text": "so the action modes"
+ },
+ {
+  "start": 79.32,
+  "end": 84.469,
+  "text": "are to tell Tosca what to do with test"
+ },
+ {
+  "start": 84.479,
+  "end": 88.91,
+  "text": "step value to enter or to steal a"
+ },
+ {
+  "start": 88.92,
+  "end": 90.77,
+  "text": "particular control"
+ },
+ {
+  "start": 90.78,
+  "end": 92.99,
+  "text": "so basically we are setting up action"
+ },
+ {
+  "start": 93.0,
+  "end": 95.99,
+  "text": "modes to tell Tasker what to do with the"
+ },
+ {
+  "start": 96.0,
+  "end": 98.81,
+  "text": "test of values that we entered in a test"
+ },
+ {
+  "start": 98.82,
+  "end": 101.69,
+  "text": "step"
+ },
+ {
+  "start": 103.31,
+  "end": 103.32,
+  "text": "particular control"
+ },
+ {
+  "start": 103.32,
+  "end": 105.109,
+  "text": "so if you remember in my previous videos"
+ },
+ {
+  "start": 105.119,
+  "end": 108.59,
+  "text": "we already covered creation of test tips"
+ },
+ {
+  "start": 108.6,
+  "end": 110.149,
+  "text": "and then"
+ },
+ {
+  "start": 110.159,
+  "end": 112.31,
+  "text": "providing the test of values for the"
+ },
+ {
+  "start": 112.32,
+  "end": 114.889,
+  "text": "test tips right so"
+ },
+ {
+  "start": 114.899,
+  "end": 117.649,
+  "text": "what you have to do with those stepped"
+ },
+ {
+  "start": 117.659,
+  "end": 120.289,
+  "text": "up values that we are going to Define in"
+ },
+ {
+  "start": 120.299,
+  "end": 121.85,
+  "text": "action modes"
+ },
+ {
+  "start": 121.86,
+  "end": 124.73,
+  "text": "and you can select these action modes"
+ },
+ {
+  "start": 124.74,
+  "end": 128.15,
+  "text": "within test case section in the column"
+ },
+ {
+  "start": 128.16,
+  "end": 132.11,
+  "text": "action mode I'm going to show you"
+ },
+ {
+  "start": 132.12,
+  "end": 134.33,
+  "text": "shortly how can we set up these action"
+ },
+ {
+  "start": 134.34,
+  "end": 135.309,
+  "text": "modes"
+ },
+ {
+  "start": 135.319,
+  "end": 137.57,
+  "text": "and then"
+ },
+ {
+  "start": 137.58,
+  "end": 140.69,
+  "text": "there are different action modes like"
+ },
+ {
+  "start": 140.7,
+  "end": 142.13,
+  "text": "input"
+ },
+ {
+  "start": 142.14,
+  "end": 143.57,
+  "text": "insert"
+ },
+ {
+  "start": 143.58,
+  "end": 148.61,
+  "text": "buffer constraint select verify and wait"
+ },
+ {
+  "start": 148.62,
+  "end": 150.29,
+  "text": "on these are all the different action"
+ },
+ {
+  "start": 150.3,
+  "end": 153.53,
+  "text": "modes that are available in Tasker so"
+ },
+ {
+  "start": 153.54,
+  "end": 156.83,
+  "text": "input is a default action mode"
+ },
+ {
+  "start": 156.84,
+  "end": 159.65,
+  "text": "that is"
+ },
+ {
+  "start": 159.66,
+  "end": 162.85,
+  "text": "provided by the task that means default"
+ },
+ {
+  "start": 162.86,
+  "end": 166.61,
+  "text": "transfer values to a test object so in"
+ },
+ {
+  "start": 166.62,
+  "end": 168.71,
+  "text": "my previous sessions right"
+ },
+ {
+  "start": 168.72,
+  "end": 172.25,
+  "text": "click on a particular control or to"
+ },
+ {
+  "start": 172.26,
+  "end": 175.369,
+  "text": "enter the text in edit box we used a"
+ },
+ {
+  "start": 175.379,
+  "end": 177.949,
+  "text": "action Mode called input so that's a"
+ },
+ {
+  "start": 177.959,
+  "end": 179.99,
+  "text": "default action mode"
+ },
+ {
+  "start": 180.0,
+  "end": 183.29,
+  "text": "that transverse values to test object"
+ },
+ {
+  "start": 183.3,
+  "end": 188.089,
+  "text": "okay and then there are another uh there"
+ },
+ {
+  "start": 188.099,
+  "end": 189.47,
+  "text": "is another"
+ },
+ {
+  "start": 189.48,
+  "end": 192.29,
+  "text": "action Mode called insert"
+ },
+ {
+  "start": 192.3,
+  "end": 195.53,
+  "text": "so insert is actually used for non-ui"
+ },
+ {
+  "start": 195.54,
+  "end": 197.33,
+  "text": "related test cases so I'm not going to"
+ },
+ {
+  "start": 197.34,
+  "end": 199.91,
+  "text": "cover this action mode and then buffer"
+ },
+ {
+  "start": 199.92,
+  "end": 202.55,
+  "text": "and constraint yes these we are going to"
+ },
+ {
+  "start": 202.56,
+  "end": 205.43,
+  "text": "use in try sentence Tasker for the UI"
+ },
+ {
+  "start": 205.44,
+  "end": 207.89,
+  "text": "automation but I'm gonna teach you in"
+ },
+ {
+  "start": 207.9,
+  "end": 210.53,
+  "text": "the upcoming sessions so for this"
+ },
+ {
+  "start": 210.54,
+  "end": 213.05,
+  "text": "session we are going to focus on the"
+ },
+ {
+  "start": 213.06,
+  "end": 216.83,
+  "text": "action modes called select verify and"
+ },
+ {
+  "start": 216.84,
+  "end": 218.33,
+  "text": "wait on"
+ },
+ {
+  "start": 218.34,
+  "end": 222.289,
+  "text": "okay so now let's"
+ },
+ {
+  "start": 222.299,
+  "end": 227.809,
+  "text": "deep dive into select verify and wait on"
+ },
+ {
+  "start": 231.41,
+  "end": 231.42,
+  "text": "okay what is action mode select so this"
+ },
+ {
+  "start": 231.42,
+  "end": 234.41,
+  "text": "is a passive action mode used to"
+ },
+ {
+  "start": 234.42,
+  "end": 239.869,
+  "text": "navigate tables and drop down menus"
+ },
+ {
+  "start": 239.879,
+  "end": 244.07,
+  "text": "and select table you want to focus on so"
+ },
+ {
+  "start": 244.08,
+  "end": 247.07,
+  "text": "basically when you are using an action"
+ },
+ {
+  "start": 247.08,
+  "end": 250.729,
+  "text": "Mode called select that is to use that"
+ },
+ {
+  "start": 250.739,
+  "end": 253.19,
+  "text": "is to select a table or select a drop"
+ },
+ {
+  "start": 253.2,
+  "end": 256.129,
+  "text": "down but not to perform or but not to"
+ },
+ {
+  "start": 256.139,
+  "end": 259.969,
+  "text": "send any any values to the control it is"
+ },
+ {
+  "start": 259.979,
+  "end": 262.73,
+  "text": "to just select a table or a drop down"
+ },
+ {
+  "start": 262.74,
+  "end": 267.55,
+  "text": "menu okay and but if you want to input"
+ },
+ {
+  "start": 267.56,
+  "end": 271.37,
+  "text": "or retrieve some data from particular"
+ },
+ {
+  "start": 271.38,
+  "end": 275.27,
+  "text": "table then you need to use action Mode"
+ },
+ {
+  "start": 275.28,
+  "end": 277.969,
+  "text": "called input but not select"
+ },
+ {
+  "start": 277.979,
+  "end": 280.189,
+  "text": "okay you understand right so let's say"
+ },
+ {
+  "start": 280.199,
+  "end": 282.77,
+  "text": "if you want to input there is an edit"
+ },
+ {
+  "start": 282.78,
+  "end": 286.43,
+  "text": "box or there is a value within the table"
+ },
+ {
+  "start": 286.44,
+  "end": 288.83,
+  "text": "if you want to retrieve or if you want"
+ },
+ {
+  "start": 288.84,
+  "end": 291.17,
+  "text": "to verify that particular value you need"
+ },
+ {
+  "start": 291.18,
+  "end": 293.39,
+  "text": "to input you need to use the action Mode"
+ },
+ {
+  "start": 293.4,
+  "end": 295.85,
+  "text": "called input but not the select select"
+ },
+ {
+  "start": 295.86,
+  "end": 298.37,
+  "text": "is used to just select the table and"
+ },
+ {
+  "start": 298.38,
+  "end": 300.189,
+  "text": "then perform some other operations"
+ },
+ {
+  "start": 300.199,
+  "end": 303.469,
+  "text": "within the table or retrieve some values"
+ },
+ {
+  "start": 303.479,
+  "end": 306.05,
+  "text": "within the table right but you will be"
+ },
+ {
+  "start": 306.06,
+  "end": 308.51,
+  "text": "selecting the table or you'll be"
+ },
+ {
+  "start": 308.52,
+  "end": 311.09,
+  "text": "selecting corresponding column and then"
+ },
+ {
+  "start": 311.1,
+  "end": 313.73,
+  "text": "you perform some other actions okay so"
+ },
+ {
+  "start": 313.74,
+  "end": 316.37,
+  "text": "that's select action mode and verify"
+ },
+ {
+  "start": 316.38,
+  "end": 319.01,
+  "text": "action mode this is used to check the"
+ },
+ {
+  "start": 319.02,
+  "end": 322.55,
+  "text": "values are the controls right for every"
+ },
+ {
+  "start": 322.56,
+  "end": 325.01,
+  "text": "test case we need to have a verification"
+ },
+ {
+  "start": 325.02,
+  "end": 327.95,
+  "text": "so first of all verify means what so"
+ },
+ {
+  "start": 327.96,
+  "end": 330.59,
+  "text": "when you are automating a test case you"
+ },
+ {
+  "start": 330.6,
+  "end": 332.15,
+  "text": "need to have some verification points"
+ },
+ {
+  "start": 332.16,
+  "end": 335.57,
+  "text": "right so to this we will be using this"
+ },
+ {
+  "start": 335.58,
+  "end": 338.87,
+  "text": "verify to check some values or to check"
+ },
+ {
+  "start": 338.88,
+  "end": 341.87,
+  "text": "the controls that are required okay and"
+ },
+ {
+  "start": 341.88,
+  "end": 344.33,
+  "text": "wait up so weight on is used to perform"
+ },
+ {
+  "start": 344.34,
+  "end": 346.85,
+  "text": "Dynamic weight instead of static weight"
+ },
+ {
+  "start": 346.86,
+  "end": 349.189,
+  "text": "so when you use a static weight like 10"
+ },
+ {
+  "start": 349.199,
+  "end": 351.35,
+  "text": "seconds 20 seconds 30 seconds it's hard"
+ },
+ {
+  "start": 351.36,
+  "end": 354.17,
+  "text": "coded values right so we need to avoid"
+ },
+ {
+  "start": 354.18,
+  "end": 357.11,
+  "text": "using hard-coded values you need to use"
+ },
+ {
+  "start": 357.12,
+  "end": 361.43,
+  "text": "a static weight that means let's say"
+ },
+ {
+  "start": 361.44,
+  "end": 365.39,
+  "text": "I want to wait until these elements are"
+ },
+ {
+  "start": 365.4,
+  "end": 368.81,
+  "text": "loaded on the page I want to wait until"
+ },
+ {
+  "start": 368.82,
+  "end": 371.45,
+  "text": "this message appears on the screen so"
+ },
+ {
+  "start": 371.46,
+  "end": 373.969,
+  "text": "then you need to use weight on okay this"
+ },
+ {
+  "start": 373.979,
+  "end": 377.51,
+  "text": "is very important wait on action mode to"
+ },
+ {
+  "start": 377.52,
+  "end": 380.029,
+  "text": "improve your test case automation"
+ },
+ {
+  "start": 380.039,
+  "end": 383.15,
+  "text": "okay so all these action modes are very"
+ },
+ {
+  "start": 383.16,
+  "end": 384.469,
+  "text": "very important"
+ },
+ {
+  "start": 384.479,
+  "end": 387.409,
+  "text": "to simplify your test cases while"
+ },
+ {
+  "start": 387.419,
+  "end": 390.95,
+  "text": "automating your scripts okay so now"
+ },
+ {
+  "start": 390.96,
+  "end": 393.71,
+  "text": "let's jump onto the system and see how"
+ },
+ {
+  "start": 393.72,
+  "end": 396.59,
+  "text": "can we use all the Jack all these action"
+ },
+ {
+  "start": 396.6,
+  "end": 400.37,
+  "text": "modes by automating some test cases okay"
+ },
+ {
+  "start": 400.38,
+  "end": 404.629,
+  "text": "let's jump out of the system"
+ },
+ {
+  "start": 405.71,
+  "end": 405.72,
+  "text": "okay"
+ },
+ {
+  "start": 405.72,
+  "end": 409.969,
+  "text": "so this is my Tasker 16 latest version"
+ },
+ {
+  "start": 409.979,
+  "end": 412.909,
+  "text": "right so as part of this session our"
+ },
+ {
+  "start": 412.919,
+  "end": 415.73,
+  "text": "agenda item is first let me cover select"
+ },
+ {
+  "start": 415.74,
+  "end": 418.79,
+  "text": "and verify action modes how can we use"
+ },
+ {
+  "start": 418.8,
+  "end": 420.89,
+  "text": "these select and verify action modes"
+ },
+ {
+  "start": 420.9,
+  "end": 424.129,
+  "text": "while automating your test cases"
+ },
+ {
+  "start": 424.139,
+  "end": 428.029,
+  "text": "so if you remember in my previous"
+ },
+ {
+  "start": 428.039,
+  "end": 430.37,
+  "text": "four sessions we have completed"
+ },
+ {
+  "start": 430.38,
+  "end": 432.409,
+  "text": "completed automating"
+ },
+ {
+  "start": 432.419,
+  "end": 434.57,
+  "text": "entire end to end"
+ },
+ {
+  "start": 434.58,
+  "end": 438.35,
+  "text": "test case right so let me copy the same"
+ },
+ {
+  "start": 438.36,
+  "end": 440.809,
+  "text": "folder here let me copy the same test"
+ },
+ {
+  "start": 440.819,
+  "end": 442.249,
+  "text": "case"
+ },
+ {
+  "start": 442.259,
+  "end": 445.37,
+  "text": "and then paste it into a parent folder"
+ },
+ {
+  "start": 445.38,
+  "end": 448.43,
+  "text": "okay"
+ },
+ {
+  "start": 451.49,
+  "end": 451.5,
+  "text": "so once you paste it let's rename this"
+ },
+ {
+  "start": 451.5,
+  "end": 453.469,
+  "text": "test case"
+ },
+ {
+  "start": 453.479,
+  "end": 456.95,
+  "text": "as"
+ },
+ {
+  "start": 463.55,
+  "end": 463.56,
+  "text": "action modes"
+ },
+ {
+  "start": 463.56,
+  "end": 469.61,
+  "text": "okay"
+ },
+ {
+  "start": 473.15,
+  "end": 473.16,
+  "text": "okay so right click"
+ },
+ {
+  "start": 473.16,
+  "end": 475.85,
+  "text": "so when you click on this shopping cart"
+ },
+ {
+  "start": 475.86,
+  "end": 478.37,
+  "text": "shopping costs right click and expand"
+ },
+ {
+  "start": 478.38,
+  "end": 480.29,
+  "text": "all I already explained you all these"
+ },
+ {
+  "start": 480.3,
+  "end": 481.73,
+  "text": "Concepts okay"
+ },
+ {
+  "start": 481.74,
+  "end": 485.33,
+  "text": "so here so earlier when we automated the"
+ },
+ {
+  "start": 485.34,
+  "end": 488.45,
+  "text": "entire test case one of the section we"
+ },
+ {
+  "start": 488.46,
+  "end": 491.83,
+  "text": "left blank which one so the under"
+ },
+ {
+  "start": 491.84,
+  "end": 495.409,
+  "text": "process under process"
+ },
+ {
+  "start": 495.419,
+  "end": 497.629,
+  "text": "there is a section called verification"
+ },
+ {
+  "start": 497.639,
+  "end": 499.969,
+  "text": "of prices we haven't done that one okay"
+ },
+ {
+  "start": 499.979,
+  "end": 501.409,
+  "text": "let me just"
+ },
+ {
+  "start": 501.419,
+  "end": 503.99,
+  "text": "mean mine or minimize all those those"
+ },
+ {
+  "start": 504.0,
+  "end": 506.27,
+  "text": "so we completed order product we"
+ },
+ {
+  "start": 506.28,
+  "end": 508.39,
+  "text": "completed start checkout we also"
+ },
+ {
+  "start": 508.4,
+  "end": 511.189,
+  "text": "completed checkout process and then"
+ },
+ {
+  "start": 511.199,
+  "end": 513.529,
+  "text": "confirmation page"
+ },
+ {
+  "start": 513.539,
+  "end": 515.93,
+  "text": "and verification of success and"
+ },
+ {
+  "start": 515.94,
+  "end": 518.329,
+  "text": "verification of prices these two we"
+ },
+ {
+  "start": 518.339,
+  "end": 520.61,
+  "text": "haven't done right we have not verified"
+ },
+ {
+  "start": 520.62,
+  "end": 522.17,
+  "text": "anything"
+ },
+ {
+  "start": 522.18,
+  "end": 524.75,
+  "text": "so in this session"
+ },
+ {
+  "start": 524.76,
+  "end": 528.43,
+  "text": "let us verify the prices"
+ },
+ {
+  "start": 528.44,
+  "end": 531.47,
+  "text": "of your order if the price of the order"
+ },
+ {
+  "start": 531.48,
+  "end": 534.769,
+  "text": "is correct or not and also let us verify"
+ },
+ {
+  "start": 534.779,
+  "end": 538.009,
+  "text": "once you click on confirm the order the"
+ },
+ {
+  "start": 538.019,
+  "end": 540.59,
+  "text": "confirmation message okay so let's go"
+ },
+ {
+  "start": 540.6,
+  "end": 542.389,
+  "text": "back to our"
+ },
+ {
+  "start": 542.399,
+  "end": 550.72,
+  "text": "demo webshop let me log in"
+ },
+ {
+  "start": 552.839,
+  "end": 555.23,
+  "text": "let's go to apparels and choose"
+ },
+ {
+  "start": 555.24,
+  "end": 557.57,
+  "text": "order the genes"
+ },
+ {
+  "start": 557.58,
+  "end": 560.03,
+  "text": "go to shopping cart"
+ },
+ {
+  "start": 560.04,
+  "end": 563.21,
+  "text": "and here agreed to the terms"
+ },
+ {
+  "start": 563.22,
+  "end": 565.25,
+  "text": "check out these are all we automated"
+ },
+ {
+  "start": 565.26,
+  "end": 567.889,
+  "text": "already and then continue we automated"
+ },
+ {
+  "start": 567.899,
+  "end": 570.889,
+  "text": "this as well continue continue"
+ },
+ {
+  "start": 570.899,
+  "end": 573.41,
+  "text": "and payment method continue"
+ },
+ {
+  "start": 573.42,
+  "end": 574.79,
+  "text": "and then"
+ },
+ {
+  "start": 574.8,
+  "end": 577.97,
+  "text": "payment information so here once you"
+ },
+ {
+  "start": 577.98,
+  "end": 581.509,
+  "text": "before you confirm the order you need to"
+ },
+ {
+  "start": 581.519,
+  "end": 584.15,
+  "text": "verify the price that is getting"
+ },
+ {
+  "start": 584.16,
+  "end": 587.329,
+  "text": "displayed for your"
+ },
+ {
+  "start": 587.339,
+  "end": 590.87,
+  "text": "order correct so let's take one thing so"
+ },
+ {
+  "start": 590.88,
+  "end": 594.65,
+  "text": "let us validate if I select shipping"
+ },
+ {
+  "start": 594.66,
+  "end": 596.99,
+  "text": "ground shipping method has ground"
+ },
+ {
+  "start": 597.0,
+  "end": 601.009,
+  "text": "then the cost for shipping ground is ten"
+ },
+ {
+  "start": 601.019,
+  "end": 605.03,
+  "text": "dollars so I need to verify if"
+ },
+ {
+  "start": 605.04,
+  "end": 607.43,
+  "text": "ten dollars is getting"
+ },
+ {
+  "start": 607.44,
+  "end": 611.449,
+  "text": "added to my total cost correct so for"
+ },
+ {
+  "start": 611.459,
+  "end": 613.43,
+  "text": "shipping ground whether it is displaying"
+ },
+ {
+  "start": 613.44,
+  "end": 614.99,
+  "text": "ten dollars or not that's what we are"
+ },
+ {
+  "start": 615.0,
+  "end": 618.35,
+  "text": "gonna validate okay for that"
+ },
+ {
+  "start": 618.36,
+  "end": 621.47,
+  "text": "verification of price is let's"
+ },
+ {
+  "start": 621.48,
+  "end": 623.65,
+  "text": "double click on this vacation of prices"
+ },
+ {
+  "start": 623.66,
+  "end": 628.07,
+  "text": "here let me add a module control c i I"
+ },
+ {
+  "start": 628.08,
+  "end": 629.75,
+  "text": "already explained you so it's very much"
+ },
+ {
+  "start": 629.76,
+  "end": 632.63,
+  "text": "recommended to visit my previous four"
+ },
+ {
+  "start": 632.64,
+  "end": 635.75,
+  "text": "videos where I have automated the entire"
+ },
+ {
+  "start": 635.76,
+  "end": 639.23,
+  "text": "test case end to end okay so here Ctrl T"
+ },
+ {
+  "start": 639.24,
+  "end": 642.889,
+  "text": "that brings up your modules"
+ },
+ {
+  "start": 642.899,
+  "end": 645.49,
+  "text": "and I want to add a module called"
+ },
+ {
+  "start": 645.5,
+  "end": 647.93,
+  "text": "webshop confirm order"
+ },
+ {
+  "start": 647.94,
+  "end": 650.69,
+  "text": "okay so what does this confirm order"
+ },
+ {
+  "start": 650.7,
+  "end": 654.79,
+  "text": "contains so let me just rename this as"
+ },
+ {
+  "start": 654.8,
+  "end": 656.69,
+  "text": "verify"
+ },
+ {
+  "start": 656.7,
+  "end": 658.19,
+  "text": "the"
+ },
+ {
+  "start": 658.2,
+  "end": 659.81,
+  "text": "prices"
+ },
+ {
+  "start": 659.82,
+  "end": 661.79,
+  "text": "okay I need not to rename this actually"
+ },
+ {
+  "start": 661.8,
+  "end": 664.73,
+  "text": "we already named this folder"
+ },
+ {
+  "start": 664.74,
+  "end": 667.19,
+  "text": "verification of prices okay"
+ },
+ {
+  "start": 667.2,
+  "end": 668.81,
+  "text": "so here"
+ },
+ {
+  "start": 668.82,
+  "end": 674.03,
+  "text": "this we have captured all the controls"
+ },
+ {
+  "start": 674.04,
+  "end": 675.61,
+  "text": "that are"
+ },
+ {
+  "start": 675.62,
+  "end": 678.65,
+  "text": "required for this confirmation order all"
+ },
+ {
+  "start": 678.66,
+  "end": 680.509,
+  "text": "these controls we included this table"
+ },
+ {
+  "start": 680.519,
+  "end": 682.85,
+  "text": "and everything this button okay if you"
+ },
+ {
+  "start": 682.86,
+  "end": 685.43,
+  "text": "see all these prices right this is"
+ },
+ {
+  "start": 685.44,
+  "end": 688.31,
+  "text": "actually a inbuilt table"
+ },
+ {
+  "start": 688.32,
+  "end": 692.21,
+  "text": "web table this is HTML table okay so"
+ },
+ {
+  "start": 692.22,
+  "end": 696.35,
+  "text": "this table can be steered by Tasker if"
+ },
+ {
+  "start": 696.36,
+  "end": 699.829,
+  "text": "you see here cart total so this is one"
+ },
+ {
+  "start": 699.839,
+  "end": 700.97,
+  "text": "of the table"
+ },
+ {
+  "start": 700.98,
+  "end": 704.09,
+  "text": "right so card total is one table this is"
+ },
+ {
+  "start": 704.1,
+  "end": 706.97,
+  "text": "this entire price is actually resides"
+ },
+ {
+  "start": 706.98,
+  "end": 708.29,
+  "text": "under a table"
+ },
+ {
+  "start": 708.3,
+  "end": 710.99,
+  "text": "okay so the same"
+ },
+ {
+  "start": 711.0,
+  "end": 713.269,
+  "text": "control has been added the entire table"
+ },
+ {
+  "start": 713.279,
+  "end": 714.65,
+  "text": "has been added"
+ },
+ {
+  "start": 714.66,
+  "end": 715.91,
+  "text": "okay"
+ },
+ {
+  "start": 715.92,
+  "end": 717.35,
+  "text": "and"
+ },
+ {
+  "start": 717.36,
+  "end": 720.53,
+  "text": "if you expand this right"
+ },
+ {
+  "start": 720.54,
+  "end": 722.87,
+  "text": "column if you see"
+ },
+ {
+  "start": 722.88,
+  "end": 726.47,
+  "text": "this is my first column that has all the"
+ },
+ {
+  "start": 726.48,
+  "end": 728.87,
+  "text": "titles of the prices"
+ },
+ {
+  "start": 728.88,
+  "end": 731.15,
+  "text": "and in the second column"
+ },
+ {
+  "start": 731.16,
+  "end": 734.449,
+  "text": "I got the cost of those subcategories"
+ },
+ {
+  "start": 734.459,
+  "end": 736.61,
+  "text": "right these are actually two columns"
+ },
+ {
+  "start": 736.62,
+  "end": 740.03,
+  "text": "First Column second column okay the"
+ },
+ {
+  "start": 740.04,
+  "end": 743.09,
+  "text": "prices are under second call right so"
+ },
+ {
+  "start": 743.1,
+  "end": 746.889,
+  "text": "that's why go to column"
+ },
+ {
+  "start": 749.509,
+  "end": 749.519,
+  "text": "you have a row and column"
+ },
+ {
+  "start": 749.519,
+  "end": 752.69,
+  "text": "and under column you need to"
+ },
+ {
+  "start": 752.7,
+  "end": 757.43,
+  "text": "specify this as a hash"
+ },
+ {
+  "start": 757.44,
+  "end": 761.03,
+  "text": "two that means I am asking"
+ },
+ {
+  "start": 761.04,
+  "end": 766.129,
+  "text": "or I am instructing task card to select"
+ },
+ {
+  "start": 766.139,
+  "end": 770.329,
+  "text": "column 2. and click enter so as soon as"
+ },
+ {
+  "start": 770.339,
+  "end": 773.449,
+  "text": "you click enter if you see"
+ },
+ {
+  "start": 773.459,
+  "end": 776.569,
+  "text": "select as I told you select passive"
+ },
+ {
+  "start": 776.579,
+  "end": 779.29,
+  "text": "action mode used to navigate"
+ },
+ {
+  "start": 779.3,
+  "end": 782.87,
+  "text": "tables and drop down menus select table"
+ },
+ {
+  "start": 782.88,
+  "end": 785.87,
+  "text": "you want to focus on that means I want"
+ },
+ {
+  "start": 785.88,
+  "end": 788.87,
+  "text": "to focus on card total table that's why"
+ },
+ {
+  "start": 788.88,
+  "end": 791.329,
+  "text": "the action mode is Select here"
+ },
+ {
+  "start": 791.339,
+  "end": 795.29,
+  "text": "okay and then I want to select"
+ },
+ {
+  "start": 795.3,
+  "end": 799.49,
+  "text": "the column 2. so that I can retrieve"
+ },
+ {
+  "start": 799.5,
+  "end": 801.889,
+  "text": "some values or I can verify the values"
+ },
+ {
+  "start": 801.899,
+  "end": 804.53,
+  "text": "okay so that's why column 2 has been"
+ },
+ {
+  "start": 804.54,
+  "end": 809.269,
+  "text": "selected and then under column 2 I want"
+ },
+ {
+  "start": 809.279,
+  "end": 811.19,
+  "text": "to verify shipping"
+ },
+ {
+  "start": 811.2,
+  "end": 814.97,
+  "text": "shipping cost so here pick up your"
+ },
+ {
+  "start": 814.98,
+  "end": 817.67,
+  "text": "shipping cost here if you see subtotal"
+ },
+ {
+  "start": 817.68,
+  "end": 820.31,
+  "text": "shipping payment see subtotal shipping"
+ },
+ {
+  "start": 820.32,
+  "end": 821.75,
+  "text": "payment method"
+ },
+ {
+  "start": 821.76,
+  "end": 825.23,
+  "text": "tax total right anything you want you"
+ },
+ {
+  "start": 825.24,
+  "end": 829.009,
+  "text": "can verify so I want to pick up shipping"
+ },
+ {
+  "start": 829.019,
+  "end": 833.15,
+  "text": "okay and if you see if you see the"
+ },
+ {
+  "start": 833.16,
+  "end": 835.97,
+  "text": "action mode you need to select as verify"
+ },
+ {
+  "start": 835.98,
+  "end": 839.389,
+  "text": "because I want to verify if the shipping"
+ },
+ {
+  "start": 839.399,
+  "end": 842.93,
+  "text": "cost is how much 10 dollar or not and"
+ },
+ {
+  "start": 842.94,
+  "end": 845.71,
+  "text": "here you need to"
+ },
+ {
+  "start": 845.72,
+  "end": 848.03,
+  "text": "specify the value"
+ },
+ {
+  "start": 848.04,
+  "end": 850.61,
+  "text": "you need to specify the value"
+ },
+ {
+  "start": 850.62,
+  "end": 852.47,
+  "text": "10"
+ },
+ {
+  "start": 852.48,
+  "end": 857.389,
+  "text": "dot 0 0 specify the value of 10 0 0 and"
+ },
+ {
+  "start": 857.399,
+  "end": 860.15,
+  "text": "I am instructing Tasker to verify if"
+ },
+ {
+  "start": 860.16,
+  "end": 862.97,
+  "text": "shipping cost shipping cost of column 2"
+ },
+ {
+  "start": 862.98,
+  "end": 865.91,
+  "text": "has a 10 dollar or not"
+ },
+ {
+  "start": 865.92,
+  "end": 869.65,
+  "text": "okay so now see if you I need not to run"
+ },
+ {
+  "start": 869.66,
+  "end": 873.11,
+  "text": "this entire I need not to run this"
+ },
+ {
+  "start": 873.12,
+  "end": 876.67,
+  "text": "entire test case I can simply"
+ },
+ {
+  "start": 876.68,
+  "end": 880.129,
+  "text": "run the section that I want to verify"
+ },
+ {
+  "start": 880.139,
+  "end": 881.449,
+  "text": "okay"
+ },
+ {
+  "start": 881.459,
+  "end": 883.97,
+  "text": "let me do that okay I want to show you"
+ },
+ {
+  "start": 883.98,
+  "end": 886.37,
+  "text": "how you really you can debug by using"
+ },
+ {
+  "start": 886.38,
+  "end": 890.03,
+  "text": "scratchbook okay here I already opened"
+ },
+ {
+  "start": 890.04,
+  "end": 894.35,
+  "text": "the page of this if I run this only this"
+ },
+ {
+  "start": 894.36,
+  "end": 896.87,
+  "text": "step verification of the prices it's"
+ },
+ {
+  "start": 896.88,
+  "end": 899.269,
+  "text": "going to verify this shipping cost right"
+ },
+ {
+  "start": 899.279,
+  "end": 900.71,
+  "text": "click"
+ },
+ {
+  "start": 900.72,
+  "end": 903.35,
+  "text": "run in scratchbook"
+ },
+ {
+  "start": 903.36,
+  "end": 905.329,
+  "text": "because I need not to run everything"
+ },
+ {
+  "start": 905.339,
+  "end": 908.09,
+  "text": "again it I I'm just running that"
+ },
+ {
+  "start": 908.1,
+  "end": 910.85,
+  "text": "particular step to make sure whatever I"
+ },
+ {
+  "start": 910.86,
+  "end": 913.189,
+  "text": "automated is correct or not you see here"
+ },
+ {
+  "start": 913.199,
+  "end": 916.61,
+  "text": "I got the results if you see this is"
+ },
+ {
+  "start": 916.62,
+  "end": 918.29,
+  "text": "successful that means"
+ },
+ {
+  "start": 918.3,
+  "end": 920.329,
+  "text": "the shipping cost has been verified"
+ },
+ {
+  "start": 920.339,
+  "end": 922.79,
+  "text": "successfully correct if you double click"
+ },
+ {
+  "start": 922.8,
+  "end": 926.09,
+  "text": "here you see the expected value is 10"
+ },
+ {
+  "start": 926.1,
+  "end": 928.67,
+  "text": "and the actual value of shipping cost"
+ },
+ {
+  "start": 928.68,
+  "end": 932.389,
+  "text": "also 10 that means this is success"
+ },
+ {
+  "start": 932.399,
+  "end": 933.41,
+  "text": "so"
+ },
+ {
+  "start": 933.42,
+  "end": 935.87,
+  "text": "here we covered action mode select and"
+ },
+ {
+  "start": 935.88,
+  "end": 937.43,
+  "text": "verify you understand what is the"
+ },
+ {
+  "start": 937.44,
+  "end": 939.949,
+  "text": "difference of Select right select is to"
+ },
+ {
+  "start": 939.959,
+  "end": 941.509,
+  "text": "steer the"
+ },
+ {
+  "start": 941.519,
+  "end": 945.769,
+  "text": "tables but it is not to input the values"
+ },
+ {
+  "start": 945.779,
+  "end": 948.53,
+  "text": "it is just to select the table so that I"
+ },
+ {
+  "start": 948.54,
+  "end": 949.25,
+  "text": "can"
+ },
+ {
+  "start": 949.26,
+  "end": 952.97,
+  "text": "input r i can verify the corresponding"
+ },
+ {
+  "start": 952.98,
+  "end": 956.689,
+  "text": "rows or column values okay and let me"
+ },
+ {
+  "start": 956.699,
+  "end": 958.85,
+  "text": "also go one more thing"
+ },
+ {
+  "start": 958.86,
+  "end": 961.79,
+  "text": "verify verification of success"
+ },
+ {
+  "start": 961.8,
+  "end": 966.05,
+  "text": "here also see once I click on confirm"
+ },
+ {
+  "start": 966.06,
+  "end": 969.769,
+  "text": "I verified the values cos now I want to"
+ },
+ {
+  "start": 969.779,
+  "end": 973.189,
+  "text": "verify successful message right and this"
+ },
+ {
+  "start": 973.199,
+  "end": 976.99,
+  "text": "is what I am doing here okay here"
+ },
+ {
+  "start": 977.0,
+  "end": 980.509,
+  "text": "verify again that means"
+ },
+ {
+  "start": 980.519,
+  "end": 984.829,
+  "text": "I need to select here this message"
+ },
+ {
+  "start": 984.839,
+  "end": 988.37,
+  "text": "message order successful message is"
+ },
+ {
+  "start": 988.38,
+  "end": 990.41,
+  "text": "visible or not right once I reach here"
+ },
+ {
+  "start": 990.42,
+  "end": 992.87,
+  "text": "click on confirm I need to see if this"
+ },
+ {
+  "start": 992.88,
+  "end": 996.829,
+  "text": "visible or not okay for that expand what"
+ },
+ {
+  "start": 996.839,
+  "end": 999.11,
+  "text": "is the property I want to see the"
+ },
+ {
+  "start": 999.12,
+  "end": 1001.389,
+  "text": "property of visible property that"
+ },
+ {
+  "start": 1001.399,
+  "end": 1004.15,
+  "text": "control is visible or not and your"
+ },
+ {
+  "start": 1004.16,
+  "end": 1009.009,
+  "text": "operator is equal here true"
+ },
+ {
+  "start": 1009.019,
+  "end": 1012.85,
+  "text": "right and here I need to select action"
+ },
+ {
+  "start": 1012.86,
+  "end": 1014.41,
+  "text": "mode as verify"
+ },
+ {
+  "start": 1014.42,
+  "end": 1020.11,
+  "text": "I want to verify if this message is"
+ },
+ {
+  "start": 1020.12,
+  "end": 1023.829,
+  "text": "visible on screen or not correct so now"
+ },
+ {
+  "start": 1023.839,
+  "end": 1026.47,
+  "text": "again let's run this only step let's run"
+ },
+ {
+  "start": 1026.48,
+  "end": 1028.569,
+  "text": "this step"
+ },
+ {
+  "start": 1028.579,
+  "end": 1031.09,
+  "text": "and see if it is gonna successful so it"
+ },
+ {
+  "start": 1031.1,
+  "end": 1033.25,
+  "text": "is verifying the message yes it got"
+ },
+ {
+  "start": 1033.26,
+  "end": 1036.069,
+  "text": "successful I can see the green Mark here"
+ },
+ {
+  "start": 1036.079,
+  "end": 1039.61,
+  "text": "and if you see here"
+ },
+ {
+  "start": 1042.189,
+  "end": 1042.199,
+  "text": "verification was success"
+ },
+ {
+  "start": 1042.199,
+  "end": 1045.25,
+  "text": "see verification was successful expected"
+ },
+ {
+  "start": 1045.26,
+  "end": 1049.15,
+  "text": "value is true that is visible true and"
+ },
+ {
+  "start": 1049.16,
+  "end": 1051.07,
+  "text": "actual also true that means the message"
+ },
+ {
+  "start": 1051.08,
+  "end": 1052.81,
+  "text": "is on screen"
+ },
+ {
+  "start": 1052.82,
+  "end": 1056.23,
+  "text": "okay so this is how you can"
+ },
+ {
+  "start": 1056.24,
+  "end": 1060.85,
+  "text": "use verify and select action modes okay"
+ },
+ {
+  "start": 1060.86,
+  "end": 1063.37,
+  "text": "it's really really important when you"
+ },
+ {
+  "start": 1063.38,
+  "end": 1066.61,
+  "text": "are actually for any test case right for"
+ },
+ {
+  "start": 1066.62,
+  "end": 1068.169,
+  "text": "any test case when you are automating"
+ },
+ {
+  "start": 1068.179,
+  "end": 1070.81,
+  "text": "you have to verify something"
+ },
+ {
+  "start": 1070.82,
+  "end": 1073.27,
+  "text": "without verification the test case is"
+ },
+ {
+  "start": 1073.28,
+  "end": 1075.49,
+  "text": "not meaningful okay"
+ },
+ {
+  "start": 1075.5,
+  "end": 1079.21,
+  "text": "and what is next agenda next is wait on"
+ },
+ {
+  "start": 1079.22,
+  "end": 1081.789,
+  "text": "so when do we use beta so I already"
+ },
+ {
+  "start": 1081.799,
+  "end": 1083.289,
+  "text": "explained you it's a dynamic weight"
+ },
+ {
+  "start": 1083.299,
+  "end": 1085.81,
+  "text": "basically see when you introduce a"
+ },
+ {
+  "start": 1085.82,
+  "end": 1088.09,
+  "text": "static weight then"
+ },
+ {
+  "start": 1088.1,
+  "end": 1090.25,
+  "text": "it's going to take a lot of time so"
+ },
+ {
+  "start": 1090.26,
+  "end": 1092.59,
+  "text": "basically it's gonna you're gonna waste"
+ },
+ {
+  "start": 1092.6,
+  "end": 1095.83,
+  "text": "the time even though your control or"
+ },
+ {
+  "start": 1095.84,
+  "end": 1098.529,
+  "text": "your text is visible it waits for"
+ },
+ {
+  "start": 1098.539,
+  "end": 1100.81,
+  "text": "the time that you specify when you"
+ },
+ {
+  "start": 1100.82,
+  "end": 1102.61,
+  "text": "specify the static weight but for"
+ },
+ {
+  "start": 1102.62,
+  "end": 1104.049,
+  "text": "dynamic weight"
+ },
+ {
+  "start": 1104.059,
+  "end": 1108.19,
+  "text": "it's really useful if application is"
+ },
+ {
+  "start": 1108.2,
+  "end": 1110.35,
+  "text": "slow it waits for"
+ },
+ {
+  "start": 1110.36,
+  "end": 1112.75,
+  "text": "the control to be visible"
+ },
+ {
+  "start": 1112.76,
+  "end": 1115.81,
+  "text": "if the control is visible immediately it"
+ },
+ {
+  "start": 1115.82,
+  "end": 1118.15,
+  "text": "goes to the next step right so for that"
+ },
+ {
+  "start": 1118.16,
+  "end": 1121.63,
+  "text": "let's go to post condition under post"
+ },
+ {
+  "start": 1121.64,
+  "end": 1124.09,
+  "text": "condition what we are doing"
+ },
+ {
+  "start": 1124.1,
+  "end": 1126.97,
+  "text": "I am clicking on continue here I'm"
+ },
+ {
+  "start": 1126.98,
+  "end": 1128.529,
+  "text": "clicking on continue once the order is"
+ },
+ {
+  "start": 1128.539,
+  "end": 1130.63,
+  "text": "completed and then I'm going to click on"
+ },
+ {
+  "start": 1130.64,
+  "end": 1133.51,
+  "text": "logout right so I'm clicking on logout"
+ },
+ {
+  "start": 1133.52,
+  "end": 1135.19,
+  "text": "let's see here"
+ },
+ {
+  "start": 1135.2,
+  "end": 1138.37,
+  "text": "I am clicking on continue and then I'm"
+ },
+ {
+  "start": 1138.38,
+  "end": 1141.909,
+  "text": "clicking logout but before I close the"
+ },
+ {
+  "start": 1141.919,
+  "end": 1145.21,
+  "text": "browser I want to make sure that the"
+ },
+ {
+  "start": 1145.22,
+  "end": 1147.73,
+  "text": "logout is successful or not for that"
+ },
+ {
+  "start": 1147.74,
+  "end": 1149.11,
+  "text": "what you need to do"
+ },
+ {
+  "start": 1149.12,
+  "end": 1151.93,
+  "text": "once you click on logout you should see"
+ },
+ {
+  "start": 1151.94,
+  "end": 1154.87,
+  "text": "login on top menu right log out see"
+ },
+ {
+  "start": 1154.88,
+  "end": 1156.61,
+  "text": "login should be visible"
+ },
+ {
+  "start": 1156.62,
+  "end": 1159.669,
+  "text": "so I'm I'm gonna instruct taskbar to"
+ },
+ {
+  "start": 1159.679,
+  "end": 1163.33,
+  "text": "wait until the login link is visible"
+ },
+ {
+  "start": 1163.34,
+  "end": 1165.13,
+  "text": "once I click on logout"
+ },
+ {
+  "start": 1165.14,
+  "end": 1167.289,
+  "text": "what I need to do for that let me"
+ },
+ {
+  "start": 1167.299,
+  "end": 1169.45,
+  "text": "introduce let me"
+ },
+ {
+  "start": 1169.46,
+  "end": 1173.47,
+  "text": "control T I want to"
+ },
+ {
+  "start": 1173.48,
+  "end": 1176.169,
+  "text": "insert one more step here top menu step"
+ },
+ {
+  "start": 1176.179,
+  "end": 1178.93,
+  "text": "okay webshop top menu because that login"
+ },
+ {
+  "start": 1178.94,
+  "end": 1181.39,
+  "text": "link available in top menu"
+ },
+ {
+  "start": 1181.4,
+  "end": 1187.63,
+  "text": "okay done and now just drag and drop"
+ },
+ {
+  "start": 1187.64,
+  "end": 1191.65,
+  "text": "step here and rename this as"
+ },
+ {
+  "start": 1191.66,
+  "end": 1194.409,
+  "text": "weight"
+ },
+ {
+  "start": 1194.419,
+  "end": 1197.47,
+  "text": "until"
+ },
+ {
+  "start": 1199.45,
+  "end": 1199.46,
+  "text": "login"
+ },
+ {
+  "start": 1199.46,
+  "end": 1200.65,
+  "text": "appear"
+ },
+ {
+  "start": 1200.66,
+  "end": 1203.71,
+  "text": "okay so what I am doing here as soon as"
+ },
+ {
+  "start": 1203.72,
+  "end": 1206.89,
+  "text": "I click on sorry not here so this step"
+ },
+ {
+  "start": 1206.9,
+  "end": 1209.529,
+  "text": "should be below this as soon as I click"
+ },
+ {
+  "start": 1209.539,
+  "end": 1213.61,
+  "text": "on log out you need to wait until"
+ },
+ {
+  "start": 1213.62,
+  "end": 1218.59,
+  "text": "login link appears log out and then wait"
+ },
+ {
+  "start": 1218.6,
+  "end": 1221.409,
+  "text": "until here so here"
+ },
+ {
+  "start": 1221.419,
+  "end": 1226.63,
+  "text": "login I need to select login"
+ },
+ {
+  "start": 1226.64,
+  "end": 1228.43,
+  "text": "visible"
+ },
+ {
+  "start": 1228.44,
+  "end": 1230.169,
+  "text": "equal to"
+ },
+ {
+  "start": 1230.179,
+  "end": 1232.81,
+  "text": "true"
+ },
+ {
+  "start": 1236.97,
+  "end": 1236.98,
+  "text": "equal to True here I need to specify"
+ },
+ {
+  "start": 1236.98,
+  "end": 1239.11,
+  "text": "weight on"
+ },
+ {
+  "start": 1239.12,
+  "end": 1240.49,
+  "text": "that means"
+ },
+ {
+  "start": 1240.5,
+  "end": 1243.789,
+  "text": "you I'm instructing task or how to wait"
+ },
+ {
+  "start": 1243.799,
+  "end": 1247.69,
+  "text": "until this login link is visible"
+ },
+ {
+  "start": 1247.7,
+  "end": 1249.669,
+  "text": "right"
+ },
+ {
+  "start": 1249.679,
+  "end": 1253.69,
+  "text": "so now let's run this entire test case"
+ },
+ {
+  "start": 1253.7,
+  "end": 1257.71,
+  "text": "and see whatever we automated"
+ },
+ {
+  "start": 1257.72,
+  "end": 1261.13,
+  "text": "till now including price verification"
+ },
+ {
+  "start": 1261.14,
+  "end": 1263.35,
+  "text": "message verification successful message"
+ },
+ {
+  "start": 1263.36,
+  "end": 1267.31,
+  "text": "verification and wait until the"
+ },
+ {
+  "start": 1267.32,
+  "end": 1269.59,
+  "text": "application is log out right everything"
+ },
+ {
+  "start": 1269.6,
+  "end": 1272.169,
+  "text": "so let's close this"
+ },
+ {
+  "start": 1272.179,
+  "end": 1273.909,
+  "text": "let's close this"
+ },
+ {
+  "start": 1273.919,
+  "end": 1281.65,
+  "text": "and right click and run in scratchbook"
+ },
+ {
+  "start": 1283.51,
+  "end": 1283.52,
+  "text": "okay it's going to open the webshop"
+ },
+ {
+  "start": 1283.52,
+  "end": 1287.89,
+  "text": "click on login"
+ },
+ {
+  "start": 1289.69,
+  "end": 1289.7,
+  "text": "apprents and shoe"
+ },
+ {
+  "start": 1289.7,
+  "end": 1294.61,
+  "text": "blue jeans it enters 10"
+ },
+ {
+  "start": 1294.62,
+  "end": 1296.47,
+  "text": "add to cart"
+ },
+ {
+  "start": 1296.48,
+  "end": 1298.93,
+  "text": "agree checkout"
+ },
+ {
+  "start": 1298.94,
+  "end": 1301.029,
+  "text": "building information shipping and"
+ },
+ {
+  "start": 1301.039,
+  "end": 1302.77,
+  "text": "everything"
+ },
+ {
+  "start": 1302.78,
+  "end": 1305.59,
+  "text": "and at the end it's gonna"
+ },
+ {
+  "start": 1305.6,
+  "end": 1308.35,
+  "text": "validate the shipping cost"
+ },
+ {
+  "start": 1308.36,
+  "end": 1310.99,
+  "text": "yes it is validating shipping cost"
+ },
+ {
+  "start": 1311.0,
+  "end": 1313.39,
+  "text": "done it is violating successful"
+ },
+ {
+  "start": 1313.4,
+  "end": 1318.31,
+  "text": "proceeding log out wait until login"
+ },
+ {
+  "start": 1318.32,
+  "end": 1320.95,
+  "text": "close so that means let's see everything"
+ },
+ {
+  "start": 1320.96,
+  "end": 1322.69,
+  "text": "is passed because I can see green color"
+ },
+ {
+  "start": 1322.7,
+  "end": 1323.71,
+  "text": "here"
+ },
+ {
+  "start": 1323.72,
+  "end": 1326.049,
+  "text": "so let's see here"
+ },
+ {
+  "start": 1326.059,
+  "end": 1330.13,
+  "text": "see everything is passed it waited until"
+ },
+ {
+  "start": 1330.14,
+  "end": 1332.649,
+  "text": "login appears right weight was"
+ },
+ {
+  "start": 1332.659,
+  "end": 1334.09,
+  "text": "successful"
+ },
+ {
+  "start": 1334.1,
+  "end": 1336.37,
+  "text": "expected is true this is to then only it"
+ },
+ {
+  "start": 1336.38,
+  "end": 1337.93,
+  "text": "went to"
+ },
+ {
+  "start": 1337.94,
+  "end": 1340.45,
+  "text": "close the browser right"
+ },
+ {
+  "start": 1340.46,
+  "end": 1344.649,
+  "text": "so hope you all understand the concepts"
+ },
+ {
+  "start": 1344.659,
+  "end": 1348.909,
+  "text": "of action modes how helpful"
+ },
+ {
+  "start": 1348.919,
+  "end": 1352.27,
+  "text": "these action modes are while automating"
+ },
+ {
+  "start": 1352.28,
+  "end": 1355.33,
+  "text": "your test cases okay so if you have any"
+ },
+ {
+  "start": 1355.34,
+  "end": 1356.59,
+  "text": "queries"
+ },
+ {
+  "start": 1356.6,
+  "end": 1359.049,
+  "text": "you can provide your comments in the"
+ },
+ {
+  "start": 1359.059,
+  "end": 1361.33,
+  "text": "comment box I'll try to respond to your"
+ },
+ {
+  "start": 1361.34,
+  "end": 1362.289,
+  "text": "queries"
+ },
+ {
+  "start": 1362.299,
+  "end": 1370.48,
+  "text": "thank you"
+ }
+]

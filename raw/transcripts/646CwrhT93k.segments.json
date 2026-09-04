@@ -1,0 +1,992 @@
+[
+ {
+  "start": 12.83,
+  "end": 12.84,
+  "text": "hi everyone this is Ravi welcome to"
+ },
+ {
+  "start": 12.84,
+  "end": 15.789,
+  "text": "tricentis tasa Advanced Training as you"
+ },
+ {
+  "start": 15.799,
+  "end": 18.79,
+  "text": "all know I already published 70 YouTube"
+ },
+ {
+  "start": 18.8,
+  "end": 21.87,
+  "text": "videos covering beginners level"
+ },
+ {
+  "start": 21.88,
+  "end": 24.75,
+  "text": "intermediate level and Advan level"
+ },
+ {
+  "start": 24.76,
+  "end": 28.75,
+  "text": "concepts of prent tasa test automation"
+ },
+ {
+  "start": 28.76,
+  "end": 31.509,
+  "text": "from QV videos onwards I've started"
+ },
+ {
+  "start": 31.519,
+  "end": 34.229,
+  "text": "teaching you the realtime scenarios"
+ },
+ {
+  "start": 34.239,
+  "end": 36.43,
+  "text": "where you might encounter different"
+ },
+ {
+  "start": 36.44,
+  "end": 39.47,
+  "text": "types of obstacles and how can we solve"
+ },
+ {
+  "start": 39.48,
+  "end": 41.51,
+  "text": "those obstacles while automating your"
+ },
+ {
+  "start": 41.52,
+  "end": 42.59,
+  "text": "test"
+ },
+ {
+  "start": 42.6,
+  "end": 47.75,
+  "text": "cases so this is our lesson"
+ },
+ {
+  "start": 47.76,
+  "end": 51.709,
+  "text": "71 in terms of overall tricentis tasa"
+ },
+ {
+  "start": 51.719,
+  "end": 55.51,
+  "text": "Advanced Training and this is our lesson"
+ },
+ {
+  "start": 55.52,
+  "end": 60.67,
+  "text": "29 are obstacle 29 in terms of real time"
+ },
+ {
+  "start": 60.68,
+  "end": 63.229,
+  "text": "scenarios please do subscribe to the"
+ },
+ {
+  "start": 63.239,
+  "end": 64.869,
+  "text": "channel click on Bell icon you'll"
+ },
+ {
+  "start": 64.879,
+  "end": 67.31,
+  "text": "receive notifications whenever I publish"
+ },
+ {
+  "start": 67.32,
+  "end": 70.149,
+  "text": "more videos thank"
+ },
+ {
+  "start": 70.159,
+  "end": 72.87,
+  "text": "you in this lesson I'm going to teach"
+ },
+ {
+  "start": 72.88,
+  "end": 76.31,
+  "text": "you how can you solve an obstacle where"
+ },
+ {
+  "start": 76.32,
+  "end": 78.55,
+  "text": "you need to interact with the"
+ },
+ {
+  "start": 78.56,
+  "end": 82.749,
+  "text": "application and you need to enter the"
+ },
+ {
+  "start": 82.759,
+  "end": 87.59,
+  "text": "long day or the full name of the"
+ },
+ {
+  "start": 87.6,
+  "end": 91.27,
+  "text": "we or the full name of of the week day"
+ },
+ {
+  "start": 91.28,
+  "end": 95.389,
+  "text": "of future date by using date expression"
+ },
+ {
+  "start": 95.399,
+  "end": 98.51,
+  "text": "with the help of tricentis tasa so now"
+ },
+ {
+  "start": 98.52,
+  "end": 103.27,
+  "text": "let us go and see the obstacle in detail"
+ },
+ {
+  "start": 103.28,
+  "end": 105.03,
+  "text": "what is the problem that we need to"
+ },
+ {
+  "start": 105.04,
+  "end": 106.109,
+  "text": "solve"
+ },
+ {
+  "start": 106.119,
+  "end": 109.389,
+  "text": "for so this is our obstacle the name of"
+ },
+ {
+  "start": 109.399,
+  "end": 112.31,
+  "text": "the obstacle is future Christmas and"
+ },
+ {
+  "start": 112.32,
+  "end": 115.19,
+  "text": "which is categorized as easy let us go"
+ },
+ {
+  "start": 115.2,
+  "end": 117.109,
+  "text": "for"
+ },
+ {
+  "start": 117.119,
+  "end": 122.109,
+  "text": "it so it says you need to calculate on"
+ },
+ {
+  "start": 122.119,
+  "end": 126.469,
+  "text": "which day Christmas Falls in 2"
+ },
+ {
+  "start": 126.479,
+  "end": 132.15,
+  "text": "years WR it as a word like Monday so"
+ },
+ {
+  "start": 132.16,
+  "end": 133.39,
+  "text": "let's"
+ },
+ {
+  "start": 133.4,
+  "end": 138.27,
+  "text": "assume our 25th December"
+ },
+ {
+  "start": 138.28,
+  "end": 140.869,
+  "text": "2025 falls on"
+ },
+ {
+  "start": 140.879,
+  "end": 144.75,
+  "text": "Thursday but we need to calculate which"
+ },
+ {
+  "start": 144.76,
+  "end": 147.15,
+  "text": "day of the Christmas"
+ },
+ {
+  "start": 147.16,
+  "end": 150.47,
+  "text": "Falls after 2 years that means"
+ },
+ {
+  "start": 150.48,
+  "end": 153.03,
+  "text": "your"
+ },
+ {
+  "start": 153.04,
+  "end": 157.509,
+  "text": "2027 2627 so in the year"
+ },
+ {
+  "start": 157.519,
+  "end": 162.47,
+  "text": "2027 the Christmas falls on which day so"
+ },
+ {
+  "start": 162.48,
+  "end": 163.589,
+  "text": "in"
+ },
+ {
+  "start": 163.599,
+  "end": 167.83,
+  "text": "2027 the Christmas falls on"
+ },
+ {
+  "start": 167.84,
+  "end": 172.83,
+  "text": "Saturday see that means you have solved"
+ },
+ {
+  "start": 172.84,
+  "end": 176.19,
+  "text": "your automation problem successfully so"
+ },
+ {
+  "start": 176.2,
+  "end": 180.19,
+  "text": "how can I calculate"
+ },
+ {
+  "start": 182.149,
+  "end": 182.159,
+  "text": "the day of the"
+ },
+ {
+  "start": 182.159,
+  "end": 186.19,
+  "text": "Christmas that falls in 2 years so let"
+ },
+ {
+  "start": 186.2,
+  "end": 187.19,
+  "text": "us go to"
+ },
+ {
+  "start": 187.2,
+  "end": 190.71,
+  "text": "triena and let us automate this"
+ },
+ {
+  "start": 190.72,
+  "end": 194.949,
+  "text": "scenario as usual we're going to capture"
+ },
+ {
+  "start": 194.959,
+  "end": 198.39,
+  "text": "the objects or elements of the"
+ },
+ {
+  "start": 198.4,
+  "end": 200.67,
+  "text": "application under"
+ },
+ {
+  "start": 200.68,
+  "end": 203.83,
+  "text": "modules so this is the folder that we"
+ },
+ {
+  "start": 203.84,
+  "end": 206.19,
+  "text": "are capturing obstacles folder under"
+ },
+ {
+  "start": 206.2,
+  "end": 208.509,
+  "text": "obstacles folder right click on this"
+ },
+ {
+  "start": 208.519,
+  "end": 217.149,
+  "text": "obstacles folder select scan"
+ },
+ {
+  "start": 219.429,
+  "end": 219.439,
+  "text": "application and then select the"
+ },
+ {
+  "start": 219.439,
+  "end": 221.19,
+  "text": "application that you would like to scan"
+ },
+ {
+  "start": 221.2,
+  "end": 229.149,
+  "text": "and click on"
+ },
+ {
+  "start": 232.39,
+  "end": 232.4,
+  "text": "scan so you can see here now we need to"
+ },
+ {
+  "start": 232.4,
+  "end": 235.229,
+  "text": "enter the full day of"
+ },
+ {
+  "start": 235.239,
+  "end": 238.789,
+  "text": "weekday in this edit box so that's why"
+ },
+ {
+  "start": 238.799,
+  "end": 240.589,
+  "text": "I'm going to"
+ },
+ {
+  "start": 240.599,
+  "end": 243.63,
+  "text": "select the edit box enter the day so"
+ },
+ {
+  "start": 243.64,
+  "end": 247.11,
+  "text": "this is the only object that we need to"
+ },
+ {
+  "start": 247.12,
+  "end": 249.589,
+  "text": "automate this scenario and then I'm"
+ },
+ {
+  "start": 249.599,
+  "end": 252.869,
+  "text": "going to name the module with the"
+ },
+ {
+  "start": 252.879,
+  "end": 256.31,
+  "text": "obstacle number copy"
+ },
+ {
+  "start": 256.32,
+  "end": 259.749,
+  "text": "this and paste it"
+ },
+ {
+  "start": 259.759,
+  "end": 263.99,
+  "text": "here so you can see this enter the day"
+ },
+ {
+  "start": 264.0,
+  "end": 268.11,
+  "text": "edit box is uniquely identified so done"
+ },
+ {
+  "start": 268.12,
+  "end": 271.51,
+  "text": "now let us save the"
+ },
+ {
+  "start": 271.52,
+  "end": 274.31,
+  "text": "module and close the X"
+ },
+ {
+  "start": 274.32,
+  "end": 277.67,
+  "text": "scan so let's go back to trient"
+ },
+ {
+  "start": 277.68,
+  "end": 281.67,
+  "text": "tasa you can see here the new obstacle"
+ },
+ {
+  "start": 281.68,
+  "end": 283.35,
+  "text": "that we captured this is the new"
+ },
+ {
+  "start": 283.36,
+  "end": 285.87,
+  "text": "obstacle that we have this is our new"
+ },
+ {
+  "start": 285.88,
+  "end": 289.67,
+  "text": "obstacle so now let us go to the left"
+ },
+ {
+  "start": 289.68,
+  "end": 292.87,
+  "text": "section let us go to the left section"
+ },
+ {
+  "start": 292.88,
+  "end": 296.87,
+  "text": "test case section so here under folder"
+ },
+ {
+  "start": 296.88,
+  "end": 300.27,
+  "text": "obstacles let me create a new new test"
+ },
+ {
+  "start": 300.28,
+  "end": 304.27,
+  "text": "case right click on this obstacles"
+ },
+ {
+  "start": 304.28,
+  "end": 306.189,
+  "text": "folder and"
+ },
+ {
+  "start": 306.199,
+  "end": 309.71,
+  "text": "then select create test"
+ },
+ {
+  "start": 309.72,
+  "end": 314.67,
+  "text": "case name this as same as the obstacle"
+ },
+ {
+  "start": 314.68,
+  "end": 319.15,
+  "text": "number and now double click on this test"
+ },
+ {
+  "start": 319.16,
+  "end": 322.23,
+  "text": "case so let us automate the test case to"
+ },
+ {
+  "start": 322.24,
+  "end": 325.51,
+  "text": "automate the test case we need to drag"
+ },
+ {
+  "start": 325.52,
+  "end": 331.189,
+  "text": "and drop your module onto your test case"
+ },
+ {
+  "start": 331.199,
+  "end": 335.23,
+  "text": "and now let us expand this one so here"
+ },
+ {
+  "start": 335.24,
+  "end": 336.79,
+  "text": "we need to"
+ },
+ {
+  "start": 336.8,
+  "end": 340.83,
+  "text": "calculate the day on which the Christmas"
+ },
+ {
+  "start": 340.84,
+  "end": 344.27,
+  "text": "Falls in 2 years so for that let us go"
+ },
+ {
+  "start": 344.28,
+  "end": 345.51,
+  "text": "to"
+ },
+ {
+  "start": 345.52,
+  "end": 349.189,
+  "text": "Trenta so here so there is one function"
+ },
+ {
+  "start": 349.199,
+  "end": 351.469,
+  "text": "called L day"
+ },
+ {
+  "start": 351.479,
+  "end": 354.309,
+  "text": "inasa so to call any function you need"
+ },
+ {
+  "start": 354.319,
+  "end": 360.11,
+  "text": "to open curly braces now type l d a see"
+ },
+ {
+  "start": 360.12,
+  "end": 363.83,
+  "text": "you can see here now L Day Day according"
+ },
+ {
+  "start": 363.84,
+  "end": 366.71,
+  "text": "to the current system settings so what"
+ },
+ {
+  "start": 366.72,
+  "end": 370.99,
+  "text": "is the syntax to calculate the long day"
+ },
+ {
+  "start": 371.0,
+  "end": 373.99,
+  "text": "you need to enter the"
+ },
+ {
+  "start": 374.0,
+  "end": 378.99,
+  "text": "date and then your offset and then in"
+ },
+ {
+  "start": 379.0,
+  "end": 381.15,
+  "text": "which format you need the output so"
+ },
+ {
+  "start": 381.16,
+  "end": 385.909,
+  "text": "basically L day your date expression"
+ },
+ {
+  "start": 385.919,
+  "end": 390.39,
+  "text": "your offset and then your format"
+ },
+ {
+  "start": 390.4,
+  "end": 392.51,
+  "text": "so this is the format so what I'm going"
+ },
+ {
+  "start": 392.52,
+  "end": 399.11,
+  "text": "to do here l d a y now let us write the"
+ },
+ {
+  "start": 399.12,
+  "end": 401.469,
+  "text": "expression within the square braces and"
+ },
+ {
+  "start": 401.479,
+  "end": 404.589,
+  "text": "close curly braces so here first you"
+ },
+ {
+  "start": 404.599,
+  "end": 407.629,
+  "text": "need to enter your date expression open"
+ },
+ {
+  "start": 407.639,
+  "end": 408.51,
+  "text": "curly"
+ },
+ {
+  "start": 408.52,
+  "end": 410.43,
+  "text": "braces"
+ },
+ {
+  "start": 410.44,
+  "end": 413.39,
+  "text": "date and what is the date I would like"
+ },
+ {
+  "start": 413.4,
+  "end": 414.35,
+  "text": "to"
+ },
+ {
+  "start": 414.36,
+  "end": 419.39,
+  "text": "enter current year Christmas date that"
+ },
+ {
+  "start": 419.4,
+  "end": 421.07,
+  "text": "is is"
+ },
+ {
+  "start": 421.08,
+  "end": 424.909,
+  "text": "25 do 12 do"
+ },
+ {
+  "start": 424.919,
+  "end": 428.79,
+  "text": "2025 this is my current year Christmas"
+ },
+ {
+  "start": 428.8,
+  "end": 432.869,
+  "text": "date and now what is your offset my"
+ },
+ {
+  "start": 432.879,
+  "end": 436.67,
+  "text": "offset is 2 years because I need to"
+ },
+ {
+  "start": 436.68,
+  "end": 438.469,
+  "text": "calculate"
+ },
+ {
+  "start": 438.479,
+  "end": 441.749,
+  "text": "from I need to calculate the Day falls"
+ },
+ {
+  "start": 441.759,
+  "end": 444.67,
+  "text": "in 2 years right so I'm going to put a"
+ },
+ {
+  "start": 444.68,
+  "end": 447.27,
+  "text": "I'm going to enter the offset as place"
+ },
+ {
+  "start": 447.28,
+  "end": 451.469,
+  "text": "to y and then what is the format that"
+ },
+ {
+  "start": 451.479,
+  "end": 453.469,
+  "text": "you need I don't want to enter any"
+ },
+ {
+  "start": 453.479,
+  "end": 456.51,
+  "text": "format because I need a full day that's"
+ },
+ {
+  "start": 456.52,
+  "end": 459.23,
+  "text": "it I don't want to change the format"
+ },
+ {
+  "start": 459.24,
+  "end": 464.07,
+  "text": "this expression by default gives you the"
+ },
+ {
+  "start": 464.08,
+  "end": 468.95,
+  "text": "full name of the weekday right so once"
+ },
+ {
+  "start": 468.96,
+  "end": 472.469,
+  "text": "that is done close curly"
+ },
+ {
+  "start": 475.869,
+  "end": 475.879,
+  "text": "braces so here now let me explain again"
+ },
+ {
+  "start": 475.879,
+  "end": 478.67,
+  "text": "what we have done L day is a function"
+ },
+ {
+  "start": 478.68,
+  "end": 479.95,
+  "text": "which returns"
+ },
+ {
+  "start": 479.96,
+  "end": 484.629,
+  "text": "the full name of the week day so here I"
+ },
+ {
+  "start": 484.639,
+  "end": 487.83,
+  "text": "have entered the date expression where I"
+ },
+ {
+  "start": 487.84,
+  "end": 492.589,
+  "text": "have entered the date of this year"
+ },
+ {
+  "start": 492.599,
+  "end": 495.189,
+  "text": "Christmas and then I'm providing the"
+ },
+ {
+  "start": 495.199,
+  "end": 499.149,
+  "text": "offset of offset as 2 years that means"
+ },
+ {
+  "start": 499.159,
+  "end": 502.23,
+  "text": "it's going to return the full name of"
+ },
+ {
+  "start": 502.24,
+  "end": 506.95,
+  "text": "the week day for the Christmas date in"
+ },
+ {
+  "start": 506.96,
+  "end": 510.51,
+  "text": "the year 2027"
+ },
+ {
+  "start": 510.52,
+  "end": 514.23,
+  "text": "right so once that is done so now let"
+ },
+ {
+  "start": 514.24,
+  "end": 517.75,
+  "text": "us run this test case and see if it"
+ },
+ {
+  "start": 517.76,
+  "end": 519.829,
+  "text": "works correctly so let me change the"
+ },
+ {
+  "start": 519.839,
+  "end": 521.31,
+  "text": "work state to"
+ },
+ {
+  "start": 521.32,
+  "end": 524.75,
+  "text": "completed and save the test case let's"
+ },
+ {
+  "start": 524.76,
+  "end": 526.35,
+  "text": "go back to our"
+ },
+ {
+  "start": 526.36,
+  "end": 530.31,
+  "text": "application let's click on try again now"
+ },
+ {
+  "start": 530.32,
+  "end": 532.67,
+  "text": "let's run the test case in scratchbook"
+ },
+ {
+  "start": 532.68,
+  "end": 536.71,
+  "text": "right click and run in"
+ },
+ {
+  "start": 539.43,
+  "end": 539.44,
+  "text": "scratchbook it should enter the four"
+ },
+ {
+  "start": 539.44,
+  "end": 543.389,
+  "text": "full day of Christmas in the year"
+ },
+ {
+  "start": 543.399,
+  "end": 550.67,
+  "text": "2027 which is"
+ },
+ {
+  "start": 554.03,
+  "end": 554.04,
+  "text": "Saturday yep see you can see here now it"
+ },
+ {
+  "start": 554.04,
+  "end": 556.269,
+  "text": "entered Saturday that means our test"
+ },
+ {
+  "start": 556.279,
+  "end": 559.71,
+  "text": "case is passed so if you want to"
+ },
+ {
+  "start": 559.72,
+  "end": 561.59,
+  "text": "understand if it is calculating"
+ },
+ {
+  "start": 561.6,
+  "end": 564.35,
+  "text": "correctly or not before even you run the"
+ },
+ {
+  "start": 564.36,
+  "end": 566.03,
+  "text": "test case what you need to do you have"
+ },
+ {
+  "start": 566.04,
+  "end": 569.949,
+  "text": "to come back to your prent Taska"
+ },
+ {
+  "start": 569.959,
+  "end": 573.069,
+  "text": "there is another way right click on this"
+ },
+ {
+  "start": 573.079,
+  "end": 576.55,
+  "text": "and you can select translate value this"
+ },
+ {
+  "start": 576.56,
+  "end": 579.47,
+  "text": "way you can understand if it is"
+ },
+ {
+  "start": 579.48,
+  "end": 582.509,
+  "text": "calculating the correct day or not so"
+ },
+ {
+  "start": 582.519,
+  "end": 587.069,
+  "text": "you can see the output value is Saturday"
+ },
+ {
+  "start": 587.079,
+  "end": 589.509,
+  "text": "let's do one thing let me do one thing"
+ },
+ {
+  "start": 589.519,
+  "end": 593.67,
+  "text": "okay so let me do one thing if I want to"
+ },
+ {
+  "start": 593.68,
+  "end": 597.87,
+  "text": "calculate the day of"
+ },
+ {
+  "start": 597.88,
+  "end": 600.59,
+  "text": "Christmas in the next here I'm going to"
+ },
+ {
+  "start": 600.6,
+  "end": 604.71,
+  "text": "put it as + 1 y let's translate this"
+ },
+ {
+  "start": 604.72,
+  "end": 605.59,
+  "text": "right"
+ },
+ {
+  "start": 605.6,
+  "end": 608.47,
+  "text": "click right click and then translate"
+ },
+ {
+  "start": 608.48,
+  "end": 612.15,
+  "text": "value it should be Friday this is Friday"
+ },
+ {
+  "start": 612.16,
+  "end": 616.31,
+  "text": "which is correct and let's say if I want"
+ },
+ {
+  "start": 616.32,
+  "end": 620.949,
+  "text": "to calculate this here what is the I can"
+ },
+ {
+  "start": 620.959,
+  "end": 624.67,
+  "text": "just remove the offset okay I'm just"
+ },
+ {
+  "start": 624.68,
+  "end": 627.67,
+  "text": "calculating the day of this date this"
+ },
+ {
+  "start": 627.68,
+  "end": 629.99,
+  "text": "year Christmas date right click"
+ },
+ {
+  "start": 630.0,
+  "end": 634.31,
+  "text": "translate value it should be Thursday"
+ },
+ {
+  "start": 634.32,
+  "end": 641.19,
+  "text": "right so this is how you can calculate"
+ },
+ {
+  "start": 641.2,
+  "end": 646.43,
+  "text": "the day of weekday for any given date so"
+ },
+ {
+  "start": 646.44,
+  "end": 648.43,
+  "text": "if you have any queries leave your"
+ },
+ {
+  "start": 648.44,
+  "end": 650.15,
+  "text": "queries in the comment box I'll try to"
+ },
+ {
+  "start": 650.16,
+  "end": 652.59,
+  "text": "respond to your queries please do"
+ },
+ {
+  "start": 652.6,
+  "end": 654.31,
+  "text": "subscribe to the channel click on Bell"
+ },
+ {
+  "start": 654.32,
+  "end": 656.069,
+  "text": "icon you'll receive notifications"
+ },
+ {
+  "start": 656.079,
+  "end": 658.43,
+  "text": "whenever I publish more videos don't"
+ },
+ {
+  "start": 658.44,
+  "end": 661.23,
+  "text": "forget to like and share the video thank"
+ },
+ {
+  "start": 661.24,
+  "end": 666.35,
+  "text": "you"
+ }
+]

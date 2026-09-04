@@ -1,0 +1,1122 @@
+[
+ {
+  "start": 12.95,
+  "end": 12.96,
+  "text": "hi everyone this is Ravi welcome to"
+ },
+ {
+  "start": 12.96,
+  "end": 16.15,
+  "text": "trien tasa Advanced Training as you all"
+ },
+ {
+  "start": 16.16,
+  "end": 19.429,
+  "text": "know I've already published 64 YouTube"
+ },
+ {
+  "start": 19.439,
+  "end": 22.07,
+  "text": "videos covering beginners level"
+ },
+ {
+  "start": 22.08,
+  "end": 24.63,
+  "text": "intermediate level and advanced level"
+ },
+ {
+  "start": 24.64,
+  "end": 28.029,
+  "text": "concepts of tricentis tasa Automation"
+ },
+ {
+  "start": 28.039,
+  "end": 30.509,
+  "text": "and from couple of videos on have"
+ },
+ {
+  "start": 30.519,
+  "end": 32.549,
+  "text": "started teaching you the realtime"
+ },
+ {
+  "start": 32.559,
+  "end": 35.59,
+  "text": "scenarios where you might encounter"
+ },
+ {
+  "start": 35.6,
+  "end": 38.63,
+  "text": "different types of obstacles and how can"
+ },
+ {
+  "start": 38.64,
+  "end": 41.51,
+  "text": "you solve those obstacles by using"
+ },
+ {
+  "start": 41.52,
+  "end": 44.069,
+  "text": "tricentis tasa while automating your"
+ },
+ {
+  "start": 44.079,
+  "end": 46.99,
+  "text": "test cases please do subscribe to the"
+ },
+ {
+  "start": 47.0,
+  "end": 48.79,
+  "text": "channel click on Bell icon you'll"
+ },
+ {
+  "start": 48.8,
+  "end": 51.069,
+  "text": "receive notifications whenever I publish"
+ },
+ {
+  "start": 51.079,
+  "end": 53.67,
+  "text": "more videos don't forget to like and"
+ },
+ {
+  "start": 53.68,
+  "end": 55.99,
+  "text": "share the video thank"
+ },
+ {
+  "start": 56.0,
+  "end": 60.47,
+  "text": "you this is our lesson 65 in terms of"
+ },
+ {
+  "start": 60.48,
+  "end": 62.709,
+  "text": "overall tricentis tasa automation"
+ },
+ {
+  "start": 62.719,
+  "end": 66.429,
+  "text": "training and this is our obstacle"
+ },
+ {
+  "start": 66.439,
+  "end": 69.59,
+  "text": "23 where I'm going to teach you about a"
+ },
+ {
+  "start": 69.6,
+  "end": 70.67,
+  "text": "realtime"
+ },
+ {
+  "start": 70.68,
+  "end": 73.27,
+  "text": "scenario where you need to solve an"
+ },
+ {
+  "start": 73.28,
+  "end": 77.429,
+  "text": "obstacle by using click position method"
+ },
+ {
+  "start": 77.439,
+  "end": 80.51,
+  "text": "with the help of offset horizontal"
+ },
+ {
+  "start": 80.52,
+  "end": 82.27,
+  "text": "offset vertical"
+ },
+ {
+  "start": 82.28,
+  "end": 85.95,
+  "text": "parameters by using trienes tasa while"
+ },
+ {
+  "start": 85.96,
+  "end": 89.27,
+  "text": "automating your test case so now let us"
+ },
+ {
+  "start": 89.28,
+  "end": 90.95,
+  "text": "understand inde detail what is the"
+ },
+ {
+  "start": 90.96,
+  "end": 93.35,
+  "text": "obstacle that we are going to solve for"
+ },
+ {
+  "start": 93.36,
+  "end": 96.749,
+  "text": "this is our obstacle list and our"
+ },
+ {
+  "start": 96.759,
+  "end": 99.99,
+  "text": "today's obstacle is halfway the name of"
+ },
+ {
+  "start": 100.0,
+  "end": 102.71,
+  "text": "the obstacle is halfway and which is"
+ },
+ {
+  "start": 102.72,
+  "end": 105.63,
+  "text": "categorized as medium so let us go for"
+ },
+ {
+  "start": 105.64,
+  "end": 109.35,
+  "text": "it and understand in detail what is the"
+ },
+ {
+  "start": 109.36,
+  "end": 111.91,
+  "text": "obstacle that we are going to solve for"
+ },
+ {
+  "start": 111.92,
+  "end": 115.03,
+  "text": "click in the right half of the button"
+ },
+ {
+  "start": 115.04,
+  "end": 119.069,
+  "text": "that means so this is your click into my"
+ },
+ {
+  "start": 119.079,
+  "end": 123.069,
+  "text": "right half button and you need to click"
+ },
+ {
+  "start": 123.079,
+  "end": 124.789,
+  "text": "right half of the button that means"
+ },
+ {
+  "start": 124.799,
+  "end": 126.55,
+  "text": "let's assume this is your"
+ },
+ {
+  "start": 126.56,
+  "end": 129.71,
+  "text": "middle and you need to click right half"
+ },
+ {
+  "start": 129.72,
+  "end": 132.83,
+  "text": "so if you click right half then you"
+ },
+ {
+  "start": 132.84,
+  "end": 135.71,
+  "text": "solve this automation problem so if you"
+ },
+ {
+  "start": 135.72,
+  "end": 139.35,
+  "text": "click on left half then that means your"
+ },
+ {
+  "start": 139.36,
+  "end": 141.27,
+  "text": "automation problem is not successful so"
+ },
+ {
+  "start": 141.28,
+  "end": 145.99,
+  "text": "you can see here see here here here and"
+ },
+ {
+  "start": 146.0,
+  "end": 148.07,
+  "text": "then if you do this way now it is"
+ },
+ {
+  "start": 148.08,
+  "end": 151.19,
+  "text": "successful that means you need to"
+ },
+ {
+  "start": 151.2,
+  "end": 155.63,
+  "text": "click in the right half of the button so"
+ },
+ {
+  "start": 155.64,
+  "end": 157.19,
+  "text": "how can we do"
+ },
+ {
+  "start": 157.2,
+  "end": 161.11,
+  "text": "this let us go to our"
+ },
+ {
+  "start": 161.12,
+  "end": 164.869,
+  "text": "notepad so we can Define"
+ },
+ {
+  "start": 164.879,
+  "end": 166.39,
+  "text": "offset"
+ },
+ {
+  "start": 166.4,
+  "end": 168.99,
+  "text": "per"
+ },
+ {
+  "start": 169.0,
+  "end": 170.75,
+  "text": "operations"
+ },
+ {
+  "start": 170.76,
+  "end": 173.19,
+  "text": "like"
+ },
+ {
+  "start": 173.2,
+  "end": 178.03,
+  "text": "click or long"
+ },
+ {
+  "start": 178.04,
+  "end": 181.83,
+  "text": "click that we use in trient"
+ },
+ {
+  "start": 181.84,
+  "end": 185.11,
+  "text": "toas so how can we Define offset for"
+ },
+ {
+  "start": 185.12,
+  "end": 188.47,
+  "text": "click open curly Braes"
+ },
+ {
+  "start": 188.48,
+  "end": 191.19,
+  "text": "click open Square braces close Square"
+ },
+ {
+  "start": 191.2,
+  "end": 194.03,
+  "text": "braces and again open Square braces"
+ },
+ {
+  "start": 194.04,
+  "end": 196.509,
+  "text": "close Square braces and then close curly"
+ },
+ {
+  "start": 196.519,
+  "end": 199.55,
+  "text": "braces so under these Square braces I'm"
+ },
+ {
+  "start": 199.56,
+  "end": 200.91,
+  "text": "going to"
+ },
+ {
+  "start": 200.92,
+  "end": 204.67,
+  "text": "Define offset"
+ },
+ {
+  "start": 204.68,
+  "end": 206.91,
+  "text": "horizontal and then in other Square"
+ },
+ {
+  "start": 206.92,
+  "end": 211.429,
+  "text": "braces I'm going to Define offset"
+ },
+ {
+  "start": 211.439,
+  "end": 215.03,
+  "text": "vertical so now how can I define these"
+ },
+ {
+  "start": 215.04,
+  "end": 216.949,
+  "text": "offset horizontal and vertical there are"
+ },
+ {
+  "start": 216.959,
+  "end": 220.229,
+  "text": "two ways either you can use"
+ },
+ {
+  "start": 220.239,
+  "end": 226.509,
+  "text": "pixels or you can"
+ },
+ {
+  "start": 230.309,
+  "end": 230.319,
+  "text": "use or you can use"
+ },
+ {
+  "start": 230.319,
+  "end": 233.47,
+  "text": "percentage so two ways you can Define"
+ },
+ {
+  "start": 233.48,
+  "end": 237.869,
+  "text": "the offset horizontal or offset vertical"
+ },
+ {
+  "start": 237.879,
+  "end": 241.229,
+  "text": "parameters so to solve this obstacle I'm"
+ },
+ {
+  "start": 241.239,
+  "end": 245.309,
+  "text": "going to use percentage here so if I say"
+ },
+ {
+  "start": 245.319,
+  "end": 251.39,
+  "text": "80% of offset horizontal that means your"
+ },
+ {
+  "start": 251.4,
+  "end": 252.91,
+  "text": "horizontal"
+ },
+ {
+  "start": 252.92,
+  "end": 259.15,
+  "text": "position to click by using Mouse is at"
+ },
+ {
+  "start": 259.16,
+  "end": 263.71,
+  "text": "80% level and if I'm specifying offset"
+ },
+ {
+  "start": 263.72,
+  "end": 267.95,
+  "text": "vertical as let's say 70% that means"
+ },
+ {
+  "start": 267.96,
+  "end": 270.59,
+  "text": "vertically you're going to click"
+ },
+ {
+  "start": 270.6,
+  "end": 276.31,
+  "text": "on object at exactly 70% of the position"
+ },
+ {
+  "start": 276.32,
+  "end": 279.029,
+  "text": "vertical position and 90% of the"
+ },
+ {
+  "start": 279.039,
+  "end": 281.39,
+  "text": "horizontal position so let us go to"
+ },
+ {
+  "start": 281.4,
+  "end": 285.23,
+  "text": "triena and see how can we solve this"
+ },
+ {
+  "start": 285.24,
+  "end": 288.469,
+  "text": "problem so as usual we're going to start"
+ },
+ {
+  "start": 288.479,
+  "end": 291.67,
+  "text": "scanning all the objects"
+ },
+ {
+  "start": 291.68,
+  "end": 293.79,
+  "text": "under"
+ },
+ {
+  "start": 293.8,
+  "end": 297.029,
+  "text": "module folder called obstacles"
+ },
+ {
+  "start": 297.039,
+  "end": 300.27,
+  "text": "folder right so we are capturing"
+ },
+ {
+  "start": 300.28,
+  "end": 302.59,
+  "text": "objects in this particular folder for"
+ },
+ {
+  "start": 302.6,
+  "end": 304.629,
+  "text": "every obstacle simply I'm going to right"
+ },
+ {
+  "start": 304.639,
+  "end": 307.43,
+  "text": "click on this folder select scan and"
+ },
+ {
+  "start": 307.44,
+  "end": 311.629,
+  "text": "select"
+ },
+ {
+  "start": 314.83,
+  "end": 314.84,
+  "text": "application so this is my application"
+ },
+ {
+  "start": 314.84,
+  "end": 316.629,
+  "text": "which I would like to scan select the"
+ },
+ {
+  "start": 316.639,
+  "end": 331.15,
+  "text": "application and click on scan"
+ },
+ {
+  "start": 333.23,
+  "end": 333.24,
+  "text": "so for this particular obstacle I just"
+ },
+ {
+  "start": 333.24,
+  "end": 335.79,
+  "text": "need to capture only one button what is"
+ },
+ {
+  "start": 335.8,
+  "end": 338.909,
+  "text": "that click into my right half select"
+ },
+ {
+  "start": 338.919,
+  "end": 342.189,
+  "text": "this button and make sure the button is"
+ },
+ {
+  "start": 342.199,
+  "end": 343.79,
+  "text": "uniquely identified I can see the"
+ },
+ {
+  "start": 343.8,
+  "end": 346.909,
+  "text": "selected item is unique and"
+ },
+ {
+  "start": 346.919,
+  "end": 350.749,
+  "text": "then and then let us rename this module"
+ },
+ {
+  "start": 350.759,
+  "end": 356.55,
+  "text": "with the name of"
+ },
+ {
+  "start": 366.39,
+  "end": 366.4,
+  "text": "and close the X scan let's go back to"
+ },
+ {
+  "start": 366.4,
+  "end": 370.87,
+  "text": "tonasa so this is our module that we"
+ },
+ {
+  "start": 370.88,
+  "end": 374.55,
+  "text": "have scanned just now so the least so"
+ },
+ {
+  "start": 374.56,
+  "end": 378.029,
+  "text": "this last one obstacle"
+ },
+ {
+  "start": 378.039,
+  "end": 381.029,
+  "text": "41038 you can see click into my right"
+ },
+ {
+  "start": 381.039,
+  "end": 384.07,
+  "text": "half so now let us go to test case"
+ },
+ {
+  "start": 384.08,
+  "end": 386.27,
+  "text": "section so we are capturing all the test"
+ },
+ {
+  "start": 386.28,
+  "end": 388.07,
+  "text": "cases under obstacles folder so I'm"
+ },
+ {
+  "start": 388.08,
+  "end": 389.35,
+  "text": "going to double click on this obstacle"
+ },
+ {
+  "start": 389.36,
+  "end": 390.309,
+  "text": "folder"
+ },
+ {
+  "start": 390.319,
+  "end": 393.79,
+  "text": "fer and here I'm going to create a new"
+ },
+ {
+  "start": 393.8,
+  "end": 395.749,
+  "text": "test case under this test case folder"
+ },
+ {
+  "start": 395.759,
+  "end": 396.67,
+  "text": "right"
+ },
+ {
+  "start": 396.68,
+  "end": 399.95,
+  "text": "click create test case and provide the"
+ },
+ {
+  "start": 399.96,
+  "end": 403.23,
+  "text": "name as same obstacle name and double"
+ },
+ {
+  "start": 403.24,
+  "end": 406.309,
+  "text": "click on this now to automate the test"
+ },
+ {
+  "start": 406.319,
+  "end": 410.589,
+  "text": "case you need to drag the module onto"
+ },
+ {
+  "start": 410.599,
+  "end": 412.99,
+  "text": "your test"
+ },
+ {
+  "start": 413.0,
+  "end": 416.589,
+  "text": "case so here as I told you I'm going to"
+ },
+ {
+  "start": 416.599,
+  "end": 420.23,
+  "text": "solve this problem by using the offset"
+ },
+ {
+  "start": 420.24,
+  "end": 423.23,
+  "text": "percentage so let's do one thing what"
+ },
+ {
+  "start": 423.24,
+  "end": 426.79,
+  "text": "I'm going to use here open curly braces"
+ },
+ {
+  "start": 426.8,
+  "end": 431.11,
+  "text": "click right so this is what I'm going to"
+ },
+ {
+  "start": 433.869,
+  "end": 433.879,
+  "text": "use open curly"
+ },
+ {
+  "start": 433.879,
+  "end": 437.95,
+  "text": "braces click close curly braces so"
+ },
+ {
+  "start": 437.96,
+  "end": 441.55,
+  "text": "generally so generally we enter this key"
+ },
+ {
+  "start": 441.56,
+  "end": 443.39,
+  "text": "to click on any button but when you"
+ },
+ {
+  "start": 443.4,
+  "end": 446.869,
+  "text": "enter this click key you're not defining"
+ },
+ {
+  "start": 446.879,
+  "end": 450.27,
+  "text": "the position where the"
+ },
+ {
+  "start": 450.28,
+  "end": 453.15,
+  "text": "Mouse should click on this button on"
+ },
+ {
+  "start": 453.16,
+  "end": 456.469,
+  "text": "what position it can click exactly at"
+ },
+ {
+  "start": 456.479,
+  "end": 459.869,
+  "text": "middle of the button exactly at 50% of"
+ },
+ {
+  "start": 459.879,
+  "end": 462.95,
+  "text": "the position 50% what is what do you"
+ },
+ {
+  "start": 462.96,
+  "end": 466.029,
+  "text": "mean by 50% this is your 50% it starts"
+ },
+ {
+  "start": 466.039,
+  "end": 470.869,
+  "text": "from 0 10 20 like that 50 and then 60 70"
+ },
+ {
+  "start": 470.879,
+  "end": 474.67,
+  "text": "80 that means to solve this problem you"
+ },
+ {
+  "start": 474.68,
+  "end": 478.189,
+  "text": "need to click between 50 and"
+ },
+ {
+  "start": 478.199,
+  "end": 481.189,
+  "text": "100 or horizontal position what about"
+ },
+ {
+  "start": 481.199,
+  "end": 483.39,
+  "text": "vertical position vertical you can"
+ },
+ {
+  "start": 483.4,
+  "end": 485.71,
+  "text": "Define anything what you want right so"
+ },
+ {
+  "start": 485.72,
+  "end": 488.27,
+  "text": "let me first Define horizontal position"
+ },
+ {
+  "start": 488.28,
+  "end": 490.869,
+  "text": "here what I'm going to say open Square"
+ },
+ {
+  "start": 490.879,
+  "end": 494.029,
+  "text": "braces close Square braces and here I'm"
+ },
+ {
+  "start": 494.039,
+  "end": 496.39,
+  "text": "going to specify let's say"
+ },
+ {
+  "start": 496.4,
+  "end": 498.23,
+  "text": "80%"
+ },
+ {
+  "start": 498.24,
+  "end": 501.27,
+  "text": "80% you have to specify the symbol also"
+ },
+ {
+  "start": 501.28,
+  "end": 504.11,
+  "text": "so right click on somewhere now it says"
+ },
+ {
+  "start": 504.12,
+  "end": 508.83,
+  "text": "click 80% horizontal offset because the"
+ },
+ {
+  "start": 508.84,
+  "end": 510.23,
+  "text": "first parameter that you enter is"
+ },
+ {
+  "start": 510.24,
+  "end": 512.509,
+  "text": "horizontal so let me simply run this and"
+ },
+ {
+  "start": 512.519,
+  "end": 518.829,
+  "text": "see what happens okay right click and"
+ },
+ {
+  "start": 527.91,
+  "end": 527.92,
+  "text": "position see here exactly 80% horizontal"
+ },
+ {
+  "start": 527.92,
+  "end": 530.389,
+  "text": "position it clicked that means it"
+ },
+ {
+  "start": 530.399,
+  "end": 532.829,
+  "text": "clicked on right half of"
+ },
+ {
+  "start": 532.839,
+  "end": 538.47,
+  "text": "the button let's say if I do change"
+ },
+ {
+  "start": 538.48,
+  "end": 541.47,
+  "text": "let's say if I change this position to"
+ },
+ {
+  "start": 541.48,
+  "end": 545.15,
+  "text": "30% then what happens let's see right"
+ },
+ {
+  "start": 545.16,
+  "end": 552.23,
+  "text": "click and run in"
+ },
+ {
+  "start": 554.55,
+  "end": 554.56,
+  "text": "scratchbook see exactly it is clicking"
+ },
+ {
+  "start": 554.56,
+  "end": 556.59,
+  "text": "at left position that's why your"
+ },
+ {
+  "start": 556.6,
+  "end": 558.829,
+  "text": "automation problem is not"
+ },
+ {
+  "start": 558.839,
+  "end": 561.069,
+  "text": "solved let's go back here now what I'm"
+ },
+ {
+  "start": 561.079,
+  "end": 563.03,
+  "text": "going to do here now again I'm going to"
+ },
+ {
+  "start": 563.04,
+  "end": 565.43,
+  "text": "Define two things I need to click on"
+ },
+ {
+  "start": 565.44,
+  "end": 568.31,
+  "text": "right half I'm going to say this time 95"
+ },
+ {
+  "start": 568.32,
+  "end": 569.87,
+  "text": "that means exactly"
+ },
+ {
+  "start": 569.88,
+  "end": 572.11,
+  "text": "at end of the button is going to click"
+ },
+ {
+  "start": 572.12,
+  "end": 574.31,
+  "text": "and I'm going to also Define the"
+ },
+ {
+  "start": 574.32,
+  "end": 577.47,
+  "text": "vertical position vertical position what"
+ },
+ {
+  "start": 577.48,
+  "end": 579.75,
+  "text": "I'm going to do I'm going to specify as"
+ },
+ {
+  "start": 579.76,
+  "end": 581.71,
+  "text": "90% that"
+ },
+ {
+  "start": 581.72,
+  "end": 584.31,
+  "text": "means horizontally it should click"
+ },
+ {
+  "start": 584.32,
+  "end": 587.75,
+  "text": "exactly at almost right position and"
+ },
+ {
+  "start": 587.76,
+  "end": 589.79,
+  "text": "vertically it almost should click at"
+ },
+ {
+  "start": 589.8,
+  "end": 592.23,
+  "text": "bottom here if I specify 10 it's going"
+ },
+ {
+  "start": 592.24,
+  "end": 595.43,
+  "text": "to click here but anyway let's run this"
+ },
+ {
+  "start": 595.44,
+  "end": 597.35,
+  "text": "right click and run we'll see what"
+ },
+ {
+  "start": 597.36,
+  "end": 602.87,
+  "text": "happens"
+ },
+ {
+  "start": 608.11,
+  "end": 608.12,
+  "text": "see right side 90% And the vertical"
+ },
+ {
+  "start": 608.12,
+  "end": 610.23,
+  "text": "position also it's clicking"
+ },
+ {
+  "start": 610.24,
+  "end": 613.71,
+  "text": "here right so here it's it's almost"
+ },
+ {
+  "start": 613.72,
+  "end": 616.55,
+  "text": "clicked here vertical position also 90"
+ },
+ {
+  "start": 616.56,
+  "end": 618.35,
+  "text": "let me do one thing to solve this"
+ },
+ {
+  "start": 618.36,
+  "end": 621.069,
+  "text": "problem this time vertically whatever"
+ },
+ {
+  "start": 621.079,
+  "end": 622.35,
+  "text": "the position you want you can click"
+ },
+ {
+  "start": 622.36,
+  "end": 624.19,
+  "text": "right so I'm going to change it as"
+ },
+ {
+  "start": 624.2,
+  "end": 627.55,
+  "text": "10% but horizontally still I'm clicking"
+ },
+ {
+  "start": 627.56,
+  "end": 630.31,
+  "text": "on left only sorry I'm clicking on right"
+ },
+ {
+  "start": 630.32,
+  "end": 636.269,
+  "text": "only again now right click and"
+ },
+ {
+  "start": 639.91,
+  "end": 639.92,
+  "text": "run see it is clicking on top vertical"
+ },
+ {
+  "start": 639.92,
+  "end": 642.35,
+  "text": "position here and your horizontal"
+ },
+ {
+  "start": 642.36,
+  "end": 645.67,
+  "text": "position is this side right so if I"
+ },
+ {
+  "start": 645.68,
+  "end": 649.59,
+  "text": "don't specify any offsets here right"
+ },
+ {
+  "start": 649.6,
+  "end": 651.99,
+  "text": "that means it's going to click exactly"
+ },
+ {
+  "start": 652.0,
+  "end": 654.55,
+  "text": "horizontally middle and vertically also"
+ },
+ {
+  "start": 654.56,
+  "end": 658.03,
+  "text": "middle 50% exactly you don't specify any"
+ },
+ {
+  "start": 658.04,
+  "end": 659.829,
+  "text": "offset"
+ },
+ {
+  "start": 659.839,
+  "end": 662.629,
+  "text": "hope you all understand how can we"
+ },
+ {
+  "start": 662.639,
+  "end": 665.31,
+  "text": "perform click operation by using"
+ },
+ {
+  "start": 665.32,
+  "end": 668.19,
+  "text": "percentage which means"
+ },
+ {
+  "start": 668.2,
+  "end": 671.79,
+  "text": "orizontal offset horizontal off by using"
+ },
+ {
+  "start": 671.8,
+  "end": 675.269,
+  "text": "offset horizontal and offset vertical"
+ },
+ {
+  "start": 675.279,
+  "end": 677.269,
+  "text": "positions if you have any queries leave"
+ },
+ {
+  "start": 677.279,
+  "end": 678.71,
+  "text": "your queries in the comment box I'll try"
+ },
+ {
+  "start": 678.72,
+  "end": 681.99,
+  "text": "to respond to your queries hope you all"
+ },
+ {
+  "start": 682.0,
+  "end": 684.91,
+  "text": "understand the concept of real time"
+ },
+ {
+  "start": 684.92,
+  "end": 687.87,
+  "text": "scenario where you need to solve an"
+ },
+ {
+  "start": 687.88,
+  "end": 691.75,
+  "text": "obstacle by us using the click position"
+ },
+ {
+  "start": 691.76,
+  "end": 694.75,
+  "text": "with the help of offset horizontal and"
+ },
+ {
+  "start": 694.76,
+  "end": 697.79,
+  "text": "offset vertical parameters by using"
+ },
+ {
+  "start": 697.8,
+  "end": 699.509,
+  "text": "trienes"
+ },
+ {
+  "start": 699.519,
+  "end": 703.069,
+  "text": "tasa please do subscribe to the channel"
+ },
+ {
+  "start": 703.079,
+  "end": 704.829,
+  "text": "click on Bell icon you'll receive"
+ },
+ {
+  "start": 704.839,
+  "end": 707.629,
+  "text": "notifications whenever I publish more"
+ },
+ {
+  "start": 707.639,
+  "end": 710.47,
+  "text": "videos don't forget to like and share"
+ },
+ {
+  "start": 710.48,
+  "end": 721.23,
+  "text": "the video thank you"
+ }
+]

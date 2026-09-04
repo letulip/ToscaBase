@@ -1,0 +1,1447 @@
+[
+ {
+  "start": 13.629,
+  "end": 13.639,
+  "text": "hi everyone this is Ravi welcome to"
+ },
+ {
+  "start": 13.639,
+  "end": 16.75,
+  "text": "trien Taska automation"
+ },
+ {
+  "start": 16.76,
+  "end": 21.07,
+  "text": "tutorial so this is our lesson 16 in"
+ },
+ {
+  "start": 21.08,
+  "end": 24.63,
+  "text": "terms of Advanced Training and this is"
+ },
+ {
+  "start": 24.64,
+  "end": 26.95,
+  "text": "our lesson"
+ },
+ {
+  "start": 26.96,
+  "end": 31.429,
+  "text": "31 in terms of overall automation"
+ },
+ {
+  "start": 31.439,
+  "end": 34.19,
+  "text": "tutorial so in this"
+ },
+ {
+  "start": 34.2,
+  "end": 38.03,
+  "text": "lesson I'm going to teach you how can we"
+ },
+ {
+  "start": 38.04,
+  "end": 39.99,
+  "text": "take screenshot"
+ },
+ {
+  "start": 40.0,
+  "end": 41.91,
+  "text": "automatically Whenever there is a"
+ },
+ {
+  "start": 41.92,
+  "end": 44.709,
+  "text": "failure in your test Case by using"
+ },
+ {
+  "start": 44.719,
+  "end": 48.35,
+  "text": "tsar and I'm also going to teach you how"
+ },
+ {
+  "start": 48.36,
+  "end": 50.35,
+  "text": "can we take"
+ },
+ {
+  "start": 50.36,
+  "end": 53.27,
+  "text": "screenshot on demand whenever it is"
+ },
+ {
+  "start": 53.28,
+  "end": 56.389,
+  "text": "required by using tricentis"
+ },
+ {
+  "start": 56.399,
+  "end": 59.389,
+  "text": "toas please do subscribe to the channel"
+ },
+ {
+  "start": 59.399,
+  "end": 60.99,
+  "text": "click on icon you'll receive"
+ },
+ {
+  "start": 61.0,
+  "end": 63.31,
+  "text": "notifications whenever I publish more"
+ },
+ {
+  "start": 63.32,
+  "end": 66.429,
+  "text": "videos so without delay let us jump onto"
+ },
+ {
+  "start": 66.439,
+  "end": 68.51,
+  "text": "the system and start working on"
+ },
+ {
+  "start": 68.52,
+  "end": 71.429,
+  "text": "tricentis TSA automation"
+ },
+ {
+  "start": 71.439,
+  "end": 75.39,
+  "text": "to so this is my trient tasa what I'm"
+ },
+ {
+  "start": 75.4,
+  "end": 77.749,
+  "text": "going to do I'm going to create one new"
+ },
+ {
+  "start": 77.759,
+  "end": 81.03,
+  "text": "folder called"
+ },
+ {
+  "start": 81.04,
+  "end": 84.71,
+  "text": "screenshot okay and now let us start"
+ },
+ {
+  "start": 84.72,
+  "end": 87.35,
+  "text": "working on this folder I'll create one"
+ },
+ {
+  "start": 87.36,
+  "end": 88.35,
+  "text": "new test"
+ },
+ {
+  "start": 88.36,
+  "end": 91.749,
+  "text": "case called login"
+ },
+ {
+  "start": 91.759,
+  "end": 94.069,
+  "text": "failure so as"
+ },
+ {
+  "start": 94.079,
+  "end": 96.67,
+  "text": "usual we going to start working on we"
+ },
+ {
+  "start": 96.68,
+  "end": 100.03,
+  "text": "are going to automate a simple login log"
+ },
+ {
+  "start": 100.04,
+  "end": 104.469,
+  "text": "out functionality by using our prent"
+ },
+ {
+  "start": 104.479,
+  "end": 108.429,
+  "text": "tasa sample web application which is"
+ },
+ {
+  "start": 108.439,
+  "end": 110.99,
+  "text": "demo web shop okay here what I'm going"
+ },
+ {
+  "start": 111.0,
+  "end": 115.389,
+  "text": "to do I want to click on login link"
+ },
+ {
+  "start": 115.399,
+  "end": 118.31,
+  "text": "provide username password and click on"
+ },
+ {
+  "start": 118.32,
+  "end": 120.35,
+  "text": "login button and then"
+ },
+ {
+  "start": 120.36,
+  "end": 123.109,
+  "text": "just log out from the session so let us"
+ },
+ {
+  "start": 123.119,
+  "end": 126.63,
+  "text": "automate that simply control T which"
+ },
+ {
+  "start": 126.64,
+  "end": 128.63,
+  "text": "brings us the modules that you would"
+ },
+ {
+  "start": 128.64,
+  "end": 133.15,
+  "text": "like to add ADD test either control t or"
+ },
+ {
+  "start": 133.16,
+  "end": 136.15,
+  "text": "you can simply right click and click on"
+ },
+ {
+  "start": 136.16,
+  "end": 140.71,
+  "text": "ADD test here I want to call Top menu"
+ },
+ {
+  "start": 140.72,
+  "end": 144.11,
+  "text": "because top menu will be having all the"
+ },
+ {
+  "start": 144.12,
+  "end": 146.83,
+  "text": "options that you would like to click on"
+ },
+ {
+  "start": 146.84,
+  "end": 151.55,
+  "text": "so here I want to click on login"
+ },
+ {
+  "start": 151.56,
+  "end": 154.99,
+  "text": "right so before you click on login First"
+ },
+ {
+  "start": 155.0,
+  "end": 157.67,
+  "text": "you need to open your url right so for"
+ },
+ {
+  "start": 157.68,
+  "end": 159.35,
+  "text": "that let"
+ },
+ {
+  "start": 159.36,
+  "end": 163.869,
+  "text": "us call a standard module control"
+ },
+ {
+  "start": 163.879,
+  "end": 168.63,
+  "text": "T standard module called open URL okay"
+ },
+ {
+  "start": 168.64,
+  "end": 170.229,
+  "text": "this is my standard"
+ },
+ {
+  "start": 170.239,
+  "end": 174.39,
+  "text": "module and bring this to the first this"
+ },
+ {
+  "start": 174.4,
+  "end": 177.19,
+  "text": "is my first provide the"
+ },
+ {
+  "start": 177.2,
+  "end": 181.509,
+  "text": "URL here once once you open the URL I'm"
+ },
+ {
+  "start": 181.519,
+  "end": 182.71,
+  "text": "clicking on"
+ },
+ {
+  "start": 182.72,
+  "end": 185.229,
+  "text": "login once I click on login I need to"
+ },
+ {
+  "start": 185.239,
+  "end": 190.07,
+  "text": "provide credentials for this simply on"
+ },
+ {
+  "start": 190.08,
+  "end": 194.229,
+  "text": "login page so this is my login"
+ },
+ {
+  "start": 194.239,
+  "end": 199.11,
+  "text": "page so here I need to provide my"
+ },
+ {
+  "start": 199.12,
+  "end": 205.03,
+  "text": "username which is my email"
+ },
+ {
+  "start": 208.67,
+  "end": 208.68,
+  "text": "ID and I have to provide my"
+ },
+ {
+  "start": 208.68,
+  "end": 211.429,
+  "text": "password"
+ },
+ {
+  "start": 211.439,
+  "end": 216.589,
+  "text": "and then click on login buttton right as"
+ },
+ {
+  "start": 216.599,
+  "end": 218.429,
+  "text": "soon as you click on login button then"
+ },
+ {
+  "start": 218.439,
+  "end": 220.67,
+  "text": "you're going to click on log out button"
+ },
+ {
+  "start": 220.68,
+  "end": 226.39,
+  "text": "so what I'm going to do CR T again top"
+ },
+ {
+  "start": 226.4,
+  "end": 228.35,
+  "text": "menu and"
+ },
+ {
+  "start": 228.36,
+  "end": 233.429,
+  "text": "here this time I'm going to click log"
+ },
+ {
+  "start": 233.439,
+  "end": 237.71,
+  "text": "out okay and now we going to close the"
+ },
+ {
+  "start": 237.72,
+  "end": 240.71,
+  "text": "browser again it is standard module"
+ },
+ {
+  "start": 240.72,
+  "end": 243.949,
+  "text": "called close browser so this is my"
+ },
+ {
+  "start": 243.959,
+  "end": 246.67,
+  "text": "standard"
+ },
+ {
+  "start": 250.03,
+  "end": 250.04,
+  "text": "module so here what is the browser name"
+ },
+ {
+  "start": 250.04,
+  "end": 252.429,
+  "text": "it is demo"
+ },
+ {
+  "start": 252.439,
+  "end": 255.19,
+  "text": "star okay so now we have completed"
+ },
+ {
+  "start": 255.2,
+  "end": 257.83,
+  "text": "automating our login log out"
+ },
+ {
+  "start": 257.84,
+  "end": 261.509,
+  "text": "functionality so here before I run so"
+ },
+ {
+  "start": 261.519,
+  "end": 264.35,
+  "text": "first of all I have provided my password"
+ },
+ {
+  "start": 264.36,
+  "end": 265.629,
+  "text": "as a wrong"
+ },
+ {
+  "start": 265.639,
+  "end": 268.87,
+  "text": "password now let us run this and see"
+ },
+ {
+  "start": 268.88,
+  "end": 270.909,
+  "text": "what happens okay"
+ },
+ {
+  "start": 270.919,
+  "end": 276.07,
+  "text": "okay simply run this in"
+ },
+ {
+  "start": 279.95,
+  "end": 279.96,
+  "text": "scratchbook so it opens your url right"
+ },
+ {
+  "start": 279.96,
+  "end": 284.27,
+  "text": "and then it clicks on login"
+ },
+ {
+  "start": 284.28,
+  "end": 288.27,
+  "text": "link and then it is going to enter your"
+ },
+ {
+  "start": 288.28,
+  "end": 293.189,
+  "text": "username password and click on login now"
+ },
+ {
+  "start": 293.199,
+  "end": 295.35,
+  "text": "because we provided wrong password it"
+ },
+ {
+  "start": 295.36,
+  "end": 298.189,
+  "text": "throws an error now it is trying to"
+ },
+ {
+  "start": 298.199,
+  "end": 301.629,
+  "text": "identify log out link but it will not be"
+ },
+ {
+  "start": 301.639,
+  "end": 303.909,
+  "text": "able to identify TSA will not be able to"
+ },
+ {
+  "start": 303.919,
+  "end": 307.07,
+  "text": "identify that's why the test case is"
+ },
+ {
+  "start": 307.08,
+  "end": 309.43,
+  "text": "going to fail so your test case is"
+ },
+ {
+  "start": 309.44,
+  "end": 311.749,
+  "text": "failed because could not find the link"
+ },
+ {
+  "start": 311.759,
+  "end": 316.629,
+  "text": "log out okay fine so now let's assume I"
+ },
+ {
+  "start": 316.639,
+  "end": 320.469,
+  "text": "want to take a screenshot"
+ },
+ {
+  "start": 320.479,
+  "end": 323.189,
+  "text": "Whenever there is a login so as soon as"
+ },
+ {
+  "start": 323.199,
+  "end": 327.55,
+  "text": "I enter my URL let us enter the URL as"
+ },
+ {
+  "start": 327.56,
+  "end": 329.95,
+  "text": "soon as I click on login I want take a"
+ },
+ {
+  "start": 329.96,
+  "end": 331.59,
+  "text": "screenshot of login page let's say I"
+ },
+ {
+  "start": 331.6,
+  "end": 333.51,
+  "text": "want to take a screenshot of each page"
+ },
+ {
+  "start": 333.52,
+  "end": 336.629,
+  "text": "as soon as I landed right so how can we"
+ },
+ {
+  "start": 336.639,
+  "end": 340.15,
+  "text": "do that for that let us"
+ },
+ {
+  "start": 340.16,
+  "end": 344.189,
+  "text": "simply insert a step and"
+ },
+ {
+  "start": 344.199,
+  "end": 348.07,
+  "text": "call take screenshot tbox take"
+ },
+ {
+  "start": 348.08,
+  "end": 351.189,
+  "text": "screenshot which is a standard module"
+ },
+ {
+  "start": 351.199,
+  "end": 353.909,
+  "text": "which comes along with your"
+ },
+ {
+  "start": 353.919,
+  "end": 357.71,
+  "text": "prosc call this take screenshot standard"
+ },
+ {
+  "start": 357.72,
+  "end": 360.39,
+  "text": "module and here"
+ },
+ {
+  "start": 360.4,
+  "end": 362.83,
+  "text": "you can specify the environment either"
+ },
+ {
+  "start": 362.84,
+  "end": 364.79,
+  "text": "you want to specify it as a desktop or"
+ },
+ {
+  "start": 364.8,
+  "end": 367.11,
+  "text": "mobile we are executing on desktop"
+ },
+ {
+  "start": 367.12,
+  "end": 369.87,
+  "text": "that's why I want to select as desktop"
+ },
+ {
+  "start": 369.88,
+  "end": 371.589,
+  "text": "and what is the directory that you want"
+ },
+ {
+  "start": 371.599,
+  "end": 374.35,
+  "text": "to store I want to store the screenshot"
+ },
+ {
+  "start": 374.36,
+  "end": 375.27,
+  "text": "in this"
+ },
+ {
+  "start": 375.28,
+  "end": 377.55,
+  "text": "directory this is my directory what I"
+ },
+ {
+  "start": 377.56,
+  "end": 380.029,
+  "text": "did is actually I just simply created"
+ },
+ {
+  "start": 380.039,
+  "end": 384.15,
+  "text": "one empty folder called screenshot okay"
+ },
+ {
+  "start": 384.16,
+  "end": 386.749,
+  "text": "so I want to store the screenshot in"
+ },
+ {
+  "start": 386.759,
+  "end": 387.51,
+  "text": "this"
+ },
+ {
+  "start": 387.52,
+  "end": 390.189,
+  "text": "directory simply go here"
+ },
+ {
+  "start": 390.199,
+  "end": 392.029,
+  "text": "and provide the"
+ },
+ {
+  "start": 392.039,
+  "end": 395.51,
+  "text": "path and now what is the file name that"
+ },
+ {
+  "start": 395.52,
+  "end": 397.83,
+  "text": "you want to keep I want to keep the file"
+ },
+ {
+  "start": 397.84,
+  "end": 400.189,
+  "text": "name as"
+ },
+ {
+  "start": 400.199,
+  "end": 404.629,
+  "text": "screenshot screenshot and"
+ },
+ {
+  "start": 404.639,
+  "end": 407.79,
+  "text": "here okay I'll do one thing screenshot"
+ },
+ {
+  "start": 407.8,
+  "end": 410.39,
+  "text": "let's name this"
+ },
+ {
+  "start": 410.4,
+  "end": 412.029,
+  "text": "as"
+ },
+ {
+  "start": 412.039,
+  "end": 414.51,
+  "text": "screenshot so if I run this it's going"
+ },
+ {
+  "start": 414.52,
+  "end": 417.309,
+  "text": "to store the screenshot let's bring this"
+ },
+ {
+  "start": 417.319,
+  "end": 419.43,
+  "text": "I want to put this immediately after"
+ },
+ {
+  "start": 419.44,
+  "end": 422.23,
+  "text": "after login clicking on login so I"
+ },
+ {
+  "start": 422.24,
+  "end": 424.11,
+  "text": "clicked on login here and I want to"
+ },
+ {
+  "start": 424.12,
+  "end": 426.869,
+  "text": "place here as soon as you click on login"
+ },
+ {
+  "start": 426.879,
+  "end": 429.51,
+  "text": "I want to take a screenshot but now if"
+ },
+ {
+  "start": 429.52,
+  "end": 431.909,
+  "text": "you see the file name is hardcoded I"
+ },
+ {
+  "start": 431.919,
+  "end": 433.55,
+  "text": "don't want to use the file name"
+ },
+ {
+  "start": 433.56,
+  "end": 437.749,
+  "text": "hardcoded file name I want to insert the"
+ },
+ {
+  "start": 437.759,
+  "end": 441.55,
+  "text": "date function date time see you have a"
+ },
+ {
+  "start": 441.56,
+  "end": 442.35,
+  "text": "date"
+ },
+ {
+  "start": 442.36,
+  "end": 445.71,
+  "text": "time curly braces open open curly braces"
+ },
+ {
+  "start": 445.72,
+  "end": 448.189,
+  "text": "date time close curly braces what it"
+ },
+ {
+  "start": 448.199,
+  "end": 451.95,
+  "text": "will do is going to create the"
+ },
+ {
+  "start": 451.96,
+  "end": 453.99,
+  "text": "file"
+ },
+ {
+  "start": 454.0,
+  "end": 455.589,
+  "text": "with"
+ },
+ {
+  "start": 455.599,
+  "end": 458.629,
+  "text": "screenshot space it gives you the date"
+ },
+ {
+  "start": 458.639,
+  "end": 462.27,
+  "text": "and time stamp to the file so now let us"
+ },
+ {
+  "start": 462.28,
+  "end": 464.589,
+  "text": "simply run this now"
+ },
+ {
+  "start": 464.599,
+  "end": 468.67,
+  "text": "okay run this in"
+ },
+ {
+  "start": 472.39,
+  "end": 472.4,
+  "text": "your okay right click and run in"
+ },
+ {
+  "start": 472.4,
+  "end": 474.15,
+  "text": "scratchback so now we'll"
+ },
+ {
+  "start": 476.4,
+  "end": 480.589,
+  "text": "see it's going to run click on"
+ },
+ {
+  "start": 480.599,
+  "end": 483.51,
+  "text": "login as soon as you click on login it"
+ },
+ {
+  "start": 483.52,
+  "end": 485.11,
+  "text": "should take a"
+ },
+ {
+  "start": 485.12,
+  "end": 487.309,
+  "text": "screenshot yes now it should take a"
+ },
+ {
+  "start": 487.319,
+  "end": 490.029,
+  "text": "screenshot and perform other actions"
+ },
+ {
+  "start": 490.039,
+  "end": 492.469,
+  "text": "okay so we are not taking screenshot on"
+ },
+ {
+  "start": 492.479,
+  "end": 494.629,
+  "text": "failure but anyway so we are taking a"
+ },
+ {
+  "start": 494.639,
+  "end": 497.909,
+  "text": "screenshot on demand screenshot I want a"
+ },
+ {
+  "start": 497.919,
+  "end": 500.309,
+  "text": "screenshot and so and so step I just"
+ },
+ {
+  "start": 500.319,
+  "end": 503.309,
+  "text": "inserted a screenshot okay if you see"
+ },
+ {
+  "start": 503.319,
+  "end": 507.07,
+  "text": "here if you go back to your test results"
+ },
+ {
+  "start": 507.08,
+  "end": 510.35,
+  "text": "here your screenshot"
+ },
+ {
+  "start": 510.36,
+  "end": 511.67,
+  "text": "is"
+ },
+ {
+  "start": 511.68,
+  "end": 513.509,
+  "text": "successful the screenshot was"
+ },
+ {
+  "start": 513.519,
+  "end": 516.149,
+  "text": "successfully created where these are the"
+ },
+ {
+  "start": 516.159,
+  "end": 517.829,
+  "text": "detail this is where the screenshot"
+ },
+ {
+  "start": 517.839,
+  "end": 520.909,
+  "text": "should store so let us go to that path"
+ },
+ {
+  "start": 520.919,
+  "end": 523.67,
+  "text": "so if you go to this path see you have a"
+ },
+ {
+  "start": 523.68,
+  "end": 526.949,
+  "text": "screenshot as soon as you click on"
+ },
+ {
+  "start": 526.959,
+  "end": 530.11,
+  "text": "login see this is your screenshot so"
+ },
+ {
+  "start": 530.12,
+  "end": 535.269,
+  "text": "let's close this now so I want to take"
+ },
+ {
+  "start": 535.279,
+  "end": 537.75,
+  "text": "screenshot Whenever there is a failure"
+ },
+ {
+  "start": 537.76,
+  "end": 540.99,
+  "text": "in test case how can we do that so now"
+ },
+ {
+  "start": 541.0,
+  "end": 542.389,
+  "text": "we understand how can you take"
+ },
+ {
+  "start": 542.399,
+  "end": 545.47,
+  "text": "screenshot on demand but now I want to"
+ },
+ {
+  "start": 545.48,
+  "end": 546.389,
+  "text": "take a"
+ },
+ {
+  "start": 546.399,
+  "end": 549.19,
+  "text": "screenshot Whenever there is a failure"
+ },
+ {
+  "start": 549.2,
+  "end": 551.43,
+  "text": "in t case I don't know when but whenever"
+ },
+ {
+  "start": 551.44,
+  "end": 552.91,
+  "text": "there is a failure I want to take a"
+ },
+ {
+  "start": 552.92,
+  "end": 555.389,
+  "text": "screenshot how can we achieve that so"
+ },
+ {
+  "start": 555.399,
+  "end": 557.829,
+  "text": "for that you need to go to settings go"
+ },
+ {
+  "start": 557.839,
+  "end": 560.91,
+  "text": "to projects go to"
+ },
+ {
+  "start": 560.92,
+  "end": 563.509,
+  "text": "settings and in"
+ },
+ {
+  "start": 563.519,
+  "end": 566.59,
+  "text": "settings you need to go to"
+ },
+ {
+  "start": 566.6,
+  "end": 569.79,
+  "text": "tbox so it is just loading all the"
+ },
+ {
+  "start": 569.8,
+  "end": 574.389,
+  "text": "settings so you need to expand tbox and"
+ },
+ {
+  "start": 574.399,
+  "end": 575.43,
+  "text": "under"
+ },
+ {
+  "start": 575.44,
+  "end": 578.87,
+  "text": "logging you have a folder called"
+ },
+ {
+  "start": 578.88,
+  "end": 582.55,
+  "text": "screenshots here you need"
+ },
+ {
+  "start": 582.56,
+  "end": 587.31,
+  "text": "to enable make screenshot on failed test"
+ },
+ {
+  "start": 587.32,
+  "end": 590.75,
+  "text": "steps you can select off till now it is"
+ },
+ {
+  "start": 590.76,
+  "end": 594.15,
+  "text": "off either detection failure or"
+ },
+ {
+  "start": 594.16,
+  "end": 596.59,
+  "text": "verification failure I want to take a"
+ },
+ {
+  "start": 596.6,
+  "end": 597.87,
+  "text": "screenshot Whenever there is a"
+ },
+ {
+  "start": 597.88,
+  "end": 600.069,
+  "text": "verification failure"
+ },
+ {
+  "start": 600.079,
+  "end": 601.59,
+  "text": "okay that's why I'm going to select that"
+ },
+ {
+  "start": 601.6,
+  "end": 604.19,
+  "text": "as verification F and screenshot"
+ },
+ {
+  "start": 604.2,
+  "end": 609.19,
+  "text": "directory if you see my environment is C"
+ },
+ {
+  "start": 609.2,
+  "end": 611.55,
+  "text": "Colon c"
+ },
+ {
+  "start": 611.56,
+  "end": 616.269,
+  "text": "colon slash TOS setup toas Commander"
+ },
+ {
+  "start": 616.279,
+  "end": 618.31,
+  "text": "it's a default"
+ },
+ {
+  "start": 618.32,
+  "end": 620.75,
+  "text": "screenshot path you can change this"
+ },
+ {
+  "start": 620.76,
+  "end": 622.55,
+  "text": "particular path you can provide your"
+ },
+ {
+  "start": 622.56,
+  "end": 624.829,
+  "text": "path whatever you want but I want to"
+ },
+ {
+  "start": 624.839,
+  "end": 625.79,
+  "text": "keep it"
+ },
+ {
+  "start": 625.8,
+  "end": 627.35,
+  "text": "as"
+ },
+ {
+  "start": 627.36,
+  "end": 630.47,
+  "text": "default and here you can"
+ },
+ {
+  "start": 630.48,
+  "end": 635.11,
+  "text": "select the screenshot format the"
+ },
+ {
+  "start": 635.12,
+  "end": 639.47,
+  "text": "screenshot should be stored in jpeg PNG"
+ },
+ {
+  "start": 639.48,
+  "end": 642.99,
+  "text": "bitmap or GI whatever I want to save the"
+ },
+ {
+  "start": 643.0,
+  "end": 645.629,
+  "text": "screenshot in jpeg okay so I'm going to"
+ },
+ {
+  "start": 645.639,
+  "end": 649.55,
+  "text": "leave that as it is and then close it"
+ },
+ {
+  "start": 649.56,
+  "end": 652.31,
+  "text": "now let us run"
+ },
+ {
+  "start": 652.32,
+  "end": 656.629,
+  "text": "our test case again now okay let us run"
+ },
+ {
+  "start": 656.639,
+  "end": 658.03,
+  "text": "the test"
+ },
+ {
+  "start": 658.04,
+  "end": 662.03,
+  "text": "case"
+ },
+ {
+  "start": 665.15,
+  "end": 665.16,
+  "text": "so it opened your website now this time"
+ },
+ {
+  "start": 665.16,
+  "end": 668.069,
+  "text": "it is going to take a screenshot on"
+ },
+ {
+  "start": 668.079,
+  "end": 672.389,
+  "text": "demand whatever we inserted first and"
+ },
+ {
+  "start": 672.399,
+  "end": 674.55,
+  "text": "whenever test case is failed it"
+ },
+ {
+  "start": 674.56,
+  "end": 677.47,
+  "text": "automatically takes a screenshot so now"
+ },
+ {
+  "start": 677.48,
+  "end": 681.15,
+  "text": "we want to see now so the test case is"
+ },
+ {
+  "start": 681.16,
+  "end": 685.03,
+  "text": "failed as soon as you click on"
+ },
+ {
+  "start": 685.04,
+  "end": 687.949,
+  "text": "login now let us see the"
+ },
+ {
+  "start": 687.959,
+  "end": 692.389,
+  "text": "results"
+ },
+ {
+  "start": 694.11,
+  "end": 694.12,
+  "text": "so if you see"
+ },
+ {
+  "start": 694.12,
+  "end": 696.75,
+  "text": "here this is our earlier screenshot that"
+ },
+ {
+  "start": 696.76,
+  "end": 700.23,
+  "text": "we introduced and if you see here log"
+ },
+ {
+  "start": 700.24,
+  "end": 703.15,
+  "text": "out see this log out so basically it"
+ },
+ {
+  "start": 703.16,
+  "end": 705.629,
+  "text": "could not find out the log"
+ },
+ {
+  "start": 705.639,
+  "end": 708.91,
+  "text": "out and you can see here"
+ },
+ {
+  "start": 708.92,
+  "end": 712.55,
+  "text": "details system drawing bit map so"
+ },
+ {
+  "start": 712.56,
+  "end": 715.069,
+  "text": "basically there is some bit map that has"
+ },
+ {
+  "start": 715.079,
+  "end": 717.949,
+  "text": "been taken by your trient Tas how can"
+ },
+ {
+  "start": 717.959,
+  "end": 720.43,
+  "text": "you see that so we cannot see in"
+ },
+ {
+  "start": 720.44,
+  "end": 723.99,
+  "text": "scratchbook you need to execute the test"
+ },
+ {
+  "start": 724.0,
+  "end": 727.15,
+  "text": "case in execution list to see the"
+ },
+ {
+  "start": 727.16,
+  "end": 729.03,
+  "text": "screenshot so let us go to your"
+ },
+ {
+  "start": 729.04,
+  "end": 732.509,
+  "text": "execution list let us create a"
+ },
+ {
+  "start": 732.519,
+  "end": 736.55,
+  "text": "quick execution"
+ },
+ {
+  "start": 738.23,
+  "end": 738.24,
+  "text": "list"
+ },
+ {
+  "start": 738.24,
+  "end": 742.91,
+  "text": "screenshot and let me simply pull this"
+ },
+ {
+  "start": 742.92,
+  "end": 744.75,
+  "text": "and drop it"
+ },
+ {
+  "start": 744.76,
+  "end": 747.269,
+  "text": "into the execution"
+ },
+ {
+  "start": 747.279,
+  "end": 750.629,
+  "text": "list now I want to execute this"
+ },
+ {
+  "start": 750.639,
+  "end": 752.99,
+  "text": "particular execution list let us run"
+ },
+ {
+  "start": 753.0,
+  "end": 755.55,
+  "text": "this now let me close"
+ },
+ {
+  "start": 755.56,
+  "end": 757.15,
+  "text": "this right click"
+ },
+ {
+  "start": 768.67,
+  "end": 768.68,
+  "text": "and okay so now it clicks on login"
+ },
+ {
+  "start": 768.68,
+  "end": 771.67,
+  "text": "enters yes now it should take your"
+ },
+ {
+  "start": 771.68,
+  "end": 775.59,
+  "text": "screenshot on failure one step is failed"
+ },
+ {
+  "start": 775.6,
+  "end": 778.829,
+  "text": "so there your screenshot will be shown"
+ },
+ {
+  "start": 778.839,
+  "end": 784.509,
+  "text": "show let us simply bring this here"
+ },
+ {
+  "start": 787.15,
+  "end": 787.16,
+  "text": "okay here"
+ },
+ {
+  "start": 787.16,
+  "end": 795.35,
+  "text": "and let us expand your execution"
+ },
+ {
+  "start": 797.87,
+  "end": 797.88,
+  "text": "results here if you"
+ },
+ {
+  "start": 797.88,
+  "end": 801.75,
+  "text": "see our first screenshot is this which"
+ },
+ {
+  "start": 801.76,
+  "end": 805.23,
+  "text": "is your as soon as you click on login"
+ },
+ {
+  "start": 805.24,
+  "end": 809.31,
+  "text": "correct and now your second screenshot"
+ },
+ {
+  "start": 809.32,
+  "end": 812.75,
+  "text": "is this when your test case it is unable"
+ },
+ {
+  "start": 812.76,
+  "end": 815.47,
+  "text": "to click on log out and you should see"
+ },
+ {
+  "start": 815.48,
+  "end": 817.75,
+  "text": "the error message see"
+ },
+ {
+  "start": 817.76,
+  "end": 821.03,
+  "text": "here I can see the error message why it"
+ },
+ {
+  "start": 821.04,
+  "end": 824.189,
+  "text": "is failed because my login is not"
+ },
+ {
+  "start": 824.199,
+  "end": 826.31,
+  "text": "success that's why it is not able to"
+ },
+ {
+  "start": 826.32,
+  "end": 827.55,
+  "text": "find out log"
+ },
+ {
+  "start": 827.56,
+  "end": 830.71,
+  "text": "out right so you can see both the"
+ },
+ {
+  "start": 830.72,
+  "end": 834.069,
+  "text": "screenshots and the screenshot is saved"
+ },
+ {
+  "start": 834.079,
+  "end": 838.79,
+  "text": "in your local machine also so whenever"
+ },
+ {
+  "start": 838.8,
+  "end": 841.15,
+  "text": "there is a failure tasa will take"
+ },
+ {
+  "start": 841.16,
+  "end": 844.11,
+  "text": "screenshot automatically and here in"
+ },
+ {
+  "start": 844.12,
+  "end": 846.59,
+  "text": "this step we are instructing tasa to"
+ },
+ {
+  "start": 846.6,
+  "end": 849.389,
+  "text": "take a screenshot on demand correct so"
+ },
+ {
+  "start": 849.399,
+  "end": 851.35,
+  "text": "these are the two ways you can take the"
+ },
+ {
+  "start": 851.36,
+  "end": 854.71,
+  "text": "screenshots by using trient Tas so if"
+ },
+ {
+  "start": 854.72,
+  "end": 856.71,
+  "text": "you have any queries leave your queries"
+ },
+ {
+  "start": 856.72,
+  "end": 858.47,
+  "text": "in the comment box I'll try to respond"
+ },
+ {
+  "start": 858.48,
+  "end": 859.509,
+  "text": "to your"
+ },
+ {
+  "start": 859.519,
+  "end": 862.43,
+  "text": "queries oh you all understand the"
+ },
+ {
+  "start": 862.44,
+  "end": 865.71,
+  "text": "concept of taking screenshot in two"
+ },
+ {
+  "start": 865.72,
+  "end": 868.99,
+  "text": "different methods by using Trion TOs"
+ },
+ {
+  "start": 869.0,
+  "end": 871.189,
+  "text": "please do subscribe to the channel click"
+ },
+ {
+  "start": 871.199,
+  "end": 872.59,
+  "text": "on Bell icon you'll receive"
+ },
+ {
+  "start": 872.6,
+  "end": 875.11,
+  "text": "notifications whenever I publish more"
+ },
+ {
+  "start": 875.12,
+  "end": 884.8,
+  "text": "videos thank"
+ },
+ {
+  "start": 886.839,
+  "end": 889.839,
+  "text": "you"
+ }
+]

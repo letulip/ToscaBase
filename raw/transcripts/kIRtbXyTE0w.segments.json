@@ -1,0 +1,862 @@
+[
+ {
+  "start": 13.15,
+  "end": 13.16,
+  "text": "hi everyone this is Ravi welcome to"
+ },
+ {
+  "start": 13.16,
+  "end": 16.07,
+  "text": "tricentis tasa Advanced"
+ },
+ {
+  "start": 16.08,
+  "end": 18.51,
+  "text": "Training as you all know I've already"
+ },
+ {
+  "start": 18.52,
+  "end": 23.47,
+  "text": "published 43 YouTube videos covering"
+ },
+ {
+  "start": 23.48,
+  "end": 26.349,
+  "text": "beginners intermediate and advanced"
+ },
+ {
+  "start": 26.359,
+  "end": 29.029,
+  "text": "level Concepts so in my previous video"
+ },
+ {
+  "start": 29.039,
+  "end": 32.589,
+  "text": "on words I started teaching you some"
+ },
+ {
+  "start": 32.599,
+  "end": 35.549,
+  "text": "realtime scenarios how can we automate"
+ },
+ {
+  "start": 35.559,
+  "end": 39.51,
+  "text": "your test cases whenever you encounter"
+ },
+ {
+  "start": 39.52,
+  "end": 42.029,
+  "text": "different types of obstacles while"
+ },
+ {
+  "start": 42.039,
+  "end": 44.47,
+  "text": "automating your test cases by using"
+ },
+ {
+  "start": 44.48,
+  "end": 48.549,
+  "text": "trient Tas this is our second"
+ },
+ {
+  "start": 48.559,
+  "end": 52.229,
+  "text": "lesson pertaining to real time scenarios"
+ },
+ {
+  "start": 52.239,
+  "end": 55.069,
+  "text": "in this lesson I'm going to teach you"
+ },
+ {
+  "start": 55.079,
+  "end": 59.229,
+  "text": "how can we automate your test case when"
+ },
+ {
+  "start": 59.239,
+  "end": 63.75,
+  "text": "you ENC cter an obstacle where you have"
+ },
+ {
+  "start": 63.76,
+  "end": 67.99,
+  "text": "a duplicate elements with same"
+ },
+ {
+  "start": 68.0,
+  "end": 70.95,
+  "text": "properties same multiple"
+ },
+ {
+  "start": 70.96,
+  "end": 73.99,
+  "text": "properties so let us go back to our"
+ },
+ {
+  "start": 74.0,
+  "end": 76.35,
+  "text": "Chrome browser let us"
+ },
+ {
+  "start": 76.36,
+  "end": 79.03,
+  "text": "understand what is the obstacle that we"
+ },
+ {
+  "start": 79.04,
+  "end": 82.109,
+  "text": "are going to solve for so we're going to"
+ },
+ {
+  "start": 82.119,
+  "end": 85.67,
+  "text": "solve our second"
+ },
+ {
+  "start": 85.68,
+  "end": 90.35,
+  "text": "obstacle which is automate a test step"
+ },
+ {
+  "start": 90.36,
+  "end": 94.67,
+  "text": "that clicks on the button labeled I am"
+ },
+ {
+  "start": 94.68,
+  "end": 98.03,
+  "text": "the one the second one on the right hand"
+ },
+ {
+  "start": 98.04,
+  "end": 102.71,
+  "text": "side I can see I am the one I am the one"
+ },
+ {
+  "start": 102.72,
+  "end": 105.95,
+  "text": "there are two buttons with the same name"
+ },
+ {
+  "start": 105.96,
+  "end": 108.95,
+  "text": "so we have to click on the button which"
+ },
+ {
+  "start": 108.96,
+  "end": 112.23,
+  "text": "is located on right"
+ },
+ {
+  "start": 112.24,
+  "end": 115.87,
+  "text": "side for that let's go back to trient"
+ },
+ {
+  "start": 115.88,
+  "end": 119.429,
+  "text": "Tason and here let us scan the"
+ },
+ {
+  "start": 119.439,
+  "end": 120.99,
+  "text": "application"
+ },
+ {
+  "start": 121.0,
+  "end": 124.149,
+  "text": "and the objects that are required to"
+ },
+ {
+  "start": 124.159,
+  "end": 128.07,
+  "text": "automate so here let's right click on"
+ },
+ {
+  "start": 128.08,
+  "end": 131.75,
+  "text": "obstacles folder click on scan and"
+ },
+ {
+  "start": 131.76,
+  "end": 134.35,
+  "text": "select the"
+ },
+ {
+  "start": 134.36,
+  "end": 137.309,
+  "text": "application so here is our application"
+ },
+ {
+  "start": 137.319,
+  "end": 138.869,
+  "text": "let's select the application and click"
+ },
+ {
+  "start": 138.879,
+  "end": 145.509,
+  "text": "on"
+ },
+ {
+  "start": 149.589,
+  "end": 149.599,
+  "text": "scan so let me maximize this and if you"
+ },
+ {
+  "start": 149.599,
+  "end": 152.589,
+  "text": "see here there are two buttons or two"
+ },
+ {
+  "start": 152.599,
+  "end": 155.949,
+  "text": "links I am the one I am the one so we"
+ },
+ {
+  "start": 155.959,
+  "end": 158.35,
+  "text": "are interested in these two buttons"
+ },
+ {
+  "start": 158.36,
+  "end": 160.309,
+  "text": "let's check the properties of these two"
+ },
+ {
+  "start": 160.319,
+  "end": 164.67,
+  "text": "buttons the first button on right side"
+ },
+ {
+  "start": 164.68,
+  "end": 169.43,
+  "text": "which is using ID and"
+ },
+ {
+  "start": 169.44,
+  "end": 175.39,
+  "text": "tag and ID is ID tag is a let's go back"
+ },
+ {
+  "start": 175.4,
+  "end": 179.47,
+  "text": "to another button which has an ID"
+ },
+ {
+  "start": 179.48,
+  "end": 184.07,
+  "text": "property as ID and tag as a value so"
+ },
+ {
+  "start": 184.08,
+  "end": 186.949,
+  "text": "that means both the properties are same"
+ },
+ {
+  "start": 186.959,
+  "end": 190.19,
+  "text": "and let's see what is the inner text it"
+ },
+ {
+  "start": 190.2,
+  "end": 195.149,
+  "text": "says I am the one your inner HTML says I"
+ },
+ {
+  "start": 195.159,
+  "end": 198.19,
+  "text": "am the one your inner text says I am the"
+ },
+ {
+  "start": 198.2,
+  "end": 201.67,
+  "text": "one let's go back here so even this"
+ },
+ {
+  "start": 201.68,
+  "end": 205.27,
+  "text": "button has same inner text and all other"
+ },
+ {
+  "start": 205.28,
+  "end": 210.11,
+  "text": "properties are same so in this case how"
+ },
+ {
+  "start": 210.12,
+  "end": 211.229,
+  "text": "can we"
+ },
+ {
+  "start": 211.239,
+  "end": 214.869,
+  "text": "solve automating our test case so there"
+ },
+ {
+  "start": 214.879,
+  "end": 216.149,
+  "text": "are two"
+ },
+ {
+  "start": 216.159,
+  "end": 218.99,
+  "text": "methods so if I select this button here"
+ },
+ {
+  "start": 219.0,
+  "end": 222.869,
+  "text": "now you can see this says your selected"
+ },
+ {
+  "start": 222.879,
+  "end": 226.589,
+  "text": "item is not your so how can we make"
+ },
+ {
+  "start": 226.599,
+  "end": 229.789,
+  "text": "these buttons as unique buttons there"
+ },
+ {
+  "start": 229.799,
+  "end": 232.83,
+  "text": "are two ways the first one"
+ },
+ {
+  "start": 232.84,
+  "end": 235.27,
+  "text": "is by using"
+ },
+ {
+  "start": 235.28,
+  "end": 237.39,
+  "text": "index go to"
+ },
+ {
+  "start": 237.4,
+  "end": 240.67,
+  "text": "identify and select"
+ },
+ {
+  "start": 240.68,
+  "end": 243.949,
+  "text": "index so if you see here the first"
+ },
+ {
+  "start": 243.959,
+  "end": 249.509,
+  "text": "button has an index of null and second"
+ },
+ {
+  "start": 249.519,
+  "end": 253.069,
+  "text": "has an index of two if you see here the"
+ },
+ {
+  "start": 253.079,
+  "end": 255.509,
+  "text": "selected item is not unique as soon as I"
+ },
+ {
+  "start": 255.519,
+  "end": 258.43,
+  "text": "select this so now your button is"
+ },
+ {
+  "start": 258.44,
+  "end": 261.229,
+  "text": "uniquely identified but I don't want to"
+ },
+ {
+  "start": 261.239,
+  "end": 264.11,
+  "text": "use that method because what if in"
+ },
+ {
+  "start": 264.12,
+  "end": 267.79,
+  "text": "future you introduce another button in"
+ },
+ {
+  "start": 267.8,
+  "end": 270.83,
+  "text": "middle or somewhere right side then what"
+ },
+ {
+  "start": 270.84,
+  "end": 274.27,
+  "text": "happens the index of this button becomes"
+ },
+ {
+  "start": 274.28,
+  "end": 277.11,
+  "text": "three that means your test case is going"
+ },
+ {
+  "start": 277.12,
+  "end": 278.27,
+  "text": "to"
+ },
+ {
+  "start": 278.28,
+  "end": 281.909,
+  "text": "fa so what we can do there is another"
+ },
+ {
+  "start": 281.919,
+  "end": 286.629,
+  "text": "method we can use the parent object to"
+ },
+ {
+  "start": 286.639,
+  "end": 290.55,
+  "text": "identify this button for that we have to"
+ },
+ {
+  "start": 290.56,
+  "end": 293.59,
+  "text": "expand the filter to see additional"
+ },
+ {
+  "start": 293.6,
+  "end": 297.67,
+  "text": "objects let's go and expand here expand"
+ },
+ {
+  "start": 297.68,
+  "end": 300.629,
+  "text": "some more but here if you see"
+ },
+ {
+  "start": 300.639,
+  "end": 306.43,
+  "text": "this button is under I am the one and"
+ },
+ {
+  "start": 306.44,
+  "end": 309.35,
+  "text": "this button is under I the one container"
+ },
+ {
+  "start": 309.36,
+  "end": 312.07,
+  "text": "so basically this is one container and"
+ },
+ {
+  "start": 312.08,
+  "end": 314.83,
+  "text": "this is another container let's see if"
+ },
+ {
+  "start": 314.84,
+  "end": 317.43,
+  "text": "these containers are uniquely identified"
+ },
+ {
+  "start": 317.44,
+  "end": 319.749,
+  "text": "if you select this container let's go"
+ },
+ {
+  "start": 319.759,
+  "end": 321.99,
+  "text": "back to identify by"
+ },
+ {
+  "start": 322.0,
+  "end": 325.79,
+  "text": "properties so here the container"
+ },
+ {
+  "start": 325.8,
+  "end": 327.87,
+  "text": "pertaining to the first"
+ },
+ {
+  "start": 327.88,
+  "end": 331.15,
+  "text": "button has"
+ },
+ {
+  "start": 331.16,
+  "end": 333.11,
+  "text": "ID this"
+ },
+ {
+  "start": 333.12,
+  "end": 337.83,
+  "text": "is this one is the right and let's see"
+ },
+ {
+  "start": 337.84,
+  "end": 339.95,
+  "text": "the container pertaining to the other"
+ },
+ {
+  "start": 339.96,
+  "end": 343.629,
+  "text": "button here this one this one"
+ },
+ {
+  "start": 343.639,
+  "end": 348.11,
+  "text": "says the inner text is empty that means"
+ },
+ {
+  "start": 348.12,
+  "end": 351.79,
+  "text": "these two containers are uniquely"
+ },
+ {
+  "start": 351.8,
+  "end": 356.27,
+  "text": "identified the first button has an ID"
+ },
+ {
+  "start": 356.28,
+  "end": 360.15,
+  "text": "this is the"
+ },
+ {
+  "start": 360.16,
+  "end": 366.11,
+  "text": "right and this one has an IDE of"
+ },
+ {
+  "start": 366.12,
+  "end": 370.27,
+  "text": "empty so that means I can"
+ },
+ {
+  "start": 370.28,
+  "end": 375.11,
+  "text": "use the container parent container to"
+ },
+ {
+  "start": 375.12,
+  "end": 378.909,
+  "text": "identify this particular button let us"
+ },
+ {
+  "start": 378.919,
+  "end": 381.189,
+  "text": "select this parent container as soon as"
+ },
+ {
+  "start": 381.199,
+  "end": 385.95,
+  "text": "I select so now it says you I am the one"
+ },
+ {
+  "start": 385.96,
+  "end": 388.39,
+  "text": "button is uniquely identified see"
+ },
+ {
+  "start": 388.4,
+  "end": 390.79,
+  "text": "whenever I remove this"
+ },
+ {
+  "start": 390.8,
+  "end": 394.51,
+  "text": "here see this is not uniquely identified"
+ },
+ {
+  "start": 394.52,
+  "end": 397.55,
+  "text": "if I select this container now your"
+ },
+ {
+  "start": 397.56,
+  "end": 399.51,
+  "text": "object is uniquely"
+ },
+ {
+  "start": 399.52,
+  "end": 404.11,
+  "text": "identified so now let us rename this"
+ },
+ {
+  "start": 404.12,
+  "end": 410.79,
+  "text": "particular module as the obstacle"
+ },
+ {
+  "start": 415.95,
+  "end": 415.96,
+  "text": "name copy and here rename this it is a"
+ },
+ {
+  "start": 415.96,
+  "end": 419.35,
+  "text": "best practice to rename your modules in"
+ },
+ {
+  "start": 419.36,
+  "end": 421.15,
+  "text": "a logical"
+ },
+ {
+  "start": 421.16,
+  "end": 427.39,
+  "text": "way now let's save this particular"
+ },
+ {
+  "start": 430.55,
+  "end": 430.56,
+  "text": "module and close"
+ },
+ {
+  "start": 430.56,
+  "end": 434.23,
+  "text": "this let us go back to trient TOS so"
+ },
+ {
+  "start": 434.24,
+  "end": 438.029,
+  "text": "this is our new obstacle module and here"
+ },
+ {
+  "start": 438.039,
+  "end": 441.189,
+  "text": "I can see this button so now let me"
+ },
+ {
+  "start": 441.199,
+  "end": 445.909,
+  "text": "create a new test case here right click"
+ },
+ {
+  "start": 445.919,
+  "end": 449.11,
+  "text": "and create a test case name this as"
+ },
+ {
+  "start": 449.12,
+  "end": 450.869,
+  "text": "abstract"
+ },
+ {
+  "start": 450.879,
+  "end": 455.909,
+  "text": "1 129 Y2 and here let's double click on"
+ },
+ {
+  "start": 455.919,
+  "end": 458.909,
+  "text": "this test case and I would like to drag"
+ },
+ {
+  "start": 458.919,
+  "end": 463.39,
+  "text": "and drop this module onto the test"
+ },
+ {
+  "start": 467.469,
+  "end": 467.479,
+  "text": "case and expand this so it is very easy"
+ },
+ {
+  "start": 467.479,
+  "end": 470.51,
+  "text": "for us to automate this test case once"
+ },
+ {
+  "start": 470.52,
+  "end": 473.83,
+  "text": "you solve the unique identification of"
+ },
+ {
+  "start": 473.84,
+  "end": 477.149,
+  "text": "the object so here you can see it has a"
+ },
+ {
+  "start": 477.159,
+  "end": 481.189,
+  "text": "container also and it has the button so"
+ },
+ {
+  "start": 481.199,
+  "end": 484.029,
+  "text": "this particular button is under a"
+ },
+ {
+  "start": 484.039,
+  "end": 486.029,
+  "text": "container called this"
+ },
+ {
+  "start": 486.039,
+  "end": 489.749,
+  "text": "one and which is uniquely identified"
+ },
+ {
+  "start": 489.759,
+  "end": 492.79,
+  "text": "right so here to click on this button I"
+ },
+ {
+  "start": 492.8,
+  "end": 495.55,
+  "text": "would like to use again click which is"
+ },
+ {
+  "start": 495.56,
+  "end": 498.95,
+  "text": "not recommended you need to use x but I"
+ },
+ {
+  "start": 498.96,
+  "end": 502.35,
+  "text": "want to see the cursor so that I can"
+ },
+ {
+  "start": 502.36,
+  "end": 506.35,
+  "text": "observe closely on which button we are"
+ },
+ {
+  "start": 506.36,
+  "end": 508.149,
+  "text": "clicking by using this particular test"
+ },
+ {
+  "start": 508.159,
+  "end": 510.23,
+  "text": "case"
+ },
+ {
+  "start": 510.24,
+  "end": 513.35,
+  "text": "so now let us run this particular test"
+ },
+ {
+  "start": 513.36,
+  "end": 518.07,
+  "text": "case and see if we can click on the"
+ },
+ {
+  "start": 518.08,
+  "end": 527.11,
+  "text": "button which is on right"
+ },
+ {
+  "start": 530.389,
+  "end": 530.399,
+  "text": "side see it is clicking on the button"
+ },
+ {
+  "start": 530.399,
+  "end": 533.71,
+  "text": "which is right side good job you solve"
+ },
+ {
+  "start": 533.72,
+  "end": 536.23,
+  "text": "this automation"
+ },
+ {
+  "start": 536.24,
+  "end": 539.71,
+  "text": "problem so you can see the the test"
+ },
+ {
+  "start": 539.72,
+  "end": 542.75,
+  "text": "result here your test result is"
+ },
+ {
+  "start": 542.76,
+  "end": 545.11,
+  "text": "passed once you complete automating the"
+ },
+ {
+  "start": 545.12,
+  "end": 548.389,
+  "text": "test case it's best practice to mark"
+ },
+ {
+  "start": 548.399,
+  "end": 552.15,
+  "text": "this as completed and save"
+ },
+ {
+  "start": 552.16,
+  "end": 556.31,
+  "text": "this hope you all understand how can we"
+ },
+ {
+  "start": 556.32,
+  "end": 560.99,
+  "text": "solve the obstacle where two identical"
+ },
+ {
+  "start": 561.0,
+  "end": 564.91,
+  "text": "objects having same"
+ },
+ {
+  "start": 564.92,
+  "end": 567.069,
+  "text": "properties if you have any queries leave"
+ },
+ {
+  "start": 567.079,
+  "end": 568.91,
+  "text": "your queries in the comment box I'll try"
+ },
+ {
+  "start": 568.92,
+  "end": 571.99,
+  "text": "to respond respond to your"
+ },
+ {
+  "start": 575.79,
+  "end": 575.8,
+  "text": "query oh you all understand how can we"
+ },
+ {
+  "start": 575.8,
+  "end": 580.069,
+  "text": "solve our second obstacle whenever you"
+ },
+ {
+  "start": 580.079,
+  "end": 584.509,
+  "text": "try to automate your test cases by using"
+ },
+ {
+  "start": 584.519,
+  "end": 589.43,
+  "text": "triena where you have multiple objects"
+ },
+ {
+  "start": 589.44,
+  "end": 595.069,
+  "text": "and both the objects has the same"
+ },
+ {
+  "start": 595.079,
+  "end": 597.79,
+  "text": "properties please do subscribe to the"
+ },
+ {
+  "start": 597.8,
+  "end": 600.23,
+  "text": "channel click on Bell IC on you'll"
+ },
+ {
+  "start": 600.24,
+  "end": 602.509,
+  "text": "receive notifications whenever I publish"
+ },
+ {
+  "start": 602.519,
+  "end": 614.03,
+  "text": "more videos thank you"
+ }
+]

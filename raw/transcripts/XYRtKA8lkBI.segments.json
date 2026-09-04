@@ -1,0 +1,2907 @@
+[
+ {
+  "start": 1.68,
+  "end": 4.85,
+  "text": "foreign"
+ },
+ {
+  "start": 17.689,
+  "end": 17.699,
+  "text": "automation tutorial"
+ },
+ {
+  "start": 17.699,
+  "end": 20.63,
+  "text": "as you all know I've already published"
+ },
+ {
+  "start": 20.64,
+  "end": 23.87,
+  "text": "12 YouTube videos covering different"
+ },
+ {
+  "start": 23.88,
+  "end": 27.109,
+  "text": "concepts of tricentistoska latest"
+ },
+ {
+  "start": 27.119,
+  "end": 29.39,
+  "text": "version 16."
+ },
+ {
+  "start": 29.4,
+  "end": 32.03,
+  "text": "so in my previous session I've covered"
+ },
+ {
+  "start": 32.04,
+  "end": 34.49,
+  "text": "the action modes"
+ },
+ {
+  "start": 34.5,
+  "end": 40.49,
+  "text": "select verify and then wait on okay so I"
+ },
+ {
+  "start": 40.5,
+  "end": 42.17,
+  "text": "would recommend you guys to please go"
+ },
+ {
+  "start": 42.18,
+  "end": 44.33,
+  "text": "through my previous session before watch"
+ },
+ {
+  "start": 44.34,
+  "end": 45.65,
+  "text": "this session so that you can understand"
+ },
+ {
+  "start": 45.66,
+  "end": 48.889,
+  "text": "the concepts very well and this is our"
+ },
+ {
+  "start": 48.899,
+  "end": 53.75,
+  "text": "lesson 13 where I'm gonna teach you"
+ },
+ {
+  "start": 53.76,
+  "end": 56.93,
+  "text": "the action mode buffer how can we use"
+ },
+ {
+  "start": 56.94,
+  "end": 59.33,
+  "text": "the action mode buffer while automating"
+ },
+ {
+  "start": 59.34,
+  "end": 60.889,
+  "text": "your test cases"
+ },
+ {
+  "start": 60.899,
+  "end": 63.349,
+  "text": "and then how can you use the math"
+ },
+ {
+  "start": 63.359,
+  "end": 66.17,
+  "text": "function while automating your test"
+ },
+ {
+  "start": 66.18,
+  "end": 69.289,
+  "text": "cases so math functions and action mode"
+ },
+ {
+  "start": 69.299,
+  "end": 73.07,
+  "text": "buffer are very very important Concepts"
+ },
+ {
+  "start": 73.08,
+  "end": 76.55,
+  "text": "while performing some verification as"
+ },
+ {
+  "start": 76.56,
+  "end": 79.429,
+  "text": "part of your test case automation"
+ },
+ {
+  "start": 79.439,
+  "end": 82.789,
+  "text": "and also I'm gonna teach you Dynamic"
+ },
+ {
+  "start": 82.799,
+  "end": 87.05,
+  "text": "expressions like Dynamic text"
+ },
+ {
+  "start": 87.06,
+  "end": 91.13,
+  "text": "Dynamic numbers and the dynamic dates"
+ },
+ {
+  "start": 91.14,
+  "end": 94.609,
+  "text": "how can you use Dynamic text how can you"
+ },
+ {
+  "start": 94.619,
+  "end": 97.73,
+  "text": "use the dynamic numbers and the dynamic"
+ },
+ {
+  "start": 97.74,
+  "end": 100.969,
+  "text": "dates while automating your test cases"
+ },
+ {
+  "start": 100.979,
+  "end": 103.37,
+  "text": "and"
+ },
+ {
+  "start": 103.38,
+  "end": 107.09,
+  "text": "provide your test data Dynamic test data"
+ },
+ {
+  "start": 107.1,
+  "end": 110.149,
+  "text": "instead of static test data as an input"
+ },
+ {
+  "start": 110.159,
+  "end": 112.85,
+  "text": "to your test case Okay so these are all"
+ },
+ {
+  "start": 112.86,
+  "end": 115.73,
+  "text": "really very very important Concepts"
+ },
+ {
+  "start": 115.74,
+  "end": 119.749,
+  "text": "to automate your test cases and to make"
+ },
+ {
+  "start": 119.759,
+  "end": 123.95,
+  "text": "it very easy to automate your business"
+ },
+ {
+  "start": 123.96,
+  "end": 128.33,
+  "text": "cases okay please do subscribe to the"
+ },
+ {
+  "start": 128.34,
+  "end": 129.05,
+  "text": "channel"
+ },
+ {
+  "start": 129.06,
+  "end": 131.089,
+  "text": "click on Bell icon you'll receive"
+ },
+ {
+  "start": 131.099,
+  "end": 134.15,
+  "text": "notifications whenever I publish more"
+ },
+ {
+  "start": 134.16,
+  "end": 135.47,
+  "text": "videos"
+ },
+ {
+  "start": 135.48,
+  "end": 138.83,
+  "text": "stay tuned and let's jump on to the next"
+ },
+ {
+  "start": 138.84,
+  "end": 141.55,
+  "text": "slides"
+ },
+ {
+  "start": 145.729,
+  "end": 145.739,
+  "text": "okay so our next agenda item is dynamic"
+ },
+ {
+  "start": 145.739,
+  "end": 146.99,
+  "text": "expressions"
+ },
+ {
+  "start": 147.0,
+  "end": 149.71,
+  "text": "how can you use Dynamic Expressions"
+ },
+ {
+  "start": 149.72,
+  "end": 152.51,
+  "text": "while automating your test cases by"
+ },
+ {
+  "start": 152.52,
+  "end": 155.449,
+  "text": "using latest version of Tasker 16."
+ },
+ {
+  "start": 155.459,
+  "end": 158.93,
+  "text": "so I'm gonna teach you how to use"
+ },
+ {
+  "start": 158.94,
+  "end": 160.61,
+  "text": "math functions"
+ },
+ {
+  "start": 160.62,
+  "end": 164.21,
+  "text": "and then how can you use Dynamic text or"
+ },
+ {
+  "start": 164.22,
+  "end": 166.97,
+  "text": "how can you generate Dynamic text and"
+ },
+ {
+  "start": 166.98,
+  "end": 169.49,
+  "text": "then use it as a test data while"
+ },
+ {
+  "start": 169.5,
+  "end": 171.47,
+  "text": "automating your test cases"
+ },
+ {
+  "start": 171.48,
+  "end": 174.35,
+  "text": "and how can you generate random or"
+ },
+ {
+  "start": 174.36,
+  "end": 177.35,
+  "text": "dynamic random values while automating"
+ },
+ {
+  "start": 177.36,
+  "end": 179.75,
+  "text": "your test cases and then how can you"
+ },
+ {
+  "start": 179.76,
+  "end": 182.449,
+  "text": "generate Dynamic date while automating"
+ },
+ {
+  "start": 182.459,
+  "end": 184.67,
+  "text": "your test cases so I'm going to teach"
+ },
+ {
+  "start": 184.68,
+  "end": 186.589,
+  "text": "you with examples"
+ },
+ {
+  "start": 186.599,
+  "end": 190.79,
+  "text": "while automating one of our test case"
+ },
+ {
+  "start": 190.8,
+  "end": 193.729,
+  "text": "so now let's jump onto the system and"
+ },
+ {
+  "start": 193.739,
+  "end": 197.869,
+  "text": "see how can we use all these Concepts"
+ },
+ {
+  "start": 197.879,
+  "end": 202.55,
+  "text": "practically by using Tasker 16."
+ },
+ {
+  "start": 202.56,
+  "end": 206.03,
+  "text": "okay so this is my Tasker 16."
+ },
+ {
+  "start": 206.04,
+  "end": 208.729,
+  "text": "uh if you remember so in my previous"
+ },
+ {
+  "start": 208.739,
+  "end": 211.309,
+  "text": "session we have covered action modes"
+ },
+ {
+  "start": 211.319,
+  "end": 213.29,
+  "text": "right for that we have created this"
+ },
+ {
+  "start": 213.3,
+  "end": 216.41,
+  "text": "folder and the entire test case"
+ },
+ {
+  "start": 216.42,
+  "end": 219.47,
+  "text": "and I explained you about the action"
+ },
+ {
+  "start": 219.48,
+  "end": 222.589,
+  "text": "modes verify select and wait on okay so"
+ },
+ {
+  "start": 222.599,
+  "end": 225.71,
+  "text": "I'm going to copy the same folder here"
+ },
+ {
+  "start": 225.72,
+  "end": 227.39,
+  "text": "copy"
+ },
+ {
+  "start": 227.4,
+  "end": 231.41,
+  "text": "and let's duplicate the folder in the"
+ },
+ {
+  "start": 231.42,
+  "end": 235.19,
+  "text": "parent folder parent folder okay"
+ },
+ {
+  "start": 235.2,
+  "end": 237.41,
+  "text": "so I'm duplicating the"
+ },
+ {
+  "start": 237.42,
+  "end": 239.869,
+  "text": "um work as of now but going forward we"
+ },
+ {
+  "start": 239.879,
+  "end": 241.49,
+  "text": "are going to use the reusable functions"
+ },
+ {
+  "start": 241.5,
+  "end": 244.49,
+  "text": "okay uh but yeah for this session let me"
+ },
+ {
+  "start": 244.5,
+  "end": 247.43,
+  "text": "rename this"
+ },
+ {
+  "start": 259.31,
+  "end": 259.32,
+  "text": "first let's let me cover buffer"
+ },
+ {
+  "start": 259.32,
+  "end": 265.189,
+  "text": "and math function okay"
+ },
+ {
+  "start": 267.53,
+  "end": 267.54,
+  "text": "okay so if you see the agenda item right"
+ },
+ {
+  "start": 267.54,
+  "end": 269.51,
+  "text": "if you see the agendas"
+ },
+ {
+  "start": 269.52,
+  "end": 271.73,
+  "text": "first we need to cover the action mode"
+ },
+ {
+  "start": 271.74,
+  "end": 274.73,
+  "text": "buffer and I'm gonna cover even math"
+ },
+ {
+  "start": 274.74,
+  "end": 278.51,
+  "text": "function along with the buffer okay"
+ },
+ {
+  "start": 278.52,
+  "end": 280.07,
+  "text": "so here"
+ },
+ {
+  "start": 280.08,
+  "end": 283.79,
+  "text": "let's expand this"
+ },
+ {
+  "start": 283.8,
+  "end": 288.17,
+  "text": "let's expand let's go to process"
+ },
+ {
+  "start": 288.18,
+  "end": 292.01,
+  "text": "under process order product okay under"
+ },
+ {
+  "start": 292.02,
+  "end": 295.07,
+  "text": "order product blue jeans when you are"
+ },
+ {
+  "start": 295.08,
+  "end": 297.29,
+  "text": "actually ordering the blue jeans let's"
+ },
+ {
+  "start": 297.3,
+  "end": 299.81,
+  "text": "go to operations and choose"
+ },
+ {
+  "start": 299.82,
+  "end": 302.81,
+  "text": "and go to Blue Jeans here we are"
+ },
+ {
+  "start": 302.82,
+  "end": 305.09,
+  "text": "specifying the quantity"
+ },
+ {
+  "start": 305.1,
+  "end": 308.09,
+  "text": "and the price I mean it shows the price"
+ },
+ {
+  "start": 308.1,
+  "end": 309.95,
+  "text": "and where you are specifying the"
+ },
+ {
+  "start": 309.96,
+  "end": 312.65,
+  "text": "quantity as 25 and add to cut right so"
+ },
+ {
+  "start": 312.66,
+  "end": 315.59,
+  "text": "here I want to capture the price of Blue"
+ },
+ {
+  "start": 315.6,
+  "end": 317.33,
+  "text": "Jeans"
+ },
+ {
+  "start": 317.34,
+  "end": 318.77,
+  "text": "so that"
+ },
+ {
+  "start": 318.78,
+  "end": 321.23,
+  "text": "I can verify"
+ },
+ {
+  "start": 321.24,
+  "end": 324.29,
+  "text": "the price of my blue jeans"
+ },
+ {
+  "start": 324.3,
+  "end": 328.79,
+  "text": "during checkout process okay so now for"
+ },
+ {
+  "start": 328.8,
+  "end": 331.43,
+  "text": "one blue jeans this is the price now"
+ },
+ {
+  "start": 331.44,
+  "end": 334.129,
+  "text": "when I when I am checking out 25 blue"
+ },
+ {
+  "start": 334.139,
+  "end": 336.529,
+  "text": "jeans right I want to verify the price"
+ },
+ {
+  "start": 336.539,
+  "end": 339.71,
+  "text": "so that's why I'm gonna store the price"
+ },
+ {
+  "start": 339.72,
+  "end": 344.27,
+  "text": "of blue jeans into a buffer okay"
+ },
+ {
+  "start": 344.28,
+  "end": 346.31,
+  "text": "so if you see"
+ },
+ {
+  "start": 346.32,
+  "end": 349.85,
+  "text": "this is my price container right I"
+ },
+ {
+  "start": 349.86,
+  "end": 352.43,
+  "text": "already captured all the controls if you"
+ },
+ {
+  "start": 352.44,
+  "end": 355.37,
+  "text": "see this is my price container and this"
+ },
+ {
+  "start": 355.38,
+  "end": 358.79,
+  "text": "is my quantity edit box this is my add"
+ },
+ {
+  "start": 358.8,
+  "end": 360.17,
+  "text": "to cart"
+ },
+ {
+  "start": 360.18,
+  "end": 361.31,
+  "text": "button"
+ },
+ {
+  "start": 361.32,
+  "end": 365.15,
+  "text": "right so for this price"
+ },
+ {
+  "start": 365.16,
+  "end": 368.21,
+  "text": "I want to"
+ },
+ {
+  "start": 368.22,
+  "end": 370.909,
+  "text": "capture the inner text"
+ },
+ {
+  "start": 370.919,
+  "end": 373.67,
+  "text": "so if you go here simple see when you"
+ },
+ {
+  "start": 373.68,
+  "end": 375.89,
+  "text": "want to capture the inner text go to"
+ },
+ {
+  "start": 375.9,
+  "end": 377.33,
+  "text": "this Arrow mark"
+ },
+ {
+  "start": 377.34,
+  "end": 379.73,
+  "text": "go to property"
+ },
+ {
+  "start": 379.74,
+  "end": 382.67,
+  "text": "click on inner text"
+ },
+ {
+  "start": 382.68,
+  "end": 385.37,
+  "text": "operator equal to"
+ },
+ {
+  "start": 385.38,
+  "end": 389.749,
+  "text": "here specify the buffer variable name"
+ },
+ {
+  "start": 389.759,
+  "end": 393.35,
+  "text": "price blue jeans price"
+ },
+ {
+  "start": 393.36,
+  "end": 396.89,
+  "text": "blue jeans this is what the variable or"
+ },
+ {
+  "start": 396.9,
+  "end": 400.79,
+  "text": "the buffer I want to store okay"
+ },
+ {
+  "start": 400.8,
+  "end": 404.87,
+  "text": "and once you've done this see I specify"
+ },
+ {
+  "start": 404.88,
+  "end": 409.309,
+  "text": "this here I need to use action mode as"
+ },
+ {
+  "start": 409.319,
+  "end": 412.909,
+  "text": "buffer as soon as I select this this"
+ },
+ {
+  "start": 412.919,
+  "end": 416.33,
+  "text": "equal will turn into Arrow mark that"
+ },
+ {
+  "start": 416.34,
+  "end": 419.749,
+  "text": "means the inner text is"
+ },
+ {
+  "start": 419.759,
+  "end": 423.65,
+  "text": "stored under the variable call or under"
+ },
+ {
+  "start": 423.66,
+  "end": 427.61,
+  "text": "the buffer called price blue jeans"
+ },
+ {
+  "start": 427.62,
+  "end": 431.809,
+  "text": "okay that's done now save this"
+ },
+ {
+  "start": 431.819,
+  "end": 435.469,
+  "text": "and now one says to the price of this"
+ },
+ {
+  "start": 435.479,
+  "end": 439.189,
+  "text": "blue jeans let's go to your shopping"
+ },
+ {
+  "start": 439.199,
+  "end": 440.33,
+  "text": "cart"
+ },
+ {
+  "start": 440.34,
+  "end": 444.23,
+  "text": "and let's check out these 25"
+ },
+ {
+  "start": 444.24,
+  "end": 449.39,
+  "text": "blue Genesis continue continue"
+ },
+ {
+  "start": 454.07,
+  "end": 454.08,
+  "text": "okay here before I confirm the order I"
+ },
+ {
+  "start": 454.08,
+  "end": 457.969,
+  "text": "want to verify all these items whether"
+ },
+ {
+  "start": 457.979,
+  "end": 460.85,
+  "text": "the price is correct or not I want to"
+ },
+ {
+  "start": 460.86,
+  "end": 464.089,
+  "text": "verify the subtotal of subtotal"
+ },
+ {
+  "start": 464.099,
+  "end": 468.05,
+  "text": "I want to verify if subtotal Plus"
+ },
+ {
+  "start": 468.06,
+  "end": 471.77,
+  "text": "uh shipping ground these two hours"
+ },
+ {
+  "start": 471.78,
+  "end": 474.77,
+  "text": "I want to verify subtotal and the total"
+ },
+ {
+  "start": 474.78,
+  "end": 476.93,
+  "text": "along with the shipping shipping cost"
+ },
+ {
+  "start": 476.94,
+  "end": 479.15,
+  "text": "okay"
+ },
+ {
+  "start": 479.16,
+  "end": 480.77,
+  "text": "so"
+ },
+ {
+  "start": 480.78,
+  "end": 482.809,
+  "text": "here"
+ },
+ {
+  "start": 482.819,
+  "end": 484.309,
+  "text": "let's"
+ },
+ {
+  "start": 484.319,
+  "end": 487.79,
+  "text": "go to for that let's go to one of the"
+ },
+ {
+  "start": 487.8,
+  "end": 489.11,
+  "text": "folder called"
+ },
+ {
+  "start": 489.12,
+  "end": 491.27,
+  "text": "verification of prices"
+ },
+ {
+  "start": 491.28,
+  "end": 494.39,
+  "text": "here in my previous session I have"
+ },
+ {
+  "start": 494.4,
+  "end": 495.969,
+  "text": "already showed you"
+ },
+ {
+  "start": 495.979,
+  "end": 498.77,
+  "text": "verifying the shipping cost whatever the"
+ },
+ {
+  "start": 498.78,
+  "end": 500.809,
+  "text": "shipping cost is ten dollars right so I"
+ },
+ {
+  "start": 500.819,
+  "end": 502.67,
+  "text": "would recommend you guys to"
+ },
+ {
+  "start": 502.68,
+  "end": 505.909,
+  "text": "visit my previous session to see the"
+ },
+ {
+  "start": 505.919,
+  "end": 507.89,
+  "text": "action modes verify"
+ },
+ {
+  "start": 507.9,
+  "end": 509.15,
+  "text": "select"
+ },
+ {
+  "start": 509.16,
+  "end": 510.83,
+  "text": "and then"
+ },
+ {
+  "start": 510.84,
+  "end": 515.51,
+  "text": "wait on okay so we already verified the"
+ },
+ {
+  "start": 515.52,
+  "end": 518.63,
+  "text": "shipping ground cost as ten dollars so"
+ },
+ {
+  "start": 518.64,
+  "end": 523.19,
+  "text": "now I want to verify the subtotal"
+ },
+ {
+  "start": 523.2,
+  "end": 527.87,
+  "text": "go to subtotal what is my subtotal my"
+ },
+ {
+  "start": 527.88,
+  "end": 531.79,
+  "text": "subtotal is now he here you need to use"
+ },
+ {
+  "start": 531.8,
+  "end": 534.41,
+  "text": "the math function"
+ },
+ {
+  "start": 534.42,
+  "end": 538.43,
+  "text": "what is my subtotal my subtotal is price"
+ },
+ {
+  "start": 538.44,
+  "end": 540.829,
+  "text": "of each"
+ },
+ {
+  "start": 540.839,
+  "end": 545.03,
+  "text": "one genes multiplied by the quantity of"
+ },
+ {
+  "start": 545.04,
+  "end": 548.41,
+  "text": "the genes correct so that becomes my"
+ },
+ {
+  "start": 548.42,
+  "end": 552.59,
+  "text": "subtotal okay so for that we need to use"
+ },
+ {
+  "start": 552.6,
+  "end": 554.93,
+  "text": "the math function okay"
+ },
+ {
+  "start": 554.94,
+  "end": 557.329,
+  "text": "math function curly blazes it starts"
+ },
+ {
+  "start": 557.339,
+  "end": 559.97,
+  "text": "with curly braces so as soon as I enter"
+ },
+ {
+  "start": 559.98,
+  "end": 561.23,
+  "text": "math"
+ },
+ {
+  "start": 561.24,
+  "end": 564.07,
+  "text": "it is showing me the math function okay"
+ },
+ {
+  "start": 564.08,
+  "end": 566.99,
+  "text": "and then"
+ },
+ {
+  "start": 567.0,
+  "end": 568.25,
+  "text": "open"
+ },
+ {
+  "start": 568.26,
+  "end": 569.63,
+  "text": "braces"
+ },
+ {
+  "start": 569.64,
+  "end": 572.509,
+  "text": "square bracket and again the buffer"
+ },
+ {
+  "start": 572.519,
+  "end": 575.93,
+  "text": "function you need to specify under B I"
+ },
+ {
+  "start": 575.94,
+  "end": 577.31,
+  "text": "already explained you in my previous"
+ },
+ {
+  "start": 577.32,
+  "end": 579.23,
+  "text": "slides right"
+ },
+ {
+  "start": 579.24,
+  "end": 581.75,
+  "text": "curly braces B"
+ },
+ {
+  "start": 581.76,
+  "end": 585.769,
+  "text": "Square braces here you need to call the"
+ },
+ {
+  "start": 585.779,
+  "end": 588.35,
+  "text": "buffer the where we store the price"
+ },
+ {
+  "start": 588.36,
+  "end": 591.65,
+  "text": "right price blue jeans we already stored"
+ },
+ {
+  "start": 591.66,
+  "end": 593.57,
+  "text": "so if you see it is automatically"
+ },
+ {
+  "start": 593.58,
+  "end": 597.47,
+  "text": "populating my buffer variable that I"
+ },
+ {
+  "start": 597.48,
+  "end": 601.009,
+  "text": "stored in my previous module correct"
+ },
+ {
+  "start": 601.019,
+  "end": 602.93,
+  "text": "so call that"
+ },
+ {
+  "start": 602.94,
+  "end": 604.61,
+  "text": "buffer"
+ },
+ {
+  "start": 604.62,
+  "end": 607.73,
+  "text": "price blue jeans so let's price blue"
+ },
+ {
+  "start": 607.74,
+  "end": 608.99,
+  "text": "jeans"
+ },
+ {
+  "start": 609.0,
+  "end": 611.21,
+  "text": "and then"
+ },
+ {
+  "start": 611.22,
+  "end": 614.93,
+  "text": "close Square braces and then you need to"
+ },
+ {
+  "start": 614.94,
+  "end": 616.85,
+  "text": "close your"
+ },
+ {
+  "start": 616.86,
+  "end": 618.85,
+  "text": "curly braces"
+ },
+ {
+  "start": 618.86,
+  "end": 620.75,
+  "text": "multiplied by"
+ },
+ {
+  "start": 620.76,
+  "end": 623.59,
+  "text": "Supply price of the blue jeans"
+ },
+ {
+  "start": 623.6,
+  "end": 626.269,
+  "text": "multiplied by the quantity what is the"
+ },
+ {
+  "start": 626.279,
+  "end": 628.269,
+  "text": "quantity that we are taking it's 25"
+ },
+ {
+  "start": 628.279,
+  "end": 631.97,
+  "text": "quantity right and then make sure that"
+ },
+ {
+  "start": 631.98,
+  "end": 634.07,
+  "text": "you close all the braces"
+ },
+ {
+  "start": 634.08,
+  "end": 636.11,
+  "text": "okay"
+ },
+ {
+  "start": 636.12,
+  "end": 638.75,
+  "text": "so if you see if the formula is correct"
+ },
+ {
+  "start": 638.76,
+  "end": 641.81,
+  "text": "it automatically converts into math blue"
+ },
+ {
+  "start": 641.82,
+  "end": 644.93,
+  "text": "genes which is sorry here"
+ },
+ {
+  "start": 644.94,
+  "end": 649.67,
+  "text": "yeah math blue jeans"
+ },
+ {
+  "start": 649.68,
+  "end": 652.67,
+  "text": "buffer multiplied by quantity which is"
+ },
+ {
+  "start": 652.68,
+  "end": 655.009,
+  "text": "25 if you see he go back to by quantity"
+ },
+ {
+  "start": 655.019,
+  "end": 657.65,
+  "text": "okay let me go back to start checkout"
+ },
+ {
+  "start": 657.66,
+  "end": 660.23,
+  "text": "process if you see here"
+ },
+ {
+  "start": 660.24,
+  "end": 663.11,
+  "text": "so okay order product okay if you see"
+ },
+ {
+  "start": 663.12,
+  "end": 665.269,
+  "text": "here I'm actually adding quantity of 25"
+ },
+ {
+  "start": 665.279,
+  "end": 667.61,
+  "text": "so that's the reason"
+ },
+ {
+  "start": 667.62,
+  "end": 672.13,
+  "text": "I entered 25 okay so that is how you can"
+ },
+ {
+  "start": 672.14,
+  "end": 676.85,
+  "text": "use math function and the buffer"
+ },
+ {
+  "start": 676.86,
+  "end": 680.69,
+  "text": "function and also I want to verify this"
+ },
+ {
+  "start": 680.7,
+  "end": 684.47,
+  "text": "subtotal okay what is the"
+ },
+ {
+  "start": 684.48,
+  "end": 686.15,
+  "text": "uh"
+ },
+ {
+  "start": 686.16,
+  "end": 689.449,
+  "text": "sorry what is my"
+ },
+ {
+  "start": 689.459,
+  "end": 693.71,
+  "text": "subtotal correct so if you see here"
+ },
+ {
+  "start": 693.72,
+  "end": 696.59,
+  "text": "my subtotal again the total sorry the"
+ },
+ {
+  "start": 696.6,
+  "end": 700.49,
+  "text": "total if you see the total total is"
+ },
+ {
+  "start": 700.5,
+  "end": 703.73,
+  "text": "the ground shipping method and your"
+ },
+ {
+  "start": 703.74,
+  "end": 707.63,
+  "text": "subtotal correct so now let's go here"
+ },
+ {
+  "start": 707.64,
+  "end": 712.13,
+  "text": "let's first store my subtotal what is my"
+ },
+ {
+  "start": 712.14,
+  "end": 715.19,
+  "text": "stop total is this let me store the"
+ },
+ {
+  "start": 715.2,
+  "end": 718.55,
+  "text": "subtotal into a buffer again okay"
+ },
+ {
+  "start": 718.56,
+  "end": 719.93,
+  "text": "sub"
+ },
+ {
+  "start": 719.94,
+  "end": 723.41,
+  "text": "total okay let me store sub total into a"
+ },
+ {
+  "start": 723.42,
+  "end": 724.97,
+  "text": "buffer"
+ },
+ {
+  "start": 724.98,
+  "end": 729.949,
+  "text": "here you need to store into buffer"
+ },
+ {
+  "start": 729.959,
+  "end": 732.23,
+  "text": "okay"
+ },
+ {
+  "start": 732.24,
+  "end": 734.449,
+  "text": "so here again the verification part I"
+ },
+ {
+  "start": 734.459,
+  "end": 736.67,
+  "text": "have to convert into numeric okay I have"
+ },
+ {
+  "start": 736.68,
+  "end": 738.41,
+  "text": "to make sure it's a numeric"
+ },
+ {
+  "start": 738.42,
+  "end": 741.05,
+  "text": "so now what I am doing again subtotal I"
+ },
+ {
+  "start": 741.06,
+  "end": 742.91,
+  "text": "am storing into buffer"
+ },
+ {
+  "start": 742.92,
+  "end": 745.85,
+  "text": "and now what is my total"
+ },
+ {
+  "start": 745.86,
+  "end": 749.99,
+  "text": "my total is my total ease again math"
+ },
+ {
+  "start": 750.0,
+  "end": 751.069,
+  "text": "function"
+ },
+ {
+  "start": 751.079,
+  "end": 755.41,
+  "text": "my total e is"
+ },
+ {
+  "start": 759.069,
+  "end": 759.079,
+  "text": "subtotal plus my shipping cost correct"
+ },
+ {
+  "start": 759.079,
+  "end": 762.53,
+  "text": "subtotal my plus shipping cost"
+ },
+ {
+  "start": 762.54,
+  "end": 767.569,
+  "text": "so here again math function"
+ },
+ {
+  "start": 781.25,
+  "end": 781.26,
+  "text": "open curly braces buffer"
+ },
+ {
+  "start": 781.26,
+  "end": 784.97,
+  "text": "again open Square braces here I need to"
+ },
+ {
+  "start": 784.98,
+  "end": 787.129,
+  "text": "call subtotal"
+ },
+ {
+  "start": 787.139,
+  "end": 790.37,
+  "text": "right the buffer which I stored in the"
+ },
+ {
+  "start": 790.38,
+  "end": 791.449,
+  "text": "above step"
+ },
+ {
+  "start": 791.459,
+  "end": 796.129,
+  "text": "my subtotal"
+ },
+ {
+  "start": 801.35,
+  "end": 801.36,
+  "text": "plus 10 correct subtotal close braces"
+ },
+ {
+  "start": 801.36,
+  "end": 802.91,
+  "text": "Plus"
+ },
+ {
+  "start": 802.92,
+  "end": 808.79,
+  "text": "my shipping cost here shipping cost okay"
+ },
+ {
+  "start": 808.8,
+  "end": 812.21,
+  "text": "close all the braces"
+ },
+ {
+  "start": 812.22,
+  "end": 814.55,
+  "text": "so this is my"
+ },
+ {
+  "start": 814.56,
+  "end": 817.55,
+  "text": "total I am verifying if the total is"
+ },
+ {
+  "start": 817.56,
+  "end": 821.449,
+  "text": "equivalent to my subtotal plus shipping"
+ },
+ {
+  "start": 821.459,
+  "end": 823.069,
+  "text": "cost of 10."
+ },
+ {
+  "start": 823.079,
+  "end": 826.49,
+  "text": "okay here I'm already storing subtotal"
+ },
+ {
+  "start": 826.5,
+  "end": 828.11,
+  "text": "into a buffer"
+ },
+ {
+  "start": 828.12,
+  "end": 831.35,
+  "text": "okay so now let's run this run this"
+ },
+ {
+  "start": 831.36,
+  "end": 834.949,
+  "text": "total test case okay let me log out"
+ },
+ {
+  "start": 834.959,
+  "end": 837.71,
+  "text": "and see if it works okay"
+ },
+ {
+  "start": 837.72,
+  "end": 841.67,
+  "text": "close"
+ },
+ {
+  "start": 843.949,
+  "end": 843.959,
+  "text": "let's go to shopping cart"
+ },
+ {
+  "start": 843.959,
+  "end": 845.509,
+  "text": "right click"
+ },
+ {
+  "start": 845.519,
+  "end": 851.03,
+  "text": "and run in scratchbook"
+ },
+ {
+  "start": 853.73,
+  "end": 853.74,
+  "text": "it should open the"
+ },
+ {
+  "start": 853.74,
+  "end": 858.05,
+  "text": "webshop"
+ },
+ {
+  "start": 861.23,
+  "end": 861.24,
+  "text": "okay login I think we have to make small"
+ },
+ {
+  "start": 861.24,
+  "end": 863.03,
+  "text": "change because okay shopping cart is"
+ },
+ {
+  "start": 863.04,
+  "end": 864.53,
+  "text": "empty I have to make sure shopping cart"
+ },
+ {
+  "start": 864.54,
+  "end": 867.35,
+  "text": "is empty no so it's gonna fail okay it"
+ },
+ {
+  "start": 867.36,
+  "end": 869.69,
+  "text": "is gonna fail because if you see the"
+ },
+ {
+  "start": 869.7,
+  "end": 873.829,
+  "text": "shopping cart already 25"
+ },
+ {
+  "start": 876.71,
+  "end": 876.72,
+  "text": "uh sorry the 25"
+ },
+ {
+  "start": 876.72,
+  "end": 878.69,
+  "text": "items are available"
+ },
+ {
+  "start": 878.7,
+  "end": 880.85,
+  "text": "so let me do one thing let me do one"
+ },
+ {
+  "start": 880.86,
+  "end": 884.389,
+  "text": "thing let me close this okay"
+ },
+ {
+  "start": 886.61,
+  "end": 886.62,
+  "text": "let's clear our"
+ },
+ {
+  "start": 886.62,
+  "end": 889.189,
+  "text": "shopping cart let me empty my shopping"
+ },
+ {
+  "start": 889.199,
+  "end": 891.29,
+  "text": "cart"
+ },
+ {
+  "start": 891.3,
+  "end": 894.53,
+  "text": "okay so now let's log out again"
+ },
+ {
+  "start": 894.54,
+  "end": 910.73,
+  "text": "close now let's run this again"
+ },
+ {
+  "start": 912.29,
+  "end": 912.3,
+  "text": "logged in"
+ },
+ {
+  "start": 912.3,
+  "end": 914.81,
+  "text": "aprils and shoes"
+ },
+ {
+  "start": 914.82,
+  "end": 916.73,
+  "text": "blue jeans"
+ },
+ {
+  "start": 916.74,
+  "end": 932.23,
+  "text": "now it adds the quantity 25 done add"
+ },
+ {
+  "start": 948.41,
+  "end": 948.42,
+  "text": "close now let's run this again okay"
+ },
+ {
+  "start": 948.42,
+  "end": 950.21,
+  "text": "right click"
+ },
+ {
+  "start": 950.22,
+  "end": 957.65,
+  "text": "run in scratchbook"
+ },
+ {
+  "start": 960.59,
+  "end": 960.6,
+  "text": "so it opens the webshop"
+ },
+ {
+  "start": 960.6,
+  "end": 963.47,
+  "text": "correct login"
+ },
+ {
+  "start": 963.48,
+  "end": 966.53,
+  "text": "and then apparels and choose"
+ },
+ {
+  "start": 966.54,
+  "end": 970.91,
+  "text": "click on Blue Jeans"
+ },
+ {
+  "start": 1028.87,
+  "end": 1028.88,
+  "text": "one more time"
+ },
+ {
+  "start": 1028.88,
+  "end": 1031.569,
+  "text": "okay unscratch book so it's going to"
+ },
+ {
+  "start": 1031.579,
+  "end": 1036.309,
+  "text": "open the webshop"
+ },
+ {
+  "start": 1038.35,
+  "end": 1038.36,
+  "text": "click on login"
+ },
+ {
+  "start": 1038.36,
+  "end": 1041.11,
+  "text": "it enters username password"
+ },
+ {
+  "start": 1041.12,
+  "end": 1043.09,
+  "text": "s and shoes"
+ },
+ {
+  "start": 1043.1,
+  "end": 1045.549,
+  "text": "and then you should click on Blue Jeans"
+ },
+ {
+  "start": 1045.559,
+  "end": 1049.21,
+  "text": "now it enters correct and it's gonna"
+ },
+ {
+  "start": 1049.22,
+  "end": 1052.09,
+  "text": "check out"
+ },
+ {
+  "start": 1052.1,
+  "end": 1056.47,
+  "text": "done click on continue"
+ },
+ {
+  "start": 1059.47,
+  "end": 1059.48,
+  "text": "so now at the confirmation page it"
+ },
+ {
+  "start": 1059.48,
+  "end": 1061.15,
+  "text": "should basically"
+ },
+ {
+  "start": 1061.16,
+  "end": 1065.71,
+  "text": "verify the prices if you see 25 25 plus"
+ },
+ {
+  "start": 1065.72,
+  "end": 1070.33,
+  "text": "10 35 that's correct so successful the"
+ },
+ {
+  "start": 1070.34,
+  "end": 1075.19,
+  "text": "execution should be successful"
+ },
+ {
+  "start": 1078.01,
+  "end": 1078.02,
+  "text": "perfect I think a small"
+ },
+ {
+  "start": 1078.02,
+  "end": 1080.71,
+  "text": "there is a small discrepancy let's see"
+ },
+ {
+  "start": 1080.72,
+  "end": 1083.409,
+  "text": "what is the discrepancy okay so now if"
+ },
+ {
+  "start": 1083.419,
+  "end": 1086.409,
+  "text": "you see here car total"
+ },
+ {
+  "start": 1086.419,
+  "end": 1088.99,
+  "text": "card total"
+ },
+ {
+  "start": 1089.0,
+  "end": 1091.21,
+  "text": "yeah this one totally failed because"
+ },
+ {
+  "start": 1091.22,
+  "end": 1094.75,
+  "text": "okay basically what we did the expected"
+ },
+ {
+  "start": 1094.76,
+  "end": 1097.51,
+  "text": "is 35 and actually is 35"
+ },
+ {
+  "start": 1097.52,
+  "end": 1099.07,
+  "text": "here"
+ },
+ {
+  "start": 1099.08,
+  "end": 1104.65,
+  "text": "let's go back to verify prices"
+ },
+ {
+  "start": 1107.409,
+  "end": 1107.419,
+  "text": "sorry verification of the prices"
+ },
+ {
+  "start": 1107.419,
+  "end": 1111.61,
+  "text": "and here let me convert into numeric"
+ },
+ {
+  "start": 1111.62,
+  "end": 1114.49,
+  "text": "okay that we missed so if you convert"
+ },
+ {
+  "start": 1114.5,
+  "end": 1118.15,
+  "text": "into numeric it's gonna run successfully"
+ },
+ {
+  "start": 1118.16,
+  "end": 1119.71,
+  "text": "and then"
+ },
+ {
+  "start": 1119.72,
+  "end": 1121.93,
+  "text": "all the results will be passed"
+ },
+ {
+  "start": 1121.94,
+  "end": 1132.25,
+  "text": "okay let me run one more time"
+ },
+ {
+  "start": 1134.59,
+  "end": 1134.6,
+  "text": "it opens webshop"
+ },
+ {
+  "start": 1134.6,
+  "end": 1136.09,
+  "text": "login"
+ },
+ {
+  "start": 1136.1,
+  "end": 1138.549,
+  "text": "email address"
+ },
+ {
+  "start": 1138.559,
+  "end": 1140.89,
+  "text": "and shoes"
+ },
+ {
+  "start": 1140.9,
+  "end": 1144.13,
+  "text": "blue jeans"
+ },
+ {
+  "start": 1146.11,
+  "end": 1146.12,
+  "text": "enters the quantity"
+ },
+ {
+  "start": 1146.12,
+  "end": 1150.31,
+  "text": "done I agree check out so now"
+ },
+ {
+  "start": 1150.32,
+  "end": 1153.909,
+  "text": "the verification of two things one is"
+ },
+ {
+  "start": 1153.919,
+  "end": 1156.31,
+  "text": "we are verifying shipping cost by using"
+ },
+ {
+  "start": 1156.32,
+  "end": 1157.57,
+  "text": "verify"
+ },
+ {
+  "start": 1157.58,
+  "end": 1159.909,
+  "text": "sorry ground shipping cost and then we"
+ },
+ {
+  "start": 1159.919,
+  "end": 1162.789,
+  "text": "are using math function to add ground"
+ },
+ {
+  "start": 1162.799,
+  "end": 1166.09,
+  "text": "versus subtotal right and then we we are"
+ },
+ {
+  "start": 1166.1,
+  "end": 1168.01,
+  "text": "verifying total amount"
+ },
+ {
+  "start": 1168.02,
+  "end": 1171.61,
+  "text": "so now the result should be successful"
+ },
+ {
+  "start": 1171.62,
+  "end": 1173.71,
+  "text": "perfect if you see everything is green"
+ },
+ {
+  "start": 1173.72,
+  "end": 1177.25,
+  "text": "at the bottom so that means all the"
+ },
+ {
+  "start": 1177.26,
+  "end": 1178.51,
+  "text": "results are success"
+ },
+ {
+  "start": 1178.52,
+  "end": 1182.23,
+  "text": "see here let's go back to"
+ },
+ {
+  "start": 1182.24,
+  "end": 1183.669,
+  "text": "verify"
+ },
+ {
+  "start": 1183.679,
+  "end": 1184.99,
+  "text": "prices"
+ },
+ {
+  "start": 1185.0,
+  "end": 1186.97,
+  "text": "okay"
+ },
+ {
+  "start": 1186.98,
+  "end": 1189.61,
+  "text": "verification of prices"
+ },
+ {
+  "start": 1189.62,
+  "end": 1191.529,
+  "text": "shipping method shipping method confirm"
+ },
+ {
+  "start": 1191.539,
+  "end": 1195.669,
+  "text": "order verify order successful"
+ },
+ {
+  "start": 1195.679,
+  "end": 1199.87,
+  "text": "let's see confirm order okay here"
+ },
+ {
+  "start": 1199.88,
+  "end": 1202.33,
+  "text": "so here verification of prices if you"
+ },
+ {
+  "start": 1202.34,
+  "end": 1203.409,
+  "text": "see"
+ },
+ {
+  "start": 1203.419,
+  "end": 1205.99,
+  "text": "first one is we verified just shipping"
+ },
+ {
+  "start": 1206.0,
+  "end": 1208.63,
+  "text": "cost is 10 10 by using verify function"
+ },
+ {
+  "start": 1208.64,
+  "end": 1212.65,
+  "text": "and here we used"
+ },
+ {
+  "start": 1215.169,
+  "end": 1215.179,
+  "text": "buffer method okay"
+ },
+ {
+  "start": 1215.179,
+  "end": 1217.75,
+  "text": "subtotal is"
+ },
+ {
+  "start": 1217.76,
+  "end": 1221.19,
+  "text": "the price of your blue jeans where we"
+ },
+ {
+  "start": 1221.2,
+  "end": 1224.23,
+  "text": "added the price of blue jeans into a"
+ },
+ {
+  "start": 1224.24,
+  "end": 1226.83,
+  "text": "buffer called price blue jeans and then"
+ },
+ {
+  "start": 1226.84,
+  "end": 1230.43,
+  "text": "that multiplied by the quantity so now"
+ },
+ {
+  "start": 1230.44,
+  "end": 1233.77,
+  "text": "that is equal to your subtotal that is"
+ },
+ {
+  "start": 1233.78,
+  "end": 1235.15,
+  "text": "displaying on screen"
+ },
+ {
+  "start": 1235.16,
+  "end": 1239.77,
+  "text": "and then we stored this subtotal"
+ },
+ {
+  "start": 1239.78,
+  "end": 1242.71,
+  "text": "into a buffer and we are calculating"
+ },
+ {
+  "start": 1242.72,
+  "end": 1244.93,
+  "text": "total by using again math function"
+ },
+ {
+  "start": 1244.94,
+  "end": 1247.45,
+  "text": "subtotal"
+ },
+ {
+  "start": 1247.46,
+  "end": 1249.43,
+  "text": "plus your"
+ },
+ {
+  "start": 1249.44,
+  "end": 1252.549,
+  "text": "shipping cost right now successfully"
+ },
+ {
+  "start": 1252.559,
+  "end": 1255.669,
+  "text": "expected is 35 actually is 35"
+ },
+ {
+  "start": 1255.679,
+  "end": 1258.07,
+  "text": "okay hope"
+ },
+ {
+  "start": 1258.08,
+  "end": 1261.27,
+  "text": "you understand our first two concepts"
+ },
+ {
+  "start": 1261.28,
+  "end": 1266.31,
+  "text": "buffer and math function now let's see"
+ },
+ {
+  "start": 1266.32,
+  "end": 1270.07,
+  "text": "Dynamic text and random values how can"
+ },
+ {
+  "start": 1270.08,
+  "end": 1272.77,
+  "text": "we use these dynamic dynamic text and"
+ },
+ {
+  "start": 1272.78,
+  "end": 1275.89,
+  "text": "random values okay and dynamic date okay"
+ },
+ {
+  "start": 1275.9,
+  "end": 1279.49,
+  "text": "now for that let's copy this again let's"
+ },
+ {
+  "start": 1279.5,
+  "end": 1282.07,
+  "text": "copy this session 13"
+ },
+ {
+  "start": 1282.08,
+  "end": 1285.909,
+  "text": "copy this entire folder and paste it"
+ },
+ {
+  "start": 1285.919,
+  "end": 1289.45,
+  "text": "into your parent folder"
+ },
+ {
+  "start": 1289.46,
+  "end": 1293.169,
+  "text": "and modify the name let's modify the"
+ },
+ {
+  "start": 1293.179,
+  "end": 1297.49,
+  "text": "name of this folder"
+ },
+ {
+  "start": 1299.11,
+  "end": 1299.12,
+  "text": "as"
+ },
+ {
+  "start": 1299.12,
+  "end": 1301.99,
+  "text": "session 13"
+ },
+ {
+  "start": 1302.0,
+  "end": 1304.51,
+  "text": "here"
+ },
+ {
+  "start": 1304.52,
+  "end": 1307.049,
+  "text": "dynamic"
+ },
+ {
+  "start": 1307.059,
+  "end": 1308.71,
+  "text": "values"
+ },
+ {
+  "start": 1308.72,
+  "end": 1309.97,
+  "text": "and"
+ },
+ {
+  "start": 1309.98,
+  "end": 1316.11,
+  "text": "Dynamic text"
+ },
+ {
+  "start": 1317.73,
+  "end": 1317.74,
+  "text": "numbers"
+ },
+ {
+  "start": 1317.74,
+  "end": 1322.39,
+  "text": "dates okay"
+ },
+ {
+  "start": 1326.71,
+  "end": 1326.72,
+  "text": "done once you modify the name"
+ },
+ {
+  "start": 1326.72,
+  "end": 1331.87,
+  "text": "now let's go to your"
+ },
+ {
+  "start": 1335.89,
+  "end": 1335.9,
+  "text": "process and then check out process under"
+ },
+ {
+  "start": 1335.9,
+  "end": 1339.909,
+  "text": "checkout process I want to go for a"
+ },
+ {
+  "start": 1339.919,
+  "end": 1342.19,
+  "text": "payment information"
+ },
+ {
+  "start": 1342.2,
+  "end": 1345.13,
+  "text": "credit card okay here"
+ },
+ {
+  "start": 1345.14,
+  "end": 1349.27,
+  "text": "so let's do one thing this time I want"
+ },
+ {
+  "start": 1349.28,
+  "end": 1351.73,
+  "text": "to instead of using the card holder name"
+ },
+ {
+  "start": 1351.74,
+  "end": 1355.33,
+  "text": "constant Barbara Gordon instead of the"
+ },
+ {
+  "start": 1355.34,
+  "end": 1359.11,
+  "text": "static value I want to generate a random"
+ },
+ {
+  "start": 1359.12,
+  "end": 1359.95,
+  "text": "text"
+ },
+ {
+  "start": 1359.96,
+  "end": 1364.27,
+  "text": "okay a random text how can we Generate"
+ },
+ {
+  "start": 1364.28,
+  "end": 1366.61,
+  "text": "random text that's what I'm gonna show"
+ },
+ {
+  "start": 1366.62,
+  "end": 1368.169,
+  "text": "here okay"
+ },
+ {
+  "start": 1368.179,
+  "end": 1369.789,
+  "text": "here"
+ },
+ {
+  "start": 1369.799,
+  "end": 1373.149,
+  "text": "let's use the function called random"
+ },
+ {
+  "start": 1373.159,
+  "end": 1376.169,
+  "text": "text"
+ },
+ {
+  "start": 1379.35,
+  "end": 1379.36,
+  "text": "random text if you see here this is my"
+ },
+ {
+  "start": 1379.36,
+  "end": 1382.09,
+  "text": "random text"
+ },
+ {
+  "start": 1382.1,
+  "end": 1385.21,
+  "text": "my random text"
+ },
+ {
+  "start": 1385.22,
+  "end": 1387.669,
+  "text": "and"
+ },
+ {
+  "start": 1387.679,
+  "end": 1389.23,
+  "text": "what is"
+ },
+ {
+  "start": 1389.24,
+  "end": 1391.81,
+  "text": "how much random text I want to use I"
+ },
+ {
+  "start": 1391.82,
+  "end": 1395.35,
+  "text": "want to use the random text of 10th what"
+ },
+ {
+  "start": 1395.36,
+  "end": 1398.59,
+  "text": "it means it actually generates a random"
+ },
+ {
+  "start": 1398.6,
+  "end": 1399.85,
+  "text": "text"
+ },
+ {
+  "start": 1399.86,
+  "end": 1403.33,
+  "text": "with the length of 10. random text with"
+ },
+ {
+  "start": 1403.34,
+  "end": 1405.01,
+  "text": "the length of 10."
+ },
+ {
+  "start": 1405.02,
+  "end": 1408.43,
+  "text": "okay to validate these formulas right"
+ },
+ {
+  "start": 1408.44,
+  "end": 1411.19,
+  "text": "earlier also I thought of let me explain"
+ },
+ {
+  "start": 1411.2,
+  "end": 1413.83,
+  "text": "that see whatever the math functions you"
+ },
+ {
+  "start": 1413.84,
+  "end": 1415.09,
+  "text": "wrote here"
+ },
+ {
+  "start": 1415.1,
+  "end": 1417.37,
+  "text": "if you want to validate if the function"
+ },
+ {
+  "start": 1417.38,
+  "end": 1420.25,
+  "text": "is correct or not right click and you"
+ },
+ {
+  "start": 1420.26,
+  "end": 1422.35,
+  "text": "need to run"
+ },
+ {
+  "start": 1422.36,
+  "end": 1424.93,
+  "text": "you need to translate the value"
+ },
+ {
+  "start": 1424.94,
+  "end": 1427.09,
+  "text": "translate value"
+ },
+ {
+  "start": 1427.1,
+  "end": 1429.25,
+  "text": "see if you see okay the value is"
+ },
+ {
+  "start": 1429.26,
+  "end": 1431.049,
+  "text": "translated to 25 that means the formula"
+ },
+ {
+  "start": 1431.059,
+  "end": 1431.95,
+  "text": "is correct"
+ },
+ {
+  "start": 1431.96,
+  "end": 1434.409,
+  "text": "here again"
+ },
+ {
+  "start": 1434.419,
+  "end": 1437.169,
+  "text": "translate value"
+ },
+ {
+  "start": 1437.179,
+  "end": 1441.149,
+  "text": "35 that's correct in the same way here"
+ },
+ {
+  "start": 1441.159,
+  "end": 1445.39,
+  "text": "random text you can basically"
+ },
+ {
+  "start": 1445.4,
+  "end": 1448.029,
+  "text": "translate the value"
+ },
+ {
+  "start": 1448.039,
+  "end": 1450.61,
+  "text": "see it generating the random text of 10"
+ },
+ {
+  "start": 1450.62,
+  "end": 1452.23,
+  "text": "right"
+ },
+ {
+  "start": 1452.24,
+  "end": 1456.97,
+  "text": "and then let's do random value so if you"
+ },
+ {
+  "start": 1456.98,
+  "end": 1459.789,
+  "text": "see the credit card"
+ },
+ {
+  "start": 1459.799,
+  "end": 1462.01,
+  "text": "whatever the credit card that we are"
+ },
+ {
+  "start": 1462.02,
+  "end": 1463.75,
+  "text": "providing here"
+ },
+ {
+  "start": 1463.76,
+  "end": 1466.99,
+  "text": "you can basically provide a random value"
+ },
+ {
+  "start": 1467.0,
+  "end": 1471.669,
+  "text": "okay how let's say here the card code I"
+ },
+ {
+  "start": 1471.679,
+  "end": 1474.19,
+  "text": "want to generate a random value"
+ },
+ {
+  "start": 1474.2,
+  "end": 1478.51,
+  "text": "for that you can use RND okay Curly"
+ },
+ {
+  "start": 1478.52,
+  "end": 1483.43,
+  "text": "braces R and D this is my function R and"
+ },
+ {
+  "start": 1483.44,
+  "end": 1485.97,
+  "text": "D and"
+ },
+ {
+  "start": 1485.98,
+  "end": 1489.37,
+  "text": "how I want"
+ },
+ {
+  "start": 1489.38,
+  "end": 1494.409,
+  "text": "to generate the values from 100"
+ },
+ {
+  "start": 1494.419,
+  "end": 1497.35,
+  "text": "to 999"
+ },
+ {
+  "start": 1497.36,
+  "end": 1500.59,
+  "text": "so what it will do it generates a random"
+ },
+ {
+  "start": 1500.6,
+  "end": 1505.51,
+  "text": "value between 100 and 999."
+ },
+ {
+  "start": 1505.52,
+  "end": 1507.85,
+  "text": "okay this is how you can generate the"
+ },
+ {
+  "start": 1507.86,
+  "end": 1511.45,
+  "text": "random value let's validate this"
+ },
+ {
+  "start": 1511.46,
+  "end": 1514.149,
+  "text": "translate value"
+ },
+ {
+  "start": 1514.159,
+  "end": 1516.87,
+  "text": "see it is generating 652 random value"
+ },
+ {
+  "start": 1516.88,
+  "end": 1520.23,
+  "text": "and then now"
+ },
+ {
+  "start": 1520.24,
+  "end": 1524.169,
+  "text": "instead of let's use random dates okay"
+ },
+ {
+  "start": 1524.179,
+  "end": 1527.23,
+  "text": "here instead of providing month"
+ },
+ {
+  "start": 1527.24,
+  "end": 1530.83,
+  "text": "hard-coded value of April I want to"
+ },
+ {
+  "start": 1530.84,
+  "end": 1534.01,
+  "text": "generate the date"
+ },
+ {
+  "start": 1534.02,
+  "end": 1535.09,
+  "text": "how"
+ },
+ {
+  "start": 1535.1,
+  "end": 1539.23,
+  "text": "let's create a date function"
+ },
+ {
+  "start": 1539.24,
+  "end": 1541.029,
+  "text": "day it"
+ },
+ {
+  "start": 1541.039,
+  "end": 1542.89,
+  "text": "and here"
+ },
+ {
+  "start": 1542.9,
+  "end": 1547.69,
+  "text": "I want to use a date function where the"
+ },
+ {
+  "start": 1547.7,
+  "end": 1550.409,
+  "text": "date is"
+ },
+ {
+  "start": 1554.049,
+  "end": 1554.059,
+  "text": "plus four months that means it's got a"
+ },
+ {
+  "start": 1554.059,
+  "end": 1556.87,
+  "text": "generate a date"
+ },
+ {
+  "start": 1556.88,
+  "end": 1560.59,
+  "text": "which is four months from now"
+ },
+ {
+  "start": 1560.6,
+  "end": 1562.57,
+  "text": "okay it's going to generate a month"
+ },
+ {
+  "start": 1562.58,
+  "end": 1564.43,
+  "text": "sorry it's going to generate a month"
+ },
+ {
+  "start": 1564.44,
+  "end": 1567.789,
+  "text": "four months from from now okay what is"
+ },
+ {
+  "start": 1567.799,
+  "end": 1570.789,
+  "text": "the format I want to print in the format"
+ },
+ {
+  "start": 1570.799,
+  "end": 1573.549,
+  "text": "of mm and close braces"
+ },
+ {
+  "start": 1573.559,
+  "end": 1576.85,
+  "text": "okay so here what it will do current"
+ },
+ {
+  "start": 1576.86,
+  "end": 1578.35,
+  "text": "date"
+ },
+ {
+  "start": 1578.36,
+  "end": 1582.01,
+  "text": "plus four months so that means and it"
+ },
+ {
+  "start": 1582.02,
+  "end": 1583.87,
+  "text": "generates in the form of"
+ },
+ {
+  "start": 1583.88,
+  "end": 1586.09,
+  "text": "zero four zero five zero six let's say"
+ },
+ {
+  "start": 1586.1,
+  "end": 1589.029,
+  "text": "now it's a January that means it's gonna"
+ },
+ {
+  "start": 1589.039,
+  "end": 1590.409,
+  "text": "go for"
+ },
+ {
+  "start": 1590.419,
+  "end": 1593.11,
+  "text": "me right"
+ },
+ {
+  "start": 1593.12,
+  "end": 1595.51,
+  "text": "let's say it is February then it's going"
+ },
+ {
+  "start": 1595.52,
+  "end": 1598.87,
+  "text": "to go for March April May June okay so"
+ },
+ {
+  "start": 1598.88,
+  "end": 1602.289,
+  "text": "basically I am actually"
+ },
+ {
+  "start": 1602.299,
+  "end": 1605.289,
+  "text": "generating the date"
+ },
+ {
+  "start": 1605.299,
+  "end": 1608.23,
+  "text": "dynamically I am not hard coding the"
+ },
+ {
+  "start": 1608.24,
+  "end": 1609.549,
+  "text": "date"
+ },
+ {
+  "start": 1609.559,
+  "end": 1610.99,
+  "text": "now"
+ },
+ {
+  "start": 1611.0,
+  "end": 1613.57,
+  "text": "how can I generate year"
+ },
+ {
+  "start": 1613.58,
+  "end": 1618.669,
+  "text": "instead of 2023 I want to generate the"
+ },
+ {
+  "start": 1618.679,
+  "end": 1622.51,
+  "text": "year dynamically again the date function"
+ },
+ {
+  "start": 1622.52,
+  "end": 1624.37,
+  "text": "date"
+ },
+ {
+  "start": 1624.38,
+  "end": 1625.99,
+  "text": "this time"
+ },
+ {
+  "start": 1626.0,
+  "end": 1629.409,
+  "text": "instead of month I need to use year"
+ },
+ {
+  "start": 1629.419,
+  "end": 1633.549,
+  "text": "let's say I want to use the ear three"
+ },
+ {
+  "start": 1633.559,
+  "end": 1634.75,
+  "text": "years from now"
+ },
+ {
+  "start": 1634.76,
+  "end": 1635.89,
+  "text": "okay"
+ },
+ {
+  "start": 1635.9,
+  "end": 1637.93,
+  "text": "three years from now"
+ },
+ {
+  "start": 1637.94,
+  "end": 1640.269,
+  "text": "in the form of"
+ },
+ {
+  "start": 1640.279,
+  "end": 1642.73,
+  "text": "YY"
+ },
+ {
+  "start": 1642.74,
+  "end": 1644.35,
+  "text": "in the form of"
+ },
+ {
+  "start": 1644.36,
+  "end": 1646.45,
+  "text": "YY"
+ },
+ {
+  "start": 1646.46,
+  "end": 1648.49,
+  "text": "okay"
+ },
+ {
+  "start": 1648.5,
+  "end": 1651.549,
+  "text": "so let's close the braces"
+ },
+ {
+  "start": 1651.559,
+  "end": 1653.95,
+  "text": "so if you see here what does this"
+ },
+ {
+  "start": 1653.96,
+  "end": 1656.169,
+  "text": "function do"
+ },
+ {
+  "start": 1656.179,
+  "end": 1659.83,
+  "text": "it takes the ear"
+ },
+ {
+  "start": 1662.47,
+  "end": 1662.48,
+  "text": "three years from now additional three"
+ },
+ {
+  "start": 1662.48,
+  "end": 1665.789,
+  "text": "years from now in the form of why why"
+ },
+ {
+  "start": 1665.799,
+  "end": 1670.45,
+  "text": "okay so now let's save all this and see"
+ },
+ {
+  "start": 1670.46,
+  "end": 1674.35,
+  "text": "how these random all Dynamic values"
+ },
+ {
+  "start": 1674.36,
+  "end": 1677.23,
+  "text": "whatever we provided here right Dynamic"
+ },
+ {
+  "start": 1677.24,
+  "end": 1680.47,
+  "text": "text Dynamic random values Dynamic date"
+ },
+ {
+  "start": 1680.48,
+  "end": 1684.549,
+  "text": "okay how does these translates into"
+ },
+ {
+  "start": 1684.559,
+  "end": 1686.769,
+  "text": "application let's run this test okay"
+ },
+ {
+  "start": 1686.779,
+  "end": 1690.43,
+  "text": "let's run this test right click"
+ },
+ {
+  "start": 1690.44,
+  "end": 1694.57,
+  "text": "run in scratchbook"
+ },
+ {
+  "start": 1700.69,
+  "end": 1700.7,
+  "text": "your webshop especially we need to"
+ },
+ {
+  "start": 1700.7,
+  "end": 1702.19,
+  "text": "concentrate on your credit card"
+ },
+ {
+  "start": 1702.2,
+  "end": 1703.63,
+  "text": "information that when when we are"
+ },
+ {
+  "start": 1703.64,
+  "end": 1705.19,
+  "text": "entering okay is it going to generate"
+ },
+ {
+  "start": 1705.2,
+  "end": 1708.19,
+  "text": "the random values successfully or not"
+ },
+ {
+  "start": 1708.2,
+  "end": 1710.83,
+  "text": "okay"
+ },
+ {
+  "start": 1712.33,
+  "end": 1712.34,
+  "text": "done"
+ },
+ {
+  "start": 1712.34,
+  "end": 1714.37,
+  "text": "perfect"
+ },
+ {
+  "start": 1714.38,
+  "end": 1716.649,
+  "text": "so if you see when it comes to payment"
+ },
+ {
+  "start": 1716.659,
+  "end": 1719.11,
+  "text": "information now it"
+ },
+ {
+  "start": 1719.12,
+  "end": 1725.409,
+  "text": "creates"
+ },
+ {
+  "start": 1728.83,
+  "end": 1728.84,
+  "text": "yeah if you see here now card holder"
+ },
+ {
+  "start": 1728.84,
+  "end": 1730.45,
+  "text": "name is different"
+ },
+ {
+  "start": 1730.46,
+  "end": 1732.37,
+  "text": "right you can see the card holder name"
+ },
+ {
+  "start": 1732.38,
+  "end": 1734.89,
+  "text": "is different and everything is different"
+ },
+ {
+  "start": 1734.9,
+  "end": 1739.75,
+  "text": "let's go and verify the results"
+ },
+ {
+  "start": 1741.85,
+  "end": 1741.86,
+  "text": "okay"
+ },
+ {
+  "start": 1741.86,
+  "end": 1745.09,
+  "text": "so if you see the results here if you"
+ },
+ {
+  "start": 1745.1,
+  "end": 1749.649,
+  "text": "see the results here"
+ },
+ {
+  "start": 1753.61,
+  "end": 1753.62,
+  "text": "under payment information"
+ },
+ {
+  "start": 1753.62,
+  "end": 1758.19,
+  "text": "foreign"
+ },
+ {
+  "start": 1761.11,
+  "end": 1761.12,
+  "text": "code and all these things"
+ },
+ {
+  "start": 1761.12,
+  "end": 1763.57,
+  "text": "I think hope you all see"
+ },
+ {
+  "start": 1763.58,
+  "end": 1766.09,
+  "text": "hope you all understand how to generate"
+ },
+ {
+  "start": 1766.1,
+  "end": 1770.409,
+  "text": "the dates and all right random dates"
+ },
+ {
+  "start": 1770.419,
+  "end": 1772.09,
+  "text": "Dynamic dates"
+ },
+ {
+  "start": 1772.1,
+  "end": 1775.149,
+  "text": "Dynamic text dynamic"
+ },
+ {
+  "start": 1775.159,
+  "end": 1776.529,
+  "text": "values"
+ },
+ {
+  "start": 1776.539,
+  "end": 1780.07,
+  "text": "okay so this way instead of using your"
+ },
+ {
+  "start": 1780.08,
+  "end": 1782.409,
+  "text": "hard-coded values you can generate some"
+ },
+ {
+  "start": 1782.419,
+  "end": 1785.95,
+  "text": "Dynamic values okay hope you all"
+ },
+ {
+  "start": 1785.96,
+  "end": 1787.87,
+  "text": "understand the concepts if you have any"
+ },
+ {
+  "start": 1787.88,
+  "end": 1788.95,
+  "text": "queries"
+ },
+ {
+  "start": 1788.96,
+  "end": 1790.81,
+  "text": "leave your queries in the comment box"
+ },
+ {
+  "start": 1790.82,
+  "end": 1792.37,
+  "text": "I'll try to respond to your queries"
+ },
+ {
+  "start": 1792.38,
+  "end": 1794.169,
+  "text": "thank you"
+ },
+ {
+  "start": 1794.179,
+  "end": 1797.35,
+  "text": "hope you all understand the concepts of"
+ },
+ {
+  "start": 1797.36,
+  "end": 1801.13,
+  "text": "how to use the action mode buffer"
+ },
+ {
+  "start": 1801.14,
+  "end": 1804.07,
+  "text": "and then how can we use different kind"
+ },
+ {
+  "start": 1804.08,
+  "end": 1806.83,
+  "text": "of dynamic Expressions while automating"
+ },
+ {
+  "start": 1806.84,
+  "end": 1809.289,
+  "text": "your test cases by using present"
+ },
+ {
+  "start": 1809.299,
+  "end": 1812.889,
+  "text": "testoster 16. if you have any queries"
+ },
+ {
+  "start": 1812.899,
+  "end": 1814.75,
+  "text": "you can leave your comments in the"
+ },
+ {
+  "start": 1814.76,
+  "end": 1816.789,
+  "text": "comment box I'll try to respond to your"
+ },
+ {
+  "start": 1816.799,
+  "end": 1818.169,
+  "text": "queries"
+ },
+ {
+  "start": 1818.179,
+  "end": 1821.289,
+  "text": "please do subscribe to the channel click"
+ },
+ {
+  "start": 1821.299,
+  "end": 1823.389,
+  "text": "on Bell icon you receive notifications"
+ },
+ {
+  "start": 1823.399,
+  "end": 1835.769,
+  "text": "whenever I publish more videos thank you"
+ }
+]

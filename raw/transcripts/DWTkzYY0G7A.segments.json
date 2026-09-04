@@ -1,0 +1,1162 @@
+[
+ {
+  "start": 1.68,
+  "end": 4.85,
+  "text": "foreign"
+ },
+ {
+  "start": 13.91,
+  "end": 13.92,
+  "text": "hi everyone this is Ravi welcome to try"
+ },
+ {
+  "start": 13.92,
+  "end": 17.57,
+  "text": "sentence Tasker advanced level training"
+ },
+ {
+  "start": 17.58,
+  "end": 20.87,
+  "text": "so this is our lesson 5 in terms of"
+ },
+ {
+  "start": 20.88,
+  "end": 23.689,
+  "text": "advanced level training and it's a"
+ },
+ {
+  "start": 23.699,
+  "end": 27.17,
+  "text": "lesson 20 in terms of overall price and"
+ },
+ {
+  "start": 27.18,
+  "end": 29.81,
+  "text": "testoster automation Concepts"
+ },
+ {
+  "start": 29.82,
+  "end": 33.049,
+  "text": "so in this lesson I'm gonna teach you a"
+ },
+ {
+  "start": 33.059,
+  "end": 36.049,
+  "text": "very important concept called a recovery"
+ },
+ {
+  "start": 36.059,
+  "end": 37.49,
+  "text": "scenarios"
+ },
+ {
+  "start": 37.5,
+  "end": 40.85,
+  "text": "so please do subscribe to the channel"
+ },
+ {
+  "start": 40.86,
+  "end": 43.01,
+  "text": "click on Bell icon you'll receive"
+ },
+ {
+  "start": 43.02,
+  "end": 45.709,
+  "text": "notifications whenever I publish more"
+ },
+ {
+  "start": 45.719,
+  "end": 46.549,
+  "text": "videos"
+ },
+ {
+  "start": 46.559,
+  "end": 48.529,
+  "text": "thank you"
+ },
+ {
+  "start": 48.539,
+  "end": 51.049,
+  "text": "okay so let us understand what is"
+ },
+ {
+  "start": 51.059,
+  "end": 53.209,
+  "text": "recovery scenario"
+ },
+ {
+  "start": 53.219,
+  "end": 55.069,
+  "text": "so recovery scenario it's an"
+ },
+ {
+  "start": 55.079,
+  "end": 59.209,
+  "text": "instructions that tell Tosca what to do"
+ },
+ {
+  "start": 59.219,
+  "end": 63.229,
+  "text": "in order to recover a test case that"
+ },
+ {
+  "start": 63.239,
+  "end": 66.89,
+  "text": "might have failed while running a test"
+ },
+ {
+  "start": 66.9,
+  "end": 70.01,
+  "text": "during final execution"
+ },
+ {
+  "start": 70.02,
+  "end": 72.469,
+  "text": "so if recovery scenario is run"
+ },
+ {
+  "start": 72.479,
+  "end": 78.01,
+  "text": "successfully Tasker will retry test case"
+ },
+ {
+  "start": 78.02,
+  "end": 82.07,
+  "text": "according to the retry level set that"
+ },
+ {
+  "start": 82.08,
+  "end": 83.929,
+  "text": "means if recovery scenario is"
+ },
+ {
+  "start": 83.939,
+  "end": 86.69,
+  "text": "successfully run right then Tosca will"
+ },
+ {
+  "start": 86.7,
+  "end": 89.149,
+  "text": "retry the test case according to the"
+ },
+ {
+  "start": 89.159,
+  "end": 91.249,
+  "text": "retry level set"
+ },
+ {
+  "start": 91.259,
+  "end": 94.73,
+  "text": "if recovery scenario fails then Tosca"
+ },
+ {
+  "start": 94.74,
+  "end": 97.49,
+  "text": "will go to the next recovery scenario"
+ },
+ {
+  "start": 97.5,
+  "end": 100.01,
+  "text": "available"
+ },
+ {
+  "start": 100.02,
+  "end": 103.789,
+  "text": "and Recovery scenario can be added to"
+ },
+ {
+  "start": 103.799,
+  "end": 106.969,
+  "text": "recovery scenario collection which can"
+ },
+ {
+  "start": 106.979,
+  "end": 110.149,
+  "text": "be added anywhere within the test case"
+ },
+ {
+  "start": 110.159,
+  "end": 113.87,
+  "text": "section so basically the retry level"
+ },
+ {
+  "start": 113.88,
+  "end": 116.21,
+  "text": "whatever you set at the recovery"
+ },
+ {
+  "start": 116.22,
+  "end": 119.69,
+  "text": "scenario level is at test case level"
+ },
+ {
+  "start": 119.7,
+  "end": 122.33,
+  "text": "or you can set a test set test step"
+ },
+ {
+  "start": 122.34,
+  "end": 125.51,
+  "text": "level or you can set a test step value"
+ },
+ {
+  "start": 125.52,
+  "end": 127.37,
+  "text": "level that means"
+ },
+ {
+  "start": 127.38,
+  "end": 128.99,
+  "text": "in case"
+ },
+ {
+  "start": 129.0,
+  "end": 133.13,
+  "text": "the test case fails then the recovery"
+ },
+ {
+  "start": 133.14,
+  "end": 135.29,
+  "text": "scenario will trigger"
+ },
+ {
+  "start": 135.3,
+  "end": 139.07,
+  "text": "and then it can run your entire test"
+ },
+ {
+  "start": 139.08,
+  "end": 143.33,
+  "text": "case again or it can run a particular"
+ },
+ {
+  "start": 143.34,
+  "end": 148.01,
+  "text": "test step again or it can run a test"
+ },
+ {
+  "start": 148.02,
+  "end": 151.309,
+  "text": "step value again so there are three"
+ },
+ {
+  "start": 151.319,
+  "end": 154.369,
+  "text": "levels where you can basically set your"
+ },
+ {
+  "start": 154.379,
+  "end": 156.29,
+  "text": "retry level"
+ },
+ {
+  "start": 156.3,
+  "end": 159.71,
+  "text": "okay now let's jump onto the system and"
+ },
+ {
+  "start": 159.72,
+  "end": 162.229,
+  "text": "see how can you create recovery"
+ },
+ {
+  "start": 162.239,
+  "end": 164.15,
+  "text": "scenarios in Tosca"
+ },
+ {
+  "start": 164.16,
+  "end": 167.449,
+  "text": "and then how can we use them in"
+ },
+ {
+  "start": 167.459,
+  "end": 170.509,
+  "text": "automating our test cases"
+ },
+ {
+  "start": 170.519,
+  "end": 175.49,
+  "text": "okay so this is my transientist task"
+ },
+ {
+  "start": 175.5,
+  "end": 179.39,
+  "text": "16 right so if you see in the left side"
+ },
+ {
+  "start": 179.4,
+  "end": 182.63,
+  "text": "under test case section there is an"
+ },
+ {
+  "start": 182.64,
+  "end": 185.57,
+  "text": "exercise folder okay so all these"
+ },
+ {
+  "start": 185.58,
+  "end": 188.63,
+  "text": "folders it comes along with the"
+ },
+ {
+  "start": 188.64,
+  "end": 189.41,
+  "text": "um"
+ },
+ {
+  "start": 189.42,
+  "end": 192.71,
+  "text": "TSU file that you have downloaded in"
+ },
+ {
+  "start": 192.72,
+  "end": 194.69,
+  "text": "earlier session right in earlier session"
+ },
+ {
+  "start": 194.7,
+  "end": 198.05,
+  "text": "what we did we have downloaded a TSU"
+ },
+ {
+  "start": 198.06,
+  "end": 200.449,
+  "text": "file"
+ },
+ {
+  "start": 202.55,
+  "end": 202.56,
+  "text": "um let me show you that okay we have"
+ },
+ {
+  "start": 202.56,
+  "end": 205.55,
+  "text": "downloaded a TSC file"
+ },
+ {
+  "start": 205.56,
+  "end": 208.149,
+  "text": "called"
+ },
+ {
+  "start": 208.159,
+  "end": 210.35,
+  "text": "this one additional material right"
+ },
+ {
+  "start": 210.36,
+  "end": 214.91,
+  "text": "additional material base dot TSU so this"
+ },
+ {
+  "start": 214.92,
+  "end": 218.509,
+  "text": "once you download this you will get all"
+ },
+ {
+  "start": 218.519,
+  "end": 221.69,
+  "text": "these predefined test cases okay so for"
+ },
+ {
+  "start": 221.7,
+  "end": 223.85,
+  "text": "this you need to go to your recovery"
+ },
+ {
+  "start": 223.86,
+  "end": 226.85,
+  "text": "scenarios under recovery scenarios you"
+ },
+ {
+  "start": 226.86,
+  "end": 231.229,
+  "text": "will find login and logout okay so what"
+ },
+ {
+  "start": 231.239,
+  "end": 233.149,
+  "text": "does this test case so this test case"
+ },
+ {
+  "start": 233.159,
+  "end": 238.13,
+  "text": "simply logs in to the FIB"
+ },
+ {
+  "start": 238.14,
+  "end": 241.729,
+  "text": "this uh demo webshop it performs login"
+ },
+ {
+  "start": 241.739,
+  "end": 244.13,
+  "text": "activity and then"
+ },
+ {
+  "start": 244.14,
+  "end": 245.57,
+  "text": "by entering the username and password"
+ },
+ {
+  "start": 245.58,
+  "end": 249.789,
+  "text": "okay and then it logs out wait for again"
+ },
+ {
+  "start": 249.799,
+  "end": 253.55,
+  "text": "login link and close the webshop so it's"
+ },
+ {
+  "start": 253.56,
+  "end": 255.649,
+  "text": "simple login and logout functionality"
+ },
+ {
+  "start": 255.659,
+  "end": 257.509,
+  "text": "that we are verifying as part of this"
+ },
+ {
+  "start": 257.519,
+  "end": 258.71,
+  "text": "test case"
+ },
+ {
+  "start": 258.72,
+  "end": 262.37,
+  "text": "okay so now I want to introduce a"
+ },
+ {
+  "start": 262.38,
+  "end": 264.17,
+  "text": "recovery scenario for this test case"
+ },
+ {
+  "start": 264.18,
+  "end": 267.29,
+  "text": "automated test case okay for that right"
+ },
+ {
+  "start": 267.3,
+  "end": 271.189,
+  "text": "click and you need to select recovery"
+ },
+ {
+  "start": 271.199,
+  "end": 273.29,
+  "text": "scenario collection create recovery"
+ },
+ {
+  "start": 273.3,
+  "end": 277.49,
+  "text": "select scenario collection click on this"
+ },
+ {
+  "start": 277.5,
+  "end": 280.51,
+  "text": "and under recovery scenario collection"
+ },
+ {
+  "start": 280.52,
+  "end": 284.57,
+  "text": "create a recovery scenario so this is"
+ },
+ {
+  "start": 284.58,
+  "end": 287.51,
+  "text": "your recovery scenario create recovery"
+ },
+ {
+  "start": 287.52,
+  "end": 289.07,
+  "text": "scenario"
+ },
+ {
+  "start": 289.08,
+  "end": 290.33,
+  "text": "okay"
+ },
+ {
+  "start": 290.34,
+  "end": 292.189,
+  "text": "so under"
+ },
+ {
+  "start": 292.199,
+  "end": 296.05,
+  "text": "recovery scenario I'm gonna add a"
+ },
+ {
+  "start": 296.06,
+  "end": 299.99,
+  "text": "three modules okay first one is"
+ },
+ {
+  "start": 300.0,
+  "end": 302.45,
+  "text": "I need to add"
+ },
+ {
+  "start": 302.46,
+  "end": 304.31,
+  "text": "top menu"
+ },
+ {
+  "start": 304.32,
+  "end": 305.87,
+  "text": "okay"
+ },
+ {
+  "start": 305.88,
+  "end": 307.969,
+  "text": "top menu"
+ },
+ {
+  "start": 307.979,
+  "end": 313.129,
+  "text": "and let me name this as"
+ },
+ {
+  "start": 317.93,
+  "end": 317.94,
+  "text": "and then"
+ },
+ {
+  "start": 317.94,
+  "end": 319.85,
+  "text": "the next one is"
+ },
+ {
+  "start": 319.86,
+  "end": 327.17,
+  "text": "again let's call the same top menu"
+ },
+ {
+  "start": 329.21,
+  "end": 329.22,
+  "text": "one more time"
+ },
+ {
+  "start": 329.22,
+  "end": 333.59,
+  "text": "and name this as"
+ },
+ {
+  "start": 335.629,
+  "end": 335.639,
+  "text": "weight"
+ },
+ {
+  "start": 335.639,
+  "end": 338.39,
+  "text": "until"
+ },
+ {
+  "start": 342.409,
+  "end": 342.419,
+  "text": "login wait until logout logged out wait"
+ },
+ {
+  "start": 342.419,
+  "end": 345.77,
+  "text": "until logged out okay"
+ },
+ {
+  "start": 345.78,
+  "end": 347.27,
+  "text": "and then"
+ },
+ {
+  "start": 347.28,
+  "end": 350.99,
+  "text": "standard I'm going to call a standard"
+ },
+ {
+  "start": 351.0,
+  "end": 353.029,
+  "text": "um"
+ },
+ {
+  "start": 353.039,
+  "end": 356.81,
+  "text": "module close browser okay"
+ },
+ {
+  "start": 356.82,
+  "end": 359.87,
+  "text": "and then let's enter the values"
+ },
+ {
+  "start": 359.88,
+  "end": 363.29,
+  "text": "so I want to perform log out"
+ },
+ {
+  "start": 363.3,
+  "end": 367.129,
+  "text": "and then I want to wait for login right"
+ },
+ {
+  "start": 367.139,
+  "end": 369.469,
+  "text": "to appear on the screen"
+ },
+ {
+  "start": 369.479,
+  "end": 370.969,
+  "text": "so for that"
+ },
+ {
+  "start": 370.979,
+  "end": 373.43,
+  "text": "I need to select visible"
+ },
+ {
+  "start": 373.44,
+  "end": 376.43,
+  "text": "equal to true"
+ },
+ {
+  "start": 376.44,
+  "end": 379.67,
+  "text": "you have to wait until it is visible so"
+ },
+ {
+  "start": 379.68,
+  "end": 382.249,
+  "text": "select action mode as waiter"
+ },
+ {
+  "start": 382.259,
+  "end": 385.73,
+  "text": "and here title of your window to be"
+ },
+ {
+  "start": 385.74,
+  "end": 387.11,
+  "text": "closed is demo"
+ },
+ {
+  "start": 387.12,
+  "end": 389.629,
+  "text": "so what I am doing here so I've created"
+ },
+ {
+  "start": 389.639,
+  "end": 392.33,
+  "text": "One recovery scenario"
+ },
+ {
+  "start": 392.34,
+  "end": 394.129,
+  "text": "for"
+ },
+ {
+  "start": 394.139,
+  "end": 398.21,
+  "text": "this login logout test case why why I"
+ },
+ {
+  "start": 398.22,
+  "end": 400.07,
+  "text": "have created recovery scenario for this"
+ },
+ {
+  "start": 400.08,
+  "end": 402.529,
+  "text": "login logo test case let me explain"
+ },
+ {
+  "start": 402.539,
+  "end": 406.189,
+  "text": "see when I am executing the automated"
+ },
+ {
+  "start": 406.199,
+  "end": 408.83,
+  "text": "test case where I am actually"
+ },
+ {
+  "start": 408.84,
+  "end": 410.629,
+  "text": "validating the functionality of login"
+ },
+ {
+  "start": 410.639,
+  "end": 412.969,
+  "text": "and then log out right"
+ },
+ {
+  "start": 412.979,
+  "end": 416.51,
+  "text": "so there for example if your browser"
+ },
+ {
+  "start": 416.52,
+  "end": 418.79,
+  "text": "what if your browser"
+ },
+ {
+  "start": 418.8,
+  "end": 422.27,
+  "text": "are your webshop is already logged in"
+ },
+ {
+  "start": 422.28,
+  "end": 425.45,
+  "text": "if my webshop is already logged in if I"
+ },
+ {
+  "start": 425.46,
+  "end": 427.61,
+  "text": "run this test case"
+ },
+ {
+  "start": 427.62,
+  "end": 430.07,
+  "text": "then my test case is going to fail"
+ },
+ {
+  "start": 430.08,
+  "end": 431.809,
+  "text": "because"
+ },
+ {
+  "start": 431.819,
+  "end": 434.87,
+  "text": "it is not able to find out login link"
+ },
+ {
+  "start": 434.88,
+  "end": 437.21,
+  "text": "because I already logged in"
+ },
+ {
+  "start": 437.22,
+  "end": 439.55,
+  "text": "it finds out the logout but not the"
+ },
+ {
+  "start": 439.56,
+  "end": 440.33,
+  "text": "login"
+ },
+ {
+  "start": 440.34,
+  "end": 442.189,
+  "text": "but in this test case first you are"
+ },
+ {
+  "start": 442.199,
+  "end": 443.629,
+  "text": "logging in right"
+ },
+ {
+  "start": 443.639,
+  "end": 446.87,
+  "text": "so now I want to recover this kind of"
+ },
+ {
+  "start": 446.88,
+  "end": 448.73,
+  "text": "kind of scenario basically this test"
+ },
+ {
+  "start": 448.74,
+  "end": 452.15,
+  "text": "case needs to be recovered in case of"
+ },
+ {
+  "start": 452.16,
+  "end": 454.909,
+  "text": "this kind of scenarios if if the browser"
+ },
+ {
+  "start": 454.919,
+  "end": 458.27,
+  "text": "is logged in I want to log out"
+ },
+ {
+  "start": 458.28,
+  "end": 460.37,
+  "text": "and then close the browser so that is"
+ },
+ {
+  "start": 460.38,
+  "end": 462.469,
+  "text": "what the recovery scenario we introduced"
+ },
+ {
+  "start": 462.479,
+  "end": 466.189,
+  "text": "here right logout so let's see here and"
+ },
+ {
+  "start": 466.199,
+  "end": 468.589,
+  "text": "then here go to the properties click on"
+ },
+ {
+  "start": 468.599,
+  "end": 471.529,
+  "text": "recovery scenario go to the properties"
+ },
+ {
+  "start": 471.539,
+  "end": 473.21,
+  "text": "you need to select the recovery scenario"
+ },
+ {
+  "start": 473.22,
+  "end": 476.629,
+  "text": "this retrieval level is at test case"
+ },
+ {
+  "start": 476.639,
+  "end": 479.089,
+  "text": "level or test step level so I want to"
+ },
+ {
+  "start": 479.099,
+  "end": 482.57,
+  "text": "select this as test case in case my test"
+ },
+ {
+  "start": 482.58,
+  "end": 485.33,
+  "text": "case login logout test case actual test"
+ },
+ {
+  "start": 485.34,
+  "end": 486.529,
+  "text": "case"
+ },
+ {
+  "start": 486.539,
+  "end": 490.15,
+  "text": "fails then I'm asking to"
+ },
+ {
+  "start": 490.16,
+  "end": 492.77,
+  "text": "re-trigger trigger I mean sorry I'm"
+ },
+ {
+  "start": 492.78,
+  "end": 495.309,
+  "text": "asking to trigger this recovery scenario"
+ },
+ {
+  "start": 495.319,
+  "end": 499.189,
+  "text": "and do some action and then re-run the"
+ },
+ {
+  "start": 499.199,
+  "end": 501.29,
+  "text": "test case that's why retry level is test"
+ },
+ {
+  "start": 501.3,
+  "end": 502.49,
+  "text": "case"
+ },
+ {
+  "start": 502.5,
+  "end": 503.689,
+  "text": "okay"
+ },
+ {
+  "start": 503.699,
+  "end": 506.629,
+  "text": "so here"
+ },
+ {
+  "start": 508.67,
+  "end": 508.68,
+  "text": "let's save this"
+ },
+ {
+  "start": 508.68,
+  "end": 511.55,
+  "text": "and then go to execution list because as"
+ },
+ {
+  "start": 511.56,
+  "end": 513.589,
+  "text": "I told you earlier"
+ },
+ {
+  "start": 513.599,
+  "end": 516.61,
+  "text": "the recovery scenarios cannot be"
+ },
+ {
+  "start": 516.62,
+  "end": 520.61,
+  "text": "triggered when you run in the scratch"
+ },
+ {
+  "start": 520.62,
+  "end": 524.41,
+  "text": "book so these recovery scenarios can be"
+ },
+ {
+  "start": 524.42,
+  "end": 527.389,
+  "text": "invoked only when you run in the"
+ },
+ {
+  "start": 527.399,
+  "end": 530.99,
+  "text": "execution list okay okay so before I run"
+ },
+ {
+  "start": 531.0,
+  "end": 533.75,
+  "text": "the test case let us make sure the"
+ },
+ {
+  "start": 533.76,
+  "end": 535.79,
+  "text": "recovery scenario in the settings okay"
+ },
+ {
+  "start": 535.8,
+  "end": 537.949,
+  "text": "go to Project"
+ },
+ {
+  "start": 537.959,
+  "end": 541.19,
+  "text": "and go to settings so you need to see"
+ },
+ {
+  "start": 541.2,
+  "end": 543.05,
+  "text": "the recovery scenario settings okay that"
+ },
+ {
+  "start": 543.06,
+  "end": 545.09,
+  "text": "is very important"
+ },
+ {
+  "start": 545.1,
+  "end": 549.23,
+  "text": "under settings you need to go to t-box"
+ },
+ {
+  "start": 549.24,
+  "end": 552.889,
+  "text": "so here t-box under t-box you will have"
+ },
+ {
+  "start": 552.899,
+  "end": 554.15,
+  "text": "a recovery"
+ },
+ {
+  "start": 554.16,
+  "end": 557.449,
+  "text": "so here on dialog failure or extraction"
+ },
+ {
+  "start": 557.459,
+  "end": 560.21,
+  "text": "failure on verification failure okay so"
+ },
+ {
+  "start": 560.22,
+  "end": 563.81,
+  "text": "I want to make them as recover so let's"
+ },
+ {
+  "start": 563.82,
+  "end": 568.55,
+  "text": "select them as recover okay"
+ },
+ {
+  "start": 570.35,
+  "end": 570.36,
+  "text": "okay"
+ },
+ {
+  "start": 570.36,
+  "end": 572.389,
+  "text": "that's it so these two we need to make"
+ },
+ {
+  "start": 572.399,
+  "end": 575.389,
+  "text": "sure that all the verifications"
+ },
+ {
+  "start": 575.399,
+  "end": 578.15,
+  "text": "will make the match recover okay and"
+ },
+ {
+  "start": 578.16,
+  "end": 580.67,
+  "text": "then close it"
+ },
+ {
+  "start": 580.68,
+  "end": 582.829,
+  "text": "so now let's trigger this because"
+ },
+ {
+  "start": 582.839,
+  "end": 585.17,
+  "text": "whenever I trigger this right your"
+ },
+ {
+  "start": 585.18,
+  "end": 588.23,
+  "text": "webshop will be opened with already"
+ },
+ {
+  "start": 588.24,
+  "end": 592.37,
+  "text": "logged in correct so now your test case"
+ },
+ {
+  "start": 592.38,
+  "end": 594.47,
+  "text": "login test case should fail"
+ },
+ {
+  "start": 594.48,
+  "end": 596.57,
+  "text": "correct"
+ },
+ {
+  "start": 596.58,
+  "end": 599.57,
+  "text": "so let me see how did I map this here"
+ },
+ {
+  "start": 599.58,
+  "end": 602.389,
+  "text": "okay let me just map it this the test"
+ },
+ {
+  "start": 602.399,
+  "end": 605.21,
+  "text": "case again okay let's go back here let's"
+ },
+ {
+  "start": 605.22,
+  "end": 607.99,
+  "text": "map this login test case to our"
+ },
+ {
+  "start": 608.0,
+  "end": 610.97,
+  "text": "execution recovery scenario execution"
+ },
+ {
+  "start": 610.98,
+  "end": 611.99,
+  "text": "list"
+ },
+ {
+  "start": 612.0,
+  "end": 615.47,
+  "text": "okay so now let's run the scenario right"
+ },
+ {
+  "start": 615.48,
+  "end": 618.829,
+  "text": "click and run your execution list"
+ },
+ {
+  "start": 618.839,
+  "end": 620.69,
+  "text": "so when I run this"
+ },
+ {
+  "start": 620.7,
+  "end": 623.87,
+  "text": "the webshop will be opened it is already"
+ },
+ {
+  "start": 623.88,
+  "end": 626.09,
+  "text": "logged in it will not be able to see the"
+ },
+ {
+  "start": 626.1,
+  "end": 628.37,
+  "text": "login and then recovery scenario should"
+ },
+ {
+  "start": 628.38,
+  "end": 634.67,
+  "text": "trigger"
+ },
+ {
+  "start": 636.41,
+  "end": 636.42,
+  "text": "see it triggered the recovery scenario"
+ },
+ {
+  "start": 636.42,
+  "end": 639.47,
+  "text": "it logged out it closed the webshop and"
+ },
+ {
+  "start": 639.48,
+  "end": 642.59,
+  "text": "then again it's open the webshop so that"
+ },
+ {
+  "start": 642.6,
+  "end": 645.11,
+  "text": "means it's working our scenario is"
+ },
+ {
+  "start": 645.12,
+  "end": 647.09,
+  "text": "working correctly basically the recovery"
+ },
+ {
+  "start": 647.1,
+  "end": 650.15,
+  "text": "scenario got triggered okay"
+ },
+ {
+  "start": 650.16,
+  "end": 651.949,
+  "text": "so"
+ },
+ {
+  "start": 651.959,
+  "end": 655.25,
+  "text": "hope you all understand the concept of"
+ },
+ {
+  "start": 655.26,
+  "end": 657.769,
+  "text": "recovery scenario okay so if you have"
+ },
+ {
+  "start": 657.779,
+  "end": 660.71,
+  "text": "any queries uh leave your queries in the"
+ },
+ {
+  "start": 660.72,
+  "end": 662.449,
+  "text": "comment box I'll try to respond to your"
+ },
+ {
+  "start": 662.459,
+  "end": 671.48,
+  "text": "queries okay thank you"
+ }
+]

@@ -1,0 +1,1977 @@
+[
+ {
+  "start": 12.669,
+  "end": 12.679,
+  "text": "hi everyone this is RI welcome to"
+ },
+ {
+  "start": 12.679,
+  "end": 15.789,
+  "text": "tricentis tasa automation tutorial as"
+ },
+ {
+  "start": 15.799,
+  "end": 18.51,
+  "text": "you all know I've already published 73"
+ },
+ {
+  "start": 18.52,
+  "end": 21.509,
+  "text": "YouTube videos covering beginners level"
+ },
+ {
+  "start": 21.519,
+  "end": 22.63,
+  "text": "advanced"
+ },
+ {
+  "start": 22.64,
+  "end": 25.83,
+  "text": "level beginers level intermediate level"
+ },
+ {
+  "start": 25.84,
+  "end": 28.509,
+  "text": "and advanced level concepts of tricentis"
+ },
+ {
+  "start": 28.519,
+  "end": 30.91,
+  "text": "tasa automation"
+ },
+ {
+  "start": 30.92,
+  "end": 33.31,
+  "text": "so from few videos onwards I've started"
+ },
+ {
+  "start": 33.32,
+  "end": 36.15,
+  "text": "teaching you the realtime scenarios"
+ },
+ {
+  "start": 36.16,
+  "end": 38.31,
+  "text": "where you might encounter different"
+ },
+ {
+  "start": 38.32,
+  "end": 41.35,
+  "text": "types of obstacles and how can we solve"
+ },
+ {
+  "start": 41.36,
+  "end": 43.709,
+  "text": "those obstacles while automating the"
+ },
+ {
+  "start": 43.719,
+  "end": 47.229,
+  "text": "test cases by using trient tasa please"
+ },
+ {
+  "start": 47.239,
+  "end": 49.83,
+  "text": "do subscribe to the channel click on"
+ },
+ {
+  "start": 49.84,
+  "end": 51.95,
+  "text": "Bell icon you'll receive notifications"
+ },
+ {
+  "start": 51.96,
+  "end": 54.59,
+  "text": "whenever I publish more videos don't"
+ },
+ {
+  "start": 54.6,
+  "end": 58.59,
+  "text": "forget to like and share the video thank"
+ },
+ {
+  "start": 58.6,
+  "end": 63.63,
+  "text": "you this is is our lesson 74 in terms of"
+ },
+ {
+  "start": 63.64,
+  "end": 66.149,
+  "text": "overall tricentis Tas automation"
+ },
+ {
+  "start": 66.159,
+  "end": 69.87,
+  "text": "training and this is obstacle 32 in"
+ },
+ {
+  "start": 69.88,
+  "end": 72.67,
+  "text": "terms of realtime scenarios in this"
+ },
+ {
+  "start": 72.68,
+  "end": 75.23,
+  "text": "lesson I'm going to teach you how can we"
+ },
+ {
+  "start": 75.24,
+  "end": 79.109,
+  "text": "solve an obstacle where you need to sort"
+ },
+ {
+  "start": 79.119,
+  "end": 82.23,
+  "text": "all 10 numbers displaying on the screen"
+ },
+ {
+  "start": 82.24,
+  "end": 83.71,
+  "text": "in sequential"
+ },
+ {
+  "start": 83.72,
+  "end": 87.429,
+  "text": "order by using the methods like do while"
+ },
+ {
+  "start": 87.439,
+  "end": 90.51,
+  "text": "Loops if El statements"
+ },
+ {
+  "start": 90.52,
+  "end": 94.19,
+  "text": "so now let us go and see in detail what"
+ },
+ {
+  "start": 94.2,
+  "end": 96.429,
+  "text": "is the obstacle that we need to solve"
+ },
+ {
+  "start": 96.439,
+  "end": 99.55,
+  "text": "for so here is the obstacle list that we"
+ },
+ {
+  "start": 99.56,
+  "end": 102.99,
+  "text": "started working on and if you scroll"
+ },
+ {
+  "start": 103.0,
+  "end": 106.35,
+  "text": "down so this is our obstacle that we are"
+ },
+ {
+  "start": 106.36,
+  "end": 110.109,
+  "text": "going to solve for bubble sort which is"
+ },
+ {
+  "start": 110.119,
+  "end": 115.03,
+  "text": "categorized as hard let us go for it let"
+ },
+ {
+  "start": 115.04,
+  "end": 117.59,
+  "text": "us understand what is the obstacle that"
+ },
+ {
+  "start": 117.6,
+  "end": 120.709,
+  "text": "we need to solve for"
+ },
+ {
+  "start": 120.719,
+  "end": 124.389,
+  "text": "so I can read here sort the number from"
+ },
+ {
+  "start": 124.399,
+  "end": 126.149,
+  "text": "1 to"
+ },
+ {
+  "start": 126.159,
+  "end": 130.79,
+  "text": "9 click on Swap if the left number is"
+ },
+ {
+  "start": 130.8,
+  "end": 134.03,
+  "text": "greater than the right number inside the"
+ },
+ {
+  "start": 134.04,
+  "end": 135.229,
+  "text": "blue"
+ },
+ {
+  "start": 135.239,
+  "end": 139.91,
+  "text": "bubble otherwise click next so the blue"
+ },
+ {
+  "start": 139.92,
+  "end": 143.75,
+  "text": "text field on the bottom left will"
+ },
+ {
+  "start": 143.76,
+  "end": 148.07,
+  "text": "display keep sorting until all the"
+ },
+ {
+  "start": 148.08,
+  "end": 151.55,
+  "text": "numbers are correctly sorted so here"
+ },
+ {
+  "start": 151.56,
+  "end": 152.99,
+  "text": "these are the 10 numbers that are"
+ },
+ {
+  "start": 153.0,
+  "end": 155.63,
+  "text": "displaying now we need to sort in"
+ },
+ {
+  "start": 155.64,
+  "end": 160.11,
+  "text": "ascending order if the number on right"
+ },
+ {
+  "start": 160.12,
+  "end": 163.19,
+  "text": "side is less than the number on left"
+ },
+ {
+  "start": 163.2,
+  "end": 168.99,
+  "text": "side you need to click swap so now 1 is"
+ },
+ {
+  "start": 169.0,
+  "end": 172.83,
+  "text": "less than 4 so that means the condition"
+ },
+ {
+  "start": 172.84,
+  "end": 175.509,
+  "text": "is satisfied so if the condition"
+ },
+ {
+  "start": 175.519,
+  "end": 178.149,
+  "text": "satisfies left number less than right"
+ },
+ {
+  "start": 178.159,
+  "end": 182.309,
+  "text": "number then you need to click next again"
+ },
+ {
+  "start": 182.319,
+  "end": 185.63,
+  "text": "if left number is less than right number"
+ },
+ {
+  "start": 185.64,
+  "end": 187.75,
+  "text": "then again you need to click on"
+ },
+ {
+  "start": 187.76,
+  "end": 192.509,
+  "text": "next if left number is greater than"
+ },
+ {
+  "start": 192.519,
+  "end": 195.149,
+  "text": "right number you need to click on"
+ },
+ {
+  "start": 195.159,
+  "end": 198.869,
+  "text": "Swap then click next again your left"
+ },
+ {
+  "start": 198.879,
+  "end": 201.39,
+  "text": "number is less than right number so"
+ },
+ {
+  "start": 201.4,
+  "end": 204.11,
+  "text": "simply you can go to next so here your"
+ },
+ {
+  "start": 204.12,
+  "end": 206.789,
+  "text": "left number is greater than right number"
+ },
+ {
+  "start": 206.799,
+  "end": 208.35,
+  "text": "click on"
+ },
+ {
+  "start": 208.36,
+  "end": 212.55,
+  "text": "Swap so this way keep performing the"
+ },
+ {
+  "start": 212.56,
+  "end": 221.509,
+  "text": "actions until all the numbers are"
+ },
+ {
+  "start": 224.47,
+  "end": 224.48,
+  "text": "sorted so now you can see all the"
+ },
+ {
+  "start": 224.48,
+  "end": 227.509,
+  "text": "numbers are sorted and your button also"
+ },
+ {
+  "start": 227.519,
+  "end": 232.67,
+  "text": "changed perfect you did it so until you"
+ },
+ {
+  "start": 232.68,
+  "end": 235.149,
+  "text": "sort all the numers successfully your"
+ },
+ {
+  "start": 235.159,
+  "end": 238.83,
+  "text": "button remains as keep sorting okay so"
+ },
+ {
+  "start": 238.84,
+  "end": 241.47,
+  "text": "now how can we automate this by using"
+ },
+ {
+  "start": 241.48,
+  "end": 244.83,
+  "text": "trient tasa let us go to trient tasa so"
+ },
+ {
+  "start": 244.84,
+  "end": 247.589,
+  "text": "as usual we are going to capture the"
+ },
+ {
+  "start": 247.599,
+  "end": 249.99,
+  "text": "objects that are required for automation"
+ },
+ {
+  "start": 250.0,
+  "end": 254.789,
+  "text": "under module section in obstacles folder"
+ },
+ {
+  "start": 254.799,
+  "end": 257.27,
+  "text": "right click on this obstacles folder"
+ },
+ {
+  "start": 257.28,
+  "end": 258.55,
+  "text": "select"
+ },
+ {
+  "start": 258.56,
+  "end": 263.83,
+  "text": "scan"
+ },
+ {
+  "start": 265.99,
+  "end": 266.0,
+  "text": "application so this is the application"
+ },
+ {
+  "start": 266.0,
+  "end": 268.39,
+  "text": "that you would like to automate click on"
+ },
+ {
+  "start": 268.4,
+  "end": 273.35,
+  "text": "scan"
+ },
+ {
+  "start": 275.59,
+  "end": 275.6,
+  "text": "so if you are not able to capture the"
+ },
+ {
+  "start": 275.6,
+  "end": 278.79,
+  "text": "objects in the right way you are going"
+ },
+ {
+  "start": 278.8,
+  "end": 281.35,
+  "text": "to struggle in automating this"
+ },
+ {
+  "start": 281.36,
+  "end": 284.55,
+  "text": "particular scenario what we need to do"
+ },
+ {
+  "start": 284.56,
+  "end": 288.99,
+  "text": "observe clearly for here I need to"
+ },
+ {
+  "start": 289.0,
+  "end": 291.95,
+  "text": "capture swap next and keep sorting"
+ },
+ {
+  "start": 291.96,
+  "end": 294.67,
+  "text": "buttons first let's do one thing simply"
+ },
+ {
+  "start": 294.68,
+  "end": 296.67,
+  "text": "select"
+ },
+ {
+  "start": 296.68,
+  "end": 300.189,
+  "text": "Swap and this is uniquely identified"
+ },
+ {
+  "start": 300.199,
+  "end": 303.51,
+  "text": "next this is uniquely identified keep"
+ },
+ {
+  "start": 303.52,
+  "end": 306.23,
+  "text": "sorting this is also uniquely identified"
+ },
+ {
+  "start": 306.24,
+  "end": 310.67,
+  "text": "now you need to capture this"
+ },
+ {
+  "start": 310.68,
+  "end": 314.23,
+  "text": "bubble left number and the right number"
+ },
+ {
+  "start": 314.24,
+  "end": 317.83,
+  "text": "so for that expand this one so you don't"
+ },
+ {
+  "start": 317.84,
+  "end": 319.749,
+  "text": "you're not seeing that bubble right so"
+ },
+ {
+  "start": 319.759,
+  "end": 321.309,
+  "text": "what you need to do you need to expand"
+ },
+ {
+  "start": 321.319,
+  "end": 323.95,
+  "text": "the filter by clicking right side still"
+ },
+ {
+  "start": 323.96,
+  "end": 326.67,
+  "text": "I don't see again click here now I can"
+ },
+ {
+  "start": 326.68,
+  "end": 328.87,
+  "text": "see the bubble how where so if you"
+ },
+ {
+  "start": 328.88,
+  "end": 331.55,
+  "text": "scroll up so this is your bubble so if"
+ },
+ {
+  "start": 331.56,
+  "end": 332.469,
+  "text": "you"
+ },
+ {
+  "start": 332.479,
+  "end": 336.71,
+  "text": "see your bubble left number is one that"
+ },
+ {
+  "start": 336.72,
+  "end": 338.71,
+  "text": "and then your bubble right number is"
+ },
+ {
+  "start": 338.72,
+  "end": 341.71,
+  "text": "eight and this is your bubble so let's"
+ },
+ {
+  "start": 341.72,
+  "end": 345.71,
+  "text": "expand this now select the bubble If You"
+ },
+ {
+  "start": 345.72,
+  "end": 348.83,
+  "text": "observe closely the bubble has the"
+ },
+ {
+  "start": 348.84,
+  "end": 353.43,
+  "text": "property called inner text 18 this is"
+ },
+ {
+  "start": 353.44,
+  "end": 356.15,
+  "text": "dynamic so you should not rely on this"
+ },
+ {
+  "start": 356.16,
+  "end": 360.35,
+  "text": "inner text instead uncheck this one"
+ },
+ {
+  "start": 360.36,
+  "end": 364.469,
+  "text": "rely on your class name and rename this"
+ },
+ {
+  "start": 364.479,
+  "end": 368.39,
+  "text": "as bubble to identify the object"
+ },
+ {
+  "start": 368.4,
+  "end": 371.39,
+  "text": "correctly and then this is your first"
+ },
+ {
+  "start": 371.4,
+  "end": 375.43,
+  "text": "number check this one again your first"
+ },
+ {
+  "start": 375.44,
+  "end": 378.83,
+  "text": "number has an inner text of one so these"
+ },
+ {
+  "start": 378.84,
+  "end": 381.629,
+  "text": "numbers are not unique these are all"
+ },
+ {
+  "start": 381.639,
+  "end": 385.11,
+  "text": "Dynamic so uncheck this inner text and"
+ },
+ {
+  "start": 385.12,
+  "end": 388.83,
+  "text": "check the class name and here let's"
+ },
+ {
+  "start": 388.84,
+  "end": 393.07,
+  "text": "rename this as first in the same way the"
+ },
+ {
+  "start": 393.08,
+  "end": 393.95,
+  "text": "second"
+ },
+ {
+  "start": 393.96,
+  "end": 398.749,
+  "text": "one this is my second number inner text"
+ },
+ {
+  "start": 398.759,
+  "end": 401.629,
+  "text": "is right now eight but in future it"
+ },
+ {
+  "start": 401.639,
+  "end": 403.79,
+  "text": "might not be eight so that's why remove"
+ },
+ {
+  "start": 403.8,
+  "end": 407.23,
+  "text": "this and check class name and rename"
+ },
+ {
+  "start": 407.24,
+  "end": 408.95,
+  "text": "this as"
+ },
+ {
+  "start": 408.96,
+  "end": 412.43,
+  "text": "second but if You observe closely these"
+ },
+ {
+  "start": 412.44,
+  "end": 415.55,
+  "text": "two are now not uniquely identified"
+ },
+ {
+  "start": 415.56,
+  "end": 418.309,
+  "text": "because for this objects class name is"
+ },
+ {
+  "start": 418.319,
+  "end": 421.11,
+  "text": "num tag is div for this object class"
+ },
+ {
+  "start": 421.12,
+  "end": 424.23,
+  "text": "name is num tag is div now I need to"
+ },
+ {
+  "start": 424.24,
+  "end": 427.189,
+  "text": "make these two numbers identify uniquely"
+ },
+ {
+  "start": 427.199,
+  "end": 431.189,
+  "text": "how can I do that I can use identify"
+ },
+ {
+  "start": 431.199,
+  "end": 436.309,
+  "text": "object by index select this now my first"
+ },
+ {
+  "start": 436.319,
+  "end": 440.43,
+  "text": "number has an index of one select this"
+ },
+ {
+  "start": 440.44,
+  "end": 443.99,
+  "text": "in the same way your second number has"
+ },
+ {
+  "start": 444.0,
+  "end": 447.23,
+  "text": "an index of two select this one now you"
+ },
+ {
+  "start": 447.24,
+  "end": 451.99,
+  "text": "can see here your num one and second"
+ },
+ {
+  "start": 452.0,
+  "end": 454.309,
+  "text": "number are uniquely"
+ },
+ {
+  "start": 454.319,
+  "end": 458.189,
+  "text": "identified so you should not forget that"
+ },
+ {
+  "start": 458.199,
+  "end": 459.469,
+  "text": "what are the things that you should not"
+ },
+ {
+  "start": 459.479,
+  "end": 463.189,
+  "text": "forget expand the filter to identify the"
+ },
+ {
+  "start": 463.199,
+  "end": 466.11,
+  "text": "bubble and you need to change the bubble"
+ },
+ {
+  "start": 466.12,
+  "end": 468.99,
+  "text": "property by removing inner text add"
+ },
+ {
+  "start": 469.0,
+  "end": 472.869,
+  "text": "class name and then same applies for"
+ },
+ {
+  "start": 472.879,
+  "end": 475.95,
+  "text": "number one number two remove inner text"
+ },
+ {
+  "start": 475.96,
+  "end": 479.23,
+  "text": "add class name but for number one and"
+ },
+ {
+  "start": 479.24,
+  "end": 481.35,
+  "text": "number number two we are making these"
+ },
+ {
+  "start": 481.36,
+  "end": 484.51,
+  "text": "two identified as unique by introducing"
+ },
+ {
+  "start": 484.52,
+  "end": 490.11,
+  "text": "the identify by index so now let us name"
+ },
+ {
+  "start": 490.12,
+  "end": 493.189,
+  "text": "this module with the name of your"
+ },
+ {
+  "start": 493.199,
+  "end": 495.43,
+  "text": "obstacle copy"
+ },
+ {
+  "start": 495.44,
+  "end": 497.189,
+  "text": "this and"
+ },
+ {
+  "start": 497.199,
+  "end": 501.23,
+  "text": "then paste it here and save"
+ },
+ {
+  "start": 501.24,
+  "end": 503.99,
+  "text": "the"
+ },
+ {
+  "start": 504.0,
+  "end": 506.909,
+  "text": "module and close your X"
+ },
+ {
+  "start": 506.919,
+  "end": 510.23,
+  "text": "scan let's come back here now so if you"
+ },
+ {
+  "start": 510.24,
+  "end": 513.75,
+  "text": "scroll down fully so this is the"
+ },
+ {
+  "start": 513.76,
+  "end": 516.909,
+  "text": "obstacle that we captured so come here"
+ },
+ {
+  "start": 516.919,
+  "end": 520.35,
+  "text": "now this is the module that we captured"
+ },
+ {
+  "start": 520.36,
+  "end": 522.469,
+  "text": "I can see bubble first number second"
+ },
+ {
+  "start": 522.479,
+  "end": 526.11,
+  "text": "number swap next keep sorting so now let"
+ },
+ {
+  "start": 526.12,
+  "end": 528.269,
+  "text": "us automate the test case to automate"
+ },
+ {
+  "start": 528.279,
+  "end": 530.389,
+  "text": "the test case let us concentrate on left"
+ },
+ {
+  "start": 530.399,
+  "end": 533.31,
+  "text": "section which is test case section right"
+ },
+ {
+  "start": 533.32,
+  "end": 536.63,
+  "text": "click on this obstacles folder obstacles"
+ },
+ {
+  "start": 536.64,
+  "end": 540.71,
+  "text": "test case folder and create test"
+ },
+ {
+  "start": 540.72,
+  "end": 544.87,
+  "text": "case and paste"
+ },
+ {
+  "start": 544.88,
+  "end": 549.71,
+  "text": "the and name the test case with obstacle"
+ },
+ {
+  "start": 549.72,
+  "end": 553.55,
+  "text": "name double click on this now let us"
+ },
+ {
+  "start": 553.56,
+  "end": 555.509,
+  "text": "automate the test case to automate the"
+ },
+ {
+  "start": 555.519,
+  "end": 559.35,
+  "text": "test case what is the method that you"
+ },
+ {
+  "start": 559.36,
+  "end": 561.67,
+  "text": "would like to use so if You observe"
+ },
+ {
+  "start": 561.68,
+  "end": 564.99,
+  "text": "closely first I'm going to perform"
+ },
+ {
+  "start": 565.0,
+  "end": 568.87,
+  "text": "action either swap or next for the first"
+ },
+ {
+  "start": 568.88,
+  "end": 570.31,
+  "text": "two numbers"
+ },
+ {
+  "start": 570.32,
+  "end": 572.19,
+  "text": "and then again I'm going to perform"
+ },
+ {
+  "start": 572.2,
+  "end": 576.389,
+  "text": "strap or next for the second two pair of"
+ },
+ {
+  "start": 576.399,
+  "end": 578.71,
+  "text": "numbers so like that I'm going to keep"
+ },
+ {
+  "start": 578.72,
+  "end": 581.71,
+  "text": "going until all the numbers have sorted"
+ },
+ {
+  "start": 581.72,
+  "end": 585.71,
+  "text": "that means I can use I can use the loops"
+ },
+ {
+  "start": 585.72,
+  "end": 587.87,
+  "text": "okay so let us go back here"
+ },
+ {
+  "start": 587.88,
+  "end": 593.55,
+  "text": "now right click and select do statement"
+ },
+ {
+  "start": 593.56,
+  "end": 597.949,
+  "text": "here create do statement select this one"
+ },
+ {
+  "start": 597.959,
+  "end": 599.91,
+  "text": "so under do statement"
+ },
+ {
+  "start": 599.92,
+  "end": 602.15,
+  "text": "you will have a loop and"
+ },
+ {
+  "start": 602.16,
+  "end": 606.509,
+  "text": "condition now under Loop let me first"
+ },
+ {
+  "start": 606.519,
+  "end": 609.79,
+  "text": "introduce weight let me introduce a"
+ },
+ {
+  "start": 609.8,
+  "end": 613.87,
+  "text": "weight right click here ADD test step"
+ },
+ {
+  "start": 613.88,
+  "end": 617.79,
+  "text": "I'm going to say weight T box weight I'm"
+ },
+ {
+  "start": 617.8,
+  "end": 621.47,
+  "text": "going to wait"
+ },
+ {
+  "start": 625.389,
+  "end": 625.399,
+  "text": "for 500 milliseconds okay"
+ },
+ {
+  "start": 625.399,
+  "end": 628.79,
+  "text": "so why I'm introducing weight because to"
+ },
+ {
+  "start": 628.8,
+  "end": 631.55,
+  "text": "before you you perform any action within"
+ },
+ {
+  "start": 631.56,
+  "end": 634.91,
+  "text": "the loop I want to introduce a weight"
+ },
+ {
+  "start": 634.92,
+  "end": 641.949,
+  "text": "now my first Loop is to check your inner"
+ },
+ {
+  "start": 641.959,
+  "end": 647.55,
+  "text": "text or to capture the inner text into a"
+ },
+ {
+  "start": 647.56,
+  "end": 650.31,
+  "text": "buffer what I'm going to do here I'm"
+ },
+ {
+  "start": 650.32,
+  "end": 657.43,
+  "text": "going to Simply drag this module into a"
+ },
+ {
+  "start": 661.949,
+  "end": 661.959,
+  "text": "loop first I come to my first bubble"
+ },
+ {
+  "start": 661.959,
+  "end": 666.79,
+  "text": "right now I would like to buffer the"
+ },
+ {
+  "start": 666.8,
+  "end": 670.269,
+  "text": "first number within the bubble I would"
+ },
+ {
+  "start": 670.279,
+  "end": 673.23,
+  "text": "like to buffer the first number into a"
+ },
+ {
+  "start": 673.24,
+  "end": 676.03,
+  "text": "variable so here what I'm going to do"
+ },
+ {
+  "start": 676.04,
+  "end": 677.55,
+  "text": "expand"
+ },
+ {
+  "start": 677.56,
+  "end": 681.03,
+  "text": "this and here I would like to buffer the"
+ },
+ {
+  "start": 681.04,
+  "end": 683.069,
+  "text": "number how can I buffer the number by"
+ },
+ {
+  "start": 683.079,
+  "end": 684.629,
+  "text": "using inner"
+ },
+ {
+  "start": 684.639,
+  "end": 689.829,
+  "text": "text inner text equal to here"
+ },
+ {
+  "start": 689.839,
+  "end": 692.91,
+  "text": "I'm going to buffer into num one"
+ },
+ {
+  "start": 692.92,
+  "end": 699.67,
+  "text": "variable and your action mode should be"
+ },
+ {
+  "start": 702.629,
+  "end": 702.639,
+  "text": "buffer now I have buffered your first"
+ },
+ {
+  "start": 702.639,
+  "end": 706.069,
+  "text": "number into a variable so once that is"
+ },
+ {
+  "start": 706.079,
+  "end": 709.15,
+  "text": "done I have to compare"
+ },
+ {
+  "start": 709.16,
+  "end": 714.67,
+  "text": "if your second number is less than first"
+ },
+ {
+  "start": 714.68,
+  "end": 717.629,
+  "text": "number if your second number is less"
+ },
+ {
+  "start": 717.639,
+  "end": 720.03,
+  "text": "than first number you need to click on"
+ },
+ {
+  "start": 720.04,
+  "end": 722.99,
+  "text": "Swap so how can we do that I would like"
+ },
+ {
+  "start": 723.0,
+  "end": 726.91,
+  "text": "to introduce IFL statement so again come"
+ },
+ {
+  "start": 726.92,
+  "end": 731.069,
+  "text": "to Loop right click and here select"
+ },
+ {
+  "start": 731.079,
+  "end": 733.069,
+  "text": "create if"
+ },
+ {
+  "start": 733.079,
+  "end": 736.59,
+  "text": "statement so under if statement what I"
+ },
+ {
+  "start": 736.6,
+  "end": 741.11,
+  "text": "would like to do now I have to check if"
+ },
+ {
+  "start": 741.12,
+  "end": 744.389,
+  "text": "your second number is less than your"
+ },
+ {
+  "start": 744.399,
+  "end": 745.829,
+  "text": "first"
+ },
+ {
+  "start": 745.839,
+  "end": 749.31,
+  "text": "number let's come here I'm going to"
+ },
+ {
+  "start": 749.32,
+  "end": 754.47,
+  "text": "again drag this entire module onto the"
+ },
+ {
+  "start": 754.48,
+  "end": 758.069,
+  "text": "condition so here now I'm going to make"
+ },
+ {
+  "start": 758.079,
+  "end": 763.31,
+  "text": "sure that rename this step as check if"
+ },
+ {
+  "start": 763.32,
+  "end": 767.59,
+  "text": "second number is less"
+ },
+ {
+  "start": 767.6,
+  "end": 770.269,
+  "text": "than"
+ },
+ {
+  "start": 770.279,
+  "end": 774.55,
+  "text": "first so to so to compare that what I'm"
+ },
+ {
+  "start": 774.56,
+  "end": 777.43,
+  "text": "going to do come to your second number"
+ },
+ {
+  "start": 777.44,
+  "end": 779.189,
+  "text": "because first number we have already"
+ },
+ {
+  "start": 779.199,
+  "end": 783.23,
+  "text": "captured into a buffer so second number"
+ },
+ {
+  "start": 783.24,
+  "end": 786.31,
+  "text": "inner"
+ },
+ {
+  "start": 788.15,
+  "end": 788.16,
+  "text": "text"
+ },
+ {
+  "start": 788.16,
+  "end": 791.11,
+  "text": "is less than so what I'm going to do if"
+ },
+ {
+  "start": 791.12,
+  "end": 794.47,
+  "text": "the second number inner text is less"
+ },
+ {
+  "start": 794.48,
+  "end": 795.43,
+  "text": "than"
+ },
+ {
+  "start": 795.44,
+  "end": 798.829,
+  "text": "your first number which is stored under"
+ },
+ {
+  "start": 798.839,
+  "end": 801.11,
+  "text": "buffer so hence what I'm going to do"
+ },
+ {
+  "start": 801.12,
+  "end": 803.269,
+  "text": "here first your data type needs to be"
+ },
+ {
+  "start": 803.279,
+  "end": 805.91,
+  "text": "changed okay change it to numeric that"
+ },
+ {
+  "start": 805.92,
+  "end": 807.949,
+  "text": "is first and foremost thing that you"
+ },
+ {
+  "start": 807.959,
+  "end": 810.269,
+  "text": "need to do and here"
+ },
+ {
+  "start": 810.279,
+  "end": 816.11,
+  "text": "now second number in N Text is less"
+ },
+ {
+  "start": 816.12,
+  "end": 819.31,
+  "text": "than your first number which is stored"
+ },
+ {
+  "start": 819.32,
+  "end": 823.47,
+  "text": "under buffer so to call the buffer open"
+ },
+ {
+  "start": 823.48,
+  "end": 826.43,
+  "text": "curly braces capital B open Square"
+ },
+ {
+  "start": 826.44,
+  "end": 828.269,
+  "text": "braces your"
+ },
+ {
+  "start": 828.279,
+  "end": 832.71,
+  "text": "buffer variable name n"
+ },
+ {
+  "start": 832.72,
+  "end": 835.829,
+  "text": "M1 close Square braces close curly"
+ },
+ {
+  "start": 835.839,
+  "end": 840.35,
+  "text": "braces so here what we are doing we are"
+ },
+ {
+  "start": 840.36,
+  "end": 843.629,
+  "text": "verifying if the inner text of your"
+ },
+ {
+  "start": 843.639,
+  "end": 848.47,
+  "text": "second number is less than the inner"
+ },
+ {
+  "start": 848.48,
+  "end": 850.87,
+  "text": "text of first number which we stored"
+ },
+ {
+  "start": 850.88,
+  "end": 854.31,
+  "text": "under buffer so we need to verify this"
+ },
+ {
+  "start": 854.32,
+  "end": 856.87,
+  "text": "just specify it as"
+ },
+ {
+  "start": 856.88,
+  "end": 861.31,
+  "text": "verify okay so if this condition is true"
+ },
+ {
+  "start": 861.32,
+  "end": 864.43,
+  "text": "then what we need to do we need to swap"
+ },
+ {
+  "start": 864.44,
+  "end": 868.87,
+  "text": "it so hence if this condition is true"
+ },
+ {
+  "start": 868.88,
+  "end": 872.23,
+  "text": "then then again under then drag this"
+ },
+ {
+  "start": 872.24,
+  "end": 874.91,
+  "text": "module onto then"
+ },
+ {
+  "start": 874.92,
+  "end": 879.43,
+  "text": "condition and here you need to click on"
+ },
+ {
+  "start": 879.44,
+  "end": 882.43,
+  "text": "Swap button so here I'm going to rename"
+ },
+ {
+  "start": 882.44,
+  "end": 884.749,
+  "text": "this"
+ },
+ {
+  "start": 887.99,
+  "end": 888.0,
+  "text": "as click"
+ },
+ {
+  "start": 888.0,
+  "end": 890.269,
+  "text": "swap so"
+ },
+ {
+  "start": 890.279,
+  "end": 895.389,
+  "text": "here against swap enter X so what are we"
+ },
+ {
+  "start": 895.399,
+  "end": 898.509,
+  "text": "doing here under if condition I'm first"
+ },
+ {
+  "start": 898.519,
+  "end": 901.23,
+  "text": "verifying the the condition if your"
+ },
+ {
+  "start": 901.24,
+  "end": 904.47,
+  "text": "second number is less than first number"
+ },
+ {
+  "start": 904.48,
+  "end": 906.35,
+  "text": "then I'm clicking on"
+ },
+ {
+  "start": 906.36,
+  "end": 909.99,
+  "text": "Swap else you need to click on where you"
+ },
+ {
+  "start": 910.0,
+  "end": 914.389,
+  "text": "need to click on next button so for that"
+ },
+ {
+  "start": 914.399,
+  "end": 918.949,
+  "text": "again what I'm going to do here"
+ },
+ {
+  "start": 918.959,
+  "end": 924.47,
+  "text": "simply drag this module onto your"
+ },
+ {
+  "start": 924.48,
+  "end": 927.47,
+  "text": "Loop and"
+ },
+ {
+  "start": 927.48,
+  "end": 931.67,
+  "text": "here after if condition if this"
+ },
+ {
+  "start": 931.68,
+  "end": 933.189,
+  "text": "condition is not"
+ },
+ {
+  "start": 933.199,
+  "end": 937.71,
+  "text": "satisfying then you need to click next"
+ },
+ {
+  "start": 937.72,
+  "end": 941.269,
+  "text": "button I came out of if statement okay"
+ },
+ {
+  "start": 941.279,
+  "end": 944.67,
+  "text": "so here"
+ },
+ {
+  "start": 948.43,
+  "end": 948.44,
+  "text": "simply enter X against next button so"
+ },
+ {
+  "start": 948.44,
+  "end": 952.47,
+  "text": "that is done and then I'm going to"
+ },
+ {
+  "start": 952.48,
+  "end": 955.949,
+  "text": "repeat this until when I'm going to"
+ },
+ {
+  "start": 955.959,
+  "end": 959.03,
+  "text": "repeat all this every time again it is"
+ },
+ {
+  "start": 959.04,
+  "end": 960.749,
+  "text": "going to verify if the right is less"
+ },
+ {
+  "start": 960.759,
+  "end": 963.829,
+  "text": "than left or not if right is not less"
+ },
+ {
+  "start": 963.839,
+  "end": 965.749,
+  "text": "than left then you need to click on next"
+ },
+ {
+  "start": 965.759,
+  "end": 970.069,
+  "text": "right so I have to do"
+ },
+ {
+  "start": 970.079,
+  "end": 976.11,
+  "text": "this until when until my button is"
+ },
+ {
+  "start": 976.12,
+  "end": 978.71,
+  "text": "displaying as keep"
+ },
+ {
+  "start": 978.72,
+  "end": 982.47,
+  "text": "sorting once everything is sorted then"
+ },
+ {
+  "start": 982.48,
+  "end": 984.509,
+  "text": "your button will be changing to"
+ },
+ {
+  "start": 984.519,
+  "end": 986.99,
+  "text": "something else instead of keep sorting"
+ },
+ {
+  "start": 987.0,
+  "end": 989.67,
+  "text": "so that's why what is my condition for"
+ },
+ {
+  "start": 989.68,
+  "end": 993.389,
+  "text": "this do Loop statement just simply drag"
+ },
+ {
+  "start": 993.399,
+  "end": 998.71,
+  "text": "this and drop here to the do condition"
+ },
+ {
+  "start": 998.72,
+  "end": 1004.629,
+  "text": "and here rename this as check if"
+ },
+ {
+  "start": 1004.639,
+  "end": 1009.069,
+  "text": "sorting needed or not okay how can I"
+ },
+ {
+  "start": 1009.079,
+  "end": 1011.47,
+  "text": "check that expand this"
+ },
+ {
+  "start": 1011.48,
+  "end": 1015.23,
+  "text": "one I have to perform this"
+ },
+ {
+  "start": 1015.24,
+  "end": 1020.11,
+  "text": "looping until I have the inner text of"
+ },
+ {
+  "start": 1020.12,
+  "end": 1023.309,
+  "text": "this button as keep sorting so simply"
+ },
+ {
+  "start": 1023.319,
+  "end": 1028.429,
+  "text": "come here verify the inner text inner"
+ },
+ {
+  "start": 1028.439,
+  "end": 1030.669,
+  "text": "text equal"
+ },
+ {
+  "start": 1030.679,
+  "end": 1032.71,
+  "text": "to"
+ },
+ {
+  "start": 1032.72,
+  "end": 1035.909,
+  "text": "keep"
+ },
+ {
+  "start": 1038.63,
+  "end": 1038.64,
+  "text": "sorting so here I'm going to select it"
+ },
+ {
+  "start": 1038.64,
+  "end": 1042.069,
+  "text": "as"
+ },
+ {
+  "start": 1045.069,
+  "end": 1045.079,
+  "text": "verify so let me explain the same thing"
+ },
+ {
+  "start": 1045.079,
+  "end": 1050.669,
+  "text": "again here now okay"
+ },
+ {
+  "start": 1053.31,
+  "end": 1053.32,
+  "text": "so what we are doing first I have"
+ },
+ {
+  "start": 1053.32,
+  "end": 1056.11,
+  "text": "introduced a dual"
+ },
+ {
+  "start": 1056.12,
+  "end": 1060.71,
+  "text": "Loop so do statement will have Loop"
+ },
+ {
+  "start": 1060.72,
+  "end": 1064.23,
+  "text": "statement and condition what is the loop"
+ },
+ {
+  "start": 1064.24,
+  "end": 1066.11,
+  "text": "I'm asking tasar to"
+ },
+ {
+  "start": 1066.12,
+  "end": 1069.909,
+  "text": "perform sequence of operations under"
+ },
+ {
+  "start": 1069.919,
+  "end": 1075.07,
+  "text": "Loop first I am buffering the first"
+ },
+ {
+  "start": 1075.08,
+  "end": 1078.99,
+  "text": "number within the bubble so let me read"
+ },
+ {
+  "start": 1079.0,
+  "end": 1080.59,
+  "text": "name"
+ },
+ {
+  "start": 1080.6,
+  "end": 1084.51,
+  "text": "this"
+ },
+ {
+  "start": 1086.07,
+  "end": 1086.08,
+  "text": "as"
+ },
+ {
+  "start": 1086.08,
+  "end": 1090.27,
+  "text": "buffer the first"
+ },
+ {
+  "start": 1090.28,
+  "end": 1093.23,
+  "text": "number once I buffer the first"
+ },
+ {
+  "start": 1093.24,
+  "end": 1098.39,
+  "text": "number then I am verifying if the second"
+ },
+ {
+  "start": 1098.4,
+  "end": 1100.87,
+  "text": "number is less than first number by"
+ },
+ {
+  "start": 1100.88,
+  "end": 1103.669,
+  "text": "using IF else statement that's why"
+ },
+ {
+  "start": 1103.679,
+  "end": 1107.27,
+  "text": "within the loop I have introduced IFL"
+ },
+ {
+  "start": 1107.28,
+  "end": 1111.71,
+  "text": "statement how I'm ifying I am verifying"
+ },
+ {
+  "start": 1111.72,
+  "end": 1114.11,
+  "text": "the inner text of Second"
+ },
+ {
+  "start": 1114.12,
+  "end": 1117.59,
+  "text": "number is less than your first number"
+ },
+ {
+  "start": 1117.6,
+  "end": 1120.149,
+  "text": "which is stored under buffer once that"
+ },
+ {
+  "start": 1120.159,
+  "end": 1124.95,
+  "text": "is done if condition meets then I am"
+ },
+ {
+  "start": 1124.96,
+  "end": 1126.27,
+  "text": "clicking on"
+ },
+ {
+  "start": 1126.28,
+  "end": 1129.63,
+  "text": "Swap and then come out of if"
+ },
+ {
+  "start": 1129.64,
+  "end": 1132.11,
+  "text": "statement if this condition does not"
+ },
+ {
+  "start": 1132.12,
+  "end": 1134.43,
+  "text": "meet you need to click on next"
+ },
+ {
+  "start": 1134.44,
+  "end": 1139.549,
+  "text": "button right so I'm repeating this Loop"
+ },
+ {
+  "start": 1139.559,
+  "end": 1143.87,
+  "text": "until I meet the condition where the"
+ },
+ {
+  "start": 1143.88,
+  "end": 1146.27,
+  "text": "button name is keep"
+ },
+ {
+  "start": 1146.28,
+  "end": 1149.909,
+  "text": "sorting so now let"
+ },
+ {
+  "start": 1149.919,
+  "end": 1154.27,
+  "text": "us change the status of your test case"
+ },
+ {
+  "start": 1154.28,
+  "end": 1155.71,
+  "text": "as"
+ },
+ {
+  "start": 1155.72,
+  "end": 1159.07,
+  "text": "completed save the test case let's go"
+ },
+ {
+  "start": 1159.08,
+  "end": 1163.43,
+  "text": "back to application let me click on try"
+ },
+ {
+  "start": 1163.44,
+  "end": 1167.39,
+  "text": "again so now right click and run in"
+ },
+ {
+  "start": 1167.4,
+  "end": 1179.59,
+  "text": "scratchbook"
+ },
+ {
+  "start": 1182.549,
+  "end": 1182.559,
+  "text": "now you can see here it is performing"
+ },
+ {
+  "start": 1182.559,
+  "end": 1186.549,
+  "text": "swap if your second number is less than"
+ },
+ {
+  "start": 1186.559,
+  "end": 1189.27,
+  "text": "your first number and it is clicking on"
+ },
+ {
+  "start": 1189.28,
+  "end": 1193.63,
+  "text": "next if the condition does not meet so"
+ },
+ {
+  "start": 1193.64,
+  "end": 1197.47,
+  "text": "it should sort all the numbers you can"
+ },
+ {
+  "start": 1197.48,
+  "end": 1199.669,
+  "text": "see here now"
+ },
+ {
+  "start": 1199.679,
+  "end": 1201.19,
+  "text": "Till There is one number which is not"
+ },
+ {
+  "start": 1201.2,
+  "end": 1203.87,
+  "text": "sorting in correct sort"
+ },
+ {
+  "start": 1203.88,
+  "end": 1208.63,
+  "text": "order so now this is done that means the"
+ },
+ {
+  "start": 1208.64,
+  "end": 1212.11,
+  "text": "test case whatever we automated is"
+ },
+ {
+  "start": 1212.12,
+  "end": 1214.83,
+  "text": "correctly working see now you can now"
+ },
+ {
+  "start": 1214.84,
+  "end": 1219.23,
+  "text": "you can see 1 2 3 4 5 6 7 8 9 so let me"
+ },
+ {
+  "start": 1219.24,
+  "end": 1222.35,
+  "text": "try again let me rerun this again okay"
+ },
+ {
+  "start": 1222.36,
+  "end": 1225.669,
+  "text": "let's go back here right click and run"
+ },
+ {
+  "start": 1225.679,
+  "end": 1237.029,
+  "text": "in scratchbook"
+ },
+ {
+  "start": 1251.07,
+  "end": 1251.08,
+  "text": "numbers based on the condition that we"
+ },
+ {
+  "start": 1251.08,
+  "end": 1255.789,
+  "text": "entered if the right number is less than"
+ },
+ {
+  "start": 1255.799,
+  "end": 1257.909,
+  "text": "left number then it is performing swap"
+ },
+ {
+  "start": 1257.919,
+  "end": 1259.99,
+  "text": "otherwise it is per performing next so"
+ },
+ {
+  "start": 1260.0,
+  "end": 1262.39,
+  "text": "now you can see all the numbers are"
+ },
+ {
+  "start": 1262.4,
+  "end": 1263.63,
+  "text": "sorted"
+ },
+ {
+  "start": 1263.64,
+  "end": 1269.27,
+  "text": "correctly so the do Loop is quitting as"
+ },
+ {
+  "start": 1269.28,
+  "end": 1271.95,
+  "text": "soon as your button name changes to"
+ },
+ {
+  "start": 1271.96,
+  "end": 1274.99,
+  "text": "perfect you did it that means keep"
+ },
+ {
+  "start": 1275.0,
+  "end": 1278.87,
+  "text": "sorting inner text is changed to perfect"
+ },
+ {
+  "start": 1278.88,
+  "end": 1281.87,
+  "text": "you did it so that is when the loop will"
+ },
+ {
+  "start": 1281.88,
+  "end": 1282.75,
+  "text": "come"
+ },
+ {
+  "start": 1282.76,
+  "end": 1286.31,
+  "text": "out so hope you all understand the"
+ },
+ {
+  "start": 1286.32,
+  "end": 1289.789,
+  "text": "concept so this is really very very"
+ },
+ {
+  "start": 1289.799,
+  "end": 1292.39,
+  "text": "important how can you sort all the"
+ },
+ {
+  "start": 1292.4,
+  "end": 1296.87,
+  "text": "numbers by using two Loop and then if"
+ },
+ {
+  "start": 1296.88,
+  "end": 1299.31,
+  "text": "then statements so if you have any"
+ },
+ {
+  "start": 1299.32,
+  "end": 1300.63,
+  "text": "queries leave your queries in the"
+ },
+ {
+  "start": 1300.64,
+  "end": 1302.23,
+  "text": "comment box I'll try to respond to your"
+ },
+ {
+  "start": 1302.24,
+  "end": 1303.87,
+  "text": "queries thank"
+ },
+ {
+  "start": 1303.88,
+  "end": 1307.71,
+  "text": "you hope you all understand how can we"
+ },
+ {
+  "start": 1307.72,
+  "end": 1311.87,
+  "text": "solve an obstacle where you need to sort"
+ },
+ {
+  "start": 1311.88,
+  "end": 1313.83,
+  "text": "the numbers that are displaying on"
+ },
+ {
+  "start": 1313.84,
+  "end": 1317.35,
+  "text": "screen by using do and while loop"
+ },
+ {
+  "start": 1317.36,
+  "end": 1320.669,
+  "text": "methods and and if else"
+ },
+ {
+  "start": 1320.679,
+  "end": 1323.39,
+  "text": "statements please do subscribe to the"
+ },
+ {
+  "start": 1323.4,
+  "end": 1325.549,
+  "text": "channel click on Bell icon you'll"
+ },
+ {
+  "start": 1325.559,
+  "end": 1328.269,
+  "text": "receive notifications whenever I publish"
+ },
+ {
+  "start": 1328.279,
+  "end": 1331.39,
+  "text": "more videos don't forget to like and"
+ },
+ {
+  "start": 1331.4,
+  "end": 1338.95,
+  "text": "share the video thank you"
+ }
+]

@@ -1,0 +1,4272 @@
+[
+ {
+  "start": 1.68,
+  "end": 4.85,
+  "text": "foreign"
+ },
+ {
+  "start": 17.15,
+  "end": 17.16,
+  "text": "automation tutorial"
+ },
+ {
+  "start": 17.16,
+  "end": 20.15,
+  "text": "as you all know I've already published"
+ },
+ {
+  "start": 20.16,
+  "end": 22.79,
+  "text": "13 YouTube videos"
+ },
+ {
+  "start": 22.8,
+  "end": 24.89,
+  "text": "covering different concepts of"
+ },
+ {
+  "start": 24.9,
+  "end": 28.929,
+  "text": "tricentious Tasker latest version 16."
+ },
+ {
+  "start": 28.939,
+  "end": 33.95,
+  "text": "this is our 14th lesson where I'm gonna"
+ },
+ {
+  "start": 33.96,
+  "end": 35.51,
+  "text": "teach you"
+ },
+ {
+  "start": 35.52,
+  "end": 38.87,
+  "text": "how can we use libraries"
+ },
+ {
+  "start": 38.88,
+  "end": 43.069,
+  "text": "and reusable test blocks while"
+ },
+ {
+  "start": 43.079,
+  "end": 46.49,
+  "text": "automating your test cases by using"
+ },
+ {
+  "start": 46.5,
+  "end": 50.81,
+  "text": "latest version Tyson test Tasker 16."
+ },
+ {
+  "start": 50.82,
+  "end": 52.549,
+  "text": "I would recommend you guys to please"
+ },
+ {
+  "start": 52.559,
+  "end": 55.97,
+  "text": "visit my previous videos before you"
+ },
+ {
+  "start": 55.98,
+  "end": 57.529,
+  "text": "watch this session"
+ },
+ {
+  "start": 57.539,
+  "end": 59.209,
+  "text": "which will be helpful for you to"
+ },
+ {
+  "start": 59.219,
+  "end": 62.29,
+  "text": "understand the concepts better way"
+ },
+ {
+  "start": 62.3,
+  "end": 65.929,
+  "text": "please do subscribe to the channel click"
+ },
+ {
+  "start": 65.939,
+  "end": 67.55,
+  "text": "on Bell icon you'll receive"
+ },
+ {
+  "start": 67.56,
+  "end": 70.13,
+  "text": "notifications whenever I publish more"
+ },
+ {
+  "start": 70.14,
+  "end": 70.969,
+  "text": "videos"
+ },
+ {
+  "start": 70.979,
+  "end": 73.789,
+  "text": "thank you"
+ },
+ {
+  "start": 76.609,
+  "end": 76.619,
+  "text": "okay so what is our agenda item"
+ },
+ {
+  "start": 76.619,
+  "end": 80.21,
+  "text": "so libraries and reusable tester blocks"
+ },
+ {
+  "start": 80.22,
+  "end": 83.21,
+  "text": "so what is Library so in Tasker library"
+ },
+ {
+  "start": 83.22,
+  "end": 86.39,
+  "text": "is called as test clip Library test step"
+ },
+ {
+  "start": 86.4,
+  "end": 87.77,
+  "text": "Library"
+ },
+ {
+  "start": 87.78,
+  "end": 89.51,
+  "text": "okay"
+ },
+ {
+  "start": 89.52,
+  "end": 91.85,
+  "text": "so why do we need this test step"
+ },
+ {
+  "start": 91.86,
+  "end": 94.31,
+  "text": "libraries"
+ },
+ {
+  "start": 94.32,
+  "end": 97.069,
+  "text": "see when you are automating or when you"
+ },
+ {
+  "start": 97.079,
+  "end": 100.13,
+  "text": "are executing multiple test cases"
+ },
+ {
+  "start": 100.14,
+  "end": 104.569,
+  "text": "there will be lot of steps or series of"
+ },
+ {
+  "start": 104.579,
+  "end": 107.99,
+  "text": "steps sequence of steps that you will be"
+ },
+ {
+  "start": 108.0,
+  "end": 110.149,
+  "text": "reusing"
+ },
+ {
+  "start": 110.159,
+  "end": 113.569,
+  "text": "while automating your test cases"
+ },
+ {
+  "start": 113.579,
+  "end": 116.149,
+  "text": "so let's assume in our previous session"
+ },
+ {
+  "start": 116.159,
+  "end": 118.55,
+  "text": "we automated"
+ },
+ {
+  "start": 118.56,
+  "end": 119.929,
+  "text": "the"
+ },
+ {
+  "start": 119.939,
+  "end": 122.03,
+  "text": "shopping"
+ },
+ {
+  "start": 122.04,
+  "end": 125.09,
+  "text": "cost shopping cart right where we"
+ },
+ {
+  "start": 125.1,
+  "end": 127.389,
+  "text": "validated all the prices"
+ },
+ {
+  "start": 127.399,
+  "end": 130.609,
+  "text": "including total price of your order"
+ },
+ {
+  "start": 130.619,
+  "end": 131.99,
+  "text": "but"
+ },
+ {
+  "start": 132.0,
+  "end": 133.97,
+  "text": "in that particular test case we have"
+ },
+ {
+  "start": 133.98,
+  "end": 139.27,
+  "text": "used credit card as a payment method"
+ },
+ {
+  "start": 139.28,
+  "end": 141.229,
+  "text": "what if"
+ },
+ {
+  "start": 141.239,
+  "end": 144.53,
+  "text": "I want to use a payment method as check"
+ },
+ {
+  "start": 144.54,
+  "end": 147.17,
+  "text": "or money order what happens your total"
+ },
+ {
+  "start": 147.18,
+  "end": 149.69,
+  "text": "cost will be changed because there will"
+ },
+ {
+  "start": 149.7,
+  "end": 152.449,
+  "text": "be additional payment method fee that"
+ },
+ {
+  "start": 152.459,
+  "end": 154.07,
+  "text": "will be applied"
+ },
+ {
+  "start": 154.08,
+  "end": 156.29,
+  "text": "so that means whatever the test case"
+ },
+ {
+  "start": 156.3,
+  "end": 160.97,
+  "text": "that you automated earlier"
+ },
+ {
+  "start": 163.07,
+  "end": 163.08,
+  "text": "has to be modified"
+ },
+ {
+  "start": 163.08,
+  "end": 166.309,
+  "text": "but there are a lot of steps that are"
+ },
+ {
+  "start": 166.319,
+  "end": 170.15,
+  "text": "same logging in is same"
+ },
+ {
+  "start": 170.16,
+  "end": 173.57,
+  "text": "and then order blue jeans is same"
+ },
+ {
+  "start": 173.58,
+  "end": 177.17,
+  "text": "checkout process is same but while"
+ },
+ {
+  "start": 177.18,
+  "end": 179.27,
+  "text": "checking out you are changing the"
+ },
+ {
+  "start": 179.28,
+  "end": 181.79,
+  "text": "payment method and while verifying the"
+ },
+ {
+  "start": 181.8,
+  "end": 184.19,
+  "text": "prices you need to verify some"
+ },
+ {
+  "start": 184.2,
+  "end": 186.77,
+  "text": "additional fees so there are two steps"
+ },
+ {
+  "start": 186.78,
+  "end": 188.75,
+  "text": "that is that are changing but rest all"
+ },
+ {
+  "start": 188.76,
+  "end": 190.009,
+  "text": "same"
+ },
+ {
+  "start": 190.019,
+  "end": 192.53,
+  "text": "so in that case"
+ },
+ {
+  "start": 192.54,
+  "end": 195.649,
+  "text": "you need not to recreate entire test"
+ },
+ {
+  "start": 195.659,
+  "end": 198.05,
+  "text": "case or you need not to automate entire"
+ },
+ {
+  "start": 198.06,
+  "end": 199.13,
+  "text": "test case"
+ },
+ {
+  "start": 199.14,
+  "end": 203.57,
+  "text": "you just need to create Library"
+ },
+ {
+  "start": 203.58,
+  "end": 207.41,
+  "text": "where you can store reusable steps"
+ },
+ {
+  "start": 207.42,
+  "end": 210.29,
+  "text": "and the benefit is that whenever you"
+ },
+ {
+  "start": 210.3,
+  "end": 212.449,
+  "text": "want to use or reuse those reusable"
+ },
+ {
+  "start": 212.459,
+  "end": 215.089,
+  "text": "steps you can simply drag and drop into"
+ },
+ {
+  "start": 215.099,
+  "end": 217.85,
+  "text": "the your test case"
+ },
+ {
+  "start": 217.86,
+  "end": 221.149,
+  "text": "and what is reusable tester block"
+ },
+ {
+  "start": 221.159,
+  "end": 225.289,
+  "text": "the steps inside the Library are called"
+ },
+ {
+  "start": 225.299,
+  "end": 228.05,
+  "text": "reusable desktop blocks"
+ },
+ {
+  "start": 228.06,
+  "end": 231.229,
+  "text": "so these steps can be reused throughout"
+ },
+ {
+  "start": 231.239,
+  "end": 233.93,
+  "text": "multiple test cases once you identify"
+ },
+ {
+  "start": 233.94,
+  "end": 238.009,
+  "text": "reusable tested blocks and drag and drop"
+ },
+ {
+  "start": 238.019,
+  "end": 241.67,
+  "text": "them into Library you can reuse them"
+ },
+ {
+  "start": 241.68,
+  "end": 244.369,
+  "text": "throughout multiple test cases"
+ },
+ {
+  "start": 244.379,
+  "end": 247.19,
+  "text": "and libraries can contain any number of"
+ },
+ {
+  "start": 247.2,
+  "end": 250.729,
+  "text": "reusable test blocks okay so I'm gonna"
+ },
+ {
+  "start": 250.739,
+  "end": 254.39,
+  "text": "teach you how to create libraries and"
+ },
+ {
+  "start": 254.4,
+  "end": 258.65,
+  "text": "how to reuse these tester blogs"
+ },
+ {
+  "start": 258.66,
+  "end": 262.43,
+  "text": "shortly by using Tasker okay"
+ },
+ {
+  "start": 262.44,
+  "end": 264.83,
+  "text": "so what I am going to teach you I'm"
+ },
+ {
+  "start": 264.84,
+  "end": 266.93,
+  "text": "gonna teach you"
+ },
+ {
+  "start": 266.94,
+  "end": 270.95,
+  "text": "creation of a new test case using"
+ },
+ {
+  "start": 270.96,
+  "end": 273.409,
+  "text": "reusable tester blocks"
+ },
+ {
+  "start": 273.419,
+  "end": 276.409,
+  "text": "and we are going to automate the new"
+ },
+ {
+  "start": 276.419,
+  "end": 278.81,
+  "text": "test case with these reusable tester"
+ },
+ {
+  "start": 278.82,
+  "end": 279.71,
+  "text": "blocks"
+ },
+ {
+  "start": 279.72,
+  "end": 282.53,
+  "text": "and also I'm gonna teach you how to"
+ },
+ {
+  "start": 282.54,
+  "end": 285.37,
+  "text": "modify a reusable test block reference"
+ },
+ {
+  "start": 285.38,
+  "end": 288.83,
+  "text": "using resolve reference method"
+ },
+ {
+  "start": 288.84,
+  "end": 291.409,
+  "text": "so whenever you want to modify your"
+ },
+ {
+  "start": 291.419,
+  "end": 293.51,
+  "text": "usable test block"
+ },
+ {
+  "start": 293.52,
+  "end": 296.87,
+  "text": "you cannot simply modify because if you"
+ },
+ {
+  "start": 296.88,
+  "end": 299.749,
+  "text": "modify the reusable test block it is"
+ },
+ {
+  "start": 299.759,
+  "end": 302.51,
+  "text": "going to modify all the test cases"
+ },
+ {
+  "start": 302.52,
+  "end": 304.249,
+  "text": "that's why you need to resolve the"
+ },
+ {
+  "start": 304.259,
+  "end": 306.59,
+  "text": "reference and then do modification"
+ },
+ {
+  "start": 306.6,
+  "end": 309.409,
+  "text": "so now let's jump onto the system and"
+ },
+ {
+  "start": 309.419,
+  "end": 311.59,
+  "text": "see how can we"
+ },
+ {
+  "start": 311.6,
+  "end": 314.689,
+  "text": "automate a new test Case by using"
+ },
+ {
+  "start": 314.699,
+  "end": 317.57,
+  "text": "library and then by using reusable test"
+ },
+ {
+  "start": 317.58,
+  "end": 319.49,
+  "text": "blocks"
+ },
+ {
+  "start": 319.5,
+  "end": 324.05,
+  "text": "okay so this is my Tasker 16."
+ },
+ {
+  "start": 324.06,
+  "end": 328.49,
+  "text": "so before we discuss about"
+ },
+ {
+  "start": 328.5,
+  "end": 332.93,
+  "text": "libraries and reusable test blogs and"
+ },
+ {
+  "start": 332.94,
+  "end": 335.87,
+  "text": "before we use these concepts by"
+ },
+ {
+  "start": 335.88,
+  "end": 338.39,
+  "text": "automating one of the test case let's"
+ },
+ {
+  "start": 338.4,
+  "end": 340.249,
+  "text": "understand what is the test case that we"
+ },
+ {
+  "start": 340.259,
+  "end": 343.49,
+  "text": "automated in our previous session so if"
+ },
+ {
+  "start": 343.5,
+  "end": 346.37,
+  "text": "you remember in my previous session what"
+ },
+ {
+  "start": 346.38,
+  "end": 349.31,
+  "text": "we did we have validated the shipping"
+ },
+ {
+  "start": 349.32,
+  "end": 350.629,
+  "text": "cost how"
+ },
+ {
+  "start": 350.639,
+  "end": 352.61,
+  "text": "see we logged into"
+ },
+ {
+  "start": 352.62,
+  "end": 356.57,
+  "text": "our webshop demo webshop and then went"
+ },
+ {
+  "start": 356.58,
+  "end": 358.85,
+  "text": "to appearance and shoes"
+ },
+ {
+  "start": 358.86,
+  "end": 363.11,
+  "text": "and then click on blue jeans and here we"
+ },
+ {
+  "start": 363.12,
+  "end": 367.249,
+  "text": "added the quantity of 25 correct and we"
+ },
+ {
+  "start": 367.259,
+  "end": 369.05,
+  "text": "added to cart"
+ },
+ {
+  "start": 369.06,
+  "end": 371.51,
+  "text": "go to shopping cart"
+ },
+ {
+  "start": 371.52,
+  "end": 374.87,
+  "text": "agree to the terms click on checkout"
+ },
+ {
+  "start": 374.88,
+  "end": 377.09,
+  "text": "and here"
+ },
+ {
+  "start": 377.1,
+  "end": 380.629,
+  "text": "in checkout process we entered billing"
+ },
+ {
+  "start": 380.639,
+  "end": 382.67,
+  "text": "address"
+ },
+ {
+  "start": 382.68,
+  "end": 384.59,
+  "text": "shipping address"
+ },
+ {
+  "start": 384.6,
+  "end": 387.71,
+  "text": "we selected shipping method as ground"
+ },
+ {
+  "start": 387.72,
+  "end": 390.89,
+  "text": "and here payment method we selected as a"
+ },
+ {
+  "start": 390.9,
+  "end": 392.15,
+  "text": "credit card"
+ },
+ {
+  "start": 392.16,
+  "end": 395.689,
+  "text": "so now let's assume if I want to"
+ },
+ {
+  "start": 395.699,
+  "end": 397.67,
+  "text": "automate"
+ },
+ {
+  "start": 397.68,
+  "end": 399.89,
+  "text": "the test case"
+ },
+ {
+  "start": 399.9,
+  "end": 403.249,
+  "text": "where I need to use the payment method"
+ },
+ {
+  "start": 403.259,
+  "end": 406.249,
+  "text": "as check our money order instead of"
+ },
+ {
+  "start": 406.259,
+  "end": 409.51,
+  "text": "credit card"
+ },
+ {
+  "start": 412.85,
+  "end": 412.86,
+  "text": "check our money order right so earlier"
+ },
+ {
+  "start": 412.86,
+  "end": 415.43,
+  "text": "we selected credit card click that"
+ },
+ {
+  "start": 415.44,
+  "end": 416.749,
+  "text": "continue"
+ },
+ {
+  "start": 416.759,
+  "end": 419.21,
+  "text": "and then you provide your credit card"
+ },
+ {
+  "start": 419.22,
+  "end": 420.95,
+  "text": "name"
+ },
+ {
+  "start": 420.96,
+  "end": 423.65,
+  "text": "right you provide your credit so the"
+ },
+ {
+  "start": 423.66,
+  "end": 426.29,
+  "text": "credit card holder name and card number"
+ },
+ {
+  "start": 426.3,
+  "end": 428.629,
+  "text": "and the expiration date and click on"
+ },
+ {
+  "start": 428.639,
+  "end": 434.09,
+  "text": "continue right so here any card number"
+ },
+ {
+  "start": 434.1,
+  "end": 437.15,
+  "text": "that okay let's let's click on let's go"
+ },
+ {
+  "start": 437.16,
+  "end": 438.89,
+  "text": "to card number okay let's provide the"
+ },
+ {
+  "start": 438.9,
+  "end": 440.629,
+  "text": "card number also to understand properly"
+ },
+ {
+  "start": 440.639,
+  "end": 443.089,
+  "text": "okay checkout process"
+ },
+ {
+  "start": 443.099,
+  "end": 446.57,
+  "text": "and here we provided credit card number"
+ },
+ {
+  "start": 446.58,
+  "end": 448.129,
+  "text": "so basically the credit card information"
+ },
+ {
+  "start": 448.139,
+  "end": 449.99,
+  "text": "we provided let's take the credit card"
+ },
+ {
+  "start": 450.0,
+  "end": 451.73,
+  "text": "number here"
+ },
+ {
+  "start": 451.74,
+  "end": 454.07,
+  "text": "okay we provide the credit card number"
+ },
+ {
+  "start": 454.08,
+  "end": 457.55,
+  "text": "here and then provide your code and"
+ },
+ {
+  "start": 457.56,
+  "end": 458.87,
+  "text": "click on continue"
+ },
+ {
+  "start": 458.88,
+  "end": 461.99,
+  "text": "so when you click on continue here the"
+ },
+ {
+  "start": 462.0,
+  "end": 464.45,
+  "text": "charges whatever it is displaying it is"
+ },
+ {
+  "start": 464.46,
+  "end": 466.67,
+  "text": "based on credit card"
+ },
+ {
+  "start": 466.68,
+  "end": 469.309,
+  "text": "what if I select the payment method as"
+ },
+ {
+  "start": 469.319,
+  "end": 471.35,
+  "text": "check our money order then you will have"
+ },
+ {
+  "start": 471.36,
+  "end": 475.07,
+  "text": "some additional fee if I pay by using"
+ },
+ {
+  "start": 475.08,
+  "end": 479.629,
+  "text": "check our money order let's go back here"
+ },
+ {
+  "start": 479.639,
+  "end": 482.21,
+  "text": "let's change to check money order"
+ },
+ {
+  "start": 482.22,
+  "end": 486.589,
+  "text": "continue here the payment information is"
+ },
+ {
+  "start": 486.599,
+  "end": 489.17,
+  "text": "changed now you need not to provide your"
+ },
+ {
+  "start": 489.18,
+  "end": 492.29,
+  "text": "credit card details instead you will you"
+ },
+ {
+  "start": 492.3,
+  "end": 494.57,
+  "text": "will have a simple statement here I need"
+ },
+ {
+  "start": 494.58,
+  "end": 496.309,
+  "text": "to validate the statement and go to"
+ },
+ {
+  "start": 496.319,
+  "end": 499.969,
+  "text": "continue here if you see there is some"
+ },
+ {
+  "start": 499.979,
+  "end": 502.43,
+  "text": "additional fee called payment method"
+ },
+ {
+  "start": 502.44,
+  "end": 505.369,
+  "text": "additional fee because I used check our"
+ },
+ {
+  "start": 505.379,
+  "end": 507.71,
+  "text": "money order so whenever I use check our"
+ },
+ {
+  "start": 507.72,
+  "end": 510.49,
+  "text": "money order I want to validate the"
+ },
+ {
+  "start": 510.5,
+  "end": 513.769,
+  "text": "the prices additionally this payment"
+ },
+ {
+  "start": 513.779,
+  "end": 515.149,
+  "text": "method"
+ },
+ {
+  "start": 515.159,
+  "end": 517.969,
+  "text": "apart from your subtotal and shipping"
+ },
+ {
+  "start": 517.979,
+  "end": 520.55,
+  "text": "earlier we validated only subtotal and"
+ },
+ {
+  "start": 520.56,
+  "end": 523.07,
+  "text": "shipping correct but now you will have a"
+ },
+ {
+  "start": 523.08,
+  "end": 525.53,
+  "text": "payment method also so that means the"
+ },
+ {
+  "start": 525.54,
+  "end": 527.63,
+  "text": "prices will change based on the payment"
+ },
+ {
+  "start": 527.64,
+  "end": 530.75,
+  "text": "method that you enter"
+ },
+ {
+  "start": 530.76,
+  "end": 534.59,
+  "text": "so now if I want to automate the"
+ },
+ {
+  "start": 534.6,
+  "end": 536.99,
+  "text": "end-to-end test case"
+ },
+ {
+  "start": 537.0,
+  "end": 542.69,
+  "text": "to validate the prices of your entire"
+ },
+ {
+  "start": 542.7,
+  "end": 547.73,
+  "text": "shopping when you select money order"
+ },
+ {
+  "start": 547.74,
+  "end": 550.37,
+  "text": "then what is the approach I need to take"
+ },
+ {
+  "start": 550.38,
+  "end": 552.41,
+  "text": "I already automated the test cases of"
+ },
+ {
+  "start": 552.42,
+  "end": 555.53,
+  "text": "credit card now I I need to automate the"
+ },
+ {
+  "start": 555.54,
+  "end": 558.949,
+  "text": "test case of money order okay so if you"
+ },
+ {
+  "start": 558.959,
+  "end": 561.47,
+  "text": "see here this is the test case that we"
+ },
+ {
+  "start": 561.48,
+  "end": 564.05,
+  "text": "automated by using credit card"
+ },
+ {
+  "start": 564.06,
+  "end": 566.81,
+  "text": "now I need to want automate another test"
+ },
+ {
+  "start": 566.82,
+  "end": 568.73,
+  "text": "case with money order so what is the"
+ },
+ {
+  "start": 568.74,
+  "end": 570.35,
+  "text": "approach that we need to take"
+ },
+ {
+  "start": 570.36,
+  "end": 574.31,
+  "text": "so that is where the libraries and"
+ },
+ {
+  "start": 574.32,
+  "end": 576.71,
+  "text": "reusable touch step blocks comes into"
+ },
+ {
+  "start": 576.72,
+  "end": 579.43,
+  "text": "picture because"
+ },
+ {
+  "start": 579.44,
+  "end": 581.63,
+  "text": "when you are changing your payment"
+ },
+ {
+  "start": 581.64,
+  "end": 584.81,
+  "text": "method right the all the steps that we"
+ },
+ {
+  "start": 584.82,
+  "end": 586.55,
+  "text": "follow"
+ },
+ {
+  "start": 586.56,
+  "end": 588.17,
+  "text": "like login"
+ },
+ {
+  "start": 588.18,
+  "end": 589.97,
+  "text": "is same"
+ },
+ {
+  "start": 589.98,
+  "end": 592.31,
+  "text": "going to a parental tube is Operation"
+ },
+ {
+  "start": 592.32,
+  "end": 594.47,
+  "text": "shoes is same"
+ },
+ {
+  "start": 594.48,
+  "end": 596.81,
+  "text": "adding your"
+ },
+ {
+  "start": 596.82,
+  "end": 599.03,
+  "text": "blue jeans is same"
+ },
+ {
+  "start": 599.04,
+  "end": 601.91,
+  "text": "go to shipping cart that is also saying"
+ },
+ {
+  "start": 601.92,
+  "end": 603.949,
+  "text": "agreeing to the terms that is also same"
+ },
+ {
+  "start": 603.959,
+  "end": 605.93,
+  "text": "in this test case"
+ },
+ {
+  "start": 605.94,
+  "end": 609.11,
+  "text": "click on checkout it is same providing"
+ },
+ {
+  "start": 609.12,
+  "end": 610.97,
+  "text": "billing address same"
+ },
+ {
+  "start": 610.98,
+  "end": 614.63,
+  "text": "right shipping method so he is also same"
+ },
+ {
+  "start": 614.64,
+  "end": 617.15,
+  "text": "payment method is different"
+ },
+ {
+  "start": 617.16,
+  "end": 618.769,
+  "text": "so that means"
+ },
+ {
+  "start": 618.779,
+  "end": 622.009,
+  "text": "there are a lot of reusable steps that"
+ },
+ {
+  "start": 622.019,
+  "end": 624.949,
+  "text": "are involved in automating this this"
+ },
+ {
+  "start": 624.959,
+  "end": 628.19,
+  "text": "test case I need there are two methods"
+ },
+ {
+  "start": 628.2,
+  "end": 630.65,
+  "text": "either I can simply copy this test case"
+ },
+ {
+  "start": 630.66,
+  "end": 632.509,
+  "text": "entire test case"
+ },
+ {
+  "start": 632.519,
+  "end": 634.97,
+  "text": "and create a duplication and do some"
+ },
+ {
+  "start": 634.98,
+  "end": 636.11,
+  "text": "modifications"
+ },
+ {
+  "start": 636.12,
+  "end": 639.29,
+  "text": "but which is not recommended because if"
+ },
+ {
+  "start": 639.3,
+  "end": 642.29,
+  "text": "there is any change in your properties"
+ },
+ {
+  "start": 642.3,
+  "end": 643.97,
+  "text": "you have to change in both the test"
+ },
+ {
+  "start": 643.98,
+  "end": 645.71,
+  "text": "cases"
+ },
+ {
+  "start": 645.72,
+  "end": 650.03,
+  "text": "so better use libraries test step"
+ },
+ {
+  "start": 650.04,
+  "end": 653.69,
+  "text": "libraries provided by task okay so now"
+ },
+ {
+  "start": 653.7,
+  "end": 658.19,
+  "text": "what is our first step"
+ },
+ {
+  "start": 661.25,
+  "end": 661.26,
+  "text": "that we need to follow before we"
+ },
+ {
+  "start": 661.26,
+  "end": 662.449,
+  "text": "automate"
+ },
+ {
+  "start": 662.459,
+  "end": 665.09,
+  "text": "check-in money order scenario first step"
+ },
+ {
+  "start": 665.1,
+  "end": 668.829,
+  "text": "is identify the reusable test tips"
+ },
+ {
+  "start": 668.839,
+  "end": 672.41,
+  "text": "that you can reuse while automating the"
+ },
+ {
+  "start": 672.42,
+  "end": 675.23,
+  "text": "new test case right so"
+ },
+ {
+  "start": 675.24,
+  "end": 677.99,
+  "text": "for that go to in work"
+ },
+ {
+  "start": 678.0,
+  "end": 682.69,
+  "text": "right click and create a library create"
+ },
+ {
+  "start": 682.7,
+  "end": 685.85,
+  "text": "test step Library as I told you"
+ },
+ {
+  "start": 685.86,
+  "end": 687.17,
+  "text": "libraries"
+ },
+ {
+  "start": 687.18,
+  "end": 691.43,
+  "text": "is called as desktop library in task"
+ },
+ {
+  "start": 691.44,
+  "end": 695.389,
+  "text": "click on create desktop Library"
+ },
+ {
+  "start": 695.399,
+  "end": 698.87,
+  "text": "okay I created test step Library under"
+ },
+ {
+  "start": 698.88,
+  "end": 705.29,
+  "text": "in work okay now we need to identify a"
+ },
+ {
+  "start": 705.3,
+  "end": 707.329,
+  "text": "reusable steps"
+ },
+ {
+  "start": 707.339,
+  "end": 708.769,
+  "text": "and"
+ },
+ {
+  "start": 708.779,
+  "end": 711.889,
+  "text": "map those reusable test tips under"
+ },
+ {
+  "start": 711.899,
+  "end": 712.79,
+  "text": "Library"
+ },
+ {
+  "start": 712.8,
+  "end": 716.93,
+  "text": "as a reusable test step blocks how I'll"
+ },
+ {
+  "start": 716.94,
+  "end": 719.09,
+  "text": "tell you let's assume this precondition"
+ },
+ {
+  "start": 719.1,
+  "end": 721.67,
+  "text": "right this entire precondition where you"
+ },
+ {
+  "start": 721.68,
+  "end": 724.97,
+  "text": "are opening URL logging in sorry"
+ },
+ {
+  "start": 724.98,
+  "end": 726.949,
+  "text": "navigate to login page and providing"
+ },
+ {
+  "start": 726.959,
+  "end": 730.67,
+  "text": "credentials this step can be reused as"
+ },
+ {
+  "start": 730.68,
+  "end": 732.769,
+  "text": "it is in our new scenario"
+ },
+ {
+  "start": 732.779,
+  "end": 734.99,
+  "text": "by using money order correct so that"
+ },
+ {
+  "start": 735.0,
+  "end": 738.05,
+  "text": "means you can simply this entire folder"
+ },
+ {
+  "start": 738.06,
+  "end": 742.31,
+  "text": "can drag and drop to library"
+ },
+ {
+  "start": 742.32,
+  "end": 745.55,
+  "text": "so she observed clearly as soon as I"
+ },
+ {
+  "start": 745.56,
+  "end": 748.61,
+  "text": "drag and drop to library what happens"
+ },
+ {
+  "start": 748.62,
+  "end": 752.23,
+  "text": "this precondition see if you see here"
+ },
+ {
+  "start": 752.24,
+  "end": 755.99,
+  "text": "this entire folder now is marked with"
+ },
+ {
+  "start": 756.0,
+  "end": 757.61,
+  "text": "arrow mark"
+ },
+ {
+  "start": 757.62,
+  "end": 762.47,
+  "text": "and a suffix with references included"
+ },
+ {
+  "start": 762.48,
+  "end": 764.629,
+  "text": "that means"
+ },
+ {
+  "start": 764.639,
+  "end": 767.629,
+  "text": "and here if you see the precondition is"
+ },
+ {
+  "start": 767.639,
+  "end": 772.009,
+  "text": "error this is a reusable test step block"
+ },
+ {
+  "start": 772.019,
+  "end": 775.19,
+  "text": "this is a reusable tester block"
+ },
+ {
+  "start": 775.2,
+  "end": 779.75,
+  "text": "okay and this precondition is reference"
+ },
+ {
+  "start": 779.76,
+  "end": 782.329,
+  "text": "of this reusable test block from the"
+ },
+ {
+  "start": 782.339,
+  "end": 786.35,
+  "text": "library okay done post condition in post"
+ },
+ {
+  "start": 786.36,
+  "end": 788.93,
+  "text": "condition also what are you doing order"
+ },
+ {
+  "start": 788.94,
+  "end": 790.43,
+  "text": "success you are"
+ },
+ {
+  "start": 790.44,
+  "end": 792.65,
+  "text": "uh once order is successful you are"
+ },
+ {
+  "start": 792.66,
+  "end": 795.29,
+  "text": "clicking on continue and then you are"
+ },
+ {
+  "start": 795.3,
+  "end": 796.61,
+  "text": "logging out"
+ },
+ {
+  "start": 796.62,
+  "end": 799.49,
+  "text": "and wait until login is appear and"
+ },
+ {
+  "start": 799.5,
+  "end": 801.23,
+  "text": "closing the browser so this is also"
+ },
+ {
+  "start": 801.24,
+  "end": 802.97,
+  "text": "common in the test case so that means"
+ },
+ {
+  "start": 802.98,
+  "end": 805.55,
+  "text": "this is also a reusable tested block"
+ },
+ {
+  "start": 805.56,
+  "end": 808.069,
+  "text": "that means I can"
+ },
+ {
+  "start": 808.079,
+  "end": 810.41,
+  "text": "now Mark this as a reusable testing"
+ },
+ {
+  "start": 810.42,
+  "end": 812.93,
+  "text": "block so that's why drag and drop this"
+ },
+ {
+  "start": 812.94,
+  "end": 815.87,
+  "text": "also into Library"
+ },
+ {
+  "start": 819.05,
+  "end": 819.06,
+  "text": "now you see this turned into Arrow Mark"
+ },
+ {
+  "start": 819.06,
+  "end": 822.25,
+  "text": "and there is a suffix with reference"
+ },
+ {
+  "start": 822.26,
+  "end": 824.509,
+  "text": "precondition okay"
+ },
+ {
+  "start": 824.519,
+  "end": 828.17,
+  "text": "and expand this process now expand this"
+ },
+ {
+  "start": 828.18,
+  "end": 829.91,
+  "text": "process"
+ },
+ {
+  "start": 829.92,
+  "end": 832.79,
+  "text": "and here"
+ },
+ {
+  "start": 832.8,
+  "end": 836.269,
+  "text": "let me drag and drop order product"
+ },
+ {
+  "start": 836.279,
+  "end": 838.61,
+  "text": "so that means ordering a product is"
+ },
+ {
+  "start": 838.62,
+  "end": 840.11,
+  "text": "common"
+ },
+ {
+  "start": 840.12,
+  "end": 842.87,
+  "text": "for our new test case also so that means"
+ },
+ {
+  "start": 842.88,
+  "end": 845.629,
+  "text": "this is also a reusable function drag"
+ },
+ {
+  "start": 845.639,
+  "end": 848.69,
+  "text": "and drop to your library"
+ },
+ {
+  "start": 848.7,
+  "end": 851.87,
+  "text": "so as soon as I drag and drop here see"
+ },
+ {
+  "start": 851.88,
+  "end": 854.269,
+  "text": "the reference is added"
+ },
+ {
+  "start": 854.279,
+  "end": 856.25,
+  "text": "if you see here the reference is added"
+ },
+ {
+  "start": 856.26,
+  "end": 857.69,
+  "text": "for the order product"
+ },
+ {
+  "start": 857.7,
+  "end": 860.75,
+  "text": "done and start checkout process even"
+ },
+ {
+  "start": 860.76,
+  "end": 862.97,
+  "text": "start checkout process is common"
+ },
+ {
+  "start": 862.98,
+  "end": 865.49,
+  "text": "so this is also reusable function drag"
+ },
+ {
+  "start": 865.5,
+  "end": 868.31,
+  "text": "and drop here"
+ },
+ {
+  "start": 868.32,
+  "end": 870.829,
+  "text": "so done start checkout references built"
+ },
+ {
+  "start": 870.839,
+  "end": 872.87,
+  "text": "and your start checkout process is"
+ },
+ {
+  "start": 872.88,
+  "end": 875.389,
+  "text": "identified as a reusable tested block"
+ },
+ {
+  "start": 875.399,
+  "end": 879.35,
+  "text": "under Library folder and"
+ },
+ {
+  "start": 879.36,
+  "end": 883.069,
+  "text": "verification of prices is not reusable"
+ },
+ {
+  "start": 883.079,
+  "end": 884.689,
+  "text": "function"
+ },
+ {
+  "start": 884.699,
+  "end": 887.449,
+  "text": "sorry let me do one thing let me drag"
+ },
+ {
+  "start": 887.459,
+  "end": 889.79,
+  "text": "and drop all the processes let's assume"
+ },
+ {
+  "start": 889.8,
+  "end": 892.91,
+  "text": "that I identify this as a reusable"
+ },
+ {
+  "start": 892.92,
+  "end": 896.93,
+  "text": "function verification of prices"
+ },
+ {
+  "start": 899.15,
+  "end": 899.16,
+  "text": "check out also let's drag and drop"
+ },
+ {
+  "start": 899.16,
+  "end": 902.03,
+  "text": "checkout also"
+ },
+ {
+  "start": 902.04,
+  "end": 904.189,
+  "text": "and let's drag and drop confirmation"
+ },
+ {
+  "start": 904.199,
+  "end": 906.25,
+  "text": "also"
+ },
+ {
+  "start": 906.26,
+  "end": 909.17,
+  "text": "and drag and drop verification of"
+ },
+ {
+  "start": 909.18,
+  "end": 910.49,
+  "text": "success"
+ },
+ {
+  "start": 910.5,
+  "end": 913.67,
+  "text": "so Frankly Speaking this checkout"
+ },
+ {
+  "start": 913.68,
+  "end": 917.09,
+  "text": "process and verification of prices are"
+ },
+ {
+  "start": 917.1,
+  "end": 920.329,
+  "text": "not same in our case because in the"
+ },
+ {
+  "start": 920.339,
+  "end": 922.55,
+  "text": "checkout process payment method is going"
+ },
+ {
+  "start": 922.56,
+  "end": 923.449,
+  "text": "to change"
+ },
+ {
+  "start": 923.459,
+  "end": 926.93,
+  "text": "and in the verification of prices the"
+ },
+ {
+  "start": 926.94,
+  "end": 929.81,
+  "text": "prices that displays on the screen also"
+ },
+ {
+  "start": 929.82,
+  "end": 932.269,
+  "text": "gonna change that means this is also not"
+ },
+ {
+  "start": 932.279,
+  "end": 934.069,
+  "text": "reusable function"
+ },
+ {
+  "start": 934.079,
+  "end": 937.73,
+  "text": "but confirmation is same as soon as I"
+ },
+ {
+  "start": 937.74,
+  "end": 940.85,
+  "text": "confirm validation of"
+ },
+ {
+  "start": 940.86,
+  "end": 943.61,
+  "text": "confirmation message is same so that is"
+ },
+ {
+  "start": 943.62,
+  "end": 946.129,
+  "text": "reusable tester block and verification"
+ },
+ {
+  "start": 946.139,
+  "end": 948.769,
+  "text": "of success also same that is also"
+ },
+ {
+  "start": 948.779,
+  "end": 953.329,
+  "text": "reusable test block except start"
+ },
+ {
+  "start": 953.339,
+  "end": 956.99,
+  "text": "checkout process accept checkout process"
+ },
+ {
+  "start": 957.0,
+  "end": 959.99,
+  "text": "rest all same correct"
+ },
+ {
+  "start": 960.0,
+  "end": 961.97,
+  "text": "so"
+ },
+ {
+  "start": 961.98,
+  "end": 963.769,
+  "text": "checkout process and verification of"
+ },
+ {
+  "start": 963.779,
+  "end": 965.569,
+  "text": "prices are not same but still I"
+ },
+ {
+  "start": 965.579,
+  "end": 967.55,
+  "text": "identified them as reusable functions"
+ },
+ {
+  "start": 967.56,
+  "end": 970.49,
+  "text": "I'll tell you why okay for now"
+ },
+ {
+  "start": 970.5,
+  "end": 973.189,
+  "text": "I identified all the reusable tested"
+ },
+ {
+  "start": 973.199,
+  "end": 976.73,
+  "text": "blocks and if You observe clearly"
+ },
+ {
+  "start": 976.74,
+  "end": 981.05,
+  "text": "the library is not ordered in the"
+ },
+ {
+  "start": 981.06,
+  "end": 983.269,
+  "text": "sequence of your execution"
+ },
+ {
+  "start": 983.279,
+  "end": 985.73,
+  "text": "it is ordered based on your alphabetic"
+ },
+ {
+  "start": 985.74,
+  "end": 989.09,
+  "text": "okay that's how it works in Tasker all"
+ },
+ {
+  "start": 989.1,
+  "end": 991.85,
+  "text": "the tested blocks will be ordered in"
+ },
+ {
+  "start": 991.86,
+  "end": 995.569,
+  "text": "alphabetic order okay so now done so we"
+ },
+ {
+  "start": 995.579,
+  "end": 998.329,
+  "text": "identified reusable test step blocks"
+ },
+ {
+  "start": 998.339,
+  "end": 1002.47,
+  "text": "now let's create a new test case for the"
+ },
+ {
+  "start": 1002.48,
+  "end": 1004.449,
+  "text": "new scenario let's automate"
+ },
+ {
+  "start": 1004.459,
+  "end": 1008.59,
+  "text": "the new scenario no okay for that in in"
+ },
+ {
+  "start": 1008.6,
+  "end": 1009.79,
+  "text": "work item"
+ },
+ {
+  "start": 1009.8,
+  "end": 1012.61,
+  "text": "let me create a new test case here okay"
+ },
+ {
+  "start": 1012.62,
+  "end": 1016.509,
+  "text": "the new test case right click"
+ },
+ {
+  "start": 1016.519,
+  "end": 1019.15,
+  "text": "create"
+ },
+ {
+  "start": 1019.16,
+  "end": 1021.49,
+  "text": "folder first"
+ },
+ {
+  "start": 1021.5,
+  "end": 1025.99,
+  "text": "name this as session 14"
+ },
+ {
+  "start": 1026.0,
+  "end": 1030.909,
+  "text": "Library"
+ },
+ {
+  "start": 1032.289,
+  "end": 1032.299,
+  "text": "and"
+ },
+ {
+  "start": 1032.299,
+  "end": 1034.929,
+  "text": "reusable"
+ },
+ {
+  "start": 1034.939,
+  "end": 1039.25,
+  "text": "test steps okay test step blocks okay"
+ },
+ {
+  "start": 1039.26,
+  "end": 1041.11,
+  "text": "so done"
+ },
+ {
+  "start": 1041.12,
+  "end": 1044.65,
+  "text": "and here now"
+ },
+ {
+  "start": 1044.66,
+  "end": 1047.37,
+  "text": "let's expand this okay let's keep this"
+ },
+ {
+  "start": 1047.38,
+  "end": 1050.169,
+  "text": "expand this here okay"
+ },
+ {
+  "start": 1050.179,
+  "end": 1052.45,
+  "text": "so now"
+ },
+ {
+  "start": 1052.46,
+  "end": 1055.27,
+  "text": "in session 14 Library reusable test"
+ },
+ {
+  "start": 1055.28,
+  "end": 1058.33,
+  "text": "blocks now I want to automate the"
+ },
+ {
+  "start": 1058.34,
+  "end": 1060.25,
+  "text": "scenario what I told you know okay"
+ },
+ {
+  "start": 1060.26,
+  "end": 1061.81,
+  "text": "logging in"
+ },
+ {
+  "start": 1061.82,
+  "end": 1064.63,
+  "text": "order representation shoes but use the"
+ },
+ {
+  "start": 1064.64,
+  "end": 1067.93,
+  "text": "payment method money order right how we"
+ },
+ {
+  "start": 1067.94,
+  "end": 1069.669,
+  "text": "already automated everything"
+ },
+ {
+  "start": 1069.679,
+  "end": 1072.43,
+  "text": "if you see we already identified all the"
+ },
+ {
+  "start": 1072.44,
+  "end": 1074.409,
+  "text": "reusable Twisted blocks"
+ },
+ {
+  "start": 1074.419,
+  "end": 1077.77,
+  "text": "so what is my first tip my first step is"
+ },
+ {
+  "start": 1077.78,
+  "end": 1080.529,
+  "text": "logging in open URL login that means the"
+ },
+ {
+  "start": 1080.539,
+  "end": 1082.89,
+  "text": "precondition whatever we automated here"
+ },
+ {
+  "start": 1082.9,
+  "end": 1086.35,
+  "text": "I can reuse as it is"
+ },
+ {
+  "start": 1086.36,
+  "end": 1089.89,
+  "text": "so for that this is my test case correct"
+ },
+ {
+  "start": 1089.9,
+  "end": 1091.51,
+  "text": "this is my test case"
+ },
+ {
+  "start": 1091.52,
+  "end": 1093.85,
+  "text": "this is my new folder this case let me"
+ },
+ {
+  "start": 1093.86,
+  "end": 1095.89,
+  "text": "create a new test case here okay let me"
+ },
+ {
+  "start": 1095.9,
+  "end": 1098.47,
+  "text": "create a new test case here create test"
+ },
+ {
+  "start": 1098.48,
+  "end": 1099.73,
+  "text": "case"
+ },
+ {
+  "start": 1099.74,
+  "end": 1102.31,
+  "text": "just mention this as"
+ },
+ {
+  "start": 1102.32,
+  "end": 1105.57,
+  "text": "shipping"
+ },
+ {
+  "start": 1107.11,
+  "end": 1107.12,
+  "text": "costs"
+ },
+ {
+  "start": 1107.12,
+  "end": 1109.51,
+  "text": "money order this time it's not credit"
+ },
+ {
+  "start": 1109.52,
+  "end": 1111.669,
+  "text": "card money order so now"
+ },
+ {
+  "start": 1111.679,
+  "end": 1114.49,
+  "text": "first precondition where open URL"
+ },
+ {
+  "start": 1114.5,
+  "end": 1117.13,
+  "text": "navigate login provide credentials is I"
+ },
+ {
+  "start": 1117.14,
+  "end": 1120.37,
+  "text": "can reuse as it is so that's why I'm"
+ },
+ {
+  "start": 1120.38,
+  "end": 1123.43,
+  "text": "gonna drag and drop this entire folder"
+ },
+ {
+  "start": 1123.44,
+  "end": 1126.01,
+  "text": "to the test case"
+ },
+ {
+  "start": 1126.02,
+  "end": 1128.89,
+  "text": "okay if you see here still you can see"
+ },
+ {
+  "start": 1128.9,
+  "end": 1131.409,
+  "text": "the reference that means this"
+ },
+ {
+  "start": 1131.419,
+  "end": 1133.39,
+  "text": "precondition is coming from your library"
+ },
+ {
+  "start": 1133.4,
+  "end": 1134.47,
+  "text": "reference"
+ },
+ {
+  "start": 1134.48,
+  "end": 1138.07,
+  "text": "okay done I logged in I automated login"
+ },
+ {
+  "start": 1138.08,
+  "end": 1139.99,
+  "text": "functionality that's it for the new test"
+ },
+ {
+  "start": 1140.0,
+  "end": 1144.01,
+  "text": "case as soon as I log in post condition"
+ },
+ {
+  "start": 1144.02,
+  "end": 1146.71,
+  "text": "this also I can directly reuse logout"
+ },
+ {
+  "start": 1146.72,
+  "end": 1149.11,
+  "text": "functionality also I just drag and drop"
+ },
+ {
+  "start": 1149.12,
+  "end": 1150.19,
+  "text": "here"
+ },
+ {
+  "start": 1150.2,
+  "end": 1151.81,
+  "text": "now"
+ },
+ {
+  "start": 1151.82,
+  "end": 1154.57,
+  "text": "let's create a process folder here let"
+ },
+ {
+  "start": 1154.58,
+  "end": 1156.669,
+  "text": "me create another folder"
+ },
+ {
+  "start": 1156.679,
+  "end": 1158.83,
+  "text": "right click"
+ },
+ {
+  "start": 1158.84,
+  "end": 1161.65,
+  "text": "create folder"
+ },
+ {
+  "start": 1161.66,
+  "end": 1163.27,
+  "text": "process"
+ },
+ {
+  "start": 1163.28,
+  "end": 1165.43,
+  "text": "so I am creating a folder and just"
+ },
+ {
+  "start": 1165.44,
+  "end": 1167.47,
+  "text": "ordering it as process okay"
+ },
+ {
+  "start": 1167.48,
+  "end": 1170.65,
+  "text": "under process now"
+ },
+ {
+  "start": 1170.66,
+  "end": 1173.89,
+  "text": "I cannot re I can reuse lot of functions"
+ },
+ {
+  "start": 1173.9,
+  "end": 1177.37,
+  "text": "order product I can directly drag and"
+ },
+ {
+  "start": 1177.38,
+  "end": 1179.169,
+  "text": "drop order product"
+ },
+ {
+  "start": 1179.179,
+  "end": 1182.11,
+  "text": "because ordering product is same"
+ },
+ {
+  "start": 1182.12,
+  "end": 1185.59,
+  "text": "because go to operation choose and Order"
+ },
+ {
+  "start": 1185.6,
+  "end": 1188.83,
+  "text": "and then start checkout this also I can"
+ },
+ {
+  "start": 1188.84,
+  "end": 1192.37,
+  "text": "directly use that's why drag your"
+ },
+ {
+  "start": 1192.38,
+  "end": 1194.89,
+  "text": "reusable tested block start checkout"
+ },
+ {
+  "start": 1194.9,
+  "end": 1197.65,
+  "text": "reusable tested block from library and"
+ },
+ {
+  "start": 1197.66,
+  "end": 1199.87,
+  "text": "drop into process folder"
+ },
+ {
+  "start": 1199.88,
+  "end": 1204.19,
+  "text": "done and then check out process"
+ },
+ {
+  "start": 1204.2,
+  "end": 1206.169,
+  "text": "actually the checkout process is going"
+ },
+ {
+  "start": 1206.179,
+  "end": 1207.85,
+  "text": "to change little bit this checkout"
+ },
+ {
+  "start": 1207.86,
+  "end": 1210.07,
+  "text": "process but still"
+ },
+ {
+  "start": 1210.08,
+  "end": 1212.409,
+  "text": "what it is going to change the change is"
+ },
+ {
+  "start": 1212.419,
+  "end": 1214.93,
+  "text": "in the checkout process your payment"
+ },
+ {
+  "start": 1214.94,
+  "end": 1218.529,
+  "text": "method whatever you are gonna use"
+ },
+ {
+  "start": 1218.539,
+  "end": 1220.63,
+  "text": "the payment method right instead of"
+ },
+ {
+  "start": 1220.64,
+  "end": 1222.09,
+  "text": "credit card we'll be using money order"
+ },
+ {
+  "start": 1222.1,
+  "end": 1225.19,
+  "text": "and here I'm not going to provide entire"
+ },
+ {
+  "start": 1225.2,
+  "end": 1227.23,
+  "text": "credit card information but instead I'm"
+ },
+ {
+  "start": 1227.24,
+  "end": 1229.51,
+  "text": "gonna just click on continue on the"
+ },
+ {
+  "start": 1229.52,
+  "end": 1231.61,
+  "text": "screen okay this is gonna change okay"
+ },
+ {
+  "start": 1231.62,
+  "end": 1234.549,
+  "text": "let's keep this aside info now"
+ },
+ {
+  "start": 1234.559,
+  "end": 1236.95,
+  "text": "and what about next verification of"
+ },
+ {
+  "start": 1236.96,
+  "end": 1238.75,
+  "text": "price is also not gonna change that's"
+ },
+ {
+  "start": 1238.76,
+  "end": 1241.029,
+  "text": "why I don't want to drag that"
+ },
+ {
+  "start": 1241.039,
+  "end": 1244.09,
+  "text": "and what about confirmation so"
+ },
+ {
+  "start": 1244.1,
+  "end": 1245.83,
+  "text": "confirmation is same"
+ },
+ {
+  "start": 1245.84,
+  "end": 1248.83,
+  "text": "just drag and drop here from library to"
+ },
+ {
+  "start": 1248.84,
+  "end": 1250.99,
+  "text": "the new test case"
+ },
+ {
+  "start": 1251.0,
+  "end": 1254.11,
+  "text": "and then verification of success also"
+ },
+ {
+  "start": 1254.12,
+  "end": 1255.07,
+  "text": "same"
+ },
+ {
+  "start": 1255.08,
+  "end": 1257.409,
+  "text": "so verification of success drag and drop"
+ },
+ {
+  "start": 1257.419,
+  "end": 1259.21,
+  "text": "to the new process"
+ },
+ {
+  "start": 1259.22,
+  "end": 1263.11,
+  "text": "done one two three four five six total"
+ },
+ {
+  "start": 1263.12,
+  "end": 1266.19,
+  "text": "six steps out of six we only"
+ },
+ {
+  "start": 1266.2,
+  "end": 1269.23,
+  "text": "built four steps now"
+ },
+ {
+  "start": 1269.24,
+  "end": 1272.95,
+  "text": "checkout process so what I want to do I"
+ },
+ {
+  "start": 1272.96,
+  "end": 1275.95,
+  "text": "want to use this reusable test step"
+ },
+ {
+  "start": 1275.96,
+  "end": 1277.75,
+  "text": "block as it is"
+ },
+ {
+  "start": 1277.76,
+  "end": 1280.33,
+  "text": "R there are two methods"
+ },
+ {
+  "start": 1280.34,
+  "end": 1283.029,
+  "text": "either you can start creating step from"
+ },
+ {
+  "start": 1283.039,
+  "end": 1285.43,
+  "text": "the beginning here"
+ },
+ {
+  "start": 1285.44,
+  "end": 1288.909,
+  "text": "are you can reuse this and resolve the"
+ },
+ {
+  "start": 1288.919,
+  "end": 1290.23,
+  "text": "reference"
+ },
+ {
+  "start": 1290.24,
+  "end": 1292.63,
+  "text": "and modify it"
+ },
+ {
+  "start": 1292.64,
+  "end": 1295.51,
+  "text": "so what I'll do I'm gonna reuse this"
+ },
+ {
+  "start": 1295.52,
+  "end": 1297.13,
+  "text": "function I'm going to reuse this"
+ },
+ {
+  "start": 1297.14,
+  "end": 1300.73,
+  "text": "checkout process as it is drag and drop"
+ },
+ {
+  "start": 1300.74,
+  "end": 1303.61,
+  "text": "here"
+ },
+ {
+  "start": 1307.45,
+  "end": 1307.46,
+  "text": "and bring this checkout process after"
+ },
+ {
+  "start": 1307.46,
+  "end": 1310.09,
+  "text": "start checkout okay after start checkout"
+ },
+ {
+  "start": 1310.1,
+  "end": 1312.909,
+  "text": "checkout process now"
+ },
+ {
+  "start": 1312.919,
+  "end": 1315.13,
+  "text": "I can modify this"
+ },
+ {
+  "start": 1315.14,
+  "end": 1319.029,
+  "text": "but when I modify this here it's gonna"
+ },
+ {
+  "start": 1319.039,
+  "end": 1321.85,
+  "text": "modify your entire library because this"
+ },
+ {
+  "start": 1321.86,
+  "end": 1323.59,
+  "text": "checkout process is coming from your"
+ },
+ {
+  "start": 1323.6,
+  "end": 1324.97,
+  "text": "test step block"
+ },
+ {
+  "start": 1324.98,
+  "end": 1328.51,
+  "text": "if I make any changes here right"
+ },
+ {
+  "start": 1328.52,
+  "end": 1331.57,
+  "text": "everything is going to change here and"
+ },
+ {
+  "start": 1331.58,
+  "end": 1332.83,
+  "text": "all the reference is going to change"
+ },
+ {
+  "start": 1332.84,
+  "end": 1335.77,
+  "text": "basically your entire"
+ },
+ {
+  "start": 1335.78,
+  "end": 1338.71,
+  "text": "test step in all the test cases is going"
+ },
+ {
+  "start": 1338.72,
+  "end": 1341.289,
+  "text": "to change so now"
+ },
+ {
+  "start": 1341.299,
+  "end": 1343.87,
+  "text": "because this checkout process is going"
+ },
+ {
+  "start": 1343.88,
+  "end": 1345.909,
+  "text": "to change totally"
+ },
+ {
+  "start": 1345.919,
+  "end": 1349.81,
+  "text": "I want to resolve the reference here"
+ },
+ {
+  "start": 1349.82,
+  "end": 1350.95,
+  "text": "how"
+ },
+ {
+  "start": 1350.96,
+  "end": 1352.81,
+  "text": "right click"
+ },
+ {
+  "start": 1352.82,
+  "end": 1356.169,
+  "text": "and click on resolve reference"
+ },
+ {
+  "start": 1356.179,
+  "end": 1358.69,
+  "text": "as soon as I click on resolve reference"
+ },
+ {
+  "start": 1358.7,
+  "end": 1362.11,
+  "text": "what it happens the reference is now no"
+ },
+ {
+  "start": 1362.12,
+  "end": 1363.97,
+  "text": "more with the library"
+ },
+ {
+  "start": 1363.98,
+  "end": 1367.99,
+  "text": "this is now independent independent step"
+ },
+ {
+  "start": 1368.0,
+  "end": 1371.23,
+  "text": "if you see here there is no suffix"
+ },
+ {
+  "start": 1371.24,
+  "end": 1373.93,
+  "text": "reference it is an independent test step"
+ },
+ {
+  "start": 1373.94,
+  "end": 1376.99,
+  "text": "now I can modify this test step"
+ },
+ {
+  "start": 1377.0,
+  "end": 1378.789,
+  "text": "it is not going to impact your library"
+ },
+ {
+  "start": 1378.799,
+  "end": 1381.25,
+  "text": "it is not going to impact your other"
+ },
+ {
+  "start": 1381.26,
+  "end": 1382.93,
+  "text": "test cases also"
+ },
+ {
+  "start": 1382.94,
+  "end": 1386.83,
+  "text": "so here under confirmation what is the"
+ },
+ {
+  "start": 1386.84,
+  "end": 1388.87,
+  "text": "change that you need to do"
+ },
+ {
+  "start": 1388.88,
+  "end": 1390.85,
+  "text": "sorry not under control under checkout"
+ },
+ {
+  "start": 1390.86,
+  "end": 1394.57,
+  "text": "process the change is under payment"
+ },
+ {
+  "start": 1394.58,
+  "end": 1398.11,
+  "text": "method credit card here I want to rename"
+ },
+ {
+  "start": 1398.12,
+  "end": 1399.549,
+  "text": "this as"
+ },
+ {
+  "start": 1399.559,
+  "end": 1402.669,
+  "text": "payment method"
+ },
+ {
+  "start": 1402.679,
+  "end": 1404.649,
+  "text": "money order"
+ },
+ {
+  "start": 1404.659,
+  "end": 1407.59,
+  "text": "correct I'm gonna select money order"
+ },
+ {
+  "start": 1407.6,
+  "end": 1411.31,
+  "text": "so hence here instead of credit card I"
+ },
+ {
+  "start": 1411.32,
+  "end": 1414.49,
+  "text": "want to select check our money order"
+ },
+ {
+  "start": 1414.5,
+  "end": 1417.13,
+  "text": "correct and then click on continue let's"
+ },
+ {
+  "start": 1417.14,
+  "end": 1418.81,
+  "text": "go over here"
+ },
+ {
+  "start": 1418.82,
+  "end": 1421.27,
+  "text": "go to"
+ },
+ {
+  "start": 1421.28,
+  "end": 1423.73,
+  "text": "genes"
+ },
+ {
+  "start": 1423.74,
+  "end": 1426.31,
+  "text": "right"
+ },
+ {
+  "start": 1426.32,
+  "end": 1430.21,
+  "text": "and then add 25 quantity I want to show"
+ },
+ {
+  "start": 1430.22,
+  "end": 1432.43,
+  "text": "you on the web also to avoid the"
+ },
+ {
+  "start": 1432.44,
+  "end": 1433.69,
+  "text": "confusion"
+ },
+ {
+  "start": 1433.7,
+  "end": 1434.71,
+  "text": "okay"
+ },
+ {
+  "start": 1434.72,
+  "end": 1436.27,
+  "text": "check out"
+ },
+ {
+  "start": 1436.28,
+  "end": 1440.49,
+  "text": "and continue"
+ },
+ {
+  "start": 1443.31,
+  "end": 1443.32,
+  "text": "payment method see here I am selecting"
+ },
+ {
+  "start": 1443.32,
+  "end": 1445.69,
+  "text": "check our money order but not credit"
+ },
+ {
+  "start": 1445.7,
+  "end": 1448.33,
+  "text": "card okay I selected that and then I'm"
+ },
+ {
+  "start": 1448.34,
+  "end": 1449.83,
+  "text": "clicking on continue"
+ },
+ {
+  "start": 1449.84,
+  "end": 1452.289,
+  "text": "so that is same and here payment"
+ },
+ {
+  "start": 1452.299,
+  "end": 1454.049,
+  "text": "information is here"
+ },
+ {
+  "start": 1454.059,
+  "end": 1457.69,
+  "text": "after this this modification is done"
+ },
+ {
+  "start": 1457.7,
+  "end": 1461.169,
+  "text": "here payment information credit card we"
+ },
+ {
+  "start": 1461.179,
+  "end": 1465.07,
+  "text": "have so this is not no more required"
+ },
+ {
+  "start": 1465.08,
+  "end": 1468.31,
+  "text": "this I can this delete this entire step"
+ },
+ {
+  "start": 1468.32,
+  "end": 1470.77,
+  "text": "here what is required"
+ },
+ {
+  "start": 1470.78,
+  "end": 1475.39,
+  "text": "I need to capture a new module here so"
+ },
+ {
+  "start": 1475.4,
+  "end": 1478.69,
+  "text": "let's go back to module because under"
+ },
+ {
+  "start": 1478.7,
+  "end": 1482.529,
+  "text": "webshop whatever I captured here right"
+ },
+ {
+  "start": 1482.539,
+  "end": 1486.37,
+  "text": "I have not captured the controls of the"
+ },
+ {
+  "start": 1486.38,
+  "end": 1488.529,
+  "text": "screen this section payment information"
+ },
+ {
+  "start": 1488.539,
+  "end": 1492.149,
+  "text": "section what I captured I only captured"
+ },
+ {
+  "start": 1492.159,
+  "end": 1494.95,
+  "text": "credit card information see credit card"
+ },
+ {
+  "start": 1494.96,
+  "end": 1497.529,
+  "text": "I have not captured this"
+ },
+ {
+  "start": 1497.539,
+  "end": 1501.549,
+  "text": "so now I need to capture that how"
+ },
+ {
+  "start": 1501.559,
+  "end": 1503.409,
+  "text": "right click"
+ },
+ {
+  "start": 1503.419,
+  "end": 1505.81,
+  "text": "so right click here"
+ },
+ {
+  "start": 1505.82,
+  "end": 1509.11,
+  "text": "click on scan click on application"
+ },
+ {
+  "start": 1509.12,
+  "end": 1511.93,
+  "text": "now select the application that you want"
+ },
+ {
+  "start": 1511.94,
+  "end": 1514.93,
+  "text": "to work on okay I want to work on"
+ },
+ {
+  "start": 1514.94,
+  "end": 1517.69,
+  "text": "webshop right I want to capture all the"
+ },
+ {
+  "start": 1517.7,
+  "end": 1520.029,
+  "text": "controls of that new section that is"
+ },
+ {
+  "start": 1520.039,
+  "end": 1523.029,
+  "text": "appearing when I select money order"
+ },
+ {
+  "start": 1523.039,
+  "end": 1524.11,
+  "text": "correct"
+ },
+ {
+  "start": 1524.12,
+  "end": 1527.71,
+  "text": "so this is my webshop"
+ },
+ {
+  "start": 1527.72,
+  "end": 1530.47,
+  "text": "click on scan"
+ },
+ {
+  "start": 1530.48,
+  "end": 1535.21,
+  "text": "I'm gonna capture all the controls of"
+ },
+ {
+  "start": 1535.22,
+  "end": 1536.59,
+  "text": "this new section"
+ },
+ {
+  "start": 1536.6,
+  "end": 1541.99,
+  "text": "foreign"
+ },
+ {
+  "start": 1545.289,
+  "end": 1545.299,
+  "text": "okay so here this is my basic view I"
+ },
+ {
+  "start": 1545.299,
+  "end": 1547.21,
+  "text": "already explained how to scan in my"
+ },
+ {
+  "start": 1547.22,
+  "end": 1549.19,
+  "text": "previous videos I suggest you guys to go"
+ },
+ {
+  "start": 1549.2,
+  "end": 1550.81,
+  "text": "through those videos"
+ },
+ {
+  "start": 1550.82,
+  "end": 1553.149,
+  "text": "I want to capture this"
+ },
+ {
+  "start": 1553.159,
+  "end": 1556.93,
+  "text": "this message entire message table okay"
+ },
+ {
+  "start": 1556.94,
+  "end": 1560.049,
+  "text": "capture this I want to capture this back"
+ },
+ {
+  "start": 1560.059,
+  "end": 1563.169,
+  "text": "button click on this I want to capture"
+ },
+ {
+  "start": 1563.179,
+  "end": 1564.909,
+  "text": "this continue button"
+ },
+ {
+  "start": 1564.919,
+  "end": 1568.81,
+  "text": "and rename this table as"
+ },
+ {
+  "start": 1568.82,
+  "end": 1573.549,
+  "text": "payment info"
+ },
+ {
+  "start": 1576.49,
+  "end": 1576.5,
+  "text": "money order"
+ },
+ {
+  "start": 1576.5,
+  "end": 1578.35,
+  "text": "table okay"
+ },
+ {
+  "start": 1578.36,
+  "end": 1582.31,
+  "text": "done and I want to rename this entire"
+ },
+ {
+  "start": 1582.32,
+  "end": 1584.169,
+  "text": "module as"
+ },
+ {
+  "start": 1584.179,
+  "end": 1586.149,
+  "text": "web shop"
+ },
+ {
+  "start": 1586.159,
+  "end": 1591.01,
+  "text": "webshop"
+ },
+ {
+  "start": 1592.45,
+  "end": 1592.46,
+  "text": "payment"
+ },
+ {
+  "start": 1592.46,
+  "end": 1595.39,
+  "text": "information"
+ },
+ {
+  "start": 1598.029,
+  "end": 1598.039,
+  "text": "earlier we named it as credit card now"
+ },
+ {
+  "start": 1598.039,
+  "end": 1600.49,
+  "text": "let me name it as money order"
+ },
+ {
+  "start": 1600.5,
+  "end": 1603.07,
+  "text": "okay and one more thing if you see the"
+ },
+ {
+  "start": 1603.08,
+  "end": 1604.45,
+  "text": "continue button is not uniquely"
+ },
+ {
+  "start": 1604.46,
+  "end": 1605.529,
+  "text": "identified"
+ },
+ {
+  "start": 1605.539,
+  "end": 1607.21,
+  "text": "correct that's why it's throwing as"
+ },
+ {
+  "start": 1607.22,
+  "end": 1608.89,
+  "text": "error message okay here"
+ },
+ {
+  "start": 1608.9,
+  "end": 1611.35,
+  "text": "so let's go to Advanced View"
+ },
+ {
+  "start": 1611.36,
+  "end": 1612.73,
+  "text": "if you see"
+ },
+ {
+  "start": 1612.74,
+  "end": 1614.59,
+  "text": "there are two ways you can make this as"
+ },
+ {
+  "start": 1614.6,
+  "end": 1617.289,
+  "text": "unique by checking this visible because"
+ },
+ {
+  "start": 1617.299,
+  "end": 1619.75,
+  "text": "this only one continue button is visible"
+ },
+ {
+  "start": 1619.76,
+  "end": 1621.909,
+  "text": "on screen even though you have lot of"
+ },
+ {
+  "start": 1621.919,
+  "end": 1624.13,
+  "text": "continue buttons but visibility is only"
+ },
+ {
+  "start": 1624.14,
+  "end": 1625.39,
+  "text": "one"
+ },
+ {
+  "start": 1625.4,
+  "end": 1628.029,
+  "text": "either you can just click on make unique"
+ },
+ {
+  "start": 1628.039,
+  "end": 1630.25,
+  "text": "what it will do it's gonna check this"
+ },
+ {
+  "start": 1630.26,
+  "end": 1632.529,
+  "text": "visible box done"
+ },
+ {
+  "start": 1632.539,
+  "end": 1635.289,
+  "text": "selected item is now unique okay let's"
+ },
+ {
+  "start": 1635.299,
+  "end": 1637.45,
+  "text": "go back to basic view now"
+ },
+ {
+  "start": 1637.46,
+  "end": 1639.25,
+  "text": "you can do this and basic we also just"
+ },
+ {
+  "start": 1639.26,
+  "end": 1642.85,
+  "text": "want to show you okay done"
+ },
+ {
+  "start": 1642.86,
+  "end": 1645.93,
+  "text": "this is also done now save this module"
+ },
+ {
+  "start": 1645.94,
+  "end": 1649.09,
+  "text": "as soon as I save this module"
+ },
+ {
+  "start": 1649.1,
+  "end": 1652.75,
+  "text": "this new module will be saved and close"
+ },
+ {
+  "start": 1652.76,
+  "end": 1653.71,
+  "text": "this"
+ },
+ {
+  "start": 1653.72,
+  "end": 1657.13,
+  "text": "if you go back to your modules here the"
+ },
+ {
+  "start": 1657.14,
+  "end": 1660.029,
+  "text": "new module is added the new module"
+ },
+ {
+  "start": 1660.039,
+  "end": 1662.89,
+  "text": "payment information apart from payment"
+ },
+ {
+  "start": 1662.9,
+  "end": 1665.47,
+  "text": "information credit card now you have"
+ },
+ {
+  "start": 1665.48,
+  "end": 1668.649,
+  "text": "payment information money order also all"
+ },
+ {
+  "start": 1668.659,
+  "end": 1670.57,
+  "text": "the controls are residing here"
+ },
+ {
+  "start": 1670.58,
+  "end": 1674.049,
+  "text": "so now let's go back to your test case"
+ },
+ {
+  "start": 1674.059,
+  "end": 1675.49,
+  "text": "here"
+ },
+ {
+  "start": 1675.5,
+  "end": 1679.149,
+  "text": "instead of payment now I want to add"
+ },
+ {
+  "start": 1679.159,
+  "end": 1682.99,
+  "text": "another test step here okay what is the"
+ },
+ {
+  "start": 1683.0,
+  "end": 1685.029,
+  "text": "test step that I want to add if you"
+ },
+ {
+  "start": 1685.039,
+  "end": 1687.43,
+  "text": "remember you can add the steps in the"
+ },
+ {
+  "start": 1687.44,
+  "end": 1689.71,
+  "text": "both the ways right click"
+ },
+ {
+  "start": 1689.72,
+  "end": 1693.31,
+  "text": "click on search and add step or click on"
+ },
+ {
+  "start": 1693.32,
+  "end": 1694.87,
+  "text": "Ctrl t"
+ },
+ {
+  "start": 1694.88,
+  "end": 1697.81,
+  "text": "which brings you your test tips okay all"
+ },
+ {
+  "start": 1697.82,
+  "end": 1701.71,
+  "text": "the modules so now if you see let me"
+ },
+ {
+  "start": 1701.72,
+  "end": 1704.289,
+  "text": "enter payment information if you see"
+ },
+ {
+  "start": 1704.299,
+  "end": 1707.47,
+  "text": "here this is payment methods this is"
+ },
+ {
+  "start": 1707.48,
+  "end": 1710.59,
+  "text": "payment yeah payment information money"
+ },
+ {
+  "start": 1710.6,
+  "end": 1713.95,
+  "text": "order payment information credit card so"
+ },
+ {
+  "start": 1713.96,
+  "end": 1716.769,
+  "text": "this is what we just now we created the"
+ },
+ {
+  "start": 1716.779,
+  "end": 1720.13,
+  "text": "new module money order module I am"
+ },
+ {
+  "start": 1720.14,
+  "end": 1725.169,
+  "text": "adding that module as a test step"
+ },
+ {
+  "start": 1729.49,
+  "end": 1729.5,
+  "text": "done I added now if you see now as soon"
+ },
+ {
+  "start": 1729.5,
+  "end": 1733.09,
+  "text": "as I click on continue it appears the"
+ },
+ {
+  "start": 1733.1,
+  "end": 1735.73,
+  "text": "screen and here I need to select"
+ },
+ {
+  "start": 1735.74,
+  "end": 1738.73,
+  "text": "continue I need not to select back or I"
+ },
+ {
+  "start": 1738.74,
+  "end": 1740.71,
+  "text": "need not to capture this table so that's"
+ },
+ {
+  "start": 1740.72,
+  "end": 1744.97,
+  "text": "why here I am gonna put X against"
+ },
+ {
+  "start": 1744.98,
+  "end": 1747.49,
+  "text": "continue button"
+ },
+ {
+  "start": 1747.5,
+  "end": 1748.87,
+  "text": "that's it"
+ },
+ {
+  "start": 1748.88,
+  "end": 1752.769,
+  "text": "my new checkout process is now ready"
+ },
+ {
+  "start": 1752.779,
+  "end": 1755.649,
+  "text": "I reused checkout process from my"
+ },
+ {
+  "start": 1755.659,
+  "end": 1756.789,
+  "text": "library"
+ },
+ {
+  "start": 1756.799,
+  "end": 1759.73,
+  "text": "but I resolve the reference"
+ },
+ {
+  "start": 1759.74,
+  "end": 1762.549,
+  "text": "and I made some modifications to that"
+ },
+ {
+  "start": 1762.559,
+  "end": 1764.95,
+  "text": "checkout process"
+ },
+ {
+  "start": 1764.96,
+  "end": 1767.889,
+  "text": "by selecting the payment method as money"
+ },
+ {
+  "start": 1767.899,
+  "end": 1771.669,
+  "text": "order instead of credit card and then by"
+ },
+ {
+  "start": 1771.679,
+  "end": 1773.71,
+  "text": "removing the credit card details by"
+ },
+ {
+  "start": 1773.72,
+  "end": 1775.81,
+  "text": "adding the payment information of money"
+ },
+ {
+  "start": 1775.82,
+  "end": 1776.71,
+  "text": "order"
+ },
+ {
+  "start": 1776.72,
+  "end": 1778.269,
+  "text": "done"
+ },
+ {
+  "start": 1778.279,
+  "end": 1780.07,
+  "text": "now"
+ },
+ {
+  "start": 1780.08,
+  "end": 1784.21,
+  "text": "what about after clicking on continue"
+ },
+ {
+  "start": 1784.22,
+  "end": 1787.57,
+  "text": "and this verification of prices now"
+ },
+ {
+  "start": 1787.58,
+  "end": 1790.33,
+  "text": "let's reuse the same verification of"
+ },
+ {
+  "start": 1790.34,
+  "end": 1792.31,
+  "text": "prices from library"
+ },
+ {
+  "start": 1792.32,
+  "end": 1796.389,
+  "text": "drag and drop to process"
+ },
+ {
+  "start": 1796.399,
+  "end": 1798.669,
+  "text": "and this verification of prices comes"
+ },
+ {
+  "start": 1798.679,
+  "end": 1800.59,
+  "text": "here after checkout you will have"
+ },
+ {
+  "start": 1800.6,
+  "end": 1802.09,
+  "text": "verification of prices"
+ },
+ {
+  "start": 1802.1,
+  "end": 1805.69,
+  "text": "and here under verification of prices"
+ },
+ {
+  "start": 1805.7,
+  "end": 1807.49,
+  "text": "here"
+ },
+ {
+  "start": 1807.5,
+  "end": 1810.49,
+  "text": "now there is a small change"
+ },
+ {
+  "start": 1810.5,
+  "end": 1813.49,
+  "text": "if you go here"
+ },
+ {
+  "start": 1813.5,
+  "end": 1816.37,
+  "text": "right here"
+ },
+ {
+  "start": 1816.38,
+  "end": 1817.81,
+  "text": "here"
+ },
+ {
+  "start": 1817.82,
+  "end": 1821.71,
+  "text": "the total e is not subtotal press"
+ },
+ {
+  "start": 1821.72,
+  "end": 1822.97,
+  "text": "shipping"
+ },
+ {
+  "start": 1822.98,
+  "end": 1828.19,
+  "text": "the total cost is subtotal plus shipping"
+ },
+ {
+  "start": 1828.2,
+  "end": 1831.25,
+  "text": "plus payment additional information"
+ },
+ {
+  "start": 1831.26,
+  "end": 1833.529,
+  "text": "earlier for credit card the your total"
+ },
+ {
+  "start": 1833.539,
+  "end": 1836.35,
+  "text": "is just the subtotal and shipping cost"
+ },
+ {
+  "start": 1836.36,
+  "end": 1839.83,
+  "text": "correct but now the Third"
+ },
+ {
+  "start": 1839.84,
+  "end": 1842.169,
+  "text": "parameter is added so for that what we"
+ },
+ {
+  "start": 1842.179,
+  "end": 1844.57,
+  "text": "need to do before I make it's very"
+ },
+ {
+  "start": 1844.58,
+  "end": 1846.97,
+  "text": "important one thing you need to remember"
+ },
+ {
+  "start": 1846.98,
+  "end": 1851.649,
+  "text": "guys before you make any changes you"
+ },
+ {
+  "start": 1851.659,
+  "end": 1854.95,
+  "text": "have to resolve the references if you"
+ },
+ {
+  "start": 1854.96,
+  "end": 1858.19,
+  "text": "don't resolve the references your entire"
+ },
+ {
+  "start": 1858.2,
+  "end": 1860.83,
+  "text": "test step reusable test step in library"
+ },
+ {
+  "start": 1860.84,
+  "end": 1863.35,
+  "text": "is going to change okay so that's the"
+ },
+ {
+  "start": 1863.36,
+  "end": 1866.409,
+  "text": "reason because there is a change I want"
+ },
+ {
+  "start": 1866.419,
+  "end": 1869.409,
+  "text": "to resolve the reference"
+ },
+ {
+  "start": 1869.419,
+  "end": 1872.049,
+  "text": "and do modifications"
+ },
+ {
+  "start": 1872.059,
+  "end": 1875.61,
+  "text": "so go to the verification of prices here"
+ },
+ {
+  "start": 1875.62,
+  "end": 1879.25,
+  "text": "a simple small modification"
+ },
+ {
+  "start": 1879.26,
+  "end": 1880.81,
+  "text": "car total"
+ },
+ {
+  "start": 1880.82,
+  "end": 1883.21,
+  "text": "here"
+ },
+ {
+  "start": 1883.22,
+  "end": 1885.789,
+  "text": "let me copy this math function here okay"
+ },
+ {
+  "start": 1885.799,
+  "end": 1887.769,
+  "text": "let me copy this math function because I"
+ },
+ {
+  "start": 1887.779,
+  "end": 1890.049,
+  "text": "want to reuse this later"
+ },
+ {
+  "start": 1890.059,
+  "end": 1894.269,
+  "text": "okay okay here before I actually"
+ },
+ {
+  "start": 1894.279,
+  "end": 1898.769,
+  "text": "calculate total I need to capture"
+ },
+ {
+  "start": 1898.779,
+  "end": 1901.81,
+  "text": "my payment information so that's the"
+ },
+ {
+  "start": 1901.82,
+  "end": 1903.909,
+  "text": "reason let me change this as a payment"
+ },
+ {
+  "start": 1903.919,
+  "end": 1907.81,
+  "text": "information additional fee and I want to"
+ },
+ {
+  "start": 1907.82,
+  "end": 1909.549,
+  "text": "validate if payment information"
+ },
+ {
+  "start": 1909.559,
+  "end": 1911.95,
+  "text": "additional fee is"
+ },
+ {
+  "start": 1911.96,
+  "end": 1914.71,
+  "text": "five dollars or not"
+ },
+ {
+  "start": 1914.72,
+  "end": 1918.61,
+  "text": "this is five dollars right"
+ },
+ {
+  "start": 1918.62,
+  "end": 1921.01,
+  "text": "five dollars"
+ },
+ {
+  "start": 1921.02,
+  "end": 1922.75,
+  "text": "and verify this"
+ },
+ {
+  "start": 1922.76,
+  "end": 1924.669,
+  "text": "is this a five dollars or not I am"
+ },
+ {
+  "start": 1924.679,
+  "end": 1925.99,
+  "text": "verifying this"
+ },
+ {
+  "start": 1926.0,
+  "end": 1932.049,
+  "text": "and here now I need to select total"
+ },
+ {
+  "start": 1932.059,
+  "end": 1935.289,
+  "text": "now the total Math function changes what"
+ },
+ {
+  "start": 1935.299,
+  "end": 1939.85,
+  "text": "is this apart from this 10 I need to add"
+ },
+ {
+  "start": 1939.86,
+  "end": 1942.97,
+  "text": "5 also"
+ },
+ {
+  "start": 1944.529,
+  "end": 1944.539,
+  "text": "this is done"
+ },
+ {
+  "start": 1944.539,
+  "end": 1948.01,
+  "text": "so I am verifying total is not or not"
+ },
+ {
+  "start": 1948.02,
+  "end": 1950.289,
+  "text": "change this to numeric"
+ },
+ {
+  "start": 1950.299,
+  "end": 1951.73,
+  "text": "okay"
+ },
+ {
+  "start": 1951.74,
+  "end": 1953.049,
+  "text": "that's it"
+ },
+ {
+  "start": 1953.059,
+  "end": 1955.21,
+  "text": "let me just run this here okay I want to"
+ },
+ {
+  "start": 1955.22,
+  "end": 1956.71,
+  "text": "make sure if it works fine or not"
+ },
+ {
+  "start": 1956.72,
+  "end": 1958.95,
+  "text": "because it's already the screen is open"
+ },
+ {
+  "start": 1958.96,
+  "end": 1961.51,
+  "text": "I can simply debug in this way okay"
+ },
+ {
+  "start": 1961.52,
+  "end": 1964.93,
+  "text": "right click and run in scratch"
+ },
+ {
+  "start": 1964.94,
+  "end": 1970.389,
+  "text": "and see what it will do"
+ },
+ {
+  "start": 1973.029,
+  "end": 1973.039,
+  "text": "so it is verifying"
+ },
+ {
+  "start": 1973.039,
+  "end": 1978.669,
+  "text": "your prices"
+ },
+ {
+  "start": 1980.71,
+  "end": 1980.72,
+  "text": "it is taking lot of time that means"
+ },
+ {
+  "start": 1980.72,
+  "end": 1983.409,
+  "text": "there might be something wrong"
+ },
+ {
+  "start": 1983.419,
+  "end": 1985.75,
+  "text": "okay I think it's nothing is wrong I"
+ },
+ {
+  "start": 1985.76,
+  "end": 1987.37,
+  "text": "think it's successful now"
+ },
+ {
+  "start": 1987.38,
+  "end": 1989.83,
+  "text": "so now if you see the result right if"
+ },
+ {
+  "start": 1989.84,
+  "end": 1992.95,
+  "text": "you see the result here go here"
+ },
+ {
+  "start": 1992.96,
+  "end": 1995.409,
+  "text": "and see if the modifications you can see"
+ },
+ {
+  "start": 1995.419,
+  "end": 1998.23,
+  "text": "or not okay if you see here apart from"
+ },
+ {
+  "start": 1998.24,
+  "end": 2001.11,
+  "text": "subtotal we just added another parameter"
+ },
+ {
+  "start": 2001.12,
+  "end": 2002.19,
+  "text": "called"
+ },
+ {
+  "start": 2002.2,
+  "end": 2004.889,
+  "text": "payment method additional information if"
+ },
+ {
+  "start": 2004.899,
+  "end": 2006.09,
+  "text": "you see here"
+ },
+ {
+  "start": 2006.1,
+  "end": 2009.87,
+  "text": "your expected is y actually is why and"
+ },
+ {
+  "start": 2009.88,
+  "end": 2010.889,
+  "text": "total"
+ },
+ {
+  "start": 2010.899,
+  "end": 2013.049,
+  "text": "see your expected is 40 and actually is"
+ },
+ {
+  "start": 2013.059,
+  "end": 2014.13,
+  "text": "40."
+ },
+ {
+  "start": 2014.14,
+  "end": 2017.87,
+  "text": "40 correct that means we are done so now"
+ },
+ {
+  "start": 2017.88,
+  "end": 2022.529,
+  "text": "what we did I completed automating my"
+ },
+ {
+  "start": 2022.539,
+  "end": 2025.59,
+  "text": "end-to-end test case"
+ },
+ {
+  "start": 2025.6,
+  "end": 2027.149,
+  "text": "just like that"
+ },
+ {
+  "start": 2027.159,
+  "end": 2030.81,
+  "text": "what I did I reused my"
+ },
+ {
+  "start": 2030.82,
+  "end": 2033.99,
+  "text": "precondition as this I reused post"
+ },
+ {
+  "start": 2034.0,
+  "end": 2037.769,
+  "text": "condition HDs I reused order products"
+ },
+ {
+  "start": 2037.779,
+  "end": 2041.13,
+  "text": "capacities I reused star checkout as it"
+ },
+ {
+  "start": 2041.14,
+  "end": 2044.25,
+  "text": "is I reused confirmation as it is I"
+ },
+ {
+  "start": 2044.26,
+  "end": 2046.169,
+  "text": "reused verification of success as it is"
+ },
+ {
+  "start": 2046.179,
+  "end": 2049.71,
+  "text": "the only changes I made is checkout and"
+ },
+ {
+  "start": 2049.72,
+  "end": 2052.369,
+  "text": "verification of prices from my previous"
+ },
+ {
+  "start": 2052.379,
+  "end": 2054.21,
+  "text": "test case"
+ },
+ {
+  "start": 2054.22,
+  "end": 2058.169,
+  "text": "so now let me run this test case and see"
+ },
+ {
+  "start": 2058.179,
+  "end": 2060.75,
+  "text": "how it works okay"
+ },
+ {
+  "start": 2060.76,
+  "end": 2063.75,
+  "text": "let's log out this okay"
+ },
+ {
+  "start": 2063.76,
+  "end": 2065.669,
+  "text": "log out"
+ },
+ {
+  "start": 2065.679,
+  "end": 2067.409,
+  "text": "and close this"
+ },
+ {
+  "start": 2067.419,
+  "end": 2071.909,
+  "text": "simply right click and run this new test"
+ },
+ {
+  "start": 2071.919,
+  "end": 2074.849,
+  "text": "case that we created by using libraries"
+ },
+ {
+  "start": 2074.859,
+  "end": 2079.649,
+  "text": "and reusable tested blocks"
+ },
+ {
+  "start": 2082.47,
+  "end": 2082.48,
+  "text": "so now it should open your web"
+ },
+ {
+  "start": 2082.48,
+  "end": 2086.089,
+  "text": "web application webshop"
+ },
+ {
+  "start": 2086.099,
+  "end": 2088.649,
+  "text": "I think application seems to be very"
+ },
+ {
+  "start": 2088.659,
+  "end": 2089.669,
+  "text": "slow"
+ },
+ {
+  "start": 2089.679,
+  "end": 2096.93,
+  "text": "let's see what happens no not this"
+ },
+ {
+  "start": 2098.609,
+  "end": 2098.619,
+  "text": "okay"
+ },
+ {
+  "start": 2098.619,
+  "end": 2102.329,
+  "text": "I think let me close this"
+ },
+ {
+  "start": 2102.339,
+  "end": 2104.37,
+  "text": "okay let me let me just go back here"
+ },
+ {
+  "start": 2104.38,
+  "end": 2106.47,
+  "text": "okay let's go back to my test case again"
+ },
+ {
+  "start": 2106.48,
+  "end": 2108.93,
+  "text": "if you see here the new test case"
+ },
+ {
+  "start": 2108.94,
+  "end": 2111.27,
+  "text": "configuration we have to see let's see"
+ },
+ {
+  "start": 2111.28,
+  "end": 2113.609,
+  "text": "if you see test configuration right we"
+ },
+ {
+  "start": 2113.619,
+  "end": 2115.29,
+  "text": "have to add a test configuration for the"
+ },
+ {
+  "start": 2115.3,
+  "end": 2117.63,
+  "text": "test case if you remember to add a"
+ },
+ {
+  "start": 2117.64,
+  "end": 2118.829,
+  "text": "browser"
+ },
+ {
+  "start": 2118.839,
+  "end": 2121.05,
+  "text": "let me add this new test configuration"
+ },
+ {
+  "start": 2121.06,
+  "end": 2123.51,
+  "text": "new"
+ },
+ {
+  "start": 2123.52,
+  "end": 2126.21,
+  "text": "test configuration"
+ },
+ {
+  "start": 2126.22,
+  "end": 2129.27,
+  "text": "and take the browser"
+ },
+ {
+  "start": 2129.28,
+  "end": 2132.569,
+  "text": "and select it as Chrome"
+ },
+ {
+  "start": 2132.579,
+  "end": 2133.829,
+  "text": "now"
+ },
+ {
+  "start": 2133.839,
+  "end": 2135.45,
+  "text": "save this"
+ },
+ {
+  "start": 2135.46,
+  "end": 2138.93,
+  "text": "now let's execute the test case now"
+ },
+ {
+  "start": 2138.94,
+  "end": 2140.73,
+  "text": "right click"
+ },
+ {
+  "start": 2140.74,
+  "end": 2142.41,
+  "text": "I mean I already explained about these"
+ },
+ {
+  "start": 2142.42,
+  "end": 2144.03,
+  "text": "configurations in my previous lesson"
+ },
+ {
+  "start": 2144.04,
+  "end": 2145.829,
+  "text": "okay I will recommend you guys to go"
+ },
+ {
+  "start": 2145.839,
+  "end": 2152.13,
+  "text": "through that session run in scratch"
+ },
+ {
+  "start": 2155.19,
+  "end": 2155.2,
+  "text": "okay it opens your web browser"
+ },
+ {
+  "start": 2155.2,
+  "end": 2156.87,
+  "text": "in Chrome now"
+ },
+ {
+  "start": 2156.88,
+  "end": 2159.99,
+  "text": "and then click on login done"
+ },
+ {
+  "start": 2160.0,
+  "end": 2162.93,
+  "text": "it enters username and password"
+ },
+ {
+  "start": 2162.94,
+  "end": 2167.069,
+  "text": "click done login appearance and choose"
+ },
+ {
+  "start": 2167.079,
+  "end": 2169.109,
+  "text": "blue jeans"
+ },
+ {
+  "start": 2169.119,
+  "end": 2171.93,
+  "text": "it enters 25"
+ },
+ {
+  "start": 2171.94,
+  "end": 2174.45,
+  "text": "and then shopping cart"
+ },
+ {
+  "start": 2174.46,
+  "end": 2178.29,
+  "text": "agree now here payment method I have to"
+ },
+ {
+  "start": 2178.3,
+  "end": 2179.55,
+  "text": "see"
+ },
+ {
+  "start": 2179.56,
+  "end": 2181.89,
+  "text": "right the payment method it should"
+ },
+ {
+  "start": 2181.9,
+  "end": 2184.349,
+  "text": "select check money order yes you"
+ },
+ {
+  "start": 2184.359,
+  "end": 2185.91,
+  "text": "selected check money order and if you"
+ },
+ {
+  "start": 2185.92,
+  "end": 2187.349,
+  "text": "see the check money order information"
+ },
+ {
+  "start": 2187.359,
+  "end": 2189.99,
+  "text": "came and forty dollar"
+ },
+ {
+  "start": 2190.0,
+  "end": 2192.75,
+  "text": "so that's correct order successful also"
+ },
+ {
+  "start": 2192.76,
+  "end": 2195.03,
+  "text": "verified successfully he is logged out"
+ },
+ {
+  "start": 2195.04,
+  "end": 2196.65,
+  "text": "and then"
+ },
+ {
+  "start": 2196.66,
+  "end": 2200.79,
+  "text": "it's closed so everything is successful"
+ },
+ {
+  "start": 2200.8,
+  "end": 2202.109,
+  "text": "so"
+ },
+ {
+  "start": 2202.119,
+  "end": 2204.87,
+  "text": "see how easy it is"
+ },
+ {
+  "start": 2204.88,
+  "end": 2208.589,
+  "text": "for us to automate any new test case if"
+ },
+ {
+  "start": 2208.599,
+  "end": 2211.65,
+  "text": "you see here in the report these are all"
+ },
+ {
+  "start": 2211.66,
+  "end": 2213.63,
+  "text": "your reusable functions"
+ },
+ {
+  "start": 2213.64,
+  "end": 2215.55,
+  "text": "correct"
+ },
+ {
+  "start": 2215.56,
+  "end": 2218.49,
+  "text": "and here also there yeah start checkout"
+ },
+ {
+  "start": 2218.5,
+  "end": 2220.53,
+  "text": "process is not reusable function"
+ },
+ {
+  "start": 2220.54,
+  "end": 2221.97,
+  "text": "okay"
+ },
+ {
+  "start": 2221.98,
+  "end": 2223.71,
+  "text": "so"
+ },
+ {
+  "start": 2223.72,
+  "end": 2226.29,
+  "text": "everything is success"
+ },
+ {
+  "start": 2226.3,
+  "end": 2230.069,
+  "text": "so nothing is failure"
+ },
+ {
+  "start": 2230.079,
+  "end": 2231.39,
+  "text": "right"
+ },
+ {
+  "start": 2231.4,
+  "end": 2236.39,
+  "text": "hope you all understand the concept of"
+ },
+ {
+  "start": 2236.4,
+  "end": 2240.15,
+  "text": "reusable tested blocks"
+ },
+ {
+  "start": 2240.16,
+  "end": 2244.53,
+  "text": "and libraries how can we use while"
+ },
+ {
+  "start": 2244.54,
+  "end": 2248.19,
+  "text": "automating your multiple test cases to"
+ },
+ {
+  "start": 2248.2,
+  "end": 2250.95,
+  "text": "avoid the duplication of the work"
+ },
+ {
+  "start": 2250.96,
+  "end": 2254.15,
+  "text": "you can reuse"
+ },
+ {
+  "start": 2254.16,
+  "end": 2255.75,
+  "text": "entire"
+ },
+ {
+  "start": 2255.76,
+  "end": 2258.21,
+  "text": "reusable functions it's kind of reusable"
+ },
+ {
+  "start": 2258.22,
+  "end": 2260.01,
+  "text": "functions you create reusable functions"
+ },
+ {
+  "start": 2260.02,
+  "end": 2261.69,
+  "text": "by using selenium right when you"
+ },
+ {
+  "start": 2261.7,
+  "end": 2264.45,
+  "text": "automate the test cases in selenium you"
+ },
+ {
+  "start": 2264.46,
+  "end": 2266.43,
+  "text": "create reusable functions right in the"
+ },
+ {
+  "start": 2266.44,
+  "end": 2269.31,
+  "text": "same way you can create reusable tester"
+ },
+ {
+  "start": 2269.32,
+  "end": 2271.53,
+  "text": "blocks and then you can reuse those"
+ },
+ {
+  "start": 2271.54,
+  "end": 2275.43,
+  "text": "tested blocks in N number of test cases"
+ },
+ {
+  "start": 2275.44,
+  "end": 2278.75,
+  "text": "so it cut Downs your"
+ },
+ {
+  "start": 2278.76,
+  "end": 2282.03,
+  "text": "efforts and it takes very"
+ },
+ {
+  "start": 2282.04,
+  "end": 2284.37,
+  "text": "uh less effort in automating the test"
+ },
+ {
+  "start": 2284.38,
+  "end": 2287.79,
+  "text": "cases and it removes the duplication and"
+ },
+ {
+  "start": 2287.8,
+  "end": 2290.67,
+  "text": "maintenance also very easy let's assume"
+ },
+ {
+  "start": 2290.68,
+  "end": 2292.05,
+  "text": "under"
+ },
+ {
+  "start": 2292.06,
+  "end": 2293.849,
+  "text": "login function okay when you are"
+ },
+ {
+  "start": 2293.859,
+  "end": 2295.589,
+  "text": "actually logging in let's say your login"
+ },
+ {
+  "start": 2295.599,
+  "end": 2298.23,
+  "text": "functionality during logging in so one"
+ },
+ {
+  "start": 2298.24,
+  "end": 2300.329,
+  "text": "of the property got changed if you"
+ },
+ {
+  "start": 2300.339,
+  "end": 2301.589,
+  "text": "change here"
+ },
+ {
+  "start": 2301.599,
+  "end": 2303.99,
+  "text": "all the test cases whatever you are"
+ },
+ {
+  "start": 2304.0,
+  "end": 2305.609,
+  "text": "referring from the precondition I mean"
+ },
+ {
+  "start": 2305.619,
+  "end": 2307.89,
+  "text": "all the test cases"
+ },
+ {
+  "start": 2307.9,
+  "end": 2310.589,
+  "text": "wherever this precondition is referenced"
+ },
+ {
+  "start": 2310.599,
+  "end": 2312.93,
+  "text": "if all the test cases automatically gets"
+ },
+ {
+  "start": 2312.94,
+  "end": 2315.089,
+  "text": "changed you need not to go to each and"
+ },
+ {
+  "start": 2315.099,
+  "end": 2317.01,
+  "text": "every test case and change the property"
+ },
+ {
+  "start": 2317.02,
+  "end": 2319.71,
+  "text": "so that's the maintenance also very easy"
+ },
+ {
+  "start": 2319.72,
+  "end": 2321.99,
+  "text": "hope you all understand the concepts"
+ },
+ {
+  "start": 2322.0,
+  "end": 2325.589,
+  "text": "it's very longer session uh but very"
+ },
+ {
+  "start": 2325.599,
+  "end": 2327.39,
+  "text": "useful session okay if you have any"
+ },
+ {
+  "start": 2327.4,
+  "end": 2328.95,
+  "text": "queries leave your queries in the"
+ },
+ {
+  "start": 2328.96,
+  "end": 2330.75,
+  "text": "comment box I'll try to respond to your"
+ },
+ {
+  "start": 2330.76,
+  "end": 2339.13,
+  "text": "queries thank you"
+ }
+]

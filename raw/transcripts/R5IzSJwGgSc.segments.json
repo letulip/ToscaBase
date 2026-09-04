@@ -1,0 +1,1832 @@
+[
+ {
+  "start": 1.68,
+  "end": 4.85,
+  "text": "foreign"
+ },
+ {
+  "start": 16.73,
+  "end": 16.74,
+  "text": "automation tutorial"
+ },
+ {
+  "start": 16.74,
+  "end": 19.189,
+  "text": "as you all know I've published around"
+ },
+ {
+  "start": 19.199,
+  "end": 23.269,
+  "text": "seven YouTube videos covering basic"
+ },
+ {
+  "start": 23.279,
+  "end": 26.15,
+  "text": "concepts of tricentistoska"
+ },
+ {
+  "start": 26.16,
+  "end": 28.97,
+  "text": "by now you are very much familiar with"
+ },
+ {
+  "start": 28.98,
+  "end": 32.749,
+  "text": "all the concepts that are required to"
+ },
+ {
+  "start": 32.759,
+  "end": 35.63,
+  "text": "start test case automation by using"
+ },
+ {
+  "start": 35.64,
+  "end": 38.63,
+  "text": "latest version Tasker so this is our"
+ },
+ {
+  "start": 38.64,
+  "end": 40.19,
+  "text": "lesson 8"
+ },
+ {
+  "start": 40.2,
+  "end": 43.31,
+  "text": "where I'm gonna teach you the initial"
+ },
+ {
+  "start": 43.32,
+  "end": 44.45,
+  "text": "step"
+ },
+ {
+  "start": 44.46,
+  "end": 47.75,
+  "text": "that is required to automate test cases"
+ },
+ {
+  "start": 47.76,
+  "end": 49.729,
+  "text": "for automating the test cases by using"
+ },
+ {
+  "start": 49.739,
+  "end": 53.45,
+  "text": "task we need to follow the series of"
+ },
+ {
+  "start": 53.46,
+  "end": 54.65,
+  "text": "steps"
+ },
+ {
+  "start": 54.66,
+  "end": 58.67,
+  "text": "I'm gonna teach you in detail in couple"
+ },
+ {
+  "start": 58.68,
+  "end": 60.41,
+  "text": "of next sessions"
+ },
+ {
+  "start": 60.42,
+  "end": 63.65,
+  "text": "to automate the test cases what are all"
+ },
+ {
+  "start": 63.66,
+  "end": 65.81,
+  "text": "the steps that we need to follow to"
+ },
+ {
+  "start": 65.82,
+  "end": 68.81,
+  "text": "complete test case automation of your"
+ },
+ {
+  "start": 68.82,
+  "end": 70.73,
+  "text": "manual test cases"
+ },
+ {
+  "start": 70.74,
+  "end": 73.969,
+  "text": "so this is lesson eight where I'm gonna"
+ },
+ {
+  "start": 73.979,
+  "end": 75.89,
+  "text": "teach you the first step"
+ },
+ {
+  "start": 75.9,
+  "end": 79.13,
+  "text": "where we'll be creating a test case"
+ },
+ {
+  "start": 79.14,
+  "end": 82.429,
+  "text": "structure by using test case module in"
+ },
+ {
+  "start": 82.439,
+  "end": 85.01,
+  "text": "Tasker 16."
+ },
+ {
+  "start": 85.02,
+  "end": 87.77,
+  "text": "please do subscribe to the channel click"
+ },
+ {
+  "start": 87.78,
+  "end": 89.149,
+  "text": "on Bell icon you'll receive"
+ },
+ {
+  "start": 89.159,
+  "end": 91.37,
+  "text": "notifications whenever I publish more"
+ },
+ {
+  "start": 91.38,
+  "end": 94.55,
+  "text": "videos thank you"
+ },
+ {
+  "start": 94.56,
+  "end": 98.45,
+  "text": "okay so to create test case structure in"
+ },
+ {
+  "start": 98.46,
+  "end": 101.39,
+  "text": "Tosca first we need to navigate around"
+ },
+ {
+  "start": 101.4,
+  "end": 103.609,
+  "text": "the test case section"
+ },
+ {
+  "start": 103.619,
+  "end": 105.89,
+  "text": "so in this session I'm going to teach"
+ },
+ {
+  "start": 105.9,
+  "end": 107.87,
+  "text": "you the navigation of your test case"
+ },
+ {
+  "start": 107.88,
+  "end": 108.95,
+  "text": "section"
+ },
+ {
+  "start": 108.96,
+  "end": 111.77,
+  "text": "and then we are going to Define and"
+ },
+ {
+  "start": 111.78,
+  "end": 114.59,
+  "text": "create the folder structure for test"
+ },
+ {
+  "start": 114.6,
+  "end": 117.41,
+  "text": "case creation that reflects your"
+ },
+ {
+  "start": 117.42,
+  "end": 119.749,
+  "text": "business workflow"
+ },
+ {
+  "start": 119.759,
+  "end": 122.51,
+  "text": "so I'm going to take you an example and"
+ },
+ {
+  "start": 122.52,
+  "end": 124.429,
+  "text": "I'm going to teach you creation of the"
+ },
+ {
+  "start": 124.439,
+  "end": 127.19,
+  "text": "folder structure for that particular use"
+ },
+ {
+  "start": 127.2,
+  "end": 128.33,
+  "text": "case"
+ },
+ {
+  "start": 128.34,
+  "end": 131.27,
+  "text": "and also elements containing the"
+ },
+ {
+  "start": 131.28,
+  "end": 133.67,
+  "text": "sequence information that means the test"
+ },
+ {
+  "start": 133.68,
+  "end": 136.91,
+  "text": "case structure nothing but the elements"
+ },
+ {
+  "start": 136.92,
+  "end": 139.97,
+  "text": "that contains the sequence of the"
+ },
+ {
+  "start": 139.98,
+  "end": 141.77,
+  "text": "information"
+ },
+ {
+  "start": 141.78,
+  "end": 145.79,
+  "text": "and to create test cases"
+ },
+ {
+  "start": 145.8,
+  "end": 148.19,
+  "text": "we need to"
+ },
+ {
+  "start": 148.2,
+  "end": 151.79,
+  "text": "actually call the modules that we"
+ },
+ {
+  "start": 151.8,
+  "end": 153.89,
+  "text": "created in earlier sessions I already"
+ },
+ {
+  "start": 153.9,
+  "end": 155.75,
+  "text": "explained you how to create the modules"
+ },
+ {
+  "start": 155.76,
+  "end": 158.21,
+  "text": "right so the modules are related to"
+ },
+ {
+  "start": 158.22,
+  "end": 160.729,
+  "text": "technical information and the test cases"
+ },
+ {
+  "start": 160.739,
+  "end": 163.49,
+  "text": "are related to business information so"
+ },
+ {
+  "start": 163.5,
+  "end": 166.97,
+  "text": "we will be creating test cases by using"
+ },
+ {
+  "start": 166.98,
+  "end": 169.49,
+  "text": "the modules that we already created"
+ },
+ {
+  "start": 169.5,
+  "end": 172.309,
+  "text": "okay and also we need to have a proper"
+ },
+ {
+  "start": 172.319,
+  "end": 175.19,
+  "text": "naming convention while creating test"
+ },
+ {
+  "start": 175.2,
+  "end": 178.61,
+  "text": "cases or test case folder structure"
+ },
+ {
+  "start": 178.62,
+  "end": 182.57,
+  "text": "so we and also we need to use the three"
+ },
+ {
+  "start": 182.58,
+  "end": 185.509,
+  "text": "approval stages stages while creating"
+ },
+ {
+  "start": 185.519,
+  "end": 188.69,
+  "text": "the test cases that means when you are"
+ },
+ {
+  "start": 188.7,
+  "end": 191.03,
+  "text": "when you start creating the test case"
+ },
+ {
+  "start": 191.04,
+  "end": 193.79,
+  "text": "you will be changing the Status as"
+ },
+ {
+  "start": 193.8,
+  "end": 196.79,
+  "text": "planned in Tasker and then once you"
+ },
+ {
+  "start": 196.8,
+  "end": 198.89,
+  "text": "start progressing in the test case"
+ },
+ {
+  "start": 198.9,
+  "end": 201.47,
+  "text": "structure or creation of the test case"
+ },
+ {
+  "start": 201.48,
+  "end": 204.35,
+  "text": "you will be changing the Status to in"
+ },
+ {
+  "start": 204.36,
+  "end": 205.309,
+  "text": "work"
+ },
+ {
+  "start": 205.319,
+  "end": 209.509,
+  "text": "so once the then once we complete test"
+ },
+ {
+  "start": 209.519,
+  "end": 212.449,
+  "text": "case creation we'll be changing the"
+ },
+ {
+  "start": 212.459,
+  "end": 214.729,
+  "text": "Status to completed"
+ },
+ {
+  "start": 214.739,
+  "end": 217.91,
+  "text": "okay so this session is mostly"
+ },
+ {
+  "start": 217.92,
+  "end": 221.27,
+  "text": "concentrated on the test case folder"
+ },
+ {
+  "start": 221.28,
+  "end": 223.85,
+  "text": "structure creation so in the subsequent"
+ },
+ {
+  "start": 223.86,
+  "end": 228.11,
+  "text": "sessions I'm gonna teach you other steps"
+ },
+ {
+  "start": 228.12,
+  "end": 230.63,
+  "text": "so that we can complete test case"
+ },
+ {
+  "start": 230.64,
+  "end": 231.949,
+  "text": "automation"
+ },
+ {
+  "start": 231.959,
+  "end": 233.449,
+  "text": "fully"
+ },
+ {
+  "start": 233.459,
+  "end": 236.39,
+  "text": "so now let's jump onto the system and"
+ },
+ {
+  "start": 236.4,
+  "end": 238.49,
+  "text": "see how can we create test case"
+ },
+ {
+  "start": 238.5,
+  "end": 240.71,
+  "text": "structure by using Tasker latest version"
+ },
+ {
+  "start": 240.72,
+  "end": 242.03,
+  "text": "16."
+ },
+ {
+  "start": 242.04,
+  "end": 246.11,
+  "text": "okay so first let me explain you what is"
+ },
+ {
+  "start": 246.12,
+  "end": 247.49,
+  "text": "the test case that we are going to"
+ },
+ {
+  "start": 247.5,
+  "end": 248.509,
+  "text": "automate"
+ },
+ {
+  "start": 248.519,
+  "end": 251.809,
+  "text": "in today's session and we are going to"
+ },
+ {
+  "start": 251.819,
+  "end": 253.309,
+  "text": "carry forward"
+ },
+ {
+  "start": 253.319,
+  "end": 256.31,
+  "text": "the automation of this test case in the"
+ },
+ {
+  "start": 256.32,
+  "end": 259.129,
+  "text": "upcoming couple of sessions okay"
+ },
+ {
+  "start": 259.139,
+  "end": 262.069,
+  "text": "so as I explained you so test case"
+ },
+ {
+  "start": 262.079,
+  "end": 265.37,
+  "text": "Automation in trycent"
+ },
+ {
+  "start": 265.38,
+  "end": 266.629,
+  "text": "is"
+ },
+ {
+  "start": 266.639,
+  "end": 269.09,
+  "text": "involved with"
+ },
+ {
+  "start": 269.1,
+  "end": 271.01,
+  "text": "five to six"
+ },
+ {
+  "start": 271.02,
+  "end": 274.73,
+  "text": "sequence of steps I'm gonna teach you"
+ },
+ {
+  "start": 274.74,
+  "end": 277.61,
+  "text": "each step"
+ },
+ {
+  "start": 277.62,
+  "end": 279.71,
+  "text": "clearly"
+ },
+ {
+  "start": 279.72,
+  "end": 282.23,
+  "text": "with an example so that you can"
+ },
+ {
+  "start": 282.24,
+  "end": 285.53,
+  "text": "understand how to automate your test"
+ },
+ {
+  "start": 285.54,
+  "end": 288.65,
+  "text": "case okay so in this session"
+ },
+ {
+  "start": 288.66,
+  "end": 291.77,
+  "text": "I'm gonna teach you how to first step of"
+ },
+ {
+  "start": 291.78,
+  "end": 295.01,
+  "text": "your test case automation where you will"
+ },
+ {
+  "start": 295.02,
+  "end": 298.61,
+  "text": "be creating a test case structure right"
+ },
+ {
+  "start": 298.62,
+  "end": 300.89,
+  "text": "so I already explained you what does"
+ },
+ {
+  "start": 300.9,
+  "end": 302.45,
+  "text": "this test case structure in my previous"
+ },
+ {
+  "start": 302.46,
+  "end": 305.45,
+  "text": "slide so now let's understand what is"
+ },
+ {
+  "start": 305.46,
+  "end": 306.83,
+  "text": "the test case that we are going to"
+ },
+ {
+  "start": 306.84,
+  "end": 310.43,
+  "text": "automate okay so here this is as I"
+ },
+ {
+  "start": 310.44,
+  "end": 311.689,
+  "text": "explained you in my previous sessions"
+ },
+ {
+  "start": 311.699,
+  "end": 314.749,
+  "text": "I'm gonna use demo webshop it's a"
+ },
+ {
+  "start": 314.759,
+  "end": 318.29,
+  "text": "website provided by try centers okay so"
+ },
+ {
+  "start": 318.3,
+  "end": 321.59,
+  "text": "our test case is user need to login"
+ },
+ {
+  "start": 321.6,
+  "end": 326.27,
+  "text": "with valid credentials"
+ },
+ {
+  "start": 330.89,
+  "end": 330.9,
+  "text": "once he logins with valid credentials"
+ },
+ {
+  "start": 330.9,
+  "end": 334.49,
+  "text": "you he need to order an item"
+ },
+ {
+  "start": 334.5,
+  "end": 338.81,
+  "text": "what is ordering an item okay so first"
+ },
+ {
+  "start": 338.82,
+  "end": 341.51,
+  "text": "we will be logging"
+ },
+ {
+  "start": 341.52,
+  "end": 343.79,
+  "text": "by using a user"
+ },
+ {
+  "start": 343.8,
+  "end": 346.43,
+  "text": "and then order the product"
+ },
+ {
+  "start": 346.44,
+  "end": 349.85,
+  "text": "so let me order apparels and shoes"
+ },
+ {
+  "start": 349.86,
+  "end": 352.79,
+  "text": "so please remember the sequence of the"
+ },
+ {
+  "start": 352.8,
+  "end": 354.83,
+  "text": "business flow basically business"
+ },
+ {
+  "start": 354.84,
+  "end": 356.87,
+  "text": "information are the sequence of the"
+ },
+ {
+  "start": 356.88,
+  "end": 358.37,
+  "text": "process flow that we are talking here"
+ },
+ {
+  "start": 358.38,
+  "end": 360.95,
+  "text": "okay that really helps in automating"
+ },
+ {
+  "start": 360.96,
+  "end": 362.749,
+  "text": "your test case"
+ },
+ {
+  "start": 362.759,
+  "end": 365.09,
+  "text": "so now what I'm doing I'm ordering the"
+ },
+ {
+  "start": 365.1,
+  "end": 368.21,
+  "text": "product by clicking on the add to code"
+ },
+ {
+  "start": 368.22,
+  "end": 370.55,
+  "text": "I'm ordering blue jeans"
+ },
+ {
+  "start": 370.56,
+  "end": 375.05,
+  "text": "once I ordered the product now I need to"
+ },
+ {
+  "start": 375.06,
+  "end": 377.93,
+  "text": "start checkout process how"
+ },
+ {
+  "start": 377.94,
+  "end": 380.33,
+  "text": "go to shopping cart"
+ },
+ {
+  "start": 380.34,
+  "end": 381.59,
+  "text": "and then"
+ },
+ {
+  "start": 381.6,
+  "end": 384.71,
+  "text": "agree with the terms of service"
+ },
+ {
+  "start": 384.72,
+  "end": 388.67,
+  "text": "and then click on checkout so this is"
+ },
+ {
+  "start": 388.68,
+  "end": 392.629,
+  "text": "your start checkout process and then"
+ },
+ {
+  "start": 392.639,
+  "end": 395.689,
+  "text": "checkout process so start checkout just"
+ },
+ {
+  "start": 395.699,
+  "end": 398.15,
+  "text": "now we did and now what is the process"
+ },
+ {
+  "start": 398.16,
+  "end": 400.909,
+  "text": "to complete your checkout that is"
+ },
+ {
+  "start": 400.919,
+  "end": 403.73,
+  "text": "provide your billing address"
+ },
+ {
+  "start": 403.74,
+  "end": 407.39,
+  "text": "and then select your shipping address"
+ },
+ {
+  "start": 407.4,
+  "end": 410.93,
+  "text": "and then select your shipping method so"
+ },
+ {
+  "start": 410.94,
+  "end": 412.37,
+  "text": "this I already explained in my previous"
+ },
+ {
+  "start": 412.38,
+  "end": 415.61,
+  "text": "session okay select your shipping method"
+ },
+ {
+  "start": 415.62,
+  "end": 417.77,
+  "text": "and then you have to select your payment"
+ },
+ {
+  "start": 417.78,
+  "end": 423.35,
+  "text": "method cash credit card etc etc and then"
+ },
+ {
+  "start": 423.36,
+  "end": 425.629,
+  "text": "you need to"
+ },
+ {
+  "start": 425.639,
+  "end": 429.11,
+  "text": "see the payment information"
+ },
+ {
+  "start": 429.12,
+  "end": 433.909,
+  "text": "and then you click on continue"
+ },
+ {
+  "start": 435.29,
+  "end": 435.3,
+  "text": "here"
+ },
+ {
+  "start": 435.3,
+  "end": 438.89,
+  "text": "and next step is see we just ordered the"
+ },
+ {
+  "start": 438.9,
+  "end": 439.969,
+  "text": "product"
+ },
+ {
+  "start": 439.979,
+  "end": 441.83,
+  "text": "started the checkout"
+ },
+ {
+  "start": 441.84,
+  "end": 444.17,
+  "text": "and we completed checkout process"
+ },
+ {
+  "start": 444.18,
+  "end": 447.17,
+  "text": "now what is the next step verification"
+ },
+ {
+  "start": 447.18,
+  "end": 450.35,
+  "text": "of the prices so I need to verify"
+ },
+ {
+  "start": 450.36,
+  "end": 452.629,
+  "text": "what is the shipping cost"
+ },
+ {
+  "start": 452.639,
+  "end": 454.67,
+  "text": "what is the payment method additional"
+ },
+ {
+  "start": 454.68,
+  "end": 458.51,
+  "text": "fee what is my total cost and what is my"
+ },
+ {
+  "start": 458.52,
+  "end": 461.27,
+  "text": "quantity right so verification of the"
+ },
+ {
+  "start": 461.28,
+  "end": 463.129,
+  "text": "prices is next step"
+ },
+ {
+  "start": 463.139,
+  "end": 465.11,
+  "text": "once that is done"
+ },
+ {
+  "start": 465.12,
+  "end": 467.57,
+  "text": "I need to click on confirmation that is"
+ },
+ {
+  "start": 467.58,
+  "end": 469.61,
+  "text": "confirmation step"
+ },
+ {
+  "start": 469.62,
+  "end": 471.589,
+  "text": "what is the confirmation step click on"
+ },
+ {
+  "start": 471.599,
+  "end": 475.309,
+  "text": "confirmation and then see if you get the"
+ },
+ {
+  "start": 475.319,
+  "end": 476.93,
+  "text": "order number or not"
+ },
+ {
+  "start": 476.94,
+  "end": 480.65,
+  "text": "right and what is our next step is"
+ },
+ {
+  "start": 480.66,
+  "end": 483.409,
+  "text": "verification of success you need to"
+ },
+ {
+  "start": 483.419,
+  "end": 485.45,
+  "text": "verify if the order has been"
+ },
+ {
+  "start": 485.46,
+  "end": 488.21,
+  "text": "successfully processed and then you got"
+ },
+ {
+  "start": 488.22,
+  "end": 490.249,
+  "text": "the order number"
+ },
+ {
+  "start": 490.259,
+  "end": 492.71,
+  "text": "okay so what are all the steps we it"
+ },
+ {
+  "start": 492.72,
+  "end": 495.11,
+  "text": "involves the test case involves first"
+ },
+ {
+  "start": 495.12,
+  "end": 496.49,
+  "text": "login"
+ },
+ {
+  "start": 496.5,
+  "end": 498.469,
+  "text": "order product"
+ },
+ {
+  "start": 498.479,
+  "end": 500.21,
+  "text": "start checkout"
+ },
+ {
+  "start": 500.22,
+  "end": 502.01,
+  "text": "checkout process"
+ },
+ {
+  "start": 502.02,
+  "end": 504.589,
+  "text": "verification of prices"
+ },
+ {
+  "start": 504.599,
+  "end": 506.27,
+  "text": "confirmation"
+ },
+ {
+  "start": 506.28,
+  "end": 508.85,
+  "text": "and verification of success"
+ },
+ {
+  "start": 508.86,
+  "end": 511.249,
+  "text": "so these are all the sequence of actions"
+ },
+ {
+  "start": 511.259,
+  "end": 513.889,
+  "text": "that I need to automate"
+ },
+ {
+  "start": 513.899,
+  "end": 517.37,
+  "text": "to automate my entire test case"
+ },
+ {
+  "start": 517.38,
+  "end": 521.449,
+  "text": "so now for this we need to create a"
+ },
+ {
+  "start": 521.459,
+  "end": 524.65,
+  "text": "folder structure in"
+ },
+ {
+  "start": 524.66,
+  "end": 528.25,
+  "text": "foreign"
+ },
+ {
+  "start": 531.35,
+  "end": 531.36,
+  "text": "I have already explained you a different"
+ },
+ {
+  "start": 531.36,
+  "end": 534.97,
+  "text": "sections of modules requirements"
+ },
+ {
+  "start": 534.98,
+  "end": 538.37,
+  "text": "execution test cases right I already"
+ },
+ {
+  "start": 538.38,
+  "end": 540.949,
+  "text": "explained in my previous session"
+ },
+ {
+  "start": 540.959,
+  "end": 543.17,
+  "text": "I would recommend you guys to visit"
+ },
+ {
+  "start": 543.18,
+  "end": 545.15,
+  "text": "previous session to understand more"
+ },
+ {
+  "start": 545.16,
+  "end": 548.509,
+  "text": "about current session okay so now"
+ },
+ {
+  "start": 548.519,
+  "end": 549.71,
+  "text": "first"
+ },
+ {
+  "start": 549.72,
+  "end": 552.829,
+  "text": "automate your test case you need to"
+ },
+ {
+  "start": 552.839,
+  "end": 557.03,
+  "text": "create a test case structure okay so for"
+ },
+ {
+  "start": 557.04,
+  "end": 560.21,
+  "text": "that first let me so this is my test"
+ },
+ {
+  "start": 560.22,
+  "end": 563.269,
+  "text": "case section so which is in blue and"
+ },
+ {
+  "start": 563.279,
+  "end": 565.31,
+  "text": "green color Okay blue color basically"
+ },
+ {
+  "start": 565.32,
+  "end": 566.87,
+  "text": "the blue color section is test case"
+ },
+ {
+  "start": 566.88,
+  "end": 569.21,
+  "text": "section okay I am in test case section"
+ },
+ {
+  "start": 569.22,
+  "end": 572.57,
+  "text": "first let me create right click on the"
+ },
+ {
+  "start": 572.58,
+  "end": 576.05,
+  "text": "test case the main test case folder"
+ },
+ {
+  "start": 576.06,
+  "end": 579.949,
+  "text": "and then create a folder"
+ },
+ {
+  "start": 579.959,
+  "end": 583.19,
+  "text": "this is our eighth session correct so I"
+ },
+ {
+  "start": 583.2,
+  "end": 585.829,
+  "text": "want to create a folder called zero"
+ },
+ {
+  "start": 585.839,
+  "end": 587.81,
+  "text": "eight"
+ },
+ {
+  "start": 587.82,
+  "end": 592.55,
+  "text": "sorry say okay zero eight"
+ },
+ {
+  "start": 592.56,
+  "end": 594.59,
+  "text": "in work okay"
+ },
+ {
+  "start": 594.6,
+  "end": 596.03,
+  "text": "let's"
+ },
+ {
+  "start": 596.04,
+  "end": 598.55,
+  "text": "under this folder I want to create"
+ },
+ {
+  "start": 598.56,
+  "end": 601.43,
+  "text": "another folder right click on the folder"
+ },
+ {
+  "start": 601.44,
+  "end": 604.61,
+  "text": "and click on create folder"
+ },
+ {
+  "start": 604.62,
+  "end": 607.55,
+  "text": "the name name this as session"
+ },
+ {
+  "start": 607.56,
+  "end": 611.09,
+  "text": "sorry session 0 8"
+ },
+ {
+  "start": 611.1,
+  "end": 613.73,
+  "text": "test case"
+ },
+ {
+  "start": 613.74,
+  "end": 616.13,
+  "text": "structure so we are creating test Square"
+ },
+ {
+  "start": 616.14,
+  "end": 617.99,
+  "text": "structure structure that's why I'm"
+ },
+ {
+  "start": 618.0,
+  "end": 620.449,
+  "text": "naming the test case folder as a test"
+ },
+ {
+  "start": 620.459,
+  "end": 621.829,
+  "text": "case structure"
+ },
+ {
+  "start": 621.839,
+  "end": 625.73,
+  "text": "okay what is our test case"
+ },
+ {
+  "start": 625.74,
+  "end": 627.65,
+  "text": "keeping cost basically what we are doing"
+ },
+ {
+  "start": 627.66,
+  "end": 629.389,
+  "text": "we are actually verifying the shipping"
+ },
+ {
+  "start": 629.399,
+  "end": 631.79,
+  "text": "cost and then successful message right I"
+ },
+ {
+  "start": 631.8,
+  "end": 634.79,
+  "text": "want to create a test case now in this"
+ },
+ {
+  "start": 634.8,
+  "end": 637.31,
+  "text": "folder see naming Convention of your"
+ },
+ {
+  "start": 637.32,
+  "end": 639.71,
+  "text": "folder structure are the folders and the"
+ },
+ {
+  "start": 639.72,
+  "end": 643.55,
+  "text": "test cases are very very important okay"
+ },
+ {
+  "start": 643.56,
+  "end": 646.49,
+  "text": "create right click and this is your"
+ },
+ {
+  "start": 646.5,
+  "end": 649.49,
+  "text": "folder I want to create a test case so"
+ },
+ {
+  "start": 649.5,
+  "end": 651.889,
+  "text": "this is the symbol of your test case the"
+ },
+ {
+  "start": 651.899,
+  "end": 655.25,
+  "text": "round circle with arrow okay create test"
+ },
+ {
+  "start": 655.26,
+  "end": 656.769,
+  "text": "case"
+ },
+ {
+  "start": 656.779,
+  "end": 660.35,
+  "text": "and name this as"
+ },
+ {
+  "start": 660.36,
+  "end": 662.87,
+  "text": "shipping"
+ },
+ {
+  "start": 662.88,
+  "end": 664.55,
+  "text": "costs"
+ },
+ {
+  "start": 664.56,
+  "end": 665.569,
+  "text": "okay"
+ },
+ {
+  "start": 665.579,
+  "end": 668.269,
+  "text": "so if you see here this is my test case"
+ },
+ {
+  "start": 668.279,
+  "end": 672.05,
+  "text": "okay and now you need to navigate to"
+ },
+ {
+  "start": 672.06,
+  "end": 674.81,
+  "text": "test cases how you just in the left side"
+ },
+ {
+  "start": 674.82,
+  "end": 677.389,
+  "text": "this is your high level work structure"
+ },
+ {
+  "start": 677.399,
+  "end": 679.91,
+  "text": "correct double click on this"
+ },
+ {
+  "start": 679.92,
+  "end": 682.569,
+  "text": "and the right side is where you will be"
+ },
+ {
+  "start": 682.579,
+  "end": 684.949,
+  "text": "planning or you will be writing your"
+ },
+ {
+  "start": 684.959,
+  "end": 689.03,
+  "text": "test steps okay so now as soon as you"
+ },
+ {
+  "start": 689.04,
+  "end": 692.509,
+  "text": "create your test case the work state"
+ },
+ {
+  "start": 692.519,
+  "end": 695.15,
+  "text": "needs to be changed see if you see by"
+ },
+ {
+  "start": 695.16,
+  "end": 698.03,
+  "text": "default work state is planned because"
+ },
+ {
+  "start": 698.04,
+  "end": 701.63,
+  "text": "now I started working on this particular"
+ },
+ {
+  "start": 701.64,
+  "end": 705.889,
+  "text": "test case mark this as in work I"
+ },
+ {
+  "start": 705.899,
+  "end": 707.569,
+  "text": "explained you the states of your test"
+ },
+ {
+  "start": 707.579,
+  "end": 710.87,
+  "text": "cases in my previous slide okay now my"
+ },
+ {
+  "start": 710.88,
+  "end": 714.05,
+  "text": "test case is in the work right I'm"
+ },
+ {
+  "start": 714.06,
+  "end": 716.09,
+  "text": "working on this test case"
+ },
+ {
+  "start": 716.1,
+  "end": 720.59,
+  "text": "here under this test case I need to"
+ },
+ {
+  "start": 720.6,
+  "end": 722.69,
+  "text": "create test step"
+ },
+ {
+  "start": 722.7,
+  "end": 725.81,
+  "text": "folder structure so this is my test case"
+ },
+ {
+  "start": 725.82,
+  "end": 728.09,
+  "text": "structure test case folder structure"
+ },
+ {
+  "start": 728.1,
+  "end": 732.05,
+  "text": "once I create a test case you need to"
+ },
+ {
+  "start": 732.06,
+  "end": 736.09,
+  "text": "create test step folder structure okay"
+ },
+ {
+  "start": 736.1,
+  "end": 740.35,
+  "text": "right click let me create three folders"
+ },
+ {
+  "start": 740.36,
+  "end": 742.31,
+  "text": "my first"
+ },
+ {
+  "start": 742.32,
+  "end": 745.31,
+  "text": "the step folder structure is"
+ },
+ {
+  "start": 745.32,
+  "end": 748.87,
+  "text": "precondition"
+ },
+ {
+  "start": 754.069,
+  "end": 754.079,
+  "text": "and then my second folder is a process"
+ },
+ {
+  "start": 754.079,
+  "end": 756.05,
+  "text": "actual process"
+ },
+ {
+  "start": 756.06,
+  "end": 759.949,
+  "text": "and then the third folder is"
+ },
+ {
+  "start": 759.959,
+  "end": 762.829,
+  "text": "post condition"
+ },
+ {
+  "start": 762.839,
+  "end": 766.009,
+  "text": "right so I created the folder structure"
+ },
+ {
+  "start": 766.019,
+  "end": 767.87,
+  "text": "of my test tips"
+ },
+ {
+  "start": 767.88,
+  "end": 770.569,
+  "text": "under this process let's expand to the"
+ },
+ {
+  "start": 770.579,
+  "end": 774.35,
+  "text": "left side okay under this process I want"
+ },
+ {
+  "start": 774.36,
+  "end": 777.59,
+  "text": "to create six different folders"
+ },
+ {
+  "start": 777.6,
+  "end": 780.949,
+  "text": "okay so for that you just click on"
+ },
+ {
+  "start": 780.959,
+  "end": 784.37,
+  "text": "process folder in the left pane so that"
+ },
+ {
+  "start": 784.38,
+  "end": 786.05,
+  "text": "the process will be opening in your"
+ },
+ {
+  "start": 786.06,
+  "end": 789.829,
+  "text": "right pin okay now I need to create"
+ },
+ {
+  "start": 789.839,
+  "end": 791.87,
+  "text": "six different folders"
+ },
+ {
+  "start": 791.88,
+  "end": 794.629,
+  "text": "right click so I explained you the"
+ },
+ {
+  "start": 794.639,
+  "end": 796.79,
+  "text": "process where the login process right"
+ },
+ {
+  "start": 796.8,
+  "end": 799.85,
+  "text": "login order"
+ },
+ {
+  "start": 799.86,
+  "end": 801.59,
+  "text": "product"
+ },
+ {
+  "start": 801.6,
+  "end": 803.99,
+  "text": "start checkout right so that is what I'm"
+ },
+ {
+  "start": 804.0,
+  "end": 805.25,
+  "text": "going to create now"
+ },
+ {
+  "start": 805.26,
+  "end": 808.79,
+  "text": "so first what is the process"
+ },
+ {
+  "start": 808.8,
+  "end": 811.31,
+  "text": "first I need to create or I need to"
+ },
+ {
+  "start": 811.32,
+  "end": 814.55,
+  "text": "order the product right order"
+ },
+ {
+  "start": 814.56,
+  "end": 816.05,
+  "text": "product"
+ },
+ {
+  "start": 816.06,
+  "end": 818.509,
+  "text": "once I order the product"
+ },
+ {
+  "start": 818.519,
+  "end": 822.949,
+  "text": "what is my test case flow start checkout"
+ },
+ {
+  "start": 822.959,
+  "end": 824.569,
+  "text": "start"
+ },
+ {
+  "start": 824.579,
+  "end": 826.37,
+  "text": "checkout"
+ },
+ {
+  "start": 826.38,
+  "end": 829.79,
+  "text": "once you start the checkout"
+ },
+ {
+  "start": 829.8,
+  "end": 832.43,
+  "text": "check out process need to complete"
+ },
+ {
+  "start": 832.44,
+  "end": 835.31,
+  "text": "correct so check out where you'll be"
+ },
+ {
+  "start": 835.32,
+  "end": 838.069,
+  "text": "entering your shipping method payment"
+ },
+ {
+  "start": 838.079,
+  "end": 840.829,
+  "text": "method and all these things check out"
+ },
+ {
+  "start": 840.839,
+  "end": 842.389,
+  "text": "process"
+ },
+ {
+  "start": 842.399,
+  "end": 845.389,
+  "text": "so checkout process is done and then you"
+ },
+ {
+  "start": 845.399,
+  "end": 847.67,
+  "text": "need to verify the prices"
+ },
+ {
+  "start": 847.68,
+  "end": 850.009,
+  "text": "so right click again"
+ },
+ {
+  "start": 850.019,
+  "end": 854.41,
+  "text": "create folder"
+ },
+ {
+  "start": 858.889,
+  "end": 858.899,
+  "text": "verification of prices"
+ },
+ {
+  "start": 858.899,
+  "end": 860.269,
+  "text": "right"
+ },
+ {
+  "start": 860.279,
+  "end": 862.31,
+  "text": "once that is done"
+ },
+ {
+  "start": 862.32,
+  "end": 865.49,
+  "text": "my next is confirmation I have to"
+ },
+ {
+  "start": 865.5,
+  "end": 870.23,
+  "text": "confirm the order right confirmation"
+ },
+ {
+  "start": 870.24,
+  "end": 871.37,
+  "text": "okay"
+ },
+ {
+  "start": 871.38,
+  "end": 873.769,
+  "text": "once confirmation is done"
+ },
+ {
+  "start": 873.779,
+  "end": 877.31,
+  "text": "you need to verify the successful order"
+ },
+ {
+  "start": 877.32,
+  "end": 880.25,
+  "text": "placement correct right click"
+ },
+ {
+  "start": 880.26,
+  "end": 882.41,
+  "text": "create folder"
+ },
+ {
+  "start": 882.42,
+  "end": 885.35,
+  "text": "verification"
+ },
+ {
+  "start": 885.36,
+  "end": 887.87,
+  "text": "of success"
+ },
+ {
+  "start": 887.88,
+  "end": 889.97,
+  "text": "verification of success"
+ },
+ {
+  "start": 889.98,
+  "end": 892.67,
+  "text": "right so now"
+ },
+ {
+  "start": 892.68,
+  "end": 894.949,
+  "text": "I have created six different folders"
+ },
+ {
+  "start": 894.959,
+  "end": 897.29,
+  "text": "under process so if you go to test case"
+ },
+ {
+  "start": 897.3,
+  "end": 898.73,
+  "text": "now"
+ },
+ {
+  "start": 898.74,
+  "end": 900.23,
+  "text": "if you see here"
+ },
+ {
+  "start": 900.24,
+  "end": 904.129,
+  "text": "this is my entire test case structure my"
+ },
+ {
+  "start": 904.139,
+  "end": 905.99,
+  "text": "test case is"
+ },
+ {
+  "start": 906.0,
+  "end": 908.449,
+  "text": "some test case like called test case"
+ },
+ {
+  "start": 908.459,
+  "end": 911.509,
+  "text": "structure under this I have created one"
+ },
+ {
+  "start": 911.519,
+  "end": 914.03,
+  "text": "test case called shipping costs"
+ },
+ {
+  "start": 914.04,
+  "end": 916.129,
+  "text": "under this test case I have created"
+ },
+ {
+  "start": 916.139,
+  "end": 918.71,
+  "text": "three main folders"
+ },
+ {
+  "start": 918.72,
+  "end": 922.73,
+  "text": "precondition process post condition"
+ },
+ {
+  "start": 922.74,
+  "end": 926.569,
+  "text": "and then under process I have defined"
+ },
+ {
+  "start": 926.579,
+  "end": 927.47,
+  "text": "the"
+ },
+ {
+  "start": 927.48,
+  "end": 931.61,
+  "text": "flow of the process order product start"
+ },
+ {
+  "start": 931.62,
+  "end": 934.67,
+  "text": "checkout checkout process verification"
+ },
+ {
+  "start": 934.68,
+  "end": 937.37,
+  "text": "of prices confirmation verification of"
+ },
+ {
+  "start": 937.38,
+  "end": 940.97,
+  "text": "success so that means now this test case"
+ },
+ {
+  "start": 940.98,
+  "end": 943.97,
+  "text": "is a meaningful test case"
+ },
+ {
+  "start": 943.98,
+  "end": 947.509,
+  "text": "this defines my business flow"
+ },
+ {
+  "start": 947.519,
+  "end": 950.389,
+  "text": "I created the test case structure with a"
+ },
+ {
+  "start": 950.399,
+  "end": 951.59,
+  "text": "business View"
+ },
+ {
+  "start": 951.6,
+  "end": 955.61,
+  "text": "right so for this session that is it so"
+ },
+ {
+  "start": 955.62,
+  "end": 957.53,
+  "text": "in the next session so once you create"
+ },
+ {
+  "start": 957.54,
+  "end": 961.79,
+  "text": "your test case structure now you need a"
+ },
+ {
+  "start": 961.8,
+  "end": 964.449,
+  "text": "technical I already explained about"
+ },
+ {
+  "start": 964.459,
+  "end": 966.889,
+  "text": "modules right where"
+ },
+ {
+  "start": 966.899,
+  "end": 969.41,
+  "text": "we store the technical information of"
+ },
+ {
+  "start": 969.42,
+  "end": 971.09,
+  "text": "your system under test"
+ },
+ {
+  "start": 971.1,
+  "end": 973.25,
+  "text": "and this is your"
+ },
+ {
+  "start": 973.26,
+  "end": 976.79,
+  "text": "test case structure so now we need to"
+ },
+ {
+  "start": 976.8,
+  "end": 979.31,
+  "text": "combine the technical information with"
+ },
+ {
+  "start": 979.32,
+  "end": 982.43,
+  "text": "this case structure and provide your"
+ },
+ {
+  "start": 982.44,
+  "end": 985.43,
+  "text": "business information or the test data"
+ },
+ {
+  "start": 985.44,
+  "end": 988.009,
+  "text": "that is required to steer your test case"
+ },
+ {
+  "start": 988.019,
+  "end": 992.569,
+  "text": "right so our first step of our"
+ },
+ {
+  "start": 992.579,
+  "end": 995.09,
+  "text": "test case automation is done"
+ },
+ {
+  "start": 995.1,
+  "end": 997.55,
+  "text": "so in the next session I am going to"
+ },
+ {
+  "start": 997.56,
+  "end": 1001.449,
+  "text": "teach you our next step to complete our"
+ },
+ {
+  "start": 1001.459,
+  "end": 1005.41,
+  "text": "s case automation by using task okay so"
+ },
+ {
+  "start": 1005.42,
+  "end": 1007.389,
+  "text": "if you have any queries"
+ },
+ {
+  "start": 1007.399,
+  "end": 1009.31,
+  "text": "provide your comments in the comment box"
+ },
+ {
+  "start": 1009.32,
+  "end": 1011.35,
+  "text": "I'll try to respond to your queries"
+ },
+ {
+  "start": 1011.36,
+  "end": 1019.48,
+  "text": "thank you"
+ }
+]

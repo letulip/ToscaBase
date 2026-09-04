@@ -1,0 +1,902 @@
+[
+ {
+  "start": 12.589,
+  "end": 12.599,
+  "text": "hi everyone this is Ravi welcome to"
+ },
+ {
+  "start": 12.599,
+  "end": 15.51,
+  "text": "tricentis tasa Advanced"
+ },
+ {
+  "start": 15.52,
+  "end": 18.109,
+  "text": "Training as you all know I already"
+ },
+ {
+  "start": 18.119,
+  "end": 22.029,
+  "text": "published 63 YouTube videos covering"
+ },
+ {
+  "start": 22.039,
+  "end": 25.47,
+  "text": "beginners level intermediate level and"
+ },
+ {
+  "start": 25.48,
+  "end": 28.39,
+  "text": "advanced level concepts of tricentis"
+ },
+ {
+  "start": 28.4,
+  "end": 31.99,
+  "text": "tasa from couple of videos onwards have"
+ },
+ {
+  "start": 32.0,
+  "end": 34.47,
+  "text": "started teaching you the realtime"
+ },
+ {
+  "start": 34.48,
+  "end": 38.11,
+  "text": "scenarios where you might encounter"
+ },
+ {
+  "start": 38.12,
+  "end": 40.43,
+  "text": "different types of"
+ },
+ {
+  "start": 40.44,
+  "end": 43.47,
+  "text": "obstacles and how can we solve those"
+ },
+ {
+  "start": 43.48,
+  "end": 46.27,
+  "text": "obstacles while automating your test"
+ },
+ {
+  "start": 46.28,
+  "end": 49.31,
+  "text": "cases please do subscribe to the channel"
+ },
+ {
+  "start": 49.32,
+  "end": 50.83,
+  "text": "click on Bell icon you'll receive"
+ },
+ {
+  "start": 50.84,
+  "end": 53.389,
+  "text": "notifications whenever I publish more"
+ },
+ {
+  "start": 53.399,
+  "end": 58.15,
+  "text": "videos this is lesson 64 in terms of"
+ },
+ {
+  "start": 58.16,
+  "end": 60.63,
+  "text": "overall tricentis tasa automation"
+ },
+ {
+  "start": 60.64,
+  "end": 64.509,
+  "text": "training and this is obstacle 22 in"
+ },
+ {
+  "start": 64.519,
+  "end": 67.03,
+  "text": "terms of realtime"
+ },
+ {
+  "start": 67.04,
+  "end": 69.51,
+  "text": "scenarios in this lesson I'm going to"
+ },
+ {
+  "start": 69.52,
+  "end": 72.749,
+  "text": "teach you how can we solve an"
+ },
+ {
+  "start": 72.759,
+  "end": 77.71,
+  "text": "obstacle to interact with the dynamic"
+ },
+ {
+  "start": 77.72,
+  "end": 81.59,
+  "text": "table and how can you perform table"
+ },
+ {
+  "start": 81.6,
+  "end": 84.95,
+  "text": "search for a specific cell value based"
+ },
+ {
+  "start": 84.96,
+  "end": 89.91,
+  "text": "on your row and the column values by"
+ },
+ {
+  "start": 89.92,
+  "end": 93.429,
+  "text": "using the buffer action mode and table"
+ },
+ {
+  "start": 93.439,
+  "end": 98.069,
+  "text": "search methods now let us see in detail"
+ },
+ {
+  "start": 98.079,
+  "end": 100.19,
+  "text": "what is the obstacle that we need to"
+ },
+ {
+  "start": 100.2,
+  "end": 101.27,
+  "text": "solve"
+ },
+ {
+  "start": 101.28,
+  "end": 104.59,
+  "text": "for so this is our obstacle that we are"
+ },
+ {
+  "start": 104.6,
+  "end": 107.27,
+  "text": "going to solve for the obstacle name is"
+ },
+ {
+  "start": 107.28,
+  "end": 110.51,
+  "text": "meeting Schuler and which is categorized"
+ },
+ {
+  "start": 110.52,
+  "end": 113.27,
+  "text": "as easy so let us go for it to"
+ },
+ {
+  "start": 113.28,
+  "end": 114.31,
+  "text": "understand the"
+ },
+ {
+  "start": 114.32,
+  "end": 119.109,
+  "text": "obstacle so if you see here is the room"
+ },
+ {
+  "start": 119.119,
+  "end": 121.069,
+  "text": "available on"
+ },
+ {
+  "start": 121.079,
+  "end": 124.83,
+  "text": "Thursday 11 to 1"
+ },
+ {
+  "start": 124.84,
+  "end": 128.749,
+  "text": "p.m. WR open or closed so you can see"
+ },
+ {
+  "start": 128.759,
+  "end": 133.83,
+  "text": "here this table has the time schedules 9"
+ },
+ {
+  "start": 133.84,
+  "end": 141.39,
+  "text": "to 11 11: 1 1 2 3 and 3 to 5 so"
+ },
+ {
+  "start": 141.4,
+  "end": 144.39,
+  "text": "this so this particular column values"
+ },
+ {
+  "start": 144.4,
+  "end": 148.35,
+  "text": "are constant these are not changing and"
+ },
+ {
+  "start": 148.36,
+  "end": 151.509,
+  "text": "you also have The"
+ },
+ {
+  "start": 151.519,
+  "end": 154.309,
+  "text": "Columns Monday Tuesday Wednesday"
+ },
+ {
+  "start": 154.319,
+  "end": 158.63,
+  "text": "Thursday Friday but but the values"
+ },
+ {
+  "start": 158.64,
+  "end": 163.03,
+  "text": "either the time slot is open or closed"
+ },
+ {
+  "start": 163.04,
+  "end": 165.149,
+  "text": "for this particular day on this"
+ },
+ {
+  "start": 165.159,
+  "end": 168.75,
+  "text": "particular time is dynamic so let me"
+ },
+ {
+  "start": 168.76,
+  "end": 171.229,
+  "text": "refresh again okay if I"
+ },
+ {
+  "start": 171.239,
+  "end": 175.03,
+  "text": "refresh so you can see here now on"
+ },
+ {
+  "start": 175.04,
+  "end": 177.949,
+  "text": "Thursday from 11: to"
+ },
+ {
+  "start": 177.959,
+  "end": 180.509,
+  "text": "13 now I can see"
+ },
+ {
+  "start": 180.519,
+  "end": 183.27,
+  "text": "the schedule is open so it keeps on"
+ },
+ {
+  "start": 183.28,
+  "end": 186.07,
+  "text": "changing it is not constant so basically"
+ },
+ {
+  "start": 186.08,
+  "end": 189.71,
+  "text": "you need to enter whether the schedule"
+ },
+ {
+  "start": 189.72,
+  "end": 193.149,
+  "text": "on Thursday from 11: to 13 is open or"
+ },
+ {
+  "start": 193.159,
+  "end": 195.83,
+  "text": "closed so that's what we are going to"
+ },
+ {
+  "start": 195.84,
+  "end": 198.75,
+  "text": "validate so now it is very easy to"
+ },
+ {
+  "start": 198.76,
+  "end": 201.39,
+  "text": "automate the scenario why because we"
+ },
+ {
+  "start": 201.4,
+  "end": 203.99,
+  "text": "already know that we have to consider a"
+ },
+ {
+  "start": 204.0,
+  "end": 206.99,
+  "text": "row which has the"
+ },
+ {
+  "start": 207.0,
+  "end": 210.67,
+  "text": "time period between 11 to 13 that means"
+ },
+ {
+  "start": 210.68,
+  "end": 215.07,
+  "text": "the row is constant and also you have to"
+ },
+ {
+  "start": 215.08,
+  "end": 217.309,
+  "text": "search for the availability on Thursday"
+ },
+ {
+  "start": 217.319,
+  "end": 219.11,
+  "text": "itself that means your column is also"
+ },
+ {
+  "start": 219.12,
+  "end": 221.07,
+  "text": "constant you know the row and you know"
+ },
+ {
+  "start": 221.08,
+  "end": 225.07,
+  "text": "the column so it is very easy to"
+ },
+ {
+  "start": 225.08,
+  "end": 228.63,
+  "text": "validate the schedule whether it is open"
+ },
+ {
+  "start": 228.64,
+  "end": 232.55,
+  "text": "or closed on particular day so for that"
+ },
+ {
+  "start": 232.56,
+  "end": 236.27,
+  "text": "let us go back to our trient"
+ },
+ {
+  "start": 240.83,
+  "end": 240.84,
+  "text": "tosa and here as usual you need to right"
+ },
+ {
+  "start": 240.84,
+  "end": 242.429,
+  "text": "click on obstacles"
+ },
+ {
+  "start": 242.439,
+  "end": 248.309,
+  "text": "folder select scan and click on"
+ },
+ {
+  "start": 250.429,
+  "end": 250.439,
+  "text": "application so this is the application I"
+ },
+ {
+  "start": 250.439,
+  "end": 251.869,
+  "text": "would like to select select the"
+ },
+ {
+  "start": 251.879,
+  "end": 258.39,
+  "text": "application click on"
+ },
+ {
+  "start": 260.949,
+  "end": 260.959,
+  "text": "scan so here for this particular test"
+ },
+ {
+  "start": 260.959,
+  "end": 263.35,
+  "text": "case we need to capture the web table"
+ },
+ {
+  "start": 263.36,
+  "end": 267.31,
+  "text": "and edit box so this is my Tim"
+ },
+ {
+  "start": 267.32,
+  "end": 271.11,
+  "text": "table is a web table and this is my"
+ },
+ {
+  "start": 271.12,
+  "end": 272.909,
+  "text": "result"
+ },
+ {
+  "start": 272.919,
+  "end": 277.469,
+  "text": "text select both of them now name the"
+ },
+ {
+  "start": 277.479,
+  "end": 281.79,
+  "text": "module with the obstacle name simply"
+ },
+ {
+  "start": 281.8,
+  "end": 285.51,
+  "text": "copy this obstacle name and paste the"
+ },
+ {
+  "start": 285.52,
+  "end": 289.31,
+  "text": "obstacle name as module name now save"
+ },
+ {
+  "start": 289.32,
+  "end": 290.83,
+  "text": "the"
+ },
+ {
+  "start": 290.84,
+  "end": 295.39,
+  "text": "module and close your X scan so let us"
+ },
+ {
+  "start": 295.4,
+  "end": 298.43,
+  "text": "go back to Tri and tasa so you can see"
+ },
+ {
+  "start": 298.44,
+  "end": 301.23,
+  "text": "here now the new module whatever we"
+ },
+ {
+  "start": 301.24,
+  "end": 305.87,
+  "text": "scanned which is this one 41"
+ },
+ {
+  "start": 305.88,
+  "end": 308.55,
+  "text": "037 can see here you have time table and"
+ },
+ {
+  "start": 308.56,
+  "end": 311.189,
+  "text": "then result text so let us go back to"
+ },
+ {
+  "start": 311.199,
+  "end": 313.95,
+  "text": "our test case section"
+ },
+ {
+  "start": 313.96,
+  "end": 317.469,
+  "text": "now as you all know we are capturing"
+ },
+ {
+  "start": 317.479,
+  "end": 321.749,
+  "text": "every test case under obstacle folder so"
+ },
+ {
+  "start": 321.759,
+  "end": 323.99,
+  "text": "in the same way for this obstacle as"
+ },
+ {
+  "start": 324.0,
+  "end": 327.43,
+  "text": "well right click on obstacle folder test"
+ },
+ {
+  "start": 327.44,
+  "end": 329.95,
+  "text": "case folder and select create test test"
+ },
+ {
+  "start": 329.96,
+  "end": 332.55,
+  "text": "case and name this test case with the"
+ },
+ {
+  "start": 332.56,
+  "end": 334.87,
+  "text": "same name as"
+ },
+ {
+  "start": 334.88,
+  "end": 338.35,
+  "text": "obstacle okay and now double click on"
+ },
+ {
+  "start": 338.36,
+  "end": 341.51,
+  "text": "this and go to your test case so to"
+ },
+ {
+  "start": 341.52,
+  "end": 344.629,
+  "text": "start automating your test case I need"
+ },
+ {
+  "start": 344.639,
+  "end": 347.55,
+  "text": "to drag this module and drop onto your"
+ },
+ {
+  "start": 347.56,
+  "end": 349.469,
+  "text": "test"
+ },
+ {
+  "start": 349.479,
+  "end": 353.469,
+  "text": "case now let's expand the test case so"
+ },
+ {
+  "start": 353.479,
+  "end": 358.39,
+  "text": "here we already know that we need to"
+ },
+ {
+  "start": 358.4,
+  "end": 363.35,
+  "text": "validate the the row which contains the"
+ },
+ {
+  "start": 363.36,
+  "end": 366.83,
+  "text": "value 11 to 13 so I would like to copy"
+ },
+ {
+  "start": 366.84,
+  "end": 371.469,
+  "text": "this value and here you need to Simply"
+ },
+ {
+  "start": 371.479,
+  "end": 377.589,
+  "text": "provide the row name as 11 to13 so let's"
+ },
+ {
+  "start": 377.599,
+  "end": 381.79,
+  "text": "do this 11 to 13 so I'm instructing"
+ },
+ {
+  "start": 381.8,
+  "end": 384.95,
+  "text": "tasar to select the row which has the"
+ },
+ {
+  "start": 384.96,
+  "end": 388.749,
+  "text": "value 11 to 13 so action mode is Select"
+ },
+ {
+  "start": 388.759,
+  "end": 391.95,
+  "text": "and now what is the column that you need"
+ },
+ {
+  "start": 391.96,
+  "end": 396.309,
+  "text": "to verify expand this cell you can see"
+ },
+ {
+  "start": 396.319,
+  "end": 398.629,
+  "text": "here it is showing Monday Tuesday"
+ },
+ {
+  "start": 398.639,
+  "end": 401.87,
+  "text": "Wednesday Thursday as per our use case"
+ },
+ {
+  "start": 401.88,
+  "end": 405.27,
+  "text": "you need to see the availability on"
+ },
+ {
+  "start": 405.28,
+  "end": 409.95,
+  "text": "Thursday so select the cell as or the"
+ },
+ {
+  "start": 409.96,
+  "end": 413.23,
+  "text": "column as"
+ },
+ {
+  "start": 413.24,
+  "end": 418.029,
+  "text": "Thursday right I'm selecting the column"
+ },
+ {
+  "start": 418.039,
+  "end": 421.51,
+  "text": "as Thursday and"
+ },
+ {
+  "start": 421.52,
+  "end": 425.95,
+  "text": "now as soon as it meets the criteria I"
+ },
+ {
+  "start": 425.96,
+  "end": 429.189,
+  "text": "would like to store the value into a"
+ },
+ {
+  "start": 429.199,
+  "end": 432.39,
+  "text": "buffer what I'm going to do here I'm"
+ },
+ {
+  "start": 432.4,
+  "end": 437.07,
+  "text": "going to specify the buffer name"
+ },
+ {
+  "start": 438.67,
+  "end": 438.68,
+  "text": "here"
+ },
+ {
+  "start": 438.68,
+  "end": 442.749,
+  "text": "bore status what is the"
+ },
+ {
+  "start": 442.759,
+  "end": 446.15,
+  "text": "status whether it is open or closed so"
+ },
+ {
+  "start": 446.16,
+  "end": 449.749,
+  "text": "bore status is the buffer but here here"
+ },
+ {
+  "start": 449.759,
+  "end": 452.43,
+  "text": "I'm not verifying it instead I'm"
+ },
+ {
+  "start": 452.44,
+  "end": 455.99,
+  "text": "actually buffering it so I would like to"
+ },
+ {
+  "start": 456.0,
+  "end": 458.43,
+  "text": "buffer the"
+ },
+ {
+  "start": 458.44,
+  "end": 460.909,
+  "text": "value which is"
+ },
+ {
+  "start": 460.919,
+  "end": 466.79,
+  "text": "available in row 11 to 13 and column"
+ },
+ {
+  "start": 466.8,
+  "end": 470.029,
+  "text": "Thursday right so storing that into your"
+ },
+ {
+  "start": 470.039,
+  "end": 474.029,
+  "text": "buffer and now I need to enter the same"
+ },
+ {
+  "start": 474.039,
+  "end": 475.43,
+  "text": "thing"
+ },
+ {
+  "start": 475.44,
+  "end": 479.95,
+  "text": "here whether it is open or closed"
+ },
+ {
+  "start": 479.96,
+  "end": 483.07,
+  "text": "I'm going to call this buffer into a"
+ },
+ {
+  "start": 483.08,
+  "end": 485.79,
+  "text": "edit box I'm going to enter the buffer"
+ },
+ {
+  "start": 485.8,
+  "end": 489.55,
+  "text": "value in the edit box so open curly"
+ },
+ {
+  "start": 489.56,
+  "end": 493.469,
+  "text": "braces capital B open Square"
+ },
+ {
+  "start": 493.479,
+  "end": 496.149,
+  "text": "braces"
+ },
+ {
+  "start": 496.159,
+  "end": 498.309,
+  "text": "bore"
+ },
+ {
+  "start": 498.319,
+  "end": 502.469,
+  "text": "status close Square bra close curly"
+ },
+ {
+  "start": 502.479,
+  "end": 505.909,
+  "text": "braces and your action mode is"
+ },
+ {
+  "start": 505.919,
+  "end": 510.749,
+  "text": "input so now let us chain the work state"
+ },
+ {
+  "start": 510.759,
+  "end": 512.149,
+  "text": "as"
+ },
+ {
+  "start": 512.159,
+  "end": 516.19,
+  "text": "completed and save your test case now"
+ },
+ {
+  "start": 516.2,
+  "end": 518.389,
+  "text": "let me execute the test case and see if"
+ },
+ {
+  "start": 518.399,
+  "end": 519.19,
+  "text": "it"
+ },
+ {
+  "start": 519.2,
+  "end": 529.99,
+  "text": "works right click and run in"
+ },
+ {
+  "start": 534.63,
+  "end": 534.64,
+  "text": "scratchbook it entered open because on"
+ },
+ {
+  "start": 534.64,
+  "end": 536.949,
+  "text": "Thursday 11 to 13 it is open that's why"
+ },
+ {
+  "start": 536.959,
+  "end": 539.15,
+  "text": "it entered open hence your automation"
+ },
+ {
+  "start": 539.16,
+  "end": 541.949,
+  "text": "problem solved successfully so let me"
+ },
+ {
+  "start": 541.959,
+  "end": 543.71,
+  "text": "try this"
+ },
+ {
+  "start": 543.72,
+  "end": 546.67,
+  "text": "again so now you can see here"
+ },
+ {
+  "start": 546.68,
+  "end": 552.31,
+  "text": "now 11 to13 on Thursday your schedule is"
+ },
+ {
+  "start": 552.32,
+  "end": 554.949,
+  "text": "closed let me run this if it works or"
+ },
+ {
+  "start": 554.959,
+  "end": 565.35,
+  "text": "not we'll see right click and run in"
+ },
+ {
+  "start": 569.03,
+  "end": 569.04,
+  "text": "scratchbook now it entered as closed you"
+ },
+ {
+  "start": 569.04,
+  "end": 571.03,
+  "text": "can see here now it entered as closed"
+ },
+ {
+  "start": 571.04,
+  "end": 574.11,
+  "text": "and your automation problem is solved"
+ },
+ {
+  "start": 574.12,
+  "end": 576.31,
+  "text": "successfully so if you have any queries"
+ },
+ {
+  "start": 576.32,
+  "end": 577.829,
+  "text": "leave your queries in the comment box"
+ },
+ {
+  "start": 577.839,
+  "end": 580.67,
+  "text": "I'll try to respond to your queries hope"
+ },
+ {
+  "start": 580.68,
+  "end": 583.47,
+  "text": "you all understand how can we solve an"
+ },
+ {
+  "start": 583.48,
+  "end": 586.269,
+  "text": "obstacle where you need to interact with"
+ },
+ {
+  "start": 586.279,
+  "end": 588.59,
+  "text": "the dynamic table and you need to"
+ },
+ {
+  "start": 588.6,
+  "end": 592.03,
+  "text": "perform a table search for a specific"
+ },
+ {
+  "start": 592.04,
+  "end": 596.949,
+  "text": "cell value based on the row and column"
+ },
+ {
+  "start": 596.959,
+  "end": 600.35,
+  "text": "by using buffer action mode and table"
+ },
+ {
+  "start": 600.36,
+  "end": 604.31,
+  "text": "search method please do subscribe to the"
+ },
+ {
+  "start": 604.32,
+  "end": 606.19,
+  "text": "channel click on Bell icon you'll"
+ },
+ {
+  "start": 606.2,
+  "end": 608.63,
+  "text": "receive notifications whenever I publish"
+ },
+ {
+  "start": 608.64,
+  "end": 612.11,
+  "text": "more videos don't forget to like and"
+ },
+ {
+  "start": 612.12,
+  "end": 620.03,
+  "text": "share the video"
+ }
+]

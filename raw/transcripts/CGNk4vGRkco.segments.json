@@ -1,0 +1,2527 @@
+[
+ {
+  "start": 13.509,
+  "end": 13.519,
+  "text": "hi everyone this is Ravi welcome to"
+ },
+ {
+  "start": 13.519,
+  "end": 16.109,
+  "text": "trien tasa automation"
+ },
+ {
+  "start": 16.119,
+  "end": 18.79,
+  "text": "tutorial as you all know I already"
+ },
+ {
+  "start": 18.8,
+  "end": 23.15,
+  "text": "published 41 YouTube videos covering"
+ },
+ {
+  "start": 23.16,
+  "end": 25.47,
+  "text": "beginners intermediate and advanced"
+ },
+ {
+  "start": 25.48,
+  "end": 28.71,
+  "text": "level Concepts and I already published"
+ },
+ {
+  "start": 28.72,
+  "end": 32.15,
+  "text": "around 26 YouTube videos covering"
+ },
+ {
+  "start": 32.16,
+  "end": 33.95,
+  "text": "advanced level"
+ },
+ {
+  "start": 33.96,
+  "end": 37.549,
+  "text": "Concepts so from past two YouTube videos"
+ },
+ {
+  "start": 37.559,
+  "end": 39.91,
+  "text": "we started working on multi-user"
+ },
+ {
+  "start": 39.92,
+  "end": 44.43,
+  "text": "workspaces in trient Tasco so now let us"
+ },
+ {
+  "start": 44.44,
+  "end": 47.31,
+  "text": "understand how can you create and manage"
+ },
+ {
+  "start": 47.32,
+  "end": 52.31,
+  "text": "the branches in multi-user"
+ },
+ {
+  "start": 55.91,
+  "end": 55.92,
+  "text": "workspace this is our lesson 42 in terms"
+ },
+ {
+  "start": 55.92,
+  "end": 58.709,
+  "text": "of overall tasa automation Concepts and"
+ },
+ {
+  "start": 58.719,
+  "end": 61.11,
+  "text": "this is our lesson 27 in terms of"
+ },
+ {
+  "start": 61.12,
+  "end": 62.59,
+  "text": "advanced level"
+ },
+ {
+  "start": 62.6,
+  "end": 64.429,
+  "text": "Concepts in this"
+ },
+ {
+  "start": 64.439,
+  "end": 66.789,
+  "text": "lesson we are going to explore some more"
+ },
+ {
+  "start": 66.799,
+  "end": 69.31,
+  "text": "features of multi-user"
+ },
+ {
+  "start": 69.32,
+  "end": 71.91,
+  "text": "workspace I'm going to teach you how can"
+ },
+ {
+  "start": 71.92,
+  "end": 74.83,
+  "text": "we create the branches and then how can"
+ },
+ {
+  "start": 74.84,
+  "end": 77.51,
+  "text": "we manage the branches and how can we"
+ },
+ {
+  "start": 77.52,
+  "end": 81.429,
+  "text": "delete the branches within trient TSA"
+ },
+ {
+  "start": 81.439,
+  "end": 84.069,
+  "text": "when you are using multi-user"
+ },
+ {
+  "start": 84.079,
+  "end": 86.39,
+  "text": "workspace please do subscribe to the"
+ },
+ {
+  "start": 86.4,
+  "end": 88.31,
+  "text": "channel click on Bell icon you'll"
+ },
+ {
+  "start": 88.32,
+  "end": 89.91,
+  "text": "receive notifications whenever I publish"
+ },
+ {
+  "start": 89.92,
+  "end": 93.71,
+  "text": "publish more videos thank"
+ },
+ {
+  "start": 93.72,
+  "end": 97.95,
+  "text": "you okay so let us first understand what"
+ },
+ {
+  "start": 97.96,
+  "end": 101.389,
+  "text": "do you mean by create and manage"
+ },
+ {
+  "start": 101.399,
+  "end": 104.23,
+  "text": "branches so if you are familiar with"
+ },
+ {
+  "start": 104.24,
+  "end": 107.789,
+  "text": "GitHub or git"
+ },
+ {
+  "start": 111.149,
+  "end": 111.159,
+  "text": "reposit everyone knows that in an"
+ },
+ {
+  "start": 111.159,
+  "end": 114.95,
+  "text": "organization whenever you maintain the"
+ },
+ {
+  "start": 114.96,
+  "end": 115.87,
+  "text": "code"
+ },
+ {
+  "start": 115.88,
+  "end": 120.709,
+  "text": "Base by automation team or by Developers"
+ },
+ {
+  "start": 120.719,
+  "end": 124.55,
+  "text": "you need to have a common"
+ },
+ {
+  "start": 124.56,
+  "end": 127.87,
+  "text": "repository to check in and check out"
+ },
+ {
+  "start": 127.88,
+  "end": 132.83,
+  "text": "your code Base by multiple team members"
+ },
+ {
+  "start": 132.84,
+  "end": 135.19,
+  "text": "so that is where this multi-user"
+ },
+ {
+  "start": 135.2,
+  "end": 138.27,
+  "text": "workspace came into picture right so we"
+ },
+ {
+  "start": 138.28,
+  "end": 141.71,
+  "text": "created multi-user workspace and we"
+ },
+ {
+  "start": 141.72,
+  "end": 144.229,
+  "text": "created a repository for multi user"
+ },
+ {
+  "start": 144.239,
+  "end": 146.47,
+  "text": "workspace in our previous two video"
+ },
+ {
+  "start": 146.48,
+  "end": 150.75,
+  "text": "sessions but now apart from create"
+ },
+ {
+  "start": 150.76,
+  "end": 152.55,
+  "text": "a multi-user"
+ },
+ {
+  "start": 152.56,
+  "end": 156.03,
+  "text": "repository you need to maintain the"
+ },
+ {
+  "start": 156.04,
+  "end": 159.39,
+  "text": "branches so basically you need to have a"
+ },
+ {
+  "start": 159.4,
+  "end": 163.35,
+  "text": "one master branch and then you need to"
+ },
+ {
+  "start": 163.36,
+  "end": 165.99,
+  "text": "have a separate"
+ },
+ {
+  "start": 166.0,
+  "end": 169.71,
+  "text": "branches for either different"
+ },
+ {
+  "start": 169.72,
+  "end": 173.55,
+  "text": "applications or different modules or for"
+ },
+ {
+  "start": 173.56,
+  "end": 177.03,
+  "text": "different teams let's assume you are"
+ },
+ {
+  "start": 177.04,
+  "end": 180.67,
+  "text": "maintaining a very big project"
+ },
+ {
+  "start": 180.68,
+  "end": 184.149,
+  "text": "and there are multiple teams working on"
+ },
+ {
+  "start": 184.159,
+  "end": 188.19,
+  "text": "this particular big project and there"
+ },
+ {
+  "start": 188.2,
+  "end": 191.35,
+  "text": "might be chances of having multiple"
+ },
+ {
+  "start": 191.36,
+  "end": 193.949,
+  "text": "applications and each application might"
+ },
+ {
+  "start": 193.959,
+  "end": 196.83,
+  "text": "have multiple team members or multiple"
+ },
+ {
+  "start": 196.84,
+  "end": 199.07,
+  "text": "teams so in that"
+ },
+ {
+  "start": 199.08,
+  "end": 202.99,
+  "text": "case you should have a master"
+ },
+ {
+  "start": 203.0,
+  "end": 208.19,
+  "text": "Branch where the entire automation code"
+ },
+ {
+  "start": 208.2,
+  "end": 211.03,
+  "text": "once it is reviewed exec Ed successfully"
+ },
+ {
+  "start": 211.04,
+  "end": 215.83,
+  "text": "right so then you need to move this"
+ },
+ {
+  "start": 215.84,
+  "end": 217.47,
+  "text": "working"
+ },
+ {
+  "start": 217.48,
+  "end": 221.789,
+  "text": "quality code base are the tasar scripts"
+ },
+ {
+  "start": 221.799,
+  "end": 223.11,
+  "text": "to The Master"
+ },
+ {
+  "start": 223.12,
+  "end": 226.949,
+  "text": "Branch however multiple team members"
+ },
+ {
+  "start": 226.959,
+  "end": 230.509,
+  "text": "might work on multiple applications or"
+ },
+ {
+  "start": 230.519,
+  "end": 232.39,
+  "text": "they might work on different"
+ },
+ {
+  "start": 232.4,
+  "end": 233.91,
+  "text": "modules"
+ },
+ {
+  "start": 233.92,
+  "end": 239.03,
+  "text": "and we can create Branch for each team"
+ },
+ {
+  "start": 239.04,
+  "end": 242.27,
+  "text": "so that they can work on their own"
+ },
+ {
+  "start": 242.28,
+  "end": 245.27,
+  "text": "applications and branches within their"
+ },
+ {
+  "start": 245.28,
+  "end": 247.39,
+  "text": "Branch let's assume you have three team"
+ },
+ {
+  "start": 247.4,
+  "end": 248.47,
+  "text": "members"
+ },
+ {
+  "start": 248.48,
+  "end": 251.71,
+  "text": "teams so you can create three different"
+ },
+ {
+  "start": 251.72,
+  "end": 255.03,
+  "text": "branches so that each team can work on"
+ },
+ {
+  "start": 255.04,
+  "end": 259.31,
+  "text": "their own Branch so once they complete"
+ },
+ {
+  "start": 259.32,
+  "end": 261.67,
+  "text": "working on their own"
+ },
+ {
+  "start": 261.68,
+  "end": 264.55,
+  "text": "branches the lead will be reviewing"
+ },
+ {
+  "start": 264.56,
+  "end": 267.23,
+  "text": "their branch code right they are going"
+ },
+ {
+  "start": 267.24,
+  "end": 269.43,
+  "text": "to review all their test cases they're"
+ },
+ {
+  "start": 269.44,
+  "end": 271.59,
+  "text": "going to execute the test cases to make"
+ },
+ {
+  "start": 271.6,
+  "end": 273.55,
+  "text": "sure that whatever the automated test"
+ },
+ {
+  "start": 273.56,
+  "end": 277.749,
+  "text": "cases that are working as expected and"
+ },
+ {
+  "start": 277.759,
+  "end": 282.11,
+  "text": "then admin user will come into picture"
+ },
+ {
+  "start": 282.12,
+  "end": 284.39,
+  "text": "and then he is going to"
+ },
+ {
+  "start": 284.4,
+  "end": 288.95,
+  "text": "merge this Branch level code base to the"
+ },
+ {
+  "start": 288.96,
+  "end": 291.27,
+  "text": "master"
+ },
+ {
+  "start": 291.28,
+  "end": 294.749,
+  "text": "Branch right so that's why we need to"
+ },
+ {
+  "start": 294.759,
+  "end": 299.189,
+  "text": "maintain a separate Master Branch but we"
+ },
+ {
+  "start": 299.199,
+  "end": 302.029,
+  "text": "need to maintain separate branches at"
+ },
+ {
+  "start": 302.039,
+  "end": 306.79,
+  "text": "application Level or at teams"
+ },
+ {
+  "start": 306.8,
+  "end": 309.11,
+  "text": "level see the diagram this is your"
+ },
+ {
+  "start": 309.12,
+  "end": 312.07,
+  "text": "master Branch presenting in blue color"
+ },
+ {
+  "start": 312.08,
+  "end": 315.67,
+  "text": "and these are your branches from the"
+ },
+ {
+  "start": 315.68,
+  "end": 316.55,
+  "text": "team"
+ },
+ {
+  "start": 316.56,
+  "end": 319.79,
+  "text": "members so let's say this is team a team"
+ },
+ {
+  "start": 319.8,
+  "end": 322.629,
+  "text": "B Team C right team a will be working on"
+ },
+ {
+  "start": 322.639,
+  "end": 324.43,
+  "text": "their own changes and they'll be"
+ },
+ {
+  "start": 324.44,
+  "end": 326.67,
+  "text": "automating and they will be executing"
+ },
+ {
+  "start": 326.68,
+  "end": 328.15,
+  "text": "the test cases and make sure everything"
+ },
+ {
+  "start": 328.16,
+  "end": 330.87,
+  "text": "working fine team be working on their"
+ },
+ {
+  "start": 330.88,
+  "end": 333.27,
+  "text": "own modules and they'll be creating"
+ },
+ {
+  "start": 333.28,
+  "end": 335.27,
+  "text": "their own test cases they will execute"
+ },
+ {
+  "start": 335.28,
+  "end": 336.909,
+  "text": "and they'll make sure everything working"
+ },
+ {
+  "start": 336.919,
+  "end": 338.189,
+  "text": "fine"
+ },
+ {
+  "start": 338.199,
+  "end": 341.23,
+  "text": "once everything is pushed into their own"
+ },
+ {
+  "start": 341.24,
+  "end": 345.309,
+  "text": "branches now the code base has to merge"
+ },
+ {
+  "start": 345.319,
+  "end": 348.189,
+  "text": "into a master Branch so that it will"
+ },
+ {
+  "start": 348.199,
+  "end": 351.909,
+  "text": "have latest and greatest workable test"
+ },
+ {
+  "start": 351.919,
+  "end": 353.67,
+  "text": "case automation"
+ },
+ {
+  "start": 353.68,
+  "end": 356.469,
+  "text": "suite and this we will be using for the"
+ },
+ {
+  "start": 356.479,
+  "end": 358.11,
+  "text": "release"
+ },
+ {
+  "start": 358.12,
+  "end": 360.55,
+  "text": "execution okay so that is what I'm going"
+ },
+ {
+  "start": 360.56,
+  "end": 363.469,
+  "text": "to explain in this session how can we"
+ },
+ {
+  "start": 363.479,
+  "end": 367.39,
+  "text": "create master branch in tric tasa how"
+ },
+ {
+  "start": 367.4,
+  "end": 371.909,
+  "text": "can you create branches at Team level in"
+ },
+ {
+  "start": 371.919,
+  "end": 375.39,
+  "text": "trient tasa and then how can you merge"
+ },
+ {
+  "start": 375.4,
+  "end": 379.23,
+  "text": "all the changes done in their individual"
+ },
+ {
+  "start": 379.24,
+  "end": 382.909,
+  "text": "branches to the master Branch right all"
+ },
+ {
+  "start": 382.919,
+  "end": 384.83,
+  "text": "this I'm going to explain so let us see"
+ },
+ {
+  "start": 384.84,
+  "end": 387.83,
+  "text": "what is our first agend item first we"
+ },
+ {
+  "start": 387.84,
+  "end": 390.749,
+  "text": "are going to create a Master branch and"
+ },
+ {
+  "start": 390.759,
+  "end": 393.39,
+  "text": "log into the master Branch let us go to"
+ },
+ {
+  "start": 393.4,
+  "end": 397.07,
+  "text": "our trient tasa so this is my tric tasa"
+ },
+ {
+  "start": 397.08,
+  "end": 401.07,
+  "text": "so let me create a master Branch first"
+ },
+ {
+  "start": 401.08,
+  "end": 403.749,
+  "text": "for that you need to create a workspace"
+ },
+ {
+  "start": 403.759,
+  "end": 405.87,
+  "text": "I'm going to click on create new I'm"
+ },
+ {
+  "start": 405.88,
+  "end": 407.909,
+  "text": "going to explain end to endend process"
+ },
+ {
+  "start": 407.919,
+  "end": 411.55,
+  "text": "okay how in real time projects how does"
+ },
+ {
+  "start": 411.56,
+  "end": 415.11,
+  "text": "it works okay so here I already"
+ },
+ {
+  "start": 415.12,
+  "end": 418.51,
+  "text": "explained you we need to select SQ light"
+ },
+ {
+  "start": 418.52,
+  "end": 423.189,
+  "text": "for multi-user workspaces right and I"
+ },
+ {
+  "start": 423.199,
+  "end": 424.95,
+  "text": "don't want to use any existing"
+ },
+ {
+  "start": 424.96,
+  "end": 428.11,
+  "text": "repository because I'm creating a new"
+ },
+ {
+  "start": 428.12,
+  "end": 430.79,
+  "text": "reposit I'm going to name this new"
+ },
+ {
+  "start": 430.8,
+  "end": 436.189,
+  "text": "repository as"
+ },
+ {
+  "start": 437.83,
+  "end": 437.84,
+  "text": "multi"
+ },
+ {
+  "start": 437.84,
+  "end": 441.55,
+  "text": "user Master because I'm creating master"
+ },
+ {
+  "start": 441.56,
+  "end": 443.43,
+  "text": "so because I'm creating master I'm going"
+ },
+ {
+  "start": 443.44,
+  "end": 447.67,
+  "text": "to create admin user as well I'm just"
+ },
+ {
+  "start": 447.68,
+  "end": 450.07,
+  "text": "providing username and"
+ },
+ {
+  "start": 450.08,
+  "end": 452.35,
+  "text": "and"
+ },
+ {
+  "start": 452.36,
+  "end": 456.39,
+  "text": "password because I'm creating the master"
+ },
+ {
+  "start": 456.4,
+  "end": 459.15,
+  "text": "Branch so that I can access this master"
+ },
+ {
+  "start": 459.16,
+  "end": 461.51,
+  "text": "Branch by using admin user okay I"
+ },
+ {
+  "start": 461.52,
+  "end": 464.71,
+  "text": "created admin user as well okay for this"
+ },
+ {
+  "start": 464.72,
+  "end": 468.909,
+  "text": "master branch called multi-user Master"
+ },
+ {
+  "start": 468.919,
+  "end": 472.23,
+  "text": "Okay and then immediately click on okay"
+ },
+ {
+  "start": 472.24,
+  "end": 477.029,
+  "text": "so now you'll be asking to enter your"
+ },
+ {
+  "start": 477.039,
+  "end": 481.629,
+  "text": "admin credential whatever just now we"
+ },
+ {
+  "start": 485.189,
+  "end": 485.199,
+  "text": "created so now creation of new workspace"
+ },
+ {
+  "start": 485.199,
+  "end": 485.909,
+  "text": "is"
+ },
+ {
+  "start": 485.919,
+  "end": 489.749,
+  "text": "successful now it will ask you to"
+ },
+ {
+  "start": 489.759,
+  "end": 492.589,
+  "text": "provide your username and password for"
+ },
+ {
+  "start": 492.599,
+  "end": 497.11,
+  "text": "admin okay I'm logging as an admin user"
+ },
+ {
+  "start": 497.12,
+  "end": 499.629,
+  "text": "so once you log in let's open our"
+ },
+ {
+  "start": 499.639,
+  "end": 503.39,
+  "text": "project now okay so this is our project"
+ },
+ {
+  "start": 503.4,
+  "end": 506.869,
+  "text": "and we named the project as"
+ },
+ {
+  "start": 506.879,
+  "end": 509.629,
+  "text": "multi-user Master right that's what I'm"
+ },
+ {
+  "start": 509.639,
+  "end": 510.27,
+  "text": "going"
+ },
+ {
+  "start": 510.28,
+  "end": 514.99,
+  "text": "to see here and if you see all your"
+ },
+ {
+  "start": 515.0,
+  "end": 517.709,
+  "text": "objects got checked out so let me create"
+ },
+ {
+  "start": 517.719,
+  "end": 521.469,
+  "text": "one quick uh test case in test case"
+ },
+ {
+  "start": 521.479,
+  "end": 523.909,
+  "text": "section I'm going to right click on this"
+ },
+ {
+  "start": 523.919,
+  "end": 527.23,
+  "text": "test case folder then create a new test"
+ },
+ {
+  "start": 527.24,
+  "end": 530.35,
+  "text": "case I'm going to name this as"
+ },
+ {
+  "start": 530.36,
+  "end": 533.71,
+  "text": "tc01 okay and then I'm going to create"
+ },
+ {
+  "start": 533.72,
+  "end": 536.23,
+  "text": "another test case is"
+ },
+ {
+  "start": 536.24,
+  "end": 540.03,
+  "text": "tc02 let's assume okay now"
+ },
+ {
+  "start": 540.04,
+  "end": 541.829,
+  "text": "this is the master Branch I'm going to"
+ },
+ {
+  "start": 541.839,
+  "end": 545.509,
+  "text": "check in all the changes now you need to"
+ },
+ {
+  "start": 545.519,
+  "end": 547.269,
+  "text": "check in the changes once you log in"
+ },
+ {
+  "start": 547.279,
+  "end": 549.67,
+  "text": "let's go back to our"
+ },
+ {
+  "start": 549.68,
+  "end": 551.79,
+  "text": "presentation then what you need to do"
+ },
+ {
+  "start": 551.8,
+  "end": 554.47,
+  "text": "create a branch for master Branch okay"
+ },
+ {
+  "start": 554.48,
+  "end": 556.79,
+  "text": "so let's first complete creation of"
+ },
+ {
+  "start": 556.8,
+  "end": 559.19,
+  "text": "Master Branch so we completed creation"
+ },
+ {
+  "start": 559.2,
+  "end": 561.87,
+  "text": "of Master Branch now and then we checked"
+ },
+ {
+  "start": 561.88,
+  "end": 564.75,
+  "text": "all our changes in the master Branch"
+ },
+ {
+  "start": 564.76,
+  "end": 567.11,
+  "text": "generally we never work directly on the"
+ },
+ {
+  "start": 567.12,
+  "end": 569.069,
+  "text": "master Branch but I'm just making sure"
+ },
+ {
+  "start": 569.079,
+  "end": 571.949,
+  "text": "that some data exist in our Master"
+ },
+ {
+  "start": 571.959,
+  "end": 574.91,
+  "text": "Branch already okay now what I'm going"
+ },
+ {
+  "start": 574.92,
+  "end": 577.87,
+  "text": "to do we need to create a branch for"
+ },
+ {
+  "start": 577.88,
+  "end": 580.79,
+  "text": "master branch of multi-user workspace"
+ },
+ {
+  "start": 580.8,
+  "end": 584.03,
+  "text": "this is your master Branch now let's"
+ },
+ {
+  "start": 584.04,
+  "end": 586.19,
+  "text": "assume I have a two different teams"
+ },
+ {
+  "start": 586.2,
+  "end": 589.03,
+  "text": "working on two different modules so I"
+ },
+ {
+  "start": 589.04,
+  "end": 590.11,
+  "text": "need to"
+ },
+ {
+  "start": 590.12,
+  "end": 593.87,
+  "text": "create two branches for two different"
+ },
+ {
+  "start": 593.88,
+  "end": 597.509,
+  "text": "teams so as an admin User it's my"
+ },
+ {
+  "start": 597.519,
+  "end": 599.99,
+  "text": "responsibility to create branch"
+ },
+ {
+  "start": 600.0,
+  "end": 602.43,
+  "text": "right two branches how can we create"
+ },
+ {
+  "start": 602.44,
+  "end": 606.67,
+  "text": "branches you simply right click on"
+ },
+ {
+  "start": 606.68,
+  "end": 608.949,
+  "text": "project so let me just check out this"
+ },
+ {
+  "start": 608.959,
+  "end": 610.91,
+  "text": "project first of all okay so you need"
+ },
+ {
+  "start": 610.92,
+  "end": 612.75,
+  "text": "not to check out the project but better"
+ },
+ {
+  "start": 612.76,
+  "end": 614.79,
+  "text": "we check out the project okay right"
+ },
+ {
+  "start": 614.8,
+  "end": 619.269,
+  "text": "click and then click on create Branch"
+ },
+ {
+  "start": 619.279,
+  "end": 621.91,
+  "text": "okay you'll be clicking on create Branch"
+ },
+ {
+  "start": 621.92,
+  "end": 623.71,
+  "text": "as soon as you click on create Branch"
+ },
+ {
+  "start": 623.72,
+  "end": 626.03,
+  "text": "it's going to ask you to name the branch"
+ },
+ {
+  "start": 626.04,
+  "end": 627.79,
+  "text": "what I'm going to do I'm going to name"
+ },
+ {
+  "start": 627.8,
+  "end": 629.91,
+  "text": "this Branch as"
+ },
+ {
+  "start": 629.92,
+  "end": 632.269,
+  "text": "team"
+ },
+ {
+  "start": 632.279,
+  "end": 639.03,
+  "text": "a branch team a branch okay I named this"
+ },
+ {
+  "start": 639.04,
+  "end": 641.55,
+  "text": "now if you read the message it says"
+ },
+ {
+  "start": 641.56,
+  "end": 644.389,
+  "text": "Branch team a branch was created"
+ },
+ {
+  "start": 644.399,
+  "end": 646.87,
+  "text": "successfully in order to work with the"
+ },
+ {
+  "start": 646.88,
+  "end": 650.23,
+  "text": "new Branch save all the changes to"
+ },
+ {
+  "start": 650.24,
+  "end": 652.91,
+  "text": "current workspace close the current"
+ },
+ {
+  "start": 652.92,
+  "end": 655.99,
+  "text": "workspace and create a new workspace"
+ },
+ {
+  "start": 656.0,
+  "end": 658.949,
+  "text": "with newly created Branch remember this"
+ },
+ {
+  "start": 658.959,
+  "end": 661.35,
+  "text": "correctly okay so now let's click on"
+ },
+ {
+  "start": 661.36,
+  "end": 664.11,
+  "text": "okay now I want to create another Branch"
+ },
+ {
+  "start": 664.12,
+  "end": 666.35,
+  "text": "again go to Project root"
+ },
+ {
+  "start": 666.36,
+  "end": 669.509,
+  "text": "folder click on create Branch here I'm"
+ },
+ {
+  "start": 669.519,
+  "end": 672.629,
+  "text": "going to say Team"
+ },
+ {
+  "start": 672.639,
+  "end": 676.03,
+  "text": "B Team B"
+ },
+ {
+  "start": 676.04,
+  "end": 677.91,
+  "text": "Branch click"
+ },
+ {
+  "start": 677.92,
+  "end": 682.67,
+  "text": "on okay again your team be Branch was"
+ },
+ {
+  "start": 682.68,
+  "end": 684.91,
+  "text": "created successfully save all the"
+ },
+ {
+  "start": 684.92,
+  "end": 687.11,
+  "text": "changes in the current workspace close"
+ },
+ {
+  "start": 687.12,
+  "end": 689.509,
+  "text": "the workspace create a new workspace and"
+ },
+ {
+  "start": 689.519,
+  "end": 692.43,
+  "text": "select Branch Team B Branch Okay click"
+ },
+ {
+  "start": 692.44,
+  "end": 695.79,
+  "text": "on okay now we need to check in all"
+ },
+ {
+  "start": 695.8,
+  "end": 698.31,
+  "text": "these changes I checked in all the"
+ },
+ {
+  "start": 698.32,
+  "end": 701.03,
+  "text": "changes where I created two different"
+ },
+ {
+  "start": 701.04,
+  "end": 703.11,
+  "text": "branches for two different team"
+ },
+ {
+  "start": 703.12,
+  "end": 707.35,
+  "text": "members done now let's go back here we"
+ },
+ {
+  "start": 707.36,
+  "end": 710.99,
+  "text": "created a branch Now log into newly"
+ },
+ {
+  "start": 711.0,
+  "end": 714.389,
+  "text": "created Branch by creating a new"
+ },
+ {
+  "start": 714.399,
+  "end": 718.35,
+  "text": "workspace so to log into New Branch you"
+ },
+ {
+  "start": 718.36,
+  "end": 722.269,
+  "text": "need to close this particular workspace"
+ },
+ {
+  "start": 722.279,
+  "end": 724.509,
+  "text": "I'm going to close the"
+ },
+ {
+  "start": 724.519,
+  "end": 729.03,
+  "text": "workspace and you need to create new"
+ },
+ {
+  "start": 729.04,
+  "end": 732.47,
+  "text": "workspace need to create new workspace"
+ },
+ {
+  "start": 732.48,
+  "end": 735.389,
+  "text": "now let us create new workspace click on"
+ },
+ {
+  "start": 735.399,
+  "end": 736.79,
+  "text": "create"
+ },
+ {
+  "start": 736.8,
+  "end": 740.629,
+  "text": "new for creating new workspace we are"
+ },
+ {
+  "start": 740.639,
+  "end": 743.31,
+  "text": "creating workspace for the branch let's"
+ },
+ {
+  "start": 743.32,
+  "end": 746.629,
+  "text": "say I'm team a member in real time not"
+ },
+ {
+  "start": 746.639,
+  "end": 748.91,
+  "text": "the same person is going to log into the"
+ },
+ {
+  "start": 748.92,
+  "end": 750.11,
+  "text": "branch"
+ },
+ {
+  "start": 750.12,
+  "end": 753.35,
+  "text": "so a team member from Team a will be"
+ },
+ {
+  "start": 753.36,
+  "end": 755.67,
+  "text": "logging in so now let's assume I'm"
+ },
+ {
+  "start": 755.68,
+  "end": 758.949,
+  "text": "playing the role of team member who is"
+ },
+ {
+  "start": 758.959,
+  "end": 762.11,
+  "text": "part of Team a so that means I need to"
+ },
+ {
+  "start": 762.12,
+  "end": 764.509,
+  "text": "create a workspace go"
+ },
+ {
+  "start": 764.519,
+  "end": 768.949,
+  "text": "here select SQL light and here you need"
+ },
+ {
+  "start": 768.959,
+  "end": 771.949,
+  "text": "to select use existing"
+ },
+ {
+  "start": 771.959,
+  "end": 775.269,
+  "text": "repository and here what is our existing"
+ },
+ {
+  "start": 775.279,
+  "end": 777.75,
+  "text": "repository our existing repository we"
+ },
+ {
+  "start": 777.76,
+  "end": 779.99,
+  "text": "just created just now right"
+ },
+ {
+  "start": 780.0,
+  "end": 782.43,
+  "text": "our existing"
+ },
+ {
+  "start": 782.44,
+  "end": 786.15,
+  "text": "repositories let me expand this this one"
+ },
+ {
+  "start": 786.16,
+  "end": 789.829,
+  "text": "multi-user master this is my existing"
+ },
+ {
+  "start": 789.839,
+  "end": 792.829,
+  "text": "repository multi-user Master under"
+ },
+ {
+  "start": 792.839,
+  "end": 794.829,
+  "text": "multiuser master common"
+ },
+ {
+  "start": 794.839,
+  "end": 797.55,
+  "text": "repository select this this is my"
+ },
+ {
+  "start": 797.56,
+  "end": 799.75,
+  "text": "existing repository you need to select"
+ },
+ {
+  "start": 799.76,
+  "end": 803.35,
+  "text": "that that's why I checked use existing"
+ },
+ {
+  "start": 803.36,
+  "end": 807.069,
+  "text": "repository because I already created an"
+ },
+ {
+  "start": 807.079,
+  "end": 810.43,
+  "text": "existing repository for my Master"
+ },
+ {
+  "start": 810.44,
+  "end": 814.389,
+  "text": "multi-user workspace I selected that now"
+ },
+ {
+  "start": 814.399,
+  "end": 819.15,
+  "text": "because I'm a team member from Team a I"
+ },
+ {
+  "start": 819.16,
+  "end": 823.03,
+  "text": "need to select a branch team a"
+ },
+ {
+  "start": 823.04,
+  "end": 825.75,
+  "text": "branch select team a"
+ },
+ {
+  "start": 825.76,
+  "end": 829.829,
+  "text": "branch then so till now what we did we"
+ },
+ {
+  "start": 829.839,
+  "end": 832.79,
+  "text": "selected Master Branch when we create"
+ },
+ {
+  "start": 832.8,
+  "end": 836.15,
+  "text": "the new workspace workspace so we never"
+ },
+ {
+  "start": 836.16,
+  "end": 838.03,
+  "text": "selected this Branch At All by default"
+ },
+ {
+  "start": 838.04,
+  "end": 839.59,
+  "text": "Master will be taken"
+ },
+ {
+  "start": 839.6,
+  "end": 841.509,
+  "text": "so now this time I'm going to select"
+ },
+ {
+  "start": 841.519,
+  "end": 842.91,
+  "text": "team a"
+ },
+ {
+  "start": 842.92,
+  "end": 846.43,
+  "text": "branch and then I would like to name"
+ },
+ {
+  "start": 846.44,
+  "end": 849.79,
+  "text": "this as team a"
+ },
+ {
+  "start": 849.8,
+  "end": 851.79,
+  "text": "workspace team"
+ },
+ {
+  "start": 851.8,
+  "end": 855.91,
+  "text": "a workspace I'll just say team a okay"
+ },
+ {
+  "start": 855.92,
+  "end": 858.829,
+  "text": "this is my new workspace team a as my"
+ },
+ {
+  "start": 858.839,
+  "end": 862.749,
+  "text": "new workspace and then click on"
+ },
+ {
+  "start": 862.759,
+  "end": 866.269,
+  "text": "okay so now as soon as you click on okay"
+ },
+ {
+  "start": 866.279,
+  "end": 870.389,
+  "text": "now he's creating a new workspace"
+ },
+ {
+  "start": 870.399,
+  "end": 873.629,
+  "text": "with a team way team a"
+ },
+ {
+  "start": 873.639,
+  "end": 877.43,
+  "text": "branch not master Branch so now again I"
+ },
+ {
+  "start": 877.44,
+  "end": 883.31,
+  "text": "would like to log in as admin only"
+ },
+ {
+  "start": 883.32,
+  "end": 887.269,
+  "text": "okay so generally whoever the user from"
+ },
+ {
+  "start": 887.279,
+  "end": 890.55,
+  "text": "Team a he need to provide his own"
+ },
+ {
+  "start": 890.56,
+  "end": 893.35,
+  "text": "credentials so if you see here let's go"
+ },
+ {
+  "start": 893.36,
+  "end": 895.23,
+  "text": "to Project"
+ },
+ {
+  "start": 895.24,
+  "end": 898.31,
+  "text": "now if you see the project name you are"
+ },
+ {
+  "start": 898.32,
+  "end": 900.87,
+  "text": "seeing as multi-user Master even though"
+ },
+ {
+  "start": 900.88,
+  "end": 902.99,
+  "text": "the project name is same don't get"
+ },
+ {
+  "start": 903.0,
+  "end": 906.43,
+  "text": "confused if you see here on top right I"
+ },
+ {
+  "start": 906.44,
+  "end": 910.47,
+  "text": "can see here my workspace is team a"
+ },
+ {
+  "start": 910.48,
+  "end": 914.509,
+  "text": "workspace team a. twws that means I'm"
+ },
+ {
+  "start": 914.519,
+  "end": 916.91,
+  "text": "accessing team a workspace and also if"
+ },
+ {
+  "start": 916.92,
+  "end": 920.43,
+  "text": "you see here the branch it is not"
+ },
+ {
+  "start": 920.44,
+  "end": 922.99,
+  "text": "showing me as Master Branch instead it"
+ },
+ {
+  "start": 923.0,
+  "end": 926.71,
+  "text": "is showing me as Branch team a branch"
+ },
+ {
+  "start": 926.72,
+  "end": 929.629,
+  "text": "that means I'm accessing my"
+ },
+ {
+  "start": 929.639,
+  "end": 932.949,
+  "text": "Branch related to team a I'm not"
+ },
+ {
+  "start": 932.959,
+  "end": 937.15,
+  "text": "accessing Master Branch now as a team"
+ },
+ {
+  "start": 937.16,
+  "end": 939.829,
+  "text": "member I can do a number of changes in"
+ },
+ {
+  "start": 939.839,
+  "end": 941.949,
+  "text": "this Branch because I'm not going to"
+ },
+ {
+  "start": 941.959,
+  "end": 944.949,
+  "text": "disturb the master branch that I created"
+ },
+ {
+  "start": 944.959,
+  "end": 947.389,
+  "text": "earlier now let's assume as a team a"
+ },
+ {
+  "start": 947.399,
+  "end": 951.15,
+  "text": "member I would like to create some more"
+ },
+ {
+  "start": 951.16,
+  "end": 953.87,
+  "text": "test cases just check out this SK"
+ },
+ {
+  "start": 953.88,
+  "end": 957.15,
+  "text": "section and I would like to create uh"
+ },
+ {
+  "start": 957.16,
+  "end": 962.189,
+  "text": "let's say I I want to auto at a module a"
+ },
+ {
+  "start": 962.199,
+  "end": 965.15,
+  "text": "test case and then I also want to"
+ },
+ {
+  "start": 965.16,
+  "end": 966.79,
+  "text": "automate"
+ },
+ {
+  "start": 966.8,
+  "end": 970.189,
+  "text": "module P related test case let's assume"
+ },
+ {
+  "start": 970.199,
+  "end": 974.03,
+  "text": "I automated all these two test cases and"
+ },
+ {
+  "start": 974.04,
+  "end": 977.87,
+  "text": "I'm going to check in all my"
+ },
+ {
+  "start": 977.88,
+  "end": 981.189,
+  "text": "changes okay so let's go back to our PBT"
+ },
+ {
+  "start": 981.199,
+  "end": 984.55,
+  "text": "now we created a new branch and then"
+ },
+ {
+  "start": 984.56,
+  "end": 986.23,
+  "text": "check out the test case folder and"
+ },
+ {
+  "start": 986.24,
+  "end": 988.23,
+  "text": "create new test cases and check in your"
+ },
+ {
+  "start": 988.24,
+  "end": 991.629,
+  "text": "changes so now I created a new test"
+ },
+ {
+  "start": 991.639,
+  "end": 995.23,
+  "text": "cases in team a branch and I checked in"
+ },
+ {
+  "start": 995.24,
+  "end": 998.15,
+  "text": "all my changes right and then let's go"
+ },
+ {
+  "start": 998.16,
+  "end": 1000.509,
+  "text": "back here now close the branch and open"
+ },
+ {
+  "start": 1000.519,
+  "end": 1003.189,
+  "text": "open Master Branch so what I'm going to"
+ },
+ {
+  "start": 1003.199,
+  "end": 1005.47,
+  "text": "do instead of opening the master Branch"
+ },
+ {
+  "start": 1005.48,
+  "end": 1008.03,
+  "text": "now I'm going to close this team a"
+ },
+ {
+  "start": 1008.04,
+  "end": 1011.829,
+  "text": "branch because let's assume all team a"
+ },
+ {
+  "start": 1011.839,
+  "end": 1015.189,
+  "text": "related work is done we say we I mean"
+ },
+ {
+  "start": 1015.199,
+  "end": 1017.269,
+  "text": "your team lead has reviewed it"
+ },
+ {
+  "start": 1017.279,
+  "end": 1020.43,
+  "text": "everything working fine you make sure uh"
+ },
+ {
+  "start": 1020.44,
+  "end": 1021.47,
+  "text": "test"
+ },
+ {
+  "start": 1021.48,
+  "end": 1023.749,
+  "text": "execution uh you created the execution"
+ },
+ {
+  "start": 1023.759,
+  "end": 1026.35,
+  "text": "list and you executed your test cases"
+ },
+ {
+  "start": 1026.36,
+  "end": 1029.15,
+  "text": "and everything you signed off on Branch"
+ },
+ {
+  "start": 1029.16,
+  "end": 1031.47,
+  "text": "team a branch you provided sign off on"
+ },
+ {
+  "start": 1031.48,
+  "end": 1034.87,
+  "text": "team a branch but you cannot use this"
+ },
+ {
+  "start": 1034.88,
+  "end": 1036.789,
+  "text": "code base as is because you have a"
+ },
+ {
+  "start": 1036.799,
+  "end": 1040.189,
+  "text": "master Branch you need to merge all"
+ },
+ {
+  "start": 1040.199,
+  "end": 1042.63,
+  "text": "these changes to your master"
+ },
+ {
+  "start": 1042.64,
+  "end": 1046.549,
+  "text": "Branch right so before that let's close"
+ },
+ {
+  "start": 1046.559,
+  "end": 1050.19,
+  "text": "this workspace and I want to do some"
+ },
+ {
+  "start": 1050.2,
+  "end": 1054.83,
+  "text": "changes in Team B Branch as well so for"
+ },
+ {
+  "start": 1054.84,
+  "end": 1058.31,
+  "text": "that I want to create a new workpace now"
+ },
+ {
+  "start": 1058.32,
+  "end": 1060.669,
+  "text": "let's say I am a user of Team"
+ },
+ {
+  "start": 1060.679,
+  "end": 1064.87,
+  "text": "B okay let's select SQL light as a team"
+ },
+ {
+  "start": 1064.88,
+  "end": 1068.51,
+  "text": "B user I will be selecting the branch"
+ },
+ {
+  "start": 1068.52,
+  "end": 1071.59,
+  "text": "Team B this time and I'm going to name"
+ },
+ {
+  "start": 1071.6,
+  "end": 1076.549,
+  "text": "this as Team B right I'm using existing"
+ },
+ {
+  "start": 1076.559,
+  "end": 1079.029,
+  "text": "repository this is my existing reposit"
+ },
+ {
+  "start": 1079.039,
+  "end": 1081.31,
+  "text": "itory which I created for my master"
+ },
+ {
+  "start": 1081.32,
+  "end": 1083.909,
+  "text": "Branch okay remember that your existing"
+ },
+ {
+  "start": 1083.919,
+  "end": 1087.029,
+  "text": "repository is related to master branch"
+ },
+ {
+  "start": 1087.039,
+  "end": 1089.789,
+  "text": "and under that you already created Team"
+ },
+ {
+  "start": 1089.799,
+  "end": 1092.47,
+  "text": "B Branch I selected Team B Branch I"
+ },
+ {
+  "start": 1092.48,
+  "end": 1097.83,
+  "text": "named workspace as Team B click on"
+ },
+ {
+  "start": 1101.71,
+  "end": 1101.72,
+  "text": "okay so your workspace per team be is"
+ },
+ {
+  "start": 1101.72,
+  "end": 1103.149,
+  "text": "created"
+ },
+ {
+  "start": 1103.159,
+  "end": 1106.31,
+  "text": "successfully for the user related to"
+ },
+ {
+  "start": 1106.32,
+  "end": 1110.27,
+  "text": "team now you user related to Team B will"
+ },
+ {
+  "start": 1110.28,
+  "end": 1112.99,
+  "text": "be providing his own"
+ },
+ {
+  "start": 1113.0,
+  "end": 1115.95,
+  "text": "credentials okay and click on"
+ },
+ {
+  "start": 1115.96,
+  "end": 1119.95,
+  "text": "okay now PB is going to work on their"
+ },
+ {
+  "start": 1119.96,
+  "end": 1123.23,
+  "text": "own modules let's assume I want to work"
+ },
+ {
+  "start": 1123.24,
+  "end": 1126.549,
+  "text": "on because see he here he can see only"
+ },
+ {
+  "start": 1126.559,
+  "end": 1129.11,
+  "text": "again Master Branch Only If You observe"
+ },
+ {
+  "start": 1129.12,
+  "end": 1132.149,
+  "text": "closely here let's go to your project"
+ },
+ {
+  "start": 1132.159,
+  "end": 1135.11,
+  "text": "Explorer you will have a project name as"
+ },
+ {
+  "start": 1135.12,
+  "end": 1137.35,
+  "text": "same as your master Branch but here if"
+ },
+ {
+  "start": 1137.36,
+  "end": 1141.669,
+  "text": "you see now you can see team. twws that"
+ },
+ {
+  "start": 1141.679,
+  "end": 1146.19,
+  "text": "means it's tmb related workspace and you"
+ },
+ {
+  "start": 1146.2,
+  "end": 1148.909,
+  "text": "can see the branch as Team B branch that"
+ },
+ {
+  "start": 1148.919,
+  "end": 1151.789,
+  "text": "means it is team be related branch and"
+ },
+ {
+  "start": 1151.799,
+  "end": 1155.83,
+  "text": "if you see here I can see only two test"
+ },
+ {
+  "start": 1155.84,
+  "end": 1159.19,
+  "text": "cases which we created in during"
+ },
+ {
+  "start": 1159.2,
+  "end": 1162.51,
+  "text": "creation of Master Branch okay so Master"
+ },
+ {
+  "start": 1162.52,
+  "end": 1165.87,
+  "text": "Branch data can be viewed by every team"
+ },
+ {
+  "start": 1165.88,
+  "end": 1170.549,
+  "text": "member or in any branch okay now let me"
+ },
+ {
+  "start": 1170.559,
+  "end": 1176.83,
+  "text": "create now this team B wants to work on"
+ },
+ {
+  "start": 1176.84,
+  "end": 1181.99,
+  "text": "module C and D team a team team a worked"
+ },
+ {
+  "start": 1182.0,
+  "end": 1185.19,
+  "text": "on module A and B now Team B they're"
+ },
+ {
+  "start": 1185.2,
+  "end": 1187.549,
+  "text": "going to create test cases let's create"
+ },
+ {
+  "start": 1187.559,
+  "end": 1190.029,
+  "text": "a test case called module"
+ },
+ {
+  "start": 1190.039,
+  "end": 1193.789,
+  "text": "C and then again I want to automate"
+ },
+ {
+  "start": 1193.799,
+  "end": 1195.51,
+  "text": "module"
+ },
+ {
+  "start": 1195.52,
+  "end": 1200.71,
+  "text": "D okay and now you lead will make sure"
+ },
+ {
+  "start": 1200.72,
+  "end": 1202.99,
+  "text": "that whatever the test cases you"
+ },
+ {
+  "start": 1203.0,
+  "end": 1205.47,
+  "text": "automated it works fine you execute it"
+ },
+ {
+  "start": 1205.48,
+  "end": 1208.11,
+  "text": "and everything you sign off right"
+ },
+ {
+  "start": 1208.12,
+  "end": 1212.029,
+  "text": "everything seems to be good now Team B"
+ },
+ {
+  "start": 1212.039,
+  "end": 1215.11,
+  "text": "will be checking their changes from Team"
+ },
+ {
+  "start": 1215.12,
+  "end": 1215.909,
+  "text": "B"
+ },
+ {
+  "start": 1215.919,
+  "end": 1219.11,
+  "text": "Branch done"
+ },
+ {
+  "start": 1219.12,
+  "end": 1223.07,
+  "text": "now team a team B they did their own"
+ },
+ {
+  "start": 1223.08,
+  "end": 1225.669,
+  "text": "changes and checked in now you need to"
+ },
+ {
+  "start": 1225.679,
+  "end": 1228.669,
+  "text": "merge these brand changes now see both"
+ },
+ {
+  "start": 1228.679,
+  "end": 1231.39,
+  "text": "both the teams signed off everything"
+ },
+ {
+  "start": 1231.4,
+  "end": 1234.63,
+  "text": "they said yes everything is working fine"
+ },
+ {
+  "start": 1234.64,
+  "end": 1237.75,
+  "text": "now these team a and team be changes"
+ },
+ {
+  "start": 1237.76,
+  "end": 1240.47,
+  "text": "needs to merg into the master Branch so"
+ },
+ {
+  "start": 1240.48,
+  "end": 1242.23,
+  "text": "that that Master Branch can be"
+ },
+ {
+  "start": 1242.24,
+  "end": 1243.83,
+  "text": "considered as a"
+ },
+ {
+  "start": 1243.84,
+  "end": 1247.43,
+  "text": "final output of your Automation and"
+ },
+ {
+  "start": 1247.44,
+  "end": 1250.75,
+  "text": "those test cases those test cases can be"
+ },
+ {
+  "start": 1250.76,
+  "end": 1253.95,
+  "text": "run against your new"
+ },
+ {
+  "start": 1253.96,
+  "end": 1257.39,
+  "text": "release right so let's for that let's"
+ },
+ {
+  "start": 1257.4,
+  "end": 1259.75,
+  "text": "close close this team be"
+ },
+ {
+  "start": 1259.76,
+  "end": 1263.47,
+  "text": "Branch now let us go back to"
+ },
+ {
+  "start": 1263.48,
+  "end": 1267.51,
+  "text": "our Master Branch now let me access my"
+ },
+ {
+  "start": 1267.52,
+  "end": 1270.23,
+  "text": "master BR as an admin user see we are"
+ },
+ {
+  "start": 1270.24,
+  "end": 1271.909,
+  "text": "going to inform that corresponding teams"
+ },
+ {
+  "start": 1271.919,
+  "end": 1274.23,
+  "text": "will inform okay we are done with our"
+ },
+ {
+  "start": 1274.24,
+  "end": 1276.99,
+  "text": "all changes and everything is working"
+ },
+ {
+  "start": 1277.0,
+  "end": 1279.549,
+  "text": "fine right now your administrator will"
+ },
+ {
+  "start": 1279.559,
+  "end": 1281.23,
+  "text": "come"
+ },
+ {
+  "start": 1281.24,
+  "end": 1284.95,
+  "text": "to this multi-user master Branch he's"
+ },
+ {
+  "start": 1284.96,
+  "end": 1287.35,
+  "text": "going to open multi-user Master"
+ },
+ {
+  "start": 1287.36,
+  "end": 1290.789,
+  "text": "branch and and admin user"
+ },
+ {
+  "start": 1290.799,
+  "end": 1294.47,
+  "text": "will select provide his"
+ },
+ {
+  "start": 1294.48,
+  "end": 1297.39,
+  "text": "credentials admin user provides his"
+ },
+ {
+  "start": 1297.4,
+  "end": 1300.87,
+  "text": "credentials then we'll be logging in so"
+ },
+ {
+  "start": 1300.88,
+  "end": 1305.029,
+  "text": "now now this admin user if you see here"
+ },
+ {
+  "start": 1305.039,
+  "end": 1309.07,
+  "text": "now you can see only two stest Cas now"
+ },
+ {
+  "start": 1309.08,
+  "end": 1311.87,
+  "text": "what I'm going to do I'm going to merge"
+ },
+ {
+  "start": 1311.88,
+  "end": 1317.71,
+  "text": "the changes done by team A by using team"
+ },
+ {
+  "start": 1317.72,
+  "end": 1320.07,
+  "text": "a branch okay for that I'm what I'm"
+ },
+ {
+  "start": 1320.08,
+  "end": 1322.789,
+  "text": "going to do right click on this and"
+ },
+ {
+  "start": 1322.799,
+  "end": 1325.59,
+  "text": "click on merge so before that let me"
+ },
+ {
+  "start": 1325.6,
+  "end": 1327.669,
+  "text": "just check out this okay I'm going to"
+ },
+ {
+  "start": 1327.679,
+  "end": 1330.39,
+  "text": "check out this and then right click on"
+ },
+ {
+  "start": 1330.4,
+  "end": 1335.35,
+  "text": "this project folder and click on merge"
+ },
+ {
+  "start": 1335.36,
+  "end": 1339.63,
+  "text": "Branch now here I would like to select I"
+ },
+ {
+  "start": 1339.64,
+  "end": 1342.47,
+  "text": "want to merge the branch changes related"
+ },
+ {
+  "start": 1342.48,
+  "end": 1345.909,
+  "text": "to team so you see clearly You observe"
+ },
+ {
+  "start": 1345.919,
+  "end": 1348.63,
+  "text": "clearly we have only test two test cases"
+ },
+ {
+  "start": 1348.64,
+  "end": 1351.71,
+  "text": "test case one and test case 2 okay now"
+ },
+ {
+  "start": 1351.72,
+  "end": 1355.71,
+  "text": "as soon as I merge the branch team a it"
+ },
+ {
+  "start": 1355.72,
+  "end": 1357.99,
+  "text": "going to say the branch will be"
+ },
+ {
+  "start": 1358.0,
+  "end": 1360.47,
+  "text": "permanently deleted when you check in"
+ },
+ {
+  "start": 1360.48,
+  "end": 1363.47,
+  "text": "the changed objects that means see once"
+ },
+ {
+  "start": 1363.48,
+  "end": 1366.83,
+  "text": "I merge team a branch related changes to"
+ },
+ {
+  "start": 1366.84,
+  "end": 1369.59,
+  "text": "master Branch your team a branch will be"
+ },
+ {
+  "start": 1369.6,
+  "end": 1372.789,
+  "text": "deleted so make a note okay so now"
+ },
+ {
+  "start": 1372.799,
+  "end": 1375.39,
+  "text": "because team a signed off saying that"
+ },
+ {
+  "start": 1375.4,
+  "end": 1377.909,
+  "text": "everything is working fine so that's why"
+ },
+ {
+  "start": 1377.919,
+  "end": 1382.11,
+  "text": "I can simply merge them click on okay"
+ },
+ {
+  "start": 1382.12,
+  "end": 1385.87,
+  "text": "now you can see now okay you have now"
+ },
+ {
+  "start": 1385.88,
+  "end": 1388.35,
+  "text": "module a module B if you remember"
+ },
+ {
+  "start": 1388.36,
+  "end": 1391.149,
+  "text": "correctly team a worked on module a and"
+ },
+ {
+  "start": 1391.159,
+  "end": 1394.47,
+  "text": "module B so that means all the changes"
+ },
+ {
+  "start": 1394.48,
+  "end": 1397.789,
+  "text": "related to team a are now merged into"
+ },
+ {
+  "start": 1397.799,
+  "end": 1401.35,
+  "text": "your master Branch now checking all"
+ },
+ {
+  "start": 1401.36,
+  "end": 1402.59,
+  "text": "these"
+ },
+ {
+  "start": 1402.6,
+  "end": 1405.789,
+  "text": "changes now in the same way I would like"
+ },
+ {
+  "start": 1405.799,
+  "end": 1409.549,
+  "text": "to March the changes related to"
+ },
+ {
+  "start": 1409.559,
+  "end": 1414.47,
+  "text": "Team B from Team B Branch okay for that"
+ },
+ {
+  "start": 1414.48,
+  "end": 1417.71,
+  "text": "again right click and click on merge"
+ },
+ {
+  "start": 1417.72,
+  "end": 1422.87,
+  "text": "Branch this time I have to select team B"
+ },
+ {
+  "start": 1422.88,
+  "end": 1426.75,
+  "text": "Branch click on okay so again the branch"
+ },
+ {
+  "start": 1426.76,
+  "end": 1429.31,
+  "text": "will be permanently deleted when you"
+ },
+ {
+  "start": 1429.32,
+  "end": 1432.149,
+  "text": "check in the changed objects click on"
+ },
+ {
+  "start": 1432.159,
+  "end": 1436.23,
+  "text": "okay you can see module C and module"
+ },
+ {
+  "start": 1436.24,
+  "end": 1441.95,
+  "text": "D are came into Master Branch from your"
+ },
+ {
+  "start": 1441.96,
+  "end": 1446.39,
+  "text": "team B Branch so and then you can simply"
+ },
+ {
+  "start": 1446.4,
+  "end": 1449.59,
+  "text": "checking all the changes that means now"
+ },
+ {
+  "start": 1449.6,
+  "end": 1452.39,
+  "text": "all the changes done by team A and Team"
+ },
+ {
+  "start": 1452.4,
+  "end": 1455.47,
+  "text": "B are merged into your master"
+ },
+ {
+  "start": 1455.48,
+  "end": 1458.43,
+  "text": "Branch so delete Branch how can you"
+ },
+ {
+  "start": 1458.44,
+  "end": 1461.47,
+  "text": "delete the branch so we already deleted"
+ },
+ {
+  "start": 1461.48,
+  "end": 1464.63,
+  "text": "some branches already right so simply"
+ },
+ {
+  "start": 1464.64,
+  "end": 1467.23,
+  "text": "you right click on this project and"
+ },
+ {
+  "start": 1467.24,
+  "end": 1469.07,
+  "text": "click on delete branch"
+ },
+ {
+  "start": 1469.08,
+  "end": 1470.71,
+  "text": "so if you click on delete Branch now I"
+ },
+ {
+  "start": 1470.72,
+  "end": 1472.51,
+  "text": "can see Team be Branch I created"
+ },
+ {
+  "start": 1472.52,
+  "end": 1474.909,
+  "text": "recreated it and you can simply click on"
+ },
+ {
+  "start": 1474.919,
+  "end": 1478.909,
+  "text": "okay so this will delete your team B"
+ },
+ {
+  "start": 1478.919,
+  "end": 1482.35,
+  "text": "Branch okay Team B Branch deleted"
+ },
+ {
+  "start": 1482.36,
+  "end": 1484.51,
+  "text": "successfully okay"
+ },
+ {
+  "start": 1484.52,
+  "end": 1487.389,
+  "text": "so this is how you can"
+ },
+ {
+  "start": 1487.399,
+  "end": 1492.19,
+  "text": "maintain Master branch and you can"
+ },
+ {
+  "start": 1492.2,
+  "end": 1495.35,
+  "text": "manage branches at Team level or"
+ },
+ {
+  "start": 1495.36,
+  "end": 1498.389,
+  "text": "application Level and then you can merge"
+ },
+ {
+  "start": 1498.399,
+  "end": 1500.35,
+  "text": "merge all your branch changes to the"
+ },
+ {
+  "start": 1500.36,
+  "end": 1502.669,
+  "text": "master branch and then you can delete"
+ },
+ {
+  "start": 1502.679,
+  "end": 1505.19,
+  "text": "the branches so if you have any queries"
+ },
+ {
+  "start": 1505.2,
+  "end": 1506.43,
+  "text": "leave your queries in the comment box"
+ },
+ {
+  "start": 1506.44,
+  "end": 1509.19,
+  "text": "I'll try to respond to your queries hope"
+ },
+ {
+  "start": 1509.2,
+  "end": 1511.23,
+  "text": "you all understand the concepts of"
+ },
+ {
+  "start": 1511.24,
+  "end": 1514.029,
+  "text": "creating and managing the branches as"
+ },
+ {
+  "start": 1514.039,
+  "end": 1516.47,
+  "text": "part of this session you have learned"
+ },
+ {
+  "start": 1516.48,
+  "end": 1519.43,
+  "text": "how can you create a master branch and"
+ },
+ {
+  "start": 1519.44,
+  "end": 1521.95,
+  "text": "then how can you create an individual"
+ },
+ {
+  "start": 1521.96,
+  "end": 1525.029,
+  "text": "branches for master branch of multi-user"
+ },
+ {
+  "start": 1525.039,
+  "end": 1528.029,
+  "text": "workspace and how can you merge the"
+ },
+ {
+  "start": 1528.039,
+  "end": 1531.83,
+  "text": "chain changes of each individual Branch"
+ },
+ {
+  "start": 1531.84,
+  "end": 1534.75,
+  "text": "to the master Branch as an admin"
+ },
+ {
+  "start": 1534.76,
+  "end": 1538.11,
+  "text": "user please do subscribe to the channel"
+ },
+ {
+  "start": 1538.12,
+  "end": 1540.11,
+  "text": "click on Bell icon you'll receive"
+ },
+ {
+  "start": 1540.12,
+  "end": 1543.51,
+  "text": "notifications whenever I publish more"
+ },
+ {
+  "start": 1543.52,
+  "end": 1551.51,
+  "text": "videos thank"
+ },
+ {
+  "start": 1556.12,
+  "end": 1559.12,
+  "text": "you"
+ }
+]

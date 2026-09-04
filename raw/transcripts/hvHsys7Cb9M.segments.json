@@ -1,0 +1,1572 @@
+[
+ {
+  "start": 12.99,
+  "end": 13.0,
+  "text": "hi everyone this is Ravi welcome to"
+ },
+ {
+  "start": 13.0,
+  "end": 16.55,
+  "text": "tricentis TSA Advanced Training so this"
+ },
+ {
+  "start": 16.56,
+  "end": 20.91,
+  "text": "is our lesson 14 as part of our TSA"
+ },
+ {
+  "start": 20.92,
+  "end": 24.99,
+  "text": "Advanced Training or it's a lesson 29 as"
+ },
+ {
+  "start": 25.0,
+  "end": 27.39,
+  "text": "an overall tric tasa"
+ },
+ {
+  "start": 27.4,
+  "end": 30.95,
+  "text": "training so this is our part part three"
+ },
+ {
+  "start": 30.96,
+  "end": 34.549,
+  "text": "of conditional statements and Loops as"
+ },
+ {
+  "start": 34.559,
+  "end": 37.19,
+  "text": "you already know I've already published"
+ },
+ {
+  "start": 37.2,
+  "end": 41.709,
+  "text": "two parts Part One covering if then L"
+ },
+ {
+  "start": 41.719,
+  "end": 44.95,
+  "text": "statements part two covering do"
+ },
+ {
+  "start": 44.96,
+  "end": 47.99,
+  "text": "statements and in this part I'm going to"
+ },
+ {
+  "start": 48.0,
+  "end": 51.67,
+  "text": "cover how can we use while statements"
+ },
+ {
+  "start": 51.68,
+  "end": 55.47,
+  "text": "while using or while automating your"
+ },
+ {
+  "start": 55.48,
+  "end": 58.99,
+  "text": "test cases by using trient Taska please"
+ },
+ {
+  "start": 59.0,
+  "end": 60.95,
+  "text": "do subscribe to to the channel click on"
+ },
+ {
+  "start": 60.96,
+  "end": 62.95,
+  "text": "Bell icon you'll receive notifications"
+ },
+ {
+  "start": 62.96,
+  "end": 66.51,
+  "text": "whenever I publish more"
+ },
+ {
+  "start": 71.27,
+  "end": 71.28,
+  "text": "videos so while conditional statement so"
+ },
+ {
+  "start": 71.28,
+  "end": 73.789,
+  "text": "first of all when you create while"
+ },
+ {
+  "start": 73.799,
+  "end": 76.87,
+  "text": "statements tsco will automatically"
+ },
+ {
+  "start": 76.88,
+  "end": 81.19,
+  "text": "create two objects one is Loop object"
+ },
+ {
+  "start": 81.2,
+  "end": 85.95,
+  "text": "and the other one is condition object so"
+ },
+ {
+  "start": 85.96,
+  "end": 88.069,
+  "text": "if the condition is"
+ },
+ {
+  "start": 88.079,
+  "end": 91.069,
+  "text": "fulfilled test steps within the loop"
+ },
+ {
+  "start": 91.079,
+  "end": 94.51,
+  "text": "object are run repeatedly until the"
+ },
+ {
+  "start": 94.52,
+  "end": 96.91,
+  "text": "condition is no longer"
+ },
+ {
+  "start": 96.92,
+  "end": 99.55,
+  "text": "fulfilled so while statements contain"
+ },
+ {
+  "start": 99.56,
+  "end": 102.99,
+  "text": "the property called maximum repetitions"
+ },
+ {
+  "start": 103.0,
+  "end": 105.749,
+  "text": "in order to avoid infinite"
+ },
+ {
+  "start": 105.759,
+  "end": 109.23,
+  "text": "Loops that means because first it"
+ },
+ {
+  "start": 109.24,
+  "end": 111.389,
+  "text": "searches for the condition it enters to"
+ },
+ {
+  "start": 111.399,
+  "end": 115.35,
+  "text": "The Loop and the loop repeats until the"
+ },
+ {
+  "start": 115.36,
+  "end": 118.149,
+  "text": "condition does not meet what if the"
+ },
+ {
+  "start": 118.159,
+  "end": 119.67,
+  "text": "condition whatever you automated it does"
+ },
+ {
+  "start": 119.68,
+  "end": 121.95,
+  "text": "not not meet forever then it's going to"
+ },
+ {
+  "start": 121.96,
+  "end": 124.67,
+  "text": "go for the infinite Loops that's why you"
+ },
+ {
+  "start": 124.68,
+  "end": 126.429,
+  "text": "can Define maximum"
+ },
+ {
+  "start": 126.439,
+  "end": 132.27,
+  "text": "repetitions for any while Loops okay so"
+ },
+ {
+  "start": 132.28,
+  "end": 136.07,
+  "text": "now let us see the order of conditions"
+ },
+ {
+  "start": 136.08,
+  "end": 140.309,
+  "text": "so first while comes and then the"
+ },
+ {
+  "start": 140.319,
+  "end": 143.15,
+  "text": "condition within the while statement"
+ },
+ {
+  "start": 143.16,
+  "end": 146.27,
+  "text": "comes and then Loop within the while"
+ },
+ {
+  "start": 146.28,
+  "end": 148.869,
+  "text": "statement comes okay so now let us jump"
+ },
+ {
+  "start": 148.879,
+  "end": 152.11,
+  "text": "onto the system and see an example by"
+ },
+ {
+  "start": 152.12,
+  "end": 156.309,
+  "text": "automating one test case or a scenario"
+ },
+ {
+  "start": 156.319,
+  "end": 158.509,
+  "text": "and we will use the while statement"
+ },
+ {
+  "start": 158.519,
+  "end": 161.43,
+  "text": "while you automating our test case so"
+ },
+ {
+  "start": 161.44,
+  "end": 164.91,
+  "text": "this is my TSA latest version 16 okay so"
+ },
+ {
+  "start": 164.92,
+  "end": 168.11,
+  "text": "before we start using while"
+ },
+ {
+  "start": 168.12,
+  "end": 172.19,
+  "text": "statement while automating our test case"
+ },
+ {
+  "start": 172.2,
+  "end": 174.11,
+  "text": "let me explain you what is the scenario"
+ },
+ {
+  "start": 174.12,
+  "end": 176.11,
+  "text": "that we are going to automate so that I"
+ },
+ {
+  "start": 176.12,
+  "end": 179.39,
+  "text": "can use while very effectively okay so"
+ },
+ {
+  "start": 179.4,
+  "end": 184.589,
+  "text": "let's go go back to my web shop okay so"
+ },
+ {
+  "start": 184.599,
+  "end": 186.149,
+  "text": "what we are going to do we are going to"
+ },
+ {
+  "start": 186.159,
+  "end": 189.149,
+  "text": "automate empty shopping cart"
+ },
+ {
+  "start": 189.159,
+  "end": 192.75,
+  "text": "scenario what it means so before I"
+ },
+ {
+  "start": 192.76,
+  "end": 195.27,
+  "text": "execute any test case right I want to"
+ },
+ {
+  "start": 195.28,
+  "end": 197.99,
+  "text": "make sure that your shopping cart is"
+ },
+ {
+  "start": 198.0,
+  "end": 202.509,
+  "text": "empty okay so for that once you are into"
+ },
+ {
+  "start": 202.519,
+  "end": 205.789,
+  "text": "shopping cart so if you see this is your"
+ },
+ {
+  "start": 205.799,
+  "end": 208.589,
+  "text": "shopping cart table so at the back end"
+ },
+ {
+  "start": 208.599,
+  "end": 210.99,
+  "text": "it's a web table where your all the"
+ },
+ {
+  "start": 211.0,
+  "end": 216.27,
+  "text": "items will be stored okay so I need to"
+ },
+ {
+  "start": 216.28,
+  "end": 220.11,
+  "text": "empty this shopping cart how check the"
+ },
+ {
+  "start": 220.12,
+  "end": 225.03,
+  "text": "item if the shopping cart exist any item"
+ },
+ {
+  "start": 225.04,
+  "end": 227.789,
+  "text": "check this click on update shopping cart"
+ },
+ {
+  "start": 227.799,
+  "end": 230.63,
+  "text": "that will remove that item and"
+ },
+ {
+  "start": 230.64,
+  "end": 233.35,
+  "text": "again I want to check do you have any"
+ },
+ {
+  "start": 233.36,
+  "end": 236.509,
+  "text": "items yes I found one other item check"
+ },
+ {
+  "start": 236.519,
+  "end": 239.19,
+  "text": "this click on update shopping cart so"
+ },
+ {
+  "start": 239.2,
+  "end": 241.149,
+  "text": "now do I have any other item into"
+ },
+ {
+  "start": 241.159,
+  "end": 243.83,
+  "text": "shopping cart yes check this and update"
+ },
+ {
+  "start": 243.84,
+  "end": 246.03,
+  "text": "shopping cart do you have any other item"
+ },
+ {
+  "start": 246.04,
+  "end": 248.869,
+  "text": "in the shopping cart no now I need to"
+ },
+ {
+  "start": 248.879,
+  "end": 252.069,
+  "text": "exit I mean exit means I need to click"
+ },
+ {
+  "start": 252.079,
+  "end": 256.509,
+  "text": "on log out wait until login appears and"
+ },
+ {
+  "start": 256.519,
+  "end": 259.27,
+  "text": "then close the browser okay that's what"
+ },
+ {
+  "start": 259.28,
+  "end": 262.39,
+  "text": "I need to automate that is the scenario"
+ },
+ {
+  "start": 262.4,
+  "end": 265.909,
+  "text": "okay so let's go back to my trient tasar"
+ },
+ {
+  "start": 265.919,
+  "end": 268.83,
+  "text": "so as I told you I need to create a new"
+ },
+ {
+  "start": 268.84,
+  "end": 270.39,
+  "text": "workspace"
+ },
+ {
+  "start": 270.4,
+  "end": 272.029,
+  "text": "and I need to"
+ },
+ {
+  "start": 272.039,
+  "end": 276.749,
+  "text": "import the TSU file additional material"
+ },
+ {
+  "start": 276.759,
+  "end": 279.749,
+  "text": "based TSU file so that I will have some"
+ },
+ {
+  "start": 279.759,
+  "end": 283.39,
+  "text": "predefined libraries and predefined"
+ },
+ {
+  "start": 283.4,
+  "end": 286.11,
+  "text": "modules that are already created so if"
+ },
+ {
+  "start": 286.12,
+  "end": 288.67,
+  "text": "you want to access all these materials"
+ },
+ {
+  "start": 288.68,
+  "end": 291.83,
+  "text": "like presentation PDF and then this um"
+ },
+ {
+  "start": 291.84,
+  "end": 294.83,
+  "text": "TSU files you can basically go to my"
+ },
+ {
+  "start": 294.84,
+  "end": 296.909,
+  "text": "udmi course you can subscribe to my udmi"
+ },
+ {
+  "start": 296.919,
+  "end": 299.27,
+  "text": "course I'm going to leave my uh udmi"
+ },
+ {
+  "start": 299.28,
+  "end": 303.27,
+  "text": "course in the description okay um where"
+ },
+ {
+  "start": 303.28,
+  "end": 306.39,
+  "text": "you can access all the artifacts and and"
+ },
+ {
+  "start": 306.4,
+  "end": 308.749,
+  "text": "also in fact you can simply access the"
+ },
+ {
+  "start": 308.759,
+  "end": 311.27,
+  "text": "entire workspace that I'm working on"
+ },
+ {
+  "start": 311.28,
+  "end": 315.11,
+  "text": "okay so now let's go here and create a"
+ },
+ {
+  "start": 315.12,
+  "end": 316.35,
+  "text": "new"
+ },
+ {
+  "start": 316.36,
+  "end": 323.029,
+  "text": "workspace okay so let's name this as"
+ },
+ {
+  "start": 323.039,
+  "end": 324.909,
+  "text": "automation"
+ },
+ {
+  "start": 324.919,
+  "end": 329.51,
+  "text": "specialist level two and I want to use a"
+ },
+ {
+  "start": 329.52,
+  "end": 331.55,
+  "text": "workspace template here I don't want to"
+ },
+ {
+  "start": 331.56,
+  "end": 334.59,
+  "text": "use a standard TSU I want to use this"
+ },
+ {
+  "start": 334.6,
+  "end": 337.59,
+  "text": "one okay additional material based TSU"
+ },
+ {
+  "start": 337.6,
+  "end": 338.95,
+  "text": "browse"
+ },
+ {
+  "start": 338.96,
+  "end": 341.55,
+  "text": "this and then yeah this is the one okay"
+ },
+ {
+  "start": 341.56,
+  "end": 344.51,
+  "text": "this is the one I want to use and then"
+ },
+ {
+  "start": 344.52,
+  "end": 349.07,
+  "text": "open this now click on okay so now it is"
+ },
+ {
+  "start": 349.08,
+  "end": 353.23,
+  "text": "going to create a new workspace where"
+ },
+ {
+  "start": 353.24,
+  "end": 354.629,
+  "text": "you will"
+ },
+ {
+  "start": 354.639,
+  "end": 358.43,
+  "text": "have some predefined activities"
+ },
+ {
+  "start": 358.44,
+  "end": 362.15,
+  "text": "basically pre defined test case folders"
+ },
+ {
+  "start": 362.16,
+  "end": 365.469,
+  "text": "predefined uh modules are the controls"
+ },
+ {
+  "start": 365.479,
+  "end": 369.27,
+  "text": "okay that are already captured"
+ },
+ {
+  "start": 369.28,
+  "end": 372.189,
+  "text": "okay and"
+ },
+ {
+  "start": 372.199,
+  "end": 375.23,
+  "text": "here so once you land on here I'm going"
+ },
+ {
+  "start": 375.24,
+  "end": 378.029,
+  "text": "to create a new reusable test block"
+ },
+ {
+  "start": 378.039,
+  "end": 380.71,
+  "text": "because see emptying a shopping cart is"
+ },
+ {
+  "start": 380.72,
+  "end": 383.909,
+  "text": "a reusable function so anytime multiple"
+ },
+ {
+  "start": 383.919,
+  "end": 386.27,
+  "text": "test cases I can reuse that right so"
+ },
+ {
+  "start": 386.28,
+  "end": 388.07,
+  "text": "that's why I'm going to use reusable"
+ },
+ {
+  "start": 388.08,
+  "end": 390.71,
+  "text": "test step blocks okay okay so if you"
+ },
+ {
+  "start": 390.72,
+  "end": 393.79,
+  "text": "remember in my previous um uh specialist"
+ },
+ {
+  "start": 393.8,
+  "end": 396.95,
+  "text": "level one sessions right I explained you"
+ },
+ {
+  "start": 396.96,
+  "end": 398.909,
+  "text": "how to create libraries and then how can"
+ },
+ {
+  "start": 398.919,
+  "end": 401.87,
+  "text": "you create reusable test blocks right so"
+ },
+ {
+  "start": 401.88,
+  "end": 404.589,
+  "text": "if you see this is my library I want to"
+ },
+ {
+  "start": 404.599,
+  "end": 407.95,
+  "text": "create a new reusable test block here"
+ },
+ {
+  "start": 407.96,
+  "end": 411.27,
+  "text": "okay right click create new reusable"
+ },
+ {
+  "start": 411.28,
+  "end": 412.67,
+  "text": "test"
+ },
+ {
+  "start": 412.68,
+  "end": 417.43,
+  "text": "block and name this as"
+ },
+ {
+  "start": 417.44,
+  "end": 421.11,
+  "text": "empty shopping"
+ },
+ {
+  "start": 421.12,
+  "end": 424.309,
+  "text": "cart okay so this is my new reusable"
+ },
+ {
+  "start": 424.319,
+  "end": 427.55,
+  "text": "tester block let's concentrate empty"
+ },
+ {
+  "start": 427.56,
+  "end": 430.869,
+  "text": "shopping cart now let us insert the"
+ },
+ {
+  "start": 430.879,
+  "end": 433.39,
+  "text": "modules I want to insert the module"
+ },
+ {
+  "start": 433.4,
+  "end": 438.029,
+  "text": "called top menu three times okay first"
+ },
+ {
+  "start": 438.039,
+  "end": 441.43,
+  "text": "insert the top menu and name this as"
+ },
+ {
+  "start": 441.44,
+  "end": 446.71,
+  "text": "navigate to shopping"
+ },
+ {
+  "start": 450.869,
+  "end": 450.879,
+  "text": "Cod navigate to"
+ },
+ {
+  "start": 450.879,
+  "end": 454.869,
+  "text": "shopping cart done let me insert One"
+ },
+ {
+  "start": 454.879,
+  "end": 460.469,
+  "text": "More Time same top menu module and name"
+ },
+ {
+  "start": 460.479,
+  "end": 461.95,
+  "text": "this"
+ },
+ {
+  "start": 461.96,
+  "end": 467.71,
+  "text": "as log out and let me insert one more"
+ },
+ {
+  "start": 467.72,
+  "end": 470.11,
+  "text": "time top"
+ },
+ {
+  "start": 470.12,
+  "end": 474.43,
+  "text": "menu okay and this time name this as"
+ },
+ {
+  "start": 474.44,
+  "end": 480.309,
+  "text": "wait until logged out log out wait"
+ },
+ {
+  "start": 480.319,
+  "end": 482.629,
+  "text": "until logged"
+ },
+ {
+  "start": 482.639,
+  "end": 485.39,
+  "text": "out logged"
+ },
+ {
+  "start": 485.4,
+  "end": 489.909,
+  "text": "out okay and then now I want to insert a"
+ },
+ {
+  "start": 489.919,
+  "end": 495.189,
+  "text": "standard module called close browser"
+ },
+ {
+  "start": 495.199,
+  "end": 498.55,
+  "text": "right close"
+ },
+ {
+  "start": 498.56,
+  "end": 502.869,
+  "text": "browser that's it now let us insert the"
+ },
+ {
+  "start": 502.879,
+  "end": 505.27,
+  "text": "values okay first what we are going to"
+ },
+ {
+  "start": 505.28,
+  "end": 508.83,
+  "text": "do you need to click on uh shopping cart"
+ },
+ {
+  "start": 508.84,
+  "end": 511.43,
+  "text": "correct let's click on that means I need"
+ },
+ {
+  "start": 511.44,
+  "end": 514.389,
+  "text": "to put some x value here and your action"
+ },
+ {
+  "start": 514.399,
+  "end": 518.35,
+  "text": "mode as input and then I need to click"
+ },
+ {
+  "start": 518.36,
+  "end": 521.709,
+  "text": "on log out so basically of course once"
+ },
+ {
+  "start": 521.719,
+  "end": 523.269,
+  "text": "you go to the shopping cart you will be"
+ },
+ {
+  "start": 523.279,
+  "end": 524.949,
+  "text": "performing removal of the emptying the"
+ },
+ {
+  "start": 524.959,
+  "end": 526.47,
+  "text": "shopping C I'm going to tell you that"
+ },
+ {
+  "start": 526.48,
+  "end": 532.11,
+  "text": "okay and log out once you log out you"
+ },
+ {
+  "start": 532.12,
+  "end": 536.389,
+  "text": "need to wait until this login link"
+ },
+ {
+  "start": 536.399,
+  "end": 540.069,
+  "text": "appears so for that here you need to"
+ },
+ {
+  "start": 540.079,
+  "end": 542.11,
+  "text": "provide the"
+ },
+ {
+  "start": 542.12,
+  "end": 545.67,
+  "text": "login visible visibility criteria if it"
+ },
+ {
+  "start": 545.68,
+  "end": 549.63,
+  "text": "is visible right"
+ },
+ {
+  "start": 549.64,
+  "end": 554.15,
+  "text": "visible is equal to"
+ },
+ {
+  "start": 557.71,
+  "end": 557.72,
+  "text": "True wait until visible is true that"
+ },
+ {
+  "start": 557.72,
+  "end": 560.949,
+  "text": "means I need to select the action mode"
+ },
+ {
+  "start": 560.959,
+  "end": 564.87,
+  "text": "as wait on so I'm instructing"
+ },
+ {
+  "start": 564.88,
+  "end": 568.509,
+  "text": "tasa wait until this login is visible"
+ },
+ {
+  "start": 568.519,
+  "end": 572.87,
+  "text": "true okay until login visible true right"
+ },
+ {
+  "start": 572.88,
+  "end": 576.03,
+  "text": "so once that is done once that is done"
+ },
+ {
+  "start": 576.04,
+  "end": 578.55,
+  "text": "now I'm going to close the browser"
+ },
+ {
+  "start": 578.56,
+  "end": 581.069,
+  "text": "correct so here title of the browser is"
+ },
+ {
+  "start": 581.079,
+  "end": 584.389,
+  "text": "demo star I'm using regular expression"
+ },
+ {
+  "start": 584.399,
+  "end": 587.35,
+  "text": "okay done"
+ },
+ {
+  "start": 587.36,
+  "end": 591.509,
+  "text": "now here now I need to perform empty"
+ },
+ {
+  "start": 591.519,
+  "end": 594.069,
+  "text": "once I go to the shopping cart I need to"
+ },
+ {
+  "start": 594.079,
+  "end": 597.35,
+  "text": "perform empty right emptying the"
+ },
+ {
+  "start": 597.36,
+  "end": 599.389,
+  "text": "shopping cart so for that let me"
+ },
+ {
+  "start": 599.399,
+  "end": 603.829,
+  "text": "introduce a new test step"
+ },
+ {
+  "start": 603.839,
+  "end": 607.23,
+  "text": "create while create while"
+ },
+ {
+  "start": 607.24,
+  "end": 611.55,
+  "text": "statement okay what I'm going to do I'm"
+ },
+ {
+  "start": 611.56,
+  "end": 616.79,
+  "text": "going to Let's collapse all these I need"
+ },
+ {
+  "start": 616.8,
+  "end": 620.31,
+  "text": "to bring this while loop after navigate"
+ },
+ {
+  "start": 620.32,
+  "end": 623.069,
+  "text": "to shopping cart after navigating to"
+ },
+ {
+  "start": 623.079,
+  "end": 626.03,
+  "text": "shopping cart I want to perform some"
+ },
+ {
+  "start": 626.04,
+  "end": 629.23,
+  "text": "actions what I need to empty the"
+ },
+ {
+  "start": 629.24,
+  "end": 633.03,
+  "text": "shopping cart correct so now first let's"
+ },
+ {
+  "start": 633.04,
+  "end": 636.31,
+  "text": "concentrate on condition under while"
+ },
+ {
+  "start": 636.32,
+  "end": 640.269,
+  "text": "loop let's go to condition so here I"
+ },
+ {
+  "start": 640.279,
+  "end": 644.11,
+  "text": "want to import a module called shopping"
+ },
+ {
+  "start": 644.12,
+  "end": 646.269,
+  "text": "cart correct so I have to go to the"
+ },
+ {
+  "start": 646.279,
+  "end": 649.31,
+  "text": "shopping cart under shopping"
+ },
+ {
+  "start": 649.32,
+  "end": 652.79,
+  "text": "cart I need to verify if this shopping"
+ },
+ {
+  "start": 652.8,
+  "end": 655.59,
+  "text": "cart has a shopping cart table if you"
+ },
+ {
+  "start": 655.6,
+  "end": 658.19,
+  "text": "remember if you add any item that item"
+ },
+ {
+  "start": 658.2,
+  "end": 659.629,
+  "text": "will be stored in the table table"
+ },
+ {
+  "start": 659.639,
+  "end": 661.59,
+  "text": "correct let me add some items okay let's"
+ },
+ {
+  "start": 661.6,
+  "end": 664.71,
+  "text": "log in and add some items so that you"
+ },
+ {
+  "start": 664.72,
+  "end": 668.43,
+  "text": "understand very"
+ },
+ {
+  "start": 673.59,
+  "end": 673.6,
+  "text": "well so go to oper and shoes add jeans"
+ },
+ {
+  "start": 673.6,
+  "end": 678.19,
+  "text": "add something add bag right so now you"
+ },
+ {
+  "start": 678.2,
+  "end": 680.829,
+  "text": "go to shopping cart I want to verify if"
+ },
+ {
+  "start": 680.839,
+  "end": 683.269,
+  "text": "the table exist right this shopping card"
+ },
+ {
+  "start": 683.279,
+  "end": 686.55,
+  "text": "table correct so for that I need to see"
+ },
+ {
+  "start": 686.56,
+  "end": 692.15,
+  "text": "condition is if if if your shopping cart"
+ },
+ {
+  "start": 692.16,
+  "end": 693.99,
+  "text": "products this is the table this is your"
+ },
+ {
+  "start": 694.0,
+  "end": 697.55,
+  "text": "table if this exist that means go here"
+ },
+ {
+  "start": 697.56,
+  "end": 699.47,
+  "text": "select"
+ },
+ {
+  "start": 699.48,
+  "end": 702.19,
+  "text": "exist equal"
+ },
+ {
+  "start": 702.2,
+  "end": 705.31,
+  "text": "to"
+ },
+ {
+  "start": 708.949,
+  "end": 708.959,
+  "text": "True right but here action mode is"
+ },
+ {
+  "start": 708.959,
+  "end": 713.43,
+  "text": "verify I want to verify if this table"
+ },
+ {
+  "start": 713.44,
+  "end": 718.75,
+  "text": "exist or not if this exist then let's go"
+ },
+ {
+  "start": 718.76,
+  "end": 722.389,
+  "text": "to to your Loop what it needs to do it"
+ },
+ {
+  "start": 722.399,
+  "end": 725.509,
+  "text": "needs to start emptying the card correct"
+ },
+ {
+  "start": 725.519,
+  "end": 726.67,
+  "text": "so contr"
+ },
+ {
+  "start": 726.68,
+  "end": 728.389,
+  "text": "T"
+ },
+ {
+  "start": 728.399,
+  "end": 732.829,
+  "text": "again shopping cart in import the same"
+ },
+ {
+  "start": 732.839,
+  "end": 737.11,
+  "text": "module and here I need to select right"
+ },
+ {
+  "start": 737.12,
+  "end": 740.75,
+  "text": "in the table this is my first row I have"
+ },
+ {
+  "start": 740.76,
+  "end": 744.629,
+  "text": "to select first row checkbox for that go"
+ },
+ {
+  "start": 744.639,
+  "end": 745.629,
+  "text": "to"
+ },
+ {
+  "start": 745.639,
+  "end": 747.87,
+  "text": "rows and"
+ },
+ {
+  "start": 747.88,
+  "end": 751.47,
+  "text": "then select this first"
+ },
+ {
+  "start": 751.48,
+  "end": 755.03,
+  "text": "row dollar one so I've already explained"
+ },
+ {
+  "start": 755.04,
+  "end": 757.949,
+  "text": "you about how to handle the tables web"
+ },
+ {
+  "start": 757.959,
+  "end": 760.43,
+  "text": "tables in my previous sessions okay I"
+ },
+ {
+  "start": 760.44,
+  "end": 761.99,
+  "text": "would recommend you guys to visit those"
+ },
+ {
+  "start": 762.0,
+  "end": 766.43,
+  "text": "videos okay and here once you select one"
+ },
+ {
+  "start": 766.44,
+  "end": 769.91,
+  "text": "you will see see remove this is my"
+ },
+ {
+  "start": 769.92,
+  "end": 774.43,
+  "text": "remove column remove column right under"
+ },
+ {
+  "start": 774.44,
+  "end": 775.75,
+  "text": "this remove"
+ },
+ {
+  "start": 775.76,
+  "end": 779.75,
+  "text": "column again here my"
+ },
+ {
+  "start": 779.76,
+  "end": 783.71,
+  "text": "um action mode should be again select"
+ },
+ {
+  "start": 783.72,
+  "end": 785.55,
+  "text": "sorry not this one so this one this one"
+ },
+ {
+  "start": 785.56,
+  "end": 786.59,
+  "text": "this one is"
+ },
+ {
+  "start": 786.6,
+  "end": 789.949,
+  "text": "Select under remove column under remove"
+ },
+ {
+  "start": 789.959,
+  "end": 792.91,
+  "text": "column there is a remove checkbox I need"
+ },
+ {
+  "start": 792.92,
+  "end": 796.11,
+  "text": "to check this right so that's why I have"
+ },
+ {
+  "start": 796.12,
+  "end": 799.59,
+  "text": "to change this to input"
+ },
+ {
+  "start": 799.6,
+  "end": 804.67,
+  "text": "and this is Select this as"
+ },
+ {
+  "start": 804.68,
+  "end": 812.79,
+  "text": "true this checkbox should be true"
+ },
+ {
+  "start": 816.629,
+  "end": 816.639,
+  "text": "understand so this checkbox is"
+ },
+ {
+  "start": 816.639,
+  "end": 819.15,
+  "text": "true select select select and then this"
+ },
+ {
+  "start": 819.16,
+  "end": 822.829,
+  "text": "is true and once that is done so once I"
+ },
+ {
+  "start": 822.839,
+  "end": 825.069,
+  "text": "select this I need to update the"
+ },
+ {
+  "start": 825.079,
+  "end": 828.71,
+  "text": "shopping cart so for"
+ },
+ {
+  "start": 828.72,
+  "end": 831.67,
+  "text": "that click on shopping cart update"
+ },
+ {
+  "start": 831.68,
+  "end": 834.47,
+  "text": "shopping cart button correct once that"
+ },
+ {
+  "start": 834.48,
+  "end": 837.749,
+  "text": "is done again it goes back to the"
+ },
+ {
+  "start": 837.759,
+  "end": 840.31,
+  "text": "condition do you have a shopping cart"
+ },
+ {
+  "start": 840.32,
+  "end": 843.35,
+  "text": "still Yes again come"
+ },
+ {
+  "start": 843.36,
+  "end": 847.15,
+  "text": "here again now select the first"
+ },
+ {
+  "start": 847.16,
+  "end": 849.509,
+  "text": "checkbox and then update the shopping"
+ },
+ {
+  "start": 849.519,
+  "end": 851.269,
+  "text": "cart so as soon as you update the"
+ },
+ {
+  "start": 851.279,
+  "end": 853.03,
+  "text": "shopping cart your shopping cart is"
+ },
+ {
+  "start": 853.04,
+  "end": 854.269,
+  "text": "let's say select this update the"
+ },
+ {
+  "start": 854.279,
+  "end": 856.47,
+  "text": "shopping cart done right now I have"
+ },
+ {
+  "start": 856.48,
+  "end": 858.59,
+  "text": "another item so it goes back to the"
+ },
+ {
+  "start": 858.6,
+  "end": 861.749,
+  "text": "condition still this table exist yes and"
+ },
+ {
+  "start": 861.759,
+  "end": 864.99,
+  "text": "then it goes here and selects your first"
+ },
+ {
+  "start": 865.0,
+  "end": 867.99,
+  "text": "selects your first checkbox and then"
+ },
+ {
+  "start": 868.0,
+  "end": 870.31,
+  "text": "clicks on update shopping cart"
+ },
+ {
+  "start": 870.32,
+  "end": 872.389,
+  "text": "correct so that's how we are going to"
+ },
+ {
+  "start": 872.399,
+  "end": 875.31,
+  "text": "perform so once that is done I think we"
+ },
+ {
+  "start": 875.32,
+  "end": 879.43,
+  "text": "are good now we are ready to run this"
+ },
+ {
+  "start": 879.44,
+  "end": 883.31,
+  "text": "particular reusable test step block"
+ },
+ {
+  "start": 883.32,
+  "end": 885.269,
+  "text": "correct so"
+ },
+ {
+  "start": 885.279,
+  "end": 888.15,
+  "text": "let's okay for that first before you run"
+ },
+ {
+  "start": 888.16,
+  "end": 889.99,
+  "text": "you need to make sure that you have some"
+ },
+ {
+  "start": 890.0,
+  "end": 892.829,
+  "text": "let me add some more uh items to the"
+ },
+ {
+  "start": 892.839,
+  "end": 895.35,
+  "text": "shopping cart okay let me add this also"
+ },
+ {
+  "start": 895.36,
+  "end": 898.43,
+  "text": "to the shopping cart and then let me add"
+ },
+ {
+  "start": 898.44,
+  "end": 901.749,
+  "text": "this also the shopping cart"
+ },
+ {
+  "start": 901.759,
+  "end": 905.99,
+  "text": "okay um okay let me select this add to"
+ },
+ {
+  "start": 906.0,
+  "end": 908.11,
+  "text": "the shopping cart okay so I have total"
+ },
+ {
+  "start": 908.12,
+  "end": 912.949,
+  "text": "four items okay and"
+ },
+ {
+  "start": 912.959,
+  "end": 917.47,
+  "text": "here yeah I have two bags okay right now"
+ },
+ {
+  "start": 917.48,
+  "end": 920.629,
+  "text": "I need to run now okay you should be"
+ },
+ {
+  "start": 920.639,
+  "end": 922.43,
+  "text": "loging and"
+ },
+ {
+  "start": 922.44,
+  "end": 925.91,
+  "text": "then"
+ },
+ {
+  "start": 929.59,
+  "end": 929.6,
+  "text": "let's oh you need not to click on you"
+ },
+ {
+  "start": 929.6,
+  "end": 931.03,
+  "text": "it's going to click on shopping cart"
+ },
+ {
+  "start": 931.04,
+  "end": 933.99,
+  "text": "anyway so let's go"
+ },
+ {
+  "start": 934.0,
+  "end": 938.71,
+  "text": "here okay okay so now right click and"
+ },
+ {
+  "start": 938.72,
+  "end": 955.35,
+  "text": "run in"
+ },
+ {
+  "start": 958.23,
+  "end": 958.24,
+  "text": "scratchbook see clicked on shopping cart"
+ },
+ {
+  "start": 958.24,
+  "end": 961.309,
+  "text": "now see it's checked first checkbox"
+ },
+ {
+  "start": 961.319,
+  "end": 963.55,
+  "text": "updated shopping cart second updated"
+ },
+ {
+  "start": 963.56,
+  "end": 965.309,
+  "text": "shopping cart now it's empty it's going"
+ },
+ {
+  "start": 965.319,
+  "end": 967.91,
+  "text": "to log out and then it's going to close"
+ },
+ {
+  "start": 967.92,
+  "end": 968.67,
+  "text": "the"
+ },
+ {
+  "start": 968.68,
+  "end": 972.509,
+  "text": "browser right once this login link"
+ },
+ {
+  "start": 972.519,
+  "end": 976.949,
+  "text": "identifies it will close the"
+ },
+ {
+  "start": 981.269,
+  "end": 981.279,
+  "text": "browser done it closed the browser so"
+ },
+ {
+  "start": 981.279,
+  "end": 984.829,
+  "text": "our test case is passed see everything"
+ },
+ {
+  "start": 984.839,
+  "end": 987.47,
+  "text": "is passed while loop repeated how many"
+ },
+ {
+  "start": 987.48,
+  "end": 989.389,
+  "text": "times see this while loop repeated four"
+ },
+ {
+  "start": 989.399,
+  "end": 990.71,
+  "text": "times"
+ },
+ {
+  "start": 990.72,
+  "end": 994.389,
+  "text": "because there are four items 1 2 3 4"
+ },
+ {
+  "start": 994.399,
+  "end": 996.15,
+  "text": "that is the reason it repeated four"
+ },
+ {
+  "start": 996.16,
+  "end": 999.11,
+  "text": "times and then logged out and waited"
+ },
+ {
+  "start": 999.12,
+  "end": 1001.389,
+  "text": "until the login appears and close the"
+ },
+ {
+  "start": 1001.399,
+  "end": 1005.43,
+  "text": "browser okay so hope you all understand"
+ },
+ {
+  "start": 1005.44,
+  "end": 1007.629,
+  "text": "the concept very well it is very very"
+ },
+ {
+  "start": 1007.639,
+  "end": 1009.67,
+  "text": "important Concept in the real time okay"
+ },
+ {
+  "start": 1009.68,
+  "end": 1011.23,
+  "text": "if you have any queries leave your"
+ },
+ {
+  "start": 1011.24,
+  "end": 1012.79,
+  "text": "queries in the comment box I'll try to"
+ },
+ {
+  "start": 1012.8,
+  "end": 1017.47,
+  "text": "respond to your queries thank"
+ }
+]

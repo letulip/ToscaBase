@@ -1,0 +1,1182 @@
+[
+ {
+  "start": 12.789,
+  "end": 12.799,
+  "text": "hi everyone this is Ravi welcome to"
+ },
+ {
+  "start": 12.799,
+  "end": 15.75,
+  "text": "tricentis tasa Advanced"
+ },
+ {
+  "start": 15.76,
+  "end": 18.31,
+  "text": "Training as you all know I already"
+ },
+ {
+  "start": 18.32,
+  "end": 22.23,
+  "text": "published 62 YouTube videos covering"
+ },
+ {
+  "start": 22.24,
+  "end": 25.71,
+  "text": "beginners level intermed level and"
+ },
+ {
+  "start": 25.72,
+  "end": 29.589,
+  "text": "advanced level concepts of trien Tas"
+ },
+ {
+  "start": 29.599,
+  "end": 32.19,
+  "text": "from couple of videos onwards I've"
+ },
+ {
+  "start": 32.2,
+  "end": 34.709,
+  "text": "started teaching you the realtime"
+ },
+ {
+  "start": 34.719,
+  "end": 38.27,
+  "text": "scenarios where you might encounter"
+ },
+ {
+  "start": 38.28,
+  "end": 40.67,
+  "text": "different types of"
+ },
+ {
+  "start": 40.68,
+  "end": 43.67,
+  "text": "obstacles and how can we solve those"
+ },
+ {
+  "start": 43.68,
+  "end": 47.31,
+  "text": "obstacles while automating your test"
+ },
+ {
+  "start": 47.32,
+  "end": 50.35,
+  "text": "cases please do subscribe to the channel"
+ },
+ {
+  "start": 50.36,
+  "end": 51.91,
+  "text": "click on Bell icon you'll receive"
+ },
+ {
+  "start": 51.92,
+  "end": 55.029,
+  "text": "notifications whenever I publish more"
+ },
+ {
+  "start": 55.039,
+  "end": 59.47,
+  "text": "videos this is our lesson 63 in terms of"
+ },
+ {
+  "start": 59.48,
+  "end": 62.95,
+  "text": "overall tricentis TSA automation"
+ },
+ {
+  "start": 62.96,
+  "end": 66.95,
+  "text": "training and this is obstacle 21 in"
+ },
+ {
+  "start": 66.96,
+  "end": 70.109,
+  "text": "terms of real time scenarios in this"
+ },
+ {
+  "start": 70.119,
+  "end": 72.99,
+  "text": "lesson I'm going to teach you how can we"
+ },
+ {
+  "start": 73.0,
+  "end": 76.789,
+  "text": "solve an obstacle where you need to"
+ },
+ {
+  "start": 76.799,
+  "end": 80.55,
+  "text": "interact with a dynamic web table and"
+ },
+ {
+  "start": 80.56,
+  "end": 84.109,
+  "text": "you need to search for a specific cell"
+ },
+ {
+  "start": 84.119,
+  "end": 87.35,
+  "text": "value in this particular Dynamic web"
+ },
+ {
+  "start": 87.36,
+  "end": 90.87,
+  "text": "table by using constraint print action"
+ },
+ {
+  "start": 90.88,
+  "end": 95.109,
+  "text": "mode and by using search table cell"
+ },
+ {
+  "start": 95.119,
+  "end": 97.91,
+  "text": "value methods so now let us see in"
+ },
+ {
+  "start": 97.92,
+  "end": 99.95,
+  "text": "detail what is the obstacle that we need"
+ },
+ {
+  "start": 99.96,
+  "end": 101.749,
+  "text": "to solve"
+ },
+ {
+  "start": 101.759,
+  "end": 106.469,
+  "text": "for this is the obstacle list and this"
+ },
+ {
+  "start": 106.479,
+  "end": 109.19,
+  "text": "is our obstacle that we are working on"
+ },
+ {
+  "start": 109.2,
+  "end": 112.27,
+  "text": "the name of obstacle is table search and"
+ },
+ {
+  "start": 112.28,
+  "end": 115.35,
+  "text": "which is categorized as hard let us go"
+ },
+ {
+  "start": 115.36,
+  "end": 117.31,
+  "text": "for"
+ },
+ {
+  "start": 117.32,
+  "end": 120.95,
+  "text": "it so let us see what is the obstacle"
+ },
+ {
+  "start": 120.96,
+  "end": 125.23,
+  "text": "enter true or false depending on whether"
+ },
+ {
+  "start": 125.24,
+  "end": 130.07,
+  "text": "the table contains a cell with value 15"
+ },
+ {
+  "start": 130.08,
+  "end": 133.03,
+  "text": "you see the below table let's see if you"
+ },
+ {
+  "start": 133.04,
+  "end": 137.35,
+  "text": "have any value 15 here so in the cells I"
+ },
+ {
+  "start": 137.36,
+  "end": 142.19,
+  "text": "do not see a value 15 any in any of the"
+ },
+ {
+  "start": 142.2,
+  "end": 147.03,
+  "text": "cell so that's why I'm going to enter as"
+ },
+ {
+  "start": 147.04,
+  "end": 150.309,
+  "text": "false see as soon as you enter false you"
+ },
+ {
+  "start": 150.319,
+  "end": 154.589,
+  "text": "solve the automation problem now let me"
+ },
+ {
+  "start": 154.599,
+  "end": 155.63,
+  "text": "try"
+ },
+ {
+  "start": 155.64,
+  "end": 160.27,
+  "text": "again so this time again I don't see any"
+ },
+ {
+  "start": 160.28,
+  "end": 166.11,
+  "text": "15 value in any of in any of the cell so"
+ },
+ {
+  "start": 166.12,
+  "end": 168.99,
+  "text": "that's why again I'm going to enter as"
+ },
+ {
+  "start": 169.0,
+  "end": 172.43,
+  "text": "false so let me try again now you can"
+ },
+ {
+  "start": 172.44,
+  "end": 175.75,
+  "text": "see here there is value 15 in one of the"
+ },
+ {
+  "start": 175.76,
+  "end": 178.91,
+  "text": "cell so this table is dynamic and all"
+ },
+ {
+  "start": 178.92,
+  "end": 181.03,
+  "text": "the values are dynamic DC in the table"
+ },
+ {
+  "start": 181.04,
+  "end": 184.67,
+  "text": "so now I can just enter"
+ },
+ {
+  "start": 188.75,
+  "end": 188.76,
+  "text": "true so that means to solve this problem"
+ },
+ {
+  "start": 188.76,
+  "end": 192.71,
+  "text": "you need to search for a specific value"
+ },
+ {
+  "start": 192.72,
+  "end": 197.869,
+  "text": "in each row and each colum so how can we"
+ },
+ {
+  "start": 197.879,
+  "end": 202.589,
+  "text": "achieve this for for that let us go to"
+ },
+ {
+  "start": 202.599,
+  "end": 206.75,
+  "text": "trentos as usual we're going to scan the"
+ },
+ {
+  "start": 206.76,
+  "end": 208.99,
+  "text": "objects that are required to automate"
+ },
+ {
+  "start": 209.0,
+  "end": 212.91,
+  "text": "the scenario this is my obstacle folder"
+ },
+ {
+  "start": 212.92,
+  "end": 217.03,
+  "text": "I'm in modules section right click in"
+ },
+ {
+  "start": 217.04,
+  "end": 219.83,
+  "text": "right click on obstacle folder select"
+ },
+ {
+  "start": 219.84,
+  "end": 227.35,
+  "text": "scan"
+ },
+ {
+  "start": 230.589,
+  "end": 230.599,
+  "text": "application now this is the application"
+ },
+ {
+  "start": 230.599,
+  "end": 234.47,
+  "text": "that I would like to select and click on"
+ },
+ {
+  "start": 234.48,
+  "end": 238.149,
+  "text": "scan so now to automate this particular"
+ },
+ {
+  "start": 238.159,
+  "end": 242.19,
+  "text": "scenario we need to add this web table"
+ },
+ {
+  "start": 242.2,
+  "end": 245.63,
+  "text": "and also you need to add the text box"
+ },
+ {
+  "start": 245.64,
+  "end": 247.99,
+  "text": "correct so if you can see here this is"
+ },
+ {
+  "start": 248.0,
+  "end": 251.949,
+  "text": "my web table select the web"
+ },
+ {
+  "start": 255.35,
+  "end": 255.36,
+  "text": "table and then you can select the text"
+ },
+ {
+  "start": 255.36,
+  "end": 257.67,
+  "text": "box also where we'll be entering the"
+ },
+ {
+  "start": 257.68,
+  "end": 261.069,
+  "text": "true or false so now you can see these"
+ },
+ {
+  "start": 261.079,
+  "end": 265.15,
+  "text": "two objects are uniquely identified you"
+ },
+ {
+  "start": 265.16,
+  "end": 267.51,
+  "text": "can see here selected item is unique in"
+ },
+ {
+  "start": 267.52,
+  "end": 270.469,
+  "text": "the same way table also selected item is"
+ },
+ {
+  "start": 270.479,
+  "end": 274.83,
+  "text": "unique now let me name the module as"
+ },
+ {
+  "start": 274.84,
+  "end": 280.469,
+  "text": "obstacle 41 0 36 this is my obstacle"
+ },
+ {
+  "start": 280.479,
+  "end": 284.11,
+  "text": "name let me copy this"
+ },
+ {
+  "start": 287.43,
+  "end": 287.44,
+  "text": "obstacle let's copy the"
+ },
+ {
+  "start": 287.44,
+  "end": 290.35,
+  "text": "obstacle and then name the module with"
+ },
+ {
+  "start": 290.36,
+  "end": 292.11,
+  "text": "the same obstacle"
+ },
+ {
+  "start": 292.12,
+  "end": 298.469,
+  "text": "name and then save the"
+ },
+ {
+  "start": 301.629,
+  "end": 301.639,
+  "text": "module now now close the X"
+ },
+ {
+  "start": 301.639,
+  "end": 305.55,
+  "text": "scan so let us go back to trient tasa"
+ },
+ {
+  "start": 305.56,
+  "end": 308.87,
+  "text": "and you can see here the latest module"
+ },
+ {
+  "start": 308.88,
+  "end": 311.27,
+  "text": "whatever we added this is the latest"
+ },
+ {
+  "start": 311.28,
+  "end": 313.27,
+  "text": "module"
+ },
+ {
+  "start": 313.28,
+  "end": 316.87,
+  "text": "41036 double click on this so you can"
+ },
+ {
+  "start": 316.88,
+  "end": 319.71,
+  "text": "see these two objects that we added so"
+ },
+ {
+  "start": 319.72,
+  "end": 324.11,
+  "text": "now let us go back to our test case"
+ },
+ {
+  "start": 324.12,
+  "end": 327.55,
+  "text": "section the blue section we are creating"
+ },
+ {
+  "start": 327.56,
+  "end": 330.029,
+  "text": "the test cases under folder obstacle"
+ },
+ {
+  "start": 330.039,
+  "end": 331.71,
+  "text": "right so all these test cases that we"
+ },
+ {
+  "start": 331.72,
+  "end": 333.95,
+  "text": "already worked on almost like 20"
+ },
+ {
+  "start": 333.96,
+  "end": 337.11,
+  "text": "obstacles now right click on this folder"
+ },
+ {
+  "start": 337.12,
+  "end": 340.83,
+  "text": "and select create test case and name"
+ },
+ {
+  "start": 340.84,
+  "end": 343.469,
+  "text": "this test case with the same obstacle"
+ },
+ {
+  "start": 343.479,
+  "end": 346.71,
+  "text": "name now double click on this test case"
+ },
+ {
+  "start": 346.72,
+  "end": 348.309,
+  "text": "so to automate your"
+ },
+ {
+  "start": 348.319,
+  "end": 351.909,
+  "text": "scenario drag the module that we scanned"
+ },
+ {
+  "start": 351.919,
+  "end": 355.59,
+  "text": "and dropped on and drop onto test"
+ },
+ {
+  "start": 355.6,
+  "end": 357.83,
+  "text": "case let's expand"
+ },
+ {
+  "start": 357.84,
+  "end": 360.27,
+  "text": "this so here"
+ },
+ {
+  "start": 360.28,
+  "end": 361.55,
+  "text": "what is"
+ },
+ {
+  "start": 361.56,
+  "end": 364.43,
+  "text": "the step that we need to follow so what"
+ },
+ {
+  "start": 364.44,
+  "end": 369.15,
+  "text": "is our first step I need to First search"
+ },
+ {
+  "start": 369.16,
+  "end": 371.749,
+  "text": "for number"
+ },
+ {
+  "start": 371.759,
+  "end": 376.309,
+  "text": "15 in every row and every column of this"
+ },
+ {
+  "start": 376.319,
+  "end": 379.39,
+  "text": "particular web table how can we do that"
+ },
+ {
+  "start": 379.4,
+  "end": 383.629,
+  "text": "so to search number 15 and filter out"
+ },
+ {
+  "start": 383.639,
+  "end": 387.35,
+  "text": "all other values or filter out all other"
+ },
+ {
+  "start": 387.36,
+  "end": 390.189,
+  "text": "cell values you have to use"
+ },
+ {
+  "start": 390.199,
+  "end": 393.27,
+  "text": "constraint mode so I have already"
+ },
+ {
+  "start": 393.28,
+  "end": 396.029,
+  "text": "published another video on constraint"
+ },
+ {
+  "start": 396.039,
+  "end": 399.39,
+  "text": "mode how can we use constraint mode in"
+ },
+ {
+  "start": 399.4,
+  "end": 402.909,
+  "text": "our in my previous video sessions I"
+ },
+ {
+  "start": 402.919,
+  "end": 404.67,
+  "text": "would recommend you guys to visit those"
+ },
+ {
+  "start": 404.68,
+  "end": 408.11,
+  "text": "sessions so now let us go back to the"
+ },
+ {
+  "start": 408.12,
+  "end": 413.15,
+  "text": "trient stasa and here under cell what I"
+ },
+ {
+  "start": 413.16,
+  "end": 415.67,
+  "text": "would like to use here I would like to"
+ },
+ {
+  "start": 415.68,
+  "end": 420.27,
+  "text": "use the constraint option so if this"
+ },
+ {
+  "start": 420.28,
+  "end": 424.43,
+  "text": "cell has a value of"
+ },
+ {
+  "start": 424.44,
+  "end": 427.67,
+  "text": "15 I would like to I don't want to"
+ },
+ {
+  "start": 427.68,
+  "end": 429.909,
+  "text": "verify this instead I would like to"
+ },
+ {
+  "start": 429.919,
+  "end": 431.83,
+  "text": "introduce a"
+ },
+ {
+  "start": 431.84,
+  "end": 434.27,
+  "text": "constraint One Thing If You observe I'm"
+ },
+ {
+  "start": 434.28,
+  "end": 436.67,
+  "text": "not providing any row number here"
+ },
+ {
+  "start": 436.68,
+  "end": 440.11,
+  "text": "because I would like to verify this"
+ },
+ {
+  "start": 440.12,
+  "end": 446.029,
+  "text": "value of 15 in every row and every cell"
+ },
+ {
+  "start": 446.039,
+  "end": 447.909,
+  "text": "correct so that's why I'm not providing"
+ },
+ {
+  "start": 447.919,
+  "end": 451.95,
+  "text": "any value here I'm simply entering the"
+ },
+ {
+  "start": 451.96,
+  "end": 456.11,
+  "text": "value 15 and action mode constraint what"
+ },
+ {
+  "start": 456.12,
+  "end": 460.23,
+  "text": "it does it goes every row by row and"
+ },
+ {
+  "start": 460.24,
+  "end": 462.71,
+  "text": "every cell it searches for the"
+ },
+ {
+  "start": 462.72,
+  "end": 469.23,
+  "text": "15 if it exists right then it considers"
+ },
+ {
+  "start": 469.24,
+  "end": 472.589,
+  "text": "that particular row so whenever it finds"
+ },
+ {
+  "start": 472.599,
+  "end": 474.309,
+  "text": "let's say in this particular example"
+ },
+ {
+  "start": 474.319,
+  "end": 477.029,
+  "text": "when it comes to row 15 sorry when it"
+ },
+ {
+  "start": 477.039,
+  "end": 481.23,
+  "text": "comes to Row three it verifies each row"
+ },
+ {
+  "start": 481.24,
+  "end": 484.71,
+  "text": "sorry it verifies each cell and that"
+ },
+ {
+  "start": 484.72,
+  "end": 488.07,
+  "text": "means at Row"
+ },
+ {
+  "start": 488.08,
+  "end": 491.79,
+  "text": "three tricentis will be able to identify"
+ },
+ {
+  "start": 491.8,
+  "end": 496.629,
+  "text": "the value 15 that means is using the"
+ },
+ {
+  "start": 496.639,
+  "end": 499.43,
+  "text": "constraint it filters out rest of the"
+ },
+ {
+  "start": 499.44,
+  "end": 503.309,
+  "text": "rows as soon as it reaches this 15 row"
+ },
+ {
+  "start": 503.319,
+  "end": 507.029,
+  "text": "now I would like to store one value here"
+ },
+ {
+  "start": 507.039,
+  "end": 510.23,
+  "text": "I would like to validate one thing what"
+ },
+ {
+  "start": 510.24,
+  "end": 514.35,
+  "text": "if this row exists that"
+ },
+ {
+  "start": 514.36,
+  "end": 519.949,
+  "text": "means the row containing the cell value"
+ },
+ {
+  "start": 519.959,
+  "end": 524.23,
+  "text": "15 okay if that exist then I would like"
+ },
+ {
+  "start": 524.24,
+  "end": 529.31,
+  "text": "to store that into a buffer I'm going to"
+ },
+ {
+  "start": 529.32,
+  "end": 536.07,
+  "text": "make this as bore"
+ },
+ {
+  "start": 539.55,
+  "end": 539.56,
+  "text": "result and here I would like to change"
+ },
+ {
+  "start": 539.56,
+  "end": 543.19,
+  "text": "the action mode as"
+ },
+ {
+  "start": 547.43,
+  "end": 547.44,
+  "text": "buffer so what happens it"
+ },
+ {
+  "start": 547.44,
+  "end": 550.11,
+  "text": "first takes the row"
+ },
+ {
+  "start": 550.12,
+  "end": 554.67,
+  "text": "one it then verifies if any of the cell"
+ },
+ {
+  "start": 554.68,
+  "end": 558.71,
+  "text": "in row one contains 15 it does not"
+ },
+ {
+  "start": 558.72,
+  "end": 560.71,
+  "text": "because I'm using constraint mode then"
+ },
+ {
+  "start": 560.72,
+  "end": 563.11,
+  "text": "again it goes to row"
+ },
+ {
+  "start": 563.12,
+  "end": 568.31,
+  "text": "two it does not contain 15 so it filters"
+ },
+ {
+  "start": 568.32,
+  "end": 572.63,
+  "text": "out and then it goes to row three and it"
+ },
+ {
+  "start": 572.64,
+  "end": 575.79,
+  "text": "verifies each and every cell value then"
+ },
+ {
+  "start": 575.8,
+  "end": 577.15,
+  "text": "it finds"
+ },
+ {
+  "start": 577.16,
+  "end": 581.43,
+  "text": "the 15 value in the cell that means it"
+ },
+ {
+  "start": 581.44,
+  "end": 584.63,
+  "text": "considers this particular row now if"
+ },
+ {
+  "start": 584.64,
+  "end": 591.23,
+  "text": "this Row the third row exists value 15"
+ },
+ {
+  "start": 591.24,
+  "end": 596.269,
+  "text": "right now I'm instructing tasa if row"
+ },
+ {
+  "start": 596.279,
+  "end": 602.269,
+  "text": "exists with value 15"
+ },
+ {
+  "start": 606.069,
+  "end": 606.079,
+  "text": "then store the result exists true or"
+ },
+ {
+  "start": 606.079,
+  "end": 609.11,
+  "text": "false result into a buffer called bore"
+ },
+ {
+  "start": 609.12,
+  "end": 612.87,
+  "text": "result right so in this case I'm going"
+ },
+ {
+  "start": 612.88,
+  "end": 618.43,
+  "text": "to get exists as true for the row three"
+ },
+ {
+  "start": 618.44,
+  "end": 620.509,
+  "text": "right I would like"
+ },
+ {
+  "start": 620.519,
+  "end": 624.59,
+  "text": "to enter the result true or fault result"
+ },
+ {
+  "start": 624.6,
+  "end": 627.35,
+  "text": "into this particular text box that's why"
+ },
+ {
+  "start": 627.36,
+  "end": 629.71,
+  "text": "I'm going to call the above buff buffer"
+ },
+ {
+  "start": 629.72,
+  "end": 633.15,
+  "text": "whatever we are storing here to call the"
+ },
+ {
+  "start": 633.16,
+  "end": 636.75,
+  "text": "buffer open curly braces capital B open"
+ },
+ {
+  "start": 636.76,
+  "end": 640.629,
+  "text": "Square braces Capital bore result this"
+ },
+ {
+  "start": 640.639,
+  "end": 642.11,
+  "text": "is"
+ },
+ {
+  "start": 642.12,
+  "end": 647.47,
+  "text": "my buffer name close Square braces close"
+ },
+ {
+  "start": 647.48,
+  "end": 648.91,
+  "text": "curly"
+ },
+ {
+  "start": 648.92,
+  "end": 651.55,
+  "text": "braces done"
+ },
+ {
+  "start": 651.56,
+  "end": 655.55,
+  "text": "now let's save the test case and change"
+ },
+ {
+  "start": 655.56,
+  "end": 659.509,
+  "text": "the work state change the work state as"
+ },
+ {
+  "start": 659.519,
+  "end": 661.79,
+  "text": "completed and"
+ },
+ {
+  "start": 661.8,
+  "end": 664.629,
+  "text": "now let's run the test"
+ },
+ {
+  "start": 664.639,
+  "end": 668.19,
+  "text": "case with the existing values here right"
+ },
+ {
+  "start": 668.2,
+  "end": 670.43,
+  "text": "for this particular"
+ },
+ {
+  "start": 670.44,
+  "end": 673.31,
+  "text": "scenario it should return True Value and"
+ },
+ {
+  "start": 673.32,
+  "end": 676.269,
+  "text": "it should enter true right let me right"
+ },
+ {
+  "start": 676.279,
+  "end": 688.23,
+  "text": "click and run in"
+ },
+ {
+  "start": 691.47,
+  "end": 691.48,
+  "text": "scratchbook it entered true because it"
+ },
+ {
+  "start": 691.48,
+  "end": 696.069,
+  "text": "finds a row with value 15 hence it"
+ },
+ {
+  "start": 696.079,
+  "end": 700.67,
+  "text": "returns as true let's go here now I can"
+ },
+ {
+  "start": 700.68,
+  "end": 703.19,
+  "text": "see"
+ },
+ {
+  "start": 709.15,
+  "end": 709.16,
+  "text": "here see it received value of"
+ },
+ {
+  "start": 709.16,
+  "end": 713.069,
+  "text": "true so if I go here I can see"
+ },
+ {
+  "start": 713.079,
+  "end": 717.55,
+  "text": "here the bore result has been set to"
+ },
+ {
+  "start": 717.56,
+  "end": 720.509,
+  "text": "Value true now let me just try again"
+ },
+ {
+  "start": 720.519,
+  "end": 722.23,
+  "text": "okay let me try"
+ },
+ {
+  "start": 722.24,
+  "end": 725.91,
+  "text": "again so here now you can see I don't"
+ },
+ {
+  "start": 725.92,
+  "end": 729.11,
+  "text": "have value 50 I would like to run the"
+ },
+ {
+  "start": 729.12,
+  "end": 733.87,
+  "text": "test case again and see if I return the"
+ },
+ {
+  "start": 733.88,
+  "end": 737.829,
+  "text": "value of false right click and run"
+ },
+ {
+  "start": 737.839,
+  "end": 753.11,
+  "text": "scratchbook"
+ },
+ {
+  "start": 756.75,
+  "end": 756.76,
+  "text": "it searches see now the value has been"
+ },
+ {
+  "start": 756.76,
+  "end": 759.949,
+  "text": "entered as false you can see here it"
+ },
+ {
+  "start": 759.959,
+  "end": 763.189,
+  "text": "searched the first row could not find 15"
+ },
+ {
+  "start": 763.199,
+  "end": 766.55,
+  "text": "value by using constraint it filters out"
+ },
+ {
+  "start": 766.56,
+  "end": 769.629,
+  "text": "it searches second row it could not find"
+ },
+ {
+  "start": 769.639,
+  "end": 772.269,
+  "text": "15 value it filters out and third row it"
+ },
+ {
+  "start": 772.279,
+  "end": 775.55,
+  "text": "could not find it filters out that means"
+ },
+ {
+  "start": 775.56,
+  "end": 779.629,
+  "text": "the row exists will be false"
+ },
+ {
+  "start": 779.639,
+  "end": 783.79,
+  "text": "hence it entered the value as false so"
+ },
+ {
+  "start": 783.8,
+  "end": 788.55,
+  "text": "this is how you can search the value"
+ },
+ {
+  "start": 788.56,
+  "end": 793.389,
+  "text": "within the table cell by using"
+ },
+ {
+  "start": 793.399,
+  "end": 796.55,
+  "text": "constraint mode and with the combination"
+ },
+ {
+  "start": 796.56,
+  "end": 802.87,
+  "text": "of buffer to enter the result in edit"
+ },
+ {
+  "start": 802.88,
+  "end": 805.269,
+  "text": "box if you have any queries leave your"
+ },
+ {
+  "start": 805.279,
+  "end": 806.829,
+  "text": "queries in the comment box I'll try to"
+ },
+ {
+  "start": 806.839,
+  "end": 809.75,
+  "text": "respond to your queries"
+ },
+ {
+  "start": 809.76,
+  "end": 813.35,
+  "text": "hope you all understand how can we solve"
+ },
+ {
+  "start": 813.36,
+  "end": 816.71,
+  "text": "an obstacle where you need to interact"
+ },
+ {
+  "start": 816.72,
+  "end": 819.11,
+  "text": "with the dynamic web table and you need"
+ },
+ {
+  "start": 819.12,
+  "end": 822.75,
+  "text": "to search a specific table cell"
+ },
+ {
+  "start": 822.76,
+  "end": 826.23,
+  "text": "value without knowing the specific"
+ },
+ {
+  "start": 826.24,
+  "end": 829.43,
+  "text": "column and without knowing a specific"
+ },
+ {
+  "start": 829.44,
+  "end": 833.23,
+  "text": "row by using the constant action modes"
+ },
+ {
+  "start": 833.24,
+  "end": 836.629,
+  "text": "and search table C value"
+ },
+ {
+  "start": 836.639,
+  "end": 839.23,
+  "text": "methods please do subscribe to the"
+ },
+ {
+  "start": 839.24,
+  "end": 841.11,
+  "text": "channel click on Bell icon you'll"
+ },
+ {
+  "start": 841.12,
+  "end": 843.43,
+  "text": "receive notifications whenever I publish"
+ },
+ {
+  "start": 843.44,
+  "end": 846.749,
+  "text": "more videos and don't forget to like and"
+ },
+ {
+  "start": 846.759,
+  "end": 854.13,
+  "text": "share the video thank you"
+ }
+]

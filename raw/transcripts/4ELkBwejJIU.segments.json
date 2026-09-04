@@ -1,0 +1,2652 @@
+[
+ {
+  "start": 1.74,
+  "end": 4.86,
+  "text": "foreign"
+ },
+ {
+  "start": 14.179,
+  "end": 18.47,
+  "text": "Advanced Training so this is our ninth"
+ },
+ {
+  "start": 18.48,
+  "end": 21.41,
+  "text": "YouTube video in terms of advanced level"
+ },
+ {
+  "start": 21.42,
+  "end": 25.37,
+  "text": "Concepts and this is our 24th YouTube"
+ },
+ {
+  "start": 25.38,
+  "end": 28.009,
+  "text": "video in terms of overall try sentence"
+ },
+ {
+  "start": 28.019,
+  "end": 29.689,
+  "text": "task Concepts"
+ },
+ {
+  "start": 29.699,
+  "end": 32.35,
+  "text": "so in this lesson I'm gonna teach you"
+ },
+ {
+  "start": 32.36,
+  "end": 37.25,
+  "text": "how can you set a repetition"
+ },
+ {
+  "start": 37.26,
+  "end": 38.389,
+  "text": "folder"
+ },
+ {
+  "start": 38.399,
+  "end": 41.209,
+  "text": "level so that you can achieve some of"
+ },
+ {
+  "start": 41.219,
+  "end": 44.209,
+  "text": "the automation Concepts very easily that"
+ },
+ {
+  "start": 44.219,
+  "end": 46.25,
+  "text": "means you can achieve some complex test"
+ },
+ {
+  "start": 46.26,
+  "end": 49.01,
+  "text": "cases or you can automate some complex"
+ },
+ {
+  "start": 49.02,
+  "end": 52.91,
+  "text": "test cases very easily by using set"
+ },
+ {
+  "start": 52.92,
+  "end": 56.09,
+  "text": "repetition at folder level and also I'm"
+ },
+ {
+  "start": 56.1,
+  "end": 58.189,
+  "text": "gonna teach you about the result count"
+ },
+ {
+  "start": 58.199,
+  "end": 61.45,
+  "text": "how we can use these result count"
+ },
+ {
+  "start": 61.46,
+  "end": 64.009,
+  "text": "attribute while setting up the"
+ },
+ {
+  "start": 64.019,
+  "end": 66.35,
+  "text": "repetition at folder level and then how"
+ },
+ {
+  "start": 66.36,
+  "end": 69.89,
+  "text": "can we use the explicit name or a result"
+ },
+ {
+  "start": 69.9,
+  "end": 73.67,
+  "text": "count as an explicit name or repetition"
+ },
+ {
+  "start": 73.68,
+  "end": 76.929,
+  "text": "count as an explicit name"
+ },
+ {
+  "start": 76.939,
+  "end": 80.45,
+  "text": "at test step level so basically we are"
+ },
+ {
+  "start": 80.46,
+  "end": 82.07,
+  "text": "gonna automate one critical"
+ },
+ {
+  "start": 82.08,
+  "end": 83.69,
+  "text": "functionality"
+ },
+ {
+  "start": 83.7,
+  "end": 87.109,
+  "text": "by using set repetition"
+ },
+ {
+  "start": 87.119,
+  "end": 89.749,
+  "text": "at folder level by using latest version"
+ },
+ {
+  "start": 89.759,
+  "end": 91.91,
+  "text": "try sentence task"
+ },
+ {
+  "start": 91.92,
+  "end": 94.91,
+  "text": "please do subscribe to the channel click"
+ },
+ {
+  "start": 94.92,
+  "end": 96.41,
+  "text": "on Bell icon you'll receive"
+ },
+ {
+  "start": 96.42,
+  "end": 99.109,
+  "text": "notifications whenever I publish more"
+ },
+ {
+  "start": 99.119,
+  "end": 103.73,
+  "text": "videos thank you"
+ },
+ {
+  "start": 107.45,
+  "end": 107.46,
+  "text": "okay first let us understand"
+ },
+ {
+  "start": 107.46,
+  "end": 110.45,
+  "text": "the concept of setting up repetition at"
+ },
+ {
+  "start": 110.46,
+  "end": 111.95,
+  "text": "folder level"
+ },
+ {
+  "start": 111.96,
+  "end": 114.17,
+  "text": "so by end of this session"
+ },
+ {
+  "start": 114.18,
+  "end": 116.929,
+  "text": "you learn how to use repetition at"
+ },
+ {
+  "start": 116.939,
+  "end": 118.249,
+  "text": "folder level"
+ },
+ {
+  "start": 118.259,
+  "end": 121.01,
+  "text": "and we are going to add some repetition"
+ },
+ {
+  "start": 121.02,
+  "end": 124.969,
+  "text": "value to a test step folder to achieve"
+ },
+ {
+  "start": 124.979,
+  "end": 127.969,
+  "text": "the repetition at folder level okay"
+ },
+ {
+  "start": 127.979,
+  "end": 131.029,
+  "text": "and we'll be using use the repetition"
+ },
+ {
+  "start": 131.039,
+  "end": 133.43,
+  "text": "notation within a test step"
+ },
+ {
+  "start": 133.44,
+  "end": 137.449,
+  "text": "so once you define the repetition value"
+ },
+ {
+  "start": 137.459,
+  "end": 140.69,
+  "text": "at step folder level you are going to"
+ },
+ {
+  "start": 140.7,
+  "end": 143.809,
+  "text": "use the same repetition notation"
+ },
+ {
+  "start": 143.819,
+  "end": 145.67,
+  "text": "at test step level"
+ },
+ {
+  "start": 145.68,
+  "end": 148.309,
+  "text": "okay so it is a parameter that allows"
+ },
+ {
+  "start": 148.319,
+  "end": 151.369,
+  "text": "Tasker to repeat steps"
+ },
+ {
+  "start": 151.379,
+  "end": 154.01,
+  "text": "specified number of times"
+ },
+ {
+  "start": 154.02,
+  "end": 157.309,
+  "text": "so you can Define the repetition only on"
+ },
+ {
+  "start": 157.319,
+  "end": 160.85,
+  "text": "test step folder level which tells Tosca"
+ },
+ {
+  "start": 160.86,
+  "end": 163.729,
+  "text": "to repeat the step within the folder"
+ },
+ {
+  "start": 163.739,
+  "end": 166.61,
+  "text": "okay so you can instruct task or how"
+ },
+ {
+  "start": 166.62,
+  "end": 170.869,
+  "text": "many times to repeat the action"
+ },
+ {
+  "start": 170.879,
+  "end": 173.449,
+  "text": "okay so we are gonna how many times that"
+ },
+ {
+  "start": 173.459,
+  "end": 176.03,
+  "text": "we can achieve by using result cop okay"
+ },
+ {
+  "start": 176.04,
+  "end": 178.97,
+  "text": "so now let's jump onto the system"
+ },
+ {
+  "start": 178.98,
+  "end": 181.25,
+  "text": "and see one"
+ },
+ {
+  "start": 181.26,
+  "end": 183.53,
+  "text": "a critical scenario are very important"
+ },
+ {
+  "start": 183.54,
+  "end": 186.83,
+  "text": "scenario how can we automate by using"
+ },
+ {
+  "start": 186.84,
+  "end": 189.89,
+  "text": "result count and by using set repetition"
+ },
+ {
+  "start": 189.9,
+  "end": 192.29,
+  "text": "at folder level and by using explicit"
+ },
+ {
+  "start": 192.3,
+  "end": 195.649,
+  "text": "name okay all these combinations by"
+ },
+ {
+  "start": 195.659,
+  "end": 197.39,
+  "text": "using all these combinations we are"
+ },
+ {
+  "start": 197.4,
+  "end": 199.25,
+  "text": "going to achieve the automation okay so"
+ },
+ {
+  "start": 199.26,
+  "end": 201.41,
+  "text": "now let's jump out of the system"
+ },
+ {
+  "start": 201.42,
+  "end": 205.25,
+  "text": "okay so this is my present Tasker latest"
+ },
+ {
+  "start": 205.26,
+  "end": 210.11,
+  "text": "version okay so before we start uh"
+ },
+ {
+  "start": 210.12,
+  "end": 214.25,
+  "text": "automating the scenario by using"
+ },
+ {
+  "start": 214.26,
+  "end": 214.97,
+  "text": "um"
+ },
+ {
+  "start": 214.98,
+  "end": 218.089,
+  "text": "the folder level repetition right so let"
+ },
+ {
+  "start": 218.099,
+  "end": 220.369,
+  "text": "us understand what is the scenario that"
+ },
+ {
+  "start": 220.379,
+  "end": 223.789,
+  "text": "we would like to automate and how can we"
+ },
+ {
+  "start": 223.799,
+  "end": 225.83,
+  "text": "achieve that particular"
+ },
+ {
+  "start": 225.84,
+  "end": 228.17,
+  "text": "automation by using folder level"
+ },
+ {
+  "start": 228.18,
+  "end": 231.649,
+  "text": "repetition okay so as usual I just"
+ },
+ {
+  "start": 231.659,
+  "end": 234.05,
+  "text": "landed onto I just logged into demo"
+ },
+ {
+  "start": 234.06,
+  "end": 236.27,
+  "text": "webshop right on which we are working"
+ },
+ {
+  "start": 236.28,
+  "end": 240.11,
+  "text": "from past a couple of uh sessions right"
+ },
+ {
+  "start": 240.12,
+  "end": 244.61,
+  "text": "so and then I added a couple of products"
+ },
+ {
+  "start": 244.62,
+  "end": 247.91,
+  "text": "uh like belt jeans and shoe in the"
+ },
+ {
+  "start": 247.92,
+  "end": 250.85,
+  "text": "shopping cart okay so now"
+ },
+ {
+  "start": 250.86,
+  "end": 253.97,
+  "text": "I want to empty this shopping cart if"
+ },
+ {
+  "start": 253.98,
+  "end": 256.009,
+  "text": "you remember correctly so in my previous"
+ },
+ {
+  "start": 256.019,
+  "end": 259.129,
+  "text": "session we already automated this"
+ },
+ {
+  "start": 259.139,
+  "end": 261.89,
+  "text": "emptying shopping cart functionality by"
+ },
+ {
+  "start": 261.9,
+  "end": 264.59,
+  "text": "using while loop okay where I have"
+ },
+ {
+  "start": 264.6,
+  "end": 267.17,
+  "text": "covered concepts of while if else"
+ },
+ {
+  "start": 267.18,
+  "end": 269.39,
+  "text": "conditions right okay we already"
+ },
+ {
+  "start": 269.4,
+  "end": 272.09,
+  "text": "performed automation of emptying"
+ },
+ {
+  "start": 272.1,
+  "end": 274.07,
+  "text": "shopping cart by using while"
+ },
+ {
+  "start": 274.08,
+  "end": 276.83,
+  "text": "but in this session we are going to"
+ },
+ {
+  "start": 276.84,
+  "end": 279.29,
+  "text": "automate the same scenario"
+ },
+ {
+  "start": 279.3,
+  "end": 284.629,
+  "text": "by using repetition on folder level and"
+ },
+ {
+  "start": 284.639,
+  "end": 287.689,
+  "text": "also by using result count"
+ },
+ {
+  "start": 287.699,
+  "end": 290.99,
+  "text": "okay so how can we achieve the"
+ },
+ {
+  "start": 291.0,
+  "end": 293.03,
+  "text": "automation let's"
+ },
+ {
+  "start": 293.04,
+  "end": 295.67,
+  "text": "automate the scenario now okay for that"
+ },
+ {
+  "start": 295.68,
+  "end": 298.67,
+  "text": "let's go back to our present stalker"
+ },
+ {
+  "start": 298.68,
+  "end": 301.37,
+  "text": "navigate to exercises"
+ },
+ {
+  "start": 301.38,
+  "end": 304.37,
+  "text": "and go to repetition folder under"
+ },
+ {
+  "start": 304.38,
+  "end": 307.189,
+  "text": "repetition folder you have empty"
+ },
+ {
+  "start": 307.199,
+  "end": 308.93,
+  "text": "shopping cart"
+ },
+ {
+  "start": 308.94,
+  "end": 312.71,
+  "text": "test case which I already created okay"
+ },
+ {
+  "start": 312.72,
+  "end": 316.249,
+  "text": "under this under process there is a"
+ },
+ {
+  "start": 316.259,
+  "end": 318.65,
+  "text": "folder called empty shopping cart so"
+ },
+ {
+  "start": 318.66,
+  "end": 321.05,
+  "text": "basically what is this test case it's"
+ },
+ {
+  "start": 321.06,
+  "end": 323.21,
+  "text": "basically what it is doing it is simply"
+ },
+ {
+  "start": 323.22,
+  "end": 324.529,
+  "text": "logging in"
+ },
+ {
+  "start": 324.539,
+  "end": 326.689,
+  "text": "adding some products"
+ },
+ {
+  "start": 326.699,
+  "end": 329.029,
+  "text": "and then"
+ },
+ {
+  "start": 329.039,
+  "end": 330.71,
+  "text": "it's gonna"
+ },
+ {
+  "start": 330.72,
+  "end": 333.95,
+  "text": "empty the shopping cart right"
+ },
+ {
+  "start": 333.96,
+  "end": 336.409,
+  "text": "and then we are gonna log out from the"
+ },
+ {
+  "start": 336.419,
+  "end": 339.83,
+  "text": "session okay"
+ },
+ {
+  "start": 342.469,
+  "end": 342.479,
+  "text": "okay so once I click on this empty"
+ },
+ {
+  "start": 342.479,
+  "end": 345.409,
+  "text": "shopping cart I can see there are two"
+ },
+ {
+  "start": 345.419,
+  "end": 349.07,
+  "text": "steps one is I'm navigating to cart"
+ },
+ {
+  "start": 349.08,
+  "end": 351.35,
+  "text": "and then updating the shopping cart that"
+ },
+ {
+  "start": 351.36,
+  "end": 354.409,
+  "text": "means I'm navigating to cart once you"
+ },
+ {
+  "start": 354.419,
+  "end": 356.87,
+  "text": "navigate to cut you need to check the"
+ },
+ {
+  "start": 356.88,
+  "end": 358.01,
+  "text": "check box"
+ },
+ {
+  "start": 358.02,
+  "end": 360.59,
+  "text": "and click on update shopping cart you"
+ },
+ {
+  "start": 360.6,
+  "end": 362.81,
+  "text": "need to check all the check boxes that"
+ },
+ {
+  "start": 362.82,
+  "end": 364.909,
+  "text": "are available so basically all the items"
+ },
+ {
+  "start": 364.919,
+  "end": 367.43,
+  "text": "that are available in your shopping cart"
+ },
+ {
+  "start": 367.44,
+  "end": 369.89,
+  "text": "and click on update shopping cart then"
+ },
+ {
+  "start": 369.9,
+  "end": 373.189,
+  "text": "that will remove all of your"
+ },
+ {
+  "start": 373.199,
+  "end": 375.529,
+  "text": "items from the shopping cart"
+ },
+ {
+  "start": 375.539,
+  "end": 377.57,
+  "text": "so let's say you have 10 items you have"
+ },
+ {
+  "start": 377.58,
+  "end": 381.409,
+  "text": "to click on this remove checkbox for the"
+ },
+ {
+  "start": 381.419,
+  "end": 384.65,
+  "text": "10 items and then click on update"
+ },
+ {
+  "start": 384.66,
+  "end": 386.57,
+  "text": "shopping cart which will remove all the"
+ },
+ {
+  "start": 386.58,
+  "end": 388.969,
+  "text": "items from shopping cart okay so that's"
+ },
+ {
+  "start": 388.979,
+  "end": 391.249,
+  "text": "what we are going to do okay for that"
+ },
+ {
+  "start": 391.259,
+  "end": 394.189,
+  "text": "let's go back to empty shopping cart"
+ },
+ {
+  "start": 394.199,
+  "end": 396.11,
+  "text": "folder"
+ },
+ {
+  "start": 396.12,
+  "end": 399.29,
+  "text": "and then start working on this"
+ },
+ {
+  "start": 399.3,
+  "end": 401.689,
+  "text": "particular folder okay"
+ },
+ {
+  "start": 401.699,
+  "end": 405.89,
+  "text": "so for now let's create one additional"
+ },
+ {
+  "start": 405.9,
+  "end": 409.73,
+  "text": "folder okay so let me create one"
+ },
+ {
+  "start": 409.74,
+  "end": 412.55,
+  "text": "additional folder under empty shopping"
+ },
+ {
+  "start": 412.56,
+  "end": 415.55,
+  "text": "cart or let me create additional"
+ },
+ {
+  "start": 415.56,
+  "end": 417.29,
+  "text": "a test step"
+ },
+ {
+  "start": 417.3,
+  "end": 420.59,
+  "text": "okay what the step I want to"
+ },
+ {
+  "start": 420.6,
+  "end": 425.029,
+  "text": "call and sorry shopping cart"
+ },
+ {
+  "start": 425.039,
+  "end": 428.93,
+  "text": "test tip so how just place on the folder"
+ },
+ {
+  "start": 428.94,
+  "end": 432.29,
+  "text": "empty shopping cart folder Ctrl T and"
+ },
+ {
+  "start": 432.3,
+  "end": 435.35,
+  "text": "then I'm gonna call the shopping cart"
+ },
+ {
+  "start": 435.36,
+  "end": 438.37,
+  "text": "module okay"
+ },
+ {
+  "start": 438.38,
+  "end": 441.65,
+  "text": "and name this shopping cart module as"
+ },
+ {
+  "start": 441.66,
+  "end": 444.07,
+  "text": "verify"
+ },
+ {
+  "start": 444.08,
+  "end": 446.57,
+  "text": "verify um what I'm gonna do I'm gonna"
+ },
+ {
+  "start": 446.58,
+  "end": 448.79,
+  "text": "verify if the items exist in the"
+ },
+ {
+  "start": 448.8,
+  "end": 451.85,
+  "text": "shopping cart or not okay"
+ },
+ {
+  "start": 451.86,
+  "end": 454.309,
+  "text": "so verify"
+ },
+ {
+  "start": 454.319,
+  "end": 456.529,
+  "text": "verify"
+ },
+ {
+  "start": 456.539,
+  "end": 461.27,
+  "text": "table exists okay so I have to put this"
+ },
+ {
+  "start": 461.28,
+  "end": 463.79,
+  "text": "into the logical order first I will be"
+ },
+ {
+  "start": 463.8,
+  "end": 467.51,
+  "text": "navigating to cart so then verifying the"
+ },
+ {
+  "start": 467.52,
+  "end": 470.689,
+  "text": "verifying if the shopping cart table"
+ },
+ {
+  "start": 470.699,
+  "end": 473.029,
+  "text": "exists this is a table okay if the table"
+ },
+ {
+  "start": 473.039,
+  "end": 474.89,
+  "text": "exists or not I'm gonna verify"
+ },
+ {
+  "start": 474.9,
+  "end": 477.65,
+  "text": "and then again let me call this same"
+ },
+ {
+  "start": 477.66,
+  "end": 481.189,
+  "text": "shopping cart functionality again okay"
+ },
+ {
+  "start": 481.199,
+  "end": 485.21,
+  "text": "Ctrl T sorry shopping cart module"
+ },
+ {
+  "start": 485.22,
+  "end": 487.67,
+  "text": "shopping cart module"
+ },
+ {
+  "start": 487.68,
+  "end": 490.01,
+  "text": "and name this as"
+ },
+ {
+  "start": 490.02,
+  "end": 492.189,
+  "text": "count number of"
+ },
+ {
+  "start": 492.199,
+  "end": 496.55,
+  "text": "unique count number of unique"
+ },
+ {
+  "start": 496.56,
+  "end": 501.23,
+  "text": "items in cart so let me name this as"
+ },
+ {
+  "start": 505.45,
+  "end": 505.46,
+  "text": "count number of"
+ },
+ {
+  "start": 505.46,
+  "end": 508.189,
+  "text": "unique items"
+ },
+ {
+  "start": 508.199,
+  "end": 511.189,
+  "text": "in the cart"
+ },
+ {
+  "start": 511.199,
+  "end": 514.55,
+  "text": "again drag and drop here so first I'm"
+ },
+ {
+  "start": 514.56,
+  "end": 516.709,
+  "text": "going to verify if the table exists if"
+ },
+ {
+  "start": 516.719,
+  "end": 519.529,
+  "text": "table exist how many number of items"
+ },
+ {
+  "start": 519.539,
+  "end": 521.389,
+  "text": "exist in this table"
+ },
+ {
+  "start": 521.399,
+  "end": 522.469,
+  "text": "okay"
+ },
+ {
+  "start": 522.479,
+  "end": 525.11,
+  "text": "and then"
+ },
+ {
+  "start": 525.12,
+  "end": 528.29,
+  "text": "I need to calculate so then I'm going to"
+ },
+ {
+  "start": 528.3,
+  "end": 529.91,
+  "text": "create one more"
+ },
+ {
+  "start": 529.92,
+  "end": 531.65,
+  "text": "test step"
+ },
+ {
+  "start": 531.66,
+  "end": 535.55,
+  "text": "to set okay let me just"
+ },
+ {
+  "start": 538.25,
+  "end": 538.26,
+  "text": "okay so now again let's call another"
+ },
+ {
+  "start": 538.26,
+  "end": 540.13,
+  "text": "step"
+ },
+ {
+  "start": 540.14,
+  "end": 545.269,
+  "text": "Ctrl T here I'm gonna set a buffer I'm"
+ },
+ {
+  "start": 545.279,
+  "end": 548.69,
+  "text": "gonna set the buffer okay"
+ },
+ {
+  "start": 551.509,
+  "end": 551.519,
+  "text": "buffer t-box set buffer why I'm gonna"
+ },
+ {
+  "start": 551.519,
+  "end": 554.03,
+  "text": "tell you okay see when I'm actually"
+ },
+ {
+  "start": 554.04,
+  "end": 556.73,
+  "text": "again drag and drop here okay so after"
+ },
+ {
+  "start": 556.74,
+  "end": 560.57,
+  "text": "counting number of items here right what"
+ },
+ {
+  "start": 560.58,
+  "end": 563.57,
+  "text": "it will do number of items"
+ },
+ {
+  "start": 563.58,
+  "end": 567.17,
+  "text": "so sorry I think we call some wrong"
+ },
+ {
+  "start": 567.18,
+  "end": 569.09,
+  "text": "table okay let's do one thing count"
+ },
+ {
+  "start": 569.1,
+  "end": 571.61,
+  "text": "number of indicatives we call some wrong"
+ },
+ {
+  "start": 571.62,
+  "end": 572.71,
+  "text": "uh"
+ },
+ {
+  "start": 572.72,
+  "end": 575.269,
+  "text": "module here let's do"
+ },
+ {
+  "start": 575.279,
+  "end": 580.13,
+  "text": "one more time Ctrl t"
+ },
+ {
+  "start": 587.81,
+  "end": 587.82,
+  "text": "yeah shopping cart okay module"
+ },
+ {
+  "start": 587.82,
+  "end": 592.37,
+  "text": "yes this is correct so let's drag"
+ },
+ {
+  "start": 592.38,
+  "end": 596.389,
+  "text": "and drop here once I verify the table I"
+ },
+ {
+  "start": 596.399,
+  "end": 598.73,
+  "text": "need to count the number of unique items"
+ },
+ {
+  "start": 598.74,
+  "end": 601.13,
+  "text": "right number of unique items let's name"
+ },
+ {
+  "start": 601.14,
+  "end": 606.29,
+  "text": "this as"
+ },
+ {
+  "start": 611.329,
+  "end": 611.339,
+  "text": "unique"
+ },
+ {
+  "start": 611.339,
+  "end": 614.99,
+  "text": "items in Cut okay once I count the"
+ },
+ {
+  "start": 615.0,
+  "end": 617.389,
+  "text": "number of unit what happens right when I"
+ },
+ {
+  "start": 617.399,
+  "end": 619.49,
+  "text": "count the number of"
+ },
+ {
+  "start": 619.5,
+  "end": 621.35,
+  "text": "items what it will do it's going to"
+ },
+ {
+  "start": 621.36,
+  "end": 623.93,
+  "text": "count the header also this is your"
+ },
+ {
+  "start": 623.94,
+  "end": 625.07,
+  "text": "header"
+ },
+ {
+  "start": 625.08,
+  "end": 630.829,
+  "text": "1 this is the second row 2 3 4 so that"
+ },
+ {
+  "start": 630.839,
+  "end": 633.11,
+  "text": "means I have to remove the header part"
+ },
+ {
+  "start": 633.12,
+  "end": 635.99,
+  "text": "basically so when I get the result count"
+ },
+ {
+  "start": 636.0,
+  "end": 637.55,
+  "text": "it's going to give me"
+ },
+ {
+  "start": 637.56,
+  "end": 639.43,
+  "text": "all the"
+ },
+ {
+  "start": 639.44,
+  "end": 642.59,
+  "text": "table rows including header so that's"
+ },
+ {
+  "start": 642.6,
+  "end": 646.55,
+  "text": "why now what I am doing here I'm gonna"
+ },
+ {
+  "start": 646.56,
+  "end": 648.41,
+  "text": "calculate the"
+ },
+ {
+  "start": 648.42,
+  "end": 650.63,
+  "text": "number of items"
+ },
+ {
+  "start": 650.64,
+  "end": 653.269,
+  "text": "without header so that means that's why"
+ },
+ {
+  "start": 653.279,
+  "end": 654.55,
+  "text": "calculate"
+ },
+ {
+  "start": 660.769,
+  "end": 660.779,
+  "text": "items"
+ },
+ {
+  "start": 660.779,
+  "end": 666.31,
+  "text": "foreign"
+ },
+ {
+  "start": 669.71,
+  "end": 669.72,
+  "text": "how by using set buffer I'm gonna tell"
+ },
+ {
+  "start": 669.72,
+  "end": 671.03,
+  "text": "you I'm going to populate the values"
+ },
+ {
+  "start": 671.04,
+  "end": 673.13,
+  "text": "shortly okay"
+ },
+ {
+  "start": 673.14,
+  "end": 676.85,
+  "text": "and then here once that is done let me"
+ },
+ {
+  "start": 676.86,
+  "end": 680.03,
+  "text": "create another folder now once I"
+ },
+ {
+  "start": 680.04,
+  "end": 682.43,
+  "text": "calculate now I have to start removing"
+ },
+ {
+  "start": 682.44,
+  "end": 684.889,
+  "text": "the items correct so for that let me"
+ },
+ {
+  "start": 684.899,
+  "end": 688.009,
+  "text": "create one folder right click"
+ },
+ {
+  "start": 688.019,
+  "end": 692.69,
+  "text": "here create folder and name this as"
+ },
+ {
+  "start": 692.7,
+  "end": 694.67,
+  "text": "select remove"
+ },
+ {
+  "start": 694.68,
+  "end": 697.19,
+  "text": "so that means once I get it I have to"
+ },
+ {
+  "start": 697.2,
+  "end": 699.05,
+  "text": "select remove"
+ },
+ {
+  "start": 699.06,
+  "end": 701.269,
+  "text": "for all the items that are existing in"
+ },
+ {
+  "start": 701.279,
+  "end": 702.769,
+  "text": "the shopping cart"
+ },
+ {
+  "start": 702.779,
+  "end": 704.99,
+  "text": "again drag and drop here"
+ },
+ {
+  "start": 705.0,
+  "end": 706.97,
+  "text": "okay"
+ },
+ {
+  "start": 706.98,
+  "end": 710.63,
+  "text": "now once I select remove"
+ },
+ {
+  "start": 710.64,
+  "end": 714.17,
+  "text": "now it is our time to populate all the"
+ },
+ {
+  "start": 714.18,
+  "end": 717.47,
+  "text": "values now okay so now let's populate"
+ },
+ {
+  "start": 717.48,
+  "end": 719.449,
+  "text": "values first"
+ },
+ {
+  "start": 719.459,
+  "end": 722.569,
+  "text": "verify table exist so I want to verify"
+ },
+ {
+  "start": 722.579,
+  "end": 727.069,
+  "text": "if the table exists or not correct so"
+ },
+ {
+  "start": 727.079,
+  "end": 728.99,
+  "text": "what table this is the table shopping"
+ },
+ {
+  "start": 729.0,
+  "end": 733.069,
+  "text": "cart table okay so for us simply"
+ },
+ {
+  "start": 733.079,
+  "end": 735.35,
+  "text": "just take this as"
+ },
+ {
+  "start": 735.36,
+  "end": 737.15,
+  "text": "exist"
+ },
+ {
+  "start": 737.16,
+  "end": 739.73,
+  "text": "is equal to"
+ },
+ {
+  "start": 739.74,
+  "end": 742.13,
+  "text": "true"
+ },
+ {
+  "start": 742.14,
+  "end": 743.449,
+  "text": "okay"
+ },
+ {
+  "start": 743.459,
+  "end": 746.69,
+  "text": "I am verifying if the table exists"
+ },
+ {
+  "start": 746.7,
+  "end": 749.269,
+  "text": "and then here I need to select the"
+ },
+ {
+  "start": 749.279,
+  "end": 751.49,
+  "text": "action mode as verify"
+ },
+ {
+  "start": 751.5,
+  "end": 754.55,
+  "text": "and verifying so that is done"
+ },
+ {
+  "start": 754.56,
+  "end": 758.269,
+  "text": "once I verify I need to count here let's"
+ },
+ {
+  "start": 758.279,
+  "end": 760.61,
+  "text": "expand this count the number of unique"
+ },
+ {
+  "start": 760.62,
+  "end": 763.79,
+  "text": "items in the cart right so for that this"
+ },
+ {
+  "start": 763.8,
+  "end": 764.99,
+  "text": "is my table"
+ },
+ {
+  "start": 765.0,
+  "end": 766.389,
+  "text": "correct"
+ },
+ {
+  "start": 766.399,
+  "end": 771.59,
+  "text": "and this is my rows correct and under"
+ },
+ {
+  "start": 771.6,
+  "end": 774.71,
+  "text": "rows I want to verify I want to"
+ },
+ {
+  "start": 774.72,
+  "end": 777.65,
+  "text": "see the result count so the result count"
+ },
+ {
+  "start": 777.66,
+  "end": 780.59,
+  "text": "gives you the number of"
+ },
+ {
+  "start": 780.6,
+  "end": 782.93,
+  "text": "items available in this shopping cart"
+ },
+ {
+  "start": 782.94,
+  "end": 785.389,
+  "text": "okay here"
+ },
+ {
+  "start": 785.399,
+  "end": 787.43,
+  "text": "just put this as"
+ },
+ {
+  "start": 787.44,
+  "end": 790.67,
+  "text": "result count"
+ },
+ {
+  "start": 790.68,
+  "end": 792.71,
+  "text": "and I want to"
+ },
+ {
+  "start": 792.72,
+  "end": 796.129,
+  "text": "name I want to calculate the number of"
+ },
+ {
+  "start": 796.139,
+  "end": 798.35,
+  "text": "items and I want to store them into a"
+ },
+ {
+  "start": 798.36,
+  "end": 801.23,
+  "text": "buffer called"
+ },
+ {
+  "start": 801.24,
+  "end": 805.31,
+  "text": "card items card items"
+ },
+ {
+  "start": 805.32,
+  "end": 807.889,
+  "text": "card items okay"
+ },
+ {
+  "start": 807.899,
+  "end": 812.21,
+  "text": "and here let's"
+ },
+ {
+  "start": 815.03,
+  "end": 815.04,
+  "text": "select the action mode as buffer"
+ },
+ {
+  "start": 815.04,
+  "end": 817.67,
+  "text": "okay so what I am doing"
+ },
+ {
+  "start": 817.68,
+  "end": 820.19,
+  "text": "number of rows whatever the result count"
+ },
+ {
+  "start": 820.2,
+  "end": 822.889,
+  "text": "the result count gives me I'm storing it"
+ },
+ {
+  "start": 822.899,
+  "end": 824.329,
+  "text": "into buffer"
+ },
+ {
+  "start": 824.339,
+  "end": 827.629,
+  "text": "called card items"
+ },
+ {
+  "start": 827.639,
+  "end": 830.59,
+  "text": "right so this gives you the number of"
+ },
+ {
+  "start": 830.6,
+  "end": 833.71,
+  "text": "rows exists in the table"
+ },
+ {
+  "start": 833.72,
+  "end": 836.75,
+  "text": "including the header so now it's time"
+ },
+ {
+  "start": 836.76,
+  "end": 840.05,
+  "text": "for me to remove the header how let's go"
+ },
+ {
+  "start": 840.06,
+  "end": 840.829,
+  "text": "to"
+ },
+ {
+  "start": 840.839,
+  "end": 843.889,
+  "text": "the next test step called calculate"
+ },
+ {
+  "start": 843.899,
+  "end": 845.449,
+  "text": "items"
+ },
+ {
+  "start": 845.459,
+  "end": 847.73,
+  "text": "in card without header for this what I'm"
+ },
+ {
+  "start": 847.74,
+  "end": 849.829,
+  "text": "going to do I'm going to create one"
+ },
+ {
+  "start": 849.839,
+  "end": 851.87,
+  "text": "buffer I'm going to set the buffer"
+ },
+ {
+  "start": 851.88,
+  "end": 853.129,
+  "text": "called"
+ },
+ {
+  "start": 853.139,
+  "end": 854.99,
+  "text": "actual"
+ },
+ {
+  "start": 855.0,
+  "end": 857.449,
+  "text": "card number what is our actual card"
+ },
+ {
+  "start": 857.459,
+  "end": 862.91,
+  "text": "number my actual card number is"
+ },
+ {
+  "start": 866.75,
+  "end": 866.76,
+  "text": "let me copy this buffer okay name let me"
+ },
+ {
+  "start": 866.76,
+  "end": 868.85,
+  "text": "copy this muffin one my actual card"
+ },
+ {
+  "start": 868.86,
+  "end": 871.43,
+  "text": "number is I need to use the math"
+ },
+ {
+  "start": 871.44,
+  "end": 872.75,
+  "text": "function here"
+ },
+ {
+  "start": 872.76,
+  "end": 875.569,
+  "text": "math"
+ },
+ {
+  "start": 883.49,
+  "end": 883.5,
+  "text": "take the buffer that we got here above"
+ },
+ {
+  "start": 883.5,
+  "end": 887.569,
+  "text": "above buffer okay what is the buffer"
+ },
+ {
+  "start": 887.579,
+  "end": 890.15,
+  "text": "your cart items is your buffer correct"
+ },
+ {
+  "start": 890.16,
+  "end": 891.949,
+  "text": "cart items is buffer"
+ },
+ {
+  "start": 891.959,
+  "end": 894.11,
+  "text": "take that buffer"
+ },
+ {
+  "start": 894.12,
+  "end": 895.91,
+  "text": "and then"
+ },
+ {
+  "start": 895.92,
+  "end": 899.15,
+  "text": "enter the buffer name here okay"
+ },
+ {
+  "start": 899.16,
+  "end": 902.75,
+  "text": "for that capital B buffer"
+ },
+ {
+  "start": 902.76,
+  "end": 908.81,
+  "text": "sorry with curly braces capital B buffer"
+ },
+ {
+  "start": 908.82,
+  "end": 913.91,
+  "text": "and then card items card item see I it"
+ },
+ {
+  "start": 913.92,
+  "end": 917.15,
+  "text": "shows my card items and then close pair"
+ },
+ {
+  "start": 917.16,
+  "end": 918.23,
+  "text": "braces"
+ },
+ {
+  "start": 918.24,
+  "end": 920.81,
+  "text": "close the librasives now I have to"
+ },
+ {
+  "start": 920.82,
+  "end": 923.21,
+  "text": "remove one because it is also"
+ },
+ {
+  "start": 923.22,
+  "end": 925.79,
+  "text": "calculating the header right I want to"
+ },
+ {
+  "start": 925.8,
+  "end": 928.189,
+  "text": "remove one if it if I get total number"
+ },
+ {
+  "start": 928.199,
+  "end": 931.189,
+  "text": "of results count as four then I have to"
+ },
+ {
+  "start": 931.199,
+  "end": 934.49,
+  "text": "remove one and your actual card items"
+ },
+ {
+  "start": 934.5,
+  "end": 935.87,
+  "text": "are three"
+ },
+ {
+  "start": 935.88,
+  "end": 938.87,
+  "text": "right so that's why I'm removing one"
+ },
+ {
+  "start": 938.88,
+  "end": 942.71,
+  "text": "close the square braces and curly bases"
+ },
+ {
+  "start": 942.72,
+  "end": 946.73,
+  "text": "so this will give you actual number of"
+ },
+ {
+  "start": 946.74,
+  "end": 950.99,
+  "text": "items in the cart okay so done I"
+ },
+ {
+  "start": 951.0,
+  "end": 952.79,
+  "text": "calculated that as well"
+ },
+ {
+  "start": 952.8,
+  "end": 954.829,
+  "text": "now"
+ },
+ {
+  "start": 954.839,
+  "end": 957.53,
+  "text": "navigate to your"
+ },
+ {
+  "start": 957.54,
+  "end": 958.97,
+  "text": "select"
+ },
+ {
+  "start": 958.98,
+  "end": 962.569,
+  "text": "remove folder now okay what we are going"
+ },
+ {
+  "start": 962.579,
+  "end": 963.2,
+  "text": "to do"
+ },
+ {
+  "start": 965.22,
+  "end": 967.49,
+  "text": "for select remove folder"
+ },
+ {
+  "start": 967.5,
+  "end": 971.03,
+  "text": "I'm gonna specify the repetition here"
+ },
+ {
+  "start": 971.04,
+  "end": 973.55,
+  "text": "what repetition I'm going to specify I"
+ },
+ {
+  "start": 973.56,
+  "end": 975.889,
+  "text": "am going to repeat I'm going to specify"
+ },
+ {
+  "start": 975.899,
+  "end": 979.43,
+  "text": "it as my actual card number correct"
+ },
+ {
+  "start": 979.44,
+  "end": 981.17,
+  "text": "so let's"
+ },
+ {
+  "start": 981.18,
+  "end": 984.829,
+  "text": "specify the repetition as"
+ },
+ {
+  "start": 984.839,
+  "end": 987.23,
+  "text": "let's call the buffer"
+ },
+ {
+  "start": 987.24,
+  "end": 990.889,
+  "text": "what buffer the actual card number"
+ },
+ {
+  "start": 990.899,
+  "end": 994.069,
+  "text": "actual card number buffer and specifying"
+ },
+ {
+  "start": 994.079,
+  "end": 998.749,
+  "text": "the repetition value as the actual card"
+ },
+ {
+  "start": 998.759,
+  "end": 1003.009,
+  "text": "number that means I want to repeat"
+ },
+ {
+  "start": 1003.019,
+  "end": 1005.009,
+  "text": "I want to repeat"
+ },
+ {
+  "start": 1005.019,
+  "end": 1008.47,
+  "text": "selecting these remove check box how"
+ },
+ {
+  "start": 1008.48,
+  "end": 1009.55,
+  "text": "many times"
+ },
+ {
+  "start": 1009.56,
+  "end": 1012.67,
+  "text": "the number of times"
+ },
+ {
+  "start": 1012.68,
+  "end": 1016.749,
+  "text": "I got from the actual"
+ },
+ {
+  "start": 1016.759,
+  "end": 1018.49,
+  "text": "card number"
+ },
+ {
+  "start": 1018.5,
+  "end": 1021.49,
+  "text": "okay so that means number of items how"
+ },
+ {
+  "start": 1021.5,
+  "end": 1023.17,
+  "text": "many number of let's say three items"
+ },
+ {
+  "start": 1023.18,
+  "end": 1025.15,
+  "text": "that means I need to select three times"
+ },
+ {
+  "start": 1025.16,
+  "end": 1028.27,
+  "text": "right so I am asking to repeat this"
+ },
+ {
+  "start": 1028.28,
+  "end": 1030.669,
+  "text": "folder see as soon as I provide some"
+ },
+ {
+  "start": 1030.679,
+  "end": 1033.429,
+  "text": "value here the folder if you see the"
+ },
+ {
+  "start": 1033.439,
+  "end": 1034.929,
+  "text": "repetition symbol is"
+ },
+ {
+  "start": 1034.939,
+  "end": 1036.25,
+  "text": "shown here"
+ },
+ {
+  "start": 1036.26,
+  "end": 1038.53,
+  "text": "okay done"
+ },
+ {
+  "start": 1038.54,
+  "end": 1044.829,
+  "text": "now let's insert some test steps in"
+ },
+ {
+  "start": 1044.839,
+  "end": 1048.429,
+  "text": "this particular folder okay first empty"
+ },
+ {
+  "start": 1048.439,
+  "end": 1050.23,
+  "text": "shopping cart okay let's"
+ },
+ {
+  "start": 1050.24,
+  "end": 1053.35,
+  "text": "again I'm gonna call this same shopping"
+ },
+ {
+  "start": 1053.36,
+  "end": 1057.85,
+  "text": "cart see shopping cart module here and"
+ },
+ {
+  "start": 1057.86,
+  "end": 1059.529,
+  "text": "name this as"
+ },
+ {
+  "start": 1059.539,
+  "end": 1062.409,
+  "text": "name this as"
+ },
+ {
+  "start": 1062.419,
+  "end": 1065.529,
+  "text": "empty"
+ },
+ {
+  "start": 1067.52,
+  "end": 1069.19,
+  "text": "cart"
+ },
+ {
+  "start": 1069.2,
+  "end": 1073.21,
+  "text": "okay I named this as empty cart okay so"
+ },
+ {
+  "start": 1073.22,
+  "end": 1075.73,
+  "text": "once I click on empty cart I I mentioned"
+ },
+ {
+  "start": 1075.74,
+  "end": 1077.59,
+  "text": "as empty card"
+ },
+ {
+  "start": 1077.6,
+  "end": 1079.87,
+  "text": "okay here"
+ },
+ {
+  "start": 1079.88,
+  "end": 1083.77,
+  "text": "what we need to do we have to now"
+ },
+ {
+  "start": 1083.78,
+  "end": 1086.549,
+  "text": "empty the shopping cart so as I remember"
+ },
+ {
+  "start": 1086.559,
+  "end": 1089.169,
+  "text": "this folder will repeat number of times"
+ },
+ {
+  "start": 1089.179,
+  "end": 1092.71,
+  "text": "whatever we specified here okay so now"
+ },
+ {
+  "start": 1092.72,
+  "end": 1094.09,
+  "text": "here"
+ },
+ {
+  "start": 1094.1,
+  "end": 1095.83,
+  "text": "let's go to"
+ },
+ {
+  "start": 1095.84,
+  "end": 1100.51,
+  "text": "your row here okay each row"
+ },
+ {
+  "start": 1100.52,
+  "end": 1101.71,
+  "text": "here"
+ },
+ {
+  "start": 1101.72,
+  "end": 1103.93,
+  "text": "I can do one thing okay either I can"
+ },
+ {
+  "start": 1103.94,
+  "end": 1106.69,
+  "text": "select my first row hard coded if I"
+ },
+ {
+  "start": 1106.7,
+  "end": 1108.61,
+  "text": "select first row what I'm going to do is"
+ },
+ {
+  "start": 1108.62,
+  "end": 1110.289,
+  "text": "going to select here"
+ },
+ {
+  "start": 1110.299,
+  "end": 1113.289,
+  "text": "if I select second row"
+ },
+ {
+  "start": 1113.299,
+  "end": 1115.029,
+  "text": "if I mention as"
+ },
+ {
+  "start": 1115.039,
+  "end": 1117.43,
+  "text": "dollar two it will select your second"
+ },
+ {
+  "start": 1117.44,
+  "end": 1120.43,
+  "text": "item right now I don't want to do that"
+ },
+ {
+  "start": 1120.44,
+  "end": 1122.95,
+  "text": "what I want to do I want to use the"
+ },
+ {
+  "start": 1122.96,
+  "end": 1126.73,
+  "text": "repetition how see you need to specify"
+ },
+ {
+  "start": 1126.74,
+  "end": 1131.049,
+  "text": "dollar"
+ },
+ {
+  "start": 1133.21,
+  "end": 1133.22,
+  "text": "curly braces"
+ },
+ {
+  "start": 1133.22,
+  "end": 1137.19,
+  "text": "repetition re"
+ },
+ {
+  "start": 1141.09,
+  "end": 1141.1,
+  "text": "-t-i-t-i-o-n and close your curly braces"
+ },
+ {
+  "start": 1141.1,
+  "end": 1145.029,
+  "text": "what it will do whatever you specified"
+ },
+ {
+  "start": 1145.039,
+  "end": 1147.31,
+  "text": "in the repetition"
+ },
+ {
+  "start": 1147.32,
+  "end": 1150.13,
+  "text": "so here I'm using the same explicit name"
+ },
+ {
+  "start": 1150.14,
+  "end": 1152.71,
+  "text": "so basically this repetition can be used"
+ },
+ {
+  "start": 1152.72,
+  "end": 1155.95,
+  "text": "as an explicit name what I am doing for"
+ },
+ {
+  "start": 1155.96,
+  "end": 1158.65,
+  "text": "the test step itself I am changing the"
+ },
+ {
+  "start": 1158.66,
+  "end": 1162.43,
+  "text": "name of your test step as a repetition"
+ },
+ {
+  "start": 1162.44,
+  "end": 1163.87,
+  "text": "okay"
+ },
+ {
+  "start": 1163.88,
+  "end": 1166.21,
+  "text": "so now expand this"
+ },
+ {
+  "start": 1166.22,
+  "end": 1168.01,
+  "text": "and here"
+ },
+ {
+  "start": 1168.02,
+  "end": 1172.45,
+  "text": "I need to select remove right here"
+ },
+ {
+  "start": 1172.46,
+  "end": 1176.01,
+  "text": "you need to select remove"
+ },
+ {
+  "start": 1176.02,
+  "end": 1179.11,
+  "text": "and then"
+ },
+ {
+  "start": 1179.12,
+  "end": 1182.289,
+  "text": "once you select remove"
+ },
+ {
+  "start": 1182.299,
+  "end": 1184.51,
+  "text": "here if you expand remove again here"
+ },
+ {
+  "start": 1184.52,
+  "end": 1186.61,
+  "text": "okay so instead of verify I want to"
+ },
+ {
+  "start": 1186.62,
+  "end": 1189.25,
+  "text": "select it as select"
+ },
+ {
+  "start": 1189.26,
+  "end": 1191.35,
+  "text": "under remove"
+ },
+ {
+  "start": 1191.36,
+  "end": 1195.61,
+  "text": "column so basically see Row 1"
+ },
+ {
+  "start": 1195.62,
+  "end": 1197.289,
+  "text": "your Row 1"
+ },
+ {
+  "start": 1197.299,
+  "end": 1199.69,
+  "text": "my columns are removed product price"
+ },
+ {
+  "start": 1199.7,
+  "end": 1202.63,
+  "text": "quantity and total right so what I did"
+ },
+ {
+  "start": 1202.64,
+  "end": 1205.45,
+  "text": "here I selected remove instead of"
+ },
+ {
+  "start": 1205.46,
+  "end": 1207.73,
+  "text": "product price quantity I selected the"
+ },
+ {
+  "start": 1207.74,
+  "end": 1209.59,
+  "text": "column called remove"
+ },
+ {
+  "start": 1209.6,
+  "end": 1212.77,
+  "text": "under column called remove I can see the"
+ },
+ {
+  "start": 1212.78,
+  "end": 1215.11,
+  "text": "check boxes right so these are all the"
+ },
+ {
+  "start": 1215.12,
+  "end": 1216.07,
+  "text": "columns"
+ },
+ {
+  "start": 1216.08,
+  "end": 1218.89,
+  "text": "for the Row 1"
+ },
+ {
+  "start": 1218.9,
+  "end": 1221.049,
+  "text": "column remove"
+ },
+ {
+  "start": 1221.059,
+  "end": 1223.99,
+  "text": "and here this is my checkbox so I want"
+ },
+ {
+  "start": 1224.0,
+  "end": 1225.549,
+  "text": "to make this as"
+ },
+ {
+  "start": 1225.559,
+  "end": 1228.789,
+  "text": "true I want to check the checkbox"
+ },
+ {
+  "start": 1228.799,
+  "end": 1231.73,
+  "text": "and your action mode is true that means"
+ },
+ {
+  "start": 1231.74,
+  "end": 1234.909,
+  "text": "what it will do let's say I got the"
+ },
+ {
+  "start": 1234.919,
+  "end": 1237.25,
+  "text": "actual card number as 3."
+ },
+ {
+  "start": 1237.26,
+  "end": 1240.19,
+  "text": "first it comes here first it takes as"
+ },
+ {
+  "start": 1240.2,
+  "end": 1241.81,
+  "text": "one"
+ },
+ {
+  "start": 1241.82,
+  "end": 1243.669,
+  "text": "check the check box"
+ },
+ {
+  "start": 1243.679,
+  "end": 1245.95,
+  "text": "again it repeats the same thing"
+ },
+ {
+  "start": 1245.96,
+  "end": 1247.63,
+  "text": "this time it's going to take it as"
+ },
+ {
+  "start": 1247.64,
+  "end": 1249.549,
+  "text": "number two"
+ },
+ {
+  "start": 1249.559,
+  "end": 1251.77,
+  "text": "and then it's check the check box and"
+ },
+ {
+  "start": 1251.78,
+  "end": 1253.63,
+  "text": "then again it's going to repeat"
+ },
+ {
+  "start": 1253.64,
+  "end": 1255.909,
+  "text": "and at this time the column number will"
+ },
+ {
+  "start": 1255.919,
+  "end": 1257.529,
+  "text": "be taking as three sorry the row number"
+ },
+ {
+  "start": 1257.539,
+  "end": 1260.47,
+  "text": "will be taking as 3. so that way is"
+ },
+ {
+  "start": 1260.48,
+  "end": 1263.83,
+  "text": "going to repeat the number of times the"
+ },
+ {
+  "start": 1263.84,
+  "end": 1265.99,
+  "text": "actual card items present"
+ },
+ {
+  "start": 1266.0,
+  "end": 1267.13,
+  "text": "okay"
+ },
+ {
+  "start": 1267.14,
+  "end": 1268.93,
+  "text": "hope you all understand so there is no"
+ },
+ {
+  "start": 1268.94,
+  "end": 1270.31,
+  "text": "confusion right so if you have any"
+ },
+ {
+  "start": 1270.32,
+  "end": 1271.81,
+  "text": "queries you can leave your queries in"
+ },
+ {
+  "start": 1271.82,
+  "end": 1273.31,
+  "text": "the comment box okay"
+ },
+ {
+  "start": 1273.32,
+  "end": 1275.47,
+  "text": "so that is done"
+ },
+ {
+  "start": 1275.48,
+  "end": 1276.909,
+  "text": "I think"
+ },
+ {
+  "start": 1276.919,
+  "end": 1282.25,
+  "text": "we are good now okay so now let's run"
+ },
+ {
+  "start": 1282.26,
+  "end": 1285.25,
+  "text": "this entire test case and see how it"
+ },
+ {
+  "start": 1285.26,
+  "end": 1286.21,
+  "text": "works"
+ },
+ {
+  "start": 1286.22,
+  "end": 1287.65,
+  "text": "okay"
+ },
+ {
+  "start": 1287.66,
+  "end": 1290.59,
+  "text": "run this entire test case let me make"
+ },
+ {
+  "start": 1290.6,
+  "end": 1293.77,
+  "text": "sure we achieved everything okay we are"
+ },
+ {
+  "start": 1293.78,
+  "end": 1296.47,
+  "text": "navigating to shopping cart and we are"
+ },
+ {
+  "start": 1296.48,
+  "end": 1299.289,
+  "text": "verifying if table exist and then we are"
+ },
+ {
+  "start": 1299.299,
+  "end": 1301.33,
+  "text": "counting the number of rows I mean"
+ },
+ {
+  "start": 1301.34,
+  "end": 1304.09,
+  "text": "result by using result count and we are"
+ },
+ {
+  "start": 1304.1,
+  "end": 1306.01,
+  "text": "removing the header part header row"
+ },
+ {
+  "start": 1306.02,
+  "end": 1309.31,
+  "text": "correct from the number of rows and then"
+ },
+ {
+  "start": 1309.32,
+  "end": 1312.19,
+  "text": "we are selecting remove by using"
+ },
+ {
+  "start": 1312.2,
+  "end": 1315.909,
+  "text": "repetition I'm using repetition here"
+ },
+ {
+  "start": 1315.919,
+  "end": 1318.19,
+  "text": "I am selecting the check box"
+ },
+ {
+  "start": 1318.2,
+  "end": 1321.19,
+  "text": "the number of times is same as your"
+ },
+ {
+  "start": 1321.2,
+  "end": 1324.549,
+  "text": "number of items and then I am clicking"
+ },
+ {
+  "start": 1324.559,
+  "end": 1327.61,
+  "text": "on update shopping cart see the button"
+ },
+ {
+  "start": 1327.62,
+  "end": 1330.19,
+  "text": "called update shopping cart button after"
+ },
+ {
+  "start": 1330.2,
+  "end": 1333.37,
+  "text": "checking all the items okay so hopefully"
+ },
+ {
+  "start": 1333.38,
+  "end": 1337.93,
+  "text": "it should work let's log out so let me"
+ },
+ {
+  "start": 1337.94,
+  "end": 1340.149,
+  "text": "first empty the shopping cart okay let"
+ },
+ {
+  "start": 1340.159,
+  "end": 1343.63,
+  "text": "me empty the shopping cart"
+ },
+ {
+  "start": 1346.87,
+  "end": 1346.88,
+  "text": "okay and then log out"
+ },
+ {
+  "start": 1346.88,
+  "end": 1349.39,
+  "text": "and close it okay"
+ },
+ {
+  "start": 1349.4,
+  "end": 1355.45,
+  "text": "so now let's run this now okay"
+ },
+ {
+  "start": 1357.19,
+  "end": 1357.2,
+  "text": "right click"
+ },
+ {
+  "start": 1357.2,
+  "end": 1359.409,
+  "text": "and click on run"
+ },
+ {
+  "start": 1359.419,
+  "end": 1361.87,
+  "text": "scratch book run in scratchbook so it"
+ },
+ {
+  "start": 1361.88,
+  "end": 1363.19,
+  "text": "should log in first"
+ },
+ {
+  "start": 1363.2,
+  "end": 1365.529,
+  "text": "it should open your webshop"
+ },
+ {
+  "start": 1365.539,
+  "end": 1367.69,
+  "text": "and then it should add some random"
+ },
+ {
+  "start": 1367.7,
+  "end": 1370.69,
+  "text": "products to the shopping cart"
+ },
+ {
+  "start": 1370.7,
+  "end": 1372.25,
+  "text": "and then it should remove the shopping"
+ },
+ {
+  "start": 1372.26,
+  "end": 1374.59,
+  "text": "cart by using repetition functionality"
+ },
+ {
+  "start": 1374.6,
+  "end": 1378.07,
+  "text": "okay"
+ },
+ {
+  "start": 1379.81,
+  "end": 1379.82,
+  "text": "so it is logging in"
+ },
+ {
+  "start": 1379.82,
+  "end": 1381.85,
+  "text": "once it is logging in so it's going to"
+ },
+ {
+  "start": 1381.86,
+  "end": 1383.71,
+  "text": "go to the shopping cart and then it's"
+ },
+ {
+  "start": 1383.72,
+  "end": 1385.45,
+  "text": "going to add some items okay it's adding"
+ },
+ {
+  "start": 1385.46,
+  "end": 1387.43,
+  "text": "blue jeans"
+ },
+ {
+  "start": 1387.44,
+  "end": 1390.25,
+  "text": "right to the shopping cart 25 Bridges"
+ },
+ {
+  "start": 1390.26,
+  "end": 1392.35,
+  "text": "and then it went to jewelries and it is"
+ },
+ {
+  "start": 1392.36,
+  "end": 1394.93,
+  "text": "adding some but Diamond Heart Right"
+ },
+ {
+  "start": 1394.94,
+  "end": 1397.029,
+  "text": "done so now it's going to the shopping"
+ },
+ {
+  "start": 1397.039,
+  "end": 1400.45,
+  "text": "cart and then see it checked"
+ },
+ {
+  "start": 1400.46,
+  "end": 1402.85,
+  "text": "both the check boxes and clicked on"
+ },
+ {
+  "start": 1402.86,
+  "end": 1405.909,
+  "text": "update shopping cart okay so if you see"
+ },
+ {
+  "start": 1405.919,
+  "end": 1408.97,
+  "text": "here all the tests our test cases the"
+ },
+ {
+  "start": 1408.98,
+  "end": 1411.37,
+  "text": "test case is passed so basically all the"
+ },
+ {
+  "start": 1411.38,
+  "end": 1414.549,
+  "text": "steps are successfully completed so if"
+ },
+ {
+  "start": 1414.559,
+  "end": 1417.43,
+  "text": "you see here if I go to select remove"
+ },
+ {
+  "start": 1417.44,
+  "end": 1420.25,
+  "text": "folder right so if you see here the"
+ },
+ {
+  "start": 1420.26,
+  "end": 1421.93,
+  "text": "repetition actually it is repeating"
+ },
+ {
+  "start": 1421.94,
+  "end": 1424.21,
+  "text": "twice"
+ },
+ {
+  "start": 1424.22,
+  "end": 1425.529,
+  "text": "see"
+ },
+ {
+  "start": 1425.539,
+  "end": 1427.69,
+  "text": "that means it checked two times because"
+ },
+ {
+  "start": 1427.7,
+  "end": 1430.81,
+  "text": "the shopping cart has only two items so"
+ },
+ {
+  "start": 1430.82,
+  "end": 1432.789,
+  "text": "if your shopping cart has"
+ },
+ {
+  "start": 1432.799,
+  "end": 1435.19,
+  "text": "uh more than two items then it's gonna"
+ },
+ {
+  "start": 1435.2,
+  "end": 1438.669,
+  "text": "check multiple times four times okay so"
+ },
+ {
+  "start": 1438.679,
+  "end": 1441.549,
+  "text": "hope you all understand the concept of"
+ },
+ {
+  "start": 1441.559,
+  "end": 1443.649,
+  "text": "how to use"
+ },
+ {
+  "start": 1443.659,
+  "end": 1445.87,
+  "text": "a repetition"
+ },
+ {
+  "start": 1445.88,
+  "end": 1448.99,
+  "text": "at folder level repetition at folder"
+ },
+ {
+  "start": 1449.0,
+  "end": 1450.01,
+  "text": "level"
+ },
+ {
+  "start": 1450.02,
+  "end": 1453.61,
+  "text": "and then how can you use your result"
+ },
+ {
+  "start": 1453.62,
+  "end": 1456.43,
+  "text": "count also right to calculate the number"
+ },
+ {
+  "start": 1456.44,
+  "end": 1458.35,
+  "text": "of rows"
+ },
+ {
+  "start": 1458.36,
+  "end": 1462.63,
+  "text": "and then how can you use the repetition"
+ },
+ {
+  "start": 1462.64,
+  "end": 1467.409,
+  "text": "attribute a test step level right I"
+ },
+ {
+  "start": 1467.419,
+  "end": 1472.39,
+  "text": "specified it as dollar repetition right"
+ },
+ {
+  "start": 1472.4,
+  "end": 1474.13,
+  "text": "so if you have any queries leave your"
+ },
+ {
+  "start": 1474.14,
+  "end": 1475.57,
+  "text": "queries in the comment box I'll try to"
+ },
+ {
+  "start": 1475.58,
+  "end": 1478.029,
+  "text": "respond to your queries thank you"
+ },
+ {
+  "start": 1478.039,
+  "end": 1480.789,
+  "text": "please do subscribe to the channel click"
+ },
+ {
+  "start": 1480.799,
+  "end": 1482.169,
+  "text": "on Bell icon you'll receive"
+ },
+ {
+  "start": 1482.179,
+  "end": 1484.09,
+  "text": "notifications whenever I publish more"
+ },
+ {
+  "start": 1484.1,
+  "end": 1489.81,
+  "text": "videos thank you"
+ }
+]

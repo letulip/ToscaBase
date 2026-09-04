@@ -1,0 +1,1262 @@
+[
+ {
+  "start": 14.11,
+  "end": 14.12,
+  "text": "hi everyone this is Ravi welcome to"
+ },
+ {
+  "start": 14.12,
+  "end": 17.79,
+  "text": "prenti tasa Advanced Training as you all"
+ },
+ {
+  "start": 17.8,
+  "end": 20.83,
+  "text": "know I've already published 52 YouTube"
+ },
+ {
+  "start": 20.84,
+  "end": 24.63,
+  "text": "videos covering beginners intermediate"
+ },
+ {
+  "start": 24.64,
+  "end": 28.269,
+  "text": "and advanced level Concepts so from"
+ },
+ {
+  "start": 28.279,
+  "end": 29.99,
+  "text": "couple of videos onwards I've started"
+ },
+ {
+  "start": 30.0,
+  "end": 32.43,
+  "text": "started teaching you some realtime"
+ },
+ {
+  "start": 32.44,
+  "end": 35.59,
+  "text": "scenarios where you might encounter"
+ },
+ {
+  "start": 35.6,
+  "end": 38.35,
+  "text": "different types of obstacles while"
+ },
+ {
+  "start": 38.36,
+  "end": 41.67,
+  "text": "automating your test cases and I have"
+ },
+ {
+  "start": 41.68,
+  "end": 44.67,
+  "text": "started explaining you how can we solve"
+ },
+ {
+  "start": 44.68,
+  "end": 48.029,
+  "text": "those obstacles and this is our obstacle"
+ },
+ {
+  "start": 48.039,
+  "end": 51.15,
+  "text": "11 in terms of realtime scenarios and"
+ },
+ {
+  "start": 51.16,
+  "end": 54.389,
+  "text": "this is our lesson 53 in terms of"
+ },
+ {
+  "start": 54.399,
+  "end": 58.11,
+  "text": "overall trient tasa Advanced Training so"
+ },
+ {
+  "start": 58.12,
+  "end": 60.91,
+  "text": "in this lesson I'm going to teach you a"
+ },
+ {
+  "start": 60.92,
+  "end": 65.19,
+  "text": "realtime scenario where you need to"
+ },
+ {
+  "start": 65.2,
+  "end": 67.31,
+  "text": "add random"
+ },
+ {
+  "start": 67.32,
+  "end": 71.31,
+  "text": "numbers by using math expressions and"
+ },
+ {
+  "start": 71.32,
+  "end": 73.95,
+  "text": "then I'm also going to introduce you to"
+ },
+ {
+  "start": 73.96,
+  "end": 75.55,
+  "text": "the user"
+ },
+ {
+  "start": 75.56,
+  "end": 78.87,
+  "text": "simulation where we can use this user"
+ },
+ {
+  "start": 78.88,
+  "end": 83.39,
+  "text": "simulation Concepts while solving the"
+ },
+ {
+  "start": 83.4,
+  "end": 86.03,
+  "text": "obstacle please do subscribe to the"
+ },
+ {
+  "start": 86.04,
+  "end": 87.87,
+  "text": "channel click on Bell icon you'll"
+ },
+ {
+  "start": 87.88,
+  "end": 89.99,
+  "text": "receive notifications whenever I publish"
+ },
+ {
+  "start": 90.0,
+  "end": 93.83,
+  "text": "more videos thank"
+ },
+ {
+  "start": 98.069,
+  "end": 98.079,
+  "text": "you so this is our 11th obstacle named"
+ },
+ {
+  "start": 98.079,
+  "end": 101.87,
+  "text": "as addition and it is categorized as"
+ },
+ {
+  "start": 101.88,
+  "end": 106.389,
+  "text": "medium so let's go for it so let us see"
+ },
+ {
+  "start": 106.399,
+  "end": 108.67,
+  "text": "what is the scenario that we need to"
+ },
+ {
+  "start": 108.68,
+  "end": 111.149,
+  "text": "automate or what is the challenge that"
+ },
+ {
+  "start": 111.159,
+  "end": 114.67,
+  "text": "we need to solve for input the sum of"
+ },
+ {
+  "start": 114.68,
+  "end": 118.23,
+  "text": "two randomly generated numbers into the"
+ },
+ {
+  "start": 118.24,
+  "end": 120.389,
+  "text": "sum field so basically"
+ },
+ {
+  "start": 120.399,
+  "end": 123.069,
+  "text": "these are randomly generated numbers"
+ },
+ {
+  "start": 123.079,
+  "end": 125.709,
+  "text": "random one number random two number and"
+ },
+ {
+  "start": 125.719,
+  "end": 129.389,
+  "text": "you need to enter some of these two"
+ },
+ {
+  "start": 129.399,
+  "end": 130.55,
+  "text": "random"
+ },
+ {
+  "start": 130.56,
+  "end": 132.55,
+  "text": "numbers if I"
+ },
+ {
+  "start": 132.56,
+  "end": 136.19,
+  "text": "enter the sum of these two numbers"
+ },
+ {
+  "start": 136.2,
+  "end": 140.67,
+  "text": "correctly in the sum edit field then you"
+ },
+ {
+  "start": 140.68,
+  "end": 143.589,
+  "text": "solve this automation problem if I do"
+ },
+ {
+  "start": 143.599,
+  "end": 147.47,
+  "text": "let me try again this random numbers"
+ },
+ {
+  "start": 147.48,
+  "end": 150.71,
+  "text": "keep changing okay so now"
+ },
+ {
+  "start": 150.72,
+  "end": 154.07,
+  "text": "let us see how can we automate this"
+ },
+ {
+  "start": 154.08,
+  "end": 156.99,
+  "text": "particular challenge let's go back to"
+ },
+ {
+  "start": 157.0,
+  "end": 158.869,
+  "text": "our tricenter"
+ },
+ {
+  "start": 158.879,
+  "end": 162.509,
+  "text": "sta as you all know we are capturing all"
+ },
+ {
+  "start": 162.519,
+  "end": 165.03,
+  "text": "the objects related to each and every"
+ },
+ {
+  "start": 165.04,
+  "end": 169.19,
+  "text": "obstacle that we covered in obstacles"
+ },
+ {
+  "start": 169.2,
+  "end": 171.91,
+  "text": "module folder so let me right click on"
+ },
+ {
+  "start": 171.92,
+  "end": 173.79,
+  "text": "this obstacles module"
+ },
+ {
+  "start": 173.8,
+  "end": 186.91,
+  "text": "folder select scan and application"
+ },
+ {
+  "start": 188.789,
+  "end": 188.799,
+  "text": "so select the application that you would"
+ },
+ {
+  "start": 188.799,
+  "end": 194.949,
+  "text": "like to scan and click on scan"
+ },
+ {
+  "start": 199.47,
+  "end": 199.48,
+  "text": "button and here you can see random one"
+ },
+ {
+  "start": 199.48,
+  "end": 202.55,
+  "text": "random two and sum right so if you see"
+ },
+ {
+  "start": 202.56,
+  "end": 205.35,
+  "text": "this is my random"
+ },
+ {
+  "start": 205.36,
+  "end": 209.39,
+  "text": "one text and this is my random two"
+ },
+ {
+  "start": 209.4,
+  "end": 210.949,
+  "text": "number"
+ },
+ {
+  "start": 210.959,
+  "end": 212.949,
+  "text": "and then this is the"
+ },
+ {
+  "start": 212.959,
+  "end": 217.869,
+  "text": "result okay so you can see here all"
+ },
+ {
+  "start": 217.879,
+  "end": 221.509,
+  "text": "those controls are uniquely identified"
+ },
+ {
+  "start": 221.519,
+  "end": 223.71,
+  "text": "this one is uniquely identified this is"
+ },
+ {
+  "start": 223.72,
+  "end": 227.229,
+  "text": "uniquely identified this is uniquely"
+ },
+ {
+  "start": 227.239,
+  "end": 230.47,
+  "text": "identified and here I would like to"
+ },
+ {
+  "start": 230.48,
+  "end": 233.309,
+  "text": "rename this because these numbers are"
+ },
+ {
+  "start": 233.319,
+  "end": 236.39,
+  "text": "not constant it's keep on changing so"
+ },
+ {
+  "start": 236.4,
+  "end": 241.069,
+  "text": "I'm going to name this as number one"
+ },
+ {
+  "start": 241.079,
+  "end": 246.429,
+  "text": "and this is my number two and if you see"
+ },
+ {
+  "start": 246.439,
+  "end": 249.869,
+  "text": "the right side properties okay here I"
+ },
+ {
+  "start": 249.879,
+  "end": 254.91,
+  "text": "can see I have ID and tag label I don't"
+ },
+ {
+  "start": 254.92,
+  "end": 258.59,
+  "text": "want to select inner text because the"
+ },
+ {
+  "start": 258.6,
+  "end": 262.79,
+  "text": "inner text keep changing but I can use"
+ },
+ {
+  "start": 262.8,
+  "end": 265.749,
+  "text": "this inner text property to get the"
+ },
+ {
+  "start": 265.759,
+  "end": 268.39,
+  "text": "value of this number right in the same"
+ },
+ {
+  "start": 268.4,
+  "end": 270.27,
+  "text": "way for number two as well"
+ },
+ {
+  "start": 270.28,
+  "end": 274.23,
+  "text": "and then result is your edit box okay so"
+ },
+ {
+  "start": 274.24,
+  "end": 276.67,
+  "text": "now let us save this"
+ },
+ {
+  "start": 276.68,
+  "end": 280.87,
+  "text": "module with obstacle name copy this"
+ },
+ {
+  "start": 280.88,
+  "end": 284.79,
+  "text": "obstacle name and then paste it"
+ },
+ {
+  "start": 284.8,
+  "end": 288.79,
+  "text": "here now save the"
+ },
+ {
+  "start": 288.8,
+  "end": 292.79,
+  "text": "module and then close your xcam so let's"
+ },
+ {
+  "start": 292.8,
+  "end": 294.99,
+  "text": "go back to our"
+ },
+ {
+  "start": 295.0,
+  "end": 298.71,
+  "text": "prenta so this is our new module that we"
+ },
+ {
+  "start": 298.72,
+  "end": 302.909,
+  "text": "added right number one number two result"
+ },
+ {
+  "start": 302.919,
+  "end": 307.11,
+  "text": "so now let us create a test case so now"
+ },
+ {
+  "start": 307.12,
+  "end": 310.87,
+  "text": "let's go back to our test case section"
+ },
+ {
+  "start": 310.88,
+  "end": 313.95,
+  "text": "which is blue color right this is our"
+ },
+ {
+  "start": 313.96,
+  "end": 317.909,
+  "text": "obstacles test case folder where we are"
+ },
+ {
+  "start": 317.919,
+  "end": 320.469,
+  "text": "automating all the test cases related to"
+ },
+ {
+  "start": 320.479,
+  "end": 323.029,
+  "text": "each and every obstacle right click on"
+ },
+ {
+  "start": 323.039,
+  "end": 328.39,
+  "text": "this create a new test case name this as"
+ },
+ {
+  "start": 328.4,
+  "end": 330.43,
+  "text": "the same obstacle name"
+ },
+ {
+  "start": 330.44,
+  "end": 334.469,
+  "text": "name double click on this now to create"
+ },
+ {
+  "start": 334.479,
+  "end": 338.469,
+  "text": "a test steps we need to drag this new"
+ },
+ {
+  "start": 338.479,
+  "end": 341.67,
+  "text": "module that we created and drop onto"
+ },
+ {
+  "start": 341.68,
+  "end": 343.87,
+  "text": "your test"
+ },
+ {
+  "start": 343.88,
+  "end": 348.029,
+  "text": "case now let's expand"
+ },
+ {
+  "start": 348.039,
+  "end": 352.07,
+  "text": "this what we need to do we need to First"
+ },
+ {
+  "start": 352.08,
+  "end": 355.59,
+  "text": "capture the inner text of this object"
+ },
+ {
+  "start": 355.6,
+  "end": 359.15,
+  "text": "and this object okay for that this is my"
+ },
+ {
+  "start": 359.16,
+  "end": 360.83,
+  "text": "first number"
+ },
+ {
+  "start": 360.84,
+  "end": 365.589,
+  "text": "one randomly generated number for this"
+ },
+ {
+  "start": 365.599,
+  "end": 367.749,
+  "text": "select inner"
+ },
+ {
+  "start": 367.759,
+  "end": 370.87,
+  "text": "text equal"
+ },
+ {
+  "start": 370.88,
+  "end": 374.469,
+  "text": "to I'm going to store this into a num"
+ },
+ {
+  "start": 374.479,
+  "end": 377.87,
+  "text": "one as a buffer value okay this is my"
+ },
+ {
+  "start": 377.88,
+  "end": 380.51,
+  "text": "buffer name num one I'm instructing"
+ },
+ {
+  "start": 380.52,
+  "end": 382.43,
+  "text": "tasar to"
+ },
+ {
+  "start": 382.44,
+  "end": 385.79,
+  "text": "store the inner text of this object into"
+ },
+ {
+  "start": 385.8,
+  "end": 389.23,
+  "text": "a buffer name num one and your action"
+ },
+ {
+  "start": 389.24,
+  "end": 390.909,
+  "text": "mode should be"
+ },
+ {
+  "start": 390.919,
+  "end": 395.71,
+  "text": "buffer right now again for object two"
+ },
+ {
+  "start": 395.72,
+  "end": 397.95,
+  "text": "you need to store the inner text for"
+ },
+ {
+  "start": 397.96,
+  "end": 401.469,
+  "text": "that click on this drop down select"
+ },
+ {
+  "start": 401.479,
+  "end": 406.189,
+  "text": "inner text equal to buffer name I'm"
+ },
+ {
+  "start": 406.199,
+  "end": 410.51,
+  "text": "going to give it as num two okay and"
+ },
+ {
+  "start": 410.52,
+  "end": 414.07,
+  "text": "then your action mode should be"
+ },
+ {
+  "start": 414.08,
+  "end": 420.07,
+  "text": "buffer now we need to add the Val values"
+ },
+ {
+  "start": 420.08,
+  "end": 422.909,
+  "text": "that stored in these two"
+ },
+ {
+  "start": 422.919,
+  "end": 426.55,
+  "text": "buffers and then print the result in"
+ },
+ {
+  "start": 426.56,
+  "end": 430.589,
+  "text": "this edit box so how can we add the two"
+ },
+ {
+  "start": 430.599,
+  "end": 433.869,
+  "text": "numbers by using the math function so"
+ },
+ {
+  "start": 433.879,
+  "end": 435.79,
+  "text": "now let me show you how can we write the"
+ },
+ {
+  "start": 435.8,
+  "end": 439.51,
+  "text": "math function any method or functions"
+ },
+ {
+  "start": 439.52,
+  "end": 440.55,
+  "text": "that"
+ },
+ {
+  "start": 440.56,
+  "end": 444.309,
+  "text": "we need to call in TSA we need to use"
+ },
+ {
+  "start": 444.319,
+  "end": 445.67,
+  "text": "open curly"
+ },
+ {
+  "start": 445.68,
+  "end": 450.469,
+  "text": "braces math see this is my math function"
+ },
+ {
+  "start": 450.479,
+  "end": 453.95,
+  "text": "and open Square bra close Square braces"
+ },
+ {
+  "start": 453.96,
+  "end": 457.27,
+  "text": "and close your curly bra this is my math"
+ },
+ {
+  "start": 457.28,
+  "end": 460.43,
+  "text": "function notation right here I'm going"
+ },
+ {
+  "start": 460.44,
+  "end": 461.27,
+  "text": "to"
+ },
+ {
+  "start": 461.28,
+  "end": 465.589,
+  "text": "write the operator num one and num two"
+ },
+ {
+  "start": 465.599,
+  "end": 468.869,
+  "text": "operators okay I mean here I'm going to"
+ },
+ {
+  "start": 468.879,
+  "end": 470.79,
+  "text": "write actual formula what I'm going to"
+ },
+ {
+  "start": 470.8,
+  "end": 475.27,
+  "text": "do here I need to call Buffer one and"
+ },
+ {
+  "start": 475.28,
+  "end": 478.83,
+  "text": "then operator plus and then call Buffer"
+ },
+ {
+  "start": 478.84,
+  "end": 480.309,
+  "text": "two"
+ },
+ {
+  "start": 480.319,
+  "end": 483.67,
+  "text": "that's it okay for that to call Buffer"
+ },
+ {
+  "start": 483.68,
+  "end": 487.27,
+  "text": "open curly braces capital B open Square"
+ },
+ {
+  "start": 487.28,
+  "end": 490.79,
+  "text": "braces num one is my first"
+ },
+ {
+  "start": 490.8,
+  "end": 494.149,
+  "text": "buffer close Square braces close curly"
+ },
+ {
+  "start": 494.159,
+  "end": 499.629,
+  "text": "braces and then your operator plus now"
+ },
+ {
+  "start": 499.639,
+  "end": 502.43,
+  "text": "you need to call your second buffer open"
+ },
+ {
+  "start": 502.44,
+  "end": 505.909,
+  "text": "curly braces capital B open Square"
+ },
+ {
+  "start": 505.919,
+  "end": 507.909,
+  "text": "braces num"
+ },
+ {
+  "start": 507.919,
+  "end": 511.309,
+  "text": "to close Square braces close curly"
+ },
+ {
+  "start": 511.319,
+  "end": 514.43,
+  "text": "braces so as soon as you click here it"
+ },
+ {
+  "start": 514.44,
+  "end": 517.709,
+  "text": "should convert into this format if it is"
+ },
+ {
+  "start": 517.719,
+  "end": 519.43,
+  "text": "not converted into the format means you"
+ },
+ {
+  "start": 519.44,
+  "end": 520.87,
+  "text": "are making some mistake let's say if I"
+ },
+ {
+  "start": 520.88,
+  "end": 523.55,
+  "text": "remove this curly braces see now it is"
+ },
+ {
+  "start": 523.56,
+  "end": 525.11,
+  "text": "not converted into the for format that"
+ },
+ {
+  "start": 525.12,
+  "end": 528.43,
+  "text": "means this is wrong just right click and"
+ },
+ {
+  "start": 528.44,
+  "end": 531.67,
+  "text": "then translate value see it throws an"
+ },
+ {
+  "start": 531.68,
+  "end": 534.79,
+  "text": "error M message see unexpected end value"
+ },
+ {
+  "start": 534.8,
+  "end": 538.19,
+  "text": "token if I correct"
+ },
+ {
+  "start": 538.2,
+  "end": 541.91,
+  "text": "this now now it converted to this format"
+ },
+ {
+  "start": 541.92,
+  "end": 546.11,
+  "text": "right click and then translate value so"
+ },
+ {
+  "start": 546.12,
+  "end": 549.03,
+  "text": "then see your expression found correctly"
+ },
+ {
+  "start": 549.04,
+  "end": 551.11,
+  "text": "click okay so"
+ },
+ {
+  "start": 551.12,
+  "end": 555.15,
+  "text": "now here the action mode should be input"
+ },
+ {
+  "start": 555.16,
+  "end": 559.269,
+  "text": "so now before I mark this test case as"
+ },
+ {
+  "start": 559.279,
+  "end": 561.71,
+  "text": "completed let's run this test case and"
+ },
+ {
+  "start": 561.72,
+  "end": 564.63,
+  "text": "see if it works right"
+ },
+ {
+  "start": 564.64,
+  "end": 568.03,
+  "text": "click so before that let me save this"
+ },
+ {
+  "start": 568.04,
+  "end": 577.47,
+  "text": "right click and run in"
+ },
+ {
+  "start": 581.71,
+  "end": 581.72,
+  "text": "scratchbook see here now it added 68 and"
+ },
+ {
+  "start": 581.72,
+  "end": 587.23,
+  "text": "48 and then it entered the result 116"
+ },
+ {
+  "start": 587.24,
+  "end": 589.949,
+  "text": "But If You observe closely we did not"
+ },
+ {
+  "start": 589.959,
+  "end": 591.99,
+  "text": "get the popup saying"
+ },
+ {
+  "start": 592.0,
+  "end": 595.75,
+  "text": "that you are automation problem solved"
+ },
+ {
+  "start": 595.76,
+  "end": 599.47,
+  "text": "successfully why because we have just"
+ },
+ {
+  "start": 599.48,
+  "end": 603.15,
+  "text": "inputed this particular value we haven't"
+ },
+ {
+  "start": 603.16,
+  "end": 606.47,
+  "text": "typed it if you type this right then"
+ },
+ {
+  "start": 606.48,
+  "end": 608.87,
+  "text": "only you'll get it but what we did we"
+ },
+ {
+  "start": 608.88,
+  "end": 611.31,
+  "text": "just input the value so that doesn't"
+ },
+ {
+  "start": 611.32,
+  "end": 614.59,
+  "text": "trigger the US user simulation basically"
+ },
+ {
+  "start": 614.6,
+  "end": 617.87,
+  "text": "you need to make sure that when you"
+ },
+ {
+  "start": 617.88,
+  "end": 620.949,
+  "text": "enter the value you need to pass the"
+ },
+ {
+  "start": 620.959,
+  "end": 623.63,
+  "text": "user simulation how can we do that there"
+ },
+ {
+  "start": 623.64,
+  "end": 627.99,
+  "text": "are two methods one is you can send the"
+ },
+ {
+  "start": 628.0,
+  "end": 631.67,
+  "text": "keys so that that it simulates the"
+ },
+ {
+  "start": 631.68,
+  "end": 634.269,
+  "text": "keyboard how can I do that to send the"
+ },
+ {
+  "start": 634.279,
+  "end": 639.31,
+  "text": "keys again open curly braces send"
+ },
+ {
+  "start": 639.32,
+  "end": 644.15,
+  "text": "Keys open Square"
+ },
+ {
+  "start": 648.99,
+  "end": 649.0,
+  "text": "braces and here close Square braces C"
+ },
+ {
+  "start": 649.0,
+  "end": 653.31,
+  "text": "close close curly braces so here now"
+ },
+ {
+  "start": 653.32,
+  "end": 658.069,
+  "text": "send case what I'm sending this buffer"
+ },
+ {
+  "start": 658.079,
+  "end": 662.43,
+  "text": "Plus second buffer I'm sending right now"
+ },
+ {
+  "start": 662.44,
+  "end": 666.269,
+  "text": "save this and let me run this now I"
+ },
+ {
+  "start": 666.279,
+  "end": 673.509,
+  "text": "should get the success"
+ },
+ {
+  "start": 676.949,
+  "end": 676.959,
+  "text": "message see now it entered the"
+ },
+ {
+  "start": 676.959,
+  "end": 679.829,
+  "text": "correct result and you got this you"
+ },
+ {
+  "start": 679.839,
+  "end": 684.35,
+  "text": "solve this automation problem why simple"
+ },
+ {
+  "start": 684.36,
+  "end": 687.91,
+  "text": "if you are using a keyword called send"
+ },
+ {
+  "start": 687.92,
+  "end": 692.11,
+  "text": "Keys it's simp Ates the your system"
+ },
+ {
+  "start": 692.12,
+  "end": 695.75,
+  "text": "keyboard that's why you are getting the"
+ },
+ {
+  "start": 695.76,
+  "end": 698.79,
+  "text": "success message there is another method"
+ },
+ {
+  "start": 698.8,
+  "end": 701.99,
+  "text": "to perform user simulation how let me"
+ },
+ {
+  "start": 702.0,
+  "end": 706.99,
+  "text": "delete this send case here"
+ },
+ {
+  "start": 711.15,
+  "end": 711.16,
+  "text": "now okay the next method is let's go"
+ },
+ {
+  "start": 711.16,
+  "end": 713.55,
+  "text": "back to your modules okay"
+ },
+ {
+  "start": 713.56,
+  "end": 717.35,
+  "text": "here I can perform user simulation by"
+ },
+ {
+  "start": 717.36,
+  "end": 720.43,
+  "text": "introducing steering pyram meter how"
+ },
+ {
+  "start": 720.44,
+  "end": 723.55,
+  "text": "let's go here now we are entering the"
+ },
+ {
+  "start": 723.56,
+  "end": 726.069,
+  "text": "value here right while entering I need"
+ },
+ {
+  "start": 726.079,
+  "end": 729.43,
+  "text": "to perform user simulation so go to this"
+ },
+ {
+  "start": 729.44,
+  "end": 731.629,
+  "text": "object in the module this is my object"
+ },
+ {
+  "start": 731.639,
+  "end": 734.47,
+  "text": "result is the object so for this object"
+ },
+ {
+  "start": 734.48,
+  "end": 736.87,
+  "text": "you need to add an additional steering"
+ },
+ {
+  "start": 736.88,
+  "end": 740.389,
+  "text": "parameter how right click here on the"
+ },
+ {
+  "start": 740.399,
+  "end": 743.949,
+  "text": "module select create steering"
+ },
+ {
+  "start": 743.959,
+  "end": 747.31,
+  "text": "parameter here the parameter name should"
+ },
+ {
+  "start": 747.32,
+  "end": 752.91,
+  "text": "be user no space capital S"
+ },
+ {
+  "start": 752.92,
+  "end": 755.03,
+  "text": "simulation so you need to make sure that"
+ },
+ {
+  "start": 755.04,
+  "end": 758.15,
+  "text": "spelling is correct user no space"
+ },
+ {
+  "start": 758.16,
+  "end": 759.31,
+  "text": "Capital"
+ },
+ {
+  "start": 759.32,
+  "end": 763.91,
+  "text": "yes simulation okay now this user"
+ },
+ {
+  "start": 763.92,
+  "end": 766.91,
+  "text": "simulation should be"
+ },
+ {
+  "start": 766.92,
+  "end": 770.11,
+  "text": "true basically what what I'm instructing"
+ },
+ {
+  "start": 770.12,
+  "end": 774.91,
+  "text": "tasa consider this edit box as a user"
+ },
+ {
+  "start": 774.92,
+  "end": 778.829,
+  "text": "simulation box so whatever you input"
+ },
+ {
+  "start": 778.839,
+  "end": 779.91,
+  "text": "here"
+ },
+ {
+  "start": 779.92,
+  "end": 783.15,
+  "text": "that should take your user simulation"
+ },
+ {
+  "start": 783.16,
+  "end": 786.71,
+  "text": "consider this as user is entering it"
+ },
+ {
+  "start": 786.72,
+  "end": 789.949,
+  "text": "okay so now let's save this now okay let"
+ },
+ {
+  "start": 789.959,
+  "end": 793.509,
+  "text": "me now let's save this test case and let"
+ },
+ {
+  "start": 793.519,
+  "end": 795.91,
+  "text": "me run this one before running this I"
+ },
+ {
+  "start": 795.92,
+  "end": 798.15,
+  "text": "would like to mark this test case as"
+ },
+ {
+  "start": 798.16,
+  "end": 801.87,
+  "text": "completed work state completed"
+ },
+ {
+  "start": 801.88,
+  "end": 805.91,
+  "text": "completed save this now let's run this"
+ },
+ {
+  "start": 805.92,
+  "end": 810.15,
+  "text": "again okay this time also I'm not using"
+ },
+ {
+  "start": 810.16,
+  "end": 814.509,
+  "text": "send Keys here right but still I should"
+ },
+ {
+  "start": 814.519,
+  "end": 818.31,
+  "text": "get automation solved successfully"
+ },
+ {
+  "start": 818.32,
+  "end": 820.71,
+  "text": "message so it"
+ },
+ {
+  "start": 820.72,
+  "end": 829.15,
+  "text": "should add two random"
+ },
+ {
+  "start": 831.91,
+  "end": 831.92,
+  "text": "values see here now it entered"
+ },
+ {
+  "start": 831.92,
+  "end": 835.35,
+  "text": "successfully and I got this you solve"
+ },
+ {
+  "start": 835.36,
+  "end": 838.43,
+  "text": "this automation problem also right so"
+ },
+ {
+  "start": 838.44,
+  "end": 839.71,
+  "text": "that is how"
+ },
+ {
+  "start": 839.72,
+  "end": 841.79,
+  "text": "you can"
+ },
+ {
+  "start": 841.8,
+  "end": 844.35,
+  "text": "perform random number"
+ },
+ {
+  "start": 844.36,
+  "end": 847.749,
+  "text": "additions how we can use send keys and"
+ },
+ {
+  "start": 847.759,
+  "end": 850.23,
+  "text": "how we can use user"
+ },
+ {
+  "start": 850.24,
+  "end": 853.11,
+  "text": "simulations so if you have any queries"
+ },
+ {
+  "start": 853.12,
+  "end": 854.99,
+  "text": "leave your queries in the comment box"
+ },
+ {
+  "start": 855.0,
+  "end": 857.189,
+  "text": "I'll try to respond to your queries"
+ },
+ {
+  "start": 857.199,
+  "end": 864.53,
+  "text": "thank you"
+ }
+]

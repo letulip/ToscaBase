@@ -1,0 +1,2152 @@
+[
+ {
+  "start": 1.68,
+  "end": 4.85,
+  "text": "foreign"
+ },
+ {
+  "start": 16.849,
+  "end": 16.859,
+  "text": "automation tutorial"
+ },
+ {
+  "start": 16.859,
+  "end": 19.13,
+  "text": "as you all know I've already published"
+ },
+ {
+  "start": 19.14,
+  "end": 21.89,
+  "text": "14 YouTube lessons"
+ },
+ {
+  "start": 21.9,
+  "end": 25.25,
+  "text": "covering different concepts of tricent"
+ },
+ {
+  "start": 25.26,
+  "end": 29.15,
+  "text": "testoster by using latest version 16."
+ },
+ {
+  "start": 29.16,
+  "end": 33.47,
+  "text": "so this is our 15th lesson where I'm"
+ },
+ {
+  "start": 33.48,
+  "end": 36.53,
+  "text": "gonna teach you how to apply the value"
+ },
+ {
+  "start": 36.54,
+  "end": 40.43,
+  "text": "range and how can you rescan the"
+ },
+ {
+  "start": 40.44,
+  "end": 42.889,
+  "text": "controls that are required to automate"
+ },
+ {
+  "start": 42.899,
+  "end": 46.369,
+  "text": "your test Case by using Tasker and also"
+ },
+ {
+  "start": 46.379,
+  "end": 51.049,
+  "text": "how can you perform module merge and why"
+ },
+ {
+  "start": 51.059,
+  "end": 54.59,
+  "text": "do we need to perform module much"
+ },
+ {
+  "start": 54.6,
+  "end": 57.529,
+  "text": "please do subscribe to the channel click"
+ },
+ {
+  "start": 57.539,
+  "end": 58.97,
+  "text": "on Bell icon you'll receive"
+ },
+ {
+  "start": 58.98,
+  "end": 61.49,
+  "text": "notifications whenever I publish more"
+ },
+ {
+  "start": 61.5,
+  "end": 64.31,
+  "text": "videos thank you"
+ },
+ {
+  "start": 64.32,
+  "end": 67.07,
+  "text": "okay so what is our agenda"
+ },
+ {
+  "start": 67.08,
+  "end": 68.69,
+  "text": "the first one is"
+ },
+ {
+  "start": 68.7,
+  "end": 71.75,
+  "text": "rescan existing modules"
+ },
+ {
+  "start": 71.76,
+  "end": 75.49,
+  "text": "so if you want to reuse the modules or"
+ },
+ {
+  "start": 75.5,
+  "end": 79.429,
+  "text": "remap the controls that can no longer be"
+ },
+ {
+  "start": 79.439,
+  "end": 83.749,
+  "text": "identified then it's very very important"
+ },
+ {
+  "start": 83.759,
+  "end": 87.109,
+  "text": "for us to rescan the modules"
+ },
+ {
+  "start": 87.119,
+  "end": 88.51,
+  "text": "and then"
+ },
+ {
+  "start": 88.52,
+  "end": 92.03,
+  "text": "manage value range column"
+ },
+ {
+  "start": 92.04,
+  "end": 94.07,
+  "text": "so how can we do that and why do we need"
+ },
+ {
+  "start": 94.08,
+  "end": 96.77,
+  "text": "you can go to your module attribute"
+ },
+ {
+  "start": 96.78,
+  "end": 101.63,
+  "text": "level and add values to the value range"
+ },
+ {
+  "start": 101.64,
+  "end": 106.789,
+  "text": "column so these values added there then"
+ },
+ {
+  "start": 106.799,
+  "end": 111.109,
+  "text": "creates a list or the drop down list"
+ },
+ {
+  "start": 111.119,
+  "end": 113.45,
+  "text": "for the attributes that can be chosen"
+ },
+ {
+  "start": 113.46,
+  "end": 116.63,
+  "text": "from the drop down so basically whatever"
+ },
+ {
+  "start": 116.64,
+  "end": 119.149,
+  "text": "the values that you define in the value"
+ },
+ {
+  "start": 119.159,
+  "end": 120.41,
+  "text": "range"
+ },
+ {
+  "start": 120.42,
+  "end": 125.03,
+  "text": "those values can be used in this case as"
+ },
+ {
+  "start": 125.04,
+  "end": 127.91,
+  "text": "a test data attributes so basically I'm"
+ },
+ {
+  "start": 127.92,
+  "end": 129.589,
+  "text": "defining the test data"
+ },
+ {
+  "start": 129.599,
+  "end": 132.11,
+  "text": "in the module itself so that when I'm"
+ },
+ {
+  "start": 132.12,
+  "end": 133.97,
+  "text": "creating or when I am automating the"
+ },
+ {
+  "start": 133.98,
+  "end": 136.79,
+  "text": "test cases I can simply use the module"
+ },
+ {
+  "start": 136.8,
+  "end": 138.71,
+  "text": "and then I can simply select the test"
+ },
+ {
+  "start": 138.72,
+  "end": 140.99,
+  "text": "data that I required from the drop down"
+ },
+ {
+  "start": 141.0,
+  "end": 142.729,
+  "text": "so you need not to remember the test"
+ },
+ {
+  "start": 142.739,
+  "end": 144.71,
+  "text": "data basically so let's say you have"
+ },
+ {
+  "start": 144.72,
+  "end": 147.47,
+  "text": "some coupon codes to apply so you will"
+ },
+ {
+  "start": 147.48,
+  "end": 149.15,
+  "text": "have some prerequisite coupon codes"
+ },
+ {
+  "start": 149.16,
+  "end": 151.49,
+  "text": "right so you need not to remember all"
+ },
+ {
+  "start": 151.5,
+  "end": 154.369,
+  "text": "these coupon codes you simply capture"
+ },
+ {
+  "start": 154.379,
+  "end": 155.869,
+  "text": "these in the value range of your"
+ },
+ {
+  "start": 155.879,
+  "end": 159.05,
+  "text": "particular module attribute and then the"
+ },
+ {
+  "start": 159.06,
+  "end": 160.91,
+  "text": "same coupon codes you can use in the"
+ },
+ {
+  "start": 160.92,
+  "end": 163.13,
+  "text": "test cases so I'm going to teach you how"
+ },
+ {
+  "start": 163.14,
+  "end": 165.77,
+  "text": "can you manage value range shortly okay"
+ },
+ {
+  "start": 165.78,
+  "end": 168.83,
+  "text": "and then module merge so this allows you"
+ },
+ {
+  "start": 168.84,
+  "end": 171.83,
+  "text": "to combine two modules together"
+ },
+ {
+  "start": 171.84,
+  "end": 173.15,
+  "text": "if"
+ },
+ {
+  "start": 173.16,
+  "end": 175.79,
+  "text": "attributes are duplicated in the modules"
+ },
+ {
+  "start": 175.8,
+  "end": 179.949,
+  "text": "you can also link this attribute and"
+ },
+ {
+  "start": 179.959,
+  "end": 184.79,
+  "text": "decide how you want to identify them so"
+ },
+ {
+  "start": 184.8,
+  "end": 186.71,
+  "text": "when you are merging your modules right"
+ },
+ {
+  "start": 186.72,
+  "end": 189.29,
+  "text": "if there are some duplicate attributes"
+ },
+ {
+  "start": 189.3,
+  "end": 191.69,
+  "text": "you can simply decide which attribute to"
+ },
+ {
+  "start": 191.7,
+  "end": 193.97,
+  "text": "be used and then which attributes can be"
+ },
+ {
+  "start": 193.98,
+  "end": 196.55,
+  "text": "merged right so now let's jump onto the"
+ },
+ {
+  "start": 196.56,
+  "end": 198.729,
+  "text": "system and see how can we perform"
+ },
+ {
+  "start": 198.739,
+  "end": 201.47,
+  "text": "rescanning and then how can you use the"
+ },
+ {
+  "start": 201.48,
+  "end": 203.33,
+  "text": "value range column and then how can you"
+ },
+ {
+  "start": 203.34,
+  "end": 205.85,
+  "text": "perform merge module okay so now let's"
+ },
+ {
+  "start": 205.86,
+  "end": 208.369,
+  "text": "jump onto the system"
+ },
+ {
+  "start": 208.379,
+  "end": 213.11,
+  "text": "okay so this is my task car right"
+ },
+ {
+  "start": 213.12,
+  "end": 215.93,
+  "text": "um so let's navigate to modules so our"
+ },
+ {
+  "start": 215.94,
+  "end": 218.99,
+  "text": "first agenda item is understand rescan"
+ },
+ {
+  "start": 219.0,
+  "end": 222.11,
+  "text": "existing modules okay so for that let's"
+ },
+ {
+  "start": 222.12,
+  "end": 225.53,
+  "text": "navigate to module and then webshop"
+ },
+ {
+  "start": 225.54,
+  "end": 228.05,
+  "text": "under webshop you have checkout process"
+ },
+ {
+  "start": 228.06,
+  "end": 231.19,
+  "text": "under checkout process exercise 18"
+ },
+ {
+  "start": 231.2,
+  "end": 234.05,
+  "text": "rescan value range module merge okay"
+ },
+ {
+  "start": 234.06,
+  "end": 235.61,
+  "text": "under this"
+ },
+ {
+  "start": 235.62,
+  "end": 238.49,
+  "text": "select the module webshop shopping cart"
+ },
+ {
+  "start": 238.5,
+  "end": 239.69,
+  "text": "rescale"
+ },
+ {
+  "start": 239.7,
+  "end": 243.17,
+  "text": "okay this module is same as the earlier"
+ },
+ {
+  "start": 243.18,
+  "end": 246.589,
+  "text": "module that we used"
+ },
+ {
+  "start": 249.47,
+  "end": 249.48,
+  "text": "in our previous videos while automating"
+ },
+ {
+  "start": 249.48,
+  "end": 251.509,
+  "text": "our test cases okay shopping cart"
+ },
+ {
+  "start": 251.519,
+  "end": 254.449,
+  "text": "related scenario right so we have used"
+ },
+ {
+  "start": 254.459,
+  "end": 256.729,
+  "text": "the same module"
+ },
+ {
+  "start": 256.739,
+  "end": 259.37,
+  "text": "to automate our test case and this also"
+ },
+ {
+  "start": 259.38,
+  "end": 261.65,
+  "text": "same so it suggests a duplicate of these"
+ },
+ {
+  "start": 261.66,
+  "end": 264.59,
+  "text": "two so I just want to show you how can"
+ },
+ {
+  "start": 264.6,
+  "end": 267.71,
+  "text": "we rescan and then merge these two"
+ },
+ {
+  "start": 267.72,
+  "end": 270.77,
+  "text": "shopping carts once we rescan"
+ },
+ {
+  "start": 270.78,
+  "end": 273.469,
+  "text": "why I only need to rescan let me explain"
+ },
+ {
+  "start": 273.479,
+  "end": 277.33,
+  "text": "why do I need to rescan the module okay"
+ },
+ {
+  "start": 277.34,
+  "end": 280.43,
+  "text": "so what is the scenario that we already"
+ },
+ {
+  "start": 280.44,
+  "end": 283.43,
+  "text": "discussed earlier we generally go to"
+ },
+ {
+  "start": 283.44,
+  "end": 286.93,
+  "text": "as a user you logged into shopping"
+ },
+ {
+  "start": 286.94,
+  "end": 291.469,
+  "text": "portal go to apparel instant shows right"
+ },
+ {
+  "start": 291.479,
+  "end": 293.45,
+  "text": "so I have already published almost like"
+ },
+ {
+  "start": 293.46,
+  "end": 295.79,
+  "text": "13 YouTube videos so I have explained"
+ },
+ {
+  "start": 295.8,
+  "end": 298.31,
+  "text": "everything about webshop in my previous"
+ },
+ {
+  "start": 298.32,
+  "end": 300.409,
+  "text": "videos and"
+ },
+ {
+  "start": 300.419,
+  "end": 302.749,
+  "text": "we keep on"
+ },
+ {
+  "start": 302.759,
+  "end": 305.57,
+  "text": "using this website in every video okay"
+ },
+ {
+  "start": 305.58,
+  "end": 308.87,
+  "text": "so now let's go to Blue Jeans"
+ },
+ {
+  "start": 308.88,
+  "end": 310.73,
+  "text": "and here we are going to add the"
+ },
+ {
+  "start": 310.74,
+  "end": 312.35,
+  "text": "quantity of 25"
+ },
+ {
+  "start": 312.36,
+  "end": 314.03,
+  "text": "add to cart"
+ },
+ {
+  "start": 314.04,
+  "end": 317.27,
+  "text": "go to shopping cart and here till date"
+ },
+ {
+  "start": 317.28,
+  "end": 320.689,
+  "text": "what we did we have just agreed to it"
+ },
+ {
+  "start": 320.699,
+  "end": 323.749,
+  "text": "and checked out right but"
+ },
+ {
+  "start": 323.759,
+  "end": 325.31,
+  "text": "this time"
+ },
+ {
+  "start": 325.32,
+  "end": 329.57,
+  "text": "what if I need to apply a discount code"
+ },
+ {
+  "start": 329.58,
+  "end": 333.469,
+  "text": "or what if if I need to apply gift card"
+ },
+ {
+  "start": 333.479,
+  "end": 337.969,
+  "text": "code so that I'll get the discount"
+ },
+ {
+  "start": 337.979,
+  "end": 341.629,
+  "text": "so that means I need to add or what if"
+ },
+ {
+  "start": 341.639,
+  "end": 344.21,
+  "text": "if I need to update the shopping cart"
+ },
+ {
+  "start": 344.22,
+  "end": 347.21,
+  "text": "right so for that I need to add all the"
+ },
+ {
+  "start": 347.22,
+  "end": 349.969,
+  "text": "controls update shopping cart enter"
+ },
+ {
+  "start": 349.979,
+  "end": 353.45,
+  "text": "coupon code apply coupon right this edit"
+ },
+ {
+  "start": 353.46,
+  "end": 356.39,
+  "text": "box add gift card so I need to add all"
+ },
+ {
+  "start": 356.4,
+  "end": 360.35,
+  "text": "these controls to my previous module"
+ },
+ {
+  "start": 360.36,
+  "end": 363.529,
+  "text": "earlier we just added checkout"
+ },
+ {
+  "start": 363.539,
+  "end": 367.85,
+  "text": "I agree right and this probably I think"
+ },
+ {
+  "start": 367.86,
+  "end": 369.77,
+  "text": "this quantity that's it"
+ },
+ {
+  "start": 369.78,
+  "end": 372.23,
+  "text": "so now I need to add these additional"
+ },
+ {
+  "start": 372.24,
+  "end": 373.37,
+  "text": "controls"
+ },
+ {
+  "start": 373.38,
+  "end": 377.689,
+  "text": "so for that the rescan is useful okay"
+ },
+ {
+  "start": 377.699,
+  "end": 380.93,
+  "text": "so when you rescan an existing module"
+ },
+ {
+  "start": 380.94,
+  "end": 384.89,
+  "text": "you should open the page where you want"
+ },
+ {
+  "start": 384.9,
+  "end": 388.37,
+  "text": "to scan or where you want to capture the"
+ },
+ {
+  "start": 388.38,
+  "end": 390.71,
+  "text": "additional controls in the existing"
+ },
+ {
+  "start": 390.72,
+  "end": 394.189,
+  "text": "module okay you need to leave the Page"
+ },
+ {
+  "start": 394.199,
+  "end": 395.93,
+  "text": "open"
+ },
+ {
+  "start": 395.94,
+  "end": 399.11,
+  "text": "and then go back to your existing module"
+ },
+ {
+  "start": 399.12,
+  "end": 403.79,
+  "text": "and right click and select rescan"
+ },
+ {
+  "start": 403.8,
+  "end": 407.15,
+  "text": "as soon as you select rescan"
+ },
+ {
+  "start": 407.16,
+  "end": 410.33,
+  "text": "the xcan window will open"
+ },
+ {
+  "start": 410.34,
+  "end": 413.87,
+  "text": "and then it will redirect you to the"
+ },
+ {
+  "start": 413.88,
+  "end": 415.67,
+  "text": "same page"
+ },
+ {
+  "start": 415.68,
+  "end": 417.95,
+  "text": "where you"
+ },
+ {
+  "start": 417.96,
+  "end": 420.77,
+  "text": "capture the controls earlier"
+ },
+ {
+  "start": 420.78,
+  "end": 422.21,
+  "text": "okay"
+ },
+ {
+  "start": 422.22,
+  "end": 427.129,
+  "text": "so here it is opening the xcan now"
+ },
+ {
+  "start": 427.139,
+  "end": 432.11,
+  "text": "and then it redirects you to the page"
+ },
+ {
+  "start": 432.12,
+  "end": 439.85,
+  "text": "which we already opened okay"
+ },
+ {
+  "start": 441.89,
+  "end": 441.9,
+  "text": "so you need not to select the page that"
+ },
+ {
+  "start": 441.9,
+  "end": 444.43,
+  "text": "you want to scan it automatically"
+ },
+ {
+  "start": 444.44,
+  "end": 446.57,
+  "text": "redirects you okay"
+ },
+ {
+  "start": 446.58,
+  "end": 449.089,
+  "text": "okay so if you see here"
+ },
+ {
+  "start": 449.099,
+  "end": 450.95,
+  "text": "your page is open"
+ },
+ {
+  "start": 450.96,
+  "end": 454.189,
+  "text": "and your shopping cart is there okay"
+ },
+ {
+  "start": 454.199,
+  "end": 456.07,
+  "text": "so if you see here"
+ },
+ {
+  "start": 456.08,
+  "end": 458.749,
+  "text": "all these three controls are already"
+ },
+ {
+  "start": 458.759,
+  "end": 462.29,
+  "text": "added now I need to add additional"
+ },
+ {
+  "start": 462.3,
+  "end": 464.51,
+  "text": "controls right"
+ },
+ {
+  "start": 464.52,
+  "end": 469.01,
+  "text": "for that click on select on screen"
+ },
+ {
+  "start": 469.02,
+  "end": 470.809,
+  "text": "and then"
+ },
+ {
+  "start": 470.819,
+  "end": 472.249,
+  "text": "add"
+ },
+ {
+  "start": 472.259,
+  "end": 475.07,
+  "text": "update shopping cart button"
+ },
+ {
+  "start": 475.08,
+  "end": 479.15,
+  "text": "add discount coupon code edit box"
+ },
+ {
+  "start": 479.16,
+  "end": 482.39,
+  "text": "add apply coupon button"
+ },
+ {
+  "start": 482.4,
+  "end": 485.51,
+  "text": "add gift quantity box"
+ },
+ {
+  "start": 485.52,
+  "end": 487.07,
+  "text": "add"
+ },
+ {
+  "start": 487.08,
+  "end": 490.909,
+  "text": "gift card button and let's rename some"
+ },
+ {
+  "start": 490.919,
+  "end": 492.529,
+  "text": "of the controls"
+ },
+ {
+  "start": 492.539,
+  "end": 495.65,
+  "text": "for discount coupon code"
+ },
+ {
+  "start": 495.66,
+  "end": 500.21,
+  "text": "name this as enter"
+ },
+ {
+  "start": 501.65,
+  "end": 501.66,
+  "text": "discount"
+ },
+ {
+  "start": 501.66,
+  "end": 505.61,
+  "text": "coupon"
+ },
+ {
+  "start": 507.29,
+  "end": 507.3,
+  "text": "code"
+ },
+ {
+  "start": 507.3,
+  "end": 509.15,
+  "text": "for gift card"
+ },
+ {
+  "start": 509.16,
+  "end": 512.329,
+  "text": "enter"
+ },
+ {
+  "start": 514.55,
+  "end": 514.56,
+  "text": "gift card code"
+ },
+ {
+  "start": 514.56,
+  "end": 516.29,
+  "text": "okay"
+ },
+ {
+  "start": 516.3,
+  "end": 519.949,
+  "text": "so we rename this controls the controls"
+ },
+ {
+  "start": 519.959,
+  "end": 522.769,
+  "text": "and now you can"
+ },
+ {
+  "start": 522.779,
+  "end": 524.51,
+  "text": "let me see if I'm missing anything"
+ },
+ {
+  "start": 524.52,
+  "end": 528.829,
+  "text": "that's it you can Simply Save"
+ },
+ {
+  "start": 528.839,
+  "end": 531.41,
+  "text": "and then"
+ },
+ {
+  "start": 531.42,
+  "end": 533.389,
+  "text": "close"
+ },
+ {
+  "start": 533.399,
+  "end": 535.49,
+  "text": "so if you go back it automatically"
+ },
+ {
+  "start": 535.5,
+  "end": 537.29,
+  "text": "redirects you to the"
+ },
+ {
+  "start": 537.3,
+  "end": 540.53,
+  "text": "module if you see here earlier there are"
+ },
+ {
+  "start": 540.54,
+  "end": 543.35,
+  "text": "only three controls right so now I can"
+ },
+ {
+  "start": 543.36,
+  "end": 546.29,
+  "text": "see all the controls that I just now"
+ },
+ {
+  "start": 546.3,
+  "end": 547.91,
+  "text": "added"
+ },
+ {
+  "start": 547.92,
+  "end": 548.99,
+  "text": "okay"
+ },
+ {
+  "start": 549.0,
+  "end": 550.61,
+  "text": "so now"
+ },
+ {
+  "start": 550.62,
+  "end": 553.31,
+  "text": "the module got updated"
+ },
+ {
+  "start": 553.32,
+  "end": 554.57,
+  "text": "okay"
+ },
+ {
+  "start": 554.58,
+  "end": 556.37,
+  "text": "so now let's say"
+ },
+ {
+  "start": 556.38,
+  "end": 560.99,
+  "text": "see because I have created a new module"
+ },
+ {
+  "start": 561.0,
+  "end": 563.269,
+  "text": "with additional controls"
+ },
+ {
+  "start": 563.279,
+  "end": 566.75,
+  "text": "earlier I have another module I created"
+ },
+ {
+  "start": 566.76,
+  "end": 570.05,
+  "text": "for same shopping cart additional uh"
+ },
+ {
+  "start": 570.06,
+  "end": 572.63,
+  "text": "sorry another module with limited"
+ },
+ {
+  "start": 572.64,
+  "end": 574.61,
+  "text": "controls right limited controls only"
+ },
+ {
+  "start": 574.62,
+  "end": 577.25,
+  "text": "these which we used earlier now I have"
+ },
+ {
+  "start": 577.26,
+  "end": 579.47,
+  "text": "another duplicate shopping cart module"
+ },
+ {
+  "start": 579.48,
+  "end": 583.009,
+  "text": "with some additional controls so now if"
+ },
+ {
+  "start": 583.019,
+  "end": 585.79,
+  "text": "you want to merge these two"
+ },
+ {
+  "start": 585.8,
+  "end": 590.17,
+  "text": "modules our next agenda is merging"
+ },
+ {
+  "start": 590.18,
+  "end": 592.67,
+  "text": "merge modules right"
+ },
+ {
+  "start": 592.68,
+  "end": 594.829,
+  "text": "to merge the modules what should we do"
+ },
+ {
+  "start": 594.839,
+  "end": 598.13,
+  "text": "so before merging the modules let us"
+ },
+ {
+  "start": 598.14,
+  "end": 599.11,
+  "text": "understand"
+ },
+ {
+  "start": 599.12,
+  "end": 603.05,
+  "text": "manage value range column okay"
+ },
+ {
+  "start": 603.06,
+  "end": 606.47,
+  "text": "so if you go here under"
+ },
+ {
+  "start": 606.48,
+  "end": 610.37,
+  "text": "coupon code let me just rename this okay"
+ },
+ {
+  "start": 610.38,
+  "end": 616.19,
+  "text": "under enter discount coupon code"
+ },
+ {
+  "start": 618.53,
+  "end": 618.54,
+  "text": "so when you enter the discount coupon"
+ },
+ {
+  "start": 618.54,
+  "end": 620.269,
+  "text": "code I think we missed one more thing"
+ },
+ {
+  "start": 620.279,
+  "end": 623.99,
+  "text": "actually here another thing is let me"
+ },
+ {
+  "start": 624.0,
+  "end": 627.949,
+  "text": "I missed two scan another code another"
+ },
+ {
+  "start": 627.959,
+  "end": 631.07,
+  "text": "control what is that let me tell you"
+ },
+ {
+  "start": 631.08,
+  "end": 633.65,
+  "text": "so let me apply some discount coupon"
+ },
+ {
+  "start": 633.66,
+  "end": 635.509,
+  "text": "code here okay let me apply discount"
+ },
+ {
+  "start": 635.519,
+  "end": 638.15,
+  "text": "coupon code apply code so as soon as I"
+ },
+ {
+  "start": 638.16,
+  "end": 640.91,
+  "text": "click on apply code the coupon code was"
+ },
+ {
+  "start": 640.92,
+  "end": 643.79,
+  "text": "applied so this success message comes on"
+ },
+ {
+  "start": 643.8,
+  "end": 646.069,
+  "text": "the screen I want to capture this also"
+ },
+ {
+  "start": 646.079,
+  "end": 648.769,
+  "text": "let me rescan this again"
+ },
+ {
+  "start": 648.779,
+  "end": 651.49,
+  "text": "rescan"
+ },
+ {
+  "start": 651.5,
+  "end": 657.23,
+  "text": "rescan the module"
+ },
+ {
+  "start": 658.79,
+  "end": 658.8,
+  "text": "so now"
+ },
+ {
+  "start": 658.8,
+  "end": 661.25,
+  "text": "as we did earlier it automatically"
+ },
+ {
+  "start": 661.26,
+  "end": 663.59,
+  "text": "redirects you to the same page by"
+ },
+ {
+  "start": 663.6,
+  "end": 665.329,
+  "text": "opening your xcan"
+ },
+ {
+  "start": 665.339,
+  "end": 668.23,
+  "text": "see this is your xcan window"
+ },
+ {
+  "start": 668.24,
+  "end": 672.17,
+  "text": "now I need to add that text box"
+ },
+ {
+  "start": 672.18,
+  "end": 674.99,
+  "text": "successful text box okay so let's go"
+ },
+ {
+  "start": 675.0,
+  "end": 676.43,
+  "text": "here"
+ },
+ {
+  "start": 676.44,
+  "end": 678.41,
+  "text": "filter to the next"
+ },
+ {
+  "start": 678.42,
+  "end": 680.21,
+  "text": "select on screen"
+ },
+ {
+  "start": 680.22,
+  "end": 683.09,
+  "text": "I want to add this"
+ },
+ {
+  "start": 683.1,
+  "end": 684.65,
+  "text": "div"
+ },
+ {
+  "start": 684.66,
+  "end": 688.55,
+  "text": "so let's rename this"
+ },
+ {
+  "start": 690.949,
+  "end": 690.959,
+  "text": "the coupon code"
+ },
+ {
+  "start": 690.959,
+  "end": 700.49,
+  "text": "oh sorry"
+ },
+ {
+  "start": 703.269,
+  "end": 703.279,
+  "text": "applied message"
+ },
+ {
+  "start": 703.279,
+  "end": 710.269,
+  "text": "coupon code applied message"
+ },
+ {
+  "start": 719.449,
+  "end": 719.459,
+  "text": "so now let's save this now"
+ },
+ {
+  "start": 719.459,
+  "end": 721.19,
+  "text": "okay"
+ },
+ {
+  "start": 721.2,
+  "end": 723.35,
+  "text": "and then close it so as soon as you"
+ },
+ {
+  "start": 723.36,
+  "end": 725.509,
+  "text": "close so now you see there is a coupon"
+ },
+ {
+  "start": 725.519,
+  "end": 727.61,
+  "text": "code applied message a new one is there"
+ },
+ {
+  "start": 727.62,
+  "end": 729.71,
+  "text": "okay"
+ },
+ {
+  "start": 729.72,
+  "end": 732.17,
+  "text": "so now when"
+ },
+ {
+  "start": 732.18,
+  "end": 734.03,
+  "text": "if you see here"
+ },
+ {
+  "start": 734.04,
+  "end": 736.91,
+  "text": "now let me understand let me tell you"
+ },
+ {
+  "start": 736.92,
+  "end": 740.03,
+  "text": "how to add a value range column"
+ },
+ {
+  "start": 740.04,
+  "end": 742.75,
+  "text": "so when you are applying the coupon code"
+ },
+ {
+  "start": 742.76,
+  "end": 744.949,
+  "text": "there are different types of coupon"
+ },
+ {
+  "start": 744.959,
+  "end": 748.25,
+  "text": "codes if you see this coupon code got me"
+ },
+ {
+  "start": 748.26,
+  "end": 751.73,
+  "text": "five dollars of discount let's say if I"
+ },
+ {
+  "start": 751.74,
+  "end": 753.59,
+  "text": "want to apply this coupon code what is"
+ },
+ {
+  "start": 753.6,
+  "end": 755.81,
+  "text": "this one second coupon code okay"
+ },
+ {
+  "start": 755.82,
+  "end": 757.79,
+  "text": "percentage total"
+ },
+ {
+  "start": 757.8,
+  "end": 760.85,
+  "text": "if I apply this coupon code"
+ },
+ {
+  "start": 760.86,
+  "end": 762.949,
+  "text": "it is giving me a discount of 2.5"
+ },
+ {
+  "start": 762.959,
+  "end": 765.71,
+  "text": "dollars so you have several coupon codes"
+ },
+ {
+  "start": 765.72,
+  "end": 768.35,
+  "text": "that you can test right"
+ },
+ {
+  "start": 768.36,
+  "end": 770.87,
+  "text": "so do I need to remember all these"
+ },
+ {
+  "start": 770.88,
+  "end": 773.569,
+  "text": "coupon codes no you need not to remember"
+ },
+ {
+  "start": 773.579,
+  "end": 775.73,
+  "text": "when you are automating your test cases"
+ },
+ {
+  "start": 775.74,
+  "end": 778.25,
+  "text": "you need not to remember all these"
+ },
+ {
+  "start": 778.26,
+  "end": 780.829,
+  "text": "different types of coupon codes instead"
+ },
+ {
+  "start": 780.839,
+  "end": 783.41,
+  "text": "you can basically Define these coupon"
+ },
+ {
+  "start": 783.42,
+  "end": 787.37,
+  "text": "codes as an attributes"
+ },
+ {
+  "start": 787.38,
+  "end": 790.79,
+  "text": "for your module control for your control"
+ },
+ {
+  "start": 790.8,
+  "end": 793.97,
+  "text": "so this is my control enter discount"
+ },
+ {
+  "start": 793.98,
+  "end": 797.87,
+  "text": "coupon code here"
+ },
+ {
+  "start": 799.329,
+  "end": 799.339,
+  "text": "I can"
+ },
+ {
+  "start": 799.339,
+  "end": 804.35,
+  "text": "specify these coupon codes as attributes"
+ },
+ {
+  "start": 804.36,
+  "end": 807.949,
+  "text": "how just copy these coupon codes"
+ },
+ {
+  "start": 807.959,
+  "end": 810.05,
+  "text": "go to here"
+ },
+ {
+  "start": 810.06,
+  "end": 813.71,
+  "text": "and enter all these coupon codes you"
+ },
+ {
+  "start": 813.72,
+  "end": 815.449,
+  "text": "need to enter all these I mean copy and"
+ },
+ {
+  "start": 815.459,
+  "end": 817.91,
+  "text": "paste so basically I'm entering coupon"
+ },
+ {
+  "start": 817.92,
+  "end": 820.61,
+  "text": "codes without spaces see this is my"
+ },
+ {
+  "start": 820.62,
+  "end": 823.67,
+  "text": "coupon code separate with semicolon no"
+ },
+ {
+  "start": 823.68,
+  "end": 826.37,
+  "text": "space and second coupon code separate"
+ },
+ {
+  "start": 826.38,
+  "end": 828.769,
+  "text": "with semicolon no space"
+ },
+ {
+  "start": 828.779,
+  "end": 832.55,
+  "text": "that's it and save this"
+ },
+ {
+  "start": 832.56,
+  "end": 834.35,
+  "text": "so what it will do"
+ },
+ {
+  "start": 834.36,
+  "end": 837.29,
+  "text": "when you map this module so in my"
+ },
+ {
+  "start": 837.3,
+  "end": 840.17,
+  "text": "previous uh videos I already showed you"
+ },
+ {
+  "start": 840.18,
+  "end": 843.829,
+  "text": "how to automate our how to map your"
+ },
+ {
+  "start": 843.839,
+  "end": 846.35,
+  "text": "module to the test case right when you"
+ },
+ {
+  "start": 846.36,
+  "end": 850.31,
+  "text": "automate your test cases you use modules"
+ },
+ {
+  "start": 850.32,
+  "end": 853.79,
+  "text": "drag and drop to the test case right"
+ },
+ {
+  "start": 853.8,
+  "end": 856.069,
+  "text": "so when you drag and drop this coupon"
+ },
+ {
+  "start": 856.079,
+  "end": 857.509,
+  "text": "code"
+ },
+ {
+  "start": 857.519,
+  "end": 859.97,
+  "text": "once you go to let's say hey let me go"
+ },
+ {
+  "start": 859.98,
+  "end": 863.21,
+  "text": "to the test case one of the test case"
+ },
+ {
+  "start": 863.22,
+  "end": 865.129,
+  "text": "so I don't have coupon code anyway here"
+ },
+ {
+  "start": 865.139,
+  "end": 867.17,
+  "text": "so what I can do in the test case"
+ },
+ {
+  "start": 867.18,
+  "end": 870.05,
+  "text": "attribute when I open my test case here"
+ },
+ {
+  "start": 870.06,
+  "end": 874.069,
+  "text": "let's assume this is one my edit box for"
+ },
+ {
+  "start": 874.079,
+  "end": 876.769,
+  "text": "example okay let me"
+ },
+ {
+  "start": 876.779,
+  "end": 877.85,
+  "text": "here"
+ },
+ {
+  "start": 877.86,
+  "end": 880.55,
+  "text": "here I'm entering value here you can"
+ },
+ {
+  "start": 880.56,
+  "end": 882.949,
+  "text": "directly see the drop down values of"
+ },
+ {
+  "start": 882.959,
+  "end": 884.269,
+  "text": "those coupon codes"
+ },
+ {
+  "start": 884.279,
+  "end": 886.009,
+  "text": "you can directly set the coupon code"
+ },
+ {
+  "start": 886.019,
+  "end": 887.99,
+  "text": "apart from click double click and right"
+ },
+ {
+  "start": 888.0,
+  "end": 891.889,
+  "text": "click you can also see these values what"
+ },
+ {
+  "start": 891.899,
+  "end": 894.17,
+  "text": "these coupon code values so here"
+ },
+ {
+  "start": 894.18,
+  "end": 895.97,
+  "text": "directly you can select the coupon code"
+ },
+ {
+  "start": 895.98,
+  "end": 898.73,
+  "text": "so that that coupon code will be entered"
+ },
+ {
+  "start": 898.74,
+  "end": 900.71,
+  "text": "into the edit box while running the test"
+ },
+ {
+  "start": 900.72,
+  "end": 901.61,
+  "text": "case"
+ },
+ {
+  "start": 901.62,
+  "end": 904.97,
+  "text": "so it's very important and it really"
+ },
+ {
+  "start": 904.98,
+  "end": 906.889,
+  "text": "makes"
+ },
+ {
+  "start": 906.899,
+  "end": 911.509,
+  "text": "your automation very easy it reduces lot"
+ },
+ {
+  "start": 911.519,
+  "end": 913.25,
+  "text": "of time"
+ },
+ {
+  "start": 913.26,
+  "end": 915.65,
+  "text": "okay so basically the test data you are"
+ },
+ {
+  "start": 915.66,
+  "end": 918.59,
+  "text": "defining as an attribute under module"
+ },
+ {
+  "start": 918.6,
+  "end": 920.93,
+  "text": "itself under"
+ },
+ {
+  "start": 920.94,
+  "end": 923.509,
+  "text": "column called value range"
+ },
+ {
+  "start": 923.519,
+  "end": 924.829,
+  "text": "okay"
+ },
+ {
+  "start": 924.839,
+  "end": 928.37,
+  "text": "so that is the advantage of your value"
+ },
+ {
+  "start": 928.38,
+  "end": 930.59,
+  "text": "range that's how you can manage your"
+ },
+ {
+  "start": 930.6,
+  "end": 932.03,
+  "text": "value range"
+ },
+ {
+  "start": 932.04,
+  "end": 935.569,
+  "text": "now so now let's go back to merge"
+ },
+ {
+  "start": 935.579,
+  "end": 938.87,
+  "text": "modules okay as I told you earlier we"
+ },
+ {
+  "start": 938.88,
+  "end": 941.99,
+  "text": "created a new module with these"
+ },
+ {
+  "start": 942.0,
+  "end": 945.65,
+  "text": "additional controls whereas we have used"
+ },
+ {
+  "start": 945.66,
+  "end": 949.129,
+  "text": "the same module here earlier with"
+ },
+ {
+  "start": 949.139,
+  "end": 951.769,
+  "text": "limited controls so now I have shopping"
+ },
+ {
+  "start": 951.779,
+  "end": 954.29,
+  "text": "cart modules two shopping cart modules"
+ },
+ {
+  "start": 954.3,
+  "end": 956.93,
+  "text": "correct which are duplicate I need not"
+ },
+ {
+  "start": 956.94,
+  "end": 959.87,
+  "text": "to manage these two shopping cart models"
+ },
+ {
+  "start": 959.88,
+  "end": 962.509,
+  "text": "so now I need to merge these two"
+ },
+ {
+  "start": 962.519,
+  "end": 964.31,
+  "text": "shopping cart models you need to select"
+ },
+ {
+  "start": 964.32,
+  "end": 966.11,
+  "text": "the modules"
+ },
+ {
+  "start": 966.12,
+  "end": 968.93,
+  "text": "that you would like to merge okay I have"
+ },
+ {
+  "start": 968.94,
+  "end": 971.03,
+  "text": "selected these two modules"
+ },
+ {
+  "start": 971.04,
+  "end": 974.87,
+  "text": "and then on top ribbon uh there is an"
+ },
+ {
+  "start": 974.88,
+  "end": 976.31,
+  "text": "option called"
+ },
+ {
+  "start": 976.32,
+  "end": 979.61,
+  "text": "module merge modules click on merge"
+ },
+ {
+  "start": 979.62,
+  "end": 980.93,
+  "text": "modules"
+ },
+ {
+  "start": 980.94,
+  "end": 983.509,
+  "text": "so as soon as you click on merge modules"
+ },
+ {
+  "start": 983.519,
+  "end": 987.23,
+  "text": "a merge module assistant will open"
+ },
+ {
+  "start": 987.24,
+  "end": 990.23,
+  "text": "here so self there is one conflict here"
+ },
+ {
+  "start": 990.24,
+  "end": 992.21,
+  "text": "attribute has conflict resolve conflict"
+ },
+ {
+  "start": 992.22,
+  "end": 994.37,
+  "text": "okay here self healing data I need not"
+ },
+ {
+  "start": 994.38,
+  "end": 997.31,
+  "text": "to have let me just delete this okay so"
+ },
+ {
+  "start": 997.32,
+  "end": 999.05,
+  "text": "and then if you see"
+ },
+ {
+  "start": 999.06,
+  "end": 1002.29,
+  "text": "these are all the additional if you see"
+ },
+ {
+  "start": 1002.3,
+  "end": 1005.59,
+  "text": "shopping cart product check out terms of"
+ },
+ {
+  "start": 1005.6,
+  "end": 1008.23,
+  "text": "service add gift cards so basically"
+ },
+ {
+  "start": 1008.24,
+  "end": 1010.689,
+  "text": "these are all the controls and these are"
+ },
+ {
+  "start": 1010.699,
+  "end": 1012.79,
+  "text": "all my additional controls right so"
+ },
+ {
+  "start": 1012.8,
+  "end": 1016.93,
+  "text": "these are all uniquely identified and"
+ },
+ {
+  "start": 1016.94,
+  "end": 1020.65,
+  "text": "and my Target module so Target module is"
+ },
+ {
+  "start": 1020.66,
+  "end": 1023.71,
+  "text": "the module that is going to remind and"
+ },
+ {
+  "start": 1023.72,
+  "end": 1026.409,
+  "text": "your Source module is the module that is"
+ },
+ {
+  "start": 1026.419,
+  "end": 1028.329,
+  "text": "going to delete once we merge the"
+ },
+ {
+  "start": 1028.339,
+  "end": 1031.63,
+  "text": "modules if you see here now all those"
+ },
+ {
+  "start": 1031.64,
+  "end": 1033.669,
+  "text": "all these modules are uniquely"
+ },
+ {
+  "start": 1033.679,
+  "end": 1036.01,
+  "text": "identified and mapped to each other"
+ },
+ {
+  "start": 1036.02,
+  "end": 1039.789,
+  "text": "right so now you can simply click on"
+ },
+ {
+  "start": 1039.799,
+  "end": 1042.97,
+  "text": "merge okay if there is any conflict you"
+ },
+ {
+  "start": 1042.98,
+  "end": 1044.23,
+  "text": "can"
+ },
+ {
+  "start": 1044.24,
+  "end": 1046.51,
+  "text": "uh basically resolve the conflicts by"
+ },
+ {
+  "start": 1046.52,
+  "end": 1050.65,
+  "text": "linking okay if you see all these are"
+ },
+ {
+  "start": 1050.66,
+  "end": 1052.15,
+  "text": "linked properly"
+ },
+ {
+  "start": 1052.16,
+  "end": 1055.33,
+  "text": "and you can simply okay let me"
+ },
+ {
+  "start": 1055.34,
+  "end": 1058.27,
+  "text": "I think check out let's see"
+ },
+ {
+  "start": 1058.28,
+  "end": 1061.87,
+  "text": "checkout is there"
+ },
+ {
+  "start": 1064.75,
+  "end": 1064.76,
+  "text": "okay this one link checkout"
+ },
+ {
+  "start": 1064.76,
+  "end": 1067.15,
+  "text": "I can link check out to checkout"
+ },
+ {
+  "start": 1067.16,
+  "end": 1069.37,
+  "text": "okay"
+ },
+ {
+  "start": 1069.38,
+  "end": 1072.909,
+  "text": "um"
+ },
+ {
+  "start": 1079.51,
+  "end": 1079.52,
+  "text": "okay so that way you can link if I want"
+ },
+ {
+  "start": 1079.52,
+  "end": 1080.409,
+  "text": "to link"
+ },
+ {
+  "start": 1080.419,
+  "end": 1084.27,
+  "text": "uh terms of service right you can simply"
+ },
+ {
+  "start": 1084.28,
+  "end": 1087.85,
+  "text": "select this so these two got linked so"
+ },
+ {
+  "start": 1087.86,
+  "end": 1090.25,
+  "text": "this way you can link the properties"
+ },
+ {
+  "start": 1090.26,
+  "end": 1093.97,
+  "text": "and then merge the modules okay so in"
+ },
+ {
+  "start": 1093.98,
+  "end": 1097.75,
+  "text": "this case for in my case because my"
+ },
+ {
+  "start": 1097.76,
+  "end": 1101.47,
+  "text": "target module has the updated module"
+ },
+ {
+  "start": 1101.48,
+  "end": 1103.33,
+  "text": "properties I want to keep only target"
+ },
+ {
+  "start": 1103.34,
+  "end": 1106.09,
+  "text": "modules okay that's why I'm gonna click"
+ },
+ {
+  "start": 1106.1,
+  "end": 1108.909,
+  "text": "merge as soon as I click on merge it"
+ },
+ {
+  "start": 1108.919,
+  "end": 1111.789,
+  "text": "merges all your properties"
+ },
+ {
+  "start": 1111.799,
+  "end": 1114.37,
+  "text": "and it keeps your target if you see here"
+ },
+ {
+  "start": 1114.38,
+  "end": 1117.43,
+  "text": "the source module will be deleted"
+ },
+ {
+  "start": 1117.44,
+  "end": 1121.69,
+  "text": "okay"
+ },
+ {
+  "start": 1123.789,
+  "end": 1123.799,
+  "text": "so done"
+ },
+ {
+  "start": 1123.799,
+  "end": 1127.51,
+  "text": "close it if you see here you don't have"
+ },
+ {
+  "start": 1127.52,
+  "end": 1130.45,
+  "text": "another shopping cart module here I have"
+ },
+ {
+  "start": 1130.46,
+  "end": 1133.029,
+  "text": "only one shopping cart module now rename"
+ },
+ {
+  "start": 1133.039,
+  "end": 1134.35,
+  "text": "this"
+ },
+ {
+  "start": 1134.36,
+  "end": 1137.11,
+  "text": "as shopping cart"
+ },
+ {
+  "start": 1137.12,
+  "end": 1139.57,
+  "text": "that's it so now"
+ },
+ {
+  "start": 1139.58,
+  "end": 1142.169,
+  "text": "my shopping cart"
+ },
+ {
+  "start": 1142.179,
+  "end": 1147.81,
+  "text": "module is only one module with all my"
+ },
+ {
+  "start": 1147.82,
+  "end": 1151.029,
+  "text": "controls right"
+ },
+ {
+  "start": 1151.039,
+  "end": 1154.93,
+  "text": "so hope you all understand the concepts"
+ },
+ {
+  "start": 1154.94,
+  "end": 1157.33,
+  "text": "of"
+ },
+ {
+  "start": 1160.63,
+  "end": 1160.64,
+  "text": "rescan existing module why we are"
+ },
+ {
+  "start": 1160.64,
+  "end": 1163.57,
+  "text": "rescanning and how can you manage the"
+ },
+ {
+  "start": 1163.58,
+  "end": 1165.549,
+  "text": "value range column"
+ },
+ {
+  "start": 1165.559,
+  "end": 1168.73,
+  "text": "in your module at attribute level right"
+ },
+ {
+  "start": 1168.74,
+  "end": 1172.51,
+  "text": "that means test data can be managed as"
+ },
+ {
+  "start": 1172.52,
+  "end": 1175.75,
+  "text": "in attributes so that you can use them"
+ },
+ {
+  "start": 1175.76,
+  "end": 1178.33,
+  "text": "in test case section as a drop down"
+ },
+ {
+  "start": 1178.34,
+  "end": 1182.169,
+  "text": "values you simply pick up those uh the"
+ },
+ {
+  "start": 1182.179,
+  "end": 1183.85,
+  "text": "test data from the drop down values"
+ },
+ {
+  "start": 1183.86,
+  "end": 1186.549,
+  "text": "right and then how can you merge the"
+ },
+ {
+  "start": 1186.559,
+  "end": 1188.169,
+  "text": "modules"
+ },
+ {
+  "start": 1188.179,
+  "end": 1190.81,
+  "text": "okay hope you all understand the"
+ },
+ {
+  "start": 1190.82,
+  "end": 1193.63,
+  "text": "concepts very well these are all really"
+ },
+ {
+  "start": 1193.64,
+  "end": 1195.31,
+  "text": "very very important Concepts while"
+ },
+ {
+  "start": 1195.32,
+  "end": 1197.529,
+  "text": "automating your test cases if you have"
+ },
+ {
+  "start": 1197.539,
+  "end": 1199.51,
+  "text": "any queries leave your queries in the"
+ },
+ {
+  "start": 1199.52,
+  "end": 1200.95,
+  "text": "comment box I'll try to respond to your"
+ },
+ {
+  "start": 1200.96,
+  "end": 1201.909,
+  "text": "queries"
+ },
+ {
+  "start": 1201.919,
+  "end": 1205.69,
+  "text": "thank you hope you all understand how to"
+ },
+ {
+  "start": 1205.7,
+  "end": 1208.21,
+  "text": "apply the value range how can you"
+ },
+ {
+  "start": 1208.22,
+  "end": 1210.49,
+  "text": "perform rescanning of your modules or"
+ },
+ {
+  "start": 1210.5,
+  "end": 1213.31,
+  "text": "rescanning of your controls and then how"
+ },
+ {
+  "start": 1213.32,
+  "end": 1215.95,
+  "text": "can you perform module merge"
+ },
+ {
+  "start": 1215.96,
+  "end": 1218.59,
+  "text": "please do subscribe to the channel click"
+ },
+ {
+  "start": 1218.6,
+  "end": 1219.909,
+  "text": "on Bell icon you'll receive"
+ },
+ {
+  "start": 1219.919,
+  "end": 1221.83,
+  "text": "notifications whenever I publish more"
+ },
+ {
+  "start": 1221.84,
+  "end": 1231.08,
+  "text": "videos thank you"
+ }
+]

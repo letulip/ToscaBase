@@ -1,0 +1,1607 @@
+[
+ {
+  "start": 13.99,
+  "end": 14.0,
+  "text": "hi everyone this is Ravi welcome to"
+ },
+ {
+  "start": 14.0,
+  "end": 17.15,
+  "text": "tricentis tasa Advanced"
+ },
+ {
+  "start": 17.16,
+  "end": 19.67,
+  "text": "Training as you all know I have already"
+ },
+ {
+  "start": 19.68,
+  "end": 23.67,
+  "text": "published 48 YouTube videos covering"
+ },
+ {
+  "start": 23.68,
+  "end": 26.95,
+  "text": "beginners intermediate and advanced"
+ },
+ {
+  "start": 26.96,
+  "end": 28.189,
+  "text": "level"
+ },
+ {
+  "start": 28.199,
+  "end": 31.349,
+  "text": "Concepts from few days onwards I've"
+ },
+ {
+  "start": 31.359,
+  "end": 35.51,
+  "text": "started posting YouTube videos covering"
+ },
+ {
+  "start": 35.52,
+  "end": 36.709,
+  "text": "realtime"
+ },
+ {
+  "start": 36.719,
+  "end": 40.229,
+  "text": "scenarios where you might encounter"
+ },
+ {
+  "start": 40.239,
+  "end": 43.51,
+  "text": "different types of obstacles and how can"
+ },
+ {
+  "start": 43.52,
+  "end": 46.229,
+  "text": "we solve those obstacles while"
+ },
+ {
+  "start": 46.239,
+  "end": 50.27,
+  "text": "automating your test cases so I already"
+ },
+ {
+  "start": 50.28,
+  "end": 53.15,
+  "text": "published six different"
+ },
+ {
+  "start": 53.16,
+  "end": 56.31,
+  "text": "obstacles that we encounter while"
+ },
+ {
+  "start": 56.32,
+  "end": 58.069,
+  "text": "automating your test"
+ },
+ {
+  "start": 58.079,
+  "end": 60.63,
+  "text": "cases this is our"
+ },
+ {
+  "start": 60.64,
+  "end": 62.27,
+  "text": "lesson"
+ },
+ {
+  "start": 62.28,
+  "end": 67.149,
+  "text": "49 in terms of overall trient TOS"
+ },
+ {
+  "start": 67.159,
+  "end": 69.87,
+  "text": "automation training and this is our"
+ },
+ {
+  "start": 69.88,
+  "end": 74.03,
+  "text": "lesson 7 or abstra 7 in terms of"
+ },
+ {
+  "start": 74.04,
+  "end": 76.31,
+  "text": "realtime"
+ },
+ {
+  "start": 76.32,
+  "end": 78.87,
+  "text": "scenarios in this lesson I'm going to"
+ },
+ {
+  "start": 78.88,
+  "end": 80.91,
+  "text": "teach you a realtime"
+ },
+ {
+  "start": 80.92,
+  "end": 84.469,
+  "text": "scenario where you need to interact with"
+ },
+ {
+  "start": 84.479,
+  "end": 87.71,
+  "text": "the controls like autoc complete text"
+ },
+ {
+  "start": 87.72,
+  "end": 91.87,
+  "text": "box and also you need to count the"
+ },
+ {
+  "start": 91.88,
+  "end": 96.35,
+  "text": "number of values that displays in"
+ },
+ {
+  "start": 96.36,
+  "end": 99.109,
+  "text": "autocomplete text box what do you mean"
+ },
+ {
+  "start": 99.119,
+  "end": 102.469,
+  "text": "by that so autocomplete text box is"
+ },
+ {
+  "start": 102.479,
+  "end": 105.789,
+  "text": "nothing but it's a kind of drop- down"
+ },
+ {
+  "start": 105.799,
+  "end": 109.27,
+  "text": "but you need to enter a value in the"
+ },
+ {
+  "start": 109.28,
+  "end": 113.709,
+  "text": "text box based on the entered value it"
+ },
+ {
+  "start": 113.719,
+  "end": 118.35,
+  "text": "display the drop-down values in your"
+ },
+ {
+  "start": 118.36,
+  "end": 121.31,
+  "text": "autocomplete text box it is kind of drop"
+ },
+ {
+  "start": 121.32,
+  "end": 124.87,
+  "text": "down but the drop- down values depends"
+ },
+ {
+  "start": 124.88,
+  "end": 128.589,
+  "text": "on the text that you enter in the text"
+ },
+ {
+  "start": 128.599,
+  "end": 132.39,
+  "text": "box so now let us see what is the"
+ },
+ {
+  "start": 132.4,
+  "end": 136.11,
+  "text": "obstacle that we are going to solve for"
+ },
+ {
+  "start": 136.12,
+  "end": 139.63,
+  "text": "this is our seventh obstacle which is"
+ },
+ {
+  "start": 139.64,
+  "end": 142.99,
+  "text": "categorized as hard and the obstacle"
+ },
+ {
+  "start": 143.0,
+  "end": 147.03,
+  "text": "name is and Counting okay let's go for"
+ },
+ {
+  "start": 147.04,
+  "end": 150.11,
+  "text": "it"
+ },
+ {
+  "start": 151.589,
+  "end": 151.599,
+  "text": "and"
+ },
+ {
+  "start": 151.599,
+  "end": 154.83,
+  "text": "here autoc complete text"
+ },
+ {
+  "start": 154.84,
+  "end": 159.309,
+  "text": "box type the given characters in the box"
+ },
+ {
+  "start": 159.319,
+  "end": 163.869,
+  "text": "then count the entries and enter the"
+ },
+ {
+  "start": 163.879,
+  "end": 166.55,
+  "text": "number in the text box so what do you"
+ },
+ {
+  "start": 166.56,
+  "end": 172.07,
+  "text": "mean by that so here this is your text"
+ },
+ {
+  "start": 172.08,
+  "end": 175.949,
+  "text": "copy this text and you need to type the"
+ },
+ {
+  "start": 175.959,
+  "end": 179.869,
+  "text": "text that is displaying here a a a and"
+ },
+ {
+  "start": 179.879,
+  "end": 184.589,
+  "text": "as soon as you type a AA it displays"
+ },
+ {
+  "start": 184.599,
+  "end": 187.55,
+  "text": "three different drop-down values based"
+ },
+ {
+  "start": 187.56,
+  "end": 190.27,
+  "text": "on the input that you"
+ },
+ {
+  "start": 190.28,
+  "end": 194.19,
+  "text": "provided and then you need to count the"
+ },
+ {
+  "start": 194.2,
+  "end": 197.91,
+  "text": "number of drop- down values and enter"
+ },
+ {
+  "start": 197.92,
+  "end": 200.589,
+  "text": "the count"
+ },
+ {
+  "start": 200.599,
+  "end": 205.07,
+  "text": "here as three so good job so let me try"
+ },
+ {
+  "start": 205.08,
+  "end": 208.75,
+  "text": "again see now it has a value of"
+ },
+ {
+  "start": 208.76,
+  "end": 214.91,
+  "text": "CCC if I enter c c c now you have the"
+ },
+ {
+  "start": 214.92,
+  "end": 219.509,
+  "text": "value of two the count of drop- down"
+ },
+ {
+  "start": 219.519,
+  "end": 222.949,
+  "text": "values are two so in this case you need"
+ },
+ {
+  "start": 222.959,
+  "end": 227.39,
+  "text": "to enter two then your automation"
+ },
+ {
+  "start": 227.4,
+  "end": 231.71,
+  "text": "problem is solved so now to automate"
+ },
+ {
+  "start": 231.72,
+  "end": 234.509,
+  "text": "this scenario let us go to trient tasa"
+ },
+ {
+  "start": 234.519,
+  "end": 235.75,
+  "text": "so this is my"
+ },
+ {
+  "start": 235.76,
+  "end": 239.509,
+  "text": "tasa I would like to capture the objects"
+ },
+ {
+  "start": 239.519,
+  "end": 242.03,
+  "text": "from the application that I would like"
+ },
+ {
+  "start": 242.04,
+  "end": 244.63,
+  "text": "to automate for that right click on this"
+ },
+ {
+  "start": 244.64,
+  "end": 248.149,
+  "text": "obstacles folder select scan and click"
+ },
+ {
+  "start": 248.159,
+  "end": 260.31,
+  "text": "on"
+ },
+ {
+  "start": 262.79,
+  "end": 262.8,
+  "text": "application so this is my application"
+ },
+ {
+  "start": 262.8,
+  "end": 272.83,
+  "text": "select the application click on scan"
+ },
+ {
+  "start": 274.909,
+  "end": 274.919,
+  "text": "so before I scan I would like to close"
+ },
+ {
+  "start": 274.919,
+  "end": 276.71,
+  "text": "this we forgot to do one thing okay let"
+ },
+ {
+  "start": 276.72,
+  "end": 279.55,
+  "text": "me close the xcan here what I'm going to"
+ },
+ {
+  "start": 279.56,
+  "end": 282.11,
+  "text": "do I'm going to just type some value"
+ },
+ {
+  "start": 282.12,
+  "end": 283.95,
+  "text": "here okay I'm going to type let's say"
+ },
+ {
+  "start": 283.96,
+  "end": 287.23,
+  "text": "BBB so that I can capture one of the"
+ },
+ {
+  "start": 287.24,
+  "end": 289.189,
+  "text": "element from this drop down list also"
+ },
+ {
+  "start": 289.199,
+  "end": 291.99,
+  "text": "okay so let's go back here now right"
+ },
+ {
+  "start": 292.0,
+  "end": 297.15,
+  "text": "click and scan the"
+ },
+ {
+  "start": 299.23,
+  "end": 299.24,
+  "text": "application so this is my application"
+ },
+ {
+  "start": 299.24,
+  "end": 307.07,
+  "text": "select the application click on"
+ },
+ {
+  "start": 310.029,
+  "end": 310.039,
+  "text": "scan now let"
+ },
+ {
+  "start": 310.039,
+  "end": 312.71,
+  "text": "us make the window little bigger so that"
+ },
+ {
+  "start": 312.72,
+  "end": 315.189,
+  "text": "you can understand what I'm doing okay"
+ },
+ {
+  "start": 315.199,
+  "end": 317.79,
+  "text": "so here we need to concentrate on couple"
+ },
+ {
+  "start": 317.8,
+  "end": 320.189,
+  "text": "of things while scanning your objects"
+ },
+ {
+  "start": 320.199,
+  "end": 322.27,
+  "text": "okay so first of"
+ },
+ {
+  "start": 322.28,
+  "end": 326.99,
+  "text": "all let us bring these"
+ },
+ {
+  "start": 327.0,
+  "end": 330.15,
+  "text": "filters expand the filter by clicking"
+ },
+ {
+  "start": 330.16,
+  "end": 333.87,
+  "text": "towards the right side okay so here if"
+ },
+ {
+  "start": 333.88,
+  "end": 338.029,
+  "text": "you scroll down so this is the text that"
+ },
+ {
+  "start": 338.039,
+  "end": 341.43,
+  "text": "we need to capture right e e e so this"
+ },
+ {
+  "start": 341.44,
+  "end": 344.11,
+  "text": "is the container that I would like to"
+ },
+ {
+  "start": 344.12,
+  "end": 346.23,
+  "text": "capture check this"
+ },
+ {
+  "start": 346.24,
+  "end": 348.309,
+  "text": "container and then highlight this"
+ },
+ {
+  "start": 348.319,
+  "end": 351.23,
+  "text": "container okay I highlight the object"
+ },
+ {
+  "start": 351.24,
+  "end": 353.95,
+  "text": "see this is the text I need okay but if"
+ },
+ {
+  "start": 353.96,
+  "end": 356.39,
+  "text": "you see"
+ },
+ {
+  "start": 356.4,
+  "end": 360.909,
+  "text": "here I don't want to take the inner text"
+ },
+ {
+  "start": 360.919,
+  "end": 364.35,
+  "text": "property here because this keeps"
+ },
+ {
+  "start": 364.36,
+  "end": 367.67,
+  "text": "changing if I refresh the page sometimes"
+ },
+ {
+  "start": 367.68,
+  "end": 370.589,
+  "text": "it displays e e e sometimes it displays"
+ },
+ {
+  "start": 370.599,
+  "end": 374.43,
+  "text": "BBB right so that means this is dynamic"
+ },
+ {
+  "start": 374.44,
+  "end": 376.99,
+  "text": "so that's why I don't want inner text"
+ },
+ {
+  "start": 377.0,
+  "end": 379.43,
+  "text": "I'm removing the inner text from the"
+ },
+ {
+  "start": 379.44,
+  "end": 383.27,
+  "text": "object okay I'm going to keep ID and the"
+ },
+ {
+  "start": 383.28,
+  "end": 388.589,
+  "text": "tag so that is done now let's select"
+ },
+ {
+  "start": 388.599,
+  "end": 391.07,
+  "text": "autoc complete object as well what is"
+ },
+ {
+  "start": 391.08,
+  "end": 394.189,
+  "text": "this autocomplete basically it's a text"
+ },
+ {
+  "start": 394.199,
+  "end": 396.87,
+  "text": "box okay and"
+ },
+ {
+  "start": 396.88,
+  "end": 399.469,
+  "text": "then I would like to"
+ },
+ {
+  "start": 399.479,
+  "end": 403.07,
+  "text": "capture the text where I'm going to"
+ },
+ {
+  "start": 403.08,
+  "end": 406.469,
+  "text": "enter the number of values that is"
+ },
+ {
+  "start": 406.479,
+  "end": 409.27,
+  "text": "displaying in the drop down correct so"
+ },
+ {
+  "start": 409.28,
+  "end": 412.55,
+  "text": "now not number it's a count of drop-"
+ },
+ {
+  "start": 412.56,
+  "end": 416.909,
+  "text": "down values so for that let's capture"
+ },
+ {
+  "start": 416.919,
+  "end": 419.71,
+  "text": "that object as well let's come down here"
+ },
+ {
+  "start": 419.72,
+  "end": 422.95,
+  "text": "so this is the one get the entry count"
+ },
+ {
+  "start": 422.96,
+  "end": 425.95,
+  "text": "and enter here this is my text box"
+ },
+ {
+  "start": 425.96,
+  "end": 430.189,
+  "text": "select this one and now we need to"
+ },
+ {
+  "start": 430.199,
+  "end": 433.71,
+  "text": "capture these elements right for that"
+ },
+ {
+  "start": 433.72,
+  "end": 438.27,
+  "text": "let's scroll down here if you see here I"
+ },
+ {
+  "start": 438.28,
+  "end": 441.83,
+  "text": "have a UL object and Li object what is"
+ },
+ {
+  "start": 441.84,
+  "end": 444.99,
+  "text": "UL object let's select"
+ },
+ {
+  "start": 445.0,
+  "end": 449.67,
+  "text": "this and then let's highlight this so so"
+ },
+ {
+  "start": 449.68,
+  "end": 451.99,
+  "text": "this"
+ },
+ {
+  "start": 452.0,
+  "end": 455.749,
+  "text": "entire container or this entire section"
+ },
+ {
+  "start": 455.759,
+  "end": 460.55,
+  "text": "is UL object and also I need one of the"
+ },
+ {
+  "start": 460.56,
+  "end": 464.95,
+  "text": "element from here one of the LI element"
+ },
+ {
+  "start": 464.96,
+  "end": 467.909,
+  "text": "right let's highlight this Li I've"
+ },
+ {
+  "start": 467.919,
+  "end": 469.35,
+  "text": "selected the first one it's going to"
+ },
+ {
+  "start": 469.36,
+  "end": 471.35,
+  "text": "highlight the first one see the first"
+ },
+ {
+  "start": 471.36,
+  "end": 473.55,
+  "text": "one I don't want to capture each and"
+ },
+ {
+  "start": 473.56,
+  "end": 476.39,
+  "text": "every element okay but here I would like"
+ },
+ {
+  "start": 476.4,
+  "end": 478.909,
+  "text": "to make a small modification for the LI"
+ },
+ {
+  "start": 478.919,
+  "end": 479.95,
+  "text": "element"
+ },
+ {
+  "start": 479.96,
+  "end": 483.189,
+  "text": "what is the modification I don't want to"
+ },
+ {
+  "start": 483.199,
+  "end": 488.67,
+  "text": "have ID as a property because I want to"
+ },
+ {
+  "start": 488.68,
+  "end": 492.83,
+  "text": "count the number of drop- down values"
+ },
+ {
+  "start": 492.84,
+  "end": 497.469,
+  "text": "right so this ID is unique for each"
+ },
+ {
+  "start": 497.479,
+  "end": 500.469,
+  "text": "drop- down value so I'm going to remove"
+ },
+ {
+  "start": 500.479,
+  "end": 501.83,
+  "text": "that unique"
+ },
+ {
+  "start": 501.84,
+  "end": 504.589,
+  "text": "identification now this is not uniquely"
+ },
+ {
+  "start": 504.599,
+  "end": 509.55,
+  "text": "identified not identified because the"
+ },
+ {
+  "start": 509.56,
+  "end": 513.469,
+  "text": "tag is Li so that is okay because I"
+ },
+ {
+  "start": 513.479,
+  "end": 516.55,
+  "text": "would like to capture how many number of"
+ },
+ {
+  "start": 516.56,
+  "end": 521.029,
+  "text": "Li tags are here right so now let's go"
+ },
+ {
+  "start": 521.039,
+  "end": 524.11,
+  "text": "to the top now rename this"
+ },
+ {
+  "start": 524.12,
+  "end": 528.59,
+  "text": "module as obstacle name copy"
+ },
+ {
+  "start": 528.6,
+  "end": 533.19,
+  "text": "this and paste it"
+ },
+ {
+  "start": 533.2,
+  "end": 535.75,
+  "text": "here and one thing we need to take care"
+ },
+ {
+  "start": 535.76,
+  "end": 539.829,
+  "text": "here is we need to Reg regular"
+ },
+ {
+  "start": 539.839,
+  "end": 541.11,
+  "text": "expression we need to use regular"
+ },
+ {
+  "start": 541.12,
+  "end": 544.99,
+  "text": "expression for the title I don't want to"
+ },
+ {
+  "start": 545.0,
+  "end": 548.509,
+  "text": "use entire page title inad I would like"
+ },
+ {
+  "start": 548.519,
+  "end": 552.47,
+  "text": "to use hasri as a regular expression"
+ },
+ {
+  "start": 552.48,
+  "end": 555.11,
+  "text": "okay so what we did here see Let Me"
+ },
+ {
+  "start": 555.12,
+  "end": 558.31,
+  "text": "Explain one more time I've captured the"
+ },
+ {
+  "start": 558.32,
+  "end": 560.99,
+  "text": "container div container of this"
+ },
+ {
+  "start": 561.0,
+  "end": 565.47,
+  "text": "text right but for that div container"
+ },
+ {
+  "start": 565.48,
+  "end": 568.75,
+  "text": "I've removed the inner text property"
+ },
+ {
+  "start": 568.76,
+  "end": 571.35,
+  "text": "because this keeps on changing and then"
+ },
+ {
+  "start": 571.36,
+  "end": 573.829,
+  "text": "I have captured the autocomplete text"
+ },
+ {
+  "start": 573.839,
+  "end": 578.949,
+  "text": "box and then I've also captured this"
+ },
+ {
+  "start": 578.959,
+  "end": 581.63,
+  "text": "text box where I enter the count of"
+ },
+ {
+  "start": 581.64,
+  "end": 586.19,
+  "text": "values right and then I've captured the"
+ },
+ {
+  "start": 586.2,
+  "end": 588.23,
+  "text": "UI and Li"
+ },
+ {
+  "start": 588.24,
+  "end": 591.55,
+  "text": "elements and for Li element I've removed"
+ },
+ {
+  "start": 591.56,
+  "end": 595.55,
+  "text": "the ID property because each drop- down"
+ },
+ {
+  "start": 595.56,
+  "end": 598.47,
+  "text": "value will have their own will have"
+ },
+ {
+  "start": 598.48,
+  "end": 601.99,
+  "text": "their unique IDs so I don't want to"
+ },
+ {
+  "start": 602.0,
+  "end": 607.03,
+  "text": "include that unique ID now save this"
+ },
+ {
+  "start": 607.04,
+  "end": 611.509,
+  "text": "module and then close this so now let's"
+ },
+ {
+  "start": 611.519,
+  "end": 614.67,
+  "text": "go back to your module here so this is"
+ },
+ {
+  "start": 614.68,
+  "end": 617.15,
+  "text": "the new module that we"
+ },
+ {
+  "start": 617.16,
+  "end": 620.79,
+  "text": "capture double click on this so this is"
+ },
+ {
+  "start": 620.8,
+  "end": 623.55,
+  "text": "the new module now let us create a new"
+ },
+ {
+  "start": 623.56,
+  "end": 626.91,
+  "text": "test case right click on obstacle"
+ },
+ {
+  "start": 626.92,
+  "end": 630.069,
+  "text": "folder create test case"
+ },
+ {
+  "start": 630.079,
+  "end": 632.55,
+  "text": "name this with the same obstacle"
+ },
+ {
+  "start": 632.56,
+  "end": 636.03,
+  "text": "name double click on test case now let"
+ },
+ {
+  "start": 636.04,
+  "end": 639.43,
+  "text": "us automate the test case to automate"
+ },
+ {
+  "start": 639.44,
+  "end": 642.59,
+  "text": "you can simply drag this module and drop"
+ },
+ {
+  "start": 642.6,
+  "end": 646.629,
+  "text": "here so let us see what is The Logical"
+ },
+ {
+  "start": 646.639,
+  "end": 651.389,
+  "text": "order that we perform the actions first"
+ },
+ {
+  "start": 651.399,
+  "end": 653.59,
+  "text": "capture the inner text of"
+ },
+ {
+  "start": 653.6,
+  "end": 657.43,
+  "text": "this and then enter value into autoc"
+ },
+ {
+  "start": 657.44,
+  "end": 661.23,
+  "text": "complete and then"
+ },
+ {
+  "start": 661.24,
+  "end": 663.79,
+  "text": "we need to calculate the number of"
+ },
+ {
+  "start": 663.8,
+  "end": 666.67,
+  "text": "values before you enter the count here"
+ },
+ {
+  "start": 666.68,
+  "end": 670.67,
+  "text": "that's why I need to bring this"
+ },
+ {
+  "start": 670.68,
+  "end": 674.75,
+  "text": "here right and then you enter calculate"
+ },
+ {
+  "start": 674.76,
+  "end": 677.15,
+  "text": "the number of drop down values and enter"
+ },
+ {
+  "start": 677.16,
+  "end": 680.15,
+  "text": "the count in the text box so now this"
+ },
+ {
+  "start": 680.16,
+  "end": 683.67,
+  "text": "makes sense so now let us automate"
+ },
+ {
+  "start": 683.68,
+  "end": 688.59,
+  "text": "this here I need to rename let me rename"
+ },
+ {
+  "start": 688.6,
+  "end": 691.15,
+  "text": "this one as as"
+ },
+ {
+  "start": 691.16,
+  "end": 695.11,
+  "text": "text because this text keeps on changing"
+ },
+ {
+  "start": 695.12,
+  "end": 699.55,
+  "text": "right now I need to store the inner text"
+ },
+ {
+  "start": 699.56,
+  "end": 703.389,
+  "text": "of this container into buffer for that"
+ },
+ {
+  "start": 703.399,
+  "end": 707.67,
+  "text": "select action mode as buffer and here"
+ },
+ {
+  "start": 707.68,
+  "end": 709.55,
+  "text": "now you"
+ },
+ {
+  "start": 709.56,
+  "end": 713.269,
+  "text": "select this drop down and select inner"
+ },
+ {
+  "start": 713.279,
+  "end": 716.389,
+  "text": "text and I would like to store that in"
+ },
+ {
+  "start": 716.399,
+  "end": 721.23,
+  "text": "buffer called text done now you need to"
+ },
+ {
+  "start": 721.24,
+  "end": 724.269,
+  "text": "enter the value that you stored in the"
+ },
+ {
+  "start": 724.279,
+  "end": 728.15,
+  "text": "buffer in this auto complete so for that"
+ },
+ {
+  "start": 728.16,
+  "end": 732.629,
+  "text": "here I cannot simply type the text or I"
+ },
+ {
+  "start": 732.639,
+  "end": 735.15,
+  "text": "cannot simply type the text here right"
+ },
+ {
+  "start": 735.16,
+  "end": 737.99,
+  "text": "to enter the value in the autocomplete"
+ },
+ {
+  "start": 738.0,
+  "end": 740.509,
+  "text": "because this is autoc complete text it's"
+ },
+ {
+  "start": 740.519,
+  "end": 744.829,
+  "text": "not simple text box so we need to use a"
+ },
+ {
+  "start": 744.839,
+  "end": 746.99,
+  "text": "send Keys option"
+ },
+ {
+  "start": 747.0,
+  "end": 751.829,
+  "text": "here Square braces"
+ },
+ {
+  "start": 754.509,
+  "end": 754.519,
+  "text": "send let me do one thing"
+ },
+ {
+  "start": 754.519,
+  "end": 758.79,
+  "text": "okay open Square braces send"
+ },
+ {
+  "start": 758.8,
+  "end": 762.949,
+  "text": "keys and then what keys I would like to"
+ },
+ {
+  "start": 762.959,
+  "end": 766.43,
+  "text": "send I would like to send the value that"
+ },
+ {
+  "start": 766.44,
+  "end": 770.75,
+  "text": "I'm storing in buffer for that open"
+ },
+ {
+  "start": 770.76,
+  "end": 774.75,
+  "text": "curly braces capital B to call the"
+ },
+ {
+  "start": 774.76,
+  "end": 778.59,
+  "text": "buffer and open Square braces this is my"
+ },
+ {
+  "start": 778.6,
+  "end": 779.71,
+  "text": "buffer"
+ },
+ {
+  "start": 779.72,
+  "end": 783.509,
+  "text": "close Square braces close curly braces"
+ },
+ {
+  "start": 783.519,
+  "end": 787.35,
+  "text": "right and then close curly braces for"
+ },
+ {
+  "start": 787.36,
+  "end": 788.87,
+  "text": "send"
+ },
+ {
+  "start": 788.88,
+  "end": 793.55,
+  "text": "keys right I'm sending a keys with a"
+ },
+ {
+  "start": 793.56,
+  "end": 797.43,
+  "text": "text that I'm storing in buffer and now"
+ },
+ {
+  "start": 797.44,
+  "end": 802.15,
+  "text": "coming to Li here once I enter any value"
+ },
+ {
+  "start": 802.16,
+  "end": 805.99,
+  "text": "here now it is time to calculate the"
+ },
+ {
+  "start": 806.0,
+  "end": 810.47,
+  "text": "number of Li objects right for that I'm"
+ },
+ {
+  "start": 810.48,
+  "end": 812.71,
+  "text": "going to use the method called result"
+ },
+ {
+  "start": 812.72,
+  "end": 815.31,
+  "text": "code what I'm going to do I'm going to"
+ },
+ {
+  "start": 815.32,
+  "end": 817.91,
+  "text": "store into a"
+ },
+ {
+  "start": 817.92,
+  "end": 820.11,
+  "text": "buffer what I'm going to store into"
+ },
+ {
+  "start": 820.12,
+  "end": 824.23,
+  "text": "buffer the result count"
+ },
+ {
+  "start": 824.24,
+  "end": 829.829,
+  "text": "here enter result count method and I"
+ },
+ {
+  "start": 829.839,
+  "end": 832.47,
+  "text": "would like to store that into a buffer"
+ },
+ {
+  "start": 832.48,
+  "end": 834.79,
+  "text": "called"
+ },
+ {
+  "start": 834.8,
+  "end": 839.31,
+  "text": "count right so this is going to give me"
+ },
+ {
+  "start": 839.32,
+  "end": 841.629,
+  "text": "the number of"
+ },
+ {
+  "start": 841.639,
+  "end": 843.91,
+  "text": "Li"
+ },
+ {
+  "start": 843.92,
+  "end": 847.949,
+  "text": "containers available in the dropdown"
+ },
+ {
+  "start": 847.959,
+  "end": 851.03,
+  "text": "result count I'm storing that into"
+ },
+ {
+  "start": 851.04,
+  "end": 854.79,
+  "text": "buffer called count now you need to"
+ },
+ {
+  "start": 854.8,
+  "end": 859.11,
+  "text": "enter the count whatever you received or"
+ },
+ {
+  "start": 859.12,
+  "end": 861.35,
+  "text": "whatever you store in the"
+ },
+ {
+  "start": 861.36,
+  "end": 863.99,
+  "text": "buffer where you need to enter in the"
+ },
+ {
+  "start": 864.0,
+  "end": 867.11,
+  "text": "text box here I'm going to call the"
+ },
+ {
+  "start": 867.12,
+  "end": 869.47,
+  "text": "buffer count"
+ },
+ {
+  "start": 869.48,
+  "end": 872.35,
+  "text": "open curly braces capital"
+ },
+ {
+  "start": 872.36,
+  "end": 874.509,
+  "text": "B open Square"
+ },
+ {
+  "start": 874.519,
+  "end": 878.79,
+  "text": "braces count close Square braces close"
+ },
+ {
+  "start": 878.8,
+  "end": 879.949,
+  "text": "curly"
+ },
+ {
+  "start": 879.959,
+  "end": 884.829,
+  "text": "braces and your action mode is"
+ },
+ {
+  "start": 884.839,
+  "end": 888.03,
+  "text": "input so let me explain again I'm"
+ },
+ {
+  "start": 888.04,
+  "end": 891.23,
+  "text": "storing the inner text of this element"
+ },
+ {
+  "start": 891.24,
+  "end": 893.749,
+  "text": "see whenever I refresh right it's keep"
+ },
+ {
+  "start": 893.759,
+  "end": 896.389,
+  "text": "changing right whatever I get I'm going"
+ },
+ {
+  "start": 896.399,
+  "end": 900.069,
+  "text": "to store that into a buff buffer called"
+ },
+ {
+  "start": 900.079,
+  "end": 903.389,
+  "text": "text by using inner text and"
+ },
+ {
+  "start": 903.399,
+  "end": 906.509,
+  "text": "then I am sending a"
+ },
+ {
+  "start": 906.519,
+  "end": 909.99,
+  "text": "keys with the value that I'm storing in"
+ },
+ {
+  "start": 910.0,
+  "end": 911.71,
+  "text": "the buffer"
+ },
+ {
+  "start": 911.72,
+  "end": 916.87,
+  "text": "text and then once you send the"
+ },
+ {
+  "start": 916.88,
+  "end": 919.71,
+  "text": "keys you will get the number of drop"
+ },
+ {
+  "start": 919.72,
+  "end": 924.749,
+  "text": "down values which are Li com Li objects"
+ },
+ {
+  "start": 924.759,
+  "end": 928.47,
+  "text": "now I'm counting those Li objects by"
+ },
+ {
+  "start": 928.48,
+  "end": 932.03,
+  "text": "using result count and I'm storing that"
+ },
+ {
+  "start": 932.04,
+  "end": 934.829,
+  "text": "result count into a buffer called"
+ },
+ {
+  "start": 934.839,
+  "end": 939.189,
+  "text": "count this gives me the count of drop"
+ },
+ {
+  "start": 939.199,
+  "end": 942.79,
+  "text": "down values and then I'm entering the"
+ },
+ {
+  "start": 942.8,
+  "end": 944.11,
+  "text": "same"
+ },
+ {
+  "start": 944.12,
+  "end": 947.11,
+  "text": "count by using the buffer I"
+ },
+ {
+  "start": 947.12,
+  "end": 951.99,
+  "text": "stored into the text box here so now"
+ },
+ {
+  "start": 952.0,
+  "end": 954.389,
+  "text": "before I execute the test case let's"
+ },
+ {
+  "start": 954.399,
+  "end": 955.67,
+  "text": "refresh this"
+ },
+ {
+  "start": 955.68,
+  "end": 960.069,
+  "text": "page now let's change change the work"
+ },
+ {
+  "start": 960.079,
+  "end": 961.91,
+  "text": "state as"
+ },
+ {
+  "start": 961.92,
+  "end": 965.59,
+  "text": "complete now save the test case right"
+ },
+ {
+  "start": 965.6,
+  "end": 971.87,
+  "text": "click and run the test case in"
+ },
+ {
+  "start": 975.03,
+  "end": 975.04,
+  "text": "scratchbook see it got the inner text it"
+ },
+ {
+  "start": 975.04,
+  "end": 978.43,
+  "text": "typed the inner text called a AA how"
+ },
+ {
+  "start": 978.44,
+  "end": 981.03,
+  "text": "many drop down values it displayed three"
+ },
+ {
+  "start": 981.04,
+  "end": 983.55,
+  "text": "the same count it entered in the text"
+ },
+ {
+  "start": 983.56,
+  "end": 985.91,
+  "text": "box Let me refresh this and execute one"
+ },
+ {
+  "start": 985.92,
+  "end": 990.749,
+  "text": "more time now this time DDD right"
+ },
+ {
+  "start": 990.759,
+  "end": 1001.59,
+  "text": "right click and run in"
+ },
+ {
+  "start": 1005.91,
+  "end": 1005.92,
+  "text": "scratchbook now here it captured DDD it"
+ },
+ {
+  "start": 1005.92,
+  "end": 1008.629,
+  "text": "entered DDD how many drop down values it"
+ },
+ {
+  "start": 1008.639,
+  "end": 1012.59,
+  "text": "displayed 1 2 3 4 5 the same number it"
+ },
+ {
+  "start": 1012.6,
+  "end": 1016.069,
+  "text": "entered here as well so let's see the"
+ },
+ {
+  "start": 1016.079,
+  "end": 1018.629,
+  "text": "test results if you see the test results"
+ },
+ {
+  "start": 1018.639,
+  "end": 1020.11,
+  "text": "here"
+ },
+ {
+  "start": 1020.12,
+  "end": 1023.67,
+  "text": "expand this first it is storing the"
+ },
+ {
+  "start": 1023.68,
+  "end": 1027.069,
+  "text": "value into a buffer call text and then"
+ },
+ {
+  "start": 1027.079,
+  "end": 1028.87,
+  "text": "the same thing is entered in"
+ },
+ {
+  "start": 1028.88,
+  "end": 1032.23,
+  "text": "autocomplete box and then the result"
+ },
+ {
+  "start": 1032.24,
+  "end": 1036.99,
+  "text": "count of Li objects stored see under"
+ },
+ {
+  "start": 1037.0,
+  "end": 1039.51,
+  "text": "buffer called count how much five the"
+ },
+ {
+  "start": 1039.52,
+  "end": 1042.15,
+  "text": "same thing is entered into a text box so"
+ },
+ {
+  "start": 1042.16,
+  "end": 1045.669,
+  "text": "the test case is pass so that means we"
+ },
+ {
+  "start": 1045.679,
+  "end": 1049.549,
+  "text": "solved our automation challenge so if"
+ },
+ {
+  "start": 1049.559,
+  "end": 1051.15,
+  "text": "you have any queries leave your queries"
+ },
+ {
+  "start": 1051.16,
+  "end": 1052.87,
+  "text": "in the comment box I'll try to respond"
+ },
+ {
+  "start": 1052.88,
+  "end": 1053.99,
+  "text": "to your"
+ },
+ {
+  "start": 1054.0,
+  "end": 1057.23,
+  "text": "queries hope you all understand how can"
+ },
+ {
+  "start": 1057.24,
+  "end": 1061.19,
+  "text": "we solve an obstacle where you need to"
+ },
+ {
+  "start": 1061.2,
+  "end": 1064.87,
+  "text": "interact with the controls like auto"
+ },
+ {
+  "start": 1064.88,
+  "end": 1068.23,
+  "text": "complete text box and you need to"
+ },
+ {
+  "start": 1068.24,
+  "end": 1071.83,
+  "text": "calculate the number of drop- down"
+ },
+ {
+  "start": 1071.84,
+  "end": 1073.83,
+  "text": "values that are displaying in the"
+ },
+ {
+  "start": 1073.84,
+  "end": 1076.71,
+  "text": "autocomplete text box and you need to"
+ },
+ {
+  "start": 1076.72,
+  "end": 1079.75,
+  "text": "enter the count into the text next"
+ },
+ {
+  "start": 1079.76,
+  "end": 1083.31,
+  "text": "box please do subscribe to the channel"
+ },
+ {
+  "start": 1083.32,
+  "end": 1085.19,
+  "text": "click on Bell icon you'll receive"
+ },
+ {
+  "start": 1085.2,
+  "end": 1088.029,
+  "text": "notifications whenever I publish more"
+ },
+ {
+  "start": 1088.039,
+  "end": 1091.029,
+  "text": "videos don't forget to like and share"
+ },
+ {
+  "start": 1091.039,
+  "end": 1101.63,
+  "text": "the video thank you"
+ }
+]

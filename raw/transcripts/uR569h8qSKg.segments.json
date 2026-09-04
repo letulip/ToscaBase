@@ -1,0 +1,1137 @@
+[
+ {
+  "start": 13.99,
+  "end": 14.0,
+  "text": "hi everyone this is Ravi welcome to"
+ },
+ {
+  "start": 14.0,
+  "end": 16.63,
+  "text": "trient tasa Advanced"
+ },
+ {
+  "start": 16.64,
+  "end": 19.67,
+  "text": "Training as you all know I've started"
+ },
+ {
+  "start": 19.68,
+  "end": 23.07,
+  "text": "publishing series of YouTube videos"
+ },
+ {
+  "start": 23.08,
+  "end": 25.47,
+  "text": "covering some of the realtime"
+ },
+ {
+  "start": 25.48,
+  "end": 29.15,
+  "text": "scenarios where you might encounter"
+ },
+ {
+  "start": 29.16,
+  "end": 30.71,
+  "text": "different types of"
+ },
+ {
+  "start": 30.72,
+  "end": 33.79,
+  "text": "obstacles and how can we solve those"
+ },
+ {
+  "start": 33.8,
+  "end": 36.869,
+  "text": "obstacles by using trient tasa while"
+ },
+ {
+  "start": 36.879,
+  "end": 39.79,
+  "text": "automating your test cases this is our"
+ },
+ {
+  "start": 39.8,
+  "end": 42.99,
+  "text": "obstacle 10 in terms of real time"
+ },
+ {
+  "start": 43.0,
+  "end": 44.95,
+  "text": "scenarios and this is"
+ },
+ {
+  "start": 44.96,
+  "end": 49.47,
+  "text": "our lesson 52 in terms of overall trient"
+ },
+ {
+  "start": 49.48,
+  "end": 53.229,
+  "text": "tosa automation training so in this"
+ },
+ {
+  "start": 53.239,
+  "end": 56.27,
+  "text": "lesson I'm going to talk about how can"
+ },
+ {
+  "start": 56.28,
+  "end": 60.27,
+  "text": "we solve an obstacle where you need need"
+ },
+ {
+  "start": 60.28,
+  "end": 64.95,
+  "text": "to extract the text while extracting the"
+ },
+ {
+  "start": 64.96,
+  "end": 68.63,
+  "text": "text you need to exclude the dynamic"
+ },
+ {
+  "start": 68.64,
+  "end": 70.749,
+  "text": "portion of the text and you need to"
+ },
+ {
+  "start": 70.759,
+  "end": 73.19,
+  "text": "buffer the dynamic portion of the text"
+ },
+ {
+  "start": 73.2,
+  "end": 77.149,
+  "text": "and enter the buffered Dynamic portion"
+ },
+ {
+  "start": 77.159,
+  "end": 81.03,
+  "text": "of the text into an edict box so this is"
+ },
+ {
+  "start": 81.04,
+  "end": 83.87,
+  "text": "our real time scenario please do"
+ },
+ {
+  "start": 83.88,
+  "end": 85.749,
+  "text": "subscribe to the channel click on Bell"
+ },
+ {
+  "start": 85.759,
+  "end": 87.83,
+  "text": "icon you'll receive notifications"
+ },
+ {
+  "start": 87.84,
+  "end": 90.429,
+  "text": "whenever I publish more videos"
+ },
+ {
+  "start": 90.439,
+  "end": 91.99,
+  "text": "thank"
+ },
+ {
+  "start": 92.0,
+  "end": 95.31,
+  "text": "you this is our 10th"
+ },
+ {
+  "start": 95.32,
+  "end": 98.55,
+  "text": "obstacle which is named as extracting"
+ },
+ {
+  "start": 98.56,
+  "end": 102.83,
+  "text": "text and categorized as easy so now let"
+ },
+ {
+  "start": 102.84,
+  "end": 105.95,
+  "text": "us go for it so let us first understand"
+ },
+ {
+  "start": 105.96,
+  "end": 107.709,
+  "text": "what is the challenge that we need to"
+ },
+ {
+  "start": 107.719,
+  "end": 111.67,
+  "text": "solve for please automate a test step"
+ },
+ {
+  "start": 111.68,
+  "end": 114.51,
+  "text": "taking the total amount shown in the"
+ },
+ {
+  "start": 114.52,
+  "end": 118.389,
+  "text": "success message and enter it into the"
+ },
+ {
+  "start": 118.399,
+  "end": 121.069,
+  "text": "text box so so this is your success"
+ },
+ {
+  "start": 121.079,
+  "end": 124.55,
+  "text": "message that displays whenever you land"
+ },
+ {
+  "start": 124.56,
+  "end": 126.19,
+  "text": "land on this"
+ },
+ {
+  "start": 126.2,
+  "end": 130.469,
+  "text": "page and we need to take the amount from"
+ },
+ {
+  "start": 130.479,
+  "end": 134.19,
+  "text": "this success message and you need to"
+ },
+ {
+  "start": 134.2,
+  "end": 137.99,
+  "text": "enter the same"
+ },
+ {
+  "start": 142.47,
+  "end": 142.48,
+  "text": "amount in this edit box right as soon as"
+ },
+ {
+  "start": 142.48,
+  "end": 145.509,
+  "text": "you enter you solve this automation"
+ },
+ {
+  "start": 145.519,
+  "end": 148.27,
+  "text": "problem so here the challenge is"
+ },
+ {
+  "start": 148.28,
+  "end": 153.91,
+  "text": "whenever I say let me retry then your"
+ },
+ {
+  "start": 153.92,
+  "end": 158.83,
+  "text": "amount keeps on changing so here partial"
+ },
+ {
+  "start": 158.84,
+  "end": 162.55,
+  "text": "text from here to here and then from"
+ },
+ {
+  "start": 162.56,
+  "end": 166.55,
+  "text": "here to here is static and the amount is"
+ },
+ {
+  "start": 166.56,
+  "end": 170.35,
+  "text": "dynamic so we need to capture this"
+ },
+ {
+  "start": 170.36,
+  "end": 175.55,
+  "text": "Dynamic amount and enter in the text box"
+ },
+ {
+  "start": 175.56,
+  "end": 178.79,
+  "text": "if you enter the correct amount then"
+ },
+ {
+  "start": 178.8,
+  "end": 181.07,
+  "text": "your automation problem solves"
+ },
+ {
+  "start": 181.08,
+  "end": 184.229,
+  "text": "successfully okay so now let us go back"
+ },
+ {
+  "start": 184.239,
+  "end": 186.229,
+  "text": "to our trient"
+ },
+ {
+  "start": 186.239,
+  "end": 190.229,
+  "text": "tasa and as you all know we are"
+ },
+ {
+  "start": 190.239,
+  "end": 193.91,
+  "text": "capturing all the objects under"
+ },
+ {
+  "start": 193.92,
+  "end": 199.07,
+  "text": "obstacles folder so for that let's now"
+ },
+ {
+  "start": 199.08,
+  "end": 200.99,
+  "text": "let us right click on this obstacles"
+ },
+ {
+  "start": 201.0,
+  "end": 205.509,
+  "text": "folder select scan and application so"
+ },
+ {
+  "start": 205.519,
+  "end": 208.589,
+  "text": "that we can capture the objects that are"
+ },
+ {
+  "start": 208.599,
+  "end": 212.509,
+  "text": "required to automate our test"
+ },
+ {
+  "start": 212.519,
+  "end": 215.869,
+  "text": "case so this is our application select"
+ },
+ {
+  "start": 215.879,
+  "end": 222.07,
+  "text": "the application click on"
+ },
+ {
+  "start": 226.63,
+  "end": 226.64,
+  "text": "scan and Here If You observe closely I"
+ },
+ {
+  "start": 226.64,
+  "end": 230.589,
+  "text": "can see enter total amount edit box here"
+ },
+ {
+  "start": 230.599,
+  "end": 233.99,
+  "text": "right but I'm not finding this object"
+ },
+ {
+  "start": 234.0,
+  "end": 236.55,
+  "text": "purchase completed so I'm not finding"
+ },
+ {
+  "start": 236.56,
+  "end": 240.069,
+  "text": "this object to find that object let us"
+ },
+ {
+  "start": 240.079,
+  "end": 243.869,
+  "text": "expand the filters how by clicking"
+ },
+ {
+  "start": 243.879,
+  "end": 247.19,
+  "text": "towards right this one right and some"
+ },
+ {
+  "start": 247.2,
+  "end": 250.71,
+  "text": "more okay now if you scroll"
+ },
+ {
+  "start": 250.72,
+  "end": 254.789,
+  "text": "down here you can see enter total amount"
+ },
+ {
+  "start": 254.799,
+  "end": 259.909,
+  "text": "this is our edit box see I highlight see"
+ },
+ {
+  "start": 259.919,
+  "end": 262.59,
+  "text": "it's highlighting here this is our edit"
+ },
+ {
+  "start": 262.6,
+  "end": 264.55,
+  "text": "box and"
+ },
+ {
+  "start": 264.56,
+  "end": 267.31,
+  "text": "then sorry when I'm highlighting this"
+ },
+ {
+  "start": 267.32,
+  "end": 270.189,
+  "text": "see the edit box is getting highlighted"
+ },
+ {
+  "start": 270.199,
+  "end": 274.67,
+  "text": "now what is our static text our static"
+ },
+ {
+  "start": 274.68,
+  "end": 279.189,
+  "text": "text is this one which is div container"
+ },
+ {
+  "start": 279.199,
+  "end": 282.07,
+  "text": "okay so let's select this and let me"
+ },
+ {
+  "start": 282.08,
+  "end": 283.79,
+  "text": "highlight this okay let's highlight this"
+ },
+ {
+  "start": 283.8,
+  "end": 287.029,
+  "text": "one see this is the static text okay"
+ },
+ {
+  "start": 287.039,
+  "end": 288.35,
+  "text": "remove the"
+ },
+ {
+  "start": 288.36,
+  "end": 292.23,
+  "text": "Highlight now if You observe closely"
+ },
+ {
+  "start": 292.24,
+  "end": 296.189,
+  "text": "here when I select this one says the"
+ },
+ {
+  "start": 296.199,
+  "end": 299.27,
+  "text": "selected item is unique and also the"
+ },
+ {
+  "start": 299.28,
+  "end": 301.189,
+  "text": "edit box where we are entering the"
+ },
+ {
+  "start": 301.199,
+  "end": 302.79,
+  "text": "amount that is"
+ },
+ {
+  "start": 302.8,
+  "end": 306.749,
+  "text": "also identified uniquely but one change"
+ },
+ {
+  "start": 306.759,
+  "end": 308.83,
+  "text": "we are going to do here what is that for"
+ },
+ {
+  "start": 308.84,
+  "end": 314.07,
+  "text": "this this is dynamic message right where"
+ },
+ {
+  "start": 314.08,
+  "end": 316.71,
+  "text": "the amount keeps on changing that's why"
+ },
+ {
+  "start": 316.72,
+  "end": 318.27,
+  "text": "what I'm going to do I'm going to rename"
+ },
+ {
+  "start": 318.28,
+  "end": 319.79,
+  "text": "this"
+ },
+ {
+  "start": 319.8,
+  "end": 323.59,
+  "text": "as purchase"
+ },
+ {
+  "start": 326.83,
+  "end": 326.84,
+  "text": "completed message that is one thing and"
+ },
+ {
+  "start": 326.84,
+  "end": 329.83,
+  "text": "if you see the identify by the"
+ },
+ {
+  "start": 329.84,
+  "end": 333.11,
+  "text": "properties right I can see ID is"
+ },
+ {
+  "start": 333.12,
+  "end": 336.189,
+  "text": "selected and inner text also selected"
+ },
+ {
+  "start": 336.199,
+  "end": 339.629,
+  "text": "but this inner text keep on changing"
+ },
+ {
+  "start": 339.639,
+  "end": 341.95,
+  "text": "right let's say if I take this"
+ },
+ {
+  "start": 341.96,
+  "end": 344.749,
+  "text": "property then whenever there is a change"
+ },
+ {
+  "start": 344.759,
+  "end": 348.029,
+  "text": "in the message then tasar cannot"
+ },
+ {
+  "start": 348.039,
+  "end": 351.27,
+  "text": "identify the object so for that what I'm"
+ },
+ {
+  "start": 351.28,
+  "end": 353.71,
+  "text": "going to do I'm going to remove this in"
+ },
+ {
+  "start": 353.72,
+  "end": 356.07,
+  "text": "text I'm going to remove this inner text"
+ },
+ {
+  "start": 356.08,
+  "end": 358.39,
+  "text": "I don't want to consider this inner text"
+ },
+ {
+  "start": 358.4,
+  "end": 360.95,
+  "text": "property because because this inner text"
+ },
+ {
+  "start": 360.96,
+  "end": 362.71,
+  "text": "property keeps on changing I'm"
+ },
+ {
+  "start": 362.72,
+  "end": 366.11,
+  "text": "considering ID and tag let us make sure"
+ },
+ {
+  "start": 366.12,
+  "end": 369.55,
+  "text": "still this object is uniquely identified"
+ },
+ {
+  "start": 369.56,
+  "end": 371.95,
+  "text": "see even though I remove this inner text"
+ },
+ {
+  "start": 371.96,
+  "end": 374.11,
+  "text": "still my object is uniquely"
+ },
+ {
+  "start": 374.12,
+  "end": 378.87,
+  "text": "identified done now let's go back to the"
+ },
+ {
+  "start": 378.88,
+  "end": 382.27,
+  "text": "top and let's rename this module the"
+ },
+ {
+  "start": 382.28,
+  "end": 384.749,
+  "text": "best practice is to rename the module"
+ },
+ {
+  "start": 384.759,
+  "end": 390.189,
+  "text": "every time let's copy this obstacle name"
+ },
+ {
+  "start": 390.199,
+  "end": 393.51,
+  "text": "and paste here name the module with the"
+ },
+ {
+  "start": 393.52,
+  "end": 396.55,
+  "text": "obstacle name okay so"
+ },
+ {
+  "start": 396.56,
+  "end": 400.71,
+  "text": "now save this particular"
+ },
+ {
+  "start": 404.15,
+  "end": 404.16,
+  "text": "module we saved it close the module"
+ },
+ {
+  "start": 404.16,
+  "end": 407.15,
+  "text": "let's go back to Tri and tasa so this is"
+ },
+ {
+  "start": 407.16,
+  "end": 409.79,
+  "text": "the new module that we captured okay so"
+ },
+ {
+  "start": 409.8,
+  "end": 412.469,
+  "text": "I can see here I have purchase completed"
+ },
+ {
+  "start": 412.479,
+  "end": 417.189,
+  "text": "message enter total amount both now let"
+ },
+ {
+  "start": 417.199,
+  "end": 419.95,
+  "text": "us come back to our blue section test"
+ },
+ {
+  "start": 419.96,
+  "end": 422.43,
+  "text": "case section right click on this"
+ },
+ {
+  "start": 422.44,
+  "end": 423.55,
+  "text": "obstacles"
+ },
+ {
+  "start": 423.56,
+  "end": 427.55,
+  "text": "folder let's create a new test case and"
+ },
+ {
+  "start": 427.56,
+  "end": 430.589,
+  "text": "name this as obstacle name that we"
+ },
+ {
+  "start": 430.599,
+  "end": 431.629,
+  "text": "copied"
+ },
+ {
+  "start": 431.639,
+  "end": 434.71,
+  "text": "earlier double click on this test case"
+ },
+ {
+  "start": 434.72,
+  "end": 438.469,
+  "text": "now to create test steps what we need to"
+ },
+ {
+  "start": 438.479,
+  "end": 441.55,
+  "text": "follow you need to Simply drag this"
+ },
+ {
+  "start": 441.56,
+  "end": 444.309,
+  "text": "module and drop onto your test case to"
+ },
+ {
+  "start": 444.319,
+  "end": 447.589,
+  "text": "form the test steps now let's expand"
+ },
+ {
+  "start": 447.599,
+  "end": 450.95,
+  "text": "this so now what is is our"
+ },
+ {
+  "start": 450.96,
+  "end": 455.23,
+  "text": "first action we need to do we need to"
+ },
+ {
+  "start": 455.24,
+  "end": 458.43,
+  "text": "capture this message first right and"
+ },
+ {
+  "start": 458.44,
+  "end": 460.869,
+  "text": "once you capture this message you need"
+ },
+ {
+  "start": 460.879,
+  "end": 464.51,
+  "text": "to extract the only amount from the"
+ },
+ {
+  "start": 464.52,
+  "end": 466.43,
+  "text": "captured message for that what I'm going"
+ },
+ {
+  "start": 466.44,
+  "end": 468.79,
+  "text": "to do I'm going to start"
+ },
+ {
+  "start": 468.8,
+  "end": 474.589,
+  "text": "using inner text property how come here"
+ },
+ {
+  "start": 474.599,
+  "end": 476.23,
+  "text": "this is my"
+ },
+ {
+  "start": 476.24,
+  "end": 479.71,
+  "text": "object open the drop- down"
+ },
+ {
+  "start": 479.72,
+  "end": 481.589,
+  "text": "select inner"
+ },
+ {
+  "start": 481.599,
+  "end": 484.95,
+  "text": "text equal to what is the inner text let"
+ },
+ {
+  "start": 484.96,
+  "end": 489.11,
+  "text": "me copy this entire inner text copy this"
+ },
+ {
+  "start": 489.12,
+  "end": 494.39,
+  "text": "and then paste here now as I told you"
+ },
+ {
+  "start": 494.4,
+  "end": 499.029,
+  "text": "earlier here the inner text whatever the"
+ },
+ {
+  "start": 499.039,
+  "end": 504.149,
+  "text": "inner text we have here right here this"
+ },
+ {
+  "start": 504.159,
+  "end": 507.27,
+  "text": "entire this entire portion is static"
+ },
+ {
+  "start": 507.28,
+  "end": 508.149,
+  "text": "until"
+ },
+ {
+  "start": 508.159,
+  "end": 511.35,
+  "text": "dollar and this is dynamic and this"
+ },
+ {
+  "start": 511.36,
+  "end": 514.43,
+  "text": "entire portion is again static so that's"
+ },
+ {
+  "start": 514.44,
+  "end": 517.11,
+  "text": "why what I'm going to do here here I"
+ },
+ {
+  "start": 517.12,
+  "end": 519.55,
+  "text": "would like to"
+ },
+ {
+  "start": 519.56,
+  "end": 522.509,
+  "text": "replace let me do one thing here okay"
+ },
+ {
+  "start": 522.519,
+  "end": 525.949,
+  "text": "let me expand this so here this static"
+ },
+ {
+  "start": 525.959,
+  "end": 529.11,
+  "text": "part I don't want to touch I'm doing now"
+ },
+ {
+  "start": 529.12,
+  "end": 531.91,
+  "text": "this is your Dynamic part right so I"
+ },
+ {
+  "start": 531.92,
+  "end": 534.269,
+  "text": "would like to verify this entire text"
+ },
+ {
+  "start": 534.279,
+  "end": 535.99,
+  "text": "here okay I'm going to select the action"
+ },
+ {
+  "start": 536.0,
+  "end": 539.91,
+  "text": "mode as verified but because this is a"
+ },
+ {
+  "start": 539.92,
+  "end": 542.23,
+  "text": "dynamic portion I would like to exclude"
+ },
+ {
+  "start": 542.24,
+  "end": 545.79,
+  "text": "this Dynamic portion while verifying it"
+ },
+ {
+  "start": 545.8,
+  "end": 549.509,
+  "text": "but while excluding this Dynamic portion"
+ },
+ {
+  "start": 549.519,
+  "end": 551.71,
+  "text": "I would like to store this Dynamic"
+ },
+ {
+  "start": 551.72,
+  "end": 555.19,
+  "text": "portion to a buffer so how can we do"
+ },
+ {
+  "start": 555.2,
+  "end": 560.43,
+  "text": "that by using X buffer concept how let's"
+ },
+ {
+  "start": 560.44,
+  "end": 564.19,
+  "text": "go here this Dynamic portion I would"
+ },
+ {
+  "start": 564.2,
+  "end": 570.75,
+  "text": "like to replace with open curly braces"
+ },
+ {
+  "start": 570.76,
+  "end": 577.35,
+  "text": "XB is X buffer see this is XB that means"
+ },
+ {
+  "start": 577.36,
+  "end": 582.35,
+  "text": "exclude this portion and"
+ },
+ {
+  "start": 582.36,
+  "end": 586.829,
+  "text": "buffer this Dynamic portion into a"
+ },
+ {
+  "start": 586.839,
+  "end": 590.949,
+  "text": "buffer name called amount so that's why"
+ },
+ {
+  "start": 590.959,
+  "end": 595.03,
+  "text": "open Square braces amount close Square"
+ },
+ {
+  "start": 595.04,
+  "end": 600.069,
+  "text": "braces and close your curly braces"
+ },
+ {
+  "start": 600.079,
+  "end": 602.59,
+  "text": "verify this entire"
+ },
+ {
+  "start": 602.6,
+  "end": 606.75,
+  "text": "text while verifying this text I would"
+ },
+ {
+  "start": 606.76,
+  "end": 610.67,
+  "text": "like to exclude this Dynamic"
+ },
+ {
+  "start": 610.68,
+  "end": 614.63,
+  "text": "portion but I would like to store this"
+ },
+ {
+  "start": 614.64,
+  "end": 618.75,
+  "text": "Dynamic portion into a buffer that's why"
+ },
+ {
+  "start": 618.76,
+  "end": 622.269,
+  "text": "I'm using a method called XB if you want"
+ },
+ {
+  "start": 622.279,
+  "end": 625.19,
+  "text": "to just buffer then you are going to use"
+ },
+ {
+  "start": 625.2,
+  "end": 628.67,
+  "text": "just B capital B but I would like to"
+ },
+ {
+  "start": 628.68,
+  "end": 630.03,
+  "text": "exclude"
+ },
+ {
+  "start": 630.04,
+  "end": 635.19,
+  "text": "this portion and buffer this portion"
+ },
+ {
+  "start": 635.2,
+  "end": 638.11,
+  "text": "into a buffer name called"
+ },
+ {
+  "start": 638.12,
+  "end": 640.75,
+  "text": "amount that's why I'm using the method"
+ },
+ {
+  "start": 640.76,
+  "end": 642.71,
+  "text": "XB so"
+ },
+ {
+  "start": 642.72,
+  "end": 646.509,
+  "text": "now here I'm storing the dynamic portion"
+ },
+ {
+  "start": 646.519,
+  "end": 650.43,
+  "text": "into a buffer right now our next action"
+ },
+ {
+  "start": 650.44,
+  "end": 653.949,
+  "text": "is I need to enter the stored buffer"
+ },
+ {
+  "start": 653.959,
+  "end": 658.829,
+  "text": "value in edit box so for that simply"
+ },
+ {
+  "start": 658.839,
+  "end": 662.949,
+  "text": "call the buffer name called amount here"
+ },
+ {
+  "start": 662.959,
+  "end": 667.75,
+  "text": "open curly braces capital B open Square"
+ },
+ {
+  "start": 667.76,
+  "end": 671.629,
+  "text": "Braes this is my buffer name amount"
+ },
+ {
+  "start": 671.639,
+  "end": 676.35,
+  "text": "close Square Braes close curly bra done"
+ },
+ {
+  "start": 676.36,
+  "end": 678.67,
+  "text": "and your action mode is"
+ },
+ {
+  "start": 678.68,
+  "end": 683.269,
+  "text": "input so let's save this let me do one"
+ },
+ {
+  "start": 683.279,
+  "end": 684.75,
+  "text": "thing let me run this and see what"
+ },
+ {
+  "start": 684.76,
+  "end": 688.67,
+  "text": "happens okay right click and run in"
+ },
+ {
+  "start": 688.68,
+  "end": 695.91,
+  "text": "scratchbook"
+ },
+ {
+  "start": 698.99,
+  "end": 699.0,
+  "text": "see now can see"
+ },
+ {
+  "start": 699.0,
+  "end": 702.069,
+  "text": "here we have"
+ },
+ {
+  "start": 702.079,
+  "end": 705.509,
+  "text": "entered the same number here"
+ },
+ {
+  "start": 705.519,
+  "end": 709.389,
+  "text": "10657 now let me run one more time just"
+ },
+ {
+  "start": 709.399,
+  "end": 713.269,
+  "text": "keep this in mind 15 3199 okay so let's"
+ },
+ {
+  "start": 713.279,
+  "end": 715.87,
+  "text": "close this one run this again right"
+ },
+ {
+  "start": 715.88,
+  "end": 717.23,
+  "text": "click and"
+ },
+ {
+  "start": 717.24,
+  "end": 725.509,
+  "text": "run 15 3199"
+ },
+ {
+  "start": 729.03,
+  "end": 729.04,
+  "text": "okay so I mean it's it's very fast you"
+ },
+ {
+  "start": 729.04,
+  "end": 731.629,
+  "text": "are not even able to see what it entered"
+ },
+ {
+  "start": 731.639,
+  "end": 735.59,
+  "text": "but it entered correctly see 1531 99"
+ },
+ {
+  "start": 735.6,
+  "end": 738.75,
+  "text": "okay so hope you all understand the"
+ },
+ {
+  "start": 738.76,
+  "end": 741.23,
+  "text": "concept right so here you can see here"
+ },
+ {
+  "start": 741.24,
+  "end": 745.67,
+  "text": "now let me see the test result here if"
+ },
+ {
+  "start": 745.68,
+  "end": 747.87,
+  "text": "you expand the test"
+ },
+ {
+  "start": 747.88,
+  "end": 752.35,
+  "text": "result what is the we are storing XB"
+ },
+ {
+  "start": 752.36,
+  "end": 756.99,
+  "text": "amount where see here we are excluding"
+ },
+ {
+  "start": 757.0,
+  "end": 761.389,
+  "text": "this 15 3199 here and the same amount we"
+ },
+ {
+  "start": 761.399,
+  "end": 765.509,
+  "text": "are entering here okay so if you have"
+ },
+ {
+  "start": 765.519,
+  "end": 768.509,
+  "text": "any queries leave your queries in the"
+ },
+ {
+  "start": 768.519,
+  "end": 770.35,
+  "text": "comment box I'll try to respond your"
+ },
+ {
+  "start": 770.36,
+  "end": 775.8,
+  "text": "queries"
+ }
+]

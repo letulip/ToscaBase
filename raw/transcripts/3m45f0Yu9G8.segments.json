@@ -1,0 +1,932 @@
+[
+ {
+  "start": 13.549,
+  "end": 13.559,
+  "text": "hi everyone this is Ravi welcome to"
+ },
+ {
+  "start": 13.559,
+  "end": 16.109,
+  "text": "tricentis tasa Advanced"
+ },
+ {
+  "start": 16.119,
+  "end": 18.83,
+  "text": "Training as you all know have already"
+ },
+ {
+  "start": 18.84,
+  "end": 23.109,
+  "text": "published 59 YouTube videos covering"
+ },
+ {
+  "start": 23.119,
+  "end": 25.99,
+  "text": "beginners intermediate and advanced"
+ },
+ {
+  "start": 26.0,
+  "end": 27.23,
+  "text": "level"
+ },
+ {
+  "start": 27.24,
+  "end": 30.07,
+  "text": "Concepts from couple of videos onwards"
+ },
+ {
+  "start": 30.08,
+  "end": 33.83,
+  "text": "have started teaching you the realtime"
+ },
+ {
+  "start": 33.84,
+  "end": 37.03,
+  "text": "scenarios where you might encounter with"
+ },
+ {
+  "start": 37.04,
+  "end": 39.95,
+  "text": "different types of obstacles and how can"
+ },
+ {
+  "start": 39.96,
+  "end": 41.91,
+  "text": "we solve those obstacles while"
+ },
+ {
+  "start": 41.92,
+  "end": 44.47,
+  "text": "automating your test cases by using"
+ },
+ {
+  "start": 44.48,
+  "end": 48.67,
+  "text": "tricentis tasa this is our obstacle"
+ },
+ {
+  "start": 48.68,
+  "end": 52.069,
+  "text": "18 in terms of real time scenarios and"
+ },
+ {
+  "start": 52.079,
+  "end": 56.029,
+  "text": "this is our lesson 60 in terms of"
+ },
+ {
+  "start": 56.039,
+  "end": 60.79,
+  "text": "overall tricentis TSA training please do"
+ },
+ {
+  "start": 60.8,
+  "end": 62.709,
+  "text": "subscribe to the channel click on Bell"
+ },
+ {
+  "start": 62.719,
+  "end": 64.829,
+  "text": "icon you'll receive notifications"
+ },
+ {
+  "start": 64.839,
+  "end": 67.99,
+  "text": "whenever I publish more videos don't"
+ },
+ {
+  "start": 68.0,
+  "end": 72.109,
+  "text": "forget to like and share the video thank"
+ },
+ {
+  "start": 72.119,
+  "end": 74.99,
+  "text": "you in this lesson I'm going to teach"
+ },
+ {
+  "start": 75.0,
+  "end": 78.55,
+  "text": "you a realtime scenario where you need"
+ },
+ {
+  "start": 78.56,
+  "end": 80.109,
+  "text": "to solve an"
+ },
+ {
+  "start": 80.119,
+  "end": 84.27,
+  "text": "obstacle by interacting with a web table"
+ },
+ {
+  "start": 84.28,
+  "end": 87.95,
+  "text": "which is dynamic in nature the content"
+ },
+ {
+  "start": 87.96,
+  "end": 90.469,
+  "text": "of the web table is dynamic and the"
+ },
+ {
+  "start": 90.479,
+  "end": 92.51,
+  "text": "number of rows of the web table is"
+ },
+ {
+  "start": 92.52,
+  "end": 95.31,
+  "text": "dynamic so you need to"
+ },
+ {
+  "start": 95.32,
+  "end": 98.71,
+  "text": "interact with search Dynamic web table"
+ },
+ {
+  "start": 98.72,
+  "end": 101.069,
+  "text": "and calculate the number of rows of that"
+ },
+ {
+  "start": 101.079,
+  "end": 103.389,
+  "text": "particular web table and enter the"
+ },
+ {
+  "start": 103.399,
+  "end": 106.109,
+  "text": "number of rows into a web"
+ },
+ {
+  "start": 106.119,
+  "end": 109.19,
+  "text": "application so now let us go to our"
+ },
+ {
+  "start": 109.2,
+  "end": 112.31,
+  "text": "obstacle list and understand in detail"
+ },
+ {
+  "start": 112.32,
+  "end": 113.95,
+  "text": "what is the obstacle that we need to"
+ },
+ {
+  "start": 113.96,
+  "end": 117.789,
+  "text": "solve for so this is our obstacle the"
+ },
+ {
+  "start": 117.799,
+  "end": 120.749,
+  "text": "obstacle name is lots of r"
+ },
+ {
+  "start": 120.759,
+  "end": 124.709,
+  "text": "and it is categorized as medium so let's"
+ },
+ {
+  "start": 124.719,
+  "end": 126.389,
+  "text": "go for"
+ },
+ {
+  "start": 126.399,
+  "end": 131.63,
+  "text": "it so here in order to complete this"
+ },
+ {
+  "start": 131.64,
+  "end": 135.39,
+  "text": "obstacle you need to count the rows in"
+ },
+ {
+  "start": 135.4,
+  "end": 136.43,
+  "text": "the"
+ },
+ {
+  "start": 136.44,
+  "end": 140.27,
+  "text": "table input the count into the text"
+ },
+ {
+  "start": 140.28,
+  "end": 144.39,
+  "text": "field and click the button labeled click"
+ },
+ {
+  "start": 144.4,
+  "end": 147.35,
+  "text": "me you can scroll down here you need to"
+ },
+ {
+  "start": 147.36,
+  "end": 149.55,
+  "text": "input the number of rows of this"
+ },
+ {
+  "start": 149.56,
+  "end": 152.11,
+  "text": "particular table let us see how many"
+ },
+ {
+  "start": 152.12,
+  "end": 154.99,
+  "text": "rows this row how many rows this table"
+ },
+ {
+  "start": 155.0,
+  "end": 165.07,
+  "text": "has 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15"
+ },
+ {
+  "start": 165.08,
+  "end": 169.19,
+  "text": "16 17 18 so this table has 18 rows if I"
+ },
+ {
+  "start": 169.2,
+  "end": 172.27,
+  "text": "enter the rows correctly and then click"
+ },
+ {
+  "start": 172.28,
+  "end": 175.229,
+  "text": "me then you solve your automation"
+ },
+ {
+  "start": 175.239,
+  "end": 178.19,
+  "text": "problem correctly let me retry again so"
+ },
+ {
+  "start": 178.2,
+  "end": 179.91,
+  "text": "now if you see the number of rows"
+ },
+ {
+  "start": 179.92,
+  "end": 187.43,
+  "text": "changed this time 1 2 3 4 5 6 7 8 9 10"
+ },
+ {
+  "start": 187.44,
+  "end": 191.589,
+  "text": "11 12 13 right so if I enter it as 12"
+ },
+ {
+  "start": 191.599,
+  "end": 193.75,
+  "text": "then what happens we'll see see your"
+ },
+ {
+  "start": 193.76,
+  "end": 195.35,
+  "text": "automation problem is not correctly"
+ },
+ {
+  "start": 195.36,
+  "end": 199.03,
+  "text": "solved so let me enter 13 and click me"
+ },
+ {
+  "start": 199.04,
+  "end": 201.91,
+  "text": "so your automation problem is solved so"
+ },
+ {
+  "start": 201.92,
+  "end": 204.99,
+  "text": "that means this table is dynamic in"
+ },
+ {
+  "start": 205.0,
+  "end": 207.67,
+  "text": "nature and the content also"
+ },
+ {
+  "start": 207.68,
+  "end": 210.509,
+  "text": "changes so how can we solve this let's"
+ },
+ {
+  "start": 210.519,
+  "end": 213.63,
+  "text": "go to Tri and tasa as usual we are going"
+ },
+ {
+  "start": 213.64,
+  "end": 217.07,
+  "text": "to scan all our objects that are"
+ },
+ {
+  "start": 217.08,
+  "end": 218.789,
+  "text": "required for this particular"
+ },
+ {
+  "start": 218.799,
+  "end": 223.07,
+  "text": "obstacle under obstacles folder right"
+ },
+ {
+  "start": 223.08,
+  "end": 234.949,
+  "text": "click can"
+ },
+ {
+  "start": 237.03,
+  "end": 237.04,
+  "text": "application select the application that"
+ },
+ {
+  "start": 237.04,
+  "end": 239.949,
+  "text": "you like to scan this is my application"
+ },
+ {
+  "start": 239.959,
+  "end": 246.99,
+  "text": "click on"
+ },
+ {
+  "start": 251.429,
+  "end": 251.439,
+  "text": "scan we require three objects one is"
+ },
+ {
+  "start": 251.439,
+  "end": 252.55,
+  "text": "your web"
+ },
+ {
+  "start": 252.56,
+  "end": 256.31,
+  "text": "table your edit box and click me button"
+ },
+ {
+  "start": 256.32,
+  "end": 261.51,
+  "text": "let's go back here let's go back to"
+ },
+ {
+  "start": 267.629,
+  "end": 267.639,
+  "text": "xcan so here this is my row Count web"
+ },
+ {
+  "start": 267.639,
+  "end": 271.95,
+  "text": "table and then this is my edit box where"
+ },
+ {
+  "start": 271.96,
+  "end": 276.43,
+  "text": "I'll be entering the row"
+ },
+ {
+  "start": 279.35,
+  "end": 279.36,
+  "text": "count and this is my click me"
+ },
+ {
+  "start": 279.36,
+  "end": 281.95,
+  "text": "button so these three objects that I"
+ },
+ {
+  "start": 281.96,
+  "end": 284.87,
+  "text": "require to automate the scenario now let"
+ },
+ {
+  "start": 284.88,
+  "end": 289.43,
+  "text": "us go back to our obstacle and take the"
+ },
+ {
+  "start": 289.44,
+  "end": 293.11,
+  "text": "obstacle name copy this"
+ },
+ {
+  "start": 296.59,
+  "end": 296.6,
+  "text": "one and name your module with the"
+ },
+ {
+  "start": 296.6,
+  "end": 299.87,
+  "text": "obstacle name it is best practice to"
+ },
+ {
+  "start": 299.88,
+  "end": 301.71,
+  "text": "name the modules"
+ },
+ {
+  "start": 301.72,
+  "end": 307.15,
+  "text": "or name the modules in logical way okay"
+ },
+ {
+  "start": 307.16,
+  "end": 311.07,
+  "text": "so done now let's save the"
+ },
+ {
+  "start": 311.08,
+  "end": 315.189,
+  "text": "module and close the xcan go back to Tri"
+ },
+ {
+  "start": 315.199,
+  "end": 317.35,
+  "text": "sentence so what is the module that we"
+ },
+ {
+  "start": 317.36,
+  "end": 321.27,
+  "text": "scanned so this is our this is our new"
+ },
+ {
+  "start": 321.28,
+  "end": 323.11,
+  "text": "module that we scanned double click on"
+ },
+ {
+  "start": 323.12,
+  "end": 326.309,
+  "text": "this you can see row count table row"
+ },
+ {
+  "start": 326.319,
+  "end": 328.749,
+  "text": "count edit box and click me so let us go"
+ },
+ {
+  "start": 328.759,
+  "end": 330.35,
+  "text": "back to again"
+ },
+ {
+  "start": 330.36,
+  "end": 333.629,
+  "text": "our blue section which is test case"
+ },
+ {
+  "start": 333.639,
+  "end": 336.35,
+  "text": "section so let me right click on this"
+ },
+ {
+  "start": 336.36,
+  "end": 340.15,
+  "text": "obstacles test case folder and create a"
+ },
+ {
+  "start": 340.16,
+  "end": 344.99,
+  "text": "new test case name this with the same"
+ },
+ {
+  "start": 345.0,
+  "end": 348.59,
+  "text": "name as your obstacle name and then"
+ },
+ {
+  "start": 348.6,
+  "end": 351.43,
+  "text": "double click on this particular obstacle"
+ },
+ {
+  "start": 351.44,
+  "end": 353.15,
+  "text": "now let us start automating our test"
+ },
+ {
+  "start": 353.16,
+  "end": 356.83,
+  "text": "case for that let me drag this module"
+ },
+ {
+  "start": 356.84,
+  "end": 360.55,
+  "text": "and drop onto your test case"
+ },
+ {
+  "start": 360.56,
+  "end": 363.189,
+  "text": "so what is our first action we need to"
+ },
+ {
+  "start": 363.199,
+  "end": 366.749,
+  "text": "calculate the row count how can we"
+ },
+ {
+  "start": 366.759,
+  "end": 370.11,
+  "text": "calculate the row count of your Dynamic"
+ },
+ {
+  "start": 370.12,
+  "end": 372.99,
+  "text": "web table so for that what I'm going to"
+ },
+ {
+  "start": 373.0,
+  "end": 375.629,
+  "text": "do here I would like to"
+ },
+ {
+  "start": 375.639,
+  "end": 378.749,
+  "text": "use a row count property what is the"
+ },
+ {
+  "start": 378.759,
+  "end": 379.95,
+  "text": "property I would like to use I would"
+ },
+ {
+  "start": 379.96,
+  "end": 383.629,
+  "text": "like to use row count"
+ },
+ {
+  "start": 383.639,
+  "end": 387.99,
+  "text": "property your row count is equal to what"
+ },
+ {
+  "start": 388.0,
+  "end": 390.79,
+  "text": "I'm doing I'm going to store for the"
+ },
+ {
+  "start": 390.8,
+  "end": 393.83,
+  "text": "dynamic row count because see whenever I"
+ },
+ {
+  "start": 393.84,
+  "end": 395.83,
+  "text": "execute this particular test case the"
+ },
+ {
+  "start": 395.84,
+  "end": 398.35,
+  "text": "row count is not constant it keeps on"
+ },
+ {
+  "start": 398.36,
+  "end": 400.51,
+  "text": "changing that's why I would like to"
+ },
+ {
+  "start": 400.52,
+  "end": 403.07,
+  "text": "store this row count into a buffer"
+ },
+ {
+  "start": 403.08,
+  "end": 404.909,
+  "text": "called"
+ },
+ {
+  "start": 404.919,
+  "end": 408.87,
+  "text": "row okay this is my buffer so here if"
+ },
+ {
+  "start": 408.88,
+  "end": 411.309,
+  "text": "you want to store the row count into"
+ },
+ {
+  "start": 411.319,
+  "end": 413.27,
+  "text": "your buffer you need to select the"
+ },
+ {
+  "start": 413.28,
+  "end": 415.749,
+  "text": "action mode as"
+ },
+ {
+  "start": 415.759,
+  "end": 419.67,
+  "text": "buffer so what row count I'm storing I'm"
+ },
+ {
+  "start": 419.68,
+  "end": 421.629,
+  "text": "storing the row count of this particular"
+ },
+ {
+  "start": 421.639,
+  "end": 425.309,
+  "text": "web table so once I store the row count"
+ },
+ {
+  "start": 425.319,
+  "end": 428.749,
+  "text": "into a buffer now I need to enter the"
+ },
+ {
+  "start": 428.759,
+  "end": 433.51,
+  "text": "row count into the edit box right so"
+ },
+ {
+  "start": 433.52,
+  "end": 436.51,
+  "text": "here I would like to call the"
+ },
+ {
+  "start": 436.52,
+  "end": 440.189,
+  "text": "buffer where I'm storing the row count"
+ },
+ {
+  "start": 440.199,
+  "end": 441.67,
+  "text": "right I would like to call the same"
+ },
+ {
+  "start": 441.68,
+  "end": 445.39,
+  "text": "buffer here open curly braces capital B"
+ },
+ {
+  "start": 445.4,
+  "end": 447.95,
+  "text": "represents your buffer and then open"
+ },
+ {
+  "start": 447.96,
+  "end": 450.83,
+  "text": "Square braces what is the buffer name"
+ },
+ {
+  "start": 450.84,
+  "end": 453.83,
+  "text": "Rose is your buffer name close Square"
+ },
+ {
+  "start": 453.84,
+  "end": 457.07,
+  "text": "braces and then close your curly"
+ },
+ {
+  "start": 457.08,
+  "end": 460.749,
+  "text": "braces so this is my buffer I'm calling"
+ },
+ {
+  "start": 460.759,
+  "end": 464.07,
+  "text": "the buffer I'm basically entering the"
+ },
+ {
+  "start": 464.08,
+  "end": 467.749,
+  "text": "value stored in a"
+ },
+ {
+  "start": 467.759,
+  "end": 470.869,
+  "text": "buffer and then I need to click on this"
+ },
+ {
+  "start": 470.879,
+  "end": 474.029,
+  "text": "particular click me button that I'm"
+ },
+ {
+  "start": 474.039,
+  "end": 477.589,
+  "text": "going to select click option and your"
+ },
+ {
+  "start": 477.599,
+  "end": 480.11,
+  "text": "action mode for these two will be"
+ },
+ {
+  "start": 480.12,
+  "end": 484.27,
+  "text": "input right now let's change the work"
+ },
+ {
+  "start": 484.28,
+  "end": 486.99,
+  "text": "state as"
+ },
+ {
+  "start": 487.0,
+  "end": 491.629,
+  "text": "completed and now let us save the test"
+ },
+ {
+  "start": 491.639,
+  "end": 494.11,
+  "text": "case so let me run this particular test"
+ },
+ {
+  "start": 494.12,
+  "end": 496.309,
+  "text": "case and see if it works for us okay"
+ },
+ {
+  "start": 496.319,
+  "end": 502.869,
+  "text": "right click and run in"
+ },
+ {
+  "start": 505.51,
+  "end": 505.52,
+  "text": "scratchbook let us see if it calculates"
+ },
+ {
+  "start": 505.52,
+  "end": 512.55,
+  "text": "the row count correctly"
+ },
+ {
+  "start": 516.709,
+  "end": 516.719,
+  "text": "see it entered the row count correctly"
+ },
+ {
+  "start": 516.719,
+  "end": 519.029,
+  "text": "so let me try again let me execute the"
+ },
+ {
+  "start": 519.039,
+  "end": 521.11,
+  "text": "same test one more time so this time"
+ },
+ {
+  "start": 521.12,
+  "end": 523.469,
+  "text": "your row count is going to change"
+ },
+ {
+  "start": 523.479,
+  "end": 526.23,
+  "text": "earlier it was 18 right so let me WR"
+ },
+ {
+  "start": 526.24,
+  "end": 529.43,
+  "text": "retry this one okay let's go back here"
+ },
+ {
+  "start": 529.44,
+  "end": 531.75,
+  "text": "and let me run this particular test one"
+ },
+ {
+  "start": 531.76,
+  "end": 533.71,
+  "text": "more time right"
+ },
+ {
+  "start": 533.72,
+  "end": 542.31,
+  "text": "click and then run in scratchbook"
+ },
+ {
+  "start": 545.19,
+  "end": 545.2,
+  "text": "see it entered the Ron correctly and"
+ },
+ {
+  "start": 545.2,
+  "end": 546.15,
+  "text": "then clicked"
+ },
+ {
+  "start": 546.16,
+  "end": 549.509,
+  "text": "on click me"
+ },
+ {
+  "start": 549.519,
+  "end": 553.79,
+  "text": "button so which means our test case"
+ },
+ {
+  "start": 553.8,
+  "end": 555.99,
+  "text": "automation is successful so you can see"
+ },
+ {
+  "start": 556.0,
+  "end": 559.43,
+  "text": "the test results here okay so here the"
+ },
+ {
+  "start": 559.44,
+  "end": 562.19,
+  "text": "row count is stored under buffer which"
+ },
+ {
+  "start": 562.2,
+  "end": 565.23,
+  "text": "is 18 and then we are entering the same"
+ },
+ {
+  "start": 565.24,
+  "end": 569.59,
+  "text": "18 here okay so if you have any queries"
+ },
+ {
+  "start": 569.6,
+  "end": 571.35,
+  "text": "leave your queries in the comment box"
+ },
+ {
+  "start": 571.36,
+  "end": 573.43,
+  "text": "hope you all understand how can we"
+ },
+ {
+  "start": 573.44,
+  "end": 577.15,
+  "text": "automate the obstacle which involves the"
+ },
+ {
+  "start": 577.16,
+  "end": 578.55,
+  "text": "dyamic web"
+ },
+ {
+  "start": 578.56,
+  "end": 582.11,
+  "text": "table hope you all understand how can we"
+ },
+ {
+  "start": 582.12,
+  "end": 586.269,
+  "text": "solve an obstacle where we need to count"
+ },
+ {
+  "start": 586.279,
+  "end": 589.11,
+  "text": "the number of rows in a dynamic web"
+ },
+ {
+  "start": 589.12,
+  "end": 593.35,
+  "text": "table and you need to input the count of"
+ },
+ {
+  "start": 593.36,
+  "end": 596.949,
+  "text": "number of rows into a text field by"
+ },
+ {
+  "start": 596.959,
+  "end": 600.59,
+  "text": "using the concepts called dynamic table"
+ },
+ {
+  "start": 600.6,
+  "end": 603.71,
+  "text": "count number of rows by using row count"
+ },
+ {
+  "start": 603.72,
+  "end": 606.509,
+  "text": "concept please do subscribe to the"
+ },
+ {
+  "start": 606.519,
+  "end": 608.67,
+  "text": "channel click on Bell icon you'll"
+ },
+ {
+  "start": 608.68,
+  "end": 610.829,
+  "text": "receive notifications whenever I publish"
+ },
+ {
+  "start": 610.839,
+  "end": 614.31,
+  "text": "more videos don't forget to like and"
+ },
+ {
+  "start": 614.32,
+  "end": 622.85,
+  "text": "share the video thank you"
+ }
+]

@@ -1,0 +1,1282 @@
+[
+ {
+  "start": 1.68,
+  "end": 4.85,
+  "text": "foreign"
+ },
+ {
+  "start": 17.93,
+  "end": 17.94,
+  "text": "Level Training"
+ },
+ {
+  "start": 17.94,
+  "end": 21.529,
+  "text": "so this is our lesson 6 in terms of"
+ },
+ {
+  "start": 21.539,
+  "end": 23.57,
+  "text": "advanced level training"
+ },
+ {
+  "start": 23.58,
+  "end": 27.05,
+  "text": "but it's a 21st lesson"
+ },
+ {
+  "start": 27.06,
+  "end": 30.109,
+  "text": "in terms of overall present testoster"
+ },
+ {
+  "start": 30.119,
+  "end": 32.63,
+  "text": "automation Concepts"
+ },
+ {
+  "start": 32.64,
+  "end": 35.09,
+  "text": "so in this lesson I'm gonna teach you"
+ },
+ {
+  "start": 35.1,
+  "end": 39.709,
+  "text": "how can we create cleanup scenarios and"
+ },
+ {
+  "start": 39.719,
+  "end": 43.61,
+  "text": "then how can we use cleanup scenarios by"
+ },
+ {
+  "start": 43.62,
+  "end": 46.61,
+  "text": "using present testoster latest version"
+ },
+ {
+  "start": 46.62,
+  "end": 50.15,
+  "text": "60. please do subscribe to the channel"
+ },
+ {
+  "start": 50.16,
+  "end": 52.19,
+  "text": "click on Bell icon you'll receive"
+ },
+ {
+  "start": 52.2,
+  "end": 54.83,
+  "text": "notifications whenever I publish more"
+ },
+ {
+  "start": 54.84,
+  "end": 55.729,
+  "text": "videos"
+ },
+ {
+  "start": 55.739,
+  "end": 58.43,
+  "text": "thank you"
+ },
+ {
+  "start": 58.44,
+  "end": 61.729,
+  "text": "okay so now let us understand what is"
+ },
+ {
+  "start": 61.739,
+  "end": 64.25,
+  "text": "this cleanup scenario and why do we need"
+ },
+ {
+  "start": 64.26,
+  "end": 68.09,
+  "text": "to use this cleanup scenario in Tasker"
+ },
+ {
+  "start": 68.1,
+  "end": 70.25,
+  "text": "so by end of this lesson you will be"
+ },
+ {
+  "start": 70.26,
+  "end": 73.67,
+  "text": "able to create and use cleanup scenario"
+ },
+ {
+  "start": 73.68,
+  "end": 77.149,
+  "text": "and this is very useful when recovery"
+ },
+ {
+  "start": 77.159,
+  "end": 80.63,
+  "text": "scenario is unrecovered so whenever your"
+ },
+ {
+  "start": 80.64,
+  "end": 83.69,
+  "text": "recovery scenario is unrecovered then"
+ },
+ {
+  "start": 83.7,
+  "end": 86.27,
+  "text": "these cleanup scenarios comes into"
+ },
+ {
+  "start": 86.28,
+  "end": 87.35,
+  "text": "picture"
+ },
+ {
+  "start": 87.36,
+  "end": 91.01,
+  "text": "so if recovery scenario fails if you"
+ },
+ {
+  "start": 91.02,
+  "end": 95.03,
+  "text": "want Tasker to reset and restart your"
+ },
+ {
+  "start": 95.04,
+  "end": 97.85,
+  "text": "application or your system under test"
+ },
+ {
+  "start": 97.86,
+  "end": 101.929,
+  "text": "and put it into the correct status of"
+ },
+ {
+  "start": 101.939,
+  "end": 105.71,
+  "text": "for your next test case right then you"
+ },
+ {
+  "start": 105.72,
+  "end": 108.23,
+  "text": "can use these cleanup scenarios"
+ },
+ {
+  "start": 108.24,
+  "end": 110.45,
+  "text": "and whenever test case is not"
+ },
+ {
+  "start": 110.46,
+  "end": 113.749,
+  "text": "recoverable cleanup scenario will"
+ },
+ {
+  "start": 113.759,
+  "end": 114.95,
+  "text": "start"
+ },
+ {
+  "start": 114.96,
+  "end": 118.429,
+  "text": "clean up a testing environment so that"
+ },
+ {
+  "start": 118.439,
+  "end": 121.81,
+  "text": "it will be ready or it is ready for your"
+ },
+ {
+  "start": 121.82,
+  "end": 125.27,
+  "text": "next test case run"
+ },
+ {
+  "start": 125.28,
+  "end": 130.309,
+  "text": "okay and cleanup scenarios can be added"
+ },
+ {
+  "start": 130.319,
+  "end": 133.25,
+  "text": "to recovery scenarios connection so"
+ },
+ {
+  "start": 133.26,
+  "end": 135.77,
+  "text": "basically the recovery scenarios as well"
+ },
+ {
+  "start": 135.78,
+  "end": 138.83,
+  "text": "as as well as the cleanup scenarios both"
+ },
+ {
+  "start": 138.84,
+  "end": 141.47,
+  "text": "will be added to recovery scenario"
+ },
+ {
+  "start": 141.48,
+  "end": 142.79,
+  "text": "collections"
+ },
+ {
+  "start": 142.8,
+  "end": 145.43,
+  "text": "so now let's jump onto the system and"
+ },
+ {
+  "start": 145.44,
+  "end": 149.69,
+  "text": "see how can we create and use cleanup"
+ },
+ {
+  "start": 149.7,
+  "end": 152.449,
+  "text": "scenarios by using latest version try"
+ },
+ {
+  "start": 152.459,
+  "end": 156.29,
+  "text": "sentence task as 60."
+ },
+ {
+  "start": 161.449,
+  "end": 161.459,
+  "text": "okay so this is uh my task of 16 okay so"
+ },
+ {
+  "start": 161.459,
+  "end": 163.729,
+  "text": "let us first understand"
+ },
+ {
+  "start": 163.739,
+  "end": 167.33,
+  "text": "the scenario where you would need a"
+ },
+ {
+  "start": 167.34,
+  "end": 170.03,
+  "text": "cleaner scenario to be created okay for"
+ },
+ {
+  "start": 170.04,
+  "end": 172.43,
+  "text": "that I just created one test case okay"
+ },
+ {
+  "start": 172.44,
+  "end": 174.49,
+  "text": "it's a very simple end-to-end test case"
+ },
+ {
+  "start": 174.5,
+  "end": 179.99,
+  "text": "where we'll be navigating to the webshop"
+ },
+ {
+  "start": 180.0,
+  "end": 182.27,
+  "text": "and then you're gonna log in and then"
+ },
+ {
+  "start": 182.28,
+  "end": 184.79,
+  "text": "you are gonna purchase the blue jeans"
+ },
+ {
+  "start": 184.8,
+  "end": 186.229,
+  "text": "you're going to add to cart and then"
+ },
+ {
+  "start": 186.239,
+  "end": 188.15,
+  "text": "you're gonna complete your checkout"
+ },
+ {
+  "start": 188.16,
+  "end": 189.83,
+  "text": "process okay so you're going to purchase"
+ },
+ {
+  "start": 189.84,
+  "end": 191.57,
+  "text": "the blue jeans okay so that's what the"
+ },
+ {
+  "start": 191.58,
+  "end": 193.25,
+  "text": "scenario okay let me just run this"
+ },
+ {
+  "start": 193.26,
+  "end": 195.05,
+  "text": "particular test case so I already"
+ },
+ {
+  "start": 195.06,
+  "end": 197.089,
+  "text": "explained automating this end-to-end"
+ },
+ {
+  "start": 197.099,
+  "end": 199.49,
+  "text": "test case in my previous sessions okay"
+ },
+ {
+  "start": 199.5,
+  "end": 201.83,
+  "text": "so I would recommend you guys to visit"
+ },
+ {
+  "start": 201.84,
+  "end": 204.11,
+  "text": "my previous sessions so let me just run"
+ },
+ {
+  "start": 204.12,
+  "end": 207.11,
+  "text": "this test case okay"
+ },
+ {
+  "start": 209.57,
+  "end": 209.58,
+  "text": "so it opens your webshop"
+ },
+ {
+  "start": 209.58,
+  "end": 212.509,
+  "text": "Okay click done login and then enter the"
+ },
+ {
+  "start": 212.519,
+  "end": 213.83,
+  "text": "username password"
+ },
+ {
+  "start": 213.84,
+  "end": 216.13,
+  "text": "right and then it's going to purchase"
+ },
+ {
+  "start": 216.14,
+  "end": 218.27,
+  "text": "the blue jeans"
+ },
+ {
+  "start": 218.28,
+  "end": 221.39,
+  "text": "add to cart"
+ },
+ {
+  "start": 226.19,
+  "end": 226.2,
+  "text": "and then agree the terms of services"
+ },
+ {
+  "start": 226.2,
+  "end": 228.47,
+  "text": "right so you remember agreeing the terms"
+ },
+ {
+  "start": 228.48,
+  "end": 230.63,
+  "text": "of services where you will be checking"
+ },
+ {
+  "start": 230.64,
+  "end": 232.07,
+  "text": "the Box okay"
+ },
+ {
+  "start": 232.08,
+  "end": 233.869,
+  "text": "so"
+ },
+ {
+  "start": 233.879,
+  "end": 236.869,
+  "text": "so this is our straight forward scenario"
+ },
+ {
+  "start": 236.879,
+  "end": 239.27,
+  "text": "purchasing a blue jeans successfully"
+ },
+ {
+  "start": 239.28,
+  "end": 241.369,
+  "text": "order has been placed and close the"
+ },
+ {
+  "start": 241.379,
+  "end": 244.19,
+  "text": "browser log out and close the browser so"
+ },
+ {
+  "start": 244.2,
+  "end": 245.35,
+  "text": "now"
+ },
+ {
+  "start": 245.36,
+  "end": 247.43,
+  "text": "what if"
+ },
+ {
+  "start": 247.44,
+  "end": 249.289,
+  "text": "what if"
+ },
+ {
+  "start": 249.299,
+  "end": 254.149,
+  "text": "this test case gets failed in Middle"
+ },
+ {
+  "start": 254.159,
+  "end": 256.729,
+  "text": "where let's say verifying the prices for"
+ },
+ {
+  "start": 256.739,
+  "end": 258.59,
+  "text": "example while"
+ },
+ {
+  "start": 258.6,
+  "end": 261.229,
+  "text": "start checkout process right here while"
+ },
+ {
+  "start": 261.239,
+  "end": 263.21,
+  "text": "checking out the process let's assume"
+ },
+ {
+  "start": 263.22,
+  "end": 265.85,
+  "text": "the terms of service okay let's say I'm"
+ },
+ {
+  "start": 265.86,
+  "end": 268.55,
+  "text": "gonna fail this test case okay at terms"
+ },
+ {
+  "start": 268.56,
+  "end": 271.129,
+  "text": "of service it's not going to click on uh"
+ },
+ {
+  "start": 271.139,
+  "end": 273.53,
+  "text": "the terms and uh it's we are not going"
+ },
+ {
+  "start": 273.54,
+  "end": 275.33,
+  "text": "to accept the terms and conditions then"
+ },
+ {
+  "start": 275.34,
+  "end": 277.31,
+  "text": "what happens it's going to throw an"
+ },
+ {
+  "start": 277.32,
+  "end": 278.87,
+  "text": "error message saying that you have not"
+ },
+ {
+  "start": 278.88,
+  "end": 281.33,
+  "text": "accepted the terms and conditions so in"
+ },
+ {
+  "start": 281.34,
+  "end": 284.15,
+  "text": "this case this test case will fail"
+ },
+ {
+  "start": 284.16,
+  "end": 287.57,
+  "text": "okay let's save this so when this test"
+ },
+ {
+  "start": 287.58,
+  "end": 290.27,
+  "text": "case fails"
+ },
+ {
+  "start": 290.28,
+  "end": 294.23,
+  "text": "we need to trigger cleanup scenario"
+ },
+ {
+  "start": 294.24,
+  "end": 297.35,
+  "text": "so that your environment will be cleaned"
+ },
+ {
+  "start": 297.36,
+  "end": 301.189,
+  "text": "up and it is ready for your next test"
+ },
+ {
+  "start": 301.199,
+  "end": 304.249,
+  "text": "case so when you actually let's go back"
+ },
+ {
+  "start": 304.259,
+  "end": 307.909,
+  "text": "to webshop again okay"
+ },
+ {
+  "start": 307.919,
+  "end": 310.55,
+  "text": "so what happens when you do that okay"
+ },
+ {
+  "start": 310.56,
+  "end": 312.53,
+  "text": "let's say login"
+ },
+ {
+  "start": 312.54,
+  "end": 318.95,
+  "text": "I'm logging into my"
+ },
+ {
+  "start": 322.01,
+  "end": 322.02,
+  "text": "okay logged in okay so now once I log in"
+ },
+ {
+  "start": 322.02,
+  "end": 324.71,
+  "text": "let's say apparents and choose so what"
+ },
+ {
+  "start": 324.72,
+  "end": 327.17,
+  "text": "I'm doing actually I am clicking on this"
+ },
+ {
+  "start": 327.18,
+  "end": 330.59,
+  "text": "I'm adding quantity of 10 to the cart"
+ },
+ {
+  "start": 330.6,
+  "end": 332.09,
+  "text": "correct"
+ },
+ {
+  "start": 332.1,
+  "end": 334.969,
+  "text": "and then going to shopping cart here"
+ },
+ {
+  "start": 334.979,
+  "end": 337.61,
+  "text": "instead of agreeing this I just clicked"
+ },
+ {
+  "start": 337.62,
+  "end": 339.59,
+  "text": "on checkout then you're gonna get this"
+ },
+ {
+  "start": 339.6,
+  "end": 341.57,
+  "text": "error message so then what happens your"
+ },
+ {
+  "start": 341.58,
+  "end": 344.749,
+  "text": "your test case will fail"
+ },
+ {
+  "start": 344.759,
+  "end": 348.05,
+  "text": "so once your test case fails"
+ },
+ {
+  "start": 348.06,
+  "end": 350.57,
+  "text": "your website should be ready for your"
+ },
+ {
+  "start": 350.58,
+  "end": 352.61,
+  "text": "next test case execution"
+ },
+ {
+  "start": 352.62,
+  "end": 354.95,
+  "text": "so when I log in again what happens"
+ },
+ {
+  "start": 354.96,
+  "end": 358.07,
+  "text": "right in your shopping cart this blue"
+ },
+ {
+  "start": 358.08,
+  "end": 361.45,
+  "text": "jeans will be added it's already added"
+ },
+ {
+  "start": 361.46,
+  "end": 364.85,
+  "text": "so what you need to do to recover or to"
+ },
+ {
+  "start": 364.86,
+  "end": 366.79,
+  "text": "put your environment to the same state"
+ },
+ {
+  "start": 366.8,
+  "end": 370.49,
+  "text": "first you need to empty this shopping"
+ },
+ {
+  "start": 370.5,
+  "end": 374.33,
+  "text": "cart and log out and close the browser"
+ },
+ {
+  "start": 374.34,
+  "end": 377.27,
+  "text": "why I need to log out because whenever"
+ },
+ {
+  "start": 377.28,
+  "end": 379.93,
+  "text": "you enter one more time next time right"
+ },
+ {
+  "start": 379.94,
+  "end": 382.309,
+  "text": "you've directly Landing onto your"
+ },
+ {
+  "start": 382.319,
+  "end": 385.909,
+  "text": "website with login see I can see I"
+ },
+ {
+  "start": 385.919,
+  "end": 387.77,
+  "text": "already logged in and in the shopping"
+ },
+ {
+  "start": 387.78,
+  "end": 389.51,
+  "text": "cart I can see 10"
+ },
+ {
+  "start": 389.52,
+  "end": 392.45,
+  "text": "items already there right so when you"
+ },
+ {
+  "start": 392.46,
+  "end": 395.689,
+  "text": "when your next test case is triggered"
+ },
+ {
+  "start": 395.699,
+  "end": 399.35,
+  "text": "by default your website will be landed"
+ },
+ {
+  "start": 399.36,
+  "end": 401.09,
+  "text": "in such a way that you are already"
+ },
+ {
+  "start": 401.1,
+  "end": 403.79,
+  "text": "logged in and you have some items in the"
+ },
+ {
+  "start": 403.8,
+  "end": 404.749,
+  "text": "shopping cart"
+ },
+ {
+  "start": 404.759,
+  "end": 407.51,
+  "text": "so that's why it's very necessary for"
+ },
+ {
+  "start": 407.52,
+  "end": 408.65,
+  "text": "you to"
+ },
+ {
+  "start": 408.66,
+  "end": 411.79,
+  "text": "empty the shopping cart and log out"
+ },
+ {
+  "start": 411.8,
+  "end": 417.29,
+  "text": "right that's what you need to do"
+ },
+ {
+  "start": 420.89,
+  "end": 420.9,
+  "text": "execute your next test case right so"
+ },
+ {
+  "start": 420.9,
+  "end": 423.05,
+  "text": "that's why hey what I'm gonna do I'm"
+ },
+ {
+  "start": 423.06,
+  "end": 425.87,
+  "text": "gonna create one"
+ },
+ {
+  "start": 425.88,
+  "end": 429.23,
+  "text": "recovery scenario where at here right"
+ },
+ {
+  "start": 429.24,
+  "end": 431.93,
+  "text": "click sorry recovery scenario collection"
+ },
+ {
+  "start": 431.94,
+  "end": 434.57,
+  "text": "right click and then"
+ },
+ {
+  "start": 434.58,
+  "end": 437.57,
+  "text": "create your recur recovery scenario"
+ },
+ {
+  "start": 437.58,
+  "end": 440.15,
+  "text": "collection okay"
+ },
+ {
+  "start": 440.16,
+  "end": 441.83,
+  "text": "so what I'm gonna do"
+ },
+ {
+  "start": 441.84,
+  "end": 445.07,
+  "text": "so right click here"
+ },
+ {
+  "start": 445.08,
+  "end": 448.67,
+  "text": "and then create a recovery scenario"
+ },
+ {
+  "start": 448.68,
+  "end": 452.749,
+  "text": "add recovery scenario collection okay so"
+ },
+ {
+  "start": 452.759,
+  "end": 455.27,
+  "text": "let me just again show you okay at the"
+ },
+ {
+  "start": 455.28,
+  "end": 457.73,
+  "text": "test case and top of the test case I'm"
+ },
+ {
+  "start": 457.74,
+  "end": 461.21,
+  "text": "actually adding a recovery scenario"
+ },
+ {
+  "start": 461.22,
+  "end": 462.77,
+  "text": "collection"
+ },
+ {
+  "start": 462.78,
+  "end": 466.37,
+  "text": "under this I'm gonna add a clean up"
+ },
+ {
+  "start": 466.38,
+  "end": 469.61,
+  "text": "scenario create cleanup scenario"
+ },
+ {
+  "start": 469.62,
+  "end": 470.809,
+  "text": "okay"
+ },
+ {
+  "start": 470.819,
+  "end": 472.43,
+  "text": "so here"
+ },
+ {
+  "start": 472.44,
+  "end": 475.61,
+  "text": "under this create cleanup scenario I'm"
+ },
+ {
+  "start": 475.62,
+  "end": 477.95,
+  "text": "gonna drag see this is my empty shopping"
+ },
+ {
+  "start": 477.96,
+  "end": 481.43,
+  "text": "contest case Okay drag and drop your"
+ },
+ {
+  "start": 481.44,
+  "end": 485.57,
+  "text": "empty shopping cart test case"
+ },
+ {
+  "start": 485.58,
+  "end": 487.79,
+  "text": "okay"
+ },
+ {
+  "start": 487.8,
+  "end": 488.93,
+  "text": "right"
+ },
+ {
+  "start": 488.94,
+  "end": 492.05,
+  "text": "so I just created one cleanup scenario"
+ },
+ {
+  "start": 492.06,
+  "end": 494.93,
+  "text": "where it's gonna navigate to the"
+ },
+ {
+  "start": 494.94,
+  "end": 497.87,
+  "text": "shopping cart it's gonna if you remember"
+ },
+ {
+  "start": 497.88,
+  "end": 500.51,
+  "text": "emptying shopping cart by using while"
+ },
+ {
+  "start": 500.52,
+  "end": 503.21,
+  "text": "loop right I already told you in my"
+ },
+ {
+  "start": 503.22,
+  "end": 505.369,
+  "text": "previous session where I have explained"
+ },
+ {
+  "start": 505.379,
+  "end": 507.83,
+  "text": "you how to use while loop so this is"
+ },
+ {
+  "start": 507.84,
+  "end": 510.29,
+  "text": "what the example I showed you how can we"
+ },
+ {
+  "start": 510.3,
+  "end": 512.51,
+  "text": "empty the shopping cart by using wine"
+ },
+ {
+  "start": 512.52,
+  "end": 515.57,
+  "text": "okay the same test case I just dragged"
+ },
+ {
+  "start": 515.58,
+  "end": 518.51,
+  "text": "and dropped into my cleanup scenario now"
+ },
+ {
+  "start": 518.52,
+  "end": 521.93,
+  "text": "to fail this previous test case I"
+ },
+ {
+  "start": 521.94,
+  "end": 524.63,
+  "text": "already removed this deleting my terms"
+ },
+ {
+  "start": 524.64,
+  "end": 525.949,
+  "text": "and service"
+ },
+ {
+  "start": 525.959,
+  "end": 529.43,
+  "text": "because I don't want to check"
+ },
+ {
+  "start": 529.44,
+  "end": 531.41,
+  "text": "I don't want to agree the terms and"
+ },
+ {
+  "start": 531.42,
+  "end": 532.73,
+  "text": "services right so that's why I'm"
+ },
+ {
+  "start": 532.74,
+  "end": 535.61,
+  "text": "deleting that value so now if you see"
+ },
+ {
+  "start": 535.62,
+  "end": 537.17,
+  "text": "here the structure"
+ },
+ {
+  "start": 537.18,
+  "end": 539.81,
+  "text": "I have a recovery scenario at"
+ },
+ {
+  "start": 539.82,
+  "end": 543.59,
+  "text": "the parent level now I have one test"
+ },
+ {
+  "start": 543.6,
+  "end": 546.71,
+  "text": "case related to clean up scenario right"
+ },
+ {
+  "start": 546.72,
+  "end": 549.41,
+  "text": "so when I execute this cleanup scenario"
+ },
+ {
+  "start": 549.42,
+  "end": 551.15,
+  "text": "to execute this scene up cleanup"
+ },
+ {
+  "start": 551.16,
+  "end": 553.73,
+  "text": "scenario one more thing is your recovery"
+ },
+ {
+  "start": 553.74,
+  "end": 557.21,
+  "text": "scenarios can be triggered only"
+ },
+ {
+  "start": 557.22,
+  "end": 560.449,
+  "text": "when you execute your test Case by using"
+ },
+ {
+  "start": 560.459,
+  "end": 562.43,
+  "text": "execution list"
+ },
+ {
+  "start": 562.44,
+  "end": 565.25,
+  "text": "so now let me"
+ },
+ {
+  "start": 565.26,
+  "end": 567.949,
+  "text": "drag and drop my"
+ },
+ {
+  "start": 567.959,
+  "end": 570.949,
+  "text": "recovery scenario your test case okay"
+ },
+ {
+  "start": 570.959,
+  "end": 573.71,
+  "text": "so let me simply"
+ },
+ {
+  "start": 573.72,
+  "end": 577.55,
+  "text": "execute this test Case by using"
+ },
+ {
+  "start": 577.56,
+  "end": 580.61,
+  "text": "the recovery scenario okay so this is my"
+ },
+ {
+  "start": 580.62,
+  "end": 585.17,
+  "text": "cleanup scenario test case okay"
+ },
+ {
+  "start": 587.15,
+  "end": 587.16,
+  "text": "okay let me just delete clean up"
+ },
+ {
+  "start": 587.16,
+  "end": 589.07,
+  "text": "everything okay"
+ },
+ {
+  "start": 589.08,
+  "end": 591.949,
+  "text": "so now let me execute this cleanup"
+ },
+ {
+  "start": 591.959,
+  "end": 593.509,
+  "text": "scenario when I execute this cleanup"
+ },
+ {
+  "start": 593.519,
+  "end": 596.329,
+  "text": "scenario my test case is going to fail"
+ },
+ {
+  "start": 596.339,
+  "end": 598.97,
+  "text": "and then it should trigger my recovery"
+ },
+ {
+  "start": 598.98,
+  "end": 602.69,
+  "text": "scenario okay so now let's right click"
+ },
+ {
+  "start": 602.7,
+  "end": 606.05,
+  "text": "and run this"
+ },
+ {
+  "start": 606.06,
+  "end": 609.13,
+  "text": "exhibition"
+ },
+ {
+  "start": 612.769,
+  "end": 612.779,
+  "text": "so now it's going to log in right"
+ },
+ {
+  "start": 612.779,
+  "end": 615.829,
+  "text": "and then apparelence and choose"
+ },
+ {
+  "start": 615.839,
+  "end": 618.59,
+  "text": "and it is going to add the genes and"
+ },
+ {
+  "start": 618.6,
+  "end": 621.41,
+  "text": "here once you go to shopping cart see"
+ },
+ {
+  "start": 621.42,
+  "end": 623.81,
+  "text": "now I'm not checking in that let's go"
+ },
+ {
+  "start": 623.82,
+  "end": 626.69,
+  "text": "check out see you're giving me a error"
+ },
+ {
+  "start": 626.7,
+  "end": 628.79,
+  "text": "now the test case will fail"
+ },
+ {
+  "start": 628.8,
+  "end": 631.07,
+  "text": "but"
+ },
+ {
+  "start": 631.08,
+  "end": 633.949,
+  "text": "recovery scenario will trigger"
+ },
+ {
+  "start": 633.959,
+  "end": 635.63,
+  "text": "which"
+ },
+ {
+  "start": 635.64,
+  "end": 637.43,
+  "text": "will"
+ },
+ {
+  "start": 637.44,
+  "end": 639.53,
+  "text": "empty the shopping see it emptied the"
+ },
+ {
+  "start": 639.54,
+  "end": 641.75,
+  "text": "shopping cart it's logged out and then"
+ },
+ {
+  "start": 641.76,
+  "end": 643.97,
+  "text": "close the browser so if you see here"
+ },
+ {
+  "start": 643.98,
+  "end": 647.269,
+  "text": "your test case is failed but the"
+ },
+ {
+  "start": 647.279,
+  "end": 651.17,
+  "text": "recovery scenario got triggered see here"
+ },
+ {
+  "start": 651.18,
+  "end": 653.449,
+  "text": "you see here"
+ },
+ {
+  "start": 653.459,
+  "end": 655.49,
+  "text": "sorry"
+ },
+ {
+  "start": 655.5,
+  "end": 657.65,
+  "text": "I think this one okay yeah this one see"
+ },
+ {
+  "start": 657.66,
+  "end": 659.15,
+  "text": "here"
+ },
+ {
+  "start": 659.16,
+  "end": 662.449,
+  "text": "here you are not able to"
+ },
+ {
+  "start": 662.459,
+  "end": 665.09,
+  "text": "complete your checkout process correct"
+ },
+ {
+  "start": 665.1,
+  "end": 667.61,
+  "text": "because of the"
+ },
+ {
+  "start": 667.62,
+  "end": 668.99,
+  "text": "agreement"
+ },
+ {
+  "start": 669.0,
+  "end": 671.93,
+  "text": "and here this test case is failed now"
+ },
+ {
+  "start": 671.94,
+  "end": 674.69,
+  "text": "cleanup scenario got triggered and which"
+ },
+ {
+  "start": 674.7,
+  "end": 678.41,
+  "text": "cleaned up your environment by"
+ },
+ {
+  "start": 678.42,
+  "end": 680.69,
+  "text": "navigating to shopping cart"
+ },
+ {
+  "start": 680.7,
+  "end": 684.47,
+  "text": "empty the shopping cart logged out and"
+ },
+ {
+  "start": 684.48,
+  "end": 686.87,
+  "text": "then close the browser now you are ready"
+ },
+ {
+  "start": 686.88,
+  "end": 690.05,
+  "text": "to execute your next test case"
+ },
+ {
+  "start": 690.06,
+  "end": 693.71,
+  "text": "so hope you all understand how to use"
+ },
+ {
+  "start": 693.72,
+  "end": 695.81,
+  "text": "your recovery scenariosis really really"
+ },
+ {
+  "start": 695.82,
+  "end": 698.69,
+  "text": "very important how can you use your"
+ },
+ {
+  "start": 698.7,
+  "end": 700.67,
+  "text": "cleanup scenario and what is the purpose"
+ },
+ {
+  "start": 700.68,
+  "end": 702.829,
+  "text": "of your cleanup scenario and how can you"
+ },
+ {
+  "start": 702.839,
+  "end": 704.99,
+  "text": "trigger the cleanup scenario okay so if"
+ },
+ {
+  "start": 705.0,
+  "end": 706.85,
+  "text": "you have any queries leave your comments"
+ },
+ {
+  "start": 706.86,
+  "end": 708.65,
+  "text": "in the comment box I'll try to respond"
+ },
+ {
+  "start": 708.66,
+  "end": 717.949,
+  "text": "to your queries thank you"
+ }
+]

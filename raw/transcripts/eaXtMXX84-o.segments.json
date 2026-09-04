@@ -1,0 +1,987 @@
+[
+ {
+  "start": 0.48,
+  "end": 0.98,
+  "text": "foreign"
+ },
+ {
+  "start": 21.65,
+  "end": 21.66,
+  "text": "this is our lesson three"
+ },
+ {
+  "start": 21.66,
+  "end": 23.87,
+  "text": "if you compare with the advanced level"
+ },
+ {
+  "start": 23.88,
+  "end": 27.17,
+  "text": "Trading but as an overall present"
+ },
+ {
+  "start": 27.18,
+  "end": 30.109,
+  "text": "testoster automation training it's a"
+ },
+ {
+  "start": 30.119,
+  "end": 32.17,
+  "text": "lesson 80."
+ },
+ {
+  "start": 32.18,
+  "end": 35.45,
+  "text": "so in this lesson I'm gonna teach you"
+ },
+ {
+  "start": 35.46,
+  "end": 40.25,
+  "text": "how can you link automated test cases to"
+ },
+ {
+  "start": 40.26,
+  "end": 41.229,
+  "text": "your"
+ },
+ {
+  "start": 41.239,
+  "end": 45.049,
+  "text": "requirements by using trisentis Tasker"
+ },
+ {
+  "start": 45.059,
+  "end": 48.049,
+  "text": "latest version 16."
+ },
+ {
+  "start": 48.059,
+  "end": 50.99,
+  "text": "please do subscribe to the channel click"
+ },
+ {
+  "start": 51.0,
+  "end": 52.49,
+  "text": "on Bell icon you'll receive"
+ },
+ {
+  "start": 52.5,
+  "end": 55.369,
+  "text": "notifications whenever I publish more"
+ },
+ {
+  "start": 55.379,
+  "end": 58.549,
+  "text": "videos thank you"
+ },
+ {
+  "start": 58.559,
+  "end": 62.15,
+  "text": "so by end of this lesson"
+ },
+ {
+  "start": 62.16,
+  "end": 66.41,
+  "text": "you learn how to link test cases to your"
+ },
+ {
+  "start": 66.42,
+  "end": 68.63,
+  "text": "requirements in Tosca"
+ },
+ {
+  "start": 68.64,
+  "end": 72.23,
+  "text": "and you learn how to link execution"
+ },
+ {
+  "start": 72.24,
+  "end": 75.41,
+  "text": "lists to your requirements"
+ },
+ {
+  "start": 75.42,
+  "end": 77.87,
+  "text": "so by linking your test cases and"
+ },
+ {
+  "start": 77.88,
+  "end": 81.649,
+  "text": "execution lists to your requirements you"
+ },
+ {
+  "start": 81.659,
+  "end": 85.55,
+  "text": "will get an overview of the progress and"
+ },
+ {
+  "start": 85.56,
+  "end": 88.73,
+  "text": "the entire state of your"
+ },
+ {
+  "start": 88.74,
+  "end": 90.469,
+  "text": "project"
+ },
+ {
+  "start": 90.479,
+  "end": 94.569,
+  "text": "so this is as same as as similar as"
+ },
+ {
+  "start": 94.579,
+  "end": 98.63,
+  "text": "traceability Matrix where you can track"
+ },
+ {
+  "start": 98.64,
+  "end": 101.63,
+  "text": "requirement coverage and the execution"
+ },
+ {
+  "start": 101.64,
+  "end": 103.249,
+  "text": "state"
+ },
+ {
+  "start": 103.259,
+  "end": 106.55,
+  "text": "so now let's jump onto the system and"
+ },
+ {
+  "start": 106.56,
+  "end": 109.67,
+  "text": "let me show you how can you link your"
+ },
+ {
+  "start": 109.68,
+  "end": 112.429,
+  "text": "automated test cases and your execution"
+ },
+ {
+  "start": 112.439,
+  "end": 115.249,
+  "text": "list to your requirements by using"
+ },
+ {
+  "start": 115.259,
+  "end": 117.95,
+  "text": "latest version Tasker 16."
+ },
+ {
+  "start": 117.96,
+  "end": 121.429,
+  "text": "so before we uh start"
+ },
+ {
+  "start": 121.439,
+  "end": 124.01,
+  "text": "um linking test cases to requirements"
+ },
+ {
+  "start": 124.02,
+  "end": 128.389,
+  "text": "right so this is my Tasker 16 tool okay"
+ },
+ {
+  "start": 128.399,
+  "end": 131.21,
+  "text": "let's let us understand very high level"
+ },
+ {
+  "start": 131.22,
+  "end": 134.15,
+  "text": "about the requirements okay so I've"
+ },
+ {
+  "start": 134.16,
+  "end": 137.089,
+  "text": "already listed out all the webshop"
+ },
+ {
+  "start": 137.099,
+  "end": 139.01,
+  "text": "front-end requirements in the"
+ },
+ {
+  "start": 139.02,
+  "end": 143.449,
+  "text": "requirements tab okay so basically uh we"
+ },
+ {
+  "start": 143.459,
+  "end": 145.15,
+  "text": "will I created"
+ },
+ {
+  "start": 145.16,
+  "end": 147.949,
+  "text": "requirements right click on top right"
+ },
+ {
+  "start": 147.959,
+  "end": 151.07,
+  "text": "requirements right click I created"
+ },
+ {
+  "start": 151.08,
+  "end": 154.07,
+  "text": "a folder requirement folder called"
+ },
+ {
+  "start": 154.08,
+  "end": 156.89,
+  "text": "webshop requirements under webshop"
+ },
+ {
+  "start": 156.9,
+  "end": 159.41,
+  "text": "requirement folder after you've created"
+ },
+ {
+  "start": 159.42,
+  "end": 161.93,
+  "text": "requirements set"
+ },
+ {
+  "start": 161.94,
+  "end": 163.009,
+  "text": "okay"
+ },
+ {
+  "start": 163.019,
+  "end": 166.009,
+  "text": "webshop front-end requirement set right"
+ },
+ {
+  "start": 166.019,
+  "end": 169.309,
+  "text": "click on the folder and this is set and"
+ },
+ {
+  "start": 169.319,
+  "end": 172.07,
+  "text": "this is your folder okay I created a"
+ },
+ {
+  "start": 172.08,
+  "end": 173.93,
+  "text": "requirement set"
+ },
+ {
+  "start": 173.94,
+  "end": 178.19,
+  "text": "under this again I have created a"
+ },
+ {
+  "start": 178.2,
+  "end": 180.05,
+  "text": "requirement"
+ },
+ {
+  "start": 180.06,
+  "end": 184.61,
+  "text": "okay called customer tasks so under this"
+ },
+ {
+  "start": 184.62,
+  "end": 188.089,
+  "text": "requirement again I have created four"
+ },
+ {
+  "start": 188.099,
+  "end": 190.49,
+  "text": "different requirements register login"
+ },
+ {
+  "start": 190.5,
+  "end": 192.589,
+  "text": "modify customer data"
+ },
+ {
+  "start": 192.599,
+  "end": 195.83,
+  "text": "check order in the same way handle"
+ },
+ {
+  "start": 195.84,
+  "end": 199.009,
+  "text": "product there are four requirements"
+ },
+ {
+  "start": 199.019,
+  "end": 201.35,
+  "text": "shopping cart there are four"
+ },
+ {
+  "start": 201.36,
+  "end": 204.71,
+  "text": "requirements order process there are"
+ },
+ {
+  "start": 204.72,
+  "end": 209.69,
+  "text": "four requirements okay so now this is"
+ },
+ {
+  "start": 209.7,
+  "end": 211.43,
+  "text": "all about the requirements I've already"
+ },
+ {
+  "start": 211.44,
+  "end": 214.49,
+  "text": "created requirements now to link your"
+ },
+ {
+  "start": 214.5,
+  "end": 218.21,
+  "text": "test cases to requirements let us first"
+ },
+ {
+  "start": 218.22,
+  "end": 221.149,
+  "text": "move these requirements to the split"
+ },
+ {
+  "start": 221.159,
+  "end": 223.55,
+  "text": "screen okay split screen view"
+ },
+ {
+  "start": 223.56,
+  "end": 226.93,
+  "text": "okay so these are the requirements okay"
+ },
+ {
+  "start": 226.94,
+  "end": 229.789,
+  "text": "and now"
+ },
+ {
+  "start": 229.799,
+  "end": 233.149,
+  "text": "we need to link the test cases so what"
+ },
+ {
+  "start": 233.159,
+  "end": 235.07,
+  "text": "test cases I'm going to link"
+ },
+ {
+  "start": 235.08,
+  "end": 238.25,
+  "text": "see the test cases from session 13"
+ },
+ {
+  "start": 238.26,
+  "end": 242.149,
+  "text": "the automated test case from uh Dynamic"
+ },
+ {
+  "start": 242.159,
+  "end": 244.25,
+  "text": "text numbers and the automated test"
+ },
+ {
+  "start": 244.26,
+  "end": 247.13,
+  "text": "cases from uh discount code so I'm going"
+ },
+ {
+  "start": 247.14,
+  "end": 248.99,
+  "text": "to map all these three requirements okay"
+ },
+ {
+  "start": 249.0,
+  "end": 251.57,
+  "text": "to the corresponding requirement on"
+ },
+ {
+  "start": 251.58,
+  "end": 252.649,
+  "text": "right side"
+ },
+ {
+  "start": 252.659,
+  "end": 254.99,
+  "text": "okay so first"
+ },
+ {
+  "start": 255.0,
+  "end": 256.61,
+  "text": "shopping"
+ },
+ {
+  "start": 256.62,
+  "end": 261.11,
+  "text": "costs so I'm gonna drag this and drop to"
+ },
+ {
+  "start": 261.12,
+  "end": 261.83,
+  "text": "the"
+ },
+ {
+  "start": 261.84,
+  "end": 266.93,
+  "text": "calculate shopping cost requirement okay"
+ },
+ {
+  "start": 266.94,
+  "end": 270.01,
+  "text": "and I have linked this okay and then"
+ },
+ {
+  "start": 270.02,
+  "end": 273.83,
+  "text": "this payment process I'm gonna drag this"
+ },
+ {
+  "start": 273.84,
+  "end": 275.15,
+  "text": "test case"
+ },
+ {
+  "start": 275.16,
+  "end": 278.03,
+  "text": "to payment method requirement"
+ },
+ {
+  "start": 278.04,
+  "end": 281.03,
+  "text": "okay so that is linked so if you see the"
+ },
+ {
+  "start": 281.04,
+  "end": 282.53,
+  "text": "test case is linked"
+ },
+ {
+  "start": 282.54,
+  "end": 285.95,
+  "text": "and now the discount code"
+ },
+ {
+  "start": 285.96,
+  "end": 288.59,
+  "text": "I'm gonna map this to discounts under"
+ },
+ {
+  "start": 288.6,
+  "end": 291.409,
+  "text": "shopping carts right drag"
+ },
+ {
+  "start": 291.419,
+  "end": 294.469,
+  "text": "and drop it to under shopping carts to"
+ },
+ {
+  "start": 294.479,
+  "end": 295.79,
+  "text": "discounts"
+ },
+ {
+  "start": 295.8,
+  "end": 299.27,
+  "text": "okay I have mapped this so now we have"
+ },
+ {
+  "start": 299.28,
+  "end": 302.689,
+  "text": "mapped three test cases to the"
+ },
+ {
+  "start": 302.699,
+  "end": 306.65,
+  "text": "corresponding requirements okay"
+ },
+ {
+  "start": 306.66,
+  "end": 308.57,
+  "text": "and then"
+ },
+ {
+  "start": 308.58,
+  "end": 311.09,
+  "text": "it's not enough to map just test cases"
+ },
+ {
+  "start": 311.1,
+  "end": 314.93,
+  "text": "we need to map the execution List actual"
+ },
+ {
+  "start": 314.94,
+  "end": 317.57,
+  "text": "execution list if you see here"
+ },
+ {
+  "start": 317.58,
+  "end": 320.09,
+  "text": "all those test cases in my previous"
+ },
+ {
+  "start": 320.1,
+  "end": 322.909,
+  "text": "session I have already explained you"
+ },
+ {
+  "start": 322.919,
+  "end": 325.73,
+  "text": "in my previous session creating the"
+ },
+ {
+  "start": 325.74,
+  "end": 328.67,
+  "text": "execution list right I have created an"
+ },
+ {
+  "start": 328.68,
+  "end": 332.21,
+  "text": "execution list and where I have mapped"
+ },
+ {
+  "start": 332.22,
+  "end": 334.43,
+  "text": "all these three test cases to that"
+ },
+ {
+  "start": 334.44,
+  "end": 339.43,
+  "text": "execution list okay so now we have to"
+ },
+ {
+  "start": 339.44,
+  "end": 343.129,
+  "text": "map this execution list to the"
+ },
+ {
+  "start": 343.139,
+  "end": 346.49,
+  "text": "requirement the parent requirement okay"
+ },
+ {
+  "start": 346.5,
+  "end": 350.09,
+  "text": "so we need to now"
+ },
+ {
+  "start": 350.1,
+  "end": 354.83,
+  "text": "map your execution list called webshop"
+ },
+ {
+  "start": 354.84,
+  "end": 357.95,
+  "text": "to your requirement set this is your"
+ },
+ {
+  "start": 357.96,
+  "end": 359.81,
+  "text": "requirement set under requirement set"
+ },
+ {
+  "start": 359.82,
+  "end": 362.39,
+  "text": "called friend webshop front end we have"
+ },
+ {
+  "start": 362.4,
+  "end": 365.21,
+  "text": "all the sub requirements this is your"
+ },
+ {
+  "start": 365.22,
+  "end": 367.79,
+  "text": "set so your execution list"
+ },
+ {
+  "start": 367.8,
+  "end": 370.37,
+  "text": "should be linked to your requirement set"
+ },
+ {
+  "start": 370.38,
+  "end": 374.39,
+  "text": "okay so drag"
+ },
+ {
+  "start": 374.4,
+  "end": 376.55,
+  "text": "the requirement set"
+ },
+ {
+  "start": 376.56,
+  "end": 379.909,
+  "text": "sorry your exhibition list to"
+ },
+ {
+  "start": 379.919,
+  "end": 382.79,
+  "text": "requirement set"
+ },
+ {
+  "start": 382.8,
+  "end": 384.05,
+  "text": "so done"
+ },
+ {
+  "start": 384.06,
+  "end": 386.33,
+  "text": "so now"
+ },
+ {
+  "start": 386.34,
+  "end": 392.27,
+  "text": "our test cases are maputo requirements"
+ },
+ {
+  "start": 392.28,
+  "end": 395.87,
+  "text": "and the corresponding execution list"
+ },
+ {
+  "start": 395.88,
+  "end": 398.87,
+  "text": "also mapped requirement so now let's go"
+ },
+ {
+  "start": 398.88,
+  "end": 400.969,
+  "text": "back to our"
+ },
+ {
+  "start": 400.979,
+  "end": 402.23,
+  "text": "full"
+ },
+ {
+  "start": 402.24,
+  "end": 404.749,
+  "text": "view of our requirements okay full we"
+ },
+ {
+  "start": 404.759,
+  "end": 407.029,
+  "text": "have our requirements so if you see here"
+ },
+ {
+  "start": 407.039,
+  "end": 411.77,
+  "text": "my full view So based on my previous"
+ },
+ {
+  "start": 411.78,
+  "end": 414.95,
+  "text": "uh based on my previous execution runs"
+ },
+ {
+  "start": 414.96,
+  "end": 418.249,
+  "text": "if you see here"
+ },
+ {
+  "start": 420.89,
+  "end": 420.9,
+  "text": "we mapped one"
+ },
+ {
+  "start": 420.9,
+  "end": 425.029,
+  "text": "test case under this so that is what the"
+ },
+ {
+  "start": 425.039,
+  "end": 429.17,
+  "text": "discounts and then we mapped two test"
+ },
+ {
+  "start": 429.18,
+  "end": 432.83,
+  "text": "cases under order process if you see"
+ },
+ {
+  "start": 432.84,
+  "end": 436.79,
+  "text": "here coverage specified so that means"
+ },
+ {
+  "start": 436.8,
+  "end": 440.93,
+  "text": "if you map the test cases"
+ },
+ {
+  "start": 440.94,
+  "end": 445.55,
+  "text": "for all these four five requirements"
+ },
+ {
+  "start": 445.56,
+  "end": 449.029,
+  "text": "then your coverage will be 100 for now"
+ },
+ {
+  "start": 449.039,
+  "end": 452.27,
+  "text": "it's showing 49 because you only mapped"
+ },
+ {
+  "start": 452.28,
+  "end": 457.85,
+  "text": "this 100 and this one is only 20 okay"
+ },
+ {
+  "start": 457.86,
+  "end": 460.01,
+  "text": "and if you see here this will be mapped"
+ },
+ {
+  "start": 460.02,
+  "end": 462.23,
+  "text": "one more okay out of"
+ },
+ {
+  "start": 462.24,
+  "end": 465.35,
+  "text": "four requirements we only mapped"
+ },
+ {
+  "start": 465.36,
+  "end": 466.43,
+  "text": "one"
+ },
+ {
+  "start": 466.44,
+  "end": 469.909,
+  "text": "out of which because of my previous runs"
+ },
+ {
+  "start": 469.919,
+  "end": 472.79,
+  "text": "it is showing as failed that's why you"
+ },
+ {
+  "start": 472.8,
+  "end": 477.529,
+  "text": "can see the coverage of the specified"
+ },
+ {
+  "start": 477.539,
+  "end": 480.83,
+  "text": "requirement"
+ },
+ {
+  "start": 484.969,
+  "end": 484.979,
+  "text": "and execution State 20 percent failed 49"
+ },
+ {
+  "start": 484.979,
+  "end": 487.189,
+  "text": "percent failed right"
+ },
+ {
+  "start": 487.199,
+  "end": 489.77,
+  "text": "for this requirement it's 100 failed"
+ },
+ {
+  "start": 489.78,
+  "end": 492.95,
+  "text": "correct so basically"
+ },
+ {
+  "start": 492.96,
+  "end": 496.01,
+  "text": "as soon as you map your test cases and"
+ },
+ {
+  "start": 496.02,
+  "end": 499.809,
+  "text": "your execution list now you can track"
+ },
+ {
+  "start": 499.819,
+  "end": 504.409,
+  "text": "your entire requirement state"
+ },
+ {
+  "start": 504.419,
+  "end": 506.51,
+  "text": "in terms of coverage"
+ },
+ {
+  "start": 506.52,
+  "end": 509.029,
+  "text": "in terms of execution"
+ },
+ {
+  "start": 509.039,
+  "end": 510.23,
+  "text": "state"
+ },
+ {
+  "start": 510.24,
+  "end": 514.449,
+  "text": "okay so this gives you overall"
+ },
+ {
+  "start": 514.459,
+  "end": 517.85,
+  "text": "traceability Matrix and your overall"
+ },
+ {
+  "start": 517.86,
+  "end": 520.49,
+  "text": "project status also each requirement"
+ },
+ {
+  "start": 520.5,
+  "end": 522.589,
+  "text": "what is the coverage and each"
+ },
+ {
+  "start": 522.599,
+  "end": 524.449,
+  "text": "requirement what is the execution state"
+ },
+ {
+  "start": 524.459,
+  "end": 528.17,
+  "text": "right once you map all of your test"
+ },
+ {
+  "start": 528.18,
+  "end": 529.49,
+  "text": "cases to your"
+ },
+ {
+  "start": 529.5,
+  "end": 532.73,
+  "text": "uh requirements and your execution list"
+ },
+ {
+  "start": 532.74,
+  "end": 536.21,
+  "text": "to your requirement that's it so you can"
+ },
+ {
+  "start": 536.22,
+  "end": 539.21,
+  "text": "simply track your entire project State"
+ },
+ {
+  "start": 539.22,
+  "end": 543.769,
+  "text": "based on that okay so hope you all"
+ },
+ {
+  "start": 543.779,
+  "end": 547.37,
+  "text": "understand the concept of how to link"
+ },
+ {
+  "start": 547.38,
+  "end": 550.07,
+  "text": "your test cases and your execution list"
+ },
+ {
+  "start": 550.08,
+  "end": 553.97,
+  "text": "to your requirements so one thing is you"
+ },
+ {
+  "start": 553.98,
+  "end": 556.43,
+  "text": "need as soon as you link your test cases"
+ },
+ {
+  "start": 556.44,
+  "end": 559.19,
+  "text": "you need to link your execution list or"
+ },
+ {
+  "start": 559.2,
+  "end": 562.43,
+  "text": "so to your requirements because whenever"
+ },
+ {
+  "start": 562.44,
+  "end": 566.449,
+  "text": "I execute my execution list the"
+ },
+ {
+  "start": 566.459,
+  "end": 569.389,
+  "text": "corresponding test cases will be mapped"
+ },
+ {
+  "start": 569.399,
+  "end": 572.449,
+  "text": "I mean the corresponding test cases will"
+ },
+ {
+  "start": 572.459,
+  "end": 575.449,
+  "text": "be reporting to your requirements pass"
+ },
+ {
+  "start": 575.459,
+  "end": 577.67,
+  "text": "or fail right"
+ },
+ {
+  "start": 577.68,
+  "end": 580.009,
+  "text": "so if you have any queries leave your"
+ },
+ {
+  "start": 580.019,
+  "end": 581.69,
+  "text": "queries in the comment box I'll try to"
+ },
+ {
+  "start": 581.7,
+  "end": 584.269,
+  "text": "respond to your queries thank you hope"
+ },
+ {
+  "start": 584.279,
+  "end": 587.509,
+  "text": "you all understand the concepts of how"
+ },
+ {
+  "start": 587.519,
+  "end": 590.63,
+  "text": "to link automated test cases and your"
+ },
+ {
+  "start": 590.64,
+  "end": 594.29,
+  "text": "execution list to your requirements"
+ },
+ {
+  "start": 594.3,
+  "end": 596.99,
+  "text": "please do subscribe to the channel click"
+ },
+ {
+  "start": 597.0,
+  "end": 598.37,
+  "text": "on Bell icon you'll receive"
+ },
+ {
+  "start": 598.38,
+  "end": 600.889,
+  "text": "notifications whenever I publish more"
+ },
+ {
+  "start": 600.899,
+  "end": 610.15,
+  "text": "videos thank you"
+ }
+]

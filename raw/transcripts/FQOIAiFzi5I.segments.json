@@ -1,0 +1,1297 @@
+[
+ {
+  "start": 13.15,
+  "end": 13.16,
+  "text": "hi everyone this is Ravi welcome to"
+ },
+ {
+  "start": 13.16,
+  "end": 16.43,
+  "text": "tricentis tasa automation tutorial as"
+ },
+ {
+  "start": 16.44,
+  "end": 19.39,
+  "text": "you all know I've already published 69"
+ },
+ {
+  "start": 19.4,
+  "end": 22.71,
+  "text": "YouTube videos covering beginners level"
+ },
+ {
+  "start": 22.72,
+  "end": 26.589,
+  "text": "intermediate level and advanced level"
+ },
+ {
+  "start": 26.599,
+  "end": 30.189,
+  "text": "Concepts from few videos onwards I have"
+ },
+ {
+  "start": 30.199,
+  "end": 32.11,
+  "text": "started teaching you the realtime"
+ },
+ {
+  "start": 32.12,
+  "end": 34.95,
+  "text": "scenarios where you might encounter"
+ },
+ {
+  "start": 34.96,
+  "end": 38.069,
+  "text": "different types of obstacles and how can"
+ },
+ {
+  "start": 38.079,
+  "end": 40.15,
+  "text": "we solve those obstacles while"
+ },
+ {
+  "start": 40.16,
+  "end": 42.389,
+  "text": "automating the test"
+ },
+ {
+  "start": 42.399,
+  "end": 45.67,
+  "text": "cases please do subscribe to the channel"
+ },
+ {
+  "start": 45.68,
+  "end": 47.189,
+  "text": "click on Bell icon you'll receive"
+ },
+ {
+  "start": 47.199,
+  "end": 50.229,
+  "text": "notifications whenever I publish more"
+ },
+ {
+  "start": 50.239,
+  "end": 54.229,
+  "text": "videos this is our lesson 70 in terms of"
+ },
+ {
+  "start": 54.239,
+  "end": 56.83,
+  "text": "overall tricentis Tsar training and this"
+ },
+ {
+  "start": 56.84,
+  "end": 60.79,
+  "text": "is obstacle 28 in terms of real time"
+ },
+ {
+  "start": 60.8,
+  "end": 63.31,
+  "text": "scenarios in this lesson I'm going to"
+ },
+ {
+  "start": 63.32,
+  "end": 67.109,
+  "text": "teach you how can we solve an obstacle"
+ },
+ {
+  "start": 67.119,
+  "end": 71.95,
+  "text": "where you need to scan an XML and you"
+ },
+ {
+  "start": 71.96,
+  "end": 76.71,
+  "text": "need to retrieve the specific values"
+ },
+ {
+  "start": 76.72,
+  "end": 79.95,
+  "text": "from the XML with the help of"
+ },
+ {
+  "start": 79.96,
+  "end": 83.55,
+  "text": "constraint and we have to enter those"
+ },
+ {
+  "start": 83.56,
+  "end": 87.149,
+  "text": "retrieved values into an application web"
+ },
+ {
+  "start": 87.159,
+  "end": 90.51,
+  "text": "application under edit box"
+ },
+ {
+  "start": 90.52,
+  "end": 95.469,
+  "text": "so now let us go to obstacle and see in"
+ },
+ {
+  "start": 95.479,
+  "end": 98.149,
+  "text": "detail what is the obstacle that we need"
+ },
+ {
+  "start": 98.159,
+  "end": 99.87,
+  "text": "to solve"
+ },
+ {
+  "start": 99.88,
+  "end": 102.51,
+  "text": "for so this is the obstacle list that we"
+ },
+ {
+  "start": 102.52,
+  "end": 105.91,
+  "text": "are working on so here is our obstacle"
+ },
+ {
+  "start": 105.92,
+  "end": 107.87,
+  "text": "that we are going to start working on"
+ },
+ {
+  "start": 107.88,
+  "end": 111.789,
+  "text": "the name of obstacle is get s number and"
+ },
+ {
+  "start": 111.799,
+  "end": 114.51,
+  "text": "which is categorized as"
+ },
+ {
+  "start": 114.52,
+  "end": 118.27,
+  "text": "hard let us go for it and understand"
+ },
+ {
+  "start": 118.28,
+  "end": 120.35,
+  "text": "what is the obstacle"
+ },
+ {
+  "start": 120.36,
+  "end": 123.63,
+  "text": "first you need to download the XML file"
+ },
+ {
+  "start": 123.64,
+  "end": 125.99,
+  "text": "manually I don't want to automate this"
+ },
+ {
+  "start": 126.0,
+  "end": 130.35,
+  "text": "one and extract the complete number"
+ },
+ {
+  "start": 130.36,
+  "end": 136.19,
+  "text": "including prefix of s with"
+ },
+ {
+  "start": 136.2,
+  "end": 140.47,
+  "text": "TSA so as soon as you click on catalog"
+ },
+ {
+  "start": 140.48,
+  "end": 144.07,
+  "text": "it downloads you the XML file so I have"
+ },
+ {
+  "start": 144.08,
+  "end": 146.71,
+  "text": "already downloaded the XML file okay let"
+ },
+ {
+  "start": 146.72,
+  "end": 150.11,
+  "text": "us go to XML file so this is the XML"
+ },
+ {
+  "start": 150.12,
+  "end": 159.949,
+  "text": "file let me open this XML"
+ },
+ {
+  "start": 162.63,
+  "end": 162.64,
+  "text": "file you can see the XML file Here If"
+ },
+ {
+  "start": 162.64,
+  "end": 166.149,
+  "text": "You observe closely this catalog has a"
+ },
+ {
+  "start": 166.159,
+  "end": 171.949,
+  "text": "number with ID mic and then that ID mic"
+ },
+ {
+  "start": 171.959,
+  "end": 177.03,
+  "text": "has prefix number gener in the same way"
+ },
+ {
+  "start": 177.04,
+  "end": 181.55,
+  "text": "the second ID is Sue it has prefix"
+ },
+ {
+  "start": 181.56,
+  "end": 185.55,
+  "text": "number and general what we need to do we"
+ },
+ {
+  "start": 185.56,
+  "end": 189.55,
+  "text": "have to retrieve or we have to capture"
+ },
+ {
+  "start": 189.56,
+  "end": 194.35,
+  "text": "the prefix and number of"
+ },
+ {
+  "start": 194.36,
+  "end": 197.27,
+  "text": "Sue we have to capture the prefix and"
+ },
+ {
+  "start": 197.28,
+  "end": 203.07,
+  "text": "number of ID Sue so let me copy this"
+ },
+ {
+  "start": 203.08,
+  "end": 208.27,
+  "text": "0061 and go to"
+ },
+ {
+  "start": 211.83,
+  "end": 211.84,
+  "text": "application and enter the prefix here"
+ },
+ {
+  "start": 211.84,
+  "end": 215.229,
+  "text": "but again you have to also concatenate"
+ },
+ {
+  "start": 215.239,
+  "end": 219.63,
+  "text": "the number of the Sue copy and paste"
+ },
+ {
+  "start": 219.64,
+  "end": 222.67,
+  "text": "here so now you can see you solve the"
+ },
+ {
+  "start": 222.68,
+  "end": 225.229,
+  "text": "automation problem successfully let me"
+ },
+ {
+  "start": 225.239,
+  "end": 229.229,
+  "text": "try again what if instead of taking"
+ },
+ {
+  "start": 229.239,
+  "end": 232.55,
+  "text": "prefix and number of so if I take prefix"
+ },
+ {
+  "start": 232.56,
+  "end": 236.11,
+  "text": "prefix and number of the first one Nike"
+ },
+ {
+  "start": 236.12,
+  "end": 238.63,
+  "text": "what happens we'll see okay copy this"
+ },
+ {
+  "start": 238.64,
+  "end": 241.35,
+  "text": "first one"
+ },
+ {
+  "start": 241.36,
+  "end": 245.069,
+  "text": "prefix and this is my"
+ },
+ {
+  "start": 245.079,
+  "end": 247.75,
+  "text": "number see now your automation problem"
+ },
+ {
+  "start": 247.76,
+  "end": 250.35,
+  "text": "is not solved because you're not"
+ },
+ {
+  "start": 250.36,
+  "end": 254.75,
+  "text": "entering the prefix and number of ID Sue"
+ },
+ {
+  "start": 254.76,
+  "end": 257.71,
+  "text": "okay so now let us go to trient tasa and"
+ },
+ {
+  "start": 257.72,
+  "end": 260.03,
+  "text": "see how can we solve the"
+ },
+ {
+  "start": 260.04,
+  "end": 263.59,
+  "text": "problem as usual we are going to work on"
+ },
+ {
+  "start": 263.6,
+  "end": 266.67,
+  "text": "right side which is module"
+ },
+ {
+  "start": 266.68,
+  "end": 270.23,
+  "text": "okay I would like to scan the object"
+ },
+ {
+  "start": 270.24,
+  "end": 271.909,
+  "text": "so before scanning the objects I would"
+ },
+ {
+  "start": 271.919,
+  "end": 275.39,
+  "text": "like to create a folder here so let me"
+ },
+ {
+  "start": 275.4,
+  "end": 278.23,
+  "text": "create a subfolder right click and"
+ },
+ {
+  "start": 278.24,
+  "end": 282.029,
+  "text": "create a sub folder module folder create"
+ },
+ {
+  "start": 282.039,
+  "end": 285.23,
+  "text": "folder name this"
+ },
+ {
+  "start": 285.24,
+  "end": 291.99,
+  "text": "as the obstacle name copy"
+ },
+ {
+  "start": 296.79,
+  "end": 296.8,
+  "text": "this and name with obstacle name so what"
+ },
+ {
+  "start": 296.8,
+  "end": 301.23,
+  "text": "we are going to do under this fer we"
+ },
+ {
+  "start": 301.24,
+  "end": 301.909,
+  "text": "have"
+ },
+ {
+  "start": 301.919,
+  "end": 303.55,
+  "text": "to"
+ },
+ {
+  "start": 303.56,
+  "end": 307.79,
+  "text": "store both separate objects what are"
+ },
+ {
+  "start": 307.8,
+  "end": 310.59,
+  "text": "those first one is we have to scan the"
+ },
+ {
+  "start": 310.6,
+  "end": 313.749,
+  "text": "catalog XML which is this one I'm going"
+ },
+ {
+  "start": 313.759,
+  "end": 317.55,
+  "text": "to store I'm going to store that as one"
+ },
+ {
+  "start": 317.56,
+  "end": 320.15,
+  "text": "module and"
+ },
+ {
+  "start": 320.16,
+  "end": 323.629,
+  "text": "also we have to scan the application"
+ },
+ {
+  "start": 323.639,
+  "end": 326.11,
+  "text": "objects right I would like to store that"
+ },
+ {
+  "start": 326.12,
+  "end": 329.749,
+  "text": "as separate module first let us first"
+ },
+ {
+  "start": 329.759,
+  "end": 333.629,
+  "text": "scan the catalog XML what we need to do"
+ },
+ {
+  "start": 333.639,
+  "end": 337.51,
+  "text": "right click on this folder go to scan go"
+ },
+ {
+  "start": 337.52,
+  "end": 342.27,
+  "text": "to more and here you can find file scan"
+ },
+ {
+  "start": 342.28,
+  "end": 343.55,
+  "text": "select this"
+ },
+ {
+  "start": 343.56,
+  "end": 348.629,
+  "text": "one and now you need to scan the catalog"
+ },
+ {
+  "start": 348.639,
+  "end": 351.71,
+  "text": "XML right so I would like to go to the"
+ },
+ {
+  "start": 351.72,
+  "end": 354.629,
+  "text": "location where I have stored so this is"
+ },
+ {
+  "start": 354.639,
+  "end": 357.83,
+  "text": "the location catalog I have stored right"
+ },
+ {
+  "start": 357.84,
+  "end": 362.309,
+  "text": "select the catalog XML click on"
+ },
+ {
+  "start": 364.99,
+  "end": 365.0,
+  "text": "open so you can see here"
+ },
+ {
+  "start": 365.0,
+  "end": 368.11,
+  "text": "now there is a catalog request module"
+ },
+ {
+  "start": 368.12,
+  "end": 370.79,
+  "text": "that has been created which"
+ },
+ {
+  "start": 370.8,
+  "end": 376.029,
+  "text": "contains the entire Json structure it"
+ },
+ {
+  "start": 376.039,
+  "end": 380.71,
+  "text": "has a catalog number ID prefix number"
+ },
+ {
+  "start": 380.72,
+  "end": 389.67,
+  "text": "and general if you go to XML file"
+ },
+ {
+  "start": 392.87,
+  "end": 392.88,
+  "text": "so you can see it has a"
+ },
+ {
+  "start": 392.88,
+  "end": 395.309,
+  "text": "number so this is the"
+ },
+ {
+  "start": 395.319,
+  "end": 398.67,
+  "text": "number number is under catalog under"
+ },
+ {
+  "start": 398.68,
+  "end": 402.43,
+  "text": "catalog right under number again you"
+ },
+ {
+  "start": 402.44,
+  "end": 407.39,
+  "text": "have prefix number gener see prefix"
+ },
+ {
+  "start": 407.4,
+  "end": 412.23,
+  "text": "number Jer so this also has ID see under"
+ },
+ {
+  "start": 412.24,
+  "end": 417.71,
+  "text": "number it has ID prefix number Jer so"
+ },
+ {
+  "start": 417.72,
+  "end": 419.309,
+  "text": "that's what it is showing it is showing"
+ },
+ {
+  "start": 419.319,
+  "end": 423.11,
+  "text": "the entire Json structure now let me"
+ },
+ {
+  "start": 423.12,
+  "end": 425.869,
+  "text": "scan the application as well so let's"
+ },
+ {
+  "start": 425.879,
+  "end": 440.07,
+  "text": "right click on this click on scan select"
+ },
+ {
+  "start": 442.07,
+  "end": 442.08,
+  "text": "application now what is the application"
+ },
+ {
+  "start": 442.08,
+  "end": 443.189,
+  "text": "I would like to scan this is the"
+ },
+ {
+  "start": 443.199,
+  "end": 445.67,
+  "text": "application that I would like to scan on"
+ },
+ {
+  "start": 445.68,
+  "end": 451.15,
+  "text": "scan"
+ },
+ {
+  "start": 452.79,
+  "end": 452.8,
+  "text": "what I need I"
+ },
+ {
+  "start": 452.8,
+  "end": 456.189,
+  "text": "need only this edit box number edit box"
+ },
+ {
+  "start": 456.199,
+  "end": 457.309,
+  "text": "so I'm going"
+ },
+ {
+  "start": 457.319,
+  "end": 461.27,
+  "text": "to take this number edit box check check"
+ },
+ {
+  "start": 461.28,
+  "end": 464.83,
+  "text": "the you have to check this number edit"
+ },
+ {
+  "start": 464.84,
+  "end": 466.749,
+  "text": "box and"
+ },
+ {
+  "start": 466.759,
+  "end": 471.149,
+  "text": "then rename this module with the"
+ },
+ {
+  "start": 471.159,
+  "end": 473.189,
+  "text": "obstacle name we already copied that one"
+ },
+ {
+  "start": 473.199,
+  "end": 475.43,
+  "text": "okay let's rename this module with"
+ },
+ {
+  "start": 475.44,
+  "end": 477.07,
+  "text": "obstacle"
+ },
+ {
+  "start": 477.08,
+  "end": 482.149,
+  "text": "name now save the"
+ },
+ {
+  "start": 485.309,
+  "end": 485.319,
+  "text": "module so once you save the module close"
+ },
+ {
+  "start": 485.319,
+  "end": 487.71,
+  "text": "the X scan so let us go back to tr"
+ },
+ {
+  "start": 487.72,
+  "end": 490.79,
+  "text": "testos now you can see here this is your"
+ },
+ {
+  "start": 490.8,
+  "end": 494.909,
+  "text": "application related objects and this is"
+ },
+ {
+  "start": 494.919,
+  "end": 499.99,
+  "text": "your XML related module now we have all"
+ },
+ {
+  "start": 500.0,
+  "end": 501.23,
+  "text": "the objects that are required to"
+ },
+ {
+  "start": 501.24,
+  "end": 502.589,
+  "text": "automate the test"
+ },
+ {
+  "start": 502.599,
+  "end": 505.71,
+  "text": "case now let us automate the test case"
+ },
+ {
+  "start": 505.72,
+  "end": 509.909,
+  "text": "for that let's go to Left module related"
+ },
+ {
+  "start": 509.919,
+  "end": 512.909,
+  "text": "to test case which is blue color module"
+ },
+ {
+  "start": 512.919,
+  "end": 515.63,
+  "text": "okay under obstacle folder let's create"
+ },
+ {
+  "start": 515.64,
+  "end": 519.029,
+  "text": "a new test case name this with the"
+ },
+ {
+  "start": 519.039,
+  "end": 523.07,
+  "text": "obstacle name double click on this now"
+ },
+ {
+  "start": 523.08,
+  "end": 526.35,
+  "text": "now you need to drag and drop modules"
+ },
+ {
+  "start": 526.36,
+  "end": 528.19,
+  "text": "onto the test case first I would like to"
+ },
+ {
+  "start": 528.2,
+  "end": 530.509,
+  "text": "drag and drop the catalon"
+ },
+ {
+  "start": 530.519,
+  "end": 533.15,
+  "text": "request onto the test case and then I"
+ },
+ {
+  "start": 533.16,
+  "end": 535.23,
+  "text": "would like to drag and drop the"
+ },
+ {
+  "start": 535.24,
+  "end": 537.79,
+  "text": "application related module onto the test"
+ },
+ {
+  "start": 537.8,
+  "end": 541.75,
+  "text": "case so let me expand"
+ },
+ {
+  "start": 541.76,
+  "end": 548.509,
+  "text": "this so here first I need to capture the"
+ },
+ {
+  "start": 548.519,
+  "end": 551.389,
+  "text": "specific values from the XML to capture"
+ },
+ {
+  "start": 551.399,
+  "end": 554.509,
+  "text": "the specific value from the XML first I"
+ },
+ {
+  "start": 554.519,
+  "end": 556.35,
+  "text": "need to open the"
+ },
+ {
+  "start": 556.36,
+  "end": 563.71,
+  "text": "XML so I need another step here to open"
+ },
+ {
+  "start": 563.72,
+  "end": 568.55,
+  "text": "XML go to right click and then search"
+ },
+ {
+  "start": 568.56,
+  "end": 570.389,
+  "text": "ADD test step"
+ },
+ {
+  "start": 570.399,
+  "end": 574.43,
+  "text": "now here you can use"
+ },
+ {
+  "start": 574.44,
+  "end": 579.87,
+  "text": "create open create XML file select this"
+ },
+ {
+  "start": 579.88,
+  "end": 584.55,
+  "text": "one now this step should be at the"
+ },
+ {
+  "start": 584.56,
+  "end": 591.829,
+  "text": "top so here let me name this as"
+ },
+ {
+  "start": 594.23,
+  "end": 594.24,
+  "text": "catalog okay I will like to name this as"
+ },
+ {
+  "start": 594.24,
+  "end": 596.35,
+  "text": "catalog Resource as catalog I'm going to"
+ },
+ {
+  "start": 596.36,
+  "end": 599.389,
+  "text": "use this resource in the next steps and"
+ },
+ {
+  "start": 599.399,
+  "end": 601.35,
+  "text": "what is the path file path let's go to"
+ },
+ {
+  "start": 601.36,
+  "end": 603.23,
+  "text": "the file"
+ },
+ {
+  "start": 603.24,
+  "end": 608.069,
+  "text": "path so this is where we stored the file"
+ },
+ {
+  "start": 608.079,
+  "end": 612.35,
+  "text": "and paste it here and this is your"
+ },
+ {
+  "start": 612.36,
+  "end": 615.03,
+  "text": "catalog let me name let me take the name"
+ },
+ {
+  "start": 615.04,
+  "end": 621.63,
+  "text": "of XML as well"
+ },
+ {
+  "start": 624.509,
+  "end": 624.519,
+  "text": "copy do"
+ },
+ {
+  "start": 624.519,
+  "end": 629.79,
+  "text": "XML so that is done now come to catalog"
+ },
+ {
+  "start": 629.8,
+  "end": 634.55,
+  "text": "request that we scan the XML file right"
+ },
+ {
+  "start": 634.56,
+  "end": 637.47,
+  "text": "so here I would like to use the same"
+ },
+ {
+  "start": 637.48,
+  "end": 641.19,
+  "text": "name here as well the resource name same"
+ },
+ {
+  "start": 641.2,
+  "end": 643.59,
+  "text": "resource name and now"
+ },
+ {
+  "start": 643.6,
+  "end": 646.03,
+  "text": "here under"
+ },
+ {
+  "start": 646.04,
+  "end": 649.069,
+  "text": "ID we would like"
+ },
+ {
+  "start": 649.079,
+  "end": 653.71,
+  "text": "to so we need to take value of prefix"
+ },
+ {
+  "start": 653.72,
+  "end": 658.15,
+  "text": "and number related to the ID soe right"
+ },
+ {
+  "start": 658.16,
+  "end": 659.829,
+  "text": "let's copy this"
+ },
+ {
+  "start": 659.839,
+  "end": 663.71,
+  "text": "copy this"
+ },
+ {
+  "start": 666.99,
+  "end": 667.0,
+  "text": "value and now I would like to use the"
+ },
+ {
+  "start": 667.0,
+  "end": 671.87,
+  "text": "constraint so here I'm going to enter"
+ },
+ {
+  "start": 671.88,
+  "end": 676.71,
+  "text": "Sue and I'm going to specify it as a"
+ },
+ {
+  "start": 676.72,
+  "end": 679.43,
+  "text": "constraint that means I'm instructing"
+ },
+ {
+  "start": 679.44,
+  "end": 682.79,
+  "text": "TSA to look for the"
+ },
+ {
+  "start": 682.8,
+  "end": 685.43,
+  "text": "ID su"
+ },
+ {
+  "start": 685.44,
+  "end": 689.629,
+  "text": "su then only start performing other"
+ },
+ {
+  "start": 689.639,
+  "end": 692.35,
+  "text": "actions so here what I would like to do"
+ },
+ {
+  "start": 692.36,
+  "end": 695.43,
+  "text": "I'm going to say prefix I'm going to"
+ },
+ {
+  "start": 695.44,
+  "end": 696.829,
+  "text": "store the"
+ },
+ {
+  "start": 696.839,
+  "end": 701.829,
+  "text": "value once it identifies the Sue ID then"
+ },
+ {
+  "start": 701.839,
+  "end": 704.31,
+  "text": "the prefix should be stored under a"
+ },
+ {
+  "start": 704.32,
+  "end": 707.43,
+  "text": "buffer name called prefix so here your"
+ },
+ {
+  "start": 707.44,
+  "end": 709.35,
+  "text": "action mode should be"
+ },
+ {
+  "start": 709.36,
+  "end": 713.389,
+  "text": "buffer and number I'm going to say"
+ },
+ {
+  "start": 713.399,
+  "end": 718.069,
+  "text": "num also should be stored under"
+ },
+ {
+  "start": 718.079,
+  "end": 722.389,
+  "text": "buffer and and now you can simply call"
+ },
+ {
+  "start": 722.399,
+  "end": 726.629,
+  "text": "these two buffers to this edit box so we"
+ },
+ {
+  "start": 726.639,
+  "end": 729.509,
+  "text": "need to enter the value here right so to"
+ },
+ {
+  "start": 729.519,
+  "end": 732.75,
+  "text": "call the for open curly braces capital B"
+ },
+ {
+  "start": 732.76,
+  "end": 733.949,
+  "text": "open Square"
+ },
+ {
+  "start": 733.959,
+  "end": 737.75,
+  "text": "braces Rix close Square"
+ },
+ {
+  "start": 737.76,
+  "end": 741.59,
+  "text": "braces and then close curly braces and"
+ },
+ {
+  "start": 741.6,
+  "end": 743.31,
+  "text": "then you need to"
+ },
+ {
+  "start": 743.32,
+  "end": 745.069,
+  "text": "concatenates and then you need to"
+ },
+ {
+  "start": 745.079,
+  "end": 747.949,
+  "text": "concatenate it again I'm going to call"
+ },
+ {
+  "start": 747.959,
+  "end": 750.829,
+  "text": "the other buffer open curly braces"
+ },
+ {
+  "start": 750.839,
+  "end": 755.389,
+  "text": "capital B open Square braces"
+ },
+ {
+  "start": 755.399,
+  "end": 759.31,
+  "text": "num Clos Square Braes close curly"
+ },
+ {
+  "start": 759.32,
+  "end": 763.629,
+  "text": "Braes so you can see here now so what we"
+ },
+ {
+  "start": 763.639,
+  "end": 767.11,
+  "text": "did first we are opening the"
+ },
+ {
+  "start": 767.12,
+  "end": 769.47,
+  "text": "XML"
+ },
+ {
+  "start": 769.48,
+  "end": 774.189,
+  "text": "catalog and then we are using constraint"
+ },
+ {
+  "start": 774.199,
+  "end": 780.389,
+  "text": "method to filter out the required I ID"
+ },
+ {
+  "start": 780.399,
+  "end": 784.35,
+  "text": "the required ID is Sue that's why I'm"
+ },
+ {
+  "start": 784.36,
+  "end": 787.189,
+  "text": "instructing tasar to take this one once"
+ },
+ {
+  "start": 787.199,
+  "end": 788.829,
+  "text": "it finds this"
+ },
+ {
+  "start": 788.839,
+  "end": 792.55,
+  "text": "Sue then start buffering the values of"
+ },
+ {
+  "start": 792.56,
+  "end": 795.11,
+  "text": "pref prefix and"
+ },
+ {
+  "start": 795.12,
+  "end": 799.75,
+  "text": "num so before the test so this is how we"
+ },
+ {
+  "start": 799.76,
+  "end": 801.87,
+  "text": "built the test case and then I'm"
+ },
+ {
+  "start": 801.88,
+  "end": 804.11,
+  "text": "entering the values of buffer in the"
+ },
+ {
+  "start": 804.12,
+  "end": 806.71,
+  "text": "edit box so before we create the test"
+ },
+ {
+  "start": 806.72,
+  "end": 810.069,
+  "text": "case what we did for the modules first"
+ },
+ {
+  "start": 810.079,
+  "end": 812.509,
+  "text": "we scan the XML that we have stored"
+ },
+ {
+  "start": 812.519,
+  "end": 815.67,
+  "text": "under a local folder and then we have"
+ },
+ {
+  "start": 815.68,
+  "end": 818.79,
+  "text": "scanned the application that is required"
+ },
+ {
+  "start": 818.8,
+  "end": 819.829,
+  "text": "to"
+ },
+ {
+  "start": 819.839,
+  "end": 823.71,
+  "text": "automate right now let us change the"
+ },
+ {
+  "start": 823.72,
+  "end": 826.389,
+  "text": "work state as"
+ },
+ {
+  "start": 826.399,
+  "end": 831.829,
+  "text": "completed save the test"
+ },
+ {
+  "start": 836.269,
+  "end": 836.279,
+  "text": "case now let us run the test case right"
+ },
+ {
+  "start": 836.279,
+  "end": 839.15,
+  "text": "click and run in scratchbook before I"
+ },
+ {
+  "start": 839.16,
+  "end": 841.31,
+  "text": "done I would like to make"
+ },
+ {
+  "start": 841.32,
+  "end": 845.35,
+  "text": "sure try again now let's go back here"
+ },
+ {
+  "start": 845.36,
+  "end": 856.91,
+  "text": "now right click and run in"
+ },
+ {
+  "start": 859.55,
+  "end": 859.56,
+  "text": "scratchbook see it entered the value"
+ },
+ {
+  "start": 859.56,
+  "end": 861.749,
+  "text": "correctly so this is the prefix and this"
+ },
+ {
+  "start": 861.759,
+  "end": 865.03,
+  "text": "is the number so it is able to retrieve"
+ },
+ {
+  "start": 865.04,
+  "end": 868.43,
+  "text": "the values from XML and enter into the"
+ },
+ {
+  "start": 868.44,
+  "end": 874.509,
+  "text": "edit box as required for the S"
+ },
+ {
+  "start": 874.519,
+  "end": 877.91,
+  "text": "ID so if you have any queries leave your"
+ },
+ {
+  "start": 877.92,
+  "end": 879.67,
+  "text": "queries in the comment box I'll try to"
+ },
+ {
+  "start": 879.68,
+  "end": 882.71,
+  "text": "respond to your queries hope you all"
+ },
+ {
+  "start": 882.72,
+  "end": 885.189,
+  "text": "understand how can we solve an"
+ },
+ {
+  "start": 885.199,
+  "end": 889.71,
+  "text": "obstacle where you need to scan an"
+ },
+ {
+  "start": 889.72,
+  "end": 893.43,
+  "text": "XML and you need to retrieve the"
+ },
+ {
+  "start": 893.44,
+  "end": 897.189,
+  "text": "specific values from the XML and enter"
+ },
+ {
+  "start": 897.199,
+  "end": 900.71,
+  "text": "those values into an application edit"
+ },
+ {
+  "start": 900.72,
+  "end": 904.069,
+  "text": "box please do subscribe to the channel"
+ },
+ {
+  "start": 904.079,
+  "end": 906.069,
+  "text": "click on Bell icon you'll receive"
+ },
+ {
+  "start": 906.079,
+  "end": 909.069,
+  "text": "notifications whenever I publish more"
+ },
+ {
+  "start": 909.079,
+  "end": 912.23,
+  "text": "videos thank you don't forget to like"
+ },
+ {
+  "start": 912.24,
+  "end": 918.41,
+  "text": "and share the video"
+ }
+]

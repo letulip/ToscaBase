@@ -1,0 +1,1067 @@
+[
+ {
+  "start": 13.11,
+  "end": 13.12,
+  "text": "Hi everyone, this is Ravi. Welcome to"
+ },
+ {
+  "start": 13.12,
+  "end": 16.47,
+  "text": "Tricentis Taska automation tutorial. As"
+ },
+ {
+  "start": 16.48,
+  "end": 18.87,
+  "text": "you all know, I have already published"
+ },
+ {
+  "start": 18.88,
+  "end": 22.31,
+  "text": "75 YouTube videos covering beginner's"
+ },
+ {
+  "start": 22.32,
+  "end": 25.429,
+  "text": "level, intermediate level, and advanced"
+ },
+ {
+  "start": 25.439,
+  "end": 28.63,
+  "text": "level concepts of tricentis tasks. From"
+ },
+ {
+  "start": 28.64,
+  "end": 31.189,
+  "text": "few videos onwards have started teaching"
+ },
+ {
+  "start": 31.199,
+  "end": 34.709,
+  "text": "you the realtime scenarios where you"
+ },
+ {
+  "start": 34.719,
+  "end": 37.229,
+  "text": "might encounter different types of"
+ },
+ {
+  "start": 37.239,
+  "end": 39.59,
+  "text": "obstacles while automating the test"
+ },
+ {
+  "start": 39.6,
+  "end": 42.91,
+  "text": "cases and how can we solve those"
+ },
+ {
+  "start": 42.92,
+  "end": 46.11,
+  "text": "obstacles by using tricentis"
+ },
+ {
+  "start": 46.12,
+  "end": 48.79,
+  "text": "tasks. Please do subscribe to the"
+ },
+ {
+  "start": 48.8,
+  "end": 50.549,
+  "text": "channel click on bell icon you'll"
+ },
+ {
+  "start": 50.559,
+  "end": 52.95,
+  "text": "receive notifications whenever I publish"
+ },
+ {
+  "start": 52.96,
+  "end": 56.63,
+  "text": "more videos. Don't forget to like and"
+ },
+ {
+  "start": 56.64,
+  "end": 59.47,
+  "text": "share the video. Thank"
+ },
+ {
+  "start": 59.48,
+  "end": 64.95,
+  "text": "you. This is our lesson 76 in terms of"
+ },
+ {
+  "start": 64.96,
+  "end": 67.19,
+  "text": "overall tricentes tasks automation"
+ },
+ {
+  "start": 67.2,
+  "end": 71.59,
+  "text": "tutorial and this is obstacle 34 in"
+ },
+ {
+  "start": 71.6,
+  "end": 75.03,
+  "text": "terms of realtime scenarios. So in this"
+ },
+ {
+  "start": 75.04,
+  "end": 77.67,
+  "text": "lesson I'm going to teach you how can we"
+ },
+ {
+  "start": 77.68,
+  "end": 81.67,
+  "text": "solve an obstacle where you need to"
+ },
+ {
+  "start": 81.68,
+  "end": 85.83,
+  "text": "store the baseline table which will have"
+ },
+ {
+  "start": 85.84,
+  "end": 89.109,
+  "text": "n number of rows and n number of columns"
+ },
+ {
+  "start": 89.119,
+  "end": 93.35,
+  "text": "and then you need to compare this stored"
+ },
+ {
+  "start": 93.36,
+  "end": 97.109,
+  "text": "baseline table content with the same"
+ },
+ {
+  "start": 97.119,
+  "end": 101.03,
+  "text": "table but the content has been changed."
+ },
+ {
+  "start": 101.04,
+  "end": 103.069,
+  "text": "So now how can I"
+ },
+ {
+  "start": 103.079,
+  "end": 107.35,
+  "text": "identify what kind of content and what"
+ },
+ {
+  "start": 107.36,
+  "end": 110.23,
+  "text": "content in which row and which column"
+ },
+ {
+  "start": 110.24,
+  "end": 113.03,
+  "text": "the content has been changed in the"
+ },
+ {
+  "start": 113.04,
+  "end": 116.469,
+  "text": "table. So that I'm going to do by using"
+ },
+ {
+  "start": 116.479,
+  "end": 119.99,
+  "text": "table baseline comparison. So now let us"
+ },
+ {
+  "start": 120.0,
+  "end": 122.469,
+  "text": "go and see in detail what is the"
+ },
+ {
+  "start": 122.479,
+  "end": 124.469,
+  "text": "obstacle that we are going to solve for."
+ },
+ {
+  "start": 124.479,
+  "end": 127.27,
+  "text": "So here is the obstacle list that we"
+ },
+ {
+  "start": 127.28,
+  "end": 130.43,
+  "text": "keep working from past few videos"
+ },
+ {
+  "start": 130.44,
+  "end": 135.11,
+  "text": "onwards and today's obstacle is find the"
+ },
+ {
+  "start": 135.12,
+  "end": 137.949,
+  "text": "changed cell. This is the name of your"
+ },
+ {
+  "start": 137.959,
+  "end": 140.67,
+  "text": "obstacle and which is categorized as"
+ },
+ {
+  "start": 140.68,
+  "end": 144.07,
+  "text": "medium. Let us go for it to see the"
+ },
+ {
+  "start": 144.08,
+  "end": 147.75,
+  "text": "details of obstacle. What it is saying?"
+ },
+ {
+  "start": 147.76,
+  "end": 151.83,
+  "text": "Click show change table to change the"
+ },
+ {
+  "start": 151.84,
+  "end": 154.509,
+  "text": "value of one random"
+ },
+ {
+  "start": 154.519,
+  "end": 158.869,
+  "text": "cell. Find the cell and enter the row,"
+ },
+ {
+  "start": 158.879,
+  "end": 162.55,
+  "text": "column, original value and changed value"
+ },
+ {
+  "start": 162.56,
+  "end": 166.15,
+  "text": "into the text boxes showing here. Use"
+ },
+ {
+  "start": 166.16,
+  "end": 169.19,
+  "text": "task R to find this cell. So values can"
+ },
+ {
+  "start": 169.2,
+  "end": 171.99,
+  "text": "be entered manually. There is no need to"
+ },
+ {
+  "start": 172.0,
+  "end": 174.75,
+  "text": "automate this step. So what it is saying"
+ },
+ {
+  "start": 174.76,
+  "end": 177.589,
+  "text": "here if you see this is your original"
+ },
+ {
+  "start": 177.599,
+  "end": 182.27,
+  "text": "table which has n number of"
+ },
+ {
+  "start": 182.28,
+  "end": 186.19,
+  "text": "columns and then n number of"
+ },
+ {
+  "start": 186.2,
+  "end": 190.47,
+  "text": "rows. If I click on show changed table."
+ },
+ {
+  "start": 190.48,
+  "end": 194.309,
+  "text": "So this is the same table but the"
+ },
+ {
+  "start": 194.319,
+  "end": 196.949,
+  "text": "content has been changed. What content"
+ },
+ {
+  "start": 196.959,
+  "end": 199.149,
+  "text": "that has been changed?"
+ },
+ {
+  "start": 199.159,
+  "end": 202.71,
+  "text": "randomly some specific cell content will"
+ },
+ {
+  "start": 202.72,
+  "end": 203.39,
+  "text": "be"
+ },
+ {
+  "start": 203.4,
+  "end": 206.03,
+  "text": "changed. If I click on show original"
+ },
+ {
+  "start": 206.04,
+  "end": 209.67,
+  "text": "table, there is one cell which has a"
+ },
+ {
+  "start": 209.68,
+  "end": 213.03,
+  "text": "different value compared to the original"
+ },
+ {
+  "start": 213.04,
+  "end": 217.35,
+  "text": "table and changed table. So now you need"
+ },
+ {
+  "start": 217.36,
+  "end": 218.43,
+  "text": "to"
+ },
+ {
+  "start": 218.44,
+  "end": 222.589,
+  "text": "identify what is the cell that has"
+ },
+ {
+  "start": 222.599,
+  "end": 226.43,
+  "text": "changed from these n number of"
+ },
+ {
+  "start": 226.44,
+  "end": 229.83,
+  "text": "cells. As soon as I show change table,"
+ },
+ {
+  "start": 229.84,
+  "end": 233.27,
+  "text": "so this is the table where one cell"
+ },
+ {
+  "start": 233.28,
+  "end": 235.35,
+  "text": "value has been changed. We don't know"
+ },
+ {
+  "start": 235.36,
+  "end": 238.149,
+  "text": "what cell value has been changed. It is"
+ },
+ {
+  "start": 238.159,
+  "end": 241.63,
+  "text": "very difficult to find with your human"
+ },
+ {
+  "start": 241.64,
+  "end": 244.99,
+  "text": "eye. So we can use"
+ },
+ {
+  "start": 245.0,
+  "end": 247.75,
+  "text": "tricentistosa to compare the tables"
+ },
+ {
+  "start": 247.76,
+  "end": 251.429,
+  "text": "between original table and change table."
+ },
+ {
+  "start": 251.439,
+  "end": 254.509,
+  "text": "So for that let us go to"
+ },
+ {
+  "start": 254.519,
+  "end": 257.749,
+  "text": "tricestosca and let us start scanning"
+ },
+ {
+  "start": 257.759,
+  "end": 260.39,
+  "text": "the objects. So what are the objects"
+ },
+ {
+  "start": 260.4,
+  "end": 262.31,
+  "text": "that we need to scan in this case? In"
+ },
+ {
+  "start": 262.32,
+  "end": 264.909,
+  "text": "this case you just need to scan your"
+ },
+ {
+  "start": 264.919,
+  "end": 268.189,
+  "text": "table. So here right click on obstacles"
+ },
+ {
+  "start": 268.199,
+  "end": 276.629,
+  "text": "folder select scan application."
+ },
+ {
+  "start": 278.39,
+  "end": 278.4,
+  "text": "Now select the application that you"
+ },
+ {
+  "start": 278.4,
+  "end": 292.27,
+  "text": "would like to scan and click on scan"
+ },
+ {
+  "start": 295.83,
+  "end": 295.84,
+  "text": "button. So now what is the table that we"
+ },
+ {
+  "start": 295.84,
+  "end": 297.99,
+  "text": "need to cap? What is the table that we"
+ },
+ {
+  "start": 298.0,
+  "end": 300.23,
+  "text": "need to capture? So this is the table"
+ },
+ {
+  "start": 300.24,
+  "end": 302.27,
+  "text": "that we need to capture. Select the"
+ },
+ {
+  "start": 302.28,
+  "end": 306.55,
+  "text": "table and do I need to capture all these"
+ },
+ {
+  "start": 306.56,
+  "end": 308.629,
+  "text": "edit boxes? So these you need not to"
+ },
+ {
+  "start": 308.639,
+  "end": 311.27,
+  "text": "capture. As soon as you identify which"
+ },
+ {
+  "start": 311.28,
+  "end": 313.35,
+  "text": "row, which column and what is your"
+ },
+ {
+  "start": 313.36,
+  "end": 315.35,
+  "text": "original value and what is your changed"
+ },
+ {
+  "start": 315.36,
+  "end": 317.51,
+  "text": "value in the cell, you can just enter"
+ },
+ {
+  "start": 317.52,
+  "end": 320.15,
+  "text": "this manually. So that's why I just need"
+ },
+ {
+  "start": 320.16,
+  "end": 323.11,
+  "text": "this table. And now change the module"
+ },
+ {
+  "start": 323.12,
+  "end": 328.51,
+  "text": "name with the obstacle name here. Copy"
+ },
+ {
+  "start": 333.029,
+  "end": 333.039,
+  "text": "this and then paste the obstacle name"
+ },
+ {
+  "start": 333.039,
+  "end": 337.87,
+  "text": "here. And now save your"
+ },
+ {
+  "start": 342.95,
+  "end": 342.96,
+  "text": "module. Then close your Xcan. Let us go"
+ },
+ {
+  "start": 342.96,
+  "end": 343.95,
+  "text": "back to"
+ },
+ {
+  "start": 343.96,
+  "end": 346.749,
+  "text": "Tricentesa and come down to"
+ },
+ {
+  "start": 346.759,
+  "end": 349.83,
+  "text": "bottom. So this is the new obstacle that"
+ },
+ {
+  "start": 349.84,
+  "end": 351.43,
+  "text": "we captured. Double click on this"
+ },
+ {
+  "start": 351.44,
+  "end": 354.31,
+  "text": "obstacle to make sure the objects are"
+ },
+ {
+  "start": 354.32,
+  "end": 356.629,
+  "text": "available. So I can see here now table"
+ },
+ {
+  "start": 356.639,
+  "end": 358.71,
+  "text": "row column I can see the table is"
+ },
+ {
+  "start": 358.72,
+  "end": 361.71,
+  "text": "available. Now let us go back to our"
+ },
+ {
+  "start": 361.72,
+  "end": 365.59,
+  "text": "obstacle test case folder left side"
+ },
+ {
+  "start": 365.6,
+  "end": 368.39,
+  "text": "right click on this obstacle folder and"
+ },
+ {
+  "start": 368.4,
+  "end": 371.27,
+  "text": "create test case and then here we"
+ },
+ {
+  "start": 371.28,
+  "end": 373.909,
+  "text": "already copied the obstacle name. I'm"
+ },
+ {
+  "start": 373.919,
+  "end": 376.469,
+  "text": "going to paste the same obstacle name"
+ },
+ {
+  "start": 376.479,
+  "end": 378.79,
+  "text": "and then double click on test case. Now"
+ },
+ {
+  "start": 378.8,
+  "end": 380.629,
+  "text": "let us start automating. To automate the"
+ },
+ {
+  "start": 380.639,
+  "end": 384.15,
+  "text": "test case, you need to drag this table"
+ },
+ {
+  "start": 384.16,
+  "end": 388.43,
+  "text": "and then drop onto your"
+ },
+ {
+  "start": 388.44,
+  "end": 390.27,
+  "text": "obstacle. And"
+ },
+ {
+  "start": 390.28,
+  "end": 394.59,
+  "text": "now let us expand this one. So to"
+ },
+ {
+  "start": 394.6,
+  "end": 396.67,
+  "text": "perform table"
+ },
+ {
+  "start": 396.68,
+  "end": 400.55,
+  "text": "comparison what we need to do first you"
+ },
+ {
+  "start": 400.56,
+  "end": 404.469,
+  "text": "need to capture the baseline table. How"
+ },
+ {
+  "start": 404.479,
+  "end": 407.51,
+  "text": "can I capture the baseline table? Let's"
+ },
+ {
+  "start": 407.52,
+  "end": 410.07,
+  "text": "again go to original table. Let me click"
+ },
+ {
+  "start": 410.08,
+  "end": 414.95,
+  "text": "on try again. First, I need to capture"
+ },
+ {
+  "start": 414.96,
+  "end": 417.029,
+  "text": "the original table. This is my original"
+ },
+ {
+  "start": 417.039,
+  "end": 419.99,
+  "text": "table, right? And this original table is"
+ },
+ {
+  "start": 420.0,
+  "end": 422.749,
+  "text": "my baseline table. What I'm going to do"
+ },
+ {
+  "start": 422.759,
+  "end": 426.71,
+  "text": "here to capture the baseline table,"
+ },
+ {
+  "start": 426.72,
+  "end": 430.469,
+  "text": "right click on this table and then"
+ },
+ {
+  "start": 430.479,
+  "end": 434.07,
+  "text": "select create baseline."
+ },
+ {
+  "start": 434.08,
+  "end": 437.43,
+  "text": "As soon as you select create baseline,"
+ },
+ {
+  "start": 437.44,
+  "end": 440.469,
+  "text": "it's going to start capturing this"
+ },
+ {
+  "start": 440.479,
+  "end": 444.23,
+  "text": "entire table content. All rows, all"
+ },
+ {
+  "start": 444.24,
+  "end": 447.589,
+  "text": "columns. You can see it captured 10% of"
+ },
+ {
+  "start": 447.599,
+  "end": 450.629,
+  "text": "your table. It is basically capturing"
+ },
+ {
+  "start": 450.639,
+  "end": 453.35,
+  "text": "the entire content of this particular"
+ },
+ {
+  "start": 453.36,
+  "end": 454.43,
+  "text": "original"
+ },
+ {
+  "start": 454.44,
+  "end": 457.99,
+  "text": "table. It takes couple of seconds to"
+ },
+ {
+  "start": 458.0,
+  "end": 461.189,
+  "text": "complete capturing the entire table,"
+ },
+ {
+  "start": 461.199,
+  "end": 472.469,
+  "text": "rows, columns and the content."
+ },
+ {
+  "start": 475.909,
+  "end": 475.919,
+  "text": "So now you can see here table baseline"
+ },
+ {
+  "start": 475.919,
+  "end": 478.869,
+  "text": "successfully created. Click on okay. If"
+ },
+ {
+  "start": 478.879,
+  "end": 482.39,
+  "text": "you go back here and expand this see now"
+ },
+ {
+  "start": 482.4,
+  "end": 486.869,
+  "text": "it says table compare. It says the"
+ },
+ {
+  "start": 486.879,
+  "end": 491.95,
+  "text": "baseline has been created at 15th"
+ },
+ {
+  "start": 491.96,
+  "end": 497.79,
+  "text": "March 8:24 sorry 15th March"
+ },
+ {
+  "start": 497.8,
+  "end": 501.629,
+  "text": "108 p.m. So that means"
+ },
+ {
+  "start": 501.639,
+  "end": 504.869,
+  "text": "now to compare the table. Let's go back"
+ },
+ {
+  "start": 504.879,
+  "end": 508.23,
+  "text": "to the application as we captured the"
+ },
+ {
+  "start": 508.24,
+  "end": 511.43,
+  "text": "baseline table. Now I'm going to click"
+ },
+ {
+  "start": 511.44,
+  "end": 516.23,
+  "text": "on show change table. So now this is the"
+ },
+ {
+  "start": 516.24,
+  "end": 520.79,
+  "text": "change table where one of the cell value"
+ },
+ {
+  "start": 520.8,
+  "end": 524.47,
+  "text": "has been changed. So how can I identify"
+ },
+ {
+  "start": 524.48,
+  "end": 527.269,
+  "text": "which cell has been changed? Now let's"
+ },
+ {
+  "start": 527.279,
+  "end": 529.59,
+  "text": "go back to tricentistosa."
+ },
+ {
+  "start": 529.6,
+  "end": 531.91,
+  "text": "You need to run this test case again."
+ },
+ {
+  "start": 531.92,
+  "end": 535.59,
+  "text": "Why? Once it creates the baseline, now"
+ },
+ {
+  "start": 535.6,
+  "end": 538.71,
+  "text": "it is marked as table compare. So that"
+ },
+ {
+  "start": 538.72,
+  "end": 541.67,
+  "text": "means whenever you run this test case,"
+ },
+ {
+  "start": 541.68,
+  "end": 545.75,
+  "text": "it's going to compare the existing"
+ },
+ {
+  "start": 545.76,
+  "end": 546.99,
+  "text": "display"
+ },
+ {
+  "start": 547.0,
+  "end": 551.31,
+  "text": "table with the baseline table that we"
+ },
+ {
+  "start": 551.32,
+  "end": 554.949,
+  "text": "captured at this time stamp. So let me"
+ },
+ {
+  "start": 554.959,
+  "end": 561.43,
+  "text": "right click and run in scratchbook."
+ },
+ {
+  "start": 564.71,
+  "end": 564.72,
+  "text": "So now it started comparing the original"
+ },
+ {
+  "start": 564.72,
+  "end": 572.75,
+  "text": "table with the changed"
+ },
+ {
+  "start": 575.75,
+  "end": 575.76,
+  "text": "table. So your test case is going to"
+ },
+ {
+  "start": 575.76,
+  "end": 579.59,
+  "text": "fail because when it compares both the"
+ },
+ {
+  "start": 579.6,
+  "end": 582.87,
+  "text": "tables, it's going to identify that one"
+ },
+ {
+  "start": 582.88,
+  "end": 585.11,
+  "text": "of the cell is not matching. So if you"
+ },
+ {
+  "start": 585.12,
+  "end": 590.55,
+  "text": "see here it says column this in row 23"
+ },
+ {
+  "start": 590.56,
+  "end": 593.35,
+  "text": "was modified. What is the expected"
+ },
+ {
+  "start": 593.36,
+  "end": 595.91,
+  "text": "value? This is your original value and"
+ },
+ {
+  "start": 595.92,
+  "end": 599.269,
+  "text": "this is your actual value. So let's copy"
+ },
+ {
+  "start": 599.279,
+  "end": 602.75,
+  "text": "this entire thing into a"
+ },
+ {
+  "start": 602.76,
+  "end": 604.269,
+  "text": "notepad."
+ },
+ {
+  "start": 604.279,
+  "end": 607.67,
+  "text": "Let's paste it here. So what is the row?"
+ },
+ {
+  "start": 607.68,
+  "end": 611.15,
+  "text": "Row number is 23. Let's go back to"
+ },
+ {
+  "start": 611.16,
+  "end": 616.03,
+  "text": "our obstacle. So here I'm going to enter"
+ },
+ {
+  "start": 616.04,
+  "end": 618.79,
+  "text": "23 and what is the column that has"
+ },
+ {
+  "start": 618.8,
+  "end": 621.91,
+  "text": "changed? This is the column right? So"
+ },
+ {
+  "start": 621.92,
+  "end": 624.389,
+  "text": "basically these are the column headers"
+ },
+ {
+  "start": 624.399,
+  "end": 626.949,
+  "text": "somewhere we have that column here. Okay"
+ },
+ {
+  "start": 626.959,
+  "end": 630.71,
+  "text": "this is the column and what is your"
+ },
+ {
+  "start": 630.72,
+  "end": 633.59,
+  "text": "original value? This is your expected"
+ },
+ {
+  "start": 633.6,
+  "end": 637.59,
+  "text": "value. That means the baseline table has"
+ },
+ {
+  "start": 637.6,
+  "end": 640.67,
+  "text": "this value in the"
+ },
+ {
+  "start": 640.68,
+  "end": 643.91,
+  "text": "cell. And then what is the changed"
+ },
+ {
+  "start": 643.92,
+  "end": 646.35,
+  "text": "value? The changed"
+ },
+ {
+  "start": 646.36,
+  "end": 648.35,
+  "text": "table"
+ },
+ {
+  "start": 648.36,
+  "end": 651.71,
+  "text": "has this value in this"
+ },
+ {
+  "start": 651.72,
+  "end": 655.829,
+  "text": "cell. Now if I submit this should be"
+ },
+ {
+  "start": 655.839,
+  "end": 657.71,
+  "text": "able to solve the problem"
+ },
+ {
+  "start": 657.72,
+  "end": 660.15,
+  "text": "successfully. As soon as you submit it"
+ },
+ {
+  "start": 660.16,
+  "end": 662.79,
+  "text": "should say your automation problem"
+ },
+ {
+  "start": 662.8,
+  "end": 665.43,
+  "text": "solved successfully. But however it is"
+ },
+ {
+  "start": 665.44,
+  "end": 667.59,
+  "text": "not working right now. But that is how"
+ },
+ {
+  "start": 667.6,
+  "end": 670.71,
+  "text": "you can solve the obstacle to compare"
+ },
+ {
+  "start": 670.72,
+  "end": 675.269,
+  "text": "the tables with your baseline and the"
+ },
+ {
+  "start": 675.279,
+  "end": 677.99,
+  "text": "change table. So if you have any"
+ },
+ {
+  "start": 678.0,
+  "end": 679.43,
+  "text": "queries, leave your queries in the"
+ },
+ {
+  "start": 679.44,
+  "end": 681.11,
+  "text": "comment box. I'll try to respond to your"
+ },
+ {
+  "start": 681.12,
+  "end": 684.389,
+  "text": "queries. Thank you. Hope you all"
+ },
+ {
+  "start": 684.399,
+  "end": 687.509,
+  "text": "understand how to solve an obstacle"
+ },
+ {
+  "start": 687.519,
+  "end": 691.63,
+  "text": "where you need to store the baseline"
+ },
+ {
+  "start": 691.64,
+  "end": 695.03,
+  "text": "table and then compare the baseline"
+ },
+ {
+  "start": 695.04,
+  "end": 698.99,
+  "text": "table content with the changed table"
+ },
+ {
+  "start": 699.0,
+  "end": 701.67,
+  "text": "content. Please do subscribe to the"
+ },
+ {
+  "start": 701.68,
+  "end": 703.59,
+  "text": "channel, click on bell icon, you'll"
+ },
+ {
+  "start": 703.6,
+  "end": 705.67,
+  "text": "receive notifications whenever I publish"
+ },
+ {
+  "start": 705.68,
+  "end": 709.269,
+  "text": "more videos. Don't forget to like and"
+ },
+ {
+  "start": 709.279,
+  "end": 717.96,
+  "text": "share the video. Thank you."
+ }
+]

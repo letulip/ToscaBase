@@ -1,0 +1,1262 @@
+[
+ {
+  "start": 14.15,
+  "end": 14.16,
+  "text": "hi everyone this is Ravi welcome to"
+ },
+ {
+  "start": 14.16,
+  "end": 16.63,
+  "text": "trioscope automation"
+ },
+ {
+  "start": 16.64,
+  "end": 20.99,
+  "text": "tutoria this is our lesson 34 as an"
+ },
+ {
+  "start": 21.0,
+  "end": 25.07,
+  "text": "overall trient Tas automation Concepts"
+ },
+ {
+  "start": 25.08,
+  "end": 29.15,
+  "text": "and this is our lesson 19 as an advanced"
+ },
+ {
+  "start": 29.16,
+  "end": 31.749,
+  "text": "level concept"
+ },
+ {
+  "start": 31.759,
+  "end": 34.15,
+  "text": "so in this lesson we'll"
+ },
+ {
+  "start": 34.16,
+  "end": 38.67,
+  "text": "learn how can we use interval"
+ },
+ {
+  "start": 38.68,
+  "end": 42.67,
+  "text": "syntax while using verify action mode by"
+ },
+ {
+  "start": 42.68,
+  "end": 45.35,
+  "text": "using trient Taska so I would recommend"
+ },
+ {
+  "start": 45.36,
+  "end": 48.11,
+  "text": "you guys to visit my previous videos"
+ },
+ {
+  "start": 48.12,
+  "end": 51.79,
+  "text": "where I spoke about the verify action"
+ },
+ {
+  "start": 51.8,
+  "end": 53.95,
+  "text": "mode so basically how can you automate"
+ },
+ {
+  "start": 53.96,
+  "end": 56.31,
+  "text": "your test cases by using verify action"
+ },
+ {
+  "start": 56.32,
+  "end": 59.43,
+  "text": "mode so in this lesson we are going to"
+ },
+ {
+  "start": 59.44,
+  "end": 62.15,
+  "text": "concentrate on interval"
+ },
+ {
+  "start": 62.16,
+  "end": 65.55,
+  "text": "syntax while using verify action"
+ },
+ {
+  "start": 65.56,
+  "end": 68.109,
+  "text": "mode so first let us understand what is"
+ },
+ {
+  "start": 68.119,
+  "end": 71.23,
+  "text": "this interval syntax so you can specify"
+ },
+ {
+  "start": 71.24,
+  "end": 74.789,
+  "text": "an interval instead of a single value"
+ },
+ {
+  "start": 74.799,
+  "end": 77.429,
+  "text": "when you use action mode so in our"
+ },
+ {
+  "start": 77.439,
+  "end": 80.59,
+  "text": "previous lesson we have used action mode"
+ },
+ {
+  "start": 80.6,
+  "end": 84.429,
+  "text": "to verify some content or we used"
+ },
+ {
+  "start": 84.439,
+  "end": 87.149,
+  "text": "basically single value But"
+ },
+ {
+  "start": 87.159,
+  "end": 90.23,
+  "text": "Here by using intervals in instead of"
+ },
+ {
+  "start": 90.24,
+  "end": 92.55,
+  "text": "specifying single value you can"
+ },
+ {
+  "start": 92.56,
+  "end": 95.749,
+  "text": "basically specify the interval so if you"
+ },
+ {
+  "start": 95.759,
+  "end": 98.95,
+  "text": "specify an interval trien Tas of"
+ },
+ {
+  "start": 98.96,
+  "end": 102.55,
+  "text": "verifies if a value is within the"
+ },
+ {
+  "start": 102.56,
+  "end": 105.429,
+  "text": "specific range it is not verifying a"
+ },
+ {
+  "start": 105.439,
+  "end": 108.59,
+  "text": "specific value but it is verifying if"
+ },
+ {
+  "start": 108.6,
+  "end": 111.23,
+  "text": "the value is within the specific range"
+ },
+ {
+  "start": 111.24,
+  "end": 112.469,
+  "text": "specified"
+ },
+ {
+  "start": 112.479,
+  "end": 116.51,
+  "text": "range and before you specify an interval"
+ },
+ {
+  "start": 116.52,
+  "end": 118.67,
+  "text": "we need to note the following you can"
+ },
+ {
+  "start": 118.68,
+  "end": 121.749,
+  "text": "only specify an interval for data types"
+ },
+ {
+  "start": 121.759,
+  "end": 125.55,
+  "text": "numeric and string only these okay and"
+ },
+ {
+  "start": 125.56,
+  "end": 128.749,
+  "text": "then to validate a property with"
+ },
+ {
+  "start": 128.759,
+  "end": 131.75,
+  "text": "intervals you can only use the"
+ },
+ {
+  "start": 131.76,
+  "end": 135.19,
+  "text": "operators equal operators or not equal"
+ },
+ {
+  "start": 135.2,
+  "end": 137.63,
+  "text": "operators so these two things you need"
+ },
+ {
+  "start": 137.64,
+  "end": 140.63,
+  "text": "to keep in mind and there are two types"
+ },
+ {
+  "start": 140.64,
+  "end": 145.27,
+  "text": "of intervals one is simple interval so"
+ },
+ {
+  "start": 145.28,
+  "end": 150.07,
+  "text": "to specify an interval with equal upper"
+ },
+ {
+  "start": 150.08,
+  "end": 153.15,
+  "text": "and lower boundaries will be using"
+ },
+ {
+  "start": 153.16,
+  "end": 156.91,
+  "text": "single interval just keep in mind equal"
+ },
+ {
+  "start": 156.92,
+  "end": 160.07,
+  "text": "equal upper and lower boundaries so if"
+ },
+ {
+  "start": 160.08,
+  "end": 161.83,
+  "text": "you see the"
+ },
+ {
+  "start": 161.84,
+  "end": 165.149,
+  "text": "syntax open curly braces"
+ },
+ {
+  "start": 165.159,
+  "end": 167.47,
+  "text": "interval you're going to specify the"
+ },
+ {
+  "start": 167.48,
+  "end": 170.309,
+  "text": "base first within the square brackets"
+ },
+ {
+  "start": 170.319,
+  "end": 172.83,
+  "text": "and then you're going to specify the"
+ },
+ {
+  "start": 172.84,
+  "end": 175.71,
+  "text": "limit so that means when it is"
+ },
+ {
+  "start": 175.72,
+  "end": 177.11,
+  "text": "verification is"
+ },
+ {
+  "start": 177.12,
+  "end": 179.07,
+  "text": "successful the verification will be"
+ },
+ {
+  "start": 179.08,
+  "end": 182.149,
+  "text": "successful if the value within the range"
+ },
+ {
+  "start": 182.159,
+  "end": 187.19,
+  "text": "what is the range your base minus limit"
+ },
+ {
+  "start": 187.2,
+  "end": 191.07,
+  "text": "and your base plus limit for example let"
+ },
+ {
+  "start": 191.08,
+  "end": 193.99,
+  "text": "us assume your base is 100 that means"
+ },
+ {
+  "start": 194.0,
+  "end": 196.67,
+  "text": "what is the range your range will be 100"
+ },
+ {
+  "start": 196.68,
+  "end": 200.83,
+  "text": "- 25 which is 75 and 100 + 25 which is"
+ },
+ {
+  "start": 200.84,
+  "end": 204.07,
+  "text": "125 that means you're expecting your"
+ },
+ {
+  "start": 204.08,
+  "end": 208.27,
+  "text": "value should be between 75 and 125 okay"
+ },
+ {
+  "start": 208.28,
+  "end": 210.35,
+  "text": "and what is our next method the next"
+ },
+ {
+  "start": 210.36,
+  "end": 214.869,
+  "text": "method is custom interval so to specify"
+ },
+ {
+  "start": 214.879,
+  "end": 218.99,
+  "text": "an interval with unique upper and lower"
+ },
+ {
+  "start": 219.0,
+  "end": 222.789,
+  "text": "boundaries in simple interval equal"
+ },
+ {
+  "start": 222.799,
+  "end": 225.75,
+  "text": "upper and lower boundaries here unique"
+ },
+ {
+  "start": 225.76,
+  "end": 227.869,
+  "text": "upper and lower boundaries if you see"
+ },
+ {
+  "start": 227.879,
+  "end": 230.75,
+  "text": "the syntax open curly braces interval"
+ },
+ {
+  "start": 230.76,
+  "end": 232.309,
+  "text": "you're going to specify the base within"
+ },
+ {
+  "start": 232.319,
+  "end": 234.75,
+  "text": "the square brackets until here it same"
+ },
+ {
+  "start": 234.76,
+  "end": 236.949,
+  "text": "but after that you're going to specify"
+ },
+ {
+  "start": 236.959,
+  "end": 240.19,
+  "text": "both lower boundary as well as your"
+ },
+ {
+  "start": 240.2,
+  "end": 241.149,
+  "text": "upper"
+ },
+ {
+  "start": 241.159,
+  "end": 243.75,
+  "text": "boundary whereas in the previous way"
+ },
+ {
+  "start": 243.76,
+  "end": 246.39,
+  "text": "previous we just specified the limit but"
+ },
+ {
+  "start": 246.4,
+  "end": 248.069,
+  "text": "here we are going to specify lower"
+ },
+ {
+  "start": 248.079,
+  "end": 250.949,
+  "text": "boundary and the upper boundary so what"
+ },
+ {
+  "start": 250.959,
+  "end": 254.509,
+  "text": "is the range the range will be your base"
+ },
+ {
+  "start": 254.519,
+  "end": 256.069,
+  "text": "minus lower"
+ },
+ {
+  "start": 256.079,
+  "end": 260.069,
+  "text": "boundary and our upper boundary is base"
+ },
+ {
+  "start": 260.079,
+  "end": 263.469,
+  "text": "plus upper boundary for example your"
+ },
+ {
+  "start": 263.479,
+  "end": 266.39,
+  "text": "base is 100 I specified the lower"
+ },
+ {
+  "start": 266.4,
+  "end": 269.469,
+  "text": "boundary as 10 then your lower boundary"
+ },
+ {
+  "start": 269.479,
+  "end": 273.35,
+  "text": "will will be 90 and I can specify the"
+ },
+ {
+  "start": 273.36,
+  "end": 275.99,
+  "text": "unique upper boundary upper boundary I"
+ },
+ {
+  "start": 276.0,
+  "end": 278.83,
+  "text": "specified upper boundary 50 that means"
+ },
+ {
+  "start": 278.84,
+  "end": 283.55,
+  "text": "100 + 50 which is 150 so your content"
+ },
+ {
+  "start": 283.56,
+  "end": 286.39,
+  "text": "should be between 90"
+ },
+ {
+  "start": 286.4,
+  "end": 289.99,
+  "text": "and okay so now let us jump onto the"
+ },
+ {
+  "start": 290.0,
+  "end": 293.67,
+  "text": "system and see how can we use intervals"
+ },
+ {
+  "start": 293.68,
+  "end": 297.11,
+  "text": "while automating your test cases so"
+ },
+ {
+  "start": 297.12,
+  "end": 300.07,
+  "text": "first let us understand what do you want"
+ },
+ {
+  "start": 300.08,
+  "end": 303.469,
+  "text": "automate okay so this is our sample app."
+ },
+ {
+  "start": 303.479,
+  "end": 307.07,
+  "text": "rentes okay where it is showing me a"
+ },
+ {
+  "start": 307.08,
+  "end": 310.31,
+  "text": "different price options for my car so if"
+ },
+ {
+  "start": 310.32,
+  "end": 314.469,
+  "text": "you see the silver has t22 gold 949 per"
+ },
+ {
+  "start": 314.479,
+  "end": 317.55,
+  "text": "year and plattinum 1,800 per year you"
+ },
+ {
+  "start": 317.56,
+  "end": 321.23,
+  "text": "see the claims discount right the silver"
+ },
+ {
+  "start": 321.24,
+  "end": 323.629,
+  "text": "does not have any discount gold has a"
+ },
+ {
+  "start": 323.639,
+  "end": 326.55,
+  "text": "discount of 2% Platinum has a discount"
+ },
+ {
+  "start": 326.56,
+  "end": 330.43,
+  "text": "of 5% and ultimate has a discount of 10%"
+ },
+ {
+  "start": 330.44,
+  "end": 333.55,
+  "text": "now this percentage the discount"
+ },
+ {
+  "start": 333.56,
+  "end": 338.39,
+  "text": "percentage should be between 0 to 10 so"
+ },
+ {
+  "start": 338.4,
+  "end": 339.87,
+  "text": "now I would like to"
+ },
+ {
+  "start": 339.88,
+  "end": 343.87,
+  "text": "validate this particular row should have"
+ },
+ {
+  "start": 343.88,
+  "end": 347.39,
+  "text": "all the values discounted values between"
+ },
+ {
+  "start": 347.4,
+  "end": 351.909,
+  "text": "0 to 10 right the range between 0 to 10"
+ },
+ {
+  "start": 351.919,
+  "end": 354.469,
+  "text": "how can I validate that so let us go to"
+ },
+ {
+  "start": 354.479,
+  "end": 359.11,
+  "text": "your prent toas okay so let me first"
+ },
+ {
+  "start": 359.12,
+  "end": 362.79,
+  "text": "scan scan the table that we are"
+ },
+ {
+  "start": 362.8,
+  "end": 364.35,
+  "text": "displaying there okay let us scan the"
+ },
+ {
+  "start": 364.36,
+  "end": 367.07,
+  "text": "table first okay so let's go to here"
+ },
+ {
+  "start": 367.08,
+  "end": 370.11,
+  "text": "right click and click on scan"
+ },
+ {
+  "start": 370.12,
+  "end": 373.51,
+  "text": "application so I would like to scan the"
+ },
+ {
+  "start": 373.52,
+  "end": 380.909,
+  "text": "table control on the particular web"
+ },
+ {
+  "start": 384.749,
+  "end": 384.759,
+  "text": "page so here this is my web application"
+ },
+ {
+  "start": 384.759,
+  "end": 388.55,
+  "text": "click on scan and if you see you should"
+ },
+ {
+  "start": 388.56,
+  "end": 391.029,
+  "text": "see the table"
+ },
+ {
+  "start": 391.039,
+  "end": 394.27,
+  "text": "this is your entire table okay so here"
+ },
+ {
+  "start": 394.28,
+  "end": 396.51,
+  "text": "this is your price table let's highlight"
+ },
+ {
+  "start": 396.52,
+  "end": 398.629,
+  "text": "this you highlight this see this is your"
+ },
+ {
+  "start": 398.639,
+  "end": 400.35,
+  "text": "price table I'm just going to select the"
+ },
+ {
+  "start": 400.36,
+  "end": 404.27,
+  "text": "price table and let us save this so"
+ },
+ {
+  "start": 404.28,
+  "end": 406.43,
+  "text": "before I save I would like to change the"
+ },
+ {
+  "start": 406.44,
+  "end": 409.79,
+  "text": "name okay what I'm going to do I'm going"
+ },
+ {
+  "start": 409.8,
+  "end": 411.87,
+  "text": "to change the name"
+ },
+ {
+  "start": 411.88,
+  "end": 415.55,
+  "text": "to right okay let the name will be uh"
+ },
+ {
+  "start": 415.56,
+  "end": 417.43,
+  "text": "price options okay let it be like that"
+ },
+ {
+  "start": 417.44,
+  "end": 422.11,
+  "text": "okay let's save this okay and close"
+ },
+ {
+  "start": 422.12,
+  "end": 427.11,
+  "text": "your xcan so let's go back to your prasa"
+ },
+ {
+  "start": 427.12,
+  "end": 430.11,
+  "text": "now I want to move this module to the"
+ },
+ {
+  "start": 430.12,
+  "end": 433.15,
+  "text": "right side so let us create one test"
+ },
+ {
+  "start": 433.16,
+  "end": 436.15,
+  "text": "case now okay first let me create a"
+ },
+ {
+  "start": 436.16,
+  "end": 438.99,
+  "text": "folder here okay let me create a folder"
+ },
+ {
+  "start": 439.0,
+  "end": 440.66,
+  "text": "right click click on"
+ },
+ {
+  "start": 441.759,
+  "end": 444.749,
+  "text": "folder here I'm going to"
+ },
+ {
+  "start": 444.759,
+  "end": 447.83,
+  "text": "specify"
+ },
+ {
+  "start": 451.15,
+  "end": 451.16,
+  "text": "intervals okay intervals and let's"
+ },
+ {
+  "start": 451.16,
+  "end": 453.71,
+  "text": "create one test"
+ },
+ {
+  "start": 453.72,
+  "end": 454.81,
+  "text": "case"
+ },
+ {
+  "start": 461.07,
+  "end": 461.08,
+  "text": "validate"
+ },
+ {
+  "start": 461.08,
+  "end": 464.07,
+  "text": "discount percentage range okay I'm going"
+ },
+ {
+  "start": 464.08,
+  "end": 465.629,
+  "text": "to validate the discount percentage"
+ },
+ {
+  "start": 465.639,
+  "end": 468.909,
+  "text": "range"
+ },
+ {
+  "start": 471.99,
+  "end": 472.0,
+  "text": "okay so here now whatever the module"
+ },
+ {
+  "start": 472.0,
+  "end": 475.51,
+  "text": "that we scanned let us add this module"
+ },
+ {
+  "start": 475.52,
+  "end": 477.95,
+  "text": "drag and drop"
+ },
+ {
+  "start": 477.96,
+  "end": 481.99,
+  "text": "here so what what I'm going to do now"
+ },
+ {
+  "start": 482.0,
+  "end": 485.35,
+  "text": "let expand this and this is your price"
+ },
+ {
+  "start": 485.36,
+  "end": 488.27,
+  "text": "table so for the price table I would"
+ },
+ {
+  "start": 488.28,
+  "end": 491.029,
+  "text": "like to go to the column first if you"
+ },
+ {
+  "start": 491.039,
+  "end": 494.55,
+  "text": "see I want to verify the discount"
+ },
+ {
+  "start": 494.56,
+  "end": 497.71,
+  "text": "percentage should be between the range"
+ },
+ {
+  "start": 497.72,
+  "end": 500.869,
+  "text": "of 0 to 10 I need to see the column"
+ },
+ {
+  "start": 500.879,
+  "end": 504.469,
+  "text": "Platinum first okay let's go here go to"
+ },
+ {
+  "start": 504.479,
+  "end": 507.23,
+  "text": "column and select"
+ },
+ {
+  "start": 507.24,
+  "end": 510.79,
+  "text": "Platinum so once I select the Platinum"
+ },
+ {
+  "start": 510.8,
+  "end": 514.909,
+  "text": "here under cell let's copy this as it is"
+ },
+ {
+  "start": 514.919,
+  "end": 518.709,
+  "text": "I would like to go for the"
+ },
+ {
+  "start": 518.719,
+  "end": 522.829,
+  "text": "sell this one discount percentage and"
+ },
+ {
+  "start": 522.839,
+  "end": 523.63,
+  "text": "this"
+ },
+ {
+  "start": 523.64,
+  "end": 527.15,
+  "text": "should first let me store this into a"
+ },
+ {
+  "start": 527.16,
+  "end": 532.79,
+  "text": "buffer let me store into a"
+ },
+ {
+  "start": 541.63,
+  "end": 541.64,
+  "text": "discount claim this is the buffer i'"
+ },
+ {
+  "start": 541.64,
+  "end": 543.75,
+  "text": "like to store let's store this into a"
+ },
+ {
+  "start": 543.76,
+  "end": 547.55,
+  "text": "buffer okay buffer and once I store into"
+ },
+ {
+  "start": 547.56,
+  "end": 549.949,
+  "text": "the buffer let's run this I want to see"
+ },
+ {
+  "start": 549.959,
+  "end": 552.11,
+  "text": "if this particular value will be stor"
+ },
+ {
+  "start": 552.12,
+  "end": 555.269,
+  "text": "into buffer or not okay right click and"
+ },
+ {
+  "start": 555.279,
+  "end": 557.47,
+  "text": "run"
+ },
+ {
+  "start": 557.48,
+  "end": 560.069,
+  "text": "it I'm just making"
+ },
+ {
+  "start": 560.079,
+  "end": 565.069,
+  "text": "sure it can read the value from the"
+ },
+ {
+  "start": 565.079,
+  "end": 566.91,
+  "text": "row"
+ },
+ {
+  "start": 566.92,
+  "end": 569.91,
+  "text": "okay so now it's read the value let's go"
+ },
+ {
+  "start": 569.92,
+  "end": 573.15,
+  "text": "to your present isasa and see the result"
+ },
+ {
+  "start": 573.16,
+  "end": 577.949,
+  "text": "now so if you see here under Platinum it"
+ },
+ {
+  "start": 577.959,
+  "end": 580.509,
+  "text": "stored the buffer see the value five has"
+ },
+ {
+  "start": 580.519,
+  "end": 583.99,
+  "text": "been stored under discount claim buffer"
+ },
+ {
+  "start": 584.0,
+  "end": 587.31,
+  "text": "value now now here"
+ },
+ {
+  "start": 587.32,
+  "end": 591.67,
+  "text": "again again I want to see the cell now I"
+ },
+ {
+  "start": 591.68,
+  "end": 594.23,
+  "text": "want to verify the range"
+ },
+ {
+  "start": 594.24,
+  "end": 597.23,
+  "text": "here the value should"
+ },
+ {
+  "start": 597.24,
+  "end": 599.71,
+  "text": "be first what is"
+ },
+ {
+  "start": 599.72,
+  "end": 604.829,
+  "text": "you let us first go and see the formula"
+ },
+ {
+  "start": 604.839,
+  "end": 608.389,
+  "text": "so as I told you earlier we'll see here"
+ },
+ {
+  "start": 608.399,
+  "end": 609.949,
+  "text": "okay"
+ },
+ {
+  "start": 609.959,
+  "end": 613.63,
+  "text": "so what is the formula to specify the"
+ },
+ {
+  "start": 613.64,
+  "end": 616.43,
+  "text": "range let us first see simple interval"
+ },
+ {
+  "start": 616.44,
+  "end": 620.47,
+  "text": "of simple interval it talks about your"
+ },
+ {
+  "start": 620.48,
+  "end": 625.03,
+  "text": "interval base and the limit correct so"
+ },
+ {
+  "start": 625.04,
+  "end": 630.15,
+  "text": "now I'm going to specify this as"
+ },
+ {
+  "start": 630.16,
+  "end": 634.389,
+  "text": "braces interval see interval what is the"
+ },
+ {
+  "start": 634.399,
+  "end": 637.629,
+  "text": "base I'm going to specify it as 10 in"
+ },
+ {
+  "start": 637.639,
+  "end": 640.47,
+  "text": "the braces now I'm going to specify the"
+ },
+ {
+  "start": 640.48,
+  "end": 643.79,
+  "text": "limit so that means what I'm saying this"
+ },
+ {
+  "start": 643.8,
+  "end": 646.35,
+  "text": "cell should"
+ },
+ {
+  "start": 646.36,
+  "end": 649.35,
+  "text": "have so let's close the curly bases see"
+ },
+ {
+  "start": 649.36,
+  "end": 651.15,
+  "text": "now as soon as I remove this now it"
+ },
+ {
+  "start": 651.16,
+  "end": 654.31,
+  "text": "should turn into a format see interval"
+ },
+ {
+  "start": 654.32,
+  "end": 658.55,
+  "text": "10 your base is 10 your limit is five"
+ },
+ {
+  "start": 658.56,
+  "end": 659.67,
+  "text": "which means"
+ },
+ {
+  "start": 659.68,
+  "end": 661.35,
+  "text": "10 - 5"
+ },
+ {
+  "start": 661.36,
+  "end": 665.629,
+  "text": "5 10 + 5 15 that means the value should"
+ },
+ {
+  "start": 665.639,
+  "end": 668.389,
+  "text": "be between 5 and"
+ },
+ {
+  "start": 668.399,
+  "end": 670.949,
+  "text": "15 so if you see here the value is"
+ },
+ {
+  "start": 670.959,
+  "end": 672.829,
+  "text": "between five and 15 that's correct the"
+ },
+ {
+  "start": 672.839,
+  "end": 675.11,
+  "text": "value is actually five that means which"
+ },
+ {
+  "start": 675.12,
+  "end": 679.55,
+  "text": "comes under 5 and 15 let me run this now"
+ },
+ {
+  "start": 679.56,
+  "end": 685.75,
+  "text": "right click and"
+ },
+ {
+  "start": 689.67,
+  "end": 689.68,
+  "text": "run so the value should be between"
+ },
+ {
+  "start": 689.68,
+  "end": 694.23,
+  "text": "pi and"
+ },
+ {
+  "start": 698.59,
+  "end": 698.6,
+  "text": "10 yes so let's go to your test results"
+ },
+ {
+  "start": 698.6,
+  "end": 701.47,
+  "text": "now okay let us go to your test"
+ },
+ {
+  "start": 701.48,
+  "end": 704.59,
+  "text": "results so if you see here your"
+ },
+ {
+  "start": 704.6,
+  "end": 705.99,
+  "text": "verification is"
+ },
+ {
+  "start": 706.0,
+  "end": 710.35,
+  "text": "successful and it"
+ },
+ {
+  "start": 714.79,
+  "end": 714.8,
+  "text": "says value stored here and this is"
+ },
+ {
+  "start": 714.8,
+  "end": 721.11,
+  "text": "correct okay so now this is your simp"
+ },
+ {
+  "start": 723.949,
+  "end": 723.959,
+  "text": "interval what about custom interval I"
+ },
+ {
+  "start": 723.959,
+  "end": 726.23,
+  "text": "would like to verify the custom interval"
+ },
+ {
+  "start": 726.24,
+  "end": 729.069,
+  "text": "so I'm going to specify again here I"
+ },
+ {
+  "start": 729.079,
+  "end": 733.99,
+  "text": "want to verify if your claim"
+ },
+ {
+  "start": 736.269,
+  "end": 736.279,
+  "text": "discount"
+ },
+ {
+  "start": 736.279,
+  "end": 741.15,
+  "text": "interval and my Bas is 10 and what is"
+ },
+ {
+  "start": 741.16,
+  "end": 743.269,
+  "text": "your lower limit and what is your uper"
+ },
+ {
+  "start": 743.279,
+  "end": 748.43,
+  "text": "upper limit my lower limit is six and my"
+ },
+ {
+  "start": 748.44,
+  "end": 752.75,
+  "text": "upper is five what do you mean by that"
+ },
+ {
+  "start": 752.76,
+  "end": 757.189,
+  "text": "the meaning is the value the sell"
+ },
+ {
+  "start": 757.199,
+  "end": 760.629,
+  "text": "discount claim discount cell should have"
+ },
+ {
+  "start": 760.639,
+  "end": 765.31,
+  "text": "the value between 10 - 6 which is 4 and"
+ },
+ {
+  "start": 765.32,
+  "end": 768.71,
+  "text": "10 + 5 15 that means the value should be"
+ },
+ {
+  "start": 768.72,
+  "end": 773.189,
+  "text": "between 4 and 15 so let me run this now"
+ },
+ {
+  "start": 773.199,
+  "end": 774.47,
+  "text": "if I run"
+ },
+ {
+  "start": 774.48,
+  "end": 777.829,
+  "text": "this both the test steps should"
+ },
+ {
+  "start": 777.839,
+  "end": 781.91,
+  "text": "pass because the value is between 5 and"
+ },
+ {
+  "start": 781.92,
+  "end": 787.75,
+  "text": "15 and the value is between 4 and"
+ },
+ {
+  "start": 792.31,
+  "end": 792.32,
+  "text": "15 perfect so now let us go and see our"
+ },
+ {
+  "start": 792.32,
+  "end": 793.75,
+  "text": "test"
+ },
+ {
+  "start": 793.76,
+  "end": 796.79,
+  "text": "results see both the"
+ },
+ {
+  "start": 796.8,
+  "end": 802.23,
+  "text": "verifications both verify steps"
+ },
+ {
+  "start": 804.75,
+  "end": 804.76,
+  "text": "pass so if you have any queries leave"
+ },
+ {
+  "start": 804.76,
+  "end": 806.79,
+  "text": "your queries in the comment box I'll try"
+ },
+ {
+  "start": 806.8,
+  "end": 810.23,
+  "text": "to respond to your queries"
+ },
+ {
+  "start": 810.24,
+  "end": 813.47,
+  "text": "hope you all understand the concept of"
+ },
+ {
+  "start": 813.48,
+  "end": 815.23,
+  "text": "interval"
+ },
+ {
+  "start": 815.24,
+  "end": 819.47,
+  "text": "syntax while using action mode"
+ },
+ {
+  "start": 819.48,
+  "end": 822.189,
+  "text": "verify please do subscribe to the"
+ },
+ {
+  "start": 822.199,
+  "end": 824.269,
+  "text": "channel click on Bell icon you'll"
+ },
+ {
+  "start": 824.279,
+  "end": 826.79,
+  "text": "receive notifications whenever I publish"
+ },
+ {
+  "start": 826.8,
+  "end": 837.749,
+  "text": "more videos thank"
+ }
+]

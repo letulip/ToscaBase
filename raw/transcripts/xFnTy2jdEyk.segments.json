@@ -1,0 +1,947 @@
+[
+ {
+  "start": 12.789,
+  "end": 12.799,
+  "text": "hi everyone this is Ravi welcome to"
+ },
+ {
+  "start": 12.799,
+  "end": 16.95,
+  "text": "trien tasa Advanced Training as you all"
+ },
+ {
+  "start": 16.96,
+  "end": 20.59,
+  "text": "know I have already published 45 YouTube"
+ },
+ {
+  "start": 20.6,
+  "end": 24.269,
+  "text": "videos covering basic level intermediate"
+ },
+ {
+  "start": 24.279,
+  "end": 27.269,
+  "text": "level and advanced level"
+ },
+ {
+  "start": 27.279,
+  "end": 30.509,
+  "text": "Concepts from couple of videos"
+ },
+ {
+  "start": 30.519,
+  "end": 34.35,
+  "text": "have started publishing the realtime"
+ },
+ {
+  "start": 34.36,
+  "end": 38.03,
+  "text": "scenarios where you might encounter"
+ },
+ {
+  "start": 38.04,
+  "end": 41.31,
+  "text": "different types of obstacles and how can"
+ },
+ {
+  "start": 41.32,
+  "end": 44.47,
+  "text": "we solve those kind of obstacles by"
+ },
+ {
+  "start": 44.48,
+  "end": 47.99,
+  "text": "using trient TSA while automating your"
+ },
+ {
+  "start": 48.0,
+  "end": 52.47,
+  "text": "test cases this is our lesson"
+ },
+ {
+  "start": 52.48,
+  "end": 56.549,
+  "text": "46 if you like the video please do like"
+ },
+ {
+  "start": 56.559,
+  "end": 59.63,
+  "text": "and share the video and don't forget to"
+ },
+ {
+  "start": 59.64,
+  "end": 61.95,
+  "text": "Subs to the channel so that you'll get"
+ },
+ {
+  "start": 61.96,
+  "end": 64.31,
+  "text": "notifications whenever I publish more"
+ },
+ {
+  "start": 64.32,
+  "end": 67.19,
+  "text": "videos thank"
+ },
+ {
+  "start": 67.2,
+  "end": 69.99,
+  "text": "you in this lesson I'm going to teach"
+ },
+ {
+  "start": 70.0,
+  "end": 73.55,
+  "text": "you a realtime scenario where you need"
+ },
+ {
+  "start": 73.56,
+  "end": 78.109,
+  "text": "to interact with dynamically changing ID"
+ },
+ {
+  "start": 78.119,
+  "end": 82.51,
+  "text": "property elements let us see what is the"
+ },
+ {
+  "start": 82.52,
+  "end": 85.789,
+  "text": "obstacle that we need to solve"
+ },
+ {
+  "start": 85.799,
+  "end": 89.749,
+  "text": "for so this is our fourth obstacle which"
+ },
+ {
+  "start": 89.759,
+  "end": 94.19,
+  "text": "is is two times so let's go for"
+ },
+ {
+  "start": 94.2,
+  "end": 98.789,
+  "text": "it so use one module creating two"
+ },
+ {
+  "start": 98.799,
+  "end": 103.389,
+  "text": "automated steps to click the button two"
+ },
+ {
+  "start": 103.399,
+  "end": 104.91,
+  "text": "times in a"
+ },
+ {
+  "start": 104.92,
+  "end": 108.83,
+  "text": "row sounds easier than it is so what do"
+ },
+ {
+  "start": 108.84,
+  "end": 111.109,
+  "text": "you mean by that so"
+ },
+ {
+  "start": 111.119,
+  "end": 114.35,
+  "text": "here whenever you click this button for"
+ },
+ {
+  "start": 114.36,
+  "end": 116.51,
+  "text": "the first time right so if you see the"
+ },
+ {
+  "start": 116.52,
+  "end": 120.55,
+  "text": "button name is Click me tox as soon as I"
+ },
+ {
+  "start": 120.56,
+  "end": 123.429,
+  "text": "click on this button see now your button"
+ },
+ {
+  "start": 123.439,
+  "end": 128.07,
+  "text": "name is changed click me once more right"
+ },
+ {
+  "start": 128.08,
+  "end": 131.19,
+  "text": "so once I click one more time that means"
+ },
+ {
+  "start": 131.2,
+  "end": 135.07,
+  "text": "your automation job is solved or your"
+ },
+ {
+  "start": 135.08,
+  "end": 137.63,
+  "text": "challenge is solved so let's try this"
+ },
+ {
+  "start": 137.64,
+  "end": 140.83,
+  "text": "again okay so you have a"
+ },
+ {
+  "start": 140.84,
+  "end": 144.19,
+  "text": "button once you click on this button it"
+ },
+ {
+  "start": 144.2,
+  "end": 146.71,
+  "text": "changes the name of your button so"
+ },
+ {
+  "start": 146.72,
+  "end": 149.07,
+  "text": "that's why the name of the button and"
+ },
+ {
+  "start": 149.08,
+  "end": 151.869,
+  "text": "property of the button gets changed for"
+ },
+ {
+  "start": 151.879,
+  "end": 154.309,
+  "text": "the second time so you need to click"
+ },
+ {
+  "start": 154.319,
+  "end": 158.83,
+  "text": "this button another time then you solve"
+ },
+ {
+  "start": 158.84,
+  "end": 161.949,
+  "text": "this automation problem right for that"
+ },
+ {
+  "start": 161.959,
+  "end": 165.19,
+  "text": "let's go back to tricenter stasa and as"
+ },
+ {
+  "start": 165.2,
+  "end": 168.11,
+  "text": "usual let's scan the"
+ },
+ {
+  "start": 168.12,
+  "end": 171.589,
+  "text": "application by using the folder obstacle"
+ },
+ {
+  "start": 171.599,
+  "end": 173.03,
+  "text": "right click on this"
+ },
+ {
+  "start": 173.04,
+  "end": 184.07,
+  "text": "folder scan click on application"
+ },
+ {
+  "start": 186.949,
+  "end": 186.959,
+  "text": "and this is our application select the"
+ },
+ {
+  "start": 186.959,
+  "end": 202.83,
+  "text": "application click on"
+ },
+ {
+  "start": 206.75,
+  "end": 206.76,
+  "text": "scan now let me maximize the window and"
+ },
+ {
+  "start": 206.76,
+  "end": 209.949,
+  "text": "what is the button the button is Click"
+ },
+ {
+  "start": 209.959,
+  "end": 212.509,
+  "text": "me 2x so this is the button that we need"
+ },
+ {
+  "start": 212.519,
+  "end": 216.83,
+  "text": "to click twice but the button changes"
+ },
+ {
+  "start": 216.84,
+  "end": 218.35,
+  "text": "let's see what is the properties of this"
+ },
+ {
+  "start": 218.36,
+  "end": 220.47,
+  "text": "button if you see here the property of"
+ },
+ {
+  "start": 220.48,
+  "end": 223.67,
+  "text": "button is you have some numeric portion"
+ },
+ {
+  "start": 223.68,
+  "end": 226.11,
+  "text": "_ 4"
+ },
+ {
+  "start": 226.12,
+  "end": 229.149,
+  "text": "6576 right so remember this and then tag"
+ },
+ {
+  "start": 229.159,
+  "end": 232.27,
+  "text": "a you have numeric"
+ },
+ {
+  "start": 232.28,
+  "end": 235.67,
+  "text": "underscore sorry it's it's not numeric"
+ },
+ {
+  "start": 235.68,
+  "end": 238.39,
+  "text": "you have a characters underscore numeric"
+ },
+ {
+  "start": 238.4,
+  "end": 243.03,
+  "text": "value 4 657 six so let me close this I"
+ },
+ {
+  "start": 243.04,
+  "end": 245.149,
+  "text": "don't want to save this I just want to"
+ },
+ {
+  "start": 245.159,
+  "end": 248.55,
+  "text": "close this and let me click this button"
+ },
+ {
+  "start": 248.56,
+  "end": 252.75,
+  "text": "one time right now let me rescan this"
+ },
+ {
+  "start": 252.76,
+  "end": 255.949,
+  "text": "particular application right click click"
+ },
+ {
+  "start": 255.959,
+  "end": 266.95,
+  "text": "on"
+ },
+ {
+  "start": 269.749,
+  "end": 269.759,
+  "text": "application and select the application"
+ },
+ {
+  "start": 269.759,
+  "end": 271.07,
+  "text": "click on"
+ },
+ {
+  "start": 271.08,
+  "end": 276.469,
+  "text": "scan so if you see the button now and"
+ },
+ {
+  "start": 276.479,
+  "end": 278.43,
+  "text": "the properties of"
+ },
+ {
+  "start": 278.44,
+  "end": 281.39,
+  "text": "button now your button name is Click me"
+ },
+ {
+  "start": 281.4,
+  "end": 283.909,
+  "text": "once more let's see the property of this"
+ },
+ {
+  "start": 283.919,
+  "end": 286.71,
+  "text": "button so you can see here the property"
+ },
+ {
+  "start": 286.72,
+  "end": 289.909,
+  "text": "of button has changed see here numeric"
+ },
+ {
+  "start": 289.919,
+  "end": 293.87,
+  "text": "sorry your alphabets underscore now your"
+ },
+ {
+  "start": 293.88,
+  "end": 297.15,
+  "text": "numeric portion got changed 84"
+ },
+ {
+  "start": 297.16,
+  "end": 299.87,
+  "text": "68 so how can we solve this this"
+ },
+ {
+  "start": 299.88,
+  "end": 302.95,
+  "text": "particular challenge to click the button"
+ },
+ {
+  "start": 302.96,
+  "end": 306.31,
+  "text": "twice so for that let's close this again"
+ },
+ {
+  "start": 306.32,
+  "end": 307.79,
+  "text": "so let me"
+ },
+ {
+  "start": 307.8,
+  "end": 311.59,
+  "text": "just click on this and then let's try"
+ },
+ {
+  "start": 311.6,
+  "end": 315.029,
+  "text": "this again okay so now let us go back to"
+ },
+ {
+  "start": 315.039,
+  "end": 323.23,
+  "text": "our trient tasa and now let me scan the"
+ },
+ {
+  "start": 327.11,
+  "end": 327.12,
+  "text": "application I would like to capture the"
+ },
+ {
+  "start": 327.12,
+  "end": 330.629,
+  "text": "object at initial"
+ },
+ {
+  "start": 330.639,
+  "end": 331.59,
+  "text": "stage"
+ },
+ {
+  "start": 331.6,
+  "end": 334.71,
+  "text": "itself before you click the button for"
+ },
+ {
+  "start": 334.72,
+  "end": 338.749,
+  "text": "the first time right click on"
+ },
+ {
+  "start": 338.759,
+  "end": 342.469,
+  "text": "scan and"
+ },
+ {
+  "start": 344.029,
+  "end": 344.039,
+  "text": "here"
+ },
+ {
+  "start": 344.039,
+  "end": 348.55,
+  "text": "let's select the button click me"
+ },
+ {
+  "start": 348.56,
+  "end": 353.79,
+  "text": "2x as I told you the button has an ID"
+ },
+ {
+  "start": 353.8,
+  "end": 355.43,
+  "text": "and this"
+ },
+ {
+  "start": 355.44,
+  "end": 360.87,
+  "text": "ID gets changed to the another numeric"
+ },
+ {
+  "start": 360.88,
+  "end": 363.43,
+  "text": "portion here after underscore so that's"
+ },
+ {
+  "start": 363.44,
+  "end": 369.309,
+  "text": "why I cannot keep this as is instead"
+ },
+ {
+  "start": 369.319,
+  "end": 373.07,
+  "text": "remove that changing portion of your"
+ },
+ {
+  "start": 373.08,
+  "end": 377.749,
+  "text": "property and replace with hasri which is"
+ },
+ {
+  "start": 377.759,
+  "end": 380.83,
+  "text": "a regular expression this regular"
+ },
+ {
+  "start": 380.84,
+  "end": 385.35,
+  "text": "expression hasri is used Whenever there"
+ },
+ {
+  "start": 385.36,
+  "end": 388.55,
+  "text": "is a dynamic portion this can"
+ },
+ {
+  "start": 388.56,
+  "end": 393.27,
+  "text": "handle rmd uncore after that after"
+ },
+ {
+  "start": 393.28,
+  "end": 398.07,
+  "text": "underscore you can have any alphabet or"
+ },
+ {
+  "start": 398.08,
+  "end": 400.909,
+  "text": "numeric portion it doesn't"
+ },
+ {
+  "start": 400.919,
+  "end": 404.629,
+  "text": "matter it recognize the object even"
+ },
+ {
+  "start": 404.639,
+  "end": 408.07,
+  "text": "though you have any number or any"
+ },
+ {
+  "start": 408.08,
+  "end": 411.55,
+  "text": "character after underscore so I would"
+ },
+ {
+  "start": 411.56,
+  "end": 414.629,
+  "text": "like to replace that static value with a"
+ },
+ {
+  "start": 414.639,
+  "end": 418.23,
+  "text": "regular expression hasri and click on"
+ },
+ {
+  "start": 418.24,
+  "end": 422.43,
+  "text": "Okay so done now let's rename this"
+ },
+ {
+  "start": 422.44,
+  "end": 425.43,
+  "text": "module with the name of your"
+ },
+ {
+  "start": 425.44,
+  "end": 430.43,
+  "text": "obstacle this is my obstacle name copy"
+ },
+ {
+  "start": 430.44,
+  "end": 435.67,
+  "text": "this and rename this so it's a best"
+ },
+ {
+  "start": 435.68,
+  "end": 438.35,
+  "text": "practice to rename the"
+ },
+ {
+  "start": 438.36,
+  "end": 442.39,
+  "text": "module so that it makes a logical sense"
+ },
+ {
+  "start": 442.4,
+  "end": 449.909,
+  "text": "okay so now let's save the module"
+ },
+ {
+  "start": 454.909,
+  "end": 454.919,
+  "text": "so close your X scan so let's go back to"
+ },
+ {
+  "start": 454.919,
+  "end": 458.39,
+  "text": "renasa now you can see this is my new"
+ },
+ {
+  "start": 458.4,
+  "end": 462.83,
+  "text": "module that I have scanned click me 2x"
+ },
+ {
+  "start": 462.84,
+  "end": 465.869,
+  "text": "so let me create a new test case now"
+ },
+ {
+  "start": 465.879,
+  "end": 467.39,
+  "text": "under obstacle"
+ },
+ {
+  "start": 467.4,
+  "end": 469.43,
+  "text": "folder right"
+ },
+ {
+  "start": 469.44,
+  "end": 472.149,
+  "text": "click create a test"
+ },
+ {
+  "start": 472.159,
+  "end": 477.149,
+  "text": "case name this as your obstacle"
+ },
+ {
+  "start": 477.159,
+  "end": 481.67,
+  "text": "name double click on this so now let me"
+ },
+ {
+  "start": 481.68,
+  "end": 485.51,
+  "text": "drag and drop the new module that we"
+ },
+ {
+  "start": 485.52,
+  "end": 489.79,
+  "text": "scanned drag and drop"
+ },
+ {
+  "start": 492.27,
+  "end": 492.28,
+  "text": "here so"
+ },
+ {
+  "start": 492.28,
+  "end": 494.71,
+  "text": "here for the first time you need to"
+ },
+ {
+  "start": 494.72,
+  "end": 499.629,
+  "text": "click on click me 2x right for that pass"
+ },
+ {
+  "start": 499.639,
+  "end": 504.909,
+  "text": "this x now again I want to click on this"
+ },
+ {
+  "start": 504.919,
+  "end": 508.07,
+  "text": "same button right but the button"
+ },
+ {
+  "start": 508.08,
+  "end": 510.029,
+  "text": "property gets changed"
+ },
+ {
+  "start": 510.039,
+  "end": 513.19,
+  "text": "drag this same module and drop into the"
+ },
+ {
+  "start": 513.2,
+  "end": 515.63,
+  "text": "same test case one more"
+ },
+ {
+  "start": 515.64,
+  "end": 518.909,
+  "text": "time and here I would like to rename"
+ },
+ {
+  "start": 518.919,
+  "end": 524.19,
+  "text": "this as click button once more and this"
+ },
+ {
+  "start": 524.2,
+  "end": 526.509,
+  "text": "step"
+ },
+ {
+  "start": 526.519,
+  "end": 528.19,
+  "text": "is"
+ },
+ {
+  "start": 528.2,
+  "end": 530.269,
+  "text": "Click"
+ },
+ {
+  "start": 530.279,
+  "end": 534.11,
+  "text": "button for first"
+ },
+ {
+  "start": 534.12,
+  "end": 537.71,
+  "text": "time right so here again for the second"
+ },
+ {
+  "start": 537.72,
+  "end": 540.43,
+  "text": "time pass X"
+ },
+ {
+  "start": 540.44,
+  "end": 545.15,
+  "text": "so now this is done now let's save the"
+ },
+ {
+  "start": 545.16,
+  "end": 548.069,
+  "text": "test case and mark the test case work"
+ },
+ {
+  "start": 548.079,
+  "end": 552.71,
+  "text": "state as complete completed right and"
+ },
+ {
+  "start": 552.72,
+  "end": 557.47,
+  "text": "now let me run this test case and see if"
+ },
+ {
+  "start": 557.48,
+  "end": 563.47,
+  "text": "we can click the button"
+ },
+ {
+  "start": 566.23,
+  "end": 566.24,
+  "text": "twice see it clicked on once it clicked"
+ },
+ {
+  "start": 566.24,
+  "end": 568.79,
+  "text": "second time I would like to do one thing"
+ },
+ {
+  "start": 568.8,
+  "end": 571.389,
+  "text": "okay so let's do one thing let's go back"
+ },
+ {
+  "start": 571.399,
+  "end": 574.389,
+  "text": "here I would like to"
+ },
+ {
+  "start": 574.399,
+  "end": 577.03,
+  "text": "use the some other click function so"
+ },
+ {
+  "start": 577.04,
+  "end": 577.66,
+  "text": "that you can"
+ },
+ {
+  "start": 578.88,
+  "end": 581.269,
+  "text": "see whether it is clicking or not I"
+ },
+ {
+  "start": 581.279,
+  "end": 584.43,
+  "text": "would like to use click function which"
+ },
+ {
+  "start": 584.44,
+  "end": 588.91,
+  "text": "uses the keyboard action so that your"
+ },
+ {
+  "start": 588.92,
+  "end": 592.91,
+  "text": "cursor will be placed onto the"
+ },
+ {
+  "start": 592.92,
+  "end": 595.47,
+  "text": "button so let's run this again one more"
+ },
+ {
+  "start": 595.48,
+  "end": 603.35,
+  "text": "time"
+ },
+ {
+  "start": 606.03,
+  "end": 606.04,
+  "text": "see your cursor moved to the button and"
+ },
+ {
+  "start": 606.04,
+  "end": 609.35,
+  "text": "it clicked one more time so that means"
+ },
+ {
+  "start": 609.36,
+  "end": 613.15,
+  "text": "now you solve this automation problem so"
+ },
+ {
+  "start": 613.16,
+  "end": 616.069,
+  "text": "whenever you are automating your test"
+ },
+ {
+  "start": 616.079,
+  "end": 620.43,
+  "text": "cases during that time if you have any"
+ },
+ {
+  "start": 620.44,
+  "end": 623.11,
+  "text": "dynamically changing ID"
+ },
+ {
+  "start": 623.12,
+  "end": 626.67,
+  "text": "properties dynamically changing partial"
+ },
+ {
+  "start": 626.68,
+  "end": 631.509,
+  "text": "text value or partial value of your ID"
+ },
+ {
+  "start": 631.519,
+  "end": 634.389,
+  "text": "then you can solve the problem by using"
+ },
+ {
+  "start": 634.399,
+  "end": 637.67,
+  "text": "this approach this is medium level"
+ },
+ {
+  "start": 637.68,
+  "end": 641.11,
+  "text": "obstacle but going forward we'll move to"
+ },
+ {
+  "start": 641.12,
+  "end": 643.75,
+  "text": "hard categorization of"
+ },
+ {
+  "start": 643.76,
+  "end": 646.03,
+  "text": "obstacles so if you have any queries"
+ },
+ {
+  "start": 646.04,
+  "end": 647.79,
+  "text": "leave your queries in the comment box"
+ },
+ {
+  "start": 647.8,
+  "end": 651.269,
+  "text": "I'll try to respond to your queries hope"
+ },
+ {
+  "start": 651.279,
+  "end": 655.71,
+  "text": "you all understand how can we solve an"
+ },
+ {
+  "start": 655.72,
+  "end": 658.15,
+  "text": "obstacle while automating your test"
+ },
+ {
+  "start": 658.16,
+  "end": 662.91,
+  "text": "cases where you have to interact with"
+ },
+ {
+  "start": 662.92,
+  "end": 667.19,
+  "text": "the elements for which the element"
+ },
+ {
+  "start": 667.2,
+  "end": 670.829,
+  "text": "properties are dynamically"
+ },
+ {
+  "start": 670.839,
+  "end": 673.629,
+  "text": "changing please do subscribe to the"
+ },
+ {
+  "start": 673.639,
+  "end": 675.91,
+  "text": "channel click on Bell icon you'll"
+ },
+ {
+  "start": 675.92,
+  "end": 677.949,
+  "text": "receive notifications whenever I publish"
+ },
+ {
+  "start": 677.959,
+  "end": 681.79,
+  "text": "more videos please do like and share the"
+ },
+ {
+  "start": 681.8,
+  "end": 691.03,
+  "text": "video thank you"
+ }
+]

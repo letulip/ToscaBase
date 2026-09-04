@@ -1,0 +1,1132 @@
+[
+ {
+  "start": 14.03,
+  "end": 14.04,
+  "text": "hi everyone this is Ravi welcome to PR"
+ },
+ {
+  "start": 14.04,
+  "end": 17.83,
+  "text": "stasa automation tutal as you all know I"
+ },
+ {
+  "start": 17.84,
+  "end": 22.23,
+  "text": "already published 37 YouTube videos"
+ },
+ {
+  "start": 22.24,
+  "end": 26.31,
+  "text": "covering concepts of R and so if you"
+ },
+ {
+  "start": 26.32,
+  "end": 28.509,
+  "text": "take it as an advanced level Concepts"
+ },
+ {
+  "start": 28.519,
+  "end": 32.31,
+  "text": "already published 22"
+ },
+ {
+  "start": 36.35,
+  "end": 36.36,
+  "text": "this is our lesson 38 in terms of tasa"
+ },
+ {
+  "start": 36.36,
+  "end": 38.83,
+  "text": "automation Concepts and this is our"
+ },
+ {
+  "start": 38.84,
+  "end": 42.59,
+  "text": "lesson 23 in terms of advanced level"
+ },
+ {
+  "start": 42.6,
+  "end": 45.15,
+  "text": "Concepts in this lesson I'm going to"
+ },
+ {
+  "start": 45.16,
+  "end": 49.189,
+  "text": "teach you how can you perform the string"
+ },
+ {
+  "start": 49.199,
+  "end": 53.189,
+  "text": "operations trim and replay while"
+ },
+ {
+  "start": 53.199,
+  "end": 56.229,
+  "text": "automating your web application I'm"
+ },
+ {
+  "start": 56.239,
+  "end": 59.43,
+  "text": "going to teach you these two operations"
+ },
+ {
+  "start": 59.44,
+  "end": 60.59,
+  "text": "in"
+ },
+ {
+  "start": 60.6,
+  "end": 64.109,
+  "text": "solving one obstacle scenario while"
+ },
+ {
+  "start": 64.119,
+  "end": 66.469,
+  "text": "automating your web application and this"
+ },
+ {
+  "start": 66.479,
+  "end": 69.27,
+  "text": "is your part one of string operations"
+ },
+ {
+  "start": 69.28,
+  "end": 71.469,
+  "text": "soon I'm going to publish part two of"
+ },
+ {
+  "start": 71.479,
+  "end": 74.749,
+  "text": "string operations with more operations"
+ },
+ {
+  "start": 74.759,
+  "end": 76.789,
+  "text": "please do subscribe to the channel click"
+ },
+ {
+  "start": 76.799,
+  "end": 78.109,
+  "text": "on Bell icon you'll receive"
+ },
+ {
+  "start": 78.119,
+  "end": 80.55,
+  "text": "notifications whenever I publish more"
+ },
+ {
+  "start": 80.56,
+  "end": 83.39,
+  "text": "videos thank you so now let us jump onto"
+ },
+ {
+  "start": 83.4,
+  "end": 86.069,
+  "text": "the system and see how can we perform"
+ },
+ {
+  "start": 86.079,
+  "end": 89.19,
+  "text": "these string operations in solving one"
+ },
+ {
+  "start": 89.2,
+  "end": 90.39,
+  "text": "obstacle"
+ },
+ {
+  "start": 90.4,
+  "end": 93.67,
+  "text": "scario let us first understand what is"
+ },
+ {
+  "start": 93.68,
+  "end": 94.83,
+  "text": "the"
+ },
+ {
+  "start": 94.84,
+  "end": 97.63,
+  "text": "obstacle where we need to use the string"
+ },
+ {
+  "start": 97.64,
+  "end": 100.95,
+  "text": "operations like trim and replace so I'm"
+ },
+ {
+  "start": 100.96,
+  "end": 104.55,
+  "text": "just logging into demo webshop as usual"
+ },
+ {
+  "start": 104.56,
+  "end": 106.99,
+  "text": "so once you log into demo webshop let me"
+ },
+ {
+  "start": 107.0,
+  "end": 110.23,
+  "text": "order one blue jeans okay I'm just"
+ },
+ {
+  "start": 110.24,
+  "end": 114.55,
+  "text": "adding into cart and go to shopping cart"
+ },
+ {
+  "start": 114.56,
+  "end": 119.35,
+  "text": "and check out the do jeans and provide"
+ },
+ {
+  "start": 119.36,
+  "end": 122.55,
+  "text": "all the billing address shipping address"
+ },
+ {
+  "start": 122.56,
+  "end": 125.51,
+  "text": "and shipping method and all payment"
+ },
+ {
+  "start": 125.52,
+  "end": 127.91,
+  "text": "details okay so once you provide all the"
+ },
+ {
+  "start": 127.92,
+  "end": 130.27,
+  "text": "payment details and then I'm going to"
+ },
+ {
+  "start": 130.28,
+  "end": 133.229,
+  "text": "confirm the order so as soon as I"
+ },
+ {
+  "start": 133.239,
+  "end": 136.19,
+  "text": "confirm the order see I'm going to get"
+ },
+ {
+  "start": 136.2,
+  "end": 140.79,
+  "text": "the order number right so now I want to"
+ },
+ {
+  "start": 140.8,
+  "end": 145.55,
+  "text": "extract only order number out of this"
+ },
+ {
+  "start": 145.56,
+  "end": 150.15,
+  "text": "entire text that means I want to trim"
+ },
+ {
+  "start": 150.16,
+  "end": 155.27,
+  "text": "some of the spaces and I want to also"
+ },
+ {
+  "start": 155.28,
+  "end": 157.11,
+  "text": "remove these numerical"
+ },
+ {
+  "start": 157.12,
+  "end": 161.11,
+  "text": "values and the colon value but I want to"
+ },
+ {
+  "start": 161.12,
+  "end": 164.63,
+  "text": "just extract the number from this entire"
+ },
+ {
+  "start": 164.64,
+  "end": 167.589,
+  "text": "text how can we do that to automate or"
+ },
+ {
+  "start": 167.599,
+  "end": 171.07,
+  "text": "to overcome this challenge let us go to"
+ },
+ {
+  "start": 171.08,
+  "end": 173.91,
+  "text": "your trient tasa and see how can we"
+ },
+ {
+  "start": 173.92,
+  "end": 177.869,
+  "text": "automate this okay so now"
+ },
+ {
+  "start": 177.879,
+  "end": 182.19,
+  "text": "exercises create one fold folder called"
+ },
+ {
+  "start": 182.2,
+  "end": 184.589,
+  "text": "string"
+ },
+ {
+  "start": 184.599,
+  "end": 187.55,
+  "text": "operations part"
+ },
+ {
+  "start": 187.56,
+  "end": 189.67,
+  "text": "one and"
+ },
+ {
+  "start": 189.68,
+  "end": 193.11,
+  "text": "here let me create one test"
+ },
+ {
+  "start": 193.12,
+  "end": 195.27,
+  "text": "case I'll"
+ },
+ {
+  "start": 195.28,
+  "end": 197.509,
+  "text": "say"
+ },
+ {
+  "start": 197.519,
+  "end": 200.67,
+  "text": "order number"
+ },
+ {
+  "start": 200.68,
+  "end": 204.63,
+  "text": "extraction okay this is our test case"
+ },
+ {
+  "start": 204.64,
+  "end": 208.35,
+  "text": "now if you go to modules so what I did"
+ },
+ {
+  "start": 208.36,
+  "end": 210.83,
+  "text": "we already"
+ },
+ {
+  "start": 210.84,
+  "end": 213.789,
+  "text": "scan the module for the order"
+ },
+ {
+  "start": 213.799,
+  "end": 216.789,
+  "text": "confirmation you see this is the order"
+ },
+ {
+  "start": 216.799,
+  "end": 219.71,
+  "text": "confirmation module okay in this"
+ },
+ {
+  "start": 219.72,
+  "end": 222.63,
+  "text": "module the only change what we did is"
+ },
+ {
+  "start": 222.64,
+  "end": 224.91,
+  "text": "this is the order number right this is"
+ },
+ {
+  "start": 224.92,
+  "end": 226.789,
+  "text": "the order number this is the object for"
+ },
+ {
+  "start": 226.799,
+  "end": 230.55,
+  "text": "the order number and entire text so only"
+ },
+ {
+  "start": 230.56,
+  "end": 233.19,
+  "text": "change what we did is for the outer text"
+ },
+ {
+  "start": 233.2,
+  "end": 235.869,
+  "text": "after order number colon I've just"
+ },
+ {
+  "start": 235.879,
+  "end": 239.67,
+  "text": "introduced star means I just entered the"
+ },
+ {
+  "start": 239.68,
+  "end": 241.91,
+  "text": "regular expression because this number"
+ },
+ {
+  "start": 241.92,
+  "end": 245.03,
+  "text": "keeps on changing okay so now let's go"
+ },
+ {
+  "start": 245.04,
+  "end": 247.63,
+  "text": "back to our test case so let me bring"
+ },
+ {
+  "start": 247.64,
+  "end": 250.19,
+  "text": "module to the right side so that I can"
+ },
+ {
+  "start": 250.2,
+  "end": 253.03,
+  "text": "create test Case by using the"
+ },
+ {
+  "start": 253.04,
+  "end": 256.069,
+  "text": "module so now I want to drag and drop"
+ },
+ {
+  "start": 256.079,
+  "end": 259.83,
+  "text": "this order successful"
+ },
+ {
+  "start": 259.84,
+  "end": 264.95,
+  "text": "module okay now let me expand this so"
+ },
+ {
+  "start": 264.96,
+  "end": 266.59,
+  "text": "what I want to do"
+ },
+ {
+  "start": 266.6,
+  "end": 271.27,
+  "text": "here in order number I want"
+ },
+ {
+  "start": 271.28,
+  "end": 276.43,
+  "text": "to store the inner text into your buffer"
+ },
+ {
+  "start": 276.44,
+  "end": 278.79,
+  "text": "okay let me store this into a buffer"
+ },
+ {
+  "start": 278.8,
+  "end": 280.67,
+  "text": "called"
+ },
+ {
+  "start": 280.68,
+  "end": 284.31,
+  "text": "order success message this is not order"
+ },
+ {
+  "start": 284.32,
+  "end": 286.67,
+  "text": "number but it is order success message"
+ },
+ {
+  "start": 286.68,
+  "end": 289.31,
+  "text": "with order number correct I'll say"
+ },
+ {
+  "start": 289.32,
+  "end": 292.749,
+  "text": "instead of order"
+ },
+ {
+  "start": 295.43,
+  "end": 295.44,
+  "text": "success message okay let it keep it as"
+ },
+ {
+  "start": 295.44,
+  "end": 298.15,
+  "text": "order success but here I want to store"
+ },
+ {
+  "start": 298.16,
+  "end": 301.11,
+  "text": "this into a buffer"
+ },
+ {
+  "start": 301.12,
+  "end": 304.39,
+  "text": "so now let me run this and see what"
+ },
+ {
+  "start": 304.4,
+  "end": 307.59,
+  "text": "buffer value we are going to get run"
+ },
+ {
+  "start": 307.6,
+  "end": 310.189,
+  "text": "it it's going to extract this entire"
+ },
+ {
+  "start": 310.199,
+  "end": 312.55,
+  "text": "text right I want to show you what does"
+ },
+ {
+  "start": 312.56,
+  "end": 319.55,
+  "text": "it"
+ },
+ {
+  "start": 323.309,
+  "end": 323.319,
+  "text": "contain it extracted the content of this"
+ },
+ {
+  "start": 323.319,
+  "end": 327.27,
+  "text": "entire module let's go to"
+ },
+ {
+  "start": 327.28,
+  "end": 330.15,
+  "text": "rasa and here"
+ },
+ {
+  "start": 330.16,
+  "end": 331.43,
+  "text": "if you see"
+ },
+ {
+  "start": 331.44,
+  "end": 333.51,
+  "text": "here You observe"
+ },
+ {
+  "start": 333.52,
+  "end": 337.309,
+  "text": "closely see this particular text it has"
+ },
+ {
+  "start": 337.319,
+  "end": 340.23,
+  "text": "what this entire value I can see there"
+ },
+ {
+  "start": 340.24,
+  "end": 343.749,
+  "text": "are some white spaces or blank spaces"
+ },
+ {
+  "start": 343.759,
+  "end": 346.87,
+  "text": "and order number column and then some"
+ },
+ {
+  "start": 346.88,
+  "end": 350.15,
+  "text": "text again some blank spaces correct so"
+ },
+ {
+  "start": 350.16,
+  "end": 354.27,
+  "text": "now I want to trim all these blank"
+ },
+ {
+  "start": 354.28,
+  "end": 357.39,
+  "text": "spaces and I want"
+ },
+ {
+  "start": 357.4,
+  "end": 360.83,
+  "text": "to remove this numeric content and I"
+ },
+ {
+  "start": 360.84,
+  "end": 363.749,
+  "text": "want to extract only numeric part how"
+ },
+ {
+  "start": 363.759,
+  "end": 366.189,
+  "text": "can I do that first I'll be using trim"
+ },
+ {
+  "start": 366.199,
+  "end": 369.11,
+  "text": "to remove all these P spaces and I'm"
+ },
+ {
+  "start": 369.12,
+  "end": 371.95,
+  "text": "going to use replace I'm going to"
+ },
+ {
+  "start": 371.96,
+  "end": 374.23,
+  "text": "replace this entire numeric content"
+ },
+ {
+  "start": 374.24,
+  "end": 375.67,
+  "text": "including"
+ },
+ {
+  "start": 375.68,
+  "end": 380.309,
+  "text": "colon with a white space with a wi space"
+ },
+ {
+  "start": 380.319,
+  "end": 383.15,
+  "text": "so that the trim function can trim"
+ },
+ {
+  "start": 383.16,
+  "end": 386.589,
+  "text": "entire white space along with this"
+ },
+ {
+  "start": 386.599,
+  "end": 388.309,
+  "text": "numeric portion because the numeric"
+ },
+ {
+  "start": 388.319,
+  "end": 390.27,
+  "text": "portion is being repl with the white"
+ },
+ {
+  "start": 390.28,
+  "end": 393.51,
+  "text": "space so trim function will replace trim"
+ },
+ {
+  "start": 393.52,
+  "end": 396.189,
+  "text": "the white space and then you will have"
+ },
+ {
+  "start": 396.199,
+  "end": 398.79,
+  "text": "only order number okay so now let's go"
+ },
+ {
+  "start": 398.8,
+  "end": 403.35,
+  "text": "back to our CH Tas so here let me add"
+ },
+ {
+  "start": 403.36,
+  "end": 406.67,
+  "text": "another step called"
+ },
+ {
+  "start": 406.68,
+  "end": 410.909,
+  "text": "tbox set"
+ },
+ {
+  "start": 410.919,
+  "end": 414.27,
+  "text": "tbx set buffer okay I'm going to set the"
+ },
+ {
+  "start": 414.28,
+  "end": 418.11,
+  "text": "buffer now why I want to set the buffer"
+ },
+ {
+  "start": 418.12,
+  "end": 422.11,
+  "text": "here saying now I want to extract only"
+ },
+ {
+  "start": 422.12,
+  "end": 425.749,
+  "text": "order number from where from this"
+ },
+ {
+  "start": 425.759,
+  "end": 428.589,
+  "text": "message okay order success message so"
+ },
+ {
+  "start": 428.599,
+  "end": 431.27,
+  "text": "I'm going to use one simple formula here"
+ },
+ {
+  "start": 431.28,
+  "end": 432.67,
+  "text": "I'm going to copy this formula because I"
+ },
+ {
+  "start": 432.68,
+  "end": 436.27,
+  "text": "don't want to enter entire formula here"
+ },
+ {
+  "start": 436.28,
+  "end": 438.51,
+  "text": "so let me do one thing let me put this"
+ },
+ {
+  "start": 438.52,
+  "end": 441.27,
+  "text": "as let me rename this as buffer so that"
+ },
+ {
+  "start": 441.28,
+  "end": 443.909,
+  "text": "you'll understand bore I'm going to do"
+ },
+ {
+  "start": 443.919,
+  "end": 446.67,
+  "text": "this way okay copy this so this is my"
+ },
+ {
+  "start": 446.68,
+  "end": 450.23,
+  "text": "buffer okay I'm going to replace the"
+ },
+ {
+  "start": 450.24,
+  "end": 452.71,
+  "text": "buffer name here okay so I'm going to"
+ },
+ {
+  "start": 452.72,
+  "end": 454.629,
+  "text": "use this entire text I'm going to"
+ },
+ {
+  "start": 454.639,
+  "end": 458.23,
+  "text": "explain you what is the formula okay"
+ },
+ {
+  "start": 458.24,
+  "end": 461.23,
+  "text": "here what I am instructing"
+ },
+ {
+  "start": 461.24,
+  "end": 463.43,
+  "text": "tasa so"
+ },
+ {
+  "start": 463.44,
+  "end": 465.55,
+  "text": "simply what I'm"
+ },
+ {
+  "start": 465.56,
+  "end": 470.35,
+  "text": "saying open curly braces trim what I"
+ },
+ {
+  "start": 470.36,
+  "end": 471.35,
+  "text": "want to"
+ },
+ {
+  "start": 471.36,
+  "end": 475.07,
+  "text": "trim first I am replacing the"
+ },
+ {
+  "start": 475.08,
+  "end": 478.51,
+  "text": "string what is the actual text this"
+ },
+ {
+  "start": 478.52,
+  "end": 481.309,
+  "text": "entire mage message whatever I'm storing"
+ },
+ {
+  "start": 481.319,
+  "end": 485.99,
+  "text": "in buffer okay that is"
+ },
+ {
+  "start": 486.0,
+  "end": 491.309,
+  "text": "my destination message and I want to use"
+ },
+ {
+  "start": 491.319,
+  "end": 495.43,
+  "text": "this entire message and what is"
+ },
+ {
+  "start": 495.44,
+  "end": 498.27,
+  "text": "the text that you want to replace I want"
+ },
+ {
+  "start": 498.28,
+  "end": 501.67,
+  "text": "to replace order number"
+ },
+ {
+  "start": 501.68,
+  "end": 504.589,
+  "text": "colon so that's why I'm specifying that"
+ },
+ {
+  "start": 504.599,
+  "end": 508.11,
+  "text": "in a square bracket order number colon I"
+ },
+ {
+  "start": 508.12,
+  "end": 510.629,
+  "text": "want to replace this what I want to"
+ },
+ {
+  "start": 510.639,
+  "end": 514.31,
+  "text": "replace this by a"
+ },
+ {
+  "start": 514.32,
+  "end": 517.43,
+  "text": "blank open C Open Bracket and close"
+ },
+ {
+  "start": 517.44,
+  "end": 519.389,
+  "text": "bracket that means I want to replace"
+ },
+ {
+  "start": 519.399,
+  "end": 522.23,
+  "text": "this with a white space I want to"
+ },
+ {
+  "start": 522.24,
+  "end": 524.75,
+  "text": "replace order number colon with white"
+ },
+ {
+  "start": 524.76,
+  "end": 527.509,
+  "text": "space and I'm ignoring the case that"
+ },
+ {
+  "start": 527.519,
+  "end": 531.67,
+  "text": "means if you enter order number colon"
+ },
+ {
+  "start": 531.68,
+  "end": 534.389,
+  "text": "capital W capital N or whatever if you"
+ },
+ {
+  "start": 534.399,
+  "end": 536.07,
+  "text": "are entering in a capital letters or if"
+ },
+ {
+  "start": 536.08,
+  "end": 537.829,
+  "text": "you are entering in a small letters it's"
+ },
+ {
+  "start": 537.839,
+  "end": 540.67,
+  "text": "going to ignore the case it going to"
+ },
+ {
+  "start": 540.68,
+  "end": 543.069,
+  "text": "ignore and it going to replace"
+ },
+ {
+  "start": 543.079,
+  "end": 545.069,
+  "text": "everything with white space so that's"
+ },
+ {
+  "start": 545.079,
+  "end": 548.63,
+  "text": "why I'm ignoring the case and once you"
+ },
+ {
+  "start": 548.64,
+  "end": 551.03,
+  "text": "replace order number colon with the"
+ },
+ {
+  "start": 551.04,
+  "end": 554.55,
+  "text": "white space and then I am using the trim"
+ },
+ {
+  "start": 554.56,
+  "end": 557.829,
+  "text": "function that means it's going to trim"
+ },
+ {
+  "start": 557.839,
+  "end": 559.35,
+  "text": "entire white"
+ },
+ {
+  "start": 559.36,
+  "end": 562.75,
+  "text": "space along with the white space that we"
+ },
+ {
+  "start": 562.76,
+  "end": 565.59,
+  "text": "replaced by using string"
+ },
+ {
+  "start": 565.6,
+  "end": 568.949,
+  "text": "replace okay so as soon as you do this"
+ },
+ {
+  "start": 568.959,
+  "end": 571.91,
+  "text": "way it's going to format this way trim"
+ },
+ {
+  "start": 571.92,
+  "end": 574.67,
+  "text": "string replace what is the string that"
+ },
+ {
+  "start": 574.68,
+  "end": 575.55,
+  "text": "we are"
+ },
+ {
+  "start": 575.56,
+  "end": 577.87,
+  "text": "considering the string whatever we are"
+ },
+ {
+  "start": 577.88,
+  "end": 582.31,
+  "text": "storing here into a buffer that string"
+ },
+ {
+  "start": 582.32,
+  "end": 585.269,
+  "text": "and part of the string is order number"
+ },
+ {
+  "start": 585.279,
+  "end": 588.31,
+  "text": "colon I want to replace this with a"
+ },
+ {
+  "start": 588.32,
+  "end": 591.35,
+  "text": "small white space and I'm ignoring the"
+ },
+ {
+  "start": 591.36,
+  "end": 595.269,
+  "text": "case okay so now let me run run this"
+ },
+ {
+  "start": 595.279,
+  "end": 597.71,
+  "text": "entire test case now and see what"
+ },
+ {
+  "start": 597.72,
+  "end": 609.03,
+  "text": "happens run this"
+ },
+ {
+  "start": 611.35,
+  "end": 611.36,
+  "text": "first it stores the value into buffer"
+ },
+ {
+  "start": 611.36,
+  "end": 615.15,
+  "text": "and then it uses the formula that we"
+ },
+ {
+  "start": 615.16,
+  "end": 618.43,
+  "text": "entered by using buffer value so let me"
+ },
+ {
+  "start": 618.44,
+  "end": 622.55,
+  "text": "see here you see tbx so it stored the"
+ },
+ {
+  "start": 622.56,
+  "end": 624.23,
+  "text": "white spaces and everything as I told"
+ },
+ {
+  "start": 624.24,
+  "end": 627.31,
+  "text": "you earlier now we are creating a new"
+ },
+ {
+  "start": 627.32,
+  "end": 629.63,
+  "text": "buffer called order number and we are"
+ },
+ {
+  "start": 629.64,
+  "end": 632.829,
+  "text": "extracting only numeric portion see here"
+ },
+ {
+  "start": 632.839,
+  "end": 636.47,
+  "text": "buffer with name order number has set to"
+ },
+ {
+  "start": 636.48,
+  "end": 638.47,
+  "text": "what"
+ },
+ {
+  "start": 638.48,
+  "end": 643.23,
+  "text": "15667 let's go to screen 1561 167 that"
+ },
+ {
+  "start": 643.24,
+  "end": 647.509,
+  "text": "means it trimmed entire white spaces and"
+ },
+ {
+  "start": 647.519,
+  "end": 649.949,
+  "text": "it replaced order number with one white"
+ },
+ {
+  "start": 649.959,
+  "end": 656.19,
+  "text": "space right so it took only numeric"
+ },
+ {
+  "start": 659.23,
+  "end": 659.24,
+  "text": "portion right so that means the we"
+ },
+ {
+  "start": 659.24,
+  "end": 662.11,
+  "text": "achieved this obstacle by using trim and"
+ },
+ {
+  "start": 662.12,
+  "end": 665.11,
+  "text": "replace functions so if you have any"
+ },
+ {
+  "start": 665.12,
+  "end": 666.47,
+  "text": "queries leave your queries in the"
+ },
+ {
+  "start": 666.48,
+  "end": 668.99,
+  "text": "comment box I'll try to respond to your"
+ },
+ {
+  "start": 669.0,
+  "end": 671.71,
+  "text": "queries this is our part one of string"
+ },
+ {
+  "start": 671.72,
+  "end": 674.269,
+  "text": "operation okay so hope you all"
+ },
+ {
+  "start": 674.279,
+  "end": 677.15,
+  "text": "understand how can you perform trim and"
+ },
+ {
+  "start": 677.16,
+  "end": 679.069,
+  "text": "replace string operations while"
+ },
+ {
+  "start": 679.079,
+  "end": 681.35,
+  "text": "automating your test cases so I'm going"
+ },
+ {
+  "start": 681.36,
+  "end": 684.23,
+  "text": "to publish part two of string operations"
+ },
+ {
+  "start": 684.24,
+  "end": 686.31,
+  "text": "where I'm going to cover uh more and"
+ },
+ {
+  "start": 686.32,
+  "end": 688.79,
+  "text": "more operations to automate your test"
+ },
+ {
+  "start": 688.8,
+  "end": 690.11,
+  "text": "case"
+ },
+ {
+  "start": 690.12,
+  "end": 692.79,
+  "text": "please do subscribe to the channel click"
+ },
+ {
+  "start": 692.8,
+  "end": 694.509,
+  "text": "on Bell icon you'll receive"
+ },
+ {
+  "start": 694.519,
+  "end": 697.509,
+  "text": "notifications whenever I publish"
+ },
+ {
+  "start": 697.519,
+  "end": 706.68,
+  "text": "more thank"
+ },
+ {
+  "start": 708.8,
+  "end": 711.8,
+  "text": "you"
+ }
+]

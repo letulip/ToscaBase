@@ -1,0 +1,2287 @@
+[
+ {
+  "start": 1.74,
+  "end": 4.86,
+  "text": "foreign"
+ },
+ {
+  "start": 19.01,
+  "end": 19.02,
+  "text": "so this is our"
+ },
+ {
+  "start": 19.02,
+  "end": 22.91,
+  "text": "lesson 23 in terms of overall Tri-Cities"
+ },
+ {
+  "start": 22.92,
+  "end": 26.75,
+  "text": "Tosca latest version 16 training"
+ },
+ {
+  "start": 26.76,
+  "end": 30.349,
+  "text": "and this is lesson 8 in terms of"
+ },
+ {
+  "start": 30.359,
+  "end": 33.43,
+  "text": "advanced"
+ },
+ {
+  "start": 35.209,
+  "end": 35.219,
+  "text": "training"
+ },
+ {
+  "start": 35.219,
+  "end": 38.87,
+  "text": "so in this lesson I'm gonna teach you"
+ },
+ {
+  "start": 38.88,
+  "end": 43.13,
+  "text": "how can we use and implement the dynamic"
+ },
+ {
+  "start": 43.14,
+  "end": 45.19,
+  "text": "ID by using"
+ },
+ {
+  "start": 45.2,
+  "end": 48.83,
+  "text": "tricentistoska and also how can we use"
+ },
+ {
+  "start": 48.84,
+  "end": 52.85,
+  "text": "and Implement explicit Name by using"
+ },
+ {
+  "start": 52.86,
+  "end": 55.43,
+  "text": "price and discuss.com so I'm gonna give"
+ },
+ {
+  "start": 55.44,
+  "end": 58.069,
+  "text": "you a complex scenario"
+ },
+ {
+  "start": 58.079,
+  "end": 60.47,
+  "text": "and I'm going to teach you how to"
+ },
+ {
+  "start": 60.48,
+  "end": 61.97,
+  "text": "automate that particular complex"
+ },
+ {
+  "start": 61.98,
+  "end": 62.99,
+  "text": "scenario"
+ },
+ {
+  "start": 63.0,
+  "end": 66.89,
+  "text": "where I have to use the dynamic ID and"
+ },
+ {
+  "start": 66.9,
+  "end": 70.01,
+  "text": "explicit name to complete the automation"
+ },
+ {
+  "start": 70.02,
+  "end": 71.81,
+  "text": "of particular that particular end-to-end"
+ },
+ {
+  "start": 71.82,
+  "end": 73.429,
+  "text": "scenario okay"
+ },
+ {
+  "start": 73.439,
+  "end": 76.37,
+  "text": "please do subscribe to the channel click"
+ },
+ {
+  "start": 76.38,
+  "end": 77.87,
+  "text": "on Bell icon you'll receive"
+ },
+ {
+  "start": 77.88,
+  "end": 80.33,
+  "text": "notifications whenever I publish more"
+ },
+ {
+  "start": 80.34,
+  "end": 81.23,
+  "text": "videos"
+ },
+ {
+  "start": 81.24,
+  "end": 84.05,
+  "text": "thank you"
+ },
+ {
+  "start": 87.289,
+  "end": 87.299,
+  "text": "okay so first what is dynamic ID"
+ },
+ {
+  "start": 87.299,
+  "end": 89.21,
+  "text": "so in this lesson"
+ },
+ {
+  "start": 89.22,
+  "end": 91.19,
+  "text": "I'm gonna teach you"
+ },
+ {
+  "start": 91.2,
+  "end": 95.27,
+  "text": "how can you identify when a dynamic ID"
+ },
+ {
+  "start": 95.28,
+  "end": 97.19,
+  "text": "should be used"
+ },
+ {
+  "start": 97.2,
+  "end": 99.77,
+  "text": "and also"
+ },
+ {
+  "start": 99.78,
+  "end": 102.59,
+  "text": "I'm gonna teach you how to create a"
+ },
+ {
+  "start": 102.6,
+  "end": 106.01,
+  "text": "dynamic IDE in the properties of a"
+ },
+ {
+  "start": 106.02,
+  "end": 108.41,
+  "text": "particular control"
+ },
+ {
+  "start": 108.42,
+  "end": 111.83,
+  "text": "so the dynamic ID is a term for a value"
+ },
+ {
+  "start": 111.84,
+  "end": 113.749,
+  "text": "of a property"
+ },
+ {
+  "start": 113.759,
+  "end": 117.889,
+  "text": "on a module attribute that can"
+ },
+ {
+  "start": 117.899,
+  "end": 121.55,
+  "text": "change during each distinct run"
+ },
+ {
+  "start": 121.56,
+  "end": 124.01,
+  "text": "so basically it's an attribute so let's"
+ },
+ {
+  "start": 124.02,
+  "end": 126.649,
+  "text": "say you are capturing a control"
+ },
+ {
+  "start": 126.659,
+  "end": 129.55,
+  "text": "and you will be"
+ },
+ {
+  "start": 129.56,
+  "end": 132.47,
+  "text": "identifying the unique properties right"
+ },
+ {
+  "start": 132.48,
+  "end": 135.229,
+  "text": "of that particular control which needs"
+ },
+ {
+  "start": 135.239,
+  "end": 137.51,
+  "text": "to be used"
+ },
+ {
+  "start": 137.52,
+  "end": 141.11,
+  "text": "for a tasker to identify that particular"
+ },
+ {
+  "start": 141.12,
+  "end": 143.869,
+  "text": "control uniquely okay so now you're"
+ },
+ {
+  "start": 143.879,
+  "end": 146.27,
+  "text": "gonna add an additional property called"
+ },
+ {
+  "start": 146.28,
+  "end": 147.589,
+  "text": "Dynamic ID"
+ },
+ {
+  "start": 147.599,
+  "end": 150.229,
+  "text": "okay so I'm gonna teach you"
+ },
+ {
+  "start": 150.239,
+  "end": 152.99,
+  "text": "uh shortly how can we create this"
+ },
+ {
+  "start": 153.0,
+  "end": 156.17,
+  "text": "Dynamic ID okay and also this can be"
+ },
+ {
+  "start": 156.18,
+  "end": 158.809,
+  "text": "achieved by using various Dynamic"
+ },
+ {
+  "start": 158.819,
+  "end": 162.47,
+  "text": "expressions in Tasker so while creating"
+ },
+ {
+  "start": 162.48,
+  "end": 165.85,
+  "text": "your Dynamic ID property you can achieve"
+ },
+ {
+  "start": 165.86,
+  "end": 170.57,
+  "text": "the dynamic IDE by using a different or"
+ },
+ {
+  "start": 170.58,
+  "end": 173.39,
+  "text": "various Dynamic expressions in task"
+ },
+ {
+  "start": 173.4,
+  "end": 176.869,
+  "text": "okay so that is our first concept and"
+ },
+ {
+  "start": 176.879,
+  "end": 180.83,
+  "text": "then our next concept is explicit name"
+ },
+ {
+  "start": 180.84,
+  "end": 182.69,
+  "text": "so in this lesson I'm gonna teach you"
+ },
+ {
+  "start": 182.7,
+  "end": 185.57,
+  "text": "how can you set the explicit name"
+ },
+ {
+  "start": 185.58,
+  "end": 188.21,
+  "text": "configuration parameter on a module"
+ },
+ {
+  "start": 188.22,
+  "end": 189.77,
+  "text": "attribute"
+ },
+ {
+  "start": 189.78,
+  "end": 193.55,
+  "text": "and how to use this explicit name within"
+ },
+ {
+  "start": 193.56,
+  "end": 195.89,
+  "text": "a test step"
+ },
+ {
+  "start": 195.9,
+  "end": 198.17,
+  "text": "so explicit name is a configuration"
+ },
+ {
+  "start": 198.18,
+  "end": 200.869,
+  "text": "parameter which can be added to your"
+ },
+ {
+  "start": 200.879,
+  "end": 205.07,
+  "text": "module and it it allows a change in the"
+ },
+ {
+  "start": 205.08,
+  "end": 208.33,
+  "text": "test step values name which reflects"
+ },
+ {
+  "start": 208.34,
+  "end": 212.509,
+  "text": "technical identification"
+ },
+ {
+  "start": 215.869,
+  "end": 215.879,
+  "text": "explicit name allows Tasker to steals"
+ },
+ {
+  "start": 215.879,
+  "end": 220.43,
+  "text": "the object using index considering any"
+ },
+ {
+  "start": 220.44,
+  "end": 222.53,
+  "text": "Dynamic changes"
+ },
+ {
+  "start": 222.54,
+  "end": 225.949,
+  "text": "so as soon as you use explicit name in"
+ },
+ {
+  "start": 225.959,
+  "end": 228.77,
+  "text": "the module attributes you can simply use"
+ },
+ {
+  "start": 228.78,
+  "end": 230.69,
+  "text": "your index"
+ },
+ {
+  "start": 230.7,
+  "end": 234.77,
+  "text": "okay while defining the test step"
+ },
+ {
+  "start": 234.78,
+  "end": 236.809,
+  "text": "so you can utilize the explicit name"
+ },
+ {
+  "start": 236.819,
+  "end": 240.35,
+  "text": "configuration parameter by going to step"
+ },
+ {
+  "start": 240.36,
+  "end": 244.25,
+  "text": "that contains module attribute and"
+ },
+ {
+  "start": 244.26,
+  "end": 247.85,
+  "text": "replacing the name with index number"
+ },
+ {
+  "start": 247.86,
+  "end": 251.149,
+  "text": "okay so these are all the"
+ },
+ {
+  "start": 251.159,
+  "end": 253.67,
+  "text": "um so definitions are whatever okay so"
+ },
+ {
+  "start": 253.68,
+  "end": 256.31,
+  "text": "basically understanding explicit name"
+ },
+ {
+  "start": 256.32,
+  "end": 259.189,
+  "text": "right so now let's jump onto the system"
+ },
+ {
+  "start": 259.199,
+  "end": 264.29,
+  "text": "and see how can we use Dynamic ID and"
+ },
+ {
+  "start": 264.3,
+  "end": 266.87,
+  "text": "the explicit name while automating the"
+ },
+ {
+  "start": 266.88,
+  "end": 269.629,
+  "text": "real time scenario okay let's jump onto"
+ },
+ {
+  "start": 269.639,
+  "end": 271.01,
+  "text": "the system"
+ },
+ {
+  "start": 271.02,
+  "end": 272.99,
+  "text": "so this is my task called latest version"
+ },
+ {
+  "start": 273.0,
+  "end": 276.59,
+  "text": "16. so first let us understand"
+ },
+ {
+  "start": 276.6,
+  "end": 282.11,
+  "text": "how can we use this Dynamic ID and the"
+ },
+ {
+  "start": 282.12,
+  "end": 286.249,
+  "text": "explicit name options by using Tasker so"
+ },
+ {
+  "start": 286.259,
+  "end": 289.55,
+  "text": "first let us understand what scenario"
+ },
+ {
+  "start": 289.56,
+  "end": 292.189,
+  "text": "do we need to automate"
+ },
+ {
+  "start": 292.199,
+  "end": 293.629,
+  "text": "and"
+ },
+ {
+  "start": 293.639,
+  "end": 296.45,
+  "text": "to automate that particular scenario we"
+ },
+ {
+  "start": 296.46,
+  "end": 299.27,
+  "text": "would need to use these two options"
+ },
+ {
+  "start": 299.28,
+  "end": 301.61,
+  "text": "called Dynamic ID and explicit names"
+ },
+ {
+  "start": 301.62,
+  "end": 304.55,
+  "text": "okay so first so as you all know this is"
+ },
+ {
+  "start": 304.56,
+  "end": 307.31,
+  "text": "our webshop where we'll be going to"
+ },
+ {
+  "start": 307.32,
+  "end": 309.53,
+  "text": "apprehension shoes"
+ },
+ {
+  "start": 309.54,
+  "end": 312.83,
+  "text": "right and then I'm gonna add blue jeans"
+ },
+ {
+  "start": 312.84,
+  "end": 315.89,
+  "text": "to the cart once I add blue jeans to the"
+ },
+ {
+  "start": 315.9,
+  "end": 318.95,
+  "text": "cart I'm going to agree to the terms and"
+ },
+ {
+  "start": 318.96,
+  "end": 321.17,
+  "text": "conditions under shopping cart"
+ },
+ {
+  "start": 321.18,
+  "end": 324.59,
+  "text": "check out right and then we are going to"
+ },
+ {
+  "start": 324.6,
+  "end": 327.83,
+  "text": "place the order okay so this this end to"
+ },
+ {
+  "start": 327.84,
+  "end": 330.89,
+  "text": "end automation we already done I already"
+ },
+ {
+  "start": 330.9,
+  "end": 334.189,
+  "text": "explained you in many sessions and in my"
+ },
+ {
+  "start": 334.199,
+  "end": 337.73,
+  "text": "previous session we also automated"
+ },
+ {
+  "start": 337.74,
+  "end": 340.37,
+  "text": "a dynamic string so basically Dynamic"
+ },
+ {
+  "start": 340.38,
+  "end": 342.71,
+  "text": "Expressions okay so you can visit my"
+ },
+ {
+  "start": 342.72,
+  "end": 344.81,
+  "text": "previous session or any previous videos"
+ },
+ {
+  "start": 344.82,
+  "end": 348.529,
+  "text": "okay so once you complete"
+ },
+ {
+  "start": 348.539,
+  "end": 353.57,
+  "text": "your order right so in previous session"
+ },
+ {
+  "start": 353.58,
+  "end": 355.01,
+  "text": "okay"
+ },
+ {
+  "start": 355.02,
+  "end": 359.57,
+  "text": "what I explained you this order number"
+ },
+ {
+  "start": 359.58,
+  "end": 363.11,
+  "text": "is so and so right so this order number"
+ },
+ {
+  "start": 363.12,
+  "end": 364.79,
+  "text": "keeps changing"
+ },
+ {
+  "start": 364.8,
+  "end": 367.85,
+  "text": "and this part of the string is static"
+ },
+ {
+  "start": 367.86,
+  "end": 370.07,
+  "text": "and the last part of string is dynamic"
+ },
+ {
+  "start": 370.08,
+  "end": 373.79,
+  "text": "and then V in in the previous session"
+ },
+ {
+  "start": 373.8,
+  "end": 378.29,
+  "text": "what we did we validated this trend"
+ },
+ {
+  "start": 378.3,
+  "end": 381.23,
+  "text": "static half one part of static string we"
+ },
+ {
+  "start": 381.24,
+  "end": 384.71,
+  "text": "validated and the other part which is"
+ },
+ {
+  "start": 384.72,
+  "end": 387.59,
+  "text": "dynamic we stored into a"
+ },
+ {
+  "start": 387.6,
+  "end": 390.77,
+  "text": "buffer by using X buffer XB concept"
+ },
+ {
+  "start": 390.78,
+  "end": 394.07,
+  "text": "right so I would recommend you guys to"
+ },
+ {
+  "start": 394.08,
+  "end": 396.77,
+  "text": "visit my previous video to understand"
+ },
+ {
+  "start": 396.78,
+  "end": 400.67,
+  "text": "what I'm talking about okay so then see"
+ },
+ {
+  "start": 400.68,
+  "end": 404.029,
+  "text": "we compared this we validated the string"
+ },
+ {
+  "start": 404.039,
+  "end": 406.969,
+  "text": "and we stored this order so once we"
+ },
+ {
+  "start": 406.979,
+  "end": 410.749,
+  "text": "store the order now whatever the buffer"
+ },
+ {
+  "start": 410.759,
+  "end": 413.029,
+  "text": "called order number we store this value"
+ },
+ {
+  "start": 413.039,
+  "end": 415.67,
+  "text": "in the buffer called order number now"
+ },
+ {
+  "start": 415.68,
+  "end": 419.029,
+  "text": "that buffer we need to use"
+ },
+ {
+  "start": 419.039,
+  "end": 422.93,
+  "text": "in this particular session okay how I'm"
+ },
+ {
+  "start": 422.94,
+  "end": 426.83,
+  "text": "gonna navigate to my profile okay"
+ },
+ {
+  "start": 426.84,
+  "end": 430.67,
+  "text": "and then here click on orders"
+ },
+ {
+  "start": 430.68,
+  "end": 434.629,
+  "text": "so if you see here it shows you your"
+ },
+ {
+  "start": 434.639,
+  "end": 437.27,
+  "text": "entire order history"
+ },
+ {
+  "start": 437.28,
+  "end": 440.57,
+  "text": "see if you see here this is my latest"
+ },
+ {
+  "start": 440.58,
+  "end": 442.85,
+  "text": "order correct"
+ },
+ {
+  "start": 442.86,
+  "end": 445.67,
+  "text": "and which has the corresponding details"
+ },
+ {
+  "start": 445.68,
+  "end": 448.67,
+  "text": "and my previous to previous order is"
+ },
+ {
+  "start": 448.68,
+  "end": 451.49,
+  "text": "this and then"
+ },
+ {
+  "start": 451.5,
+  "end": 454.27,
+  "text": "and another order is this so this is how"
+ },
+ {
+  "start": 454.28,
+  "end": 457.309,
+  "text": "your entire order history is being"
+ },
+ {
+  "start": 457.319,
+  "end": 461.17,
+  "text": "displayed in this particular page so now"
+ },
+ {
+  "start": 461.18,
+  "end": 465.469,
+  "text": "once I place the order I want to verify"
+ },
+ {
+  "start": 465.479,
+  "end": 467.93,
+  "text": "if the corresponding order number"
+ },
+ {
+  "start": 467.94,
+  "end": 470.21,
+  "text": "whatever it showed on the confirmation"
+ },
+ {
+  "start": 470.22,
+  "end": 471.529,
+  "text": "page"
+ },
+ {
+  "start": 471.539,
+  "end": 474.65,
+  "text": "will be listed here in the history or"
+ },
+ {
+  "start": 474.66,
+  "end": 476.27,
+  "text": "not so"
+ },
+ {
+  "start": 476.28,
+  "end": 481.129,
+  "text": "in my account under orders my latest"
+ },
+ {
+  "start": 481.139,
+  "end": 484.61,
+  "text": "order number should be displayed here"
+ },
+ {
+  "start": 484.62,
+  "end": 487.749,
+  "text": "so now how can you verify"
+ },
+ {
+  "start": 487.759,
+  "end": 492.409,
+  "text": "your latest order is displaying in my"
+ },
+ {
+  "start": 492.419,
+  "end": 496.37,
+  "text": "account under orders if you see here you"
+ },
+ {
+  "start": 496.38,
+  "end": 499.73,
+  "text": "have lot of orders here right you you"
+ },
+ {
+  "start": 499.74,
+  "end": 502.55,
+  "text": "need to you this and one more thing is"
+ },
+ {
+  "start": 502.56,
+  "end": 504.65,
+  "text": "if you place another order this is going"
+ },
+ {
+  "start": 504.66,
+  "end": 508.67,
+  "text": "to change now so now these controls are"
+ },
+ {
+  "start": 508.68,
+  "end": 510.05,
+  "text": "not uniquely"
+ },
+ {
+  "start": 510.06,
+  "end": 513.17,
+  "text": "identified these keep on changing"
+ },
+ {
+  "start": 513.18,
+  "end": 515.209,
+  "text": "whenever you place a new one"
+ },
+ {
+  "start": 515.219,
+  "end": 518.449,
+  "text": "correct so how can you"
+ },
+ {
+  "start": 518.459,
+  "end": 522.17,
+  "text": "automate the scenario where I can verify"
+ },
+ {
+  "start": 522.18,
+  "end": 524.449,
+  "text": "the latest order in my order history"
+ },
+ {
+  "start": 524.459,
+  "end": 527.75,
+  "text": "okay this is where we need the dynamic"
+ },
+ {
+  "start": 527.76,
+  "end": 532.07,
+  "text": "ID and the explicit name concept that we"
+ },
+ {
+  "start": 532.08,
+  "end": 535.25,
+  "text": "need to use while automating your"
+ },
+ {
+  "start": 535.26,
+  "end": 538.55,
+  "text": "scenario for that let's go back to our"
+ },
+ {
+  "start": 538.56,
+  "end": 540.59,
+  "text": "presentation task"
+ },
+ {
+  "start": 540.6,
+  "end": 544.43,
+  "text": "and then navigate to modules"
+ },
+ {
+  "start": 544.44,
+  "end": 547.13,
+  "text": "under modules"
+ },
+ {
+  "start": 547.14,
+  "end": 550.07,
+  "text": "navigate to webshop"
+ },
+ {
+  "start": 550.08,
+  "end": 552.23,
+  "text": "click on invert"
+ },
+ {
+  "start": 552.24,
+  "end": 555.05,
+  "text": "and then additional material"
+ },
+ {
+  "start": 555.06,
+  "end": 557.81,
+  "text": "under additional material you will find"
+ },
+ {
+  "start": 557.82,
+  "end": 560.63,
+  "text": "an empty module folder called access27"
+ },
+ {
+  "start": 560.64,
+  "end": 566.81,
+  "text": "okay here now I need to scan"
+ },
+ {
+  "start": 566.82,
+  "end": 570.53,
+  "text": "one of the container or div container"
+ },
+ {
+  "start": 570.54,
+  "end": 573.11,
+  "text": "because see this is one div container"
+ },
+ {
+  "start": 573.12,
+  "end": 575.269,
+  "text": "this is all one div container"
+ },
+ {
+  "start": 575.279,
+  "end": 577.79,
+  "text": "and this is all another div container"
+ },
+ {
+  "start": 577.8,
+  "end": 580.37,
+  "text": "and this is all another div container so"
+ },
+ {
+  "start": 580.38,
+  "end": 582.13,
+  "text": "now I want to"
+ },
+ {
+  "start": 582.14,
+  "end": 585.949,
+  "text": "scan these controls okay how right click"
+ },
+ {
+  "start": 585.959,
+  "end": 586.85,
+  "text": "here"
+ },
+ {
+  "start": 586.86,
+  "end": 595.79,
+  "text": "click on scan click on application"
+ },
+ {
+  "start": 597.769,
+  "end": 597.779,
+  "text": "and select the application that you"
+ },
+ {
+  "start": 597.779,
+  "end": 600.29,
+  "text": "would like to scan okay so this is the"
+ },
+ {
+  "start": 600.3,
+  "end": 638.23,
+  "text": "application click on scan"
+ },
+ {
+  "start": 640.73,
+  "end": 640.74,
+  "text": "now select the application that you"
+ },
+ {
+  "start": 640.74,
+  "end": 649.67,
+  "text": "would like to scan click on scan"
+ },
+ {
+  "start": 652.13,
+  "end": 652.14,
+  "text": "and here now"
+ },
+ {
+  "start": 652.14,
+  "end": 655.13,
+  "text": "now select first div container if you"
+ },
+ {
+  "start": 655.14,
+  "end": 658.31,
+  "text": "see these are all individual controls"
+ },
+ {
+  "start": 658.32,
+  "end": 661.55,
+  "text": "but these individual controls are"
+ },
+ {
+  "start": 661.56,
+  "end": 663.49,
+  "text": "residing under"
+ },
+ {
+  "start": 663.5,
+  "end": 667.49,
+  "text": "container called div okay so now select"
+ },
+ {
+  "start": 667.5,
+  "end": 669.769,
+  "text": "the div container"
+ },
+ {
+  "start": 669.779,
+  "end": 673.67,
+  "text": "and then you need to also select your"
+ },
+ {
+  "start": 673.68,
+  "end": 676.61,
+  "text": "order number"
+ },
+ {
+  "start": 676.62,
+  "end": 678.65,
+  "text": "done"
+ },
+ {
+  "start": 678.66,
+  "end": 682.13,
+  "text": "and I also would like to select order"
+ },
+ {
+  "start": 682.14,
+  "end": 684.53,
+  "text": "total Li"
+ },
+ {
+  "start": 684.54,
+  "end": 688.97,
+  "text": "and then I want to select capture the"
+ },
+ {
+  "start": 688.98,
+  "end": 691.43,
+  "text": "details button"
+ },
+ {
+  "start": 691.44,
+  "end": 694.31,
+  "text": "okay now go to Advanced View"
+ },
+ {
+  "start": 694.32,
+  "end": 696.11,
+  "text": "and here"
+ },
+ {
+  "start": 696.12,
+  "end": 698.99,
+  "text": "if you see here whatever we captured"
+ },
+ {
+  "start": 699.0,
+  "end": 701.87,
+  "text": "right so if you you need to rename them"
+ },
+ {
+  "start": 701.88,
+  "end": 704.389,
+  "text": "what is this div container this is"
+ },
+ {
+  "start": 704.399,
+  "end": 706.91,
+  "text": "actually your order overview right let's"
+ },
+ {
+  "start": 706.92,
+  "end": 709.49,
+  "text": "rename this as order"
+ },
+ {
+  "start": 709.5,
+  "end": 711.17,
+  "text": "overview"
+ },
+ {
+  "start": 711.18,
+  "end": 715.67,
+  "text": "and this one is your order number"
+ },
+ {
+  "start": 715.68,
+  "end": 721.81,
+  "text": "and this is your order total"
+ },
+ {
+  "start": 723.65,
+  "end": 723.66,
+  "text": "perfect done"
+ },
+ {
+  "start": 723.66,
+  "end": 725.81,
+  "text": "so first"
+ },
+ {
+  "start": 725.82,
+  "end": 728.09,
+  "text": "place your cursor or click on order"
+ },
+ {
+  "start": 728.1,
+  "end": 730.73,
+  "text": "viewer View if you see here this order"
+ },
+ {
+  "start": 730.74,
+  "end": 733.009,
+  "text": "overview property"
+ },
+ {
+  "start": 733.019,
+  "end": 736.19,
+  "text": "you need to change the property because"
+ },
+ {
+  "start": 736.2,
+  "end": 738.71,
+  "text": "inner text is empty right remove inner"
+ },
+ {
+  "start": 738.72,
+  "end": 740.03,
+  "text": "text"
+ },
+ {
+  "start": 740.04,
+  "end": 741.829,
+  "text": "select outer text"
+ },
+ {
+  "start": 741.839,
+  "end": 744.05,
+  "text": "but this outer text"
+ },
+ {
+  "start": 744.06,
+  "end": 747.65,
+  "text": "because this is my latest order"
+ },
+ {
+  "start": 747.66,
+  "end": 750.59,
+  "text": "which has order number but this keeps on"
+ },
+ {
+  "start": 750.6,
+  "end": 754.43,
+  "text": "changing right so now instead of using"
+ },
+ {
+  "start": 754.44,
+  "end": 757.389,
+  "text": "this static"
+ },
+ {
+  "start": 757.399,
+  "end": 762.53,
+  "text": "property you have to use a dynamic ID"
+ },
+ {
+  "start": 762.54,
+  "end": 764.629,
+  "text": "so this is what"
+ },
+ {
+  "start": 764.639,
+  "end": 767.629,
+  "text": "I'm talking about Dynamic ID using"
+ },
+ {
+  "start": 767.639,
+  "end": 772.49,
+  "text": "Dynamic IDE for a control to identify"
+ },
+ {
+  "start": 772.5,
+  "end": 775.19,
+  "text": "so using Dynamic IDE"
+ },
+ {
+  "start": 775.2,
+  "end": 778.43,
+  "text": "in the properties of a particular"
+ },
+ {
+  "start": 778.44,
+  "end": 780.769,
+  "text": "control okay here I am going to remove"
+ },
+ {
+  "start": 780.779,
+  "end": 783.47,
+  "text": "entire this text and then I'm going to"
+ },
+ {
+  "start": 783.48,
+  "end": 786.59,
+  "text": "put star here that means"
+ },
+ {
+  "start": 786.6,
+  "end": 791.389,
+  "text": "this order over you div container"
+ },
+ {
+  "start": 791.399,
+  "end": 795.11,
+  "text": "V is dynamic and I'm changing the"
+ },
+ {
+  "start": 795.12,
+  "end": 798.829,
+  "text": "property of outer text by introducing a"
+ },
+ {
+  "start": 798.839,
+  "end": 801.65,
+  "text": "dynamic expression with star"
+ },
+ {
+  "start": 801.66,
+  "end": 804.53,
+  "text": "Okay now click ok"
+ },
+ {
+  "start": 804.54,
+  "end": 806.99,
+  "text": "so now in the same way"
+ },
+ {
+  "start": 807.0,
+  "end": 810.949,
+  "text": "go to order total and this also"
+ },
+ {
+  "start": 810.959,
+  "end": 812.93,
+  "text": "you need to select your"
+ },
+ {
+  "start": 812.94,
+  "end": 815.449,
+  "text": "visible inner text or outer text let's"
+ },
+ {
+  "start": 815.459,
+  "end": 819.11,
+  "text": "select order text and here under outer"
+ },
+ {
+  "start": 819.12,
+  "end": 821.93,
+  "text": "text you need to change here also the"
+ },
+ {
+  "start": 821.94,
+  "end": 823.91,
+  "text": "order total might not be"
+ },
+ {
+  "start": 823.92,
+  "end": 827.87,
+  "text": "always 18 right I want to convert this"
+ },
+ {
+  "start": 827.88,
+  "end": 829.49,
+  "text": "to a dynamic ID"
+ },
+ {
+  "start": 829.5,
+  "end": 833.99,
+  "text": "by removing the dynamic portion and by"
+ },
+ {
+  "start": 834.0,
+  "end": 836.15,
+  "text": "introducing Dynamic expression"
+ },
+ {
+  "start": 836.16,
+  "end": 839.03,
+  "text": "click OK and if you see here Dynamic"
+ },
+ {
+  "start": 839.04,
+  "end": 841.069,
+  "text": "overview is not uniquely identified"
+ },
+ {
+  "start": 841.079,
+  "end": 843.769,
+  "text": "that's correct because every div"
+ },
+ {
+  "start": 843.779,
+  "end": 847.55,
+  "text": "container here has order number"
+ },
+ {
+  "start": 847.56,
+  "end": 851.269,
+  "text": "colon and rest all star so now this is"
+ },
+ {
+  "start": 851.279,
+  "end": 853.55,
+  "text": "not uniquely identified I know"
+ },
+ {
+  "start": 853.56,
+  "end": 857.09,
+  "text": "so this can be your first order this can"
+ },
+ {
+  "start": 857.1,
+  "end": 858.71,
+  "text": "be your second order this can be third"
+ },
+ {
+  "start": 858.72,
+  "end": 861.41,
+  "text": "order whatever it may be right so if you"
+ },
+ {
+  "start": 861.42,
+  "end": 863.09,
+  "text": "are not uniquely identifying this div"
+ },
+ {
+  "start": 863.1,
+  "end": 866.269,
+  "text": "container that's what I need because I'm"
+ },
+ {
+  "start": 866.279,
+  "end": 869.15,
+  "text": "going to use the explicit name"
+ },
+ {
+  "start": 869.16,
+  "end": 873.41,
+  "text": "to uniquely identify this div container"
+ },
+ {
+  "start": 873.42,
+  "end": 877.43,
+  "text": "so now you all understand how to use"
+ },
+ {
+  "start": 877.44,
+  "end": 881.15,
+  "text": "your Dynamic IDE correct whenever you"
+ },
+ {
+  "start": 881.16,
+  "end": 884.93,
+  "text": "are property of your control changes"
+ },
+ {
+  "start": 884.94,
+  "end": 889.67,
+  "text": "okay so now let's rename this"
+ },
+ {
+  "start": 889.68,
+  "end": 892.79,
+  "text": "demo"
+ },
+ {
+  "start": 901.91,
+  "end": 901.92,
+  "text": "details"
+ },
+ {
+  "start": 901.92,
+  "end": 905.15,
+  "text": "and save this"
+ },
+ {
+  "start": 907.129,
+  "end": 907.139,
+  "text": "so then let's close this"
+ },
+ {
+  "start": 907.139,
+  "end": 910.329,
+  "text": "now if you go back to your modules now"
+ },
+ {
+  "start": 910.339,
+  "end": 914.93,
+  "text": "this empty module has this Dynamic sorry"
+ },
+ {
+  "start": 914.94,
+  "end": 917.509,
+  "text": "the order details right whatever we"
+ },
+ {
+  "start": 917.519,
+  "end": 920.75,
+  "text": "captured the div container your order"
+ },
+ {
+  "start": 920.76,
+  "end": 924.23,
+  "text": "number correct let's see the properties"
+ },
+ {
+  "start": 924.24,
+  "end": 926.75,
+  "text": "div container order number order total"
+ },
+ {
+  "start": 926.76,
+  "end": 929.389,
+  "text": "details okay whatever the properties"
+ },
+ {
+  "start": 929.399,
+  "end": 934.189,
+  "text": "that we capture it has everything okay"
+ },
+ {
+  "start": 936.769,
+  "end": 936.779,
+  "text": "now"
+ },
+ {
+  "start": 936.779,
+  "end": 941.09,
+  "text": "to automate your test case"
+ },
+ {
+  "start": 941.1,
+  "end": 945.31,
+  "text": "we need to introduce an explicit name"
+ },
+ {
+  "start": 945.32,
+  "end": 947.269,
+  "text": "property"
+ },
+ {
+  "start": 947.279,
+  "end": 949.85,
+  "text": "configuration property called explicit"
+ },
+ {
+  "start": 949.86,
+  "end": 954.17,
+  "text": "name to this div container because this"
+ },
+ {
+  "start": 954.18,
+  "end": 956.629,
+  "text": "div container is not uniquely identified"
+ },
+ {
+  "start": 956.639,
+  "end": 957.53,
+  "text": "now"
+ },
+ {
+  "start": 957.54,
+  "end": 961.31,
+  "text": "okay so let's what I want to do I want"
+ },
+ {
+  "start": 961.32,
+  "end": 963.53,
+  "text": "to select this container"
+ },
+ {
+  "start": 963.54,
+  "end": 965.15,
+  "text": "right click"
+ },
+ {
+  "start": 965.16,
+  "end": 967.97,
+  "text": "and select your create configuration"
+ },
+ {
+  "start": 967.98,
+  "end": 969.769,
+  "text": "parameter"
+ },
+ {
+  "start": 969.779,
+  "end": 973.85,
+  "text": "and name this configuration parameter as"
+ },
+ {
+  "start": 973.86,
+  "end": 976.129,
+  "text": "explicit"
+ },
+ {
+  "start": 977.82,
+  "end": 981.11,
+  "text": "name without space"
+ },
+ {
+  "start": 981.12,
+  "end": 982.67,
+  "text": "and"
+ },
+ {
+  "start": 982.68,
+  "end": 985.37,
+  "text": "your explicit name"
+ },
+ {
+  "start": 985.38,
+  "end": 988.97,
+  "text": "property value should be"
+ },
+ {
+  "start": 988.98,
+  "end": 989.99,
+  "text": "true"
+ },
+ {
+  "start": 990.0,
+  "end": 991.43,
+  "text": "and"
+ },
+ {
+  "start": 991.44,
+  "end": 993.41,
+  "text": "introducing a new configuration"
+ },
+ {
+  "start": 993.42,
+  "end": 997.91,
+  "text": "parameter called explicit name true"
+ },
+ {
+  "start": 997.92,
+  "end": 1000.31,
+  "text": "okay now save this"
+ },
+ {
+  "start": 1000.32,
+  "end": 1004.47,
+  "text": "now let's see how can we use this"
+ },
+ {
+  "start": 1004.48,
+  "end": 1007.99,
+  "text": "Dynamic ID so how can we use these"
+ },
+ {
+  "start": 1008.0,
+  "end": 1009.129,
+  "text": "controls"
+ },
+ {
+  "start": 1009.139,
+  "end": 1010.93,
+  "text": "which are"
+ },
+ {
+  "start": 1010.94,
+  "end": 1012.79,
+  "text": "having Dynamic ID"
+ },
+ {
+  "start": 1012.8,
+  "end": 1016.389,
+  "text": "and which is also having explicit name"
+ },
+ {
+  "start": 1016.399,
+  "end": 1019.389,
+  "text": "property true okay so now let's go to"
+ },
+ {
+  "start": 1019.399,
+  "end": 1020.889,
+  "text": "test cases"
+ },
+ {
+  "start": 1020.899,
+  "end": 1024.789,
+  "text": "so if you remember we have automated our"
+ },
+ {
+  "start": 1024.799,
+  "end": 1027.13,
+  "text": "uh in the previous session we have"
+ },
+ {
+  "start": 1027.14,
+  "end": 1029.949,
+  "text": "automated Dynamic comparison scenario"
+ },
+ {
+  "start": 1029.959,
+  "end": 1031.51,
+  "text": "right"
+ },
+ {
+  "start": 1031.52,
+  "end": 1033.429,
+  "text": "so I would recommend you guys to go"
+ },
+ {
+  "start": 1033.439,
+  "end": 1035.47,
+  "text": "through that particular video before you"
+ },
+ {
+  "start": 1035.48,
+  "end": 1038.169,
+  "text": "watch this session because I'm gonna"
+ },
+ {
+  "start": 1038.179,
+  "end": 1040.929,
+  "text": "use the same test case whatever we"
+ },
+ {
+  "start": 1040.939,
+  "end": 1043.75,
+  "text": "automated in my previous session okay go"
+ },
+ {
+  "start": 1043.76,
+  "end": 1045.13,
+  "text": "to the same test case"
+ },
+ {
+  "start": 1045.14,
+  "end": 1048.37,
+  "text": "and expand your process"
+ },
+ {
+  "start": 1048.38,
+  "end": 1051.13,
+  "text": "under process there is a folder called"
+ },
+ {
+  "start": 1051.14,
+  "end": 1053.71,
+  "text": "check order"
+ },
+ {
+  "start": 1053.72,
+  "end": 1056.35,
+  "text": "okay you need to"
+ },
+ {
+  "start": 1056.36,
+  "end": 1058.27,
+  "text": "click on this check order"
+ },
+ {
+  "start": 1058.28,
+  "end": 1062.71,
+  "text": "and here now you need to call the module"
+ },
+ {
+  "start": 1062.72,
+  "end": 1066.31,
+  "text": "that just now we added this one right"
+ },
+ {
+  "start": 1066.32,
+  "end": 1069.13,
+  "text": "webshop order details so now I'm gonna"
+ },
+ {
+  "start": 1069.14,
+  "end": 1070.99,
+  "text": "insert"
+ },
+ {
+  "start": 1071.0,
+  "end": 1073.33,
+  "text": "Ctrl T ADD test step okay I'm gonna"
+ },
+ {
+  "start": 1073.34,
+  "end": 1074.77,
+  "text": "Grant a step"
+ },
+ {
+  "start": 1074.78,
+  "end": 1078.25,
+  "text": "order details I'm going to add the"
+ },
+ {
+  "start": 1078.26,
+  "end": 1080.11,
+  "text": "latest module whatever we captured"
+ },
+ {
+  "start": 1080.12,
+  "end": 1082.51,
+  "text": "whatever we scanned"
+ },
+ {
+  "start": 1082.52,
+  "end": 1084.43,
+  "text": "select that"
+ },
+ {
+  "start": 1084.44,
+  "end": 1090.07,
+  "text": "and here now because we used explicit"
+ },
+ {
+  "start": 1090.08,
+  "end": 1092.11,
+  "text": "name"
+ },
+ {
+  "start": 1092.12,
+  "end": 1094.75,
+  "text": "in the configuration parameter for this"
+ },
+ {
+  "start": 1094.76,
+  "end": 1096.37,
+  "text": "particular control"
+ },
+ {
+  "start": 1096.38,
+  "end": 1102.19,
+  "text": "it's now our turn to use your index"
+ },
+ {
+  "start": 1102.2,
+  "end": 1105.01,
+  "text": "because this particular container has an"
+ },
+ {
+  "start": 1105.02,
+  "end": 1108.01,
+  "text": "explicit name you can directly specify"
+ },
+ {
+  "start": 1108.02,
+  "end": 1110.65,
+  "text": "the index"
+ },
+ {
+  "start": 1110.66,
+  "end": 1114.15,
+  "text": "okay I am naming that particular"
+ },
+ {
+  "start": 1114.16,
+  "end": 1118.21,
+  "text": "module test case module as"
+ },
+ {
+  "start": 1118.22,
+  "end": 1121.33,
+  "text": "hash one that means it's gonna refer"
+ },
+ {
+  "start": 1121.34,
+  "end": 1124.21,
+  "text": "your first container"
+ },
+ {
+  "start": 1124.22,
+  "end": 1128.169,
+  "text": "if I specify this as hash two it's gonna"
+ },
+ {
+  "start": 1128.179,
+  "end": 1131.89,
+  "text": "refer your second div container so"
+ },
+ {
+  "start": 1131.9,
+  "end": 1133.93,
+  "text": "because the latest order will be on the"
+ },
+ {
+  "start": 1133.94,
+  "end": 1138.97,
+  "text": "top I want to specify this as 1."
+ },
+ {
+  "start": 1138.98,
+  "end": 1142.57,
+  "text": "and verify what I am going to verify I'm"
+ },
+ {
+  "start": 1142.58,
+  "end": 1145.33,
+  "text": "going to verify the inner text will have"
+ },
+ {
+  "start": 1145.34,
+  "end": 1148.81,
+  "text": "order number copy this"
+ },
+ {
+  "start": 1148.82,
+  "end": 1153.19,
+  "text": "inner text"
+ },
+ {
+  "start": 1156.25,
+  "end": 1156.26,
+  "text": "order number"
+ },
+ {
+  "start": 1156.26,
+  "end": 1160.45,
+  "text": "colon space so whatever the buffer"
+ },
+ {
+  "start": 1160.46,
+  "end": 1164.59,
+  "text": "whatever the buffer that we used to"
+ },
+ {
+  "start": 1164.6,
+  "end": 1166.93,
+  "text": "store the confirmation number in my"
+ },
+ {
+  "start": 1166.94,
+  "end": 1169.21,
+  "text": "previous session so as I told you you"
+ },
+ {
+  "start": 1169.22,
+  "end": 1171.669,
+  "text": "have to visit my previous session where"
+ },
+ {
+  "start": 1171.679,
+  "end": 1174.49,
+  "text": "we have stored the dynamic portion of"
+ },
+ {
+  "start": 1174.5,
+  "end": 1176.77,
+  "text": "your confirmation number okay I'm gonna"
+ },
+ {
+  "start": 1176.78,
+  "end": 1180.49,
+  "text": "call this same number here same buffer"
+ },
+ {
+  "start": 1180.5,
+  "end": 1183.73,
+  "text": "see this is the order number"
+ },
+ {
+  "start": 1183.74,
+  "end": 1187.09,
+  "text": "okay and then"
+ },
+ {
+  "start": 1187.1,
+  "end": 1189.549,
+  "text": "because see this container will have"
+ },
+ {
+  "start": 1189.559,
+  "end": 1192.549,
+  "text": "your order number and the order number"
+ },
+ {
+  "start": 1192.559,
+  "end": 1193.87,
+  "text": "that is"
+ },
+ {
+  "start": 1193.88,
+  "end": 1196.51,
+  "text": "displayed on screen once you place the"
+ },
+ {
+  "start": 1196.52,
+  "end": 1199.21,
+  "text": "order and rest of the text so that's why"
+ },
+ {
+  "start": 1199.22,
+  "end": 1201.549,
+  "text": "I'm using Dynamic expression here okay"
+ },
+ {
+  "start": 1201.559,
+  "end": 1203.89,
+  "text": "order number colon space your order"
+ },
+ {
+  "start": 1203.9,
+  "end": 1206.83,
+  "text": "number that you stored and dynamic"
+ },
+ {
+  "start": 1206.84,
+  "end": 1207.85,
+  "text": "expression"
+ },
+ {
+  "start": 1207.86,
+  "end": 1211.93,
+  "text": "so that's it so now save this"
+ },
+ {
+  "start": 1211.94,
+  "end": 1215.35,
+  "text": "and here let's run this before you run"
+ },
+ {
+  "start": 1215.36,
+  "end": 1218.289,
+  "text": "this particular test case you need to"
+ },
+ {
+  "start": 1218.299,
+  "end": 1220.09,
+  "text": "log out"
+ },
+ {
+  "start": 1220.1,
+  "end": 1223.45,
+  "text": "and close the web browser"
+ },
+ {
+  "start": 1223.46,
+  "end": 1225.31,
+  "text": "and right click here now so you"
+ },
+ {
+  "start": 1225.32,
+  "end": 1228.73,
+  "text": "understand right we have used"
+ },
+ {
+  "start": 1228.74,
+  "end": 1231.49,
+  "text": "the dynamic ID"
+ },
+ {
+  "start": 1231.5,
+  "end": 1233.169,
+  "text": "property"
+ },
+ {
+  "start": 1233.179,
+  "end": 1235.81,
+  "text": "while capturing these controls for some"
+ },
+ {
+  "start": 1235.82,
+  "end": 1239.07,
+  "text": "of the controls correct and then we used"
+ },
+ {
+  "start": 1239.08,
+  "end": 1241.15,
+  "text": "explicit name"
+ },
+ {
+  "start": 1241.16,
+  "end": 1244.57,
+  "text": "in the test case attribute"
+ },
+ {
+  "start": 1244.58,
+  "end": 1246.61,
+  "text": "for that particular control"
+ },
+ {
+  "start": 1246.62,
+  "end": 1250.39,
+  "text": "okay as an index okay now right click on"
+ },
+ {
+  "start": 1250.4,
+  "end": 1252.37,
+  "text": "the test case and run in the scratch"
+ },
+ {
+  "start": 1252.38,
+  "end": 1253.09,
+  "text": "book"
+ },
+ {
+  "start": 1253.1,
+  "end": 1256.09,
+  "text": "so it should open your demo webshop"
+ },
+ {
+  "start": 1256.1,
+  "end": 1258.85,
+  "text": "and then it is going to log in"
+ },
+ {
+  "start": 1258.86,
+  "end": 1261.01,
+  "text": "provides the username password"
+ },
+ {
+  "start": 1261.02,
+  "end": 1263.289,
+  "text": "go to operation shoes"
+ },
+ {
+  "start": 1263.299,
+  "end": 1266.169,
+  "text": "and it is placing an order of blue jeans"
+ },
+ {
+  "start": 1266.179,
+  "end": 1270.789,
+  "text": "25 items go to shopping cart now check"
+ },
+ {
+  "start": 1270.799,
+  "end": 1271.75,
+  "text": "out"
+ },
+ {
+  "start": 1271.76,
+  "end": 1274.21,
+  "text": "it's performing the checkout process"
+ },
+ {
+  "start": 1274.22,
+  "end": 1276.73,
+  "text": "so once it checks out once you get the"
+ },
+ {
+  "start": 1276.74,
+  "end": 1278.23,
+  "text": "confirmation number"
+ },
+ {
+  "start": 1278.24,
+  "end": 1280.15,
+  "text": "in the previous session we were storing"
+ },
+ {
+  "start": 1280.16,
+  "end": 1282.01,
+  "text": "that confirmation Dynamic part of your"
+ },
+ {
+  "start": 1282.02,
+  "end": 1284.47,
+  "text": "string in buffer which is your order"
+ },
+ {
+  "start": 1284.48,
+  "end": 1285.789,
+  "text": "number"
+ },
+ {
+  "start": 1285.799,
+  "end": 1288.37,
+  "text": "and then see it stores that order number"
+ },
+ {
+  "start": 1288.38,
+  "end": 1289.87,
+  "text": "so it's stored now order number and"
+ },
+ {
+  "start": 1289.88,
+  "end": 1292.51,
+  "text": "store go to profile go to orders now"
+ },
+ {
+  "start": 1292.52,
+  "end": 1294.85,
+  "text": "it's going to verify your first order"
+ },
+ {
+  "start": 1294.86,
+  "end": 1297.13,
+  "text": "has the particular order number or not"
+ },
+ {
+  "start": 1297.14,
+  "end": 1299.59,
+  "text": "so it's successful now"
+ },
+ {
+  "start": 1299.6,
+  "end": 1302.83,
+  "text": "so if you go to your test results"
+ },
+ {
+  "start": 1302.84,
+  "end": 1306.01,
+  "text": "so if you see the test results"
+ },
+ {
+  "start": 1306.02,
+  "end": 1310.33,
+  "text": "your webshop order details see"
+ },
+ {
+  "start": 1310.34,
+  "end": 1312.549,
+  "text": "it used your index"
+ },
+ {
+  "start": 1312.559,
+  "end": 1316.77,
+  "text": "and it verified the first container see"
+ },
+ {
+  "start": 1316.78,
+  "end": 1319.63,
+  "text": "verification was successful expression"
+ },
+ {
+  "start": 1319.64,
+  "end": 1322.45,
+  "text": "order number"
+ },
+ {
+  "start": 1322.46,
+  "end": 1325.029,
+  "text": "and the actual value and your expected"
+ },
+ {
+  "start": 1325.039,
+  "end": 1327.61,
+  "text": "value is more both are same"
+ },
+ {
+  "start": 1327.62,
+  "end": 1330.49,
+  "text": "right so everything is successful there"
+ },
+ {
+  "start": 1330.5,
+  "end": 1331.93,
+  "text": "is no failure"
+ },
+ {
+  "start": 1331.94,
+  "end": 1336.61,
+  "text": "okay hope you all understand how to use"
+ },
+ {
+  "start": 1336.62,
+  "end": 1339.37,
+  "text": "your Dynamic IDE"
+ },
+ {
+  "start": 1339.38,
+  "end": 1342.85,
+  "text": "while scanning the controls"
+ },
+ {
+  "start": 1342.86,
+  "end": 1346.93,
+  "text": "and then how can you insert explicit"
+ },
+ {
+  "start": 1346.94,
+  "end": 1349.39,
+  "text": "name to the control"
+ },
+ {
+  "start": 1349.4,
+  "end": 1353.529,
+  "text": "called div overview and I'm gonna use"
+ },
+ {
+  "start": 1353.539,
+  "end": 1354.99,
+  "text": "these"
+ },
+ {
+  "start": 1355.0,
+  "end": 1359.11,
+  "text": "module in the test case and I'm gonna"
+ },
+ {
+  "start": 1359.12,
+  "end": 1362.83,
+  "text": "specify index number itself directly to"
+ },
+ {
+  "start": 1362.84,
+  "end": 1365.77,
+  "text": "your uh in the test case directly to the"
+ },
+ {
+  "start": 1365.78,
+  "end": 1368.11,
+  "text": "test step itself and specifying that"
+ },
+ {
+  "start": 1368.12,
+  "end": 1369.07,
+  "text": "number"
+ },
+ {
+  "start": 1369.08,
+  "end": 1370.57,
+  "text": "index number"
+ },
+ {
+  "start": 1370.58,
+  "end": 1374.289,
+  "text": "so that it refers to the corresponding"
+ },
+ {
+  "start": 1374.299,
+  "end": 1377.23,
+  "text": "container okay hope you all understand"
+ },
+ {
+  "start": 1377.24,
+  "end": 1378.97,
+  "text": "if you have any queries"
+ },
+ {
+  "start": 1378.98,
+  "end": 1381.25,
+  "text": "leave your queries in the comment box"
+ },
+ {
+  "start": 1381.26,
+  "end": 1383.47,
+  "text": "I'll try to respond to your queries"
+ },
+ {
+  "start": 1383.48,
+  "end": 1386.71,
+  "text": "thank you please do subscribe to the"
+ },
+ {
+  "start": 1386.72,
+  "end": 1388.21,
+  "text": "channel click on Bell icon you'll"
+ },
+ {
+  "start": 1388.22,
+  "end": 1390.07,
+  "text": "receive notifications whenever I publish"
+ },
+ {
+  "start": 1390.08,
+  "end": 1393.64,
+  "text": "more videos thank you"
+ }
+]

@@ -1,0 +1,2182 @@
+[
+ {
+  "start": 13.589,
+  "end": 13.599,
+  "text": "hi everyone this is Ravi welcome to Tri"
+ },
+ {
+  "start": 13.599,
+  "end": 17.189,
+  "text": "and tasa automation tutorial as you all"
+ },
+ {
+  "start": 17.199,
+  "end": 20.31,
+  "text": "know I have already published 35 YouTube"
+ },
+ {
+  "start": 20.32,
+  "end": 25.07,
+  "text": "videos covering different topics of tyst"
+ },
+ {
+  "start": 25.08,
+  "end": 26.429,
+  "text": "tasa"
+ },
+ {
+  "start": 26.439,
+  "end": 29.429,
+  "text": "Automation and in terms of advanced"
+ },
+ {
+  "start": 29.439,
+  "end": 32.429,
+  "text": "level con ceps I've covered almost 20"
+ },
+ {
+  "start": 32.439,
+  "end": 34.79,
+  "text": "YouTube videos I would recommend you"
+ },
+ {
+  "start": 34.8,
+  "end": 37.95,
+  "text": "guys to please go through those videos"
+ },
+ {
+  "start": 37.96,
+  "end": 40.99,
+  "text": "before you watch this session this is"
+ },
+ {
+  "start": 41.0,
+  "end": 46.229,
+  "text": "our lesson 35 in terms of overall TSA"
+ },
+ {
+  "start": 46.239,
+  "end": 50.389,
+  "text": "automation tutorial and it is lesson 20"
+ },
+ {
+  "start": 50.399,
+  "end": 53.59,
+  "text": "in terms of advanced level Concepts so"
+ },
+ {
+  "start": 53.6,
+  "end": 56.63,
+  "text": "in this lesson I'm going to cover how"
+ },
+ {
+  "start": 56.64,
+  "end": 57.67,
+  "text": "can"
+ },
+ {
+  "start": 57.68,
+  "end": 61.59,
+  "text": "we connect with your Excel engine which"
+ },
+ {
+  "start": 61.6,
+  "end": 65.19,
+  "text": "means how can you perform different"
+ },
+ {
+  "start": 65.2,
+  "end": 69.07,
+  "text": "operations related to excel workbooks by"
+ },
+ {
+  "start": 69.08,
+  "end": 72.19,
+  "text": "using trient tasa so I'm going to teach"
+ },
+ {
+  "start": 72.2,
+  "end": 75.55,
+  "text": "you how can you create our open and"
+ },
+ {
+  "start": 75.56,
+  "end": 78.23,
+  "text": "existing Excel sheets and then how can"
+ },
+ {
+  "start": 78.24,
+  "end": 82.469,
+  "text": "we modify values within the Excel sheet"
+ },
+ {
+  "start": 82.479,
+  "end": 86.59,
+  "text": "right and then how can you save the data"
+ },
+ {
+  "start": 86.6,
+  "end": 88.35,
+  "text": "within the Excel sheet and then how can"
+ },
+ {
+  "start": 88.36,
+  "end": 91.95,
+  "text": "we close the Excel sheet please do"
+ },
+ {
+  "start": 91.96,
+  "end": 93.55,
+  "text": "subscribe to the channel click on Bell"
+ },
+ {
+  "start": 93.56,
+  "end": 95.23,
+  "text": "icon you'll receive notifications"
+ },
+ {
+  "start": 95.24,
+  "end": 99.95,
+  "text": "whenever I publish more videos thank"
+ },
+ {
+  "start": 99.96,
+  "end": 104.87,
+  "text": "you okay what is our agenda so in this"
+ },
+ {
+  "start": 104.88,
+  "end": 108.83,
+  "text": "lesson you learn how can we open and"
+ },
+ {
+  "start": 108.84,
+  "end": 112.19,
+  "text": "create Excel workbooks by using"
+ },
+ {
+  "start": 112.2,
+  "end": 116.429,
+  "text": "triena and also how can you create Excel"
+ },
+ {
+  "start": 116.439,
+  "end": 120.67,
+  "text": "worksheet within the Excel workbook"
+ },
+ {
+  "start": 120.68,
+  "end": 124.87,
+  "text": "and how can you define the Excel range"
+ },
+ {
+  "start": 124.88,
+  "end": 126.55,
+  "text": "within the"
+ },
+ {
+  "start": 126.56,
+  "end": 128.949,
+  "text": "worksheet and then how can you"
+ },
+ {
+  "start": 128.959,
+  "end": 131.07,
+  "text": "manipulate the Excel range which means"
+ },
+ {
+  "start": 131.08,
+  "end": 134.309,
+  "text": "how can you modify or enter the data"
+ },
+ {
+  "start": 134.319,
+  "end": 136.309,
+  "text": "within the Excel"
+ },
+ {
+  "start": 136.319,
+  "end": 140.03,
+  "text": "sheet and how can you save and close"
+ },
+ {
+  "start": 140.04,
+  "end": 143.43,
+  "text": "your Excel workbook after modifying the"
+ },
+ {
+  "start": 143.44,
+  "end": 146.03,
+  "text": "data within the Excel sheet so now let's"
+ },
+ {
+  "start": 146.04,
+  "end": 147.869,
+  "text": "jump onto the system and see how can we"
+ },
+ {
+  "start": 147.879,
+  "end": 150.309,
+  "text": "perform all these operations by using"
+ },
+ {
+  "start": 150.319,
+  "end": 154.71,
+  "text": "trien tasa so this is my trient tasa so"
+ },
+ {
+  "start": 154.72,
+  "end": 158.309,
+  "text": "let us first create one folder okay the"
+ },
+ {
+  "start": 158.319,
+  "end": 160.79,
+  "text": "folder name is"
+ },
+ {
+  "start": 160.8,
+  "end": 163.03,
+  "text": "Excel"
+ },
+ {
+  "start": 163.04,
+  "end": 165.83,
+  "text": "engine"
+ },
+ {
+  "start": 165.84,
+  "end": 168.39,
+  "text": "operations and within this folder I'm"
+ },
+ {
+  "start": 168.4,
+  "end": 171.35,
+  "text": "going to create one test case"
+ },
+ {
+  "start": 171.36,
+  "end": 173.27,
+  "text": "called"
+ },
+ {
+  "start": 173.28,
+  "end": 178.55,
+  "text": "Excel operations okay so now in this"
+ },
+ {
+  "start": 178.56,
+  "end": 181.91,
+  "text": "particular test case let us"
+ },
+ {
+  "start": 181.92,
+  "end": 184.589,
+  "text": "start creating the Excel operations"
+ },
+ {
+  "start": 184.599,
+  "end": 186.67,
+  "text": "related test steps okay what is our"
+ },
+ {
+  "start": 186.68,
+  "end": 190.07,
+  "text": "agenda first you need to open or create"
+ },
+ {
+  "start": 190.08,
+  "end": 193.39,
+  "text": "Excel workbook okay so for that you need"
+ },
+ {
+  "start": 193.4,
+  "end": 196.99,
+  "text": "to right click and then add test"
+ },
+ {
+  "start": 197.0,
+  "end": 200.309,
+  "text": "step here I'm going to call an Excel"
+ },
+ {
+  "start": 200.319,
+  "end": 205.19,
+  "text": "operation called open Excel workbook so"
+ },
+ {
+  "start": 205.2,
+  "end": 207.35,
+  "text": "this is your standard module within the"
+ },
+ {
+  "start": 207.36,
+  "end": 210.429,
+  "text": "tbox engine under Excel"
+ },
+ {
+  "start": 210.439,
+  "end": 212.63,
+  "text": "okay so I'm going to call this I'm going"
+ },
+ {
+  "start": 212.64,
+  "end": 213.47,
+  "text": "to"
+ },
+ {
+  "start": 213.48,
+  "end": 216.07,
+  "text": "say what is the workbook name so if you"
+ },
+ {
+  "start": 216.08,
+  "end": 219.19,
+  "text": "see here open Excel workbook tbox engine"
+ },
+ {
+  "start": 219.2,
+  "end": 221.39,
+  "text": "you need to provide the workbook name so"
+ },
+ {
+  "start": 221.4,
+  "end": 224.39,
+  "text": "let me provide the workbook name as demo"
+ },
+ {
+  "start": 224.4,
+  "end": 226.55,
+  "text": "and what is the path that you want to"
+ },
+ {
+  "start": 226.56,
+  "end": 230.35,
+  "text": "create an Excel workbook I want to take"
+ },
+ {
+  "start": 230.36,
+  "end": 232.71,
+  "text": "the documents okay let's take the path"
+ },
+ {
+  "start": 232.72,
+  "end": 235.67,
+  "text": "of this okay go to"
+ },
+ {
+  "start": 235.68,
+  "end": 239.27,
+  "text": "properties and this is my path copy the"
+ },
+ {
+  "start": 239.28,
+  "end": 240.789,
+  "text": "path"
+ },
+ {
+  "start": 240.799,
+  "end": 244.11,
+  "text": "and then paste the path here and I need"
+ },
+ {
+  "start": 244.12,
+  "end": 247.67,
+  "text": "to append with my demo"
+ },
+ {
+  "start": 247.68,
+  "end": 249.789,
+  "text": "dot"
+ },
+ {
+  "start": 249.799,
+  "end": 251.35,
+  "text": "xlsx"
+ },
+ {
+  "start": 251.36,
+  "end": 256.67,
+  "text": "xlsx okay so and then do you want to"
+ },
+ {
+  "start": 256.68,
+  "end": 259.749,
+  "text": "create the Excel workbook new yes"
+ },
+ {
+  "start": 259.759,
+  "end": 261.67,
+  "text": "because I don't have the Excel sheet"
+ },
+ {
+  "start": 261.68,
+  "end": 263.95,
+  "text": "created in this particular folder so I"
+ },
+ {
+  "start": 263.96,
+  "end": 268.11,
+  "text": "want to create it as a new let's select"
+ },
+ {
+  "start": 268.12,
+  "end": 271.31,
+  "text": "true so once once you create your Excel"
+ },
+ {
+  "start": 271.32,
+  "end": 274.23,
+  "text": "workbook I need to create Excel"
+ },
+ {
+  "start": 274.24,
+  "end": 278.23,
+  "text": "worksheet okay for that again let's go"
+ },
+ {
+  "start": 278.24,
+  "end": 280.83,
+  "text": "contr t"
+ },
+ {
+  "start": 280.84,
+  "end": 283.31,
+  "text": "here you need"
+ },
+ {
+  "start": 283.32,
+  "end": 289.23,
+  "text": "to create call create Excel worksheet so"
+ },
+ {
+  "start": 289.24,
+  "end": 292.95,
+  "text": "if you see this is your create Excel"
+ },
+ {
+  "start": 292.96,
+  "end": 295.469,
+  "text": "worksheet Okay click on"
+ },
+ {
+  "start": 295.479,
+  "end": 298.87,
+  "text": "this and here you need to again provide"
+ },
+ {
+  "start": 298.88,
+  "end": 300.51,
+  "text": "workbook name what is the workbook name"
+ },
+ {
+  "start": 300.52,
+  "end": 303.35,
+  "text": "that we've defined earlier a"
+ },
+ {
+  "start": 303.36,
+  "end": 306.59,
+  "text": "demo and then what is the worksheet name"
+ },
+ {
+  "start": 306.6,
+  "end": 308.749,
+  "text": "that you want to create I want to create"
+ },
+ {
+  "start": 308.759,
+  "end": 311.029,
+  "text": "a worksheet name called"
+ },
+ {
+  "start": 311.039,
+  "end": 314.67,
+  "text": "tasa and then what is the worksheet"
+ },
+ {
+  "start": 314.68,
+  "end": 317.189,
+  "text": "order that means whatever the worksheet"
+ },
+ {
+  "start": 317.199,
+  "end": 319.909,
+  "text": "taskar that you are creating within the"
+ },
+ {
+  "start": 319.919,
+  "end": 322.189,
+  "text": "workbook what is the order do you want"
+ },
+ {
+  "start": 322.199,
+  "end": 325.189,
+  "text": "to create as a first tab second tab or"
+ },
+ {
+  "start": 325.199,
+  "end": 327.51,
+  "text": "third tab right so you can"
+ },
+ {
+  "start": 327.52,
+  "end": 330.95,
+  "text": "select I will be selecting it as first"
+ },
+ {
+  "start": 330.96,
+  "end": 335.309,
+  "text": "tab so let us now run these two together"
+ },
+ {
+  "start": 335.319,
+  "end": 338.79,
+  "text": "and see run these"
+ },
+ {
+  "start": 338.8,
+  "end": 342.309,
+  "text": "together and see if it creates your"
+ },
+ {
+  "start": 342.319,
+  "end": 346.11,
+  "text": "Excel workbook and the Excel worksheet"
+ },
+ {
+  "start": 346.12,
+  "end": 349.189,
+  "text": "so run successful you go to your"
+ },
+ {
+  "start": 349.199,
+  "end": 352.79,
+  "text": "documents let's click on date modified I"
+ },
+ {
+  "start": 352.8,
+  "end": 355.43,
+  "text": "can see there is no Works Excel sheet is"
+ },
+ {
+  "start": 355.44,
+  "end": 360.23,
+  "text": "created why because tasa does not save"
+ },
+ {
+  "start": 360.24,
+  "end": 365.15,
+  "text": "Excel workbook unless you save it so for"
+ },
+ {
+  "start": 365.16,
+  "end": 368.35,
+  "text": "this there is another operation"
+ },
+ {
+  "start": 368.36,
+  "end": 372.43,
+  "text": "called save Excel workbook okay so let"
+ },
+ {
+  "start": 372.44,
+  "end": 374.79,
+  "text": "me do one thing so there is another"
+ },
+ {
+  "start": 374.8,
+  "end": 377.95,
+  "text": "obervation called close not save close"
+ },
+ {
+  "start": 377.96,
+  "end": 380.27,
+  "text": "Excel workbook when you are closing the"
+ },
+ {
+  "start": 380.28,
+  "end": 382.79,
+  "text": "Excel workbook there itself you can"
+ },
+ {
+  "start": 382.8,
+  "end": 385.67,
+  "text": "provide command or argument whether you"
+ },
+ {
+  "start": 385.68,
+  "end": 388.11,
+  "text": "want to save it or not okay let me save"
+ },
+ {
+  "start": 388.12,
+  "end": 390.67,
+  "text": "this now so what I'm going to do what is"
+ },
+ {
+  "start": 390.68,
+  "end": 393.15,
+  "text": "the workbook name again the same name"
+ },
+ {
+  "start": 393.16,
+  "end": 395.71,
+  "text": "what you provided earlier what is the"
+ },
+ {
+  "start": 395.72,
+  "end": 399.87,
+  "text": "path that you want to um save this I"
+ },
+ {
+  "start": 399.88,
+  "end": 403.67,
+  "text": "want to save the same path where I"
+ },
+ {
+  "start": 403.68,
+  "end": 407.51,
+  "text": "created right and then save true or"
+ },
+ {
+  "start": 407.52,
+  "end": 411.71,
+  "text": "false you can select save true so now"
+ },
+ {
+  "start": 411.72,
+  "end": 416.189,
+  "text": "save this now it let us run all these"
+ },
+ {
+  "start": 416.199,
+  "end": 419.71,
+  "text": "three steps together right click and run"
+ },
+ {
+  "start": 419.72,
+  "end": 423.79,
+  "text": "now we will see what"
+ },
+ {
+  "start": 428.23,
+  "end": 428.24,
+  "text": "happens now it should create your Excel"
+ },
+ {
+  "start": 428.24,
+  "end": 431.51,
+  "text": "workbook so let's go to"
+ },
+ {
+  "start": 431.52,
+  "end": 433.35,
+  "text": "our"
+ },
+ {
+  "start": 433.36,
+  "end": 438.35,
+  "text": "documents and then just simply modify"
+ },
+ {
+  "start": 438.36,
+  "end": 441.83,
+  "text": "see now I can see the Excel workbook"
+ },
+ {
+  "start": 441.84,
+  "end": 444.35,
+  "text": "demo open this and you have to see the"
+ },
+ {
+  "start": 444.36,
+  "end": 448.51,
+  "text": "tab tasa in the order one see this is"
+ },
+ {
+  "start": 448.52,
+  "end": 450.35,
+  "text": "your first"
+ },
+ {
+  "start": 450.36,
+  "end": 454.35,
+  "text": "TOS okay successfully we created now"
+ },
+ {
+  "start": 454.36,
+  "end": 457.07,
+  "text": "what is our next agenda our next agenda"
+ },
+ {
+  "start": 457.08,
+  "end": 459.71,
+  "text": "is we opened your Excel workbook our"
+ },
+ {
+  "start": 459.72,
+  "end": 462.35,
+  "text": "created workbook and then we created"
+ },
+ {
+  "start": 462.36,
+  "end": 466.749,
+  "text": "Excel worksheet and we saved it but now"
+ },
+ {
+  "start": 466.759,
+  "end": 469.909,
+  "text": "before you save it I want to define the"
+ },
+ {
+  "start": 469.919,
+  "end": 472.23,
+  "text": "Excel range what do you mean by Excel"
+ },
+ {
+  "start": 472.24,
+  "end": 475.869,
+  "text": "range I want to define the Excel range"
+ },
+ {
+  "start": 475.879,
+  "end": 479.309,
+  "text": "where what I mean so basically I want to"
+ },
+ {
+  "start": 479.319,
+  "end": 482.83,
+  "text": "Define excel range like this if I Define"
+ },
+ {
+  "start": 482.84,
+  "end": 487.67,
+  "text": "A1 and K 20 that means I want to"
+ },
+ {
+  "start": 487.68,
+  "end": 492.71,
+  "text": "manipulate Excel data within this range"
+ },
+ {
+  "start": 492.72,
+  "end": 499.99,
+  "text": "A1 K A 1 column a first row column K"
+ },
+ {
+  "start": 500.0,
+  "end": 504.189,
+  "text": "20th row right so I want to Define that"
+ },
+ {
+  "start": 504.199,
+  "end": 506.55,
+  "text": "kind of excel range so what I'm going to"
+ },
+ {
+  "start": 506.56,
+  "end": 508.67,
+  "text": "do I'm going to define the Excel range"
+ },
+ {
+  "start": 508.68,
+  "end": 510.39,
+  "text": "as like this"
+ },
+ {
+  "start": 510.4,
+  "end": 515.829,
+  "text": "A1 probably like p 50 let's say 50 I"
+ },
+ {
+  "start": 515.839,
+  "end": 519.269,
+  "text": "have a table with two columns and 50"
+ },
+ {
+  "start": 519.279,
+  "end": 521.79,
+  "text": "rows okay so that's we that's what we"
+ },
+ {
+  "start": 521.8,
+  "end": 525.269,
+  "text": "are going to do okay let's go back here"
+ },
+ {
+  "start": 525.279,
+  "end": 529.23,
+  "text": "now for defining the Excel range there"
+ },
+ {
+  "start": 529.24,
+  "end": 532.55,
+  "text": "is an operation called control"
+ },
+ {
+  "start": 532.56,
+  "end": 535.19,
+  "text": "T"
+ },
+ {
+  "start": 535.2,
+  "end": 539.269,
+  "text": "Define excel range this is also from"
+ },
+ {
+  "start": 539.279,
+  "end": 541.31,
+  "text": "standard modules whatever the Excel"
+ },
+ {
+  "start": 541.32,
+  "end": 543.59,
+  "text": "operations all are from standard modules"
+ },
+ {
+  "start": 543.6,
+  "end": 547.269,
+  "text": "okay select this one and now let me"
+ },
+ {
+  "start": 547.279,
+  "end": 549.63,
+  "text": "Define the Excel name what is the"
+ },
+ {
+  "start": 549.64,
+  "end": 553.63,
+  "text": "workbook name same workbook whatever we"
+ },
+ {
+  "start": 553.64,
+  "end": 556.43,
+  "text": "created and same worksheet that we"
+ },
+ {
+  "start": 556.44,
+  "end": 557.99,
+  "text": "created"
+ },
+ {
+  "start": 558.0,
+  "end": 560.949,
+  "text": "earlier and what is the range name so"
+ },
+ {
+  "start": 560.959,
+  "end": 562.87,
+  "text": "you can give the range name some range"
+ },
+ {
+  "start": 562.88,
+  "end": 565.71,
+  "text": "name so you can give the range name this"
+ },
+ {
+  "start": 565.72,
+  "end": 567.79,
+  "text": "entire range name I want to give it as"
+ },
+ {
+  "start": 567.8,
+  "end": 569.67,
+  "text": "probably employee data because I want to"
+ },
+ {
+  "start": 569.68,
+  "end": 572.069,
+  "text": "store the employee data within this"
+ },
+ {
+  "start": 572.079,
+  "end": 575.35,
+  "text": "table okay so I'm going to make this"
+ },
+ {
+  "start": 575.36,
+  "end": 577.71,
+  "text": "as"
+ },
+ {
+  "start": 577.72,
+  "end": 579.269,
+  "text": "employee"
+ },
+ {
+  "start": 579.279,
+  "end": 585.389,
+  "text": "employee data name this as employee data"
+ },
+ {
+  "start": 585.399,
+  "end": 588.43,
+  "text": "okay I named it as employee data now you"
+ },
+ {
+  "start": 588.44,
+  "end": 592.63,
+  "text": "need to Define data range what is the"
+ },
+ {
+  "start": 592.64,
+  "end": 595.43,
+  "text": "data range see what is the start cell"
+ },
+ {
+  "start": 595.44,
+  "end": 598.509,
+  "text": "and your end cell what is the start cell"
+ },
+ {
+  "start": 598.519,
+  "end": 599.949,
+  "text": "and end cell"
+ },
+ {
+  "start": 599.959,
+  "end": 603.63,
+  "text": "as I told you A1 to b50 correct I'm"
+ },
+ {
+  "start": 603.64,
+  "end": 609.23,
+  "text": "going to Define"
+ },
+ {
+  "start": 619.11,
+  "end": 619.12,
+  "text": "y so done so now I have defined my Excel"
+ },
+ {
+  "start": 619.12,
+  "end": 622.509,
+  "text": "range once you define the Excel range"
+ },
+ {
+  "start": 622.519,
+  "end": 625.43,
+  "text": "now you need to modify the data or you"
+ },
+ {
+  "start": 625.44,
+  "end": 628.71,
+  "text": "need to enter the data that you want to"
+ },
+ {
+  "start": 628.72,
+  "end": 631.15,
+  "text": "enter in Excel workbook within the range"
+ },
+ {
+  "start": 631.16,
+  "end": 635.31,
+  "text": "right so what I'm going to do now"
+ },
+ {
+  "start": 635.32,
+  "end": 641.31,
+  "text": "let's do one thing okay let us do now to"
+ },
+ {
+  "start": 641.32,
+  "end": 644.389,
+  "text": "manipulate the range there is an option"
+ },
+ {
+  "start": 644.399,
+  "end": 648.55,
+  "text": "operation called"
+ },
+ {
+  "start": 648.56,
+  "end": 653.509,
+  "text": "Excel range manipulation so Excel range"
+ },
+ {
+  "start": 653.519,
+  "end": 656.35,
+  "text": "manipulation which ma which manipulates"
+ },
+ {
+  "start": 656.36,
+  "end": 658.509,
+  "text": "or which modifies the data within the"
+ },
+ {
+  "start": 658.519,
+  "end": 659.59,
+  "text": "range"
+ },
+ {
+  "start": 659.6,
+  "end": 662.55,
+  "text": "okay so now if you ex see here you have"
+ },
+ {
+  "start": 662.56,
+  "end": 665.23,
+  "text": "a range name so what is the range name"
+ },
+ {
+  "start": 665.24,
+  "end": 667.15,
+  "text": "that you provided I provided the range"
+ },
+ {
+  "start": 667.16,
+  "end": 669.55,
+  "text": "name called employee data copy the same"
+ },
+ {
+  "start": 669.56,
+  "end": 671.35,
+  "text": "thing put it"
+ },
+ {
+  "start": 671.36,
+  "end": 676.35,
+  "text": "here okay and now expand this data table"
+ },
+ {
+  "start": 676.36,
+  "end": 679.35,
+  "text": "let us minimize rest all so that you can"
+ },
+ {
+  "start": 679.36,
+  "end": 683.269,
+  "text": "see everything now if you see data table"
+ },
+ {
+  "start": 683.279,
+  "end": 685.629,
+  "text": "has a row and"
+ },
+ {
+  "start": 685.639,
+  "end": 689.509,
+  "text": "column now first you need to Define"
+ },
+ {
+  "start": 689.519,
+  "end": 693.35,
+  "text": "your header need to Define header I want"
+ },
+ {
+  "start": 693.36,
+  "end": 696.11,
+  "text": "to name this as let's say first I'm"
+ },
+ {
+  "start": 696.12,
+  "end": 701.03,
+  "text": "going to enter the full name column and"
+ },
+ {
+  "start": 701.04,
+  "end": 703.829,
+  "text": "then I want to enter the salary of each"
+ },
+ {
+  "start": 703.839,
+  "end": 707.71,
+  "text": "employee let's assume salary okay so"
+ },
+ {
+  "start": 707.72,
+  "end": 710.03,
+  "text": "that means these two columns I want to"
+ },
+ {
+  "start": 710.04,
+  "end": 712.91,
+  "text": "create how can you create that go back"
+ },
+ {
+  "start": 712.92,
+  "end": 716.67,
+  "text": "here under row I want to select it as a"
+ },
+ {
+  "start": 716.68,
+  "end": 720.949,
+  "text": "header first this is is the header but"
+ },
+ {
+  "start": 720.959,
+  "end": 722.87,
+  "text": "what is the cell that you want to"
+ },
+ {
+  "start": 722.88,
+  "end": 726.829,
+  "text": "enter I want to in the first"
+ },
+ {
+  "start": 726.839,
+  "end": 728.75,
+  "text": "cell on"
+ },
+ {
+  "start": 728.76,
+  "end": 732.71,
+  "text": "header in the first cell I want to enter"
+ },
+ {
+  "start": 732.72,
+  "end": 738.67,
+  "text": "full name right in the first cell # one"
+ },
+ {
+  "start": 738.68,
+  "end": 745.069,
+  "text": "enter it as full name full name and in"
+ },
+ {
+  "start": 745.079,
+  "end": 749.59,
+  "text": "your second cell what is that hash2"
+ },
+ {
+  "start": 749.6,
+  "end": 753.389,
+  "text": "I want to enter the header as"
+ },
+ {
+  "start": 753.399,
+  "end": 757.55,
+  "text": "salary right so done"
+ },
+ {
+  "start": 757.56,
+  "end": 761.269,
+  "text": "now I want to fill employees name and"
+ },
+ {
+  "start": 761.279,
+  "end": 765.15,
+  "text": "the salary how can we do that so simply"
+ },
+ {
+  "start": 765.16,
+  "end": 769.189,
+  "text": "this time again come to the new row your"
+ },
+ {
+  "start": 769.199,
+  "end": 770.99,
+  "text": "header row is done now you need to"
+ },
+ {
+  "start": 771.0,
+  "end": 775.069,
+  "text": "Define new row how my first row after"
+ },
+ {
+  "start": 775.079,
+  "end": 778.99,
+  "text": "header dollar one anytime your first row"
+ },
+ {
+  "start": 779.0,
+  "end": 780.629,
+  "text": "after header is dollar"
+ },
+ {
+  "start": 780.639,
+  "end": 783.35,
+  "text": "one okay"
+ },
+ {
+  "start": 783.36,
+  "end": 785.23,
+  "text": "now"
+ },
+ {
+  "start": 785.24,
+  "end": 789.59,
+  "text": "again hash1 which is my first cell of my"
+ },
+ {
+  "start": 789.6,
+  "end": 792.189,
+  "text": "first row I'm going to name this as I"
+ },
+ {
+  "start": 792.199,
+  "end": 795.269,
+  "text": "mean I want to enter the employee name"
+ },
+ {
+  "start": 795.279,
+  "end": 796.829,
+  "text": "as"
+ },
+ {
+  "start": 796.839,
+  "end": 800.31,
+  "text": "Ravi"
+ },
+ {
+  "start": 803.99,
+  "end": 804.0,
+  "text": "K and for example okay and then what is"
+ },
+ {
+  "start": 804.0,
+  "end": 805.269,
+  "text": "the"
+ },
+ {
+  "start": 805.279,
+  "end": 809.91,
+  "text": "salary again that is your second s"
+ },
+ {
+  "start": 809.92,
+  "end": 812.55,
+  "text": "ash2 let's say salary I would be"
+ },
+ {
+  "start": 812.56,
+  "end": 814.23,
+  "text": "defining it as"
+ },
+ {
+  "start": 814.24,
+  "end": 817.509,
+  "text": "30,000 or 50,000 let's say"
+ },
+ {
+  "start": 817.519,
+  "end": 820.03,
+  "text": "50,000 okay"
+ },
+ {
+  "start": 820.04,
+  "end": 823.71,
+  "text": "now your first row is done now I want to"
+ },
+ {
+  "start": 823.72,
+  "end": 826.829,
+  "text": "enter another employee so before that I"
+ },
+ {
+  "start": 826.839,
+  "end": 828.87,
+  "text": "want to store this salary into your"
+ },
+ {
+  "start": 828.88,
+  "end": 830.71,
+  "text": "buffer okay I'm going to do that because"
+ },
+ {
+  "start": 830.72,
+  "end": 832.87,
+  "text": "I'm going to perform some calculations"
+ },
+ {
+  "start": 832.88,
+  "end": 835.47,
+  "text": "dollar two sorry"
+ },
+ {
+  "start": 835.48,
+  "end": 837.23,
+  "text": "hash"
+ },
+ {
+  "start": 837.24,
+  "end": 839.87,
+  "text": "two what I'm doing"
+ },
+ {
+  "start": 839.88,
+  "end": 842.35,
+  "text": "has to means this cell I'm going to"
+ },
+ {
+  "start": 842.36,
+  "end": 845.43,
+  "text": "Define I'm going to tell to store into a"
+ },
+ {
+  "start": 845.44,
+  "end": 848.189,
+  "text": "buffer called"
+ },
+ {
+  "start": 848.199,
+  "end": 852.629,
+  "text": "amount or do one thing salary one I'm"
+ },
+ {
+  "start": 852.639,
+  "end": 856.03,
+  "text": "going to create a buffer here here"
+ },
+ {
+  "start": 856.04,
+  "end": 859.43,
+  "text": "change this as buffer and restall also"
+ },
+ {
+  "start": 859.44,
+  "end": 861.749,
+  "text": "see here it is taking verify no I don't"
+ },
+ {
+  "start": 861.759,
+  "end": 863.91,
+  "text": "want to verify this I want to enter it"
+ },
+ {
+  "start": 863.92,
+  "end": 866.11,
+  "text": "so that's why input you need to select"
+ },
+ {
+  "start": 866.12,
+  "end": 869.23,
+  "text": "the action mode input for entering the"
+ },
+ {
+  "start": 869.24,
+  "end": 871.59,
+  "text": "values"
+ },
+ {
+  "start": 871.6,
+  "end": 876.11,
+  "text": "input input but your first row and"
+ },
+ {
+  "start": 876.12,
+  "end": 878.87,
+  "text": "header right these are actually select"
+ },
+ {
+  "start": 878.88,
+  "end": 880.99,
+  "text": "you're selecting the data table header"
+ },
+ {
+  "start": 881.0,
+  "end": 882.59,
+  "text": "you are selecting and then you are"
+ },
+ {
+  "start": 882.6,
+  "end": 887.189,
+  "text": "inputting the information now I am"
+ },
+ {
+  "start": 887.199,
+  "end": 890.67,
+  "text": "saving or storing the salary of first"
+ },
+ {
+  "start": 890.68,
+  "end": 893.31,
+  "text": "employee into a buffer called salary"
+ },
+ {
+  "start": 893.32,
+  "end": 900.03,
+  "text": "1 now let us go to our second row dollar"
+ },
+ {
+  "start": 900.04,
+  "end": 904.43,
+  "text": "two okay here again my"
+ },
+ {
+  "start": 904.44,
+  "end": 906.11,
+  "text": "first"
+ },
+ {
+  "start": 906.12,
+  "end": 909.749,
+  "text": "Ash one I want to name this as the"
+ },
+ {
+  "start": 909.759,
+  "end": 917.91,
+  "text": "employee"
+ },
+ {
+  "start": 920.43,
+  "end": 920.44,
+  "text": "name okay I'm going to put the employee"
+ },
+ {
+  "start": 920.44,
+  "end": 924.11,
+  "text": "name and then here"
+ },
+ {
+  "start": 924.12,
+  "end": 928.23,
+  "text": "salary okay what is the salary let's say"
+ },
+ {
+  "start": 928.24,
+  "end": 929.43,
+  "text": "again"
+ },
+ {
+  "start": 929.44,
+  "end": 933.79,
+  "text": "here 40,000 let's assume 40,000 again I"
+ },
+ {
+  "start": 933.8,
+  "end": 936.189,
+  "text": "want to store this here you need to"
+ },
+ {
+  "start": 936.199,
+  "end": 939.87,
+  "text": "change your action mode don't forget to"
+ },
+ {
+  "start": 939.88,
+  "end": 943.309,
+  "text": "change the action mode as input okay so"
+ },
+ {
+  "start": 943.319,
+  "end": 948.189,
+  "text": "here now again store hash to the same"
+ },
+ {
+  "start": 948.199,
+  "end": 952.949,
+  "text": "cell value into a buffer buffer called"
+ },
+ {
+  "start": 952.959,
+  "end": 954.629,
+  "text": "salary"
+ },
+ {
+  "start": 954.639,
+  "end": 959.629,
+  "text": "2 and put it into buffer"
+ },
+ {
+  "start": 959.639,
+  "end": 964.509,
+  "text": "okay done so now I want to enter last"
+ },
+ {
+  "start": 964.519,
+  "end": 970.11,
+  "text": "one I want to enter the last row okay"
+ },
+ {
+  "start": 970.12,
+  "end": 974.91,
+  "text": "here dollar three third row in third row"
+ },
+ {
+  "start": 974.92,
+  "end": 979.03,
+  "text": "I want to have a total okay total salary"
+ },
+ {
+  "start": 979.04,
+  "end": 981.55,
+  "text": "I'm going to"
+ },
+ {
+  "start": 983.389,
+  "end": 983.399,
+  "text": "say"
+ },
+ {
+  "start": 983.399,
+  "end": 986.15,
+  "text": "hash1 I'm going to mention it as total"
+ },
+ {
+  "start": 986.16,
+  "end": 990.59,
+  "text": "amount total amount"
+ },
+ {
+  "start": 993.71,
+  "end": 993.72,
+  "text": "and then here I want to calculate the"
+ },
+ {
+  "start": 993.72,
+  "end": 998.629,
+  "text": "total amount right in sell two third row"
+ },
+ {
+  "start": 998.639,
+  "end": 1001.47,
+  "text": "cell two here I want to calculate the"
+ },
+ {
+  "start": 1001.48,
+  "end": 1004.67,
+  "text": "total amount here you need to introduce"
+ },
+ {
+  "start": 1004.68,
+  "end": 1007.67,
+  "text": "the math function what I'm going to do"
+ },
+ {
+  "start": 1007.68,
+  "end": 1009.23,
+  "text": "here if I'm going to explain you what is"
+ },
+ {
+  "start": 1009.24,
+  "end": 1011.99,
+  "text": "this math function okay if you see"
+ },
+ {
+  "start": 1012.0,
+  "end": 1017.47,
+  "text": "math what I'm going to do here salary"
+ },
+ {
+  "start": 1017.48,
+  "end": 1021.87,
+  "text": "one and salary 2"
+ },
+ {
+  "start": 1021.88,
+  "end": 1026.189,
+  "text": "salary two if you see open curly braces"
+ },
+ {
+  "start": 1026.199,
+  "end": 1029.029,
+  "text": "math I already covered all these math"
+ },
+ {
+  "start": 1029.039,
+  "end": 1031.23,
+  "text": "functions in my previous sessions okay I"
+ },
+ {
+  "start": 1031.24,
+  "end": 1032.51,
+  "text": "would recommend you guys to go through"
+ },
+ {
+  "start": 1032.52,
+  "end": 1033.189,
+  "text": "those"
+ },
+ {
+  "start": 1033.199,
+  "end": 1037.189,
+  "text": "sessions open curly braces math and then"
+ },
+ {
+  "start": 1037.199,
+  "end": 1039.549,
+  "text": "open your square bracket and you are"
+ },
+ {
+  "start": 1039.559,
+  "end": 1042.829,
+  "text": "calling your first buffer salary one"
+ },
+ {
+  "start": 1042.839,
+  "end": 1046.069,
+  "text": "plus your second buffer salary 2 and"
+ },
+ {
+  "start": 1046.079,
+  "end": 1049.47,
+  "text": "closing all your parenthesis so if you"
+ },
+ {
+  "start": 1049.48,
+  "end": 1051.87,
+  "text": "click on other cell see now your formula"
+ },
+ {
+  "start": 1051.88,
+  "end": 1056.27,
+  "text": "is correct so here I need to input this"
+ },
+ {
+  "start": 1056.28,
+  "end": 1060.83,
+  "text": "this is my input total and here so what"
+ },
+ {
+  "start": 1060.84,
+  "end": 1063.39,
+  "text": "I'm doing here instead of sorry so"
+ },
+ {
+  "start": 1063.4,
+  "end": 1066.07,
+  "text": "before you verify this right I want to"
+ },
+ {
+  "start": 1066.08,
+  "end": 1069.99,
+  "text": "insert so let me do one thing I want to"
+ },
+ {
+  "start": 1070.0,
+  "end": 1071.95,
+  "text": "remove this formula from here I want to"
+ },
+ {
+  "start": 1071.96,
+  "end": 1074.23,
+  "text": "enter the value first what I'm doing I'm"
+ },
+ {
+  "start": 1074.24,
+  "end": 1077.07,
+  "text": "going to enter the value as 90,000"
+ },
+ {
+  "start": 1077.08,
+  "end": 1079.95,
+  "text": "because your total salary 50,000 +"
+ },
+ {
+  "start": 1079.96,
+  "end": 1082.75,
+  "text": "40,000 is 90,000 right I'm going to"
+ },
+ {
+  "start": 1082.76,
+  "end": 1085.63,
+  "text": "input that and then I'm going to verify"
+ },
+ {
+  "start": 1085.64,
+  "end": 1089.71,
+  "text": "if I inputed correct or not it means"
+ },
+ {
+  "start": 1089.72,
+  "end": 1094.39,
+  "text": "again ash2 I'm going to"
+ },
+ {
+  "start": 1094.4,
+  "end": 1097.19,
+  "text": "calculate salary 1 plus salary 2 should"
+ },
+ {
+  "start": 1097.2,
+  "end": 1099.47,
+  "text": "be 90,000 I'm going to verify if I'm"
+ },
+ {
+  "start": 1099.48,
+  "end": 1101.71,
+  "text": "entering the correct value or not okay"
+ },
+ {
+  "start": 1101.72,
+  "end": 1103.99,
+  "text": "math function so here I'm going to leave"
+ },
+ {
+  "start": 1104.0,
+  "end": 1105.23,
+  "text": "this as"
+ },
+ {
+  "start": 1105.24,
+  "end": 1108.83,
+  "text": "verify let's minimize this"
+ },
+ {
+  "start": 1108.84,
+  "end": 1111.47,
+  "text": "so basically we manipulated everything"
+ },
+ {
+  "start": 1111.48,
+  "end": 1113.99,
+  "text": "but one thing we have to do I don't want"
+ },
+ {
+  "start": 1114.0,
+  "end": 1116.59,
+  "text": "to close the Excel workbook"
+ },
+ {
+  "start": 1116.6,
+  "end": 1119.27,
+  "text": "here I want to close the Excel workbook"
+ },
+ {
+  "start": 1119.28,
+  "end": 1122.31,
+  "text": "and save it after defining Excel range"
+ },
+ {
+  "start": 1122.32,
+  "end": 1124.95,
+  "text": "after entering the data bring this"
+ },
+ {
+  "start": 1124.96,
+  "end": 1129.549,
+  "text": "down right so if you see now my sequence"
+ },
+ {
+  "start": 1129.559,
+  "end": 1133.47,
+  "text": "open Excel book create worksheet Define"
+ },
+ {
+  "start": 1133.48,
+  "end": 1135.63,
+  "text": "your Excel"
+ },
+ {
+  "start": 1135.64,
+  "end": 1138.43,
+  "text": "range and then you are manipulating that"
+ },
+ {
+  "start": 1138.44,
+  "end": 1140.149,
+  "text": "means you are entering the"
+ },
+ {
+  "start": 1140.159,
+  "end": 1144.909,
+  "text": "data in two columns and three rows and"
+ },
+ {
+  "start": 1144.919,
+  "end": 1147.59,
+  "text": "I'm verifying if the total amount is"
+ },
+ {
+  "start": 1147.6,
+  "end": 1150.31,
+  "text": "whatever I entered is correct or Not by"
+ },
+ {
+  "start": 1150.32,
+  "end": 1152.149,
+  "text": "introducing the math"
+ },
+ {
+  "start": 1152.159,
+  "end": 1155.27,
+  "text": "function okay and then I'm closing the"
+ },
+ {
+  "start": 1155.28,
+  "end": 1157.669,
+  "text": "worksheet and where I'm saving the"
+ },
+ {
+  "start": 1157.679,
+  "end": 1161.31,
+  "text": "worksheet okay so now let us run all"
+ },
+ {
+  "start": 1161.32,
+  "end": 1165.35,
+  "text": "these together so before I run let me"
+ },
+ {
+  "start": 1165.36,
+  "end": 1166.95,
+  "text": "close this"
+ },
+ {
+  "start": 1166.96,
+  "end": 1169.43,
+  "text": "workbook and I want to delete the"
+ },
+ {
+  "start": 1169.44,
+  "end": 1172.35,
+  "text": "workbook okay let's delete the"
+ },
+ {
+  "start": 1172.36,
+  "end": 1175.11,
+  "text": "workbook because I have to delete"
+ },
+ {
+  "start": 1175.12,
+  "end": 1177.11,
+  "text": "manually now okay let's delete manually"
+ },
+ {
+  "start": 1177.12,
+  "end": 1179.07,
+  "text": "for now I'll tell you later how to"
+ },
+ {
+  "start": 1179.08,
+  "end": 1181.23,
+  "text": "delete automatically okay right click"
+ },
+ {
+  "start": 1181.24,
+  "end": 1184.75,
+  "text": "and run this now and see what it is"
+ },
+ {
+  "start": 1184.76,
+  "end": 1186.87,
+  "text": "going to do it should"
+ },
+ {
+  "start": 1186.88,
+  "end": 1191.549,
+  "text": "create your Excel workbook"
+ },
+ {
+  "start": 1191.559,
+  "end": 1196.51,
+  "text": "worksheet so now see everything is"
+ },
+ {
+  "start": 1196.52,
+  "end": 1199.549,
+  "text": "passed you also create created your"
+ },
+ {
+  "start": 1199.559,
+  "end": 1202.95,
+  "text": "Excel range also manipulated Excel range"
+ },
+ {
+  "start": 1202.96,
+  "end": 1205.83,
+  "text": "now let us go to our"
+ },
+ {
+  "start": 1205.84,
+  "end": 1209.59,
+  "text": "documents here and date"
+ },
+ {
+  "start": 1209.6,
+  "end": 1214.909,
+  "text": "modified and here open the"
+ },
+ {
+  "start": 1217.149,
+  "end": 1217.159,
+  "text": "workbook see here"
+ },
+ {
+  "start": 1217.159,
+  "end": 1222.39,
+  "text": "now see it entered all the salaries and"
+ },
+ {
+  "start": 1222.4,
+  "end": 1225.35,
+  "text": "it provided total amount and"
+ },
+ {
+  "start": 1225.36,
+  "end": 1228.71,
+  "text": "90,000 right and also if you see it"
+ },
+ {
+  "start": 1228.72,
+  "end": 1231.029,
+  "text": "should verify it should have verified"
+ },
+ {
+  "start": 1231.039,
+  "end": 1232.99,
+  "text": "your total amount correct or not let's"
+ },
+ {
+  "start": 1233.0,
+  "end": 1235.149,
+  "text": "go"
+ },
+ {
+  "start": 1235.159,
+  "end": 1238.11,
+  "text": "here in"
+ },
+ {
+  "start": 1238.12,
+  "end": 1241.99,
+  "text": "uh see here verification is Success your"
+ },
+ {
+  "start": 1242.0,
+  "end": 1244.59,
+  "text": "expected value is 90,000 actually is"
+ },
+ {
+  "start": 1244.6,
+  "end": 1248.71,
+  "text": "90,000 right but if I run this again now"
+ },
+ {
+  "start": 1248.72,
+  "end": 1251.51,
+  "text": "what is happens it's going to fail"
+ },
+ {
+  "start": 1251.52,
+  "end": 1253.59,
+  "text": "because your Excel sheet is already"
+ },
+ {
+  "start": 1253.6,
+  "end": 1256.149,
+  "text": "exist so let's because we"
+ },
+ {
+  "start": 1256.159,
+  "end": 1259.75,
+  "text": "selected create new let's say run this"
+ },
+ {
+  "start": 1259.76,
+  "end": 1262.39,
+  "text": "it says it's going to fail by saying"
+ },
+ {
+  "start": 1262.4,
+  "end": 1264.35,
+  "text": "your Excel already"
+ },
+ {
+  "start": 1264.36,
+  "end": 1267.43,
+  "text": "exist so then what should we do we have"
+ },
+ {
+  "start": 1267.44,
+  "end": 1272.63,
+  "text": "to delete Excel file Whenever there is"
+ },
+ {
+  "start": 1272.64,
+  "end": 1275.71,
+  "text": "three so that means first I need to"
+ },
+ {
+  "start": 1275.72,
+  "end": 1279.11,
+  "text": "delete if the Excel sheet exist then I"
+ },
+ {
+  "start": 1279.12,
+  "end": 1282.149,
+  "text": "need to delete see here says find name"
+ },
+ {
+  "start": 1282.159,
+  "end": 1284.71,
+  "text": "already exist when I'm saving it so that"
+ },
+ {
+  "start": 1284.72,
+  "end": 1288.269,
+  "text": "means I need to introduce another the"
+ },
+ {
+  "start": 1288.279,
+  "end": 1293.39,
+  "text": "test step for deleting the Excel"
+ },
+ {
+  "start": 1293.4,
+  "end": 1295.99,
+  "text": "workbook"
+ },
+ {
+  "start": 1296.0,
+  "end": 1298.789,
+  "text": "delete file"
+ },
+ {
+  "start": 1298.799,
+  "end": 1302.19,
+  "text": "delete file so delete file is one common"
+ },
+ {
+  "start": 1302.2,
+  "end": 1304.83,
+  "text": "operation it's not Excel related but any"
+ },
+ {
+  "start": 1304.84,
+  "end": 1306.51,
+  "text": "file it's going to delete I'm going to"
+ },
+ {
+  "start": 1306.52,
+  "end": 1308.83,
+  "text": "bring this to the"
+ },
+ {
+  "start": 1308.84,
+  "end": 1312.909,
+  "text": "top okay here I'm going to specify the"
+ },
+ {
+  "start": 1312.919,
+  "end": 1317.029,
+  "text": "directory what is the directory of your"
+ },
+ {
+  "start": 1317.039,
+  "end": 1319.39,
+  "text": "Excel"
+ },
+ {
+  "start": 1319.4,
+  "end": 1320.47,
+  "text": "this is the"
+ },
+ {
+  "start": 1320.48,
+  "end": 1324.07,
+  "text": "directory copy"
+ },
+ {
+  "start": 1326.149,
+  "end": 1326.159,
+  "text": "this and what is the file name that you"
+ },
+ {
+  "start": 1326.159,
+  "end": 1327.87,
+  "text": "want to create delete I want to delete"
+ },
+ {
+  "start": 1327.88,
+  "end": 1330.35,
+  "text": "the F name do"
+ },
+ {
+  "start": 1330.36,
+  "end": 1334.87,
+  "text": "xlsx so now if I run this now again if"
+ },
+ {
+  "start": 1334.88,
+  "end": 1337.19,
+  "text": "the Excel sheet exist it deletes if does"
+ },
+ {
+  "start": 1337.2,
+  "end": 1339.11,
+  "text": "not exist it's not going to fail okay"
+ },
+ {
+  "start": 1339.12,
+  "end": 1342.35,
+  "text": "right click and run so now it will"
+ },
+ {
+  "start": 1342.36,
+  "end": 1346.909,
+  "text": "delete the demo. XLS see it deleted now"
+ },
+ {
+  "start": 1346.919,
+  "end": 1349.909,
+  "text": "it creates the new one"
+ },
+ {
+  "start": 1349.919,
+  "end": 1353.51,
+  "text": "and it enters entire the"
+ },
+ {
+  "start": 1353.52,
+  "end": 1358.669,
+  "text": "data done see now it's let's go back to"
+ },
+ {
+  "start": 1358.679,
+  "end": 1363.149,
+  "text": "my documents let's go to documents and"
+ },
+ {
+  "start": 1363.159,
+  "end": 1367.31,
+  "text": "sort it as a modified see I can see"
+ },
+ {
+  "start": 1367.32,
+  "end": 1371.07,
+  "text": "Excel sheet is created and your data has"
+ },
+ {
+  "start": 1371.08,
+  "end": 1375.23,
+  "text": "been entered right hope you all"
+ },
+ {
+  "start": 1375.24,
+  "end": 1378.23,
+  "text": "understand the concepts of excel"
+ },
+ {
+  "start": 1378.24,
+  "end": 1380.87,
+  "text": "operations how can you perform different"
+ },
+ {
+  "start": 1380.88,
+  "end": 1384.269,
+  "text": "Excel operations by using"
+ },
+ {
+  "start": 1384.279,
+  "end": 1388.23,
+  "text": "trien oh you all understand the concepts"
+ },
+ {
+  "start": 1388.24,
+  "end": 1392.19,
+  "text": "of how can you perform different Excel"
+ },
+ {
+  "start": 1392.2,
+  "end": 1395.99,
+  "text": "operations by using tritis stasa please"
+ },
+ {
+  "start": 1396.0,
+  "end": 1398.07,
+  "text": "do subscribe to the channel click on"
+ },
+ {
+  "start": 1398.08,
+  "end": 1400.269,
+  "text": "Bell icon you'll receive notifications"
+ },
+ {
+  "start": 1400.279,
+  "end": 1406.279,
+  "text": "whenever I publish more videos thank you"
+ }
+]

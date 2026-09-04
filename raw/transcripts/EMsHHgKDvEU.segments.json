@@ -1,0 +1,2332 @@
+[
+ {
+  "start": 14.27,
+  "end": 14.28,
+  "text": "hi everyone this is Ravi welcome back to"
+ },
+ {
+  "start": 14.28,
+  "end": 17.67,
+  "text": "trien tasa automation"
+ },
+ {
+  "start": 17.68,
+  "end": 21.83,
+  "text": "tutorial so this is our lesson"
+ },
+ {
+  "start": 21.84,
+  "end": 25.39,
+  "text": "seven where I'm going to teach you how"
+ },
+ {
+  "start": 25.4,
+  "end": 29.269,
+  "text": "to identify the controls by using"
+ },
+ {
+  "start": 29.279,
+  "end": 30.95,
+  "text": "properties"
+ },
+ {
+  "start": 30.96,
+  "end": 36.389,
+  "text": "and by using anchor in tricentis tasa 16"
+ },
+ {
+  "start": 36.399,
+  "end": 39.549,
+  "text": "and also how can you create a control"
+ },
+ {
+  "start": 39.559,
+  "end": 42.51,
+  "text": "group in TSA"
+ },
+ {
+  "start": 42.52,
+  "end": 45.79,
+  "text": "16 please do subscribe to the channel"
+ },
+ {
+  "start": 45.8,
+  "end": 47.51,
+  "text": "click on Bell icon you'll receive"
+ },
+ {
+  "start": 47.52,
+  "end": 49.75,
+  "text": "notifications whenever I publish more"
+ },
+ {
+  "start": 49.76,
+  "end": 54.069,
+  "text": "videos thank you okay so what is our"
+ },
+ {
+  "start": 54.079,
+  "end": 58.229,
+  "text": "agenda item the first agenda item is I'm"
+ },
+ {
+  "start": 58.239,
+  "end": 61.229,
+  "text": "going to teach you how to identify the"
+ },
+ {
+  "start": 61.239,
+  "end": 63.67,
+  "text": "controls by using properties the"
+ },
+ {
+  "start": 63.68,
+  "end": 67.55,
+  "text": "technical properties of your control and"
+ },
+ {
+  "start": 67.56,
+  "end": 70.789,
+  "text": "how can you identify the controls by"
+ },
+ {
+  "start": 70.799,
+  "end": 72.03,
+  "text": "specific"
+ },
+ {
+  "start": 72.04,
+  "end": 75.19,
+  "text": "property and by using a specific"
+ },
+ {
+  "start": 75.2,
+  "end": 78.27,
+  "text": "property is a default identification"
+ },
+ {
+  "start": 78.28,
+  "end": 79.35,
+  "text": "method in"
+ },
+ {
+  "start": 79.36,
+  "end": 82.469,
+  "text": "tasa okay it's keep in mind that in"
+ },
+ {
+  "start": 82.479,
+  "end": 84.749,
+  "text": "generally the tasa identifies all the"
+ },
+ {
+  "start": 84.759,
+  "end": 87.83,
+  "text": "controls by using properties by"
+ },
+ {
+  "start": 87.84,
+  "end": 90.749,
+  "text": "default and you can use unlimited"
+ },
+ {
+  "start": 90.759,
+  "end": 93.069,
+  "text": "unlimited number of properties for"
+ },
+ {
+  "start": 93.079,
+  "end": 95.63,
+  "text": "identifying your control so I'm going to"
+ },
+ {
+  "start": 95.64,
+  "end": 97.71,
+  "text": "show you how can you use multiple"
+ },
+ {
+  "start": 97.72,
+  "end": 99.71,
+  "text": "properties in identifying the"
+ },
+ {
+  "start": 99.72,
+  "end": 101.789,
+  "text": "controls and"
+ },
+ {
+  "start": 101.799,
+  "end": 105.469,
+  "text": "also use the properties that are"
+ },
+ {
+  "start": 105.479,
+  "end": 108.55,
+  "text": "necessary and stable why when you are"
+ },
+ {
+  "start": 108.56,
+  "end": 112.03,
+  "text": "identifying a control yes you can"
+ },
+ {
+  "start": 112.04,
+  "end": 114.35,
+  "text": "actually use multiple properties n"
+ },
+ {
+  "start": 114.36,
+  "end": 116.67,
+  "text": "number of properties in identifying the"
+ },
+ {
+  "start": 116.68,
+  "end": 119.99,
+  "text": "object but it's not recommended to use"
+ },
+ {
+  "start": 120.0,
+  "end": 122.63,
+  "text": "lot of properties that slows down your"
+ },
+ {
+  "start": 122.64,
+  "end": 126.35,
+  "text": "system so better to use necessary and"
+ },
+ {
+  "start": 126.36,
+  "end": 128.749,
+  "text": "stable properties"
+ },
+ {
+  "start": 128.759,
+  "end": 131.19,
+  "text": "only okay and also I'm going to teach"
+ },
+ {
+  "start": 131.2,
+  "end": 134.15,
+  "text": "you how can you identify the controls by"
+ },
+ {
+  "start": 134.16,
+  "end": 137.309,
+  "text": "using anchor property okay it's very"
+ },
+ {
+  "start": 137.319,
+  "end": 140.869,
+  "text": "useful concept okay generally tasa looks"
+ },
+ {
+  "start": 140.879,
+  "end": 144.19,
+  "text": "for an an anchor control first and then"
+ },
+ {
+  "start": 144.2,
+  "end": 147.03,
+  "text": "serves the target control in the"
+ },
+ {
+  "start": 147.04,
+  "end": 149.949,
+  "text": "relation of the anchor so what do you"
+ },
+ {
+  "start": 149.959,
+  "end": 152.509,
+  "text": "mean by anchor control so let's say I"
+ },
+ {
+  "start": 152.519,
+  "end": 155.229,
+  "text": "want to identify login button so I'm"
+ },
+ {
+  "start": 155.239,
+  "end": 157.39,
+  "text": "going to use a reference of anchor"
+ },
+ {
+  "start": 157.4,
+  "end": 160.309,
+  "text": "control probably title of the page or"
+ },
+ {
+  "start": 160.319,
+  "end": 162.99,
+  "text": "some other object so I'm going to use"
+ },
+ {
+  "start": 163.0,
+  "end": 165.589,
+  "text": "that reference as an anchor property or"
+ },
+ {
+  "start": 165.599,
+  "end": 168.309,
+  "text": "anchor control so with that reference of"
+ },
+ {
+  "start": 168.319,
+  "end": 170.39,
+  "text": "your anchor control I'm going to"
+ },
+ {
+  "start": 170.4,
+  "end": 173.55,
+  "text": "identify the"
+ },
+ {
+  "start": 173.56,
+  "end": 177.43,
+  "text": "login link or the login button in the"
+ },
+ {
+  "start": 177.44,
+  "end": 180.19,
+  "text": "reference of anchor control okay and"
+ },
+ {
+  "start": 180.2,
+  "end": 181.509,
+  "text": "also I'm going to teach you how to"
+ },
+ {
+  "start": 181.519,
+  "end": 183.789,
+  "text": "create the control"
+ },
+ {
+  "start": 183.799,
+  "end": 187.309,
+  "text": "groups okay so all these Concepts I'm"
+ },
+ {
+  "start": 187.319,
+  "end": 189.19,
+  "text": "going to teach"
+ },
+ {
+  "start": 189.2,
+  "end": 192.71,
+  "text": "you in this session so now let's jump"
+ },
+ {
+  "start": 192.72,
+  "end": 196.71,
+  "text": "onto the system and see how can we"
+ },
+ {
+  "start": 196.72,
+  "end": 198.47,
+  "text": "identify the controls by using"
+ },
+ {
+  "start": 198.48,
+  "end": 201.589,
+  "text": "properties and by using anchor"
+ },
+ {
+  "start": 201.599,
+  "end": 204.509,
+  "text": "method okay so this is my uh latest"
+ },
+ {
+  "start": 204.519,
+  "end": 208.27,
+  "text": "version of tasar okay so and I'm"
+ },
+ {
+  "start": 208.28,
+  "end": 211.35,
+  "text": "actually navigated to mod section okay"
+ },
+ {
+  "start": 211.36,
+  "end": 213.11,
+  "text": "so I explained about all these sections"
+ },
+ {
+  "start": 213.12,
+  "end": 215.229,
+  "text": "in my previous videos I would recommend"
+ },
+ {
+  "start": 215.239,
+  "end": 217.19,
+  "text": "you guys to visit my previous videos"
+ },
+ {
+  "start": 217.2,
+  "end": 221.11,
+  "text": "okay so I'm in module section now let's"
+ },
+ {
+  "start": 221.12,
+  "end": 223.71,
+  "text": "what is our first agenda is identifying"
+ },
+ {
+  "start": 223.72,
+  "end": 226.27,
+  "text": "the controls by using properties okay"
+ },
+ {
+  "start": 226.28,
+  "end": 229.429,
+  "text": "let's see okay right click on modules"
+ },
+ {
+  "start": 229.439,
+  "end": 232.99,
+  "text": "click on scan and select application"
+ },
+ {
+  "start": 233.0,
+  "end": 234.19,
+  "text": "scan"
+ },
+ {
+  "start": 234.2,
+  "end": 237.949,
+  "text": "okay once you select application scan"
+ },
+ {
+  "start": 237.959,
+  "end": 239.91,
+  "text": "it's going to show you all the"
+ },
+ {
+  "start": 239.92,
+  "end": 242.39,
+  "text": "applications that are open in your"
+ },
+ {
+  "start": 242.4,
+  "end": 245.149,
+  "text": "desktop"
+ },
+ {
+  "start": 245.159,
+  "end": 246.99,
+  "text": "okay yeah so these are all the"
+ },
+ {
+  "start": 247.0,
+  "end": 250.27,
+  "text": "applications I need demo webshop and"
+ },
+ {
+  "start": 250.28,
+  "end": 255.27,
+  "text": "then click on"
+ },
+ {
+  "start": 258.789,
+  "end": 258.799,
+  "text": "scan okay so we are as soon as you click"
+ },
+ {
+  "start": 258.799,
+  "end": 261.27,
+  "text": "on scan right now I'm in advanced view"
+ },
+ {
+  "start": 261.28,
+  "end": 263.11,
+  "text": "okay this is my basic view I already"
+ },
+ {
+  "start": 263.12,
+  "end": 265.95,
+  "text": "explained about all these Advanced and"
+ },
+ {
+  "start": 265.96,
+  "end": 268.55,
+  "text": "basic views and then what is our xcan"
+ },
+ {
+  "start": 268.56,
+  "end": 270.95,
+  "text": "right um so I would recommend you guys"
+ },
+ {
+  "start": 270.96,
+  "end": 274.23,
+  "text": "to go through my previous video okay so"
+ },
+ {
+  "start": 274.24,
+  "end": 279.99,
+  "text": "here now I would like to add all my this"
+ },
+ {
+  "start": 280.0,
+  "end": 282.629,
+  "text": "product tabs okay I would like"
+ },
+ {
+  "start": 282.639,
+  "end": 285.87,
+  "text": "to capture the controls of my product"
+ },
+ {
+  "start": 285.88,
+  "end": 289.189,
+  "text": "tabs okay let's see how can we do"
+ },
+ {
+  "start": 289.199,
+  "end": 294.909,
+  "text": "okay there are two ways either I can use"
+ },
+ {
+  "start": 294.919,
+  "end": 299.35,
+  "text": "select on screen method okay let's are I"
+ },
+ {
+  "start": 299.36,
+  "end": 301.95,
+  "text": "can directly go to basic View and then"
+ },
+ {
+  "start": 301.96,
+  "end": 304.99,
+  "text": "keep clicking on these objects that will"
+ },
+ {
+  "start": 305.0,
+  "end": 310.35,
+  "text": "add all the objects see"
+ },
+ {
+  "start": 310.36,
+  "end": 315.79,
+  "text": "third fourth menu fifth menu sixth menu"
+ },
+ {
+  "start": 315.8,
+  "end": 318.99,
+  "text": "seventh menu okay I think this is"
+ },
+ {
+  "start": 319.0,
+  "end": 322.029,
+  "text": "something different okay okay so these"
+ },
+ {
+  "start": 322.039,
+  "end": 323.71,
+  "text": "are all"
+ },
+ {
+  "start": 323.72,
+  "end": 327.27,
+  "text": "the controls that I have added now I"
+ },
+ {
+  "start": 327.28,
+  "end": 330.67,
+  "text": "would like to go for the advanced View"
+ },
+ {
+  "start": 330.68,
+  "end": 333.029,
+  "text": "okay so where are the controls that we"
+ },
+ {
+  "start": 333.039,
+  "end": 335.35,
+  "text": "added so if you scroll"
+ },
+ {
+  "start": 335.36,
+  "end": 337.87,
+  "text": "down yeah these are the controls that we"
+ },
+ {
+  "start": 337.88,
+  "end": 342.23,
+  "text": "added correct so and one more thing is"
+ },
+ {
+  "start": 342.24,
+  "end": 345.71,
+  "text": "if You"
+ },
+ {
+  "start": 348.87,
+  "end": 348.88,
+  "text": "observe okay let me see"
+ },
+ {
+  "start": 348.88,
+  "end": 351.749,
+  "text": "okay so when I click on this"
+ },
+ {
+  "start": 351.759,
+  "end": 354.189,
+  "text": "control let me also do one thing okay"
+ },
+ {
+  "start": 354.199,
+  "end": 356.95,
+  "text": "let me also do one"
+ },
+ {
+  "start": 356.96,
+  "end": 360.79,
+  "text": "thing yeah okay so if you see on the"
+ },
+ {
+  "start": 360.8,
+  "end": 364.43,
+  "text": "page you have books this way and there"
+ },
+ {
+  "start": 364.44,
+  "end": 368.029,
+  "text": "is another categories right categories"
+ },
+ {
+  "start": 368.039,
+  "end": 369.79,
+  "text": "where you have again books computers"
+ },
+ {
+  "start": 369.8,
+  "end": 372.27,
+  "text": "Electronics appar right categories and"
+ },
+ {
+  "start": 372.28,
+  "end": 376.07,
+  "text": "the product tabs okay so let's"
+ },
+ {
+  "start": 376.08,
+  "end": 381.469,
+  "text": "assume let's now if I see the categories"
+ },
+ {
+  "start": 381.479,
+  "end": 385.23,
+  "text": "okay and this is let's select this as"
+ },
+ {
+  "start": 385.24,
+  "end": 388.99,
+  "text": "well so if you see the product called"
+ },
+ {
+  "start": 389.0,
+  "end": 392.469,
+  "text": "the the product categories books is the"
+ },
+ {
+  "start": 392.479,
+  "end": 394.39,
+  "text": "selected item is not"
+ },
+ {
+  "start": 394.4,
+  "end": 398.35,
+  "text": "uniquely identified not unique that"
+ },
+ {
+  "start": 398.36,
+  "end": 400.99,
+  "text": "means this particular"
+ },
+ {
+  "start": 401.0,
+  "end": 405.39,
+  "text": "books control the technical properties"
+ },
+ {
+  "start": 405.4,
+  "end": 409.79,
+  "text": "are matching with some other control"
+ },
+ {
+  "start": 409.8,
+  "end": 412.55,
+  "text": "technical properties so that's why this"
+ },
+ {
+  "start": 412.56,
+  "end": 415.23,
+  "text": "books category is not identified"
+ },
+ {
+  "start": 415.24,
+  "end": 418.99,
+  "text": "uniquely okay so to make it uniquely"
+ },
+ {
+  "start": 419.0,
+  "end": 420.83,
+  "text": "identified"
+ },
+ {
+  "start": 420.84,
+  "end": 422.909,
+  "text": "you can do one thing you can actually"
+ },
+ {
+  "start": 422.919,
+  "end": 425.71,
+  "text": "select multiple technical properties"
+ },
+ {
+  "start": 425.72,
+  "end": 427.589,
+  "text": "let's assume I want to add another"
+ },
+ {
+  "start": 427.599,
+  "end": 429.95,
+  "text": "technical property called"
+ },
+ {
+  "start": 429.96,
+  "end": 433.469,
+  "text": "visible as soon as I select visible see"
+ },
+ {
+  "start": 433.479,
+  "end": 435.79,
+  "text": "at the bottom okay see at the"
+ },
+ {
+  "start": 435.8,
+  "end": 439.83,
+  "text": "bottom left corner now the selected item"
+ },
+ {
+  "start": 439.84,
+  "end": 442.909,
+  "text": "is not unique as soon as I select a"
+ },
+ {
+  "start": 442.919,
+  "end": 446.39,
+  "text": "technical property called visible then"
+ },
+ {
+  "start": 446.4,
+  "end": 448.629,
+  "text": "the object will convert the notification"
+ },
+ {
+  "start": 448.639,
+  "end": 450.95,
+  "text": "turns into uniquely identified see at"
+ },
+ {
+  "start": 450.96,
+  "end": 453.71,
+  "text": "the bottom okay I'm clicking on this"
+ },
+ {
+  "start": 453.72,
+  "end": 457.749,
+  "text": "visible right side visible"
+ },
+ {
+  "start": 457.759,
+  "end": 460.189,
+  "text": "property done see if you see here the"
+ },
+ {
+  "start": 460.199,
+  "end": 462.07,
+  "text": "selected item is"
+ },
+ {
+  "start": 462.08,
+  "end": 464.589,
+  "text": "unique okay this is the way you can"
+ },
+ {
+  "start": 464.599,
+  "end": 468.11,
+  "text": "uniquely identify your controls by using"
+ },
+ {
+  "start": 468.12,
+  "end": 470.189,
+  "text": "technical properties so that means I"
+ },
+ {
+  "start": 470.199,
+  "end": 473.83,
+  "text": "have almost added one two three tag"
+ },
+ {
+  "start": 473.84,
+  "end": 476.909,
+  "text": "inner text and visible so three"
+ },
+ {
+  "start": 476.919,
+  "end": 479.909,
+  "text": "properties to identify an object object"
+ },
+ {
+  "start": 479.919,
+  "end": 483.55,
+  "text": "or control as a unique okay so that"
+ },
+ {
+  "start": 483.56,
+  "end": 486.55,
+  "text": "means you can use n number of technical"
+ },
+ {
+  "start": 486.56,
+  "end": 490.51,
+  "text": "properties to make a control identified"
+ },
+ {
+  "start": 490.52,
+  "end": 493.35,
+  "text": "uniquely okay and let me tell you one"
+ },
+ {
+  "start": 493.36,
+  "end": 496.11,
+  "text": "more thing so this on top here right"
+ },
+ {
+  "start": 496.12,
+  "end": 498.909,
+  "text": "demo webshop login if you"
+ },
+ {
+  "start": 498.919,
+  "end": 502.55,
+  "text": "see this is the title what is the title"
+ },
+ {
+  "start": 502.56,
+  "end": 506.309,
+  "text": "of this demo webshop login the title is"
+ },
+ {
+  "start": 506.319,
+  "end": 508.83,
+  "text": "let me show you the title is demo"
+ },
+ {
+  "start": 508.84,
+  "end": 514.269,
+  "text": "webshop not login if I go to register"
+ },
+ {
+  "start": 514.279,
+  "end": 518.709,
+  "text": "then the title will change to register"
+ },
+ {
+  "start": 518.719,
+  "end": 523.11,
+  "text": "what demoe shop. register if I click on"
+ },
+ {
+  "start": 523.12,
+  "end": 525.829,
+  "text": "shopping cart then the title will change"
+ },
+ {
+  "start": 525.839,
+  "end": 529.55,
+  "text": "to title of the page will change to demo"
+ },
+ {
+  "start": 529.56,
+  "end": 531.31,
+  "text": "webshop"
+ },
+ {
+  "start": 531.32,
+  "end": 535.63,
+  "text": "docot okay so that means the title keeps"
+ },
+ {
+  "start": 535.64,
+  "end": 538.19,
+  "text": "changing based on the page where you"
+ },
+ {
+  "start": 538.2,
+  "end": 542.509,
+  "text": "landed correct right so to handle this"
+ },
+ {
+  "start": 542.519,
+  "end": 546.509,
+  "text": "this particular object or control I need"
+ },
+ {
+  "start": 546.519,
+  "end": 550.55,
+  "text": "to change the property called title how"
+ },
+ {
+  "start": 550.56,
+  "end": 554.23,
+  "text": "should I change I should change the"
+ },
+ {
+  "start": 554.24,
+  "end": 558.87,
+  "text": "property as see here instead of"
+ },
+ {
+  "start": 558.88,
+  "end": 563.31,
+  "text": "login I can simply put a"
+ },
+ {
+  "start": 563.32,
+  "end": 566.55,
+  "text": "star as a regular expression that means"
+ },
+ {
+  "start": 566.56,
+  "end": 569.949,
+  "text": "any page will start with demo webshop"
+ },
+ {
+  "start": 569.959,
+  "end": 575.99,
+  "text": "title and it might have some text"
+ },
+ {
+  "start": 576.0,
+  "end": 579.15,
+  "text": "okay so let me just uh because we"
+ },
+ {
+  "start": 579.16,
+  "end": 581.389,
+  "text": "already changed the page right let me"
+ },
+ {
+  "start": 581.399,
+  "end": 586.59,
+  "text": "rescan okay I need to rescan again okay"
+ },
+ {
+  "start": 589.509,
+  "end": 589.519,
+  "text": "scan let's go to advaned view okay so"
+ },
+ {
+  "start": 589.519,
+  "end": 592.11,
+  "text": "I'm talking about this right this page"
+ },
+ {
+  "start": 592.12,
+  "end": 593.67,
+  "text": "see"
+ },
+ {
+  "start": 593.68,
+  "end": 599.829,
+  "text": "here I Chang I remoted it I kept star"
+ },
+ {
+  "start": 599.839,
+  "end": 601.71,
+  "text": "and"
+ },
+ {
+  "start": 601.72,
+  "end": 605.79,
+  "text": "then that's it that means I can uniquely"
+ },
+ {
+  "start": 605.8,
+  "end": 610.47,
+  "text": "identify the page title like this and"
+ },
+ {
+  "start": 610.48,
+  "end": 613.15,
+  "text": "now what we added actually the all the"
+ },
+ {
+  "start": 613.16,
+  "end": 614.79,
+  "text": "products let's add all the products"
+ },
+ {
+  "start": 614.8,
+  "end": 619.069,
+  "text": "again okay I'm directly I I can add all"
+ },
+ {
+  "start": 619.079,
+  "end": 622.67,
+  "text": "the product menu items directly from"
+ },
+ {
+  "start": 622.68,
+  "end": 625.91,
+  "text": "here also this is also another way"
+ },
+ {
+  "start": 625.92,
+  "end": 629.389,
+  "text": "okay this is another way okay so so"
+ },
+ {
+  "start": 629.399,
+  "end": 631.15,
+  "text": "let's see these are all uniquely"
+ },
+ {
+  "start": 631.16,
+  "end": 635.509,
+  "text": "identified okay now let's you can"
+ },
+ {
+  "start": 635.519,
+  "end": 638.629,
+  "text": "actually the module name you can change"
+ },
+ {
+  "start": 638.639,
+  "end": 642.389,
+  "text": "the module name I want to change this"
+ },
+ {
+  "start": 642.399,
+  "end": 645.829,
+  "text": "as demo"
+ },
+ {
+  "start": 645.839,
+  "end": 650.629,
+  "text": "webshop demo web"
+ },
+ {
+  "start": 652.43,
+  "end": 652.44,
+  "text": "Shop"
+ },
+ {
+  "start": 652.44,
+  "end": 656.389,
+  "text": "product tabs because I'm storing all the"
+ },
+ {
+  "start": 656.399,
+  "end": 660.069,
+  "text": "product tab links that's why I'm"
+ },
+ {
+  "start": 660.079,
+  "end": 663.509,
+  "text": "naming this module as product tabs okay"
+ },
+ {
+  "start": 663.519,
+  "end": 668.99,
+  "text": "done now you can simply finish screen"
+ },
+ {
+  "start": 669.0,
+  "end": 670.91,
+  "text": "that will create a module I explained"
+ },
+ {
+  "start": 670.92,
+  "end": 673.269,
+  "text": "you about this in earlier session also"
+ },
+ {
+  "start": 673.279,
+  "end": 676.43,
+  "text": "so now if you see see we have now"
+ },
+ {
+  "start": 676.44,
+  "end": 680.11,
+  "text": "created demo webshop product tabs and if"
+ },
+ {
+  "start": 680.12,
+  "end": 682.55,
+  "text": "you expand this you have all the"
+ },
+ {
+  "start": 682.56,
+  "end": 684.269,
+  "text": "controls that"
+ },
+ {
+  "start": 684.279,
+  "end": 689.59,
+  "text": "we captured while doing the xcan"
+ },
+ {
+  "start": 689.6,
+  "end": 692.509,
+  "text": "okay so this way identifying the"
+ },
+ {
+  "start": 692.519,
+  "end": 695.509,
+  "text": "controls by using multiple Properties or"
+ },
+ {
+  "start": 695.519,
+  "end": 697.35,
+  "text": "by using any kind of technical"
+ },
+ {
+  "start": 697.36,
+  "end": 699.67,
+  "text": "properties okay so what is our next"
+ },
+ {
+  "start": 699.68,
+  "end": 702.71,
+  "text": "agenda next agenda is identify the"
+ },
+ {
+  "start": 702.72,
+  "end": 707.67,
+  "text": "properties by using anchor okay so let's"
+ },
+ {
+  "start": 707.68,
+  "end": 709.55,
+  "text": "again let me do one thing let me create"
+ },
+ {
+  "start": 709.56,
+  "end": 712.629,
+  "text": "a new module Okay click on modules so"
+ },
+ {
+  "start": 712.639,
+  "end": 715.829,
+  "text": "let's first uh okay yeah let's be on the"
+ },
+ {
+  "start": 715.839,
+  "end": 718.23,
+  "text": "same page right"
+ },
+ {
+  "start": 718.24,
+  "end": 720.069,
+  "text": "click"
+ },
+ {
+  "start": 720.079,
+  "end": 722.19,
+  "text": "scan"
+ },
+ {
+  "start": 722.2,
+  "end": 724.269,
+  "text": "application and"
+ },
+ {
+  "start": 724.279,
+  "end": 727.55,
+  "text": "then and"
+ },
+ {
+  "start": 730.67,
+  "end": 730.68,
+  "text": "then let me do one thing right click"
+ },
+ {
+  "start": 730.68,
+  "end": 734.069,
+  "text": "scan application oh sorry let me first"
+ },
+ {
+  "start": 734.079,
+  "end": 736.43,
+  "text": "close the scanner here okay we already"
+ },
+ {
+  "start": 736.44,
+  "end": 740.15,
+  "text": "opened one scanner so right click click"
+ },
+ {
+  "start": 740.16,
+  "end": 742.509,
+  "text": "on scan and"
+ },
+ {
+  "start": 742.519,
+  "end": 744.67,
+  "text": "application okay so now you need to"
+ },
+ {
+  "start": 744.68,
+  "end": 750.829,
+  "text": "select the application as usual"
+ },
+ {
+  "start": 759.31,
+  "end": 759.32,
+  "text": "scan and now I want to add the"
+ },
+ {
+  "start": 759.32,
+  "end": 761.99,
+  "text": "categories okay instead of this I want"
+ },
+ {
+  "start": 762.0,
+  "end": 764.47,
+  "text": "to add the categories okay let's go back"
+ },
+ {
+  "start": 764.48,
+  "end": 766.949,
+  "text": "to your basic"
+ },
+ {
+  "start": 766.959,
+  "end": 769.91,
+  "text": "View and then add"
+ },
+ {
+  "start": 769.92,
+  "end": 774.069,
+  "text": "books add computers Electronics apparel"
+ },
+ {
+  "start": 774.079,
+  "end": 777.47,
+  "text": "and choose download gelry and gift card"
+ },
+ {
+  "start": 777.48,
+  "end": 780.11,
+  "text": "if you see here let's go back to"
+ },
+ {
+  "start": 780.12,
+  "end": 782.23,
+  "text": "Advanced also because if you see in the"
+ },
+ {
+  "start": 782.24,
+  "end": 784.189,
+  "text": "orange color that means these objects"
+ },
+ {
+  "start": 784.199,
+  "end": 786.269,
+  "text": "are not uniquely identified see the"
+ },
+ {
+  "start": 786.279,
+  "end": 789.069,
+  "text": "selected is not unique the selected item"
+ },
+ {
+  "start": 789.079,
+  "end": 791.43,
+  "text": "is not unique okay so let's go back to"
+ },
+ {
+  "start": 791.44,
+  "end": 794.15,
+  "text": "Advanced view okay first okay because"
+ },
+ {
+  "start": 794.16,
+  "end": 796.23,
+  "text": "all these are highlighted in orange"
+ },
+ {
+  "start": 796.24,
+  "end": 798.91,
+  "text": "color that means these objects are not"
+ },
+ {
+  "start": 798.92,
+  "end": 800.47,
+  "text": "uniquely"
+ },
+ {
+  "start": 800.48,
+  "end": 803.43,
+  "text": "identified okay now I want to resolve"
+ },
+ {
+  "start": 803.44,
+  "end": 806.87,
+  "text": "this issue by using anchor okay I want"
+ },
+ {
+  "start": 806.88,
+  "end": 809.629,
+  "text": "to identify this books"
+ },
+ {
+  "start": 809.639,
+  "end": 814.629,
+  "text": "all these controls by using identify by"
+ },
+ {
+  "start": 814.639,
+  "end": 817.629,
+  "text": "anchor if you see on the top identify"
+ },
+ {
+  "start": 817.639,
+  "end": 822.069,
+  "text": "by click on anchor so first of all you"
+ },
+ {
+  "start": 822.079,
+  "end": 824.67,
+  "text": "need to select the control you need to"
+ },
+ {
+  "start": 824.68,
+  "end": 827.15,
+  "text": "select the control that you would like"
+ },
+ {
+  "start": 827.16,
+  "end": 830.189,
+  "text": "to identify by the anchor okay I clicked"
+ },
+ {
+  "start": 830.199,
+  "end": 833.91,
+  "text": "on this control and then identify by"
+ },
+ {
+  "start": 833.92,
+  "end": 836.47,
+  "text": "anchor as soon as you click on identify"
+ },
+ {
+  "start": 836.48,
+  "end": 839.43,
+  "text": "by anchor the right side the ident ify"
+ },
+ {
+  "start": 839.44,
+  "end": 842.99,
+  "text": "by anchor pain will be opening okay and"
+ },
+ {
+  "start": 843.0,
+  "end": 846.829,
+  "text": "before you do that I need to see some"
+ },
+ {
+  "start": 846.839,
+  "end": 849.949,
+  "text": "more elements that are not visible on"
+ },
+ {
+  "start": 849.959,
+  "end": 857.03,
+  "text": "this page like div UL right or any hre"
+ },
+ {
+  "start": 857.04,
+  "end": 859.749,
+  "text": "tags right all these kind of technical"
+ },
+ {
+  "start": 859.759,
+  "end": 861.389,
+  "text": "properties I would like to see how can"
+ },
+ {
+  "start": 861.399,
+  "end": 863.67,
+  "text": "we do that you need to use the filter"
+ },
+ {
+  "start": 863.68,
+  "end": 866.43,
+  "text": "here you have to expand the filter in a"
+ },
+ {
+  "start": 866.44,
+  "end": 871.189,
+  "text": "such a way that it shows you see now"
+ },
+ {
+  "start": 871.199,
+  "end": 873.509,
+  "text": "apart from books whatever the links that"
+ },
+ {
+  "start": 873.519,
+  "end": 876.31,
+  "text": "you are watching on the screen it shows"
+ },
+ {
+  "start": 876.32,
+  "end": 879.31,
+  "text": "more technical properties okay so if you"
+ },
+ {
+  "start": 879.32,
+  "end": 883.43,
+  "text": "see the books computers all these links"
+ },
+ {
+  "start": 883.44,
+  "end": 888.55,
+  "text": "are under the container called UL under"
+ },
+ {
+  "start": 888.56,
+  "end": 890.829,
+  "text": "the container called UL so I would like"
+ },
+ {
+  "start": 890.839,
+  "end": 894.87,
+  "text": "to use this container as my anchor to"
+ },
+ {
+  "start": 894.88,
+  "end": 898.03,
+  "text": "identify these links"
+ },
+ {
+  "start": 898.04,
+  "end": 900.15,
+  "text": "uniquely okay for that time what I'm"
+ },
+ {
+  "start": 900.16,
+  "end": 903.749,
+  "text": "going to do again first let's do books I"
+ },
+ {
+  "start": 903.759,
+  "end": 907.03,
+  "text": "would like to identify books as an uh"
+ },
+ {
+  "start": 907.04,
+  "end": 910.99,
+  "text": "unique control by using anchor okay"
+ },
+ {
+  "start": 911.0,
+  "end": 914.87,
+  "text": "right click sorry identify by"
+ },
+ {
+  "start": 914.88,
+  "end": 918.91,
+  "text": "anchor and now you need to select the"
+ },
+ {
+  "start": 918.92,
+  "end": 922.55,
+  "text": "anchor that you would like to use in"
+ },
+ {
+  "start": 922.56,
+  "end": 925.47,
+  "text": "related to Books Okay so this is my"
+ },
+ {
+  "start": 925.48,
+  "end": 929.67,
+  "text": "anchor right click on this anchor drag"
+ },
+ {
+  "start": 929.68,
+  "end": 932.03,
+  "text": "and drop the anchor here right side if"
+ },
+ {
+  "start": 932.04,
+  "end": 935.23,
+  "text": "you see on the right right side pan drag"
+ },
+ {
+  "start": 935.24,
+  "end": 938.509,
+  "text": "and drop the anchor here and if You"
+ },
+ {
+  "start": 938.519,
+  "end": 941.55,
+  "text": "observe clearly when I drag and drop the"
+ },
+ {
+  "start": 941.56,
+  "end": 944.15,
+  "text": "anchor it says the anchor control is not"
+ },
+ {
+  "start": 944.16,
+  "end": 949.23,
+  "text": "uniquely identified see to identify any"
+ },
+ {
+  "start": 949.24,
+  "end": 951.189,
+  "text": "control by"
+ },
+ {
+  "start": 951.199,
+  "end": 953.67,
+  "text": "anchored first of all the anchor should"
+ },
+ {
+  "start": 953.68,
+  "end": 956.389,
+  "text": "be you clear identified okay so if you"
+ },
+ {
+  "start": 956.399,
+  "end": 959.67,
+  "text": "see there is an option to make"
+ },
+ {
+  "start": 959.68,
+  "end": 961.99,
+  "text": "anchor unique if you see at the bottom"
+ },
+ {
+  "start": 962.0,
+  "end": 965.269,
+  "text": "there is a button make anchor unique or"
+ },
+ {
+  "start": 965.279,
+  "end": 968.309,
+  "text": "I can directly select class name so that"
+ },
+ {
+  "start": 968.319,
+  "end": 971.59,
+  "text": "it makes unique anchor okay let's"
+ },
+ {
+  "start": 971.6,
+  "end": 975.269,
+  "text": "see let's the make let's make anchor"
+ },
+ {
+  "start": 975.279,
+  "end": 978.309,
+  "text": "unique so as soon as I click on this"
+ },
+ {
+  "start": 978.319,
+  "end": 980.87,
+  "text": "make anchor unique what it did it"
+ },
+ {
+  "start": 980.88,
+  "end": 984.11,
+  "text": "selected inner HTML and if you see at"
+ },
+ {
+  "start": 984.12,
+  "end": 987.59,
+  "text": "the bottom now the selected item is"
+ },
+ {
+  "start": 987.6,
+  "end": 990.67,
+  "text": "unique that means now the anchor is"
+ },
+ {
+  "start": 990.68,
+  "end": 994.03,
+  "text": "unique okay and if you see the books"
+ },
+ {
+  "start": 994.04,
+  "end": 997.35,
+  "text": "also now turned onto gray color that"
+ },
+ {
+  "start": 997.36,
+  "end": 1000.23,
+  "text": "means this is unique what about"
+ },
+ {
+  "start": 1000.24,
+  "end": 1002.55,
+  "text": "computers now again computers you have"
+ },
+ {
+  "start": 1002.56,
+  "end": 1005.03,
+  "text": "to do same thing"
+ },
+ {
+  "start": 1005.04,
+  "end": 1007.59,
+  "text": "right again computers you have to do"
+ },
+ {
+  "start": 1007.6,
+  "end": 1010.87,
+  "text": "same thing identify by anchor click on"
+ },
+ {
+  "start": 1010.88,
+  "end": 1016.189,
+  "text": "anchor drag ul and drop"
+ },
+ {
+  "start": 1016.199,
+  "end": 1018.87,
+  "text": "here and done this is also unique letter"
+ },
+ {
+  "start": 1018.88,
+  "end": 1021.11,
+  "text": "identified now go to"
+ },
+ {
+  "start": 1021.12,
+  "end": 1024.189,
+  "text": "electronics identify"
+ },
+ {
+  "start": 1024.199,
+  "end": 1029.309,
+  "text": "anchor drag U container as your anchor"
+ },
+ {
+  "start": 1029.319,
+  "end": 1034.309,
+  "text": "that's it apparal and shoes identify by"
+ },
+ {
+  "start": 1034.319,
+  "end": 1037.71,
+  "text": "anchor drag the anchor"
+ },
+ {
+  "start": 1037.72,
+  "end": 1042.029,
+  "text": "control then digital download identify"
+ },
+ {
+  "start": 1042.039,
+  "end": 1045.75,
+  "text": "by anchor track the UL container as an"
+ },
+ {
+  "start": 1045.76,
+  "end": 1046.87,
+  "text": "anchor"
+ },
+ {
+  "start": 1046.88,
+  "end": 1049.59,
+  "text": "control so digital download are uniquely"
+ },
+ {
+  "start": 1049.6,
+  "end": 1051.789,
+  "text": "identified now"
+ },
+ {
+  "start": 1051.799,
+  "end": 1056.63,
+  "text": "jewelry identify by anchor drag the"
+ },
+ {
+  "start": 1056.64,
+  "end": 1061.39,
+  "text": "anchor control here done now gift cards"
+ },
+ {
+  "start": 1061.4,
+  "end": 1063.99,
+  "text": "right last"
+ },
+ {
+  "start": 1064.0,
+  "end": 1067.99,
+  "text": "one drag the UL control as an anchor"
+ },
+ {
+  "start": 1068.0,
+  "end": 1071.789,
+  "text": "control done so now I can see all the"
+ },
+ {
+  "start": 1071.799,
+  "end": 1073.029,
+  "text": "product"
+ },
+ {
+  "start": 1073.039,
+  "end": 1077.63,
+  "text": "categories are now uniquely"
+ },
+ {
+  "start": 1077.64,
+  "end": 1079.95,
+  "text": "identified and let me explain one more"
+ },
+ {
+  "start": 1079.96,
+  "end": 1082.47,
+  "text": "thing see in the anchor control if you"
+ },
+ {
+  "start": 1082.48,
+  "end": 1086.63,
+  "text": "see here what kind of relative algorithm"
+ },
+ {
+  "start": 1086.64,
+  "end": 1089.19,
+  "text": "that tasa would like to consider in"
+ },
+ {
+  "start": 1089.2,
+  "end": 1092.669,
+  "text": "identifying all these categories that"
+ },
+ {
+  "start": 1092.679,
+  "end": 1095.19,
+  "text": "also you can Define there are three"
+ },
+ {
+  "start": 1095.2,
+  "end": 1098.19,
+  "text": "three types One is using the relative"
+ },
+ {
+  "start": 1098.2,
+  "end": 1101.95,
+  "text": "algorithm called Auto or shortest path"
+ },
+ {
+  "start": 1101.96,
+  "end": 1102.87,
+  "text": "or"
+ },
+ {
+  "start": 1102.88,
+  "end": 1106.83,
+  "text": "coordinate so Auto when you select auto"
+ },
+ {
+  "start": 1106.84,
+  "end": 1110.11,
+  "text": "it actually by default TSA will use the"
+ },
+ {
+  "start": 1110.12,
+  "end": 1114.51,
+  "text": "shortest path okay if shortest path is"
+ },
+ {
+  "start": 1114.52,
+  "end": 1117.149,
+  "text": "not worked out then it uses coordinate"
+ },
+ {
+  "start": 1117.159,
+  "end": 1120.11,
+  "text": "okay that is auto what is shortest path"
+ },
+ {
+  "start": 1120.12,
+  "end": 1123.43,
+  "text": "what shortest path is first in the tree"
+ },
+ {
+  "start": 1123.44,
+  "end": 1126.669,
+  "text": "structure in the tree of your"
+ },
+ {
+  "start": 1126.679,
+  "end": 1130.549,
+  "text": "HTML uh design right it starts"
+ },
+ {
+  "start": 1130.559,
+  "end": 1134.31,
+  "text": "identifying the object or the"
+ },
+ {
+  "start": 1134.32,
+  "end": 1138.149,
+  "text": "control from the anchor control okay"
+ },
+ {
+  "start": 1138.159,
+  "end": 1139.789,
+  "text": "first it's searches for the anchor"
+ },
+ {
+  "start": 1139.799,
+  "end": 1143.909,
+  "text": "control and then from anchor control in"
+ },
+ {
+  "start": 1143.919,
+  "end": 1146.87,
+  "text": "the tree structure it start identifying"
+ },
+ {
+  "start": 1146.88,
+  "end": 1149.35,
+  "text": "your corresponding object or"
+ },
+ {
+  "start": 1149.36,
+  "end": 1151.789,
+  "text": "corresponding control in related with"
+ },
+ {
+  "start": 1151.799,
+  "end": 1154.99,
+  "text": "the anchor control okay if you use"
+ },
+ {
+  "start": 1155.0,
+  "end": 1157.71,
+  "text": "coordinate right what it will do it"
+ },
+ {
+  "start": 1157.72,
+  "end": 1159.63,
+  "text": "actually uses the coordinates to"
+ },
+ {
+  "start": 1159.64,
+  "end": 1160.95,
+  "text": "identify your"
+ },
+ {
+  "start": 1160.96,
+  "end": 1163.95,
+  "text": "control but this coordinates if you"
+ },
+ {
+  "start": 1163.96,
+  "end": 1166.35,
+  "text": "select these coordinates what happens if"
+ },
+ {
+  "start": 1166.36,
+  "end": 1169.43,
+  "text": "the screen resolution is Chang then"
+ },
+ {
+  "start": 1169.44,
+  "end": 1171.35,
+  "text": "there might be big chances that the"
+ },
+ {
+  "start": 1171.36,
+  "end": 1173.95,
+  "text": "control might not be able to find okay"
+ },
+ {
+  "start": 1173.96,
+  "end": 1177.149,
+  "text": "so better you select auto or shortest"
+ },
+ {
+  "start": 1177.159,
+  "end": 1180.35,
+  "text": "path okay so for all these controls I'm"
+ },
+ {
+  "start": 1180.36,
+  "end": 1182.149,
+  "text": "identifying the"
+ },
+ {
+  "start": 1182.159,
+  "end": 1184.23,
+  "text": "controls by"
+ },
+ {
+  "start": 1184.24,
+  "end": 1188.35,
+  "text": "anchor by using relative algorithm as"
+ },
+ {
+  "start": 1188.36,
+  "end": 1192.27,
+  "text": "Auto okay so once these controls are"
+ },
+ {
+  "start": 1192.28,
+  "end": 1195.11,
+  "text": "selected and one more thing is see you"
+ },
+ {
+  "start": 1195.12,
+  "end": 1197.83,
+  "text": "need not to okay so I want to add all"
+ },
+ {
+  "start": 1197.84,
+  "end": 1200.669,
+  "text": "these controls you need not to add this"
+ },
+ {
+  "start": 1200.679,
+  "end": 1203.669,
+  "text": "what I can say the container right so"
+ },
+ {
+  "start": 1203.679,
+  "end": 1205.43,
+  "text": "that's why I don't want to I don't want"
+ },
+ {
+  "start": 1205.44,
+  "end": 1208.51,
+  "text": "to select this container"
+ },
+ {
+  "start": 1208.52,
+  "end": 1211.47,
+  "text": "okay okay I think again it's all got"
+ },
+ {
+  "start": 1211.48,
+  "end": 1215.549,
+  "text": "Disturbed let me just again identify by"
+ },
+ {
+  "start": 1215.559,
+  "end": 1218.19,
+  "text": "anchor and"
+ },
+ {
+  "start": 1218.2,
+  "end": 1222.19,
+  "text": "then okay yeah yeah so now all are"
+ },
+ {
+  "start": 1222.2,
+  "end": 1224.909,
+  "text": "actually uniquely identified now what I"
+ },
+ {
+  "start": 1224.919,
+  "end": 1227.87,
+  "text": "can do I can save this let me save"
+ },
+ {
+  "start": 1227.88,
+  "end": 1231.95,
+  "text": "before this I want to rename this as"
+ },
+ {
+  "start": 1231.96,
+  "end": 1233.63,
+  "text": "demo"
+ },
+ {
+  "start": 1233.64,
+  "end": 1236.87,
+  "text": "webshop this time"
+ },
+ {
+  "start": 1236.88,
+  "end": 1240.43,
+  "text": "product"
+ },
+ {
+  "start": 1242.83,
+  "end": 1242.84,
+  "text": "categories okay product categories"
+ },
+ {
+  "start": 1242.84,
+  "end": 1245.43,
+  "text": "because I'm saving all the links related"
+ },
+ {
+  "start": 1245.44,
+  "end": 1247.39,
+  "text": "to product categories okay and then"
+ },
+ {
+  "start": 1247.4,
+  "end": 1249.39,
+  "text": "click on finish"
+ },
+ {
+  "start": 1249.4,
+  "end": 1251.63,
+  "text": "screen so what happens it's going to"
+ },
+ {
+  "start": 1251.64,
+  "end": 1254.99,
+  "text": "create and let's close the xcan it's"
+ },
+ {
+  "start": 1255.0,
+  "end": 1256.789,
+  "text": "going to create another module if you"
+ },
+ {
+  "start": 1256.799,
+  "end": 1259.029,
+  "text": "see here see the new module called"
+ },
+ {
+  "start": 1259.039,
+  "end": 1260.83,
+  "text": "Product categories these are all we"
+ },
+ {
+  "start": 1260.84,
+  "end": 1264.47,
+  "text": "added by using anchor controls correct"
+ },
+ {
+  "start": 1264.48,
+  "end": 1267.909,
+  "text": "done now what is our next agenda how can"
+ },
+ {
+  "start": 1267.919,
+  "end": 1271.23,
+  "text": "you create the control groups okay what"
+ },
+ {
+  "start": 1271.24,
+  "end": 1272.95,
+  "text": "do you mean by control groups control"
+ },
+ {
+  "start": 1272.96,
+  "end": 1275.789,
+  "text": "groups are if you want"
+ },
+ {
+  "start": 1275.799,
+  "end": 1280.149,
+  "text": "to group all the controls based on the"
+ },
+ {
+  "start": 1280.159,
+  "end": 1282.549,
+  "text": "type of control let's say I want to"
+ },
+ {
+  "start": 1282.559,
+  "end": 1284.11,
+  "text": "group all the"
+ },
+ {
+  "start": 1284.12,
+  "end": 1288.11,
+  "text": "links as one C uh control group I want"
+ },
+ {
+  "start": 1288.12,
+  "end": 1289.11,
+  "text": "to"
+ },
+ {
+  "start": 1289.12,
+  "end": 1292.63,
+  "text": "um group all the buttons as one control"
+ },
+ {
+  "start": 1292.64,
+  "end": 1296.23,
+  "text": "group I want to group all text boxes as"
+ },
+ {
+  "start": 1296.24,
+  "end": 1298.47,
+  "text": "one control group okay you can do that"
+ },
+ {
+  "start": 1298.48,
+  "end": 1301.149,
+  "text": "how let's say these are all actually"
+ },
+ {
+  "start": 1301.159,
+  "end": 1304.549,
+  "text": "links right I can simply what links"
+ },
+ {
+  "start": 1304.559,
+  "end": 1307.669,
+  "text": "product category links I can"
+ },
+ {
+  "start": 1307.679,
+  "end": 1310.39,
+  "text": "simply select all these"
+ },
+ {
+  "start": 1310.4,
+  "end": 1314.43,
+  "text": "controls and then right click and click"
+ },
+ {
+  "start": 1314.44,
+  "end": 1317.029,
+  "text": "on convert to control"
+ },
+ {
+  "start": 1317.039,
+  "end": 1319.029,
+  "text": "group what is the"
+ },
+ {
+  "start": 1319.039,
+  "end": 1321.149,
+  "text": "control group you can just rename this"
+ },
+ {
+  "start": 1321.159,
+  "end": 1322.75,
+  "text": "control group"
+ },
+ {
+  "start": 1322.76,
+  "end": 1324.47,
+  "text": "as"
+ },
+ {
+  "start": 1324.48,
+  "end": 1327.23,
+  "text": "product"
+ },
+ {
+  "start": 1327.24,
+  "end": 1330.31,
+  "text": "C"
+ },
+ {
+  "start": 1334.23,
+  "end": 1334.24,
+  "text": "categories links right so if you expand"
+ },
+ {
+  "start": 1334.24,
+  "end": 1336.59,
+  "text": "this now so all"
+ },
+ {
+  "start": 1336.6,
+  "end": 1340.11,
+  "text": "these controls are actually part of"
+ },
+ {
+  "start": 1340.12,
+  "end": 1342.87,
+  "text": "product categories links so this way you"
+ },
+ {
+  "start": 1342.88,
+  "end": 1346.43,
+  "text": "can group all of your controls based on"
+ },
+ {
+  "start": 1346.44,
+  "end": 1348.669,
+  "text": "the type I mean whatever the way you"
+ },
+ {
+  "start": 1348.679,
+  "end": 1351.87,
+  "text": "want okay or if you want to again remove"
+ },
+ {
+  "start": 1351.88,
+  "end": 1354.11,
+  "text": "this control group right click and"
+ },
+ {
+  "start": 1354.12,
+  "end": 1357.669,
+  "text": "convert to separate X module attributes"
+ },
+ {
+  "start": 1357.679,
+  "end": 1360.11,
+  "text": "if you click on this again now all these"
+ },
+ {
+  "start": 1360.12,
+  "end": 1363.549,
+  "text": "are will be separated as normal"
+ },
+ {
+  "start": 1363.559,
+  "end": 1368.11,
+  "text": "controls these are not grouped right"
+ },
+ {
+  "start": 1368.12,
+  "end": 1371.63,
+  "text": "okay hope you all understand the"
+ },
+ {
+  "start": 1371.64,
+  "end": 1375.11,
+  "text": "concepts of identify controls by"
+ },
+ {
+  "start": 1375.12,
+  "end": 1377.23,
+  "text": "properties and as I explained you"
+ },
+ {
+  "start": 1377.24,
+  "end": 1379.59,
+  "text": "identify controls by specific properties"
+ },
+ {
+  "start": 1379.6,
+  "end": 1381.95,
+  "text": "a default identification method in Taska"
+ },
+ {
+  "start": 1381.96,
+  "end": 1384.59,
+  "text": "and also I showed you how can we use the"
+ },
+ {
+  "start": 1384.6,
+  "end": 1386.31,
+  "text": "properties multiple properties and"
+ },
+ {
+  "start": 1386.32,
+  "end": 1387.549,
+  "text": "identifying"
+ },
+ {
+  "start": 1387.559,
+  "end": 1391.549,
+  "text": "the control and also user properties"
+ },
+ {
+  "start": 1391.559,
+  "end": 1394.269,
+  "text": "that are necessary and stable so"
+ },
+ {
+  "start": 1394.279,
+  "end": 1396.19,
+  "text": "basically"
+ },
+ {
+  "start": 1396.2,
+  "end": 1399.669,
+  "text": "um using properties are necessary and"
+ },
+ {
+  "start": 1399.679,
+  "end": 1401.51,
+  "text": "stable so basically we need to use the"
+ },
+ {
+  "start": 1401.52,
+  "end": 1403.75,
+  "text": "properties sir sorry so there is a spell"
+ },
+ {
+  "start": 1403.76,
+  "end": 1405.909,
+  "text": "mistake okay we need to use the"
+ },
+ {
+  "start": 1405.919,
+  "end": 1408.029,
+  "text": "properties that are necessary and stable"
+ },
+ {
+  "start": 1408.039,
+  "end": 1410.789,
+  "text": "you need not to use n a number of"
+ },
+ {
+  "start": 1410.799,
+  "end": 1413.99,
+  "text": "properties because using multiple more"
+ },
+ {
+  "start": 1414.0,
+  "end": 1417.269,
+  "text": "properties takes uh more time in"
+ },
+ {
+  "start": 1417.279,
+  "end": 1420.789,
+  "text": "identifying the controls okay and also I"
+ },
+ {
+  "start": 1420.799,
+  "end": 1423.31,
+  "text": "showed you how to identify controls by"
+ },
+ {
+  "start": 1423.32,
+  "end": 1425.99,
+  "text": "anchor correct and also I showed you how"
+ },
+ {
+  "start": 1426.0,
+  "end": 1429.39,
+  "text": "to create control groups okay hope you"
+ },
+ {
+  "start": 1429.4,
+  "end": 1431.59,
+  "text": "all understand the concepts if you have"
+ },
+ {
+  "start": 1431.6,
+  "end": 1433.39,
+  "text": "any queries provide your queries in the"
+ },
+ {
+  "start": 1433.4,
+  "end": 1435.909,
+  "text": "comment box I'll try to respond thank"
+ },
+ {
+  "start": 1435.919,
+  "end": 1443.46,
+  "text": "you"
+ }
+]

@@ -1,0 +1,1632 @@
+[
+ {
+  "start": 13.99,
+  "end": 14.0,
+  "text": "hello everyone this is Ravi welcome to"
+ },
+ {
+  "start": 14.0,
+  "end": 17.95,
+  "text": "trienes tasa Advanced Training as you"
+ },
+ {
+  "start": 17.96,
+  "end": 21.47,
+  "text": "all know I already published around 55"
+ },
+ {
+  "start": 21.48,
+  "end": 24.87,
+  "text": "YouTube videos covering beginners level"
+ },
+ {
+  "start": 24.88,
+  "end": 28.589,
+  "text": "intermediate level and advanced level"
+ },
+ {
+  "start": 28.599,
+  "end": 31.109,
+  "text": "Concepts so from couple of videos"
+ },
+ {
+  "start": 31.119,
+  "end": 33.99,
+  "text": "onwards I've started teaching you the"
+ },
+ {
+  "start": 34.0,
+  "end": 37.59,
+  "text": "realtime scenarios where you might"
+ },
+ {
+  "start": 37.6,
+  "end": 40.79,
+  "text": "encounter different types of obstacles"
+ },
+ {
+  "start": 40.8,
+  "end": 44.389,
+  "text": "and challenges and how can we solve"
+ },
+ {
+  "start": 44.399,
+  "end": 47.63,
+  "text": "those obstacles by using tricentis"
+ },
+ {
+  "start": 47.64,
+  "end": 53.47,
+  "text": "Tas so this is our obstacle 14 in terms"
+ },
+ {
+  "start": 53.48,
+  "end": 57.15,
+  "text": "of real time scenarios and this is our"
+ },
+ {
+  "start": 57.16,
+  "end": 60.83,
+  "text": "lesson 56 in terms of overall Advanced"
+ },
+ {
+  "start": 60.84,
+  "end": 63.549,
+  "text": "Training please do subscribe to the"
+ },
+ {
+  "start": 63.559,
+  "end": 65.83,
+  "text": "channel click on Bell icon you'll"
+ },
+ {
+  "start": 65.84,
+  "end": 68.63,
+  "text": "receive notifications whenever I publish"
+ },
+ {
+  "start": 68.64,
+  "end": 72.31,
+  "text": "more videos please don't forget to like"
+ },
+ {
+  "start": 72.32,
+  "end": 75.789,
+  "text": "and share the video thank"
+ },
+ {
+  "start": 75.799,
+  "end": 79.27,
+  "text": "you in this lesson we're going to solve"
+ },
+ {
+  "start": 79.28,
+  "end": 80.149,
+  "text": "an"
+ },
+ {
+  "start": 80.159,
+  "end": 84.31,
+  "text": "obstacle by using the methods like"
+ },
+ {
+  "start": 84.32,
+  "end": 87.71,
+  "text": "capturing Dynamic date and using date"
+ },
+ {
+  "start": 87.72,
+  "end": 89.749,
+  "text": "expression to calculate the calendar"
+ },
+ {
+  "start": 89.759,
+  "end": 94.109,
+  "text": "date date so now let us go and see what"
+ },
+ {
+  "start": 94.119,
+  "end": 99.95,
+  "text": "is the obstacle that we need to solve"
+ },
+ {
+  "start": 104.91,
+  "end": 104.92,
+  "text": "for so here is an obstacle named as"
+ },
+ {
+  "start": 104.92,
+  "end": 108.429,
+  "text": "confusing dates and it is categorized as"
+ },
+ {
+  "start": 108.439,
+  "end": 111.03,
+  "text": "medium let us go for"
+ },
+ {
+  "start": 111.04,
+  "end": 114.51,
+  "text": "it let's see what's the obstacle so we"
+ },
+ {
+  "start": 114.52,
+  "end": 117.31,
+  "text": "are going to generate a new date in the"
+ },
+ {
+  "start": 117.32,
+  "end": 120.59,
+  "text": "US format by pressing the calendar"
+ },
+ {
+  "start": 120.6,
+  "end": 122.91,
+  "text": "button this is our calendar button as"
+ },
+ {
+  "start": 122.92,
+  "end": 125.83,
+  "text": "soon as you press this it generates a"
+ },
+ {
+  "start": 125.84,
+  "end": 130.91,
+  "text": "dynamic date in US format month date"
+ },
+ {
+  "start": 130.92,
+  "end": 135.55,
+  "text": "year then use TSA base functions to"
+ },
+ {
+  "start": 135.56,
+  "end": 139.589,
+  "text": "calculate the first of the second"
+ },
+ {
+  "start": 139.599,
+  "end": 143.79,
+  "text": "following month of the generated"
+ },
+ {
+  "start": 143.8,
+  "end": 147.949,
+  "text": "date so the new date that has to be"
+ },
+ {
+  "start": 147.959,
+  "end": 151.91,
+  "text": "entered in the edit box"
+ },
+ {
+  "start": 151.92,
+  "end": 155.75,
+  "text": "here has to have the iso"
+ },
+ {
+  "start": 155.76,
+  "end": 160.07,
+  "text": "format for example your initial date is"
+ },
+ {
+  "start": 160.08,
+  "end": 162.43,
+  "text": "December 24"
+ },
+ {
+  "start": 162.44,
+  "end": 166.27,
+  "text": "2015 then you need to calculate the"
+ },
+ {
+  "start": 166.28,
+  "end": 168.71,
+  "text": "first of the second following month if"
+ },
+ {
+  "start": 168.72,
+  "end": 170.71,
+  "text": "you see here what is your second"
+ },
+ {
+  "start": 170.72,
+  "end": 172.79,
+  "text": "following month your second following"
+ },
+ {
+  "start": 172.8,
+  "end": 173.589,
+  "text": "month"
+ },
+ {
+  "start": 173.599,
+  "end": 175.11,
+  "text": "is"
+ },
+ {
+  "start": 175.12,
+  "end": 178.509,
+  "text": "February"
+ },
+ {
+  "start": 180.949,
+  "end": 180.959,
+  "text": "2016 right"
+ },
+ {
+  "start": 180.959,
+  "end": 184.27,
+  "text": "first of your second following month and"
+ },
+ {
+  "start": 184.28,
+  "end": 186.35,
+  "text": "first of the second following month that"
+ },
+ {
+  "start": 186.36,
+  "end": 190.03,
+  "text": "means first day of your second following"
+ },
+ {
+  "start": 190.04,
+  "end": 193.229,
+  "text": "month which is which is February"
+ },
+ {
+  "start": 193.239,
+  "end": 196.63,
+  "text": "2016 for example in this case this is"
+ },
+ {
+  "start": 196.64,
+  "end": 199.149,
+  "text": "25th January"
+ },
+ {
+  "start": 199.159,
+  "end": 203.07,
+  "text": "2028 what is your second following month"
+ },
+ {
+  "start": 203.08,
+  "end": 205.63,
+  "text": "your second following month is"
+ },
+ {
+  "start": 205.64,
+  "end": 208.47,
+  "text": "March what is your first day of March"
+ },
+ {
+  "start": 208.48,
+  "end": 210.429,
+  "text": "which is 01"
+ },
+ {
+  "start": 210.439,
+  "end": 214.229,
+  "text": "that means this becomes"
+ },
+ {
+  "start": 214.239,
+  "end": 219.55,
+  "text": "2028 which is in ISO format okay 2028"
+ },
+ {
+  "start": 219.56,
+  "end": 222.149,
+  "text": "hyphen March which is"
+ },
+ {
+  "start": 222.159,
+  "end": 226.509,
+  "text": "03 and what is your first day of March"
+ },
+ {
+  "start": 226.519,
+  "end": 231.63,
+  "text": "01 then you need to click on this button"
+ },
+ {
+  "start": 231.64,
+  "end": 234.11,
+  "text": "if it is correct yes you solve this"
+ },
+ {
+  "start": 234.12,
+  "end": 236.19,
+  "text": "automation problem"
+ },
+ {
+  "start": 236.2,
+  "end": 238.71,
+  "text": "successfully okay so whenever I click on"
+ },
+ {
+  "start": 238.72,
+  "end": 240.39,
+  "text": "let me try again"
+ },
+ {
+  "start": 240.4,
+  "end": 242.39,
+  "text": "so whenever you click this calendar"
+ },
+ {
+  "start": 242.4,
+  "end": 246.949,
+  "text": "button this date keeps changing now how"
+ },
+ {
+  "start": 246.959,
+  "end": 249.27,
+  "text": "can we solve this obstacle we have to"
+ },
+ {
+  "start": 249.28,
+  "end": 253.589,
+  "text": "see so let us go back to our prent"
+ },
+ {
+  "start": 253.599,
+  "end": 258.03,
+  "text": "St and as you all know we have we are"
+ },
+ {
+  "start": 258.04,
+  "end": 260.749,
+  "text": "capturing all the objects pertaining to"
+ },
+ {
+  "start": 260.759,
+  "end": 264.15,
+  "text": "each obstacle under obstacles folder so"
+ },
+ {
+  "start": 264.16,
+  "end": 266.31,
+  "text": "again I'm going to right click on this"
+ },
+ {
+  "start": 266.32,
+  "end": 282.27,
+  "text": "obstacles folder select scan and select"
+ },
+ {
+  "start": 284.39,
+  "end": 284.4,
+  "text": "application so this is the application"
+ },
+ {
+  "start": 284.4,
+  "end": 287.27,
+  "text": "that I would like to capture select the"
+ },
+ {
+  "start": 287.28,
+  "end": 296.99,
+  "text": "application click on"
+ },
+ {
+  "start": 300.71,
+  "end": 300.72,
+  "text": "scan now what we need to cap apture we"
+ },
+ {
+  "start": 300.72,
+  "end": 303.39,
+  "text": "need to capture the"
+ },
+ {
+  "start": 303.4,
+  "end": 308.71,
+  "text": "object two buttons calendar button"
+ },
+ {
+  "start": 308.72,
+  "end": 313.95,
+  "text": "submission button right and then this"
+ },
+ {
+  "start": 313.96,
+  "end": 317.35,
+  "text": "date field and this edit box so total"
+ },
+ {
+  "start": 317.36,
+  "end": 318.35,
+  "text": "four"
+ },
+ {
+  "start": 318.36,
+  "end": 321.51,
+  "text": "objects two buttons that means this is"
+ },
+ {
+  "start": 321.52,
+  "end": 327.029,
+  "text": "one button where I'm generating the date"
+ },
+ {
+  "start": 327.039,
+  "end": 330.67,
+  "text": "and this is my second button where I'm"
+ },
+ {
+  "start": 330.68,
+  "end": 334.189,
+  "text": "submitting once I enter the date and"
+ },
+ {
+  "start": 334.199,
+  "end": 337.95,
+  "text": "this is the date where I'm generating"
+ },
+ {
+  "start": 337.96,
+  "end": 341.59,
+  "text": "the date correct the date field where"
+ },
+ {
+  "start": 341.6,
+  "end": 343.99,
+  "text": "the date is gener where the date is"
+ },
+ {
+  "start": 344.0,
+  "end": 346.51,
+  "text": "generating and then"
+ },
+ {
+  "start": 346.52,
+  "end": 350.469,
+  "text": "I'm entering the date after solving the"
+ },
+ {
+  "start": 350.479,
+  "end": 353.39,
+  "text": "problem which is date solution so two"
+ },
+ {
+  "start": 353.4,
+  "end": 358.35,
+  "text": "buttons to edit boxes okay now let us"
+ },
+ {
+  "start": 358.36,
+  "end": 361.51,
+  "text": "rename this module as has obstacle name"
+ },
+ {
+  "start": 361.52,
+  "end": 365.51,
+  "text": "let's go back here this is my obstacle"
+ },
+ {
+  "start": 365.52,
+  "end": 370.629,
+  "text": "name copy this and then rename this"
+ },
+ {
+  "start": 370.639,
+  "end": 372.95,
+  "text": "module so it is important to rename the"
+ },
+ {
+  "start": 372.96,
+  "end": 376.23,
+  "text": "module now save"
+ },
+ {
+  "start": 376.24,
+  "end": 380.67,
+  "text": "your objects click on"
+ },
+ {
+  "start": 380.68,
+  "end": 385.07,
+  "text": "Save and then close your xcan so let's"
+ },
+ {
+  "start": 385.08,
+  "end": 388.15,
+  "text": "go back to tr and tasa if you see here"
+ },
+ {
+  "start": 388.16,
+  "end": 391.15,
+  "text": "if you scroll down this is my latest"
+ },
+ {
+  "start": 391.16,
+  "end": 393.79,
+  "text": "obstacle double click on this so you"
+ },
+ {
+  "start": 393.8,
+  "end": 397.909,
+  "text": "should see two buttons two edit boxes"
+ },
+ {
+  "start": 397.919,
+  "end": 400.83,
+  "text": "right so now let us go to left side of"
+ },
+ {
+  "start": 400.84,
+  "end": 404.07,
+  "text": "the section which is blue section test"
+ },
+ {
+  "start": 404.08,
+  "end": 406.51,
+  "text": "case section here let's right click on"
+ },
+ {
+  "start": 406.52,
+  "end": 409.43,
+  "text": "this obstacles folder create a new test"
+ },
+ {
+  "start": 409.44,
+  "end": 413.67,
+  "text": "case name with the same name of your"
+ },
+ {
+  "start": 413.68,
+  "end": 415.83,
+  "text": "obstacle double click on this particular"
+ },
+ {
+  "start": 415.84,
+  "end": 418.79,
+  "text": "test case now how can we solve this one"
+ },
+ {
+  "start": 418.8,
+  "end": 422.15,
+  "text": "let's go back to our"
+ },
+ {
+  "start": 425.15,
+  "end": 425.16,
+  "text": "presentation so first we need to create"
+ },
+ {
+  "start": 425.16,
+  "end": 427.189,
+  "text": "configuration parameters let's go back"
+ },
+ {
+  "start": 427.199,
+  "end": 430.629,
+  "text": "here now let's automate the test case to"
+ },
+ {
+  "start": 430.639,
+  "end": 432.629,
+  "text": "automate your test case we need to drag"
+ },
+ {
+  "start": 432.639,
+  "end": 435.83,
+  "text": "this module and drop onto your test"
+ },
+ {
+  "start": 435.84,
+  "end": 439.43,
+  "text": "case so before we populate the values in"
+ },
+ {
+  "start": 439.44,
+  "end": 442.15,
+  "text": "the test case we need to do two things"
+ },
+ {
+  "start": 442.16,
+  "end": 444.27,
+  "text": "we have to create configuration"
+ },
+ {
+  "start": 444.28,
+  "end": 447.71,
+  "text": "parameters for the date fields for this"
+ },
+ {
+  "start": 447.72,
+  "end": 449.83,
+  "text": "field and for this field okay okay let's"
+ },
+ {
+  "start": 449.84,
+  "end": 452.27,
+  "text": "go back here for that you need to go to"
+ },
+ {
+  "start": 452.28,
+  "end": 454.15,
+  "text": "your module"
+ },
+ {
+  "start": 454.16,
+  "end": 457.55,
+  "text": "section open the properties of the"
+ },
+ {
+  "start": 457.56,
+  "end": 461.309,
+  "text": "module this is my first date generated"
+ },
+ {
+  "start": 461.319,
+  "end": 465.309,
+  "text": "field here I need to create a new"
+ },
+ {
+  "start": 465.319,
+  "end": 466.869,
+  "text": "configuration"
+ },
+ {
+  "start": 466.879,
+  "end": 472.189,
+  "text": "parameter to instruct TSA that my target"
+ },
+ {
+  "start": 472.199,
+  "end": 476.11,
+  "text": "date format is this okay for that right"
+ },
+ {
+  "start": 476.12,
+  "end": 478.189,
+  "text": "click on this particular"
+ },
+ {
+  "start": 478.199,
+  "end": 480.029,
+  "text": "module and"
+ },
+ {
+  "start": 480.039,
+  "end": 483.23,
+  "text": "select create configuration"
+ },
+ {
+  "start": 483.24,
+  "end": 487.67,
+  "text": "parameter now name this as"
+ },
+ {
+  "start": 487.68,
+  "end": 489.23,
+  "text": "Target"
+ },
+ {
+  "start": 489.24,
+  "end": 492.43,
+  "text": "date format so you need to make sure"
+ },
+ {
+  "start": 492.44,
+  "end": 494.869,
+  "text": "that the capital letters small letters"
+ },
+ {
+  "start": 494.879,
+  "end": 498.309,
+  "text": "everything matches as it is Target date"
+ },
+ {
+  "start": 498.319,
+  "end": 501.869,
+  "text": "format okay let's go back to our"
+ },
+ {
+  "start": 501.879,
+  "end": 505.27,
+  "text": "presentation Target date format what is"
+ },
+ {
+  "start": 505.28,
+  "end": 510.309,
+  "text": "the format my format is MD y y y so here"
+ },
+ {
+  "start": 510.319,
+  "end": 513.79,
+  "text": "I'm going to mention this"
+ },
+ {
+  "start": 516.23,
+  "end": 516.24,
+  "text": "as"
+ },
+ {
+  "start": 516.24,
+  "end": 526.75,
+  "text": "M SL d slash y y y y y y y m d y y y y"
+ },
+ {
+  "start": 526.76,
+  "end": 531.87,
+  "text": "okay so this is my format and then again"
+ },
+ {
+  "start": 531.88,
+  "end": 534.55,
+  "text": "the same we need to apply for date"
+ },
+ {
+  "start": 534.56,
+  "end": 539.67,
+  "text": "solution which is this one right so here"
+ },
+ {
+  "start": 539.68,
+  "end": 542.15,
+  "text": "here I've selected date"
+ },
+ {
+  "start": 542.16,
+  "end": 544.19,
+  "text": "solution right"
+ },
+ {
+  "start": 544.2,
+  "end": 549.949,
+  "text": "click create configuration"
+ },
+ {
+  "start": 555.19,
+  "end": 555.2,
+  "text": "Target"
+ },
+ {
+  "start": 555.2,
+  "end": 557.91,
+  "text": "date format you need to make sure the"
+ },
+ {
+  "start": 557.92,
+  "end": 562.67,
+  "text": "spelling okay Target date format and now"
+ },
+ {
+  "start": 562.68,
+  "end": 565.03,
+  "text": "what is the target date"
+ },
+ {
+  "start": 565.04,
+  "end": 566.829,
+  "text": "format"
+ },
+ {
+  "start": 566.839,
+  "end": 569.829,
+  "text": "M slash d/"
+ },
+ {
+  "start": 569.839,
+  "end": 571.63,
+  "text": "y y y"
+ },
+ {
+  "start": 571.64,
+  "end": 573.269,
+  "text": "y"
+ },
+ {
+  "start": 573.279,
+  "end": 578.63,
+  "text": "so I have defined a standard date format"
+ },
+ {
+  "start": 578.64,
+  "end": 581.11,
+  "text": "for these two date"
+ },
+ {
+  "start": 581.12,
+  "end": 585.23,
+  "text": "fields okay so once that is done what we"
+ },
+ {
+  "start": 585.24,
+  "end": 589.11,
+  "text": "need to do now let's go back to our test"
+ },
+ {
+  "start": 589.12,
+  "end": 593.829,
+  "text": "case start automating your test case"
+ },
+ {
+  "start": 593.839,
+  "end": 597.47,
+  "text": "here first you need to click on your"
+ },
+ {
+  "start": 597.48,
+  "end": 599.949,
+  "text": "button correct to click click on the"
+ },
+ {
+  "start": 599.959,
+  "end": 603.15,
+  "text": "button what we have to do we have to"
+ },
+ {
+  "start": 603.16,
+  "end": 607.15,
+  "text": "Simply select click here click operation"
+ },
+ {
+  "start": 607.16,
+  "end": 609.949,
+  "text": "click operation your action mode should"
+ },
+ {
+  "start": 609.959,
+  "end": 616.15,
+  "text": "be input okay then date generated here"
+ },
+ {
+  "start": 616.16,
+  "end": 619.829,
+  "text": "what we need to do we need"
+ },
+ {
+  "start": 619.839,
+  "end": 624.55,
+  "text": "to capture or we need to store the date"
+ },
+ {
+  "start": 624.56,
+  "end": 627.79,
+  "text": "that is generated here this date I would"
+ },
+ {
+  "start": 627.8,
+  "end": 630.31,
+  "text": "like to store into a buffer first"
+ },
+ {
+  "start": 630.32,
+  "end": 636.15,
+  "text": "for that what I'm going to do here inner"
+ },
+ {
+  "start": 636.16,
+  "end": 642.43,
+  "text": "text I'm going to name this as"
+ },
+ {
+  "start": 645.15,
+  "end": 645.16,
+  "text": "generated date this is my"
+ },
+ {
+  "start": 645.16,
+  "end": 647.949,
+  "text": "buffer I'm capturing the I'm capturing"
+ },
+ {
+  "start": 647.959,
+  "end": 651.71,
+  "text": "the inner text of that particular field"
+ },
+ {
+  "start": 651.72,
+  "end": 656.43,
+  "text": "into a buffer your action mode should be"
+ },
+ {
+  "start": 656.44,
+  "end": 660.31,
+  "text": "buffer now I captured the inner text"
+ },
+ {
+  "start": 660.32,
+  "end": 662.43,
+  "text": "into your buffer called generated date"
+ },
+ {
+  "start": 662.44,
+  "end": 664.71,
+  "text": "and then what we need to do and then"
+ },
+ {
+  "start": 664.72,
+  "end": 666.069,
+  "text": "what we need to"
+ },
+ {
+  "start": 666.079,
+  "end": 671.15,
+  "text": "do we need to use a date"
+ },
+ {
+  "start": 671.16,
+  "end": 676.59,
+  "text": "expression to calculate the first day"
+ },
+ {
+  "start": 676.6,
+  "end": 681.71,
+  "text": "of second month of the generated date"
+ },
+ {
+  "start": 681.72,
+  "end": 684.35,
+  "text": "how can we do that here let's go back"
+ },
+ {
+  "start": 684.36,
+  "end": 687.59,
+  "text": "here because we already captured the"
+ },
+ {
+  "start": 687.6,
+  "end": 689.91,
+  "text": "generated date into a buffer"
+ },
+ {
+  "start": 689.92,
+  "end": 694.79,
+  "text": "so here what I'm going to do open curly"
+ },
+ {
+  "start": 694.8,
+  "end": 699.31,
+  "text": "braces and then month first there is a"
+ },
+ {
+  "start": 699.32,
+  "end": 701.35,
+  "text": "method called month"
+ },
+ {
+  "start": 701.36,
+  "end": 707.15,
+  "text": "first month first of your buffer what is"
+ },
+ {
+  "start": 707.16,
+  "end": 710.87,
+  "text": "this the current date that is generated"
+ },
+ {
+  "start": 710.88,
+  "end": 712.91,
+  "text": "again open curly"
+ },
+ {
+  "start": 712.92,
+  "end": 714.79,
+  "text": "braces capital"
+ },
+ {
+  "start": 714.8,
+  "end": 717.23,
+  "text": "B open Square"
+ },
+ {
+  "start": 717.24,
+  "end": 720.03,
+  "text": "braces generated"
+ },
+ {
+  "start": 720.04,
+  "end": 722.23,
+  "text": "date this is my"
+ },
+ {
+  "start": 722.24,
+  "end": 725.949,
+  "text": "buffer close Square braces close curly"
+ },
+ {
+  "start": 725.959,
+  "end": 730.03,
+  "text": "braces now I'm calculating the month"
+ },
+ {
+  "start": 730.04,
+  "end": 733.829,
+  "text": "first of the generated date but I don't"
+ },
+ {
+  "start": 733.839,
+  "end": 736.269,
+  "text": "want to calculate the first day of the"
+ },
+ {
+  "start": 736.279,
+  "end": 738.629,
+  "text": "generated date I want to calculate the"
+ },
+ {
+  "start": 738.639,
+  "end": 742.59,
+  "text": "first day of second month of the"
+ },
+ {
+  "start": 742.6,
+  "end": 744.71,
+  "text": "generated date for that what I'm going"
+ },
+ {
+  "start": 744.72,
+  "end": 751.189,
+  "text": "to do here to add so if you see here"
+ },
+ {
+  "start": 755.91,
+  "end": 755.92,
+  "text": "to add month to the current date we need"
+ },
+ {
+  "start": 755.92,
+  "end": 759.59,
+  "text": "to Simply use Square"
+ },
+ {
+  "start": 759.6,
+  "end": 765.949,
+  "text": "braces plus 2 m I'm adding 2 months for"
+ },
+ {
+  "start": 765.959,
+  "end": 769.35,
+  "text": "this particular generated date and then"
+ },
+ {
+  "start": 769.36,
+  "end": 772.35,
+  "text": "here I need to specify the date"
+ },
+ {
+  "start": 772.36,
+  "end": 776.71,
+  "text": "format in which I would like to enter"
+ },
+ {
+  "start": 776.72,
+  "end": 779.59,
+  "text": "the date what is the date format my date"
+ },
+ {
+  "start": 779.6,
+  "end": 788.31,
+  "text": "format is y y y y iph mm hyph DD so"
+ },
+ {
+  "start": 794.47,
+  "end": 794.48,
+  "text": "here double quote y y y y hyphen mm"
+ },
+ {
+  "start": 794.48,
+  "end": 799.829,
+  "text": "hyphen DD double clo now close your"
+ },
+ {
+  "start": 799.839,
+  "end": 800.99,
+  "text": "curly"
+ },
+ {
+  "start": 801.0,
+  "end": 803.91,
+  "text": "braces I'm doing closing the curly Braes"
+ },
+ {
+  "start": 803.92,
+  "end": 808.71,
+  "text": "of this first month so now click on some"
+ },
+ {
+  "start": 808.72,
+  "end": 811.55,
+  "text": "other place it should turn into so it"
+ },
+ {
+  "start": 811.56,
+  "end": 813.389,
+  "text": "did not turn means that means there is"
+ },
+ {
+  "start": 813.399,
+  "end": 816.509,
+  "text": "some problem in our code base okay so"
+ },
+ {
+  "start": 816.519,
+  "end": 818.71,
+  "text": "here we forgot"
+ },
+ {
+  "start": 818.72,
+  "end": 822.629,
+  "text": "to close another Square braces okay so"
+ },
+ {
+  "start": 822.639,
+  "end": 825.829,
+  "text": "here month first we need to start with"
+ },
+ {
+  "start": 825.839,
+  "end": 828.59,
+  "text": "the square braces basically month first"
+ },
+ {
+  "start": 828.6,
+  "end": 832.55,
+  "text": "open Square brace and your buffer right"
+ },
+ {
+  "start": 832.56,
+  "end": 837.629,
+  "text": "plus 2 months and then you are closing"
+ },
+ {
+  "start": 837.639,
+  "end": 840.949,
+  "text": "your Square braces for this one so now"
+ },
+ {
+  "start": 840.959,
+  "end": 844.269,
+  "text": "it should turn into this format okay so"
+ },
+ {
+  "start": 844.279,
+  "end": 848.509,
+  "text": "what I'm doing I'm calculating the first"
+ },
+ {
+  "start": 848.519,
+  "end": 850.509,
+  "text": "day of the"
+ },
+ {
+  "start": 850.519,
+  "end": 852.91,
+  "text": "month what"
+ },
+ {
+  "start": 852.92,
+  "end": 858.269,
+  "text": "month your generated date plus 2 months"
+ },
+ {
+  "start": 858.279,
+  "end": 863.43,
+  "text": "and I'm using the format of iso format"
+ },
+ {
+  "start": 863.44,
+  "end": 866.99,
+  "text": "that is what I'm calculating"
+ },
+ {
+  "start": 867.0,
+  "end": 869.87,
+  "text": "here and then I'm entering the"
+ },
+ {
+  "start": 869.88,
+  "end": 872.67,
+  "text": "calculated value in this particular date"
+ },
+ {
+  "start": 872.68,
+  "end": 875.069,
+  "text": "solution field now let me show you see"
+ },
+ {
+  "start": 875.079,
+  "end": 878.55,
+  "text": "here open curly braces month first see"
+ },
+ {
+  "start": 878.56,
+  "end": 881.749,
+  "text": "here month first what is the definition"
+ },
+ {
+  "start": 881.759,
+  "end": 885.629,
+  "text": "let me show you the definition is month"
+ },
+ {
+  "start": 885.639,
+  "end": 891.11,
+  "text": "first date this is your date and then"
+ },
+ {
+  "start": 891.12,
+  "end": 893.87,
+  "text": "you can use your offset do you want to"
+ },
+ {
+  "start": 893.88,
+  "end": 895.829,
+  "text": "add one month or do you want to add a"
+ },
+ {
+  "start": 895.839,
+  "end": 898.31,
+  "text": "day right and then you can specify the"
+ },
+ {
+  "start": 898.32,
+  "end": 902.87,
+  "text": "format of your date so same thing now"
+ },
+ {
+  "start": 902.88,
+  "end": 905.87,
+  "text": "once that is done so now you need to"
+ },
+ {
+  "start": 905.88,
+  "end": 908.79,
+  "text": "click on your button which button this"
+ },
+ {
+  "start": 908.8,
+  "end": 912.11,
+  "text": "button I have already entered the"
+ },
+ {
+  "start": 912.12,
+  "end": 915.15,
+  "text": "date first of the second following month"
+ },
+ {
+  "start": 915.16,
+  "end": 917.749,
+  "text": "of your generated date that I entered in"
+ },
+ {
+  "start": 917.759,
+  "end": 919.949,
+  "text": "this particular text box now click on"
+ },
+ {
+  "start": 919.959,
+  "end": 926.23,
+  "text": "this particular button here select"
+ },
+ {
+  "start": 926.24,
+  "end": 929.829,
+  "text": "click now say"
+ },
+ {
+  "start": 929.839,
+  "end": 932.55,
+  "text": "save now change the work state of your"
+ },
+ {
+  "start": 932.56,
+  "end": 934.389,
+  "text": "test case to"
+ },
+ {
+  "start": 934.399,
+  "end": 938.71,
+  "text": "completed now save the test case so let"
+ },
+ {
+  "start": 938.72,
+  "end": 941.03,
+  "text": "us run this particular test case and see"
+ },
+ {
+  "start": 941.04,
+  "end": 948.829,
+  "text": "what happens right click run in"
+ },
+ {
+  "start": 951.79,
+  "end": 951.8,
+  "text": "scratchbook see it generated the date it"
+ },
+ {
+  "start": 951.8,
+  "end": 953.069,
+  "text": "entered the"
+ },
+ {
+  "start": 953.079,
+  "end": 956.829,
+  "text": "date C done"
+ },
+ {
+  "start": 956.839,
+  "end": 959.43,
+  "text": "submit there is something wrong that we"
+ },
+ {
+  "start": 959.44,
+  "end": 962.509,
+  "text": "are doing"
+ },
+ {
+  "start": 962.519,
+  "end": 965.269,
+  "text": "20277 instead"
+ },
+ {
+  "start": 965.279,
+  "end": 968.03,
+  "text": "of okay so it is calculating wrongly"
+ },
+ {
+  "start": 968.04,
+  "end": 970.35,
+  "text": "let's go back here now let's go back"
+ },
+ {
+  "start": 970.36,
+  "end": 974.35,
+  "text": "here and see what wrong that we are"
+ },
+ {
+  "start": 974.36,
+  "end": 976.629,
+  "text": "doing okay so now I understand what is"
+ },
+ {
+  "start": 976.639,
+  "end": 978.629,
+  "text": "the mistake what we are doing here so we"
+ },
+ {
+  "start": 978.639,
+  "end": 980.43,
+  "text": "need not to consider inner text"
+ },
+ {
+  "start": 980.44,
+  "end": 982.189,
+  "text": "basically what you can do is you can"
+ },
+ {
+  "start": 982.199,
+  "end": 985.55,
+  "text": "simply specify the buffer means this"
+ },
+ {
+  "start": 985.56,
+  "end": 988.189,
+  "text": "your edit box right so that's why you"
+ },
+ {
+  "start": 988.199,
+  "end": 991.23,
+  "text": "can simply this date generated you can"
+ },
+ {
+  "start": 991.24,
+  "end": 993.67,
+  "text": "specify the buffer here and then enter"
+ },
+ {
+  "start": 993.68,
+  "end": 996.35,
+  "text": "the buffer name and also what we are"
+ },
+ {
+  "start": 996.36,
+  "end": 999.629,
+  "text": "doing here right so because this is your"
+ },
+ {
+  "start": 999.639,
+  "end": 1003.79,
+  "text": "date it is not a text or string so your"
+ },
+ {
+  "start": 1003.8,
+  "end": 1007.15,
+  "text": "data type should be date so we should"
+ },
+ {
+  "start": 1007.16,
+  "end": 1008.309,
+  "text": "not"
+ },
+ {
+  "start": 1008.319,
+  "end": 1011.99,
+  "text": "forget you need to store the value of"
+ },
+ {
+  "start": 1012.0,
+  "end": 1015.87,
+  "text": "this particular edit box right directly"
+ },
+ {
+  "start": 1015.88,
+  "end": 1017.15,
+  "text": "into your"
+ },
+ {
+  "start": 1017.16,
+  "end": 1022.829,
+  "text": "buffer in the data type date save this"
+ },
+ {
+  "start": 1022.839,
+  "end": 1025.669,
+  "text": "now let us run this particular test case"
+ },
+ {
+  "start": 1025.679,
+  "end": 1028.75,
+  "text": "again right click and run the test case"
+ },
+ {
+  "start": 1028.76,
+  "end": 1034.909,
+  "text": "in"
+ },
+ {
+  "start": 1037.429,
+  "end": 1037.439,
+  "text": "scratchbook it generated a date it"
+ },
+ {
+  "start": 1037.439,
+  "end": 1038.71,
+  "text": "entered the"
+ },
+ {
+  "start": 1038.72,
+  "end": 1040.429,
+  "text": "date"
+ },
+ {
+  "start": 1040.439,
+  "end": 1043.59,
+  "text": "successfully completed if you see here"
+ },
+ {
+  "start": 1043.6,
+  "end": 1046.27,
+  "text": "what date we it"
+ },
+ {
+  "start": 1046.28,
+  "end": 1049.47,
+  "text": "calculated 3rd of April"
+ },
+ {
+  "start": 1049.48,
+  "end": 1051.669,
+  "text": "what is your second month from the April"
+ },
+ {
+  "start": 1051.679,
+  "end": 1055.549,
+  "text": "which is June May June and what is the"
+ },
+ {
+  "start": 1055.559,
+  "end": 1057.83,
+  "text": "first day which is 01 and what is the"
+ },
+ {
+  "start": 1057.84,
+  "end": 1062.75,
+  "text": "format ISO format so your automation"
+ },
+ {
+  "start": 1062.76,
+  "end": 1064.31,
+  "text": "problem"
+ },
+ {
+  "start": 1064.32,
+  "end": 1066.71,
+  "text": "solved so if you have any queries leave"
+ },
+ {
+  "start": 1066.72,
+  "end": 1068.43,
+  "text": "your queries in the comment box I'll try"
+ },
+ {
+  "start": 1068.44,
+  "end": 1072.59,
+  "text": "to respond to your queries hope you all"
+ },
+ {
+  "start": 1072.6,
+  "end": 1075.83,
+  "text": "understand the concept where you need to"
+ },
+ {
+  "start": 1075.84,
+  "end": 1079.31,
+  "text": "solve for you need to solve for for an"
+ },
+ {
+  "start": 1079.32,
+  "end": 1083.95,
+  "text": "obstacle where we have to use TSA base"
+ },
+ {
+  "start": 1083.96,
+  "end": 1088.31,
+  "text": "functions to calculate the first day of"
+ },
+ {
+  "start": 1088.32,
+  "end": 1091.71,
+  "text": "the second following month of the"
+ },
+ {
+  "start": 1091.72,
+  "end": 1095.75,
+  "text": "generated date in the date field and"
+ },
+ {
+  "start": 1095.76,
+  "end": 1099.149,
+  "text": "then the newly calculated date we have"
+ },
+ {
+  "start": 1099.159,
+  "end": 1103.029,
+  "text": "to enter into an editable text box so"
+ },
+ {
+  "start": 1103.039,
+  "end": 1105.909,
+  "text": "here we are using our Dynamic date"
+ },
+ {
+  "start": 1105.919,
+  "end": 1108.789,
+  "text": "expressions and we are calculating the"
+ },
+ {
+  "start": 1108.799,
+  "end": 1110.149,
+  "text": "calendar"
+ },
+ {
+  "start": 1110.159,
+  "end": 1113.71,
+  "text": "date please do subscribe to the channel"
+ },
+ {
+  "start": 1113.72,
+  "end": 1115.63,
+  "text": "click on Bell icon you'll receive"
+ },
+ {
+  "start": 1115.64,
+  "end": 1118.07,
+  "text": "notifications whenever I publish more"
+ },
+ {
+  "start": 1118.08,
+  "end": 1121.39,
+  "text": "videos don't forget to like and share"
+ },
+ {
+  "start": 1121.4,
+  "end": 1129.73,
+  "text": "the video thank you"
+ }
+]

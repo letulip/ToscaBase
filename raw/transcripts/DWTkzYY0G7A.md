@@ -1,0 +1,38 @@
+---
+id: "DWTkzYY0G7A"
+title: "TRICENTIS Tosca 16.0 - Lesson 20 | Recovery Scenarios | Recovery Scenarios TestCase &TestStep Level"
+url: "https://www.youtube.com/watch?v=DWTkzYY0G7A"
+channel: "Ravikanth FicusRoot - Tech Videos"
+playlist: "TRICENTIS Tosca Automation Tutorial"
+playlist_index: 21
+duration: 675
+upload_date: "20230310"
+source: "youtube-subs"
+language: "en"
+transcribed_at: "2026-09-04T14:22:26Z"
+status: "raw"
+---
+
+# TRICENTIS Tosca 16.0 - Lesson 20 | Recovery Scenarios | Recovery Scenarios TestCase &TestStep Level
+
+[00:01] foreign hi everyone this is Ravi welcome to try sentence Tasker advanced level training so this is our lesson 5 in terms of advanced level training and it's a lesson 20 in terms of overall price and testoster automation Concepts so in this lesson I'm gonna teach you a very important concept called a recovery scenarios so please do subscribe to the channel click on Bell icon you'll receive notifications whenever I publish more videos thank you okay so let us understand what is recovery scenario so recovery scenario it's an instructions that tell Tosca what to do in order to recover a test case that
+
+[01:03] might have failed while running a test during final execution so if recovery scenario is run successfully Tasker will retry test case according to the retry level set that means if recovery scenario is successfully run right then Tosca will retry the test case according to the retry level set if recovery scenario fails then Tosca will go to the next recovery scenario available and Recovery scenario can be added to recovery scenario collection which can be added anywhere within the test case section so basically the retry level whatever you set at the recovery scenario level is at test case level or you can set a test set test step level or you can set a test step value
+
+[02:05] level that means in case the test case fails then the recovery scenario will trigger and then it can run your entire test case again or it can run a particular test step again or it can run a test step value again so there are three levels where you can basically set your retry level okay now let's jump onto the system and see how can you create recovery scenarios in Tosca and then how can we use them in automating our test cases okay so this is my transientist task 16 right so if you see in the left side under test case section there is an exercise folder okay so all these
+
+[03:05] folders it comes along with the um TSU file that you have downloaded in earlier session right in earlier session what we did we have downloaded a TSU file um let me show you that okay we have downloaded a TSC file called this one additional material right additional material base dot TSU so this once you download this you will get all these predefined test cases okay so for this you need to go to your recovery scenarios under recovery scenarios you will find login and logout okay so what does this test case so this test case simply logs in to the FIB this uh demo webshop it performs login activity and then by entering the username and password okay and then it logs out wait for again
+
+[04:09] login link and close the webshop so it's simple login and logout functionality that we are verifying as part of this test case okay so now I want to introduce a recovery scenario for this test case automated test case okay for that right click and you need to select recovery scenario collection create recovery select scenario collection click on this and under recovery scenario collection create a recovery scenario so this is your recovery scenario create recovery scenario okay so under recovery scenario I'm gonna add a three modules okay first one is I need to add top menu okay top menu and let me name this as
+
+[05:17] and then the next one is again let's call the same top menu one more time and name this as weight until login wait until logout logged out wait until logged out okay and then standard I'm going to call a standard um module close browser okay and then let's enter the values so I want to perform log out and then I want to wait for login right to appear on the screen so for that I need to select visible equal to true you have to wait until it is visible so
+
+[06:19] select action mode as waiter and here title of your window to be closed is demo so what I am doing here so I've created One recovery scenario for this login logout test case why why I have created recovery scenario for this login logo test case let me explain see when I am executing the automated test case where I am actually validating the functionality of login and then log out right so there for example if your browser what if your browser are your webshop is already logged in if my webshop is already logged in if I run this test case then my test case is going to fail because it is not able to find out login link because I already logged in it finds out the logout but not the login
+
+[07:20] but in this test case first you are logging in right so now I want to recover this kind of kind of scenario basically this test case needs to be recovered in case of this kind of scenarios if if the browser is logged in I want to log out and then close the browser so that is what the recovery scenario we introduced here right logout so let's see here and then here go to the properties click on recovery scenario go to the properties you need to select the recovery scenario this retrieval level is at test case level or test step level so I want to select this as test case in case my test case login logout test case actual test case fails then I'm asking to re-trigger trigger I mean sorry I'm asking to trigger this recovery scenario and do some action and then re-run the test case that's why retry level is test
+
+[08:21] case okay so here let's save this and then go to execution list because as I told you earlier the recovery scenarios cannot be triggered when you run in the scratch book so these recovery scenarios can be invoked only when you run in the execution list okay okay so before I run the test case let us make sure the recovery scenario in the settings okay go to Project and go to settings so you need to see the recovery scenario settings okay that is very important under settings you need to go to t-box so here t-box under t-box you will have a recovery so here on dialog failure or extraction failure on verification failure okay so I want to make them as recover so let's
+
+[09:23] select them as recover okay okay that's it so these two we need to make sure that all the verifications will make the match recover okay and then close it so now let's trigger this because whenever I trigger this right your webshop will be opened with already logged in correct so now your test case login test case should fail correct so let me see how did I map this here okay let me just map it this the test case again okay let's go back here let's map this login test case to our execution recovery scenario execution list okay so now let's run the scenario right click and run your execution list so when I run this the webshop will be opened it is already
+
+[10:23] logged in it will not be able to see the login and then recovery scenario should trigger see it triggered the recovery scenario it logged out it closed the webshop and then again it's open the webshop so that means it's working our scenario is working correctly basically the recovery scenario got triggered okay so hope you all understand the concept of recovery scenario okay so if you have any queries uh leave your queries in the comment box I'll try to respond to your queries okay thank you

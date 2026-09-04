@@ -1,0 +1,807 @@
+[
+ {
+  "start": 13.549,
+  "end": 13.559,
+  "text": "hi everyone this is Ravi welcome to tric"
+ },
+ {
+  "start": 13.559,
+  "end": 15.87,
+  "text": "Centrist tasa Advanced"
+ },
+ {
+  "start": 15.88,
+  "end": 18.39,
+  "text": "Training as you all know I have already"
+ },
+ {
+  "start": 18.4,
+  "end": 21.95,
+  "text": "published 58 YouTube videos covering"
+ },
+ {
+  "start": 21.96,
+  "end": 24.95,
+  "text": "beginners intermediate and advanced"
+ },
+ {
+  "start": 24.96,
+  "end": 27.95,
+  "text": "level Concepts from couple of videos"
+ },
+ {
+  "start": 27.96,
+  "end": 30.31,
+  "text": "onwards I've started teaching you the"
+ },
+ {
+  "start": 30.32,
+  "end": 33.19,
+  "text": "realtime scenarios where you might"
+ },
+ {
+  "start": 33.2,
+  "end": 35.47,
+  "text": "encounter with different types of"
+ },
+ {
+  "start": 35.48,
+  "end": 38.229,
+  "text": "obstacles and how can we solve those"
+ },
+ {
+  "start": 38.239,
+  "end": 40.35,
+  "text": "obstacles while automating your test"
+ },
+ {
+  "start": 40.36,
+  "end": 44.229,
+  "text": "cases by using trient tasa this is our"
+ },
+ {
+  "start": 44.239,
+  "end": 47.549,
+  "text": "obstacle 17 in terms of real time"
+ },
+ {
+  "start": 47.559,
+  "end": 51.59,
+  "text": "scenarios and this is our lesson 59 in"
+ },
+ {
+  "start": 51.6,
+  "end": 54.91,
+  "text": "terms of overall tricentis TSA"
+ },
+ {
+  "start": 54.92,
+  "end": 57.91,
+  "text": "training please do subscribe to the"
+ },
+ {
+  "start": 57.92,
+  "end": 60.43,
+  "text": "channel click on Bell icon you'll"
+ },
+ {
+  "start": 60.44,
+  "end": 62.83,
+  "text": "receive notifications whenever I publish"
+ },
+ {
+  "start": 62.84,
+  "end": 65.59,
+  "text": "more videos don't forget to like and"
+ },
+ {
+  "start": 65.6,
+  "end": 69.59,
+  "text": "share the video thank"
+ },
+ {
+  "start": 72.55,
+  "end": 72.56,
+  "text": "you so in this lesson I'm going to teach"
+ },
+ {
+  "start": 72.56,
+  "end": 76.31,
+  "text": "you a real time scenario where you need"
+ },
+ {
+  "start": 76.32,
+  "end": 80.469,
+  "text": "to solve an obstacle by using Dynamic"
+ },
+ {
+  "start": 80.479,
+  "end": 83.35,
+  "text": "date expression in the scenario we need"
+ },
+ {
+  "start": 83.36,
+  "end": 88.55,
+  "text": "to enter tomorrow's date in an edit box"
+ },
+ {
+  "start": 88.56,
+  "end": 90.95,
+  "text": "and where we'll be using the methods"
+ },
+ {
+  "start": 90.96,
+  "end": 93.35,
+  "text": "like Dynamic date Expressions so let us"
+ },
+ {
+  "start": 93.36,
+  "end": 96.51,
+  "text": "go to our obstacles list and see what is"
+ },
+ {
+  "start": 96.52,
+  "end": 98.95,
+  "text": "the obstacle that we need to solve for"
+ },
+ {
+  "start": 98.96,
+  "end": 101.27,
+  "text": "this is my obstacle which is named as"
+ },
+ {
+  "start": 101.28,
+  "end": 104.83,
+  "text": "tomorrow and categorized as easy let us"
+ },
+ {
+  "start": 104.84,
+  "end": 106.87,
+  "text": "go for"
+ },
+ {
+  "start": 106.88,
+  "end": 109.87,
+  "text": "it so here is the obstacle in order to"
+ },
+ {
+  "start": 109.88,
+  "end": 113.389,
+  "text": "complete this obstacle you need to input"
+ },
+ {
+  "start": 113.399,
+  "end": 116.59,
+  "text": "tomorrow's date in the text box so this"
+ },
+ {
+  "start": 116.6,
+  "end": 119.029,
+  "text": "is your text box you need to enter"
+ },
+ {
+  "start": 119.039,
+  "end": 120.389,
+  "text": "tomorrow's days"
+ },
+ {
+  "start": 120.399,
+  "end": 122.95,
+  "text": "tomorrow's date so what is"
+ },
+ {
+  "start": 122.96,
+  "end": 126.19,
+  "text": "our today's system day so you can see"
+ },
+ {
+  "start": 126.2,
+  "end": 130.99,
+  "text": "here at the bottom my system date is"
+ },
+ {
+  "start": 131.0,
+  "end": 132.949,
+  "text": "13th October"
+ },
+ {
+  "start": 132.959,
+  "end": 136.229,
+  "text": "2024 which means I need to enter"
+ },
+ {
+  "start": 136.239,
+  "end": 139.75,
+  "text": "tomorrow's datee which is 14th October"
+ },
+ {
+  "start": 139.76,
+  "end": 142.949,
+  "text": "2024 right so it's"
+ },
+ {
+  "start": 142.959,
+  "end": 143.98,
+  "text": "dd.mm.yy"
+ },
+ {
+  "start": 145.48,
+  "end": 151.67,
+  "text": "y format so what I'm going to do here 14"
+ },
+ {
+  "start": 151.68,
+  "end": 155.19,
+  "text": "dot 10 do"
+ },
+ {
+  "start": 155.2,
+  "end": 159.63,
+  "text": "2024 see as soon as I enter tomorrow's"
+ },
+ {
+  "start": 159.64,
+  "end": 164.11,
+  "text": "date your automation problem is solved"
+ },
+ {
+  "start": 164.12,
+  "end": 175.83,
+  "text": "okay so how can we achieve this"
+ },
+ {
+  "start": 178.67,
+  "end": 178.68,
+  "text": "one let us go to Tri andest"
+ },
+ {
+  "start": 178.68,
+  "end": 181.309,
+  "text": "tasa and and as usual we are going to"
+ },
+ {
+  "start": 181.319,
+  "end": 183.75,
+  "text": "capture the objects for this particular"
+ },
+ {
+  "start": 183.76,
+  "end": 187.229,
+  "text": "obstacle in this folder obstacles folder"
+ },
+ {
+  "start": 187.239,
+  "end": 199.309,
+  "text": "right click scan select"
+ },
+ {
+  "start": 201.949,
+  "end": 201.959,
+  "text": "application so this is the application"
+ },
+ {
+  "start": 201.959,
+  "end": 203.949,
+  "text": "that we would like to scan select the"
+ },
+ {
+  "start": 203.959,
+  "end": 212.67,
+  "text": "application and click on scan"
+ },
+ {
+  "start": 216.71,
+  "end": 216.72,
+  "text": "for this obstacle we need to capture the"
+ },
+ {
+  "start": 216.72,
+  "end": 222.71,
+  "text": "edit box right so go here and this is"
+ },
+ {
+  "start": 226.869,
+  "end": 226.879,
+  "text": "my and this is my edit box where I'll be"
+ },
+ {
+  "start": 226.879,
+  "end": 230.429,
+  "text": "entering the date tomorrow's datee"
+ },
+ {
+  "start": 230.439,
+  "end": 233.99,
+  "text": "select"
+ },
+ {
+  "start": 238.19,
+  "end": 238.2,
+  "text": "this and now let us go back to our"
+ },
+ {
+  "start": 238.2,
+  "end": 241.39,
+  "text": "obstacle copy the obstacle"
+ },
+ {
+  "start": 241.4,
+  "end": 244.509,
+  "text": "name and then name the"
+ },
+ {
+  "start": 244.519,
+  "end": 248.39,
+  "text": "module as obstacle name so this is the"
+ },
+ {
+  "start": 248.4,
+  "end": 251.19,
+  "text": "only object that we need right now let"
+ },
+ {
+  "start": 251.2,
+  "end": 253.869,
+  "text": "us save the"
+ },
+ {
+  "start": 253.879,
+  "end": 257.27,
+  "text": "module and close X"
+ },
+ {
+  "start": 257.28,
+  "end": 261.909,
+  "text": "scan go to trient tasa you can see here"
+ },
+ {
+  "start": 261.919,
+  "end": 263.51,
+  "text": "this is your"
+ },
+ {
+  "start": 263.52,
+  "end": 266.99,
+  "text": "obstacle module that we captured so"
+ },
+ {
+  "start": 267.0,
+  "end": 270.79,
+  "text": "let's go back to again left side section"
+ },
+ {
+  "start": 270.8,
+  "end": 273.189,
+  "text": "which is test case section and this is"
+ },
+ {
+  "start": 273.199,
+  "end": 275.23,
+  "text": "where we are creating all the test cases"
+ },
+ {
+  "start": 275.24,
+  "end": 277.39,
+  "text": "for each and every obstacle that we are"
+ },
+ {
+  "start": 277.4,
+  "end": 281.11,
+  "text": "working from past 16 YouTube videos so"
+ },
+ {
+  "start": 281.12,
+  "end": 283.51,
+  "text": "here right click on this obstacles"
+ },
+ {
+  "start": 283.52,
+  "end": 287.35,
+  "text": "folder create test case and name the"
+ },
+ {
+  "start": 287.36,
+  "end": 289.35,
+  "text": "test case with the same obstacle name"
+ },
+ {
+  "start": 289.36,
+  "end": 292.39,
+  "text": "that we copied earlier double click on"
+ },
+ {
+  "start": 292.4,
+  "end": 295.95,
+  "text": "this and now to automate our test case"
+ },
+ {
+  "start": 295.96,
+  "end": 298.629,
+  "text": "we need to drag the module that we"
+ },
+ {
+  "start": 298.639,
+  "end": 302.95,
+  "text": "captured drag and drop onto your test"
+ },
+ {
+  "start": 302.96,
+  "end": 304.95,
+  "text": "case so"
+ },
+ {
+  "start": 304.96,
+  "end": 309.67,
+  "text": "here to enter tomorrow's date as I told"
+ },
+ {
+  "start": 309.68,
+  "end": 313.029,
+  "text": "you as I told you what is our system"
+ },
+ {
+  "start": 313.039,
+  "end": 317.469,
+  "text": "date our system date is 13th October"
+ },
+ {
+  "start": 317.479,
+  "end": 320.71,
+  "text": "2024 so here what we are going to do we"
+ },
+ {
+  "start": 320.72,
+  "end": 323.309,
+  "text": "are going to use the date Expressions"
+ },
+ {
+  "start": 323.319,
+  "end": 324.87,
+  "text": "Dynamic date"
+ },
+ {
+  "start": 324.88,
+  "end": 327.15,
+  "text": "Expressions open curly"
+ },
+ {
+  "start": 327.16,
+  "end": 330.11,
+  "text": "braces enter date so you you can see"
+ },
+ {
+  "start": 330.12,
+  "end": 333.029,
+  "text": "here the syntax date and time values can"
+ },
+ {
+  "start": 333.039,
+  "end": 336.27,
+  "text": "be calculated by using base"
+ },
+ {
+  "start": 336.28,
+  "end": 340.07,
+  "text": "date we can calculate any date by using"
+ },
+ {
+  "start": 340.08,
+  "end": 343.07,
+  "text": "base date along with some deviations"
+ },
+ {
+  "start": 343.08,
+  "end": 345.99,
+  "text": "that you can display them in user"
+ },
+ {
+  "start": 346.0,
+  "end": 348.83,
+  "text": "defined format so you can see here this"
+ },
+ {
+  "start": 348.84,
+  "end": 351.27,
+  "text": "is your date function you need to"
+ },
+ {
+  "start": 351.28,
+  "end": 353.67,
+  "text": "specify the base date if you have any"
+ },
+ {
+  "start": 353.68,
+  "end": 355.749,
+  "text": "base date you can specify sample base"
+ },
+ {
+  "start": 355.759,
+  "end": 358.749,
+  "text": "date like this but if I don't specify"
+ },
+ {
+  "start": 358.759,
+  "end": 360.59,
+  "text": "any base date is going to take your"
+ },
+ {
+  "start": 360.6,
+  "end": 363.95,
+  "text": "system date you can leave this blank and"
+ },
+ {
+  "start": 363.96,
+  "end": 366.71,
+  "text": "then you can use offset"
+ },
+ {
+  "start": 366.72,
+  "end": 372.11,
+  "text": "offset in our case our offset is + one"
+ },
+ {
+  "start": 372.12,
+  "end": 375.189,
+  "text": "day plus one day and then what is your"
+ },
+ {
+  "start": 375.199,
+  "end": 381.029,
+  "text": "format my format is dd. mm. y y y y"
+ },
+ {
+  "start": 381.039,
+  "end": 383.029,
+  "text": "right that is our obstacle right so here"
+ },
+ {
+  "start": 383.039,
+  "end": 386.79,
+  "text": "you need to enter dd.mm.yy y y okay I"
+ },
+ {
+  "start": 386.8,
+  "end": 389.67,
+  "text": "can use that format here okay so now"
+ },
+ {
+  "start": 389.68,
+  "end": 392.27,
+  "text": "let's go back here now select"
+ },
+ {
+  "start": 392.28,
+  "end": 395.39,
+  "text": "this and then what is"
+ },
+ {
+  "start": 395.4,
+  "end": 399.029,
+  "text": "our base date our base date is system"
+ },
+ {
+  "start": 399.039,
+  "end": 401.589,
+  "text": "date I'm going to leave this as blank"
+ },
+ {
+  "start": 401.599,
+  "end": 404.469,
+  "text": "and then specify your offset within"
+ },
+ {
+  "start": 404.479,
+  "end": 405.39,
+  "text": "square"
+ },
+ {
+  "start": 405.4,
+  "end": 408.51,
+  "text": "brackets what is the offset what is the"
+ },
+ {
+  "start": 408.52,
+  "end": 413.87,
+  "text": "offset + 1 D Plus 1 day that is my"
+ },
+ {
+  "start": 413.88,
+  "end": 417.189,
+  "text": "offset and again specify the format"
+ },
+ {
+  "start": 417.199,
+  "end": 420.029,
+  "text": "within Square braces what is the format"
+ },
+ {
+  "start": 420.039,
+  "end": 427.83,
+  "text": "DD do mm do y y y y this is my"
+ },
+ {
+  "start": 427.84,
+  "end": 431.39,
+  "text": "format and then close curly braces as"
+ },
+ {
+  "start": 431.4,
+  "end": 434.27,
+  "text": "soon as you click somewhere else see now"
+ },
+ {
+  "start": 434.28,
+  "end": 436.11,
+  "text": "you this"
+ },
+ {
+  "start": 436.12,
+  "end": 438.15,
+  "text": "particular this particular date"
+ },
+ {
+  "start": 438.16,
+  "end": 440.43,
+  "text": "expression is correct to validate the"
+ },
+ {
+  "start": 440.44,
+  "end": 442.79,
+  "text": "date expression you can right click on"
+ },
+ {
+  "start": 442.8,
+  "end": 445.95,
+  "text": "the expression translate the value let"
+ },
+ {
+  "start": 445.96,
+  "end": 447.909,
+  "text": "me translate"
+ },
+ {
+  "start": 447.919,
+  "end": 452.27,
+  "text": "this see here now now my system date is"
+ },
+ {
+  "start": 452.28,
+  "end": 456.589,
+  "text": "13th October and this is displaying 14th"
+ },
+ {
+  "start": 456.599,
+  "end": 460.189,
+  "text": "October 20124 in the format that we"
+ },
+ {
+  "start": 460.199,
+  "end": 465.79,
+  "text": "require right now let us change the work"
+ },
+ {
+  "start": 465.8,
+  "end": 468.909,
+  "text": "state as"
+ },
+ {
+  "start": 468.919,
+  "end": 472.309,
+  "text": "complete and now let's save the test"
+ },
+ {
+  "start": 472.319,
+  "end": 475.23,
+  "text": "case and let me run this particular test"
+ },
+ {
+  "start": 475.24,
+  "end": 493.55,
+  "text": "Quest right click and run in scratchbook"
+ },
+ {
+  "start": 498.189,
+  "end": 498.199,
+  "text": "see it entered 14 October 2024 and you"
+ },
+ {
+  "start": 498.199,
+  "end": 500.27,
+  "text": "solve this automation problem"
+ },
+ {
+  "start": 500.28,
+  "end": 503.189,
+  "text": "successfully so this is how you can"
+ },
+ {
+  "start": 503.199,
+  "end": 505.67,
+  "text": "calculate the"
+ },
+ {
+  "start": 505.68,
+  "end": 508.07,
+  "text": "date so this is how you can calculate"
+ },
+ {
+  "start": 508.08,
+  "end": 511.31,
+  "text": "the date as per your requirement by"
+ },
+ {
+  "start": 511.32,
+  "end": 515.269,
+  "text": "using date Expressions Dynamic date"
+ },
+ {
+  "start": 515.279,
+  "end": 517.469,
+  "text": "Expressions so if you have any queries"
+ },
+ {
+  "start": 517.479,
+  "end": 519.589,
+  "text": "leave your queries in the comment box"
+ },
+ {
+  "start": 519.599,
+  "end": 524.91,
+  "text": "I'll try to respond to your"
+ },
+ {
+  "start": 527.79,
+  "end": 527.8,
+  "text": "queries hope you all understand the"
+ },
+ {
+  "start": 527.8,
+  "end": 530.99,
+  "text": "concept how can we solve an obstacle"
+ },
+ {
+  "start": 531.0,
+  "end": 534.59,
+  "text": "where you need to enter tomorrow's date"
+ },
+ {
+  "start": 534.6,
+  "end": 537.389,
+  "text": "in an edit Box by using the concepts"
+ },
+ {
+  "start": 537.399,
+  "end": 540.11,
+  "text": "called Dynamic date expressions and"
+ },
+ {
+  "start": 540.12,
+  "end": 543.71,
+  "text": "calculate tomorrow's datee please do"
+ },
+ {
+  "start": 543.72,
+  "end": 545.509,
+  "text": "subscribe to the channel click on Bell"
+ },
+ {
+  "start": 545.519,
+  "end": 547.389,
+  "text": "icon you'll receive notifications"
+ },
+ {
+  "start": 547.399,
+  "end": 550.15,
+  "text": "whenever I publish more videos don't"
+ },
+ {
+  "start": 550.16,
+  "end": 552.75,
+  "text": "forget to like and share the video thank"
+ },
+ {
+  "start": 552.76,
+  "end": 561.98,
+  "text": "you"
+ }
+]

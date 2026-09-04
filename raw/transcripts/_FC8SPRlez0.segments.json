@@ -1,0 +1,1292 @@
+[
+ {
+  "start": 13.91,
+  "end": 13.92,
+  "text": "hi everyone this is Ravi welcome to"
+ },
+ {
+  "start": 13.92,
+  "end": 17.349,
+  "text": "trient tasa Advanced"
+ },
+ {
+  "start": 17.359,
+  "end": 19.99,
+  "text": "Training as you all know I have already"
+ },
+ {
+  "start": 20.0,
+  "end": 24.47,
+  "text": "published 54 YouTube videos covering"
+ },
+ {
+  "start": 24.48,
+  "end": 27.75,
+  "text": "beginners intermediate and advanced"
+ },
+ {
+  "start": 27.76,
+  "end": 30.71,
+  "text": "level Concepts from couple of sessions"
+ },
+ {
+  "start": 30.72,
+  "end": 33.229,
+  "text": "onwards have started teaching you"
+ },
+ {
+  "start": 33.239,
+  "end": 36.27,
+  "text": "realtime scenarios where you might"
+ },
+ {
+  "start": 36.28,
+  "end": 39.27,
+  "text": "encounter different obstacles while"
+ },
+ {
+  "start": 39.28,
+  "end": 42.27,
+  "text": "automating your test cases and how can"
+ },
+ {
+  "start": 42.28,
+  "end": 44.63,
+  "text": "we solve those obstacles while"
+ },
+ {
+  "start": 44.64,
+  "end": 47.47,
+  "text": "automating your test cases so this is"
+ },
+ {
+  "start": 47.48,
+  "end": 52.229,
+  "text": "our lesson 55 in terms of overall trient"
+ },
+ {
+  "start": 52.239,
+  "end": 55.869,
+  "text": "tosa training and this is our lesson 13"
+ },
+ {
+  "start": 55.879,
+  "end": 59.349,
+  "text": "or it's obstacle 13 in terms of realtime"
+ },
+ {
+  "start": 59.359,
+  "end": 60.83,
+  "text": "scenarios"
+ },
+ {
+  "start": 60.84,
+  "end": 63.27,
+  "text": "please do subscribe to the channel click"
+ },
+ {
+  "start": 63.28,
+  "end": 64.789,
+  "text": "on Bell icon you'll receive"
+ },
+ {
+  "start": 64.799,
+  "end": 67.149,
+  "text": "notifications whenever I publish more"
+ },
+ {
+  "start": 67.159,
+  "end": 70.03,
+  "text": "videos thank"
+ },
+ {
+  "start": 70.04,
+  "end": 73.35,
+  "text": "you this lesson I'm going to teach you a"
+ },
+ {
+  "start": 73.36,
+  "end": 77.23,
+  "text": "realtime scenario where you need to"
+ },
+ {
+  "start": 77.24,
+  "end": 81.39,
+  "text": "extract the random numbers from a"
+ },
+ {
+  "start": 81.4,
+  "end": 86.59,
+  "text": "lengthy text string by using named group"
+ },
+ {
+  "start": 86.6,
+  "end": 91.35,
+  "text": "method within regular expression so now"
+ },
+ {
+  "start": 91.36,
+  "end": 94.749,
+  "text": "let us see how can we solve for this"
+ },
+ {
+  "start": 94.759,
+  "end": 97.31,
+  "text": "obstacle let us first understand what is"
+ },
+ {
+  "start": 97.32,
+  "end": 101.069,
+  "text": "the obstacle in"
+ },
+ {
+  "start": 104.23,
+  "end": 104.24,
+  "text": "detail so this is our next"
+ },
+ {
+  "start": 104.24,
+  "end": 108.83,
+  "text": "obstacle named named as tough cookie and"
+ },
+ {
+  "start": 108.84,
+  "end": 114.03,
+  "text": "categorized as hard so let us go for"
+ },
+ {
+  "start": 114.04,
+  "end": 118.59,
+  "text": "it so here the obstacle is obstacle is"
+ },
+ {
+  "start": 118.6,
+  "end": 120.429,
+  "text": "random text string"
+ },
+ {
+  "start": 120.439,
+  "end": 123.789,
+  "text": "so this particular text box generates a"
+ },
+ {
+  "start": 123.799,
+  "end": 126.91,
+  "text": "random text string as soon as you click"
+ },
+ {
+  "start": 126.92,
+  "end": 130.47,
+  "text": "on it so the first edit box displays a"
+ },
+ {
+  "start": 130.48,
+  "end": 136.11,
+  "text": "random text that includes three large"
+ },
+ {
+  "start": 136.12,
+  "end": 139.91,
+  "text": "numbers extract the numbers from the"
+ },
+ {
+  "start": 139.92,
+  "end": 144.19,
+  "text": "string and enter each into the according"
+ },
+ {
+  "start": 144.2,
+  "end": 146.509,
+  "text": "text box let's see here as soon as I"
+ },
+ {
+  "start": 146.519,
+  "end": 149.949,
+  "text": "click on this first text box I can see"
+ },
+ {
+  "start": 149.959,
+  "end": 152.83,
+  "text": "there are three large numbers this is my"
+ },
+ {
+  "start": 152.84,
+  "end": 156.75,
+  "text": "first large number and this is my second"
+ },
+ {
+  "start": 156.76,
+  "end": 160.67,
+  "text": "large number and this is my third large"
+ },
+ {
+  "start": 160.68,
+  "end": 164.229,
+  "text": "number what I need to do I need"
+ },
+ {
+  "start": 164.239,
+  "end": 169.27,
+  "text": "to extract my first large number and"
+ },
+ {
+  "start": 169.28,
+  "end": 173.35,
+  "text": "enter into the first edit box and second"
+ },
+ {
+  "start": 173.36,
+  "end": 177.99,
+  "text": "large number extract this enter here and"
+ },
+ {
+  "start": 178.0,
+  "end": 181.27,
+  "text": "third large number EXT extract from this"
+ },
+ {
+  "start": 181.28,
+  "end": 183.67,
+  "text": "and enter in the third edit box so"
+ },
+ {
+  "start": 183.68,
+  "end": 186.589,
+  "text": "that's the challenge let's see how we"
+ },
+ {
+  "start": 186.599,
+  "end": 189.63,
+  "text": "can solve for this let us go to trient"
+ },
+ {
+  "start": 189.64,
+  "end": 192.83,
+  "text": "tasa so as usual so we are going to"
+ },
+ {
+  "start": 192.84,
+  "end": 195.309,
+  "text": "capture all the test objects under"
+ },
+ {
+  "start": 195.319,
+  "end": 198.589,
+  "text": "folder called obstacles right so this is"
+ },
+ {
+  "start": 198.599,
+  "end": 200.83,
+  "text": "where we are capturing all the objects"
+ },
+ {
+  "start": 200.84,
+  "end": 202.789,
+  "text": "for each obstacle I'm going to use the"
+ },
+ {
+  "start": 202.799,
+  "end": 205.99,
+  "text": "same folder so what I'm going to do here"
+ },
+ {
+  "start": 206.0,
+  "end": 210.11,
+  "text": "right click on obstacles folder select"
+ },
+ {
+  "start": 210.12,
+  "end": 218.869,
+  "text": "scan"
+ },
+ {
+  "start": 221.229,
+  "end": 221.239,
+  "text": "application and this is the application"
+ },
+ {
+  "start": 221.239,
+  "end": 224.229,
+  "text": "that I would like to capture right scan"
+ },
+ {
+  "start": 224.239,
+  "end": 225.67,
+  "text": "the"
+ },
+ {
+  "start": 225.68,
+  "end": 228.429,
+  "text": "application here I would like to capture"
+ },
+ {
+  "start": 228.439,
+  "end": 231.949,
+  "text": "the objects what are those objects my"
+ },
+ {
+  "start": 231.959,
+  "end": 235.47,
+  "text": "first text box second third fourth there"
+ },
+ {
+  "start": 235.48,
+  "end": 239.309,
+  "text": "are four different text boxes so here"
+ },
+ {
+  "start": 239.319,
+  "end": 242.19,
+  "text": "click me to reveal that is my first text"
+ },
+ {
+  "start": 242.2,
+  "end": 246.869,
+  "text": "box and then enter first number this is"
+ },
+ {
+  "start": 246.879,
+  "end": 250.47,
+  "text": "my second text box so all these objects"
+ },
+ {
+  "start": 250.48,
+  "end": 252.309,
+  "text": "are getting uniquely identified you can"
+ },
+ {
+  "start": 252.319,
+  "end": 254.869,
+  "text": "see here the selected item is unique and"
+ },
+ {
+  "start": 254.879,
+  "end": 256.949,
+  "text": "third"
+ },
+ {
+  "start": 256.959,
+  "end": 260.15,
+  "text": "one the selected item is unique the same"
+ },
+ {
+  "start": 260.16,
+  "end": 263.83,
+  "text": "way fourth one so four objects we"
+ },
+ {
+  "start": 263.84,
+  "end": 267.629,
+  "text": "captured now let us copy this obstacle"
+ },
+ {
+  "start": 267.639,
+  "end": 271.27,
+  "text": "name so that we can name name the module"
+ },
+ {
+  "start": 271.28,
+  "end": 274.31,
+  "text": "with the obstacle name here paste it"
+ },
+ {
+  "start": 274.32,
+  "end": 277.51,
+  "text": "here okay now you can"
+ },
+ {
+  "start": 277.52,
+  "end": 280.909,
+  "text": "save this"
+ },
+ {
+  "start": 285.029,
+  "end": 285.039,
+  "text": "module and then close X scan if you go"
+ },
+ {
+  "start": 285.039,
+  "end": 288.749,
+  "text": "back you go back to trient tasa so this"
+ },
+ {
+  "start": 288.759,
+  "end": 291.029,
+  "text": "is the obstacle that we captured just"
+ },
+ {
+  "start": 291.039,
+  "end": 293.83,
+  "text": "now okay let's see here see click me to"
+ },
+ {
+  "start": 293.84,
+  "end": 297.23,
+  "text": "reveal so we have total four edit boxes"
+ },
+ {
+  "start": 297.24,
+  "end": 300.87,
+  "text": "now let's go to left panel where we have"
+ },
+ {
+  "start": 300.88,
+  "end": 303.909,
+  "text": "a test cases to select this obstacles"
+ },
+ {
+  "start": 303.919,
+  "end": 308.51,
+  "text": "folder and here here we are automating"
+ },
+ {
+  "start": 308.52,
+  "end": 310.31,
+  "text": "all the test cases right under this"
+ },
+ {
+  "start": 310.32,
+  "end": 314.07,
+  "text": "obstacle right click and then select"
+ },
+ {
+  "start": 314.08,
+  "end": 317.55,
+  "text": "create test case and name this with the"
+ },
+ {
+  "start": 317.56,
+  "end": 320.83,
+  "text": "same name that we captured obstacle name"
+ },
+ {
+  "start": 320.84,
+  "end": 322.309,
+  "text": "double click on this particular test"
+ },
+ {
+  "start": 322.319,
+  "end": 323.83,
+  "text": "case"
+ },
+ {
+  "start": 323.84,
+  "end": 327.749,
+  "text": "now to automate your test case first we"
+ },
+ {
+  "start": 327.759,
+  "end": 331.629,
+  "text": "need to drag the module that we captured"
+ },
+ {
+  "start": 331.639,
+  "end": 333.189,
+  "text": "onto the test"
+ },
+ {
+  "start": 333.199,
+  "end": 335.909,
+  "text": "case what should we do first our first"
+ },
+ {
+  "start": 335.919,
+  "end": 338.55,
+  "text": "step is you need to click on this text"
+ },
+ {
+  "start": 338.56,
+  "end": 341.309,
+  "text": "box to generate"
+ },
+ {
+  "start": 341.319,
+  "end": 346.15,
+  "text": "the random text okay for that here what"
+ },
+ {
+  "start": 346.16,
+  "end": 349.43,
+  "text": "I'm going to do here"
+ },
+ {
+  "start": 349.44,
+  "end": 351.07,
+  "text": "simply"
+ },
+ {
+  "start": 351.08,
+  "end": 356.15,
+  "text": "enter click okay and then your action"
+ },
+ {
+  "start": 356.16,
+  "end": 359.79,
+  "text": "mode should be input right so once once"
+ },
+ {
+  "start": 359.8,
+  "end": 362.909,
+  "text": "you click on this now you need to"
+ },
+ {
+  "start": 362.919,
+  "end": 366.51,
+  "text": "extract only you need to extract only"
+ },
+ {
+  "start": 366.52,
+  "end": 369.27,
+  "text": "number portions my first number second"
+ },
+ {
+  "start": 369.28,
+  "end": 373.15,
+  "text": "third for that I need to add the module"
+ },
+ {
+  "start": 373.16,
+  "end": 376.589,
+  "text": "one more time let's drag this module and"
+ },
+ {
+  "start": 376.599,
+  "end": 379.589,
+  "text": "drop onto the test case one more time"
+ },
+ {
+  "start": 379.599,
+  "end": 383.309,
+  "text": "because I need to use this text box"
+ },
+ {
+  "start": 383.319,
+  "end": 386.43,
+  "text": "again that's why what I'm going to do"
+ },
+ {
+  "start": 386.44,
+  "end": 390.309,
+  "text": "here here to extract the text"
+ },
+ {
+  "start": 390.319,
+  "end": 391.83,
+  "text": "large number"
+ },
+ {
+  "start": 391.84,
+  "end": 395.95,
+  "text": "text in three different groups we need"
+ },
+ {
+  "start": 395.96,
+  "end": 401.07,
+  "text": "to use regular expression and number"
+ },
+ {
+  "start": 401.08,
+  "end": 403.51,
+  "text": "grouping so"
+ },
+ {
+  "start": 403.52,
+  "end": 405.55,
+  "text": "let's let me show you the regular"
+ },
+ {
+  "start": 405.56,
+  "end": 407.07,
+  "text": "expression that I would like to"
+ },
+ {
+  "start": 407.08,
+  "end": 409.35,
+  "text": "use so this is very big regular"
+ },
+ {
+  "start": 409.36,
+  "end": 410.83,
+  "text": "expression so I already copied the"
+ },
+ {
+  "start": 410.84,
+  "end": 413.029,
+  "text": "regular expression but don't worry I'm"
+ },
+ {
+  "start": 413.039,
+  "end": 415.67,
+  "text": "going to explain this regular expression"
+ },
+ {
+  "start": 415.68,
+  "end": 418.309,
+  "text": "in detail okay so this is my regular"
+ },
+ {
+  "start": 418.319,
+  "end": 420.55,
+  "text": "expression I'm using regular"
+ },
+ {
+  "start": 420.56,
+  "end": 424.629,
+  "text": "expression and this cap symbol is your"
+ },
+ {
+  "start": 424.639,
+  "end": 427.07,
+  "text": "regular expression starts from"
+ },
+ {
+  "start": 427.08,
+  "end": 430.95,
+  "text": "here dot star question mark this is any"
+ },
+ {
+  "start": 430.96,
+  "end": 436.35,
+  "text": "text I'm considering any text I mean any"
+ },
+ {
+  "start": 436.36,
+  "end": 441.99,
+  "text": "string right and then here is my first"
+ },
+ {
+  "start": 442.0,
+  "end": 446.469,
+  "text": "number group where I'm actually"
+ },
+ {
+  "start": 446.479,
+  "end": 449.51,
+  "text": "capturing that first number to a buffer"
+ },
+ {
+  "start": 449.52,
+  "end": 452.39,
+  "text": "number called number one and what is"
+ },
+ {
+  "start": 452.4,
+  "end": 455.029,
+  "text": "that number format my number format is 0"
+ },
+ {
+  "start": 455.039,
+  "end": 455.79,
+  "text": "to"
+ },
+ {
+  "start": 455.8,
+  "end": 459.749,
+  "text": "9 and then I'm concatenating it so"
+ },
+ {
+  "start": 459.759,
+  "end": 462.55,
+  "text": "that's why I'm using plus and then again"
+ },
+ {
+  "start": 462.56,
+  "end": 464.43,
+  "text": "after number you will have some text"
+ },
+ {
+  "start": 464.44,
+  "end": 466.23,
+  "text": "again right so that's why I'm denoting"
+ },
+ {
+  "start": 466.24,
+  "end": 471.189,
+  "text": "it as dot star question mark and then my"
+ },
+ {
+  "start": 471.199,
+  "end": 474.189,
+  "text": "second number group will start that"
+ },
+ {
+  "start": 474.199,
+  "end": 478.79,
+  "text": "represents number two because I'm"
+ },
+ {
+  "start": 478.8,
+  "end": 481.11,
+  "text": "extracting number two and storing into a"
+ },
+ {
+  "start": 481.12,
+  "end": 483.869,
+  "text": "buffer called number two and what is the"
+ },
+ {
+  "start": 483.879,
+  "end": 487.029,
+  "text": "format of number two 0 to 9 and"
+ },
+ {
+  "start": 487.039,
+  "end": 489.67,
+  "text": "concatenate it and then again you will"
+ },
+ {
+  "start": 489.68,
+  "end": 492.51,
+  "text": "have a text random text so that's why"
+ },
+ {
+  "start": 492.52,
+  "end": 497.309,
+  "text": "dot star question mark and then you have"
+ },
+ {
+  "start": 497.319,
+  "end": 499.79,
+  "text": "third number group I'm storing that"
+ },
+ {
+  "start": 499.8,
+  "end": 501.95,
+  "text": "number into a number three"
+ },
+ {
+  "start": 501.96,
+  "end": 505.43,
+  "text": "buffer and the format is 0 to9"
+ },
+ {
+  "start": 505.44,
+  "end": 507.95,
+  "text": "concatenate it and then again you will"
+ },
+ {
+  "start": 507.96,
+  "end": 510.869,
+  "text": "have a text any text right it can have"
+ },
+ {
+  "start": 510.879,
+  "end": 514.63,
+  "text": "any text and your dollar symbol is end"
+ },
+ {
+  "start": 514.64,
+  "end": 517.589,
+  "text": "of your regular expression beginning of"
+ },
+ {
+  "start": 517.599,
+  "end": 520.31,
+  "text": "regular expression is Cap dollar is end"
+ },
+ {
+  "start": 520.32,
+  "end": 521.67,
+  "text": "of your regular expression that means"
+ },
+ {
+  "start": 521.68,
+  "end": 524.029,
+  "text": "end of your text let me go back to a"
+ },
+ {
+  "start": 524.039,
+  "end": 525.829,
+  "text": "presentation and let me explain in"
+ },
+ {
+  "start": 525.839,
+  "end": 531.31,
+  "text": "detail again what is this regular"
+ },
+ {
+  "start": 534.389,
+  "end": 534.399,
+  "text": "expression so here you can see at the"
+ },
+ {
+  "start": 534.399,
+  "end": 536.87,
+  "text": "bottom I have a regular expression okay"
+ },
+ {
+  "start": 536.88,
+  "end": 540.35,
+  "text": "reg X this is the method that we use for"
+ },
+ {
+  "start": 540.36,
+  "end": 542.59,
+  "text": "tonoscope and you can see here cap"
+ },
+ {
+  "start": 542.6,
+  "end": 545.75,
+  "text": "symbol this asserts the position at the"
+ },
+ {
+  "start": 545.76,
+  "end": 548.15,
+  "text": "start of the string that means this is"
+ },
+ {
+  "start": 548.16,
+  "end": 552.23,
+  "text": "my first start of the s that means this"
+ },
+ {
+  "start": 552.24,
+  "end": 555.829,
+  "text": "is the start of the string and then dot"
+ },
+ {
+  "start": 555.839,
+  "end": 559.15,
+  "text": "star question mark this matches any"
+ },
+ {
+  "start": 559.16,
+  "end": 561.71,
+  "text": "character except for the line Terminator"
+ },
+ {
+  "start": 561.72,
+  "end": 565.63,
+  "text": "that means except it don't con accept"
+ },
+ {
+  "start": 565.64,
+  "end": 568.03,
+  "text": "your next line it's going to consider"
+ },
+ {
+  "start": 568.04,
+  "end": 571.91,
+  "text": "only the text that is in the same line"
+ },
+ {
+  "start": 571.92,
+  "end": 573.43,
+  "text": "okay and"
+ },
+ {
+  "start": 573.44,
+  "end": 578.99,
+  "text": "then from here question mark number 1 0"
+ },
+ {
+  "start": 579.0,
+  "end": 582.67,
+  "text": "to 9 this represents this is a named"
+ },
+ {
+  "start": 582.68,
+  "end": 586.55,
+  "text": "capturing group that matches one or more"
+ },
+ {
+  "start": 586.56,
+  "end": 590.35,
+  "text": "digits from 0 to 9 the captured digits"
+ },
+ {
+  "start": 590.36,
+  "end": 594.59,
+  "text": "are stored in a group named number one"
+ },
+ {
+  "start": 594.6,
+  "end": 598.43,
+  "text": "this is your buffer again you have do"
+ },
+ {
+  "start": 598.44,
+  "end": 600.87,
+  "text": "star question Mark again this matches"
+ },
+ {
+  "start": 600.88,
+  "end": 605.389,
+  "text": "any character Zero or more times right"
+ },
+ {
+  "start": 605.399,
+  "end": 608.11,
+  "text": "and then again number two group so"
+ },
+ {
+  "start": 608.12,
+  "end": 609.949,
+  "text": "another named capturing group that"
+ },
+ {
+  "start": 609.959,
+  "end": 612.069,
+  "text": "matches one or more digits which is 0 to"
+ },
+ {
+  "start": 612.079,
+  "end": 616.269,
+  "text": "9 and then you have text one more time"
+ },
+ {
+  "start": 616.279,
+  "end": 618.069,
+  "text": "this matches any character"
+ },
+ {
+  "start": 618.079,
+  "end": 620.87,
+  "text": "02 this matches any character Zero or"
+ },
+ {
+  "start": 620.88,
+  "end": 623.55,
+  "text": "more times and then you have number"
+ },
+ {
+  "start": 623.56,
+  "end": 626.87,
+  "text": "three named group number three named"
+ },
+ {
+  "start": 626.88,
+  "end": 630.91,
+  "text": "capturing group and then"
+ },
+ {
+  "start": 630.92,
+  "end": 634.949,
+  "text": "star and then dot star question mark and"
+ },
+ {
+  "start": 634.959,
+  "end": 637.509,
+  "text": "dollar symbol so this matches any"
+ },
+ {
+  "start": 637.519,
+  "end": 640.71,
+  "text": "character Zero or more times up to the"
+ },
+ {
+  "start": 640.72,
+  "end": 643.11,
+  "text": "end of the string so dollar represents"
+ },
+ {
+  "start": 643.12,
+  "end": 645.75,
+  "text": "your end of the string now let's go back"
+ },
+ {
+  "start": 645.76,
+  "end": 648.629,
+  "text": "to"
+ },
+ {
+  "start": 654.509,
+  "end": 654.519,
+  "text": "trica so now once we extract three"
+ },
+ {
+  "start": 654.519,
+  "end": 656.829,
+  "text": "different grouped"
+ },
+ {
+  "start": 656.839,
+  "end": 659.79,
+  "text": "numbers three different number groups"
+ },
+ {
+  "start": 659.8,
+  "end": 662.23,
+  "text": "now it's time for us to enter into the"
+ },
+ {
+  "start": 662.24,
+  "end": 663.87,
+  "text": "text"
+ },
+ {
+  "start": 663.88,
+  "end": 666.67,
+  "text": "box so here we need to enter in these"
+ },
+ {
+  "start": 666.68,
+  "end": 667.629,
+  "text": "text"
+ },
+ {
+  "start": 667.639,
+  "end": 672.03,
+  "text": "boxes the three group numbers so now"
+ },
+ {
+  "start": 672.04,
+  "end": 674.55,
+  "text": "here this is my first group so what I'm"
+ },
+ {
+  "start": 674.56,
+  "end": 676.35,
+  "text": "going to do I'm going to call a buffer"
+ },
+ {
+  "start": 676.36,
+  "end": 677.829,
+  "text": "because I'm"
+ },
+ {
+  "start": 677.839,
+  "end": 681.23,
+  "text": "storing into a buffer called number one"
+ },
+ {
+  "start": 681.24,
+  "end": 684.47,
+  "text": "so I'm calling buffer number"
+ },
+ {
+  "start": 684.48,
+  "end": 690.03,
+  "text": "one close C close Square bra sorry for"
+ },
+ {
+  "start": 690.04,
+  "end": 692.949,
+  "text": "number one so whenever you call a buffer"
+ },
+ {
+  "start": 692.959,
+  "end": 696.31,
+  "text": "open curly braces capital B close Square"
+ },
+ {
+  "start": 696.32,
+  "end": 700.23,
+  "text": "braces sorry open Square braces your"
+ },
+ {
+  "start": 700.24,
+  "end": 703.23,
+  "text": "buffer name close Square braces close"
+ },
+ {
+  "start": 703.24,
+  "end": 707.35,
+  "text": "curly braces the same way number two"
+ },
+ {
+  "start": 707.36,
+  "end": 711.67,
+  "text": "open curly braces will be open Square"
+ },
+ {
+  "start": 711.68,
+  "end": 715.629,
+  "text": "braces number two close Square braces"
+ },
+ {
+  "start": 715.639,
+  "end": 717.269,
+  "text": "close curly"
+ },
+ {
+  "start": 717.279,
+  "end": 719.87,
+  "text": "braces then again"
+ },
+ {
+  "start": 719.88,
+  "end": 723.47,
+  "text": "number three which is capital"
+ },
+ {
+  "start": 723.48,
+  "end": 726.829,
+  "text": "B number three is my"
+ },
+ {
+  "start": 726.839,
+  "end": 731.43,
+  "text": "buffer close Square braces close curly"
+ },
+ {
+  "start": 731.44,
+  "end": 734.269,
+  "text": "braces now let us save this particular"
+ },
+ {
+  "start": 734.279,
+  "end": 740.829,
+  "text": "test case and change the work state as"
+ },
+ {
+  "start": 740.839,
+  "end": 744.59,
+  "text": "completed right now let me try let me"
+ },
+ {
+  "start": 744.6,
+  "end": 745.91,
+  "text": "run and"
+ },
+ {
+  "start": 745.92,
+  "end": 748.949,
+  "text": "see whether it works or not okay right"
+ },
+ {
+  "start": 748.959,
+  "end": 750.43,
+  "text": "click"
+ },
+ {
+  "start": 750.44,
+  "end": 763.71,
+  "text": "and run in"
+ },
+ {
+  "start": 766.629,
+  "end": 766.639,
+  "text": "scratchbook so it is failed let us see"
+ },
+ {
+  "start": 766.639,
+  "end": 768.629,
+  "text": "why the test case is failed okay let's"
+ },
+ {
+  "start": 768.639,
+  "end": 772.35,
+  "text": "go back to our trient tasa to see what"
+ },
+ {
+  "start": 772.36,
+  "end": 776.949,
+  "text": "is wrong with the script here I can see"
+ },
+ {
+  "start": 776.959,
+  "end": 779.43,
+  "text": "input is not supported for regular"
+ },
+ {
+  "start": 779.44,
+  "end": 782.03,
+  "text": "expression values I understand now so if"
+ },
+ {
+  "start": 782.04,
+  "end": 784.79,
+  "text": "you see here I'm using regular"
+ },
+ {
+  "start": 784.8,
+  "end": 787.99,
+  "text": "expression I cannot use action mode"
+ },
+ {
+  "start": 788.0,
+  "end": 791.23,
+  "text": "input I have to use action mode"
+ },
+ {
+  "start": 791.24,
+  "end": 794.55,
+  "text": "verify what it does it's going to verify"
+ },
+ {
+  "start": 794.56,
+  "end": 797.99,
+  "text": "the entire text and it extracts the"
+ },
+ {
+  "start": 798.0,
+  "end": 802.47,
+  "text": "numbers into these buffer groups okay so"
+ },
+ {
+  "start": 802.48,
+  "end": 805.75,
+  "text": "now let so now let's save the script let"
+ },
+ {
+  "start": 805.76,
+  "end": 819.949,
+  "text": "me try running the script one more time"
+ },
+ {
+  "start": 823.269,
+  "end": 823.279,
+  "text": "see it clicked on this and it entered"
+ },
+ {
+  "start": 823.279,
+  "end": 824.71,
+  "text": "all"
+ },
+ {
+  "start": 824.72,
+  "end": 828.949,
+  "text": "three number groups all or all three"
+ },
+ {
+  "start": 828.959,
+  "end": 830.79,
+  "text": "large numbers into the corresponding"
+ },
+ {
+  "start": 830.8,
+  "end": 834.189,
+  "text": "edit box you solve this automation"
+ },
+ {
+  "start": 834.199,
+  "end": 838.31,
+  "text": "problem so hope you all understand the"
+ },
+ {
+  "start": 838.32,
+  "end": 840.749,
+  "text": "concept of"
+ },
+ {
+  "start": 840.759,
+  "end": 844.55,
+  "text": "extracting the number groups from a"
+ },
+ {
+  "start": 844.56,
+  "end": 849.829,
+  "text": "large text by using number group and the"
+ },
+ {
+  "start": 849.839,
+  "end": 852.03,
+  "text": "regular expression if you have any"
+ },
+ {
+  "start": 852.04,
+  "end": 853.31,
+  "text": "queries leave your queries in the"
+ },
+ {
+  "start": 853.32,
+  "end": 855.35,
+  "text": "comment box I'll try to respond to your"
+ },
+ {
+  "start": 855.36,
+  "end": 864.43,
+  "text": "ques"
+ }
+]

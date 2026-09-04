@@ -1,0 +1,1232 @@
+[
+ {
+  "start": 1.68,
+  "end": 4.85,
+  "text": "foreign"
+ },
+ {
+  "start": 19.13,
+  "end": 19.14,
+  "text": "automation tutorial"
+ },
+ {
+  "start": 19.14,
+  "end": 21.769,
+  "text": "so this is our lesson four"
+ },
+ {
+  "start": 21.779,
+  "end": 24.47,
+  "text": "where I'm gonna teach you"
+ },
+ {
+  "start": 24.48,
+  "end": 28.79,
+  "text": "how to install test automation extension"
+ },
+ {
+  "start": 28.8,
+  "end": 30.89,
+  "text": "in your browsers"
+ },
+ {
+  "start": 30.9,
+  "end": 34.85,
+  "text": "and also I'm gonna introduce you to the"
+ },
+ {
+  "start": 34.86,
+  "end": 38.63,
+  "text": "system under test that we are gonna use"
+ },
+ {
+  "start": 38.64,
+  "end": 43.43,
+  "text": "while automating our test cases by using"
+ },
+ {
+  "start": 43.44,
+  "end": 47.03,
+  "text": "Tasker in the upcoming lessons"
+ },
+ {
+  "start": 47.04,
+  "end": 49.61,
+  "text": "please do subscribe to the channel click"
+ },
+ {
+  "start": 49.62,
+  "end": 51.11,
+  "text": "on Bell icon you'll receive"
+ },
+ {
+  "start": 51.12,
+  "end": 53.869,
+  "text": "notifications whenever I publish more"
+ },
+ {
+  "start": 53.879,
+  "end": 54.83,
+  "text": "videos"
+ },
+ {
+  "start": 54.84,
+  "end": 57.29,
+  "text": "thank you"
+ },
+ {
+  "start": 57.3,
+  "end": 61.069,
+  "text": "okay so our first agenda is Introduction"
+ },
+ {
+  "start": 61.079,
+  "end": 63.709,
+  "text": "to System under test so what is system"
+ },
+ {
+  "start": 63.719,
+  "end": 64.85,
+  "text": "under test"
+ },
+ {
+  "start": 64.86,
+  "end": 66.469,
+  "text": "it's an application"
+ },
+ {
+  "start": 66.479,
+  "end": 69.649,
+  "text": "that you would like to automate or test"
+ },
+ {
+  "start": 69.659,
+  "end": 73.07,
+  "text": "by using Tasker that is called a system"
+ },
+ {
+  "start": 73.08,
+  "end": 77.69,
+  "text": "under test okay so in our lessons when"
+ },
+ {
+  "start": 77.7,
+  "end": 80.39,
+  "text": "we are automating the test cases we are"
+ },
+ {
+  "start": 80.4,
+  "end": 83.05,
+  "text": "going to use a demo"
+ },
+ {
+  "start": 83.06,
+  "end": 85.789,
+  "text": "webshop.trycentish.com that is a website"
+ },
+ {
+  "start": 85.799,
+  "end": 89.109,
+  "text": "that is being built by trisantis people"
+ },
+ {
+  "start": 89.119,
+  "end": 91.49,
+  "text": "and this is"
+ },
+ {
+  "start": 91.5,
+  "end": 93.89,
+  "text": "open to the public"
+ },
+ {
+  "start": 93.9,
+  "end": 97.37,
+  "text": "so you can register to this website and"
+ },
+ {
+  "start": 97.38,
+  "end": 99.59,
+  "text": "start automating your test cases for"
+ },
+ {
+  "start": 99.6,
+  "end": 102.41,
+  "text": "training purpose okay so this is what we"
+ },
+ {
+  "start": 102.42,
+  "end": 104.929,
+  "text": "are going to refer in our upcoming"
+ },
+ {
+  "start": 104.939,
+  "end": 107.99,
+  "text": "sessions while automating our test cases"
+ },
+ {
+  "start": 108.0,
+  "end": 110.81,
+  "text": "okay I'm gonna just give you a"
+ },
+ {
+  "start": 110.82,
+  "end": 113.149,
+  "text": "walkthrough of this entire system under"
+ },
+ {
+  "start": 113.159,
+  "end": 115.55,
+  "text": "test I'm gonna show you what are all the"
+ },
+ {
+  "start": 115.56,
+  "end": 116.69,
+  "text": "different functionalities that are"
+ },
+ {
+  "start": 116.7,
+  "end": 118.67,
+  "text": "available and what kind of test cases"
+ },
+ {
+  "start": 118.68,
+  "end": 120.17,
+  "text": "that we are going to automate in the"
+ },
+ {
+  "start": 120.18,
+  "end": 122.87,
+  "text": "upcoming lessons okay"
+ },
+ {
+  "start": 122.88,
+  "end": 126.59,
+  "text": "stay tuned so what is our second agenda"
+ },
+ {
+  "start": 126.6,
+  "end": 129.19,
+  "text": "item our second agenda item is"
+ },
+ {
+  "start": 129.2,
+  "end": 132.25,
+  "text": "installing Tasker automation extension"
+ },
+ {
+  "start": 132.26,
+  "end": 134.75,
+  "text": "in your browsers"
+ },
+ {
+  "start": 134.76,
+  "end": 138.05,
+  "text": "okay so why do you we need"
+ },
+ {
+  "start": 138.06,
+  "end": 140.57,
+  "text": "task automation extension"
+ },
+ {
+  "start": 140.58,
+  "end": 142.729,
+  "text": "because so when you are actually"
+ },
+ {
+  "start": 142.739,
+  "end": 145.67,
+  "text": "automating any application by using task"
+ },
+ {
+  "start": 145.68,
+  "end": 149.869,
+  "text": "on we will be using a task scan"
+ },
+ {
+  "start": 149.879,
+  "end": 152.57,
+  "text": "okay so when you are actually scanning"
+ },
+ {
+  "start": 152.58,
+  "end": 156.309,
+  "text": "your page by using task scan"
+ },
+ {
+  "start": 156.319,
+  "end": 160.25,
+  "text": "creates X browser modules to test your"
+ },
+ {
+  "start": 160.26,
+  "end": 161.75,
+  "text": "web application"
+ },
+ {
+  "start": 161.76,
+  "end": 165.229,
+  "text": "okay so to work with these created X"
+ },
+ {
+  "start": 165.239,
+  "end": 168.229,
+  "text": "browser modules"
+ },
+ {
+  "start": 168.239,
+  "end": 172.79,
+  "text": "X browser engine has been built by"
+ },
+ {
+  "start": 172.8,
+  "end": 174.77,
+  "text": "sentence Tasker"
+ },
+ {
+  "start": 174.78,
+  "end": 177.91,
+  "text": "so to work with this x browser engine"
+ },
+ {
+  "start": 177.92,
+  "end": 181.97,
+  "text": "you need to install Tasker automation"
+ },
+ {
+  "start": 181.98,
+  "end": 187.009,
+  "text": "extension for your browsers okay so for"
+ },
+ {
+  "start": 187.019,
+  "end": 190.07,
+  "text": "Chrome you have an extension for Mozilla"
+ },
+ {
+  "start": 190.08,
+  "end": 191.809,
+  "text": "Firefox you have an extension for Edge"
+ },
+ {
+  "start": 191.819,
+  "end": 194.33,
+  "text": "you have an extension okay so to install"
+ },
+ {
+  "start": 194.34,
+  "end": 196.43,
+  "text": "the extension follow the link that I"
+ },
+ {
+  "start": 196.44,
+  "end": 198.89,
+  "text": "have pasted in the description okay you"
+ },
+ {
+  "start": 198.9,
+  "end": 200.33,
+  "text": "can see on the screen also that is the"
+ },
+ {
+  "start": 200.34,
+  "end": 203.93,
+  "text": "link that I'm gonna use to install the"
+ },
+ {
+  "start": 203.94,
+  "end": 207.47,
+  "text": "Costco automation extension in different"
+ },
+ {
+  "start": 207.48,
+  "end": 210.47,
+  "text": "browsers okay now let's jump out of the"
+ },
+ {
+  "start": 210.48,
+  "end": 213.35,
+  "text": "system and let me show you"
+ },
+ {
+  "start": 213.36,
+  "end": 215.75,
+  "text": "what is our system under test web"
+ },
+ {
+  "start": 215.76,
+  "end": 216.949,
+  "text": "application"
+ },
+ {
+  "start": 216.959,
+  "end": 219.229,
+  "text": "and let me walk you through the entire"
+ },
+ {
+  "start": 219.239,
+  "end": 222.11,
+  "text": "application and also let me show you how"
+ },
+ {
+  "start": 222.12,
+  "end": 224.99,
+  "text": "can we install test automation extension"
+ },
+ {
+  "start": 225.0,
+  "end": 227.149,
+  "text": "okay so let's jump on to the system and"
+ },
+ {
+  "start": 227.159,
+  "end": 228.77,
+  "text": "see"
+ },
+ {
+  "start": 228.78,
+  "end": 232.91,
+  "text": "so demo webshop is our system under test"
+ },
+ {
+  "start": 232.92,
+  "end": 234.83,
+  "text": "so what is system under test as I"
+ },
+ {
+  "start": 234.84,
+  "end": 235.97,
+  "text": "explained to you"
+ },
+ {
+  "start": 235.98,
+  "end": 238.009,
+  "text": "the application that you would like to"
+ },
+ {
+  "start": 238.019,
+  "end": 240.589,
+  "text": "test by using Tasker is called system"
+ },
+ {
+  "start": 240.599,
+  "end": 243.83,
+  "text": "under test okay so this is demo webshop"
+ },
+ {
+  "start": 243.84,
+  "end": 245.809,
+  "text": "it's almost like"
+ },
+ {
+  "start": 245.819,
+  "end": 246.47,
+  "text": "um"
+ },
+ {
+  "start": 246.48,
+  "end": 248.99,
+  "text": "e-commerce site that is being built by"
+ },
+ {
+  "start": 249.0,
+  "end": 251.869,
+  "text": "trisentis and this is"
+ },
+ {
+  "start": 251.879,
+  "end": 255.229,
+  "text": "available for the public okay anyone can"
+ },
+ {
+  "start": 255.239,
+  "end": 258.289,
+  "text": "register and use this website okay so"
+ },
+ {
+  "start": 258.299,
+  "end": 260.75,
+  "text": "this has login so once you click on"
+ },
+ {
+  "start": 260.76,
+  "end": 263.51,
+  "text": "login you need to provide your"
+ },
+ {
+  "start": 263.52,
+  "end": 265.129,
+  "text": "email"
+ },
+ {
+  "start": 265.139,
+  "end": 269.09,
+  "text": "and then password okay so this this web"
+ },
+ {
+  "start": 269.1,
+  "end": 272.27,
+  "text": "you need to understand this website very"
+ },
+ {
+  "start": 272.28,
+  "end": 274.189,
+  "text": "well because we are going to start"
+ },
+ {
+  "start": 274.199,
+  "end": 277.55,
+  "text": "working on this website to automate all"
+ },
+ {
+  "start": 277.56,
+  "end": 279.71,
+  "text": "our test cases okay this is our system"
+ },
+ {
+  "start": 279.72,
+  "end": 281.93,
+  "text": "under test for"
+ },
+ {
+  "start": 281.94,
+  "end": 285.89,
+  "text": "our upcoming automation sessions okay so"
+ },
+ {
+  "start": 285.9,
+  "end": 289.55,
+  "text": "you can select any item from the menu so"
+ },
+ {
+  "start": 289.56,
+  "end": 292.189,
+  "text": "let's say I want to buy a present shoes"
+ },
+ {
+  "start": 292.199,
+  "end": 295.909,
+  "text": "select and then I want to add a blue"
+ },
+ {
+  "start": 295.919,
+  "end": 298.43,
+  "text": "jeans to the cart add to the cut"
+ },
+ {
+  "start": 298.44,
+  "end": 300.469,
+  "text": "as soon as you add blue jeans to the"
+ },
+ {
+  "start": 300.479,
+  "end": 302.09,
+  "text": "cart it's going to show product has been"
+ },
+ {
+  "start": 302.1,
+  "end": 305.21,
+  "text": "added to your shopping cart so then go"
+ },
+ {
+  "start": 305.22,
+  "end": 306.89,
+  "text": "to shopping cart"
+ },
+ {
+  "start": 306.9,
+  "end": 308.39,
+  "text": "and here"
+ },
+ {
+  "start": 308.4,
+  "end": 312.05,
+  "text": "either you can provide your discount"
+ },
+ {
+  "start": 312.06,
+  "end": 315.05,
+  "text": "codes coupons and apply the coupon or"
+ },
+ {
+  "start": 315.06,
+  "end": 317.33,
+  "text": "you can provide your gift card code and"
+ },
+ {
+  "start": 317.34,
+  "end": 319.73,
+  "text": "add gift card so that you will get some"
+ },
+ {
+  "start": 319.74,
+  "end": 323.51,
+  "text": "discount right and you need to agree"
+ },
+ {
+  "start": 323.52,
+  "end": 326.99,
+  "text": "before you check out the item so agree"
+ },
+ {
+  "start": 327.0,
+  "end": 329.029,
+  "text": "and then check out the item so while"
+ },
+ {
+  "start": 329.039,
+  "end": 330.71,
+  "text": "checking out the item you need to"
+ },
+ {
+  "start": 330.72,
+  "end": 332.57,
+  "text": "provide your billing address okay either"
+ },
+ {
+  "start": 332.58,
+  "end": 334.31,
+  "text": "you can provide new billing address or"
+ },
+ {
+  "start": 334.32,
+  "end": 336.29,
+  "text": "you can use an existing billing address"
+ },
+ {
+  "start": 336.3,
+  "end": 337.909,
+  "text": "and click on continue"
+ },
+ {
+  "start": 337.919,
+  "end": 339.83,
+  "text": "and then what is your shipping address"
+ },
+ {
+  "start": 339.84,
+  "end": 342.17,
+  "text": "so I want to select my shipping address"
+ },
+ {
+  "start": 342.18,
+  "end": 344.39,
+  "text": "as same as billing address or you can"
+ },
+ {
+  "start": 344.4,
+  "end": 346.969,
+  "text": "select in-store pickup right and click"
+ },
+ {
+  "start": 346.979,
+  "end": 349.31,
+  "text": "on continue and then shipping methods"
+ },
+ {
+  "start": 349.32,
+  "end": 350.689,
+  "text": "you have several shipping methods that"
+ },
+ {
+  "start": 350.699,
+  "end": 353.27,
+  "text": "you can verify so you have different"
+ },
+ {
+  "start": 353.28,
+  "end": 355.85,
+  "text": "functionality right you can verify so if"
+ },
+ {
+  "start": 355.86,
+  "end": 357.65,
+  "text": "you want to automate by using ground if"
+ },
+ {
+  "start": 357.66,
+  "end": 359.39,
+  "text": "you want to automate by using next day"
+ },
+ {
+  "start": 359.4,
+  "end": 361.969,
+  "text": "second day here so the price will differ"
+ },
+ {
+  "start": 361.979,
+  "end": 365.81,
+  "text": "okay so if you see 10 price 40 20 or"
+ },
+ {
+  "start": 365.82,
+  "end": 367.909,
+  "text": "something like that okay and then click"
+ },
+ {
+  "start": 367.919,
+  "end": 370.249,
+  "text": "on continue and then you have different"
+ },
+ {
+  "start": 370.259,
+  "end": 374.029,
+  "text": "methods of payments you can test you can"
+ },
+ {
+  "start": 374.039,
+  "end": 376.01,
+  "text": "automate cash and delivery payment you"
+ },
+ {
+  "start": 376.02,
+  "end": 378.17,
+  "text": "can automate check Money credit card"
+ },
+ {
+  "start": 378.18,
+  "end": 380.99,
+  "text": "purchase I want to select cash on"
+ },
+ {
+  "start": 381.0,
+  "end": 383.57,
+  "text": "delivery for now click on continue"
+ },
+ {
+  "start": 383.58,
+  "end": 387.17,
+  "text": "and then you can again you will pay by"
+ },
+ {
+  "start": 387.18,
+  "end": 389.39,
+  "text": "Cod and then click on continue"
+ },
+ {
+  "start": 389.4,
+  "end": 391.79,
+  "text": "and then here you need to verify your"
+ },
+ {
+  "start": 391.8,
+  "end": 393.77,
+  "text": "entire billing address shipping address"
+ },
+ {
+  "start": 393.78,
+  "end": 396.83,
+  "text": "payment method shipping method and"
+ },
+ {
+  "start": 396.84,
+  "end": 399.35,
+  "text": "what's the price quantity correct what"
+ },
+ {
+  "start": 399.36,
+  "end": 400.67,
+  "text": "is the tax"
+ },
+ {
+  "start": 400.68,
+  "end": 403.129,
+  "text": "and then additional fee"
+ },
+ {
+  "start": 403.139,
+  "end": 406.49,
+  "text": "and what is your total amount right once"
+ },
+ {
+  "start": 406.5,
+  "end": 410.45,
+  "text": "you verify this you can click confirm"
+ },
+ {
+  "start": 410.46,
+  "end": 412.49,
+  "text": "that means your order will be placed"
+ },
+ {
+  "start": 412.5,
+  "end": 414.59,
+  "text": "successfully and order number will be"
+ },
+ {
+  "start": 414.6,
+  "end": 415.49,
+  "text": "generated"
+ },
+ {
+  "start": 415.5,
+  "end": 418.01,
+  "text": "okay so this way you can shop anything"
+ },
+ {
+  "start": 418.02,
+  "end": 421.07,
+  "text": "books computers Electronics all the all"
+ },
+ {
+  "start": 421.08,
+  "end": 423.71,
+  "text": "of the all the things okay log out if"
+ },
+ {
+  "start": 423.72,
+  "end": 425.45,
+  "text": "you want to register to this website you"
+ },
+ {
+  "start": 425.46,
+  "end": 427.49,
+  "text": "can click on register"
+ },
+ {
+  "start": 427.5,
+  "end": 430.07,
+  "text": "provide your gender first name last name"
+ },
+ {
+  "start": 430.08,
+  "end": 432.409,
+  "text": "email address password and confirm"
+ },
+ {
+  "start": 432.419,
+  "end": 436.809,
+  "text": "password that's it very simple Okay so"
+ },
+ {
+  "start": 436.819,
+  "end": 439.37,
+  "text": "yourself just get registered to this"
+ },
+ {
+  "start": 439.38,
+  "end": 442.07,
+  "text": "website so that you will be ready for"
+ },
+ {
+  "start": 442.08,
+  "end": 445.309,
+  "text": "our next automation sessions okay"
+ },
+ {
+  "start": 445.319,
+  "end": 447.529,
+  "text": "so then what is our next agenda next"
+ },
+ {
+  "start": 447.539,
+  "end": 448.85,
+  "text": "agenda is"
+ },
+ {
+  "start": 448.86,
+  "end": 451.37,
+  "text": "how can we install"
+ },
+ {
+  "start": 451.38,
+  "end": 454.909,
+  "text": "task automation extension in browsers"
+ },
+ {
+  "start": 454.919,
+  "end": 457.189,
+  "text": "okay let's say I want to install"
+ },
+ {
+  "start": 457.199,
+  "end": 459.65,
+  "text": "automation extension"
+ },
+ {
+  "start": 459.66,
+  "end": 462.77,
+  "text": "task automation extension in Chrome"
+ },
+ {
+  "start": 462.78,
+  "end": 465.29,
+  "text": "how to do that okay so this is the link"
+ },
+ {
+  "start": 465.3,
+  "end": 467.39,
+  "text": "I provided I'm gonna paste the same Link"
+ },
+ {
+  "start": 467.4,
+  "end": 469.55,
+  "text": "in the description also so this is the"
+ },
+ {
+  "start": 469.56,
+  "end": 472.07,
+  "text": "link so you follow the same link here"
+ },
+ {
+  "start": 472.08,
+  "end": 474.77,
+  "text": "and go down and then click on let's say"
+ },
+ {
+  "start": 474.78,
+  "end": 477.71,
+  "text": "I want to Chrome Google Chrome right I'm"
+ },
+ {
+  "start": 477.72,
+  "end": 479.27,
+  "text": "going to open this link"
+ },
+ {
+  "start": 479.28,
+  "end": 481.79,
+  "text": "I want a extension for the Chrome"
+ },
+ {
+  "start": 481.8,
+  "end": 484.43,
+  "text": "and then here if you come down there is"
+ },
+ {
+  "start": 484.44,
+  "end": 486.17,
+  "text": "a link directly"
+ },
+ {
+  "start": 486.18,
+  "end": 489.95,
+  "text": "our version is Tasker 16 that's why I"
+ },
+ {
+  "start": 489.96,
+  "end": 492.89,
+  "text": "would like to use tricentice task 13.2"
+ },
+ {
+  "start": 492.9,
+  "end": 495.89,
+  "text": "and upwards click on this"
+ },
+ {
+  "start": 495.9,
+  "end": 498.29,
+  "text": "so this will take you to the Chrome web"
+ },
+ {
+  "start": 498.3,
+  "end": 501.11,
+  "text": "store okay or you can directly go to"
+ },
+ {
+  "start": 501.12,
+  "end": 503.39,
+  "text": "your Chrome Web Store and search for the"
+ },
+ {
+  "start": 503.4,
+  "end": 506.749,
+  "text": "task automation extension so because I"
+ },
+ {
+  "start": 506.759,
+  "end": 510.11,
+  "text": "already added let me remove from chrome"
+ },
+ {
+  "start": 510.12,
+  "end": 512.81,
+  "text": "so that I can show you okay so once you"
+ },
+ {
+  "start": 512.82,
+  "end": 515.63,
+  "text": "land onto this page you will have add to"
+ },
+ {
+  "start": 515.64,
+  "end": 518.269,
+  "text": "Chrome button click on add to Chrome"
+ },
+ {
+  "start": 518.279,
+  "end": 520.909,
+  "text": "and then click on ADD extension as soon"
+ },
+ {
+  "start": 520.919,
+  "end": 523.67,
+  "text": "as you add the extension will be added"
+ },
+ {
+  "start": 523.68,
+  "end": 525.53,
+  "text": "here if you see here the extension I'm"
+ },
+ {
+  "start": 525.54,
+  "end": 528.23,
+  "text": "showing it's showing on Chrome"
+ },
+ {
+  "start": 528.24,
+  "end": 529.73,
+  "text": "as an extension"
+ },
+ {
+  "start": 529.74,
+  "end": 533.21,
+  "text": "done so let's say if you want to add"
+ },
+ {
+  "start": 533.22,
+  "end": 536.69,
+  "text": "extension in the edge open your edge"
+ },
+ {
+  "start": 536.7,
+  "end": 538.37,
+  "text": "browser"
+ },
+ {
+  "start": 538.38,
+  "end": 542.15,
+  "text": "go to your Edge add-ons"
+ },
+ {
+  "start": 542.16,
+  "end": 545.63,
+  "text": "and then search for"
+ },
+ {
+  "start": 545.64,
+  "end": 548.99,
+  "text": "task automation extension"
+ },
+ {
+  "start": 549.0,
+  "end": 550.67,
+  "text": "as soon as you search you will get a"
+ },
+ {
+  "start": 550.68,
+  "end": 552.59,
+  "text": "search result here task automation"
+ },
+ {
+  "start": 552.6,
+  "end": 555.23,
+  "text": "extension for Microsoft Edge"
+ },
+ {
+  "start": 555.24,
+  "end": 557.09,
+  "text": "click on get"
+ },
+ {
+  "start": 557.1,
+  "end": 560.449,
+  "text": "click on ADD extension immediately the"
+ },
+ {
+  "start": 560.459,
+  "end": 562.67,
+  "text": "extension will be added see I can see"
+ },
+ {
+  "start": 562.68,
+  "end": 567.05,
+  "text": "now extension for my Edge okay so this"
+ },
+ {
+  "start": 567.06,
+  "end": 570.07,
+  "text": "is how you can add"
+ },
+ {
+  "start": 570.08,
+  "end": 573.11,
+  "text": "automation extension for Edge and chrome"
+ },
+ {
+  "start": 573.12,
+  "end": 576.889,
+  "text": "so why do we need this we need task"
+ },
+ {
+  "start": 576.899,
+  "end": 579.25,
+  "text": "automation"
+ },
+ {
+  "start": 579.26,
+  "end": 582.59,
+  "text": "Chrome browser sorry extension"
+ },
+ {
+  "start": 582.6,
+  "end": 586.49,
+  "text": "for automating your system under test by"
+ },
+ {
+  "start": 586.5,
+  "end": 591.05,
+  "text": "using browsers because when you are"
+ },
+ {
+  "start": 591.06,
+  "end": 592.19,
+  "text": "actually"
+ },
+ {
+  "start": 592.2,
+  "end": 594.889,
+  "text": "automating your system under test by"
+ },
+ {
+  "start": 594.899,
+  "end": 598.97,
+  "text": "using task we are going to use xcan so"
+ },
+ {
+  "start": 598.98,
+  "end": 602.75,
+  "text": "that you can create X browser modules"
+ },
+ {
+  "start": 602.76,
+  "end": 605.15,
+  "text": "what do you mean by Xbox browser modules"
+ },
+ {
+  "start": 605.16,
+  "end": 606.769,
+  "text": "for now you can think it has object"
+ },
+ {
+  "start": 606.779,
+  "end": 609.37,
+  "text": "repository okay in the object repository"
+ },
+ {
+  "start": 609.38,
+  "end": 612.79,
+  "text": "all the element locators will be added"
+ },
+ {
+  "start": 612.8,
+  "end": 616.13,
+  "text": "in the form of X browser modules X"
+ },
+ {
+  "start": 616.14,
+  "end": 619.91,
+  "text": "browser modules okay so to have this"
+ },
+ {
+  "start": 619.92,
+  "end": 623.03,
+  "text": "browser modules or to access your X"
+ },
+ {
+  "start": 623.04,
+  "end": 627.05,
+  "text": "browser engine of your Tasker this task"
+ },
+ {
+  "start": 627.06,
+  "end": 630.71,
+  "text": "automation extension is necessary okay"
+ },
+ {
+  "start": 630.72,
+  "end": 633.65,
+  "text": "so hope you all understand"
+ },
+ {
+  "start": 633.66,
+  "end": 636.41,
+  "text": "our system under test"
+ },
+ {
+  "start": 636.42,
+  "end": 639.59,
+  "text": "and how can you install Tasker"
+ },
+ {
+  "start": 639.6,
+  "end": 642.59,
+  "text": "automation extension in the browser so"
+ },
+ {
+  "start": 642.6,
+  "end": 645.17,
+  "text": "if you have any queries please provide"
+ },
+ {
+  "start": 645.18,
+  "end": 647.09,
+  "text": "your queries in the comment box I will"
+ },
+ {
+  "start": 647.1,
+  "end": 649.63,
+  "text": "try to respond to your queries thank you"
+ },
+ {
+  "start": 649.64,
+  "end": 653.389,
+  "text": "hope you all understand the concepts of"
+ },
+ {
+  "start": 653.399,
+  "end": 655.97,
+  "text": "system under test web application"
+ },
+ {
+  "start": 655.98,
+  "end": 659.449,
+  "text": "and how can we install Tasker automation"
+ },
+ {
+  "start": 659.459,
+  "end": 662.15,
+  "text": "extension in different browsers"
+ },
+ {
+  "start": 662.16,
+  "end": 664.73,
+  "text": "so if you have any queries leave your"
+ },
+ {
+  "start": 664.74,
+  "end": 667.31,
+  "text": "queries in the comment box I'll respond"
+ },
+ {
+  "start": 667.32,
+  "end": 669.829,
+  "text": "please do subscribe to the channel click"
+ },
+ {
+  "start": 669.839,
+  "end": 671.21,
+  "text": "on Bell icon you'll receive"
+ },
+ {
+  "start": 671.22,
+  "end": 673.25,
+  "text": "notifications whenever I publish more"
+ },
+ {
+  "start": 673.26,
+  "end": 682.03,
+  "text": "videos thank you"
+ }
+]

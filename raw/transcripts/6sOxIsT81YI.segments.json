@@ -1,0 +1,1157 @@
+[
+ {
+  "start": 13.549,
+  "end": 13.559,
+  "text": "hi everyone this is Ravi welcome to"
+ },
+ {
+  "start": 13.559,
+  "end": 17.15,
+  "text": "trient tasa automation tutorial as you"
+ },
+ {
+  "start": 17.16,
+  "end": 20.269,
+  "text": "all know I already published 36 YouTube"
+ },
+ {
+  "start": 20.279,
+  "end": 23.189,
+  "text": "videos in terms of overall tricentis"
+ },
+ {
+  "start": 23.199,
+  "end": 26.669,
+  "text": "Concepts and I've published 21 YouTube"
+ },
+ {
+  "start": 26.679,
+  "end": 29.509,
+  "text": "videos in terms of advanced level"
+ },
+ {
+  "start": 29.519,
+  "end": 32.229,
+  "text": "Concepts"
+ },
+ {
+  "start": 37.389,
+  "end": 37.399,
+  "text": "this is our lesson 37 in terms of prent"
+ },
+ {
+  "start": 37.399,
+  "end": 39.869,
+  "text": "tasa automation Concepts and this is our"
+ },
+ {
+  "start": 39.879,
+  "end": 42.99,
+  "text": "lesson 22 in terms of advanced level"
+ },
+ {
+  "start": 43.0,
+  "end": 45.59,
+  "text": "Concepts in this lesson I'm going to"
+ },
+ {
+  "start": 45.6,
+  "end": 48.79,
+  "text": "teach you how can you perform drag and"
+ },
+ {
+  "start": 48.8,
+  "end": 52.11,
+  "text": "drop operations by using"
+ },
+ {
+  "start": 52.12,
+  "end": 54.15,
+  "text": "trioscope we are going to take one OB"
+ },
+ {
+  "start": 54.16,
+  "end": 57.15,
+  "text": "cycle where we need to drag some of the"
+ },
+ {
+  "start": 57.16,
+  "end": 60.189,
+  "text": "records from your first web table and"
+ },
+ {
+  "start": 60.199,
+  "end": 64.07,
+  "text": "drop them into your second web table I'm"
+ },
+ {
+  "start": 64.08,
+  "end": 66.67,
+  "text": "going to use repetition method while"
+ },
+ {
+  "start": 66.68,
+  "end": 69.39,
+  "text": "performing drag and drop"
+ },
+ {
+  "start": 69.4,
+  "end": 75.31,
+  "text": "operations during web application"
+ },
+ {
+  "start": 79.03,
+  "end": 79.04,
+  "text": "automation so in this lesson what we are"
+ },
+ {
+  "start": 79.04,
+  "end": 82.31,
+  "text": "going to do we are going to"
+ },
+ {
+  "start": 82.32,
+  "end": 85.069,
+  "text": "perform drag and drop operation by using"
+ },
+ {
+  "start": 85.079,
+  "end": 88.069,
+  "text": "two web tables the first one is you have"
+ },
+ {
+  "start": 88.079,
+  "end": 90.469,
+  "text": "first web table called to-do tasks and"
+ },
+ {
+  "start": 90.479,
+  "end": 92.55,
+  "text": "then you have another web table called"
+ },
+ {
+  "start": 92.56,
+  "end": 94.149,
+  "text": "completed"
+ },
+ {
+  "start": 94.159,
+  "end": 97.83,
+  "text": "tasks and we going to drag and drop all"
+ },
+ {
+  "start": 97.84,
+  "end": 102.069,
+  "text": "the tasks from to-do table to completed"
+ },
+ {
+  "start": 102.079,
+  "end": 103.51,
+  "text": "task"
+ },
+ {
+  "start": 103.52,
+  "end": 106.51,
+  "text": "table and while doing this we're going"
+ },
+ {
+  "start": 106.52,
+  "end": 110.19,
+  "text": "to use drag and drop operations also"
+ },
+ {
+  "start": 110.2,
+  "end": 113.27,
+  "text": "repetition property at folder level to"
+ },
+ {
+  "start": 113.28,
+  "end": 115.27,
+  "text": "achieve"
+ },
+ {
+  "start": 115.28,
+  "end": 119.87,
+  "text": "this and following is the URL that we we"
+ },
+ {
+  "start": 119.88,
+  "end": 122.749,
+  "text": "are going to use to perform this"
+ },
+ {
+  "start": 122.759,
+  "end": 124.429,
+  "text": "particular"
+ },
+ {
+  "start": 124.439,
+  "end": 127.069,
+  "text": "automation let us first understand what"
+ },
+ {
+  "start": 127.079,
+  "end": 129.309,
+  "text": "is the challenge that we have or what is"
+ },
+ {
+  "start": 129.319,
+  "end": 131.869,
+  "text": "the obstacle that we have and then how"
+ },
+ {
+  "start": 131.879,
+  "end": 133.51,
+  "text": "can we automate this particular"
+ },
+ {
+  "start": 133.52,
+  "end": 136.67,
+  "text": "challenge by using tric andsa if you see"
+ },
+ {
+  "start": 136.68,
+  "end": 140.43,
+  "text": "on the screen this is your to-do task"
+ },
+ {
+  "start": 140.44,
+  "end": 142.99,
+  "text": "this is one web table and this is your"
+ },
+ {
+  "start": 143.0,
+  "end": 145.509,
+  "text": "completed task this is another web table"
+ },
+ {
+  "start": 145.519,
+  "end": 149.35,
+  "text": "so let us assume I completed my task one"
+ },
+ {
+  "start": 149.36,
+  "end": 152.63,
+  "text": "with the ID 1 so I need to drag and drop"
+ },
+ {
+  "start": 152.64,
+  "end": 156.67,
+  "text": "into completed task RP table and I need"
+ },
+ {
+  "start": 156.68,
+  "end": 159.43,
+  "text": "to drag the second task onto"
+ },
+ {
+  "start": 159.44,
+  "end": 163.149,
+  "text": "completed tasks I need to drag third"
+ },
+ {
+  "start": 163.159,
+  "end": 166.99,
+  "text": "task onto completed task so this way I"
+ },
+ {
+  "start": 167.0,
+  "end": 170.949,
+  "text": "need to drag and drop all the rows of"
+ },
+ {
+  "start": 170.959,
+  "end": 174.229,
+  "text": "to-do tasks to the completed task so how"
+ },
+ {
+  "start": 174.239,
+  "end": 176.39,
+  "text": "I'm dragging and dropping I'm dragging"
+ },
+ {
+  "start": 176.4,
+  "end": 180.27,
+  "text": "and dropping in the order of sequence ID"
+ },
+ {
+  "start": 180.28,
+  "end": 183.83,
+  "text": "sequence 1 2 3 4 5 6 right that's what"
+ },
+ {
+  "start": 183.84,
+  "end": 185.99,
+  "text": "I'm going to perform so now how can you"
+ },
+ {
+  "start": 186.0,
+  "end": 187.789,
+  "text": "do this particular scenario how can you"
+ },
+ {
+  "start": 187.799,
+  "end": 190.309,
+  "text": "perform this particular scenario by"
+ },
+ {
+  "start": 190.319,
+  "end": 194.99,
+  "text": "using triena so let us go to trient tosa"
+ },
+ {
+  "start": 195.0,
+  "end": 197.309,
+  "text": "what I'm going to do here first I want"
+ },
+ {
+  "start": 197.319,
+  "end": 200.509,
+  "text": "to create a new module so for that let"
+ },
+ {
+  "start": 200.519,
+  "end": 204.229,
+  "text": "me scan the module okay let's go to"
+ },
+ {
+  "start": 204.239,
+  "end": 208.67,
+  "text": "modules right click scan the"
+ },
+ {
+  "start": 208.68,
+  "end": 215.19,
+  "text": "application"
+ },
+ {
+  "start": 217.07,
+  "end": 217.08,
+  "text": "so this this is the application that I"
+ },
+ {
+  "start": 217.08,
+  "end": 229.429,
+  "text": "would like to scan Okay click on"
+ },
+ {
+  "start": 232.949,
+  "end": 232.959,
+  "text": "scan and here if you see these two are"
+ },
+ {
+  "start": 232.959,
+  "end": 235.71,
+  "text": "the tables to- do task is one table"
+ },
+ {
+  "start": 235.72,
+  "end": 238.309,
+  "text": "let's highlight this"
+ },
+ {
+  "start": 238.319,
+  "end": 241.39,
+  "text": "okay yes this is the one and the other"
+ },
+ {
+  "start": 241.4,
+  "end": 245.35,
+  "text": "one is completed tasks this is another"
+ },
+ {
+  "start": 245.36,
+  "end": 247.869,
+  "text": "web table see it is highlighting so that"
+ },
+ {
+  "start": 247.879,
+  "end": 250.99,
+  "text": "means these two are the tables and I'm"
+ },
+ {
+  "start": 251.0,
+  "end": 255.35,
+  "text": "going to name this module as obstacle"
+ },
+ {
+  "start": 255.36,
+  "end": 259.069,
+  "text": "okay copy this and name this"
+ },
+ {
+  "start": 259.079,
+  "end": 261.59,
+  "text": "module as"
+ },
+ {
+  "start": 261.6,
+  "end": 264.83,
+  "text": "obstacle whatever the abst number and"
+ },
+ {
+  "start": 264.84,
+  "end": 267.189,
+  "text": "now so here I would like to make small"
+ },
+ {
+  "start": 267.199,
+  "end": 269.07,
+  "text": "change to the completed tasks what I'm"
+ },
+ {
+  "start": 269.08,
+  "end": 271.469,
+  "text": "going to do I'm going to take the"
+ },
+ {
+  "start": 271.479,
+  "end": 274.909,
+  "text": "property called class name instead of ID"
+ },
+ {
+  "start": 274.919,
+  "end": 277.87,
+  "text": "I'm going to take property called out"
+ },
+ {
+  "start": 277.88,
+  "end": 280.95,
+  "text": "Outer text and then I'll just make sure"
+ },
+ {
+  "start": 280.96,
+  "end": 282.629,
+  "text": "that I'll remove all these I'm going to"
+ },
+ {
+  "start": 282.639,
+  "end": 285.51,
+  "text": "introduce regular expression ID task"
+ },
+ {
+  "start": 285.52,
+  "end": 288.27,
+  "text": "assign these are the columns and then"
+ },
+ {
+  "start": 288.28,
+  "end": 290.35,
+  "text": "whatever it might be so if you enter the"
+ },
+ {
+  "start": 290.36,
+  "end": 293.31,
+  "text": "table uh data then you will have lot of"
+ },
+ {
+  "start": 293.32,
+  "end": 295.87,
+  "text": "text after assigning I'm just"
+ },
+ {
+  "start": 295.88,
+  "end": 298.83,
+  "text": "introducing a regular expression okay"
+ },
+ {
+  "start": 298.84,
+  "end": 301.189,
+  "text": "and now"
+ },
+ {
+  "start": 301.199,
+  "end": 303.31,
+  "text": "oh let me see I think it is not uniquely"
+ },
+ {
+  "start": 303.32,
+  "end": 306.909,
+  "text": "identifying that's okay not a problem"
+ },
+ {
+  "start": 306.919,
+  "end": 309.95,
+  "text": "okay so now let me save this particular"
+ },
+ {
+  "start": 309.96,
+  "end": 311.67,
+  "text": "test case so before save let me make"
+ },
+ {
+  "start": 311.68,
+  "end": 313.67,
+  "text": "sure one more time okay"
+ },
+ {
+  "start": 313.68,
+  "end": 318.23,
+  "text": "tasks table"
+ },
+ {
+  "start": 321.07,
+  "end": 321.08,
+  "text": "assigning yeah make it unique what we'll"
+ },
+ {
+  "start": 321.08,
+  "end": 325.35,
+  "text": "do is making unique by"
+ },
+ {
+  "start": 329.51,
+  "end": 329.52,
+  "text": "using okay uh by using default name that"
+ },
+ {
+  "start": 329.52,
+  "end": 332.749,
+  "text": "it's okay let's keep this okay now save"
+ },
+ {
+  "start": 332.759,
+  "end": 335.35,
+  "text": "this so as soon as I save"
+ },
+ {
+  "start": 335.36,
+  "end": 339.629,
+  "text": "it so this will be saved as a new module"
+ },
+ {
+  "start": 339.639,
+  "end": 342.909,
+  "text": "in trient to so this is what we saved"
+ },
+ {
+  "start": 342.919,
+  "end": 346.43,
+  "text": "just now right so now I want to create a"
+ },
+ {
+  "start": 346.44,
+  "end": 349.59,
+  "text": "new folder here in the exercise let me"
+ },
+ {
+  "start": 349.6,
+  "end": 353.99,
+  "text": "create a new folder called drag and"
+ },
+ {
+  "start": 355.87,
+  "end": 355.88,
+  "text": "drop"
+ },
+ {
+  "start": 355.88,
+  "end": 358.469,
+  "text": "drag and"
+ },
+ {
+  "start": 358.479,
+  "end": 361.99,
+  "text": "drop and here I'll create a new test"
+ },
+ {
+  "start": 362.0,
+  "end": 370.629,
+  "text": "case called dragdrop"
+ },
+ {
+  "start": 372.309,
+  "end": 372.319,
+  "text": "operations"
+ },
+ {
+  "start": 372.319,
+  "end": 377.11,
+  "text": "now let me drag this particular module"
+ },
+ {
+  "start": 377.12,
+  "end": 379.589,
+  "text": "to my test"
+ },
+ {
+  "start": 379.599,
+  "end": 383.83,
+  "text": "case here what I'm going to do what is"
+ },
+ {
+  "start": 383.84,
+  "end": 386.15,
+  "text": "the column that we are actually dragging"
+ },
+ {
+  "start": 386.16,
+  "end": 389.029,
+  "text": "we are using the column called ID so"
+ },
+ {
+  "start": 389.039,
+  "end": 391.15,
+  "text": "that's why I'm going to select the"
+ },
+ {
+  "start": 391.16,
+  "end": 393.469,
+  "text": "column ID"
+ },
+ {
+  "start": 393.479,
+  "end": 395.23,
+  "text": "here"
+ },
+ {
+  "start": 395.24,
+  "end": 398.83,
+  "text": "and before I do this right I need to use"
+ },
+ {
+  "start": 398.84,
+  "end": 402.55,
+  "text": "the repetition why because I need to"
+ },
+ {
+  "start": 402.56,
+  "end": 408.029,
+  "text": "drag the rows in the sequence of ID 1 2"
+ },
+ {
+  "start": 408.039,
+  "end": 411.11,
+  "text": "3 4 these are all not not in sequence so"
+ },
+ {
+  "start": 411.12,
+  "end": 413.55,
+  "text": "these are all actually randomly placed"
+ },
+ {
+  "start": 413.56,
+  "end": 415.83,
+  "text": "right so for that what I'm going to do"
+ },
+ {
+  "start": 415.84,
+  "end": 417.749,
+  "text": "I'm going to create one folder here"
+ },
+ {
+  "start": 417.759,
+  "end": 420.07,
+  "text": "under this test case"
+ },
+ {
+  "start": 420.08,
+  "end": 423.23,
+  "text": "I'll create one folder right click and"
+ },
+ {
+  "start": 423.24,
+  "end": 427.67,
+  "text": "then create one folder called repetition"
+ },
+ {
+  "start": 427.68,
+  "end": 430.83,
+  "text": "sorry I created"
+ },
+ {
+  "start": 433.07,
+  "end": 433.08,
+  "text": "something contrl"
+ },
+ {
+  "start": 433.08,
+  "end": 438.469,
+  "text": "Zed right click and"
+ },
+ {
+  "start": 440.749,
+  "end": 440.759,
+  "text": "create create a folder right click and"
+ },
+ {
+  "start": 440.759,
+  "end": 443.11,
+  "text": "create a folder I'm going to name this"
+ },
+ {
+  "start": 443.12,
+  "end": 446.95,
+  "text": "as repetition okay now I want to drag"
+ },
+ {
+  "start": 446.96,
+  "end": 448.869,
+  "text": "and drop this entire test case into"
+ },
+ {
+  "start": 448.879,
+  "end": 452.869,
+  "text": "repetition folder so if you see"
+ },
+ {
+  "start": 452.879,
+  "end": 457.43,
+  "text": "here under repetition so I'm just moving"
+ },
+ {
+  "start": 457.44,
+  "end": 460.27,
+  "text": "the module aside so that you can see how"
+ },
+ {
+  "start": 460.28,
+  "end": 463.029,
+  "text": "can I define the repetition folder okay"
+ },
+ {
+  "start": 463.039,
+  "end": 465.79,
+  "text": "I want to Define this folder"
+ },
+ {
+  "start": 465.8,
+  "end": 469.629,
+  "text": "repetition as six because I have six"
+ },
+ {
+  "start": 469.639,
+  "end": 471.99,
+  "text": "rows to drag and drop I'm going to"
+ },
+ {
+  "start": 472.0,
+  "end": 474.39,
+  "text": "define the repetition property for this"
+ },
+ {
+  "start": 474.4,
+  "end": 476.149,
+  "text": "folder as"
+ },
+ {
+  "start": 476.159,
+  "end": 481.469,
+  "text": "six okay now here as I told you I select"
+ },
+ {
+  "start": 481.479,
+  "end": 483.11,
+  "text": "the column"
+ },
+ {
+  "start": 483.12,
+  "end": 484.83,
+  "text": "ID"
+ },
+ {
+  "start": 484.84,
+  "end": 487.71,
+  "text": "and I need"
+ },
+ {
+  "start": 487.72,
+  "end": 489.39,
+  "text": "to"
+ },
+ {
+  "start": 489.4,
+  "end": 493.43,
+  "text": "drag one now so instead of dragging one"
+ },
+ {
+  "start": 493.44,
+  "end": 495.589,
+  "text": "I want to use the"
+ },
+ {
+  "start": 495.599,
+  "end": 498.51,
+  "text": "repetion property copy"
+ },
+ {
+  "start": 498.52,
+  "end": 502.23,
+  "text": "this and here open curly braces"
+ },
+ {
+  "start": 502.24,
+  "end": 505.99,
+  "text": "repetition Clos curly the cell value"
+ },
+ {
+  "start": 506.0,
+  "end": 509.95,
+  "text": "what happens first it comes as one"
+ },
+ {
+  "start": 509.96,
+  "end": 514.23,
+  "text": "now I want to"
+ },
+ {
+  "start": 514.24,
+  "end": 517.07,
+  "text": "drag close curly"
+ },
+ {
+  "start": 517.08,
+  "end": 522.029,
+  "text": "braces and here it is input instead of"
+ },
+ {
+  "start": 522.039,
+  "end": 524.829,
+  "text": "verify so what I'm doing here for the"
+ },
+ {
+  "start": 524.839,
+  "end": 527.03,
+  "text": "first time it comes as"
+ },
+ {
+  "start": 527.04,
+  "end": 529.03,
+  "text": "one"
+ },
+ {
+  "start": 529.04,
+  "end": 532.91,
+  "text": "and under repetition and then I'm"
+ },
+ {
+  "start": 532.92,
+  "end": 536.15,
+  "text": "dragging that particular cell okay under"
+ },
+ {
+  "start": 536.16,
+  "end": 540.269,
+  "text": "column ID that is done and and now I"
+ },
+ {
+  "start": 540.279,
+  "end": 544.47,
+  "text": "want to drop onto this table correct now"
+ },
+ {
+  "start": 544.48,
+  "end": 547.23,
+  "text": "I want to Simply drop I don't want to"
+ },
+ {
+  "start": 547.24,
+  "end": 549.269,
+  "text": "consider any row here I just need to"
+ },
+ {
+  "start": 549.279,
+  "end": 551.71,
+  "text": "drop onto the table that's why I'm going"
+ },
+ {
+  "start": 551.72,
+  "end": 556.23,
+  "text": "to Simply use drop method"
+ },
+ {
+  "start": 556.24,
+  "end": 560.03,
+  "text": "drop open curly braces and close curly"
+ },
+ {
+  "start": 560.04,
+  "end": 563.71,
+  "text": "braces right so now let us understand"
+ },
+ {
+  "start": 563.72,
+  "end": 566.75,
+  "text": "one more time what I'm doing here first"
+ },
+ {
+  "start": 566.76,
+  "end": 569.87,
+  "text": "I selected the column ID"
+ },
+ {
+  "start": 569.88,
+  "end": 571.67,
+  "text": "and that"
+ },
+ {
+  "start": 571.68,
+  "end": 574.79,
+  "text": "column what is the cell that I want to"
+ },
+ {
+  "start": 574.8,
+  "end": 578.63,
+  "text": "select first I want to select one that's"
+ },
+ {
+  "start": 578.64,
+  "end": 582.23,
+  "text": "why I'm using the repetition method here"
+ },
+ {
+  "start": 582.24,
+  "end": 585.43,
+  "text": "starts with one and it ends with six so"
+ },
+ {
+  "start": 585.44,
+  "end": 589.19,
+  "text": "the same I'm calling here repetition and"
+ },
+ {
+  "start": 589.2,
+  "end": 592.55,
+  "text": "I'm dragging that row and then I'm"
+ },
+ {
+  "start": 592.56,
+  "end": 595.509,
+  "text": "dropping on to"
+ },
+ {
+  "start": 595.519,
+  "end": 599.269,
+  "text": "table right so now let us run the test"
+ },
+ {
+  "start": 599.279,
+  "end": 604.79,
+  "text": "case and see if tasa can drag and drop"
+ },
+ {
+  "start": 604.8,
+  "end": 608.55,
+  "text": "all these rows to the completed tasks"
+ },
+ {
+  "start": 608.56,
+  "end": 610.79,
+  "text": "okay let me right click and"
+ },
+ {
+  "start": 610.8,
+  "end": 617.63,
+  "text": "run we will debug if we have any issues"
+ },
+ {
+  "start": 620.509,
+  "end": 620.519,
+  "text": "okay so it should pick up the last row"
+ },
+ {
+  "start": 620.519,
+  "end": 622.91,
+  "text": "because the repetition comes as"
+ },
+ {
+  "start": 622.92,
+  "end": 626.59,
+  "text": "one it pick up the r row but somehow it"
+ },
+ {
+  "start": 626.6,
+  "end": 629.71,
+  "text": "is not dropping into completed"
+ },
+ {
+  "start": 629.72,
+  "end": 634.949,
+  "text": "let's see what is the"
+ },
+ {
+  "start": 651.069,
+  "end": 651.079,
+  "text": "says could not"
+ },
+ {
+  "start": 651.079,
+  "end": 653.67,
+  "text": "complete could not find table it says"
+ },
+ {
+  "start": 653.68,
+  "end": 656.23,
+  "text": "could not find table okay let's see here"
+ },
+ {
+  "start": 656.24,
+  "end": 658.629,
+  "text": "miss okay so basically one thing here"
+ },
+ {
+  "start": 658.639,
+  "end": 660.91,
+  "text": "what we are one mistake is here I'm"
+ },
+ {
+  "start": 660.92,
+  "end": 663.389,
+  "text": "actually selecting I'm not selecting as"
+ },
+ {
+  "start": 663.399,
+  "end": 665.87,
+  "text": "input here so let me select as input and"
+ },
+ {
+  "start": 665.88,
+  "end": 667.55,
+  "text": "try one more time okay let's try this"
+ },
+ {
+  "start": 667.56,
+  "end": 669.949,
+  "text": "one more time okay so now right click"
+ },
+ {
+  "start": 669.959,
+  "end": 673.71,
+  "text": "and run in"
+ },
+ {
+  "start": 677.629,
+  "end": 677.639,
+  "text": "scratchbook let me now it should pick up"
+ },
+ {
+  "start": 677.639,
+  "end": 682.15,
+  "text": "one the last row and drop into completed"
+ },
+ {
+  "start": 682.16,
+  "end": 685.829,
+  "text": "tasks yes it is dropping and it should"
+ },
+ {
+  "start": 685.839,
+  "end": 688.15,
+  "text": "pick up two because the repetition"
+ },
+ {
+  "start": 688.16,
+  "end": 691.75,
+  "text": "folder sends repetition value as two and"
+ },
+ {
+  "start": 691.76,
+  "end": 697.15,
+  "text": "then three and then four right so it is"
+ },
+ {
+  "start": 697.16,
+  "end": 699.67,
+  "text": "dragging and dropping all the rows from"
+ },
+ {
+  "start": 699.68,
+  "end": 704.47,
+  "text": "to-do tasks to the completed"
+ },
+ {
+  "start": 709.67,
+  "end": 709.68,
+  "text": "tasks so our obstacle is successful so"
+ },
+ {
+  "start": 709.68,
+  "end": 712.389,
+  "text": "we solve the automation problem by using"
+ },
+ {
+  "start": 712.399,
+  "end": 715.949,
+  "text": "Tsar so what we are doing here we are"
+ },
+ {
+  "start": 715.959,
+  "end": 719.069,
+  "text": "actually dragging and dropping all all"
+ },
+ {
+  "start": 719.079,
+  "end": 721.11,
+  "text": "the rows from one web table to the"
+ },
+ {
+  "start": 721.12,
+  "end": 726.19,
+  "text": "another web table by using repetition"
+ },
+ {
+  "start": 726.2,
+  "end": 728.31,
+  "text": "operation so if you have any queries"
+ },
+ {
+  "start": 728.32,
+  "end": 729.79,
+  "text": "leave your queries in the comment box"
+ },
+ {
+  "start": 729.8,
+  "end": 731.43,
+  "text": "I'll try to respond to your"
+ },
+ {
+  "start": 731.44,
+  "end": 735.069,
+  "text": "queries hope you all understand how can"
+ },
+ {
+  "start": 735.079,
+  "end": 738.59,
+  "text": "you perform drag and drop operations"
+ },
+ {
+  "start": 738.6,
+  "end": 741.509,
+  "text": "while automating your web"
+ },
+ {
+  "start": 741.519,
+  "end": 745.35,
+  "text": "application by using trient to and also"
+ },
+ {
+  "start": 745.36,
+  "end": 747.949,
+  "text": "know now how can you use the repetion"
+ },
+ {
+  "start": 747.959,
+  "end": 752.47,
+  "text": "method trien Taska please do subscribe"
+ },
+ {
+  "start": 752.48,
+  "end": 754.67,
+  "text": "to the channel click on Bell icon you'll"
+ },
+ {
+  "start": 754.68,
+  "end": 757.829,
+  "text": "receive notifications whenever iish more"
+ },
+ {
+  "start": 757.839,
+  "end": 768.65,
+  "text": "videos thank"
+ },
+ {
+  "start": 770.639,
+  "end": 773.639,
+  "text": "you"
+ }
+]

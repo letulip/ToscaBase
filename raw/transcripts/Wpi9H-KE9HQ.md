@@ -1,0 +1,38 @@
+---
+id: "Wpi9H-KE9HQ"
+title: "TRICENTIS Tosca 16.0 - Lesson 27 | Conditional Statements - Part 1 | IF-THEN, ELSE Statements"
+url: "https://www.youtube.com/watch?v=Wpi9H-KE9HQ"
+channel: "Ravikanth FicusRoot - Tech Videos"
+playlist: "TRICENTIS Tosca Automation Tutorial"
+playlist_index: 32
+duration: 702
+upload_date: "20231017"
+source: "youtube-subs"
+language: "en"
+transcribed_at: "2026-09-04T14:27:37Z"
+status: "raw"
+---
+
+# TRICENTIS Tosca 16.0 - Lesson 27 | Conditional Statements - Part 1 | IF-THEN, ELSE Statements
+
+[00:13] hi everyone this is Ravi welcome to tricentis TSA Advanced Training tutorial so this is our lesson 12 if you compare with the Advanced Training and this is our lesson 27 if you consider it as an overall triena training so in this lesson I'm going to teach you how can we use if then conditional statements by using trient tasa while automating your test cases when you create if statements TSA will automatically create a then statement along with the condition object so you can also create an else statement via the context menu of if statements if required so adding El statement is an optional or you can add
+
+[01:15] this L statement by left clicking the if statement and selecting create object else statement from the dynamic menu test cases so if the condition is fulfilled the test steps are executed once in the then statement if the condition is not fulfilled then the test steps are run once in L statement so what is the order of conditions if you see the sequence first if comes and then second condition within the if statement later then within the if statement and then else it's an optional so now let's jump onto the system and see how can we automate test cases by using trient TSA with if then
+
+[02:18] conditional statements so this is my TSA right what I did I just created a new folder here called Lesson 12 if then statements correct and then I've created another a test case called I just created a test case right and then I renamed it as if then test case right so first before you automate your test case let us understand what is the test scenario that we are going to automate by using IF then condition okay so as usual we are going to navigate to web demo shop okay demo web shop okay so what I'm going to do see when you navigate to demo webshop if login link is visible then you click on login and then perform
+
+[03:19] login in case in case let's say once I login Okay click on login if in case I close the browser without log out right I close the browser without log out then what happens we'll see see as soon as you log in I mean as soon as you enter the URL the session is still showing you that means you already logged in so now I want to automate a scenario where if login link is visible then directly perform login if login is not visible then what does it mean the user is already login so now I want to perform if login is not visible then I want to click on log out and then I want to click on login and then I want to login right so let us see how can we
+
+[04:23] automate this okay so now if you see I have already arranged my modules right side okay so here first you need to insert your if statement how right click on your test case and then insert create if statement select this option okay if this one if what is the condition here I want to test so let us do one more thing okay before I enter the condition and then what what to do I want to introduce L statement also how can we do that again right click here if you see here I have a create El statement If You observe closely your if statement then it is showing left side Arrow your else statement showing right side Arrow okay so now if what is the condition my first
+
+[05:24] condition is if login link presents correct so here if you see this is my top menu okay just drag this and drop here if what is the condition I'll say login visible if login visible right so what I will do here login what I'm going to do here I'm going to select visible if this is visible true right then this is your condition you specified your condition now what action to be performed I want to click on login so again drag this drop menu top menu and drop it here and what is the action I want to click on then click login I'm just renaming the step Okay click login so what I'm going to do here I'm simply
+
+[06:25] enter the value as input done save this now else statement what is our else statement if login is not present that means user is already logged in right first you need to log out okay so for that again here L statement I'm going to drag this and drop here so if login is not visible that means you are already logged in correct so so here what I'm going to do I'm simply going to log out okay login is not visible means log out should be present and then I'm going to click on login now drag and drop into L statement itself okay log out and then login click on
+
+[07:26] login right but here again here if you see once you click on login in both the statements if login is visible I'm just clicking on login but along with that I want to enter my username and password correct so that's why I'm going to to Simply drag this and then drop it here I want to enter my username and password correct I can simply provide my username right and then provide your password right and then you click on login so you can simply copy this same step here if login does not visible then it goes to L statement right it's going to log out and then it's going to click on login and then you're going to
+
+[08:28] perform entering your username and password so now let us first run our first condition okay let us do one thing I already logged out that means when I launch this application your login is visible that means if statement should execute else statement should not execute okay let's run this right click and run in scratchbook so now let's see what happens it should click on login oh I think we forgot one thing here okay let's close this let's uh stop here okay because when we are verifying right we forgot to specify it as verify so what is the condition first condition I need to check if that is visible so if you see here here is visible I'm need to verify this I need not to input this I need to verify that okay so now again let's run this right click and run in
+
+[09:38] scratchbook now it should see if login is visible so in this case login is visible that means it's going to directly click on login button yes it clicked on login link and then it should enter your username password done now if I execute the test case again now because you already logged in right it should go to to else condition it should execute your else condition not if condition if condition will be false because login will not be visible it goes to else condition then it should perform log out and then login okay let's execute again this one without log out okay run this see now now login will not be visible for TSA and then it enters the else it should log out right so it's going to log out
+
+[10:40] now yeah it's logged out and then again it's going to click on login see and then it's going to enter your username and password perfect so that means now our if else condition is working successfully right if you see here the first condition does not matter right it went to Second condition else condition and everything is passed okay hope you all understand the concept of if then conditional statements and how can we use if then conditional statements in trient tasa while automating your test cases please do subscribe to the channel click on Bell icon you'll receive notifications whenever I publish more videos thank you

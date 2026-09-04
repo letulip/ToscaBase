@@ -1,0 +1,46 @@
+---
+id: "FQOIAiFzi5I"
+title: "TRICENTIS Tosca 16.0 - Lesson 70 | OBSTACLE #28 | Scan XML | Extract XML File Scan | Buffer Values"
+url: "https://www.youtube.com/watch?v=FQOIAiFzi5I"
+channel: "Ravikanth FicusRoot - Tech Videos"
+playlist: "TRICENTIS Tosca Automation Tutorial"
+playlist_index: 75
+duration: 924
+upload_date: "20250109"
+source: "youtube-subs"
+language: "en"
+transcribed_at: "2026-09-04T14:35:03Z"
+status: "raw"
+---
+
+# TRICENTIS Tosca 16.0 - Lesson 70 | OBSTACLE #28 | Scan XML | Extract XML File Scan | Buffer Values
+
+[00:13] hi everyone this is Ravi welcome to tricentis tasa automation tutorial as you all know I've already published 69 YouTube videos covering beginners level intermediate level and advanced level Concepts from few videos onwards I have started teaching you the realtime scenarios where you might encounter different types of obstacles and how can we solve those obstacles while automating the test cases please do subscribe to the channel click on Bell icon you'll receive notifications whenever I publish more videos this is our lesson 70 in terms of overall tricentis Tsar training and this is obstacle 28 in terms of real time scenarios in this lesson I'm going to teach you how can we solve an obstacle where you need to scan an XML and you need to retrieve the specific values
+
+[01:16] from the XML with the help of constraint and we have to enter those retrieved values into an application web application under edit box so now let us go to obstacle and see in detail what is the obstacle that we need to solve for so this is the obstacle list that we are working on so here is our obstacle that we are going to start working on the name of obstacle is get s number and which is categorized as hard let us go for it and understand what is the obstacle first you need to download the XML file manually I don't want to automate this one and extract the complete number including prefix of s with TSA so as soon as you click on catalog
+
+[02:20] it downloads you the XML file so I have already downloaded the XML file okay let us go to XML file so this is the XML file let me open this XML file you can see the XML file Here If You observe closely this catalog has a number with ID mic and then that ID mic has prefix number gener in the same way the second ID is Sue it has prefix number and general what we need to do we have to retrieve or we have to capture the prefix and number of Sue we have to capture the prefix and number of ID Sue so let me copy this
+
+[03:23] 0061 and go to application and enter the prefix here but again you have to also concatenate the number of the Sue copy and paste here so now you can see you solve the automation problem successfully let me try again what if instead of taking prefix and number of so if I take prefix prefix and number of the first one Nike what happens we'll see okay copy this first one prefix and this is my number see now your automation problem is not solved because you're not entering the prefix and number of ID Sue okay so now let us go to trient tasa and see how can we solve the problem as usual we are going to work on
+
+[04:23] right side which is module okay I would like to scan the object so before scanning the objects I would like to create a folder here so let me create a subfolder right click and create a sub folder module folder create folder name this as the obstacle name copy this and name with obstacle name so what we are going to do under this fer we have to store both separate objects what are those first one is we have to scan the catalog XML which is this one I'm going to store I'm going to store that as one module and also we have to scan the application
+
+[05:23] objects right I would like to store that as separate module first let us first scan the catalog XML what we need to do right click on this folder go to scan go to more and here you can find file scan select this one and now you need to scan the catalog XML right so I would like to go to the location where I have stored so this is the location catalog I have stored right select the catalog XML click on open so you can see here now there is a catalog request module that has been created which contains the entire Json structure it has a catalog number ID prefix number and general if you go to XML file
+
+[06:32] so you can see it has a number so this is the number number is under catalog under catalog right under number again you have prefix number gener see prefix number Jer so this also has ID see under number it has ID prefix number Jer so that's what it is showing it is showing the entire Json structure now let me scan the application as well so let's right click on this click on scan select application now what is the application I would like to scan this is the application that I would like to scan on scan what I need I need only this edit box number edit box
+
+[07:36] so I'm going to take this number edit box check check the you have to check this number edit box and then rename this module with the obstacle name we already copied that one okay let's rename this module with obstacle name now save the module so once you save the module close the X scan so let us go back to tr testos now you can see here this is your application related objects and this is your XML related module now we have all the objects that are required to automate the test case now let us automate the test case for that let's go to Left module related to test case which is blue color module okay under obstacle folder let's create a new test case name this with the
+
+[08:39] obstacle name double click on this now now you need to drag and drop modules onto the test case first I would like to drag and drop the catalon request onto the test case and then I would like to drag and drop the application related module onto the test case so let me expand this so here first I need to capture the specific values from the XML to capture the specific value from the XML first I need to open the XML so I need another step here to open XML go to right click and then search ADD test step now here you can use create open create XML file select this
+
+[09:39] one now this step should be at the top so here let me name this as catalog okay I will like to name this as catalog Resource as catalog I'm going to use this resource in the next steps and what is the path file path let's go to the file path so this is where we stored the file and paste it here and this is your catalog let me name let me take the name of XML as well copy do XML so that is done now come to catalog request that we scan the XML file right so here I would like to use the same name here as well the resource name same
+
+[10:41] resource name and now here under ID we would like to so we need to take value of prefix and number related to the ID soe right let's copy this copy this value and now I would like to use the constraint so here I'm going to enter Sue and I'm going to specify it as a constraint that means I'm instructing TSA to look for the ID su su then only start performing other actions so here what I would like to do I'm going to say prefix I'm going to store the value once it identifies the Sue ID then
+
+[11:41] the prefix should be stored under a buffer name called prefix so here your action mode should be buffer and number I'm going to say num also should be stored under buffer and and now you can simply call these two buffers to this edit box so we need to enter the value here right so to call the for open curly braces capital B open Square braces Rix close Square braces and then close curly braces and then you need to concatenates and then you need to concatenate it again I'm going to call the other buffer open curly braces capital B open Square braces num Clos Square Braes close curly Braes so you can see here now so what we
+
+[12:43] did first we are opening the XML catalog and then we are using constraint method to filter out the required I ID the required ID is Sue that's why I'm instructing tasar to take this one once it finds this Sue then start buffering the values of pref prefix and num so before the test so this is how we built the test case and then I'm entering the values of buffer in the edit box so before we create the test case what we did for the modules first we scan the XML that we have stored under a local folder and then we have scanned the application that is required to automate right now let us change the
+
+[13:43] work state as completed save the test case now let us run the test case right click and run in scratchbook before I done I would like to make sure try again now let's go back here now right click and run in scratchbook see it entered the value correctly so this is the prefix and this is the number so it is able to retrieve the values from XML and enter into the edit box as required for the S ID so if you have any queries leave your queries in the comment box I'll try to respond to your queries hope you all understand how can we solve an
+
+[14:45] obstacle where you need to scan an XML and you need to retrieve the specific values from the XML and enter those values into an application edit box please do subscribe to the channel click on Bell icon you'll receive notifications whenever I publish more videos thank you don't forget to like and share the video

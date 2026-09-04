@@ -1,0 +1,1302 @@
+[
+ {
+  "start": 14.19,
+  "end": 14.2,
+  "text": "hi everyone this is Ravi welcome to"
+ },
+ {
+  "start": 14.2,
+  "end": 17.07,
+  "text": "trient TOA automation"
+ },
+ {
+  "start": 17.08,
+  "end": 21.39,
+  "text": "tutorial this is our lesson 32 in terms"
+ },
+ {
+  "start": 21.4,
+  "end": 25.07,
+  "text": "of overall tricentis TOS automation"
+ },
+ {
+  "start": 25.08,
+  "end": 29.189,
+  "text": "Concepts and this is our lesson 17 in"
+ },
+ {
+  "start": 29.199,
+  "end": 34.59,
+  "text": "terms of lcen Tas advanced level"
+ },
+ {
+  "start": 38.069,
+  "end": 38.079,
+  "text": "Concepts in this lesson you will learn"
+ },
+ {
+  "start": 38.079,
+  "end": 42.35,
+  "text": "how can we use close programs and the"
+ },
+ {
+  "start": 42.36,
+  "end": 45.51,
+  "text": "method task kill while automating your"
+ },
+ {
+  "start": 45.52,
+  "end": 49.95,
+  "text": "test cases and while executing your tasa"
+ },
+ {
+  "start": 49.96,
+  "end": 54.069,
+  "text": "scripts so I'm also going to talk about"
+ },
+ {
+  "start": 54.079,
+  "end": 57.91,
+  "text": "standard modules called Start"
+ },
+ {
+  "start": 57.92,
+  "end": 60.189,
+  "text": "program which comes along with with the"
+ },
+ {
+  "start": 60.199,
+  "end": 62.99,
+  "text": "trient Tas so we are going to use this"
+ },
+ {
+  "start": 63.0,
+  "end": 67.469,
+  "text": "Start program standard module to perform"
+ },
+ {
+  "start": 67.479,
+  "end": 70.67,
+  "text": "close programs operation by using trient"
+ },
+ {
+  "start": 70.68,
+  "end": 74.23,
+  "text": "TSA while automating your test cases"
+ },
+ {
+  "start": 74.24,
+  "end": 76.23,
+  "text": "please do subscribe to the channel click"
+ },
+ {
+  "start": 76.24,
+  "end": 77.59,
+  "text": "on Bell icon you'll receive"
+ },
+ {
+  "start": 77.6,
+  "end": 79.55,
+  "text": "notifications whenever I publish more"
+ },
+ {
+  "start": 79.56,
+  "end": 83.27,
+  "text": "videos thank you now let us jump onto"
+ },
+ {
+  "start": 83.28,
+  "end": 86.51,
+  "text": "the system and see how can we perform"
+ },
+ {
+  "start": 86.52,
+  "end": 91.03,
+  "text": "Clos program operation by using tricas"
+ },
+ {
+  "start": 91.04,
+  "end": 92.429,
+  "text": "so this is my"
+ },
+ {
+  "start": 92.439,
+  "end": 95.83,
+  "text": "presenta I've created one folder called"
+ },
+ {
+  "start": 95.84,
+  "end": 96.99,
+  "text": "close"
+ },
+ {
+  "start": 97.0,
+  "end": 99.789,
+  "text": "programs under this folder I have"
+ },
+ {
+  "start": 99.799,
+  "end": 103.91,
+  "text": "created three different test cases okay"
+ },
+ {
+  "start": 103.92,
+  "end": 106.469,
+  "text": "first test case is to close the"
+ },
+ {
+  "start": 106.479,
+  "end": 109.55,
+  "text": "browser and the second test case is to"
+ },
+ {
+  "start": 109.56,
+  "end": 113.109,
+  "text": "close the notepad program and third test"
+ },
+ {
+  "start": 113.119,
+  "end": 116.19,
+  "text": "case is to close the tasar commander"
+ },
+ {
+  "start": 116.2,
+  "end": 118.31,
+  "text": "itself okay so"
+ },
+ {
+  "start": 118.32,
+  "end": 123.27,
+  "text": "now to close close any program there is"
+ },
+ {
+  "start": 123.28,
+  "end": 126.63,
+  "text": "a standard module as I told you okay so"
+ },
+ {
+  "start": 126.64,
+  "end": 129.99,
+  "text": "before we talk about using the standard"
+ },
+ {
+  "start": 130.0,
+  "end": 133.27,
+  "text": "module close program let us first go to"
+ },
+ {
+  "start": 133.28,
+  "end": 136.07,
+  "text": "Microsoft website and let us understand"
+ },
+ {
+  "start": 136.08,
+  "end": 141.39,
+  "text": "what is this task kill okay so our task"
+ },
+ {
+  "start": 141.4,
+  "end": 145.71,
+  "text": "kill is a method that is"
+ },
+ {
+  "start": 145.72,
+  "end": 150.07,
+  "text": "used to kill your programs so in this"
+ },
+ {
+  "start": 150.08,
+  "end": 153.39,
+  "text": "particular lesson we're going to use two"
+ },
+ {
+  "start": 153.4,
+  "end": 156.509,
+  "text": "different arguments the first argument"
+ },
+ {
+  "start": 156.519,
+  "end": 157.91,
+  "text": "is forward"
+ },
+ {
+  "start": 157.92,
+  "end": 162.63,
+  "text": "slash IM specifies the image name of the"
+ },
+ {
+  "start": 162.64,
+  "end": 164.949,
+  "text": "process to be"
+ },
+ {
+  "start": 164.959,
+  "end": 168.63,
+  "text": "terminated so this argument specifies"
+ },
+ {
+  "start": 168.64,
+  "end": 171.509,
+  "text": "the image name of the process to be"
+ },
+ {
+  "start": 171.519,
+  "end": 174.79,
+  "text": "terminated and the other argument is for"
+ },
+ {
+  "start": 174.8,
+  "end": 179.75,
+  "text": "slf specifies that processes be"
+ },
+ {
+  "start": 179.76,
+  "end": 182.309,
+  "text": "forcefully ended so if I give this"
+ },
+ {
+  "start": 182.319,
+  "end": 185.35,
+  "text": "argument that means forcefully end the"
+ },
+ {
+  "start": 185.36,
+  "end": 189.07,
+  "text": "program which I specified okay so now"
+ },
+ {
+  "start": 189.08,
+  "end": 191.149,
+  "text": "let us go back to trient"
+ },
+ {
+  "start": 191.159,
+  "end": 195.03,
+  "text": "Taska so here first I would like to add"
+ },
+ {
+  "start": 195.04,
+  "end": 197.55,
+  "text": "a test step to the Clos browser test"
+ },
+ {
+  "start": 197.56,
+  "end": 201.869,
+  "text": "case for that right click and click on"
+ },
+ {
+  "start": 201.879,
+  "end": 203.229,
+  "text": "ADD test"
+ },
+ {
+  "start": 203.239,
+  "end": 206.75,
+  "text": "step and here I'm going to call the"
+ },
+ {
+  "start": 206.76,
+  "end": 210.55,
+  "text": "module called Start program"
+ },
+ {
+  "start": 210.56,
+  "end": 212.509,
+  "text": "and this Start program is coming from"
+ },
+ {
+  "start": 212.519,
+  "end": 213.67,
+  "text": "standard"
+ },
+ {
+  "start": 213.68,
+  "end": 216.99,
+  "text": "modules right and standard modules"
+ },
+ {
+  "start": 217.0,
+  "end": 219.55,
+  "text": "process operations under standard"
+ },
+ {
+  "start": 219.56,
+  "end": 222.869,
+  "text": "modules process operations okay select"
+ },
+ {
+  "start": 222.879,
+  "end": 226.99,
+  "text": "this Start program and here so as you"
+ },
+ {
+  "start": 227.0,
+  "end": 229.589,
+  "text": "all know or if you are aware of the"
+ },
+ {
+  "start": 229.599,
+  "end": 233.509,
+  "text": "Start program standard module purpose is"
+ },
+ {
+  "start": 233.519,
+  "end": 237.509,
+  "text": "to start the program but also the same"
+ },
+ {
+  "start": 237.519,
+  "end": 239.27,
+  "text": "module can be used to kill the"
+ },
+ {
+  "start": 239.28,
+  "end": 240.589,
+  "text": "programmer"
+ },
+ {
+  "start": 240.599,
+  "end": 242.71,
+  "text": "so to start the program what we do we"
+ },
+ {
+  "start": 242.72,
+  "end": 244.63,
+  "text": "generally specify the path of the"
+ },
+ {
+  "start": 244.64,
+  "end": 249.93,
+  "text": "program let's assume it's a"
+ },
+ {
+  "start": 270.99,
+  "end": 271.0,
+  "text": "notepad let us say you want to close the"
+ },
+ {
+  "start": 271.0,
+  "end": 272.99,
+  "text": "sorry you want to start the notepad"
+ },
+ {
+  "start": 273.0,
+  "end": 274.95,
+  "text": "program so you're going to specify the"
+ },
+ {
+  "start": 274.96,
+  "end": 276.629,
+  "text": "path of your"
+ },
+ {
+  "start": 276.639,
+  "end": 279.83,
+  "text": "notepad from your system right that will"
+ },
+ {
+  "start": 279.84,
+  "end": 282.469,
+  "text": "start the program but here we are"
+ },
+ {
+  "start": 282.479,
+  "end": 284.39,
+  "text": "talking about killing the program so"
+ },
+ {
+  "start": 284.4,
+  "end": 286.07,
+  "text": "that's why instead of specifying the"
+ },
+ {
+  "start": 286.08,
+  "end": 289.39,
+  "text": "path of the program I'm going to specify"
+ },
+ {
+  "start": 289.4,
+  "end": 293.51,
+  "text": "task kill argument I'm going to pass the"
+ },
+ {
+  "start": 293.52,
+  "end": 297.83,
+  "text": "argument called task kill okay and then"
+ },
+ {
+  "start": 297.84,
+  "end": 299.909,
+  "text": "in the argument I'm going to pass pass"
+ },
+ {
+  "start": 299.919,
+  "end": 301.909,
+  "text": "my first argument"
+ },
+ {
+  "start": 301.919,
+  "end": 305.43,
+  "text": "image why let me tell you so I'm passing"
+ },
+ {
+  "start": 305.44,
+  "end": 307.71,
+  "text": "image because I'm going to kill the"
+ },
+ {
+  "start": 307.72,
+  "end": 310.71,
+  "text": "program based on the image what do you"
+ },
+ {
+  "start": 310.72,
+  "end": 313.55,
+  "text": "mean by that right click on go to your"
+ },
+ {
+  "start": 313.56,
+  "end": 317.95,
+  "text": "taskbar bottom taskbar right click and"
+ },
+ {
+  "start": 317.96,
+  "end": 319.79,
+  "text": "click on task"
+ },
+ {
+  "start": 319.8,
+  "end": 322.15,
+  "text": "manager as soon as you click on task"
+ },
+ {
+  "start": 322.16,
+  "end": 325.59,
+  "text": "manager it opens all the programs that"
+ },
+ {
+  "start": 325.6,
+  "end": 328.15,
+  "text": "are running in your system all the"
+ },
+ {
+  "start": 328.16,
+  "end": 330.95,
+  "text": "processes that are running your system"
+ },
+ {
+  "start": 330.96,
+  "end": 334.87,
+  "text": "if you see in my system Google Chrome"
+ },
+ {
+  "start": 334.88,
+  "end": 336.79,
+  "text": "Microsoft teams"
+ },
+ {
+  "start": 336.8,
+  "end": 339.27,
+  "text": "notepad Taska Commander all these"
+ },
+ {
+  "start": 339.28,
+  "end": 341.629,
+  "text": "programs are running so now I would like"
+ },
+ {
+  "start": 341.639,
+  "end": 344.67,
+  "text": "to see the image name how can we do"
+ },
+ {
+  "start": 344.68,
+  "end": 348.11,
+  "text": "that just right click on any one of the"
+ },
+ {
+  "start": 348.12,
+  "end": 350.59,
+  "text": "processes and click on go to"
+ },
+ {
+  "start": 350.6,
+  "end": 354.189,
+  "text": "detail and if you see it actually takes"
+ },
+ {
+  "start": 354.199,
+  "end": 356.309,
+  "text": "you to the details you can see this is"
+ },
+ {
+  "start": 356.319,
+  "end": 359.07,
+  "text": "your process ID and this is your process"
+ },
+ {
+  "start": 359.08,
+  "end": 360.029,
+  "text": "name"
+ },
+ {
+  "start": 360.039,
+  "end": 363.79,
+  "text": "you see Chrome has multiple"
+ },
+ {
+  "start": 363.8,
+  "end": 366.629,
+  "text": "instances one program has multiple"
+ },
+ {
+  "start": 366.639,
+  "end": 369.87,
+  "text": "process IDs right so now I need just"
+ },
+ {
+  "start": 369.88,
+  "end": 373.79,
+  "text": "program name which is chrome.exe so let"
+ },
+ {
+  "start": 373.8,
+  "end": 377.83,
+  "text": "us go back to here I want to insert the"
+ },
+ {
+  "start": 377.84,
+  "end": 381.27,
+  "text": "program name as an argument"
+ },
+ {
+  "start": 381.28,
+  "end": 383.35,
+  "text": "chrome.exe"
+ },
+ {
+  "start": 383.36,
+  "end": 386.629,
+  "text": "and now I would like to pass another"
+ },
+ {
+  "start": 386.639,
+  "end": 389.83,
+  "text": "argument kill the program forcefully"
+ },
+ {
+  "start": 389.84,
+  "end": 393.629,
+  "text": "which is forward slash"
+ },
+ {
+  "start": 393.639,
+  "end": 399.469,
+  "text": "F so now this test will kill the program"
+ },
+ {
+  "start": 399.479,
+  "end": 401.07,
+  "text": "called"
+ },
+ {
+  "start": 401.08,
+  "end": 404.07,
+  "text": "browser okay so now let us see how can"
+ },
+ {
+  "start": 404.08,
+  "end": 405.79,
+  "text": "we kill the program called"
+ },
+ {
+  "start": 405.8,
+  "end": 409.39,
+  "text": "Notepad for that again right click click"
+ },
+ {
+  "start": 409.4,
+  "end": 411.35,
+  "text": "on ADD"
+ },
+ {
+  "start": 411.36,
+  "end": 415.189,
+  "text": "tester and same way I'm going to call"
+ },
+ {
+  "start": 415.199,
+  "end": 420.11,
+  "text": "Start Program from standard modules"
+ },
+ {
+  "start": 420.12,
+  "end": 423.99,
+  "text": "right which is from process"
+ },
+ {
+  "start": 427.909,
+  "end": 427.919,
+  "text": "operations and this time again in the"
+ },
+ {
+  "start": 427.919,
+  "end": 431.029,
+  "text": "path I'm going to specify toask"
+ },
+ {
+  "start": 431.039,
+  "end": 433.909,
+  "text": "kill right and"
+ },
+ {
+  "start": 433.919,
+  "end": 439.67,
+  "text": "then here under arguments I'm going to"
+ },
+ {
+  "start": 439.68,
+  "end": 441.83,
+  "text": "pass"
+ },
+ {
+  "start": 441.84,
+  "end": 444.83,
+  "text": "forcefully kill the program and then"
+ },
+ {
+  "start": 444.84,
+  "end": 448.309,
+  "text": "here I would like to close the notepad++"
+ },
+ {
+  "start": 448.319,
+  "end": 451.67,
+  "text": "notepad Plus+ is open already so let's"
+ },
+ {
+  "start": 451.68,
+  "end": 454.55,
+  "text": "again go to right click in the task"
+ },
+ {
+  "start": 454.56,
+  "end": 456.83,
+  "text": "manager click on task"
+ },
+ {
+  "start": 456.84,
+  "end": 461.27,
+  "text": "manager and then see the process notepad"
+ },
+ {
+  "start": 461.28,
+  "end": 465.189,
+  "text": "is running in my system so now you need"
+ },
+ {
+  "start": 465.199,
+  "end": 467.51,
+  "text": "to right click on"
+ },
+ {
+  "start": 467.52,
+  "end": 471.27,
+  "text": "the program or process and click on go"
+ },
+ {
+  "start": 471.28,
+  "end": 472.43,
+  "text": "to"
+ },
+ {
+  "start": 472.44,
+  "end": 476.589,
+  "text": "detail and here you will find the"
+ },
+ {
+  "start": 476.599,
+  "end": 479.83,
+  "text": "program name what is the program name"
+ },
+ {
+  "start": 479.84,
+  "end": 483.51,
+  "text": "notepad++ do exe so I'm going to specify"
+ },
+ {
+  "start": 483.52,
+  "end": 485.029,
+  "text": "the program name"
+ },
+ {
+  "start": 485.039,
+  "end": 487.79,
+  "text": "here"
+ },
+ {
+  "start": 487.8,
+  "end": 492.029,
+  "text": "notepad++ do"
+ },
+ {
+  "start": 492.039,
+  "end": 496.51,
+  "text": "exe and now I'm going to specify another"
+ },
+ {
+  "start": 496.52,
+  "end": 500.189,
+  "text": "argument forward sorry the main image"
+ },
+ {
+  "start": 500.199,
+  "end": 501.79,
+  "text": "right this is actually I'm killing the"
+ },
+ {
+  "start": 501.8,
+  "end": 502.83,
+  "text": "image"
+ },
+ {
+  "start": 502.84,
+  "end": 506.189,
+  "text": "notepad++ do exe I'm specifying the"
+ },
+ {
+  "start": 506.199,
+  "end": 512.469,
+  "text": "image as well right and now let"
+ },
+ {
+  "start": 512.479,
+  "end": 516.469,
+  "text": "us run the test cases whatever we"
+ },
+ {
+  "start": 516.479,
+  "end": 519.35,
+  "text": "automated till okay first I would like"
+ },
+ {
+  "start": 519.36,
+  "end": 522.389,
+  "text": "to run the test case close"
+ },
+ {
+  "start": 522.399,
+  "end": 526.23,
+  "text": "browser so if you see here bottom I see"
+ },
+ {
+  "start": 526.24,
+  "end": 530.389,
+  "text": "one two three different tabs and also I"
+ },
+ {
+  "start": 530.399,
+  "end": 531.67,
+  "text": "have a separate"
+ },
+ {
+  "start": 531.68,
+  "end": 535.11,
+  "text": "window Chrome browser okay so now let us"
+ },
+ {
+  "start": 535.12,
+  "end": 537.31,
+  "text": "just run the test"
+ },
+ {
+  "start": 537.32,
+  "end": 541.23,
+  "text": "case right click and run close browser"
+ },
+ {
+  "start": 541.24,
+  "end": 543.269,
+  "text": "so if you just observe at the bottom"
+ },
+ {
+  "start": 543.279,
+  "end": 547.87,
+  "text": "it's going to close all the Chrome"
+ },
+ {
+  "start": 547.88,
+  "end": 551.63,
+  "text": "browsers see it killed all your Chrome"
+ },
+ {
+  "start": 551.64,
+  "end": 553.99,
+  "text": "browsers now you don't see any Chrome"
+ },
+ {
+  "start": 554.0,
+  "end": 557.63,
+  "text": "browsers here right so started argument"
+ },
+ {
+  "start": 557.64,
+  "end": 560.55,
+  "text": "and it killed everything so now let me"
+ },
+ {
+  "start": 560.56,
+  "end": 564.829,
+  "text": "run another test case close"
+ },
+ {
+  "start": 564.839,
+  "end": 567.87,
+  "text": "notepad notepad++ so this is your"
+ },
+ {
+  "start": 567.88,
+  "end": 570.59,
+  "text": "notepad so I'm going to right click and"
+ },
+ {
+  "start": 570.6,
+  "end": 573.67,
+  "text": "then click on run in scratchbook so if"
+ },
+ {
+  "start": 573.68,
+  "end": 578.67,
+  "text": "you see this notepad++ should be closed"
+ },
+ {
+  "start": 578.68,
+  "end": 585.99,
+  "text": "now yes so now you can see the notepad++"
+ },
+ {
+  "start": 589.03,
+  "end": 589.04,
+  "text": "I think it's not closed I understand the"
+ },
+ {
+  "start": 589.04,
+  "end": 591.87,
+  "text": "reason is see you need to specify the"
+ },
+ {
+  "start": 591.88,
+  "end": 596.79,
+  "text": "image here okay let us specify the image"
+ },
+ {
+  "start": 596.8,
+  "end": 599.87,
+  "text": "and then you need to specify the"
+ },
+ {
+  "start": 599.88,
+  "end": 603.63,
+  "text": "notepad++"
+ },
+ {
+  "start": 608.43,
+  "end": 608.44,
+  "text": "dotexe okay so I specified the notepad++"
+ },
+ {
+  "start": 608.44,
+  "end": 610.15,
+  "text": "dotexe"
+ },
+ {
+  "start": 610.16,
+  "end": 614.19,
+  "text": "then now let us run your test case so"
+ },
+ {
+  "start": 614.2,
+  "end": 616.99,
+  "text": "let me run the test case right click"
+ },
+ {
+  "start": 617.0,
+  "end": 621.47,
+  "text": "notepad++ do exe right click and then"
+ },
+ {
+  "start": 621.48,
+  "end": 627.509,
+  "text": "run your command run your test"
+ },
+ {
+  "start": 629.55,
+  "end": 629.56,
+  "text": "case so now"
+ },
+ {
+  "start": 629.56,
+  "end": 633.15,
+  "text": "you you can see now your notepad++ has"
+ },
+ {
+  "start": 633.16,
+  "end": 634.31,
+  "text": "been"
+ },
+ {
+  "start": 634.32,
+  "end": 636.19,
+  "text": "closed"
+ },
+ {
+  "start": 636.2,
+  "end": 639.99,
+  "text": "okay so what we did is actually the"
+ },
+ {
+  "start": 640.0,
+  "end": 641.67,
+  "text": "arguments right the sequence of"
+ },
+ {
+  "start": 641.68,
+  "end": 645.269,
+  "text": "arguments should be you need to"
+ },
+ {
+  "start": 645.279,
+  "end": 648.99,
+  "text": "specify image and then your program that"
+ },
+ {
+  "start": 649.0,
+  "end": 651.67,
+  "text": "you would like to close Okay that's the"
+ },
+ {
+  "start": 651.68,
+  "end": 655.19,
+  "text": "sequence okay so this is done now let us"
+ },
+ {
+  "start": 655.2,
+  "end": 658.71,
+  "text": "assume I would like to run these test"
+ },
+ {
+  "start": 658.72,
+  "end": 660.87,
+  "text": "cases I mean whatever the test cases I"
+ },
+ {
+  "start": 660.88,
+  "end": 663.91,
+  "text": "automated by using TR Tas by using batch"
+ },
+ {
+  "start": 663.92,
+  "end": 666.47,
+  "text": "file let's assume for that you don't"
+ },
+ {
+  "start": 666.48,
+  "end": 669.75,
+  "text": "need this tasa Commander if you would"
+ },
+ {
+  "start": 669.76,
+  "end": 672.03,
+  "text": "like to run your tasa scripts by using"
+ },
+ {
+  "start": 672.04,
+  "end": 675.19,
+  "text": "shell script or by using batch file then"
+ },
+ {
+  "start": 675.2,
+  "end": 678.03,
+  "text": "you don't need Tasco Commander itself so"
+ },
+ {
+  "start": 678.04,
+  "end": 679.949,
+  "text": "for that you need to close your Tasco"
+ },
+ {
+  "start": 679.959,
+  "end": 682.91,
+  "text": "Commander also right so let's just right"
+ },
+ {
+  "start": 682.92,
+  "end": 685.43,
+  "text": "click and add your"
+ },
+ {
+  "start": 685.44,
+  "end": 689.509,
+  "text": "step and here again call the module"
+ },
+ {
+  "start": 689.519,
+  "end": 693.829,
+  "text": "called Start Program from your standard"
+ },
+ {
+  "start": 693.839,
+  "end": 698.03,
+  "text": "module okay and here let me first"
+ },
+ {
+  "start": 698.04,
+  "end": 702.43,
+  "text": "specify again task"
+ },
+ {
+  "start": 702.44,
+  "end": 706.11,
+  "text": "kill and then in the"
+ },
+ {
+  "start": 706.12,
+  "end": 711.75,
+  "text": "argument for slim that is image and here"
+ },
+ {
+  "start": 711.76,
+  "end": 715.069,
+  "text": "let us go to our task manager right"
+ },
+ {
+  "start": 715.079,
+  "end": 716.79,
+  "text": "click on the taskar click on task"
+ },
+ {
+  "start": 716.8,
+  "end": 719.99,
+  "text": "manager and here let us take the program"
+ },
+ {
+  "start": 720.0,
+  "end": 723.35,
+  "text": "name of your tasar commander so if you"
+ },
+ {
+  "start": 723.36,
+  "end": 726.43,
+  "text": "see my tasar commander is running so"
+ },
+ {
+  "start": 726.44,
+  "end": 730.47,
+  "text": "right click and click on go to details"
+ },
+ {
+  "start": 730.48,
+  "end": 734.389,
+  "text": "or so you can see my Tasco Commander"
+ },
+ {
+  "start": 734.399,
+  "end": 738.11,
+  "text": "program these many instances going on"
+ },
+ {
+  "start": 738.12,
+  "end": 740.75,
+  "text": "agent is running console is running so I"
+ },
+ {
+  "start": 740.76,
+  "end": 743.55,
+  "text": "want tasar Commander to be killed right"
+ },
+ {
+  "start": 743.56,
+  "end": 746.03,
+  "text": "click on Tasco Commander click on go to"
+ },
+ {
+  "start": 746.04,
+  "end": 749.43,
+  "text": "detail and here what is the name of your"
+ },
+ {
+  "start": 749.44,
+  "end": 753.189,
+  "text": "program the name of program is TSA"
+ },
+ {
+  "start": 753.199,
+  "end": 757.23,
+  "text": "commander. exe tsco commander. ex let's"
+ },
+ {
+  "start": 757.24,
+  "end": 760.069,
+  "text": "scroll down here see tasar commander."
+ },
+ {
+  "start": 760.079,
+  "end": 763.55,
+  "text": "exe so I'm going to specify Tsar"
+ },
+ {
+  "start": 763.56,
+  "end": 765.91,
+  "text": "commander."
+ },
+ {
+  "start": 765.92,
+  "end": 767.59,
+  "text": "exe"
+ },
+ {
+  "start": 767.6,
+  "end": 769.67,
+  "text": "tosa"
+ },
+ {
+  "start": 769.68,
+  "end": 772.269,
+  "text": "commander."
+ },
+ {
+  "start": 772.279,
+  "end": 776.43,
+  "text": "exe okay and another argument is for"
+ },
+ {
+  "start": 776.44,
+  "end": 782.069,
+  "text": "slash F for close the program so now"
+ },
+ {
+  "start": 782.079,
+  "end": 784.269,
+  "text": "because this toas Commander will be"
+ },
+ {
+  "start": 784.279,
+  "end": 785.91,
+  "text": "closed I'm going to save the task"
+ },
+ {
+  "start": 785.92,
+  "end": 788.43,
+  "text": "whatever we did so now when I run this"
+ },
+ {
+  "start": 788.44,
+  "end": 792.269,
+  "text": "particular test case it closes your task"
+ },
+ {
+  "start": 792.279,
+  "end": 795.43,
+  "text": "of Commander itself okay let's run the"
+ },
+ {
+  "start": 795.44,
+  "end": 800.509,
+  "text": "test case okay right click and"
+ },
+ {
+  "start": 800.519,
+  "end": 806.35,
+  "text": "run your Tasco Commander will be"
+ },
+ {
+  "start": 809.43,
+  "end": 809.44,
+  "text": "closed done it's closed your Tasco"
+ },
+ {
+  "start": 809.44,
+  "end": 811.55,
+  "text": "Commander Clos let's go to your windows"
+ },
+ {
+  "start": 811.56,
+  "end": 814.67,
+  "text": "okay so if you see your Tasco Commander"
+ },
+ {
+  "start": 814.68,
+  "end": 819.509,
+  "text": "is no more visible right so this is how"
+ },
+ {
+  "start": 819.519,
+  "end": 825.55,
+  "text": "you can use close program by using tbox"
+ },
+ {
+  "start": 825.56,
+  "end": 827.189,
+  "text": "Start program"
+ },
+ {
+  "start": 827.199,
+  "end": 829.91,
+  "text": "module so if you have any queries leave"
+ },
+ {
+  "start": 829.92,
+  "end": 831.59,
+  "text": "your queries in the comment box I'll try"
+ },
+ {
+  "start": 831.6,
+  "end": 832.87,
+  "text": "to respond to your"
+ },
+ {
+  "start": 832.88,
+  "end": 835.79,
+  "text": "queries hope you all understand the"
+ },
+ {
+  "start": 835.8,
+  "end": 839.509,
+  "text": "concept of close program"
+ },
+ {
+  "start": 839.519,
+  "end": 843.629,
+  "text": "and how can we use task kill by using"
+ },
+ {
+  "start": 843.639,
+  "end": 846.269,
+  "text": "tricentis tasa while automating your"
+ },
+ {
+  "start": 846.279,
+  "end": 849.79,
+  "text": "test cases or while executing your test"
+ },
+ {
+  "start": 849.8,
+  "end": 853.069,
+  "text": "cases please do subscribe to the channel"
+ },
+ {
+  "start": 853.079,
+  "end": 854.59,
+  "text": "click on Bell icon you'll receive"
+ },
+ {
+  "start": 854.6,
+  "end": 856.749,
+  "text": "notifications whenever I publish more"
+ },
+ {
+  "start": 856.759,
+  "end": 867.67,
+  "text": "videos thank"
+ }
+]

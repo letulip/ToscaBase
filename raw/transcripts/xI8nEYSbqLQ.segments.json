@@ -1,0 +1,1437 @@
+[
+ {
+  "start": 1.68,
+  "end": 4.85,
+  "text": "foreign"
+ },
+ {
+  "start": 14.15,
+  "end": 14.16,
+  "text": "this is Ravi welcome back to try"
+ },
+ {
+  "start": 14.16,
+  "end": 17.269,
+  "text": "sentence Tasker automation tutorial"
+ },
+ {
+  "start": 17.279,
+  "end": 19.37,
+  "text": "so as you all know till now I have"
+ },
+ {
+  "start": 19.38,
+  "end": 21.849,
+  "text": "published around five YouTube videos"
+ },
+ {
+  "start": 21.859,
+  "end": 24.49,
+  "text": "covering the basic concepts of"
+ },
+ {
+  "start": 24.5,
+  "end": 28.13,
+  "text": "tricentious Tasker 16 version"
+ },
+ {
+  "start": 28.14,
+  "end": 30.65,
+  "text": "so from this session onwards so we'll"
+ },
+ {
+  "start": 30.66,
+  "end": 34.25,
+  "text": "start automating the test cases and then"
+ },
+ {
+  "start": 34.26,
+  "end": 37.31,
+  "text": "we'll start learning different concepts"
+ },
+ {
+  "start": 37.32,
+  "end": 39.53,
+  "text": "and techniques that we are going to use"
+ },
+ {
+  "start": 39.54,
+  "end": 41.99,
+  "text": "by using Tasker"
+ },
+ {
+  "start": 42.0,
+  "end": 43.91,
+  "text": "so as part of that"
+ },
+ {
+  "start": 43.92,
+  "end": 48.049,
+  "text": "it's very necessary to know about the"
+ },
+ {
+  "start": 48.059,
+  "end": 51.049,
+  "text": "introduction to xscan so this is our"
+ },
+ {
+  "start": 51.059,
+  "end": 54.65,
+  "text": "lesson six where I'm gonna introduce you"
+ },
+ {
+  "start": 54.66,
+  "end": 60.709,
+  "text": "to xcan and how can you scan your system"
+ },
+ {
+  "start": 60.719,
+  "end": 66.53,
+  "text": "under test by using xcan in Tosca 16."
+ },
+ {
+  "start": 66.54,
+  "end": 69.23,
+  "text": "please do subscribe to the channel click"
+ },
+ {
+  "start": 69.24,
+  "end": 70.67,
+  "text": "on Bell icon you'll receive"
+ },
+ {
+  "start": 70.68,
+  "end": 73.429,
+  "text": "notifications whenever I publish more"
+ },
+ {
+  "start": 73.439,
+  "end": 74.33,
+  "text": "videos"
+ },
+ {
+  "start": 74.34,
+  "end": 76.429,
+  "text": "thank you"
+ },
+ {
+  "start": 76.439,
+  "end": 79.91,
+  "text": "okay so what is our agenda"
+ },
+ {
+  "start": 79.92,
+  "end": 82.07,
+  "text": "so by this lesson"
+ },
+ {
+  "start": 82.08,
+  "end": 85.37,
+  "text": "you're gonna learn how to navigate a"
+ },
+ {
+  "start": 85.38,
+  "end": 86.39,
+  "text": "scan"
+ },
+ {
+  "start": 86.4,
+  "end": 89.45,
+  "text": "and then how can you use the different"
+ },
+ {
+  "start": 89.46,
+  "end": 92.81,
+  "text": "x-can views and the buttons that are"
+ },
+ {
+  "start": 92.82,
+  "end": 95.87,
+  "text": "available under xcan window"
+ },
+ {
+  "start": 95.88,
+  "end": 98.51,
+  "text": "and also you will be able to identify"
+ },
+ {
+  "start": 98.52,
+  "end": 103.13,
+  "text": "the controls by properties and by anchor"
+ },
+ {
+  "start": 103.14,
+  "end": 105.89,
+  "text": "and what are all the different basic"
+ },
+ {
+  "start": 105.9,
+  "end": 111.05,
+  "text": "views available in xcan and what is"
+ },
+ {
+  "start": 111.06,
+  "end": 114.289,
+  "text": "Advanced View and what you can access by"
+ },
+ {
+  "start": 114.299,
+  "end": 117.41,
+  "text": "using Advanced view in xscan and also"
+ },
+ {
+  "start": 117.42,
+  "end": 120.17,
+  "text": "what is the purpose of select on screen"
+ },
+ {
+  "start": 120.18,
+  "end": 122.99,
+  "text": "option in xcan"
+ },
+ {
+  "start": 123.0,
+  "end": 125.749,
+  "text": "and also I'm gonna teach you how can you"
+ },
+ {
+  "start": 125.759,
+  "end": 129.05,
+  "text": "use the condensed view of your xcap"
+ },
+ {
+  "start": 129.06,
+  "end": 131.809,
+  "text": "and then how can you save the controls"
+ },
+ {
+  "start": 131.819,
+  "end": 135.07,
+  "text": "to your module and how can you create"
+ },
+ {
+  "start": 135.08,
+  "end": 140.69,
+  "text": "the module in task okay so I think the"
+ },
+ {
+  "start": 140.7,
+  "end": 143.449,
+  "text": "identification control by using"
+ },
+ {
+  "start": 143.459,
+  "end": 145.369,
+  "text": "properties and anchor that I'm going to"
+ },
+ {
+  "start": 145.379,
+  "end": 147.41,
+  "text": "cover in the next session but restore"
+ },
+ {
+  "start": 147.42,
+  "end": 150.19,
+  "text": "all the topics how can we navigate"
+ },
+ {
+  "start": 150.2,
+  "end": 154.67,
+  "text": "through xcan what is the purpose of xcan"
+ },
+ {
+  "start": 154.68,
+  "end": 158.33,
+  "text": "how can we use the xcan in Tasker in"
+ },
+ {
+  "start": 158.34,
+  "end": 160.19,
+  "text": "capture in the controls that I'm gonna"
+ },
+ {
+  "start": 160.2,
+  "end": 163.25,
+  "text": "teach you in this lesson now let's jump"
+ },
+ {
+  "start": 163.26,
+  "end": 165.35,
+  "text": "onto the system and see"
+ },
+ {
+  "start": 165.36,
+  "end": 168.589,
+  "text": "how can we navigate through xcan and"
+ },
+ {
+  "start": 168.599,
+  "end": 169.79,
+  "text": "what are all the different views"
+ },
+ {
+  "start": 169.8,
+  "end": 172.07,
+  "text": "available in the xcan and what are the"
+ },
+ {
+  "start": 172.08,
+  "end": 174.35,
+  "text": "different buttons that we have in the"
+ },
+ {
+  "start": 174.36,
+  "end": 178.19,
+  "text": "x-can hunt and how can we use them okay"
+ },
+ {
+  "start": 178.2,
+  "end": 180.83,
+  "text": "so now let's jump out of the system"
+ },
+ {
+  "start": 180.84,
+  "end": 184.369,
+  "text": "so uh this is my try sentence task 16"
+ },
+ {
+  "start": 184.379,
+  "end": 187.19,
+  "text": "version okay so now let's see"
+ },
+ {
+  "start": 187.2,
+  "end": 190.43,
+  "text": "what is this sex scan and whatever the"
+ },
+ {
+  "start": 190.44,
+  "end": 193.729,
+  "text": "discussion points that have told you"
+ },
+ {
+  "start": 193.739,
+  "end": 198.41,
+  "text": "let's see practically okay so this is my"
+ },
+ {
+  "start": 198.42,
+  "end": 200.149,
+  "text": "module section so I have already"
+ },
+ {
+  "start": 200.159,
+  "end": 202.309,
+  "text": "explained you regarding these sections"
+ },
+ {
+  "start": 202.319,
+  "end": 205.369,
+  "text": "in my previous session okay so you need"
+ },
+ {
+  "start": 205.379,
+  "end": 207.29,
+  "text": "to navigate to module section"
+ },
+ {
+  "start": 207.3,
+  "end": 212.03,
+  "text": "and then right click on your module"
+ },
+ {
+  "start": 212.04,
+  "end": 214.009,
+  "text": "parent folder"
+ },
+ {
+  "start": 214.019,
+  "end": 217.07,
+  "text": "and then select scan"
+ },
+ {
+  "start": 217.08,
+  "end": 219.11,
+  "text": "and you have to select the scan"
+ },
+ {
+  "start": 219.12,
+  "end": 223.19,
+  "text": "application because we are testing or we"
+ },
+ {
+  "start": 223.2,
+  "end": 224.99,
+  "text": "are automating an application right"
+ },
+ {
+  "start": 225.0,
+  "end": 227.809,
+  "text": "select an application so this will bring"
+ },
+ {
+  "start": 227.819,
+  "end": 231.71,
+  "text": "you a new window to select your"
+ },
+ {
+  "start": 231.72,
+  "end": 234.47,
+  "text": "application so basically it brings you"
+ },
+ {
+  "start": 234.48,
+  "end": 238.13,
+  "text": "all the applications that are opened in"
+ },
+ {
+  "start": 238.14,
+  "end": 239.39,
+  "text": "your system"
+ },
+ {
+  "start": 239.4,
+  "end": 243.89,
+  "text": "right so I need to scan my demo webshop"
+ },
+ {
+  "start": 243.9,
+  "end": 247.309,
+  "text": "application so as I told you will be"
+ },
+ {
+  "start": 247.319,
+  "end": 250.49,
+  "text": "using the demo webshop that is provided"
+ },
+ {
+  "start": 250.5,
+  "end": 252.41,
+  "text": "by try centers okay I explained you"
+ },
+ {
+  "start": 252.42,
+  "end": 254.63,
+  "text": "about this demo a web shop in my"
+ },
+ {
+  "start": 254.64,
+  "end": 256.49,
+  "text": "previous session so I would recommend"
+ },
+ {
+  "start": 256.5,
+  "end": 259.009,
+  "text": "you guys to go through this"
+ },
+ {
+  "start": 259.019,
+  "end": 262.189,
+  "text": "session okay so select the application"
+ },
+ {
+  "start": 262.199,
+  "end": 264.23,
+  "text": "that you would like to scan and then"
+ },
+ {
+  "start": 264.24,
+  "end": 267.59,
+  "text": "click on scan"
+ },
+ {
+  "start": 267.6,
+  "end": 270.89,
+  "text": "so as soon as you click on scan you will"
+ },
+ {
+  "start": 270.9,
+  "end": 274.55,
+  "text": "be landing onto your xcan window"
+ },
+ {
+  "start": 274.56,
+  "end": 278.51,
+  "text": "and this is your basic view of your"
+ },
+ {
+  "start": 278.52,
+  "end": 280.79,
+  "text": "x-can okay"
+ },
+ {
+  "start": 280.8,
+  "end": 282.89,
+  "text": "so as soon as you're landing on to the"
+ },
+ {
+  "start": 282.9,
+  "end": 286.85,
+  "text": "basic VRU your x-scan right now you can"
+ },
+ {
+  "start": 286.86,
+  "end": 289.43,
+  "text": "directly start adding the objects that"
+ },
+ {
+  "start": 289.44,
+  "end": 292.31,
+  "text": "you would like to automate okay controls"
+ },
+ {
+  "start": 292.32,
+  "end": 296.03,
+  "text": "okay let's say I want to add register"
+ },
+ {
+  "start": 296.04,
+  "end": 297.95,
+  "text": "you need to just"
+ },
+ {
+  "start": 297.96,
+  "end": 299.93,
+  "text": "single click on register"
+ },
+ {
+  "start": 299.94,
+  "end": 304.249,
+  "text": "that will add the control to your xcan"
+ },
+ {
+  "start": 304.259,
+  "end": 306.53,
+  "text": "and then login"
+ },
+ {
+  "start": 306.54,
+  "end": 309.11,
+  "text": "that adds your control"
+ },
+ {
+  "start": 309.12,
+  "end": 311.45,
+  "text": "and this is your basic View"
+ },
+ {
+  "start": 311.46,
+  "end": 316.129,
+  "text": "okay and what is Advanced View okay if"
+ },
+ {
+  "start": 316.139,
+  "end": 318.77,
+  "text": "you click on Advanced View"
+ },
+ {
+  "start": 318.78,
+  "end": 321.23,
+  "text": "the difference in the basic and advanced"
+ },
+ {
+  "start": 321.24,
+  "end": 325.07,
+  "text": "view is you can see the technical"
+ },
+ {
+  "start": 325.08,
+  "end": 326.93,
+  "text": "properties of your"
+ },
+ {
+  "start": 326.94,
+  "end": 329.57,
+  "text": "object control the technical properties"
+ },
+ {
+  "start": 329.58,
+  "end": 332.029,
+  "text": "of your control can be viewed in the"
+ },
+ {
+  "start": 332.039,
+  "end": 333.469,
+  "text": "advanced View"
+ },
+ {
+  "start": 333.479,
+  "end": 334.85,
+  "text": "okay"
+ },
+ {
+  "start": 334.86,
+  "end": 337.129,
+  "text": "and if you want to go back to basic view"
+ },
+ {
+  "start": 337.139,
+  "end": 340.07,
+  "text": "again you need to click on basic error"
+ },
+ {
+  "start": 340.08,
+  "end": 340.79,
+  "text": "mark"
+ },
+ {
+  "start": 340.8,
+  "end": 344.09,
+  "text": "okay that takes you back to your basic"
+ },
+ {
+  "start": 344.1,
+  "end": 346.73,
+  "text": "View okay let's go to Advanced view"
+ },
+ {
+  "start": 346.74,
+  "end": 347.629,
+  "text": "again"
+ },
+ {
+  "start": 347.639,
+  "end": 349.55,
+  "text": "and see all these technical properties"
+ },
+ {
+  "start": 349.56,
+  "end": 350.51,
+  "text": "okay"
+ },
+ {
+  "start": 350.52,
+  "end": 353.21,
+  "text": "and the next option is"
+ },
+ {
+  "start": 353.22,
+  "end": 355.37,
+  "text": "select on screen"
+ },
+ {
+  "start": 355.38,
+  "end": 358.07,
+  "text": "so select on screen is not by default"
+ },
+ {
+  "start": 358.08,
+  "end": 361.07,
+  "text": "selected so you need to click on select"
+ },
+ {
+  "start": 361.08,
+  "end": 362.689,
+  "text": "on screen"
+ },
+ {
+  "start": 362.699,
+  "end": 366.35,
+  "text": "and now you can start adding new objects"
+ },
+ {
+  "start": 366.36,
+  "end": 370.909,
+  "text": "so basically it works same as basic"
+ },
+ {
+  "start": 370.919,
+  "end": 373.07,
+  "text": "view but"
+ },
+ {
+  "start": 373.08,
+  "end": 375.529,
+  "text": "here you can add the objects"
+ },
+ {
+  "start": 375.539,
+  "end": 378.23,
+  "text": "and then you also can see the technical"
+ },
+ {
+  "start": 378.24,
+  "end": 380.45,
+  "text": "properties okay let's add"
+ },
+ {
+  "start": 380.46,
+  "end": 382.07,
+  "text": "shopping cart"
+ },
+ {
+  "start": 382.08,
+  "end": 384.17,
+  "text": "see I have added the shopping cart let's"
+ },
+ {
+  "start": 384.18,
+  "end": 386.21,
+  "text": "add wish list"
+ },
+ {
+  "start": 386.22,
+  "end": 389.809,
+  "text": "okay and if you want to"
+ },
+ {
+  "start": 389.819,
+  "end": 392.21,
+  "text": "remove the select on screen"
+ },
+ {
+  "start": 392.22,
+  "end": 395.57,
+  "text": "view you need to again click on select"
+ },
+ {
+  "start": 395.58,
+  "end": 398.09,
+  "text": "on screen that will exit your select on"
+ },
+ {
+  "start": 398.1,
+  "end": 399.469,
+  "text": "screen view"
+ },
+ {
+  "start": 399.479,
+  "end": 403.07,
+  "text": "okay and then again same you can go back"
+ },
+ {
+  "start": 403.08,
+  "end": 405.77,
+  "text": "to basic View"
+ },
+ {
+  "start": 405.78,
+  "end": 408.17,
+  "text": "right the controls whatever I added"
+ },
+ {
+  "start": 408.18,
+  "end": 410.27,
+  "text": "still it there it's there"
+ },
+ {
+  "start": 410.28,
+  "end": 413.21,
+  "text": "and then let's go back to Advanced View"
+ },
+ {
+  "start": 413.22,
+  "end": 416.93,
+  "text": "and if you see in the advanced view I"
+ },
+ {
+  "start": 416.94,
+  "end": 419.09,
+  "text": "can see all the technical properties if"
+ },
+ {
+  "start": 419.1,
+  "end": 420.83,
+  "text": "you scroll down here"
+ },
+ {
+  "start": 420.84,
+  "end": 423.71,
+  "text": "under technical properties whatever the"
+ },
+ {
+  "start": 423.72,
+  "end": 426.409,
+  "text": "check boxes I'm seeing here right so for"
+ },
+ {
+  "start": 426.419,
+  "end": 428.99,
+  "text": "this shopping cart control this shopping"
+ },
+ {
+  "start": 429.0,
+  "end": 432.17,
+  "text": "cart control is being identified by the"
+ },
+ {
+  "start": 432.18,
+  "end": 434.629,
+  "text": "technical property called inner text"
+ },
+ {
+  "start": 434.639,
+  "end": 438.29,
+  "text": "tag if you want to identify this element"
+ },
+ {
+  "start": 438.3,
+  "end": 440.93,
+  "text": "by using class name you can check this"
+ },
+ {
+  "start": 440.94,
+  "end": 442.73,
+  "text": "box okay"
+ },
+ {
+  "start": 442.74,
+  "end": 444.589,
+  "text": "and one more thing is"
+ },
+ {
+  "start": 444.599,
+  "end": 447.77,
+  "text": "as soon as you add any new object let's"
+ },
+ {
+  "start": 447.78,
+  "end": 449.689,
+  "text": "say I want to add"
+ },
+ {
+  "start": 449.699,
+  "end": 452.089,
+  "text": "let's go back to basic View"
+ },
+ {
+  "start": 452.099,
+  "end": 455.15,
+  "text": "let's say I want to add Apparition shoe"
+ },
+ {
+  "start": 455.16,
+  "end": 458.33,
+  "text": "as soon as you add it immediately gives"
+ },
+ {
+  "start": 458.34,
+  "end": 459.11,
+  "text": "you"
+ },
+ {
+  "start": 459.12,
+  "end": 461.629,
+  "text": "a notification that the selected item is"
+ },
+ {
+  "start": 461.639,
+  "end": 462.589,
+  "text": "unique"
+ },
+ {
+  "start": 462.599,
+  "end": 467.45,
+  "text": "okay so that's one thing and now let's"
+ },
+ {
+  "start": 467.46,
+  "end": 469.969,
+  "text": "see what is condensed View"
+ },
+ {
+  "start": 469.979,
+  "end": 472.73,
+  "text": "so when you click on this condensed View"
+ },
+ {
+  "start": 472.74,
+  "end": 476.33,
+  "text": "the condensed view tab will go to the"
+ },
+ {
+  "start": 476.34,
+  "end": 478.43,
+  "text": "right side of your screen"
+ },
+ {
+  "start": 478.44,
+  "end": 480.89,
+  "text": "and it gives you"
+ },
+ {
+  "start": 480.9,
+  "end": 483.77,
+  "text": "full control of your system under test"
+ },
+ {
+  "start": 483.78,
+  "end": 486.11,
+  "text": "application so that means you can view"
+ },
+ {
+  "start": 486.12,
+  "end": 489.89,
+  "text": "your entire application now okay this is"
+ },
+ {
+  "start": 489.9,
+  "end": 492.89,
+  "text": "shortcut View and now again you can add"
+ },
+ {
+  "start": 492.9,
+  "end": 494.23,
+  "text": "the"
+ },
+ {
+  "start": 494.24,
+  "end": 497.629,
+  "text": "controls as it is again I can add this"
+ },
+ {
+  "start": 497.639,
+  "end": 500.51,
+  "text": "control by clicking on electronics"
+ },
+ {
+  "start": 500.52,
+  "end": 502.369,
+  "text": "so this is added"
+ },
+ {
+  "start": 502.379,
+  "end": 504.589,
+  "text": "and if you want to go back to basic view"
+ },
+ {
+  "start": 504.599,
+  "end": 505.61,
+  "text": "again"
+ },
+ {
+  "start": 505.62,
+  "end": 508.49,
+  "text": "click on basic View and see if this"
+ },
+ {
+  "start": 508.5,
+  "end": 511.309,
+  "text": "Electronics is added yes it's there"
+ },
+ {
+  "start": 511.319,
+  "end": 512.99,
+  "text": "hope you understand"
+ },
+ {
+  "start": 513.0,
+  "end": 514.79,
+  "text": "and then"
+ },
+ {
+  "start": 514.8,
+  "end": 518.269,
+  "text": "save your controls so whatever the"
+ },
+ {
+  "start": 518.279,
+  "end": 520.13,
+  "text": "controls that you added"
+ },
+ {
+  "start": 520.14,
+  "end": 522.769,
+  "text": "this is your save button on top left"
+ },
+ {
+  "start": 522.779,
+  "end": 524.449,
+  "text": "corner"
+ },
+ {
+  "start": 524.459,
+  "end": 526.97,
+  "text": "as soon as you click on Save"
+ },
+ {
+  "start": 526.98,
+  "end": 531.53,
+  "text": "it saves all the controls to your module"
+ },
+ {
+  "start": 531.54,
+  "end": 534.769,
+  "text": "let's go back to module see the new"
+ },
+ {
+  "start": 534.779,
+  "end": 537.769,
+  "text": "module called demo webshop.login has"
+ },
+ {
+  "start": 537.779,
+  "end": 541.13,
+  "text": "been added and all the controls that we"
+ },
+ {
+  "start": 541.14,
+  "end": 545.57,
+  "text": "are we added will be saved in this new"
+ },
+ {
+  "start": 545.58,
+  "end": 548.509,
+  "text": "module called demo webshop.login"
+ },
+ {
+  "start": 548.519,
+  "end": 551.75,
+  "text": "okay and"
+ },
+ {
+  "start": 551.76,
+  "end": 554.87,
+  "text": "this gives you an opportunity to add"
+ },
+ {
+  "start": 554.88,
+  "end": 558.59,
+  "text": "more controls let's say I forgot to add"
+ },
+ {
+  "start": 558.6,
+  "end": 560.57,
+  "text": "another control called gift card I can"
+ },
+ {
+  "start": 560.58,
+  "end": 563.389,
+  "text": "add again and then again click on Save"
+ },
+ {
+  "start": 563.399,
+  "end": 566.509,
+  "text": "so this will update your existing module"
+ },
+ {
+  "start": 566.519,
+  "end": 569.509,
+  "text": "with the new control that you added"
+ },
+ {
+  "start": 569.519,
+  "end": 570.53,
+  "text": "okay"
+ },
+ {
+  "start": 570.54,
+  "end": 572.449,
+  "text": "so the module"
+ },
+ {
+  "start": 572.459,
+  "end": 575.449,
+  "text": "the new model it will not create a new"
+ },
+ {
+  "start": 575.459,
+  "end": 578.21,
+  "text": "module it basically adds a new control"
+ },
+ {
+  "start": 578.22,
+  "end": 581.87,
+  "text": "to the same module okay and then what is"
+ },
+ {
+  "start": 581.88,
+  "end": 583.55,
+  "text": "finished grade so what is the difference"
+ },
+ {
+  "start": 583.56,
+  "end": 586.009,
+  "text": "between save and finish okay Finish"
+ },
+ {
+  "start": 586.019,
+  "end": 588.65,
+  "text": "screen see when you save the control"
+ },
+ {
+  "start": 588.66,
+  "end": 590.93,
+  "text": "still remain on the screen and you can"
+ },
+ {
+  "start": 590.94,
+  "end": 593.449,
+  "text": "add the new controls but if you click on"
+ },
+ {
+  "start": 593.459,
+  "end": 597.59,
+  "text": "finish scan or finish screen"
+ },
+ {
+  "start": 597.6,
+  "end": 599.63,
+  "text": "this will"
+ },
+ {
+  "start": 599.64,
+  "end": 603.11,
+  "text": "clear all the controls from your screen"
+ },
+ {
+  "start": 603.12,
+  "end": 606.35,
+  "text": "and that creates your module"
+ },
+ {
+  "start": 606.36,
+  "end": 608.69,
+  "text": "see the new module with all the controls"
+ },
+ {
+  "start": 608.7,
+  "end": 610.19,
+  "text": "that we added"
+ },
+ {
+  "start": 610.2,
+  "end": 613.79,
+  "text": "now if you want to add another module"
+ },
+ {
+  "start": 613.8,
+  "end": 615.71,
+  "text": "called for example for example some"
+ },
+ {
+  "start": 615.72,
+  "end": 618.829,
+  "text": "other module other page right then you"
+ },
+ {
+  "start": 618.839,
+  "end": 620.93,
+  "text": "can go back to your x-scan"
+ },
+ {
+  "start": 620.94,
+  "end": 623.329,
+  "text": "start scanning your"
+ },
+ {
+  "start": 623.339,
+  "end": 626.329,
+  "text": "new page or new module"
+ },
+ {
+  "start": 626.339,
+  "end": 627.35,
+  "text": "okay"
+ },
+ {
+  "start": 627.36,
+  "end": 630.769,
+  "text": "and this the difference is"
+ },
+ {
+  "start": 630.779,
+  "end": 633.889,
+  "text": "when you click on finish screen it"
+ },
+ {
+  "start": 633.899,
+  "end": 636.47,
+  "text": "removes all the controls if you click on"
+ },
+ {
+  "start": 636.48,
+  "end": 639.47,
+  "text": "Save the previous controls will be on"
+ },
+ {
+  "start": 639.48,
+  "end": 642.35,
+  "text": "the script okay and then you can close"
+ },
+ {
+  "start": 642.36,
+  "end": 643.97,
+  "text": "your"
+ },
+ {
+  "start": 643.98,
+  "end": 646.069,
+  "text": "X scan"
+ },
+ {
+  "start": 646.079,
+  "end": 649.31,
+  "text": "right and let's click on scan screen"
+ },
+ {
+  "start": 649.32,
+  "end": 652.91,
+  "text": "again"
+ },
+ {
+  "start": 654.949,
+  "end": 654.959,
+  "text": "let's say I want to add a new module"
+ },
+ {
+  "start": 654.959,
+  "end": 658.61,
+  "text": "okay here let's go back to your"
+ },
+ {
+  "start": 658.62,
+  "end": 660.47,
+  "text": "Advanced View"
+ },
+ {
+  "start": 660.48,
+  "end": 662.269,
+  "text": "and then"
+ },
+ {
+  "start": 662.279,
+  "end": 665.63,
+  "text": "now let's see what is this highlight"
+ },
+ {
+  "start": 665.64,
+  "end": 667.91,
+  "text": "selection option"
+ },
+ {
+  "start": 667.92,
+  "end": 669.949,
+  "text": "okay when you click on highlight"
+ },
+ {
+  "start": 669.959,
+  "end": 672.949,
+  "text": "selection so okay let me add first login"
+ },
+ {
+  "start": 672.959,
+  "end": 674.389,
+  "text": "okay"
+ },
+ {
+  "start": 674.399,
+  "end": 675.53,
+  "text": "sorry"
+ },
+ {
+  "start": 675.54,
+  "end": 679.19,
+  "text": "let me go back to basic and then click"
+ },
+ {
+  "start": 679.2,
+  "end": 681.17,
+  "text": "on login"
+ },
+ {
+  "start": 681.18,
+  "end": 684.769,
+  "text": "right let's go to Advanced so if I want"
+ },
+ {
+  "start": 684.779,
+  "end": 686.81,
+  "text": "to highlight this control let's say you"
+ },
+ {
+  "start": 686.82,
+  "end": 689.15,
+  "text": "have a lot of controls on the page"
+ },
+ {
+  "start": 689.16,
+  "end": 691.91,
+  "text": "so if you want to see what where is this"
+ },
+ {
+  "start": 691.92,
+  "end": 694.61,
+  "text": "login you click on highlight selection"
+ },
+ {
+  "start": 694.62,
+  "end": 697.069,
+  "text": "that will highlight"
+ },
+ {
+  "start": 697.079,
+  "end": 699.05,
+  "text": "the control that will highlight the"
+ },
+ {
+  "start": 699.06,
+  "end": 701.63,
+  "text": "control on your application"
+ },
+ {
+  "start": 701.64,
+  "end": 704.329,
+  "text": "okay so that the advantage of your"
+ },
+ {
+  "start": 704.339,
+  "end": 707.389,
+  "text": "highlight again you can simply click on"
+ },
+ {
+  "start": 707.399,
+  "end": 710.329,
+  "text": "highlight and then remove highlight"
+ },
+ {
+  "start": 710.339,
+  "end": 712.55,
+  "text": "okay that's the advantage of highlight"
+ },
+ {
+  "start": 712.56,
+  "end": 715.97,
+  "text": "selection okay so hope I have covered"
+ },
+ {
+  "start": 715.98,
+  "end": 719.509,
+  "text": "all the topics that we are supposed to"
+ },
+ {
+  "start": 719.519,
+  "end": 723.79,
+  "text": "learn okay save and finish done okay so"
+ },
+ {
+  "start": 723.8,
+  "end": 728.15,
+  "text": "we saw the concept okay where"
+ },
+ {
+  "start": 728.16,
+  "end": 730.85,
+  "text": "so in this case right I just scanned a"
+ },
+ {
+  "start": 730.86,
+  "end": 733.43,
+  "text": "new module when I'm closing this I don't"
+ },
+ {
+  "start": 733.44,
+  "end": 735.35,
+  "text": "want to save you can just click on no"
+ },
+ {
+  "start": 735.36,
+  "end": 739.91,
+  "text": "this will not save a new module okay"
+ },
+ {
+  "start": 739.92,
+  "end": 741.71,
+  "text": "so these are all the controls that we"
+ },
+ {
+  "start": 741.72,
+  "end": 746.03,
+  "text": "added as a new module okay hope you all"
+ },
+ {
+  "start": 746.04,
+  "end": 749.15,
+  "text": "understand the basic concepts of"
+ },
+ {
+  "start": 749.16,
+  "end": 752.75,
+  "text": "X scan so this is very important from"
+ },
+ {
+  "start": 752.76,
+  "end": 755.03,
+  "text": "next sessions onwards when we start"
+ },
+ {
+  "start": 755.04,
+  "end": 758.03,
+  "text": "automating our test cases we are going"
+ },
+ {
+  "start": 758.04,
+  "end": 760.79,
+  "text": "to use our x-scan"
+ },
+ {
+  "start": 760.8,
+  "end": 765.31,
+  "text": "to create the modules and to capture the"
+ },
+ {
+  "start": 765.32,
+  "end": 769.129,
+  "text": "controls and their technical properties"
+ },
+ {
+  "start": 769.139,
+  "end": 771.35,
+  "text": "so if you have any queries"
+ },
+ {
+  "start": 771.36,
+  "end": 773.509,
+  "text": "please provide your queries in the"
+ },
+ {
+  "start": 773.519,
+  "end": 775.49,
+  "text": "comment box I'll try to respond to your"
+ },
+ {
+  "start": 775.5,
+  "end": 777.59,
+  "text": "queries thank you"
+ },
+ {
+  "start": 777.6,
+  "end": 780.47,
+  "text": "hope you all understand the concepts of"
+ },
+ {
+  "start": 780.48,
+  "end": 784.19,
+  "text": "xcan in trycentives Tasker latest"
+ },
+ {
+  "start": 784.2,
+  "end": 786.35,
+  "text": "version 60."
+ },
+ {
+  "start": 786.36,
+  "end": 789.17,
+  "text": "please do subscribe to the channel click"
+ },
+ {
+  "start": 789.18,
+  "end": 790.61,
+  "text": "on Bell icon you'll receive"
+ },
+ {
+  "start": 790.62,
+  "end": 793.19,
+  "text": "notifications whenever I publish more"
+ },
+ {
+  "start": 793.2,
+  "end": 799.25,
+  "text": "videos thank you"
+ },
+ {
+  "start": 802.03,
+  "end": 802.04,
+  "text": "foreign"
+ }
+]

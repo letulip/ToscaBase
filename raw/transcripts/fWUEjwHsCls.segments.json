@@ -1,0 +1,1317 @@
+[
+ {
+  "start": 13.709,
+  "end": 13.719,
+  "text": "hi everyone this is Ravi welcome to"
+ },
+ {
+  "start": 13.719,
+  "end": 17.15,
+  "text": "tricentis tasar automation tutorial as"
+ },
+ {
+  "start": 17.16,
+  "end": 19.67,
+  "text": "you all know I've already published 60"
+ },
+ {
+  "start": 19.68,
+  "end": 23.189,
+  "text": "YouTube videos covering beginners level"
+ },
+ {
+  "start": 23.199,
+  "end": 27.39,
+  "text": "intermediate level and advanced level"
+ },
+ {
+  "start": 27.4,
+  "end": 30.15,
+  "text": "Concepts from few days onwards have"
+ },
+ {
+  "start": 30.16,
+  "end": 32.549,
+  "text": "started teaching you the realtime"
+ },
+ {
+  "start": 32.559,
+  "end": 35.549,
+  "text": "scenarios where you might encounter"
+ },
+ {
+  "start": 35.559,
+  "end": 38.549,
+  "text": "different types of obstacles and how can"
+ },
+ {
+  "start": 38.559,
+  "end": 40.549,
+  "text": "we solve those obstacles while"
+ },
+ {
+  "start": 40.559,
+  "end": 42.67,
+  "text": "automating your test cases by using"
+ },
+ {
+  "start": 42.68,
+  "end": 47.47,
+  "text": "tricentis tasar tricentis tasar please"
+ },
+ {
+  "start": 47.48,
+  "end": 49.79,
+  "text": "do subscribe to the channel click on"
+ },
+ {
+  "start": 49.8,
+  "end": 51.99,
+  "text": "Bell icon you'll receive notifications"
+ },
+ {
+  "start": 52.0,
+  "end": 55.31,
+  "text": "whenever I publish more videos don't"
+ },
+ {
+  "start": 55.32,
+  "end": 58.59,
+  "text": "forget to like and share the video thank"
+ },
+ {
+  "start": 58.6,
+  "end": 61.029,
+  "text": "you"
+ },
+ {
+  "start": 61.039,
+  "end": 64.91,
+  "text": "this is our lesson 61 in terms of"
+ },
+ {
+  "start": 64.92,
+  "end": 67.109,
+  "text": "overall tricentis tosa automation"
+ },
+ {
+  "start": 67.119,
+  "end": 71.19,
+  "text": "tutorial and this is our lesson 19 or"
+ },
+ {
+  "start": 71.2,
+  "end": 74.07,
+  "text": "obstacle 19 in terms of realtime"
+ },
+ {
+  "start": 74.08,
+  "end": 76.469,
+  "text": "scenarios in this lesson I'm going to"
+ },
+ {
+  "start": 76.479,
+  "end": 79.23,
+  "text": "teach you how can we solve an"
+ },
+ {
+  "start": 79.24,
+  "end": 82.23,
+  "text": "obstacle where you need to interact with"
+ },
+ {
+  "start": 82.24,
+  "end": 86.789,
+  "text": "a dynamic web table to get last table"
+ },
+ {
+  "start": 86.799,
+  "end": 91.19,
+  "text": "row value or to get last content Row"
+ },
+ {
+  "start": 91.2,
+  "end": 95.069,
+  "text": "from the dynamic web table and enter the"
+ },
+ {
+  "start": 95.079,
+  "end": 98.83,
+  "text": "last table row value into an edit box"
+ },
+ {
+  "start": 98.84,
+  "end": 101.87,
+  "text": "now let us go to obstacle list and try"
+ },
+ {
+  "start": 101.88,
+  "end": 104.749,
+  "text": "to understand in detail what is the"
+ },
+ {
+  "start": 104.759,
+  "end": 107.55,
+  "text": "obstacle that we need to solve so this"
+ },
+ {
+  "start": 107.56,
+  "end": 110.069,
+  "text": "is our obstacle which is named as the"
+ },
+ {
+  "start": 110.079,
+  "end": 113.789,
+  "text": "last row and which is categorized as"
+ },
+ {
+  "start": 113.799,
+  "end": 117.469,
+  "text": "medium so let us go for"
+ },
+ {
+  "start": 117.479,
+  "end": 121.069,
+  "text": "it in order to complete this obstacle"
+ },
+ {
+  "start": 121.079,
+  "end": 124.55,
+  "text": "you need to verify that the last row in"
+ },
+ {
+  "start": 124.56,
+  "end": 128.749,
+  "text": "the table displays an order value and"
+ },
+ {
+  "start": 128.759,
+  "end": 132.309,
+  "text": "then take this value and put it into"
+ },
+ {
+  "start": 132.319,
+  "end": 137.15,
+  "text": "text field so what is the last row order"
+ },
+ {
+  "start": 137.16,
+  "end": 141.79,
+  "text": "value our last row order value is"
+ },
+ {
+  "start": 141.8,
+  "end": 146.869,
+  "text": "6124 pound so let me enter"
+ },
+ {
+  "start": 146.879,
+  "end": 151.15,
+  "text": "6124 into this particular box"
+ },
+ {
+  "start": 151.16,
+  "end": 153.869,
+  "text": "as soon as you enter including the pound"
+ },
+ {
+  "start": 153.879,
+  "end": 158.75,
+  "text": "symbol it says you you solv this"
+ },
+ {
+  "start": 158.76,
+  "end": 161.27,
+  "text": "problem you solve this automation"
+ },
+ {
+  "start": 161.28,
+  "end": 164.03,
+  "text": "problem which means and one more thing"
+ },
+ {
+  "start": 164.04,
+  "end": 168.91,
+  "text": "is this particular table is a dynamic"
+ },
+ {
+  "start": 168.92,
+  "end": 172.35,
+  "text": "table so as soon as I refesh as soon as"
+ },
+ {
+  "start": 172.36,
+  "end": 175.35,
+  "text": "I refresh now I can see a table with"
+ },
+ {
+  "start": 175.36,
+  "end": 180.91,
+  "text": "less rows correct So This Time Again 8"
+ },
+ {
+  "start": 180.92,
+  "end": 185.03,
+  "text": "3.9 pound symbol see done if I refresh"
+ },
+ {
+  "start": 185.04,
+  "end": 188.63,
+  "text": "it again your table changes see now your"
+ },
+ {
+  "start": 188.64,
+  "end": 190.869,
+  "text": "number of rows in the table got changed"
+ },
+ {
+  "start": 190.879,
+  "end": 194.149,
+  "text": "and the value also changed so how can we"
+ },
+ {
+  "start": 194.159,
+  "end": 196.83,
+  "text": "automate this particular test case to"
+ },
+ {
+  "start": 196.84,
+  "end": 198.71,
+  "text": "capture"
+ },
+ {
+  "start": 198.72,
+  "end": 202.39,
+  "text": "the value from the last"
+ },
+ {
+  "start": 202.4,
+  "end": 206.229,
+  "text": "row of the table and enter the same in"
+ },
+ {
+  "start": 206.239,
+  "end": 209.19,
+  "text": "this particular edit box so for that let"
+ },
+ {
+  "start": 209.2,
+  "end": 212.07,
+  "text": "us go to PR"
+ },
+ {
+  "start": 212.08,
+  "end": 216.949,
+  "text": "to as usual we are capturing all the"
+ },
+ {
+  "start": 216.959,
+  "end": 222.19,
+  "text": "modules in folder called obstacles right"
+ },
+ {
+  "start": 222.2,
+  "end": 224.589,
+  "text": "let's double click on this obstacles"
+ },
+ {
+  "start": 224.599,
+  "end": 227.47,
+  "text": "folder and these are the obstacles that"
+ },
+ {
+  "start": 227.48,
+  "end": 229.229,
+  "text": "we are capturing right these are all the"
+ },
+ {
+  "start": 229.239,
+  "end": 230.949,
+  "text": "obstacles till"
+ },
+ {
+  "start": 230.959,
+  "end": 234.55,
+  "text": "date I have posted in the YouTube now"
+ },
+ {
+  "start": 234.56,
+  "end": 236.91,
+  "text": "right right click on this particular"
+ },
+ {
+  "start": 236.92,
+  "end": 239.949,
+  "text": "obstacle click on scan"
+ },
+ {
+  "start": 239.959,
+  "end": 244.509,
+  "text": "select"
+ },
+ {
+  "start": 247.67,
+  "end": 247.68,
+  "text": "application now this is the application"
+ },
+ {
+  "start": 247.68,
+  "end": 250.589,
+  "text": "which I love to which I would like to"
+ },
+ {
+  "start": 250.599,
+  "end": 262.749,
+  "text": "automate select"
+ },
+ {
+  "start": 266.55,
+  "end": 266.56,
+  "text": "scan so here now what are the objects"
+ },
+ {
+  "start": 266.56,
+  "end": 268.029,
+  "text": "that that I"
+ },
+ {
+  "start": 268.039,
+  "end": 270.15,
+  "text": "require what are the object objects that"
+ },
+ {
+  "start": 270.16,
+  "end": 273.749,
+  "text": "I require to capture one is this order"
+ },
+ {
+  "start": 273.759,
+  "end": 277.909,
+  "text": "table and this edit box right so here is"
+ },
+ {
+  "start": 277.919,
+  "end": 281.469,
+  "text": "my order table select"
+ },
+ {
+  "start": 281.479,
+  "end": 285.029,
+  "text": "this and this is my edit box order value"
+ },
+ {
+  "start": 285.039,
+  "end": 287.629,
+  "text": "where I'm entering the value from the"
+ },
+ {
+  "start": 287.639,
+  "end": 289.59,
+  "text": "last row of your"
+ },
+ {
+  "start": 289.6,
+  "end": 293.95,
+  "text": "table select this one as"
+ },
+ {
+  "start": 298.469,
+  "end": 298.479,
+  "text": "two done now let us name now let us"
+ },
+ {
+  "start": 298.479,
+  "end": 300.31,
+  "text": "rename this module"
+ },
+ {
+  "start": 300.32,
+  "end": 306.11,
+  "text": "with the name of your obstacle copy this"
+ },
+ {
+  "start": 308.51,
+  "end": 308.52,
+  "text": "name and"
+ },
+ {
+  "start": 308.52,
+  "end": 311.95,
+  "text": "then paste it"
+ },
+ {
+  "start": 311.96,
+  "end": 318.15,
+  "text": "here and now let's save the"
+ },
+ {
+  "start": 320.87,
+  "end": 320.88,
+  "text": "module and close your"
+ },
+ {
+  "start": 320.88,
+  "end": 324.95,
+  "text": "xcan go back to your trient tasa and"
+ },
+ {
+  "start": 324.96,
+  "end": 327.07,
+  "text": "verify the module that we captured so"
+ },
+ {
+  "start": 327.08,
+  "end": 330.029,
+  "text": "this is the module right obstruct 703 31"
+ },
+ {
+  "start": 330.039,
+  "end": 333.629,
+  "text": "0 double click on this so I can see here"
+ },
+ {
+  "start": 333.639,
+  "end": 337.67,
+  "text": "Order table order value now let us"
+ },
+ {
+  "start": 337.68,
+  "end": 340.469,
+  "text": "automate this particular scenario to do"
+ },
+ {
+  "start": 340.479,
+  "end": 345.309,
+  "text": "so go to your left section which is a"
+ },
+ {
+  "start": 345.319,
+  "end": 348.99,
+  "text": "blue section test case section okay so"
+ },
+ {
+  "start": 349.0,
+  "end": 351.87,
+  "text": "this is the obstacle folder or test case"
+ },
+ {
+  "start": 351.88,
+  "end": 355.029,
+  "text": "folder where we are capturing or this is"
+ },
+ {
+  "start": 355.039,
+  "end": 356.79,
+  "text": "our test case folder where we are"
+ },
+ {
+  "start": 356.8,
+  "end": 359.39,
+  "text": "automating each and every obstacle okay"
+ },
+ {
+  "start": 359.4,
+  "end": 362.95,
+  "text": "right click on this and select create"
+ },
+ {
+  "start": 362.96,
+  "end": 365.83,
+  "text": "new test case and name this test case"
+ },
+ {
+  "start": 365.84,
+  "end": 369.67,
+  "text": "with the same obstacle name right and"
+ },
+ {
+  "start": 369.68,
+  "end": 373.07,
+  "text": "double click on this so now to automate"
+ },
+ {
+  "start": 373.08,
+  "end": 375.909,
+  "text": "your test case I'm going to drag and"
+ },
+ {
+  "start": 375.919,
+  "end": 378.749,
+  "text": "drop this module that we captured just"
+ },
+ {
+  "start": 378.759,
+  "end": 384.07,
+  "text": "now drag this and drop onto your test"
+ },
+ {
+  "start": 384.08,
+  "end": 389.71,
+  "text": "case and now to automate the test case"
+ },
+ {
+  "start": 389.72,
+  "end": 391.309,
+  "text": "there are two"
+ },
+ {
+  "start": 391.319,
+  "end": 394.79,
+  "text": "methods okay so I'm going to go with the"
+ },
+ {
+  "start": 394.8,
+  "end": 397.43,
+  "text": "first method my first method is so you"
+ },
+ {
+  "start": 397.44,
+  "end": 400.909,
+  "text": "can see here Order table contains two"
+ },
+ {
+  "start": 400.919,
+  "end": 402.87,
+  "text": "different modules which is row and"
+ },
+ {
+  "start": 402.88,
+  "end": 405.71,
+  "text": "column right so this table has row and"
+ },
+ {
+  "start": 405.72,
+  "end": 408.83,
+  "text": "column now if I go to"
+ },
+ {
+  "start": 408.84,
+  "end": 412.87,
+  "text": "row I can see lot of values here if I"
+ },
+ {
+  "start": 412.88,
+  "end": 414.55,
+  "text": "expand this drop"
+ },
+ {
+  "start": 414.56,
+  "end": 420.83,
+  "text": "down dollar 1 dollar n dollar lost"
+ },
+ {
+  "start": 420.84,
+  "end": 423.55,
+  "text": "dollar header dollar first empty row"
+ },
+ {
+  "start": 423.56,
+  "end": 427.11,
+  "text": "dollar lost content row dollar one means"
+ },
+ {
+  "start": 427.12,
+  "end": 430.55,
+  "text": "it's my first row dollar N means if you"
+ },
+ {
+  "start": 430.56,
+  "end": 433.27,
+  "text": "want to specify it as a three four right"
+ },
+ {
+  "start": 433.28,
+  "end": 435.23,
+  "text": "if you specify four that means you are"
+ },
+ {
+  "start": 435.24,
+  "end": 438.029,
+  "text": "fourth row and then dollar last means"
+ },
+ {
+  "start": 438.039,
+  "end": 441.07,
+  "text": "it's a last okay so however what we are"
+ },
+ {
+  "start": 441.08,
+  "end": 445.99,
+  "text": "going to do here now to get the value"
+ },
+ {
+  "start": 446.0,
+  "end": 449.27,
+  "text": "from the last row of the table I'm going"
+ },
+ {
+  "start": 449.28,
+  "end": 451.95,
+  "text": "to start using"
+ },
+ {
+  "start": 451.96,
+  "end": 455.43,
+  "text": "last this is my"
+ },
+ {
+  "start": 455.44,
+  "end": 458.27,
+  "text": "last row"
+ },
+ {
+  "start": 458.28,
+  "end": 461.83,
+  "text": "right I'm instructing it as a last row"
+ },
+ {
+  "start": 461.84,
+  "end": 464.35,
+  "text": "as soon as you select last row now it"
+ },
+ {
+  "start": 464.36,
+  "end": 468.23,
+  "text": "will ask you to select the cell is it"
+ },
+ {
+  "start": 468.24,
+  "end": 471.35,
+  "text": "cell from your type or the cell of value"
+ },
+ {
+  "start": 471.36,
+  "end": 474.23,
+  "text": "that means column of type or column of"
+ },
+ {
+  "start": 474.24,
+  "end": 476.51,
+  "text": "value it's going to show your columns"
+ },
+ {
+  "start": 476.52,
+  "end": 480.23,
+  "text": "here see here type value"
+ },
+ {
+  "start": 480.24,
+  "end": 482.99,
+  "text": "I know which is a last row but when you"
+ },
+ {
+  "start": 483.0,
+  "end": 487.029,
+  "text": "select last but when you select last row"
+ },
+ {
+  "start": 487.039,
+  "end": 489.99,
+  "text": "what is your column or what is the cell"
+ },
+ {
+  "start": 490.0,
+  "end": 492.39,
+  "text": "that you would like to capture the value"
+ },
+ {
+  "start": 492.4,
+  "end": 496.27,
+  "text": "my cell is under value column right so"
+ },
+ {
+  "start": 496.28,
+  "end": 499.029,
+  "text": "that's why I'm going to select"
+ },
+ {
+  "start": 499.039,
+  "end": 503.95,
+  "text": "value now instead of verifying the value"
+ },
+ {
+  "start": 503.96,
+  "end": 506.869,
+  "text": "I'm not I don't want to verify this one"
+ },
+ {
+  "start": 506.879,
+  "end": 509.55,
+  "text": "instead I want to capture this value"
+ },
+ {
+  "start": 509.56,
+  "end": 512.509,
+  "text": "into a buffer so hence what I'm going to"
+ },
+ {
+  "start": 512.519,
+  "end": 516.029,
+  "text": "do here I'm going to"
+ },
+ {
+  "start": 516.039,
+  "end": 521.19,
+  "text": "select a buffer value okay last row"
+ },
+ {
+  "start": 521.2,
+  "end": 525.03,
+  "text": "value this is my buffer okay I would"
+ },
+ {
+  "start": 525.04,
+  "end": 529.31,
+  "text": "like to store the value from this cell"
+ },
+ {
+  "start": 529.32,
+  "end": 532.829,
+  "text": "into a buffer called last row value and"
+ },
+ {
+  "start": 532.839,
+  "end": 535.99,
+  "text": "hence my action mode should not be"
+ },
+ {
+  "start": 536.0,
+  "end": 540.59,
+  "text": "verified my action mode should be buffer"
+ },
+ {
+  "start": 540.6,
+  "end": 546.43,
+  "text": "okay done now I'm storing the value of"
+ },
+ {
+  "start": 546.44,
+  "end": 550.67,
+  "text": "last row from the cell into your buffer"
+ },
+ {
+  "start": 550.68,
+  "end": 551.99,
+  "text": "right and"
+ },
+ {
+  "start": 552.0,
+  "end": 555.55,
+  "text": "now the value I need to print in the"
+ },
+ {
+  "start": 555.56,
+  "end": 556.43,
+  "text": "edit"
+ },
+ {
+  "start": 556.44,
+  "end": 561.15,
+  "text": "box but that here under order Val order"
+ },
+ {
+  "start": 561.16,
+  "end": 565.11,
+  "text": "value edit box I would like to print the"
+ },
+ {
+  "start": 565.12,
+  "end": 567.43,
+  "text": "value from this buffer I would like to"
+ },
+ {
+  "start": 567.44,
+  "end": 570.269,
+  "text": "call this buffer here"
+ },
+ {
+  "start": 570.279,
+  "end": 572.67,
+  "text": "what is it what how can we call the"
+ },
+ {
+  "start": 572.68,
+  "end": 576.31,
+  "text": "buffer open curly braces anytime any"
+ },
+ {
+  "start": 576.32,
+  "end": 578.71,
+  "text": "method you want to use in"
+ },
+ {
+  "start": 578.72,
+  "end": 582.15,
+  "text": "Tria you have to use open curly braces"
+ },
+ {
+  "start": 582.16,
+  "end": 586.15,
+  "text": "capital B is for buffer and open Square"
+ },
+ {
+  "start": 586.16,
+  "end": 589.19,
+  "text": "braces this is your"
+ },
+ {
+  "start": 589.2,
+  "end": 591.269,
+  "text": "last"
+ },
+ {
+  "start": 591.279,
+  "end": 595.43,
+  "text": "row value this is my buffer name close"
+ },
+ {
+  "start": 595.44,
+  "end": 600.069,
+  "text": "quare braces and then close curly bra"
+ },
+ {
+  "start": 600.079,
+  "end": 603.509,
+  "text": "right and your action mode input because"
+ },
+ {
+  "start": 603.519,
+  "end": 606.59,
+  "text": "I would like to enter the value of this"
+ },
+ {
+  "start": 606.6,
+  "end": 610.509,
+  "text": "buffer okay so now what I'm going to do"
+ },
+ {
+  "start": 610.519,
+  "end": 614.79,
+  "text": "here let's save the test case and let me"
+ },
+ {
+  "start": 614.8,
+  "end": 616.63,
+  "text": "run this test case when I run this test"
+ },
+ {
+  "start": 616.64,
+  "end": 620.55,
+  "text": "case your order value should be entered"
+ },
+ {
+  "start": 620.56,
+  "end": 625.67,
+  "text": "as 6431 pound let's run this right click"
+ },
+ {
+  "start": 625.68,
+  "end": 632.23,
+  "text": "and run in scratchbook"
+ },
+ {
+  "start": 637.269,
+  "end": 637.279,
+  "text": "see 6 4 3 1 pound you can see here you"
+ },
+ {
+  "start": 637.279,
+  "end": 639.069,
+  "text": "solve this automation problem"
+ },
+ {
+  "start": 639.079,
+  "end": 642.389,
+  "text": "successfully if I escape this see 6431"
+ },
+ {
+  "start": 642.399,
+  "end": 646.629,
+  "text": "pound that's why our test case is"
+ },
+ {
+  "start": 646.639,
+  "end": 650.19,
+  "text": "successful so now let us go back to your"
+ },
+ {
+  "start": 650.2,
+  "end": 653.069,
+  "text": "test results you can see here now you"
+ },
+ {
+  "start": 653.079,
+  "end": 653.949,
+  "text": "have"
+ },
+ {
+  "start": 653.959,
+  "end": 661.35,
+  "text": "stored last row value here let me see"
+ },
+ {
+  "start": 663.55,
+  "end": 663.56,
+  "text": "I'm storing the last row value under"
+ },
+ {
+  "start": 663.56,
+  "end": 666.069,
+  "text": "buffer last row value what is the value"
+ },
+ {
+  "start": 666.079,
+  "end": 669.23,
+  "text": "6431 the same thing that we entered here"
+ },
+ {
+  "start": 669.24,
+  "end": 671.55,
+  "text": "okay now what is the second method so"
+ },
+ {
+  "start": 671.56,
+  "end": 672.87,
+  "text": "what I'm going to do I'm going to drag"
+ },
+ {
+  "start": 672.88,
+  "end": 675.31,
+  "text": "and drop this module one more time onto"
+ },
+ {
+  "start": 675.32,
+  "end": 679.389,
+  "text": "the same test case okay so here what I'm"
+ },
+ {
+  "start": 679.399,
+  "end": 682.11,
+  "text": "going to do I'm going to name this as"
+ },
+ {
+  "start": 682.12,
+  "end": 683.629,
+  "text": "method"
+ },
+ {
+  "start": 683.639,
+  "end": 687.629,
+  "text": "two okay so here again same we are going"
+ },
+ {
+  "start": 687.639,
+  "end": 692.069,
+  "text": "to do the only change is here under row"
+ },
+ {
+  "start": 692.079,
+  "end": 694.19,
+  "text": "last time what we selected we selected"
+ },
+ {
+  "start": 694.2,
+  "end": 697.47,
+  "text": "last row so instead of selecting last"
+ },
+ {
+  "start": 697.48,
+  "end": 700.87,
+  "text": "row I'm going to select last content"
+ },
+ {
+  "start": 700.88,
+  "end": 705.069,
+  "text": "row okay I'm selecting last content row"
+ },
+ {
+  "start": 705.079,
+  "end": 707.47,
+  "text": "as soon as you select last content Row"
+ },
+ {
+  "start": 707.48,
+  "end": 709.629,
+  "text": "Your Action mode should be select only"
+ },
+ {
+  "start": 709.639,
+  "end": 712.43,
+  "text": "okay and here in the cell I'm going to"
+ },
+ {
+  "start": 712.44,
+  "end": 718.03,
+  "text": "select value right I need the value from"
+ },
+ {
+  "start": 718.04,
+  "end": 721.11,
+  "text": "the column value I'm selecting the same"
+ },
+ {
+  "start": 721.12,
+  "end": 723.75,
+  "text": "right and here instead of verify I would"
+ },
+ {
+  "start": 723.76,
+  "end": 727.55,
+  "text": "like to mention it as buffer and here"
+ },
+ {
+  "start": 727.56,
+  "end": 729.91,
+  "text": "what is my buffer name I would like to"
+ },
+ {
+  "start": 729.92,
+  "end": 738.59,
+  "text": "select the buffer name as last row"
+ },
+ {
+  "start": 741.11,
+  "end": 741.12,
+  "text": "content last row"
+ },
+ {
+  "start": 741.12,
+  "end": 745.829,
+  "text": "content and once you store the value"
+ },
+ {
+  "start": 745.839,
+  "end": 748.949,
+  "text": "into this buffer now I need to enter"
+ },
+ {
+  "start": 748.959,
+  "end": 751.71,
+  "text": "here right what I'm going to do here let"
+ },
+ {
+  "start": 751.72,
+  "end": 752.75,
+  "text": "me"
+ },
+ {
+  "start": 752.76,
+  "end": 755.75,
+  "text": "read so what I'm going to do here under"
+ },
+ {
+  "start": 755.76,
+  "end": 757.79,
+  "text": "order value I'm going to call this"
+ },
+ {
+  "start": 757.8,
+  "end": 763.35,
+  "text": "buffer open curly braces capital B"
+ },
+ {
+  "start": 763.36,
+  "end": 764.35,
+  "text": "last"
+ },
+ {
+  "start": 766.0,
+  "end": 769.87,
+  "text": "row content close curly braces sorry"
+ },
+ {
+  "start": 769.88,
+  "end": 773.949,
+  "text": "close Square braces close curly bra your"
+ },
+ {
+  "start": 773.959,
+  "end": 776.31,
+  "text": "action mode should be input so what is"
+ },
+ {
+  "start": 776.32,
+  "end": 778.87,
+  "text": "the difference the only difference is"
+ },
+ {
+  "start": 778.88,
+  "end": 783.67,
+  "text": "here I'm using"
+ },
+ {
+  "start": 787.71,
+  "end": 787.72,
+  "text": "the I'm using the row index as dollar"
+ },
+ {
+  "start": 787.72,
+  "end": 790.99,
+  "text": "lost but here in the second method I'm"
+ },
+ {
+  "start": 791.0,
+  "end": 795.03,
+  "text": "using the row index as dollar lost"
+ },
+ {
+  "start": 795.04,
+  "end": 798.67,
+  "text": "content row and rest all same now I'm"
+ },
+ {
+  "start": 798.68,
+  "end": 801.43,
+  "text": "going to change the work state as"
+ },
+ {
+  "start": 801.44,
+  "end": 805.509,
+  "text": "completed save this so let me run this"
+ },
+ {
+  "start": 805.519,
+  "end": 807.67,
+  "text": "my second method okay let me run the"
+ },
+ {
+  "start": 807.68,
+  "end": 816.47,
+  "text": "second method right click and run in"
+ },
+ {
+  "start": 820.31,
+  "end": 820.32,
+  "text": "scratchbook see now it entered the value"
+ },
+ {
+  "start": 820.32,
+  "end": 823.03,
+  "text": "correctly whatever the last row value it"
+ },
+ {
+  "start": 823.04,
+  "end": 826.189,
+  "text": "has taken and it entered the same so"
+ },
+ {
+  "start": 826.199,
+  "end": 829.189,
+  "text": "that means our test case is successful"
+ },
+ {
+  "start": 829.199,
+  "end": 833.389,
+  "text": "here again your last row content value"
+ },
+ {
+  "start": 833.399,
+  "end": 835.829,
+  "text": "what is that your last row content value"
+ },
+ {
+  "start": 835.839,
+  "end": 837.67,
+  "text": "is 60"
+ },
+ {
+  "start": 837.68,
+  "end": 842.55,
+  "text": "4 pound so let's go here you can see 604"
+ },
+ {
+  "start": 842.56,
+  "end": 846.59,
+  "text": "pound right so that means the last row"
+ },
+ {
+  "start": 846.6,
+  "end": 849.47,
+  "text": "content index also working correctly so"
+ },
+ {
+  "start": 849.48,
+  "end": 851.829,
+  "text": "these are the two methods you can"
+ },
+ {
+  "start": 851.839,
+  "end": 855.91,
+  "text": "automate your test Case by interacting"
+ },
+ {
+  "start": 855.92,
+  "end": 857.11,
+  "text": "with"
+ },
+ {
+  "start": 857.12,
+  "end": 860.949,
+  "text": "Dynamic web table and you can capture"
+ },
+ {
+  "start": 860.959,
+  "end": 864.03,
+  "text": "the value of your last row so if you"
+ },
+ {
+  "start": 864.04,
+  "end": 865.509,
+  "text": "have any queries leave your queries in"
+ },
+ {
+  "start": 865.519,
+  "end": 866.99,
+  "text": "the comment box I'll try to respond to"
+ },
+ {
+  "start": 867.0,
+  "end": 867.71,
+  "text": "your"
+ },
+ {
+  "start": 867.72,
+  "end": 871.67,
+  "text": "queries oh you all understand how can we"
+ },
+ {
+  "start": 871.68,
+  "end": 874.949,
+  "text": "solve an obstacle where you need to"
+ },
+ {
+  "start": 874.959,
+  "end": 879.35,
+  "text": "interact with Dynamic web table to get"
+ },
+ {
+  "start": 879.36,
+  "end": 885.11,
+  "text": "last row value or to get last content"
+ },
+ {
+  "start": 885.12,
+  "end": 888.71,
+  "text": "row please do subscribe to the channel"
+ },
+ {
+  "start": 888.72,
+  "end": 890.47,
+  "text": "click on Bell icon you'll receive"
+ },
+ {
+  "start": 890.48,
+  "end": 893.47,
+  "text": "notifications whenever I publish more"
+ },
+ {
+  "start": 893.48,
+  "end": 896.43,
+  "text": "videos don't forget to like and share"
+ },
+ {
+  "start": 896.44,
+  "end": 906.15,
+  "text": "the video thank you"
+ }
+]

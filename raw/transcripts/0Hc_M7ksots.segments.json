@@ -1,0 +1,1132 @@
+[
+ {
+  "start": 1.68,
+  "end": 4.85,
+  "text": "foreign"
+ },
+ {
+  "start": 14.509,
+  "end": 14.519,
+  "text": "this is Ravi welcome back to Tasca"
+ },
+ {
+  "start": 14.519,
+  "end": 17.269,
+  "text": "automation tutorial"
+ },
+ {
+  "start": 17.279,
+  "end": 20.029,
+  "text": "so this is our lesson five"
+ },
+ {
+  "start": 20.039,
+  "end": 23.21,
+  "text": "where I'm gonna teach you what is model"
+ },
+ {
+  "start": 23.22,
+  "end": 25.55,
+  "text": "based test automation"
+ },
+ {
+  "start": 25.56,
+  "end": 29.509,
+  "text": "and why does Tasker tries and testoster"
+ },
+ {
+  "start": 29.519,
+  "end": 32.63,
+  "text": "follows model based test automation"
+ },
+ {
+  "start": 32.64,
+  "end": 35.27,
+  "text": "and then I'm going to show you some"
+ },
+ {
+  "start": 35.28,
+  "end": 38.09,
+  "text": "standard modules of Tosca that comes"
+ },
+ {
+  "start": 38.1,
+  "end": 39.41,
+  "text": "along with your"
+ },
+ {
+  "start": 39.42,
+  "end": 41.63,
+  "text": "Tasker installation"
+ },
+ {
+  "start": 41.64,
+  "end": 44.389,
+  "text": "I I think I already published four"
+ },
+ {
+  "start": 44.399,
+  "end": 47.81,
+  "text": "YouTube videos I highly recommend you"
+ },
+ {
+  "start": 47.82,
+  "end": 49.729,
+  "text": "guys to go through those videos before"
+ },
+ {
+  "start": 49.739,
+  "end": 51.65,
+  "text": "you watch this session"
+ },
+ {
+  "start": 51.66,
+  "end": 54.17,
+  "text": "please do subscribe to the channel click"
+ },
+ {
+  "start": 54.18,
+  "end": 55.61,
+  "text": "on Bell icon you'll receive"
+ },
+ {
+  "start": 55.62,
+  "end": 58.189,
+  "text": "notifications whenever I publish more"
+ },
+ {
+  "start": 58.199,
+  "end": 60.77,
+  "text": "videos thank you"
+ },
+ {
+  "start": 60.78,
+  "end": 62.27,
+  "text": "okay"
+ },
+ {
+  "start": 62.28,
+  "end": 65.87,
+  "text": "so model based test automation"
+ },
+ {
+  "start": 65.88,
+  "end": 69.289,
+  "text": "is being used by trisantis Tasker"
+ },
+ {
+  "start": 69.299,
+  "end": 70.67,
+  "text": "why"
+ },
+ {
+  "start": 70.68,
+  "end": 73.81,
+  "text": "because the model based test automation"
+ },
+ {
+  "start": 73.82,
+  "end": 76.13,
+  "text": "advantages are"
+ },
+ {
+  "start": 76.14,
+  "end": 79.67,
+  "text": "very good compared to script based"
+ },
+ {
+  "start": 79.68,
+  "end": 81.71,
+  "text": "automation"
+ },
+ {
+  "start": 81.72,
+  "end": 85.249,
+  "text": "the model contains so the model whatever"
+ },
+ {
+  "start": 85.259,
+  "end": 88.19,
+  "text": "Tasker is using right those models"
+ },
+ {
+  "start": 88.2,
+  "end": 91.37,
+  "text": "contains the technical information and"
+ },
+ {
+  "start": 91.38,
+  "end": 94.31,
+  "text": "the expected behavior of your system"
+ },
+ {
+  "start": 94.32,
+  "end": 96.289,
+  "text": "under test"
+ },
+ {
+  "start": 96.299,
+  "end": 100.13,
+  "text": "so the model is then so if you see on"
+ },
+ {
+  "start": 100.14,
+  "end": 102.35,
+  "text": "the screen right"
+ },
+ {
+  "start": 102.36,
+  "end": 104.87,
+  "text": "in the middle there is a model right"
+ },
+ {
+  "start": 104.88,
+  "end": 107.87,
+  "text": "which is called module in the form of a"
+ },
+ {
+  "start": 107.88,
+  "end": 111.17,
+  "text": "tasker so you're gonna get familiar from"
+ },
+ {
+  "start": 111.18,
+  "end": 113.63,
+  "text": "the next session onwards why do we use"
+ },
+ {
+  "start": 113.64,
+  "end": 115.789,
+  "text": "models and then how to create test cases"
+ },
+ {
+  "start": 115.799,
+  "end": 118.429,
+  "text": "for now just listen as a theoretical"
+ },
+ {
+  "start": 118.439,
+  "end": 121.069,
+  "text": "part okay so from next session onwards"
+ },
+ {
+  "start": 121.079,
+  "end": 122.51,
+  "text": "we are going to interact with all these"
+ },
+ {
+  "start": 122.52,
+  "end": 125.209,
+  "text": "modules models and then test cases okay"
+ },
+ {
+  "start": 125.219,
+  "end": 130.13,
+  "text": "so the model whatever is created is"
+ },
+ {
+  "start": 130.14,
+  "end": 134.15,
+  "text": "being then fed with business data needed"
+ },
+ {
+  "start": 134.16,
+  "end": 137.99,
+  "text": "for testing with in the form of for"
+ },
+ {
+  "start": 138.0,
+  "end": 139.91,
+  "text": "testing which in the form of test cases"
+ },
+ {
+  "start": 139.92,
+  "end": 143.51,
+  "text": "so basically the model whatever is"
+ },
+ {
+  "start": 143.52,
+  "end": 146.27,
+  "text": "created is then fed with business data"
+ },
+ {
+  "start": 146.28,
+  "end": 150.05,
+  "text": "needed for testing which forms your test"
+ },
+ {
+  "start": 150.06,
+  "end": 153.29,
+  "text": "cases so basically the model or the"
+ },
+ {
+  "start": 153.3,
+  "end": 156.47,
+  "text": "modules itself forms test cases once you"
+ },
+ {
+  "start": 156.48,
+  "end": 159.53,
+  "text": "feed the business data very simple and"
+ },
+ {
+  "start": 159.54,
+  "end": 161.809,
+  "text": "you need not to have any scripting"
+ },
+ {
+  "start": 161.819,
+  "end": 165.229,
+  "text": "knowledge anyone can contribute to"
+ },
+ {
+  "start": 165.239,
+  "end": 168.35,
+  "text": "automation because of this model based"
+ },
+ {
+  "start": 168.36,
+  "end": 169.97,
+  "text": "test automation"
+ },
+ {
+  "start": 169.98,
+  "end": 173.809,
+  "text": "and also it reduces the maintenance if"
+ },
+ {
+  "start": 173.819,
+  "end": 176.449,
+  "text": "your application system under test has"
+ },
+ {
+  "start": 176.459,
+  "end": 178.97,
+  "text": "been changed for example then you just"
+ },
+ {
+  "start": 178.98,
+  "end": 181.009,
+  "text": "need to update the model"
+ },
+ {
+  "start": 181.019,
+  "end": 182.93,
+  "text": "which is called module"
+ },
+ {
+  "start": 182.94,
+  "end": 185.57,
+  "text": "and then those changes will"
+ },
+ {
+  "start": 185.58,
+  "end": 189.229,
+  "text": "automatically be made to all impacted"
+ },
+ {
+  "start": 189.239,
+  "end": 192.41,
+  "text": "test cases you need not to change the"
+ },
+ {
+  "start": 192.42,
+  "end": 195.29,
+  "text": "test Case by test case okay that's the"
+ },
+ {
+  "start": 195.3,
+  "end": 198.17,
+  "text": "very Advantage okay and these models can"
+ },
+ {
+  "start": 198.18,
+  "end": 201.97,
+  "text": "be reused as many times as you need"
+ },
+ {
+  "start": 201.98,
+  "end": 205.85,
+  "text": "these models can be reused as many times"
+ },
+ {
+  "start": 205.86,
+  "end": 209.69,
+  "text": "as possible and as many test cases as"
+ },
+ {
+  "start": 209.7,
+  "end": 212.33,
+  "text": "possible okay so that's the advantage"
+ },
+ {
+  "start": 212.34,
+  "end": 214.97,
+  "text": "okay and then"
+ },
+ {
+  "start": 214.98,
+  "end": 218.21,
+  "text": "the next agent item is standard modules"
+ },
+ {
+  "start": 218.22,
+  "end": 220.07,
+  "text": "in task"
+ },
+ {
+  "start": 220.08,
+  "end": 222.289,
+  "text": "the standard module"
+ },
+ {
+  "start": 222.299,
+  "end": 226.61,
+  "text": "is actually comes along with the Tasker"
+ },
+ {
+  "start": 226.62,
+  "end": 227.69,
+  "text": "installation"
+ },
+ {
+  "start": 227.7,
+  "end": 230.149,
+  "text": "okay so what is the advantage of this"
+ },
+ {
+  "start": 230.159,
+  "end": 233.089,
+  "text": "standard module so this stores very"
+ },
+ {
+  "start": 233.099,
+  "end": 237.17,
+  "text": "basic elements and functions that are"
+ },
+ {
+  "start": 237.18,
+  "end": 239.03,
+  "text": "useful"
+ },
+ {
+  "start": 239.04,
+  "end": 242.809,
+  "text": "for any kind of application automation"
+ },
+ {
+  "start": 242.819,
+  "end": 246.35,
+  "text": "so these are reusable modules that you"
+ },
+ {
+  "start": 246.36,
+  "end": 249.229,
+  "text": "need need not to build as they are"
+ },
+ {
+  "start": 249.239,
+  "end": 251.75,
+  "text": "already available for you because for"
+ },
+ {
+  "start": 251.76,
+  "end": 254.27,
+  "text": "example you need to interact with an"
+ },
+ {
+  "start": 254.28,
+  "end": 255.89,
+  "text": "Excel sheet"
+ },
+ {
+  "start": 255.9,
+  "end": 258.83,
+  "text": "you need to open an Excel sheet right"
+ },
+ {
+  "start": 258.84,
+  "end": 263.39,
+  "text": "you want to handle pop-up boxes so all"
+ },
+ {
+  "start": 263.4,
+  "end": 266.39,
+  "text": "these reusable I mean to basically"
+ },
+ {
+  "start": 266.4,
+  "end": 269.629,
+  "text": "interact or to do all these actions you"
+ },
+ {
+  "start": 269.639,
+  "end": 270.95,
+  "text": "have to build some scripts right"
+ },
+ {
+  "start": 270.96,
+  "end": 274.189,
+  "text": "reusable functions so in this case you"
+ },
+ {
+  "start": 274.199,
+  "end": 276.35,
+  "text": "need not to build them these are already"
+ },
+ {
+  "start": 276.36,
+  "end": 278.689,
+  "text": "available as a module standard modules"
+ },
+ {
+  "start": 278.699,
+  "end": 282.23,
+  "text": "right open URL this is also one reusable"
+ },
+ {
+  "start": 282.24,
+  "end": 284.81,
+  "text": "function so that is available as a"
+ },
+ {
+  "start": 284.82,
+  "end": 287.21,
+  "text": "standard module okay so all these are"
+ },
+ {
+  "start": 287.22,
+  "end": 290.09,
+  "text": "all actually reusable modules that you"
+ },
+ {
+  "start": 290.1,
+  "end": 292.31,
+  "text": "need not to build and you need not to"
+ },
+ {
+  "start": 292.32,
+  "end": 295.249,
+  "text": "spend time because these are readily"
+ },
+ {
+  "start": 295.259,
+  "end": 297.59,
+  "text": "available in task"
+ },
+ {
+  "start": 297.6,
+  "end": 301.49,
+  "text": "and how and where you can find these"
+ },
+ {
+  "start": 301.5,
+  "end": 304.55,
+  "text": "Tasker standard modules so let me let's"
+ },
+ {
+  "start": 304.56,
+  "end": 307.43,
+  "text": "jump onto the system and see what are"
+ },
+ {
+  "start": 307.44,
+  "end": 309.77,
+  "text": "these standards modules how can we use"
+ },
+ {
+  "start": 309.78,
+  "end": 312.83,
+  "text": "them and where can you find in the task"
+ },
+ {
+  "start": 312.84,
+  "end": 317.51,
+  "text": "okay so let's jump onto the system"
+ },
+ {
+  "start": 320.39,
+  "end": 320.4,
+  "text": "to all viewers uh a big thank you"
+ },
+ {
+  "start": 320.4,
+  "end": 323.51,
+  "text": "whoever watching my YouTube videos"
+ },
+ {
+  "start": 323.52,
+  "end": 326.93,
+  "text": "so what I can observe uh around 86.8"
+ },
+ {
+  "start": 326.94,
+  "end": 329.629,
+  "text": "percent of the viewers are watching my"
+ },
+ {
+  "start": 329.639,
+  "end": 332.21,
+  "text": "videos but uh they have not subscribed"
+ },
+ {
+  "start": 332.22,
+  "end": 333.71,
+  "text": "to my channel"
+ },
+ {
+  "start": 333.72,
+  "end": 335.87,
+  "text": "I would recommend and I would request"
+ },
+ {
+  "start": 335.88,
+  "end": 338.27,
+  "text": "everyone please do subscribe to the"
+ },
+ {
+  "start": 338.28,
+  "end": 339.529,
+  "text": "channel"
+ },
+ {
+  "start": 339.539,
+  "end": 341.93,
+  "text": "and encourage me in posting more and"
+ },
+ {
+  "start": 341.94,
+  "end": 344.51,
+  "text": "more videos uh which are helpful for you"
+ },
+ {
+  "start": 344.52,
+  "end": 345.83,
+  "text": "guys"
+ },
+ {
+  "start": 345.84,
+  "end": 347.27,
+  "text": "thank you"
+ },
+ {
+  "start": 347.28,
+  "end": 350.749,
+  "text": "okay so where can we find uh"
+ },
+ {
+  "start": 350.759,
+  "end": 353.629,
+  "text": "Tasker standard modules okay so this is"
+ },
+ {
+  "start": 353.639,
+  "end": 356.93,
+  "text": "my uh task 16 okay"
+ },
+ {
+  "start": 356.94,
+  "end": 359.87,
+  "text": "so when you are creating a new workspace"
+ },
+ {
+  "start": 359.88,
+  "end": 363.11,
+  "text": "right click on create new workspace I've"
+ },
+ {
+  "start": 363.12,
+  "end": 364.55,
+  "text": "already explained you how to create"
+ },
+ {
+  "start": 364.56,
+  "end": 367.51,
+  "text": "workspace in my previous sessions okay"
+ },
+ {
+  "start": 367.52,
+  "end": 370.189,
+  "text": "so when you are creating a new workspace"
+ },
+ {
+  "start": 370.199,
+  "end": 372.23,
+  "text": "you can see here when I'm clicking on"
+ },
+ {
+  "start": 372.24,
+  "end": 375.71,
+  "text": "use workspace template right this is"
+ },
+ {
+  "start": 375.72,
+  "end": 378.59,
+  "text": "where the standard dot TSU file is"
+ },
+ {
+  "start": 378.6,
+  "end": 380.81,
+  "text": "available standard modules okay let's"
+ },
+ {
+  "start": 380.82,
+  "end": 383.45,
+  "text": "copy this path and let me go to that"
+ },
+ {
+  "start": 383.46,
+  "end": 385.249,
+  "text": "path okay"
+ },
+ {
+  "start": 385.259,
+  "end": 387.469,
+  "text": "so this is your"
+ },
+ {
+  "start": 387.479,
+  "end": 390.469,
+  "text": "path where I have installed my"
+ },
+ {
+  "start": 390.479,
+  "end": 394.129,
+  "text": "Tasker when I am installing my Tasker it"
+ },
+ {
+  "start": 394.139,
+  "end": 396.65,
+  "text": "creates all these folders in this path"
+ },
+ {
+  "start": 396.66,
+  "end": 400.79,
+  "text": "okay so under this I can see there is a"
+ },
+ {
+  "start": 400.8,
+  "end": 403.01,
+  "text": "file called standard.tsu"
+ },
+ {
+  "start": 403.02,
+  "end": 407.99,
+  "text": "this is what the Tasker standard module"
+ },
+ {
+  "start": 408.0,
+  "end": 411.59,
+  "text": "okay so if I use this task as standard"
+ },
+ {
+  "start": 411.6,
+  "end": 414.129,
+  "text": "module let's create one workspace"
+ },
+ {
+  "start": 414.139,
+  "end": 420.01,
+  "text": "standard module"
+ },
+ {
+  "start": 423.71,
+  "end": 423.72,
+  "text": "understand it okay"
+ },
+ {
+  "start": 423.72,
+  "end": 426.29,
+  "text": "let's create this workspace I'm using"
+ },
+ {
+  "start": 426.3,
+  "end": 428.27,
+  "text": "the standard module that is provided by"
+ },
+ {
+  "start": 428.28,
+  "end": 432.29,
+  "text": "Tasker Okay click on OK so where can I"
+ },
+ {
+  "start": 432.3,
+  "end": 436.49,
+  "text": "see the modules okay so once it creates"
+ },
+ {
+  "start": 436.5,
+  "end": 438.969,
+  "text": "the workspace I'm gonna navigate to"
+ },
+ {
+  "start": 438.979,
+  "end": 443.33,
+  "text": "modules and then I'm gonna show you what"
+ },
+ {
+  "start": 443.34,
+  "end": 445.49,
+  "text": "are these standard modules"
+ },
+ {
+  "start": 445.5,
+  "end": 447.529,
+  "text": "okay what are all the different standard"
+ },
+ {
+  "start": 447.539,
+  "end": 449.93,
+  "text": "modules that are available"
+ },
+ {
+  "start": 449.94,
+  "end": 452.21,
+  "text": "in"
+ },
+ {
+  "start": 452.22,
+  "end": 453.65,
+  "text": "Tasker"
+ },
+ {
+  "start": 453.66,
+  "end": 457.51,
+  "text": "okay so if you see if I go to modules"
+ },
+ {
+  "start": 457.52,
+  "end": 460.309,
+  "text": "see these are all the standard modules"
+ },
+ {
+  "start": 460.319,
+  "end": 464.33,
+  "text": "that you that are being provided by task"
+ },
+ {
+  "start": 464.34,
+  "end": 467.27,
+  "text": "under t-box automation tool"
+ },
+ {
+  "start": 467.28,
+  "end": 470.629,
+  "text": "example basic Windows operation"
+ },
+ {
+  "start": 470.639,
+  "end": 473.39,
+  "text": "what kind of Bin Windows operations if"
+ },
+ {
+  "start": 473.4,
+  "end": 475.61,
+  "text": "you want to send Keys you can send keys"
+ },
+ {
+  "start": 475.62,
+  "end": 478.67,
+  "text": "or if you want to perform Windows"
+ },
+ {
+  "start": 478.68,
+  "end": 480.71,
+  "text": "operation you can perform Windows"
+ },
+ {
+  "start": 480.72,
+  "end": 483.17,
+  "text": "operation right if you want to scroll"
+ },
+ {
+  "start": 483.18,
+  "end": 485.71,
+  "text": "window then you can scroll the window"
+ },
+ {
+  "start": 485.72,
+  "end": 489.05,
+  "text": "and then file operations if you want to"
+ },
+ {
+  "start": 489.06,
+  "end": 492.05,
+  "text": "compare the file you can use this module"
+ },
+ {
+  "start": 492.06,
+  "end": 494.99,
+  "text": "so basically all these modules are"
+ },
+ {
+  "start": 495.0,
+  "end": 497.39,
+  "text": "already built you need not to create a"
+ },
+ {
+  "start": 497.4,
+  "end": 499.369,
+  "text": "separate script or you need not to build"
+ },
+ {
+  "start": 499.379,
+  "end": 501.11,
+  "text": "a script"
+ },
+ {
+  "start": 501.12,
+  "end": 505.369,
+  "text": "to basically use these operations right"
+ },
+ {
+  "start": 505.379,
+  "end": 508.129,
+  "text": "file comparison they already provided to"
+ },
+ {
+  "start": 508.139,
+  "end": 510.71,
+  "text": "you so you need not to build a script to"
+ },
+ {
+  "start": 510.72,
+  "end": 513.649,
+  "text": "compare the file right and let's assume"
+ },
+ {
+  "start": 513.659,
+  "end": 515.329,
+  "text": "t-box engine"
+ },
+ {
+  "start": 515.339,
+  "end": 519.05,
+  "text": "let's say HTML under HTML see one simple"
+ },
+ {
+  "start": 519.06,
+  "end": 520.25,
+  "text": "example"
+ },
+ {
+  "start": 520.26,
+  "end": 523.49,
+  "text": "close browser open URL so you need not"
+ },
+ {
+  "start": 523.5,
+  "end": 525.59,
+  "text": "to write any these are all the reusable"
+ },
+ {
+  "start": 525.6,
+  "end": 529.07,
+  "text": "functions or modules that is provided by"
+ },
+ {
+  "start": 529.08,
+  "end": 531.769,
+  "text": "Tasker so you need not to write"
+ },
+ {
+  "start": 531.779,
+  "end": 534.35,
+  "text": "script for opening the URL you need not"
+ },
+ {
+  "start": 534.36,
+  "end": 535.91,
+  "text": "to write script for row closing the"
+ },
+ {
+  "start": 535.92,
+  "end": 537.71,
+  "text": "browser because I can reuse this n"
+ },
+ {
+  "start": 537.72,
+  "end": 539.75,
+  "text": "number of times I can reuse this n"
+ },
+ {
+  "start": 539.76,
+  "end": 542.389,
+  "text": "number of times in any test case"
+ },
+ {
+  "start": 542.399,
+  "end": 545.269,
+  "text": "right that's an example and then if you"
+ },
+ {
+  "start": 545.279,
+  "end": 546.47,
+  "text": "want to"
+ },
+ {
+  "start": 546.48,
+  "end": 548.99,
+  "text": "let's go to some other"
+ },
+ {
+  "start": 549.0,
+  "end": 552.53,
+  "text": "examples okay"
+ },
+ {
+  "start": 555.67,
+  "end": 555.68,
+  "text": "open if you want to use any sap related"
+ },
+ {
+  "start": 555.68,
+  "end": 558.23,
+  "text": "modules you can use sap related modules"
+ },
+ {
+  "start": 558.24,
+  "end": 560.389,
+  "text": "if you want to use some Excel functions"
+ },
+ {
+  "start": 560.399,
+  "end": 563.15,
+  "text": "like opening Excel book workbook"
+ },
+ {
+  "start": 563.16,
+  "end": 565.19,
+  "text": "it's already available so you need not"
+ },
+ {
+  "start": 565.2,
+  "end": 568.07,
+  "text": "to build a script for connecting the"
+ },
+ {
+  "start": 568.08,
+  "end": 571.13,
+  "text": "Excel and then opening the Excel Book"
+ },
+ {
+  "start": 571.14,
+  "end": 573.829,
+  "text": "closing the Excel book creating the"
+ },
+ {
+  "start": 573.839,
+  "end": 576.19,
+  "text": "Excel worksheet right"
+ },
+ {
+  "start": 576.2,
+  "end": 578.93,
+  "text": "deleting the Excel worksheet so you need"
+ },
+ {
+  "start": 578.94,
+  "end": 581.63,
+  "text": "not to build all these things all these"
+ },
+ {
+  "start": 581.64,
+  "end": 584.09,
+  "text": "things are available PDF comparing the"
+ },
+ {
+  "start": 584.1,
+  "end": 586.97,
+  "text": "PDF you already have one module"
+ },
+ {
+  "start": 586.98,
+  "end": 589.85,
+  "text": "available right so all these kind of"
+ },
+ {
+  "start": 589.86,
+  "end": 593.09,
+  "text": "different kind of standard modules are"
+ },
+ {
+  "start": 593.1,
+  "end": 595.79,
+  "text": "already available and you can use the"
+ },
+ {
+  "start": 595.8,
+  "end": 600.29,
+  "text": "standard modules n number of times in"
+ },
+ {
+  "start": 600.3,
+  "end": 601.91,
+  "text": "any"
+ },
+ {
+  "start": 601.92,
+  "end": 604.49,
+  "text": "case that you would like to automate"
+ },
+ {
+  "start": 604.5,
+  "end": 608.389,
+  "text": "okay it's really helpful it saves a lot"
+ },
+ {
+  "start": 608.399,
+  "end": 611.69,
+  "text": "of time in automating any kind of"
+ },
+ {
+  "start": 611.7,
+  "end": 612.769,
+  "text": "application"
+ },
+ {
+  "start": 612.779,
+  "end": 615.71,
+  "text": "okay hope you all understand the concept"
+ },
+ {
+  "start": 615.72,
+  "end": 618.47,
+  "text": "of standard modules"
+ },
+ {
+  "start": 618.48,
+  "end": 622.79,
+  "text": "and also what is model based testing in"
+ },
+ {
+  "start": 622.8,
+  "end": 624.17,
+  "text": "Tosca"
+ },
+ {
+  "start": 624.18,
+  "end": 626.03,
+  "text": "okay if you have any queries you can"
+ },
+ {
+  "start": 626.04,
+  "end": 628.31,
+  "text": "leave your queries in the comment box"
+ },
+ {
+  "start": 628.32,
+  "end": 630.35,
+  "text": "I'll try to respond to your queries"
+ },
+ {
+  "start": 630.36,
+  "end": 632.69,
+  "text": "thank you"
+ },
+ {
+  "start": 632.7,
+  "end": 638.75,
+  "text": "foreign"
+ }
+]

@@ -1,0 +1,2097 @@
+[
+ {
+  "start": 13.35,
+  "end": 13.36,
+  "text": "Hi everyone, this is Ravi. Welcome to"
+ },
+ {
+  "start": 13.36,
+  "end": 15.749,
+  "text": "Tricentes Taska mobile automation"
+ },
+ {
+  "start": 15.759,
+  "end": 18.55,
+  "text": "tutorial. As you all know, I have"
+ },
+ {
+  "start": 18.56,
+  "end": 22.31,
+  "text": "already published four YouTube videos"
+ },
+ {
+  "start": 22.32,
+  "end": 25.349,
+  "text": "related to mobile automation by using"
+ },
+ {
+  "start": 25.359,
+  "end": 28.47,
+  "text": "Tricentis Taska. As part of those four"
+ },
+ {
+  "start": 28.48,
+  "end": 31.349,
+  "text": "YouTube videos, I have explained you how"
+ },
+ {
+  "start": 31.359,
+  "end": 34.95,
+  "text": "can we get started with Tricentis mobile"
+ },
+ {
+  "start": 34.96,
+  "end": 37.03,
+  "text": "agent and what are all the different"
+ },
+ {
+  "start": 37.04,
+  "end": 39.43,
+  "text": "features that are available in Tricentis"
+ },
+ {
+  "start": 39.44,
+  "end": 42.069,
+  "text": "mobile agent console. And in lesson two"
+ },
+ {
+  "start": 42.079,
+  "end": 44.709,
+  "text": "I have explained you how can we set up"
+ },
+ {
+  "start": 44.719,
+  "end": 47.91,
+  "text": "Android emulators and how can we install"
+ },
+ {
+  "start": 47.92,
+  "end": 51.99,
+  "text": "and download the Android Studio. And in"
+ },
+ {
+  "start": 52.0,
+  "end": 54.47,
+  "text": "lesson three we have prepared and"
+ },
+ {
+  "start": 54.48,
+  "end": 58.549,
+  "text": "connected the Android mobile device via"
+ },
+ {
+  "start": 58.559,
+  "end": 62.47,
+  "text": "USB and also via Wi-Fi. And then in"
+ },
+ {
+  "start": 62.48,
+  "end": 64.95,
+  "text": "previous lesson I've showed you how can"
+ },
+ {
+  "start": 64.96,
+  "end": 68.71,
+  "text": "we scan Android mobile application by"
+ },
+ {
+  "start": 68.72,
+  "end": 71.59,
+  "text": "using mobile engine with tricentis"
+ },
+ {
+  "start": 71.6,
+  "end": 75.99,
+  "text": "taska. So this is our lesson five where"
+ },
+ {
+  "start": 76.0,
+  "end": 78.07,
+  "text": "I'm going to teach you how can we"
+ },
+ {
+  "start": 78.08,
+  "end": 82.39,
+  "text": "automate our first mobile test case for"
+ },
+ {
+  "start": 82.4,
+  "end": 85.83,
+  "text": "Android devices."
+ },
+ {
+  "start": 85.84,
+  "end": 88.63,
+  "text": "The agenda for today's session is I'm"
+ },
+ {
+  "start": 88.64,
+  "end": 90.789,
+  "text": "going to show you how can we create"
+ },
+ {
+  "start": 90.799,
+  "end": 93.35,
+  "text": "mobile test case to automate using"
+ },
+ {
+  "start": 93.36,
+  "end": 96.71,
+  "text": "tricentis tasks. I'm going to show you"
+ },
+ {
+  "start": 96.72,
+  "end": 99.91,
+  "text": "how can we use standard modules from"
+ },
+ {
+  "start": 99.92,
+  "end": 102.87,
+  "text": "mobile engine while automating your test"
+ },
+ {
+  "start": 102.88,
+  "end": 106.469,
+  "text": "cases and we are going to take help of"
+ },
+ {
+  "start": 106.479,
+  "end": 108.31,
+  "text": "the configurations related to"
+ },
+ {
+  "start": 108.32,
+  "end": 111.749,
+  "text": "connections and the applications that we"
+ },
+ {
+  "start": 111.759,
+  "end": 114.23,
+  "text": "have established in our previous"
+ },
+ {
+  "start": 114.24,
+  "end": 116.789,
+  "text": "session. So I would recommend you guys"
+ },
+ {
+  "start": 116.799,
+  "end": 120.87,
+  "text": "to visit lesson 4 before you watch this"
+ },
+ {
+  "start": 120.88,
+  "end": 123.749,
+  "text": "session and then we are going to use"
+ },
+ {
+  "start": 123.759,
+  "end": 126.95,
+  "text": "above preconfigured values which are"
+ },
+ {
+  "start": 126.96,
+  "end": 129.99,
+  "text": "coming from connections and applications"
+ },
+ {
+  "start": 130.0,
+  "end": 133.91,
+  "text": "during test case automation. So now"
+ },
+ {
+  "start": 133.92,
+  "end": 136.07,
+  "text": "without delay let us jump onto the"
+ },
+ {
+  "start": 136.08,
+  "end": 140.309,
+  "text": "system and let us automate our first"
+ },
+ {
+  "start": 140.319,
+  "end": 143.91,
+  "text": "mobile test case by using tricentis"
+ },
+ {
+  "start": 143.92,
+  "end": 147.67,
+  "text": "taska. So this is my tricus taska. So in"
+ },
+ {
+  "start": 147.68,
+  "end": 150.71,
+  "text": "my previous lesson I've showed you how"
+ },
+ {
+  "start": 150.72,
+  "end": 155.11,
+  "text": "can we scan the elements of a mobile"
+ },
+ {
+  "start": 155.12,
+  "end": 158.39,
+  "text": "native application by using tricentis"
+ },
+ {
+  "start": 158.4,
+  "end": 161.99,
+  "text": "taska. When we are scanning the"
+ },
+ {
+  "start": 162.0,
+  "end": 165.43,
+  "text": "application like tip calculator in our"
+ },
+ {
+  "start": 165.44,
+  "end": 168.55,
+  "text": "case we have scanned the elements of"
+ },
+ {
+  "start": 168.56,
+  "end": 171.03,
+  "text": "native application called tip"
+ },
+ {
+  "start": 171.04,
+  "end": 173.99,
+  "text": "calculator. So when we are scanning the"
+ },
+ {
+  "start": 174.0,
+  "end": 176.39,
+  "text": "application we have performed some"
+ },
+ {
+  "start": 176.4,
+  "end": 178.79,
+  "text": "configurations. So we have established"
+ },
+ {
+  "start": 178.8,
+  "end": 181.99,
+  "text": "the connection by using local or remote"
+ },
+ {
+  "start": 182.0,
+  "end": 185.03,
+  "text": "connectivity and also we have added the"
+ },
+ {
+  "start": 185.04,
+  "end": 189.35,
+  "text": "device and then we have also added the"
+ },
+ {
+  "start": 189.36,
+  "end": 192.47,
+  "text": "application that we would like to scan"
+ },
+ {
+  "start": 192.48,
+  "end": 195.19,
+  "text": "and then we have scanned the elements of"
+ },
+ {
+  "start": 195.2,
+  "end": 197.19,
+  "text": "the application. So these are the"
+ },
+ {
+  "start": 197.2,
+  "end": 199.589,
+  "text": "elements that we scanned in our previous"
+ },
+ {
+  "start": 199.599,
+  "end": 203.83,
+  "text": "lesson. As we scanned the application by"
+ },
+ {
+  "start": 203.84,
+  "end": 206.869,
+  "text": "using local connection and the device"
+ },
+ {
+  "start": 206.879,
+  "end": 209.509,
+  "text": "Samsung. So there are some"
+ },
+ {
+  "start": 209.519,
+  "end": 211.03,
+  "text": "configurations"
+ },
+ {
+  "start": 211.04,
+  "end": 214.63,
+  "text": "that were created automatically by"
+ },
+ {
+  "start": 214.64,
+  "end": 217.03,
+  "text": "tricentis task. What are those"
+ },
+ {
+  "start": 217.04,
+  "end": 221.67,
+  "text": "configurations? Go to your project"
+ },
+ {
+  "start": 221.68,
+  "end": 225.11,
+  "text": "and then expand this particular"
+ },
+ {
+  "start": 225.12,
+  "end": 227.19,
+  "text": "configurations."
+ },
+ {
+  "start": 227.2,
+  "end": 230.149,
+  "text": "Under configurations, expand mobile"
+ },
+ {
+  "start": 230.159,
+  "end": 233.19,
+  "text": "section where you can see two"
+ },
+ {
+  "start": 233.2,
+  "end": 236.309,
+  "text": "configurations. One is applications,"
+ },
+ {
+  "start": 236.319,
+  "end": 238.789,
+  "text": "another one is connections."
+ },
+ {
+  "start": 238.799,
+  "end": 241.75,
+  "text": "Applications showing you the tip"
+ },
+ {
+  "start": 241.76,
+  "end": 244.229,
+  "text": "calculator application because we have"
+ },
+ {
+  "start": 244.239,
+  "end": 247.35,
+  "text": "scanned the elements of tip calculator."
+ },
+ {
+  "start": 247.36,
+  "end": 250.149,
+  "text": "That's why the configurations"
+ },
+ {
+  "start": 250.159,
+  "end": 253.429,
+  "text": "are created automatically by"
+ },
+ {
+  "start": 253.439,
+  "end": 255.91,
+  "text": "tricentistoska while scanning the"
+ },
+ {
+  "start": 255.92,
+  "end": 257.189,
+  "text": "application."
+ },
+ {
+  "start": 257.199,
+  "end": 259.43,
+  "text": "And another configuration is"
+ },
+ {
+  "start": 259.44,
+  "end": 261.99,
+  "text": "connections. So if you expand these"
+ },
+ {
+  "start": 262.0,
+  "end": 266.15,
+  "text": "connections, you can see a connection is"
+ },
+ {
+  "start": 266.16,
+  "end": 268.15,
+  "text": "already established. What are the"
+ },
+ {
+  "start": 268.16,
+  "end": 271.189,
+  "text": "connections? We have local connection as"
+ },
+ {
+  "start": 271.199,
+  "end": 274.23,
+  "text": "well as remote connection. So either you"
+ },
+ {
+  "start": 274.24,
+  "end": 276.95,
+  "text": "can use local connection or you can use"
+ },
+ {
+  "start": 276.96,
+  "end": 280.15,
+  "text": "remote connection. For both of them"
+ },
+ {
+  "start": 280.16,
+  "end": 283.27,
+  "text": "there are some configurations that were"
+ },
+ {
+  "start": 283.28,
+  "end": 286.95,
+  "text": "automatically saved in trictoka while"
+ },
+ {
+  "start": 286.96,
+  "end": 289.909,
+  "text": "scanning the application. So I'm going"
+ },
+ {
+  "start": 289.919,
+  "end": 293.27,
+  "text": "to use these two configurations"
+ },
+ {
+  "start": 293.28,
+  "end": 296.23,
+  "text": "application related configurations and"
+ },
+ {
+  "start": 296.24,
+  "end": 298.71,
+  "text": "connection related configurations"
+ },
+ {
+  "start": 298.72,
+  "end": 302.23,
+  "text": "while automating my test case. So these"
+ },
+ {
+  "start": 302.24,
+  "end": 305.189,
+  "text": "configurations are very important. Now"
+ },
+ {
+  "start": 305.199,
+  "end": 308.71,
+  "text": "let us go to test case section to create"
+ },
+ {
+  "start": 308.72,
+  "end": 310.79,
+  "text": "the test case."
+ },
+ {
+  "start": 310.8,
+  "end": 313.59,
+  "text": "So under test case section right click"
+ },
+ {
+  "start": 313.6,
+  "end": 316.55,
+  "text": "on test case folder and create a"
+ },
+ {
+  "start": 316.56,
+  "end": 322.39,
+  "text": "subfolder called mobile automation."
+ },
+ {
+  "start": 325.67,
+  "end": 325.68,
+  "text": "Under this folder I'm going to create my"
+ },
+ {
+  "start": 325.68,
+  "end": 327.67,
+  "text": "first test case. Right click on this"
+ },
+ {
+  "start": 327.68,
+  "end": 330.629,
+  "text": "folder and create test case. I'm going"
+ },
+ {
+  "start": 330.639,
+  "end": 335.67,
+  "text": "to name this as tip calculator"
+ },
+ {
+  "start": 339.59,
+  "end": 339.6,
+  "text": "basic test"
+ },
+ {
+  "start": 339.6,
+  "end": 344.71,
+  "text": "and this is my test case name. Now"
+ },
+ {
+  "start": 344.72,
+  "end": 346.87,
+  "text": "as soon as you create the test case,"
+ },
+ {
+  "start": 346.88,
+  "end": 349.749,
+  "text": "double click on this test case. One"
+ },
+ {
+  "start": 349.759,
+  "end": 353.67,
+  "text": "important thing is you need to"
+ },
+ {
+  "start": 353.68,
+  "end": 357.029,
+  "text": "configure the test configuration"
+ },
+ {
+  "start": 357.039,
+  "end": 361.43,
+  "text": "parameters. We need to first provide the"
+ },
+ {
+  "start": 361.44,
+  "end": 363.749,
+  "text": "test configuration parameters. How can"
+ },
+ {
+  "start": 363.759,
+  "end": 366.309,
+  "text": "you go to test configuration parameters?"
+ },
+ {
+  "start": 366.319,
+  "end": 368.87,
+  "text": "Select the test case. Under test case,"
+ },
+ {
+  "start": 368.88,
+  "end": 371.59,
+  "text": "there are three different tabs. Details,"
+ },
+ {
+  "start": 371.6,
+  "end": 373.67,
+  "text": "test configurations, control flow"
+ },
+ {
+  "start": 373.68,
+  "end": 377.51,
+  "text": "diagram. So you need to navigate to test"
+ },
+ {
+  "start": 377.52,
+  "end": 380.469,
+  "text": "configuration. So here"
+ },
+ {
+  "start": 380.479,
+  "end": 382.469,
+  "text": "I need to now create the test"
+ },
+ {
+  "start": 382.479,
+  "end": 387.27,
+  "text": "configurations for my mobile testing."
+ },
+ {
+  "start": 387.28,
+  "end": 390.629,
+  "text": "How can we create that? For that, let's"
+ },
+ {
+  "start": 390.639,
+  "end": 393.909,
+  "text": "drag this mobile automation project and"
+ },
+ {
+  "start": 393.919,
+  "end": 397.189,
+  "text": "put it at the right side. Okay, let me"
+ },
+ {
+  "start": 397.199,
+  "end": 402.309,
+  "text": "close the module section here."
+ },
+ {
+  "start": 405.27,
+  "end": 405.28,
+  "text": "Now in the left side,"
+ },
+ {
+  "start": 405.28,
+  "end": 407.67,
+  "text": "left side I have test case section,"
+ },
+ {
+  "start": 407.68,
+  "end": 412.23,
+  "text": "right side I have project tab. Under"
+ },
+ {
+  "start": 412.24,
+  "end": 414.95,
+  "text": "project tab, I have configurations."
+ },
+ {
+  "start": 414.96,
+  "end": 418.87,
+  "text": "Right? So now first I would like to use"
+ },
+ {
+  "start": 418.88,
+  "end": 422.15,
+  "text": "my application configurations. What is"
+ },
+ {
+  "start": 422.16,
+  "end": 424.87,
+  "text": "the application that we are automating?"
+ },
+ {
+  "start": 424.88,
+  "end": 427.27,
+  "text": "Tip calculator is the application. So"
+ },
+ {
+  "start": 427.28,
+  "end": 429.11,
+  "text": "now I'm going to drag these"
+ },
+ {
+  "start": 429.12,
+  "end": 432.309,
+  "text": "configurations and drop onto my test"
+ },
+ {
+  "start": 432.319,
+  "end": 434.79,
+  "text": "case configurations."
+ },
+ {
+  "start": 434.8,
+  "end": 437.11,
+  "text": "So as I explained you earlier these"
+ },
+ {
+  "start": 437.12,
+  "end": 438.629,
+  "text": "configurations"
+ },
+ {
+  "start": 438.639,
+  "end": 441.27,
+  "text": "are created"
+ },
+ {
+  "start": 441.28,
+  "end": 444.87,
+  "text": "while scanning our elements"
+ },
+ {
+  "start": 444.88,
+  "end": 448.07,
+  "text": "by using tricentistoska in our previous"
+ },
+ {
+  "start": 448.08,
+  "end": 452.23,
+  "text": "lesson. Refer my lesson four. So this is"
+ },
+ {
+  "start": 452.24,
+  "end": 454.87,
+  "text": "my application related configuration"
+ },
+ {
+  "start": 454.88,
+  "end": 457.27,
+  "text": "which shows application ID and some"
+ },
+ {
+  "start": 457.28,
+  "end": 461.27,
+  "text": "other inheritant properties. Okay. like"
+ },
+ {
+  "start": 461.28,
+  "end": 464.309,
+  "text": "application ID, application platform and"
+ },
+ {
+  "start": 464.319,
+  "end": 467.27,
+  "text": "application type. Apart from application"
+ },
+ {
+  "start": 467.28,
+  "end": 469.27,
+  "text": "configurations,"
+ },
+ {
+  "start": 469.28,
+  "end": 471.83,
+  "text": "I'll be using the connections"
+ },
+ {
+  "start": 471.84,
+  "end": 476.309,
+  "text": "configurations as well. So in my case, I"
+ },
+ {
+  "start": 476.319,
+  "end": 479.35,
+  "text": "would like to use remote connection"
+ },
+ {
+  "start": 479.36,
+  "end": 482.629,
+  "text": "because my Samsung device is connected"
+ },
+ {
+  "start": 482.639,
+  "end": 485.189,
+  "text": "to my remote machine. I'm going to drag"
+ },
+ {
+  "start": 485.199,
+  "end": 488.629,
+  "text": "and drop the connection related"
+ },
+ {
+  "start": 488.639,
+  "end": 491.909,
+  "text": "configurations onto my test case"
+ },
+ {
+  "start": 491.919,
+  "end": 494.07,
+  "text": "configurations."
+ },
+ {
+  "start": 494.08,
+  "end": 496.309,
+  "text": "So if you see here this is my remote"
+ },
+ {
+  "start": 496.319,
+  "end": 499.83,
+  "text": "connection. This is my PMA server that"
+ },
+ {
+  "start": 499.84,
+  "end": 501.749,
+  "text": "is"
+ },
+ {
+  "start": 501.759,
+  "end": 505.43,
+  "text": "tricentis mobile agent server and then"
+ },
+ {
+  "start": 505.44,
+  "end": 507.51,
+  "text": "type is TMA."
+ },
+ {
+  "start": 507.52,
+  "end": 510.15,
+  "text": "Okay. So these two configurations you"
+ },
+ {
+  "start": 510.16,
+  "end": 514.55,
+  "text": "need to map to the test case before even"
+ },
+ {
+  "start": 514.56,
+  "end": 516.389,
+  "text": "you start automating the test case"
+ },
+ {
+  "start": 516.399,
+  "end": 519.67,
+  "text": "because these are the preconditions for"
+ },
+ {
+  "start": 519.68,
+  "end": 522.87,
+  "text": "you to execute your test case"
+ },
+ {
+  "start": 522.88,
+  "end": 525.43,
+  "text": "on mobile device which is connected to"
+ },
+ {
+  "start": 525.44,
+  "end": 528.63,
+  "text": "your tricantis mobile agent. Apart from"
+ },
+ {
+  "start": 528.64,
+  "end": 530.949,
+  "text": "these two configurations,"
+ },
+ {
+  "start": 530.959,
+  "end": 533.509,
+  "text": "there is another test configuration that"
+ },
+ {
+  "start": 533.519,
+  "end": 537.11,
+  "text": "you need to set that is device name."
+ },
+ {
+  "start": 537.12,
+  "end": 540.71,
+  "text": "Right click on this create a new test"
+ },
+ {
+  "start": 540.72,
+  "end": 543.67,
+  "text": "configuration parameter."
+ },
+ {
+  "start": 543.68,
+  "end": 546.47,
+  "text": "As soon as I type device, it is"
+ },
+ {
+  "start": 546.48,
+  "end": 549.03,
+  "text": "prepopulating the device name. Right?"
+ },
+ {
+  "start": 549.04,
+  "end": 551.35,
+  "text": "Select the device name. And what is your"
+ },
+ {
+  "start": 551.36,
+  "end": 555.75,
+  "text": "device name? My device name is a unique"
+ },
+ {
+  "start": 555.76,
+  "end": 559.67,
+  "text": "ID of your device. Where can I see that"
+ },
+ {
+  "start": 559.68,
+  "end": 563.43,
+  "text": "unique ID? I can see the unique ID in my"
+ },
+ {
+  "start": 563.44,
+  "end": 566.47,
+  "text": "Tricentis mobile agent. For that go to"
+ },
+ {
+  "start": 566.48,
+  "end": 569.59,
+  "text": "your tricentis mobile agent right click"
+ },
+ {
+  "start": 569.6,
+  "end": 574.63,
+  "text": "open console and then here scroll down"
+ },
+ {
+  "start": 574.64,
+  "end": 577.269,
+  "text": "and click on configure devices. So this"
+ },
+ {
+  "start": 577.279,
+  "end": 579.75,
+  "text": "is a device which is connected to my"
+ },
+ {
+  "start": 579.76,
+  "end": 583.829,
+  "text": "remote machine. If you see here there is"
+ },
+ {
+  "start": 583.839,
+  "end": 588.07,
+  "text": "a field called UD ID. This represents"
+ },
+ {
+  "start": 588.08,
+  "end": 592.87,
+  "text": "your unique ID for your device. If you"
+ },
+ {
+  "start": 592.88,
+  "end": 595.99,
+  "text": "have multiple devices, the UD ID will be"
+ },
+ {
+  "start": 596.0,
+  "end": 598.79,
+  "text": "unique for each device. So for my"
+ },
+ {
+  "start": 598.8,
+  "end": 603.509,
+  "text": "device, this is my UD ID. Copy this one."
+ },
+ {
+  "start": 603.519,
+  "end": 609.19,
+  "text": "And you need to provide this UD ID as"
+ },
+ {
+  "start": 609.2,
+  "end": 613.03,
+  "text": "device name. Paste it here. So this is"
+ },
+ {
+  "start": 613.04,
+  "end": 616.47,
+  "text": "my device name. And now save the test"
+ },
+ {
+  "start": 616.48,
+  "end": 620.15,
+  "text": "case. So what we have done we have first"
+ },
+ {
+  "start": 620.16,
+  "end": 624.069,
+  "text": "created an empty test case and then for"
+ },
+ {
+  "start": 624.079,
+  "end": 628.23,
+  "text": "this test case we have created some test"
+ },
+ {
+  "start": 628.24,
+  "end": 630.79,
+  "text": "configurations. What are those? I have"
+ },
+ {
+  "start": 630.8,
+  "end": 633.43,
+  "text": "mapped the application related test"
+ },
+ {
+  "start": 633.44,
+  "end": 635.35,
+  "text": "configuration which is tip calculator"
+ },
+ {
+  "start": 635.36,
+  "end": 637.59,
+  "text": "test configuration by dragging and"
+ },
+ {
+  "start": 637.6,
+  "end": 640.55,
+  "text": "dropping onto test configurations and"
+ },
+ {
+  "start": 640.56,
+  "end": 643.75,
+  "text": "then I have also"
+ },
+ {
+  "start": 643.76,
+  "end": 646.23,
+  "text": "mapped the connections related"
+ },
+ {
+  "start": 646.24,
+  "end": 648.069,
+  "text": "configurations I have dragged and"
+ },
+ {
+  "start": 648.079,
+  "end": 651.35,
+  "text": "dropped onto my tip calculator basic"
+ },
+ {
+  "start": 651.36,
+  "end": 654.55,
+  "text": "test configuration test case right and"
+ },
+ {
+  "start": 654.56,
+  "end": 659.11,
+  "text": "then I also created a new TCP test"
+ },
+ {
+  "start": 659.12,
+  "end": 661.67,
+  "text": "configuration parameter called device"
+ },
+ {
+  "start": 661.68,
+  "end": 665.11,
+  "text": "name and the name I have copied from"
+ },
+ {
+  "start": 665.12,
+  "end": 667.829,
+  "text": "Tyentis mobile agent console. I have"
+ },
+ {
+  "start": 667.839,
+  "end": 671.99,
+  "text": "copied UD ID and I pasted the same UD ID"
+ },
+ {
+  "start": 672.0,
+  "end": 677.43,
+  "text": "here. So here we have completed all test"
+ },
+ {
+  "start": 677.44,
+  "end": 681.75,
+  "text": "configuration related steps. Now our"
+ },
+ {
+  "start": 681.76,
+  "end": 685.269,
+  "text": "next step is to automate the test case."
+ },
+ {
+  "start": 685.279,
+  "end": 689.509,
+  "text": "Now to open any application to open"
+ },
+ {
+  "start": 689.519,
+  "end": 693.03,
+  "text": "native application in your mobile you"
+ },
+ {
+  "start": 693.04,
+  "end": 696.79,
+  "text": "need to use a standard module. What is"
+ },
+ {
+  "start": 696.8,
+  "end": 700.069,
+  "text": "that standard module? Let's open module"
+ },
+ {
+  "start": 700.079,
+  "end": 701.829,
+  "text": "section"
+ },
+ {
+  "start": 701.839,
+  "end": 705.43,
+  "text": "and here go to standard modules."
+ },
+ {
+  "start": 705.44,
+  "end": 711.35,
+  "text": "Expand Tbox Engine and then go to your"
+ },
+ {
+  "start": 711.36,
+  "end": 715.03,
+  "text": "mobile. Under mobile"
+ },
+ {
+  "start": 715.04,
+  "end": 719.59,
+  "text": "you can see one standard module called"
+ },
+ {
+  "start": 719.6,
+  "end": 722.55,
+  "text": "open mobile application."
+ },
+ {
+  "start": 722.56,
+  "end": 725.75,
+  "text": "So whenever you automate your mobile"
+ },
+ {
+  "start": 725.76,
+  "end": 728.31,
+  "text": "related test cases this will be your"
+ },
+ {
+  "start": 728.32,
+  "end": 731.99,
+  "text": "first step. You need to use open mobile"
+ },
+ {
+  "start": 732.0,
+  "end": 734.949,
+  "text": "app standard module. Okay. So let's"
+ },
+ {
+  "start": 734.959,
+  "end": 737.59,
+  "text": "close this one. So to add the open"
+ },
+ {
+  "start": 737.6,
+  "end": 740.069,
+  "text": "mobile app"
+ },
+ {
+  "start": 740.079,
+  "end": 742.55,
+  "text": "standard module you can add from here"
+ },
+ {
+  "start": 742.56,
+  "end": 744.949,
+  "text": "also. How can I do that? Right click on"
+ },
+ {
+  "start": 744.959,
+  "end": 747.19,
+  "text": "this test case"
+ },
+ {
+  "start": 747.2,
+  "end": 750.47,
+  "text": "search and add test step. Here I can"
+ },
+ {
+  "start": 750.48,
+  "end": 754.31,
+  "text": "type open mobile app. So this is my open"
+ },
+ {
+  "start": 754.32,
+  "end": 757.829,
+  "text": "mobile app. Select that one."
+ },
+ {
+  "start": 757.839,
+  "end": 761.35,
+  "text": "Here under application you need to"
+ },
+ {
+  "start": 761.36,
+  "end": 764.87,
+  "text": "provide the full path of application"
+ },
+ {
+  "start": 764.88,
+  "end": 768.47,
+  "text": "or you can directly use your test"
+ },
+ {
+  "start": 768.48,
+  "end": 771.829,
+  "text": "configuration. So if you see here the"
+ },
+ {
+  "start": 771.839,
+  "end": 773.75,
+  "text": "test configuration related to"
+ },
+ {
+  "start": 773.76,
+  "end": 776.389,
+  "text": "application is already created while"
+ },
+ {
+  "start": 776.399,
+  "end": 779.03,
+  "text": "scanning our application. So I would"
+ },
+ {
+  "start": 779.04,
+  "end": 781.67,
+  "text": "like to use this test configuration"
+ },
+ {
+  "start": 781.68,
+  "end": 784.71,
+  "text": "parameter. What is that application ID?"
+ },
+ {
+  "start": 784.72,
+  "end": 788.23,
+  "text": "because this application ID consists of"
+ },
+ {
+  "start": 788.24,
+  "end": 793.19,
+  "text": "the full path of my APK file. So here"
+ },
+ {
+  "start": 793.2,
+  "end": 796.87,
+  "text": "to use your test configurations"
+ },
+ {
+  "start": 796.88,
+  "end": 801.269,
+  "text": "you need to create you need to open"
+ },
+ {
+  "start": 801.279,
+  "end": 806.87,
+  "text": "curly braces CP and then"
+ },
+ {
+  "start": 806.88,
+  "end": 810.79,
+  "text": "CP open square braces and you can see"
+ },
+ {
+  "start": 810.8,
+  "end": 813.03,
+  "text": "here all the test configurations"
+ },
+ {
+  "start": 813.04,
+  "end": 816.31,
+  "text": "whatever we created here are showing"
+ },
+ {
+  "start": 816.32,
+  "end": 819.59,
+  "text": "you. So here I'm going to select"
+ },
+ {
+  "start": 819.6,
+  "end": 822.949,
+  "text": "application ID."
+ },
+ {
+  "start": 822.959,
+  "end": 825.43,
+  "text": "Application ID. So this is my test"
+ },
+ {
+  "start": 825.44,
+  "end": 829.19,
+  "text": "configuration. Close square braces and"
+ },
+ {
+  "start": 829.2,
+  "end": 831.99,
+  "text": "close curly braces. So this is my"
+ },
+ {
+  "start": 832.0,
+  "end": 833.67,
+  "text": "application ID which is coming from my"
+ },
+ {
+  "start": 833.68,
+  "end": 836.71,
+  "text": "test configurations. So once I open the"
+ },
+ {
+  "start": 836.72,
+  "end": 839.43,
+  "text": "application, what is my next step? My"
+ },
+ {
+  "start": 839.44,
+  "end": 842.069,
+  "text": "next step is to perform action. What is"
+ },
+ {
+  "start": 842.079,
+  "end": 843.91,
+  "text": "that? So let me show you what I'm going"
+ },
+ {
+  "start": 843.92,
+  "end": 848.47,
+  "text": "to do here. First, I'm going to open"
+ },
+ {
+  "start": 848.48,
+  "end": 854.23,
+  "text": "the tip calculator."
+ },
+ {
+  "start": 856.71,
+  "end": 856.72,
+  "text": "So, this is my tip calculator. Once I"
+ },
+ {
+  "start": 856.72,
+  "end": 858.79,
+  "text": "open the tip calculator, I need to enter"
+ },
+ {
+  "start": 858.8,
+  "end": 862.069,
+  "text": "the base price. And then once I enter"
+ },
+ {
+  "start": 862.079,
+  "end": 865.75,
+  "text": "the base price based on the tip, it's"
+ },
+ {
+  "start": 865.76,
+  "end": 867.99,
+  "text": "going to calculate the total price. I"
+ },
+ {
+  "start": 868.0,
+  "end": 869.75,
+  "text": "need to verify this total price. So,"
+ },
+ {
+  "start": 869.76,
+  "end": 871.189,
+  "text": "that is the scenario that we would like"
+ },
+ {
+  "start": 871.199,
+  "end": 874.389,
+  "text": "to automate. And we have already scanned"
+ },
+ {
+  "start": 874.399,
+  "end": 877.91,
+  "text": "the related objects or elements in our"
+ },
+ {
+  "start": 877.92,
+  "end": 879.829,
+  "text": "previous lesson. I'm going to use the"
+ },
+ {
+  "start": 879.839,
+  "end": 882.47,
+  "text": "same elements now. Okay, for that let's"
+ },
+ {
+  "start": 882.48,
+  "end": 886.87,
+  "text": "open module and let's keep this module"
+ },
+ {
+  "start": 886.88,
+  "end": 889.509,
+  "text": "aside. Okay, what I'm going to do bring"
+ },
+ {
+  "start": 889.519,
+  "end": 893.91,
+  "text": "it to right side. Okay, now I would like"
+ },
+ {
+  "start": 893.92,
+  "end": 896.31,
+  "text": "to use the same module that we scanned"
+ },
+ {
+  "start": 896.32,
+  "end": 898.79,
+  "text": "earlier. So what I'm doing now I'm"
+ },
+ {
+  "start": 898.8,
+  "end": 902.629,
+  "text": "dragging and dropping onto my test case."
+ },
+ {
+  "start": 902.639,
+  "end": 905.829,
+  "text": "So now once I open the application here"
+ },
+ {
+  "start": 905.839,
+  "end": 908.79,
+  "text": "I'm going to name this step as"
+ },
+ {
+  "start": 908.8,
+  "end": 914.389,
+  "text": "validate the total price."
+ },
+ {
+  "start": 918.389,
+  "end": 918.399,
+  "text": "So here under base text box I need to"
+ },
+ {
+  "start": 918.399,
+  "end": 921.59,
+  "text": "enter 2,00. So here I'm going to say"
+ },
+ {
+  "start": 921.6,
+  "end": 926.55,
+  "text": "2,00 and my action mode should be input."
+ },
+ {
+  "start": 926.56,
+  "end": 929.59,
+  "text": "So once that is done now I would like to"
+ },
+ {
+  "start": 929.6,
+  "end": 933.03,
+  "text": "calculate the total price here. So my"
+ },
+ {
+  "start": 933.04,
+  "end": 936.31,
+  "text": "total price is 2,300"
+ },
+ {
+  "start": 936.32,
+  "end": 938.55,
+  "text": "but here I would like to use the action"
+ },
+ {
+  "start": 938.56,
+  "end": 942.79,
+  "text": "mode as verify because I'm calculating"
+ },
+ {
+  "start": 942.8,
+  "end": 947.35,
+  "text": "the total price including the tip right"
+ },
+ {
+  "start": 947.36,
+  "end": 950.949,
+  "text": "and now save your test case. So what I"
+ },
+ {
+  "start": 950.959,
+  "end": 953.189,
+  "text": "want to do so now what I would like to"
+ },
+ {
+  "start": 953.199,
+  "end": 955.03,
+  "text": "do I would like to run this particular"
+ },
+ {
+  "start": 955.04,
+  "end": 964.55,
+  "text": "test case and see if it works correctly."
+ },
+ {
+  "start": 967.749,
+  "end": 967.759,
+  "text": "So now so now let me run this particular"
+ },
+ {
+  "start": 967.759,
+  "end": 972.23,
+  "text": "test case. Right click and"
+ },
+ {
+  "start": 972.24,
+  "end": 975.91,
+  "text": "run in scratchbook. Let's open the"
+ },
+ {
+  "start": 975.92,
+  "end": 978.47,
+  "text": "mobile here. So you can see what are all"
+ },
+ {
+  "start": 978.48,
+  "end": 981.749,
+  "text": "the actions that is performed by tricasa"
+ },
+ {
+  "start": 981.759,
+  "end": 986.629,
+  "text": "in mobile screen and right side mobile"
+ },
+ {
+  "start": 986.639,
+  "end": 989.35,
+  "text": "mirror. So now see it is installing the"
+ },
+ {
+  "start": 989.36,
+  "end": 992.47,
+  "text": "APK file first"
+ },
+ {
+  "start": 992.48,
+  "end": 994.79,
+  "text": "calculator APK file. Now it opened the"
+ },
+ {
+  "start": 994.8,
+  "end": 999.11,
+  "text": "APK and it entered 2,00 and now it is"
+ },
+ {
+  "start": 999.12,
+  "end": 1002.47,
+  "text": "calculating total price 2300. Let's see"
+ },
+ {
+  "start": 1002.48,
+  "end": 1004.949,
+  "text": "why the test case got failed. Okay,"
+ },
+ {
+  "start": 1004.959,
+  "end": 1008.79,
+  "text": "let's open this one. It says your total"
+ },
+ {
+  "start": 1008.8,
+  "end": 1010.629,
+  "text": "price is"
+ },
+ {
+  "start": 1010.639,
+  "end": 1013.35,
+  "text": "expected value is 2,300 but actually is"
+ },
+ {
+  "start": 1013.36,
+  "end": 1017.11,
+  "text": "2,300. 0. So let me do one thing. Let me"
+ },
+ {
+  "start": 1017.12,
+  "end": 1021.35,
+  "text": "change the value to 0 0. Okay, let's"
+ },
+ {
+  "start": 1021.36,
+  "end": 1024.39,
+  "text": "save the test case. And now again let me"
+ },
+ {
+  "start": 1024.4,
+  "end": 1026.15,
+  "text": "run the test case one more time. Right"
+ },
+ {
+  "start": 1026.16,
+  "end": 1028.789,
+  "text": "click and run in scratchbook. So"
+ },
+ {
+  "start": 1028.799,
+  "end": 1031.35,
+  "text": "whenever you run the test case, it"
+ },
+ {
+  "start": 1031.36,
+  "end": 1033.029,
+  "text": "always"
+ },
+ {
+  "start": 1033.039,
+  "end": 1038.87,
+  "text": "installs the APK file first and then it"
+ },
+ {
+  "start": 1038.88,
+  "end": 1044.63,
+  "text": "performs the test case actions."
+ },
+ {
+  "start": 1048.309,
+  "end": 1048.319,
+  "text": "So now enter 2,00 validate the total"
+ },
+ {
+  "start": 1048.319,
+  "end": 1051.19,
+  "text": "price. Now it should pass. So now you"
+ },
+ {
+  "start": 1051.2,
+  "end": 1055.029,
+  "text": "can see your test case is passed. So"
+ },
+ {
+  "start": 1055.039,
+  "end": 1058.789,
+  "text": "here I have entered the value and now"
+ },
+ {
+  "start": 1058.799,
+  "end": 1061.99,
+  "text": "expected value is 2,300 and your actual"
+ },
+ {
+  "start": 1062.0,
+  "end": 1064.23,
+  "text": "value is 2,300."
+ },
+ {
+  "start": 1064.24,
+  "end": 1067.75,
+  "text": "So we are able to validate or we are"
+ },
+ {
+  "start": 1067.76,
+  "end": 1071.75,
+  "text": "able to interact with my Samsung mobile"
+ },
+ {
+  "start": 1071.76,
+  "end": 1075.029,
+  "text": "device and I'm able to open the native"
+ },
+ {
+  "start": 1075.039,
+  "end": 1077.669,
+  "text": "application and I'm able to interact"
+ },
+ {
+  "start": 1077.679,
+  "end": 1079.75,
+  "text": "with that native application to perform"
+ },
+ {
+  "start": 1079.76,
+  "end": 1082.95,
+  "text": "some actions and to validate my test"
+ },
+ {
+  "start": 1082.96,
+  "end": 1084.47,
+  "text": "case."
+ },
+ {
+  "start": 1084.48,
+  "end": 1087.83,
+  "text": "So in the same way if you are using any"
+ },
+ {
+  "start": 1087.84,
+  "end": 1090.07,
+  "text": "virtual device"
+ },
+ {
+  "start": 1090.08,
+  "end": 1092.87,
+  "text": "as I explained you in my lesson two or"
+ },
+ {
+  "start": 1092.88,
+  "end": 1095.99,
+  "text": "lesson three if you are using Android"
+ },
+ {
+  "start": 1096.0,
+  "end": 1098.71,
+  "text": "Studio and if you created Android"
+ },
+ {
+  "start": 1098.72,
+  "end": 1100.95,
+  "text": "virtual device it's going to show"
+ },
+ {
+  "start": 1100.96,
+  "end": 1103.51,
+  "text": "Android virtual device as well along"
+ },
+ {
+  "start": 1103.52,
+  "end": 1107.75,
+  "text": "with your Samsung real device right"
+ },
+ {
+  "start": 1107.76,
+  "end": 1110.71,
+  "text": "the only change what you need to make is"
+ },
+ {
+  "start": 1110.72,
+  "end": 1113.029,
+  "text": "if you want to interact with some other"
+ },
+ {
+  "start": 1113.039,
+  "end": 1115.909,
+  "text": "device you just need to change your UD"
+ },
+ {
+  "start": 1115.919,
+  "end": 1120.789,
+  "text": "ID. If you go here now into the triccent"
+ },
+ {
+  "start": 1120.799,
+  "end": 1123.59,
+  "text": "all the configurations remain same but"
+ },
+ {
+  "start": 1123.6,
+  "end": 1127.43,
+  "text": "your device name is going to change. So"
+ },
+ {
+  "start": 1127.44,
+  "end": 1130.07,
+  "text": "let me do one thing. Let me execute the"
+ },
+ {
+  "start": 1130.08,
+  "end": 1136.07,
+  "text": "same test case in Android Studio or in"
+ },
+ {
+  "start": 1136.08,
+  "end": 1139.43,
+  "text": "Android virtual device instead of my"
+ },
+ {
+  "start": 1139.44,
+  "end": 1142.39,
+  "text": "real Samsung device. So this is my"
+ },
+ {
+  "start": 1142.4,
+  "end": 1145.59,
+  "text": "Android Studio. Let us go to Android"
+ },
+ {
+  "start": 1145.6,
+  "end": 1147.909,
+  "text": "virtual device manager. I have explained"
+ },
+ {
+  "start": 1147.919,
+  "end": 1149.59,
+  "text": "you all these things in my previous"
+ },
+ {
+  "start": 1149.6,
+  "end": 1153.669,
+  "text": "lessons. Now let me"
+ },
+ {
+  "start": 1153.679,
+  "end": 1157.83,
+  "text": "so let me start my first virtual device."
+ },
+ {
+  "start": 1157.84,
+  "end": 1164.71,
+  "text": "Let's run this virtual device."
+ },
+ {
+  "start": 1169.029,
+  "end": 1169.039,
+  "text": "So this is my Android emulator or my"
+ },
+ {
+  "start": 1169.039,
+  "end": 1171.83,
+  "text": "Android virtual device. So this is my"
+ },
+ {
+  "start": 1171.84,
+  "end": 1174.95,
+  "text": "pixel virtual device. So now to run my"
+ },
+ {
+  "start": 1174.96,
+  "end": 1178.87,
+  "text": "test cases in Android emulator or"
+ },
+ {
+  "start": 1178.88,
+  "end": 1181.75,
+  "text": "virtual device all we need to do is let"
+ },
+ {
+  "start": 1181.76,
+  "end": 1184.39,
+  "text": "us open tricentis mobile agent. So now"
+ },
+ {
+  "start": 1184.4,
+  "end": 1186.789,
+  "text": "you can see there are two mobiles that"
+ },
+ {
+  "start": 1186.799,
+  "end": 1189.909,
+  "text": "are displaying here. One is my previous"
+ },
+ {
+  "start": 1189.919,
+  "end": 1192.71,
+  "text": "real device and another one is you can"
+ },
+ {
+  "start": 1192.72,
+  "end": 1197.59,
+  "text": "see medium phone ravi API. So if you see"
+ },
+ {
+  "start": 1197.6,
+  "end": 1201.11,
+  "text": "my virtual device name also medium phone"
+ },
+ {
+  "start": 1201.12,
+  "end": 1204.549,
+  "text": "ravi API. So that means I can see two"
+ },
+ {
+  "start": 1204.559,
+  "end": 1208.31,
+  "text": "mobile devices in my tricentis mobile"
+ },
+ {
+  "start": 1208.32,
+  "end": 1212.47,
+  "text": "agent. Now what is my unique ID for this"
+ },
+ {
+  "start": 1212.48,
+  "end": 1215.51,
+  "text": "virtual device? So this is my unique ID."
+ },
+ {
+  "start": 1215.52,
+  "end": 1218.07,
+  "text": "Copy this one. And now let's go to"
+ },
+ {
+  "start": 1218.08,
+  "end": 1220.63,
+  "text": "tricantis taska. Here I would like to"
+ },
+ {
+  "start": 1220.64,
+  "end": 1225.11,
+  "text": "change the device name to emulator"
+ },
+ {
+  "start": 1225.12,
+  "end": 1229.75,
+  "text": "54. This is my emulator unique ID. So if"
+ },
+ {
+  "start": 1229.76,
+  "end": 1233.27,
+  "text": "I run the test case now, right click and"
+ },
+ {
+  "start": 1233.28,
+  "end": 1236.95,
+  "text": "run in scratchbook. Now your test case"
+ },
+ {
+  "start": 1236.96,
+  "end": 1240.95,
+  "text": "should run on Android emulator. So let"
+ },
+ {
+  "start": 1240.96,
+  "end": 1248.87,
+  "text": "us see how it works."
+ },
+ {
+  "start": 1251.51,
+  "end": 1251.52,
+  "text": "So you can see here it is installing APK"
+ },
+ {
+  "start": 1251.52,
+  "end": 1255.51,
+  "text": "file and then it should open your tip"
+ },
+ {
+  "start": 1255.52,
+  "end": 1263.19,
+  "text": "calculator application."
+ },
+ {
+  "start": 1266.39,
+  "end": 1266.4,
+  "text": "Yes. So it is entering the value 2,00"
+ },
+ {
+  "start": 1266.4,
+  "end": 1267.99,
+  "text": "and now it is validating the total"
+ },
+ {
+  "start": 1268.0,
+  "end": 1271.19,
+  "text": "price."
+ },
+ {
+  "start": 1275.029,
+  "end": 1275.039,
+  "text": "So you can see here our test steps are"
+ },
+ {
+  "start": 1275.039,
+  "end": 1277.99,
+  "text": "passed. You can see my total price is"
+ },
+ {
+  "start": 1278.0,
+  "end": 1281.83,
+  "text": "2,300 and actual price is 2,300. So that"
+ },
+ {
+  "start": 1281.84,
+  "end": 1285.029,
+  "text": "means we are able to execute our test"
+ },
+ {
+  "start": 1285.039,
+  "end": 1289.83,
+  "text": "case in Android emulator as well as we"
+ },
+ {
+  "start": 1289.84,
+  "end": 1293.59,
+  "text": "were able to execute our test case in"
+ },
+ {
+  "start": 1293.6,
+  "end": 1297.59,
+  "text": "Samsung real device as well. So if you"
+ },
+ {
+  "start": 1297.6,
+  "end": 1299.51,
+  "text": "have any queries leave your queries in"
+ },
+ {
+  "start": 1299.52,
+  "end": 1301.11,
+  "text": "the comment box. I'll try to respond to"
+ },
+ {
+  "start": 1301.12,
+  "end": 1302.87,
+  "text": "your queries."
+ },
+ {
+  "start": 1302.88,
+  "end": 1304.63,
+  "text": "Thank you."
+ },
+ {
+  "start": 1304.64,
+  "end": 1307.43,
+  "text": "Hope you all understand today's"
+ },
+ {
+  "start": 1307.44,
+  "end": 1311.029,
+  "text": "concepts. How can we automate our first"
+ },
+ {
+  "start": 1311.039,
+  "end": 1314.87,
+  "text": "mobile test case for Android device"
+ },
+ {
+  "start": 1314.88,
+  "end": 1318.31,
+  "text": "where we have created a new test case"
+ },
+ {
+  "start": 1318.32,
+  "end": 1322.149,
+  "text": "and then we have performed the test case"
+ },
+ {
+  "start": 1322.159,
+  "end": 1324.63,
+  "text": "configuration parameters. We have"
+ },
+ {
+  "start": 1324.64,
+  "end": 1328.23,
+  "text": "actually mapped the connections and the"
+ },
+ {
+  "start": 1328.24,
+  "end": 1331.029,
+  "text": "application configurations that we"
+ },
+ {
+  "start": 1331.039,
+  "end": 1334.07,
+  "text": "created while scanning the modules in"
+ },
+ {
+  "start": 1334.08,
+  "end": 1338.789,
+  "text": "our earlier lesson. And then once we"
+ },
+ {
+  "start": 1338.799,
+  "end": 1342.549,
+  "text": "complete the test case configurations,"
+ },
+ {
+  "start": 1342.559,
+  "end": 1345.27,
+  "text": "then we have automated our test case by"
+ },
+ {
+  "start": 1345.28,
+  "end": 1348.23,
+  "text": "using standard modules and the modules"
+ },
+ {
+  "start": 1348.24,
+  "end": 1351.909,
+  "text": "that we have scanned in earlier session."
+ },
+ {
+  "start": 1351.919,
+  "end": 1354.07,
+  "text": "Please do subscribe to the channel."
+ },
+ {
+  "start": 1354.08,
+  "end": 1355.669,
+  "text": "Click on bell icon. You'll receive"
+ },
+ {
+  "start": 1355.679,
+  "end": 1357.669,
+  "text": "notifications whenever I publish more"
+ },
+ {
+  "start": 1357.679,
+  "end": 1361.11,
+  "text": "videos. Don't forget to like and share"
+ },
+ {
+  "start": 1361.12,
+  "end": 1370.08,
+  "text": "the video. Thank you."
+ }
+]

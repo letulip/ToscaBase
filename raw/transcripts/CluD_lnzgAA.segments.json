@@ -1,0 +1,1932 @@
+[
+ {
+  "start": 13.99,
+  "end": 14.0,
+  "text": "hi everyone this is RI welcome to trien"
+ },
+ {
+  "start": 14.0,
+  "end": 16.95,
+  "text": "tasa Advanced Training as you all know I"
+ },
+ {
+  "start": 16.96,
+  "end": 19.59,
+  "text": "already published 53 YouTube videos"
+ },
+ {
+  "start": 19.6,
+  "end": 23.269,
+  "text": "covering basic intermediate and advanced"
+ },
+ {
+  "start": 23.279,
+  "end": 25.91,
+  "text": "level Concepts so from couple of videos"
+ },
+ {
+  "start": 25.92,
+  "end": 28.189,
+  "text": "onwards I've started teaching you some"
+ },
+ {
+  "start": 28.199,
+  "end": 30.669,
+  "text": "realtime scenarios where you might"
+ },
+ {
+  "start": 30.679,
+  "end": 33.35,
+  "text": "encounter different types of obstacles"
+ },
+ {
+  "start": 33.36,
+  "end": 35.389,
+  "text": "and how can we solve those obstacles"
+ },
+ {
+  "start": 35.399,
+  "end": 38.19,
+  "text": "while automating your test cases so this"
+ },
+ {
+  "start": 38.2,
+  "end": 40.91,
+  "text": "is our obstacle 12 in terms of real time"
+ },
+ {
+  "start": 40.92,
+  "end": 44.35,
+  "text": "scenarios and this is our lesson 54 in"
+ },
+ {
+  "start": 44.36,
+  "end": 47.35,
+  "text": "terms of overall trient tosar training"
+ },
+ {
+  "start": 47.36,
+  "end": 49.63,
+  "text": "so in this obstacle I'm going to teach"
+ },
+ {
+  "start": 49.64,
+  "end": 52.91,
+  "text": "you how can we solve an obstacle where"
+ },
+ {
+  "start": 52.92,
+  "end": 57.43,
+  "text": "you need to interact with XML engine web"
+ },
+ {
+  "start": 57.44,
+  "end": 62.069,
+  "text": "engine and then file engine we need to"
+ },
+ {
+  "start": 62.079,
+  "end": 66.27,
+  "text": "load the XML file and we need to create"
+ },
+ {
+  "start": 66.28,
+  "end": 69.19,
+  "text": "an XML file and then we need to scan an"
+ },
+ {
+  "start": 69.2,
+  "end": 71.83,
+  "text": "XML file to solve this"
+ },
+ {
+  "start": 71.84,
+  "end": 74.429,
+  "text": "obstacle please do subscribe to the"
+ },
+ {
+  "start": 74.439,
+  "end": 76.35,
+  "text": "channel click on Bell icon you'll"
+ },
+ {
+  "start": 76.36,
+  "end": 78.67,
+  "text": "receive notifications whenever I publish"
+ },
+ {
+  "start": 78.68,
+  "end": 81.19,
+  "text": "more videos thank"
+ },
+ {
+  "start": 81.2,
+  "end": 85.429,
+  "text": "you so this is our 12th obstacle the"
+ },
+ {
+  "start": 85.439,
+  "end": 89.03,
+  "text": "obstacle name is B fast automate and"
+ },
+ {
+  "start": 89.04,
+  "end": 90.469,
+  "text": "which is categorized"
+ },
+ {
+  "start": 90.479,
+  "end": 95.469,
+  "text": "as hard so let us go for it let us first"
+ },
+ {
+  "start": 95.479,
+  "end": 97.91,
+  "text": "understand what is the obstacle that we"
+ },
+ {
+  "start": 97.92,
+  "end": 99.83,
+  "text": "need to solve"
+ },
+ {
+  "start": 99.84,
+  "end": 104.31,
+  "text": "for so click the button Load Books to"
+ },
+ {
+  "start": 104.32,
+  "end": 108.03,
+  "text": "load an XML structure of books to the"
+ },
+ {
+  "start": 108.04,
+  "end": 108.95,
+  "text": "text"
+ },
+ {
+  "start": 108.96,
+  "end": 113.87,
+  "text": "area click the load books now an XML"
+ },
+ {
+  "start": 113.88,
+  "end": 118.749,
+  "text": "structure of books will be loaded in the"
+ },
+ {
+  "start": 118.759,
+  "end": 122.63,
+  "text": "text area search through the XML and"
+ },
+ {
+  "start": 122.64,
+  "end": 127.59,
+  "text": "find the ISBN off book titled testing"
+ },
+ {
+  "start": 127.6,
+  "end": 129.229,
+  "text": "computer"
+ },
+ {
+  "start": 129.239,
+  "end": 132.63,
+  "text": "software here you can see this is one"
+ },
+ {
+  "start": 132.64,
+  "end": 136.229,
+  "text": "book the title of the book is this and"
+ },
+ {
+  "start": 136.239,
+  "end": 138.83,
+  "text": "the corresponding ISBN number of the"
+ },
+ {
+  "start": 138.84,
+  "end": 141.869,
+  "text": "title of the book is this so this way"
+ },
+ {
+  "start": 141.879,
+  "end": 143.39,
+  "text": "you need to search"
+ },
+ {
+  "start": 143.4,
+  "end": 147.949,
+  "text": "for testing computer software book title"
+ },
+ {
+  "start": 147.959,
+  "end": 151.15,
+  "text": "and you need to copy the corresponding"
+ },
+ {
+  "start": 151.16,
+  "end": 156.229,
+  "text": "ISBN number and enter this ISBN number"
+ },
+ {
+  "start": 156.239,
+  "end": 158.869,
+  "text": "to the text box here you need to enter"
+ },
+ {
+  "start": 158.879,
+  "end": 163.07,
+  "text": "this ISBN number into the text box but"
+ },
+ {
+  "start": 163.08,
+  "end": 166.03,
+  "text": "you need to enter the ISBN number of a"
+ },
+ {
+  "start": 166.04,
+  "end": 169.55,
+  "text": "specific book titled testing computer"
+ },
+ {
+  "start": 169.56,
+  "end": 173.07,
+  "text": "software so how can we solve for this"
+ },
+ {
+  "start": 173.08,
+  "end": 176.39,
+  "text": "let us go back to trient"
+ },
+ {
+  "start": 176.4,
+  "end": 179.55,
+  "text": "tasa so before we start solving the"
+ },
+ {
+  "start": 179.56,
+  "end": 180.869,
+  "text": "problem"
+ },
+ {
+  "start": 180.879,
+  "end": 183.39,
+  "text": "let me explain the strategy how we are"
+ },
+ {
+  "start": 183.4,
+  "end": 188.11,
+  "text": "going to solve the challenge so first"
+ },
+ {
+  "start": 188.12,
+  "end": 190.07,
+  "text": "what we are going to do we are going to"
+ },
+ {
+  "start": 190.08,
+  "end": 194.509,
+  "text": "use web engine to interact with this"
+ },
+ {
+  "start": 194.519,
+  "end": 197.869,
+  "text": "button so that we can load the"
+ },
+ {
+  "start": 197.879,
+  "end": 201.91,
+  "text": "XML and then once I load this"
+ },
+ {
+  "start": 201.92,
+  "end": 204.35,
+  "text": "XML what I'm going to do I'm going to"
+ },
+ {
+  "start": 204.36,
+  "end": 206.03,
+  "text": "use the file"
+ },
+ {
+  "start": 206.04,
+  "end": 210.229,
+  "text": "engine to create a file and store store"
+ },
+ {
+  "start": 210.239,
+  "end": 212.589,
+  "text": "this loaded"
+ },
+ {
+  "start": 212.599,
+  "end": 218.07,
+  "text": "XML into that file store means and write"
+ },
+ {
+  "start": 218.08,
+  "end": 223.19,
+  "text": "this loaded XML into a file what is the"
+ },
+ {
+  "start": 223.2,
+  "end": 224.949,
+  "text": "file I'm going to create I'm going to"
+ },
+ {
+  "start": 224.959,
+  "end": 227.47,
+  "text": "create do XML"
+ },
+ {
+  "start": 227.48,
+  "end": 229.35,
+  "text": "file and"
+ },
+ {
+  "start": 229.36,
+  "end": 235.55,
+  "text": "then I'm going to use XML engine to scan"
+ },
+ {
+  "start": 235.56,
+  "end": 241.03,
+  "text": "the XML that we stored in our system"
+ },
+ {
+  "start": 241.04,
+  "end": 244.75,
+  "text": "then I'm going to search for the title"
+ },
+ {
+  "start": 244.76,
+  "end": 248.069,
+  "text": "of the book testing computer software by"
+ },
+ {
+  "start": 248.079,
+  "end": 249.429,
+  "text": "using"
+ },
+ {
+  "start": 249.439,
+  "end": 252.509,
+  "text": "constraint action mode and then I'm"
+ },
+ {
+  "start": 252.519,
+  "end": 255.99,
+  "text": "going to store this ISBN into a buffer"
+ },
+ {
+  "start": 256.0,
+  "end": 258.67,
+  "text": "so that I can print that ISBN number"
+ },
+ {
+  "start": 258.68,
+  "end": 260.509,
+  "text": "into this buffer so that means we are"
+ },
+ {
+  "start": 260.519,
+  "end": 262.35,
+  "text": "using total three different types of"
+ },
+ {
+  "start": 262.36,
+  "end": 264.11,
+  "text": "engines web"
+ },
+ {
+  "start": 264.12,
+  "end": 268.51,
+  "text": "engine file engine and XML engine so let"
+ },
+ {
+  "start": 268.52,
+  "end": 271.15,
+  "text": "us go to our tric"
+ },
+ {
+  "start": 271.16,
+  "end": 275.749,
+  "text": "toas as usual we going to scan all the"
+ },
+ {
+  "start": 275.759,
+  "end": 277.27,
+  "text": "objects of"
+ },
+ {
+  "start": 278.44,
+  "end": 281.189,
+  "text": "application under the folder called"
+ },
+ {
+  "start": 281.199,
+  "end": 283.87,
+  "text": "obstacles right click on this folder"
+ },
+ {
+  "start": 283.88,
+  "end": 296.67,
+  "text": "select scan and select"
+ },
+ {
+  "start": 299.79,
+  "end": 299.8,
+  "text": "application this is my application click"
+ },
+ {
+  "start": 299.8,
+  "end": 308.029,
+  "text": "on"
+ },
+ {
+  "start": 310.35,
+  "end": 310.36,
+  "text": "scan here I would like"
+ },
+ {
+  "start": 310.36,
+  "end": 313.87,
+  "text": "to save the object related to this"
+ },
+ {
+  "start": 313.88,
+  "end": 318.189,
+  "text": "button Load Books also I would like"
+ },
+ {
+  "start": 318.199,
+  "end": 322.39,
+  "text": "to capture object of this particular box"
+ },
+ {
+  "start": 322.4,
+  "end": 324.39,
+  "text": "where XML is"
+ },
+ {
+  "start": 324.4,
+  "end": 328.35,
+  "text": "loading and then this edit box where"
+ },
+ {
+  "start": 328.36,
+  "end": 331.629,
+  "text": "I'll be entering the ISBN number which"
+ },
+ {
+  "start": 331.639,
+  "end": 334.95,
+  "text": "is this one so I captured all three of"
+ },
+ {
+  "start": 334.96,
+  "end": 338.189,
+  "text": "them and all three of them are uniquely"
+ },
+ {
+  "start": 338.199,
+  "end": 341.07,
+  "text": "identified so I don't have any conflicts"
+ },
+ {
+  "start": 341.08,
+  "end": 345.51,
+  "text": "and now let us rename this module with"
+ },
+ {
+  "start": 345.52,
+  "end": 348.87,
+  "text": "the obstacle"
+ },
+ {
+  "start": 351.79,
+  "end": 351.8,
+  "text": "number copy this"
+ },
+ {
+  "start": 351.8,
+  "end": 358.23,
+  "text": "number paste it here now let us save"
+ },
+ {
+  "start": 358.24,
+  "end": 361.87,
+  "text": "this let us save all these objects and"
+ },
+ {
+  "start": 361.88,
+  "end": 364.43,
+  "text": "close the X scan so if you go back to"
+ },
+ {
+  "start": 364.44,
+  "end": 367.189,
+  "text": "your trient tasa so this is my latest"
+ },
+ {
+  "start": 367.199,
+  "end": 370.589,
+  "text": "obstacle that we captured load books"
+ },
+ {
+  "start": 370.599,
+  "end": 374.43,
+  "text": "books ISBN of testing computer software"
+ },
+ {
+  "start": 374.44,
+  "end": 376.189,
+  "text": "so what I'm going to do here I would"
+ },
+ {
+  "start": 376.199,
+  "end": 378.589,
+  "text": "like to"
+ },
+ {
+  "start": 385.909,
+  "end": 385.919,
+  "text": "here what I'm going to do"
+ },
+ {
+  "start": 385.919,
+  "end": 390.07,
+  "text": "here I'm going to create a new folder so"
+ },
+ {
+  "start": 390.08,
+  "end": 392.51,
+  "text": "let me create a subfolder under"
+ },
+ {
+  "start": 392.52,
+  "end": 396.029,
+  "text": "obstacles let me call this as the same"
+ },
+ {
+  "start": 396.039,
+  "end": 397.79,
+  "text": "obstacle name that"
+ },
+ {
+  "start": 397.8,
+  "end": 400.95,
+  "text": "we captured right now and then I'm going"
+ },
+ {
+  "start": 400.96,
+  "end": 404.43,
+  "text": "to move this particular module under"
+ },
+ {
+  "start": 404.44,
+  "end": 408.95,
+  "text": "this sub folder okay why I'm doing I'll"
+ },
+ {
+  "start": 408.96,
+  "end": 410.67,
+  "text": "you'll get to know why I'm doing you'll"
+ },
+ {
+  "start": 410.68,
+  "end": 412.67,
+  "text": "get to know okay so right now under"
+ },
+ {
+  "start": 412.68,
+  "end": 415.99,
+  "text": "obstacles folder I have one module here"
+ },
+ {
+  "start": 416.0,
+  "end": 419.27,
+  "text": "okay so now let's go back to our test"
+ },
+ {
+  "start": 419.28,
+  "end": 422.83,
+  "text": "case section right blue color section"
+ },
+ {
+  "start": 422.84,
+  "end": 426.11,
+  "text": "right click and create a new test"
+ },
+ {
+  "start": 426.12,
+  "end": 428.71,
+  "text": "case and name this with the same"
+ },
+ {
+  "start": 428.72,
+  "end": 431.99,
+  "text": "obstacle name double click on this test"
+ },
+ {
+  "start": 432.0,
+  "end": 435.27,
+  "text": "case so now what I would like to do I"
+ },
+ {
+  "start": 435.28,
+  "end": 437.83,
+  "text": "would like to start creating our test"
+ },
+ {
+  "start": 437.84,
+  "end": 439.27,
+  "text": "steps for this test"
+ },
+ {
+  "start": 439.28,
+  "end": 443.189,
+  "text": "case first I'm going to drag this module"
+ },
+ {
+  "start": 443.199,
+  "end": 445.469,
+  "text": "and drop it"
+ },
+ {
+  "start": 445.479,
+  "end": 450.749,
+  "text": "here and let me name this as"
+ },
+ {
+  "start": 450.759,
+  "end": 454.469,
+  "text": "load this test let me name this test"
+ },
+ {
+  "start": 454.479,
+  "end": 457.51,
+  "text": "step as"
+ },
+ {
+  "start": 457.52,
+  "end": 459.909,
+  "text": "load"
+ },
+ {
+  "start": 459.919,
+  "end": 463.749,
+  "text": "XML"
+ },
+ {
+  "start": 467.189,
+  "end": 467.199,
+  "text": "structure so what I'm going to do here"
+ },
+ {
+  "start": 467.199,
+  "end": 469.99,
+  "text": "first we need to click on this load"
+ },
+ {
+  "start": 470.0,
+  "end": 474.629,
+  "text": "books button right for that simply enter"
+ },
+ {
+  "start": 474.639,
+  "end": 477.43,
+  "text": "X here and your action mode is"
+ },
+ {
+  "start": 477.44,
+  "end": 481.189,
+  "text": "input what it does it to load the XML"
+ },
+ {
+  "start": 481.199,
+  "end": 483.79,
+  "text": "structure once you load the XML"
+ },
+ {
+  "start": 483.8,
+  "end": 487.909,
+  "text": "structure I need to now create"
+ },
+ {
+  "start": 487.919,
+  "end": 493.149,
+  "text": "one file XML file and I need to write"
+ },
+ {
+  "start": 493.159,
+  "end": 495.83,
+  "text": "this particular content right to write"
+ },
+ {
+  "start": 495.84,
+  "end": 499.309,
+  "text": "this content here I would like to"
+ },
+ {
+  "start": 499.319,
+  "end": 502.23,
+  "text": "capture the content here I'm going to do"
+ },
+ {
+  "start": 502.24,
+  "end": 507.869,
+  "text": "I need to capture this XML right into a"
+ },
+ {
+  "start": 507.879,
+  "end": 511.63,
+  "text": "buffer for that let's one thing here"
+ },
+ {
+  "start": 511.64,
+  "end": 513.19,
+  "text": "bore"
+ },
+ {
+  "start": 513.2,
+  "end": 518.75,
+  "text": "XML content I'm creating bore XML"
+ },
+ {
+  "start": 518.76,
+  "end": 522.23,
+  "text": "content as a buffer and then I'm going"
+ },
+ {
+  "start": 522.24,
+  "end": 525.47,
+  "text": "to store this entire text into a"
+ },
+ {
+  "start": 525.48,
+  "end": 529.07,
+  "text": "buffer okay so now we stored this"
+ },
+ {
+  "start": 529.08,
+  "end": 532.75,
+  "text": "content into your buffer now we need to"
+ },
+ {
+  "start": 532.76,
+  "end": 536.87,
+  "text": "use another method where we need to"
+ },
+ {
+  "start": 536.88,
+  "end": 539.509,
+  "text": "create an XML file for that what I'm I'm"
+ },
+ {
+  "start": 539.519,
+  "end": 541.509,
+  "text": "going to do control"
+ },
+ {
+  "start": 541.519,
+  "end": 545.75,
+  "text": "T and here I'm going to say create we"
+ },
+ {
+  "start": 545.76,
+  "end": 550.79,
+  "text": "can use read and create file I'm not"
+ },
+ {
+  "start": 550.8,
+  "end": 553.11,
+  "text": "using Create XML file instead of I'm"
+ },
+ {
+  "start": 553.12,
+  "end": 557.23,
+  "text": "using pbox read create"
+ },
+ {
+  "start": 557.24,
+  "end": 559.949,
+  "text": "file so here what I'm going to do I'm"
+ },
+ {
+  "start": 559.959,
+  "end": 565.069,
+  "text": "going to name this"
+ },
+ {
+  "start": 569.55,
+  "end": 569.56,
+  "text": "as create XML"
+ },
+ {
+  "start": 569.56,
+  "end": 572.55,
+  "text": "and write"
+ },
+ {
+  "start": 572.56,
+  "end": 574.829,
+  "text": "content and what is the directory where"
+ },
+ {
+  "start": 574.839,
+  "end": 576.63,
+  "text": "you would like to store let's say I"
+ },
+ {
+  "start": 576.64,
+  "end": 580.949,
+  "text": "would like to store in this"
+ },
+ {
+  "start": 584.269,
+  "end": 584.279,
+  "text": "directory let's take the path of this"
+ },
+ {
+  "start": 584.279,
+  "end": 589.389,
+  "text": "directory and put it here and then what"
+ },
+ {
+  "start": 589.399,
+  "end": 591.67,
+  "text": "is the file name I would like to name"
+ },
+ {
+  "start": 591.68,
+  "end": 595.15,
+  "text": "this as books do"
+ },
+ {
+  "start": 595.16,
+  "end": 597.75,
+  "text": "XML and then what is the text that you"
+ },
+ {
+  "start": 597.76,
+  "end": 599.91,
+  "text": "would like to write here I would like to"
+ },
+ {
+  "start": 599.92,
+  "end": 602.55,
+  "text": "write the text of this one which is"
+ },
+ {
+  "start": 602.56,
+  "end": 604.87,
+  "text": "buffer right so how to call the buffer"
+ },
+ {
+  "start": 604.88,
+  "end": 608.67,
+  "text": "open curly braces capital B open Square"
+ },
+ {
+  "start": 608.68,
+  "end": 611.03,
+  "text": "braces"
+ },
+ {
+  "start": 611.04,
+  "end": 613.31,
+  "text": "bore"
+ },
+ {
+  "start": 613.32,
+  "end": 614.949,
+  "text": "XML"
+ },
+ {
+  "start": 614.959,
+  "end": 618.03,
+  "text": "content close Square braces close curly"
+ },
+ {
+  "start": 618.04,
+  "end": 621.23,
+  "text": "braces okay so just to make sure I'm"
+ },
+ {
+  "start": 621.24,
+  "end": 624.71,
+  "text": "going to copy this entire buffer and"
+ },
+ {
+  "start": 624.72,
+  "end": 628.47,
+  "text": "then I'm going to paste it here because"
+ },
+ {
+  "start": 628.48,
+  "end": 630.069,
+  "text": "I should not have any spell mistakes"
+ },
+ {
+  "start": 630.079,
+  "end": 634.31,
+  "text": "right so this is my buffer I'm writing"
+ },
+ {
+  "start": 634.32,
+  "end": 637.15,
+  "text": "the content that I captured in this"
+ },
+ {
+  "start": 637.16,
+  "end": 641.069,
+  "text": "buffer and then overwrite true I'd like"
+ },
+ {
+  "start": 641.079,
+  "end": 644.03,
+  "text": "to overwrite the content if I run this"
+ },
+ {
+  "start": 644.04,
+  "end": 646.59,
+  "text": "particular test case again and again"
+ },
+ {
+  "start": 646.6,
+  "end": 648.949,
+  "text": "okay so let me run this particular test"
+ },
+ {
+  "start": 648.959,
+  "end": 657.91,
+  "text": "case now and see what happens okay run"
+ },
+ {
+  "start": 661.99,
+  "end": 662.0,
+  "text": "this so loaded and then it created an"
+ },
+ {
+  "start": 662.0,
+  "end": 664.629,
+  "text": "Exel XML file so what I'm going to do"
+ },
+ {
+  "start": 664.639,
+  "end": 667.19,
+  "text": "here now let's go back here okay it's"
+ },
+ {
+  "start": 667.2,
+  "end": 670.069,
+  "text": "clicked on Load Books right now let's go"
+ },
+ {
+  "start": 670.079,
+  "end": 672.71,
+  "text": "back to the path where we specified here"
+ },
+ {
+  "start": 672.72,
+  "end": 676.35,
+  "text": "this is our books. XML let's open this"
+ },
+ {
+  "start": 676.36,
+  "end": 677.43,
+  "text": "and"
+ },
+ {
+  "start": 677.44,
+  "end": 682.03,
+  "text": "see the"
+ },
+ {
+  "start": 684.389,
+  "end": 684.399,
+  "text": "content so you can see here this is the"
+ },
+ {
+  "start": 684.399,
+  "end": 687.629,
+  "text": "content this is our first book this is"
+ },
+ {
+  "start": 687.639,
+  "end": 689.91,
+  "text": "our second book"
+ },
+ {
+  "start": 689.92,
+  "end": 692.71,
+  "text": "this is our third"
+ },
+ {
+  "start": 692.72,
+  "end": 695.87,
+  "text": "book right we are looking out for this"
+ },
+ {
+  "start": 695.88,
+  "end": 699.03,
+  "text": "book see testing computer"
+ },
+ {
+  "start": 699.04,
+  "end": 703.19,
+  "text": "software and we need to capture ISBN of"
+ },
+ {
+  "start": 703.2,
+  "end": 704.75,
+  "text": "this particular testing computer"
+ },
+ {
+  "start": 704.76,
+  "end": 706.91,
+  "text": "software which is 107"
+ },
+ {
+  "start": 706.92,
+  "end": 711.59,
+  "text": "3645 and this ISBN number need to be"
+ },
+ {
+  "start": 711.6,
+  "end": 715.71,
+  "text": "typed need to be typed here okay so"
+ },
+ {
+  "start": 715.72,
+  "end": 718.31,
+  "text": "let's close this one now okay so we are"
+ },
+ {
+  "start": 718.32,
+  "end": 721.03,
+  "text": "successfully created creating we are"
+ },
+ {
+  "start": 721.04,
+  "end": 723.71,
+  "text": "successfully creating the XML file that"
+ },
+ {
+  "start": 723.72,
+  "end": 728.47,
+  "text": "is required okay now our next step is to"
+ },
+ {
+  "start": 728.48,
+  "end": 731.389,
+  "text": "scan the XML whatever the XML that we"
+ },
+ {
+  "start": 731.399,
+  "end": 734.389,
+  "text": "created here right in this location we"
+ },
+ {
+  "start": 734.399,
+  "end": 737.35,
+  "text": "need to scan that XML for that let's go"
+ },
+ {
+  "start": 737.36,
+  "end": 741.03,
+  "text": "to module section"
+ },
+ {
+  "start": 745.55,
+  "end": 745.56,
+  "text": "again here under this folder I would"
+ },
+ {
+  "start": 745.56,
+  "end": 747.75,
+  "text": "like to scan see this is our obstacle"
+ },
+ {
+  "start": 747.76,
+  "end": 749.99,
+  "text": "folder okay"
+ },
+ {
+  "start": 750.0,
+  "end": 754.15,
+  "text": "so here right click and then select scan"
+ },
+ {
+  "start": 754.16,
+  "end": 755.71,
+  "text": "here I don't want to select the"
+ },
+ {
+  "start": 755.72,
+  "end": 757.629,
+  "text": "application instead I would like to"
+ },
+ {
+  "start": 757.639,
+  "end": 762.59,
+  "text": "select more and here select file scan"
+ },
+ {
+  "start": 762.6,
+  "end": 765.47,
+  "text": "select this and then it's going to ask"
+ },
+ {
+  "start": 765.48,
+  "end": 767.509,
+  "text": "you to select the file that you would"
+ },
+ {
+  "start": 767.519,
+  "end": 768.47,
+  "text": "like to"
+ },
+ {
+  "start": 768.48,
+  "end": 771.189,
+  "text": "scan I'm going to select the"
+ },
+ {
+  "start": 771.199,
+  "end": 774.15,
+  "text": "corresponding"
+ },
+ {
+  "start": 777.829,
+  "end": 777.839,
+  "text": "file so here this is my books. XML is"
+ },
+ {
+  "start": 777.839,
+  "end": 781.509,
+  "text": "the file open this one so this will scan"
+ },
+ {
+  "start": 781.519,
+  "end": 785.11,
+  "text": "the XML and it creates a module here you"
+ },
+ {
+  "start": 785.12,
+  "end": 787.67,
+  "text": "can see here there is a resource and"
+ },
+ {
+  "start": 787.68,
+  "end": 792.389,
+  "text": "then there is a catalog books under book"
+ },
+ {
+  "start": 792.399,
+  "end": 795.87,
+  "text": "you have this particular book repeated"
+ },
+ {
+  "start": 795.88,
+  "end": 798.829,
+  "text": "node under book you have author title"
+ },
+ {
+  "start": 798.839,
+  "end": 802.269,
+  "text": "prize ISBN number right so we scan this"
+ },
+ {
+  "start": 802.279,
+  "end": 803.509,
+  "text": "one"
+ },
+ {
+  "start": 803.519,
+  "end": 806.59,
+  "text": "now let's go back to our test case now"
+ },
+ {
+  "start": 806.6,
+  "end": 809.11,
+  "text": "so before I start using this model"
+ },
+ {
+  "start": 809.12,
+  "end": 810.99,
+  "text": "module there is another step that we"
+ },
+ {
+  "start": 811.0,
+  "end": 813.23,
+  "text": "need to follow what is that one we need"
+ },
+ {
+  "start": 813.24,
+  "end": 816.189,
+  "text": "to open the XML see whenever you would"
+ },
+ {
+  "start": 816.199,
+  "end": 819.31,
+  "text": "like to read the XML that we stored in"
+ },
+ {
+  "start": 819.32,
+  "end": 820.91,
+  "text": "the system first you need to open the"
+ },
+ {
+  "start": 820.92,
+  "end": 824.91,
+  "text": "XML file right for that control"
+ },
+ {
+  "start": 824.92,
+  "end": 831.069,
+  "text": "T open XML file here open create XML"
+ },
+ {
+  "start": 831.079,
+  "end": 833.23,
+  "text": "file select this"
+ },
+ {
+  "start": 833.24,
+  "end": 836.59,
+  "text": "one and here what is the resource name"
+ },
+ {
+  "start": 836.6,
+  "end": 840.35,
+  "text": "I'm going to name this as"
+ },
+ {
+  "start": 840.36,
+  "end": 843.71,
+  "text": "XML file XML file I'm going to name this"
+ },
+ {
+  "start": 843.72,
+  "end": 846.87,
+  "text": "as XML file what is the path the path of"
+ },
+ {
+  "start": 846.88,
+  "end": 849.67,
+  "text": "the XML that we are storing this is the"
+ },
+ {
+  "start": 849.68,
+  "end": 853.31,
+  "text": "path right"
+ },
+ {
+  "start": 855.99,
+  "end": 856.0,
+  "text": "let's so this is the path let's select"
+ },
+ {
+  "start": 856.0,
+  "end": 857.55,
+  "text": "this"
+ },
+ {
+  "start": 857.56,
+  "end": 859.55,
+  "text": "path copy"
+ },
+ {
+  "start": 859.56,
+  "end": 864.35,
+  "text": "this and paste it here"
+ },
+ {
+  "start": 864.36,
+  "end": 866.069,
+  "text": "SL"
+ },
+ {
+  "start": 866.079,
+  "end": 869.389,
+  "text": "books do XML"
+ },
+ {
+  "start": 869.399,
+  "end": 872.389,
+  "text": "right this is your entire path now once"
+ },
+ {
+  "start": 872.399,
+  "end": 875.67,
+  "text": "you open the XML now let us start using"
+ },
+ {
+  "start": 875.68,
+  "end": 878.31,
+  "text": "this one what we need to do we need to"
+ },
+ {
+  "start": 878.32,
+  "end": 882.59,
+  "text": "filter ISBN related to one specific book"
+ },
+ {
+  "start": 882.6,
+  "end": 886.47,
+  "text": "title correct for that let's drag this"
+ },
+ {
+  "start": 886.48,
+  "end": 889.11,
+  "text": "and drop it"
+ },
+ {
+  "start": 889.12,
+  "end": 893.949,
+  "text": "here here what I'm doing Search for the"
+ },
+ {
+  "start": 893.959,
+  "end": 897.55,
+  "text": "book related to testing computer"
+ },
+ {
+  "start": 897.56,
+  "end": 900.47,
+  "text": "software right cop Cy this one so let's"
+ },
+ {
+  "start": 900.48,
+  "end": 902.829,
+  "text": "go back here what I'm going to do here"
+ },
+ {
+  "start": 902.839,
+  "end": 904.509,
+  "text": "I'm going to start"
+ },
+ {
+  "start": 904.519,
+  "end": 907.47,
+  "text": "using the constraint option here"
+ },
+ {
+  "start": 907.48,
+  "end": 911.23,
+  "text": "constraint method or action mode how so"
+ },
+ {
+  "start": 911.24,
+  "end": 914.91,
+  "text": "if you see here this is my title right"
+ },
+ {
+  "start": 914.92,
+  "end": 918.99,
+  "text": "I'm pasting the title of this particular"
+ },
+ {
+  "start": 919.0,
+  "end": 923.99,
+  "text": "book and I'm going to use action mode as"
+ },
+ {
+  "start": 924.0,
+  "end": 927.829,
+  "text": "constraint what it does it's going to"
+ },
+ {
+  "start": 927.839,
+  "end": 932.43,
+  "text": "look for the book title testing computer"
+ },
+ {
+  "start": 932.44,
+  "end": 935.629,
+  "text": "software and it filters out all other"
+ },
+ {
+  "start": 935.639,
+  "end": 939.43,
+  "text": "options it takes this and then I would"
+ },
+ {
+  "start": 939.44,
+  "end": 942.87,
+  "text": "like to capture the ISBN of this"
+ },
+ {
+  "start": 942.88,
+  "end": 946.35,
+  "text": "particular book title right here I'm"
+ },
+ {
+  "start": 946.36,
+  "end": 948.749,
+  "text": "going to store the content into your"
+ },
+ {
+  "start": 948.759,
+  "end": 951.389,
+  "text": "buffer called"
+ },
+ {
+  "start": 951.399,
+  "end": 956.03,
+  "text": "ISBN okay here as soon as you find"
+ },
+ {
+  "start": 956.04,
+  "end": 960.47,
+  "text": "testing computer software book title"
+ },
+ {
+  "start": 960.48,
+  "end": 961.59,
+  "text": "take this"
+ },
+ {
+  "start": 961.6,
+  "end": 966.03,
+  "text": "ISBN number and store that into a buffer"
+ },
+ {
+  "start": 966.04,
+  "end": 970.949,
+  "text": "called ISBN buffer and now once I get"
+ },
+ {
+  "start": 970.959,
+  "end": 974.15,
+  "text": "the buffer I need to enter that buffer"
+ },
+ {
+  "start": 974.16,
+  "end": 977.99,
+  "text": "into edit box right for that again we"
+ },
+ {
+  "start": 978.0,
+  "end": 981.67,
+  "text": "need to start using the same module this"
+ },
+ {
+  "start": 981.68,
+  "end": 986.629,
+  "text": "one track this and drop into your test"
+ },
+ {
+  "start": 986.639,
+  "end": 990.35,
+  "text": "case this is our last step I'm going to"
+ },
+ {
+  "start": 990.36,
+  "end": 995.67,
+  "text": "rename this as enter ISBN"
+ },
+ {
+  "start": 995.68,
+  "end": 1001.03,
+  "text": "number okay here scroll down and this is"
+ },
+ {
+  "start": 1001.04,
+  "end": 1003.59,
+  "text": "your edit box right I'm going to call"
+ },
+ {
+  "start": 1003.6,
+  "end": 1004.47,
+  "text": "this"
+ },
+ {
+  "start": 1004.48,
+  "end": 1009.629,
+  "text": "buffer open curly braces B open Square"
+ },
+ {
+  "start": 1009.639,
+  "end": 1012.03,
+  "text": "braces"
+ },
+ {
+  "start": 1012.04,
+  "end": 1015.629,
+  "text": "ISBN close Square Braes close curly"
+ },
+ {
+  "start": 1015.639,
+  "end": 1017.59,
+  "text": "braces so"
+ },
+ {
+  "start": 1017.6,
+  "end": 1020.749,
+  "text": "done so we are done automating this"
+ },
+ {
+  "start": 1020.759,
+  "end": 1022.99,
+  "text": "entire scenario let me explain what we"
+ },
+ {
+  "start": 1023.0,
+  "end": 1028.27,
+  "text": "did again okay first we captured a"
+ },
+ {
+  "start": 1028.28,
+  "end": 1031.829,
+  "text": "module with all the objects from this"
+ },
+ {
+  "start": 1031.839,
+  "end": 1036.15,
+  "text": "particular page web page and here by"
+ },
+ {
+  "start": 1036.16,
+  "end": 1038.309,
+  "text": "using the same module I created a test"
+ },
+ {
+  "start": 1038.319,
+  "end": 1041.669,
+  "text": "step to click on this button and then"
+ },
+ {
+  "start": 1041.679,
+  "end": 1045.27,
+  "text": "I'm buffering this entire content into a"
+ },
+ {
+  "start": 1045.28,
+  "end": 1049.789,
+  "text": "buffer this buffer right and then"
+ },
+ {
+  "start": 1049.799,
+  "end": 1053.87,
+  "text": "I am creating an XML called books. XML"
+ },
+ {
+  "start": 1053.88,
+  "end": 1057.19,
+  "text": "and then I'm writing that"
+ },
+ {
+  "start": 1057.2,
+  "end": 1059.909,
+  "text": "XML content which we stored in this"
+ },
+ {
+  "start": 1059.919,
+  "end": 1061.75,
+  "text": "buffer into this"
+ },
+ {
+  "start": 1061.76,
+  "end": 1066.909,
+  "text": "file done now I'm opening the same XML"
+ },
+ {
+  "start": 1066.919,
+  "end": 1068.19,
+  "text": "that we"
+ },
+ {
+  "start": 1068.2,
+  "end": 1074.71,
+  "text": "created and then by using XML scan I"
+ },
+ {
+  "start": 1074.72,
+  "end": 1075.75,
+  "text": "have"
+ },
+ {
+  "start": 1075.76,
+  "end": 1079.43,
+  "text": "captured the objects or the"
+ },
+ {
+  "start": 1079.44,
+  "end": 1081.549,
+  "text": "XML"
+ },
+ {
+  "start": 1081.559,
+  "end": 1085.07,
+  "text": "resources into a module I'm using the"
+ },
+ {
+  "start": 1085.08,
+  "end": 1090.23,
+  "text": "same module to filter out the title of"
+ },
+ {
+  "start": 1090.24,
+  "end": 1094.669,
+  "text": "the book testing computer software by"
+ },
+ {
+  "start": 1094.679,
+  "end": 1096.51,
+  "text": "using the action mode"
+ },
+ {
+  "start": 1096.52,
+  "end": 1099.51,
+  "text": "constraint and as soon as I get this"
+ },
+ {
+  "start": 1099.52,
+  "end": 1103.149,
+  "text": "title I'm capturing the ISBN number of"
+ },
+ {
+  "start": 1103.159,
+  "end": 1107.87,
+  "text": "the title into a buffer called isbl and"
+ },
+ {
+  "start": 1107.88,
+  "end": 1111.31,
+  "text": "then again I'm using the same"
+ },
+ {
+  "start": 1111.32,
+  "end": 1114.63,
+  "text": "module that we stored all these objects"
+ },
+ {
+  "start": 1114.64,
+  "end": 1117.51,
+  "text": "right and here I'm"
+ },
+ {
+  "start": 1117.52,
+  "end": 1120.71,
+  "text": "just typing the ISBN number that I"
+ },
+ {
+  "start": 1120.72,
+  "end": 1122.75,
+  "text": "stored in the buffer from the"
+ },
+ {
+  "start": 1122.76,
+  "end": 1126.83,
+  "text": "XML so now let"
+ },
+ {
+  "start": 1126.84,
+  "end": 1131.39,
+  "text": "us change the work state workstate as"
+ },
+ {
+  "start": 1131.4,
+  "end": 1135.99,
+  "text": "completed save this test case and now"
+ },
+ {
+  "start": 1136.0,
+  "end": 1139.23,
+  "text": "let us run this test case right click"
+ },
+ {
+  "start": 1139.24,
+  "end": 1143.23,
+  "text": "and run in"
+ },
+ {
+  "start": 1145.95,
+  "end": 1145.96,
+  "text": "scratchbook so it says it is failing"
+ },
+ {
+  "start": 1145.96,
+  "end": 1148.11,
+  "text": "let's go back and see what is failing"
+ },
+ {
+  "start": 1148.12,
+  "end": 1149.99,
+  "text": "okay so"
+ },
+ {
+  "start": 1150.0,
+  "end": 1154.11,
+  "text": "here either a resource or a transition"
+ },
+ {
+  "start": 1154.12,
+  "end": 1157.909,
+  "text": "has to be specified book request so if"
+ },
+ {
+  "start": 1157.919,
+  "end": 1162.029,
+  "text": "you see here we named the resource as"
+ },
+ {
+  "start": 1162.039,
+  "end": 1164.75,
+  "text": "XML file right this one I need to use"
+ },
+ {
+  "start": 1164.76,
+  "end": 1167.27,
+  "text": "the same resource see when I when you"
+ },
+ {
+  "start": 1167.28,
+  "end": 1169.549,
+  "text": "open the XML file"
+ },
+ {
+  "start": 1169.559,
+  "end": 1172.35,
+  "text": "I have named the resource resource as"
+ },
+ {
+  "start": 1172.36,
+  "end": 1177.75,
+  "text": "XML file so now you need to use the same"
+ },
+ {
+  "start": 1177.76,
+  "end": 1182.59,
+  "text": "resource name here as well when you"
+ },
+ {
+  "start": 1182.6,
+  "end": 1186.71,
+  "text": "are trying to filter out the title with"
+ },
+ {
+  "start": 1186.72,
+  "end": 1188.83,
+  "text": "the book name right so that resource"
+ },
+ {
+  "start": 1188.84,
+  "end": 1190.75,
+  "text": "name is missing that's why we are"
+ },
+ {
+  "start": 1190.76,
+  "end": 1193.83,
+  "text": "getting error message"
+ },
+ {
+  "start": 1193.84,
+  "end": 1198.99,
+  "text": "as resource see either resource or trans"
+ },
+ {
+  "start": 1199.0,
+  "end": 1200.75,
+  "text": "have to be specified so I have not"
+ },
+ {
+  "start": 1200.76,
+  "end": 1202.23,
+  "text": "specified the resource that's why I"
+ },
+ {
+  "start": 1202.24,
+  "end": 1204.47,
+  "text": "specified the resource that we provided"
+ },
+ {
+  "start": 1204.48,
+  "end": 1207.23,
+  "text": "here now let's save this and run this"
+ },
+ {
+  "start": 1207.24,
+  "end": 1213.31,
+  "text": "particular test case one more"
+ },
+ {
+  "start": 1217.87,
+  "end": 1217.88,
+  "text": "time perfect see it entered 181"
+ },
+ {
+  "start": 1217.88,
+  "end": 1221.23,
+  "text": "5763 let's verify this again okay let's"
+ },
+ {
+  "start": 1221.24,
+  "end": 1222.51,
+  "text": "go back to our"
+ },
+ {
+  "start": 1222.52,
+  "end": 1229.35,
+  "text": "XML open books XML"
+ },
+ {
+  "start": 1232.47,
+  "end": 1232.48,
+  "text": "what is our book title testing computer"
+ },
+ {
+  "start": 1232.48,
+  "end": 1236.75,
+  "text": "software what is the ISBN number 18157"
+ },
+ {
+  "start": 1236.76,
+  "end": 1238.99,
+  "text": "63 go back"
+ },
+ {
+  "start": 1239.0,
+  "end": 1241.23,
+  "text": "here 181"
+ },
+ {
+  "start": 1241.24,
+  "end": 1247.029,
+  "text": "5763 that means we are able to capture"
+ },
+ {
+  "start": 1247.039,
+  "end": 1249.27,
+  "text": "the ISBN"
+ },
+ {
+  "start": 1249.28,
+  "end": 1256.87,
+  "text": "number of the book titled as"
+ },
+ {
+  "start": 1259.95,
+  "end": 1259.96,
+  "text": "software book tit titled as testing"
+ },
+ {
+  "start": 1259.96,
+  "end": 1261.43,
+  "text": "computer"
+ },
+ {
+  "start": 1261.44,
+  "end": 1264.75,
+  "text": "software so if you have any queries"
+ },
+ {
+  "start": 1264.76,
+  "end": 1267.23,
+  "text": "leave your leave your queries in the"
+ },
+ {
+  "start": 1267.24,
+  "end": 1268.87,
+  "text": "comment box I'll try to respond to your"
+ },
+ {
+  "start": 1268.88,
+  "end": 1270.71,
+  "text": "queries so this is very important"
+ },
+ {
+  "start": 1270.72,
+  "end": 1273.11,
+  "text": "concept where we touched three different"
+ },
+ {
+  "start": 1273.12,
+  "end": 1276.71,
+  "text": "types of engines web engine file engine"
+ },
+ {
+  "start": 1276.72,
+  "end": 1279.789,
+  "text": "and XML engine and we also covered how"
+ },
+ {
+  "start": 1279.799,
+  "end": 1283.59,
+  "text": "can we scan the XML and then how can you"
+ },
+ {
+  "start": 1283.6,
+  "end": 1286.95,
+  "text": "search for a particular parameter within"
+ },
+ {
+  "start": 1286.96,
+  "end": 1295.3,
+  "text": "the XML"
+ }
+]

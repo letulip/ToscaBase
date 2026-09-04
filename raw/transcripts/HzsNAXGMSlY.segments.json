@@ -1,0 +1,1187 @@
+[
+ {
+  "start": 14.509,
+  "end": 14.519,
+  "text": "hi everyone this is Ravi welcome to"
+ },
+ {
+  "start": 14.519,
+  "end": 16.63,
+  "text": "trosa automation"
+ },
+ {
+  "start": 16.64,
+  "end": 20.99,
+  "text": "tutorial so this is our lesson 33 as an"
+ },
+ {
+  "start": 21.0,
+  "end": 24.509,
+  "text": "overall tricentis Taska automation"
+ },
+ {
+  "start": 24.519,
+  "end": 28.39,
+  "text": "Concepts and it is our lesson 18 in"
+ },
+ {
+  "start": 28.4,
+  "end": 31.51,
+  "text": "terms of an advanced level"
+ },
+ {
+  "start": 31.52,
+  "end": 35.31,
+  "text": "Concepts in this lesson you will learn"
+ },
+ {
+  "start": 35.32,
+  "end": 38.91,
+  "text": "how can we perform multi language"
+ },
+ {
+  "start": 38.92,
+  "end": 43.35,
+  "text": "testing by using trien tasar automation"
+ },
+ {
+  "start": 43.36,
+  "end": 46.99,
+  "text": "tool and we are going to use regular"
+ },
+ {
+  "start": 47.0,
+  "end": 50.51,
+  "text": "Expressions to handle the multi-"
+ },
+ {
+  "start": 50.52,
+  "end": 54.189,
+  "text": "language testing by using trienes"
+ },
+ {
+  "start": 54.199,
+  "end": 56.99,
+  "text": "Tas please do subscribe to the channel"
+ },
+ {
+  "start": 57.0,
+  "end": 58.549,
+  "text": "click on Bell icon you'll receive"
+ },
+ {
+  "start": 58.559,
+  "end": 60.869,
+  "text": "notifications whenever I publish more"
+ },
+ {
+  "start": 60.879,
+  "end": 63.189,
+  "text": "videos thank"
+ },
+ {
+  "start": 63.199,
+  "end": 66.469,
+  "text": "you so now let us jump onto the system"
+ },
+ {
+  "start": 66.479,
+  "end": 69.149,
+  "text": "and see how can we automate test cases"
+ },
+ {
+  "start": 69.159,
+  "end": 72.59,
+  "text": "related to multilanguage testing so this"
+ },
+ {
+  "start": 72.6,
+  "end": 76.83,
+  "text": "is my trient Taska where I've created a"
+ },
+ {
+  "start": 76.84,
+  "end": 79.51,
+  "text": "folder called multilingual testing and"
+ },
+ {
+  "start": 79.52,
+  "end": 83.03,
+  "text": "then I've created one test case called"
+ },
+ {
+  "start": 83.04,
+  "end": 86.55,
+  "text": "multilanguage test so let us first go to"
+ },
+ {
+  "start": 86.56,
+  "end": 89.91,
+  "text": "website that we will be using to test"
+ },
+ {
+  "start": 89.92,
+  "end": 92.67,
+  "text": "your multil language okay so if you see"
+ },
+ {
+  "start": 92.68,
+  "end": 96.99,
+  "text": "this is my website mod.org and you can"
+ },
+ {
+  "start": 97.0,
+  "end": 98.95,
+  "text": "see the content everything which is"
+ },
+ {
+  "start": 98.96,
+  "end": 103.27,
+  "text": "showing in English right so now if I"
+ },
+ {
+  "start": 103.28,
+  "end": 107.95,
+  "text": "change the language to"
+ },
+ {
+  "start": 111.91,
+  "end": 111.92,
+  "text": "Dutch okay so if you see here accept the"
+ },
+ {
+  "start": 111.92,
+  "end": 115.19,
+  "text": "titles see entire including the titles"
+ },
+ {
+  "start": 115.2,
+  "end": 119.31,
+  "text": "everything is changed to Dutch see"
+ },
+ {
+  "start": 119.32,
+  "end": 122.029,
+  "text": "everything is is Chang to Dutch language"
+ },
+ {
+  "start": 122.039,
+  "end": 129.15,
+  "text": "right so now let us again go back to"
+ },
+ {
+  "start": 132.63,
+  "end": 132.64,
+  "text": "English so now your entire content is in"
+ },
+ {
+  "start": 132.64,
+  "end": 136.03,
+  "text": "English now I would like to automate one"
+ },
+ {
+  "start": 136.04,
+  "end": 138.11,
+  "text": "test case of this"
+ },
+ {
+  "start": 138.12,
+  "end": 141.91,
+  "text": "particular website by using tric Anda"
+ },
+ {
+  "start": 141.92,
+  "end": 145.91,
+  "text": "okay let us go back to Tria and go to"
+ },
+ {
+  "start": 145.92,
+  "end": 148.75,
+  "text": "modules I would like to scan this"
+ },
+ {
+  "start": 148.76,
+  "end": 151.63,
+  "text": "particular some of the controls of you"
+ },
+ {
+  "start": 151.64,
+  "end": 154.869,
+  "text": "this particular page right click and"
+ },
+ {
+  "start": 154.879,
+  "end": 161.11,
+  "text": "then click on scan select"
+ },
+ {
+  "start": 164.03,
+  "end": 164.04,
+  "text": "application so this will open your X"
+ },
+ {
+  "start": 164.04,
+  "end": 167.309,
+  "text": "scan so what I'm doing I'm scanning all"
+ },
+ {
+  "start": 167.319,
+  "end": 168.309,
+  "text": "the"
+ },
+ {
+  "start": 168.319,
+  "end": 171.309,
+  "text": "controls when the website is showing in"
+ },
+ {
+  "start": 171.319,
+  "end": 174.55,
+  "text": "English language okay keep that in mind"
+ },
+ {
+  "start": 174.56,
+  "end": 176.63,
+  "text": "okay select the application click on"
+ },
+ {
+  "start": 176.64,
+  "end": 181.03,
+  "text": "scan so now I'm going to"
+ },
+ {
+  "start": 181.04,
+  "end": 182.55,
+  "text": "scan couple of"
+ },
+ {
+  "start": 182.56,
+  "end": 188.309,
+  "text": "controls of this particular"
+ },
+ {
+  "start": 192.19,
+  "end": 192.2,
+  "text": "page okay so just select select on"
+ },
+ {
+  "start": 192.2,
+  "end": 197.67,
+  "text": "screen I would like to select this link"
+ },
+ {
+  "start": 197.68,
+  "end": 200.75,
+  "text": "okay and then also I would like to"
+ },
+ {
+  "start": 200.76,
+  "end": 203.27,
+  "text": "select the content of that particular"
+ },
+ {
+  "start": 203.28,
+  "end": 205.309,
+  "text": "module that link content of that"
+ },
+ {
+  "start": 205.319,
+  "end": 208.67,
+  "text": "particular link okay let's select this"
+ },
+ {
+  "start": 208.68,
+  "end": 211.589,
+  "text": "content"
+ },
+ {
+  "start": 211.599,
+  "end": 214.67,
+  "text": "so now if you see this content is not"
+ },
+ {
+  "start": 214.68,
+  "end": 215.789,
+  "text": "uniquely"
+ },
+ {
+  "start": 215.799,
+  "end": 219.55,
+  "text": "identified uh let me make it as"
+ },
+ {
+  "start": 219.56,
+  "end": 223.03,
+  "text": "unique I made it as unique If You"
+ },
+ {
+  "start": 223.04,
+  "end": 223.91,
+  "text": "observe"
+ },
+ {
+  "start": 225.879,
+  "end": 230.71,
+  "text": "closely this link has the property"
+ },
+ {
+  "start": 230.72,
+  "end": 235.83,
+  "text": "called inner text and your tag and this"
+ },
+ {
+  "start": 235.84,
+  "end": 237.869,
+  "text": "content let's make it"
+ },
+ {
+  "start": 237.879,
+  "end": 241.869,
+  "text": "as I'm renaming this this as model"
+ },
+ {
+  "start": 241.879,
+  "end": 245.99,
+  "text": "LMS description okay description so this"
+ },
+ {
+  "start": 246.0,
+  "end": 249.75,
+  "text": "description has tag and inner text that"
+ },
+ {
+  "start": 249.76,
+  "end": 251.47,
+  "text": "that"
+ },
+ {
+  "start": 251.48,
+  "end": 254.71,
+  "text": "particular content basically the entire"
+ },
+ {
+  "start": 254.72,
+  "end": 258.789,
+  "text": "text of text is it's inner text okay so"
+ },
+ {
+  "start": 258.799,
+  "end": 260.55,
+  "text": "now let us rename"
+ },
+ {
+  "start": 260.56,
+  "end": 264.87,
+  "text": "this as mod.org okay let me sorry let me"
+ },
+ {
+  "start": 264.88,
+  "end": 266.95,
+  "text": "remove this select on screen now just"
+ },
+ {
+  "start": 266.96,
+  "end": 272.23,
+  "text": "rename this to model OKAY model mod.org"
+ },
+ {
+  "start": 272.24,
+  "end": 275.59,
+  "text": "so I just captured these two okay let's"
+ },
+ {
+  "start": 275.6,
+  "end": 277.39,
+  "text": "save"
+ },
+ {
+  "start": 277.4,
+  "end": 282.87,
+  "text": "this and close it okay so let us go back"
+ },
+ {
+  "start": 282.88,
+  "end": 284.029,
+  "text": "to our"
+ },
+ {
+  "start": 284.039,
+  "end": 287.95,
+  "text": "tonasa and let us see here okay so I"
+ },
+ {
+  "start": 287.96,
+  "end": 291.51,
+  "text": "want to understand see this is what we"
+ },
+ {
+  "start": 291.52,
+  "end": 295.27,
+  "text": "just now scan If You observe closely if"
+ },
+ {
+  "start": 295.28,
+  "end": 299.55,
+  "text": "you see here model LMS this link has"
+ },
+ {
+  "start": 299.56,
+  "end": 303.43,
+  "text": "inner text called mod LMS and your tag"
+ },
+ {
+  "start": 303.44,
+  "end": 306.749,
+  "text": "and this description has inner text of"
+ },
+ {
+  "start": 306.759,
+  "end": 310.31,
+  "text": "this entire text that is displaying here"
+ },
+ {
+  "start": 310.32,
+  "end": 313.909,
+  "text": "right so let us create a test case now"
+ },
+ {
+  "start": 313.919,
+  "end": 319.27,
+  "text": "okay just bring this module to the right"
+ },
+ {
+  "start": 323.79,
+  "end": 323.8,
+  "text": "side and let's drag this module and drop"
+ },
+ {
+  "start": 323.8,
+  "end": 326.83,
+  "text": "into your test case so what I going to"
+ },
+ {
+  "start": 326.84,
+  "end": 329.79,
+  "text": "do so here before I run the test case"
+ },
+ {
+  "start": 329.8,
+  "end": 331.83,
+  "text": "right I would like to change the"
+ },
+ {
+  "start": 331.84,
+  "end": 333.71,
+  "text": "sequence of the controls I would like to"
+ },
+ {
+  "start": 333.72,
+  "end": 336.51,
+  "text": "bring this description"
+ },
+ {
+  "start": 336.52,
+  "end": 341.189,
+  "text": "first and then the link okay so that's"
+ },
+ {
+  "start": 341.199,
+  "end": 343.55,
+  "text": "okay so now so this is description this"
+ },
+ {
+  "start": 343.56,
+  "end": 346.67,
+  "text": "is link now I would like to verify if"
+ },
+ {
+  "start": 346.68,
+  "end": 348.909,
+  "text": "this content exist on the page or not"
+ },
+ {
+  "start": 348.919,
+  "end": 352.029,
+  "text": "okay so for that let's click"
+ },
+ {
+  "start": 352.039,
+  "end": 357.11,
+  "text": "on here and click on your inner"
+ },
+ {
+  "start": 357.12,
+  "end": 360.59,
+  "text": "text and I'm I'm going to specify not in"
+ },
+ {
+  "start": 360.6,
+  "end": 362.95,
+  "text": "the text let's say I would like to say"
+ },
+ {
+  "start": 362.96,
+  "end": 366.43,
+  "text": "exist equal to"
+ },
+ {
+  "start": 366.44,
+  "end": 368.309,
+  "text": "true I'm"
+ },
+ {
+  "start": 368.319,
+  "end": 371.39,
+  "text": "specifying Taska to"
+ },
+ {
+  "start": 371.4,
+  "end": 375.51,
+  "text": "verify if that particular element exists"
+ },
+ {
+  "start": 375.52,
+  "end": 377.35,
+  "text": "on the screen this particular"
+ },
+ {
+  "start": 377.36,
+  "end": 379.43,
+  "text": "description exist on the screen in the"
+ },
+ {
+  "start": 379.44,
+  "end": 383.309,
+  "text": "same way I look to validate if this"
+ },
+ {
+  "start": 383.319,
+  "end": 386.43,
+  "text": "link exist then I would like to click on"
+ },
+ {
+  "start": 386.44,
+  "end": 387.309,
+  "text": "that"
+ },
+ {
+  "start": 387.319,
+  "end": 389.589,
+  "text": "link okay I would like to click on the"
+ },
+ {
+  "start": 389.599,
+  "end": 391.51,
+  "text": "link first verify this and then click on"
+ },
+ {
+  "start": 391.52,
+  "end": 394.39,
+  "text": "link okay so let me just simply run this"
+ },
+ {
+  "start": 394.4,
+  "end": 397.95,
+  "text": "particular test case right click and"
+ },
+ {
+  "start": 397.96,
+  "end": 401.469,
+  "text": "run first it ver verifies the content in"
+ },
+ {
+  "start": 401.479,
+  "end": 409.39,
+  "text": "English and it clicks on"
+ },
+ {
+  "start": 412.51,
+  "end": 412.52,
+  "text": "link so done so now it verified the"
+ },
+ {
+  "start": 412.52,
+  "end": 414.749,
+  "text": "content and then it clicked on the link"
+ },
+ {
+  "start": 414.759,
+  "end": 417.43,
+  "text": "okay so let us open your"
+ },
+ {
+  "start": 417.44,
+  "end": 421.189,
+  "text": "Tria and see the results okay so if you"
+ },
+ {
+  "start": 421.199,
+  "end": 425.309,
+  "text": "see the results here the verification is"
+ },
+ {
+  "start": 425.319,
+  "end": 428.11,
+  "text": "successful and it clicked on your link"
+ },
+ {
+  "start": 428.12,
+  "end": 431.469,
+  "text": "okay so now let us say I will change"
+ },
+ {
+  "start": 431.479,
+  "end": 434.15,
+  "text": "this to Dutch I will change the language"
+ },
+ {
+  "start": 434.16,
+  "end": 434.99,
+  "text": "to"
+ },
+ {
+  "start": 435.0,
+  "end": 438.39,
+  "text": "Dutch so then this content it tries to"
+ },
+ {
+  "start": 438.4,
+  "end": 440.71,
+  "text": "verify the content in English language"
+ },
+ {
+  "start": 440.72,
+  "end": 443.629,
+  "text": "it won't find let's run this now let's"
+ },
+ {
+  "start": 443.639,
+  "end": 445.99,
+  "text": "run this it's going to fail the test"
+ },
+ {
+  "start": 446.0,
+  "end": 449.43,
+  "text": "case because the first content does not"
+ },
+ {
+  "start": 449.44,
+  "end": 462.95,
+  "text": "exist it"
+ },
+ {
+  "start": 467.11,
+  "end": 467.12,
+  "text": "fails see your test case is failed now"
+ },
+ {
+  "start": 467.12,
+  "end": 469.189,
+  "text": "because the content has been changed"
+ },
+ {
+  "start": 469.199,
+  "end": 472.629,
+  "text": "from English to Dutch so now how can we"
+ },
+ {
+  "start": 472.639,
+  "end": 476.189,
+  "text": "handle this kind of scenarios how can I"
+ },
+ {
+  "start": 476.199,
+  "end": 477.71,
+  "text": "automate the test"
+ },
+ {
+  "start": 477.72,
+  "end": 480.589,
+  "text": "case so that the test cases will be"
+ },
+ {
+  "start": 480.599,
+  "end": 482.67,
+  "text": "successful whatever the language you"
+ },
+ {
+  "start": 482.68,
+  "end": 485.27,
+  "text": "select okay so let us for that let us"
+ },
+ {
+  "start": 485.28,
+  "end": 487.95,
+  "text": "first go here I would like to use some"
+ },
+ {
+  "start": 487.96,
+  "end": 491.55,
+  "text": "regular Expressions so let's bring this"
+ },
+ {
+  "start": 491.56,
+  "end": 496.11,
+  "text": "module here okay we want to change the"
+ },
+ {
+  "start": 496.12,
+  "end": 499.749,
+  "text": "properties of particular module okay"
+ },
+ {
+  "start": 499.759,
+  "end": 501.309,
+  "text": "just simply bring"
+ },
+ {
+  "start": 501.319,
+  "end": 504.79,
+  "text": "here and first let us first concentrate"
+ },
+ {
+  "start": 504.8,
+  "end": 509.39,
+  "text": "on this description okay let's go here"
+ },
+ {
+  "start": 509.4,
+  "end": 512.19,
+  "text": "this particular description has inner"
+ },
+ {
+  "start": 512.2,
+  "end": 515.909,
+  "text": "text property so now instead of hard"
+ },
+ {
+  "start": 515.919,
+  "end": 518.75,
+  "text": "coding this inner text property let's go"
+ },
+ {
+  "start": 518.76,
+  "end": 520.31,
+  "text": "here and then put it into English"
+ },
+ {
+  "start": 520.32,
+  "end": 523.67,
+  "text": "language"
+ },
+ {
+  "start": 527.79,
+  "end": 527.8,
+  "text": "okay I would like to remove this one so"
+ },
+ {
+  "start": 527.8,
+  "end": 530.03,
+  "text": "basically instead of this entire text"
+ },
+ {
+  "start": 530.04,
+  "end": 532.47,
+  "text": "I'm just making it as regular expression"
+ },
+ {
+  "start": 532.48,
+  "end": 534.71,
+  "text": "let's keep it okay so now I would like"
+ },
+ {
+  "start": 534.72,
+  "end": 538.19,
+  "text": "to start using the regular expression"
+ },
+ {
+  "start": 538.2,
+  "end": 540.15,
+  "text": "Reg"
+ },
+ {
+  "start": 540.16,
+  "end": 545.67,
+  "text": "ex okay sorry curly braces Rec ex and"
+ },
+ {
+  "start": 545.68,
+  "end": 547.55,
+  "text": "then open Square"
+ },
+ {
+  "start": 547.56,
+  "end": 550.55,
+  "text": "Braes and here I'm going to specify the"
+ },
+ {
+  "start": 550.56,
+  "end": 553.509,
+  "text": "text that I would like to see here what"
+ },
+ {
+  "start": 553.519,
+  "end": 555.75,
+  "text": "is the inner text this is the inner text"
+ },
+ {
+  "start": 555.76,
+  "end": 558.91,
+  "text": "right so here this is the inner text in"
+ },
+ {
+  "start": 558.92,
+  "end": 559.87,
+  "text": "English"
+ },
+ {
+  "start": 559.88,
+  "end": 563.63,
+  "text": "language that I would like to see and"
+ },
+ {
+  "start": 563.64,
+  "end": 566.99,
+  "text": "then I need to use"
+ },
+ {
+  "start": 567.0,
+  "end": 571.829,
+  "text": "R either if this particular element can"
+ },
+ {
+  "start": 571.839,
+  "end": 575.23,
+  "text": "have this inner text at the end I"
+ },
+ {
+  "start": 575.24,
+  "end": 577.269,
+  "text": "specified as that means whatever the"
+ },
+ {
+  "start": 577.279,
+  "end": 579.19,
+  "text": "text it maybe okay first it should match"
+ },
+ {
+  "start": 579.2,
+  "end": 582.71,
+  "text": "all this English language or it should"
+ },
+ {
+  "start": 582.72,
+  "end": 586.35,
+  "text": "match your Dutch language let's go here"
+ },
+ {
+  "start": 586.36,
+  "end": 589.15,
+  "text": "change it to Dutch so it should match"
+ },
+ {
+  "start": 589.16,
+  "end": 591.269,
+  "text": "the Dutch language what is the language"
+ },
+ {
+  "start": 591.279,
+  "end": 593.91,
+  "text": "is right click and then inspect here I"
+ },
+ {
+  "start": 593.92,
+  "end": 596.91,
+  "text": "would like to take the inner text okay"
+ },
+ {
+  "start": 596.92,
+  "end": 599.67,
+  "text": "for this Dutch language"
+ },
+ {
+  "start": 599.68,
+  "end": 602.949,
+  "text": "so if you see here if you"
+ },
+ {
+  "start": 606.03,
+  "end": 606.04,
+  "text": "expand if you expand the card this is"
+ },
+ {
+  "start": 606.04,
+  "end": 609.91,
+  "text": "the language I would like to copy this"
+ },
+ {
+  "start": 609.92,
+  "end": 613.75,
+  "text": "language and I would like to specify or"
+ },
+ {
+  "start": 613.76,
+  "end": 618.31,
+  "text": "it can contain this I'll"
+ },
+ {
+  "start": 618.32,
+  "end": 624.19,
+  "text": "say from here star okay and then close"
+ },
+ {
+  "start": 624.2,
+  "end": 627.11,
+  "text": "your square brackets close your curly"
+ },
+ {
+  "start": 627.12,
+  "end": 629.43,
+  "text": "braces so before I close this square"
+ },
+ {
+  "start": 629.44,
+  "end": 634.269,
+  "text": "brackets I need to close your"
+ },
+ {
+  "start": 640.35,
+  "end": 640.36,
+  "text": "columns open your curly braces reg x r g"
+ },
+ {
+  "start": 640.36,
+  "end": 643.23,
+  "text": "x open your square"
+ },
+ {
+  "start": 643.24,
+  "end": 645.59,
+  "text": "bracket right open your square bracket"
+ },
+ {
+  "start": 645.6,
+  "end": 648.269,
+  "text": "let's bring it left side again okay so"
+ },
+ {
+  "start": 648.279,
+  "end": 649.59,
+  "text": "what I'm doing"
+ },
+ {
+  "start": 649.6,
+  "end": 654.949,
+  "text": "here I simply open curly braces rig X"
+ },
+ {
+  "start": 654.959,
+  "end": 656.59,
+  "text": "open square"
+ },
+ {
+  "start": 656.6,
+  "end": 660.91,
+  "text": "brackets colon your English language"
+ },
+ {
+  "start": 660.92,
+  "end": 666.99,
+  "text": "inner text or it's a pipe symbol or your"
+ },
+ {
+  "start": 667.0,
+  "end": 671.55,
+  "text": "Dutch language inner text and close"
+ },
+ {
+  "start": 671.56,
+  "end": 676.03,
+  "text": "your colon close square brackets close"
+ },
+ {
+  "start": 676.04,
+  "end": 679.75,
+  "text": "your curly braces so for inner text I"
+ },
+ {
+  "start": 679.76,
+  "end": 682.03,
+  "text": "used regular expression at the end to"
+ },
+ {
+  "start": 682.04,
+  "end": 685.79,
+  "text": "make sure that it won't fil okay so done"
+ },
+ {
+  "start": 685.8,
+  "end": 690.31,
+  "text": "now save this now okay so if I run the"
+ },
+ {
+  "start": 690.32,
+  "end": 694.509,
+  "text": "test case now the test case should pass"
+ },
+ {
+  "start": 694.519,
+  "end": 697.829,
+  "text": "in Dutch language as well okay let's"
+ },
+ {
+  "start": 697.839,
+  "end": 712.67,
+  "text": "right click and then run this"
+ },
+ {
+  "start": 716.71,
+  "end": 716.72,
+  "text": "okay so your test case is now passed you"
+ },
+ {
+  "start": 716.72,
+  "end": 720.11,
+  "text": "can see let's go back to our test result"
+ },
+ {
+  "start": 720.12,
+  "end": 721.629,
+  "text": "and"
+ },
+ {
+  "start": 721.639,
+  "end": 724.91,
+  "text": "see it actually matched"
+ },
+ {
+  "start": 724.92,
+  "end": 728.91,
+  "text": "your content in Dutch also let us again"
+ },
+ {
+  "start": 728.92,
+  "end": 731.629,
+  "text": "go back here let us change back to"
+ },
+ {
+  "start": 731.639,
+  "end": 734.47,
+  "text": "English and see if it gets failed pass"
+ },
+ {
+  "start": 734.48,
+  "end": 738.35,
+  "text": "sorry okay I want to again change it to"
+ },
+ {
+  "start": 738.36,
+  "end": 740.99,
+  "text": "English and then simply run the test"
+ },
+ {
+  "start": 741.0,
+  "end": 742.509,
+  "text": "case"
+ },
+ {
+  "start": 742.519,
+  "end": 744.99,
+  "text": "again it should handle both the"
+ },
+ {
+  "start": 745.0,
+  "end": 748.67,
+  "text": "languages English and Dutch so when I"
+ },
+ {
+  "start": 748.68,
+  "end": 750.269,
+  "text": "run this particular test"
+ },
+ {
+  "start": 750.279,
+  "end": 754.43,
+  "text": "case it validates the content in English"
+ },
+ {
+  "start": 754.44,
+  "end": 761.43,
+  "text": "and your test case will be"
+ },
+ {
+  "start": 764.71,
+  "end": 764.72,
+  "text": "passed yeah so if you see"
+ },
+ {
+  "start": 764.72,
+  "end": 767.269,
+  "text": "here it successfully"
+ },
+ {
+  "start": 767.279,
+  "end": 769.75,
+  "text": "validated whether the description exist"
+ },
+ {
+  "start": 769.76,
+  "end": 773.59,
+  "text": "or not and then it clicked on your"
+ },
+ {
+  "start": 773.6,
+  "end": 776.11,
+  "text": "link so if you have any queries leave"
+ },
+ {
+  "start": 776.12,
+  "end": 777.829,
+  "text": "your queries in the comment box I'll try"
+ },
+ {
+  "start": 777.839,
+  "end": 780.55,
+  "text": "to respond to your queries"
+ },
+ {
+  "start": 780.56,
+  "end": 783.629,
+  "text": "hope you all understand the concept of"
+ },
+ {
+  "start": 783.639,
+  "end": 786.069,
+  "text": "how can we automate"
+ },
+ {
+  "start": 786.079,
+  "end": 788.91,
+  "text": "multilanguage test cases by using"
+ },
+ {
+  "start": 788.92,
+  "end": 793.189,
+  "text": "tricentis tasa automation tool please do"
+ },
+ {
+  "start": 793.199,
+  "end": 794.91,
+  "text": "subscribe to the channel click on Bell"
+ },
+ {
+  "start": 794.92,
+  "end": 796.829,
+  "text": "icon you'll receive notifications"
+ },
+ {
+  "start": 796.839,
+  "end": 800.79,
+  "text": "whenever I publish more videos thank"
+ },
+ {
+  "start": 800.8,
+  "end": 803.8,
+  "text": "you"
+ }
+]

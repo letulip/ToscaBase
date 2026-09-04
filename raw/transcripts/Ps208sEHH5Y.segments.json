@@ -1,0 +1,1427 @@
+[
+ {
+  "start": 0.48,
+  "end": 0.98,
+  "text": "foreign"
+ },
+ {
+  "start": 18.71,
+  "end": 18.72,
+  "text": "advanced level training"
+ },
+ {
+  "start": 18.72,
+  "end": 22.37,
+  "text": "so this is our lesson two in our"
+ },
+ {
+  "start": 22.38,
+  "end": 27.529,
+  "text": "Advanced Training but it's a lesson 17"
+ },
+ {
+  "start": 27.539,
+  "end": 30.65,
+  "text": "if you consider as overall present is"
+ },
+ {
+  "start": 30.66,
+  "end": 33.29,
+  "text": "Task of automation Concepts"
+ },
+ {
+  "start": 33.3,
+  "end": 35.63,
+  "text": "so in this lesson I'm gonna teach you"
+ },
+ {
+  "start": 35.64,
+  "end": 37.91,
+  "text": "how can we create"
+ },
+ {
+  "start": 37.92,
+  "end": 41.69,
+  "text": "and how can you execute your execution"
+ },
+ {
+  "start": 41.7,
+  "end": 45.049,
+  "text": "lists by using latest version try"
+ },
+ {
+  "start": 45.059,
+  "end": 49.25,
+  "text": "sentence Tasker 16. please do subscribe"
+ },
+ {
+  "start": 49.26,
+  "end": 51.59,
+  "text": "to the channel click on Bell icon you'll"
+ },
+ {
+  "start": 51.6,
+  "end": 53.75,
+  "text": "receive notifications whenever I publish"
+ },
+ {
+  "start": 53.76,
+  "end": 57.229,
+  "text": "more videos thank you"
+ },
+ {
+  "start": 57.239,
+  "end": 60.77,
+  "text": "okay so by end of this lesson"
+ },
+ {
+  "start": 60.78,
+  "end": 63.83,
+  "text": "you're gonna learn how to create"
+ },
+ {
+  "start": 63.84,
+  "end": 65.929,
+  "text": "execution lists"
+ },
+ {
+  "start": 65.939,
+  "end": 68.69,
+  "text": "and then you will be able to link your"
+ },
+ {
+  "start": 68.7,
+  "end": 72.109,
+  "text": "automated test cases to the execution"
+ },
+ {
+  "start": 72.119,
+  "end": 73.01,
+  "text": "list"
+ },
+ {
+  "start": 73.02,
+  "end": 75.95,
+  "text": "and then you can interpret the execution"
+ },
+ {
+  "start": 75.96,
+  "end": 77.21,
+  "text": "results"
+ },
+ {
+  "start": 77.22,
+  "end": 80.33,
+  "text": "okay so whenever once you complete"
+ },
+ {
+  "start": 80.34,
+  "end": 83.69,
+  "text": "automating your test case you no longer"
+ },
+ {
+  "start": 83.7,
+  "end": 86.09,
+  "text": "need to run in scratchbook"
+ },
+ {
+  "start": 86.1,
+  "end": 90.05,
+  "text": "because in our previous sessions we used"
+ },
+ {
+  "start": 90.06,
+  "end": 93.89,
+  "text": "to run in the scratchbook so running in"
+ },
+ {
+  "start": 93.9,
+  "end": 96.95,
+  "text": "the scratchbook is just to just for the"
+ },
+ {
+  "start": 96.96,
+  "end": 100.249,
+  "text": "trial runs to make sure your automated"
+ },
+ {
+  "start": 100.259,
+  "end": 102.41,
+  "text": "test cases will work"
+ },
+ {
+  "start": 102.42,
+  "end": 106.01,
+  "text": "but for proper test case execution the"
+ },
+ {
+  "start": 106.02,
+  "end": 108.89,
+  "text": "recommendation is to use your execution"
+ },
+ {
+  "start": 108.9,
+  "end": 112.929,
+  "text": "lists where it stores all the results"
+ },
+ {
+  "start": 112.939,
+  "end": 116.09,
+  "text": "and history of your"
+ },
+ {
+  "start": 116.1,
+  "end": 118.069,
+  "text": "test runs"
+ },
+ {
+  "start": 118.079,
+  "end": 120.95,
+  "text": "okay so now let's jump onto the system"
+ },
+ {
+  "start": 120.96,
+  "end": 124.55,
+  "text": "and understand how can we create and"
+ },
+ {
+  "start": 124.56,
+  "end": 128.51,
+  "text": "execute our execution lists"
+ },
+ {
+  "start": 128.52,
+  "end": 132.77,
+  "text": "so this is my Tasker tool right so till"
+ },
+ {
+  "start": 132.78,
+  "end": 134.99,
+  "text": "date we were talking about the test"
+ },
+ {
+  "start": 135.0,
+  "end": 140.15,
+  "text": "cases module right I have already"
+ },
+ {
+  "start": 140.16,
+  "end": 141.53,
+  "text": "um"
+ },
+ {
+  "start": 141.54,
+  "end": 143.75,
+  "text": "teach you about the modules how to"
+ },
+ {
+  "start": 143.76,
+  "end": 145.729,
+  "text": "create modules and then we also worked"
+ },
+ {
+  "start": 145.739,
+  "end": 148.19,
+  "text": "on test cases so these two sections we"
+ },
+ {
+  "start": 148.2,
+  "end": 152.03,
+  "text": "already worked on now for execution to"
+ },
+ {
+  "start": 152.04,
+  "end": 153.949,
+  "text": "create execution lists we'll start"
+ },
+ {
+  "start": 153.959,
+  "end": 155.869,
+  "text": "working on the new section called"
+ },
+ {
+  "start": 155.879,
+  "end": 159.43,
+  "text": "execution so you need to navigate to"
+ },
+ {
+  "start": 159.44,
+  "end": 161.809,
+  "text": "execution section"
+ },
+ {
+  "start": 161.819,
+  "end": 164.869,
+  "text": "and under execution section"
+ },
+ {
+  "start": 164.879,
+  "end": 167.69,
+  "text": "under execution lists"
+ },
+ {
+  "start": 167.7,
+  "end": 172.67,
+  "text": "right click and let's create a new"
+ },
+ {
+  "start": 172.68,
+  "end": 174.61,
+  "text": "foreign"
+ },
+ {
+  "start": 174.62,
+  "end": 178.07,
+  "text": "list folder okay so basically let's"
+ },
+ {
+  "start": 178.08,
+  "end": 182.39,
+  "text": "create a execution folder okay"
+ },
+ {
+  "start": 182.4,
+  "end": 184.79,
+  "text": "let's name this as"
+ },
+ {
+  "start": 184.8,
+  "end": 187.369,
+  "text": "Ian zero two"
+ },
+ {
+  "start": 187.379,
+  "end": 191.149,
+  "text": "execution"
+ },
+ {
+  "start": 193.729,
+  "end": 193.739,
+  "text": "create execution list okay"
+ },
+ {
+  "start": 193.739,
+  "end": 195.05,
+  "text": "create"
+ },
+ {
+  "start": 195.06,
+  "end": 197.089,
+  "text": "execution list"
+ },
+ {
+  "start": 197.099,
+  "end": 200.149,
+  "text": "okay under this"
+ },
+ {
+  "start": 200.159,
+  "end": 204.29,
+  "text": "execution folder again right click and"
+ },
+ {
+  "start": 204.3,
+  "end": 206.29,
+  "text": "now let's create"
+ },
+ {
+  "start": 206.3,
+  "end": 209.63,
+  "text": "execution list okay this is your"
+ },
+ {
+  "start": 209.64,
+  "end": 211.49,
+  "text": "execution list this is your execution"
+ },
+ {
+  "start": 211.5,
+  "end": 214.79,
+  "text": "list folder okay let's create execution"
+ },
+ {
+  "start": 214.8,
+  "end": 221.47,
+  "text": "list"
+ },
+ {
+  "start": 238.97,
+  "end": 238.98,
+  "text": "cart okay shopping cart"
+ },
+ {
+  "start": 238.98,
+  "end": 240.83,
+  "text": "so now"
+ },
+ {
+  "start": 240.84,
+  "end": 244.729,
+  "text": "once you create your execution list"
+ },
+ {
+  "start": 244.739,
+  "end": 247.43,
+  "text": "now it's time for us to map the test"
+ },
+ {
+  "start": 247.44,
+  "end": 250.429,
+  "text": "cases that you would like to execute as"
+ },
+ {
+  "start": 250.439,
+  "end": 253.85,
+  "text": "part of this execution list okay so for"
+ },
+ {
+  "start": 253.86,
+  "end": 257.75,
+  "text": "that let's drag this test cases folder"
+ },
+ {
+  "start": 257.76,
+  "end": 260.569,
+  "text": "and put this at the right side"
+ },
+ {
+  "start": 260.579,
+  "end": 263.33,
+  "text": "okay and now"
+ },
+ {
+  "start": 263.34,
+  "end": 265.55,
+  "text": "let's go to execution here"
+ },
+ {
+  "start": 265.56,
+  "end": 269.03,
+  "text": "so let's say I have completed authoring"
+ },
+ {
+  "start": 269.04,
+  "end": 271.61,
+  "text": "I mean automating the test cases okay so"
+ },
+ {
+  "start": 271.62,
+  "end": 273.409,
+  "text": "as soon as you complete automating the"
+ },
+ {
+  "start": 273.419,
+  "end": 276.01,
+  "text": "test cases let's assume uh session"
+ },
+ {
+  "start": 276.02,
+  "end": 279.409,
+  "text": "actual action modes okay this automation"
+ },
+ {
+  "start": 279.419,
+  "end": 281.39,
+  "text": "is done so that's why what we are going"
+ },
+ {
+  "start": 281.4,
+  "end": 283.49,
+  "text": "to do we are going to mark this work"
+ },
+ {
+  "start": 283.5,
+  "end": 285.95,
+  "text": "state as completed"
+ },
+ {
+  "start": 285.96,
+  "end": 290.45,
+  "text": "and also let's also Mark this one also"
+ },
+ {
+  "start": 290.46,
+  "end": 296.57,
+  "text": "as completed okay"
+ },
+ {
+  "start": 299.45,
+  "end": 299.46,
+  "text": "and let's mark this also as completed"
+ },
+ {
+  "start": 299.46,
+  "end": 302.51,
+  "text": "okay"
+ },
+ {
+  "start": 305.27,
+  "end": 305.28,
+  "text": "okay so now"
+ },
+ {
+  "start": 305.28,
+  "end": 307.189,
+  "text": "so once you mark the test case"
+ },
+ {
+  "start": 307.199,
+  "end": 311.03,
+  "text": "automation has completed now let's say I"
+ },
+ {
+  "start": 311.04,
+  "end": 314.51,
+  "text": "want to execute the test cases"
+ },
+ {
+  "start": 314.52,
+  "end": 317.87,
+  "text": "of these two test cases okay for that"
+ },
+ {
+  "start": 317.88,
+  "end": 321.11,
+  "text": "let's map this test case"
+ },
+ {
+  "start": 321.12,
+  "end": 324.11,
+  "text": "to the execution list what I created for"
+ },
+ {
+  "start": 324.12,
+  "end": 327.11,
+  "text": "that you need to drag and drop"
+ },
+ {
+  "start": 327.12,
+  "end": 330.469,
+  "text": "onto the execution list that we created"
+ },
+ {
+  "start": 330.479,
+  "end": 334.31,
+  "text": "and then let me drag this also and drop"
+ },
+ {
+  "start": 334.32,
+  "end": 337.189,
+  "text": "onto the execution list that we created"
+ },
+ {
+  "start": 337.199,
+  "end": 340.31,
+  "text": "so now if you see we already"
+ },
+ {
+  "start": 340.32,
+  "end": 343.129,
+  "text": "created both I mean we already linked"
+ },
+ {
+  "start": 343.139,
+  "end": 345.71,
+  "text": "two test cases from two different"
+ },
+ {
+  "start": 345.72,
+  "end": 348.29,
+  "text": "sections right two different sessions"
+ },
+ {
+  "start": 348.3,
+  "end": 354.11,
+  "text": "so now sorry let me just rename this as"
+ },
+ {
+  "start": 357.17,
+  "end": 357.18,
+  "text": "okay this is my exhibitionist right so"
+ },
+ {
+  "start": 357.18,
+  "end": 358.249,
+  "text": "and"
+ },
+ {
+  "start": 358.259,
+  "end": 360.83,
+  "text": "if you see here"
+ },
+ {
+  "start": 360.84,
+  "end": 367.249,
+  "text": "if you want to okay if you want to"
+ },
+ {
+  "start": 369.85,
+  "end": 369.86,
+  "text": "let me explain if you want to exclude"
+ },
+ {
+  "start": 369.86,
+  "end": 373.189,
+  "text": "any one of these test case right from"
+ },
+ {
+  "start": 373.199,
+  "end": 375.23,
+  "text": "your execution list let's say you have"
+ },
+ {
+  "start": 375.24,
+  "end": 378.59,
+  "text": "mapped multiple test cases under this"
+ },
+ {
+  "start": 378.6,
+  "end": 379.969,
+  "text": "execution list"
+ },
+ {
+  "start": 379.979,
+  "end": 381.65,
+  "text": "so if you want to exclude one of them"
+ },
+ {
+  "start": 381.66,
+  "end": 385.01,
+  "text": "right click and then simply you can"
+ },
+ {
+  "start": 385.02,
+  "end": 386.57,
+  "text": "disable it"
+ },
+ {
+  "start": 386.58,
+  "end": 388.909,
+  "text": "as soon as you disable it"
+ },
+ {
+  "start": 388.919,
+  "end": 391.49,
+  "text": "is going to disable from the execution"
+ },
+ {
+  "start": 391.5,
+  "end": 394.43,
+  "text": "list see this is disabled again right"
+ },
+ {
+  "start": 394.44,
+  "end": 398.33,
+  "text": "click and you can enable this okay that"
+ },
+ {
+  "start": 398.34,
+  "end": 399.71,
+  "text": "way you can enable"
+ },
+ {
+  "start": 399.72,
+  "end": 401.45,
+  "text": "and one more"
+ },
+ {
+  "start": 401.46,
+  "end": 404.749,
+  "text": "so that is one thing and"
+ },
+ {
+  "start": 404.759,
+  "end": 409.73,
+  "text": "let's say if you want to execute our one"
+ },
+ {
+  "start": 409.74,
+  "end": 411.95,
+  "text": "more thing so one more thing is if you"
+ },
+ {
+  "start": 411.96,
+  "end": 413.83,
+  "text": "want to"
+ },
+ {
+  "start": 413.84,
+  "end": 416.51,
+  "text": "refresh or synchronize this particular"
+ },
+ {
+  "start": 416.52,
+  "end": 419.33,
+  "text": "test case right click here and there is"
+ },
+ {
+  "start": 419.34,
+  "end": 423.29,
+  "text": "an option called sync see if you here"
+ },
+ {
+  "start": 423.3,
+  "end": 426.05,
+  "text": "if you right click on your execution"
+ },
+ {
+  "start": 426.06,
+  "end": 429.29,
+  "text": "list and click on synchronize what it"
+ },
+ {
+  "start": 429.3,
+  "end": 431.99,
+  "text": "will do it will synchronize your later"
+ },
+ {
+  "start": 432.0,
+  "end": 433.909,
+  "text": "let's say you made some modifications to"
+ },
+ {
+  "start": 433.919,
+  "end": 435.469,
+  "text": "this test cases right"
+ },
+ {
+  "start": 435.479,
+  "end": 437.93,
+  "text": "so those changes needs to be reflected"
+ },
+ {
+  "start": 437.94,
+  "end": 440.57,
+  "text": "to this execution list so right click"
+ },
+ {
+  "start": 440.58,
+  "end": 443.39,
+  "text": "and click on synchronize so that will"
+ },
+ {
+  "start": 443.4,
+  "end": 448.07,
+  "text": "bring the latest updated folders okay so"
+ },
+ {
+  "start": 448.08,
+  "end": 450.409,
+  "text": "either you can directly drag and drop"
+ },
+ {
+  "start": 450.419,
+  "end": 453.529,
+  "text": "your test cases or let's assume I want"
+ },
+ {
+  "start": 453.539,
+  "end": 456.77,
+  "text": "to drag and drop this entire folder you"
+ },
+ {
+  "start": 456.78,
+  "end": 458.689,
+  "text": "can simply drag and drop your folder"
+ },
+ {
+  "start": 458.699,
+  "end": 461.87,
+  "text": "also see this entire folder is dragged"
+ },
+ {
+  "start": 461.88,
+  "end": 463.61,
+  "text": "and dropped and if you want to"
+ },
+ {
+  "start": 463.62,
+  "end": 466.129,
+  "text": "synchronize this entire folder right"
+ },
+ {
+  "start": 466.139,
+  "end": 468.83,
+  "text": "click and you can just synchronize this"
+ },
+ {
+  "start": 468.84,
+  "end": 471.05,
+  "text": "folder so what happens all the test"
+ },
+ {
+  "start": 471.06,
+  "end": 473.99,
+  "text": "cases under this folder will gets"
+ },
+ {
+  "start": 474.0,
+  "end": 476.51,
+  "text": "updated or synchronized with the latest"
+ },
+ {
+  "start": 476.52,
+  "end": 479.15,
+  "text": "updates okay so let me delete this one"
+ },
+ {
+  "start": 479.16,
+  "end": 480.589,
+  "text": "for now"
+ },
+ {
+  "start": 480.599,
+  "end": 483.23,
+  "text": "and one more thing is let's assume I"
+ },
+ {
+  "start": 483.24,
+  "end": 485.689,
+  "text": "want to run this execution list multiple"
+ },
+ {
+  "start": 485.699,
+  "end": 486.529,
+  "text": "times"
+ },
+ {
+  "start": 486.539,
+  "end": 488.99,
+  "text": "so let's drag and drop this folder also"
+ },
+ {
+  "start": 489.0,
+  "end": 492.17,
+  "text": "here if you want to if I want to execute"
+ },
+ {
+  "start": 492.18,
+  "end": 495.11,
+  "text": "the test case under this folder multiple"
+ },
+ {
+  "start": 495.12,
+  "end": 497.089,
+  "text": "times all the disk is under this folder"
+ },
+ {
+  "start": 497.099,
+  "end": 500.93,
+  "text": "then I can simply select the folder"
+ },
+ {
+  "start": 500.94,
+  "end": 503.749,
+  "text": "and then here I can specify the"
+ },
+ {
+  "start": 503.759,
+  "end": 506.33,
+  "text": "repetitions if I want to repeat this as"
+ },
+ {
+  "start": 506.34,
+  "end": 508.309,
+  "text": "three times I can repeat this as three"
+ },
+ {
+  "start": 508.319,
+  "end": 511.189,
+  "text": "times if I want to repeat this as 4 I"
+ },
+ {
+  "start": 511.199,
+  "end": 513.469,
+  "text": "can repeat as 4 so that you can set up"
+ },
+ {
+  "start": 513.479,
+  "end": 515.87,
+  "text": "this repetitions at folder level only"
+ },
+ {
+  "start": 515.88,
+  "end": 518.99,
+  "text": "not at the sorry and also you can"
+ },
+ {
+  "start": 519.0,
+  "end": 521.209,
+  "text": "specify at the"
+ },
+ {
+  "start": 521.219,
+  "end": 521.87,
+  "text": "um"
+ },
+ {
+  "start": 521.88,
+  "end": 525.41,
+  "text": "test case level but not at the"
+ },
+ {
+  "start": 525.42,
+  "end": 528.59,
+  "text": "execution list level okay under this"
+ },
+ {
+  "start": 528.6,
+  "end": 530.509,
+  "text": "execution let's say I want to execute"
+ },
+ {
+  "start": 530.519,
+  "end": 533.81,
+  "text": "this test case multiple times I can"
+ },
+ {
+  "start": 533.82,
+  "end": 536.75,
+  "text": "specify repetitions as two or three in"
+ },
+ {
+  "start": 536.76,
+  "end": 538.13,
+  "text": "the same way under this you have"
+ },
+ {
+  "start": 538.14,
+  "end": 540.829,
+  "text": "particular folder to be repeated for"
+ },
+ {
+  "start": 540.839,
+  "end": 543.05,
+  "text": "multiple times you can specify that as"
+ },
+ {
+  "start": 543.06,
+  "end": 546.11,
+  "text": "well okay so now let's delete this again"
+ },
+ {
+  "start": 546.12,
+  "end": 547.79,
+  "text": "okay"
+ },
+ {
+  "start": 547.8,
+  "end": 549.35,
+  "text": "so that is one thing"
+ },
+ {
+  "start": 549.36,
+  "end": 552.769,
+  "text": "and Okay so"
+ },
+ {
+  "start": 552.779,
+  "end": 554.81,
+  "text": "let's say our"
+ },
+ {
+  "start": 554.82,
+  "end": 556.91,
+  "text": "we have mapped all the test cases that I"
+ },
+ {
+  "start": 556.92,
+  "end": 559.79,
+  "text": "want to run as part of this execution"
+ },
+ {
+  "start": 559.8,
+  "end": 563.329,
+  "text": "list right now if I want to run this"
+ },
+ {
+  "start": 563.339,
+  "end": 566.99,
+  "text": "I need to Simply right click and click"
+ },
+ {
+  "start": 567.0,
+  "end": 568.31,
+  "text": "on run"
+ },
+ {
+  "start": 568.32,
+  "end": 572.09,
+  "text": "so that will start your test cases okay"
+ },
+ {
+  "start": 572.1,
+  "end": 573.889,
+  "text": "and and also"
+ },
+ {
+  "start": 573.899,
+  "end": 577.13,
+  "text": "okay see it opened the web browser and"
+ },
+ {
+  "start": 577.14,
+  "end": 579.29,
+  "text": "it started running the test cases okay"
+ },
+ {
+  "start": 579.3,
+  "end": 581.57,
+  "text": "so we mapped two test cases it's gonna"
+ },
+ {
+  "start": 581.58,
+  "end": 584.69,
+  "text": "run two those two test cases as part of"
+ },
+ {
+  "start": 584.7,
+  "end": 587.15,
+  "text": "that execution list"
+ },
+ {
+  "start": 587.16,
+  "end": 588.829,
+  "text": "foreign"
+ },
+ {
+  "start": 588.839,
+  "end": 604.73,
+  "text": "so this is my first test case"
+ },
+ {
+  "start": 607.13,
+  "end": 607.14,
+  "text": "okay so it's executed"
+ },
+ {
+  "start": 607.14,
+  "end": 609.769,
+  "text": "and then done"
+ },
+ {
+  "start": 609.779,
+  "end": 611.57,
+  "text": "and then it's going to start executing"
+ },
+ {
+  "start": 611.58,
+  "end": 613.009,
+  "text": "my second test case"
+ },
+ {
+  "start": 613.019,
+  "end": 615.11,
+  "text": "see it started executing my second test"
+ },
+ {
+  "start": 615.12,
+  "end": 616.79,
+  "text": "case"
+ },
+ {
+  "start": 616.8,
+  "end": 618.53,
+  "text": "so it might get failed because of some"
+ },
+ {
+  "start": 618.54,
+  "end": 621.23,
+  "text": "issues with that test case but however"
+ },
+ {
+  "start": 621.24,
+  "end": 623.69,
+  "text": "let it fail also okay I just failed it"
+ },
+ {
+  "start": 623.7,
+  "end": 626.63,
+  "text": "okay I want to show how can we analyze"
+ },
+ {
+  "start": 626.64,
+  "end": 628.85,
+  "text": "the test results if you see here under"
+ },
+ {
+  "start": 628.86,
+  "end": 631.97,
+  "text": "execution lists it is gonna maintain"
+ },
+ {
+  "start": 631.98,
+  "end": 635.15,
+  "text": "your history okay this is my one run"
+ },
+ {
+  "start": 635.16,
+  "end": 636.23,
+  "text": "first run"
+ },
+ {
+  "start": 636.24,
+  "end": 639.35,
+  "text": "of my first test case and this is my"
+ },
+ {
+  "start": 639.36,
+  "end": 641.81,
+  "text": "first run of my second test case right"
+ },
+ {
+  "start": 641.82,
+  "end": 646.19,
+  "text": "if you expand this see this is failed"
+ },
+ {
+  "start": 646.2,
+  "end": 649.069,
+  "text": "okay so if I want to analyze this double"
+ },
+ {
+  "start": 649.079,
+  "end": 652.91,
+  "text": "click on this sorry double click on here"
+ },
+ {
+  "start": 652.92,
+  "end": 655.37,
+  "text": "and then you will get"
+ },
+ {
+  "start": 655.38,
+  "end": 658.73,
+  "text": "the details see the matching tab was not"
+ },
+ {
+  "start": 658.74,
+  "end": 661.009,
+  "text": "found okay so this is what the error I"
+ },
+ {
+  "start": 661.019,
+  "end": 664.63,
+  "text": "got right so basically you can"
+ },
+ {
+  "start": 664.64,
+  "end": 668.269,
+  "text": "see all the logs"
+ },
+ {
+  "start": 668.279,
+  "end": 672.23,
+  "text": "of your execution right and then if you"
+ },
+ {
+  "start": 672.24,
+  "end": 675.11,
+  "text": "see here log info out of"
+ },
+ {
+  "start": 675.12,
+  "end": 677.81,
+  "text": "two test cases one is passed one is"
+ },
+ {
+  "start": 677.82,
+  "end": 681.769,
+  "text": "failed and you can also see what is the"
+ },
+ {
+  "start": 681.779,
+  "end": 683.99,
+  "text": "start time of this test case see start"
+ },
+ {
+  "start": 684.0,
+  "end": 687.05,
+  "text": "time and the duration right for this"
+ },
+ {
+  "start": 687.06,
+  "end": 688.73,
+  "text": "what is the start time and the duration"
+ },
+ {
+  "start": 688.74,
+  "end": 691.61,
+  "text": "correct I can see that also and this"
+ },
+ {
+  "start": 691.62,
+  "end": 693.889,
+  "text": "test case is totally passed see I can"
+ },
+ {
+  "start": 693.899,
+  "end": 695.569,
+  "text": "see all the steps are passed for this"
+ },
+ {
+  "start": 695.579,
+  "end": 696.769,
+  "text": "test case"
+ },
+ {
+  "start": 696.779,
+  "end": 700.43,
+  "text": "one test one step got failed correct and"
+ },
+ {
+  "start": 700.44,
+  "end": 703.49,
+  "text": "if I run this again what happens it's"
+ },
+ {
+  "start": 703.5,
+  "end": 708.59,
+  "text": "gonna append new row okay so basically"
+ },
+ {
+  "start": 708.6,
+  "end": 711.949,
+  "text": "it maintains entire history of your test"
+ },
+ {
+  "start": 711.959,
+  "end": 715.55,
+  "text": "runs for this execution list and for"
+ },
+ {
+  "start": 715.56,
+  "end": 719.03,
+  "text": "these test cases okay and also let me"
+ },
+ {
+  "start": 719.04,
+  "end": 721.25,
+  "text": "tell you one more thing see for these"
+ },
+ {
+  "start": 721.26,
+  "end": 724.19,
+  "text": "execution lists let's say here okay"
+ },
+ {
+  "start": 724.2,
+  "end": 727.81,
+  "text": "let's go to execution list if I specify"
+ },
+ {
+  "start": 727.82,
+  "end": 731.509,
+  "text": "any test configurations okay so let's go"
+ },
+ {
+  "start": 731.519,
+  "end": 734.269,
+  "text": "here"
+ },
+ {
+  "start": 738.35,
+  "end": 738.36,
+  "text": "under this test case let's say under"
+ },
+ {
+  "start": 738.36,
+  "end": 740.389,
+  "text": "this execution list I have two test"
+ },
+ {
+  "start": 740.399,
+  "end": 743.87,
+  "text": "cases correct if I specify browser as"
+ },
+ {
+  "start": 743.88,
+  "end": 745.25,
+  "text": "Edge"
+ },
+ {
+  "start": 745.26,
+  "end": 748.67,
+  "text": "okay but the actual test case has"
+ },
+ {
+  "start": 748.68,
+  "end": 750.829,
+  "text": "configuration"
+ },
+ {
+  "start": 750.839,
+  "end": 753.889,
+  "text": "as Chrome okay let's say your actual"
+ },
+ {
+  "start": 753.899,
+  "end": 755.75,
+  "text": "test cases as a configuration as Chrome"
+ },
+ {
+  "start": 755.76,
+  "end": 758.69,
+  "text": "but if you specify your browser as edge"
+ },
+ {
+  "start": 758.7,
+  "end": 761.449,
+  "text": "here what it will do"
+ },
+ {
+  "start": 761.459,
+  "end": 764.81,
+  "text": "any time whatever the test configuration"
+ },
+ {
+  "start": 764.82,
+  "end": 767.509,
+  "text": "you specified under your execution list"
+ },
+ {
+  "start": 767.519,
+  "end": 771.49,
+  "text": "will take a precedence it overrides"
+ },
+ {
+  "start": 771.5,
+  "end": 774.35,
+  "text": "overwrites your test case configurations"
+ },
+ {
+  "start": 774.36,
+  "end": 778.069,
+  "text": "so basically any configuration"
+ },
+ {
+  "start": 778.079,
+  "end": 782.389,
+  "text": "of your execution list will"
+ },
+ {
+  "start": 782.399,
+  "end": 785.15,
+  "text": "take a precedence or it will override"
+ },
+ {
+  "start": 785.16,
+  "end": 787.55,
+  "text": "the configurations that you specified in"
+ },
+ {
+  "start": 787.56,
+  "end": 790.97,
+  "text": "here okay if you specify if you if you"
+ },
+ {
+  "start": 790.98,
+  "end": 793.55,
+  "text": "don't specify any test configurations at"
+ },
+ {
+  "start": 793.56,
+  "end": 796.61,
+  "text": "execution list level then it follows the"
+ },
+ {
+  "start": 796.62,
+  "end": 799.31,
+  "text": "configuration of your test cases okay"
+ },
+ {
+  "start": 799.32,
+  "end": 802.19,
+  "text": "hope you all understand the concepts how"
+ },
+ {
+  "start": 802.2,
+  "end": 804.59,
+  "text": "to create execution lists"
+ },
+ {
+  "start": 804.6,
+  "end": 806.509,
+  "text": "and what are all the different options"
+ },
+ {
+  "start": 806.519,
+  "end": 809.509,
+  "text": "that are available to run your execution"
+ },
+ {
+  "start": 809.519,
+  "end": 812.21,
+  "text": "list and what are all the options that"
+ },
+ {
+  "start": 812.22,
+  "end": 815.69,
+  "text": "is available to make repetitions right"
+ },
+ {
+  "start": 815.7,
+  "end": 819.05,
+  "text": "you can repeat your execution test case"
+ },
+ {
+  "start": 819.06,
+  "end": 821.449,
+  "text": "execution by providing repetitions right"
+ },
+ {
+  "start": 821.459,
+  "end": 824.81,
+  "text": "how can you exclude specific test case"
+ },
+ {
+  "start": 824.82,
+  "end": 827.629,
+  "text": "from your execution list right"
+ },
+ {
+  "start": 827.639,
+  "end": 830.269,
+  "text": "and then how can you run the test cases"
+ },
+ {
+  "start": 830.279,
+  "end": 832.55,
+  "text": "and how can you synchronize your"
+ },
+ {
+  "start": 832.56,
+  "end": 835.37,
+  "text": "execution list so that it takes your"
+ },
+ {
+  "start": 835.38,
+  "end": 839.21,
+  "text": "up to date our latest stress cases right"
+ },
+ {
+  "start": 839.22,
+  "end": 841.49,
+  "text": "all these options you already"
+ },
+ {
+  "start": 841.5,
+  "end": 844.79,
+  "text": "uh understand okay"
+ },
+ {
+  "start": 844.8,
+  "end": 847.009,
+  "text": "so if you have any queries you can just"
+ },
+ {
+  "start": 847.019,
+  "end": 848.629,
+  "text": "leave your queries in the comment box"
+ },
+ {
+  "start": 848.639,
+  "end": 856.58,
+  "text": "thank you"
+ }
+]

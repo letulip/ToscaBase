@@ -1,0 +1,702 @@
+[
+ {
+  "start": 12.87,
+  "end": 12.88,
+  "text": "hi everyone this is Ravi welcome to"
+ },
+ {
+  "start": 12.88,
+  "end": 16.07,
+  "text": "tricentis tasa Advanced Training as you"
+ },
+ {
+  "start": 16.08,
+  "end": 19.47,
+  "text": "all know I already published 66 YouTube"
+ },
+ {
+  "start": 19.48,
+  "end": 22.269,
+  "text": "videos covering beginners level"
+ },
+ {
+  "start": 22.279,
+  "end": 24.71,
+  "text": "intermediate level and Advan level"
+ },
+ {
+  "start": 24.72,
+  "end": 27.189,
+  "text": "Concepts from couple of videos onwards"
+ },
+ {
+  "start": 27.199,
+  "end": 28.95,
+  "text": "I've started teaching you the realtime"
+ },
+ {
+  "start": 28.96,
+  "end": 31.349,
+  "text": "scenarios where you might encounter"
+ },
+ {
+  "start": 31.359,
+  "end": 33.91,
+  "text": "different types of obstacles and how can"
+ },
+ {
+  "start": 33.92,
+  "end": 36.31,
+  "text": "we solve those obstacles while"
+ },
+ {
+  "start": 36.32,
+  "end": 38.19,
+  "text": "automating your test cases by using"
+ },
+ {
+  "start": 38.2,
+  "end": 39.389,
+  "text": "trient"
+ },
+ {
+  "start": 39.399,
+  "end": 42.51,
+  "text": "tasom please do subscribe to the channel"
+ },
+ {
+  "start": 42.52,
+  "end": 44.069,
+  "text": "click on Bell icon you'll receive"
+ },
+ {
+  "start": 44.079,
+  "end": 46.229,
+  "text": "notifications whenever I publish more"
+ },
+ {
+  "start": 46.239,
+  "end": 48.709,
+  "text": "videos don't forget to like and share"
+ },
+ {
+  "start": 48.719,
+  "end": 50.99,
+  "text": "the video thank"
+ },
+ {
+  "start": 51.0,
+  "end": 54.83,
+  "text": "you this is our lesson 67 in terms of"
+ },
+ {
+  "start": 54.84,
+  "end": 57.99,
+  "text": "overall trient tasar training and this"
+ },
+ {
+  "start": 58.0,
+  "end": 61.349,
+  "text": "is our obstacle 25 in terms of real time"
+ },
+ {
+  "start": 61.359,
+  "end": 63.709,
+  "text": "scenarios where I'm going to teach you"
+ },
+ {
+  "start": 63.719,
+  "end": 66.31,
+  "text": "how can we solve an obstacle where you"
+ },
+ {
+  "start": 66.32,
+  "end": 69.91,
+  "text": "need to click on an element which is"
+ },
+ {
+  "start": 69.92,
+  "end": 75.23,
+  "text": "hidden in the UI page now let us go and"
+ },
+ {
+  "start": 75.24,
+  "end": 77.87,
+  "text": "see in detail what is the obstacle that"
+ },
+ {
+  "start": 77.88,
+  "end": 80.429,
+  "text": "we are going to solve for so this is our"
+ },
+ {
+  "start": 80.439,
+  "end": 83.95,
+  "text": "obstacle list and our obstacle name is"
+ },
+ {
+  "start": 83.96,
+  "end": 87.27,
+  "text": "hidden element which is categorized as"
+ },
+ {
+  "start": 87.28,
+  "end": 91.63,
+  "text": "easy so let us go for it"
+ },
+ {
+  "start": 91.64,
+  "end": 93.03,
+  "text": "what is the"
+ },
+ {
+  "start": 93.04,
+  "end": 97.069,
+  "text": "obstacle who turned off the lights click"
+ },
+ {
+  "start": 97.079,
+  "end": 101.31,
+  "text": "the hidden element so here under this"
+ },
+ {
+  "start": 101.32,
+  "end": 104.389,
+  "text": "area the black color area there is one"
+ },
+ {
+  "start": 104.399,
+  "end": 107.23,
+  "text": "Element you need to click on so that"
+ },
+ {
+  "start": 107.24,
+  "end": 111.51,
+  "text": "element is hidden so how can we perform"
+ },
+ {
+  "start": 111.52,
+  "end": 114.51,
+  "text": "click operation for the element which is"
+ },
+ {
+  "start": 114.52,
+  "end": 119.19,
+  "text": "hidden so for tasa right as long as the"
+ },
+ {
+  "start": 119.2,
+  "end": 122.63,
+  "text": "element is visible in"
+ },
+ {
+  "start": 122.64,
+  "end": 125.469,
+  "text": "xcam then you can simply solve the"
+ },
+ {
+  "start": 125.479,
+  "end": 128.229,
+  "text": "problem so if the element is hidden or"
+ },
+ {
+  "start": 128.239,
+  "end": 130.71,
+  "text": "not hidden it doesn't matter for"
+ },
+ {
+  "start": 130.72,
+  "end": 133.67,
+  "text": "tasa let us go to tr tasar and solve the"
+ },
+ {
+  "start": 133.68,
+  "end": 135.589,
+  "text": "problem so we're going to start working"
+ },
+ {
+  "start": 135.599,
+  "end": 138.39,
+  "text": "on the module first as usual I'm going"
+ },
+ {
+  "start": 138.4,
+  "end": 142.03,
+  "text": "to scan the object right click on this"
+ },
+ {
+  "start": 142.04,
+  "end": 145.19,
+  "text": "obstacles folder select scan and"
+ },
+ {
+  "start": 145.2,
+  "end": 147.27,
+  "text": "application so what is the application"
+ },
+ {
+  "start": 147.28,
+  "end": 149.11,
+  "text": "so this is my application right select"
+ },
+ {
+  "start": 149.12,
+  "end": 155.83,
+  "text": "the application and on"
+ },
+ {
+  "start": 159.43,
+  "end": 159.44,
+  "text": "scan so what I would like to do here see"
+ },
+ {
+  "start": 159.44,
+  "end": 162.79,
+  "text": "the object is not visible but I have to"
+ },
+ {
+  "start": 162.8,
+  "end": 165.79,
+  "text": "guess what object it is how can I guess"
+ },
+ {
+  "start": 165.8,
+  "end": 168.83,
+  "text": "I can probably use these elements right"
+ },
+ {
+  "start": 168.84,
+  "end": 173.11,
+  "text": "easy hoot on flights so exactly after"
+ },
+ {
+  "start": 173.12,
+  "end": 177.03,
+  "text": "this element right or after this object"
+ },
+ {
+  "start": 177.04,
+  "end": 180.03,
+  "text": "you can find the hidden"
+ },
+ {
+  "start": 180.04,
+  "end": 182.11,
+  "text": "so for that I would like to expand the"
+ },
+ {
+  "start": 182.12,
+  "end": 185.869,
+  "text": "filter just simply go towards the right"
+ },
+ {
+  "start": 185.879,
+  "end": 189.229,
+  "text": "so here now if you scroll down I should"
+ },
+ {
+  "start": 189.239,
+  "end": 192.11,
+  "text": "find easy here right easy this is my"
+ },
+ {
+  "start": 192.12,
+  "end": 195.35,
+  "text": "easy let's search for easy see here you"
+ },
+ {
+  "start": 195.36,
+  "end": 199.309,
+  "text": "can see easy this is your"
+ },
+ {
+  "start": 199.319,
+  "end": 201.789,
+  "text": "simply development right these are all"
+ },
+ {
+  "start": 201.799,
+  "end": 204.869,
+  "text": "the developments so here easy after that"
+ },
+ {
+  "start": 204.879,
+  "end": 207.11,
+  "text": "you can see there is another div here"
+ },
+ {
+  "start": 207.12,
+  "end": 210.429,
+  "text": "you see click this there is a"
+ },
+ {
+  "start": 210.439,
+  "end": 213.03,
+  "text": "object click this object which is also a"
+ },
+ {
+  "start": 213.04,
+  "end": 215.949,
+  "text": "container div container okay so if you"
+ },
+ {
+  "start": 215.959,
+  "end": 218.35,
+  "text": "select this one here you can see this is"
+ },
+ {
+  "start": 218.36,
+  "end": 220.55,
+  "text": "uniquely identified if you scroll down"
+ },
+ {
+  "start": 220.56,
+  "end": 222.67,
+  "text": "see this has a technical property or"
+ },
+ {
+  "start": 222.68,
+  "end": 224.39,
+  "text": "identify the properties technical"
+ },
+ {
+  "start": 224.4,
+  "end": 225.83,
+  "text": "property called"
+ },
+ {
+  "start": 225.84,
+  "end": 231.55,
+  "text": "ID and which is click this and also it"
+ },
+ {
+  "start": 231.56,
+  "end": 235.309,
+  "text": "has a tag as span because this is Spam"
+ },
+ {
+  "start": 235.319,
+  "end": 238.069,
+  "text": "this is basically spam tag right and"
+ },
+ {
+  "start": 238.079,
+  "end": 241.309,
+  "text": "which is a container so that means this"
+ },
+ {
+  "start": 241.319,
+  "end": 243.71,
+  "text": "particular hidden element now I'm able"
+ },
+ {
+  "start": 243.72,
+  "end": 246.91,
+  "text": "to identify and this is uniquely"
+ },
+ {
+  "start": 246.92,
+  "end": 250.55,
+  "text": "identified by using ID property and span"
+ },
+ {
+  "start": 250.56,
+  "end": 253.069,
+  "text": "property and tag"
+ },
+ {
+  "start": 253.079,
+  "end": 257.67,
+  "text": "property so now let us rename this"
+ },
+ {
+  "start": 257.68,
+  "end": 262.51,
+  "text": "module with the obstacle"
+ },
+ {
+  "start": 264.07,
+  "end": 264.08,
+  "text": "name"
+ },
+ {
+  "start": 264.08,
+  "end": 269.469,
+  "text": "copy and rename this and save this one"
+ },
+ {
+  "start": 269.479,
+  "end": 273.55,
+  "text": "and and close the X scan let us go back"
+ },
+ {
+  "start": 273.56,
+  "end": 274.749,
+  "text": "to trient"
+ },
+ {
+  "start": 274.759,
+  "end": 277.39,
+  "text": "tasa let us validate if the latest"
+ },
+ {
+  "start": 277.4,
+  "end": 279.95,
+  "text": "module is available this is my latest"
+ },
+ {
+  "start": 279.96,
+  "end": 282.71,
+  "text": "module double click on this you can see"
+ },
+ {
+  "start": 282.72,
+  "end": 285.909,
+  "text": "click this this is my du container so"
+ },
+ {
+  "start": 285.919,
+  "end": 288.35,
+  "text": "now let us go to left part which is a"
+ },
+ {
+  "start": 288.36,
+  "end": 290.83,
+  "text": "test case section so this is my test"
+ },
+ {
+  "start": 290.84,
+  "end": 293.11,
+  "text": "case folder where I'm storing all the"
+ },
+ {
+  "start": 293.12,
+  "end": 295.59,
+  "text": "test cases pertaining to different"
+ },
+ {
+  "start": 295.6,
+  "end": 298.35,
+  "text": "obstacles so I would like I would"
+ },
+ {
+  "start": 298.36,
+  "end": 300.27,
+  "text": "recommend you guys to visit"
+ },
+ {
+  "start": 300.28,
+  "end": 302.99,
+  "text": "my previous videos to solve all these"
+ },
+ {
+  "start": 303.0,
+  "end": 305.909,
+  "text": "obstacles that we covered till date so"
+ },
+ {
+  "start": 305.919,
+  "end": 308.55,
+  "text": "here on this obstacle test case folder"
+ },
+ {
+  "start": 308.56,
+  "end": 313.43,
+  "text": "right click on this and create test case"
+ },
+ {
+  "start": 313.44,
+  "end": 315.55,
+  "text": "and name this with the same obstacle"
+ },
+ {
+  "start": 315.56,
+  "end": 317.83,
+  "text": "name that we captured earlier double"
+ },
+ {
+  "start": 317.84,
+  "end": 320.71,
+  "text": "click on this test case now to automate"
+ },
+ {
+  "start": 320.72,
+  "end": 323.909,
+  "text": "the scenario simply drag this module"
+ },
+ {
+  "start": 323.919,
+  "end": 325.749,
+  "text": "onto test"
+ },
+ {
+  "start": 325.759,
+  "end": 330.629,
+  "text": "case and here I can specify click this"
+ },
+ {
+  "start": 330.639,
+  "end": 333.43,
+  "text": "particular Hidden Object this is your"
+ },
+ {
+  "start": 333.44,
+  "end": 335.23,
+  "text": "hidden object you are not able to see on"
+ },
+ {
+  "start": 335.24,
+  "end": 338.35,
+  "text": "the screen right see here you don't see"
+ },
+ {
+  "start": 338.36,
+  "end": 339.11,
+  "text": "on the"
+ },
+ {
+  "start": 339.12,
+  "end": 342.189,
+  "text": "screen okay but tasa is going to click"
+ },
+ {
+  "start": 342.199,
+  "end": 344.59,
+  "text": "on this particular tasa is going to"
+ },
+ {
+  "start": 344.6,
+  "end": 345.87,
+  "text": "click on that"
+ },
+ {
+  "start": 345.88,
+  "end": 349.189,
+  "text": "particular object simply right click and"
+ },
+ {
+  "start": 349.199,
+  "end": 368.55,
+  "text": "then run in scratchbook"
+ },
+ {
+  "start": 371.189,
+  "end": 371.199,
+  "text": "see here the object is exactly at this"
+ },
+ {
+  "start": 371.199,
+  "end": 373.87,
+  "text": "location clicked and you solve this"
+ },
+ {
+  "start": 373.88,
+  "end": 377.35,
+  "text": "automation problem let me try again now"
+ },
+ {
+  "start": 377.36,
+  "end": 380.589,
+  "text": "again let's run this again one more time"
+ },
+ {
+  "start": 380.599,
+  "end": 383.99,
+  "text": "and see where that object will be"
+ },
+ {
+  "start": 384.0,
+  "end": 385.909,
+  "text": "available and where it is going to click"
+ },
+ {
+  "start": 385.919,
+  "end": 396.67,
+  "text": "on"
+ },
+ {
+  "start": 399.39,
+  "end": 399.4,
+  "text": "see now your object is moved here this"
+ },
+ {
+  "start": 399.4,
+  "end": 402.749,
+  "text": "is where the location of the"
+ },
+ {
+  "start": 402.759,
+  "end": 406.629,
+  "text": "object so this is how you can solve the"
+ },
+ {
+  "start": 406.639,
+  "end": 410.469,
+  "text": "problem where object cannot object may"
+ },
+ {
+  "start": 410.479,
+  "end": 413.909,
+  "text": "be hidden but that object you can read"
+ },
+ {
+  "start": 413.919,
+  "end": 416.55,
+  "text": "through X scan so if you have any"
+ },
+ {
+  "start": 416.56,
+  "end": 417.869,
+  "text": "queries leave your queries in the"
+ },
+ {
+  "start": 417.879,
+  "end": 419.309,
+  "text": "comment box I'll try to respond to your"
+ },
+ {
+  "start": 419.319,
+  "end": 423.07,
+  "text": "qu is thank you hope you all understand"
+ },
+ {
+  "start": 423.08,
+  "end": 426.869,
+  "text": "the concept how can we solve the"
+ },
+ {
+  "start": 426.879,
+  "end": 430.309,
+  "text": "obstacle where you need to click on an"
+ },
+ {
+  "start": 430.319,
+  "end": 435.35,
+  "text": "element which is hidden in the UI by"
+ },
+ {
+  "start": 435.36,
+  "end": 439.029,
+  "text": "using tricentis tasa please do subscribe"
+ },
+ {
+  "start": 439.039,
+  "end": 440.909,
+  "text": "to the channel click on Bell icon you'll"
+ },
+ {
+  "start": 440.919,
+  "end": 443.309,
+  "text": "receive notifications whenever I publish"
+ },
+ {
+  "start": 443.319,
+  "end": 445.79,
+  "text": "more videos don't forget to like and"
+ },
+ {
+  "start": 445.8,
+  "end": 453.95,
+  "text": "share the video thank you"
+ }
+]

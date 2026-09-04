@@ -1,0 +1,1142 @@
+[
+ {
+  "start": 14.43,
+  "end": 14.44,
+  "text": "hi everyone this is Ravi welcome to pren"
+ },
+ {
+  "start": 14.44,
+  "end": 18.31,
+  "text": "tasa Advanced Training as you all know"
+ },
+ {
+  "start": 18.32,
+  "end": 22.23,
+  "text": "I've already published 47 YouTube videos"
+ },
+ {
+  "start": 22.24,
+  "end": 24.99,
+  "text": "covering beginners level intermediate"
+ },
+ {
+  "start": 25.0,
+  "end": 28.429,
+  "text": "level and advanced level Concepts from"
+ },
+ {
+  "start": 28.439,
+  "end": 30.429,
+  "text": "past couple of videos onwards have"
+ },
+ {
+  "start": 30.439,
+  "end": 32.79,
+  "text": "started teaching you some realtime"
+ },
+ {
+  "start": 32.8,
+  "end": 36.43,
+  "text": "scenarios where you might encounter with"
+ },
+ {
+  "start": 36.44,
+  "end": 39.709,
+  "text": "different types of obstacles and how can"
+ },
+ {
+  "start": 39.719,
+  "end": 42.19,
+  "text": "we solve those obstacles while"
+ },
+ {
+  "start": 42.2,
+  "end": 46.35,
+  "text": "automating your test cases and this is"
+ },
+ {
+  "start": 46.36,
+  "end": 51.029,
+  "text": "our abstra six nothing but lesson six in"
+ },
+ {
+  "start": 51.039,
+  "end": 54.15,
+  "text": "terms of real time scenarios and lesson"
+ },
+ {
+  "start": 54.16,
+  "end": 57.47,
+  "text": "48 in terms of overall trient tasa"
+ },
+ {
+  "start": 57.48,
+  "end": 59.75,
+  "text": "training please do subscribe to the"
+ },
+ {
+  "start": 59.76,
+  "end": 61.95,
+  "text": "channel Chanel click on Bell icon you'll"
+ },
+ {
+  "start": 61.96,
+  "end": 64.35,
+  "text": "receive notifications whenever I publish"
+ },
+ {
+  "start": 64.36,
+  "end": 67.95,
+  "text": "more videos and don't forget to like and"
+ },
+ {
+  "start": 67.96,
+  "end": 72.39,
+  "text": "share the video thank you in this lesson"
+ },
+ {
+  "start": 72.4,
+  "end": 76.35,
+  "text": "I'm going to teach you how can we solve"
+ },
+ {
+  "start": 76.36,
+  "end": 80.31,
+  "text": "for an obstacle where you need to select"
+ },
+ {
+  "start": 80.32,
+  "end": 84.95,
+  "text": "the list of items within multi select"
+ },
+ {
+  "start": 84.96,
+  "end": 90.51,
+  "text": "list Box by using cality and and"
+ },
+ {
+  "start": 90.52,
+  "end": 92.51,
+  "text": "explicit name"
+ },
+ {
+  "start": 92.52,
+  "end": 95.429,
+  "text": "Concepts so for that let us first"
+ },
+ {
+  "start": 95.439,
+  "end": 98.71,
+  "text": "understand what is the obstacle so this"
+ },
+ {
+  "start": 98.72,
+  "end": 103.03,
+  "text": "is our obstacle sixth obstacle testing"
+ },
+ {
+  "start": 103.04,
+  "end": 107.31,
+  "text": "methods which is categorized as hard so"
+ },
+ {
+  "start": 107.32,
+  "end": 110.069,
+  "text": "let's go for"
+ },
+ {
+  "start": 114.59,
+  "end": 114.6,
+  "text": "it so if you see here multi select list"
+ },
+ {
+  "start": 114.6,
+  "end": 119.91,
+  "text": "box select all testing methods that are"
+ },
+ {
+  "start": 119.92,
+  "end": 122.029,
+  "text": "supported by tasa if you see this is"
+ },
+ {
+  "start": 122.039,
+  "end": 125.95,
+  "text": "your multi select box where you can"
+ },
+ {
+  "start": 125.96,
+  "end": 128.71,
+  "text": "select all testing methods that are"
+ },
+ {
+  "start": 128.72,
+  "end": 133.83,
+  "text": "supported by Taska right so now I can"
+ },
+ {
+  "start": 133.84,
+  "end": 135.71,
+  "text": "select"
+ },
+ {
+  "start": 135.72,
+  "end": 138.79,
+  "text": "multiple options as well multiple"
+ },
+ {
+  "start": 138.8,
+  "end": 142.229,
+  "text": "options as well so now here you need to"
+ },
+ {
+  "start": 142.239,
+  "end": 146.71,
+  "text": "select these four options from this"
+ },
+ {
+  "start": 146.72,
+  "end": 150.19,
+  "text": "multi- select box so now for that let's"
+ },
+ {
+  "start": 150.2,
+  "end": 153.869,
+  "text": "go back to our trient"
+ },
+ {
+  "start": 155.949,
+  "end": 155.959,
+  "text": "tasa and"
+ },
+ {
+  "start": 155.959,
+  "end": 158.91,
+  "text": "here let's scan objects that are"
+ },
+ {
+  "start": 158.92,
+  "end": 162.27,
+  "text": "required to solve the problem okay so"
+ },
+ {
+  "start": 162.28,
+  "end": 165.67,
+  "text": "right click on obstacles click on scan"
+ },
+ {
+  "start": 165.68,
+  "end": 171.509,
+  "text": "and select"
+ },
+ {
+  "start": 174.71,
+  "end": 174.72,
+  "text": "application so this is the application"
+ },
+ {
+  "start": 174.72,
+  "end": 183.63,
+  "text": "click on scan"
+ },
+ {
+  "start": 188.949,
+  "end": 188.959,
+  "text": "so now let's see here let's expand this"
+ },
+ {
+  "start": 188.959,
+  "end": 190.63,
+  "text": "and you can see this is your multi"
+ },
+ {
+  "start": 190.64,
+  "end": 194.27,
+  "text": "select but but I don't see the items"
+ },
+ {
+  "start": 194.28,
+  "end": 196.309,
+  "text": "within the multi select I don't see"
+ },
+ {
+  "start": 196.319,
+  "end": 199.07,
+  "text": "items so for that let us expand the"
+ },
+ {
+  "start": 199.08,
+  "end": 202.71,
+  "text": "filter by clicking towards right so here"
+ },
+ {
+  "start": 202.72,
+  "end": 206.19,
+  "text": "if you see this is my multi select"
+ },
+ {
+  "start": 206.2,
+  "end": 209.83,
+  "text": "select your multi select object you can"
+ },
+ {
+  "start": 209.84,
+  "end": 211.99,
+  "text": "see here right"
+ },
+ {
+  "start": 212.0,
+  "end": 218.83,
+  "text": "side this is my ID multi select and tag"
+ },
+ {
+  "start": 218.84,
+  "end": 222.789,
+  "text": "select and let me select one of the item"
+ },
+ {
+  "start": 222.799,
+  "end": 225.55,
+  "text": "I don't want to add all the items"
+ },
+ {
+  "start": 225.56,
+  "end": 230.429,
+  "text": "instead I just want to add one item from"
+ },
+ {
+  "start": 230.439,
+  "end": 233.83,
+  "text": "the list of items okay let's select the"
+ },
+ {
+  "start": 233.84,
+  "end": 235.55,
+  "text": "functional"
+ },
+ {
+  "start": 235.56,
+  "end": 237.71,
+  "text": "testing here if you select the"
+ },
+ {
+  "start": 237.72,
+  "end": 239.99,
+  "text": "functional testing it says it is not"
+ },
+ {
+  "start": 240.0,
+  "end": 243.39,
+  "text": "uniquely identified so don't worry so if"
+ },
+ {
+  "start": 243.4,
+  "end": 245.71,
+  "text": "you see right side the properties right"
+ },
+ {
+  "start": 245.72,
+  "end": 249.55,
+  "text": "I can see here inner text tag if I"
+ },
+ {
+  "start": 249.56,
+  "end": 252.55,
+  "text": "select inner text it's going to uniquely"
+ },
+ {
+  "start": 252.56,
+  "end": 256.39,
+  "text": "identify but I don't want to do that"
+ },
+ {
+  "start": 256.4,
+  "end": 260.469,
+  "text": "because I would like to use only one"
+ },
+ {
+  "start": 260.479,
+  "end": 262.31,
+  "text": "item from the"
+ },
+ {
+  "start": 262.32,
+  "end": 268.95,
+  "text": "list and use the same item to select the"
+ },
+ {
+  "start": 268.96,
+  "end": 272.43,
+  "text": "rest of the items how by using explicit"
+ },
+ {
+  "start": 272.44,
+  "end": 274.79,
+  "text": "name I'm going to explain you okay so"
+ },
+ {
+  "start": 274.8,
+  "end": 276.67,
+  "text": "let's just keep only"
+ },
+ {
+  "start": 276.68,
+  "end": 280.59,
+  "text": "tag for the one of the item and multi"
+ },
+ {
+  "start": 280.6,
+  "end": 285.23,
+  "text": "select I selected ID and tag okay so now"
+ },
+ {
+  "start": 285.24,
+  "end": 289.11,
+  "text": "let's go back to your module and rename"
+ },
+ {
+  "start": 289.12,
+  "end": 290.27,
+  "text": "this"
+ },
+ {
+  "start": 290.28,
+  "end": 293.23,
+  "text": "module with abstrac"
+ },
+ {
+  "start": 293.24,
+  "end": 295.99,
+  "text": "name copy"
+ },
+ {
+  "start": 296.0,
+  "end": 297.749,
+  "text": "this"
+ },
+ {
+  "start": 297.759,
+  "end": 303.27,
+  "text": "and paste this and now save"
+ },
+ {
+  "start": 303.28,
+  "end": 307.83,
+  "text": "this and close xcan let's go back to"
+ },
+ {
+  "start": 307.84,
+  "end": 311.59,
+  "text": "trient toas so this is the new obstacle"
+ },
+ {
+  "start": 311.6,
+  "end": 314.51,
+  "text": "module that we added double click on"
+ },
+ {
+  "start": 314.52,
+  "end": 317.67,
+  "text": "this if you see here I can see there is"
+ },
+ {
+  "start": 317.68,
+  "end": 319.87,
+  "text": "multi select and functional testing in"
+ },
+ {
+  "start": 319.88,
+  "end": 321.39,
+  "text": "instead of functional testing I would"
+ },
+ {
+  "start": 321.4,
+  "end": 325.749,
+  "text": "like to name this as item so basically"
+ },
+ {
+  "start": 325.759,
+  "end": 328.35,
+  "text": "it's one of the item under multi select"
+ },
+ {
+  "start": 328.36,
+  "end": 332.189,
+  "text": "right I'm just naming that as item so"
+ },
+ {
+  "start": 332.199,
+  "end": 336.39,
+  "text": "here now let's go to properties click"
+ },
+ {
+  "start": 336.4,
+  "end": 340.189,
+  "text": "this right pin okay here so this shows"
+ },
+ {
+  "start": 340.199,
+  "end": 343.629,
+  "text": "you the properties of"
+ },
+ {
+  "start": 343.639,
+  "end": 348.27,
+  "text": "each element of your or each object if"
+ },
+ {
+  "start": 348.28,
+  "end": 350.95,
+  "text": "you see multi select I selected ID and"
+ },
+ {
+  "start": 350.96,
+  "end": 354.309,
+  "text": "tag for item I only selected"
+ },
+ {
+  "start": 354.319,
+  "end": 360.469,
+  "text": "tag so here because we need to select"
+ },
+ {
+  "start": 360.479,
+  "end": 361.87,
+  "text": "multiple"
+ },
+ {
+  "start": 361.88,
+  "end": 365.99,
+  "text": "items I have only one object"
+ },
+ {
+  "start": 366.0,
+  "end": 368.87,
+  "text": "captured means I can only select one"
+ },
+ {
+  "start": 368.88,
+  "end": 374.39,
+  "text": "item so to make sure I can use this item"
+ },
+ {
+  "start": 374.4,
+  "end": 377.07,
+  "text": "object multiple"
+ },
+ {
+  "start": 377.08,
+  "end": 380.99,
+  "text": "instances you have to look for coordin"
+ },
+ {
+  "start": 381.0,
+  "end": 384.39,
+  "text": "if you see here the coordin is showing"
+ },
+ {
+  "start": 384.4,
+  "end": 388.79,
+  "text": "as 0 to 1 that means you can use this"
+ },
+ {
+  "start": 388.8,
+  "end": 390.39,
+  "text": "attribute"
+ },
+ {
+  "start": 390.4,
+  "end": 392.79,
+  "text": "only once in the test"
+ },
+ {
+  "start": 392.8,
+  "end": 395.83,
+  "text": "step so now I would like to use this for"
+ },
+ {
+  "start": 395.84,
+  "end": 398.23,
+  "text": "how many times I have to use this for"
+ },
+ {
+  "start": 398.24,
+  "end": 403.589,
+  "text": "four times 1 2 3 4 right so that's why I"
+ },
+ {
+  "start": 403.599,
+  "end": 405.71,
+  "text": "would like to change this"
+ },
+ {
+  "start": 405.72,
+  "end": 411.51,
+  "text": "cality from 0 to 1 to 0 to"
+ },
+ {
+  "start": 411.52,
+  "end": 414.39,
+  "text": "N I don't want to only restrict for four"
+ },
+ {
+  "start": 414.4,
+  "end": 417.67,
+  "text": "times I want to put it as n multiple"
+ },
+ {
+  "start": 417.68,
+  "end": 420.11,
+  "text": "times n number of times you can"
+ },
+ {
+  "start": 420.12,
+  "end": 425.189,
+  "text": "reuse this object okay that is one thing"
+ },
+ {
+  "start": 425.199,
+  "end": 427.11,
+  "text": "and the other thing"
+ },
+ {
+  "start": 427.12,
+  "end": 431.27,
+  "text": "is you can use the explicit name concept"
+ },
+ {
+  "start": 431.28,
+  "end": 434.71,
+  "text": "here for that for"
+ },
+ {
+  "start": 434.72,
+  "end": 439.79,
+  "text": "item right click and add create"
+ },
+ {
+  "start": 439.8,
+  "end": 441.99,
+  "text": "configuration"
+ },
+ {
+  "start": 442.0,
+  "end": 445.51,
+  "text": "parameter I'll explain you how does this"
+ },
+ {
+  "start": 445.52,
+  "end": 448.189,
+  "text": "configuration parameter explicit name"
+ },
+ {
+  "start": 448.199,
+  "end": 450.749,
+  "text": "works okay"
+ },
+ {
+  "start": 450.759,
+  "end": 452.83,
+  "text": "explicit"
+ },
+ {
+  "start": 452.84,
+  "end": 456.749,
+  "text": "name so now you have to make this"
+ },
+ {
+  "start": 456.759,
+  "end": 462.67,
+  "text": "explicit name as true why I can start"
+ },
+ {
+  "start": 462.68,
+  "end": 468.149,
+  "text": "using the naming convention or index for"
+ },
+ {
+  "start": 468.159,
+  "end": 473.11,
+  "text": "this particular item object because I'm"
+ },
+ {
+  "start": 473.12,
+  "end": 476.909,
+  "text": "enabling the explicit name feature here"
+ },
+ {
+  "start": 476.919,
+  "end": 480.149,
+  "text": "or configuration parameter I'm enabling"
+ },
+ {
+  "start": 480.159,
+  "end": 484.149,
+  "text": "here okay so now let's keep it like this"
+ },
+ {
+  "start": 484.159,
+  "end": 487.749,
+  "text": "so what we did we have made two changes"
+ },
+ {
+  "start": 487.759,
+  "end": 492.909,
+  "text": "one is for item we changed the cordal"
+ },
+ {
+  "start": 492.919,
+  "end": 496.95,
+  "text": "from 0 to 1 to 0 to n because I would"
+ },
+ {
+  "start": 496.96,
+  "end": 500.189,
+  "text": "like to use the same item selection"
+ },
+ {
+  "start": 500.199,
+  "end": 504.309,
+  "text": "multiple times and also we added an"
+ },
+ {
+  "start": 504.319,
+  "end": 507.749,
+  "text": "explicit name because I would like to"
+ },
+ {
+  "start": 507.759,
+  "end": 510.43,
+  "text": "use this item"
+ },
+ {
+  "start": 510.44,
+  "end": 513.469,
+  "text": "to select different"
+ },
+ {
+  "start": 513.479,
+  "end": 518.269,
+  "text": "values as an item right one item is"
+ },
+ {
+  "start": 518.279,
+  "end": 521.029,
+  "text": "functional testing second is unit"
+ },
+ {
+  "start": 521.039,
+  "end": 525.15,
+  "text": "testing third is U GUI testing end to"
+ },
+ {
+  "start": 525.16,
+  "end": 527.79,
+  "text": "end testing right so the name of the"
+ },
+ {
+  "start": 527.8,
+  "end": 529.949,
+  "text": "value or the name of the item is"
+ },
+ {
+  "start": 529.959,
+  "end": 532.829,
+  "text": "different that's why I would like to use"
+ },
+ {
+  "start": 532.839,
+  "end": 535.91,
+  "text": "explicit name so that I can select"
+ },
+ {
+  "start": 535.92,
+  "end": 538.35,
+  "text": "different values from the multi select"
+ },
+ {
+  "start": 538.36,
+  "end": 543.389,
+  "text": "box okay so now let us go to obstacle"
+ },
+ {
+  "start": 543.399,
+  "end": 547.47,
+  "text": "and let me create a new test case and"
+ },
+ {
+  "start": 547.48,
+  "end": 551.59,
+  "text": "name this with the same obstacle"
+ },
+ {
+  "start": 551.6,
+  "end": 555.949,
+  "text": "name double click on this so now I would"
+ },
+ {
+  "start": 555.959,
+  "end": 560.55,
+  "text": "like to drag and drop this module to the"
+ },
+ {
+  "start": 560.56,
+  "end": 564.67,
+  "text": "test case to create our automation so"
+ },
+ {
+  "start": 564.68,
+  "end": 568.509,
+  "text": "basically now let us automate the test"
+ },
+ {
+  "start": 568.519,
+  "end": 571.31,
+  "text": "case for that I'm going to drag this"
+ },
+ {
+  "start": 571.32,
+  "end": 578.069,
+  "text": "module and drop onto the test"
+ },
+ {
+  "start": 580.949,
+  "end": 580.959,
+  "text": "case so now let us expand"
+ },
+ {
+  "start": 580.959,
+  "end": 583.31,
+  "text": "this you can see here now you have"
+ },
+ {
+  "start": 583.32,
+  "end": 587.35,
+  "text": "multi- select and item okay so here what"
+ },
+ {
+  "start": 587.36,
+  "end": 590.03,
+  "text": "I'm going to do here"
+ },
+ {
+  "start": 590.04,
+  "end": 592.03,
+  "text": "first I would like"
+ },
+ {
+  "start": 592.04,
+  "end": 596.59,
+  "text": "to use the explicit name here if you see"
+ },
+ {
+  "start": 596.6,
+  "end": 599.389,
+  "text": "first I would like to select one"
+ },
+ {
+  "start": 599.399,
+  "end": 603.949,
+  "text": "functional testing right copy this and"
+ },
+ {
+  "start": 603.959,
+  "end": 608.15,
+  "text": "here instead of item I would like to put"
+ },
+ {
+  "start": 608.16,
+  "end": 610.47,
+  "text": "functional is"
+ },
+ {
+  "start": 610.48,
+  "end": 616.43,
+  "text": "it small testing okay"
+ },
+ {
+  "start": 619.949,
+  "end": 619.959,
+  "text": "functional testing see as soon as I"
+ },
+ {
+  "start": 619.959,
+  "end": 621.509,
+  "text": "enter some other"
+ },
+ {
+  "start": 621.519,
+  "end": 624.829,
+  "text": "value a new item is displaying now that"
+ },
+ {
+  "start": 624.839,
+  "end": 625.949,
+  "text": "means a"
+ },
+ {
+  "start": 625.959,
+  "end": 629.31,
+  "text": "new attribute has been added let's say"
+ },
+ {
+  "start": 629.32,
+  "end": 632.55,
+  "text": "I'll do something here see here see it"
+ },
+ {
+  "start": 632.56,
+  "end": 634.55,
+  "text": "is adding one more I'm going to select"
+ },
+ {
+  "start": 634.56,
+  "end": 638.389,
+  "text": "this end to end like this okay but"
+ },
+ {
+  "start": 638.399,
+  "end": 641.389,
+  "text": "however so let's delete all this okay I"
+ },
+ {
+  "start": 641.399,
+  "end": 643.87,
+  "text": "mean let's rename this functional"
+ },
+ {
+  "start": 643.88,
+  "end": 647.31,
+  "text": "testing is one value second one is end"
+ },
+ {
+  "start": 647.32,
+  "end": 649.91,
+  "text": "to end testing the other"
+ },
+ {
+  "start": 649.92,
+  "end": 654.31,
+  "text": "one end to end testing you need to make"
+ },
+ {
+  "start": 654.32,
+  "end": 657.269,
+  "text": "sure the exact name match here okay and"
+ },
+ {
+  "start": 657.279,
+  "end": 663.629,
+  "text": "then GUI testing"
+ },
+ {
+  "start": 673.67,
+  "end": 673.68,
+  "text": "exploratory testing see as soon as I"
+ },
+ {
+  "start": 673.68,
+  "end": 675.79,
+  "text": "enter you will get one more so that"
+ },
+ {
+  "start": 675.8,
+  "end": 678.79,
+  "text": "means you can repeat this attribute"
+ },
+ {
+  "start": 678.8,
+  "end": 683.55,
+  "text": "multiple times n number of times so here"
+ },
+ {
+  "start": 683.56,
+  "end": 687.389,
+  "text": "I am first selecting action mode for"
+ },
+ {
+  "start": 687.399,
+  "end": 692.15,
+  "text": "multi select is select that means I'm"
+ },
+ {
+  "start": 692.16,
+  "end": 695.389,
+  "text": "just instructing tasar"
+ },
+ {
+  "start": 695.399,
+  "end": 700.91,
+  "text": "to consider multi select and then select"
+ },
+ {
+  "start": 700.92,
+  "end": 704.269,
+  "text": "the functional testing list item for"
+ },
+ {
+  "start": 704.279,
+  "end": 708.15,
+  "text": "that I need to use input and then select"
+ },
+ {
+  "start": 708.16,
+  "end": 712.35,
+  "text": "end to endend testing and then select"
+ },
+ {
+  "start": 712.36,
+  "end": 717.87,
+  "text": "GUI testing and then select exploratory"
+ },
+ {
+  "start": 717.88,
+  "end": 720.069,
+  "text": "testing so"
+ },
+ {
+  "start": 720.079,
+  "end": 721.55,
+  "text": "this"
+ },
+ {
+  "start": 721.56,
+  "end": 724.59,
+  "text": "coordin is used to"
+ },
+ {
+  "start": 724.6,
+  "end": 729.55,
+  "text": "repeat the attribute or this particular"
+ },
+ {
+  "start": 729.56,
+  "end": 734.31,
+  "text": "object multiple times and then I'm using"
+ },
+ {
+  "start": 734.32,
+  "end": 739.189,
+  "text": "explicit name to rename the attribute so"
+ },
+ {
+  "start": 739.199,
+  "end": 744.23,
+  "text": "that it selects item specified here from"
+ },
+ {
+  "start": 744.24,
+  "end": 745.829,
+  "text": "the multi list"
+ },
+ {
+  "start": 745.839,
+  "end": 750.87,
+  "text": "box okay so now let's chain work state"
+ },
+ {
+  "start": 750.88,
+  "end": 755.629,
+  "text": "as completed and save your test case now"
+ },
+ {
+  "start": 755.639,
+  "end": 763.47,
+  "text": "let's run the test case and see how it"
+ },
+ {
+  "start": 775.59,
+  "end": 775.6,
+  "text": "scratchbook you solve this automation"
+ },
+ {
+  "start": 775.6,
+  "end": 780.03,
+  "text": "problem see here it selected four values"
+ },
+ {
+  "start": 780.04,
+  "end": 785.79,
+  "text": "that we entered as an explicit name for"
+ },
+ {
+  "start": 785.8,
+  "end": 789.79,
+  "text": "your object so you can see here our test"
+ },
+ {
+  "start": 789.8,
+  "end": 792.71,
+  "text": "case is passed so if you have any"
+ },
+ {
+  "start": 792.72,
+  "end": 795.069,
+  "text": "queries leave your queries in the"
+ },
+ {
+  "start": 795.079,
+  "end": 798.829,
+  "text": "comment box I'll try to respond to your"
+ },
+ {
+  "start": 798.839,
+  "end": 803.15,
+  "text": "queries hope you all understand how can"
+ },
+ {
+  "start": 803.16,
+  "end": 807.87,
+  "text": "we solve an obstacle where you need to"
+ },
+ {
+  "start": 807.88,
+  "end": 812.99,
+  "text": "select the multiple items from multi"
+ },
+ {
+  "start": 813.0,
+  "end": 817.43,
+  "text": "select list Box by using"
+ },
+ {
+  "start": 817.44,
+  "end": 822.23,
+  "text": "cardinality and explicit methods by"
+ },
+ {
+  "start": 822.24,
+  "end": 825.509,
+  "text": "using tricentis tasa while automating"
+ },
+ {
+  "start": 825.519,
+  "end": 826.629,
+  "text": "the test"
+ },
+ {
+  "start": 826.639,
+  "end": 830.11,
+  "text": "cases please do subscribe to the channel"
+ },
+ {
+  "start": 830.12,
+  "end": 831.949,
+  "text": "click on Bell icon you'll receive"
+ },
+ {
+  "start": 831.959,
+  "end": 834.67,
+  "text": "notifications whenever I publish more"
+ },
+ {
+  "start": 834.68,
+  "end": 837.79,
+  "text": "videos and don't forget to like and"
+ },
+ {
+  "start": 837.8,
+  "end": 847.83,
+  "text": "share the video thank you"
+ }
+]

@@ -1,0 +1,967 @@
+[
+ {
+  "start": 13.789,
+  "end": 13.799,
+  "text": "hi everyone this is Ravi welcome to"
+ },
+ {
+  "start": 13.799,
+  "end": 17.31,
+  "text": "price and tasa automation tutorial as"
+ },
+ {
+  "start": 17.32,
+  "end": 20.15,
+  "text": "you all know I've already published 38"
+ },
+ {
+  "start": 20.16,
+  "end": 22.55,
+  "text": "YouTube videos covering different"
+ },
+ {
+  "start": 22.56,
+  "end": 25.39,
+  "text": "concepts of TSA"
+ },
+ {
+  "start": 25.4,
+  "end": 29.429,
+  "text": "automation this is our lesson 39 in"
+ },
+ {
+  "start": 29.439,
+  "end": 31.589,
+  "text": "terms of overall task automation"
+ },
+ {
+  "start": 31.599,
+  "end": 35.59,
+  "text": "Concepts and this is our lesson"
+ },
+ {
+  "start": 35.6,
+  "end": 39.79,
+  "text": "24 in terms of advanced level Concepts"
+ },
+ {
+  "start": 39.8,
+  "end": 42.43,
+  "text": "so in this lesson I'm going to teach you"
+ },
+ {
+  "start": 42.44,
+  "end": 44.67,
+  "text": "more string operations this is our part"
+ },
+ {
+  "start": 44.68,
+  "end": 47.79,
+  "text": "two of string operation so here I'm"
+ },
+ {
+  "start": 47.8,
+  "end": 51.549,
+  "text": "going to teach you how can you convert"
+ },
+ {
+  "start": 51.559,
+  "end": 55.99,
+  "text": "the string from lowercase to uppercase"
+ },
+ {
+  "start": 56.0,
+  "end": 58.91,
+  "text": "and how can you convert the string from"
+ },
+ {
+  "start": 58.92,
+  "end": 62.029,
+  "text": "uppercase to lower case and also I'm"
+ },
+ {
+  "start": 62.039,
+  "end": 64.509,
+  "text": "going to teach you how can you perform"
+ },
+ {
+  "start": 64.519,
+  "end": 67.51,
+  "text": "number of occurrences operations while"
+ },
+ {
+  "start": 67.52,
+  "end": 70.31,
+  "text": "automating you web application and I'm"
+ },
+ {
+  "start": 70.32,
+  "end": 72.109,
+  "text": "also going to teach you how can you"
+ },
+ {
+  "start": 72.119,
+  "end": 75.429,
+  "text": "perform string length operation by using"
+ },
+ {
+  "start": 75.439,
+  "end": 76.83,
+  "text": "trient"
+ },
+ {
+  "start": 76.84,
+  "end": 80.23,
+  "text": "Tas so let us first understand what is"
+ },
+ {
+  "start": 80.24,
+  "end": 84.35,
+  "text": "string to lower so string to lower is an"
+ },
+ {
+  "start": 84.36,
+  "end": 87.469,
+  "text": "operation which converts uppercase"
+ },
+ {
+  "start": 87.479,
+  "end": 90.469,
+  "text": "characters in The String to the lower"
+ },
+ {
+  "start": 90.479,
+  "end": 91.71,
+  "text": "case"
+ },
+ {
+  "start": 91.72,
+  "end": 94.35,
+  "text": "characters and the next string operation"
+ },
+ {
+  "start": 94.36,
+  "end": 98.03,
+  "text": "is string to Upper which converts lower"
+ },
+ {
+  "start": 98.04,
+  "end": 100.389,
+  "text": "case characters in The String to"
+ },
+ {
+  "start": 100.399,
+  "end": 102.069,
+  "text": "uppercase"
+ },
+ {
+  "start": 102.079,
+  "end": 104.709,
+  "text": "characters and the next operation is"
+ },
+ {
+  "start": 104.719,
+  "end": 106.149,
+  "text": "number of"
+ },
+ {
+  "start": 106.159,
+  "end": 109.91,
+  "text": "occurrences so this operation counts all"
+ },
+ {
+  "start": 109.92,
+  "end": 113.23,
+  "text": "occurrences of the defined input or"
+ },
+ {
+  "start": 113.24,
+  "end": 116.069,
+  "text": "pattern in the"
+ },
+ {
+  "start": 116.079,
+  "end": 119.55,
+  "text": "string and string length it counts the"
+ },
+ {
+  "start": 119.56,
+  "end": 121.51,
+  "text": "number number of characters in The"
+ },
+ {
+  "start": 121.52,
+  "end": 124.069,
+  "text": "String so now let us jump onto the"
+ },
+ {
+  "start": 124.079,
+  "end": 126.389,
+  "text": "system and see how can we perform these"
+ },
+ {
+  "start": 126.399,
+  "end": 128.949,
+  "text": "operations by using trien"
+ },
+ {
+  "start": 128.959,
+  "end": 133.07,
+  "text": "tosa so now let us first create a folder"
+ },
+ {
+  "start": 133.08,
+  "end": 135.83,
+  "text": "I'm going to create a folder called"
+ },
+ {
+  "start": 135.84,
+  "end": 138.99,
+  "text": "string operations part two let me copy"
+ },
+ {
+  "start": 139.0,
+  "end": 141.03,
+  "text": "this folder"
+ },
+ {
+  "start": 141.04,
+  "end": 145.27,
+  "text": "name and then paste it here and rename"
+ },
+ {
+  "start": 145.28,
+  "end": 148.83,
+  "text": "this as part two and then I'm going to"
+ },
+ {
+  "start": 148.84,
+  "end": 150.79,
+  "text": "create one"
+ },
+ {
+  "start": 150.8,
+  "end": 153.589,
+  "text": "test case called"
+ },
+ {
+  "start": 153.599,
+  "end": 155.869,
+  "text": "string"
+ },
+ {
+  "start": 155.879,
+  "end": 159.39,
+  "text": "operation okay so first I'm going to"
+ },
+ {
+  "start": 159.4,
+  "end": 160.55,
+  "text": "call"
+ },
+ {
+  "start": 160.56,
+  "end": 164.79,
+  "text": "one module I'm going to add one module"
+ },
+ {
+  "start": 164.8,
+  "end": 169.83,
+  "text": "called set tbox buffer okay set buffer"
+ },
+ {
+  "start": 169.84,
+  "end": 174.83,
+  "text": "I'm going to call tbox set buffer and"
+ },
+ {
+  "start": 174.84,
+  "end": 178.229,
+  "text": "here I'm going to specify a buffer"
+ },
+ {
+  "start": 178.239,
+  "end": 181.509,
+  "text": "value let's say let's take a"
+ },
+ {
+  "start": 181.519,
+  "end": 185.789,
+  "text": "string to test this is my buffer name"
+ },
+ {
+  "start": 185.799,
+  "end": 187.71,
+  "text": "what is the string that I want to test"
+ },
+ {
+  "start": 187.72,
+  "end": 190.03,
+  "text": "is"
+ },
+ {
+  "start": 190.04,
+  "end": 192.11,
+  "text": "prentis"
+ },
+ {
+  "start": 192.12,
+  "end": 196.43,
+  "text": "tasa automation okay prentis tasa"
+ },
+ {
+  "start": 196.44,
+  "end": 200.39,
+  "text": "Automation and here"
+ },
+ {
+  "start": 200.4,
+  "end": 204.789,
+  "text": "now I want to First calculate the length"
+ },
+ {
+  "start": 204.799,
+  "end": 207.43,
+  "text": "of the string okay what I'm going to do"
+ },
+ {
+  "start": 207.44,
+  "end": 211.91,
+  "text": "I'm going to use another called length"
+ },
+ {
+  "start": 211.92,
+  "end": 215.35,
+  "text": "Okay this is my buffer I'm defining the"
+ },
+ {
+  "start": 215.36,
+  "end": 218.149,
+  "text": "buffer called length"
+ },
+ {
+  "start": 218.159,
+  "end": 222.509,
+  "text": "here I want to use this string to buffer"
+ },
+ {
+  "start": 222.519,
+  "end": 225.47,
+  "text": "value I'm storing this tent Tas"
+ },
+ {
+  "start": 225.48,
+  "end": 227.67,
+  "text": "automation string to a buffer called"
+ },
+ {
+  "start": 227.68,
+  "end": 228.509,
+  "text": "string"
+ },
+ {
+  "start": 228.519,
+  "end": 233.19,
+  "text": "to test correct so now I want to"
+ },
+ {
+  "start": 233.2,
+  "end": 237.19,
+  "text": "use a string length operation so if you"
+ },
+ {
+  "start": 237.2,
+  "end": 239.55,
+  "text": "see this is the string length operation"
+ },
+ {
+  "start": 239.56,
+  "end": 241.83,
+  "text": "right right"
+ },
+ {
+  "start": 241.84,
+  "end": 245.309,
+  "text": "and here I want to calculate the string"
+ },
+ {
+  "start": 245.319,
+  "end": 248.069,
+  "text": "length of what"
+ },
+ {
+  "start": 248.079,
+  "end": 251.55,
+  "text": "of"
+ },
+ {
+  "start": 256.71,
+  "end": 256.72,
+  "text": "buffer this one close Square braces"
+ },
+ {
+  "start": 256.72,
+  "end": 259.87,
+  "text": "close curly braces Square braces and"
+ },
+ {
+  "start": 259.88,
+  "end": 261.59,
+  "text": "curly braces let's see if this is"
+ },
+ {
+  "start": 261.6,
+  "end": 263.83,
+  "text": "correct yeah this is correct what I'm"
+ },
+ {
+  "start": 263.84,
+  "end": 267.43,
+  "text": "doing I'm using string length because I"
+ },
+ {
+  "start": 267.44,
+  "end": 270.31,
+  "text": "have stored the string called trient"
+ },
+ {
+  "start": 270.32,
+  "end": 272.909,
+  "text": "toask automation into your buffer string"
+ },
+ {
+  "start": 272.919,
+  "end": 275.909,
+  "text": "to test and now I want to see the length"
+ },
+ {
+  "start": 275.919,
+  "end": 280.189,
+  "text": "of this buffer value string length"
+ },
+ {
+  "start": 280.199,
+  "end": 283.39,
+  "text": "buffer string to length right so let me"
+ },
+ {
+  "start": 283.4,
+  "end": 285.83,
+  "text": "quickly run this and see if it works"
+ },
+ {
+  "start": 285.84,
+  "end": 287.55,
+  "text": "okay first let me run this and see if it"
+ },
+ {
+  "start": 287.56,
+  "end": 292.95,
+  "text": "works okay"
+ },
+ {
+  "start": 297.71,
+  "end": 297.72,
+  "text": "run so let's go here and see if it"
+ },
+ {
+  "start": 297.72,
+  "end": 301.35,
+  "text": "calculates the length of the string"
+ },
+ {
+  "start": 301.36,
+  "end": 304.31,
+  "text": "yes 26 that's correct it's calculating"
+ },
+ {
+  "start": 304.32,
+  "end": 306.189,
+  "text": "the length of the string okay including"
+ },
+ {
+  "start": 306.199,
+  "end": 309.39,
+  "text": "the spaces okay and then what is our"
+ },
+ {
+  "start": 309.4,
+  "end": 312.67,
+  "text": "next one next one is I'll do one thing"
+ },
+ {
+  "start": 312.68,
+  "end": 316.23,
+  "text": "I'm going to do upper"
+ },
+ {
+  "start": 316.24,
+  "end": 319.55,
+  "text": "case upper"
+ },
+ {
+  "start": 319.56,
+  "end": 323.07,
+  "text": "case so here I'm going to use string to"
+ },
+ {
+  "start": 323.08,
+  "end": 325.909,
+  "text": "upper case curly"
+ },
+ {
+  "start": 325.919,
+  "end": 327.469,
+  "text": "braces"
+ },
+ {
+  "start": 327.479,
+  "end": 333.67,
+  "text": "string to upper case see here string to"
+ },
+ {
+  "start": 333.68,
+  "end": 339.67,
+  "text": "Upper now again pass your"
+ },
+ {
+  "start": 339.68,
+  "end": 343.43,
+  "text": "buffer same buffer string to"
+ },
+ {
+  "start": 343.44,
+  "end": 347.629,
+  "text": "test close and"
+ },
+ {
+  "start": 347.639,
+  "end": 349.469,
+  "text": "close that's"
+ },
+ {
+  "start": 349.479,
+  "end": 354.67,
+  "text": "it yes so now it should convert this"
+ },
+ {
+  "start": 354.68,
+  "end": 358.309,
+  "text": "entire text into a uppercase so now let"
+ },
+ {
+  "start": 358.319,
+  "end": 360.95,
+  "text": "me create another buffer I'm going to"
+ },
+ {
+  "start": 360.96,
+  "end": 366.469,
+  "text": "store another buffer called"
+ },
+ {
+  "start": 370.309,
+  "end": 370.319,
+  "text": "lowercase and here again let's call the"
+ },
+ {
+  "start": 370.319,
+  "end": 374.23,
+  "text": "string operation string to lower right"
+ },
+ {
+  "start": 374.24,
+  "end": 377.99,
+  "text": "this is string to lower and"
+ },
+ {
+  "start": 378.0,
+  "end": 381.15,
+  "text": "here again I'm going to call the buffer"
+ },
+ {
+  "start": 381.16,
+  "end": 382.83,
+  "text": "same"
+ },
+ {
+  "start": 382.84,
+  "end": 385.029,
+  "text": "buffer"
+ },
+ {
+  "start": 385.039,
+  "end": 391.909,
+  "text": "here think we are missing okay here"
+ },
+ {
+  "start": 394.589,
+  "end": 394.599,
+  "text": "yes so done"
+ },
+ {
+  "start": 394.599,
+  "end": 398.189,
+  "text": "now after lower case I want to"
+ },
+ {
+  "start": 398.199,
+  "end": 401.95,
+  "text": "cover uh number of occurrences what I'm"
+ },
+ {
+  "start": 401.96,
+  "end": 403.71,
+  "text": "going to"
+ },
+ {
+  "start": 403.72,
+  "end": 405.79,
+  "text": "do I'm going"
+ },
+ {
+  "start": 405.8,
+  "end": 408.79,
+  "text": "to create"
+ },
+ {
+  "start": 408.8,
+  "end": 412.79,
+  "text": "another buffer called number of"
+ },
+ {
+  "start": 412.8,
+  "end": 416.71,
+  "text": "occurrences here let me call a new"
+ },
+ {
+  "start": 416.72,
+  "end": 420.43,
+  "text": "operation called number of occur"
+ },
+ {
+  "start": 420.44,
+  "end": 423.83,
+  "text": "occurrences number of occurrences of"
+ },
+ {
+  "start": 423.84,
+  "end": 425.79,
+  "text": "what"
+ },
+ {
+  "start": 425.8,
+  "end": 429.23,
+  "text": "of buffer same"
+ },
+ {
+  "start": 429.24,
+  "end": 431.27,
+  "text": "buffer"
+ },
+ {
+  "start": 431.28,
+  "end": 434.589,
+  "text": "okay but what is the pattern that you"
+ },
+ {
+  "start": 434.599,
+  "end": 437.35,
+  "text": "want to see let's say I want to see the"
+ },
+ {
+  "start": 437.36,
+  "end": 441.39,
+  "text": "pattern of T so the numeric portion"
+ },
+ {
+  "start": 441.4,
+  "end": 443.95,
+  "text": "called T how many times it"
+ },
+ {
+  "start": 443.96,
+  "end": 447.71,
+  "text": "is occurring so basically the t is"
+ },
+ {
+  "start": 447.72,
+  "end": 449.99,
+  "text": "occurred how many times in this"
+ },
+ {
+  "start": 450.0,
+  "end": 453.95,
+  "text": "particular string so here close Square"
+ },
+ {
+  "start": 453.96,
+  "end": 457.99,
+  "text": "braces now I need to specify"
+ },
+ {
+  "start": 458.0,
+  "end": 461.909,
+  "text": "P close curly braces so what what does"
+ },
+ {
+  "start": 461.919,
+  "end": 465.83,
+  "text": "it mean I am asking Tsar"
+ },
+ {
+  "start": 465.84,
+  "end": 469.07,
+  "text": "to calculate the number of occurrences"
+ },
+ {
+  "start": 469.08,
+  "end": 471.11,
+  "text": "of"
+ },
+ {
+  "start": 471.12,
+  "end": 474.39,
+  "text": "T in the value string to buffer that"
+ },
+ {
+  "start": 474.4,
+  "end": 477.67,
+  "text": "means this one number of occurrences so"
+ },
+ {
+  "start": 477.68,
+  "end": 480.07,
+  "text": "now let us run"
+ },
+ {
+  "start": 480.08,
+  "end": 482.43,
+  "text": "this particular test case and see what"
+ },
+ {
+  "start": 482.44,
+  "end": 490.589,
+  "text": "happens okay right click and"
+ },
+ {
+  "start": 495.83,
+  "end": 495.84,
+  "text": "run so now see the results okay first"
+ },
+ {
+  "start": 495.84,
+  "end": 499.39,
+  "text": "tricentis tasa automation is"
+ },
+ {
+  "start": 499.4,
+  "end": 502.589,
+  "text": "of length"
+ },
+ {
+  "start": 502.599,
+  "end": 506.189,
+  "text": "26 and see here tricentis tasa is"
+ },
+ {
+  "start": 506.199,
+  "end": 507.95,
+  "text": "converted to"
+ },
+ {
+  "start": 507.96,
+  "end": 510.83,
+  "text": "uppercase and then then the tricentis"
+ },
+ {
+  "start": 510.84,
+  "end": 514.63,
+  "text": "tasa is converted to lower case and then"
+ },
+ {
+  "start": 514.64,
+  "end": 516.909,
+  "text": "T how many times it is occurring only"
+ },
+ {
+  "start": 516.919,
+  "end": 523.949,
+  "text": "three times if you see 1 2 3 4 5 I see"
+ },
+ {
+  "start": 523.959,
+  "end": 527.63,
+  "text": "five times but we have specified the"
+ },
+ {
+  "start": 527.64,
+  "end": 531.11,
+  "text": "lower case if you see in this tasa we"
+ },
+ {
+  "start": 531.12,
+  "end": 532.91,
+  "text": "specified the lower case of T that's why"
+ },
+ {
+  "start": 532.92,
+  "end": 535.47,
+  "text": "it is calculating over only lower case"
+ },
+ {
+  "start": 535.48,
+  "end": 539.949,
+  "text": "1 2 3 correct so now now if I want to"
+ },
+ {
+  "start": 539.959,
+  "end": 541.79,
+  "text": "consider I don't want to consider the"
+ },
+ {
+  "start": 541.8,
+  "end": 547.55,
+  "text": "case simply you can ignore the case here"
+ },
+ {
+  "start": 547.56,
+  "end": 551.23,
+  "text": "open fa Braes close Square Braes and"
+ },
+ {
+  "start": 551.24,
+  "end": 554.069,
+  "text": "here specify it as"
+ },
+ {
+  "start": 554.079,
+  "end": 559.069,
+  "text": "ignore case so what it will do now it"
+ },
+ {
+  "start": 559.079,
+  "end": 561.59,
+  "text": "calculates the number of T's either it"
+ },
+ {
+  "start": 561.6,
+  "end": 564.99,
+  "text": "might be capital T or small T right so"
+ },
+ {
+  "start": 565.0,
+  "end": 567.509,
+  "text": "let me run this again and see now it"
+ },
+ {
+  "start": 567.519,
+  "end": 570.31,
+  "text": "should come as instead of three it"
+ },
+ {
+  "start": 570.32,
+  "end": 573.43,
+  "text": "should give"
+ },
+ {
+  "start": 576.59,
+  "end": 576.6,
+  "text": "five so here let's go"
+ },
+ {
+  "start": 576.6,
+  "end": 579.75,
+  "text": "here and expand"
+ },
+ {
+  "start": 579.76,
+  "end": 583.509,
+  "text": "this number of occurrences if you see"
+ },
+ {
+  "start": 583.519,
+  "end": 584.67,
+  "text": "five"
+ },
+ {
+  "start": 584.68,
+  "end": 588.79,
+  "text": "occurrences correct Capital 2 and small"
+ },
+ {
+  "start": 588.8,
+  "end": 589.79,
+  "text": "T is"
+ },
+ {
+  "start": 589.8,
+  "end": 591.43,
+  "text": "three"
+ },
+ {
+  "start": 591.44,
+  "end": 595.949,
+  "text": "right so hope you all understand how can"
+ },
+ {
+  "start": 595.959,
+  "end": 599.11,
+  "text": "you perform the different string of"
+ },
+ {
+  "start": 599.12,
+  "end": 602.47,
+  "text": "operations by using trienes Taska if you"
+ },
+ {
+  "start": 602.48,
+  "end": 603.99,
+  "text": "have any queries leave your queries in"
+ },
+ {
+  "start": 604.0,
+  "end": 605.829,
+  "text": "the comment box I'll try to respond to"
+ },
+ {
+  "start": 605.839,
+  "end": 607.389,
+  "text": "your"
+ },
+ {
+  "start": 607.399,
+  "end": 610.55,
+  "text": "queries so you all understand the"
+ },
+ {
+  "start": 610.56,
+  "end": 614.23,
+  "text": "concepts of different string operations"
+ },
+ {
+  "start": 614.24,
+  "end": 618.509,
+  "text": "that we cover as part of part two please"
+ },
+ {
+  "start": 618.519,
+  "end": 620.87,
+  "text": "do subscribe to the channel click on"
+ },
+ {
+  "start": 620.88,
+  "end": 623.23,
+  "text": "Bell icon you'll receive notifications"
+ },
+ {
+  "start": 623.24,
+  "end": 628.03,
+  "text": "whenever I publish more videos thank"
+ },
+ {
+  "start": 628.04,
+  "end": 636.28,
+  "text": "you"
+ }
+]

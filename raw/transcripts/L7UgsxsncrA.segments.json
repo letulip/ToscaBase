@@ -1,0 +1,2002 @@
+[
+ {
+  "start": 11.95,
+  "end": 11.96,
+  "text": "hi"
+ },
+ {
+  "start": 11.96,
+  "end": 15.629,
+  "text": "everyone this is Ravi welcome to trien"
+ },
+ {
+  "start": 15.639,
+  "end": 17.87,
+  "text": "tosa Advanced"
+ },
+ {
+  "start": 17.88,
+  "end": 21.67,
+  "text": "Training so this is our lesson 15 as"
+ },
+ {
+  "start": 21.68,
+  "end": 25.31,
+  "text": "part of Advanced Training or it is a"
+ },
+ {
+  "start": 25.32,
+  "end": 28.71,
+  "text": "lesson 30 as an overall trient TSA"
+ },
+ {
+  "start": 28.72,
+  "end": 30.55,
+  "text": "automation tutorial"
+ },
+ {
+  "start": 30.56,
+  "end": 32.83,
+  "text": "so in this lesson I'm going to talk"
+ },
+ {
+  "start": 32.84,
+  "end": 36.069,
+  "text": "about a very important concept called"
+ },
+ {
+  "start": 36.079,
+  "end": 40.91,
+  "text": "handling embedded controls inside the"
+ },
+ {
+  "start": 40.92,
+  "end": 44.43,
+  "text": "table cells okay so how can we handle"
+ },
+ {
+  "start": 44.44,
+  "end": 47.67,
+  "text": "the controls that are available in any"
+ },
+ {
+  "start": 47.68,
+  "end": 50.63,
+  "text": "kind of table or a web table within the"
+ },
+ {
+  "start": 50.64,
+  "end": 53.709,
+  "text": "page right so how can we handle while"
+ },
+ {
+  "start": 53.719,
+  "end": 55.79,
+  "text": "automating your test"
+ },
+ {
+  "start": 55.8,
+  "end": 58.549,
+  "text": "cases please do subscribe to the channel"
+ },
+ {
+  "start": 58.559,
+  "end": 60.11,
+  "text": "click on Bell icon you'll receive re"
+ },
+ {
+  "start": 60.12,
+  "end": 62.59,
+  "text": "notifications whenever I publish more"
+ },
+ {
+  "start": 62.6,
+  "end": 65.149,
+  "text": "videos so now let us jump onto the"
+ },
+ {
+  "start": 65.159,
+  "end": 67.55,
+  "text": "system and see how can we handle"
+ },
+ {
+  "start": 67.56,
+  "end": 70.95,
+  "text": "embedded controls in table cells okay so"
+ },
+ {
+  "start": 70.96,
+  "end": 74.749,
+  "text": "now let me go to my trien tasa right so"
+ },
+ {
+  "start": 74.759,
+  "end": 78.109,
+  "text": "this is my trient tasa so I want to"
+ },
+ {
+  "start": 78.119,
+  "end": 82.27,
+  "text": "create a new exercise called let me"
+ },
+ {
+  "start": 82.28,
+  "end": 84.59,
+  "text": "create a new"
+ },
+ {
+  "start": 84.6,
+  "end": 88.83,
+  "text": "exercise I'll name this as"
+ },
+ {
+  "start": 88.84,
+  "end": 93.87,
+  "text": "handling"
+ },
+ {
+  "start": 97.35,
+  "end": 97.36,
+  "text": "embedded controls"
+ },
+ {
+  "start": 97.36,
+  "end": 102.63,
+  "text": "in table okay so now first before we"
+ },
+ {
+  "start": 102.64,
+  "end": 105.23,
+  "text": "start automating a test case let us"
+ },
+ {
+  "start": 105.24,
+  "end": 107.789,
+  "text": "first understand what test case are we"
+ },
+ {
+  "start": 107.799,
+  "end": 110.95,
+  "text": "going to automate okay so as you all"
+ },
+ {
+  "start": 110.96,
+  "end": 114.59,
+  "text": "know we'll be moving to our web shop"
+ },
+ {
+  "start": 114.6,
+  "end": 117.109,
+  "text": "demo webshop provided by tric centers"
+ },
+ {
+  "start": 117.119,
+  "end": 119.67,
+  "text": "okay as we are doing in all the classes"
+ },
+ {
+  "start": 119.68,
+  "end": 122.029,
+  "text": "okay okay so now let us navigate to"
+ },
+ {
+  "start": 122.039,
+  "end": 125.95,
+  "text": "shopping cart okay under shopping cart"
+ },
+ {
+  "start": 125.96,
+  "end": 129.55,
+  "text": "if I want to update the shopping cart by"
+ },
+ {
+  "start": 129.56,
+  "end": 132.83,
+  "text": "remove removing one of the item from the"
+ },
+ {
+  "start": 132.84,
+  "end": 135.83,
+  "text": "shopping cart how can we do that check"
+ },
+ {
+  "start": 135.84,
+  "end": 138.589,
+  "text": "the checkbox under remove column right"
+ },
+ {
+  "start": 138.599,
+  "end": 141.27,
+  "text": "you have a remove checkbox and then"
+ },
+ {
+  "start": 141.28,
+  "end": 145.07,
+  "text": "click on update shopping cart correct so"
+ },
+ {
+  "start": 145.08,
+  "end": 147.99,
+  "text": "now whatever the checkbox that we are"
+ },
+ {
+  "start": 148.0,
+  "end": 150.589,
+  "text": "seeing here right this is actually part"
+ },
+ {
+  "start": 150.599,
+  "end": 154.83,
+  "text": "of a web table it's a table under table"
+ },
+ {
+  "start": 154.84,
+  "end": 157.309,
+  "text": "called shopping cart table we have a"
+ },
+ {
+  "start": 157.319,
+  "end": 160.47,
+  "text": "column called remove under remove column"
+ },
+ {
+  "start": 160.48,
+  "end": 163.149,
+  "text": "you have a checkboxes under products"
+ },
+ {
+  "start": 163.159,
+  "end": 164.869,
+  "text": "column you have all the products that"
+ },
+ {
+  "start": 164.879,
+  "end": 167.27,
+  "text": "you added under price column you have"
+ },
+ {
+  "start": 167.28,
+  "end": 170.149,
+  "text": "price of each product and quantity of"
+ },
+ {
+  "start": 170.159,
+  "end": 172.79,
+  "text": "each product and total of your each"
+ },
+ {
+  "start": 172.8,
+  "end": 177.03,
+  "text": "product so now if I want to steer the"
+ },
+ {
+  "start": 177.04,
+  "end": 179.91,
+  "text": "control that is inside the table which"
+ },
+ {
+  "start": 179.92,
+  "end": 183.75,
+  "text": "is remove checkbox how can we do that"
+ },
+ {
+  "start": 183.76,
+  "end": 186.55,
+  "text": "okay so now for that let me just jump"
+ },
+ {
+  "start": 186.56,
+  "end": 191.07,
+  "text": "onto my trient toar and here let us go"
+ },
+ {
+  "start": 191.08,
+  "end": 194.589,
+  "text": "to modules okay this is my module right"
+ },
+ {
+  "start": 194.599,
+  "end": 198.949,
+  "text": "I want to scan the web table okay let us"
+ },
+ {
+  "start": 198.959,
+  "end": 202.03,
+  "text": "click on scan and click on"
+ },
+ {
+  "start": 202.04,
+  "end": 205.19,
+  "text": "application so what I'm going to do so I"
+ },
+ {
+  "start": 205.2,
+  "end": 208.75,
+  "text": "want to scan the control within the"
+ },
+ {
+  "start": 208.76,
+  "end": 212.789,
+  "text": "table right so remove checkbox so let me"
+ },
+ {
+  "start": 212.799,
+  "end": 216.589,
+  "text": "do that okay so here I want to scan this"
+ },
+ {
+  "start": 216.599,
+  "end": 218.63,
+  "text": "this is my application I want to scan"
+ },
+ {
+  "start": 218.64,
+  "end": 223.149,
+  "text": "click on"
+ },
+ {
+  "start": 225.75,
+  "end": 225.76,
+  "text": "scan and"
+ },
+ {
+  "start": 225.76,
+  "end": 229.99,
+  "text": "now okay so now let me select select on"
+ },
+ {
+  "start": 230.0,
+  "end": 233.47,
+  "text": "screen option okay select on screen if I"
+ },
+ {
+  "start": 233.48,
+  "end": 236.03,
+  "text": "select this checkbox okay this is my"
+ },
+ {
+  "start": 236.04,
+  "end": 238.75,
+  "text": "checkbox okay select this checkbox as"
+ },
+ {
+  "start": 238.76,
+  "end": 240.229,
+  "text": "soon as you select this"
+ },
+ {
+  "start": 240.239,
+  "end": 244.589,
+  "text": "checkbox I want to unselect this now let"
+ },
+ {
+  "start": 244.599,
+  "end": 248.429,
+  "text": "us see more controls by clicking on the"
+ },
+ {
+  "start": 248.439,
+  "end": 251.03,
+  "text": "filters to the towards right side okay"
+ },
+ {
+  "start": 251.04,
+  "end": 253.03,
+  "text": "let's click on this towards right side"
+ },
+ {
+  "start": 253.04,
+  "end": 255.309,
+  "text": "if you see here closely if You observe"
+ },
+ {
+  "start": 255.319,
+  "end": 258.87,
+  "text": "closely let me expand this this remove"
+ },
+ {
+  "start": 258.88,
+  "end": 262.15,
+  "text": "checkbox is under table called this one"
+ },
+ {
+  "start": 262.16,
+  "end": 264.79,
+  "text": "right so that's why I want to add the"
+ },
+ {
+  "start": 264.8,
+  "end": 267.27,
+  "text": "table also select"
+ },
+ {
+  "start": 267.28,
+  "end": 271.11,
+  "text": "this and now I want to re name this"
+ },
+ {
+  "start": 271.12,
+  "end": 274.95,
+  "text": "as"
+ },
+ {
+  "start": 282.99,
+  "end": 283.0,
+  "text": "cart table okay but if you see your web"
+ },
+ {
+  "start": 283.0,
+  "end": 285.749,
+  "text": "table is not uniquely identified so you"
+ },
+ {
+  "start": 285.759,
+  "end": 287.51,
+  "text": "need to make sure your web table is"
+ },
+ {
+  "start": 287.52,
+  "end": 290.189,
+  "text": "uniquely identified okay for that I'm"
+ },
+ {
+  "start": 290.199,
+  "end": 292.35,
+  "text": "going to Simply click on make"
+ },
+ {
+  "start": 292.36,
+  "end": 295.749,
+  "text": "unique so now you can see the orange"
+ },
+ {
+  "start": 295.759,
+  "end": 297.629,
+  "text": "color is disappeared that means your web"
+ },
+ {
+  "start": 297.639,
+  "end": 300.79,
+  "text": "table is now uniquely identified"
+ },
+ {
+  "start": 300.8,
+  "end": 302.83,
+  "text": "what about this one this is your"
+ },
+ {
+  "start": 302.84,
+  "end": 305.99,
+  "text": "checkbox if you see I have multiple"
+ },
+ {
+  "start": 306.0,
+  "end": 308.11,
+  "text": "check boxes here is one checkbox let me"
+ },
+ {
+  "start": 308.12,
+  "end": 311.79,
+  "text": "go further okay let me go further if you"
+ },
+ {
+  "start": 311.8,
+  "end": 312.95,
+  "text": "see observe"
+ },
+ {
+  "start": 312.96,
+  "end": 316.029,
+  "text": "closely these check boxes are"
+ },
+ {
+  "start": 316.039,
+  "end": 319.87,
+  "text": "under table row if you see TR first row"
+ },
+ {
+  "start": 319.88,
+  "end": 324.43,
+  "text": "has this checkbox product price total"
+ },
+ {
+  "start": 324.44,
+  "end": 327.309,
+  "text": "second row again it has a checkbox"
+ },
+ {
+  "start": 327.319,
+  "end": 330.15,
+  "text": "product total everything right so it's"
+ },
+ {
+  "start": 330.16,
+  "end": 333.83,
+  "text": "basically the row of tables correct so"
+ },
+ {
+  "start": 333.84,
+  "end": 337.07,
+  "text": "now you have a duplicates that's why the"
+ },
+ {
+  "start": 337.08,
+  "end": 340.27,
+  "text": "checkbox is not uniquely identified that"
+ },
+ {
+  "start": 340.28,
+  "end": 343.189,
+  "text": "is okay I just want to keep moving okay"
+ },
+ {
+  "start": 343.199,
+  "end": 346.39,
+  "text": "I'm going to name this as"
+ },
+ {
+  "start": 346.4,
+  "end": 349.909,
+  "text": "remove checkbox okay I'm name naming"
+ },
+ {
+  "start": 349.919,
+  "end": 351.27,
+  "text": "this as remove checkbox and this"
+ },
+ {
+  "start": 351.28,
+  "end": 354.029,
+  "text": "checkbox is not uniquely identified why"
+ },
+ {
+  "start": 354.039,
+  "end": 355.71,
+  "text": "let's go and see"
+ },
+ {
+  "start": 355.72,
+  "end": 358.11,
+  "text": "here how this checkbox is getting"
+ },
+ {
+  "start": 358.12,
+  "end": 360.87,
+  "text": "identified by using"
+ },
+ {
+  "start": 360.88,
+  "end": 364.59,
+  "text": "name called remove from cot and the tag"
+ },
+ {
+  "start": 364.6,
+  "end": 366.95,
+  "text": "called input okay let me take a snip of"
+ },
+ {
+  "start": 366.96,
+  "end": 368.629,
+  "text": "this one okay I want to just take snip"
+ },
+ {
+  "start": 368.639,
+  "end": 371.469,
+  "text": "of this one so that I can use this in"
+ },
+ {
+  "start": 371.479,
+  "end": 374.95,
+  "text": "further session okay let's take a snip"
+ },
+ {
+  "start": 374.96,
+  "end": 378.39,
+  "text": "okay I want to just take a snip so your"
+ },
+ {
+  "start": 378.4,
+  "end": 381.83,
+  "text": "remove checkbox is uniquely identified"
+ },
+ {
+  "start": 381.84,
+  "end": 385.27,
+  "text": "by using name and tag okay I just took"
+ },
+ {
+  "start": 385.28,
+  "end": 387.029,
+  "text": "the screenshot of that okay let's keep"
+ },
+ {
+  "start": 387.039,
+  "end": 391.43,
+  "text": "like that okay so now I want to add"
+ },
+ {
+  "start": 391.44,
+  "end": 394.83,
+  "text": "these two controls web table and your"
+ },
+ {
+  "start": 394.84,
+  "end": 396.71,
+  "text": "remove one of the remove checkbox even"
+ },
+ {
+  "start": 396.72,
+  "end": 398.309,
+  "text": "though it is not unic identified okay"
+ },
+ {
+  "start": 398.319,
+  "end": 402.83,
+  "text": "let's save this I'm saving it and let's"
+ },
+ {
+  "start": 402.84,
+  "end": 405.95,
+  "text": "close this okay so now let us go back to"
+ },
+ {
+  "start": 405.96,
+  "end": 409.07,
+  "text": "trient tasa so this is the new module"
+ },
+ {
+  "start": 409.08,
+  "end": 411.39,
+  "text": "that we added just now okay this is the"
+ },
+ {
+  "start": 411.4,
+  "end": 415.15,
+  "text": "new module that we added okay so now I"
+ },
+ {
+  "start": 415.16,
+  "end": 418.43,
+  "text": "want to create a test case now what"
+ },
+ {
+  "start": 418.44,
+  "end": 420.99,
+  "text": "empty shopping card C text test case I"
+ },
+ {
+  "start": 421.0,
+  "end": 423.55,
+  "text": "want to empty this shopping cart by"
+ },
+ {
+  "start": 423.56,
+  "end": 425.869,
+  "text": "checking each item and click on update"
+ },
+ {
+  "start": 425.879,
+  "end": 428.15,
+  "text": "shopping card check this item update the"
+ },
+ {
+  "start": 428.16,
+  "end": 430.83,
+  "text": "shopping cart correct to handle this"
+ },
+ {
+  "start": 430.84,
+  "end": 433.11,
+  "text": "update shopping cart button is"
+ },
+ {
+  "start": 433.12,
+  "end": 437.79,
+  "text": "outside outside your web table but these"
+ },
+ {
+  "start": 437.8,
+  "end": 440.309,
+  "text": "checkboxes are inside the table correct"
+ },
+ {
+  "start": 440.319,
+  "end": 442.629,
+  "text": "so let's go back here let me create one"
+ },
+ {
+  "start": 442.639,
+  "end": 446.749,
+  "text": "new test case called empty shopping"
+ },
+ {
+  "start": 446.759,
+  "end": 448.309,
+  "text": "cart"
+ },
+ {
+  "start": 448.319,
+  "end": 450.909,
+  "text": "empty"
+ },
+ {
+  "start": 450.919,
+  "end": 456.189,
+  "text": "shopping card okay so now I want to drag"
+ },
+ {
+  "start": 456.199,
+  "end": 458.83,
+  "text": "and drop the shopping card just now we"
+ },
+ {
+  "start": 458.84,
+  "end": 462.15,
+  "text": "scanned okay drag this and drop"
+ },
+ {
+  "start": 462.16,
+  "end": 465.749,
+  "text": "here so now let's just minimize this"
+ },
+ {
+  "start": 465.759,
+  "end": 468.55,
+  "text": "modules little bit and let us focus on"
+ },
+ {
+  "start": 468.56,
+  "end": 472.43,
+  "text": "test case now okay so if you see here"
+ },
+ {
+  "start": 472.44,
+  "end": 474.55,
+  "text": "now your web table is"
+ },
+ {
+  "start": 474.56,
+  "end": 477.83,
+  "text": "available okay and the web table"
+ },
+ {
+  "start": 477.84,
+  "end": 481.99,
+  "text": "shopping cart is having a row and a cell"
+ },
+ {
+  "start": 482.0,
+  "end": 484.469,
+  "text": "and this has a column and a cell but if"
+ },
+ {
+  "start": 484.479,
+  "end": 487.51,
+  "text": "you see remove checkboxes outside the"
+ },
+ {
+  "start": 487.52,
+  "end": 490.39,
+  "text": "table the outside the table now let us"
+ },
+ {
+  "start": 490.4,
+  "end": 492.149,
+  "text": "say I want to directly check this"
+ },
+ {
+  "start": 492.159,
+  "end": 494.55,
+  "text": "checkbox we'll see what happens okay"
+ },
+ {
+  "start": 494.56,
+  "end": 497.55,
+  "text": "just true to check the checkbox you need"
+ },
+ {
+  "start": 497.56,
+  "end": 499.39,
+  "text": "to select either true or false if you"
+ },
+ {
+  "start": 499.4,
+  "end": 500.629,
+  "text": "select true that means it's going to"
+ },
+ {
+  "start": 500.639,
+  "end": 503.83,
+  "text": "check the checkbox okay I selected true"
+ },
+ {
+  "start": 503.84,
+  "end": 508.11,
+  "text": "now if I run the test case now okay it"
+ },
+ {
+  "start": 508.12,
+  "end": 511.629,
+  "text": "it is going to fail let see why because"
+ },
+ {
+  "start": 511.639,
+  "end": 514.949,
+  "text": "the remove checkbox is not uniquely"
+ },
+ {
+  "start": 514.959,
+  "end": 517.55,
+  "text": "identified because you have a two remove"
+ },
+ {
+  "start": 517.56,
+  "end": 520.79,
+  "text": "checkboxes with a name and ID or tag the"
+ },
+ {
+  "start": 520.8,
+  "end": 523.87,
+  "text": "name and tag are same for both of them"
+ },
+ {
+  "start": 523.88,
+  "end": 526.35,
+  "text": "now tasa will identify more than one"
+ },
+ {
+  "start": 526.36,
+  "end": 530.11,
+  "text": "control here more than one checkbox so"
+ },
+ {
+  "start": 530.12,
+  "end": 532.07,
+  "text": "that's why the test case is going to"
+ },
+ {
+  "start": 532.08,
+  "end": 536.87,
+  "text": "fail let's see what happens"
+ },
+ {
+  "start": 539.71,
+  "end": 539.72,
+  "text": "now so it is failed let's let's see the"
+ },
+ {
+  "start": 539.72,
+  "end": 543.35,
+  "text": "result it's it should say tasa"
+ },
+ {
+  "start": 543.36,
+  "end": 545.829,
+  "text": "identified more than one control right"
+ },
+ {
+  "start": 545.839,
+  "end": 550.79,
+  "text": "let's go here and see here it says C it"
+ },
+ {
+  "start": 550.8,
+  "end": 554.31,
+  "text": "says more than one control found for"
+ },
+ {
+  "start": 554.32,
+  "end": 557.389,
+  "text": "Action remove check box so now how can"
+ },
+ {
+  "start": 557.399,
+  "end": 560.87,
+  "text": "we handle this so now the way how can we"
+ },
+ {
+  "start": 560.88,
+  "end": 563.79,
+  "text": "handle is we need to"
+ },
+ {
+  "start": 563.8,
+  "end": 567.35,
+  "text": "somehow tie our"
+ },
+ {
+  "start": 567.36,
+  "end": 570.63,
+  "text": "checkbox to the particular row let's"
+ },
+ {
+  "start": 570.64,
+  "end": 574.269,
+  "text": "assume if I'm able to tie the checkbox"
+ },
+ {
+  "start": 574.279,
+  "end": 578.269,
+  "text": "for a particular row so my first row has"
+ },
+ {
+  "start": 578.279,
+  "end": 581.31,
+  "text": "this checkbox first I need to identify"
+ },
+ {
+  "start": 581.32,
+  "end": 585.67,
+  "text": "the row uniquely and from that row I can"
+ },
+ {
+  "start": 585.68,
+  "end": 588.63,
+  "text": "check the checkbox in the same way I"
+ },
+ {
+  "start": 588.64,
+  "end": 591.15,
+  "text": "need to identify a row uniquely second"
+ },
+ {
+  "start": 591.16,
+  "end": 594.71,
+  "text": "row and then you can check the check I"
+ },
+ {
+  "start": 594.72,
+  "end": 596.55,
+  "text": "mean you can check the check box under"
+ },
+ {
+  "start": 596.56,
+  "end": 599.509,
+  "text": "second row right so that means we need"
+ },
+ {
+  "start": 599.519,
+  "end": 603.23,
+  "text": "to tie this remove checkbox to the"
+ },
+ {
+  "start": 603.24,
+  "end": 607.43,
+  "text": "corresponding row cell either your first"
+ },
+ {
+  "start": 607.44,
+  "end": 609.71,
+  "text": "row cell or is it second row cell that's"
+ },
+ {
+  "start": 609.72,
+  "end": 612.31,
+  "text": "how you can uniquely identify so now how"
+ },
+ {
+  "start": 612.32,
+  "end": 614.829,
+  "text": "can we do that it's very easy okay so"
+ },
+ {
+  "start": 614.839,
+  "end": 616.75,
+  "text": "how what we going to do let's go back to"
+ },
+ {
+  "start": 616.76,
+  "end": 618.91,
+  "text": "our module again okay let's go back to"
+ },
+ {
+  "start": 618.92,
+  "end": 622.389,
+  "text": "modules again now if you see I want to"
+ },
+ {
+  "start": 622.399,
+  "end": 626.47,
+  "text": "tie this remove checkbox to the row of"
+ },
+ {
+  "start": 626.48,
+  "end": 631.269,
+  "text": "cell how simply drag drag this and drop"
+ },
+ {
+  "start": 631.279,
+  "end": 633.87,
+  "text": "onto the row"
+ },
+ {
+  "start": 633.88,
+  "end": 638.15,
+  "text": "cell so now you see your remove checkbox"
+ },
+ {
+  "start": 638.16,
+  "end": 643.75,
+  "text": "is tied to a cell under particular row"
+ },
+ {
+  "start": 643.76,
+  "end": 646.629,
+  "text": "right under a row basically within the"
+ },
+ {
+  "start": 646.639,
+  "end": 650.11,
+  "text": "web table see now you have a row you"
+ },
+ {
+  "start": 650.12,
+  "end": 653.509,
+  "text": "have a column under row under one of the"
+ },
+ {
+  "start": 653.519,
+  "end": 656.59,
+  "text": "cell you have remove checkbox now it's"
+ },
+ {
+  "start": 656.6,
+  "end": 660.629,
+  "text": "our duty to identify a unique row now"
+ },
+ {
+  "start": 660.639,
+  "end": 663.79,
+  "text": "okay so what we are going to do here now"
+ },
+ {
+  "start": 663.8,
+  "end": 667.67,
+  "text": "I want to steer a row that means I want"
+ },
+ {
+  "start": 667.68,
+  "end": 671.47,
+  "text": "to handle I want to steer a control"
+ },
+ {
+  "start": 671.48,
+  "end": 674.35,
+  "text": "which is checkbox under Row one so"
+ },
+ {
+  "start": 674.36,
+  "end": 676.949,
+  "text": "that's why what I'm going to do for row"
+ },
+ {
+  "start": 676.959,
+  "end": 679.47,
+  "text": "I'm going to select dollar one which"
+ },
+ {
+  "start": 679.48,
+  "end": 682.19,
+  "text": "represents your first row of the table"
+ },
+ {
+  "start": 682.2,
+  "end": 683.47,
+  "text": "excluding the"
+ },
+ {
+  "start": 683.48,
+  "end": 686.75,
+  "text": "headers and now what is the column I"
+ },
+ {
+  "start": 686.76,
+  "end": 689.11,
+  "text": "want to select the column remove I want"
+ },
+ {
+  "start": 689.12,
+  "end": 693.15,
+  "text": "select let's select the column"
+ },
+ {
+  "start": 693.16,
+  "end": 696.79,
+  "text": "remove okay so now if you see under"
+ },
+ {
+  "start": 696.8,
+  "end": 700.509,
+  "text": "colum remove we already added a checkbox"
+ },
+ {
+  "start": 700.519,
+  "end": 705.87,
+  "text": "called remove checkbox so now let us"
+ },
+ {
+  "start": 705.88,
+  "end": 709.23,
+  "text": "select it as true in this"
+ },
+ {
+  "start": 709.24,
+  "end": 711.03,
+  "text": "case so"
+ },
+ {
+  "start": 711.04,
+  "end": 713.75,
+  "text": "now you are able to"
+ },
+ {
+  "start": 713.76,
+  "end": 717.949,
+  "text": "identify a specific row and then once"
+ },
+ {
+  "start": 717.959,
+  "end": 720.59,
+  "text": "you identify the unique row now you are"
+ },
+ {
+  "start": 720.6,
+  "end": 725.11,
+  "text": "steering your remove checkbox correctly"
+ },
+ {
+  "start": 725.12,
+  "end": 728.069,
+  "text": "now here my column I'm not asking to"
+ },
+ {
+  "start": 728.079,
+  "end": 730.15,
+  "text": "verify it actually I want to select the"
+ },
+ {
+  "start": 730.16,
+  "end": 733.15,
+  "text": "column right so you need to select the"
+ },
+ {
+  "start": 733.16,
+  "end": 736.99,
+  "text": "column now if you run this test case"
+ },
+ {
+  "start": 737.0,
+  "end": 738.87,
+  "text": "okay this one is already we removed"
+ },
+ {
+  "start": 738.88,
+  "end": 740.87,
+  "text": "because if you see"
+ },
+ {
+  "start": 740.88,
+  "end": 744.55,
+  "text": "here we moved our shopping cart remove"
+ },
+ {
+  "start": 744.56,
+  "end": 747.269,
+  "text": "checkbox from here to here that's why"
+ },
+ {
+  "start": 747.279,
+  "end": 750.389,
+  "text": "test case is showing as error so let me"
+ },
+ {
+  "start": 750.399,
+  "end": 753.31,
+  "text": "delete this now okay because your remove"
+ },
+ {
+  "start": 753.32,
+  "end": 755.629,
+  "text": "checkbox is not outside the table remove"
+ },
+ {
+  "start": 755.639,
+  "end": 758.47,
+  "text": "checkbox is within the table see here"
+ },
+ {
+  "start": 758.48,
+  "end": 759.75,
+  "text": "first"
+ },
+ {
+  "start": 759.76,
+  "end": 762.23,
+  "text": "row and your remove checkbox and"
+ },
+ {
+  "start": 762.24,
+  "end": 765.15,
+  "text": "everything now let us run this now okay"
+ },
+ {
+  "start": 765.16,
+  "end": 767.269,
+  "text": "what it should do when I run this it"
+ },
+ {
+  "start": 767.279,
+  "end": 770.87,
+  "text": "should check my first checkbox checkbox"
+ },
+ {
+  "start": 770.88,
+  "end": 773.949,
+  "text": "which is under Row one okay simply right"
+ },
+ {
+  "start": 773.959,
+  "end": 776.269,
+  "text": "click and"
+ },
+ {
+  "start": 776.279,
+  "end": 779.91,
+  "text": "run right click and run"
+ },
+ {
+  "start": 779.92,
+  "end": 783.35,
+  "text": "so if you see here now it should be able"
+ },
+ {
+  "start": 783.36,
+  "end": 786.43,
+  "text": "to identify your checkbox even though"
+ },
+ {
+  "start": 786.44,
+  "end": 788.67,
+  "text": "your checkbox is not uniquely identified"
+ },
+ {
+  "start": 788.68,
+  "end": 791.509,
+  "text": "because we are arriving to the unique"
+ },
+ {
+  "start": 791.519,
+  "end": 796.23,
+  "text": "row see it's got checked now that means"
+ },
+ {
+  "start": 796.24,
+  "end": 798.87,
+  "text": "we are uniquely identifying the row and"
+ },
+ {
+  "start": 798.88,
+  "end": 801.949,
+  "text": "then the corresponding checkbox okay"
+ },
+ {
+  "start": 801.959,
+  "end": 803.87,
+  "text": "that means we are able to tie our"
+ },
+ {
+  "start": 803.88,
+  "end": 806.67,
+  "text": "checkbox to particular row right row of"
+ },
+ {
+  "start": 806.68,
+  "end": 810.189,
+  "text": "the cell so if you see here"
+ },
+ {
+  "start": 810.199,
+  "end": 813.189,
+  "text": "successfully checked your"
+ },
+ {
+  "start": 813.199,
+  "end": 816.069,
+  "text": "checkbox correct so"
+ },
+ {
+  "start": 816.079,
+  "end": 820.71,
+  "text": "now let me do one more thing what if"
+ },
+ {
+  "start": 820.72,
+  "end": 823.03,
+  "text": "your checkbox is not"
+ },
+ {
+  "start": 823.04,
+  "end": 825.509,
+  "text": "scanned let's say I want to remove this"
+ },
+ {
+  "start": 825.519,
+  "end": 827.829,
+  "text": "checkbox now okay from here let's remove"
+ },
+ {
+  "start": 827.839,
+  "end": 831.23,
+  "text": "the checkbox totally so oh before you"
+ },
+ {
+  "start": 831.24,
+  "end": 834.389,
+  "text": "remove the checkbox I want to delete"
+ },
+ {
+  "start": 834.399,
+  "end": 836.59,
+  "text": "this particular test case okay let me"
+ },
+ {
+  "start": 836.6,
+  "end": 838.35,
+  "text": "delete the test case okay let's delete"
+ },
+ {
+  "start": 838.36,
+  "end": 841.189,
+  "text": "the test case case and now remove your"
+ },
+ {
+  "start": 841.199,
+  "end": 844.749,
+  "text": "checkbox okay delete your checkbox now"
+ },
+ {
+  "start": 844.759,
+  "end": 846.47,
+  "text": "what we have currently we have only"
+ },
+ {
+  "start": 846.48,
+  "end": 849.91,
+  "text": "shopping cart we only scanned shopping"
+ },
+ {
+  "start": 849.92,
+  "end": 852.67,
+  "text": "cart corresponding row and column so we"
+ },
+ {
+  "start": 852.68,
+  "end": 855.509,
+  "text": "have not scanned your remove checkbox"
+ },
+ {
+  "start": 855.519,
+  "end": 860.15,
+  "text": "right so how can you achieve same"
+ },
+ {
+  "start": 860.16,
+  "end": 862.15,
+  "text": "function how can you steer remove"
+ },
+ {
+  "start": 862.16,
+  "end": 865.069,
+  "text": "checkbox without scanning so there is a"
+ },
+ {
+  "start": 865.079,
+  "end": 868.749,
+  "text": "way okay so all you need to do is so if"
+ },
+ {
+  "start": 868.759,
+  "end": 871.31,
+  "text": "see let me bring the module here okay"
+ },
+ {
+  "start": 871.32,
+  "end": 873.389,
+  "text": "let me bring the module to the full"
+ },
+ {
+  "start": 873.399,
+  "end": 875.829,
+  "text": "screen what I'm going to do you need to"
+ },
+ {
+  "start": 875.839,
+  "end": 878.71,
+  "text": "right click on the cell where you want"
+ },
+ {
+  "start": 878.72,
+  "end": 884.31,
+  "text": "to add the control okay here under row"
+ },
+ {
+  "start": 884.32,
+  "end": 888.509,
+  "text": "cell I want to add one technical okay I"
+ },
+ {
+  "start": 888.519,
+  "end": 892.23,
+  "text": "want to add checkbox control create"
+ },
+ {
+  "start": 892.24,
+  "end": 895.509,
+  "text": "embedded checkbox control just create"
+ },
+ {
+  "start": 895.519,
+  "end": 897.91,
+  "text": "embedded checkbox control okay now I"
+ },
+ {
+  "start": 897.92,
+  "end": 900.509,
+  "text": "have created a embedded checkbox control"
+ },
+ {
+  "start": 900.519,
+  "end": 905.629,
+  "text": "and rename this as"
+ },
+ {
+  "start": 909.59,
+  "end": 909.6,
+  "text": "remove checkbox remove checkbox okay so"
+ },
+ {
+  "start": 909.6,
+  "end": 914.91,
+  "text": "I renamed it now under remove checkbox"
+ },
+ {
+  "start": 914.92,
+  "end": 918.55,
+  "text": "now it is mandatory to know your"
+ },
+ {
+  "start": 918.56,
+  "end": 920.43,
+  "text": "technical information of your remove"
+ },
+ {
+  "start": 920.44,
+  "end": 922.15,
+  "text": "checkbox what is the technical"
+ },
+ {
+  "start": 922.16,
+  "end": 925.389,
+  "text": "information the remove checkbox has a"
+ },
+ {
+  "start": 925.399,
+  "end": 927.389,
+  "text": "technical property called name remove"
+ },
+ {
+  "start": 927.399,
+  "end": 929.35,
+  "text": "from cart and and there is another"
+ },
+ {
+  "start": 929.36,
+  "end": 931.59,
+  "text": "technical property called tag input okay"
+ },
+ {
+  "start": 931.6,
+  "end": 933.47,
+  "text": "let us create those technical properties"
+ },
+ {
+  "start": 933.48,
+  "end": 936.309,
+  "text": "manually what I'm going to do let's"
+ },
+ {
+  "start": 936.319,
+  "end": 938.87,
+  "text": "expand this so if you see here these are"
+ },
+ {
+  "start": 938.88,
+  "end": 940.35,
+  "text": "all the my"
+ },
+ {
+  "start": 940.36,
+  "end": 942.71,
+  "text": "properties right click on remove"
+ },
+ {
+  "start": 942.72,
+  "end": 945.99,
+  "text": "checkbox and expand this create"
+ },
+ {
+  "start": 946.0,
+  "end": 947.99,
+  "text": "technical ID"
+ },
+ {
+  "start": 948.0,
+  "end": 952.269,
+  "text": "parameter I'm going to name this as name"
+ },
+ {
+  "start": 952.279,
+  "end": 954.749,
+  "text": "property it's name property right let's"
+ },
+ {
+  "start": 954.759,
+  "end": 957.71,
+  "text": "see here let us see it's a name property"
+ },
+ {
+  "start": 957.72,
+  "end": 960.55,
+  "text": "what is the property value remove from"
+ },
+ {
+  "start": 960.56,
+  "end": 964.829,
+  "text": "cot I'm going to Simply write remove"
+ },
+ {
+  "start": 964.839,
+  "end": 968.67,
+  "text": "from cot done what is another technical"
+ },
+ {
+  "start": 968.68,
+  "end": 973.35,
+  "text": "property which is tag value input okay"
+ },
+ {
+  "start": 973.36,
+  "end": 976.629,
+  "text": "let's add"
+ },
+ {
+  "start": 976.639,
+  "end": 979.43,
+  "text": "tag another technical"
+ },
+ {
+  "start": 979.44,
+  "end": 984.949,
+  "text": "property called tag and the value is"
+ },
+ {
+  "start": 984.959,
+  "end": 989.069,
+  "text": "capital input okay so now"
+ },
+ {
+  "start": 989.079,
+  "end": 992.749,
+  "text": "I'm able to add the control without"
+ },
+ {
+  "start": 992.759,
+  "end": 995.99,
+  "text": "scanning okay let's go back here now"
+ },
+ {
+  "start": 996.0,
+  "end": 997.91,
+  "text": "let's go back here now let's pull the"
+ },
+ {
+  "start": 997.92,
+  "end": 1000.269,
+  "text": "module again to"
+ },
+ {
+  "start": 1000.279,
+  "end": 1004.55,
+  "text": "aside okay so let's go to test case so"
+ },
+ {
+  "start": 1004.56,
+  "end": 1005.79,
+  "text": "if you see"
+ },
+ {
+  "start": 1005.8,
+  "end": 1012.23,
+  "text": "here now I can simply drag this and drop"
+ },
+ {
+  "start": 1012.24,
+  "end": 1015.629,
+  "text": "here okay so now"
+ },
+ {
+  "start": 1015.639,
+  "end": 1021.11,
+  "text": "again let me select my row again Row"
+ },
+ {
+  "start": 1021.12,
+  "end": 1023.79,
+  "text": "one we are performing the same thing"
+ },
+ {
+  "start": 1023.8,
+  "end": 1026.71,
+  "text": "okay you are selecting your row select"
+ },
+ {
+  "start": 1026.72,
+  "end": 1030.069,
+  "text": "action mode and here let me select"
+ },
+ {
+  "start": 1030.079,
+  "end": 1034.35,
+  "text": "remove column under remove column I want"
+ },
+ {
+  "start": 1034.36,
+  "end": 1038.63,
+  "text": "to select but not verify select and here"
+ },
+ {
+  "start": 1038.64,
+  "end": 1040.029,
+  "text": "this is my"
+ },
+ {
+  "start": 1040.039,
+  "end": 1044.309,
+  "text": "checkbox you can just simply type"
+ },
+ {
+  "start": 1044.319,
+  "end": 1048.909,
+  "text": "true okay and this is input save this"
+ },
+ {
+  "start": 1048.919,
+  "end": 1052.669,
+  "text": "now okay now let us run"
+ },
+ {
+  "start": 1052.679,
+  "end": 1055.39,
+  "text": "this okay let us run this now what"
+ },
+ {
+  "start": 1055.4,
+  "end": 1058.83,
+  "text": "happens we'll see right click"
+ },
+ {
+  "start": 1058.84,
+  "end": 1062.43,
+  "text": "run so basically this time we have not"
+ },
+ {
+  "start": 1062.44,
+  "end": 1065.11,
+  "text": "scanned the control instead we have"
+ },
+ {
+  "start": 1065.12,
+  "end": 1068.789,
+  "text": "created the control okay and we have"
+ },
+ {
+  "start": 1068.799,
+  "end": 1072.23,
+  "text": "defined our technical properties see"
+ },
+ {
+  "start": 1072.24,
+  "end": 1076.75,
+  "text": "it's successful so now one more quick"
+ },
+ {
+  "start": 1076.76,
+  "end": 1079.19,
+  "text": "update I want to give you okay"
+ },
+ {
+  "start": 1079.2,
+  "end": 1082.39,
+  "text": "okay so we defined all the properties"
+ },
+ {
+  "start": 1082.4,
+  "end": 1084.43,
+  "text": "manually and now you are able to steer"
+ },
+ {
+  "start": 1084.44,
+  "end": 1088.39,
+  "text": "the control correct but but if You"
+ },
+ {
+  "start": 1088.4,
+  "end": 1090.909,
+  "text": "observe closely here in the"
+ },
+ {
+  "start": 1090.919,
+  "end": 1095.669,
+  "text": "table we have checkbox control only one"
+ },
+ {
+  "start": 1095.679,
+  "end": 1097.83,
+  "text": "checkbox control right you don't have"
+ },
+ {
+  "start": 1097.84,
+  "end": 1100.39,
+  "text": "for a particular row you have only one"
+ },
+ {
+  "start": 1100.4,
+  "end": 1102.87,
+  "text": "checkbox do am I finding any other"
+ },
+ {
+  "start": 1102.88,
+  "end": 1106.23,
+  "text": "checkboxes in any other cells no I have"
+ },
+ {
+  "start": 1106.24,
+  "end": 1109.35,
+  "text": "only one checkbox for every each and row"
+ },
+ {
+  "start": 1109.36,
+  "end": 1112.51,
+  "text": "so that means I need not to define the"
+ },
+ {
+  "start": 1112.52,
+  "end": 1114.87,
+  "text": "properties at all technical properties"
+ },
+ {
+  "start": 1114.88,
+  "end": 1117.59,
+  "text": "at all so what I'm going to do I'm going"
+ },
+ {
+  "start": 1117.6,
+  "end": 1120.39,
+  "text": "to remove this one delete the technical"
+ },
+ {
+  "start": 1120.4,
+  "end": 1122.87,
+  "text": "property name delete the technical"
+ },
+ {
+  "start": 1122.88,
+  "end": 1128.19,
+  "text": "property tag and save this because my"
+ },
+ {
+  "start": 1128.2,
+  "end": 1131.789,
+  "text": "business Type R control type is checkbox"
+ },
+ {
+  "start": 1131.799,
+  "end": 1134.87,
+  "text": "and I have only one checkbox control"
+ },
+ {
+  "start": 1134.88,
+  "end": 1138.31,
+  "text": "type for each row so that's why I need"
+ },
+ {
+  "start": 1138.32,
+  "end": 1140.63,
+  "text": "mean not to Define technical properties"
+ },
+ {
+  "start": 1140.64,
+  "end": 1142.99,
+  "text": "if you have multiple checkboxes within"
+ },
+ {
+  "start": 1143.0,
+  "end": 1146.59,
+  "text": "the row you need to Define let's see"
+ },
+ {
+  "start": 1146.6,
+  "end": 1149.11,
+  "text": "when I remove the technical properties"
+ },
+ {
+  "start": 1149.12,
+  "end": 1151.95,
+  "text": "can I run this now we removed the"
+ },
+ {
+  "start": 1151.96,
+  "end": 1154.35,
+  "text": "technical properties we save now this"
+ },
+ {
+  "start": 1154.36,
+  "end": 1156.149,
+  "text": "remove checkbox does not have your"
+ },
+ {
+  "start": 1156.159,
+  "end": 1158.789,
+  "text": "technical properties now okay let me run"
+ },
+ {
+  "start": 1158.799,
+  "end": 1160.549,
+  "text": "this simply this time what I'm going to"
+ },
+ {
+  "start": 1160.559,
+  "end": 1163.95,
+  "text": "do I'm going to specify row number two"
+ },
+ {
+  "start": 1163.96,
+  "end": 1166.07,
+  "text": "that means I'm asking to check the row"
+ },
+ {
+  "start": 1166.08,
+  "end": 1168.95,
+  "text": "number two okay simply right click and"
+ },
+ {
+  "start": 1168.96,
+  "end": 1170.149,
+  "text": "run"
+ },
+ {
+  "start": 1170.159,
+  "end": 1173.35,
+  "text": "now so I'm running this now without the"
+ },
+ {
+  "start": 1173.36,
+  "end": 1175.549,
+  "text": "technical properties of your remove"
+ },
+ {
+  "start": 1175.559,
+  "end": 1177.789,
+  "text": "checkbox because you have only one"
+ },
+ {
+  "start": 1177.799,
+  "end": 1180.31,
+  "text": "checkbox within the"
+ },
+ {
+  "start": 1180.32,
+  "end": 1184.27,
+  "text": "row see now without your technical"
+ },
+ {
+  "start": 1184.28,
+  "end": 1186.11,
+  "text": "properties also you are able to check"
+ },
+ {
+  "start": 1186.12,
+  "end": 1190.35,
+  "text": "the checkbox right so hope you all"
+ },
+ {
+  "start": 1190.36,
+  "end": 1192.63,
+  "text": "understand it is really very very"
+ },
+ {
+  "start": 1192.64,
+  "end": 1195.909,
+  "text": "important concept guys how can you steer"
+ },
+ {
+  "start": 1195.919,
+  "end": 1198.83,
+  "text": "the controls within the table"
+ },
+ {
+  "start": 1198.84,
+  "end": 1201.35,
+  "text": "you can steer the control here edit box"
+ },
+ {
+  "start": 1201.36,
+  "end": 1203.59,
+  "text": "right whatever the way we steer the"
+ },
+ {
+  "start": 1203.6,
+  "end": 1206.19,
+  "text": "control of checkbox you can also steer"
+ },
+ {
+  "start": 1206.2,
+  "end": 1209.51,
+  "text": "the control of edit boxes right hope you"
+ },
+ {
+  "start": 1209.52,
+  "end": 1211.95,
+  "text": "all understand the different ways of"
+ },
+ {
+  "start": 1211.96,
+  "end": 1217.71,
+  "text": "handling controls of your row cell"
+ },
+ {
+  "start": 1217.72,
+  "end": 1219.51,
+  "text": "controls that are available in"
+ },
+ {
+  "start": 1219.52,
+  "end": 1222.27,
+  "text": "particular row under a particular cell"
+ },
+ {
+  "start": 1222.28,
+  "end": 1223.669,
+  "text": "so if you have any queries leave your"
+ },
+ {
+  "start": 1223.679,
+  "end": 1225.11,
+  "text": "queries in the comment box I'll try to"
+ },
+ {
+  "start": 1225.12,
+  "end": 1227.669,
+  "text": "respond to your queries please do"
+ },
+ {
+  "start": 1227.679,
+  "end": 1229.23,
+  "text": "subscribe to the channel click on Bell"
+ },
+ {
+  "start": 1229.24,
+  "end": 1230.83,
+  "text": "icon you'll receive notifications"
+ },
+ {
+  "start": 1230.84,
+  "end": 1240.93,
+  "text": "whenever I publish more videos thank"
+ },
+ {
+  "start": 1242.919,
+  "end": 1245.919,
+  "text": "you"
+ }
+]

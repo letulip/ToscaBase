@@ -1,0 +1,987 @@
+[
+ {
+  "start": 14.03,
+  "end": 14.04,
+  "text": "hi everyone this is Ravi welcome to"
+ },
+ {
+  "start": 14.04,
+  "end": 17.75,
+  "text": "trienes tasa automation tutorial as you"
+ },
+ {
+  "start": 17.76,
+  "end": 20.83,
+  "text": "all know I already published 68 YouTube"
+ },
+ {
+  "start": 20.84,
+  "end": 23.67,
+  "text": "videos covering beginners level"
+ },
+ {
+  "start": 23.68,
+  "end": 26.83,
+  "text": "intermediate level and advanced level"
+ },
+ {
+  "start": 26.84,
+  "end": 31.669,
+  "text": "concepts of automation by using BST TSA"
+ },
+ {
+  "start": 31.679,
+  "end": 34.43,
+  "text": "from few videos onwards I have started"
+ },
+ {
+  "start": 34.44,
+  "end": 37.27,
+  "text": "teaching you the realtime scenarios"
+ },
+ {
+  "start": 37.28,
+  "end": 40.15,
+  "text": "where you might encounter different"
+ },
+ {
+  "start": 40.16,
+  "end": 43.549,
+  "text": "types of obstacles and how can we"
+ },
+ {
+  "start": 43.559,
+  "end": 45.51,
+  "text": "mitigate those obstacles while"
+ },
+ {
+  "start": 45.52,
+  "end": 49.31,
+  "text": "automating the test cases please do"
+ },
+ {
+  "start": 49.32,
+  "end": 51.069,
+  "text": "subscribe to the channel click on Bell"
+ },
+ {
+  "start": 51.079,
+  "end": 53.029,
+  "text": "icon you'll receive notifications"
+ },
+ {
+  "start": 53.039,
+  "end": 56.189,
+  "text": "whenever I publish more videos don't"
+ },
+ {
+  "start": 56.199,
+  "end": 59.709,
+  "text": "forget to like and share the video thank"
+ },
+ {
+  "start": 59.719,
+  "end": 61.31,
+  "text": "you"
+ },
+ {
+  "start": 61.32,
+  "end": 65.07,
+  "text": "this is our lesson 69 in terms of"
+ },
+ {
+  "start": 65.08,
+  "end": 67.83,
+  "text": "overall tricentis Taska training and"
+ },
+ {
+  "start": 67.84,
+  "end": 72.31,
+  "text": "this is abstral 27 in terms of realtime"
+ },
+ {
+  "start": 72.32,
+  "end": 74.789,
+  "text": "scenarios in this lesson I'm going to"
+ },
+ {
+  "start": 74.799,
+  "end": 77.87,
+  "text": "teach you how can we solve an"
+ },
+ {
+  "start": 77.88,
+  "end": 81.109,
+  "text": "obstacle where you need to interact with"
+ },
+ {
+  "start": 81.119,
+  "end": 84.27,
+  "text": "an object like edit Box by using"
+ },
+ {
+  "start": 84.28,
+  "end": 87.23,
+  "text": "steering parameter and the scrolling"
+ },
+ {
+  "start": 87.24,
+  "end": 90.31,
+  "text": "Behavior techniques so now let us see in"
+ },
+ {
+  "start": 90.32,
+  "end": 92.389,
+  "text": "detail what is the obstacle that we are"
+ },
+ {
+  "start": 92.399,
+  "end": 93.63,
+  "text": "going to solve"
+ },
+ {
+  "start": 93.64,
+  "end": 96.749,
+  "text": "for so this is the obstacle list that we"
+ },
+ {
+  "start": 96.759,
+  "end": 100.35,
+  "text": "have started working on from few lessons"
+ },
+ {
+  "start": 100.36,
+  "end": 103.83,
+  "text": "onwards so in today's lesson we going to"
+ },
+ {
+  "start": 103.84,
+  "end": 108.069,
+  "text": "start working on scroll into view"
+ },
+ {
+  "start": 108.079,
+  "end": 111.95,
+  "text": "obstacle which is categorized as medium"
+ },
+ {
+  "start": 111.96,
+  "end": 114.63,
+  "text": "let's go for"
+ },
+ {
+  "start": 114.64,
+  "end": 118.95,
+  "text": "it so here you can see the obstacle"
+ },
+ {
+  "start": 118.96,
+  "end": 120.63,
+  "text": "enter toss"
+ },
+ {
+  "start": 120.64,
+  "end": 125.069,
+  "text": "into the text box then submit text"
+ },
+ {
+  "start": 125.079,
+  "end": 129.669,
+  "text": "appears once text box is out of visible"
+ },
+ {
+  "start": 129.679,
+  "end": 134.63,
+  "text": "area so you can see here now it is not"
+ },
+ {
+  "start": 134.64,
+  "end": 135.63,
+  "text": "very"
+ },
+ {
+  "start": 135.64,
+  "end": 139.67,
+  "text": "straightforward text box to enter the"
+ },
+ {
+  "start": 139.68,
+  "end": 143.67,
+  "text": "value what we need to do is so this edit"
+ },
+ {
+  "start": 143.68,
+  "end": 149.39,
+  "text": "box is blocked by an i frame okay if I"
+ },
+ {
+  "start": 149.4,
+  "end": 153.99,
+  "text": "scroll scroll down to the bottom now I"
+ },
+ {
+  "start": 154.0,
+  "end": 158.79,
+  "text": "can access this edit box if I"
+ },
+ {
+  "start": 158.8,
+  "end": 164.309,
+  "text": "enter the text as TSA in edit box and"
+ },
+ {
+  "start": 164.319,
+  "end": 167.589,
+  "text": "submit it that means you solve the"
+ },
+ {
+  "start": 167.599,
+  "end": 169.55,
+  "text": "automation problem"
+ },
+ {
+  "start": 169.56,
+  "end": 171.71,
+  "text": "successfully so"
+ },
+ {
+  "start": 171.72,
+  "end": 174.91,
+  "text": "basically you cannot enter the value"
+ },
+ {
+  "start": 174.92,
+  "end": 177.83,
+  "text": "directly into this edit box so this edit"
+ },
+ {
+  "start": 177.84,
+  "end": 180.35,
+  "text": "box is being blocked"
+ },
+ {
+  "start": 180.36,
+  "end": 184.67,
+  "text": "by another object so to enter the"
+ },
+ {
+  "start": 184.68,
+  "end": 186.949,
+  "text": "information into the edit box you need"
+ },
+ {
+  "start": 186.959,
+  "end": 192.11,
+  "text": "to scroll down to see the text box and"
+ },
+ {
+  "start": 192.12,
+  "end": 196.229,
+  "text": "then enter the text task so this is the"
+ },
+ {
+  "start": 196.239,
+  "end": 198.47,
+  "text": "problem that we need to solve so now let"
+ },
+ {
+  "start": 198.48,
+  "end": 200.43,
+  "text": "us jump onto the"
+ },
+ {
+  "start": 200.44,
+  "end": 204.03,
+  "text": "prenta and start automating the test"
+ },
+ {
+  "start": 204.04,
+  "end": 207.789,
+  "text": "case so as usual in module section we"
+ },
+ {
+  "start": 207.799,
+  "end": 209.75,
+  "text": "are storing all the objects that are"
+ },
+ {
+  "start": 209.76,
+  "end": 214.91,
+  "text": "required to solve the obstacles so here"
+ },
+ {
+  "start": 214.92,
+  "end": 217.83,
+  "text": "we going to scan the objects that are"
+ },
+ {
+  "start": 217.84,
+  "end": 220.949,
+  "text": "required to automate today's obstacle"
+ },
+ {
+  "start": 220.959,
+  "end": 223.11,
+  "text": "what we need to do right click on this"
+ },
+ {
+  "start": 223.12,
+  "end": 225.949,
+  "text": "obstacles folder select"
+ },
+ {
+  "start": 225.959,
+  "end": 230.83,
+  "text": "scan"
+ },
+ {
+  "start": 233.55,
+  "end": 233.56,
+  "text": "application so this is the application"
+ },
+ {
+  "start": 233.56,
+  "end": 236.27,
+  "text": "that we would like to scan so I'm going"
+ },
+ {
+  "start": 236.28,
+  "end": 249.069,
+  "text": "to click on scan"
+ },
+ {
+  "start": 252.27,
+  "end": 252.28,
+  "text": "so here you can see I have a text"
+ },
+ {
+  "start": 252.28,
+  "end": 256.749,
+  "text": "field where we'll be entering the tasa"
+ },
+ {
+  "start": 256.759,
+  "end": 259.27,
+  "text": "as a text select this"
+ },
+ {
+  "start": 259.28,
+  "end": 263.83,
+  "text": "one and also I have another object"
+ },
+ {
+  "start": 263.84,
+  "end": 267.189,
+  "text": "called submit button which I need to"
+ },
+ {
+  "start": 267.199,
+  "end": 270.35,
+  "text": "click on where I'll be"
+ },
+ {
+  "start": 270.36,
+  "end": 273.59,
+  "text": "submitting the text that I have entered"
+ },
+ {
+  "start": 273.6,
+  "end": 276.39,
+  "text": "so if You observe closely see this text"
+ },
+ {
+  "start": 276.4,
+  "end": 279.51,
+  "text": "field is"
+ },
+ {
+  "start": 279.52,
+  "end": 282.59,
+  "text": "under HTML document basically this is"
+ },
+ {
+  "start": 282.6,
+  "end": 283.51,
+  "text": "under"
+ },
+ {
+  "start": 283.52,
+  "end": 287.39,
+  "text": "iframe and then HTML document under HTML"
+ },
+ {
+  "start": 287.4,
+  "end": 289.43,
+  "text": "document you have a text field that's"
+ },
+ {
+  "start": 289.44,
+  "end": 293.11,
+  "text": "why this text field is actually blocking"
+ },
+ {
+  "start": 293.12,
+  "end": 297.07,
+  "text": "by another object as well by an another"
+ },
+ {
+  "start": 297.08,
+  "end": 300.51,
+  "text": "object okay so now let us"
+ },
+ {
+  "start": 300.52,
+  "end": 305.629,
+  "text": "rename this module with the obstacle"
+ },
+ {
+  "start": 307.629,
+  "end": 307.639,
+  "text": "name"
+ },
+ {
+  "start": 307.639,
+  "end": 311.51,
+  "text": "copy and then rename this module"
+ },
+ {
+  "start": 311.52,
+  "end": 313.59,
+  "text": "renaming the module is very important so"
+ },
+ {
+  "start": 313.6,
+  "end": 315.55,
+  "text": "I'm renaming the module with the"
+ },
+ {
+  "start": 315.56,
+  "end": 322.39,
+  "text": "obstacle name and now save the"
+ },
+ {
+  "start": 326.23,
+  "end": 326.24,
+  "text": "module and then close your X scan so let"
+ },
+ {
+  "start": 326.24,
+  "end": 329.71,
+  "text": "us go back to our trient tasa now if you"
+ },
+ {
+  "start": 329.72,
+  "end": 332.99,
+  "text": "scroll down so this is the one that we"
+ },
+ {
+  "start": 333.0,
+  "end": 335.469,
+  "text": "have scanned just now"
+ },
+ {
+  "start": 335.479,
+  "end": 338.029,
+  "text": "obstacles double click on this so now"
+ },
+ {
+  "start": 338.039,
+  "end": 340.87,
+  "text": "you can see there is a submit button and"
+ },
+ {
+  "start": 340.88,
+  "end": 345.67,
+  "text": "there is a text field now let us create"
+ },
+ {
+  "start": 345.68,
+  "end": 348.629,
+  "text": "a new test case so that we can automate"
+ },
+ {
+  "start": 348.639,
+  "end": 351.67,
+  "text": "the test case come to the come to the"
+ },
+ {
+  "start": 351.68,
+  "end": 354.189,
+  "text": "left side of the blue section which is"
+ },
+ {
+  "start": 354.199,
+  "end": 356.51,
+  "text": "test case section right click on this"
+ },
+ {
+  "start": 356.52,
+  "end": 360.23,
+  "text": "obstacles folder and then select create"
+ },
+ {
+  "start": 360.24,
+  "end": 363.629,
+  "text": "test case and name this as with the same"
+ },
+ {
+  "start": 363.639,
+  "end": 364.95,
+  "text": "obstacle"
+ },
+ {
+  "start": 364.96,
+  "end": 368.589,
+  "text": "name now double click on this so to"
+ },
+ {
+  "start": 368.599,
+  "end": 370.27,
+  "text": "automate the scenario that I have"
+ },
+ {
+  "start": 370.28,
+  "end": 374.23,
+  "text": "explained you right you have to first"
+ },
+ {
+  "start": 374.24,
+  "end": 377.589,
+  "text": "scroll down and then enter the text so"
+ },
+ {
+  "start": 377.599,
+  "end": 380.589,
+  "text": "to perform scrolling operation we have"
+ },
+ {
+  "start": 380.599,
+  "end": 385.51,
+  "text": "to do some modification to our object"
+ },
+ {
+  "start": 385.52,
+  "end": 388.71,
+  "text": "properties what we are going to do come"
+ },
+ {
+  "start": 388.72,
+  "end": 390.309,
+  "text": "to text field"
+ },
+ {
+  "start": 390.319,
+  "end": 393.629,
+  "text": "for text field you have to open the"
+ },
+ {
+  "start": 393.639,
+  "end": 396.67,
+  "text": "properties by clicking on by clicking on"
+ },
+ {
+  "start": 396.68,
+  "end": 399.55,
+  "text": "this Arrow Mark okay open the properties"
+ },
+ {
+  "start": 399.56,
+  "end": 402.469,
+  "text": "so what we need to do we need to"
+ },
+ {
+  "start": 402.479,
+  "end": 407.15,
+  "text": "add a property to the text field"
+ },
+ {
+  "start": 407.16,
+  "end": 409.35,
+  "text": "scrolling Behavior property what is that"
+ },
+ {
+  "start": 409.36,
+  "end": 412.629,
+  "text": "property steering parameter property so"
+ },
+ {
+  "start": 412.639,
+  "end": 414.35,
+  "text": "if you see here these are all the"
+ },
+ {
+  "start": 414.36,
+  "end": 417.189,
+  "text": "properties of this text field now I"
+ },
+ {
+  "start": 417.199,
+  "end": 419.589,
+  "text": "would like to add a steering parameter"
+ },
+ {
+  "start": 419.599,
+  "end": 421.95,
+  "text": "what is that right click on this text"
+ },
+ {
+  "start": 421.96,
+  "end": 424.629,
+  "text": "field and this is your steering"
+ },
+ {
+  "start": 424.639,
+  "end": 427.11,
+  "text": "parameter create steering"
+ },
+ {
+  "start": 427.12,
+  "end": 431.629,
+  "text": "parameter select this now you need to"
+ },
+ {
+  "start": 431.639,
+  "end": 435.589,
+  "text": "now you need to rename this as scrolling"
+ },
+ {
+  "start": 435.599,
+  "end": 437.869,
+  "text": "Behavior"
+ },
+ {
+  "start": 437.879,
+  "end": 439.51,
+  "text": "scrolling"
+ },
+ {
+  "start": 439.52,
+  "end": 442.67,
+  "text": "Behavior the spelling should be same you"
+ },
+ {
+  "start": 442.68,
+  "end": 444.95,
+  "text": "should have capital S capital B and"
+ },
+ {
+  "start": 444.96,
+  "end": 449.11,
+  "text": "there is no space scrolling behavior and"
+ },
+ {
+  "start": 449.12,
+  "end": 452.51,
+  "text": "this scrolling Behavior we can provide"
+ },
+ {
+  "start": 452.52,
+  "end": 457.629,
+  "text": "four different values one is top bottom"
+ },
+ {
+  "start": 457.639,
+  "end": 463.27,
+  "text": "center or none okay in our case to get"
+ },
+ {
+  "start": 463.28,
+  "end": 465.909,
+  "text": "our text box to the"
+ },
+ {
+  "start": 465.919,
+  "end": 471.11,
+  "text": "focus our text box should be at the top"
+ },
+ {
+  "start": 471.12,
+  "end": 474.67,
+  "text": "so that means your scrolling behavior of"
+ },
+ {
+  "start": 474.68,
+  "end": 478.149,
+  "text": "this text field should be top so what"
+ },
+ {
+  "start": 478.159,
+  "end": 479.589,
+  "text": "I'm going to do here I'm going to"
+ },
+ {
+  "start": 479.599,
+  "end": 481.869,
+  "text": "specify it as"
+ },
+ {
+  "start": 481.879,
+  "end": 487.149,
+  "text": "top scrolling Behavior top now save the"
+ },
+ {
+  "start": 487.159,
+  "end": 490.55,
+  "text": "changes so now let us start automating"
+ },
+ {
+  "start": 490.56,
+  "end": 493.43,
+  "text": "the test case so this is my test case to"
+ },
+ {
+  "start": 493.44,
+  "end": 495.83,
+  "text": "automate the test case you need to drag"
+ },
+ {
+  "start": 495.84,
+  "end": 499.309,
+  "text": "and drop the module onto the test"
+ },
+ {
+  "start": 499.319,
+  "end": 501.029,
+  "text": "case"
+ },
+ {
+  "start": 501.039,
+  "end": 503.79,
+  "text": "now first what we need to do we need to"
+ },
+ {
+  "start": 503.8,
+  "end": 507.27,
+  "text": "enter the value to the text field so I'm"
+ },
+ {
+  "start": 507.28,
+  "end": 511.029,
+  "text": "going to enter a value as"
+ },
+ {
+  "start": 511.039,
+  "end": 514.35,
+  "text": "tasar as we already provided the"
+ },
+ {
+  "start": 514.36,
+  "end": 517.75,
+  "text": "steering parameter as stop now you need"
+ },
+ {
+  "start": 517.76,
+  "end": 520.31,
+  "text": "need not to perform any scrolling"
+ },
+ {
+  "start": 520.32,
+  "end": 524.269,
+  "text": "operation okay so that is important and"
+ },
+ {
+  "start": 524.279,
+  "end": 527.389,
+  "text": "now again I would like to drag this and"
+ },
+ {
+  "start": 527.399,
+  "end": 529.71,
+  "text": "drop here onto the test"
+ },
+ {
+  "start": 529.72,
+  "end": 533.59,
+  "text": "case and here I would like to click on"
+ },
+ {
+  "start": 533.6,
+  "end": 535.43,
+  "text": "submit"
+ },
+ {
+  "start": 535.44,
+  "end": 539.069,
+  "text": "button so let me so let me rename these"
+ },
+ {
+  "start": 539.079,
+  "end": 543.47,
+  "text": "steps I'm going to rename this as enter"
+ },
+ {
+  "start": 543.48,
+  "end": 546.23,
+  "text": "text and"
+ },
+ {
+  "start": 546.24,
+  "end": 548.55,
+  "text": "this"
+ },
+ {
+  "start": 548.56,
+  "end": 550.15,
+  "text": "click"
+ },
+ {
+  "start": 550.16,
+  "end": 554.15,
+  "text": "submit right now save your test"
+ },
+ {
+  "start": 554.16,
+  "end": 561.23,
+  "text": "case and let us Mark the test case as"
+ },
+ {
+  "start": 563.99,
+  "end": 564.0,
+  "text": "completed now let's run the test case"
+ },
+ {
+  "start": 564.0,
+  "end": 566.59,
+  "text": "and see how it works before that I would"
+ },
+ {
+  "start": 566.6,
+  "end": 569.91,
+  "text": "like to just click on try again"
+ },
+ {
+  "start": 569.92,
+  "end": 572.67,
+  "text": "so that application state will be ready"
+ },
+ {
+  "start": 572.68,
+  "end": 575.63,
+  "text": "for execution ready for"
+ },
+ {
+  "start": 575.64,
+  "end": 579.269,
+  "text": "execution now let's right click and run"
+ },
+ {
+  "start": 579.279,
+  "end": 588.269,
+  "text": "the test case in"
+ },
+ {
+  "start": 591.069,
+  "end": 591.079,
+  "text": "scratchbook see it entered the text you"
+ },
+ {
+  "start": 591.079,
+  "end": 594.269,
+  "text": "can see here it scroll down as well as"
+ },
+ {
+  "start": 594.279,
+  "end": 597.43,
+  "text": "it entered see here it performed the"
+ },
+ {
+  "start": 597.44,
+  "end": 599.79,
+  "text": "scroll down how it is performing scroll"
+ },
+ {
+  "start": 599.8,
+  "end": 603.19,
+  "text": "down by using the scrolling Behavior top"
+ },
+ {
+  "start": 603.2,
+  "end": 605.79,
+  "text": "so the edit box moved to the top and"
+ },
+ {
+  "start": 605.8,
+  "end": 609.11,
+  "text": "then it entered the text so this is how"
+ },
+ {
+  "start": 609.12,
+  "end": 611.91,
+  "text": "you can solve an"
+ },
+ {
+  "start": 611.92,
+  "end": 615.19,
+  "text": "obstacle which involves this scrolling"
+ },
+ {
+  "start": 615.2,
+  "end": 617.55,
+  "text": "behavior and steering"
+ },
+ {
+  "start": 617.56,
+  "end": 619.63,
+  "text": "parameters so if you have any queries"
+ },
+ {
+  "start": 619.64,
+  "end": 621.03,
+  "text": "leave your queries in the comment box"
+ },
+ {
+  "start": 621.04,
+  "end": 624.069,
+  "text": "I'll try to respond to your"
+ },
+ {
+  "start": 624.079,
+  "end": 627.55,
+  "text": "queries hope you all understand how to"
+ },
+ {
+  "start": 627.56,
+  "end": 630.59,
+  "text": "solve an obstacle where you need to"
+ },
+ {
+  "start": 630.6,
+  "end": 633.47,
+  "text": "interact with an object by using the"
+ },
+ {
+  "start": 633.48,
+  "end": 636.67,
+  "text": "techniques like steering parameter and"
+ },
+ {
+  "start": 636.68,
+  "end": 638.87,
+  "text": "the scrolling Behavior"
+ },
+ {
+  "start": 638.88,
+  "end": 641.91,
+  "text": "Concepts please do subscribe to the"
+ },
+ {
+  "start": 641.92,
+  "end": 644.069,
+  "text": "channel click on Bell icon you'll"
+ },
+ {
+  "start": 644.079,
+  "end": 646.509,
+  "text": "receive notifications whenever I publish"
+ },
+ {
+  "start": 646.519,
+  "end": 650.069,
+  "text": "more videos don't forget to like and"
+ },
+ {
+  "start": 650.079,
+  "end": 660.28,
+  "text": "share the video thank you"
+ }
+]

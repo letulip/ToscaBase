@@ -1,0 +1,2062 @@
+[
+ {
+  "start": 13.11,
+  "end": 13.12,
+  "text": "Hi everyone, this is Ravi. Welcome to"
+ },
+ {
+  "start": 13.12,
+  "end": 15.589,
+  "text": "Tricentage Taska mobile automation"
+ },
+ {
+  "start": 15.599,
+  "end": 18.31,
+  "text": "tutorial. As you all know, I have"
+ },
+ {
+  "start": 18.32,
+  "end": 21.269,
+  "text": "already published five YouTube videos"
+ },
+ {
+  "start": 21.279,
+  "end": 24.23,
+  "text": "covering different concepts of mobile"
+ },
+ {
+  "start": 24.24,
+  "end": 26.87,
+  "text": "automation by using Tricentistoska. So"
+ },
+ {
+  "start": 26.88,
+  "end": 29.99,
+  "text": "here is the playlist. I'm going to"
+ },
+ {
+  "start": 30.0,
+  "end": 32.95,
+  "text": "paste the link in description. You can"
+ },
+ {
+  "start": 32.96,
+  "end": 34.63,
+  "text": "access this playlist by using"
+ },
+ {
+  "start": 34.64,
+  "end": 37.91,
+  "text": "description. And here is my first lesson"
+ },
+ {
+  "start": 37.92,
+  "end": 41.19,
+  "text": "where I have showed you how can we get"
+ },
+ {
+  "start": 41.2,
+  "end": 43.75,
+  "text": "started with mobile automation by"
+ },
+ {
+  "start": 43.76,
+  "end": 46.15,
+  "text": "configuring Tricentis mobile agent. And"
+ },
+ {
+  "start": 46.16,
+  "end": 48.47,
+  "text": "in lesson two, I've showed you how can"
+ },
+ {
+  "start": 48.48,
+  "end": 52.389,
+  "text": "you set up Android emulator and how can"
+ },
+ {
+  "start": 52.399,
+  "end": 55.189,
+  "text": "you install the Android Studio so that"
+ },
+ {
+  "start": 55.199,
+  "end": 56.869,
+  "text": "you can create the Android virtual"
+ },
+ {
+  "start": 56.879,
+  "end": 59.189,
+  "text": "devices. And then in lesson three, I've"
+ },
+ {
+  "start": 59.199,
+  "end": 60.869,
+  "text": "showed you how can we prepare and"
+ },
+ {
+  "start": 60.879,
+  "end": 64.229,
+  "text": "connect Android via USB and Android via"
+ },
+ {
+  "start": 64.239,
+  "end": 67.67,
+  "text": "Wi-Fi. In lesson four, I've showed you"
+ },
+ {
+  "start": 67.68,
+  "end": 70.63,
+  "text": "how can we scan Android mobile app by"
+ },
+ {
+  "start": 70.64,
+  "end": 73.75,
+  "text": "using mobile engine of Tricentesa."
+ },
+ {
+  "start": 73.76,
+  "end": 76.63,
+  "text": "And in lesson five, I've showed you how"
+ },
+ {
+  "start": 76.64,
+  "end": 78.789,
+  "text": "can we automate our first mobile test"
+ },
+ {
+  "start": 78.799,
+  "end": 82.55,
+  "text": "case for Android. This is our lesson six"
+ },
+ {
+  "start": 82.56,
+  "end": 85.749,
+  "text": "where I'm going to teach you how can we"
+ },
+ {
+  "start": 85.759,
+  "end": 90.07,
+  "text": "scan native apps by using source labs"
+ },
+ {
+  "start": 90.08,
+  "end": 91.99,
+  "text": "which means I'm going to show you how"
+ },
+ {
+  "start": 92.0,
+  "end": 94.95,
+  "text": "can you integrate your tricentis taska"
+ },
+ {
+  "start": 94.96,
+  "end": 98.469,
+  "text": "with source labs so that you can scan"
+ },
+ {
+  "start": 98.479,
+  "end": 101.51,
+  "text": "your native applications"
+ },
+ {
+  "start": 101.52,
+  "end": 104.87,
+  "text": "by using the real devices that are"
+ },
+ {
+  "start": 104.88,
+  "end": 109.03,
+  "text": "available in source labs."
+ },
+ {
+  "start": 109.04,
+  "end": 111.99,
+  "text": "So here is our agenda for today's"
+ },
+ {
+  "start": 112.0,
+  "end": 113.91,
+  "text": "session."
+ },
+ {
+  "start": 113.92,
+  "end": 117.749,
+  "text": "To scan your mobile applications from"
+ },
+ {
+  "start": 117.759,
+  "end": 120.23,
+  "text": "the real devices available in source"
+ },
+ {
+  "start": 120.24,
+  "end": 124.23,
+  "text": "labs, first you need to establish a new"
+ },
+ {
+  "start": 124.24,
+  "end": 127.19,
+  "text": "cloud APM connection where I'll be"
+ },
+ {
+  "start": 127.2,
+  "end": 129.589,
+  "text": "providing source labs server address and"
+ },
+ {
+  "start": 129.599,
+  "end": 133.03,
+  "text": "then I'm going to add a device Android"
+ },
+ {
+  "start": 133.04,
+  "end": 137.35,
+  "text": "as well as iOS device from SAS labs in"
+ },
+ {
+  "start": 137.36,
+  "end": 140.63,
+  "text": "TUSCa and then we are going to add"
+ },
+ {
+  "start": 140.64,
+  "end": 145.43,
+  "text": "Android app and one iOS app in Slab's"
+ },
+ {
+  "start": 145.44,
+  "end": 148.869,
+  "text": "app management section so that I can"
+ },
+ {
+  "start": 148.879,
+  "end": 151.51,
+  "text": "access those"
+ },
+ {
+  "start": 151.52,
+  "end": 154.07,
+  "text": "Android and iOS applications from"
+ },
+ {
+  "start": 154.08,
+  "end": 156.869,
+  "text": "Tricentis Taska. And then you need to"
+ },
+ {
+  "start": 156.879,
+  "end": 161.27,
+  "text": "configure apps in TUSCa with bundle ID"
+ },
+ {
+  "start": 161.28,
+  "end": 163.99,
+  "text": "that comes from your source labs. And"
+ },
+ {
+  "start": 164.0,
+  "end": 165.67,
+  "text": "then we need to validate and edit"
+ },
+ {
+  "start": 165.68,
+  "end": 167.83,
+  "text": "connections and device configurations in"
+ },
+ {
+  "start": 167.84,
+  "end": 170.71,
+  "text": "Tentus Tuska. And now you can start"
+ },
+ {
+  "start": 170.72,
+  "end": 175.03,
+  "text": "scanning your iOS and Android apps from"
+ },
+ {
+  "start": 175.04,
+  "end": 177.03,
+  "text": "source labs."
+ },
+ {
+  "start": 177.04,
+  "end": 179.11,
+  "text": "So now without delay let us jump onto"
+ },
+ {
+  "start": 179.12,
+  "end": 182.55,
+  "text": "the system and see how can we configure"
+ },
+ {
+  "start": 182.56,
+  "end": 185.03,
+  "text": "or how can we integrate your tricentis"
+ },
+ {
+  "start": 185.04,
+  "end": 187.589,
+  "text": "taska with source labs so that we can"
+ },
+ {
+  "start": 187.599,
+  "end": 191.43,
+  "text": "scan the applications by using the real"
+ },
+ {
+  "start": 191.44,
+  "end": 195.19,
+  "text": "devices available in source labs."
+ },
+ {
+  "start": 195.2,
+  "end": 197.99,
+  "text": "So this is my tricentis taska and before"
+ },
+ {
+  "start": 198.0,
+  "end": 200.79,
+  "text": "we start scanning the application let me"
+ },
+ {
+  "start": 200.8,
+  "end": 204.229,
+  "text": "show you my source labs account. So this"
+ },
+ {
+  "start": 204.239,
+  "end": 205.99,
+  "text": "is my source labs account. I have logged"
+ },
+ {
+  "start": 206.0,
+  "end": 208.79,
+  "text": "in with my credentials and you can see"
+ },
+ {
+  "start": 208.8,
+  "end": 213.35,
+  "text": "here under live mobile app. So these are"
+ },
+ {
+  "start": 213.36,
+  "end": 215.91,
+  "text": "the real devices that are available in"
+ },
+ {
+  "start": 215.92,
+  "end": 219.43,
+  "text": "my source labs. So if you want to access"
+ },
+ {
+  "start": 219.44,
+  "end": 222.149,
+  "text": "any mobile device, you can access these"
+ },
+ {
+  "start": 222.159,
+  "end": 224.309,
+  "text": "mobile devices that are available in"
+ },
+ {
+  "start": 224.319,
+  "end": 226.309,
+  "text": "source labs. I can access Google Pixel,"
+ },
+ {
+  "start": 226.319,
+  "end": 229.35,
+  "text": "I can access Samsung Galaxy and I can"
+ },
+ {
+  "start": 229.36,
+  "end": 232.39,
+  "text": "access iPhone XR and also I can access"
+ },
+ {
+  "start": 232.4,
+  "end": 235.19,
+  "text": "iPhone 12. Right? So these are all the"
+ },
+ {
+  "start": 235.2,
+  "end": 237.509,
+  "text": "mobile devices, real mobile devices"
+ },
+ {
+  "start": 237.519,
+  "end": 242.229,
+  "text": "available in source labs cloud. Now"
+ },
+ {
+  "start": 242.239,
+  "end": 247.509,
+  "text": "before we start scanning the application"
+ },
+ {
+  "start": 247.519,
+  "end": 250.47,
+  "text": "by using these real devices, you need to"
+ },
+ {
+  "start": 250.48,
+  "end": 254.149,
+  "text": "first go to app management. Here we need"
+ },
+ {
+  "start": 254.159,
+  "end": 258.31,
+  "text": "to upload the APK file for Android"
+ },
+ {
+  "start": 258.32,
+  "end": 261.27,
+  "text": "mobile devices and you need to upload"
+ },
+ {
+  "start": 261.28,
+  "end": 265.43,
+  "text": "IPA file for your iOS devices. So if you"
+ },
+ {
+  "start": 265.44,
+  "end": 268.79,
+  "text": "observe closely so this is your swag"
+ },
+ {
+  "start": 268.8,
+  "end": 271.189,
+  "text": "labs mobile app which is related to"
+ },
+ {
+  "start": 271.199,
+  "end": 274.79,
+  "text": "source labs. So the first file I have"
+ },
+ {
+  "start": 274.8,
+  "end": 279.03,
+  "text": "uploaded the IPA file which is for iOS"
+ },
+ {
+  "start": 279.04,
+  "end": 283.83,
+  "text": "device and my second file is my"
+ },
+ {
+  "start": 283.84,
+  "end": 287.51,
+  "text": "APK file which is for Android device. So"
+ },
+ {
+  "start": 287.52,
+  "end": 290.629,
+  "text": "how did I upload these files? Simply"
+ },
+ {
+  "start": 290.639,
+  "end": 294.55,
+  "text": "click on choose file and I have selected"
+ },
+ {
+  "start": 294.56,
+  "end": 299.03,
+  "text": "the source labsapk file slabsipa"
+ },
+ {
+  "start": 299.04,
+  "end": 302.23,
+  "text": "file and clicked on okay. So this will"
+ },
+ {
+  "start": 302.24,
+  "end": 305.59,
+  "text": "upload these two iOS and Android files"
+ },
+ {
+  "start": 305.6,
+  "end": 309.43,
+  "text": "to your app management within source"
+ },
+ {
+  "start": 309.44,
+  "end": 312.87,
+  "text": "labs. So this is prerequisite"
+ },
+ {
+  "start": 312.88,
+  "end": 316.79,
+  "text": "to scan your application by using source"
+ },
+ {
+  "start": 316.8,
+  "end": 320.39,
+  "text": "labs real devices. So I'm going to"
+ },
+ {
+  "start": 320.4,
+  "end": 322.07,
+  "text": "provide all these details in the"
+ },
+ {
+  "start": 322.08,
+  "end": 325.99,
+  "text": "description. If you need this APK or IPA"
+ },
+ {
+  "start": 326.0,
+  "end": 328.31,
+  "text": "files, you can send me an email so that"
+ },
+ {
+  "start": 328.32,
+  "end": 332.23,
+  "text": "I can send these files for you. So done."
+ },
+ {
+  "start": 332.24,
+  "end": 337.029,
+  "text": "So now we are ready with the app that we"
+ },
+ {
+  "start": 337.039,
+  "end": 340.79,
+  "text": "would like to automate and now let us go"
+ },
+ {
+  "start": 340.8,
+  "end": 344.71,
+  "text": "to mobile app and now let us go to"
+ },
+ {
+  "start": 344.72,
+  "end": 348.31,
+  "text": "tricentis taska. So if you remember in"
+ },
+ {
+  "start": 348.32,
+  "end": 350.95,
+  "text": "lesson three we have already showed you"
+ },
+ {
+  "start": 350.96,
+  "end": 354.469,
+  "text": "how can you scan the application"
+ },
+ {
+  "start": 354.479,
+  "end": 358.87,
+  "text": "by using tricentis mobile agent"
+ },
+ {
+  "start": 358.88,
+  "end": 363.27,
+  "text": "where we have accessed either our real"
+ },
+ {
+  "start": 363.28,
+  "end": 366.15,
+  "text": "device connected to my laptop or an"
+ },
+ {
+  "start": 366.16,
+  "end": 369.51,
+  "text": "emulator that is running in my laptop"
+ },
+ {
+  "start": 369.52,
+  "end": 371.99,
+  "text": "but in today's session I'm going to use"
+ },
+ {
+  "start": 372.0,
+  "end": 376.07,
+  "text": "a device which is available in charlabs"
+ },
+ {
+  "start": 376.08,
+  "end": 379.43,
+  "text": "cloud environment. So now for that right"
+ },
+ {
+  "start": 379.44,
+  "end": 382.79,
+  "text": "click on these modules scan select"
+ },
+ {
+  "start": 382.8,
+  "end": 387.67,
+  "text": "mobile."
+ },
+ {
+  "start": 390.95,
+  "end": 390.96,
+  "text": "So here if you remember correctly in my"
+ },
+ {
+  "start": 390.96,
+  "end": 393.189,
+  "text": "previous sessions we have established a"
+ },
+ {
+  "start": 393.199,
+  "end": 395.11,
+  "text": "connection called local and we have"
+ },
+ {
+  "start": 395.12,
+  "end": 397.11,
+  "text": "established a connection called remote."
+ },
+ {
+  "start": 397.12,
+  "end": 400.629,
+  "text": "Now to access the device related to"
+ },
+ {
+  "start": 400.639,
+  "end": 403.51,
+  "text": "source labs you need to establish a new"
+ },
+ {
+  "start": 403.52,
+  "end": 407.59,
+  "text": "connection for your APM cloud. So for"
+ },
+ {
+  "start": 407.6,
+  "end": 410.629,
+  "text": "that click on add connection and name"
+ },
+ {
+  "start": 410.639,
+  "end": 415.27,
+  "text": "this as source connection"
+ },
+ {
+  "start": 415.28,
+  "end": 417.27,
+  "text": "source labs"
+ },
+ {
+  "start": 417.28,
+  "end": 419.35,
+  "text": "connect."
+ },
+ {
+  "start": 419.36,
+  "end": 422.87,
+  "text": "And here earlier we have selected TMA"
+ },
+ {
+  "start": 422.88,
+  "end": 424.95,
+  "text": "for remote. This time I'm going to"
+ },
+ {
+  "start": 424.96,
+  "end": 428.71,
+  "text": "select cloud APM because Slabs is a"
+ },
+ {
+  "start": 428.72,
+  "end": 432.55,
+  "text": "cloud platform. Cloud APM platform. So"
+ },
+ {
+  "start": 432.56,
+  "end": 435.189,
+  "text": "here you need to enter APM server"
+ },
+ {
+  "start": 435.199,
+  "end": 437.589,
+  "text": "address. How can I enter that? Go to"
+ },
+ {
+  "start": 437.599,
+  "end": 440.71,
+  "text": "your source labs and here you need to go"
+ },
+ {
+  "start": 440.72,
+  "end": 445.27,
+  "text": "to account and then go to user settings."
+ },
+ {
+  "start": 445.28,
+  "end": 448.629,
+  "text": "Scroll down. Under user settings you"
+ },
+ {
+  "start": 448.639,
+  "end": 451.99,
+  "text": "will have on demand URL. So you need to"
+ },
+ {
+  "start": 452.0,
+  "end": 455.35,
+  "text": "copy this on demand URL."
+ },
+ {
+  "start": 455.36,
+  "end": 457.909,
+  "text": "Go to"
+ },
+ {
+  "start": 457.919,
+  "end": 459.99,
+  "text": "present taska"
+ },
+ {
+  "start": 460.0,
+  "end": 463.67,
+  "text": "here paste the on demand"
+ },
+ {
+  "start": 463.68,
+  "end": 466.309,
+  "text": "server URL. But what you need to do is"
+ },
+ {
+  "start": 466.319,
+  "end": 470.23,
+  "text": "here you need to delete the entire"
+ },
+ {
+  "start": 470.24,
+  "end": 473.189,
+  "text": "content that is available"
+ },
+ {
+  "start": 473.199,
+  "end": 474.71,
+  "text": "before"
+ },
+ {
+  "start": 474.72,
+  "end": 477.909,
+  "text": "on demand. Basically from add rate till"
+ },
+ {
+  "start": 477.919,
+  "end": 481.43,
+  "text": "here you can delete this one because the"
+ },
+ {
+  "start": 481.44,
+  "end": 483.43,
+  "text": "taska throws an error saying that it is"
+ },
+ {
+  "start": 483.44,
+  "end": 487.11,
+  "text": "invalid value. Right? So simply"
+ },
+ {
+  "start": 487.12,
+  "end": 490.469,
+  "text": "I'm going to delete until here. Now the"
+ },
+ {
+  "start": 490.479,
+  "end": 495.35,
+  "text": "URL is valid. Let's click on add. So"
+ },
+ {
+  "start": 495.36,
+  "end": 497.43,
+  "text": "this is your new connection slabs"
+ },
+ {
+  "start": 497.44,
+  "end": 500.469,
+  "text": "connection. Now I need to add a device."
+ },
+ {
+  "start": 500.479,
+  "end": 504.39,
+  "text": "For that go to slabs. Go to mobile app."
+ },
+ {
+  "start": 504.4,
+  "end": 507.51,
+  "text": "Here let's say I would like to add"
+ },
+ {
+  "start": 507.52,
+  "end": 511.589,
+  "text": "iPhone XR. So select this one."
+ },
+ {
+  "start": 511.599,
+  "end": 514.55,
+  "text": "All you need is you need a unique ID for"
+ },
+ {
+  "start": 514.56,
+  "end": 517.269,
+  "text": "this particular iPhone XR. For this"
+ },
+ {
+  "start": 517.279,
+  "end": 521.589,
+  "text": "iPhone XR, my unique ID is iPhone"
+ },
+ {
+  "start": 521.599,
+  "end": 525.67,
+  "text": "XR free. Copy this one. Let's go to"
+ },
+ {
+  "start": 525.68,
+  "end": 529.269,
+  "text": "Tricent Taska. Here, click on add"
+ },
+ {
+  "start": 529.279,
+  "end": 530.79,
+  "text": "device."
+ },
+ {
+  "start": 530.8,
+  "end": 532.389,
+  "text": "What is the name? I'm going to name this"
+ },
+ {
+  "start": 532.399,
+  "end": 534.87,
+  "text": "as iPhone"
+ },
+ {
+  "start": 534.88,
+  "end": 537.829,
+  "text": "XR. And what is your device ID? This is"
+ },
+ {
+  "start": 537.839,
+  "end": 541.59,
+  "text": "my device ID. Paste the device ID. What"
+ },
+ {
+  "start": 541.6,
+  "end": 544.31,
+  "text": "is this one? This is iOS. This is real"
+ },
+ {
+  "start": 544.32,
+  "end": 546.47,
+  "text": "device. If you are entering Android, you"
+ },
+ {
+  "start": 546.48,
+  "end": 549.03,
+  "text": "can select Android. Okay, let's add this"
+ },
+ {
+  "start": 549.04,
+  "end": 552.07,
+  "text": "one. Let me add another device also."
+ },
+ {
+  "start": 552.08,
+  "end": 554.07,
+  "text": "This time I would like to add Samsung"
+ },
+ {
+  "start": 554.08,
+  "end": 556.949,
+  "text": "Galaxy. I'm going to copy this unique"
+ },
+ {
+  "start": 556.959,
+  "end": 558.47,
+  "text": "ID."
+ },
+ {
+  "start": 558.48,
+  "end": 561.59,
+  "text": "Go back to Tricent Taska. Add device."
+ },
+ {
+  "start": 561.6,
+  "end": 566.15,
+  "text": "I'm going to say Samsung Galaxy. And"
+ },
+ {
+  "start": 566.16,
+  "end": 570.31,
+  "text": "here enter unique ID for that Android"
+ },
+ {
+  "start": 570.32,
+  "end": 572.31,
+  "text": "Samsung device. But this time I would"
+ },
+ {
+  "start": 572.32,
+  "end": 574.389,
+  "text": "like to select operating system as"
+ },
+ {
+  "start": 574.399,
+  "end": 577.99,
+  "text": "Android. This is a real device. Click on"
+ },
+ {
+  "start": 578.0,
+  "end": 581.59,
+  "text": "add. So now under SAS labs I have two"
+ },
+ {
+  "start": 581.6,
+  "end": 583.91,
+  "text": "different devices."
+ },
+ {
+  "start": 583.92,
+  "end": 586.31,
+  "text": "Next"
+ },
+ {
+  "start": 586.32,
+  "end": 588.949,
+  "text": "you need to add the application. To add"
+ },
+ {
+  "start": 588.959,
+  "end": 591.67,
+  "text": "the application let's go to app"
+ },
+ {
+  "start": 591.68,
+  "end": 596.23,
+  "text": "management under Slabs. So here let's"
+ },
+ {
+  "start": 596.24,
+  "end": 598.87,
+  "text": "say first I would like to add Android"
+ },
+ {
+  "start": 598.88,
+  "end": 601.59,
+  "text": "related application. So this is my"
+ },
+ {
+  "start": 601.6,
+  "end": 604.949,
+  "text": "Android application. Go to settings and"
+ },
+ {
+  "start": 604.959,
+  "end": 608.07,
+  "text": "app version. Check this one. So this is"
+ },
+ {
+  "start": 608.08,
+  "end": 611.19,
+  "text": "my file name. So you need to copy this"
+ },
+ {
+  "start": 611.2,
+  "end": 614.87,
+  "text": "file name from s labs and go to"
+ },
+ {
+  "start": 614.88,
+  "end": 617.03,
+  "text": "tricentesto"
+ },
+ {
+  "start": 617.04,
+  "end": 619.509,
+  "text": "add app."
+ },
+ {
+  "start": 619.519,
+  "end": 621.43,
+  "text": "What is the application type? This is my"
+ },
+ {
+  "start": 621.44,
+  "end": 622.949,
+  "text": "native application. That's why I'm going"
+ },
+ {
+  "start": 622.959,
+  "end": 625.509,
+  "text": "to select native. Click on continue."
+ },
+ {
+  "start": 625.519,
+  "end": 628.79,
+  "text": "Here enter the name. I'm going to say"
+ },
+ {
+  "start": 628.8,
+  "end": 634.79,
+  "text": "coslabs_."
+ },
+ {
+  "start": 637.509,
+  "end": 637.519,
+  "text": "So this is my application name. And what"
+ },
+ {
+  "start": 637.519,
+  "end": 640.069,
+  "text": "is the full path? My full path is"
+ },
+ {
+  "start": 640.079,
+  "end": 641.59,
+  "text": "storage"
+ },
+ {
+  "start": 641.6,
+  "end": 643.19,
+  "text": "colon"
+ },
+ {
+  "start": 643.2,
+  "end": 646.389,
+  "text": "file name equal to. So you need to"
+ },
+ {
+  "start": 646.399,
+  "end": 648.55,
+  "text": "remember this syntax. Storage colon file"
+ },
+ {
+  "start": 648.56,
+  "end": 651.19,
+  "text": "name equal to your name of the"
+ },
+ {
+  "start": 651.2,
+  "end": 653.829,
+  "text": "application which you have uploaded to"
+ },
+ {
+  "start": 653.839,
+  "end": 656.949,
+  "text": "your source labs app management. So"
+ },
+ {
+  "start": 656.959,
+  "end": 661.829,
+  "text": "simply paste that here and now select"
+ },
+ {
+  "start": 661.839,
+  "end": 663.829,
+  "text": "the application type. My application"
+ },
+ {
+  "start": 663.839,
+  "end": 668.55,
+  "text": "type is APK that means Android right and"
+ },
+ {
+  "start": 668.56,
+  "end": 673.59,
+  "text": "now click on add. So my new application"
+ },
+ {
+  "start": 673.6,
+  "end": 678.31,
+  "text": "has been added. So now let me scan the"
+ },
+ {
+  "start": 678.32,
+  "end": 681.269,
+  "text": "application now. So here I have selected"
+ },
+ {
+  "start": 681.279,
+  "end": 683.91,
+  "text": "the connection as slabs connection. I've"
+ },
+ {
+  "start": 683.92,
+  "end": 687.11,
+  "text": "selected the mobile my Samsung Galaxy"
+ },
+ {
+  "start": 687.12,
+  "end": 690.71,
+  "text": "mobile and then I have selected the app"
+ },
+ {
+  "start": 690.72,
+  "end": 694.55,
+  "text": "just now I added which is your Android"
+ },
+ {
+  "start": 694.56,
+  "end": 699.829,
+  "text": "file. Now select connect."
+ },
+ {
+  "start": 699.839,
+  "end": 702.55,
+  "text": "So it throws an error message. It says"
+ },
+ {
+  "start": 702.56,
+  "end": 706.71,
+  "text": "failed serving request post. Why? Let me"
+ },
+ {
+  "start": 706.72,
+  "end": 708.87,
+  "text": "tell you. Go back here now. So if you"
+ },
+ {
+  "start": 708.88,
+  "end": 711.91,
+  "text": "remember correctly we have entered this"
+ },
+ {
+  "start": 711.92,
+  "end": 714.31,
+  "text": "server address and we removed the front"
+ },
+ {
+  "start": 714.32,
+  "end": 717.59,
+  "text": "part right. So there is a small bug in"
+ },
+ {
+  "start": 717.6,
+  "end": 720.15,
+  "text": "Tricentis Taskar 2023 version. That's"
+ },
+ {
+  "start": 720.16,
+  "end": 723.35,
+  "text": "why what we need to do is let us close"
+ },
+ {
+  "start": 723.36,
+  "end": 725.829,
+  "text": "this scan. Now let's go back to your"
+ },
+ {
+  "start": 725.839,
+  "end": 729.35,
+  "text": "triccent task. Here under"
+ },
+ {
+  "start": 729.36,
+  "end": 731.03,
+  "text": "configurations."
+ },
+ {
+  "start": 731.04,
+  "end": 733.75,
+  "text": "Now if you go to mobile"
+ },
+ {
+  "start": 733.76,
+  "end": 737.03,
+  "text": "under connection you see under"
+ },
+ {
+  "start": 737.04,
+  "end": 739.43,
+  "text": "connections you should see the new"
+ },
+ {
+  "start": 739.44,
+  "end": 741.19,
+  "text": "connection that we established. What is"
+ },
+ {
+  "start": 741.2,
+  "end": 743.03,
+  "text": "the connection that we established?"
+ },
+ {
+  "start": 743.04,
+  "end": 745.829,
+  "text": "Tasklabs connect. Under this source lab"
+ },
+ {
+  "start": 745.839,
+  "end": 748.55,
+  "text": "connect if you expand"
+ },
+ {
+  "start": 748.56,
+  "end": 751.269,
+  "text": "you should see the devices that we added"
+ },
+ {
+  "start": 751.279,
+  "end": 754.71,
+  "text": "just now. iPhone XR Samsung Galaxy. So"
+ },
+ {
+  "start": 754.72,
+  "end": 760.47,
+  "text": "now under Slabs connect if you see here"
+ },
+ {
+  "start": 760.48,
+  "end": 762.87,
+  "text": "let me put it right side double click"
+ },
+ {
+  "start": 762.88,
+  "end": 767.59,
+  "text": "here. See my APM server URL is not"
+ },
+ {
+  "start": 767.6,
+  "end": 771.269,
+  "text": "correct. Let's go back to my source labs"
+ },
+ {
+  "start": 771.279,
+  "end": 774.47,
+  "text": "settings user settings. So if you scroll"
+ },
+ {
+  "start": 774.48,
+  "end": 776.389,
+  "text": "down here,"
+ },
+ {
+  "start": 776.399,
+  "end": 780.15,
+  "text": "so this is my ondemand URL. Copy this on"
+ },
+ {
+  "start": 780.16,
+  "end": 783.75,
+  "text": "demand URL. Edit this entire on demand"
+ },
+ {
+  "start": 783.76,
+  "end": 788.47,
+  "text": "URL. I'm replacing it with the full on"
+ },
+ {
+  "start": 788.48,
+  "end": 791.03,
+  "text": "demand URL which starts from which"
+ },
+ {
+  "start": 791.04,
+  "end": 795.03,
+  "text": "starts from Ravikant E and your entire"
+ },
+ {
+  "start": 795.04,
+  "end": 799.67,
+  "text": "URL. Now save this one."
+ },
+ {
+  "start": 799.68,
+  "end": 802.069,
+  "text": "So you understand right? So when we were"
+ },
+ {
+  "start": 802.079,
+  "end": 804.949,
+  "text": "scanning the application when I'm"
+ },
+ {
+  "start": 804.959,
+  "end": 807.75,
+  "text": "establishing the connection the time we"
+ },
+ {
+  "start": 807.76,
+  "end": 811.509,
+  "text": "have entered the server URL as here from"
+ },
+ {
+  "start": 811.519,
+  "end": 816.23,
+  "text": "here on demand us because taska taska is"
+ },
+ {
+  "start": 816.24,
+  "end": 819.19,
+  "text": "having some bug. So I had to remove this"
+ },
+ {
+  "start": 819.2,
+  "end": 821.91,
+  "text": "front part and now I have added that"
+ },
+ {
+  "start": 821.92,
+  "end": 825.509,
+  "text": "front part from my connections"
+ },
+ {
+  "start": 825.519,
+  "end": 827.03,
+  "text": "configurations."
+ },
+ {
+  "start": 827.04,
+  "end": 829.67,
+  "text": "Okay. So now let's scan the application"
+ },
+ {
+  "start": 829.68,
+  "end": 832.71,
+  "text": "again. Right click on module"
+ },
+ {
+  "start": 832.72,
+  "end": 837.67,
+  "text": "scan mobile."
+ },
+ {
+  "start": 839.99,
+  "end": 840.0,
+  "text": "So if you see the source labs connection"
+ },
+ {
+  "start": 840.0,
+  "end": 843.91,
+  "text": "here edit see here now I can see full"
+ },
+ {
+  "start": 843.92,
+  "end": 847.75,
+  "text": "URL now full server address it throws"
+ },
+ {
+  "start": 847.76,
+  "end": 851.59,
+  "text": "error because there is a bug it is"
+ },
+ {
+  "start": 851.6,
+  "end": 854.23,
+  "text": "throwing error message you cannot save"
+ },
+ {
+  "start": 854.24,
+  "end": 857.99,
+  "text": "this entire IPM server URL that's why I"
+ },
+ {
+  "start": 858.0,
+  "end": 860.629,
+  "text": "have done configuration from my"
+ },
+ {
+  "start": 860.639,
+  "end": 863.75,
+  "text": "tricentis tuska configuration settings"
+ },
+ {
+  "start": 863.76,
+  "end": 867.269,
+  "text": "so now I can see the full APM server"
+ },
+ {
+  "start": 867.279,
+  "end": 870.31,
+  "text": "address. That's good. Now, this is my"
+ },
+ {
+  "start": 870.32,
+  "end": 873.91,
+  "text": "Samsung mobile that I have added"
+ },
+ {
+  "start": 873.92,
+  "end": 877.189,
+  "text": "from my source labs and then this is my"
+ },
+ {
+  "start": 877.199,
+  "end": 881.59,
+  "text": "new source labs Android APK file. Right"
+ },
+ {
+  "start": 881.6,
+  "end": 891.99,
+  "text": "now, let us click connect."
+ },
+ {
+  "start": 894.23,
+  "end": 894.24,
+  "text": "So now you can see connect connection"
+ },
+ {
+  "start": 894.24,
+  "end": 897.11,
+  "text": "established device is connected. Go to"
+ },
+ {
+  "start": 897.12,
+  "end": 900.47,
+  "text": "scan. You want to scan and click scan."
+ },
+ {
+  "start": 900.48,
+  "end": 903.03,
+  "text": "Okay. So here you need to click on scan."
+ },
+ {
+  "start": 903.04,
+  "end": 905.829,
+  "text": "As soon as you click on scan, it's going"
+ },
+ {
+  "start": 905.839,
+  "end": 909.189,
+  "text": "to scan all the objects that are"
+ },
+ {
+  "start": 909.199,
+  "end": 911.269,
+  "text": "available in your mobile. You can see"
+ },
+ {
+  "start": 911.279,
+  "end": 915.59,
+  "text": "here you can see the Samsung Galaxy"
+ },
+ {
+  "start": 915.6,
+  "end": 918.949,
+  "text": "device of your sabs also. So here I can"
+ },
+ {
+  "start": 918.959,
+  "end": 922.15,
+  "text": "see here now. So this is your mobile"
+ },
+ {
+  "start": 922.16,
+  "end": 925.509,
+  "text": "device from the Slabs."
+ },
+ {
+  "start": 925.519,
+  "end": 927.91,
+  "text": "Let's put this scanner here. So now"
+ },
+ {
+  "start": 927.92,
+  "end": 929.189,
+  "text": "let's say I would like to capture"
+ },
+ {
+  "start": 929.199,
+  "end": 931.91,
+  "text": "username, password, login buttons. Let's"
+ },
+ {
+  "start": 931.92,
+  "end": 934.23,
+  "text": "select username"
+ },
+ {
+  "start": 934.24,
+  "end": 936.31,
+  "text": "and you need to make it as unique"
+ },
+ {
+  "start": 936.32,
+  "end": 939.11,
+  "text": "because this is not unique, right? The"
+ },
+ {
+  "start": 939.12,
+  "end": 941.43,
+  "text": "selected item is not unique. Make"
+ },
+ {
+  "start": 941.44,
+  "end": 943.59,
+  "text": "unique. So now it is uniquely"
+ },
+ {
+  "start": 943.6,
+  "end": 946.629,
+  "text": "identified. Select password and this is"
+ },
+ {
+  "start": 946.639,
+  "end": 952.31,
+  "text": "not unique. Make unique and then your"
+ },
+ {
+  "start": 952.32,
+  "end": 954.71,
+  "text": "login image. Let's see what is this one."
+ },
+ {
+  "start": 954.72,
+  "end": 956.629,
+  "text": "Okay, let us select select on screen"
+ },
+ {
+  "start": 956.639,
+  "end": 961.03,
+  "text": "here. Select on screen. This is your"
+ },
+ {
+  "start": 961.04,
+  "end": 965.35,
+  "text": "login button. Highlight the section. See"
+ },
+ {
+  "start": 965.36,
+  "end": 967.99,
+  "text": "this login section is now highlighting."
+ },
+ {
+  "start": 968.0,
+  "end": 970.949,
+  "text": "And let's highlight this username and"
+ },
+ {
+  "start": 970.959,
+  "end": 973.749,
+  "text": "let's highlight the password. So all of"
+ },
+ {
+  "start": 973.759,
+  "end": 977.43,
+  "text": "them are highlighting now. So now I have"
+ },
+ {
+  "start": 977.44,
+  "end": 980.069,
+  "text": "scanned all the objects that are"
+ },
+ {
+  "start": 980.079,
+  "end": 983.35,
+  "text": "required for login. And now let's save"
+ },
+ {
+  "start": 983.36,
+  "end": 985.43,
+  "text": "this one."
+ },
+ {
+  "start": 985.44,
+  "end": 987.35,
+  "text": "So whatever the view you are seeing this"
+ },
+ {
+  "start": 987.36,
+  "end": 991.509,
+  "text": "is your live view of your Slabs mobile."
+ },
+ {
+  "start": 991.519,
+  "end": 994.15,
+  "text": "What is the mobile? My Samsung Galaxy"
+ },
+ {
+  "start": 994.16,
+  "end": 997.11,
+  "text": "mobile right."
+ },
+ {
+  "start": 997.12,
+  "end": 1000.79,
+  "text": "So now"
+ },
+ {
+  "start": 1005.43,
+  "end": 1005.44,
+  "text": "so now let's close the scanning."
+ },
+ {
+  "start": 1005.44,
+  "end": 1009.43,
+  "text": "So if you see here I can see now I have"
+ },
+ {
+  "start": 1009.44,
+  "end": 1013.67,
+  "text": "a swag labs app related elements and"
+ },
+ {
+  "start": 1013.68,
+  "end": 1015.269,
+  "text": "objects."
+ },
+ {
+  "start": 1015.279,
+  "end": 1018.87,
+  "text": "So this is how you can scan your"
+ },
+ {
+  "start": 1018.88,
+  "end": 1022.23,
+  "text": "Android application by using the real"
+ },
+ {
+  "start": 1022.24,
+  "end": 1025.59,
+  "text": "device from your source labs. So now let"
+ },
+ {
+  "start": 1025.6,
+  "end": 1028.789,
+  "text": "me again scan. Okay I'm going to rename"
+ },
+ {
+  "start": 1028.799,
+  "end": 1033.429,
+  "text": "this as mobile app Android. Okay. Now"
+ },
+ {
+  "start": 1033.439,
+  "end": 1036.47,
+  "text": "let me scan one more time. Right click,"
+ },
+ {
+  "start": 1036.48,
+  "end": 1039.75,
+  "text": "scan mobile. This time I would like to"
+ },
+ {
+  "start": 1039.76,
+  "end": 1042.789,
+  "text": "scan the application"
+ },
+ {
+  "start": 1042.799,
+  "end": 1046.309,
+  "text": "for my iOS device. What I'm going to do?"
+ },
+ {
+  "start": 1046.319,
+  "end": 1048.309,
+  "text": "Select the connection which is Slaps"
+ },
+ {
+  "start": 1048.319,
+  "end": 1050.87,
+  "text": "connection that we just now we created."
+ },
+ {
+  "start": 1050.88,
+  "end": 1054.549,
+  "text": "Right? And then this time select iPhone"
+ },
+ {
+  "start": 1054.559,
+  "end": 1057.11,
+  "text": "XR. We already added iPhone XR. This is"
+ },
+ {
+  "start": 1057.12,
+  "end": 1061.75,
+  "text": "my iPhone XR. Right? and iphone_xr"
+ },
+ {
+  "start": 1061.76,
+  "end": 1064.15,
+  "text": "free. So let's see here. So this is your"
+ },
+ {
+  "start": 1064.16,
+  "end": 1067.11,
+  "text": "unique ID. That's correct. Now this time"
+ },
+ {
+  "start": 1067.12,
+  "end": 1071.11,
+  "text": "I would like to add the source labs"
+ },
+ {
+  "start": 1071.12,
+  "end": 1074.23,
+  "text": "application related to iOS. Go to app"
+ },
+ {
+  "start": 1074.24,
+  "end": 1077.029,
+  "text": "management. This is iOS related"
+ },
+ {
+  "start": 1077.039,
+  "end": 1080.15,
+  "text": "application. Go to settings"
+ },
+ {
+  "start": 1080.16,
+  "end": 1082.549,
+  "text": "and this is your file name. Copy this"
+ },
+ {
+  "start": 1082.559,
+  "end": 1084.789,
+  "text": "one"
+ },
+ {
+  "start": 1084.799,
+  "end": 1087.51,
+  "text": "here. Add app."
+ },
+ {
+  "start": 1087.52,
+  "end": 1090.71,
+  "text": "Select add application type as native."
+ },
+ {
+  "start": 1090.72,
+  "end": 1097.75,
+  "text": "Continue. Name this as iOS"
+ },
+ {
+  "start": 1099.27,
+  "end": 1099.28,
+  "text": "tolabs."
+ },
+ {
+  "start": 1099.28,
+  "end": 1105.51,
+  "text": "And what is my full path? Storage colon"
+ },
+ {
+  "start": 1105.52,
+  "end": 1109.27,
+  "text": "file name equal to"
+ },
+ {
+  "start": 1109.28,
+  "end": 1112.39,
+  "text": "slabs dot slabs.ip."
+ },
+ {
+  "start": 1112.4,
+  "end": 1115.029,
+  "text": "This is my file name in source labs and"
+ },
+ {
+  "start": 1115.039,
+  "end": 1119.19,
+  "text": "my operating system type is iOS. Click"
+ },
+ {
+  "start": 1119.2,
+  "end": 1128.63,
+  "text": "on add. So now let us click on connect."
+ },
+ {
+  "start": 1132.39,
+  "end": 1132.4,
+  "text": "Now it should open your iPhone from your"
+ },
+ {
+  "start": 1132.4,
+  "end": 1134.23,
+  "text": "source labs and you should be able to"
+ },
+ {
+  "start": 1134.24,
+  "end": 1137.669,
+  "text": "scan all the objects related to iOS"
+ },
+ {
+  "start": 1137.679,
+  "end": 1141.75,
+  "text": "application."
+ },
+ {
+  "start": 1143.029,
+  "end": 1143.039,
+  "text": "So now you can see connection"
+ },
+ {
+  "start": 1143.039,
+  "end": 1144.87,
+  "text": "established, device is connected. Click"
+ },
+ {
+  "start": 1144.88,
+  "end": 1147.99,
+  "text": "on scan. So this will open your iPhone"
+ },
+ {
+  "start": 1148.0,
+  "end": 1163.83,
+  "text": "from your source labs."
+ },
+ {
+  "start": 1167.11,
+  "end": 1167.12,
+  "text": "So now you can see here it is your"
+ },
+ {
+  "start": 1167.12,
+  "end": 1170.15,
+  "text": "iPhone. See this is my iPhone XR."
+ },
+ {
+  "start": 1170.16,
+  "end": 1173.11,
+  "text": "And in the same way simply select your"
+ },
+ {
+  "start": 1173.12,
+  "end": 1175.51,
+  "text": "username"
+ },
+ {
+  "start": 1175.52,
+  "end": 1178.87,
+  "text": "and then select your password. This is"
+ },
+ {
+  "start": 1178.88,
+  "end": 1182.07,
+  "text": "uniquely identified and then select on"
+ },
+ {
+  "start": 1182.08,
+  "end": 1186.789,
+  "text": "screen. Select your login button. Right?"
+ },
+ {
+  "start": 1186.799,
+  "end": 1188.549,
+  "text": "All three of them are uniquely"
+ },
+ {
+  "start": 1188.559,
+  "end": 1191.59,
+  "text": "identified. And you can highlight them."
+ },
+ {
+  "start": 1191.6,
+  "end": 1195.35,
+  "text": "This is your username, password, your"
+ },
+ {
+  "start": 1195.36,
+  "end": 1198.95,
+  "text": "login button. So now let's name this as"
+ },
+ {
+  "start": 1198.96,
+  "end": 1203.669,
+  "text": "mobile app iOS."
+ },
+ {
+  "start": 1207.19,
+  "end": 1207.2,
+  "text": "And now let's save this. So now you can"
+ },
+ {
+  "start": 1207.2,
+  "end": 1209.99,
+  "text": "close the scan. As soon as you close"
+ },
+ {
+  "start": 1210.0,
+  "end": 1213.27,
+  "text": "this close the scan your"
+ },
+ {
+  "start": 1213.28,
+  "end": 1215.51,
+  "text": "live view of your device also going to"
+ },
+ {
+  "start": 1215.52,
+  "end": 1218.87,
+  "text": "close. So now you can see this is my iOS"
+ },
+ {
+  "start": 1218.88,
+  "end": 1222.71,
+  "text": "related objects and elements. So this is"
+ },
+ {
+  "start": 1222.72,
+  "end": 1228.63,
+  "text": "how you can scan all the objects"
+ },
+ {
+  "start": 1228.64,
+  "end": 1233.43,
+  "text": "from your real device deployed in source"
+ },
+ {
+  "start": 1233.44,
+  "end": 1236.549,
+  "text": "labs or the real devices that are"
+ },
+ {
+  "start": 1236.559,
+  "end": 1240.95,
+  "text": "available in source labs and this is how"
+ },
+ {
+  "start": 1240.96,
+  "end": 1244.07,
+  "text": "you can integrate your tricentis taska"
+ },
+ {
+  "start": 1244.08,
+  "end": 1246.87,
+  "text": "with source labs. So if you have any"
+ },
+ {
+  "start": 1246.88,
+  "end": 1248.789,
+  "text": "queries leave your queries in the"
+ },
+ {
+  "start": 1248.799,
+  "end": 1250.95,
+  "text": "comment box. I'll try to respond to your"
+ },
+ {
+  "start": 1250.96,
+  "end": 1252.95,
+  "text": "queries."
+ },
+ {
+  "start": 1252.96,
+  "end": 1256.549,
+  "text": "Hope you all understand today's concepts"
+ },
+ {
+  "start": 1256.559,
+  "end": 1259.669,
+  "text": "which is very very important because"
+ },
+ {
+  "start": 1259.679,
+  "end": 1262.63,
+  "text": "these days all the organizations are"
+ },
+ {
+  "start": 1262.64,
+  "end": 1265.83,
+  "text": "going for cloud solutions either you"
+ },
+ {
+  "start": 1265.84,
+  "end": 1268.47,
+  "text": "might be using browser stack source labs"
+ },
+ {
+  "start": 1268.48,
+  "end": 1271.669,
+  "text": "or tricentis device cloud any device"
+ },
+ {
+  "start": 1271.679,
+  "end": 1274.71,
+  "text": "cloud platform. So you can follow the"
+ },
+ {
+  "start": 1274.72,
+  "end": 1278.07,
+  "text": "same approach. So where we have"
+ },
+ {
+  "start": 1278.08,
+  "end": 1280.63,
+  "text": "established a new connection for Slabs"
+ },
+ {
+  "start": 1280.64,
+  "end": 1284.23,
+  "text": "cloud APM and then we have added devices"
+ },
+ {
+  "start": 1284.24,
+  "end": 1287.51,
+  "text": "from your SAL labs and then we have"
+ },
+ {
+  "start": 1287.52,
+  "end": 1289.029,
+  "text": "added"
+ },
+ {
+  "start": 1289.039,
+  "end": 1293.59,
+  "text": "app for iOS and Android to SASLABS app"
+ },
+ {
+  "start": 1293.6,
+  "end": 1297.11,
+  "text": "management and we have created the full"
+ },
+ {
+  "start": 1297.12,
+  "end": 1300.789,
+  "text": "path by using the file name from your"
+ },
+ {
+  "start": 1300.799,
+  "end": 1303.669,
+  "text": "SLAs's app management and then we have"
+ },
+ {
+  "start": 1303.679,
+  "end": 1305.35,
+  "text": "connected"
+ },
+ {
+  "start": 1305.36,
+  "end": 1308.87,
+  "text": "to your application"
+ },
+ {
+  "start": 1308.88,
+  "end": 1312.23,
+  "text": "from SASLAB's mobile device and then we"
+ },
+ {
+  "start": 1312.24,
+  "end": 1314.149,
+  "text": "have scanned all the objects that are"
+ },
+ {
+  "start": 1314.159,
+  "end": 1318.549,
+  "text": "required for automating the test cases."
+ },
+ {
+  "start": 1318.559,
+  "end": 1320.63,
+  "text": "Please do subscribe to the channel,"
+ },
+ {
+  "start": 1320.64,
+  "end": 1322.31,
+  "text": "click on bell icon, you'll receive"
+ },
+ {
+  "start": 1322.32,
+  "end": 1324.47,
+  "text": "notifications whenever I publish more"
+ },
+ {
+  "start": 1324.48,
+  "end": 1327.909,
+  "text": "videos and don't forget to like and"
+ },
+ {
+  "start": 1327.919,
+  "end": 1336.93,
+  "text": "share the video. Thank you."
+ }
+]

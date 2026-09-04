@@ -1,0 +1,1077 @@
+[
+ {
+  "start": 13.03,
+  "end": 13.04,
+  "text": "hi everyone this is Ravi welcome to"
+ },
+ {
+  "start": 13.04,
+  "end": 17.029,
+  "text": "trien tasa Advanced Training till now I"
+ },
+ {
+  "start": 17.039,
+  "end": 20.59,
+  "text": "published 44 YouTube videos covering"
+ },
+ {
+  "start": 20.6,
+  "end": 23.71,
+  "text": "beginners intermediate and advanced"
+ },
+ {
+  "start": 23.72,
+  "end": 26.99,
+  "text": "level Concepts the past couple of videos"
+ },
+ {
+  "start": 27.0,
+  "end": 29.47,
+  "text": "I've started teaching you real time"
+ },
+ {
+  "start": 29.48,
+  "end": 31.87,
+  "text": "scenario"
+ },
+ {
+  "start": 31.88,
+  "end": 35.47,
+  "text": "and how can we automate your test cases"
+ },
+ {
+  "start": 35.48,
+  "end": 38.03,
+  "text": "whenever you encounter different types"
+ },
+ {
+  "start": 38.04,
+  "end": 39.029,
+  "text": "of"
+ },
+ {
+  "start": 39.039,
+  "end": 42.27,
+  "text": "obstacles so this is our third obstacle"
+ },
+ {
+  "start": 42.28,
+  "end": 44.51,
+  "text": "in this lesson I'm going to teach you"
+ },
+ {
+  "start": 44.52,
+  "end": 47.31,
+  "text": "how can we automate a test case when you"
+ },
+ {
+  "start": 47.32,
+  "end": 51.83,
+  "text": "encounter an obstacle where you have to"
+ },
+ {
+  "start": 51.84,
+  "end": 55.43,
+  "text": "interact with a dynamically changing"
+ },
+ {
+  "start": 55.44,
+  "end": 56.91,
+  "text": "table"
+ },
+ {
+  "start": 56.92,
+  "end": 60.83,
+  "text": "elements basically this is not a table"
+ },
+ {
+  "start": 60.84,
+  "end": 64.39,
+  "text": "but in your application this shows as a"
+ },
+ {
+  "start": 64.4,
+  "end": 68.109,
+  "text": "table and it has an objects within the"
+ },
+ {
+  "start": 68.119,
+  "end": 71.59,
+  "text": "cell which are dynamic in nature so you"
+ },
+ {
+  "start": 71.6,
+  "end": 74.55,
+  "text": "need to interact with those"
+ },
+ {
+  "start": 74.56,
+  "end": 79.27,
+  "text": "objects by using trient Tas so first let"
+ },
+ {
+  "start": 79.28,
+  "end": 82.55,
+  "text": "us understand what is the obstacle in"
+ },
+ {
+  "start": 82.56,
+  "end": 86.67,
+  "text": "detail so this is our third obstacle"
+ },
+ {
+  "start": 86.68,
+  "end": 90.99,
+  "text": "which is categorized as hard in nature"
+ },
+ {
+  "start": 91.0,
+  "end": 93.469,
+  "text": "so let's go for"
+ },
+ {
+  "start": 93.479,
+  "end": 97.389,
+  "text": "it so here let's assume your application"
+ },
+ {
+  "start": 97.399,
+  "end": 101.789,
+  "text": "under test generates an order ID every"
+ },
+ {
+  "start": 101.799,
+  "end": 106.19,
+  "text": "time you click on the button"
+ },
+ {
+  "start": 106.2,
+  "end": 110.87,
+  "text": "unfortunately it gets added to the table"
+ },
+ {
+  "start": 110.88,
+  "end": 113.87,
+  "text": "randomly the order ID gets added to the"
+ },
+ {
+  "start": 113.88,
+  "end": 116.99,
+  "text": "table randomly in any"
+ },
+ {
+  "start": 117.0,
+  "end": 120.749,
+  "text": "row find a way to automate a table test"
+ },
+ {
+  "start": 120.759,
+  "end": 124.35,
+  "text": "step that clicks on this"
+ },
+ {
+  "start": 124.36,
+  "end": 127.429,
+  "text": "button and buffers the value of your"
+ },
+ {
+  "start": 127.439,
+  "end": 130.67,
+  "text": "order ID generated within the"
+ },
+ {
+  "start": 130.68,
+  "end": 136.15,
+  "text": "table enter the same ID into the text"
+ },
+ {
+  "start": 136.16,
+  "end": 140.35,
+  "text": "box and now let's generate order ID here"
+ },
+ {
+  "start": 140.36,
+  "end": 142.35,
+  "text": "let's generate order ID I don't see any"
+ },
+ {
+  "start": 142.36,
+  "end": 144.309,
+  "text": "order ID in the table let's generate"
+ },
+ {
+  "start": 144.319,
+  "end": 148.03,
+  "text": "this so now you see your order ID is"
+ },
+ {
+  "start": 148.04,
+  "end": 151.35,
+  "text": "here third row from the bottom and your"
+ },
+ {
+  "start": 151.36,
+  "end": 153.43,
+  "text": "order ID is 10"
+ },
+ {
+  "start": 153.44,
+  "end": 157.19,
+  "text": "14851 let me generate again so now if"
+ },
+ {
+  "start": 157.2,
+  "end": 160.75,
+  "text": "you see your order ID is in Middle now"
+ },
+ {
+  "start": 160.76,
+  "end": 163.47,
+  "text": "and your order ID is changed that means"
+ },
+ {
+  "start": 163.48,
+  "end": 165.67,
+  "text": "whenever you click on this particular"
+ },
+ {
+  "start": 165.68,
+  "end": 168.79,
+  "text": "button the order ID generates"
+ },
+ {
+  "start": 168.8,
+  "end": 172.149,
+  "text": "dynamically into any of the row now you"
+ },
+ {
+  "start": 172.159,
+  "end": 176.149,
+  "text": "need to capture this order ID and type"
+ },
+ {
+  "start": 176.159,
+  "end": 178.229,
+  "text": "the order ID in the"
+ },
+ {
+  "start": 178.239,
+  "end": 181.39,
+  "text": "text how can we do do that let's go back"
+ },
+ {
+  "start": 181.4,
+  "end": 183.03,
+  "text": "to trient"
+ },
+ {
+  "start": 183.04,
+  "end": 187.07,
+  "text": "tasar and let us scan your application"
+ },
+ {
+  "start": 187.08,
+  "end": 192.99,
+  "text": "right click on this folder click on scan"
+ },
+ {
+  "start": 195.949,
+  "end": 195.959,
+  "text": "application so this is my application"
+ },
+ {
+  "start": 195.959,
+  "end": 204.35,
+  "text": "click on"
+ },
+ {
+  "start": 207.55,
+  "end": 207.56,
+  "text": "scan so if you see here you don't see"
+ },
+ {
+  "start": 207.56,
+  "end": 209.229,
+  "text": "the table whatever we are discussing"
+ },
+ {
+  "start": 209.239,
+  "end": 210.27,
+  "text": "here right"
+ },
+ {
+  "start": 210.28,
+  "end": 212.67,
+  "text": "I don't see that so for that you need to"
+ },
+ {
+  "start": 212.68,
+  "end": 215.949,
+  "text": "expand the filter click on again one"
+ },
+ {
+  "start": 215.959,
+  "end": 218.99,
+  "text": "more time now you can see"
+ },
+ {
+  "start": 219.0,
+  "end": 222.07,
+  "text": "here this is your table see"
+ },
+ {
+  "start": 222.08,
+  "end": 228.309,
+  "text": "here Arana and then none AR none area"
+ },
+ {
+  "start": 228.319,
+  "end": 231.47,
+  "text": "busy and false area busy and false But"
+ },
+ {
+  "start": 231.48,
+  "end": 234.429,
+  "text": "If You observe closely see here this is"
+ },
+ {
+  "start": 234.439,
+  "end": 238.47,
+  "text": "not a table at all this is a"
+ },
+ {
+  "start": 238.48,
+  "end": 242.309,
+  "text": "container this particular table is under"
+ },
+ {
+  "start": 242.319,
+  "end": 245.309,
+  "text": "a parent container called div and these"
+ },
+ {
+  "start": 245.319,
+  "end": 247.35,
+  "text": "are all also containers see these are"
+ },
+ {
+  "start": 247.36,
+  "end": 248.229,
+  "text": "all"
+ },
+ {
+  "start": 248.239,
+  "end": 252.789,
+  "text": "containers and div containers right so"
+ },
+ {
+  "start": 252.799,
+  "end": 254.55,
+  "text": "now how can"
+ },
+ {
+  "start": 254.56,
+  "end": 257.749,
+  "text": "we capture this order ID so this is my"
+ },
+ {
+  "start": 257.759,
+  "end": 260.629,
+  "text": "order ID right here Order ID and this is"
+ },
+ {
+  "start": 260.639,
+  "end": 263.59,
+  "text": "my order ID so let's select this order"
+ },
+ {
+  "start": 263.6,
+  "end": 271.15,
+  "text": "ID here"
+ },
+ {
+  "start": 274.59,
+  "end": 274.6,
+  "text": "so if you select the order ID let's see"
+ },
+ {
+  "start": 274.6,
+  "end": 278.07,
+  "text": "the properties here because this order"
+ },
+ {
+  "start": 278.08,
+  "end": 281.59,
+  "text": "ID keeps on changing that means your"
+ },
+ {
+  "start": 281.6,
+  "end": 285.11,
+  "text": "inner text does not remain same so"
+ },
+ {
+  "start": 285.12,
+  "end": 287.83,
+  "text": "taking the property called inner text is"
+ },
+ {
+  "start": 287.84,
+  "end": 290.79,
+  "text": "wrong so that's why I'm going to uncheck"
+ },
+ {
+  "start": 290.8,
+  "end": 295.59,
+  "text": "this as soon as I uncheck now your"
+ },
+ {
+  "start": 295.6,
+  "end": 298.11,
+  "text": "object is not uniquely identified see"
+ },
+ {
+  "start": 298.12,
+  "end": 300.31,
+  "text": "here the selected object is not uniquely"
+ },
+ {
+  "start": 300.32,
+  "end": 303.07,
+  "text": "identified so then what we can do so in"
+ },
+ {
+  "start": 303.08,
+  "end": 307.27,
+  "text": "this case I can use identify by anchor"
+ },
+ {
+  "start": 307.28,
+  "end": 310.67,
+  "text": "method how what is the anchor if you see"
+ },
+ {
+  "start": 310.68,
+  "end": 314.029,
+  "text": "here this order ID whatever it is"
+ },
+ {
+  "start": 314.039,
+  "end": 317.749,
+  "text": "generating that is generating exactly in"
+ },
+ {
+  "start": 317.759,
+  "end": 321.39,
+  "text": "the same row where you have order ID as"
+ },
+ {
+  "start": 321.4,
+  "end": 324.71,
+  "text": "a text so whenever you generate every"
+ },
+ {
+  "start": 324.72,
+  "end": 328.11,
+  "text": "time this column and this column value"
+ },
+ {
+  "start": 328.12,
+  "end": 330.35,
+  "text": "goes hand in hand"
+ },
+ {
+  "start": 330.36,
+  "end": 334.189,
+  "text": "so that means I can uniquely identify"
+ },
+ {
+  "start": 334.199,
+  "end": 340.15,
+  "text": "this object by using the column order ID"
+ },
+ {
+  "start": 340.16,
+  "end": 345.029,
+  "text": "so let's select identify by"
+ },
+ {
+  "start": 345.039,
+  "end": 349.43,
+  "text": "anchor now I want to use this order ID"
+ },
+ {
+  "start": 349.44,
+  "end": 353.23,
+  "text": "as an anchor to identify this so for"
+ },
+ {
+  "start": 353.24,
+  "end": 357.749,
+  "text": "that you need to click on this and drag"
+ },
+ {
+  "start": 357.759,
+  "end": 360.629,
+  "text": "and drop onto anchor"
+ },
+ {
+  "start": 360.639,
+  "end": 365.15,
+  "text": "control see as soon as I drop now your"
+ },
+ {
+  "start": 365.16,
+  "end": 368.39,
+  "text": "order ID should be uniquely identified"
+ },
+ {
+  "start": 368.4,
+  "end": 373.909,
+  "text": "see now here my order ID is now uniquely"
+ },
+ {
+  "start": 373.919,
+  "end": 376.83,
+  "text": "identified so now let"
+ },
+ {
+  "start": 376.84,
+  "end": 381.83,
+  "text": "us rename this module with the obstacle"
+ },
+ {
+  "start": 381.84,
+  "end": 383.469,
+  "text": "ID"
+ },
+ {
+  "start": 383.479,
+  "end": 386.07,
+  "text": "right so this is my"
+ },
+ {
+  "start": 386.08,
+  "end": 393.469,
+  "text": "obstacle okay let's copy again"
+ },
+ {
+  "start": 398.67,
+  "end": 398.68,
+  "text": "copy this and paste it here but along"
+ },
+ {
+  "start": 398.68,
+  "end": 403.35,
+  "text": "with the order ID I also need to capture"
+ },
+ {
+  "start": 403.36,
+  "end": 408.15,
+  "text": "the button and the text so for that"
+ },
+ {
+  "start": 408.16,
+  "end": 410.55,
+  "text": "again go back to the"
+ },
+ {
+  "start": 410.56,
+  "end": 414.629,
+  "text": "filters and here this is my"
+ },
+ {
+  "start": 414.639,
+  "end": 418.71,
+  "text": "button which is uniquely identified and"
+ },
+ {
+  "start": 418.72,
+  "end": 421.39,
+  "text": "this is my edit box which is also"
+ },
+ {
+  "start": 421.4,
+  "end": 423.23,
+  "text": "uniquely"
+ },
+ {
+  "start": 423.24,
+  "end": 428.11,
+  "text": "identified right now save this"
+ },
+ {
+  "start": 428.12,
+  "end": 432.07,
+  "text": "module and close it so let's go back to"
+ },
+ {
+  "start": 432.08,
+  "end": 436.27,
+  "text": "trasa here this is my new module that"
+ },
+ {
+  "start": 436.28,
+  "end": 440.309,
+  "text": "has all the objects that we captured now"
+ },
+ {
+  "start": 440.319,
+  "end": 443.07,
+  "text": "let us create a new test case here on"
+ },
+ {
+  "start": 443.08,
+  "end": 444.589,
+  "text": "test case folder"
+ },
+ {
+  "start": 444.599,
+  "end": 447.39,
+  "text": "obstacle and name this as the same"
+ },
+ {
+  "start": 447.4,
+  "end": 449.629,
+  "text": "obstacle name"
+ },
+ {
+  "start": 449.639,
+  "end": 452.07,
+  "text": "sorry I need not to create a folder but"
+ },
+ {
+  "start": 452.08,
+  "end": 454.869,
+  "text": "I have to create a test case right click"
+ },
+ {
+  "start": 454.879,
+  "end": 456.79,
+  "text": "and select the test"
+ },
+ {
+  "start": 456.8,
+  "end": 460.589,
+  "text": "case paste it here now double click on"
+ },
+ {
+  "start": 460.599,
+  "end": 465.23,
+  "text": "this now I have to drag and drop my"
+ },
+ {
+  "start": 465.24,
+  "end": 467.309,
+  "text": "module onto the test"
+ },
+ {
+  "start": 467.319,
+  "end": 469.85,
+  "text": "case so now what is"
+ },
+ {
+  "start": 471.199,
+  "end": 475.11,
+  "text": "our actions sequence of actions my"
+ },
+ {
+  "start": 475.12,
+  "end": 476.83,
+  "text": "sequence of action is first I need to"
+ },
+ {
+  "start": 476.84,
+  "end": 480.309,
+  "text": "click on order ID right before before I"
+ },
+ {
+  "start": 480.319,
+  "end": 483.189,
+  "text": "capture the order ID here I need to"
+ },
+ {
+  "start": 483.199,
+  "end": 485.869,
+  "text": "click on button order ID generate order"
+ },
+ {
+  "start": 485.879,
+  "end": 490.39,
+  "text": "ID so but here the sequence of the"
+ },
+ {
+  "start": 490.4,
+  "end": 493.39,
+  "text": "objects are not proper so let me make"
+ },
+ {
+  "start": 493.4,
+  "end": 496.79,
+  "text": "them as logical order trag this and put"
+ },
+ {
+  "start": 496.8,
+  "end": 498.589,
+  "text": "it here so"
+ },
+ {
+  "start": 498.599,
+  "end": 503.589,
+  "text": "now click on this generate order ID"
+ },
+ {
+  "start": 503.599,
+  "end": 508.07,
+  "text": "button and then capture the inner text"
+ },
+ {
+  "start": 508.08,
+  "end": 510.07,
+  "text": "of this particular object"
+ },
+ {
+  "start": 510.08,
+  "end": 512.63,
+  "text": "so if you see here the object name is"
+ },
+ {
+  "start": 512.64,
+  "end": 515.43,
+  "text": "also not proper so it is a best practice"
+ },
+ {
+  "start": 515.44,
+  "end": 519.75,
+  "text": "to name the objects in logical manner"
+ },
+ {
+  "start": 519.76,
+  "end": 522.79,
+  "text": "because this order ID keeps on changing"
+ },
+ {
+  "start": 522.8,
+  "end": 525.949,
+  "text": "so I'm going to make this as order"
+ },
+ {
+  "start": 525.959,
+  "end": 530.35,
+  "text": "ID so now by default the object name"
+ },
+ {
+  "start": 530.36,
+  "end": 533.11,
+  "text": "also changes in the test case so here I"
+ },
+ {
+  "start": 533.12,
+  "end": 537.31,
+  "text": "need to capture the value into a buffer"
+ },
+ {
+  "start": 537.32,
+  "end": 539.91,
+  "text": "how can I do that I need to use use the"
+ },
+ {
+  "start": 539.92,
+  "end": 541.389,
+  "text": "action mode"
+ },
+ {
+  "start": 541.399,
+  "end": 543.31,
+  "text": "buffer and"
+ },
+ {
+  "start": 543.32,
+  "end": 547.59,
+  "text": "now I have to capture the inner text so"
+ },
+ {
+  "start": 547.6,
+  "end": 549.91,
+  "text": "for that click on this"
+ },
+ {
+  "start": 549.92,
+  "end": 553.829,
+  "text": "Arrow select inner text and I'm going to"
+ },
+ {
+  "start": 553.839,
+  "end": 557.829,
+  "text": "store this under order ID"
+ },
+ {
+  "start": 557.839,
+  "end": 562.43,
+  "text": "right done now I need to enter the order"
+ },
+ {
+  "start": 562.44,
+  "end": 566.829,
+  "text": "ID into text so here I'm going to call"
+ },
+ {
+  "start": 566.839,
+  "end": 568.03,
+  "text": "this"
+ },
+ {
+  "start": 568.04,
+  "end": 570.19,
+  "text": "buffer for that"
+ },
+ {
+  "start": 570.2,
+  "end": 571.63,
+  "text": "open curly"
+ },
+ {
+  "start": 571.64,
+  "end": 577.59,
+  "text": "braces capital b square curly braces"
+ },
+ {
+  "start": 577.6,
+  "end": 579.59,
+  "text": "order"
+ },
+ {
+  "start": 579.6,
+  "end": 581.269,
+  "text": "ID"
+ },
+ {
+  "start": 581.279,
+  "end": 586.43,
+  "text": "close Square braces and close curly"
+ },
+ {
+  "start": 586.44,
+  "end": 589.87,
+  "text": "braces so here now I'm entering the"
+ },
+ {
+  "start": 589.88,
+  "end": 594.269,
+  "text": "order ID from the buffer that I have"
+ },
+ {
+  "start": 594.279,
+  "end": 597.11,
+  "text": "stored that means I'm entering the value"
+ },
+ {
+  "start": 597.12,
+  "end": 601.03,
+  "text": "that stored under buffer called order"
+ },
+ {
+  "start": 601.04,
+  "end": 606.47,
+  "text": "ID so now let us mark this test case as"
+ },
+ {
+  "start": 606.48,
+  "end": 610.55,
+  "text": "complete now save this test case let us"
+ },
+ {
+  "start": 610.56,
+  "end": 612.91,
+  "text": "execute the test case and see what"
+ },
+ {
+  "start": 612.92,
+  "end": 621.59,
+  "text": "happens right click and run in"
+ },
+ {
+  "start": 624.47,
+  "end": 624.48,
+  "text": "scratchbook so it clicked on generate"
+ },
+ {
+  "start": 624.48,
+  "end": 629.75,
+  "text": "order ID and Order ID has been generated"
+ },
+ {
+  "start": 629.76,
+  "end": 631.949,
+  "text": "and see here"
+ },
+ {
+  "start": 631.959,
+  "end": 636.71,
+  "text": "1081 1656 by8 so the same number it"
+ },
+ {
+  "start": 636.72,
+  "end": 639.19,
+  "text": "entered if you go back to your test"
+ },
+ {
+  "start": 639.2,
+  "end": 641.91,
+  "text": "results"
+ },
+ {
+  "start": 646.55,
+  "end": 646.56,
+  "text": "here here you can see your order"
+ },
+ {
+  "start": 646.56,
+  "end": 649.43,
+  "text": "ID"
+ },
+ {
+  "start": 649.44,
+  "end": 653.629,
+  "text": "1081 1658 has been stored under buffer"
+ },
+ {
+  "start": 653.639,
+  "end": 656.43,
+  "text": "called order ID same thing we entered in"
+ },
+ {
+  "start": 656.44,
+  "end": 660.11,
+  "text": "the text box so now let let me execute"
+ },
+ {
+  "start": 660.12,
+  "end": 662.87,
+  "text": "one more time because whenever I click"
+ },
+ {
+  "start": 662.88,
+  "end": 666.269,
+  "text": "on this button this order ID generates"
+ },
+ {
+  "start": 666.279,
+  "end": 669.19,
+  "text": "dynamically in any row let's execute one"
+ },
+ {
+  "start": 669.2,
+  "end": 671.269,
+  "text": "more time and see if it is going to"
+ },
+ {
+  "start": 671.279,
+  "end": 678.47,
+  "text": "handle run one more"
+ },
+ {
+  "start": 681.91,
+  "end": 681.92,
+  "text": "time see now it clicked on order ID your"
+ },
+ {
+  "start": 681.92,
+  "end": 685.629,
+  "text": "order ID is changed unfortunately it is"
+ },
+ {
+  "start": 685.639,
+  "end": 687.23,
+  "text": "actually in the"
+ },
+ {
+  "start": 687.24,
+  "end": 701.23,
+  "text": "same row let me execute one more time"
+ },
+ {
+  "start": 704.23,
+  "end": 704.24,
+  "text": "quickly see it's clicked on button now"
+ },
+ {
+  "start": 704.24,
+  "end": 707.069,
+  "text": "your order ID is here not in third row"
+ },
+ {
+  "start": 707.079,
+  "end": 712.79,
+  "text": "still it is able to capture and 1069"
+ },
+ {
+  "start": 712.8,
+  "end": 718.59,
+  "text": "786 10 69 786 so it is able to capture"
+ },
+ {
+  "start": 718.6,
+  "end": 721.75,
+  "text": "and type in into the edit box so if you"
+ },
+ {
+  "start": 721.76,
+  "end": 723.629,
+  "text": "have any queries leave your queries in"
+ },
+ {
+  "start": 723.639,
+  "end": 725.43,
+  "text": "the comment box I'll try to respond to"
+ },
+ {
+  "start": 725.44,
+  "end": 728.11,
+  "text": "your"
+ },
+ {
+  "start": 731.629,
+  "end": 731.639,
+  "text": "queries hope you all understand how can"
+ },
+ {
+  "start": 731.639,
+  "end": 733.509,
+  "text": "we automate the test"
+ },
+ {
+  "start": 733.519,
+  "end": 737.43,
+  "text": "case where you need to interact with"
+ },
+ {
+  "start": 737.44,
+  "end": 741.23,
+  "text": "objects within the table that are"
+ },
+ {
+  "start": 741.24,
+  "end": 742.829,
+  "text": "dynamic in"
+ },
+ {
+  "start": 742.839,
+  "end": 745.55,
+  "text": "nature please do subscribe to the"
+ },
+ {
+  "start": 745.56,
+  "end": 747.829,
+  "text": "channel on Bell icon you'll receive"
+ },
+ {
+  "start": 747.839,
+  "end": 750.35,
+  "text": "notifications whenever I publish more"
+ },
+ {
+  "start": 750.36,
+  "end": 760.93,
+  "text": "videos thank you"
+ }
+]

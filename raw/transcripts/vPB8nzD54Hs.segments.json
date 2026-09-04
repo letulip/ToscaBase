@@ -1,0 +1,1277 @@
+[
+ {
+  "start": 13.47,
+  "end": 13.48,
+  "text": "hi everyone this is Ravi welcome to"
+ },
+ {
+  "start": 13.48,
+  "end": 17.189,
+  "text": "prentist tasa Advanced Training as you"
+ },
+ {
+  "start": 17.199,
+  "end": 19.83,
+  "text": "all know I've already published 46"
+ },
+ {
+  "start": 19.84,
+  "end": 23.429,
+  "text": "YouTube videos covering beginners level"
+ },
+ {
+  "start": 23.439,
+  "end": 27.189,
+  "text": "intermediate level and advanced level"
+ },
+ {
+  "start": 27.199,
+  "end": 30.31,
+  "text": "Concepts from past couple of videos have"
+ },
+ {
+  "start": 30.32,
+  "end": 33.19,
+  "text": "started posting the real time"
+ },
+ {
+  "start": 33.2,
+  "end": 37.069,
+  "text": "scenarios where you might encounter an"
+ },
+ {
+  "start": 37.079,
+  "end": 41.229,
+  "text": "obstacle while automating the test cases"
+ },
+ {
+  "start": 41.239,
+  "end": 44.75,
+  "text": "so how can we solve different types of"
+ },
+ {
+  "start": 44.76,
+  "end": 47.91,
+  "text": "obstacles in real time so this is"
+ },
+ {
+  "start": 47.92,
+  "end": 52.63,
+  "text": "our lesson five as part of real time"
+ },
+ {
+  "start": 52.64,
+  "end": 55.99,
+  "text": "scenarios with obstacles please do"
+ },
+ {
+  "start": 56.0,
+  "end": 57.75,
+  "text": "subscribe to the channel click on Bell"
+ },
+ {
+  "start": 57.76,
+  "end": 59.99,
+  "text": "icon you'll receive notifications"
+ },
+ {
+  "start": 60.0,
+  "end": 62.83,
+  "text": "whenever I publish more videos and don't"
+ },
+ {
+  "start": 62.84,
+  "end": 68.149,
+  "text": "forget to like and share the video thank"
+ },
+ {
+  "start": 68.159,
+  "end": 71.429,
+  "text": "you in this lesson I'm going to teach"
+ },
+ {
+  "start": 71.439,
+  "end": 75.39,
+  "text": "you a realtime scenario where you"
+ },
+ {
+  "start": 75.4,
+  "end": 78.35,
+  "text": "encounter an obstacle you need to"
+ },
+ {
+  "start": 78.36,
+  "end": 82.71,
+  "text": "interact with complex web tables and"
+ },
+ {
+  "start": 82.72,
+  "end": 86.55,
+  "text": "rows are Dynamic within the web table"
+ },
+ {
+  "start": 86.56,
+  "end": 90.109,
+  "text": "which means the data within the cells"
+ },
+ {
+  "start": 90.119,
+  "end": 94.35,
+  "text": "are Dynamic and the web table is complex"
+ },
+ {
+  "start": 94.36,
+  "end": 98.03,
+  "text": "to interact so how can we"
+ },
+ {
+  "start": 98.04,
+  "end": 101.59,
+  "text": "solve this obstacle while automating"
+ },
+ {
+  "start": 101.6,
+  "end": 106.23,
+  "text": "your test cases so for that let us first"
+ },
+ {
+  "start": 106.24,
+  "end": 108.87,
+  "text": "understand what is the obstacle that we"
+ },
+ {
+  "start": 108.88,
+  "end": 110.27,
+  "text": "are going to solve"
+ },
+ {
+  "start": 110.28,
+  "end": 113.55,
+  "text": "for so here we're going to"
+ },
+ {
+  "start": 113.56,
+  "end": 116.749,
+  "text": "solve the fifth"
+ },
+ {
+  "start": 116.759,
+  "end": 123.95,
+  "text": "obstacle here 922 4 8 so let's go for"
+ },
+ {
+  "start": 123.96,
+  "end": 127.229,
+  "text": "it so let us understand what is the"
+ },
+ {
+  "start": 127.239,
+  "end": 132.35,
+  "text": "obstacle so here complete table"
+ },
+ {
+  "start": 132.36,
+  "end": 136.07,
+  "text": "interactions click the edit button for"
+ },
+ {
+  "start": 136.08,
+  "end": 140.11,
+  "text": "John do so it might looks like simple"
+ },
+ {
+  "start": 140.12,
+  "end": 143.27,
+  "text": "but let me explain so this particular"
+ },
+ {
+  "start": 143.28,
+  "end": 147.71,
+  "text": "obstacle is categorized as hard why"
+ },
+ {
+  "start": 147.72,
+  "end": 150.589,
+  "text": "because if You observe closely here here"
+ },
+ {
+  "start": 150.599,
+  "end": 153.39,
+  "text": "this is our web table with columns first"
+ },
+ {
+  "start": 153.4,
+  "end": 155.83,
+  "text": "name last name email and"
+ },
+ {
+  "start": 155.84,
+  "end": 159.79,
+  "text": "action so in this web table we can see"
+ },
+ {
+  "start": 159.8,
+  "end": 162.149,
+  "text": "around four"
+ },
+ {
+  "start": 162.159,
+  "end": 167.63,
+  "text": "rows we need to click on edit button for"
+ },
+ {
+  "start": 167.64,
+  "end": 172.03,
+  "text": "the row where first name is"
+ },
+ {
+  "start": 172.04,
+  "end": 175.19,
+  "text": "John and the last name is do that means"
+ },
+ {
+  "start": 175.2,
+  "end": 179.91,
+  "text": "this is first R John do is in first room"
+ },
+ {
+  "start": 179.92,
+  "end": 182.869,
+  "text": "row you need to click on"
+ },
+ {
+  "start": 182.879,
+  "end": 186.83,
+  "text": "edit but so as soon as you click on edit"
+ },
+ {
+  "start": 186.84,
+  "end": 189.229,
+  "text": "so let me try again one more time what"
+ },
+ {
+  "start": 189.239,
+  "end": 192.27,
+  "text": "happens the page gets refresh if you see"
+ },
+ {
+  "start": 192.28,
+  "end": 196.949,
+  "text": "here now where is joho now the joho is"
+ },
+ {
+  "start": 196.959,
+  "end": 198.509,
+  "text": "in the last"
+ },
+ {
+  "start": 198.519,
+  "end": 202.55,
+  "text": "R let's click on edit again and let me"
+ },
+ {
+  "start": 202.56,
+  "end": 208.03,
+  "text": "try again now your joho is in second"
+ },
+ {
+  "start": 208.04,
+  "end": 212.949,
+  "text": "row okay so that means the data within"
+ },
+ {
+  "start": 212.959,
+  "end": 217.03,
+  "text": "the rows is dynamic so now how can I"
+ },
+ {
+  "start": 217.04,
+  "end": 218.589,
+  "text": "click on edit"
+ },
+ {
+  "start": 218.599,
+  "end": 223.39,
+  "text": "button corresponding to the John do"
+ },
+ {
+  "start": 223.4,
+  "end": 228.949,
+  "text": "row so for that let us go to"
+ },
+ {
+  "start": 232.75,
+  "end": 232.76,
+  "text": "prenta as usual we're going to"
+ },
+ {
+  "start": 232.76,
+  "end": 236.429,
+  "text": "start scanning the application and the"
+ },
+ {
+  "start": 236.439,
+  "end": 238.71,
+  "text": "objects so what is the folder this is"
+ },
+ {
+  "start": 238.72,
+  "end": 240.47,
+  "text": "the folder that we are working on"
+ },
+ {
+  "start": 240.48,
+  "end": 242.67,
+  "text": "obstacles is the folder double click on"
+ },
+ {
+  "start": 242.68,
+  "end": 244.91,
+  "text": "this so we already completed four"
+ },
+ {
+  "start": 244.92,
+  "end": 245.91,
+  "text": "different"
+ },
+ {
+  "start": 245.92,
+  "end": 249.309,
+  "text": "obstacles in our previous lessons so I"
+ },
+ {
+  "start": 249.319,
+  "end": 251.35,
+  "text": "would recommend you guys to go through"
+ },
+ {
+  "start": 251.36,
+  "end": 254.75,
+  "text": "those obstacles so now let's right click"
+ },
+ {
+  "start": 254.76,
+  "end": 256.469,
+  "text": "on obstacles"
+ },
+ {
+  "start": 256.479,
+  "end": 267.51,
+  "text": "folder and click on scan and select"
+ },
+ {
+  "start": 270.55,
+  "end": 270.56,
+  "text": "application so this is the application"
+ },
+ {
+  "start": 270.56,
+  "end": 277.11,
+  "text": "that I would like to"
+ },
+ {
+  "start": 280.67,
+  "end": 280.68,
+  "text": "scan now let us maximize the"
+ },
+ {
+  "start": 280.68,
+  "end": 284.11,
+  "text": "window and if you see here what is the"
+ },
+ {
+  "start": 284.12,
+  "end": 286.909,
+  "text": "table this is your web table that we are"
+ },
+ {
+  "start": 286.919,
+  "end": 290.43,
+  "text": "talking about this is your web table"
+ },
+ {
+  "start": 290.44,
+  "end": 294.11,
+  "text": "persons is the web table right so let's"
+ },
+ {
+  "start": 294.12,
+  "end": 295.469,
+  "text": "select"
+ },
+ {
+  "start": 295.479,
+  "end": 299.99,
+  "text": "this and click on highlight see it is"
+ },
+ {
+  "start": 300.0,
+  "end": 302.39,
+  "text": "highlighting the web table that means"
+ },
+ {
+  "start": 302.4,
+  "end": 306.67,
+  "text": "this is our web table and if you see for"
+ },
+ {
+  "start": 306.68,
+  "end": 310.43,
+  "text": "every row you have two buttons one is"
+ },
+ {
+  "start": 310.44,
+  "end": 313.71,
+  "text": "remove another one is edit correct so"
+ },
+ {
+  "start": 313.72,
+  "end": 317.029,
+  "text": "that's why we can see remove edit remove"
+ },
+ {
+  "start": 317.039,
+  "end": 320.43,
+  "text": "edit so four rows four remove edit"
+ },
+ {
+  "start": 320.44,
+  "end": 323.95,
+  "text": "buttons okay so let me select one edit"
+ },
+ {
+  "start": 323.96,
+  "end": 326.39,
+  "text": "button because we have to click on edit"
+ },
+ {
+  "start": 326.4,
+  "end": 328.67,
+  "text": "button I would like to select one of the"
+ },
+ {
+  "start": 328.68,
+  "end": 330.55,
+  "text": "edit button so we need not to select"
+ },
+ {
+  "start": 330.56,
+  "end": 333.189,
+  "text": "multiple but one of the edit button if"
+ },
+ {
+  "start": 333.199,
+  "end": 336.27,
+  "text": "you see the edit button is not uniquely"
+ },
+ {
+  "start": 336.28,
+  "end": 337.55,
+  "text": "identified"
+ },
+ {
+  "start": 337.56,
+  "end": 340.71,
+  "text": "because you have multiple edit buttons"
+ },
+ {
+  "start": 340.72,
+  "end": 342.629,
+  "text": "and the properties of those buttons are"
+ },
+ {
+  "start": 342.639,
+  "end": 346.59,
+  "text": "same for now you need not to worry about"
+ },
+ {
+  "start": 346.6,
+  "end": 351.309,
+  "text": "the edit button not identifying uniquely"
+ },
+ {
+  "start": 351.319,
+  "end": 353.43,
+  "text": "we are going to solve this unique"
+ },
+ {
+  "start": 353.44,
+  "end": 355.749,
+  "text": "identification while automating our test"
+ },
+ {
+  "start": 355.759,
+  "end": 358.83,
+  "text": "case so for now you can just ignore even"
+ },
+ {
+  "start": 358.84,
+  "end": 362.23,
+  "text": "though it is not not identifying"
+ },
+ {
+  "start": 362.24,
+  "end": 365.99,
+  "text": "uniquely let's save the objects so what"
+ },
+ {
+  "start": 366.0,
+  "end": 369.15,
+  "text": "I did I've selected web table and one"
+ },
+ {
+  "start": 369.16,
+  "end": 372.39,
+  "text": "edit button so let's rename this module"
+ },
+ {
+  "start": 372.4,
+  "end": 375.67,
+  "text": "as I told you it's best practice to"
+ },
+ {
+  "start": 375.68,
+  "end": 377.749,
+  "text": "rename the"
+ },
+ {
+  "start": 377.759,
+  "end": 381.309,
+  "text": "module with logical sense okay I'm"
+ },
+ {
+  "start": 381.319,
+  "end": 385.589,
+  "text": "renaming it with obstacle name okay so"
+ },
+ {
+  "start": 385.599,
+  "end": 390.589,
+  "text": "now let's save"
+ },
+ {
+  "start": 393.39,
+  "end": 393.4,
+  "text": "and close your X"
+ },
+ {
+  "start": 393.4,
+  "end": 397.27,
+  "text": "scan so let's go back to trient tasa so"
+ },
+ {
+  "start": 397.28,
+  "end": 401.15,
+  "text": "this is our new fifth obstacle where I"
+ },
+ {
+  "start": 401.16,
+  "end": 401.909,
+  "text": "can"
+ },
+ {
+  "start": 401.919,
+  "end": 406.71,
+  "text": "see web table row column and edit button"
+ },
+ {
+  "start": 406.72,
+  "end": 409.27,
+  "text": "so now let's create a new test case"
+ },
+ {
+  "start": 409.28,
+  "end": 412.55,
+  "text": "right click on this obstacle folder and"
+ },
+ {
+  "start": 412.56,
+  "end": 416.189,
+  "text": "click on create test"
+ },
+ {
+  "start": 416.199,
+  "end": 420.749,
+  "text": "case name this as obstacle"
+ },
+ {
+  "start": 420.759,
+  "end": 424.629,
+  "text": "okay double click on test case so now"
+ },
+ {
+  "start": 424.639,
+  "end": 428.869,
+  "text": "let us create a test case so we need to"
+ },
+ {
+  "start": 428.879,
+  "end": 431.23,
+  "text": "automate the test case to automate you"
+ },
+ {
+  "start": 431.24,
+  "end": 434.15,
+  "text": "need to drag this module whatever we"
+ },
+ {
+  "start": 434.16,
+  "end": 439.67,
+  "text": "captured and drop onto your test"
+ },
+ {
+  "start": 442.909,
+  "end": 442.919,
+  "text": "case Okay so once drag and drop onto the"
+ },
+ {
+  "start": 442.919,
+  "end": 446.83,
+  "text": "test case now let's see what we should"
+ },
+ {
+  "start": 446.84,
+  "end": 450.749,
+  "text": "do okay so if you see here the web table"
+ },
+ {
+  "start": 450.759,
+  "end": 455.15,
+  "text": "has row column and edit button so"
+ },
+ {
+  "start": 455.16,
+  "end": 457.83,
+  "text": "basically the edit button is outside the"
+ },
+ {
+  "start": 457.84,
+  "end": 460.23,
+  "text": "row and column whereas in the"
+ },
+ {
+  "start": 460.24,
+  "end": 462.83,
+  "text": "application the edit button is within"
+ },
+ {
+  "start": 462.84,
+  "end": 468.589,
+  "text": "the row so that's why we have to bring"
+ },
+ {
+  "start": 468.599,
+  "end": 473.749,
+  "text": "this inside a row so that this edit"
+ },
+ {
+  "start": 473.759,
+  "end": 477.469,
+  "text": "button can be uniquely identified so"
+ },
+ {
+  "start": 477.479,
+  "end": 480.149,
+  "text": "earlier when I am saving the module"
+ },
+ {
+  "start": 480.159,
+  "end": 482.469,
+  "text": "this edit button was not uniquely"
+ },
+ {
+  "start": 482.479,
+  "end": 485.869,
+  "text": "identified because it is not within the"
+ },
+ {
+  "start": 485.879,
+  "end": 489.43,
+  "text": "row so what I'm going to do now for that"
+ },
+ {
+  "start": 489.44,
+  "end": 491.909,
+  "text": "let's go back to your module what I'm"
+ },
+ {
+  "start": 491.919,
+  "end": 494.589,
+  "text": "going to do this is your edit"
+ },
+ {
+  "start": 494.599,
+  "end": 496.749,
+  "text": "button I want"
+ },
+ {
+  "start": 496.759,
+  "end": 501.51,
+  "text": "to move this edit button to the row"
+ },
+ {
+  "start": 501.52,
+  "end": 505.95,
+  "text": "inside the row simply click on this"
+ },
+ {
+  "start": 505.96,
+  "end": 509.749,
+  "text": "drag and drop"
+ },
+ {
+  "start": 509.759,
+  "end": 513.23,
+  "text": "inside"
+ },
+ {
+  "start": 516.949,
+  "end": 516.959,
+  "text": "row so now you can see your edit button"
+ },
+ {
+  "start": 516.959,
+  "end": 518.79,
+  "text": "is inside"
+ },
+ {
+  "start": 518.8,
+  "end": 523.269,
+  "text": "row you have a cell and row correct in"
+ },
+ {
+  "start": 523.279,
+  "end": 525.67,
+  "text": "the same way now your test case also you"
+ },
+ {
+  "start": 525.68,
+  "end": 530.389,
+  "text": "can see here you have table row cell"
+ },
+ {
+  "start": 530.399,
+  "end": 532.71,
+  "text": "edit button so if you add remove button"
+ },
+ {
+  "start": 532.72,
+  "end": 534.829,
+  "text": "you will have a remove button also okay"
+ },
+ {
+  "start": 534.839,
+  "end": 538.269,
+  "text": "so now your edit button can be uniquely"
+ },
+ {
+  "start": 538.279,
+  "end": 541.31,
+  "text": "identified whatever the row number which"
+ },
+ {
+  "start": 541.32,
+  "end": 545.47,
+  "text": "I pass that becomes your edit button so"
+ },
+ {
+  "start": 545.48,
+  "end": 549.91,
+  "text": "now here under cell I would like to"
+ },
+ {
+  "start": 549.92,
+  "end": 552.55,
+  "text": "select first"
+ },
+ {
+  "start": 552.56,
+  "end": 557.15,
+  "text": "name why because I would like to click"
+ },
+ {
+  "start": 557.16,
+  "end": 560.99,
+  "text": "on an edit button which has a first name"
+ },
+ {
+  "start": 561.0,
+  "end": 562.069,
+  "text": "of"
+ },
+ {
+  "start": 562.079,
+  "end": 568.35,
+  "text": "John so that means I selected"
+ },
+ {
+  "start": 572.389,
+  "end": 572.399,
+  "text": "the row as first name and if You observe"
+ },
+ {
+  "start": 572.399,
+  "end": 574.75,
+  "text": "closely I'm not mentioning the row"
+ },
+ {
+  "start": 574.76,
+  "end": 577.87,
+  "text": "whether it is a first row second row"
+ },
+ {
+  "start": 577.88,
+  "end": 580.509,
+  "text": "last row or something because I want to"
+ },
+ {
+  "start": 580.519,
+  "end": 584.15,
+  "text": "iterate through all the rows identify if"
+ },
+ {
+  "start": 584.16,
+  "end": 587.23,
+  "text": "it is a John then click on edit button"
+ },
+ {
+  "start": 587.24,
+  "end": 589.949,
+  "text": "okay so for that what I'm going to"
+ },
+ {
+  "start": 589.959,
+  "end": 597.389,
+  "text": "do first name if first name what is the"
+ },
+ {
+  "start": 597.399,
+  "end": 600.67,
+  "text": "value John"
+ },
+ {
+  "start": 600.68,
+  "end": 604.11,
+  "text": "here I'm not going to verify I'm going"
+ },
+ {
+  "start": 604.12,
+  "end": 607.67,
+  "text": "to use the action mode as"
+ },
+ {
+  "start": 607.68,
+  "end": 610.87,
+  "text": "constraint If You observe closely"
+ },
+ {
+  "start": 610.88,
+  "end": 614.11,
+  "text": "here I'm selecting a table select a"
+ },
+ {
+  "start": 614.12,
+  "end": 617.269,
+  "text": "table and then I'm selecting a"
+ },
+ {
+  "start": 617.279,
+  "end": 621.91,
+  "text": "row I'm validating first name"
+ },
+ {
+  "start": 621.92,
+  "end": 624.949,
+  "text": "John and I'm including it as a"
+ },
+ {
+  "start": 624.959,
+  "end": 628.35,
+  "text": "constraint constraint means filter so"
+ },
+ {
+  "start": 628.36,
+  "end": 631.23,
+  "text": "basically check for the"
+ },
+ {
+  "start": 631.24,
+  "end": 635.069,
+  "text": "row which has a first name as John"
+ },
+ {
+  "start": 635.079,
+  "end": 637.91,
+  "text": "constraint means it is going to look for"
+ },
+ {
+  "start": 637.92,
+  "end": 641.75,
+  "text": "that particular row and then if you see"
+ },
+ {
+  "start": 641.76,
+  "end": 644.75,
+  "text": "here in the first name I can see this is"
+ },
+ {
+  "start": 644.76,
+  "end": 648.31,
+  "text": "John and this is also John that means I"
+ },
+ {
+  "start": 648.32,
+  "end": 651.949,
+  "text": "have a duplication right but last name"
+ },
+ {
+  "start": 651.959,
+  "end": 655.03,
+  "text": "should be do here the other one has last"
+ },
+ {
+  "start": 655.04,
+  "end": 658.35,
+  "text": "name little so now I need to include a"
+ },
+ {
+  "start": 658.36,
+  "end": 661.15,
+  "text": "constraint for last name also so that's"
+ },
+ {
+  "start": 661.16,
+  "end": 663.79,
+  "text": "why I'm going to select here another"
+ },
+ {
+  "start": 663.8,
+  "end": 667.43,
+  "text": "cell if the Cell last"
+ },
+ {
+  "start": 667.44,
+  "end": 669.629,
+  "text": "name"
+ },
+ {
+  "start": 669.639,
+  "end": 677.509,
+  "text": "contains do John do d e do and add a"
+ },
+ {
+  "start": 677.519,
+  "end": 680.35,
+  "text": "constraint constraint means it's going"
+ },
+ {
+  "start": 680.36,
+  "end": 682.509,
+  "text": "to look for this"
+ },
+ {
+  "start": 682.519,
+  "end": 686.47,
+  "text": "data then only it proceeds to The Next"
+ },
+ {
+  "start": 686.48,
+  "end": 692.55,
+  "text": "Step Okay so under this table for any"
+ },
+ {
+  "start": 692.56,
+  "end": 695.87,
+  "text": "row because I'm not selecting first row"
+ },
+ {
+  "start": 695.88,
+  "end": 699.15,
+  "text": "or second row okay for any row look for"
+ },
+ {
+  "start": 699.16,
+  "end": 702.67,
+  "text": "first name as John and look for last"
+ },
+ {
+  "start": 702.68,
+  "end": 705.79,
+  "text": "name as dove that's why I'm including"
+ },
+ {
+  "start": 705.8,
+  "end": 709.269,
+  "text": "action mode as constraint and then if"
+ },
+ {
+  "start": 709.279,
+  "end": 713.75,
+  "text": "these two matches then click on edit"
+ },
+ {
+  "start": 713.76,
+  "end": 717.67,
+  "text": "button here clicking on edit button I"
+ },
+ {
+  "start": 717.68,
+  "end": 721.55,
+  "text": "can pass X or I can pass click I would"
+ },
+ {
+  "start": 721.56,
+  "end": 724.43,
+  "text": "like to pass click so that you can see"
+ },
+ {
+  "start": 724.44,
+  "end": 726.47,
+  "text": "the mouse"
+ },
+ {
+  "start": 726.48,
+  "end": 730.67,
+  "text": "cursor it is clicking on which row okay"
+ },
+ {
+  "start": 730.68,
+  "end": 735.91,
+  "text": "so done so now let's save the test"
+ },
+ {
+  "start": 735.92,
+  "end": 740.11,
+  "text": "case so let me repeat what we did"
+ },
+ {
+  "start": 740.12,
+  "end": 742.99,
+  "text": "okay we are selecting a"
+ },
+ {
+  "start": 743.0,
+  "end": 746.269,
+  "text": "table and then I'm"
+ },
+ {
+  "start": 746.279,
+  "end": 750.189,
+  "text": "selecting a row also but but when I'm"
+ },
+ {
+  "start": 750.199,
+  "end": 752.99,
+  "text": "selecting a row I'm not specifying any"
+ },
+ {
+  "start": 753.0,
+  "end": 756.43,
+  "text": "row number here and then I'm looking out"
+ },
+ {
+  "start": 756.44,
+  "end": 760.15,
+  "text": "for first name I'm looking out for first"
+ },
+ {
+  "start": 760.16,
+  "end": 763.829,
+  "text": "name column this is your column for"
+ },
+ {
+  "start": 763.839,
+  "end": 767.59,
+  "text": "first name column look for JW that is my"
+ },
+ {
+  "start": 767.6,
+  "end": 770.629,
+  "text": "constraint action mode and then for last"
+ },
+ {
+  "start": 770.639,
+  "end": 774.31,
+  "text": "name column look for do that is my"
+ },
+ {
+  "start": 774.32,
+  "end": 776.99,
+  "text": "constraint if these two constraint"
+ },
+ {
+  "start": 777.0,
+  "end": 780.509,
+  "text": "matches then click on edit"
+ },
+ {
+  "start": 780.519,
+  "end": 785.03,
+  "text": "button right so now let's mark the work"
+ },
+ {
+  "start": 785.04,
+  "end": 787.23,
+  "text": "state as"
+ },
+ {
+  "start": 787.24,
+  "end": 791.23,
+  "text": "completed save your test case so let me"
+ },
+ {
+  "start": 791.24,
+  "end": 794.389,
+  "text": "run the test case now let's run this"
+ },
+ {
+  "start": 794.399,
+  "end": 796.35,
+  "text": "test case and see what happens right"
+ },
+ {
+  "start": 796.36,
+  "end": 804.11,
+  "text": "click and run in"
+ },
+ {
+  "start": 807.79,
+  "end": 807.8,
+  "text": "scratchbook see it went to second row it"
+ },
+ {
+  "start": 807.8,
+  "end": 811.15,
+  "text": "clicked you solve this automation"
+ },
+ {
+  "start": 811.16,
+  "end": 814.59,
+  "text": "problem let me do one thing let me try"
+ },
+ {
+  "start": 814.6,
+  "end": 819.03,
+  "text": "again let's see here now your joho is in"
+ },
+ {
+  "start": 819.04,
+  "end": 821.389,
+  "text": "third row let's run this particular test"
+ },
+ {
+  "start": 821.399,
+  "end": 824.069,
+  "text": "case one more time and see what happens"
+ },
+ {
+  "start": 824.079,
+  "end": 830.03,
+  "text": "right click and"
+ },
+ {
+  "start": 833.629,
+  "end": 833.639,
+  "text": "run see it is clicking on edit button"
+ },
+ {
+  "start": 833.639,
+  "end": 837.43,
+  "text": "which is in third row so you solve this"
+ },
+ {
+  "start": 837.44,
+  "end": 841.23,
+  "text": "automation problem so this is how you"
+ },
+ {
+  "start": 841.24,
+  "end": 843.59,
+  "text": "can solve an"
+ },
+ {
+  "start": 843.6,
+  "end": 847.43,
+  "text": "obstacle where you need to interact with"
+ },
+ {
+  "start": 847.44,
+  "end": 851.99,
+  "text": "the complex web tables and the data"
+ },
+ {
+  "start": 852.0,
+  "end": 856.03,
+  "text": "within the web table cells is a dynamic"
+ },
+ {
+  "start": 856.04,
+  "end": 859.23,
+  "text": "in nature if you have any queries leave"
+ },
+ {
+  "start": 859.24,
+  "end": 861.23,
+  "text": "your queries in the comment box I'll try"
+ },
+ {
+  "start": 861.24,
+  "end": 865.47,
+  "text": "to respond to your queries hope you all"
+ },
+ {
+  "start": 865.48,
+  "end": 869.31,
+  "text": "understand how can we solve for an abst"
+ },
+ {
+  "start": 869.32,
+  "end": 873.269,
+  "text": "ccle where you need to interact with the"
+ },
+ {
+  "start": 873.279,
+  "end": 874.87,
+  "text": "complex web"
+ },
+ {
+  "start": 874.88,
+  "end": 878.79,
+  "text": "tables in which the data within the"
+ },
+ {
+  "start": 878.8,
+  "end": 882.749,
+  "text": "cells is dynamic in nature while"
+ },
+ {
+  "start": 882.759,
+  "end": 885.15,
+  "text": "automating your test"
+ },
+ {
+  "start": 885.16,
+  "end": 888.47,
+  "text": "cases please do subscribe to the channel"
+ },
+ {
+  "start": 888.48,
+  "end": 890.269,
+  "text": "click on Bell icon you'll receive"
+ },
+ {
+  "start": 890.279,
+  "end": 892.829,
+  "text": "notifications whenever I publish more"
+ },
+ {
+  "start": 892.839,
+  "end": 895.99,
+  "text": "videos and don't forget to like and"
+ },
+ {
+  "start": 896.0,
+  "end": 906.7,
+  "text": "share the video thank you"
+ }
+]

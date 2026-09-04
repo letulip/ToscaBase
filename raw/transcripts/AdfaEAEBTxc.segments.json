@@ -1,0 +1,822 @@
+[
+ {
+  "start": 13.589,
+  "end": 13.599,
+  "text": "hi everyone this is Ravi welcome to"
+ },
+ {
+  "start": 13.599,
+  "end": 16.189,
+  "text": "price Anda automation"
+ },
+ {
+  "start": 16.199,
+  "end": 18.55,
+  "text": "tutorial as you all know I've already"
+ },
+ {
+  "start": 18.56,
+  "end": 22.23,
+  "text": "published 35 YouTube videos covering"
+ },
+ {
+  "start": 22.24,
+  "end": 25.189,
+  "text": "different topics of prentist tasa"
+ },
+ {
+  "start": 25.199,
+  "end": 28.31,
+  "text": "automation Concepts so in my previous"
+ },
+ {
+  "start": 28.32,
+  "end": 32.069,
+  "text": "session we learned about how can you"
+ },
+ {
+  "start": 32.079,
+  "end": 35.83,
+  "text": "create modify and then how can you"
+ },
+ {
+  "start": 35.84,
+  "end": 39.11,
+  "text": "manipulate the Excel range or Excel"
+ },
+ {
+  "start": 39.12,
+  "end": 42.95,
+  "text": "workbook by using Excel engine in"
+ },
+ {
+  "start": 42.96,
+  "end": 45.31,
+  "text": "triena so I would recommend you guys to"
+ },
+ {
+  "start": 45.32,
+  "end": 48.51,
+  "text": "go through my previous lesson 35 before"
+ },
+ {
+  "start": 48.52,
+  "end": 49.709,
+  "text": "you watch this"
+ },
+ {
+  "start": 49.719,
+  "end": 53.83,
+  "text": "session this is our lesson 36 in terms"
+ },
+ {
+  "start": 53.84,
+  "end": 56.709,
+  "text": "of overall tricentis TSA automation"
+ },
+ {
+  "start": 56.719,
+  "end": 60.509,
+  "text": "Concepts and this is our lesson 21 one"
+ },
+ {
+  "start": 60.519,
+  "end": 64.149,
+  "text": "in terms of Advanced Training so in this"
+ },
+ {
+  "start": 64.159,
+  "end": 67.71,
+  "text": "lesson I'm going to cover how can we"
+ },
+ {
+  "start": 67.72,
+  "end": 70.789,
+  "text": "calculate the row count and how can we"
+ },
+ {
+  "start": 70.799,
+  "end": 74.35,
+  "text": "calculate the column count of an Excel"
+ },
+ {
+  "start": 74.36,
+  "end": 77.27,
+  "text": "range within the Excel workbook which"
+ },
+ {
+  "start": 77.28,
+  "end": 80.95,
+  "text": "means if you store enormous data Excel"
+ },
+ {
+  "start": 80.96,
+  "end": 84.51,
+  "text": "sheet right and then how can we"
+ },
+ {
+  "start": 84.52,
+  "end": 87.39,
+  "text": "calculate the number of rows of data"
+ },
+ {
+  "start": 87.4,
+  "end": 89.149,
+  "text": "that is present in the Excel sheet and"
+ },
+ {
+  "start": 89.159,
+  "end": 91.749,
+  "text": "then how can we calculate number of"
+ },
+ {
+  "start": 91.759,
+  "end": 94.109,
+  "text": "columns of the data that is present in"
+ },
+ {
+  "start": 94.119,
+  "end": 97.469,
+  "text": "the Excel sheet please do subscribe to"
+ },
+ {
+  "start": 97.479,
+  "end": 99.19,
+  "text": "the channel click on Bell icon you'll"
+ },
+ {
+  "start": 99.2,
+  "end": 101.429,
+  "text": "receive notifications whenever I publish"
+ },
+ {
+  "start": 101.439,
+  "end": 104.749,
+  "text": "more videos thank you now let us jump"
+ },
+ {
+  "start": 104.759,
+  "end": 106.63,
+  "text": "onto the system and see how can we"
+ },
+ {
+  "start": 106.64,
+  "end": 110.31,
+  "text": "calculate row and column count of your"
+ },
+ {
+  "start": 110.32,
+  "end": 111.429,
+  "text": "Excel"
+ },
+ {
+  "start": 111.439,
+  "end": 113.429,
+  "text": "workbook this is my"
+ },
+ {
+  "start": 113.439,
+  "end": 115.87,
+  "text": "TSA so if you remember"
+ },
+ {
+  "start": 115.88,
+  "end": 119.83,
+  "text": "correctly we have learned all these oper"
+ },
+ {
+  "start": 119.84,
+  "end": 122.59,
+  "text": "operations in our previous session tbox"
+ },
+ {
+  "start": 122.6,
+  "end": 128.07,
+  "text": "delete file tbox open work book tbox"
+ },
+ {
+  "start": 128.08,
+  "end": 132.07,
+  "text": "create Excel worksheet and then tbox"
+ },
+ {
+  "start": 132.08,
+  "end": 135.11,
+  "text": "Define excel range tbox Excel range"
+ },
+ {
+  "start": 135.12,
+  "end": 138.19,
+  "text": "manipulation to modify the data tbox"
+ },
+ {
+  "start": 138.2,
+  "end": 141.15,
+  "text": "close or save workbook right so now let"
+ },
+ {
+  "start": 141.16,
+  "end": 144.75,
+  "text": "me create a new folder here I want to"
+ },
+ {
+  "start": 144.76,
+  "end": 147.91,
+  "text": "create a new folder"
+ },
+ {
+  "start": 150.39,
+  "end": 150.4,
+  "text": "called row"
+ },
+ {
+  "start": 150.4,
+  "end": 153.71,
+  "text": "and column"
+ },
+ {
+  "start": 153.72,
+  "end": 156.99,
+  "text": "count and then I'm going to create a new"
+ },
+ {
+  "start": 157.0,
+  "end": 158.71,
+  "text": "test"
+ },
+ {
+  "start": 158.72,
+  "end": 165.67,
+  "text": "case row column"
+ },
+ {
+  "start": 168.55,
+  "end": 168.56,
+  "text": "count here I want to"
+ },
+ {
+  "start": 168.56,
+  "end": 171.47,
+  "text": "copy some of the test steps as is from"
+ },
+ {
+  "start": 171.48,
+  "end": 173.91,
+  "text": "my previous session okay I want to copy"
+ },
+ {
+  "start": 173.92,
+  "end": 177.949,
+  "text": "open Excel workbook and then Define"
+ },
+ {
+  "start": 177.959,
+  "end": 180.71,
+  "text": "excel work range"
+ },
+ {
+  "start": 180.72,
+  "end": 182.309,
+  "text": "Excel"
+ },
+ {
+  "start": 182.319,
+  "end": 185.63,
+  "text": "range and then I want to copy close"
+ },
+ {
+  "start": 185.64,
+  "end": 189.63,
+  "text": "workbook copy all these steps and paste"
+ },
+ {
+  "start": 189.64,
+  "end": 194.43,
+  "text": "in the new test"
+ },
+ {
+  "start": 200.83,
+  "end": 200.84,
+  "text": "case okay now we have Define excel range"
+ },
+ {
+  "start": 200.84,
+  "end": 203.949,
+  "text": "correct and then open Excel workbook so"
+ },
+ {
+  "start": 203.959,
+  "end": 206.55,
+  "text": "let me just put it into chronical order"
+ },
+ {
+  "start": 206.56,
+  "end": 209.229,
+  "text": "so here first I'm going to open Excel"
+ },
+ {
+  "start": 209.239,
+  "end": 211.949,
+  "text": "workbook but in this case I don't want"
+ },
+ {
+  "start": 211.959,
+  "end": 215.03,
+  "text": "to create a new I want to use an Excel"
+ },
+ {
+  "start": 215.04,
+  "end": 217.429,
+  "text": "existing Excel workbook that we created"
+ },
+ {
+  "start": 217.439,
+  "end": 220.99,
+  "text": "in my previous session that's why I'm"
+ },
+ {
+  "start": 221.0,
+  "end": 223.71,
+  "text": "selecting create new as false so I want"
+ },
+ {
+  "start": 223.72,
+  "end": 226.229,
+  "text": "to use the same workbook that we created"
+ },
+ {
+  "start": 226.239,
+  "end": 229.35,
+  "text": "earlier so let me show that workbook"
+ },
+ {
+  "start": 229.36,
+  "end": 233.47,
+  "text": "okay in this workbook we can see this is"
+ },
+ {
+  "start": 233.48,
+  "end": 235.67,
+  "text": "this has almost like six rows and then"
+ },
+ {
+  "start": 235.68,
+  "end": 238.67,
+  "text": "two columns right so let me close"
+ },
+ {
+  "start": 238.68,
+  "end": 240.19,
+  "text": "this"
+ },
+ {
+  "start": 240.2,
+  "end": 246.429,
+  "text": "the same I'm using here now let me copy"
+ },
+ {
+  "start": 246.439,
+  "end": 249.99,
+  "text": "or let me create a new test step here so"
+ },
+ {
+  "start": 250.0,
+  "end": 255.71,
+  "text": "let me add a new test tip called"
+ },
+ {
+  "start": 260.789,
+  "end": 260.799,
+  "text": "tbox Excel range manipulation I want to"
+ },
+ {
+  "start": 260.799,
+  "end": 263.629,
+  "text": "insert a new step for Excel range"
+ },
+ {
+  "start": 263.639,
+  "end": 266.59,
+  "text": "manipulation and bring this prior to"
+ },
+ {
+  "start": 266.6,
+  "end": 268.43,
+  "text": "closing the Excel"
+ },
+ {
+  "start": 268.44,
+  "end": 271.15,
+  "text": "workbook and and here what is the range"
+ },
+ {
+  "start": 271.16,
+  "end": 274.07,
+  "text": "name the range name is same as my"
+ },
+ {
+  "start": 274.08,
+  "end": 275.909,
+  "text": "previous step I want to use the same"
+ },
+ {
+  "start": 275.919,
+  "end": 277.909,
+  "text": "range"
+ },
+ {
+  "start": 277.919,
+  "end": 283.189,
+  "text": "name right and I want to rename this as"
+ },
+ {
+  "start": 283.199,
+  "end": 286.469,
+  "text": "row"
+ },
+ {
+  "start": 294.27,
+  "end": 294.28,
+  "text": "calculation now I want to insert the"
+ },
+ {
+  "start": 294.28,
+  "end": 299.029,
+  "text": "same step one more time Excel range"
+ },
+ {
+  "start": 299.039,
+  "end": 302.39,
+  "text": "manipul"
+ },
+ {
+  "start": 304.629,
+  "end": 304.639,
+  "text": "and bring this Excel range manipulation"
+ },
+ {
+  "start": 304.639,
+  "end": 307.95,
+  "text": "again prior to closing your Excel"
+ },
+ {
+  "start": 307.96,
+  "end": 310.99,
+  "text": "workbook and I want to define the same"
+ },
+ {
+  "start": 311.0,
+  "end": 313.469,
+  "text": "Excel range because I'm calculating the"
+ },
+ {
+  "start": 313.479,
+  "end": 315.59,
+  "text": "column count for the same Excel"
+ },
+ {
+  "start": 315.6,
+  "end": 317.43,
+  "text": "range and"
+ },
+ {
+  "start": 317.44,
+  "end": 322.15,
+  "text": "now for row count how can I calculate"
+ },
+ {
+  "start": 322.16,
+  "end": 324.35,
+  "text": "the row count so you need to use the"
+ },
+ {
+  "start": 324.36,
+  "end": 326.83,
+  "text": "method called for the web table I'm"
+ },
+ {
+  "start": 326.84,
+  "end": 328.99,
+  "text": "talking about in the data table you need"
+ },
+ {
+  "start": 329.0,
+  "end": 331.51,
+  "text": "not to enter any row and column as we"
+ },
+ {
+  "start": 331.52,
+  "end": 333.469,
+  "text": "did in earlier session while"
+ },
+ {
+  "start": 333.479,
+  "end": 335.71,
+  "text": "manipulating the data because we are not"
+ },
+ {
+  "start": 335.72,
+  "end": 338.79,
+  "text": "manipulating the data here we are just"
+ },
+ {
+  "start": 338.8,
+  "end": 341.15,
+  "text": "calculating the row count that's why you"
+ },
+ {
+  "start": 341.16,
+  "end": 344.59,
+  "text": "just need to use the data table row here"
+ },
+ {
+  "start": 344.6,
+  "end": 348.71,
+  "text": "I want to calculate the row count so"
+ },
+ {
+  "start": 348.72,
+  "end": 351.23,
+  "text": "there is an inbuilt method called row"
+ },
+ {
+  "start": 351.24,
+  "end": 354.39,
+  "text": "count call that inbuilt"
+ },
+ {
+  "start": 354.4,
+  "end": 358.029,
+  "text": "method here R"
+ },
+ {
+  "start": 358.039,
+  "end": 361.189,
+  "text": "count equal Al to I'm going to store it"
+ },
+ {
+  "start": 361.199,
+  "end": 365.749,
+  "text": "into buffer called row"
+ },
+ {
+  "start": 365.759,
+  "end": 368.83,
+  "text": "count I'll do one thing to differentiate"
+ },
+ {
+  "start": 368.84,
+  "end": 371.55,
+  "text": "I'm going to call it as Excel row count"
+ },
+ {
+  "start": 371.56,
+  "end": 375.189,
+  "text": "right and here the action mode should be"
+ },
+ {
+  "start": 375.199,
+  "end": 378.27,
+  "text": "buffer need to store this into a buffer"
+ },
+ {
+  "start": 378.28,
+  "end": 382.749,
+  "text": "called Excel row count in the same way"
+ },
+ {
+  "start": 382.759,
+  "end": 384.749,
+  "text": "for column count"
+ },
+ {
+  "start": 384.759,
+  "end": 388.39,
+  "text": "also I have another method called column"
+ },
+ {
+  "start": 388.4,
+  "end": 391.23,
+  "text": "count"
+ },
+ {
+  "start": 391.24,
+  "end": 396.99,
+  "text": "column count no space equal to"
+ },
+ {
+  "start": 397.0,
+  "end": 398.749,
+  "text": "excel"
+ },
+ {
+  "start": 398.759,
+  "end": 401.83,
+  "text": "column"
+ },
+ {
+  "start": 406.27,
+  "end": 406.28,
+  "text": "count so here we are calculating the row"
+ },
+ {
+  "start": 406.28,
+  "end": 407.83,
+  "text": "count and column count of this"
+ },
+ {
+  "start": 407.84,
+  "end": 410.43,
+  "text": "particular Excel range that we defined"
+ },
+ {
+  "start": 410.44,
+  "end": 413.43,
+  "text": "right now here also you need to change"
+ },
+ {
+  "start": 413.44,
+  "end": 417.469,
+  "text": "into buffer so now let us understand the"
+ },
+ {
+  "start": 417.479,
+  "end": 419.71,
+  "text": "flow first what we are doing we are"
+ },
+ {
+  "start": 419.72,
+  "end": 422.23,
+  "text": "opening an Excel workbook which is an"
+ },
+ {
+  "start": 422.24,
+  "end": 424.189,
+  "text": "existing workbook I'm not creating new"
+ },
+ {
+  "start": 424.199,
+  "end": 427.029,
+  "text": "workbook and then we already defined the"
+ },
+ {
+  "start": 427.039,
+  "end": 429.309,
+  "text": "Excel range for the particular work"
+ },
+ {
+  "start": 429.319,
+  "end": 434.43,
+  "text": "book and then I am calculating the row"
+ },
+ {
+  "start": 434.44,
+  "end": 437.35,
+  "text": "count in the Excel workbook and then I'm"
+ },
+ {
+  "start": 437.36,
+  "end": 440.589,
+  "text": "calculating the column count I'm storing"
+ },
+ {
+  "start": 440.599,
+  "end": 443.51,
+  "text": "them into buffer so that I can see the"
+ },
+ {
+  "start": 443.52,
+  "end": 445.909,
+  "text": "value in the buffer and I can use that"
+ },
+ {
+  "start": 445.919,
+  "end": 448.869,
+  "text": "buffer value for my future test case"
+ },
+ {
+  "start": 448.879,
+  "end": 450.469,
+  "text": "automation"
+ },
+ {
+  "start": 450.479,
+  "end": 452.95,
+  "text": "and I'm closing the workbook and I'm"
+ },
+ {
+  "start": 452.96,
+  "end": 454.869,
+  "text": "saving the workbook while closing the"
+ },
+ {
+  "start": 454.879,
+  "end": 457.869,
+  "text": "workbook so now let us save this and let"
+ },
+ {
+  "start": 457.879,
+  "end": 460.67,
+  "text": "us run this particular test"
+ },
+ {
+  "start": 460.68,
+  "end": 466.43,
+  "text": "case right click and"
+ },
+ {
+  "start": 471.39,
+  "end": 471.4,
+  "text": "run it should calculate row and column"
+ },
+ {
+  "start": 471.4,
+  "end": 476.39,
+  "text": "count of your Excel"
+ },
+ {
+  "start": 480.27,
+  "end": 480.28,
+  "text": "workbook so let us see our test result"
+ },
+ {
+  "start": 480.28,
+  "end": 483.27,
+  "text": "so if you see here your data table row"
+ },
+ {
+  "start": 483.28,
+  "end": 487.67,
+  "text": "count is six correct and your column"
+ },
+ {
+  "start": 487.68,
+  "end": 490.83,
+  "text": "count should be two and that should"
+ },
+ {
+  "start": 490.84,
+  "end": 493.55,
+  "text": "store into a buffer called Excel column"
+ },
+ {
+  "start": 493.56,
+  "end": 497.51,
+  "text": "count has been set to six same way Excel"
+ },
+ {
+  "start": 497.52,
+  "end": 500.55,
+  "text": "row count has been set to"
+ },
+ {
+  "start": 500.56,
+  "end": 504.309,
+  "text": "six and the column count has been set to"
+ },
+ {
+  "start": 504.319,
+  "end": 508.95,
+  "text": "two right hope you all understand how"
+ },
+ {
+  "start": 508.96,
+  "end": 512.55,
+  "text": "can you you perform row count and column"
+ },
+ {
+  "start": 512.56,
+  "end": 515.909,
+  "text": "count for an Excel workbook by using"
+ },
+ {
+  "start": 515.919,
+  "end": 517.31,
+  "text": "trient"
+ },
+ {
+  "start": 517.32,
+  "end": 520.589,
+  "text": "to please do subscribe to the channel"
+ },
+ {
+  "start": 520.599,
+  "end": 522.269,
+  "text": "click on Bell icon you'll receive"
+ },
+ {
+  "start": 522.279,
+  "end": 525.15,
+  "text": "notifications whenever I publish more"
+ },
+ {
+  "start": 525.16,
+  "end": 535.48,
+  "text": "videos thank"
+ },
+ {
+  "start": 537.519,
+  "end": 540.519,
+  "text": "you"
+ }
+]

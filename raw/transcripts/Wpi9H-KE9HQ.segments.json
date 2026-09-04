@@ -1,0 +1,1032 @@
+[
+ {
+  "start": 13.95,
+  "end": 13.96,
+  "text": "hi everyone this is Ravi welcome to"
+ },
+ {
+  "start": 13.96,
+  "end": 18.83,
+  "text": "tricentis TSA Advanced Training"
+ },
+ {
+  "start": 18.84,
+  "end": 23.429,
+  "text": "tutorial so this is our lesson 12 if"
+ },
+ {
+  "start": 23.439,
+  "end": 26.669,
+  "text": "you compare with the Advanced"
+ },
+ {
+  "start": 26.679,
+  "end": 30.349,
+  "text": "Training and this is our lesson 27 if"
+ },
+ {
+  "start": 30.359,
+  "end": 33.95,
+  "text": "you consider it as an overall triena"
+ },
+ {
+  "start": 33.96,
+  "end": 36.709,
+  "text": "training so in this lesson I'm going to"
+ },
+ {
+  "start": 36.719,
+  "end": 40.91,
+  "text": "teach you how can we use if then"
+ },
+ {
+  "start": 40.92,
+  "end": 43.95,
+  "text": "conditional statements by using trient"
+ },
+ {
+  "start": 43.96,
+  "end": 49.63,
+  "text": "tasa while automating your test"
+ },
+ {
+  "start": 53.549,
+  "end": 53.559,
+  "text": "cases when you create if statements TSA"
+ },
+ {
+  "start": 53.559,
+  "end": 56.15,
+  "text": "will automatically create a then"
+ },
+ {
+  "start": 56.16,
+  "end": 58.91,
+  "text": "statement along with the condition"
+ },
+ {
+  "start": 58.92,
+  "end": 62.75,
+  "text": "object so you can also create an else"
+ },
+ {
+  "start": 62.76,
+  "end": 67.55,
+  "text": "statement via the context menu of if"
+ },
+ {
+  "start": 67.56,
+  "end": 70.83,
+  "text": "statements if required so adding El"
+ },
+ {
+  "start": 70.84,
+  "end": 75.149,
+  "text": "statement is an optional or you can add"
+ },
+ {
+  "start": 75.159,
+  "end": 79.429,
+  "text": "this L statement by left clicking the if"
+ },
+ {
+  "start": 79.439,
+  "end": 83.149,
+  "text": "statement and selecting create object"
+ },
+ {
+  "start": 83.159,
+  "end": 86.35,
+  "text": "else statement from the dynamic menu"
+ },
+ {
+  "start": 86.36,
+  "end": 88.069,
+  "text": "test"
+ },
+ {
+  "start": 88.079,
+  "end": 91.03,
+  "text": "cases so if the condition is fulfilled"
+ },
+ {
+  "start": 91.04,
+  "end": 94.469,
+  "text": "the test steps are executed once in the"
+ },
+ {
+  "start": 94.479,
+  "end": 97.91,
+  "text": "then statement if the condition is not"
+ },
+ {
+  "start": 97.92,
+  "end": 102.35,
+  "text": "fulfilled then the test steps are run"
+ },
+ {
+  "start": 102.36,
+  "end": 106.469,
+  "text": "once in L"
+ },
+ {
+  "start": 111.51,
+  "end": 111.52,
+  "text": "statement so what is the order of"
+ },
+ {
+  "start": 111.52,
+  "end": 115.19,
+  "text": "conditions if you see the sequence first"
+ },
+ {
+  "start": 115.2,
+  "end": 120.069,
+  "text": "if comes and then second condition"
+ },
+ {
+  "start": 120.079,
+  "end": 121.31,
+  "text": "within the if"
+ },
+ {
+  "start": 121.32,
+  "end": 125.51,
+  "text": "statement later then within the if"
+ },
+ {
+  "start": 125.52,
+  "end": 130.229,
+  "text": "statement and then else it's an optional"
+ },
+ {
+  "start": 130.239,
+  "end": 132.63,
+  "text": "so now let's jump onto the system and"
+ },
+ {
+  "start": 132.64,
+  "end": 135.07,
+  "text": "see how can we automate test cases by"
+ },
+ {
+  "start": 135.08,
+  "end": 138.869,
+  "text": "using trient TSA with if then"
+ },
+ {
+  "start": 138.879,
+  "end": 141.869,
+  "text": "conditional statements so this is my"
+ },
+ {
+  "start": 141.879,
+  "end": 145.63,
+  "text": "TSA right what I did I just created a"
+ },
+ {
+  "start": 145.64,
+  "end": 147.67,
+  "text": "new folder"
+ },
+ {
+  "start": 147.68,
+  "end": 150.35,
+  "text": "here called"
+ },
+ {
+  "start": 150.36,
+  "end": 153.71,
+  "text": "Lesson 12 if then statements correct and"
+ },
+ {
+  "start": 153.72,
+  "end": 157.83,
+  "text": "then I've created another a test case"
+ },
+ {
+  "start": 157.84,
+  "end": 160.67,
+  "text": "called I just created a test case right"
+ },
+ {
+  "start": 160.68,
+  "end": 165.27,
+  "text": "and then I renamed it as if then test"
+ },
+ {
+  "start": 165.28,
+  "end": 168.39,
+  "text": "case right so first before you automate"
+ },
+ {
+  "start": 168.4,
+  "end": 171.509,
+  "text": "your test case let us understand what is"
+ },
+ {
+  "start": 171.519,
+  "end": 174.509,
+  "text": "the test scenario that we are going to"
+ },
+ {
+  "start": 174.519,
+  "end": 177.19,
+  "text": "automate by using IF then condition okay"
+ },
+ {
+  "start": 177.2,
+  "end": 180.19,
+  "text": "so as usual we are going to navigate to"
+ },
+ {
+  "start": 180.2,
+  "end": 184.39,
+  "text": "web demo shop okay demo web shop okay so"
+ },
+ {
+  "start": 184.4,
+  "end": 187.91,
+  "text": "what I'm going to do see when"
+ },
+ {
+  "start": 187.92,
+  "end": 192.11,
+  "text": "you navigate to demo webshop"
+ },
+ {
+  "start": 192.12,
+  "end": 196.309,
+  "text": "if login link is visible then you click"
+ },
+ {
+  "start": 196.319,
+  "end": 199.149,
+  "text": "on login and then perform"
+ },
+ {
+  "start": 199.159,
+  "end": 203.869,
+  "text": "login in case in case let's say once I"
+ },
+ {
+  "start": 203.879,
+  "end": 208.63,
+  "text": "login Okay click on login if in case I"
+ },
+ {
+  "start": 208.64,
+  "end": 211.47,
+  "text": "close the browser"
+ },
+ {
+  "start": 211.48,
+  "end": 213.27,
+  "text": "without log out right I close the"
+ },
+ {
+  "start": 213.28,
+  "end": 215.47,
+  "text": "browser without log out then what"
+ },
+ {
+  "start": 215.48,
+  "end": 217.789,
+  "text": "happens we'll see see as soon as you log"
+ },
+ {
+  "start": 217.799,
+  "end": 220.309,
+  "text": "in I mean as soon as you enter the"
+ },
+ {
+  "start": 220.319,
+  "end": 223.27,
+  "text": "URL the session is"
+ },
+ {
+  "start": 223.28,
+  "end": 226.589,
+  "text": "still showing you that means you already"
+ },
+ {
+  "start": 226.599,
+  "end": 231.309,
+  "text": "logged in so now I want to automate a"
+ },
+ {
+  "start": 231.319,
+  "end": 237.19,
+  "text": "scenario where if login link is visible"
+ },
+ {
+  "start": 237.2,
+  "end": 241.949,
+  "text": "then directly perform login if login is"
+ },
+ {
+  "start": 241.959,
+  "end": 245.229,
+  "text": "not visible then what does it"
+ },
+ {
+  "start": 245.239,
+  "end": 249.75,
+  "text": "mean the user is already login so now I"
+ },
+ {
+  "start": 249.76,
+  "end": 253.03,
+  "text": "want to perform if login is not visible"
+ },
+ {
+  "start": 253.04,
+  "end": 255.949,
+  "text": "then I want to click on log out and then"
+ },
+ {
+  "start": 255.959,
+  "end": 259.11,
+  "text": "I want to click on login and then I want"
+ },
+ {
+  "start": 259.12,
+  "end": 263.39,
+  "text": "to login right so let us see how can we"
+ },
+ {
+  "start": 263.4,
+  "end": 266.749,
+  "text": "automate this okay so now if you see I"
+ },
+ {
+  "start": 266.759,
+  "end": 269.99,
+  "text": "have already arranged my modules right"
+ },
+ {
+  "start": 270.0,
+  "end": 273.11,
+  "text": "side okay so here first you need to"
+ },
+ {
+  "start": 273.12,
+  "end": 277.51,
+  "text": "insert your if statement how right click"
+ },
+ {
+  "start": 277.52,
+  "end": 282.67,
+  "text": "on your test case and then insert create"
+ },
+ {
+  "start": 282.68,
+  "end": 287.469,
+  "text": "if statement select this option okay"
+ },
+ {
+  "start": 287.479,
+  "end": 292.39,
+  "text": "if this one if what is the condition"
+ },
+ {
+  "start": 292.4,
+  "end": 296.27,
+  "text": "here I want to test so let us do one"
+ },
+ {
+  "start": 296.28,
+  "end": 298.43,
+  "text": "more thing okay before I enter the"
+ },
+ {
+  "start": 298.44,
+  "end": 300.83,
+  "text": "condition and then what what to do I"
+ },
+ {
+  "start": 300.84,
+  "end": 303.469,
+  "text": "want to introduce L statement also how"
+ },
+ {
+  "start": 303.479,
+  "end": 306.59,
+  "text": "can we do that again right click here if"
+ },
+ {
+  "start": 306.6,
+  "end": 309.27,
+  "text": "you see here I have a create El"
+ },
+ {
+  "start": 309.28,
+  "end": 311.749,
+  "text": "statement If You observe"
+ },
+ {
+  "start": 311.759,
+  "end": 314.71,
+  "text": "closely your if statement then it is"
+ },
+ {
+  "start": 314.72,
+  "end": 317.27,
+  "text": "showing left side Arrow your else"
+ },
+ {
+  "start": 317.28,
+  "end": 319.87,
+  "text": "statement showing right side Arrow okay"
+ },
+ {
+  "start": 319.88,
+  "end": 323.99,
+  "text": "so now if what is the condition my first"
+ },
+ {
+  "start": 324.0,
+  "end": 329.189,
+  "text": "condition is if login link presents"
+ },
+ {
+  "start": 329.199,
+  "end": 330.029,
+  "text": "correct"
+ },
+ {
+  "start": 330.039,
+  "end": 333.23,
+  "text": "so here if you see this is my top menu"
+ },
+ {
+  "start": 333.24,
+  "end": 337.029,
+  "text": "okay just drag this and drop"
+ },
+ {
+  "start": 337.039,
+  "end": 341.39,
+  "text": "here if what is the condition I'll say"
+ },
+ {
+  "start": 341.4,
+  "end": 345.67,
+  "text": "login visible if login visible right so"
+ },
+ {
+  "start": 345.68,
+  "end": 348.51,
+  "text": "what I will do here login what I'm going"
+ },
+ {
+  "start": 348.52,
+  "end": 352.629,
+  "text": "to do here I'm going to select visible"
+ },
+ {
+  "start": 352.639,
+  "end": 356.11,
+  "text": "if this is visible true"
+ },
+ {
+  "start": 356.12,
+  "end": 357.83,
+  "text": "right"
+ },
+ {
+  "start": 357.84,
+  "end": 360.55,
+  "text": "then this is your condition you"
+ },
+ {
+  "start": 360.56,
+  "end": 364.189,
+  "text": "specified your condition now what action"
+ },
+ {
+  "start": 364.199,
+  "end": 367.189,
+  "text": "to be performed I want to click on login"
+ },
+ {
+  "start": 367.199,
+  "end": 370.55,
+  "text": "so again drag this drop menu top menu"
+ },
+ {
+  "start": 370.56,
+  "end": 373.95,
+  "text": "and drop it here and what is the action"
+ },
+ {
+  "start": 373.96,
+  "end": 379.629,
+  "text": "I want to click on then click login I'm"
+ },
+ {
+  "start": 379.639,
+  "end": 382.95,
+  "text": "just renaming the step Okay click login"
+ },
+ {
+  "start": 382.96,
+  "end": 385.87,
+  "text": "so what I'm going to do here I'm simply"
+ },
+ {
+  "start": 385.88,
+  "end": 390.15,
+  "text": "enter the value as input done"
+ },
+ {
+  "start": 390.16,
+  "end": 394.55,
+  "text": "save this now else statement what is our"
+ },
+ {
+  "start": 394.56,
+  "end": 398.029,
+  "text": "else statement if login is not present"
+ },
+ {
+  "start": 398.039,
+  "end": 400.23,
+  "text": "that means user is already logged in"
+ },
+ {
+  "start": 400.24,
+  "end": 403.43,
+  "text": "right first you need to log out okay so"
+ },
+ {
+  "start": 403.44,
+  "end": 405.71,
+  "text": "for that again here L statement I'm"
+ },
+ {
+  "start": 405.72,
+  "end": 409.67,
+  "text": "going to drag this and drop"
+ },
+ {
+  "start": 409.68,
+  "end": 413.95,
+  "text": "here so if login is not visible that"
+ },
+ {
+  "start": 413.96,
+  "end": 415.749,
+  "text": "means you"
+ },
+ {
+  "start": 415.759,
+  "end": 419.909,
+  "text": "are already logged in correct so so here"
+ },
+ {
+  "start": 419.919,
+  "end": 422.27,
+  "text": "what I'm going to do I'm"
+ },
+ {
+  "start": 422.28,
+  "end": 425.27,
+  "text": "simply going to log"
+ },
+ {
+  "start": 425.28,
+  "end": 428.469,
+  "text": "out okay login is not visible means log"
+ },
+ {
+  "start": 428.479,
+  "end": 432.23,
+  "text": "out should be present and then I'm going"
+ },
+ {
+  "start": 432.24,
+  "end": 437.029,
+  "text": "to click on login now drag and drop into"
+ },
+ {
+  "start": 437.039,
+  "end": 440.67,
+  "text": "L statement itself"
+ },
+ {
+  "start": 440.68,
+  "end": 446.469,
+  "text": "okay log out and then login click on"
+ },
+ {
+  "start": 446.479,
+  "end": 449.83,
+  "text": "login right but here again"
+ },
+ {
+  "start": 449.84,
+  "end": 452.67,
+  "text": "here if you see once you click on login"
+ },
+ {
+  "start": 452.68,
+  "end": 456.11,
+  "text": "in both the statements if login is"
+ },
+ {
+  "start": 456.12,
+  "end": 457.909,
+  "text": "visible I'm just clicking on login but"
+ },
+ {
+  "start": 457.919,
+  "end": 461.589,
+  "text": "along with that I want to enter"
+ },
+ {
+  "start": 461.599,
+  "end": 464.589,
+  "text": "my username and password correct so"
+ },
+ {
+  "start": 464.599,
+  "end": 466.869,
+  "text": "that's why I'm going to to Simply drag"
+ },
+ {
+  "start": 466.879,
+  "end": 469.189,
+  "text": "this and then drop it"
+ },
+ {
+  "start": 469.199,
+  "end": 471.67,
+  "text": "here I want to enter my username and"
+ },
+ {
+  "start": 471.68,
+  "end": 478.309,
+  "text": "password correct I can simply provide my"
+ },
+ {
+  "start": 478.319,
+  "end": 480.189,
+  "text": "username"
+ },
+ {
+  "start": 480.199,
+  "end": 486.83,
+  "text": "right and then provide your"
+ },
+ {
+  "start": 490.11,
+  "end": 490.12,
+  "text": "password right and then you click on"
+ },
+ {
+  "start": 490.12,
+  "end": 493.51,
+  "text": "login so you can simply copy this same"
+ },
+ {
+  "start": 493.52,
+  "end": 496.11,
+  "text": "step here"
+ },
+ {
+  "start": 496.12,
+  "end": 499.27,
+  "text": "if login does not visible then it goes"
+ },
+ {
+  "start": 499.28,
+  "end": 501.99,
+  "text": "to L statement right it's going to log"
+ },
+ {
+  "start": 502.0,
+  "end": 503.83,
+  "text": "out and then it's going to click on"
+ },
+ {
+  "start": 503.84,
+  "end": 508.23,
+  "text": "login and then you're going to"
+ },
+ {
+  "start": 508.24,
+  "end": 510.309,
+  "text": "perform"
+ },
+ {
+  "start": 510.319,
+  "end": 513.469,
+  "text": "entering your username and password so"
+ },
+ {
+  "start": 513.479,
+  "end": 516.87,
+  "text": "now let us first run our first condition"
+ },
+ {
+  "start": 516.88,
+  "end": 518.43,
+  "text": "okay let us do one thing I already"
+ },
+ {
+  "start": 518.44,
+  "end": 521.43,
+  "text": "logged out that means when I launch this"
+ },
+ {
+  "start": 521.44,
+  "end": 524.03,
+  "text": "application your login is visible that"
+ },
+ {
+  "start": 524.04,
+  "end": 528.15,
+  "text": "means if statement should execute else"
+ },
+ {
+  "start": 528.16,
+  "end": 530.389,
+  "text": "statement should not execute okay let's"
+ },
+ {
+  "start": 530.399,
+  "end": 535.07,
+  "text": "run this right click and run in"
+ },
+ {
+  "start": 538.19,
+  "end": 538.2,
+  "text": "scratchbook so now let's see what"
+ },
+ {
+  "start": 538.2,
+  "end": 540.91,
+  "text": "happens it should click on"
+ },
+ {
+  "start": 540.92,
+  "end": 543.389,
+  "text": "login oh I think we forgot one thing"
+ },
+ {
+  "start": 543.399,
+  "end": 546.75,
+  "text": "here okay let's close this let's uh stop"
+ },
+ {
+  "start": 546.76,
+  "end": 549.87,
+  "text": "here okay because when we are verifying"
+ },
+ {
+  "start": 549.88,
+  "end": 552.269,
+  "text": "right we forgot to specify it as verify"
+ },
+ {
+  "start": 552.279,
+  "end": 554.59,
+  "text": "so what is the condition first condition"
+ },
+ {
+  "start": 554.6,
+  "end": 558.23,
+  "text": "I need to check if that is visible so if"
+ },
+ {
+  "start": 558.24,
+  "end": 561.63,
+  "text": "you see here here is visible I'm need to"
+ },
+ {
+  "start": 561.64,
+  "end": 564.67,
+  "text": "verify this I need not to input this I"
+ },
+ {
+  "start": 564.68,
+  "end": 567.71,
+  "text": "need to verify that okay so now again"
+ },
+ {
+  "start": 567.72,
+  "end": 574.31,
+  "text": "let's run this right click and run in"
+ },
+ {
+  "start": 578.35,
+  "end": 578.36,
+  "text": "scratchbook now it should see if login"
+ },
+ {
+  "start": 578.36,
+  "end": 580.03,
+  "text": "is visible so in this case login is"
+ },
+ {
+  "start": 580.04,
+  "end": 581.67,
+  "text": "visible that means it's going to"
+ },
+ {
+  "start": 581.68,
+  "end": 585.63,
+  "text": "directly click on login button yes it"
+ },
+ {
+  "start": 585.64,
+  "end": 587.99,
+  "text": "clicked on login link and then it should"
+ },
+ {
+  "start": 588.0,
+  "end": 592.35,
+  "text": "enter your username password done now if"
+ },
+ {
+  "start": 592.36,
+  "end": 593.23,
+  "text": "I"
+ },
+ {
+  "start": 593.24,
+  "end": 596.59,
+  "text": "execute the test case again now because"
+ },
+ {
+  "start": 596.6,
+  "end": 598.91,
+  "text": "you already logged in right it should go"
+ },
+ {
+  "start": 598.92,
+  "end": 601.63,
+  "text": "to to else condition it should execute"
+ },
+ {
+  "start": 601.64,
+  "end": 604.19,
+  "text": "your else condition"
+ },
+ {
+  "start": 604.2,
+  "end": 607.509,
+  "text": "not if condition if condition will be"
+ },
+ {
+  "start": 607.519,
+  "end": 610.63,
+  "text": "false because login will not be visible"
+ },
+ {
+  "start": 610.64,
+  "end": 613.11,
+  "text": "it goes to else condition then it should"
+ },
+ {
+  "start": 613.12,
+  "end": 615.67,
+  "text": "perform log out and then login okay"
+ },
+ {
+  "start": 615.68,
+  "end": 617.87,
+  "text": "let's execute again this one without log"
+ },
+ {
+  "start": 617.88,
+  "end": 621.31,
+  "text": "out okay run"
+ },
+ {
+  "start": 624.87,
+  "end": 624.88,
+  "text": "this see now now login will not be"
+ },
+ {
+  "start": 624.88,
+  "end": 628.509,
+  "text": "visible for TSA and then it enters the"
+ },
+ {
+  "start": 628.519,
+  "end": 630.43,
+  "text": "else"
+ },
+ {
+  "start": 630.44,
+  "end": 635.75,
+  "text": "it should log"
+ },
+ {
+  "start": 640.67,
+  "end": 640.68,
+  "text": "out right so it's going to log out"
+ },
+ {
+  "start": 640.68,
+  "end": 643.949,
+  "text": "now yeah it's logged out and then again"
+ },
+ {
+  "start": 643.959,
+  "end": 646.87,
+  "text": "it's going to click on login see and"
+ },
+ {
+  "start": 646.88,
+  "end": 648.47,
+  "text": "then it's going to enter your username"
+ },
+ {
+  "start": 648.48,
+  "end": 649.829,
+  "text": "and"
+ },
+ {
+  "start": 649.839,
+  "end": 654.31,
+  "text": "password perfect so that means now our"
+ },
+ {
+  "start": 654.32,
+  "end": 657.47,
+  "text": "if else condition is working"
+ },
+ {
+  "start": 657.48,
+  "end": 659.59,
+  "text": "successfully right if you see"
+ },
+ {
+  "start": 659.6,
+  "end": 663.389,
+  "text": "here the first condition does not matter"
+ },
+ {
+  "start": 663.399,
+  "end": 666.43,
+  "text": "right it went to Second condition else"
+ },
+ {
+  "start": 666.44,
+  "end": 668.069,
+  "text": "condition and everything is"
+ },
+ {
+  "start": 668.079,
+  "end": 672.71,
+  "text": "passed okay hope you all understand the"
+ },
+ {
+  "start": 672.72,
+  "end": 676.31,
+  "text": "concept of if then conditional"
+ },
+ {
+  "start": 676.32,
+  "end": 679.19,
+  "text": "statements and how can we use if then"
+ },
+ {
+  "start": 679.2,
+  "end": 681.79,
+  "text": "conditional statements in trient tasa"
+ },
+ {
+  "start": 681.8,
+  "end": 683.87,
+  "text": "while automating your test"
+ },
+ {
+  "start": 683.88,
+  "end": 686.829,
+  "text": "cases please do subscribe to the channel"
+ },
+ {
+  "start": 686.839,
+  "end": 688.269,
+  "text": "click on Bell icon you'll receive"
+ },
+ {
+  "start": 688.279,
+  "end": 690.15,
+  "text": "notifications whenever I publish more"
+ },
+ {
+  "start": 690.16,
+  "end": 698.98,
+  "text": "videos thank"
+ },
+ {
+  "start": 701.0,
+  "end": 704.0,
+  "text": "you"
+ }
+]
