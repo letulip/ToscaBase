@@ -1,22 +1,29 @@
+# ToscaBase
+
+Bilingual (EN default, RU) offline-capable PWA knowledge base about Tricentis Tosca.
+Built with Astro + Starlight, hosted on GitHub Pages at https://letulip.github.io/ToscaBase/.
+
+## Layout
+
+- `src/content/docs/` English docs (source of truth). `src/content/docs/ru/` mirrors it in Russian.
+  A missing RU page falls back to EN automatically, so EN may be ahead of RU.
+- `raw/transcripts/<videoId>.md` cleaned transcripts produced by the ingest pipeline. Committed.
+- `raw/audio/` downloaded audio. Not committed.
+- `raw/manifest.json` registry of ingested videos and which docs were produced from each.
+- `scripts/ingest.py` video -> transcript pipeline (yt-dlp + faster-whisper). Python venv in `.venv`.
+- `CONTENT_GUIDE.md` rules for writing and translating docs. Read it before touching content.
+
+## Adding a new video
+
+1. `npm run ingest -- <youtube url or playlist url>` writes `raw/transcripts/<id>.md`.
+2. In a Claude Code session: turn the transcript into topic docs following `CONTENT_GUIDE.md`
+   (create new pages or update existing ones), then translate the touched pages into `ru/`.
+3. Record the produced doc paths in `raw/manifest.json` under that video.
+4. `npm run build` must pass. Commit and push; GitHub Actions deploys.
+
 ## Development
 
-When starting the dev server, use background mode:
+Start the dev server in background mode: `astro dev --background`.
+Manage it with `astro dev stop`, `astro dev status`, `astro dev logs`.
 
-```
-astro dev --background
-```
-
-Manage the background server with `astro dev stop`, `astro dev status`, and `astro dev logs`.
-
-## Documentation
-
-Full documentation: https://docs.astro.build
-
-Consult these guides before working on related tasks:
-
-- [Adding pages, dynamic routes, or middleware](https://docs.astro.build/en/guides/routing/)
-- [Working with Astro components](https://docs.astro.build/en/basics/astro-components/)
-- [Using React, Vue, Svelte, or other framework components](https://docs.astro.build/en/guides/framework-components/)
-- [Adding or managing content](https://docs.astro.build/en/guides/content-collections/)
-- [Adding styles or using Tailwind](https://docs.astro.build/en/guides/styling/)
-- [Supporting multiple languages](https://docs.astro.build/en/guides/internationalization/)
+Astro docs: https://docs.astro.build. Starlight docs: https://starlight.astro.build.

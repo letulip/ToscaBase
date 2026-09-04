@@ -1,0 +1,68 @@
+---
+/**
+ * Override of Starlight's `MarkdownContent` component.
+ * Renders the page body and, when the page declares `sources` in its
+ * frontmatter, appends a small localized "Sources" list.
+ */
+import Default from '@astrojs/starlight/components/MarkdownContent.astro';
+
+const sources = Astro.locals.starlightRoute.entry.data.sources ?? [];
+const label = Astro.locals.t('toscabase.sources');
+---
+
+<Default>
+	<slot />
+	{
+		sources.length > 0 && (
+			<aside class="tb-sources not-content" aria-label={label}>
+				<h2 class="tb-sources__title">{label}</h2>
+				<ul class="tb-sources__list">
+					{sources.map((source) => (
+						<li>
+							<a href={source.url} rel="noopener noreferrer" target="_blank">
+								{source.title}
+							</a>
+							{source.at && <span class="tb-sources__at">{source.at}</span>}
+						</li>
+					))}
+				</ul>
+			</aside>
+		)
+	}
+</Default>
+
+<style>
+	.tb-sources {
+		margin-top: 3rem;
+		padding-top: 1rem;
+		border-top: 1px solid var(--sl-color-hairline);
+		font-size: var(--sl-text-sm);
+		color: var(--sl-color-gray-3);
+	}
+	.tb-sources__title {
+		margin: 0 0 0.5rem;
+		font-size: var(--sl-text-xs);
+		font-weight: 600;
+		letter-spacing: 0.06em;
+		text-transform: uppercase;
+		color: var(--sl-color-gray-3);
+	}
+	.tb-sources__list {
+		margin: 0;
+		padding-inline-start: 1.25rem;
+	}
+	.tb-sources__list li {
+		margin: 0.25rem 0;
+	}
+	.tb-sources__list a {
+		color: var(--sl-color-accent-high);
+	}
+	.tb-sources__at {
+		margin-inline-start: 0.5em;
+		font-variant-numeric: tabular-nums;
+		color: var(--sl-color-gray-4);
+	}
+	.tb-sources__at::before {
+		content: '@ ';
+	}
+</style>

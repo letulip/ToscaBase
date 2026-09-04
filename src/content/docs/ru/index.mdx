@@ -1,0 +1,38 @@
+---
+title: ToscaBase
+description: База знаний по Tricentis Tosca. Переработана из видеоуроков, доступна для поиска офлайн.
+template: splash
+hero:
+  title: ToscaBase
+  tagline: База знаний по Tricentis Tosca. Переработана из видеоуроков, доступна для поиска офлайн.
+  actions:
+    - text: Начать чтение
+      link: /ToscaBase/ru/getting-started/
+      icon: right-arrow
+    - text: Глоссарий
+      link: /ToscaBase/ru/reference/glossary/
+      icon: open-book
+      variant: minimal
+---
+
+import { Card, CardGrid } from '@astrojs/starlight/components';
+
+<CardGrid stagger>
+	<Card title="Структурировано, а не расшифровано" icon="document">
+		Каждая страница переписана из одного или нескольких видеоуроков в
+		справочный материал, который удобно просматривать, со ссылками на точный
+		момент в источнике.
+	</Card>
+	<Card title="Работает офлайн" icon="download">
+		Установите ToscaBase как приложение. Страницы и полнотекстовый поиск
+		кэшируются на устройстве после первого посещения.
+	</Card>
+	<Card title="На двух языках" icon="translate">
+		Каждая страница доступна на английском, русские переводы добавляются по
+		мере готовности. Непереведённые страницы показываются на английском.
+	</Card>
+	<Card title="С поиском" icon="magnifier">
+		Нажмите <kbd>Ctrl</kbd>+<kbd>K</kbd> (или <kbd>⌘</kbd>+<kbd>K</kbd>), чтобы
+		искать модули, тест-кейсы, списки выполнения и термины глоссария.
+	</Card>
+</CardGrid>

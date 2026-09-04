@@ -1,0 +1,45 @@
+/*
+ * ToscaBase theme: violet accent (Tailwind violet-600 #7c3aed / violet-500 #8b5cf6)
+ * on a cool, slightly purple-tinted gray ramp. Generated in the format of
+ * https://starlight.astro.build/guides/css-and-tailwind/#color-theming
+ */
+
+/* Dark mode colors. */
+:root {
+	--sl-color-accent-low: #2e1a66;
+	--sl-color-accent: #7c3aed;
+	--sl-color-accent-high: #c4b5fd;
+	--sl-color-white: #ffffff;
+	--sl-color-gray-1: #eeedf3;
+	--sl-color-gray-2: #c3c0cc;
+	--sl-color-gray-3: #8f8a9e;
+	--sl-color-gray-4: #5b5669;
+	--sl-color-gray-5: #3b3647;
+	--sl-color-gray-6: #2a2531;
+	--sl-color-black: #18141f;
+}
+
+/* Light mode colors. */
+:root[data-theme='light'] {
+	--sl-color-accent-low: #ede9fe;
+	--sl-color-accent: #6d28d9;
+	--sl-color-accent-high: #3b1a8a;
+	--sl-color-white: #18141f;
+	--sl-color-gray-1: #2a2531;
+	--sl-color-gray-2: #3b3647;
+	--sl-color-gray-3: #5b5669;
+	--sl-color-gray-4: #8f8a9e;
+	--sl-color-gray-5: #c3c0cc;
+	--sl-color-gray-6: #eeedf3;
+	--sl-color-gray-7: #f7f6fa;
+	--sl-color-black: #ffffff;
+}
+
+/* Hero gradient text picks up the accent automatically; give the splash
+   a slightly richer background wash so the violet reads on both themes. */
+:root {
+	--tb-hero-wash: radial-gradient(60rem 30rem at 20% -10%, color-mix(in srgb, var(--sl-color-accent) 22%, transparent), transparent 70%);
+}
+[data-has-hero] .main-frame {
+	background-image: var(--tb-hero-wash);
+}

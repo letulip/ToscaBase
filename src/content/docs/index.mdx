@@ -1,40 +1,37 @@
 ---
-title: Welcome to Starlight
-description: Get started building your docs site with Starlight.
-template: splash # Remove or comment out this line to display the site sidebar on this page.
+title: ToscaBase
+description: Tricentis Tosca knowledge base. Reworked from video tutorials, searchable offline.
+template: splash
 hero:
-  tagline: Congrats on setting up a new Starlight project!
-  image:
-    file: ../../assets/houston.webp
+  title: ToscaBase
+  tagline: Tricentis Tosca knowledge base. Reworked from video tutorials, searchable offline.
   actions:
-    - text: Example Guide
-      link: /guides/example/
+    - text: Start reading
+      link: /ToscaBase/getting-started/
       icon: right-arrow
-    - text: Read the Starlight docs
-      link: https://starlight.astro.build
-      icon: external
+    - text: Glossary
+      link: /ToscaBase/reference/glossary/
+      icon: open-book
       variant: minimal
 ---
 
 import { Card, CardGrid } from '@astrojs/starlight/components';
 
-## Next steps
-
 <CardGrid stagger>
-	<Card title="Update content" icon="pencil">
-		Edit `src/content/docs/index.mdx` to see this page change.
+	<Card title="Structured, not transcribed" icon="document">
+		Each page is rewritten from one or more tutorial videos into a
+		reference you can scan, with links back to the exact moment in the source.
 	</Card>
-	<Card title="Change page layout" icon="document">
-		Delete `template: splash` in `src/content/docs/index.mdx` to display a
-		sidebar on this page.
+	<Card title="Works offline" icon="download">
+		Install ToscaBase as an app. Pages and full-text search are cached on
+		your device after the first visit.
 	</Card>
-	<Card title="Add new content" icon="add-document">
-		Add Markdown or MDX files to `src/content/docs` to create new pages.
+	<Card title="Bilingual" icon="translate">
+		Every page is available in English, with Russian translations added
+		as they are ready. Untranslated pages fall back to English.
 	</Card>
-	<Card title="Configure your site" icon="setting">
-		Edit your `sidebar` and other config in `astro.config.mjs`.
-	</Card>
-	<Card title="Read the docs" icon="open-book">
-		Learn more in [the Starlight Docs](https://starlight.astro.build/).
+	<Card title="Searchable" icon="magnifier">
+		Press <kbd>Ctrl</kbd>+<kbd>K</kbd> (or <kbd>⌘</kbd>+<kbd>K</kbd>) to search
+		modules, test cases, execution lists, and glossary terms.
 	</Card>
 </CardGrid>
