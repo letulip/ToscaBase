@@ -108,6 +108,9 @@ export default defineConfig({
 					'pagefind/*.{wasm,pagefind}',
 				],
 				maximumFileSizeToCacheInBytes: 5 * 1024 * 1024,
+				// Pagefind appends `?ts=<timestamp>` to its index requests; ignore it so the
+				// precached files match offline.
+				ignoreURLParametersMatching: [/^ts$/, /^utm_/, /^fbclid$/],
 				// The experimental transform rewrites the `404.html` precache entry to `404`,
 				// so the fallback must reference that URL or createHandlerBoundToURL() throws.
 				navigateFallback: `${BASE}/404`,
