@@ -242,6 +242,7 @@ def download_audio(meta: VideoMeta) -> Path:
     log("  downloading audio ...")
     run([
         "yt-dlp", "--no-playlist", "--no-warnings",
+        "--sleep-requests", "1", "--retries", "10",
         "-f", "bestaudio[ext=m4a]/bestaudio",
         "-x", "--audio-format", "m4a",
         "-o", str(AUDIO_DIR / "%(id)s.%(ext)s"),
@@ -269,12 +270,24 @@ def download_subs(meta: VideoMeta, lang: str) -> Path:
     SUBS_DIR.mkdir(parents=True, exist_ok=True)
     stem = f"{meta.playlist_index:02d}-{meta.id}" if meta.playlist_index else meta.id
     log("  downloading auto subs ...")
-    run([
+    cmd = [
         "yt-dlp", "--no-playlist", "--no-warnings", "--skip-download",
         "--write-auto-subs", "--sub-langs", lang, "--sub-format", "vtt",
+        "--sleep-requests", "1", "--sleep-subtitles", "3", "--retries", "10",
         "-o", str(SUBS_DIR / stem),
         meta.url,
-    ])
+    ]
+    # YouTube rate-limits subtitle fetches (HTTP 429); back off and retry a few times.
+    for attempt in range(1, 4):
+        try:
+            run(cmd)
+            break
+        except RuntimeError as exc:
+            if "429" not in str(exc) or attempt == 3:
+                raise
+            wait = 30 * attempt
+            log(f"  rate limited (429), retrying in {wait}s ({attempt}/3)")
+            time.sleep(wait)
     found = find_subs(meta.id, lang)
     if not found:
         raise RuntimeError(f"no auto subtitles ({lang}) available for {meta.id}")
