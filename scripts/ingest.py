@@ -564,6 +564,8 @@ def parse_args(argv: Optional[list[str]] = None) -> argparse.Namespace:
     p.add_argument("items", nargs="*", metavar="url-or-id",
                    help="video URLs, bare 11-char ids, or playlist URLs")
     p.add_argument("--playlist", metavar="URL", help="playlist URL to ingest in order")
+    p.add_argument("--exclude", metavar="ID", action="append", default=[],
+                   help="video id to skip (repeatable), e.g. compilation videos inside a playlist")
     p.add_argument("--model", default="medium", choices=["small", "medium", "large-v3"],
                    help="faster-whisper model (default: medium)")
     p.add_argument("--source", default="whisper", choices=["whisper", "subs"],
@@ -583,6 +585,9 @@ def main(argv: Optional[list[str]] = None) -> int:
                    force=args.force, dry_run=args.dry_run)
     try:
         refs = resolve_inputs(args.items, args.playlist)
+        if args.exclude:
+            refs = [r for r in refs if r.id not in set(args.exclude)]
+            log(f"excluded {len(args.exclude)} id(s)")
     except (RuntimeError, json.JSONDecodeError) as exc:
         log(f"ERROR: {exc}")
         return 2
