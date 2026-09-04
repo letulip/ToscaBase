@@ -1,0 +1,517 @@
+[
+ {
+  "start": 10.48,
+  "end": 18.16,
+  "text": "Hi, everyone. This is Ravi. Welcome back to Tricentis Tosca automation tutorial. So, as"
+ },
+ {
+  "start": 18.16,
+  "end": 26.42,
+  "text": "you all know, I have published three lessons, my previous three lessons that covers how"
+ },
+ {
+  "start": 26.42,
+  "end": 34.12,
+  "text": "to automate test cases in Tricentis Tosca. So, as you all know, to automate test cases"
+ },
+ {
+  "start": 34.24,
+  "end": 41.24,
+  "text": "by using Tosca, we need to follow a series of steps. So, in my previous three lessons,"
+ },
+ {
+  "start": 41.24,
+  "end": 50.24,
+  "text": "I have covered step 1, step 2 and step 3. Step 1, where we have created test case"
+ },
+ {
+  "start": 50.24,
+  "end": 56.68,
+  "text": "structure. Step 2, where we have created test steps for your test case structure."
+ },
+ {
+  "start": 56.68,
+  "end": 61.8,
+  "text": "And step 3, where we have populated the values for the test steps."
+ },
+ {
+  "start": 62.52,
+  "end": 70.56,
+  "text": "Now, this is our fourth step and last step, where we will be running our first automated"
+ },
+ {
+  "start": 70.56,
+  "end": 77.2,
+  "text": "test by using Tosca. Please do subscribe to the channel, click on bell icon, you"
+ },
+ {
+  "start": 77.2,
+  "end": 83.04,
+  "text": "will receive notifications whenever I publish more videos. Thank you."
+ },
+ {
+  "start": 83.04,
+  "end": 90.84,
+  "text": "Okay, run your first automated test. So, before we run your first automated test,"
+ },
+ {
+  "start": 91.24,
+  "end": 98.76,
+  "text": "we need to do some configurations. That is called test configuration parameters"
+ },
+ {
+  "start": 98.76,
+  "end": 106.12,
+  "text": "in Tricentis Tosca world. What is this TCP, test configuration parameter? This is a parameter"
+ },
+ {
+  "start": 106.12,
+  "end": 114.12,
+  "text": "you can set for the Tosca object. Example, test case should run on a specific browser."
+ },
+ {
+  "start": 114.76,
+  "end": 121.32,
+  "text": "Then you can specify a TCP of browser. If you want to run the test in different releases,"
+ },
+ {
+  "start": 121.88,
+  "end": 127.16,
+  "text": "then you can provide the configuration of release number. If you want to run in the"
+ },
+ {
+  "start": 127.16,
+  "end": 133.72,
+  "text": "various test environments, you can set up test configuration parameters. And if you want to have"
+ },
+ {
+  "start": 133.72,
+  "end": 139.64,
+  "text": "a different connection identifiers in different environments, and then you can configure"
+ },
+ {
+  "start": 139.64,
+  "end": 146.44,
+  "text": "different URLs. So, basically, this simplifies maintenance of your tests and avoids the"
+ },
+ {
+  "start": 146.44,
+  "end": 155.72,
+  "text": "repetitions. And how to populate, so basically the populate a specific test case with test"
+ },
+ {
+  "start": 155.72,
+  "end": 165.56,
+  "text": "configuration parameter. So, populate different levels, basically TCP or test configuration"
+ },
+ {
+  "start": 165.64,
+  "end": 172.84,
+  "text": "parameter can be populated at different levels like test case level, test case folder level,"
+ },
+ {
+  "start": 173.48,
+  "end": 183.32,
+  "text": "and at execution list level. If assume, if you provide a test case configuration at test case"
+ },
+ {
+  "start": 183.32,
+  "end": 189.64,
+  "text": "level, and some different test case configuration at execution list level. So, execution list I"
+ },
+ {
+  "start": 189.64,
+  "end": 195.32,
+  "text": "did not cover, but just assume that there is an execution list where you provided configuration"
+ },
+ {
+  "start": 195.32,
+  "end": 201.56,
+  "text": "as a different value. And in test case, you provided a configuration as one value. So,"
+ },
+ {
+  "start": 201.56,
+  "end": 207.88,
+  "text": "both are different. Then when you run test case by using execution list, then the test"
+ },
+ {
+  "start": 207.88,
+  "end": 215.88,
+  "text": "configuration parameter whatever you specified in execution list will override the TCP that you"
+ },
+ {
+  "start": 215.88,
+  "end": 223.32,
+  "text": "specified in test case. And then I am going to teach you how to run automated tests in"
+ },
+ {
+  "start": 223.32,
+  "end": 231.4,
+  "text": "scratch book. So, let me, let us jump on to the system and show you how can you perform"
+ },
+ {
+  "start": 231.4,
+  "end": 248.52,
+  "text": "all these activities by using latest Tosca 16 version. So, this is my Tosca 16."
+ },
+ {
+  "start": 250.2,
+  "end": 258.44,
+  "text": "In my previous session 10, session 9 and 10, we have created a separate folder,"
+ },
+ {
+  "start": 259.08,
+  "end": 266.84,
+  "text": "and then we have populated test steps under your test case structure, and also we have populated"
+ },
+ {
+  "start": 266.84,
+  "end": 278.52,
+  "text": "all the values for your test steps. So, now let us use the same folder. Let us copy this folder,"
+ },
+ {
+  "start": 279.24,
+  "end": 285.72,
+  "text": "right click and click on copy and paste into your parent folder."
+ },
+ {
+  "start": 287.56,
+  "end": 311.72,
+  "text": "And then rename this as session 10, sorry, session 11, run automated test. And now,"
+ },
+ {
+  "start": 312.44,
+  "end": 321.64,
+  "text": "so, this is my test case. So, earlier we already right click and expand, we already populated"
+ },
+ {
+  "start": 321.64,
+  "end": 328.68,
+  "text": "all the test steps and all the test step values in my previous sessions. Now, it is time for us"
+ },
+ {
+  "start": 328.68,
+  "end": 335.88,
+  "text": "to run the test. So, before you run the test, as I explained you in my previous slide,"
+ },
+ {
+  "start": 336.2,
+  "end": 343.32,
+  "text": "slide, you need to perform some test configuration. So, if you want to run this test in Chrome,"
+ },
+ {
+  "start": 344.6,
+  "end": 354.92,
+  "text": "you need to provide test configuration parameter called browser and provide the browser name."
+ },
+ {
+  "start": 355.56,
+  "end": 363.16,
+  "text": "For that, so, you need to click on your test case. So, as I told you, you can specify your"
+ },
+ {
+  "start": 363.16,
+  "end": 370.44,
+  "text": "test configuration parameters at test case level, folder level and at test step level."
+ },
+ {
+  "start": 371.8,
+  "end": 377.72,
+  "text": "So, right now I am at test case level, go to test configuration,"
+ },
+ {
+  "start": 379.4,
+  "end": 385.4,
+  "text": "right click on your test case. If you see here, there is a menu called create"
+ },
+ {
+  "start": 385.4,
+  "end": 392.6,
+  "text": "test configuration parameter, select that. And here, you need to select"
+ },
+ {
+  "start": 393.32,
+  "end": 399.96,
+  "text": "parameter called browser and then you need to select the browser name that you would like to"
+ },
+ {
+  "start": 399.96,
+  "end": 408.36,
+  "text": "run on. So, now for today's session, I would like to run your test in Chrome browser,"
+ },
+ {
+  "start": 408.36,
+  "end": 417.72,
+  "text": "select that, done. Now, go back to details. Now, I want to run this particular test case,"
+ },
+ {
+  "start": 419.32,
+  "end": 425.16,
+  "text": "this entire test case. There are two ways, either you can run your test"
+ },
+ {
+  "start": 427.0,
+  "end": 435.64,
+  "text": "from your details tab. So, basically, we are going to run the test in scratch book."
+ },
+ {
+  "start": 436.6,
+  "end": 444.04,
+  "text": "So, as I told you, scratch book is a temporary test runs. Your trial runs can be performed on"
+ },
+ {
+  "start": 444.04,
+  "end": 452.12,
+  "text": "scratch book, so that you can debug your automated scripts very easily. And the scratch"
+ },
+ {
+  "start": 452.12,
+  "end": 457.72,
+  "text": "book will give you the temporary results, which will not be saved in the system."
+ },
+ {
+  "start": 458.68,
+  "end": 465.56,
+  "text": "Okay, so now let's say I want to run this entire test. So, now, let's run our test,"
+ },
+ {
+  "start": 466.28,
+  "end": 473.96,
+  "text": "right click and click on run in scratch book. As soon as you click on run in scratch book,"
+ },
+ {
+  "start": 474.84,
+  "end": 481.32,
+  "text": "it is going to open your web browser and it enters the URL and it is going to execute"
+ },
+ {
+  "start": 481.4,
+  "end": 488.04,
+  "text": "every step that we specified. Clicked on login, clicked on apprentice shoes,"
+ },
+ {
+  "start": 488.76,
+  "end": 492.92,
+  "text": "it is going to click on blue jeans and then it is going to enter the quantity"
+ },
+ {
+  "start": 493.88,
+  "end": 501.24,
+  "text": "and then click on add cart, right and then check out. So, it enters all the payment,"
+ },
+ {
+  "start": 501.24,
+  "end": 506.04,
+  "text": "billing information, shipping method and everything. Let's continue entering."
+ },
+ {
+  "start": 506.44,
+  "end": 514.2,
+  "text": "It is done. It is now entering the credit card details and then checked out,"
+ },
+ {
+  "start": 514.76,
+  "end": 521.08,
+  "text": "confirm, click on continue, log out and then close the browser. So, if you see, it gives"
+ },
+ {
+  "start": 521.08,
+  "end": 525.8,
+  "text": "you a temporary result, so that you can analyze the results, if all the results are successful"
+ },
+ {
+  "start": 525.8,
+  "end": 534.28,
+  "text": "or not. If you see here, these are all the, if you see everything is marked in green color,"
+ },
+ {
+  "start": 534.28,
+  "end": 542.12,
+  "text": "that means every step, whatever we automated is pass, correct. So, this is one way."
+ },
+ {
+  "start": 543.0,
+  "end": 549.8,
+  "text": "So, how to debug your test case? So, if I want to run, let us assume, I just automated"
+ },
+ {
+  "start": 549.8,
+  "end": 553.96,
+  "text": "precondition. If I want to run only these three steps, what should I do?"
+ },
+ {
+  "start": 555.0,
+  "end": 562.28,
+  "text": "You have to select the steps that you would like to run by using shift button."
+ },
+ {
+  "start": 563.08,
+  "end": 569.0,
+  "text": "I selected this, right click and run in scratch. So, it is going to run only these three steps."
+ },
+ {
+  "start": 570.36,
+  "end": 578.44,
+  "text": "So, now let us see, that means it just performs your login. That is it."
+ },
+ {
+  "start": 580.12,
+  "end": 587.56,
+  "text": "If you see, it gives you the results. See, only login. So, that is one way of running"
+ },
+ {
+  "start": 588.44,
+  "end": 595.48,
+  "text": "and another way of running the test cases. So, you can use your existing scratch book,"
+ },
+ {
+  "start": 595.48,
+  "end": 604.68,
+  "text": "if you see on top ribbon, there is an option called scratch book. And keep this scratch book"
+ },
+ {
+  "start": 604.68,
+  "end": 612.92,
+  "text": "and let us say, I want to run probably, let us assume, I want to run these steps."
+ },
+ {
+  "start": 615.24,
+  "end": 620.36,
+  "text": "Let us login and keep it ready. For this, I am going to login and keep it ready."
+ },
+ {
+  "start": 624.74,
+  "end": 630.34,
+  "text": "So, now I want to run from here. You just need to drag and drop. Let me just close."
+ },
+ {
+  "start": 633.5,
+  "end": 642.47,
+  "text": "Open your scratch book. Let me again. So, open your existing scratch book"
+ },
+ {
+  "start": 644.07,
+  "end": 655.08,
+  "text": "and you need to just drag and drop the steps. Let me clear entries."
+ },
+ {
+  "start": 655.96,
+  "end": 663.32,
+  "text": "Let me clear entries. Now, what you can do is, so let me just open the scratch book."
+ },
+ {
+  "start": 664.76,
+  "end": 671.8,
+  "text": "Take the scratch book to the right of your pane. Now, let us say, I want to"
+ },
+ {
+  "start": 672.52,
+  "end": 677.32,
+  "text": "run these three steps. Drag and drop these three steps here"
+ },
+ {
+  "start": 677.32,
+  "end": 685.35,
+  "text": "to the existing scratch book and then right click and run."
+ },
+ {
+  "start": 686.95,
+  "end": 693.83,
+  "text": "So, that means, I am using my existing scratch book and then I am running the test."
+ },
+ {
+  "start": 694.95,
+  "end": 704.87,
+  "text": "Correct. So, that way you can perform your test, I mean, trial runs by using scratch book."
+ },
+ {
+  "start": 705.59,
+  "end": 710.23,
+  "text": "So, earlier actually, what happened actually, there are two tabs that are open. That is why"
+ },
+ {
+  "start": 710.23,
+  "end": 719.64,
+  "text": "it got failed. Let me run it again. So, it opens the browser. It clicks on login"
+ },
+ {
+  "start": 720.52,
+  "end": 727.16,
+  "text": "and then it enters your username and password. That is it. So, this way, if you see,"
+ },
+ {
+  "start": 727.16,
+  "end": 733.48,
+  "text": "this is the all steps got passed and then again you can close your scratch book."
+ },
+ {
+  "start": 734.28,
+  "end": 741.24,
+  "text": "So, this way, you can basically use from, let us say, I want to run from here. You can directly"
+ },
+ {
+  "start": 741.8,
+  "end": 745.56,
+  "text": "select this checkout process, for example. You can directly select this checkout process"
+ },
+ {
+  "start": 745.56,
+  "end": 749.96,
+  "text": "and run scratch, run in scratch book. That means, it is going to run only these steps,"
+ },
+ {
+  "start": 749.96,
+  "end": 755.4,
+  "text": "steps that are involved in checkout process folder. So, you can run at folder level,"
+ },
+ {
+  "start": 755.4,
+  "end": 762.2,
+  "text": "you can run at the step level or you can run at entire test case level also."
+ },
+ {
+  "start": 762.68,
+  "end": 772.2,
+  "text": "Okay. So, hope you all understand how to run your test in scratch book and how to analyze"
+ },
+ {
+  "start": 772.76,
+  "end": 780.44,
+  "text": "the temporary test results and how can you configure your test configuration parameters"
+ },
+ {
+  "start": 781.24,
+  "end": 785.08,
+  "text": "for a specific test case. So, if you have any queries,"
+ },
+ {
+  "start": 785.08,
+  "end": 789.24,
+  "text": "please provide your comments in the comment box. I will try to respond to your queries."
+ },
+ {
+  "start": 790.04,
+  "end": 796.84,
+  "text": "Thank you. Hope you all understand the concepts of test configuration parameters"
+ },
+ {
+  "start": 797.8,
+  "end": 804.52,
+  "text": "in Trisantistoska and how can you run your first automated test by using"
+ },
+ {
+  "start": 804.52,
+  "end": 810.2,
+  "text": "Trisantistoska in scratch book. If you have any queries, leave your"
+ },
+ {
+  "start": 810.2,
+  "end": 815.4,
+  "text": "queries in the comment box. Please do subscribe to the channel, click on bell icon,"
+ },
+ {
+  "start": 815.4,
+  "end": 819.72,
+  "text": "you will receive notifications whenever I publish more videos. Thank you."
+ }
+]
