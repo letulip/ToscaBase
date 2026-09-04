@@ -1,707 +1,422 @@
 [
  {
-  "start": 12.509,
-  "end": 12.519,
-  "text": "hey everyone welcome back to our Channel"
+  "start": 9.71,
+  "end": 12.55,
+  "text": "Hey everyone, welcome back to our channel."
  },
  {
-  "start": 12.519,
-  "end": 15.15,
-  "text": "I am back with another interesting topic"
- },
- {
-  "start": 15.16,
+  "start": 12.55,
   "end": 17.99,
-  "text": "in the tosa automation playlist now"
+  "text": "I am back with another interesting topic in the Tosca Automation playlist."
  },
  {
-  "start": 18.0,
-  "end": 19.67,
-  "text": "continuing with our topic on test"
+  "start": 17.99,
+  "end": 23.55,
+  "text": "Now continuing with our topic on Test Automation Obstacles, let's look at the next obstacle"
  },
  {
-  "start": 19.68,
-  "end": 21.99,
-  "text": "automation obstacles let's look at the"
+  "start": 23.55,
+  "end": 26.29,
+  "text": "which is called the Extracting Text."
  },
  {
-  "start": 22.0,
-  "end": 24.47,
-  "text": "next obstacle which is called the"
+  "start": 26.29,
+  "end": 30.71,
+  "text": "Now in this particular obstacle, we need to automate a test step where we need to"
  },
  {
-  "start": 24.48,
-  "end": 27.15,
-  "text": "extracting text now in this particular"
+  "start": 30.71,
+  "end": 36.75,
+  "text": "take the total amount which is shown in the success message, which is here, right?"
  },
  {
-  "start": 27.16,
-  "end": 29.749,
-  "text": "obstacle we need to automate a test step"
+  "start": 36.75,
+  "end": 42.39,
+  "text": "And then we need to enter that amount into this particular text box, okay?"
  },
  {
-  "start": 29.759,
-  "end": 32.19,
-  "text": "where we need to take the total amount"
+  "start": 42.39,
+  "end": 49.27,
+  "text": "So if I enter this particular amount here, okay, and then you will see that this obstacle"
  },
  {
-  "start": 32.2,
-  "end": 34.75,
-  "text": "which is shown in the success message uh"
+  "start": 49.27,
+  "end": 50.31,
+  "text": "is completed."
  },
  {
-  "start": 34.76,
-  "end": 37.389,
-  "text": "which is here right and then uh we need"
+  "start": 50.31,
+  "end": 53.19,
+  "text": "So this is all we need to do here, right?"
  },
  {
-  "start": 37.399,
-  "end": 40.15,
-  "text": "to enter that uh amount into this"
- },
- {
-  "start": 40.16,
-  "end": 43.91,
-  "text": "particular text box okay so if I enter"
- },
- {
-  "start": 43.92,
-  "end": 46.15,
-  "text": "this particular amount"
- },
- {
-  "start": 46.16,
-  "end": 48.47,
-  "text": "here okay and then you will see that"
- },
- {
-  "start": 48.48,
-  "end": 50.75,
-  "text": "this obstacle is completed so this is"
- },
- {
-  "start": 50.76,
-  "end": 53.549,
-  "text": "all we need to do here right now the"
- },
- {
-  "start": 53.559,
-  "end": 55.869,
-  "text": "challenge here obviously is uh this"
- },
- {
-  "start": 55.879,
+  "start": 53.19,
   "end": 57.91,
-  "text": "particular text is dynamic which means"
+  "text": "Now the challenge here obviously is this particular text is dynamic, which means"
  },
  {
-  "start": 57.92,
-  "end": 60.509,
-  "text": "the amount keeps on changing right right"
+  "start": 57.91,
+  "end": 60.75,
+  "text": "the amount keeps on changing, right?"
  },
  {
-  "start": 60.519,
-  "end": 63.15,
-  "text": "so you need to be able to extract this"
+  "start": 60.75,
+  "end": 66.31,
+  "text": "So you need to be able to extract this particular amount from this dynamic text"
  },
  {
-  "start": 63.16,
-  "end": 66.23,
-  "text": "particular amount from this Dynamic text"
+  "start": 66.47,
+  "end": 69.47,
+  "text": "and then you need to enter it into the text box."
  },
  {
-  "start": 66.24,
-  "end": 68.19,
-  "text": "and then you need to enter it into the"
+  "start": 69.47,
+  "end": 72.27,
+  "text": "So let's see how we can do this in Tosca."
  },
  {
-  "start": 68.2,
-  "end": 71.07,
-  "text": "text box so let's see how we can do this"
+  "start": 72.27,
+  "end": 83.29,
+  "text": "Okay, so coming back to our Tosca and here let's go to our obstacles and here I am"
  },
  {
-  "start": 71.08,
-  "end": 73.71,
-  "text": "uh in"
+  "start": 83.29,
+  "end": 87.85,
+  "text": "going to now scan this particular application, right?"
  },
  {
-  "start": 78.91,
-  "end": 78.92,
-  "text": "tosa okay so uh coming back to our tosa"
+  "start": 87.85,
+  "end": 102.93,
+  "text": "Okay, so here I can see the total amount text box, but I cannot see this success"
  },
  {
-  "start": 78.92,
-  "end": 82.31,
-  "text": "and here uh let's go to our obstacles"
+  "start": 102.93,
+  "end": 104.37,
+  "text": "message, right?"
  },
  {
-  "start": 82.32,
-  "end": 85.789,
-  "text": "and here I am going to now uh scan this"
+  "start": 104.37,
+  "end": 109.25,
+  "text": "So I'm going to increase the filtered items so that I can see some of the underlying"
  },
  {
-  "start": 85.799,
-  "end": 88.83,
-  "text": "particular application"
+  "start": 109.25,
+  "end": 116.65,
+  "text": "elements here, okay, and this is the text which contains the purchase completed and"
  },
  {
-  "start": 88.84,
-  "end": 95.789,
-  "text": "right"
+  "start": 116.65,
+  "end": 119.29,
+  "text": "then the total amount, right?"
  },
  {
-  "start": 99.069,
-  "end": 99.079,
-  "text": "okay so here um I can see the total"
+  "start": 119.29,
+  "end": 123.53,
+  "text": "And then I need to also select the text box, okay?"
  },
  {
-  "start": 99.079,
-  "end": 102.55,
-  "text": "amount text box but I cannot see uh this"
+  "start": 123.53,
+  "end": 130.93,
+  "text": "So these are the two elements which I want and then we are going to call this success"
  },
  {
-  "start": 102.56,
-  "end": 104.789,
-  "text": "success message right so I'm going to"
+  "start": 131.17,
+  "end": 142.49,
+  "text": "message, okay, and we are going to call the module, but we will copy this obstacle"
  },
  {
-  "start": 104.799,
-  "end": 106.91,
-  "text": "increase the filtered items so that I"
+  "start": 142.49,
+  "end": 147.97,
+  "text": "here and we'll paste it here, okay?"
  },
  {
-  "start": 106.92,
-  "end": 109.23,
-  "text": "can see uh some of the underlying"
+  "start": 147.97,
+  "end": 153.57,
+  "text": "And then I'm going to save this and close the scan, right?"
  },
  {
-  "start": 109.24,
-  "end": 113.389,
-  "text": "elements here okay and this is the text"
+  "start": 153.57,
+  "end": 156.49,
+  "text": "So our module is created now."
  },
  {
-  "start": 113.399,
-  "end": 116.35,
-  "text": "uh which contains the purchase completed"
+  "start": 156.53,
+  "end": 164.49,
+  "text": "Let's go to our test cases section and here we are going to create a new test case,"
  },
  {
-  "start": 116.36,
-  "end": 119.709,
-  "text": "and then the total amount right and then"
+  "start": 164.49,
+  "end": 173.17,
+  "text": "again with the same obstacle ID and then let's go ahead and add the module to this"
  },
  {
-  "start": 119.719,
-  "end": 123.19,
-  "text": "uh I need to also select the text box"
+  "start": 173.17,
+  "end": 174.37,
+  "text": "test case, right?"
  },
  {
-  "start": 123.2,
-  "end": 124.749,
-  "text": "okay so these are the two elements which"
+  "start": 174.37,
+  "end": 182.57,
+  "text": "So we have got a development which contains the text and then we have got a text box,"
  },
  {
-  "start": 124.759,
-  "end": 125.83,
-  "text": "I"
+  "start": 182.57,
+  "end": 183.85,
+  "text": "right?"
  },
  {
-  "start": 125.84,
-  "end": 129.79,
-  "text": "want and then uh we are going to call"
+  "start": 183.85,
+  "end": 191.57,
+  "text": "Now, we need to extract the amount from the text and that amount is dynamic so it keeps"
  },
  {
-  "start": 129.8,
-  "end": 132.869,
-  "text": "this success"
+  "start": 191.57,
+  "end": 193.25,
+  "text": "on changing, right?"
  },
  {
-  "start": 132.879,
-  "end": 138.309,
-  "text": "message okay and we are going to call"
+  "start": 193.25,
+  "end": 199.81,
+  "text": "So the only way I can think of is we can buffer that particular amount, right?"
  },
  {
-  "start": 138.319,
-  "end": 141.79,
-  "text": "the module but we will copy this"
+  "start": 199.81,
+  "end": 204.25,
+  "text": "But we cannot simply buffer the complete text, right?"
  },
  {
-  "start": 141.8,
-  "end": 144.43,
-  "text": "obstacle"
+  "start": 204.25,
+  "end": 207.97,
+  "text": "That text contains the dynamic element."
  },
  {
-  "start": 144.44,
-  "end": 148.11,
-  "text": "here and we'll paste it here okay and"
+  "start": 207.97,
+  "end": 213.29,
+  "text": "So in this case, we have to use something called XBuffer, okay?"
  },
  {
-  "start": 148.12,
-  "end": 150.75,
-  "text": "then I'm going to save this and close"
+  "start": 213.29,
+  "end": 220.85,
+  "text": "So using the XBuffer, we can basically verify the dynamic text as well as we can buffer"
  },
  {
-  "start": 150.76,
-  "end": 155.63,
-  "text": "the scan right so our module is created"
+  "start": 220.85,
+  "end": 224.81,
+  "text": "the dynamic element which is part of that text, okay?"
  },
  {
-  "start": 155.64,
-  "end": 158.589,
-  "text": "now uh let's go to our test cases"
+  "start": 224.81,
+  "end": 226.41,
+  "text": "So let's see how we can do this."
  },
  {
-  "start": 158.599,
-  "end": 161.67,
-  "text": "section and here we are going to create"
+  "start": 226.41,
+  "end": 233.41,
+  "text": "Now, before we do that, we need to look at this success message element, okay?"
  },
  {
-  "start": 161.68,
-  "end": 163.27,
-  "text": "a new test"
+  "start": 233.41,
+  "end": 239.25,
+  "text": "So if we look at the properties, you will see that the inner text actually contains"
  },
  {
-  "start": 163.28,
-  "end": 167.589,
-  "text": "case uh again with the same obstacle uh"
+  "start": 239.25,
+  "end": 240.79,
+  "text": "the complete text, right?"
  },
  {
-  "start": 167.599,
-  "end": 172.309,
-  "text": "ID and then let's go ahead and add the"
+  "start": 240.79,
+  "end": 245.63,
+  "text": "So it contains the amount and some of other text, okay?"
  },
  {
-  "start": 172.319,
-  "end": 174.71,
-  "text": "module to this test case right so we"
+  "start": 245.63,
+  "end": 250.87,
+  "text": "So we can use this inner text property to extract this complete text and from there"
  },
  {
-  "start": 174.72,
-  "end": 179.35,
-  "text": "have got uh a Dev element which contains"
+  "start": 250.87,
+  "end": 254.33,
+  "text": "we will try to extract the amount, okay?"
  },
  {
-  "start": 179.36,
-  "end": 181.99,
-  "text": "the text and then we have got a textt"
+  "start": 254.33,
+  "end": 266.15,
+  "text": "So let's go back here and then here I am going to use the inner text, okay?"
  },
  {
-  "start": 182.0,
-  "end": 186.63,
-  "text": "box right now uh we need to extract the"
+  "start": 266.15,
+  "end": 272.75,
+  "text": "And then in this, we are going to copy this particular text, but we are going to make"
  },
  {
-  "start": 186.64,
-  "end": 190.03,
-  "text": "amount from the text and that amount is"
+  "start": 272.75,
+  "end": 275.31,
+  "text": "it dynamic, okay?"
  },
  {
-  "start": 190.04,
-  "end": 193.99,
-  "text": "dynamic so it keeps on changing right so"
+  "start": 275.31,
+  "end": 282.95,
+  "text": "So I am going to copy this here and then we are going to remove this, I am going"
  },
  {
-  "start": 194.0,
-  "end": 196.589,
-  "text": "the only way I can think of is we can"
+  "start": 282.95,
+  "end": 288.21,
+  "text": "to put a regular expression here, okay?"
  },
  {
-  "start": 196.599,
-  "end": 200.309,
-  "text": "buffer that particular amount right but"
+  "start": 288.21,
+  "end": 294.93,
+  "text": "And then because this amount keeps on changing, so I am going to buffer this and in this"
  },
  {
-  "start": 200.319,
-  "end": 202.589,
-  "text": "uh we cannot simply buffer uh the"
+  "start": 294.93,
+  "end": 299.09,
+  "text": "case, I am going to use an X buffer, okay?"
  },
  {
-  "start": 202.599,
-  "end": 205.27,
-  "text": "complete text right that text uh"
+  "start": 299.09,
+  "end": 305.29,
+  "text": "So we are going to use XB as you can see, okay?"
  },
  {
-  "start": 205.28,
-  "end": 208.47,
-  "text": "contains that Dynamic element so in this"
+  "start": 305.29,
+  "end": 311.37,
+  "text": "And then inside this, we are going to provide the buffer name and I am going to call"
  },
  {
-  "start": 208.48,
-  "end": 210.949,
-  "text": "case uh we have to use something called"
+  "start": 311.37,
+  "end": 314.81,
+  "text": "it amount, okay?"
  },
  {
-  "start": 210.959,
-  "end": 215.47,
-  "text": "X buffer okay so using the X buffer uh"
+  "start": 314.81,
+  "end": 319.01,
+  "text": "And you will also change the action mode to verify, okay?"
  },
  {
-  "start": 215.48,
-  "end": 218.63,
-  "text": "we can basically verify the dynamic text"
+  "start": 319.13,
+  "end": 326.01,
+  "text": "So what this will do is it will verify this dynamic text and also it will buffer this"
  },
  {
-  "start": 218.64,
-  "end": 221.589,
-  "text": "as well as we can buffer that Dynamic"
+  "start": 326.01,
+  "end": 328.93,
+  "text": "particular amount, okay?"
  },
  {
-  "start": 221.599,
-  "end": 224.589,
-  "text": "element which is part of that text okay"
+  "start": 328.93,
+  "end": 333.41,
+  "text": "Into the amount buffer name, right?"
  },
  {
-  "start": 224.599,
-  "end": 227.229,
-  "text": "so let's see how we can do this now"
+  "start": 333.41,
+  "end": 339.57,
+  "text": "Now we can easily use that particular buffer to enter it into this particular text box,"
  },
  {
-  "start": 227.239,
-  "end": 229.91,
-  "text": "before we do that uh we need to look at"
+  "start": 339.57,
+  "end": 340.57,
+  "text": "okay?"
  },
  {
-  "start": 229.92,
-  "end": 233.589,
-  "text": "this uh success message element okay so"
+  "start": 340.57,
+  "end": 346.49,
+  "text": "So here I can just use the buffer, the normal buffer and then I can call the amount"
  },
  {
-  "start": 233.599,
-  "end": 235.869,
-  "text": "if you look at the properties you will"
+  "start": 346.69,
+  "end": 351.05,
+  "text": "here, right?"
  },
  {
-  "start": 235.879,
-  "end": 238.509,
-  "text": "see that the inner text actually"
+  "start": 351.05,
+  "end": 358.81,
+  "text": "So this is how you can extract a piece of text which is maybe dynamic in nature from"
  },
  {
-  "start": 238.519,
-  "end": 240.91,
-  "text": "contains the complete text right so it"
+  "start": 358.81,
+  "end": 361.53,
+  "text": "the complete text using the X buffer."
  },
  {
-  "start": 240.92,
-  "end": 243.949,
-  "text": "contains the amount and uh some of other"
+  "start": 361.53,
+  "end": 366.89,
+  "text": "So you can buffer that particular text which you want to buffer and then you can use"
  },
  {
-  "start": 243.959,
-  "end": 247.069,
-  "text": "text okay so we can use this inner text"
+  "start": 366.89,
+  "end": 370.97,
+  "text": "that buffered value to enter it into a text box, okay?"
  },
  {
-  "start": 247.079,
-  "end": 249.949,
-  "text": "property to extract this complete text"
+  "start": 370.97,
+  "end": 374.65,
+  "text": "So this is how you can solve this particular obstacle."
  },
  {
-  "start": 249.959,
-  "end": 252.11,
-  "text": "and from there we will try to extract"
+  "start": 374.65,
+  "end": 381.37,
+  "text": "So let's change the work state here and then let's try and execute this and let's see"
  },
  {
-  "start": 252.12,
-  "end": 256.55,
-  "text": "the amount okay so let's go back here"
+  "start": 381.37,
+  "end": 387.29,
+  "text": "if it can enter that particular amount into the text box, okay?"
  },
  {
-  "start": 256.56,
-  "end": 258.71,
-  "text": "and"
+  "start": 387.29,
+  "end": 393.01,
+  "text": "So as you can see, it was able to extract the text and also it was able to enter"
  },
  {
-  "start": 258.72,
-  "end": 264.03,
-  "text": "then here um I'm going to use the inner"
+  "start": 393.01,
+  "end": 396.45,
+  "text": "it into the text box, right?"
  },
  {
-  "start": 264.04,
-  "end": 268.99,
-  "text": "text okay and then uh in this we are"
+  "start": 396.45,
+  "end": 402.73,
+  "text": "So that completed our obstacle, both the tasks were completed, right?"
  },
  {
-  "start": 269.0,
-  "end": 271.83,
-  "text": "going to call copy this particular text"
+  "start": 402.77,
+  "end": 407.93,
+  "text": "So it did the verification here, you can see, and it was also able to enter that"
  },
  {
-  "start": 271.84,
-  "end": 275.15,
-  "text": "but we are going to make it Dynamic okay"
+  "start": 407.93,
+  "end": 410.41,
+  "text": "particular amount, right?"
  },
  {
-  "start": 275.16,
-  "end": 277.71,
-  "text": "so I'm going to copy this"
+  "start": 410.41,
+  "end": 417.89,
+  "text": "So this is how you can use X buffer and buffer to basically extract some dynamic"
  },
  {
-  "start": 277.72,
-  "end": 282.029,
-  "text": "here and then uh we are going to remove"
+  "start": 417.89,
+  "end": 424.45,
+  "text": "text and also use that text at various places in your test cases."
  },
  {
-  "start": 282.039,
-  "end": 283.83,
-  "text": "this I'm going to put a regular"
+  "start": 424.45,
+  "end": 426.67,
+  "text": "That's all for this particular video."
  },
  {
-  "start": 283.84,
-  "end": 286.189,
-  "text": "expression"
+  "start": 426.67,
+  "end": 430.39,
+  "text": "If you have any questions, then please leave it in the comments."
  },
  {
-  "start": 286.199,
-  "end": 290.43,
-  "text": "here okay and then uh because this"
+  "start": 430.39,
+  "end": 433.91,
+  "text": "If you like this video, then please subscribe to our channel."
  },
  {
-  "start": 290.44,
-  "end": 293.11,
-  "text": "amount keeps on changing so I'm going to"
- },
- {
-  "start": 293.12,
-  "end": 295.39,
-  "text": "buffer this and in this case I'm going"
- },
- {
-  "start": 295.4,
-  "end": 300.23,
-  "text": "to use a x buffer Okay so uh we are"
- },
- {
-  "start": 300.24,
-  "end": 301.99,
-  "text": "going to use"
- },
- {
-  "start": 302.0,
-  "end": 307.15,
-  "text": "XB as you can see okay and then inside"
- },
- {
-  "start": 307.16,
-  "end": 309.31,
-  "text": "this we are going to provide the buffer"
- },
- {
-  "start": 309.32,
-  "end": 313.79,
-  "text": "name and I'm going to call it amount"
- },
- {
-  "start": 313.8,
-  "end": 316.749,
-  "text": "okay and you'll also change the action"
- },
- {
-  "start": 316.759,
-  "end": 320.11,
-  "text": "mode to verify okay so what this will do"
- },
- {
-  "start": 320.12,
-  "end": 323.71,
-  "text": "is it will verify this Dynamic text and"
- },
- {
-  "start": 323.72,
-  "end": 326.55,
-  "text": "also it will buffer this particular"
- },
- {
-  "start": 326.56,
-  "end": 331.39,
-  "text": "amount okay uh into the amount buffer"
- },
- {
-  "start": 331.4,
-  "end": 335.27,
-  "text": "name right now we can easily use that"
- },
- {
-  "start": 335.28,
-  "end": 338.07,
-  "text": "particular buffer to enter it into this"
- },
- {
-  "start": 338.08,
-  "end": 341.029,
-  "text": "particular text box okay so here I can"
- },
- {
-  "start": 341.039,
-  "end": 344.469,
-  "text": "just use the buffer the normal buffer"
- },
- {
-  "start": 344.479,
-  "end": 348.07,
-  "text": "and then I can call the amount"
- },
- {
-  "start": 348.08,
-  "end": 349.87,
-  "text": "here"
- },
- {
-  "start": 349.88,
-  "end": 353.23,
-  "text": "right so uh this is how you can extract"
- },
- {
-  "start": 353.24,
-  "end": 356.749,
-  "text": "a piece of um text which is maybe"
- },
- {
-  "start": 356.759,
-  "end": 359.189,
-  "text": "dynamic in nature uh from the complete"
- },
- {
-  "start": 359.199,
-  "end": 361.83,
-  "text": "text using the X buffer so you can"
- },
- {
-  "start": 361.84,
-  "end": 364.35,
-  "text": "buffer that particular uh text which you"
- },
- {
-  "start": 364.36,
-  "end": 367.27,
-  "text": "want to buffer and then you can use that"
- },
- {
-  "start": 367.28,
-  "end": 369.55,
-  "text": "buffered value uh to enter it into a"
- },
- {
-  "start": 369.56,
-  "end": 372.189,
-  "text": "text box okay so this is how you can"
- },
- {
-  "start": 372.199,
-  "end": 375.07,
-  "text": "solve this particular obstacle so let's"
- },
- {
-  "start": 375.08,
-  "end": 377.55,
-  "text": "change the work state here and then"
- },
- {
-  "start": 377.56,
-  "end": 380.95,
-  "text": "let's try and execute this and let's see"
- },
- {
-  "start": 380.96,
-  "end": 383.51,
-  "text": "um if it can enter that particular"
- },
- {
-  "start": 383.52,
-  "end": 385.909,
-  "text": "amount into the text"
- },
- {
-  "start": 385.919,
-  "end": 389.15,
-  "text": "box okay so as you can see it was able"
- },
- {
-  "start": 389.16,
-  "end": 392.51,
-  "text": "to extract the text and also it was able"
- },
- {
-  "start": 392.52,
-  "end": 397.67,
-  "text": "to enter it into the text box right so"
- },
- {
-  "start": 397.68,
-  "end": 400.67,
-  "text": "that completed our obstacle uh both the"
- },
- {
-  "start": 400.68,
-  "end": 403.83,
-  "text": "tasks were completed right so it did the"
- },
- {
-  "start": 403.84,
-  "end": 406.629,
-  "text": "verification here you can see and it was"
- },
- {
-  "start": 406.639,
-  "end": 408.27,
-  "text": "also able to enter that particular"
- },
- {
-  "start": 408.28,
-  "end": 412.029,
-  "text": "amount right so this is how uh you can"
- },
- {
-  "start": 412.039,
-  "end": 415.07,
-  "text": "use x buffer and buffer to"
- },
- {
-  "start": 415.08,
-  "end": 418.629,
-  "text": "basically um extract some Dynamic text"
- },
- {
-  "start": 418.639,
-  "end": 421.309,
-  "text": "and also use that text uh at various"
- },
- {
-  "start": 421.319,
-  "end": 423.23,
-  "text": "places in your test"
- },
- {
-  "start": 423.24,
-  "end": 425.589,
-  "text": "cases that's all for this particular"
- },
- {
-  "start": 425.599,
-  "end": 428.029,
-  "text": "video if you have any questions then"
- },
- {
-  "start": 428.039,
-  "end": 430.469,
-  "text": "please leave it in the comments if you"
- },
- {
-  "start": 430.479,
-  "end": 432.43,
-  "text": "like this video then please subscribe to"
- },
- {
-  "start": 432.44,
-  "end": 435.15,
-  "text": "our Channel thanks for watching and I"
- },
- {
-  "start": 435.16,
-  "end": 436.99,
-  "text": "will see you in the next"
- },
- {
-  "start": 437.0,
-  "end": 440.0,
-  "text": "video"
+  "start": 433.91,
+  "end": 436.75,
+  "text": "Thanks for watching and I will see you in the next video."
  }
 ]

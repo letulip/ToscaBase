@@ -1,817 +1,497 @@
 [
  {
-  "start": 12.509,
-  "end": 12.519,
-  "text": "hey everyone welcome back to our Channel"
+  "start": 9.71,
+  "end": 12.55,
+  "text": "Hey everyone, welcome back to our channel."
  },
  {
-  "start": 12.519,
-  "end": 15.15,
-  "text": "I am back with another interesting topic"
+  "start": 12.55,
+  "end": 19.15,
+  "text": "I am back with another interesting topic in the Tosca Automation playlist."
  },
  {
-  "start": 15.16,
-  "end": 17.91,
-  "text": "in the TSA automation"
+  "start": 19.15,
+  "end": 24.63,
+  "text": "So today I'm going to talk about another problem or issue which is generally faced by many"
  },
  {
-  "start": 17.92,
-  "end": 20.07,
-  "text": "playlist so today I'm going to talk"
+  "start": 24.63,
+  "end": 30.35,
+  "text": "people when they are working with Tosca, especially around date formatting."
  },
  {
-  "start": 20.08,
-  "end": 22.23,
-  "text": "about another problem or issue which is"
+  "start": 30.35,
+  "end": 37.91,
+  "text": "Now every application has got its own format of date and many times we need to perform"
  },
  {
-  "start": 22.24,
-  "end": 25.509,
-  "text": "generally faced by many people when they"
+  "start": 37.91,
+  "end": 44.67,
+  "text": "date calculations and we need to also change a date to a specific format."
  },
  {
-  "start": 25.519,
-  "end": 28.47,
-  "text": "are working with tosa especially around"
+  "start": 44.67,
+  "end": 53.51,
+  "text": "But the issue which happens is sometimes Tosca will not accept the date format which you"
  },
  {
-  "start": 28.48,
-  "end": 32.15,
-  "text": "date formatting now uh every application"
+  "start": 53.51,
+  "end": 56.67,
+  "text": "are trying to convert to."
  },
  {
-  "start": 32.16,
-  "end": 36.229,
-  "text": "has got its own format of date and many"
+  "start": 56.67,
+  "end": 62.67,
+  "text": "Because Tosca has got its own format which is either defined by the system where it"
  },
  {
-  "start": 36.239,
-  "end": 38.19,
-  "text": "times uh we need to perform date"
+  "start": 62.67,
+  "end": 67.55,
+  "text": "is installed or it is defined within Tosca itself."
  },
  {
-  "start": 38.2,
-  "end": 41.549,
-  "text": "calculations and we need to also change"
+  "start": 67.55,
+  "end": 72.55,
+  "text": "So sometimes the conversion, even though you can use the date function to make the"
  },
  {
-  "start": 41.559,
-  "end": 46.069,
-  "text": "a date to a specific format but uh the"
+  "start": 72.55,
+  "end": 79.47,
+  "text": "calculations and to make the conversion to a specific format, but the source format"
  },
  {
-  "start": 46.079,
-  "end": 50.189,
-  "text": "issue which happens is sometimes uh tosa"
+  "start": 79.47,
+  "end": 87.15,
+  "text": "will not be accepted as a valid format by Tosca and then it throws up an error."
  },
  {
-  "start": 50.199,
-  "end": 53.27,
-  "text": "will not accept the date format which"
+  "start": 87.15,
+  "end": 91.83,
+  "text": "So I have come across this scenario multiple times and that is the reason I thought"
  },
  {
-  "start": 53.28,
-  "end": 56.349,
-  "text": "you are trying to convert to okay uh"
+  "start": 91.83,
+  "end": 96.91,
+  "text": "I would share this particular solution which is a very simple solution which you can"
  },
  {
-  "start": 56.359,
-  "end": 59.709,
-  "text": "because tosa has got its own uh format"
+  "start": 96.95,
+  "end": 103.27,
+  "text": "apply all the time whenever you are trying to convert some date format into another date"
  },
  {
-  "start": 59.719,
-  "end": 61.63,
-  "text": "where which is either defined by the"
+  "start": 103.27,
+  "end": 104.27,
+  "text": "format."
  },
  {
-  "start": 61.64,
-  "end": 64.35,
-  "text": "system where it is installed or it is"
+  "start": 104.27,
+  "end": 109.35,
+  "text": "But the date format which you are trying to convert may be of different formats than"
  },
  {
-  "start": 64.36,
-  "end": 68.03,
-  "text": "defined within tosa itself okay so"
+  "start": 109.35,
+  "end": 112.71,
+  "text": "what Tosca accepts currently."
  },
  {
-  "start": 68.04,
-  "end": 70.51,
-  "text": "sometimes the conversion even though uh"
+  "start": 112.71,
+  "end": 117.83,
+  "text": "So let's look at an example for this."
  },
  {
-  "start": 70.52,
-  "end": 72.429,
-  "text": "you can use the dated function to make"
+  "start": 117.83,
+  "end": 122.87,
+  "text": "So this is the example where this is the date which has been provided to us which"
  },
  {
-  "start": 72.439,
-  "end": 75.109,
-  "text": "the calculations and to make the"
+  "start": 122.87,
+  "end": 125.07,
+  "text": "is today's date."
  },
  {
-  "start": 75.119,
-  "end": 78.39,
-  "text": "conversion to a specific format but the"
+  "start": 125.07,
+  "end": 130.35,
+  "text": "It is in a specific format which doesn't match with the format which I have currently"
  },
  {
-  "start": 78.4,
-  "end": 81.39,
-  "text": "source format will not be accepted as a"
+  "start": 130.35,
+  "end": 132.39,
+  "text": "on my system."
  },
  {
-  "start": 81.4,
-  "end": 84.95,
-  "text": "valid format by tosa and then it throws"
+  "start": 132.39,
+  "end": 140.99,
+  "text": "My system has a date format of DD, MM and YYY but I have provided a date which is"
  },
  {
-  "start": 84.96,
-  "end": 88.03,
-  "text": "up an error okay so I have come across"
+  "start": 140.99,
+  "end": 145.35,
+  "text": "YYY, MM and DD."
  },
  {
-  "start": 88.04,
-  "end": 90.23,
-  "text": "this scenario multiple times and that is"
+  "start": 145.35,
+  "end": 150.91,
+  "text": "And then we need to convert this particular date into this format."
  },
  {
-  "start": 90.24,
-  "end": 93.109,
-  "text": "the reason I thought I would share this"
+  "start": 150.91,
+  "end": 153.03,
+  "text": "So this is the scenario."
  },
  {
-  "start": 93.119,
-  "end": 94.95,
-  "text": "particular solution which is a very"
+  "start": 153.03,
+  "end": 154.77,
+  "text": "This is what we need to do."
  },
  {
-  "start": 94.96,
-  "end": 97.469,
-  "text": "simple solution uh which you can apply"
+  "start": 154.77,
+  "end": 162.65,
+  "text": "So let's go ahead and create a new test case folder here and I will call it dates."
  },
  {
-  "start": 97.479,
-  "end": 99.91,
-  "text": "all the time whenever you are trying to"
+  "start": 162.65,
+  "end": 172.9,
+  "text": "And then I am going to create a test case here called format date."
  },
  {
-  "start": 99.92,
-  "end": 102.99,
-  "text": "convert uh some date format into another"
+  "start": 172.9,
+  "end": 179.9,
+  "text": "So the first thing which I can do is I can set a buffer here."
  },
  {
-  "start": 103.0,
-  "end": 105.389,
-  "text": "date format but the date format which"
+  "start": 179.9,
+  "end": 189.7,
+  "text": "So I am going to use the tbox set buffer and I am going to call it today date."
  },
  {
-  "start": 105.399,
-  "end": 108.149,
-  "text": "you're trying to convert may be of"
+  "start": 189.7,
+  "end": 196.46,
+  "text": "And I am going to define the date which I have picked which is in a specific format."
  },
  {
-  "start": 108.159,
-  "end": 110.789,
-  "text": "different format than what tosa accepts"
+  "start": 196.46,
+  "end": 198.3,
+  "text": "We know that."
  },
  {
-  "start": 110.799,
-  "end": 114.99,
-  "text": "currently okay so uh let's look uh at an"
+  "start": 198.3,
+  "end": 207.26,
+  "text": "So I am going to give it a value like 2024 and then 03 and then 07."
  },
  {
-  "start": 115.0,
-  "end": 118.389,
-  "text": "example for this right so this is the"
+  "start": 207.26,
+  "end": 210.94,
+  "text": "So this is the value which I have provided."
  },
  {
-  "start": 118.399,
-  "end": 121.31,
-  "text": "example uh where uh this is the date"
+  "start": 210.94,
+  "end": 216.7,
+  "text": "And now I am going to convert this date into the specified format."
  },
  {
-  "start": 121.32,
-  "end": 122.99,
-  "text": "which has been provided to us which is"
+  "start": 216.7,
+  "end": 219.86,
+  "text": "So I am going to call it new date."
  },
  {
-  "start": 123.0,
-  "end": 125.99,
-  "text": "today's date okay uh it is in a specific"
+  "start": 219.86,
+  "end": 223.3,
+  "text": "So this is again a set buffer."
  },
  {
-  "start": 126.0,
-  "end": 128.27,
-  "text": "format which doesn't match with the"
+  "start": 223.3,
+  "end": 229.94,
+  "text": "And here I am going to call the date function."
  },
  {
-  "start": 128.28,
-  "end": 131.11,
-  "text": "format which I have currently on my"
+  "start": 229.94,
+  "end": 232.64,
+  "text": "So we already know about the date function."
  },
  {
-  "start": 131.12,
-  "end": 134.99,
-  "text": "system uh my system has a date format of"
+  "start": 232.64,
+  "end": 235.58,
+  "text": "You can do different types of calculations."
  },
  {
-  "start": 135.0,
-  "end": 139.67,
-  "text": "uh DD mm and yyy but I have provided uh"
+  "start": 235.58,
+  "end": 240.02,
+  "text": "You can also change it to a specific format."
  },
  {
-  "start": 139.68,
-  "end": 145.309,
-  "text": "date which is yyy MM and DD okay uh and"
+  "start": 240.02,
+  "end": 246.06,
+  "text": "So inside this we are going to pick up the buffer of today's date."
  },
  {
-  "start": 145.319,
-  "end": 147.35,
-  "text": "then we need to convert this particular"
+  "start": 246.06,
+  "end": 249.34,
+  "text": "So the buffer which we have already created."
  },
  {
-  "start": 147.36,
-  "end": 151.75,
-  "text": "date into this format right so this is"
+  "start": 249.34,
+  "end": 255.42,
+  "text": "So I am going to use it here and then we will leave this empty."
  },
  {
-  "start": 151.76,
-  "end": 153.869,
-  "text": "uh the scenario this is what we need to"
+  "start": 255.42,
+  "end": 258.22,
+  "text": "We are not doing any offset."
  },
  {
-  "start": 153.879,
-  "end": 157.869,
-  "text": "do so uh let's go ahead and create a new"
+  "start": 258.22,
+  "end": 262.26,
+  "text": "And after that we are providing a format here."
  },
  {
-  "start": 157.879,
-  "end": 161.03,
-  "text": "test case folder here and I will call it"
+  "start": 262.26,
+  "end": 271.98,
+  "text": "So that format would be dd and then mm which will be in capital and then yyy."
  },
  {
-  "start": 161.04,
-  "end": 163.75,
-  "text": "dates okay and then I'm going to create"
+  "start": 271.98,
+  "end": 276.94,
+  "text": "So this is the format which we want it to convert."
  },
  {
-  "start": 163.76,
-  "end": 169.63,
-  "text": "a test case here called"
+  "start": 276.94,
+  "end": 280.7,
+  "text": "And then I am going to close this."
  },
  {
-  "start": 171.229,
-  "end": 171.239,
-  "text": "format"
+  "start": 280.7,
+  "end": 282.22,
+  "text": "So this is the new date."
  },
  {
-  "start": 171.239,
-  "end": 174.589,
-  "text": "date okay so the first thing which uh uh"
+  "start": 282.22,
+  "end": 285.46,
+  "text": "This is the today's date."
  },
  {
-  "start": 174.599,
-  "end": 179.509,
-  "text": "I can do is uh I can set a buffer here"
+  "start": 285.46,
+  "end": 291.66,
+  "text": "So everything looks good now and we have used the right date function to convert"
  },
  {
-  "start": 179.519,
-  "end": 181.55,
-  "text": "okay so I'm going to use the tbox set"
+  "start": 291.66,
+  "end": 295.22,
+  "text": "it into a specific format."
  },
  {
-  "start": 181.56,
-  "end": 185.43,
-  "text": "buffer and I'm going to call it"
+  "start": 295.22,
+  "end": 297.34,
+  "text": "So we would expect this to run."
  },
  {
-  "start": 185.44,
-  "end": 187.35,
-  "text": "today"
+  "start": 297.34,
+  "end": 302.22,
+  "text": "So let's go ahead and run this and let's see whether Tosca can actually convert this"
  },
  {
-  "start": 187.36,
-  "end": 191.789,
-  "text": "date okay and uh I'm going to define the"
+  "start": 302.22,
+  "end": 304.42,
+  "text": "date or not."
  },
  {
-  "start": 191.799,
-  "end": 194.99,
-  "text": "date which I have picked so uh which is"
+  "start": 304.42,
+  "end": 310.5,
+  "text": "So what we'll notice is this test case will fail."
  },
  {
-  "start": 195.0,
-  "end": 198.149,
-  "text": "in a specific format we know that right"
+  "start": 310.5,
+  "end": 315.34,
+  "text": "And even though we have used the correct function and we have used all the correct"
  },
  {
-  "start": 198.159,
-  "end": 202.07,
-  "text": "so I'm going to give it a value like"
+  "start": 315.34,
+  "end": 318.7,
+  "text": "formats, still it is failing."
  },
  {
-  "start": 202.08,
-  "end": 207.309,
-  "text": "2024 and then 03 and then 07 okay so"
+  "start": 318.78,
+  "end": 326.38,
+  "text": "The reason is the value which we have provided cannot be interpreted by Tosca as a date according"
  },
  {
-  "start": 207.319,
-  "end": 210.789,
-  "text": "this is the value which I have provided"
+  "start": 326.38,
+  "end": 329.14,
+  "text": "to this particular format."
  },
  {
-  "start": 210.799,
-  "end": 213.429,
-  "text": "and now uh I'm going to convert this"
+  "start": 329.14,
+  "end": 334.3,
+  "text": "So in Tosca this is the format which is currently set."
  },
  {
-  "start": 213.439,
-  "end": 217.27,
-  "text": "date into the specified format so I'm"
+  "start": 334.3,
+  "end": 340.4,
+  "text": "And it will always try to interpret this as the right format."
  },
  {
-  "start": 217.28,
-  "end": 220.149,
-  "text": "going to call it new date okay so this"
+  "start": 340.4,
+  "end": 345.18,
+  "text": "So from here it can convert it into a different format using the date function."
  },
  {
-  "start": 220.159,
-  "end": 221.869,
-  "text": "is again a set"
+  "start": 345.74,
+  "end": 352.1,
+  "text": "If you're trying to put some other date which is in a different format then Tosca cannot"
  },
  {
-  "start": 221.879,
-  "end": 226.63,
-  "text": "buffer um and here uh I am going to call"
+  "start": 352.1,
+  "end": 356.02,
+  "text": "interpret it as a date."
  },
  {
-  "start": 226.64,
-  "end": 230.39,
-  "text": "the date function okay so we already"
+  "start": 356.02,
+  "end": 362.12,
+  "text": "So we have to change that interpretation of Tosca so that it considers this as"
  },
  {
-  "start": 230.4,
-  "end": 233.19,
-  "text": "know about the date function um you can"
+  "start": 362.12,
+  "end": 365.3,
+  "text": "a valid date."
  },
  {
-  "start": 233.2,
-  "end": 235.63,
-  "text": "do different types of calculations you"
+  "start": 365.3,
+  "end": 372.26,
+  "text": "And how we can do that is by defining a test configuration parameter for our test"
  },
  {
-  "start": 235.64,
-  "end": 238.429,
-  "text": "can also uh change it to a specific"
+  "start": 372.26,
+  "end": 374.66,
+  "text": "case."
  },
  {
-  "start": 238.439,
-  "end": 241.149,
-  "text": "format right so inside this we are going"
+  "start": 374.66,
+  "end": 381.9,
+  "text": "So go into the particular test configuration and then from here we will try to add a"
  },
  {
-  "start": 241.159,
-  "end": 245.71,
-  "text": "to pick up the buffer of uh today's date"
+  "start": 381.9,
+  "end": 384.3,
+  "text": "test configuration parameter."
  },
  {
-  "start": 245.72,
-  "end": 247.789,
-  "text": "right so the buffer which we have"
+  "start": 384.3,
+  "end": 389.86,
+  "text": "Here we have to choose something called the Tosca date format."
  },
  {
-  "start": 247.799,
-  "end": 250.869,
-  "text": "already created so I'm going to use it"
+  "start": 389.86,
+  "end": 394.34,
+  "text": "So it is a system defined test configuration parameter."
  },
  {
-  "start": 250.879,
-  "end": 255.149,
-  "text": "here and then uh we'll leave this empty"
+  "start": 394.34,
+  "end": 399.1,
+  "text": "And here we are going to choose any particular value."
  },
  {
-  "start": 255.159,
-  "end": 258.229,
-  "text": "okay we are not doing any offset and"
+  "start": 399.1,
+  "end": 403.44,
+  "text": "There are multiple values which you can choose from."
  },
  {
-  "start": 258.239,
-  "end": 260.43,
-  "text": "after that we are providing a format"
+  "start": 403.44,
+  "end": 407.92,
+  "text": "And you can choose any particular format from here."
  },
  {
-  "start": 260.44,
-  "end": 265.55,
-  "text": "here right so that format would be DD"
+  "start": 407.92,
+  "end": 415.16,
+  "text": "So we want to choose this particular format because this is the format which we have"
  },
  {
-  "start": 265.56,
-  "end": 270.07,
-  "text": "and then mm which will be in capital and"
+  "start": 415.16,
+  "end": 416.44,
+  "text": "provided."
  },
  {
-  "start": 270.08,
-  "end": 272.83,
-  "text": "then y y y okay so this is the format"
+  "start": 416.44,
+  "end": 421.52,
+  "text": "So I can choose this if you want any other format you can also choose that."
  },
  {
-  "start": 272.84,
-  "end": 275.43,
-  "text": "which we want it to"
+  "start": 421.52,
+  "end": 428.96,
+  "text": "So once you define this test configuration parameter now Tosca will be forced to consider"
  },
  {
-  "start": 275.44,
-  "end": 278.71,
-  "text": "convert um and then I'm going to close"
+  "start": 428.96,
+  "end": 432.96,
+  "text": "this format as a correct valid date format."
  },
  {
-  "start": 278.72,
-  "end": 282.189,
-  "text": "this okay so this is the new date this"
+  "start": 432.96,
+  "end": 441.46,
+  "text": "Now when we run this it should be running successfully."
  },
  {
-  "start": 282.199,
-  "end": 285.71,
-  "text": "is the today's date okay um so"
+  "start": 441.46,
+  "end": 448.46,
+  "text": "So now you can see that it was able to set the buffer with this date and then it was"
  },
  {
-  "start": 285.72,
-  "end": 288.469,
-  "text": "everything looks good now um and we have"
+  "start": 448.46,
+  "end": 454.54,
+  "text": "able to convert it into the specified format."
  },
  {
-  "start": 288.479,
-  "end": 291.629,
-  "text": "used the right date function to convert"
+  "start": 454.54,
+  "end": 462.38,
+  "text": "So this is how you can basically change the interpretation of Tosca so that it considers"
  },
  {
-  "start": 291.639,
-  "end": 295.27,
-  "text": "it into a specific format right okay so"
+  "start": 462.38,
+  "end": 470.3,
+  "text": "a specific format as a valid date format because Tosca will have its own date format"
  },
  {
-  "start": 295.28,
-  "end": 297.909,
-  "text": "we would expect this to run so let's go"
+  "start": 470.3,
+  "end": 475.22,
+  "text": "which it will always try to interpret as the correct date."
  },
  {
-  "start": 297.919,
-  "end": 300.07,
-  "text": "ahead and run this and let's see whether"
+  "start": 475.22,
+  "end": 481.62,
+  "text": "So even though you know how to convert the dates using the different date functions"
  },
  {
-  "start": 300.08,
-  "end": 302.83,
-  "text": "tosa can actually convert this date or"
+  "start": 481.62,
+  "end": 486.3,
+  "text": "this is also one aspect which you need to consider when you are working with"
  },
  {
-  "start": 302.84,
-  "end": 306.909,
-  "text": "not okay so what you'll notice is this"
+  "start": 486.3,
+  "end": 491.3,
+  "text": "different date formats and different applications have got a different date format."
  },
  {
-  "start": 306.919,
-  "end": 310.87,
-  "text": "test case will fail okay and even though"
+  "start": 491.3,
+  "end": 498.34,
+  "text": "So this this way you can always work with those different formats."
  },
  {
-  "start": 310.88,
-  "end": 313.55,
-  "text": "we have used the correct function um and"
+  "start": 498.34,
+  "end": 500.58,
+  "text": "That's all for this particular video."
  },
  {
-  "start": 313.56,
-  "end": 315.909,
-  "text": "we have used all the correct formats"
+  "start": 500.58,
+  "end": 504.3,
+  "text": "If you have any questions then please leave it in the comments."
  },
  {
-  "start": 315.919,
-  "end": 319.59,
-  "text": "still uh it is failing and the reason is"
+  "start": 504.3,
+  "end": 508.06,
+  "text": "If you like this video then please subscribe to our channel."
  },
  {
-  "start": 319.6,
-  "end": 322.39,
-  "text": "the value which we have provided cannot"
- },
- {
-  "start": 322.4,
-  "end": 325.67,
-  "text": "be interpreted by tosa as a date"
- },
- {
-  "start": 325.68,
-  "end": 328.909,
-  "text": "according to this particular format okay"
- },
- {
-  "start": 328.919,
-  "end": 331.99,
-  "text": "so in tosa this is the format which is"
- },
- {
-  "start": 332.0,
-  "end": 335.15,
-  "text": "currently set okay and it will always"
- },
- {
-  "start": 335.16,
-  "end": 338.629,
-  "text": "try to interpret this as the right"
- },
- {
-  "start": 338.639,
-  "end": 341.87,
-  "text": "format okay so from here it can convert"
- },
- {
-  "start": 341.88,
-  "end": 343.55,
-  "text": "it into a different format using the"
- },
- {
-  "start": 343.56,
-  "end": 346.59,
-  "text": "date function but if you're trying to"
- },
- {
-  "start": 346.6,
-  "end": 349.469,
-  "text": "put some other date okay which is in a"
- },
- {
-  "start": 349.479,
-  "end": 352.07,
-  "text": "different format then tosa cannnot"
- },
- {
-  "start": 352.08,
-  "end": 356.35,
-  "text": "interpret it as a date okay so we have"
- },
- {
-  "start": 356.36,
-  "end": 359.99,
-  "text": "to change that interpretation of tosa so"
- },
- {
-  "start": 360.0,
-  "end": 363.309,
-  "text": "that it considers this as a valid"
- },
- {
-  "start": 363.319,
-  "end": 368.11,
-  "text": "date okay and how we can do that is by"
- },
- {
-  "start": 368.12,
-  "end": 371.189,
-  "text": "defining a test configuration parameter"
- },
- {
-  "start": 371.199,
-  "end": 376.749,
-  "text": "for our test case Okay so uh go into the"
- },
- {
-  "start": 376.759,
-  "end": 378.55,
-  "text": "particular test"
- },
- {
-  "start": 378.56,
-  "end": 381.11,
-  "text": "configuration and then from here we will"
- },
- {
-  "start": 381.12,
-  "end": 383.15,
-  "text": "try to add a test configuration"
- },
- {
-  "start": 383.16,
-  "end": 386.27,
-  "text": "parameter here uh we have to choose"
- },
- {
-  "start": 386.28,
-  "end": 389.55,
-  "text": "something called the tosa date format"
- },
- {
-  "start": 389.56,
-  "end": 392.029,
-  "text": "okay so it is a system defined test"
- },
- {
-  "start": 392.039,
-  "end": 395.71,
-  "text": "configuration parameter and here uh we"
- },
- {
-  "start": 395.72,
-  "end": 399.11,
-  "text": "are going to choose any particular value"
- },
- {
-  "start": 399.12,
-  "end": 401.11,
-  "text": "right there are multiple values which"
- },
- {
-  "start": 401.12,
-  "end": 403.79,
-  "text": "you can choose from um and you can"
- },
- {
-  "start": 403.8,
-  "end": 406.83,
-  "text": "choose any particular format from here"
- },
- {
-  "start": 406.84,
-  "end": 410.589,
-  "text": "okay so uh we want to choose this"
- },
- {
-  "start": 410.599,
-  "end": 413.43,
-  "text": "particular format because this is the"
- },
- {
-  "start": 413.44,
-  "end": 416.469,
-  "text": "format uh which we have provided okay so"
- },
- {
-  "start": 416.479,
-  "end": 418.79,
-  "text": "I can choose this uh if you want any"
- },
- {
-  "start": 418.8,
-  "end": 421.55,
-  "text": "other format you can also choose that so"
- },
- {
-  "start": 421.56,
-  "end": 423.469,
-  "text": "once you define this test configuration"
- },
- {
-  "start": 423.479,
-  "end": 428.27,
-  "text": "parameter now tosa will be forced to uh"
- },
- {
-  "start": 428.28,
-  "end": 431.629,
-  "text": "consider this format as a correct valid"
- },
- {
-  "start": 431.639,
-  "end": 434.629,
-  "text": "date format now when we run this it"
- },
- {
-  "start": 434.639,
-  "end": 439.589,
-  "text": "should be running"
- },
- {
-  "start": 442.869,
-  "end": 442.879,
-  "text": "successfully okay so now you can see"
- },
- {
-  "start": 442.879,
-  "end": 446.35,
-  "text": "that it was able to set the buffer with"
- },
- {
-  "start": 446.36,
-  "end": 448.869,
-  "text": "this state and then it was able to"
- },
- {
-  "start": 448.879,
-  "end": 449.83,
-  "text": "convert"
- },
- {
-  "start": 449.84,
-  "end": 453.39,
-  "text": "into the specified format"
- },
- {
-  "start": 453.4,
-  "end": 457.51,
-  "text": "okay so uh this is how you can basically"
- },
- {
-  "start": 457.52,
-  "end": 461.23,
-  "text": "change uh the interpretation of tosa so"
- },
- {
-  "start": 461.24,
-  "end": 464.27,
-  "text": "that it considers a specific format as a"
- },
- {
-  "start": 464.28,
-  "end": 468.27,
-  "text": "valid date format okay because uh tosa"
- },
- {
-  "start": 468.28,
-  "end": 470.909,
-  "text": "will have its own date format which it"
- },
- {
-  "start": 470.919,
-  "end": 473.23,
-  "text": "will always try to interpret as the"
- },
- {
-  "start": 473.24,
-  "end": 477.35,
-  "text": "correct date so uh even though uh you"
- },
- {
-  "start": 477.36,
-  "end": 479.83,
-  "text": "know how to convert the dates using the"
- },
- {
-  "start": 479.84,
-  "end": 482.309,
-  "text": "different date functions this is also"
- },
- {
-  "start": 482.319,
-  "end": 484.99,
-  "text": "one aspect which you need to consider"
- },
- {
-  "start": 485.0,
-  "end": 486.869,
-  "text": "when you are working with different date"
- },
- {
-  "start": 486.879,
-  "end": 489.39,
-  "text": "formats and different applications have"
- },
- {
-  "start": 489.4,
-  "end": 492.99,
-  "text": "got a different date formats so this uh"
- },
- {
-  "start": 493.0,
-  "end": 495.71,
-  "text": "this way you can always work with those"
- },
- {
-  "start": 495.72,
-  "end": 497.149,
-  "text": "different"
- },
- {
-  "start": 497.159,
-  "end": 499.51,
-  "text": "formats that's all for this particular"
- },
- {
-  "start": 499.52,
-  "end": 501.95,
-  "text": "video if you have any questions then"
- },
- {
-  "start": 501.96,
-  "end": 504.43,
-  "text": "please leave it in the comments if you"
- },
- {
-  "start": 504.44,
-  "end": 506.39,
-  "text": "like this video then please subscribe to"
- },
- {
-  "start": 506.4,
-  "end": 508.99,
-  "text": "our Channel thanks for watching and I"
- },
- {
-  "start": 509.0,
-  "end": 510.909,
-  "text": "will see you in the next"
- },
- {
-  "start": 510.919,
-  "end": 513.919,
-  "text": "video"
+  "start": 508.06,
+  "end": 510.66,
+  "text": "Thanks for watching and I will see you in the next video."
  }
 ]

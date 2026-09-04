@@ -3,26 +3,34 @@ id: "tOYDf55pDME"
 title: "Tosca Tutorial | Lesson 135 - Future Date | LDay | Date Expressions | Offset | Obstacle 29 |"
 url: "https://www.youtube.com/watch?v=tOYDf55pDME"
 channel: "QASCRIPT"
-playlist: "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification"
-playlist_index: 137
+playlist: null
+playlist_index: null
 duration: 325
 upload_date: "20240221"
-source: "youtube-subs"
+source: "whisper:medium"
 language: "en"
-transcribed_at: "2026-09-04T08:09:21Z"
+transcribed_at: "2026-09-04T14:09:10Z"
 status: "raw"
 ---
 
 # Tosca Tutorial | Lesson 135 - Future Date | LDay | Date Expressions | Offset | Obstacle 29 |
 
-[00:12] hey everyone welcome back to our Channel I am back with another interesting topic in the tosa automation playlist so continuing with our topic on test automation obstacles let's look at our next obstacle which is called future Christmas now this is related to a date format and here what we need to do is we need to calculate on which day Christmas 25 December falls in the next 2 years which means after two years what day would Christmas fall on it could be a Monday Tuesday Wednesday Thursday or Friday right so we have to write it as a word okay so in this Christmas is near and there is a text box enter the day so here we need to write the day and uh if we calculate then the ch Christmas after 2 years would fall on a Friday okay so that's basically the answer and that will solve the obstacle but we need to do this using tosa so let's see how we
+[00:09] Hey everyone, welcome back to our channel. I am back with another interesting topic in the Tosca Automation playlist. So continuing with our topic on test automation obstacles, let's look at our next obstacle which is called future Christmas. Now this is related to a date format and here what we need to do is we need to calculate on which day Christmas 25 December falls in the next two years, which means after two years, what day would Christmas fall on?
 
-[01:13] can achieve this particular automation using the date Expressions so coming back to our TSA workspace uh the first step is to get that uh module which contains that text box so I'm going to scan this quickly so here I'm going to just select the text box uh that is all uh what we need and I will also rename the module here and then save this and close it okay um so that is done next uh we need to add a test case so I'll go to our obstacles folder and I will create the test case here and then I'm going to add the respective module right here okay so here uh we need to use some
+[00:42] It could be a Monday, Tuesday, Wednesday, Thursday or Friday. So we have to write it as a word. So in this Christmas is near and there is a text box enter the day. So here we need to write the day and if we calculate then the Christmas after two years would fall on a Friday. So that's basically the answer and that will solve the obstacle. But we need to do this using Tosca. So let's see how we can achieve this particular automation using the date expressions.
 
-[02:15] Expressions uh which is the date expression but we also need to find out the day on which that particular date falls on right so for that uh we need to use some expression like uh the L day okay so what it does it uh provides you with the day according to the current system settings okay so the result could be a day uh which is stated in words okay so inside this you can then put your own date expression as given in this particular syntax and example right and the result would be a day so that's what this particular expression does okay now inside this we are going to write the date expression and as you know uh we can put a base date we can put a offset and we can also put a format but uh we don't require uh the format in this case we just require the base date and then we require the offset
+[01:19] So coming back to our Tosca workspace, the first step is to get that module which contains that text box. So I'm going to scan this quickly. So here I'm going to just select the text box that is all what we need. And I will also rename the module here and then save this and close it. Okay so that is done.
 
-[03:16] which is uh plus two years right because we are trying to find the date uh after 2 years right so we are going to write this particular expression so in this uh we are going to write the date uh so we know that it is the Christmas so 25 December so I'm going to write 2512 and then I'm going to write the current date or current year right in this 2024 and then um we are going to write the offset here which is plus 2 years right uh we will leave the format empty because we don't want to change the format here and then let's close this expression and this expression okay so that's all uh we need to do here we just need to write the correct expression which will provide us the result now one way to verify this is you can verify it right here so you can right click on this expression and click
+[01:53] Next we need to add a test case. So I'll go to our obstacles folder and I will create the test case here. And then I'm going to add the respective module right here. Okay so here we need to use some expressions which is the date expression. But we also need to find out the day on which that particular date falls on.
 
-[04:16] on translate value and uh it will provide you with the correct value which is Friday right and now we can use this to enter it into the particular text box right so uh this uh will input it into the text box so let's go ahead and run this now I'll change the work state to complete it and then let's try and uh run this in scratchbook okay so as you can see U the day which was Friday was entered into the text box and the automation obstacle was completed so you can use the different date expr questions to manipulate your dates based on the requirements of your test case and then you can run them um as per the requirements that's all for this particular video if you have any questions then please leave it in the comments if you like this video then
+[02:24] So for that we need to use some expression like the LD. So what it does, it provides you with the day according to the current system settings. So the result could be a day which is stated in words. So inside this you can then put your own date expression as given in this particular syntax and example. And the result would be a day.
 
-[05:18] please subscribe to our Channel thanks for watching and I will see you in the next video
+[02:54] So that's what this particular expression does. Now inside this we are going to write the date expression. And as you know we can put a base date, we can put an offset and we can also put a format. But we don't require the format in this case we just require the base date and then we require the offset which is plus two years. Because we are trying to find the date after two years. So we are going to write this particular expression.
+
+[03:27] So in this we are going to write the date. So we know that it is the Christmas, so 25 December. So I'm going to write 25-12 and then I'm going to write the current date or current year in this 2024. And then we are going to write the offset here which is plus two years. We will leave the format empty because we don't want to change the format here.
+
+[03:57] And then let's close this expression and this expression. So that's all we need to do here. We just need to write the correct expression which will provide us the result. Now one way to verify this is you can verify it right here. So you can right click on this expression and click on translate value. And it will provide you with the correct value which is Friday. And now we can use this to enter it into the particular text box.
+
+[04:30] So this will input it into the text box. So let's go ahead and run this now. I will change the work state to completed. And then let's try and run this in Scratchbook. So as you can see the day which was Friday was entered into the text box and the automation obstacle was completed. So you can use the different date expressions to manipulate your dates based on the requirements of your test case.
+
+[05:06] And then you can run them as per the requirements. That's all for this particular video. If you have any questions then please leave it in the comments. If you like this video then please subscribe to our channel. Thanks for watching and I will see you in the next video.

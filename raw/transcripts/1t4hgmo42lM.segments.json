@@ -1,772 +1,452 @@
 [
  {
-  "start": 12.549,
-  "end": 12.559,
-  "text": "hey everyone welcome back to our Channel"
+  "start": 9.71,
+  "end": 12.55,
+  "text": "Hey everyone, welcome back to our channel."
  },
  {
-  "start": 12.559,
-  "end": 15.19,
-  "text": "I am back with another interesting topic"
+  "start": 12.55,
+  "end": 19.03,
+  "text": "I am back with another interesting topic in the Tosca Automation playlist."
  },
  {
-  "start": 15.2,
-  "end": 17.83,
-  "text": "in the tosa automation"
+  "start": 19.03,
+  "end": 24.23,
+  "text": "So in this session, we are going to talk about a challenging problem which you might come"
  },
  {
-  "start": 17.84,
-  "end": 20.189,
-  "text": "playlist so in this session we are going"
+  "start": 24.23,
+  "end": 30.87,
+  "text": "across when you are trying to test your PDF documents and you are trying to use"
  },
  {
-  "start": 20.199,
-  "end": 23.029,
-  "text": "to talk about a challenging problem"
+  "start": 30.87,
+  "end": 33.31,
+  "text": "the PDF scan in Tosca."
  },
  {
-  "start": 23.039,
-  "end": 25.67,
-  "text": "which uh you might come across uh when"
+  "start": 33.31,
+  "end": 40.33,
+  "text": "So the problem here, or maybe the challenge here, is you need to count the number of pages"
  },
  {
-  "start": 25.68,
-  "end": 28.669,
-  "text": "you are trying to test your PDF"
+  "start": 40.33,
+  "end": 46.83,
+  "text": "in your PDF document, so you need to verify whether the PDF has got this many number"
  },
  {
-  "start": 28.679,
-  "end": 30.91,
-  "text": "documents and you are trying to use the"
+  "start": 46.83,
+  "end": 47.83,
+  "text": "of pages."
  },
  {
-  "start": 30.92,
-  "end": 34.869,
-  "text": "PDF scan in tosa so the problem here or"
+  "start": 47.83,
+  "end": 54.75,
+  "text": "Now the challenge here is if your PDF document doesn't have any particular element which"
  },
  {
-  "start": 34.879,
-  "end": 37.99,
-  "text": "maybe the challenge here is uh you need"
+  "start": 54.75,
+  "end": 60.35,
+  "text": "tells you the page number, then it will be difficult to count the number of pages."
  },
  {
-  "start": 38.0,
-  "end": 41.15,
-  "text": "to count the number of pages in your PDF"
+  "start": 60.39,
+  "end": 67.67,
+  "text": "Okay, so I have opened a sample PDF document and here you can see there are no page numbers"
  },
  {
-  "start": 41.16,
-  "end": 43.95,
-  "text": "document right so you need to verify"
+  "start": 67.67,
+  "end": 69.91,
+  "text": "mentioned here, right?"
  },
  {
-  "start": 43.96,
-  "end": 46.549,
-  "text": "whether the PDF uh has got this many"
+  "start": 69.91,
+  "end": 77.63,
+  "text": "So if I go till down, it shows me around 57 pages are there, right?"
  },
  {
-  "start": 46.559,
-  "end": 49.35,
-  "text": "number of pages now the challenge here"
+  "start": 77.63,
+  "end": 84.87,
+  "text": "And that you can count through the PDF application, but the actual PDF doesn't have any header"
  },
  {
-  "start": 49.36,
-  "end": 52.95,
-  "text": "is if your PDF document doesn't have any"
+  "start": 84.87,
+  "end": 88.35,
+  "text": "or footer mentioning the page numbers, right?"
  },
  {
-  "start": 52.96,
-  "end": 55.51,
-  "text": "particular element which tells you the"
+  "start": 88.35,
+  "end": 95.07,
+  "text": "So here we need to count the number of pages which is 57 and then maybe we can verify that"
  },
  {
-  "start": 55.52,
-  "end": 58.63,
-  "text": "page number then it will be difficult to"
+  "start": 95.07,
+  "end": 100.15,
+  "text": "or buffer that and that's our requirement."
  },
  {
-  "start": 58.64,
-  "end": 61.509,
-  "text": "count the number of P pages okay so I"
+  "start": 100.15,
+  "end": 107.11,
+  "text": "So let's go to Tosca and let's see what is the actual solution here, right?"
  },
  {
-  "start": 61.519,
-  "end": 65.149,
-  "text": "have opened a a sample PDF document and"
+  "start": 107.11,
+  "end": 111.23,
+  "text": "So coming back to our Tosca workspace, the first step is to scan the particular"
  },
  {
-  "start": 65.159,
-  "end": 67.31,
-  "text": "here you can see um there are no page"
+  "start": 111.23,
+  "end": 112.59,
+  "text": "PDF, right?"
  },
  {
-  "start": 67.32,
-  "end": 72.03,
-  "text": "numbers mentioned here right so if I go"
+  "start": 112.59,
+  "end": 119.07,
+  "text": "So we'll go to modules, we'll choose scan and then choose the PDF option here and then"
  },
  {
-  "start": 72.04,
-  "end": 75.95,
-  "text": "till down it uh shows me around 57 pages"
+  "start": 119.07,
+  "end": 125.91,
+  "text": "in here in the PDF scan, we are going to select that particular PDF document, right?"
  },
  {
-  "start": 75.96,
-  "end": 78.71,
-  "text": "are there right and that uh you can"
+  "start": 125.91,
+  "end": 131.71,
+  "text": "So I'll select that and click on open, it will open the document in the PDF scan."
  },
  {
-  "start": 78.72,
-  "end": 82.95,
-  "text": "count through the PDF uh application but"
+  "start": 131.71,
+  "end": 137.79,
+  "text": "Now here the next step is to create a particular text area control, okay?"
  },
  {
-  "start": 82.96,
-  "end": 84.91,
-  "text": "the actual PDF doesn't have any header"
+  "start": 137.79,
+  "end": 141.71,
+  "text": "So we are going to choose the control type as text."
  },
  {
-  "start": 84.92,
-  "end": 87.31,
-  "text": "or footer mentioning the page numbers"
+  "start": 141.71,
+  "end": 146.39,
+  "text": "We are going to select any particular area in the page, okay?"
  },
  {
-  "start": 87.32,
-  "end": 89.71,
-  "text": "right so here we need to count the"
+  "start": 146.39,
+  "end": 151.63,
+  "text": "Doesn't matter which area you scan, I just want to create a control, okay?"
  },
  {
-  "start": 89.72,
-  "end": 91.95,
-  "text": "number number of pages uh which is"
+  "start": 151.63,
+  "end": 158.97,
+  "text": "So here the control has been created and then I'm just going to save this."
  },
  {
-  "start": 91.96,
-  "end": 95.03,
-  "text": "57 um and then maybe we can verify that"
+  "start": 158.97,
+  "end": 168.01,
+  "text": "Then we'll close this and we are going to rename this to sample PDF and then let's"
  },
  {
-  "start": 95.04,
-  "end": 98.99,
-  "text": "or buffer that um and that's our"
+  "start": 168.01,
+  "end": 170.33,
+  "text": "look at the sample PDF."
  },
  {
-  "start": 99.0,
-  "end": 101.749,
-  "text": "requirement so let's go to tosa and"
+  "start": 170.33,
+  "end": 176.85,
+  "text": "So here you can see this is the text area control and also a div element has been"
  },
  {
-  "start": 101.759,
-  "end": 104.87,
-  "text": "let's see um what is the actual solution"
+  "start": 176.85,
+  "end": 178.05,
+  "text": "created."
  },
  {
-  "start": 104.88,
-  "end": 108.069,
-  "text": "here right so coming back to a tosa"
+  "start": 178.05,
+  "end": 184.45,
+  "text": "Now if you don't see this div element, then just select the module and press F12,"
  },
  {
-  "start": 108.079,
-  "end": 110.83,
-  "text": "workspace the first step is to scan the"
+  "start": 184.45,
+  "end": 189.29,
+  "text": "which is the function F12 key in your keyboard and then this div element will be"
  },
  {
-  "start": 110.84,
-  "end": 113.03,
-  "text": "particular PDF right so we'll go to"
+  "start": 189.29,
+  "end": 191.29,
+  "text": "created, okay?"
  },
  {
-  "start": 113.04,
-  "end": 115.389,
-  "text": "modules we'll choose scan and then"
+  "start": 191.29,
+  "end": 196.33,
+  "text": "Once that's created, go to the properties for this div element."
  },
  {
-  "start": 115.399,
-  "end": 119.55,
-  "text": "choose the PDF option here and then in"
+  "start": 196.33,
+  "end": 202.17,
+  "text": "Here you can see the page value is 1, so we are going to change this to asterisk,"
  },
  {
-  "start": 119.56,
-  "end": 122.149,
-  "text": "here in the PDF scan we are going to"
+  "start": 202.17,
+  "end": 203.17,
+  "text": "okay?"
  },
  {
-  "start": 122.159,
-  "end": 124.95,
-  "text": "select that particular PDF document"
+  "start": 203.17,
+  "end": 208.37,
+  "text": "Which is a regular expression value for this particular property."
  },
  {
-  "start": 124.96,
-  "end": 127.67,
-  "text": "right so I'll select that and click on"
+  "start": 208.37,
+  "end": 213.77,
+  "text": "And then we'll close this, then we will go to the test cases section, we'll create"
  },
  {
-  "start": 127.68,
-  "end": 130.109,
-  "text": "open it will open the document in the"
+  "start": 213.77,
+  "end": 218.25,
+  "text": "a new test case folder called PDF."
  },
  {
-  "start": 130.119,
-  "end": 133.99,
-  "text": "PDF scan now here the next step is to"
+  "start": 218.25,
+  "end": 227.78,
+  "text": "And here we will create a test case to count PDF pages, okay?"
  },
  {
-  "start": 134.0,
-  "end": 137.11,
-  "text": "create a particular text area control"
+  "start": 227.94,
+  "end": 233.46,
+  "text": "Then we are going to add that particular module here."
  },
  {
-  "start": 137.12,
-  "end": 139.71,
-  "text": "okay so we are going to choose the"
+  "start": 233.46,
+  "end": 237.86,
+  "text": "Now the first step is to provide the target PDF path."
  },
  {
-  "start": 139.72,
-  "end": 143.03,
-  "text": "control Type S text we are going to"
+  "start": 237.86,
+  "end": 247.06,
+  "text": "So we'll go to our PDF document, we'll copy the path here and paste it here, okay?"
  },
  {
-  "start": 143.04,
-  "end": 145.79,
-  "text": "select any particular area in the page"
+  "start": 247.06,
+  "end": 253.26,
+  "text": "And then in this particular div element, we are going to choose the action mode buffer"
  },
  {
-  "start": 145.8,
-  "end": 148.589,
-  "text": "okay doesn't matter which area you scan"
+  "start": 253.26,
+  "end": 256.54,
+  "text": "and we are going to provide a buffer name, okay?"
  },
  {
-  "start": 148.599,
-  "end": 151.71,
-  "text": "I just want to create control okay so"
+  "start": 256.54,
+  "end": 259.46,
+  "text": "That's page count."
  },
  {
-  "start": 151.72,
-  "end": 154.509,
-  "text": "here the control has been created and"
+  "start": 259.46,
+  "end": 266.1,
+  "text": "So this buffer will contain the number of pages for this particular PDF document."
  },
  {
-  "start": 154.519,
-  "end": 157.83,
-  "text": "then I'm just going to save"
+  "start": 266.1,
+  "end": 274.34,
+  "text": "And then in PDF area 1, we are going to verify whether it satisfies the condition"
  },
  {
-  "start": 157.84,
-  "end": 161.55,
-  "text": "this then uh we'll close this and we are"
+  "start": 274.34,
+  "end": 281.3,
+  "text": "of value asterisk, which is again a regular expression, which means there is no specific"
  },
  {
-  "start": 161.56,
-  "end": 165.91,
-  "text": "going to rename this to sample"
+  "start": 281.3,
+  "end": 285.46,
+  "text": "text which we want to verify for this PDF area."
  },
  {
-  "start": 165.92,
-  "end": 169.19,
-  "text": "PDF and then let's look at the sample"
+  "start": 285.46,
+  "end": 289.34,
+  "text": "We are verifying that it is any particular text."
  },
  {
-  "start": 169.2,
-  "end": 172.79,
-  "text": "PDF so here you can see uh this is the"
+  "start": 289.34,
+  "end": 290.34,
+  "text": "It doesn't matter."
  },
  {
-  "start": 172.8,
-  "end": 176.509,
-  "text": "text area control and also a div element"
+  "start": 290.34,
+  "end": 295.66,
+  "text": "We want to get the count of the pages in the PDF document, okay?"
  },
  {
-  "start": 176.519,
-  "end": 178.949,
-  "text": "has been created now if you don't see"
+  "start": 295.66,
+  "end": 299.54,
+  "text": "So what it will do is it will go through each page."
  },
  {
-  "start": 178.959,
-  "end": 181.75,
-  "text": "this div element M then just select the"
+  "start": 299.54,
+  "end": 306.5,
+  "text": "It will try to get that PDF area with this particular value, which is asterisk,"
  },
  {
-  "start": 181.76,
-  "end": 184.83,
-  "text": "module and press F12 which is the"
+  "start": 306.5,
+  "end": 309.42,
+  "text": "which is a regular expression, no particular text."
  },
  {
-  "start": 184.84,
-  "end": 187.71,
-  "text": "function F12 key in your keyboard and"
+  "start": 309.42,
+  "end": 317.6,
+  "text": "So it can go through all the pages and then subsequently we can also store the page count"
  },
  {
-  "start": 187.72,
-  "end": 190.309,
-  "text": "then this St element will be created"
+  "start": 317.6,
+  "end": 321.18,
+  "text": "in the buffer value, okay?"
  },
  {
-  "start": 190.319,
-  "end": 193.75,
-  "text": "okay once that's created um go to the"
+  "start": 321.18,
+  "end": 324.66,
+  "text": "So now let's see whether it's working or not."
  },
  {
-  "start": 193.76,
-  "end": 196.47,
-  "text": "properties for the St element here you"
+  "start": 324.66,
+  "end": 331.18,
+  "text": "So let's change the work state to completed here and then let's go ahead and run this"
  },
  {
-  "start": 196.48,
-  "end": 198.91,
-  "text": "can see the page value is one so we are"
+  "start": 331.18,
+  "end": 332.18,
+  "text": "in Scratchbook."
  },
  {
-  "start": 198.92,
-  "end": 203.47,
-  "text": "going to change this to asri okay which"
+  "start": 332.18,
+  "end": 345.3,
+  "text": "Now it might take some time depending on the number of pages in your PDF document,"
  },
  {
-  "start": 203.48,
-  "end": 206.03,
-  "text": "is a regular expression value for this"
+  "start": 345.3,
+  "end": 346.3,
+  "text": "right?"
  },
  {
-  "start": 206.04,
-  "end": 207.149,
-  "text": "particular"
+  "start": 346.3,
+  "end": 352.58,
+  "text": "But once we get the success message, if we go into the Scratchbook logs, so here you"
  },
  {
-  "start": 207.159,
-  "end": 210.149,
-  "text": "property and then we'll close this then"
+  "start": 352.58,
+  "end": 357.02,
+  "text": "will see in the results, it is storing the page count."
  },
  {
-  "start": 210.159,
-  "end": 212.509,
-  "text": "we will go to the test cases section"
+  "start": 357.02,
+  "end": 359.22,
+  "text": "So first is set to 1."
  },
  {
-  "start": 212.519,
-  "end": 215.39,
-  "text": "we'll create a new test case folder"
+  "start": 359.22,
+  "end": 365.54,
+  "text": "Similarly, it will go through all the pages and you will get the final value in your"
  },
  {
-  "start": 215.4,
-  "end": 216.99,
-  "text": "called"
+  "start": 365.54,
+  "end": 371.06,
+  "text": "buffer page count, which is 57, right?"
  },
  {
-  "start": 217.0,
-  "end": 220.429,
-  "text": "PDF and here we will create a test case"
+  "start": 371.06,
+  "end": 375.66,
+  "text": "And then you will see verification was also successful here, right?"
  },
  {
-  "start": 220.439,
-  "end": 225.99,
-  "text": "to count PDF"
+  "start": 375.66,
+  "end": 382.62,
+  "text": "Because it is trying to verify this particular expression, which will always be true, okay?"
  },
  {
-  "start": 229.509,
-  "end": 229.519,
-  "text": "pages okay and then uh we are going to"
+  "start": 382.62,
+  "end": 386.34,
+  "text": "We can also verify this in our buffer viewer."
  },
  {
-  "start": 229.519,
-  "end": 232.35,
-  "text": "add that particular module"
+  "start": 386.34,
+  "end": 396.48,
+  "text": "So we can go to Tools, Buffer Viewer, and here we can search for page count, okay?"
  },
  {
-  "start": 232.36,
-  "end": 235.949,
-  "text": "here now uh the first step is to provide"
+  "start": 396.48,
+  "end": 399.84,
+  "text": "So you will see the buffer value is 57."
  },
  {
-  "start": 235.959,
-  "end": 239.35,
-  "text": "the target PDF path so we'll go to our"
+  "start": 399.84,
+  "end": 404.02,
+  "text": "So this is one way of finding the number of pages in your PDF document."
  },
  {
-  "start": 239.36,
-  "end": 243.63,
-  "text": "PDF document will copy the path here and"
+  "start": 404.02,
+  "end": 409.36,
+  "text": "You can either buffer it and then you can also verify it whether it matches your"
  },
  {
-  "start": 243.64,
-  "end": 245.63,
-  "text": "paste it"
+  "start": 409.36,
+  "end": 412.98,
+  "text": "actual number of pages, which was the requirement."
  },
  {
-  "start": 245.64,
-  "end": 249.069,
-  "text": "here okay and then um in this particular"
+  "start": 412.98,
+  "end": 418.72,
+  "text": "Now the other way around to do this is if you have got a PDF document where your"
  },
  {
-  "start": 249.079,
-  "end": 251.27,
-  "text": "Dev elment we are going to choose the"
+  "start": 418.72,
+  "end": 424.64,
+  "text": "header or footer contains that particular page number for each page in your PDF document,"
  },
  {
-  "start": 251.28,
-  "end": 254.03,
-  "text": "action mode buffer and we are going to"
+  "start": 424.64,
+  "end": 427.8,
+  "text": "you can just scan that particular control, okay?"
  },
  {
-  "start": 254.04,
-  "end": 257.11,
-  "text": "provide a buffer name okay and that's"
+  "start": 427.8,
+  "end": 434.04,
+  "text": "And then you can buffer that particular value when you are going through each page."
  },
  {
-  "start": 257.12,
-  "end": 258.27,
-  "text": "page"
+  "start": 434.04,
+  "end": 440.12,
+  "text": "So you can mark it as a repetitive area in your PDF scan document and then you can"
  },
  {
-  "start": 258.28,
-  "end": 261.349,
-  "text": "count so this buffer will contain the"
+  "start": 440.12,
+  "end": 446.6,
+  "text": "run that and that will provide you the number of pages in your PDF document."
  },
  {
-  "start": 261.359,
-  "end": 263.95,
-  "text": "number of pages uh for this particular"
+  "start": 446.6,
+  "end": 451.64,
+  "text": "So these are two ways through which you can solve this particular problem where you"
  },
  {
-  "start": 263.96,
-  "end": 264.909,
-  "text": "PDF"
+  "start": 451.64,
+  "end": 457.74,
+  "text": "have to verify the number of pages in your PDF documents."
  },
  {
-  "start": 264.919,
-  "end": 268.71,
-  "text": "document and then in PDF Area 1 we are"
+  "start": 457.74,
+  "end": 459.98,
+  "text": "That's all for this particular video."
  },
  {
-  "start": 268.72,
-  "end": 272.189,
-  "text": "going to where verify whether it"
+  "start": 459.98,
+  "end": 463.7,
+  "text": "If you have any questions then please leave it in the comments."
  },
  {
-  "start": 272.199,
-  "end": 276.51,
-  "text": "satisfies the condition of value um ASC"
+  "start": 463.7,
+  "end": 467.22,
+  "text": "If you like this video then please subscribe to our channel."
  },
  {
-  "start": 276.52,
-  "end": 278.71,
-  "text": "which is again a regular expression"
- },
- {
-  "start": 278.72,
-  "end": 282.15,
-  "text": "which means there is no specific uh text"
- },
- {
-  "start": 282.16,
-  "end": 284.59,
-  "text": "which we want to verify for this PDF"
- },
- {
-  "start": 284.6,
-  "end": 287.909,
-  "text": "area we are verifying that it is any"
- },
- {
-  "start": 287.919,
-  "end": 290.31,
-  "text": "particular text uh it doesn't matter we"
- },
- {
-  "start": 290.32,
-  "end": 293.31,
-  "text": "want to get the count of the pages in"
- },
- {
-  "start": 293.32,
-  "end": 296.59,
-  "text": "The PDF document okay so what it will do"
- },
- {
-  "start": 296.6,
-  "end": 299.43,
-  "text": "is it will go through each page uh it"
- },
- {
-  "start": 299.44,
-  "end": 302.83,
-  "text": "will try to uh get that PDF area with"
- },
- {
-  "start": 302.84,
-  "end": 306.43,
-  "text": "this particular value which is um Astic"
- },
- {
-  "start": 306.44,
-  "end": 308.07,
-  "text": "which is a regular expression no"
- },
- {
-  "start": 308.08,
-  "end": 310.99,
-  "text": "particular text so it can go through all"
- },
- {
-  "start": 311.0,
-  "end": 314.35,
-  "text": "the pages and then uh subsequently we"
- },
- {
-  "start": 314.36,
-  "end": 318.39,
-  "text": "can also store uh the page count in the"
- },
- {
-  "start": 318.4,
-  "end": 322.59,
-  "text": "buffer value okay so now let's see"
- },
- {
-  "start": 322.6,
-  "end": 325.67,
-  "text": "whether it's working or not so let's"
- },
- {
-  "start": 325.68,
-  "end": 328.95,
-  "text": "change the work state to completed here"
- },
- {
-  "start": 328.96,
-  "end": 339.71,
-  "text": "and then let's go ahead and run this in"
- },
- {
-  "start": 342.15,
-  "end": 342.16,
-  "text": "scratchbook now it might take some time"
- },
- {
-  "start": 342.16,
-  "end": 343.83,
-  "text": "depending on the number of pages in your"
- },
- {
-  "start": 343.84,
-  "end": 347.23,
-  "text": "PDF document right uh but once you get"
- },
- {
-  "start": 347.24,
-  "end": 349.99,
-  "text": "the success message if we go into the"
- },
- {
-  "start": 350.0,
-  "end": 353.23,
-  "text": "scratchbook logs so here you will see in"
- },
- {
-  "start": 353.24,
-  "end": 356.15,
-  "text": "the results uh it is storing the page"
- },
- {
-  "start": 356.16,
-  "end": 360.07,
-  "text": "count so first is set to one similarly"
- },
- {
-  "start": 360.08,
-  "end": 362.469,
-  "text": "it will go through all the pages and you"
- },
- {
-  "start": 362.479,
-  "end": 365.99,
-  "text": "will get the final value in your buffer"
- },
- {
-  "start": 366.0,
-  "end": 369.67,
-  "text": "page count which is 57"
- },
- {
-  "start": 369.68,
-  "end": 372.15,
-  "text": "right um and then you will see"
- },
- {
-  "start": 372.16,
-  "end": 375.029,
-  "text": "verification was also successful here"
- },
- {
-  "start": 375.039,
-  "end": 377.95,
-  "text": "right because it is trying to verify"
- },
- {
-  "start": 377.96,
-  "end": 379.909,
-  "text": "this particular expression which will"
- },
- {
-  "start": 379.919,
-  "end": 383.15,
-  "text": "always be true okay uh we can also"
- },
- {
-  "start": 383.16,
-  "end": 386.83,
-  "text": "verify this uh in our buffer viewer so"
- },
- {
-  "start": 386.84,
-  "end": 390.35,
-  "text": "we can go to tools buffer viewer and"
- },
- {
-  "start": 390.36,
-  "end": 395.11,
-  "text": "here uh we can search for pH"
- },
- {
-  "start": 395.12,
-  "end": 397.67,
-  "text": "count okay so you will see the buffer"
- },
- {
-  "start": 397.68,
-  "end": 400.909,
-  "text": "value is 57 so this is one way of"
- },
- {
-  "start": 400.919,
-  "end": 403.309,
-  "text": "finding the number of pages in your PDF"
- },
- {
-  "start": 403.319,
-  "end": 405.99,
-  "text": "document you can either buffer it and"
- },
- {
-  "start": 406.0,
-  "end": 408.11,
-  "text": "then you can also verify it whether it"
- },
- {
-  "start": 408.12,
-  "end": 410.909,
-  "text": "matches your actual number of pages"
- },
- {
-  "start": 410.919,
-  "end": 413.309,
-  "text": "which was the requirement now the other"
- },
- {
-  "start": 413.319,
-  "end": 416.35,
-  "text": "way around to do this is if you have got"
- },
- {
-  "start": 416.36,
-  "end": 419.67,
-  "text": "a PDF document where your header or phot"
- },
- {
-  "start": 419.68,
-  "end": 422.27,
-  "text": "contains that particular page number for"
- },
- {
-  "start": 422.28,
-  "end": 424.83,
-  "text": "each page in your PDF document you can"
- },
- {
-  "start": 424.84,
-  "end": 427.589,
-  "text": "just scan that particular control okay"
- },
- {
-  "start": 427.599,
-  "end": 430.309,
-  "text": "and then uh you can buffer that"
- },
- {
-  "start": 430.319,
-  "end": 432.629,
-  "text": "particular value when you are going"
- },
- {
-  "start": 432.639,
-  "end": 435.309,
-  "text": "through each page so you can mark it as"
- },
- {
-  "start": 435.319,
-  "end": 437.99,
-  "text": "a repetitive area in your PDF scan"
- },
- {
-  "start": 438.0,
-  "end": 440.71,
-  "text": "document and then uh you can run that"
- },
- {
-  "start": 440.72,
-  "end": 443.07,
-  "text": "and that will provide you um the number"
- },
- {
-  "start": 443.08,
-  "end": 447.15,
-  "text": "of pages in your PDF document so these"
- },
- {
-  "start": 447.16,
-  "end": 449.189,
-  "text": "are two ways through which you can solve"
- },
- {
-  "start": 449.199,
-  "end": 451.71,
-  "text": "this particular problem where you have"
- },
- {
-  "start": 451.72,
-  "end": 454.07,
-  "text": "to verify the number of pages uh in your"
- },
- {
-  "start": 454.08,
-  "end": 456.55,
-  "text": "PDF"
- },
- {
-  "start": 456.56,
-  "end": 458.909,
-  "text": "documents that's all for this particular"
- },
- {
-  "start": 458.919,
-  "end": 461.35,
-  "text": "video if you have any questions then"
- },
- {
-  "start": 461.36,
-  "end": 463.79,
-  "text": "please leave it in the comments if you"
- },
- {
-  "start": 463.8,
-  "end": 465.79,
-  "text": "like this video then please subscribe to"
- },
- {
-  "start": 465.8,
-  "end": 468.51,
-  "text": "our Channel thanks for watching and I"
- },
- {
-  "start": 468.52,
-  "end": 473.0,
-  "text": "will see you in the next video"
+  "start": 467.22,
+  "end": 470.06,
+  "text": "Thanks for watching and I will see you in the next video."
  }
 ]

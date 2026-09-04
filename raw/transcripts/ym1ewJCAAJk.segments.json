@@ -1,1592 +1,527 @@
 [
  {
-  "start": 10.41,
-  "end": 11.116,
-  "text": "Hello everyone,"
+  "start": 9.71,
+  "end": 12.55,
+  "text": "Hey everyone, welcome back to our channel."
  },
  {
-  "start": 12.695,
-  "end": 13.471,
-  "text": "welcome back to our channel."
+  "start": 12.55,
+  "end": 18.97,
+  "text": "I am back with another interesting topic in the Tosca Automation playlist."
  },
  {
-  "start": 16.815,
-  "end": 16.835,
-  "text": "I'm back with another interesting topic on the TSA Automation Playlist"
+  "start": 18.97,
+  "end": 23.47,
+  "text": "So continuing with our topic on the test automation obstacles, let's look at the next"
  },
  {
-  "start": 16.835,
-  "end": 17.512,
-  "text": "."
+  "start": 23.47,
+  "end": 27.09,
+  "text": "obstacle which is called the getSUSE number."
  },
  {
-  "start": 19.391,
-  "end": 19.412,
-  "text": "So let's continue our topic on test"
+  "start": 27.09,
+  "end": 32.27,
+  "text": "Now this particular obstacle is related to XML file automation."
  },
  {
-  "start": 19.412,
-  "end": 20.038,
-  "text": "automation"
+  "start": 32.27,
+  "end": 36.79,
+  "text": "So here what we need to do is we need to download the XML file which is attached"
  },
  {
-  "start": 20.059,
-  "end": 20.435,
-  "text": "barriers"
+  "start": 36.79,
+  "end": 38.87,
+  "text": "here called catalog."
  },
  {
-  "start": 22.694,
-  "end": 22.716,
-  "text": ". Let's look at the next obstacle, called 'get"
+  "start": 38.87,
+  "end": 43.31,
+  "text": "And then we need to manually download and save it."
  },
  {
-  "start": 22.716,
-  "end": 23.497,
-  "text": "s number'"
+  "start": 43.31,
+  "end": 50.11,
+  "text": "And then we need to read the file and extract the complete number including prefix of this"
  },
  {
-  "start": 26.554,
-  "end": 27.282,
-  "text": "."
+  "start": 50.11,
+  "end": 55.47,
+  "text": "particular ID or name with Tosca."
  },
  {
-  "start": 27.282,
-  "end": 28.096,
-  "text": "Now this"
+  "start": 55.47,
+  "end": 61.15,
+  "text": "And once we extract it, we need to enter that into this particular text box."
  },
  {
-  "start": 28.12,
-  "end": 28.911,
-  "text": "particular"
+  "start": 61.15,
+  "end": 67.75,
+  "text": "So if I go ahead and click on this particular catalog link, it's going to download the"
  },
  {
-  "start": 28.935,
-  "end": 29.726,
-  "text": "restriction is related to XML file"
+  "start": 67.75,
+  "end": 72.11,
+  "text": "file and save it into my downloads folder."
  },
  {
-  "start": 29.75,
-  "end": 30.685,
-  "text": "automation"
+  "start": 72.11,
+  "end": 78.79,
+  "text": "So once that is done, then we will see what this particular file contains and what do"
  },
  {
-  "start": 30.709,
-  "end": 31.596,
-  "text": "."
+  "start": 78.79,
+  "end": 83.43,
+  "text": "we need to extract and what we need to enter into this particular text box."
  },
  {
-  "start": 35.193,
-  "end": 35.217,
-  "text": "So"
+  "start": 83.43,
+  "end": 89.23,
+  "text": "Okay, so the file is downloaded and let's go and look at this downloads folder and"
  },
  {
-  "start": 35.217,
-  "end": 35.82,
-  "text": "what we need to"
+  "start": 89.23,
+  "end": 90.93,
+  "text": "you can see the catalog."
  },
  {
-  "start": 35.844,
-  "end": 36.206,
-  "text": "do here is"
+  "start": 90.93,
+  "end": 92.75,
+  "text": "This is an XML file."
  },
  {
-  "start": 41.466,
-  "end": 41.49,
-  "text": "download this XML file called catalog"
+  "start": 92.75,
+  "end": 99.27,
+  "text": "Now if I open this, here you will see the different nodes and everything is inside this"
  },
  {
-  "start": 41.49,
-  "end": 41.948,
-  "text": ","
+  "start": 99.27,
+  "end": 100.75,
+  "text": "catalog."
  },
  {
-  "start": 43.396,
-  "end": 43.42,
-  "text": "save it manually,"
+  "start": 100.75,
+  "end": 107.39,
+  "text": "Node inside this we have got number, ID, prefix, number, and gender."
  },
  {
-  "start": 43.42,
-  "end": 44.24,
-  "text": "then"
+  "start": 107.39,
+  "end": 109.63,
+  "text": "And we have got a couple of records here."
  },
  {
-  "start": 45.712,
-  "end": 45.736,
-  "text": "read that file and extract the integer including the prefix of this"
+  "start": 109.63,
+  "end": 115.99,
+  "text": "Out of this, we need to look out for the ID which contains the name Sue."
  },
  {
-  "start": 45.736,
-  "end": 46.605,
-  "text": "particular ID"
+  "start": 116.19,
+  "end": 123.95,
+  "text": "Then inside this we need to actually extract both prefix as well as the number."
  },
  {
-  "start": 46.629,
-  "end": 47.063,
-  "text": "or"
+  "start": 123.95,
+  "end": 129.15,
+  "text": "And then you need to write this together in that particular text box."
  },
  {
-  "start": 47.087,
-  "end": 47.594,
-  "text": "name"
+  "start": 129.15,
+  "end": 136.59,
+  "text": "So if I copied this prefix and then I come here, so that's one part of the number"
  },
  {
-  "start": 51.092,
-  "end": 51.116,
-  "text": "through TSA"
+  "start": 136.59,
+  "end": 141.71,
+  "text": "and then the second part is the number itself."
  },
  {
-  "start": 51.116,
-  "end": 55.166,
-  "text": ". Okay. Once"
+  "start": 141.71,
+  "end": 147.27,
+  "text": "So once you write the whole number along with the prefix, then this particular automation"
  },
  {
-  "start": 56.617,
-  "end": 56.64,
-  "text": "you have it, you need to"
+  "start": 147.27,
+  "end": 149.31,
+  "text": "obstacle will be completed."
  },
  {
-  "start": 59.311,
-  "end": 59.334,
-  "text": "enter it into this specific text box"
+  "start": 149.31,
+  "end": 152.35,
+  "text": "And this we need to do using Tosca."
  },
  {
-  "start": 59.334,
-  "end": 61.246,
-  "text": ". Okay."
+  "start": 152.35,
+  "end": 156.83,
+  "text": "So there are a couple of parts in this particular obstacle and we'll see how we"
  },
  {
-  "start": 64.055,
-  "end": 64.074,
-  "text": "So if I click on this"
+  "start": 156.83,
+  "end": 162.83,
+  "text": "can complete this particular obstacle in Tosca."
  },
  {
-  "start": 64.074,
-  "end": 64.479,
-  "text": "catalog"
+  "start": 162.83,
+  "end": 170.51,
+  "text": "So coming back to our Tosca workspace, first let's go ahead and create our modules."
  },
  {
-  "start": 64.498,
-  "end": 65.018,
-  "text": "link"
+  "start": 170.51,
+  "end": 177.63,
+  "text": "Now here there will be two different modules and the reason is one of the modules will"
  },
  {
-  "start": 66.078,
-  "end": 66.097,
-  "text": ", it will"
+  "start": 177.63,
+  "end": 184.27,
+  "text": "be related to the XML file because we will scan the XML file and create a module and"
  },
  {
-  "start": 67.157,
-  "end": 67.774,
-  "text": "download the file and"
+  "start": 184.27,
+  "end": 189.83,
+  "text": "then the next module will be the application itself which is the text box."
  },
  {
-  "start": 69.875,
-  "end": 74.094,
-  "text": "save it to my Downloads folder. Once"
+  "start": 189.83,
+  "end": 197.59,
+  "text": "So here I'm going to create a folder to keep both these modules inside this folder"
  },
  {
-  "start": 74.257,
-  "end": 74.275,
-  "text": "that's"
+  "start": 197.99,
+  "end": 204.91,
+  "text": "and then I'm going to rename the folder name with this obstacle number."
  },
  {
-  "start": 74.275,
-  "end": 74.891,
-  "text": "done,"
+  "start": 204.91,
+  "end": 209.35,
+  "text": "So come back here and we are going to rename this."
  },
  {
-  "start": 80.945,
-  "end": 83.657,
-  "text": "let's see what's in this file, what we need to take out, and what we need to enter into this text box."
+  "start": 209.35,
+  "end": 215.15,
+  "text": "Now inside this, first of all, let's scan the XML file."
  },
  {
-  "start": 84.604,
-  "end": 84.624,
-  "text": "Okay. The file has been"
+  "start": 215.15,
+  "end": 221.39,
+  "text": "Now XML file can be scanned using a different option so you don't need to use the application"
  },
  {
-  "start": 84.624,
-  "end": 85.222,
-  "text": "downloaded"
- },
- {
-  "start": 86.736,
-  "end": 86.756,
-  "text": ", now"
- },
- {
-  "start": 88.907,
-  "end": 88.927,
-  "text": "let's look at our Downloads folder,"
- },
- {
-  "start": 88.927,
-  "end": 89.664,
-  "text": "there we"
- },
- {
-  "start": 91.031,
-  "end": 91.065,
-  "text": "can find the catalog file. This is"
- },
- {
-  "start": 91.065,
-  "end": 92.203,
-  "text": "an XML file."
- },
- {
-  "start": 92.974,
-  "end": 93.693,
-  "text": "Now if I"
- },
- {
-  "start": 94.645,
-  "end": 94.666,
-  "text": "open this up, you'll"
- },
- {
-  "start": 97.544,
-  "end": 97.565,
-  "text": "see there are different nodes,"
- },
- {
-  "start": 97.565,
-  "end": 98.136,
-  "text": "all within"
- },
- {
-  "start": 98.158,
-  "end": 98.411,
-  "text": "this"
- },
- {
-  "start": 98.433,
-  "end": 99.385,
-  "text": "catalog"
- },
- {
-  "start": 99.406,
-  "end": 99.745,
-  "text": "."
- },
- {
-  "start": 103.369,
-  "end": 103.392,
-  "text": "The node inside this has a number"
- },
- {
-  "start": 103.392,
-  "end": 104.272,
-  "text": "ID, a prefix"
- },
- {
-  "start": 104.296,
-  "end": 104.724,
-  "text": "number,"
- },
- {
-  "start": 104.748,
-  "end": 105.675,
-  "text": "and a jer (jer"
- },
- {
-  "start": 105.675,
-  "end": 106.555,
-  "text": "), and there"
- },
- {
-  "start": 112.772,
-  "end": 113.35,
-  "text": "are some records here. In this, we"
- },
- {
-  "start": 115.487,
-  "end": 115.509,
-  "text": "need to search for an ID with the name sue,"
- },
- {
-  "start": 115.509,
-  "end": 115.843,
-  "text": "then"
- },
- {
-  "start": 119.003,
-  "end": 119.025,
-  "text": "we"
- },
- {
-  "start": 119.025,
-  "end": 123.246,
-  "text": "need to take the prefix and number within it. Okay."
- },
- {
-  "start": 124.109,
-  "end": 124.842,
-  "text": "Then you need to write this together in that"
- },
- {
-  "start": 124.861,
-  "end": 125.498,
-  "text": "specific"
- },
- {
-  "start": 125.517,
-  "end": 125.691,
-  "text": "text"
- },
- {
-  "start": 125.71,
-  "end": 126.289,
-  "text": "box"
- },
- {
-  "start": 128.766,
-  "end": 130.152,
-  "text": ". Okay. If"
- },
- {
-  "start": 130.619,
-  "end": 130.638,
-  "text": "I copy this"
- },
- {
-  "start": 130.638,
-  "end": 131.256,
-  "text": "prefix and"
- },
- {
-  "start": 132.566,
-  "end": 133.952,
-  "text": "come here."
- },
- {
-  "start": 135.257,
-  "end": 135.995,
-  "text": "Okay. This is"
- },
- {
-  "start": 136.388,
-  "end": 137.326,
-  "text": "part of the number. The"
- },
- {
-  "start": 137.326,
-  "end": 137.915,
-  "text": "second"
- },
- {
-  "start": 137.937,
-  "end": 138.766,
-  "text": "part is that number"
- },
- {
-  "start": 138.788,
-  "end": 142.363,
-  "text": ". Okay. So if"
- },
- {
-  "start": 142.384,
-  "end": 142.821,
-  "text": "you"
- },
- {
-  "start": 145.693,
-  "end": 145.713,
-  "text": "write the whole number with the prefix,"
- },
- {
-  "start": 145.713,
-  "end": 145.963,
-  "text": "this"
- },
- {
-  "start": 145.984,
-  "end": 146.671,
-  "text": "particular"
- },
- {
-  "start": 146.691,
-  "end": 147.316,
-  "text": "automation"
- },
- {
-  "start": 147.337,
-  "end": 147.524,
-  "text": "ban"
- },
- {
-  "start": 147.545,
-  "end": 148.419,
-  "text": "will be lifted"
- },
- {
-  "start": 148.419,
-  "end": 149.022,
-  "text": ", which we need to do using TSCA"
- },
- {
-  "start": 152.206,
-  "end": 153.272,
-  "text": ". Okay."
- },
- {
-  "start": 153.964,
-  "end": 153.986,
-  "text": "So there are two parts to this"
- },
- {
-  "start": 153.986,
-  "end": 154.455,
-  "text": "ban"
- },
- {
-  "start": 156.175,
-  "end": 156.868,
-  "text": ","
- },
- {
-  "start": 158.566,
-  "end": 161.712,
-  "text": "let's see how to complete this in TSCA."
- },
- {
-  "start": 162.955,
-  "end": 163.305,
-  "text": "Okay. Now let's"
- },
- {
-  "start": 165.155,
-  "end": 166.223,
-  "text": "return to our TSA workspace."
- },
- {
-  "start": 167.123,
-  "end": 167.15,
-  "text": "First, let's create our"
- },
- {
-  "start": 167.15,
-  "end": 168.077,
-  "text": "modules"
- },
- {
-  "start": 171.42,
-  "end": 171.439,
-  "text": ". There will be two"
- },
- {
-  "start": 171.439,
-  "end": 171.882,
-  "text": "different"
- },
- {
-  "start": 171.901,
-  "end": 172.51,
-  "text": "modules here"
- },
- {
-  "start": 172.528,
-  "end": 174.046,
-  "text": ". Okay. The"
- },
- {
-  "start": 176.013,
-  "end": 176.91,
-  "text": "reason for that is that"
- },
- {
-  "start": 177.832,
-  "end": 177.855,
-  "text": "a module"
- },
- {
-  "start": 179.391,
-  "end": 179.415,
-  "text": "is associated with an XML file,"
- },
- {
-  "start": 179.415,
-  "end": 180.313,
-  "text": "because we will"
- },
- {
-  "start": 180.336,
-  "end": 181.21,
-  "text": "scan the XML file and"
- },
- {
-  "start": 183.195,
-  "end": 183.195,
-  "text": "create the module"
- },
- {
-  "start": 183.195,
-  "end": 183.667,
-  "text": ", the next"
- },
- {
-  "start": 183.691,
-  "end": 184.258,
-  "text": "module will"
- },
- {
-  "start": 188.846,
-  "end": 192.894,
-  "text": "be the application i.e. that text box. Okay."
- },
- {
-  "start": 194.731,
-  "end": 194.749,
-  "text": "I'm going to create a"
- },
- {
-  "start": 194.749,
-  "end": 195.317,
-  "text": "folder to put these two blocks in"
- },
- {
-  "start": 196.396,
-  "end": 196.415,
-  "text": ","
- },
- {
-  "start": 196.415,
-  "end": 196.945,
-  "text": "then I'm going to rename this"
- },
- {
-  "start": 196.964,
-  "end": 197.646,
-  "text": "folder"
- },
- {
-  "start": 199.501,
-  "end": 199.52,
-  "text": "with the number of this block"
- },
- {
-  "start": 204.046,
-  "end": 205.518,
-  "text": ". Okay."
- },
- {
-  "start": 206.264,
-  "end": 206.284,
-  "text": "Now we're going to"
- },
- {
-  "start": 206.284,
-  "end": 206.789,
-  "text": "come here and rename this"
- },
- {
-  "start": 208.0,
-  "end": 209.914,
-  "text": "."
- },
- {
-  "start": 210.436,
-  "end": 210.46,
-  "text": "Now let's"
- },
- {
-  "start": 212.797,
-  "end": 212.822,
-  "text": "scan the XML file first"
- },
- {
-  "start": 212.822,
-  "end": 214.728,
-  "text": ". Okay."
- },
- {
-  "start": 214.828,
-  "end": 215.295,
-  "text": "Now you can scan the XML"
- },
- {
-  "start": 215.313,
-  "end": 215.837,
-  "text": "file using a"
- },
- {
-  "start": 215.855,
-  "end": 216.528,
-  "text": "different"
- },
- {
-  "start": 216.547,
-  "end": 217.276,
-  "text": "option"
- },
- {
-  "start": 218.809,
-  "end": 218.909,
-  "text": "."
- },
- {
-  "start": 218.909,
-  "end": 219.609,
-  "text": "So, you"
+  "start": 221.39,
+  "end": 222.39,
+  "text": "option here."
  },
  {
   "start": 222.39,
-  "end": 222.49,
-  "text": "don't need to use the 'application' option here."
+  "end": 226.87,
+  "text": "We need to go to more and here we'll find the file scan."
  },
  {
-  "start": 222.49,
-  "end": 222.902,
-  "text": "We need to go to 'more'"
+  "start": 226.87,
+  "end": 229.65,
+  "text": "So it can scan the XML file."
  },
  {
-  "start": 224.554,
-  "end": 224.576,
-  "text": ","
+  "start": 229.65,
+  "end": 235.07,
+  "text": "So we select the file scan then it will come up with this dialog where we have to select"
  },
  {
-  "start": 224.576,
-  "end": 225.162,
-  "text": "where we will see 'file scan'"
+  "start": 235.07,
+  "end": 236.55,
+  "text": "the XML file."
  },
  {
-  "start": 226.84,
-  "end": 226.94,
-  "text": ". Okay."
+  "start": 236.55,
+  "end": 240.47,
+  "text": "So we will select this and we'll click on open."
  },
  {
-  "start": 226.94,
-  "end": 227.624,
-  "text": "This will allow you to"
+  "start": 240.47,
+  "end": 243.63,
+  "text": "So that will create the module."
  },
  {
-  "start": 227.646,
-  "end": 228.438,
-  "text": "scan the XML file"
+  "start": 243.63,
+  "end": 248.95,
+  "text": "So this is the module which contains the XML file and its contents."
  },
  {
-  "start": 229.757,
-  "end": 230.67,
-  "text": ". So, we"
+  "start": 248.95,
+  "end": 253.71,
+  "text": "Now the next module which we have to scan is the application itself."
  },
  {
-  "start": 232.028,
-  "end": 232.028,
-  "text": "select 'file scan'"
+  "start": 253.71,
+  "end": 261.71,
+  "text": "So we will scan the application option this time and we will select the Chrome browser"
  },
  {
-  "start": 232.028,
-  "end": 232.688,
-  "text": ". Then this"
+  "start": 261.71,
+  "end": 267.85,
+  "text": "here and then here we will select the text box."
  },
  {
-  "start": 232.707,
-  "end": 233.165,
-  "text": "dialog"
+  "start": 267.85,
+  "end": 276.25,
+  "text": "Okay, so that's all which we require here and then I'm going to call this the number"
  },
  {
-  "start": 233.184,
-  "end": 233.853,
-  "text": "box will come up,"
+  "start": 276.25,
+  "end": 282.27,
+  "text": "text box."
  },
  {
-  "start": 233.872,
-  "end": 234.484,
-  "text": "in which we need to select the XML"
+  "start": 282.27,
+  "end": 285.99,
+  "text": "Okay, and then I'm going to close this."
  },
  {
-  "start": 234.503,
-  "end": 234.961,
-  "text": "file"
+  "start": 285.99,
+  "end": 289.65,
+  "text": "I will save this."
  },
  {
-  "start": 236.612,
-  "end": 236.634,
-  "text": ". So, let's"
+  "start": 289.65,
+  "end": 297.93,
+  "text": "Okay, so this is the file and this is the text box and then let's go ahead and create"
  },
  {
-  "start": 237.924,
-  "end": 238.636,
-  "text": "select this and"
+  "start": 297.93,
+  "end": 299.81,
+  "text": "our test case now."
  },
  {
-  "start": 239.059,
-  "end": 239.081,
-  "text": "click 'open'"
+  "start": 299.81,
+  "end": 308.66,
+  "text": "So we will go to our obstacles and we will create our obstacles here and then"
  },
  {
-  "start": 239.081,
-  "end": 240.582,
-  "text": ". Okay."
+  "start": 308.66,
+  "end": 312.46,
+  "text": "we will drag both the modules right here."
  },
  {
-  "start": 240.682,
-  "end": 241.734,
-  "text": "It"
+  "start": 312.46,
+  "end": 317.38,
+  "text": "Okay, so first we will drag the catalog request."
  },
  {
-  "start": 242.962,
-  "end": 243.192,
-  "text": "will create a module."
+  "start": 317.5,
+  "end": 324.48,
+  "text": "And then we will also drag our text box."
  },
  {
-  "start": 243.192,
-  "end": 244.491,
-  "text": "Okay. This is the module containing the XML"
+  "start": 324.48,
+  "end": 328.08,
+  "text": "Okay and then let's look at this test case."
  },
  {
-  "start": 244.513,
-  "end": 244.911,
-  "text": "file"
+  "start": 328.08,
+  "end": 333.52,
+  "text": "Okay, so here we need to enter the number but first we need to extract the number."
  },
  {
-  "start": 244.934,
-  "end": 245.685,
-  "text": "and its"
+  "start": 333.52,
+  "end": 340.76,
+  "text": "Okay and even before that we need to also open the XML file because once it's"
  },
  {
-  "start": 245.707,
-  "end": 246.702,
-  "text": "contents"
+  "start": 340.76,
+  "end": 344.36,
+  "text": "open then only we'll be able to extract any particular node."
  },
  {
-  "start": 246.725,
-  "end": 247.499,
-  "text": "."
+  "start": 344.84,
+  "end": 351.88,
+  "text": "Okay, so for that we need to add another module here and that is called open create"
  },
  {
-  "start": 249.487,
-  "end": 250.406,
-  "text": "Now the next module we"
+  "start": 351.88,
+  "end": 358.36,
+  "text": "XML file and this will be our first step so I will drag it right here."
  },
  {
-  "start": 250.984,
-  "end": 252.009,
-  "text": "need to scan"
+  "start": 358.36,
+  "end": 363.88,
+  "text": "We need to give it a resource name so we'll call it the catalog and then we"
  },
  {
-  "start": 255.288,
-  "end": 255.311,
-  "text": "is the application. So,"
+  "start": 363.88,
+  "end": 365.6,
+  "text": "need to give the file path."
  },
  {
-  "start": 255.311,
-  "end": 256.201,
-  "text": "this time we will scan the 'application'"
+  "start": 365.6,
+  "end": 371.68,
+  "text": "So I will browse the file path and I will select it and then we can pass the"
  },
  {
-  "start": 256.224,
-  "end": 257.114,
-  "text": "option"
+  "start": 371.68,
+  "end": 375.68,
+  "text": "same catalog as the resource reference."
  },
  {
-  "start": 258.986,
-  "end": 259.008,
-  "text": "and select the"
+  "start": 375.68,
+  "end": 382.2,
+  "text": "So here it will pass the reference after it's open and then we can go to the"
  },
  {
-  "start": 259.008,
-  "end": 259.784,
-  "text": "Chrome browser here"
+  "start": 382.2,
+  "end": 384.96,
+  "text": "respective node."
  },
  {
-  "start": 265.115,
-  "end": 265.14,
-  "text": ". Then"
+  "start": 384.96,
+  "end": 388.28,
+  "text": "Here we need to go into the ID."
  },
  {
-  "start": 267.63,
-  "end": 267.63,
-  "text": "we will select the text box here"
+  "start": 388.28,
+  "end": 393.92,
+  "text": "Okay and we know that we are looking for ID with the name Sue."
  },
  {
-  "start": 267.63,
-  "end": 268.851,
-  "text": ". Okay. That's all"
+  "start": 393.92,
+  "end": 400.04,
+  "text": "Right and instead of verify I'm going to make it constraint so that it will"
  },
  {
-  "start": 268.871,
-  "end": 269.366,
-  "text": "we"
+  "start": 400.04,
+  "end": 404.76,
+  "text": "select that particular node right and then we require the prefix and the"
  },
  {
-  "start": 269.386,
-  "end": 269.942,
-  "text": "need here"
+  "start": 404.76,
+  "end": 405.76,
+  "text": "number."
  },
  {
-  "start": 269.963,
-  "end": 270.664,
-  "text": "."
+  "start": 405.76,
+  "end": 412.96,
+  "text": "So here I'm going to call this pre and I'm going to call this num and I'm"
  },
  {
-  "start": 273.386,
-  "end": 273.412,
-  "text": "Then, I'm going to call this"
+  "start": 412.96,
+  "end": 417.36,
+  "text": "going to buffer both of these values."
  },
  {
-  "start": 273.412,
-  "end": 274.052,
-  "text": "'number'"
+  "start": 417.36,
+  "end": 422.2,
+  "text": "Okay so once you buffer both of these values then you have got those"
  },
  {
-  "start": 278.582,
-  "end": 278.607,
-  "text": ". Text"
+  "start": 422.2,
+  "end": 427.56,
+  "text": "numbers and now I can just use them here to enter this into the text box."
  },
  {
-  "start": 278.607,
-  "end": 282.926,
-  "text": "box. Okay."
+  "start": 428.44,
+  "end": 431.48,
+  "text": "So I will have two buffers here."
  },
  {
-  "start": 283.32,
-  "end": 284.243,
-  "text": "Then, I'm"
+  "start": 431.48,
+  "end": 439.58,
+  "text": "First it will be the prefix and then it will be the number."
  },
  {
-  "start": 285.239,
-  "end": 285.9,
-  "text": "going to close this. I'm"
+  "start": 439.58,
+  "end": 443.46,
+  "text": "So it will basically concatenate both of these."
  },
  {
-  "start": 289.887,
-  "end": 291.758,
-  "text": "going to save this. Okay."
+  "start": 443.46,
+  "end": 447.5,
+  "text": "It will enter one by one into the text box."
  },
  {
-  "start": 292.319,
-  "end": 292.344,
-  "text": "So this is"
+  "start": 447.5,
+  "end": 452.24,
+  "text": "So this is all we have to do in this particular obstacle."
  },
  {
-  "start": 292.344,
-  "end": 292.804,
-  "text": "the file"
+  "start": 452.24,
+  "end": 456.38,
+  "text": "Now let's go ahead and change the work state to completed and now we are ready"
  },
  {
-  "start": 292.829,
-  "end": 293.62,
-  "text": "and this is the"
+  "start": 456.38,
+  "end": 459.3,
+  "text": "to run this particular test case."
  },
  {
-  "start": 293.646,
-  "end": 294.386,
-  "text": "text box,"
+  "start": 459.3,
+  "end": 465.18,
+  "text": "So let's run this and see if it is able to complete the automation on this"
  },
  {
-  "start": 294.412,
-  "end": 295.279,
-  "text": "now let's create our"
+  "start": 465.18,
+  "end": 470.46,
+  "text": "particular text box."
  },
  {
-  "start": 295.305,
-  "end": 296.3,
-  "text": "test case"
+  "start": 470.46,
+  "end": 475.74,
+  "text": "Okay so as you can see it entered both the prefix and the number into the"
  },
  {
-  "start": 301.01,
-  "end": 301.038,
-  "text": ". So, let's"
+  "start": 475.74,
+  "end": 479.34,
+  "text": "text box and that completed the obstacle."
  },
  {
-  "start": 303.168,
-  "end": 304.162,
-  "text": "go to our obstacles and"
+  "start": 479.34,
+  "end": 485.86,
+  "text": "So this is how you can use different modules related to the XML to browse"
  },
  {
-  "start": 305.298,
-  "end": 305.298,
-  "text": "create them here"
+  "start": 485.86,
+  "end": 491.82,
+  "text": "through or to go to a particular node and extract the nodes."
  },
  {
-  "start": 305.298,
-  "end": 309.372,
-  "text": ". Then, let's drag these"
+  "start": 491.82,
+  "end": 498.38,
+  "text": "So you can use the scan feature to scan any particular XML file so that you"
  },
  {
-  "start": 309.396,
-  "end": 309.829,
-  "text": "two"
+  "start": 498.38,
+  "end": 503.18,
+  "text": "automatically get all the nodes in your module and then you can easily go"
  },
  {
-  "start": 309.853,
-  "end": 310.792,
-  "text": "blocks"
+  "start": 503.18,
+  "end": 508.34,
+  "text": "through all the different nodes and extract the required node or any"
  },
  {
-  "start": 310.816,
-  "end": 311.178,
-  "text": "here"
+  "start": 508.34,
+  "end": 513.18,
+  "text": "particular child node where you need that particular information and then"
  },
  {
-  "start": 311.202,
-  "end": 312.045,
-  "text": "."
+  "start": 513.18,
+  "end": 517.54,
+  "text": "you need to enter that into your application."
  },
  {
-  "start": 312.472,
-  "end": 315.605,
-  "text": "Okay. First we'll drag '"
+  "start": 517.54,
+  "end": 519.78,
+  "text": "That's all for this particular video."
  },
  {
-  "start": 315.605,
-  "end": 316.14,
-  "text": "catalog request'"
+  "start": 519.78,
+  "end": 523.5,
+  "text": "If you have any questions then please leave it in the comments."
  },
  {
-  "start": 316.167,
-  "end": 316.917,
-  "text": ","
+  "start": 523.5,
+  "end": 527.06,
+  "text": "If you like this video then please subscribe to our channel."
  },
  {
-  "start": 316.944,
-  "end": 317.962,
-  "text": "then we'll drag our text"
- },
- {
-  "start": 317.988,
-  "end": 318.953,
-  "text": "box"
- },
- {
-  "start": 318.98,
-  "end": 324.767,
-  "text": ". Okay."
- },
- {
-  "start": 325.508,
-  "end": 326.157,
-  "text": "Now"
- },
- {
-  "start": 327.609,
-  "end": 327.872,
-  "text": "let's look at this test case."
- },
- {
-  "start": 327.872,
-  "end": 329.189,
-  "text": "Okay. Here we"
- },
- {
-  "start": 330.328,
-  "end": 330.347,
-  "text": "need to enter the number,"
- },
- {
-  "start": 330.347,
-  "end": 330.982,
-  "text": "but before that we"
- },
- {
-  "start": 333.887,
-  "end": 334.845,
-  "text": "need to extract the number. Okay."
- },
- {
-  "start": 336.173,
-  "end": 336.194,
-  "text": "Before that, we need to open the XML"
- },
- {
-  "start": 336.194,
-  "end": 336.817,
-  "text": "file"
- },
- {
-  "start": 337.751,
-  "end": 337.772,
-  "text": ","
- },
- {
-  "start": 337.772,
-  "end": 338.54,
-  "text": "because only if it is"
- },
- {
-  "start": 338.561,
-  "end": 339.495,
-  "text": "opened"
- },
- {
-  "start": 345.287,
-  "end": 346.331,
-  "text": "can we extract any specific node. Okay."
- },
- {
-  "start": 347.208,
-  "end": 348.189,
-  "text": "For that we"
- },
- {
-  "start": 350.539,
-  "end": 350.539,
-  "text": "need to add another module here, it is called '"
- },
- {
-  "start": 350.539,
-  "end": 351.494,
-  "text": "open create XML file'"
- },
- {
-  "start": 353.534,
-  "end": 353.56,
-  "text": ", this will be our"
- },
- {
-  "start": 353.56,
-  "end": 354.438,
-  "text": "first step"
- },
- {
-  "start": 354.464,
-  "end": 355.187,
-  "text": "."
- },
- {
-  "start": 355.965,
-  "end": 356.856,
-  "text": "So, I'll pull this here"
- },
- {
-  "start": 356.879,
-  "end": 357.656,
-  "text": "."
- },
- {
-  "start": 357.756,
-  "end": 358.364,
-  "text": "This requires a"
- },
- {
-  "start": 359.604,
-  "end": 359.626,
-  "text": "resource name"
- },
- {
-  "start": 361.072,
-  "end": 361.972,
-  "text": ". So, let's"
- },
- {
-  "start": 362.696,
-  "end": 362.721,
-  "text": "call it 'catalog',"
- },
- {
-  "start": 362.721,
-  "end": 363.096,
-  "text": "then we"
- },
- {
-  "start": 366.91,
-  "end": 366.937,
-  "text": "need to give the path to the file. So,"
- },
- {
-  "start": 366.937,
-  "end": 367.919,
-  "text": "I will search for and select the file"
- },
- {
-  "start": 367.945,
-  "end": 368.582,
-  "text": "path"
- },
- {
-  "start": 371.182,
-  "end": 371.818,
-  "text": ", and then I"
- },
- {
-  "start": 374.472,
-  "end": 378.009,
-  "text": "can pass the same 'catalog' as a resource reference."
- },
- {
-  "start": 378.543,
-  "end": 378.564,
-  "text": "Here, it will send the note after it"
- },
- {
-  "start": 378.564,
-  "end": 379.304,
-  "text": "is opened"
- },
- {
-  "start": 380.743,
-  "end": 380.764,
-  "text": ","
- },
- {
-  "start": 380.764,
-  "end": 381.339,
-  "text": "after which"
- },
- {
-  "start": 381.36,
-  "end": 382.059,
-  "text": "we"
- },
- {
-  "start": 383.292,
-  "end": 383.313,
-  "text": "can go to the respective node,"
- },
- {
-  "start": 383.313,
-  "end": 384.115,
-  "text": "here we have to go into the ID"
- },
- {
-  "start": 388.766,
-  "end": 388.921,
-  "text": ". Okay."
- },
- {
-  "start": 388.921,
-  "end": 389.714,
-  "text": "Also,"
- },
- {
-  "start": 393.062,
-  "end": 393.087,
-  "text": "we"
- },
- {
-  "start": 393.087,
-  "end": 393.707,
-  "text": "know we're looking for an ID named Sue,"
- },
- {
-  "start": 393.732,
-  "end": 394.278,
-  "text": "right?"
- },
- {
-  "start": 396.412,
-  "end": 396.433,
-  "text": "Instead of verifying, I'm going to turn it"
- },
- {
-  "start": 397.808,
-  "end": 397.829,
-  "text": "into a constraint"
- },
- {
-  "start": 399.436,
-  "end": 399.458,
-  "text": "so that it"
- },
- {
-  "start": 401.996,
-  "end": 401.996,
-  "text": "selects that specific node"
- },
- {
-  "start": 401.996,
-  "end": 402.856,
-  "text": ", right? Then"
- },
- {
-  "start": 402.881,
-  "end": 403.337,
-  "text": "we"
- },
- {
-  "start": 406.17,
-  "end": 406.98,
-  "text": "need a prefix and a number, so I'm"
- },
- {
-  "start": 410.301,
-  "end": 410.301,
-  "text": "going to call this 'pre'. I'll call this '"
- },
- {
-  "start": 410.301,
-  "end": 410.775,
-  "text": "num'"
- },
- {
-  "start": 410.799,
-  "end": 411.605,
-  "text": ", and"
- },
- {
-  "start": 414.283,
-  "end": 414.306,
-  "text": "I'm going to buffer these two values"
- },
- {
-  "start": 419.345,
-  "end": 419.364,
-  "text": ". Okay. After buffering these"
- },
- {
-  "start": 419.364,
-  "end": 419.7,
-  "text": "two"
- },
- {
-  "start": 419.718,
-  "end": 420.501,
-  "text": "values"
- },
- {
-  "start": 421.657,
-  "end": 421.676,
-  "text": ", you will have those"
- },
- {
-  "start": 421.676,
-  "end": 422.012,
-  "text": "numbers"
- },
- {
-  "start": 423.932,
-  "end": 423.951,
-  "text": ", and now"
- },
- {
-  "start": 425.815,
-  "end": 425.834,
-  "text": "I"
- },
- {
-  "start": 425.834,
-  "end": 426.617,
-  "text": "can use them to enter them into the text box"
- },
- {
-  "start": 426.617,
-  "end": 428.445,
-  "text": ". Okay. So"
- },
- {
-  "start": 428.464,
-  "end": 428.99,
-  "text": "here I'm going to"
- },
- {
-  "start": 430.569,
-  "end": 430.588,
-  "text": "have two buffers"
- },
- {
-  "start": 430.588,
-  "end": 431.058,
-  "text": "."
- },
- {
-  "start": 432.64,
-  "end": 432.66,
-  "text": "First there"
- },
- {
-  "start": 433.805,
-  "end": 433.824,
-  "text": "will be a prefix,"
- },
- {
-  "start": 433.824,
-  "end": 434.562,
-  "text": "then there"
- },
- {
-  "start": 434.581,
-  "end": 439.406,
-  "text": "will be a number. Okay."
- },
- {
-  "start": 439.707,
-  "end": 440.239,
-  "text": "So this will"
- },
- {
-  "start": 440.264,
-  "end": 441.136,
-  "text": "basically"
- },
- {
-  "start": 443.788,
-  "end": 443.805,
-  "text": "concatenate these two. This"
- },
- {
-  "start": 445.953,
-  "end": 445.953,
-  "text": "will be entered into the text box one by one"
- },
- {
-  "start": 445.953,
-  "end": 448.055,
-  "text": ". Okay. That's all we have to do in this"
- },
- {
-  "start": 448.073,
-  "end": 448.667,
-  "text": "particular"
- },
- {
-  "start": 448.685,
-  "end": 449.297,
-  "text": "task"
- },
- {
-  "start": 450.719,
-  "end": 451.518,
-  "text": "."
- },
- {
-  "start": 451.518,
-  "end": 452.478,
-  "text": "Now let's change the work"
- },
- {
-  "start": 452.504,
-  "end": 453.517,
-  "text": "state"
- },
- {
-  "start": 453.517,
-  "end": 454.192,
-  "text": "to 'completed'"
- },
- {
-  "start": 454.218,
-  "end": 455.024,
-  "text": "."
- },
- {
-  "start": 455.124,
-  "end": 455.823,
-  "text": "Now we are ready to run this"
- },
- {
-  "start": 455.844,
-  "end": 456.523,
-  "text": "particular"
- },
- {
-  "start": 456.543,
-  "end": 457.284,
-  "text": "test case"
- },
- {
-  "start": 459.528,
-  "end": 460.723,
-  "text": ". Okay. Let's"
- },
- {
-  "start": 461.299,
-  "end": 462.054,
-  "text": "run this and"
- },
- {
-  "start": 465.115,
-  "end": 470.112,
-  "text": "see if we can complete the automation in this text box."
- },
- {
-  "start": 472.045,
-  "end": 472.064,
-  "text": "Okay."
- },
- {
-  "start": 472.064,
-  "end": 472.767,
-  "text": "As you can see,"
- },
- {
-  "start": 472.785,
-  "end": 472.952,
-  "text": "it"
- },
- {
-  "start": 477.522,
-  "end": 477.522,
-  "text": "has completed the task by inputting both the prefix and the number into the text box"
- },
- {
-  "start": 477.522,
-  "end": 481.168,
-  "text": ". This way"
- },
- {
-  "start": 481.188,
-  "end": 481.621,
-  "text": "you"
- },
- {
-  "start": 485.534,
-  "end": 485.555,
-  "text": "can browse through various XML-related modules"
- },
- {
-  "start": 485.555,
-  "end": 486.131,
-  "text": "or extract nodes by going to a"
- },
- {
-  "start": 486.152,
-  "end": 486.831,
-  "text": "specific"
- },
- {
-  "start": 486.852,
-  "end": 487.47,
-  "text": "node"
- },
- {
-  "start": 494.297,
-  "end": 494.317,
-  "text": ". Also,"
- },
- {
-  "start": 497.198,
-  "end": 497.218,
-  "text": "you can use the"
- },
- {
-  "start": 497.218,
-  "end": 497.573,
-  "text": "scan"
- },
- {
-  "start": 497.593,
-  "end": 498.184,
-  "text": "feature to scan any XML file"
- },
- {
-  "start": 499.625,
-  "end": 499.645,
-  "text": ", so that"
- },
- {
-  "start": 499.645,
-  "end": 500.059,
-  "text": "all the"
- },
- {
-  "start": 500.079,
-  "end": 500.611,
-  "text": "nodes are"
- },
- {
-  "start": 502.032,
-  "end": 502.052,
-  "text": "automatically"
- },
- {
-  "start": 502.052,
-  "end": 502.663,
-  "text": "available in your module,"
- },
- {
-  "start": 502.683,
-  "end": 503.098,
-  "text": "then"
- },
- {
-  "start": 503.117,
-  "end": 503.532,
-  "text": "you can"
- },
- {
-  "start": 503.551,
-  "end": 503.906,
-  "text": "easily"
- },
- {
-  "start": 505.682,
-  "end": 505.702,
-  "text": "check all the nodes and"
- },
- {
-  "start": 509.55,
-  "end": 509.55,
-  "text": "extract the required node or a specific child node"
- },
- {
-  "start": 509.55,
-  "end": 509.885,
-  "text": ", where"
- },
- {
-  "start": 509.905,
-  "end": 510.615,
-  "text": "you can get the information you"
- },
- {
-  "start": 510.635,
-  "end": 511.049,
-  "text": "need and"
- },
- {
-  "start": 513.595,
-  "end": 517.461,
-  "text": "enter it into your application."
- },
- {
-  "start": 519.161,
-  "end": 519.261,
-  "text": "That's all for this video. If"
- },
- {
-  "start": 519.261,
-  "end": 519.774,
-  "text": "you have"
- },
- {
-  "start": 519.791,
-  "end": 520.151,
-  "text": "any"
- },
- {
-  "start": 520.168,
-  "end": 520.63,
-  "text": "questions"
- },
- {
-  "start": 520.647,
-  "end": 521.127,
-  "text": ","
- },
- {
-  "start": 521.144,
-  "end": 521.657,
-  "text": "please"
- },
- {
-  "start": 522.975,
-  "end": 522.975,
-  "text": "ask in the comments"
- },
- {
-  "start": 522.975,
-  "end": 523.58,
-  "text": ". If you liked this video"
- },
- {
-  "start": 525.341,
-  "end": 525.357,
-  "text": ", please"
- },
- {
-  "start": 527.071,
-  "end": 527.171,
-  "text": "subscribe to our channel."
- },
- {
-  "start": 528.454,
-  "end": 528.472,
-  "text": "Thanks for watching, see you"
- },
- {
-  "start": 528.472,
-  "end": 529.006,
-  "text": "in the next video"
+  "start": 527.06,
+  "end": 529.86,
+  "text": "Thanks for watching and I will see you in the next video."
  }
 ]

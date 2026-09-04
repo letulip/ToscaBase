@@ -1,4272 +1,3802 @@
 [
  {
-  "start": 3.59,
-  "end": 3.6,
-  "text": "Hey guys um welcome back. So now we are"
+  "start": 0.34,
+  "end": 2.66,
+  "text": "Hey guys, welcome back."
  },
  {
-  "start": 3.6,
-  "end": 5.51,
-  "text": "going to talk about distributed"
+  "start": 2.66,
+  "end": 6.44,
+  "text": "So now we are going to talk about distributed execution"
  },
  {
-  "start": 5.52,
-  "end": 8.549,
-  "text": "execution in Tuska. How we can set this"
+  "start": 6.44,
+  "end": 9.02,
+  "text": "in Tosca, how we can set this up"
  },
  {
-  "start": 8.559,
-  "end": 11.43,
-  "text": "up and how we can get it running. So"
+  "start": 9.02,
+  "end": 11.22,
+  "text": "and how we can get it running."
  },
  {
-  "start": 11.44,
-  "end": 13.749,
-  "text": "basically triggering test events from"
+  "start": 11.22,
+  "end": 13.58,
+  "text": "So basically triggering test events"
  },
  {
-  "start": 13.759,
-  "end": 17.109,
-  "text": "our tuska commander and then they get uh"
+  "start": 13.58,
+  "end": 14.86,
+  "text": "from our Tosca Commander"
  },
  {
-  "start": 17.119,
-  "end": 21.029,
-  "text": "executed on different agents. Okay. So"
+  "start": 14.86,
+  "end": 19.86,
+  "text": "and then they get executed on different agents, okay?"
  },
  {
-  "start": 21.039,
-  "end": 23.91,
-  "text": "this is the architecture of uh the decks"
+  "start": 20.9,
+  "end": 25.62,
+  "text": "So this is the architecture of the Dex with AOS."
  },
  {
-  "start": 23.92,
-  "end": 27.029,
-  "text": "with AOS. And now AOS stands for"
+  "start": 25.62,
+  "end": 28.98,
+  "text": "And now AOS stands for Automation Object Service."
  },
  {
-  "start": 27.039,
-  "end": 29.509,
-  "text": "automation object service. And you can"
+  "start": 28.98,
+  "end": 31.9,
+  "text": "And you can see here on the Tosca server,"
  },
  {
-  "start": 29.519,
-  "end": 32.389,
-  "text": "see here on the Tuska server which we"
+  "start": 31.9,
+  "end": 34.1,
+  "text": "which we have already set up,"
  },
  {
-  "start": 32.399,
-  "end": 35.91,
-  "text": "have already set up the AOS and the"
+  "start": 34.1,
+  "end": 39.1,
+  "text": "the AOS and the distribution service are already running."
  },
  {
-  "start": 35.92,
-  "end": 38.63,
-  "text": "distribution uh service are already"
+  "start": 39.26,
+  "end": 43.78,
+  "text": "Okay, so the AOS has its own workspace"
  },
  {
-  "start": 38.64,
-  "end": 42.75,
-  "text": "running. Okay. So the AOS uh has its own"
+  "start": 43.78,
+  "end": 46.86,
+  "text": "and they act as the middleman between"
  },
  {
-  "start": 42.76,
-  "end": 46.15,
-  "text": "workspace and they act as the middleman"
+  "start": 46.86,
+  "end": 51.62,
+  "text": "your Tosca Commander and the distribution agents."
  },
  {
-  "start": 46.16,
-  "end": 50.069,
-  "text": "between your TSA commander and the"
+  "start": 51.62,
+  "end": 55.1,
+  "text": "Okay, so whenever we trigger any test events"
  },
  {
-  "start": 50.079,
-  "end": 53.029,
-  "text": "distribution agents. Okay. So whenever"
+  "start": 55.1,
+  "end": 58.74,
+  "text": "from our workspace in Tosca Commander,"
  },
  {
-  "start": 53.039,
-  "end": 56.27,
-  "text": "uh we trigger any test events from our"
+  "start": 58.74,
+  "end": 61.78,
+  "text": "it gets executed or it triggers the execution"
  },
  {
-  "start": 56.28,
-  "end": 59.189,
-  "text": "workspace in TSA commander it gets"
+  "start": 61.78,
+  "end": 65.78,
+  "text": "from the server and the server then distributes it"
  },
  {
-  "start": 59.199,
-  "end": 61.83,
-  "text": "executed or it triggers the execution"
+  "start": 65.78,
+  "end": 68.94,
+  "text": "to different agents, okay?"
  },
  {
-  "start": 61.84,
-  "end": 64.71,
-  "text": "from the server and the server then"
+  "start": 68.94,
+  "end": 72.08,
+  "text": "So once this agent finished their execution,"
  },
  {
-  "start": 64.72,
-  "end": 67.95,
-  "text": "distributes it to different agents."
+  "start": 72.08,
+  "end": 74.74,
+  "text": "they will return the results back to server"
  },
  {
-  "start": 67.96,
-  "end": 71.51,
-  "text": "Okay. So once this agents finish their"
+  "start": 74.74,
+  "end": 76.74,
+  "text": "and the server will then communicate"
  },
  {
-  "start": 71.52,
-  "end": 73.27,
-  "text": "execution they will return the results"
+  "start": 76.74,
+  "end": 80.66,
+  "text": "with the Automation Object Service workspace,"
  },
  {
-  "start": 73.28,
-  "end": 75.91,
-  "text": "back to server and the server will then"
+  "start": 80.66,
+  "end": 83.46,
+  "text": "which will again save the results back"
  },
  {
-  "start": 75.92,
-  "end": 78.63,
-  "text": "communicate with the automation object"
+  "start": 83.46,
+  "end": 86.34,
+  "text": "to the common repository, which is the database."
  },
  {
-  "start": 78.64,
-  "end": 82.149,
-  "text": "service workspace uh which will again uh"
+  "start": 86.34,
+  "end": 88.7,
+  "text": "It can also retrieve any test data,"
  },
  {
-  "start": 82.159,
-  "end": 84.07,
-  "text": "save the results back to the common"
+  "start": 89.66,
+  "end": 92.98,
+  "text": "which is required from the workspace from Tosca Commander."
  },
  {
-  "start": 84.08,
-  "end": 86.71,
-  "text": "repository which is the database. It can"
+  "start": 92.98,
+  "end": 96.98,
+  "text": "And then it can pass it on to the distribution server,"
  },
  {
-  "start": 86.72,
-  "end": 89.03,
-  "text": "also retrieve any test data which is"
+  "start": 96.98,
+  "end": 101.98,
+  "text": "okay, which will be used for executing your test events."
  },
  {
-  "start": 89.04,
-  "end": 91.87,
-  "text": "required from the workspace uh from TSA"
+  "start": 102.3,
+  "end": 106.02,
+  "text": "So this is how the whole flow"
  },
  {
-  "start": 91.88,
-  "end": 94.71,
-  "text": "commander and then it can pass it on to"
+  "start": 106.02,
+  "end": 110.7,
+  "text": "of the distributed execution works in Tosca."
  },
  {
-  "start": 94.72,
-  "end": 97.67,
-  "text": "the distribution server. Okay, which"
+  "start": 110.7,
+  "end": 113.3,
+  "text": "And this is the whole architecture, okay?"
  },
  {
-  "start": 97.68,
-  "end": 101.23,
-  "text": "will be used for uh executing your test"
+  "start": 113.3,
+  "end": 116.02,
+  "text": "So one part of it we have already done,"
  },
  {
-  "start": 101.24,
-  "end": 103.95,
-  "text": "events. So this is how"
+  "start": 116.02,
+  "end": 117.54,
+  "text": "which is the Tosca server."
  },
  {
-  "start": 103.96,
-  "end": 107.99,
-  "text": "uh the whole flow of uh the distributed"
+  "start": 117.54,
+  "end": 119.98,
+  "text": "Now our Automation Object Service"
  },
  {
-  "start": 108.0,
-  "end": 111.51,
-  "text": "execution works in TSA and this is the"
+  "start": 119.98,
+  "end": 123.94,
+  "text": "and the distribution service are already running."
  },
  {
-  "start": 111.52,
-  "end": 114.31,
-  "text": "whole architecture. Okay. So one part of"
+  "start": 123.94,
+  "end": 128.22,
+  "text": "Now we have to set up these agents, okay?"
  },
  {
-  "start": 114.32,
-  "end": 116.389,
-  "text": "it uh we have already done which is the"
+  "start": 128.22,
+  "end": 130.82,
+  "text": "And we have to also set up this workspace."
  },
  {
-  "start": 116.399,
-  "end": 119.35,
-  "text": "Tska server. Now our automation object"
+  "start": 130.82,
+  "end": 133.22,
+  "text": "Also, we have to do some configurations"
  },
  {
-  "start": 119.36,
-  "end": 122.63,
-  "text": "service and the distribution service are"
+  "start": 133.22,
+  "end": 137.62,
+  "text": "so that this whole setup can be replicated"
  },
  {
-  "start": 122.64,
-  "end": 125.27,
-  "text": "already running. Now we have to set up"
+  "start": 137.62,
+  "end": 142.14,
+  "text": "and we can start executing our test events"
  },
  {
-  "start": 125.28,
-  "end": 128.869,
-  "text": "these uh agents. Okay. And we have to"
+  "start": 142.14,
+  "end": 144.86,
+  "text": "on different Tosca distribution,"
  },
  {
-  "start": 128.879,
-  "end": 131.35,
-  "text": "also set up this workspace also. We have"
+  "start": 144.86,
+  "end": 148.02,
+  "text": "or which are known as text agents, okay?"
  },
  {
-  "start": 131.36,
-  "end": 134.15,
-  "text": "to do some configurations so that uh"
+  "start": 149.54,
+  "end": 152.58,
+  "text": "So this is what we are going to do now."
  },
  {
-  "start": 134.16,
-  "end": 138.07,
-  "text": "this whole setup can be replicated and"
+  "start": 152.58,
+  "end": 154.46,
+  "text": "And there are many parts to it,"
  },
  {
-  "start": 138.08,
-  "end": 141.11,
-  "text": "uh we we can start executing our test"
+  "start": 154.46,
+  "end": 158.22,
+  "text": "so I'll be taking it slowly, each part, right?"
  },
  {
-  "start": 141.12,
-  "end": 143.15,
-  "text": "events uh on"
+  "start": 158.22,
+  "end": 162.06,
+  "text": "So first we are going to set up a AOS workspace"
  },
  {
-  "start": 143.16,
-  "end": 145.99,
-  "text": "different distribution or which are"
+  "start": 162.06,
+  "end": 164.94,
+  "text": "that should be set up on the Tosca server."
  },
  {
-  "start": 146.0,
-  "end": 148.51,
-  "text": "known as text agents."
+  "start": 164.94,
+  "end": 167.02,
+  "text": "So wherever you have installed Tosca server,"
  },
  {
-  "start": 148.52,
-  "end": 151.19,
-  "text": "Okay. So this is what uh we are going to"
+  "start": 167.02,
+  "end": 169.82,
+  "text": "you have to create a separate workspace."
  },
  {
-  "start": 151.2,
-  "end": 154.15,
-  "text": "do now. And the there are many parts to"
+  "start": 169.82,
+  "end": 173.18,
+  "text": "That will be the Automation Object Service workspace."
  },
  {
-  "start": 154.16,
-  "end": 157.19,
-  "text": "it. So I'll be taking it slowly uh each"
+  "start": 173.22,
+  "end": 177.34,
+  "text": "And you should not use it for your regular day-to-day work."
  },
  {
-  "start": 157.2,
-  "end": 160.229,
-  "text": "part right. So first we are going to set"
+  "start": 177.34,
+  "end": 178.94,
+  "text": "You should always use the workspace"
  },
  {
-  "start": 160.239,
-  "end": 162.869,
-  "text": "up a AOS workspace. This should be set"
+  "start": 178.94,
+  "end": 182.62,
+  "text": "which you have set up on the common repository"
  },
  {
-  "start": 162.879,
-  "end": 165.75,
-  "text": "up on the TSCA server. So wherever you"
+  "start": 182.62,
+  "end": 185.86,
+  "text": "on which are being used by the Tosca Commander."
  },
  {
-  "start": 165.76,
-  "end": 167.67,
-  "text": "have installed Tska server you have to"
+  "start": 185.86,
+  "end": 189.5,
+  "text": "This will be used by the Automation Object Service"
  },
  {
-  "start": 167.68,
-  "end": 170.39,
-  "text": "create a separate workspace that will be"
+  "start": 189.5,
+  "end": 190.98,
+  "text": "and it should not be opened"
  },
  {
-  "start": 170.4,
-  "end": 173.27,
-  "text": "the automation object service workspace"
+  "start": 190.98,
+  "end": 195.02,
+  "text": "or used for any other purpose, okay?"
  },
  {
-  "start": 173.28,
-  "end": 175.83,
-  "text": "and uh you should not use it for your"
+  "start": 195.02,
+  "end": 198.38,
+  "text": "Otherwise your text will stop working."
  },
  {
-  "start": 175.84,
-  "end": 177.67,
-  "text": "regular day-to-day work. You should"
+  "start": 198.38,
+  "end": 203.38,
+  "text": "So yeah, so we will first set up this Tosca workspace."
  },
  {
-  "start": 177.68,
-  "end": 179.43,
-  "text": "always use the workspace which you have"
+  "start": 203.7,
+  "end": 206.42,
+  "text": "Then we will do some configurations."
  },
  {
-  "start": 179.44,
-  "end": 183.43,
-  "text": "set up uh on the common repository uh on"
+  "start": 206.42,
+  "end": 208.38,
+  "text": "We'll create test events, okay?"
  },
  {
-  "start": 183.44,
-  "end": 185.19,
-  "text": "which are being used by the Tska"
+  "start": 209.46,
+  "end": 212.18,
+  "text": "And we will create different configurations."
  },
  {
-  "start": 185.2,
-  "end": 187.509,
-  "text": "commander. This will be used by the"
+  "start": 212.18,
+  "end": 214.06,
+  "text": "We'll set up an agent."
  },
  {
-  "start": 187.519,
-  "end": 190.07,
-  "text": "automation object service and it should"
+  "start": 214.06,
+  "end": 217.38,
+  "text": "We'll connect it to our workspace, okay?"
  },
  {
-  "start": 190.08,
-  "end": 193.35,
-  "text": "not be opened or u used for any other"
+  "start": 217.38,
+  "end": 220.54,
+  "text": "And it will also be connected"
  },
  {
-  "start": 193.36,
-  "end": 196.71,
-  "text": "purpose. Okay. Otherwise your text will"
+  "start": 220.54,
+  "end": 223.42,
+  "text": "to the Tosca server or the Dex server."
  },
  {
-  "start": 196.72,
-  "end": 200.47,
-  "text": "stop working. So yeah so we will first"
+  "start": 223.42,
+  "end": 224.9,
+  "text": "And then we'll trigger the events"
  },
  {
-  "start": 200.48,
-  "end": 204.07,
-  "text": "set up this uh TSA workspace. Um then we"
+  "start": 224.9,
+  "end": 228.86,
+  "text": "and it should be executed on that particular agent, okay?"
  },
  {
-  "start": 204.08,
-  "end": 206.63,
-  "text": "will uh do some configurations. Uh we'll"
+  "start": 228.86,
+  "end": 233.14,
+  "text": "Now all of this I'm going to do again on my own machine"
  },
  {
-  "start": 206.64,
-  "end": 210.229,
-  "text": "create test events. Okay. Um and we will"
+  "start": 233.14,
+  "end": 234.42,
+  "text": "because of lack of servers,"
  },
  {
-  "start": 210.239,
-  "end": 212.149,
-  "text": "create different configurations. Uh"
+  "start": 234.42,
+  "end": 236.3,
+  "text": "but you can always go ahead"
  },
  {
-  "start": 212.159,
-  "end": 214.949,
-  "text": "we'll set up an agent. We'll connect it"
+  "start": 236.3,
+  "end": 239.62,
+  "text": "and set it up on different Windows servers"
  },
  {
-  "start": 214.959,
-  "end": 219.19,
-  "text": "to our uh workspace. Okay. And uh it"
+  "start": 239.62,
+  "end": 241.7,
+  "text": "as I explained to you earlier"
  },
  {
-  "start": 219.2,
-  "end": 221.43,
-  "text": "will also be connected to the TUSCa"
+  "start": 241.7,
+  "end": 243.82,
+  "text": "or different machines even, okay?"
  },
  {
-  "start": 221.44,
-  "end": 223.99,
-  "text": "server or the DEX server and then we'll"
+  "start": 246.14,
+  "end": 250.62,
+  "text": "Right, so let's go ahead and open our Tosca Commander now."
  },
  {
-  "start": 224.0,
-  "end": 225.67,
-  "text": "trigger the events and it should be"
+  "start": 250.62,
+  "end": 253.3,
+  "text": "I'm going to use the multi-user workspace"
  },
  {
-  "start": 225.68,
-  "end": 228.71,
-  "text": "executed on that particular agent. Okay."
+  "start": 253.3,
+  "end": 254.78,
+  "text": "which is the multi-demo."
  },
  {
-  "start": 228.72,
-  "end": 231.27,
-  "text": "Now all of this I'm going to do again on"
+  "start": 255.62,
+  "end": 262.18,
+  "text": "So let's open this."
  },
  {
-  "start": 231.28,
-  "end": 233.91,
-  "text": "my own machine uh because of lack of"
+  "start": 262.18,
+  "end": 265.38,
+  "text": "Okay, actually we had to create a workspace"
  },
  {
-  "start": 233.92,
-  "end": 236.55,
-  "text": "servers but you can always go ahead and"
+  "start": 265.38,
+  "end": 267.86,
+  "text": "so I don't even need to open this."
  },
  {
-  "start": 236.56,
-  "end": 239.589,
-  "text": "set it up on different Windows servers"
+  "start": 269.06,
+  "end": 271.54,
+  "text": "But anyways, I will close this."
  },
  {
-  "start": 239.599,
-  "end": 242.229,
-  "text": "as I explained you earlier or different"
+  "start": 271.54,
+  "end": 274.18,
+  "text": "So this is the workspace which we had created earlier."
  },
  {
-  "start": 242.239,
-  "end": 245.07,
-  "text": "machines even"
+  "start": 274.18,
+  "end": 276.58,
+  "text": "It is the multi-user workspace."
  },
  {
-  "start": 245.08,
-  "end": 249.11,
-  "text": "okay right um so let's go ahead and open"
+  "start": 276.58,
+  "end": 279.26,
+  "text": "So one thing to note, very important,"
  },
  {
-  "start": 249.12,
-  "end": 251.35,
-  "text": "our Oscar commander now I'm going to use"
+  "start": 279.26,
+  "end": 283.98,
+  "text": "is for distributed execution"
  },
  {
-  "start": 251.36,
-  "end": 254.67,
-  "text": "the multi-user workspace uh which is the"
+  "start": 283.98,
+  "end": 288.18,
+  "text": "it will only work with multi-user workspaces, okay?"
  },
  {
-  "start": 254.68,
-  "end": 262.15,
-  "text": "multi-demo so let's open this"
+  "start": 288.18,
+  "end": 289.98,
+  "text": "So you have to create a workspace,"
  },
  {
-  "start": 264.629,
-  "end": 264.639,
-  "text": "Okay, actually uh we had to create a"
+  "start": 289.98,
+  "end": 292.86,
+  "text": "multi-user workspace on a particular repository"
  },
  {
-  "start": 264.639,
-  "end": 267.55,
-  "text": "workspace. So I don't even need to open"
+  "start": 292.86,
+  "end": 295.26,
+  "text": "which could be any database, okay?"
  },
  {
-  "start": 267.56,
-  "end": 271.43,
-  "text": "this. Uh but anyways, I will close this."
+  "start": 295.26,
+  "end": 297.46,
+  "text": "So that's very important."
  },
  {
-  "start": 271.44,
-  "end": 273.189,
-  "text": "So this is the workspace which we had"
+  "start": 299.14,
+  "end": 300.62,
+  "text": "So I'll cancel this."
  },
  {
-  "start": 273.199,
-  "end": 275.23,
-  "text": "created earlier. It is the multi-user"
+  "start": 300.62,
+  "end": 304.22,
+  "text": "We are going to create a new workspace now."
  },
  {
-  "start": 275.24,
-  "end": 278.39,
-  "text": "workspace. Uh so one thing to note uh"
+  "start": 304.22,
+  "end": 309.64,
+  "text": "So let's click on create new, okay?"
  },
  {
-  "start": 278.4,
-  "end": 282.909,
-  "text": "very important is for uh distributed"
+  "start": 311.04,
+  "end": 312.44,
+  "text": "Just a minute."
  },
  {
-  "start": 282.919,
-  "end": 285.83,
-  "text": "execution. It will only work with"
- },
- {
-  "start": 285.84,
-  "end": 288.71,
-  "text": "multi-user workspaces. Okay. So you have"
- },
- {
-  "start": 288.72,
-  "end": 290.469,
-  "text": "to create a workspace multi-user"
- },
- {
-  "start": 290.479,
-  "end": 292.71,
-  "text": "workspace on a particular repository"
- },
- {
-  "start": 292.72,
-  "end": 295.43,
-  "text": "which could be any database. Okay. So"
- },
- {
-  "start": 295.44,
-  "end": 297.95,
-  "text": "that's uh very"
- },
- {
-  "start": 297.96,
-  "end": 300.71,
-  "text": "important. So I'll cancel this. Uh we"
- },
- {
-  "start": 300.72,
-  "end": 303.59,
-  "text": "are going to create a new uh workspace"
- },
- {
-  "start": 303.6,
-  "end": 308.11,
-  "text": "now. So let's click on create"
- },
- {
-  "start": 309.95,
-  "end": 309.96,
-  "text": "new."
- },
- {
-  "start": 309.96,
-  "end": 313.51,
-  "text": "Okay. Just a minute. Yeah. Um and then"
- },
- {
-  "start": 313.52,
-  "end": 317.11,
-  "text": "I'm going to use uh SQLite for now."
+  "start": 312.44,
+  "end": 317.12,
+  "text": "Yeah, and then I'm going to use SQLite for now."
  },
  {
   "start": 317.12,
-  "end": 318.79,
-  "text": "Obviously it's not recommended for"
+  "end": 318.64,
+  "text": "Obviously it's not recommended"
  },
  {
-  "start": 318.8,
-  "end": 321.11,
-  "text": "production environments. You have to use"
+  "start": 318.64,
+  "end": 319.8,
+  "text": "for production environments."
  },
  {
-  "start": 321.12,
-  "end": 325.59,
-  "text": "Oracle or SQL server or DB2. Okay. So"
+  "start": 319.8,
+  "end": 324.8,
+  "text": "You have to use Oracle or SQL Server or DB2, okay?"
  },
  {
-  "start": 325.6,
-  "end": 327.909,
-  "text": "I'll be using the existing repository uh"
+  "start": 325.08,
+  "end": 328.04,
+  "text": "So I'll be using the existing repository"
  },
  {
-  "start": 327.919,
-  "end": 331.59,
-  "text": "which I have created already because uh"
+  "start": 328.04,
+  "end": 329.52,
+  "text": "which I have created already"
  },
  {
-  "start": 331.6,
-  "end": 334.07,
-  "text": "it should be the same repository where"
+  "start": 329.52,
+  "end": 333.88,
+  "text": "because it should be the same repository"
  },
  {
-  "start": 334.08,
-  "end": 335.43,
-  "text": "you have created your multi-user"
+  "start": 333.88,
+  "end": 336.28,
+  "text": "where you have created your multi-user workspace, okay?"
  },
  {
-  "start": 335.44,
-  "end": 337.11,
-  "text": "workspace. Okay. So that's also"
+  "start": 336.28,
+  "end": 337.68,
+  "text": "So that's also important."
  },
  {
-  "start": 337.12,
-  "end": 339.43,
-  "text": "important. Don't create a new repository"
+  "start": 337.68,
+  "end": 339.92,
+  "text": "Don't create a new repository again."
  },
  {
-  "start": 339.44,
-  "end": 340.629,
-  "text": "again."
+  "start": 340.84,
+  "end": 343.76,
+  "text": "They both should be connected to the same repository"
  },
  {
-  "start": 340.639,
-  "end": 342.71,
-  "text": "uh they both should be connected to the"
+  "start": 343.76,
+  "end": 347.12,
+  "text": "as we have seen in this particular diagram."
  },
  {
-  "start": 342.72,
-  "end": 345.35,
-  "text": "same repository as we have seen um in"
+  "start": 347.12,
+  "end": 349.04,
+  "text": "You can see this is the common repository"
  },
  {
-  "start": 345.36,
-  "end": 347.749,
-  "text": "this particular diagram you can see this"
+  "start": 349.08,
+  "end": 353.66,
+  "text": "and both are connected to this, okay?"
  },
  {
-  "start": 347.759,
-  "end": 349.99,
-  "text": "is the common repository and both are"
+  "start": 353.66,
+  "end": 355.82,
+  "text": "So branch will be master"
  },
  {
-  "start": 350.0,
-  "end": 352.59,
-  "text": "connected to this"
+  "start": 355.82,
+  "end": 357.98,
+  "text": "and I will create the new workspace"
  },
  {
-  "start": 352.6,
-  "end": 356.79,
-  "text": "okay so branch will be master um and I"
+  "start": 357.98,
+  "end": 360.42,
+  "text": "in this particular part."
  },
  {
-  "start": 356.8,
-  "end": 358.31,
-  "text": "will create the new workspace in this"
+  "start": 360.42,
+  "end": 362.22,
+  "text": "I will going to create,"
  },
  {
-  "start": 358.32,
-  "end": 362.71,
-  "text": "particular path I will going to create"
+  "start": 363.94,
+  "end": 365.66,
+  "text": "or I will give a name here,"
  },
  {
-  "start": 362.72,
-  "end": 365.67,
-  "text": "um I or I will give a name here"
+  "start": 365.66,
+  "end": 371.47,
+  "text": "something like multi-AOS, okay?"
  },
  {
-  "start": 365.68,
-  "end": 370.95,
-  "text": "something like multi- aos"
+  "start": 372.43,
+  "end": 375.27,
+  "text": "And then you should not be creating"
  },
  {
-  "start": 374.23,
-  "end": 374.24,
-  "text": "Okay. Um, and then you should not be"
+  "start": 375.27,
+  "end": 377.35,
+  "text": "a slim workspace for AOS."
  },
  {
-  "start": 374.24,
-  "end": 377.59,
-  "text": "creating a slim workspace for AOS. It"
+  "start": 377.35,
+  "end": 378.63,
+  "text": "It doesn't work."
  },
  {
-  "start": 377.6,
-  "end": 379.95,
-  "text": "doesn't work. So don't select"
+  "start": 378.63,
+  "end": 379.79,
+  "text": "So don't select this"
  },
  {
-  "start": 379.96,
-  "end": 383.07,
-  "text": "this. And let's go ahead and create this"
+  "start": 380.79,
+  "end": 384.03,
+  "text": "and let's go ahead and create this workspace."
  },
  {
-  "start": 383.08,
+  "start": 384.03,
   "end": 385.35,
-  "text": "workspace. So this is the workspace"
+  "text": "So this is the workspace"
  },
  {
-  "start": 385.36,
-  "end": 388.309,
-  "text": "which is specifically made for AOS."
+  "start": 385.35,
+  "end": 388.67,
+  "text": "which is specifically made for AOS, okay?"
  },
  {
-  "start": 388.319,
-  "end": 390.55,
-  "text": "Okay."
+  "start": 390.43,
+  "end": 394.31,
+  "text": "And depending on how large your repository is"
  },
  {
-  "start": 390.56,
-  "end": 393.189,
-  "text": "And depending on how large your"
+  "start": 394.31,
+  "end": 398.03,
+  "text": "or it will take very little time"
  },
  {
-  "start": 393.199,
-  "end": 397.51,
-  "text": "repository is or it will take very"
+  "start": 398.03,
+  "end": 402.79,
+  "text": "or very huge time if your workspace"
  },
  {
-  "start": 397.52,
-  "end": 401.51,
-  "text": "little time or very uh very uh huge time"
+  "start": 402.79,
+  "end": 405.67,
+  "text": "or your repository size is too big, okay?"
  },
  {
-  "start": 401.52,
-  "end": 403.749,
-  "text": "if your workspace or your repository"
+  "start": 405.67,
+  "end": 408.35,
+  "text": "Because it has to update all the objects"
  },
  {
-  "start": 403.759,
-  "end": 406.55,
-  "text": "size is too big. Okay, because it has to"
+  "start": 408.35,
+  "end": 411.63,
+  "text": "before it creates a new workspace."
  },
  {
-  "start": 406.56,
-  "end": 409.11,
-  "text": "update all the objects um before it"
+  "start": 411.63,
+  "end": 413.43,
+  "text": "So it may take more time"
  },
  {
-  "start": 409.12,
-  "end": 411.749,
-  "text": "creates a new workspace."
+  "start": 413.43,
+  "end": 415.31,
+  "text": "or it may take very less time like me"
  },
  {
-  "start": 411.759,
-  "end": 414.23,
-  "text": "So it may take more time or it may take"
+  "start": 415.31,
+  "end": 419.15,
+  "text": "because my repository is almost very,"
  },
  {
-  "start": 414.24,
-  "end": 416.469,
-  "text": "very less time like me because my"
+  "start": 419.15,
+  "end": 421.39,
+  "text": "it's a very little size for my repository."
  },
  {
-  "start": 416.479,
-  "end": 419.67,
-  "text": "repository is almost a very it's a very"
+  "start": 421.39,
+  "end": 424.15,
+  "text": "I don't have many tests or anything, okay?"
  },
  {
-  "start": 419.68,
-  "end": 421.67,
-  "text": "little size of for my repository. I"
+  "start": 425.23,
+  "end": 427.39,
+  "text": "So let's log into this."
  },
  {
-  "start": 421.68,
-  "end": 424.35,
-  "text": "don't have many tests or anything."
+  "start": 429.79,
+  "end": 433.03,
+  "text": "We will just verify this workspace"
  },
  {
-  "start": 424.36,
-  "end": 428.67,
-  "text": "Okay. So let's log into this."
+  "start": 433.03,
+  "end": 435.47,
+  "text": "and then we are going to close this"
  },
  {
-  "start": 428.68,
-  "end": 432.95,
-  "text": "Uh we will just verify this workspace"
+  "start": 435.47,
+  "end": 437.19,
+  "text": "because as I said earlier,"
  },
  {
-  "start": 432.96,
-  "end": 435.43,
-  "text": "and then uh we are going to close this"
+  "start": 437.19,
+  "end": 440.07,
+  "text": "you should not be using this workspace, okay?"
  },
  {
-  "start": 435.44,
-  "end": 437.589,
-  "text": "because as I said earlier uh you should"
+  "start": 440.07,
+  "end": 443.15,
+  "text": "It will be used by the AOS service"
  },
  {
-  "start": 437.599,
-  "end": 440.23,
-  "text": "not be using this workspace. Okay. it"
+  "start": 444.95,
+  "end": 448.47,
+  "text": "and let's just verify here."
  },
  {
-  "start": 440.24,
-  "end": 444.029,
-  "text": "will be used by the uh AOS"
+  "start": 448.47,
+  "end": 451.67,
+  "text": "The project name is correct, multi-demo, okay?"
  },
  {
-  "start": 444.039,
-  "end": 446.27,
-  "text": "service and"
+  "start": 451.67,
+  "end": 455.15,
+  "text": "And we have got the same repository"
  },
  {
-  "start": 446.28,
-  "end": 449.11,
-  "text": "let's just verify here the project name"
+  "start": 455.15,
+  "end": 457.63,
+  "text": "because we can see some of the similar objects"
  },
  {
-  "start": 449.12,
-  "end": 452.71,
-  "text": "is correct multi-demo okay and uh we"
+  "start": 457.63,
+  "end": 460.27,
+  "text": "which are present in my other workspace, okay?"
  },
  {
-  "start": 452.72,
-  "end": 455.589,
-  "text": "have got the same repository because we"
+  "start": 461.63,
+  "end": 465.91,
+  "text": "So this part is done now."
  },
  {
-  "start": 455.599,
-  "end": 457.51,
-  "text": "can see some of the similar objects"
+  "start": 465.91,
+  "end": 468.11,
+  "text": "We have created our AOS workspace."
  },
  {
-  "start": 457.52,
-  "end": 460.67,
-  "text": "which are present in my other workspace"
+  "start": 468.11,
+  "end": 470.39,
+  "text": "Now we can close this, okay?"
  },
  {
-  "start": 460.68,
-  "end": 462.51,
-  "text": "okay"
+  "start": 471.75,
+  "end": 476.75,
+  "text": "Now the next part is to configure"
  },
  {
-  "start": 462.52,
-  "end": 466.23,
-  "text": "so this part is done now uh we have"
+  "start": 477.15,
+  "end": 482.03,
+  "text": "some AOS workspace-related things on the server, okay?"
  },
  {
-  "start": 466.24,
-  "end": 468.629,
-  "text": "created our AOS workspace now we can"
+  "start": 482.03,
+  "end": 486.35,
+  "text": "And for that, I'm going to also open"
  },
  {
-  "start": 468.639,
-  "end": 470.749,
-  "text": "close this."
+  "start": 486.35,
+  "end": 489.07,
+  "text": "my multi-demo workspace or project"
  },
  {
-  "start": 470.759,
-  "end": 475.23,
-  "text": "Okay. Now, uh the next part is to"
+  "start": 490.55,
+  "end": 493.67,
+  "text": "and let's go to our server now, okay?"
  },
  {
-  "start": 475.24,
-  "end": 479.589,
-  "text": "uh configure some AOS workspace related"
- },
- {
-  "start": 479.599,
-  "end": 483.629,
-  "text": "things on the server. Okay. And for"
- },
- {
-  "start": 483.639,
-  "end": 486.55,
-  "text": "that I'm going to also open my"
- },
- {
-  "start": 486.56,
-  "end": 489.469,
-  "text": "multi-demo uh workspace or"
- },
- {
-  "start": 489.479,
-  "end": 494.27,
-  "text": "project and let's go to our server now."
- },
- {
-  "start": 494.28,
+  "start": 494.19,
   "end": 498.15,
-  "text": "Okay. So on the server uh you need to go"
+  "text": "So on the server, you need to go to settings"
  },
  {
-  "start": 498.16,
-  "end": 498.99,
-  "text": "to"
+  "start": 499.03,
+  "end": 503.39,
+  "text": "and here you need to go to automation object service, okay?"
  },
  {
-  "start": 499.0,
-  "end": 501.83,
-  "text": "settings and here you need to go to"
+  "start": 503.39,
+  "end": 504.99,
+  "text": "Although it is in the running state,"
  },
  {
-  "start": 501.84,
-  "end": 504.39,
-  "text": "automation object service. Okay."
+  "start": 504.99,
+  "end": 507.39,
+  "text": "we need to add a workspace here."
  },
  {
-  "start": 504.4,
-  "end": 506.39,
-  "text": "Although it is in the running state we"
+  "start": 507.39,
+  "end": 509.99,
+  "text": "So the workspace which we have created,"
  },
  {
-  "start": 506.4,
-  "end": 508.95,
-  "text": "need to add a workspace here. So the"
+  "start": 509.99,
+  "end": 512.19,
+  "text": "we have to add it here, okay?"
  },
  {
-  "start": 508.96,
-  "end": 511.51,
-  "text": "workspace which we have created we have"
+  "start": 512.19,
+  "end": 513.99,
+  "text": "So click on add new"
  },
  {
-  "start": 511.52,
-  "end": 515.149,
-  "text": "to add it here. Okay. So click on add"
+  "start": 514.99,
+  "end": 518.99,
+  "text": "and you need to provide a name,"
  },
  {
-  "start": 515.159,
-  "end": 520.31,
-  "text": "new and uh you need to uh provide a name"
+  "start": 518.99,
+  "end": 521.87,
+  "text": "project root name for this, workspace name,"
  },
  {
-  "start": 520.32,
-  "end": 522.23,
-  "text": "project root name for this workspace"
+  "start": 521.87,
+  "end": 525.63,
+  "text": "workspace name, username and password, okay?"
  },
  {
-  "start": 522.24,
-  "end": 525.99,
-  "text": "name username and password. Okay. Now"
+  "start": 525.63,
+  "end": 529.59,
+  "text": "Now you can create a maximum of 10 different workspaces"
  },
  {
-  "start": 526.0,
-  "end": 528.87,
-  "text": "you can create a maximum of 10 different"
+  "start": 529.59,
+  "end": 531.87,
+  "text": "which can work all in panel, okay?"
  },
  {
-  "start": 528.88,
-  "end": 531.59,
-  "text": "workspaces which can work all in pal."
+  "start": 531.87,
+  "end": 533.95,
+  "text": "So if you've got different projects,"
  },
  {
-  "start": 531.6,
-  "end": 532.949,
-  "text": "Okay. So if you've got different"
+  "start": 533.95,
+  "end": 536.67,
+  "text": "you want to create different AOS workspaces for that,"
  },
  {
-  "start": 532.959,
-  "end": 535.19,
-  "text": "projects you want to create different"
- },
- {
-  "start": 535.2,
+  "start": 536.67,
   "end": 538.07,
-  "text": "aos workspaces for that you can do that."
+  "text": "you can do that."
  },
  {
-  "start": 538.08,
-  "end": 541.43,
-  "text": "So you can create a maximum of 10 um"
+  "start": 538.07,
+  "end": 542.47,
+  "text": "So you can create a maximum of 10 right from here."
  },
  {
-  "start": 541.44,
-  "end": 543.829,
-  "text": "right from here. So just click on add"
+  "start": 542.47,
+  "end": 544.55,
+  "text": "So just click on add new"
  },
  {
-  "start": 543.839,
-  "end": 547.07,
-  "text": "new and then add the details here."
+  "start": 544.55,
+  "end": 546.63,
+  "text": "and then add the details here, okay?"
  },
  {
-  "start": 547.08,
-  "end": 555.15,
-  "text": "Okay. So um our project root name is"
+  "start": 547.63,
+  "end": 552.63,
+  "text": "So our project root name is multi,"
  },
  {
-  "start": 558.23,
-  "end": 558.24,
-  "text": "multi. So let's check our project root"
+  "start": 556.09,
+  "end": 560.53,
+  "text": "so let's check our project root name first, okay?"
  },
  {
-  "start": 558.24,
-  "end": 561.269,
-  "text": "name first. Okay. Um I should not have"
+  "start": 560.53,
+  "end": 562.41,
+  "text": "I should not have closed that,"
  },
  {
-  "start": 561.279,
-  "end": 563.91,
-  "text": "closed that but let's open this again so"
+  "start": 562.41,
+  "end": 566.49,
+  "text": "but let's open this again so that we can just note down"
  },
  {
-  "start": 563.92,
-  "end": 567.67,
-  "text": "that we can just uh note down these all"
+  "start": 566.49,
+  "end": 569.33,
+  "text": "these, all these different settings"
  },
  {
-  "start": 567.68,
-  "end": 569.829,
-  "text": "these different settings which we need"
+  "start": 569.33,
+  "end": 574.58,
+  "text": "which we need to provide for our AOS workspace, okay?"
  },
  {
-  "start": 569.839,
-  "end": 573.31,
-  "text": "to provide for our AOS"
+  "start": 574.58,
+  "end": 577.38,
+  "text": "So let me go here, workspace name,"
  },
  {
-  "start": 576.47,
-  "end": 576.48,
-  "text": "workspace. Okay. So let me go here."
+  "start": 577.38,
+  "end": 583.47,
+  "text": "I know it's multi AOS, right?"
  },
  {
-  "start": 576.48,
-  "end": 580.59,
-  "text": "Workspace name I know it's"
+  "start": 583.47,
+  "end": 588.47,
+  "text": "And our username is admin, password is admin,"
  },
  {
-  "start": 586.67,
-  "end": 586.68,
-  "text": "multi- aos right and our username is"
+  "start": 591.14,
+  "end": 598.3,
+  "text": "I just need to provide the root name, okay?"
  },
  {
-  "start": 586.68,
-  "end": 590.03,
-  "text": "admin password is"
+  "start": 598.3,
+  "end": 606.08,
+  "text": "So let me log in here."
  },
  {
-  "start": 590.04,
-  "end": 593.11,
-  "text": "admin I just need to provide the root"
+  "start": 606.08,
+  "end": 607.72,
+  "text": "And as you can see,"
  },
  {
-  "start": 593.12,
-  "end": 597.389,
-  "text": "name"
+  "start": 607.72,
+  "end": 611.48,
+  "text": "so our project root name is multi demo,"
  },
  {
-  "start": 609.269,
-  "end": 609.279,
-  "text": "here. And as you can see, so our project"
+  "start": 611.48,
+  "end": 616.48,
+  "text": "but our workspace name is still multi AOS, okay?"
  },
  {
-  "start": 609.279,
-  "end": 612.63,
-  "text": "root name is multi-demo, but our"
+  "start": 617.32,
+  "end": 623.47,
+  "text": "So the project name will remain same"
  },
  {
-  "start": 612.64,
-  "end": 614.75,
-  "text": "workspace name is"
+  "start": 623.47,
+  "end": 625.47,
+  "text": "because we are using the same repository,"
  },
  {
-  "start": 614.76,
-  "end": 616.35,
-  "text": "still"
+  "start": 625.47,
+  "end": 628.43,
+  "text": "so it is multi demo, but our workspace name is,"
  },
  {
-  "start": 616.36,
-  "end": 619.79,
-  "text": "multi-aos."
+  "start": 628.43,
+  "end": 631.55,
+  "text": "you can see on the top, it's multi AOS, okay?"
  },
  {
-  "start": 622.79,
-  "end": 622.8,
-  "text": "Okay. So, uh the project name will"
+  "start": 632.75,
+  "end": 643.9,
+  "text": "So let's put multi demo here."
  },
  {
-  "start": 622.8,
-  "end": 624.47,
-  "text": "remain same because we are using the"
+  "start": 643.98,
+  "end": 648.14,
+  "text": "So now go ahead and save this, okay?"
  },
  {
-  "start": 624.48,
-  "end": 626.79,
-  "text": "same repository. So, it is multi-demo."
+  "start": 648.14,
+  "end": 650.54,
+  "text": "So these are all the changes we need to do."
  },
  {
-  "start": 626.8,
-  "end": 629.03,
-  "text": "But our workspace name is you can see on"
+  "start": 650.54,
+  "end": 652.38,
+  "text": "You can see once I click on save,"
  },
  {
-  "start": 629.04,
-  "end": 631.949,
-  "text": "the top it's multiAOS."
+  "start": 652.38,
+  "end": 654.34,
+  "text": "it will restart all the services"
  },
  {
-  "start": 631.959,
-  "end": 641.949,
-  "text": "Okay. So let's put multi- demo"
+  "start": 654.34,
+  "end": 658.64,
+  "text": "which are related to this, okay?"
  },
  {
-  "start": 647.35,
-  "end": 647.36,
-  "text": "here. Right. So now go ahead and save"
+  "start": 658.64,
+  "end": 662.76,
+  "text": "So once it restarts, it will apply all these settings"
  },
  {
-  "start": 647.36,
-  "end": 649.269,
-  "text": "this. Okay. So these are all the changes"
+  "start": 662.76,
+  "end": 668.86,
+  "text": "on that particular service before starting it, okay?"
  },
  {
-  "start": 649.279,
-  "end": 651.67,
-  "text": "we need to do. You can see once I click"
+  "start": 670.54,
+  "end": 673.5,
+  "text": "Also it's recommended once this is all set up,"
  },
  {
-  "start": 651.68,
-  "end": 654.23,
-  "text": "on save it will restart all the services"
+  "start": 673.5,
+  "end": 677.34,
+  "text": "you can also go ahead and restart the DeX server"
  },
  {
-  "start": 654.24,
-  "end": 657.63,
-  "text": "which are related to this."
+  "start": 677.34,
+  "end": 680.98,
+  "text": "because the DeX server is connected to this AOS,"
  },
  {
-  "start": 660.71,
-  "end": 660.72,
-  "text": "Okay. So once it restarts it will apply"
+  "start": 680.98,
+  "end": 684.9,
+  "text": "so it's better we restart the DeX server"
  },
  {
-  "start": 660.72,
-  "end": 663.509,
-  "text": "all these uh settings on that particular"
+  "start": 684.9,
+  "end": 686.9,
+  "text": "from our services, okay?"
  },
  {
-  "start": 663.519,
-  "end": 667.47,
-  "text": "service before uh starting"
+  "start": 687.9,
+  "end": 690.14,
+  "text": "So let's go to services,"
  },
  {
-  "start": 672.069,
-  "end": 672.079,
-  "text": "it. Okay. Um also it's recommended once"
+  "start": 691.86,
+  "end": 695.66,
+  "text": "and let's go to Tracentes services"
  },
  {
-  "start": 672.079,
-  "end": 674.87,
-  "text": "this is all set up you can also go ahead"
+  "start": 695.66,
+  "end": 699.34,
+  "text": "and we'll search for the distributed execution service,"
  },
  {
-  "start": 674.88,
-  "end": 677.99,
-  "text": "and restart the dex server because the"
+  "start": 700.46,
+  "end": 701.5,
+  "text": "okay?"
  },
  {
-  "start": 678.0,
-  "end": 681.509,
-  "text": "dex server is connected to this aos. So"
+  "start": 701.5,
+  "end": 706.5,
+  "text": "And we'll restart it once this finishes off, okay?"
  },
  {
-  "start": 681.519,
-  "end": 683.99,
-  "text": "it's better uh we restart the deck"
+  "start": 706.5,
+  "end": 708.94,
+  "text": "So ideally this should also restart the DeX server,"
  },
  {
-  "start": 684.0,
-  "end": 687.069,
-  "text": "server from our services."
+  "start": 708.94,
+  "end": 711.1,
+  "text": "but just in case it doesn't restart,"
  },
  {
-  "start": 687.079,
-  "end": 690.99,
-  "text": "Okay. So let's go to"
+  "start": 712.1,
+  "end": 718.96,
+  "text": "you should restart it manually, okay?"
  },
  {
-  "start": 691.0,
-  "end": 695.67,
-  "text": "services and let's go to tentis services"
+  "start": 719.08,
+  "end": 723.4,
+  "text": "So this is now restarted and it should be running."
  },
  {
-  "start": 695.68,
-  "end": 698.15,
-  "text": "and we'll search for the distributed"
+  "start": 723.4,
+  "end": 727.4,
+  "text": "I can also restart the monitor because it is connected,"
  },
  {
-  "start": 698.16,
-  "end": 699.55,
-  "text": "execution"
+  "start": 728.8,
+  "end": 731.14,
+  "text": "okay?"
  },
  {
-  "start": 699.56,
-  "end": 703.11,
-  "text": "service. Okay. And we'll restart it once"
+  "start": 731.14,
+  "end": 733.42,
+  "text": "Right, so it is in running state"
  },
  {
-  "start": 703.12,
-  "end": 705.069,
-  "text": "this uh finishes"
+  "start": 733.42,
+  "end": 742.88,
+  "text": "and if I go back to my dashboard,"
  },
  {
-  "start": 705.079,
-  "end": 707.829,
-  "text": "off. Okay. So ideally this should also"
+  "start": 742.88,
+  "end": 744.6,
+  "text": "refresh it and then you will see"
  },
  {
-  "start": 707.839,
-  "end": 709.829,
-  "text": "restart the deck server. But just in"
+  "start": 745.52,
+  "end": 747.8,
+  "text": "everything is running again, okay?"
  },
  {
-  "start": 709.839,
-  "end": 712.55,
-  "text": "case it doesn't restart uh you should"
+  "start": 747.8,
+  "end": 752.4,
+  "text": "If I go to my monitor, which we will require later on,"
  },
  {
-  "start": 712.56,
-  "end": 717.79,
-  "text": "restart it"
+  "start": 752.4,
+  "end": 753.76,
+  "text": "okay?"
  },
  {
-  "start": 720.87,
-  "end": 720.88,
-  "text": "manually. Okay. So this is now uh"
+  "start": 753.76,
+  "end": 755.84,
+  "text": "Currently no agents are there,"
  },
  {
-  "start": 720.88,
-  "end": 723.509,
-  "text": "restarted and it should be running. I"
+  "start": 755.84,
+  "end": 760.75,
+  "text": "but we are going to set up a agent now, okay?"
  },
  {
-  "start": 723.519,
-  "end": 725.71,
-  "text": "can also restart the monitor because it"
+  "start": 760.75,
+  "end": 764.03,
+  "text": "So the work for this is now finally done,"
  },
  {
-  "start": 725.72,
-  "end": 727.71,
-  "text": "is"
+  "start": 764.03,
+  "end": 766.63,
+  "text": "so we can close this multi AOS workspace"
  },
  {
-  "start": 727.72,
-  "end": 730.03,
-  "text": "connected."
+  "start": 766.63,
+  "end": 772.18,
+  "text": "and we can open our project, which is multi demo,"
  },
  {
-  "start": 730.04,
-  "end": 732.79,
-  "text": "Okay. Right. Um, so it is in running"
+  "start": 772.18,
+  "end": 776.94,
+  "text": "and here we will be setting up our DeX events,"
  },
  {
-  "start": 732.8,
-  "end": 741.87,
-  "text": "state and if I go back to my"
+  "start": 776.94,
+  "end": 778.74,
+  "text": "DeX agents, right?"
  },
  {
-  "start": 744.23,
-  "end": 744.24,
-  "text": "dashboard, refresh it and then you will"
+  "start": 779.82,
+  "end": 783.06,
+  "text": "So the next step is to connect a DeX agent."
  },
  {
-  "start": 744.24,
-  "end": 746.949,
-  "text": "see um everything is running again."
+  "start": 783.06,
+  "end": 785.9,
+  "text": "Now ideally this should be again a different machine"
  },
  {
-  "start": 746.959,
-  "end": 750.47,
-  "text": "Okay, if I go to my monitor which we"
+  "start": 785.9,
+  "end": 788.1,
+  "text": "where either a Tosca Commander"
  },
  {
-  "start": 750.48,
-  "end": 754.069,
-  "text": "will require later on. Okay, currently"
+  "start": 788.1,
+  "end": 792.18,
+  "text": "or a Tosca Execution agent is running, okay?"
  },
  {
-  "start": 754.079,
-  "end": 756.79,
-  "text": "no agents are there but we are going to"
+  "start": 793.1,
+  "end": 796.02,
+  "text": "But since for this particular demo,"
  },
  {
-  "start": 756.8,
-  "end": 760.55,
-  "text": "set up a agent now."
+  "start": 796.02,
+  "end": 798.86,
+  "text": "I'm going to use the same machine."
  },
  {
-  "start": 760.56,
-  "end": 763.19,
-  "text": "Okay, so the work for this is now"
+  "start": 798.86,
+  "end": 802.34,
+  "text": "I have set up my Tosca server and Tosca Commander on,"
  },
  {
-  "start": 763.2,
-  "end": 765.19,
-  "text": "finally done. So we can close this"
+  "start": 802.34,
+  "end": 805.78,
+  "text": "but ideally in ideal conditions, you should not use it."
  },
  {
-  "start": 765.2,
-  "end": 768.31,
-  "text": "multios workspace and we can open our"
+  "start": 805.78,
+  "end": 809.14,
+  "text": "Either use a different machine or a different server"
  },
  {
-  "start": 768.32,
-  "end": 771.15,
-  "text": "project which is"
+  "start": 809.14,
+  "end": 811.78,
+  "text": "where you have set up a Tosca Commander"
  },
  {
-  "start": 773.75,
-  "end": 773.76,
-  "text": "multi-demo. And here we will be setting"
+  "start": 811.78,
+  "end": 814.1,
+  "text": "or a Tosca Execution agent, okay?"
  },
  {
-  "start": 773.76,
-  "end": 779.829,
-  "text": "up our dex events uh dex agents. Right."
+  "start": 815.1,
+  "end": 820.1,
+  "text": "So now we need to start the Tosca agent"
  },
  {
-  "start": 779.839,
-  "end": 782.15,
-  "text": "So the next step is to connect a dex"
+  "start": 821.14,
+  "end": 823.5,
+  "text": "wherever you want to set it up,"
  },
  {
-  "start": 782.16,
-  "end": 784.79,
-  "text": "agent. Now ideally this should be again"
+  "start": 823.5,
+  "end": 828.5,
+  "text": "and for that we need to go to C, Program Files,"
  },
  {
-  "start": 784.8,
-  "end": 787.509,
-  "text": "a different machine where either a TSka"
+  "start": 829.3,
+  "end": 832.66,
+  "text": "and go to Tricentis, Tosca Server,"
  },
  {
-  "start": 787.519,
-  "end": 791.03,
-  "text": "commander or a TSCA execution agent is"
+  "start": 834.02,
+  "end": 839.02,
+  "text": "Distributed Execution, so we have to go to DeX Server,"
  },
  {
-  "start": 791.04,
-  "end": 794.87,
-  "text": "running. Okay. But since uh for this"
+  "start": 839.02,
+  "end": 841.88,
+  "text": "okay?"
  },
  {
-  "start": 794.88,
-  "end": 797.43,
-  "text": "particular demo um I'm going to use the"
+  "start": 842.4,
+  "end": 847.4,
+  "text": "And actually not the DeX Server, just a minute."
  },
  {
-  "start": 797.44,
-  "end": 800.389,
-  "text": "same machine. I have set up my TSka"
+  "start": 851.16,
+  "end": 852.76,
+  "text": "I think I went the wrong way."
  },
  {
-  "start": 800.399,
-  "end": 803.269,
-  "text": "server and Tska commander on but ideally"
+  "start": 852.76,
+  "end": 855.08,
+  "text": "So we need to go to Tosca Test Suite"
  },
  {
-  "start": 803.279,
-  "end": 805.03,
-  "text": "in idle conditions you should not use"
+  "start": 855.08,
+  "end": 859.1,
+  "text": "and here Distributed Execution,"
  },
  {
-  "start": 805.04,
-  "end": 807.829,
-  "text": "it. either use a different machine or a"
+  "start": 859.1,
+  "end": 863.06,
+  "text": "and here you will find the DeX agent.exe"
  },
  {
-  "start": 807.839,
-  "end": 809.75,
-  "text": "different server um where you have set"
+  "start": 863.06,
+  "end": 864.62,
+  "text": "which we need to run, okay?"
  },
  {
-  "start": 809.76,
-  "end": 813.03,
-  "text": "up a TSA commander or a TSCA execution"
+  "start": 865.78,
+  "end": 868.22,
+  "text": "So this is the Tosca Distribution agent."
  },
  {
-  "start": 813.04,
-  "end": 814.75,
-  "text": "agent."
+  "start": 868.22,
+  "end": 871.22,
+  "text": "So whenever you install Tosca Commander,"
  },
  {
-  "start": 814.76,
-  "end": 816.829,
-  "text": "Okay. So"
+  "start": 871.22,
+  "end": 872.82,
+  "text": "this folder will be created"
  },
  {
-  "start": 816.839,
-  "end": 821.67,
-  "text": "um now we need to start the TSA agent uh"
+  "start": 872.82,
+  "end": 875.78,
+  "text": "and you can run this DeX agent on any machine"
  },
  {
-  "start": 821.68,
-  "end": 824.55,
-  "text": "wherever you want to set it up and for"
+  "start": 875.78,
+  "end": 877.94,
+  "text": "where Tosca Commander is installed."
  },
  {
-  "start": 824.56,
-  "end": 828.99,
-  "text": "that um we need to go to C program"
+  "start": 877.94,
+  "end": 882.02,
+  "text": "There's also a separate installation provided, okay?"
  },
  {
-  "start": 829.0,
-  "end": 833.71,
-  "text": "files and go to Tentis Tuska"
+  "start": 882.02,
+  "end": 885.3,
+  "text": "So whenever you install Tosca Commander, right,"
  },
  {
-  "start": 833.72,
-  "end": 837.75,
-  "text": "server distributed execution. So we have"
+  "start": 885.3,
+  "end": 889.44,
+  "text": "on any particular machine, let me show you."
  },
  {
-  "start": 837.76,
-  "end": 840.59,
-  "text": "to go to Dex"
+  "start": 890.74,
+  "end": 895.66,
+  "text": "You can also set it up as a dedicated, right?"
  },
  {
-  "start": 844.03,
-  "end": 844.04,
-  "text": "server. Okay."
+  "start": 895.66,
+  "end": 899.58,
+  "text": "I cannot show you here because it's already installed,"
  },
  {
-  "start": 844.04,
-  "end": 848.99,
-  "text": "And actually not the deck"
+  "start": 899.58,
+  "end": 903.78,
+  "text": "but whenever you start the installation, right,"
  },
  {
-  "start": 849.0,
-  "end": 851.91,
-  "text": "server. Just a minute. I think I went"
+  "start": 903.78,
+  "end": 905.5,
+  "text": "it will ask you an option"
  },
  {
-  "start": 851.92,
-  "end": 854.069,
-  "text": "the wrong way. So we need to go to Tuska"
+  "start": 905.5,
+  "end": 908.22,
+  "text": "whether you want to install the full Tosca Commander"
  },
  {
-  "start": 854.079,
-  "end": 858.03,
-  "text": "test suit and here distributed"
+  "start": 908.22,
+  "end": 913.22,
+  "text": "or you want to install a Tosca DeX agent, okay?"
  },
  {
-  "start": 858.04,
-  "end": 861.949,
-  "text": "execution and here you will find the DEX"
+  "start": 913.62,
+  "end": 917.18,
+  "text": "So you can either, both ways are correct,"
  },
  {
-  "start": 861.959,
-  "end": 864.75,
-  "text": "agent.exe which we need to run."
+  "start": 917.18,
+  "end": 921.98,
+  "text": "but ideally you should just install the agent part,"
  },
  {
-  "start": 864.76,
-  "end": 867.43,
-  "text": "Okay. So this is the Tska distribution"
+  "start": 921.98,
+  "end": 924.38,
+  "text": "not the complete Tosca Commander"
  },
  {
-  "start": 867.44,
-  "end": 870.23,
-  "text": "agent. So whenever you install Tuska"
+  "start": 924.38,
+  "end": 926.38,
+  "text": "as it is more memory efficient"
  },
  {
-  "start": 870.24,
-  "end": 872.79,
-  "text": "commander this folder will be created"
+  "start": 926.38,
+  "end": 929.1,
+  "text": "and also it will take less space for you, okay?"
  },
  {
-  "start": 872.8,
-  "end": 875.43,
-  "text": "and you can run this text agent on any"
+  "start": 929.78,
+  "end": 932.98,
+  "text": "So if you just want to use it as a distribution agent,"
  },
  {
-  "start": 875.44,
-  "end": 876.91,
-  "text": "machine where Tska commander is"
+  "start": 932.98,
+  "end": 936.5,
+  "text": "then just install the agent on that particular machine"
  },
  {
-  "start": 876.92,
-  "end": 879.509,
-  "text": "installed. There's also a separate uh"
+  "start": 936.5,
+  "end": 939.26,
+  "text": "or if you want to use both Commander and agent together,"
  },
  {
-  "start": 879.519,
-  "end": 882.79,
-  "text": "installation provided. Okay. So whenever"
+  "start": 939.26,
+  "end": 942.34,
+  "text": "then you can go ahead and install the Commander"
  },
  {
-  "start": 882.8,
-  "end": 885.75,
-  "text": "you install TSA commander right on any"
+  "start": 942.34,
+  "end": 945.26,
+  "text": "and this agent will be available, okay?"
  },
  {
-  "start": 885.76,
-  "end": 888.15,
-  "text": "particular machine"
+  "start": 945.26,
+  "end": 949.1,
+  "text": "So this is the part that you need to go"
  },
  {
-  "start": 888.16,
-  "end": 889.79,
-  "text": "uh let me show"
+  "start": 949.1,
+  "end": 952.06,
+  "text": "and then double click on this, okay?"
  },
  {
-  "start": 889.8,
-  "end": 893.949,
-  "text": "you. You can you can also set it up as a"
+  "start": 953.34,
+  "end": 959.87,
+  "text": "If we, ideally we should run it as an administrator, okay?"
  },
  {
-  "start": 893.959,
-  "end": 897.35,
-  "text": "dedicated right. I cannot show you here"
+  "start": 960.11,
+  "end": 962.11,
+  "text": "And once it's done, right,"
  },
  {
-  "start": 897.36,
-  "end": 901.03,
-  "text": "because it's already installed. But uh"
+  "start": 962.11,
+  "end": 966.03,
+  "text": "so you will see a monitor"
  },
  {
-  "start": 901.04,
-  "end": 902.949,
-  "text": "whenever you start the installation"
+  "start": 966.03,
+  "end": 970.39,
+  "text": "which is displayed on your bottom task bar, right?"
  },
  {
-  "start": 902.959,
-  "end": 905.35,
-  "text": "right uh it will ask you an option"
+  "start": 970.39,
+  "end": 972.31,
+  "text": "You can see currently it is white,"
  },
  {
-  "start": 905.36,
-  "end": 907.509,
-  "text": "whether you want to install the full TSA"
+  "start": 972.31,
+  "end": 973.87,
+  "text": "which means it is not running."
  },
  {
-  "start": 907.519,
-  "end": 910.47,
-  "text": "commander or you want to install"
+  "start": 973.87,
+  "end": 977.39,
+  "text": "If it is green, that means it is configured correctly."
  },
  {
-  "start": 910.48,
-  "end": 914.99,
-  "text": "uh a TSA DEX agent. Okay. So you can"
+  "start": 977.39,
+  "end": 979.99,
+  "text": "If it is yellow, that means it is executing."
  },
  {
-  "start": 915.0,
-  "end": 918.47,
-  "text": "either both ways are correct but ideally"
+  "start": 979.99,
+  "end": 984.99,
+  "text": "If it is red, then it means that it is something"
  },
  {
-  "start": 918.48,
-  "end": 921.269,
-  "text": "you should just uh install the agent"
+  "start": 985.35,
+  "end": 988.27,
+  "text": "has not been set up correctly, okay?"
  },
  {
-  "start": 921.279,
-  "end": 924.55,
-  "text": "part not the complete TSCA commander as"
+  "start": 988.31,
+  "end": 989.87,
+  "text": "Now you can see it is green,"
  },
  {
-  "start": 924.56,
-  "end": 927.11,
-  "text": "it is more memory efficient and also it"
+  "start": 989.87,
+  "end": 992.59,
+  "text": "so it has set it up correctly,"
  },
  {
-  "start": 927.12,
-  "end": 930.31,
-  "text": "will take less space for you. Okay. So"
+  "start": 992.59,
+  "end": 996.59,
+  "text": "automatically set up this agent for us,"
  },
  {
-  "start": 930.32,
-  "end": 931.91,
-  "text": "if you just want to use it as a"
+  "start": 997.51,
+  "end": 1000.63,
+  "text": "but if it is not, then we need to configure the agent."
  },
  {
-  "start": 931.92,
-  "end": 934.389,
-  "text": "distribution agent then just install the"
+  "start": 1000.63,
+  "end": 1002.35,
+  "text": "So right click on this"
  },
  {
-  "start": 934.399,
-  "end": 936.79,
-  "text": "agent on that particular machine or if"
+  "start": 1002.35,
+  "end": 1004.07,
+  "text": "and you will get the option to configure"
  },
  {
-  "start": 936.8,
-  "end": 938.87,
-  "text": "you want to use both commander and agent"
+  "start": 1004.07,
+  "end": 1006.03,
+  "text": "or stop the agent, okay?"
  },
  {
-  "start": 938.88,
-  "end": 940.79,
-  "text": "together then you can go ahead and"
+  "start": 1007.03,
+  "end": 1010.31,
+  "text": "So let's go to this agent configuration."
  },
  {
-  "start": 940.8,
-  "end": 943.03,
-  "text": "install the commander and this agent"
+  "start": 1010.31,
+  "end": 1013.83,
+  "text": "You can see here, operating system memory,"
  },
  {
-  "start": 943.04,
-  "end": 945.99,
-  "text": "will be available. Okay. So this is the"
+  "start": 1013.83,
+  "end": 1017.07,
+  "text": "operating system type, IP address and host name."
  },
  {
-  "start": 946.0,
-  "end": 950.389,
-  "text": "path uh where you need to go and then uh"
+  "start": 1017.07,
+  "end": 1019.35,
+  "text": "It has picked up automatically,"
  },
  {
-  "start": 950.399,
-  "end": 954.55,
-  "text": "double click on this. Okay. Um if we"
+  "start": 1019.35,
+  "end": 1022.75,
+  "text": "but you can always change this, okay?"
  },
  {
-  "start": 954.56,
-  "end": 956.15,
-  "text": "ideally we should run it as an"
+  "start": 1022.75,
+  "end": 1025.63,
+  "text": "So we'll see where this setting lies"
  },
  {
-  "start": 956.16,
-  "end": 959.069,
-  "text": "administrator."
+  "start": 1025.63,
+  "end": 1027.95,
+  "text": "and how we can change this."
  },
  {
-  "start": 959.079,
-  "end": 962.55,
-  "text": "Okay. And once it's done, right? So you"
+  "start": 1030.47,
+  "end": 1033.63,
+  "text": "We don't need to set up the workspace here, okay?"
  },
  {
-  "start": 962.56,
-  "end": 964.03,
-  "text": "will see"
+  "start": 1033.63,
+  "end": 1037.99,
+  "text": "Because this is a AOS workspace,"
  },
  {
-  "start": 964.04,
-  "end": 968.069,
-  "text": "uh a monitor which is displayed on your"
+  "start": 1037.99,
+  "end": 1041.23,
+  "text": "so we don't need to set up any workspace for an agent."
  },
  {
-  "start": 968.079,
-  "end": 971.11,
-  "text": "bottom taskbar. Right. You can see that"
+  "start": 1042.83,
+  "end": 1046.31,
+  "text": "Now this is the most important part, connect to server."
  },
  {
-  "start": 971.12,
-  "end": 973.11,
-  "text": "currently it is white which means it is"
+  "start": 1046.35,
+  "end": 1050.27,
+  "text": "You can connect to your DEX server"
  },
  {
-  "start": 973.12,
-  "end": 975.35,
-  "text": "not running. If it is green that means"
+  "start": 1050.27,
+  "end": 1051.99,
+  "text": "where it is set it up, right?"
  },
  {
-  "start": 975.36,
-  "end": 977.91,
-  "text": "uh it is configured correctly. If it is"
+  "start": 1051.99,
+  "end": 1056.99,
+  "text": "So for me, it is localhost and this is the port 5007."
  },
  {
-  "start": 977.92,
-  "end": 980.389,
-  "text": "yellow that means it is executing. If it"
+  "start": 1057.27,
+  "end": 1062.27,
+  "text": "You can always go and verify this on your DEX server."
  },
  {
-  "start": 980.399,
-  "end": 984.71,
-  "text": "is red then it means that uh it is"
+  "start": 1063.55,
+  "end": 1066.19,
+  "text": "Okay, so go to settings"
  },
  {
-  "start": 984.72,
-  "end": 987.23,
-  "text": "something has not been set up correctly."
+  "start": 1066.19,
+  "end": 1069.51,
+  "text": "and go to automation object service."
  },
  {
-  "start": 987.24,
-  "end": 990.389,
-  "text": "Okay. Now you can see it is green. So it"
+  "start": 1069.51,
+  "end": 1074.27,
+  "text": "Here, you will find the distribution server address."
  },
  {
-  "start": 990.399,
-  "end": 994.55,
-  "text": "has set it up correctly automatically uh"
+  "start": 1074.27,
+  "end": 1078.31,
+  "text": "So you can see it is localhost 5007, right?"
  },
  {
-  "start": 994.56,
-  "end": 998.15,
-  "text": "set up this agent for us. But if it is"
+  "start": 1078.31,
+  "end": 1083.31,
+  "text": "So this is the server and the port which you should give"
  },
  {
-  "start": 998.16,
-  "end": 1000.15,
-  "text": "not then uh we need to configure the"
+  "start": 1084.35,
+  "end": 1087.99,
+  "text": "wherever you have set up your Tosca server or DEX server"
  },
  {
-  "start": 1000.16,
-  "end": 1002.55,
-  "text": "agent. So right click on this and you"
+  "start": 1087.99,
+  "end": 1089.87,
+  "text": "and this is the endpoint URL"
  },
  {
-  "start": 1002.56,
-  "end": 1004.629,
-  "text": "will get the option to configure or stop"
+  "start": 1089.87,
+  "end": 1092.91,
+  "text": "which this agent requires in order to connect, okay?"
  },
  {
-  "start": 1004.639,
-  "end": 1006.11,
-  "text": "the agent."
+  "start": 1094.19,
+  "end": 1096.27,
+  "text": "Then authentication,"
  },
  {
-  "start": 1006.12,
-  "end": 1009.189,
-  "text": "Okay. So let's go to this uh agent"
+  "start": 1096.27,
+  "end": 1100.03,
+  "text": "if it requires an authentication, you can do that."
  },
  {
-  "start": 1009.199,
-  "end": 1011.67,
-  "text": "configuration. You can see here"
+  "start": 1100.03,
+  "end": 1103.07,
+  "text": "So you can use RDP, okay?"
  },
  {
-  "start": 1011.68,
-  "end": 1014.23,
-  "text": "operating system memory, operating"
+  "start": 1103.07,
+  "end": 1105.43,
+  "text": "If this is running on a particular machine right now,"
  },
  {
-  "start": 1014.24,
-  "end": 1016.71,
-  "text": "system type, uh IP address and host"
+  "start": 1105.43,
+  "end": 1106.55,
+  "text": "it is running on my local,"
  },
  {
-  "start": 1016.72,
-  "end": 1018.43,
-  "text": "name. It is picked up"
+  "start": 1106.55,
+  "end": 1109.31,
+  "text": "so RDP service is not available,"
  },
  {
-  "start": 1018.44,
-  "end": 1020.949,
-  "text": "automatically. But you can always change"
+  "start": 1109.31,
+  "end": 1113.07,
+  "text": "but you can always use this RDP connection, okay?"
  },
  {
-  "start": 1020.959,
-  "end": 1024.309,
-  "text": "this. Okay. So we'll see uh where this"
+  "start": 1113.07,
+  "end": 1114.79,
+  "text": "So why this is required?"
  },
  {
-  "start": 1024.319,
-  "end": 1028.75,
-  "text": "setting lies and uh how we can change"
+  "start": 1114.79,
+  "end": 1118.19,
+  "text": "If you have set this up on a different machine or server,"
  },
  {
-  "start": 1028.76,
-  "end": 1031.829,
-  "text": "this. Uh we don't need to set up the"
+  "start": 1118.19,
+  "end": 1119.95,
+  "text": "so if you enable RDP,"
  },
  {
-  "start": 1031.839,
-  "end": 1036.39,
-  "text": "workspace here. Okay? Because uh this is"
+  "start": 1119.95,
+  "end": 1123.75,
+  "text": "then it can perform that all the mouse"
  },
  {
-  "start": 1036.4,
-  "end": 1039.51,
-  "text": "a a workspace. So we don't need to set"
+  "start": 1123.75,
+  "end": 1127.19,
+  "text": "and keyboard actions on that particular machine,"
  },
  {
-  "start": 1039.52,
-  "end": 1041.789,
-  "text": "up any workspace for an"
+  "start": 1127.19,
+  "end": 1129.35,
+  "text": "even if it is locked, right?"
  },
  {
-  "start": 1041.799,
-  "end": 1044.23,
-  "text": "agent. Now this is the most important"
+  "start": 1130.31,
+  "end": 1131.91,
+  "text": "Because if you don't use this"
  },
  {
-  "start": 1044.24,
-  "end": 1047.51,
-  "text": "part connect to server. Uh you can"
+  "start": 1131.91,
+  "end": 1133.55,
+  "text": "and if the system gets locked,"
  },
  {
-  "start": 1047.52,
-  "end": 1050.71,
-  "text": "connect to your text server where it is"
+  "start": 1133.55,
+  "end": 1136.51,
+  "text": "then your test will start failing, okay?"
  },
  {
-  "start": 1050.72,
-  "end": 1053.15,
-  "text": "set it up. Right? So for me it is local"
+  "start": 1136.51,
+  "end": 1139.83,
+  "text": "So you have to give, choose this RDP connection"
  },
  {
-  "start": 1053.16,
-  "end": 1056.19,
-  "text": "host. Uh and this is the port"
+  "start": 1139.83,
+  "end": 1142.71,
+  "text": "and then provide username password,"
  },
  {
-  "start": 1056.2,
-  "end": 1060.39,
-  "text": "5007. You can always go and verify this"
+  "start": 1142.71,
+  "end": 1144.35,
+  "text": "the desktop width, height,"
  },
  {
-  "start": 1060.4,
-  "end": 1062.51,
-  "text": "uh on your deck"
+  "start": 1144.35,
+  "end": 1148.07,
+  "text": "whatever is that for that particular machine, okay?"
  },
  {
-  "start": 1062.52,
-  "end": 1067.51,
-  "text": "server. Okay. So go to settings and uh"
+  "start": 1149.55,
+  "end": 1153.15,
+  "text": "And then logging, so this will be the log file."
  },
  {
-  "start": 1067.52,
-  "end": 1070.63,
-  "text": "go to automation object service. Here"
+  "start": 1153.15,
+  "end": 1156.59,
+  "text": "It is present in this same folder."
  },
  {
-  "start": 1070.64,
-  "end": 1073.27,
-  "text": "you will find the distribution server"
+  "start": 1156.59,
+  "end": 1157.43,
+  "text": "You can see here,"
  },
  {
-  "start": 1073.28,
-  "end": 1076.19,
-  "text": "address. So you can see it is localhost"
+  "start": 1157.43,
+  "end": 1160.79,
+  "text": "this is the log file Tosca distribution agent"
  },
  {
-  "start": 1076.2,
-  "end": 1080.909,
-  "text": "5007. Right? So this is uh"
- },
- {
-  "start": 1080.919,
-  "end": 1083.909,
-  "text": "the server and the port which you should"
- },
- {
-  "start": 1083.919,
-  "end": 1086.15,
-  "text": "give wherever you have set up your TSCA"
- },
- {
-  "start": 1086.16,
-  "end": 1088.789,
-  "text": "server or DAX server and this is the"
- },
- {
-  "start": 1088.799,
-  "end": 1091.51,
-  "text": "endpoint URL which this agent requires"
- },
- {
-  "start": 1091.52,
-  "end": 1094.15,
-  "text": "in order to connect. Okay."
- },
- {
-  "start": 1094.16,
-  "end": 1097.99,
-  "text": "Then um authentication if it requires an"
- },
- {
-  "start": 1098.0,
-  "end": 1100.47,
-  "text": "authentication you can do that. So you"
- },
- {
-  "start": 1100.48,
-  "end": 1104.07,
-  "text": "can um use RDP okay if this is running"
- },
- {
-  "start": 1104.08,
-  "end": 1105.669,
-  "text": "on a particular machine right now it is"
- },
- {
-  "start": 1105.679,
-  "end": 1107.909,
-  "text": "running on my local so RDP service is"
- },
- {
-  "start": 1107.919,
-  "end": 1110.789,
-  "text": "not available but you can always use"
- },
- {
-  "start": 1110.799,
-  "end": 1113.83,
-  "text": "this RDP connection okay so why this is"
- },
- {
-  "start": 1113.84,
-  "end": 1116.23,
-  "text": "required uh if you have set this up on a"
- },
- {
-  "start": 1116.24,
-  "end": 1119.11,
-  "text": "different machine or server. So if you"
- },
- {
-  "start": 1119.12,
-  "end": 1122.95,
-  "text": "enable RDP then it can perform that all"
- },
- {
-  "start": 1122.96,
-  "end": 1125.31,
-  "text": "the mouse and keyboard actions on that"
- },
- {
-  "start": 1125.32,
-  "end": 1128.95,
-  "text": "particular machine even if it is locked"
- },
- {
-  "start": 1128.96,
-  "end": 1131.75,
-  "text": "right uh because if you don't use this"
- },
- {
-  "start": 1131.76,
-  "end": 1134.15,
-  "text": "and if the system gets locked then your"
- },
- {
-  "start": 1134.16,
-  "end": 1136.87,
-  "text": "test will start failing okay so you have"
- },
- {
-  "start": 1136.88,
-  "end": 1139.75,
-  "text": "to give uh choose this RDP connection"
- },
- {
-  "start": 1139.76,
-  "end": 1142.789,
-  "text": "and then provide username password the"
- },
- {
-  "start": 1142.799,
-  "end": 1146.23,
-  "text": "desktop width height whatever uh is that"
- },
- {
-  "start": 1146.24,
-  "end": 1148.43,
-  "text": "for that particular machine"
- },
- {
-  "start": 1148.44,
-  "end": 1152.15,
-  "text": "Okay. And then logging. Uh so this will"
- },
- {
-  "start": 1152.16,
-  "end": 1154.95,
-  "text": "be the log file. It is present in this"
- },
- {
-  "start": 1154.96,
-  "end": 1157.75,
-  "text": "same folder. You can see here this is"
- },
- {
-  "start": 1157.76,
-  "end": 1160.789,
-  "text": "the log file. Doska distribution agent."
- },
- {
-  "start": 1160.799,
+  "start": 1160.79,
   "end": 1163.43,
-  "text": "And ideally it should be set to debug."
+  "text": "and ideally it should be set to debug"
  },
  {
-  "start": 1163.44,
-  "end": 1166.95,
-  "text": "So that if any problem comes you can uh"
+  "start": 1163.43,
+  "end": 1165.15,
+  "text": "so that if any problem comes,"
  },
  {
-  "start": 1166.96,
-  "end": 1169.27,
-  "text": "go ahead and debug that particular"
+  "start": 1165.15,
+  "end": 1169.67,
+  "text": "you can go ahead and debug that particular problem"
  },
  {
-  "start": 1169.28,
-  "end": 1171.59,
-  "text": "problem in your log file. Okay. So go"
+  "start": 1169.67,
+  "end": 1171.31,
+  "text": "in your log file, okay?"
  },
  {
-  "start": 1171.6,
-  "end": 1173.87,
-  "text": "ahead and click"
+  "start": 1171.31,
+  "end": 1172.99,
+  "text": "So go ahead and click this"
  },
  {
-  "start": 1173.88,
-  "end": 1176.95,
-  "text": "this. And as you can see green that"
+  "start": 1174.83,
+  "end": 1176.75,
+  "text": "and as you can see green,"
  },
  {
-  "start": 1176.96,
-  "end": 1179.75,
-  "text": "means our dex agent is set up correctly."
+  "start": 1176.75,
+  "end": 1179.83,
+  "text": "that means our Dex agent is set up correctly."
  },
  {
-  "start": 1179.76,
-  "end": 1182.549,
-  "text": "If you see it is red then that means"
+  "start": 1179.83,
+  "end": 1181.63,
+  "text": "If you see it is red,"
  },
  {
-  "start": 1182.559,
-  "end": 1184.789,
-  "text": "something is wrong and you should check"
+  "start": 1181.63,
+  "end": 1183.67,
+  "text": "then that means something is wrong"
  },
  {
-  "start": 1184.799,
-  "end": 1187.39,
-  "text": "uh or configure that particular agent."
+  "start": 1183.67,
+  "end": 1186.91,
+  "text": "and you should check or configure that particular agent,"
  },
  {
-  "start": 1187.4,
-  "end": 1191.51,
-  "text": "Okay. Now you will see uh if we go back"
+  "start": 1186.91,
+  "end": 1188.39,
+  "text": "okay?"
  },
  {
-  "start": 1191.52,
-  "end": 1193.71,
-  "text": "to our dex"
+  "start": 1188.39,
+  "end": 1193.39,
+  "text": "Now you will see if we go back to our Dex monitor, right?"
  },
  {
-  "start": 1193.72,
-  "end": 1196.669,
-  "text": "monitor right"
+  "start": 1196.03,
+  "end": 1201.03,
+  "text": "So on the agent, you can see on the agent view"
  },
  {
-  "start": 1196.679,
-  "end": 1200.47,
-  "text": "so on the agent you can see on the agent"
+  "start": 1201.03,
+  "end": 1203.87,
+  "text": "one agent has popped up now, okay?"
  },
  {
-  "start": 1200.48,
-  "end": 1203.83,
-  "text": "view one agent has popped up now. Okay."
+  "start": 1203.87,
+  "end": 1207.43,
+  "text": "So currently it is in the sleeping state or idle state."
  },
  {
-  "start": 1203.84,
-  "end": 1206.23,
-  "text": "So currently it is in the sleeping state"
+  "start": 1207.43,
+  "end": 1209.67,
+  "text": "So this is the idle state, okay?"
  },
  {
-  "start": 1206.24,
-  "end": 1208.39,
-  "text": "or idle state. So this is the idle"
+  "start": 1209.67,
+  "end": 1211.31,
+  "text": "So this means it is running."
  },
  {
-  "start": 1208.4,
-  "end": 1210.95,
-  "text": "state. Okay. So this means it is"
+  "start": 1211.31,
+  "end": 1214.19,
+  "text": "This means it is paused or this means,"
  },
  {
-  "start": 1210.96,
-  "end": 1213.27,
-  "text": "running. This means it is paused or this"
+  "start": 1214.19,
+  "end": 1215.75,
+  "text": "this means it is stopped."
  },
  {
-  "start": 1213.28,
-  "end": 1215.909,
-  "text": "means this means it is stopped. Uh this"
+  "start": 1215.75,
+  "end": 1217.83,
+  "text": "This means some error has happened, okay?"
  },
  {
-  "start": 1215.919,
-  "end": 1217.99,
-  "text": "means some error has happened. Okay. I"
+  "start": 1217.83,
+  "end": 1221.51,
+  "text": "I can restart my agent from here."
  },
  {
-  "start": 1218.0,
-  "end": 1222.31,
-  "text": "can restart my agent from here. I can do"
+  "start": 1221.51,
+  "end": 1224.39,
+  "text": "I can do the configuration right from here."
  },
  {
-  "start": 1222.32,
-  "end": 1224.31,
-  "text": "uh the configuration right from here."
+  "start": 1224.39,
+  "end": 1227.27,
+  "text": "You can see the machine configuration here,"
  },
  {
-  "start": 1224.32,
-  "end": 1226.19,
-  "text": "You can see the machine configuration"
+  "start": 1227.27,
+  "end": 1231.67,
+  "text": "the workspace, the RDP connection, the login, okay?"
  },
  {
-  "start": 1226.2,
-  "end": 1229.99,
-  "text": "here. The workspace um the RTP"
+  "start": 1231.67,
+  "end": 1234.35,
+  "text": "So these things we can configure here."
  },
  {
-  "start": 1230.0,
-  "end": 1232.23,
-  "text": "connection the login. Okay. So this"
+  "start": 1234.35,
+  "end": 1235.63,
+  "text": "For the endpoint URL,"
  },
  {
-  "start": 1232.24,
-  "end": 1234.789,
-  "text": "things we can configure here. For the"
+  "start": 1235.63,
+  "end": 1238.59,
+  "text": "you have to go to the agent and configure it there, okay?"
  },
  {
-  "start": 1234.799,
-  "end": 1236.39,
-  "text": "endpoint URL, you have to go to the"
+  "start": 1239.55,
+  "end": 1241.23,
+  "text": "So this is all you can do"
  },
  {
-  "start": 1236.4,
-  "end": 1239.83,
-  "text": "agent and configure it there. Okay. So"
+  "start": 1241.23,
+  "end": 1245.63,
+  "text": "from the agent view or the monitor, okay?"
  },
  {
-  "start": 1239.84,
-  "end": 1242.31,
-  "text": "this is all you can do from the agent"
+  "start": 1245.63,
+  "end": 1248.23,
+  "text": "So the Dex monitor, it will show all the agents"
  },
  {
-  "start": 1242.32,
-  "end": 1244.35,
-  "text": "view or the"
+  "start": 1248.23,
+  "end": 1250.27,
+  "text": "which are configured right here."
  },
  {
-  "start": 1244.36,
-  "end": 1247.19,
-  "text": "monitor. Okay. So the dex monitor it"
+  "start": 1250.27,
+  "end": 1252.43,
+  "text": "So if they are in running state,"
  },
  {
-  "start": 1247.2,
-  "end": 1248.71,
-  "text": "will show all the agents which you have"
+  "start": 1252.43,
+  "end": 1254.15,
+  "text": "then they will be displayed here."
  },
  {
-  "start": 1248.72,
-  "end": 1251.029,
-  "text": "configured right here. So if there are"
+  "start": 1254.15,
+  "end": 1258.27,
+  "text": "If they are not, then they won't be available here, okay?"
  },
  {
-  "start": 1251.039,
-  "end": 1252.789,
-  "text": "if they are in running state then they"
+  "start": 1259.23,
+  "end": 1262.63,
+  "text": "So what this means is now we have got one agent,"
  },
  {
-  "start": 1252.799,
-  "end": 1255.19,
-  "text": "will be displayed here. If they are not"
+  "start": 1262.63,
+  "end": 1264.07,
+  "text": "which is the Dex agent,"
  },
  {
-  "start": 1255.2,
-  "end": 1258.11,
-  "text": "then uh they won't be available here."
+  "start": 1264.07,
+  "end": 1267.35,
+  "text": "where we can trigger our test events, okay?"
  },
  {
-  "start": 1258.12,
-  "end": 1261.43,
-  "text": "Okay. So what this means is now we have"
+  "start": 1267.35,
+  "end": 1271.39,
+  "text": "And that will be done through distributed execution, right?"
  },
  {
-  "start": 1261.44,
-  "end": 1263.99,
-  "text": "got one agent which is the text agent"
+  "start": 1272.55,
+  "end": 1275.15,
+  "text": "So this part is now complete."
  },
  {
-  "start": 1264.0,
-  "end": 1266.39,
-  "text": "where we can trigger our test events."
+  "start": 1275.19,
+  "end": 1280.19,
+  "text": "So we have set up our Rosca Dex agent successfully,"
  },
  {
-  "start": 1266.4,
-  "end": 1268.71,
-  "text": "Okay. And that will be done through"
+  "start": 1280.19,
+  "end": 1282.99,
+  "text": "and it is available on the monitor, right?"
  },
  {
-  "start": 1268.72,
-  "end": 1271.63,
-  "text": "distributed execution."
+  "start": 1284.19,
+  "end": 1286.31,
+  "text": "Now we need to connect our commander"
  },
  {
-  "start": 1271.64,
-  "end": 1275.19,
-  "text": "Right. So uh this part is now complete."
+  "start": 1286.31,
+  "end": 1288.71,
+  "text": "to this particular agent, right?"
  },
  {
-  "start": 1275.2,
-  "end": 1277.39,
-  "text": "So we have set up our"
+  "start": 1288.71,
+  "end": 1290.47,
+  "text": "So that's the next step."
  },
  {
-  "start": 1277.4,
-  "end": 1280.87,
-  "text": "oursex agent successfully and it is"
+  "start": 1290.47,
+  "end": 1292.19,
+  "text": "So let's go back to our commander."
  },
  {
-  "start": 1280.88,
-  "end": 1284.549,
-  "text": "available on the monitor. Right now we"
+  "start": 1293.39,
+  "end": 1296.55,
+  "text": "And in commander, inside your project,"
  },
  {
-  "start": 1284.559,
-  "end": 1286.71,
-  "text": "need to connect our commander to this"
+  "start": 1296.55,
+  "end": 1299.19,
+  "text": "when you go inside your execution, right,"
  },
  {
-  "start": 1286.72,
-  "end": 1289.59,
-  "text": "particular agent. Right. So that's the"
+  "start": 1299.19,
+  "end": 1301.79,
+  "text": "you will see configurations."
  },
  {
-  "start": 1289.6,
-  "end": 1292.27,
-  "text": "next step. So let's go back to our"
+  "start": 1301.79,
+  "end": 1303.39,
+  "text": "So these are the configurations"
  },
  {
-  "start": 1292.28,
-  "end": 1295.75,
-  "text": "commander. And in commander uh inside"
+  "start": 1303.39,
+  "end": 1307.11,
+  "text": "which are created by default, okay?"
  },
  {
-  "start": 1295.76,
-  "end": 1297.71,
-  "text": "your project when you go inside your"
+  "start": 1308.07,
+  "end": 1310.99,
+  "text": "And in any, right?"
  },
  {
-  "start": 1297.72,
-  "end": 1300.75,
-  "text": "execution right you will see"
+  "start": 1312.19,
+  "end": 1315.51,
+  "text": "That means whichever agent is available,"
  },
  {
-  "start": 1300.76,
-  "end": 1302.549,
-  "text": "configurations. So these are the"
+  "start": 1315.51,
+  "end": 1317.87,
+  "text": "if you use this configuration,"
  },
  {
-  "start": 1302.559,
-  "end": 1305.75,
-  "text": "configurations which are created by"
+  "start": 1317.87,
+  "end": 1321.11,
+  "text": "that particular agent will be provided the task"
  },
  {
-  "start": 1305.76,
-  "end": 1311.31,
-  "text": "default. Okay. and uh in any"
- },
- {
-  "start": 1311.32,
-  "end": 1314.95,
-  "text": "right that means um whichever agent is"
- },
- {
-  "start": 1314.96,
-  "end": 1317.59,
-  "text": "available if you use this configuration"
- },
- {
-  "start": 1317.6,
-  "end": 1319.909,
-  "text": "uh that particular agent will be"
- },
- {
-  "start": 1319.919,
+  "start": 1321.11,
   "end": 1322.63,
-  "text": "provided the task from the server. Okay."
+  "text": "from the server, okay?"
  },
  {
-  "start": 1322.64,
-  "end": 1325.149,
-  "text": "So whenever we execute any test"
+  "start": 1322.63,
+  "end": 1325.19,
+  "text": "So whenever we execute any test event."
  },
  {
-  "start": 1325.159,
-  "end": 1329.11,
-  "text": "event similarly there is RDP where use"
+  "start": 1326.11,
+  "end": 1330.71,
+  "text": "Similarly, there is RDP where useRDP is true"
  },
  {
-  "start": 1329.12,
-  "end": 1332.87,
-  "text": "RDP is true and supports classic. So in"
+  "start": 1330.71,
+  "end": 1332.19,
+  "text": "and supports classic."
  },
  {
-  "start": 1332.88,
-  "end": 1335.35,
-  "text": "properties you can see it is true which"
+  "start": 1332.27,
+  "end": 1335.23,
+  "text": "So in properties, you can see it is true,"
  },
  {
-  "start": 1335.36,
-  "end": 1337.47,
-  "text": "means it supports the classic modules"
+  "start": 1335.23,
+  "end": 1338.39,
+  "text": "which means it supports the classic modules, right?"
  },
  {
-  "start": 1337.48,
-  "end": 1340.95,
-  "text": "right. So these configurations uh these"
+  "start": 1338.39,
+  "end": 1340.67,
+  "text": "So these configurations,"
  },
  {
-  "start": 1340.96,
-  "end": 1343.669,
-  "text": "three are available by default but we"
+  "start": 1340.67,
+  "end": 1343.11,
+  "text": "these three are available by default,"
  },
  {
-  "start": 1343.679,
-  "end": 1346.07,
-  "text": "can add as many as we want. Now what"
+  "start": 1343.11,
+  "end": 1345.75,
+  "text": "but we can add as many as we want."
  },
  {
-  "start": 1346.08,
-  "end": 1349.11,
-  "text": "this means is uh these are the different"
+  "start": 1345.75,
+  "end": 1348.71,
+  "text": "Now what this means is these are"
  },
  {
-  "start": 1349.12,
-  "end": 1351.43,
-  "text": "configurations which will match the dex"
+  "start": 1348.71,
+  "end": 1350.03,
+  "text": "the different configurations"
  },
  {
-  "start": 1351.44,
-  "end": 1354.71,
-  "text": "agents. Okay. So uh whatever"
+  "start": 1350.03,
+  "end": 1352.99,
+  "text": "which will match the Dex agents, okay?"
  },
  {
-  "start": 1354.72,
-  "end": 1356.87,
-  "text": "configurations you require for your test"
+  "start": 1352.99,
+  "end": 1356.11,
+  "text": "So whatever configurations you require"
  },
  {
-  "start": 1356.88,
-  "end": 1359.669,
-  "text": "to run something like you want to run on"
+  "start": 1356.11,
+  "end": 1357.91,
+  "text": "for your test to run,"
  },
  {
-  "start": 1359.679,
-  "end": 1362.87,
-  "text": "a Chrome browser on a Firefox browser or"
+  "start": 1357.91,
+  "end": 1360.63,
+  "text": "something like you want to run on a Chrome browser,"
  },
  {
-  "start": 1362.88,
-  "end": 1365.35,
-  "text": "on a Edge browser or you want some"
+  "start": 1360.63,
+  "end": 1364.15,
+  "text": "on a Firefox browser, or on an Edge browser,"
  },
  {
-  "start": 1365.36,
-  "end": 1368.39,
-  "text": "specific machine configuration like you"
+  "start": 1364.15,
+  "end": 1368.07,
+  "text": "or you want some specific machine configuration,"
  },
  {
-  "start": 1368.4,
-  "end": 1370.39,
-  "text": "want to run on a specific operating"
+  "start": 1368.07,
+  "end": 1371.15,
+  "text": "like you want to run on a specific operating system,"
  },
  {
-  "start": 1370.4,
-  "end": 1372.31,
-  "text": "system like uh you want to run on"
+  "start": 1371.15,
+  "end": 1374.11,
+  "text": "like you want to run on Windows 10, 11,"
  },
  {
-  "start": 1372.32,
-  "end": 1376.87,
-  "text": "Windows 10, 11 or Windows 8, right? Or"
+  "start": 1374.11,
+  "end": 1376.67,
+  "text": "or Windows 8, right?"
  },
  {
-  "start": 1376.88,
-  "end": 1381.43,
-  "text": "or some specific uh RAM size, right? It"
+  "start": 1376.67,
+  "end": 1381.27,
+  "text": "Or some specific RAM size, right?"
  },
  {
-  "start": 1381.44,
+  "start": 1381.27,
   "end": 1383.11,
-  "text": "depends on what kind of configuration"
+  "text": "It depends on what kind of configuration,"
  },
  {
-  "start": 1383.12,
-  "end": 1385.35,
-  "text": "machine configuration you require and"
+  "start": 1383.11,
+  "end": 1385.27,
+  "text": "machine configuration you require."
  },
  {
-  "start": 1385.36,
-  "end": 1388.149,
-  "text": "that machine configuration or any other"
+  "start": 1385.27,
+  "end": 1388.87,
+  "text": "And that machine configuration or any other configuration"
  },
  {
-  "start": 1388.159,
-  "end": 1391.11,
-  "text": "configuration can be set up here. Okay."
+  "start": 1388.87,
+  "end": 1391.19,
+  "text": "can be set up here, okay?"
  },
  {
-  "start": 1391.12,
-  "end": 1393.83,
-  "text": "So we'll see that later. But first let's"
+  "start": 1391.19,
+  "end": 1392.67,
+  "text": "So we'll see that later,"
  },
  {
-  "start": 1393.84,
-  "end": 1397.51,
-  "text": "go ahead and um execute some test events"
+  "start": 1392.67,
+  "end": 1394.63,
+  "text": "but first let's go ahead"
  },
  {
-  "start": 1397.52,
-  "end": 1401.51,
-  "text": "now. Right. But before that um what you"
+  "start": 1394.63,
+  "end": 1398.43,
+  "text": "and execute some test events now, right?"
  },
  {
-  "start": 1401.52,
-  "end": 1403.71,
-  "text": "can also do is right click on this"
+  "start": 1399.47,
+  "end": 1401.19,
+  "text": "But before that,"
  },
  {
-  "start": 1403.72,
-  "end": 1407.11,
-  "text": "configurations and refresh the agents."
+  "start": 1401.19,
+  "end": 1403.07,
+  "text": "what you can also do is right click"
  },
  {
-  "start": 1407.12,
-  "end": 1410.47,
-  "text": "Okay. So what it will do it will refresh"
+  "start": 1403.07,
+  "end": 1407.79,
+  "text": "on these configurations and refresh the agents, okay?"
  },
  {
-  "start": 1410.48,
-  "end": 1413.11,
-  "text": "the agents but first we need to"
+  "start": 1407.79,
+  "end": 1411.75,
+  "text": "So what it will do, it will refresh the agents,"
  },
  {
-  "start": 1413.12,
-  "end": 1415.669,
-  "text": "configure this or we need to connect our"
+  "start": 1411.75,
+  "end": 1414.47,
+  "text": "but first we need to configure this,"
  },
  {
-  "start": 1415.679,
+  "start": 1414.47,
+  "end": 1416.83,
+  "text": "or we need to connect our Tosca Commander"
+ },
+ {
+  "start": 1416.83,
   "end": 1418.95,
-  "text": "Tuska commander to the Dex server right"
+  "text": "to the Dex server, right?"
  },
  {
-  "start": 1418.96,
-  "end": 1421.47,
-  "text": "so let's go ahead and do"
+  "start": 1418.95,
+  "end": 1421.11,
+  "text": "So let's go ahead and do that."
  },
  {
-  "start": 1421.48,
-  "end": 1425.47,
-  "text": "that so go into uh settings for your"
+  "start": 1422.63,
+  "end": 1425.63,
+  "text": "So go into settings for your project,"
  },
  {
-  "start": 1425.48,
-  "end": 1427.99,
-  "text": "project and here we need to set some"
+  "start": 1426.59,
+  "end": 1429.23,
+  "text": "and here we need to set some values, okay?"
  },
  {
-  "start": 1428.0,
-  "end": 1429.31,
-  "text": "values"
- },
- {
-  "start": 1429.32,
+  "start": 1430.23,
   "end": 1433.51,
-  "text": "okay so in settings under commander and"
+  "text": "So in settings, under Commander,"
  },
  {
-  "start": 1433.52,
-  "end": 1436.07,
-  "text": "the distributed execution we need to set"
+  "start": 1433.51,
+  "end": 1435.19,
+  "text": "under Distributed Execution,"
  },
  {
-  "start": 1436.08,
+  "start": 1435.19,
   "end": 1438.99,
-  "text": "the monitor URL URL."
+  "text": "we need to set the monitor URL, okay?"
  },
  {
-  "start": 1439.0,
-  "end": 1442.71,
-  "text": "Okay. And we have already seen this. So"
+  "start": 1440.11,
+  "end": 1441.91,
+  "text": "And we have already seen this."
  },
  {
-  "start": 1442.72,
-  "end": 1445.51,
-  "text": "I if you don't know this monitor URL,"
+  "start": 1441.91,
+  "end": 1445.59,
+  "text": "So if you don't know this monitor URL,"
  },
  {
-  "start": 1445.52,
-  "end": 1448.71,
-  "text": "you can go back here. And this is the"
+  "start": 1445.59,
+  "end": 1450.03,
+  "text": "you can go back here and this is the monitor URL,"
  },
  {
-  "start": 1448.72,
-  "end": 1454.029,
-  "text": "monitor URL. Localhost 80080 / monitor."
+  "start": 1450.03,
+  "end": 1453.79,
+  "text": "localhost 8080 slash monitor, okay?"
  },
  {
-  "start": 1454.039,
-  "end": 1457.71,
-  "text": "Okay. So copy and paste it"
+  "start": 1454.99,
+  "end": 1457.19,
+  "text": "So copy and paste it here,"
  },
  {
-  "start": 1457.72,
-  "end": 1462.07,
-  "text": "here. And then the server. So here we"
+  "start": 1458.67,
+  "end": 1460.87,
+  "text": "and then the server."
  },
  {
-  "start": 1462.08,
-  "end": 1465.029,
-  "text": "need to also give the port. If it is not"
+  "start": 1460.87,
+  "end": 1464.11,
+  "text": "So here we need to also give the port"
  },
  {
-  "start": 1465.039,
-  "end": 1467.75,
-  "text": "the default port, rest of the endpoint"
+  "start": 1464.11,
+  "end": 1466.83,
+  "text": "if it is not the default port."
  },
  {
-  "start": 1467.76,
-  "end": 1469.99,
-  "text": "URL will remain same. Distribution"
+  "start": 1466.83,
+  "end": 1469.43,
+  "text": "Rest of the endpoint URL will remain same,"
  },
  {
-  "start": 1470.0,
-  "end": 1472.19,
-  "text": "server service manager"
+  "start": 1469.43,
+  "end": 1473.27,
+  "text": "distribution server service, manager service.svc."
  },
  {
-  "start": 1472.2,
-  "end": 1474.71,
-  "text": "service. We just need to change the"
+  "start": 1473.27,
+  "end": 1476.27,
+  "text": "We just need to change the server IP address"
  },
  {
-  "start": 1474.72,
-  "end": 1477.11,
-  "text": "server IP address if it is not local"
+  "start": 1476.27,
+  "end": 1479.47,
+  "text": "if it is not localhost and the port, okay?"
  },
  {
-  "start": 1477.12,
-  "end": 1480.31,
-  "text": "host and the port. Okay. So for me it is"
+  "start": 1479.47,
+  "end": 1482.71,
+  "text": "So for me, it is localhost 8080."
  },
  {
-  "start": 1480.32,
-  "end": 1483.51,
-  "text": "localhost 8080. Uh if you have set it up"
+  "start": 1482.71,
+  "end": 1484.87,
+  "text": "If you have set it up on a different server,"
  },
  {
-  "start": 1483.52,
-  "end": 1486.71,
-  "text": "on a different server um the port may be"
+  "start": 1485.91,
+  "end": 1488.83,
+  "text": "the port may be different, it may be 80,"
  },
  {
-  "start": 1486.72,
-  "end": 1489.669,
-  "text": "different. It may be 80 and it could be"
+  "start": 1488.83,
+  "end": 1490.27,
+  "text": "and it could be localhost,"
  },
  {
-  "start": 1489.679,
-  "end": 1491.43,
-  "text": "local host or you can give the IP"
- },
- {
-  "start": 1491.44,
+  "start": 1490.27,
   "end": 1493.23,
-  "text": "address directly here."
+  "text": "or you can give the IP address directly here, okay?"
  },
  {
-  "start": 1493.24,
-  "end": 1495.83,
-  "text": "Okay. So these two settings you need to"
+  "start": 1494.23,
+  "end": 1496.39,
+  "text": "So these two settings you need to change,"
  },
  {
-  "start": 1495.84,
-  "end": 1498.83,
-  "text": "change and then the last one is Tendis"
+  "start": 1496.39,
+  "end": 1499.87,
+  "text": "and then the last one is tracendis services."
  },
  {
-  "start": 1498.84,
-  "end": 1501.83,
-  "text": "services. So here we need to provide the"
+  "start": 1499.91,
+  "end": 1503.87,
+  "text": "So here we need to provide the server endpoint address, okay?"
  },
  {
-  "start": 1501.84,
-  "end": 1503.99,
-  "text": "server endpoint address. Okay. So"
+  "start": 1503.87,
+  "end": 1505.79,
+  "text": "So wherever we have set up the server,"
  },
  {
-  "start": 1504.0,
-  "end": 1505.909,
-  "text": "wherever we have set up the server we"
+  "start": 1505.79,
+  "end": 1507.87,
+  "text": "we need to provide the endpoint address,"
  },
  {
-  "start": 1505.919,
-  "end": 1507.75,
-  "text": "need to provide the endpoint address"
+  "start": 1507.87,
+  "end": 1511.67,
+  "text": "which is nothing but the localhost or the IP address."
  },
  {
-  "start": 1507.76,
-  "end": 1509.99,
-  "text": "which is nothing but the local host or"
+  "start": 1511.67,
+  "end": 1515.19,
+  "text": "And with it, we also need to give the port, okay?"
  },
  {
-  "start": 1510.0,
-  "end": 1513.43,
-  "text": "the IP address and with it uh we also"
+  "start": 1516.15,
+  "end": 1521.15,
+  "text": "So localhost and then the port, which is 8080."
  },
  {
-  "start": 1513.44,
-  "end": 1516.83,
-  "text": "need to give the port. Okay. So local"
+  "start": 1522.87,
+  "end": 1527.47,
+  "text": "So we need to set up the distributed execution,"
  },
  {
-  "start": 1516.84,
-  "end": 1521.95,
-  "text": "host and then the port which is"
+  "start": 1527.47,
+  "end": 1531.47,
+  "text": "monitor URL server, and the tracendis services."
  },
  {
-  "start": 1521.96,
-  "end": 1525.63,
-  "text": "8080. So we need to set up the"
+  "start": 1531.47,
+  "end": 1534.31,
+  "text": "So these three settings you need to change here"
  },
  {
-  "start": 1525.64,
-  "end": 1529.19,
-  "text": "distributed execution monitor URL server"
+  "start": 1534.31,
+  "end": 1535.47,
+  "text": "on your commander site."
  },
  {
-  "start": 1529.2,
-  "end": 1531.909,
-  "text": "and the tri synthesis services. So these"
- },
- {
-  "start": 1531.919,
-  "end": 1534.149,
-  "text": "three settings you need to change here"
- },
- {
-  "start": 1534.159,
-  "end": 1537.11,
-  "text": "on your commander side. So uh wherever"
- },
- {
-  "start": 1537.12,
+  "start": 1535.47,
   "end": 1538.95,
-  "text": "you are going to trigger any test event"
+  "text": "So wherever you are going to trigger any test event,"
  },
  {
-  "start": 1538.96,
-  "end": 1541.789,
-  "text": "you need to change these settings."
+  "start": 1538.95,
+  "end": 1541.11,
+  "text": "you need to change the settings, okay?"
  },
  {
-  "start": 1541.799,
-  "end": 1545.43,
-  "text": "Okay. And uh go ahead and close this. it"
+  "start": 1542.71,
+  "end": 1545.31,
+  "text": "And go ahead and close this,"
  },
  {
-  "start": 1545.44,
-  "end": 1548.23,
-  "text": "will save the settings and let's try and"
+  "start": 1545.31,
+  "end": 1546.87,
+  "text": "it will save the settings,"
  },
  {
-  "start": 1548.24,
-  "end": 1550.75,
-  "text": "refresh the agents"
+  "start": 1546.87,
+  "end": 1552.68,
+  "text": "and let's try and refresh the agents now, okay?"
  },
  {
-  "start": 1550.76,
-  "end": 1555.35,
-  "text": "now. Okay, once I refresh the agents um"
+  "start": 1552.68,
+  "end": 1554.56,
+  "text": "Once I refresh the agents,"
  },
  {
-  "start": 1555.36,
-  "end": 1557.83,
-  "text": "and you can also do uh update"
+  "start": 1555.52,
+  "end": 1559.24,
+  "text": "and you can also do update configurations from server"
  },
  {
-  "start": 1557.84,
-  "end": 1559.669,
-  "text": "configurations from server if you have"
+  "start": 1559.24,
+  "end": 1562.04,
+  "text": "if you have changed anything on the server side."
  },
  {
-  "start": 1559.679,
-  "end": 1561.99,
-  "text": "changed anything on the server side. Uh"
+  "start": 1562.04,
+  "end": 1564.79,
+  "text": "We'll see that."
  },
  {
-  "start": 1562.0,
-  "end": 1563.87,
-  "text": "we'll see"
+  "start": 1564.79,
+  "end": 1567.75,
+  "text": "Okay, so it is saying,"
  },
  {
-  "start": 1563.88,
-  "end": 1567.83,
-  "text": "that. Okay. So it is saying"
+  "start": 1567.75,
+  "end": 1570.07,
+  "text": "error occur during creation of proper definition,"
  },
  {
-  "start": 1567.84,
-  "end": 1569.51,
-  "text": "error occur during creation of proper"
+  "start": 1570.07,
+  "end": 1572.11,
+  "text": "check out the project route, okay."
  },
  {
-  "start": 1569.52,
-  "end": 1571.43,
-  "text": "definition. Check out the project root."
+  "start": 1572.11,
+  "end": 1574.03,
+  "text": "Yeah, we need to check out the project route"
  },
  {
-  "start": 1571.44,
-  "end": 1573.269,
-  "text": "Okay. Yeah, we need to check out the"
+  "start": 1574.03,
+  "end": 1575.95,
+  "text": "before we update the configurations,"
  },
  {
-  "start": 1573.279,
-  "end": 1575.19,
-  "text": "project root before we update the"
+  "start": 1575.95,
+  "end": 1577.99,
+  "text": "but for now it's not required."
  },
  {
-  "start": 1575.2,
-  "end": 1576.87,
-  "text": "configurations. But for now, it's not"
+  "start": 1577.99,
+  "end": 1579.63,
+  "text": "I will show it when we change something"
  },
  {
-  "start": 1576.88,
-  "end": 1579.269,
-  "text": "required. I will show it when we change"
+  "start": 1579.63,
+  "end": 1580.99,
+  "text": "on the configuration side."
  },
  {
-  "start": 1579.279,
-  "end": 1582.149,
-  "text": "something on the configuration side. But"
+  "start": 1581.87,
+  "end": 1585.59,
+  "text": "But as you can see, now this desktop vision, right?"
  },
  {
-  "start": 1582.159,
-  "end": 1585.269,
-  "text": "as you can see now this desktop vision,"
+  "start": 1585.63,
+  "end": 1590.15,
+  "text": "So which is my dex agent host name,"
  },
  {
-  "start": 1585.279,
-  "end": 1589.19,
-  "text": "right? So which is my uh dex agent host"
+  "start": 1590.15,
+  "end": 1593.75,
+  "text": "it is now available under any, okay?"
  },
  {
-  "start": 1589.2,
-  "end": 1593.19,
-  "text": "name, it is now available under any."
+  "start": 1593.75,
+  "end": 1595.71,
+  "text": "So when you refresh the agents,"
  },
  {
-  "start": 1593.2,
-  "end": 1595.669,
-  "text": "Okay. So when you refresh the agents,"
+  "start": 1595.71,
+  "end": 1598.51,
+  "text": "all the agents depending on the configuration,"
  },
  {
-  "start": 1595.679,
-  "end": 1597.75,
-  "text": "all the agents depending on the"
+  "start": 1598.51,
+  "end": 1599.95,
+  "text": "how it matches,"
  },
  {
-  "start": 1597.76,
-  "end": 1600.549,
-  "text": "configuration how it matches. So all the"
+  "start": 1599.95,
+  "end": 1602.27,
+  "text": "so all the agents will be available under any"
  },
  {
-  "start": 1600.559,
-  "end": 1602.31,
-  "text": "agents will be available under any"
+  "start": 1602.27,
+  "end": 1605.23,
+  "text": "because it covers all the agents, okay?"
  },
  {
-  "start": 1602.32,
-  "end": 1605.269,
-  "text": "because it covers all the agents. Okay."
+  "start": 1605.23,
+  "end": 1609.31,
+  "text": "But any specific agent configuration which you have used,"
  },
  {
-  "start": 1605.279,
-  "end": 1608.39,
-  "text": "But any specific uh agent configuration"
+  "start": 1610.39,
+  "end": 1611.99,
+  "text": "if it matches this configuration,"
  },
  {
-  "start": 1608.4,
-  "end": 1611.11,
-  "text": "which you have used uh if it matches"
+  "start": 1611.99,
+  "end": 1615.15,
+  "text": "so if useRDP is true for my agent,"
  },
  {
-  "start": 1611.12,
-  "end": 1613.669,
-  "text": "this configuration. So if use RDP is"
+  "start": 1615.15,
+  "end": 1616.71,
+  "text": "then it will appear here, right?"
  },
  {
-  "start": 1613.679,
-  "end": 1615.909,
-  "text": "true for my agent then it will appear"
+  "start": 1616.71,
+  "end": 1619.87,
+  "text": "Similarly, if it supports classic, it will appear here."
  },
  {
-  "start": 1615.919,
-  "end": 1617.99,
-  "text": "here. Right? Similarly if it supports"
+  "start": 1619.87,
+  "end": 1621.79,
+  "text": "So if I have a Chrome configuration,"
  },
  {
-  "start": 1618.0,
-  "end": 1620.39,
-  "text": "classic it will appear here. So if I"
+  "start": 1621.79,
+  "end": 1623.63,
+  "text": "if it matches that configuration"
  },
  {
-  "start": 1620.4,
-  "end": 1622.149,
-  "text": "have a chrome configuration if it"
+  "start": 1623.63,
+  "end": 1625.83,
+  "text": "for that particular dex agent,"
  },
  {
-  "start": 1622.159,
-  "end": 1624.149,
-  "text": "matches that configuration for that"
+  "start": 1625.83,
+  "end": 1628.19,
+  "text": "then it will appear here, okay?"
  },
  {
-  "start": 1624.159,
-  "end": 1627.19,
-  "text": "particular dex agent then it will appear"
+  "start": 1629.95,
+  "end": 1631.87,
+  "text": "So this is also important,"
  },
  {
-  "start": 1627.2,
-  "end": 1628.99,
-  "text": "here."
+  "start": 1631.87,
+  "end": 1633.95,
+  "text": "the number of agents which are running"
  },
  {
-  "start": 1629.0,
-  "end": 1632.07,
-  "text": "Okay. So, uh this is also important the"
+  "start": 1633.95,
+  "end": 1635.07,
+  "text": "on the configuration"
  },
  {
-  "start": 1632.08,
-  "end": 1634.149,
-  "text": "number of agents which are running on"
+  "start": 1635.07,
+  "end": 1637.55,
+  "text": "because we are going to use this configuration"
  },
  {
-  "start": 1634.159,
-  "end": 1635.83,
-  "text": "the configuration because we are going"
+  "start": 1637.55,
+  "end": 1640.19,
+  "text": "inside our test event, okay?"
  },
  {
-  "start": 1635.84,
-  "end": 1638.47,
-  "text": "to use this configuration inside our"
+  "start": 1641.19,
+  "end": 1645.11,
+  "text": "So you can see test events by default"
  },
  {
-  "start": 1638.48,
-  "end": 1640.909,
-  "text": "test event."
+  "start": 1645.11,
+  "end": 1648.31,
+  "text": "under any execution folder you have created, okay?"
  },
  {
-  "start": 1640.919,
-  "end": 1645.269,
-  "text": "Okay. So, um you can see test events by"
+  "start": 1648.31,
+  "end": 1650.87,
+  "text": "So, and again, as I said,"
  },
  {
-  "start": 1645.279,
-  "end": 1647.59,
-  "text": "default under any execution folder you"
+  "start": 1650.87,
+  "end": 1653.67,
+  "text": "it is not available in single user workspace,"
  },
  {
-  "start": 1647.6,
-  "end": 1651.269,
-  "text": "have created. Okay. So, and again as I"
+  "start": 1653.67,
+  "end": 1656.07,
+  "text": "so we might not have seen it earlier,"
  },
  {
-  "start": 1651.279,
-  "end": 1653.51,
-  "text": "said it is not available in single user"
+  "start": 1656.07,
+  "end": 1658.07,
+  "text": "but when we created a multi-user workspace,"
  },
  {
-  "start": 1653.52,
-  "end": 1655.83,
-  "text": "workspace. So we might not have seen it"
+  "start": 1658.07,
+  "end": 1660.23,
+  "text": "this test event was created"
  },
  {
-  "start": 1655.84,
-  "end": 1658.23,
-  "text": "earlier but when we created a multi-user"
+  "start": 1660.23,
+  "end": 1664.55,
+  "text": "and this is used for distributed execution only, okay?"
  },
  {
-  "start": 1658.24,
-  "end": 1660.71,
-  "text": "workspace this test event was created"
+  "start": 1664.55,
+  "end": 1668.95,
+  "text": "So this test events will be available here"
  },
  {
-  "start": 1660.72,
-  "end": 1662.87,
-  "text": "and this is used for distributed"
+  "start": 1669.51,
+  "end": 1673.67,
+  "text": "and we can create different test events here, okay?"
  },
  {
-  "start": 1662.88,
-  "end": 1667.269,
-  "text": "execution only. Okay. So this test"
+  "start": 1673.67,
+  "end": 1675.07,
+  "text": "What it requires?"
  },
  {
-  "start": 1667.279,
-  "end": 1670.63,
-  "text": "events will be available here and uh we"
+  "start": 1675.07,
+  "end": 1677.39,
+  "text": "It requires a configuration"
  },
  {
-  "start": 1670.64,
-  "end": 1672.789,
-  "text": "can create different test events here."
+  "start": 1677.39,
+  "end": 1679.79,
+  "text": "and it requires an execution list"
  },
  {
-  "start": 1672.799,
-  "end": 1676.43,
-  "text": "Okay. What it requires? It requires a"
+  "start": 1679.79,
+  "end": 1681.95,
+  "text": "which it can execute, okay?"
  },
  {
-  "start": 1676.44,
-  "end": 1678.71,
-  "text": "configuration and it requires an"
+  "start": 1681.95,
+  "end": 1685.39,
+  "text": "So first, let's go ahead and check out this"
  },
  {
-  "start": 1678.72,
-  "end": 1681.11,
-  "text": "execution list which it can execute."
+  "start": 1686.95,
+  "end": 1689.83,
+  "text": "and then I'm going to create a test event."
  },
  {
-  "start": 1681.12,
-  "end": 1684.47,
-  "text": "Okay. So first uh let's go ahead and"
+  "start": 1689.83,
+  "end": 1692.87,
+  "text": "So this is the test event, okay?"
  },
  {
-  "start": 1684.48,
-  "end": 1685.95,
-  "text": "check out"
+  "start": 1692.87,
+  "end": 1694.63,
+  "text": "And let's name it."
  },
  {
-  "start": 1685.96,
-  "end": 1689.269,
-  "text": "this and then I'm going to create a test"
+  "start": 1696.59,
+  "end": 1698.11,
+  "text": "We can give it any name,"
  },
  {
-  "start": 1689.279,
-  "end": 1692.95,
-  "text": "event. So this is the test event. Okay."
+  "start": 1698.11,
+  "end": 1703.28,
+  "text": "but let's give it dex event, okay?"
  },
  {
-  "start": 1692.96,
-  "end": 1696.389,
-  "text": "And let's name it"
+  "start": 1704.76,
+  "end": 1708.6,
+  "text": "And we need to now drag the configuration."
  },
  {
-  "start": 1696.399,
-  "end": 1698.87,
-  "text": "uh we can give it any name but let's"
+  "start": 1708.6,
+  "end": 1711.8,
+  "text": "So what configuration you want to use for this event?"
  },
  {
-  "start": 1698.88,
-  "end": 1701.87,
-  "text": "give it dex"
+  "start": 1711.8,
+  "end": 1715.32,
+  "text": "I can use any or I can use any specific configuration,"
  },
  {
-  "start": 1701.88,
-  "end": 1703.87,
-  "text": "event."
+  "start": 1715.32,
+  "end": 1718.2,
+  "text": "but let's use any for now, okay?"
  },
  {
-  "start": 1703.88,
-  "end": 1707.83,
-  "text": "Okay. And um we need to now drag the"
+  "start": 1718.2,
+  "end": 1719.56,
+  "text": "Because it has got one agent,"
  },
  {
-  "start": 1707.84,
-  "end": 1709.83,
-  "text": "configuration. So what configuration you"
+  "start": 1719.56,
+  "end": 1721.96,
+  "text": "you can see here number of agents is one,"
  },
  {
-  "start": 1709.84,
-  "end": 1712.47,
-  "text": "want to use for this event? I can use"
+  "start": 1721.96,
+  "end": 1725.32,
+  "text": "so this event will be used in this agent."
  },
  {
-  "start": 1712.48,
-  "end": 1714.549,
-  "text": "any or I can use any specific"
+  "start": 1725.32,
+  "end": 1727.68,
+  "text": "If there are 10 agents,"
  },
  {
-  "start": 1714.559,
-  "end": 1716.909,
-  "text": "configuration. But let's use any for"
+  "start": 1727.68,
+  "end": 1730.12,
+  "text": "the server will decide which agent is free"
  },
  {
-  "start": 1716.919,
-  "end": 1719.59,
-  "text": "now. Okay, because it has got one agent."
+  "start": 1730.12,
+  "end": 1734.32,
+  "text": "and it will distribute it on that particular agent."
  },
  {
-  "start": 1719.6,
-  "end": 1721.59,
-  "text": "You can see here number of agents is"
+  "start": 1734.32,
+  "end": 1737.44,
+  "text": "If you want to run it on a specific agent,"
  },
  {
-  "start": 1721.6,
-  "end": 1724.95,
-  "text": "one. So this event will be used in this"
+  "start": 1737.44,
+  "end": 1739.32,
+  "text": "then create a configuration for that"
  },
  {
-  "start": 1724.96,
-  "end": 1727.83,
-  "text": "agent. If there are 10 agents, the"
+  "start": 1739.32,
+  "end": 1741.84,
+  "text": "and then drag it for your test event"
  },
  {
-  "start": 1727.84,
-  "end": 1730.07,
-  "text": "server will decide which agent is free"
+  "start": 1741.84,
+  "end": 1744.04,
+  "text": "and it will be only executed"
  },
  {
-  "start": 1730.08,
-  "end": 1733.19,
-  "text": "and it will distribute it uh on that"
+  "start": 1744.04,
+  "end": 1746.36,
+  "text": "on that particular configuration, okay?"
  },
  {
-  "start": 1733.2,
-  "end": 1735.59,
-  "text": "particular agent. If you want to run it"
+  "start": 1747.48,
+  "end": 1748.72,
+  "text": "Now, this configuration,"
  },
  {
-  "start": 1735.6,
-  "end": 1738.149,
-  "text": "on a specific agent then create a"
+  "start": 1748.72,
+  "end": 1751.16,
+  "text": "it also requires an execution list."
  },
  {
-  "start": 1738.159,
-  "end": 1740.63,
-  "text": "configuration for that and then drag it"
+  "start": 1751.16,
+  "end": 1755.32,
+  "text": "So I have created an execution list called dex test, okay?"
  },
  {
-  "start": 1740.64,
-  "end": 1742.47,
-  "text": "uh for your test event and it will be"
+  "start": 1756.16,
+  "end": 1760.28,
+  "text": "It contains this test,"
  },
  {
-  "start": 1742.48,
-  "end": 1744.99,
-  "text": "only executed on that particular"
+  "start": 1760.28,
+  "end": 1762.4,
+  "text": "test which is very simple, test case."
  },
  {
-  "start": 1745.0,
-  "end": 1746.51,
-  "text": "configuration."
+  "start": 1763.44,
+  "end": 1765.68,
+  "text": "It opens the Google URL, okay?"
  },
  {
-  "start": 1746.52,
-  "end": 1749.19,
-  "text": "Okay. Now this configuration it also"
+  "start": 1766.72,
+  "end": 1768.0,
+  "text": "Obviously, you can do much more,"
  },
  {
-  "start": 1749.2,
-  "end": 1751.909,
-  "text": "requires an execution list. So I have"
- },
- {
-  "start": 1751.919,
-  "end": 1754.23,
-  "text": "created a execution list called text"
- },
- {
-  "start": 1754.24,
-  "end": 1755.63,
-  "text": "test."
- },
- {
-  "start": 1755.64,
-  "end": 1760.23,
-  "text": "Okay. Um it contains this uh test uh"
- },
- {
-  "start": 1760.24,
-  "end": 1763.35,
-  "text": "test which is very simple test case. uh"
- },
- {
-  "start": 1763.36,
-  "end": 1766.63,
-  "text": "it opens the Google URL. Okay. Uh"
- },
- {
-  "start": 1766.64,
-  "end": 1768.95,
-  "text": "obviously you can do much more but this"
- },
- {
-  "start": 1768.96,
-  "end": 1771.59,
-  "text": "just for this demo purpose I have used."
+  "start": 1768.0,
+  "end": 1771.6,
+  "text": "but this test for this demo purpose I've used."
  },
  {
   "start": 1771.6,
-  "end": 1773.59,
+  "end": 1773.68,
   "text": "So I have dragged the test case to here."
  },
  {
-  "start": 1773.6,
-  "end": 1775.19,
-  "text": "I have created execution list. We"
+  "start": 1773.68,
+  "end": 1775.0,
+  "text": "I've created execution list."
  },
  {
-  "start": 1775.2,
-  "end": 1777.11,
-  "text": "already know how to do that. So I'm not"
+  "start": 1775.0,
+  "end": 1776.64,
+  "text": "We already know how to do that."
  },
  {
-  "start": 1777.12,
-  "end": 1782.19,
-  "text": "going to repeat it. But u we have to"
+  "start": 1776.64,
+  "end": 1778.72,
+  "text": "So I'm not going to repeat it,"
  },
  {
-  "start": 1782.2,
-  "end": 1785.669,
-  "text": "now drag this execution list into this"
+  "start": 1778.72,
+  "end": 1783.72,
+  "text": "but we have to now drag this execution list"
  },
  {
-  "start": 1785.679,
-  "end": 1787.23,
-  "text": "configuration."
+  "start": 1784.68,
+  "end": 1787.04,
+  "text": "into this configuration, okay?"
  },
  {
-  "start": 1787.24,
-  "end": 1789.909,
-  "text": "Okay. So this is the structure of a"
+  "start": 1788.28,
+  "end": 1791.4,
+  "text": "So this is the structure of a distributed execution."
  },
  {
-  "start": 1789.919,
-  "end": 1792.07,
-  "text": "distributed execution. you require a"
+  "start": 1791.4,
+  "end": 1793.32,
+  "text": "You require a test event."
  },
  {
-  "start": 1792.08,
-  "end": 1794.71,
-  "text": "test event, you require a configuration"
+  "start": 1793.32,
+  "end": 1794.88,
+  "text": "You require a configuration"
  },
  {
-  "start": 1794.72,
-  "end": 1797.43,
-  "text": "and you require a execution list. Uh you"
+  "start": 1794.88,
+  "end": 1797.2,
+  "text": "and you require a execution list."
  },
  {
-  "start": 1797.44,
-  "end": 1800.87,
-  "text": "can also create a test mandate or"
+  "start": 1797.2,
+  "end": 1800.64,
+  "text": "You can also create a test mandate"
  },
  {
-  "start": 1800.88,
-  "end": 1803.59,
-  "text": "basically any kind of execution uh you"
+  "start": 1800.64,
+  "end": 1804.2,
+  "text": "or basically any kind of execution you can create"
  },
  {
-  "start": 1803.6,
-  "end": 1805.59,
-  "text": "can create and you can drag it down here"
+  "start": 1804.2,
+  "end": 1805.64,
+  "text": "and you can drag it down here"
  },
  {
-  "start": 1805.6,
-  "end": 1809.47,
-  "text": "so that it is at least"
+  "start": 1805.64,
+  "end": 1810.64,
+  "text": "so that it is at least configured"
  },
  {
-  "start": 1809.48,
-  "end": 1813.35,
-  "text": "um configured so that it can be run for"
+  "start": 1810.96,
+  "end": 1814.72,
+  "text": "so that it can be run for this particular event."
  },
  {
-  "start": 1813.36,
-  "end": 1815.909,
-  "text": "this particular event."
+  "start": 1815.8,
+  "end": 1818.28,
+  "text": "Just thinking what else we require,"
  },
  {
-  "start": 1815.919,
-  "end": 1819.389,
-  "text": "Just thinking what else we require but I"
+  "start": 1818.28,
+  "end": 1823.28,
+  "text": "but I think we are now ready to execute this test event"
  },
  {
-  "start": 1819.399,
-  "end": 1822.63,
-  "text": "think we are now ready to uh execute"
+  "start": 1823.64,
+  "end": 1825.4,
+  "text": "on our dex agent."
  },
  {
-  "start": 1822.64,
-  "end": 1825.99,
-  "text": "this test event on our DEX agent. So"
+  "start": 1825.4,
+  "end": 1827.64,
+  "text": "So let's go ahead and do that."
  },
  {
-  "start": 1826.0,
-  "end": 1827.789,
-  "text": "let's go ahead and do"
+  "start": 1828.92,
+  "end": 1829.76,
+  "text": "You should always check"
  },
  {
-  "start": 1827.799,
-  "end": 1830.07,
-  "text": "that. You should always check whether"
- },
- {
-  "start": 1830.08,
-  "end": 1832.87,
-  "text": "the test agent is in running condition."
+  "start": 1829.76,
+  "end": 1832.88,
+  "text": "whether the test agent is in running condition."
  },
  {
   "start": 1832.88,
-  "end": 1834.549,
-  "text": "You can do it in many ways as I have"
+  "end": 1837.08,
+  "text": "You can do it in many ways as I've shown you."
  },
  {
-  "start": 1834.559,
-  "end": 1836.19,
-  "text": "shown"
+  "start": 1837.08,
+  "end": 1841.12,
+  "text": "So we can execute it right from here, execute now,"
  },
  {
-  "start": 1836.2,
-  "end": 1839.59,
-  "text": "you. So we can execute it right from"
+  "start": 1841.16,
+  "end": 1846.42,
+  "text": "or we can execute it now, right?"
  },
  {
-  "start": 1839.6,
-  "end": 1842.31,
-  "text": "here. Execute now or we can execute it"
+  "start": 1846.42,
+  "end": 1850.94,
+  "text": "Obviously, if you want to run your test events, right,"
  },
  {
-  "start": 1842.32,
-  "end": 1843.549,
-  "text": "now."
+  "start": 1850.94,
+  "end": 1855.18,
+  "text": "on a particular server at a particular time,"
  },
  {
-  "start": 1843.559,
-  "end": 1847.269,
-  "text": "Right. Obviously"
+  "start": 1855.18,
+  "end": 1857.06,
+  "text": "you want to trigger them,"
  },
  {
-  "start": 1847.279,
-  "end": 1850.549,
-  "text": "um if you want to run your test events"
+  "start": 1857.06,
+  "end": 1860.5,
+  "text": "you can always do that through some CI client, right?"
  },
  {
-  "start": 1850.559,
-  "end": 1851.389,
-  "text": "right"
+  "start": 1860.5,
+  "end": 1861.9,
+  "text": "But we'll see that later."
  },
  {
-  "start": 1851.399,
-  "end": 1854.47,
-  "text": "on a particular server uh at a"
+  "start": 1862.94,
+  "end": 1867.94,
+  "text": "Now, once you have triggered the test event, okay,"
  },
  {
-  "start": 1854.48,
-  "end": 1856.95,
-  "text": "particular time you want to trigger them"
+  "start": 1868.22,
+  "end": 1881.69,
+  "text": "it should be available on the event view, right?"
  },
  {
-  "start": 1856.96,
-  "end": 1859.029,
-  "text": "you can always do that through some CI"
+  "start": 1881.73,
+  "end": 1884.29,
+  "text": "Now, we can always go to the details"
  },
  {
-  "start": 1859.039,
-  "end": 1862.47,
-  "text": "client right but we'll see that later."
+  "start": 1884.29,
+  "end": 1888.65,
+  "text": "of any particular event execution like we have done here."
  },
  {
-  "start": 1862.48,
-  "end": 1866.389,
-  "text": "Um now once you have triggered the test"
+  "start": 1888.65,
+  "end": 1891.77,
+  "text": "Currently, you can see the test event status is canceled"
  },
  {
-  "start": 1866.399,
-  "end": 1870.87,
-  "text": "event okay it should be available on the"
+  "start": 1891.77,
+  "end": 1894.25,
+  "text": "because some error occurred, right?"
  },
  {
-  "start": 1870.88,
-  "end": 1880.59,
-  "text": "event view"
+  "start": 1894.25,
+  "end": 1896.21,
+  "text": "And it will show the details here."
  },
  {
-  "start": 1883.59,
-  "end": 1883.6,
-  "text": "right now we can always go to the"
+  "start": 1896.21,
+  "end": 1898.25,
+  "text": "So you can see some,"
  },
  {
-  "start": 1883.6,
-  "end": 1885.75,
-  "text": "details of any particular event"
+  "start": 1899.53,
+  "end": 1902.25,
+  "text": "it failed to retrieve the needed automation objects,"
  },
  {
-  "start": 1885.76,
-  "end": 1888.63,
-  "text": "execution like we have done here. Uh"
+  "start": 1902.25,
+  "end": 1906.33,
+  "text": "right, so I know why this has occurred,"
  },
  {
-  "start": 1888.64,
-  "end": 1890.389,
-  "text": "currently you can see the test event"
+  "start": 1906.33,
+  "end": 1910.17,
+  "text": "but I wanted to show you this,"
  },
  {
-  "start": 1890.399,
-  "end": 1892.95,
-  "text": "status is cancelled because some error"
+  "start": 1910.89,
+  "end": 1913.77,
+  "text": "if some error occurs, how it will look"
  },
  {
-  "start": 1892.96,
-  "end": 1895.19,
-  "text": "occurred right and it will show the"
+  "start": 1913.77,
+  "end": 1916.53,
+  "text": "and how you can go back to your details, right?"
  },
  {
-  "start": 1895.2,
-  "end": 1899.59,
-  "text": "details here. So you can see some uh it"
+  "start": 1916.53,
+  "end": 1918.49,
+  "text": "But we forgot one thing"
  },
  {
-  "start": 1899.6,
-  "end": 1901.59,
-  "text": "failed to retrieve the needed automation"
+  "start": 1918.49,
+  "end": 1921.57,
+  "text": "before executing this test event, right?"
  },
  {
-  "start": 1901.6,
-  "end": 1903.149,
-  "text": "objects right."
+  "start": 1921.57,
+  "end": 1924.77,
+  "text": "So one thing, very important thing to note"
  },
  {
-  "start": 1903.159,
-  "end": 1906.87,
-  "text": "So I know by just a socket uh but I"
+  "start": 1924.77,
+  "end": 1928.21,
+  "text": "is whenever you are executing a test event,"
  },
  {
-  "start": 1906.88,
-  "end": 1912.07,
-  "text": "wanted to show you this um how if some"
+  "start": 1928.21,
+  "end": 1931.65,
+  "text": "you have to make sure that all your test events"
  },
  {
-  "start": 1912.08,
-  "end": 1914.389,
-  "text": "error occurs how it will look and how"
+  "start": 1931.65,
+  "end": 1934.89,
+  "text": "are checked in or any particular execution list"
  },
  {
-  "start": 1914.399,
-  "end": 1916.47,
-  "text": "you can go back to your details right"
+  "start": 1934.89,
+  "end": 1938.29,
+  "text": "which is linked to that test event should be checked in."
  },
  {
-  "start": 1916.48,
-  "end": 1918.95,
-  "text": "but we forgot one thing uh before"
+  "start": 1938.29,
+  "end": 1942.89,
+  "text": "Okay, so you can see here, our event is checked out"
  },
  {
-  "start": 1918.96,
-  "end": 1922.389,
-  "text": "executing this test event right so uh"
+  "start": 1942.89,
+  "end": 1945.09,
+  "text": "and that is why it is not able to retrieve"
  },
  {
-  "start": 1922.399,
-  "end": 1924.789,
-  "text": "one thing very important thing to note"
+  "start": 1945.09,
+  "end": 1948.81,
+  "text": "that test object from the workspace, okay?"
  },
  {
-  "start": 1924.799,
-  "end": 1927.269,
-  "text": "is whenever you are executing a test"
+  "start": 1948.81,
+  "end": 1952.45,
+  "text": "So always make sure you check in everything"
  },
  {
-  "start": 1927.279,
-  "end": 1930.47,
-  "text": "event you have to make sure that all"
+  "start": 1952.45,
+  "end": 1956.13,
+  "text": "before or at least the test events which you are running"
  },
  {
-  "start": 1930.48,
-  "end": 1933.59,
-  "text": "your test events are checked in or any"
+  "start": 1956.13,
+  "end": 1959.01,
+  "text": "before you execute the test event, okay?"
  },
  {
-  "start": 1933.6,
-  "end": 1935.19,
-  "text": "particular execution list which is"
+  "start": 1959.01,
+  "end": 1962.57,
+  "text": "Otherwise, you will have issues like this."
  },
  {
-  "start": 1935.2,
-  "end": 1937.19,
-  "text": "linked to that test event should be"
+  "start": 1962.57,
+  "end": 1964.37,
+  "text": "So let's try this again"
  },
  {
-  "start": 1937.2,
-  "end": 1940.789,
-  "text": "checked in. Okay. So you can see here"
+  "start": 1964.37,
+  "end": 1972.88,
+  "text": "and let's go back here and execute it now."
  },
  {
-  "start": 1940.799,
-  "end": 1943.509,
-  "text": "our event is checked out and that is why"
+  "start": 1972.88,
+  "end": 1977.88,
+  "text": "Okay, so since it is executing on this particular machine,"
  },
  {
-  "start": 1943.519,
-  "end": 1945.509,
-  "text": "it is not able to retrieve that test"
+  "start": 1978.28,
+  "end": 1982.12,
+  "text": "we might see that a new browser will be opened here"
  },
  {
-  "start": 1945.519,
-  "end": 1949.029,
-  "text": "object from the workspace. Okay. So"
+  "start": 1982.12,
+  "end": 1984.44,
+  "text": "and the Google page will appear, right?"
  },
  {
-  "start": 1949.039,
-  "end": 1951.47,
-  "text": "always make sure you check in uh"
+  "start": 1984.44,
+  "end": 1988.68,
+  "text": "So that means my execution list was executed, okay?"
  },
  {
-  "start": 1951.48,
-  "end": 1954.149,
-  "text": "everything before or at least the test"
+  "start": 1988.68,
+  "end": 1991.08,
+  "text": "Because this was a test case I was running"
  },
  {
-  "start": 1954.159,
-  "end": 1956.71,
-  "text": "events which you are running before you"
+  "start": 1991.08,
+  "end": 1993.64,
+  "text": "and this is what will happen"
  },
  {
-  "start": 1956.72,
-  "end": 1959.669,
-  "text": "execute the test event. Okay. Otherwise"
+  "start": 1993.64,
+  "end": 1996.6,
+  "text": "on your text agent machine, right?"
  },
  {
-  "start": 1959.679,
-  "end": 1962.71,
-  "text": "uh you will have issues like this. So"
+  "start": 1997.88,
+  "end": 2002.2,
+  "text": "And you will see that the event view,"
  },
  {
-  "start": 1962.72,
-  "end": 1965.669,
-  "text": "let's try this again and let's go back"
+  "start": 2002.24,
+  "end": 2004.84,
+  "text": "that particular test event is now passed."
  },
  {
-  "start": 1965.679,
-  "end": 1971.789,
-  "text": "here and execute it"
+  "start": 2004.84,
+  "end": 2007.68,
+  "text": "We have one canceled, one passed, right?"
  },
  {
-  "start": 1976.149,
-  "end": 1976.159,
-  "text": "now. Okay. Um so since it is executing"
+  "start": 2007.68,
+  "end": 2010.84,
+  "text": "You can see the start time, the creator who is,"
  },
  {
-  "start": 1976.159,
-  "end": 1978.789,
-  "text": "on this particular machine uh we might"
+  "start": 2010.84,
+  "end": 2012.72,
+  "text": "if there are different users, okay?"
  },
  {
-  "start": 1978.799,
-  "end": 1981.75,
-  "text": "see that a new browser will be opened"
+  "start": 2013.72,
+  "end": 2016.72,
+  "text": "And the agent view will be back to idle"
  },
  {
-  "start": 1981.76,
-  "end": 1983.75,
-  "text": "here and the Google page will appear"
+  "start": 2016.72,
+  "end": 2020.64,
+  "text": "but while it is running, you can also monitor the view"
  },
  {
-  "start": 1983.76,
-  "end": 1986.31,
-  "text": "right. So that means my execution list"
+  "start": 2020.64,
+  "end": 2024.44,
+  "text": "and it will be in the execution state, okay?"
  },
  {
-  "start": 1986.32,
-  "end": 1989.43,
-  "text": "was executed. Okay, because this was a"
+  "start": 2024.44,
+  "end": 2027.96,
+  "text": "So this is how you can trigger test events"
  },
  {
-  "start": 1989.44,
-  "end": 1992.07,
-  "text": "test case I was running and uh this is"
+  "start": 2027.96,
+  "end": 2031.08,
+  "text": "and you can run it on different agents"
  },
  {
-  "start": 1992.08,
-  "end": 1995.35,
-  "text": "what will happen on your text agent"
+  "start": 2031.76,
+  "end": 2034.72,
+  "text": "which are different remote machines"
  },
  {
-  "start": 1995.36,
-  "end": 1996.83,
-  "text": "machine"
+  "start": 2034.72,
+  "end": 2036.8,
+  "text": "which are running Tosca, okay?"
  },
  {
-  "start": 1996.84,
-  "end": 2001.07,
-  "text": "right and you will see that the event"
+  "start": 2037.92,
+  "end": 2040.28,
+  "text": "So you can distribute all the events"
  },
  {
-  "start": 2001.08,
-  "end": 2004.149,
-  "text": "view that particular test event is now"
+  "start": 2040.28,
+  "end": 2043.48,
+  "text": "even in parallel across these agents, okay?"
  },
  {
-  "start": 2004.159,
-  "end": 2005.99,
-  "text": "passed. We have one cancelled, one"
+  "start": 2044.84,
+  "end": 2048.04,
+  "text": "Now the last part which is there"
  },
  {
-  "start": 2006.0,
-  "end": 2008.549,
-  "text": "passed, right? You can see the start"
+  "start": 2048.04,
+  "end": 2050.8,
+  "text": "is we're talking about configurations, right?"
  },
  {
-  "start": 2008.559,
-  "end": 2011.269,
-  "text": "time, the creator who is if there are"
+  "start": 2050.8,
+  "end": 2053.52,
+  "text": "And where this configuration is coming from"
  },
  {
-  "start": 2011.279,
-  "end": 2014.47,
-  "text": "different users. Okay. And the agent"
+  "start": 2053.52,
+  "end": 2058.52,
+  "text": "is right from, you can go to C program files"
  },
  {
-  "start": 2014.48,
-  "end": 2017.11,
-  "text": "view will be back to uh idle. But while"
+  "start": 2059.2,
+  "end": 2063.32,
+  "text": "and go to Tracentes, Tosca server"
  },
  {
-  "start": 2017.12,
-  "end": 2019.75,
-  "text": "it is running, you can also monitor the"
+  "start": 2063.32,
+  "end": 2069.86,
+  "text": "and I think it is here under Dex server, right?"
  },
  {
-  "start": 2019.76,
-  "end": 2022.43,
-  "text": "view and it will be in the execution"
+  "start": 2069.9,
+  "end": 2074.38,
+  "text": "Yeah, so if you look under Tosca server, Dex server,"
  },
  {
-  "start": 2022.44,
-  "end": 2025.83,
-  "text": "state. Okay. So this is how you can"
+  "start": 2074.38,
+  "end": 2083.19,
+  "text": "you will find configuration parameters"
  },
  {
-  "start": 2025.84,
-  "end": 2029.269,
-  "text": "trigger test events and you can run it"
+  "start": 2083.19,
+  "end": 2085.23,
+  "text": "and these are the configuration parameters"
  },
  {
-  "start": 2029.279,
-  "end": 2032.47,
-  "text": "on different agents or which are"
+  "start": 2085.23,
+  "end": 2088.51,
+  "text": "which are defined by default, okay?"
  },
  {
-  "start": 2032.48,
-  "end": 2035.029,
-  "text": "different remote machines which are"
+  "start": 2088.51,
+  "end": 2091.87,
+  "text": "And you can see all the different operating systems"
  },
  {
-  "start": 2035.039,
-  "end": 2038.389,
-  "text": "running uh TSCA. Okay. So you can"
+  "start": 2091.87,
+  "end": 2093.63,
+  "text": "which are available here"
  },
  {
-  "start": 2038.399,
-  "end": 2040.47,
-  "text": "distribute your uh all the events even"
+  "start": 2093.63,
+  "end": 2097.39,
+  "text": "and the different memory configurations,"
  },
  {
-  "start": 2040.48,
-  "end": 2044.71,
-  "text": "in parallel across this agents. Okay."
+  "start": 2097.39,
+  "end": 2099.15,
+  "text": "different operating system type"
  },
  {
-  "start": 2044.72,
-  "end": 2047.99,
-  "text": "Now uh the last part um which is there"
+  "start": 2100.55,
+  "end": 2103.03,
+  "text": "and then there is this additional configuration"
  },
  {
-  "start": 2048.0,
-  "end": 2049.909,
-  "text": "is we're talking about configurations"
+  "start": 2103.03,
+  "end": 2106.51,
+  "text": "which is useRDP and support classic, right?"
  },
  {
-  "start": 2049.919,
-  "end": 2052.47,
-  "text": "right and where this configuration is"
+  "start": 2108.23,
+  "end": 2111.67,
+  "text": "And also IP address, okay?"
  },
  {
-  "start": 2052.48,
-  "end": 2056.95,
-  "text": "coming from is uh right from you can go"
+  "start": 2111.67,
+  "end": 2116.31,
+  "text": "So you can define all different configurations right here,"
  },
  {
-  "start": 2056.96,
-  "end": 2060.909,
-  "text": "to C program files and go to tric"
+  "start": 2116.31,
+  "end": 2118.35,
+  "text": "okay, so I can go ahead"
  },
  {
-  "start": 2060.919,
-  "end": 2065.79,
-  "text": "centiska server and"
+  "start": 2118.35,
+  "end": 2121.87,
+  "text": "and change some configuration like this, okay?"
  },
  {
-  "start": 2065.8,
-  "end": 2069.589,
-  "text": "um I think it is here under deck server"
+  "start": 2121.87,
+  "end": 2124.51,
+  "text": "So here you can see operating system,"
  },
  {
-  "start": 2069.599,
-  "end": 2073.19,
-  "text": "right yeah so if you look under server"
+  "start": 2124.51,
+  "end": 2126.35,
+  "text": "we have got all the different operating system"
  },
  {
-  "start": 2073.2,
-  "end": 2082.109,
-  "text": "deck server you will find configuration"
+  "start": 2126.35,
+  "end": 2128.03,
+  "text": "but we don't have 11,"
  },
  {
-  "start": 2084.149,
-  "end": 2084.159,
-  "text": "parameters and these are the"
+  "start": 2128.03,
+  "end": 2132.91,
+  "text": "but I feel I want to execute a particular test"
  },
  {
-  "start": 2084.159,
-  "end": 2086.23,
-  "text": "configuration parameters which are uh"
+  "start": 2132.91,
+  "end": 2137.03,
+  "text": "on a configuration which has got Windows 11, okay?"
  },
  {
-  "start": 2086.24,
-  "end": 2089.03,
-  "text": "defined by default. Okay. And you can"
+  "start": 2138.23,
+  "end": 2142.31,
+  "text": "So I can edit any particular configuration,"
  },
  {
-  "start": 2089.04,
-  "end": 2091.19,
-  "text": "see all the different uh operating"
+  "start": 2142.31,
+  "end": 2143.91,
+  "text": "I can also add,"
  },
  {
-  "start": 2091.2,
-  "end": 2094.55,
-  "text": "systems which are available here and um"
+  "start": 2143.91,
+  "end": 2148.91,
+  "text": "you can just copy this whole XML key value pairs"
  },
  {
-  "start": 2094.56,
-  "end": 2097.349,
-  "text": "the different memory configurations uh"
+  "start": 2149.55,
+  "end": 2151.59,
+  "text": "and you can create your own configuration."
  },
  {
-  "start": 2097.359,
-  "end": 2100.71,
-  "text": "different operating system type. Um and"
+  "start": 2151.59,
+  "end": 2154.47,
+  "text": "So I can add as many configurations I want,"
  },
  {
-  "start": 2100.72,
-  "end": 2102.39,
-  "text": "then there is this additional"
+  "start": 2154.47,
+  "end": 2158.99,
+  "text": "I can even add a test configuration parameter like this."
  },
  {
-  "start": 2102.4,
-  "end": 2105.109,
-  "text": "configuration which is use RDP and uh"
+  "start": 2158.99,
+  "end": 2163.99,
+  "text": "So I need to put a name and then the parameter values, okay?"
  },
  {
-  "start": 2105.119,
-  "end": 2107.15,
-  "text": "support classic"
+  "start": 2164.19,
+  "end": 2165.83,
+  "text": "So I can create easily"
  },
  {
-  "start": 2107.16,
-  "end": 2112.71,
-  "text": "right and also IP address. Okay. So you"
+  "start": 2165.83,
+  "end": 2169.31,
+  "text": "for something like a Chrome or anything, okay?"
  },
  {
-  "start": 2112.72,
-  "end": 2115.43,
-  "text": "can define all different configurations"
+  "start": 2170.23,
+  "end": 2174.67,
+  "text": "So now I have changed this Windows 11 right here."
  },
  {
-  "start": 2115.44,
-  "end": 2118.55,
-  "text": "right here. Okay. So I can go ahead and"
+  "start": 2174.67,
+  "end": 2175.91,
+  "text": "So what I need to do,"
  },
  {
-  "start": 2118.56,
-  "end": 2120.829,
-  "text": "change some configuration like this."
+  "start": 2175.91,
+  "end": 2177.87,
+  "text": "if I've changed something,"
  },
  {
-  "start": 2120.839,
-  "end": 2123.27,
-  "text": "Okay. So here you can see operating"
+  "start": 2177.87,
+  "end": 2180.07,
+  "text": "first of all I need to save it here"
  },
  {
-  "start": 2123.28,
-  "end": 2125.51,
-  "text": "system uh we have got all the different"
+  "start": 2180.07,
+  "end": 2185.07,
+  "text": "and you need to be in admin mode to change this, okay?"
  },
  {
-  "start": 2125.52,
-  "end": 2128.069,
-  "text": "operating system but we don't have 11."
+  "start": 2185.91,
+  "end": 2190.27,
+  "text": "So first save it here so that it is saved on the server"
  },
  {
-  "start": 2128.079,
-  "end": 2132.15,
-  "text": "But I feel I need I want to execute a"
+  "start": 2190.27,
+  "end": 2192.07,
+  "text": "and then on the commander"
  },
  {
-  "start": 2132.16,
-  "end": 2134.63,
-  "text": "particular test on a configuration which"
+  "start": 2192.07,
+  "end": 2197.07,
+  "text": "we need to retrieve that configuration change right here, okay?"
  },
  {
-  "start": 2134.64,
-  "end": 2137.23,
-  "text": "has got Windows 11."
+  "start": 2197.39,
+  "end": 2201.51,
+  "text": "So for that we need to check out our root project,"
  },
  {
-  "start": 2137.24,
-  "end": 2141.109,
-  "text": "Okay. So I can uh edit any particular"
+  "start": 2202.63,
+  "end": 2204.15,
+  "text": "right click on the configurations"
  },
  {
-  "start": 2141.119,
-  "end": 2144.069,
-  "text": "conf configuration. I can also add you"
+  "start": 2204.15,
+  "end": 2208.35,
+  "text": "and update configurations from the server, okay?"
  },
  {
-  "start": 2144.079,
-  "end": 2148.71,
-  "text": "can just copy this uh whole XML uh key"
+  "start": 2208.35,
+  "end": 2213.35,
+  "text": "So now that particular configuration is applied here"
  },
  {
-  "start": 2148.72,
-  "end": 2150.79,
-  "text": "value pairs and you can create your own"
+  "start": 2214.15,
+  "end": 2219.15,
+  "text": "and we can even check that by creating a new configuration."
  },
  {
-  "start": 2150.8,
-  "end": 2152.87,
-  "text": "configuration. So I can add any as many"
+  "start": 2221.63,
+  "end": 2226.15,
+  "text": "So we can create a new configuration here, okay?"
  },
  {
-  "start": 2152.88,
-  "end": 2155.829,
-  "text": "configurations I want. I can even add a"
+  "start": 2226.15,
+  "end": 2229.83,
+  "text": "And here I can create a new configuration."
  },
  {
-  "start": 2155.839,
-  "end": 2158.31,
-  "text": "test configuration parameter like this"
+  "start": 2229.83,
+  "end": 2234.83,
+  "text": "So I can name it something like local, right?"
  },
  {
-  "start": 2158.32,
-  "end": 2161.99,
-  "text": "like so I need to put a name uh and then"
+  "start": 2235.27,
+  "end": 2236.99,
+  "text": "Because I'm executing on a local machine"
  },
  {
-  "start": 2162.0,
-  "end": 2164.71,
-  "text": "the parameter values. Okay. So I can"
+  "start": 2236.99,
+  "end": 2241.99,
+  "text": "so I want something specific for my local machine, okay?"
  },
  {
-  "start": 2164.72,
-  "end": 2167.19,
-  "text": "create easily for something like a"
+  "start": 2242.15,
+  "end": 2244.15,
+  "text": "And once you create this new configuration"
  },
  {
-  "start": 2167.2,
-  "end": 2171.67,
-  "text": "chrome or anything. Okay. So now I have"
+  "start": 2244.15,
+  "end": 2246.63,
+  "text": "you will see all the properties, right?"
  },
  {
-  "start": 2171.68,
-  "end": 2174.71,
-  "text": "changed this uh windows 11 right here."
+  "start": 2246.63,
+  "end": 2249.55,
+  "text": "So all the configuration key values"
  },
  {
-  "start": 2174.72,
-  "end": 2176.87,
-  "text": "So what I need to do if I have changed"
+  "start": 2249.55,
+  "end": 2251.63,
+  "text": "which will appear on the properties"
  },
  {
-  "start": 2176.88,
-  "end": 2179.27,
-  "text": "something first of all I need to save it"
+  "start": 2251.63,
+  "end": 2253.03,
+  "text": "on the right hand side."
  },
  {
-  "start": 2179.28,
-  "end": 2182.87,
-  "text": "here and uh you need to be in admin mode"
+  "start": 2253.03,
+  "end": 2255.23,
+  "text": "So host name, IP address, memory,"
  },
  {
-  "start": 2182.88,
-  "end": 2184.589,
-  "text": "to change"
+  "start": 2255.23,
+  "end": 2257.35,
+  "text": "use RDP, operating system,"
  },
  {
-  "start": 2184.599,
-  "end": 2187.99,
-  "text": "this. Okay. So first save it here so"
+  "start": 2257.35,
+  "end": 2259.43,
+  "text": "operating system type, memory."
  },
  {
-  "start": 2188.0,
-  "end": 2190.87,
-  "text": "that it is saved on the server and then"
+  "start": 2259.43,
+  "end": 2261.59,
+  "text": "So whatever configurations we had put there"
  },
  {
-  "start": 2190.88,
-  "end": 2193.19,
-  "text": "uh on the commander we need to uh"
+  "start": 2261.59,
+  "end": 2263.43,
+  "text": "is available here."
  },
  {
-  "start": 2193.2,
-  "end": 2196.069,
-  "text": "retrieve that configuration change right"
+  "start": 2263.47,
+  "end": 2267.47,
+  "text": "And I can then select a specific configuration, okay?"
  },
  {
-  "start": 2196.079,
-  "end": 2199.19,
-  "text": "here. Okay. So for that we need to check"
+  "start": 2268.59,
+  "end": 2272.83,
+  "text": "So I can select Windows 11, memory 16 GB,"
  },
  {
-  "start": 2199.2,
-  "end": 2202.55,
-  "text": "out our root project."
+  "start": 2272.83,
+  "end": 2274.55,
+  "text": "operating system 64 bit."
  },
  {
-  "start": 2202.56,
-  "end": 2204.47,
-  "text": "right click on the configurations and"
+  "start": 2276.07,
+  "end": 2279.31,
+  "text": "Now the essence of this is once you create"
  },
  {
-  "start": 2204.48,
-  "end": 2207.069,
-  "text": "update configurations from the"
+  "start": 2279.31,
+  "end": 2282.83,
+  "text": "a new configuration you have selected some new"
  },
  {
-  "start": 2207.079,
-  "end": 2211.27,
-  "text": "server. Okay. So now um that will that"
+  "start": 2282.83,
+  "end": 2286.63,
+  "text": "configuration key values for that in the properties,"
  },
  {
-  "start": 2211.28,
-  "end": 2214.23,
-  "text": "particular configuration is applied here"
+  "start": 2286.63,
+  "end": 2287.87,
+  "text": "right?"
  },
  {
-  "start": 2214.24,
-  "end": 2215.55,
-  "text": "and"
+  "start": 2287.87,
+  "end": 2291.99,
+  "text": "You have to now match this with your agent, okay?"
  },
  {
-  "start": 2215.56,
-  "end": 2220.47,
-  "text": "u we can even check that uh by creating"
+  "start": 2291.99,
+  "end": 2295.59,
+  "text": "So let's go to this configure agent"
  },
  {
-  "start": 2220.48,
-  "end": 2222.63,
-  "text": "a new configuration. So we can create a"
+  "start": 2295.59,
+  "end": 2300.59,
+  "text": "and here you can see Windows 11, 16 GB and 64 bit, right?"
  },
  {
-  "start": 2222.64,
-  "end": 2224.349,
-  "text": "new configuration"
+  "start": 2300.87,
+  "end": 2304.47,
+  "text": "So now this configuration of the agent"
  },
  {
-  "start": 2224.359,
-  "end": 2228.829,
-  "text": "here. Okay. And here I can create a new"
+  "start": 2304.47,
+  "end": 2307.55,
+  "text": "is matching the configuration which I have just created,"
  },
  {
-  "start": 2228.839,
-  "end": 2230.43,
-  "text": "configuration."
+  "start": 2307.55,
+  "end": 2308.51,
+  "text": "okay?"
  },
  {
-  "start": 2230.44,
-  "end": 2234.55,
-  "text": "So I can name it something like local"
+  "start": 2308.51,
+  "end": 2311.19,
+  "text": "So let's go ahead and check in all"
  },
  {
-  "start": 2234.56,
-  "end": 2236.55,
-  "text": "right because I'm executing on local"
+  "start": 2312.15,
+  "end": 2316.39,
+  "text": "and what we'll do, we will go and refresh the agents."
  },
  {
-  "start": 2236.56,
-  "end": 2239.109,
-  "text": "machine so I want something specific for"
+  "start": 2316.39,
+  "end": 2319.87,
+  "text": "Now what is going to happen is now I'm going to see"
  },
  {
-  "start": 2239.119,
-  "end": 2242.55,
-  "text": "my local machine. Okay. And once you"
+  "start": 2320.03,
+  "end": 2323.07,
+  "text": "agent pop up on my new configuration"
  },
  {
-  "start": 2242.56,
-  "end": 2244.47,
-  "text": "create this new configuration you will"
+  "start": 2323.07,
+  "end": 2326.03,
+  "text": "because it matches the properties"
  },
  {
-  "start": 2244.48,
-  "end": 2247.27,
-  "text": "see all the properties right. So all the"
+  "start": 2326.03,
+  "end": 2330.11,
+  "text": "which I have defined here with the agent, okay?"
  },
  {
-  "start": 2247.28,
-  "end": 2249.91,
-  "text": "configuration key values which will"
+  "start": 2330.11,
+  "end": 2332.71,
+  "text": "So whenever it matches that configuration"
  },
  {
-  "start": 2249.92,
-  "end": 2251.99,
-  "text": "appear on the properties on the right"
+  "start": 2332.71,
+  "end": 2334.75,
+  "text": "it is going to put that agent"
  },
  {
-  "start": 2252.0,
-  "end": 2254.55,
-  "text": "hand side. So host name, IP address,"
+  "start": 2334.75,
+  "end": 2336.91,
+  "text": "under that particular configuration"
  },
  {
-  "start": 2254.56,
-  "end": 2257.19,
-  "text": "memory, use RDP, operating system,"
+  "start": 2336.91,
+  "end": 2339.19,
+  "text": "so that you can just use this configuration"
  },
  {
-  "start": 2257.2,
-  "end": 2259.51,
-  "text": "operating system type, memory. So"
+  "start": 2339.19,
+  "end": 2341.67,
+  "text": "in your test event and then you can run it"
  },
  {
-  "start": 2259.52,
-  "end": 2261.43,
-  "text": "whatever configurations we had put there"
+  "start": 2341.67,
+  "end": 2344.55,
+  "text": "on specific configurations, right?"
  },
  {
-  "start": 2261.44,
-  "end": 2265.19,
-  "text": "is available here and I can then select"
+  "start": 2344.55,
+  "end": 2348.31,
+  "text": "So you can create like this different configurations here"
  },
  {
-  "start": 2265.2,
-  "end": 2267.55,
-  "text": "a specific configuration."
+  "start": 2348.31,
+  "end": 2350.11,
+  "text": "based on what you want to execute"
  },
  {
-  "start": 2267.56,
-  "end": 2271.19,
-  "text": "Okay. So I can select Windows 11 memory"
+  "start": 2350.11,
+  "end": 2354.35,
+  "text": "and what kind of machine configuration you require, right?"
  },
  {
-  "start": 2271.2,
-  "end": 2274.829,
-  "text": "uh 16 GB operating system"
+  "start": 2354.35,
+  "end": 2357.15,
+  "text": "So you can do that here"
  },
  {
-  "start": 2274.839,
-  "end": 2278.23,
-  "text": "64bit. Now the essence of this is once"
- },
- {
-  "start": 2278.24,
-  "end": 2281.03,
-  "text": "you create a new configuration you have"
- },
- {
-  "start": 2281.04,
-  "end": 2283.91,
-  "text": "selected some new um configuration key"
- },
- {
-  "start": 2283.92,
-  "end": 2287.67,
-  "text": "values for that in the properties right"
- },
- {
-  "start": 2287.68,
-  "end": 2290.03,
-  "text": "you have to now match this with your"
- },
- {
-  "start": 2290.04,
-  "end": 2294.43,
-  "text": "agent okay so let's go to this configure"
- },
- {
-  "start": 2294.44,
-  "end": 2297.91,
-  "text": "agent and here you can see windows 11 16"
- },
- {
-  "start": 2297.92,
-  "end": 2302.71,
-  "text": "GB and 64bit right so now this"
- },
- {
-  "start": 2302.72,
-  "end": 2304.95,
-  "text": "configuration of the agent is matching"
- },
- {
-  "start": 2304.96,
-  "end": 2306.79,
-  "text": "the configuration which I have just"
- },
- {
-  "start": 2306.8,
-  "end": 2310.31,
-  "text": "created. Okay. So, let's go ahead and"
- },
- {
-  "start": 2310.32,
-  "end": 2313.51,
-  "text": "check in all. And what we'll do, we'll"
- },
- {
-  "start": 2313.52,
-  "end": 2316.95,
-  "text": "go and refresh the agents. Now, what is"
- },
- {
-  "start": 2316.96,
-  "end": 2319.75,
-  "text": "going to happen is now I'm going to see"
- },
- {
-  "start": 2319.76,
-  "end": 2323.109,
-  "text": "a agent pop up on my new configuration"
- },
- {
-  "start": 2323.119,
-  "end": 2326.15,
-  "text": "because it matches the properties which"
- },
- {
-  "start": 2326.16,
-  "end": 2329.51,
-  "text": "I have defined here with the agent."
- },
- {
-  "start": 2329.52,
-  "end": 2331.829,
-  "text": "Okay. So whenever it matches that"
- },
- {
-  "start": 2331.839,
-  "end": 2334.069,
-  "text": "configuration, it is going to put that"
- },
- {
-  "start": 2334.079,
-  "end": 2335.87,
-  "text": "agent under that particular"
- },
- {
-  "start": 2335.88,
-  "end": 2338.15,
-  "text": "configuration. So that you can just use"
- },
- {
-  "start": 2338.16,
-  "end": 2340.39,
-  "text": "this configuration in your test event"
- },
- {
-  "start": 2340.4,
-  "end": 2342.589,
-  "text": "and then you can run it on specific"
- },
- {
-  "start": 2342.599,
-  "end": 2345.589,
-  "text": "configurations. Right? So you can create"
- },
- {
-  "start": 2345.599,
-  "end": 2348.23,
-  "text": "like this different configurations here"
- },
- {
-  "start": 2348.24,
-  "end": 2350.71,
-  "text": "based on what you want to execute and"
- },
- {
-  "start": 2350.72,
-  "end": 2352.63,
-  "text": "what kind of machine configuration you"
- },
- {
-  "start": 2352.64,
-  "end": 2354.589,
-  "text": "require. Right?"
- },
- {
-  "start": 2354.599,
-  "end": 2358.39,
-  "text": "So you can do that here and just uh"
- },
- {
-  "start": 2358.4,
+  "start": 2357.15,
   "end": 2360.55,
-  "text": "change the configuration of the agents"
+  "text": "and just change the configuration of the agents"
  },
  {
-  "start": 2360.56,
-  "end": 2362.43,
-  "text": "which should match with this particular"
+  "start": 2360.55,
+  "end": 2363.55,
+  "text": "which should match with this particular configuration"
  },
  {
-  "start": 2362.44,
-  "end": 2364.47,
-  "text": "configuration which you have defined in"
+  "start": 2363.55,
+  "end": 2366.91,
+  "text": "which you have defined in configuration parameters.xml,"
  },
  {
-  "start": 2364.48,
-  "end": 2367.829,
-  "text": "configuration parameters doxml right. So"
+  "start": 2366.91,
+  "end": 2367.75,
+  "text": "right?"
  },
  {
-  "start": 2367.839,
+  "start": 2367.75,
   "end": 2369.67,
-  "text": "these three things you need to match and"
+  "text": "So these three things you need to match"
  },
  {
-  "start": 2369.68,
-  "end": 2372.15,
-  "text": "then you need to refresh the agents um"
+  "start": 2369.67,
+  "end": 2372.27,
+  "text": "and then you need to refresh the agents"
  },
  {
-  "start": 2372.16,
-  "end": 2375.19,
-  "text": "and then it will appear here and you can"
+  "start": 2372.27,
+  "end": 2374.79,
+  "text": "and then it will appear here"
  },
  {
-  "start": 2375.2,
-  "end": 2377.99,
-  "text": "use this configuration. Now I can remove"
+  "start": 2374.79,
+  "end": 2376.59,
+  "text": "and you can use this configuration."
  },
  {
-  "start": 2378.0,
-  "end": 2382.19,
-  "text": "this any here. Okay. So if I check this"
+  "start": 2376.59,
+  "end": 2380.43,
+  "text": "Now I can remove this any here, okay?"
  },
  {
-  "start": 2382.2,
-  "end": 2386.23,
-  "text": "out and if I remove this configuration"
+  "start": 2380.43,
+  "end": 2382.27,
+  "text": "So if I check this out"
  },
  {
-  "start": 2386.24,
-  "end": 2389.99,
-  "text": "here and I use my specific configuration"
+  "start": 2383.15,
+  "end": 2387.11,
+  "text": "and if I remove this configuration here"
  },
  {
-  "start": 2390.0,
-  "end": 2393.349,
-  "text": "which is local and I can now execute"
+  "start": 2387.11,
+  "end": 2391.67,
+  "text": "and I use my specific configuration which is local"
  },
  {
-  "start": 2393.359,
-  "end": 2395.91,
-  "text": "this event on here. I mean there is no"
+  "start": 2391.67,
+  "end": 2395.03,
+  "text": "and I can now execute this event on here."
  },
  {
-  "start": 2395.92,
-  "end": 2398.069,
-  "text": "such change now because it is still"
+  "start": 2395.03,
+  "end": 2397.15,
+  "text": "I mean, there is no such change now"
  },
  {
-  "start": 2398.079,
-  "end": 2399.829,
-  "text": "executing on local. I've just got one"
+  "start": 2397.15,
+  "end": 2399.03,
+  "text": "because it is still executing on local,"
  },
  {
-  "start": 2399.839,
-  "end": 2402.15,
-  "text": "agent but you when you have got multiple"
+  "start": 2399.03,
+  "end": 2400.59,
+  "text": "I've just got one agent"
  },
  {
-  "start": 2402.16,
-  "end": 2405.91,
-  "text": "agents and you want to run uh your event"
+  "start": 2400.59,
+  "end": 2402.75,
+  "text": "but when you have got multiple agents"
  },
  {
-  "start": 2405.92,
-  "end": 2407.99,
-  "text": "on a specific configuration on a"
+  "start": 2402.75,
+  "end": 2406.07,
+  "text": "and you want to run your event"
  },
  {
-  "start": 2408.0,
-  "end": 2410.47,
-  "text": "specific agent then this is how uh you"
+  "start": 2406.07,
+  "end": 2409.19,
+  "text": "on specific configuration on a specific agent"
  },
  {
-  "start": 2410.48,
-  "end": 2414.43,
-  "text": "can do this."
+  "start": 2409.19,
+  "end": 2415.49,
+  "text": "then this is how you can do this, okay?"
  },
  {
-  "start": 2417.589,
-  "end": 2417.599,
-  "text": "Okay. So this was all about distributed"
+  "start": 2415.49,
+  "end": 2418.33,
+  "text": "So this was all about distributed execution."
  },
  {
-  "start": 2417.599,
-  "end": 2420.23,
-  "text": "execution. It requires some level of"
+  "start": 2418.33,
+  "end": 2420.89,
+  "text": "It requires some level of configuration"
  },
  {
-  "start": 2420.24,
-  "end": 2421.99,
-  "text": "configuration. So you need to have some"
+  "start": 2420.89,
+  "end": 2422.73,
+  "text": "so you need to have some knowledge"
  },
  {
-  "start": 2422.0,
-  "end": 2425.43,
-  "text": "knowledge of uh your whole architecture"
+  "start": 2422.73,
+  "end": 2427.73,
+  "text": "of your whole architecture, your infrastructure, right?"
  },
  {
-  "start": 2425.44,
-  "end": 2428.71,
-  "text": "um your infrastructure right how where"
+  "start": 2427.85,
+  "end": 2430.49,
+  "text": "How, where your Tosca server is,"
  },
  {
-  "start": 2428.72,
-  "end": 2431.03,
-  "text": "your TSka server is uh where you have"
+  "start": 2430.49,
+  "end": 2433.93,
+  "text": "where you have set up that, your IP address port."
  },
  {
-  "start": 2431.04,
-  "end": 2433.99,
-  "text": "set up that your IP address port you"
+  "start": 2433.93,
+  "end": 2435.21,
+  "text": "You have to change a few things"
  },
  {
-  "start": 2434.0,
-  "end": 2435.589,
-  "text": "have to change a few things like I've"
+  "start": 2435.21,
+  "end": 2436.61,
+  "text": "like I've shown you"
  },
  {
-  "start": 2435.599,
-  "end": 2439.43,
-  "text": "shown you and then um once you are all"
+  "start": 2436.61,
+  "end": 2440.13,
+  "text": "and then once you are all set up"
  },
  {
-  "start": 2439.44,
-  "end": 2442.79,
-  "text": "set up you can then start executing your"
+  "start": 2440.13,
+  "end": 2443.89,
+  "text": "you can then start executing your test events"
  },
  {
-  "start": 2442.8,
-  "end": 2445.75,
-  "text": "test events or distribute it across"
+  "start": 2443.89,
+  "end": 2447.33,
+  "text": "or distribute it across different machines,"
  },
  {
-  "start": 2445.76,
-  "end": 2448.23,
-  "text": "different machines different agents"
+  "start": 2447.33,
+  "end": 2448.37,
+  "text": "different agents,"
  },
  {
-  "start": 2448.24,
-  "end": 2449.829,
-  "text": "depending on the configurations you"
+  "start": 2448.37,
+  "end": 2450.89,
+  "text": "depending on the configurations you choose."
  },
  {
-  "start": 2449.839,
-  "end": 2450.79,
-  "text": "choose"
+  "start": 2450.89,
+  "end": 2454.21,
+  "text": "So there are lots of things to consider here, right?"
  },
  {
-  "start": 2450.8,
-  "end": 2453.03,
-  "text": "So there are lots of things to consider"
+  "start": 2454.21,
+  "end": 2455.85,
+  "text": "But it's very important,"
  },
  {
-  "start": 2453.04,
-  "end": 2456.03,
-  "text": "here right but it's very important"
+  "start": 2455.85,
+  "end": 2459.85,
+  "text": "distributed execution is one of the most important things"
  },
  {
-  "start": 2456.04,
-  "end": 2458.71,
-  "text": "distributed execution is one of the most"
+  "start": 2460.65,
+  "end": 2463.17,
+  "text": "or most important components of Tosca"
  },
  {
-  "start": 2458.72,
-  "end": 2462.069,
-  "text": "important things uh or most important"
+  "start": 2463.17,
+  "end": 2465.41,
+  "text": "because it provides you the ability"
  },
  {
-  "start": 2462.079,
-  "end": 2464.63,
-  "text": "components of TSCA because it provides"
+  "start": 2465.41,
+  "end": 2470.41,
+  "text": "to execute your test events in different machines,"
  },
  {
-  "start": 2464.64,
-  "end": 2468.03,
-  "text": "you the ability to execute your test uh"
+  "start": 2470.57,
+  "end": 2474.29,
+  "text": "different configurations, even in parallel, okay?"
  },
  {
-  "start": 2468.04,
-  "end": 2471.03,
-  "text": "events in different machines different"
+  "start": 2475.69,
+  "end": 2478.17,
+  "text": "So this was all about distributed execution."
  },
  {
-  "start": 2471.04,
-  "end": 2474.67,
-  "text": "configurations uh even in parallel."
+  "start": 2479.01,
+  "end": 2482.13,
+  "text": "Next we'll be talking about CI CD,"
  },
  {
-  "start": 2474.68,
-  "end": 2477.43,
-  "text": "Okay. So this was all about distributed"
+  "start": 2482.13,
+  "end": 2485.21,
+  "text": "how you can trigger this events"
  },
  {
-  "start": 2477.44,
-  "end": 2480.15,
-  "text": "execution. Uh next we'll be talking"
+  "start": 2485.21,
+  "end": 2487.69,
+  "text": "that is also a Tosca CI client."
  },
  {
-  "start": 2480.16,
-  "end": 2484.23,
-  "text": "about uh CI/CD how you can trigger this"
- },
- {
-  "start": 2484.24,
-  "end": 2487.27,
-  "text": "uh events that is also a TSA CI client."
- },
- {
-  "start": 2487.28,
-  "end": 2490.87,
-  "text": "Uh so we'll look at all of them in the"
- },
- {
-  "start": 2490.88,
-  "end": 2495.24,
-  "text": "CI/CD uh session."
+  "start": 2487.69,
+  "end": 2492.69,
+  "text": "So we'll look at all of them in the CI CD session."
  }
 ]

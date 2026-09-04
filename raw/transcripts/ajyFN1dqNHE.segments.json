@@ -1,1057 +1,667 @@
 [
  {
-  "start": 12.43,
-  "end": 12.44,
-  "text": "hey everyone welcome back to our Channel"
+  "start": 9.58,
+  "end": 12.42,
+  "text": "Hey everyone, welcome back to our channel."
  },
  {
-  "start": 12.44,
-  "end": 15.07,
-  "text": "I am back with another interesting topic"
+  "start": 12.42,
+  "end": 19.02,
+  "text": "I am back with another interesting topic in the Tosca Automation playlist."
  },
  {
-  "start": 15.08,
-  "end": 17.83,
-  "text": "in the tosa automation"
+  "start": 19.02,
+  "end": 24.94,
+  "text": "So let's look into another common issue which you might encounter while working with Tosca"
  },
  {
-  "start": 17.84,
-  "end": 20.55,
-  "text": "playlist so let's look into another"
+  "start": 24.94,
+  "end": 28.86,
+  "text": "and especially around a string manipulation."
  },
  {
-  "start": 20.56,
-  "end": 23.39,
-  "text": "common issue which you might encounter"
+  "start": 28.86,
+  "end": 30.92,
+  "text": "So let's pick up a scenario."
  },
  {
-  "start": 23.4,
-  "end": 26.349,
-  "text": "while working with tosa and especially"
+  "start": 30.92,
+  "end": 36.42,
+  "text": "This is the Swaglabs demo website where I have added two products into the cart."
  },
  {
-  "start": 26.359,
-  "end": 29.509,
-  "text": "around a string manipulation so uh let's"
+  "start": 37.02,
+  "end": 40.92,
+  "text": "And these are two products which have got different prices."
  },
  {
-  "start": 29.519,
-  "end": 32.19,
-  "text": "pick up scenario this is the swag Labs"
+  "start": 40.92,
+  "end": 47.92,
+  "text": "Now the scenario here is I want to calculate the total price for these two products which"
  },
  {
-  "start": 32.2,
-  "end": 34.51,
-  "text": "demo website where I have added two"
+  "start": 47.92,
+  "end": 50.46,
+  "text": "are added into the cart."
  },
  {
-  "start": 34.52,
-  "end": 37.27,
-  "text": "products into the cart okay and these"
+  "start": 50.46,
+  "end": 56.8,
+  "text": "So I want to verify that the total price is as per the expected results."
  },
  {
-  "start": 37.28,
-  "end": 39.31,
-  "text": "are two products uh which have got"
+  "start": 56.8,
+  "end": 63.52,
+  "text": "And for that I need to add these two values which are in dollars and also there are"
  },
  {
-  "start": 39.32,
-  "end": 42.229,
-  "text": "different prices now the scenario here"
+  "start": 63.52,
+  "end": 65.96,
+  "text": "some decimal points here."
  },
  {
-  "start": 42.239,
-  "end": 45.63,
-  "text": "is uh I want to calculate uh the total"
+  "start": 65.96,
+  "end": 68.66,
+  "text": "So how can we do that?"
  },
  {
-  "start": 45.64,
-  "end": 48.15,
-  "text": "price for these two products which are"
+  "start": 68.66,
+  "end": 70.8,
+  "text": "What is the problem here?"
  },
  {
-  "start": 48.16,
-  "end": 50.95,
-  "text": "added into the cart okay so I want to"
+  "start": 70.8,
+  "end": 73.14,
+  "text": "Let's look at this."
  },
  {
-  "start": 50.96,
-  "end": 54.189,
-  "text": "verify that the total price is as per"
+  "start": 73.14,
+  "end": 79.68,
+  "text": "So for this, first we will go ahead and we will scan these two elements from the"
  },
  {
-  "start": 54.199,
-  "end": 57.79,
-  "text": "the expected results and for that I need"
+  "start": 79.68,
+  "end": 84.63,
+  "text": "application."
  },
  {
-  "start": 57.8,
-  "end": 61.31,
-  "text": "to add these two values uh which are in"
+  "start": 84.63,
+  "end": 89.91,
+  "text": "For now we are not able to see any elements with those price."
  },
  {
-  "start": 61.32,
-  "end": 63.79,
-  "text": "dollars right and also there are some"
+  "start": 89.91,
+  "end": 95.89,
+  "text": "So we are going to increase the filtered items here until we see those price elements"
  },
  {
-  "start": 63.8,
-  "end": 67.63,
-  "text": "decimal points here so uh how can we do"
+  "start": 95.89,
+  "end": 98.83,
+  "text": "and these are the two price elements here."
  },
  {
-  "start": 67.64,
-  "end": 70.87,
-  "text": "that uh what is the problem here let's"
+  "start": 98.83,
+  "end": 103.95,
+  "text": "And for now these are both unique so we don't need to add any additional properties"
  },
  {
-  "start": 70.88,
-  "end": 72.03,
-  "text": "look at"
+  "start": 103.95,
+  "end": 108.03,
+  "text": "or we don't need to change the identification mechanism."
  },
  {
-  "start": 72.04,
-  "end": 76.27,
-  "text": "this so for this uh uh first we will go"
+  "start": 108.03,
+  "end": 111.71,
+  "text": "So we are just going to add this module now."
  },
  {
-  "start": 76.28,
-  "end": 78.59,
-  "text": "ahead and we will scan these two"
+  "start": 111.71,
+  "end": 119.52,
+  "text": "I'm going to call this cart and then save it."
  },
  {
-  "start": 78.6,
-  "end": 83.23,
-  "text": "elements from the"
+  "start": 119.52,
+  "end": 120.76,
+  "text": "And let's close this."
  },
  {
-  "start": 85.789,
-  "end": 85.799,
-  "text": "application okay for now uh we are not"
+  "start": 120.76,
+  "end": 124.0,
+  "text": "So we have got our module now."
  },
  {
-  "start": 85.799,
-  "end": 88.91,
-  "text": "able to see uh any elements with those"
+  "start": 124.0,
+  "end": 129.6,
+  "text": "So let's go to our test case folder here called string and then here we will create"
  },
  {
-  "start": 88.92,
-  "end": 91.31,
-  "text": "price so so uh we are going to increase"
+  "start": 129.6,
+  "end": 130.6,
+  "text": "a new test case."
  },
  {
-  "start": 91.32,
-  "end": 93.99,
-  "text": "the filtered items here until uh we see"
+  "start": 130.84,
+  "end": 138.44,
+  "text": "We will call this calculate total price."
  },
  {
-  "start": 94.0,
-  "end": 96.55,
-  "text": "those price elements and these are the"
+  "start": 138.44,
+  "end": 146.31,
+  "text": "And then we are going to add our module here which is the cart."
  },
  {
-  "start": 96.56,
-  "end": 99.389,
-  "text": "two price elements here and for now"
+  "start": 146.31,
+  "end": 153.91,
+  "text": "Now the first step is to store these values into the buffer which is the price of these"
  },
  {
-  "start": 99.399,
-  "end": 102.19,
-  "text": "these are both unique so we don't need"
+  "start": 153.91,
+  "end": 154.91,
+  "text": "items."
  },
  {
-  "start": 102.2,
-  "end": 104.51,
-  "text": "to add any additional Properties or we"
+  "start": 154.91,
+  "end": 159.83,
+  "text": "We could also change the module attributes here so that we don't actually see the"
  },
  {
-  "start": 104.52,
-  "end": 106.35,
-  "text": "don't need to change the identification"
+  "start": 159.83,
+  "end": 170.24,
+  "text": "price here but we will rename it to item 1 and item 2."
  },
  {
-  "start": 106.36,
-  "end": 109.749,
-  "text": "mechanism right so we are just going to"
+  "start": 170.24,
+  "end": 175.32,
+  "text": "Now if I go back to my test steps I can see item 1 and item 2."
  },
  {
-  "start": 109.759,
-  "end": 112.59,
-  "text": "add this module now uh I'm going to call"
+  "start": 175.32,
+  "end": 182.52,
+  "text": "Here we have to use some property which is the inner text and we will store it"
  },
  {
-  "start": 112.6,
-  "end": 114.59,
-  "text": "this"
+  "start": 182.52,
+  "end": 184.2,
+  "text": "into a buffer."
  },
  {
-  "start": 114.6,
-  "end": 118.23,
-  "text": "cart okay and then save"
+  "start": 184.2,
+  "end": 191.46,
+  "text": "So we will call this price 1 and we will change the action mode to buffer here."
  },
  {
-  "start": 118.24,
-  "end": 121.35,
-  "text": "it and let's clck close this so we have"
+  "start": 192.12,
+  "end": 199.54,
+  "text": "So we will give the inner text and then price 2."
  },
  {
-  "start": 121.36,
-  "end": 125.069,
-  "text": "got our module now so let's go to our"
+  "start": 199.54,
+  "end": 202.02,
+  "text": "And then we will change it to buffer."
  },
  {
-  "start": 125.079,
-  "end": 128.19,
-  "text": "test case folder here called string and"
+  "start": 202.02,
+  "end": 204.42,
+  "text": "So now we have buffered both the prices."
  },
  {
-  "start": 128.2,
-  "end": 130.949,
-  "text": "then here we will create a new test case"
+  "start": 204.42,
+  "end": 209.54,
+  "text": "Now we need to calculate the total which is we need to sum these two different price"
  },
  {
-  "start": 130.959,
-  "end": 133.75,
-  "text": "uh we will call this um"
+  "start": 209.54,
+  "end": 211.7,
+  "text": "items."
  },
  {
-  "start": 133.76,
-  "end": 136.83,
-  "text": "calculate total"
+  "start": 211.7,
+  "end": 223.9,
+  "text": "Now if I go ahead and use another test step here called set buffer and we are"
  },
  {
-  "start": 136.84,
-  "end": 140.43,
-  "text": "price okay and then uh we are going to"
+  "start": 223.9,
+  "end": 228.46,
+  "text": "going to name this buffer as the sum."
  },
  {
-  "start": 140.44,
-  "end": 145.19,
-  "text": "add our module here uh which is the"
+  "start": 228.46,
+  "end": 236.18,
+  "text": "And here we need to calculate the sum here so we can use an expression called calc which"
  },
  {
-  "start": 145.2,
-  "end": 150.19,
-  "text": "cart now the first uh step is to stor"
+  "start": 236.18,
+  "end": 242.3,
+  "text": "basically can calculate any particular mathematical operation."
  },
  {
-  "start": 150.2,
-  "end": 152.509,
-  "text": "this values into the buffer which is the"
+  "start": 242.3,
+  "end": 245.08,
+  "text": "Inside this we will use the buffers."
  },
  {
-  "start": 152.519,
-  "end": 155.75,
-  "text": "price of these items right uh we could"
+  "start": 245.08,
+  "end": 267.97,
+  "text": "So we have got two buffers here price 1 and price 2."
  },
  {
-  "start": 155.76,
-  "end": 158.03,
-  "text": "also change the module attributes here"
+  "start": 268.17,
+  "end": 274.29,
+  "text": "So this is the calculation expression where we can add two different prices here."
  },
  {
-  "start": 158.04,
-  "end": 160.229,
-  "text": "so that we don't actually see the price"
+  "start": 274.29,
+  "end": 280.01,
+  "text": "So until this it looks fine but will it give the expected result."
  },
  {
-  "start": 160.239,
-  "end": 164.43,
-  "text": "here but we will rename it to item one"
+  "start": 280.01,
+  "end": 282.13,
+  "text": "So let's see that."
  },
  {
-  "start": 164.44,
-  "end": 168.63,
-  "text": "and item"
+  "start": 282.13,
+  "end": 292.45,
+  "text": "First let's go ahead and execute this before that I will just rename this to add prices."
  },
  {
-  "start": 171.869,
-  "end": 171.879,
-  "text": "two right now if I go back to my test"
+  "start": 292.45,
+  "end": 302.18,
+  "text": "Okay and then let's go ahead and run this."
  },
  {
-  "start": 171.879,
-  "end": 175.229,
-  "text": "steps uh I can see item one and item two"
+  "start": 302.3,
+  "end": 310.02,
+  "text": "So now if I look at the scratch book here you can see in the first step it passed so"
  },
  {
-  "start": 175.239,
-  "end": 179.509,
-  "text": "here um we have to use uh some property"
+  "start": 310.02,
+  "end": 315.54,
+  "text": "it was able to capture the price and store it into a buffer you can see this was the"
  },
  {
-  "start": 179.519,
-  "end": 181.589,
-  "text": "uh which which is the inner text okay"
+  "start": 315.54,
+  "end": 319.16,
+  "text": "first price and this was the second price."
  },
  {
-  "start": 181.599,
-  "end": 184.27,
-  "text": "and we'll store it into a buffer so"
+  "start": 319.16,
+  "end": 326.5,
+  "text": "But when we try to add these two prices you will see that it will throw an error"
  },
  {
-  "start": 184.28,
-  "end": 186.589,
-  "text": "we'll call this price"
+  "start": 326.5,
+  "end": 328.1,
+  "text": "for the expression."
  },
  {
-  "start": 186.599,
-  "end": 189.789,
-  "text": "one and we will change the action mode"
+  "start": 328.1,
+  "end": 336.92,
+  "text": "So it will say that it is not a valid expression which can be used in this particular calc expression."
  },
  {
-  "start": 189.799,
-  "end": 194.43,
-  "text": "to buffer here same for this so we will"
+  "start": 336.92,
+  "end": 339.66,
+  "text": "So this doesn't work."
  },
  {
-  "start": 194.44,
-  "end": 198.27,
-  "text": "give the inner text and then price"
+  "start": 339.66,
+  "end": 345.78,
+  "text": "So we cannot directly add these two prices which contains a dollar sign."
  },
  {
-  "start": 198.28,
-  "end": 200.869,
-  "text": "two okay and then we will change it to"
+  "start": 345.78,
+  "end": 348.36,
+  "text": "Now what can we do here."
  },
  {
-  "start": 200.879,
-  "end": 203.789,
-  "text": "buffer so now we have buffered both the"
+  "start": 348.36,
+  "end": 350.64,
+  "text": "So let's make some changes."
  },
  {
-  "start": 203.799,
-  "end": 205.949,
-  "text": "prices now we need to calculate the"
+  "start": 350.64,
+  "end": 357.14,
+  "text": "So let's go ahead and remove this step and here let's make some changes to the"
  },
  {
-  "start": 205.959,
-  "end": 208.47,
-  "text": "total which is uh we need to sum these"
+  "start": 357.18,
+  "end": 364.86,
+  "text": "price one and price two buffer which has got that particular price value with the dollar."
  },
  {
-  "start": 208.48,
-  "end": 212.83,
-  "text": "two different price items right now um"
+  "start": 364.86,
+  "end": 371.36,
+  "text": "So here first we need to remove that dollar from those price items."
  },
  {
-  "start": 212.84,
-  "end": 215.47,
-  "text": "if I go ahead and use another test step"
+  "start": 371.36,
+  "end": 376.9,
+  "text": "And how we can do that is by using the string replace method."
  },
  {
-  "start": 215.48,
-  "end": 222.27,
-  "text": "here called set"
+  "start": 376.9,
+  "end": 383.5,
+  "text": "So in this string replace first of all I need to pass the text which we want to"
  },
  {
-  "start": 225.03,
-  "end": 225.04,
-  "text": "buffer and uh we are going to name this"
+  "start": 383.5,
+  "end": 386.66,
+  "text": "replace so that is our buffer."
  },
  {
-  "start": 225.04,
-  "end": 230.149,
-  "text": "buffer as the sum right and here we need"
+  "start": 386.66,
+  "end": 393.22,
+  "text": "So I'm going to use that be price one here and then we need to pass the expression."
  },
  {
-  "start": 230.159,
-  "end": 232.91,
-  "text": "to calculate the sum here so we can use"
+  "start": 393.22,
+  "end": 398.66,
+  "text": "So what do we need to replace and that is the dollar sign here."
  },
  {
-  "start": 232.92,
-  "end": 236.19,
-  "text": "an expression called Cals which"
+  "start": 398.66,
+  "end": 403.14,
+  "text": "So we will mention the dollar here and then what we want to do with this."
  },
  {
-  "start": 236.2,
-  "end": 238.27,
-  "text": "basically can calculate any uh"
+  "start": 403.14,
+  "end": 411.94,
+  "text": "So either we can put a zero before the price or we can just leave it empty."
  },
  {
-  "start": 238.28,
-  "end": 240.71,
-  "text": "particular mathematical operation"
+  "start": 411.94,
+  "end": 416.26,
+  "text": "So we'll replace it with a white space."
  },
  {
-  "start": 240.72,
-  "end": 243.75,
-  "text": "right um inside this we will use the"
+  "start": 416.26,
+  "end": 418.02,
+  "text": "So this is the expression."
  },
  {
-  "start": 243.76,
-  "end": 246.35,
-  "text": "buffers um so we have got two buffers"
+  "start": 418.02,
+  "end": 423.26,
+  "text": "So this is the text which we want to replace then what we want to replace and then with"
  },
  {
-  "start": 246.36,
-  "end": 250.229,
-  "text": "here price"
+  "start": 423.26,
+  "end": 425.36,
+  "text": "what we want to replace."
  },
  {
-  "start": 269.83,
-  "end": 269.84,
-  "text": "two so this is the calculation um"
+  "start": 425.36,
+  "end": 429.74,
+  "text": "So these are the three things which we need to mention here."
  },
  {
-  "start": 269.84,
-  "end": 272.27,
-  "text": "expression where we can add two"
+  "start": 429.74,
+  "end": 432.56,
+  "text": "And then I'm going to close this."
  },
  {
-  "start": 272.28,
-  "end": 276.15,
-  "text": "different prices here so until this uh"
+  "start": 432.56,
+  "end": 435.42,
+  "text": "But there is still a problem here."
  },
  {
-  "start": 276.16,
-  "end": 278.31,
-  "text": "it looks fine but will it give the"
+  "start": 435.42,
+  "end": 437.32,
+  "text": "You think this will work."
  },
  {
-  "start": 278.32,
-  "end": 281.749,
-  "text": "expected result so let's see that uh"
+  "start": 437.32,
+  "end": 441.86,
+  "text": "So how we can check that is we can right click on this expression and we can do"
  },
  {
-  "start": 281.759,
-  "end": 285.469,
-  "text": "first uh let's go ahead and execute this"
+  "start": 441.86,
+  "end": 446.49,
+  "text": "a translate value."
  },
  {
-  "start": 285.479,
-  "end": 288.15,
-  "text": "before that I will just rename this to"
+  "start": 446.49,
+  "end": 450.93,
+  "text": "And you will see that it was not able to replace that dollar sign."
  },
  {
-  "start": 288.16,
-  "end": 291.31,
-  "text": "add uh"
+  "start": 450.93,
+  "end": 454.25,
+  "text": "It was not able to remove that dollar sign."
  },
  {
-  "start": 291.32,
-  "end": 293.87,
-  "text": "prices okay and then uh let's go ahead"
+  "start": 454.25,
+  "end": 455.25,
+  "text": "OK."
  },
  {
-  "start": 293.88,
-  "end": 301.99,
-  "text": "and run this"
+  "start": 455.25,
+  "end": 460.85,
+  "text": "Now whenever you are using some kind of special characters you always need to escape"
  },
  {
-  "start": 305.51,
-  "end": 305.52,
-  "text": "okay so now if I look at the scratchbook"
+  "start": 460.85,
+  "end": 464.81,
+  "text": "these characters otherwise it will not work in Tosca."
  },
  {
-  "start": 305.52,
-  "end": 308.99,
-  "text": "here uh you can see uh in the first step"
+  "start": 464.81,
+  "end": 470.71,
+  "text": "So what we need to do here is we need to replace the special character by adding"
  },
  {
-  "start": 309.0,
-  "end": 311.51,
-  "text": "uh it passed so it was able to capture"
+  "start": 470.71,
+  "end": 472.13,
+  "text": "a backslash."
  },
  {
-  "start": 311.52,
-  "end": 313.59,
-  "text": "the price and store it into a buffer you"
+  "start": 472.13,
+  "end": 473.13,
+  "text": "OK."
  },
  {
-  "start": 313.6,
-  "end": 316.749,
-  "text": "can see uh this was the first price and"
+  "start": 473.29,
+  "end": 480.13,
+  "text": "Let's put it inside the double quotes and then let's add a backslash here and then"
  },
  {
-  "start": 316.759,
-  "end": 319.79,
-  "text": "this was the second price but uh when we"
+  "start": 480.13,
+  "end": 481.45,
+  "text": "the dollar sign."
  },
  {
-  "start": 319.8,
-  "end": 322.749,
-  "text": "try to add these two prices uh you will"
+  "start": 481.45,
+  "end": 484.65,
+  "text": "So what this will do is it will escape this particular character."
  },
  {
-  "start": 322.759,
-  "end": 326.629,
-  "text": "see that it will throw an error uh for"
+  "start": 484.65,
+  "end": 485.69,
+  "text": "OK."
  },
  {
-  "start": 326.639,
-  "end": 329.07,
-  "text": "the expression so it will see that it is"
+  "start": 485.69,
+  "end": 491.17,
+  "text": "Now if I go ahead and translate the value again this time around you will see that"
  },
  {
-  "start": 329.08,
-  "end": 331.95,
-  "text": "not a valid expression uh which can be"
+  "start": 491.17,
+  "end": 496.01,
+  "text": "it has removed or replaced that dollar with a white space."
  },
  {
-  "start": 331.96,
-  "end": 335.27,
-  "text": "used in this particular uh caly"
+  "start": 496.01,
+  "end": 499.29,
+  "text": "So that's no more there in this particular value."
  },
  {
-  "start": 335.28,
-  "end": 339.43,
-  "text": "expression right so uh this doesn't work"
+  "start": 499.29,
+  "end": 500.65,
+  "text": "OK."
  },
  {
-  "start": 339.44,
-  "end": 341.83,
-  "text": "so we cannot directly add these two"
+  "start": 500.65,
+  "end": 507.65,
+  "text": "So this way we can do a replace using the string replace expression and the same we"
  },
  {
-  "start": 341.84,
-  "end": 344.67,
-  "text": "prices which contains a dollar"
+  "start": 507.65,
+  "end": 513.83,
+  "text": "can do for the price too."
  },
  {
-  "start": 344.68,
-  "end": 348.39,
-  "text": "sign now uh what can we do here right so"
+  "start": 513.83,
+  "end": 519.91,
+  "text": "So I will just use this expression here and I will replace it with price too."
  },
  {
-  "start": 348.4,
-  "end": 351.83,
-  "text": "let's uh make some changes okay so um"
+  "start": 519.91,
+  "end": 525.29,
+  "text": "That should give me the new price if I just check this again."
  },
  {
-  "start": 351.84,
-  "end": 355.029,
-  "text": "let's go ahead and remove this step and"
+  "start": 525.29,
+  "end": 527.77,
+  "text": "So this is the OK."
  },
  {
-  "start": 355.039,
-  "end": 357.23,
-  "text": "here let's make some changes to the"
+  "start": 527.77,
+  "end": 534.09,
+  "text": "Now what we can do is now we can calculate the total here and we can use the same"
  },
  {
-  "start": 357.24,
-  "end": 360.15,
-  "text": "price one and price two buffer right uh"
+  "start": 534.09,
+  "end": 539.61,
+  "text": "expression which we used earlier which is calc which is the calc function."
  },
  {
-  "start": 360.16,
-  "end": 362.629,
-  "text": "which has got that particular price"
+  "start": 539.61,
+  "end": 546.17,
+  "text": "And inside this we are going to use the buffer which has got now the new values"
  },
  {
-  "start": 362.639,
-  "end": 366.11,
-  "text": "value with the dollar so here uh first"
+  "start": 546.17,
+  "end": 547.17,
+  "text": "right."
  },
  {
-  "start": 366.12,
-  "end": 368.83,
-  "text": "we need to remove that dollar from those"
+  "start": 547.17,
+  "end": 562.81,
+  "text": "So we are going to use the price one and then plus the price two."
  },
  {
-  "start": 368.84,
-  "end": 372.55,
-  "text": "price items okay and how we can do that"
+  "start": 562.81,
+  "end": 563.81,
+  "text": "OK."
  },
  {
-  "start": 372.56,
-  "end": 376.87,
-  "text": "is by using the string replace method so"
+  "start": 563.99,
+  "end": 570.93,
+  "text": "So now let's go ahead and try this again and let's see if we can get that total price."
  },
  {
-  "start": 376.88,
-  "end": 379.629,
-  "text": "in this string replace uh first of all I"
+  "start": 570.93,
+  "end": 573.05,
+  "text": "So let's try and run this."
  },
  {
-  "start": 379.639,
-  "end": 383.309,
-  "text": "need to pass uh the text which we want"
+  "start": 573.05,
+  "end": 578.5,
+  "text": "OK."
  },
  {
-  "start": 383.319,
-  "end": 386.469,
-  "text": "to replace right so that is our buffer"
+  "start": 578.5,
+  "end": 581.02,
+  "text": "So you can see the execution has passed this time."
  },
  {
-  "start": 386.479,
-  "end": 388.99,
-  "text": "so I'm going to use that b price one"
+  "start": 581.02,
+  "end": 584.62,
+  "text": "And if we go ahead and look at the logs."
  },
  {
-  "start": 389.0,
-  "end": 390.189,
-  "text": "here"
+  "start": 584.62,
+  "end": 591.46,
+  "text": "So the price was set and then it calculated the total price which was 39.98."
  },
  {
-  "start": 390.199,
-  "end": 392.629,
-  "text": "and then we need to pass the expression"
+  "start": 591.46,
+  "end": 593.18,
+  "text": "Right."
  },
  {
-  "start": 392.639,
-  "end": 396.39,
-  "text": "right so what do we need to replace and"
+  "start": 593.18,
+  "end": 599.12,
+  "text": "Now if you have got this total price somewhere on the application or in your requirements"
  },
  {
-  "start": 396.4,
-  "end": 399.15,
-  "text": "that is the dollar sign here right so we"
+  "start": 599.12,
+  "end": 604.38,
+  "text": "you can put verify action mode and verify this total price as well."
  },
  {
-  "start": 399.16,
-  "end": 401.629,
-  "text": "will mention the dollar here and then"
+  "start": 604.38,
+  "end": 605.62,
+  "text": "Right."
  },
  {
-  "start": 401.639,
-  "end": 403.589,
-  "text": "what we want to do with this so either"
+  "start": 605.62,
+  "end": 610.34,
+  "text": "So this way you can use the buffer action mode to buffer different values from your"
  },
  {
-  "start": 403.599,
-  "end": 408.35,
-  "text": "we can um put a zero uh before the price"
+  "start": 610.34,
+  "end": 616.46,
+  "text": "application and then you can use the different string methods like the string replace"
  },
  {
-  "start": 408.36,
-  "end": 411.629,
-  "text": "or uh we can just uh leave it empty"
+  "start": 616.46,
+  "end": 622.94,
+  "text": "to replace some of the special characters or some characters which you want to remove"
  },
  {
-  "start": 411.639,
-  "end": 413.629,
-  "text": "right so we'll uh replace it with a"
+  "start": 622.94,
+  "end": 630.1,
+  "text": "from the values before you perform some calculations and also do some verifications on them."
  },
  {
-  "start": 413.639,
-  "end": 417.11,
-  "text": "white space now uh so this is the"
+  "start": 630.1,
+  "end": 631.1,
+  "text": "Right."
  },
  {
-  "start": 417.12,
-  "end": 419.83,
-  "text": "expression so this is the text which we"
+  "start": 631.1,
+  "end": 636.7,
+  "text": "So this is very helpful and it's a very common scenario you can come across not only"
  },
  {
-  "start": 419.84,
-  "end": 421.83,
-  "text": "want to replace then what we want to"
+  "start": 636.7,
+  "end": 643.34,
+  "text": "for calculating the total price in a shopping cart but it could be a scenario in several"
  },
  {
-  "start": 421.84,
-  "end": 423.95,
-  "text": "replace and then with what we want to"
+  "start": 643.34,
+  "end": 648.58,
+  "text": "other situations related to your web applications."
  },
  {
-  "start": 423.96,
-  "end": 426.029,
-  "text": "replace right so these are the three"
+  "start": 648.58,
+  "end": 650.82,
+  "text": "That's all for this particular video."
  },
  {
-  "start": 426.039,
-  "end": 428.55,
-  "text": "things which uh we need to mention"
+  "start": 650.82,
+  "end": 654.54,
+  "text": "If you have any questions then please leave it in the comments."
  },
  {
-  "start": 428.56,
-  "end": 432.39,
-  "text": "here and then um I'm going to close this"
+  "start": 654.54,
+  "end": 658.1,
+  "text": "If you like this video then please subscribe to our channel."
  },
  {
-  "start": 432.4,
-  "end": 435.189,
-  "text": "but there is still a problem here right"
- },
- {
-  "start": 435.199,
-  "end": 437.99,
-  "text": "do you think this will work uh so how we"
- },
- {
-  "start": 438.0,
-  "end": 439.99,
-  "text": "can check that is we can right click on"
- },
- {
-  "start": 440.0,
-  "end": 442.07,
-  "text": "this expression and we can do a"
- },
- {
-  "start": 442.08,
-  "end": 445.27,
-  "text": "translate"
- },
- {
-  "start": 448.749,
-  "end": 448.759,
-  "text": "value and you will see that it was not"
- },
- {
-  "start": 448.759,
-  "end": 450.79,
-  "text": "able to replace place that dollar sign"
- },
- {
-  "start": 450.8,
-  "end": 453.39,
-  "text": "it was not able to remove that dollar"
- },
- {
-  "start": 453.4,
-  "end": 456.469,
-  "text": "sign okay now whenever you are using"
- },
- {
-  "start": 456.479,
-  "end": 459.11,
-  "text": "some kind of special characters you"
- },
- {
-  "start": 459.12,
-  "end": 461.99,
-  "text": "always need to escape these characters"
- },
- {
-  "start": 462.0,
-  "end": 464.83,
-  "text": "otherwise it will not work in tosa so"
- },
- {
-  "start": 464.84,
-  "end": 466.909,
-  "text": "what we need to do here is we need to"
- },
- {
-  "start": 466.919,
-  "end": 470.11,
-  "text": "replace uh this special character by"
- },
- {
-  "start": 470.12,
-  "end": 474.309,
-  "text": "adding a back slash okay so let's put it"
- },
- {
-  "start": 474.319,
-  "end": 478.11,
-  "text": "inside the double codes and then let's"
- },
- {
-  "start": 478.12,
-  "end": 480.23,
-  "text": "add a back slash here and then the"
- },
- {
-  "start": 480.24,
-  "end": 482.39,
-  "text": "dollar sign so what this will do is it"
- },
- {
-  "start": 482.4,
-  "end": 484.83,
-  "text": "will escape this particular character"
- },
- {
-  "start": 484.84,
-  "end": 487.909,
-  "text": "okay now if I go ahead and translate the"
- },
- {
-  "start": 487.919,
-  "end": 490.43,
-  "text": "value again this time around you will"
- },
- {
-  "start": 490.44,
-  "end": 493.39,
-  "text": "see that it has removed or replaced that"
- },
- {
-  "start": 493.4,
-  "end": 496.309,
-  "text": "dollar uh with a white space so that's"
- },
- {
-  "start": 496.319,
-  "end": 499.51,
-  "text": "no mod there in this particular value"
- },
- {
-  "start": 499.52,
-  "end": 502.99,
-  "text": "okay so uh this way we can uh do a"
- },
- {
-  "start": 503.0,
-  "end": 505.629,
-  "text": "replace uh using the string replace"
- },
- {
-  "start": 505.639,
-  "end": 508.869,
-  "text": "expression and the same we can do for"
- },
- {
-  "start": 508.879,
-  "end": 512.63,
-  "text": "the price"
- },
- {
-  "start": 515.99,
-  "end": 516.0,
-  "text": "two so I will just use this expression"
- },
- {
-  "start": 516.0,
-  "end": 518.75,
-  "text": "here and I will replace it with price"
- },
- {
-  "start": 518.76,
-  "end": 522.23,
-  "text": "two that should give me uh the new price"
- },
- {
-  "start": 522.24,
-  "end": 525.91,
-  "text": "if I just check this again so this is"
- },
- {
-  "start": 525.92,
-  "end": 530.15,
-  "text": "the okay now uh what we can do is uh now"
- },
- {
-  "start": 530.16,
-  "end": 533.07,
-  "text": "we can calculate the total here and we"
- },
- {
-  "start": 533.08,
-  "end": 534.99,
-  "text": "can use the same expression which we"
- },
- {
-  "start": 535.0,
-  "end": 537.99,
-  "text": "used earlier which is Cals which is the"
- },
- {
-  "start": 538.0,
-  "end": 541.069,
-  "text": "Cal function and and inside this uh we"
- },
- {
-  "start": 541.079,
-  "end": 544.59,
-  "text": "are going to use the buffer uh which has"
- },
- {
-  "start": 544.6,
-  "end": 547.47,
-  "text": "got now the new values right so we are"
- },
- {
-  "start": 547.48,
-  "end": 552.63,
-  "text": "going to use V price"
- },
- {
-  "start": 555.79,
-  "end": 555.8,
-  "text": "one and then"
- },
- {
-  "start": 555.8,
-  "end": 561.949,
-  "text": "plus b price"
- },
- {
-  "start": 566.55,
-  "end": 566.56,
-  "text": "two okay so now uh let's go ahead and"
- },
- {
-  "start": 566.56,
-  "end": 568.75,
-  "text": "try this again and let's see if we can"
- },
- {
-  "start": 568.76,
-  "end": 571.99,
-  "text": "get that total price so let's try and"
- },
- {
-  "start": 572.0,
-  "end": 576.87,
-  "text": "run"
- },
- {
-  "start": 579.35,
-  "end": 579.36,
-  "text": "this okay so you can see the execution"
- },
- {
-  "start": 579.36,
-  "end": 581.99,
-  "text": "has passed this time and if we go ahead"
- },
- {
-  "start": 582.0,
-  "end": 583.43,
-  "text": "and look at the"
- },
- {
-  "start": 583.44,
-  "end": 587.75,
-  "text": "logs so the price was Set uh and then uh"
- },
- {
-  "start": 587.76,
-  "end": 591.31,
-  "text": "it calculated a total price which was"
- },
- {
-  "start": 591.32,
-  "end": 594.99,
-  "text": "39.9 right now uh if you have got this"
- },
- {
-  "start": 595.0,
-  "end": 597.47,
-  "text": "total price somewhere on the application"
- },
- {
-  "start": 597.48,
-  "end": 600.31,
-  "text": "or uh in your requirements you can put"
- },
- {
-  "start": 600.32,
-  "end": 602.63,
-  "text": "uh verify action mode and verify this"
- },
- {
-  "start": 602.64,
-  "end": 606.11,
-  "text": "total price as well right so this way"
- },
- {
-  "start": 606.12,
-  "end": 608.47,
-  "text": "you can use the buffer action mode to"
- },
- {
-  "start": 608.48,
-  "end": 610.67,
-  "text": "buffer different values from your"
- },
- {
-  "start": 610.68,
-  "end": 613.47,
-  "text": "application and then you can use the"
- },
- {
-  "start": 613.48,
-  "end": 615.75,
-  "text": "different string Methods like the string"
- },
- {
-  "start": 615.76,
-  "end": 618.99,
-  "text": "replace uh to replace some of um the"
- },
- {
-  "start": 619.0,
-  "end": 621.71,
-  "text": "special characters or some characters"
- },
- {
-  "start": 621.72,
-  "end": 623.87,
-  "text": "which you want to remove from the values"
- },
- {
-  "start": 623.88,
-  "end": 626.15,
-  "text": "before you perform some"
- },
- {
-  "start": 626.16,
-  "end": 628.47,
-  "text": "calculations um and also do some"
- },
- {
-  "start": 628.48,
-  "end": 631.23,
-  "text": "verifications on them right so this is"
- },
- {
-  "start": 631.24,
-  "end": 633.71,
-  "text": "very helpful um and it's a very common"
- },
- {
-  "start": 633.72,
-  "end": 636.87,
-  "text": "scenario you can come across not only uh"
- },
- {
-  "start": 636.88,
-  "end": 639.829,
-  "text": "for calculating the total price in a"
- },
- {
-  "start": 639.839,
-  "end": 642.59,
-  "text": "shopping cart but it could be a scenario"
- },
- {
-  "start": 642.6,
-  "end": 645.269,
-  "text": "in several other situations uh related"
- },
- {
-  "start": 645.279,
-  "end": 647.389,
-  "text": "to your web"
- },
- {
-  "start": 647.399,
-  "end": 649.31,
-  "text": "applications that's all for this"
- },
- {
-  "start": 649.32,
-  "end": 651.43,
-  "text": "particular video if you have any"
- },
- {
-  "start": 651.44,
-  "end": 653.389,
-  "text": "questions then please leave it in the"
- },
- {
-  "start": 653.399,
-  "end": 655.829,
-  "text": "comments if you like this video then"
- },
- {
-  "start": 655.839,
-  "end": 658.269,
-  "text": "please subscribe to our Channel thanks"
- },
- {
-  "start": 658.279,
-  "end": 660.35,
-  "text": "for watching and I will see you in the"
- },
- {
-  "start": 660.36,
-  "end": 663.639,
-  "text": "next video"
+  "start": 658.1,
+  "end": 660.9,
+  "text": "Thanks for watching and I will see you in the next video."
  }
 ]

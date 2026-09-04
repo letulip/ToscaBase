@@ -1,882 +1,522 @@
 [
  {
-  "start": 12.509,
-  "end": 12.519,
-  "text": "hey everyone welcome back to our Channel"
+  "start": 9.71,
+  "end": 12.55,
+  "text": "Hey everyone, welcome back to our channel."
  },
  {
-  "start": 12.519,
-  "end": 15.15,
-  "text": "I am back with another interesting topic"
+  "start": 12.55,
+  "end": 19.01,
+  "text": "I am back with another interesting topic in the Tosca Automation playlist."
  },
  {
-  "start": 15.16,
-  "end": 17.79,
-  "text": "in the TS automation"
+  "start": 19.01,
+  "end": 25.03,
+  "text": "So today I'm going to talk about a common issue which people face, especially when they are"
  },
  {
-  "start": 17.8,
-  "end": 20.67,
-  "text": "playlist so today I'm going to talk"
+  "start": 25.03,
+  "end": 32.75,
+  "text": "new to Tosca or they are working in a project and they are using a multi-user workspace"
  },
  {
-  "start": 20.68,
-  "end": 23.589,
-  "text": "about a common issue which people face"
+  "start": 32.75,
+  "end": 35.79,
+  "text": "which has got a common repository."
  },
  {
-  "start": 23.599,
-  "end": 26.95,
-  "text": "especially when they are new to tosa or"
+  "start": 35.79,
+  "end": 42.19,
+  "text": "Now in these kind of projects, you will come across scenarios when there will be folders"
  },
  {
-  "start": 26.96,
-  "end": 30.15,
-  "text": "they are working in a project uh and"
+  "start": 42.19,
+  "end": 46.83,
+  "text": "or there will be objects which you are not able to access."
  },
  {
-  "start": 30.16,
-  "end": 32.79,
-  "text": "they are using a multi-user workspace"
+  "start": 46.83,
+  "end": 54.07,
+  "text": "Even though I have done an update all, which means all the objects are already updated"
  },
  {
-  "start": 32.8,
-  "end": 36.19,
-  "text": "which has got a common repository now in"
+  "start": 54.07,
+  "end": 56.71,
+  "text": "from the repository."
  },
  {
-  "start": 36.2,
-  "end": 38.35,
-  "text": "these kind of projects you will come"
+  "start": 56.71,
+  "end": 62.59,
+  "text": "So I have got the latest changes here in my current workspace, but still I'm not"
  },
  {
-  "start": 38.36,
-  "end": 41.35,
-  "text": "across scenarios when there will be"
+  "start": 62.59,
+  "end": 64.89,
+  "text": "able to access some objects."
  },
  {
-  "start": 41.36,
-  "end": 43.99,
-  "text": "folders or there will be objects which"
+  "start": 64.89,
+  "end": 68.01,
+  "text": "For example, this vehicle insurance folder."
  },
  {
-  "start": 44.0,
-  "end": 47.47,
-  "text": "you are not able to access even though"
+  "start": 68.01,
+  "end": 73.45,
+  "text": "It looks like a common component folder, but actually it is grayed out."
  },
  {
-  "start": 47.48,
-  "end": 51.389,
-  "text": "um I have done an update all which means"
+  "start": 73.45,
+  "end": 81.33,
+  "text": "And also the objects inside these component folders are also grayed out."
  },
  {
-  "start": 51.399,
-  "end": 54.389,
-  "text": "all the objects are already updated uh"
+  "start": 81.33,
+  "end": 87.07,
+  "text": "And there you can see there is a cloud sign here for configurations and test events."
  },
  {
-  "start": 54.399,
-  "end": 57.31,
-  "text": "from uh the repository so I have got the"
+  "start": 87.07,
+  "end": 92.87,
+  "text": "So when I click on these configurations and test events, they get somehow enabled"
  },
  {
-  "start": 57.32,
-  "end": 60.189,
-  "text": "latest changes here in my current"
+  "start": 92.87,
+  "end": 94.05,
+  "text": "for me."
  },
  {
-  "start": 60.199,
-  "end": 63.069,
-  "text": "workspace but still I'm not able to"
+  "start": 94.25,
+  "end": 99.29,
+  "text": "The remaining are still showing as disabled."
  },
  {
-  "start": 63.079,
-  "end": 66.07,
-  "text": "access some objects for example this"
+  "start": 99.29,
+  "end": 105.65,
+  "text": "And if I right click on this and go to the context menu, I don't see a checkout option."
  },
  {
-  "start": 66.08,
-  "end": 68.67,
-  "text": "vehicle insurance folder it looks like a"
+  "start": 105.65,
+  "end": 109.57,
+  "text": "The checkout option is grayed out."
  },
  {
-  "start": 68.68,
-  "end": 71.19,
-  "text": "common component folder but actually it"
+  "start": 109.57,
+  "end": 114.77,
+  "text": "Now if you notice, there is also another option, which is the checkout tree option,"
  },
  {
-  "start": 71.2,
-  "end": 75.35,
-  "text": "is grade out okay and also the objects"
+  "start": 114.77,
+  "end": 116.77,
+  "text": "which seems to be enabled."
  },
  {
-  "start": 75.36,
-  "end": 78.91,
-  "text": "inside these uh folder component folder"
+  "start": 116.77,
+  "end": 118.81,
+  "text": "So let's go ahead and try this."
  },
  {
-  "start": 78.92,
-  "end": 81.59,
-  "text": "are also grade out okay and there you"
+  "start": 118.81,
+  "end": 124.61,
+  "text": "So when I click on this, you will see that Tosca will tell me that there are no objects"
  },
  {
-  "start": 81.6,
-  "end": 84.23,
-  "text": "can see there is a cloud sign here for"
+  "start": 124.61,
+  "end": 130.25,
+  "text": "to check out, but I've got lots of objects which are currently not accessible to me."
  },
  {
-  "start": 84.24,
-  "end": 87.51,
-  "text": "configurations and test events so when I"
+  "start": 130.25,
+  "end": 136.88,
+  "text": "So why Tosca is telling me that there are no objects to check out?"
  },
  {
-  "start": 87.52,
-  "end": 90.03,
-  "text": "click on these configurations and test"
+  "start": 136.88,
+  "end": 140.96,
+  "text": "So why it is like this and what's the solution for this?"
  },
  {
-  "start": 90.04,
-  "end": 93.069,
-  "text": "events uh they get somehow enabled for"
+  "start": 140.96,
+  "end": 146.8,
+  "text": "Because I cannot access this folder, so I cannot create any object inside this."
  },
  {
-  "start": 93.079,
-  "end": 96.389,
-  "text": "me but the remaining are still showing"
+  "start": 146.8,
+  "end": 151.0,
+  "text": "I cannot edit it or I cannot check it out, right?"
  },
  {
-  "start": 96.399,
-  "end": 100.749,
-  "text": "as disabled right and if I right click"
+  "start": 151.0,
+  "end": 158.32,
+  "text": "So basically, this folder is inaccessible to me, even though I am working in a workspace,"
  },
  {
-  "start": 100.759,
-  "end": 103.19,
-  "text": "on this and go to the context menu I"
+  "start": 158.32,
+  "end": 164.12,
+  "text": "which is connected to the correct repository and I have already done an update all."
  },
  {
-  "start": 103.2,
-  "end": 106.109,
-  "text": "don't see a checkout option the checkout"
+  "start": 164.12,
+  "end": 165.12,
+  "text": "Okay."
  },
  {
-  "start": 106.119,
-  "end": 110.67,
-  "text": "option is cre out okay now if you notice"
+  "start": 165.12,
+  "end": 170.88,
+  "text": "Now, first, let's understand what is the reason for this, okay?"
  },
  {
-  "start": 110.68,
-  "end": 113.109,
-  "text": "there's also another option which is the"
+  "start": 170.88,
+  "end": 177.36,
+  "text": "The reason for this is this folder and all of its objects are currently excluded from"
  },
  {
-  "start": 113.119,
-  "end": 115.709,
-  "text": "checkout tree option which seems to be"
- },
- {
-  "start": 115.719,
-  "end": 118.63,
-  "text": "enabled so let's go ahead and try this"
- },
- {
-  "start": 118.64,
-  "end": 121.87,
-  "text": "so when I click on on this you will see"
- },
- {
-  "start": 121.88,
-  "end": 123.99,
-  "text": "that tosa will tell me that there are no"
- },
- {
-  "start": 124.0,
-  "end": 126.83,
-  "text": "objects to check out but I have got lots"
- },
- {
-  "start": 126.84,
-  "end": 128.51,
-  "text": "of objects which are currently not"
- },
- {
-  "start": 128.52,
-  "end": 131.91,
-  "text": "accessible to me so why TOA is telling"
- },
- {
-  "start": 131.92,
-  "end": 135.67,
-  "text": "me that there are no objects to check"
- },
- {
-  "start": 139.67,
-  "end": 139.68,
-  "text": "out so why it is like this and what's"
- },
- {
-  "start": 139.68,
-  "end": 141.589,
-  "text": "the solution for this because I cannot"
- },
- {
-  "start": 141.599,
-  "end": 144.91,
-  "text": "access this folder so I cannot create"
- },
- {
-  "start": 144.92,
-  "end": 148.19,
-  "text": "any object inside this I cannot edit it"
- },
- {
-  "start": 148.2,
-  "end": 151.07,
-  "text": "or I cannot check it out right so"
- },
- {
-  "start": 151.08,
-  "end": 154.11,
-  "text": "basically this folder is inaccessible to"
- },
- {
-  "start": 154.12,
-  "end": 157.229,
-  "text": "me even though I am working um in a"
- },
- {
-  "start": 157.239,
-  "end": 159.43,
-  "text": "workspace which is connected to the"
- },
- {
-  "start": 159.44,
-  "end": 161.99,
-  "text": "correct repository and I have already"
- },
- {
-  "start": 162.0,
-  "end": 164.71,
-  "text": "done an update all"
- },
- {
-  "start": 164.72,
-  "end": 167.91,
-  "text": "okay now first uh let's understand what"
- },
- {
-  "start": 167.92,
-  "end": 171.229,
-  "text": "is the reason for this Okay the reason"
- },
- {
-  "start": 171.239,
-  "end": 174.19,
-  "text": "for this is this folder and all of its"
- },
- {
-  "start": 174.2,
-  "end": 178.35,
-  "text": "object are currently excluded from"
+  "start": 177.36,
+  "end": 178.36,
+  "text": "synchronization."
  },
  {
   "start": 178.36,
-  "end": 180.309,
-  "text": "synchronization now what is"
+  "end": 181.48,
+  "text": "Now, what is synchronization?"
  },
  {
-  "start": 180.319,
-  "end": 183.309,
-  "text": "synchronization so synchronization is a"
+  "start": 181.48,
+  "end": 187.12,
+  "text": "So synchronization is a process where all the objects from your current workspace"
  },
  {
-  "start": 183.319,
-  "end": 185.91,
-  "text": "process where all the objects from your"
+  "start": 187.12,
+  "end": 193.04,
+  "text": "is synchronized with the changes made in the repository, okay?"
  },
  {
-  "start": 185.92,
-  "end": 188.99,
-  "text": "current workspace is synchronized With"
- },
- {
-  "start": 189.0,
-  "end": 192.35,
-  "text": "The Changes uh made in the repository"
- },
- {
-  "start": 192.36,
-  "end": 194.99,
-  "text": "okay so the repository and the workspace"
- },
- {
-  "start": 195.0,
-  "end": 198.19,
-  "text": "will um synchronize all the changes so"
+  "start": 193.04,
+  "end": 198.16,
+  "text": "So the repository and the workspace will synchronize all the changes."
  },
  {
   "start": 198.2,
-  "end": 200.35,
-  "text": "your local workspace will be up to date"
+  "end": 203.08,
+  "text": "So your local workspace will be up to date with the repository changes, okay?"
  },
  {
-  "start": 200.36,
-  "end": 204.07,
-  "text": "with the repository changes okay but um"
+  "start": 203.08,
+  "end": 210.4,
+  "text": "But if you're working in a project, sometimes some folders will be excluded from synchronization"
  },
  {
-  "start": 204.08,
-  "end": 206.869,
-  "text": "if you're are working in a project so"
+  "start": 210.4,
+  "end": 215.44,
+  "text": "and that is done on purpose, especially for large workspaces where you have got"
  },
  {
-  "start": 206.879,
-  "end": 209.27,
-  "text": "sometimes some folders will be excluded"
+  "start": 215.44,
+  "end": 217.48,
+  "text": "lots and lots of objects."
  },
  {
-  "start": 209.28,
-  "end": 211.429,
-  "text": "from ionization and that is done on"
+  "start": 217.48,
+  "end": 223.64,
+  "text": "This is to make the workspace more efficient because the processing time will increase"
  },
  {
-  "start": 211.439,
-  "end": 214.589,
-  "text": "purpose especially for large workspaces"
+  "start": 223.8,
+  "end": 229.08,
+  "text": "if you have got lots of objects to synchronize every time you open a new workspace."
  },
  {
-  "start": 214.599,
-  "end": 216.35,
-  "text": "where you have got lots and lots of"
+  "start": 229.08,
+  "end": 234.04,
+  "text": "And that is why some of the folders are excluded from synchronization so that it"
  },
  {
-  "start": 216.36,
-  "end": 219.789,
-  "text": "objects this is to um make the workspace"
- },
- {
-  "start": 219.799,
-  "end": 222.27,
-  "text": "more efficient because the processing"
- },
- {
-  "start": 222.28,
-  "end": 224.789,
-  "text": "time will increase if you have got lots"
- },
- {
-  "start": 224.799,
-  "end": 227.11,
-  "text": "of objects to synchronize every time you"
- },
- {
-  "start": 227.12,
-  "end": 229.75,
-  "text": "open a new workspace and that is why"
- },
- {
-  "start": 229.76,
-  "end": 232.39,
-  "text": "some of the folders are excluded from"
- },
- {
-  "start": 232.4,
-  "end": 235.229,
-  "text": "synchronization so that it can save uh"
- },
- {
-  "start": 235.239,
-  "end": 237.91,
-  "text": "some time for the automation testers"
- },
- {
-  "start": 237.92,
-  "end": 239.75,
-  "text": "when they are opening the workspace and"
+  "start": 234.04,
+  "end": 239.76,
+  "text": "can save some time for the automation testers when they are opening the workspace and"
  },
  {
   "start": 239.76,
-  "end": 243.35,
-  "text": "they will include only the folders which"
+  "end": 247.04,
+  "text": "they will include only the folders which are required for their own work and they"
  },
  {
-  "start": 243.36,
-  "end": 246.91,
-  "text": "are required for their own work and they"
+  "start": 247.04,
+  "end": 252.36,
+  "text": "will include them for synchronization if they are not already synchronized, okay?"
  },
  {
-  "start": 246.92,
-  "end": 249.19,
-  "text": "will include them for synchronization if"
+  "start": 252.4,
+  "end": 256.56,
+  "text": "But initially, these folders will be inaccessible for them."
  },
  {
-  "start": 249.2,
-  "end": 252.229,
-  "text": "they are not already synchronized okay"
+  "start": 256.56,
+  "end": 264.72,
+  "text": "So the solution for this is simply go to that particular object and just do either"
  },
  {
-  "start": 252.239,
-  "end": 254.589,
-  "text": "but initially these folders will be"
+  "start": 264.72,
+  "end": 272.56,
+  "text": "select include all necessary items for tree or include for synchronization, okay?"
  },
  {
-  "start": 254.599,
-  "end": 257.229,
-  "text": "inaccessible for them so the solution"
+  "start": 272.56,
+  "end": 278.24,
+  "text": "So when you select this particular option, so what Tosca will do is it will include"
  },
  {
-  "start": 257.239,
-  "end": 260.949,
-  "text": "for this is simply go to that particular"
+  "start": 278.36,
+  "end": 282.8,
+  "text": "that particular object for synchronization and then it will synchronize it with the"
  },
  {
-  "start": 260.959,
-  "end": 265.27,
-  "text": "object and just uh do either select"
+  "start": 282.8,
+  "end": 284.6,
+  "text": "common repository, okay?"
  },
  {
-  "start": 265.28,
-  "end": 268.629,
-  "text": "include all necessary items for tree or"
+  "start": 284.6,
+  "end": 287.76,
+  "text": "So now this particular folder will be accessible."
  },
  {
-  "start": 268.639,
-  "end": 270.87,
-  "text": "select include for"
+  "start": 289.08,
+  "end": 294.8,
+  "text": "So this is how you can include your objects for synchronization."
  },
  {
-  "start": 270.88,
-  "end": 273.59,
-  "text": "synchronization okay so when you select"
+  "start": 294.8,
+  "end": 299.72,
+  "text": "If you want to exclude any particular object for synchronization, then this is the"
  },
  {
-  "start": 273.6,
-  "end": 276.23,
-  "text": "this particular option so what tosa will"
+  "start": 299.72,
+  "end": 301.48,
+  "text": "option, okay?"
  },
  {
-  "start": 276.24,
-  "end": 279.07,
-  "text": "do is it will include that particular"
+  "start": 301.48,
+  "end": 306.92,
+  "text": "So you can right click on that particular object and exclude from synchronization."
  },
  {
-  "start": 279.08,
-  "end": 280.95,
-  "text": "object for synchronization and then it"
+  "start": 306.92,
+  "end": 311.52,
+  "text": "You can also exclude the tree from synchronization, which means the parent"
  },
  {
-  "start": 280.96,
-  "end": 283.39,
-  "text": "will synchronize it with the common"
+  "start": 311.52,
+  "end": 316.52,
+  "text": "object and all the child objects are also excluded, okay?"
  },
  {
-  "start": 283.4,
-  "end": 286.029,
-  "text": "repository okay so now this particular"
- },
- {
-  "start": 286.039,
-  "end": 288.029,
-  "text": "folder will be"
- },
- {
-  "start": 288.039,
-  "end": 290.95,
-  "text": "accessible so uh this is how you can uh"
- },
- {
-  "start": 290.96,
-  "end": 293.67,
-  "text": "include uh your objects for"
- },
- {
-  "start": 293.68,
-  "end": 296.31,
-  "text": "synchronization if you want to exclude"
- },
- {
-  "start": 296.32,
-  "end": 297.749,
-  "text": "any particular object for"
- },
- {
-  "start": 297.759,
-  "end": 299.83,
-  "text": "synchronization then this is the the"
- },
- {
-  "start": 299.84,
-  "end": 303.35,
-  "text": "option okay so you can right click on"
- },
- {
-  "start": 303.36,
-  "end": 305.83,
-  "text": "that particular object and exclude from"
- },
- {
-  "start": 305.84,
-  "end": 308.469,
-  "text": "synchronization you can also exclude the"
- },
- {
-  "start": 308.479,
-  "end": 310.87,
-  "text": "tree from synchronization which means"
- },
- {
-  "start": 310.88,
-  "end": 312.749,
-  "text": "the parent object and all the child"
- },
- {
-  "start": 312.759,
-  "end": 317.27,
-  "text": "objects are also excluded okay so if I"
- },
- {
-  "start": 317.28,
-  "end": 319.99,
-  "text": "now select this you will see that the ex"
- },
- {
-  "start": 320.0,
-  "end": 322.87,
-  "text": "execution folder will be grade out okay"
+  "start": 316.52,
+  "end": 322.88,
+  "text": "So if I now select this, you will see that the execution folder will be grayed out, okay?"
  },
  {
   "start": 322.88,
-  "end": 325.95,
-  "text": "so next time when I check in this"
+  "end": 328.28,
+  "text": "So next time when I check in, this particular object will not be synchronized"
  },
  {
-  "start": 325.96,
-  "end": 327.51,
-  "text": "particular object will not be"
+  "start": 328.28,
+  "end": 330.24,
+  "text": "with the common repository, okay?"
  },
  {
-  "start": 327.52,
-  "end": 329.99,
-  "text": "synchronized with the common Repository"
- },
- {
-  "start": 330.0,
-  "end": 333.87,
-  "text": "okay and that's what is meant by um"
- },
- {
-  "start": 333.88,
-  "end": 336.95,
-  "text": "exclude uh from synchronization uh you"
+  "start": 330.24,
+  "end": 336.12,
+  "text": "And that's what is meant by exclude from synchronization."
  },
  {
   "start": 336.96,
-  "end": 338.469,
-  "text": "can also exclude the tree from"
+  "end": 339.44,
+  "text": "You can also exclude the tree from synchronization."
  },
  {
-  "start": 338.479,
-  "end": 340.79,
-  "text": "synchronization and what that will do is"
+  "start": 339.44,
+  "end": 344.12,
+  "text": "And what that will do is it will exclude all the child objects from the"
  },
  {
-  "start": 340.8,
-  "end": 343.67,
-  "text": "it will exclude all the child objects"
+  "start": 344.12,
+  "end": 349.04,
+  "text": "synchronization and everything will be grayed out, okay?"
  },
  {
-  "start": 343.68,
-  "end": 345.55,
-  "text": "from the synchronization and everything"
+  "start": 349.04,
+  "end": 354.88,
+  "text": "Now, there are a few other things also, like if you go to any particular object"
  },
  {
-  "start": 345.56,
-  "end": 347.99,
-  "text": "will be grade out"
+  "start": 354.88,
+  "end": 359.6,
+  "text": "and if you check it out, okay?"
  },
  {
-  "start": 348.0,
-  "end": 351.11,
-  "text": "okay now uh there are a few other things"
+  "start": 359.6,
+  "end": 364.4,
+  "text": "Then in the properties section, you will find a property whose name is"
  },
  {
-  "start": 351.12,
-  "end": 353.909,
-  "text": "also um like if you go to any particular"
+  "start": 364.4,
+  "end": 366.48,
+  "text": "synchronization policy."
  },
  {
-  "start": 353.919,
-  "end": 359.87,
-  "text": "object and if you check it out okay then"
+  "start": 366.48,
+  "end": 370.6,
+  "text": "Now, by default, all the objects are set to this particular value, which is"
  },
  {
-  "start": 359.88,
-  "end": 362.909,
-  "text": "in the property section you will find a"
+  "start": 370.6,
+  "end": 376.32,
+  "text": "customizable default is on, which means by default, all the objects are"
  },
  {
-  "start": 362.919,
-  "end": 365.39,
-  "text": "property whose name is synchronization"
+  "start": 376.32,
+  "end": 379.2,
+  "text": "included for synchronization, okay?"
  },
  {
-  "start": 365.4,
-  "end": 368.589,
-  "text": "policy Now by default all the objects"
+  "start": 379.2,
+  "end": 385.28,
+  "text": "But you can also set this off, which means it will not be included for"
  },
  {
-  "start": 368.599,
-  "end": 370.39,
-  "text": "are set to this particular value which"
+  "start": 385.28,
+  "end": 386.72,
+  "text": "synchronization."
  },
  {
-  "start": 370.4,
-  "end": 373.15,
-  "text": "is customizable default is on which"
+  "start": 386.72,
+  "end": 392.52,
+  "text": "You can also set it to cannot be excluded, which means anybody cannot"
  },
  {
-  "start": 373.16,
-  "end": 376.23,
-  "text": "means uh by default all the objects are"
+  "start": 392.52,
+  "end": 397.56,
+  "text": "just exclude that folder for synchronization or object for synchronization."
  },
  {
-  "start": 376.24,
-  "end": 377.51,
-  "text": "included for"
+  "start": 397.56,
+  "end": 401.72,
+  "text": "And also you can choose this option, which is cannot be excluded for whole"
  },
  {
-  "start": 377.52,
-  "end": 381.029,
-  "text": "synchronization okay but um you can also"
+  "start": 401.72,
+  "end": 406.84,
+  "text": "tree, which means all the child objects can also not be excluded from"
  },
  {
-  "start": 381.039,
-  "end": 384.39,
-  "text": "set this off which means it will not be"
+  "start": 406.84,
+  "end": 409.56,
+  "text": "synchronization, okay?"
  },
  {
-  "start": 384.4,
-  "end": 387.029,
-  "text": "uh included for synchronization you can"
+  "start": 409.56,
+  "end": 413.64,
+  "text": "So all of these different options you can choose whenever you are creating a"
  },
  {
-  "start": 387.039,
-  "end": 389.189,
-  "text": "also set it to cannot be excluded which"
+  "start": 413.64,
+  "end": 419.08,
+  "text": "new object in your project, depending on the situation and depending on what"
  },
  {
-  "start": 389.199,
-  "end": 392.83,
-  "text": "means means um anybody cannot just"
- },
- {
-  "start": 392.84,
-  "end": 395.469,
-  "text": "exclude that folder for synchronization"
- },
- {
-  "start": 395.479,
-  "end": 398.07,
-  "text": "or object for synchronization and also"
- },
- {
-  "start": 398.08,
-  "end": 399.71,
-  "text": "you can choose this option which is"
- },
- {
-  "start": 399.72,
-  "end": 402.589,
-  "text": "cannot be excluded for whole tree which"
- },
- {
-  "start": 402.599,
-  "end": 405.55,
-  "text": "means all the child objects can also not"
- },
- {
-  "start": 405.56,
-  "end": 407.43,
-  "text": "be excluded from"
- },
- {
-  "start": 407.44,
-  "end": 410.15,
-  "text": "synchronization okay so all of these"
- },
- {
-  "start": 410.16,
-  "end": 411.51,
-  "text": "different options you can choose"
- },
- {
-  "start": 411.52,
-  "end": 414.629,
-  "text": "whenever you are creating uh new object"
- },
- {
-  "start": 414.639,
-  "end": 417.23,
-  "text": "in your project um depending on the"
- },
- {
-  "start": 417.24,
-  "end": 419.15,
-  "text": "situation and depending on what you want"
- },
- {
-  "start": 419.16,
-  "end": 421.95,
-  "text": "to you can select any of these options"
+  "start": 419.08,
+  "end": 421.92,
+  "text": "you want to do, you can select any of these options."
  },
  {
   "start": 421.96,
-  "end": 424.51,
-  "text": "but when you um export or import any"
+  "end": 427.88,
+  "text": "But when you export or import any particular objects, then it is reset back"
  },
  {
-  "start": 424.52,
-  "end": 427.51,
-  "text": "particular objects then um it is reset"
+  "start": 427.88,
+  "end": 434.32,
+  "text": "to this particular property value, which is customizable default is on, okay?"
  },
  {
-  "start": 427.52,
-  "end": 430.35,
-  "text": "back to this particular uh property"
+  "start": 434.32,
+  "end": 440.6,
+  "text": "Also, if the customizable default is on for one particular object, then all"
  },
  {
-  "start": 430.36,
-  "end": 432.589,
-  "text": "value which is customizable default is"
+  "start": 440.6,
+  "end": 444.16,
+  "text": "the child objects which you create under that object will also get the"
  },
  {
-  "start": 432.599,
-  "end": 436.35,
-  "text": "on okay also if um the customizable"
+  "start": 444.16,
+  "end": 450.04,
+  "text": "same value, which is set for the parent object, okay?"
  },
  {
-  "start": 436.36,
-  "end": 440.15,
-  "text": "default is on for one particular object"
+  "start": 450.04,
+  "end": 455.8,
+  "text": "So this is how you can set different synchronization policy, and this is a"
  },
  {
-  "start": 440.16,
-  "end": 441.83,
-  "text": "then all the child objects which you"
+  "start": 455.8,
+  "end": 461.72,
+  "text": "common issue, as I said, especially with newcomers who are new to Tosca or"
  },
  {
-  "start": 441.84,
-  "end": 443.99,
-  "text": "create under that object will also get"
+  "start": 461.72,
+  "end": 466.6,
+  "text": "who are just starting to work in their respective projects, who are"
  },
  {
-  "start": 444.0,
-  "end": 446.07,
-  "text": "the same value which is set for the"
+  "start": 466.6,
+  "end": 470.12,
+  "text": "working on a multi-user workspace, which is connected to a common"
  },
  {
-  "start": 446.08,
-  "end": 449.99,
-  "text": "parent object okay"
+  "start": 470.12,
+  "end": 471.24,
+  "text": "repository."
  },
  {
-  "start": 450.0,
-  "end": 452.909,
-  "text": "so this is how you can set different"
+  "start": 471.24,
+  "end": 476.32,
+  "text": "So this issue is very common and very frequently occurred."
  },
  {
-  "start": 452.919,
-  "end": 455.83,
-  "text": "synchronization policy and uh this is a"
+  "start": 476.36,
+  "end": 480.4,
+  "text": "And that's why I thought I would talk about this so that you are aware of"
  },
  {
-  "start": 455.84,
-  "end": 458.39,
-  "text": "common issue as I said especially with"
+  "start": 480.4,
+  "end": 485.6,
+  "text": "this particular problem and you know why it happens and also what is the"
  },
  {
-  "start": 458.4,
-  "end": 461.83,
-  "text": "uh newcomers who are new to tosa or who"
+  "start": 485.6,
+  "end": 488.44,
+  "text": "workaround for this."
  },
  {
-  "start": 461.84,
-  "end": 464.189,
-  "text": "are just starting to work uh in their"
+  "start": 488.44,
+  "end": 490.8,
+  "text": "That's all for this particular video."
  },
  {
-  "start": 464.199,
-  "end": 467.43,
-  "text": "respective projects who are working on a"
+  "start": 490.8,
+  "end": 494.52,
+  "text": "If you have any questions, then please leave it in the comments."
  },
  {
-  "start": 467.44,
-  "end": 469.39,
-  "text": "multi-user workspace which is connected"
+  "start": 494.52,
+  "end": 498.12,
+  "text": "If you like this video, then please subscribe to our channel."
  },
  {
-  "start": 469.4,
-  "end": 472.869,
-  "text": "to a common repository so this issue is"
- },
- {
-  "start": 472.879,
-  "end": 475.43,
-  "text": "very common and very frequently um"
- },
- {
-  "start": 475.44,
-  "end": 477.629,
-  "text": "occurred and that's why I thought I"
- },
- {
-  "start": 477.639,
-  "end": 479.67,
-  "text": "would talk about this so that you are"
- },
- {
-  "start": 479.68,
-  "end": 482.43,
-  "text": "aware of this particular problem and you"
- },
- {
-  "start": 482.44,
-  "end": 485.43,
-  "text": "know why it happens and also what is the"
- },
- {
-  "start": 485.44,
-  "end": 487.35,
-  "text": "workaround for"
- },
- {
-  "start": 487.36,
-  "end": 489.71,
-  "text": "this that's all for this particular"
- },
- {
-  "start": 489.72,
-  "end": 492.149,
-  "text": "video if you have any questions then"
- },
- {
-  "start": 492.159,
-  "end": 494.629,
-  "text": "please leave it in the comments if you"
- },
- {
-  "start": 494.639,
-  "end": 496.589,
-  "text": "like this video then please subscribe to"
- },
- {
-  "start": 496.599,
-  "end": 499.309,
-  "text": "our Channel thanks for watching and I"
- },
- {
-  "start": 499.319,
-  "end": 503.96,
-  "text": "will see you in the next video"
+  "start": 498.12,
+  "end": 500.96,
+  "text": "Thanks for watching, and I will see you in the next video."
  }
 ]

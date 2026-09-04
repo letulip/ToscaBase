@@ -1,497 +1,317 @@
 [
  {
-  "start": 12.509,
-  "end": 12.519,
-  "text": "hey everyone welcome back to our Channel"
+  "start": 9.71,
+  "end": 12.55,
+  "text": "Hey everyone, welcome back to our channel."
  },
  {
-  "start": 12.519,
-  "end": 15.15,
-  "text": "I am back with another interesting topic"
+  "start": 12.55,
+  "end": 19.39,
+  "text": "I am back with another interesting topic in the Tosca Automation playlist."
  },
  {
-  "start": 15.16,
-  "end": 18.15,
-  "text": "in the tosa automation"
+  "start": 19.39,
+  "end": 25.43,
+  "text": "So continuing with our topic on the obstacles, let's look at our next obstacle which is"
  },
  {
-  "start": 18.16,
-  "end": 21.349,
-  "text": "playlist so continuing with our topic on"
+  "start": 25.43,
+  "end": 28.39,
+  "text": "again a dynamic date generation."
  },
  {
-  "start": 21.359,
-  "end": 23.87,
-  "text": "the obstacles let's look at our next"
+  "start": 28.39,
+  "end": 34.07,
+  "text": "So in this particular obstacle, we need to input tomorrow's date in that particular"
  },
  {
-  "start": 23.88,
-  "end": 26.589,
-  "text": "obstacle which is uh again a dynamic"
+  "start": 34.07,
+  "end": 35.67,
+  "text": "text box."
  },
  {
-  "start": 26.599,
-  "end": 29.509,
-  "text": "date generation so in this particular"
+  "start": 35.67,
+  "end": 40.79,
+  "text": "So what do you mean by tomorrow's date is whatever date is today and then you"
  },
  {
-  "start": 29.519,
-  "end": 32.749,
-  "text": "obstacle we need to input tomorrow's"
+  "start": 40.83,
+  "end": 48.23,
+  "text": "need to add another day to today's date and then you need to enter that accordingly."
  },
  {
-  "start": 32.759,
-  "end": 35.79,
-  "text": "date in that particular text box so what"
+  "start": 48.23,
+  "end": 51.99,
+  "text": "So as you know, the date would be dynamically generated."
  },
  {
-  "start": 35.8,
-  "end": 38.03,
-  "text": "do you mean by tomorrow's datee is"
+  "start": 51.99,
+  "end": 57.67,
+  "text": "Otherwise, the dates could be a problem if you execute it on different days."
  },
  {
-  "start": 38.04,
-  "end": 40.95,
-  "text": "whatever date is today and then you need"
+  "start": 57.67,
+  "end": 59.11,
+  "text": "Right."
  },
  {
-  "start": 40.96,
-  "end": 45.029,
-  "text": "to add another day uh to today's date"
+  "start": 59.11,
+  "end": 63.15,
+  "text": "So let's see how we can do this in Tosca."
  },
  {
-  "start": 45.039,
-  "end": 47.11,
-  "text": "and then you need to enter that"
+  "start": 63.15,
+  "end": 68.07,
+  "text": "So coming back here, I am going to add the module here."
  },
  {
-  "start": 47.12,
-  "end": 49.549,
-  "text": "accordingly so as you know uh the date"
+  "start": 68.11,
+  "end": 72.55,
+  "text": "We just need the text box here, right."
  },
  {
-  "start": 49.559,
-  "end": 52.91,
-  "text": "would be dynamically generated otherwise"
+  "start": 72.55,
+  "end": 87.72,
+  "text": "So I'm going to scan this application and then I'm going to add the date field."
  },
  {
-  "start": 52.92,
-  "end": 55.069,
-  "text": "uh the dates could be a problem if you"
+  "start": 87.72,
+  "end": 92.32,
+  "text": "OK, so I'm going to rename this also."
  },
  {
-  "start": 55.079,
-  "end": 59.389,
-  "text": "execute it on different days right so"
+  "start": 92.32,
+  "end": 102.47,
+  "text": "And also we will rename the module."
  },
  {
-  "start": 59.399,
-  "end": 62.069,
-  "text": "let's see how we can do this uh in"
+  "start": 102.47,
+  "end": 110.11,
+  "text": "OK, and then I'm going to save this and close this."
  },
  {
-  "start": 62.079,
-  "end": 66.19,
-  "text": "tosa so coming back here I am going to"
+  "start": 110.11,
+  "end": 116.31,
+  "text": "OK, so now coming back to Tosca and in test cases, we will go to"
  },
  {
-  "start": 66.2,
-  "end": 69.23,
-  "text": "add the module here we just need the"
+  "start": 116.31,
+  "end": 123.21,
+  "text": "Obstacles and we'll create our new obstacle here."
  },
  {
-  "start": 69.24,
-  "end": 71.55,
-  "text": "text box here"
+  "start": 123.21,
+  "end": 132.61,
+  "text": "And then we are going to add the module here."
  },
  {
-  "start": 71.56,
-  "end": 84.109,
-  "text": "right so I'm going to scan this"
+  "start": 132.61,
+  "end": 140.21,
+  "text": "OK, so now we have to use the dynamic expression for date to generate tomorrow's date."
  },
  {
-  "start": 86.149,
-  "end": 86.159,
-  "text": "application and then I'm going to add"
+  "start": 140.21,
+  "end": 147.77,
+  "text": "OK, so for me, in my system, the date is 29 December, as you can see, 2023."
  },
  {
-  "start": 86.159,
-  "end": 89.27,
-  "text": "the date field okay so I'm going to"
+  "start": 147.81,
+  "end": 153.45,
+  "text": "And tomorrow's date will be 30 December, 2023, which I need to enter into the text field."
  },
  {
-  "start": 89.28,
-  "end": 91.31,
-  "text": "rename this"
+  "start": 153.45,
+  "end": 157.97,
+  "text": "OK, so for this, we are going to use the date expression."
  },
  {
-  "start": 91.32,
-  "end": 101.469,
-  "text": "also and also we will rename the"
+  "start": 157.97,
+  "end": 163.65,
+  "text": "You can see in the date expression, we can calculate using the base date,"
  },
  {
-  "start": 104.109,
-  "end": 104.119,
-  "text": "module okay and then I'm going to save"
+  "start": 163.65,
+  "end": 168.53,
+  "text": "along with some deviations and also in a defined format."
  },
  {
-  "start": 104.119,
-  "end": 109.149,
-  "text": "this and close"
+  "start": 168.53,
+  "end": 169.57,
+  "text": "Right."
  },
  {
-  "start": 113.23,
-  "end": 113.24,
-  "text": "this okay so now coming back to tosa and"
+  "start": 169.57,
+  "end": 177.33,
+  "text": "So here, if we don't provide any base date, it will take today's date as the base date."
  },
  {
-  "start": 113.24,
-  "end": 117.35,
-  "text": "in test cases we will go to"
+  "start": 177.37,
+  "end": 179.61,
+  "text": "OK, so that's what I'm going to do."
  },
  {
-  "start": 117.36,
-  "end": 119.83,
-  "text": "obstacles and we'll create our new"
+  "start": 179.61,
+  "end": 183.45,
+  "text": "And then I'm going to put an offset of plus one day."
  },
  {
-  "start": 119.84,
-  "end": 122.27,
-  "text": "obstacle"
+  "start": 183.45,
+  "end": 185.61,
+  "text": "And then I'm going to put a format here."
  },
  {
-  "start": 122.28,
-  "end": 126.429,
-  "text": "here and then uh we are going to add the"
+  "start": 185.61,
+  "end": 192.57,
+  "text": "OK, which is in the format which the obstacle is expecting the date to be generated."
  },
  {
-  "start": 126.439,
-  "end": 131.63,
-  "text": "module"
+  "start": 192.57,
+  "end": 200.09,
+  "text": "OK, so here I'm going to put a two square brackets, which means I'm putting it empty."
  },
  {
-  "start": 134.589,
-  "end": 134.599,
-  "text": "here okay so now we have to use the"
+  "start": 200.09,
+  "end": 201.93,
+  "text": "I'm not providing any base date."
  },
  {
-  "start": 134.599,
-  "end": 137.509,
-  "text": "dynamic expression uh for date to"
+  "start": 201.93,
+  "end": 205.61,
+  "text": "So it will pick the default base date, which is today's date."
  },
  {
-  "start": 137.519,
-  "end": 141.949,
-  "text": "generate tomorrow's date okay so for me"
+  "start": 205.61,
+  "end": 209.33,
+  "text": "OK, and then I'm putting an offset of plus one day,"
  },
  {
-  "start": 141.959,
-  "end": 145.509,
-  "text": "uh in my system the date is 29 December"
+  "start": 209.33,
+  "end": 217.29,
+  "text": "which means it will calculate the offset as plus one and today's date."
  },
  {
-  "start": 145.519,
-  "end": 146.869,
-  "text": "as you can see"
+  "start": 217.29,
+  "end": 220.93,
+  "text": "OK, then the format."
  },
  {
-  "start": 146.879,
-  "end": 150.07,
-  "text": "2023 and the tomorrow's date will be"
+  "start": 220.93,
+  "end": 228.41,
+  "text": "So for this, we will give DDMM and then YYY."
  },
  {
-  "start": 150.08,
-  "end": 152.509,
-  "text": "December 2023 which I need to enter into"
+  "start": 228.41,
+  "end": 235.61,
+  "text": "OK, so this is the format which the obstacle is expecting."
  },
  {
-  "start": 152.519,
-  "end": 155.15,
-  "text": "the text field okay so for this we are"
+  "start": 235.61,
+  "end": 238.73,
+  "text": "OK, and this is our date expression."
  },
  {
-  "start": 155.16,
-  "end": 158.19,
-  "text": "going to use the date expression you can"
+  "start": 238.73,
+  "end": 243.13,
+  "text": "Now, if you want to check that this expression is correct or not,"
  },
  {
-  "start": 158.2,
-  "end": 160.55,
-  "text": "see in the date expression we can"
+  "start": 243.13,
+  "end": 247.17,
+  "text": "you can also right click and click on translate value."
  },
  {
-  "start": 160.56,
-  "end": 163.589,
-  "text": "calculate uh using the base State uh"
+  "start": 247.17,
+  "end": 249.81,
+  "text": "And it should give you the correct date."
  },
  {
-  "start": 163.599,
-  "end": 167.03,
-  "text": "along with some deviations and also in a"
+  "start": 249.81,
+  "end": 252.49,
+  "text": "OK, so the expression is working correctly."
  },
  {
-  "start": 167.04,
-  "end": 172.19,
-  "text": "uh defined format right so here uh if we"
+  "start": 252.49,
+  "end": 256.57,
+  "text": "It is generating the dynamic date, which is tomorrow's date."
  },
  {
-  "start": 172.2,
-  "end": 175.229,
-  "text": "don't provide any base date it will take"
+  "start": 256.57,
+  "end": 261.13,
+  "text": "OK, so now I will change this to completed."
  },
  {
-  "start": 175.239,
-  "end": 177.91,
-  "text": "today's date as the base date okay so"
+  "start": 261.13,
+  "end": 268.59,
+  "text": "And now we are going to run this in Scratchbook."
  },
  {
-  "start": 177.92,
-  "end": 179.75,
-  "text": "that's what I'm going to do and then"
+  "start": 268.59,
+  "end": 271.87,
+  "text": "OK, so as you can see, it entered tomorrow's date."
  },
  {
-  "start": 179.76,
-  "end": 183.39,
-  "text": "then I'm going to put a offset of + 1 D"
+  "start": 271.87,
+  "end": 275.11,
+  "text": "And then the obstacle was completed."
  },
  {
-  "start": 183.4,
-  "end": 185.63,
-  "text": "and then I'm going to put a format here"
+  "start": 275.11,
+  "end": 280.51,
+  "text": "Obviously, it did not detect that we have entered the date."
  },
  {
-  "start": 185.64,
-  "end": 188.63,
-  "text": "okay uh which is uh in the format which"
+  "start": 280.51,
+  "end": 282.79,
+  "text": "So whenever this happens, we have already discussed."
  },
  {
-  "start": 188.64,
-  "end": 191.67,
-  "text": "the obstacle is expecting the date to be"
+  "start": 282.79,
+  "end": 289.19,
+  "text": "You can always use the send keys expression to enter any particular text into the text box."
  },
  {
-  "start": 191.68,
-  "end": 193.47,
-  "text": "generated"
+  "start": 289.19,
+  "end": 290.27,
+  "text": "OK."
  },
  {
-  "start": 193.48,
-  "end": 197.63,
-  "text": "okay so um here uh I'm going to put two"
+  "start": 290.27,
+  "end": 293.47,
+  "text": "But this is how you can use the dynamic date expression"
  },
  {
-  "start": 197.64,
-  "end": 199.35,
-  "text": "square brackets which means I'm putting"
+  "start": 293.47,
+  "end": 296.67,
+  "text": "to generate any dynamically generated date."
  },
  {
-  "start": 199.36,
-  "end": 201.75,
-  "text": "it empty I'm not providing any base date"
+  "start": 296.67,
+  "end": 302.51,
+  "text": "And then you can use the offset to calculate in terms of days, months, or years."
  },
  {
-  "start": 201.76,
-  "end": 203.589,
-  "text": "so it will pick the default base date"
+  "start": 302.51,
+  "end": 308.07,
+  "text": "And then you can also generate it on a specific user defined format."
  },
  {
-  "start": 203.599,
-  "end": 206.35,
-  "text": "which is today's date okay and then I'm"
+  "start": 308.07,
+  "end": 311.95,
+  "text": "OK, that's all for this particular video."
  },
  {
-  "start": 206.36,
-  "end": 210.149,
-  "text": "putting an offset of + 1D which means uh"
+  "start": 311.95,
+  "end": 315.67,
+  "text": "If you have any questions, then please leave it in the comments."
  },
  {
-  "start": 210.159,
-  "end": 215.83,
-  "text": "it will calculate uh the offset as + one"
+  "start": 315.67,
+  "end": 319.27,
+  "text": "If you like this video, then please subscribe to our channel."
  },
  {
-  "start": 215.84,
-  "end": 217.99,
-  "text": "uh and today's date"
- },
- {
-  "start": 218.0,
-  "end": 222.429,
-  "text": "okay then uh the format so for this uh"
- },
- {
-  "start": 222.439,
-  "end": 229.869,
-  "text": "we will give DD mm and then y y y"
- },
- {
-  "start": 229.879,
-  "end": 232.949,
-  "text": "okay so this is the format which the"
- },
- {
-  "start": 232.959,
-  "end": 236.19,
-  "text": "obstacle is expecting okay and this is"
- },
- {
-  "start": 236.2,
-  "end": 237.71,
-  "text": "our data"
- },
- {
-  "start": 237.72,
-  "end": 240.55,
-  "text": "expression now if you you want to check"
- },
- {
-  "start": 240.56,
-  "end": 242.309,
-  "text": "whether this expression is correct or"
- },
- {
-  "start": 242.319,
-  "end": 244.71,
-  "text": "not you can also right click and click"
- },
- {
-  "start": 244.72,
-  "end": 246.069,
-  "text": "on translate"
- },
- {
-  "start": 246.079,
-  "end": 248.789,
-  "text": "value and it should give you the correct"
- },
- {
-  "start": 248.799,
-  "end": 251.789,
-  "text": "date okay so the expression is working"
- },
- {
-  "start": 251.799,
-  "end": 254.03,
-  "text": "correctly it is generating the dynamic"
- },
- {
-  "start": 254.04,
-  "end": 258.509,
-  "text": "date which is tomorrow State okay so now"
- },
- {
-  "start": 258.519,
-  "end": 262.51,
-  "text": "uh I will change this to completed and"
- },
- {
-  "start": 262.52,
-  "end": 267.51,
-  "text": "now we are going to run this uh in"
- },
- {
-  "start": 269.909,
-  "end": 269.919,
-  "text": "scratchbook okay so as you can see it uh"
- },
- {
-  "start": 269.919,
-  "end": 272.99,
-  "text": "enter tomor State and then um the"
- },
- {
-  "start": 273.0,
-  "end": 277.029,
-  "text": "obstacle was completed obviously um it"
- },
- {
-  "start": 277.039,
-  "end": 279.43,
-  "text": "did not detect that uh we have entered"
- },
- {
-  "start": 279.44,
-  "end": 281.55,
-  "text": "the date so whenever this happens we"
- },
- {
-  "start": 281.56,
-  "end": 283.39,
-  "text": "have already discussed you can always"
- },
- {
-  "start": 283.4,
-  "end": 286.83,
-  "text": "use the send Keys uh expression to enter"
- },
- {
-  "start": 286.84,
-  "end": 289.189,
-  "text": "any particular text into the text box"
- },
- {
-  "start": 289.199,
-  "end": 292.029,
-  "text": "okay but this is how you can use the"
- },
- {
-  "start": 292.039,
-  "end": 294.59,
-  "text": "dynamic date expression to generate any"
- },
- {
-  "start": 294.6,
-  "end": 296.95,
-  "text": "uh dynamically generated date and then"
- },
- {
-  "start": 296.96,
-  "end": 299.749,
-  "text": "you can use the offset to calculate uh"
- },
- {
-  "start": 299.759,
-  "end": 302.59,
-  "text": "in terms of days months or years and"
- },
- {
-  "start": 302.6,
-  "end": 305.43,
-  "text": "then you can also generate it uh on a"
- },
- {
-  "start": 305.44,
-  "end": 309.55,
-  "text": "specific uh user defined format okay"
- },
- {
-  "start": 309.56,
-  "end": 311.99,
-  "text": "that's all for this particular video if"
- },
- {
-  "start": 312.0,
-  "end": 313.87,
-  "text": "you have any questions then please leave"
- },
- {
-  "start": 313.88,
-  "end": 316.31,
-  "text": "it in the comments if you like this"
- },
- {
-  "start": 316.32,
-  "end": 318.189,
-  "text": "video then please subscribe to our"
- },
- {
-  "start": 318.199,
-  "end": 320.71,
-  "text": "Channel thanks for watching and I will"
- },
- {
-  "start": 320.72,
-  "end": 324.96,
-  "text": "see you in the next video"
+  "start": 319.27,
+  "end": 322.11,
+  "text": "Thanks for watching, and I will see you in the next video."
  }
 ]

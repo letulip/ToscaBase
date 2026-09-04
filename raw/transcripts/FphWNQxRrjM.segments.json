@@ -1,1272 +1,807 @@
 [
  {
-  "start": 2.869,
-  "end": 2.879,
-  "text": "hey everyone welcome back to another"
+  "start": 0.3,
+  "end": 5.88,
+  "text": "Hey everyone, welcome back to another lesson in this Tosca automation course."
  },
  {
-  "start": 2.879,
-  "end": 4.43,
-  "text": "lesson in the stores car automation"
+  "start": 5.88,
+  "end": 10.86,
+  "text": "In this particular video, I am going to talk about conditional loops and how you can use"
  },
  {
-  "start": 4.44,
-  "end": 5.63,
-  "text": "course"
+  "start": 10.86,
+  "end": 13.66,
+  "text": "them in your Tosca test cases."
  },
  {
-  "start": 5.64,
-  "end": 7.67,
-  "text": "in this particular video I am going to"
+  "start": 13.66,
+  "end": 17.82,
+  "text": "The first loop which we are going to talk about is the while loop."
  },
  {
-  "start": 7.68,
-  "end": 10.43,
-  "text": "talk about conditional loops and how you"
+  "start": 17.82,
+  "end": 23.1,
+  "text": "Now this is a pretty common loop statement which is used in all the different languages"
  },
  {
-  "start": 10.44,
-  "end": 13.43,
-  "text": "can use them in your Tosca test cases"
+  "start": 23.1,
+  "end": 27.5,
+  "text": "and if you have worked in this already, you would know what a while loop does."
  },
  {
-  "start": 13.44,
-  "end": 15.169,
-  "text": "the first Loop which we are going to"
+  "start": 27.5,
+  "end": 30.46,
+  "text": "The logic is pretty much the same in Tosca."
  },
  {
-  "start": 15.179,
-  "end": 17.51,
-  "text": "talk about is the while loop"
+  "start": 30.46,
+  "end": 36.42,
+  "text": "So in Tosca, if it checks for the condition and if it is fulfilled, test steps within"
  },
  {
-  "start": 17.52,
-  "end": 19.91,
-  "text": "now this is a pretty common Loop"
+  "start": 36.42,
+  "end": 42.62,
+  "text": "that loop object are run repeatedly until the condition is no longer satisfied."
  },
  {
-  "start": 19.92,
-  "end": 22.13,
-  "text": "statement which is used in all the"
+  "start": 42.62,
+  "end": 47.66,
+  "text": "So we are going to look at it using an example and this is how it will look like."
  },
  {
-  "start": 22.14,
-  "end": 23.689,
-  "text": "different languages and if you have"
+  "start": 47.66,
+  "end": 54.02,
+  "text": "So what basically I am doing is I am trying to do the repetitions logic using a while"
  },
  {
-  "start": 23.699,
-  "end": 25.67,
-  "text": "worked in this already you would know"
+  "start": 54.02,
+  "end": 55.02,
+  "text": "loop."
  },
  {
-  "start": 25.68,
-  "end": 28.31,
-  "text": "what a while loop does the logic is"
+  "start": 55.02,
+  "end": 60.88,
+  "text": "We have seen how we can use the repetition property to repeat our test steps number"
  },
  {
-  "start": 28.32,
-  "end": 31.189,
-  "text": "pretty much the same in Tosca so in"
+  "start": 60.88,
+  "end": 61.88,
+  "text": "of times."
  },
  {
-  "start": 31.199,
-  "end": 34.25,
-  "text": "Tosca if it checks for the condition and"
+  "start": 61.88,
+  "end": 65.7,
+  "text": "So we can do that using loop statements."
  },
  {
-  "start": 34.26,
-  "end": 36.59,
-  "text": "if it is fulfilled test steps within"
+  "start": 65.7,
+  "end": 70.46,
+  "text": "So what I am doing here is I am setting a repetition buffer and then I am using"
  },
  {
-  "start": 36.6,
-  "end": 38.45,
-  "text": "that Loop object are run repeatedly"
+  "start": 70.46,
+  "end": 75.62,
+  "text": "the while loop to check a condition whether that repetition is less than 5."
  },
  {
-  "start": 38.46,
-  "end": 41.09,
-  "text": "until the condition is no longer"
+  "start": 75.62,
+  "end": 79.78,
+  "text": "If it is not less than 5, then it will exit the loop."
  },
  {
-  "start": 41.1,
-  "end": 42.35,
-  "text": "satisfied"
+  "start": 79.78,
+  "end": 84.94,
+  "text": "If it is less than 5, then it will do some calculation and repeat the loop."
  },
  {
-  "start": 42.36,
-  "end": 44.569,
-  "text": "so we are going to look at it using an"
+  "start": 85.02,
+  "end": 90.86,
+  "text": "So this looping will continue until this condition is not satisfied or the repetition becomes"
  },
  {
-  "start": 44.579,
-  "end": 46.85,
-  "text": "example and this is how it will look"
+  "start": 90.86,
+  "end": 92.22,
+  "text": "more than 5."
  },
  {
-  "start": 46.86,
-  "end": 50.15,
-  "text": "like so what basically I'm doing is I'm"
+  "start": 92.22,
+  "end": 95.9,
+  "text": "It will exit the loop and it will go into the next test step."
  },
  {
-  "start": 50.16,
-  "end": 53.75,
-  "text": "trying to do the repetitions logic using"
+  "start": 95.9,
+  "end": 99.72,
+  "text": "So this is what basically we will be doing using the while loop."
  },
  {
-  "start": 53.76,
-  "end": 56.09,
-  "text": "a while loop now we have seen how we can"
+  "start": 99.72,
+  "end": 104.86,
+  "text": "Another important thing to note here is while loop also has a property called maximum"
  },
  {
-  "start": 56.1,
-  "end": 58.43,
-  "text": "use the repetition property to repeat"
+  "start": 104.86,
+  "end": 106.3,
+  "text": "repetitions."
  },
  {
-  "start": 58.44,
-  "end": 61.79,
-  "text": "our test steps uh number of times right"
+  "start": 106.3,
+  "end": 112.76,
+  "text": "Now this is to avoid infinite loops and Tosca by default sets this value to 30,"
  },
  {
-  "start": 61.8,
-  "end": 65.45,
-  "text": "so we can do that using Loop statements"
+  "start": 112.76,
+  "end": 114.36,
+  "text": "but you can change it."
  },
  {
-  "start": 65.46,
-  "end": 67.969,
-  "text": "so what I'm doing here is I'm setting a"
+  "start": 114.36,
+  "end": 117.04,
+  "text": "So this is what is about while loop."
  },
  {
-  "start": 67.979,
-  "end": 70.73,
-  "text": "repetition buffer and then I'm using the"
+  "start": 117.04,
+  "end": 122.2,
+  "text": "Now, let's look at our example where we will try to build a test case using this while"
  },
  {
-  "start": 70.74,
-  "end": 73.07,
-  "text": "while loop to check a condition whether"
+  "start": 122.2,
+  "end": 125.28,
+  "text": "loop and it will be based on this particular flow chart."
  },
  {
-  "start": 73.08,
-  "end": 76.789,
-  "text": "that repetition is less than 5. if it is"
+  "start": 125.28,
+  "end": 133.0,
+  "text": "Okay, so I'm going to create a new test case here and I'm just going to call it"
  },
  {
-  "start": 76.799,
-  "end": 79.37,
-  "text": "not less than 5 then it will exit the"
+  "start": 133.0,
+  "end": 135.16,
+  "text": "a while loop."
  },
  {
-  "start": 79.38,
-  "end": 82.37,
-  "text": "loop if it is less than 5 then it will"
+  "start": 135.16,
+  "end": 136.76,
+  "text": "Okay."
  },
  {
-  "start": 82.38,
-  "end": 84.59,
-  "text": "do some calculation and repeat the loop"
+  "start": 136.76,
+  "end": 140.4,
+  "text": "And here I am going to demonstrate how you can use your while loop."
  },
  {
-  "start": 84.6,
-  "end": 87.23,
-  "text": "so this looping will continue until this"
+  "start": 140.4,
+  "end": 148.5,
+  "text": "So as we saw in our flow chart that we want to set a variable or you can in Tosca terms"
  },
  {
-  "start": 87.24,
-  "end": 89.749,
-  "text": "condition is not satisfied or the"
+  "start": 148.5,
+  "end": 150.08,
+  "text": "it is known as buffer."
  },
  {
-  "start": 89.759,
-  "end": 92.51,
-  "text": "repetition becomes more than 5 it will"
+  "start": 150.08,
+  "end": 153.28,
+  "text": "Okay, we are going to talk about buffer in a different video."
  },
  {
-  "start": 92.52,
-  "end": 94.37,
-  "text": "exit the loop and it will go into the"
+  "start": 153.28,
+  "end": 157.16,
+  "text": "I'm not going to explain a lot about it, but it is like a variable which you can"
  },
  {
-  "start": 94.38,
-  "end": 97.01,
-  "text": "next test step so this is what basically"
+  "start": 157.16,
+  "end": 158.9,
+  "text": "use throughout your test case."
  },
  {
-  "start": 97.02,
-  "end": 99.289,
-  "text": "we'll be doing using the while loop"
+  "start": 158.9,
+  "end": 166.76,
+  "text": "Okay, so I'm going to add a test up here to set a buffer value and this is"
  },
  {
-  "start": 99.299,
-  "end": 101.99,
-  "text": "another important thing to note here is"
+  "start": 166.76,
+  "end": 169.24,
+  "text": "the T box set buffer module."
  },
  {
-  "start": 102.0,
-  "end": 104.45,
-  "text": "while loop also has a property called"
+  "start": 169.24,
+  "end": 172.12,
+  "text": "So here you have to provide a buffer name."
  },
  {
-  "start": 104.46,
-  "end": 107.45,
-  "text": "maximum repetitions now this is to avoid"
+  "start": 172.12,
+  "end": 174.52,
+  "text": "I am going to call it R."
  },
  {
-  "start": 107.46,
-  "end": 111.469,
-  "text": "infinite loops and Tosca by default sets"
+  "start": 174.52,
+  "end": 178.6,
+  "text": "Okay, and I'm going to set the value to zero."
  },
  {
-  "start": 111.479,
-  "end": 114.109,
-  "text": "this value to 30 but you can change it"
+  "start": 178.6,
+  "end": 185.8,
+  "text": "So this is my T box set buffer and after this I am going to add or create a while"
  },
  {
-  "start": 114.119,
-  "end": 117.05,
-  "text": "so this is uh what is about while loop"
+  "start": 185.8,
+  "end": 186.8,
+  "text": "loop."
  },
  {
-  "start": 117.06,
-  "end": 119.63,
-  "text": "now let's look at our example well we'll"
+  "start": 186.8,
+  "end": 191.04,
+  "text": "Okay, and that you can do right click on this test case and there you will find"
  },
  {
-  "start": 119.64,
-  "end": 122.03,
-  "text": "try to build a test case using this"
+  "start": 191.04,
+  "end": 193.48,
+  "text": "create a while statement."
  },
  {
-  "start": 122.04,
-  "end": 124.13,
-  "text": "while loop and it will be based on this"
+  "start": 193.48,
+  "end": 199.16,
+  "text": "Okay, so that will create the while statement with a condition and with a loop."
  },
  {
-  "start": 124.14,
-  "end": 127.429,
-  "text": "particular flowchart"
+  "start": 199.16,
+  "end": 206.16,
+  "text": "Okay, so in the condition we have to specify some condition and that is to check whether"
  },
  {
-  "start": 130.37,
-  "end": 130.38,
-  "text": "okay so I'm going to create a new test"
+  "start": 206.16,
+  "end": 209.72,
+  "text": "the repetition buffer is less than a certain value."
  },
  {
-  "start": 130.38,
-  "end": 132.949,
-  "text": "case here and I'm just going to call it"
+  "start": 209.72,
+  "end": 210.72,
+  "text": "Okay."
  },
  {
-  "start": 132.959,
-  "end": 134.809,
-  "text": "a while loop"
+  "start": 210.72,
+  "end": 214.0,
+  "text": "So again, I'm going to add a test up here."
  },
  {
-  "start": 134.819,
-  "end": 136.369,
-  "text": "okay"
+  "start": 214.0,
+  "end": 217.24,
+  "text": "I am going to say evaluate."
  },
  {
-  "start": 136.379,
-  "end": 138.29,
-  "text": "and here I am going to demonstrate how"
+  "start": 217.24,
+  "end": 223.72,
+  "text": "Okay, so I'm going to use the T box evaluation tool where I can put an expression and"
  },
  {
-  "start": 138.3,
-  "end": 141.77,
-  "text": "you can use your while loop so as we saw"
+  "start": 223.72,
+  "end": 226.08,
+  "text": "which will be evaluated or verified."
  },
  {
-  "start": 141.78,
-  "end": 145.43,
-  "text": "in our flowchart that we want to set a"
+  "start": 226.08,
+  "end": 227.08,
+  "text": "Okay."
  },
  {
-  "start": 145.44,
-  "end": 148.97,
-  "text": "variable or you can in Tosca terms it is"
+  "start": 227.08,
+  "end": 230.64,
+  "text": "So in this case, I'm going to use my buffer."
  },
  {
-  "start": 148.98,
-  "end": 151.309,
-  "text": "known as buffer okay we are going to"
+  "start": 230.64,
+  "end": 238.6,
+  "text": "Okay, so I will say B of R and I will say this will be less than five."
  },
  {
-  "start": 151.319,
-  "end": 153.17,
-  "text": "talk about buffer in a different video"
+  "start": 238.6,
+  "end": 245.44,
+  "text": "Okay, so as you can see, this is the expression which will be evaluated by the T box"
  },
  {
-  "start": 153.18,
-  "end": 155.15,
-  "text": "I'm not going to explain a lot about it"
+  "start": 245.44,
+  "end": 247.18,
+  "text": "module."
  },
  {
-  "start": 155.16,
-  "end": 157.309,
-  "text": "but it is like a variable which you can"
+  "start": 247.18,
+  "end": 252.12,
+  "text": "So this is our condition and then in loop if this condition is satisfied, we need"
  },
  {
-  "start": 157.319,
-  "end": 160.309,
-  "text": "use throughout your test case okay so"
+  "start": 252.12,
+  "end": 253.12,
+  "text": "to add something."
  },
  {
-  "start": 160.319,
-  "end": 163.49,
-  "text": "I'm going to add a test step here to set"
+  "start": 253.12,
+  "end": 254.12,
+  "text": "Okay."
  },
  {
-  "start": 163.5,
-  "end": 165.13,
-  "text": "a buffer value"
+  "start": 254.12,
+  "end": 258.28,
+  "text": "So here again, I'm going to use the set buffer."
  },
  {
-  "start": 165.14,
-  "end": 168.949,
-  "text": "and this is the t-box set buffer module"
+  "start": 258.28,
+  "end": 263.48,
+  "text": "Okay, so what I'm going to do is do some calculation here."
  },
  {
-  "start": 168.959,
-  "end": 171.65,
-  "text": "so here you have to provide a buffer"
+  "start": 263.48,
+  "end": 269.04,
+  "text": "So I'll put it R and I'm going to use a function called math."
  },
  {
-  "start": 171.66,
-  "end": 175.85,
-  "text": "name I am going to call it R okay and"
+  "start": 269.04,
+  "end": 274.24,
+  "text": "Okay, so this is a Tosca function which you can use to do some calculations basically"
  },
  {
-  "start": 175.86,
-  "end": 178.49,
-  "text": "I'm going to set the value to zero okay"
+  "start": 274.24,
+  "end": 279.92,
+  "text": "and inside this I'm going to use my buffer which I have created."
  },
  {
-  "start": 178.5,
-  "end": 181.25,
-  "text": "so this is my D box set buffer"
+  "start": 279.92,
+  "end": 283.92,
+  "text": "So B of R, okay."
  },
  {
-  "start": 181.26,
-  "end": 184.67,
-  "text": "and after this I am going to add or"
+  "start": 283.92,
+  "end": 292.12,
+  "text": "And then I am going to add one to this particular buffer every time this loop is executed."
  },
  {
-  "start": 184.68,
-  "end": 187.79,
-  "text": "create a while loop okay and that you"
+  "start": 292.12,
+  "end": 293.96,
+  "text": "Okay."
  },
  {
-  "start": 187.8,
-  "end": 190.309,
-  "text": "can do right click on this test case and"
+  "start": 293.96,
+  "end": 298.52,
+  "text": "And then let's close this and let's close this."
  },
  {
-  "start": 190.319,
-  "end": 191.93,
-  "text": "there you will find create a while"
+  "start": 298.52,
+  "end": 304.72,
+  "text": "Okay, so this is our calculation which we are doing we are using the math function"
  },
  {
-  "start": 191.94,
-  "end": 193.19,
-  "text": "statement"
+  "start": 304.72,
+  "end": 311.12,
+  "text": "to basically add a number or plus one to this buffer every time this loop is executed."
  },
  {
-  "start": 193.2,
-  "end": 195.89,
-  "text": "okay so that will create the while"
+  "start": 311.12,
+  "end": 312.52,
+  "text": "Okay."
  },
  {
-  "start": 195.9,
-  "end": 198.47,
-  "text": "statement with a condition and with a"
+  "start": 312.52,
+  "end": 317.2,
+  "text": "So this is our loop and this is our condition and this is the buffer."
  },
  {
-  "start": 198.48,
-  "end": 201.53,
-  "text": "loop okay so in the condition we have to"
+  "start": 317.2,
+  "end": 325.26,
+  "text": "Okay, you can change these names here which I have set so you can give some useful names"
  },
  {
-  "start": 201.54,
-  "end": 203.39,
-  "text": "specify some condition"
+  "start": 325.26,
+  "end": 326.26,
+  "text": "here."
  },
  {
-  "start": 203.4,
-  "end": 206.509,
-  "text": "um and that is to check whether the"
+  "start": 326.26,
+  "end": 327.34,
+  "text": "Okay."
  },
  {
-  "start": 206.519,
-  "end": 208.85,
-  "text": "repetition buffer is less than a certain"
+  "start": 327.34,
+  "end": 331.64,
+  "text": "So I can call it set repetition."
  },
  {
-  "start": 208.86,
-  "end": 210.949,
-  "text": "value okay"
+  "start": 331.64,
+  "end": 333.56,
+  "text": "Okay."
  },
  {
-  "start": 210.959,
-  "end": 213.83,
-  "text": "so again I'm going to add a desktop here"
+  "start": 333.56,
+  "end": 353.44,
+  "text": "And here I can say check repetition less than five and here I can say calculate repetitions."
  },
  {
-  "start": 213.84,
-  "end": 218.21,
-  "text": "I am going to say uh evaluate okay so"
+  "start": 353.44,
+  "end": 361.48,
+  "text": "Okay, so this is how our flowchart looked and that is what I have done here."
  },
  {
-  "start": 218.22,
-  "end": 220.789,
-  "text": "I'm going to use the t-box evaluation"
+  "start": 361.48,
+  "end": 372.43,
+  "text": "Okay, just a minute I have to give the test step not the so I will say here set"
  },
  {
-  "start": 220.799,
-  "end": 223.729,
-  "text": "tool where I can put an expression and"
+  "start": 372.43,
+  "end": 375.42,
+  "text": "repetition."
  },
  {
-  "start": 223.739,
-  "end": 226.13,
-  "text": "which will be evaluated or verified okay"
+  "start": 375.42,
+  "end": 383.96,
+  "text": "Okay, so this is the step name I mistakenly I have put it in my buffer so that buffer"
  },
  {
-  "start": 226.14,
-  "end": 230.089,
-  "text": "so in this case I'm going to use my"
+  "start": 383.96,
+  "end": 387.14,
+  "text": "should be R otherwise this expression won't work."
  },
  {
-  "start": 230.099,
-  "end": 235.67,
-  "text": "buffer okay so I'll say B of R and I"
+  "start": 387.14,
+  "end": 391.98,
+  "text": "Okay, the other thing I wanted to show you is for this while statement."
  },
  {
-  "start": 235.68,
-  "end": 238.97,
-  "text": "will say this will be less than 5."
+  "start": 391.98,
+  "end": 397.3,
+  "text": "So if you go to properties you will see there is a property called maximum repetitions"
  },
  {
-  "start": 238.98,
-  "end": 242.35,
-  "text": "okay so as you can see this is the"
+  "start": 397.3,
+  "end": 400.02,
+  "text": "whose value is 30 I can change it."
  },
  {
-  "start": 242.36,
-  "end": 244.97,
-  "text": "expression which will be evaluated by"
+  "start": 400.02,
+  "end": 403.04,
+  "text": "Okay, let's go ahead and execute this test case."
  },
  {
-  "start": 244.98,
-  "end": 246.89,
-  "text": "the t-box module"
+  "start": 403.04,
+  "end": 411.34,
+  "text": "So go and run in Scratchbook and it should hardly take a few seconds to do this."
  },
  {
-  "start": 246.9,
-  "end": 249.53,
-  "text": "so this is our condition and then in"
+  "start": 411.34,
+  "end": 413.46,
+  "text": "It's not doing much here, right?"
  },
  {
-  "start": 249.54,
-  "end": 252.229,
-  "text": "Loop if this condition is satisfied we"
+  "start": 413.46,
+  "end": 416.58,
+  "text": "So here we are setting the repetition buffer."
  },
  {
-  "start": 252.239,
-  "end": 253.91,
-  "text": "need to add something okay"
+  "start": 416.58,
+  "end": 422.24,
+  "text": "It will go into the while loop and you can see there are six repetitions, right?"
  },
  {
-  "start": 253.92,
-  "end": 257.21,
-  "text": "so here again I am going to use the set"
+  "start": 422.24,
+  "end": 426.54,
+  "text": "So the loop is continuing it is going to check for this condition."
  },
  {
-  "start": 257.22,
-  "end": 258.289,
-  "text": "buffer"
+  "start": 426.54,
+  "end": 429.26,
+  "text": "Yeah, it's evaluated to true."
  },
  {
-  "start": 258.299,
-  "end": 259.849,
-  "text": "Okay so"
+  "start": 429.26,
+  "end": 434.94,
+  "text": "So it will go into the loop and it will basically do that calculation right in the"
  },
  {
-  "start": 259.859,
-  "end": 261.65,
-  "text": "what I'm going to do is do some"
+  "start": 434.94,
+  "end": 437.46,
+  "text": "last repetition."
  },
  {
-  "start": 261.66,
-  "end": 263.27,
-  "text": "calculation here"
+  "start": 437.46,
+  "end": 441.74,
+  "text": "The expression would be evaluated to false and hence it will exit out of the loop."
  },
  {
-  "start": 263.28,
-  "end": 266.03,
-  "text": "so I'll put it R and"
+  "start": 441.74,
+  "end": 444.54,
+  "text": "So this is how you can use while loop."
  },
  {
-  "start": 266.04,
-  "end": 268.73,
-  "text": "I'm going to use a function called math"
+  "start": 444.54,
+  "end": 450.7,
+  "text": "You can use it inside your test case to basically do any kind of configuration or"
  },
  {
-  "start": 268.74,
-  "end": 271.249,
-  "text": "okay so this is a Tosca function which"
+  "start": 450.7,
+  "end": 457.94,
+  "text": "basically put some logic around your test cases or test scenarios."
  },
  {
-  "start": 271.259,
-  "end": 272.749,
-  "text": "you can use to do some calculations"
+  "start": 457.94,
+  "end": 462.3,
+  "text": "Now let's talk about the next step of loop, which is called the do while loop."
  },
  {
-  "start": 272.759,
-  "end": 274.07,
-  "text": "basically"
+  "start": 462.3,
+  "end": 468.94,
+  "text": "Now it's pretty similar to while loop, but there is a little difference the way it works."
  },
  {
-  "start": 274.08,
-  "end": 277.85,
-  "text": "and inside this I'm going to use my"
+  "start": 468.94,
+  "end": 474.78,
+  "text": "Okay, so in this the test steps within the loop object are run repeatedly until the"
  },
  {
-  "start": 277.86,
-  "end": 281.45,
-  "text": "buffer which I have created so B of R"
+  "start": 474.78,
+  "end": 480.18,
+  "text": "condition is no longer fulfilled and the major difference between a while loop and"
  },
  {
-  "start": 281.46,
-  "end": 283.27,
-  "text": "okay"
+  "start": 480.18,
+  "end": 487.22,
+  "text": "a do while loop is the statement would be at least executed once in a do while"
  },
  {
-  "start": 283.28,
-  "end": 288.11,
-  "text": "and then I am going to add 1 to this"
+  "start": 487.22,
+  "end": 492.18,
+  "text": "loop even if this condition is not satisfied because the condition would be"
  },
  {
-  "start": 288.12,
-  "end": 290.45,
-  "text": "particular buffer every time this Loop"
+  "start": 492.18,
+  "end": 494.82,
+  "text": "satisfied later on, right?"
  },
  {
-  "start": 290.46,
-  "end": 291.71,
-  "text": "is executed"
+  "start": 494.82,
+  "end": 500.62,
+  "text": "So this calculate repetition would at least execute once before it checks the"
  },
  {
-  "start": 291.72,
-  "end": 293.33,
-  "text": "okay"
+  "start": 500.62,
+  "end": 504.94,
+  "text": "condition, but it's the other way around in the while loop."
  },
  {
-  "start": 293.34,
-  "end": 297.35,
-  "text": "and then let's close this and let's"
+  "start": 504.94,
+  "end": 508.34,
+  "text": "Okay, so this is how the flow chart looks like pretty similar."
  },
  {
-  "start": 297.36,
-  "end": 299.51,
-  "text": "close this okay"
+  "start": 508.34,
+  "end": 514.54,
+  "text": "Only thing is the loop begins by doing the calculation and then it checks for"
  },
  {
-  "start": 299.52,
-  "end": 302.689,
-  "text": "so this is our calculation which we are"
+  "start": 514.54,
+  "end": 516.54,
+  "text": "the condition."
  },
  {
-  "start": 302.699,
-  "end": 305.09,
-  "text": "doing we are using the math function to"
+  "start": 516.58,
+  "end": 522.86,
+  "text": "Here also the maximum repetitions property is present to avoid infinite loops and"
  },
  {
-  "start": 305.1,
-  "end": 308.21,
-  "text": "basically add a number or plus one to"
+  "start": 522.86,
+  "end": 525.86,
+  "text": "the default value is set to 30."
  },
  {
-  "start": 308.22,
-  "end": 310.01,
-  "text": "this buffer every time this Loop is"
+  "start": 525.86,
+  "end": 531.7,
+  "text": "Now coming back to Tosca, you can easily do the same thing using the do while loop"
  },
  {
-  "start": 310.02,
-  "end": 312.29,
-  "text": "executed okay"
+  "start": 531.7,
+  "end": 534.66,
+  "text": "with what we have done with the while loop, right?"
  },
  {
-  "start": 312.3,
-  "end": 314.89,
-  "text": "so this is our Loop and this condition"
+  "start": 534.66,
+  "end": 538.3,
+  "text": "So I would just show you how you can do this, right?"
  },
  {
-  "start": 314.9,
-  "end": 319.07,
-  "text": "and this is the buffer okay uh you can"
+  "start": 538.3,
+  "end": 544.18,
+  "text": "So let's create another test case and we can give it a do while loop name."
  },
  {
-  "start": 319.08,
-  "end": 322.01,
-  "text": "change these names here which I have set"
+  "start": 544.22,
+  "end": 550.66,
+  "text": "Okay, in inside this right again, you can set the buffer and"
  },
  {
-  "start": 322.02,
-  "end": 325.61,
-  "text": "so you can give some useful names here"
+  "start": 550.66,
+  "end": 554.06,
+  "text": "you can do things like set repetition here."
  },
  {
-  "start": 325.62,
-  "end": 326.99,
-  "text": "okay"
+  "start": 554.06,
+  "end": 559.82,
+  "text": "So I will just copy the step here, right?"
  },
  {
-  "start": 327.0,
-  "end": 332.09,
-  "text": "so I can call it a set repetition"
+  "start": 559.82,
+  "end": 562.54,
+  "text": "Because it's the same thing with what we want to do."
  },
  {
-  "start": 332.1,
-  "end": 336.35,
-  "text": "okay and here I can say"
+  "start": 562.54,
+  "end": 566.9,
+  "text": "We want to set the buffer for repetition and"
  },
  {
-  "start": 336.36,
-  "end": 340.61,
-  "text": "check reputation"
+  "start": 566.9,
+  "end": 571.06,
+  "text": "then basically we need to add a do while statement here."
  },
  {
-  "start": 343.67,
-  "end": 343.68,
-  "text": "less than five"
+  "start": 571.06,
+  "end": 572.9,
+  "text": "Okay, so how you can do that?"
  },
  {
-  "start": 343.68,
-  "end": 349.07,
-  "text": "and here I can say"
+  "start": 572.94,
+  "end": 577.34,
+  "text": "Right click and you can see here create do statement."
  },
  {
-  "start": 358.85,
-  "end": 358.86,
-  "text": "okay so this is how our flowchart looked"
+  "start": 577.34,
+  "end": 581.86,
+  "text": "You can also use the shortcut control and then control D."
  },
  {
-  "start": 358.86,
-  "end": 362.99,
-  "text": "and that is what I have done here okay"
+  "start": 581.86,
+  "end": 585.14,
+  "text": "Okay, so I'm going to add a do while loop here."
  },
  {
-  "start": 363.0,
-  "end": 367.67,
-  "text": "okay just a minute I I have to give the"
+  "start": 585.14,
+  "end": 588.66,
+  "text": "So it will have a do loop and a do condition."
  },
  {
-  "start": 367.68,
-  "end": 370.43,
-  "text": "test step not the"
+  "start": 588.66,
+  "end": 595.26,
+  "text": "Okay, and basically again, you can set this check repetition."
  },
  {
-  "start": 370.44,
-  "end": 375.23,
-  "text": "so I will say here set repetition"
+  "start": 595.26,
+  "end": 597.94,
+  "text": "You have to put it under condition."
  },
  {
-  "start": 379.249,
-  "end": 379.259,
-  "text": "okay so this is the step name uh I"
- },
- {
-  "start": 379.259,
-  "end": 383.51,
-  "text": "mistakenly I have put it in my buffer so"
- },
- {
-  "start": 383.52,
-  "end": 385.67,
-  "text": "that buffer should be R otherwise this"
- },
- {
-  "start": 385.68,
-  "end": 388.309,
-  "text": "expression won't work okay"
- },
- {
-  "start": 388.319,
-  "end": 390.29,
-  "text": "the other thing I wanted to show you is"
- },
- {
-  "start": 390.3,
-  "end": 392.749,
-  "text": "for this while statement so if you go to"
- },
- {
-  "start": 392.759,
-  "end": 395.57,
-  "text": "properties you will see there is a"
- },
- {
-  "start": 395.58,
-  "end": 397.189,
-  "text": "property called maximum repetitions"
- },
- {
-  "start": 397.199,
-  "end": 400.67,
-  "text": "whose value is 30 I can change it okay"
- },
- {
-  "start": 400.68,
-  "end": 402.59,
-  "text": "let's go ahead and execute this test"
- },
- {
-  "start": 402.6,
-  "end": 407.33,
-  "text": "case so go and run in scratchbook"
- },
- {
-  "start": 409.79,
-  "end": 409.8,
-  "text": "and it should hardly take a few seconds"
- },
- {
-  "start": 409.8,
-  "end": 412.43,
-  "text": "to do this it's not doing much here"
- },
- {
-  "start": 412.44,
-  "end": 415.249,
-  "text": "right so here uh we are setting the"
- },
- {
-  "start": 415.259,
-  "end": 417.23,
-  "text": "repetition buffer it will go into the"
- },
- {
-  "start": 417.24,
-  "end": 419.749,
-  "text": "while loop and you can see there are"
- },
- {
-  "start": 419.759,
-  "end": 422.93,
-  "text": "six repetitions right so the loop is"
- },
- {
-  "start": 422.94,
-  "end": 424.309,
-  "text": "continuing"
- },
- {
-  "start": 424.319,
-  "end": 425.57,
-  "text": "um it is going to check for this"
- },
- {
-  "start": 425.58,
-  "end": 429.409,
-  "text": "condition yeah it's evaluated to true so"
- },
- {
-  "start": 429.419,
-  "end": 431.93,
-  "text": "it will go into the loop uh and it will"
- },
- {
-  "start": 431.94,
-  "end": 434.99,
-  "text": "basically do that calculation right in"
- },
- {
-  "start": 435.0,
-  "end": 438.05,
-  "text": "the last uh repetition the expression"
- },
- {
-  "start": 438.06,
-  "end": 440.15,
-  "text": "would be valuated to false and hence it"
- },
- {
-  "start": 440.16,
-  "end": 443.15,
-  "text": "will exit out of the loop so this is how"
- },
- {
-  "start": 443.16,
-  "end": 445.37,
-  "text": "you can use while loop or you can use it"
- },
- {
-  "start": 445.38,
-  "end": 448.309,
-  "text": "inside your test case to basically do"
- },
- {
-  "start": 448.319,
-  "end": 451.129,
-  "text": "any kind of configuration or basically"
- },
- {
-  "start": 451.139,
-  "end": 453.11,
-  "text": "put some logic around your test cases or"
- },
- {
-  "start": 453.12,
-  "end": 457.49,
-  "text": "test scenarios"
- },
- {
-  "start": 459.71,
-  "end": 459.72,
-  "text": "now let's talk about the next step of"
- },
- {
-  "start": 459.72,
-  "end": 461.99,
-  "text": "loop which is called the do while loop"
- },
- {
-  "start": 462.0,
-  "end": 464.749,
-  "text": "now it's pretty similar to while loop"
- },
- {
-  "start": 464.759,
-  "end": 467.689,
-  "text": "but there is a little difference the way"
- },
- {
-  "start": 467.699,
-  "end": 471.71,
-  "text": "it works okay so in this the test steps"
- },
- {
-  "start": 471.72,
-  "end": 473.27,
-  "text": "within the loop object are run"
- },
- {
-  "start": 473.28,
-  "end": 476.029,
-  "text": "repeatedly until the condition is no"
- },
- {
-  "start": 476.039,
-  "end": 477.65,
-  "text": "longer fulfilled"
- },
- {
-  "start": 477.66,
-  "end": 479.689,
-  "text": "and the major difference between a while"
- },
- {
-  "start": 479.699,
-  "end": 482.33,
-  "text": "loop and a do while loop is"
- },
- {
-  "start": 482.34,
-  "end": 485.57,
-  "text": "the statement would be at least executed"
- },
- {
-  "start": 485.58,
-  "end": 488.99,
-  "text": "once in a do while loop even if this"
- },
- {
-  "start": 489.0,
-  "end": 491.51,
-  "text": "condition is not satisfied because the"
- },
- {
-  "start": 491.52,
-  "end": 493.67,
-  "text": "condition would be satisfied later on"
- },
- {
-  "start": 493.68,
-  "end": 497.57,
-  "text": "right so this calculate reputation would"
- },
- {
-  "start": 497.58,
-  "end": 500.689,
-  "text": "at least execute once before it checks"
- },
- {
-  "start": 500.699,
-  "end": 502.79,
-  "text": "the condition but it's the other way"
- },
- {
-  "start": 502.8,
-  "end": 505.85,
-  "text": "around in the while loop okay so this is"
- },
- {
-  "start": 505.86,
-  "end": 507.409,
-  "text": "how the flowchart looks like pretty"
- },
- {
-  "start": 507.419,
-  "end": 512.329,
-  "text": "similar only thing is the loop Begins by"
- },
- {
-  "start": 512.339,
-  "end": 514.55,
-  "text": "doing the calculation and then it checks"
- },
- {
-  "start": 514.56,
-  "end": 516.35,
-  "text": "for the condition"
- },
- {
-  "start": 516.36,
-  "end": 519.529,
-  "text": "here also uh the maximum repetitions"
- },
- {
-  "start": 519.539,
-  "end": 520.909,
-  "text": "property is present"
- },
- {
-  "start": 520.919,
-  "end": 523.37,
-  "text": "to avoid infinite loops and the default"
- },
- {
-  "start": 523.38,
-  "end": 525.65,
-  "text": "value is set to 30."
- },
- {
-  "start": 525.66,
-  "end": 528.769,
-  "text": "now coming back to Tosca you can easily"
- },
- {
-  "start": 528.779,
-  "end": 531.29,
-  "text": "do the same thing using the do while"
- },
- {
-  "start": 531.3,
-  "end": 533.21,
-  "text": "loop with what we have done with the"
- },
- {
-  "start": 533.22,
-  "end": 536.99,
-  "text": "while loop right so I'll just show you"
- },
- {
-  "start": 537.0,
-  "end": 539.03,
-  "text": "how you can do this right so let's"
- },
- {
-  "start": 539.04,
-  "end": 541.97,
-  "text": "create another test case and we can give"
- },
- {
-  "start": 541.98,
-  "end": 545.87,
-  "text": "it a do while loop name okay in inside"
- },
- {
-  "start": 545.88,
-  "end": 549.11,
-  "text": "this right uh again you can set the"
- },
- {
-  "start": 549.12,
-  "end": 553.07,
-  "text": "buffer and you can do things like set"
- },
- {
-  "start": 553.08,
-  "end": 556.73,
-  "text": "repetition here so I will just copy"
- },
- {
-  "start": 556.74,
-  "end": 559.73,
-  "text": "I'll just copy this step here right"
- },
- {
-  "start": 559.74,
-  "end": 561.889,
-  "text": "because it's the same thing with what we"
- },
- {
-  "start": 561.899,
-  "end": 564.53,
-  "text": "want to do we want to set the buffer for"
- },
- {
-  "start": 564.54,
-  "end": 565.85,
-  "text": "repetition"
- },
- {
-  "start": 565.86,
-  "end": 569.57,
-  "text": "and then basically we need to add a do"
- },
- {
-  "start": 569.58,
-  "end": 572.63,
-  "text": "while statement here okay so how you can"
- },
- {
-  "start": 572.64,
-  "end": 575.449,
-  "text": "do that right click and you can see here"
- },
- {
-  "start": 575.459,
-  "end": 578.99,
-  "text": "create do statement you can also use the"
- },
- {
-  "start": 579.0,
-  "end": 581.57,
-  "text": "shortcut Ctrl n and Ctrl d"
- },
- {
-  "start": 581.58,
-  "end": 584.449,
-  "text": "okay so I'm going to add a do while loop"
- },
- {
-  "start": 584.459,
-  "end": 587.509,
-  "text": "here so it will have a dough Loop and a"
- },
- {
-  "start": 587.519,
-  "end": 591.23,
-  "text": "do condition okay and basically uh again"
- },
- {
-  "start": 591.24,
-  "end": 595.07,
-  "text": "you can set this check repetition"
- },
- {
-  "start": 595.08,
-  "end": 597.769,
-  "text": "you have to put it under condition"
- },
- {
-  "start": 597.779,
-  "end": 601.19,
-  "text": "okay and this calculate repetition you"
- },
- {
-  "start": 601.2,
-  "end": 603.29,
-  "text": "have to put under Loop"
+  "start": 597.94,
+  "end": 602.42,
+  "text": "Okay, and this calculate repetition you have to put under loop."
  },
  {
   "start": 603.3,
-  "end": 606.71,
-  "text": "so that's how quickly you can create the"
+  "end": 607.7,
+  "text": "So that's how quickly you can create the same test case basically"
  },
  {
-  "start": 606.72,
-  "end": 608.449,
-  "text": "same test case basically using the do"
+  "start": 607.7,
+  "end": 609.3,
+  "text": "using the do while loop."
  },
  {
-  "start": 608.459,
-  "end": 611.329,
-  "text": "while loop okay so I've just copied the"
+  "start": 609.3,
+  "end": 612.1,
+  "text": "Okay, so I have just copied the steps here."
  },
  {
-  "start": 611.339,
-  "end": 612.769,
-  "text": "steps here"
+  "start": 613.3,
+  "end": 616.3,
+  "text": "This will calculate the repetition and this will check for"
  },
  {
-  "start": 612.779,
-  "end": 614.93,
-  "text": "uh this will calculate the repetition"
+  "start": 616.3,
+  "end": 617.3,
+  "text": "the repetition."
  },
  {
-  "start": 614.94,
-  "end": 617.03,
-  "text": "and this will check for the reputation"
+  "start": 617.3,
+  "end": 620.5,
+  "text": "Okay, so let's quickly execute this and"
  },
  {
-  "start": 617.04,
-  "end": 618.11,
-  "text": "okay"
+  "start": 620.5,
+  "end": 630.64,
+  "text": "check the results would be pretty much similar."
  },
  {
-  "start": 618.12,
-  "end": 620.69,
-  "text": "so let's quickly uh execute this and"
+  "start": 630.64,
+  "end": 635.24,
+  "text": "Okay, the only difference being the way it is executed."
  },
  {
-  "start": 620.7,
-  "end": 627.949,
-  "text": "check"
+  "start": 635.44,
+  "end": 640.84,
+  "text": "Okay, so you can see here it is calculating and"
  },
  {
-  "start": 630.59,
-  "end": 630.6,
-  "text": "the results would be pretty much similar"
+  "start": 640.84,
+  "end": 643.44,
+  "text": "then it is going into the condition."
  },
  {
-  "start": 630.6,
-  "end": 633.949,
-  "text": "okay the only difference uh being the"
+  "start": 643.44,
+  "end": 646.44,
+  "text": "Right, so it is evaluating that expression and"
  },
  {
-  "start": 633.959,
-  "end": 637.13,
-  "text": "way it is executed okay so you can see"
+  "start": 646.44,
+  "end": 649.74,
+  "text": "it will repeat until this expression is false."
  },
  {
-  "start": 637.14,
-  "end": 640.85,
-  "text": "here uh here it is calculating uh and"
+  "start": 649.74,
+  "end": 654.24,
+  "text": "Okay, so in the last repetition it is going to say"
  },
  {
-  "start": 640.86,
-  "end": 643.13,
-  "text": "then it is going into the condition"
+  "start": 654.24,
+  "end": 657.44,
+  "text": "five is less than five evaluated to false."
  },
  {
-  "start": 643.14,
-  "end": 645.23,
-  "text": "right so it is evaluating that"
+  "start": 657.44,
+  "end": 660.84,
+  "text": "So it will exit the loop and go into the next test step."
  },
  {
-  "start": 645.24,
-  "end": 647.449,
-  "text": "expression and it is it will repeat"
+  "start": 660.84,
+  "end": 664.84,
+  "text": "Okay, so the number of repetitions are different in a do while loop and"
  },
  {
-  "start": 647.459,
-  "end": 650.509,
-  "text": "until this expression is false okay"
+  "start": 665.64,
+  "end": 667.84,
+  "text": "so depending on your test scenario,"
  },
  {
-  "start": 650.519,
-  "end": 653.449,
-  "text": "so in the last repetition it is going to"
+  "start": 667.84,
+  "end": 670.04,
+  "text": "you have to decide which one you want to use."
  },
  {
-  "start": 653.459,
-  "end": 657.47,
-  "text": "say 5 is less than 5 evaluated false so"
+  "start": 670.04,
+  "end": 673.84,
+  "text": "Okay, but these are two different conditional loops which"
  },
  {
-  "start": 657.48,
-  "end": 659.449,
-  "text": "it will exit the loop and go into the"
+  "start": 673.84,
+  "end": 677.64,
+  "text": "you can use in Tosca to make your test cases more flexible"
  },
  {
-  "start": 659.459,
-  "end": 660.53,
-  "text": "next step"
+  "start": 677.64,
+  "end": 679.34,
+  "text": "and to handle more scenarios."
  },
  {
-  "start": 660.54,
-  "end": 662.93,
-  "text": "okay so the number of repetitions are"
+  "start": 679.34,
+  "end": 682.04,
+  "text": "So this was all about conditional loops."
  },
  {
-  "start": 662.94,
-  "end": 664.91,
-  "text": "different uh in a do while loop and a"
+  "start": 682.04,
+  "end": 685.44,
+  "text": "Stay tuned for more Tosca videos coming up pretty soon."
  },
  {
-  "start": 664.92,
-  "end": 667.37,
-  "text": "while loop so depending on your test"
+  "start": 685.44,
+  "end": 690.14,
+  "text": "We are trying to upload a new Tosca video every Friday."
  },
  {
-  "start": 667.38,
-  "end": 669.23,
-  "text": "scenario you have to decide which one"
- },
- {
-  "start": 669.24,
-  "end": 672.47,
-  "text": "you want to use okay but these are two"
- },
- {
-  "start": 672.48,
-  "end": 674.03,
-  "text": "different conditional Loops which you"
- },
- {
-  "start": 674.04,
-  "end": 676.73,
-  "text": "can use in Tosca to make your test cases"
- },
- {
-  "start": 676.74,
-  "end": 678.65,
-  "text": "more flexible and to handle more"
- },
- {
-  "start": 678.66,
-  "end": 679.73,
-  "text": "scenarios"
- },
- {
-  "start": 679.74,
-  "end": 682.069,
-  "text": "so this was all about conditional Loops"
- },
- {
-  "start": 682.079,
-  "end": 684.65,
-  "text": "stay tuned for more Tosca videos coming"
- },
- {
-  "start": 684.66,
-  "end": 685.97,
-  "text": "up pretty soon"
- },
- {
-  "start": 685.98,
-  "end": 689.15,
-  "text": "we are trying to upload a new Tasker"
- },
- {
-  "start": 689.16,
-  "end": 691.069,
-  "text": "video every Friday so watch out for"
- },
- {
-  "start": 691.079,
-  "end": 693.05,
-  "text": "these videos or every Friday on our"
- },
- {
-  "start": 693.06,
-  "end": 695.24,
-  "text": "Channel"
+  "start": 690.14,
+  "end": 693.44,
+  "text": "So watch out for these videos or every Friday on our channel."
  }
 ]

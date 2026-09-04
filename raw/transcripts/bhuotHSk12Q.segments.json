@@ -1,1142 +1,762 @@
 [
  {
-  "start": 3.59,
-  "end": 3.6,
-  "text": "hey everyone welcome back to another"
+  "start": 1.3,
+  "end": 5.3,
+  "text": "Hey everyone, welcome back to another interesting Tosca lesson."
  },
  {
-  "start": 3.6,
-  "end": 5.99,
-  "text": "interesting Tosca lesson today I am"
+  "start": 5.3,
+  "end": 9.3,
+  "text": "Today, I'm going to talk about how you can perform a TQL search"
  },
  {
-  "start": 6.0,
-  "end": 8.03,
-  "text": "going to talk about how you can perform"
+  "start": 9.3,
+  "end": 13.3,
+  "text": "and how you can store them in different virtual folders."
  },
  {
-  "start": 8.04,
-  "end": 11.87,
-  "text": "a tql search and how you can store them"
+  "start": 13.3,
+  "end": 17.3,
+  "text": "Now coming to TQL, it stands for Tosca"
  },
  {
-  "start": 11.88,
-  "end": 14.33,
-  "text": "in different virtual folders"
+  "start": 17.3,
+  "end": 21.3,
+  "text": "query language and using this you can basically construct"
  },
  {
-  "start": 14.34,
-  "end": 17.57,
-  "text": "now coming to tql it stands for Tosca"
+  "start": 21.3,
+  "end": 25.3,
+  "text": "different complex queries. Using this"
  },
  {
-  "start": 17.58,
-  "end": 20.57,
-  "text": "query language and using this uh you can"
+  "start": 25.3,
+  "end": 29.3,
+  "text": "TQL search, you can do complex search on your"
  },
  {
-  "start": 20.58,
-  "end": 23.39,
-  "text": "basically construct different uh complex"
+  "start": 29.3,
+  "end": 33.3,
+  "text": "workspace and it will return you with all the different objects which matches"
  },
  {
-  "start": 23.4,
-  "end": 27.05,
-  "text": "queries using this tql search you can do"
+  "start": 33.3,
+  "end": 37.3,
+  "text": "that search criteria. Okay, so talking about"
  },
  {
-  "start": 27.06,
-  "end": 30.41,
-  "text": "complex search on your workspace and it"
+  "start": 37.3,
+  "end": 41.3,
+  "text": "search in Tosca, there are obviously two options."
  },
  {
-  "start": 30.42,
-  "end": 31.91,
-  "text": "will return you with all the different"
+  "start": 41.3,
+  "end": 45.3,
+  "text": "When you go into the menu on the top, you will see there is the search"
  },
  {
-  "start": 31.92,
-  "end": 33.77,
-  "text": "objects which matches that search"
+  "start": 45.3,
+  "end": 49.3,
+  "text": "and everything is integrated in this one window."
  },
  {
-  "start": 33.78,
-  "end": 35.87,
-  "text": "criteria okay"
+  "start": 49.3,
+  "end": 53.3,
+  "text": "So you have got two types of search here, Simple and TQL"
  },
  {
-  "start": 35.88,
-  "end": 38.569,
-  "text": "so uh talking about search in Tosca"
+  "start": 53.3,
+  "end": 57.3,
+  "text": "and you have also got an option to directly store your TQL"
  },
  {
-  "start": 38.579,
-  "end": 41.75,
-  "text": "there are obviously two options when you"
+  "start": 57.3,
+  "end": 61.3,
+  "text": "search into a virtual folder on the right hand side."
  },
  {
-  "start": 41.76,
-  "end": 44.27,
-  "text": "go into the menu on the top you will see"
+  "start": 61.3,
+  "end": 65.3,
+  "text": "So when you do a simple search, it is just entering"
  },
  {
-  "start": 44.28,
-  "end": 45.889,
-  "text": "that is the search"
+  "start": 65.3,
+  "end": 69.3,
+  "text": "some text and then trying to find what objects are"
  },
  {
-  "start": 45.899,
-  "end": 48.47,
-  "text": "and everything is integrated in this one"
+  "start": 69.3,
+  "end": 73.3,
+  "text": "associated or are a match for this particular text."
  },
  {
-  "start": 48.48,
-  "end": 50.45,
-  "text": "window okay so you have got two types of"
+  "start": 73.3,
+  "end": 77.3,
+  "text": "So if I click on search now, it will return me all the objects"
  },
  {
-  "start": 50.46,
-  "end": 53.209,
-  "text": "search here simple antiquel"
+  "start": 77.3,
+  "end": 81.3,
+  "text": "which are a match for this particular text. So that's"
  },
  {
-  "start": 53.219,
-  "end": 55.31,
-  "text": "and you have also got an option to"
+  "start": 81.3,
+  "end": 85.3,
+  "text": "simple search, nothing too spectacular about it. But when you come to"
  },
  {
-  "start": 55.32,
-  "end": 58.13,
-  "text": "directly uh store your tql search into a"
+  "start": 85.3,
+  "end": 89.3,
+  "text": "TQL search, that simple search is now converted"
  },
  {
-  "start": 58.14,
-  "end": 60.049,
-  "text": "virtual folder on the right hand side"
+  "start": 89.3,
+  "end": 93.3,
+  "text": "into a query language, which is defined by Tosca."
  },
  {
-  "start": 60.059,
-  "end": 61.97,
-  "text": "okay"
+  "start": 93.3,
+  "end": 97.3,
+  "text": "It has its own grammar and operators. So if you want to"
  },
  {
-  "start": 61.98,
-  "end": 64.789,
-  "text": "so when you do a simple search it is"
+  "start": 97.3,
+  "end": 101.3,
+  "text": "use this, you have to understand some things about this"
  },
  {
-  "start": 64.799,
-  "end": 66.77,
-  "text": "just entering some text and then trying"
+  "start": 101.3,
+  "end": 105.3,
+  "text": "particular query language. Now the TQL search queries"
  },
  {
-  "start": 66.78,
-  "end": 70.91,
-  "text": "to find what objects are associated or"
+  "start": 105.3,
+  "end": 109.3,
+  "text": "tend to consist of many sub-expressions. So you can see this is"
  },
  {
-  "start": 70.92,
-  "end": 73.429,
-  "text": "are a match for this particular text"
+  "start": 109.3,
+  "end": 113.3,
+  "text": "an expression, then subparts is an expression and then this is"
  },
  {
-  "start": 73.439,
-  "end": 75.83,
-  "text": "okay so if I click on search now"
+  "start": 113.3,
+  "end": 117.3,
+  "text": "like a logical expression where we are comparing or"
  },
  {
-  "start": 75.84,
-  "end": 77.99,
-  "text": "it will return me all the objects which"
+  "start": 117.3,
+  "end": 121.3,
+  "text": "we are using this operators equals to question mark"
  },
  {
-  "start": 78.0,
-  "end": 80.09,
-  "text": "are a match for this particular text"
+  "start": 121.3,
+  "end": 125.3,
+  "text": "where it searches for all the different"
  },
  {
-  "start": 80.1,
-  "end": 82.91,
-  "text": "okay so that's simple search nothing too"
+  "start": 125.3,
+  "end": 129.3,
+  "text": "objects which contain this particular text. Okay, so"
  },
  {
-  "start": 82.92,
-  "end": 85.31,
-  "text": "spectacular about it but when you come"
+  "start": 129.3,
+  "end": 133.3,
+  "text": "if I want to change this search a little bit"
  },
  {
-  "start": 85.32,
-  "end": 88.789,
-  "text": "to tql search uh that simple search is"
+  "start": 133.3,
+  "end": 137.3,
+  "text": "and if I make this name equals equals Google, you will see"
  },
  {
-  "start": 88.799,
-  "end": 91.55,
-  "text": "now converted into a query language okay"
+  "start": 137.3,
+  "end": 141.3,
+  "text": "the lesser number of results which are displayed now and that is because"
  },
  {
-  "start": 91.56,
-  "end": 94.609,
-  "text": "which is defined by Tosca it has its own"
+  "start": 141.3,
+  "end": 145.3,
+  "text": "it will try to search for an exact match. Previously it was not an"
  },
  {
-  "start": 94.619,
-  "end": 97.37,
-  "text": "grammar and operators so if you want to"
+  "start": 145.3,
+  "end": 149.3,
+  "text": "exact match, it was just any particular object"
  },
  {
-  "start": 97.38,
-  "end": 100.37,
-  "text": "use this you have to understand uh some"
+  "start": 149.3,
+  "end": 153.3,
+  "text": "which contains this particular text. So that's how you can"
  },
  {
-  "start": 100.38,
-  "end": 102.05,
-  "text": "things about this particular query"
+  "start": 153.3,
+  "end": 157.3,
+  "text": "basically play around with this TQL search query."
  },
  {
-  "start": 102.06,
-  "end": 104.929,
-  "text": "language okay now the equal search"
+  "start": 157.3,
+  "end": 161.3,
+  "text": "Now let me show you another example where a search"
  },
  {
-  "start": 104.939,
-  "end": 107.21,
-  "text": "queries tend to consist of many sub"
+  "start": 161.3,
+  "end": 165.3,
+  "text": "could be useful in terms of your executions."
  },
  {
-  "start": 107.22,
-  "end": 109.85,
-  "text": "Expressions so you can see this is a"
+  "start": 165.3,
+  "end": 169.3,
+  "text": "So if you want to find out if your executions,"
  },
  {
-  "start": 109.86,
-  "end": 112.31,
-  "text": "expression then the sub parts is an"
+  "start": 169.3,
+  "end": 173.3,
+  "text": "all the test cases have passed or failed or does the execution"
  },
  {
-  "start": 112.32,
-  "end": 114.35,
-  "text": "expression and then this is like a"
+  "start": 173.3,
+  "end": 177.3,
+  "text": "list contain any test cases or not. So things like these"
  },
  {
-  "start": 114.36,
-  "end": 116.51,
-  "text": "logical expression where we are"
+  "start": 177.3,
+  "end": 181.3,
+  "text": "you can easily search through a TQL."
  },
  {
-  "start": 116.52,
-  "end": 119.649,
-  "text": "comparing or we are using this operators"
+  "start": 181.3,
+  "end": 185.3,
+  "text": "So these are basically some logical kind"
  },
  {
-  "start": 119.659,
-  "end": 122.469,
-  "text": "equals to question mark where it"
- },
- {
-  "start": 122.479,
-  "end": 126.289,
-  "text": "searches for all the different objects"
- },
- {
-  "start": 126.299,
-  "end": 128.93,
-  "text": "which contain this particular text okay"
- },
- {
-  "start": 128.94,
-  "end": 132.71,
-  "text": "so if I want to change this search a"
- },
- {
-  "start": 132.72,
-  "end": 135.17,
-  "text": "little bit and if I make this a name"
- },
- {
-  "start": 135.18,
-  "end": 137.57,
-  "text": "equals equals Google you will see the"
- },
- {
-  "start": 137.58,
-  "end": 139.43,
-  "text": "lesson number of results which are"
- },
- {
-  "start": 139.44,
-  "end": 141.71,
-  "text": "displayed now and that is because it"
- },
- {
-  "start": 141.72,
-  "end": 143.99,
-  "text": "will try to search for an exact match uh"
- },
- {
-  "start": 144.0,
-  "end": 146.75,
-  "text": "previously it was not an exact match it"
- },
- {
-  "start": 146.76,
-  "end": 149.63,
-  "text": "was just uh any particular object which"
- },
- {
-  "start": 149.64,
-  "end": 152.33,
-  "text": "contains this particular text okay so"
- },
- {
-  "start": 152.34,
-  "end": 154.309,
-  "text": "that's how you can basically play around"
- },
- {
-  "start": 154.319,
-  "end": 157.97,
-  "text": "with this SQL search query"
- },
- {
-  "start": 157.98,
-  "end": 159.65,
-  "text": "now let me show you another example"
- },
- {
-  "start": 159.66,
-  "end": 163.19,
-  "text": "where a search could be useful in terms"
- },
- {
-  "start": 163.2,
-  "end": 166.43,
-  "text": "of your executions right so if you want"
- },
- {
-  "start": 166.44,
-  "end": 169.19,
-  "text": "to find out if your executions"
- },
- {
-  "start": 169.2,
-  "end": 170.99,
-  "text": "um all the test cases have passed or"
- },
- {
-  "start": 171.0,
-  "end": 173.69,
-  "text": "failed or does the execution list"
- },
- {
-  "start": 173.7,
-  "end": 176.21,
-  "text": "contain any test cases or not right so"
- },
- {
-  "start": 176.22,
-  "end": 179.39,
-  "text": "things like these you can easily search"
- },
- {
-  "start": 179.4,
-  "end": 182.27,
-  "text": "through a tql okay so these are"
- },
- {
-  "start": 182.28,
-  "end": 185.75,
-  "text": "basically uh some logical kind of search"
- },
- {
-  "start": 185.76,
-  "end": 189.29,
-  "text": "and not uh any typical search which you"
+  "start": 185.3,
+  "end": 189.3,
+  "text": "of search and not any typical search which you can"
  },
  {
   "start": 189.3,
-  "end": 192.05,
-  "text": "can do through a simple search right so"
+  "end": 193.3,
+  "text": "do through a simple search. So for this,"
  },
  {
-  "start": 192.06,
-  "end": 194.93,
-  "text": "for this uh let's try and use this"
+  "start": 193.3,
+  "end": 197.3,
+  "text": "let's try and use this subparts. We are in the root"
  },
  {
-  "start": 194.94,
-  "end": 197.809,
-  "text": "subparts okay we are in the root folder"
+  "start": 197.3,
+  "end": 201.3,
+  "text": "folder so it will display all the subparts which contain this particular"
  },
  {
-  "start": 197.819,
-  "end": 200.39,
-  "text": "so it will display all the subparts"
+  "start": 201.3,
+  "end": 205.3,
+  "text": "or which basically satisfy this search criteria."
  },
  {
-  "start": 200.4,
-  "end": 202.67,
-  "text": "which contain this particular or which"
+  "start": 205.3,
+  "end": 209.3,
+  "text": "So we are going to look for execution list here."
  },
  {
-  "start": 202.68,
-  "end": 205.43,
-  "text": "basically satisfy this search criteria"
+  "start": 209.3,
+  "end": 213.3,
+  "text": "And then here you can see that"
  },
  {
-  "start": 205.44,
-  "end": 207.649,
-  "text": "so we are going to look for execution"
+  "start": 213.3,
+  "end": 217.3,
+  "text": "it shows me all the execution lists which are present in this"
  },
  {
-  "start": 207.659,
-  "end": 210.47,
-  "text": "list here okay"
+  "start": 217.3,
+  "end": 221.3,
+  "text": "particular workspace using the subparts and"
  },
  {
-  "start": 210.48,
-  "end": 214.43,
-  "text": "and then here you can see that it shows"
+  "start": 221.3,
+  "end": 225.3,
+  "text": "these are all the execution list which are present currently."
  },
  {
-  "start": 214.44,
-  "end": 216.71,
-  "text": "me all the execution lists which are"
+  "start": 225.3,
+  "end": 229.3,
+  "text": "So if I want to filter out these results which is currently"
  },
  {
-  "start": 216.72,
-  "end": 218.089,
-  "text": "present in this particular workspace"
+  "start": 229.3,
+  "end": 233.3,
+  "text": "shown here you can see there are a number of different options"
  },
  {
-  "start": 218.099,
-  "end": 220.85,
-  "text": "okay using the sub parts"
+  "start": 233.3,
+  "end": 237.3,
+  "text": "and there I can see number of test cases failed,"
  },
  {
-  "start": 220.86,
-  "end": 222.77,
-  "text": "and these are all the execution lists"
+  "start": 237.3,
+  "end": 241.3,
+  "text": "number of test cases passed. So what I can do, I can do"
  },
  {
-  "start": 222.78,
-  "end": 225.47,
-  "text": "which are present currently okay now if"
+  "start": 241.3,
+  "end": 245.3,
+  "text": "the search like number of test cases passed is greater than one."
  },
  {
-  "start": 225.48,
-  "end": 228.11,
-  "text": "I want to filter out this results which"
+  "start": 245.3,
+  "end": 249.3,
+  "text": "And then if I search it will"
  },
  {
-  "start": 228.12,
-  "end": 230.99,
-  "text": "is currently shown here you can see"
+  "start": 249.3,
+  "end": 253.3,
+  "text": "return me this result where this particular test case or"
  },
  {
-  "start": 231.0,
-  "end": 232.729,
-  "text": "there are number of different options"
+  "start": 253.3,
+  "end": 257.3,
+  "text": "execution list has got a number of test cases passed greater than one."
  },
  {
-  "start": 232.739,
-  "end": 233.93,
-  "text": "okay"
+  "start": 257.3,
+  "end": 261.3,
+  "text": "Okay. And similarly I can say number of test cases"
  },
  {
-  "start": 233.94,
-  "end": 236.03,
-  "text": "um and there I can see number of test"
+  "start": 261.3,
+  "end": 265.3,
+  "text": "failed equals to zero"
  },
  {
-  "start": 236.04,
-  "end": 238.67,
-  "text": "cases failed number of test cases passed"
- },
- {
-  "start": 238.68,
-  "end": 241.729,
-  "text": "so what I can do I can do this search"
- },
- {
-  "start": 241.739,
-  "end": 243.89,
-  "text": "like number of test cases passed is"
- },
- {
-  "start": 243.9,
-  "end": 245.33,
-  "text": "greater than one"
- },
- {
-  "start": 245.34,
-  "end": 247.07,
-  "text": "okay"
- },
- {
-  "start": 247.08,
-  "end": 249.589,
-  "text": "and then if I search it will return me"
- },
- {
-  "start": 249.599,
-  "end": 251.57,
-  "text": "this result where this particular test"
- },
- {
-  "start": 251.58,
-  "end": 254.39,
-  "text": "case uh or execution list has got a"
- },
- {
-  "start": 254.4,
-  "end": 256.61,
-  "text": "number of test cases passed greater than"
- },
- {
-  "start": 256.62,
-  "end": 260.569,
-  "text": "one okay and similarly I can say number"
- },
- {
-  "start": 260.579,
-  "end": 267.11,
-  "text": "of test cases failed okay equals to zero"
- },
- {
-  "start": 269.87,
-  "end": 269.88,
+  "start": 265.3,
+  "end": 270.9,
   "text": "or I can say"
  },
  {
-  "start": 269.88,
-  "end": 271.07,
-  "text": "um"
+  "start": 270.9,
+  "end": 274.9,
+  "text": "less than one. Okay. And it will give"
  },
  {
-  "start": 271.08,
-  "end": 274.07,
-  "text": "less than one okay"
+  "start": 274.9,
+  "end": 278.9,
+  "text": "me three different execution list where number of test cases"
  },
  {
-  "start": 274.08,
-  "end": 276.409,
-  "text": "and it will give me uh three different"
+  "start": 278.9,
+  "end": 282.9,
+  "text": "failed is less than one which means most of the test cases have passed."
  },
  {
-  "start": 276.419,
-  "end": 278.749,
-  "text": "uh execution list where number of test"
+  "start": 282.9,
+  "end": 286.9,
+  "text": "Okay. So things like this you can do a tql"
  },
  {
-  "start": 278.759,
-  "end": 280.31,
-  "text": "cases failed is less than one which"
+  "start": 286.9,
+  "end": 290.9,
+  "text": "search based on you can do it on requirements on modules"
  },
  {
-  "start": 280.32,
-  "end": 282.83,
-  "text": "means most of the test cases have passed"
+  "start": 290.9,
+  "end": 294.9,
+  "text": "on test of values on execution lists on"
  },
  {
-  "start": 282.84,
-  "end": 286.55,
-  "text": "okay so things like this uh you can do a"
+  "start": 294.9,
+  "end": 298.9,
+  "text": "test cases. Right. So whatever you want to do you can do it"
  },
  {
-  "start": 286.56,
-  "end": 289.67,
-  "text": "SQL search based on you can do it on"
+  "start": 298.9,
+  "end": 302.9,
+  "text": "using this tql search. You just need to get used to"
  },
  {
-  "start": 289.68,
-  "end": 292.49,
-  "text": "requirements on modules on test step"
+  "start": 302.9,
+  "end": 306.9,
+  "text": "this structure how this doskar query language is structured"
  },
  {
-  "start": 292.5,
-  "end": 295.73,
-  "text": "values on execution lists on test cases"
+  "start": 306.9,
+  "end": 310.9,
+  "text": "with different sub expressions and operators."
  },
  {
-  "start": 295.74,
-  "end": 298.31,
-  "text": "right so whatever you want to do you can"
+  "start": 310.9,
+  "end": 314.9,
+  "text": "So you just need to take care of that and then it will find you"
  },
  {
-  "start": 298.32,
-  "end": 301.49,
-  "text": "do it using this SQL search you just"
+  "start": 314.9,
+  "end": 320.21,
+  "text": "all the objects for you. Okay. Now the next"
  },
  {
-  "start": 301.5,
-  "end": 303.17,
-  "text": "need to get used to"
+  "start": 320.21,
+  "end": 324.21,
+  "text": "thing is virtual folder now virtual folders as the name"
  },
  {
-  "start": 303.18,
-  "end": 306.35,
-  "text": "um this structure how this Tosca query"
+  "start": 324.21,
+  "end": 328.21,
+  "text": "suggests it it doesn't have any"
  },
  {
-  "start": 306.36,
-  "end": 308.57,
-  "text": "language is structured with different"
+  "start": 328.21,
+  "end": 332.21,
+  "text": "linked to any particular or any assigned objects."
  },
  {
-  "start": 308.58,
-  "end": 311.51,
-  "text": "sub expressions and operators so you"
+  "start": 332.21,
+  "end": 336.21,
+  "text": "It only contains the search function. Okay. So whatever"
  },
  {
-  "start": 311.52,
-  "end": 313.73,
-  "text": "just need to take care of that and then"
+  "start": 336.21,
+  "end": 340.21,
+  "text": "results you are getting from the tql search it will be displayed"
  },
  {
-  "start": 313.74,
-  "end": 316.189,
-  "text": "it will find you all the objects for you"
+  "start": 340.21,
+  "end": 344.21,
+  "text": "in a virtual folder so you can save the results in this particular"
  },
  {
-  "start": 316.199,
-  "end": 317.689,
-  "text": "okay"
+  "start": 344.21,
+  "end": 348.21,
+  "text": "folder and then whenever you want you can go there"
  },
  {
-  "start": 317.699,
-  "end": 320.89,
-  "text": "foreign"
+  "start": 348.21,
+  "end": 352.21,
+  "text": "and you can fetch the latest results from the workspace."
  },
  {
-  "start": 324.469,
-  "end": 324.479,
-  "text": "folder now virtual folders as the name"
+  "start": 352.21,
+  "end": 356.21,
+  "text": "So it's basically it's easier to access your search results"
  },
  {
-  "start": 324.479,
-  "end": 328.31,
-  "text": "suggests uh it it doesn't have any"
+  "start": 356.21,
+  "end": 360.21,
+  "text": "rather than going into the tql search and always entering a particular"
  },
  {
-  "start": 328.32,
-  "end": 331.55,
-  "text": "linked to any particular or any assigned"
+  "start": 360.21,
+  "end": 364.21,
+  "text": "search query and then looking for the results you can go to that"
  },
  {
-  "start": 331.56,
-  "end": 334.61,
-  "text": "objects it only contains the search"
+  "start": 364.21,
+  "end": 368.21,
+  "text": "virtual folder and you can directly open that. Okay."
  },
  {
-  "start": 334.62,
-  "end": 337.189,
-  "text": "function okay so whatever results you"
+  "start": 368.21,
+  "end": 372.21,
+  "text": "So let's go ahead and see how we can basically create a virtual"
  },
  {
-  "start": 337.199,
-  "end": 339.59,
-  "text": "are getting from the tql search it will"
+  "start": 372.21,
+  "end": 376.21,
+  "text": "folder at any place so you can create a virtual folder"
  },
  {
-  "start": 339.6,
-  "end": 342.59,
-  "text": "be displayed in a virtual folder so you"
+  "start": 376.21,
+  "end": 380.21,
+  "text": "except the root folder or the root project right"
  },
  {
-  "start": 342.6,
-  "end": 344.33,
-  "text": "can save the results in this particular"
+  "start": 380.21,
+  "end": 384.21,
+  "text": "you can create it at any folder level baby beat execution"
  },
  {
-  "start": 344.34,
-  "end": 347.51,
-  "text": "folder and then whenever you want you"
+  "start": 384.21,
+  "end": 388.21,
+  "text": "modules requirements test cases now reason I cannot save this"
  },
  {
-  "start": 347.52,
-  "end": 349.37,
-  "text": "can go there and you can fetch the"
+  "start": 388.21,
+  "end": 392.21,
+  "text": "as in directly into virtual folder is because I am in the root project."
  },
  {
-  "start": 349.38,
-  "end": 351.95,
-  "text": "latest results from the workspace"
+  "start": 392.21,
+  "end": 396.21,
+  "text": "Okay, so you cannot save it here. So the other way around"
  },
  {
-  "start": 351.96,
-  "end": 354.89,
-  "text": "so it's basically it's easier to access"
+  "start": 396.21,
+  "end": 400.21,
+  "text": "is go to a particular folder like test cases"
  },
  {
-  "start": 354.9,
-  "end": 357.469,
-  "text": "your search results rather than going"
+  "start": 400.21,
+  "end": 404.21,
+  "text": "and then here let's create a virtual folder. So when you"
  },
  {
-  "start": 357.479,
-  "end": 359.029,
-  "text": "into that equal search and always"
+  "start": 404.21,
+  "end": 408.21,
+  "text": "right click on any particular folder there will be a option to create"
  },
  {
-  "start": 359.039,
-  "end": 361.129,
-  "text": "entering a particular search query and"
+  "start": 408.21,
+  "end": 412.21,
+  "text": "a virtual folder click on that and then it will ask you"
  },
  {
-  "start": 361.139,
-  "end": 363.83,
-  "text": "then looking for the results you can go"
+  "start": 412.21,
+  "end": 416.21,
+  "text": "to rename it you can or you it's not necessary to"
  },
  {
-  "start": 363.84,
-  "end": 366.11,
-  "text": "to that virtual folder and you can"
+  "start": 416.21,
+  "end": 420.21,
+  "text": "rename that virtual folder, but if you have many virtual"
  },
  {
-  "start": 366.12,
-  "end": 368.99,
-  "text": "directly open that okay"
+  "start": 420.21,
+  "end": 424.21,
+  "text": "folders, it's better to rename it. Okay. Now the most"
  },
  {
-  "start": 369.0,
-  "end": 370.85,
-  "text": "so let's go ahead and see how we can"
+  "start": 424.21,
+  "end": 428.21,
+  "text": "important part of virtual folder or the most important requirement is"
  },
  {
-  "start": 370.86,
-  "end": 374.21,
-  "text": "basically create a virtual folder uh at"
+  "start": 428.21,
+  "end": 432.21,
+  "text": "to enter a query which is basically your TQL query"
  },
  {
-  "start": 374.22,
-  "end": 376.129,
-  "text": "any place so you can create a virtual"
+  "start": 432.21,
+  "end": 436.21,
+  "text": "right? So when you go to properties and open that"
  },
  {
-  "start": 376.139,
-  "end": 379.43,
-  "text": "folder except the root folder or the"
+  "start": 436.21,
+  "end": 440.21,
+  "text": "it will ask you to enter a particular TQL query right?"
  },
  {
-  "start": 379.44,
-  "end": 381.469,
-  "text": "root project right you can create it at"
+  "start": 440.21,
+  "end": 444.21,
+  "text": "So let's see what we can build here."
  },
  {
-  "start": 381.479,
-  "end": 384.11,
-  "text": "any folder level or baby be it execution"
+  "start": 444.21,
+  "end": 448.21,
+  "text": "Okay, so I am in the test cases folder. So I will use"
  },
  {
-  "start": 384.12,
-  "end": 386.87,
-  "text": "modules requirements test cases now"
+  "start": 448.21,
+  "end": 452.21,
+  "text": "the subparts. And then I will"
  },
  {
-  "start": 386.88,
-  "end": 389.689,
-  "text": "reason I cannot save this as indirectly"
+  "start": 452.21,
+  "end": 456.21,
+  "text": "use this time the test case. Okay."
  },
  {
-  "start": 389.699,
-  "end": 391.79,
-  "text": "into virtual folder is because I am in"
+  "start": 456.21,
+  "end": 460.21,
+  "text": "And inside test case what I want to see is what test"
  },
  {
-  "start": 391.8,
-  "end": 394.43,
-  "text": "the root project okay so you cannot save"
+  "start": 460.21,
+  "end": 464.21,
+  "text": "cases were created by me. Okay. Now this"
  },
  {
-  "start": 394.44,
-  "end": 397.67,
-  "text": "it here so the other way around is go to"
+  "start": 464.21,
+  "end": 468.21,
+  "text": "will be useful when you have got a number of different"
  },
  {
-  "start": 397.68,
-  "end": 400.07,
-  "text": "a particular folder like test cases"
+  "start": 468.21,
+  "end": 472.21,
+  "text": "users in your workspace. Okay, if you want to see who"
  },
  {
-  "start": 400.08,
-  "end": 403.189,
-  "text": "and then here let's create a virtual"
+  "start": 472.21,
+  "end": 476.21,
+  "text": "has created how many test cases so that could be a good report"
  },
  {
-  "start": 403.199,
-  "end": 405.35,
-  "text": "folder so when you right click on any"
+  "start": 476.21,
+  "end": 480.21,
+  "text": "for the management team, right? So you can provide this"
  },
  {
-  "start": 405.36,
-  "end": 407.93,
-  "text": "particular folder there will be a option"
+  "start": 480.21,
+  "end": 484.21,
+  "text": "report directly from this virtual folder. Okay,"
  },
  {
-  "start": 407.94,
-  "end": 410.27,
-  "text": "to create a virtual folder click on that"
+  "start": 484.21,
+  "end": 488.21,
+  "text": "so you can easily see who has created how many test cases and"
  },
  {
-  "start": 410.28,
-  "end": 413.029,
-  "text": "and then it will ask you to rename it"
+  "start": 488.21,
+  "end": 492.21,
+  "text": "you can even see when it was created by just editing"
  },
  {
-  "start": 413.039,
-  "end": 416.27,
-  "text": "you can or you it's not necessary to"
+  "start": 492.21,
+  "end": 496.21,
+  "text": "this query. Okay, so here it is"
  },
  {
-  "start": 416.28,
-  "end": 418.67,
-  "text": "rename that virtual folder but if you"
+  "start": 496.21,
+  "end": 500.21,
+  "text": "I am the admin user here. So I will say created by equals equals"
  },
  {
-  "start": 418.68,
-  "end": 421.61,
-  "text": "have many virtual folders it's better to"
+  "start": 500.21,
+  "end": 504.21,
+  "text": "admin and then I will click on okay and you will see a"
  },
  {
-  "start": 421.62,
-  "end": 423.469,
-  "text": "rename it okay"
+  "start": 504.21,
+  "end": 508.21,
+  "text": "list of different test cases being shown here."
  },
  {
-  "start": 423.479,
-  "end": 425.45,
-  "text": "now the most important part of virtual"
+  "start": 508.21,
+  "end": 512.21,
+  "text": "Okay, so you can see there are so many test cases which are"
  },
  {
-  "start": 425.46,
-  "end": 427.73,
-  "text": "folder or the most important requirement"
+  "start": 512.21,
+  "end": 516.21,
+  "text": "now contained in this virtual folder. Okay,"
  },
  {
-  "start": 427.74,
-  "end": 431.33,
-  "text": "is to enter a query which is basically"
+  "start": 516.21,
+  "end": 520.21,
+  "text": "now I can even modify"
  },
  {
-  "start": 431.34,
-  "end": 434.029,
-  "text": "your tql query right so when you go to"
+  "start": 520.21,
+  "end": 524.21,
+  "text": "this. Okay, you can also"
  },
  {
-  "start": 434.039,
-  "end": 437.33,
-  "text": "properties and open that it will ask you"
+  "start": 524.21,
+  "end": 528.21,
+  "text": "always get the latest results by right clicking and"
  },
  {
-  "start": 437.34,
-  "end": 440.409,
-  "text": "to enter a particular SQL query right"
+  "start": 528.21,
+  "end": 532.21,
+  "text": "clicking on this refresh virtual folder. So if something has changed"
  },
  {
-  "start": 440.419,
-  "end": 444.529,
-  "text": "so let's see what we can build here okay"
+  "start": 532.21,
+  "end": 536.21,
+  "text": "it will not automatically change in the virtual folder. You need to refresh it."
  },
  {
-  "start": 444.539,
-  "end": 447.71,
-  "text": "so I am in the test cases folder so I"
+  "start": 536.21,
+  "end": 540.21,
+  "text": "Okay, so once you refresh it you will get the latest results"
  },
  {
-  "start": 447.72,
-  "end": 450.71,
-  "text": "will use the sub paths"
+  "start": 540.21,
+  "end": 544.21,
+  "text": "here. You can always edit the query from here. You can"
  },
  {
-  "start": 450.72,
-  "end": 454.189,
-  "text": "and then I will use this time the test"
+  "start": 544.21,
+  "end": 548.21,
+  "text": "also create a report from virtual folder. We will see that"
  },
  {
-  "start": 454.199,
-  "end": 456.11,
-  "text": "case okay"
+  "start": 548.21,
+  "end": 552.21,
+  "text": "later but if you have a virtual folder you can create a report."
  },
  {
-  "start": 456.12,
-  "end": 459.29,
-  "text": "and inside test case what I want to see"
+  "start": 552.21,
+  "end": 557.49,
+  "text": "There will be an option to do that. Okay, so that's"
  },
  {
-  "start": 459.3,
-  "end": 462.05,
-  "text": "is what test cases were created by me"
+  "start": 557.49,
+  "end": 561.49,
+  "text": "all the usage of a virtual folder how you can create it and how"
  },
  {
-  "start": 462.06,
-  "end": 463.129,
-  "text": "okay"
+  "start": 561.49,
+  "end": 565.49,
+  "text": "you can use it. Okay, now you can do a lot of other things"
  },
  {
-  "start": 463.139,
-  "end": 466.67,
-  "text": "now this will be useful when you have"
+  "start": 565.49,
+  "end": 569.49,
+  "text": "as I said you can even filter this results based on"
  },
  {
-  "start": 466.68,
-  "end": 469.129,
-  "text": "got a number of different users in your"
+  "start": 569.49,
+  "end": 573.49,
+  "text": "if the test cases was marked as complete, if it was"
  },
  {
-  "start": 469.139,
-  "end": 472.309,
-  "text": "workspace okay if you want to see uh who"
+  "start": 573.49,
+  "end": 577.49,
+  "text": "a template, if it has not been completed, how many"
  },
  {
-  "start": 472.319,
-  "end": 474.71,
-  "text": "has created how many test cases so that"
+  "start": 577.49,
+  "end": 581.49,
+  "text": "has been completed, so many things you can do with this virtual"
  },
  {
-  "start": 474.72,
-  "end": 476.809,
-  "text": "could be a good report for the"
+  "start": 581.49,
+  "end": 585.49,
+  "text": "folders. So you can create a number of different virtual folders"
  },
  {
-  "start": 476.819,
-  "end": 480.11,
-  "text": "management team right so you can provide"
+  "start": 585.49,
+  "end": 589.49,
+  "text": "and then for analyzing the results or reporting the results"
  },
  {
-  "start": 480.12,
-  "end": 482.749,
-  "text": "this report directly from this virtual"
+  "start": 589.49,
+  "end": 593.49,
+  "text": "you can use this virtual folders which you can then"
  },
  {
-  "start": 482.759,
-  "end": 486.17,
-  "text": "folder okay so you can easily see who"
+  "start": 593.49,
+  "end": 597.49,
+  "text": "bring into your reports. Okay, so that's all about"
  },
  {
-  "start": 486.18,
-  "end": 489.05,
-  "text": "has created how many test cases and you"
+  "start": 597.49,
+  "end": 601.49,
+  "text": "the TQL search and how to create virtual folders"
  },
  {
-  "start": 489.06,
-  "end": 491.809,
-  "text": "can even see when it was created by just"
+  "start": 601.49,
+  "end": 605.49,
+  "text": "and how to use it. Hope it was helpful"
  },
  {
-  "start": 491.819,
-  "end": 495.89,
-  "text": "editing this query okay so here uh it is"
+  "start": 605.49,
+  "end": 609.49,
+  "text": "and look out for more interesting videos coming up very"
  },
  {
-  "start": 495.9,
-  "end": 498.95,
-  "text": "uh I am the admin user here so I'll say"
- },
- {
-  "start": 498.96,
-  "end": 502.249,
-  "text": "created by equals equals admin and then"
- },
- {
-  "start": 502.259,
-  "end": 504.469,
-  "text": "I will click on OK and you will see a"
- },
- {
-  "start": 504.479,
-  "end": 506.83,
-  "text": "list of different test cases uh being"
- },
- {
-  "start": 506.84,
-  "end": 510.95,
-  "text": "shown here okay so you can see there are"
- },
- {
-  "start": 510.96,
-  "end": 512.889,
-  "text": "so many test cases which are now"
- },
- {
-  "start": 512.899,
-  "end": 516.709,
-  "text": "contained in this virtual folder okay"
- },
- {
-  "start": 516.719,
-  "end": 517.85,
-  "text": "now"
- },
- {
-  "start": 517.86,
-  "end": 519.67,
-  "text": "um I can even"
- },
- {
-  "start": 519.68,
-  "end": 525.35,
-  "text": "modify this okay you can also always get"
- },
- {
-  "start": 525.36,
-  "end": 528.29,
-  "text": "the latest results by right clicking and"
- },
- {
-  "start": 528.3,
-  "end": 530.509,
-  "text": "clicking on this refresh virtual folder"
- },
- {
-  "start": 530.519,
-  "end": 533.389,
-  "text": "so if something has changed it will not"
- },
- {
-  "start": 533.399,
-  "end": 534.949,
-  "text": "automatically change in the virtual"
- },
- {
-  "start": 534.959,
-  "end": 537.41,
-  "text": "folder you need to refresh it okay so"
- },
- {
-  "start": 537.42,
-  "end": 539.81,
-  "text": "once you refresh it you will get the"
- },
- {
-  "start": 539.82,
-  "end": 542.269,
-  "text": "latest results here you can always edit"
- },
- {
-  "start": 542.279,
-  "end": 546.11,
-  "text": "the query from here you can also create"
- },
- {
-  "start": 546.12,
-  "end": 548.329,
-  "text": "a report from virtual folder we'll see"
- },
- {
-  "start": 548.339,
-  "end": 550.79,
-  "text": "that later but if you have a virtual"
- },
- {
-  "start": 550.8,
-  "end": 552.71,
-  "text": "folder you can create a report there"
- },
- {
-  "start": 552.72,
-  "end": 556.49,
-  "text": "will be an option to do that okay"
- },
- {
-  "start": 556.5,
-  "end": 559.67,
-  "text": "so that's all the usage of a virtual"
- },
- {
-  "start": 559.68,
-  "end": 561.71,
-  "text": "folder how you can create it and how you"
- },
- {
-  "start": 561.72,
-  "end": 565.07,
-  "text": "can use it okay now you can do a lot of"
- },
- {
-  "start": 565.08,
-  "end": 567.17,
-  "text": "other things as I said uh you can even"
- },
- {
-  "start": 567.18,
-  "end": 570.829,
-  "text": "filter this results based on uh if the"
- },
- {
-  "start": 570.839,
-  "end": 573.29,
-  "text": "test cases was marked as complete if it"
- },
- {
-  "start": 573.3,
-  "end": 576.41,
-  "text": "was a template if it is not been"
- },
- {
-  "start": 576.42,
-  "end": 578.329,
-  "text": "completed how many has been completed"
- },
- {
-  "start": 578.339,
-  "end": 581.329,
-  "text": "like so many things you can do with this"
- },
- {
-  "start": 581.339,
-  "end": 583.43,
-  "text": "virtual folders so you can create a"
- },
- {
-  "start": 583.44,
-  "end": 585.769,
-  "text": "number of different virtual folders and"
- },
- {
-  "start": 585.779,
-  "end": 588.59,
-  "text": "then for analyzing the results or"
- },
- {
-  "start": 588.6,
-  "end": 590.69,
-  "text": "reporting the results you can use this"
- },
- {
-  "start": 590.7,
-  "end": 593.81,
-  "text": "virtual folders which you can then bring"
- },
- {
-  "start": 593.82,
-  "end": 596.329,
-  "text": "into your reports okay"
- },
- {
-  "start": 596.339,
-  "end": 598.79,
-  "text": "so that's all about that equal search"
- },
- {
-  "start": 598.8,
-  "end": 601.85,
-  "text": "and how to create virtual folders and"
- },
- {
-  "start": 601.86,
-  "end": 606.05,
-  "text": "how to use it hope it was helpful and"
- },
- {
-  "start": 606.06,
-  "end": 608.15,
-  "text": "look out for more interesting videos"
- },
- {
-  "start": 608.16,
-  "end": 611.959,
-  "text": "coming up uh very pretty soon"
+  "start": 609.49,
+  "end": 613.49,
+  "text": "soon."
  }
 ]

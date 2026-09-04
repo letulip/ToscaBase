@@ -1,867 +1,457 @@
 [
  {
-  "start": 7.67,
-  "end": 7.68,
-  "text": "hey everyone welcome back to this task"
+  "start": 5.49,
+  "end": 11.29,
+  "text": "Hey everyone, welcome back to this Tosca Automation Playlist and we are going to continue talking"
  },
  {
-  "start": 7.68,
-  "end": 10.49,
-  "text": "automation playlist and we are going to"
+  "start": 11.29,
+  "end": 16.05,
+  "text": "about different string operations which are present in Tosca."
  },
  {
-  "start": 10.5,
-  "end": 13.07,
-  "text": "continue talking about different string"
+  "start": 16.05,
+  "end": 22.21,
+  "text": "Now we have spoken about some of the operations where we did a string replace, we used the"
  },
  {
-  "start": 13.08,
-  "end": 15.77,
-  "text": "operations which are present in Tosca"
+  "start": 22.21,
+  "end": 27.33,
+  "text": "trim function to basically remove all the white space characters and we used the string"
  },
  {
-  "start": 15.78,
-  "end": 17.75,
-  "text": "now we have spoken about some of the"
+  "start": 27.33,
+  "end": 33.97,
+  "text": "replace to basically replace some part of the string with some other pattern or string,"
  },
  {
-  "start": 17.76,
-  "end": 20.689,
-  "text": "operations uh where we did a string"
+  "start": 33.97,
+  "end": 34.97,
+  "text": "right?"
  },
  {
-  "start": 20.699,
-  "end": 23.39,
-  "text": "replace we use the trim function to"
+  "start": 35.13,
+  "end": 40.01,
+  "text": "We have also seen how we can use the base64 string operation to encode and decode our"
  },
  {
-  "start": 23.4,
-  "end": 25.67,
-  "text": "basically remove all the white space"
+  "start": 40.01,
+  "end": 46.37,
+  "text": "strings and now we are going to talk about the remaining four string operations and these"
  },
  {
-  "start": 25.68,
-  "end": 27.71,
-  "text": "characters and we use the string replace"
+  "start": 46.37,
+  "end": 52.81,
+  "text": "are the string to lower, string to upper, number of occurrences and string length."
  },
  {
-  "start": 27.72,
-  "end": 30.17,
-  "text": "to basically replace some part of the"
+  "start": 52.81,
+  "end": 59.45,
+  "text": "Now by the name you can think what a string length will do, it will basically provide"
  },
  {
-  "start": 30.18,
-  "end": 32.93,
-  "text": "string with some other uh pattern or"
+  "start": 59.45,
+  "end": 61.45,
+  "text": "you the length of the string, right?"
  },
  {
-  "start": 32.94,
-  "end": 34.85,
-  "text": "string right"
+  "start": 61.45,
+  "end": 65.77,
+  "text": "So it will count the number of characters and it will return you the length."
  },
  {
-  "start": 34.86,
-  "end": 36.83,
-  "text": "we have also seen how we can use the"
+  "start": 65.77,
+  "end": 72.09,
+  "text": "The number of occurrences, this is a useful operation where you want to count all the"
  },
  {
-  "start": 36.84,
-  "end": 39.59,
-  "text": "base64 string operation to encode and"
+  "start": 72.09,
+  "end": 79.13,
+  "text": "occurrences of a defined input or pattern within a particular string, okay?"
  },
  {
-  "start": 39.6,
-  "end": 41.51,
-  "text": "decode our strings"
+  "start": 79.13,
+  "end": 84.25,
+  "text": "Then string to upper, it converts the lower case characters to upper case and string"
  },
  {
-  "start": 41.52,
-  "end": 43.549,
-  "text": "and now we are going to talk about the"
+  "start": 84.25,
+  "end": 88.45,
+  "text": "to lower, it converts the upper case to lower case."
  },
  {
-  "start": 43.559,
-  "end": 46.369,
-  "text": "remaining four string operations and"
+  "start": 88.45,
+  "end": 92.81,
+  "text": "Now this might seem very similar to you if you have worked on any programming language"
  },
  {
-  "start": 46.379,
-  "end": 49.069,
-  "text": "these are the string to lower string to"
+  "start": 92.81,
+  "end": 98.49,
+  "text": "like Java, you can perform all of these operations directly in Java, right?"
  },
  {
-  "start": 49.079,
-  "end": 51.47,
-  "text": "Upper number of occurrences and string"
+  "start": 98.49,
+  "end": 104.45,
+  "text": "But here Tosca has already given you different expressions through which you can perform"
  },
  {
-  "start": 51.48,
-  "end": 52.549,
-  "text": "length"
+  "start": 104.45,
+  "end": 106.05,
+  "text": "the string operations."
  },
  {
-  "start": 52.559,
-  "end": 56.569,
-  "text": "now by the name you can think what a"
+  "start": 106.05,
+  "end": 111.09,
+  "text": "This could be useful especially when you are working in automation and you have"
  },
  {
-  "start": 56.579,
-  "end": 58.549,
-  "text": "string length will do it will basically"
+  "start": 111.09,
+  "end": 117.29,
+  "text": "to maybe format or change particular strings then you can use these different operations"
  },
  {
-  "start": 58.559,
-  "end": 61.069,
-  "text": "provide you the length of the string"
+  "start": 117.45,
+  "end": 123.02,
+  "text": "to carry out those particular automation, okay?"
  },
  {
-  "start": 61.079,
-  "end": 62.389,
-  "text": "right so it will count the number of"
+  "start": 123.02,
+  "end": 127.54,
+  "text": "So let's quickly see how you can do this, okay?"
  },
  {
-  "start": 62.399,
-  "end": 64.369,
-  "text": "characters and it will return you the"
+  "start": 127.54,
+  "end": 135.9,
+  "text": "So we will, remaining string operations we will do it here, so string operations,"
  },
  {
-  "start": 64.379,
-  "end": 65.509,
-  "text": "length"
+  "start": 135.9,
+  "end": 137.38,
+  "text": "okay?"
  },
  {
-  "start": 65.519,
-  "end": 68.45,
-  "text": "the number of occurrences this is a"
+  "start": 137.38,
+  "end": 148.7,
+  "text": "For this I am going to use first a tbox set buffer and here I am going to create"
  },
  {
-  "start": 68.46,
-  "end": 71.27,
-  "text": "useful uh operation where you want to"
+  "start": 148.7,
+  "end": 159.22,
+  "text": "a buffer called str and this will contain something like trisntis.scar, okay?"
  },
  {
-  "start": 71.28,
-  "end": 73.91,
-  "text": "count all the occurrences of a defined"
+  "start": 159.22,
+  "end": 168.62,
+  "text": "Now what we can do is we can now have another buffer, okay?"
  },
  {
-  "start": 73.92,
-  "end": 77.09,
-  "text": "input or pattern within a particular"
+  "start": 168.62,
+  "end": 175.09,
+  "text": "Where we will return the length of the string."
  },
  {
-  "start": 77.1,
-  "end": 81.23,
-  "text": "string okay then string to Upper it"
+  "start": 175.09,
+  "end": 184.49,
+  "text": "So here I am going to use the buffer of str."
  },
  {
-  "start": 81.24,
-  "end": 82.85,
-  "text": "converts the lowercase characters to"
+  "start": 184.53,
+  "end": 190.21,
+  "text": "Actually we need to first use the string operation, so we will use string length"
  },
  {
-  "start": 82.86,
-  "end": 85.19,
-  "text": "upper case and string to lower it"
+  "start": 190.21,
+  "end": 203.52,
+  "text": "and inside that we will use the buffer, okay?"
  },
  {
-  "start": 85.2,
-  "end": 88.19,
-  "text": "converts the upper case to lower case"
+  "start": 203.52,
+  "end": 209.12,
+  "text": "So I will close this, so this will return me the string length, okay?"
  },
  {
-  "start": 88.2,
-  "end": 90.59,
-  "text": "now this might seem very similar to you"
+  "start": 209.12,
+  "end": 211.92,
+  "text": "And we will store it in a buffer called length."
  },
  {
-  "start": 90.6,
-  "end": 92.45,
-  "text": "if you have worked on any programming"
+  "start": 211.92,
+  "end": 217.56,
+  "text": "Now if I want my string to be converted into uppercase, so let's create a buffer"
  },
  {
-  "start": 92.46,
-  "end": 94.969,
-  "text": "language like Java you can perform all"
+  "start": 217.56,
+  "end": 222.96,
+  "text": "here called uppercase and here again the same way."
  },
  {
-  "start": 94.979,
-  "end": 97.67,
-  "text": "of these operations uh directly in Java"
+  "start": 223.0,
+  "end": 233.2,
+  "text": "First we will do the string operation, so type string to upper."
  },
  {
-  "start": 97.68,
-  "end": 100.609,
-  "text": "right but here uh Tosca has already"
+  "start": 233.2,
+  "end": 241.4,
+  "text": "Inside this we will then use the buffer, so we will use the buffer str,"
  },
  {
-  "start": 100.619,
-  "end": 103.31,
-  "text": "given you uh different Expressions which"
+  "start": 241.4,
+  "end": 247.33,
+  "text": "close the brackets, okay?"
  },
  {
-  "start": 103.32,
-  "end": 104.69,
-  "text": "through which you can perform just"
+  "start": 247.33,
+  "end": 252.49,
+  "text": "And again for lowercase is the same."
  },
  {
-  "start": 104.7,
-  "end": 106.969,
-  "text": "string operations this could be useful"
+  "start": 252.49,
+  "end": 259.89,
+  "text": "So lowercase I am going to just copy this just to make it a little faster."
  },
  {
-  "start": 106.979,
-  "end": 109.789,
-  "text": "uh especially uh when you're working in"
+  "start": 259.89,
+  "end": 267.62,
+  "text": "So I am going to make it string to lower and then the final one"
  },
  {
-  "start": 109.799,
-  "end": 113.149,
-  "text": "Automation and you have to maybe format"
+  "start": 267.62,
+  "end": 270.34,
+  "text": "which is number of occurrences, right?"
  },
  {
-  "start": 113.159,
-  "end": 115.85,
-  "text": "or change particular strings then you"
+  "start": 270.34,
+  "end": 279.18,
+  "text": "So I am going to name it number and this time around we will be using"
  },
  {
-  "start": 115.86,
-  "end": 117.77,
-  "text": "can use these different operations to"
+  "start": 279.18,
+  "end": 281.86,
+  "text": "not string but number of occurrences."
  },
  {
-  "start": 117.78,
-  "end": 120.23,
-  "text": "carry out those uh particular automation"
+  "start": 281.86,
+  "end": 289.26,
+  "text": "You can see here inside this now we will give the actual string,"
  },
  {
-  "start": 120.24,
-  "end": 122.929,
-  "text": "okay"
+  "start": 289.26,
+  "end": 296.26,
+  "text": "so which is b of str buffer and then close this, okay?"
  },
  {
-  "start": 126.35,
-  "end": 126.36,
-  "text": "so let's quickly see how you can do this"
+  "start": 298.34,
+  "end": 304.46,
+  "text": "Also we need to pass the string for which we want the number"
  },
  {
-  "start": 126.36,
-  "end": 130.13,
-  "text": "okay so we will"
+  "start": 304.46,
+  "end": 308.1,
+  "text": "of occurrences or the pattern, okay?"
  },
  {
-  "start": 130.14,
-  "end": 133.13,
-  "text": "remaining a string operations we will do"
+  "start": 308.1,
+  "end": 311.22,
+  "text": "So these will be your characters."
  },
  {
-  "start": 133.14,
-  "end": 137.21,
-  "text": "it here so string operations okay"
+  "start": 311.22,
+  "end": 316.22,
+  "text": "So which characters do you want to find the number of occurrences?"
  },
  {
-  "start": 137.22,
-  "end": 141.29,
-  "text": "for this I am going to use first a t-box"
+  "start": 316.22,
+  "end": 322.74,
+  "text": "Let's say I want to find the number of occurrences for t, okay?"
  },
  {
-  "start": 141.3,
-  "end": 143.03,
-  "text": "set buffer"
+  "start": 322.74,
+  "end": 326.22,
+  "text": "So that's the character I want to find the number of occurrences for"
  },
  {
-  "start": 143.04,
-  "end": 148.07,
-  "text": "and here I'm going to"
+  "start": 326.22,
+  "end": 332.22,
+  "text": "and then we can close this, okay?"
  },
  {
-  "start": 152.33,
-  "end": 152.34,
-  "text": "create a buffer called Str and this will"
+  "start": 332.22,
+  "end": 337.94,
+  "text": "So here in the pattern, okay?"
  },
  {
-  "start": 152.34,
-  "end": 157.85,
-  "text": "contain something like placentis.com"
+  "start": 337.94,
+  "end": 340.94,
+  "text": "It can be one character, it can be multiple characters."
  },
  {
-  "start": 158.99,
-  "end": 159.0,
-  "text": "okay"
+  "start": 340.94,
+  "end": 345.94,
+  "text": "If you want to find the complete license, that also you can do, okay?"
  },
  {
-  "start": 159.0,
-  "end": 161.15,
-  "text": "now"
+  "start": 345.94,
+  "end": 351.94,
+  "text": "So it is very useful to find the number of occurrences of any particular pattern or character, okay?"
  },
  {
-  "start": 161.16,
-  "end": 163.97,
-  "text": "what we can do is uh"
+  "start": 351.94,
+  "end": 357.94,
+  "text": "So let's quickly go ahead and run this and see if it is working as expected, okay?"
  },
  {
-  "start": 163.98,
-  "end": 168.41,
-  "text": "we can now have another buffer okay"
+  "start": 357.94,
+  "end": 365.83,
+  "text": "So if I go into the logs now, I should be able to see my results."
  },
  {
-  "start": 168.42,
-  "end": 169.97,
-  "text": "where"
+  "start": 365.83,
+  "end": 369.83,
+  "text": "So you can see the length is 15 characters."
  },
  {
-  "start": 169.98,
-  "end": 172.43,
-  "text": "um we will return the length of the"
- },
- {
-  "start": 172.44,
-  "end": 175.009,
-  "text": "string"
- },
- {
-  "start": 178.43,
-  "end": 178.44,
-  "text": "so here I'm going to use the buffer of"
- },
- {
-  "start": 178.44,
-  "end": 183.53,
-  "text": "Str"
- },
- {
-  "start": 186.71,
-  "end": 186.72,
-  "text": "UCT actually we need to first use the"
- },
- {
-  "start": 186.72,
-  "end": 189.05,
-  "text": "string operation so we will use string"
- },
- {
-  "start": 189.06,
-  "end": 192.649,
-  "text": "length and inside that we will use the"
- },
- {
-  "start": 192.659,
-  "end": 202.449,
-  "text": "buffer okay"
- },
- {
-  "start": 206.27,
-  "end": 206.28,
-  "text": "okay so I will close this"
- },
- {
-  "start": 206.28,
-  "end": 208.19,
-  "text": "okay so this will return me the string"
- },
- {
-  "start": 208.2,
-  "end": 210.41,
-  "text": "length Okay and we'll store it in a"
- },
- {
-  "start": 210.42,
-  "end": 212.93,
-  "text": "buffer called length now if I want my"
- },
- {
-  "start": 212.94,
-  "end": 215.27,
-  "text": "string uh to be converted into upper"
- },
- {
-  "start": 215.28,
-  "end": 217.91,
-  "text": "case so let's create a buffer here"
- },
- {
-  "start": 217.92,
-  "end": 222.05,
-  "text": "called uppercase and here again the same"
- },
- {
-  "start": 222.06,
-  "end": 224.509,
-  "text": "way first we will do the string"
- },
- {
-  "start": 224.519,
-  "end": 227.77,
-  "text": "operation so"
- },
- {
-  "start": 227.78,
-  "end": 232.97,
-  "text": "type string to Upper"
- },
- {
-  "start": 232.98,
-  "end": 236.57,
-  "text": "inside this we will then use the buffer"
- },
- {
-  "start": 236.58,
-  "end": 241.13,
-  "text": "so we will use the buffer Str"
- },
- {
-  "start": 241.14,
-  "end": 244.49,
-  "text": "ose the brackets"
- },
- {
-  "start": 244.5,
-  "end": 246.85,
-  "text": "okay"
- },
- {
-  "start": 246.86,
-  "end": 252.289,
-  "text": "and again for lowercase is the same"
- },
- {
-  "start": 252.299,
-  "end": 256.31,
-  "text": "so lowercase I am going to just copy"
- },
- {
-  "start": 256.32,
-  "end": 259.729,
-  "text": "this just to make it little faster"
- },
- {
-  "start": 259.739,
-  "end": 265.49,
-  "text": "so I'm going to make it string to lower"
- },
- {
-  "start": 268.37,
-  "end": 268.38,
-  "text": "and then the final one which is number"
- },
- {
-  "start": 268.38,
-  "end": 271.55,
-  "text": "of occurrences right so I'm going to"
- },
- {
-  "start": 271.56,
-  "end": 274.189,
-  "text": "name it number"
- },
- {
-  "start": 274.199,
-  "end": 278.99,
-  "text": "and this time around we will be using"
- },
- {
-  "start": 279.0,
-  "end": 281.629,
-  "text": "um not string but number of occurrences"
- },
- {
-  "start": 281.639,
-  "end": 283.49,
-  "text": "you can see here"
- },
- {
-  "start": 283.5,
-  "end": 287.749,
-  "text": "inside this now we will give uh"
- },
- {
-  "start": 287.759,
-  "end": 291.17,
-  "text": "the actual string so which is B of Str"
- },
- {
-  "start": 291.18,
-  "end": 293.39,
-  "text": "buffer"
- },
- {
-  "start": 293.4,
-  "end": 297.85,
-  "text": "and then close this okay"
- },
- {
-  "start": 297.86,
-  "end": 299.57,
-  "text": "also"
- },
- {
-  "start": 299.58,
-  "end": 303.409,
-  "text": "we need to pass the string okay for"
- },
- {
-  "start": 303.419,
-  "end": 305.21,
-  "text": "which we want the number of occurrences"
- },
- {
-  "start": 305.22,
-  "end": 307.85,
-  "text": "or the pattern okay"
- },
- {
-  "start": 307.86,
-  "end": 311.87,
-  "text": "so this will be your characters so which"
- },
- {
-  "start": 311.88,
-  "end": 315.17,
-  "text": "characters do you want to uh find the"
- },
- {
-  "start": 315.18,
-  "end": 316.61,
-  "text": "number of occurrences"
- },
- {
-  "start": 316.62,
-  "end": 318.35,
-  "text": "uh let's say I want to find the number"
- },
- {
-  "start": 318.36,
-  "end": 320.93,
-  "text": "of occurrences for"
- },
- {
-  "start": 320.94,
-  "end": 324.59,
-  "text": "um t Okay so that's the character I want"
- },
- {
-  "start": 324.6,
-  "end": 327.469,
-  "text": "to find the number of occurrences for"
- },
- {
-  "start": 327.479,
-  "end": 329.51,
-  "text": "um and then"
- },
- {
-  "start": 329.52,
-  "end": 335.029,
-  "text": "we can close this okay"
- },
- {
-  "start": 338.81,
-  "end": 338.82,
-  "text": "so here um in the pattern okay it can be"
- },
- {
-  "start": 338.82,
-  "end": 340.43,
-  "text": "one character it can be multiple"
- },
- {
-  "start": 340.44,
-  "end": 342.469,
-  "text": "characters if you want to find the"
- },
- {
-  "start": 342.479,
-  "end": 344.689,
-  "text": "complete licenses uh that also you can"
- },
- {
-  "start": 344.699,
-  "end": 348.469,
-  "text": "do okay so it is very useful to find the"
- },
- {
-  "start": 348.479,
-  "end": 350.27,
-  "text": "number of occurrences of any particular"
- },
- {
-  "start": 350.28,
-  "end": 352.55,
-  "text": "pattern or character okay"
- },
- {
-  "start": 352.56,
-  "end": 354.71,
-  "text": "so let's quickly go ahead and run this"
- },
- {
-  "start": 354.72,
-  "end": 359.99,
-  "text": "and see if it is working as expected"
- },
- {
-  "start": 364.01,
-  "end": 364.02,
-  "text": "okay so if I go into the logs now I"
- },
- {
-  "start": 364.02,
-  "end": 366.65,
-  "text": "should be able to see my results so you"
- },
- {
-  "start": 366.66,
-  "end": 369.469,
-  "text": "can see the length is 15 characters"
- },
- {
-  "start": 369.479,
-  "end": 373.249,
-  "text": "uh it has converted into uppercase then"
- },
- {
-  "start": 373.259,
+  "start": 369.83,
   "end": 375.83,
-  "text": "it is converted into lowercase"
+  "text": "It has converted into uppercase, then it has converted into lowercase"
  },
  {
-  "start": 375.84,
-  "end": 381.29,
-  "text": "and then the buffer is set to one uh"
+  "start": 375.83,
+  "end": 383.83,
+  "text": "and then the buffer is set to one, which is actually correct."
  },
  {
-  "start": 381.3,
-  "end": 384.29,
-  "text": "which is actually correct"
+  "start": 383.83,
+  "end": 389.83,
+  "text": "Now you will ask me there are multiple t, but if you look at it, okay?"
  },
  {
-  "start": 384.3,
-  "end": 386.45,
-  "text": "now you will ask me um there are"
+  "start": 389.83,
+  "end": 394.83,
+  "text": "So there are uppercase t and there is one lowercase t"
  },
  {
-  "start": 386.46,
-  "end": 390.95,
-  "text": "multiple T but if you look at it okay so"
+  "start": 394.83,
+  "end": 396.83,
+  "text": "and that is what it has returned us."
  },
  {
-  "start": 390.96,
-  "end": 393.83,
-  "text": "there are uppercase t and there is one"
+  "start": 396.83,
+  "end": 402.83,
+  "text": "Now if you want all the t's, no matter if it is uppercase or lowercase,"
  },
  {
-  "start": 393.84,
-  "end": 396.11,
-  "text": "lowercase T and that is what it has"
+  "start": 402.83,
+  "end": 406.83,
+  "text": "then you need to pass an optional parameter, okay?"
  },
  {
-  "start": 396.12,
-  "end": 399.89,
-  "text": "returned us now if you want all the t's"
+  "start": 406.83,
+  "end": 412.83,
+  "text": "So here after the pattern, you also need to pass whether you want"
  },
  {
-  "start": 399.9,
-  "end": 401.57,
-  "text": "no matter if it is uppercase or"
+  "start": 412.83,
+  "end": 416.83,
+  "text": "to ignore the case while finding the number of occurrences"
  },
  {
-  "start": 401.58,
-  "end": 402.71,
-  "text": "lowercase"
+  "start": 416.83,
+  "end": 420.83,
+  "text": "so that you can do using this ignore case parameter."
  },
  {
-  "start": 402.72,
-  "end": 405.35,
-  "text": "then you need to pass an optional"
+  "start": 420.83,
+  "end": 424.83,
+  "text": "So this is an optional parameter, which I did not give it first time, okay?"
  },
  {
-  "start": 405.36,
-  "end": 409.55,
-  "text": "parameter okay so here uh after uh the"
+  "start": 424.83,
+  "end": 426.83,
+  "text": "But now I am providing it."
  },
  {
-  "start": 409.56,
-  "end": 411.83,
-  "text": "pattern you also need to pass whether"
+  "start": 426.83,
+  "end": 430.83,
+  "text": "So now the value should be three instead of just one, okay?"
  },
  {
-  "start": 411.84,
-  "end": 415.07,
-  "text": "you want uh to ignore the case while"
+  "start": 430.83,
+  "end": 442.28,
+  "text": "So let's go ahead and run this and if I check the number is three now, okay?"
  },
  {
-  "start": 415.08,
-  "end": 417.23,
-  "text": "finding the number of occurrences so"
+  "start": 442.28,
+  "end": 444.28,
+  "text": "So no matter if it is uppercase or lowercase,"
  },
  {
-  "start": 417.24,
-  "end": 420.05,
-  "text": "that you can do using this ignore case"
+  "start": 444.28,
+  "end": 447.28,
+  "text": "it is going to find the number of occurrences."
  },
  {
-  "start": 420.06,
-  "end": 422.33,
-  "text": "parameter so this is an optional"
+  "start": 447.28,
+  "end": 451.28,
+  "text": "So this way you can use all of these different operations"
  },
  {
-  "start": 422.34,
-  "end": 424.07,
-  "text": "parameter which I did not give it first"
+  "start": 451.28,
+  "end": 457.28,
+  "text": "which are related to string so you can use them at different places"
  },
  {
-  "start": 424.08,
-  "end": 427.249,
-  "text": "time okay but now I am providing it so"
+  "start": 457.28,
+  "end": 460.28,
+  "text": "of your automation whenever you are trying to extract some value"
  },
  {
-  "start": 427.259,
-  "end": 429.77,
-  "text": "now the value should be 3 instead of"
+  "start": 460.28,
+  "end": 464.28,
+  "text": "from the application or you are trying to compare some expected"
  },
  {
-  "start": 429.78,
-  "end": 431.749,
-  "text": "just one okay"
+  "start": 464.28,
+  "end": 468.28,
+  "text": "versus actual results or you are trying to modify your strings, right?"
  },
  {
-  "start": 431.759,
-  "end": 439.01,
-  "text": "so let's go ahead and run this"
+  "start": 468.28,
+  "end": 473.28,
+  "text": "So there are lots of operations which are required when you are automating"
  },
  {
-  "start": 442.49,
-  "end": 442.5,
-  "text": "and if I check the number is 3 now okay"
+  "start": 473.28,
+  "end": 476.28,
+  "text": "a particular application and this could be very useful."
  },
  {
-  "start": 442.5,
-  "end": 444.29,
-  "text": "so no matter if it is uppercase or"
+  "start": 476.28,
+  "end": 482.28,
+  "text": "Although it is very simple, you should be able to use them within Tosca."
  },
  {
-  "start": 444.3,
-  "end": 445.969,
-  "text": "lowercase it is going to find the number"
+  "start": 482.28,
+  "end": 486.2,
+  "text": "So that's all about string operations."
  },
  {
-  "start": 445.979,
-  "end": 447.89,
-  "text": "of occurrences"
+  "start": 486.2,
+  "end": 490.2,
+  "text": "I hope you liked it and you learned something new today."
  },
  {
-  "start": 447.9,
-  "end": 450.23,
-  "text": "so this way you can use all of these"
+  "start": 490.2,
+  "end": 493.2,
+  "text": "If you like our videos, then do subscribe to our channel."
  },
  {
-  "start": 450.24,
-  "end": 452.93,
-  "text": "different operations which are related"
+  "start": 493.2,
+  "end": 496.2,
+  "text": "We would be coming up with lots more videos."
  },
  {
-  "start": 452.94,
-  "end": 457.189,
-  "text": "to string so you can use them at"
- },
- {
-  "start": 457.199,
-  "end": 459.05,
-  "text": "different places of your automation"
- },
- {
-  "start": 459.06,
-  "end": 461.029,
-  "text": "whenever you are trying to extract some"
- },
- {
-  "start": 461.039,
-  "end": 463.37,
-  "text": "value from the application or you are"
- },
- {
-  "start": 463.38,
-  "end": 465.529,
-  "text": "trying to compare some expected versus"
- },
- {
-  "start": 465.539,
-  "end": 467.27,
-  "text": "actual results or you are trying to"
- },
- {
-  "start": 467.28,
-  "end": 469.43,
-  "text": "modify your strengths right so there are"
- },
- {
-  "start": 469.44,
-  "end": 472.55,
-  "text": "lots of operations uh which are required"
- },
- {
-  "start": 472.56,
-  "end": 474.469,
-  "text": "when you are automating a particular"
- },
- {
-  "start": 474.479,
-  "end": 476.45,
-  "text": "application and this could be a very"
- },
- {
-  "start": 476.46,
-  "end": 479.089,
-  "text": "useful although it is very simple you"
- },
- {
-  "start": 479.099,
-  "end": 481.79,
-  "text": "should be able to use them uh within"
- },
- {
-  "start": 481.8,
-  "end": 484.61,
-  "text": "Tosca"
- },
- {
-  "start": 487.49,
-  "end": 487.5,
-  "text": "so that's all about string operations I"
- },
- {
-  "start": 487.5,
-  "end": 489.589,
-  "text": "hope you liked it and you learned"
- },
- {
-  "start": 489.599,
-  "end": 491.809,
-  "text": "something new today if you like our"
- },
- {
-  "start": 491.819,
-  "end": 493.73,
-  "text": "videos then do subscribe to our channel"
- },
- {
-  "start": 493.74,
-  "end": 496.189,
-  "text": "uh we would be coming up with lots more"
- },
- {
-  "start": 496.199,
-  "end": 497.51,
-  "text": "videos"
- },
- {
-  "start": 497.52,
-  "end": 499.55,
-  "text": "so until we speak again keep learning"
- },
- {
-  "start": 499.56,
-  "end": 502.819,
-  "text": "and keep watching our Channel"
+  "start": 496.2,
+  "end": 500.2,
+  "text": "So until we speak again, keep learning and keep watching our channel."
  }
 ]

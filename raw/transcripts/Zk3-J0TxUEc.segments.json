@@ -1,1217 +1,707 @@
 [
  {
-  "start": 7.43,
-  "end": 7.44,
-  "text": "hey everyone welcome back to this Tosca"
+  "start": 5.01,
+  "end": 10.41,
+  "text": "Hey everyone, welcome back to this Tosca Automation playlist and today we are going to talk about"
  },
  {
-  "start": 7.44,
-  "end": 9.41,
-  "text": "automation playlist and today we are"
+  "start": 10.41,
+  "end": 14.49,
+  "text": "how you can handle different date expressions in Tosca."
  },
  {
-  "start": 9.42,
-  "end": 11.629,
-  "text": "going to talk about how you can handle"
+  "start": 14.49,
+  "end": 20.57,
+  "text": "Now in your application, you can come across different scenarios where you may need to"
  },
  {
-  "start": 11.639,
-  "end": 15.169,
-  "text": "different date expressions in Tosca"
+  "start": 20.57,
+  "end": 26.19,
+  "text": "enter some date, maybe it is the current date or maybe you need to do some calculations"
  },
  {
-  "start": 15.179,
-  "end": 17.15,
-  "text": "now in your application you can come"
+  "start": 26.19,
+  "end": 32.71,
+  "text": "based on some months or days you have to add them or you have to remove them, right?"
  },
  {
-  "start": 17.16,
-  "end": 19.91,
-  "text": "across different scenarios where you may"
- },
- {
-  "start": 19.92,
-  "end": 23.15,
-  "text": "need to enter some date maybe it is the"
- },
- {
-  "start": 23.16,
-  "end": 25.07,
-  "text": "current date or maybe you need to do"
- },
- {
-  "start": 25.08,
-  "end": 28.25,
-  "text": "some calculations based on some uh"
- },
- {
-  "start": 28.26,
-  "end": 30.83,
-  "text": "months or days you have to add them or"
- },
- {
-  "start": 30.84,
-  "end": 32.87,
-  "text": "sub or you have to remove them right so"
- },
- {
-  "start": 32.88,
-  "end": 36.19,
-  "text": "there are several types of date related"
- },
- {
-  "start": 36.2,
+  "start": 32.71,
   "end": 39.11,
-  "text": "scenarios which comes up whenever we try"
+  "text": "So there are several types of date related scenarios which comes up whenever we try to"
  },
  {
-  "start": 39.12,
-  "end": 40.97,
-  "text": "to automate some application"
+  "start": 39.11,
+  "end": 41.23,
+  "text": "automate some application."
  },
  {
-  "start": 40.98,
-  "end": 43.549,
-  "text": "so generally in other automation tools"
+  "start": 41.23,
+  "end": 46.51,
+  "text": "So generally in other automation tools you need to write something either on Java or"
  },
  {
-  "start": 43.559,
-  "end": 46.19,
-  "text": "you need to write something either on"
+  "start": 46.51,
+  "end": 53.75,
+  "text": ".NET to get these dates which may be a customized date or maybe the current system"
  },
  {
-  "start": 46.2,
-  "end": 49.549,
-  "text": "Java or dotnet to get these dates right"
+  "start": 53.75,
+  "end": 56.95,
+  "text": "date or something like that."
  },
  {
-  "start": 49.559,
-  "end": 52.67,
-  "text": "which may be a customized it or maybe"
+  "start": 56.95,
+  "end": 64.27,
+  "text": "And in Tosca already the TBox modules are present and the date expressions are also"
  },
  {
-  "start": 52.68,
-  "end": 55.25,
-  "text": "the current system date or something"
+  "start": 64.27,
+  "end": 70.67,
+  "text": "present through which you can easily get the system date or any other date format"
  },
  {
-  "start": 55.26,
-  "end": 56.63,
-  "text": "like that"
+  "start": 70.67,
+  "end": 75.29,
+  "text": "which you want and you want to enter them into your application."
  },
  {
-  "start": 56.64,
-  "end": 59.93,
-  "text": "but in Tosca uh already the t-box"
+  "start": 75.29,
+  "end": 82.65,
+  "text": "So you can use these expressions to basically format your dates and use it according"
  },
  {
-  "start": 59.94,
-  "end": 63.049,
-  "text": "modules are present okay and the date"
+  "start": 82.65,
+  "end": 84.11,
+  "text": "to your application."
  },
  {
-  "start": 63.059,
-  "end": 65.329,
-  "text": "expressions are also present through"
+  "start": 84.11,
+  "end": 87.07,
+  "text": "So let's see at some of the examples."
  },
  {
-  "start": 65.339,
-  "end": 68.09,
-  "text": "which you can easily get the system date"
+  "start": 87.07,
+  "end": 94.15,
+  "text": "So I have prepared this test case which basically gets all the different types of dates"
  },
  {
-  "start": 68.1,
-  "end": 71.83,
-  "text": "or any other date format which you want"
+  "start": 94.15,
+  "end": 98.27,
+  "text": "and also days and times and all the other things, right?"
  },
  {
-  "start": 71.84,
-  "end": 74.57,
-  "text": "and you want to enter them into your"
+  "start": 98.27,
+  "end": 103.47,
+  "text": "So I have completely used the expressions the date expressions which are available"
  },
  {
-  "start": 74.58,
-  "end": 76.73,
-  "text": "application so you can use this"
+  "start": 103.47,
+  "end": 105.59,
+  "text": "in Tosca."
  },
  {
-  "start": 76.74,
-  "end": 79.67,
-  "text": "Expressions to basically format your"
+  "start": 105.59,
+  "end": 112.09,
+  "text": "So for this I just used a TBox set buffer module and then for now I am just setting"
  },
  {
-  "start": 79.68,
-  "end": 81.289,
-  "text": "dates and"
+  "start": 112.17,
+  "end": 117.45,
+  "text": "the buffer to all of these different dates, okay, date types."
  },
  {
-  "start": 81.299,
-  "end": 84.35,
-  "text": "use it according to your application so"
+  "start": 117.45,
+  "end": 119.29,
+  "text": "So let's go through each of them."
  },
  {
-  "start": 84.36,
-  "end": 86.81,
-  "text": "let's see at some of the examples"
+  "start": 119.29,
+  "end": 121.13,
+  "text": "Keep in mind that there are more expressions."
  },
  {
-  "start": 86.82,
-  "end": 89.69,
-  "text": "so I have prepared this test case which"
+  "start": 121.13,
+  "end": 126.57,
+  "text": "I have just used some of them but you can go ahead and explore all the different types"
  },
  {
-  "start": 89.7,
-  "end": 92.69,
-  "text": "basically gets all the different types"
+  "start": 126.57,
+  "end": 133.41,
+  "text": "of expressions and see which one fits your requirements, okay?"
  },
  {
-  "start": 92.7,
-  "end": 96.77,
-  "text": "of dates and also days and times and all"
+  "start": 133.41,
+  "end": 136.85,
+  "text": "Also to write these expressions well it's very simple."
  },
  {
-  "start": 96.78,
-  "end": 98.929,
-  "text": "the other things right so I have"
+  "start": 136.85,
+  "end": 142.01,
+  "text": "You just type the curly brace and then you will see a list of different expressions"
  },
  {
-  "start": 98.939,
-  "end": 101.81,
-  "text": "completely used uh the Expressions the"
+  "start": 142.01,
+  "end": 148.37,
+  "text": "are available and out of that some of them are related to the date types, okay?"
  },
  {
-  "start": 101.82,
-  "end": 103.969,
-  "text": "data Expressions which are available in"
+  "start": 148.37,
+  "end": 152.77,
+  "text": "So for this I have used something like the date, okay?"
  },
  {
-  "start": 103.979,
-  "end": 105.35,
-  "text": "Tosca"
+  "start": 152.77,
+  "end": 158.17,
+  "text": "And in the description you can see it returns the full current date, okay?"
  },
  {
-  "start": 105.36,
-  "end": 108.469,
-  "text": "so for this I've just used a t-box set"
+  "start": 158.17,
+  "end": 163.77,
+  "text": "And the date and time values can be calculated also using the base date along with deviations"
  },
  {
-  "start": 108.479,
-  "end": 111.71,
-  "text": "buffer module and then for now I'm just"
+  "start": 163.77,
+  "end": 167.61,
+  "text": "and this we will see in a later example, okay?"
  },
  {
-  "start": 111.72,
-  "end": 113.749,
-  "text": "setting the buffer to all of these"
+  "start": 167.61,
+  "end": 172.17,
+  "text": "So this will basically return me the current full date, okay?"
  },
  {
-  "start": 113.759,
-  "end": 117.109,
-  "text": "different uh dates okay date types"
+  "start": 172.17,
+  "end": 178.09,
+  "text": "And then if you want to have the timestamp then you can use the date time expression."
  },
  {
-  "start": 117.119,
-  "end": 119.63,
-  "text": "so let's go through each of them keep in"
+  "start": 178.09,
+  "end": 182.41,
+  "text": "If you just want the time then you can use the time expression."
  },
  {
-  "start": 119.64,
-  "end": 121.429,
-  "text": "mind that there are more Expressions I"
+  "start": 182.41,
+  "end": 187.17,
+  "text": "Similarly if you want the current day or current month or current year, okay?"
  },
  {
-  "start": 121.439,
-  "end": 124.37,
-  "text": "have just used some of them but um you"
+  "start": 187.17,
+  "end": 192.99,
+  "text": "Then you can use these respective expressions which is day, month and year."
  },
  {
-  "start": 124.38,
-  "end": 126.17,
-  "text": "can go ahead and explore all the"
+  "start": 192.99,
+  "end": 198.15,
+  "text": "Now sometimes it happens that you would require the first day of the month or the last day"
  },
  {
-  "start": 126.18,
-  "end": 128.33,
-  "text": "different types of expressions and see"
+  "start": 198.15,
+  "end": 199.15,
+  "text": "of the month."
  },
  {
-  "start": 128.34,
-  "end": 132.01,
-  "text": "which one fits your requirements okay"
+  "start": 199.15,
+  "end": 204.27,
+  "text": "For that also there is an expression called month first and month last."
  },
  {
-  "start": 132.02,
-  "end": 135.17,
-  "text": "uh also to write this Expressions well"
+  "start": 204.27,
+  "end": 210.27,
+  "text": "And then there are some specific date requirements which you need to fulfill like the system"
  },
  {
-  "start": 135.18,
-  "end": 138.41,
-  "text": "it's very simple you just type the curly"
+  "start": 210.27,
+  "end": 211.43,
+  "text": "date, okay?"
  },
  {
-  "start": 138.42,
-  "end": 141.229,
-  "text": "Breeze and then you will see the list of"
+  "start": 211.43,
+  "end": 216.51,
+  "text": "So this will return the full date based on your system specification."
  },
  {
-  "start": 141.239,
-  "end": 143.03,
-  "text": "different expressions are available and"
+  "start": 216.51,
+  "end": 222.67,
+  "text": "So like the date is defined in your system, the date format, it will display the same"
  },
  {
-  "start": 143.04,
-  "end": 145.55,
-  "text": "out of that some of them are related to"
+  "start": 222.67,
+  "end": 225.75,
+  "text": "date here, okay?"
  },
  {
-  "start": 145.56,
-  "end": 149.63,
-  "text": "the date types okay so for this I've"
+  "start": 225.75,
+  "end": 234.31,
+  "text": "Then if you want the days, the month or year in a specific format like in a two digits"
  },
  {
-  "start": 149.64,
-  "end": 153.05,
-  "text": "used something like the date okay and in"
+  "start": 234.31,
+  "end": 235.59,
+  "text": "format, right?"
  },
  {
-  "start": 153.06,
-  "end": 154.729,
-  "text": "the description you can see it Returns"
+  "start": 235.59,
+  "end": 240.91,
+  "text": "So even if there is just one digit in the day then it is going to add a zero, okay?"
  },
  {
-  "start": 154.739,
-  "end": 157.07,
-  "text": "the full current date"
+  "start": 240.91,
+  "end": 244.23,
+  "text": "It will prefix a zero into that to make it two digits."
  },
  {
-  "start": 157.08,
-  "end": 160.01,
-  "text": "okay and the date and time values can be"
+  "start": 244.23,
+  "end": 250.83,
+  "text": "So if you want all these day, month and year in two digits you can use these expressions"
  },
  {
-  "start": 160.02,
-  "end": 162.05,
-  "text": "calculated also using the base State"
+  "start": 250.99,
+  "end": 255.11,
+  "text": "which is end day, end month and end year."
  },
  {
-  "start": 162.06,
-  "end": 164.93,
-  "text": "along with deviations and this we will"
+  "start": 255.11,
+  "end": 260.31,
+  "text": "Similarly if you want the letters only for the day or the month, okay?"
  },
  {
-  "start": 164.94,
-  "end": 167.39,
-  "text": "see in a later example okay"
+  "start": 260.31,
+  "end": 265.59,
+  "text": "So you can use these expressions a day and a month, okay?"
  },
  {
-  "start": 167.4,
-  "end": 169.369,
-  "text": "so this will basically return me the"
+  "start": 265.59,
+  "end": 275.39,
+  "text": "So this will return you some days like mon or month like mar for March, right?"
  },
  {
-  "start": 169.379,
-  "end": 171.77,
-  "text": "current full date okay"
+  "start": 275.39,
+  "end": 277.91,
+  "text": "Now coming to the calculations, okay?"
  },
  {
-  "start": 171.78,
-  "end": 174.29,
-  "text": "and then if you want to have the"
+  "start": 277.91,
+  "end": 283.97,
+  "text": "So if you want to have a date which is based on some calculations, okay?"
  },
  {
-  "start": 174.3,
-  "end": 176.809,
-  "text": "timestamp then you can use the date time"
+  "start": 283.97,
+  "end": 290.71,
+  "text": "So you can use the same expression date but along with that you can also do some deviations,"
  },
  {
-  "start": 176.819,
-  "end": 179.57,
-  "text": "expression if you just want the time"
+  "start": 290.71,
+  "end": 291.71,
+  "text": "right?"
  },
  {
-  "start": 179.58,
-  "end": 181.509,
-  "text": "then you can use the time expression"
+  "start": 291.71,
+  "end": 297.71,
+  "text": "So if I want to add two months to my current date or I want to subtract one day from"
  },
  {
-  "start": 181.519,
-  "end": 184.369,
-  "text": "similarly if you want the current day or"
+  "start": 297.71,
+  "end": 300.79,
+  "text": "my current date, okay?"
  },
  {
-  "start": 184.379,
-  "end": 187.25,
-  "text": "current month or current year okay then"
+  "start": 300.79,
+  "end": 307.95,
+  "text": "So you can pass the format on which you want to get this output."
  },
  {
-  "start": 187.26,
-  "end": 190.13,
-  "text": "you can use this respective Expressions"
+  "start": 307.95,
+  "end": 314.63,
+  "text": "So if you want in this format yyymmdd then you have to write it in this particular"
  },
  {
-  "start": 190.14,
-  "end": 192.71,
-  "text": "which is day month and year"
+  "start": 314.63,
+  "end": 316.77,
+  "text": "date expression, okay?"
  },
  {
-  "start": 192.72,
-  "end": 195.47,
-  "text": "now sometimes it happens that you would"
+  "start": 316.77,
+  "end": 320.79,
+  "text": "So it allows you to do deviations from the current date and also it allows you"
  },
  {
-  "start": 195.48,
-  "end": 197.75,
-  "text": "require the first day of the month or"
+  "start": 320.79,
+  "end": 323.47,
+  "text": "to change the format, okay?"
  },
  {
-  "start": 197.76,
-  "end": 199.729,
-  "text": "the last day of the month for that also"
+  "start": 323.47,
+  "end": 325.27,
+  "text": "So your expression will look like this."
  },
  {
-  "start": 199.739,
-  "end": 201.11,
-  "text": "there is an expression called month"
+  "start": 325.27,
+  "end": 332.75,
+  "text": "It will start with date and then I have passed the full date which is a buffer value, right?"
  },
  {
-  "start": 201.12,
-  "end": 203.93,
-  "text": "first and month last"
+  "start": 332.75,
+  "end": 337.29,
+  "text": "So which I am capturing in the first buffer value full date."
  },
  {
-  "start": 203.94,
-  "end": 207.47,
-  "text": "and then there are some specific uh date"
+  "start": 337.29,
+  "end": 339.45,
+  "text": "So that's my date, okay?"
  },
  {
-  "start": 207.48,
-  "end": 208.97,
-  "text": "requirements which you need to fulfill"
+  "start": 339.45,
+  "end": 341.71,
+  "text": "And then this is my deviation."
  },
  {
-  "start": 208.98,
-  "end": 211.85,
-  "text": "like the system date okay so this will"
+  "start": 341.71,
+  "end": 348.35,
+  "text": "So I have added two months and I have subtracted one day from this full date, okay?"
  },
  {
-  "start": 211.86,
-  "end": 214.79,
-  "text": "return the full date uh based on your"
+  "start": 348.35,
+  "end": 354.73,
+  "text": "And then I am returning the final date in this particular format which is yyymmdd."
  },
  {
-  "start": 214.8,
-  "end": 219.53,
-  "text": "system specification so like the date is"
+  "start": 354.73,
+  "end": 361.49,
+  "text": "So this kind of deviations you can do easily which can fit your requirements for your"
  },
  {
-  "start": 219.54,
-  "end": 221.509,
-  "text": "defined in your system the date format"
+  "start": 361.49,
+  "end": 363.69,
+  "text": "application, okay?"
  },
  {
-  "start": 221.519,
-  "end": 225.229,
-  "text": "it will display the same date here okay"
+  "start": 363.69,
+  "end": 368.77,
+  "text": "So let's go ahead and run this and see what are the output values for all of these"
  },
  {
-  "start": 225.239,
-  "end": 229.67,
-  "text": "then um if you want uh the days the"
+  "start": 368.77,
+  "end": 373.71,
+  "text": "different date expressions, okay?"
  },
  {
-  "start": 229.68,
-  "end": 232.61,
-  "text": "month or year uh in a specific format"
+  "start": 373.71,
+  "end": 379.03,
+  "text": "So now if I go in the scratch book and in the log info, I should have received"
  },
  {
-  "start": 232.62,
-  "end": 235.67,
-  "text": "like uh in a two digits format right so"
+  "start": 379.03,
+  "end": 381.69,
+  "text": "all the output values, right?"
  },
  {
-  "start": 235.68,
-  "end": 237.83,
-  "text": "even if there is just one digit in the D"
+  "start": 381.69,
+  "end": 383.85,
+  "text": "So you can see the first one full date."
  },
  {
-  "start": 237.84,
-  "end": 241.07,
-  "text": "then it is going to add a zero okay it"
+  "start": 383.85,
+  "end": 389.03,
+  "text": "So this is the date or current date, right, 14-8-2023."
  },
  {
-  "start": 241.08,
-  "end": 243.05,
-  "text": "will prefix a zero into that to make it"
+  "start": 389.03,
+  "end": 390.87,
+  "text": "Then we have got the current timestamp."
  },
  {
-  "start": 243.06,
-  "end": 246.77,
-  "text": "two digits so if you want all these uh"
+  "start": 390.87,
+  "end": 395.43,
+  "text": "So it comes with the date and the time, right?"
  },
  {
-  "start": 246.78,
-  "end": 249.05,
-  "text": "day month and year in two digits you can"
+  "start": 395.43,
+  "end": 398.53,
+  "text": "So this is like a timestamp which you can use."
  },
  {
-  "start": 249.06,
-  "end": 252.05,
-  "text": "use this Expressions which is end day"
+  "start": 398.53,
+  "end": 400.53,
+  "text": "This is the current time."
  },
  {
-  "start": 252.06,
-  "end": 254.509,
-  "text": "and month and N here"
+  "start": 400.53,
+  "end": 402.93,
+  "text": "This is the current day, okay?"
  },
  {
-  "start": 254.519,
-  "end": 257.21,
-  "text": "similarly if you want the letters only"
+  "start": 402.93,
+  "end": 405.83,
+  "text": "So 14 is the day today."
  },
  {
-  "start": 257.22,
-  "end": 259.969,
-  "text": "for the day or the month okay"
+  "start": 405.83,
+  "end": 413.65,
+  "text": "And then this is the current month, current year, all is in the numeric format, okay?"
  },
  {
-  "start": 259.979,
-  "end": 263.33,
-  "text": "so you can use this Expressions uh a d"
+  "start": 413.65,
+  "end": 416.75,
+  "text": "And this is the first day of the month, okay?"
  },
  {
-  "start": 263.34,
-  "end": 267.35,
-  "text": "and a month okay so this will return you"
+  "start": 416.75,
+  "end": 423.83,
+  "text": "So it took the current date and then it set the current date to the first day of the"
  },
  {
-  "start": 267.36,
-  "end": 272.45,
-  "text": "um some days like mon or month like Mar"
+  "start": 423.83,
+  "end": 426.15,
+  "text": "month, okay?"
  },
  {
-  "start": 272.46,
-  "end": 275.09,
-  "text": "for March right"
+  "start": 426.15,
+  "end": 432.15,
+  "text": "Similarly it also set the last day of the month and then this is the system date."
  },
  {
-  "start": 275.1,
-  "end": 278.09,
-  "text": "now coming to the calculations okay so"
+  "start": 432.15,
+  "end": 435.31,
+  "text": "So it's in a specific format as you can see."
  },
  {
-  "start": 278.1,
-  "end": 281.27,
-  "text": "if you want to have a date which is"
+  "start": 435.31,
+  "end": 439.91,
+  "text": "This is the two-digit format which I told you about."
  },
  {
-  "start": 281.28,
-  "end": 283.79,
-  "text": "based on some calculations okay"
+  "start": 439.91,
+  "end": 441.83,
+  "text": "So everything is in two-digit."
  },
  {
-  "start": 283.8,
-  "end": 286.189,
-  "text": "so you can use the same expression date"
+  "start": 441.83,
+  "end": 446.77,
+  "text": "You can see, although the month 8 is just one digit, okay?"
  },
  {
-  "start": 286.199,
-  "end": 290.15,
-  "text": "but along with that you can also do some"
+  "start": 446.77,
+  "end": 448.29,
+  "text": "So this is the current month."
  },
  {
-  "start": 290.16,
-  "end": 293.51,
-  "text": "deviations right so if I want to add two"
+  "start": 448.29,
+  "end": 455.05,
+  "text": "You can get it in two digits using this particular format, okay, or this expression."
  },
  {
-  "start": 293.52,
-  "end": 296.21,
-  "text": "months to my current date or I want to"
+  "start": 455.05,
+  "end": 461.77,
+  "text": "Similarly as I said, if you want the particular output in three letters like the day or"
  },
  {
-  "start": 296.22,
-  "end": 299.689,
-  "text": "subtract one day from my current uh date"
+  "start": 461.77,
+  "end": 468.97,
+  "text": "the month, you can use this particular expression and then the calculated date, right?"
  },
  {
-  "start": 299.699,
-  "end": 305.03,
-  "text": "okay also you can pass uh the format on"
+  "start": 468.97,
+  "end": 473.69,
+  "text": "So our current date is, you can see, 14A2023."
  },
  {
-  "start": 305.04,
-  "end": 308.33,
-  "text": "which you want to get this output so if"
+  "start": 473.69,
+  "end": 479.21,
+  "text": "It's in a specific format which we have defined plus it has added two months, okay?"
  },
  {
-  "start": 308.34,
-  "end": 312.17,
-  "text": "you want in this format YY mmdd then you"
+  "start": 479.21,
+  "end": 485.21,
+  "text": "So the month is now 10 and also it has subtracted one day from 14, it went to"
  },
  {
-  "start": 312.18,
-  "end": 314.39,
-  "text": "have to write it uh in this particular"
+  "start": 485.21,
+  "end": 487.05,
+  "text": "13, right?"
  },
  {
-  "start": 314.4,
-  "end": 316.49,
-  "text": "date expression okay"
+  "start": 487.05,
+  "end": 493.25,
+  "text": "So this is the calculated date which we got from the expression."
  },
  {
-  "start": 316.5,
-  "end": 319.129,
-  "text": "so it allows you to do deviations from"
+  "start": 493.25,
+  "end": 501.21,
+  "text": "So you can see you can get any type of date or any type of format right from the expressions,"
  },
  {
-  "start": 319.139,
-  "end": 320.749,
-  "text": "the current date and also it allows you"
+  "start": 501.21,
+  "end": 502.21,
+  "text": "okay?"
  },
  {
-  "start": 320.759,
-  "end": 323.87,
-  "text": "to change the format okay so your"
+  "start": 502.21,
+  "end": 507.89,
+  "text": "And you can also do some deviations in terms of changing the date based on some"
  },
  {
-  "start": 323.88,
-  "end": 325.61,
-  "text": "expression will look like this it will"
+  "start": 507.89,
+  "end": 511.05,
+  "text": "particular calculations."
  },
  {
-  "start": 325.62,
-  "end": 327.23,
-  "text": "start with date"
+  "start": 511.05,
+  "end": 515.65,
+  "text": "Now let's look at a real-time application with a very small example of how we can"
  },
  {
-  "start": 327.24,
-  "end": 330.35,
-  "text": "and then I have passed the full date"
+  "start": 515.65,
+  "end": 520.71,
+  "text": "use this date expressions to automate some scenarios in the application."
  },
  {
-  "start": 330.36,
-  "end": 333.529,
-  "text": "which is a buffer value right so which I"
+  "start": 520.71,
+  "end": 526.63,
+  "text": "So I have opened this obstacle where you have got a field, a text field where you"
  },
  {
-  "start": 333.539,
-  "end": 335.99,
-  "text": "am capturing in the first buffer value"
+  "start": 526.63,
+  "end": 531.31,
+  "text": "need to enter the tomorrow's date and it should be in this particular format which"
  },
  {
-  "start": 336.0,
-  "end": 339.59,
-  "text": "full date so that's my date okay and"
+  "start": 531.31,
+  "end": 534.55,
+  "text": "is DDMM and bye bye bye, right?"
  },
  {
-  "start": 339.6,
-  "end": 342.11,
-  "text": "then um this is my deviation so I have"
+  "start": 534.55,
+  "end": 540.59,
+  "text": "So it's a very simple dynamic date expression which you need to fill using the expressions"
  },
  {
-  "start": 342.12,
-  "end": 344.45,
-  "text": "added two months and I have subtracted"
+  "start": 540.59,
+  "end": 546.27,
+  "text": "in Tosca and fill in to this particular text field, right?"
  },
  {
-  "start": 344.46,
-  "end": 348.59,
-  "text": "1D from this uh full date okay and then"
+  "start": 546.27,
+  "end": 556.95,
+  "text": "So let's create another test case here and let's see get tomorrow's date."
  },
  {
-  "start": 348.6,
-  "end": 351.17,
-  "text": "I am returning the final date in this"
+  "start": 556.95,
+  "end": 564.35,
+  "text": "I've already scanned this module so I'm going to place it here, okay?"
  },
  {
-  "start": 351.18,
-  "end": 354.529,
-  "text": "particular format which is YY mmdt"
+  "start": 564.35,
+  "end": 570.59,
+  "text": "And you can see there is this date field, okay, where we need to provide the value."
  },
  {
-  "start": 354.539,
-  "end": 355.73,
-  "text": "so"
+  "start": 570.59,
+  "end": 574.63,
+  "text": "So for this what we are going to do is we are going to use this particular expression"
  },
  {
-  "start": 355.74,
-  "end": 358.51,
-  "text": "this kind of Divisions you can do easily"
+  "start": 574.75,
+  "end": 576.59,
+  "text": "which is the date expression."
  },
  {
-  "start": 358.52,
-  "end": 361.67,
-  "text": "which can fit your requirements for your"
+  "start": 576.59,
+  "end": 581.43,
+  "text": "So if you're not entering any particular date then you need to enter the square brackets"
  },
  {
-  "start": 361.68,
-  "end": 363.409,
-  "text": "application okay"
+  "start": 581.43,
+  "end": 586.47,
+  "text": "which is empty and also if you're not entering any particular format then you have to keep"
  },
  {
-  "start": 363.419,
-  "end": 365.87,
-  "text": "so let's go ahead and run this and see"
+  "start": 586.47,
+  "end": 592.43,
+  "text": "the square brackets and in the middle I need tomorrow's date so I'm doing a plus"
  },
  {
-  "start": 365.88,
-  "end": 368.45,
-  "text": "what are the output values for all of"
+  "start": 592.43,
+  "end": 594.51,
+  "text": "one D, okay?"
  },
  {
-  "start": 368.46,
-  "end": 373.37,
-  "text": "these different data Expressions okay"
+  "start": 594.51,
+  "end": 598.91,
+  "text": "So which will basically give me the tomorrow's date, okay?"
  },
  {
-  "start": 376.129,
-  "end": 376.139,
-  "text": "so now if I go uh in the scratch book"
+  "start": 598.91,
+  "end": 606.55,
+  "text": "So this is what you need to use in the expression for your date value and let's go ahead and"
  },
  {
-  "start": 376.139,
-  "end": 378.469,
-  "text": "and in the log info I should have"
+  "start": 606.55,
+  "end": 608.15,
+  "text": "run this now, okay?"
  },
  {
-  "start": 378.479,
-  "end": 381.83,
-  "text": "received all the output values right so"
+  "start": 608.15,
+  "end": 616.26,
+  "text": "So it should be entering tomorrow's date in that particular text field, okay?"
  },
  {
-  "start": 381.84,
-  "end": 384.05,
-  "text": "you can see the first one full date this"
+  "start": 616.26,
+  "end": 624.86,
+  "text": "As you can see the test case passed so it was able to enter the tomorrow's date,"
  },
  {
-  "start": 384.06,
-  "end": 386.93,
-  "text": "is the date or current date right 14 8"
+  "start": 624.86,
+  "end": 626.26,
+  "text": "okay?"
  },
  {
-  "start": 386.94,
-  "end": 388.55,
-  "text": "2023"
+  "start": 626.26,
+  "end": 630.82,
+  "text": "And since the default format was DDMM bye bye bye so we didn't have to change the"
  },
  {
-  "start": 388.56,
-  "end": 390.71,
-  "text": "then we have got the current timestamp"
+  "start": 630.82,
+  "end": 631.9,
+  "text": "format."
  },
  {
-  "start": 390.72,
-  "end": 394.01,
-  "text": "so it comes with uh the date and the"
+  "start": 631.9,
+  "end": 638.06,
+  "text": "So this was a very simple example of where you can find these kind of fields, date fields"
  },
  {
-  "start": 394.02,
-  "end": 397.01,
-  "text": "time right so this is like a timestamp"
+  "start": 638.06,
+  "end": 642.86,
+  "text": "where you need to either enter today's date or in some specific format or you need to"
  },
  {
-  "start": 397.02,
-  "end": 399.23,
-  "text": "which you can use this is the current"
+  "start": 642.86,
+  "end": 646.34,
+  "text": "do some deviations, right?"
  },
  {
-  "start": 399.24,
-  "end": 403.49,
-  "text": "time uh this is the current D okay so 14"
+  "start": 646.34,
+  "end": 648.18,
+  "text": "So that's all for this particular video."
  },
  {
-  "start": 403.5,
-  "end": 405.469,
-  "text": "is the day today"
+  "start": 648.18,
+  "end": 651.18,
+  "text": "I hope you enjoyed it and you learned something new today."
  },
  {
-  "start": 405.479,
-  "end": 408.29,
-  "text": "and then this is the current month Uh"
+  "start": 651.18,
+  "end": 655.1,
+  "text": "If you want to watch more videos then please subscribe to our channel."
  },
  {
-  "start": 408.3,
-  "end": 410.99,
-  "text": "current year all is in the numeric"
+  "start": 655.1,
+  "end": 658.38,
+  "text": "Also if you have any questions then please leave them in the comments."
  },
  {
-  "start": 411.0,
-  "end": 413.029,
-  "text": "format okay"
- },
- {
-  "start": 413.039,
-  "end": 415.49,
-  "text": "and this is the first day of the month"
- },
- {
-  "start": 415.5,
-  "end": 417.83,
-  "text": "okay so"
- },
- {
-  "start": 417.84,
-  "end": 421.67,
-  "text": "it took the current date and then it set"
- },
- {
-  "start": 421.68,
-  "end": 424.01,
-  "text": "the current date to the first day of the"
- },
- {
-  "start": 424.02,
-  "end": 425.629,
-  "text": "month okay"
- },
- {
-  "start": 425.639,
-  "end": 428.33,
-  "text": "similarly it's also set the last day of"
- },
- {
-  "start": 428.34,
-  "end": 429.23,
-  "text": "the month"
- },
- {
-  "start": 429.24,
-  "end": 432.65,
-  "text": "and then this is the system date so it's"
- },
- {
-  "start": 432.66,
-  "end": 435.17,
-  "text": "in a specific format as you can see"
- },
- {
-  "start": 435.18,
-  "end": 439.249,
-  "text": "this is uh the two digit format which I"
- },
- {
-  "start": 439.259,
-  "end": 441.409,
-  "text": "told you about so everything is in two"
- },
- {
-  "start": 441.419,
-  "end": 443.93,
-  "text": "digit you can see although the month"
- },
- {
-  "start": 443.94,
-  "end": 447.23,
-  "text": "eight is just one digit okay so this is"
- },
- {
-  "start": 447.24,
-  "end": 449.39,
-  "text": "the current month you can get it in two"
- },
- {
-  "start": 449.4,
-  "end": 452.57,
-  "text": "digits using this particular format okay"
- },
- {
-  "start": 452.58,
-  "end": 454.43,
-  "text": "or this expression"
- },
- {
-  "start": 454.44,
-  "end": 459.05,
-  "text": "similarly as I said if you want the"
- },
- {
-  "start": 459.06,
-  "end": 461.15,
-  "text": "particular output in three letters like"
- },
- {
-  "start": 461.16,
-  "end": 464.27,
-  "text": "the day or the month you can use this"
- },
- {
-  "start": 464.28,
-  "end": 466.37,
-  "text": "particular expression and then the"
- },
- {
-  "start": 466.38,
-  "end": 468.589,
-  "text": "calculated date right"
- },
- {
-  "start": 468.599,
-  "end": 472.129,
-  "text": "so our current date is you can see 14a"
- },
- {
-  "start": 472.139,
-  "end": 475.189,
-  "text": "2023 it's in a specific format which"
- },
- {
-  "start": 475.199,
-  "end": 478.129,
-  "text": "which we have defined plus it has added"
- },
- {
-  "start": 478.139,
-  "end": 480.73,
-  "text": "two months okay so the month is now 10"
- },
- {
-  "start": 480.74,
-  "end": 484.129,
-  "text": "and also it is subtracted one day from"
- },
- {
-  "start": 484.139,
-  "end": 488.809,
-  "text": "14 it went to 13 right so this is uh the"
- },
- {
-  "start": 488.819,
-  "end": 491.93,
-  "text": "calculated date which we got from the"
- },
- {
-  "start": 491.94,
-  "end": 492.95,
-  "text": "expression"
- },
- {
-  "start": 492.96,
-  "end": 496.07,
-  "text": "so you can see you can get any type of"
- },
- {
-  "start": 496.08,
-  "end": 500.029,
-  "text": "date uh or any type of format right from"
- },
- {
-  "start": 500.039,
-  "end": 502.85,
-  "text": "the Expressions okay and you can also do"
- },
- {
-  "start": 502.86,
-  "end": 506.45,
-  "text": "some deviations in terms of uh changing"
- },
- {
-  "start": 506.46,
-  "end": 508.309,
-  "text": "the date based on some particular"
- },
- {
-  "start": 508.319,
-  "end": 510.77,
-  "text": "calculations"
- },
- {
-  "start": 510.78,
-  "end": 512.449,
-  "text": "now let's look at the real-time"
- },
- {
-  "start": 512.459,
-  "end": 515.089,
-  "text": "application with a very small example of"
- },
- {
-  "start": 515.099,
-  "end": 517.73,
-  "text": "how we can use this data Expressions to"
- },
- {
-  "start": 517.74,
-  "end": 519.409,
-  "text": "automate some scenarios in the"
- },
- {
-  "start": 519.419,
-  "end": 520.37,
-  "text": "application"
- },
- {
-  "start": 520.38,
-  "end": 523.07,
-  "text": "so I have opened this obstacle uh where"
- },
- {
-  "start": 523.08,
-  "end": 526.49,
-  "text": "you have got a field a text field where"
- },
- {
-  "start": 526.5,
-  "end": 529.61,
-  "text": "you need to enter the tomorrow State and"
- },
- {
-  "start": 529.62,
-  "end": 531.23,
-  "text": "it should be in this particular format"
- },
- {
-  "start": 531.24,
-  "end": 534.889,
-  "text": "which is ddmm and by by right so it's a"
- },
- {
-  "start": 534.899,
-  "end": 537.23,
-  "text": "very simple uh Dynamic date expression"
- },
- {
-  "start": 537.24,
-  "end": 539.99,
-  "text": "which you need to fill using the"
- },
- {
-  "start": 540.0,
-  "end": 543.05,
-  "text": "expressions in Tosca and fill in to this"
- },
- {
-  "start": 543.06,
-  "end": 545.93,
-  "text": "particular text field right"
- },
- {
-  "start": 545.94,
-  "end": 550.55,
-  "text": "so let's create another test case here"
- },
- {
-  "start": 550.56,
-  "end": 555.05,
-  "text": "and let's see get tomorrow's"
- },
- {
-  "start": 555.06,
-  "end": 556.79,
-  "text": "date"
- },
- {
-  "start": 556.8,
-  "end": 560.449,
-  "text": "I've already scanned this module so I'm"
- },
- {
-  "start": 560.459,
-  "end": 563.09,
-  "text": "going to place it here"
- },
- {
-  "start": 563.1,
-  "end": 566.03,
-  "text": "okay and you can see there is this date"
- },
- {
-  "start": 566.04,
-  "end": 569.15,
-  "text": "field okay where we need to provide the"
- },
- {
-  "start": 569.16,
-  "end": 570.29,
-  "text": "value"
- },
- {
-  "start": 570.3,
-  "end": 572.21,
-  "text": "so for this what we are going to do is"
- },
- {
-  "start": 572.22,
-  "end": 574.009,
-  "text": "we are going to use this particular"
- },
- {
-  "start": 574.019,
-  "end": 576.35,
-  "text": "expression which is the date expression"
- },
- {
-  "start": 576.36,
-  "end": 578.63,
-  "text": "so if you're not entering any particular"
- },
- {
-  "start": 578.64,
-  "end": 580.85,
-  "text": "date then you need to enter the square"
- },
- {
-  "start": 580.86,
-  "end": 583.25,
-  "text": "brackets which is empty and also if"
- },
- {
-  "start": 583.26,
-  "end": 584.63,
-  "text": "you're not entering any particular"
- },
- {
-  "start": 584.64,
-  "end": 586.79,
-  "text": "format then you have to keep the square"
- },
- {
-  "start": 586.8,
-  "end": 589.99,
-  "text": "brackets and in the middle I need"
- },
- {
-  "start": 590.0,
-  "end": 593.09,
-  "text": "tomorrow's date so I'm doing a plus 1D"
- },
- {
-  "start": 593.1,
-  "end": 596.329,
-  "text": "okay so which will basically give me the"
- },
- {
-  "start": 596.339,
-  "end": 598.67,
-  "text": "tomorrow's date okay"
- },
- {
-  "start": 598.68,
-  "end": 601.61,
-  "text": "so this is uh what you need to use in"
- },
- {
-  "start": 601.62,
-  "end": 604.55,
-  "text": "the expression for your date value"
- },
- {
-  "start": 604.56,
-  "end": 608.03,
-  "text": "and let's go ahead and run this now okay"
- },
- {
-  "start": 608.04,
-  "end": 609.829,
-  "text": "so it should be entering tomorrow's date"
- },
- {
-  "start": 609.839,
-  "end": 615.71,
-  "text": "in that particular text field"
- },
- {
-  "start": 619.009,
-  "end": 619.019,
-  "text": "okay as you can see uh the test case"
- },
- {
-  "start": 619.019,
-  "end": 623.21,
-  "text": "passed so it was able to enter uh"
- },
- {
-  "start": 623.22,
-  "end": 625.79,
-  "text": "tomorrow's date okay"
- },
- {
-  "start": 625.8,
-  "end": 629.15,
-  "text": "and since the default format was DDM by"
- },
- {
-  "start": 629.16,
-  "end": 631.009,
-  "text": "bye bye so we didn't have to change the"
- },
- {
-  "start": 631.019,
-  "end": 633.47,
-  "text": "format so this was a very simple example"
- },
- {
-  "start": 633.48,
-  "end": 634.73,
-  "text": "of"
- },
- {
-  "start": 634.74,
-  "end": 636.47,
-  "text": "um where you can find these kind of"
- },
- {
-  "start": 636.48,
-  "end": 638.99,
-  "text": "fields date fields where you need to"
- },
- {
-  "start": 639.0,
-  "end": 641.57,
-  "text": "either enter today's date or in some"
- },
- {
-  "start": 641.58,
-  "end": 643.31,
-  "text": "specific format or you need to do some"
- },
- {
-  "start": 643.32,
-  "end": 646.069,
-  "text": "deviations right"
- },
- {
-  "start": 646.079,
-  "end": 647.99,
-  "text": "so that's all for this particular video"
- },
- {
-  "start": 648.0,
-  "end": 649.85,
-  "text": "I hope you enjoyed it and you learned"
- },
- {
-  "start": 649.86,
-  "end": 651.949,
-  "text": "something new today if you want to watch"
- },
- {
-  "start": 651.959,
-  "end": 653.87,
-  "text": "more videos then please subscribe to our"
- },
- {
-  "start": 653.88,
-  "end": 654.59,
-  "text": "Channel"
- },
- {
-  "start": 654.6,
-  "end": 656.389,
-  "text": "also if you have any questions then"
- },
- {
-  "start": 656.399,
-  "end": 658.49,
-  "text": "please leave them in the comments so"
- },
- {
-  "start": 658.5,
-  "end": 661.49,
-  "text": "until we meet again thank you and see"
- },
- {
-  "start": 661.5,
-  "end": 663.98,
-  "text": "you next time"
+  "start": 658.38,
+  "end": 661.94,
+  "text": "So until we meet again, thank you and see you next time."
  }
 ]

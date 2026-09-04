@@ -1,1107 +1,742 @@
 [
  {
-  "start": 2.81,
-  "end": 2.82,
-  "text": "hey everyone welcome again to another"
+  "start": 0.4,
+  "end": 5.68,
+  "text": "Hey everyone, welcome again to another interesting lesson in this Tosca Automation course."
  },
  {
-  "start": 2.82,
-  "end": 4.55,
-  "text": "interesting lesson in this task"
+  "start": 5.68,
+  "end": 11.6,
+  "text": "Today, we are going to talk about a new identification mechanism provided by Tosca."
  },
  {
-  "start": 4.56,
-  "end": 7.19,
-  "text": "automation course today we are going to"
+  "start": 11.6,
+  "end": 18.6,
+  "text": "Now, until now, all our controls which we have used in earlier sessions have been identified"
  },
  {
-  "start": 7.2,
-  "end": 8.99,
-  "text": "talk about a new identification"
+  "start": 18.6,
+  "end": 23.96,
+  "text": "by the properties present in the web application."
  },
  {
-  "start": 9.0,
-  "end": 11.99,
-  "text": "mechanism provided by Tosca"
+  "start": 23.96,
+  "end": 30.72,
+  "text": "But what if two controls are present in a web page which have got similar properties and"
  },
  {
-  "start": 12.0,
-  "end": 14.81,
-  "text": "now until now all our controls which we"
+  "start": 30.72,
+  "end": 35.52,
+  "text": "you cannot find a unique property to identify a particular control."
  },
  {
-  "start": 14.82,
-  "end": 17.75,
-  "text": "have used in earlier sessions have been"
+  "start": 35.52,
+  "end": 41.78,
+  "text": "Now this is a very common scenario which you will face while automating any web application."
  },
  {
-  "start": 17.76,
-  "end": 20.87,
-  "text": "identified by the properties"
+  "start": 41.78,
+  "end": 47.38,
+  "text": "So Tosca provides you a way of identifying your controls in different ways."
  },
  {
-  "start": 20.88,
-  "end": 23.57,
-  "text": "present in the web application"
+  "start": 47.38,
+  "end": 50.88,
+  "text": "So identifying by properties is just one mechanism."
  },
  {
-  "start": 23.58,
-  "end": 26.99,
-  "text": "but what if two controls are present in"
+  "start": 50.88,
+  "end": 55.2,
+  "text": "There are many other mechanisms which are present in Tosca in order to help you to"
  },
  {
-  "start": 27.0,
-  "end": 29.509,
-  "text": "a web page which have got similar"
+  "start": 55.2,
+  "end": 59.76,
+  "text": "identify controls uniquely on the web pages."
  },
  {
-  "start": 29.519,
-  "end": 32.389,
-  "text": "properties and you cannot find a unique"
+  "start": 59.76,
+  "end": 67.04,
+  "text": "So let's look at an example on how a control can look similar to another control"
  },
  {
-  "start": 32.399,
-  "end": 34.25,
-  "text": "property to identify a particular"
+  "start": 67.04,
+  "end": 75.0,
+  "text": "having the same properties and why you cannot identify it uniquely using the properties."
  },
  {
-  "start": 34.26,
-  "end": 35.27,
-  "text": "control"
+  "start": 75.0,
+  "end": 81.76,
+  "text": "So for this, I have gone to google.com and if you look here, there is a button called"
  },
  {
-  "start": 35.28,
-  "end": 37.729,
-  "text": "now this is a very common scenario which"
+  "start": 81.76,
+  "end": 83.04,
+  "text": "Google search."
  },
  {
-  "start": 37.739,
-  "end": 40.069,
-  "text": "you will face while automating any web"
+  "start": 83.04,
+  "end": 90.38,
+  "text": "So if we type anything here and now we want to click on this Google search button."
  },
  {
-  "start": 40.079,
-  "end": 41.569,
-  "text": "application"
+  "start": 90.38,
+  "end": 93.44,
+  "text": "So this is our scenario, a very simple scenario."
  },
  {
-  "start": 41.579,
-  "end": 44.209,
-  "text": "so Tosca provides you a way of"
+  "start": 93.44,
+  "end": 99.34,
+  "text": "But what will happen is when you try to automate this, you will find that Google"
  },
  {
-  "start": 44.219,
-  "end": 46.31,
-  "text": "identifying your controls in different"
+  "start": 99.34,
+  "end": 101.54,
+  "text": "search is not unique."
  },
  {
-  "start": 46.32,
-  "end": 49.369,
-  "text": "ways so identifying by properties is"
+  "start": 101.54,
+  "end": 108.02,
+  "text": "Now how I can tell I will show it in Tosca, but before that I can also show it using"
  },
  {
-  "start": 49.379,
-  "end": 51.529,
-  "text": "just one mechanism there are many other"
+  "start": 108.02,
+  "end": 110.48,
+  "text": "the inspect element, right?"
  },
  {
-  "start": 51.539,
-  "end": 54.29,
-  "text": "mechanisms which is present in Tosca in"
+  "start": 110.48,
+  "end": 118.06,
+  "text": "So when I do inspect on this and I can show you using the properties that this"
  },
  {
-  "start": 54.3,
-  "end": 57.049,
-  "text": "order to help you to identify controls"
+  "start": 118.06,
+  "end": 123.48,
+  "text": "particular value or this button is not unique, right?"
  },
  {
-  "start": 57.059,
-  "end": 59.45,
-  "text": "uniquely on the web pages"
+  "start": 123.48,
+  "end": 126.26,
+  "text": "So let's see."
  },
  {
-  "start": 59.46,
-  "end": 61.85,
-  "text": "so let's look at an example"
+  "start": 126.26,
+  "end": 132.08,
+  "text": "So this is the input class right and it has got a value Google search."
  },
  {
-  "start": 61.86,
-  "end": 66.17,
-  "text": "on how a control can look similar to"
+  "start": 132.08,
+  "end": 136.86,
+  "text": "You can see there is a name which looks like a unique right and let's try and used"
  },
  {
-  "start": 66.18,
-  "end": 67.91,
-  "text": "another control having the same"
+  "start": 136.86,
+  "end": 137.86,
+  "text": "it."
  },
  {
-  "start": 67.92,
-  "end": 70.969,
-  "text": "properties and why you cannot identify"
+  "start": 137.86,
+  "end": 143.42,
+  "text": "Okay, so I'm going to manually type this X path so that we can see that this is"
  },
  {
-  "start": 70.979,
-  "end": 74.69,
-  "text": "it uniquely using the properties"
+  "start": 143.42,
+  "end": 145.86,
+  "text": "not a unique control, right?"
  },
  {
-  "start": 74.7,
-  "end": 77.87,
-  "text": "so for this I have gone to google.com"
+  "start": 145.86,
+  "end": 155.18,
+  "text": "So I'm going to say at name equals BTNK right and ideally this should be identified"
  },
  {
-  "start": 77.88,
-  "end": 81.59,
-  "text": "and if you look here there is a button"
+  "start": 155.38,
+  "end": 157.34,
+  "text": "using this X path."
  },
  {
-  "start": 81.6,
-  "end": 84.35,
-  "text": "called Google Search right so if we type"
+  "start": 157.34,
+  "end": 165.1,
+  "text": "But if you look carefully, there are one of two controls using the same X path, right?"
  },
  {
-  "start": 84.36,
-  "end": 86.45,
-  "text": "anything here"
+  "start": 165.1,
+  "end": 171.1,
+  "text": "So if although it's not visible on this page, there are two controls having the same"
  },
  {
-  "start": 86.46,
-  "end": 89.149,
-  "text": "and now we want to click on this Google"
+  "start": 171.1,
+  "end": 175.34,
+  "text": "properties which are exactly similar."
  },
  {
-  "start": 89.159,
-  "end": 90.95,
-  "text": "search button right so this is our"
+  "start": 175.34,
+  "end": 179.74,
+  "text": "So it's very difficult to uniquely identify this Google search button, right?"
  },
  {
-  "start": 90.96,
-  "end": 94.249,
-  "text": "scenario a very simple scenario but what"
+  "start": 180.3,
+  "end": 186.26,
+  "text": "One way is you can use the index right index of this button to identify this."
  },
  {
-  "start": 94.259,
-  "end": 96.83,
-  "text": "will happen is uh when you try to"
+  "start": 186.26,
+  "end": 190.34,
+  "text": "The other way around is to use a anchor."
  },
  {
-  "start": 96.84,
-  "end": 99.289,
-  "text": "automate this you will find that Google"
+  "start": 190.34,
+  "end": 196.78,
+  "text": "Now anchor is basically a control which is present within the range of this particular"
  },
  {
-  "start": 99.299,
-  "end": 102.53,
-  "text": "search is not unique now how I can tell"
+  "start": 196.78,
+  "end": 199.14,
+  "text": "control which you are trying to identify, right?"
  },
  {
-  "start": 102.54,
-  "end": 105.17,
-  "text": "I will show it in Tosca but before that"
+  "start": 199.14,
+  "end": 203.74,
+  "text": "So it's basically a relationship with this button, right?"
  },
  {
-  "start": 105.18,
-  "end": 108.77,
-  "text": "I can also show it using the inspect"
+  "start": 203.74,
+  "end": 209.46,
+  "text": "Anything which is unique within the range of this particular button, right?"
  },
  {
-  "start": 108.78,
-  "end": 112.429,
-  "text": "element right so when I do a inspect on"
+  "start": 209.46,
+  "end": 215.5,
+  "text": "So I can either use this text box as a anchor or I can use this another button."
  },
  {
-  "start": 112.439,
-  "end": 113.389,
-  "text": "this"
+  "start": 215.5,
+  "end": 220.98,
+  "text": "I am feeling lucky as the anchor for this particular button, right when we come to"
  },
  {
-  "start": 113.399,
-  "end": 116.929,
-  "text": "and I can show you using the properties"
+  "start": 220.98,
+  "end": 221.98,
+  "text": "Tosca."
  },
  {
-  "start": 116.939,
-  "end": 119.63,
-  "text": "that this particular value"
+  "start": 221.98,
+  "end": 222.98,
+  "text": "Okay."
  },
  {
-  "start": 119.64,
-  "end": 123.95,
-  "text": "or this button is not unique right so"
+  "start": 222.98,
+  "end": 229.34,
+  "text": "So let me go ahead and scan this module and show it to you how it looks like."
  },
  {
-  "start": 123.96,
-  "end": 127.85,
-  "text": "let's see uh so this is the input class"
+  "start": 229.34,
+  "end": 236.17,
+  "text": "So I am going to create another folder here."
  },
  {
-  "start": 127.86,
-  "end": 130.55,
-  "text": "right and it has got a value Google"
+  "start": 236.17,
+  "end": 238.31,
+  "text": "So let's go ahead and scan our application."
  },
  {
-  "start": 130.56,
-  "end": 134.03,
-  "text": "search you can see there is a name which"
+  "start": 238.31,
+  "end": 247.37,
+  "text": "So right click on the folder and select scan select application."
  },
  {
-  "start": 134.04,
-  "end": 136.55,
-  "text": "looks like a unique right and let's try"
+  "start": 247.37,
+  "end": 249.93,
+  "text": "Now select the application which you want to scan for us."
  },
  {
-  "start": 136.56,
-  "end": 139.55,
-  "text": "and use it okay so I'm going to manually"
+  "start": 249.93,
+  "end": 253.65,
+  "text": "It is the Google Chrome with the Google web page."
  },
  {
-  "start": 139.56,
-  "end": 142.67,
-  "text": "type this uh XPath so that we can see"
+  "start": 253.65,
+  "end": 257.97,
+  "text": "So select that and click on scan."
  },
  {
-  "start": 142.68,
-  "end": 145.19,
-  "text": "that this is not a unique control right"
+  "start": 257.97,
+  "end": 265.01,
+  "text": "Now this opens the basic view window where I can select my controls and add to my"
  },
  {
-  "start": 145.2,
-  "end": 150.17,
-  "text": "so I'm going to say at name equals"
+  "start": 265.01,
+  "end": 266.85,
+  "text": "module, right?"
  },
  {
-  "start": 150.18,
-  "end": 152.69,
-  "text": "BTN K right"
+  "start": 266.85,
+  "end": 271.69,
+  "text": "So I'm going to select this text box and this Google search button, right?"
  },
  {
-  "start": 152.7,
-  "end": 154.69,
-  "text": "um and ideally this should be identified"
+  "start": 272.09,
+  "end": 276.99,
+  "text": "Now once I do that, you will see a orange highlighted bar on the Google search"
  },
  {
-  "start": 154.7,
-  "end": 157.01,
-  "text": "using this XPath"
+  "start": 276.99,
+  "end": 278.49,
+  "text": "button, right?"
  },
  {
-  "start": 157.02,
-  "end": 160.369,
-  "text": "but if you look carefully there are one"
+  "start": 278.49,
+  "end": 283.69,
+  "text": "And that will tell me that this particular button is not unique, right?"
  },
  {
-  "start": 160.379,
-  "end": 163.67,
-  "text": "of two controls using the same export"
+  "start": 283.69,
+  "end": 288.59,
+  "text": "So this item was not uniquely selected by Tosca using the properties which"
  },
  {
-  "start": 163.68,
-  "end": 164.809,
-  "text": "right"
+  "start": 288.59,
+  "end": 291.29,
+  "text": "are present on the web page."
  },
  {
-  "start": 164.819,
-  "end": 168.35,
-  "text": "so if although it's not visible"
+  "start": 291.29,
+  "end": 296.29,
+  "text": "Now to look a bit deeper, we need to go to the advanced window right to the"
  },
  {
-  "start": 168.36,
-  "end": 170.39,
-  "text": "on this page there are two controls"
+  "start": 296.29,
+  "end": 300.49,
+  "text": "advanced view where we get all the different controls which are present on"
  },
  {
-  "start": 170.4,
-  "end": 173.03,
-  "text": "having the same properties"
+  "start": 300.49,
+  "end": 303.09,
+  "text": "this web page with their properties."
  },
  {
-  "start": 173.04,
-  "end": 175.91,
-  "text": "which are exactly similar so it's very"
+  "start": 303.09,
+  "end": 303.69,
+  "text": "Okay."
  },
  {
-  "start": 175.92,
-  "end": 178.369,
-  "text": "difficult to uniquely identify this"
+  "start": 304.19,
+  "end": 310.09,
+  "text": "Now as this item is not unique our first attempt should be to add more"
  },
  {
-  "start": 178.379,
-  "end": 180.83,
-  "text": "Google search button right now one way"
+  "start": 310.09,
+  "end": 312.89,
+  "text": "properties right to make it unique."
  },
  {
-  "start": 180.84,
-  "end": 184.19,
-  "text": "is you can use the index right index of"
+  "start": 313.29,
+  "end": 318.09,
+  "text": "So let's try to add some more properties to see whether we can make"
  },
  {
-  "start": 184.2,
-  "end": 186.53,
-  "text": "this button to identify this the other"
+  "start": 318.09,
+  "end": 322.09,
+  "text": "this control unique using additional properties, right?"
  },
  {
-  "start": 186.54,
-  "end": 191.33,
-  "text": "way around is to use a anchor now anchor"
+  "start": 322.09,
+  "end": 324.69,
+  "text": "So let's select type and value."
  },
  {
-  "start": 191.34,
-  "end": 193.97,
-  "text": "is basically a control which is present"
+  "start": 324.69,
+  "end": 329.89,
+  "text": "But as you see even adding these two properties is not making this control"
  },
  {
-  "start": 193.98,
-  "end": 196.67,
-  "text": "uh within the range of this particular"
+  "start": 329.89,
+  "end": 335.69,
+  "text": "unique right in situations like this as I explained there are other ways of"
  },
  {
-  "start": 196.68,
-  "end": 198.41,
-  "text": "control which you are trying to identify"
+  "start": 335.69,
+  "end": 338.09,
+  "text": "identifying a particular control, right?"
  },
  {
-  "start": 198.42,
-  "end": 201.649,
-  "text": "right so it's basically a relationship"
+  "start": 338.09,
+  "end": 343.29,
+  "text": "So if I go to the advanced view on the top menu, you will see identify"
  },
  {
-  "start": 201.659,
-  "end": 204.29,
-  "text": "with this button right anything which is"
+  "start": 343.29,
+  "end": 349.09,
+  "text": "by option and this is the properties option, which we are using right"
  },
  {
-  "start": 204.3,
-  "end": 208.009,
-  "text": "unique uh within the range of this"
+  "start": 349.09,
+  "end": 353.69,
+  "text": "identifying controls by properties, but Tosca provides you with"
  },
  {
-  "start": 208.019,
-  "end": 210.11,
-  "text": "particular button right so I can either"
+  "start": 353.69,
+  "end": 355.89,
+  "text": "different other mechanisms."
  },
  {
-  "start": 210.12,
-  "end": 213.47,
-  "text": "use this text box as an anchor or I can"
+  "start": 355.89,
+  "end": 356.49,
+  "text": "Okay."
  },
  {
-  "start": 213.48,
-  "end": 216.05,
-  "text": "use this another button I am feeling"
+  "start": 356.49,
+  "end": 358.89,
+  "text": "So one is identified by anchor."
  },
  {
-  "start": 216.06,
-  "end": 218.75,
-  "text": "lucky as the anchor for this particular"
+  "start": 358.89,
+  "end": 363.59,
+  "text": "It also provides you identify by image and identify by index."
  },
  {
-  "start": 218.76,
-  "end": 222.11,
-  "text": "button right when we come to Tosca okay"
+  "start": 364.09,
+  "end": 368.29,
+  "text": "Now we are going to talk about how we can identify controls by image"
  },
  {
-  "start": 222.12,
-  "end": 226.07,
-  "text": "so let me go ahead and scan this module"
+  "start": 368.29,
+  "end": 375.69,
+  "text": "and index but your second option after properties should always be anchor."
  },
  {
-  "start": 226.08,
-  "end": 229.089,
-  "text": "and show it to you how it looks like"
+  "start": 377.19,
+  "end": 377.69,
+  "text": "Right."
  },
  {
-  "start": 229.099,
-  "end": 232.67,
-  "text": "so I am going to create another folder"
+  "start": 377.69,
+  "end": 382.59,
+  "text": "So let's go ahead and select this and you will see on the right side."
  },
  {
-  "start": 232.68,
-  "end": 235.97,
-  "text": "here"
+  "start": 382.59,
+  "end": 388.29,
+  "text": "There is a window called identify by anchor now Tosca will sometimes"
  },
  {
-  "start": 237.71,
-  "end": 237.72,
-  "text": "so let's go ahead and scan our"
+  "start": 388.29,
+  "end": 392.09,
+  "text": "automatically select anchor control for you, right?"
  },
  {
-  "start": 237.72,
-  "end": 240.229,
-  "text": "application so right click on the folder"
+  "start": 392.09,
+  "end": 396.89,
+  "text": "So it has got this relative algorithm and there are different options here."
  },
  {
-  "start": 240.239,
-  "end": 247.13,
-  "text": "and select scan select application"
+  "start": 396.89,
+  "end": 397.29,
+  "text": "Right?"
  },
  {
-  "start": 248.75,
-  "end": 248.76,
-  "text": "now select the application which you"
+  "start": 397.29,
+  "end": 402.49,
+  "text": "So we are not going to go deep into this algorithm which Tosca uses"
  },
  {
-  "start": 248.76,
-  "end": 250.55,
-  "text": "want to scan for us it is the Google"
+  "start": 402.49,
+  "end": 407.69,
+  "text": "but for just for your knowledge, you can select auto always"
  },
  {
-  "start": 250.56,
-  "end": 253.97,
-  "text": "Chrome uh with the Google web page so"
+  "start": 407.69,
+  "end": 411.29,
+  "text": "and it will automatically select anchor control for you"
  },
  {
-  "start": 253.98,
-  "end": 257.229,
-  "text": "select that and click on scan"
+  "start": 411.29,
+  "end": 415.49,
+  "text": "or you can also choose shortest path and coordinate, right?"
  },
  {
-  "start": 257.239,
-  "end": 261.289,
-  "text": "now this opens uh the basic View Window"
+  "start": 416.49,
+  "end": 423.49,
+  "text": "So it will try to find anchor control based on three different algorithms,"
  },
  {
-  "start": 261.299,
-  "end": 264.65,
-  "text": "where I can select my controls and add"
+  "start": 423.49,
+  "end": 425.69,
+  "text": "but I have selected auto right?"
  },
  {
-  "start": 264.66,
-  "end": 267.469,
-  "text": "to my module right so I'm going to"
+  "start": 425.69,
+  "end": 428.49,
+  "text": "So it is not able to identify automatically"
  },
  {
-  "start": 267.479,
-  "end": 269.93,
-  "text": "select this text box and this Google"
+  "start": 428.49,
+  "end": 431.29,
+  "text": "or anchor control at the same time."
  },
  {
-  "start": 269.94,
-  "end": 271.969,
-  "text": "search button right"
+  "start": 431.29,
+  "end": 434.09,
+  "text": "I can add my own anchor control, right?"
  },
  {
-  "start": 271.979,
-  "end": 274.49,
-  "text": "now once I do that you will see a orange"
+  "start": 434.09,
+  "end": 441.79,
+  "text": "So the easiest way is to just drag a particular control into this text box."
  },
  {
-  "start": 274.5,
-  "end": 276.77,
-  "text": "highlighted bar on the Google search"
+  "start": 441.79,
+  "end": 444.89,
+  "text": "Okay, so I have dragged this I am feeling lucky"
  },
  {
-  "start": 276.78,
-  "end": 280.79,
-  "text": "button right and that will tell me that"
+  "start": 445.09,
+  "end": 449.19,
+  "text": "button into this anchor control and here you will get the message"
  },
  {
-  "start": 280.8,
-  "end": 283.31,
-  "text": "this particular button is not unique"
+  "start": 449.19,
+  "end": 452.89,
+  "text": "that the target control was successfully identified right"
  },
  {
-  "start": 283.32,
-  "end": 285.53,
-  "text": "right so this item was not uniquely"
+  "start": 452.89,
+  "end": 456.39,
+  "text": "and we can also add another anchor control, right?"
  },
  {
-  "start": 285.54,
-  "end": 288.469,
-  "text": "selected by Tosca using the properties"
+  "start": 456.39,
+  "end": 459.09,
+  "text": "So you can just click on select on screen"
  },
  {
-  "start": 288.479,
-  "end": 291.23,
-  "text": "which are present on the web page"
+  "start": 459.09,
+  "end": 463.99,
+  "text": "and select that particular control to add as your anchor control."
  },
  {
-  "start": 291.24,
-  "end": 294.23,
-  "text": "now to look a bit deeper we need to go"
+  "start": 463.99,
+  "end": 466.49,
+  "text": "So we can have multiple anchor controls"
  },
  {
-  "start": 294.24,
-  "end": 296.45,
-  "text": "to the advanced window right to the"
+  "start": 466.49,
+  "end": 470.39,
+  "text": "if it is not able to identify with a single control."
  },
  {
-  "start": 296.46,
-  "end": 298.79,
-  "text": "advanced view where we get all the"
+  "start": 470.39,
+  "end": 470.99,
+  "text": "Okay."
  },
  {
-  "start": 298.8,
-  "end": 300.59,
-  "text": "different controls which are present on"
+  "start": 471.19,
+  "end": 474.59,
+  "text": "Now if you see on this Google search button,"
  },
  {
-  "start": 300.6,
-  "end": 304.189,
-  "text": "this web page with their properties okay"
+  "start": 474.99,
+  "end": 478.19,
+  "text": "the message has changed to select item is unique"
  },
  {
-  "start": 304.199,
-  "end": 308.51,
-  "text": "now as this item is not unique our first"
+  "start": 478.19,
+  "end": 481.09,
+  "text": "and that orange bar is also disappeared,"
  },
  {
-  "start": 308.52,
-  "end": 310.79,
-  "text": "attempt should be to add more properties"
+  "start": 481.09,
+  "end": 485.09,
+  "text": "which means all our controls are now unique in this module"
  },
  {
-  "start": 310.8,
-  "end": 313.31,
-  "text": "right to make it unique"
+  "start": 485.09,
+  "end": 488.89,
+  "text": "and we can go ahead and create our test case, right?"
  },
  {
-  "start": 313.32,
-  "end": 316.07,
-  "text": "so let's try to add some more properties"
+  "start": 488.89,
+  "end": 493.39,
+  "text": "So let me go ahead and save this and close this window."
  },
  {
-  "start": 316.08,
-  "end": 318.83,
-  "text": "to see whether we can make this control"
+  "start": 493.39,
+  "end": 496.09,
+  "text": "So that will create my module here."
  },
  {
-  "start": 318.84,
-  "end": 321.77,
-  "text": "unique using additional properties right"
+  "start": 497.09,
+  "end": 501.29,
+  "text": "And I'm going to rename this to something useful"
  },
  {
-  "start": 321.78,
-  "end": 325.61,
-  "text": "so let's select type and value but as"
+  "start": 501.29,
+  "end": 503.49,
+  "text": "which is Google search, right?"
  },
  {
-  "start": 325.62,
-  "end": 327.95,
-  "text": "you see even adding these two properties"
+  "start": 503.49,
+  "end": 506.69,
+  "text": "And we are going to create a test case now."
  },
  {
-  "start": 327.96,
-  "end": 331.73,
-  "text": "is not making this control unique right"
+  "start": 506.69,
+  "end": 509.69,
+  "text": "Okay, so I've created a new folder here."
  },
  {
-  "start": 331.74,
-  "end": 334.37,
-  "text": "in situations like this as I explained"
+  "start": 509.69,
+  "end": 514.29,
+  "text": "I'm going to add a test case called Google search"
  },
  {
-  "start": 334.38,
-  "end": 336.77,
-  "text": "there are other ways of identifying a"
- },
- {
-  "start": 336.78,
-  "end": 339.469,
-  "text": "particular control right so if I go to"
- },
- {
-  "start": 339.479,
-  "end": 342.17,
-  "text": "the advanced view on the top menu you"
- },
- {
-  "start": 342.18,
-  "end": 345.83,
-  "text": "will see identify by option and this is"
- },
- {
-  "start": 345.84,
-  "end": 348.35,
-  "text": "the properties uh option which we are"
- },
- {
-  "start": 348.36,
-  "end": 350.93,
-  "text": "using right identifying controls by"
- },
- {
-  "start": 350.94,
-  "end": 353.749,
-  "text": "properties but Tosca provides you with"
- },
- {
-  "start": 353.759,
-  "end": 357.23,
-  "text": "different other mechanisms okay so one"
- },
- {
-  "start": 357.24,
-  "end": 360.05,
-  "text": "is identified by anchor it also provides"
- },
- {
-  "start": 360.06,
-  "end": 363.17,
-  "text": "you identified by image and identify by"
- },
- {
-  "start": 363.18,
-  "end": 366.05,
-  "text": "index now we are going to talk about how"
- },
- {
-  "start": 366.06,
-  "end": 368.45,
-  "text": "we can identify controls by image and"
- },
- {
-  "start": 368.46,
-  "end": 369.529,
-  "text": "index"
- },
- {
-  "start": 369.539,
-  "end": 373.129,
-  "text": "but your second option after properties"
- },
- {
-  "start": 373.139,
-  "end": 377.15,
-  "text": "should always be anchor"
- },
- {
-  "start": 377.16,
-  "end": 380.45,
-  "text": "right so let's go ahead and select this"
- },
- {
-  "start": 380.46,
-  "end": 383.27,
-  "text": "and you will see on the right side there"
- },
- {
-  "start": 383.28,
-  "end": 386.09,
-  "text": "is a window called identifier by anchor"
- },
- {
-  "start": 386.1,
-  "end": 389.27,
-  "text": "now Tosca will sometimes automatically"
- },
- {
-  "start": 389.28,
-  "end": 392.689,
-  "text": "select anchor control for you right so"
- },
- {
-  "start": 392.699,
-  "end": 395.57,
-  "text": "it has got this relative algorithm and"
- },
- {
-  "start": 395.58,
-  "end": 397.37,
-  "text": "there are different options here right"
- },
- {
-  "start": 397.38,
-  "end": 400.309,
-  "text": "so we are not going to go deep into this"
- },
- {
-  "start": 400.319,
-  "end": 404.39,
-  "text": "algorithm which Tosca uses but for just"
- },
- {
-  "start": 404.4,
-  "end": 407.33,
-  "text": "for your knowledge you can select auto"
- },
- {
-  "start": 407.34,
-  "end": 409.61,
-  "text": "always and it will automatically select"
- },
- {
-  "start": 409.62,
-  "end": 412.43,
-  "text": "anchor control for you or you can also"
- },
- {
-  "start": 412.44,
-  "end": 414.77,
-  "text": "choose shortest path and coordinate"
- },
- {
-  "start": 414.78,
-  "end": 416.629,
-  "text": "right"
- },
- {
-  "start": 416.639,
-  "end": 421.249,
-  "text": "so it will try to find a anchor control"
- },
- {
-  "start": 421.259,
-  "end": 424.309,
-  "text": "based on three different algorithms but"
- },
- {
-  "start": 424.319,
-  "end": 426.529,
-  "text": "I have selected Auto right uh so it is"
- },
- {
-  "start": 426.539,
-  "end": 428.39,
-  "text": "not able to identify automatically"
- },
- {
-  "start": 428.4,
-  "end": 430.61,
-  "text": "anchor control"
- },
- {
-  "start": 430.62,
-  "end": 432.529,
-  "text": "um at the same time I can add my own"
- },
- {
-  "start": 432.539,
-  "end": 435.469,
-  "text": "anchor control right so the easiest way"
- },
- {
-  "start": 435.479,
-  "end": 440.27,
-  "text": "is to just uh drag a particular control"
- },
- {
-  "start": 440.28,
-  "end": 443.089,
-  "text": "into this text box okay so I have"
- },
- {
-  "start": 443.099,
-  "end": 445.73,
-  "text": "dragged this I'm feeling lucky button"
- },
- {
-  "start": 445.74,
-  "end": 447.95,
-  "text": "into this anchor control and here you"
- },
- {
-  "start": 447.96,
-  "end": 449.87,
-  "text": "will get the message that the target"
- },
- {
-  "start": 449.88,
-  "end": 451.73,
-  "text": "control was successfully identified"
- },
- {
-  "start": 451.74,
-  "end": 455.749,
-  "text": "right and we can also add another anchor"
- },
- {
-  "start": 455.759,
-  "end": 457.85,
-  "text": "control right so you can just click on"
- },
- {
-  "start": 457.86,
-  "end": 459.95,
-  "text": "select on screen and select that"
- },
- {
-  "start": 459.96,
-  "end": 463.49,
-  "text": "particular control to add as your anchor"
- },
- {
-  "start": 463.5,
-  "end": 465.83,
-  "text": "control so we can have multiple hacker"
- },
- {
-  "start": 465.84,
-  "end": 469.01,
-  "text": "controls if it is not able to identify"
- },
- {
-  "start": 469.02,
-  "end": 471.17,
-  "text": "with a single control okay"
- },
- {
-  "start": 471.18,
-  "end": 473.93,
-  "text": "now if you see on this Google search"
- },
- {
-  "start": 473.94,
-  "end": 476.689,
-  "text": "button uh the message has changed to"
- },
- {
-  "start": 476.699,
-  "end": 478.73,
-  "text": "select item is unique and that orange"
- },
- {
-  "start": 478.74,
-  "end": 481.309,
-  "text": "bar is also disappeared"
- },
- {
-  "start": 481.319,
-  "end": 483.529,
-  "text": "which means all our controls are now"
- },
- {
-  "start": 483.539,
-  "end": 485.87,
-  "text": "unique in this module and we can go"
- },
- {
-  "start": 485.88,
-  "end": 489.409,
-  "text": "ahead and create our test case right so"
- },
- {
-  "start": 489.419,
-  "end": 492.469,
-  "text": "let me go ahead and save this and close"
- },
- {
-  "start": 492.479,
-  "end": 494.93,
-  "text": "this window so that will create my"
- },
- {
-  "start": 494.94,
-  "end": 497.23,
-  "text": "module here"
- },
- {
-  "start": 497.24,
-  "end": 500.029,
-  "text": "and I'm going to rename this to"
- },
- {
-  "start": 500.039,
-  "end": 502.49,
-  "text": "something uh useful which is Google"
- },
- {
-  "start": 502.5,
-  "end": 504.05,
-  "text": "Search right"
- },
- {
-  "start": 504.06,
-  "end": 506.57,
-  "text": "and we are going to create a test case"
- },
- {
-  "start": 506.58,
-  "end": 509.57,
-  "text": "now okay so I've created a new folder"
- },
- {
-  "start": 509.58,
-  "end": 513.35,
-  "text": "here I'm going to add a test case called"
- },
- {
-  "start": 513.36,
-  "end": 516.37,
-  "text": "Google search"
- },
- {
-  "start": 516.38,
-  "end": 519.409,
+  "start": 514.29,
+  "end": 519.25,
   "text": "and then I'm going to add my test step"
  },
  {
-  "start": 519.419,
-  "end": 522.469,
-  "text": "which is basically the module so I'm"
+  "start": 519.25,
+  "end": 521.35,
+  "text": "which is basically the module."
  },
  {
-  "start": 522.479,
-  "end": 525.41,
-  "text": "going to search my Google search module"
+  "start": 521.35,
+  "end": 524.75,
+  "text": "So I'm going to search my Google search module."
  },
  {
-  "start": 525.42,
-  "end": 528.53,
-  "text": "I am going to double click on this so"
+  "start": 525.45,
+  "end": 530.05,
+  "text": "I am going to double click on this so that it can add that right"
  },
  {
-  "start": 528.54,
-  "end": 531.23,
-  "text": "that it can add that right and"
+  "start": 530.05,
+  "end": 535.05,
+  "text": "and here I'm going to enter some text say Tosca, right?"
  },
  {
-  "start": 531.24,
-  "end": 534.11,
-  "text": "here I'm going to enter some text say"
+  "start": 535.45,
+  "end": 538.75,
+  "text": "And here I'm going to click on this."
  },
  {
-  "start": 534.12,
-  "end": 538.25,
-  "text": "Tosca right and here I'm going to click"
+  "start": 538.75,
+  "end": 544.95,
+  "text": "So I can select the click option here, right?"
  },
  {
-  "start": 538.26,
-  "end": 541.79,
-  "text": "on this so"
+  "start": 544.95,
+  "end": 547.85,
+  "text": "So it's going to enter Tosca into the text box"
  },
  {
-  "start": 544.79,
-  "end": 544.8,
-  "text": "um I can select the click option here"
+  "start": 547.85,
+  "end": 549.65,
+  "text": "and it is going to click on it."
  },
  {
-  "start": 544.8,
-  "end": 547.37,
-  "text": "right so it's going to enter Tosca into"
+  "start": 549.65,
+  "end": 551.75,
+  "text": "Okay, so that's that's our scenario."
  },
  {
-  "start": 547.38,
-  "end": 549.35,
-  "text": "the text box and it is going to click on"
- },
- {
-  "start": 549.36,
-  "end": 552.05,
-  "text": "it okay so that's that's our scenario"
- },
- {
-  "start": 552.06,
+  "start": 552.05,
   "end": 555.05,
-  "text": "so let's go ahead and run this for now"
+  "text": "So let's go ahead and run this for now"
  },
  {
-  "start": 555.06,
-  "end": 559.97,
-  "text": "and see if it's working or not"
+  "start": 555.05,
+  "end": 559.85,
+  "text": "and see if it's working or not."
  },
  {
-  "start": 562.25,
-  "end": 562.26,
-  "text": "so it's going to type Tosca into the"
+  "start": 559.85,
+  "end": 562.85,
+  "text": "So it's going to type Tosca into the text box."
  },
  {
-  "start": 562.26,
-  "end": 564.05,
-  "text": "text box it's going to click on the"
+  "start": 562.85,
+  "end": 565.35,
+  "text": "It's going to click on the Google search button"
  },
  {
-  "start": 564.06,
-  "end": 566.09,
-  "text": "Google search button and it is going to"
+  "start": 565.35,
+  "end": 568.35,
+  "text": "and it is going to display the results, right?"
  },
  {
-  "start": 566.1,
-  "end": 568.79,
-  "text": "display the results right"
+  "start": 568.75,
+  "end": 573.15,
+  "text": "So this is how you can identify controls using"
  },
  {
-  "start": 568.8,
-  "end": 572.509,
-  "text": "so this is how you can identify controls"
+  "start": 573.15,
+  "end": 576.25,
+  "text": "anchor control if there are scenarios"
  },
  {
-  "start": 572.519,
-  "end": 576.05,
-  "text": "using anchor control if there are"
+  "start": 576.25,
+  "end": 579.25,
+  "text": "where you are not able to identify uniquely"
  },
  {
-  "start": 576.06,
-  "end": 577.73,
-  "text": "scenarios where you are not able to"
+  "start": 579.25,
+  "end": 583.25,
+  "text": "any control using all the properties present on the screen,"
  },
  {
-  "start": 577.74,
-  "end": 581.269,
-  "text": "identify uniquely any control using all"
+  "start": 583.25,
+  "end": 583.75,
+  "text": "right?"
  },
  {
-  "start": 581.279,
-  "end": 582.829,
-  "text": "the properties present on the screen"
+  "start": 583.75,
+  "end": 587.25,
+  "text": "So this is another way of identifying your controls."
  },
  {
-  "start": 582.839,
-  "end": 585.41,
-  "text": "right so this is another way of"
+  "start": 588.75,
+  "end": 593.05,
+  "text": "So that's all about how to identify controls in Tosca"
  },
  {
-  "start": 585.42,
-  "end": 588.65,
-  "text": "identifying your controls"
+  "start": 593.05,
+  "end": 596.55,
+  "text": "using the anchor property or anchor control."
  },
  {
-  "start": 588.66,
-  "end": 591.71,
-  "text": "so that's all about how to identify"
+  "start": 598.05,
+  "end": 600.15,
+  "text": "Hopefully this was useful."
  },
  {
-  "start": 591.72,
-  "end": 594.59,
-  "text": "controls in Tosca using the anchor"
+  "start": 600.35,
+  "end": 603.75,
+  "text": "I'm going to talk about all the different mechanisms"
  },
  {
-  "start": 594.6,
-  "end": 597.05,
-  "text": "property or anchor control"
+  "start": 603.75,
+  "end": 607.15,
+  "text": "which are still present in Tosca to identify controls"
  },
  {
-  "start": 597.06,
-  "end": 600.949,
-  "text": "uh hopefully this was useful I'm going"
+  "start": 607.15,
+  "end": 610.95,
+  "text": "like identify by image and identify by index."
  },
  {
-  "start": 600.959,
-  "end": 603.05,
-  "text": "to talk about uh all the different"
+  "start": 611.95,
+  "end": 617.75,
+  "text": "So keep watching and do subscribe to our channel will bring"
  },
  {
-  "start": 603.06,
-  "end": 605.449,
-  "text": "mechanisms which are still present in"
+  "start": 617.75,
+  "end": 622.95,
+  "text": "up another new Tosca lesson next Friday until then keep learning"
  },
  {
-  "start": 605.459,
-  "end": 608.389,
-  "text": "Tosca to identify controls like identify"
- },
- {
-  "start": 608.399,
-  "end": 612.41,
-  "text": "by image and identify by index"
- },
- {
-  "start": 612.42,
-  "end": 615.29,
-  "text": "so keep watching and do subscribe to our"
- },
- {
-  "start": 615.3,
-  "end": 619.009,
-  "text": "channel uh we'll uh bring up another new"
- },
- {
-  "start": 619.019,
-  "end": 622.79,
-  "text": "Tosca lesson next Friday until then keep"
- },
- {
-  "start": 622.8,
-  "end": 626.42,
-  "text": "learning and have a nice day"
+  "start": 622.95,
+  "end": 624.45,
+  "text": "and have a nice day."
  }
 ]

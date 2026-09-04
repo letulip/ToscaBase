@@ -1,1672 +1,897 @@
 [
  {
-  "start": 1.99,
-  "end": 2.0,
-  "text": "hey everyone welcome to another lesson"
+  "start": 0.05,
+  "end": 4.05,
+  "text": "Hey everyone, welcome to another lesson in this Tosca Automation course."
  },
  {
-  "start": 2.0,
-  "end": 4.15,
-  "text": "in this task automation course"
+  "start": 4.05,
+  "end": 11.05,
+  "text": "Today, we are going to talk about another important concept in test case generation which is called"
  },
  {
-  "start": 4.16,
-  "end": 6.389,
-  "text": "today we are going to talk about and the"
+  "start": 11.05,
+  "end": 12.05,
+  "text": "the test case template."
  },
  {
-  "start": 6.399,
-  "end": 9.589,
-  "text": "important concept uh in test case"
+  "start": 12.05,
+  "end": 17.73,
+  "text": "Now, until now, we have seen how you can design your test cases based on the number"
  },
  {
-  "start": 9.599,
-  "end": 11.589,
-  "text": "generation which is called the test case"
+  "start": 17.73,
+  "end": 23.27,
+  "text": "of combinations, the attributes and its values, right?"
  },
  {
-  "start": 11.599,
-  "end": 14.07,
-  "text": "template now until now we have seen how"
+  "start": 23.27,
+  "end": 28.29,
+  "text": "So we can design our test cases based on what attributes we define and then what"
  },
  {
-  "start": 14.08,
-  "end": 16.55,
-  "text": "you can design your test cases"
+  "start": 28.29,
+  "end": 34.19,
+  "text": "instances we have and then we can create a number of combinations using different techniques"
  },
  {
-  "start": 16.56,
-  "end": 18.87,
-  "text": "based on the number of combinations the"
+  "start": 34.19,
+  "end": 37.25,
+  "text": "which is present in the test case design section."
  },
  {
-  "start": 18.88,
-  "end": 20.95,
-  "text": "attributes"
+  "start": 37.25,
+  "end": 40.65,
+  "text": "But coming back to the test cases section, right?"
  },
  {
-  "start": 20.96,
-  "end": 24.23,
-  "text": "and its values right so we can"
+  "start": 40.65,
+  "end": 46.11,
+  "text": "Now we have the design but we need to generate test cases based on this design."
  },
  {
-  "start": 24.24,
-  "end": 26.39,
-  "text": "design our test cases based on what"
+  "start": 46.11,
+  "end": 49.05,
+  "text": "So how Tosca helps us do that?"
  },
  {
-  "start": 26.4,
-  "end": 28.15,
-  "text": "attributes we define and then what"
+  "start": 49.05,
+  "end": 52.33,
+  "text": "So coming to test case template, right?"
  },
  {
-  "start": 28.16,
-  "end": 29.75,
-  "text": "instances we have"
+  "start": 52.33,
+  "end": 58.17,
+  "text": "There is basically a way of creating concrete test cases out of your test case design,"
  },
  {
-  "start": 29.76,
-  "end": 31.269,
-  "text": "and then we can create a number of"
+  "start": 58.17,
+  "end": 59.17,
+  "text": "right?"
  },
  {
-  "start": 31.279,
-  "end": 32.79,
-  "text": "combinations"
+  "start": 59.17,
+  "end": 64.17,
+  "text": "So the test sheet which we have prepared now test case template will help us to"
  },
  {
-  "start": 32.8,
-  "end": 34.31,
-  "text": "using different techniques which is"
+  "start": 64.17,
+  "end": 72.94,
+  "text": "derive those number of test cases from those combinations, okay?"
  },
  {
-  "start": 34.32,
-  "end": 36.95,
-  "text": "present in the test case design section"
+  "start": 72.94,
+  "end": 78.62,
+  "text": "Now this is helpful when you have similar sequence or structure for a particular test"
  },
  {
-  "start": 36.96,
-  "end": 39.19,
-  "text": "but coming back uh to the test cases"
+  "start": 78.62,
+  "end": 82.16,
+  "text": "cases or a group of test cases, right?"
  },
  {
-  "start": 39.2,
-  "end": 41.83,
-  "text": "section right now we have the design but"
+  "start": 82.16,
+  "end": 88.68,
+  "text": "So these can be modeled with a particular template and then test cases can be dynamically"
  },
  {
-  "start": 41.84,
-  "end": 44.549,
-  "text": "we need to generate test cases based on"
+  "start": 88.68,
+  "end": 95.56,
+  "text": "generated using that particular test sheet which you have already have created, okay?"
  },
  {
-  "start": 44.559,
-  "end": 45.83,
-  "text": "this design"
+  "start": 95.56,
+  "end": 98.86,
+  "text": "So there are two properties in test case template."
  },
  {
-  "start": 45.84,
-  "end": 48.79,
-  "text": "so how tosca helps us do that"
+  "start": 98.86,
+  "end": 103.52,
+  "text": "One is the schema path which is basically the path of the data source which contains"
  },
  {
-  "start": 48.8,
-  "end": 51.99,
-  "text": "so coming to test case template right"
+  "start": 103.52,
+  "end": 105.24,
+  "text": "the schema of the template data."
  },
  {
-  "start": 52.0,
-  "end": 55.11,
-  "text": "it is basically a way of creating"
+  "start": 105.24,
+  "end": 110.68,
+  "text": "Now this data source either could be the test design sheet, right?"
  },
  {
-  "start": 55.12,
-  "end": 57.11,
-  "text": "concrete test cases out of your test"
+  "start": 111.2,
+  "end": 114.54,
+  "text": "You can also use the excel sheet."
  },
  {
-  "start": 57.12,
-  "end": 59.349,
-  "text": "case design right so the test sheet"
+  "start": 114.54,
+  "end": 117.36,
+  "text": "The other property is instance name."
  },
  {
-  "start": 59.359,
-  "end": 60.869,
-  "text": "which we have prepared"
+  "start": 117.36,
+  "end": 122.88,
+  "text": "Now when test case template are instantiated test case names are automatically generated"
  },
  {
-  "start": 60.879,
-  "end": 64.149,
-  "text": "now test case template will help us to"
+  "start": 122.88,
+  "end": 128.56,
+  "text": "by using these instance names of the data source, which could be the test data sheet."
  },
  {
-  "start": 64.159,
-  "end": 65.27,
-  "text": "derive"
+  "start": 128.56,
+  "end": 131.36,
+  "text": "Now how to instantiate the test case template."
  },
  {
-  "start": 65.28,
-  "end": 68.23,
-  "text": "uh those number of test cases from those"
+  "start": 131.36,
+  "end": 136.95,
+  "text": "I will show you in the next video."
  },
  {
-  "start": 68.24,
-  "end": 69.67,
-  "text": "combinations"
+  "start": 136.95,
+  "end": 140.23,
+  "text": "Now there are a few options which you should be aware of when you are creating"
  },
  {
-  "start": 69.68,
-  "end": 72.71,
-  "text": "okay"
+  "start": 140.23,
+  "end": 141.75,
+  "text": "a test case template."
  },
  {
-  "start": 73.91,
-  "end": 73.92,
-  "text": "now uh"
+  "start": 141.75,
+  "end": 143.59,
+  "text": "So there is check template."
  },
  {
-  "start": 73.92,
-  "end": 75.83,
-  "text": "this is helpful when you have similar"
+  "start": 143.59,
+  "end": 149.87,
+  "text": "This is one feature which automatically verifies your template for any particular errors."
  },
  {
-  "start": 75.84,
-  "end": 78.23,
-  "text": "sequence or structure for a particular"
+  "start": 149.87,
+  "end": 152.83,
+  "text": "Now it is based on the schema path, right?"
  },
  {
-  "start": 78.24,
-  "end": 81.03,
-  "text": "test cases or a group of test cases"
+  "start": 152.83,
+  "end": 159.91,
+  "text": "So that data source and here basically what happens is it will compare the names which"
  },
  {
-  "start": 81.04,
-  "end": 81.91,
-  "text": "right"
+  "start": 159.91,
+  "end": 165.83,
+  "text": "have used in the template with the attribute names of your test design sheet."
  },
  {
-  "start": 81.92,
-  "end": 82.71,
-  "text": "so"
+  "start": 165.83,
+  "end": 172.17,
+  "text": "It will also verify your conditions properties just configuration parameters."
  },
  {
-  "start": 82.72,
-  "end": 85.109,
-  "text": "these can be modeled with a particular"
+  "start": 172.17,
+  "end": 177.71,
+  "text": "So basically everything which is used in the template and if there are any errors it will"
  },
  {
-  "start": 85.119,
-  "end": 87.19,
-  "text": "template and then"
+  "start": 177.71,
+  "end": 182.51,
+  "text": "show you there itself while you are performing this operation which is called the check"
  },
  {
-  "start": 87.2,
-  "end": 89.429,
-  "text": "test cases can be dynamically generated"
+  "start": 182.51,
+  "end": 183.51,
+  "text": "template."
  },
  {
-  "start": 89.439,
-  "end": 91.67,
-  "text": "using that particular test sheet which"
+  "start": 183.51,
+  "end": 187.19,
+  "text": "Okay, so this is the first thing which you should do whenever you are creating"
  },
  {
-  "start": 91.68,
-  "end": 95.19,
-  "text": "you have already have created okay"
+  "start": 187.19,
+  "end": 188.35,
+  "text": "a template."
  },
  {
-  "start": 95.2,
-  "end": 97.109,
-  "text": "so there are two properties uh in test"
+  "start": 188.35,
+  "end": 191.59,
+  "text": "You should first verify it with the check template."
  },
  {
-  "start": 97.119,
-  "end": 99.99,
-  "text": "case template uh one is the schema path"
+  "start": 191.67,
+  "end": 196.79,
+  "text": "Okay, the next thing is edit schema path."
  },
  {
-  "start": 100.0,
-  "end": 101.749,
-  "text": "which is basically the path of the data"
+  "start": 196.79,
+  "end": 203.15,
+  "text": "Now if you have already linked your data source with the test case template, you"
  },
  {
-  "start": 101.759,
-  "end": 104.149,
-  "text": "source which contains the schema of the"
+  "start": 203.15,
+  "end": 207.39,
+  "text": "can also change it by this wizard which is called the edit schema path."
  },
  {
-  "start": 104.159,
-  "end": 106.87,
-  "text": "template data now this data source"
+  "start": 207.39,
+  "end": 209.51,
+  "text": "Okay, so you can change the schema source."
  },
  {
-  "start": 106.88,
-  "end": 109.429,
-  "text": "either could be the test design sheet"
+  "start": 209.51,
+  "end": 217.04,
+  "text": "There is also an option where you can move back to your original test case which is"
  },
  {
-  "start": 109.439,
-  "end": 110.31,
-  "text": "right"
+  "start": 217.04,
+  "end": 218.98,
+  "text": "called convert to test case."
  },
  {
-  "start": 110.32,
-  "end": 114.23,
-  "text": "or you can also use the excel sheet"
+  "start": 218.98,
+  "end": 225.06,
+  "text": "So once you have converted into a template, you can also go back and make it again a"
  },
  {
-  "start": 114.24,
-  "end": 117.109,
-  "text": "the other property is instance name"
+  "start": 225.06,
+  "end": 231.5,
+  "text": "test case if you want to revert back and this is the option to do that, okay?"
  },
  {
-  "start": 117.119,
-  "end": 118.87,
-  "text": "now when test case template are"
+  "start": 231.5,
+  "end": 236.78,
+  "text": "So let's see with a real example in Tosca."
  },
  {
-  "start": 118.88,
-  "end": 120.55,
-  "text": "instantiated"
+  "start": 236.78,
+  "end": 240.98,
+  "text": "To demonstrate this particular feature, I have created a new test case for our source"
  },
  {
-  "start": 120.56,
-  "end": 122.31,
-  "text": "test case names are automatically"
+  "start": 240.98,
+  "end": 242.54,
+  "text": "demo app, right?"
  },
  {
-  "start": 122.32,
-  "end": 124.63,
-  "text": "generated by using these instance names"
+  "start": 242.54,
+  "end": 246.66,
+  "text": "So we have got this login page where we have got username and password field and"
  },
  {
-  "start": 124.64,
-  "end": 126.63,
-  "text": "of the data source which could be the"
+  "start": 246.66,
+  "end": 250.06,
+  "text": "the login button and then we have got different usernames."
  },
  {
-  "start": 126.64,
-  "end": 130.07,
-  "text": "test data sheet now how to instantiate"
+  "start": 250.06,
+  "end": 252.74,
+  "text": "Based on that, it will throw different errors, right?"
  },
  {
-  "start": 130.08,
-  "end": 132.229,
-  "text": "the test case template i will show you"
+  "start": 252.74,
+  "end": 254.5,
+  "text": "And we have got a password."
  },
  {
-  "start": 132.239,
-  "end": 136.63,
-  "text": "uh in the next video"
+  "start": 254.5,
+  "end": 260.58,
+  "text": "So we want to capture the error message and we want to log in into this page, right?"
  },
  {
-  "start": 138.55,
-  "end": 138.56,
-  "text": "now there are few options uh which you"
+  "start": 260.58,
+  "end": 263.46,
+  "text": "So that's the scenario, simple scenario."
  },
  {
-  "start": 138.56,
-  "end": 140.07,
-  "text": "should be aware of when you are creating"
+  "start": 263.46,
+  "end": 266.66,
+  "text": "For that, I have created this particular test case, valid login."
  },
  {
-  "start": 140.08,
-  "end": 142.229,
-  "text": "a test case template so there is check"
+  "start": 266.66,
+  "end": 273.46,
+  "text": "I've got four steps, open URL, login user, valid error message and then there's"
  },
  {
-  "start": 142.239,
-  "end": 144.949,
-  "text": "template uh this is one feature"
+  "start": 273.46,
+  "end": 277.82,
+  "text": "a T-box window operation which is basically to close the application, right?"
  },
  {
-  "start": 144.959,
-  "end": 146.869,
-  "text": "which automatically verifies your"
+  "start": 277.82,
+  "end": 285.3,
+  "text": "So you can actually name it as close application, okay?"
  },
  {
-  "start": 146.879,
-  "end": 149.589,
-  "text": "template for any particular errors"
+  "start": 285.3,
+  "end": 290.5,
+  "text": "Now in open URL, it's just passing the URL from a configuration parameter which is"
  },
  {
-  "start": 149.599,
-  "end": 152.55,
-  "text": "now it is based on the schema path right"
+  "start": 290.5,
+  "end": 293.3,
+  "text": "the URL, okay?"
  },
  {
-  "start": 152.56,
-  "end": 154.869,
-  "text": "so thread data source"
+  "start": 293.3,
+  "end": 297.82,
+  "text": "And then login user, I've got username, password, error and the login button which"
  },
  {
-  "start": 154.879,
-  "end": 157.91,
-  "text": "and uh here basically what happens is it"
+  "start": 297.82,
+  "end": 300.28,
+  "text": "is I'm clicking on that."
  },
  {
-  "start": 157.92,
-  "end": 160.39,
-  "text": "will compare the names which have used"
+  "start": 300.28,
+  "end": 306.0,
+  "text": "So these values of the fields will be getting it from the test data sheet, okay?"
  },
  {
-  "start": 160.4,
-  "end": 163.19,
-  "text": "in the template with the attribute names"
+  "start": 306.0,
+  "end": 311.32,
+  "text": "Similarly for valid error, if we enter invalid username or password, we'll get an error"
  },
  {
-  "start": 163.2,
-  "end": 165.509,
-  "text": "of your test design sheet"
+  "start": 311.32,
+  "end": 313.32,
+  "text": "message and we are going to verify it, okay?"
  },
  {
-  "start": 165.519,
-  "end": 169.11,
-  "text": "it will also uh verify your conditions"
+  "start": 313.32,
+  "end": 319.48,
+  "text": "So the action mode is verify for the error field, okay?"
  },
  {
-  "start": 169.12,
-  "end": 171.83,
-  "text": "properties test configuration parameters"
+  "start": 319.48,
+  "end": 324.64,
+  "text": "Now we need to have different combinations here, right, of our test cases."
  },
  {
-  "start": 171.84,
-  "end": 173.43,
-  "text": "so basically everything"
+  "start": 324.64,
+  "end": 328.6,
+  "text": "So one will be a valid scenario, one would be an invalid scenario."
  },
  {
-  "start": 173.44,
-  "end": 175.27,
-  "text": "which is used in the template"
+  "start": 328.6,
+  "end": 332.12,
+  "text": "For that, I've created this test case design sheet."
  },
  {
-  "start": 175.28,
-  "end": 177.91,
-  "text": "and if there are any errors it will show"
+  "start": 332.12,
+  "end": 336.6,
+  "text": "So I've got two instances, test case one and test case two."
  },
  {
-  "start": 177.92,
-  "end": 180.149,
-  "text": "you there itself while you are"
+  "start": 336.6,
+  "end": 341.56,
+  "text": "I've got the administration section which test designer, the cycle and comments."
  },
  {
-  "start": 180.159,
-  "end": 181.75,
-  "text": "performing this operation which is"
+  "start": 341.56,
+  "end": 344.6,
+  "text": "So we have all seen this earlier, right?"
  },
  {
-  "start": 181.76,
-  "end": 184.309,
-  "text": "called the check template okay so this"
+  "start": 344.6,
+  "end": 350.12,
+  "text": "I've got the process where I'm entering a username and password."
  },
  {
-  "start": 184.319,
-  "end": 186.07,
-  "text": "is the first thing which you should do"
+  "start": 350.12,
+  "end": 354.82,
+  "text": "And as you can see, I've got different instances of this username and password."
  },
  {
-  "start": 186.08,
-  "end": 188.229,
-  "text": "whenever you are creating a template you"
+  "start": 354.82,
+  "end": 361.58,
+  "text": "So I've got a standard user and a locked out user, right, for two different scenarios."
  },
  {
-  "start": 188.239,
-  "end": 190.55,
-  "text": "should first verify it with the check"
+  "start": 361.58,
+  "end": 365.5,
+  "text": "And I've got the password here, okay?"
  },
  {
-  "start": 190.56,
-  "end": 192.63,
-  "text": "template okay"
+  "start": 365.5,
+  "end": 371.1,
+  "text": "Now coming here in verification, I've got a message verification."
  },
  {
-  "start": 192.64,
-  "end": 195.03,
-  "text": "the next thing is uh"
+  "start": 371.1,
+  "end": 376.36,
+  "text": "For the locked out user, I've got the specific message, error message which should"
  },
  {
-  "start": 195.04,
-  "end": 197.43,
-  "text": "edit schema path now"
+  "start": 376.36,
+  "end": 377.36,
+  "text": "be verified."
  },
  {
-  "start": 197.44,
-  "end": 198.39,
-  "text": "if you have"
+  "start": 377.36,
+  "end": 382.94,
+  "text": "In case of a standard user, which is a valid login, I don't have any error message,"
  },
  {
-  "start": 198.4,
-  "end": 199.35,
-  "text": "already"
+  "start": 382.94,
+  "end": 383.94,
+  "text": "right?"
  },
  {
-  "start": 199.36,
-  "end": 200.63,
-  "text": "linked your"
+  "start": 383.94,
+  "end": 385.74,
+  "text": "So I've left it empty."
  },
  {
-  "start": 200.64,
-  "end": 202.79,
-  "text": "data source with the test case template"
+  "start": 385.74,
+  "end": 390.22,
+  "text": "Now this is the test design sheet and this is the test case."
  },
  {
-  "start": 202.8,
-  "end": 205.19,
-  "text": "you can also change it by this wizard"
+  "start": 390.22,
+  "end": 396.5,
+  "text": "Somehow I need to link this test case design with this test case and I need to generate"
  },
  {
-  "start": 205.2,
-  "end": 207.27,
-  "text": "which is called the edit schema path"
+  "start": 396.5,
+  "end": 398.68,
+  "text": "two test cases out of it, right?"
  },
  {
-  "start": 207.28,
-  "end": 211.03,
-  "text": "okay so you can change the schema source"
+  "start": 398.68,
+  "end": 403.18,
+  "text": "I can generate any number of test cases, but right now I have just two instances,"
  },
  {
-  "start": 211.04,
-  "end": 212.39,
-  "text": "there's also an option"
+  "start": 403.18,
+  "end": 404.18,
+  "text": "okay?"
  },
  {
-  "start": 212.4,
-  "end": 214.07,
-  "text": "where you can"
+  "start": 404.18,
+  "end": 409.38,
+  "text": "So I want to generate two test cases automatically from this test case design sheet with"
  },
  {
-  "start": 214.08,
-  "end": 216.63,
-  "text": "move back to your original test case"
+  "start": 410.38,
+  "end": 416.4,
+  "text": "values, different test data values, right, for these different test steps."
  },
  {
-  "start": 216.64,
-  "end": 219.19,
-  "text": "which is called convert to test case so"
+  "start": 416.4,
+  "end": 420.52,
+  "text": "So that's the feature which we are looking at."
  },
  {
-  "start": 219.2,
-  "end": 221.43,
-  "text": "once you have converted into a template"
+  "start": 420.52,
+  "end": 426.66,
+  "text": "And for that, we need to now convert this particular test case into a test case template,"
  },
  {
-  "start": 221.44,
-  "end": 223.83,
-  "text": "you can also go back and"
+  "start": 426.66,
+  "end": 427.66,
+  "text": "right?"
  },
  {
-  "start": 223.84,
-  "end": 225.99,
-  "text": "make it again a test case if you want to"
+  "start": 427.66,
+  "end": 433.14,
+  "text": "Because that's the template which we want to use to generate two instances out of"
  },
  {
-  "start": 226.0,
-  "end": 228.39,
-  "text": "revert back and this is the option to do"
+  "start": 433.14,
+  "end": 435.3,
+  "text": "the same test case, right?"
  },
  {
-  "start": 228.4,
-  "end": 231.19,
-  "text": "that okay"
+  "start": 435.3,
+  "end": 440.82,
+  "text": "So the steps will be same, but the test data is little different, okay, and depending on"
  },
  {
-  "start": 231.2,
-  "end": 234.309,
-  "text": "so let's see with a real example in"
+  "start": 440.82,
+  "end": 447.1,
+  "text": "how the scenario is based, we want to also specify some conditions, okay?"
  },
  {
-  "start": 234.319,
-  "end": 236.47,
-  "text": "tosca"
+  "start": 447.1,
+  "end": 451.24,
+  "text": "So for that, Tosca provides you with an option called test case template."
  },
  {
-  "start": 236.48,
-  "end": 238.39,
-  "text": "to demonstrate this particular feature i"
+  "start": 451.24,
+  "end": 455.82,
+  "text": "So right click on the test case and there you will find an option called convert"
  },
  {
-  "start": 238.4,
-  "end": 240.55,
-  "text": "have created a new test case for our"
+  "start": 455.82,
+  "end": 457.14,
+  "text": "to template, right?"
  },
  {
-  "start": 240.56,
-  "end": 242.949,
-  "text": "source demo app right so we have got"
+  "start": 457.14,
+  "end": 463.58,
+  "text": "So click on that and now this test case will be converted into a test case template."
  },
  {
-  "start": 242.959,
-  "end": 244.789,
-  "text": "this login page where we have got"
+  "start": 463.58,
+  "end": 464.94,
+  "text": "How can you tell that?"
  },
  {
-  "start": 244.799,
-  "end": 246.55,
-  "text": "username and password field and the"
+  "start": 464.94,
+  "end": 470.02,
+  "text": "You will see there is a T symbol now associated with this particular test case."
  },
  {
-  "start": 246.56,
-  "end": 247.83,
-  "text": "login button"
+  "start": 470.02,
+  "end": 474.66,
+  "text": "So that T symbol will indicate that this is a test case template and not a test"
  },
  {
-  "start": 247.84,
-  "end": 249.27,
-  "text": "and then we have got different user"
+  "start": 474.66,
+  "end": 477.54,
+  "text": "case, okay?"
  },
  {
-  "start": 249.28,
-  "end": 251.03,
-  "text": "names based on that it will show"
+  "start": 477.54,
+  "end": 482.98,
+  "text": "Now coming to different properties of this test case template, we talked about schema"
  },
  {
-  "start": 251.04,
-  "end": 253.19,
-  "text": "different errors right and we have got a"
+  "start": 482.98,
+  "end": 483.98,
+  "text": "path, right?"
  },
  {
-  "start": 253.2,
-  "end": 255.11,
-  "text": "password so"
+  "start": 483.98,
+  "end": 491.12,
+  "text": "So this is where you will link your data source which is the test design sheet"
  },
  {
-  "start": 255.12,
-  "end": 258.469,
-  "text": "we want to capture the error message and"
+  "start": 491.12,
+  "end": 492.62,
+  "text": "and the instance name, okay?"
  },
  {
-  "start": 258.479,
-  "end": 260.55,
-  "text": "we want to login into this page right so"
+  "start": 492.62,
+  "end": 496.66,
+  "text": "So you can provide an instance name, but that will see later."
  },
  {
-  "start": 260.56,
-  "end": 263.27,
-  "text": "that's the scenario simple scenario"
+  "start": 496.66,
+  "end": 502.5,
+  "text": "Now some other things are three options, which we talked about the check template,"
  },
  {
-  "start": 263.28,
-  "end": 264.71,
-  "text": "for that i have created this particular"
+  "start": 502.5,
+  "end": 506.46,
+  "text": "the edit schema path and the convert to test case, right?"
  },
  {
-  "start": 264.72,
-  "end": 266.79,
-  "text": "test case validate login"
+  "start": 506.46,
+  "end": 508.82,
+  "text": "So we can convert back to our test case."
  },
  {
-  "start": 266.8,
-  "end": 270.31,
-  "text": "i've got four steps open url login user"
+  "start": 508.82,
+  "end": 514.3,
+  "text": "We can edit the schema path if a data source is linked and we can also check"
  },
  {
-  "start": 270.32,
-  "end": 272.39,
-  "text": "validate error message"
+  "start": 514.3,
+  "end": 517.48,
+  "text": "the template for any particular errors, right?"
  },
  {
-  "start": 272.4,
-  "end": 274.23,
-  "text": "and then there's a t-box window"
+  "start": 517.48,
+  "end": 521.5,
+  "text": "So when you click on that, you will see if there are no errors, it will say no"
  },
  {
-  "start": 274.24,
-  "end": 276.39,
-  "text": "operation which is basically to close"
+  "start": 521.58,
+  "end": 523.5,
+  "text": "errors found in template."
  },
  {
-  "start": 276.4,
-  "end": 279.03,
-  "text": "the application right so"
+  "start": 523.5,
+  "end": 527.1,
+  "text": "If there are any errors, it will pop up those errors."
  },
  {
-  "start": 279.04,
-  "end": 281.749,
-  "text": "you can actually name it as close"
+  "start": 527.1,
+  "end": 527.6,
+  "text": "Okay."
  },
  {
-  "start": 281.759,
-  "end": 283.189,
-  "text": "application"
+  "start": 528.7,
+  "end": 535.4,
+  "text": "Now the most important part is to link our test case design sheet with our test"
  },
  {
-  "start": 283.199,
-  "end": 284.95,
-  "text": "okay"
+  "start": 535.4,
+  "end": 537.2,
+  "text": "case, right?"
  },
  {
-  "start": 284.96,
-  "end": 287.51,
-  "text": "now in open url uh it's just passing the"
+  "start": 537.2,
+  "end": 544.0,
+  "text": "So how you can do that where it's a very simple drag-and-drop feature, right?"
  },
  {
-  "start": 287.52,
-  "end": 290.07,
-  "text": "url from a configuration parameter which"
+  "start": 544.0,
+  "end": 550.6,
+  "text": "So just drag this particular test case or test design sheet into your test case"
  },
  {
-  "start": 290.08,
-  "end": 292.71,
-  "text": "is the url okay"
+  "start": 550.6,
+  "end": 551.3,
+  "text": "template."
  },
  {
-  "start": 292.72,
-  "end": 295.189,
-  "text": "and then login user i've got username"
+  "start": 551.8,
+  "end": 557.4,
+  "text": "Okay, once you do that your test design sheet will be linked to your test"
  },
  {
-  "start": 295.199,
-  "end": 297.51,
-  "text": "password error and the login button"
+  "start": 557.4,
+  "end": 558.0,
+  "text": "template."
  },
  {
-  "start": 297.52,
-  "end": 299.909,
-  "text": "which is i'm clicking on that"
+  "start": 558.6,
+  "end": 563.2,
+  "text": "Now if you want to see whether your test case design sheet is actually linked"
  },
  {
-  "start": 299.919,
-  "end": 302.15,
-  "text": "these values of the fields will be"
+  "start": 563.2,
+  "end": 568.6,
+  "text": "to your template, you can just right click on the template and you can go"
  },
  {
-  "start": 302.16,
-  "end": 305.43,
-  "text": "getting it from the test data sheet okay"
- },
- {
-  "start": 305.44,
-  "end": 307.27,
-  "text": "similarly for validate error if you"
- },
- {
-  "start": 307.28,
-  "end": 310.15,
-  "text": "enter a invalid username or password"
- },
- {
-  "start": 310.16,
-  "end": 311.67,
-  "text": "will get an error message and we are"
- },
- {
-  "start": 311.68,
-  "end": 313.749,
-  "text": "going to verify it okay so the action"
- },
- {
-  "start": 313.759,
-  "end": 314.87,
-  "text": "mode is"
- },
- {
-  "start": 314.88,
-  "end": 316.07,
-  "text": "verify"
- },
- {
-  "start": 316.08,
-  "end": 317.99,
-  "text": "for the error field"
- },
- {
-  "start": 318.0,
-  "end": 319.189,
-  "text": "okay"
- },
- {
-  "start": 319.199,
-  "end": 321.27,
-  "text": "now uh we need to have different"
- },
- {
-  "start": 321.28,
-  "end": 323.67,
-  "text": "combinations here right of our test"
- },
- {
-  "start": 323.68,
-  "end": 326.23,
-  "text": "cases so one will be a valid scenario"
- },
- {
-  "start": 326.24,
-  "end": 328.55,
-  "text": "one would be an invalid scenario for"
- },
- {
-  "start": 328.56,
-  "end": 330.87,
-  "text": "that i have created this test case"
- },
- {
-  "start": 330.88,
-  "end": 333.67,
-  "text": "design sheet so i have got two instances"
- },
- {
-  "start": 333.68,
-  "end": 336.31,
-  "text": "test case one and test case two"
- },
- {
-  "start": 336.32,
-  "end": 338.07,
-  "text": "i've got the administration section"
- },
- {
-  "start": 338.08,
-  "end": 340.71,
-  "text": "which this designer the cycle and"
- },
- {
-  "start": 340.72,
-  "end": 342.469,
-  "text": "comments so we have all seen this"
- },
- {
-  "start": 342.479,
-  "end": 344.39,
-  "text": "earlier right"
- },
- {
-  "start": 344.4,
-  "end": 347.189,
-  "text": "i've got the process where i'm entering"
- },
- {
-  "start": 347.199,
-  "end": 349.67,
-  "text": "a username and password"
- },
- {
-  "start": 349.68,
-  "end": 352.07,
-  "text": "and as you can see i i've got different"
- },
- {
-  "start": 352.08,
-  "end": 354.55,
-  "text": "instances of this username and password"
- },
- {
-  "start": 354.56,
-  "end": 355.43,
-  "text": "so"
- },
- {
-  "start": 355.44,
-  "end": 357.59,
-  "text": "i've got a standard user and a locked"
- },
- {
-  "start": 357.6,
-  "end": 360.07,
-  "text": "out user right for two different"
- },
- {
-  "start": 360.08,
-  "end": 361.189,
-  "text": "scenarios"
- },
- {
-  "start": 361.199,
-  "end": 365.27,
-  "text": "and i've got the password here okay"
- },
- {
-  "start": 365.28,
-  "end": 367.99,
-  "text": "now um coming here in verification i"
- },
- {
-  "start": 368.0,
-  "end": 370.95,
-  "text": "have got a message verification um for"
- },
- {
-  "start": 370.96,
-  "end": 372.55,
-  "text": "the locked out user i have got the"
- },
- {
-  "start": 372.56,
-  "end": 373.67,
-  "text": "specific"
- },
- {
-  "start": 373.68,
-  "end": 375.029,
-  "text": "uh message"
- },
- {
-  "start": 375.039,
-  "end": 377.43,
-  "text": "error message which should be verified"
- },
- {
-  "start": 377.44,
-  "end": 379.83,
-  "text": "in case of a standard user which is a"
- },
- {
-  "start": 379.84,
-  "end": 382.469,
-  "text": "valid login i don't have any error"
- },
- {
-  "start": 382.479,
-  "end": 385.51,
-  "text": "message right so i've left it empty"
- },
- {
-  "start": 385.52,
-  "end": 387.99,
-  "text": "now this is the test design sheet and"
- },
- {
-  "start": 388.0,
-  "end": 389.83,
-  "text": "this is the test case"
- },
- {
-  "start": 389.84,
-  "end": 392.15,
-  "text": "somehow i need to link this disk is"
- },
- {
-  "start": 392.16,
-  "end": 393.35,
-  "text": "designed"
- },
- {
-  "start": 393.36,
-  "end": 395.59,
-  "text": "with this test case and i need to"
- },
- {
-  "start": 395.6,
-  "end": 398.469,
-  "text": "generate two test cases out of it right"
- },
- {
-  "start": 398.479,
-  "end": 400.95,
-  "text": "i can generate any number of test cases"
- },
- {
-  "start": 400.96,
-  "end": 402.87,
-  "text": "but right now i have just two instances"
- },
- {
-  "start": 402.88,
-  "end": 405.189,
-  "text": "okay so i want to generate two test"
- },
- {
-  "start": 405.199,
-  "end": 407.51,
-  "text": "cases automatically from this test case"
- },
- {
-  "start": 407.52,
-  "end": 408.79,
-  "text": "design sheet"
- },
- {
-  "start": 408.8,
-  "end": 411.27,
-  "text": "with different values different test"
- },
- {
-  "start": 411.28,
-  "end": 413.99,
-  "text": "data values right for these different"
- },
- {
-  "start": 414.0,
-  "end": 416.15,
-  "text": "test steps"
- },
- {
-  "start": 416.16,
-  "end": 418.469,
-  "text": "so that's that's the"
- },
- {
-  "start": 418.479,
-  "end": 420.629,
-  "text": "feature which we are looking at and for"
- },
- {
-  "start": 420.639,
-  "end": 423.189,
-  "text": "that we need to now convert"
- },
- {
-  "start": 423.199,
-  "end": 425.51,
-  "text": "um this particular test case into a test"
- },
- {
-  "start": 425.52,
-  "end": 428.39,
-  "text": "case template right because uh that's"
- },
- {
-  "start": 428.4,
-  "end": 430.309,
-  "text": "the template which you want to use to"
- },
- {
-  "start": 430.319,
-  "end": 433.43,
-  "text": "generate two instances out of the same"
- },
- {
-  "start": 433.44,
-  "end": 435.029,
-  "text": "test case right"
- },
- {
-  "start": 435.039,
-  "end": 435.749,
-  "text": "so"
- },
- {
-  "start": 435.759,
-  "end": 437.589,
-  "text": "the steps will be same but the test data"
- },
- {
-  "start": 437.599,
-  "end": 439.99,
-  "text": "is little different okay and depending"
- },
- {
-  "start": 440.0,
-  "end": 442.39,
-  "text": "on how the scenario is based we want to"
- },
- {
-  "start": 442.4,
-  "end": 444.87,
-  "text": "also specify some conditions"
- },
- {
-  "start": 444.88,
-  "end": 446.79,
-  "text": "okay"
- },
- {
-  "start": 446.8,
-  "end": 448.87,
-  "text": "so for that uh tosca provides you with"
- },
- {
-  "start": 448.88,
-  "end": 451.589,
-  "text": "an option called test case template so"
- },
- {
-  "start": 451.599,
-  "end": 453.43,
-  "text": "right click on the test case"
- },
- {
-  "start": 453.44,
-  "end": 455.27,
-  "text": "and there you will find an option called"
- },
- {
-  "start": 455.28,
-  "end": 457.749,
-  "text": "convert to template right so"
- },
- {
-  "start": 457.759,
-  "end": 458.95,
-  "text": "click on that"
- },
- {
-  "start": 458.96,
-  "end": 461.51,
-  "text": "and now this test case will be converted"
- },
- {
-  "start": 461.52,
-  "end": 463.27,
-  "text": "into a test case template"
- },
- {
-  "start": 463.28,
-  "end": 465.43,
-  "text": "how can you tell that you will see there"
- },
- {
-  "start": 465.44,
-  "end": 468.23,
-  "text": "is a t symbol now associated with this"
- },
- {
-  "start": 468.24,
-  "end": 469.749,
-  "text": "particular test case"
- },
- {
-  "start": 469.759,
-  "end": 472.23,
-  "text": "so that t symbol will indicate that this"
- },
- {
-  "start": 472.24,
-  "end": 474.71,
-  "text": "is a test case template and not a test"
- },
- {
-  "start": 474.72,
-  "end": 477.27,
-  "text": "case okay"
- },
- {
-  "start": 477.28,
-  "end": 479.749,
-  "text": "now coming to a different properties of"
- },
- {
-  "start": 479.759,
-  "end": 482.469,
-  "text": "this discus template um we talked about"
- },
- {
-  "start": 482.479,
-  "end": 484.629,
-  "text": "schema path right so this is where you"
- },
- {
-  "start": 484.639,
-  "end": 487.11,
-  "text": "will link your data source which is"
- },
- {
-  "start": 487.12,
-  "end": 489.51,
-  "text": "the test design sheet"
- },
- {
-  "start": 489.52,
-  "end": 490.79,
-  "text": "um"
- },
- {
-  "start": 490.8,
-  "end": 492.71,
-  "text": "and the instance name okay so you can"
- },
- {
-  "start": 492.72,
-  "end": 494.79,
-  "text": "provide a instance name but that will"
- },
- {
-  "start": 494.8,
-  "end": 496.39,
-  "text": "see later"
- },
- {
-  "start": 496.4,
-  "end": 498.55,
-  "text": "now some other things are"
- },
- {
-  "start": 498.56,
-  "end": 500.71,
-  "text": "three options which we talked about"
- },
- {
-  "start": 500.72,
-  "end": 502.23,
-  "text": "the check template"
- },
- {
-  "start": 502.24,
-  "end": 504.07,
-  "text": "the edit schema path"
- },
- {
-  "start": 504.08,
-  "end": 506.469,
-  "text": "and the convert to test case right so we"
- },
- {
-  "start": 506.479,
-  "end": 508.55,
-  "text": "can convert back to our test case"
- },
- {
-  "start": 508.56,
-  "end": 510.869,
-  "text": "we can edit the schema path if a data"
- },
- {
-  "start": 510.879,
-  "end": 512.469,
-  "text": "source is linked"
- },
- {
-  "start": 512.479,
-  "end": 514.709,
-  "text": "and uh we can also check the template"
- },
- {
-  "start": 514.719,
-  "end": 517.19,
-  "text": "for any particular errors right"
- },
- {
-  "start": 517.2,
-  "end": 519.909,
-  "text": "so when you click on that you will see"
- },
- {
-  "start": 519.919,
-  "end": 521.43,
-  "text": "if there are no errors it will say no"
- },
- {
-  "start": 521.44,
-  "end": 523.829,
-  "text": "errors found in template if there are"
- },
- {
-  "start": 523.839,
-  "end": 526.87,
-  "text": "any errors it will pop up those errors"
- },
- {
-  "start": 526.88,
-  "end": 528.55,
-  "text": "okay"
- },
- {
-  "start": 528.56,
-  "end": 529.509,
-  "text": "now"
- },
- {
-  "start": 529.519,
-  "end": 531.91,
-  "text": "the most important part is to"
- },
- {
-  "start": 531.92,
-  "end": 534.949,
-  "text": "link our test case design sheet with our"
- },
- {
-  "start": 534.959,
-  "end": 537.03,
-  "text": "test case right"
- },
- {
-  "start": 537.04,
-  "end": 539.509,
-  "text": "so how you can do that"
- },
- {
-  "start": 539.519,
-  "end": 542.23,
-  "text": "where it's a very simple drag and drop"
- },
- {
-  "start": 542.24,
-  "end": 543.829,
-  "text": "feature right"
- },
- {
-  "start": 543.839,
-  "end": 544.63,
-  "text": "so"
- },
- {
-  "start": 544.64,
-  "end": 548.15,
-  "text": "just drag this particular test case or"
- },
- {
-  "start": 548.16,
-  "end": 550.47,
-  "text": "test design sheet into your test case"
- },
- {
-  "start": 550.48,
-  "end": 551.67,
-  "text": "template"
- },
- {
-  "start": 551.68,
-  "end": 552.55,
-  "text": "okay"
- },
- {
-  "start": 552.56,
-  "end": 554.55,
-  "text": "once you do that"
- },
- {
-  "start": 554.56,
-  "end": 556.71,
-  "text": "your test design sheet will be linked to"
- },
- {
-  "start": 556.72,
-  "end": 558.55,
-  "text": "your test template"
- },
- {
-  "start": 558.56,
-  "end": 560.55,
-  "text": "now if you want to see whether your test"
- },
- {
-  "start": 560.56,
-  "end": 563.11,
-  "text": "case design sheet is actually linked to"
- },
- {
-  "start": 563.12,
-  "end": 565.19,
-  "text": "your template you can just right click"
- },
- {
-  "start": 565.2,
-  "end": 566.63,
-  "text": "on the template"
- },
- {
-  "start": 566.64,
-  "end": 569.509,
-  "text": "and you can go to jump to schema"
- },
- {
-  "start": 569.519,
-  "end": 571.99,
-  "text": "definition"
+  "start": 568.6,
+  "end": 570.4,
+  "text": "to jump to schema definition."
  },
  {
   "start": 572.0,
-  "end": 574.55,
-  "text": "let's do one thing let's close"
+  "end": 573.1,
+  "text": "Let's do one thing."
  },
  {
-  "start": 574.56,
-  "end": 577.43,
-  "text": "this test case design section"
+  "start": 573.1,
+  "end": 576.7,
+  "text": "Let's close this test case design section."
  },
  {
-  "start": 577.44,
-  "end": 578.31,
-  "text": "okay"
+  "start": 577.4,
+  "end": 584.5,
+  "text": "Okay, and now let's right click on the test case template and the first option"
  },
  {
-  "start": 578.32,
-  "end": 581.67,
-  "text": "and now let's right click on"
+  "start": 584.5,
+  "end": 586.1,
+  "text": "is jump to schema definition."
  },
  {
-  "start": 581.68,
-  "end": 584.07,
-  "text": "the test case template and the first"
- },
- {
-  "start": 584.08,
-  "end": 586.55,
-  "text": "option is jump to schema definition so"
- },
- {
-  "start": 586.56,
-  "end": 587.99,
-  "text": "when you click on that it will"
- },
- {
-  "start": 588.0,
-  "end": 589.99,
-  "text": "automatically take you to the design"
+  "start": 586.5,
+  "end": 590.0,
+  "text": "So when you click on that, it will automatically take you to the design"
  },
  {
   "start": 590.0,
-  "end": 591.75,
-  "text": "sheet which is linked to this particular"
+  "end": 592.5,
+  "text": "sheet which is linked to this particular template."
  },
  {
-  "start": 591.76,
-  "end": 593.43,
-  "text": "template okay"
+  "start": 592.7,
+  "end": 597.7,
+  "text": "Okay, so that's the way of verifying whether your test case design"
  },
  {
-  "start": 593.44,
-  "end": 595.829,
-  "text": "so that's the way of"
+  "start": 597.7,
+  "end": 602.2,
+  "text": "sheet is already linked to your test case template, right?"
  },
  {
-  "start": 595.839,
-  "end": 597.59,
-  "text": "verifying whether your test case design"
+  "start": 603.2,
+  "end": 607.5,
+  "text": "Now the other thing which will notice is once you link your test case design"
  },
  {
-  "start": 597.6,
-  "end": 599.59,
-  "text": "sheet is already linked"
+  "start": 607.5,
+  "end": 612.6,
+  "text": "sheet with your test case template, what will happen is the values of your"
  },
  {
-  "start": 599.6,
-  "end": 603.269,
-  "text": "to your test case template right"
+  "start": 612.6,
+  "end": 615.0,
+  "text": "test steps will change, right?"
  },
  {
-  "start": 603.279,
-  "end": 605.19,
-  "text": "now the other thing uh which will notice"
+  "start": 615.3,
+  "end": 622.3,
+  "text": "So the username you can see now there is a link provided here which"
  },
  {
-  "start": 605.2,
-  "end": 607.67,
-  "text": "is once you link your test design sheet"
+  "start": 622.3,
+  "end": 627.6,
+  "text": "tells that this is a parameter which is coming from the Excel sheet or"
  },
  {
-  "start": 607.68,
-  "end": 608.87,
-  "text": "with your"
+  "start": 627.6,
+  "end": 629.2,
+  "text": "the test design sheet, right?"
  },
  {
-  "start": 608.88,
-  "end": 611.19,
-  "text": "test case template what will happen is"
+  "start": 629.5,
+  "end": 634.0,
+  "text": "So process.username, process.password same for here."
  },
  {
-  "start": 611.2,
-  "end": 613.91,
-  "text": "the values of your test steps will"
+  "start": 634.6,
+  "end": 639.4,
+  "text": "So this is how it is automatically linked with different"
  },
  {
-  "start": 613.92,
-  "end": 615.35,
-  "text": "change right"
+  "start": 640.9,
+  "end": 644.1,
+  "text": "parameter values with these test step values."
  },
  {
-  "start": 615.36,
-  "end": 619.509,
-  "text": "so the username you can see now there is"
+  "start": 644.1,
+  "end": 644.6,
+  "text": "Okay."
  },
  {
-  "start": 619.519,
-  "end": 621.75,
-  "text": "a link provided here"
+  "start": 645.0,
+  "end": 650.0,
+  "text": "Now, although you can see these the first step is correct where we"
  },
  {
-  "start": 621.76,
-  "end": 624.71,
-  "text": "which tells that this is a parameter"
+  "start": 650.0,
+  "end": 653.1,
+  "text": "are entering the username and password, but the second step is all"
  },
  {
-  "start": 624.72,
-  "end": 627.35,
-  "text": "which is coming from the excel sheet or"
+  "start": 653.1,
+  "end": 654.8,
+  "text": "about validating the error message."
  },
  {
-  "start": 627.36,
-  "end": 629.59,
-  "text": "the test design sheet right"
+  "start": 654.8,
+  "end": 660.1,
+  "text": "So we don't need to input a username and password here, right?"
  },
  {
-  "start": 629.6,
-  "end": 631.389,
-  "text": "so process dot username process"
+  "start": 661.2,
+  "end": 664.6,
+  "text": "So we just want to verify the error message here."
  },
  {
-  "start": 631.399,
-  "end": 634.63,
-  "text": "process.password same for here"
+  "start": 664.8,
+  "end": 668.8,
+  "text": "So we want to get that particular message and in situations"
  },
  {
-  "start": 634.64,
-  "end": 636.23,
-  "text": "so um"
+  "start": 668.8,
+  "end": 674.1,
+  "text": "like this where you want to specifically put a value or link"
  },
  {
-  "start": 636.24,
-  "end": 638.15,
-  "text": "this is how it is automatically linked"
+  "start": 674.1,
+  "end": 678.0,
+  "text": "of particular value to the test design sheet what you can do"
  },
  {
-  "start": 638.16,
-  "end": 640.87,
-  "text": "with different"
+  "start": 678.0,
+  "end": 685.5,
+  "text": "is you can define a parameter like Excel dot a dot square bracket"
  },
  {
-  "start": 640.88,
-  "end": 643.99,
-  "text": "parameter values with this step values"
+  "start": 685.5,
+  "end": 688.7,
+  "text": "and then it will give you all the different attributes here,"
  },
  {
-  "start": 644.0,
-  "end": 645.03,
-  "text": "okay"
+  "start": 688.7,
+  "end": 691.9,
+  "text": "right which is present in that particular sheet and that's"
  },
  {
-  "start": 645.04,
-  "end": 648.23,
-  "text": "now although um you can see these uh the"
+  "start": 691.9,
+  "end": 694.2,
+  "text": "your data source which is linked to this template."
  },
  {
-  "start": 648.24,
-  "end": 649.91,
-  "text": "first step is correct where we are"
+  "start": 694.2,
+  "end": 700.1,
+  "text": "Okay, so here what I want to do is I want to verify right?"
  },
  {
-  "start": 649.92,
-  "end": 651.829,
-  "text": "entering the username and password but"
+  "start": 700.1,
+  "end": 702.9,
+  "text": "So I'll say verification dot message."
  },
  {
-  "start": 651.839,
-  "end": 653.75,
-  "text": "the second step is all about violating"
+  "start": 703.4,
+  "end": 706.6,
+  "text": "Okay, so that will select the message and then I will close"
  },
  {
-  "start": 653.76,
-  "end": 657.03,
-  "text": "the error message so we don't need to"
+  "start": 706.6,
+  "end": 707.0,
+  "text": "this."
  },
  {
-  "start": 657.04,
-  "end": 661.03,
-  "text": "input a username and password here right"
+  "start": 708.0,
+  "end": 712.1,
+  "text": "So you can do this manually if it is not automatically done"
  },
  {
-  "start": 661.04,
-  "end": 663.67,
-  "text": "so uh we just want to verify the error"
+  "start": 712.2,
+  "end": 714.5,
+  "text": "when you are trying to link the particular sheet."
  },
  {
-  "start": 663.68,
-  "end": 665.91,
-  "text": "message here so we want to get that"
- },
- {
-  "start": 665.92,
-  "end": 667.43,
-  "text": "particular message"
- },
- {
-  "start": 667.44,
-  "end": 669.59,
-  "text": "and in situations like this where you"
- },
- {
-  "start": 669.6,
-  "end": 672.31,
-  "text": "want to uh specifically"
- },
- {
-  "start": 672.32,
-  "end": 675.11,
-  "text": "put a value or link of particular value"
- },
- {
-  "start": 675.12,
-  "end": 677.11,
-  "text": "to the test design sheet"
- },
- {
-  "start": 677.12,
-  "end": 679.19,
-  "text": "what you can do is you can define a"
- },
- {
-  "start": 679.2,
-  "end": 681.35,
-  "text": "parameter like excel"
- },
- {
-  "start": 681.36,
-  "end": 683.269,
-  "text": "dot"
- },
- {
-  "start": 683.279,
-  "end": 685.91,
-  "text": "okay dot square bracket and then it will"
- },
- {
-  "start": 685.92,
-  "end": 688.069,
-  "text": "give you all the different attributes"
- },
- {
-  "start": 688.079,
-  "end": 689.59,
-  "text": "here right which is present in that"
- },
- {
-  "start": 689.6,
-  "end": 691.269,
-  "text": "particular sheet"
- },
- {
-  "start": 691.279,
-  "end": 692.71,
-  "text": "and that's your data source which is"
- },
- {
-  "start": 692.72,
-  "end": 694.87,
-  "text": "linked to this template okay"
- },
- {
-  "start": 694.88,
-  "end": 697.91,
-  "text": "so here um what i want to do is i want"
- },
- {
-  "start": 697.92,
-  "end": 698.79,
-  "text": "to"
- },
- {
-  "start": 698.8,
-  "end": 701.509,
-  "text": "verify right so i'll say verification"
- },
- {
-  "start": 701.519,
-  "end": 703.19,
-  "text": "dot message"
- },
- {
-  "start": 703.2,
-  "end": 705.509,
-  "text": "okay so that will select the message and"
- },
- {
-  "start": 705.519,
-  "end": 707.91,
-  "text": "then i will close this"
- },
- {
-  "start": 707.92,
-  "end": 710.87,
-  "text": "so you can do this manually if it is not"
- },
- {
-  "start": 710.88,
-  "end": 712.79,
-  "text": "automatically done when you are trying"
- },
- {
-  "start": 712.8,
-  "end": 715.19,
-  "text": "to link the particular sheet okay for"
- },
- {
-  "start": 715.2,
-  "end": 719.19,
-  "text": "any particular uh parameter value"
+  "start": 714.6,
+  "end": 717.7,
+  "text": "Okay for any particular parameter value."
  },
  {
   "start": 719.2,
-  "end": 721.91,
-  "text": "so uh that completes our test case"
+  "end": 724.6,
+  "text": "So that completes our test case template right and now"
  },
  {
-  "start": 721.92,
-  "end": 723.829,
-  "text": "template right"
+  "start": 724.6,
+  "end": 728.1,
+  "text": "let's go ahead and check the template once again so that"
  },
  {
-  "start": 723.839,
-  "end": 726.23,
-  "text": "and now let's go ahead and check the"
+  "start": 728.1,
+  "end": 731.4,
+  "text": "there are no errors found right so that we don't make"
  },
  {
-  "start": 726.24,
-  "end": 728.47,
-  "text": "template once again so that there are no"
+  "start": 731.4,
+  "end": 732.4,
+  "text": "any mistakes here."
  },
  {
-  "start": 728.48,
-  "end": 731.19,
-  "text": "errors found right so that we don't make"
+  "start": 734.0,
+  "end": 737.8,
+  "text": "So the next step is to instantiate this template and"
  },
  {
-  "start": 731.2,
-  "end": 733.91,
-  "text": "any mistakes here"
+  "start": 737.8,
+  "end": 742.0,
+  "text": "to generate test cases automatically out of this template."
  },
  {
-  "start": 733.92,
-  "end": 736.31,
-  "text": "so the next step is to instantiate this"
- },
- {
-  "start": 736.32,
-  "end": 739.03,
-  "text": "template and to generate"
- },
- {
-  "start": 739.04,
-  "end": 741.269,
-  "text": "our test cases automatically out of this"
- },
- {
-  "start": 741.279,
-  "end": 743.75,
-  "text": "template so we'll see that in our next"
- },
- {
-  "start": 743.76,
-  "end": 746.76,
-  "text": "video"
+  "start": 742.2,
+  "end": 744.4,
+  "text": "So we'll see that in our next video."
  }
 ]
