@@ -94,9 +94,10 @@ Ids are in `raw/manifest.json`. Update this file when docs are added or merged.
 | doc | sources |
 |---|---|
 | buffers | P1-9, P2-L77 (Buffer Viewer), L116 (XBuffer) |
-| test-configuration-parameters | P1-7, P2-L156, L106 (multiple tabs) |
+| test-configuration-parameters | P1-7, P2-L156, L106 (multiple tabs, ConstraintIndex section) |
 | business-parameters-and-libraries | P1-8, P2-L51 |
-| test-data-services | P2-L154 |
+| test-data-services | P2-L154 (concept, web UI, {TDS[]} syntax) |
+| test-data-service-modules | P2-L154 from 22:27 (Modules, CRUD flow, Expert Module) |
 
 ## api-testing (level 3)
 | doc | sources |
