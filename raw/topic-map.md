@@ -150,3 +150,45 @@ Ids are in `raw/manifest.json`. Update this file when docs are added or merged.
 
 ## reference
 glossary, learning-path, action-modes cheat sheet, expressions cheat sheet.
+
+---
+
+# Playlist 3: "TRICENTIS Tosca Automation Tutorial" (FicusRoot, Tosca 16) — P3-L<N>
+
+Ingested 2026-09-04 as subtitle transcripts. Two compilation videos (QDV_Tl0_JyU "Beginners Full Course",
+SeRVcyMWhkQ "Advanced Full Course") are excluded: they repeat the lessons. Most lessons overlap P1/P2;
+they were merged into the existing docs below (Tosca 16 UI differences, extra examples). New docs are marked NEW.
+
+| target doc | P3 lessons |
+|---|---|
+| getting-started/installation, licensing | L1 |
+| getting-started/commander-overview | L2 |
+| getting-started/workspace-and-project-setup | L3 (workspace, subset .tsu import) |
+| getting-started/tosca-automation-extension (NEW) | L4 (browser extension, SUT intro) |
+| getting-started/what-is-tosca, standard-modules/index | L5 (model-based, standard modules) |
+| getting-started/agentic-test-automation (NEW) | "Tosca Agentic Test Automation Explained" (RH2F4nkOj64) |
+| modules/xscan | L6 |
+| modules/control-identification | L7 (properties, anchor), L23 (dynamic ID, explicit name), L24 (explicit name, ResultCount) |
+| modules/control-groups (NEW) | L7 (control groups part) |
+| modules/rescan-modules, duplicate-and-merge-modules | L15 (rescan, merge) |
+| modules/module-properties-and-parameters | L15 (value range) |
+| modules/table-controls | L30 |
+| modules/table-baseline-comparison | L76 (obstacle 34) |
+| test-cases/test-case-basics, getting-started/first-test-case | L8, L9, L10, L11 |
+| test-cases/action-modes | L12 (WaitOn, Verify, Select), L25 (Constraint), L13/L13-updated (Buffer) |
+| test-cases/control-flow | L19, L27, L28, L29 |
+| test-cases/repetitions | L24 (folder repetition) |
+| test-cases/recovery-and-cleanup-scenarios | L20, L21 |
+| execution/self-healing (NEW) | L26 (self-healing mode) |
+| data-and-parameters/buffers | L13/L13-updated (Buffer ActionMode), L22 (XBuffer) |
+| data-and-parameters/test-configuration-parameters | L11 (TCP) |
+| data-and-parameters/business-parameters-and-libraries | L14 (TestStepLibrary), L16 (business parameters) |
+| expressions/random-values, string-operations, date-expressions, intervals-and-verification-expressions | L13 (math), L33 (multilingual regex), L34 (intervals), L38, L39 (strings), L53, L55, L56, L59, L62, L71 (obstacle expressions) |
+| execution/execution-lists | L17 |
+| requirements-and-reporting/requirements-and-risk | L18 (link TestCases / ExecutionLists to requirements) |
+| standard-modules/screenshots-on-failure, start-and-close-programs, window-operations | L31, L32, L58 |
+| engines/excel-engine | L35, L36 |
+| engines/xml-engine | L54, L70 |
+| engines/mobile-testing-and-device-cloud (NEW) | Device Cloud (hGO8dCyu0sY, a6byhLYJuJU), Mobile L5 (wpkwzSAGpgs), Mobile L6 (ohfGxtWWRno) |
+| administration/multi-user-workspaces, users-and-groups, branches | L40, L41, L42 |
+| troubleshooting/obstacles-* , common-problems-and-fixes | L37, L43–L75 (obstacles 1–33; 32 "sort numbers" and 33 "play game" are new) |
