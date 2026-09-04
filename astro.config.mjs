@@ -68,6 +68,8 @@ export default defineConfig({
 			components: {
 				// Appends the per-page "Sources" list (see the `sources` frontmatter field).
 				MarkdownContent: './src/components/MarkdownContent.astro',
+				// Phrase-first search with plain-search fallback (see the component).
+				Search: './src/components/Search.astro',
 			},
 			head: [
 				// PWA: web app manifest + service worker registration (registerSW.js is emitted by @vite-pwa/astro).

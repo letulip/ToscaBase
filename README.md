@@ -24,7 +24,7 @@ and links back to the source videos with timestamps.
 npm install
 npm run dev        # http://localhost:4321/ToscaBase/
 npm run build      # static site in dist/ with service worker and search index
-npm run preview
+npm run preview      # stop it before running another build: a build while preview serves dist/ can leave empty files
 python3 scripts/check_links.py   # after a build: internal links that point nowhere
 ```
 
