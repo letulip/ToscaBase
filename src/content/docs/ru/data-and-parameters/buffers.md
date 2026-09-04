@@ -29,6 +29,10 @@ sources:
     title: "TRICENTIS Tosca 16.0 - Lesson 22 | Dynamic Comparison | XBuffer Syntax {XB}"
     url: https://www.youtube.com/watch?v=glZeQF7BWNo
     at: "01:03"
+  - id: uR569h8qSKg
+    title: "TRICENTIS Tosca 16.0 - Lesson 52 | OBSTACLE #10 | Extract Text | XBuffer | Dynamic Text"
+    url: https://www.youtube.com/watch?v=uR569h8qSKg
+    at: "01:17"
 ---
 
 **Buffer (буфер)** — переменная Tosca: именованное значение, которое один TestStep записывает во время выполнения, а последующие шаги читают. Это простейший из способов параметризации в Tosca (остальные — [Test Configuration Parameters](/ToscaBase/ru/data-and-parameters/test-configuration-parameters/), [Business Parameters](/ToscaBase/ru/data-and-parameters/business-parameters-and-libraries/), TestCase-Design и [Test Data Services](/ToscaBase/ru/data-and-parameters/test-data-services/)). Буфер — стандартный способ перенести значение, которое породило приложение (номер заказа, итоговую сумму), с экрана, где оно появилось, на экран, где оно нужно.
@@ -85,7 +89,7 @@ sources:
 3. Установите ActionMode **`Verify`** и в качестве значения вставьте текст сообщения, заменив сумму на `{XB[amount]}`.
 4. У текстового поля — ActionMode `Input`, значение `{B[amount]}`.
 
-Во время выполнения шаг `Verify` проверяет совпадение постоянного текста и сохраняет то, что стоит на месте `{XB[amount]}`, в буфер `amount`; следующий шаг вводит его. В логе выполнения видны и проверка, и ввод.
+Во время выполнения шаг `Verify` проверяет совпадение постоянного текста и сохраняет то, что стоит на месте `{XB[amount]}`, в буфер `amount`; следующий шаг вводит его. В логе выполнения видны и проверка, и ввод. Урок 52 (препятствие 10 серии Tosca 16) решает ту же страницу так же и добавляет две детали: переименуйте отсканированный элемент сообщения во что-то устойчивое, например `Purchase completed message`, потому что его текст меняется при каждом заходе, и запомните мнемонику — `XB` *исключает* динамическую часть из сравнения и буферизует её, а `B` только буферизует.
 
 :::note
 Автор называет значение на месте суммы «регулярным выражением», но диктует только `{XB[amount]}`; простой подстановки здесь достаточно. Регулярные выражения в проверках описаны в [Интервалах и выражениях проверки](/ToscaBase/ru/expressions/intervals-and-verification-expressions/).

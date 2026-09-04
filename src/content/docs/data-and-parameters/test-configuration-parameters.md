@@ -13,6 +13,10 @@ sources:
     title: "Tosca Tutorial | Lesson 156 - Test Configuration Parameters | Project Configurations |"
     url: https://www.youtube.com/watch?v=H5M6Y_Su4OQ
     at: "00:09"
+  - id: SLWKhb4igB0
+    title: "TRICENTIS Tosca 16.0 - Lesson 11 | Test Case Automation | Run your First Automated Tests | TCP |"
+    url: https://www.youtube.com/watch?v=SLWKhb4igB0
+    at: "01:20"
 ---
 
 A **Test Configuration Parameter** (TCP) is a named value defined on a Tosca object rather than inside a TestStep. TestSteps refer to it with `{CP[name]}`, so changing the value in one place changes every step that uses it. TCPs are the right home for data that is the same across a suite but differs between environments or runs: application URL, credentials, browser, timeouts, report paths. Hard-coding such values in TestSteps means editing the TestCase every time the data changes; with a thousand steps using the same URL, that is a thousand edits.
@@ -22,6 +26,7 @@ A **Test Configuration Parameter** (TCP) is a named value defined on a Tosca obj
 Every object that can carry TCPs has a **Test Configuration** tab in its details: the project root, component folders, TestCase folders, TestCases, ExecutionLists, the TestCase-Design folder, and the **Configurations** section. Rules:
 
 - A TCP defined on a folder is **inherited** by every sub-folder and TestCase below it. Define shared values as high as makes sense (root or component level) and override lower down only when needed.
+- When the same parameter is set on a TestCase and on the ExecutionList that runs it, the **ExecutionList value overrides** the TestCase's (Lesson 11).
 - TCPs are **read-only during execution**; set them before the run.
 - Some parameters are **system-defined** by Tosca (they appear in a drop-down when you create one), the rest are **custom** parameters you name yourself.
 
@@ -34,6 +39,12 @@ Every object that can carry TCPs has a **Test Configuration** tab in its details
 5. In the TestStep, replace the literal with `{CP[name]}`. Typing `{CP[` pops up the list of parameters visible to this TestCase.
 
 A value cannot be deleted from the list; use **Reset to default value** on the parameter, which removes it.
+
+Lesson 11 shows the Tosca 16 flow for the one parameter every web TestCase needs: select the TestCase in the **TestCases** section, open **Test Configuration**, right-click the TestCase entry, **Create Test Configuration Parameter**, pick `Browser` and then `Chrome` from the value list, go back to **Details** and run in the ScratchBook. No `{CP[...]}` is needed for it: system-defined parameters such as `Browser` are read by the engine itself. The lesson names the typical uses of TCPs the same way: browser, release number, test environment, and connection identifiers or URLs that differ per environment.
+
+:::note
+Lesson 11 once lists a "TestStep level" among the places a TCP can be set. TestSteps have no Test Configuration tab; the levels are TestCase, folder, ExecutionList and the project-level objects above.
+:::
 
 Beyond maintainability, the video points out two side effects: TestSteps become **abstract** (a reader sees `{CP[Password]}`, not the secret) and the suite is easier to run against another environment. The demo replaced the username, password and URL of a login TestCase with TCPs so that the same case could be run for seven different demo users without creating seven TestCases.
 
@@ -59,7 +70,7 @@ The complete list is in the Tricentis documentation; these are the ones the vide
 | TBox | `SynchronizationTimeout` | How long Tosca waits for a control; has a default you can override |
 | TBox | `TargetDateFormat`, target time format | Date and time format used by the TestCase, see [Date expressions](/ToscaBase/expressions/date-expressions/) |
 | TBox (recovery engine) | TestStep retries, TestCase retries | How many times a step or a TestCase is retried |
-| Mobile | APM server, browser, device model, device name, live view, simulator | Mobile engine settings, covered in the mobile lessons |
+| Mobile | APM server, browser, device model, device name, live view, simulator | Mobile engine settings, see [Mobile automation](/ToscaBase/engines/mobile-automation/) |
 
 :::note
 The parameter names are read from a slide, not spelled out; only the ones shown in code above are confirmed in writing elsewhere in this knowledge base. Check the drop-down or the Tricentis documentation for the exact identifiers.

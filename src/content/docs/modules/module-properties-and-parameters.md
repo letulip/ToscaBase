@@ -13,6 +13,10 @@ sources:
     title: "TRICENTIS Tosca 16.0 - Lesson 15 | Apply Value Range | Rescan | Module Merge"
     url: https://www.youtube.com/watch?v=TuRpQ3aLCdw
     at: "09:30"
+  - id: UVziTWgMx5o
+    title: "TRICENTIS Tosca 16.0 - Lesson 53| OBSTACLE #11 | Add Random Number |Math Expression| UserSimulation|"
+    url: https://www.youtube.com/watch?v=UVziTWgMx5o
+    at: "11:51"
 ---
 
 Every Module and every ModuleAttribute carries a set of **properties** that XScan fills in when it scans, plus optional **parameters** that you or Tosca add to change how a control is found and steered. Both live in the **Properties** pane on the right of Commander (expand it with the arrow if collapsed). Some are read-only, some editable. Knowing them lets you fix a control that scans fine but does not steer, without rescanning.
@@ -75,7 +79,7 @@ Example from the source: on the `Username` attribute create `ExplicitName = True
 
 ### Steering parameters
 
-Create with **Create steering parameter**. Many are specific to Vision AI, SAP or mobile Modules; the general ones:
+Create with **Create steering parameter**. Lesson 53 of the Tosca 16 series shows it on a single control: right-click the `result` text box ModuleAttribute in the Module, choose **Create steering parameter**, name it `UserSimulation` (one word, capital S) with value `true`; a plain `Input` then fires the page's keyboard events without `{SENDKEYS}`. Many parameters are specific to Vision AI, SAP or mobile Modules; the general ones:
 
 | Parameter | Value | Effect |
 |---|---|---|

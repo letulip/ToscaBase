@@ -13,6 +13,10 @@ sources:
     title: "TRICENTIS Tosca 16.0 - Lesson 15 | Apply Value Range | Rescan | Module Merge"
     url: https://www.youtube.com/watch?v=TuRpQ3aLCdw
     at: "09:30"
+  - id: UVziTWgMx5o
+    title: "TRICENTIS Tosca 16.0 - Lesson 53| OBSTACLE #11 | Add Random Number |Math Expression| UserSimulation|"
+    url: https://www.youtube.com/watch?v=UVziTWgMx5o
+    at: "11:51"
 ---
 
 У каждого Module и каждого ModuleAttribute есть набор **свойств** (properties), которые XScan заполняет при сканировании, и необязательные **параметры** (parameters), которые добавляете вы или Tosca, чтобы изменить, как контрол ищется и управляется (steering). И те и другие живут в панели **Properties** справа в Commander (если она свёрнута, разверните стрелкой): выделите Module или атрибут — и панель их перечислит. Часть доступна только для чтения, часть редактируется. Знание этих настроек позволяет починить контрол, который сканируется нормально, но не управляется, без пересканирования. Имена чувствительны к регистру.
@@ -75,7 +79,7 @@ sources:
 
 ### Steering parameters
 
-Создаются через **Create steering parameter**. Многие специфичны для Vision AI, SAP или мобильных Module; общие:
+Создаются через **Create steering parameter**. Урок 53 серии Tosca 16 показывает это на одном контроле: правый щелчок по ModuleAttribute текстового поля `result` в Module — **Create steering parameter**, имя `UserSimulation` (одним словом, с заглавной S), значение `true`; после этого обычный `Input` вызывает клавиатурные события страницы без `{SENDKEYS}`. Многие параметры специфичны для Vision AI, SAP или мобильных Module; общие:
 
 | Параметр | Значение | Эффект |
 |---|---|---|

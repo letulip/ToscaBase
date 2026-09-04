@@ -33,6 +33,10 @@ sources:
     title: "TRICENTIS Tosca 16.0 - Lesson 53| OBSTACLE #11 | Add Random Number |Math Expression| UserSimulation|"
     url: https://www.youtube.com/watch?v=UVziTWgMx5o
     at: "06:25"
+  - id: vwha0eA3Mc0
+    title: "TRICENTIS Tosca 16.0 - Lesson 73 | OBSTACLE #31 | Select Random Combo Box Item| Random Text | Buffer"
+    url: https://www.youtube.com/watch?v=vwha0eA3Mc0
+    at: "01:14"
   - id: _FC8SPRlez0
     title: "TRICENTIS Tosca 16.0 - Lesson 55 | OBSTACLE #13 | Regex | Named Group | Extract Random Numbers"
     url: https://www.youtube.com/watch?v=_FC8SPRlez0
@@ -114,7 +118,7 @@ TestStepValue (значение шага теста) не обязано быт�
 | Select random text | Выпадающий список | **Select**, значение `{B[RND]}` |
 | Click submit | Кнопка Submit | клик (`X`) |
 
-Module перетаскивается четыре раза, по одному TestStep (шагу теста) на действие; рекомендация автора — одно действие или одно значение на шаг.
+Module перетаскивается четыре раза, по одному TestStep (шагу теста) на действие; рекомендация автора — одно действие или одно значение на шаг. В уроке 73 (препятствие 31) автор сначала буферизует свойство `InnerText`, а затем поправляет себя: сгенерированный текст находится в текстовом поле, поэтому шагу буферизации достаточно ActionMode `Buffer` и имени буфера в значении, без свойства.
 
 ### Извлечь несколько случайных чисел из случайной строки (именованные группы)
 

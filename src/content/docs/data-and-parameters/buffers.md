@@ -29,6 +29,10 @@ sources:
     title: "TRICENTIS Tosca 16.0 - Lesson 22 | Dynamic Comparison | XBuffer Syntax {XB}"
     url: https://www.youtube.com/watch?v=glZeQF7BWNo
     at: "01:03"
+  - id: uR569h8qSKg
+    title: "TRICENTIS Tosca 16.0 - Lesson 52 | OBSTACLE #10 | Extract Text | XBuffer | Dynamic Text"
+    url: https://www.youtube.com/watch?v=uR569h8qSKg
+    at: "01:17"
 ---
 
 A **Buffer** is Tosca's variable: a named value that a TestStep writes during execution and later TestSteps read back. It is the simplest of Tosca's parameterisation approaches (the others: [Test Configuration Parameters](/ToscaBase/data-and-parameters/test-configuration-parameters/), [Business Parameters](/ToscaBase/data-and-parameters/business-parameters-and-libraries/), TestCase-Design, [Test Data Services](/ToscaBase/data-and-parameters/test-data-services/)) and the standard way to carry a value the application generates, such as an order number or a total, from the screen where it appears to the screen where it is needed.
@@ -85,7 +89,7 @@ Scenario from the video: a success message reads "Purchase completed" followed b
 3. Set the ActionMode to **`Verify`** and, as the value, paste the message text with the amount replaced by `{XB[amount]}`.
 4. On the text box, ActionMode `Input`, value `{B[amount]}`.
 
-At run time the `Verify` step checks that the fixed text matches and stores whatever stands in the `{XB[amount]}` position in the buffer `amount`; the next step types it. The execution log shows both the verification and the input.
+At run time the `Verify` step checks that the fixed text matches and stores whatever stands in the `{XB[amount]}` position in the buffer `amount`; the next step types it. The execution log shows both the verification and the input. Lesson 52 (obstacle 10 of the Tosca 16 series) solves the same page identically and adds two details: rename the scanned message element to something stable such as `Purchase completed message`, because its text changes on every visit, and remember the mnemonic that `XB` *excludes* the dynamic part from the comparison and buffers it, whereas `B` only buffers.
 
 :::note
 The speaker calls the value at the amount position a "regular expression" but dictates only `{XB[amount]}`; the plain placeholder is enough here. Regular expressions in verifications are covered in [Intervals and verification expressions](/ToscaBase/expressions/intervals-and-verification-expressions/).

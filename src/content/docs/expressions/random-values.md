@@ -33,6 +33,10 @@ sources:
     title: "TRICENTIS Tosca 16.0 - Lesson 53| OBSTACLE #11 | Add Random Number |Math Expression| UserSimulation|"
     url: https://www.youtube.com/watch?v=UVziTWgMx5o
     at: "06:25"
+  - id: vwha0eA3Mc0
+    title: "TRICENTIS Tosca 16.0 - Lesson 73 | OBSTACLE #31 | Select Random Combo Box Item| Random Text | Buffer"
+    url: https://www.youtube.com/watch?v=vwha0eA3Mc0
+    at: "01:14"
   - id: _FC8SPRlez0
     title: "TRICENTIS Tosca 16.0 - Lesson 55 | OBSTACLE #13 | Regex | Named Group | Extract Random Numbers"
     url: https://www.youtube.com/watch?v=_FC8SPRlez0
@@ -114,7 +118,7 @@ A button generates a random string that is also one of the entries of a select b
 | Select random text | Select box | **Select**, value `{B[RND]}` |
 | Click submit | Submit button | click (`X`) |
 
-The Module is dragged in four times, one TestStep per action; the speaker's recommendation is a single action or value per TestStep.
+The Module is dragged in four times, one TestStep per action; the speaker's recommendation is a single action or value per TestStep. Lesson 73 (obstacle 31) first buffers the `InnerText` property and then corrects itself: the generated text sits in a text box, so the buffer step needs only ActionMode `Buffer` and the buffer name as value, no property.
 
 ### Extract several random numbers from a random string (named groups)
 
