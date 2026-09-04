@@ -1,0 +1,897 @@
+[
+ {
+  "start": 7.67,
+  "end": 7.68,
+  "text": "hey everyone welcome back to the store"
+ },
+ {
+  "start": 7.68,
+  "end": 9.83,
+  "text": "score automation playlist and today I am"
+ },
+ {
+  "start": 9.84,
+  "end": 11.629,
+  "text": "going to talk about another interesting"
+ },
+ {
+  "start": 11.639,
+  "end": 14.15,
+  "text": "topic uh which our feature which is"
+ },
+ {
+  "start": 14.16,
+  "end": 15.829,
+  "text": "available in Tosca"
+ },
+ {
+  "start": 15.839,
+  "end": 19.67,
+  "text": "now many a times uh we need to encode or"
+ },
+ {
+  "start": 19.68,
+  "end": 23.75,
+  "text": "decode some text or some value in our"
+ },
+ {
+  "start": 23.76,
+  "end": 26.269,
+  "text": "test automation suit right so something"
+ },
+ {
+  "start": 26.279,
+  "end": 29.75,
+  "text": "like the passwords the usernames or the"
+ },
+ {
+  "start": 29.76,
+  "end": 33.29,
+  "text": "environment details the DB password or"
+ },
+ {
+  "start": 33.3,
+  "end": 35.33,
+  "text": "the username right so there are many"
+ },
+ {
+  "start": 35.34,
+  "end": 37.91,
+  "text": "things which uh you probably need to"
+ },
+ {
+  "start": 37.92,
+  "end": 41.569,
+  "text": "encode or decode as part of your"
+ },
+ {
+  "start": 41.579,
+  "end": 44.33,
+  "text": "security concerns around the whole test"
+ },
+ {
+  "start": 44.34,
+  "end": 47.389,
+  "text": "automation suit or even maybe you need"
+ },
+ {
+  "start": 47.399,
+  "end": 50.869,
+  "text": "to encode or decode some test data right"
+ },
+ {
+  "start": 50.879,
+  "end": 54.59,
+  "text": "so in this kind of cases you can use one"
+ },
+ {
+  "start": 54.6,
+  "end": 56.93,
+  "text": "of the string operations uh which is"
+ },
+ {
+  "start": 56.94,
+  "end": 59.15,
+  "text": "available in Tosca"
+ },
+ {
+  "start": 59.16,
+  "end": 62.869,
+  "text": "to encode and decode any particular text"
+ },
+ {
+  "start": 62.879,
+  "end": 64.969,
+  "text": "so let me show you how you can do this"
+ },
+ {
+  "start": 64.979,
+  "end": 66.95,
+  "text": "in Tosca"
+ },
+ {
+  "start": 66.96,
+  "end": 69.71,
+  "text": "so for this purpose I'm going to use"
+ },
+ {
+  "start": 69.72,
+  "end": 73.13,
+  "text": "this particular page okay and it has got"
+ },
+ {
+  "start": 73.14,
+  "end": 75.789,
+  "text": "some username and password right"
+ },
+ {
+  "start": 75.799,
+  "end": 79.13,
+  "text": "and to login we need this username and"
+ },
+ {
+  "start": 79.14,
+  "end": 80.99,
+  "text": "password and what I'm going to do is I'm"
+ },
+ {
+  "start": 81.0,
+  "end": 84.95,
+  "text": "going to encode this username and encode"
+ },
+ {
+  "start": 84.96,
+  "end": 86.99,
+  "text": "this password and then I'm going to"
+ },
+ {
+  "start": 87.0,
+  "end": 89.09,
+  "text": "decode it okay"
+ },
+ {
+  "start": 89.1,
+  "end": 92.39,
+  "text": "so first of all what I have done I have"
+ },
+ {
+  "start": 92.4,
+  "end": 94.73,
+  "text": "stored this a username and password"
+ },
+ {
+  "start": 94.74,
+  "end": 97.55,
+  "text": "right here okay"
+ },
+ {
+  "start": 97.56,
+  "end": 100.13,
+  "text": "and it is stored in the configuration"
+ },
+ {
+  "start": 100.14,
+  "end": 102.429,
+  "text": "parameters for this particular test case"
+ },
+ {
+  "start": 102.439,
+  "end": 106.19,
+  "text": "so first of all I'm going to create a"
+ },
+ {
+  "start": 106.2,
+  "end": 108.95,
+  "text": "test step and I'm going to use the t-box"
+ },
+ {
+  "start": 108.96,
+  "end": 110.69,
+  "text": "set buffer"
+ },
+ {
+  "start": 110.7,
+  "end": 114.35,
+  "text": "okay so this will set a buffer value for"
+ },
+ {
+  "start": 114.36,
+  "end": 117.41,
+  "text": "the encoded values okay and I'm going to"
+ },
+ {
+  "start": 117.42,
+  "end": 123.17,
+  "text": "name this to encode underscore username"
+ },
+ {
+  "start": 123.18,
+  "end": 125.45,
+  "text": "and in this value we need to now write"
+ },
+ {
+  "start": 125.46,
+  "end": 127.37,
+  "text": "the expression which can basically"
+ },
+ {
+  "start": 127.38,
+  "end": 130.13,
+  "text": "encode a particular string which is in"
+ },
+ {
+  "start": 130.14,
+  "end": 133.07,
+  "text": "our case is a username okay"
+ },
+ {
+  "start": 133.08,
+  "end": 135.35,
+  "text": "so let me explain you what I have done"
+ },
+ {
+  "start": 135.36,
+  "end": 138.53,
+  "text": "here so we are using this base 64"
+ },
+ {
+  "start": 138.54,
+  "end": 141.77,
+  "text": "expression okay which basically allows"
+ },
+ {
+  "start": 141.78,
+  "end": 145.07,
+  "text": "us to encode that is also at the end of"
+ },
+ {
+  "start": 145.08,
+  "end": 147.41,
+  "text": "this expression there is a parameter"
+ },
+ {
+  "start": 147.42,
+  "end": 150.77,
+  "text": "called encode and what we want to encode"
+ },
+ {
+  "start": 150.78,
+  "end": 153.229,
+  "text": "so that's our text which is a"
+ },
+ {
+  "start": 153.239,
+  "end": 155.57,
+  "text": "configuration parameter in terms of the"
+ },
+ {
+  "start": 155.58,
+  "end": 158.449,
+  "text": "username okay so using this it is going"
+ },
+ {
+  "start": 158.459,
+  "end": 164.57,
+  "text": "to encode it in the base64 format okay"
+ },
+ {
+  "start": 172.369,
+  "end": 172.379,
+  "text": "uh what I need to do is just copy this"
+ },
+ {
+  "start": 172.379,
+  "end": 175.97,
+  "text": "or I can also type it but to just make"
+ },
+ {
+  "start": 175.98,
+  "end": 177.83,
+  "text": "it more faster I'll just copy it and"
+ },
+ {
+  "start": 177.84,
+  "end": 181.19,
+  "text": "change it to password"
+ },
+ {
+  "start": 182.63,
+  "end": 182.64,
+  "text": "okay"
+ },
+ {
+  "start": 182.64,
+  "end": 185.15,
+  "text": "so this is basically going to encode our"
+ },
+ {
+  "start": 185.16,
+  "end": 187.79,
+  "text": "username and password so let's quickly"
+ },
+ {
+  "start": 187.8,
+  "end": 193.85,
+  "text": "run this and see if it is working or not"
+ },
+ {
+  "start": 197.57,
+  "end": 197.58,
+  "text": "okay so the test has passed and now in"
+ },
+ {
+  "start": 197.58,
+  "end": 200.57,
+  "text": "the log info you will be able to see the"
+ },
+ {
+  "start": 200.58,
+  "end": 204.41,
+  "text": "encoded value of this username okay so"
+ },
+ {
+  "start": 204.42,
+  "end": 206.27,
+  "text": "this is the encoded value it's some"
+ },
+ {
+  "start": 206.28,
+  "end": 208.009,
+  "text": "random string which has been generated"
+ },
+ {
+  "start": 208.019,
+  "end": 210.35,
+  "text": "to basically mask the particular"
+ },
+ {
+  "start": 210.36,
+  "end": 213.35,
+  "text": "username okay so when this data travels"
+ },
+ {
+  "start": 213.36,
+  "end": 215.99,
+  "text": "over or when it is used for test"
+ },
+ {
+  "start": 216.0,
+  "end": 218.03,
+  "text": "automation you will be seeing this"
+ },
+ {
+  "start": 218.04,
+  "end": 220.369,
+  "text": "encoded username"
+ },
+ {
+  "start": 220.379,
+  "end": 223.49,
+  "text": "and then there is also encoded password"
+ },
+ {
+  "start": 223.5,
+  "end": 225.789,
+  "text": "so you don't need to actually show your"
+ },
+ {
+  "start": 225.799,
+  "end": 228.589,
+  "text": "actual password you can use this encoded"
+ },
+ {
+  "start": 228.599,
+  "end": 231.649,
+  "text": "password right"
+ },
+ {
+  "start": 234.649,
+  "end": 234.659,
+  "text": "um now in order to use it in a"
+ },
+ {
+  "start": 234.659,
+  "end": 236.809,
+  "text": "particular test right we need the actual"
+ },
+ {
+  "start": 236.819,
+  "end": 240.35,
+  "text": "values otherwise if I go ahead and use"
+ },
+ {
+  "start": 240.36,
+  "end": 242.69,
+  "text": "it in this particular login form it is"
+ },
+ {
+  "start": 242.7,
+  "end": 244.85,
+  "text": "probably going to fail right"
+ },
+ {
+  "start": 244.86,
+  "end": 249.77,
+  "text": "so uh for that again I can add the same"
+ },
+ {
+  "start": 249.78,
+  "end": 255.05,
+  "text": "test step which is t-box set buffer"
+ },
+ {
+  "start": 255.06,
+  "end": 258.949,
+  "text": "okay and then I'm going to name this"
+ },
+ {
+  "start": 258.959,
+  "end": 263.21,
+  "text": "buffer as decode user name"
+ },
+ {
+  "start": 263.22,
+  "end": 264.71,
+  "text": "and"
+ },
+ {
+  "start": 264.72,
+  "end": 268.55,
+  "text": "I will again have another one for decode"
+ },
+ {
+  "start": 268.56,
+  "end": 273.409,
+  "text": "password"
+ },
+ {
+  "start": 274.93,
+  "end": 274.94,
+  "text": "okay and"
+ },
+ {
+  "start": 274.94,
+  "end": 278.33,
+  "text": "the expression okay so it will be pretty"
+ },
+ {
+  "start": 278.34,
+  "end": 280.37,
+  "text": "much similar let me show you how you can"
+ },
+ {
+  "start": 280.38,
+  "end": 283.969,
+  "text": "write this so you write base64 and then"
+ },
+ {
+  "start": 283.979,
+  "end": 286.969,
+  "text": "you start the square brackets and under"
+ },
+ {
+  "start": 286.979,
+  "end": 288.95,
+  "text": "this we are not going to use the"
+ },
+ {
+  "start": 288.96,
+  "end": 291.35,
+  "text": "configuration parameter because we need"
+ },
+ {
+  "start": 291.36,
+  "end": 293.27,
+  "text": "to pass a string which is already"
+ },
+ {
+  "start": 293.28,
+  "end": 295.73,
+  "text": "encoded okay so we have to use this"
+ },
+ {
+  "start": 295.74,
+  "end": 298.67,
+  "text": "particular buffer so we'll use encode"
+ },
+ {
+  "start": 298.68,
+  "end": 302.87,
+  "text": "underscore username"
+ },
+ {
+  "start": 307.07,
+  "end": 307.08,
+  "text": "and then we need to pass the parameter"
+ },
+ {
+  "start": 307.08,
+  "end": 309.469,
+  "text": "decode here so that it will be decoded"
+ },
+ {
+  "start": 309.479,
+  "end": 311.09,
+  "text": "okay"
+ },
+ {
+  "start": 311.1,
+  "end": 314.45,
+  "text": "so that's what we have to do again for"
+ },
+ {
+  "start": 314.46,
+  "end": 321.35,
+  "text": "password we have to do the same"
+ },
+ {
+  "start": 323.689,
+  "end": 323.699,
+  "text": "and"
+ },
+ {
+  "start": 323.699,
+  "end": 326.27,
+  "text": "password okay"
+ },
+ {
+  "start": 326.28,
+  "end": 329.87,
+  "text": "uh so that's that's the thing that you"
+ },
+ {
+  "start": 329.88,
+  "end": 332.629,
+  "text": "need to do let's run this quickly to"
+ },
+ {
+  "start": 332.639,
+  "end": 341.93,
+  "text": "check whether it is working or not"
+ },
+ {
+  "start": 344.57,
+  "end": 344.58,
+  "text": "okay so it failed let's check what's"
+ },
+ {
+  "start": 344.58,
+  "end": 348.65,
+  "text": "wrong here"
+ },
+ {
+  "start": 349.909,
+  "end": 349.919,
+  "text": "okay"
+ },
+ {
+  "start": 349.919,
+  "end": 353.87,
+  "text": "um so instead of the buffer I used a"
+ },
+ {
+  "start": 353.88,
+  "end": 357.35,
+  "text": "text okay so which is not a encoded text"
+ },
+ {
+  "start": 357.36,
+  "end": 360.409,
+  "text": "so obviously that will fail so let me"
+ },
+ {
+  "start": 360.419,
+  "end": 363.77,
+  "text": "correct this uh be unders so we'll start"
+ },
+ {
+  "start": 363.78,
+  "end": 365.81,
+  "text": "with the buffer which is B and then"
+ },
+ {
+  "start": 365.82,
+  "end": 368.51,
+  "text": "square brackets and we will use the"
+ },
+ {
+  "start": 368.52,
+  "end": 372.11,
+  "text": "encode username here"
+ },
+ {
+  "start": 372.12,
+  "end": 376.189,
+  "text": "okay and then this"
+ },
+ {
+  "start": 376.199,
+  "end": 384.07,
+  "text": "the same we will do for password"
+ },
+ {
+  "start": 387.29,
+  "end": 387.3,
+  "text": "okay so let's try one more time this"
+ },
+ {
+  "start": 387.3,
+  "end": 390.77,
+  "text": "time it should pass"
+ },
+ {
+  "start": 395.689,
+  "end": 395.699,
+  "text": "okay so this is now going to decode our"
+ },
+ {
+  "start": 395.699,
+  "end": 399.17,
+  "text": "actual encoded username and password and"
+ },
+ {
+  "start": 399.18,
+  "end": 400.85,
+  "text": "it's going to return us the same value"
+ },
+ {
+  "start": 400.86,
+  "end": 402.65,
+  "text": "which we stored in the configuration"
+ },
+ {
+  "start": 402.66,
+  "end": 404.39,
+  "text": "parameter"
+ },
+ {
+  "start": 404.4,
+  "end": 406.189,
+  "text": "okay"
+ },
+ {
+  "start": 406.199,
+  "end": 409.249,
+  "text": "uh maybe I did not change this sorry"
+ },
+ {
+  "start": 409.259,
+  "end": 414.71,
+  "text": "about that let me change it to password"
+ },
+ {
+  "start": 428.87,
+  "end": 428.88,
+  "text": "okay so it has decoded the username and"
+ },
+ {
+  "start": 428.88,
+  "end": 431.51,
+  "text": "password and we have seen how it encodes"
+ },
+ {
+  "start": 431.52,
+  "end": 433.79,
+  "text": "the username and password now you will"
+ },
+ {
+  "start": 433.8,
+  "end": 435.89,
+  "text": "ask me uh why do we need to do this"
+ },
+ {
+  "start": 435.9,
+  "end": 439.07,
+  "text": "right so this is not uh the best"
+ },
+ {
+  "start": 439.08,
+  "end": 441.35,
+  "text": "possible example I could give you but I"
+ },
+ {
+  "start": 441.36,
+  "end": 443.15,
+  "text": "wanted to show you how you can encode"
+ },
+ {
+  "start": 443.16,
+  "end": 446.21,
+  "text": "and decode strings in Tosca this could"
+ },
+ {
+  "start": 446.22,
+  "end": 448.87,
+  "text": "be useful in some scenarios"
+ },
+ {
+  "start": 448.88,
+  "end": 451.49,
+  "text": "in real time scenario you would not be"
+ },
+ {
+  "start": 451.5,
+  "end": 454.01,
+  "text": "encoding and decoding the same strings"
+ },
+ {
+  "start": 454.02,
+  "end": 456.95,
+  "text": "in the same test probably you should"
+ },
+ {
+  "start": 456.96,
+  "end": 460.129,
+  "text": "have some encoded text okay which is"
+ },
+ {
+  "start": 460.139,
+  "end": 463.43,
+  "text": "maybe a buffer or some other value"
+ },
+ {
+  "start": 463.44,
+  "end": 466.37,
+  "text": "which has been provided to you and then"
+ },
+ {
+  "start": 466.38,
+  "end": 468.65,
+  "text": "you are going to use that in the test so"
+ },
+ {
+  "start": 468.66,
+  "end": 470.99,
+  "text": "at that time you can maybe use the"
+ },
+ {
+  "start": 471.0,
+  "end": 474.29,
+  "text": "decode function right and sometimes"
+ },
+ {
+  "start": 474.3,
+  "end": 475.129,
+  "text": "maybe"
+ },
+ {
+  "start": 475.139,
+  "end": 478.249,
+  "text": "um after you uh get some values from the"
+ },
+ {
+  "start": 478.259,
+  "end": 480.589,
+  "text": "application right maybe you are testing"
+ },
+ {
+  "start": 480.599,
+  "end": 482.21,
+  "text": "an application and the application has"
+ },
+ {
+  "start": 482.22,
+  "end": 485.39,
+  "text": "returned you some order ID or some"
+ },
+ {
+  "start": 485.4,
+  "end": 487.49,
+  "text": "um some customer information right which"
+ },
+ {
+  "start": 487.5,
+  "end": 490.43,
+  "text": "you need to encode and store it so that"
+ },
+ {
+  "start": 490.44,
+  "end": 492.29,
+  "text": "time you can use the encode function"
+ },
+ {
+  "start": 492.3,
+  "end": 495.23,
+  "text": "okay so don't take this example as"
+ },
+ {
+  "start": 495.24,
+  "end": 498.11,
+  "text": "literally what you need to do you need"
+ },
+ {
+  "start": 498.12,
+  "end": 501.409,
+  "text": "to apply this functions at different"
+ },
+ {
+  "start": 501.419,
+  "end": 504.23,
+  "text": "places okay so you need to apply and"
+ },
+ {
+  "start": 504.24,
+  "end": 506.33,
+  "text": "code where you want to encode a"
+ },
+ {
+  "start": 506.34,
+  "end": 508.129,
+  "text": "particular string and you need to apply"
+ },
+ {
+  "start": 508.139,
+  "end": 510.05,
+  "text": "the code when you want to decode a"
+ },
+ {
+  "start": 510.06,
+  "end": 513.949,
+  "text": "particular string okay so this I find it"
+ },
+ {
+  "start": 513.959,
+  "end": 516.769,
+  "text": "a very useful function because we need"
+ },
+ {
+  "start": 516.779,
+  "end": 519.35,
+  "text": "this at some places during test"
+ },
+ {
+  "start": 519.36,
+  "end": 521.449,
+  "text": "automation"
+ },
+ {
+  "start": 521.459,
+  "end": 523.07,
+  "text": "so that's all for this particular video"
+ },
+ {
+  "start": 523.08,
+  "end": 526.01,
+  "text": "I hope you liked it and you learned"
+ },
+ {
+  "start": 526.02,
+  "end": 527.93,
+  "text": "something new today if you have any"
+ },
+ {
+  "start": 527.94,
+  "end": 529.49,
+  "text": "questions please leave them in the"
+ },
+ {
+  "start": 529.5,
+  "end": 531.769,
+  "text": "comment section if you want to watch"
+ },
+ {
+  "start": 531.779,
+  "end": 534.23,
+  "text": "more similar videos please do subscribe"
+ },
+ {
+  "start": 534.24,
+  "end": 535.49,
+  "text": "to our Channel"
+ },
+ {
+  "start": 535.5,
+  "end": 538.31,
+  "text": "and until we meet again"
+ },
+ {
+  "start": 538.32,
+  "end": 540.829,
+  "text": "keep learning Tosca and keep watching"
+ },
+ {
+  "start": 540.839,
+  "end": 543.2,
+  "text": "our Channel"
+ }
+]

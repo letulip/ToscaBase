@@ -1,0 +1,597 @@
+[
+ {
+  "start": 12.509,
+  "end": 12.519,
+  "text": "hey everyone welcome back to our Channel"
+ },
+ {
+  "start": 12.519,
+  "end": 15.15,
+  "text": "I am back with another interesting topic"
+ },
+ {
+  "start": 15.16,
+  "end": 17.75,
+  "text": "in the TSA automation"
+ },
+ {
+  "start": 17.76,
+  "end": 20.87,
+  "text": "playlist so continuing with our topic on"
+ },
+ {
+  "start": 20.88,
+  "end": 23.429,
+  "text": "test automation obstacles with trient"
+ },
+ {
+  "start": 23.439,
+  "end": 26.269,
+  "text": "tosa let's look at our next obstacle"
+ },
+ {
+  "start": 26.279,
+  "end": 29.429,
+  "text": "which is called halfway now this is a"
+ },
+ {
+  "start": 29.439,
+  "end": 31.71,
+  "text": "pretty simple obstacle if you know how"
+ },
+ {
+  "start": 31.72,
+  "end": 34.91,
+  "text": "to um steer this particular control so"
+ },
+ {
+  "start": 34.92,
+  "end": 37.35,
+  "text": "here we need to click in the right half"
+ },
+ {
+  "start": 37.36,
+  "end": 39.67,
+  "text": "of the button so it's quite a long"
+ },
+ {
+  "start": 39.68,
+  "end": 43.029,
+  "text": "button and here we need to click it on"
+ },
+ {
+  "start": 43.039,
+  "end": 45.95,
+  "text": "the right half of this okay so if I"
+ },
+ {
+  "start": 45.96,
+  "end": 48.31,
+  "text": "click it here you will see that uh the"
+ },
+ {
+  "start": 48.32,
+  "end": 50.95,
+  "text": "automation obstacle is completed if I"
+ },
+ {
+  "start": 50.96,
+  "end": 53.79,
+  "text": "click here then nothing will happen Okay"
+ },
+ {
+  "start": 53.8,
+  "end": 56.67,
+  "text": "so this is what uh we need to do now in"
+ },
+ {
+  "start": 56.68,
+  "end": 59.31,
+  "text": "order to do this we need to use uh"
+ },
+ {
+  "start": 59.32,
+  "end": 61.79,
+  "text": "something called called offset for the"
+ },
+ {
+  "start": 61.8,
+  "end": 62.75,
+  "text": "click"
+ },
+ {
+  "start": 62.76,
+  "end": 65.91,
+  "text": "operation so what this particular offset"
+ },
+ {
+  "start": 65.92,
+  "end": 67.51,
+  "text": "is"
+ },
+ {
+  "start": 67.52,
+  "end": 71.23,
+  "text": "right so uh we can uh Define"
+ },
+ {
+  "start": 71.24,
+  "end": 74.71,
+  "text": "offsets for two types of Click"
+ },
+ {
+  "start": 74.72,
+  "end": 79.23,
+  "text": "operations okay and these are for the"
+ },
+ {
+  "start": 79.24,
+  "end": 87.789,
+  "text": "click method and also for the long click"
+ },
+ {
+  "start": 90.83,
+  "end": 90.84,
+  "text": "method okay so uh we know already uh"
+ },
+ {
+  "start": 90.84,
+  "end": 93.19,
+  "text": "what the click operation does the long"
+ },
+ {
+  "start": 93.2,
+  "end": 96.59,
+  "text": "click using this particular uh operation"
+ },
+ {
+  "start": 96.6,
+  "end": 99.23,
+  "text": "you can basically click with your left"
+ },
+ {
+  "start": 99.24,
+  "end": 102.27,
+  "text": "Mouse click and it will remain for at"
+ },
+ {
+  "start": 102.28,
+  "end": 106.429,
+  "text": "least 2 seconds okay so if you want uh"
+ },
+ {
+  "start": 106.439,
+  "end": 108.23,
+  "text": "to click on a button for a longer amount"
+ },
+ {
+  "start": 108.24,
+  "end": 111.109,
+  "text": "of time then you can use this long click"
+ },
+ {
+  "start": 111.119,
+  "end": 113.31,
+  "text": "and then we can also Define offset for"
+ },
+ {
+  "start": 113.32,
+  "end": 115.749,
+  "text": "both of this click operations for"
+ },
+ {
+  "start": 115.759,
+  "end": 119.19,
+  "text": "clicking and also long clicking right"
+ },
+ {
+  "start": 119.2,
+  "end": 122.23,
+  "text": "now this opt ET uh syntax how you can do"
+ },
+ {
+  "start": 122.24,
+  "end": 125.27,
+  "text": "this is you need to first right click"
+ },
+ {
+  "start": 125.28,
+  "end": 128.07,
+  "text": "okay and then you need to mention uh"
+ },
+ {
+  "start": 128.08,
+  "end": 130.99,
+  "text": "either the offset horizontal or offset"
+ },
+ {
+  "start": 131.0,
+  "end": 134.55,
+  "text": "vertical okay so this is basically a"
+ },
+ {
+  "start": 134.56,
+  "end": 136.39,
+  "text": "offset position either in your"
+ },
+ {
+  "start": 136.4,
+  "end": 140.79,
+  "text": "horizontal axis or in the vertical axis"
+ },
+ {
+  "start": 140.8,
+  "end": 148.229,
+  "text": "okay so this is how the syntax looks"
+ },
+ {
+  "start": 152.71,
+  "end": 152.72,
+  "text": "like now um how can we uh basically use"
+ },
+ {
+  "start": 152.72,
+  "end": 156.509,
+  "text": "this here right so since we have to uh"
+ },
+ {
+  "start": 156.519,
+  "end": 158.75,
+  "text": "click on the right hand side of this"
+ },
+ {
+  "start": 158.76,
+  "end": 162.509,
+  "text": "particular button we can provide um"
+ },
+ {
+  "start": 162.519,
+  "end": 167.27,
+  "text": "either an offset in terms of pixels okay"
+ },
+ {
+  "start": 167.28,
+  "end": 170.55,
+  "text": "or uh we can also provide it in uh terms"
+ },
+ {
+  "start": 170.56,
+  "end": 174.75,
+  "text": "of percentage okay so in this case uh we"
+ },
+ {
+  "start": 174.76,
+  "end": 178.19,
+  "text": "will go ahead and uh we will try to use"
+ },
+ {
+  "start": 178.2,
+  "end": 180.83,
+  "text": "um percentage"
+ },
+ {
+  "start": 180.84,
+  "end": 184.39,
+  "text": "so that we can click on the right half"
+ },
+ {
+  "start": 184.4,
+  "end": 186.43,
+  "text": "of this particular button so let's see"
+ },
+ {
+  "start": 186.44,
+  "end": 188.03,
+  "text": "how we can do this in"
+ },
+ {
+  "start": 188.04,
+  "end": 191.789,
+  "text": "tosa okay so uh first let's create our"
+ },
+ {
+  "start": 191.799,
+  "end": 195.55,
+  "text": "module here so we'll scan the module as"
+ },
+ {
+  "start": 195.56,
+  "end": 199.35,
+  "text": "usual we'll go to obstacles folder and"
+ },
+ {
+  "start": 199.36,
+  "end": 205.869,
+  "text": "go to scan"
+ },
+ {
+  "start": 208.83,
+  "end": 208.84,
+  "text": "application so here I just need to uh"
+ },
+ {
+  "start": 208.84,
+  "end": 210.91,
+  "text": "scan this particular control which is"
+ },
+ {
+  "start": 210.92,
+  "end": 214.39,
+  "text": "the button itself and then um I am going"
+ },
+ {
+  "start": 214.4,
+  "end": 223.03,
+  "text": "to close this and save this"
+ },
+ {
+  "start": 226.47,
+  "end": 226.48,
+  "text": "module okay um so now uh we can create"
+ },
+ {
+  "start": 226.48,
+  "end": 228.789,
+  "text": "our test case to automate this"
+ },
+ {
+  "start": 228.799,
+  "end": 232.63,
+  "text": "particular step so we will create a new"
+ },
+ {
+  "start": 232.64,
+  "end": 235.99,
+  "text": "test case"
+ },
+ {
+  "start": 239.429,
+  "end": 239.439,
+  "text": "here and then uh I'm going to add that"
+ },
+ {
+  "start": 239.439,
+  "end": 242.91,
+  "text": "particular particular module right"
+ },
+ {
+  "start": 242.92,
+  "end": 245.39,
+  "text": "here okay as I said uh it's a pretty"
+ },
+ {
+  "start": 245.4,
+  "end": 248.11,
+  "text": "simple one um we just need to make sure"
+ },
+ {
+  "start": 248.12,
+  "end": 251.069,
+  "text": "that we are using the offset here okay"
+ },
+ {
+  "start": 251.079,
+  "end": 254.75,
+  "text": "instead of simple click"
+ },
+ {
+  "start": 254.76,
+  "end": 257.069,
+  "text": "operation so here uh we are going to"
+ },
+ {
+  "start": 257.079,
+  "end": 259.509,
+  "text": "write the expression uh as I said we"
+ },
+ {
+  "start": 259.519,
+  "end": 262.59,
+  "text": "have to use the click operation but then"
+ },
+ {
+  "start": 262.6,
+  "end": 265.749,
+  "text": "inside this uh we need to mention the"
+ },
+ {
+  "start": 265.759,
+  "end": 269.11,
+  "text": "offset okay and uh what I'm going to do"
+ },
+ {
+  "start": 269.12,
+  "end": 272.029,
+  "text": "is I'm going to mention something like"
+ },
+ {
+  "start": 272.039,
+  "end": 276.11,
+  "text": "90% okay so uh what it will do is uh it"
+ },
+ {
+  "start": 276.12,
+  "end": 279.59,
+  "text": "will try to uh click on the right hand"
+ },
+ {
+  "start": 279.6,
+  "end": 283.189,
+  "text": "side of uh the button okay to complete"
+ },
+ {
+  "start": 283.199,
+  "end": 286.39,
+  "text": "this particular obstacle so let's go"
+ },
+ {
+  "start": 286.4,
+  "end": 288.59,
+  "text": "ahead and Mark it as"
+ },
+ {
+  "start": 288.6,
+  "end": 292.11,
+  "text": "completed and then um let's go ahead and"
+ },
+ {
+  "start": 292.12,
+  "end": 297.31,
+  "text": "try to run"
+ },
+ {
+  "start": 300.07,
+  "end": 300.08,
+  "text": "this okay so as you can see it is trying"
+ },
+ {
+  "start": 300.08,
+  "end": 303.31,
+  "text": "to click on the uh right hand corner of"
+ },
+ {
+  "start": 303.32,
+  "end": 305.27,
+  "text": "this particular button which will be"
+ },
+ {
+  "start": 305.28,
+  "end": 308.87,
+  "text": "like an uh percentage of uh the complete"
+ },
+ {
+  "start": 308.88,
+  "end": 311.51,
+  "text": "area of the button and I am clicking on"
+ },
+ {
+  "start": 311.52,
+  "end": 313.67,
+  "text": "the 90 percentage which is more on the"
+ },
+ {
+  "start": 313.68,
+  "end": 315.749,
+  "text": "right hand side if you want to click on"
+ },
+ {
+  "start": 315.759,
+  "end": 318.39,
+  "text": "the left hand side then it will be more"
+ },
+ {
+  "start": 318.4,
+  "end": 320.59,
+  "text": "of uh in the range of 10 to 50"
+ },
+ {
+  "start": 320.6,
+  "end": 322.71,
+  "text": "percentage and if you want to just click"
+ },
+ {
+  "start": 322.72,
+  "end": 325.189,
+  "text": "on the center then you can directly use"
+ },
+ {
+  "start": 325.199,
+  "end": 327.67,
+  "text": "uh the normal click operation it will be"
+ },
+ {
+  "start": 327.68,
+  "end": 329.87,
+  "text": "enough to click on that particular"
+ },
+ {
+  "start": 329.88,
+  "end": 333.11,
+  "text": "button so the same offset operation can"
+ },
+ {
+  "start": 333.12,
+  "end": 336.27,
+  "text": "also be applied to the long click method"
+ },
+ {
+  "start": 336.28,
+  "end": 338.71,
+  "text": "uh these are for buttons where you have"
+ },
+ {
+  "start": 338.72,
+  "end": 340.83,
+  "text": "problems clicking on it or it takes more"
+ },
+ {
+  "start": 340.84,
+  "end": 342.83,
+  "text": "time to click on those particular"
+ },
+ {
+  "start": 342.84,
+  "end": 345.029,
+  "text": "buttons or you have to click on a"
+ },
+ {
+  "start": 345.039,
+  "end": 347.83,
+  "text": "particular position of any particular uh"
+ },
+ {
+  "start": 347.84,
+  "end": 350.95,
+  "text": "button or a link right so this is how"
+ },
+ {
+  "start": 350.96,
+  "end": 354.23,
+  "text": "you can use the offset uh position on"
+ },
+ {
+  "start": 354.24,
+  "end": 356.55,
+  "text": "your click operations to solve this"
+ },
+ {
+  "start": 356.56,
+  "end": 358.469,
+  "text": "particular automation"
+ },
+ {
+  "start": 358.479,
+  "end": 361.029,
+  "text": "problem that's all for this particular"
+ },
+ {
+  "start": 361.039,
+  "end": 363.43,
+  "text": "video if you have any questions then"
+ },
+ {
+  "start": 363.44,
+  "end": 365.909,
+  "text": "please leave it in the comments if you"
+ },
+ {
+  "start": 365.919,
+  "end": 367.87,
+  "text": "like this video then please subscribe to"
+ },
+ {
+  "start": 367.88,
+  "end": 370.589,
+  "text": "our Channel thanks for watching and I"
+ },
+ {
+  "start": 370.599,
+  "end": 372.95,
+  "text": "will see you in the next"
+ },
+ {
+  "start": 372.96,
+  "end": 375.96,
+  "text": "video"
+ }
+]

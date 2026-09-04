@@ -1,0 +1,1052 @@
+[
+ {
+  "start": 11.33,
+  "end": 11.34,
+  "text": "welcome back uh so in this session we"
+ },
+ {
+  "start": 11.34,
+  "end": 13.49,
+  "text": "are going to talk about some additional"
+ },
+ {
+  "start": 13.5,
+  "end": 15.829,
+  "text": "topics and we are going to talk about"
+ },
+ {
+  "start": 15.839,
+  "end": 18.83,
+  "text": "the t-box automation modules"
+ },
+ {
+  "start": 18.84,
+  "end": 21.65,
+  "text": "now there are several automation modules"
+ },
+ {
+  "start": 21.66,
+  "end": 23.75,
+  "text": "which are present in the standard subset"
+ },
+ {
+  "start": 23.76,
+  "end": 28.13,
+  "text": "provided by Tosca and you can use them"
+ },
+ {
+  "start": 28.14,
+  "end": 32.749,
+  "text": "for many General operations when you are"
+ },
+ {
+  "start": 32.759,
+  "end": 35.33,
+  "text": "working with your test cases so these"
+ },
+ {
+  "start": 35.34,
+  "end": 37.31,
+  "text": "are kind of a library which is available"
+ },
+ {
+  "start": 37.32,
+  "end": 39.709,
+  "text": "to you and you don't need to write any"
+ },
+ {
+  "start": 39.719,
+  "end": 42.889,
+  "text": "additional tests for performing all"
+ },
+ {
+  "start": 42.899,
+  "end": 45.53,
+  "text": "these operations now we are going to"
+ },
+ {
+  "start": 45.54,
+  "end": 48.41,
+  "text": "talk about some file operations folder"
+ },
+ {
+  "start": 48.42,
+  "end": 51.709,
+  "text": "operations uh numeric operations and"
+ },
+ {
+  "start": 51.719,
+  "end": 54.35,
+  "text": "some process operations which are"
+ },
+ {
+  "start": 54.36,
+  "end": 57.65,
+  "text": "available in Tosca t-box automation"
+ },
+ {
+  "start": 57.66,
+  "end": 59.15,
+  "text": "module"
+ },
+ {
+  "start": 59.16,
+  "end": 62.689,
+  "text": "so uh let's get started uh first with"
+ },
+ {
+  "start": 62.699,
+  "end": 65.27,
+  "text": "the file operations so for that I have"
+ },
+ {
+  "start": 65.28,
+  "end": 67.67,
+  "text": "created a folder in my test cases t-box"
+ },
+ {
+  "start": 67.68,
+  "end": 68.87,
+  "text": "modules"
+ },
+ {
+  "start": 68.88,
+  "end": 71.75,
+  "text": "and in this um I'm going to create"
+ },
+ {
+  "start": 71.76,
+  "end": 78.83,
+  "text": "another folder called file operations"
+ },
+ {
+  "start": 81.71,
+  "end": 81.72,
+  "text": "okay so inside this we are going to see"
+ },
+ {
+  "start": 81.72,
+  "end": 84.23,
+  "text": "many operations which you can perform on"
+ },
+ {
+  "start": 84.24,
+  "end": 86.57,
+  "text": "different files using this dbox"
+ },
+ {
+  "start": 86.58,
+  "end": 89.99,
+  "text": "automation modules okay so uh we'll"
+ },
+ {
+  "start": 90.0,
+  "end": 93.05,
+  "text": "first start with image compare how you"
+ },
+ {
+  "start": 93.06,
+  "end": 95.929,
+  "text": "can compare two images right so t-box"
+ },
+ {
+  "start": 95.939,
+  "end": 100.01,
+  "text": "has provided a module for it and we can"
+ },
+ {
+  "start": 100.02,
+  "end": 104.03,
+  "text": "use that so let's add a test case here"
+ },
+ {
+  "start": 104.04,
+  "end": 108.71,
+  "text": "and we'll say it compare images"
+ },
+ {
+  "start": 108.72,
+  "end": 110.09,
+  "text": "okay"
+ },
+ {
+  "start": 110.1,
+  "end": 113.149,
+  "text": "and then I'm going to add a desktop"
+ },
+ {
+  "start": 113.159,
+  "end": 115.37,
+  "text": "which is nothing but a module so I'm"
+ },
+ {
+  "start": 115.38,
+  "end": 119.33,
+  "text": "going to search t-box image compare okay"
+ },
+ {
+  "start": 119.34,
+  "end": 122.149,
+  "text": "so that's the module"
+ },
+ {
+  "start": 122.159,
+  "end": 124.67,
+  "text": "and once you add them you will see uh"
+ },
+ {
+  "start": 124.68,
+  "end": 126.889,
+  "text": "you just need to provide uh two things"
+ },
+ {
+  "start": 126.899,
+  "end": 129.229,
+  "text": "here first image file path and second"
+ },
+ {
+  "start": 129.239,
+  "end": 133.01,
+  "text": "image file path okay so either you can"
+ },
+ {
+  "start": 133.02,
+  "end": 135.71,
+  "text": "browse it or you can directly copy paste"
+ },
+ {
+  "start": 135.72,
+  "end": 137.089,
+  "text": "the path"
+ },
+ {
+  "start": 137.099,
+  "end": 140.809,
+  "text": "so I'm going to browse the path I have a"
+ },
+ {
+  "start": 140.819,
+  "end": 142.55,
+  "text": "folder where I have two images you can"
+ },
+ {
+  "start": 142.56,
+  "end": 144.949,
+  "text": "see right both look different"
+ },
+ {
+  "start": 144.959,
+  "end": 148.61,
+  "text": "so I'm going to compare these two images"
+ },
+ {
+  "start": 148.62,
+  "end": 151.49,
+  "text": "using this particular module"
+ },
+ {
+  "start": 151.5,
+  "end": 155.03,
+  "text": "okay so that's all we need to do here"
+ },
+ {
+  "start": 155.04,
+  "end": 158.75,
+  "text": "and then I can directly go ahead and run"
+ },
+ {
+  "start": 158.76,
+  "end": 173.509,
+  "text": "this in scratchbook"
+ },
+ {
+  "start": 175.91,
+  "end": 175.92,
+  "text": "okay as expected uh the verification"
+ },
+ {
+  "start": 175.92,
+  "end": 179.27,
+  "text": "field uh because the images were not"
+ },
+ {
+  "start": 179.28,
+  "end": 181.43,
+  "text": "same right so that was the expected"
+ },
+ {
+  "start": 181.44,
+  "end": 183.65,
+  "text": "result"
+ },
+ {
+  "start": 183.66,
+  "end": 186.83,
+  "text": "and moving on to our next uh t-box"
+ },
+ {
+  "start": 186.84,
+  "end": 189.949,
+  "text": "module uh and that is on how you can"
+ },
+ {
+  "start": 189.959,
+  "end": 192.229,
+  "text": "create different files uh in a"
+ },
+ {
+  "start": 192.239,
+  "end": 195.05,
+  "text": "particular folder using the t-box module"
+ },
+ {
+  "start": 195.06,
+  "end": 199.67,
+  "text": "right so let's call it create files"
+ },
+ {
+  "start": 199.68,
+  "end": 201.29,
+  "text": "okay"
+ },
+ {
+  "start": 201.3,
+  "end": 204.89,
+  "text": "and then I'm going to add the test step"
+ },
+ {
+  "start": 204.9,
+  "end": 209.17,
+  "text": "so let's search for t-box create"
+ },
+ {
+  "start": 209.18,
+  "end": 212.33,
+  "text": "and that's the third one t-box read"
+ },
+ {
+  "start": 212.34,
+  "end": 214.79,
+  "text": "create file so you can use the same"
+ },
+ {
+  "start": 214.8,
+  "end": 219.229,
+  "text": "module to read or create new files okay"
+ },
+ {
+  "start": 219.239,
+  "end": 222.53,
+  "text": "so let's select the directory"
+ },
+ {
+  "start": 222.54,
+  "end": 224.39,
+  "text": "um I will use the same directory which I"
+ },
+ {
+  "start": 224.4,
+  "end": 225.71,
+  "text": "have created"
+ },
+ {
+  "start": 225.72,
+  "end": 226.97,
+  "text": "so"
+ },
+ {
+  "start": 226.98,
+  "end": 230.809,
+  "text": "this one and then we have to give a file"
+ },
+ {
+  "start": 230.819,
+  "end": 234.05,
+  "text": "name here okay so it is the name of the"
+ },
+ {
+  "start": 234.06,
+  "end": 239.39,
+  "text": "file so I am calling it test1 dot txt"
+ },
+ {
+  "start": 239.4,
+  "end": 241.61,
+  "text": "and what text do you require in this"
+ },
+ {
+  "start": 241.62,
+  "end": 243.89,
+  "text": "particular file you can even create that"
+ },
+ {
+  "start": 243.9,
+  "end": 245.75,
+  "text": "or you can write it to the text file"
+ },
+ {
+  "start": 245.76,
+  "end": 246.97,
+  "text": "okay"
+ },
+ {
+  "start": 246.98,
+  "end": 252.589,
+  "text": "so I will call it this is a test"
+ },
+ {
+  "start": 252.599,
+  "end": 256.31,
+  "text": "right for creating"
+ },
+ {
+  "start": 256.32,
+  "end": 260.09,
+  "text": "files"
+ },
+ {
+  "start": 263.15,
+  "end": 263.16,
+  "text": "and then we have to provide uh encoding"
+ },
+ {
+  "start": 263.16,
+  "end": 266.33,
+  "text": "so you can either provide utf-8 or"
+ },
+ {
+  "start": 266.34,
+  "end": 268.79,
+  "text": "utf-16 okay"
+ },
+ {
+  "start": 268.8,
+  "end": 271.909,
+  "text": "so let's go with utf-8 override I will"
+ },
+ {
+  "start": 271.919,
+  "end": 275.27,
+  "text": "set it to true and add byte auto mark I"
+ },
+ {
+  "start": 275.28,
+  "end": 276.77,
+  "text": "will set it to true"
+ },
+ {
+  "start": 276.78,
+  "end": 279.11,
+  "text": "okay"
+ },
+ {
+  "start": 279.12,
+  "end": 282.89,
+  "text": "so these are the values which you need"
+ },
+ {
+  "start": 282.9,
+  "end": 285.53,
+  "text": "to provide when you are going ahead and"
+ },
+ {
+  "start": 285.54,
+  "end": 289.129,
+  "text": "adding this particular module okay"
+ },
+ {
+  "start": 289.139,
+  "end": 297.11,
+  "text": "um and let's go ahead and run this now"
+ },
+ {
+  "start": 299.27,
+  "end": 299.28,
+  "text": "and once it is finished you will see uh"
+ },
+ {
+  "start": 299.28,
+  "end": 301.909,
+  "text": "it has created a test one file in this"
+ },
+ {
+  "start": 301.919,
+  "end": 304.909,
+  "text": "particular folder right scratchbook will"
+ },
+ {
+  "start": 304.919,
+  "end": 307.909,
+  "text": "show the past result and as you can see"
+ },
+ {
+  "start": 307.919,
+  "end": 309.95,
+  "text": "the folder where we have given the"
+ },
+ {
+  "start": 309.96,
+  "end": 311.21,
+  "text": "location as"
+ },
+ {
+  "start": 311.22,
+  "end": 314.21,
+  "text": "it has created a file with the text what"
+ },
+ {
+  "start": 314.22,
+  "end": 317.09,
+  "text": "we have provided right so it's easy to"
+ },
+ {
+  "start": 317.1,
+  "end": 320.09,
+  "text": "create any particular file using this"
+ },
+ {
+  "start": 320.1,
+  "end": 322.73,
+  "text": "right"
+ },
+ {
+  "start": 327.29,
+  "end": 327.3,
+  "text": "and let's go ahead and see what other"
+ },
+ {
+  "start": 327.3,
+  "end": 330.79,
+  "text": "modules are present for uh the t-box"
+ },
+ {
+  "start": 330.8,
+  "end": 333.409,
+  "text": "automation module for file operations"
+ },
+ {
+  "start": 333.419,
+  "end": 335.029,
+  "text": "right"
+ },
+ {
+  "start": 335.039,
+  "end": 338.629,
+  "text": "so the next automation module which I"
+ },
+ {
+  "start": 338.639,
+  "end": 341.45,
+  "text": "can use is copy file right so now I have"
+ },
+ {
+  "start": 341.46,
+  "end": 344.21,
+  "text": "created a file let's see how we can copy"
+ },
+ {
+  "start": 344.22,
+  "end": 347.99,
+  "text": "file using this t-box module so again"
+ },
+ {
+  "start": 348.0,
+  "end": 350.83,
+  "text": "um let me search for t-box copy file"
+ },
+ {
+  "start": 350.84,
+  "end": 355.31,
+  "text": "okay and I can give a source and a"
+ },
+ {
+  "start": 355.32,
+  "end": 359.27,
+  "text": "Target directory right so"
+ },
+ {
+  "start": 359.28,
+  "end": 363.65,
+  "text": "let's take this as the source okay and"
+ },
+ {
+  "start": 363.66,
+  "end": 367.01,
+  "text": "then let's"
+ },
+ {
+  "start": 370.07,
+  "end": 370.08,
+  "text": "go ahead and let's copy this into some"
+ },
+ {
+  "start": 370.08,
+  "end": 373.01,
+  "text": "other folder Okay so"
+ },
+ {
+  "start": 373.02,
+  "end": 382.189,
+  "text": "let's go into C samples"
+ },
+ {
+  "start": 385.55,
+  "end": 385.56,
+  "text": "and then uh I have to give a Target file"
+ },
+ {
+  "start": 385.56,
+  "end": 391.37,
+  "text": "name okay so I'll call it test2 dot txt"
+ },
+ {
+  "start": 393.83,
+  "end": 393.84,
+  "text": "and override I will set it to true"
+ },
+ {
+  "start": 393.84,
+  "end": 395.27,
+  "text": "right"
+ },
+ {
+  "start": 395.28,
+  "end": 408.95,
+  "text": "okay so let's go ahead and run this"
+ },
+ {
+  "start": 412.189,
+  "end": 412.199,
+  "text": "right let's uh go ahead and check this"
+ },
+ {
+  "start": 412.199,
+  "end": 415.07,
+  "text": "now I am in the C samples folder as you"
+ },
+ {
+  "start": 415.08,
+  "end": 419.27,
+  "text": "can see and now I can see that a test 2"
+ },
+ {
+  "start": 419.28,
+  "end": 422.09,
+  "text": "file has been created here okay"
+ },
+ {
+  "start": 422.1,
+  "end": 424.61,
+  "text": "so that's how you can copy any"
+ },
+ {
+  "start": 424.62,
+  "end": 426.95,
+  "text": "particular file not only txt files you"
+ },
+ {
+  "start": 426.96,
+  "end": 429.11,
+  "text": "can also copy XML files right so any"
+ },
+ {
+  "start": 429.12,
+  "end": 432.469,
+  "text": "files uh within your directories"
+ },
+ {
+  "start": 432.479,
+  "end": 436.07,
+  "text": "and now uh let's see how we can compare"
+ },
+ {
+  "start": 436.08,
+  "end": 438.71,
+  "text": "to particular files using our t-box"
+ },
+ {
+  "start": 438.72,
+  "end": 440.99,
+  "text": "module right so this could be useful"
+ },
+ {
+  "start": 441.0,
+  "end": 443.629,
+  "text": "whenever you are trying to compare files"
+ },
+ {
+  "start": 443.639,
+  "end": 446.15,
+  "text": "right Force whether they have the same"
+ },
+ {
+  "start": 446.16,
+  "end": 448.249,
+  "text": "content or not it's a very common"
+ },
+ {
+  "start": 448.259,
+  "end": 450.529,
+  "text": "scenario in your test cases"
+ },
+ {
+  "start": 450.539,
+  "end": 453.77,
+  "text": "so this could be uh very useful right so"
+ },
+ {
+  "start": 453.78,
+  "end": 457.49,
+  "text": "let's see t-box compare file compare"
+ },
+ {
+  "start": 457.5,
+  "end": 460.61,
+  "text": "okay similar to what we have for images"
+ },
+ {
+  "start": 460.62,
+  "end": 464.51,
+  "text": "this is for files okay"
+ },
+ {
+  "start": 464.52,
+  "end": 467.27,
+  "text": "so I need to give a"
+ },
+ {
+  "start": 467.28,
+  "end": 469.85,
+  "text": "first file path and the second file path"
+ },
+ {
+  "start": 469.86,
+  "end": 472.969,
+  "text": "okay so let's copy this particular file"
+ },
+ {
+  "start": 472.979,
+  "end": 475.85,
+  "text": "and create a new file here right so that"
+ },
+ {
+  "start": 475.86,
+  "end": 477.35,
+  "text": "we can test it"
+ },
+ {
+  "start": 477.36,
+  "end": 480.77,
+  "text": "and let's go ahead with the same content"
+ },
+ {
+  "start": 480.78,
+  "end": 482.93,
+  "text": "here"
+ },
+ {
+  "start": 482.94,
+  "end": 485.809,
+  "text": "and let's rename this file to test two"
+ },
+ {
+  "start": 485.819,
+  "end": 487.49,
+  "text": "okay"
+ },
+ {
+  "start": 487.5,
+  "end": 489.95,
+  "text": "so let's compare these two files now"
+ },
+ {
+  "start": 489.96,
+  "end": 492.95,
+  "text": "test one and"
+ },
+ {
+  "start": 492.96,
+  "end": 496.87,
+  "text": "test two"
+ },
+ {
+  "start": 504.11,
+  "end": 504.12,
+  "text": "and we will keep this as the same folder"
+ },
+ {
+  "start": 504.12,
+  "end": 507.89,
+  "text": "so C"
+ },
+ {
+  "start": 507.9,
+  "end": 512.029,
+  "text": "and training okay"
+ },
+ {
+  "start": 512.039,
+  "end": 528.65,
+  "text": "so let's go ahead and run this now"
+ },
+ {
+  "start": 531.29,
+  "end": 531.3,
+  "text": "right uh so in the log info you can see"
+ },
+ {
+  "start": 531.3,
+  "end": 533.21,
+  "text": "it is showing that contents of the file"
+ },
+ {
+  "start": 533.22,
+  "end": 537.35,
+  "text": "are identical right so we can also go"
+ },
+ {
+  "start": 537.36,
+  "end": 538.49,
+  "text": "here"
+ },
+ {
+  "start": 538.5,
+  "end": 541.009,
+  "text": "okay so as you notice uh there is no"
+ },
+ {
+  "start": 541.019,
+  "end": 543.17,
+  "text": "report file generated because put the"
+ },
+ {
+  "start": 543.18,
+  "end": 545.99,
+  "text": "content are same right so let's go ahead"
+ },
+ {
+  "start": 546.0,
+  "end": 548.75,
+  "text": "and change uh something in our test1"
+ },
+ {
+  "start": 548.76,
+  "end": 549.71,
+  "text": "file"
+ },
+ {
+  "start": 549.72,
+  "end": 552.47,
+  "text": "right and save it"
+ },
+ {
+  "start": 552.48,
+  "end": 556.13,
+  "text": "okay so let's go ahead and run this"
+ },
+ {
+  "start": 556.14,
+  "end": 558.29,
+  "text": "again and this time around we should see"
+ },
+ {
+  "start": 558.3,
+  "end": 560.93,
+  "text": "some reports saying that it's not"
+ },
+ {
+  "start": 560.94,
+  "end": 564.71,
+  "text": "matching and what's the difference okay"
+ },
+ {
+  "start": 564.72,
+  "end": 568.07,
+  "text": "obviously the test case will fail"
+ },
+ {
+  "start": 568.08,
+  "end": 571.13,
+  "text": "because the verification has failed okay"
+ },
+ {
+  "start": 571.14,
+  "end": 573.23,
+  "text": "but let's go ahead and check the report"
+ },
+ {
+  "start": 573.24,
+  "end": 577.73,
+  "text": "so you can see uh it's a HTML report"
+ },
+ {
+  "start": 577.74,
+  "end": 581.15,
+  "text": "and uh it will show you uh something"
+ },
+ {
+  "start": 581.16,
+  "end": 583.79,
+  "text": "highlighted in red that this is what is"
+ },
+ {
+  "start": 583.8,
+  "end": 585.949,
+  "text": "not matching okay"
+ },
+ {
+  "start": 585.959,
+  "end": 588.37,
+  "text": "so this is the additional content"
+ },
+ {
+  "start": 588.38,
+  "end": 591.41,
+  "text": "and or this is the missing content in"
+ },
+ {
+  "start": 591.42,
+  "end": 593.63,
+  "text": "the second file okay so it is showing in"
+ },
+ {
+  "start": 593.64,
+  "end": 595.19,
+  "text": "red"
+ },
+ {
+  "start": 595.2,
+  "end": 597.829,
+  "text": "so that's the kind of report uh you can"
+ },
+ {
+  "start": 597.839,
+  "end": 602.15,
+  "text": "get if you're comparing two files okay"
+ },
+ {
+  "start": 602.16,
+  "end": 604.67,
+  "text": "so our final test automation module in"
+ },
+ {
+  "start": 604.68,
+  "end": 606.949,
+  "text": "this file operations is how to delete a"
+ },
+ {
+  "start": 606.959,
+  "end": 608.75,
+  "text": "file"
+ },
+ {
+  "start": 608.76,
+  "end": 611.21,
+  "text": "so let's uh rename this test case to"
+ },
+ {
+  "start": 611.22,
+  "end": 615.23,
+  "text": "delete file and let's go ahead and add"
+ },
+ {
+  "start": 615.24,
+  "end": 617.75,
+  "text": "the test step"
+ },
+ {
+  "start": 617.76,
+  "end": 624.65,
+  "text": "so search for t-box delete file"
+ },
+ {
+  "start": 635.09,
+  "end": 635.1,
+  "text": "okay so let's give it a file name here"
+ },
+ {
+  "start": 635.1,
+  "end": 640.19,
+  "text": "and it should be test one dot txt"
+ },
+ {
+  "start": 640.2,
+  "end": 642.53,
+  "text": "that's the file I want to delete so"
+ },
+ {
+  "start": 642.54,
+  "end": 651.47,
+  "text": "let's go ahead and run this"
+ },
+ {
+  "start": 654.05,
+  "end": 654.06,
+  "text": "and that particular file should not be"
+ },
+ {
+  "start": 654.06,
+  "end": 656.87,
+  "text": "present here now okay"
+ },
+ {
+  "start": 656.88,
+  "end": 659.81,
+  "text": "so that's how you can delete files uh"
+ },
+ {
+  "start": 659.82,
+  "end": 660.829,
+  "text": "and"
+ },
+ {
+  "start": 660.839,
+  "end": 663.05,
+  "text": "that's how you can use different t-box"
+ },
+ {
+  "start": 663.06,
+  "end": 665.389,
+  "text": "modules in order to perform different"
+ },
+ {
+  "start": 665.399,
+  "end": 667.49,
+  "text": "file operations like comparing images"
+ },
+ {
+  "start": 667.5,
+  "end": 670.43,
+  "text": "comparing files creating files copying"
+ },
+ {
+  "start": 670.44,
+  "end": 673.19,
+  "text": "files deleting files there's also some"
+ },
+ {
+  "start": 673.2,
+  "end": 675.53,
+  "text": "other t-box modules which you can"
+ },
+ {
+  "start": 675.54,
+  "end": 678.65,
+  "text": "um try for on your own which are like"
+ },
+ {
+  "start": 678.66,
+  "end": 680.47,
+  "text": "you can read the files as I showed you"
+ },
+ {
+  "start": 680.48,
+  "end": 684.47,
+  "text": "you can also move rename and you can"
+ },
+ {
+  "start": 684.48,
+  "end": 689.6,
+  "text": "also append uh to a particular file okay"
+ }
+]

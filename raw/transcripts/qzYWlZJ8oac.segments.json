@@ -1,0 +1,2712 @@
+[
+ {
+  "start": 4.61,
+  "end": 4.62,
+  "text": "in this video I'm going to show you how"
+ },
+ {
+  "start": 4.62,
+  "end": 8.629,
+  "text": "you can set up tricentis Tosca 16.0 and"
+ },
+ {
+  "start": 8.639,
+  "end": 12.709,
+  "text": "run it on a AWS ec2 Windows Server"
+ },
+ {
+  "start": 12.719,
+  "end": 13.789,
+  "text": "instance"
+ },
+ {
+  "start": 13.799,
+  "end": 16.369,
+  "text": "now there are very simple steps to do"
+ },
+ {
+  "start": 16.379,
+  "end": 19.37,
+  "text": "this first we need to set up a ec2"
+ },
+ {
+  "start": 19.38,
+  "end": 23.33,
+  "text": "Windows server on AWS and then we need"
+ },
+ {
+  "start": 23.34,
+  "end": 26.57,
+  "text": "to download the tricentis Tosca latest"
+ },
+ {
+  "start": 26.58,
+  "end": 29.81,
+  "text": "version and then install it on that"
+ },
+ {
+  "start": 29.82,
+  "end": 31.189,
+  "text": "Windows server"
+ },
+ {
+  "start": 31.199,
+  "end": 33.889,
+  "text": "and then simply we need to connect to"
+ },
+ {
+  "start": 33.899,
+  "end": 37.01,
+  "text": "our Cloud license server for Tosca and"
+ },
+ {
+  "start": 37.02,
+  "end": 39.41,
+  "text": "start running Tosca commander on a"
+ },
+ {
+  "start": 39.42,
+  "end": 41.69,
+  "text": "Windows ec2 server"
+ },
+ {
+  "start": 41.7,
+  "end": 43.49,
+  "text": "so let's get started"
+ },
+ {
+  "start": 43.5,
+  "end": 47.27,
+  "text": "the first step is to create a Windows"
+ },
+ {
+  "start": 47.28,
+  "end": 51.049,
+  "text": "ec2 server on AWS now to do that you"
+ },
+ {
+  "start": 51.059,
+  "end": 54.77,
+  "text": "need to have a account on AWS I would be"
+ },
+ {
+  "start": 54.78,
+  "end": 56.869,
+  "text": "using a free tire account"
+ },
+ {
+  "start": 56.879,
+  "end": 59.99,
+  "text": "which means I have got some limited"
+ },
+ {
+  "start": 60.0,
+  "end": 63.889,
+  "text": "bandwidth and time on which I can run a"
+ },
+ {
+  "start": 63.899,
+  "end": 67.25,
+  "text": "free Windows ec2 server but you can have"
+ },
+ {
+  "start": 67.26,
+  "end": 71.09,
+  "text": "your own choice of servers and uh your"
+ },
+ {
+  "start": 71.1,
+  "end": 72.77,
+  "text": "own configuration you don't need to"
+ },
+ {
+  "start": 72.78,
+  "end": 75.23,
+  "text": "follow the configuration which I am"
+ },
+ {
+  "start": 75.24,
+  "end": 77.63,
+  "text": "going to currently run on"
+ },
+ {
+  "start": 77.64,
+  "end": 81.53,
+  "text": "so let's get started I'm already logged"
+ },
+ {
+  "start": 81.54,
+  "end": 86.09,
+  "text": "in with my AWS ec2 account and you can"
+ },
+ {
+  "start": 86.1,
+  "end": 90.05,
+  "text": "either go to services and search for ec2"
+ },
+ {
+  "start": 90.06,
+  "end": 92.27,
+  "text": "which is the virtual servers in the"
+ },
+ {
+  "start": 92.28,
+  "end": 93.469,
+  "text": "cloud"
+ },
+ {
+  "start": 93.479,
+  "end": 95.81,
+  "text": "so click on that and that should take"
+ },
+ {
+  "start": 95.82,
+  "end": 98.81,
+  "text": "you to the ec2 dashboard now it should"
+ },
+ {
+  "start": 98.82,
+  "end": 100.85,
+  "text": "show you all the instances which are"
+ },
+ {
+  "start": 100.86,
+  "end": 104.09,
+  "text": "currently running on your ec2"
+ },
+ {
+  "start": 104.1,
+  "end": 107.63,
+  "text": "if not it will show zero instances are"
+ },
+ {
+  "start": 107.64,
+  "end": 108.71,
+  "text": "running"
+ },
+ {
+  "start": 108.72,
+  "end": 112.13,
+  "text": "so I need to run uh instance a Windows"
+ },
+ {
+  "start": 112.14,
+  "end": 115.429,
+  "text": "instance on this ec2 so I'm going to"
+ },
+ {
+  "start": 115.439,
+  "end": 118.969,
+  "text": "click on launch launch instance"
+ },
+ {
+  "start": 118.979,
+  "end": 121.069,
+  "text": "and here I need to fill some details"
+ },
+ {
+  "start": 121.079,
+  "end": 124.19,
+  "text": "before I can start running a Windows ec2"
+ },
+ {
+  "start": 124.2,
+  "end": 125.33,
+  "text": "server"
+ },
+ {
+  "start": 125.34,
+  "end": 129.229,
+  "text": "so let's get started with the name so"
+ },
+ {
+  "start": 129.239,
+  "end": 133.79,
+  "text": "I'm going to name it Tosca web server"
+ },
+ {
+  "start": 133.8,
+  "end": 137.39,
+  "text": "and then I need to select a application"
+ },
+ {
+  "start": 137.4,
+  "end": 141.11,
+  "text": "or a Amazon machine image which is also"
+ },
+ {
+  "start": 141.12,
+  "end": 144.589,
+  "text": "known as Ami now as you can see there"
+ },
+ {
+  "start": 144.599,
+  "end": 146.93,
+  "text": "are lots of different images here that"
+ },
+ {
+  "start": 146.94,
+  "end": 149.93,
+  "text": "is Mac OS that is Linux Ubuntu"
+ },
+ {
+  "start": 149.94,
+  "end": 153.05,
+  "text": "and others right but we need a Windows"
+ },
+ {
+  "start": 153.06,
+  "end": 156.589,
+  "text": "server and hence I would uh select a"
+ },
+ {
+  "start": 156.599,
+  "end": 159.35,
+  "text": "Windows image Now by default it will"
+ },
+ {
+  "start": 159.36,
+  "end": 162.229,
+  "text": "select me a free tag eligible uh base"
+ },
+ {
+  "start": 162.239,
+  "end": 165.17,
+  "text": "image which is the Windows Server 2022"
+ },
+ {
+  "start": 165.18,
+  "end": 168.47,
+  "text": "that's exactly what I need if you uh"
+ },
+ {
+  "start": 168.48,
+  "end": 171.53,
+  "text": "want to have a more powerful or a"
+ },
+ {
+  "start": 171.54,
+  "end": 174.71,
+  "text": "different image which uh you want to"
+ },
+ {
+  "start": 174.72,
+  "end": 176.809,
+  "text": "select then you are"
+ },
+ {
+  "start": 176.819,
+  "end": 179.869,
+  "text": "free to select any of the images but by"
+ },
+ {
+  "start": 179.879,
+  "end": 181.97,
+  "text": "default it will select you the best"
+ },
+ {
+  "start": 181.98,
+  "end": 184.25,
+  "text": "possible image"
+ },
+ {
+  "start": 184.26,
+  "end": 187.55,
+  "text": "okay coming down uh coming to instance"
+ },
+ {
+  "start": 187.56,
+  "end": 189.97,
+  "text": "type right now again"
+ },
+ {
+  "start": 189.98,
+  "end": 192.589,
+  "text": "my instance is a free tire eligible"
+ },
+ {
+  "start": 192.599,
+  "end": 197.449,
+  "text": "instance right but if you want to select"
+ },
+ {
+  "start": 197.459,
+  "end": 200.21,
+  "text": "a different instance type I would"
+ },
+ {
+  "start": 200.22,
+  "end": 203.41,
+  "text": "recommend you to go for a higher memory"
+ },
+ {
+  "start": 203.42,
+  "end": 206.69,
+  "text": "instance which means either go for a T2"
+ },
+ {
+  "start": 206.7,
+  "end": 211.67,
+  "text": "large which is 8 gigabytes memory or"
+ },
+ {
+  "start": 211.68,
+  "end": 215.089,
+  "text": "even more but if you want to run Tosca"
+ },
+ {
+  "start": 215.099,
+  "end": 216.71,
+  "text": "continuously on This Server I would"
+ },
+ {
+  "start": 216.72,
+  "end": 219.229,
+  "text": "recommend to go with the t2 large which"
+ },
+ {
+  "start": 219.239,
+  "end": 221.449,
+  "text": "has got a 8GB memory and that should be"
+ },
+ {
+  "start": 221.459,
+  "end": 223.789,
+  "text": "enough to run Tosca on this Windows"
+ },
+ {
+  "start": 223.799,
+  "end": 226.97,
+  "text": "server but for me uh for this particular"
+ },
+ {
+  "start": 226.98,
+  "end": 229.309,
+  "text": "video I would stick to the t2 micro"
+ },
+ {
+  "start": 229.319,
+  "end": 232.19,
+  "text": "which has got 1GB memory it's not enough"
+ },
+ {
+  "start": 232.2,
+  "end": 234.77,
+  "text": "but for my purpose it is fine"
+ },
+ {
+  "start": 234.78,
+  "end": 238.19,
+  "text": "now coming to a key pair if uh you have"
+ },
+ {
+  "start": 238.2,
+  "end": 241.61,
+  "text": "a key pair already created you can go"
+ },
+ {
+  "start": 241.62,
+  "end": 243.83,
+  "text": "ahead and select that I've already won"
+ },
+ {
+  "start": 243.84,
+  "end": 246.47,
+  "text": "but for this particular video I would"
+ },
+ {
+  "start": 246.48,
+  "end": 248.75,
+  "text": "create a new key pair"
+ },
+ {
+  "start": 248.76,
+  "end": 253.13,
+  "text": "so let's name it Tosca server"
+ },
+ {
+  "start": 253.14,
+  "end": 256.55,
+  "text": "okay and the private key file format"
+ },
+ {
+  "start": 256.56,
+  "end": 259.93,
+  "text": "should be dot pm I would tell you why we"
+ },
+ {
+  "start": 259.94,
+  "end": 262.73,
+  "text": "require.pm it would be required while we"
+ },
+ {
+  "start": 262.74,
+  "end": 264.83,
+  "text": "try to get the password for the Windows"
+ },
+ {
+  "start": 264.84,
+  "end": 268.249,
+  "text": "server but for now just keep it dot PM"
+ },
+ {
+  "start": 268.259,
+  "end": 271.79,
+  "text": "okay and create the key pair it should"
+ },
+ {
+  "start": 271.8,
+  "end": 274.73,
+  "text": "download it automatically"
+ },
+ {
+  "start": 274.74,
+  "end": 277.79,
+  "text": "now coming to network settings okay"
+ },
+ {
+  "start": 277.8,
+  "end": 279.409,
+  "text": "um either I can create a new security"
+ },
+ {
+  "start": 279.419,
+  "end": 282.53,
+  "text": "group or a select existing Security"
+ },
+ {
+  "start": 282.54,
+  "end": 285.83,
+  "text": "Group let's create a new one so that uh"
+ },
+ {
+  "start": 285.84,
+  "end": 288.469,
+  "text": "we are well aware of what is required so"
+ },
+ {
+  "start": 288.479,
+  "end": 291.05,
+  "text": "we require the RDP traffic"
+ },
+ {
+  "start": 291.06,
+  "end": 293.99,
+  "text": "let's keep it uh anywhere you can always"
+ },
+ {
+  "start": 294.0,
+  "end": 297.249,
+  "text": "change it to my IP so that it always"
+ },
+ {
+  "start": 297.259,
+  "end": 301.61,
+  "text": "allows only through your IP the RDP"
+ },
+ {
+  "start": 301.62,
+  "end": 303.23,
+  "text": "connection"
+ },
+ {
+  "start": 303.24,
+  "end": 306.95,
+  "text": "um you need uh either HTTP or https but"
+ },
+ {
+  "start": 306.96,
+  "end": 310.07,
+  "text": "I generally keep it both okay so we need"
+ },
+ {
+  "start": 310.08,
+  "end": 311.81,
+  "text": "these three settings"
+ },
+ {
+  "start": 311.82,
+  "end": 314.81,
+  "text": "um or these three security groups at"
+ },
+ {
+  "start": 314.82,
+  "end": 315.77,
+  "text": "least"
+ },
+ {
+  "start": 315.78,
+  "end": 318.95,
+  "text": "um in your network settings without this"
+ },
+ {
+  "start": 318.96,
+  "end": 320.35,
+  "text": "um your"
+ },
+ {
+  "start": 320.36,
+  "end": 324.35,
+  "text": "or your web server will not work okay"
+ },
+ {
+  "start": 324.36,
+  "end": 326.99,
+  "text": "now coming to storage"
+ },
+ {
+  "start": 327.0,
+  "end": 330.05,
+  "text": "that is 30 gigabytes which is enough to"
+ },
+ {
+  "start": 330.06,
+  "end": 331.45,
+  "text": "run a Tosca"
+ },
+ {
+  "start": 331.46,
+  "end": 334.43,
+  "text": "commander on the web server so I would"
+ },
+ {
+  "start": 334.44,
+  "end": 336.409,
+  "text": "leave it"
+ },
+ {
+  "start": 336.419,
+  "end": 338.57,
+  "text": "and then there are Advanced details"
+ },
+ {
+  "start": 338.58,
+  "end": 341.81,
+  "text": "which we don't need to care about these"
+ },
+ {
+  "start": 341.82,
+  "end": 343.79,
+  "text": "are if you want to have some specific"
+ },
+ {
+  "start": 343.8,
+  "end": 346.43,
+  "text": "behavior for your web server but these"
+ },
+ {
+  "start": 346.44,
+  "end": 349.129,
+  "text": "are not uh something which we need to"
+ },
+ {
+  "start": 349.139,
+  "end": 351.17,
+  "text": "change so these are the mandatory"
+ },
+ {
+  "start": 351.18,
+  "end": 354.29,
+  "text": "settings and the important ones which I"
+ },
+ {
+  "start": 354.3,
+  "end": 356.57,
+  "text": "have to change okay"
+ },
+ {
+  "start": 356.58,
+  "end": 358.43,
+  "text": "um once this is done um I can also"
+ },
+ {
+  "start": 358.44,
+  "end": 360.35,
+  "text": "decide on a number of instances for now"
+ },
+ {
+  "start": 360.36,
+  "end": 363.11,
+  "text": "it is one but if you want to run Tosca"
+ },
+ {
+  "start": 363.12,
+  "end": 364.969,
+  "text": "server and Tosca commander on different"
+ },
+ {
+  "start": 364.979,
+  "end": 366.83,
+  "text": "instances you can even launch two"
+ },
+ {
+  "start": 366.84,
+  "end": 368.57,
+  "text": "instances okay"
+ },
+ {
+  "start": 368.58,
+  "end": 371.39,
+  "text": "so click on launch instance"
+ },
+ {
+  "start": 371.4,
+  "end": 374.029,
+  "text": "and that should quickly uh create your"
+ },
+ {
+  "start": 374.039,
+  "end": 377.629,
+  "text": "instance and start running it go to view"
+ },
+ {
+  "start": 377.639,
+  "end": 382.55,
+  "text": "all instances to view your instance that"
+ },
+ {
+  "start": 382.56,
+  "end": 383.39,
+  "text": "should"
+ },
+ {
+  "start": 383.4,
+  "end": 387.11,
+  "text": "um change the instance state in a few"
+ },
+ {
+  "start": 387.12,
+  "end": 391.07,
+  "text": "minutes and start running it okay once"
+ },
+ {
+  "start": 391.08,
+  "end": 393.59,
+  "text": "it starts running then we can even"
+ },
+ {
+  "start": 393.6,
+  "end": 396.409,
+  "text": "connect to that instance"
+ },
+ {
+  "start": 396.419,
+  "end": 399.95,
+  "text": "okay so let's wait until this uh"
+ },
+ {
+  "start": 399.96,
+  "end": 402.89,
+  "text": "instance starts running"
+ },
+ {
+  "start": 402.9,
+  "end": 406.49,
+  "text": "and we would require the dot PM later on"
+ },
+ {
+  "start": 406.5,
+  "end": 411.71,
+  "text": "while we connect to this instance"
+ },
+ {
+  "start": 413.45,
+  "end": 413.46,
+  "text": "okay as you can see the instance date"
+ },
+ {
+  "start": 413.46,
+  "end": 416.21,
+  "text": "has now changed to running so let's"
+ },
+ {
+  "start": 416.22,
+  "end": 419.09,
+  "text": "select this instance you can see all the"
+ },
+ {
+  "start": 419.1,
+  "end": 423.71,
+  "text": "details here for this instance and the"
+ },
+ {
+  "start": 423.72,
+  "end": 425.33,
+  "text": "security which we have created the"
+ },
+ {
+  "start": 425.34,
+  "end": 427.45,
+  "text": "networking the storage"
+ },
+ {
+  "start": 427.46,
+  "end": 430.61,
+  "text": "monitoring tags everything would be"
+ },
+ {
+  "start": 430.62,
+  "end": 432.29,
+  "text": "available here okay"
+ },
+ {
+  "start": 432.3,
+  "end": 435.77,
+  "text": "including the IP address which should be"
+ },
+ {
+  "start": 435.78,
+  "end": 437.95,
+  "text": "required to connect to your"
+ },
+ {
+  "start": 437.96,
+  "end": 441.83,
+  "text": "server but probably it's not required"
+ },
+ {
+  "start": 441.84,
+  "end": 443.39,
+  "text": "um there is a direct way to connect to"
+ },
+ {
+  "start": 443.4,
+  "end": 444.409,
+  "text": "it okay"
+ },
+ {
+  "start": 444.419,
+  "end": 446.809,
+  "text": "so now select that instance and click on"
+ },
+ {
+  "start": 446.819,
+  "end": 447.95,
+  "text": "connect"
+ },
+ {
+  "start": 447.96,
+  "end": 450.11,
+  "text": "now in connect to instance there are"
+ },
+ {
+  "start": 450.12,
+  "end": 453.05,
+  "text": "three options but we will stick to the"
+ },
+ {
+  "start": 453.06,
+  "end": 455.15,
+  "text": "RDP client which is the more simpler one"
+ },
+ {
+  "start": 455.16,
+  "end": 457.089,
+  "text": "and probably"
+ },
+ {
+  "start": 457.099,
+  "end": 461.39,
+  "text": "it is the most easiest one now ignore"
+ },
+ {
+  "start": 461.4,
+  "end": 463.61,
+  "text": "this message if you are getting this"
+ },
+ {
+  "start": 463.62,
+  "end": 465.95,
+  "text": "um it doesn't matter"
+ },
+ {
+  "start": 465.96,
+  "end": 468.29,
+  "text": "the connection type it will be"
+ },
+ {
+  "start": 468.3,
+  "end": 470.87,
+  "text": "automatically selected Connect using RDP"
+ },
+ {
+  "start": 470.88,
+  "end": 473.39,
+  "text": "client you need to click on download"
+ },
+ {
+  "start": 473.4,
+  "end": 476.21,
+  "text": "remote desktop file that's the RDP file"
+ },
+ {
+  "start": 476.22,
+  "end": 478.49,
+  "text": "through which we'll be connecting so"
+ },
+ {
+  "start": 478.5,
+  "end": 482.27,
+  "text": "click on that to download it"
+ },
+ {
+  "start": 482.28,
+  "end": 484.79,
+  "text": "and we have the DNS username"
+ },
+ {
+  "start": 484.8,
+  "end": 487.189,
+  "text": "administrator right the only thing which"
+ },
+ {
+  "start": 487.199,
+  "end": 489.409,
+  "text": "we require is the password"
+ },
+ {
+  "start": 489.419,
+  "end": 490.49,
+  "text": "okay"
+ },
+ {
+  "start": 490.5,
+  "end": 492.77,
+  "text": "now"
+ },
+ {
+  "start": 492.78,
+  "end": 496.67,
+  "text": "I can click on this to start the RDP"
+ },
+ {
+  "start": 496.68,
+  "end": 497.45,
+  "text": "connection"
+ },
+ {
+  "start": 497.46,
+  "end": 500.629,
+  "text": "but I still require the password as you"
+ },
+ {
+  "start": 500.639,
+  "end": 503.629,
+  "text": "can see right now there is a way to get"
+ },
+ {
+  "start": 503.639,
+  "end": 506.629,
+  "text": "password here if you can see uh get"
+ },
+ {
+  "start": 506.639,
+  "end": 509.15,
+  "text": "password click on that and that should"
+ },
+ {
+  "start": 509.16,
+  "end": 512.149,
+  "text": "open a get Windows password"
+ },
+ {
+  "start": 512.159,
+  "end": 514.85,
+  "text": "um section and here you have got the"
+ },
+ {
+  "start": 514.86,
+  "end": 518.81,
+  "text": "instance ID and here we need to upload"
+ },
+ {
+  "start": 518.82,
+  "end": 521.029,
+  "text": "the private key file which we just"
+ },
+ {
+  "start": 521.039,
+  "end": 522.05,
+  "text": "created"
+ },
+ {
+  "start": 522.06,
+  "end": 525.05,
+  "text": "while generating our key pair right and"
+ },
+ {
+  "start": 525.06,
+  "end": 527.329,
+  "text": "that's the dot PM format"
+ },
+ {
+  "start": 527.339,
+  "end": 531.23,
+  "text": "so click on upload and select the dot PM"
+ },
+ {
+  "start": 531.24,
+  "end": 534.05,
+  "text": "file which we created earlier"
+ },
+ {
+  "start": 534.06,
+  "end": 537.769,
+  "text": "click on open and that should upload"
+ },
+ {
+  "start": 537.779,
+  "end": 540.11,
+  "text": "that PM file here"
+ },
+ {
+  "start": 540.12,
+  "end": 542.389,
+  "text": "and then we just need to click on"
+ },
+ {
+  "start": 542.399,
+  "end": 544.55,
+  "text": "decrypt password"
+ },
+ {
+  "start": 544.56,
+  "end": 547.43,
+  "text": "so once you do that you should get the"
+ },
+ {
+  "start": 547.44,
+  "end": 550.97,
+  "text": "password here I will just copy it"
+ },
+ {
+  "start": 550.98,
+  "end": 554.69,
+  "text": "and then let's go back to our RDP here"
+ },
+ {
+  "start": 554.7,
+  "end": 558.47,
+  "text": "and we'll paste it here"
+ },
+ {
+  "start": 558.48,
+  "end": 560.87,
+  "text": "we should just go through this dialogs"
+ },
+ {
+  "start": 560.88,
+  "end": 563.63,
+  "text": "to get the connection working"
+ },
+ {
+  "start": 563.64,
+  "end": 568.31,
+  "text": "and now we are connecting to our AWS ec2"
+ },
+ {
+  "start": 568.32,
+  "end": 573.829,
+  "text": "Windows server"
+ },
+ {
+  "start": 577.07,
+  "end": 577.08,
+  "text": "so once the connection is established"
+ },
+ {
+  "start": 577.08,
+  "end": 579.71,
+  "text": "you will see the Windows Server starting"
+ },
+ {
+  "start": 579.72,
+  "end": 582.53,
+  "text": "it will ask you to select a network"
+ },
+ {
+  "start": 582.54,
+  "end": 584.449,
+  "text": "which will connect to your local network"
+ },
+ {
+  "start": 584.459,
+  "end": 586.13,
+  "text": "so click on yes"
+ },
+ {
+  "start": 586.14,
+  "end": 588.23,
+  "text": "um on that Network dialog box"
+ },
+ {
+  "start": 588.24,
+  "end": 591.05,
+  "text": "uh it will change the theme by running"
+ },
+ {
+  "start": 591.06,
+  "end": 593.99,
+  "text": "uh something in the background so you"
+ },
+ {
+  "start": 594.0,
+  "end": 596.03,
+  "text": "will get this theme for your Windows"
+ },
+ {
+  "start": 596.04,
+  "end": 597.53,
+  "text": "server"
+ },
+ {
+  "start": 597.54,
+  "end": 599.15,
+  "text": "and"
+ },
+ {
+  "start": 599.16,
+  "end": 602.41,
+  "text": "that completes our first step so we have"
+ },
+ {
+  "start": 602.42,
+  "end": 606.35,
+  "text": "successfully set up a Windows ec2 server"
+ },
+ {
+  "start": 606.36,
+  "end": 609.29,
+  "text": "on AWS and it is in running condition"
+ },
+ {
+  "start": 609.3,
+  "end": 611.81,
+  "text": "and we have also connected to that"
+ },
+ {
+  "start": 611.82,
+  "end": 612.71,
+  "text": "server"
+ },
+ {
+  "start": 612.72,
+  "end": 616.61,
+  "text": "so the next step is to get our Tosca"
+ },
+ {
+  "start": 616.62,
+  "end": 618.949,
+  "text": "version installed on this particular"
+ },
+ {
+  "start": 618.959,
+  "end": 622.73,
+  "text": "Windows Server right so for that we need"
+ },
+ {
+  "start": 622.74,
+  "end": 626.63,
+  "text": "to go to the tracentes portal so let's"
+ },
+ {
+  "start": 626.64,
+  "end": 628.07,
+  "text": "open"
+ },
+ {
+  "start": 628.08,
+  "end": 631.19,
+  "text": "uh Microsoft Edge and from there I will"
+ },
+ {
+  "start": 631.2,
+  "end": 637.07,
+  "text": "go to the tricentes portal"
+ },
+ {
+  "start": 640.07,
+  "end": 640.08,
+  "text": "so just go through this setup of which"
+ },
+ {
+  "start": 640.08,
+  "end": 643.19,
+  "text": "shows up every time you set up Windows"
+ },
+ {
+  "start": 643.2,
+  "end": 644.93,
+  "text": "Edge for the first time"
+ },
+ {
+  "start": 644.94,
+  "end": 648.53,
+  "text": "so just go through that whole setup and"
+ },
+ {
+  "start": 648.54,
+  "end": 649.73,
+  "text": "then"
+ },
+ {
+  "start": 649.74,
+  "end": 651.769,
+  "text": "um you should get started with the edge"
+ },
+ {
+  "start": 651.779,
+  "end": 658.55,
+  "text": "browser"
+ },
+ {
+  "start": 661.91,
+  "end": 661.92,
+  "text": "once that is done let's open up the"
+ },
+ {
+  "start": 661.92,
+  "end": 665.15,
+  "text": "tricentes support portal where we would"
+ },
+ {
+  "start": 665.16,
+  "end": 667.069,
+  "text": "get our"
+ },
+ {
+  "start": 667.079,
+  "end": 669.65,
+  "text": "Tosca installer"
+ },
+ {
+  "start": 669.66,
+  "end": 672.47,
+  "text": "so I would search for try centers"
+ },
+ {
+  "start": 672.48,
+  "end": 674.75,
+  "text": "support that should take me to the"
+ },
+ {
+  "start": 674.76,
+  "end": 677.269,
+  "text": "transientist support website"
+ },
+ {
+  "start": 677.279,
+  "end": 679.97,
+  "text": "and we need to login into the support"
+ },
+ {
+  "start": 679.98,
+  "end": 685.97,
+  "text": "website"
+ },
+ {
+  "start": 688.19,
+  "end": 688.2,
+  "text": "now before we move forward"
+ },
+ {
+  "start": 688.2,
+  "end": 691.31,
+  "text": "um obviously you need to have a valid"
+ },
+ {
+  "start": 691.32,
+  "end": 693.65,
+  "text": "transcendus support account"
+ },
+ {
+  "start": 693.66,
+  "end": 696.47,
+  "text": "where you have created that account and"
+ },
+ {
+  "start": 696.48,
+  "end": 700.37,
+  "text": "you have already requested a license"
+ },
+ {
+  "start": 700.38,
+  "end": 702.35,
+  "text": "now if you don't know how to do that"
+ },
+ {
+  "start": 702.36,
+  "end": 704.75,
+  "text": "watch the other video where I've shown"
+ },
+ {
+  "start": 704.76,
+  "end": 706.85,
+  "text": "you how you can request a training"
+ },
+ {
+  "start": 706.86,
+  "end": 710.03,
+  "text": "license for your where I have shown you"
+ },
+ {
+  "start": 710.04,
+  "end": 712.37,
+  "text": "how you can request a toscal training"
+ },
+ {
+  "start": 712.38,
+  "end": 714.11,
+  "text": "license"
+ },
+ {
+  "start": 714.12,
+  "end": 717.23,
+  "text": "so click on login and"
+ },
+ {
+  "start": 717.24,
+  "end": 720.29,
+  "text": "here just use the same email and"
+ },
+ {
+  "start": 720.3,
+  "end": 722.93,
+  "text": "password which you have created an"
+ },
+ {
+  "start": 722.94,
+  "end": 724.49,
+  "text": "account with"
+ },
+ {
+  "start": 724.5,
+  "end": 731.509,
+  "text": "so I will use my email"
+ },
+ {
+  "start": 742.069,
+  "end": 742.079,
+  "text": "and just click on login that should take"
+ },
+ {
+  "start": 742.079,
+  "end": 745.19,
+  "text": "you inside the dress and test support"
+ },
+ {
+  "start": 745.2,
+  "end": 747.53,
+  "text": "website"
+ },
+ {
+  "start": 747.54,
+  "end": 750.43,
+  "text": "now once you log in we need to go to the"
+ },
+ {
+  "start": 750.44,
+  "end": 754.069,
+  "text": "tri-centers license request page right"
+ },
+ {
+  "start": 754.079,
+  "end": 757.13,
+  "text": "so the URL is this"
+ },
+ {
+  "start": 757.14,
+  "end": 757.73,
+  "text": "um"
+ },
+ {
+  "start": 757.74,
+  "end": 760.25,
+  "text": "it is available in the video description"
+ },
+ {
+  "start": 760.26,
+  "end": 762.889,
+  "text": "if you require it but this we have"
+ },
+ {
+  "start": 762.899,
+  "end": 765.35,
+  "text": "already done it so you should know this"
+ },
+ {
+  "start": 765.36,
+  "end": 767.269,
+  "text": "so just"
+ },
+ {
+  "start": 767.279,
+  "end": 771.53,
+  "text": "copy paste this URL and click on it so"
+ },
+ {
+  "start": 771.54,
+  "end": 773.99,
+  "text": "that we land on this particular page"
+ },
+ {
+  "start": 774.0,
+  "end": 776.81,
+  "text": "where we have already a cloud training"
+ },
+ {
+  "start": 776.82,
+  "end": 779.69,
+  "text": "license which is deployed and there is"
+ },
+ {
+  "start": 779.7,
+  "end": 781.91,
+  "text": "also a link to download press and"
+ },
+ {
+  "start": 781.92,
+  "end": 783.17,
+  "text": "testoster"
+ },
+ {
+  "start": 783.18,
+  "end": 786.71,
+  "text": "so click on that and here we'll try to"
+ },
+ {
+  "start": 786.72,
+  "end": 790.79,
+  "text": "find our Tosca version which is 16.0 the"
+ },
+ {
+  "start": 790.8,
+  "end": 793.97,
+  "text": "latest right now here in the downloads"
+ },
+ {
+  "start": 793.98,
+  "end": 795.59,
+  "text": "page you will see there are lots of"
+ },
+ {
+  "start": 795.6,
+  "end": 799.009,
+  "text": "different uh products from tracentes but"
+ },
+ {
+  "start": 799.019,
+  "end": 801.17,
+  "text": "we are only interested in class and"
+ },
+ {
+  "start": 801.18,
+  "end": 804.17,
+  "text": "testoster so click on that"
+ },
+ {
+  "start": 804.18,
+  "end": 806.03,
+  "text": "here you will find lots of different"
+ },
+ {
+  "start": 806.04,
+  "end": 808.55,
+  "text": "Oscar versions but we need to find the"
+ },
+ {
+  "start": 808.56,
+  "end": 812.87,
+  "text": "Tosca 16.0 LTS right don't get confused"
+ },
+ {
+  "start": 812.88,
+  "end": 816.71,
+  "text": "uh with the different products there are"
+ },
+ {
+  "start": 816.72,
+  "end": 820.31,
+  "text": "different products related to 16.0 but"
+ },
+ {
+  "start": 820.32,
+  "end": 824.03,
+  "text": "look for uh Tosca in the product and"
+ },
+ {
+  "start": 824.04,
+  "end": 826.85,
+  "text": "title should be Transcendence Tosca 16.0"
+ },
+ {
+  "start": 826.86,
+  "end": 829.19,
+  "text": "LTS"
+ },
+ {
+  "start": 829.2,
+  "end": 831.47,
+  "text": "um and the version should be 16.0 so"
+ },
+ {
+  "start": 831.48,
+  "end": 834.17,
+  "text": "this is the Tosca installer which we"
+ },
+ {
+  "start": 834.18,
+  "end": 836.769,
+  "text": "need to download okay so click on that"
+ },
+ {
+  "start": 836.779,
+  "end": 840.29,
+  "text": "and that should start your download for"
+ },
+ {
+  "start": 840.3,
+  "end": 843.05,
+  "text": "your Tosca version"
+ },
+ {
+  "start": 843.06,
+  "end": 844.25,
+  "text": "now"
+ },
+ {
+  "start": 844.26,
+  "end": 847.85,
+  "text": "um it's around 1.5 GB so it will take a"
+ },
+ {
+  "start": 847.86,
+  "end": 850.91,
+  "text": "few minutes to download and once it's"
+ },
+ {
+  "start": 850.92,
+  "end": 854.99,
+  "text": "downloaded then uh we'll start off with"
+ },
+ {
+  "start": 855.0,
+  "end": 857.93,
+  "text": "uh installing this Tosca version on this"
+ },
+ {
+  "start": 857.94,
+  "end": 859.97,
+  "text": "Windows server"
+ },
+ {
+  "start": 859.98,
+  "end": 862.43,
+  "text": "so now that the download is complete"
+ },
+ {
+  "start": 862.44,
+  "end": 865.79,
+  "text": "let's go ahead and go to this folder it"
+ },
+ {
+  "start": 865.8,
+  "end": 868.85,
+  "text": "is in the zip format so we need to first"
+ },
+ {
+  "start": 868.86,
+  "end": 870.769,
+  "text": "uh"
+ },
+ {
+  "start": 870.779,
+  "end": 874.43,
+  "text": "extract this folder so let's do that"
+ },
+ {
+  "start": 874.44,
+  "end": 881.21,
+  "text": "so that we get the actual installer"
+ },
+ {
+  "start": 883.55,
+  "end": 883.56,
+  "text": "once that's completed you will get two"
+ },
+ {
+  "start": 883.56,
+  "end": 886.31,
+  "text": "files uh one is the application and one"
+ },
+ {
+  "start": 886.32,
+  "end": 890.03,
+  "text": "is the sha256 file but uh you need to"
+ },
+ {
+  "start": 890.04,
+  "end": 893.629,
+  "text": "click on this uh application which is"
+ },
+ {
+  "start": 893.639,
+  "end": 896.15,
+  "text": "um the actual installer so double click"
+ },
+ {
+  "start": 896.16,
+  "end": 902.389,
+  "text": "on it to start the Tosca installer"
+ },
+ {
+  "start": 905.269,
+  "end": 905.279,
+  "text": "once the installer has started you will"
+ },
+ {
+  "start": 905.279,
+  "end": 907.97,
+  "text": "get this kind of a window with a welcome"
+ },
+ {
+  "start": 907.98,
+  "end": 911.09,
+  "text": "message you need to click on I agree to"
+ },
+ {
+  "start": 911.1,
+  "end": 915.05,
+  "text": "license terms and continue"
+ },
+ {
+  "start": 917.509,
+  "end": 917.519,
+  "text": "you just need to follow everything which"
+ },
+ {
+  "start": 917.519,
+  "end": 919.91,
+  "text": "is displayed on this window and you"
+ },
+ {
+  "start": 919.92,
+  "end": 923.389,
+  "text": "should be installed uh pretty easy this"
+ },
+ {
+  "start": 923.399,
+  "end": 926.449,
+  "text": "Tosca setup okay so all these"
+ },
+ {
+  "start": 926.459,
+  "end": 929.03,
+  "text": "prerequisite if these are not installed"
+ },
+ {
+  "start": 929.04,
+  "end": 931.85,
+  "text": "trash and this setup would install it"
+ },
+ {
+  "start": 931.86,
+  "end": 934.67,
+  "text": "for you so just click on next"
+ },
+ {
+  "start": 934.68,
+  "end": 936.949,
+  "text": "um choose the setup that best suits or"
+ },
+ {
+  "start": 936.959,
+  "end": 939.889,
+  "text": "needs we can set up this machine as an"
+ },
+ {
+  "start": 939.899,
+  "end": 942.53,
+  "text": "execution agent we can set up a custom"
+ },
+ {
+  "start": 942.54,
+  "end": 945.23,
+  "text": "installation but we need to install"
+ },
+ {
+  "start": 945.24,
+  "end": 948.59,
+  "text": "Tosca Commander so we'll keep it as it"
+ },
+ {
+  "start": 948.6,
+  "end": 950.81,
+  "text": "is click on next"
+ },
+ {
+  "start": 950.82,
+  "end": 952.91,
+  "text": "all these are the default folders for"
+ },
+ {
+  "start": 952.92,
+  "end": 955.009,
+  "text": "Tosca so I don't need to change them"
+ },
+ {
+  "start": 955.019,
+  "end": 957.11,
+  "text": "click on next"
+ },
+ {
+  "start": 957.12,
+  "end": 959.269,
+  "text": "um this is Tosca Diagnostics if you want"
+ },
+ {
+  "start": 959.279,
+  "end": 962.93,
+  "text": "you can keep it or remove it"
+ },
+ {
+  "start": 962.94,
+  "end": 965.569,
+  "text": "this is the update service if you want"
+ },
+ {
+  "start": 965.579,
+  "end": 969.59,
+  "text": "to enable the update service by default"
+ },
+ {
+  "start": 969.6,
+  "end": 972.71,
+  "text": "or else just click on next uh something"
+ },
+ {
+  "start": 972.72,
+  "end": 975.29,
+  "text": "related to Tosca data Integrity I don't"
+ },
+ {
+  "start": 975.3,
+  "end": 976.73,
+  "text": "need to install it"
+ },
+ {
+  "start": 976.74,
+  "end": 980.509,
+  "text": "this is related to Vision AI engine I"
+ },
+ {
+  "start": 980.519,
+  "end": 982.73,
+  "text": "believe it as it is it will install the"
+ },
+ {
+  "start": 982.74,
+  "end": 985.97,
+  "text": "vision AI engine for me"
+ },
+ {
+  "start": 985.98,
+  "end": 988.129,
+  "text": "and then it will show you a summary of"
+ },
+ {
+  "start": 988.139,
+  "end": 990.35,
+  "text": "what it is going to install okay so you"
+ },
+ {
+  "start": 990.36,
+  "end": 992.329,
+  "text": "can still change features which you"
+ },
+ {
+  "start": 992.339,
+  "end": 995.81,
+  "text": "don't need and remove them but um I"
+ },
+ {
+  "start": 995.82,
+  "end": 997.85,
+  "text": "would say just stick to the default and"
+ },
+ {
+  "start": 997.86,
+  "end": 1000.49,
+  "text": "go through the installation"
+ },
+ {
+  "start": 1000.5,
+  "end": 1003.43,
+  "text": "so now it will install all the different"
+ },
+ {
+  "start": 1003.44,
+  "end": 1005.829,
+  "text": "uh setups it may take some time"
+ },
+ {
+  "start": 1005.839,
+  "end": 1010.329,
+  "text": "depending on your machine configuration"
+ },
+ {
+  "start": 1012.31,
+  "end": 1012.32,
+  "text": "once the installation is completed you"
+ },
+ {
+  "start": 1012.32,
+  "end": 1014.35,
+  "text": "should get a summary with all the text"
+ },
+ {
+  "start": 1014.36,
+  "end": 1016.389,
+  "text": "on all the different components you can"
+ },
+ {
+  "start": 1016.399,
+  "end": 1018.91,
+  "text": "even look at the logs if something goes"
+ },
+ {
+  "start": 1018.92,
+  "end": 1019.81,
+  "text": "wrong"
+ },
+ {
+  "start": 1019.82,
+  "end": 1022.87,
+  "text": "now just to finish the installation we"
+ },
+ {
+  "start": 1022.88,
+  "end": 1024.669,
+  "text": "need to click on finish"
+ },
+ {
+  "start": 1024.679,
+  "end": 1027.549,
+  "text": "and that should complete our next steps"
+ },
+ {
+  "start": 1027.559,
+  "end": 1032.11,
+  "text": "to download and install Tosca 16.0 on"
+ },
+ {
+  "start": 1032.12,
+  "end": 1034.329,
+  "text": "your Windows server"
+ },
+ {
+  "start": 1034.339,
+  "end": 1037.15,
+  "text": "now if you go to a Windows menu you"
+ },
+ {
+  "start": 1037.16,
+  "end": 1039.789,
+  "text": "should see a Transcendence folder with"
+ },
+ {
+  "start": 1039.799,
+  "end": 1041.049,
+  "text": "all the different types in this"
+ },
+ {
+  "start": 1041.059,
+  "end": 1043.51,
+  "text": "components which are installed on this"
+ },
+ {
+  "start": 1043.52,
+  "end": 1046.03,
+  "text": "Windows machine or server"
+ },
+ {
+  "start": 1046.04,
+  "end": 1048.61,
+  "text": "out of this the most interesting is the"
+ },
+ {
+  "start": 1048.62,
+  "end": 1051.13,
+  "text": "Tosca Commander or the most important I"
+ },
+ {
+  "start": 1051.14,
+  "end": 1054.19,
+  "text": "would say so click on that to launch our"
+ },
+ {
+  "start": 1054.2,
+  "end": 1057.97,
+  "text": "Tosca Commander now and we are only left"
+ },
+ {
+  "start": 1057.98,
+  "end": 1060.909,
+  "text": "with the final step uh it is to connect"
+ },
+ {
+  "start": 1060.919,
+  "end": 1064.09,
+  "text": "to our cloud training license server so"
+ },
+ {
+  "start": 1064.1,
+  "end": 1067.69,
+  "text": "that our Tosca Commander can use that"
+ },
+ {
+  "start": 1067.7,
+  "end": 1070.09,
+  "text": "license and we can launch out of"
+ },
+ {
+  "start": 1070.1,
+  "end": 1077.049,
+  "text": "commander on this Windows server"
+ },
+ {
+  "start": 1079.45,
+  "end": 1079.46,
+  "text": "now since we have not activated any"
+ },
+ {
+  "start": 1079.46,
+  "end": 1081.789,
+  "text": "license it will take you to this license"
+ },
+ {
+  "start": 1081.799,
+  "end": 1085.15,
+  "text": "page where you need to enter a username"
+ },
+ {
+  "start": 1085.16,
+  "end": 1087.13,
+  "text": "and password to connect to your cloud"
+ },
+ {
+  "start": 1087.14,
+  "end": 1089.47,
+  "text": "training license now if you are on"
+ },
+ {
+  "start": 1089.48,
+  "end": 1092.049,
+  "text": "different uh license model don't worry"
+ },
+ {
+  "start": 1092.059,
+  "end": 1097.33,
+  "text": "uh just go back to manage and then also"
+ },
+ {
+  "start": 1097.34,
+  "end": 1101.77,
+  "text": "go to activate and click on connect that"
+ },
+ {
+  "start": 1101.78,
+  "end": 1104.529,
+  "text": "should give you different options like a"
+ },
+ {
+  "start": 1104.539,
+  "end": 1107.169,
+  "text": "self-hosted license server if you want"
+ },
+ {
+  "start": 1107.179,
+  "end": 1110.409,
+  "text": "to install it directly on the server or"
+ },
+ {
+  "start": 1110.419,
+  "end": 1112.63,
+  "text": "use licenses from my local machine right"
+ },
+ {
+  "start": 1112.64,
+  "end": 1114.669,
+  "text": "but I am going to connect to the cloud"
+ },
+ {
+  "start": 1114.679,
+  "end": 1116.77,
+  "text": "hosted license server because that's"
+ },
+ {
+  "start": 1116.78,
+  "end": 1119.35,
+  "text": "what I have used okay so I need to use"
+ },
+ {
+  "start": 1119.36,
+  "end": 1121.47,
+  "text": "the same username and password which"
+ },
+ {
+  "start": 1121.48,
+  "end": 1123.85,
+  "text": "I've created an account on the"
+ },
+ {
+  "start": 1123.86,
+  "end": 1126.61,
+  "text": "transientist support portal right so"
+ },
+ {
+  "start": 1126.62,
+  "end": 1129.25,
+  "text": "let's go ahead and use that same"
+ },
+ {
+  "start": 1129.26,
+  "end": 1131.23,
+  "text": "username and password"
+ },
+ {
+  "start": 1131.24,
+  "end": 1134.289,
+  "text": "which we used earlier"
+ },
+ {
+  "start": 1134.299,
+  "end": 1137.31,
+  "text": "and click on OK"
+ },
+ {
+  "start": 1137.32,
+  "end": 1141.25,
+  "text": "bank that worked like a charm right so"
+ },
+ {
+  "start": 1141.26,
+  "end": 1142.93,
+  "text": "now we have connected to the license"
+ },
+ {
+  "start": 1142.94,
+  "end": 1145.63,
+  "text": "server and we can start using Commander"
+ },
+ {
+  "start": 1145.64,
+  "end": 1148.75,
+  "text": "Tosca Commander right away okay"
+ },
+ {
+  "start": 1148.76,
+  "end": 1150.97,
+  "text": "um it will take you to this page once it"
+ },
+ {
+  "start": 1150.98,
+  "end": 1153.19,
+  "text": "has connected to the license server uh"
+ },
+ {
+  "start": 1153.2,
+  "end": 1156.789,
+  "text": "here you can create your own project so"
+ },
+ {
+  "start": 1156.799,
+  "end": 1160.029,
+  "text": "let's go ahead and do that uh so here"
+ },
+ {
+  "start": 1160.039,
+  "end": 1162.49,
+  "text": "you can create your new workspace as you"
+ },
+ {
+  "start": 1162.5,
+  "end": 1163.51,
+  "text": "know there are different types of"
+ },
+ {
+  "start": 1163.52,
+  "end": 1166.69,
+  "text": "workspaces if we have also got a"
+ },
+ {
+  "start": 1166.7,
+  "end": 1169.21,
+  "text": "database we can create a multi-user"
+ },
+ {
+  "start": 1169.22,
+  "end": 1171.43,
+  "text": "workspace for now I will stick to the"
+ },
+ {
+  "start": 1171.44,
+  "end": 1174.909,
+  "text": "single user workspace I will leave the"
+ },
+ {
+  "start": 1174.919,
+  "end": 1177.73,
+  "text": "location as it is and I will"
+ },
+ {
+  "start": 1177.74,
+  "end": 1181.15,
+  "text": "select the name for the new workspace I"
+ },
+ {
+  "start": 1181.16,
+  "end": 1182.23,
+  "text": "would also"
+ },
+ {
+  "start": 1182.24,
+  "end": 1184.75,
+  "text": "use the standard workspace template"
+ },
+ {
+  "start": 1184.76,
+  "end": 1188.049,
+  "text": "which is the standard TSU"
+ },
+ {
+  "start": 1188.059,
+  "end": 1189.73,
+  "text": "and click on OK"
+ },
+ {
+  "start": 1189.74,
+  "end": 1192.549,
+  "text": "so it will start creating my new single"
+ },
+ {
+  "start": 1192.559,
+  "end": 1197.049,
+  "text": "user workspace"
+ },
+ {
+  "start": 1200.65,
+  "end": 1200.66,
+  "text": "and now it will start launching the"
+ },
+ {
+  "start": 1200.66,
+  "end": 1204.549,
+  "text": "project or which we have created now"
+ },
+ {
+  "start": 1204.559,
+  "end": 1206.23,
+  "text": "so it will open all the different"
+ },
+ {
+  "start": 1206.24,
+  "end": 1209.77,
+  "text": "modules or the different sections which"
+ },
+ {
+  "start": 1209.78,
+  "end": 1212.83,
+  "text": "are present in Tosca Commander and you"
+ },
+ {
+  "start": 1212.84,
+  "end": 1215.23,
+  "text": "can see test cases modules requirements"
+ },
+ {
+  "start": 1215.24,
+  "end": 1217.63,
+  "text": "test design execution"
+ },
+ {
+  "start": 1217.64,
+  "end": 1221.409,
+  "text": "Etc right so everything is present here"
+ },
+ {
+  "start": 1221.419,
+  "end": 1225.31,
+  "text": "um the only last thing which is also"
+ },
+ {
+  "start": 1225.32,
+  "end": 1226.33,
+  "text": "important"
+ },
+ {
+  "start": 1226.34,
+  "end": 1229.75,
+  "text": "so while scanning any module so right"
+ },
+ {
+  "start": 1229.76,
+  "end": 1232.09,
+  "text": "now if I if I'm going to scan a"
+ },
+ {
+  "start": 1232.1,
+  "end": 1235.81,
+  "text": "particular module so let me open Chrome"
+ },
+ {
+  "start": 1235.82,
+  "end": 1240.19,
+  "text": "for that matter now by default you will"
+ },
+ {
+  "start": 1240.2,
+  "end": 1243.01,
+  "text": "not get Google Chrome in your Windows"
+ },
+ {
+  "start": 1243.02,
+  "end": 1248.77,
+  "text": "Server when you launch a new AWS ec2 but"
+ },
+ {
+  "start": 1248.78,
+  "end": 1251.59,
+  "text": "in the background I did download and"
+ },
+ {
+  "start": 1251.6,
+  "end": 1254.95,
+  "text": "install Google Chrome"
+ },
+ {
+  "start": 1258.669,
+  "end": 1258.679,
+  "text": "so let's just open google.com and try to"
+ },
+ {
+  "start": 1258.679,
+  "end": 1265.81,
+  "text": "scan some modules with our new Tosca"
+ },
+ {
+  "start": 1268.87,
+  "end": 1268.88,
+  "text": "so let's go back to Tosca and create a"
+ },
+ {
+  "start": 1268.88,
+  "end": 1271.69,
+  "text": "new module and try to scan the speech so"
+ },
+ {
+  "start": 1271.7,
+  "end": 1273.97,
+  "text": "right click and"
+ },
+ {
+  "start": 1273.98,
+  "end": 1279.13,
+  "text": "create a new folder here"
+ },
+ {
+  "start": 1290.529,
+  "end": 1290.539,
+  "text": "and now let's right click on this and"
+ },
+ {
+  "start": 1290.539,
+  "end": 1297.57,
+  "text": "try to scan this application"
+ },
+ {
+  "start": 1300.909,
+  "end": 1300.919,
+  "text": "and now you you should notice that you"
+ },
+ {
+  "start": 1300.919,
+  "end": 1303.07,
+  "text": "are not able to scan that particular"
+ },
+ {
+  "start": 1303.08,
+  "end": 1305.73,
+  "text": "application because it's open in Chrome"
+ },
+ {
+  "start": 1305.74,
+  "end": 1309.49,
+  "text": "and every browser requires an extension"
+ },
+ {
+  "start": 1309.5,
+  "end": 1312.37,
+  "text": "uh before you can"
+ },
+ {
+  "start": 1312.38,
+  "end": 1315.31,
+  "text": "scan your objects in that browser using"
+ },
+ {
+  "start": 1315.32,
+  "end": 1318.07,
+  "text": "Tosca so you need to install a Tosca"
+ },
+ {
+  "start": 1318.08,
+  "end": 1320.59,
+  "text": "extension and that is the last thing"
+ },
+ {
+  "start": 1320.6,
+  "end": 1322.83,
+  "text": "which I wanted to show you"
+ },
+ {
+  "start": 1322.84,
+  "end": 1327.61,
+  "text": "so uh once it starts this x-scan it is"
+ },
+ {
+  "start": 1327.62,
+  "end": 1330.25,
+  "text": "going to realize that that extension is"
+ },
+ {
+  "start": 1330.26,
+  "end": 1333.37,
+  "text": "not installed on this browser"
+ },
+ {
+  "start": 1333.38,
+  "end": 1336.01,
+  "text": "so let's try and select Google Chrome"
+ },
+ {
+  "start": 1336.02,
+  "end": 1338.71,
+  "text": "here and try to scan"
+ },
+ {
+  "start": 1338.72,
+  "end": 1340.81,
+  "text": "and as you can see now it is throwing a"
+ },
+ {
+  "start": 1340.82,
+  "end": 1342.909,
+  "text": "message saying browser extension not"
+ },
+ {
+  "start": 1342.919,
+  "end": 1346.93,
+  "text": "installed or outdated right so"
+ },
+ {
+  "start": 1346.94,
+  "end": 1348.669,
+  "text": "in order to scan you need to install"
+ },
+ {
+  "start": 1348.679,
+  "end": 1351.61,
+  "text": "this extension from Tosca and let's"
+ },
+ {
+  "start": 1351.62,
+  "end": 1354.61,
+  "text": "click on yes so it will directly take us"
+ },
+ {
+  "start": 1354.62,
+  "end": 1356.529,
+  "text": "to that page where we can install this"
+ },
+ {
+  "start": 1356.539,
+  "end": 1358.45,
+  "text": "extension"
+ },
+ {
+  "start": 1358.46,
+  "end": 1361.029,
+  "text": "and then here we just need to add this"
+ },
+ {
+  "start": 1361.039,
+  "end": 1363.549,
+  "text": "extension to our Chrome browser"
+ },
+ {
+  "start": 1363.559,
+  "end": 1367.69,
+  "text": "so click on add to Chrome"
+ },
+ {
+  "start": 1370.45,
+  "end": 1370.46,
+  "text": "and it should start adding this"
+ },
+ {
+  "start": 1370.46,
+  "end": 1371.95,
+  "text": "extension"
+ },
+ {
+  "start": 1371.96,
+  "end": 1375.13,
+  "text": "once that's done then our Tosca"
+ },
+ {
+  "start": 1375.14,
+  "end": 1378.07,
+  "text": "installation would be complete and we"
+ },
+ {
+  "start": 1378.08,
+  "end": 1381.669,
+  "text": "would be able to scan a module using"
+ },
+ {
+  "start": 1381.679,
+  "end": 1385.57,
+  "text": "um Chrome browser"
+ },
+ {
+  "start": 1388.63,
+  "end": 1388.64,
+  "text": "so that's completed we can close that"
+ },
+ {
+  "start": 1388.64,
+  "end": 1392.19,
+  "text": "window and go back to our Google module"
+ },
+ {
+  "start": 1392.2,
+  "end": 1395.77,
+  "text": "and let's try to scan again this time"
+ },
+ {
+  "start": 1395.78,
+  "end": 1399.69,
+  "text": "around it should work"
+ },
+ {
+  "start": 1403.81,
+  "end": 1403.82,
+  "text": "okay so the X scan is already running in"
+ },
+ {
+  "start": 1403.82,
+  "end": 1404.77,
+  "text": "the background"
+ },
+ {
+  "start": 1404.78,
+  "end": 1408.73,
+  "text": "so let's wait"
+ },
+ {
+  "start": 1412.57,
+  "end": 1412.58,
+  "text": "okay so now you can see that message did"
+ },
+ {
+  "start": 1412.58,
+  "end": 1415.27,
+  "text": "not appear and now I can go to the"
+ },
+ {
+  "start": 1415.28,
+  "end": 1416.529,
+  "text": "advanced tab"
+ },
+ {
+  "start": 1416.539,
+  "end": 1421.87,
+  "text": "and I can just uh maybe just add some"
+ },
+ {
+  "start": 1421.88,
+  "end": 1429.97,
+  "text": "controls"
+ },
+ {
+  "start": 1433.51,
+  "end": 1433.52,
+  "text": "okay so this item is not unique"
+ },
+ {
+  "start": 1433.52,
+  "end": 1436.45,
+  "text": "um I can even change it"
+ },
+ {
+  "start": 1436.46,
+  "end": 1440.049,
+  "text": "by image or by index"
+ },
+ {
+  "start": 1440.059,
+  "end": 1443.529,
+  "text": "to make it unique"
+ },
+ {
+  "start": 1452.049,
+  "end": 1452.059,
+  "text": "and that makes it unique okay so that's"
+ },
+ {
+  "start": 1452.059,
+  "end": 1455.049,
+  "text": "all I wanted to do here uh I will click"
+ },
+ {
+  "start": 1455.059,
+  "end": 1461.289,
+  "text": "on Save quickly uh to save this module"
+ },
+ {
+  "start": 1466.33,
+  "end": 1466.34,
+  "text": "okay and then close this window"
+ },
+ {
+  "start": 1466.34,
+  "end": 1469.57,
+  "text": "so now our scanning is also working we"
+ },
+ {
+  "start": 1469.58,
+  "end": 1471.909,
+  "text": "can scan modules with the Chrome browser"
+ },
+ {
+  "start": 1471.919,
+  "end": 1475.57,
+  "text": "so that completes the whole setup okay"
+ },
+ {
+  "start": 1475.58,
+  "end": 1477.97,
+  "text": "so the whole setup consisted of"
+ },
+ {
+  "start": 1477.98,
+  "end": 1481.029,
+  "text": "basically three steps the first step was"
+ },
+ {
+  "start": 1481.039,
+  "end": 1485.11,
+  "text": "to create a Windows ec2 server on AWS"
+ },
+ {
+  "start": 1485.12,
+  "end": 1489.01,
+  "text": "and then we installed we downloaded and"
+ },
+ {
+  "start": 1489.02,
+  "end": 1492.07,
+  "text": "installed the Tosca 16.0 version on this"
+ },
+ {
+  "start": 1492.08,
+  "end": 1495.07,
+  "text": "Windows ec2 server we connected to the"
+ },
+ {
+  "start": 1495.08,
+  "end": 1498.909,
+  "text": "cloud license uh using our training"
+ },
+ {
+  "start": 1498.919,
+  "end": 1502.21,
+  "text": "license which we deployed already"
+ },
+ {
+  "start": 1502.22,
+  "end": 1504.669,
+  "text": "and then we finally installed the"
+ },
+ {
+  "start": 1504.679,
+  "end": 1507.13,
+  "text": "extension on the Chrome browser and we"
+ },
+ {
+  "start": 1507.14,
+  "end": 1509.289,
+  "text": "scanned few modules just to make sure"
+ },
+ {
+  "start": 1509.299,
+  "end": 1513.19,
+  "text": "that everything is working as expected"
+ },
+ {
+  "start": 1513.2,
+  "end": 1516.25,
+  "text": "so if you have noticed it's a little"
+ },
+ {
+  "start": 1516.26,
+  "end": 1519.909,
+  "text": "slow uh because I am running on a very"
+ },
+ {
+  "start": 1519.919,
+  "end": 1523.21,
+  "text": "low configuration Windows server"
+ },
+ {
+  "start": 1523.22,
+  "end": 1527.529,
+  "text": "but ideally you should be running Tosca"
+ },
+ {
+  "start": 1527.539,
+  "end": 1532.21,
+  "text": "on at least a 8 gigabit memory right so"
+ },
+ {
+  "start": 1532.22,
+  "end": 1535.69,
+  "text": "just choose a higher version of ec2 uh"
+ },
+ {
+  "start": 1535.7,
+  "end": 1537.97,
+  "text": "when you are creating a new Windows"
+ },
+ {
+  "start": 1537.98,
+  "end": 1540.549,
+  "text": "Server if you want to run this for a"
+ },
+ {
+  "start": 1540.559,
+  "end": 1542.529,
+  "text": "very long time right"
+ },
+ {
+  "start": 1542.539,
+  "end": 1544.99,
+  "text": "um the only disadvantage is it would"
+ },
+ {
+  "start": 1545.0,
+  "end": 1548.769,
+  "text": "incur some cost or charges on on your"
+ },
+ {
+  "start": 1548.779,
+  "end": 1552.669,
+  "text": "AWS account but still it's a very good"
+ },
+ {
+  "start": 1552.679,
+  "end": 1554.35,
+  "text": "option if you don't have that"
+ },
+ {
+  "start": 1554.36,
+  "end": 1556.99,
+  "text": "configuration in your local machine or"
+ },
+ {
+  "start": 1557.0,
+  "end": 1559.149,
+  "text": "you don't want to run Tosca on your"
+ },
+ {
+  "start": 1559.159,
+  "end": 1561.25,
+  "text": "local machine you want to run it on a"
+ },
+ {
+  "start": 1561.26,
+  "end": 1564.85,
+  "text": "virtual server so this way you can run"
+ },
+ {
+  "start": 1564.86,
+  "end": 1566.909,
+  "text": "all your automation on a virtual server"
+ },
+ {
+  "start": 1566.919,
+  "end": 1571.09,
+  "text": "and you can even start it from a Mac OS"
+ },
+ {
+  "start": 1571.1,
+  "end": 1574.99,
+  "text": "right you cannot install uh Tosca on a"
+ },
+ {
+  "start": 1575.0,
+  "end": 1578.83,
+  "text": "Mac machine but you can install it on a"
+ },
+ {
+  "start": 1578.84,
+  "end": 1581.409,
+  "text": "Windows ec2 server and virtually start"
+ },
+ {
+  "start": 1581.419,
+  "end": 1584.23,
+  "text": "it from the Mac OS right so you can"
+ },
+ {
+  "start": 1584.24,
+  "end": 1587.11,
+  "text": "still run Tosca from a Mac OS or any"
+ },
+ {
+  "start": 1587.12,
+  "end": 1590.529,
+  "text": "other OS using this way where you are"
+ },
+ {
+  "start": 1590.539,
+  "end": 1594.73,
+  "text": "using using a AWS ec2 Windows server"
+ },
+ {
+  "start": 1594.74,
+  "end": 1598.09,
+  "text": "so that's all for this video this is how"
+ },
+ {
+  "start": 1598.1,
+  "end": 1600.97,
+  "text": "you can download and set up your Tosca"
+ },
+ {
+  "start": 1600.98,
+  "end": 1604.029,
+  "text": "on a AWS ec2 server and start running"
+ },
+ {
+  "start": 1604.039,
+  "end": 1607.93,
+  "text": "Tosca commander and start working on"
+ },
+ {
+  "start": 1607.94,
+  "end": 1611.32,
+  "text": "your Tosca automation"
+ }
+]

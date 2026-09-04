@@ -1,0 +1,2077 @@
+[
+ {
+  "start": 1.829,
+  "end": 1.839,
+  "text": "hey everyone welcome to another lesson"
+ },
+ {
+  "start": 1.839,
+  "end": 4.07,
+  "text": "in this task automation course"
+ },
+ {
+  "start": 4.08,
+  "end": 5.749,
+  "text": "this is the part two"
+ },
+ {
+  "start": 5.759,
+  "end": 8.549,
+  "text": "from the test case design section so if"
+ },
+ {
+  "start": 8.559,
+  "end": 11.03,
+  "text": "you have not watched the part one"
+ },
+ {
+  "start": 11.04,
+  "end": 13.35,
+  "text": "so go ahead and watch the previous"
+ },
+ {
+  "start": 13.36,
+  "end": 15.749,
+  "text": "session where we have discussed about"
+ },
+ {
+  "start": 15.759,
+  "end": 18.15,
+  "text": "what is test case design sheet"
+ },
+ {
+  "start": 18.16,
+  "end": 20.71,
+  "text": "what are different attributes how you"
+ },
+ {
+  "start": 20.72,
+  "end": 23.83,
+  "text": "can create them in tosca right so once"
+ },
+ {
+  "start": 23.84,
+  "end": 26.31,
+  "text": "you do that you can come here and then"
+ },
+ {
+  "start": 26.32,
+  "end": 28.79,
+  "text": "we can learn about different instances"
+ },
+ {
+  "start": 28.8,
+  "end": 31.91,
+  "text": "right so once you create your attributes"
+ },
+ {
+  "start": 31.92,
+  "end": 34.63,
+  "text": "you need to create different instances"
+ },
+ {
+  "start": 34.64,
+  "end": 36.95,
+  "text": "of those attributes right so these"
+ },
+ {
+  "start": 36.96,
+  "end": 38.869,
+  "text": "instances are nothing but they are"
+ },
+ {
+  "start": 38.879,
+  "end": 41.67,
+  "text": "different variations of your attribute"
+ },
+ {
+  "start": 41.68,
+  "end": 44.709,
+  "text": "in your application right"
+ },
+ {
+  "start": 44.719,
+  "end": 47.029,
+  "text": "so for example when we created an"
+ },
+ {
+  "start": 47.039,
+  "end": 49.91,
+  "text": "attribute called customer type or user"
+ },
+ {
+  "start": 49.92,
+  "end": 52.31,
+  "text": "type right so it had got different"
+ },
+ {
+  "start": 52.32,
+  "end": 54.63,
+  "text": "values in your application it could be a"
+ },
+ {
+  "start": 54.64,
+  "end": 57.67,
+  "text": "registered user a unregistered user"
+ },
+ {
+  "start": 57.68,
+  "end": 59.51,
+  "text": "or it could be a business user or a"
+ },
+ {
+  "start": 59.52,
+  "end": 61.83,
+  "text": "technical user right so there are four"
+ },
+ {
+  "start": 61.84,
+  "end": 63.51,
+  "text": "different variations of a single"
+ },
+ {
+  "start": 63.52,
+  "end": 66.469,
+  "text": "attribute which is the user"
+ },
+ {
+  "start": 66.479,
+  "end": 69.27,
+  "text": "okay now all these different four values"
+ },
+ {
+  "start": 69.28,
+  "end": 72.31,
+  "text": "or variations are known as instances so"
+ },
+ {
+  "start": 72.32,
+  "end": 73.83,
+  "text": "you have to create four different"
+ },
+ {
+  "start": 73.84,
+  "end": 76.87,
+  "text": "instances of that attribute in your test"
+ },
+ {
+  "start": 76.88,
+  "end": 77.91,
+  "text": "sheet"
+ },
+ {
+  "start": 77.92,
+  "end": 80.95,
+  "text": "okay"
+ },
+ {
+  "start": 84.23,
+  "end": 84.24,
+  "text": "now uh coming to uh different properties"
+ },
+ {
+  "start": 84.24,
+  "end": 86.39,
+  "text": "of these instances right so when you"
+ },
+ {
+  "start": 86.4,
+  "end": 88.55,
+  "text": "create an instance it has got"
+ },
+ {
+  "start": 88.56,
+  "end": 91.03,
+  "text": "certain properties which can be um"
+ },
+ {
+  "start": 91.04,
+  "end": 93.67,
+  "text": "altered based on your"
+ },
+ {
+  "start": 93.68,
+  "end": 97.109,
+  "text": "scenario of your test case okay"
+ },
+ {
+  "start": 97.119,
+  "end": 98.789,
+  "text": "so the different properties are"
+ },
+ {
+  "start": 98.799,
+  "end": 100.789,
+  "text": "basically two important properties which"
+ },
+ {
+  "start": 100.799,
+  "end": 102.63,
+  "text": "you should consider are character and"
+ },
+ {
+  "start": 102.64,
+  "end": 106.63,
+  "text": "position okay now character"
+ },
+ {
+  "start": 106.64,
+  "end": 109.27,
+  "text": "this character property it tells us"
+ },
+ {
+  "start": 109.28,
+  "end": 111.59,
+  "text": "whether it's a valid instance an invalid"
+ },
+ {
+  "start": 111.6,
+  "end": 113.51,
+  "text": "instance or a straight through instance"
+ },
+ {
+  "start": 113.52,
+  "end": 115.109,
+  "text": "okay so we can toggle between these"
+ },
+ {
+  "start": 115.119,
+  "end": 117.27,
+  "text": "three different types of character"
+ },
+ {
+  "start": 117.28,
+  "end": 119.51,
+  "text": "properties okay"
+ },
+ {
+  "start": 119.52,
+  "end": 123.109,
+  "text": "now if it's a valid uh type of character"
+ },
+ {
+  "start": 123.119,
+  "end": 124.63,
+  "text": "instance right"
+ },
+ {
+  "start": 124.64,
+  "end": 127.67,
+  "text": "then uh that should be no error expected"
+ },
+ {
+  "start": 127.68,
+  "end": 129.109,
+  "text": "when you run this"
+ },
+ {
+  "start": 129.119,
+  "end": 132.55,
+  "text": "in your application okay so"
+ },
+ {
+  "start": 132.56,
+  "end": 135.03,
+  "text": "it's the default type of uh character"
+ },
+ {
+  "start": 135.04,
+  "end": 136.63,
+  "text": "property value which is assigned to"
+ },
+ {
+  "start": 136.64,
+  "end": 139.03,
+  "text": "every instance if you don't change it"
+ },
+ {
+  "start": 139.04,
+  "end": 140.39,
+  "text": "and"
+ },
+ {
+  "start": 140.4,
+  "end": 142.79,
+  "text": "when you put um a"
+ },
+ {
+  "start": 142.8,
+  "end": 145.43,
+  "text": "instance as a valid character instance"
+ },
+ {
+  "start": 145.44,
+  "end": 148.63,
+  "text": "then basically it should not fail"
+ },
+ {
+  "start": 148.64,
+  "end": 150.949,
+  "text": "okay or there should be no error when"
+ },
+ {
+  "start": 150.959,
+  "end": 153.03,
+  "text": "executing this particular test case in"
+ },
+ {
+  "start": 153.04,
+  "end": 155.509,
+  "text": "this particular instance okay"
+ },
+ {
+  "start": 155.519,
+  "end": 157.75,
+  "text": "the next type is invalid"
+ },
+ {
+  "start": 157.76,
+  "end": 160.63,
+  "text": "although this doesn't mean that um"
+ },
+ {
+  "start": 160.64,
+  "end": 162.79,
+  "text": "it's an instance which should always"
+ },
+ {
+  "start": 162.8,
+  "end": 164.15,
+  "text": "fail no"
+ },
+ {
+  "start": 164.16,
+  "end": 165.03,
+  "text": "uh"
+ },
+ {
+  "start": 165.04,
+  "end": 166.15,
+  "text": "it's"
+ },
+ {
+  "start": 166.16,
+  "end": 168.55,
+  "text": "it's an instance where it will give you"
+ },
+ {
+  "start": 168.56,
+  "end": 171.27,
+  "text": "an error and it's a valid error because"
+ },
+ {
+  "start": 171.28,
+  "end": 174.63,
+  "text": "you have given an invalid input right so"
+ },
+ {
+  "start": 174.64,
+  "end": 176.55,
+  "text": "that type of instance is known as the"
+ },
+ {
+  "start": 176.56,
+  "end": 178.869,
+  "text": "invalid character instance"
+ },
+ {
+  "start": 178.879,
+  "end": 180.55,
+  "text": "and then there is the third type which"
+ },
+ {
+  "start": 180.56,
+  "end": 182.79,
+  "text": "is the straight through"
+ },
+ {
+  "start": 182.8,
+  "end": 185.509,
+  "text": "value for character instance now this is"
+ },
+ {
+  "start": 185.519,
+  "end": 188.869,
+  "text": "um the scenarios where um"
+ },
+ {
+  "start": 188.879,
+  "end": 190.47,
+  "text": "it's the most critical part of your"
+ },
+ {
+  "start": 190.48,
+  "end": 194.229,
+  "text": "application and the business flow is the"
+ },
+ {
+  "start": 194.239,
+  "end": 196.55,
+  "text": "is most frequently used by the customers"
+ },
+ {
+  "start": 196.56,
+  "end": 198.149,
+  "text": "right so you should define your"
+ },
+ {
+  "start": 198.159,
+  "end": 199.27,
+  "text": "instances"
+ },
+ {
+  "start": 199.28,
+  "end": 200.949,
+  "text": "as straight through"
+ },
+ {
+  "start": 200.959,
+  "end": 203.67,
+  "text": "which you consider it as a happy path"
+ },
+ {
+  "start": 203.68,
+  "end": 205.99,
+  "text": "right which has the fewest dependencies"
+ },
+ {
+  "start": 206.0,
+  "end": 208.63,
+  "text": "in your application and also it is easy"
+ },
+ {
+  "start": 208.64,
+  "end": 210.949,
+  "text": "to implement right so all these"
+ },
+ {
+  "start": 210.959,
+  "end": 213.27,
+  "text": "instances should be considered or should"
+ },
+ {
+  "start": 213.28,
+  "end": 216.07,
+  "text": "be defined as straight through right so"
+ },
+ {
+  "start": 216.08,
+  "end": 218.949,
+  "text": "you always expect these instances to at"
+ },
+ {
+  "start": 218.959,
+  "end": 221.75,
+  "text": "least pass whenever you are running all"
+ },
+ {
+  "start": 221.76,
+  "end": 223.19,
+  "text": "your test cases"
+ },
+ {
+  "start": 223.2,
+  "end": 226.47,
+  "text": "okay so when there is less time and you"
+ },
+ {
+  "start": 226.48,
+  "end": 228.07,
+  "text": "have to"
+ },
+ {
+  "start": 228.08,
+  "end": 230.71,
+  "text": "execute a lot of test cases what you can"
+ },
+ {
+  "start": 230.72,
+  "end": 233.509,
+  "text": "do is you can just execute the straight"
+ },
+ {
+  "start": 233.519,
+  "end": 235.75,
+  "text": "through cases because these are the high"
+ },
+ {
+  "start": 235.76,
+  "end": 239.589,
+  "text": "risk instances and they are very easy to"
+ },
+ {
+  "start": 239.599,
+  "end": 242.63,
+  "text": "run or they are your happy path okay so"
+ },
+ {
+  "start": 242.64,
+  "end": 244.949,
+  "text": "if they run successfully you can make"
+ },
+ {
+  "start": 244.959,
+  "end": 248.869,
+  "text": "sure that uh at least your high risk"
+ },
+ {
+  "start": 248.879,
+  "end": 250.789,
+  "text": "functionality of your application is"
+ },
+ {
+  "start": 250.799,
+  "end": 253.03,
+  "text": "working okay"
+ },
+ {
+  "start": 253.04,
+  "end": 254.789,
+  "text": "now coming to position which is another"
+ },
+ {
+  "start": 254.799,
+  "end": 256.629,
+  "text": "property for an instance"
+ },
+ {
+  "start": 256.639,
+  "end": 259.189,
+  "text": "and this tells you whether um"
+ },
+ {
+  "start": 259.199,
+  "end": 262.23,
+  "text": "a instance is a boundary value instance"
+ },
+ {
+  "start": 262.24,
+  "end": 264.39,
+  "text": "or a inner value instance okay so there"
+ },
+ {
+  "start": 264.4,
+  "end": 265.749,
+  "text": "are two types"
+ },
+ {
+  "start": 265.759,
+  "end": 267.67,
+  "text": "and"
+ },
+ {
+  "start": 267.68,
+  "end": 269.99,
+  "text": "if you have uh learned the testing"
+ },
+ {
+  "start": 270.0,
+  "end": 272.469,
+  "text": "concepts right so this is the pretty"
+ },
+ {
+  "start": 272.479,
+  "end": 275.189,
+  "text": "basic uh concept which is used for"
+ },
+ {
+  "start": 275.199,
+  "end": 277.27,
+  "text": "designing your test cases okay so"
+ },
+ {
+  "start": 277.28,
+  "end": 280.23,
+  "text": "whenever you're trying to define um what"
+ },
+ {
+  "start": 280.24,
+  "end": 283.749,
+  "text": "kind of test cases you are going to"
+ },
+ {
+  "start": 283.759,
+  "end": 286.31,
+  "text": "design from the requirements so you"
+ },
+ {
+  "start": 286.32,
+  "end": 289.11,
+  "text": "consider the boundary values and um the"
+ },
+ {
+  "start": 289.12,
+  "end": 291.35,
+  "text": "equivalence class partitioning okay so"
+ },
+ {
+  "start": 291.36,
+  "end": 293.51,
+  "text": "these are two very common"
+ },
+ {
+  "start": 293.52,
+  "end": 296.629,
+  "text": "uh keywords which you heard in testing"
+ },
+ {
+  "start": 296.639,
+  "end": 297.67,
+  "text": "okay"
+ },
+ {
+  "start": 297.68,
+  "end": 299.99,
+  "text": "now boundary values what are these uh so"
+ },
+ {
+  "start": 300.0,
+  "end": 302.39,
+  "text": "when you have a range of values"
+ },
+ {
+  "start": 302.4,
+  "end": 303.67,
+  "text": "the"
+ },
+ {
+  "start": 303.68,
+  "end": 307.029,
+  "text": "boundaries are considered um as the"
+ },
+ {
+  "start": 307.039,
+  "end": 309.43,
+  "text": "extreme values okay so"
+ },
+ {
+  "start": 309.44,
+  "end": 313.11,
+  "text": "uh you cannot have uh valid inputs"
+ },
+ {
+  "start": 313.12,
+  "end": 315.67,
+  "text": "beyond these boundaries okay so for"
+ },
+ {
+  "start": 315.68,
+  "end": 318.39,
+  "text": "example if we have the product quantity"
+ },
+ {
+  "start": 318.4,
+  "end": 320.15,
+  "text": "um and it"
+ },
+ {
+  "start": 320.16,
+  "end": 324.15,
+  "text": "accepts a value between a range 1 to 10"
+ },
+ {
+  "start": 324.16,
+  "end": 325.189,
+  "text": "so"
+ },
+ {
+  "start": 325.199,
+  "end": 327.909,
+  "text": "your valid values are should be between"
+ },
+ {
+  "start": 327.919,
+  "end": 330.39,
+  "text": "1 to 10 right"
+ },
+ {
+  "start": 330.4,
+  "end": 332.87,
+  "text": "and 1 and 10 are considered as"
+ },
+ {
+  "start": 332.88,
+  "end": 333.909,
+  "text": "boundaries"
+ },
+ {
+  "start": 333.919,
+  "end": 336.469,
+  "text": "so beyond these um"
+ },
+ {
+  "start": 336.479,
+  "end": 339.27,
+  "text": "they could be uh invalid inputs so you"
+ },
+ {
+  "start": 339.28,
+  "end": 340.95,
+  "text": "should consider them when you are"
+ },
+ {
+  "start": 340.96,
+  "end": 343.27,
+  "text": "testing for your negative testing but"
+ },
+ {
+  "start": 343.28,
+  "end": 347.27,
+  "text": "still they are not the valid values okay"
+ },
+ {
+  "start": 347.28,
+  "end": 350.15,
+  "text": "so all other values within the range"
+ },
+ {
+  "start": 350.16,
+  "end": 352.39,
+  "text": "that do not fall immediately between"
+ },
+ {
+  "start": 352.4,
+  "end": 355.35,
+  "text": "um or around the boundaries are known as"
+ },
+ {
+  "start": 355.36,
+  "end": 357.99,
+  "text": "the inner values in tosca or in test"
+ },
+ {
+  "start": 358.0,
+  "end": 360.07,
+  "text": "case design sheets okay"
+ },
+ {
+  "start": 360.08,
+  "end": 363.51,
+  "text": "so in our example of for quantity as you"
+ },
+ {
+  "start": 363.52,
+  "end": 364.79,
+  "text": "can see"
+ },
+ {
+  "start": 364.8,
+  "end": 368.07,
+  "text": "the 1 and 10 are our boundaries for that"
+ },
+ {
+  "start": 368.08,
+  "end": 369.59,
+  "text": "particular instance"
+ },
+ {
+  "start": 369.6,
+  "end": 372.629,
+  "text": "um the values between 2 and 9"
+ },
+ {
+  "start": 372.639,
+  "end": 374.71,
+  "text": "are the inner values"
+ },
+ {
+  "start": 374.72,
+  "end": 378.07,
+  "text": "and the values which are outside the"
+ },
+ {
+  "start": 378.08,
+  "end": 381.43,
+  "text": "boundaries right so for example um"
+ },
+ {
+  "start": 381.44,
+  "end": 382.87,
+  "text": "values like"
+ },
+ {
+  "start": 382.88,
+  "end": 386.15,
+  "text": "11 12 13 right which are greater than 10"
+ },
+ {
+  "start": 386.16,
+  "end": 388.87,
+  "text": "are also known as upper boundary values"
+ },
+ {
+  "start": 388.88,
+  "end": 391.749,
+  "text": "and values which are lower than one say"
+ },
+ {
+  "start": 391.759,
+  "end": 394.07,
+  "text": "for example zero or negative values"
+ },
+ {
+  "start": 394.08,
+  "end": 396.23,
+  "text": "right so these will be lower boundary"
+ },
+ {
+  "start": 396.24,
+  "end": 398.15,
+  "text": "values"
+ },
+ {
+  "start": 398.16,
+  "end": 400.469,
+  "text": "so you can toggle uh your position of"
+ },
+ {
+  "start": 400.479,
+  "end": 401.35,
+  "text": "your"
+ },
+ {
+  "start": 401.36,
+  "end": 403.67,
+  "text": "instances based on"
+ },
+ {
+  "start": 403.68,
+  "end": 406.71,
+  "text": "what kind of scenarios you want to"
+ },
+ {
+  "start": 406.72,
+  "end": 409.35,
+  "text": "design for your test cases right so"
+ },
+ {
+  "start": 409.36,
+  "end": 411.51,
+  "text": "based on that you have to define the"
+ },
+ {
+  "start": 411.52,
+  "end": 414.15,
+  "text": "character and the position property for"
+ },
+ {
+  "start": 414.16,
+  "end": 417.99,
+  "text": "your instance"
+ },
+ {
+  "start": 419.909,
+  "end": 419.919,
+  "text": "okay so now let's see"
+ },
+ {
+  "start": 419.919,
+  "end": 421.35,
+  "text": "how we can"
+ },
+ {
+  "start": 421.36,
+  "end": 423.83,
+  "text": "create some instances for our attributes"
+ },
+ {
+  "start": 423.84,
+  "end": 426.629,
+  "text": "which we created earlier and how we can"
+ },
+ {
+  "start": 426.639,
+  "end": 428.87,
+  "text": "also toggle the character and position"
+ },
+ {
+  "start": 428.88,
+  "end": 432.23,
+  "text": "properties for these instances in tosca"
+ },
+ {
+  "start": 432.24,
+  "end": 434.23,
+  "text": "so now i am back in tosca where we"
+ },
+ {
+  "start": 434.24,
+  "end": 438.309,
+  "text": "already created a test case design sheet"
+ },
+ {
+  "start": 438.319,
+  "end": 440.71,
+  "text": "for our products page right and we had"
+ },
+ {
+  "start": 440.72,
+  "end": 442.95,
+  "text": "defined different attributes"
+ },
+ {
+  "start": 442.96,
+  "end": 445.27,
+  "text": "so now we need different instances"
+ },
+ {
+  "start": 445.28,
+  "end": 447.35,
+  "text": "although i'm not going to fill in"
+ },
+ {
+  "start": 447.36,
+  "end": 449.749,
+  "text": "instances for each and every attribute"
+ },
+ {
+  "start": 449.759,
+  "end": 451.99,
+  "text": "in the session but i'm going to show you"
+ },
+ {
+  "start": 452.0,
+  "end": 454.629,
+  "text": "at least one from each section right so"
+ },
+ {
+  "start": 454.639,
+  "end": 457.51,
+  "text": "you can fill the others"
+ },
+ {
+  "start": 457.52,
+  "end": 460.39,
+  "text": "um so in this administration part uh you"
+ },
+ {
+  "start": 460.4,
+  "end": 463.11,
+  "text": "can create a in test designer you can"
+ },
+ {
+  "start": 463.12,
+  "end": 464.95,
+  "text": "put the tester names"
+ },
+ {
+  "start": 464.96,
+  "end": 466.71,
+  "text": "uh you can business contact you can put"
+ },
+ {
+  "start": 466.72,
+  "end": 468.71,
+  "text": "the business analyst names as different"
+ },
+ {
+  "start": 468.72,
+  "end": 469.909,
+  "text": "instances"
+ },
+ {
+  "start": 469.919,
+  "end": 471.83,
+  "text": "and test cycle"
+ },
+ {
+  "start": 471.84,
+  "end": 473.749,
+  "text": "let's see how we can create an instance"
+ },
+ {
+  "start": 473.759,
+  "end": 475.749,
+  "text": "here right so when you right click"
+ },
+ {
+  "start": 475.759,
+  "end": 478.07,
+  "text": "you can see there is an option called"
+ },
+ {
+  "start": 478.08,
+  "end": 480.79,
+  "text": "create instance click on that"
+ },
+ {
+  "start": 480.8,
+  "end": 482.79,
+  "text": "and now you will get"
+ },
+ {
+  "start": 482.8,
+  "end": 485.189,
+  "text": "an option to create your own instance"
+ },
+ {
+  "start": 485.199,
+  "end": 488.07,
+  "text": "under the instances okay"
+ },
+ {
+  "start": 488.08,
+  "end": 489.589,
+  "text": "so"
+ },
+ {
+  "start": 489.599,
+  "end": 491.11,
+  "text": "it's not possible to create sub"
+ },
+ {
+  "start": 491.12,
+  "end": 493.43,
+  "text": "instances you can only create"
+ },
+ {
+  "start": 493.44,
+  "end": 496.629,
+  "text": "instances for each attribute okay so for"
+ },
+ {
+  "start": 496.639,
+  "end": 499.11,
+  "text": "test cycle i can say this is either"
+ },
+ {
+  "start": 499.12,
+  "end": 501.189,
+  "text": "smoke"
+ },
+ {
+  "start": 501.199,
+  "end": 503.67,
+  "text": "or i can create another instance here"
+ },
+ {
+  "start": 503.68,
+  "end": 504.83,
+  "text": "called"
+ },
+ {
+  "start": 504.84,
+  "end": 507.189,
+  "text": "regression right so there could be"
+ },
+ {
+  "start": 507.199,
+  "end": 510.869,
+  "text": "different instances for the cycle"
+ },
+ {
+  "start": 510.879,
+  "end": 513.909,
+  "text": "now coming to type of user"
+ },
+ {
+  "start": 513.919,
+  "end": 515.269,
+  "text": "i can create"
+ },
+ {
+  "start": 515.279,
+  "end": 516.389,
+  "text": "an"
+ },
+ {
+  "start": 516.399,
+  "end": 519.19,
+  "text": "user called or instance called"
+ },
+ {
+  "start": 519.2,
+  "end": 520.709,
+  "text": "registered"
+ },
+ {
+  "start": 520.719,
+  "end": 524.23,
+  "text": "and i can create another one as new"
+ },
+ {
+  "start": 524.24,
+  "end": 527.19,
+  "text": "right so there are two instances"
+ },
+ {
+  "start": 527.2,
+  "end": 529.509,
+  "text": "similarly um"
+ },
+ {
+  "start": 529.519,
+  "end": 532.949,
+  "text": "for uh products right so"
+ },
+ {
+  "start": 532.959,
+  "end": 535.509,
+  "text": "for quantity uh we can create different"
+ },
+ {
+  "start": 535.519,
+  "end": 536.949,
+  "text": "instances"
+ },
+ {
+  "start": 536.959,
+  "end": 539.75,
+  "text": "like the quantity could be one it could"
+ },
+ {
+  "start": 539.76,
+  "end": 541.67,
+  "text": "be two"
+ },
+ {
+  "start": 541.68,
+  "end": 543.19,
+  "text": "it could be"
+ },
+ {
+  "start": 543.2,
+  "end": 546.15,
+  "text": "three or as usual so you can put"
+ },
+ {
+  "start": 546.16,
+  "end": 548.31,
+  "text": "instances different instances for"
+ },
+ {
+  "start": 548.32,
+  "end": 549.91,
+  "text": "different product names"
+ },
+ {
+  "start": 549.92,
+  "end": 552.71,
+  "text": "uh different prices right for those"
+ },
+ {
+  "start": 552.72,
+  "end": 554.87,
+  "text": "products"
+ },
+ {
+  "start": 554.88,
+  "end": 555.67,
+  "text": "um"
+ },
+ {
+  "start": 555.68,
+  "end": 557.75,
+  "text": "similarly for checkout right so for"
+ },
+ {
+  "start": 557.76,
+  "end": 560.949,
+  "text": "payment information"
+ },
+ {
+  "start": 563.829,
+  "end": 563.839,
+  "text": "you can say credit card"
+ },
+ {
+  "start": 563.839,
+  "end": 564.949,
+  "text": "okay"
+ },
+ {
+  "start": 564.959,
+  "end": 565.99,
+  "text": "and"
+ },
+ {
+  "start": 566.0,
+  "end": 568.31,
+  "text": "you can say then"
+ },
+ {
+  "start": 568.32,
+  "end": 573.91,
+  "text": "uh internet banking"
+ },
+ {
+  "start": 576.47,
+  "end": 576.48,
+  "text": "or you can say upi"
+ },
+ {
+  "start": 576.48,
+  "end": 578.79,
+  "text": "okay so these are different payment"
+ },
+ {
+  "start": 578.8,
+  "end": 581.99,
+  "text": "information types"
+ },
+ {
+  "start": 584.55,
+  "end": 584.56,
+  "text": "similarly um in verification type of"
+ },
+ {
+  "start": 584.56,
+  "end": 587.03,
+  "text": "attribute right so here you can create"
+ },
+ {
+  "start": 587.04,
+  "end": 589.11,
+  "text": "an instance for message"
+ },
+ {
+  "start": 589.12,
+  "end": 591.269,
+  "text": "so this could be either a success"
+ },
+ {
+  "start": 591.279,
+  "end": 592.389,
+  "text": "message"
+ },
+ {
+  "start": 592.399,
+  "end": 593.35,
+  "text": "or"
+ },
+ {
+  "start": 593.36,
+  "end": 595.03,
+  "text": "it could be"
+ },
+ {
+  "start": 595.04,
+  "end": 597.99,
+  "text": "a failure message right so two types of"
+ },
+ {
+  "start": 598.0,
+  "end": 599.43,
+  "text": "instances"
+ },
+ {
+  "start": 599.44,
+  "end": 601.99,
+  "text": "similarly uh you can create instances"
+ },
+ {
+  "start": 602.0,
+  "end": 604.949,
+  "text": "for all your attributes right"
+ },
+ {
+  "start": 604.959,
+  "end": 607.269,
+  "text": "so now um as you can see we have created"
+ },
+ {
+  "start": 607.279,
+  "end": 610.47,
+  "text": "some instances right uh but still"
+ },
+ {
+  "start": 610.48,
+  "end": 612.79,
+  "text": "you don't see any difference right so"
+ },
+ {
+  "start": 612.8,
+  "end": 614.949,
+  "text": "the number of uh"
+ },
+ {
+  "start": 614.959,
+  "end": 616.79,
+  "text": "instances for this sheet has not"
+ },
+ {
+  "start": 616.8,
+  "end": 619.75,
+  "text": "increased right so you can still see at"
+ },
+ {
+  "start": 619.76,
+  "end": 621.43,
+  "text": "as a one sheet"
+ },
+ {
+  "start": 621.44,
+  "end": 622.79,
+  "text": "but"
+ },
+ {
+  "start": 622.8,
+  "end": 625.19,
+  "text": "now um what you can do is we can also"
+ },
+ {
+  "start": 625.2,
+  "end": 627.59,
+  "text": "add instances for this particular sheet"
+ },
+ {
+  "start": 627.6,
+  "end": 630.23,
+  "text": "itself right so that we can have"
+ },
+ {
+  "start": 630.24,
+  "end": 632.47,
+  "text": "different combinations of one particular"
+ },
+ {
+  "start": 632.48,
+  "end": 634.31,
+  "text": "test case okay"
+ },
+ {
+  "start": 634.32,
+  "end": 635.91,
+  "text": "so"
+ },
+ {
+  "start": 635.92,
+  "end": 638.15,
+  "text": "i can create now different instances and"
+ },
+ {
+  "start": 638.16,
+  "end": 639.75,
+  "text": "you will see there are different columns"
+ },
+ {
+  "start": 639.76,
+  "end": 642.63,
+  "text": "which are being added here okay"
+ },
+ {
+  "start": 642.64,
+  "end": 644.47,
+  "text": "so for um"
+ },
+ {
+  "start": 644.48,
+  "end": 648.79,
+  "text": "my instances um i can just say"
+ },
+ {
+  "start": 648.8,
+  "end": 649.99,
+  "text": "so"
+ },
+ {
+  "start": 650.0,
+  "end": 652.47,
+  "text": "test case one"
+ },
+ {
+  "start": 652.48,
+  "end": 659.19,
+  "text": "um i can say test case two"
+ },
+ {
+  "start": 662.87,
+  "end": 662.88,
+  "text": "and test case three"
+ },
+ {
+  "start": 662.88,
+  "end": 663.67,
+  "text": "right"
+ },
+ {
+  "start": 663.68,
+  "end": 665.91,
+  "text": "so you can see um"
+ },
+ {
+  "start": 665.92,
+  "end": 667.99,
+  "text": "now there are three different test cases"
+ },
+ {
+  "start": 668.0,
+  "end": 670.55,
+  "text": "um and i have got different attributes"
+ },
+ {
+  "start": 670.56,
+  "end": 672.389,
+  "text": "and different instances"
+ },
+ {
+  "start": 672.399,
+  "end": 674.63,
+  "text": "for all these three different test cases"
+ },
+ {
+  "start": 674.64,
+  "end": 676.87,
+  "text": "which could be three different business"
+ },
+ {
+  "start": 676.88,
+  "end": 678.949,
+  "text": "flows right now"
+ },
+ {
+  "start": 678.959,
+  "end": 680.31,
+  "text": "and"
+ },
+ {
+  "start": 680.32,
+  "end": 682.949,
+  "text": "in real world uh you can also put them"
+ },
+ {
+  "start": 682.959,
+  "end": 685.829,
+  "text": "as requirement ids or you can even put"
+ },
+ {
+  "start": 685.839,
+  "end": 688.55,
+  "text": "it as your jira ids right or your test"
+ },
+ {
+  "start": 688.56,
+  "end": 691.19,
+  "text": "case ids so that you can have hundreds"
+ },
+ {
+  "start": 691.2,
+  "end": 693.59,
+  "text": "of test cases in this particular sheet"
+ },
+ {
+  "start": 693.6,
+  "end": 695.829,
+  "text": "and all of these test cases will have"
+ },
+ {
+  "start": 695.839,
+  "end": 698.389,
+  "text": "different combinations of test data"
+ },
+ {
+  "start": 698.399,
+  "end": 700.79,
+  "text": "right so how you can do that"
+ },
+ {
+  "start": 700.8,
+  "end": 703.35,
+  "text": "you can go um"
+ },
+ {
+  "start": 703.36,
+  "end": 706.71,
+  "text": "to this particular test cycle right so"
+ },
+ {
+  "start": 706.72,
+  "end": 708.069,
+  "text": "let me"
+ },
+ {
+  "start": 708.079,
+  "end": 711.269,
+  "text": "just close this and you will see"
+ },
+ {
+  "start": 711.279,
+  "end": 713.269,
+  "text": "the instances which we have created now"
+ },
+ {
+  "start": 713.279,
+  "end": 715.509,
+  "text": "you can select values for different test"
+ },
+ {
+  "start": 715.519,
+  "end": 717.269,
+  "text": "cases okay"
+ },
+ {
+  "start": 717.279,
+  "end": 719.43,
+  "text": "now for example this test cycle has got"
+ },
+ {
+  "start": 719.44,
+  "end": 722.79,
+  "text": "different instances now i can select"
+ },
+ {
+  "start": 722.8,
+  "end": 724.949,
+  "text": "a value from these two different"
+ },
+ {
+  "start": 724.959,
+  "end": 727.269,
+  "text": "instance so either i can"
+ },
+ {
+  "start": 727.279,
+  "end": 728.629,
+  "text": "make it smoke"
+ },
+ {
+  "start": 728.639,
+  "end": 730.389,
+  "text": "i can make this regression"
+ },
+ {
+  "start": 730.399,
+  "end": 731.43,
+  "text": "right"
+ },
+ {
+  "start": 731.44,
+  "end": 733.91,
+  "text": "so i can select type of user uh"
+ },
+ {
+  "start": 733.92,
+  "end": 736.87,
+  "text": "registered or new"
+ },
+ {
+  "start": 736.88,
+  "end": 738.55,
+  "text": "okay"
+ },
+ {
+  "start": 738.56,
+  "end": 741.99,
+  "text": "similarly um i can select quantity"
+ },
+ {
+  "start": 742.0,
+  "end": 743.03,
+  "text": "what"
+ },
+ {
+  "start": 743.04,
+  "end": 745.99,
+  "text": "quantity this will be right"
+ },
+ {
+  "start": 746.0,
+  "end": 748.31,
+  "text": "and i can select different payment"
+ },
+ {
+  "start": 748.32,
+  "end": 749.75,
+  "text": "options here"
+ },
+ {
+  "start": 749.76,
+  "end": 751.35,
+  "text": "so"
+ },
+ {
+  "start": 751.36,
+  "end": 754.23,
+  "text": "one for each type of test case"
+ },
+ {
+  "start": 754.24,
+  "end": 756.389,
+  "text": "i can say this is a success this is a"
+ },
+ {
+  "start": 756.399,
+  "end": 759.11,
+  "text": "success this may be a failure because"
+ },
+ {
+  "start": 759.12,
+  "end": 761.99,
+  "text": "this is not yet implemented"
+ },
+ {
+  "start": 762.0,
+  "end": 765.19,
+  "text": "in my application okay so as you can see"
+ },
+ {
+  "start": 765.2,
+  "end": 766.069,
+  "text": "now"
+ },
+ {
+  "start": 766.079,
+  "end": 768.069,
+  "text": "there are there could be different test"
+ },
+ {
+  "start": 768.079,
+  "end": 770.47,
+  "text": "cases and each test case could have a"
+ },
+ {
+  "start": 770.48,
+  "end": 771.43,
+  "text": "different"
+ },
+ {
+  "start": 771.44,
+  "end": 773.43,
+  "text": "business flow right"
+ },
+ {
+  "start": 773.44,
+  "end": 775.75,
+  "text": "so as you can see you can cover"
+ },
+ {
+  "start": 775.76,
+  "end": 778.31,
+  "text": "a lot of scenarios in just one test case"
+ },
+ {
+  "start": 778.32,
+  "end": 780.71,
+  "text": "sheet by defining different attributes"
+ },
+ {
+  "start": 780.72,
+  "end": 782.389,
+  "text": "and different instances of those"
+ },
+ {
+  "start": 782.399,
+  "end": 785.19,
+  "text": "attributes right now you can divide your"
+ },
+ {
+  "start": 785.2,
+  "end": 787.829,
+  "text": "test cases based on all the scenarios so"
+ },
+ {
+  "start": 787.839,
+  "end": 790.15,
+  "text": "that you have got coverage all across"
+ },
+ {
+  "start": 790.16,
+  "end": 793.509,
+  "text": "the application with different test data"
+ },
+ {
+  "start": 793.519,
+  "end": 795.43,
+  "text": "okay"
+ },
+ {
+  "start": 795.44,
+  "end": 796.79,
+  "text": "now um"
+ },
+ {
+  "start": 796.8,
+  "end": 798.949,
+  "text": "we have talked about instances we"
+ },
+ {
+  "start": 798.959,
+  "end": 800.79,
+  "text": "haven't talked about the properties"
+ },
+ {
+  "start": 800.8,
+  "end": 803.35,
+  "text": "right so"
+ },
+ {
+  "start": 803.36,
+  "end": 805.43,
+  "text": "on the menu but if you go to the test"
+ },
+ {
+  "start": 805.44,
+  "end": 808.23,
+  "text": "case design sheet section right you will"
+ },
+ {
+  "start": 808.24,
+  "end": 809.99,
+  "text": "see there are different options here"
+ },
+ {
+  "start": 810.0,
+  "end": 811.75,
+  "text": "here you can also toggle the business"
+ },
+ {
+  "start": 811.76,
+  "end": 813.99,
+  "text": "relevance okay"
+ },
+ {
+  "start": 814.0,
+  "end": 816.23,
+  "text": "which we talked about earlier and you"
+ },
+ {
+  "start": 816.24,
+  "end": 818.949,
+  "text": "can also toggle position and toggle"
+ },
+ {
+  "start": 818.959,
+  "end": 820.31,
+  "text": "character so these are the two"
+ },
+ {
+  "start": 820.32,
+  "end": 822.47,
+  "text": "properties which we discussed"
+ },
+ {
+  "start": 822.48,
+  "end": 824.069,
+  "text": "now"
+ },
+ {
+  "start": 824.079,
+  "end": 827.67,
+  "text": "if i go to each instance okay"
+ },
+ {
+  "start": 827.68,
+  "end": 830.069,
+  "text": "so"
+ },
+ {
+  "start": 833.35,
+  "end": 833.36,
+  "text": "by default um"
+ },
+ {
+  "start": 833.36,
+  "end": 836.71,
+  "text": "this position is inner and the character"
+ },
+ {
+  "start": 836.72,
+  "end": 838.55,
+  "text": "is valid so these are the two default"
+ },
+ {
+  "start": 838.56,
+  "end": 839.75,
+  "text": "values which you can see in the"
+ },
+ {
+  "start": 839.76,
+  "end": 841.829,
+  "text": "properties section"
+ },
+ {
+  "start": 841.839,
+  "end": 843.99,
+  "text": "i can toggle"
+ },
+ {
+  "start": 844.0,
+  "end": 846.23,
+  "text": "here so when you"
+ },
+ {
+  "start": 846.24,
+  "end": 847.99,
+  "text": "press this toggle character it will"
+ },
+ {
+  "start": 848.0,
+  "end": 850.79,
+  "text": "change the character type okay so it"
+ },
+ {
+  "start": 850.8,
+  "end": 853.35,
+  "text": "will change it to invalid"
+ },
+ {
+  "start": 853.36,
+  "end": 855.11,
+  "text": "and i can also toggle the position to"
+ },
+ {
+  "start": 855.12,
+  "end": 856.87,
+  "text": "make it a boundary value"
+ },
+ {
+  "start": 856.88,
+  "end": 857.829,
+  "text": "okay"
+ },
+ {
+  "start": 857.839,
+  "end": 858.79,
+  "text": "and"
+ },
+ {
+  "start": 858.8,
+  "end": 861.35,
+  "text": "i can also make it uh"
+ },
+ {
+  "start": 861.36,
+  "end": 863.189,
+  "text": "if you do it three times then it will be"
+ },
+ {
+  "start": 863.199,
+  "end": 865.59,
+  "text": "a straight through instance okay and you"
+ },
+ {
+  "start": 865.6,
+  "end": 867.509,
+  "text": "will see the icon also changes when you"
+ },
+ {
+  "start": 867.519,
+  "end": 869.99,
+  "text": "toggle this particular character right"
+ },
+ {
+  "start": 870.0,
+  "end": 872.55,
+  "text": "similarly i can do it for type of user"
+ },
+ {
+  "start": 872.56,
+  "end": 873.829,
+  "text": "okay"
+ },
+ {
+  "start": 873.839,
+  "end": 877.269,
+  "text": "i can select the instance and i can"
+ },
+ {
+  "start": 877.279,
+  "end": 880.31,
+  "text": "make it a straight through instance so"
+ },
+ {
+  "start": 880.32,
+  "end": 882.71,
+  "text": "every instance should have"
+ },
+ {
+  "start": 882.72,
+  "end": 885.509,
+  "text": "a straight through value right so that"
+ },
+ {
+  "start": 885.519,
+  "end": 888.31,
+  "text": "um when you execute your test cases uh"
+ },
+ {
+  "start": 888.32,
+  "end": 891.75,
+  "text": "your state through test case should pass"
+ },
+ {
+  "start": 891.76,
+  "end": 893.67,
+  "text": "okay"
+ },
+ {
+  "start": 893.68,
+  "end": 895.03,
+  "text": "um"
+ },
+ {
+  "start": 895.04,
+  "end": 897.67,
+  "text": "and i can toggle the position to either"
+ },
+ {
+  "start": 897.68,
+  "end": 901.509,
+  "text": "make it a boundary value right so"
+ },
+ {
+  "start": 901.519,
+  "end": 904.23,
+  "text": "the quantity 1 could be a boundary value"
+ },
+ {
+  "start": 904.24,
+  "end": 906.47,
+  "text": "10 could be a boundary value but 2 could"
+ },
+ {
+  "start": 906.48,
+  "end": 907.189,
+  "text": "be"
+ },
+ {
+  "start": 907.199,
+  "end": 908.31,
+  "text": "the inner"
+ },
+ {
+  "start": 908.32,
+  "end": 911.03,
+  "text": "position values okay"
+ },
+ {
+  "start": 911.04,
+  "end": 913.11,
+  "text": "similarly um"
+ },
+ {
+  "start": 913.12,
+  "end": 914.389,
+  "text": "you can"
+ },
+ {
+  "start": 914.399,
+  "end": 916.949,
+  "text": "create different instances and you can"
+ },
+ {
+  "start": 916.959,
+  "end": 919.75,
+  "text": "put your character and position based on"
+ },
+ {
+  "start": 919.76,
+  "end": 921.35,
+  "text": "your scenario"
+ },
+ {
+  "start": 921.36,
+  "end": 922.15,
+  "text": "okay"
+ },
+ {
+  "start": 922.16,
+  "end": 923.91,
+  "text": "so this is how um"
+ },
+ {
+  "start": 923.92,
+  "end": 926.71,
+  "text": "you design your test case with different"
+ },
+ {
+  "start": 926.72,
+  "end": 928.23,
+  "text": "instances"
+ },
+ {
+  "start": 928.24,
+  "end": 929.59,
+  "text": "and"
+ },
+ {
+  "start": 929.6,
+  "end": 931.829,
+  "text": "different instances can be considered as"
+ },
+ {
+  "start": 931.839,
+  "end": 933.99,
+  "text": "different test cases in your test design"
+ },
+ {
+  "start": 934.0,
+  "end": 935.67,
+  "text": "sheet"
+ },
+ {
+  "start": 935.68,
+  "end": 937.59,
+  "text": "uh later we'll also talk about how you"
+ },
+ {
+  "start": 937.6,
+  "end": 940.23,
+  "text": "can create different templates out of"
+ },
+ {
+  "start": 940.24,
+  "end": 942.15,
+  "text": "your test cases and you can link your"
+ },
+ {
+  "start": 942.16,
+  "end": 944.55,
+  "text": "test design sheet to a template"
+ },
+ {
+  "start": 944.56,
+  "end": 946.949,
+  "text": "and then you will see the magic"
+ },
+ {
+  "start": 946.959,
+  "end": 949.749,
+  "text": "how tosca can automatically create"
+ },
+ {
+  "start": 949.759,
+  "end": 951.91,
+  "text": "different test cases out of this test"
+ },
+ {
+  "start": 951.92,
+  "end": 953.11,
+  "text": "design sheet"
+ },
+ {
+  "start": 953.12,
+  "end": 956.15,
+  "text": "so once you design this test sheet"
+ },
+ {
+  "start": 956.16,
+  "end": 957.59,
+  "text": "completely"
+ },
+ {
+  "start": 957.6,
+  "end": 960.15,
+  "text": "then your test case creation becomes a"
+ },
+ {
+  "start": 960.16,
+  "end": 961.59,
+  "text": "lot easier"
+ },
+ {
+  "start": 961.6,
+  "end": 962.47,
+  "text": "okay"
+ },
+ {
+  "start": 962.48,
+  "end": 964.79,
+  "text": "so that i will see in some of the later"
+ },
+ {
+  "start": 964.8,
+  "end": 969.829,
+  "text": "sessions"
+ }
+]

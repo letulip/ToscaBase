@@ -1,0 +1,752 @@
+[
+ {
+  "start": 12.509,
+  "end": 12.519,
+  "text": "hey everyone welcome back to our Channel"
+ },
+ {
+  "start": 12.519,
+  "end": 15.15,
+  "text": "I am back with another interesting topic"
+ },
+ {
+  "start": 15.16,
+  "end": 17.79,
+  "text": "in the tosa automation"
+ },
+ {
+  "start": 17.8,
+  "end": 20.15,
+  "text": "playlist now continuing with the topic"
+ },
+ {
+  "start": 20.16,
+  "end": 22.71,
+  "text": "on test automation obstacles let's look"
+ },
+ {
+  "start": 22.72,
+  "end": 25.189,
+  "text": "at our next obstacle which is called the"
+ },
+ {
+  "start": 25.199,
+  "end": 26.269,
+  "text": "popup"
+ },
+ {
+  "start": 26.279,
+  "end": 29.269,
+  "text": "windows so it's a pretty easy obstacle"
+ },
+ {
+  "start": 29.279,
+  "end": 31.31,
+  "text": "if you know how to uh solve this"
+ },
+ {
+  "start": 31.32,
+  "end": 34.11,
+  "text": "particular problem uh what we need to do"
+ },
+ {
+  "start": 34.12,
+  "end": 36.59,
+  "text": "is uh in order to complete this obstacle"
+ },
+ {
+  "start": 36.6,
+  "end": 39.19,
+  "text": "we need to click on this button okay"
+ },
+ {
+  "start": 39.2,
+  "end": 41.389,
+  "text": "which is called The Click me and what it"
+ },
+ {
+  "start": 41.399,
+  "end": 44.549,
+  "text": "will do it will open another window or a"
+ },
+ {
+  "start": 44.559,
+  "end": 47.47,
+  "text": "window popup uh and what we need to do"
+ },
+ {
+  "start": 47.48,
+  "end": 50.15,
+  "text": "we need to close this particular window"
+ },
+ {
+  "start": 50.16,
+  "end": 53.11,
+  "text": "to complete this obstacle"
+ },
+ {
+  "start": 53.12,
+  "end": 56.95,
+  "text": "okay so let's go ahead and see how we"
+ },
+ {
+  "start": 56.96,
+  "end": 59.67,
+  "text": "can uh solve this particular obstacle"
+ },
+ {
+  "start": 59.68,
+  "end": 62.15,
+  "text": "and tosa"
+ },
+ {
+  "start": 62.16,
+  "end": 66.39,
+  "text": "okay so uh going back to tosa and here"
+ },
+ {
+  "start": 66.4,
+  "end": 70.67,
+  "text": "as usual we will go to our obstacles"
+ },
+ {
+  "start": 70.68,
+  "end": 73.87,
+  "text": "folder and then we are going to scan"
+ },
+ {
+  "start": 73.88,
+  "end": 84.39,
+  "text": "this particular"
+ },
+ {
+  "start": 87.95,
+  "end": 87.96,
+  "text": "application now here I need to just uh"
+ },
+ {
+  "start": 87.96,
+  "end": 89.51,
+  "text": "add this particular control which is the"
+ },
+ {
+  "start": 89.52,
+  "end": 93.03,
+  "text": "click button now you will think that I"
+ },
+ {
+  "start": 93.04,
+  "end": 96.389,
+  "text": "might need to also scan the particular"
+ },
+ {
+  "start": 96.399,
+  "end": 99.27,
+  "text": "window which is opening up but it's not"
+ },
+ {
+  "start": 99.28,
+  "end": 101.789,
+  "text": "the case Okay so these popup windows can"
+ },
+ {
+  "start": 101.799,
+  "end": 104.91,
+  "text": "be handled using a standard automation"
+ },
+ {
+  "start": 104.92,
+  "end": 108.87,
+  "text": "tbox module and uh it is part of this"
+ },
+ {
+  "start": 108.88,
+  "end": 112.23,
+  "text": "Windows operations okay so when we add"
+ },
+ {
+  "start": 112.24,
+  "end": 114.03,
+  "text": "this Windows operation module I will"
+ },
+ {
+  "start": 114.04,
+  "end": 116.749,
+  "text": "show you how we can uh handle this"
+ },
+ {
+  "start": 116.759,
+  "end": 120.19,
+  "text": "particular window or maybe close it um"
+ },
+ {
+  "start": 120.2,
+  "end": 122.35,
+  "text": "using this standard module which is"
+ },
+ {
+  "start": 122.36,
+  "end": 124.51,
+  "text": "already present in tosa so we don't need"
+ },
+ {
+  "start": 124.52,
+  "end": 127.589,
+  "text": "to scan this particular window again"
+ },
+ {
+  "start": 127.599,
+  "end": 130.79,
+  "text": "okay so I'm going to save this and I'm"
+ },
+ {
+  "start": 130.8,
+  "end": 134.75,
+  "text": "going to close this I will just rename"
+ },
+ {
+  "start": 134.76,
+  "end": 141.83,
+  "text": "the module"
+ },
+ {
+  "start": 145.35,
+  "end": 145.36,
+  "text": "now okay and then uh we will create a"
+ },
+ {
+  "start": 145.36,
+  "end": 148.75,
+  "text": "new test case"
+ },
+ {
+  "start": 150.83,
+  "end": 150.84,
+  "text": "here"
+ },
+ {
+  "start": 150.84,
+  "end": 153.71,
+  "text": "and then I am going to add the"
+ },
+ {
+  "start": 153.72,
+  "end": 155.71,
+  "text": "respective module to this particular"
+ },
+ {
+  "start": 155.72,
+  "end": 158.67,
+  "text": "test case Okay so the first step is"
+ },
+ {
+  "start": 158.68,
+  "end": 160.949,
+  "text": "obviously to click on the button so"
+ },
+ {
+  "start": 160.959,
+  "end": 163.39,
+  "text": "that's pretty simple uh we need to use"
+ },
+ {
+  "start": 163.4,
+  "end": 166.229,
+  "text": "the click operation for that and after"
+ },
+ {
+  "start": 166.239,
+  "end": 168.55,
+  "text": "this um let's rename this particular"
+ },
+ {
+  "start": 168.56,
+  "end": 172.03,
+  "text": "test step to click"
+ },
+ {
+  "start": 172.04,
+  "end": 174.99,
+  "text": "button okay and after this the window"
+ },
+ {
+  "start": 175.0,
+  "end": 177.07,
+  "text": "will open and then we need to close that"
+ },
+ {
+  "start": 177.08,
+  "end": 179.83,
+  "text": "particular popup window right and as as"
+ },
+ {
+  "start": 179.84,
+  "end": 181.99,
+  "text": "I said we can use one of the standard"
+ },
+ {
+  "start": 182.0,
+  "end": 184.35,
+  "text": "modules okay so we'll go to modules"
+ },
+ {
+  "start": 184.36,
+  "end": 187.35,
+  "text": "standard modules and then under tbox"
+ },
+ {
+  "start": 187.36,
+  "end": 191.149,
+  "text": "automation tools okay we have got the"
+ },
+ {
+  "start": 191.159,
+  "end": 193.35,
+  "text": "basic window operations inside this"
+ },
+ {
+  "start": 193.36,
+  "end": 197.309,
+  "text": "we'll be using the tbox window operation"
+ },
+ {
+  "start": 197.319,
+  "end": 200.27,
+  "text": "okay so uh let's go here into the"
+ },
+ {
+  "start": 200.28,
+  "end": 202.83,
+  "text": "obstacle and I'm going to add this"
+ },
+ {
+  "start": 202.84,
+  "end": 205.11,
+  "text": "particular module"
+ },
+ {
+  "start": 205.12,
+  "end": 208.63,
+  "text": "here now uh as you know uh this dbox"
+ },
+ {
+  "start": 208.64,
+  "end": 210.71,
+  "text": "window operation has got lots of"
+ },
+ {
+  "start": 210.72,
+  "end": 212.03,
+  "text": "different operations which you can"
+ },
+ {
+  "start": 212.04,
+  "end": 214.55,
+  "text": "perform on the window right so you can"
+ },
+ {
+  "start": 214.56,
+  "end": 218.07,
+  "text": "see you can minimize maximize close um"
+ },
+ {
+  "start": 218.08,
+  "end": 221.229,
+  "text": "weight resize move to Center so all"
+ },
+ {
+  "start": 221.239,
+  "end": 223.55,
+  "text": "types of operations can be performed on"
+ },
+ {
+  "start": 223.56,
+  "end": 226.429,
+  "text": "a window- based uh popup or just a"
+ },
+ {
+  "start": 226.439,
+  "end": 229.19,
+  "text": "window okay now the only thing which we"
+ },
+ {
+  "start": 229.2,
+  "end": 231.75,
+  "text": "need to provide is the caption so that"
+ },
+ {
+  "start": 231.76,
+  "end": 234.11,
+  "text": "it can find the right window on which it"
+ },
+ {
+  "start": 234.12,
+  "end": 236.229,
+  "text": "can perform that particular operation"
+ },
+ {
+  "start": 236.239,
+  "end": 239.35,
+  "text": "okay and that can be done so when we"
+ },
+ {
+  "start": 239.36,
+  "end": 242.589,
+  "text": "click here it opens up this"
+ },
+ {
+  "start": 242.599,
+  "end": 246.229,
+  "text": "window and here you can see this is"
+ },
+ {
+  "start": 246.239,
+  "end": 248.509,
+  "text": "probably the window title right so tric"
+ },
+ {
+  "start": 248.519,
+  "end": 251.03,
+  "text": "centus at tric centus"
+ },
+ {
+  "start": 251.04,
+  "end": 255.03,
+  "text": "SLX all right so I cannot take the"
+ },
+ {
+  "start": 255.04,
+  "end": 257.03,
+  "text": "starting part of uh this particular"
+ },
+ {
+  "start": 257.04,
+  "end": 259.749,
+  "text": "title which is Tri centus because then"
+ },
+ {
+  "start": 259.759,
+  "end": 262.27,
+  "text": "my other window has also got tricentis"
+ },
+ {
+  "start": 262.28,
+  "end": 265.79,
+  "text": "right but what I can do is I can use"
+ },
+ {
+  "start": 265.8,
+  "end": 270.55,
+  "text": "this um X username which is at tricenter"
+ },
+ {
+  "start": 270.56,
+  "end": 273.23,
+  "text": "uh this would be unique and rest of it"
+ },
+ {
+  "start": 273.24,
+  "end": 274.629,
+  "text": "can be handled using the regular"
+ },
+ {
+  "start": 274.639,
+  "end": 277.909,
+  "text": "expression okay so that's what I'm going"
+ },
+ {
+  "start": 277.919,
+  "end": 280.71,
+  "text": "to do here in the caption I'm going to"
+ },
+ {
+  "start": 280.72,
+  "end": 282.59,
+  "text": "start with the regular expression and"
+ },
+ {
+  "start": 282.6,
+  "end": 285.59,
+  "text": "then uh add try"
+ },
+ {
+  "start": 285.6,
+  "end": 288.87,
+  "text": "sentus and again a regular expression"
+ },
+ {
+  "start": 288.88,
+  "end": 293.029,
+  "text": "okay so this will be static at resent"
+ },
+ {
+  "start": 293.039,
+  "end": 295.629,
+  "text": "but the remaining part can be dynamic uh"
+ },
+ {
+  "start": 295.639,
+  "end": 297.909,
+  "text": "it could be anything uh it will still be"
+ },
+ {
+  "start": 297.919,
+  "end": 300.11,
+  "text": "able to uh find this particular window"
+ },
+ {
+  "start": 300.12,
+  "end": 303.31,
+  "text": "using this particular title okay now"
+ },
+ {
+  "start": 303.32,
+  "end": 305.07,
+  "text": "coming to different operations as I said"
+ },
+ {
+  "start": 305.08,
+  "end": 307.07,
+  "text": "we can perform different operations on"
+ },
+ {
+  "start": 307.08,
+  "end": 309.23,
+  "text": "the window now we can directly go ahead"
+ },
+ {
+  "start": 309.24,
+  "end": 312.59,
+  "text": "and close it but sometimes uh if the"
+ },
+ {
+  "start": 312.6,
+  "end": 315.27,
+  "text": "window takes a little bit of time to"
+ },
+ {
+  "start": 315.28,
+  "end": 318.71,
+  "text": "appear then your test case may fail"
+ },
+ {
+  "start": 318.72,
+  "end": 321.83,
+  "text": "right because uh your TS automation will"
+ },
+ {
+  "start": 321.84,
+  "end": 324.55,
+  "text": "not fit it will directly go and search"
+ },
+ {
+  "start": 324.56,
+  "end": 326.79,
+  "text": "for the window and try to close it but"
+ },
+ {
+  "start": 326.8,
+  "end": 329.029,
+  "text": "if it is not present then the test case"
+ },
+ {
+  "start": 329.039,
+  "end": 331.309,
+  "text": "might fail so in these type of scenarios"
+ },
+ {
+  "start": 331.319,
+  "end": 335.629,
+  "text": "it is best to have a weight uh so we can"
+ },
+ {
+  "start": 335.639,
+  "end": 337.55,
+  "text": "use this weight on"
+ },
+ {
+  "start": 337.56,
+  "end": 340.029,
+  "text": "open right so this operation what it"
+ },
+ {
+  "start": 340.039,
+  "end": 342.629,
+  "text": "will do it will wait till this"
+ },
+ {
+  "start": 342.639,
+  "end": 346.15,
+  "text": "particular uh window is open right and"
+ },
+ {
+  "start": 346.16,
+  "end": 348.99,
+  "text": "then it is ready uh where we can perform"
+ },
+ {
+  "start": 349.0,
+  "end": 352.07,
+  "text": "some action on it right so in the next"
+ },
+ {
+  "start": 352.08,
+  "end": 354.87,
+  "text": "operation on the same test step uh we"
+ },
+ {
+  "start": 354.88,
+  "end": 357.749,
+  "text": "can perform a next uh operation which is"
+ },
+ {
+  "start": 357.759,
+  "end": 360.87,
+  "text": "the close window right so this will"
+ },
+ {
+  "start": 360.88,
+  "end": 363.909,
+  "text": "basically close that particular window"
+ },
+ {
+  "start": 363.919,
+  "end": 366.79,
+  "text": "okay so we are using two operations and"
+ },
+ {
+  "start": 366.8,
+  "end": 368.71,
+  "text": "then we are passing on the caption here"
+ },
+ {
+  "start": 368.72,
+  "end": 372.029,
+  "text": "in the tbox window operation okay I am"
+ },
+ {
+  "start": 372.039,
+  "end": 377.029,
+  "text": "going to call this close"
+ },
+ {
+  "start": 380.51,
+  "end": 380.52,
+  "text": "popup right and then uh we come here we"
+ },
+ {
+  "start": 380.52,
+  "end": 383.51,
+  "text": "change the work state to completed and"
+ },
+ {
+  "start": 383.52,
+  "end": 385.629,
+  "text": "finally we are ready to execute the test"
+ },
+ {
+  "start": 385.639,
+  "end": 390.67,
+  "text": "case okay so let me close all this"
+ },
+ {
+  "start": 390.68,
+  "end": 393.15,
+  "text": "okay and uh get it back to the initial"
+ },
+ {
+  "start": 393.16,
+  "end": 397.55,
+  "text": "State and now I can go ahead and execute"
+ },
+ {
+  "start": 397.56,
+  "end": 402.79,
+  "text": "this"
+ },
+ {
+  "start": 406.189,
+  "end": 406.199,
+  "text": "right okay so as you can see uh it was"
+ },
+ {
+  "start": 406.199,
+  "end": 408.309,
+  "text": "able to perform both the steps which is"
+ },
+ {
+  "start": 408.319,
+  "end": 410.79,
+  "text": "clicking on the button and then closing"
+ },
+ {
+  "start": 410.8,
+  "end": 413.71,
+  "text": "the window popup right using the two"
+ },
+ {
+  "start": 413.72,
+  "end": 416.469,
+  "text": "operations and uh this completed the"
+ },
+ {
+  "start": 416.479,
+  "end": 419.909,
+  "text": "obstacle right so this way you you can"
+ },
+ {
+  "start": 419.919,
+  "end": 422.23,
+  "text": "handle your window popups you can"
+ },
+ {
+  "start": 422.24,
+  "end": 423.869,
+  "text": "perform a lot of different operations"
+ },
+ {
+  "start": 423.879,
+  "end": 426.99,
+  "text": "using the standard Windows module so"
+ },
+ {
+  "start": 427.0,
+  "end": 429.909,
+  "text": "it's pretty easy if you know what to use"
+ },
+ {
+  "start": 429.919,
+  "end": 432.629,
+  "text": "uh in in a specific"
+ },
+ {
+  "start": 432.639,
+  "end": 434.99,
+  "text": "scenario that's all for this particular"
+ },
+ {
+  "start": 435.0,
+  "end": 437.43,
+  "text": "video if you have any questions then"
+ },
+ {
+  "start": 437.44,
+  "end": 439.869,
+  "text": "please leave it in the comments if you"
+ },
+ {
+  "start": 439.879,
+  "end": 441.83,
+  "text": "like this video then please subscribe to"
+ },
+ {
+  "start": 441.84,
+  "end": 444.589,
+  "text": "our Channel thanks for watching and I"
+ },
+ {
+  "start": 444.599,
+  "end": 448.96,
+  "text": "will see you in the next video"
+ }
+]

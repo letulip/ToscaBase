@@ -1,0 +1,517 @@
+[
+ {
+  "start": 14.45,
+  "end": 14.46,
+  "text": "testing now in all the previous sessions"
+ },
+ {
+  "start": 14.46,
+  "end": 17.57,
+  "text": "we have already seen how you can work"
+ },
+ {
+  "start": 17.58,
+  "end": 21.109,
+  "text": "with API testing in Tosca using API scan"
+ },
+ {
+  "start": 21.119,
+  "end": 23.269,
+  "text": "and also the Tosca Commander to create"
+ },
+ {
+  "start": 23.279,
+  "end": 26.99,
+  "text": "API test cases and also verify your apis"
+ },
+ {
+  "start": 27.0,
+  "end": 29.929,
+  "text": "but today uh we are going to look at"
+ },
+ {
+  "start": 29.939,
+  "end": 31.91,
+  "text": "some of the different options which are"
+ },
+ {
+  "start": 31.92,
+  "end": 34.43,
+  "text": "now available especially on the"
+ },
+ {
+  "start": 34.44,
+  "end": 37.13,
+  "text": "authentication side right so we have"
+ },
+ {
+  "start": 37.14,
+  "end": 39.11,
+  "text": "looked at some of the authentication"
+ },
+ {
+  "start": 39.12,
+  "end": 41.81,
+  "text": "mechanisms which are available in Tosca"
+ },
+ {
+  "start": 41.82,
+  "end": 44.93,
+  "text": "but today I'm going to show you with"
+ },
+ {
+  "start": 44.94,
+  "end": 47.69,
+  "text": "specific examples on how you can use"
+ },
+ {
+  "start": 47.7,
+  "end": 50.81,
+  "text": "this authentication types okay"
+ },
+ {
+  "start": 50.82,
+  "end": 54.529,
+  "text": "so the authentication type which is the"
+ },
+ {
+  "start": 54.539,
+  "end": 57.59,
+  "text": "basic one or the first you can say also"
+ },
+ {
+  "start": 57.6,
+  "end": 61.369,
+  "text": "is the basic authentication right and as"
+ },
+ {
+  "start": 61.379,
+  "end": 64.369,
+  "text": "the name suggests this uh authentication"
+ },
+ {
+  "start": 64.379,
+  "end": 67.85,
+  "text": "is used for apis where you have to pass"
+ },
+ {
+  "start": 67.86,
+  "end": 70.73,
+  "text": "a username and password before you can"
+ },
+ {
+  "start": 70.74,
+  "end": 74.75,
+  "text": "authenticate a particular request okay"
+ },
+ {
+  "start": 74.76,
+  "end": 76.85,
+  "text": "so for this purpose"
+ },
+ {
+  "start": 76.86,
+  "end": 79.609,
+  "text": "um I'm going to create a API message"
+ },
+ {
+  "start": 79.619,
+  "end": 82.13,
+  "text": "okay I have already created a folder you"
+ },
+ {
+  "start": 82.14,
+  "end": 84.05,
+  "text": "can see authentication and then this is"
+ },
+ {
+  "start": 84.06,
+  "end": 86.51,
+  "text": "the new message okay I'm going to name"
+ },
+ {
+  "start": 86.52,
+  "end": 91.67,
+  "text": "it basic uh auth okay"
+ },
+ {
+  "start": 93.23,
+  "end": 93.24,
+  "text": "and then"
+ },
+ {
+  "start": 93.24,
+  "end": 96.109,
+  "text": "um in this end point I'm going to use a"
+ },
+ {
+  "start": 96.119,
+  "end": 100.069,
+  "text": "particular API message okay and for this"
+ },
+ {
+  "start": 100.079,
+  "end": 102.05,
+  "text": "purpose I'm going to use one of the"
+ },
+ {
+  "start": 102.06,
+  "end": 106.67,
+  "text": "sample apis or provided by Postman and"
+ },
+ {
+  "start": 106.68,
+  "end": 110.27,
+  "text": "this is to test the basic Authentication"
+ },
+ {
+  "start": 110.28,
+  "end": 114.05,
+  "text": "obviously you can use any API okay where"
+ },
+ {
+  "start": 114.06,
+  "end": 117.23,
+  "text": "you need a basic authentication which is"
+ },
+ {
+  "start": 117.24,
+  "end": 119.21,
+  "text": "basically a username and password okay"
+ },
+ {
+  "start": 119.22,
+  "end": 121.91,
+  "text": "any API which is protected by a username"
+ },
+ {
+  "start": 121.92,
+  "end": 124.13,
+  "text": "and password you can use that endpoint"
+ },
+ {
+  "start": 124.14,
+  "end": 126.23,
+  "text": "but I'm going to use this particular"
+ },
+ {
+  "start": 126.24,
+  "end": 130.79,
+  "text": "endpoint so it is called Postman eco"
+ },
+ {
+  "start": 130.8,
+  "end": 137.869,
+  "text": ".com and slash basic auth"
+ },
+ {
+  "start": 139.97,
+  "end": 139.98,
+  "text": "okay so I'm going to use this particular"
+ },
+ {
+  "start": 139.98,
+  "end": 144.589,
+  "text": "endpoint and then let's first check"
+ },
+ {
+  "start": 144.599,
+  "end": 147.41,
+  "text": "whether we get any response back when we"
+ },
+ {
+  "start": 147.42,
+  "end": 149.869,
+  "text": "send this without any authentication"
+ },
+ {
+  "start": 149.879,
+  "end": 151.85,
+  "text": "okay let's see whether it is protected"
+ },
+ {
+  "start": 151.86,
+  "end": 152.809,
+  "text": "or not"
+ },
+ {
+  "start": 152.819,
+  "end": 155.69,
+  "text": "so let's try and run this and let's see"
+ },
+ {
+  "start": 155.7,
+  "end": 157.309,
+  "text": "what is the response for this particular"
+ },
+ {
+  "start": 157.319,
+  "end": 159.229,
+  "text": "request okay"
+ },
+ {
+  "start": 159.239,
+  "end": 162.55,
+  "text": "so it's expected uh I'm getting a 401"
+ },
+ {
+  "start": 162.56,
+  "end": 165.949,
+  "text": "unauthorized right for status code and"
+ },
+ {
+  "start": 165.959,
+  "end": 167.75,
+  "text": "in the payload I'm getting unauthorized"
+ },
+ {
+  "start": 167.76,
+  "end": 170.63,
+  "text": "which means I'm not authorized to"
+ },
+ {
+  "start": 170.64,
+  "end": 172.55,
+  "text": "basically access this particular API"
+ },
+ {
+  "start": 172.56,
+  "end": 175.61,
+  "text": "right and I need to provide uh some"
+ },
+ {
+  "start": 175.62,
+  "end": 179.15,
+  "text": "authentication which should be present"
+ },
+ {
+  "start": 179.16,
+  "end": 181.19,
+  "text": "in the request okay and it will be sent"
+ },
+ {
+  "start": 181.2,
+  "end": 184.009,
+  "text": "back to the server so that it can"
+ },
+ {
+  "start": 184.019,
+  "end": 185.809,
+  "text": "authorize that particular request and"
+ },
+ {
+  "start": 185.819,
+  "end": 189.589,
+  "text": "then send the response back okay"
+ },
+ {
+  "start": 189.599,
+  "end": 193.13,
+  "text": "so now let's go back to the request and"
+ },
+ {
+  "start": 193.14,
+  "end": 195.29,
+  "text": "this time around let's try with"
+ },
+ {
+  "start": 195.3,
+  "end": 198.53,
+  "text": "authentication basic okay you will find"
+ },
+ {
+  "start": 198.54,
+  "end": 199.79,
+  "text": "it here"
+ },
+ {
+  "start": 199.8,
+  "end": 203.03,
+  "text": "and in the username and password so I'm"
+ },
+ {
+  "start": 203.04,
+  "end": 206.69,
+  "text": "going to pass the username and the"
+ },
+ {
+  "start": 206.7,
+  "end": 210.649,
+  "text": "password"
+ },
+ {
+  "start": 213.29,
+  "end": 213.3,
+  "text": "okay so uh"
+ },
+ {
+  "start": 213.3,
+  "end": 215.869,
+  "text": "now we have provided the authentication"
+ },
+ {
+  "start": 215.879,
+  "end": 219.41,
+  "text": "now let's go ahead and run this again"
+ },
+ {
+  "start": 219.42,
+  "end": 221.39,
+  "text": "once more and let's see whether this"
+ },
+ {
+  "start": 221.4,
+  "end": 223.729,
+  "text": "time around it can authorize this"
+ },
+ {
+  "start": 223.739,
+  "end": 228.229,
+  "text": "particular request okay"
+ },
+ {
+  "start": 230.63,
+  "end": 230.64,
+  "text": "so as you can see this time around uh"
+ },
+ {
+  "start": 230.64,
+  "end": 233.93,
+  "text": "the status quote was 200 okay and also"
+ },
+ {
+  "start": 233.94,
+  "end": 236.869,
+  "text": "we got a response uh payload which is"
+ },
+ {
+  "start": 236.879,
+  "end": 239.449,
+  "text": "authenticated true okay"
+ },
+ {
+  "start": 239.459,
+  "end": 242.03,
+  "text": "so this way you can use the basic"
+ },
+ {
+  "start": 242.04,
+  "end": 245.27,
+  "text": "authentication in Tosca API scan to"
+ },
+ {
+  "start": 245.28,
+  "end": 247.97,
+  "text": "authenticate your requests using a"
+ },
+ {
+  "start": 247.98,
+  "end": 250.55,
+  "text": "username and password"
+ },
+ {
+  "start": 250.56,
+  "end": 252.949,
+  "text": "so this is one of the most common uh"
+ },
+ {
+  "start": 252.959,
+  "end": 255.47,
+  "text": "authentication mechanisms used for apis"
+ },
+ {
+  "start": 255.48,
+  "end": 258.83,
+  "text": "right and then there are other API"
+ },
+ {
+  "start": 258.84,
+  "end": 260.689,
+  "text": "messages which you different types of"
+ },
+ {
+  "start": 260.699,
+  "end": 263.03,
+  "text": "authentication mechanisms okay"
+ },
+ {
+  "start": 263.04,
+  "end": 265.49,
+  "text": "so in the next session I'm going to also"
+ },
+ {
+  "start": 265.5,
+  "end": 268.31,
+  "text": "show you how you can use another"
+ },
+ {
+  "start": 268.32,
+  "end": 271.129,
+  "text": "authentication type and which is the"
+ },
+ {
+  "start": 271.139,
+  "end": 273.409,
+  "text": "digest Authentication"
+ },
+ {
+  "start": 273.419,
+  "end": 275.15,
+  "text": "okay"
+ },
+ {
+  "start": 275.16,
+  "end": 277.55,
+  "text": "so that's all for this session hope it"
+ },
+ {
+  "start": 277.56,
+  "end": 280.249,
+  "text": "was useful and you learned something new"
+ },
+ {
+  "start": 280.259,
+  "end": 282.83,
+  "text": "so in the next session as I said I will"
+ },
+ {
+  "start": 282.84,
+  "end": 284.45,
+  "text": "be talking about another authentication"
+ },
+ {
+  "start": 284.46,
+  "end": 287.03,
+  "text": "type which is digest authentication so"
+ },
+ {
+  "start": 287.04,
+  "end": 288.77,
+  "text": "do tune into our channel to watch the"
+ },
+ {
+  "start": 288.78,
+  "end": 291.05,
+  "text": "new video and if you're not subscribed"
+ },
+ {
+  "start": 291.06,
+  "end": 292.909,
+  "text": "then do subscribe so that you get"
+ },
+ {
+  "start": 292.919,
+  "end": 295.07,
+  "text": "notified whenever I add this particular"
+ },
+ {
+  "start": 295.08,
+  "end": 298.189,
+  "text": "video Until then keep watching and keep"
+ },
+ {
+  "start": 298.199,
+  "end": 300.56,
+  "text": "learning"
+ }
+]

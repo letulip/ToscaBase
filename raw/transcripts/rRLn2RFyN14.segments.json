@@ -1,0 +1,832 @@
+[
+ {
+  "start": 8.21,
+  "end": 8.22,
+  "text": "hey everyone welcome back to this task"
+ },
+ {
+  "start": 8.22,
+  "end": 10.07,
+  "text": "automation playlist and we are"
+ },
+ {
+  "start": 10.08,
+  "end": 11.99,
+  "text": "continuing to talk about Tosca best"
+ },
+ {
+  "start": 12.0,
+  "end": 12.95,
+  "text": "practices"
+ },
+ {
+  "start": 12.96,
+  "end": 14.93,
+  "text": "now this is the second video in this"
+ },
+ {
+  "start": 14.94,
+  "end": 15.77,
+  "text": "series"
+ },
+ {
+  "start": 15.78,
+  "end": 17.21,
+  "text": "now if you've not watched the first"
+ },
+ {
+  "start": 17.22,
+  "end": 20.029,
+  "text": "video go ahead and watch the first video"
+ },
+ {
+  "start": 20.039,
+  "end": 22.429,
+  "text": "on Tosca best practices"
+ },
+ {
+  "start": 22.439,
+  "end": 24.59,
+  "text": "and then I would also recommend you to"
+ },
+ {
+  "start": 24.6,
+  "end": 26.39,
+  "text": "subscribe to our channel so that you"
+ },
+ {
+  "start": 26.4,
+  "end": 28.31,
+  "text": "don't miss out on the remaining videos"
+ },
+ {
+  "start": 28.32,
+  "end": 30.529,
+  "text": "on this very topic"
+ },
+ {
+  "start": 30.539,
+  "end": 32.749,
+  "text": "now coming to Tosca best practice number"
+ },
+ {
+  "start": 32.759,
+  "end": 34.25,
+  "text": "two"
+ },
+ {
+  "start": 34.26,
+  "end": 36.11,
+  "text": "so we are going to talk about"
+ },
+ {
+  "start": 36.12,
+  "end": 39.59,
+  "text": "verification points in test cases"
+ },
+ {
+  "start": 39.6,
+  "end": 42.59,
+  "text": "now verification points are absolute"
+ },
+ {
+  "start": 42.6,
+  "end": 45.17,
+  "text": "necessary in any test case which you"
+ },
+ {
+  "start": 45.18,
+  "end": 47.93,
+  "text": "develop or design with any particular"
+ },
+ {
+  "start": 47.94,
+  "end": 51.29,
+  "text": "automation Tool uh for automating any"
+ },
+ {
+  "start": 51.3,
+  "end": 53.869,
+  "text": "particular test cases okay so without"
+ },
+ {
+  "start": 53.879,
+  "end": 56.209,
+  "text": "verification points your test case will"
+ },
+ {
+  "start": 56.219,
+  "end": 58.549,
+  "text": "be considered as incomplete"
+ },
+ {
+  "start": 58.559,
+  "end": 61.13,
+  "text": "and the reason is very simple if you"
+ },
+ {
+  "start": 61.14,
+  "end": 64.13,
+  "text": "don't have a verification point then you"
+ },
+ {
+  "start": 64.14,
+  "end": 65.69,
+  "text": "don't know whether the expected result"
+ },
+ {
+  "start": 65.7,
+  "end": 68.39,
+  "text": "is matching the actual result"
+ },
+ {
+  "start": 68.4,
+  "end": 70.969,
+  "text": "so the overall purpose of the test case"
+ },
+ {
+  "start": 70.979,
+  "end": 73.91,
+  "text": "is not met if you don't have anything to"
+ },
+ {
+  "start": 73.92,
+  "end": 75.17,
+  "text": "verify"
+ },
+ {
+  "start": 75.18,
+  "end": 78.41,
+  "text": "so it will always be a false positive"
+ },
+ {
+  "start": 78.42,
+  "end": 81.77,
+  "text": "right so no matter if your verification"
+ },
+ {
+  "start": 81.78,
+  "end": 84.35,
+  "text": "is passing or feeling the test case will"
+ },
+ {
+  "start": 84.36,
+  "end": 86.27,
+  "text": "pass if you don't have a verification"
+ },
+ {
+  "start": 86.28,
+  "end": 87.649,
+  "text": "point"
+ },
+ {
+  "start": 87.659,
+  "end": 90.71,
+  "text": "so every test case should have at least"
+ },
+ {
+  "start": 90.72,
+  "end": 94.19,
+  "text": "one or even more verification points"
+ },
+ {
+  "start": 94.2,
+  "end": 96.55,
+  "text": "and these verifications will actually"
+ },
+ {
+  "start": 96.56,
+  "end": 99.649,
+  "text": "make your test case link to your"
+ },
+ {
+  "start": 99.659,
+  "end": 102.71,
+  "text": "requirements right so whatever uh"
+ },
+ {
+  "start": 102.72,
+  "end": 106.37,
+  "text": "validations are being done on the test"
+ },
+ {
+  "start": 106.38,
+  "end": 109.969,
+  "text": "case will be done as verification points"
+ },
+ {
+  "start": 109.979,
+  "end": 112.31,
+  "text": "in your automated test case"
+ },
+ {
+  "start": 112.32,
+  "end": 113.45,
+  "text": "okay"
+ },
+ {
+  "start": 113.46,
+  "end": 116.749,
+  "text": "so it's very important and let's see"
+ },
+ {
+  "start": 116.759,
+  "end": 119.69,
+  "text": "what will happen in Tosca if you don't"
+ },
+ {
+  "start": 119.7,
+  "end": 121.91,
+  "text": "have a verification point and what will"
+ },
+ {
+  "start": 121.92,
+  "end": 126.77,
+  "text": "happen if you have a verification point"
+ },
+ {
+  "start": 128.99,
+  "end": 129.0,
+  "text": "now let's consider a very simple example"
+ },
+ {
+  "start": 129.0,
+  "end": 131.63,
+  "text": "for this particular best practice so you"
+ },
+ {
+  "start": 131.64,
+  "end": 134.03,
+  "text": "have got a login screen where you enter"
+ },
+ {
+  "start": 134.04,
+  "end": 136.369,
+  "text": "an email and a password and then click"
+ },
+ {
+  "start": 136.379,
+  "end": 138.89,
+  "text": "on login and then it will login into"
+ },
+ {
+  "start": 138.9,
+  "end": 140.869,
+  "text": "your application right"
+ },
+ {
+  "start": 140.879,
+  "end": 142.55,
+  "text": "and you're trying to automate this"
+ },
+ {
+  "start": 142.56,
+  "end": 145.13,
+  "text": "particular scenario now you will write"
+ },
+ {
+  "start": 145.14,
+  "end": 146.57,
+  "text": "the test case or you will Design the"
+ },
+ {
+  "start": 146.58,
+  "end": 149.15,
+  "text": "test case so that it can identify those"
+ },
+ {
+  "start": 149.16,
+  "end": 151.07,
+  "text": "fields and it can enter the values there"
+ },
+ {
+  "start": 151.08,
+  "end": 152.809,
+  "text": "it can click on login"
+ },
+ {
+  "start": 152.819,
+  "end": 155.03,
+  "text": "and then maybe you will log out of the"
+ },
+ {
+  "start": 155.04,
+  "end": 156.11,
+  "text": "application"
+ },
+ {
+  "start": 156.12,
+  "end": 159.47,
+  "text": "so in this whole scenario you must have"
+ },
+ {
+  "start": 159.48,
+  "end": 162.11,
+  "text": "one verification point right so for"
+ },
+ {
+  "start": 162.12,
+  "end": 164.509,
+  "text": "example once you login into application"
+ },
+ {
+  "start": 164.519,
+  "end": 166.79,
+  "text": "you want to make sure that login was"
+ },
+ {
+  "start": 166.8,
+  "end": 168.589,
+  "text": "successful right"
+ },
+ {
+  "start": 168.599,
+  "end": 171.29,
+  "text": "so maybe you will come here and on the"
+ },
+ {
+  "start": 171.3,
+  "end": 172.67,
+  "text": "home page you will check whether the"
+ },
+ {
+  "start": 172.68,
+  "end": 175.97,
+  "text": "logout link is appearing right so that"
+ },
+ {
+  "start": 175.98,
+  "end": 178.49,
+  "text": "could be your verification similarly for"
+ },
+ {
+  "start": 178.5,
+  "end": 180.53,
+  "text": "any particular test case any scenario"
+ },
+ {
+  "start": 180.54,
+  "end": 182.99,
+  "text": "you should find out the verification"
+ },
+ {
+  "start": 183.0,
+  "end": 185.57,
+  "text": "points right"
+ },
+ {
+  "start": 185.58,
+  "end": 188.509,
+  "text": "now coming back to Tosca okay so here is"
+ },
+ {
+  "start": 188.519,
+  "end": 191.39,
+  "text": "my login user test case and you can see"
+ },
+ {
+  "start": 191.4,
+  "end": 193.61,
+  "text": "here I'm clicking on the login I am"
+ },
+ {
+  "start": 193.62,
+  "end": 195.53,
+  "text": "entering the login credentials and then"
+ },
+ {
+  "start": 195.54,
+  "end": 197.449,
+  "text": "I'm clicking on the login button"
+ },
+ {
+  "start": 197.459,
+  "end": 200.69,
+  "text": "and then here I am also verifying"
+ },
+ {
+  "start": 200.7,
+  "end": 202.85,
+  "text": "um the login right where I'm verifying"
+ },
+ {
+  "start": 202.86,
+  "end": 205.55,
+  "text": "whether this logout link is visible"
+ },
+ {
+  "start": 205.56,
+  "end": 208.55,
+  "text": "equals to true and then the action mode"
+ },
+ {
+  "start": 208.56,
+  "end": 212.75,
+  "text": "is verify that but let's first disable"
+ },
+ {
+  "start": 212.76,
+  "end": 214.91,
+  "text": "this and let's see what will be the"
+ },
+ {
+  "start": 214.92,
+  "end": 217.55,
+  "text": "result of this test case okay"
+ },
+ {
+  "start": 217.56,
+  "end": 220.61,
+  "text": "so if I go here"
+ },
+ {
+  "start": 220.62,
+  "end": 222.83,
+  "text": "and let me log out from this application"
+ },
+ {
+  "start": 222.84,
+  "end": 225.229,
+  "text": "so that it is in that particular State"
+ },
+ {
+  "start": 225.239,
+  "end": 229.009,
+  "text": "and let me run this now"
+ },
+ {
+  "start": 229.019,
+  "end": 231.53,
+  "text": "and you will see that this test case"
+ },
+ {
+  "start": 231.54,
+  "end": 235.91,
+  "text": "will obviously pass okay because a Tosca"
+ },
+ {
+  "start": 235.92,
+  "end": 238.85,
+  "text": "will only verify till it is able to"
+ },
+ {
+  "start": 238.86,
+  "end": 241.97,
+  "text": "click on that login link after that it"
+ },
+ {
+  "start": 241.98,
+  "end": 245.39,
+  "text": "doesn't matter what uh is your output"
+ },
+ {
+  "start": 245.4,
+  "end": 248.57,
+  "text": "okay from the application"
+ },
+ {
+  "start": 248.58,
+  "end": 250.729,
+  "text": "even if the application doesn't log in"
+ },
+ {
+  "start": 250.739,
+  "end": 253.67,
+  "text": "and you get a separate page or a login"
+ },
+ {
+  "start": 253.68,
+  "end": 257.27,
+  "text": "failure Tosca is not going to uh"
+ },
+ {
+  "start": 257.28,
+  "end": 259.49,
+  "text": "give you a failure because you haven't"
+ },
+ {
+  "start": 259.5,
+  "end": 261.469,
+  "text": "written or you haven't designed your"
+ },
+ {
+  "start": 261.479,
+  "end": 264.65,
+  "text": "test case according to that right so"
+ },
+ {
+  "start": 264.66,
+  "end": 267.53,
+  "text": "this test case is always going to pass"
+ },
+ {
+  "start": 267.54,
+  "end": 270.29,
+  "text": "and also in the login info you will not"
+ },
+ {
+  "start": 270.3,
+  "end": 273.35,
+  "text": "have any kind of verification right so"
+ },
+ {
+  "start": 273.36,
+  "end": 275.629,
+  "text": "any expected or actual result won't be"
+ },
+ {
+  "start": 275.639,
+  "end": 278.81,
+  "text": "shown it will be only the steps uh so if"
+ },
+ {
+  "start": 278.82,
+  "end": 281.33,
+  "text": "it is able to find this controls it will"
+ },
+ {
+  "start": 281.34,
+  "end": 284.45,
+  "text": "always pass okay and that's the"
+ },
+ {
+  "start": 284.46,
+  "end": 287.45,
+  "text": "disadvantage of having a test case like"
+ },
+ {
+  "start": 287.46,
+  "end": 289.67,
+  "text": "this without any verification point"
+ },
+ {
+  "start": 289.68,
+  "end": 292.67,
+  "text": "because there is no purpose of this it"
+ },
+ {
+  "start": 292.68,
+  "end": 296.45,
+  "text": "can obviously run but it is not actually"
+ },
+ {
+  "start": 296.46,
+  "end": 299.21,
+  "text": "solving your purpose of verifying this"
+ },
+ {
+  "start": 299.22,
+  "end": 301.49,
+  "text": "particular test case Okay so whether it"
+ },
+ {
+  "start": 301.5,
+  "end": 304.07,
+  "text": "is actually doing what is what it is"
+ },
+ {
+  "start": 304.08,
+  "end": 306.35,
+  "text": "supposed to do right"
+ },
+ {
+  "start": 306.36,
+  "end": 309.95,
+  "text": "so now if I enable this verification"
+ },
+ {
+  "start": 309.96,
+  "end": 315.35,
+  "text": "step and if I go ahead and"
+ },
+ {
+  "start": 315.36,
+  "end": 317.51,
+  "text": "let me log out again"
+ },
+ {
+  "start": 317.52,
+  "end": 320.689,
+  "text": "and let me go ahead and run this again"
+ },
+ {
+  "start": 320.699,
+  "end": 321.83,
+  "text": "okay"
+ },
+ {
+  "start": 321.84,
+  "end": 323.749,
+  "text": "and this time around you will see that"
+ },
+ {
+  "start": 323.759,
+  "end": 324.89,
+  "text": "there would be an additional"
+ },
+ {
+  "start": 324.9,
+  "end": 326.51,
+  "text": "verification step"
+ },
+ {
+  "start": 326.52,
+  "end": 329.39,
+  "text": "and if it is not able to find the logout"
+ },
+ {
+  "start": 329.4,
+  "end": 333.17,
+  "text": "link so if the logout link is not"
+ },
+ {
+  "start": 333.18,
+  "end": 335.749,
+  "text": "present in the application it will fail"
+ },
+ {
+  "start": 335.759,
+  "end": 337.85,
+  "text": "this test case obviously it is present"
+ },
+ {
+  "start": 337.86,
+  "end": 341.21,
+  "text": "now so it will pass it but in scenarios"
+ },
+ {
+  "start": 341.22,
+  "end": 343.67,
+  "text": "where this particular link is missing"
+ },
+ {
+  "start": 343.68,
+  "end": 346.43,
+  "text": "then your test case will field right and"
+ },
+ {
+  "start": 346.44,
+  "end": 347.99,
+  "text": "that's the expected result which you"
+ },
+ {
+  "start": 348.0,
+  "end": 350.749,
+  "text": "want you want to verify something so"
+ },
+ {
+  "start": 350.759,
+  "end": 352.37,
+  "text": "that when the application is not"
+ },
+ {
+  "start": 352.38,
+  "end": 354.77,
+  "text": "responding as per the expectations then"
+ },
+ {
+  "start": 354.78,
+  "end": 358.85,
+  "text": "that should be a failure okay"
+ },
+ {
+  "start": 358.86,
+  "end": 361.249,
+  "text": "so here you can see verification was"
+ },
+ {
+  "start": 361.259,
+  "end": 363.65,
+  "text": "successful expected value was this"
+ },
+ {
+  "start": 363.66,
+  "end": 367.01,
+  "text": "actual value was this right so you need"
+ },
+ {
+  "start": 367.02,
+  "end": 370.07,
+  "text": "this for every test case and it should"
+ },
+ {
+  "start": 370.08,
+  "end": 372.05,
+  "text": "also be part of your report right"
+ },
+ {
+  "start": 372.06,
+  "end": 375.35,
+  "text": "otherwise you will never get any defects"
+ },
+ {
+  "start": 375.36,
+  "end": 377.15,
+  "text": "and you should always log a defect"
+ },
+ {
+  "start": 377.16,
+  "end": 380.749,
+  "text": "whenever you find a failure a bug or"
+ },
+ {
+  "start": 380.759,
+  "end": 382.969,
+  "text": "when the actual result is not matching"
+ },
+ {
+  "start": 382.979,
+  "end": 387.01,
+  "text": "the expected result right"
+ },
+ {
+  "start": 391.309,
+  "end": 391.319,
+  "text": "so this is why verification points are"
+ },
+ {
+  "start": 391.319,
+  "end": 394.249,
+  "text": "important in any automation uh no matter"
+ },
+ {
+  "start": 394.259,
+  "end": 396.23,
+  "text": "if you use Tosca or any other automation"
+ },
+ {
+  "start": 396.24,
+  "end": 399.17,
+  "text": "tool but especially uh coming to Tosca"
+ },
+ {
+  "start": 399.18,
+  "end": 400.85,
+  "text": "when you execute a particular test case"
+ },
+ {
+  "start": 400.86,
+  "end": 403.969,
+  "text": "so in the results if you want"
+ },
+ {
+  "start": 403.979,
+  "end": 406.79,
+  "text": "um some verification results in your"
+ },
+ {
+  "start": 406.8,
+  "end": 408.83,
+  "text": "test steps then you need to have a"
+ },
+ {
+  "start": 408.84,
+  "end": 411.77,
+  "text": "verification point okay"
+ },
+ {
+  "start": 411.78,
+  "end": 414.17,
+  "text": "so that's all for this video I hope you"
+ },
+ {
+  "start": 414.18,
+  "end": 415.85,
+  "text": "enjoyed it and you learned something new"
+ },
+ {
+  "start": 415.86,
+  "end": 418.189,
+  "text": "today so keep watching this series of"
+ },
+ {
+  "start": 418.199,
+  "end": 420.529,
+  "text": "videos on best practices and keep on"
+ },
+ {
+  "start": 420.539,
+  "end": 423.35,
+  "text": "improving your automated test cases if"
+ },
+ {
+  "start": 423.36,
+  "end": 424.909,
+  "text": "you are developing them for your project"
+ },
+ {
+  "start": 424.919,
+  "end": 428.57,
+  "text": "or for your own purpose in Tosca"
+ },
+ {
+  "start": 428.58,
+  "end": 430.73,
+  "text": "so until the next video keep watching"
+ },
+ {
+  "start": 430.74,
+  "end": 433.759,
+  "text": "and keep learning"
+ }
+]

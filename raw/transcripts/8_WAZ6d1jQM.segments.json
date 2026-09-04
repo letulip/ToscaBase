@@ -1,0 +1,712 @@
+[
+ {
+  "start": 8.81,
+  "end": 8.82,
+  "text": "hey everyone welcome back to our Tosca"
+ },
+ {
+  "start": 8.82,
+  "end": 10.79,
+  "text": "automation playlist and we are talking"
+ },
+ {
+  "start": 10.8,
+  "end": 13.789,
+  "text": "about Tosca best practices now prior to"
+ },
+ {
+  "start": 13.799,
+  "end": 15.95,
+  "text": "this I have already shown you two best"
+ },
+ {
+  "start": 15.96,
+  "end": 18.47,
+  "text": "practices and this is the third in the"
+ },
+ {
+  "start": 18.48,
+  "end": 19.73,
+  "text": "series"
+ },
+ {
+  "start": 19.74,
+  "end": 21.95,
+  "text": "now if you want to watch our previous"
+ },
+ {
+  "start": 21.96,
+  "end": 24.95,
+  "text": "videos or if you want to watch our next"
+ },
+ {
+  "start": 24.96,
+  "end": 27.47,
+  "text": "videos I would like you to subscribe to"
+ },
+ {
+  "start": 27.48,
+  "end": 29.39,
+  "text": "our Channel first"
+ },
+ {
+  "start": 29.4,
+  "end": 31.97,
+  "text": "so talking about the best practice"
+ },
+ {
+  "start": 31.98,
+  "end": 35.75,
+  "text": "number three and it is about module"
+ },
+ {
+  "start": 35.76,
+  "end": 37.729,
+  "text": "attribute usage"
+ },
+ {
+  "start": 37.739,
+  "end": 40.61,
+  "text": "now we have seen what is a module and"
+ },
+ {
+  "start": 40.62,
+  "end": 42.35,
+  "text": "what are the different module attributes"
+ },
+ {
+  "start": 42.36,
+  "end": 45.229,
+  "text": "related to that particular module in"
+ },
+ {
+  "start": 45.239,
+  "end": 46.31,
+  "text": "Tosca"
+ },
+ {
+  "start": 46.32,
+  "end": 49.13,
+  "text": "and you create a module by scanning your"
+ },
+ {
+  "start": 49.14,
+  "end": 50.209,
+  "text": "application"
+ },
+ {
+  "start": 50.219,
+  "end": 53.75,
+  "text": "right so as per this best practice"
+ },
+ {
+  "start": 53.76,
+  "end": 56.95,
+  "text": "you should limit your module attributes"
+ },
+ {
+  "start": 56.96,
+  "end": 60.65,
+  "text": "and categorize them based on the module"
+ },
+ {
+  "start": 60.66,
+  "end": 62.15,
+  "text": "functionality"
+ },
+ {
+  "start": 62.16,
+  "end": 65.09,
+  "text": "now what do you mean by this is you"
+ },
+ {
+  "start": 65.1,
+  "end": 67.789,
+  "text": "should not add all the module attributes"
+ },
+ {
+  "start": 67.799,
+  "end": 71.69,
+  "text": "into a single module you should divide"
+ },
+ {
+  "start": 71.7,
+  "end": 75.35,
+  "text": "your model attributes as per the module"
+ },
+ {
+  "start": 75.36,
+  "end": 77.69,
+  "text": "functionality so create different"
+ },
+ {
+  "start": 77.7,
+  "end": 81.41,
+  "text": "folders create different modules are"
+ },
+ {
+  "start": 81.42,
+  "end": 83.21,
+  "text": "based on the functionality of the"
+ },
+ {
+  "start": 83.22,
+  "end": 85.609,
+  "text": "application you are trying to scan"
+ },
+ {
+  "start": 85.619,
+  "end": 88.19,
+  "text": "so let's try to understand this with the"
+ },
+ {
+  "start": 88.2,
+  "end": 90.649,
+  "text": "help of an example"
+ },
+ {
+  "start": 90.659,
+  "end": 93.95,
+  "text": "so I'll go back to my Tosca and here I"
+ },
+ {
+  "start": 93.96,
+  "end": 95.33,
+  "text": "have put together"
+ },
+ {
+  "start": 95.34,
+  "end": 99.59,
+  "text": "two examples okay both are for the same"
+ },
+ {
+  "start": 99.6,
+  "end": 102.289,
+  "text": "screen okay so we are trying to scan"
+ },
+ {
+  "start": 102.299,
+  "end": 104.69,
+  "text": "this enter vehicle data"
+ },
+ {
+  "start": 104.7,
+  "end": 106.73,
+  "text": "and there are several Fields as you can"
+ },
+ {
+  "start": 106.74,
+  "end": 109.37,
+  "text": "see right and some of them are mandatory"
+ },
+ {
+  "start": 109.38,
+  "end": 111.95,
+  "text": "Fields some of them are optional Fields"
+ },
+ {
+  "start": 111.96,
+  "end": 114.35,
+  "text": "And there are some headers some Footers"
+ },
+ {
+  "start": 114.36,
+  "end": 117.469,
+  "text": "on this particular page okay and I have"
+ },
+ {
+  "start": 117.479,
+  "end": 119.63,
+  "text": "scanned uh this particular page to"
+ },
+ {
+  "start": 119.64,
+  "end": 122.03,
+  "text": "create my module now I have done it in"
+ },
+ {
+  "start": 122.04,
+  "end": 124.31,
+  "text": "two ways okay"
+ },
+ {
+  "start": 124.32,
+  "end": 127.55,
+  "text": "so in the first way I have categorized"
+ },
+ {
+  "start": 127.56,
+  "end": 130.19,
+  "text": "my module attributes which are the"
+ },
+ {
+  "start": 130.2,
+  "end": 132.949,
+  "text": "fields in the application in different"
+ },
+ {
+  "start": 132.959,
+  "end": 134.809,
+  "text": "modules so you can see there is a"
+ },
+ {
+  "start": 134.819,
+  "end": 136.91,
+  "text": "headers module and there is a enter"
+ },
+ {
+  "start": 136.92,
+  "end": 139.97,
+  "text": "vehicle data module which contains the"
+ },
+ {
+  "start": 139.98,
+  "end": 143.03,
+  "text": "fields in that particular page and then"
+ },
+ {
+  "start": 143.04,
+  "end": 145.07,
+  "text": "there is also a headers module which"
+ },
+ {
+  "start": 145.08,
+  "end": 148.19,
+  "text": "contains the auto by link which is what"
+ },
+ {
+  "start": 148.2,
+  "end": 150.589,
+  "text": "I'm trying to scan okay and these are"
+ },
+ {
+  "start": 150.599,
+  "end": 153.77,
+  "text": "all the fields for the automobile screen"
+ },
+ {
+  "start": 153.78,
+  "end": 156.83,
+  "text": "now on the right hand side I have"
+ },
+ {
+  "start": 156.84,
+  "end": 159.65,
+  "text": "created the same module but in a"
+ },
+ {
+  "start": 159.66,
+  "end": 162.47,
+  "text": "different way now what I have done is I"
+ },
+ {
+  "start": 162.48,
+  "end": 164.809,
+  "text": "have scanned that page and I have added"
+ },
+ {
+  "start": 164.819,
+  "end": 166.55,
+  "text": "all my controls"
+ },
+ {
+  "start": 166.56,
+  "end": 169.67,
+  "text": "together in this single module"
+ },
+ {
+  "start": 169.68,
+  "end": 172.91,
+  "text": "now you may think that if you go ahead"
+ },
+ {
+  "start": 172.92,
+  "end": 175.27,
+  "text": "and scan all the elements on your page"
+ },
+ {
+  "start": 175.28,
+  "end": 179.39,
+  "text": "so you may not required to go back and"
+ },
+ {
+  "start": 179.4,
+  "end": 182.869,
+  "text": "scan that application or that page again"
+ },
+ {
+  "start": 182.879,
+  "end": 184.85,
+  "text": "so you can reuse this module for all"
+ },
+ {
+  "start": 184.86,
+  "end": 187.85,
+  "text": "test cases but that is not an efficient"
+ },
+ {
+  "start": 187.86,
+  "end": 190.61,
+  "text": "way of doing it and there are specific"
+ },
+ {
+  "start": 190.62,
+  "end": 193.19,
+  "text": "reasons for this so if you go ahead and"
+ },
+ {
+  "start": 193.2,
+  "end": 195.17,
+  "text": "create modules like this where you scan"
+ },
+ {
+  "start": 195.18,
+  "end": 198.17,
+  "text": "all the controls of your application and"
+ },
+ {
+  "start": 198.18,
+  "end": 200.809,
+  "text": "put together in just a single module"
+ },
+ {
+  "start": 200.819,
+  "end": 202.55,
+  "text": "firstly your performance will be"
+ },
+ {
+  "start": 202.56,
+  "end": 203.69,
+  "text": "impacted"
+ },
+ {
+  "start": 203.7,
+  "end": 206.99,
+  "text": "also in the long run your workspace size"
+ },
+ {
+  "start": 207.0,
+  "end": 209.33,
+  "text": "will also increase"
+ },
+ {
+  "start": 209.34,
+  "end": 212.03,
+  "text": "okay because even if you're not using"
+ },
+ {
+  "start": 212.04,
+  "end": 214.85,
+  "text": "the controls you are still scanning all"
+ },
+ {
+  "start": 214.86,
+  "end": 216.77,
+  "text": "the controls and keeping it in the"
+ },
+ {
+  "start": 216.78,
+  "end": 220.19,
+  "text": "modules okay rather than this what"
+ },
+ {
+  "start": 220.2,
+  "end": 223.49,
+  "text": "presenters suggests is create the"
+ },
+ {
+  "start": 223.5,
+  "end": 226.13,
+  "text": "modules but only use the model"
+ },
+ {
+  "start": 226.14,
+  "end": 228.89,
+  "text": "attributes which you are going to use it"
+ },
+ {
+  "start": 228.9,
+  "end": 230.57,
+  "text": "in your test case"
+ },
+ {
+  "start": 230.58,
+  "end": 234.229,
+  "text": "now if you want to use more controls"
+ },
+ {
+  "start": 234.239,
+  "end": 236.809,
+  "text": "than this okay so some other test case"
+ },
+ {
+  "start": 236.819,
+  "end": 239.39,
+  "text": "requires some other controls which you"
+ },
+ {
+  "start": 239.4,
+  "end": 242.39,
+  "text": "have not scanned um first time so you"
+ },
+ {
+  "start": 242.4,
+  "end": 244.55,
+  "text": "can always go back and rescan that"
+ },
+ {
+  "start": 244.56,
+  "end": 246.89,
+  "text": "particular window and add your"
+ },
+ {
+  "start": 246.9,
+  "end": 248.69,
+  "text": "additional controls"
+ },
+ {
+  "start": 248.7,
+  "end": 251.99,
+  "text": "but you should not go ahead and put all"
+ },
+ {
+  "start": 252.0,
+  "end": 254.21,
+  "text": "the controls or scan all the controls in"
+ },
+ {
+  "start": 254.22,
+  "end": 257.21,
+  "text": "just one module okay also you should"
+ },
+ {
+  "start": 257.22,
+  "end": 259.729,
+  "text": "categorize your modules the reason is"
+ },
+ {
+  "start": 259.739,
+  "end": 262.189,
+  "text": "pretty simple once you categorize you"
+ },
+ {
+  "start": 262.199,
+  "end": 264.71,
+  "text": "create a structure in your modules and"
+ },
+ {
+  "start": 264.72,
+  "end": 266.689,
+  "text": "when you drag this into your test cases"
+ },
+ {
+  "start": 266.699,
+  "end": 269.27,
+  "text": "the same structure is maintained so"
+ },
+ {
+  "start": 269.28,
+  "end": 272.15,
+  "text": "there is a test case flow with all the"
+ },
+ {
+  "start": 272.16,
+  "end": 274.43,
+  "text": "different steps which are nothing but"
+ },
+ {
+  "start": 274.44,
+  "end": 277.37,
+  "text": "your modules right now if I have got"
+ },
+ {
+  "start": 277.38,
+  "end": 279.77,
+  "text": "just one module and I'm trying to use"
+ },
+ {
+  "start": 279.78,
+  "end": 282.53,
+  "text": "that module in every test step then"
+ },
+ {
+  "start": 282.54,
+  "end": 285.89,
+  "text": "maybe uh you have to rename all the test"
+ },
+ {
+  "start": 285.9,
+  "end": 289.79,
+  "text": "steps and also while executing Tosca has"
+ },
+ {
+  "start": 289.8,
+  "end": 292.01,
+  "text": "to go through all the module all the"
+ },
+ {
+  "start": 292.02,
+  "end": 294.23,
+  "text": "module attributes in order to find that"
+ },
+ {
+  "start": 294.24,
+  "end": 296.33,
+  "text": "particular module attribute which may"
+ },
+ {
+  "start": 296.34,
+  "end": 299.51,
+  "text": "not be efficient right so think like"
+ },
+ {
+  "start": 299.52,
+  "end": 301.909,
+  "text": "this if I just need to click on the"
+ },
+ {
+  "start": 301.919,
+  "end": 304.43,
+  "text": "automobile link I just need to pass this"
+ },
+ {
+  "start": 304.44,
+  "end": 306.23,
+  "text": "module which has got just one module"
+ },
+ {
+  "start": 306.24,
+  "end": 309.65,
+  "text": "attribute but if I have to do the same"
+ },
+ {
+  "start": 309.66,
+  "end": 313.07,
+  "text": "thing in this example then there are so"
+ },
+ {
+  "start": 313.08,
+  "end": 315.59,
+  "text": "many module attributes out of this Tosca"
+ },
+ {
+  "start": 315.6,
+  "end": 317.27,
+  "text": "has to click on the automobile link"
+ },
+ {
+  "start": 317.28,
+  "end": 320.45,
+  "text": "right so it affects the performance of"
+ },
+ {
+  "start": 320.46,
+  "end": 323.39,
+  "text": "your Automation and also it slows down"
+ },
+ {
+  "start": 323.4,
+  "end": 325.969,
+  "text": "your execution also"
+ },
+ {
+  "start": 325.979,
+  "end": 329.51,
+  "text": "um it impacts your workspace size so"
+ },
+ {
+  "start": 329.52,
+  "end": 331.85,
+  "text": "there are lots of disadvantages as you"
+ },
+ {
+  "start": 331.86,
+  "end": 334.85,
+  "text": "can see and also you can also make out"
+ },
+ {
+  "start": 334.86,
+  "end": 337.67,
+  "text": "which looks better right the structured"
+ },
+ {
+  "start": 337.68,
+  "end": 339.409,
+  "text": "way is much better than the"
+ },
+ {
+  "start": 339.419,
+  "end": 341.51,
+  "text": "non-structured way right"
+ },
+ {
+  "start": 341.52,
+  "end": 343.969,
+  "text": "so transcendus always recommends this"
+ },
+ {
+  "start": 343.979,
+  "end": 347.57,
+  "text": "that use your modules uh in different"
+ },
+ {
+  "start": 347.58,
+  "end": 350.15,
+  "text": "categories okay categorize your model"
+ },
+ {
+  "start": 350.16,
+  "end": 354.469,
+  "text": "attributes and also uh make it more"
+ },
+ {
+  "start": 354.479,
+  "end": 356.629,
+  "text": "efficient don't add all the module"
+ },
+ {
+  "start": 356.639,
+  "end": 359.39,
+  "text": "attributes together right"
+ },
+ {
+  "start": 359.4,
+  "end": 362.15,
+  "text": "so that's all for this particular video"
+ },
+ {
+  "start": 362.16,
+  "end": 364.73,
+  "text": "I hope you enjoyed it and you learned"
+ },
+ {
+  "start": 364.74,
+  "end": 366.65,
+  "text": "something new today if you want to"
+ },
+ {
+  "start": 366.66,
+  "end": 368.93,
+  "text": "continue learning about best practices"
+ },
+ {
+  "start": 368.94,
+  "end": 372.01,
+  "text": "keep watching for uh the upcoming videos"
+ },
+ {
+  "start": 372.02,
+  "end": 374.81,
+  "text": "so until the next video"
+ },
+ {
+  "start": 374.82,
+  "end": 377.629,
+  "text": "keep learning and keep watching our"
+ },
+ {
+  "start": 377.639,
+  "end": 379.88,
+  "text": "videos"
+ }
+]

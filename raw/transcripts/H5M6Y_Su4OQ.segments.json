@@ -1,0 +1,2747 @@
+[
+ {
+  "start": 9.99,
+  "end": 10.0,
+  "text": "Hey there. Uh in this particular"
+ },
+ {
+  "start": 10.0,
+  "end": 12.31,
+  "text": "session, we are going to talk about test"
+ },
+ {
+  "start": 12.32,
+  "end": 15.27,
+  "text": "configuration. And then uh we'll talk"
+ },
+ {
+  "start": 15.28,
+  "end": 17.71,
+  "text": "about how to configure your tests in"
+ },
+ {
+  "start": 17.72,
+  "end": 20.35,
+  "text": "Tosca and what are test configuration"
+ },
+ {
+  "start": 20.36,
+  "end": 22.87,
+  "text": "parameters, uh where you can set this"
+ },
+ {
+  "start": 22.88,
+  "end": 24.79,
+  "text": "configuration parameters."
+ },
+ {
+  "start": 24.8,
+  "end": 26.79,
+  "text": "And then uh what types of configuration"
+ },
+ {
+  "start": 26.8,
+  "end": 29.15,
+  "text": "parameters are present in Tosca."
+ },
+ {
+  "start": 29.16,
+  "end": 31.71,
+  "text": "But first, uh let's try to understand uh"
+ },
+ {
+  "start": 31.72,
+  "end": 34.11,
+  "text": "what is test configuration. And then why"
+ },
+ {
+  "start": 34.12,
+  "end": 36.67,
+  "text": "do you need it? So, in any automation"
+ },
+ {
+  "start": 36.68,
+  "end": 39.19,
+  "text": "framework or any automation tool you're"
+ },
+ {
+  "start": 39.2,
+  "end": 41.07,
+  "text": "using, if you're building some"
+ },
+ {
+  "start": 41.08,
+  "end": 44.31,
+  "text": "automation tests, then you want to uh"
+ },
+ {
+  "start": 44.32,
+  "end": 47.07,
+  "text": "run that automation tests multiple times"
+ },
+ {
+  "start": 47.08,
+  "end": 49.47,
+  "text": "with different set of values. For"
+ },
+ {
+  "start": 49.48,
+  "end": 52.51,
+  "text": "example, if uh you are running your"
+ },
+ {
+  "start": 52.52,
+  "end": 55.43,
+  "text": "tests in a particular environment, uh"
+ },
+ {
+  "start": 55.44,
+  "end": 58.27,
+  "text": "which has got a URL, right? And then uh"
+ },
+ {
+  "start": 58.28,
+  "end": 61.23,
+  "text": "you want to run the same test with a"
+ },
+ {
+  "start": 61.24,
+  "end": 64.03,
+  "text": "different URL the second time around."
+ },
+ {
+  "start": 64.04,
+  "end": 66.67,
+  "text": "So, you have to go back and either"
+ },
+ {
+  "start": 66.68,
+  "end": 69.67,
+  "text": "change your test uh value right in your"
+ },
+ {
+  "start": 69.68,
+  "end": 72.87,
+  "text": "script or what you can do is you can"
+ },
+ {
+  "start": 72.88,
+  "end": 75.71,
+  "text": "create a configuration parameter and"
+ },
+ {
+  "start": 75.72,
+  "end": 78.15,
+  "text": "then use that parameter in your test so"
+ },
+ {
+  "start": 78.16,
+  "end": 81.95,
+  "text": "that you don't need to change the value"
+ },
+ {
+  "start": 81.96,
+  "end": 83.79,
+  "text": "uh at different places in your test"
+ },
+ {
+  "start": 83.8,
+  "end": 86.95,
+  "text": "script, right? That will only increase"
+ },
+ {
+  "start": 86.96,
+  "end": 89.59,
+  "text": "uh your test development time. Also, it"
+ },
+ {
+  "start": 89.6,
+  "end": 92.35,
+  "text": "will increase your maintenance time when"
+ },
+ {
+  "start": 92.36,
+  "end": 94.19,
+  "text": "uh any of the tests uh which you have"
+ },
+ {
+  "start": 94.2,
+  "end": 97.59,
+  "text": "developed fail. So, to make this uh"
+ },
+ {
+  "start": 97.6,
+  "end": 101.27,
+  "text": "easier and also less time-consuming, uh"
+ },
+ {
+  "start": 101.28,
+  "end": 104.15,
+  "text": "we generally configure our tests. So,"
+ },
+ {
+  "start": 104.16,
+  "end": 107.19,
+  "text": "every test framework uh has got some"
+ },
+ {
+  "start": 107.2,
+  "end": 110.35,
+  "text": "level of uh configurable values."
+ },
+ {
+  "start": 110.36,
+  "end": 112.63,
+  "text": "And these values could be used uh in"
+ },
+ {
+  "start": 112.64,
+  "end": 115.19,
+  "text": "your test scripts so that they could be"
+ },
+ {
+  "start": 115.2,
+  "end": 117.75,
+  "text": "developed uh much faster also they could"
+ },
+ {
+  "start": 117.76,
+  "end": 120.39,
+  "text": "be maintained easily."
+ },
+ {
+  "start": 120.4,
+  "end": 123.51,
+  "text": "Now, um in Tosca, uh we can configure"
+ },
+ {
+  "start": 123.52,
+  "end": 125.51,
+  "text": "our tests using the test configuration"
+ },
+ {
+  "start": 125.52,
+  "end": 129.23,
+  "text": "parameters. So, we can set values uh for"
+ },
+ {
+  "start": 129.24,
+  "end": 131.83,
+  "text": "these parameters, and then we can use"
+ },
+ {
+  "start": 131.84,
+  "end": 133.67,
+  "text": "them in our tests."
+ },
+ {
+  "start": 133.68,
+  "end": 135.99,
+  "text": "Now, these configuration parameters uh"
+ },
+ {
+  "start": 136.0,
+  "end": 139.43,
+  "text": "can be set for different Tosca objects,"
+ },
+ {
+  "start": 139.44,
+  "end": 142.39,
+  "text": "right from the root element uh to"
+ },
+ {
+  "start": 142.4,
+  "end": 144.63,
+  "text": "component folders, to configuration"
+ },
+ {
+  "start": 144.64,
+  "end": 148.07,
+  "text": "folders, to test cases, executions,"
+ },
+ {
+  "start": 148.08,
+  "end": 150.67,
+  "text": "uh and even the test case design folder,"
+ },
+ {
+  "start": 150.68,
+  "end": 153.87,
+  "text": "right? So, everywhere you will find a"
+ },
+ {
+  "start": 153.88,
+  "end": 156.79,
+  "text": "tab, which is the test configuration."
+ },
+ {
+  "start": 156.8,
+  "end": 158.79,
+  "text": "So, when you go into the project root"
+ },
+ {
+  "start": 158.8,
+  "end": 160.47,
+  "text": "element, you will see there is a"
+ },
+ {
+  "start": 160.48,
+  "end": 162.67,
+  "text": "configuration tab."
+ },
+ {
+  "start": 162.68,
+  "end": 165.59,
+  "text": "And then uh the same uh you will find"
+ },
+ {
+  "start": 165.6,
+  "end": 168.03,
+  "text": "for the test cases,"
+ },
+ {
+  "start": 168.04,
+  "end": 170.67,
+  "text": "and the same you'll find for execution,"
+ },
+ {
+  "start": 170.68,
+  "end": 174.949,
+  "text": "and also for test case design, right?"
+ },
+ {
+  "start": 174.959,
+  "end": 177.07,
+  "text": "So, all of these places you can create"
+ },
+ {
+  "start": 177.08,
+  "end": 180.31,
+  "text": "this uh test configuration parameters."
+ },
+ {
+  "start": 180.32,
+  "end": 181.949,
+  "text": "And then uh these configuration"
+ },
+ {
+  "start": 181.959,
+  "end": 184.31,
+  "text": "parameters, some of them are defined by"
+ },
+ {
+  "start": 184.32,
+  "end": 187.07,
+  "text": "the system, which is Tosca, and uh"
+ },
+ {
+  "start": 187.08,
+  "end": 189.59,
+  "text": "others you can define on your own. You"
+ },
+ {
+  "start": 189.6,
+  "end": 191.59,
+  "text": "can create your own custom configuration"
+ },
+ {
+  "start": 191.6,
+  "end": 193.91,
+  "text": "values, which you want to use in your"
+ },
+ {
+  "start": 193.92,
+  "end": 195.47,
+  "text": "test cases."
+ },
+ {
+  "start": 195.48,
+  "end": 198.31,
+  "text": "So, now uh let's talk about uh"
+ },
+ {
+  "start": 198.32,
+  "end": 200.15,
+  "text": "what are these test configuration"
+ },
+ {
+  "start": 200.16,
+  "end": 203.11,
+  "text": "parameters, uh and what are the types of"
+ },
+ {
+  "start": 203.12,
+  "end": 204.79,
+  "text": "test configuration parameters, which are"
+ },
+ {
+  "start": 204.8,
+  "end": 206.55,
+  "text": "available in Tosca,"
+ },
+ {
+  "start": 206.56,
+  "end": 210.19,
+  "text": "and uh how can you use them to create uh"
+ },
+ {
+  "start": 210.2,
+  "end": 212.15,
+  "text": "different parameters, which can be used"
+ },
+ {
+  "start": 212.16,
+  "end": 213.55,
+  "text": "at different places in your test"
+ },
+ {
+  "start": 213.56,
+  "end": 215.03,
+  "text": "scripts."
+ },
+ {
+  "start": 215.04,
+  "end": 216.99,
+  "text": "Now, although there are a lot of test"
+ },
+ {
+  "start": 217.0,
+  "end": 218.949,
+  "text": "configuration parameters, uh and the"
+ },
+ {
+  "start": 218.959,
+  "end": 221.87,
+  "text": "whole list is available on the Tosca uh"
+ },
+ {
+  "start": 221.88,
+  "end": 224.509,
+  "text": "support documentation, but I've listed"
+ },
+ {
+  "start": 224.519,
+  "end": 226.39,
+  "text": "down some of the important ones, uh"
+ },
+ {
+  "start": 226.4,
+  "end": 228.43,
+  "text": "which you might come across uh while you"
+ },
+ {
+  "start": 228.44,
+  "end": 230.31,
+  "text": "are doing script development."
+ },
+ {
+  "start": 230.32,
+  "end": 232.03,
+  "text": "Now, these are also divided across"
+ },
+ {
+  "start": 232.04,
+  "end": 233.71,
+  "text": "different engines like the X browser"
+ },
+ {
+  "start": 233.72,
+  "end": 234.79,
+  "text": "engine,"
+ },
+ {
+  "start": 234.8,
+  "end": 236.71,
+  "text": "uh the T-Box engine, and the mobile"
+ },
+ {
+  "start": 236.72,
+  "end": 239.23,
+  "text": "engine. And uh depending on which type"
+ },
+ {
+  "start": 239.24,
+  "end": 240.83,
+  "text": "of test cases you are creating, we'll be"
+ },
+ {
+  "start": 240.84,
+  "end": 243.47,
+  "text": "using these parameters, right? So,"
+ },
+ {
+  "start": 243.48,
+  "end": 245.87,
+  "text": "generally for web applications, we will"
+ },
+ {
+  "start": 245.88,
+  "end": 248.23,
+  "text": "be using the X browser engine. And the"
+ },
+ {
+  "start": 248.24,
+  "end": 250.949,
+  "text": "most common type of parameter uh we will"
+ },
+ {
+  "start": 250.959,
+  "end": 253.47,
+  "text": "use is the browser parameter."
+ },
+ {
+  "start": 253.48,
+  "end": 256.55,
+  "text": "Now, uh this browser parameter uh has"
+ },
+ {
+  "start": 256.56,
+  "end": 258.43,
+  "text": "got some default uh"
+ },
+ {
+  "start": 258.44,
+  "end": 260.71,
+  "text": "browser values which you can use. So, it"
+ },
+ {
+  "start": 260.72,
+  "end": 263.03,
+  "text": "has got a list of all the different"
+ },
+ {
+  "start": 263.04,
+  "end": 265.71,
+  "text": "values uh which can be used, right? From"
+ },
+ {
+  "start": 265.72,
+  "end": 268.35,
+  "text": "Chrome, Firefox, Edge, Internet"
+ },
+ {
+  "start": 268.36,
+  "end": 270.39,
+  "text": "Explorer, and uh the list keeps on"
+ },
+ {
+  "start": 270.4,
+  "end": 273.39,
+  "text": "increasing, right? So, you can use uh"
+ },
+ {
+  "start": 273.4,
+  "end": 275.51,
+  "text": "any browser value in this particular"
+ },
+ {
+  "start": 275.52,
+  "end": 277.87,
+  "text": "parameter, and then uh your test will be"
+ },
+ {
+  "start": 277.88,
+  "end": 279.87,
+  "text": "made configurable because you can run it"
+ },
+ {
+  "start": 279.88,
+  "end": 282.63,
+  "text": "in any particular browser, right?"
+ },
+ {
+  "start": 282.64,
+  "end": 284.71,
+  "text": "So, similarly, you can also set the"
+ },
+ {
+  "start": 284.72,
+  "end": 286.27,
+  "text": "browser version."
+ },
+ {
+  "start": 286.28,
+  "end": 287.67,
+  "text": "And then we have got two other"
+ },
+ {
+  "start": 287.68,
+  "end": 289.43,
+  "text": "parameters which are related to"
+ },
+ {
+  "start": 289.44,
+  "end": 292.23,
+  "text": "accessibility. So, one uh is whether you"
+ },
+ {
+  "start": 292.24,
+  "end": 294.79,
+  "text": "want to run the accessibility analysis,"
+ },
+ {
+  "start": 294.8,
+  "end": 296.75,
+  "text": "and one is if you want to run it in the"
+ },
+ {
+  "start": 296.76,
+  "end": 299.55,
+  "text": "fast mode, right? So, these are some of"
+ },
+ {
+  "start": 299.56,
+  "end": 302.95,
+  "text": "the parameters for the X browser engine."
+ },
+ {
+  "start": 302.96,
+  "end": 304.23,
+  "text": "Then um"
+ },
+ {
+  "start": 304.24,
+  "end": 306.79,
+  "text": "when we are using the T-Box modules, uh"
+ },
+ {
+  "start": 306.8,
+  "end": 309.79,
+  "text": "we will also use some of the parameters."
+ },
+ {
+  "start": 309.8,
+  "end": 312.51,
+  "text": "And these are some of the parameters."
+ },
+ {
+  "start": 312.52,
+  "end": 315.15,
+  "text": "So, we have got the avoid execution"
+ },
+ {
+  "start": 315.16,
+  "end": 316.79,
+  "text": "recorder."
+ },
+ {
+  "start": 316.8,
+  "end": 319.19,
+  "text": "Now, this will help you to either enable"
+ },
+ {
+  "start": 319.2,
+  "end": 321.19,
+  "text": "or disable uh the recording for a"
+ },
+ {
+  "start": 321.2,
+  "end": 323.31,
+  "text": "particular test case, right?"
+ },
+ {
+  "start": 323.32,
+  "end": 324.71,
+  "text": "Then we have got different configuration"
+ },
+ {
+  "start": 324.72,
+  "end": 327.31,
+  "text": "parameters for the recovery engine."
+ },
+ {
+  "start": 327.32,
+  "end": 331.35,
+  "text": "Um so, we can set uh the values here for"
+ },
+ {
+  "start": 331.36,
+  "end": 334.03,
+  "text": "uh the on dialog failure, on exception"
+ },
+ {
+  "start": 334.04,
+  "end": 337.15,
+  "text": "failure, or on verification failure,"
+ },
+ {
+  "start": 337.16,
+  "end": 339.51,
+  "text": "what you want uh Tosca to do, right? So,"
+ },
+ {
+  "start": 339.52,
+  "end": 342.79,
+  "text": "you can set that configuration here."
+ },
+ {
+  "start": 342.8,
+  "end": 345.11,
+  "text": "Then uh we have got the page sync"
+ },
+ {
+  "start": 345.12,
+  "end": 346.67,
+  "text": "parameter."
+ },
+ {
+  "start": 346.68,
+  "end": 348.31,
+  "text": "Now, this page sync parameter, it is"
+ },
+ {
+  "start": 348.32,
+  "end": 351.71,
+  "text": "basically used uh uh for uh"
+ },
+ {
+  "start": 351.72,
+  "end": 354.43,
+  "text": "uh different Ajax requests, right? So,"
+ },
+ {
+  "start": 354.44,
+  "end": 356.11,
+  "text": "if you don't want to continue with test"
+ },
+ {
+  "start": 356.12,
+  "end": 358.07,
+  "text": "execution, then you can set this to"
+ },
+ {
+  "start": 358.08,
+  "end": 359.79,
+  "text": "true."
+ },
+ {
+  "start": 359.8,
+  "end": 361.39,
+  "text": "Then uh we have got the scrolling"
+ },
+ {
+  "start": 361.4,
+  "end": 364.63,
+  "text": "behavior. So, using this uh you can tell"
+ },
+ {
+  "start": 364.64,
+  "end": 367.43,
+  "text": "Tosca whether you want to scroll uh a"
+ },
+ {
+  "start": 367.44,
+  "end": 369.63,
+  "text": "vertical or horizontal."
+ },
+ {
+  "start": 369.64,
+  "end": 371.39,
+  "text": "We have got the synchronization timeout."
+ },
+ {
+  "start": 371.4,
+  "end": 374.75,
+  "text": "Now, you can set uh the timeout value"
+ },
+ {
+  "start": 374.76,
+  "end": 377.55,
+  "text": "for uh synchronizing your elements uh"
+ },
+ {
+  "start": 377.56,
+  "end": 380.71,
+  "text": "with Tosca. So, it will have a default"
+ },
+ {
+  "start": 380.72,
+  "end": 382.63,
+  "text": "value, but then you can change this in"
+ },
+ {
+  "start": 382.64,
+  "end": 385.39,
+  "text": "your configuration parameter."
+ },
+ {
+  "start": 385.4,
+  "end": 387.87,
+  "text": "Then uh we have got uh the target date"
+ },
+ {
+  "start": 387.88,
+  "end": 389.63,
+  "text": "format, and similarly we have got target"
+ },
+ {
+  "start": 389.64,
+  "end": 391.67,
+  "text": "time format. So, you can set a"
+ },
+ {
+  "start": 391.68,
+  "end": 393.95,
+  "text": "particular format which you want to use"
+ },
+ {
+  "start": 393.96,
+  "end": 395.71,
+  "text": "for your particular tests if you set"
+ },
+ {
+  "start": 395.72,
+  "end": 397.83,
+  "text": "that parameter value."
+ },
+ {
+  "start": 397.84,
+  "end": 399.909,
+  "text": "Then uh we have got the test step"
+ },
+ {
+  "start": 399.919,
+  "end": 402.909,
+  "text": "retries. Now, this will uh define how"
+ },
+ {
+  "start": 402.919,
+  "end": 405.07,
+  "text": "many times you want to retry a"
+ },
+ {
+  "start": 405.08,
+  "end": 407.63,
+  "text": "particular step. So, that you can define"
+ },
+ {
+  "start": 407.64,
+  "end": 409.39,
+  "text": "in this particular parameter."
+ },
+ {
+  "start": 409.4,
+  "end": 411.63,
+  "text": "Similarly, we have got the test case"
+ },
+ {
+  "start": 411.64,
+  "end": 413.79,
+  "text": "retries. Uh these are all part of the"
+ },
+ {
+  "start": 413.8,
+  "end": 416.87,
+  "text": "recovery engine."
+ },
+ {
+  "start": 418.79,
+  "end": 418.8,
+  "text": "Then we have got some parameters which"
+ },
+ {
+  "start": 418.8,
+  "end": 421.43,
+  "text": "are specific to the mobile engine."
+ },
+ {
+  "start": 421.44,
+  "end": 423.19,
+  "text": "And this will be separately covered uh"
+ },
+ {
+  "start": 423.2,
+  "end": 425.59,
+  "text": "in the mobile uh sessions."
+ },
+ {
+  "start": 425.6,
+  "end": 428.27,
+  "text": "But uh we have got the APM server. We we"
+ },
+ {
+  "start": 428.28,
+  "end": 429.95,
+  "text": "can set the browser. We can set the"
+ },
+ {
+  "start": 429.96,
+  "end": 432.19,
+  "text": "device model, device name."
+ },
+ {
+  "start": 432.2,
+  "end": 434.43,
+  "text": "Uh we can also set whether uh we want to"
+ },
+ {
+  "start": 434.44,
+  "end": 436.11,
+  "text": "enable the live view."
+ },
+ {
+  "start": 436.12,
+  "end": 438.99,
+  "text": "Uh we can also set whether uh it's an"
+ },
+ {
+  "start": 439.0,
+  "end": 441.83,
+  "text": "APM or it's a simulator, right? So, all"
+ },
+ {
+  "start": 441.84,
+  "end": 443.99,
+  "text": "these parameters can be used in your"
+ },
+ {
+  "start": 444.0,
+  "end": 446.35,
+  "text": "mobile engine test cases."
+ },
+ {
+  "start": 446.36,
+  "end": 447.83,
+  "text": "So, these are some of the different"
+ },
+ {
+  "start": 447.84,
+  "end": 449.71,
+  "text": "parameters. Now, if you want to look at"
+ },
+ {
+  "start": 449.72,
+  "end": 452.47,
+  "text": "the whole list, uh you can get it uh in"
+ },
+ {
+  "start": 452.48,
+  "end": 454.03,
+  "text": "the documentation,"
+ },
+ {
+  "start": 454.04,
+  "end": 455.75,
+  "text": "uh which I'm going to provide the link"
+ },
+ {
+  "start": 455.76,
+  "end": 456.59,
+  "text": "to."
+ },
+ {
+  "start": 456.6,
+  "end": 459.27,
+  "text": "Now, let's look at a very simple example"
+ },
+ {
+  "start": 459.28,
+  "end": 461.15,
+  "text": "on how we can create a test"
+ },
+ {
+  "start": 461.16,
+  "end": 463.71,
+  "text": "configuration parameter and how it can"
+ },
+ {
+  "start": 463.72,
+  "end": 467.07,
+  "text": "be useful while creating your test cases"
+ },
+ {
+  "start": 467.08,
+  "end": 469.79,
+  "text": "for particular test scenarios."
+ },
+ {
+  "start": 469.8,
+  "end": 473.87,
+  "text": "So, uh let's create a test case here."
+ },
+ {
+  "start": 473.88,
+  "end": 476.75,
+  "text": "And let's call this"
+ },
+ {
+  "start": 476.76,
+  "end": 483.27,
+  "text": "uh parameters."
+ },
+ {
+  "start": 485.91,
+  "end": 485.92,
+  "text": "So, uh here um I'm just picking up an"
+ },
+ {
+  "start": 485.92,
+  "end": 488.71,
+  "text": "example, this particular website, right?"
+ },
+ {
+  "start": 488.72,
+  "end": 491.39,
+  "text": "So, what I'm going to do is I am going"
+ },
+ {
+  "start": 491.4,
+  "end": 494.83,
+  "text": "to add a test step here."
+ },
+ {
+  "start": 494.84,
+  "end": 499.75,
+  "text": "Um and then we'll say navigate or"
+ },
+ {
+  "start": 499.76,
+  "end": 503.35,
+  "text": "uh we'll say open URL."
+ },
+ {
+  "start": 504.99,
+  "end": 505.0,
+  "text": "Okay, and then I'm going to enter the"
+ },
+ {
+  "start": 505.0,
+  "end": 507.11,
+  "text": "URL here, so it is going to open this"
+ },
+ {
+  "start": 507.12,
+  "end": 509.27,
+  "text": "particular website using this particular"
+ },
+ {
+  "start": 509.28,
+  "end": 510.909,
+  "text": "test case."
+ },
+ {
+  "start": 510.919,
+  "end": 513.63,
+  "text": "Okay, and then uh we want to enter the"
+ },
+ {
+  "start": 513.64,
+  "end": 517.31,
+  "text": "username and password, right? So, let's"
+ },
+ {
+  "start": 517.32,
+  "end": 523.19,
+  "text": "go ahead and scan this quickly."
+ },
+ {
+  "start": 525.07,
+  "end": 525.08,
+  "text": "Okay, so here uh I just need the"
+ },
+ {
+  "start": 525.08,
+  "end": 528.55,
+  "text": "username, uh password, and uh the login"
+ },
+ {
+  "start": 528.56,
+  "end": 530.71,
+  "text": "button. Uh I've already checked all"
+ },
+ {
+  "start": 530.72,
+  "end": 532.79,
+  "text": "these three are unique, so I don't need"
+ },
+ {
+  "start": 532.8,
+  "end": 534.47,
+  "text": "to make any changes here."
+ },
+ {
+  "start": 534.48,
+  "end": 538.31,
+  "text": "I'll just go ahead and save this, and uh"
+ },
+ {
+  "start": 538.32,
+  "end": 540.63,
+  "text": "I'm going to close it."
+ },
+ {
+  "start": 540.64,
+  "end": 543.03,
+  "text": "Okay, so this is the module uh which you"
+ },
+ {
+  "start": 543.04,
+  "end": 546.27,
+  "text": "can see here, and now we can go and drag"
+ },
+ {
+  "start": 546.28,
+  "end": 547.35,
+  "text": "it here."
+ },
+ {
+  "start": 547.36,
+  "end": 549.87,
+  "text": "We can add it to our test case, so this"
+ },
+ {
+  "start": 549.88,
+  "end": 551.51,
+  "text": "is our second step."
+ },
+ {
+  "start": 551.52,
+  "end": 556.51,
+  "text": "And this is our login step, right?"
+ },
+ {
+  "start": 556.52,
+  "end": 560.31,
+  "text": "So, here uh we can use the username. Uh"
+ },
+ {
+  "start": 560.32,
+  "end": 562.03,
+  "text": "it's provided here."
+ },
+ {
+  "start": 562.04,
+  "end": 566.03,
+  "text": "So, we'll go back here and put it here."
+ },
+ {
+  "start": 566.04,
+  "end": 569.95,
+  "text": "And then password is here, so we'll"
+ },
+ {
+  "start": 569.96,
+  "end": 572.15,
+  "text": "again use the password."
+ },
+ {
+  "start": 572.16,
+  "end": 574.27,
+  "text": "And then for button we will use click,"
+ },
+ {
+  "start": 574.28,
+  "end": 575.07,
+  "text": "right?"
+ },
+ {
+  "start": 575.08,
+  "end": 577.63,
+  "text": "Now, this test case works fine uh when"
+ },
+ {
+  "start": 577.64,
+  "end": 581.51,
+  "text": "you execute it any number of times, but"
+ },
+ {
+  "start": 581.52,
+  "end": 584.55,
+  "text": "uh in a scenario where you have to test"
+ },
+ {
+  "start": 584.56,
+  "end": 586.87,
+  "text": "multiple scenarios for this particular"
+ },
+ {
+  "start": 586.88,
+  "end": 589.55,
+  "text": "page, like uh we have to test with"
+ },
+ {
+  "start": 589.56,
+  "end": 591.43,
+  "text": "different usernames, like we have to"
+ },
+ {
+  "start": 591.44,
+  "end": 593.83,
+  "text": "test with logged out user, problem user,"
+ },
+ {
+  "start": 593.84,
+  "end": 595.87,
+  "text": "performance error, visual, right? So,"
+ },
+ {
+  "start": 595.88,
+  "end": 598.43,
+  "text": "there are seven different types of"
+ },
+ {
+  "start": 598.44,
+  "end": 600.99,
+  "text": "usernames here, and every particular"
+ },
+ {
+  "start": 601.0,
+  "end": 602.99,
+  "text": "username has got a different"
+ },
+ {
+  "start": 603.0,
+  "end": 605.75,
+  "text": "functionality, which we need to verify"
+ },
+ {
+  "start": 605.76,
+  "end": 608.47,
+  "text": "through automation. So, uh basically,"
+ },
+ {
+  "start": 608.48,
+  "end": 612.55,
+  "text": "you need to run this uh test for seven"
+ },
+ {
+  "start": 612.56,
+  "end": 615.07,
+  "text": "different test scenarios, right? Or you"
+ },
+ {
+  "start": 615.08,
+  "end": 616.67,
+  "text": "need to run this seven times with"
+ },
+ {
+  "start": 616.68,
+  "end": 618.31,
+  "text": "different values."
+ },
+ {
+  "start": 618.32,
+  "end": 621.19,
+  "text": "Now, one way is you can create different"
+ },
+ {
+  "start": 621.2,
+  "end": 623.43,
+  "text": "tests, uh like you can create seven"
+ },
+ {
+  "start": 623.44,
+  "end": 625.87,
+  "text": "tests which has got different uh"
+ },
+ {
+  "start": 625.88,
+  "end": 629.67,
+  "text": "usernames, but then you need to execute"
+ },
+ {
+  "start": 629.68,
+  "end": 631.67,
+  "text": "it separately, and also you need to"
+ },
+ {
+  "start": 631.68,
+  "end": 634.91,
+  "text": "maintain them separately, right? So, the"
+ },
+ {
+  "start": 634.92,
+  "end": 636.99,
+  "text": "creation or the development time is"
+ },
+ {
+  "start": 637.0,
+  "end": 639.19,
+  "text": "more, and the maintenance time is also"
+ },
+ {
+  "start": 639.2,
+  "end": 642.31,
+  "text": "more. And to reduce this, we can use"
+ },
+ {
+  "start": 642.32,
+  "end": 644.75,
+  "text": "configuration parameters, right? So, we"
+ },
+ {
+  "start": 644.76,
+  "end": 646.55,
+  "text": "can use the configuration parameter for"
+ },
+ {
+  "start": 646.56,
+  "end": 648.15,
+  "text": "username."
+ },
+ {
+  "start": 648.16,
+  "end": 650.03,
+  "text": "Probably, we don't need it for password,"
+ },
+ {
+  "start": 650.04,
+  "end": 651.99,
+  "text": "because this is not changing, but we can"
+ },
+ {
+  "start": 652.0,
+  "end": 655.27,
+  "text": "still have it. And then uh for URL, if"
+ },
+ {
+  "start": 655.28,
+  "end": 657.15,
+  "text": "you want to test this particular test"
+ },
+ {
+  "start": 657.16,
+  "end": 660.75,
+  "text": "case in different uh environments, like"
+ },
+ {
+  "start": 660.76,
+  "end": 662.63,
+  "text": "if this is the test environment, we can"
+ },
+ {
+  "start": 662.64,
+  "end": 664.55,
+  "text": "have multiple test environments, right?"
+ },
+ {
+  "start": 664.56,
+  "end": 668.43,
+  "text": "So, uh the URLs might be changing. URL"
+ },
+ {
+  "start": 668.44,
+  "end": 670.23,
+  "text": "is probably also test configuration"
+ },
+ {
+  "start": 670.24,
+  "end": 672.75,
+  "text": "parameter. So, all of these are"
+ },
+ {
+  "start": 672.76,
+  "end": 674.75,
+  "text": "different examples of test configuration"
+ },
+ {
+  "start": 674.76,
+  "end": 677.87,
+  "text": "parameter. So, instead of using static"
+ },
+ {
+  "start": 677.88,
+  "end": 680.07,
+  "text": "values in your test steps, you should be"
+ },
+ {
+  "start": 680.08,
+  "end": 683.35,
+  "text": "using parameters wherever you think that"
+ },
+ {
+  "start": 683.36,
+  "end": 686.59,
+  "text": "these values uh could change, or you"
+ },
+ {
+  "start": 686.6,
+  "end": 690.31,
+  "text": "could run them with different values."
+ },
+ {
+  "start": 690.32,
+  "end": 692.51,
+  "text": "So, the other uh parameter which you can"
+ },
+ {
+  "start": 692.52,
+  "end": 695.99,
+  "text": "create is for a browser because"
+ },
+ {
+  "start": 696.0,
+  "end": 697.63,
+  "text": "you need to first launch a browser after"
+ },
+ {
+  "start": 697.64,
+  "end": 699.47,
+  "text": "that only you can open any particular"
+ },
+ {
+  "start": 699.48,
+  "end": 700.51,
+  "text": "URL."
+ },
+ {
+  "start": 700.52,
+  "end": 702.03,
+  "text": "So, the most important configuration"
+ },
+ {
+  "start": 702.04,
+  "end": 705.23,
+  "text": "parameter for your web test is the"
+ },
+ {
+  "start": 705.24,
+  "end": 706.79,
+  "text": "browser, right?"
+ },
+ {
+  "start": 706.8,
+  "end": 709.07,
+  "text": "So, now let's look at how we can create"
+ },
+ {
+  "start": 709.08,
+  "end": 710.91,
+  "text": "a test configuration parameter at a test"
+ },
+ {
+  "start": 710.92,
+  "end": 714.19,
+  "text": "case level. It is almost the same at any"
+ },
+ {
+  "start": 714.2,
+  "end": 715.95,
+  "text": "particular level, okay?"
+ },
+ {
+  "start": 715.96,
+  "end": 716.91,
+  "text": "So,"
+ },
+ {
+  "start": 716.92,
+  "end": 718.91,
+  "text": "you have to go into the test"
+ },
+ {
+  "start": 718.92,
+  "end": 722.19,
+  "text": "configuration tab from the details tab."
+ },
+ {
+  "start": 722.2,
+  "end": 724.75,
+  "text": "And from here we need to right click on"
+ },
+ {
+  "start": 724.76,
+  "end": 727.43,
+  "text": "the main test case. There you'll find an"
+ },
+ {
+  "start": 727.44,
+  "end": 729.43,
+  "text": "option to create a test configuration"
+ },
+ {
+  "start": 729.44,
+  "end": 731.19,
+  "text": "parameter."
+ },
+ {
+  "start": 731.2,
+  "end": 733.55,
+  "text": "So, once you do this, you will see there"
+ },
+ {
+  "start": 733.56,
+  "end": 735.71,
+  "text": "is a drop down for the parameter. So,"
+ },
+ {
+  "start": 735.72,
+  "end": 738.55,
+  "text": "you can choose the default parameters"
+ },
+ {
+  "start": 738.56,
+  "end": 741.27,
+  "text": "here which are defined by Tosca, or you"
+ },
+ {
+  "start": 741.28,
+  "end": 743.07,
+  "text": "can choose your own or you can define"
+ },
+ {
+  "start": 743.08,
+  "end": 745.31,
+  "text": "your own parameter, right?"
+ },
+ {
+  "start": 745.32,
+  "end": 747.55,
+  "text": "So, here I'm going to choose the browser"
+ },
+ {
+  "start": 747.56,
+  "end": 749.63,
+  "text": "parameter. And then once you choose"
+ },
+ {
+  "start": 749.64,
+  "end": 751.55,
+  "text": "that, you'll see a drop down of values"
+ },
+ {
+  "start": 751.56,
+  "end": 753.55,
+  "text": "with all the different browsers, right?"
+ },
+ {
+  "start": 753.56,
+  "end": 755.87,
+  "text": "So, I can choose any browser here."
+ },
+ {
+  "start": 755.88,
+  "end": 758.39,
+  "text": "I will go with the Chrome browser."
+ },
+ {
+  "start": 758.4,
+  "end": 759.91,
+  "text": "So, that's one test configuration"
+ },
+ {
+  "start": 759.92,
+  "end": 762.07,
+  "text": "parameter which we just defined for this"
+ },
+ {
+  "start": 762.08,
+  "end": 763.71,
+  "text": "particular test case."
+ },
+ {
+  "start": 763.72,
+  "end": 767.91,
+  "text": "Similarly, we can create for username."
+ },
+ {
+  "start": 767.92,
+  "end": 769.71,
+  "text": "So, these are all the custom"
+ },
+ {
+  "start": 769.72,
+  "end": 771.23,
+  "text": "configuration parameters. These are not"
+ },
+ {
+  "start": 771.24,
+  "end": 773.39,
+  "text": "defined by Tosca, right?"
+ },
+ {
+  "start": 773.4,
+  "end": 778.67,
+  "text": "And then we can also use URL."
+ },
+ {
+  "start": 778.68,
+  "end": 784.59,
+  "text": "And then we can also add for password."
+ },
+ {
+  "start": 785.91,
+  "end": 785.92,
+  "text": "So, these are the four different"
+ },
+ {
+  "start": 785.92,
+  "end": 788.23,
+  "text": "parameters which I can"
+ },
+ {
+  "start": 788.24,
+  "end": 790.23,
+  "text": "create for this particular test case."
+ },
+ {
+  "start": 790.24,
+  "end": 793.63,
+  "text": "Now, depending on the test steps, there"
+ },
+ {
+  "start": 793.64,
+  "end": 795.23,
+  "text": "could be a number of different"
+ },
+ {
+  "start": 795.24,
+  "end": 796.99,
+  "text": "parameters, right?"
+ },
+ {
+  "start": 797.0,
+  "end": 799.35,
+  "text": "So, we need to just replace the values"
+ },
+ {
+  "start": 799.36,
+  "end": 800.39,
+  "text": "here"
+ },
+ {
+  "start": 800.4,
+  "end": 802.95,
+  "text": "for each of these parameters."
+ },
+ {
+  "start": 802.96,
+  "end": 805.79,
+  "text": "So, I can just copy it from here and I"
+ },
+ {
+  "start": 805.8,
+  "end": 808.47,
+  "text": "can directly put it here."
+ },
+ {
+  "start": 808.48,
+  "end": 810.87,
+  "text": "And for password, I can take it right"
+ },
+ {
+  "start": 810.88,
+  "end": 814.43,
+  "text": "from here."
+ },
+ {
+  "start": 817.51,
+  "end": 817.52,
+  "text": "And then I can paste it here, right? So,"
+ },
+ {
+  "start": 817.52,
+  "end": 819.31,
+  "text": "I can change the data type as well. So,"
+ },
+ {
+  "start": 819.32,
+  "end": 820.79,
+  "text": "if you're using a password, you can"
+ },
+ {
+  "start": 820.8,
+  "end": 822.19,
+  "text": "change it to"
+ },
+ {
+  "start": 822.2,
+  "end": 825.51,
+  "text": "password data type so that it is hidden."
+ },
+ {
+  "start": 825.52,
+  "end": 827.35,
+  "text": "And then we can"
+ },
+ {
+  "start": 827.36,
+  "end": 830.67,
+  "text": "just replace this actual values"
+ },
+ {
+  "start": 830.68,
+  "end": 834.15,
+  "text": "with a particular syntax, okay? So, in"
+ },
+ {
+  "start": 834.16,
+  "end": 836.47,
+  "text": "Tosca, we use configuration parameter."
+ },
+ {
+  "start": 836.48,
+  "end": 838.91,
+  "text": "So, we have to use the curly brace and"
+ },
+ {
+  "start": 838.92,
+  "end": 841.15,
+  "text": "then curly then CP, which is stands for"
+ },
+ {
+  "start": 841.16,
+  "end": 842.91,
+  "text": "configuration parameter."
+ },
+ {
+  "start": 842.92,
+  "end": 844.83,
+  "text": "And then uh once you do that, uh it will"
+ },
+ {
+  "start": 844.84,
+  "end": 846.43,
+  "text": "populate all the parameters which are"
+ },
+ {
+  "start": 846.44,
+  "end": 849.27,
+  "text": "defined for this particular test case."
+ },
+ {
+  "start": 849.28,
+  "end": 855.03,
+  "text": "So, I can go ahead and use them now."
+ },
+ {
+  "start": 857.83,
+  "end": 857.84,
+  "text": "Okay, and then here, similarly, I can"
+ },
+ {
+  "start": 857.84,
+  "end": 866.19,
+  "text": "use the username."
+ },
+ {
+  "start": 868.43,
+  "end": 868.44,
+  "text": "And for password,"
+ },
+ {
+  "start": 868.44,
+  "end": 871.79,
+  "text": "uh I can change the data type to string."
+ },
+ {
+  "start": 871.8,
+  "end": 874.87,
+  "text": "And then I can use"
+ },
+ {
+  "start": 874.88,
+  "end": 878.39,
+  "text": "password."
+ },
+ {
+  "start": 879.99,
+  "end": 880.0,
+  "text": "Now, uh"
+ },
+ {
+  "start": 880.0,
+  "end": 883.23,
+  "text": "what it also does is uh it not only"
+ },
+ {
+  "start": 883.24,
+  "end": 886.31,
+  "text": "makes your test configurable, but uh it"
+ },
+ {
+  "start": 886.32,
+  "end": 889.87,
+  "text": "also makes it more secure"
+ },
+ {
+  "start": 889.88,
+  "end": 894.19,
+  "text": "and also abstract, right? So, now the"
+ },
+ {
+  "start": 894.2,
+  "end": 896.99,
+  "text": "test is abstracted for a particular user"
+ },
+ {
+  "start": 897.0,
+  "end": 898.95,
+  "text": "who is trying to look at this particular"
+ },
+ {
+  "start": 898.96,
+  "end": 901.91,
+  "text": "test steps and just trying to execute it"
+ },
+ {
+  "start": 901.92,
+  "end": 905.07,
+  "text": "uh because he'll be only able to see"
+ },
+ {
+  "start": 905.08,
+  "end": 907.79,
+  "text": "these uh configuration parameters which"
+ },
+ {
+  "start": 907.8,
+  "end": 909.31,
+  "text": "are defined here, but not the actual"
+ },
+ {
+  "start": 909.32,
+  "end": 912.75,
+  "text": "values, right? Those values are here in"
+ },
+ {
+  "start": 912.76,
+  "end": 914.99,
+  "text": "the test configuration."
+ },
+ {
+  "start": 915.0,
+  "end": 917.43,
+  "text": "Now, whenever these values change, you"
+ },
+ {
+  "start": 917.44,
+  "end": 919.59,
+  "text": "don't need to change them in the test"
+ },
+ {
+  "start": 919.6,
+  "end": 922.19,
+  "text": "case or test steps, right? So, if these"
+ },
+ {
+  "start": 922.2,
+  "end": 925.19,
+  "text": "are used multiple times in a test step"
+ },
+ {
+  "start": 925.2,
+  "end": 928.55,
+  "text": "or test case, then um all of these are"
+ },
+ {
+  "start": 928.56,
+  "end": 930.91,
+  "text": "referring to these parameters, and we"
+ },
+ {
+  "start": 930.92,
+  "end": 933.15,
+  "text": "can change the values here. So, it will"
+ },
+ {
+  "start": 933.16,
+  "end": 934.83,
+  "text": "be directly reflecting in your test"
+ },
+ {
+  "start": 934.84,
+  "end": 936.47,
+  "text": "steps. Right?"
+ },
+ {
+  "start": 936.48,
+  "end": 938.83,
+  "text": "So, consider if you have got 1,000 test"
+ },
+ {
+  "start": 938.84,
+  "end": 941.27,
+  "text": "steps which are using the same values,"
+ },
+ {
+  "start": 941.28,
+  "end": 942.83,
+  "text": "you don't need to change these values"
+ },
+ {
+  "start": 942.84,
+  "end": 945.11,
+  "text": "1,000 times. Right? So, it is saving a"
+ },
+ {
+  "start": 945.12,
+  "end": 948.19,
+  "text": "lot of time and effort in order to uh"
+ },
+ {
+  "start": 948.2,
+  "end": 952.31,
+  "text": "configure and maintain your test steps."
+ },
+ {
+  "start": 952.32,
+  "end": 954.55,
+  "text": "Now, the other thing uh which you need"
+ },
+ {
+  "start": 954.56,
+  "end": 956.03,
+  "text": "to remember when you're working with"
+ },
+ {
+  "start": 956.04,
+  "end": 957.95,
+  "text": "test configuration parameter"
+ },
+ {
+  "start": 957.96,
+  "end": 960.35,
+  "text": "is you cannot delete any particular"
+ },
+ {
+  "start": 960.36,
+  "end": 962.39,
+  "text": "value if you want to. Right? So, there"
+ },
+ {
+  "start": 962.4,
+  "end": 964.63,
+  "text": "is no option to delete this."
+ },
+ {
+  "start": 964.64,
+  "end": 967.15,
+  "text": "But, if you want to uh"
+ },
+ {
+  "start": 967.16,
+  "end": 969.27,
+  "text": "just change or delete this particular"
+ },
+ {
+  "start": 969.28,
+  "end": 972.27,
+  "text": "value, you have to use this option reset"
+ },
+ {
+  "start": 972.28,
+  "end": 974.39,
+  "text": "to default value. Okay? So, once you do"
+ },
+ {
+  "start": 974.4,
+  "end": 976.19,
+  "text": "that, it will be removed from this"
+ },
+ {
+  "start": 976.2,
+  "end": 977.75,
+  "text": "particular list."
+ },
+ {
+  "start": 977.76,
+  "end": 980.11,
+  "text": "So, this is how you can create any test"
+ },
+ {
+  "start": 980.12,
+  "end": 981.91,
+  "text": "configuration parameter, and you can"
+ },
+ {
+  "start": 981.92,
+  "end": 985.31,
+  "text": "also uh remove them or reset them uh if"
+ },
+ {
+  "start": 985.32,
+  "end": 987.03,
+  "text": "you don't want to use them."
+ },
+ {
+  "start": 987.04,
+  "end": 989.27,
+  "text": "And then you can replace the values in"
+ },
+ {
+  "start": 989.28,
+  "end": 991.11,
+  "text": "your test steps with those test"
+ },
+ {
+  "start": 991.12,
+  "end": 993.99,
+  "text": "configuration parameters. Now, uh the"
+ },
+ {
+  "start": 994.0,
+  "end": 997.19,
+  "text": "other thing which you can do is also uh"
+ },
+ {
+  "start": 997.2,
+  "end": 999.27,
+  "text": "you can create configurations at a"
+ },
+ {
+  "start": 999.28,
+  "end": 1002.51,
+  "text": "project level. Right? So, if you have"
+ },
+ {
+  "start": 1002.52,
+  "end": 1004.51,
+  "text": "got this particular project which I have"
+ },
+ {
+  "start": 1004.52,
+  "end": 1007.15,
+  "text": "got, the training project. Now, inside"
+ },
+ {
+  "start": 1007.16,
+  "end": 1009.75,
+  "text": "this uh if I've got multiple projects,"
+ },
+ {
+  "start": 1009.76,
+  "end": 1011.19,
+  "text": "right? Which are using the same"
+ },
+ {
+  "start": 1011.2,
+  "end": 1014.15,
+  "text": "configurations, then I have got a"
+ },
+ {
+  "start": 1014.16,
+  "end": 1016.95,
+  "text": "different section called configurations."
+ },
+ {
+  "start": 1016.96,
+  "end": 1018.75,
+  "text": "And this is where I can create project"
+ },
+ {
+  "start": 1018.76,
+  "end": 1021.87,
+  "text": "level um configurations. Right?"
+ },
+ {
+  "start": 1021.88,
+  "end": 1024.35,
+  "text": "So, let's see how we can do that."
+ },
+ {
+  "start": 1024.36,
+  "end": 1027.71,
+  "text": "Um so, here I can create uh a new"
+ },
+ {
+  "start": 1027.72,
+  "end": 1029.189,
+  "text": "configuration. As you can see, there are"
+ },
+ {
+  "start": 1029.199,
+  "end": 1032.11,
+  "text": "some default ones like the API, mobile,"
+ },
+ {
+  "start": 1032.12,
+  "end": 1034.069,
+  "text": "test data service."
+ },
+ {
+  "start": 1034.079,
+  "end": 1037.309,
+  "text": "Um so, I I create my own configuration."
+ },
+ {
+  "start": 1037.319,
+  "end": 1038.429,
+  "text": "right?"
+ },
+ {
+  "start": 1038.439,
+  "end": 1040.71,
+  "text": "So, it helps you to structure your test"
+ },
+ {
+  "start": 1040.72,
+  "end": 1043.55,
+  "text": "configuration parameters from a specific"
+ },
+ {
+  "start": 1043.56,
+  "end": 1046.51,
+  "text": "point in your repository, right? So, if"
+ },
+ {
+  "start": 1046.52,
+  "end": 1047.75,
+  "text": "you've got different teams with"
+ },
+ {
+  "start": 1047.76,
+  "end": 1050.35,
+  "text": "different requirements, um then you can"
+ },
+ {
+  "start": 1050.36,
+  "end": 1052.27,
+  "text": "maintain them inside different"
+ },
+ {
+  "start": 1052.28,
+  "end": 1054.11,
+  "text": "configurations."
+ },
+ {
+  "start": 1054.12,
+  "end": 1056.55,
+  "text": "So, here either I can create a"
+ },
+ {
+  "start": 1056.56,
+  "end": 1058.83,
+  "text": "configuration folder or I can create a"
+ },
+ {
+  "start": 1058.84,
+  "end": 1061.15,
+  "text": "structure. I can even create a virtual"
+ },
+ {
+  "start": 1061.16,
+  "end": 1063.19,
+  "text": "folder or I can create simply a"
+ },
+ {
+  "start": 1063.2,
+  "end": 1065.63,
+  "text": "configuration, right? So, if you want to"
+ },
+ {
+  "start": 1065.64,
+  "end": 1068.67,
+  "text": "create a configuration for uh different"
+ },
+ {
+  "start": 1068.68,
+  "end": 1071.47,
+  "text": "projects, like so like project A"
+ },
+ {
+  "start": 1071.48,
+  "end": 1074.63,
+  "text": "and then project B."
+ },
+ {
+  "start": 1074.64,
+  "end": 1076.87,
+  "text": "Okay, so we can do that. So, we can we"
+ },
+ {
+  "start": 1076.88,
+  "end": 1078.67,
+  "text": "can have two different configurations"
+ },
+ {
+  "start": 1078.68,
+  "end": 1080.43,
+  "text": "for two different projects."
+ },
+ {
+  "start": 1080.44,
+  "end": 1082.79,
+  "text": "And then inside that, I can have my own"
+ },
+ {
+  "start": 1082.8,
+  "end": 1085.75,
+  "text": "parameters, right? So, I can have um a"
+ },
+ {
+  "start": 1085.76,
+  "end": 1087.67,
+  "text": "project which is using the browser"
+ },
+ {
+  "start": 1087.68,
+  "end": 1088.87,
+  "text": "Chrome."
+ },
+ {
+  "start": 1088.88,
+  "end": 1091.59,
+  "text": "And then for project B, I can create a"
+ },
+ {
+  "start": 1091.6,
+  "end": 1095.43,
+  "text": "parameter uh called browser,"
+ },
+ {
+  "start": 1095.44,
+  "end": 1099.31,
+  "text": "but uh they are using Firefox, right?"
+ },
+ {
+  "start": 1099.32,
+  "end": 1101.99,
+  "text": "Similarly, I can create a list of"
+ },
+ {
+  "start": 1102.0,
+  "end": 1104.11,
+  "text": "different configurations here, right?"
+ },
+ {
+  "start": 1104.12,
+  "end": 1107.07,
+  "text": "So, I can create something called"
+ },
+ {
+  "start": 1107.08,
+  "end": 1109.31,
+  "text": "synchronization timeout, right? So, this"
+ },
+ {
+  "start": 1109.32,
+  "end": 1111.15,
+  "text": "could be different for different"
+ },
+ {
+  "start": 1111.16,
+  "end": 1112.35,
+  "text": "projects."
+ },
+ {
+  "start": 1112.36,
+  "end": 1116.75,
+  "text": "So, for one, I can set it uh 3,000"
+ },
+ {
+  "start": 1116.76,
+  "end": 1120.15,
+  "text": "and for other,"
+ },
+ {
+  "start": 1120.16,
+  "end": 1123.03,
+  "text": "well, here I can create"
+ },
+ {
+  "start": 1123.04,
+  "end": 1125.63,
+  "text": "and then I can set it to 6,000 because"
+ },
+ {
+  "start": 1125.64,
+  "end": 1128.23,
+  "text": "maybe the synchronization is much more"
+ },
+ {
+  "start": 1128.24,
+  "end": 1130.31,
+  "text": "for this particular application."
+ },
+ {
+  "start": 1130.32,
+  "end": 1133.59,
+  "text": "So, similarly, you can have uh these uh"
+ },
+ {
+  "start": 1133.6,
+  "end": 1136.95,
+  "text": "created at uh project level. And then it"
+ },
+ {
+  "start": 1136.96,
+  "end": 1140.67,
+  "text": "can be defined for each of the projects."
+ },
+ {
+  "start": 1140.68,
+  "end": 1142.59,
+  "text": "It can have the same configuration"
+ },
+ {
+  "start": 1142.6,
+  "end": 1144.11,
+  "text": "parameters, but the values are"
+ },
+ {
+  "start": 1144.12,
+  "end": 1145.79,
+  "text": "different, right?"
+ },
+ {
+  "start": 1145.8,
+  "end": 1147.95,
+  "text": "So, these are basically used to"
+ },
+ {
+  "start": 1147.96,
+  "end": 1149.31,
+  "text": "structure your test configuration"
+ },
+ {
+  "start": 1149.32,
+  "end": 1152.03,
+  "text": "parameters from a specific point."
+ },
+ {
+  "start": 1152.04,
+  "end": 1154.51,
+  "text": "And then if you've got a very diverse"
+ },
+ {
+  "start": 1154.52,
+  "end": 1156.55,
+  "text": "repository which has got multiple teams"
+ },
+ {
+  "start": 1156.56,
+  "end": 1159.31,
+  "text": "and multiple requirements, um then it is"
+ },
+ {
+  "start": 1159.32,
+  "end": 1161.39,
+  "text": "very easy to maintain your uh"
+ },
+ {
+  "start": 1161.4,
+  "end": 1164.95,
+  "text": "configurations at this project level."
+ },
+ {
+  "start": 1164.96,
+  "end": 1167.55,
+  "text": "Now, how do you use this configurations,"
+ },
+ {
+  "start": 1167.56,
+  "end": 1170.19,
+  "text": "right? So, for example, I am running"
+ },
+ {
+  "start": 1170.2,
+  "end": 1173.95,
+  "text": "this uh parameters test case, okay? And"
+ },
+ {
+  "start": 1173.96,
+  "end": 1175.87,
+  "text": "uh I want to use a particular"
+ },
+ {
+  "start": 1175.88,
+  "end": 1178.35,
+  "text": "configuration for this particular test"
+ },
+ {
+  "start": 1178.36,
+  "end": 1181.71,
+  "text": "case. So, what I can do is I can drag"
+ },
+ {
+  "start": 1181.72,
+  "end": 1184.39,
+  "text": "this project A configuration directly"
+ },
+ {
+  "start": 1184.4,
+  "end": 1187.55,
+  "text": "into this parameters, right?"
+ },
+ {
+  "start": 1187.56,
+  "end": 1190.47,
+  "text": "Now, uh when you see this uh this"
+ },
+ {
+  "start": 1190.48,
+  "end": 1194.07,
+  "text": "project A configuration has now been"
+ },
+ {
+  "start": 1194.08,
+  "end": 1197.79,
+  "text": "inherited from here, okay? And it is"
+ },
+ {
+  "start": 1197.8,
+  "end": 1200.59,
+  "text": "using a specific set of configuration"
+ },
+ {
+  "start": 1200.6,
+  "end": 1202.15,
+  "text": "parameters like the browser, the"
+ },
+ {
+  "start": 1202.16,
+  "end": 1204.35,
+  "text": "synchronization timeout. Now, this could"
+ },
+ {
+  "start": 1204.36,
+  "end": 1206.35,
+  "text": "be different for different test cases."
+ },
+ {
+  "start": 1206.36,
+  "end": 1208.39,
+  "text": "So, you can pull your individual"
+ },
+ {
+  "start": 1208.4,
+  "end": 1210.99,
+  "text": "configuration from this uh"
+ },
+ {
+  "start": 1211.0,
+  "end": 1213.51,
+  "text": "configurations folder into your test"
+ },
+ {
+  "start": 1213.52,
+  "end": 1216.75,
+  "text": "cases or into your folders or into"
+ },
+ {
+  "start": 1216.76,
+  "end": 1218.83,
+  "text": "executions, right?"
+ },
+ {
+  "start": 1218.84,
+  "end": 1221.31,
+  "text": "So, this is uh how you can make this"
+ },
+ {
+  "start": 1221.32,
+  "end": 1223.31,
+  "text": "more configurable and easy to maintain"
+ },
+ {
+  "start": 1223.32,
+  "end": 1225.63,
+  "text": "for different projects."
+ },
+ {
+  "start": 1225.64,
+  "end": 1226.83,
+  "text": "Now, the other thing which you can also"
+ },
+ {
+  "start": 1226.84,
+  "end": 1228.91,
+  "text": "do is if you're an admin and if you"
+ },
+ {
+  "start": 1228.92,
+  "end": 1232.31,
+  "text": "don't want um the other team members to"
+ },
+ {
+  "start": 1232.32,
+  "end": 1233.99,
+  "text": "change this project level"
+ },
+ {
+  "start": 1234.0,
+  "end": 1235.63,
+  "text": "configurations,"
+ },
+ {
+  "start": 1235.64,
+  "end": 1238.23,
+  "text": "then you can set it to read only, right?"
+ },
+ {
+  "start": 1238.24,
+  "end": 1239.95,
+  "text": "So, if you go into any particular"
+ },
+ {
+  "start": 1239.96,
+  "end": 1242.15,
+  "text": "configuration like this project A,"
+ },
+ {
+  "start": 1242.16,
+  "end": 1245.27,
+  "text": "you go into the properties and then you"
+ },
+ {
+  "start": 1245.28,
+  "end": 1247.11,
+  "text": "have to just change this predefined"
+ },
+ {
+  "start": 1247.12,
+  "end": 1249.03,
+  "text": "value to true."
+ },
+ {
+  "start": 1249.04,
+  "end": 1251.99,
+  "text": "Okay? So, once you do that, this will be"
+ },
+ {
+  "start": 1252.0,
+  "end": 1255.27,
+  "text": "um read-only configuration."
+ },
+ {
+  "start": 1255.28,
+  "end": 1257.43,
+  "text": "It cannot be changed or it cannot be"
+ },
+ {
+  "start": 1257.44,
+  "end": 1260.03,
+  "text": "deleted. It can be inherited, but it"
+ },
+ {
+  "start": 1260.04,
+  "end": 1262.83,
+  "text": "cannot be modified, okay?"
+ },
+ {
+  "start": 1262.84,
+  "end": 1265.03,
+  "text": "So, now uh once uh we have defined this"
+ },
+ {
+  "start": 1265.04,
+  "end": 1267.95,
+  "text": "predefined property to true, uh if we go"
+ },
+ {
+  "start": 1267.96,
+  "end": 1270.47,
+  "text": "ahead and use this in a particular test"
+ },
+ {
+  "start": 1270.48,
+  "end": 1273.27,
+  "text": "case, right? So, if I pull this again"
+ },
+ {
+  "start": 1273.28,
+  "end": 1275.43,
+  "text": "into this particular test case, which is"
+ },
+ {
+  "start": 1275.44,
+  "end": 1276.87,
+  "text": "parameters,"
+ },
+ {
+  "start": 1276.88,
+  "end": 1280.47,
+  "text": "you will see that"
+ },
+ {
+  "start": 1280.48,
+  "end": 1283.31,
+  "text": "even if I go ahead and change this,"
+ },
+ {
+  "start": 1283.32,
+  "end": 1286.35,
+  "text": "right? So, here it is set to Chrome,"
+ },
+ {
+  "start": 1286.36,
+  "end": 1288.75,
+  "text": "and if I go into my test case,"
+ },
+ {
+  "start": 1288.76,
+  "end": 1292.83,
+  "text": "it is set to Firefox or Edge, right?"
+ },
+ {
+  "start": 1292.84,
+  "end": 1296.03,
+  "text": "I can change it here, okay, and I can"
+ },
+ {
+  "start": 1296.04,
+  "end": 1297.63,
+  "text": "maybe save it,"
+ },
+ {
+  "start": 1297.64,
+  "end": 1299.75,
+  "text": "but it's not going to change the"
+ },
+ {
+  "start": 1299.76,
+  "end": 1302.39,
+  "text": "original configuration, right? So, it"
+ },
+ {
+  "start": 1302.4,
+  "end": 1304.91,
+  "text": "will reflect it in my test case, so I"
+ },
+ {
+  "start": 1304.92,
+  "end": 1306.59,
+  "text": "can modify it, and I can run my test"
+ },
+ {
+  "start": 1306.6,
+  "end": 1307.51,
+  "text": "case,"
+ },
+ {
+  "start": 1307.52,
+  "end": 1309.67,
+  "text": "but it is not going to change it in the"
+ },
+ {
+  "start": 1309.68,
+  "end": 1311.83,
+  "text": "original configuration, right? So,"
+ },
+ {
+  "start": 1311.84,
+  "end": 1313.59,
+  "text": "that's the point of setting this"
+ },
+ {
+  "start": 1313.6,
+  "end": 1316.47,
+  "text": "predefined to true, so that nobody can"
+ },
+ {
+  "start": 1316.48,
+  "end": 1318.31,
+  "text": "change the original configuration, which"
+ },
+ {
+  "start": 1318.32,
+  "end": 1321.07,
+  "text": "is set at a project level, right? They"
+ },
+ {
+  "start": 1321.08,
+  "end": 1323.23,
+  "text": "can change their individual test case,"
+ },
+ {
+  "start": 1323.24,
+  "end": 1325.67,
+  "text": "but then it will only be applied in that"
+ },
+ {
+  "start": 1325.68,
+  "end": 1327.51,
+  "text": "particular test case, not"
+ },
+ {
+  "start": 1327.52,
+  "end": 1330.47,
+  "text": "in other test cases. So, that way the"
+ },
+ {
+  "start": 1330.48,
+  "end": 1332.47,
+  "text": "maintenance becomes easier, because you"
+ },
+ {
+  "start": 1332.48,
+  "end": 1335.35,
+  "text": "can maintain it at one place,"
+ },
+ {
+  "start": 1335.36,
+  "end": 1338.11,
+  "text": "and you can have your own structure, and"
+ },
+ {
+  "start": 1338.12,
+  "end": 1339.07,
+  "text": "then"
+ },
+ {
+  "start": 1339.08,
+  "end": 1341.43,
+  "text": "the changes across test cases will not"
+ },
+ {
+  "start": 1341.44,
+  "end": 1344.99,
+  "text": "reflect directly at this level. So, this"
+ },
+ {
+  "start": 1345.0,
+  "end": 1348.23,
+  "text": "can be locked down to just admins, and"
+ },
+ {
+  "start": 1348.24,
+  "end": 1349.51,
+  "text": "they can only manage this"
+ },
+ {
+  "start": 1349.52,
+  "end": 1351.27,
+  "text": "configurations, which are at a project"
+ },
+ {
+  "start": 1351.28,
+  "end": 1352.19,
+  "text": "level."
+ },
+ {
+  "start": 1352.2,
+  "end": 1355.75,
+  "text": "So, this is all about configurations,"
+ },
+ {
+  "start": 1355.76,
+  "end": 1357.15,
+  "text": "what are the different test"
+ },
+ {
+  "start": 1357.16,
+  "end": 1358.63,
+  "text": "configuration parameters which are"
+ },
+ {
+  "start": 1358.64,
+  "end": 1360.39,
+  "text": "available in Tosca, how you can create"
+ },
+ {
+  "start": 1360.4,
+  "end": 1362.87,
+  "text": "them, how you can use them,"
+ },
+ {
+  "start": 1362.88,
+  "end": 1364.87,
+  "text": "how you can create configurations at a"
+ },
+ {
+  "start": 1364.88,
+  "end": 1367.99,
+  "text": "project level, and then how you can"
+ },
+ {
+  "start": 1368.0,
+  "end": 1369.39,
+  "text": "maintain them"
+ },
+ {
+  "start": 1369.4,
+  "end": 1373.72,
+  "text": "across different projects or teams."
+ }
+]

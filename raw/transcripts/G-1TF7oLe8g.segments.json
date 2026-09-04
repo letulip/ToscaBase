@@ -1,0 +1,692 @@
+[
+ {
+  "start": 12.509,
+  "end": 12.519,
+  "text": "hey everyone welcome back to our Channel"
+ },
+ {
+  "start": 12.519,
+  "end": 15.15,
+  "text": "I am back with another interesting topic"
+ },
+ {
+  "start": 15.16,
+  "end": 17.67,
+  "text": "in the tosa automation"
+ },
+ {
+  "start": 17.68,
+  "end": 20.71,
+  "text": "playlist now continuing with our topic"
+ },
+ {
+  "start": 20.72,
+  "end": 23.71,
+  "text": "test automation obstacles let's look at"
+ },
+ {
+  "start": 23.72,
+  "end": 26.07,
+  "text": "our next obstacle which is called again"
+ },
+ {
+  "start": 26.08,
+  "end": 29.029,
+  "text": "and again and again right now why is"
+ },
+ {
+  "start": 29.039,
+  "end": 31.63,
+  "text": "this so in this particular obstacle we"
+ },
+ {
+  "start": 31.64,
+  "end": 34.15,
+  "text": "need to complete uh the obstacle where"
+ },
+ {
+  "start": 34.16,
+  "end": 36.389,
+  "text": "we need to click uh the following button"
+ },
+ {
+  "start": 36.399,
+  "end": 38.67,
+  "text": "which is called click me and what will"
+ },
+ {
+  "start": 38.68,
+  "end": 41.51,
+  "text": "happen is after a few clicks the button"
+ },
+ {
+  "start": 41.52,
+  "end": 45.029,
+  "text": "will change its name to enough okay and"
+ },
+ {
+  "start": 45.039,
+  "end": 47.189,
+  "text": "once this is done then uh you should"
+ },
+ {
+  "start": 47.199,
+  "end": 49.91,
+  "text": "click that button finally to finish this"
+ },
+ {
+  "start": 49.92,
+  "end": 52.95,
+  "text": "particular obstacle so let's try it out"
+ },
+ {
+  "start": 52.96,
+  "end": 57.069,
+  "text": "here so I click here one twice Thrice"
+ },
+ {
+  "start": 57.079,
+  "end": 59.75,
+  "text": "four times and after that it is enough"
+ },
+ {
+  "start": 59.76,
+  "end": 62.069,
+  "text": "right right now you don't know how many"
+ },
+ {
+  "start": 62.079,
+  "end": 64.509,
+  "text": "times you need to click uh in order for"
+ },
+ {
+  "start": 64.519,
+  "end": 67.23,
+  "text": "this to be uh appearing right so it's"
+ },
+ {
+  "start": 67.24,
+  "end": 70.99,
+  "text": "it's nothing fixed it is more Dynamic so"
+ },
+ {
+  "start": 71.0,
+  "end": 73.63,
+  "text": "you have to put some logic through which"
+ },
+ {
+  "start": 73.64,
+  "end": 76.03,
+  "text": "uh you can find out what's the name of"
+ },
+ {
+  "start": 76.04,
+  "end": 78.23,
+  "text": "the button and when you should stop"
+ },
+ {
+  "start": 78.24,
+  "end": 80.71,
+  "text": "clicking and when you should finally"
+ },
+ {
+  "start": 80.72,
+  "end": 82.83,
+  "text": "click so that you can complete this"
+ },
+ {
+  "start": 82.84,
+  "end": 86.55,
+  "text": "particular obstacle right so uh let's"
+ },
+ {
+  "start": 86.56,
+  "end": 88.71,
+  "text": "see how we can uh complete this"
+ },
+ {
+  "start": 88.72,
+  "end": 91.99,
+  "text": "particular obstacle uh in"
+ },
+ {
+  "start": 92.0,
+  "end": 94.55,
+  "text": "tosa so coming back to our tosa"
+ },
+ {
+  "start": 94.56,
+  "end": 97.749,
+  "text": "workspace as usual uh we are going to"
+ },
+ {
+  "start": 97.759,
+  "end": 99.95,
+  "text": "scan this particular module so let's go"
+ },
+ {
+  "start": 99.96,
+  "end": 107.19,
+  "text": "to our obstacles folder here go to scan"
+ },
+ {
+  "start": 110.19,
+  "end": 110.2,
+  "text": "application and then um going to the"
+ },
+ {
+  "start": 110.2,
+  "end": 112.749,
+  "text": "scan window uh the scanning is Prett"
+ },
+ {
+  "start": 112.759,
+  "end": 116.55,
+  "text": "simple uh we just need to uh select this"
+ },
+ {
+  "start": 116.56,
+  "end": 120.83,
+  "text": "particular button right and then um I'm"
+ },
+ {
+  "start": 120.84,
+  "end": 125.99,
+  "text": "going to rename the"
+ },
+ {
+  "start": 131.63,
+  "end": 131.64,
+  "text": "module and put the name here and save it"
+ },
+ {
+  "start": 131.64,
+  "end": 137.509,
+  "text": "and close"
+ },
+ {
+  "start": 141.11,
+  "end": 141.12,
+  "text": "this okay um now let's go back to our"
+ },
+ {
+  "start": 141.12,
+  "end": 143.91,
+  "text": "test cases uh we'll be creating a new"
+ },
+ {
+  "start": 143.92,
+  "end": 145.869,
+  "text": "obstacle"
+ },
+ {
+  "start": 145.879,
+  "end": 148.43,
+  "text": "here uh a new test case with that"
+ },
+ {
+  "start": 148.44,
+  "end": 150.589,
+  "text": "particular obstacle okay"
+ },
+ {
+  "start": 150.599,
+  "end": 154.39,
+  "text": "and then uh we are going to add the"
+ },
+ {
+  "start": 154.4,
+  "end": 155.91,
+  "text": "module back"
+ },
+ {
+  "start": 155.92,
+  "end": 159.55,
+  "text": "here so let's try to search our module"
+ },
+ {
+  "start": 159.56,
+  "end": 160.63,
+  "text": "here is the"
+ },
+ {
+  "start": 160.64,
+  "end": 164.55,
+  "text": "module okay so the logic which we need"
+ },
+ {
+  "start": 164.56,
+  "end": 168.63,
+  "text": "to implement here is we need to uh use a"
+ },
+ {
+  "start": 168.64,
+  "end": 172.27,
+  "text": "looping object right now which Loop you"
+ },
+ {
+  "start": 172.28,
+  "end": 174.75,
+  "text": "want to use uh completely depends on the"
+ },
+ {
+  "start": 174.76,
+  "end": 177.309,
+  "text": "scenario but here uh it would be most"
+ },
+ {
+  "start": 177.319,
+  "end": 180.03,
+  "text": "appropriate to use the while loop okay"
+ },
+ {
+  "start": 180.04,
+  "end": 182.47,
+  "text": "because uh we have got a condition here"
+ },
+ {
+  "start": 182.48,
+  "end": 185.39,
+  "text": "right so we are waiting for the name of"
+ },
+ {
+  "start": 185.4,
+  "end": 188.39,
+  "text": "the button to change from something to"
+ },
+ {
+  "start": 188.4,
+  "end": 192.43,
+  "text": "something else right so we have to Loop"
+ },
+ {
+  "start": 192.44,
+  "end": 195.99,
+  "text": "uh until that change happens and then we"
+ },
+ {
+  "start": 196.0,
+  "end": 198.789,
+  "text": "should stop okay so this is an ideal"
+ },
+ {
+  "start": 198.799,
+  "end": 201.949,
+  "text": "case for a while loop so let's go ahead"
+ },
+ {
+  "start": 201.959,
+  "end": 204.63,
+  "text": "and Implement that so when I right click"
+ },
+ {
+  "start": 204.64,
+  "end": 208.07,
+  "text": "and I can say uh create while"
+ },
+ {
+  "start": 208.08,
+  "end": 210.67,
+  "text": "statement okay and then uh I'm going to"
+ },
+ {
+  "start": 210.68,
+  "end": 213.75,
+  "text": "drag this uh here because we want to do"
+ },
+ {
+  "start": 213.76,
+  "end": 216.63,
+  "text": "this okay here we need to put or check"
+ },
+ {
+  "start": 216.64,
+  "end": 219.63,
+  "text": "the condition um and then here I'm going"
+ },
+ {
+  "start": 219.64,
+  "end": 223.39,
+  "text": "to change this to click button because"
+ },
+ {
+  "start": 223.4,
+  "end": 225.509,
+  "text": "that's what we are going to do finally"
+ },
+ {
+  "start": 225.519,
+  "end": 227.47,
+  "text": "once we check the name has changed to"
+ },
+ {
+  "start": 227.48,
+  "end": 230.75,
+  "text": "enough okay so this is the final step"
+ },
+ {
+  "start": 230.76,
+  "end": 233.11,
+  "text": "but uh we also need to put this under"
+ },
+ {
+  "start": 233.12,
+  "end": 237.069,
+  "text": "the condition okay and what condition uh"
+ },
+ {
+  "start": 237.079,
+  "end": 239.429,
+  "text": "we will do here let me change the name"
+ },
+ {
+  "start": 239.439,
+  "end": 242.63,
+  "text": "here first so we'll say check button"
+ },
+ {
+  "start": 242.64,
+  "end": 245.869,
+  "text": "okay and here instead of the click"
+ },
+ {
+  "start": 245.879,
+  "end": 248.949,
+  "text": "operation uh we are going to do a"
+ },
+ {
+  "start": 248.959,
+  "end": 253.069,
+  "text": "verification and uh here inside this we"
+ },
+ {
+  "start": 253.079,
+  "end": 256.909,
+  "text": "are going to check for the inner text"
+ },
+ {
+  "start": 256.919,
+  "end": 259.749,
+  "text": "and whether the inner text is equals"
+ },
+ {
+  "start": 259.759,
+  "end": 261.51,
+  "text": "equals click"
+ },
+ {
+  "start": 261.52,
+  "end": 265.43,
+  "text": "me okay so this is basically the initial"
+ },
+ {
+  "start": 265.44,
+  "end": 268.07,
+  "text": "uh state of the button right so uh when"
+ },
+ {
+  "start": 268.08,
+  "end": 269.83,
+  "text": "I refresh this page you will see the"
+ },
+ {
+  "start": 269.84,
+  "end": 272.39,
+  "text": "initial name of the button is Click me"
+ },
+ {
+  "start": 272.4,
+  "end": 275.23,
+  "text": "okay so I'm checking here uh whether"
+ },
+ {
+  "start": 275.24,
+  "end": 277.469,
+  "text": "this particular button name is Click me"
+ },
+ {
+  "start": 277.479,
+  "end": 280.31,
+  "text": "and if it is then I want to perform a"
+ },
+ {
+  "start": 280.32,
+  "end": 282.87,
+  "text": "loop where I'll be clicking on this"
+ },
+ {
+  "start": 282.88,
+  "end": 285.83,
+  "text": "button continuously until the name is"
+ },
+ {
+  "start": 285.84,
+  "end": 290.35,
+  "text": "not equal to click me okay so what it"
+ },
+ {
+  "start": 290.36,
+  "end": 292.31,
+  "text": "will do it will in the condition it will"
+ },
+ {
+  "start": 292.32,
+  "end": 294.59,
+  "text": "check whether the button name is this if"
+ },
+ {
+  "start": 294.6,
+  "end": 296.83,
+  "text": "it is yes then it will go into the loop"
+ },
+ {
+  "start": 296.84,
+  "end": 298.749,
+  "text": "and it will click on that now this will"
+ },
+ {
+  "start": 298.759,
+  "end": 300.189,
+  "text": "continue to happen"
+ },
+ {
+  "start": 300.199,
+  "end": 302.95,
+  "text": "until this inner text uh changes to"
+ },
+ {
+  "start": 302.96,
+  "end": 305.59,
+  "text": "something else and then uh this uh"
+ },
+ {
+  "start": 305.6,
+  "end": 307.51,
+  "text": "condition will become false so it will"
+ },
+ {
+  "start": 307.52,
+  "end": 310.39,
+  "text": "come out of the while loop okay and when"
+ },
+ {
+  "start": 310.4,
+  "end": 313.07,
+  "text": "it comes out of the while loop uh at"
+ },
+ {
+  "start": 313.08,
+  "end": 315.59,
+  "text": "that point of time we'll make our final"
+ },
+ {
+  "start": 315.6,
+  "end": 318.309,
+  "text": "click okay uh which will basically"
+ },
+ {
+  "start": 318.319,
+  "end": 322.189,
+  "text": "complete the obstacle right so it's a"
+ },
+ {
+  "start": 322.199,
+  "end": 324.67,
+  "text": "pretty simple logic uh which you need to"
+ },
+ {
+  "start": 324.68,
+  "end": 326.59,
+  "text": "implement uh and this is one way of"
+ },
+ {
+  "start": 326.6,
+  "end": 328.07,
+  "text": "doing it there are many other ways of"
+ },
+ {
+  "start": 328.08,
+  "end": 331.55,
+  "text": "doing this right so let's change the"
+ },
+ {
+  "start": 331.56,
+  "end": 334.749,
+  "text": "work state to complete it and now we are"
+ },
+ {
+  "start": 334.759,
+  "end": 337.629,
+  "text": "going to run this okay so let's see if"
+ },
+ {
+  "start": 337.639,
+  "end": 338.79,
+  "text": "it"
+ },
+ {
+  "start": 338.8,
+  "end": 341.39,
+  "text": "works so as you can see now it has"
+ },
+ {
+  "start": 341.4,
+  "end": 343.71,
+  "text": "started uh clicking the button multiple"
+ },
+ {
+  "start": 343.72,
+  "end": 347.83,
+  "text": "times and it will stop until uh it looks"
+ },
+ {
+  "start": 347.84,
+  "end": 350.15,
+  "text": "for the inner text whiches uh changes to"
+ },
+ {
+  "start": 350.16,
+  "end": 352.909,
+  "text": "enough and once it does then it will do"
+ },
+ {
+  "start": 352.919,
+  "end": 355.35,
+  "text": "the final click and after that the"
+ },
+ {
+  "start": 355.36,
+  "end": 358.27,
+  "text": "automation obstacle will be completed so"
+ },
+ {
+  "start": 358.28,
+  "end": 360.39,
+  "text": "this is where you can some times use the"
+ },
+ {
+  "start": 360.4,
+  "end": 362.95,
+  "text": "loop function uh which is available in"
+ },
+ {
+  "start": 362.96,
+  "end": 366.15,
+  "text": "tosa either the do Loop or the Y Loop"
+ },
+ {
+  "start": 366.16,
+  "end": 368.71,
+  "text": "you can also use the IFL statements"
+ },
+ {
+  "start": 368.72,
+  "end": 371.07,
+  "text": "although these are not recommended ways"
+ },
+ {
+  "start": 371.08,
+  "end": 373.79,
+  "text": "of um doing automation within TSA"
+ },
+ {
+  "start": 373.8,
+  "end": 375.99,
+  "text": "because it's not a programming language"
+ },
+ {
+  "start": 376.0,
+  "end": 379.35,
+  "text": "uh it's an automation tool but sometimes"
+ },
+ {
+  "start": 379.36,
+  "end": 382.43,
+  "text": "uh if the situation guarantees that you"
+ },
+ {
+  "start": 382.44,
+  "end": 385.629,
+  "text": "have to put some looping logic then uh"
+ },
+ {
+  "start": 385.639,
+  "end": 387.67,
+  "text": "you can very well use uh the looping"
+ },
+ {
+  "start": 387.68,
+  "end": 391.87,
+  "text": "objects which are available in tosa"
+ },
+ {
+  "start": 394.309,
+  "end": 394.319,
+  "text": "that's all for this particular video if"
+ },
+ {
+  "start": 394.319,
+  "end": 396.189,
+  "text": "you have any questions then please leave"
+ },
+ {
+  "start": 396.199,
+  "end": 398.629,
+  "text": "it in the comments if you like this"
+ },
+ {
+  "start": 398.639,
+  "end": 400.51,
+  "text": "video then please subscribe to our"
+ },
+ {
+  "start": 400.52,
+  "end": 403.029,
+  "text": "Channel thanks for watching and I will"
+ },
+ {
+  "start": 403.039,
+  "end": 406.96,
+  "text": "see you in the next video"
+ }
+]

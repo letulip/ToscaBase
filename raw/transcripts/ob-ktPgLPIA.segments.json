@@ -1,0 +1,837 @@
+[
+ {
+  "start": 9.35,
+  "end": 9.36,
+  "text": "hey everyone welcome back to this Tosca"
+ },
+ {
+  "start": 9.36,
+  "end": 10.73,
+  "text": "automation playlist"
+ },
+ {
+  "start": 10.74,
+  "end": 13.07,
+  "text": "in this short video I am going to show"
+ },
+ {
+  "start": 13.08,
+  "end": 15.89,
+  "text": "you how you can import folder structures"
+ },
+ {
+  "start": 15.9,
+  "end": 19.73,
+  "text": "right from a Microsoft Excel sheet"
+ },
+ {
+  "start": 19.74,
+  "end": 22.849,
+  "text": "now if you use Microsoft Excel"
+ },
+ {
+  "start": 22.859,
+  "end": 25.73,
+  "text": "to basically build your automated tests"
+ },
+ {
+  "start": 25.74,
+  "end": 28.37,
+  "text": "then you can import your tree structure"
+ },
+ {
+  "start": 28.38,
+  "end": 31.009,
+  "text": "directly into Tosca Commander so you"
+ },
+ {
+  "start": 31.019,
+  "end": 33.709,
+  "text": "don't have to manually build all the"
+ },
+ {
+  "start": 33.719,
+  "end": 36.65,
+  "text": "folders uh in to your component folder"
+ },
+ {
+  "start": 36.66,
+  "end": 39.53,
+  "text": "in Tosca you can directly use whatever"
+ },
+ {
+  "start": 39.54,
+  "end": 42.47,
+  "text": "you have in Microsoft Excel or what you"
+ },
+ {
+  "start": 42.48,
+  "end": 44.69,
+  "text": "have already built in Microsoft Excel"
+ },
+ {
+  "start": 44.7,
+  "end": 47.75,
+  "text": "and write it State into your task"
+ },
+ {
+  "start": 47.76,
+  "end": 50.75,
+  "text": "component folder right so let's see how"
+ },
+ {
+  "start": 50.76,
+  "end": 52.13,
+  "text": "we can do this"
+ },
+ {
+  "start": 52.14,
+  "end": 55.369,
+  "text": "the only thing to keep in mind is that"
+ },
+ {
+  "start": 55.379,
+  "end": 57.77,
+  "text": "you need to follow some requirements in"
+ },
+ {
+  "start": 57.78,
+  "end": 60.17,
+  "text": "order to import your t-structure from"
+ },
+ {
+  "start": 60.18,
+  "end": 63.11,
+  "text": "Microsoft Excel to Tosca"
+ },
+ {
+  "start": 63.12,
+  "end": 67.19,
+  "text": "so uh let's see an example of what we"
+ },
+ {
+  "start": 67.2,
+  "end": 69.89,
+  "text": "are going to import right so I have got"
+ },
+ {
+  "start": 69.9,
+  "end": 72.469,
+  "text": "this particular folder structure okay so"
+ },
+ {
+  "start": 72.479,
+  "end": 74.09,
+  "text": "this is from the vehicle insurance"
+ },
+ {
+  "start": 74.1,
+  "end": 77.39,
+  "text": "website we have used this many times uh"
+ },
+ {
+  "start": 77.4,
+  "end": 80.27,
+  "text": "to automate some test cases and this is"
+ },
+ {
+  "start": 80.28,
+  "end": 82.37,
+  "text": "how my test case folder structure should"
+ },
+ {
+  "start": 82.38,
+  "end": 85.55,
+  "text": "look like okay so I've got uh the main"
+ },
+ {
+  "start": 85.56,
+  "end": 87.59,
+  "text": "folder and then there are subfolders"
+ },
+ {
+  "start": 87.6,
+  "end": 90.469,
+  "text": "like preprocessing process and post"
+ },
+ {
+  "start": 90.479,
+  "end": 92.63,
+  "text": "processing so this is following the best"
+ },
+ {
+  "start": 92.64,
+  "end": 95.45,
+  "text": "practices to build our test cases and"
+ },
+ {
+  "start": 95.46,
+  "end": 97.49,
+  "text": "then inside pre-processing we have open"
+ },
+ {
+  "start": 97.5,
+  "end": 100.85,
+  "text": "application uh in inside the process we"
+ },
+ {
+  "start": 100.86,
+  "end": 104.749,
+  "text": "have the actual uh test case Okay so the"
+ },
+ {
+  "start": 104.759,
+  "end": 106.85,
+  "text": "flow of the application like uh"
+ },
+ {
+  "start": 106.86,
+  "end": 109.429,
+  "text": "selecting vehicle data and then entering"
+ },
+ {
+  "start": 109.439,
+  "end": 111.53,
+  "text": "vehicle data entering personal data"
+ },
+ {
+  "start": 111.54,
+  "end": 114.649,
+  "text": "entering insurance data and then"
+ },
+ {
+  "start": 114.659,
+  "end": 117.23,
+  "text": "choosing the product and doing the"
+ },
+ {
+  "start": 117.24,
+  "end": 119.749,
+  "text": "premium calculation and then checking"
+ },
+ {
+  "start": 119.759,
+  "end": 122.05,
+  "text": "the premiums like insurance tax"
+ },
+ {
+  "start": 122.06,
+  "end": 125.09,
+  "text": "according to the payment okay and then"
+ },
+ {
+  "start": 125.1,
+  "end": 127.55,
+  "text": "in post processing uh we have the close"
+ },
+ {
+  "start": 127.56,
+  "end": 130.309,
+  "text": "application okay so you can see in this"
+ },
+ {
+  "start": 130.319,
+  "end": 132.65,
+  "text": "structure we have got different levels"
+ },
+ {
+  "start": 132.66,
+  "end": 135.729,
+  "text": "of uh folders right and these folders"
+ },
+ {
+  "start": 135.739,
+  "end": 138.949,
+  "text": "will contain different test cases right"
+ },
+ {
+  "start": 138.959,
+  "end": 141.05,
+  "text": "so this is the folder structure I want"
+ },
+ {
+  "start": 141.06,
+  "end": 143.089,
+  "text": "to build in Tosca"
+ },
+ {
+  "start": 143.099,
+  "end": 145.91,
+  "text": "so instead of going to Tosca and"
+ },
+ {
+  "start": 145.92,
+  "end": 148.25,
+  "text": "building this folders one by one which"
+ },
+ {
+  "start": 148.26,
+  "end": 151.25,
+  "text": "will take some time right so if I've got"
+ },
+ {
+  "start": 151.26,
+  "end": 153.77,
+  "text": "this or if I want to build this in Excel"
+ },
+ {
+  "start": 153.78,
+  "end": 156.47,
+  "text": "quickly and then directly import it uh"
+ },
+ {
+  "start": 156.48,
+  "end": 159.47,
+  "text": "into my Tosca right so I can do that uh"
+ },
+ {
+  "start": 159.48,
+  "end": 162.29,
+  "text": "by just uh having a structure like this"
+ },
+ {
+  "start": 162.3,
+  "end": 165.35,
+  "text": "okay so the minimum requirements uh you"
+ },
+ {
+  "start": 165.36,
+  "end": 166.85,
+  "text": "need to fulfill when you are building"
+ },
+ {
+  "start": 166.86,
+  "end": 169.309,
+  "text": "your Excel right or if you want to"
+ },
+ {
+  "start": 169.319,
+  "end": 171.97,
+  "text": "import this tree structure from Excel to"
+ },
+ {
+  "start": 171.98,
+  "end": 175.07,
+  "text": "Tosca uh the objects which you are"
+ },
+ {
+  "start": 175.08,
+  "end": 177.229,
+  "text": "building they should be hierarchically"
+ },
+ {
+  "start": 177.239,
+  "end": 181.13,
+  "text": "structured okay in columns from left to"
+ },
+ {
+  "start": 181.14,
+  "end": 183.53,
+  "text": "right okay so you can see there is a"
+ },
+ {
+  "start": 183.54,
+  "end": 185.99,
+  "text": "hierarchy here so the vehicle insurance"
+ },
+ {
+  "start": 186.0,
+  "end": 188.93,
+  "text": "offer so this is the parent object"
+ },
+ {
+  "start": 188.94,
+  "end": 191.93,
+  "text": "inside this we have got preprocessing"
+ },
+ {
+  "start": 191.94,
+  "end": 194.39,
+  "text": "and you can see this is uh in First"
+ },
+ {
+  "start": 194.4,
+  "end": 197.21,
+  "text": "Column and pre-processing process and"
+ },
+ {
+  "start": 197.22,
+  "end": 199.85,
+  "text": "post processing so these are in the"
+ },
+ {
+  "start": 199.86,
+  "end": 202.49,
+  "text": "second column okay and then"
+ },
+ {
+  "start": 202.5,
+  "end": 205.85,
+  "text": "there is another subfolder"
+ },
+ {
+  "start": 205.86,
+  "end": 208.19,
+  "text": "which is open application similarly"
+ },
+ {
+  "start": 208.2,
+  "end": 211.13,
+  "text": "there are other folders here as well so"
+ },
+ {
+  "start": 211.14,
+  "end": 213.11,
+  "text": "these are in the third column and"
+ },
+ {
+  "start": 213.12,
+  "end": 215.509,
+  "text": "finally the final folder is in the"
+ },
+ {
+  "start": 215.519,
+  "end": 217.67,
+  "text": "fourth column okay so this is the"
+ },
+ {
+  "start": 217.68,
+  "end": 219.71,
+  "text": "hierarchical structure which you need to"
+ },
+ {
+  "start": 219.72,
+  "end": 222.41,
+  "text": "follow in Excel the way you want to"
+ },
+ {
+  "start": 222.42,
+  "end": 225.289,
+  "text": "build it in your Tosca uh component"
+ },
+ {
+  "start": 225.299,
+  "end": 228.11,
+  "text": "folder okay so you need to put it in"
+ },
+ {
+  "start": 228.12,
+  "end": 232.07,
+  "text": "different columns okay or or rows and"
+ },
+ {
+  "start": 232.08,
+  "end": 235.55,
+  "text": "that should be from left to right okay"
+ },
+ {
+  "start": 235.56,
+  "end": 238.13,
+  "text": "so objects of the same hierarchical"
+ },
+ {
+  "start": 238.14,
+  "end": 242.449,
+  "text": "level are in the same column okay so you"
+ },
+ {
+  "start": 242.459,
+  "end": 245.089,
+  "text": "can see here these are all the same"
+ },
+ {
+  "start": 245.099,
+  "end": 247.729,
+  "text": "levels these uh objects are at the same"
+ },
+ {
+  "start": 247.739,
+  "end": 250.429,
+  "text": "level right so they are present in just"
+ },
+ {
+  "start": 250.439,
+  "end": 253.07,
+  "text": "one column and similarly for this they"
+ },
+ {
+  "start": 253.08,
+  "end": 255.229,
+  "text": "are present in another column so you"
+ },
+ {
+  "start": 255.239,
+  "end": 257.509,
+  "text": "need to make sure that objects at the"
+ },
+ {
+  "start": 257.519,
+  "end": 260.39,
+  "text": "same level have to be in the same column"
+ },
+ {
+  "start": 260.4,
+  "end": 262.61,
+  "text": "also you need to make sure that there"
+ },
+ {
+  "start": 262.62,
+  "end": 265.55,
+  "text": "can be only one value per row okay so"
+ },
+ {
+  "start": 265.56,
+  "end": 267.77,
+  "text": "you cannot have two values in the same"
+ },
+ {
+  "start": 267.78,
+  "end": 271.73,
+  "text": "row so make sure of that and the"
+ },
+ {
+  "start": 271.74,
+  "end": 274.969,
+  "text": "structure should have uh less than 15"
+ },
+ {
+  "start": 274.979,
+  "end": 277.67,
+  "text": "levels okay so you cannot have more than"
+ },
+ {
+  "start": 277.68,
+  "end": 281.749,
+  "text": "15 levels uh in the structure right so"
+ },
+ {
+  "start": 281.759,
+  "end": 282.95,
+  "text": "these are the things you need to take"
+ },
+ {
+  "start": 282.96,
+  "end": 286.01,
+  "text": "care of when you are trying to import"
+ },
+ {
+  "start": 286.02,
+  "end": 288.43,
+  "text": "your tree structure from Microsoft Excel"
+ },
+ {
+  "start": 288.44,
+  "end": 292.85,
+  "text": "to Tosca okay now coming to the actual"
+ },
+ {
+  "start": 292.86,
+  "end": 296.03,
+  "text": "steps on how to import this particular"
+ },
+ {
+  "start": 296.04,
+  "end": 298.909,
+  "text": "structure which I built on Excel sheet"
+ },
+ {
+  "start": 298.919,
+  "end": 303.05,
+  "text": "into my Tosca Commander right so for"
+ },
+ {
+  "start": 303.06,
+  "end": 305.57,
+  "text": "this what we need to do uh first come"
+ },
+ {
+  "start": 305.58,
+  "end": 308.629,
+  "text": "here and select all the rows which you"
+ },
+ {
+  "start": 308.639,
+  "end": 311.15,
+  "text": "have in your structure and click on"
+ },
+ {
+  "start": 311.16,
+  "end": 314.629,
+  "text": "control plus C to copy it okay and then"
+ },
+ {
+  "start": 314.639,
+  "end": 317.93,
+  "text": "go back to Tosca Commander here I can"
+ },
+ {
+  "start": 317.94,
+  "end": 320.749,
+  "text": "export it into any folder but it's best"
+ },
+ {
+  "start": 320.759,
+  "end": 322.909,
+  "text": "practice to basically build a component"
+ },
+ {
+  "start": 322.919,
+  "end": 324.59,
+  "text": "folder okay"
+ },
+ {
+  "start": 324.6,
+  "end": 327.59,
+  "text": "so I will name it vehicle or I will name"
+ },
+ {
+  "start": 327.6,
+  "end": 330.11,
+  "text": "it import"
+ },
+ {
+  "start": 330.12,
+  "end": 332.45,
+  "text": "from Excel"
+ },
+ {
+  "start": 332.46,
+  "end": 337.07,
+  "text": "okay and then inside this right uh when"
+ },
+ {
+  "start": 337.08,
+  "end": 338.81,
+  "text": "you right click on this you will see"
+ },
+ {
+  "start": 338.82,
+  "end": 341.749,
+  "text": "there is an option called create folder"
+ },
+ {
+  "start": 341.759,
+  "end": 344.27,
+  "text": "structure you can also use shortcuts"
+ },
+ {
+  "start": 344.28,
+  "end": 347.99,
+  "text": "like Ctrl n and Ctrl s okay and that"
+ },
+ {
+  "start": 348.0,
+  "end": 349.909,
+  "text": "will basically"
+ },
+ {
+  "start": 349.919,
+  "end": 353.39,
+  "text": "um build a structure from the copied"
+ },
+ {
+  "start": 353.4,
+  "end": 357.05,
+  "text": "cells of your Excel sheet okay so if I"
+ },
+ {
+  "start": 357.06,
+  "end": 359.749,
+  "text": "right click on this and I click on this"
+ },
+ {
+  "start": 359.759,
+  "end": 362.33,
+  "text": "create structure you will see the"
+ },
+ {
+  "start": 362.34,
+  "end": 364.189,
+  "text": "structure will be automatically created"
+ },
+ {
+  "start": 364.199,
+  "end": 367.07,
+  "text": "inside this folder okay so you can"
+ },
+ {
+  "start": 367.08,
+  "end": 369.529,
+  "text": "create it inside any folder you can"
+ },
+ {
+  "start": 369.539,
+  "end": 371.27,
+  "text": "create a test case folder and then put"
+ },
+ {
+  "start": 371.28,
+  "end": 374.45,
+  "text": "this inside that or you can put it"
+ },
+ {
+  "start": 374.46,
+  "end": 376.01,
+  "text": "inside a component folder you can do it"
+ },
+ {
+  "start": 376.02,
+  "end": 377.81,
+  "text": "anywhere you like"
+ },
+ {
+  "start": 377.82,
+  "end": 380.029,
+  "text": "now if I want to see all my folders"
+ },
+ {
+  "start": 380.039,
+  "end": 382.55,
+  "text": "beneath this level then I can do a"
+ },
+ {
+  "start": 382.56,
+  "end": 385.129,
+  "text": "expand all here and you will see that"
+ },
+ {
+  "start": 385.139,
+  "end": 388.07,
+  "text": "all the folders which were present in"
+ },
+ {
+  "start": 388.08,
+  "end": 390.65,
+  "text": "our Excel sheet structure has been"
+ },
+ {
+  "start": 390.66,
+  "end": 394.309,
+  "text": "created here okay with the hierarchical"
+ },
+ {
+  "start": 394.319,
+  "end": 396.95,
+  "text": "structure which we had okay with all the"
+ },
+ {
+  "start": 396.96,
+  "end": 399.65,
+  "text": "levels so you can see here there is"
+ },
+ {
+  "start": 399.66,
+  "end": 401.95,
+  "text": "process reprocessing and post processing"
+ },
+ {
+  "start": 401.96,
+  "end": 404.029,
+  "text": "obviously they are not in the right"
+ },
+ {
+  "start": 404.039,
+  "end": 407.029,
+  "text": "order but you can always change them"
+ },
+ {
+  "start": 407.039,
+  "end": 410.029,
+  "text": "okay"
+ },
+ {
+  "start": 413.27,
+  "end": 413.28,
+  "text": "okay so that's how you can create any"
+ },
+ {
+  "start": 413.28,
+  "end": 415.07,
+  "text": "folder structure or basically import"
+ },
+ {
+  "start": 415.08,
+  "end": 417.409,
+  "text": "your folder structure right from your"
+ },
+ {
+  "start": 417.419,
+  "end": 419.93,
+  "text": "Excel sheets so if you are building or"
+ },
+ {
+  "start": 419.94,
+  "end": 421.43,
+  "text": "if you're maintaining your test cases"
+ },
+ {
+  "start": 421.44,
+  "end": 425.09,
+  "text": "before Tosca in some Excel sheet uh you"
+ },
+ {
+  "start": 425.1,
+  "end": 427.55,
+  "text": "can build a structure like this and put"
+ },
+ {
+  "start": 427.56,
+  "end": 431.21,
+  "text": "it together or import it into your Tosca"
+ },
+ {
+  "start": 431.22,
+  "end": 433.969,
+  "text": "project okay so this could be useful in"
+ },
+ {
+  "start": 433.979,
+  "end": 435.05,
+  "text": "some cases"
+ },
+ {
+  "start": 435.06,
+  "end": 437.629,
+  "text": "but I just wanted to show you in this"
+ },
+ {
+  "start": 437.639,
+  "end": 440.93,
+  "text": "short video how you can do this"
+ },
+ {
+  "start": 440.94,
+  "end": 443.089,
+  "text": "so that's all for this video I hope you"
+ },
+ {
+  "start": 443.099,
+  "end": 444.71,
+  "text": "enjoyed it and you learned something new"
+ },
+ {
+  "start": 444.72,
+  "end": 446.93,
+  "text": "today uh there are lots more videos"
+ },
+ {
+  "start": 446.94,
+  "end": 449.809,
+  "text": "coming up so uh do remember to subscribe"
+ },
+ {
+  "start": 449.819,
+  "end": 452.27,
+  "text": "to our Channel and until the next video"
+ },
+ {
+  "start": 452.28,
+  "end": 455.21,
+  "text": "keep watching and keep learning Tosca at"
+ },
+ {
+  "start": 455.22,
+  "end": 458.66,
+  "text": "our channel to a script"
+ }
+]

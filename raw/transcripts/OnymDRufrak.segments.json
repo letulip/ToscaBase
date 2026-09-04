@@ -1,0 +1,822 @@
+[
+ {
+  "start": 8.21,
+  "end": 8.22,
+  "text": "hey everyone welcome back to this Tosca"
+ },
+ {
+  "start": 8.22,
+  "end": 10.43,
+  "text": "automation playlist and today we are"
+ },
+ {
+  "start": 10.44,
+  "end": 11.81,
+  "text": "going to discuss about another"
+ },
+ {
+  "start": 11.82,
+  "end": 13.49,
+  "text": "interesting topic"
+ },
+ {
+  "start": 13.5,
+  "end": 15.589,
+  "text": "so during automation of any web"
+ },
+ {
+  "start": 15.599,
+  "end": 18.59,
+  "text": "application it is very important to"
+ },
+ {
+  "start": 18.6,
+  "end": 21.349,
+  "text": "clear all the old cache which is stored"
+ },
+ {
+  "start": 21.359,
+  "end": 23.75,
+  "text": "in the browser while you're automating"
+ },
+ {
+  "start": 23.76,
+  "end": 27.23,
+  "text": "or running your executions inside your"
+ },
+ {
+  "start": 27.24,
+  "end": 29.57,
+  "text": "browser right so you always want to"
+ },
+ {
+  "start": 29.58,
+  "end": 32.269,
+  "text": "start fresh uh in your browser and you"
+ },
+ {
+  "start": 32.279,
+  "end": 34.61,
+  "text": "want to delete all the cache so this is"
+ },
+ {
+  "start": 34.62,
+  "end": 36.77,
+  "text": "one of the prerequisite steps which we"
+ },
+ {
+  "start": 36.78,
+  "end": 39.11,
+  "text": "follow uh while executing any particular"
+ },
+ {
+  "start": 39.12,
+  "end": 41.51,
+  "text": "test case or automating any particular"
+ },
+ {
+  "start": 41.52,
+  "end": 44.33,
+  "text": "application right because uh there could"
+ },
+ {
+  "start": 44.34,
+  "end": 46.31,
+  "text": "be some data which is left over and"
+ },
+ {
+  "start": 46.32,
+  "end": 49.069,
+  "text": "which might affect your executions or"
+ },
+ {
+  "start": 49.079,
+  "end": 51.83,
+  "text": "your automation"
+ },
+ {
+  "start": 54.47,
+  "end": 54.48,
+  "text": "so in order to clear cache from the"
+ },
+ {
+  "start": 54.48,
+  "end": 57.729,
+  "text": "browser right uh you can do it manually"
+ },
+ {
+  "start": 57.739,
+  "end": 61.25,
+  "text": "from the Chrome browser right so if you"
+ },
+ {
+  "start": 61.26,
+  "end": 63.77,
+  "text": "go into the Chrome browser"
+ },
+ {
+  "start": 63.78,
+  "end": 66.109,
+  "text": "and on the right hand side if you go"
+ },
+ {
+  "start": 66.119,
+  "end": 68.45,
+  "text": "into the settings you go into more tools"
+ },
+ {
+  "start": 68.46,
+  "end": 71.27,
+  "text": "and then there is an option for clear"
+ },
+ {
+  "start": 71.28,
+  "end": 74.81,
+  "text": "browsing data right and you can select"
+ },
+ {
+  "start": 74.82,
+  "end": 76.969,
+  "text": "cased image and files you can also"
+ },
+ {
+  "start": 76.979,
+  "end": 79.31,
+  "text": "delete the browser history you can also"
+ },
+ {
+  "start": 79.32,
+  "end": 82.07,
+  "text": "go into advanced and select others and"
+ },
+ {
+  "start": 82.08,
+  "end": 83.99,
+  "text": "then click on clear data to completely"
+ },
+ {
+  "start": 84.0,
+  "end": 86.09,
+  "text": "clear the cache right"
+ },
+ {
+  "start": 86.1,
+  "end": 88.07,
+  "text": "so this is the manual way of doing it"
+ },
+ {
+  "start": 88.08,
+  "end": 90.289,
+  "text": "now if you want to do it automatically"
+ },
+ {
+  "start": 90.299,
+  "end": 92.749,
+  "text": "through your automation Tool uh so we"
+ },
+ {
+  "start": 92.759,
+  "end": 95.749,
+  "text": "are working in Tosca and Tosca provides"
+ },
+ {
+  "start": 95.759,
+  "end": 98.09,
+  "text": "a t-box automation module which we have"
+ },
+ {
+  "start": 98.1,
+  "end": 100.13,
+  "text": "already looked into which is called the"
+ },
+ {
+  "start": 100.14,
+  "end": 102.77,
+  "text": "t-box Start program so using this debug"
+ },
+ {
+  "start": 102.78,
+  "end": 105.23,
+  "text": "Start program we can clear the cache"
+ },
+ {
+  "start": 105.24,
+  "end": 108.41,
+  "text": "from any browser okay so in this"
+ },
+ {
+  "start": 108.42,
+  "end": 110.389,
+  "text": "particular uh video I'm going to show"
+ },
+ {
+  "start": 110.399,
+  "end": 112.49,
+  "text": "you how you can clear cache from the"
+ },
+ {
+  "start": 112.5,
+  "end": 114.77,
+  "text": "Chrome browser you can apply the same"
+ },
+ {
+  "start": 114.78,
+  "end": 117.109,
+  "text": "method for any other browser like IE or"
+ },
+ {
+  "start": 117.119,
+  "end": 119.749,
+  "text": "Firefox"
+ },
+ {
+  "start": 121.789,
+  "end": 121.799,
+  "text": "so let's go ahead and create a test case"
+ },
+ {
+  "start": 121.799,
+  "end": 124.969,
+  "text": "here and I'm going to name it here"
+ },
+ {
+  "start": 124.979,
+  "end": 128.389,
+  "text": "Chrome cache"
+ },
+ {
+  "start": 128.399,
+  "end": 130.609,
+  "text": "okay and as I said I will be using the"
+ },
+ {
+  "start": 130.619,
+  "end": 133.01,
+  "text": "t-box automation module which is called"
+ },
+ {
+  "start": 133.02,
+  "end": 136.13,
+  "text": "the t-box Start program"
+ },
+ {
+  "start": 136.14,
+  "end": 138.77,
+  "text": "okay and in this ebook Start program we"
+ },
+ {
+  "start": 138.78,
+  "end": 140.809,
+  "text": "are going to open the command prompt"
+ },
+ {
+  "start": 140.819,
+  "end": 144.05,
+  "text": "okay so we are going to type CMD here in"
+ },
+ {
+  "start": 144.06,
+  "end": 145.97,
+  "text": "the path okay and then we are going to"
+ },
+ {
+  "start": 145.98,
+  "end": 148.49,
+  "text": "pass a lot of different arguments into"
+ },
+ {
+  "start": 148.5,
+  "end": 151.089,
+  "text": "this okay so we'll be starting off by"
+ },
+ {
+  "start": 151.099,
+  "end": 154.61,
+  "text": "putting slash C so which means it will"
+ },
+ {
+  "start": 154.62,
+  "end": 157.43,
+  "text": "be running a particular command okay"
+ },
+ {
+  "start": 157.44,
+  "end": 159.47,
+  "text": "and then in the next argument we are"
+ },
+ {
+  "start": 159.48,
+  "end": 161.39,
+  "text": "going to give that command which is the"
+ },
+ {
+  "start": 161.4,
+  "end": 163.67,
+  "text": "Del command Okay Del means the delete"
+ },
+ {
+  "start": 163.68,
+  "end": 166.13,
+  "text": "command after this we need to pass some"
+ },
+ {
+  "start": 166.14,
+  "end": 168.35,
+  "text": "parameters for this delete command okay"
+ },
+ {
+  "start": 168.36,
+  "end": 171.229,
+  "text": "so we'll be passing slash Q"
+ },
+ {
+  "start": 171.239,
+  "end": 174.229,
+  "text": "and then we'll be passing slash S"
+ },
+ {
+  "start": 174.239,
+  "end": 178.009,
+  "text": "and then slash F"
+ },
+ {
+  "start": 178.019,
+  "end": 179.63,
+  "text": "okay so these are all the arguments"
+ },
+ {
+  "start": 179.64,
+  "end": 181.43,
+  "text": "which we need to pass along with the"
+ },
+ {
+  "start": 181.44,
+  "end": 185.449,
+  "text": "command okay also we need to pass uh the"
+ },
+ {
+  "start": 185.459,
+  "end": 188.63,
+  "text": "exact uh folder path where our cache is"
+ },
+ {
+  "start": 188.64,
+  "end": 191.089,
+  "text": "stored for the Chrome browser okay"
+ },
+ {
+  "start": 191.099,
+  "end": 194.149,
+  "text": "so by default this will be the location"
+ },
+ {
+  "start": 194.159,
+  "end": 196.729,
+  "text": "okay so it will be under your user app"
+ },
+ {
+  "start": 196.739,
+  "end": 199.97,
+  "text": "data local Google Chrome user data"
+ },
+ {
+  "start": 199.98,
+  "end": 202.25,
+  "text": "default and cache okay so this is the"
+ },
+ {
+  "start": 202.26,
+  "end": 204.77,
+  "text": "cache data which is uh stored from the"
+ },
+ {
+  "start": 204.78,
+  "end": 207.83,
+  "text": "browser okay so if you have selected any"
+ },
+ {
+  "start": 207.84,
+  "end": 209.99,
+  "text": "other folder location for Google Chrome"
+ },
+ {
+  "start": 210.0,
+  "end": 212.39,
+  "text": "installation then it will be something"
+ },
+ {
+  "start": 212.4,
+  "end": 215.21,
+  "text": "different but uh by default if you have"
+ },
+ {
+  "start": 215.22,
+  "end": 217.369,
+  "text": "selected the default location for Chrome"
+ },
+ {
+  "start": 217.379,
+  "end": 221.57,
+  "text": "then this will be the path okay"
+ },
+ {
+  "start": 221.58,
+  "end": 225.41,
+  "text": "so let's copy this path and then we are"
+ },
+ {
+  "start": 225.42,
+  "end": 226.43,
+  "text": "going to"
+ },
+ {
+  "start": 226.44,
+  "end": 229.729,
+  "text": "put it as an argument here okay you"
+ },
+ {
+  "start": 229.739,
+  "end": 231.35,
+  "text": "should also surround this path with"
+ },
+ {
+  "start": 231.36,
+  "end": 233.509,
+  "text": "double quotes just to make sure that uh"
+ },
+ {
+  "start": 233.519,
+  "end": 235.809,
+  "text": "this the this slash strands are not"
+ },
+ {
+  "start": 235.819,
+  "end": 238.67,
+  "text": "interfering with the actual value okay"
+ },
+ {
+  "start": 238.68,
+  "end": 241.67,
+  "text": "so you need to escape uh this special"
+ },
+ {
+  "start": 241.68,
+  "end": 244.789,
+  "text": "characters okay"
+ },
+ {
+  "start": 244.799,
+  "end": 246.589,
+  "text": "so these are all the arguments which we"
+ },
+ {
+  "start": 246.599,
+  "end": 248.03,
+  "text": "need to pass now if you want to"
+ },
+ {
+  "start": 248.04,
+  "end": 249.41,
+  "text": "understand what are the different"
+ },
+ {
+  "start": 249.42,
+  "end": 251.75,
+  "text": "arguments which we have passed okay so"
+ },
+ {
+  "start": 251.76,
+  "end": 254.929,
+  "text": "apart from slash C so all the uh"
+ },
+ {
+  "start": 254.939,
+  "end": 256.189,
+  "text": "different Arguments for the delete"
+ },
+ {
+  "start": 256.199,
+  "end": 259.37,
+  "text": "command you can open it uh in your"
+ },
+ {
+  "start": 259.38,
+  "end": 262.27,
+  "text": "Google Chrome just go and search for"
+ },
+ {
+  "start": 262.28,
+  "end": 266.39,
+  "text": "Windows CMD delete okay and this will"
+ },
+ {
+  "start": 266.4,
+  "end": 269.689,
+  "text": "give you all the different uh syntax uh"
+ },
+ {
+  "start": 269.699,
+  "end": 271.61,
+  "text": "along with the arguments or parameters"
+ },
+ {
+  "start": 271.62,
+  "end": 274.31,
+  "text": "which we need to pass okay so if you see"
+ },
+ {
+  "start": 274.32,
+  "end": 275.689,
+  "text": "here"
+ },
+ {
+  "start": 275.699,
+  "end": 279.53,
+  "text": "um this slash F it Force deletion of"
+ },
+ {
+  "start": 279.54,
+  "end": 282.59,
+  "text": "read-only files okay so it forces the"
+ },
+ {
+  "start": 282.6,
+  "end": 286.129,
+  "text": "deletion uh it doesn't ask you to delete"
+ },
+ {
+  "start": 286.139,
+  "end": 288.35,
+  "text": "or it doesn't ask for any confirmation"
+ },
+ {
+  "start": 288.36,
+  "end": 290.21,
+  "text": "before deleting the specified file for"
+ },
+ {
+  "start": 290.22,
+  "end": 293.51,
+  "text": "that you need to specify slash P okay"
+ },
+ {
+  "start": 293.52,
+  "end": 295.55,
+  "text": "but for automation purpose you should"
+ },
+ {
+  "start": 295.56,
+  "end": 298.79,
+  "text": "always use this uh forced lesion and"
+ },
+ {
+  "start": 298.8,
+  "end": 301.07,
+  "text": "then slash S so it will delete the"
+ },
+ {
+  "start": 301.08,
+  "end": 302.629,
+  "text": "specified files from the current"
+ },
+ {
+  "start": 302.639,
+  "end": 304.73,
+  "text": "directory which we have specified okay"
+ },
+ {
+  "start": 304.74,
+  "end": 306.83,
+  "text": "it will also display the names of the"
+ },
+ {
+  "start": 306.84,
+  "end": 309.11,
+  "text": "files which are being deleted and then"
+ },
+ {
+  "start": 309.12,
+  "end": 311.99,
+  "text": "slash queue is for the quiet mode"
+ },
+ {
+  "start": 312.0,
+  "end": 314.27,
+  "text": "so it will basically perform the task on"
+ },
+ {
+  "start": 314.28,
+  "end": 316.73,
+  "text": "the background okay so that's that's the"
+ },
+ {
+  "start": 316.74,
+  "end": 320.21,
+  "text": "quiet mode you can also give uh all the"
+ },
+ {
+  "start": 320.22,
+  "end": 323.21,
+  "text": "other attributes if you need to okay but"
+ },
+ {
+  "start": 323.22,
+  "end": 324.89,
+  "text": "these are the arguments which we'll be"
+ },
+ {
+  "start": 324.9,
+  "end": 328.43,
+  "text": "using uh for our purpose okay"
+ },
+ {
+  "start": 328.44,
+  "end": 330.83,
+  "text": "so let's go ahead and run this and let's"
+ },
+ {
+  "start": 330.84,
+  "end": 333.29,
+  "text": "check whether it is working or not okay"
+ },
+ {
+  "start": 333.3,
+  "end": 335.629,
+  "text": "so I'll run this in scratchbook"
+ },
+ {
+  "start": 335.639,
+  "end": 337.969,
+  "text": "and you will see a small black window"
+ },
+ {
+  "start": 337.979,
+  "end": 341.39,
+  "text": "which opened uh very fast and it closed"
+ },
+ {
+  "start": 341.4,
+  "end": 343.61,
+  "text": "also right so it was showing you all the"
+ },
+ {
+  "start": 343.62,
+  "end": 345.409,
+  "text": "files which we deleted so if you've got"
+ },
+ {
+  "start": 345.419,
+  "end": 347.71,
+  "text": "lot of caching you could see that"
+ },
+ {
+  "start": 347.72,
+  "end": 350.689,
+  "text": "command prompt deleting all those files"
+ },
+ {
+  "start": 350.699,
+  "end": 352.79,
+  "text": "in the background okay"
+ },
+ {
+  "start": 352.8,
+  "end": 355.129,
+  "text": "but it was pretty quick okay because I"
+ },
+ {
+  "start": 355.139,
+  "end": 358.07,
+  "text": "didn't add a lot of cache stored from"
+ },
+ {
+  "start": 358.08,
+  "end": 359.99,
+  "text": "the Chrome browser okay"
+ },
+ {
+  "start": 360.0,
+  "end": 362.629,
+  "text": "so the test case has passed and if you"
+ },
+ {
+  "start": 362.639,
+  "end": 364.249,
+  "text": "just want to make sure whether the cache"
+ },
+ {
+  "start": 364.259,
+  "end": 366.77,
+  "text": "was deleted or not go back to that"
+ },
+ {
+  "start": 366.78,
+  "end": 369.11,
+  "text": "particular folder and then double click"
+ },
+ {
+  "start": 369.12,
+  "end": 371.749,
+  "text": "on cache data okay so the folder will be"
+ },
+ {
+  "start": 371.759,
+  "end": 374.81,
+  "text": "empty which means all the cache was"
+ },
+ {
+  "start": 374.82,
+  "end": 378.95,
+  "text": "deleted for the Chrome browser okay"
+ },
+ {
+  "start": 378.96,
+  "end": 382.37,
+  "text": "so this you can do it for Internet"
+ },
+ {
+  "start": 382.38,
+  "end": 385.73,
+  "text": "Explorer or even Firefox okay"
+ },
+ {
+  "start": 385.74,
+  "end": 387.95,
+  "text": "you just need to take care of this"
+ },
+ {
+  "start": 387.96,
+  "end": 389.51,
+  "text": "particular argument where you are"
+ },
+ {
+  "start": 389.52,
+  "end": 391.969,
+  "text": "passing the path of your cache folder"
+ },
+ {
+  "start": 391.979,
+  "end": 394.43,
+  "text": "okay"
+ },
+ {
+  "start": 396.529,
+  "end": 396.539,
+  "text": "so that's all for this particular video"
+ },
+ {
+  "start": 396.539,
+  "end": 398.57,
+  "text": "I hope you enjoyed it and you learned"
+ },
+ {
+  "start": 398.58,
+  "end": 400.43,
+  "text": "something new today if you have any"
+ },
+ {
+  "start": 400.44,
+  "end": 402.89,
+  "text": "questions leave it in the comments uh do"
+ },
+ {
+  "start": 402.9,
+  "end": 406.07,
+  "text": "keep watching for more videos coming up"
+ },
+ {
+  "start": 406.08,
+  "end": 408.77,
+  "text": "on Tosca and other automation tools do"
+ },
+ {
+  "start": 408.78,
+  "end": 410.21,
+  "text": "not forget to subscribe to our channel"
+ },
+ {
+  "start": 410.22,
+  "end": 412.61,
+  "text": "so that you get notified about every"
+ },
+ {
+  "start": 412.62,
+  "end": 414.35,
+  "text": "video WE Post"
+ },
+ {
+  "start": 414.36,
+  "end": 416.809,
+  "text": "um on a regular basis"
+ },
+ {
+  "start": 416.819,
+  "end": 419.15,
+  "text": "so until the next video keep learning"
+ },
+ {
+  "start": 419.16,
+  "end": 422.0,
+  "text": "and keep watching"
+ }
+]

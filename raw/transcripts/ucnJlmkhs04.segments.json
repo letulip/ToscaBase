@@ -1,0 +1,817 @@
+[
+ {
+  "start": 12.509,
+  "end": 12.519,
+  "text": "hey everyone welcome back to our Channel"
+ },
+ {
+  "start": 12.519,
+  "end": 15.15,
+  "text": "I am back with another interesting topic"
+ },
+ {
+  "start": 15.16,
+  "end": 17.91,
+  "text": "in the TSA automation"
+ },
+ {
+  "start": 17.92,
+  "end": 20.07,
+  "text": "playlist so today I'm going to talk"
+ },
+ {
+  "start": 20.08,
+  "end": 22.23,
+  "text": "about another problem or issue which is"
+ },
+ {
+  "start": 22.24,
+  "end": 25.509,
+  "text": "generally faced by many people when they"
+ },
+ {
+  "start": 25.519,
+  "end": 28.47,
+  "text": "are working with tosa especially around"
+ },
+ {
+  "start": 28.48,
+  "end": 32.15,
+  "text": "date formatting now uh every application"
+ },
+ {
+  "start": 32.16,
+  "end": 36.229,
+  "text": "has got its own format of date and many"
+ },
+ {
+  "start": 36.239,
+  "end": 38.19,
+  "text": "times uh we need to perform date"
+ },
+ {
+  "start": 38.2,
+  "end": 41.549,
+  "text": "calculations and we need to also change"
+ },
+ {
+  "start": 41.559,
+  "end": 46.069,
+  "text": "a date to a specific format but uh the"
+ },
+ {
+  "start": 46.079,
+  "end": 50.189,
+  "text": "issue which happens is sometimes uh tosa"
+ },
+ {
+  "start": 50.199,
+  "end": 53.27,
+  "text": "will not accept the date format which"
+ },
+ {
+  "start": 53.28,
+  "end": 56.349,
+  "text": "you are trying to convert to okay uh"
+ },
+ {
+  "start": 56.359,
+  "end": 59.709,
+  "text": "because tosa has got its own uh format"
+ },
+ {
+  "start": 59.719,
+  "end": 61.63,
+  "text": "where which is either defined by the"
+ },
+ {
+  "start": 61.64,
+  "end": 64.35,
+  "text": "system where it is installed or it is"
+ },
+ {
+  "start": 64.36,
+  "end": 68.03,
+  "text": "defined within tosa itself okay so"
+ },
+ {
+  "start": 68.04,
+  "end": 70.51,
+  "text": "sometimes the conversion even though uh"
+ },
+ {
+  "start": 70.52,
+  "end": 72.429,
+  "text": "you can use the dated function to make"
+ },
+ {
+  "start": 72.439,
+  "end": 75.109,
+  "text": "the calculations and to make the"
+ },
+ {
+  "start": 75.119,
+  "end": 78.39,
+  "text": "conversion to a specific format but the"
+ },
+ {
+  "start": 78.4,
+  "end": 81.39,
+  "text": "source format will not be accepted as a"
+ },
+ {
+  "start": 81.4,
+  "end": 84.95,
+  "text": "valid format by tosa and then it throws"
+ },
+ {
+  "start": 84.96,
+  "end": 88.03,
+  "text": "up an error okay so I have come across"
+ },
+ {
+  "start": 88.04,
+  "end": 90.23,
+  "text": "this scenario multiple times and that is"
+ },
+ {
+  "start": 90.24,
+  "end": 93.109,
+  "text": "the reason I thought I would share this"
+ },
+ {
+  "start": 93.119,
+  "end": 94.95,
+  "text": "particular solution which is a very"
+ },
+ {
+  "start": 94.96,
+  "end": 97.469,
+  "text": "simple solution uh which you can apply"
+ },
+ {
+  "start": 97.479,
+  "end": 99.91,
+  "text": "all the time whenever you are trying to"
+ },
+ {
+  "start": 99.92,
+  "end": 102.99,
+  "text": "convert uh some date format into another"
+ },
+ {
+  "start": 103.0,
+  "end": 105.389,
+  "text": "date format but the date format which"
+ },
+ {
+  "start": 105.399,
+  "end": 108.149,
+  "text": "you're trying to convert may be of"
+ },
+ {
+  "start": 108.159,
+  "end": 110.789,
+  "text": "different format than what tosa accepts"
+ },
+ {
+  "start": 110.799,
+  "end": 114.99,
+  "text": "currently okay so uh let's look uh at an"
+ },
+ {
+  "start": 115.0,
+  "end": 118.389,
+  "text": "example for this right so this is the"
+ },
+ {
+  "start": 118.399,
+  "end": 121.31,
+  "text": "example uh where uh this is the date"
+ },
+ {
+  "start": 121.32,
+  "end": 122.99,
+  "text": "which has been provided to us which is"
+ },
+ {
+  "start": 123.0,
+  "end": 125.99,
+  "text": "today's date okay uh it is in a specific"
+ },
+ {
+  "start": 126.0,
+  "end": 128.27,
+  "text": "format which doesn't match with the"
+ },
+ {
+  "start": 128.28,
+  "end": 131.11,
+  "text": "format which I have currently on my"
+ },
+ {
+  "start": 131.12,
+  "end": 134.99,
+  "text": "system uh my system has a date format of"
+ },
+ {
+  "start": 135.0,
+  "end": 139.67,
+  "text": "uh DD mm and yyy but I have provided uh"
+ },
+ {
+  "start": 139.68,
+  "end": 145.309,
+  "text": "date which is yyy MM and DD okay uh and"
+ },
+ {
+  "start": 145.319,
+  "end": 147.35,
+  "text": "then we need to convert this particular"
+ },
+ {
+  "start": 147.36,
+  "end": 151.75,
+  "text": "date into this format right so this is"
+ },
+ {
+  "start": 151.76,
+  "end": 153.869,
+  "text": "uh the scenario this is what we need to"
+ },
+ {
+  "start": 153.879,
+  "end": 157.869,
+  "text": "do so uh let's go ahead and create a new"
+ },
+ {
+  "start": 157.879,
+  "end": 161.03,
+  "text": "test case folder here and I will call it"
+ },
+ {
+  "start": 161.04,
+  "end": 163.75,
+  "text": "dates okay and then I'm going to create"
+ },
+ {
+  "start": 163.76,
+  "end": 169.63,
+  "text": "a test case here called"
+ },
+ {
+  "start": 171.229,
+  "end": 171.239,
+  "text": "format"
+ },
+ {
+  "start": 171.239,
+  "end": 174.589,
+  "text": "date okay so the first thing which uh uh"
+ },
+ {
+  "start": 174.599,
+  "end": 179.509,
+  "text": "I can do is uh I can set a buffer here"
+ },
+ {
+  "start": 179.519,
+  "end": 181.55,
+  "text": "okay so I'm going to use the tbox set"
+ },
+ {
+  "start": 181.56,
+  "end": 185.43,
+  "text": "buffer and I'm going to call it"
+ },
+ {
+  "start": 185.44,
+  "end": 187.35,
+  "text": "today"
+ },
+ {
+  "start": 187.36,
+  "end": 191.789,
+  "text": "date okay and uh I'm going to define the"
+ },
+ {
+  "start": 191.799,
+  "end": 194.99,
+  "text": "date which I have picked so uh which is"
+ },
+ {
+  "start": 195.0,
+  "end": 198.149,
+  "text": "in a specific format we know that right"
+ },
+ {
+  "start": 198.159,
+  "end": 202.07,
+  "text": "so I'm going to give it a value like"
+ },
+ {
+  "start": 202.08,
+  "end": 207.309,
+  "text": "2024 and then 03 and then 07 okay so"
+ },
+ {
+  "start": 207.319,
+  "end": 210.789,
+  "text": "this is the value which I have provided"
+ },
+ {
+  "start": 210.799,
+  "end": 213.429,
+  "text": "and now uh I'm going to convert this"
+ },
+ {
+  "start": 213.439,
+  "end": 217.27,
+  "text": "date into the specified format so I'm"
+ },
+ {
+  "start": 217.28,
+  "end": 220.149,
+  "text": "going to call it new date okay so this"
+ },
+ {
+  "start": 220.159,
+  "end": 221.869,
+  "text": "is again a set"
+ },
+ {
+  "start": 221.879,
+  "end": 226.63,
+  "text": "buffer um and here uh I am going to call"
+ },
+ {
+  "start": 226.64,
+  "end": 230.39,
+  "text": "the date function okay so we already"
+ },
+ {
+  "start": 230.4,
+  "end": 233.19,
+  "text": "know about the date function um you can"
+ },
+ {
+  "start": 233.2,
+  "end": 235.63,
+  "text": "do different types of calculations you"
+ },
+ {
+  "start": 235.64,
+  "end": 238.429,
+  "text": "can also uh change it to a specific"
+ },
+ {
+  "start": 238.439,
+  "end": 241.149,
+  "text": "format right so inside this we are going"
+ },
+ {
+  "start": 241.159,
+  "end": 245.71,
+  "text": "to pick up the buffer of uh today's date"
+ },
+ {
+  "start": 245.72,
+  "end": 247.789,
+  "text": "right so the buffer which we have"
+ },
+ {
+  "start": 247.799,
+  "end": 250.869,
+  "text": "already created so I'm going to use it"
+ },
+ {
+  "start": 250.879,
+  "end": 255.149,
+  "text": "here and then uh we'll leave this empty"
+ },
+ {
+  "start": 255.159,
+  "end": 258.229,
+  "text": "okay we are not doing any offset and"
+ },
+ {
+  "start": 258.239,
+  "end": 260.43,
+  "text": "after that we are providing a format"
+ },
+ {
+  "start": 260.44,
+  "end": 265.55,
+  "text": "here right so that format would be DD"
+ },
+ {
+  "start": 265.56,
+  "end": 270.07,
+  "text": "and then mm which will be in capital and"
+ },
+ {
+  "start": 270.08,
+  "end": 272.83,
+  "text": "then y y y okay so this is the format"
+ },
+ {
+  "start": 272.84,
+  "end": 275.43,
+  "text": "which we want it to"
+ },
+ {
+  "start": 275.44,
+  "end": 278.71,
+  "text": "convert um and then I'm going to close"
+ },
+ {
+  "start": 278.72,
+  "end": 282.189,
+  "text": "this okay so this is the new date this"
+ },
+ {
+  "start": 282.199,
+  "end": 285.71,
+  "text": "is the today's date okay um so"
+ },
+ {
+  "start": 285.72,
+  "end": 288.469,
+  "text": "everything looks good now um and we have"
+ },
+ {
+  "start": 288.479,
+  "end": 291.629,
+  "text": "used the right date function to convert"
+ },
+ {
+  "start": 291.639,
+  "end": 295.27,
+  "text": "it into a specific format right okay so"
+ },
+ {
+  "start": 295.28,
+  "end": 297.909,
+  "text": "we would expect this to run so let's go"
+ },
+ {
+  "start": 297.919,
+  "end": 300.07,
+  "text": "ahead and run this and let's see whether"
+ },
+ {
+  "start": 300.08,
+  "end": 302.83,
+  "text": "tosa can actually convert this date or"
+ },
+ {
+  "start": 302.84,
+  "end": 306.909,
+  "text": "not okay so what you'll notice is this"
+ },
+ {
+  "start": 306.919,
+  "end": 310.87,
+  "text": "test case will fail okay and even though"
+ },
+ {
+  "start": 310.88,
+  "end": 313.55,
+  "text": "we have used the correct function um and"
+ },
+ {
+  "start": 313.56,
+  "end": 315.909,
+  "text": "we have used all the correct formats"
+ },
+ {
+  "start": 315.919,
+  "end": 319.59,
+  "text": "still uh it is failing and the reason is"
+ },
+ {
+  "start": 319.6,
+  "end": 322.39,
+  "text": "the value which we have provided cannot"
+ },
+ {
+  "start": 322.4,
+  "end": 325.67,
+  "text": "be interpreted by tosa as a date"
+ },
+ {
+  "start": 325.68,
+  "end": 328.909,
+  "text": "according to this particular format okay"
+ },
+ {
+  "start": 328.919,
+  "end": 331.99,
+  "text": "so in tosa this is the format which is"
+ },
+ {
+  "start": 332.0,
+  "end": 335.15,
+  "text": "currently set okay and it will always"
+ },
+ {
+  "start": 335.16,
+  "end": 338.629,
+  "text": "try to interpret this as the right"
+ },
+ {
+  "start": 338.639,
+  "end": 341.87,
+  "text": "format okay so from here it can convert"
+ },
+ {
+  "start": 341.88,
+  "end": 343.55,
+  "text": "it into a different format using the"
+ },
+ {
+  "start": 343.56,
+  "end": 346.59,
+  "text": "date function but if you're trying to"
+ },
+ {
+  "start": 346.6,
+  "end": 349.469,
+  "text": "put some other date okay which is in a"
+ },
+ {
+  "start": 349.479,
+  "end": 352.07,
+  "text": "different format then tosa cannnot"
+ },
+ {
+  "start": 352.08,
+  "end": 356.35,
+  "text": "interpret it as a date okay so we have"
+ },
+ {
+  "start": 356.36,
+  "end": 359.99,
+  "text": "to change that interpretation of tosa so"
+ },
+ {
+  "start": 360.0,
+  "end": 363.309,
+  "text": "that it considers this as a valid"
+ },
+ {
+  "start": 363.319,
+  "end": 368.11,
+  "text": "date okay and how we can do that is by"
+ },
+ {
+  "start": 368.12,
+  "end": 371.189,
+  "text": "defining a test configuration parameter"
+ },
+ {
+  "start": 371.199,
+  "end": 376.749,
+  "text": "for our test case Okay so uh go into the"
+ },
+ {
+  "start": 376.759,
+  "end": 378.55,
+  "text": "particular test"
+ },
+ {
+  "start": 378.56,
+  "end": 381.11,
+  "text": "configuration and then from here we will"
+ },
+ {
+  "start": 381.12,
+  "end": 383.15,
+  "text": "try to add a test configuration"
+ },
+ {
+  "start": 383.16,
+  "end": 386.27,
+  "text": "parameter here uh we have to choose"
+ },
+ {
+  "start": 386.28,
+  "end": 389.55,
+  "text": "something called the tosa date format"
+ },
+ {
+  "start": 389.56,
+  "end": 392.029,
+  "text": "okay so it is a system defined test"
+ },
+ {
+  "start": 392.039,
+  "end": 395.71,
+  "text": "configuration parameter and here uh we"
+ },
+ {
+  "start": 395.72,
+  "end": 399.11,
+  "text": "are going to choose any particular value"
+ },
+ {
+  "start": 399.12,
+  "end": 401.11,
+  "text": "right there are multiple values which"
+ },
+ {
+  "start": 401.12,
+  "end": 403.79,
+  "text": "you can choose from um and you can"
+ },
+ {
+  "start": 403.8,
+  "end": 406.83,
+  "text": "choose any particular format from here"
+ },
+ {
+  "start": 406.84,
+  "end": 410.589,
+  "text": "okay so uh we want to choose this"
+ },
+ {
+  "start": 410.599,
+  "end": 413.43,
+  "text": "particular format because this is the"
+ },
+ {
+  "start": 413.44,
+  "end": 416.469,
+  "text": "format uh which we have provided okay so"
+ },
+ {
+  "start": 416.479,
+  "end": 418.79,
+  "text": "I can choose this uh if you want any"
+ },
+ {
+  "start": 418.8,
+  "end": 421.55,
+  "text": "other format you can also choose that so"
+ },
+ {
+  "start": 421.56,
+  "end": 423.469,
+  "text": "once you define this test configuration"
+ },
+ {
+  "start": 423.479,
+  "end": 428.27,
+  "text": "parameter now tosa will be forced to uh"
+ },
+ {
+  "start": 428.28,
+  "end": 431.629,
+  "text": "consider this format as a correct valid"
+ },
+ {
+  "start": 431.639,
+  "end": 434.629,
+  "text": "date format now when we run this it"
+ },
+ {
+  "start": 434.639,
+  "end": 439.589,
+  "text": "should be running"
+ },
+ {
+  "start": 442.869,
+  "end": 442.879,
+  "text": "successfully okay so now you can see"
+ },
+ {
+  "start": 442.879,
+  "end": 446.35,
+  "text": "that it was able to set the buffer with"
+ },
+ {
+  "start": 446.36,
+  "end": 448.869,
+  "text": "this state and then it was able to"
+ },
+ {
+  "start": 448.879,
+  "end": 449.83,
+  "text": "convert"
+ },
+ {
+  "start": 449.84,
+  "end": 453.39,
+  "text": "into the specified format"
+ },
+ {
+  "start": 453.4,
+  "end": 457.51,
+  "text": "okay so uh this is how you can basically"
+ },
+ {
+  "start": 457.52,
+  "end": 461.23,
+  "text": "change uh the interpretation of tosa so"
+ },
+ {
+  "start": 461.24,
+  "end": 464.27,
+  "text": "that it considers a specific format as a"
+ },
+ {
+  "start": 464.28,
+  "end": 468.27,
+  "text": "valid date format okay because uh tosa"
+ },
+ {
+  "start": 468.28,
+  "end": 470.909,
+  "text": "will have its own date format which it"
+ },
+ {
+  "start": 470.919,
+  "end": 473.23,
+  "text": "will always try to interpret as the"
+ },
+ {
+  "start": 473.24,
+  "end": 477.35,
+  "text": "correct date so uh even though uh you"
+ },
+ {
+  "start": 477.36,
+  "end": 479.83,
+  "text": "know how to convert the dates using the"
+ },
+ {
+  "start": 479.84,
+  "end": 482.309,
+  "text": "different date functions this is also"
+ },
+ {
+  "start": 482.319,
+  "end": 484.99,
+  "text": "one aspect which you need to consider"
+ },
+ {
+  "start": 485.0,
+  "end": 486.869,
+  "text": "when you are working with different date"
+ },
+ {
+  "start": 486.879,
+  "end": 489.39,
+  "text": "formats and different applications have"
+ },
+ {
+  "start": 489.4,
+  "end": 492.99,
+  "text": "got a different date formats so this uh"
+ },
+ {
+  "start": 493.0,
+  "end": 495.71,
+  "text": "this way you can always work with those"
+ },
+ {
+  "start": 495.72,
+  "end": 497.149,
+  "text": "different"
+ },
+ {
+  "start": 497.159,
+  "end": 499.51,
+  "text": "formats that's all for this particular"
+ },
+ {
+  "start": 499.52,
+  "end": 501.95,
+  "text": "video if you have any questions then"
+ },
+ {
+  "start": 501.96,
+  "end": 504.43,
+  "text": "please leave it in the comments if you"
+ },
+ {
+  "start": 504.44,
+  "end": 506.39,
+  "text": "like this video then please subscribe to"
+ },
+ {
+  "start": 506.4,
+  "end": 508.99,
+  "text": "our Channel thanks for watching and I"
+ },
+ {
+  "start": 509.0,
+  "end": 510.909,
+  "text": "will see you in the next"
+ },
+ {
+  "start": 510.919,
+  "end": 513.919,
+  "text": "video"
+ }
+]

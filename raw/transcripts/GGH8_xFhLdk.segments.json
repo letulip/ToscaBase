@@ -1,0 +1,1147 @@
+[
+ {
+  "start": 9.77,
+  "end": 9.78,
+  "text": "hey everyone welcome to another lesson"
+ },
+ {
+  "start": 9.78,
+  "end": 11.15,
+  "text": "in the stores called automation course"
+ },
+ {
+  "start": 11.16,
+  "end": 14.209,
+  "text": "today we are going to talk about image"
+ },
+ {
+  "start": 14.219,
+  "end": 15.829,
+  "text": "based test automation"
+ },
+ {
+  "start": 15.839,
+  "end": 18.59,
+  "text": "now in the previous session I talked"
+ },
+ {
+  "start": 18.6,
+  "end": 20.81,
+  "text": "about how you can identify controls by"
+ },
+ {
+  "start": 20.82,
+  "end": 23.689,
+  "text": "using anchor control and in this session"
+ },
+ {
+  "start": 23.699,
+  "end": 25.31,
+  "text": "we are going to talk how you can"
+ },
+ {
+  "start": 25.32,
+  "end": 27.89,
+  "text": "identify controls using image based test"
+ },
+ {
+  "start": 27.9,
+  "end": 29.15,
+  "text": "automation"
+ },
+ {
+  "start": 29.16,
+  "end": 31.849,
+  "text": "so it's one of uh the identification"
+ },
+ {
+  "start": 31.859,
+  "end": 34.19,
+  "text": "mechanisms provided by Tosca among many"
+ },
+ {
+  "start": 34.2,
+  "end": 35.27,
+  "text": "others"
+ },
+ {
+  "start": 35.28,
+  "end": 37.91,
+  "text": "and this is useful when you are not able"
+ },
+ {
+  "start": 37.92,
+  "end": 41.63,
+  "text": "to identify controls using uh different"
+ },
+ {
+  "start": 41.64,
+  "end": 44.81,
+  "text": "properties right so it's not unique and"
+ },
+ {
+  "start": 44.82,
+  "end": 46.79,
+  "text": "you cannot identify it using different"
+ },
+ {
+  "start": 46.8,
+  "end": 49.13,
+  "text": "properties so at that time you have to"
+ },
+ {
+  "start": 49.14,
+  "end": 51.65,
+  "text": "fall back on other mechanisms like the"
+ },
+ {
+  "start": 51.66,
+  "end": 53.27,
+  "text": "anchor control which we have already"
+ },
+ {
+  "start": 53.28,
+  "end": 55.97,
+  "text": "seen and now we are going to see uh"
+ },
+ {
+  "start": 55.98,
+  "end": 58.369,
+  "text": "another one which is called image based"
+ },
+ {
+  "start": 58.379,
+  "end": 60.049,
+  "text": "automation right"
+ },
+ {
+  "start": 60.059,
+  "end": 63.349,
+  "text": "so uh it's the same scenario where we"
+ },
+ {
+  "start": 63.359,
+  "end": 65.469,
+  "text": "are trying to use the Google Search"
+ },
+ {
+  "start": 65.479,
+  "end": 69.17,
+  "text": "application to search for some uh"
+ },
+ {
+  "start": 69.18,
+  "end": 71.929,
+  "text": "text right so we want to enter some"
+ },
+ {
+  "start": 71.939,
+  "end": 73.969,
+  "text": "texture and we want to click on this"
+ },
+ {
+  "start": 73.979,
+  "end": 76.01,
+  "text": "Google search button but this Google"
+ },
+ {
+  "start": 76.02,
+  "end": 78.35,
+  "text": "search button is not unique that's we"
+ },
+ {
+  "start": 78.36,
+  "end": 80.149,
+  "text": "have already seen uh there are two"
+ },
+ {
+  "start": 80.159,
+  "end": 82.13,
+  "text": "search buttons with similar properties"
+ },
+ {
+  "start": 82.14,
+  "end": 84.77,
+  "text": "and it's difficult to identify it using"
+ },
+ {
+  "start": 84.78,
+  "end": 86.87,
+  "text": "those properties"
+ },
+ {
+  "start": 86.88,
+  "end": 89.929,
+  "text": "so now what we'll do is we'll try to"
+ },
+ {
+  "start": 89.939,
+  "end": 92.57,
+  "text": "identify this Google search button using"
+ },
+ {
+  "start": 92.58,
+  "end": 95.27,
+  "text": "this particular image right so Tosca is"
+ },
+ {
+  "start": 95.28,
+  "end": 97.91,
+  "text": "going to identify this using this image"
+ },
+ {
+  "start": 97.92,
+  "end": 99.71,
+  "text": "and going to perform the required"
+ },
+ {
+  "start": 99.72,
+  "end": 103.249,
+  "text": "operation okay"
+ },
+ {
+  "start": 106.429,
+  "end": 106.439,
+  "text": "so let's see how how this will work okay"
+ },
+ {
+  "start": 106.439,
+  "end": 109.249,
+  "text": "so I am in my module section I'm using"
+ },
+ {
+  "start": 109.259,
+  "end": 110.69,
+  "text": "the same folder which is the Google"
+ },
+ {
+  "start": 110.7,
+  "end": 113.51,
+  "text": "folder and I'm going to scan the"
+ },
+ {
+  "start": 113.52,
+  "end": 115.13,
+  "text": "application which is our Chrome"
+ },
+ {
+  "start": 115.14,
+  "end": 118.249,
+  "text": "application"
+ },
+ {
+  "start": 121.429,
+  "end": 121.439,
+  "text": "so let's select uh our Google Chrome and"
+ },
+ {
+  "start": 121.439,
+  "end": 124.429,
+  "text": "click on scan to scan the application"
+ },
+ {
+  "start": 124.439,
+  "end": 126.95,
+  "text": "um it will open the scan window if it is"
+ },
+ {
+  "start": 126.96,
+  "end": 129.65,
+  "text": "in basic you can click on Advanced"
+ },
+ {
+  "start": 129.66,
+  "end": 132.11,
+  "text": "because we need the advanced view in"
+ },
+ {
+  "start": 132.12,
+  "end": 133.369,
+  "text": "order to select the different"
+ },
+ {
+  "start": 133.379,
+  "end": 136.91,
+  "text": "identification mechanisms uh now here we"
+ },
+ {
+  "start": 136.92,
+  "end": 139.309,
+  "text": "are looking for the Google search button"
+ },
+ {
+  "start": 139.319,
+  "end": 141.589,
+  "text": "right and this is the control which we"
+ },
+ {
+  "start": 141.599,
+  "end": 142.79,
+  "text": "want to select"
+ },
+ {
+  "start": 142.8,
+  "end": 145.91,
+  "text": "uh among some other controls like the"
+ },
+ {
+  "start": 145.92,
+  "end": 150.29,
+  "text": "text button or the text bar right which"
+ },
+ {
+  "start": 150.3,
+  "end": 153.35,
+  "text": "is obviously a unique control the text"
+ },
+ {
+  "start": 153.36,
+  "end": 155.15,
+  "text": "box is a unique control so we don't need"
+ },
+ {
+  "start": 155.16,
+  "end": 157.25,
+  "text": "to do anything here but for the Google"
+ },
+ {
+  "start": 157.26,
+  "end": 160.25,
+  "text": "search uh we need to think about some"
+ },
+ {
+  "start": 160.26,
+  "end": 162.65,
+  "text": "other mechanisms because this item is"
+ },
+ {
+  "start": 162.66,
+  "end": 164.33,
+  "text": "not unique right"
+ },
+ {
+  "start": 164.34,
+  "end": 168.17,
+  "text": "so I'm going to go to identify by uh"
+ },
+ {
+  "start": 168.18,
+  "end": 170.93,
+  "text": "menu right and here we have already seen"
+ },
+ {
+  "start": 170.94,
+  "end": 173.63,
+  "text": "properties which is the default one and"
+ },
+ {
+  "start": 173.64,
+  "end": 176.03,
+  "text": "then we have also seen the anchor now"
+ },
+ {
+  "start": 176.04,
+  "end": 177.589,
+  "text": "the third option we are falling back"
+ },
+ {
+  "start": 177.599,
+  "end": 181.19,
+  "text": "upon is the image right so let's select"
+ },
+ {
+  "start": 181.2,
+  "end": 185.089,
+  "text": "this and now this will open up our"
+ },
+ {
+  "start": 185.099,
+  "end": 187.309,
+  "text": "window on the right hand side which is"
+ },
+ {
+  "start": 187.319,
+  "end": 189.65,
+  "text": "called the identifier image"
+ },
+ {
+  "start": 189.66,
+  "end": 192.41,
+  "text": "and as you can see it is already showing"
+ },
+ {
+  "start": 192.42,
+  "end": 197.27,
+  "text": "you a control image right but uh"
+ },
+ {
+  "start": 197.28,
+  "end": 199.67,
+  "text": "uh what if I want to identify this"
+ },
+ {
+  "start": 199.68,
+  "end": 202.61,
+  "text": "control by the image itself right in"
+ },
+ {
+  "start": 202.62,
+  "end": 205.85,
+  "text": "that case I need to add a image for this"
+ },
+ {
+  "start": 205.86,
+  "end": 209.449,
+  "text": "particular control okay so here there is"
+ },
+ {
+  "start": 209.459,
+  "end": 212.93,
+  "text": "an option uh a picture with a plus"
+ },
+ {
+  "start": 212.94,
+  "end": 216.35,
+  "text": "button so I can select that and that"
+ },
+ {
+  "start": 216.36,
+  "end": 219.649,
+  "text": "will automatically change the window and"
+ },
+ {
+  "start": 219.659,
+  "end": 222.589,
+  "text": "the mouse pointer will change to a plus"
+ },
+ {
+  "start": 222.599,
+  "end": 226.009,
+  "text": "sign which will tell you that you can"
+ },
+ {
+  "start": 226.019,
+  "end": 228.53,
+  "text": "now select a particular control area"
+ },
+ {
+  "start": 228.54,
+  "end": 233.39,
+  "text": "which can be uh selected as an image for"
+ },
+ {
+  "start": 233.4,
+  "end": 235.97,
+  "text": "that particular control right so on the"
+ },
+ {
+  "start": 235.98,
+  "end": 237.229,
+  "text": "right side you will see there is"
+ },
+ {
+  "start": 237.239,
+  "end": 239.69,
+  "text": "information dialog which says you can"
+ },
+ {
+  "start": 239.7,
+  "end": 241.61,
+  "text": "drag the cursor around the area used"
+ },
+ {
+  "start": 241.62,
+  "end": 244.309,
+  "text": "fire identification you can also press"
+ },
+ {
+  "start": 244.319,
+  "end": 246.71,
+  "text": "return if you want to use image of the"
+ },
+ {
+  "start": 246.72,
+  "end": 248.27,
+  "text": "Define control area which you have"
+ },
+ {
+  "start": 248.28,
+  "end": 250.49,
+  "text": "selected for identification"
+ },
+ {
+  "start": 250.5,
+  "end": 252.47,
+  "text": "if you want to cancel this operation you"
+ },
+ {
+  "start": 252.48,
+  "end": 256.37,
+  "text": "can always press Escape"
+ },
+ {
+  "start": 259.37,
+  "end": 259.38,
+  "text": "uh the other thing to note here is uh"
+ },
+ {
+  "start": 259.38,
+  "end": 262.61,
+  "text": "the cross sign and the save button so"
+ },
+ {
+  "start": 262.62,
+  "end": 265.189,
+  "text": "the cross sign is uh to cancel this"
+ },
+ {
+  "start": 265.199,
+  "end": 268.07,
+  "text": "particular operation the save option is"
+ },
+ {
+  "start": 268.08,
+  "end": 270.59,
+  "text": "to just save the image which you have"
+ },
+ {
+  "start": 270.6,
+  "end": 273.77,
+  "text": "selected right so uh although it is"
+ },
+ {
+  "start": 273.78,
+  "end": 276.35,
+  "text": "already showing me uh the control area I"
+ },
+ {
+  "start": 276.36,
+  "end": 279.17,
+  "text": "can also select my own control area as"
+ },
+ {
+  "start": 279.18,
+  "end": 282.409,
+  "text": "you can see here right and that will"
+ },
+ {
+  "start": 282.419,
+  "end": 284.749,
+  "text": "prompt me that whether I want to"
+ },
+ {
+  "start": 284.759,
+  "end": 286.61,
+  "text": "consider image based identification"
+ },
+ {
+  "start": 286.62,
+  "end": 288.37,
+  "text": "right"
+ },
+ {
+  "start": 288.38,
+  "end": 291.89,
+  "text": "and the reason for this prompt is it is"
+ },
+ {
+  "start": 291.9,
+  "end": 294.23,
+  "text": "saying that this might result in a long"
+ },
+ {
+  "start": 294.24,
+  "end": 297.17,
+  "text": "duration without a visible x-can window"
+ },
+ {
+  "start": 297.18,
+  "end": 300.29,
+  "text": "okay now there are a lot of factors when"
+ },
+ {
+  "start": 300.3,
+  "end": 302.27,
+  "text": "it comes to image based automation we'll"
+ },
+ {
+  "start": 302.28,
+  "end": 304.73,
+  "text": "talk about it but for now you can either"
+ },
+ {
+  "start": 304.74,
+  "end": 306.83,
+  "text": "click on remember my decision and it"
+ },
+ {
+  "start": 306.84,
+  "end": 309.17,
+  "text": "will not ask you again this prompt or"
+ },
+ {
+  "start": 309.18,
+  "end": 311.57,
+  "text": "you can just select yes"
+ },
+ {
+  "start": 311.58,
+  "end": 314.39,
+  "text": "and that way uh now we have added a"
+ },
+ {
+  "start": 314.4,
+  "end": 317.689,
+  "text": "image for this particular control right"
+ },
+ {
+  "start": 317.699,
+  "end": 321.17,
+  "text": "now the important thing to note here is"
+ },
+ {
+  "start": 321.18,
+  "end": 324.05,
+  "text": "the image properties okay so if you see"
+ },
+ {
+  "start": 324.06,
+  "end": 326.629,
+  "text": "down there are image properties uh we"
+ },
+ {
+  "start": 326.639,
+  "end": 330.23,
+  "text": "can give it this image a name so I I'll"
+ },
+ {
+  "start": 330.24,
+  "end": 331.61,
+  "text": "give it search"
+ },
+ {
+  "start": 331.62,
+  "end": 334.129,
+  "text": "uh the important thing is the screen"
+ },
+ {
+  "start": 334.139,
+  "end": 336.95,
+  "text": "resolution now I talked about different"
+ },
+ {
+  "start": 336.96,
+  "end": 338.87,
+  "text": "factors when it comes to image based"
+ },
+ {
+  "start": 338.88,
+  "end": 340.55,
+  "text": "test automation"
+ },
+ {
+  "start": 340.56,
+  "end": 343.129,
+  "text": "the reason it is not the best option"
+ },
+ {
+  "start": 343.139,
+  "end": 344.81,
+  "text": "when you are trying to automate the"
+ },
+ {
+  "start": 344.82,
+  "end": 347.57,
+  "text": "application is because of these factors"
+ },
+ {
+  "start": 347.58,
+  "end": 350.749,
+  "text": "right so screen resolution is one as you"
+ },
+ {
+  "start": 350.759,
+  "end": 352.61,
+  "text": "can see it is one particular screen"
+ },
+ {
+  "start": 352.62,
+  "end": 354.77,
+  "text": "resolution when I have added this"
+ },
+ {
+  "start": 354.78,
+  "end": 357.529,
+  "text": "particular control right or the image"
+ },
+ {
+  "start": 357.539,
+  "end": 361.55,
+  "text": "but what if during execution the screen"
+ },
+ {
+  "start": 361.56,
+  "end": 363.49,
+  "text": "resolution changes to something else"
+ },
+ {
+  "start": 363.5,
+  "end": 366.89,
+  "text": "then my image based automation is going"
+ },
+ {
+  "start": 366.9,
+  "end": 369.409,
+  "text": "to fail right because it is dependent on"
+ },
+ {
+  "start": 369.419,
+  "end": 371.93,
+  "text": "the resolution and lot of other things"
+ },
+ {
+  "start": 371.94,
+  "end": 375.05,
+  "text": "like the offset which is the position of"
+ },
+ {
+  "start": 375.06,
+  "end": 377.029,
+  "text": "the image which identifies that"
+ },
+ {
+  "start": 377.039,
+  "end": 378.89,
+  "text": "particular control on the screen"
+ },
+ {
+  "start": 378.9,
+  "end": 381.05,
+  "text": "uh then there is method which is"
+ },
+ {
+  "start": 381.06,
+  "end": 383.749,
+  "text": "currently it is full screen but if it is"
+ },
+ {
+  "start": 383.759,
+  "end": 385.85,
+  "text": "not full screen then also there is a"
+ },
+ {
+  "start": 385.86,
+  "end": 388.43,
+  "text": "chance of failure right uh then there is"
+ },
+ {
+  "start": 388.44,
+  "end": 390.409,
+  "text": "the accuracy as you can see it's not"
+ },
+ {
+  "start": 390.419,
+  "end": 394.189,
+  "text": "hundred percent it's 95 percent"
+ },
+ {
+  "start": 394.199,
+  "end": 397.01,
+  "text": "so all of these factors needs to be in"
+ },
+ {
+  "start": 397.02,
+  "end": 400.01,
+  "text": "place if the image based automation is"
+ },
+ {
+  "start": 400.02,
+  "end": 403.07,
+  "text": "going to work and it's a lot of factors"
+ },
+ {
+  "start": 403.08,
+  "end": 405.409,
+  "text": "right so there is no guarantee it will"
+ },
+ {
+  "start": 405.419,
+  "end": 409.01,
+  "text": "work every time but it is still an"
+ },
+ {
+  "start": 409.02,
+  "end": 411.95,
+  "text": "option uh if there are no other options"
+ },
+ {
+  "start": 411.96,
+  "end": 414.17,
+  "text": "uh no other ways to identify a"
+ },
+ {
+  "start": 414.18,
+  "end": 417.05,
+  "text": "particular control in a application you"
+ },
+ {
+  "start": 417.06,
+  "end": 419.15,
+  "text": "can always fall back upon this option"
+ },
+ {
+  "start": 419.16,
+  "end": 422.21,
+  "text": "but it should be the last resort not the"
+ },
+ {
+  "start": 422.22,
+  "end": 424.909,
+  "text": "first option right so you should always"
+ },
+ {
+  "start": 424.919,
+  "end": 427.37,
+  "text": "go through the properties first then try"
+ },
+ {
+  "start": 427.38,
+  "end": 431.749,
+  "text": "to use an anchor and then not then um if"
+ },
+ {
+  "start": 431.759,
+  "end": 433.249,
+  "text": "all of these options are still not"
+ },
+ {
+  "start": 433.259,
+  "end": 435.409,
+  "text": "working you can still fall back upon"
+ },
+ {
+  "start": 435.419,
+  "end": 437.689,
+  "text": "this option which is identify by image"
+ },
+ {
+  "start": 437.699,
+  "end": 439.85,
+  "text": "okay"
+ },
+ {
+  "start": 439.86,
+  "end": 443.15,
+  "text": "so uh now we have selected um our Google"
+ },
+ {
+  "start": 443.16,
+  "end": 446.33,
+  "text": "search and you can see here uh along"
+ },
+ {
+  "start": 446.34,
+  "end": 448.85,
+  "text": "with the properties there is also a"
+ },
+ {
+  "start": 448.86,
+  "end": 451.67,
+  "text": "image option right which is telling that"
+ },
+ {
+  "start": 451.68,
+  "end": 454.43,
+  "text": "uh this particular control is using both"
+ },
+ {
+  "start": 454.44,
+  "end": 457.909,
+  "text": "properties and image uh as a mechanism"
+ },
+ {
+  "start": 457.919,
+  "end": 461.749,
+  "text": "to identify this item uniquely within"
+ },
+ {
+  "start": 461.759,
+  "end": 464.15,
+  "text": "that particular screen or application"
+ },
+ {
+  "start": 464.16,
+  "end": 466.67,
+  "text": "okay"
+ },
+ {
+  "start": 466.68,
+  "end": 468.589,
+  "text": "so once you do that you can click on"
+ },
+ {
+  "start": 468.599,
+  "end": 472.67,
+  "text": "Save and then click on close"
+ },
+ {
+  "start": 472.68,
+  "end": 476.15,
+  "text": "so that will build uh the module okay so"
+ },
+ {
+  "start": 476.16,
+  "end": 480.05,
+  "text": "we have got our module now which is uh"
+ },
+ {
+  "start": 480.06,
+  "end": 483.83,
+  "text": "we have got our uh the text box and the"
+ },
+ {
+  "start": 483.84,
+  "end": 486.35,
+  "text": "button here right"
+ },
+ {
+  "start": 486.36,
+  "end": 489.469,
+  "text": "so let's go ahead and try it out"
+ },
+ {
+  "start": 489.479,
+  "end": 490.61,
+  "text": "um I will"
+ },
+ {
+  "start": 490.62,
+  "end": 493.43,
+  "text": "I've already created a test case folder"
+ },
+ {
+  "start": 493.44,
+  "end": 495.589,
+  "text": "which is Island fiber image I just need"
+ },
+ {
+  "start": 495.599,
+  "end": 497.87,
+  "text": "to add that particular module in order"
+ },
+ {
+  "start": 497.88,
+  "end": 500.629,
+  "text": "to get it working right so let's first"
+ },
+ {
+  "start": 500.639,
+  "end": 502.969,
+  "text": "create a test case here"
+ },
+ {
+  "start": 502.979,
+  "end": 506.27,
+  "text": "so I will say search"
+ },
+ {
+  "start": 506.28,
+  "end": 509.57,
+  "text": "by image"
+ },
+ {
+  "start": 512.209,
+  "end": 512.219,
+  "text": "and here I just need to add my Google"
+ },
+ {
+  "start": 512.219,
+  "end": 516.23,
+  "text": "module so I will say Google here"
+ },
+ {
+  "start": 516.24,
+  "end": 519.469,
+  "text": "and this is the text box so I want to"
+ },
+ {
+  "start": 519.479,
+  "end": 522.11,
+  "text": "enter here something like Tosca"
+ },
+ {
+  "start": 522.12,
+  "end": 525.17,
+  "text": "uh in Google search which is the button"
+ },
+ {
+  "start": 525.18,
+  "end": 528.769,
+  "text": "and here I'm going to click on it right"
+ },
+ {
+  "start": 528.779,
+  "end": 531.47,
+  "text": "so that's that's the similar test case"
+ },
+ {
+  "start": 531.48,
+  "end": 533.63,
+  "text": "which we have created earlier as well no"
+ },
+ {
+  "start": 533.64,
+  "end": 536.449,
+  "text": "changes here it's just the module which"
+ },
+ {
+  "start": 536.459,
+  "end": 538.67,
+  "text": "is changing because we are changing the"
+ },
+ {
+  "start": 538.68,
+  "end": 539.71,
+  "text": "control"
+ },
+ {
+  "start": 539.72,
+  "end": 542.75,
+  "text": "identification mechanism right"
+ },
+ {
+  "start": 542.76,
+  "end": 546.11,
+  "text": "so let's go ahead and execute this and"
+ },
+ {
+  "start": 546.12,
+  "end": 553.61,
+  "text": "we'll see if it is working or not"
+ },
+ {
+  "start": 556.009,
+  "end": 556.019,
+  "text": "so as you can see it was able to enter"
+ },
+ {
+  "start": 556.019,
+  "end": 559.79,
+  "text": "Tosca and it was able to uh click on"
+ },
+ {
+  "start": 559.8,
+  "end": 561.41,
+  "text": "that particular button"
+ },
+ {
+  "start": 561.42,
+  "end": 564.65,
+  "text": "but the only difference this time was we"
+ },
+ {
+  "start": 564.66,
+  "end": 567.05,
+  "text": "have uh identified that particular"
+ },
+ {
+  "start": 567.06,
+  "end": 570.35,
+  "text": "button using our image instead of only"
+ },
+ {
+  "start": 570.36,
+  "end": 573.769,
+  "text": "Properties or anchor control right"
+ },
+ {
+  "start": 573.779,
+  "end": 577.49,
+  "text": "so that's what is all about image based"
+ },
+ {
+  "start": 577.5,
+  "end": 580.91,
+  "text": "automation uh in Tosca uh that's how you"
+ },
+ {
+  "start": 580.92,
+  "end": 584.269,
+  "text": "can identify controls using images"
+ },
+ {
+  "start": 584.279,
+  "end": 584.99,
+  "text": "um"
+ },
+ {
+  "start": 585.0,
+  "end": 587.15,
+  "text": "it's one of the options but as I said"
+ },
+ {
+  "start": 587.16,
+  "end": 590.389,
+  "text": "it's not always the best option"
+ },
+ {
+  "start": 590.399,
+  "end": 593.329,
+  "text": "there are lots of other things in image"
+ },
+ {
+  "start": 593.339,
+  "end": 595.19,
+  "text": "based test automation which we'll talk"
+ },
+ {
+  "start": 595.2,
+  "end": 597.53,
+  "text": "about in the later sessions but"
+ },
+ {
+  "start": 597.54,
+  "end": 600.05,
+  "text": "hopefully this was helpful"
+ },
+ {
+  "start": 600.06,
+  "end": 602.99,
+  "text": "um in identifying controls by another"
+ },
+ {
+  "start": 603.0,
+  "end": 605.449,
+  "text": "mechanisms which you can use while"
+ },
+ {
+  "start": 605.459,
+  "end": 607.43,
+  "text": "working in Tosca"
+ },
+ {
+  "start": 607.44,
+  "end": 609.59,
+  "text": "so that's all for this particular"
+ },
+ {
+  "start": 609.6,
+  "end": 611.99,
+  "text": "session uh keep watching uh will be"
+ },
+ {
+  "start": 612.0,
+  "end": 614.509,
+  "text": "coming up with more uh interesting Tosca"
+ },
+ {
+  "start": 614.519,
+  "end": 617.63,
+  "text": "lessons so subscribe to our Channel and"
+ },
+ {
+  "start": 617.64,
+  "end": 621.38,
+  "text": "see you in the next session"
+ }
+]

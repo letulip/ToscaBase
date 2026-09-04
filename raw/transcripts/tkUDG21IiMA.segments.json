@@ -1,0 +1,1212 @@
+[
+ {
+  "start": 7.909,
+  "end": 7.919,
+  "text": "hey everyone welcome back to this Tosca"
+ },
+ {
+  "start": 7.919,
+  "end": 10.129,
+  "text": "automation playlist and we are talking"
+ },
+ {
+  "start": 10.139,
+  "end": 12.95,
+  "text": "about the API testing"
+ },
+ {
+  "start": 12.96,
+  "end": 14.81,
+  "text": "we have also seen a lot of different"
+ },
+ {
+  "start": 14.82,
+  "end": 16.849,
+  "text": "features which are available with the"
+ },
+ {
+  "start": 16.859,
+  "end": 19.67,
+  "text": "Tosca API scan but until now we have"
+ },
+ {
+  "start": 19.68,
+  "end": 22.55,
+  "text": "been only using the rest apis"
+ },
+ {
+  "start": 22.56,
+  "end": 24.41,
+  "text": "but as you know there are different"
+ },
+ {
+  "start": 24.42,
+  "end": 26.689,
+  "text": "types of apis which you can basically"
+ },
+ {
+  "start": 26.699,
+  "end": 29.929,
+  "text": "test and verify and Tosca supports a lot"
+ },
+ {
+  "start": 29.939,
+  "end": 32.749,
+  "text": "of different apis right so apart from"
+ },
+ {
+  "start": 32.759,
+  "end": 34.97,
+  "text": "rest apis uh one of the most popular"
+ },
+ {
+  "start": 34.98,
+  "end": 39.049,
+  "text": "apis as you know would be soap API right"
+ },
+ {
+  "start": 39.059,
+  "end": 41.889,
+  "text": "so these are based on the soap protocol"
+ },
+ {
+  "start": 41.899,
+  "end": 45.77,
+  "text": "and they use XML as a communication"
+ },
+ {
+  "start": 45.78,
+  "end": 47.75,
+  "text": "Channel between the server and the"
+ },
+ {
+  "start": 47.76,
+  "end": 50.869,
+  "text": "client right so we are going to look at"
+ },
+ {
+  "start": 50.879,
+  "end": 53.63,
+  "text": "how we can scan the soap apis and how we"
+ },
+ {
+  "start": 53.64,
+  "end": 55.67,
+  "text": "can verify them or create test cases"
+ },
+ {
+  "start": 55.68,
+  "end": 59.029,
+  "text": "using the API scan and the commander"
+ },
+ {
+  "start": 59.039,
+  "end": 61.61,
+  "text": "okay so for this I'm going to use an"
+ },
+ {
+  "start": 61.62,
+  "end": 63.709,
+  "text": "example which is available with"
+ },
+ {
+  "start": 63.719,
+  "end": 67.51,
+  "text": "tricentis and you can find it in their"
+ },
+ {
+  "start": 67.52,
+  "end": 71.75,
+  "text": "API Services web page okay so let me"
+ },
+ {
+  "start": 71.76,
+  "end": 74.21,
+  "text": "click on this URI so that we can scan a"
+ },
+ {
+  "start": 74.22,
+  "end": 76.85,
+  "text": "particular URI it is already present uh"
+ },
+ {
+  "start": 76.86,
+  "end": 79.37,
+  "text": "in my list so as you can see the first"
+ },
+ {
+  "start": 79.38,
+  "end": 80.83,
+  "text": "one web"
+ },
+ {
+  "start": 80.84,
+  "end": 82.99,
+  "text": "service.torscloud.com"
+ },
+ {
+  "start": 83.0,
+  "end": 86.149,
+  "text": "calculator.svc and this is a soap based"
+ },
+ {
+  "start": 86.159,
+  "end": 87.649,
+  "text": "API okay"
+ },
+ {
+  "start": 87.659,
+  "end": 92.33,
+  "text": "so I can go ahead and scan this"
+ },
+ {
+  "start": 95.81,
+  "end": 95.82,
+  "text": "and it is going to basically create uh"
+ },
+ {
+  "start": 95.82,
+  "end": 99.109,
+  "text": "you can see different uh folders folder"
+ },
+ {
+  "start": 99.119,
+  "end": 101.69,
+  "text": "structure and the API structure for the"
+ },
+ {
+  "start": 101.7,
+  "end": 104.149,
+  "text": "calculator right so this API can be used"
+ },
+ {
+  "start": 104.159,
+  "end": 106.85,
+  "text": "to basically perform different types of"
+ },
+ {
+  "start": 106.86,
+  "end": 109.249,
+  "text": "calculations and it is a soap based"
+ },
+ {
+  "start": 109.259,
+  "end": 111.23,
+  "text": "protocol okay"
+ },
+ {
+  "start": 111.24,
+  "end": 114.83,
+  "text": "so um if we go here you will see under"
+ },
+ {
+  "start": 114.84,
+  "end": 115.99,
+  "text": "calculator"
+ },
+ {
+  "start": 116.0,
+  "end": 117.889,
+  "text": "there are different types of"
+ },
+ {
+  "start": 117.899,
+  "end": 119.99,
+  "text": "calculations like add divide multiply"
+ },
+ {
+  "start": 120.0,
+  "end": 122.81,
+  "text": "subtract right and if I open one of"
+ },
+ {
+  "start": 122.82,
+  "end": 125.149,
+  "text": "these messages you will see here"
+ },
+ {
+  "start": 125.159,
+  "end": 129.77,
+  "text": "this is the XML format not uh"
+ },
+ {
+  "start": 129.78,
+  "end": 133.01,
+  "text": "not the Json format okay and that is"
+ },
+ {
+  "start": 133.02,
+  "end": 135.77,
+  "text": "what is being used for any soap based"
+ },
+ {
+  "start": 135.78,
+  "end": 137.15,
+  "text": "API okay"
+ },
+ {
+  "start": 137.16,
+  "end": 139.61,
+  "text": "so in this you can basically do a add"
+ },
+ {
+  "start": 139.62,
+  "end": 142.01,
+  "text": "operation right so I can put some number"
+ },
+ {
+  "start": 142.02,
+  "end": 146.089,
+  "text": "like 10 here and then then here okay"
+ },
+ {
+  "start": 146.099,
+  "end": 148.729,
+  "text": "and then I can just send the request"
+ },
+ {
+  "start": 148.739,
+  "end": 151.49,
+  "text": "this is a post request type this is the"
+ },
+ {
+  "start": 151.5,
+  "end": 153.53,
+  "text": "end point and this is the resource as"
+ },
+ {
+  "start": 153.54,
+  "end": 156.29,
+  "text": "you can see right so if I now send this"
+ },
+ {
+  "start": 156.3,
+  "end": 158.869,
+  "text": "request and you will see the response is"
+ },
+ {
+  "start": 158.879,
+  "end": 161.47,
+  "text": "coming back uh status code is 200 okay"
+ },
+ {
+  "start": 161.48,
+  "end": 164.809,
+  "text": "and it will be returning this payload"
+ },
+ {
+  "start": 164.819,
+  "end": 167.869,
+  "text": "which is in again in XML format and the"
+ },
+ {
+  "start": 167.879,
+  "end": 170.39,
+  "text": "result is 20 right"
+ },
+ {
+  "start": 170.4,
+  "end": 174.77,
+  "text": "so in terms of uh how you can scan a"
+ },
+ {
+  "start": 174.78,
+  "end": 177.17,
+  "text": "particular API whether it is soap or"
+ },
+ {
+  "start": 177.18,
+  "end": 179.809,
+  "text": "rest there is no difference how you"
+ },
+ {
+  "start": 179.819,
+  "end": 182.869,
+  "text": "basically uh perform the checks that may"
+ },
+ {
+  "start": 182.879,
+  "end": 185.33,
+  "text": "be a little different because the"
+ },
+ {
+  "start": 185.34,
+  "end": 187.13,
+  "text": "payload format is little different right"
+ },
+ {
+  "start": 187.14,
+  "end": 190.369,
+  "text": "so in case of rest it may be in the Json"
+ },
+ {
+  "start": 190.379,
+  "end": 193.13,
+  "text": "format but in case of soap it will be in"
+ },
+ {
+  "start": 193.14,
+  "end": 195.77,
+  "text": "XML format right so that's the only"
+ },
+ {
+  "start": 195.78,
+  "end": 197.75,
+  "text": "difference you will see between a rest"
+ },
+ {
+  "start": 197.76,
+  "end": 201.35,
+  "text": "API and the soap API okay rest of the"
+ },
+ {
+  "start": 201.36,
+  "end": 204.29,
+  "text": "things like scanning or basically"
+ },
+ {
+  "start": 204.3,
+  "end": 207.05,
+  "text": "creating test cases or verifying the"
+ },
+ {
+  "start": 207.06,
+  "end": 209.509,
+  "text": "results all remains exactly the same"
+ },
+ {
+  "start": 209.519,
+  "end": 210.53,
+  "text": "okay"
+ },
+ {
+  "start": 210.54,
+  "end": 213.589,
+  "text": "so now if I want to create a API test"
+ },
+ {
+  "start": 213.599,
+  "end": 216.77,
+  "text": "case on my Tosca Commander you know the"
+ },
+ {
+  "start": 216.78,
+  "end": 219.53,
+  "text": "process right so first select the API"
+ },
+ {
+  "start": 219.54,
+  "end": 222.229,
+  "text": "message go to API test case and there"
+ },
+ {
+  "start": 222.239,
+  "end": 225.41,
+  "text": "you will find API test case export"
+ },
+ {
+  "start": 225.42,
+  "end": 227.57,
+  "text": "now this time around I'm going to show"
+ },
+ {
+  "start": 227.58,
+  "end": 229.369,
+  "text": "you a different way of doing this right"
+ },
+ {
+  "start": 229.379,
+  "end": 232.61,
+  "text": "so when we open the API scan from the"
+ },
+ {
+  "start": 232.62,
+  "end": 234.71,
+  "text": "Tosca Commander it can directly import"
+ },
+ {
+  "start": 234.72,
+  "end": 237.71,
+  "text": "this API message but right now I haven't"
+ },
+ {
+  "start": 237.72,
+  "end": 240.41,
+  "text": "opened uh the Tosca Commander I have"
+ },
+ {
+  "start": 240.42,
+  "end": 242.93,
+  "text": "used the Standalone version of the API"
+ },
+ {
+  "start": 242.94,
+  "end": 245.57,
+  "text": "scan so let me export this and let me"
+ },
+ {
+  "start": 245.58,
+  "end": 247.67,
+  "text": "show you how you can bring it back to"
+ },
+ {
+  "start": 247.68,
+  "end": 250.19,
+  "text": "Tosca Commander okay"
+ },
+ {
+  "start": 250.2,
+  "end": 253.55,
+  "text": "so let's go ahead and Export this as I"
+ },
+ {
+  "start": 253.56,
+  "end": 256.31,
+  "text": "said earlier this will be saved as a"
+ },
+ {
+  "start": 256.32,
+  "end": 259.189,
+  "text": "subset okay so it will be exported as a"
+ },
+ {
+  "start": 259.199,
+  "end": 261.05,
+  "text": "subset so let's"
+ },
+ {
+  "start": 261.06,
+  "end": 264.11,
+  "text": "name it as calculator"
+ },
+ {
+  "start": 264.12,
+  "end": 267.29,
+  "text": "and let's save it here okay"
+ },
+ {
+  "start": 267.3,
+  "end": 281.45,
+  "text": "now let's open Tosca Commander"
+ },
+ {
+  "start": 283.969,
+  "end": 283.979,
+  "text": "and now let's go to our project and"
+ },
+ {
+  "start": 283.979,
+  "end": 286.55,
+  "text": "there will be basically importing the"
+ },
+ {
+  "start": 286.56,
+  "end": 289.73,
+  "text": "subset and then we will basically have"
+ },
+ {
+  "start": 289.74,
+  "end": 292.85,
+  "text": "the test case for that particular API"
+ },
+ {
+  "start": 292.86,
+  "end": 295.07,
+  "text": "message which we are trying to verify or"
+ },
+ {
+  "start": 295.08,
+  "end": 297.11,
+  "text": "trying to create test cases from that"
+ },
+ {
+  "start": 297.12,
+  "end": 298.55,
+  "text": "right"
+ },
+ {
+  "start": 298.56,
+  "end": 301.31,
+  "text": "so this is our project and we can go to"
+ },
+ {
+  "start": 301.32,
+  "end": 303.85,
+  "text": "our API testing component folder okay"
+ },
+ {
+  "start": 303.86,
+  "end": 307.49,
+  "text": "and then inside this"
+ },
+ {
+  "start": 307.5,
+  "end": 310.129,
+  "text": "or I can even create another component"
+ },
+ {
+  "start": 310.139,
+  "end": 312.71,
+  "text": "folder just to make it uh basically"
+ },
+ {
+  "start": 312.72,
+  "end": 315.85,
+  "text": "clear okay so let me call it"
+ },
+ {
+  "start": 315.86,
+  "end": 321.11,
+  "text": "soap API testing"
+ },
+ {
+  "start": 324.35,
+  "end": 324.36,
+  "text": "okay and now inside this I'm going to"
+ },
+ {
+  "start": 324.36,
+  "end": 326.629,
+  "text": "import my subset okay"
+ },
+ {
+  "start": 326.639,
+  "end": 329.57,
+  "text": "so we have to go to that particular"
+ },
+ {
+  "start": 329.58,
+  "end": 332.689,
+  "text": "location where this was exported"
+ },
+ {
+  "start": 332.699,
+  "end": 336.11,
+  "text": "and I saved it under API"
+ },
+ {
+  "start": 336.12,
+  "end": 339.05,
+  "text": "this is the TSU okay"
+ },
+ {
+  "start": 339.06,
+  "end": 341.93,
+  "text": "and once you import that now you will"
+ },
+ {
+  "start": 341.94,
+  "end": 344.93,
+  "text": "see that it has created a import folder"
+ },
+ {
+  "start": 344.94,
+  "end": 346.189,
+  "text": "right"
+ },
+ {
+  "start": 346.199,
+  "end": 348.71,
+  "text": "and inside that you will have your API"
+ },
+ {
+  "start": 348.72,
+  "end": 350.029,
+  "text": "scan"
+ },
+ {
+  "start": 350.039,
+  "end": 352.37,
+  "text": "so whatever you have scanned the module"
+ },
+ {
+  "start": 352.38,
+  "end": 355.07,
+  "text": "status cases exactly in the same format"
+ },
+ {
+  "start": 355.08,
+  "end": 357.95,
+  "text": "the only difference is you need to"
+ },
+ {
+  "start": 357.96,
+  "end": 361.55,
+  "text": "export and import if you have used the"
+ },
+ {
+  "start": 361.56,
+  "end": 364.49,
+  "text": "API scan as a standalone version not"
+ },
+ {
+  "start": 364.5,
+  "end": 366.71,
+  "text": "from Tosca Commander okay so this is the"
+ },
+ {
+  "start": 366.72,
+  "end": 368.029,
+  "text": "difference"
+ },
+ {
+  "start": 368.039,
+  "end": 369.35,
+  "text": "now"
+ },
+ {
+  "start": 369.36,
+  "end": 372.11,
+  "text": "the rest of the process is still exactly"
+ },
+ {
+  "start": 372.12,
+  "end": 375.35,
+  "text": "the same right so this time around you"
+ },
+ {
+  "start": 375.36,
+  "end": 378.17,
+  "text": "need to select the notes which you want"
+ },
+ {
+  "start": 378.18,
+  "end": 381.59,
+  "text": "to add or you want to add the response"
+ },
+ {
+  "start": 381.6,
+  "end": 383.45,
+  "text": "you can do that right"
+ },
+ {
+  "start": 383.46,
+  "end": 386.57,
+  "text": "so go ahead and click on ADD and it will"
+ },
+ {
+  "start": 386.58,
+  "end": 389.629,
+  "text": "add the status code we can also add the"
+ },
+ {
+  "start": 389.639,
+  "end": 392.51,
+  "text": "result because we want to verify that"
+ },
+ {
+  "start": 392.52,
+  "end": 395.93,
+  "text": "okay so these two uh will add in the"
+ },
+ {
+  "start": 395.94,
+  "end": 397.309,
+  "text": "response"
+ },
+ {
+  "start": 397.319,
+  "end": 399.95,
+  "text": "and in the request we can basically add"
+ },
+ {
+  "start": 399.96,
+  "end": 401.87,
+  "text": "these two nodes because we can enter"
+ },
+ {
+  "start": 401.88,
+  "end": 404.87,
+  "text": "different input values right we don't"
+ },
+ {
+  "start": 404.88,
+  "end": 408.23,
+  "text": "just want one input value to to be just"
+ },
+ {
+  "start": 408.24,
+  "end": 411.65,
+  "text": "added we want to make it basically a"
+ },
+ {
+  "start": 411.66,
+  "end": 413.749,
+  "text": "calculator which can take different"
+ },
+ {
+  "start": 413.759,
+  "end": 417.409,
+  "text": "inputs and give different output right"
+ },
+ {
+  "start": 417.419,
+  "end": 421.189,
+  "text": "so now if I go back to my test cases you"
+ },
+ {
+  "start": 421.199,
+  "end": 423.43,
+  "text": "can see uh we have got this different"
+ },
+ {
+  "start": 423.44,
+  "end": 425.749,
+  "text": "values which we can enter here in the"
+ },
+ {
+  "start": 425.759,
+  "end": 428.689,
+  "text": "request and in the response we can"
+ },
+ {
+  "start": 428.699,
+  "end": 431.57,
+  "text": "basically select any value so that we"
+ },
+ {
+  "start": 431.58,
+  "end": 433.01,
+  "text": "can verify it right"
+ },
+ {
+  "start": 433.02,
+  "end": 435.83,
+  "text": "so here it will be 200 okay and action"
+ },
+ {
+  "start": 435.84,
+  "end": 437.57,
+  "text": "mode would be verify"
+ },
+ {
+  "start": 437.58,
+  "end": 442.37,
+  "text": "and in the request what we can do is"
+ },
+ {
+  "start": 442.38,
+  "end": 444.469,
+  "text": "we can basically enter any particular"
+ },
+ {
+  "start": 444.479,
+  "end": 448.73,
+  "text": "value either 10 or I can either enter"
+ },
+ {
+  "start": 448.74,
+  "end": 451.309,
+  "text": "something else also right so it will"
+ },
+ {
+  "start": 451.319,
+  "end": 454.249,
+  "text": "give this a result but then how do we"
+ },
+ {
+  "start": 454.259,
+  "end": 458.15,
+  "text": "verify this okay"
+ },
+ {
+  "start": 459.77,
+  "end": 459.78,
+  "text": "so to do that"
+ },
+ {
+  "start": 459.78,
+  "end": 462.23,
+  "text": "let's add some configuration parameters"
+ },
+ {
+  "start": 462.24,
+  "end": 464.689,
+  "text": "where we can store these values and then"
+ },
+ {
+  "start": 464.699,
+  "end": 467.51,
+  "text": "we can check whether the addition of"
+ },
+ {
+  "start": 467.52,
+  "end": 469.43,
+  "text": "these two values is equal in the"
+ },
+ {
+  "start": 469.44,
+  "end": 472.49,
+  "text": "response okay so what I'm going to do"
+ },
+ {
+  "start": 472.5,
+  "end": 474.95,
+  "text": "here is I'm going to add some"
+ },
+ {
+  "start": 474.96,
+  "end": 478.21,
+  "text": "configuration parameters okay"
+ },
+ {
+  "start": 478.22,
+  "end": 482.809,
+  "text": "and let's go here and here is the test"
+ },
+ {
+  "start": 482.819,
+  "end": 484.85,
+  "text": "configuration parameter"
+ },
+ {
+  "start": 484.86,
+  "end": 489.05,
+  "text": "and I'm going to call it num1"
+ },
+ {
+  "start": 489.06,
+  "end": 493.309,
+  "text": "and I'm going to give some value here"
+ },
+ {
+  "start": 507.35,
+  "end": 507.36,
+  "text": "okay and then let's change this okay so"
+ },
+ {
+  "start": 507.36,
+  "end": 516.469,
+  "text": "what we are going to call this is CP"
+ },
+ {
+  "start": 527.389,
+  "end": 527.399,
+  "text": "and CP num2"
+ },
+ {
+  "start": 527.399,
+  "end": 530.03,
+  "text": "so this way you can basically configure"
+ },
+ {
+  "start": 530.04,
+  "end": 532.73,
+  "text": "your values and not pass static values"
+ },
+ {
+  "start": 532.74,
+  "end": 534.829,
+  "text": "all the time right so you can just"
+ },
+ {
+  "start": 534.839,
+  "end": 537.59,
+  "text": "change the configuration values and then"
+ },
+ {
+  "start": 537.6,
+  "end": 540.35,
+  "text": "send this request okay now there are"
+ },
+ {
+  "start": 540.36,
+  "end": 541.91,
+  "text": "different ways of doing it I'm just"
+ },
+ {
+  "start": 541.92,
+  "end": 544.55,
+  "text": "showing you one way okay now go back to"
+ },
+ {
+  "start": 544.56,
+  "end": 547.43,
+  "text": "response and here we are going to use"
+ },
+ {
+  "start": 547.44,
+  "end": 550.67,
+  "text": "some math calculation right to add these"
+ },
+ {
+  "start": 550.68,
+  "end": 553.37,
+  "text": "two numbers so we are going to access"
+ },
+ {
+  "start": 553.38,
+  "end": 554.99,
+  "text": "that CP"
+ },
+ {
+  "start": 555.0,
+  "end": 558.79,
+  "text": "again number one"
+ },
+ {
+  "start": 561.769,
+  "end": 561.779,
+  "text": "and then"
+ },
+ {
+  "start": 561.779,
+  "end": 567.23,
+  "text": "we are going to add this and again CP"
+ },
+ {
+  "start": 567.24,
+  "end": 571.73,
+  "text": "of num2"
+ },
+ {
+  "start": 576.11,
+  "end": 576.12,
+  "text": "right and do take care of the start and"
+ },
+ {
+  "start": 576.12,
+  "end": 579.41,
+  "text": "end brackets okay just to make sure this"
+ },
+ {
+  "start": 579.42,
+  "end": 581.509,
+  "text": "correct"
+ },
+ {
+  "start": 581.519,
+  "end": 584.509,
+  "text": "something seems to be wrong I forgot one"
+ },
+ {
+  "start": 584.519,
+  "end": 586.73,
+  "text": "curly brace okay"
+ },
+ {
+  "start": 586.74,
+  "end": 589.73,
+  "text": "okay so now it looks correct so what it"
+ },
+ {
+  "start": 589.74,
+  "end": 592.19,
+  "text": "will do here is basically it will verify"
+ },
+ {
+  "start": 592.2,
+  "end": 594.59,
+  "text": "whether the output of whatever we are"
+ },
+ {
+  "start": 594.6,
+  "end": 597.05,
+  "text": "calculating using the math function is"
+ },
+ {
+  "start": 597.06,
+  "end": 599.57,
+  "text": "the same as the API response output"
+ },
+ {
+  "start": 599.58,
+  "end": 601.07,
+  "text": "right"
+ },
+ {
+  "start": 601.08,
+  "end": 604.43,
+  "text": "so let's go ahead and execute this now"
+ },
+ {
+  "start": 604.44,
+  "end": 607.49,
+  "text": "okay so run this in SketchBook and then"
+ },
+ {
+  "start": 607.5,
+  "end": 609.949,
+  "text": "it is going to verify whether it has"
+ },
+ {
+  "start": 609.959,
+  "end": 613.37,
+  "text": "correctly calculated the value using the"
+ },
+ {
+  "start": 613.38,
+  "end": 616.67,
+  "text": "API okay so verification as I said"
+ },
+ {
+  "start": 616.68,
+  "end": 619.73,
+  "text": "earlier is very important no matter what"
+ },
+ {
+  "start": 619.74,
+  "end": 622.85,
+  "text": "you are testing either API or any type"
+ },
+ {
+  "start": 622.86,
+  "end": 625.13,
+  "text": "of application right so you have to"
+ },
+ {
+  "start": 625.14,
+  "end": 627.53,
+  "text": "verify what is being returned by that"
+ },
+ {
+  "start": 627.54,
+  "end": 629.63,
+  "text": "particular functionality which you are"
+ },
+ {
+  "start": 629.64,
+  "end": 632.15,
+  "text": "trying to test so as you can see uh in"
+ },
+ {
+  "start": 632.16,
+  "end": 633.949,
+  "text": "the result the status code was verified"
+ },
+ {
+  "start": 633.959,
+  "end": 636.769,
+  "text": "and the add result was verified if you"
+ },
+ {
+  "start": 636.779,
+  "end": 638.99,
+  "text": "want to look at what was verified the"
+ },
+ {
+  "start": 639.0,
+  "end": 642.23,
+  "text": "expected value and the actual value both"
+ },
+ {
+  "start": 642.24,
+  "end": 644.87,
+  "text": "are same so the verification passed"
+ },
+ {
+  "start": 644.88,
+  "end": 647.269,
+  "text": "and that way we could verify that the"
+ },
+ {
+  "start": 647.279,
+  "end": 650.09,
+  "text": "response is actually what was expected"
+ },
+ {
+  "start": 650.1,
+  "end": 653.269,
+  "text": "right"
+ },
+ {
+  "start": 656.93,
+  "end": 656.94,
+  "text": "so this is how you can scan your soap"
+ },
+ {
+  "start": 656.94,
+  "end": 660.23,
+  "text": "apis you can create test cases and you"
+ },
+ {
+  "start": 660.24,
+  "end": 662.81,
+  "text": "can also verify the request and response"
+ },
+ {
+  "start": 662.82,
+  "end": 666.41,
+  "text": "of your soap API messages right"
+ },
+ {
+  "start": 666.42,
+  "end": 669.889,
+  "text": "so this can all be done in Tosca using"
+ },
+ {
+  "start": 669.899,
+  "end": 672.59,
+  "text": "the API scan and tatoska Commander"
+ },
+ {
+  "start": 672.6,
+  "end": 675.949,
+  "text": "similarly you can also try this with all"
+ },
+ {
+  "start": 675.959,
+  "end": 678.05,
+  "text": "different types of apis which are"
+ },
+ {
+  "start": 678.06,
+  "end": 680.81,
+  "text": "supported by Tosca"
+ },
+ {
+  "start": 680.82,
+  "end": 683.03,
+  "text": "so that's all for this video I hope you"
+ },
+ {
+  "start": 683.04,
+  "end": 685.13,
+  "text": "enjoyed it and you learned something new"
+ },
+ {
+  "start": 685.14,
+  "end": 689.09,
+  "text": "today related to API testing and Tosca"
+ },
+ {
+  "start": 689.1,
+  "end": 691.79,
+  "text": "do tune into our channel to watch more"
+ },
+ {
+  "start": 691.8,
+  "end": 695.03,
+  "text": "such videos uh in the coming updates"
+ },
+ {
+  "start": 695.04,
+  "end": 696.41,
+  "text": "if you have not subscribed to our"
+ },
+ {
+  "start": 696.42,
+  "end": 698.15,
+  "text": "Channel don't forget to subscribe"
+ },
+ {
+  "start": 698.16,
+  "end": 701.449,
+  "text": "because you will get notified about each"
+ },
+ {
+  "start": 701.459,
+  "end": 704.63,
+  "text": "and every video which we add on Tosca so"
+ },
+ {
+  "start": 704.64,
+  "end": 706.79,
+  "text": "that you can continue learning this"
+ },
+ {
+  "start": 706.8,
+  "end": 710.6,
+  "text": "exciting new automation tool"
+ }
+]

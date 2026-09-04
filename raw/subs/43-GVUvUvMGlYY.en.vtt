@@ -1,0 +1,2296 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:05.240 --> 00:00:08.210 align:start position:0%
+ 
+everyone<00:00:06.240><c> welcome</c><00:00:06.899><c> back</c><00:00:07.259><c> to</c><00:00:07.560><c> this</c><00:00:07.680><c> Tosca</c>
+
+00:00:08.210 --> 00:00:08.220 align:start position:0%
+everyone welcome back to this Tosca
+ 
+
+00:00:08.220 --> 00:00:10.790 align:start position:0%
+everyone welcome back to this Tosca
+automation<00:00:08.700><c> playlist</c><00:00:09.000><c> and</c><00:00:09.840><c> today</c><00:00:10.019><c> we</c><00:00:10.620><c> are</c>
+
+00:00:10.790 --> 00:00:10.800 align:start position:0%
+automation playlist and today we are
+ 
+
+00:00:10.800 --> 00:00:13.190 align:start position:0%
+automation playlist and today we are
+going<00:00:10.920><c> to</c><00:00:11.219><c> solve</c><00:00:11.639><c> an</c><00:00:12.000><c> interesting</c><00:00:12.480><c> automation</c>
+
+00:00:13.190 --> 00:00:13.200 align:start position:0%
+going to solve an interesting automation
+ 
+
+00:00:13.200 --> 00:00:15.470 align:start position:0%
+going to solve an interesting automation
+challenge<00:00:13.559><c> which</c><00:00:14.160><c> I</c><00:00:14.340><c> am</c><00:00:14.519><c> going</c><00:00:14.639><c> to</c><00:00:14.820><c> give</c><00:00:15.299><c> you</c>
+
+00:00:15.470 --> 00:00:15.480 align:start position:0%
+challenge which I am going to give you
+ 
+
+00:00:15.480 --> 00:00:17.630 align:start position:0%
+challenge which I am going to give you
+and<00:00:16.260><c> also</c><00:00:16.560><c> I'm</c><00:00:16.680><c> going</c><00:00:16.859><c> to</c><00:00:17.039><c> show</c><00:00:17.220><c> you</c><00:00:17.340><c> the</c>
+
+00:00:17.630 --> 00:00:17.640 align:start position:0%
+and also I'm going to show you the
+ 
+
+00:00:17.640 --> 00:00:19.849 align:start position:0%
+and also I'm going to show you the
+solution<00:00:17.940><c> on</c><00:00:18.720><c> how</c><00:00:19.080><c> you</c><00:00:19.199><c> can</c><00:00:19.320><c> solve</c><00:00:19.740><c> this</c>
+
+00:00:19.849 --> 00:00:19.859 align:start position:0%
+solution on how you can solve this
+ 
+
+00:00:19.859 --> 00:00:22.609 align:start position:0%
+solution on how you can solve this
+particular<00:00:20.160><c> problem</c><00:00:20.900><c> using</c><00:00:21.900><c> the</c><00:00:22.320><c> string</c>
+
+00:00:22.609 --> 00:00:22.619 align:start position:0%
+particular problem using the string
+ 
+
+00:00:22.619 --> 00:00:25.849 align:start position:0%
+particular problem using the string
+operations<00:00:23.160><c> which</c><00:00:23.699><c> are</c><00:00:23.880><c> available</c><00:00:24.060><c> in</c><00:00:24.779><c> Tosca</c>
+
+00:00:25.849 --> 00:00:25.859 align:start position:0%
+operations which are available in Tosca
+ 
+
+00:00:25.859 --> 00:00:28.429 align:start position:0%
+operations which are available in Tosca
+so<00:00:26.279><c> we</c><00:00:26.400><c> are</c><00:00:26.580><c> going</c><00:00:26.699><c> to</c><00:00:26.820><c> look</c><00:00:27.180><c> at</c><00:00:27.779><c> two</c><00:00:28.080><c> string</c>
+
+00:00:28.429 --> 00:00:28.439 align:start position:0%
+so we are going to look at two string
+ 
+
+00:00:28.439 --> 00:00:31.910 align:start position:0%
+so we are going to look at two string
+operations<00:00:28.880><c> one</c><00:00:29.880><c> is</c><00:00:30.180><c> the</c><00:00:30.300><c> trim</c><00:00:30.539><c> function</c><00:00:30.960><c> and</c>
+
+00:00:31.910 --> 00:00:31.920 align:start position:0%
+operations one is the trim function and
+ 
+
+00:00:31.920 --> 00:00:35.330 align:start position:0%
+operations one is the trim function and
+the<00:00:32.340><c> other</c><00:00:32.520><c> is</c><00:00:33.239><c> the</c><00:00:33.719><c> string</c><00:00:34.020><c> replace</c><00:00:34.320><c> right</c><00:00:35.040><c> so</c>
+
+00:00:35.330 --> 00:00:35.340 align:start position:0%
+the other is the string replace right so
+ 
+
+00:00:35.340 --> 00:00:38.450 align:start position:0%
+the other is the string replace right so
+using<00:00:35.760><c> this</c><00:00:36.059><c> two</c><00:00:36.360><c> string</c><00:00:36.960><c> operations</c><00:00:37.460><c> so</c>
+
+00:00:38.450 --> 00:00:38.460 align:start position:0%
+using this two string operations so
+ 
+
+00:00:38.460 --> 00:00:41.330 align:start position:0%
+using this two string operations so
+using<00:00:38.940><c> these</c><00:00:39.420><c> two</c><00:00:39.540><c> string</c><00:00:39.899><c> operations</c><00:00:40.320><c> we</c><00:00:41.160><c> are</c>
+
+00:00:41.330 --> 00:00:41.340 align:start position:0%
+using these two string operations we are
+ 
+
+00:00:41.340 --> 00:00:43.270 align:start position:0%
+using these two string operations we are
+going<00:00:41.520><c> to</c><00:00:41.820><c> solve</c><00:00:42.180><c> an</c><00:00:42.480><c> automation</c><00:00:42.899><c> problem</c>
+
+00:00:43.270 --> 00:00:43.280 align:start position:0%
+going to solve an automation problem
+ 
+
+00:00:43.280 --> 00:00:46.069 align:start position:0%
+going to solve an automation problem
+which<00:00:44.280><c> you</c><00:00:44.640><c> might</c><00:00:44.820><c> face</c><00:00:45.059><c> while</c><00:00:45.540><c> automating</c>
+
+00:00:46.069 --> 00:00:46.079 align:start position:0%
+which you might face while automating
+ 
+
+00:00:46.079 --> 00:00:47.990 align:start position:0%
+which you might face while automating
+any<00:00:46.379><c> web</c><00:00:46.620><c> application</c>
+
+00:00:47.990 --> 00:00:48.000 align:start position:0%
+any web application
+ 
+
+00:00:48.000 --> 00:00:52.430 align:start position:0%
+any web application
+so<00:00:48.600><c> let's</c><00:00:48.780><c> look</c><00:00:49.140><c> at</c><00:00:49.559><c> the</c><00:00:49.920><c> challenge</c><00:00:50.039><c> first</c>
+
+00:00:52.430 --> 00:00:52.440 align:start position:0%
+so let's look at the challenge first
+ 
+
+00:00:52.440 --> 00:00:56.389 align:start position:0%
+so let's look at the challenge first
+so<00:00:53.100><c> I'm</c><00:00:53.399><c> on</c><00:00:53.879><c> this</c><00:00:54.180><c> demo</c><00:00:54.660><c> webshop</c><00:00:55.320><c> site</c><00:00:55.860><c> right</c>
+
+00:00:56.389 --> 00:00:56.399 align:start position:0%
+so I'm on this demo webshop site right
+ 
+
+00:00:56.399 --> 00:01:00.470 align:start position:0%
+so I'm on this demo webshop site right
+where<00:00:57.360><c> we</c><00:00:58.020><c> can</c><00:00:58.199><c> add</c><00:00:58.860><c> different</c><00:00:59.399><c> products</c><00:01:00.239><c> into</c>
+
+00:01:00.470 --> 00:01:00.480 align:start position:0%
+where we can add different products into
+ 
+
+00:01:00.480 --> 00:01:04.310 align:start position:0%
+where we can add different products into
+the<00:01:00.719><c> cart</c><00:01:00.899><c> and</c><00:01:01.260><c> we</c><00:01:01.379><c> can</c><00:01:01.500><c> do</c><00:01:01.680><c> a</c><00:01:01.920><c> checkout</c><00:01:02.340><c> right</c>
+
+00:01:04.310 --> 00:01:04.320 align:start position:0%
+the cart and we can do a checkout right
+ 
+
+00:01:04.320 --> 00:01:06.890 align:start position:0%
+the cart and we can do a checkout right
+so<00:01:04.739><c> let</c><00:01:04.860><c> me</c><00:01:05.040><c> show</c><00:01:05.220><c> you</c><00:01:05.339><c> the</c><00:01:05.580><c> scenario</c><00:01:06.000><c> which</c><00:01:06.600><c> we</c>
+
+00:01:06.890 --> 00:01:06.900 align:start position:0%
+so let me show you the scenario which we
+ 
+
+00:01:06.900 --> 00:01:10.250 align:start position:0%
+so let me show you the scenario which we
+are<00:01:07.020><c> going</c><00:01:07.200><c> to</c><00:01:07.320><c> look</c><00:01:07.619><c> at</c><00:01:08.040><c> right</c><00:01:08.420><c> so</c><00:01:09.420><c> I'm</c><00:01:10.020><c> going</c>
+
+00:01:10.250 --> 00:01:10.260 align:start position:0%
+are going to look at right so I'm going
+ 
+
+00:01:10.260 --> 00:01:13.070 align:start position:0%
+are going to look at right so I'm going
+to<00:01:10.619><c> add</c><00:01:11.040><c> any</c><00:01:11.340><c> product</c><00:01:11.640><c> into</c><00:01:12.060><c> the</c><00:01:12.299><c> cart</c><00:01:12.540><c> let's</c>
+
+00:01:13.070 --> 00:01:13.080 align:start position:0%
+to add any product into the cart let's
+ 
+
+00:01:13.080 --> 00:01:15.649 align:start position:0%
+to add any product into the cart let's
+say<00:01:13.320><c> this</c><00:01:13.619><c> notebook</c><00:01:14.100><c> so</c><00:01:14.700><c> I</c><00:01:14.880><c> click</c><00:01:15.119><c> on</c><00:01:15.240><c> add</c><00:01:15.479><c> to</c>
+
+00:01:15.649 --> 00:01:15.659 align:start position:0%
+say this notebook so I click on add to
+ 
+
+00:01:15.659 --> 00:01:16.550 align:start position:0%
+say this notebook so I click on add to
+cart
+
+00:01:16.550 --> 00:01:16.560 align:start position:0%
+cart
+ 
+
+00:01:16.560 --> 00:01:19.090 align:start position:0%
+cart
+and<00:01:17.280><c> then</c><00:01:17.400><c> I</c><00:01:17.640><c> go</c><00:01:17.760><c> to</c><00:01:17.880><c> shopping</c><00:01:18.180><c> cart</c>
+
+00:01:19.090 --> 00:01:19.100 align:start position:0%
+and then I go to shopping cart
+ 
+
+00:01:19.100 --> 00:01:25.730 align:start position:0%
+and then I go to shopping cart
+I<00:01:20.100><c> do</c><00:01:20.580><c> I</c><00:01:21.240><c> perform</c><00:01:21.420><c> the</c><00:01:21.780><c> checkout</c><00:01:22.200><c> here</c>
+
+00:01:25.730 --> 00:01:25.740 align:start position:0%
+ 
+ 
+
+00:01:25.740 --> 00:01:27.830 align:start position:0%
+ 
+and<00:01:26.280><c> then</c><00:01:26.400><c> I</c><00:01:26.700><c> go</c><00:01:26.880><c> through</c><00:01:27.060><c> all</c><00:01:27.360><c> of</c><00:01:27.540><c> these</c>
+
+00:01:27.830 --> 00:01:27.840 align:start position:0%
+and then I go through all of these
+ 
+
+00:01:27.840 --> 00:01:31.550 align:start position:0%
+and then I go through all of these
+checkout<00:01:28.380><c> screens</c>
+
+00:01:31.550 --> 00:01:31.560 align:start position:0%
+ 
+ 
+
+00:01:31.560 --> 00:01:33.950 align:start position:0%
+ 
+okay<00:01:32.040><c> so</c><00:01:32.280><c> performing</c><00:01:32.759><c> all</c><00:01:33.000><c> of</c><00:01:33.119><c> these</c><00:01:33.360><c> steps</c><00:01:33.659><c> is</c>
+
+00:01:33.950 --> 00:01:33.960 align:start position:0%
+okay so performing all of these steps is
+ 
+
+00:01:33.960 --> 00:01:36.050 align:start position:0%
+okay so performing all of these steps is
+not<00:01:34.200><c> difficult</c><00:01:34.560><c> you</c><00:01:35.159><c> can</c><00:01:35.220><c> scan</c><00:01:35.640><c> all</c><00:01:35.880><c> these</c>
+
+00:01:36.050 --> 00:01:36.060 align:start position:0%
+not difficult you can scan all these
+ 
+
+00:01:36.060 --> 00:01:39.350 align:start position:0%
+not difficult you can scan all these
+elements<00:01:36.479><c> and</c><00:01:36.960><c> then</c><00:01:37.140><c> you</c><00:01:38.100><c> can</c><00:01:38.220><c> go</c><00:01:38.460><c> ahead</c><00:01:38.820><c> uh</c>
+
+00:01:39.350 --> 00:01:39.360 align:start position:0%
+elements and then you can go ahead uh
+ 
+
+00:01:39.360 --> 00:01:41.690 align:start position:0%
+elements and then you can go ahead uh
+doing<00:01:39.540><c> performing</c><00:01:40.320><c> all</c><00:01:40.560><c> these</c><00:01:40.740><c> steps</c><00:01:41.100><c> on</c><00:01:41.520><c> the</c>
+
+00:01:41.690 --> 00:01:41.700 align:start position:0%
+doing performing all these steps on the
+ 
+
+00:01:41.700 --> 00:01:45.350 align:start position:0%
+doing performing all these steps on the
+demo<00:01:41.939><c> website</c><00:01:42.360><c> okay</c><00:01:42.840><c> but</c><00:01:43.799><c> what</c><00:01:44.640><c> I</c><00:01:44.880><c> want</c><00:01:45.000><c> you</c><00:01:45.180><c> to</c>
+
+00:01:45.350 --> 00:01:45.360 align:start position:0%
+demo website okay but what I want you to
+ 
+
+00:01:45.360 --> 00:01:50.450 align:start position:0%
+demo website okay but what I want you to
+do<00:01:45.600><c> is</c><00:01:46.320><c> I</c><00:01:46.979><c> want</c><00:01:47.340><c> you</c><00:01:47.820><c> to</c><00:01:48.299><c> find</c><00:01:48.540><c> out</c><00:01:48.960><c> or</c><00:01:49.860><c> I</c><00:01:50.340><c> want</c>
+
+00:01:50.450 --> 00:01:50.460 align:start position:0%
+do is I want you to find out or I want
+ 
+
+00:01:50.460 --> 00:01:53.630 align:start position:0%
+do is I want you to find out or I want
+you<00:01:50.700><c> to</c><00:01:50.939><c> store</c><00:01:51.240><c> this</c><00:01:51.780><c> order</c><00:01:51.960><c> number</c><00:01:52.340><c> in</c><00:01:53.340><c> a</c>
+
+00:01:53.630 --> 00:01:53.640 align:start position:0%
+you to store this order number in a
+ 
+
+00:01:53.640 --> 00:01:56.510 align:start position:0%
+you to store this order number in a
+buffer<00:01:54.000><c> value</c><00:01:54.299><c> so</c><00:01:55.020><c> that</c><00:01:55.200><c> it</c><00:01:55.500><c> can</c><00:01:55.680><c> be</c><00:01:55.860><c> used</c><00:01:56.100><c> for</c>
+
+00:01:56.510 --> 00:01:56.520 align:start position:0%
+buffer value so that it can be used for
+ 
+
+00:01:56.520 --> 00:01:59.749 align:start position:0%
+buffer value so that it can be used for
+verification<00:01:57.119><c> purpose</c><00:01:57.840><c> okay</c><00:01:58.500><c> so</c><00:01:59.280><c> every</c><00:01:59.460><c> time</c>
+
+00:01:59.749 --> 00:01:59.759 align:start position:0%
+verification purpose okay so every time
+ 
+
+00:01:59.759 --> 00:02:02.149 align:start position:0%
+verification purpose okay so every time
+I<00:02:00.060><c> place</c><00:02:00.180><c> an</c><00:02:00.420><c> order</c><00:02:00.659><c> I</c><00:02:01.200><c> want</c><00:02:01.380><c> to</c><00:02:01.560><c> store</c><00:02:01.799><c> this</c>
+
+00:02:02.149 --> 00:02:02.159 align:start position:0%
+I place an order I want to store this
+ 
+
+00:02:02.159 --> 00:02:05.209 align:start position:0%
+I place an order I want to store this
+order<00:02:02.399><c> number</c><00:02:02.780><c> and</c><00:02:03.780><c> the</c><00:02:04.259><c> challenge</c><00:02:04.439><c> is</c><00:02:04.920><c> to</c>
+
+00:02:05.209 --> 00:02:05.219 align:start position:0%
+order number and the challenge is to
+ 
+
+00:02:05.219 --> 00:02:07.969 align:start position:0%
+order number and the challenge is to
+extract<00:02:05.640><c> this</c><00:02:06.119><c> order</c><00:02:06.299><c> number</c><00:02:06.659><c> and</c><00:02:07.320><c> store</c><00:02:07.619><c> it</c>
+
+00:02:07.969 --> 00:02:07.979 align:start position:0%
+extract this order number and store it
+ 
+
+00:02:07.979 --> 00:02:10.609 align:start position:0%
+extract this order number and store it
+in<00:02:08.280><c> a</c><00:02:08.459><c> buffer</c><00:02:08.819><c> so</c><00:02:09.420><c> that</c><00:02:09.539><c> it</c><00:02:09.720><c> can</c><00:02:09.840><c> be</c><00:02:10.020><c> used</c><00:02:10.259><c> for</c>
+
+00:02:10.609 --> 00:02:10.619 align:start position:0%
+in a buffer so that it can be used for
+ 
+
+00:02:10.619 --> 00:02:13.070 align:start position:0%
+in a buffer so that it can be used for
+verification<00:02:11.160><c> okay</c>
+
+00:02:13.070 --> 00:02:13.080 align:start position:0%
+verification okay
+ 
+
+00:02:13.080 --> 00:02:15.910 align:start position:0%
+verification okay
+so<00:02:13.560><c> this</c><00:02:13.739><c> is</c><00:02:13.860><c> the</c><00:02:14.099><c> challenge</c><00:02:14.280><c> if</c><00:02:15.120><c> you</c><00:02:15.300><c> want</c><00:02:15.540><c> to</c>
+
+00:02:15.910 --> 00:02:15.920 align:start position:0%
+so this is the challenge if you want to
+ 
+
+00:02:15.920 --> 00:02:19.010 align:start position:0%
+so this is the challenge if you want to
+resolve<00:02:16.920><c> this</c><00:02:17.220><c> problem</c><00:02:17.580><c> on</c><00:02:18.000><c> your</c><00:02:18.180><c> own</c><00:02:18.360><c> then</c>
+
+00:02:19.010 --> 00:02:19.020 align:start position:0%
+resolve this problem on your own then
+ 
+
+00:02:19.020 --> 00:02:22.309 align:start position:0%
+resolve this problem on your own then
+pause<00:02:19.319><c> the</c><00:02:19.620><c> video</c><00:02:19.860><c> and</c><00:02:20.700><c> go</c><00:02:21.000><c> ahead</c><00:02:21.239><c> and</c><00:02:21.900><c> work</c>
+
+00:02:22.309 --> 00:02:22.319 align:start position:0%
+pause the video and go ahead and work
+ 
+
+00:02:22.319 --> 00:02:25.610 align:start position:0%
+pause the video and go ahead and work
+out<00:02:22.560><c> this</c><00:02:22.920><c> Solution</c><00:02:23.400><c> on</c><00:02:23.940><c> Tosca</c><00:02:24.780><c> and</c><00:02:25.200><c> then</c><00:02:25.379><c> come</c>
+
+00:02:25.610 --> 00:02:25.620 align:start position:0%
+out this Solution on Tosca and then come
+ 
+
+00:02:25.620 --> 00:02:27.890 align:start position:0%
+out this Solution on Tosca and then come
+back<00:02:25.739><c> to</c><00:02:25.980><c> the</c><00:02:26.160><c> video</c><00:02:26.280><c> and</c><00:02:26.819><c> watch</c><00:02:27.180><c> out</c><00:02:27.360><c> what</c><00:02:27.720><c> is</c>
+
+00:02:27.890 --> 00:02:27.900 align:start position:0%
+back to the video and watch out what is
+ 
+
+00:02:27.900 --> 00:02:31.070 align:start position:0%
+back to the video and watch out what is
+the<00:02:28.080><c> solution</c><00:02:28.379><c> which</c><00:02:28.739><c> I</c><00:02:28.920><c> proposed</c><00:02:29.459><c> okay</c><00:02:30.300><c> so</c>
+
+00:02:31.070 --> 00:02:31.080 align:start position:0%
+the solution which I proposed okay so
+ 
+
+00:02:31.080 --> 00:02:33.170 align:start position:0%
+the solution which I proposed okay so
+now<00:02:31.260><c> we</c><00:02:31.560><c> understood</c><00:02:32.040><c> what</c><00:02:32.520><c> is</c><00:02:32.700><c> the</c><00:02:33.000><c> problem</c>
+
+00:02:33.170 --> 00:02:33.180 align:start position:0%
+now we understood what is the problem
+ 
+
+00:02:33.180 --> 00:02:35.809 align:start position:0%
+now we understood what is the problem
+but<00:02:34.020><c> let's</c><00:02:34.379><c> see</c><00:02:34.560><c> what</c><00:02:34.800><c> is</c><00:02:34.980><c> the</c><00:02:35.160><c> solution</c><00:02:35.459><c> for</c>
+
+00:02:35.809 --> 00:02:35.819 align:start position:0%
+but let's see what is the solution for
+ 
+
+00:02:35.819 --> 00:02:38.030 align:start position:0%
+but let's see what is the solution for
+this<00:02:36.000><c> okay</c><00:02:36.360><c> so</c><00:02:36.959><c> there</c><00:02:37.260><c> are</c><00:02:37.440><c> basically</c><00:02:37.739><c> two</c>
+
+00:02:38.030 --> 00:02:38.040 align:start position:0%
+this okay so there are basically two
+ 
+
+00:02:38.040 --> 00:02:41.990 align:start position:0%
+this okay so there are basically two
+steps<00:02:38.520><c> first</c><00:02:39.000><c> we</c><00:02:39.780><c> need</c><00:02:40.020><c> to</c><00:02:40.379><c> uh</c>
+
+00:02:41.990 --> 00:02:42.000 align:start position:0%
+steps first we need to uh
+ 
+
+00:02:42.000 --> 00:02:44.509 align:start position:0%
+steps first we need to uh
+first<00:02:42.660><c> we</c><00:02:43.080><c> need</c><00:02:43.260><c> to</c><00:02:43.440><c> extract</c><00:02:43.860><c> this</c><00:02:44.220><c> particular</c>
+
+00:02:44.509 --> 00:02:44.519 align:start position:0%
+first we need to extract this particular
+ 
+
+00:02:44.519 --> 00:02:47.750 align:start position:0%
+first we need to extract this particular
+value<00:02:44.760><c> or</c><00:02:45.300><c> this</c><00:02:45.540><c> order</c><00:02:45.720><c> number</c><00:02:46.080><c> from</c><00:02:46.800><c> here</c><00:02:47.040><c> and</c>
+
+00:02:47.750 --> 00:02:47.760 align:start position:0%
+value or this order number from here and
+ 
+
+00:02:47.760 --> 00:02:49.850 align:start position:0%
+value or this order number from here and
+then<00:02:47.879><c> we</c><00:02:48.239><c> need</c><00:02:48.360><c> to</c><00:02:48.540><c> store</c><00:02:48.780><c> it</c><00:02:49.019><c> as</c><00:02:49.319><c> a</c><00:02:49.500><c> buffer</c>
+
+00:02:49.850 --> 00:02:49.860 align:start position:0%
+then we need to store it as a buffer
+ 
+
+00:02:49.860 --> 00:02:51.229 align:start position:0%
+then we need to store it as a buffer
+okay
+
+00:02:51.229 --> 00:02:51.239 align:start position:0%
+okay
+ 
+
+00:02:51.239 --> 00:02:54.350 align:start position:0%
+okay
+so<00:02:51.720><c> for</c><00:02:52.080><c> this</c><00:02:52.319><c> I</c><00:02:52.800><c> have</c><00:02:52.980><c> already</c><00:02:53.280><c> prepared</c><00:02:53.879><c> a</c>
+
+00:02:54.350 --> 00:02:54.360 align:start position:0%
+so for this I have already prepared a
+ 
+
+00:02:54.360 --> 00:02:56.930 align:start position:0%
+so for this I have already prepared a
+module<00:02:54.840><c> okay</c><00:02:55.260><c> so</c><00:02:55.980><c> basically</c><00:02:56.280><c> I've</c><00:02:56.519><c> scanned</c>
+
+00:02:56.930 --> 00:02:56.940 align:start position:0%
+module okay so basically I've scanned
+ 
+
+00:02:56.940 --> 00:02:58.729 align:start position:0%
+module okay so basically I've scanned
+the<00:02:57.239><c> elements</c><00:02:57.720><c> which</c><00:02:57.900><c> are</c><00:02:58.080><c> present</c><00:02:58.379><c> on</c><00:02:58.620><c> this</c>
+
+00:02:58.729 --> 00:02:58.739 align:start position:0%
+the elements which are present on this
+ 
+
+00:02:58.739 --> 00:03:01.490 align:start position:0%
+the elements which are present on this
+page<00:02:59.060><c> and</c><00:03:00.060><c> this</c><00:03:00.480><c> is</c><00:03:00.540><c> the</c><00:03:00.720><c> module</c><00:03:01.019><c> which</c><00:03:01.260><c> I</c><00:03:01.379><c> have</c>
+
+00:03:01.490 --> 00:03:01.500 align:start position:0%
+page and this is the module which I have
+ 
+
+00:03:01.500 --> 00:03:06.170 align:start position:0%
+page and this is the module which I have
+created<00:03:01.800><c> okay</c><00:03:02.540><c> so</c><00:03:03.540><c> you</c><00:03:04.140><c> can</c><00:03:04.200><c> see</c><00:03:04.440><c> here</c><00:03:04.739><c> that</c><00:03:05.459><c> I</c>
+
+00:03:06.170 --> 00:03:06.180 align:start position:0%
+created okay so you can see here that I
+ 
+
+00:03:06.180 --> 00:03:08.570 align:start position:0%
+created okay so you can see here that I
+have<00:03:06.239><c> got</c><00:03:06.540><c> one</c><00:03:06.959><c> for</c><00:03:07.140><c> Success</c><00:03:07.620><c> message</c><00:03:07.860><c> for</c>
+
+00:03:08.570 --> 00:03:08.580 align:start position:0%
+have got one for Success message for
+ 
+
+00:03:08.580 --> 00:03:11.330 align:start position:0%
+have got one for Success message for
+order<00:03:08.879><c> number</c><00:03:09.180><c> okay</c><00:03:09.720><c> and</c><00:03:10.560><c> if</c><00:03:10.739><c> you</c><00:03:10.860><c> look</c><00:03:10.980><c> at</c><00:03:11.159><c> the</c>
+
+00:03:11.330 --> 00:03:11.340 align:start position:0%
+order number okay and if you look at the
+ 
+
+00:03:11.340 --> 00:03:13.430 align:start position:0%
+order number okay and if you look at the
+properties<00:03:11.760><c> uh</c><00:03:12.360><c> one</c><00:03:12.599><c> important</c><00:03:12.959><c> thing</c><00:03:13.200><c> which</c>
+
+00:03:13.430 --> 00:03:13.440 align:start position:0%
+properties uh one important thing which
+ 
+
+00:03:13.440 --> 00:03:16.070 align:start position:0%
+properties uh one important thing which
+I<00:03:13.620><c> have</c><00:03:13.800><c> done</c><00:03:13.980><c> here</c><00:03:14.340><c> is</c><00:03:14.819><c> I</c><00:03:15.180><c> am</c><00:03:15.360><c> not</c><00:03:15.480><c> capturing</c>
+
+00:03:16.070 --> 00:03:16.080 align:start position:0%
+I have done here is I am not capturing
+ 
+
+00:03:16.080 --> 00:03:18.770 align:start position:0%
+I have done here is I am not capturing
+the<00:03:16.620><c> complete</c><00:03:17.040><c> text</c><00:03:17.220><c> because</c><00:03:18.120><c> the</c><00:03:18.659><c> order</c>
+
+00:03:18.770 --> 00:03:18.780 align:start position:0%
+the complete text because the order
+ 
+
+00:03:18.780 --> 00:03:21.530 align:start position:0%
+the complete text because the order
+number<00:03:19.140><c> is</c><00:03:19.500><c> dynamic</c><00:03:20.040><c> right</c><00:03:20.340><c> so</c><00:03:20.940><c> this</c><00:03:21.300><c> order</c>
+
+00:03:21.530 --> 00:03:21.540 align:start position:0%
+number is dynamic right so this order
+ 
+
+00:03:21.540 --> 00:03:23.930 align:start position:0%
+number is dynamic right so this order
+number<00:03:21.900><c> will</c><00:03:22.379><c> be</c><00:03:22.560><c> changing</c><00:03:22.980><c> whenever</c><00:03:23.700><c> we</c>
+
+00:03:23.930 --> 00:03:23.940 align:start position:0%
+number will be changing whenever we
+ 
+
+00:03:23.940 --> 00:03:26.869 align:start position:0%
+number will be changing whenever we
+place<00:03:24.180><c> a</c><00:03:24.360><c> new</c><00:03:24.480><c> order</c><00:03:24.659><c> and</c><00:03:25.560><c> that's</c><00:03:25.739><c> why</c><00:03:25.980><c> I</c><00:03:26.760><c> have</c>
+
+00:03:26.869 --> 00:03:26.879 align:start position:0%
+place a new order and that's why I have
+ 
+
+00:03:26.879 --> 00:03:29.690 align:start position:0%
+place a new order and that's why I have
+used<00:03:27.180><c> regular</c><00:03:27.659><c> expression</c><00:03:28.200><c> here</c><00:03:28.440><c> okay</c><00:03:28.980><c> in</c><00:03:29.519><c> the</c>
+
+00:03:29.690 --> 00:03:29.700 align:start position:0%
+used regular expression here okay in the
+ 
+
+00:03:29.700 --> 00:03:32.270 align:start position:0%
+used regular expression here okay in the
+visible<00:03:30.000><c> in</c><00:03:30.239><c> a</c><00:03:30.480><c> text</c><00:03:30.659><c> so</c><00:03:31.260><c> order</c><00:03:31.500><c> number</c><00:03:31.860><c> and</c>
+
+00:03:32.270 --> 00:03:32.280 align:start position:0%
+visible in a text so order number and
+ 
+
+00:03:32.280 --> 00:03:35.210 align:start position:0%
+visible in a text so order number and
+followed<00:03:32.760><c> by</c><00:03:33.000><c> asterisk</c><00:03:33.599><c> which</c><00:03:33.780><c> will</c><00:03:34.019><c> be</c><00:03:34.260><c> uh</c>
+
+00:03:35.210 --> 00:03:35.220 align:start position:0%
+followed by asterisk which will be uh
+ 
+
+00:03:35.220 --> 00:03:36.949 align:start position:0%
+followed by asterisk which will be uh
+which<00:03:35.519><c> will</c><00:03:35.640><c> work</c><00:03:35.940><c> for</c><00:03:36.239><c> any</c><00:03:36.420><c> order</c><00:03:36.659><c> number</c>
+
+00:03:36.949 --> 00:03:36.959 align:start position:0%
+which will work for any order number
+ 
+
+00:03:36.959 --> 00:03:39.229 align:start position:0%
+which will work for any order number
+okay<00:03:37.440><c> so</c><00:03:37.739><c> whatever</c><00:03:37.920><c> text</c><00:03:38.340><c> is</c><00:03:38.700><c> after</c><00:03:38.879><c> the</c><00:03:39.120><c> order</c>
+
+00:03:39.229 --> 00:03:39.239 align:start position:0%
+okay so whatever text is after the order
+ 
+
+00:03:39.239 --> 00:03:41.570 align:start position:0%
+okay so whatever text is after the order
+number<00:03:39.540><c> that</c><00:03:40.319><c> doesn't</c><00:03:40.440><c> matter</c><00:03:40.739><c> because</c><00:03:41.340><c> of</c>
+
+00:03:41.570 --> 00:03:41.580 align:start position:0%
+number that doesn't matter because of
+ 
+
+00:03:41.580 --> 00:03:43.550 align:start position:0%
+number that doesn't matter because of
+this<00:03:41.760><c> regular</c><00:03:42.120><c> expression</c><00:03:42.599><c> on</c><00:03:42.959><c> my</c><00:03:43.140><c> inner</c><00:03:43.440><c> text</c>
+
+00:03:43.550 --> 00:03:43.560 align:start position:0%
+this regular expression on my inner text
+ 
+
+00:03:43.560 --> 00:03:46.369 align:start position:0%
+this regular expression on my inner text
+so<00:03:44.280><c> it</c><00:03:44.400><c> will</c><00:03:44.519><c> be</c><00:03:44.700><c> able</c><00:03:45.000><c> to</c><00:03:45.120><c> identify</c><00:03:45.840><c> this</c>
+
+00:03:46.369 --> 00:03:46.379 align:start position:0%
+so it will be able to identify this
+ 
+
+00:03:46.379 --> 00:03:49.250 align:start position:0%
+so it will be able to identify this
+particular<00:03:46.620><c> element</c><00:03:47.060><c> uh</c><00:03:48.060><c> be</c><00:03:48.780><c> it</c><00:03:48.959><c> for</c><00:03:49.080><c> any</c>
+
+00:03:49.250 --> 00:03:49.260 align:start position:0%
+particular element uh be it for any
+ 
+
+00:03:49.260 --> 00:03:51.170 align:start position:0%
+particular element uh be it for any
+order<00:03:49.440><c> number</c><00:03:49.799><c> okay</c><00:03:50.099><c> so</c><00:03:50.459><c> that's</c><00:03:50.640><c> the</c><00:03:50.940><c> only</c>
+
+00:03:51.170 --> 00:03:51.180 align:start position:0%
+order number okay so that's the only
+ 
+
+00:03:51.180 --> 00:03:54.110 align:start position:0%
+order number okay so that's the only
+important<00:03:51.959><c> thing</c><00:03:52.459><c> while</c><00:03:53.459><c> you</c><00:03:53.640><c> are</c><00:03:53.819><c> scanning</c>
+
+00:03:54.110 --> 00:03:54.120 align:start position:0%
+important thing while you are scanning
+ 
+
+00:03:54.120 --> 00:03:55.910 align:start position:0%
+important thing while you are scanning
+your<00:03:54.239><c> module</c><00:03:54.599><c> you</c><00:03:54.780><c> should</c><00:03:54.959><c> take</c><00:03:55.140><c> care</c><00:03:55.379><c> of</c><00:03:55.500><c> okay</c>
+
+00:03:55.910 --> 00:03:55.920 align:start position:0%
+your module you should take care of okay
+ 
+
+00:03:55.920 --> 00:03:58.369 align:start position:0%
+your module you should take care of okay
+rest<00:03:56.519><c> of</c><00:03:56.700><c> the</c><00:03:56.819><c> things</c><00:03:57.000><c> this</c><00:03:57.540><c> is</c><00:03:57.659><c> a</c><00:03:57.780><c> link</c><00:03:57.959><c> this</c>
+
+00:03:58.369 --> 00:03:58.379 align:start position:0%
+rest of the things this is a link this
+ 
+
+00:03:58.379 --> 00:04:00.890 align:start position:0%
+rest of the things this is a link this
+is<00:03:58.500><c> a</c><00:03:58.620><c> button</c><00:03:58.980><c> okay</c><00:03:59.280><c> so</c><00:03:59.700><c> this</c><00:04:00.239><c> will</c><00:04:00.360><c> be</c><00:04:00.480><c> scanned</c>
+
+00:04:00.890 --> 00:04:00.900 align:start position:0%
+is a button okay so this will be scanned
+ 
+
+00:04:00.900 --> 00:04:03.890 align:start position:0%
+is a button okay so this will be scanned
+easily<00:04:01.319><c> by</c><00:04:01.860><c> Tosca</c><00:04:02.340><c> and</c><00:04:02.940><c> able</c><00:04:03.239><c> to</c><00:04:03.360><c> identify</c>
+
+00:04:03.890 --> 00:04:03.900 align:start position:0%
+easily by Tosca and able to identify
+ 
+
+00:04:03.900 --> 00:04:06.050 align:start position:0%
+easily by Tosca and able to identify
+uniquely<00:04:04.379><c> as</c><00:04:04.680><c> well</c><00:04:04.799><c> you</c><00:04:05.280><c> just</c><00:04:05.400><c> need</c><00:04:05.580><c> to</c><00:04:05.819><c> take</c>
+
+00:04:06.050 --> 00:04:06.060 align:start position:0%
+uniquely as well you just need to take
+ 
+
+00:04:06.060 --> 00:04:09.110 align:start position:0%
+uniquely as well you just need to take
+care<00:04:06.239><c> of</c><00:04:06.540><c> this</c><00:04:07.019><c> order</c><00:04:07.319><c> number</c><00:04:07.620><c> text</c><00:04:07.980><c> which</c><00:04:08.879><c> is</c>
+
+00:04:09.110 --> 00:04:09.120 align:start position:0%
+care of this order number text which is
+ 
+
+00:04:09.120 --> 00:04:12.949 align:start position:0%
+care of this order number text which is
+a<00:04:09.659><c> tag</c><00:04:10.080><c> Li</c><00:04:10.500><c> element</c><00:04:10.920><c> okay</c>
+
+00:04:12.949 --> 00:04:12.959 align:start position:0%
+a tag Li element okay
+ 
+
+00:04:12.959 --> 00:04:15.649 align:start position:0%
+a tag Li element okay
+so<00:04:13.379><c> once</c><00:04:13.620><c> you</c><00:04:13.680><c> do</c><00:04:13.860><c> that</c><00:04:14.239><c> I</c><00:04:15.239><c> have</c><00:04:15.299><c> created</c>
+
+00:04:15.649 --> 00:04:15.659 align:start position:0%
+so once you do that I have created
+ 
+
+00:04:15.659 --> 00:04:18.349 align:start position:0%
+so once you do that I have created
+already<00:04:16.019><c> a</c><00:04:16.380><c> test</c><00:04:16.560><c> case</c><00:04:16.799><c> here</c><00:04:17.100><c> okay</c><00:04:17.579><c> find</c><00:04:18.000><c> order</c>
+
+00:04:18.349 --> 00:04:18.359 align:start position:0%
+already a test case here okay find order
+ 
+
+00:04:18.359 --> 00:04:21.590 align:start position:0%
+already a test case here okay find order
+number<00:04:18.739><c> and</c><00:04:19.739><c> what</c><00:04:19.919><c> I'm</c><00:04:20.100><c> going</c><00:04:20.220><c> to</c><00:04:20.400><c> do</c><00:04:20.579><c> here</c><00:04:20.880><c> is</c>
+
+00:04:21.590 --> 00:04:21.600 align:start position:0%
+number and what I'm going to do here is
+ 
+
+00:04:21.600 --> 00:04:24.350 align:start position:0%
+number and what I'm going to do here is
+I'm<00:04:22.019><c> going</c><00:04:22.320><c> to</c><00:04:22.620><c> drag</c><00:04:22.860><c> this</c><00:04:23.220><c> module</c><00:04:23.580><c> here</c><00:04:23.880><c> okay</c>
+
+00:04:24.350 --> 00:04:24.360 align:start position:0%
+I'm going to drag this module here okay
+ 
+
+00:04:24.360 --> 00:04:28.610 align:start position:0%
+I'm going to drag this module here okay
+and<00:04:25.259><c> first</c><00:04:25.580><c> I'm</c><00:04:26.580><c> going</c><00:04:26.880><c> to</c><00:04:27.240><c> buffer</c><00:04:28.020><c> the</c><00:04:28.440><c> order</c>
+
+00:04:28.610 --> 00:04:28.620 align:start position:0%
+and first I'm going to buffer the order
+ 
+
+00:04:28.620 --> 00:04:30.290 align:start position:0%
+and first I'm going to buffer the order
+number<00:04:28.979><c> okay</c>
+
+00:04:30.290 --> 00:04:30.300 align:start position:0%
+number okay
+ 
+
+00:04:30.300 --> 00:04:35.090 align:start position:0%
+number okay
+now<00:04:31.340><c> although</c><00:04:32.340><c> I</c><00:04:32.759><c> cannot</c><00:04:33.240><c> extract</c><00:04:34.020><c> the</c><00:04:34.919><c> order</c>
+
+00:04:35.090 --> 00:04:35.100 align:start position:0%
+now although I cannot extract the order
+ 
+
+00:04:35.100 --> 00:04:37.430 align:start position:0%
+now although I cannot extract the order
+number<00:04:35.460><c> directly</c><00:04:36.000><c> here</c><00:04:36.240><c> I</c><00:04:36.720><c> will</c><00:04:36.900><c> show</c><00:04:37.020><c> you</c><00:04:37.199><c> why</c>
+
+00:04:37.430 --> 00:04:37.440 align:start position:0%
+number directly here I will show you why
+ 
+
+00:04:37.440 --> 00:04:41.030 align:start position:0%
+number directly here I will show you why
+okay<00:04:38.240><c> so</c><00:04:39.240><c> here</c><00:04:39.780><c> we</c><00:04:40.199><c> need</c><00:04:40.380><c> to</c><00:04:40.440><c> buffer</c><00:04:40.800><c> the</c><00:04:40.919><c> order</c>
+
+00:04:41.030 --> 00:04:41.040 align:start position:0%
+okay so here we need to buffer the order
+ 
+
+00:04:41.040 --> 00:04:44.390 align:start position:0%
+okay so here we need to buffer the order
+number<00:04:41.340><c> so</c><00:04:41.880><c> this</c><00:04:42.180><c> is</c><00:04:42.360><c> the</c><00:04:42.900><c> element</c><00:04:43.020><c> which</c><00:04:43.560><c> gets</c>
+
+00:04:44.390 --> 00:04:44.400 align:start position:0%
+number so this is the element which gets
+ 
+
+00:04:44.400 --> 00:04:46.610 align:start position:0%
+number so this is the element which gets
+the<00:04:44.460><c> order</c><00:04:44.639><c> number</c><00:04:44.940><c> for</c><00:04:45.180><c> us</c><00:04:45.360><c> okay</c>
+
+00:04:46.610 --> 00:04:46.620 align:start position:0%
+the order number for us okay
+ 
+
+00:04:46.620 --> 00:04:50.270 align:start position:0%
+the order number for us okay
+but<00:04:47.280><c> the</c><00:04:48.000><c> problem</c><00:04:48.180><c> is</c><00:04:48.479><c> it</c><00:04:48.900><c> contains</c><00:04:49.440><c> the</c><00:04:50.040><c> text</c>
+
+00:04:50.270 --> 00:04:50.280 align:start position:0%
+but the problem is it contains the text
+ 
+
+00:04:50.280 --> 00:04:54.230 align:start position:0%
+but the problem is it contains the text
+as<00:04:51.000><c> order</c><00:04:51.720><c> number</c><00:04:52.080><c> and</c><00:04:52.620><c> then</c><00:04:52.860><c> which</c><00:04:53.820><c> is</c><00:04:53.940><c> the</c>
+
+00:04:54.230 --> 00:04:54.240 align:start position:0%
+as order number and then which is the
+ 
+
+00:04:54.240 --> 00:04:57.110 align:start position:0%
+as order number and then which is the
+text<00:04:54.419><c> and</c><00:04:55.020><c> then</c><00:04:55.139><c> the</c><00:04:55.440><c> number</c><00:04:55.620><c> okay</c><00:04:56.100><c> so</c><00:04:56.820><c> you</c>
+
+00:04:57.110 --> 00:04:57.120 align:start position:0%
+text and then the number okay so you
+ 
+
+00:04:57.120 --> 00:04:59.810 align:start position:0%
+text and then the number okay so you
+will<00:04:57.300><c> not</c><00:04:57.540><c> get</c><00:04:57.960><c> the</c><00:04:58.259><c> number</c><00:04:58.440><c> directly</c>
+
+00:04:59.810 --> 00:04:59.820 align:start position:0%
+will not get the number directly
+ 
+
+00:04:59.820 --> 00:05:01.550 align:start position:0%
+will not get the number directly
+um<00:04:59.880><c> you</c><00:05:00.120><c> cannot</c><00:05:00.360><c> buffer</c><00:05:00.780><c> the</c><00:05:00.960><c> number</c><00:05:01.080><c> directly</c>
+
+00:05:01.550 --> 00:05:01.560 align:start position:0%
+um you cannot buffer the number directly
+ 
+
+00:05:01.560 --> 00:05:04.430 align:start position:0%
+um you cannot buffer the number directly
+because<00:05:01.800><c> everything</c><00:05:02.699><c> is</c><00:05:03.360><c> in</c><00:05:03.840><c> one</c><00:05:04.080><c> single</c>
+
+00:05:04.430 --> 00:05:04.440 align:start position:0%
+because everything is in one single
+ 
+
+00:05:04.440 --> 00:05:08.090 align:start position:0%
+because everything is in one single
+element<00:05:04.680><c> okay</c><00:05:05.400><c> so</c><00:05:06.000><c> we</c><00:05:06.180><c> have</c><00:05:06.300><c> to</c><00:05:06.540><c> somehow</c><00:05:07.100><c> break</c>
+
+00:05:08.090 --> 00:05:08.100 align:start position:0%
+element okay so we have to somehow break
+ 
+
+00:05:08.100 --> 00:05:11.090 align:start position:0%
+element okay so we have to somehow break
+this<00:05:08.460><c> and</c><00:05:09.060><c> get</c><00:05:09.300><c> only</c><00:05:09.600><c> the</c><00:05:09.960><c> number</c><00:05:10.139><c> from</c><00:05:10.800><c> this</c>
+
+00:05:11.090 --> 00:05:11.100 align:start position:0%
+this and get only the number from this
+ 
+
+00:05:11.100 --> 00:05:13.550 align:start position:0%
+this and get only the number from this
+particular<00:05:11.400><c> text</c><00:05:11.699><c> okay</c>
+
+00:05:13.550 --> 00:05:13.560 align:start position:0%
+particular text okay
+ 
+
+00:05:13.560 --> 00:05:16.790 align:start position:0%
+particular text okay
+so<00:05:14.340><c> first</c><00:05:14.759><c> let's</c><00:05:15.180><c> get</c><00:05:15.600><c> the</c><00:05:15.900><c> whole</c><00:05:16.080><c> text</c><00:05:16.380><c> and</c>
+
+00:05:16.790 --> 00:05:16.800 align:start position:0%
+so first let's get the whole text and
+ 
+
+00:05:16.800 --> 00:05:18.170 align:start position:0%
+so first let's get the whole text and
+then<00:05:16.979><c> we</c><00:05:17.100><c> will</c><00:05:17.220><c> see</c><00:05:17.400><c> how</c><00:05:17.580><c> we</c><00:05:17.699><c> can</c><00:05:17.820><c> break</c><00:05:18.000><c> it</c>
+
+00:05:18.170 --> 00:05:18.180 align:start position:0%
+then we will see how we can break it
+ 
+
+00:05:18.180 --> 00:05:21.110 align:start position:0%
+then we will see how we can break it
+down<00:05:18.419><c> and</c><00:05:18.900><c> just</c><00:05:19.080><c> get</c><00:05:19.320><c> the</c><00:05:19.560><c> number</c><00:05:19.740><c> okay</c>
+
+00:05:21.110 --> 00:05:21.120 align:start position:0%
+down and just get the number okay
+ 
+
+00:05:21.120 --> 00:05:24.469 align:start position:0%
+down and just get the number okay
+so<00:05:21.600><c> here</c><00:05:21.960><c> uh</c><00:05:22.320><c> what</c><00:05:22.560><c> I'm</c><00:05:22.800><c> going</c><00:05:22.979><c> to</c><00:05:23.160><c> do</c><00:05:23.400><c> is</c><00:05:24.180><c> I'm</c>
+
+00:05:24.469 --> 00:05:24.479 align:start position:0%
+so here uh what I'm going to do is I'm
+ 
+
+00:05:24.479 --> 00:05:26.510 align:start position:0%
+so here uh what I'm going to do is I'm
+going<00:05:24.720><c> to</c><00:05:24.840><c> change</c><00:05:25.199><c> the</c><00:05:25.620><c> action</c><00:05:25.800><c> mode</c><00:05:26.100><c> to</c>
+
+00:05:26.510 --> 00:05:26.520 align:start position:0%
+going to change the action mode to
+ 
+
+00:05:26.520 --> 00:05:28.189 align:start position:0%
+going to change the action mode to
+buffer<00:05:26.940><c> because</c><00:05:27.180><c> I</c><00:05:27.419><c> want</c><00:05:27.539><c> to</c><00:05:27.660><c> buffer</c><00:05:28.020><c> this</c>
+
+00:05:28.189 --> 00:05:28.199 align:start position:0%
+buffer because I want to buffer this
+ 
+
+00:05:28.199 --> 00:05:29.450 align:start position:0%
+buffer because I want to buffer this
+okay
+
+00:05:29.450 --> 00:05:29.460 align:start position:0%
+okay
+ 
+
+00:05:29.460 --> 00:05:32.990 align:start position:0%
+okay
+and<00:05:30.180><c> then</c><00:05:30.900><c> um</c><00:05:30.900><c> what</c><00:05:31.139><c> I'm</c><00:05:31.320><c> going</c><00:05:31.440><c> to</c><00:05:31.620><c> do</c><00:05:31.800><c> is</c><00:05:32.580><c> I'm</c>
+
+00:05:32.990 --> 00:05:33.000 align:start position:0%
+and then um what I'm going to do is I'm
+ 
+
+00:05:33.000 --> 00:05:34.490 align:start position:0%
+and then um what I'm going to do is I'm
+going<00:05:33.240><c> to</c><00:05:33.600><c> say</c>
+
+00:05:34.490 --> 00:05:34.500 align:start position:0%
+going to say
+ 
+
+00:05:34.500 --> 00:05:37.930 align:start position:0%
+going to say
+uh<00:05:35.039><c> buffer</c><00:05:35.460><c> the</c><00:05:35.820><c> inner</c><00:05:36.180><c> text</c><00:05:36.360><c> okay</c>
+
+00:05:37.930 --> 00:05:37.940 align:start position:0%
+uh buffer the inner text okay
+ 
+
+00:05:37.940 --> 00:05:40.550 align:start position:0%
+uh buffer the inner text okay
+and<00:05:38.940><c> to</c><00:05:39.479><c> the</c><00:05:39.720><c> value</c>
+
+00:05:40.550 --> 00:05:40.560 align:start position:0%
+and to the value
+ 
+
+00:05:40.560 --> 00:05:44.629 align:start position:0%
+and to the value
+so<00:05:41.340><c> that</c><00:05:41.699><c> will</c><00:05:41.820><c> be</c><00:05:42.000><c> B</c><00:05:42.240><c> underscore</c><00:05:43.020><c> order</c>
+
+00:05:44.629 --> 00:05:44.639 align:start position:0%
+so that will be B underscore order
+ 
+
+00:05:44.639 --> 00:05:49.249 align:start position:0%
+so that will be B underscore order
+okay<00:05:45.539><c> so</c><00:05:46.199><c> it</c><00:05:46.979><c> will</c><00:05:47.280><c> buffer</c><00:05:48.120><c> the</c><00:05:48.360><c> value</c><00:05:48.539><c> of</c><00:05:49.080><c> this</c>
+
+00:05:49.249 --> 00:05:49.259 align:start position:0%
+okay so it will buffer the value of this
+ 
+
+00:05:49.259 --> 00:05:52.370 align:start position:0%
+okay so it will buffer the value of this
+particular<00:05:49.620><c> element</c><00:05:50.220><c> into</c><00:05:50.940><c> the</c><00:05:51.720><c> buffer</c><00:05:52.080><c> B</c>
+
+00:05:52.370 --> 00:05:52.380 align:start position:0%
+particular element into the buffer B
+ 
+
+00:05:52.380 --> 00:05:55.010 align:start position:0%
+particular element into the buffer B
+underscore<00:05:52.919><c> order</c><00:05:53.220><c> right</c><00:05:53.820><c> so</c><00:05:54.660><c> that</c><00:05:54.840><c> will</c>
+
+00:05:55.010 --> 00:05:55.020 align:start position:0%
+underscore order right so that will
+ 
+
+00:05:55.020 --> 00:05:56.629 align:start position:0%
+underscore order right so that will
+buffer<00:05:55.440><c> the</c><00:05:55.800><c> value</c>
+
+00:05:56.629 --> 00:05:56.639 align:start position:0%
+buffer the value
+ 
+
+00:05:56.639 --> 00:06:00.110 align:start position:0%
+buffer the value
+and<00:05:57.360><c> let's</c><00:05:57.660><c> go</c><00:05:57.960><c> ahead</c><00:05:58.259><c> and</c><00:05:58.800><c> check</c><00:05:59.220><c> this</c><00:05:59.520><c> first</c>
+
+00:06:00.110 --> 00:06:00.120 align:start position:0%
+and let's go ahead and check this first
+ 
+
+00:06:00.120 --> 00:06:05.810 align:start position:0%
+and let's go ahead and check this first
+okay<00:06:00.600><c> let's</c><00:06:01.199><c> see</c><00:06:01.440><c> what</c><00:06:01.620><c> it</c><00:06:01.800><c> is</c><00:06:01.919><c> buffering</c>
+
+00:06:05.810 --> 00:06:05.820 align:start position:0%
+ 
+ 
+
+00:06:05.820 --> 00:06:07.909 align:start position:0%
+ 
+okay<00:06:06.300><c> you</c><00:06:06.660><c> can</c><00:06:06.780><c> see</c><00:06:07.020><c> uh</c><00:06:07.320><c> the</c><00:06:07.560><c> step</c><00:06:07.740><c> was</c>
+
+00:06:07.909 --> 00:06:07.919 align:start position:0%
+okay you can see uh the step was
+ 
+
+00:06:07.919 --> 00:06:11.689 align:start position:0%
+okay you can see uh the step was
+successful<00:06:08.660><c> and</c><00:06:09.660><c> the</c><00:06:10.380><c> buffer</c><00:06:10.740><c> with</c><00:06:10.979><c> name</c><00:06:11.280><c> B</c>
+
+00:06:11.689 --> 00:06:11.699 align:start position:0%
+successful and the buffer with name B
+ 
+
+00:06:11.699 --> 00:06:14.029 align:start position:0%
+successful and the buffer with name B
+underscore<00:06:12.240><c> order</c><00:06:12.479><c> has</c><00:06:13.020><c> been</c><00:06:13.199><c> set</c><00:06:13.440><c> to</c><00:06:13.800><c> value</c>
+
+00:06:14.029 --> 00:06:14.039 align:start position:0%
+underscore order has been set to value
+ 
+
+00:06:14.039 --> 00:06:16.189 align:start position:0%
+underscore order has been set to value
+now<00:06:15.000><c> you</c><00:06:15.180><c> can</c><00:06:15.300><c> see</c><00:06:15.479><c> here</c><00:06:15.660><c> there</c><00:06:15.900><c> are</c><00:06:16.020><c> two</c>
+
+00:06:16.189 --> 00:06:16.199 align:start position:0%
+now you can see here there are two
+ 
+
+00:06:16.199 --> 00:06:19.010 align:start position:0%
+now you can see here there are two
+problems<00:06:16.620><c> one</c><00:06:17.460><c> uh</c><00:06:17.820><c> it</c><00:06:18.060><c> has</c><00:06:18.180><c> got</c><00:06:18.419><c> the</c><00:06:18.900><c> whole</c>
+
+00:06:19.010 --> 00:06:19.020 align:start position:0%
+problems one uh it has got the whole
+ 
+
+00:06:19.020 --> 00:06:21.189 align:start position:0%
+problems one uh it has got the whole
+text<00:06:19.320><c> which</c><00:06:19.740><c> is</c><00:06:19.860><c> order</c><00:06:20.039><c> number</c><00:06:20.460><c> and</c><00:06:20.880><c> then</c>
+
+00:06:21.189 --> 00:06:21.199 align:start position:0%
+text which is order number and then
+ 
+
+00:06:21.199 --> 00:06:23.749 align:start position:0%
+text which is order number and then
+cologne<00:06:22.199><c> and</c><00:06:22.500><c> then</c><00:06:22.620><c> the</c><00:06:22.860><c> order</c><00:06:22.979><c> number</c><00:06:23.280><c> right</c>
+
+00:06:23.749 --> 00:06:23.759 align:start position:0%
+cologne and then the order number right
+ 
+
+00:06:23.759 --> 00:06:27.590 align:start position:0%
+cologne and then the order number right
+the<00:06:24.180><c> actual</c><00:06:24.419><c> number</c><00:06:24.660><c> which</c><00:06:25.620><c> we</c><00:06:26.220><c> want</c><00:06:26.520><c> for</c><00:06:27.240><c> our</c>
+
+00:06:27.590 --> 00:06:27.600 align:start position:0%
+the actual number which we want for our
+ 
+
+00:06:27.600 --> 00:06:30.290 align:start position:0%
+the actual number which we want for our
+purpose<00:06:28.380><c> or</c><00:06:28.860><c> which</c><00:06:29.280><c> we</c><00:06:29.520><c> want</c>
+
+00:06:30.290 --> 00:06:30.300 align:start position:0%
+purpose or which we want
+ 
+
+00:06:30.300 --> 00:06:32.570 align:start position:0%
+purpose or which we want
+um<00:06:30.360><c> to</c><00:06:30.780><c> store</c><00:06:30.960><c> as</c><00:06:31.380><c> a</c><00:06:31.560><c> buffer</c><00:06:31.919><c> for</c><00:06:32.400><c> our</c>
+
+00:06:32.570 --> 00:06:32.580 align:start position:0%
+um to store as a buffer for our
+ 
+
+00:06:32.580 --> 00:06:34.909 align:start position:0%
+um to store as a buffer for our
+verification<00:06:33.060><c> purpose</c><00:06:33.600><c> right</c><00:06:33.960><c> the</c><00:06:34.800><c> other</c>
+
+00:06:34.909 --> 00:06:34.919 align:start position:0%
+verification purpose right the other
+ 
+
+00:06:34.919 --> 00:06:37.550 align:start position:0%
+verification purpose right the other
+problem<00:06:35.280><c> is</c><00:06:36.060><c> you</c><00:06:36.240><c> can</c><00:06:36.360><c> see</c><00:06:36.479><c> there</c><00:06:36.840><c> is</c><00:06:37.020><c> lot</c><00:06:37.319><c> of</c>
+
+00:06:37.550 --> 00:06:37.560 align:start position:0%
+problem is you can see there is lot of
+ 
+
+00:06:37.560 --> 00:06:41.210 align:start position:0%
+problem is you can see there is lot of
+white<00:06:37.800><c> space</c><00:06:38.100><c> before</c><00:06:39.000><c> and</c><00:06:39.660><c> after</c><00:06:40.139><c> uh</c><00:06:40.919><c> this</c>
+
+00:06:41.210 --> 00:06:41.220 align:start position:0%
+white space before and after uh this
+ 
+
+00:06:41.220 --> 00:06:45.950 align:start position:0%
+white space before and after uh this
+text<00:06:41.400><c> okay</c><00:06:42.240><c> so</c><00:06:43.020><c> we</c><00:06:43.259><c> also</c><00:06:43.560><c> need</c><00:06:43.740><c> to</c><00:06:43.919><c> get</c><00:06:44.360><c> rid</c><00:06:45.360><c> of</c>
+
+00:06:45.950 --> 00:06:45.960 align:start position:0%
+text okay so we also need to get rid of
+ 
+
+00:06:45.960 --> 00:06:49.129 align:start position:0%
+text okay so we also need to get rid of
+this<00:06:46.380><c> white</c><00:06:46.680><c> space</c><00:06:46.979><c> okay</c><00:06:47.639><c> and</c><00:06:48.360><c> we</c><00:06:48.600><c> also</c><00:06:48.900><c> need</c>
+
+00:06:49.129 --> 00:06:49.139 align:start position:0%
+this white space okay and we also need
+ 
+
+00:06:49.139 --> 00:06:51.710 align:start position:0%
+this white space okay and we also need
+to<00:06:49.380><c> extract</c><00:06:49.800><c> this</c><00:06:50.220><c> number</c><00:06:50.400><c> from</c><00:06:51.240><c> this</c>
+
+00:06:51.710 --> 00:06:51.720 align:start position:0%
+to extract this number from this
+ 
+
+00:06:51.720 --> 00:06:54.950 align:start position:0%
+to extract this number from this
+particular<00:06:52.020><c> buffer</c><00:06:52.919><c> okay</c><00:06:53.520><c> so</c><00:06:54.360><c> these</c><00:06:54.660><c> are</c><00:06:54.780><c> the</c>
+
+00:06:54.950 --> 00:06:54.960 align:start position:0%
+particular buffer okay so these are the
+ 
+
+00:06:54.960 --> 00:06:57.230 align:start position:0%
+particular buffer okay so these are the
+two<00:06:55.080><c> problems</c><00:06:55.560><c> which</c><00:06:55.919><c> can</c><00:06:56.100><c> be</c><00:06:56.280><c> resolved</c><00:06:56.699><c> using</c>
+
+00:06:57.230 --> 00:06:57.240 align:start position:0%
+two problems which can be resolved using
+ 
+
+00:06:57.240 --> 00:06:59.870 align:start position:0%
+two problems which can be resolved using
+the<00:06:57.360><c> string</c><00:06:57.660><c> operations</c><00:06:58.080><c> okay</c><00:06:58.860><c> so</c><00:06:59.400><c> like</c><00:06:59.639><c> in</c>
+
+00:06:59.870 --> 00:06:59.880 align:start position:0%
+the string operations okay so like in
+ 
+
+00:06:59.880 --> 00:07:02.930 align:start position:0%
+the string operations okay so like in
+any<00:07:00.060><c> other</c><00:07:00.240><c> language</c><00:07:00.600><c> like</c><00:07:00.960><c> java.net</c><00:07:01.919><c> you</c><00:07:02.639><c> do</c>
+
+00:07:02.930 --> 00:07:02.940 align:start position:0%
+any other language like java.net you do
+ 
+
+00:07:02.940 --> 00:07:05.570 align:start position:0%
+any other language like java.net you do
+have<00:07:03.180><c> string</c><00:07:03.720><c> Methods</c><00:07:04.259><c> or</c><00:07:04.560><c> functions</c><00:07:05.160><c> right</c>
+
+00:07:05.570 --> 00:07:05.580 align:start position:0%
+have string Methods or functions right
+ 
+
+00:07:05.580 --> 00:07:08.390 align:start position:0%
+have string Methods or functions right
+similarly<00:07:06.419><c> Tosca</c><00:07:07.319><c> has</c><00:07:07.560><c> its</c><00:07:07.860><c> own</c><00:07:07.979><c> string</c>
+
+00:07:08.390 --> 00:07:08.400 align:start position:0%
+similarly Tosca has its own string
+ 
+
+00:07:08.400 --> 00:07:10.010 align:start position:0%
+similarly Tosca has its own string
+operations<00:07:08.819><c> there</c><00:07:09.600><c> are</c><00:07:09.720><c> number</c><00:07:09.900><c> of</c>
+
+00:07:10.010 --> 00:07:10.020 align:start position:0%
+operations there are number of
+ 
+
+00:07:10.020 --> 00:07:12.170 align:start position:0%
+operations there are number of
+operations<00:07:10.500><c> uh</c><00:07:11.100><c> but</c><00:07:11.280><c> I'm</c><00:07:11.400><c> going</c><00:07:11.639><c> to</c><00:07:11.819><c> talk</c>
+
+00:07:12.170 --> 00:07:12.180 align:start position:0%
+operations uh but I'm going to talk
+ 
+
+00:07:12.180 --> 00:07:15.950 align:start position:0%
+operations uh but I'm going to talk
+about<00:07:12.419><c> two</c><00:07:13.259><c> basically</c><00:07:14.160><c> uh</c><00:07:14.819><c> and</c><00:07:15.060><c> these</c><00:07:15.360><c> two</c><00:07:15.479><c> are</c>
+
+00:07:15.950 --> 00:07:15.960 align:start position:0%
+about two basically uh and these two are
+ 
+
+00:07:15.960 --> 00:07:18.650 align:start position:0%
+about two basically uh and these two are
+one<00:07:16.620><c> is</c><00:07:16.860><c> the</c><00:07:16.979><c> trim</c><00:07:17.220><c> function</c><00:07:17.639><c> or</c><00:07:18.240><c> stream</c>
+
+00:07:18.650 --> 00:07:18.660 align:start position:0%
+one is the trim function or stream
+ 
+
+00:07:18.660 --> 00:07:21.589 align:start position:0%
+one is the trim function or stream
+operation<00:07:19.199><c> okay</c><00:07:19.680><c> which</c><00:07:20.580><c> basically</c><00:07:21.000><c> removes</c>
+
+00:07:21.589 --> 00:07:21.599 align:start position:0%
+operation okay which basically removes
+ 
+
+00:07:21.599 --> 00:07:24.890 align:start position:0%
+operation okay which basically removes
+the<00:07:22.020><c> white</c><00:07:22.199><c> spaces</c><00:07:22.800><c> from</c><00:07:23.699><c> the</c><00:07:24.120><c> start</c><00:07:24.300><c> or</c><00:07:24.720><c> end</c>
+
+00:07:24.890 --> 00:07:24.900 align:start position:0%
+the white spaces from the start or end
+ 
+
+00:07:24.900 --> 00:07:28.189 align:start position:0%
+the white spaces from the start or end
+of<00:07:25.139><c> the</c><00:07:25.319><c> string</c><00:07:25.620><c> right</c><00:07:26.039><c> just</c><00:07:26.880><c> what</c><00:07:27.180><c> we</c><00:07:27.360><c> need</c><00:07:27.539><c> so</c>
+
+00:07:28.189 --> 00:07:28.199 align:start position:0%
+of the string right just what we need so
+ 
+
+00:07:28.199 --> 00:07:30.830 align:start position:0%
+of the string right just what we need so
+we<00:07:28.380><c> want</c><00:07:28.620><c> to</c><00:07:28.800><c> trim</c><00:07:29.220><c> the</c><00:07:29.819><c> white</c><00:07:30.000><c> space</c><00:07:30.300><c> which</c><00:07:30.720><c> is</c>
+
+00:07:30.830 --> 00:07:30.840 align:start position:0%
+we want to trim the white space which is
+ 
+
+00:07:30.840 --> 00:07:33.110 align:start position:0%
+we want to trim the white space which is
+just<00:07:31.139><c> before</c><00:07:31.440><c> the</c><00:07:31.860><c> text</c><00:07:32.039><c> and</c><00:07:32.460><c> after</c><00:07:32.699><c> the</c><00:07:33.000><c> text</c>
+
+00:07:33.110 --> 00:07:33.120 align:start position:0%
+just before the text and after the text
+ 
+
+00:07:33.120 --> 00:07:37.010 align:start position:0%
+just before the text and after the text
+right<00:07:33.599><c> and</c><00:07:34.500><c> then</c><00:07:34.680><c> uh</c><00:07:35.460><c> there</c><00:07:36.120><c> is</c><00:07:36.300><c> string</c>
+
+00:07:37.010 --> 00:07:37.020 align:start position:0%
+right and then uh there is string
+ 
+
+00:07:37.020 --> 00:07:40.249 align:start position:0%
+right and then uh there is string
+replace<00:07:37.440><c> operation</c><00:07:38.160><c> so</c><00:07:39.000><c> this</c><00:07:39.479><c> will</c><00:07:39.660><c> basically</c>
+
+00:07:40.249 --> 00:07:40.259 align:start position:0%
+replace operation so this will basically
+ 
+
+00:07:40.259 --> 00:07:43.249 align:start position:0%
+replace operation so this will basically
+replace<00:07:40.560><c> all</c><00:07:41.220><c> occurrences</c><00:07:41.940><c> of</c><00:07:42.840><c> any</c>
+
+00:07:43.249 --> 00:07:43.259 align:start position:0%
+replace all occurrences of any
+ 
+
+00:07:43.259 --> 00:07:45.409 align:start position:0%
+replace all occurrences of any
+particular<00:07:43.620><c> input</c><00:07:44.099><c> which</c><00:07:44.580><c> we</c><00:07:44.759><c> are</c><00:07:44.940><c> providing</c>
+
+00:07:45.409 --> 00:07:45.419 align:start position:0%
+particular input which we are providing
+ 
+
+00:07:45.419 --> 00:07:48.770 align:start position:0%
+particular input which we are providing
+or<00:07:45.780><c> pattern</c><00:07:46.259><c> right</c><00:07:46.620><c> with</c><00:07:47.400><c> a</c><00:07:47.699><c> new</c><00:07:47.880><c> value</c><00:07:48.180><c> okay</c>
+
+00:07:48.770 --> 00:07:48.780 align:start position:0%
+or pattern right with a new value okay
+ 
+
+00:07:48.780 --> 00:07:53.029 align:start position:0%
+or pattern right with a new value okay
+so<00:07:49.560><c> what</c><00:07:49.860><c> is</c><00:07:50.400><c> my</c><00:07:50.639><c> idea</c><00:07:51.000><c> is</c><00:07:51.539><c> I</c><00:07:52.020><c> want</c><00:07:52.259><c> to</c><00:07:52.740><c> replace</c>
+
+00:07:53.029 --> 00:07:53.039 align:start position:0%
+so what is my idea is I want to replace
+ 
+
+00:07:53.039 --> 00:07:57.050 align:start position:0%
+so what is my idea is I want to replace
+this<00:07:53.639><c> order</c><00:07:53.880><c> number</c><00:07:54.240><c> text</c><00:07:54.900><c> okay</c><00:07:55.580><c> with</c><00:07:56.580><c> a</c><00:07:56.880><c> white</c>
+
+00:07:57.050 --> 00:07:57.060 align:start position:0%
+this order number text okay with a white
+ 
+
+00:07:57.060 --> 00:07:58.670 align:start position:0%
+this order number text okay with a white
+space
+
+00:07:58.670 --> 00:07:58.680 align:start position:0%
+space
+ 
+
+00:07:58.680 --> 00:08:01.070 align:start position:0%
+space
+okay<00:07:59.220><c> so</c><00:07:59.460><c> that's</c><00:07:59.699><c> what</c><00:07:59.940><c> I</c><00:08:00.120><c> want</c><00:08:00.240><c> to</c><00:08:00.360><c> do</c>
+
+00:08:01.070 --> 00:08:01.080 align:start position:0%
+okay so that's what I want to do
+ 
+
+00:08:01.080 --> 00:08:03.350 align:start position:0%
+okay so that's what I want to do
+so<00:08:01.740><c> I</c><00:08:02.099><c> will</c><00:08:02.220><c> replace</c><00:08:02.460><c> this</c><00:08:02.880><c> with</c><00:08:03.060><c> a</c><00:08:03.240><c> white</c>
+
+00:08:03.350 --> 00:08:03.360 align:start position:0%
+so I will replace this with a white
+ 
+
+00:08:03.360 --> 00:08:06.050 align:start position:0%
+so I will replace this with a white
+space<00:08:03.660><c> and</c><00:08:04.139><c> then</c><00:08:04.319><c> I</c><00:08:04.680><c> will</c><00:08:04.860><c> trim</c><00:08:05.460><c> all</c><00:08:05.759><c> the</c><00:08:05.940><c> white</c>
+
+00:08:06.050 --> 00:08:06.060 align:start position:0%
+space and then I will trim all the white
+ 
+
+00:08:06.060 --> 00:08:09.350 align:start position:0%
+space and then I will trim all the white
+spaces<00:08:06.599><c> so</c><00:08:07.139><c> that</c><00:08:07.380><c> I</c><00:08:08.099><c> just</c><00:08:08.340><c> get</c><00:08:08.699><c> the</c><00:08:09.180><c> number</c>
+
+00:08:09.350 --> 00:08:09.360 align:start position:0%
+spaces so that I just get the number
+ 
+
+00:08:09.360 --> 00:08:11.870 align:start position:0%
+spaces so that I just get the number
+here<00:08:09.780><c> okay</c><00:08:10.199><c> which</c><00:08:10.560><c> is</c><00:08:10.680><c> one</c><00:08:11.039><c> four</c><00:08:11.340><c> three</c><00:08:11.580><c> one</c>
+
+00:08:11.870 --> 00:08:11.880 align:start position:0%
+here okay which is one four three one
+ 
+
+00:08:11.880 --> 00:08:13.730 align:start position:0%
+here okay which is one four three one
+nine<00:08:12.180><c> one</c><00:08:12.300><c> eight</c><00:08:12.599><c> and</c><00:08:13.020><c> then</c><00:08:13.259><c> I'm</c><00:08:13.380><c> going</c><00:08:13.560><c> to</c>
+
+00:08:13.730 --> 00:08:13.740 align:start position:0%
+nine one eight and then I'm going to
+ 
+
+00:08:13.740 --> 00:08:16.430 align:start position:0%
+nine one eight and then I'm going to
+store<00:08:13.919><c> it</c><00:08:14.160><c> in</c><00:08:14.460><c> a</c><00:08:14.639><c> buffer</c><00:08:14.940><c> which</c><00:08:15.599><c> then</c><00:08:16.020><c> can</c><00:08:16.259><c> be</c>
+
+00:08:16.430 --> 00:08:16.440 align:start position:0%
+store it in a buffer which then can be
+ 
+
+00:08:16.440 --> 00:08:19.430 align:start position:0%
+store it in a buffer which then can be
+used<00:08:16.680><c> anywhere</c><00:08:17.220><c> in</c><00:08:17.580><c> my</c><00:08:17.699><c> test</c><00:08:17.940><c> okay</c>
+
+00:08:19.430 --> 00:08:19.440 align:start position:0%
+used anywhere in my test okay
+ 
+
+00:08:19.440 --> 00:08:22.010 align:start position:0%
+used anywhere in my test okay
+so<00:08:19.979><c> that's</c><00:08:20.280><c> the</c><00:08:20.879><c> solution</c><00:08:21.240><c> for</c><00:08:21.599><c> this</c><00:08:21.780><c> problem</c>
+
+00:08:22.010 --> 00:08:22.020 align:start position:0%
+so that's the solution for this problem
+ 
+
+00:08:22.020 --> 00:08:24.409 align:start position:0%
+so that's the solution for this problem
+and<00:08:22.680><c> that's</c><00:08:22.860><c> what</c><00:08:23.280><c> we</c><00:08:23.639><c> want</c><00:08:23.819><c> to</c><00:08:24.000><c> implement</c>
+
+00:08:24.409 --> 00:08:24.419 align:start position:0%
+and that's what we want to implement
+ 
+
+00:08:24.419 --> 00:08:25.550 align:start position:0%
+and that's what we want to implement
+right
+
+00:08:25.550 --> 00:08:25.560 align:start position:0%
+right
+ 
+
+00:08:25.560 --> 00:08:28.309 align:start position:0%
+right
+so<00:08:26.220><c> now</c><00:08:26.460><c> let</c><00:08:26.759><c> me</c><00:08:26.879><c> show</c><00:08:27.120><c> you</c><00:08:27.240><c> how</c><00:08:27.780><c> this</c><00:08:27.960><c> can</c><00:08:28.139><c> be</c>
+
+00:08:28.309 --> 00:08:28.319 align:start position:0%
+so now let me show you how this can be
+ 
+
+00:08:28.319 --> 00:08:32.029 align:start position:0%
+so now let me show you how this can be
+done<00:08:28.500><c> okay</c><00:08:29.039><c> so</c><00:08:29.879><c> for</c><00:08:30.120><c> this</c><00:08:30.419><c> I</c><00:08:31.139><c> am</c><00:08:31.259><c> going</c><00:08:31.440><c> to</c><00:08:31.680><c> use</c>
+
+00:08:32.029 --> 00:08:32.039 align:start position:0%
+done okay so for this I am going to use
+ 
+
+00:08:32.039 --> 00:08:36.350 align:start position:0%
+done okay so for this I am going to use
+the<00:08:32.580><c> key</c><00:08:32.760><c> box</c><00:08:33.060><c> set</c><00:08:33.599><c> buffer</c>
+
+00:08:36.350 --> 00:08:36.360 align:start position:0%
+ 
+ 
+
+00:08:36.360 --> 00:08:40.790 align:start position:0%
+ 
+okay<00:08:36.919><c> and</c><00:08:37.919><c> here</c><00:08:38.520><c> uh</c><00:08:39.060><c> we</c><00:08:39.240><c> are</c><00:08:39.360><c> going</c><00:08:39.539><c> to</c><00:08:39.779><c> give</c><00:08:40.080><c> a</c>
+
+00:08:40.790 --> 00:08:40.800 align:start position:0%
+okay and here uh we are going to give a
+ 
+
+00:08:40.800 --> 00:08:43.610 align:start position:0%
+okay and here uh we are going to give a
+buffer<00:08:41.219><c> uh</c><00:08:41.940><c> called</c><00:08:42.180><c> B</c><00:08:42.659><c> underscore</c><00:08:43.380><c> order</c>
+
+00:08:43.610 --> 00:08:43.620 align:start position:0%
+buffer uh called B underscore order
+ 
+
+00:08:43.620 --> 00:08:44.690 align:start position:0%
+buffer uh called B underscore order
+number
+
+00:08:44.690 --> 00:08:44.700 align:start position:0%
+number
+ 
+
+00:08:44.700 --> 00:08:45.829 align:start position:0%
+number
+okay
+
+00:08:45.829 --> 00:08:45.839 align:start position:0%
+okay
+ 
+
+00:08:45.839 --> 00:08:48.769 align:start position:0%
+okay
+so<00:08:46.200><c> this</c><00:08:46.320><c> is</c><00:08:46.440><c> our</c><00:08:46.680><c> new</c><00:08:46.980><c> uh</c><00:08:47.580><c> buffer</c><00:08:48.060><c> which</c><00:08:48.600><c> will</c>
+
+00:08:48.769 --> 00:08:48.779 align:start position:0%
+so this is our new uh buffer which will
+ 
+
+00:08:48.779 --> 00:08:51.110 align:start position:0%
+so this is our new uh buffer which will
+store<00:08:49.080><c> the</c><00:08:49.440><c> actual</c><00:08:49.740><c> order</c><00:08:49.920><c> number</c><00:08:50.279><c> okay</c><00:08:50.760><c> and</c>
+
+00:08:51.110 --> 00:08:51.120 align:start position:0%
+store the actual order number okay and
+ 
+
+00:08:51.120 --> 00:08:53.389 align:start position:0%
+store the actual order number okay and
+we<00:08:51.300><c> are</c><00:08:51.420><c> going</c><00:08:51.540><c> to</c><00:08:51.660><c> extract</c><00:08:52.080><c> it</c><00:08:52.380><c> uh</c><00:08:52.920><c> in</c><00:08:53.220><c> our</c>
+
+00:08:53.389 --> 00:08:53.399 align:start position:0%
+we are going to extract it uh in our
+ 
+
+00:08:53.399 --> 00:08:55.430 align:start position:0%
+we are going to extract it uh in our
+value<00:08:53.820><c> right</c>
+
+00:08:55.430 --> 00:08:55.440 align:start position:0%
+value right
+ 
+
+00:08:55.440 --> 00:08:58.130 align:start position:0%
+value right
+so<00:08:55.920><c> how</c><00:08:56.100><c> are</c><00:08:56.220><c> we</c><00:08:56.399><c> going</c><00:08:56.519><c> to</c><00:08:56.700><c> do</c><00:08:56.880><c> this</c><00:08:57.120><c> we</c><00:08:58.019><c> have</c>
+
+00:08:58.130 --> 00:08:58.140 align:start position:0%
+so how are we going to do this we have
+ 
+
+00:08:58.140 --> 00:09:01.190 align:start position:0%
+so how are we going to do this we have
+to<00:08:58.260><c> use</c><00:08:58.560><c> two</c><00:08:59.519><c> string</c><00:09:00.000><c> operations</c><00:09:00.420><c> as</c><00:09:00.899><c> I</c><00:09:01.019><c> said</c>
+
+00:09:01.190 --> 00:09:01.200 align:start position:0%
+to use two string operations as I said
+ 
+
+00:09:01.200 --> 00:09:02.870 align:start position:0%
+to use two string operations as I said
+right
+
+00:09:02.870 --> 00:09:02.880 align:start position:0%
+right
+ 
+
+00:09:02.880 --> 00:09:05.870 align:start position:0%
+right
+so<00:09:03.779><c> here</c><00:09:03.959><c> let</c><00:09:04.320><c> me</c><00:09:04.500><c> first</c><00:09:04.800><c> enter</c><00:09:05.339><c> the</c>
+
+00:09:05.870 --> 00:09:05.880 align:start position:0%
+so here let me first enter the
+ 
+
+00:09:05.880 --> 00:09:07.730 align:start position:0%
+so here let me first enter the
+expression<00:09:06.300><c> which</c><00:09:06.839><c> we'll</c><00:09:07.080><c> be</c><00:09:07.140><c> using</c><00:09:07.380><c> and</c><00:09:07.560><c> then</c>
+
+00:09:07.730 --> 00:09:07.740 align:start position:0%
+expression which we'll be using and then
+ 
+
+00:09:07.740 --> 00:09:10.190 align:start position:0%
+expression which we'll be using and then
+let<00:09:07.920><c> me</c><00:09:08.040><c> explain</c><00:09:08.220><c> you</c><00:09:08.580><c> how</c><00:09:09.120><c> I</c><00:09:09.480><c> have</c><00:09:09.600><c> formed</c>
+
+00:09:10.190 --> 00:09:10.200 align:start position:0%
+let me explain you how I have formed
+ 
+
+00:09:10.200 --> 00:09:12.889 align:start position:0%
+let me explain you how I have formed
+this<00:09:10.380><c> expression</c><00:09:10.860><c> right</c><00:09:11.220><c> now</c><00:09:11.940><c> I'm</c><00:09:12.300><c> not</c><00:09:12.540><c> typing</c>
+
+00:09:12.889 --> 00:09:12.899 align:start position:0%
+this expression right now I'm not typing
+ 
+
+00:09:12.899 --> 00:09:15.350 align:start position:0%
+this expression right now I'm not typing
+this<00:09:13.080><c> expression</c><00:09:13.500><c> because</c><00:09:13.740><c> I</c><00:09:14.220><c> am</c><00:09:14.399><c> not</c><00:09:14.580><c> good</c><00:09:14.820><c> at</c>
+
+00:09:15.350 --> 00:09:15.360 align:start position:0%
+this expression because I am not good at
+ 
+
+00:09:15.360 --> 00:09:18.410 align:start position:0%
+this expression because I am not good at
+maintaining<00:09:16.260><c> all</c><00:09:16.560><c> this</c><00:09:16.800><c> uh</c><00:09:17.459><c> curly</c><00:09:17.820><c> braces</c><00:09:18.180><c> and</c>
+
+00:09:18.410 --> 00:09:18.420 align:start position:0%
+maintaining all this uh curly braces and
+ 
+
+00:09:18.420 --> 00:09:21.710 align:start position:0%
+maintaining all this uh curly braces and
+brackets<00:09:18.899><c> if</c><00:09:19.680><c> you</c><00:09:19.800><c> make</c><00:09:19.920><c> a</c><00:09:20.160><c> mistake</c><00:09:20.459><c> then</c><00:09:20.880><c> this</c>
+
+00:09:21.710 --> 00:09:21.720 align:start position:0%
+brackets if you make a mistake then this
+ 
+
+00:09:21.720 --> 00:09:24.050 align:start position:0%
+brackets if you make a mistake then this
+expression<00:09:22.200><c> will</c><00:09:22.380><c> be</c><00:09:22.560><c> invalid</c><00:09:22.980><c> right</c><00:09:23.339><c> so</c><00:09:23.880><c> you</c>
+
+00:09:24.050 --> 00:09:24.060 align:start position:0%
+expression will be invalid right so you
+ 
+
+00:09:24.060 --> 00:09:26.150 align:start position:0%
+expression will be invalid right so you
+have<00:09:24.180><c> to</c><00:09:24.300><c> take</c><00:09:24.480><c> special</c><00:09:24.839><c> care</c><00:09:25.680><c> um</c><00:09:25.740><c> while</c>
+
+00:09:26.150 --> 00:09:26.160 align:start position:0%
+have to take special care um while
+ 
+
+00:09:26.160 --> 00:09:29.030 align:start position:0%
+have to take special care um while
+forming<00:09:26.640><c> this</c><00:09:27.060><c> expression</c><00:09:27.620><c> I'm</c><00:09:28.620><c> going</c><00:09:28.800><c> to</c>
+
+00:09:29.030 --> 00:09:29.040 align:start position:0%
+forming this expression I'm going to
+ 
+
+00:09:29.040 --> 00:09:31.550 align:start position:0%
+forming this expression I'm going to
+paste<00:09:29.880><c> this</c><00:09:30.000><c> expression</c><00:09:30.540><c> in</c><00:09:31.140><c> the</c><00:09:31.260><c> description</c>
+
+00:09:31.550 --> 00:09:31.560 align:start position:0%
+paste this expression in the description
+ 
+
+00:09:31.560 --> 00:09:34.009 align:start position:0%
+paste this expression in the description
+so<00:09:32.100><c> you</c><00:09:32.399><c> can</c><00:09:32.459><c> take</c><00:09:32.760><c> it</c><00:09:32.940><c> from</c><00:09:33.240><c> there</c><00:09:33.420><c> if</c><00:09:33.899><c> you</c>
+
+00:09:34.009 --> 00:09:34.019 align:start position:0%
+so you can take it from there if you
+ 
+
+00:09:34.019 --> 00:09:37.310 align:start position:0%
+so you can take it from there if you
+want<00:09:34.260><c> okay</c><00:09:34.860><c> so</c><00:09:35.640><c> let</c><00:09:35.820><c> me</c><00:09:35.940><c> explain</c><00:09:36.240><c> you</c><00:09:36.600><c> how</c><00:09:37.140><c> I</c>
+
+00:09:37.310 --> 00:09:37.320 align:start position:0%
+want okay so let me explain you how I
+ 
+
+00:09:37.320 --> 00:09:39.769 align:start position:0%
+want okay so let me explain you how I
+have<00:09:37.440><c> formed</c><00:09:37.800><c> this</c><00:09:37.980><c> expression</c><00:09:38.399><c> so</c><00:09:39.180><c> first</c><00:09:39.360><c> I</c>
+
+00:09:39.769 --> 00:09:39.779 align:start position:0%
+have formed this expression so first I
+ 
+
+00:09:39.779 --> 00:09:43.250 align:start position:0%
+have formed this expression so first I
+am<00:09:39.899><c> using</c><00:09:40.320><c> the</c><00:09:40.740><c> trim</c><00:09:41.040><c> operation</c><00:09:41.580><c> okay</c>
+
+00:09:43.250 --> 00:09:43.260 align:start position:0%
+am using the trim operation okay
+ 
+
+00:09:43.260 --> 00:09:46.310 align:start position:0%
+am using the trim operation okay
+and<00:09:43.980><c> inside</c><00:09:44.279><c> that</c><00:09:44.700><c> I</c><00:09:45.360><c> am</c><00:09:45.540><c> then</c><00:09:45.720><c> using</c><00:09:46.140><c> the</c>
+
+00:09:46.310 --> 00:09:46.320 align:start position:0%
+and inside that I am then using the
+ 
+
+00:09:46.320 --> 00:09:49.370 align:start position:0%
+and inside that I am then using the
+string<00:09:46.560><c> replace</c><00:09:47.300><c> operation</c><00:09:48.300><c> okay</c><00:09:48.839><c> so</c><00:09:49.140><c> these</c>
+
+00:09:49.370 --> 00:09:49.380 align:start position:0%
+string replace operation okay so these
+ 
+
+00:09:49.380 --> 00:09:51.829 align:start position:0%
+string replace operation okay so these
+are<00:09:49.440><c> the</c><00:09:49.620><c> two</c><00:09:49.740><c> operation</c><00:09:50.160><c> you</c><00:09:50.640><c> can</c><00:09:50.700><c> see</c><00:09:50.940><c> here</c>
+
+00:09:51.829 --> 00:09:51.839 align:start position:0%
+are the two operation you can see here
+ 
+
+00:09:51.839 --> 00:09:54.970 align:start position:0%
+are the two operation you can see here
+and<00:09:52.500><c> inside</c><00:09:52.800><c> the</c><00:09:53.160><c> string</c><00:09:53.399><c> replace</c><00:09:53.839><c> operation</c>
+
+00:09:54.970 --> 00:09:54.980 align:start position:0%
+and inside the string replace operation
+ 
+
+00:09:54.980 --> 00:09:58.430 align:start position:0%
+and inside the string replace operation
+then<00:09:55.980><c> we</c><00:09:56.580><c> need</c><00:09:56.700><c> to</c><00:09:56.880><c> pass</c><00:09:57.060><c> the</c><00:09:57.540><c> actual</c><00:09:57.839><c> string</c>
+
+00:09:58.430 --> 00:09:58.440 align:start position:0%
+then we need to pass the actual string
+ 
+
+00:09:58.440 --> 00:10:01.430 align:start position:0%
+then we need to pass the actual string
+right<00:09:58.940><c> where</c><00:09:59.940><c> we</c><00:10:00.180><c> want</c><00:10:00.300><c> to</c><00:10:00.420><c> replace</c><00:10:00.600><c> so</c><00:10:01.140><c> that</c>
+
+00:10:01.430 --> 00:10:01.440 align:start position:0%
+right where we want to replace so that
+ 
+
+00:10:01.440 --> 00:10:04.310 align:start position:0%
+right where we want to replace so that
+is<00:10:01.620><c> B</c><00:10:01.980><c> underscore</c><00:10:02.519><c> order</c><00:10:02.760><c> our</c><00:10:03.540><c> buffer</c><00:10:04.019><c> which</c>
+
+00:10:04.310 --> 00:10:04.320 align:start position:0%
+is B underscore order our buffer which
+ 
+
+00:10:04.320 --> 00:10:07.250 align:start position:0%
+is B underscore order our buffer which
+contains<00:10:04.800><c> the</c><00:10:05.040><c> string</c><00:10:05.339><c> right</c><00:10:05.779><c> uh</c><00:10:06.779><c> so</c><00:10:07.019><c> that's</c>
+
+00:10:07.250 --> 00:10:07.260 align:start position:0%
+contains the string right uh so that's
+ 
+
+00:10:07.260 --> 00:10:09.050 align:start position:0%
+contains the string right uh so that's
+that's<00:10:07.560><c> the</c><00:10:07.860><c> buffer</c><00:10:08.220><c> it</c><00:10:08.399><c> will</c><00:10:08.580><c> get</c><00:10:08.700><c> the</c><00:10:08.880><c> value</c>
+
+00:10:09.050 --> 00:10:09.060 align:start position:0%
+that's the buffer it will get the value
+ 
+
+00:10:09.060 --> 00:10:12.410 align:start position:0%
+that's the buffer it will get the value
+here<00:10:09.899><c> and</c><00:10:10.620><c> then</c><00:10:10.800><c> we</c><00:10:11.279><c> want</c><00:10:11.459><c> to</c><00:10:11.580><c> replace</c><00:10:11.760><c> this</c>
+
+00:10:12.410 --> 00:10:12.420 align:start position:0%
+here and then we want to replace this
+ 
+
+00:10:12.420 --> 00:10:14.570 align:start position:0%
+here and then we want to replace this
+particular<00:10:12.779><c> text</c><00:10:13.080><c> right</c><00:10:13.560><c> which</c><00:10:13.860><c> is</c><00:10:14.100><c> the</c><00:10:14.399><c> order</c>
+
+00:10:14.570 --> 00:10:14.580 align:start position:0%
+particular text right which is the order
+ 
+
+00:10:14.580 --> 00:10:17.810 align:start position:0%
+particular text right which is the order
+number<00:10:14.880><c> followed</c><00:10:15.360><c> by</c><00:10:15.480><c> colon</c><00:10:15.899><c> okay</c><00:10:16.399><c> so</c><00:10:17.399><c> we</c><00:10:17.640><c> want</c>
+
+00:10:17.810 --> 00:10:17.820 align:start position:0%
+number followed by colon okay so we want
+ 
+
+00:10:17.820 --> 00:10:19.850 align:start position:0%
+number followed by colon okay so we want
+to<00:10:17.940><c> replace</c><00:10:18.120><c> the</c><00:10:18.540><c> string</c><00:10:18.839><c> with</c><00:10:19.260><c> a</c><00:10:19.380><c> white</c><00:10:19.560><c> space</c>
+
+00:10:19.850 --> 00:10:19.860 align:start position:0%
+to replace the string with a white space
+ 
+
+00:10:19.860 --> 00:10:22.490 align:start position:0%
+to replace the string with a white space
+and<00:10:20.279><c> that's</c><00:10:20.339><c> why</c><00:10:20.519><c> I</c><00:10:20.700><c> given</c><00:10:21.000><c> two</c><00:10:21.600><c> brackets</c><00:10:22.080><c> two</c>
+
+00:10:22.490 --> 00:10:22.500 align:start position:0%
+and that's why I given two brackets two
+ 
+
+00:10:22.500 --> 00:10:25.370 align:start position:0%
+and that's why I given two brackets two
+square<00:10:22.740><c> brackets</c><00:10:23.279><c> okay</c><00:10:23.640><c> and</c><00:10:24.480><c> then</c><00:10:24.660><c> I</c><00:10:24.839><c> am</c><00:10:25.019><c> using</c>
+
+00:10:25.370 --> 00:10:25.380 align:start position:0%
+square brackets okay and then I am using
+ 
+
+00:10:25.380 --> 00:10:28.970 align:start position:0%
+square brackets okay and then I am using
+the<00:10:25.620><c> ignore</c><00:10:26.040><c> case</c><00:10:26.339><c> uh</c><00:10:27.300><c> parameter</c><00:10:27.839><c> okay</c><00:10:28.200><c> so</c>
+
+00:10:28.970 --> 00:10:28.980 align:start position:0%
+the ignore case uh parameter okay so
+ 
+
+00:10:28.980 --> 00:10:31.490 align:start position:0%
+the ignore case uh parameter okay so
+this<00:10:29.100><c> ignore</c><00:10:29.459><c> case</c><00:10:29.700><c> is</c><00:10:30.060><c> basically</c><00:10:30.480><c> to</c><00:10:30.899><c> ignore</c>
+
+00:10:31.490 --> 00:10:31.500 align:start position:0%
+this ignore case is basically to ignore
+ 
+
+00:10:31.500 --> 00:10:34.370 align:start position:0%
+this ignore case is basically to ignore
+uh<00:10:32.040><c> any</c><00:10:32.220><c> upper</c><00:10:32.519><c> case</c><00:10:32.760><c> or</c><00:10:32.940><c> lowercase</c><00:10:33.360><c> okay</c><00:10:33.779><c> so</c>
+
+00:10:34.370 --> 00:10:34.380 align:start position:0%
+uh any upper case or lowercase okay so
+ 
+
+00:10:34.380 --> 00:10:36.710 align:start position:0%
+uh any upper case or lowercase okay so
+no<00:10:34.560><c> matter</c><00:10:34.740><c> if</c><00:10:35.040><c> I</c><00:10:35.160><c> have</c><00:10:35.339><c> typed</c><00:10:35.700><c> it</c><00:10:36.360><c> in</c><00:10:36.540><c> lower</c>
+
+00:10:36.710 --> 00:10:36.720 align:start position:0%
+no matter if I have typed it in lower
+ 
+
+00:10:36.720 --> 00:10:38.389 align:start position:0%
+no matter if I have typed it in lower
+case<00:10:36.959><c> and</c><00:10:37.320><c> in</c><00:10:37.500><c> the</c><00:10:37.680><c> application</c><00:10:38.040><c> it</c><00:10:38.279><c> is</c>
+
+00:10:38.389 --> 00:10:38.399 align:start position:0%
+case and in the application it is
+ 
+
+00:10:38.399 --> 00:10:40.970 align:start position:0%
+case and in the application it is
+uppercase<00:10:38.880><c> right</c><00:10:39.180><c> this</c><00:10:39.899><c> will</c><00:10:40.140><c> take</c><00:10:40.620><c> care</c><00:10:40.800><c> of</c>
+
+00:10:40.970 --> 00:10:40.980 align:start position:0%
+uppercase right this will take care of
+ 
+
+00:10:40.980 --> 00:10:43.910 align:start position:0%
+uppercase right this will take care of
+that<00:10:41.279><c> okay</c><00:10:41.940><c> so</c><00:10:42.240><c> it's</c><00:10:42.420><c> good</c><00:10:42.660><c> to</c><00:10:42.839><c> have</c><00:10:43.019><c> but</c><00:10:43.680><c> it's</c>
+
+00:10:43.910 --> 00:10:43.920 align:start position:0%
+that okay so it's good to have but it's
+ 
+
+00:10:43.920 --> 00:10:46.970 align:start position:0%
+that okay so it's good to have but it's
+not<00:10:44.279><c> compulsory</c><00:10:45.000><c> the</c><00:10:45.839><c> most</c><00:10:46.019><c> important</c><00:10:46.440><c> uh</c>
+
+00:10:46.970 --> 00:10:46.980 align:start position:0%
+not compulsory the most important uh
+ 
+
+00:10:46.980 --> 00:10:49.670 align:start position:0%
+not compulsory the most important uh
+parts<00:10:47.279><c> are</c><00:10:47.820><c> these</c><00:10:48.180><c> two</c><00:10:48.300><c> parts</c><00:10:48.540><c> where</c><00:10:49.260><c> you</c><00:10:49.620><c> have</c>
+
+00:10:49.670 --> 00:10:49.680 align:start position:0%
+parts are these two parts where you have
+ 
+
+00:10:49.680 --> 00:10:53.269 align:start position:0%
+parts are these two parts where you have
+to<00:10:49.920><c> provide</c><00:10:50.399><c> the</c><00:10:51.300><c> actual</c><00:10:51.600><c> text</c><00:10:51.899><c> okay</c><00:10:52.680><c> followed</c>
+
+00:10:53.269 --> 00:10:53.279 align:start position:0%
+to provide the actual text okay followed
+ 
+
+00:10:53.279 --> 00:10:56.030 align:start position:0%
+to provide the actual text okay followed
+by<00:10:53.579><c> what</c><00:10:53.880><c> you</c><00:10:54.000><c> want</c><00:10:54.120><c> to</c><00:10:54.240><c> replace</c><00:10:54.420><c> by</c><00:10:55.380><c> what</c><00:10:55.740><c> you</c>
+
+00:10:56.030 --> 00:10:56.040 align:start position:0%
+by what you want to replace by what you
+ 
+
+00:10:56.040 --> 00:10:58.910 align:start position:0%
+by what you want to replace by what you
+want<00:10:56.220><c> to</c><00:10:56.339><c> replace</c><00:10:56.519><c> okay</c>
+
+00:10:58.910 --> 00:10:58.920 align:start position:0%
+want to replace okay
+ 
+
+00:10:58.920 --> 00:11:02.449 align:start position:0%
+want to replace okay
+so<00:10:59.700><c> uh</c><00:11:00.420><c> if</c><00:11:00.959><c> your</c><00:11:01.260><c> expression</c><00:11:01.620><c> is</c><00:11:01.800><c> correct</c><00:11:02.100><c> you</c>
+
+00:11:02.449 --> 00:11:02.459 align:start position:0%
+so uh if your expression is correct you
+ 
+
+00:11:02.459 --> 00:11:04.970 align:start position:0%
+so uh if your expression is correct you
+will<00:11:02.640><c> see</c><00:11:02.940><c> uh</c><00:11:03.480><c> it</c><00:11:03.779><c> is</c><00:11:03.899><c> highlighted</c><00:11:04.440><c> in</c><00:11:04.800><c> this</c>
+
+00:11:04.970 --> 00:11:04.980 align:start position:0%
+will see uh it is highlighted in this
+ 
+
+00:11:04.980 --> 00:11:07.970 align:start position:0%
+will see uh it is highlighted in this
+way<00:11:05.160><c> in</c><00:11:05.519><c> Tosca</c><00:11:06.000><c> okay</c><00:11:06.360><c> if</c><00:11:06.540><c> it</c><00:11:06.720><c> is</c><00:11:06.839><c> not</c><00:11:07.079><c> if</c><00:11:07.740><c> it</c>
+
+00:11:07.970 --> 00:11:07.980 align:start position:0%
+way in Tosca okay if it is not if it
+ 
+
+00:11:07.980 --> 00:11:10.490 align:start position:0%
+way in Tosca okay if it is not if it
+just<00:11:08.579><c> displays</c><00:11:09.180><c> as</c><00:11:09.420><c> normal</c><00:11:09.720><c> text</c><00:11:10.019><c> then</c>
+
+00:11:10.490 --> 00:11:10.500 align:start position:0%
+just displays as normal text then
+ 
+
+00:11:10.500 --> 00:11:12.050 align:start position:0%
+just displays as normal text then
+something<00:11:10.800><c> is</c><00:11:10.980><c> wrong</c><00:11:11.160><c> with</c><00:11:11.399><c> your</c><00:11:11.579><c> expression</c>
+
+00:11:12.050 --> 00:11:12.060 align:start position:0%
+something is wrong with your expression
+ 
+
+00:11:12.060 --> 00:11:14.389 align:start position:0%
+something is wrong with your expression
+okay
+
+00:11:14.389 --> 00:11:14.399 align:start position:0%
+okay
+ 
+
+00:11:14.399 --> 00:11:15.889 align:start position:0%
+okay
+so<00:11:14.700><c> now</c>
+
+00:11:15.889 --> 00:11:15.899 align:start position:0%
+so now
+ 
+
+00:11:15.899 --> 00:11:18.530 align:start position:0%
+so now
+um if<00:11:16.320><c> I</c><00:11:16.800><c> go</c><00:11:17.160><c> ahead</c><00:11:17.399><c> and</c><00:11:17.700><c> run</c><00:11:17.880><c> this</c><00:11:18.120><c> we</c><00:11:18.420><c> are</c>
+
+00:11:18.530 --> 00:11:18.540 align:start position:0%
+um if I go ahead and run this we are
+ 
+
+00:11:18.540 --> 00:11:20.990 align:start position:0%
+um if I go ahead and run this we are
+going<00:11:18.660><c> to</c><00:11:18.839><c> get</c><00:11:19.079><c> the</c><00:11:19.440><c> order</c><00:11:19.620><c> number</c><00:11:19.980><c> as</c><00:11:20.579><c> the</c>
+
+00:11:20.990 --> 00:11:21.000 align:start position:0%
+going to get the order number as the
+ 
+
+00:11:21.000 --> 00:11:23.630 align:start position:0%
+going to get the order number as the
+actual<00:11:21.360><c> number</c><00:11:21.600><c> okay</c><00:11:22.260><c> and</c><00:11:22.800><c> it</c><00:11:22.980><c> will</c><00:11:23.100><c> be</c><00:11:23.220><c> stored</c>
+
+00:11:23.630 --> 00:11:23.640 align:start position:0%
+actual number okay and it will be stored
+ 
+
+00:11:23.640 --> 00:11:25.970 align:start position:0%
+actual number okay and it will be stored
+inside<00:11:24.060><c> the</c><00:11:24.480><c> buffer</c><00:11:25.019><c> B</c><00:11:25.200><c> underscore</c><00:11:25.740><c> order</c>
+
+00:11:25.970 --> 00:11:25.980 align:start position:0%
+inside the buffer B underscore order
+ 
+
+00:11:25.980 --> 00:11:29.090 align:start position:0%
+inside the buffer B underscore order
+number<00:11:26.339><c> so</c><00:11:27.000><c> let's</c><00:11:27.240><c> go</c><00:11:27.540><c> ahead</c><00:11:27.720><c> and</c><00:11:28.260><c> see</c><00:11:28.500><c> this</c><00:11:28.740><c> by</c>
+
+00:11:29.090 --> 00:11:29.100 align:start position:0%
+number so let's go ahead and see this by
+ 
+
+00:11:29.100 --> 00:11:34.430 align:start position:0%
+number so let's go ahead and see this by
+running<00:11:29.339><c> this</c>
+
+00:11:34.430 --> 00:11:34.440 align:start position:0%
+ 
+ 
+
+00:11:34.440 --> 00:11:37.130 align:start position:0%
+ 
+okay<00:11:34.980><c> and</c><00:11:35.399><c> you</c><00:11:35.700><c> can</c><00:11:35.820><c> see</c><00:11:36.000><c> the</c><00:11:36.240><c> step</c><00:11:36.480><c> was</c><00:11:36.839><c> run</c>
+
+00:11:37.130 --> 00:11:37.140 align:start position:0%
+okay and you can see the step was run
+ 
+
+00:11:37.140 --> 00:11:40.190 align:start position:0%
+okay and you can see the step was run
+successfully<00:11:37.740><c> in</c><00:11:38.279><c> the</c><00:11:38.459><c> log</c><00:11:38.579><c> info</c><00:11:39.120><c> uh</c><00:11:39.839><c> I</c><00:11:40.079><c> will</c>
+
+00:11:40.190 --> 00:11:40.200 align:start position:0%
+successfully in the log info uh I will
+ 
+
+00:11:40.200 --> 00:11:42.110 align:start position:0%
+successfully in the log info uh I will
+see<00:11:40.380><c> buffer</c><00:11:40.860><c> with</c><00:11:41.040><c> name</c><00:11:41.220><c> B</c><00:11:41.519><c> underscore</c><00:11:41.940><c> order</c>
+
+00:11:42.110 --> 00:11:42.120 align:start position:0%
+see buffer with name B underscore order
+ 
+
+00:11:42.120 --> 00:11:46.210 align:start position:0%
+see buffer with name B underscore order
+number<00:11:42.500><c> and</c><00:11:43.500><c> it</c><00:11:43.740><c> has</c><00:11:43.860><c> been</c><00:11:44.040><c> set</c><00:11:44.220><c> to</c><00:11:44.459><c> Value</c>
+
+00:11:46.210 --> 00:11:46.220 align:start position:0%
+number and it has been set to Value
+ 
+
+00:11:46.220 --> 00:11:49.310 align:start position:0%
+number and it has been set to Value
+1431918<00:11:47.220><c> okay</c><00:11:47.880><c> and</c><00:11:48.779><c> this</c><00:11:48.959><c> is</c><00:11:49.079><c> the</c><00:11:49.200><c> order</c>
+
+00:11:49.310 --> 00:11:49.320 align:start position:0%
+1431918 okay and this is the order
+ 
+
+00:11:49.320 --> 00:11:51.769 align:start position:0%
+1431918 okay and this is the order
+number<00:11:49.740><c> which</c><00:11:50.700><c> was</c><00:11:50.880><c> generated</c><00:11:51.360><c> by</c><00:11:51.660><c> the</c>
+
+00:11:51.769 --> 00:11:51.779 align:start position:0%
+number which was generated by the
+ 
+
+00:11:51.779 --> 00:11:55.009 align:start position:0%
+number which was generated by the
+application<00:11:52.220><c> and</c><00:11:53.220><c> now</c><00:11:53.399><c> this</c><00:11:53.760><c> I</c><00:11:54.240><c> have</c><00:11:54.420><c> in</c><00:11:54.839><c> a</c>
+
+00:11:55.009 --> 00:11:55.019 align:start position:0%
+application and now this I have in a
+ 
+
+00:11:55.019 --> 00:11:57.530 align:start position:0%
+application and now this I have in a
+variable<00:11:55.320><c> right</c><00:11:55.860><c> so</c><00:11:56.579><c> this</c><00:11:56.760><c> is</c><00:11:56.940><c> stored</c><00:11:57.240><c> in</c><00:11:57.420><c> a</c>
+
+00:11:57.530 --> 00:11:57.540 align:start position:0%
+variable right so this is stored in a
+ 
+
+00:11:57.540 --> 00:12:00.350 align:start position:0%
+variable right so this is stored in a
+buffer<00:11:57.839><c> variable</c><00:11:58.200><c> which</c><00:11:58.920><c> I</c><00:11:59.339><c> can</c><00:11:59.459><c> call</c><00:11:59.700><c> anytime</c>
+
+00:12:00.350 --> 00:12:00.360 align:start position:0%
+buffer variable which I can call anytime
+ 
+
+00:12:00.360 --> 00:12:04.250 align:start position:0%
+buffer variable which I can call anytime
+uh<00:12:01.079><c> in</c><00:12:01.320><c> any</c><00:12:01.560><c> of</c><00:12:01.800><c> my</c><00:12:01.980><c> test</c><00:12:02.220><c> case</c><00:12:02.459><c> just</c><00:12:03.420><c> to</c><00:12:03.779><c> either</c>
+
+00:12:04.250 --> 00:12:04.260 align:start position:0%
+uh in any of my test case just to either
+ 
+
+00:12:04.260 --> 00:12:06.290 align:start position:0%
+uh in any of my test case just to either
+verify<00:12:04.800><c> the</c><00:12:04.980><c> order</c><00:12:05.100><c> number</c><00:12:05.399><c> or</c><00:12:05.820><c> do</c><00:12:06.060><c> anything</c>
+
+00:12:06.290 --> 00:12:06.300 align:start position:0%
+verify the order number or do anything
+ 
+
+00:12:06.300 --> 00:12:08.150 align:start position:0%
+verify the order number or do anything
+any<00:12:06.779><c> modifications</c><00:12:07.320><c> on</c><00:12:07.680><c> the</c><00:12:07.800><c> order</c><00:12:07.920><c> number</c>
+
+00:12:08.150 --> 00:12:08.160 align:start position:0%
+any modifications on the order number
+ 
+
+00:12:08.160 --> 00:12:10.250 align:start position:0%
+any modifications on the order number
+right<00:12:08.459><c> so</c><00:12:08.880><c> it</c><00:12:09.000><c> can</c><00:12:09.180><c> be</c><00:12:09.300><c> used</c><00:12:09.540><c> for</c><00:12:09.959><c> many</c>
+
+00:12:10.250 --> 00:12:10.260 align:start position:0%
+right so it can be used for many
+ 
+
+00:12:10.260 --> 00:12:12.949 align:start position:0%
+right so it can be used for many
+different<00:12:10.560><c> purposes</c><00:12:11.160><c> so</c><00:12:11.940><c> this</c><00:12:12.180><c> is</c><00:12:12.360><c> a</c><00:12:12.779><c> very</c>
+
+00:12:12.949 --> 00:12:12.959 align:start position:0%
+different purposes so this is a very
+ 
+
+00:12:12.959 --> 00:12:15.230 align:start position:0%
+different purposes so this is a very
+common<00:12:13.200><c> scenario</c><00:12:13.800><c> if</c><00:12:14.160><c> you</c><00:12:14.339><c> are</c><00:12:14.459><c> working</c><00:12:14.700><c> on</c>
+
+00:12:15.230 --> 00:12:15.240 align:start position:0%
+common scenario if you are working on
+ 
+
+00:12:15.240 --> 00:12:17.870 align:start position:0%
+common scenario if you are working on
+e-commerce<00:12:16.079><c> web</c><00:12:16.260><c> application</c><00:12:16.800><c> right</c>
+
+00:12:17.870 --> 00:12:17.880 align:start position:0%
+e-commerce web application right
+ 
+
+00:12:17.880 --> 00:12:20.389 align:start position:0%
+e-commerce web application right
+so<00:12:18.420><c> if</c><00:12:18.720><c> you</c><00:12:18.959><c> are</c><00:12:19.079><c> placing</c><00:12:19.500><c> an</c><00:12:19.620><c> order</c><00:12:19.860><c> on</c><00:12:20.279><c> the</c>
+
+00:12:20.389 --> 00:12:20.399 align:start position:0%
+so if you are placing an order on the
+ 
+
+00:12:20.399 --> 00:12:22.610 align:start position:0%
+so if you are placing an order on the
+website<00:12:20.760><c> you</c><00:12:21.300><c> would</c><00:12:21.420><c> want</c><00:12:21.660><c> to</c><00:12:21.839><c> know</c><00:12:22.079><c> what</c><00:12:22.440><c> was</c>
+
+00:12:22.610 --> 00:12:22.620 align:start position:0%
+website you would want to know what was
+ 
+
+00:12:22.620 --> 00:12:24.530 align:start position:0%
+website you would want to know what was
+the<00:12:22.800><c> order</c><00:12:22.920><c> number</c><00:12:23.220><c> because</c><00:12:23.519><c> it</c><00:12:24.240><c> will</c><00:12:24.360><c> be</c>
+
+00:12:24.530 --> 00:12:24.540 align:start position:0%
+the order number because it will be
+ 
+
+00:12:24.540 --> 00:12:26.509 align:start position:0%
+the order number because it will be
+dynamically<00:12:25.019><c> generated</c><00:12:25.440><c> by</c><00:12:25.920><c> the</c><00:12:26.100><c> application</c>
+
+00:12:26.509 --> 00:12:26.519 align:start position:0%
+dynamically generated by the application
+ 
+
+00:12:26.519 --> 00:12:29.329 align:start position:0%
+dynamically generated by the application
+and<00:12:27.360><c> you</c><00:12:27.540><c> need</c><00:12:27.660><c> to</c><00:12:27.839><c> capture</c><00:12:28.200><c> it</c><00:12:28.440><c> and</c><00:12:28.860><c> store</c><00:12:29.100><c> it</c>
+
+00:12:29.329 --> 00:12:29.339 align:start position:0%
+and you need to capture it and store it
+ 
+
+00:12:29.339 --> 00:12:32.329 align:start position:0%
+and you need to capture it and store it
+somewhere<00:12:29.700><c> if</c><00:12:30.180><c> you</c><00:12:30.300><c> want</c><00:12:30.600><c> to</c><00:12:30.899><c> uh</c><00:12:31.740><c> go</c><00:12:31.920><c> further</c>
+
+00:12:32.329 --> 00:12:32.339 align:start position:0%
+somewhere if you want to uh go further
+ 
+
+00:12:32.339 --> 00:12:35.150 align:start position:0%
+somewhere if you want to uh go further
+in<00:12:32.640><c> your</c><00:12:32.820><c> automation</c><00:12:33.240><c> because</c><00:12:33.920><c> uh</c><00:12:34.920><c> that</c>
+
+00:12:35.150 --> 00:12:35.160 align:start position:0%
+in your automation because uh that
+ 
+
+00:12:35.160 --> 00:12:37.069 align:start position:0%
+in your automation because uh that
+verification<00:12:35.640><c> of</c><00:12:35.940><c> that</c><00:12:36.060><c> order</c><00:12:36.240><c> number</c><00:12:36.600><c> is</c>
+
+00:12:37.069 --> 00:12:37.079 align:start position:0%
+verification of that order number is
+ 
+
+00:12:37.079 --> 00:12:38.750 align:start position:0%
+verification of that order number is
+very<00:12:37.320><c> important</c>
+
+00:12:38.750 --> 00:12:38.760 align:start position:0%
+very important
+ 
+
+00:12:38.760 --> 00:12:41.150 align:start position:0%
+very important
+so<00:12:39.180><c> this</c><00:12:39.360><c> was</c><00:12:39.600><c> an</c><00:12:40.440><c> automation</c><00:12:40.800><c> challenge</c>
+
+00:12:41.150 --> 00:12:41.160 align:start position:0%
+so this was an automation challenge
+ 
+
+00:12:41.160 --> 00:12:44.329 align:start position:0%
+so this was an automation challenge
+which<00:12:41.640><c> I</c><00:12:42.120><c> thought</c><00:12:42.360><c> would</c><00:12:43.139><c> be</c><00:12:43.320><c> useful</c><00:12:43.740><c> for</c><00:12:44.220><c> you</c>
+
+00:12:44.329 --> 00:12:44.339 align:start position:0%
+which I thought would be useful for you
+ 
+
+00:12:44.339 --> 00:12:47.990 align:start position:0%
+which I thought would be useful for you
+I<00:12:44.760><c> hope</c><00:12:45.000><c> uh</c><00:12:45.600><c> you</c><00:12:45.899><c> enjoyed</c><00:12:46.260><c> it</c><00:12:46.380><c> and</c><00:12:47.160><c> you</c><00:12:47.459><c> learned</c>
+
+00:12:47.990 --> 00:12:48.000 align:start position:0%
+I hope uh you enjoyed it and you learned
+ 
+
+00:12:48.000 --> 00:12:50.870 align:start position:0%
+I hope uh you enjoyed it and you learned
+something<00:12:48.180><c> new</c><00:12:48.420><c> today</c><00:12:48.920><c> if</c><00:12:49.920><c> you</c><00:12:50.160><c> were</c><00:12:50.399><c> able</c><00:12:50.760><c> to</c>
+
+00:12:50.870 --> 00:12:50.880 align:start position:0%
+something new today if you were able to
+ 
+
+00:12:50.880 --> 00:12:53.509 align:start position:0%
+something new today if you were able to
+do<00:12:51.180><c> this</c><00:12:51.420><c> in</c><00:12:51.839><c> some</c><00:12:52.019><c> other</c><00:12:52.200><c> way</c><00:12:52.440><c> then</c><00:12:52.920><c> do</c><00:12:53.220><c> let</c><00:12:53.399><c> me</c>
+
+00:12:53.509 --> 00:12:53.519 align:start position:0%
+do this in some other way then do let me
+ 
+
+00:12:53.519 --> 00:12:56.090 align:start position:0%
+do this in some other way then do let me
+know<00:12:53.700><c> in</c><00:12:53.880><c> the</c><00:12:54.060><c> comments</c><00:12:54.420><c> so</c><00:12:55.320><c> that's</c><00:12:55.620><c> all</c><00:12:55.860><c> for</c>
+
+00:12:56.090 --> 00:12:56.100 align:start position:0%
+know in the comments so that's all for
+ 
+
+00:12:56.100 --> 00:12:58.250 align:start position:0%
+know in the comments so that's all for
+this<00:12:56.279><c> video</c><00:12:56.459><c> do</c><00:12:57.060><c> tune</c><00:12:57.300><c> into</c><00:12:57.480><c> our</c><00:12:57.720><c> channel</c><00:12:57.839><c> to</c>
+
+00:12:58.250 --> 00:12:58.260 align:start position:0%
+this video do tune into our channel to
+ 
+
+00:12:58.260 --> 00:13:00.650 align:start position:0%
+this video do tune into our channel to
+watch<00:12:58.500><c> more</c><00:12:58.980><c> interesting</c><00:12:59.399><c> videos</c><00:12:59.700><c> on</c><00:13:00.120><c> tracing</c>
+
+00:13:00.650 --> 00:13:00.660 align:start position:0%
+watch more interesting videos on tracing
+ 
+
+00:13:00.660 --> 00:13:02.569 align:start position:0%
+watch more interesting videos on tracing
+testoster<00:13:01.260><c> and</c><00:13:01.740><c> many</c><00:13:01.920><c> other</c><00:13:02.100><c> automation</c>
+
+00:13:02.569 --> 00:13:02.579 align:start position:0%
+testoster and many other automation
+ 
+
+00:13:02.579 --> 00:13:03.769 align:start position:0%
+testoster and many other automation
+tools
+
+00:13:03.769 --> 00:13:03.779 align:start position:0%
+tools
+ 
+
+00:13:03.779 --> 00:13:05.690 align:start position:0%
+tools
+do<00:13:04.320><c> subscribe</c><00:13:04.740><c> to</c><00:13:04.860><c> our</c><00:13:05.040><c> Channel</c><00:13:05.160><c> if</c><00:13:05.519><c> you</c><00:13:05.579><c> have</c>
+
+00:13:05.690 --> 00:13:05.700 align:start position:0%
+do subscribe to our Channel if you have
+ 
+
+00:13:05.700 --> 00:13:07.670 align:start position:0%
+do subscribe to our Channel if you have
+not<00:13:05.880><c> already</c><00:13:06.120><c> so</c><00:13:06.600><c> that</c><00:13:06.839><c> you</c><00:13:07.139><c> get</c><00:13:07.320><c> notified</c>
+
+00:13:07.670 --> 00:13:07.680 align:start position:0%
+not already so that you get notified
+ 
+
+00:13:07.680 --> 00:13:11.269 align:start position:0%
+not already so that you get notified
+about<00:13:08.339><c> every</c><00:13:08.700><c> update</c><00:13:09.120><c> we</c><00:13:09.600><c> make</c><00:13:09.899><c> uh</c><00:13:10.620><c> on</c><00:13:11.040><c> our</c>
+
+00:13:11.269 --> 00:13:11.279 align:start position:0%
+about every update we make uh on our
+ 
+
+00:13:11.279 --> 00:13:12.230 align:start position:0%
+about every update we make uh on our
+Channel
+
+00:13:12.230 --> 00:13:12.240 align:start position:0%
+Channel
+ 
+
+00:13:12.240 --> 00:13:14.750 align:start position:0%
+Channel
+so<00:13:12.660><c> until</c><00:13:12.899><c> we</c><00:13:13.260><c> meet</c><00:13:13.500><c> again</c>
+
+00:13:14.750 --> 00:13:14.760 align:start position:0%
+so until we meet again
+ 
+
+00:13:14.760 --> 00:13:17.690 align:start position:0%
+so until we meet again
+see<00:13:15.180><c> you</c><00:13:15.360><c> and</c><00:13:16.019><c> keep</c><00:13:16.320><c> learning</c><00:13:16.740><c> by</c><00:13:17.279><c> watching</c>
+
+00:13:17.690 --> 00:13:17.700 align:start position:0%
+see you and keep learning by watching
+ 
+
+00:13:17.700 --> 00:13:20.959 align:start position:0%
+see you and keep learning by watching
+different<00:13:17.880><c> videos</c><00:13:18.240><c> on</c><00:13:18.660><c> our</c><00:13:18.779><c> Channel</c>
+

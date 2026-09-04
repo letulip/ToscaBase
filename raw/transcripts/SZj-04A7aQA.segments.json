@@ -1,0 +1,722 @@
+[
+ {
+  "start": 7.71,
+  "end": 7.72,
+  "text": "hey everyone welcome back to this tosa"
+ },
+ {
+  "start": 7.72,
+  "end": 10.19,
+  "text": "automation playlist today we are going"
+ },
+ {
+  "start": 10.2,
+  "end": 13.629,
+  "text": "to talk about how you can scroll down a"
+ },
+ {
+  "start": 13.639,
+  "end": 16.39,
+  "text": "page uh which has got a lot of content"
+ },
+ {
+  "start": 16.4,
+  "end": 19.63,
+  "text": "and you want to view any control which"
+ },
+ {
+  "start": 19.64,
+  "end": 21.75,
+  "text": "is at the bottom of the page so you"
+ },
+ {
+  "start": 21.76,
+  "end": 24.87,
+  "text": "basically want to scroll down or up or"
+ },
+ {
+  "start": 24.88,
+  "end": 27.71,
+  "text": "you can also scroll horizontally using"
+ },
+ {
+  "start": 27.72,
+  "end": 30.349,
+  "text": "the horizontal and also vertically using"
+ },
+ {
+  "start": 30.359,
+  "end": 33.43,
+  "text": "the vertical axis so tosa provides you"
+ },
+ {
+  "start": 33.44,
+  "end": 35.91,
+  "text": "with automation module which is called"
+ },
+ {
+  "start": 35.92,
+  "end": 39.35,
+  "text": "the tbox scroll window operation and it"
+ },
+ {
+  "start": 39.36,
+  "end": 42.67,
+  "text": "is part of the standard subset so let's"
+ },
+ {
+  "start": 42.68,
+  "end": 45.19,
+  "text": "see how we can use that okay so for this"
+ },
+ {
+  "start": 45.2,
+  "end": 47.95,
+  "text": "purpose I have created a test case here"
+ },
+ {
+  "start": 47.96,
+  "end": 50.43,
+  "text": "and then I'm going to search and ADD"
+ },
+ {
+  "start": 50.44,
+  "end": 52.79,
+  "text": "test step here I'm going to search for"
+ },
+ {
+  "start": 52.8,
+  "end": 57.029,
+  "text": "the tbox scroll okay and then I'm going"
+ },
+ {
+  "start": 57.039,
+  "end": 58.95,
+  "text": "to add this particular module into the"
+ },
+ {
+  "start": 58.96,
+  "end": 61.15,
+  "text": "test case now going through the"
+ },
+ {
+  "start": 61.16,
+  "end": 64.39,
+  "text": "different module attributes or the"
+ },
+ {
+  "start": 64.4,
+  "end": 67.23,
+  "text": "parameters so the first module attribute"
+ },
+ {
+  "start": 67.24,
+  "end": 69.95,
+  "text": "is called caption now this is uh the"
+ },
+ {
+  "start": 69.96,
+  "end": 71.99,
+  "text": "caption of the application window uh"
+ },
+ {
+  "start": 72.0,
+  "end": 75.55,
+  "text": "which you want to scroll uh and caption"
+ },
+ {
+  "start": 75.56,
+  "end": 77.67,
+  "text": "would mean that uh it is probably the"
+ },
+ {
+  "start": 77.68,
+  "end": 82.149,
+  "text": "title of the page or the window okay"
+ },
+ {
+  "start": 82.159,
+  "end": 84.23,
+  "text": "then there is window index so you want"
+ },
+ {
+  "start": 84.24,
+  "end": 86.789,
+  "text": "to specify uh which window you want to"
+ },
+ {
+  "start": 86.799,
+  "end": 89.71,
+  "text": "scroll based on the opening order so if"
+ },
+ {
+  "start": 89.72,
+  "end": 91.39,
+  "text": "the are multiple Pages which have the"
+ },
+ {
+  "start": 91.4,
+  "end": 93.71,
+  "text": "same caption you can Define the window"
+ },
+ {
+  "start": 93.72,
+  "end": 96.55,
+  "text": "index using which uh tosa can then"
+ },
+ {
+  "start": 96.56,
+  "end": 99.27,
+  "text": "perform the operation on that particular"
+ },
+ {
+  "start": 99.28,
+  "end": 102.429,
+  "text": "window then uh there is vertical and"
+ },
+ {
+  "start": 102.439,
+  "end": 106.91,
+  "text": "horizontal so you have to specify uh"
+ },
+ {
+  "start": 106.92,
+  "end": 110.749,
+  "text": "what amount of pixels or lines you want"
+ },
+ {
+  "start": 110.759,
+  "end": 113.95,
+  "text": "uh tosa to scroll uh along the pach so"
+ },
+ {
+  "start": 113.96,
+  "end": 116.19,
+  "text": "it could be in terms of a vertical axis"
+ },
+ {
+  "start": 116.2,
+  "end": 118.789,
+  "text": "or in terms of horizontal axis in both"
+ },
+ {
+  "start": 118.799,
+  "end": 121.149,
+  "text": "cases either you have to specify it in"
+ },
+ {
+  "start": 121.159,
+  "end": 124.029,
+  "text": "pixels or the"
+ },
+ {
+  "start": 124.039,
+  "end": 126.429,
+  "text": "lines then there is something called uh"
+ },
+ {
+  "start": 126.439,
+  "end": 128.55,
+  "text": "the mouse policy and there are two"
+ },
+ {
+  "start": 128.56,
+  "end": 131.19,
+  "text": "options none or Center so this is"
+ },
+ {
+  "start": 131.2,
+  "end": 133.71,
+  "text": "basically tosa will position uh the"
+ },
+ {
+  "start": 133.72,
+  "end": 136.27,
+  "text": "mouse pointer uh during the scrolling so"
+ },
+ {
+  "start": 136.28,
+  "end": 138.39,
+  "text": "either it could be Center or it would"
+ },
+ {
+  "start": 138.4,
+  "end": 141.35,
+  "text": "not move the mouse pointer at all then"
+ },
+ {
+  "start": 141.36,
+  "end": 143.11,
+  "text": "there is the direction policy uh there"
+ },
+ {
+  "start": 143.12,
+  "end": 145.589,
+  "text": "are three options no Direction policy"
+ },
+ {
+  "start": 145.599,
+  "end": 149.43,
+  "text": "vertical uh first and horizontal first"
+ },
+ {
+  "start": 149.44,
+  "end": 152.71,
+  "text": "so it basically decides uh what tosa"
+ },
+ {
+  "start": 152.72,
+  "end": 156.309,
+  "text": "should scroll along either the vertical"
+ },
+ {
+  "start": 156.319,
+  "end": 158.99,
+  "text": "or horizontal axis first okay so if you"
+ },
+ {
+  "start": 159.0,
+  "end": 161.55,
+  "text": "mention the vertical first then it will"
+ },
+ {
+  "start": 161.56,
+  "end": 164.229,
+  "text": "scroll the vertically and if you mention"
+ },
+ {
+  "start": 164.239,
+  "end": 166.229,
+  "text": "horizontal first then it will scroll"
+ },
+ {
+  "start": 166.239,
+  "end": 169.43,
+  "text": "horizontally first okay and then there"
+ },
+ {
+  "start": 169.44,
+  "end": 172.43,
+  "text": "is also a delay you can mention the time"
+ },
+ {
+  "start": 172.44,
+  "end": 174.71,
+  "text": "in milliseconds uh this is basically"
+ },
+ {
+  "start": 174.72,
+  "end": 177.07,
+  "text": "when you have both horizontal and"
+ },
+ {
+  "start": 177.08,
+  "end": 179.79,
+  "text": "vertical defined then uh there will be a"
+ },
+ {
+  "start": 179.8,
+  "end": 182.47,
+  "text": "a delay between these two operations so"
+ },
+ {
+  "start": 182.48,
+  "end": 184.55,
+  "text": "tosa will wait for that amount of time"
+ },
+ {
+  "start": 184.56,
+  "end": 187.309,
+  "text": "before it does the other operation which"
+ },
+ {
+  "start": 187.319,
+  "end": 190.19,
+  "text": "could be horizontal or vertical"
+ },
+ {
+  "start": 190.2,
+  "end": 192.83,
+  "text": "scrolling okay so these are all the"
+ },
+ {
+  "start": 192.84,
+  "end": 194.99,
+  "text": "different module attributes uh which you"
+ },
+ {
+  "start": 195.0,
+  "end": 197.229,
+  "text": "need to Define not all of them are"
+ },
+ {
+  "start": 197.239,
+  "end": 199.509,
+  "text": "mandatory uh you need to define the"
+ },
+ {
+  "start": 199.519,
+  "end": 202.07,
+  "text": "caption uh if you require you can Define"
+ },
+ {
+  "start": 202.08,
+  "end": 204.789,
+  "text": "the index uh you have to Define either"
+ },
+ {
+  "start": 204.799,
+  "end": 207.47,
+  "text": "vertical or horizontal so how much you"
+ },
+ {
+  "start": 207.48,
+  "end": 208.309,
+  "text": "want to"
+ },
+ {
+  "start": 208.319,
+  "end": 211.19,
+  "text": "scroll and then uh the mouse policy can"
+ },
+ {
+  "start": 211.2,
+  "end": 213.75,
+  "text": "be left as Center and the direction"
+ },
+ {
+  "start": 213.76,
+  "end": 215.67,
+  "text": "policy you can choose between vertical"
+ },
+ {
+  "start": 215.68,
+  "end": 218.19,
+  "text": "and horizontal so for this particular"
+ },
+ {
+  "start": 218.2,
+  "end": 220.509,
+  "text": "example I have picked up this demo"
+ },
+ {
+  "start": 220.519,
+  "end": 223.67,
+  "text": "website uh where uh the infinite scroll"
+ },
+ {
+  "start": 223.68,
+  "end": 226.149,
+  "text": "has been implemented so as long as you"
+ },
+ {
+  "start": 226.159,
+  "end": 228.67,
+  "text": "are just scrolling it will keep on"
+ },
+ {
+  "start": 228.68,
+  "end": 231.19,
+  "text": "increasing"
+ },
+ {
+  "start": 231.2,
+  "end": 233.589,
+  "text": "okay so here we are going to scroll"
+ },
+ {
+  "start": 233.599,
+  "end": 235.83,
+  "text": "vertically okay uh it is currently at"
+ },
+ {
+  "start": 235.84,
+  "end": 238.149,
+  "text": "the top of the page but I want to scroll"
+ },
+ {
+  "start": 238.159,
+  "end": 240.19,
+  "text": "vertically downwards okay"
+ },
+ {
+  "start": 240.2,
+  "end": 243.47,
+  "text": "so uh let's implement this now um as you"
+ },
+ {
+  "start": 243.48,
+  "end": 247.55,
+  "text": "can see uh the title of this page is the"
+ },
+ {
+  "start": 247.56,
+  "end": 249.789,
+  "text": "internet right and that would be your"
+ },
+ {
+  "start": 249.799,
+  "end": 253.63,
+  "text": "caption right so uh I will mention the"
+ },
+ {
+  "start": 253.64,
+  "end": 256.87,
+  "text": "caption here as the internet and then I"
+ },
+ {
+  "start": 256.88,
+  "end": 258.749,
+  "text": "will put a regular expression as well so"
+ },
+ {
+  "start": 258.759,
+  "end": 261.87,
+  "text": "that if in future this particular title"
+ },
+ {
+  "start": 261.88,
+  "end": 265.59,
+  "text": "changes it will still work out okay uh I"
+ },
+ {
+  "start": 265.6,
+  "end": 267.11,
+  "text": "don't need to mention any window index"
+ },
+ {
+  "start": 267.12,
+  "end": 269.43,
+  "text": "because there's just one window uh and"
+ },
+ {
+  "start": 269.44,
+  "end": 271.95,
+  "text": "then I want to do a vertical scroll so"
+ },
+ {
+  "start": 271.96,
+  "end": 276.35,
+  "text": "I'm going to mention 500 pixel okay and"
+ },
+ {
+  "start": 276.36,
+  "end": 278.43,
+  "text": "that will vertically scroll the page to"
+ },
+ {
+  "start": 278.44,
+  "end": 279.51,
+  "text": "500"
+ },
+ {
+  "start": 279.52,
+  "end": 282.35,
+  "text": "pixel Mouse policy I will leave it at as"
+ },
+ {
+  "start": 282.36,
+  "end": 285.029,
+  "text": "Center and then Direction policy I will"
+ },
+ {
+  "start": 285.039,
+  "end": 287.029,
+  "text": "do vertical first although it's not"
+ },
+ {
+  "start": 287.039,
+  "end": 290.59,
+  "text": "required because we are not uh doing a"
+ },
+ {
+  "start": 290.6,
+  "end": 293.87,
+  "text": "horizontal scroll right and then we"
+ },
+ {
+  "start": 293.88,
+  "end": 296.43,
+  "text": "don't need any delay because uh we are"
+ },
+ {
+  "start": 296.44,
+  "end": 298.749,
+  "text": "just doing one scroll not both the"
+ },
+ {
+  "start": 298.759,
+  "end": 300.15,
+  "text": "Scrolls"
+ },
+ {
+  "start": 300.16,
+  "end": 302.31,
+  "text": "so let's go ahead and execute this test"
+ },
+ {
+  "start": 302.32,
+  "end": 304.59,
+  "text": "case and let's see if uh TSA is able to"
+ },
+ {
+  "start": 304.6,
+  "end": 308.31,
+  "text": "scroll the page vertically so let's run"
+ },
+ {
+  "start": 308.32,
+  "end": 309.189,
+  "text": "it in"
+ },
+ {
+  "start": 309.199,
+  "end": 312.909,
+  "text": "scratchbook and now you will see that uh"
+ },
+ {
+  "start": 312.919,
+  "end": 316.83,
+  "text": "tosa was able to scroll vertically okay"
+ },
+ {
+  "start": 316.84,
+  "end": 318.909,
+  "text": "now we are at the middle or at least"
+ },
+ {
+  "start": 318.919,
+  "end": 320.67,
+  "text": "somewhere down the page right if you"
+ },
+ {
+  "start": 320.68,
+  "end": 323.51,
+  "text": "want to scroll more then just increase"
+ },
+ {
+  "start": 323.52,
+  "end": 327.029,
+  "text": "the pixels okay and um in the results"
+ },
+ {
+  "start": 327.039,
+  "end": 328.749,
+  "text": "window also you will see that the test"
+ },
+ {
+  "start": 328.759,
+  "end": 330.11,
+  "text": "case has passed"
+ },
+ {
+  "start": 330.12,
+  "end": 332.27,
+  "text": "right so that's how you can uh"
+ },
+ {
+  "start": 332.28,
+  "end": 335.309,
+  "text": "vertically or horizontally scroll uh"
+ },
+ {
+  "start": 335.319,
+  "end": 337.629,
+  "text": "down the page it could be applied to"
+ },
+ {
+  "start": 337.639,
+  "end": 341.43,
+  "text": "either a application or even a Windows"
+ },
+ {
+  "start": 341.44,
+  "end": 345.029,
+  "text": "based application right so it basically"
+ },
+ {
+  "start": 345.039,
+  "end": 347.07,
+  "text": "needs to be a window which has got the"
+ },
+ {
+  "start": 347.08,
+  "end": 349.95,
+  "text": "scroll bars like horizontal or vertical"
+ },
+ {
+  "start": 349.96,
+  "end": 353.23,
+  "text": "and then you can scroll up or down using"
+ },
+ {
+  "start": 353.24,
+  "end": 355.39,
+  "text": "this uh tbox automation module which is"
+ },
+ {
+  "start": 355.4,
+  "end": 357.83,
+  "text": "known as tbox scroll window"
+ },
+ {
+  "start": 357.84,
+  "end": 360.43,
+  "text": "operation also do keep it in mind that"
+ },
+ {
+  "start": 360.44,
+  "end": 362.95,
+  "text": "uh this particular module is not"
+ },
+ {
+  "start": 362.96,
+  "end": 366.39,
+  "text": "available in older versions of tosa I'm"
+ },
+ {
+  "start": 366.4,
+  "end": 369.07,
+  "text": "currently using the tosa 16 version and"
+ },
+ {
+  "start": 369.08,
+  "end": 372.15,
+  "text": "it's available in this particular"
+ },
+ {
+  "start": 372.16,
+  "end": 374.51,
+  "text": "version that's all for this particular"
+ },
+ {
+  "start": 374.52,
+  "end": 376.99,
+  "text": "video if you have any questions then"
+ },
+ {
+  "start": 377.0,
+  "end": 379.43,
+  "text": "please leave it in the comments if you"
+ },
+ {
+  "start": 379.44,
+  "end": 381.39,
+  "text": "like this video then please subscribe to"
+ },
+ {
+  "start": 381.4,
+  "end": 384.11,
+  "text": "our Channel thanks for watching and I"
+ },
+ {
+  "start": 384.12,
+  "end": 385.95,
+  "text": "will see you in the next"
+ },
+ {
+  "start": 385.96,
+  "end": 388.96,
+  "text": "video"
+ }
+]

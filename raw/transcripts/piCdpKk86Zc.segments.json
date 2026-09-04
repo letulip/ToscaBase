@@ -1,0 +1,1197 @@
+[
+ {
+  "start": 8.39,
+  "end": 8.4,
+  "text": "hey all welcome back to another"
+ },
+ {
+  "start": 8.4,
+  "end": 10.009,
+  "text": "interesting lesson in this Tosca"
+ },
+ {
+  "start": 10.019,
+  "end": 12.049,
+  "text": "playlist today we are going to talk"
+ },
+ {
+  "start": 12.059,
+  "end": 15.829,
+  "text": "about how we can record executions in"
+ },
+ {
+  "start": 15.839,
+  "end": 17.33,
+  "text": "placenta"
+ },
+ {
+  "start": 17.34,
+  "end": 19.97,
+  "text": "and this feature was recently introduced"
+ },
+ {
+  "start": 19.98,
+  "end": 22.609,
+  "text": "uh at least in the latest versions of"
+ },
+ {
+  "start": 22.619,
+  "end": 26.269,
+  "text": "Tosca uh where you can record the"
+ },
+ {
+  "start": 26.279,
+  "end": 28.429,
+  "text": "complete execution whenever you run your"
+ },
+ {
+  "start": 28.439,
+  "end": 31.37,
+  "text": "test either from scratchbook or from an"
+ },
+ {
+  "start": 31.38,
+  "end": 33.65,
+  "text": "execution list"
+ },
+ {
+  "start": 33.66,
+  "end": 36.47,
+  "text": "so this particular feature is very"
+ },
+ {
+  "start": 36.48,
+  "end": 39.35,
+  "text": "interesting and useful because when"
+ },
+ {
+  "start": 39.36,
+  "end": 41.93,
+  "text": "whenever we are executing our automation"
+ },
+ {
+  "start": 41.94,
+  "end": 45.229,
+  "text": "test cases from Tosca sometimes it may"
+ },
+ {
+  "start": 45.239,
+  "end": 48.95,
+  "text": "happen that uh you you are executing"
+ },
+ {
+  "start": 48.96,
+  "end": 52.069,
+  "text": "them uh somewhere on the remote machine"
+ },
+ {
+  "start": 52.079,
+  "end": 54.049,
+  "text": "or you are doing distributed execution"
+ },
+ {
+  "start": 54.059,
+  "end": 56.869,
+  "text": "right in this cases you may not be"
+ },
+ {
+  "start": 56.879,
+  "end": 59.389,
+  "text": "monitoring your executions continuously"
+ },
+ {
+  "start": 59.399,
+  "end": 61.61,
+  "text": "and if it is a long test case which"
+ },
+ {
+  "start": 61.62,
+  "end": 64.39,
+  "text": "maybe takes a hour or a half an hour"
+ },
+ {
+  "start": 64.4,
+  "end": 68.09,
+  "text": "then uh there might be some issue which"
+ },
+ {
+  "start": 68.1,
+  "end": 70.37,
+  "text": "pops up in between which breaks your"
+ },
+ {
+  "start": 70.38,
+  "end": 73.609,
+  "text": "test and then it is difficult to debug"
+ },
+ {
+  "start": 73.619,
+  "end": 75.53,
+  "text": "uh that particular issue because you"
+ },
+ {
+  "start": 75.54,
+  "end": 76.73,
+  "text": "have to get and go through your test"
+ },
+ {
+  "start": 76.74,
+  "end": 79.49,
+  "text": "case your test steps your modules and"
+ },
+ {
+  "start": 79.5,
+  "end": 82.31,
+  "text": "find out where exactly it uh it was"
+ },
+ {
+  "start": 82.32,
+  "end": 84.71,
+  "text": "broken even though it will show it in"
+ },
+ {
+  "start": 84.72,
+  "end": 87.649,
+  "text": "the logs you can find the errors which"
+ },
+ {
+  "start": 87.659,
+  "end": 90.649,
+  "text": "are happening but the error locks are"
+ },
+ {
+  "start": 90.659,
+  "end": 93.95,
+  "text": "not really conclusive all the time so"
+ },
+ {
+  "start": 93.96,
+  "end": 96.35,
+  "text": "it's really useful if you can take some"
+ },
+ {
+  "start": 96.36,
+  "end": 98.63,
+  "text": "screenshot of either the where the issue"
+ },
+ {
+  "start": 98.64,
+  "end": 101.929,
+  "text": "happened or you can even have a"
+ },
+ {
+  "start": 101.939,
+  "end": 104.27,
+  "text": "recording if your test case fails okay"
+ },
+ {
+  "start": 104.28,
+  "end": 106.01,
+  "text": "and then you can look at that recording"
+ },
+ {
+  "start": 106.02,
+  "end": 108.59,
+  "text": "and find out where exactly your test"
+ },
+ {
+  "start": 108.6,
+  "end": 110.749,
+  "text": "case is failing and then you can go"
+ },
+ {
+  "start": 110.759,
+  "end": 113.33,
+  "text": "ahead and easily fix it right"
+ },
+ {
+  "start": 113.34,
+  "end": 116.27,
+  "text": "so it's a useful feature but then it has"
+ },
+ {
+  "start": 116.28,
+  "end": 119.33,
+  "text": "its own downsides where you have to"
+ },
+ {
+  "start": 119.34,
+  "end": 122.09,
+  "text": "store this recordings and then you have"
+ },
+ {
+  "start": 122.1,
+  "end": 124.249,
+  "text": "to decide how you can manage this"
+ },
+ {
+  "start": 124.259,
+  "end": 126.289,
+  "text": "recordings because this can take up"
+ },
+ {
+  "start": 126.299,
+  "end": 129.35,
+  "text": "quite uh some space if you record your"
+ },
+ {
+  "start": 129.36,
+  "end": 132.83,
+  "text": "test executions right but there are ways"
+ },
+ {
+  "start": 132.84,
+  "end": 134.869,
+  "text": "to manage that but first let's see how"
+ },
+ {
+  "start": 134.879,
+  "end": 137.69,
+  "text": "you can use this particular feature okay"
+ },
+ {
+  "start": 137.7,
+  "end": 140.57,
+  "text": "now as I said if this feature is not"
+ },
+ {
+  "start": 140.58,
+  "end": 142.729,
+  "text": "available in your Tosca Commander it is"
+ },
+ {
+  "start": 142.739,
+  "end": 145.67,
+  "text": "because uh you may be using a older"
+ },
+ {
+  "start": 145.68,
+  "end": 147.89,
+  "text": "version of Tosca Commander this is"
+ },
+ {
+  "start": 147.9,
+  "end": 153.949,
+  "text": "mostly uh available after 15.1 as I know"
+ },
+ {
+  "start": 155.99,
+  "end": 156.0,
+  "text": "So currently I am using the 16 person"
+ },
+ {
+  "start": 156.0,
+  "end": 158.27,
+  "text": "and I would recommend you to upgrade"
+ },
+ {
+  "start": 158.28,
+  "end": 160.43,
+  "text": "your Tosca Commander if you have not"
+ },
+ {
+  "start": 160.44,
+  "end": 162.17,
+  "text": "done so okay"
+ },
+ {
+  "start": 162.18,
+  "end": 165.77,
+  "text": "so to enable this feature uh we have to"
+ },
+ {
+  "start": 165.78,
+  "end": 168.65,
+  "text": "enable something on the settings so when"
+ },
+ {
+  "start": 168.66,
+  "end": 174.229,
+  "text": "we go into project and settings"
+ },
+ {
+  "start": 176.089,
+  "end": 176.099,
+  "text": "this is where we have to change this"
+ },
+ {
+  "start": 176.099,
+  "end": 178.61,
+  "text": "setting and you have to go to a t-box"
+ },
+ {
+  "start": 178.62,
+  "end": 181.19,
+  "text": "and under t-box you will find execution"
+ },
+ {
+  "start": 181.2,
+  "end": 182.39,
+  "text": "recorder"
+ },
+ {
+  "start": 182.4,
+  "end": 183.53,
+  "text": "okay"
+ },
+ {
+  "start": 183.54,
+  "end": 186.009,
+  "text": "Now by default this execution recorder"
+ },
+ {
+  "start": 186.019,
+  "end": 189.41,
+  "text": "enable execution recorder is disabled"
+ },
+ {
+  "start": 189.42,
+  "end": 191.57,
+  "text": "and I can enable it but there are two"
+ },
+ {
+  "start": 191.58,
+  "end": 193.43,
+  "text": "more options right so either I can"
+ },
+ {
+  "start": 193.44,
+  "end": 196.309,
+  "text": "enable it for all my test executions or"
+ },
+ {
+  "start": 196.319,
+  "end": 198.589,
+  "text": "I can only enable it only when my test"
+ },
+ {
+  "start": 198.599,
+  "end": 201.77,
+  "text": "case fails which is quite logical also"
+ },
+ {
+  "start": 201.78,
+  "end": 205.009,
+  "text": "because I would be more interested when"
+ },
+ {
+  "start": 205.019,
+  "end": 207.53,
+  "text": "uh my test case fails I would like to"
+ },
+ {
+  "start": 207.54,
+  "end": 209.63,
+  "text": "look at that recording but if you have"
+ },
+ {
+  "start": 209.64,
+  "end": 213.05,
+  "text": "got lots of memory and space then you"
+ },
+ {
+  "start": 213.06,
+  "end": 215.449,
+  "text": "can even enable it for all the"
+ },
+ {
+  "start": 215.459,
+  "end": 217.67,
+  "text": "executions okay"
+ },
+ {
+  "start": 217.68,
+  "end": 219.589,
+  "text": "but just for this session"
+ },
+ {
+  "start": 219.599,
+  "end": 221.809,
+  "text": "um I will just keep it to enabled okay"
+ },
+ {
+  "start": 221.819,
+  "end": 224.99,
+  "text": "uh the output file name template you can"
+ },
+ {
+  "start": 225.0,
+  "end": 227.33,
+  "text": "always change it based on how you want"
+ },
+ {
+  "start": 227.34,
+  "end": 229.009,
+  "text": "uh it to be"
+ },
+ {
+  "start": 229.019,
+  "end": 231.89,
+  "text": "stored okay so it is basically stored"
+ },
+ {
+  "start": 231.9,
+  "end": 233.809,
+  "text": "with test case name and execution start"
+ },
+ {
+  "start": 233.819,
+  "end": 234.649,
+  "text": "time"
+ },
+ {
+  "start": 234.659,
+  "end": 237.77,
+  "text": "uh in the MP4 format but you can change"
+ },
+ {
+  "start": 237.78,
+  "end": 240.89,
+  "text": "the name um As You Wish okay"
+ },
+ {
+  "start": 240.9,
+  "end": 245.27,
+  "text": "then the output path is under your Tosca"
+ },
+ {
+  "start": 245.28,
+  "end": 247.85,
+  "text": "projects okay and there there is a"
+ },
+ {
+  "start": 247.86,
+  "end": 249.53,
+  "text": "folder called recordings"
+ },
+ {
+  "start": 249.54,
+  "end": 252.649,
+  "text": "uh you can also adjust this output path"
+ },
+ {
+  "start": 252.659,
+  "end": 255.47,
+  "text": "if you need to okay so once you enable"
+ },
+ {
+  "start": 255.48,
+  "end": 258.17,
+  "text": "this uh you can close the setting and"
+ },
+ {
+  "start": 258.18,
+  "end": 260.569,
+  "text": "now whatever executions I do either in"
+ },
+ {
+  "start": 260.579,
+  "end": 263.81,
+  "text": "scratchbook or on the execution list my"
+ },
+ {
+  "start": 263.82,
+  "end": 266.21,
+  "text": "uh execution recording should be"
+ },
+ {
+  "start": 266.22,
+  "end": 269.39,
+  "text": "available on that particular path okay"
+ },
+ {
+  "start": 269.4,
+  "end": 272.51,
+  "text": "so for example this last case which we"
+ },
+ {
+  "start": 272.52,
+  "end": 275.51,
+  "text": "developed uh for fire event if I go"
+ },
+ {
+  "start": 275.52,
+  "end": 277.969,
+  "text": "ahead and run this now"
+ },
+ {
+  "start": 277.979,
+  "end": 280.129,
+  "text": "so this particular execution will be"
+ },
+ {
+  "start": 280.139,
+  "end": 282.65,
+  "text": "recorded and the mp4 file will be"
+ },
+ {
+  "start": 282.66,
+  "end": 285.11,
+  "text": "available on that particular path after"
+ },
+ {
+  "start": 285.12,
+  "end": 290.27,
+  "text": "the execution is completed"
+ },
+ {
+  "start": 293.33,
+  "end": 293.34,
+  "text": "so do remember that even if you pause uh"
+ },
+ {
+  "start": 293.34,
+  "end": 295.61,
+  "text": "the execution your recording won't be"
+ },
+ {
+  "start": 295.62,
+  "end": 298.61,
+  "text": "paused okay so it will continue"
+ },
+ {
+  "start": 298.62,
+  "end": 302.51,
+  "text": "and once this is completed then um I can"
+ },
+ {
+  "start": 302.52,
+  "end": 305.57,
+  "text": "go to that path so you can see here uh"
+ },
+ {
+  "start": 305.58,
+  "end": 307.07,
+  "text": "this particular path"
+ },
+ {
+  "start": 307.08,
+  "end": 310.37,
+  "text": "it is under C Tosca projects this is the"
+ },
+ {
+  "start": 310.38,
+  "end": 312.71,
+  "text": "default path uh if you have not changed"
+ },
+ {
+  "start": 312.72,
+  "end": 315.83,
+  "text": "it so then I Tosca Commander under this"
+ },
+ {
+  "start": 315.84,
+  "end": 318.71,
+  "text": "we have the recordings folder and inside"
+ },
+ {
+  "start": 318.72,
+  "end": 320.81,
+  "text": "this you will see that uh this"
+ },
+ {
+  "start": 320.82,
+  "end": 322.67,
+  "text": "particular file has just been created"
+ },
+ {
+  "start": 322.68,
+  "end": 325.43,
+  "text": "okay so it's basically a simple"
+ },
+ {
+  "start": 325.44,
+  "end": 328.09,
+  "text": "recording of my complete execution"
+ },
+ {
+  "start": 328.1,
+  "end": 332.029,
+  "text": "starting from opening the page and"
+ },
+ {
+  "start": 332.039,
+  "end": 334.189,
+  "text": "executing that particular test so"
+ },
+ {
+  "start": 334.199,
+  "end": 337.37,
+  "text": "whatever you are doing execution it will"
+ },
+ {
+  "start": 337.38,
+  "end": 339.77,
+  "text": "basically record the whole screen"
+ },
+ {
+  "start": 339.78,
+  "end": 347.09,
+  "text": "okay"
+ },
+ {
+  "start": 349.85,
+  "end": 349.86,
+  "text": "so uh that's how you can create a"
+ },
+ {
+  "start": 349.86,
+  "end": 352.07,
+  "text": "recording and you can view it"
+ },
+ {
+  "start": 352.08,
+  "end": 354.83,
+  "text": "um either based on failures or basically"
+ },
+ {
+  "start": 354.84,
+  "end": 357.35,
+  "text": "do it for all your executions"
+ },
+ {
+  "start": 357.36,
+  "end": 361.129,
+  "text": "but what if you don't want to run any"
+ },
+ {
+  "start": 361.139,
+  "end": 363.89,
+  "text": "particular test case okay or you don't"
+ },
+ {
+  "start": 363.9,
+  "end": 365.689,
+  "text": "want to record the execution of"
+ },
+ {
+  "start": 365.699,
+  "end": 367.55,
+  "text": "particular test cases because you know"
+ },
+ {
+  "start": 367.56,
+  "end": 370.909,
+  "text": "that this may pass all the time so if"
+ },
+ {
+  "start": 370.919,
+  "end": 372.35,
+  "text": "you have enabled it for all the test"
+ },
+ {
+  "start": 372.36,
+  "end": 374.33,
+  "text": "cases and you still want to filter out"
+ },
+ {
+  "start": 374.34,
+  "end": 376.07,
+  "text": "some of the test cases you don't want"
+ },
+ {
+  "start": 376.08,
+  "end": 378.35,
+  "text": "because maybe it is too lengthy it will"
+ },
+ {
+  "start": 378.36,
+  "end": 381.249,
+  "text": "create a long video or any reason okay"
+ },
+ {
+  "start": 381.259,
+  "end": 384.469,
+  "text": "you can do that easily so what you need"
+ },
+ {
+  "start": 384.479,
+  "end": 386.809,
+  "text": "to do is either on the folder level or"
+ },
+ {
+  "start": 386.819,
+  "end": 390.05,
+  "text": "test case level go ahead and create a"
+ },
+ {
+  "start": 390.06,
+  "end": 393.35,
+  "text": "test configuration parameter okay"
+ },
+ {
+  "start": 393.36,
+  "end": 397.55,
+  "text": "so here if I go ahead and create a test"
+ },
+ {
+  "start": 397.56,
+  "end": 400.85,
+  "text": "configuration parameter and then I just"
+ },
+ {
+  "start": 400.86,
+  "end": 403.189,
+  "text": "have to name it avoid"
+ },
+ {
+  "start": 403.199,
+  "end": 405.83,
+  "text": "execution"
+ },
+ {
+  "start": 405.84,
+  "end": 408.65,
+  "text": "recorder okay so this is the test"
+ },
+ {
+  "start": 408.66,
+  "end": 411.65,
+  "text": "configuration parameter name and then"
+ },
+ {
+  "start": 411.66,
+  "end": 415.37,
+  "text": "the value should be set to True okay so"
+ },
+ {
+  "start": 415.38,
+  "end": 416.689,
+  "text": "you can also have this test"
+ },
+ {
+  "start": 416.699,
+  "end": 418.73,
+  "text": "configuration parameter at a root level"
+ },
+ {
+  "start": 418.74,
+  "end": 422.45,
+  "text": "and then or at a folder level or at a"
+ },
+ {
+  "start": 422.46,
+  "end": 425.029,
+  "text": "test case level okay so you can just set"
+ },
+ {
+  "start": 425.039,
+  "end": 426.95,
+  "text": "it to true or false and based on that"
+ },
+ {
+  "start": 426.96,
+  "end": 428.87,
+  "text": "you don't even need to change the"
+ },
+ {
+  "start": 428.88,
+  "end": 431.21,
+  "text": "setting all the time uh based on this"
+ },
+ {
+  "start": 431.22,
+  "end": 433.37,
+  "text": "test configuration parameter it can"
+ },
+ {
+  "start": 433.38,
+  "end": 436.01,
+  "text": "figure out uh which test case execution"
+ },
+ {
+  "start": 436.02,
+  "end": 437.629,
+  "text": "should be recorded and which should not"
+ },
+ {
+  "start": 437.639,
+  "end": 439.07,
+  "text": "be okay"
+ },
+ {
+  "start": 439.08,
+  "end": 443.87,
+  "text": "now um if I go ahead and run this this"
+ },
+ {
+  "start": 443.88,
+  "end": 446.27,
+  "text": "time around you will see that uh there"
+ },
+ {
+  "start": 446.28,
+  "end": 448.85,
+  "text": "would be no execution recording which"
+ },
+ {
+  "start": 448.86,
+  "end": 450.11,
+  "text": "will be available"
+ },
+ {
+  "start": 450.12,
+  "end": 454.49,
+  "text": "okay before that I should have opened"
+ },
+ {
+  "start": 454.5,
+  "end": 456.589,
+  "text": "the pages otherwise this is going to"
+ },
+ {
+  "start": 456.599,
+  "end": 458.15,
+  "text": "fail"
+ },
+ {
+  "start": 458.16,
+  "end": 460.55,
+  "text": "so let me close this"
+ },
+ {
+  "start": 460.56,
+  "end": 463.249,
+  "text": "because I haven't opened the URLs on"
+ },
+ {
+  "start": 463.259,
+  "end": 465.529,
+  "text": "this particular test case so this is"
+ },
+ {
+  "start": 465.539,
+  "end": 468.77,
+  "text": "always going to fail so let me go ahead"
+ },
+ {
+  "start": 468.78,
+  "end": 472.61,
+  "text": "and open this website where we are using"
+ },
+ {
+  "start": 472.62,
+  "end": 474.95,
+  "text": "or testing this particular feature"
+ },
+ {
+  "start": 474.96,
+  "end": 477.23,
+  "text": "okay so these are multiple tabs which"
+ },
+ {
+  "start": 477.24,
+  "end": 478.61,
+  "text": "are open"
+ },
+ {
+  "start": 478.62,
+  "end": 486.29,
+  "text": "and I'm going to now run this let's see"
+ },
+ {
+  "start": 488.39,
+  "end": 488.4,
+  "text": "okay so if you have not watched this"
+ },
+ {
+  "start": 488.4,
+  "end": 492.17,
+  "text": "video already it is present how you can"
+ },
+ {
+  "start": 492.18,
+  "end": 495.37,
+  "text": "handle multiple tabs using a constraint"
+ },
+ {
+  "start": 495.38,
+  "end": 498.469,
+  "text": "parameter okay which you can add for"
+ },
+ {
+  "start": 498.479,
+  "end": 501.23,
+  "text": "your page then based on that it can pick"
+ },
+ {
+  "start": 501.24,
+  "end": 503.689,
+  "text": "up any particular tab"
+ },
+ {
+  "start": 503.699,
+  "end": 506.689,
+  "text": "okay so uh the execution is completed as"
+ },
+ {
+  "start": 506.699,
+  "end": 509.869,
+  "text": "you can see uh it has passed and now if"
+ },
+ {
+  "start": 509.879,
+  "end": 511.969,
+  "text": "I go back to my recordings"
+ },
+ {
+  "start": 511.979,
+  "end": 514.25,
+  "text": "and I refresh the speech you will see"
+ },
+ {
+  "start": 514.26,
+  "end": 516.23,
+  "text": "that no execution recording has been"
+ },
+ {
+  "start": 516.24,
+  "end": 518.029,
+  "text": "created okay"
+ },
+ {
+  "start": 518.039,
+  "end": 520.43,
+  "text": "so this is a way to filter out uh some"
+ },
+ {
+  "start": 520.44,
+  "end": 522.23,
+  "text": "test cases where you don't want any"
+ },
+ {
+  "start": 522.24,
+  "end": 524.329,
+  "text": "recordings okay"
+ },
+ {
+  "start": 524.339,
+  "end": 528.29,
+  "text": "now uh interestingly as I said you can"
+ },
+ {
+  "start": 528.3,
+  "end": 530.63,
+  "text": "use this recording feature both on the"
+ },
+ {
+  "start": 530.64,
+  "end": 532.61,
+  "text": "scratchbook also on the execution list"
+ },
+ {
+  "start": 532.62,
+  "end": 535.85,
+  "text": "level so let's see"
+ },
+ {
+  "start": 535.86,
+  "end": 539.03,
+  "text": "um how this will happen at an execution"
+ },
+ {
+  "start": 539.04,
+  "end": 543.29,
+  "text": "list level okay so if I go ahead and"
+ },
+ {
+  "start": 543.3,
+  "end": 545.75,
+  "text": "create execution list and then we try to"
+ },
+ {
+  "start": 545.76,
+  "end": 546.829,
+  "text": "run this"
+ },
+ {
+  "start": 546.839,
+  "end": 549.23,
+  "text": "okay"
+ },
+ {
+  "start": 549.24,
+  "end": 553.91,
+  "text": "so let me do this and"
+ },
+ {
+  "start": 553.92,
+  "end": 556.13,
+  "text": "I will call it"
+ },
+ {
+  "start": 556.14,
+  "end": 558.41,
+  "text": "um"
+ },
+ {
+  "start": 561.23,
+  "end": 561.24,
+  "text": "obstacle"
+ },
+ {
+  "start": 561.24,
+  "end": 564.47,
+  "text": "Edition okay"
+ },
+ {
+  "start": 564.48,
+  "end": 570.11,
+  "text": "and let's go ahead and run this now"
+ },
+ {
+  "start": 572.63,
+  "end": 572.64,
+  "text": "uh it's basically the same thing but"
+ },
+ {
+  "start": 572.64,
+  "end": 575.59,
+  "text": "this time around uh you can see that"
+ },
+ {
+  "start": 575.6,
+  "end": 578.63,
+  "text": "recording as part of your execution list"
+ },
+ {
+  "start": 578.64,
+  "end": 581.23,
+  "text": "okay"
+ },
+ {
+  "start": 581.24,
+  "end": 583.25,
+  "text": "so let's"
+ },
+ {
+  "start": 583.26,
+  "end": 587.81,
+  "text": "wait for this to complete and then this"
+ },
+ {
+  "start": 587.82,
+  "end": 589.19,
+  "text": "particular recording will be available"
+ },
+ {
+  "start": 589.2,
+  "end": 595.09,
+  "text": "on that particular folder okay"
+ },
+ {
+  "start": 597.829,
+  "end": 597.839,
+  "text": "so this is completed now I can and you"
+ },
+ {
+  "start": 597.839,
+  "end": 601.37,
+  "text": "can see that uh it has created this"
+ },
+ {
+  "start": 601.38,
+  "end": 603.41,
+  "text": "okay so it has named it as per the"
+ },
+ {
+  "start": 603.42,
+  "end": 606.59,
+  "text": "execution list test case and there are"
+ },
+ {
+  "start": 606.6,
+  "end": 608.03,
+  "text": "two recordings right now one is"
+ },
+ {
+  "start": 608.04,
+  "end": 610.25,
+  "text": "scratchbook one is execution list"
+ },
+ {
+  "start": 610.26,
+  "end": 612.53,
+  "text": "so this is how you can create execution"
+ },
+ {
+  "start": 612.54,
+  "end": 616.49,
+  "text": "recordings uh both from scratchbook also"
+ },
+ {
+  "start": 616.5,
+  "end": 618.05,
+  "text": "from the execution list"
+ },
+ {
+  "start": 618.06,
+  "end": 620.449,
+  "text": "and it's an useful feature as I said but"
+ },
+ {
+  "start": 620.459,
+  "end": 624.17,
+  "text": "uh also it takes up your hard disk space"
+ },
+ {
+  "start": 624.18,
+  "end": 626.15,
+  "text": "so use it wisely"
+ },
+ {
+  "start": 626.16,
+  "end": 628.43,
+  "text": "and that's all for this particular video"
+ },
+ {
+  "start": 628.44,
+  "end": 631.37,
+  "text": "I hope it was interesting uh and useful"
+ },
+ {
+  "start": 631.38,
+  "end": 633.889,
+  "text": "so do tune into our channel to watch"
+ },
+ {
+  "start": 633.899,
+  "end": 637.61,
+  "text": "more such videos which are coming up"
+ },
+ {
+  "start": 637.62,
+  "end": 639.889,
+  "text": "pretty soon so I would suggest you"
+ },
+ {
+  "start": 639.899,
+  "end": 641.87,
+  "text": "subscribe to our channel so that you get"
+ },
+ {
+  "start": 641.88,
+  "end": 644.21,
+  "text": "notified about all these videos if you"
+ },
+ {
+  "start": 644.22,
+  "end": 646.15,
+  "text": "want to learn Tosca right from scratch"
+ },
+ {
+  "start": 646.16,
+  "end": 649.009,
+  "text": "so see you again uh with another"
+ },
+ {
+  "start": 649.019,
+  "end": 650.99,
+  "text": "interesting feature coming up pretty"
+ },
+ {
+  "start": 651.0,
+  "end": 653.3,
+  "text": "soon"
+ }
+]

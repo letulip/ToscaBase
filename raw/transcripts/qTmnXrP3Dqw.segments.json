@@ -1,0 +1,547 @@
+[
+ {
+  "start": 15.06,
+  "end": 20.74,
+  "text": "Hello friends, welcome back to our channel."
+ },
+ {
+  "start": 20.74,
+  "end": 24.54,
+  "text": "I am your Tosca instructor and my name is Kumaresh."
+ },
+ {
+  "start": 24.54,
+  "end": 28.14,
+  "text": "Thank you for connecting with us."
+ },
+ {
+  "start": 28.14,
+  "end": 30.74,
+  "text": "Hope you are doing well."
+ },
+ {
+  "start": 30.74,
+  "end": 33.5,
+  "text": "Let's start our today's session."
+ },
+ {
+  "start": 33.5,
+  "end": 38.02,
+  "text": "Through this video, we will learn about the overview of Tosca as a test automation"
+ },
+ {
+  "start": 38.02,
+  "end": 40.06,
+  "text": "tool."
+ },
+ {
+  "start": 40.06,
+  "end": 43.9,
+  "text": "Before starting the tutorial, we should have prerequisites knowledge on software"
+ },
+ {
+  "start": 43.94,
+  "end": 48.31,
+  "text": "testing for better understanding."
+ },
+ {
+  "start": 48.31,
+  "end": 55.62,
+  "text": "All right, let's start with the concepts of automation testing."
+ },
+ {
+  "start": 55.62,
+  "end": 59.38,
+  "text": "Automation testing is an approach to perform the manual test steps"
+ },
+ {
+  "start": 59.38,
+  "end": 62.78,
+  "text": "automatically by test tools or robots."
+ },
+ {
+  "start": 62.78,
+  "end": 67.22,
+  "text": "The main goals of test automation is to ensure the quality of software products"
+ },
+ {
+  "start": 67.22,
+  "end": 71.62,
+  "text": "through the automation, save the human efforts"
+ },
+ {
+  "start": 71.62,
+  "end": 77.3,
+  "text": "and reduces the software development life cycle."
+ },
+ {
+  "start": 77.34,
+  "end": 82.14,
+  "text": "Nowadays, the IT industry demands the quality and the efficacy with minimum"
+ },
+ {
+  "start": 82.14,
+  "end": 85.9,
+  "text": "human efforts to deliver any IT services."
+ },
+ {
+  "start": 85.9,
+  "end": 92.34,
+  "text": "Here, automation testing is playing a big role for testing services."
+ },
+ {
+  "start": 92.34,
+  "end": 96.74,
+  "text": "Automation testing is an approach to automate the testing process to reduce"
+ },
+ {
+  "start": 96.74,
+  "end": 98.58,
+  "text": "the human efforts."
+ },
+ {
+  "start": 98.58,
+  "end": 104.42,
+  "text": "In the automation testing services, the tools like QTP, UFT, RFT and"
+ },
+ {
+  "start": 104.42,
+  "end": 107.3,
+  "text": "Selenium were very famous."
+ },
+ {
+  "start": 107.3,
+  "end": 111.62,
+  "text": "Tosca is best suited tool as it supports the script less testing, which will"
+ },
+ {
+  "start": 111.62,
+  "end": 116.18,
+  "text": "consume minimum time to learn."
+ },
+ {
+  "start": 116.18,
+  "end": 122.1,
+  "text": "Tosca user can write efficient test cases with minimum skill set."
+ },
+ {
+  "start": 122.1,
+  "end": 126.26,
+  "text": "Also, it generates a standard test reports for the management without any"
+ },
+ {
+  "start": 126.26,
+  "end": 128.1,
+  "text": "customization."
+ },
+ {
+  "start": 128.1,
+  "end": 132.02,
+  "text": "Apart from these reasons, there is other advantages as well which we will"
+ },
+ {
+  "start": 132.02,
+  "end": 135.3,
+  "text": "learn later."
+ },
+ {
+  "start": 135.3,
+  "end": 141.5,
+  "text": "There is lots of automation tools are available in the market."
+ },
+ {
+  "start": 141.5,
+  "end": 146.3,
+  "text": "But why are we talking about Tosca?"
+ },
+ {
+  "start": 146.3,
+  "end": 149.46,
+  "text": "Let's understand the reasons behind this."
+ },
+ {
+  "start": 149.46,
+  "end": 153.94,
+  "text": "Tosca is one of the market leading tool in the present days."
+ },
+ {
+  "start": 153.94,
+  "end": 157.62,
+  "text": "It has the ability to perform functional and regression testing as"
+ },
+ {
+  "start": 157.62,
+  "end": 158.9,
+  "text": "well."
+ },
+ {
+  "start": 158.9,
+  "end": 163.14,
+  "text": "The API testing can be done through Tosca, which has an important role in"
+ },
+ {
+  "start": 163.14,
+  "end": 165.34,
+  "text": "agile process."
+ },
+ {
+  "start": 165.34,
+  "end": 166.78,
+  "text": "All right."
+ },
+ {
+  "start": 166.78,
+  "end": 170.7,
+  "text": "Now we will discuss about the important features of Tosca, which has changed the"
+ },
+ {
+  "start": 170.7,
+  "end": 175.1,
+  "text": "dimension of automation in testing spaces."
+ },
+ {
+  "start": 175.1,
+  "end": 178.78,
+  "text": "The features are mostly used to define the strategy of test automation"
+ },
+ {
+  "start": 178.78,
+  "end": 182.62,
+  "text": "development, execution and maintenance activities."
+ },
+ {
+  "start": 182.62,
+  "end": 192.29,
+  "text": "Also, it helps for management reporting as well."
+ },
+ {
+  "start": 192.29,
+  "end": 196.05,
+  "text": "Model-based testing approach is the most important feature of Tosca,"
+ },
+ {
+  "start": 196.05,
+  "end": 201.73,
+  "text": "which makes it as a market leader in testing domain."
+ },
+ {
+  "start": 201.73,
+  "end": 205.89,
+  "text": "As a part of test case development, testers need to create modules for each"
+ },
+ {
+  "start": 205.89,
+  "end": 209.33,
+  "text": "of the unit level functionalities or activities."
+ },
+ {
+  "start": 209.33,
+  "end": 213.49,
+  "text": "The modules contain the technical information to automate functional test"
+ },
+ {
+  "start": 213.49,
+  "end": 214.93,
+  "text": "steps."
+ },
+ {
+  "start": 214.93,
+  "end": 219.25,
+  "text": "To develop the test cases, we need to combine modules."
+ },
+ {
+  "start": 219.25,
+  "end": 223.49,
+  "text": "The another important aspect of Tosca as it supports the risk-based testing"
+ },
+ {
+  "start": 223.49,
+  "end": 227.17,
+  "text": "approach, which means Tosca is capable of"
+ },
+ {
+  "start": 227.17,
+  "end": 231.17,
+  "text": "assess the risk with the test cases."
+ },
+ {
+  "start": 231.17,
+  "end": 234.85,
+  "text": "Basically, it can identify the subset of entire test suite,"
+ },
+ {
+  "start": 234.85,
+  "end": 237.89,
+  "text": "which will minimize the chances of risks."
+ },
+ {
+  "start": 237.89,
+  "end": 241.73,
+  "text": "Once the execution is completed, risks are measured by considering the"
+ },
+ {
+  "start": 241.73,
+  "end": 246.29,
+  "text": "automated test execution result and the risk coverage."
+ },
+ {
+  "start": 246.29,
+  "end": 250.21,
+  "text": "Tosca supports script-less automation, which means that test cases"
+ },
+ {
+  "start": 250.21,
+  "end": 255.17,
+  "text": "can be developed by drag and drop method of modules."
+ },
+ {
+  "start": 255.17,
+  "end": 259.09,
+  "text": "Also, the test data parameterization and the implementations of"
+ },
+ {
+  "start": 259.09,
+  "end": 263.57,
+  "text": "verification steps can be done through the configurations."
+ },
+ {
+  "start": 263.57,
+  "end": 268.13,
+  "text": "So, anyone will be able to develop test cases with minimum skill set and"
+ },
+ {
+  "start": 268.13,
+  "end": 271.73,
+  "text": "training. It helps to develop test cases in"
+ },
+ {
+  "start": 271.73,
+  "end": 276.61,
+  "text": "shorter span of time. Distribution execution signifies about"
+ },
+ {
+  "start": 276.61,
+  "end": 280.53,
+  "text": "the distribution of test execution in multiple systems to reduce the"
+ },
+ {
+  "start": 280.53,
+  "end": 285.25,
+  "text": "human efforts and execution cycle time. Based on the configuration of"
+ },
+ {
+  "start": 285.25,
+  "end": 289.09,
+  "text": "distributed execution, we can schedule the test execution in"
+ },
+ {
+  "start": 289.09,
+  "end": 293.33,
+  "text": "multiple systems in an unattended mode."
+ },
+ {
+  "start": 293.33,
+  "end": 297.81,
+  "text": "Also, Tosca can be easily integrated with third-party CI tools"
+ },
+ {
+  "start": 297.81,
+  "end": 303.2,
+  "text": "such as Jenkins, Azure DevOps, Jira etc."
+ },
+ {
+  "start": 303.2,
+  "end": 308.48,
+  "text": "The other important features are dynamic test data can be handled through the"
+ },
+ {
+  "start": 308.48,
+  "end": 315.57,
+  "text": "Tosca features such as TCD, TDM and TDS."
+ },
+ {
+  "start": 315.57,
+  "end": 320.45,
+  "text": "Test recording features allows tester to record and create the test scenarios by"
+ },
+ {
+  "start": 320.45,
+  "end": 326.26,
+  "text": "single click. Tosca is compatible with most of the"
+ },
+ {
+  "start": 326.26,
+  "end": 331.7,
+  "text": "applications such as Salesforce, SAP, Web, Power Builder, .NET,"
+ },
+ {
+  "start": 331.7,
+  "end": 337.78,
+  "text": "Mainframe, mobile devices. API testing is very useful and the"
+ },
+ {
+  "start": 337.78,
+  "end": 341.78,
+  "text": "entire application is not ready but some of the application components"
+ },
+ {
+  "start": 341.78,
+  "end": 346.26,
+  "text": "are developed. Using the API, Tosca is able to test"
+ },
+ {
+  "start": 346.26,
+  "end": 353.02,
+  "text": "the corresponding application components by following simple steps."
+ },
+ {
+  "start": 353.02,
+  "end": 356.54,
+  "text": "Tosca helps to integrate with third-party tools with minimum"
+ },
+ {
+  "start": 356.54,
+  "end": 360.46,
+  "text": "customization such as Perfecto, Selenium, Qtest to"
+ },
+ {
+  "start": 360.46,
+  "end": 364.3,
+  "text": "enhance the scope of automation testing."
+ },
+ {
+  "start": 364.3,
+  "end": 368.14,
+  "text": "Let's understand the high-level architecture of Tosca."
+ },
+ {
+  "start": 368.14,
+  "end": 371.98,
+  "text": "The tool is developed with five different components."
+ },
+ {
+  "start": 371.98,
+  "end": 375.74,
+  "text": "Tosca Commander is used to manage the test automation activities"
+ },
+ {
+  "start": 375.74,
+  "end": 381.98,
+  "text": "such as development, execution, maintenance and reporting."
+ },
+ {
+  "start": 381.98,
+  "end": 386.94,
+  "text": "Tosca Scan Wizard component allows tester to scan the test application and"
+ },
+ {
+  "start": 386.94,
+  "end": 391.02,
+  "text": "create modules. Scanning is used to capture technical"
+ },
+ {
+  "start": 391.02,
+  "end": 401.49,
+  "text": "information of AUT. Tosca Executor manages the test"
+ },
+ {
+  "start": 401.49,
+  "end": 406.45,
+  "text": "executions and test logs. The test repository is used to store"
+ },
+ {
+  "start": 406.45,
+  "end": 410.93,
+  "text": "the test cases, modules, dynamic test data, user information"
+ },
+ {
+  "start": 410.93,
+  "end": 416.05,
+  "text": "etc. in a shared repository. The different databases like Oracle,"
+ },
+ {
+  "start": 416.05,
+  "end": 422.34,
+  "text": "Skull Server, DB2 are used for this purpose."
+ },
+ {
+  "start": 422.34,
+  "end": 426.74,
+  "text": "License server manages to configure, connect and validate the licenses for"
+ },
+ {
+  "start": 426.74,
+  "end": 432.45,
+  "text": "users to access Tosca. Tosca is designed and developed by"
+ },
+ {
+  "start": 432.45,
+  "end": 435.97,
+  "text": "Tricentis. The tool can be accessed through"
+ },
+ {
+  "start": 435.97,
+  "end": 442.05,
+  "text": "different user interfaces such as GUI. The graphical user interface provides"
+ },
+ {
+  "start": 442.05,
+  "end": 448.69,
+  "text": "a graphical looks for the user. API application programming interface."
+ },
+ {
+  "start": 448.69,
+  "end": 454.61,
+  "text": "CL command line interface and accessed via integrated test management"
+ },
+ {
+  "start": 454.61,
+  "end": 459.92,
+  "text": "environment. Thanks for watching this video."
+ },
+ {
+  "start": 459.92,
+  "end": 465.12,
+  "text": "That's all about Tosca overview topic. We will learn more about Tosca setup"
+ },
+ {
+  "start": 465.12,
+  "end": 469.44,
+  "text": "and configurations in next Tosca tutorial."
+ },
+ {
+  "start": 469.44,
+  "end": 474.56,
+  "text": "Please visit our website lambdageeks.com for more articles on technology,"
+ },
+ {
+  "start": 474.56,
+  "end": 478.4,
+  "text": "engineering, mathematics and various other domain."
+ },
+ {
+  "start": 478.4,
+  "end": 482.48,
+  "text": "You can check our other website as well."
+ },
+ {
+  "start": 482.48,
+  "end": 486.4,
+  "text": "We have features like YouTube Trends,"
+ },
+ {
+  "start": 486.48,
+  "end": 495.49,
+  "text": "Twitter Trends, Scientific Calculator and many more other tools."
+ },
+ {
+  "start": 495.49,
+  "end": 499.49,
+  "text": "If you like our video, please like, comment and share."
+ },
+ {
+  "start": 499.49,
+  "end": 505.33,
+  "text": "If you have any questions, please comment and we will resolve your query."
+ }
+]

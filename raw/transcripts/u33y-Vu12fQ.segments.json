@@ -1,0 +1,1167 @@
+[
+ {
+  "start": 7.51,
+  "end": 7.52,
+  "text": "hey everyone welcome back to another"
+ },
+ {
+  "start": 7.52,
+  "end": 9.19,
+  "text": "interesting lesson in this tosar"
+ },
+ {
+  "start": 9.2,
+  "end": 11.509,
+  "text": "automation playlist today we are going"
+ },
+ {
+  "start": 11.519,
+  "end": 14.43,
+  "text": "to talk about the web tables which is a"
+ },
+ {
+  "start": 14.44,
+  "end": 16.99,
+  "text": "very favorite topic whenever you start"
+ },
+ {
+  "start": 17.0,
+  "end": 19.029,
+  "text": "working with any UI"
+ },
+ {
+  "start": 19.039,
+  "end": 22.23,
+  "text": "automation now talking about web tables"
+ },
+ {
+  "start": 22.24,
+  "end": 24.269,
+  "text": "and web tables are generally dynamic in"
+ },
+ {
+  "start": 24.279,
+  "end": 27.07,
+  "text": "nature which means the values uh inside"
+ },
+ {
+  "start": 27.08,
+  "end": 30.269,
+  "text": "the cells keeps on changing now how do"
+ },
+ {
+  "start": 30.279,
+  "end": 33.069,
+  "text": "you keep track of these changes uh is"
+ },
+ {
+  "start": 33.079,
+  "end": 36.869,
+  "text": "there a way to maybe compare a web table"
+ },
+ {
+  "start": 36.879,
+  "end": 39.83,
+  "text": "with a baseline okay so whenever you"
+ },
+ {
+  "start": 39.84,
+  "end": 41.95,
+  "text": "have a web table uh so as per"
+ },
+ {
+  "start": 41.96,
+  "end": 44.35,
+  "text": "requirements you set up a baseline which"
+ },
+ {
+  "start": 44.36,
+  "end": 48.67,
+  "text": "means uh the values inside the table are"
+ },
+ {
+  "start": 48.68,
+  "end": 50.63,
+  "text": "consistent okay uh as per the"
+ },
+ {
+  "start": 50.64,
+  "end": 53.59,
+  "text": "requirements and then uh when you get"
+ },
+ {
+  "start": 53.6,
+  "end": 56.27,
+  "text": "that kind of result you set that as a"
+ },
+ {
+  "start": 56.28,
+  "end": 59.75,
+  "text": "baseline for your remaining executions"
+ },
+ {
+  "start": 59.76,
+  "end": 60.99,
+  "text": "right"
+ },
+ {
+  "start": 61.0,
+  "end": 64.59,
+  "text": "so in tosa um there is an option to"
+ },
+ {
+  "start": 64.6,
+  "end": 67.469,
+  "text": "basically do a comparison of different"
+ },
+ {
+  "start": 67.479,
+  "end": 70.59,
+  "text": "Baseline for your web tables okay so"
+ },
+ {
+  "start": 70.6,
+  "end": 73.19,
+  "text": "once you set a particular Baseline uh"
+ },
+ {
+  "start": 73.2,
+  "end": 75.51,
+  "text": "for a particular web table you can do a"
+ },
+ {
+  "start": 75.52,
+  "end": 77.83,
+  "text": "number of execution cycles for that web"
+ },
+ {
+  "start": 77.84,
+  "end": 82.03,
+  "text": "table and then uh it can compare your"
+ },
+ {
+  "start": 82.04,
+  "end": 84.59,
+  "text": "current state of the web table which"
+ },
+ {
+  "start": 84.6,
+  "end": 86.39,
+  "text": "means the current values in the web"
+ },
+ {
+  "start": 86.4,
+  "end": 89.149,
+  "text": "table with the particular Baseline which"
+ },
+ {
+  "start": 89.159,
+  "end": 92.03,
+  "text": "you have set earlier okay and if they"
+ },
+ {
+  "start": 92.04,
+  "end": 94.31,
+  "text": "are different then you will get the"
+ },
+ {
+  "start": 94.32,
+  "end": 97.469,
+  "text": "result as failed and showing you what"
+ },
+ {
+  "start": 97.479,
+  "end": 100.389,
+  "text": "has changed in your web table now this"
+ },
+ {
+  "start": 100.399,
+  "end": 104.19,
+  "text": "is a very useful way of comparing your"
+ },
+ {
+  "start": 104.2,
+  "end": 106.99,
+  "text": "web tables depending on how the values"
+ },
+ {
+  "start": 107.0,
+  "end": 109.03,
+  "text": "are changing and this could be very"
+ },
+ {
+  "start": 109.04,
+  "end": 111.749,
+  "text": "useful uh when you have to test a"
+ },
+ {
+  "start": 111.759,
+  "end": 114.27,
+  "text": "streaming application which means a lot"
+ },
+ {
+  "start": 114.28,
+  "end": 118.389,
+  "text": "of data is coming into the tables from a"
+ },
+ {
+  "start": 118.399,
+  "end": 120.749,
+  "text": "different source and then you need to"
+ },
+ {
+  "start": 120.759,
+  "end": 123.59,
+  "text": "continuously compare large tables with"
+ },
+ {
+  "start": 123.6,
+  "end": 127.19,
+  "text": "large number of rows and values okay so"
+ },
+ {
+  "start": 127.2,
+  "end": 129.749,
+  "text": "let's see um how this can be done for"
+ },
+ {
+  "start": 129.759,
+  "end": 131.67,
+  "text": "this I already have a module called"
+ },
+ {
+  "start": 131.68,
+  "end": 134.67,
+  "text": "select price option and I have already"
+ },
+ {
+  "start": 134.68,
+  "end": 139.19,
+  "text": "added um the object which is the table"
+ },
+ {
+  "start": 139.2,
+  "end": 142.19,
+  "text": "right now um we are going to work on"
+ },
+ {
+  "start": 142.2,
+  "end": 143.55,
+  "text": "this particular test case which is"
+ },
+ {
+  "start": 143.56,
+  "end": 146.229,
+  "text": "compare table Baseline and then I'm"
+ },
+ {
+  "start": 146.239,
+  "end": 149.309,
+  "text": "going to drag this module in here so"
+ },
+ {
+  "start": 149.319,
+  "end": 151.39,
+  "text": "that we at the table here with all the"
+ },
+ {
+  "start": 151.4,
+  "end": 152.91,
+  "text": "rows and"
+ },
+ {
+  "start": 152.92,
+  "end": 156.79,
+  "text": "columns okay um so how to set a baseline"
+ },
+ {
+  "start": 156.8,
+  "end": 158.869,
+  "text": "for your web table right so select the"
+ },
+ {
+  "start": 158.879,
+  "end": 161.79,
+  "text": "web table go to the test cases section"
+ },
+ {
+  "start": 161.8,
+  "end": 164.67,
+  "text": "and the last option you will see is for"
+ },
+ {
+  "start": 164.68,
+  "end": 167.869,
+  "text": "creating a new Baseline okay now there"
+ },
+ {
+  "start": 167.879,
+  "end": 169.869,
+  "text": "are two ways of creating a baseline one"
+ },
+ {
+  "start": 169.879,
+  "end": 171.79,
+  "text": "is the manual way and one is the"
+ },
+ {
+  "start": 171.8,
+  "end": 174.35,
+  "text": "automatic way so let's first look at the"
+ },
+ {
+  "start": 174.36,
+  "end": 177.39,
+  "text": "manual way so uh you go and select the"
+ },
+ {
+  "start": 177.4,
+  "end": 182.43,
+  "text": "web table and then click on create base"
+ },
+ {
+  "start": 185.43,
+  "end": 185.44,
+  "text": "Baseline okay so what it will do is tosa"
+ },
+ {
+  "start": 185.44,
+  "end": 189.03,
+  "text": "will now try to set a baseline uh where"
+ },
+ {
+  "start": 189.04,
+  "end": 192.67,
+  "text": "it will compare um the table which is"
+ },
+ {
+  "start": 192.68,
+  "end": 195.11,
+  "text": "currently open in your application it"
+ },
+ {
+  "start": 195.12,
+  "end": 197.589,
+  "text": "will set all the values and it will"
+ },
+ {
+  "start": 197.599,
+  "end": 200.03,
+  "text": "create a baseline for this particular"
+ },
+ {
+  "start": 200.04,
+  "end": 203.229,
+  "text": "web table okay and if it is successful"
+ },
+ {
+  "start": 203.239,
+  "end": 205.91,
+  "text": "uh you will see that the Baseline was"
+ },
+ {
+  "start": 205.92,
+  "end": 208.47,
+  "text": "successfully created okay for this"
+ },
+ {
+  "start": 208.48,
+  "end": 211.27,
+  "text": "particular table which is table also"
+ },
+ {
+  "start": 211.28,
+  "end": 213.07,
+  "text": "here you will see that in the value"
+ },
+ {
+  "start": 213.08,
+  "end": 215.83,
+  "text": "there is a table compare expression"
+ },
+ {
+  "start": 215.84,
+  "end": 218.35,
+  "text": "which is Set uh and the action mode is"
+ },
+ {
+  "start": 218.36,
+  "end": 221.869,
+  "text": "set to verify okay and then uh there is"
+ },
+ {
+  "start": 221.879,
+  "end": 224.83,
+  "text": "also a baseline created under the price"
+ },
+ {
+  "start": 224.84,
+  "end": 227.63,
+  "text": "table and you will see that when it was"
+ },
+ {
+  "start": 227.64,
+  "end": 231.71,
+  "text": "created at what time it was created"
+ },
+ {
+  "start": 231.72,
+  "end": 235.509,
+  "text": "okay now um also what you can do is so"
+ },
+ {
+  "start": 235.519,
+  "end": 238.949,
+  "text": "what if you want to uh ignore some of"
+ },
+ {
+  "start": 238.959,
+  "end": 241.63,
+  "text": "the values which is present or ignore"
+ },
+ {
+  "start": 241.64,
+  "end": 244.27,
+  "text": "some of the rows so you don't want to"
+ },
+ {
+  "start": 244.28,
+  "end": 246.229,
+  "text": "include them in the comparison you want"
+ },
+ {
+  "start": 246.239,
+  "end": 249.069,
+  "text": "to exclude them so a row like select"
+ },
+ {
+  "start": 249.079,
+  "end": 252.429,
+  "text": "option right because these are uh just"
+ },
+ {
+  "start": 252.439,
+  "end": 255.27,
+  "text": "the radio buttons and we don't want to"
+ },
+ {
+  "start": 255.28,
+  "end": 257.749,
+  "text": "include them in the comparison so what"
+ },
+ {
+  "start": 257.759,
+  "end": 260.99,
+  "text": "you can do you can come here and then uh"
+ },
+ {
+  "start": 261.0,
+  "end": 264.99,
+  "text": "in the row okay I'm going to type it"
+ },
+ {
+  "start": 265.0,
+  "end": 278.71,
+  "text": "here called the select option okay"
+ },
+ {
+  "start": 281.39,
+  "end": 281.4,
+  "text": "and then uh when you type that uh it"
+ },
+ {
+  "start": 281.4,
+  "end": 283.35,
+  "text": "will automatically set the action mode"
+ },
+ {
+  "start": 283.36,
+  "end": 287.31,
+  "text": "to exclude okay because uh this is under"
+ },
+ {
+  "start": 287.32,
+  "end": 289.35,
+  "text": "the Baseline table comparison and"
+ },
+ {
+  "start": 289.36,
+  "end": 291.27,
+  "text": "whenever you are selecting any"
+ },
+ {
+  "start": 291.28,
+  "end": 294.11,
+  "text": "particular row uh you want to exclude"
+ },
+ {
+  "start": 294.12,
+  "end": 296.629,
+  "text": "that now you can also do that based on"
+ },
+ {
+  "start": 296.639,
+  "end": 300.43,
+  "text": "the cell value okay so if you want to to"
+ },
+ {
+  "start": 300.44,
+  "end": 303.27,
+  "text": "exclude based on some cell value if the"
+ },
+ {
+  "start": 303.28,
+  "end": 305.95,
+  "text": "table is dynamic then you can do it at"
+ },
+ {
+  "start": 305.96,
+  "end": 308.87,
+  "text": "row level or column level uh and then"
+ },
+ {
+  "start": 308.88,
+  "end": 312.909,
+  "text": "you can also set some value like if uh"
+ },
+ {
+  "start": 312.919,
+  "end": 315.99,
+  "text": "the cell contains limited or um the"
+ },
+ {
+  "start": 316.0,
+  "end": 319.15,
+  "text": "column is platinum so whatever condition"
+ },
+ {
+  "start": 319.16,
+  "end": 322.309,
+  "text": "you want uh to exclude whichever row or"
+ },
+ {
+  "start": 322.319,
+  "end": 324.95,
+  "text": "column you can set that accordingly"
+ },
+ {
+  "start": 324.96,
+  "end": 328.83,
+  "text": "right here okay so this is a way to"
+ },
+ {
+  "start": 328.84,
+  "end": 331.35,
+  "text": "exclude any particular row or column"
+ },
+ {
+  "start": 331.36,
+  "end": 335.23,
+  "text": "from the comparison okay and now uh we"
+ },
+ {
+  "start": 335.24,
+  "end": 338.07,
+  "text": "have successfully created a baseline for"
+ },
+ {
+  "start": 338.08,
+  "end": 341.029,
+  "text": "our web table and this will act like an"
+ },
+ {
+  "start": 341.039,
+  "end": 343.79,
+  "text": "expected result for your web table so"
+ },
+ {
+  "start": 343.8,
+  "end": 346.27,
+  "text": "every time the comparison will happen"
+ },
+ {
+  "start": 346.28,
+  "end": 349.189,
+  "text": "against this particular values now what"
+ },
+ {
+  "start": 349.199,
+  "end": 351.55,
+  "text": "we also want to do is we want to execute"
+ },
+ {
+  "start": 351.56,
+  "end": 354.55,
+  "text": "it multiple times so that we can compare"
+ },
+ {
+  "start": 354.56,
+  "end": 359.189,
+  "text": "our web table with the Baseline okay so"
+ },
+ {
+  "start": 359.199,
+  "end": 362.43,
+  "text": "here I have created a execution list and"
+ },
+ {
+  "start": 362.44,
+  "end": 364.87,
+  "text": "there is uh a select price option"
+ },
+ {
+  "start": 364.88,
+  "end": 367.589,
+  "text": "execution list under that I'm going to"
+ },
+ {
+  "start": 367.599,
+  "end": 370.83,
+  "text": "now drag my particular test"
+ },
+ {
+  "start": 370.84,
+  "end": 375.589,
+  "text": "case okay and uh here now uh if I can"
+ },
+ {
+  "start": 375.599,
+  "end": 380.27,
+  "text": "execute this particular execution list"
+ },
+ {
+  "start": 380.28,
+  "end": 383.51,
+  "text": "okay so now um there are no changes in"
+ },
+ {
+  "start": 383.52,
+  "end": 387.029,
+  "text": "the web table currently so my execution"
+ },
+ {
+  "start": 387.039,
+  "end": 389.029,
+  "text": "should ideally pass it is trying to"
+ },
+ {
+  "start": 389.039,
+  "end": 391.189,
+  "text": "compare the current state of my web"
+ },
+ {
+  "start": 391.199,
+  "end": 395.87,
+  "text": "table against a baseline version okay so"
+ },
+ {
+  "start": 395.88,
+  "end": 397.99,
+  "text": "now you will see that uh the test case"
+ },
+ {
+  "start": 398.0,
+  "end": 401.029,
+  "text": "will pass and in the results you will"
+ },
+ {
+  "start": 401.039,
+  "end": 403.27,
+  "text": "see that it is comparing against a"
+ },
+ {
+  "start": 403.28,
+  "end": 406.87,
+  "text": "Baseline and the verification was"
+ },
+ {
+  "start": 406.88,
+  "end": 411.67,
+  "text": "successful okay now uh let's do some"
+ },
+ {
+  "start": 411.68,
+  "end": 414.15,
+  "text": "changes in our application so what I'm"
+ },
+ {
+  "start": 414.16,
+  "end": 416.749,
+  "text": "going to do is uh in the ENT product"
+ },
+ {
+  "start": 416.759,
+  "end": 419.27,
+  "text": "data instead of insurance sum I'm going"
+ },
+ {
+  "start": 419.28,
+  "end": 421.749,
+  "text": "to to select something else here okay"
+ },
+ {
+  "start": 421.759,
+  "end": 425.23,
+  "text": "and then when I go back to price option"
+ },
+ {
+  "start": 425.24,
+  "end": 428.71,
+  "text": "the prices per year would increase and"
+ },
+ {
+  "start": 428.72,
+  "end": 431.43,
+  "text": "also some of the other options right so"
+ },
+ {
+  "start": 431.44,
+  "end": 435.27,
+  "text": "now the web table has changed now uh if"
+ },
+ {
+  "start": 435.28,
+  "end": 439.23,
+  "text": "I come here and uh now if I run this"
+ },
+ {
+  "start": 439.24,
+  "end": 441.71,
+  "text": "again this time you will see that it"
+ },
+ {
+  "start": 441.72,
+  "end": 444.029,
+  "text": "will"
+ },
+ {
+  "start": 446.71,
+  "end": 446.72,
+  "text": "fail okay so now you can see uh the"
+ },
+ {
+  "start": 446.72,
+  "end": 448.83,
+  "text": "second execution failed because the web"
+ },
+ {
+  "start": 448.84,
+  "end": 452.79,
+  "text": "table has changed okay and uh here you"
+ },
+ {
+  "start": 452.8,
+  "end": 456.35,
+  "text": "will see U the details so verification"
+ },
+ {
+  "start": 456.36,
+  "end": 459.79,
+  "text": "has failed and the column uh was"
+ },
+ {
+  "start": 459.8,
+  "end": 461.99,
+  "text": "modified right this was the expected"
+ },
+ {
+  "start": 462.0,
+  "end": 465.35,
+  "text": "this was the actual and uh this was"
+ },
+ {
+  "start": 465.36,
+  "end": 468.029,
+  "text": "column and row one was modified so it is"
+ },
+ {
+  "start": 468.039,
+  "end": 470.309,
+  "text": "going to give you all the details of"
+ },
+ {
+  "start": 470.319,
+  "end": 472.629,
+  "text": "what has changed and you can also see"
+ },
+ {
+  "start": 472.639,
+  "end": 475.309,
+  "text": "that in the screenshot now this can be"
+ },
+ {
+  "start": 475.319,
+  "end": 477.23,
+  "text": "compared in two different ways you can"
+ },
+ {
+  "start": 477.24,
+  "end": 479.71,
+  "text": "compare the values or you can even"
+ },
+ {
+  "start": 479.72,
+  "end": 482.189,
+  "text": "compare the structure of the web table"
+ },
+ {
+  "start": 482.199,
+  "end": 483.749,
+  "text": "right so if the structure of the web"
+ },
+ {
+  "start": 483.759,
+  "end": 486.67,
+  "text": "table changes and that feels in a"
+ },
+ {
+  "start": 486.68,
+  "end": 489.629,
+  "text": "comparison you can raise a defect for"
+ },
+ {
+  "start": 489.639,
+  "end": 491.95,
+  "text": "your development team to fix it so it's"
+ },
+ {
+  "start": 491.96,
+  "end": 494.51,
+  "text": "a very easy way of comparing your web"
+ },
+ {
+  "start": 494.52,
+  "end": 497.43,
+  "text": "tables whether something has changed"
+ },
+ {
+  "start": 497.44,
+  "end": 499.749,
+  "text": "from the Baseline version"
+ },
+ {
+  "start": 499.759,
+  "end": 502.309,
+  "text": "right so now there are two executions"
+ },
+ {
+  "start": 502.319,
+  "end": 504.869,
+  "text": "one past and one field what you can also"
+ },
+ {
+  "start": 504.879,
+  "end": 508.39,
+  "text": "do is uh if you want to set a new"
+ },
+ {
+  "start": 508.4,
+  "end": 511.51,
+  "text": "Baseline you can do it directly from the"
+ },
+ {
+  "start": 511.52,
+  "end": 515.23,
+  "text": "execution list okay so here if I select"
+ },
+ {
+  "start": 515.24,
+  "end": 519.029,
+  "text": "this uh test case and in the execution"
+ },
+ {
+  "start": 519.039,
+  "end": 521.11,
+  "text": "list section on the top you will see"
+ },
+ {
+  "start": 521.12,
+  "end": 525.23,
+  "text": "there is an update Baseline okay so if"
+ },
+ {
+  "start": 525.24,
+  "end": 527.55,
+  "text": "you want to update the Baseline of your"
+ },
+ {
+  "start": 527.56,
+  "end": 530.509,
+  "text": "web table you can do it right from here"
+ },
+ {
+  "start": 530.519,
+  "end": 532.71,
+  "text": "okay so select the test keys and then"
+ },
+ {
+  "start": 532.72,
+  "end": 534.59,
+  "text": "click on update Baseline and you will"
+ },
+ {
+  "start": 534.6,
+  "end": 536.509,
+  "text": "see that the Baseline opiz table"
+ },
+ {
+  "start": 536.519,
+  "end": 539.509,
+  "text": "successfully updated to snapshot from"
+ },
+ {
+  "start": 539.519,
+  "end": 543.67,
+  "text": "this okay so if uh you want to change it"
+ },
+ {
+  "start": 543.68,
+  "end": 545.389,
+  "text": "now you can change it right from here"
+ },
+ {
+  "start": 545.399,
+  "end": 548.269,
+  "text": "and this will be your new basine so the"
+ },
+ {
+  "start": 548.279,
+  "end": 550.79,
+  "text": "next execution that it will will be"
+ },
+ {
+  "start": 550.8,
+  "end": 552.91,
+  "text": "compared with the new Baseline not with"
+ },
+ {
+  "start": 552.92,
+  "end": 555.47,
+  "text": "the existing Baseline okay so this way"
+ },
+ {
+  "start": 555.48,
+  "end": 558.43,
+  "text": "you can update your Baseline"
+ },
+ {
+  "start": 558.44,
+  "end": 561.75,
+  "text": "even so this is the manual way of"
+ },
+ {
+  "start": 561.76,
+  "end": 563.71,
+  "text": "creating a baseline updating the"
+ },
+ {
+  "start": 563.72,
+  "end": 566.23,
+  "text": "Baseline and then looking at the"
+ },
+ {
+  "start": 566.24,
+  "end": 568.59,
+  "text": "comparison results by executing it from"
+ },
+ {
+  "start": 568.6,
+  "end": 571.389,
+  "text": "the execution list now what if you want"
+ },
+ {
+  "start": 571.399,
+  "end": 573.35,
+  "text": "tosa to do it automatically"
+ },
+ {
+  "start": 573.36,
+  "end": 576.31,
+  "text": "automatically set a baseline right so"
+ },
+ {
+  "start": 576.32,
+  "end": 580.15,
+  "text": "that can also be done by going to file"
+ },
+ {
+  "start": 580.16,
+  "end": 584.43,
+  "text": "settings and then uh under tbox uh under"
+ },
+ {
+  "start": 584.44,
+  "end": 587.949,
+  "text": "engines there is table compare okay and"
+ },
+ {
+  "start": 587.959,
+  "end": 590.75,
+  "text": "then in table compare this is the enable"
+ },
+ {
+  "start": 590.76,
+  "end": 594.15,
+  "text": "autogenerate Baseline and this can be uh"
+ },
+ {
+  "start": 594.16,
+  "end": 597.269,
+  "text": "set to True okay which means uh"
+ },
+ {
+  "start": 597.279,
+  "end": 599.59,
+  "text": "automatic generation of BAS lines will"
+ },
+ {
+  "start": 599.6,
+  "end": 602.63,
+  "text": "be enabled okay so every time you"
+ },
+ {
+  "start": 602.64,
+  "end": 605.949,
+  "text": "execute automatic Baseline will be"
+ },
+ {
+  "start": 605.959,
+  "end": 607.63,
+  "text": "created for"
+ },
+ {
+  "start": 607.64,
+  "end": 611.79,
+  "text": "you okay but um I would keep it false um"
+ },
+ {
+  "start": 611.8,
+  "end": 614.19,
+  "text": "I would rather prefer the manual way of"
+ },
+ {
+  "start": 614.2,
+  "end": 616.069,
+  "text": "creating a Baseline and then updating"
+ },
+ {
+  "start": 616.079,
+  "end": 618.069,
+  "text": "the Baseline if"
+ },
+ {
+  "start": 618.079,
+  "end": 621.15,
+  "text": "required so this way you can compare"
+ },
+ {
+  "start": 621.16,
+  "end": 623.11,
+  "text": "different web tables against a"
+ },
+ {
+  "start": 623.12,
+  "end": 625.59,
+  "text": "particular Baseline and you can make"
+ },
+ {
+  "start": 625.6,
+  "end": 627.829,
+  "text": "sure that your web tables are not"
+ },
+ {
+  "start": 627.839,
+  "end": 629.59,
+  "text": "getting affected by any particular"
+ },
+ {
+  "start": 629.6,
+  "end": 631.91,
+  "text": "development change which is happening"
+ },
+ {
+  "start": 631.92,
+  "end": 634.55,
+  "text": "especially to the structure or to"
+ },
+ {
+  "start": 634.56,
+  "end": 637.269,
+  "text": "certain values which you don't expect to"
+ },
+ {
+  "start": 637.279,
+  "end": 639.75,
+  "text": "change now for the values which you"
+ },
+ {
+  "start": 639.76,
+  "end": 642.069,
+  "text": "expect to change or which are dynamic in"
+ },
+ {
+  "start": 642.079,
+  "end": 645.15,
+  "text": "nature you can just ignore it from the"
+ },
+ {
+  "start": 645.16,
+  "end": 648.15,
+  "text": "comparison okay by excluding that"
+ },
+ {
+  "start": 648.16,
+  "end": 650.99,
+  "text": "particular row or column uh totally from"
+ },
+ {
+  "start": 651.0,
+  "end": 653.67,
+  "text": "the comparison so this comparision can"
+ },
+ {
+  "start": 653.68,
+  "end": 656.31,
+  "text": "only be done for things which you don't"
+ },
+ {
+  "start": 656.32,
+  "end": 658.31,
+  "text": "expect to change from the Baseline"
+ },
+ {
+  "start": 658.32,
+  "end": 660.389,
+  "text": "version which was said"
+ },
+ {
+  "start": 660.399,
+  "end": 662.79,
+  "text": "earlier that's all for this particular"
+ },
+ {
+  "start": 662.8,
+  "end": 665.23,
+  "text": "video if you have any questions then"
+ },
+ {
+  "start": 665.24,
+  "end": 667.71,
+  "text": "please leave it in the comments if you"
+ },
+ {
+  "start": 667.72,
+  "end": 669.629,
+  "text": "like this video then please subscribe to"
+ },
+ {
+  "start": 669.639,
+  "end": 672.389,
+  "text": "our Channel thanks for watching and I"
+ },
+ {
+  "start": 672.399,
+  "end": 676.959,
+  "text": "will see you in the next video"
+ }
+]

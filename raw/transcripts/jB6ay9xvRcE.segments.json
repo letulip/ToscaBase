@@ -1,0 +1,942 @@
+[
+ {
+  "start": 8.93,
+  "end": 8.94,
+  "text": "hey everyone welcome back to our Channel"
+ },
+ {
+  "start": 8.94,
+  "end": 11.57,
+  "text": "I am back with another interesting topic"
+ },
+ {
+  "start": 11.58,
+  "end": 14.509,
+  "text": "in the Tosca automation playlist"
+ },
+ {
+  "start": 14.519,
+  "end": 15.95,
+  "text": "We are continuing with the test"
+ },
+ {
+  "start": 15.96,
+  "end": 18.17,
+  "text": "automation obstacle list which is"
+ },
+ {
+  "start": 18.18,
+  "end": 20.51,
+  "text": "provided in the obstacle course provided"
+ },
+ {
+  "start": 20.52,
+  "end": 22.31,
+  "text": "by tracentes"
+ },
+ {
+  "start": 22.32,
+  "end": 24.349,
+  "text": "now we have already looked at the first"
+ },
+ {
+  "start": 24.359,
+  "end": 27.17,
+  "text": "obstacle which was IDs are not"
+ },
+ {
+  "start": 27.18,
+  "end": 29.15,
+  "text": "everything which means you should not"
+ },
+ {
+  "start": 29.16,
+  "end": 32.569,
+  "text": "always depend on the ID property for any"
+ },
+ {
+  "start": 32.579,
+  "end": 35.15,
+  "text": "particular control you can also use"
+ },
+ {
+  "start": 35.16,
+  "end": 38.51,
+  "text": "different uh properties to identify your"
+ },
+ {
+  "start": 38.52,
+  "end": 40.97,
+  "text": "controls using Tosca"
+ },
+ {
+  "start": 40.98,
+  "end": 44.15,
+  "text": "so now let's go on to the next obstacle"
+ },
+ {
+  "start": 44.16,
+  "end": 49.25,
+  "text": "which is known as twins okay and this"
+ },
+ {
+  "start": 49.26,
+  "end": 51.35,
+  "text": "will look pretty similar to the previous"
+ },
+ {
+  "start": 51.36,
+  "end": 54.529,
+  "text": "obstacle and you would think that you"
+ },
+ {
+  "start": 54.539,
+  "end": 57.17,
+  "text": "can still go ahead and use the same way"
+ },
+ {
+  "start": 57.18,
+  "end": 59.99,
+  "text": "like you used in the previous obstacle"
+ },
+ {
+  "start": 60.0,
+  "end": 62.869,
+  "text": "to automate this particular problem"
+ },
+ {
+  "start": 62.879,
+  "end": 66.83,
+  "text": "but let's uh first scan this module and"
+ },
+ {
+  "start": 66.84,
+  "end": 68.33,
+  "text": "then I will tell you what is the"
+ },
+ {
+  "start": 68.34,
+  "end": 70.31,
+  "text": "challenge here and why we cannot follow"
+ },
+ {
+  "start": 70.32,
+  "end": 73.07,
+  "text": "the same process again"
+ },
+ {
+  "start": 73.08,
+  "end": 76.01,
+  "text": "so I'm going back to my Tosca here and"
+ },
+ {
+  "start": 76.02,
+  "end": 78.41,
+  "text": "I'm going to scan"
+ },
+ {
+  "start": 78.42,
+  "end": 80.99,
+  "text": "this particular application to create a"
+ },
+ {
+  "start": 81.0,
+  "end": 87.649,
+  "text": "new module here"
+ },
+ {
+  "start": 89.749,
+  "end": 89.759,
+  "text": "okay so I will be going into the"
+ },
+ {
+  "start": 89.759,
+  "end": 91.07,
+  "text": "advanced View"
+ },
+ {
+  "start": 91.08,
+  "end": 93.59,
+  "text": "and if you looked at the obstacle we"
+ },
+ {
+  "start": 93.6,
+  "end": 95.39,
+  "text": "have to automate a test step that clicks"
+ },
+ {
+  "start": 95.4,
+  "end": 98.21,
+  "text": "on the button labeled I am the one the"
+ },
+ {
+  "start": 98.22,
+  "end": 100.31,
+  "text": "second one on the right hand side okay"
+ },
+ {
+  "start": 100.32,
+  "end": 102.469,
+  "text": "so we have to click on the second one"
+ },
+ {
+  "start": 102.479,
+  "end": 105.41,
+  "text": "and you can see these are exactly the"
+ },
+ {
+  "start": 105.42,
+  "end": 108.77,
+  "text": "same buttons and even the label is same"
+ },
+ {
+  "start": 108.78,
+  "end": 111.77,
+  "text": "okay which means the inner text will"
+ },
+ {
+  "start": 111.78,
+  "end": 114.05,
+  "text": "also be the same so in the previous"
+ },
+ {
+  "start": 114.06,
+  "end": 117.109,
+  "text": "example or in the previous obstacle we"
+ },
+ {
+  "start": 117.119,
+  "end": 119.99,
+  "text": "use the inner text and some other"
+ },
+ {
+  "start": 120.0,
+  "end": 123.17,
+  "text": "properties to identify the control which"
+ },
+ {
+  "start": 123.18,
+  "end": 124.609,
+  "text": "was pretty similar to the other control"
+ },
+ {
+  "start": 124.619,
+  "end": 127.969,
+  "text": "but here you will not even find the"
+ },
+ {
+  "start": 127.979,
+  "end": 129.35,
+  "text": "inner text through which you can"
+ },
+ {
+  "start": 129.36,
+  "end": 132.05,
+  "text": "identify this particular control"
+ },
+ {
+  "start": 132.06,
+  "end": 134.809,
+  "text": "so let's look at the module to have a"
+ },
+ {
+  "start": 134.819,
+  "end": 137.089,
+  "text": "better idea so these are the two links"
+ },
+ {
+  "start": 137.099,
+  "end": 138.71,
+  "text": "which we are talking about"
+ },
+ {
+  "start": 138.72,
+  "end": 142.97,
+  "text": "and here you can see uh the ID is ID the"
+ },
+ {
+  "start": 142.98,
+  "end": 145.67,
+  "text": "inner text is this I am the one and the"
+ },
+ {
+  "start": 145.68,
+  "end": 149.75,
+  "text": "tag is a right and then if I go to the"
+ },
+ {
+  "start": 149.76,
+  "end": 152.27,
+  "text": "next one so here also you will see it as"
+ },
+ {
+  "start": 152.28,
+  "end": 155.15,
+  "text": "ID and the inner text is also the same"
+ },
+ {
+  "start": 155.16,
+  "end": 158.75,
+  "text": "and the tag is also the same okay now if"
+ },
+ {
+  "start": 158.76,
+  "end": 161.27,
+  "text": "I have to select this particular link"
+ },
+ {
+  "start": 161.28,
+  "end": 163.91,
+  "text": "okay the second one then you will look"
+ },
+ {
+  "start": 163.92,
+  "end": 165.71,
+  "text": "here that the selected item is not"
+ },
+ {
+  "start": 165.72,
+  "end": 168.589,
+  "text": "unique obviously right now even if I"
+ },
+ {
+  "start": 168.599,
+  "end": 173.15,
+  "text": "select in a text or in a HTML still uh"
+ },
+ {
+  "start": 173.16,
+  "end": 177.65,
+  "text": "the item is not unique okay so even if I"
+ },
+ {
+  "start": 177.66,
+  "end": 181.25,
+  "text": "select multiple uh properties here it is"
+ },
+ {
+  "start": 181.26,
+  "end": 185.21,
+  "text": "not making uh the control unique so you"
+ },
+ {
+  "start": 185.22,
+  "end": 187.85,
+  "text": "cannot implement the same method here"
+ },
+ {
+  "start": 187.86,
+  "end": 191.33,
+  "text": "you need to think of other Solutions"
+ },
+ {
+  "start": 191.34,
+  "end": 193.729,
+  "text": "so there are actually two solutions for"
+ },
+ {
+  "start": 193.739,
+  "end": 196.19,
+  "text": "this particular challenge okay the first"
+ },
+ {
+  "start": 196.2,
+  "end": 200.149,
+  "text": "one is uh the most simple one but it is"
+ },
+ {
+  "start": 200.159,
+  "end": 202.19,
+  "text": "not the recommended one and I will tell"
+ },
+ {
+  "start": 202.2,
+  "end": 205.309,
+  "text": "you why so if I go to identify by"
+ },
+ {
+  "start": 205.319,
+  "end": 208.25,
+  "text": "properties currently which it is here"
+ },
+ {
+  "start": 208.26,
+  "end": 211.55,
+  "text": "right and if I can go to identify by"
+ },
+ {
+  "start": 211.56,
+  "end": 214.79,
+  "text": "index okay and I can select the index"
+ },
+ {
+  "start": 214.8,
+  "end": 217.309,
+  "text": "and that will make this control unique"
+ },
+ {
+  "start": 217.319,
+  "end": 219.77,
+  "text": "because it will select uh the second"
+ },
+ {
+  "start": 219.78,
+  "end": 221.03,
+  "text": "index"
+ },
+ {
+  "start": 221.04,
+  "end": 224.39,
+  "text": "but what if there are more similar links"
+ },
+ {
+  "start": 224.4,
+  "end": 226.009,
+  "text": "which have been introduced into the page"
+ },
+ {
+  "start": 226.019,
+  "end": 229.25,
+  "text": "okay then uh this particular test case"
+ },
+ {
+  "start": 229.26,
+  "end": 231.89,
+  "text": "will fail okay because it depends on the"
+ },
+ {
+  "start": 231.9,
+  "end": 232.93,
+  "text": "index"
+ },
+ {
+  "start": 232.94,
+  "end": 236.149,
+  "text": "and it is not the most reliable solution"
+ },
+ {
+  "start": 236.159,
+  "end": 238.309,
+  "text": "okay it is one of the solutions but it"
+ },
+ {
+  "start": 238.319,
+  "end": 240.589,
+  "text": "is not the most reliable solution"
+ },
+ {
+  "start": 240.599,
+  "end": 244.009,
+  "text": "so instead of that uh let's deselect"
+ },
+ {
+  "start": 244.019,
+  "end": 246.17,
+  "text": "this index and let's go back to our"
+ },
+ {
+  "start": 246.18,
+  "end": 247.25,
+  "text": "properties"
+ },
+ {
+  "start": 247.26,
+  "end": 249.71,
+  "text": "now what we are going to do is we are"
+ },
+ {
+  "start": 249.72,
+  "end": 253.61,
+  "text": "going to look at this control okay"
+ },
+ {
+  "start": 253.62,
+  "end": 255.89,
+  "text": "and we are trying to find any particular"
+ },
+ {
+  "start": 255.9,
+  "end": 258.11,
+  "text": "control which can help us identify this"
+ },
+ {
+  "start": 258.12,
+  "end": 260.99,
+  "text": "control okay like apparent control"
+ },
+ {
+  "start": 261.0,
+  "end": 263.57,
+  "text": "so I'm going to increase this filtered"
+ },
+ {
+  "start": 263.58,
+  "end": 266.33,
+  "text": "items to see more controls on this page"
+ },
+ {
+  "start": 266.34,
+  "end": 269.27,
+  "text": "okay so I'm going to take this to the"
+ },
+ {
+  "start": 269.28,
+  "end": 272.15,
+  "text": "last but one level on the filtered items"
+ },
+ {
+  "start": 272.16,
+  "end": 275.33,
+  "text": "and now I can see more uh parent and"
+ },
+ {
+  "start": 275.34,
+  "end": 277.85,
+  "text": "child items which are present here or"
+ },
+ {
+  "start": 277.86,
+  "end": 279.29,
+  "text": "controls right"
+ },
+ {
+  "start": 279.3,
+  "end": 282.77,
+  "text": "so this is my control and you can see"
+ },
+ {
+  "start": 282.78,
+  "end": 285.59,
+  "text": "this control is nested inside a parent"
+ },
+ {
+  "start": 285.6,
+  "end": 287.27,
+  "text": "container okay"
+ },
+ {
+  "start": 287.28,
+  "end": 289.969,
+  "text": "and the same uh applies for the other"
+ },
+ {
+  "start": 289.979,
+  "end": 292.67,
+  "text": "link as well or other button it is also"
+ },
+ {
+  "start": 292.68,
+  "end": 296.09,
+  "text": "inside another parent container okay so"
+ },
+ {
+  "start": 296.1,
+  "end": 298.61,
+  "text": "what I want to see is whether this"
+ },
+ {
+  "start": 298.62,
+  "end": 300.77,
+  "text": "parent container can help me identify"
+ },
+ {
+  "start": 300.78,
+  "end": 304.129,
+  "text": "this particular item or control okay so"
+ },
+ {
+  "start": 304.139,
+  "end": 307.61,
+  "text": "if I select this uh here if I go here"
+ },
+ {
+  "start": 307.62,
+  "end": 310.249,
+  "text": "you will see that in the ID of this"
+ },
+ {
+  "start": 310.259,
+  "end": 311.689,
+  "text": "container"
+ },
+ {
+  "start": 311.699,
+  "end": 314.27,
+  "text": "this one is the right okay so this is"
+ },
+ {
+  "start": 314.28,
+  "end": 316.73,
+  "text": "the value of the ID for this particular"
+ },
+ {
+  "start": 316.74,
+  "end": 319.129,
+  "text": "container and if I look at this"
+ },
+ {
+  "start": 319.139,
+  "end": 320.51,
+  "text": "particular container"
+ },
+ {
+  "start": 320.52,
+  "end": 323.93,
+  "text": "then here you can see the ID is empty"
+ },
+ {
+  "start": 323.94,
+  "end": 325.79,
+  "text": "okay"
+ },
+ {
+  "start": 325.8,
+  "end": 329.15,
+  "text": "but if I select this particular"
+ },
+ {
+  "start": 329.16,
+  "end": 332.21,
+  "text": "container now okay"
+ },
+ {
+  "start": 332.22,
+  "end": 335.33,
+  "text": "now if you select this particular"
+ },
+ {
+  "start": 335.34,
+  "end": 338.33,
+  "text": "control inside this container you will"
+ },
+ {
+  "start": 338.34,
+  "end": 342.65,
+  "text": "see that this item is unique okay why"
+ },
+ {
+  "start": 342.66,
+  "end": 346.61,
+  "text": "because it is inside a container which"
+ },
+ {
+  "start": 346.62,
+  "end": 348.89,
+  "text": "we have selected which is already unique"
+ },
+ {
+  "start": 348.9,
+  "end": 352.01,
+  "text": "okay because it has got a unique ID"
+ },
+ {
+  "start": 352.02,
+  "end": 354.59,
+  "text": "and that is why it is uh able to"
+ },
+ {
+  "start": 354.6,
+  "end": 356.51,
+  "text": "identify this control uniquely even"
+ },
+ {
+  "start": 356.52,
+  "end": 359.57,
+  "text": "though it has got no unique properties"
+ },
+ {
+  "start": 359.58,
+  "end": 362.45,
+  "text": "okay so sometimes you need to look"
+ },
+ {
+  "start": 362.46,
+  "end": 365.45,
+  "text": "further than that particular element you"
+ },
+ {
+  "start": 365.46,
+  "end": 367.61,
+  "text": "need to look at the parent elements you"
+ },
+ {
+  "start": 367.62,
+  "end": 370.189,
+  "text": "need to look at other elements which can"
+ },
+ {
+  "start": 370.199,
+  "end": 371.93,
+  "text": "help you identify your current element"
+ },
+ {
+  "start": 371.94,
+  "end": 373.249,
+  "text": "okay"
+ },
+ {
+  "start": 373.259,
+  "end": 375.83,
+  "text": "so using this we can easily identify"
+ },
+ {
+  "start": 375.84,
+  "end": 379.129,
+  "text": "this particular control so let's go"
+ },
+ {
+  "start": 379.139,
+  "end": 381.23,
+  "text": "ahead and save this now"
+ },
+ {
+  "start": 381.24,
+  "end": 384.65,
+  "text": "and I'm going to close this module and"
+ },
+ {
+  "start": 384.66,
+  "end": 386.45,
+  "text": "we are just going to quickly create a"
+ },
+ {
+  "start": 386.46,
+  "end": 388.49,
+  "text": "test case for this and run this okay"
+ },
+ {
+  "start": 388.5,
+  "end": 391.129,
+  "text": "just to make sure that it is working as"
+ },
+ {
+  "start": 391.139,
+  "end": 394.55,
+  "text": "expected so I'm going to rename this"
+ },
+ {
+  "start": 394.56,
+  "end": 396.89,
+  "text": "modules"
+ },
+ {
+  "start": 396.9,
+  "end": 399.95,
+  "text": "and then I'm going to create a test case"
+ },
+ {
+  "start": 399.96,
+  "end": 404.27,
+  "text": "in our obstacles folder"
+ },
+ {
+  "start": 404.28,
+  "end": 407.15,
+  "text": "so let's create a test case here and I'm"
+ },
+ {
+  "start": 407.16,
+  "end": 409.189,
+  "text": "going to rename this"
+ },
+ {
+  "start": 409.199,
+  "end": 411.89,
+  "text": "and then I'm going to drag this module"
+ },
+ {
+  "start": 411.9,
+  "end": 414.83,
+  "text": "right down here and you can see the"
+ },
+ {
+  "start": 414.84,
+  "end": 417.05,
+  "text": "container and the link here"
+ },
+ {
+  "start": 417.06,
+  "end": 421.55,
+  "text": "and we need to click it here right"
+ },
+ {
+  "start": 424.909,
+  "end": 424.919,
+  "text": "so again I'm going to use the X instead"
+ },
+ {
+  "start": 424.919,
+  "end": 427.189,
+  "text": "of the click right"
+ },
+ {
+  "start": 427.199,
+  "end": 430.129,
+  "text": "um and then you can see here Tosca"
+ },
+ {
+  "start": 430.139,
+  "end": 432.469,
+  "text": "automatically sets the action mode to"
+ },
+ {
+  "start": 432.479,
+  "end": 434.87,
+  "text": "select for this particular container and"
+ },
+ {
+  "start": 434.88,
+  "end": 437.15,
+  "text": "then inside this it will click on this"
+ },
+ {
+  "start": 437.16,
+  "end": 438.83,
+  "text": "link okay"
+ },
+ {
+  "start": 438.84,
+  "end": 440.27,
+  "text": "so"
+ },
+ {
+  "start": 440.28,
+  "end": 443.689,
+  "text": "I will name this click"
+ },
+ {
+  "start": 443.699,
+  "end": 446.809,
+  "text": "on the second"
+ },
+ {
+  "start": 446.819,
+  "end": 448.49,
+  "text": "link"
+ },
+ {
+  "start": 448.5,
+  "end": 451.79,
+  "text": "okay and then I'm going to set this"
+ },
+ {
+  "start": 451.8,
+  "end": 454.79,
+  "text": "workstate to completed so following all"
+ },
+ {
+  "start": 454.8,
+  "end": 456.589,
+  "text": "the best practices on this particular"
+ },
+ {
+  "start": 456.599,
+  "end": 457.969,
+  "text": "test case"
+ },
+ {
+  "start": 457.979,
+  "end": 460.969,
+  "text": "now let's go ahead and quickly run this"
+ },
+ {
+  "start": 460.979,
+  "end": 468.35,
+  "text": "to verify that it runs as expected okay"
+ },
+ {
+  "start": 470.689,
+  "end": 470.699,
+  "text": "so as you can see it clicked on the"
+ },
+ {
+  "start": 470.699,
+  "end": 473.089,
+  "text": "second link which was expected and then"
+ },
+ {
+  "start": 473.099,
+  "end": 476.45,
+  "text": "the challenge was completed"
+ },
+ {
+  "start": 476.46,
+  "end": 478.85,
+  "text": "again this was not the most difficult"
+ },
+ {
+  "start": 478.86,
+  "end": 481.01,
+  "text": "obstacle as you can see in the obstacle"
+ },
+ {
+  "start": 481.02,
+  "end": 484.79,
+  "text": "list it is marked as easy but you need"
+ },
+ {
+  "start": 484.8,
+  "end": 487.61,
+  "text": "to know the way you can solve this"
+ },
+ {
+  "start": 487.62,
+  "end": 488.93,
+  "text": "particular problem"
+ },
+ {
+  "start": 488.94,
+  "end": 490.55,
+  "text": "and as I said there are two solutions"
+ },
+ {
+  "start": 490.56,
+  "end": 492.469,
+  "text": "but you need to choose the best solution"
+ },
+ {
+  "start": 492.479,
+  "end": 495.35,
+  "text": "which is more reliable and which is more"
+ },
+ {
+  "start": 495.36,
+  "end": 497.689,
+  "text": "sustainable"
+ },
+ {
+  "start": 497.699,
+  "end": 500.51,
+  "text": "that's all for this particular video if"
+ },
+ {
+  "start": 500.52,
+  "end": 502.369,
+  "text": "you have any questions then please leave"
+ },
+ {
+  "start": 502.379,
+  "end": 504.71,
+  "text": "it in the comments if you like this"
+ },
+ {
+  "start": 504.72,
+  "end": 506.45,
+  "text": "video then please subscribe to our"
+ },
+ {
+  "start": 506.46,
+  "end": 507.35,
+  "text": "Channel"
+ },
+ {
+  "start": 507.36,
+  "end": 509.57,
+  "text": "thanks for watching and I will see you"
+ },
+ {
+  "start": 509.58,
+  "end": 512.419,
+  "text": "in the next video"
+ }
+]

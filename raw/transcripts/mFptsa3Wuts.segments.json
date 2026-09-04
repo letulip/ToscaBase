@@ -1,0 +1,537 @@
+[
+ {
+  "start": 15.02,
+  "end": 19.7,
+  "text": "Hello friends, Welcome back to our channel."
+ },
+ {
+  "start": 19.7,
+  "end": 23.64,
+  "text": "I am your Tosca instructor and my name is Kumaresh."
+ },
+ {
+  "start": 23.64,
+  "end": 30.34,
+  "text": "I have total 14 years of IT experience in software development and test automation."
+ },
+ {
+  "start": 30.34,
+  "end": 33.98,
+  "text": "Thank you for connecting with us."
+ },
+ {
+  "start": 33.98,
+  "end": 36.58,
+  "text": "Hope you are doing well."
+ },
+ {
+  "start": 36.58,
+  "end": 39.48,
+  "text": "Let's start our today's session."
+ },
+ {
+  "start": 39.48,
+  "end": 44.94,
+  "text": "Through this video, I will explain the different approaches of Tosca automated test execution."
+ },
+ {
+  "start": 44.94,
+  "end": 51.58,
+  "text": "Also, I will explain the steps to enable and generates the document through DokuSnapper."
+ },
+ {
+  "start": 51.58,
+  "end": 56.58,
+  "text": "Test execution is a process to verify the application functionality based on the test"
+ },
+ {
+  "start": 56.58,
+  "end": 58.22,
+  "text": "cases."
+ },
+ {
+  "start": 58.22,
+  "end": 63.26,
+  "text": "The test execution can be done manually or through automated approach."
+ },
+ {
+  "start": 63.26,
+  "end": 69.06,
+  "text": "In this video, I will guide you to perform automation test execution in Tosca."
+ },
+ {
+  "start": 69.06,
+  "end": 74.04,
+  "text": "Tosca allows you to execute the test cases in two ways."
+ },
+ {
+  "start": 74.04,
+  "end": 77.8,
+  "text": "Execute test cases in Scratchbook and"
+ },
+ {
+  "start": 77.8,
+  "end": 82.27,
+  "text": "Execute test cases from execution list."
+ },
+ {
+  "start": 82.27,
+  "end": 86.75,
+  "text": "Tricentis advises using the Scratchbook for a dry run which means to to check"
+ },
+ {
+  "start": 86.75,
+  "end": 89.23,
+  "text": "the test case readiness."
+ },
+ {
+  "start": 89.23,
+  "end": 94.51,
+  "text": "The Scratchbook execution results will not be available for future reference."
+ },
+ {
+  "start": 94.51,
+  "end": 100.07,
+  "text": "We also could perform the execution of individual test steps."
+ },
+ {
+  "start": 100.07,
+  "end": 104.4,
+  "text": "Let's see the execution from Scratchbook."
+ },
+ {
+  "start": 104.4,
+  "end": 109.18,
+  "text": "We need to right click on the selected test case and select option run in Scratchbook"
+ },
+ {
+  "start": 109.18,
+  "end": 112.7,
+  "text": "to initiate the execution from Scratchbook."
+ },
+ {
+  "start": 112.7,
+  "end": 118.24,
+  "text": "No need to check out the test case or containing folder for Scratchbook execution."
+ },
+ {
+  "start": 118.24,
+  "end": 122.62,
+  "text": "The automated script will perform Google search and validate the Tricentis logo"
+ },
+ {
+  "start": 122.62,
+  "end": 128.86,
+  "text": "after opening the Tricentis official portal."
+ },
+ {
+  "start": 128.86,
+  "end": 133.06,
+  "text": "The temporary execution logs will be appear in the screen which contains the logs"
+ },
+ {
+  "start": 133.06,
+  "end": 138.52,
+  "text": "for each of the steps including verifications."
+ },
+ {
+  "start": 138.52,
+  "end": 143.64,
+  "text": "A green tick mark will be shown in each log step for success condition."
+ },
+ {
+  "start": 143.64,
+  "end": 149.39,
+  "text": "In case of failure a red cross mark will be appeared."
+ },
+ {
+  "start": 149.39,
+  "end": 153.77,
+  "text": "The execution segment provides a feature of selecting and preparing multiple test"
+ },
+ {
+  "start": 153.77,
+  "end": 156.79,
+  "text": "cases for execution."
+ },
+ {
+  "start": 156.79,
+  "end": 162.32,
+  "text": "Execution performed in execution list will be available for future references."
+ },
+ {
+  "start": 162.32,
+  "end": 167.12,
+  "text": "First, we need to understand the approach to create execution list."
+ },
+ {
+  "start": 167.12,
+  "end": 172.84,
+  "text": "And enablement of docusnapper before initiation of execution."
+ },
+ {
+  "start": 172.84,
+  "end": 177.94,
+  "text": "The enablement of docusnapper is an optional step which allows Tosca to create a detailed"
+ },
+ {
+  "start": 177.94,
+  "end": 181.6,
+  "text": "execution documents for each of the test case."
+ },
+ {
+  "start": 181.6,
+  "end": 187.36,
+  "text": "The docusnapper contains the logs and the images of each step."
+ },
+ {
+  "start": 187.36,
+  "end": 190.36,
+  "text": "Let's start with execution list creation step."
+ },
+ {
+  "start": 190.36,
+  "end": 194.92,
+  "text": "The execution logs are kept permanently in execution list."
+ },
+ {
+  "start": 194.92,
+  "end": 200.25,
+  "text": "It has to be created in execution section."
+ },
+ {
+  "start": 200.25,
+  "end": 209.73,
+  "text": "First, we need to dock the execution section in Tosca commander for better visibility."
+ },
+ {
+  "start": 209.73,
+  "end": 215.89,
+  "text": "The default and previously created lists are displayed here."
+ },
+ {
+  "start": 215.89,
+  "end": 223.18,
+  "text": "Now, we will check out the route to create it our own execution list."
+ },
+ {
+  "start": 223.18,
+  "end": 226.9,
+  "text": "The execution list cannot be created directly."
+ },
+ {
+  "start": 226.9,
+  "end": 232.94,
+  "text": "First, execution list folder has to be created in the execution section."
+ },
+ {
+  "start": 232.94,
+  "end": 237.74,
+  "text": "It can be done by selecting the create execution list folder icon after right clicking"
+ },
+ {
+  "start": 237.74,
+  "end": 240.0,
+  "text": "on checked out folder."
+ },
+ {
+  "start": 240.0,
+  "end": 242.82,
+  "text": "We can change the list folder name accordingly."
+ },
+ {
+  "start": 243.3,
+  "end": 248.18,
+  "text": "Now, we can create the execution list after right clicking on newly created execution"
+ },
+ {
+  "start": 248.18,
+  "end": 250.18,
+  "text": "list folder."
+ },
+ {
+  "start": 250.18,
+  "end": 253.58,
+  "text": "Entering the name as sample execution list."
+ },
+ {
+  "start": 253.58,
+  "end": 258.16,
+  "text": "The next step is to add the test case to the execution list."
+ },
+ {
+  "start": 258.16,
+  "end": 263.02,
+  "text": "We can add the test cases into the execution list from the test cases section by the"
+ },
+ {
+  "start": 263.02,
+  "end": 265.12,
+  "text": "drag drop method."
+ },
+ {
+  "start": 265.12,
+  "end": 269.18,
+  "text": "We will add the test case which was created previously."
+ },
+ {
+  "start": 269.22,
+  "end": 273.42,
+  "text": "The multiple test cases can also be added in this way."
+ },
+ {
+  "start": 273.42,
+  "end": 278.04,
+  "text": "The test configuration section contains the parameters which are defined during test"
+ },
+ {
+  "start": 278.04,
+  "end": 280.14,
+  "text": "case development."
+ },
+ {
+  "start": 280.14,
+  "end": 284.02,
+  "text": "Any changes from here will be applicable to this list only."
+ },
+ {
+  "start": 284.02,
+  "end": 288.88,
+  "text": "Initially, no logs are available here."
+ },
+ {
+  "start": 288.88,
+  "end": 293.1,
+  "text": "By clicking on check-in button, we can save the same in the shared repository."
+ },
+ {
+  "start": 293.1,
+  "end": 300.84,
+  "text": "Now, I will show how to enable to docusnapper to allow Tosca to create documents during"
+ },
+ {
+  "start": 300.84,
+  "end": 303.5,
+  "text": "the execution."
+ },
+ {
+  "start": 303.5,
+  "end": 308.04,
+  "text": "Click on project tab which is available in Tosca commander header section and click"
+ },
+ {
+  "start": 308.04,
+  "end": 309.86,
+  "text": "on settings."
+ },
+ {
+  "start": 309.86,
+  "end": 313.48,
+  "text": "The Tosca setting wizard will be appeared."
+ },
+ {
+  "start": 313.48,
+  "end": 317.76,
+  "text": "Select the navigation engine and docusnapper which are available under settings in left"
+ },
+ {
+  "start": 317.76,
+  "end": 320.0,
+  "text": "section of the wizard."
+ },
+ {
+  "start": 320.0,
+  "end": 322.96,
+  "text": "Now select the option docusnapper."
+ },
+ {
+  "start": 322.96,
+  "end": 328.02,
+  "text": "We need to change the value of setting option enable snapper to yes."
+ },
+ {
+  "start": 328.02,
+  "end": 333.34,
+  "text": "The different docusnapper configuration options including document paths can be customized"
+ },
+ {
+  "start": 333.34,
+  "end": 334.94,
+  "text": "from here."
+ },
+ {
+  "start": 334.94,
+  "end": 337.54,
+  "text": "Now close wizard to enable the docusnapper."
+ },
+ {
+  "start": 337.54,
+  "end": 344.25,
+  "text": "Now, I will show how to trigger the execution from Tosca execution list and view the"
+ },
+ {
+  "start": 344.25,
+  "end": 349.37,
+  "text": "document generated through docusnapper during execution."
+ },
+ {
+  "start": 349.37,
+  "end": 354.29,
+  "text": "To execute the test case from execution list first, we need to check out the execution"
+ },
+ {
+  "start": 354.29,
+  "end": 359.51,
+  "text": "list."
+ },
+ {
+  "start": 359.83,
+  "end": 364.67,
+  "text": "Now, we will be able to initiate the execution by clicking on run option after right-clicking"
+ },
+ {
+  "start": 364.67,
+  "end": 367.59,
+  "text": "on the selected test case."
+ },
+ {
+  "start": 367.59,
+  "end": 374.95,
+  "text": "Multiple test cases or the entire suite can be selected for execution."
+ },
+ {
+  "start": 374.95,
+  "end": 381.61,
+  "text": "The automated script will perform the defined test steps including Google search."
+ },
+ {
+  "start": 381.61,
+  "end": 385.35,
+  "text": "Opening the Tricentus official portal from the search result displayed in the Google"
+ },
+ {
+  "start": 385.35,
+  "end": 391.15,
+  "text": "page and validate the Tricentus logo."
+ },
+ {
+  "start": 391.15,
+  "end": 396.11,
+  "text": "After completion of execution, the execution logs will be available in the execution list"
+ },
+ {
+  "start": 396.11,
+  "end": 402.74,
+  "text": "which contains the logs for each of the steps including verifications."
+ },
+ {
+  "start": 402.74,
+  "end": 407.86,
+  "text": "A green tick mark will be shown in each log step for success condition."
+ },
+ {
+  "start": 407.86,
+  "end": 412.14,
+  "text": "In case of failure a red cross mark will be appeared, now perform the check in action"
+ },
+ {
+  "start": 412.14,
+  "end": 418.4,
+  "text": "to store the result permanently in the shared repository."
+ },
+ {
+  "start": 418.4,
+  "end": 423.3,
+  "text": "The docusnapper generated report can be viewed from the path app data."
+ },
+ {
+  "start": 423.3,
+  "end": 425.98,
+  "text": "Tricentus Tosca test suite"
+ },
+ {
+  "start": 425.98,
+  "end": 431.9,
+  "text": "7.0.0 Docusnapper"
+ },
+ {
+  "start": 431.9,
+  "end": 438.05,
+  "text": "The report should be available as per the test case name."
+ },
+ {
+  "start": 438.05,
+  "end": 444.61,
+  "text": "It will contains the execution logs and the screen shot for each of the test steps."
+ },
+ {
+  "start": 444.61,
+  "end": 449.33,
+  "text": "This document will be very helpful for proofing the test executions."
+ },
+ {
+  "start": 449.33,
+  "end": 453.81,
+  "text": "If the execution performed through scratchbook, the report name will be start with text"
+ },
+ {
+  "start": 453.81,
+  "end": 462.36,
+  "text": "scratchbook."
+ },
+ {
+  "start": 462.36,
+  "end": 465.64,
+  "text": "Thanks for watching this video."
+ },
+ {
+  "start": 465.64,
+  "end": 470.74,
+  "text": "That's all about Tosca automated test execution approaches."
+ },
+ {
+  "start": 470.74,
+  "end": 476.16,
+  "text": "We will learn more about data parameterization and creation Tosca reusable test step block"
+ },
+ {
+  "start": 476.16,
+  "end": 480.56,
+  "text": "through library in next Tosca tutorial."
+ },
+ {
+  "start": 480.56,
+  "end": 486.36,
+  "text": "Please visit our website lambdageeks.com for more articles on technology, engineering,"
+ },
+ {
+  "start": 486.36,
+  "end": 489.56,
+  "text": "mathematics and various other domain."
+ },
+ {
+  "start": 489.56,
+  "end": 491.52,
+  "text": "You can check our other website as well."
+ },
+ {
+  "start": 493.36,
+  "end": 502.51,
+  "text": "We have features like YouTube Trends, Twitter Trends, Scientific Calculator and many more"
+ },
+ {
+  "start": 502.51,
+  "end": 506.6,
+  "text": "other tools."
+ },
+ {
+  "start": 506.6,
+  "end": 510.64,
+  "text": "If you like our video, please like, comment and share."
+ },
+ {
+  "start": 510.64,
+  "end": 514.52,
+  "text": "If you have any questions, please comment and we will resolve your query."
+ }
+]

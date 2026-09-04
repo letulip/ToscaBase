@@ -1,0 +1,692 @@
+[
+ {
+  "start": 15.02,
+  "end": 19.7,
+  "text": "Hello friends, welcome back to our channel."
+ },
+ {
+  "start": 19.7,
+  "end": 23.64,
+  "text": "I am your Tosca instructor and my name is Kumaresh."
+ },
+ {
+  "start": 23.64,
+  "end": 30.34,
+  "text": "I have total 14 years of IT experience in software development and test automation."
+ },
+ {
+  "start": 30.34,
+  "end": 33.98,
+  "text": "Thank you for connecting with us."
+ },
+ {
+  "start": 33.98,
+  "end": 36.58,
+  "text": "Hope you are doing well."
+ },
+ {
+  "start": 36.58,
+  "end": 39.48,
+  "text": "Let's start our today's session."
+ },
+ {
+  "start": 39.48,
+  "end": 44.66,
+  "text": "Through this video, I will explain the creation of Tosca API Test Cases."
+ },
+ {
+  "start": 44.66,
+  "end": 51.54,
+  "text": "Create a parameterization, verification, and execution of Tosca API Test Cases."
+ },
+ {
+  "start": 51.54,
+  "end": 57.42,
+  "text": "The explanation will be done through hands-on demonstration."
+ },
+ {
+  "start": 57.42,
+  "end": 58.42,
+  "text": "Alright."
+ },
+ {
+  "start": 58.42,
+  "end": 63.9,
+  "text": "Let's start with the API test case creation."
+ },
+ {
+  "start": 63.9,
+  "end": 69.31,
+  "text": "Two options are available to create the API test cases."
+ },
+ {
+  "start": 69.31,
+  "end": 74.87,
+  "text": "First, we can choose the export to API test case option to create modules and basic"
+ },
+ {
+  "start": 74.87,
+  "end": 80.3,
+  "text": "test cases from the API Scan Wizard."
+ },
+ {
+  "start": 80.3,
+  "end": 84.82,
+  "text": "The second approach is to create the test cases using the modules which are created"
+ },
+ {
+  "start": 84.82,
+  "end": 88.82,
+  "text": "during the export."
+ },
+ {
+  "start": 88.82,
+  "end": 93.54,
+  "text": "Now I will guide you to create the test cases by opting the export API test case"
+ },
+ {
+  "start": 93.54,
+  "end": 97.7,
+  "text": "option."
+ },
+ {
+  "start": 97.7,
+  "end": 102.74,
+  "text": "Select the root folder and click on export option under API test case option to generate"
+ },
+ {
+  "start": 102.74,
+  "end": 105.14,
+  "text": "test cases and modules."
+ },
+ {
+  "start": 105.14,
+  "end": 110.94,
+  "text": "Oops, this error appeared as I forgot to check out the Tosca workspace."
+ },
+ {
+  "start": 110.94,
+  "end": 120.95,
+  "text": "Let me please check out the project folder first and do the same step again."
+ },
+ {
+  "start": 120.95,
+  "end": 126.06,
+  "text": "Once the process done, close the API Scan Wizard."
+ },
+ {
+  "start": 126.06,
+  "end": 131.14,
+  "text": "Now, we can see that modules and test cases sections are created in new component"
+ },
+ {
+  "start": 131.14,
+  "end": 137.05,
+  "text": "folder with the name API Scan underscore import."
+ },
+ {
+  "start": 137.05,
+  "end": 142.47,
+  "text": "The modules section contains all the modules which are created during the scanning."
+ },
+ {
+  "start": 142.47,
+  "end": 149.19,
+  "text": "The modules are available within the respective functionality wise created folders."
+ },
+ {
+  "start": 149.19,
+  "end": 153.27,
+  "text": "For each of API, two modules are created."
+ },
+ {
+  "start": 153.27,
+  "end": 156.59,
+  "text": "One for request and another for response."
+ },
+ {
+  "start": 156.59,
+  "end": 163.9,
+  "text": "We can use these modules later to create the test cases."
+ },
+ {
+  "start": 163.9,
+  "end": 169.26,
+  "text": "Now, let's see the test case section which contains the basic test cases for each of"
+ },
+ {
+  "start": 169.26,
+  "end": 172.74,
+  "text": "the APIs which are scanned previously."
+ },
+ {
+  "start": 172.74,
+  "end": 177.1,
+  "text": "Each of the test case has two steps."
+ },
+ {
+  "start": 177.1,
+  "end": 183.8,
+  "text": "One for sending the request and another for receiving the responses."
+ },
+ {
+  "start": 183.8,
+  "end": 188.56,
+  "text": "These are the default test cases which are generated based on structured in API Scan"
+ },
+ {
+  "start": 188.56,
+  "end": 197.2,
+  "text": "Wizard."
+ },
+ {
+  "start": 197.2,
+  "end": 201.98,
+  "text": "Now, I will guide you to create the test cases with the help of API modules which"
+ },
+ {
+  "start": 201.98,
+  "end": 205.2,
+  "text": "are created during the export."
+ },
+ {
+  "start": 205.2,
+  "end": 213.24,
+  "text": "This is similar approach to create Tosca test cases for any UI application."
+ },
+ {
+  "start": 213.24,
+  "end": 219.04,
+  "text": "Here we will perform a sample test scenarios for Swagger application."
+ },
+ {
+  "start": 219.04,
+  "end": 226.2,
+  "text": "The steps are, 1, authenticate using valid user credential, 2, add coffee item, 3, search"
+ },
+ {
+  "start": 226.2,
+  "end": 230.55,
+  "text": "and verify the new coffee item."
+ },
+ {
+  "start": 230.55,
+  "end": 234.46,
+  "text": "Let's start the demonstration now."
+ },
+ {
+  "start": 234.46,
+  "end": 239.78,
+  "text": "As per the test scenario, we will use request and response modules related to authentication"
+ },
+ {
+  "start": 239.78,
+  "end": 242.58,
+  "text": "and coffees."
+ },
+ {
+  "start": 242.58,
+  "end": 246.9,
+  "text": "The input data of default API modules are hard coded."
+ },
+ {
+  "start": 247.38,
+  "end": 252.86,
+  "text": "So, first we need to create the modules attributes to make it parameterized."
+ },
+ {
+  "start": 252.86,
+  "end": 257.58,
+  "text": "We will click on, buffer module attributes with dynamic list items, option to open"
+ },
+ {
+  "start": 257.58,
+  "end": 260.06,
+  "text": "attribute assistant."
+ },
+ {
+  "start": 260.06,
+  "end": 265.46,
+  "text": "Select password and username attributes and click on add to create attributes."
+ },
+ {
+  "start": 265.46,
+  "end": 269.46,
+  "text": "Two module attributes are created for username and password."
+ },
+ {
+  "start": 269.46,
+  "end": 274.5,
+  "text": "Similarly, we will create attributes for post post login data response module for"
+ },
+ {
+  "start": 274.5,
+  "end": 277.82,
+  "text": "the response field status code and token."
+ },
+ {
+  "start": 277.82,
+  "end": 284.34,
+  "text": "Next, we will create the attributes for module post PUST coffee request."
+ },
+ {
+  "start": 284.34,
+  "end": 289.88,
+  "text": "The attributes need to be created for name, description and authorization field."
+ },
+ {
+  "start": 289.88,
+  "end": 293.94,
+  "text": "From the attribute assistant screen, we will select the corresponding fields and"
+ },
+ {
+  "start": 293.94,
+  "end": 300.88,
+  "text": "click on add."
+ },
+ {
+  "start": 300.88,
+  "end": 305.24,
+  "text": "We need to create attributes for post post coffee response module for the response"
+ },
+ {
+  "start": 305.24,
+  "end": 310.08,
+  "text": "field status code and ID of newly created coffee item."
+ },
+ {
+  "start": 310.08,
+  "end": 318.24,
+  "text": "The other respond fields are not required."
+ },
+ {
+  "start": 318.24,
+  "end": 322.68,
+  "text": "Next, we need to create attributes for modules to find the coffee using the coffee"
+ },
+ {
+  "start": 322.68,
+  "end": 327.91,
+  "text": "it."
+ },
+ {
+  "start": 327.91,
+  "end": 332.51,
+  "text": "Here, we will create attributes for the authorization and ID field for the get"
+ },
+ {
+  "start": 332.51,
+  "end": 338.76,
+  "text": "GT coffee by ID request module."
+ },
+ {
+  "start": 338.76,
+  "end": 344.24,
+  "text": "Finally, we will now create attributes for get GT coffee by ID response module"
+ },
+ {
+  "start": 344.24,
+  "end": 347.72,
+  "text": "for the response field status code and name."
+ },
+ {
+  "start": 347.72,
+  "end": 352.6,
+  "text": "This name attribute will be used for verification."
+ },
+ {
+  "start": 352.6,
+  "end": 356.68,
+  "text": "All the required modules are now parameterized."
+ },
+ {
+  "start": 356.68,
+  "end": 360.68,
+  "text": "Post PUST login data request has two required attributes."
+ },
+ {
+  "start": 360.68,
+  "end": 364.12,
+  "text": "Post PUST login data response has attributes."
+ },
+ {
+  "start": 364.12,
+  "end": 368.96,
+  "text": "Similarly, the attributes are also created for other required modules."
+ },
+ {
+  "start": 368.96,
+  "end": 380.4,
+  "text": "All right, we will now create the test case using these modules."
+ },
+ {
+  "start": 380.4,
+  "end": 396.5,
+  "text": "We will first navigate to test cases section and create a new test case with name add coffee."
+ },
+ {
+  "start": 396.5,
+  "end": 411.41,
+  "text": "Next, we will create three test step folders with the name authentication."
+ },
+ {
+  "start": 411.41,
+  "end": 424.75,
+  "text": "Post coffee and verify new coffee."
+ },
+ {
+  "start": 424.75,
+  "end": 427.31,
+  "text": "Next we need to pull the required modules."
+ },
+ {
+  "start": 427.31,
+  "end": 432.39,
+  "text": "First, we will drag and drop login data request and response modules to the test"
+ },
+ {
+  "start": 432.39,
+  "end": 440.71,
+  "text": "step folder authentication."
+ },
+ {
+  "start": 440.71,
+  "end": 445.63,
+  "text": "Next, we will drag and drop post coffee request and response modules to the test"
+ },
+ {
+  "start": 445.63,
+  "end": 453.03,
+  "text": "step folder post coffee."
+ },
+ {
+  "start": 453.03,
+  "end": 458.23,
+  "text": "Finally, we will drag and drop GT coffee by ID request and response modules to the"
+ },
+ {
+  "start": 458.23,
+  "end": 466.26,
+  "text": "test step folder verify new coffee."
+ },
+ {
+  "start": 466.26,
+  "end": 470.26,
+  "text": "We need to update the test step with data and action."
+ },
+ {
+  "start": 470.26,
+  "end": 474.58,
+  "text": "In post login data request step, we will provide the valid password and"
+ },
+ {
+  "start": 474.58,
+  "end": 479.02,
+  "text": "username to generate the session authorization token."
+ },
+ {
+  "start": 479.02,
+  "end": 483.1,
+  "text": "This token will be used to perform any transaction such as add coffee or"
+ },
+ {
+  "start": 483.1,
+  "end": 486.54,
+  "text": "search by coffee ID."
+ },
+ {
+  "start": 486.54,
+  "end": 492.74,
+  "text": "For post login data response step, we verify the success code 200 OK for status"
+ },
+ {
+  "start": 492.74,
+  "end": 499.96,
+  "text": "code attribute to check the authentication."
+ },
+ {
+  "start": 499.96,
+  "end": 508.78,
+  "text": "Then we will store the token number in off token buffer that will be used later."
+ },
+ {
+  "start": 508.78,
+  "end": 513.98,
+  "text": "Now we will enter the new coffee details to the step post coffee request."
+ },
+ {
+  "start": 513.98,
+  "end": 518.41,
+  "text": "Enter name as test one."
+ },
+ {
+  "start": 518.41,
+  "end": 525.41,
+  "text": "Enter the value of description attribute as test coffee."
+ },
+ {
+  "start": 525.45,
+  "end": 532.56,
+  "text": "Enter value of authorization attribute as token space off token buffer."
+ },
+ {
+  "start": 532.56,
+  "end": 542.0,
+  "text": "Now we will check if the coffee successfully created or not."
+ },
+ {
+  "start": 542.0,
+  "end": 546.24,
+  "text": "So we need to perform verification against the status code attribute for"
+ },
+ {
+  "start": 546.24,
+  "end": 556.16,
+  "text": "post coffee response step and store the value of ID in a buffer."
+ },
+ {
+  "start": 556.16,
+  "end": 560.96,
+  "text": "Next step is to find the newly created coffee."
+ },
+ {
+  "start": 560.96,
+  "end": 565.64,
+  "text": "To perform this, we will update the ID attribute of the GT coffee by ID"
+ },
+ {
+  "start": 565.64,
+  "end": 573.48,
+  "text": "request step with the ID buffer, which holds the ID of newly created coffee item."
+ },
+ {
+  "start": 573.48,
+  "end": 580.2,
+  "text": "Also, the authorization attribute has to be updated accordingly."
+ },
+ {
+  "start": 580.2,
+  "end": 586.32,
+  "text": "Now we have to perform the final verification in step get coffee by ID response."
+ },
+ {
+  "start": 586.32,
+  "end": 594.04,
+  "text": "First perform verification for status code attribute with success code 200 OK."
+ },
+ {
+  "start": 594.04,
+  "end": 597.52,
+  "text": "After that, we will verify the name which was provided during the coffee"
+ },
+ {
+  "start": 597.52,
+  "end": 603.13,
+  "text": "creation."
+ },
+ {
+  "start": 603.13,
+  "end": 608.49,
+  "text": "The API test case is created and ready for execution."
+ },
+ {
+  "start": 608.49,
+  "end": 626.36,
+  "text": "It looks like this."
+ },
+ {
+  "start": 626.36,
+  "end": 630.6,
+  "text": "This test case can be executed through the scratch book by selecting run in"
+ },
+ {
+  "start": 630.6,
+  "end": 632.64,
+  "text": "scratch book option."
+ },
+ {
+  "start": 632.64,
+  "end": 635.52,
+  "text": "Here we will execute it through the execution list."
+ },
+ {
+  "start": 635.52,
+  "end": 639.78,
+  "text": "First check out the execution section."
+ },
+ {
+  "start": 639.78,
+  "end": 649.36,
+  "text": "Create execution list folder with name API suite and create a execution list"
+ },
+ {
+  "start": 649.36,
+  "end": 654.81,
+  "text": "with name swagger app."
+ },
+ {
+  "start": 654.81,
+  "end": 659.09,
+  "text": "We will drag and drop the newly created API test case add coffee into the"
+ },
+ {
+  "start": 659.09,
+  "end": 663.84,
+  "text": "execution list swagger app."
+ },
+ {
+  "start": 663.84,
+  "end": 668.08,
+  "text": "Now execute this execution list by selecting the run option after right"
+ },
+ {
+  "start": 668.08,
+  "end": 669.92,
+  "text": "clicking on it."
+ },
+ {
+  "start": 669.92,
+  "end": 674.04,
+  "text": "It will take few seconds to complete the execution."
+ },
+ {
+  "start": 674.04,
+  "end": 678.28,
+  "text": "No UI will be appeared during execution as it will be done through API"
+ },
+ {
+  "start": 678.28,
+  "end": 680.88,
+  "text": "interface."
+ },
+ {
+  "start": 680.88,
+  "end": 685.12,
+  "text": "We can now view the execution logs to check the status of all API"
+ },
+ {
+  "start": 685.12,
+  "end": 692.04,
+  "text": "transactions."
+ },
+ {
+  "start": 692.04,
+  "end": 700.18,
+  "text": "All the buffer are created successfully."
+ },
+ {
+  "start": 700.18,
+  "end": 704.82,
+  "text": "Also, we can view the final verification of coffee creation has been done"
+ },
+ {
+  "start": 704.82,
+  "end": 708.59,
+  "text": "successfully."
+ },
+ {
+  "start": 708.59,
+  "end": 712.39,
+  "text": "The buffers which are created during the execution can be seen from buffer"
+ },
+ {
+  "start": 712.39,
+  "end": 718.23,
+  "text": "viewer section."
+ },
+ {
+  "start": 718.23,
+  "end": 735.38,
+  "text": "Save and check in the workspace to store the test case in repository."
+ },
+ {
+  "start": 735.38,
+  "end": 738.54,
+  "text": "Thanks for watching this video."
+ },
+ {
+  "start": 738.54,
+  "end": 742.86,
+  "text": "That's all about API scanning using Tosca."
+ },
+ {
+  "start": 742.9,
+  "end": 749.69,
+  "text": "We will learn more about API test automation approach in next video."
+ },
+ {
+  "start": 749.69,
+  "end": 754.49,
+  "text": "Please visit our website lambdageeks.com for more articles on technology,"
+ },
+ {
+  "start": 754.49,
+  "end": 758.53,
+  "text": "engineering, mathematics and various other domain."
+ },
+ {
+  "start": 758.53,
+  "end": 762.57,
+  "text": "You can check our other website as well."
+ },
+ {
+  "start": 762.57,
+  "end": 771.0,
+  "text": "We have features like YouTube trends, Twitter trends, scientific calculator and"
+ },
+ {
+  "start": 771.0,
+  "end": 775.58,
+  "text": "many more other tools."
+ },
+ {
+  "start": 775.58,
+  "end": 779.62,
+  "text": "If you like our video, please like, comment and share."
+ },
+ {
+  "start": 779.62,
+  "end": 783.46,
+  "text": "If you have any questions, please comment and we will resolve your query."
+ }
+]

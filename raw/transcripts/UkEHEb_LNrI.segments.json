@@ -1,0 +1,1222 @@
+[
+ {
+  "start": 12.549,
+  "end": 12.559,
+  "text": "hey everyone welcome back to our Channel"
+ },
+ {
+  "start": 12.559,
+  "end": 15.19,
+  "text": "I am back with another interesting topic"
+ },
+ {
+  "start": 15.2,
+  "end": 17.83,
+  "text": "in the tosa automation"
+ },
+ {
+  "start": 17.84,
+  "end": 20.429,
+  "text": "playlist now uh we are going to discuss"
+ },
+ {
+  "start": 20.439,
+  "end": 23.189,
+  "text": "about a genuine problem which you will"
+ },
+ {
+  "start": 23.199,
+  "end": 24.79,
+  "text": "certainly come across whenever you're"
+ },
+ {
+  "start": 24.8,
+  "end": 27.349,
+  "text": "are trying to automate any application"
+ },
+ {
+  "start": 27.359,
+  "end": 30.269,
+  "text": "now tosa or any other automation tool is"
+ },
+ {
+  "start": 30.279,
+  "end": 34.15,
+  "text": "uh very efficient in automating or in uh"
+ },
+ {
+  "start": 34.16,
+  "end": 36.069,
+  "text": "scanning the elements which are web-"
+ },
+ {
+  "start": 36.079,
+  "end": 39.549,
+  "text": "based applications right but what about"
+ },
+ {
+  "start": 39.559,
+  "end": 42.99,
+  "text": "the desktop based applications or um"
+ },
+ {
+  "start": 43.0,
+  "end": 45.229,
+  "text": "within your application you have some"
+ },
+ {
+  "start": 45.239,
+  "end": 48.15,
+  "text": "desktop elements uh which you need to"
+ },
+ {
+  "start": 48.16,
+  "end": 50.59,
+  "text": "automate right so what do you do in"
+ },
+ {
+  "start": 50.6,
+  "end": 52.91,
+  "text": "these kind of scenarios or in your"
+ },
+ {
+  "start": 52.92,
+  "end": 55.51,
+  "text": "application certain elements are not"
+ },
+ {
+  "start": 55.52,
+  "end": 58.99,
+  "text": "being identified by tosa and you need to"
+ },
+ {
+  "start": 59.0,
+  "end": 61.509,
+  "text": "perform some action on those particular"
+ },
+ {
+  "start": 61.519,
+  "end": 63.91,
+  "text": "Elements which are not showing up while"
+ },
+ {
+  "start": 63.92,
+  "end": 66.67,
+  "text": "scanning the application right so all of"
+ },
+ {
+  "start": 66.68,
+  "end": 69.749,
+  "text": "these issues are very common whenever"
+ },
+ {
+  "start": 69.759,
+  "end": 72.35,
+  "text": "you are working on an automation project"
+ },
+ {
+  "start": 72.36,
+  "end": 74.59,
+  "text": "no matter what the application is or no"
+ },
+ {
+  "start": 74.6,
+  "end": 77.03,
+  "text": "matter which project you are working on"
+ },
+ {
+  "start": 77.04,
+  "end": 80.149,
+  "text": "so on a scale of 1 to 10 you will always"
+ },
+ {
+  "start": 80.159,
+  "end": 82.99,
+  "text": "face this issues nine out of 10 times"
+ },
+ {
+  "start": 83.0,
+  "end": 86.23,
+  "text": "okay so you have to uh be aware of all"
+ },
+ {
+  "start": 86.24,
+  "end": 88.63,
+  "text": "the possible solutions which are"
+ },
+ {
+  "start": 88.64,
+  "end": 93.429,
+  "text": "possible um especially in tosa okay so"
+ },
+ {
+  "start": 93.439,
+  "end": 97.149,
+  "text": "you would know that when tosa is not"
+ },
+ {
+  "start": 97.159,
+  "end": 99.83,
+  "text": "able to identify some elements then you"
+ },
+ {
+  "start": 99.84,
+  "end": 102.63,
+  "text": "have to create custom controls but that"
+ },
+ {
+  "start": 102.64,
+  "end": 106.069,
+  "text": "is not always the first solution so that"
+ },
+ {
+  "start": 106.079,
+  "end": 108.27,
+  "text": "option should be your last option"
+ },
+ {
+  "start": 108.28,
+  "end": 110.709,
+  "text": "because you don't want to end up um"
+ },
+ {
+  "start": 110.719,
+  "end": 114.389,
+  "text": "writing code for your uh custom controls"
+ },
+ {
+  "start": 114.399,
+  "end": 116.23,
+  "text": "right that would be a difficult option"
+ },
+ {
+  "start": 116.24,
+  "end": 118.789,
+  "text": "to choose rather you use all the"
+ },
+ {
+  "start": 118.799,
+  "end": 120.429,
+  "text": "features of TOs"
+ },
+ {
+  "start": 120.439,
+  "end": 123.87,
+  "text": "to try and solve this particular issue"
+ },
+ {
+  "start": 123.88,
+  "end": 126.109,
+  "text": "before moving on to last option which is"
+ },
+ {
+  "start": 126.119,
+  "end": 128.389,
+  "text": "creating a custom control by using the"
+ },
+ {
+  "start": 128.399,
+  "end": 131.07,
+  "text": "net libraries so I'm going to show you a"
+ },
+ {
+  "start": 131.08,
+  "end": 134.47,
+  "text": "particular example where tosa is not"
+ },
+ {
+  "start": 134.48,
+  "end": 137.309,
+  "text": "able to identify certain elements but"
+ },
+ {
+  "start": 137.319,
+  "end": 140.309,
+  "text": "there is a work around so let's see how"
+ },
+ {
+  "start": 140.319,
+  "end": 142.589,
+  "text": "we can move around this particular"
+ },
+ {
+  "start": 142.599,
+  "end": 146.43,
+  "text": "problem so I have opened up uh my device"
+ },
+ {
+  "start": 146.44,
+  "end": 149.19,
+  "text": "manager okay so this is present uh in"
+ },
+ {
+  "start": 149.2,
+  "end": 151.91,
+  "text": "your control panel so as you can see uh"
+ },
+ {
+  "start": 151.92,
+  "end": 154.949,
+  "text": "this is a Windows window based control"
+ },
+ {
+  "start": 154.959,
+  "end": 158.47,
+  "text": "right so this is part of the Microsoft"
+ },
+ {
+  "start": 158.48,
+  "end": 161.83,
+  "text": "Windows and uh everything inside this is"
+ },
+ {
+  "start": 161.84,
+  "end": 164.83,
+  "text": "window based so it's not a web based"
+ },
+ {
+  "start": 164.84,
+  "end": 169.309,
+  "text": "interface okay so here um if I go into"
+ },
+ {
+  "start": 169.319,
+  "end": 172.83,
+  "text": "monitors and generate PNP monitor I go"
+ },
+ {
+  "start": 172.84,
+  "end": 177.03,
+  "text": "into properties okay so it opens up a"
+ },
+ {
+  "start": 177.04,
+  "end": 180.309,
+  "text": "new window here you can see this window"
+ },
+ {
+  "start": 180.319,
+  "end": 184.789,
+  "text": "and then um if I go into details tab"
+ },
+ {
+  "start": 184.799,
+  "end": 188.509,
+  "text": "okay there is um the property and then"
+ },
+ {
+  "start": 188.519,
+  "end": 191.869,
+  "text": "value okay and in the property is a"
+ },
+ {
+  "start": 191.879,
+  "end": 196.47,
+  "text": "drop- down right now um what if my"
+ },
+ {
+  "start": 196.48,
+  "end": 199.99,
+  "text": "automation task is to uh verify all the"
+ },
+ {
+  "start": 200.0,
+  "end": 201.949,
+  "text": "values which are present in this"
+ },
+ {
+  "start": 201.959,
+  "end": 204.11,
+  "text": "dropdown okay and I have to do this"
+ },
+ {
+  "start": 204.12,
+  "end": 207.309,
+  "text": "using tosa so let's see whether tosa is"
+ },
+ {
+  "start": 207.319,
+  "end": 209.509,
+  "text": "able to identify all the elements on"
+ },
+ {
+  "start": 209.519,
+  "end": 212.63,
+  "text": "this particular window-based control"
+ },
+ {
+  "start": 212.64,
+  "end": 216.149,
+  "text": "right now remember that uh tosa supports"
+ },
+ {
+  "start": 216.159,
+  "end": 218.35,
+  "text": "most of the Technologies including the"
+ },
+ {
+  "start": 218.36,
+  "end": 221.27,
+  "text": "desktop based application so it should"
+ },
+ {
+  "start": 221.28,
+  "end": 224.429,
+  "text": "be able to identify these elements okay"
+ },
+ {
+  "start": 224.439,
+  "end": 226.67,
+  "text": "but let's see whether it is able to"
+ },
+ {
+  "start": 226.68,
+  "end": 230.309,
+  "text": "actually do that so I will go to modules"
+ },
+ {
+  "start": 230.319,
+  "end": 238.509,
+  "text": "I will go and do the scan"
+ },
+ {
+  "start": 240.91,
+  "end": 240.92,
+  "text": "application okay so I can see both the"
+ },
+ {
+  "start": 240.92,
+  "end": 243.309,
+  "text": "windows here uh the device manager as"
+ },
+ {
+  "start": 243.319,
+  "end": 245.39,
+  "text": "well as the generic PNP"
+ },
+ {
+  "start": 245.4,
+  "end": 248.75,
+  "text": "monitor now um in some cases if you're"
+ },
+ {
+  "start": 248.76,
+  "end": 252.35,
+  "text": "not able to scan that particular"
+ },
+ {
+  "start": 252.36,
+  "end": 254.67,
+  "text": "application if no element is showing up"
+ },
+ {
+  "start": 254.68,
+  "end": 257.189,
+  "text": "when you scan this particular window"
+ },
+ {
+  "start": 257.199,
+  "end": 259.349,
+  "text": "then you can fall back upon other"
+ },
+ {
+  "start": 259.359,
+  "end": 263.51,
+  "text": "options okay so right click uh on on"
+ },
+ {
+  "start": 263.52,
+  "end": 267.03,
+  "text": "here you can see when X is selected"
+ },
+ {
+  "start": 267.04,
+  "end": 269.909,
+  "text": "which means it is a window based control"
+ },
+ {
+  "start": 269.919,
+  "end": 272.029,
+  "text": "um and then you have other options like"
+ },
+ {
+  "start": 272.039,
+  "end": 275.71,
+  "text": "Vision Ai and then UIA okay so these two"
+ },
+ {
+  "start": 275.72,
+  "end": 278.31,
+  "text": "options are still there uh if you are"
+ },
+ {
+  "start": 278.32,
+  "end": 281.83,
+  "text": "not able to scan with the default option"
+ },
+ {
+  "start": 281.84,
+  "end": 285.31,
+  "text": "which is the win X option okay but for"
+ },
+ {
+  "start": 285.32,
+  "end": 287.79,
+  "text": "now we will go with the V next"
+ },
+ {
+  "start": 287.8,
+  "end": 290.71,
+  "text": "option so I'm going to scan this"
+ },
+ {
+  "start": 290.72,
+  "end": 293.35,
+  "text": "particular application and now you can"
+ },
+ {
+  "start": 293.36,
+  "end": 296.51,
+  "text": "see it is showing up some elements okay"
+ },
+ {
+  "start": 296.52,
+  "end": 299.79,
+  "text": "but let's see if uh it is able to scan"
+ },
+ {
+  "start": 299.8,
+  "end": 302.51,
+  "text": "the elements which I require"
+ },
+ {
+  "start": 302.52,
+  "end": 306.99,
+  "text": "okay so now I can see a label generic"
+ },
+ {
+  "start": 307.0,
+  "end": 310.87,
+  "text": "PNP monitor property combo box value"
+ },
+ {
+  "start": 310.88,
+  "end": 313.59,
+  "text": "list okay cancel tab control so it is"
+ },
+ {
+  "start": 313.6,
+  "end": 316.87,
+  "text": "showing up most of the elements but I"
+ },
+ {
+  "start": 316.88,
+  "end": 319.309,
+  "text": "need the drop- down elements inside this"
+ },
+ {
+  "start": 319.319,
+  "end": 322.99,
+  "text": "because I need to verify them okay so I"
+ },
+ {
+  "start": 323.0,
+  "end": 326.469,
+  "text": "can see the property and the combo box"
+ },
+ {
+  "start": 326.479,
+  "end": 329.749,
+  "text": "right but I'm not able to see the"
+ },
+ {
+  "start": 329.759,
+  "end": 332.909,
+  "text": "elements inside the combo box um so my"
+ },
+ {
+  "start": 332.919,
+  "end": 335.83,
+  "text": "next action would be to increase the"
+ },
+ {
+  "start": 335.84,
+  "end": 338.95,
+  "text": "filtered items and try to see if it is"
+ },
+ {
+  "start": 338.96,
+  "end": 341.029,
+  "text": "showing up any"
+ },
+ {
+  "start": 341.039,
+  "end": 345.11,
+  "text": "particular uh combo box items here okay"
+ },
+ {
+  "start": 345.12,
+  "end": 347.749,
+  "text": "and as you can see so this is the"
+ },
+ {
+  "start": 347.759,
+  "end": 350.51,
+  "text": "details Tab and currently it is not"
+ },
+ {
+  "start": 350.52,
+  "end": 353.189,
+  "text": "showing me any elements under the combo"
+ },
+ {
+  "start": 353.199,
+  "end": 356.27,
+  "text": "box okay so it is showing up some other"
+ },
+ {
+  "start": 356.28,
+  "end": 358.67,
+  "text": "elements in some other tabs but not in"
+ },
+ {
+  "start": 358.68,
+  "end": 360.51,
+  "text": "this particular tab"
+ },
+ {
+  "start": 360.52,
+  "end": 364.59,
+  "text": "okay and this is a problem now because"
+ },
+ {
+  "start": 364.6,
+  "end": 368.07,
+  "text": "uh my job is to verify the properties"
+ },
+ {
+  "start": 368.08,
+  "end": 371.15,
+  "text": "which are displayed here right and uh I"
+ },
+ {
+  "start": 371.16,
+  "end": 374.589,
+  "text": "cannot do it directly uh after scanning"
+ },
+ {
+  "start": 374.599,
+  "end": 376.749,
+  "text": "this particular"
+ },
+ {
+  "start": 376.759,
+  "end": 380.83,
+  "text": "control so uh let's go ahead and let's"
+ },
+ {
+  "start": 380.84,
+  "end": 383.27,
+  "text": "select the combo box okay so it is"
+ },
+ {
+  "start": 383.28,
+  "end": 386.909,
+  "text": "unique uh we can go ahead with the"
+ },
+ {
+  "start": 386.919,
+  "end": 389.589,
+  "text": "properties which can uh identify the"
+ },
+ {
+  "start": 389.599,
+  "end": 392.99,
+  "text": "this combo box okay so what we will do"
+ },
+ {
+  "start": 393.0,
+  "end": 395.189,
+  "text": "is now we will go ahead and save this"
+ },
+ {
+  "start": 395.199,
+  "end": 398.55,
+  "text": "module and now we will go back to our"
+ },
+ {
+  "start": 398.56,
+  "end": 400.79,
+  "text": "module okay so this is the"
+ },
+ {
+  "start": 400.8,
+  "end": 404.15,
+  "text": "module okay and then we have the combo"
+ },
+ {
+  "start": 404.16,
+  "end": 406.15,
+  "text": "box here"
+ },
+ {
+  "start": 406.16,
+  "end": 410.11,
+  "text": "right now in order to get the elements"
+ },
+ {
+  "start": 410.12,
+  "end": 412.99,
+  "text": "which are inside the combo box okay so"
+ },
+ {
+  "start": 413.0,
+  "end": 415.469,
+  "text": "if we look at this application there are"
+ },
+ {
+  "start": 415.479,
+  "end": 417.67,
+  "text": "lots of properties which are present"
+ },
+ {
+  "start": 417.68,
+  "end": 420.43,
+  "text": "right and since these are not being"
+ },
+ {
+  "start": 420.44,
+  "end": 423.83,
+  "text": "displayed currently in the scan engine"
+ },
+ {
+  "start": 423.84,
+  "end": 428.029,
+  "text": "what we can do is we can add a generic"
+ },
+ {
+  "start": 428.039,
+  "end": 431.23,
+  "text": "element so what we are going to do is uh"
+ },
+ {
+  "start": 431.24,
+  "end": 433.95,
+  "text": "in the combo box right we will right"
+ },
+ {
+  "start": 433.96,
+  "end": 436.51,
+  "text": "click and then uh we will go to this"
+ },
+ {
+  "start": 436.52,
+  "end": 437.39,
+  "text": "three"
+ },
+ {
+  "start": 437.4,
+  "end": 440.51,
+  "text": "ellipses and there you will find create"
+ },
+ {
+  "start": 440.52,
+  "end": 444.67,
+  "text": "generic list item okay so this is a"
+ },
+ {
+  "start": 444.68,
+  "end": 448.07,
+  "text": "generic type which can be added for a"
+ },
+ {
+  "start": 448.08,
+  "end": 453.35,
+  "text": "combo box uh it is a list item type okay"
+ },
+ {
+  "start": 453.36,
+  "end": 456.71,
+  "text": "so it will identify any list items which"
+ },
+ {
+  "start": 456.72,
+  "end": 460.15,
+  "text": "are present once we create this generic"
+ },
+ {
+  "start": 460.16,
+  "end": 463.51,
+  "text": "list item or once we add this particular"
+ },
+ {
+  "start": 463.52,
+  "end": 465.23,
+  "text": "property which is the create generic"
+ },
+ {
+  "start": 465.24,
+  "end": 469.469,
+  "text": "list item okay so once we add this now"
+ },
+ {
+  "start": 469.479,
+  "end": 471.27,
+  "text": "you will see that it is added under"
+ },
+ {
+  "start": 471.28,
+  "end": 476.629,
+  "text": "combo box and it is a item right now"
+ },
+ {
+  "start": 476.639,
+  "end": 478.39,
+  "text": "interestingly if you go to the"
+ },
+ {
+  "start": 478.4,
+  "end": 480.749,
+  "text": "properties of this item"
+ },
+ {
+  "start": 480.759,
+  "end": 483.469,
+  "text": "uh you can see the engine is when X"
+ },
+ {
+  "start": 483.479,
+  "end": 487.469,
+  "text": "right but uh the explicit name actually"
+ },
+ {
+  "start": 487.479,
+  "end": 490.469,
+  "text": "contains all the different items which"
+ },
+ {
+  "start": 490.479,
+  "end": 493.23,
+  "text": "we are looking for okay so as you can"
+ },
+ {
+  "start": 493.24,
+  "end": 497.07,
+  "text": "see it has got all the properties which"
+ },
+ {
+  "start": 497.08,
+  "end": 499.35,
+  "text": "are present in my"
+ },
+ {
+  "start": 499.36,
+  "end": 503.27,
+  "text": "application okay so I can actually"
+ },
+ {
+  "start": 503.28,
+  "end": 506.79,
+  "text": "select any particular item using this"
+ },
+ {
+  "start": 506.8,
+  "end": 511.11,
+  "text": "explicit name okay so now what I will do"
+ },
+ {
+  "start": 511.12,
+  "end": 515.269,
+  "text": "is we will add a test case folder here"
+ },
+ {
+  "start": 515.279,
+  "end": 519.79,
+  "text": "and we will call it win"
+ },
+ {
+  "start": 519.8,
+  "end": 522.829,
+  "text": "controls okay and then we will add a"
+ },
+ {
+  "start": 522.839,
+  "end": 526.19,
+  "text": "test case here we'll say"
+ },
+ {
+  "start": 526.2,
+  "end": 529.91,
+  "text": "verify driver"
+ },
+ {
+  "start": 529.92,
+  "end": 532.23,
+  "text": "properties and then we will add the"
+ },
+ {
+  "start": 532.24,
+  "end": 535.11,
+  "text": "module right here okay now as you can"
+ },
+ {
+  "start": 535.12,
+  "end": 537.19,
+  "text": "see it has got a combo box and it has"
+ },
+ {
+  "start": 537.2,
+  "end": 540.19,
+  "text": "also got a list item which is a generic"
+ },
+ {
+  "start": 540.2,
+  "end": 543.59,
+  "text": "type okay um and we have added this um"
+ },
+ {
+  "start": 543.6,
+  "end": 547.91,
+  "text": "manually it was not added by tosa so now"
+ },
+ {
+  "start": 547.92,
+  "end": 550.509,
+  "text": "um I can actually select any particular"
+ },
+ {
+  "start": 550.519,
+  "end": 553.389,
+  "text": "item using the explicit names you can"
+ },
+ {
+  "start": 553.399,
+  "end": 556.59,
+  "text": "see all the item names are present here"
+ },
+ {
+  "start": 556.6,
+  "end": 560.269,
+  "text": "which you want to verify okay so uh I"
+ },
+ {
+  "start": 560.279,
+  "end": 562.47,
+  "text": "want to verify the device"
+ },
+ {
+  "start": 562.48,
+  "end": 565.15,
+  "text": "description so the combo box action mode"
+ },
+ {
+  "start": 565.16,
+  "end": 567.59,
+  "text": "will change to select here the device"
+ },
+ {
+  "start": 567.6,
+  "end": 571.069,
+  "text": "description is still input I will uh"
+ },
+ {
+  "start": 571.079,
+  "end": 575.43,
+  "text": "make it verify and then I will say exist"
+ },
+ {
+  "start": 575.44,
+  "end": 577.87,
+  "text": "equals equals"
+ },
+ {
+  "start": 577.88,
+  "end": 581.79,
+  "text": "true okay similarly I can verify some"
+ },
+ {
+  "start": 581.8,
+  "end": 587.509,
+  "text": "more um capabilities right and then"
+ },
+ {
+  "start": 587.519,
+  "end": 590.23,
+  "text": "status okay so these three I want to"
+ },
+ {
+  "start": 590.24,
+  "end": 593.43,
+  "text": "verify I will put verify"
+ },
+ {
+  "start": 593.44,
+  "end": 598.75,
+  "text": "here and same I will do exist equals"
+ },
+ {
+  "start": 598.76,
+  "end": 608.79,
+  "text": "equals"
+ },
+ {
+  "start": 611.31,
+  "end": 611.32,
+  "text": "true now an interesting thing to note"
+ },
+ {
+  "start": 611.32,
+  "end": 614.11,
+  "text": "here is you will see that um as we keep"
+ },
+ {
+  "start": 614.12,
+  "end": 617.389,
+  "text": "on adding the items still uh the item"
+ },
+ {
+  "start": 617.399,
+  "end": 619.63,
+  "text": "will get created here and that is"
+ },
+ {
+  "start": 619.64,
+  "end": 621.949,
+  "text": "because of the cardinality which is set"
+ },
+ {
+  "start": 621.959,
+  "end": 627.03,
+  "text": "to 0 to n okay so now we have done some"
+ },
+ {
+  "start": 627.04,
+  "end": 629.31,
+  "text": "verifications let's go ahead and let's"
+ },
+ {
+  "start": 629.32,
+  "end": 631.43,
+  "text": "let's execute this test case and let's"
+ },
+ {
+  "start": 631.44,
+  "end": 636.75,
+  "text": "see it is able to verify or not"
+ },
+ {
+  "start": 640.949,
+  "end": 640.959,
+  "text": "okay so um as you can see it maximized"
+ },
+ {
+  "start": 640.959,
+  "end": 644.75,
+  "text": "this particular window right um and if I"
+ },
+ {
+  "start": 644.76,
+  "end": 648.55,
+  "text": "go back to tosa let"
+ },
+ {
+  "start": 648.56,
+  "end": 652.11,
+  "text": "me make this into a normal window and"
+ },
+ {
+  "start": 652.12,
+  "end": 656.069,
+  "text": "then if I look at the log info you can"
+ },
+ {
+  "start": 656.079,
+  "end": 659.31,
+  "text": "see the verification was successful for"
+ },
+ {
+  "start": 659.32,
+  "end": 663.03,
+  "text": "all the three items in the combo box"
+ },
+ {
+  "start": 663.04,
+  "end": 666.829,
+  "text": "okay so this is how you can add generic"
+ },
+ {
+  "start": 666.839,
+  "end": 669.67,
+  "text": "list item to your combo box even if"
+ },
+ {
+  "start": 669.68,
+  "end": 672.389,
+  "text": "these items are not scanned in the first"
+ },
+ {
+  "start": 672.399,
+  "end": 675.829,
+  "text": "instance by tosa and you cannot see them"
+ },
+ {
+  "start": 675.839,
+  "end": 678.71,
+  "text": "in the module you can still add it as a"
+ },
+ {
+  "start": 678.72,
+  "end": 682.03,
+  "text": "module attribute and once you add this"
+ },
+ {
+  "start": 682.04,
+  "end": 685.03,
+  "text": "generic list item as a module attribute"
+ },
+ {
+  "start": 685.04,
+  "end": 688.43,
+  "text": "then you'll be able to see all the items"
+ },
+ {
+  "start": 688.44,
+  "end": 690.87,
+  "text": "uh which are present in your application"
+ },
+ {
+  "start": 690.88,
+  "end": 692.31,
+  "text": "and then you can perform all the"
+ },
+ {
+  "start": 692.32,
+  "end": 694.629,
+  "text": "verifications or validations which you"
+ },
+ {
+  "start": 694.639,
+  "end": 698.19,
+  "text": "want to perform on this list items okay"
+ },
+ {
+  "start": 698.2,
+  "end": 701.15,
+  "text": "so this is one example of how you can"
+ },
+ {
+  "start": 701.16,
+  "end": 704.99,
+  "text": "get around these problems when tosa is"
+ },
+ {
+  "start": 705.0,
+  "end": 707.71,
+  "text": "not able to scan all the elements on"
+ },
+ {
+  "start": 707.72,
+  "end": 710.35,
+  "text": "your application or you're working with"
+ },
+ {
+  "start": 710.36,
+  "end": 713.47,
+  "text": "Windows based controls so similarly you"
+ },
+ {
+  "start": 713.48,
+  "end": 716.509,
+  "text": "can work around some generic items which"
+ },
+ {
+  "start": 716.519,
+  "end": 719.23,
+  "text": "are already present uh when you go into"
+ },
+ {
+  "start": 719.24,
+  "end": 722.71,
+  "text": "into your module properties but uh it is"
+ },
+ {
+  "start": 722.72,
+  "end": 725.35,
+  "text": "not the case with all the controls okay"
+ },
+ {
+  "start": 725.36,
+  "end": 729.35,
+  "text": "and some cases tosa has not provided"
+ },
+ {
+  "start": 729.36,
+  "end": 733.03,
+  "text": "these generic items and you need to"
+ },
+ {
+  "start": 733.04,
+  "end": 735.91,
+  "text": "create custom controls if these generic"
+ },
+ {
+  "start": 735.92,
+  "end": 738.03,
+  "text": "items are not already present and you"
+ },
+ {
+  "start": 738.04,
+  "end": 741.55,
+  "text": "cannot add them using uh the properties"
+ },
+ {
+  "start": 741.56,
+  "end": 744.509,
+  "text": "of a particular element"
+ },
+ {
+  "start": 744.519,
+  "end": 748.23,
+  "text": "right so uh in those cases you have to"
+ },
+ {
+  "start": 748.24,
+  "end": 750.79,
+  "text": "uh fall back upon on your last option"
+ },
+ {
+  "start": 750.8,
+  "end": 754.23,
+  "text": "which is creating a custom"
+ },
+ {
+  "start": 754.24,
+  "end": 756.629,
+  "text": "control that's all for this particular"
+ },
+ {
+  "start": 756.639,
+  "end": 759.069,
+  "text": "video if you have any questions then"
+ },
+ {
+  "start": 759.079,
+  "end": 761.509,
+  "text": "please leave it in the comments if you"
+ },
+ {
+  "start": 761.519,
+  "end": 763.47,
+  "text": "like this video then please subscribe to"
+ },
+ {
+  "start": 763.48,
+  "end": 766.189,
+  "text": "our Channel thanks for watching and I"
+ },
+ {
+  "start": 766.199,
+  "end": 770.959,
+  "text": "will see you in the next video"
+ }
+]

@@ -1,0 +1,787 @@
+[
+ {
+  "start": 7.97,
+  "end": 7.98,
+  "text": "hey everyone welcome back to this Tosca"
+ },
+ {
+  "start": 7.98,
+  "end": 10.25,
+  "text": "playlist and today we are going to talk"
+ },
+ {
+  "start": 10.26,
+  "end": 12.709,
+  "text": "about another authentication type which"
+ },
+ {
+  "start": 12.719,
+  "end": 15.169,
+  "text": "is digest authentication now this"
+ },
+ {
+  "start": 15.179,
+  "end": 17.21,
+  "text": "authentication mechanism may be used"
+ },
+ {
+  "start": 17.22,
+  "end": 20.45,
+  "text": "with some API messages or requests and"
+ },
+ {
+  "start": 20.46,
+  "end": 22.37,
+  "text": "you need to make sure that you are using"
+ },
+ {
+  "start": 22.38,
+  "end": 24.89,
+  "text": "uh the correct authentication type for"
+ },
+ {
+  "start": 24.9,
+  "end": 26.99,
+  "text": "your API message before you send them"
+ },
+ {
+  "start": 27.0,
+  "end": 28.25,
+  "text": "right"
+ },
+ {
+  "start": 28.26,
+  "end": 29.929,
+  "text": "now in the previous session we already"
+ },
+ {
+  "start": 29.939,
+  "end": 32.03,
+  "text": "looked at how you can use the basic"
+ },
+ {
+  "start": 32.04,
+  "end": 34.729,
+  "text": "authentication using a simple username"
+ },
+ {
+  "start": 34.739,
+  "end": 37.13,
+  "text": "and password so if you have not watched"
+ },
+ {
+  "start": 37.14,
+  "end": 40.49,
+  "text": "the video URL is on the top so go ahead"
+ },
+ {
+  "start": 40.5,
+  "end": 42.709,
+  "text": "and watch that before you start watching"
+ },
+ {
+  "start": 42.719,
+  "end": 44.27,
+  "text": "this particular video which is the next"
+ },
+ {
+  "start": 44.28,
+  "end": 46.19,
+  "text": "authentication type which is digest"
+ },
+ {
+  "start": 46.2,
+  "end": 47.45,
+  "text": "Authentication"
+ },
+ {
+  "start": 47.46,
+  "end": 48.83,
+  "text": "okay"
+ },
+ {
+  "start": 48.84,
+  "end": 50.93,
+  "text": "so before we get into digest"
+ },
+ {
+  "start": 50.94,
+  "end": 52.19,
+  "text": "Authentication"
+ },
+ {
+  "start": 52.2,
+  "end": 54.35,
+  "text": "uh let's first understand what's the"
+ },
+ {
+  "start": 54.36,
+  "end": 56.209,
+  "text": "difference between basic authentication"
+ },
+ {
+  "start": 56.219,
+  "end": 59.63,
+  "text": "and digest authentication because on the"
+ },
+ {
+  "start": 59.64,
+  "end": 62.63,
+  "text": "front end when I use this particular API"
+ },
+ {
+  "start": 62.64,
+  "end": 64.31,
+  "text": "message you will not see any difference"
+ },
+ {
+  "start": 64.32,
+  "end": 68.09,
+  "text": "which I mean is I'll be sending this"
+ },
+ {
+  "start": 68.1,
+  "end": 70.13,
+  "text": "request with another username and"
+ },
+ {
+  "start": 70.14,
+  "end": 73.07,
+  "text": "password but as I said there will be no"
+ },
+ {
+  "start": 73.08,
+  "end": 75.23,
+  "text": "difference because in basic auth also we"
+ },
+ {
+  "start": 75.24,
+  "end": 77.27,
+  "text": "send an username and password"
+ },
+ {
+  "start": 77.28,
+  "end": 80.27,
+  "text": "and in the digest art also we are"
+ },
+ {
+  "start": 80.28,
+  "end": 82.969,
+  "text": "sending a username and password"
+ },
+ {
+  "start": 82.979,
+  "end": 85.429,
+  "text": "but the difference is digest"
+ },
+ {
+  "start": 85.439,
+  "end": 89.149,
+  "text": "authentication is much more uh you can"
+ },
+ {
+  "start": 89.159,
+  "end": 91.31,
+  "text": "say Advanced authentication type okay"
+ },
+ {
+  "start": 91.32,
+  "end": 94.07,
+  "text": "rather than just sending the username"
+ },
+ {
+  "start": 94.08,
+  "end": 97.069,
+  "text": "and password internally a lot of other"
+ },
+ {
+  "start": 97.079,
+  "end": 100.069,
+  "text": "things happen Okay so let's try and"
+ },
+ {
+  "start": 100.079,
+  "end": 102.59,
+  "text": "understand this little better with this"
+ },
+ {
+  "start": 102.6,
+  "end": 106.249,
+  "text": "particular diagram okay and here you can"
+ },
+ {
+  "start": 106.259,
+  "end": 108.77,
+  "text": "see that there are multiple requests and"
+ },
+ {
+  "start": 108.78,
+  "end": 111.71,
+  "text": "responses which are coming and going"
+ },
+ {
+  "start": 111.72,
+  "end": 115.19,
+  "text": "back instead of just one request and"
+ },
+ {
+  "start": 115.2,
+  "end": 117.23,
+  "text": "response in the case of basic"
+ },
+ {
+  "start": 117.24,
+  "end": 119.569,
+  "text": "authentication right where you send a"
+ },
+ {
+  "start": 119.579,
+  "end": 121.789,
+  "text": "get request with a particular username"
+ },
+ {
+  "start": 121.799,
+  "end": 124.249,
+  "text": "and password and the server uh"
+ },
+ {
+  "start": 124.259,
+  "end": 126.289,
+  "text": "authorizes that request and sends back"
+ },
+ {
+  "start": 126.299,
+  "end": 128.99,
+  "text": "the response okay but that's not the"
+ },
+ {
+  "start": 129.0,
+  "end": 131.449,
+  "text": "case with Digest auth"
+ },
+ {
+  "start": 131.459,
+  "end": 133.61,
+  "text": "so in this particular authentication"
+ },
+ {
+  "start": 133.62,
+  "end": 136.369,
+  "text": "mechanism right what happens is when we"
+ },
+ {
+  "start": 136.379,
+  "end": 138.949,
+  "text": "send a particular get request from any"
+ },
+ {
+  "start": 138.959,
+  "end": 141.83,
+  "text": "HTTP client right like our Tosca in this"
+ },
+ {
+  "start": 141.84,
+  "end": 142.61,
+  "text": "case"
+ },
+ {
+  "start": 142.62,
+  "end": 145.67,
+  "text": "okay so the server will respond back"
+ },
+ {
+  "start": 145.68,
+  "end": 150.35,
+  "text": "with a 401 unauthorized okay but uh even"
+ },
+ {
+  "start": 150.36,
+  "end": 153.229,
+  "text": "if it is four zero one unauthorized in"
+ },
+ {
+  "start": 153.239,
+  "end": 156.11,
+  "text": "the header we get some authentication"
+ },
+ {
+  "start": 156.12,
+  "end": 159.85,
+  "text": "information okay so which is the www"
+ },
+ {
+  "start": 159.86,
+  "end": 161.93,
+  "text": "authenticate okay this will be the"
+ },
+ {
+  "start": 161.94,
+  "end": 164.69,
+  "text": "header name and then inside this you"
+ },
+ {
+  "start": 164.7,
+  "end": 168.53,
+  "text": "will find uh two values which is"
+ },
+ {
+  "start": 168.54,
+  "end": 171.35,
+  "text": "um a realm and nonce values which will"
+ },
+ {
+  "start": 171.36,
+  "end": 174.71,
+  "text": "be used uh to Hash the subsequent"
+ },
+ {
+  "start": 174.72,
+  "end": 176.449,
+  "text": "requests okay"
+ },
+ {
+  "start": 176.459,
+  "end": 181.07,
+  "text": "so a hashing mechanism is applied to"
+ },
+ {
+  "start": 181.08,
+  "end": 183.89,
+  "text": "protect uh the particular request which"
+ },
+ {
+  "start": 183.9,
+  "end": 186.229,
+  "text": "is being sent to the server and which"
+ },
+ {
+  "start": 186.239,
+  "end": 188.21,
+  "text": "will be authenticated using a particular"
+ },
+ {
+  "start": 188.22,
+  "end": 191.21,
+  "text": "username and password and so in the next"
+ },
+ {
+  "start": 191.22,
+  "end": 194.149,
+  "text": "request uh which will be sent by the"
+ },
+ {
+  "start": 194.159,
+  "end": 194.93,
+  "text": "client"
+ },
+ {
+  "start": 194.94,
+  "end": 196.67,
+  "text": "it will include this authorization"
+ },
+ {
+  "start": 196.68,
+  "end": 199.07,
+  "text": "header with the information which was"
+ },
+ {
+  "start": 199.08,
+  "end": 201.949,
+  "text": "sent by the server which was this ww"
+ },
+ {
+  "start": 201.959,
+  "end": 205.79,
+  "text": "authenticate header Okay so so when we"
+ },
+ {
+  "start": 205.8,
+  "end": 209.089,
+  "text": "send this highest information from the"
+ },
+ {
+  "start": 209.099,
+  "end": 212.05,
+  "text": "client to the server then the server can"
+ },
+ {
+  "start": 212.06,
+  "end": 215.149,
+  "text": "authorize this particular request and it"
+ },
+ {
+  "start": 215.159,
+  "end": 218.63,
+  "text": "will send back a 200 okay response with"
+ },
+ {
+  "start": 218.64,
+  "end": 221.75,
+  "text": "the particular response payload okay so"
+ },
+ {
+  "start": 221.76,
+  "end": 224.75,
+  "text": "instead of just 2 or request and"
+ },
+ {
+  "start": 224.76,
+  "end": 227.089,
+  "text": "response there are four okay so there"
+ },
+ {
+  "start": 227.099,
+  "end": 229.55,
+  "text": "are two requests and two responses"
+ },
+ {
+  "start": 229.56,
+  "end": 232.13,
+  "text": "coming back from the server okay and"
+ },
+ {
+  "start": 232.14,
+  "end": 234.35,
+  "text": "that's the difference between basic"
+ },
+ {
+  "start": 234.36,
+  "end": 236.99,
+  "text": "authentication and digest Authentication"
+ },
+ {
+  "start": 237.0,
+  "end": 239.03,
+  "text": "but as I said you will not see any"
+ },
+ {
+  "start": 239.04,
+  "end": 241.19,
+  "text": "difference in the front end on the HTTP"
+ },
+ {
+  "start": 241.2,
+  "end": 244.85,
+  "text": "client side because internally Tosca is"
+ },
+ {
+  "start": 244.86,
+  "end": 249.17,
+  "text": "able to do all of this for you okay"
+ },
+ {
+  "start": 249.18,
+  "end": 252.41,
+  "text": "so now let's go back and let's try to"
+ },
+ {
+  "start": 252.42,
+  "end": 255.649,
+  "text": "use uh or create another API message"
+ },
+ {
+  "start": 255.659,
+  "end": 257.689,
+  "text": "where we can use this digest"
+ },
+ {
+  "start": 257.699,
+  "end": 260.39,
+  "text": "authentication right"
+ },
+ {
+  "start": 260.4,
+  "end": 262.37,
+  "text": "so I'm going to create a new message"
+ },
+ {
+  "start": 262.38,
+  "end": 266.93,
+  "text": "here and I'm going to call it Digest"
+ },
+ {
+  "start": 266.94,
+  "end": 270.89,
+  "text": "okay and here again in the end point"
+ },
+ {
+  "start": 270.9,
+  "end": 273.83,
+  "text": "I'm going to use a particular endpoint"
+ },
+ {
+  "start": 273.84,
+  "end": 275.45,
+  "text": "right"
+ },
+ {
+  "start": 275.46,
+  "end": 280.189,
+  "text": "and for this I'm going to use"
+ },
+ {
+  "start": 280.199,
+  "end": 281.51,
+  "text": "um"
+ },
+ {
+  "start": 281.52,
+  "end": 284.87,
+  "text": "API which is available with Tosca okay"
+ },
+ {
+  "start": 284.88,
+  "end": 287.51,
+  "text": "one of the sample apis which is the"
+ },
+ {
+  "start": 287.52,
+  "end": 290.09,
+  "text": "secured employee version 2."
+ },
+ {
+  "start": 290.1,
+  "end": 293.09,
+  "text": "okay and this is protected by digest"
+ },
+ {
+  "start": 293.1,
+  "end": 296.83,
+  "text": "authentication right so it's"
+ },
+ {
+  "start": 296.84,
+  "end": 299.689,
+  "text": "webservice.cloud.com rest API secure"
+ },
+ {
+  "start": 299.699,
+  "end": 302.15,
+  "text": "employee version 2. okay"
+ },
+ {
+  "start": 302.16,
+  "end": 304.969,
+  "text": "now if I just send this particular"
+ },
+ {
+  "start": 304.979,
+  "end": 306.59,
+  "text": "request without any authentication"
+ },
+ {
+  "start": 306.6,
+  "end": 309.71,
+  "text": "obviously we are going to get 401 on"
+ },
+ {
+  "start": 309.72,
+  "end": 311.99,
+  "text": "authorized right"
+ },
+ {
+  "start": 312.0,
+  "end": 316.01,
+  "text": "but uh if I go back to my request and I"
+ },
+ {
+  "start": 316.02,
+  "end": 319.31,
+  "text": "now select uh digest Authentication"
+ },
+ {
+  "start": 319.32,
+  "end": 322.43,
+  "text": "and for this I'm going to pass the"
+ },
+ {
+  "start": 322.44,
+  "end": 325.43,
+  "text": "username and password"
+ },
+ {
+  "start": 325.44,
+  "end": 326.39,
+  "text": "okay"
+ },
+ {
+  "start": 326.4,
+  "end": 328.85,
+  "text": "and then I'm going to send this"
+ },
+ {
+  "start": 328.86,
+  "end": 331.43,
+  "text": "particular request"
+ },
+ {
+  "start": 331.44,
+  "end": 333.29,
+  "text": "okay and this time around you will see"
+ },
+ {
+  "start": 333.3,
+  "end": 336.23,
+  "text": "that we got a status code 200 okay okay"
+ },
+ {
+  "start": 336.24,
+  "end": 338.629,
+  "text": "with the particular payload which is the"
+ },
+ {
+  "start": 338.639,
+  "end": 340.61,
+  "text": "employee information"
+ },
+ {
+  "start": 340.62,
+  "end": 343.85,
+  "text": "okay but as I said internally Tosca is"
+ },
+ {
+  "start": 343.86,
+  "end": 346.01,
+  "text": "sending two requests but you cannot see"
+ },
+ {
+  "start": 346.02,
+  "end": 349.969,
+  "text": "that in here okay so that's how you use"
+ },
+ {
+  "start": 349.979,
+  "end": 353.33,
+  "text": "the digest authentication for any"
+ },
+ {
+  "start": 353.34,
+  "end": 355.07,
+  "text": "particular API requests which are"
+ },
+ {
+  "start": 355.08,
+  "end": 356.749,
+  "text": "protected by this particular mechanism"
+ },
+ {
+  "start": 356.759,
+  "end": 359.09,
+  "text": "okay"
+ },
+ {
+  "start": 359.1,
+  "end": 361.129,
+  "text": "so this was all for this particular"
+ },
+ {
+  "start": 361.139,
+  "end": 363.71,
+  "text": "video where we looked at the digest"
+ },
+ {
+  "start": 363.72,
+  "end": 365.93,
+  "text": "authentication type okay there are many"
+ },
+ {
+  "start": 365.94,
+  "end": 367.969,
+  "text": "other authentication types which we may"
+ },
+ {
+  "start": 367.979,
+  "end": 371.45,
+  "text": "look in our other sessions but hopefully"
+ },
+ {
+  "start": 371.46,
+  "end": 373.49,
+  "text": "this was helpful for you and helped you"
+ },
+ {
+  "start": 373.5,
+  "end": 376.189,
+  "text": "learning something new"
+ },
+ {
+  "start": 376.199,
+  "end": 378.71,
+  "text": "so do tune in to our channel uh to watch"
+ },
+ {
+  "start": 378.72,
+  "end": 382.43,
+  "text": "more interesting videos on API testing"
+ },
+ {
+  "start": 382.44,
+  "end": 385.55,
+  "text": "um with Tosca and we'll also keep adding"
+ },
+ {
+  "start": 385.56,
+  "end": 388.61,
+  "text": "more videos on other topics if you have"
+ },
+ {
+  "start": 388.62,
+  "end": 391.67,
+  "text": "any Topic in your mind then do share it"
+ },
+ {
+  "start": 391.68,
+  "end": 393.71,
+  "text": "in the comment section and will pick up"
+ },
+ {
+  "start": 393.72,
+  "end": 396.89,
+  "text": "that particular topic for learning Tosca"
+ },
+ {
+  "start": 396.9,
+  "end": 399.409,
+  "text": "also if you have not subscribed please"
+ },
+ {
+  "start": 399.419,
+  "end": 401.27,
+  "text": "do subscribe so that you get a"
+ },
+ {
+  "start": 401.28,
+  "end": 403.49,
+  "text": "notification whenever a new video is"
+ },
+ {
+  "start": 403.5,
+  "end": 407.21,
+  "text": "added uh deleted and this will help you"
+ },
+ {
+  "start": 407.22,
+  "end": 410.39,
+  "text": "to keep learning Tosca in a continuous"
+ },
+ {
+  "start": 410.4,
+  "end": 412.61,
+  "text": "manner"
+ },
+ {
+  "start": 412.62,
+  "end": 415.01,
+  "text": "so thank you for watching and until the"
+ },
+ {
+  "start": 415.02,
+  "end": 417.409,
+  "text": "next video keep watching and keep"
+ },
+ {
+  "start": 417.419,
+  "end": 420.199,
+  "text": "learning Tosca"
+ }
+]

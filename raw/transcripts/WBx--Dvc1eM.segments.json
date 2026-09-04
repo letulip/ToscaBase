@@ -1,0 +1,792 @@
+[
+ {
+  "start": 12.549,
+  "end": 12.559,
+  "text": "hey everyone welcome back to our Channel"
+ },
+ {
+  "start": 12.559,
+  "end": 15.19,
+  "text": "I am back with another interesting topic"
+ },
+ {
+  "start": 15.2,
+  "end": 17.87,
+  "text": "in the tosa automation"
+ },
+ {
+  "start": 17.88,
+  "end": 20.509,
+  "text": "playlist so now we are going to talk"
+ },
+ {
+  "start": 20.519,
+  "end": 23.99,
+  "text": "about a scenario where uh we have to"
+ },
+ {
+  "start": 24.0,
+  "end": 26.429,
+  "text": "download a particular file and maybe we"
+ },
+ {
+  "start": 26.439,
+  "end": 28.79,
+  "text": "have to perform some other things on"
+ },
+ {
+  "start": 28.8,
+  "end": 32.549,
+  "text": "that like maybe verifying a PDF file or"
+ },
+ {
+  "start": 32.559,
+  "end": 35.709,
+  "text": "verifying a image file or any particular"
+ },
+ {
+  "start": 35.719,
+  "end": 38.19,
+  "text": "file from your application right so this"
+ },
+ {
+  "start": 38.2,
+  "end": 38.99,
+  "text": "is the"
+ },
+ {
+  "start": 39.0,
+  "end": 41.51,
+  "text": "scenario now there are two ways of doing"
+ },
+ {
+  "start": 41.52,
+  "end": 44.709,
+  "text": "this either uh you can go ahead with the"
+ },
+ {
+  "start": 44.719,
+  "end": 46.869,
+  "text": "normal way of downloading a file which"
+ },
+ {
+  "start": 46.879,
+  "end": 49.709,
+  "text": "is when you click on that file then it"
+ },
+ {
+  "start": 49.719,
+  "end": 53.029,
+  "text": "downloads it into the downloads folder"
+ },
+ {
+  "start": 53.039,
+  "end": 55.549,
+  "text": "from there uh you can then uh transfer"
+ },
+ {
+  "start": 55.559,
+  "end": 58.27,
+  "text": "it into a separate folder or you can go"
+ },
+ {
+  "start": 58.28,
+  "end": 61.069,
+  "text": "ahead and verify in the downloads folder"
+ },
+ {
+  "start": 61.079,
+  "end": 64.59,
+  "text": "right um but this might be a lengthy"
+ },
+ {
+  "start": 64.6,
+  "end": 68.03,
+  "text": "process and sometimes it may be a little"
+ },
+ {
+  "start": 68.04,
+  "end": 71.109,
+  "text": "complicated there's a more easy way of"
+ },
+ {
+  "start": 71.119,
+  "end": 74.31,
+  "text": "uh getting this done uh using the curl"
+ },
+ {
+  "start": 74.32,
+  "end": 77.03,
+  "text": "command and uh you can use the Cur"
+ },
+ {
+  "start": 77.04,
+  "end": 80.149,
+  "text": "command in tosa as well okay so let me"
+ },
+ {
+  "start": 80.159,
+  "end": 82.87,
+  "text": "show you how you can do that now for"
+ },
+ {
+  "start": 82.88,
+  "end": 86.149,
+  "text": "this U I picked up um a sample"
+ },
+ {
+  "start": 86.159,
+  "end": 88.31,
+  "text": "application which has got a number of"
+ },
+ {
+  "start": 88.32,
+  "end": 90.27,
+  "text": "different download links you can can see"
+ },
+ {
+  "start": 90.28,
+  "end": 92.749,
+  "text": "here right so these uh all these"
+ },
+ {
+  "start": 92.759,
+  "end": 95.109,
+  "text": "download links we have to uh download"
+ },
+ {
+  "start": 95.119,
+  "end": 98.469,
+  "text": "this file maybe sample media."
+ },
+ {
+  "start": 98.479,
+  "end": 101.19,
+  "text": "file.png okay and then uh we can also"
+ },
+ {
+  "start": 101.2,
+  "end": 103.67,
+  "text": "verify whether this file exists or"
+ },
+ {
+  "start": 103.68,
+  "end": 107.469,
+  "text": "not so um this is the scenario now how"
+ },
+ {
+  "start": 107.479,
+  "end": 110.789,
+  "text": "you can do that um as I said the usual"
+ },
+ {
+  "start": 110.799,
+  "end": 113.109,
+  "text": "way is to click on that and then it"
+ },
+ {
+  "start": 113.119,
+  "end": 115.59,
+  "text": "downloads and then you can go to the"
+ },
+ {
+  "start": 115.6,
+  "end": 118.87,
+  "text": "downloads folder but there is the other"
+ },
+ {
+  "start": 118.88,
+  "end": 122.51,
+  "text": "way um and that is using curl okay what"
+ },
+ {
+  "start": 122.52,
+  "end": 125.789,
+  "text": "is curl um it is a open source Tool uh"
+ },
+ {
+  "start": 125.799,
+  "end": 128.43,
+  "text": "it is a command line tool uh to transfer"
+ },
+ {
+  "start": 128.44,
+  "end": 131.11,
+  "text": "data using different uh Network"
+ },
+ {
+  "start": 131.12,
+  "end": 135.19,
+  "text": "protocols okay so uh the name stands for"
+ },
+ {
+  "start": 135.2,
+  "end": 138.75,
+  "text": "client for URL and that is called curl"
+ },
+ {
+  "start": 138.76,
+  "end": 142.39,
+  "text": "right you can download it for free um"
+ },
+ {
+  "start": 142.4,
+  "end": 145.11,
+  "text": "for Windows uh operating system right"
+ },
+ {
+  "start": 145.12,
+  "end": 148.509,
+  "text": "from here and uh it will get installed"
+ },
+ {
+  "start": 148.519,
+  "end": 150.55,
+  "text": "into your command line tool"
+ },
+ {
+  "start": 150.56,
+  "end": 153.309,
+  "text": "okay uh once it's downloaded uh you can"
+ },
+ {
+  "start": 153.319,
+  "end": 154.79,
+  "text": "go to uh"
+ },
+ {
+  "start": 154.8,
+  "end": 158.07,
+  "text": "CMD and here you can check whether it is"
+ },
+ {
+  "start": 158.08,
+  "end": 162.27,
+  "text": "downloaded or not okay so just type c"
+ },
+ {
+  "start": 162.28,
+  "end": 164.03,
+  "text": "and then"
+ },
+ {
+  "start": 164.04,
+  "end": 166.83,
+  "text": "help if it returns all this options that"
+ },
+ {
+  "start": 166.84,
+  "end": 169.63,
+  "text": "means uh it is installed on your system"
+ },
+ {
+  "start": 169.64,
+  "end": 173.79,
+  "text": "and uh you can use it now um we are"
+ },
+ {
+  "start": 173.8,
+  "end": 176.55,
+  "text": "going to use one of the parameters here"
+ },
+ {
+  "start": 176.56,
+  "end": 179.949,
+  "text": "which is this output parameter and uh in"
+ },
+ {
+  "start": 179.959,
+  "end": 182.43,
+  "text": "this output parameter it will download"
+ },
+ {
+  "start": 182.44,
+  "end": 184.869,
+  "text": "the file into this particular file"
+ },
+ {
+  "start": 184.879,
+  "end": 188.47,
+  "text": "location which we specify okay and there"
+ },
+ {
+  "start": 188.48,
+  "end": 191.509,
+  "text": "are other options also here so let's"
+ },
+ {
+  "start": 191.519,
+  "end": 194.949,
+  "text": "pick up an example okay so here uh if I"
+ },
+ {
+  "start": 194.959,
+  "end": 199.27,
+  "text": "come here and I can pick up some link I"
+ },
+ {
+  "start": 199.28,
+  "end": 201.75,
+  "text": "will copy the link address here and then"
+ },
+ {
+  "start": 201.76,
+  "end": 204.869,
+  "text": "come back here so here I'm going to type"
+ },
+ {
+  "start": 204.879,
+  "end": 208.19,
+  "text": "curl and then uh we need to put the link"
+ },
+ {
+  "start": 208.2,
+  "end": 210.67,
+  "text": "here of that particular file"
+ },
+ {
+  "start": 210.68,
+  "end": 213.869,
+  "text": "and then we have to type the parameter d"
+ },
+ {
+  "start": 213.879,
+  "end": 217.27,
+  "text": "o and then uh we can type the file path"
+ },
+ {
+  "start": 217.28,
+  "end": 219.91,
+  "text": "here okay so if I want to download it"
+ },
+ {
+  "start": 219.92,
+  "end": 224.11,
+  "text": "into a specific folder like this CM"
+ },
+ {
+  "start": 224.12,
+  "end": 227.11,
+  "text": "folder so I'm going to specify this"
+ },
+ {
+  "start": 227.12,
+  "end": 231.71,
+  "text": "followed by this file name so I'm going"
+ },
+ {
+  "start": 231.72,
+  "end": 233.47,
+  "text": "to keep it"
+ },
+ {
+  "start": 233.48,
+  "end": 235.67,
+  "text": "spectrum.png"
+ },
+ {
+  "start": 235.68,
+  "end": 239.03,
+  "text": "okay and then uh you will see that it"
+ },
+ {
+  "start": 239.04,
+  "end": 241.589,
+  "text": "has completed a download I can verify"
+ },
+ {
+  "start": 241.599,
+  "end": 245.869,
+  "text": "that going to my CM folder you will see"
+ },
+ {
+  "start": 245.879,
+  "end": 250.35,
+  "text": "spectrum.png is downloaded right so uh"
+ },
+ {
+  "start": 250.36,
+  "end": 252.429,
+  "text": "that's the way uh how you can download a"
+ },
+ {
+  "start": 252.439,
+  "end": 254.19,
+  "text": "particular file directly from your"
+ },
+ {
+  "start": 254.2,
+  "end": 257.069,
+  "text": "command line tool now uh we are going to"
+ },
+ {
+  "start": 257.079,
+  "end": 261.509,
+  "text": "do the same thing uh with tosa Okay so"
+ },
+ {
+  "start": 261.519,
+  "end": 264.39,
+  "text": "let's go to test cases and let's create"
+ },
+ {
+  "start": 264.4,
+  "end": 266.909,
+  "text": "a folder here we are going to call this"
+ },
+ {
+  "start": 266.919,
+  "end": 270.469,
+  "text": "download"
+ },
+ {
+  "start": 272.35,
+  "end": 272.36,
+  "text": "and then I am going"
+ },
+ {
+  "start": 272.36,
+  "end": 277.07,
+  "text": "to add a test case called download"
+ },
+ {
+  "start": 277.08,
+  "end": 281.23,
+  "text": "file okay and then we need to add a test"
+ },
+ {
+  "start": 281.24,
+  "end": 287.35,
+  "text": "step here which is called the tbox Start"
+ },
+ {
+  "start": 291.59,
+  "end": 291.6,
+  "text": "program so here uh we are going to start"
+ },
+ {
+  "start": 291.6,
+  "end": 294.55,
+  "text": "a program with some arguments and that"
+ },
+ {
+  "start": 294.56,
+  "end": 302.11,
+  "text": "program is the powershell.exe okay"
+ },
+ {
+  "start": 304.35,
+  "end": 304.36,
+  "text": "so we were going to execute this command"
+ },
+ {
+  "start": 304.36,
+  "end": 307.469,
+  "text": "in Powershell so I will start this and"
+ },
+ {
+  "start": 307.479,
+  "end": 310.15,
+  "text": "then um in the arguments the first"
+ },
+ {
+  "start": 310.16,
+  "end": 312.79,
+  "text": "argument would be"
+ },
+ {
+  "start": 312.8,
+  "end": 317.27,
+  "text": "Cur okay and then um we'll follow the"
+ },
+ {
+  "start": 317.28,
+  "end": 319.07,
+  "text": "same way how we have done it earlier"
+ },
+ {
+  "start": 319.08,
+  "end": 321.71,
+  "text": "this time let's pick up a different um"
+ },
+ {
+  "start": 321.72,
+  "end": 324.67,
+  "text": "file which we want to download I am"
+ },
+ {
+  "start": 324.68,
+  "end": 327.309,
+  "text": "copying the link address here and then"
+ },
+ {
+  "start": 327.319,
+  "end": 330.629,
+  "text": "come back here I am going going to pass"
+ },
+ {
+  "start": 330.639,
+  "end": 334.35,
+  "text": "this link here then the third argument"
+ },
+ {
+  "start": 334.36,
+  "end": 339.909,
+  "text": "is- o That's the uh parameter and then"
+ },
+ {
+  "start": 339.919,
+  "end": 342.189,
+  "text": "uh we are going to pass uh where we want"
+ },
+ {
+  "start": 342.199,
+  "end": 344.99,
+  "text": "to download it right so again I'm going"
+ },
+ {
+  "start": 345.0,
+  "end": 349.189,
+  "text": "to download it in cm"
+ },
+ {
+  "start": 354.07,
+  "end": 354.08,
+  "text": "file and I am going to specify the file"
+ },
+ {
+  "start": 354.08,
+  "end": 357.71,
+  "text": "name"
+ },
+ {
+  "start": 359.79,
+  "end": 359.8,
+  "text": "media.png okay so these are all the"
+ },
+ {
+  "start": 359.8,
+  "end": 362.83,
+  "text": "arguments also in wait for exit I will"
+ },
+ {
+  "start": 362.84,
+  "end": 366.629,
+  "text": "specify true here so it will wait for"
+ },
+ {
+  "start": 366.639,
+  "end": 368.43,
+  "text": "exiting the"
+ },
+ {
+  "start": 368.44,
+  "end": 372.35,
+  "text": "application and then let's go ahead and"
+ },
+ {
+  "start": 372.36,
+  "end": 374.469,
+  "text": "let's execute"
+ },
+ {
+  "start": 374.479,
+  "end": 377.99,
+  "text": "this okay so I'm going to execute this"
+ },
+ {
+  "start": 378.0,
+  "end": 387.309,
+  "text": "test case"
+ },
+ {
+  "start": 391.43,
+  "end": 391.44,
+  "text": "now and you will see here um it executed"
+ },
+ {
+  "start": 391.44,
+  "end": 394.029,
+  "text": "the powershell.exe with this arguments"
+ },
+ {
+  "start": 394.039,
+  "end": 397.15,
+  "text": "and then process stopped so how to"
+ },
+ {
+  "start": 397.16,
+  "end": 399.909,
+  "text": "verify whether it was downloaded well"
+ },
+ {
+  "start": 399.919,
+  "end": 402.749,
+  "text": "you can go back to the temp folder the"
+ },
+ {
+  "start": 402.759,
+  "end": 406.309,
+  "text": "media.png is saved"
+ },
+ {
+  "start": 406.319,
+  "end": 409.15,
+  "text": "here now coming to the next step uh"
+ },
+ {
+  "start": 409.16,
+  "end": 410.83,
+  "text": "which is to verify whether the file"
+ },
+ {
+  "start": 410.84,
+  "end": 414.71,
+  "text": "exists um not manually but through tosa"
+ },
+ {
+  "start": 414.72,
+  "end": 416.99,
+  "text": "so that can be done easily by adding"
+ },
+ {
+  "start": 417.0,
+  "end": 420.95,
+  "text": "another test step and here you can check"
+ },
+ {
+  "start": 420.96,
+  "end": 422.67,
+  "text": "for file"
+ },
+ {
+  "start": 422.68,
+  "end": 425.39,
+  "text": "existence so tbox file existence that's"
+ },
+ {
+  "start": 425.4,
+  "end": 426.11,
+  "text": "the"
+ },
+ {
+  "start": 426.12,
+  "end": 429.629,
+  "text": "module and here I just need to pass the"
+ },
+ {
+  "start": 429.639,
+  "end": 432.79,
+  "text": "directory where that file exists and I"
+ },
+ {
+  "start": 432.8,
+  "end": 436.749,
+  "text": "need to pass the file name here"
+ },
+ {
+  "start": 436.759,
+  "end": 439.67,
+  "text": "okay um and then the action mode will be"
+ },
+ {
+  "start": 439.68,
+  "end": 444.189,
+  "text": "verify now uh if I go ahead and just run"
+ },
+ {
+  "start": 444.199,
+  "end": 453.55,
+  "text": "this"
+ },
+ {
+  "start": 456.869,
+  "end": 456.879,
+  "text": "okay so you will see uh verification was"
+ },
+ {
+  "start": 456.879,
+  "end": 459.67,
+  "text": "successful and expected value found one"
+ },
+ {
+  "start": 459.68,
+  "end": 463.909,
+  "text": "match for this particular file okay so"
+ },
+ {
+  "start": 463.919,
+  "end": 466.469,
+  "text": "this is how it works uh you can use the"
+ },
+ {
+  "start": 466.479,
+  "end": 468.51,
+  "text": "curl command uh to download any"
+ },
+ {
+  "start": 468.52,
+  "end": 470.469,
+  "text": "particular file uh you can use the"
+ },
+ {
+  "start": 470.479,
+  "end": 472.99,
+  "text": "powershell.exe or the command line tool"
+ },
+ {
+  "start": 473.0,
+  "end": 476.469,
+  "text": "for Windows and then uh you can perform"
+ },
+ {
+  "start": 476.479,
+  "end": 478.189,
+  "text": "uh the verification whether that file"
+ },
+ {
+  "start": 478.199,
+  "end": 480.83,
+  "text": "exists or not okay so end to end"
+ },
+ {
+  "start": 480.84,
+  "end": 483.11,
+  "text": "scenario where uh you can download the"
+ },
+ {
+  "start": 483.12,
+  "end": 486.589,
+  "text": "file and then you can also verify the"
+ },
+ {
+  "start": 486.599,
+  "end": 488.95,
+  "text": "file that's all for this particular"
+ },
+ {
+  "start": 488.96,
+  "end": 491.39,
+  "text": "video if you have any questions then"
+ },
+ {
+  "start": 491.4,
+  "end": 493.869,
+  "text": "please leave it in the comments if you"
+ },
+ {
+  "start": 493.879,
+  "end": 495.83,
+  "text": "like this video then please subscribe to"
+ },
+ {
+  "start": 495.84,
+  "end": 498.55,
+  "text": "our Channel thanks for watching and I"
+ },
+ {
+  "start": 498.56,
+  "end": 502.84,
+  "text": "will see you in the next video"
+ }
+]

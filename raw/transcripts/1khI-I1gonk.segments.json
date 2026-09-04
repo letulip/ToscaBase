@@ -1,0 +1,862 @@
+[
+ {
+  "start": 8.87,
+  "end": 8.88,
+  "text": "hey everyone welcome back to another"
+ },
+ {
+  "start": 8.88,
+  "end": 11.43,
+  "text": "interesting TSA lesson and today we are"
+ },
+ {
+  "start": 11.44,
+  "end": 13.91,
+  "text": "going to look at a scenario where you"
+ },
+ {
+  "start": 13.92,
+  "end": 17.109,
+  "text": "have got two different tabs which are"
+ },
+ {
+  "start": 17.119,
+  "end": 19.91,
+  "text": "basically the same web page and you are"
+ },
+ {
+  "start": 19.92,
+  "end": 22.31,
+  "text": "trying to perform or automate some"
+ },
+ {
+  "start": 22.32,
+  "end": 25.109,
+  "text": "scenario in this particular web page"
+ },
+ {
+  "start": 25.119,
+  "end": 28.15,
+  "text": "right so the challenge here is as there"
+ },
+ {
+  "start": 28.16,
+  "end": 31.109,
+  "text": "are two tabs which are exactly the same"
+ },
+ {
+  "start": 31.119,
+  "end": 33.31,
+  "text": "uh they have got the same properties"
+ },
+ {
+  "start": 33.32,
+  "end": 36.549,
+  "text": "same controls and even the same page"
+ },
+ {
+  "start": 36.559,
+  "end": 40.389,
+  "text": "title right so so when you execute any"
+ },
+ {
+  "start": 40.399,
+  "end": 42.95,
+  "text": "test uh in this type of scenario either"
+ },
+ {
+  "start": 42.96,
+  "end": 45.35,
+  "text": "you have to close one of the tabs right"
+ },
+ {
+  "start": 45.36,
+  "end": 48.549,
+  "text": "so that you have just got one single tab"
+ },
+ {
+  "start": 48.559,
+  "end": 51.35,
+  "text": "open or you have to always make sure"
+ },
+ {
+  "start": 51.36,
+  "end": 54.389,
+  "text": "that um you are closing all your browser"
+ },
+ {
+  "start": 54.399,
+  "end": 57.75,
+  "text": "tabs before opening a new page and then"
+ },
+ {
+  "start": 57.76,
+  "end": 60.029,
+  "text": "performing your test"
+ },
+ {
+  "start": 60.039,
+  "end": 62.11,
+  "text": "otherwise if you execute your test with"
+ },
+ {
+  "start": 62.12,
+  "end": 64.63,
+  "text": "this particular scenario uh it is always"
+ },
+ {
+  "start": 64.64,
+  "end": 67.27,
+  "text": "going to fail right because tosa is"
+ },
+ {
+  "start": 67.28,
+  "end": 70.23,
+  "text": "never going to decide where it is going"
+ },
+ {
+  "start": 70.24,
+  "end": 72.27,
+  "text": "to perform that click because there is"
+ },
+ {
+  "start": 72.28,
+  "end": 75.55,
+  "text": "no property uh through which it can"
+ },
+ {
+  "start": 75.56,
+  "end": 78.83,
+  "text": "decide uh which one uh is the unique one"
+ },
+ {
+  "start": 78.84,
+  "end": 82.19,
+  "text": "and which one it should click okay so"
+ },
+ {
+  "start": 82.2,
+  "end": 85.23,
+  "text": "first uh let's see uh the scenario uh so"
+ },
+ {
+  "start": 85.24,
+  "end": 88.789,
+  "text": "if I have opened these two tabs and I"
+ },
+ {
+  "start": 88.799,
+  "end": 91.469,
+  "text": "have this test case which just clicks um"
+ },
+ {
+  "start": 91.479,
+  "end": 95.71,
+  "text": "on the automobile link this one right so"
+ },
+ {
+  "start": 95.72,
+  "end": 99.99,
+  "text": "if I run this uh it's always going to"
+ },
+ {
+  "start": 100.0,
+  "end": 103.149,
+  "text": "fail so once the execution starts uh you"
+ },
+ {
+  "start": 103.159,
+  "end": 105.31,
+  "text": "will see that it is trying to switch"
+ },
+ {
+  "start": 105.32,
+  "end": 108.99,
+  "text": "between two different tabs um and it is"
+ },
+ {
+  "start": 109.0,
+  "end": 111.749,
+  "text": "trying to find out uh maybe uh some"
+ },
+ {
+  "start": 111.759,
+  "end": 113.91,
+  "text": "control uh it can find a different"
+ },
+ {
+  "start": 113.92,
+  "end": 117.109,
+  "text": "property but it is not able to right so"
+ },
+ {
+  "start": 117.119,
+  "end": 119.95,
+  "text": "it will continue like this for some time"
+ },
+ {
+  "start": 119.96,
+  "end": 122.149,
+  "text": "and then uh it is going to fail with"
+ },
+ {
+  "start": 122.159,
+  "end": 125.029,
+  "text": "error message saying that uh multiple"
+ },
+ {
+  "start": 125.039,
+  "end": 128.589,
+  "text": "tabs are open which has the same name"
+ },
+ {
+  "start": 128.599,
+  "end": 131.71,
+  "text": "and hence uh it is not able to execute"
+ },
+ {
+  "start": 131.72,
+  "end": 134.43,
+  "text": "this particular test or it is just going"
+ },
+ {
+  "start": 134.44,
+  "end": 136.27,
+  "text": "to fail it"
+ },
+ {
+  "start": 136.28,
+  "end": 139.07,
+  "text": "right so as you can see here uh in the"
+ },
+ {
+  "start": 139.08,
+  "end": 143.11,
+  "text": "log info right so if I expand this you"
+ },
+ {
+  "start": 143.12,
+  "end": 145.35,
+  "text": "will see that uh it is saying more than"
+ },
+ {
+  "start": 145.36,
+  "end": 147.67,
+  "text": "one matching tab was found and hence it"
+ },
+ {
+  "start": 147.68,
+  "end": 152.07,
+  "text": "has failed this particular step right"
+ },
+ {
+  "start": 154.55,
+  "end": 154.56,
+  "text": "now to resolve these kind of issues uh"
+ },
+ {
+  "start": 154.56,
+  "end": 157.509,
+  "text": "tosco provides you uh with an option uh"
+ },
+ {
+  "start": 157.519,
+  "end": 160.39,
+  "text": "where you can add a particular"
+ },
+ {
+  "start": 160.4,
+  "end": 162.47,
+  "text": "configuration parameter which is known"
+ },
+ {
+  "start": 162.48,
+  "end": 165.63,
+  "text": "as constraint index okay and that can be"
+ },
+ {
+  "start": 165.64,
+  "end": 169.11,
+  "text": "added to the module and then uh it can"
+ },
+ {
+  "start": 169.12,
+  "end": 171.91,
+  "text": "decide which particular index uh it"
+ },
+ {
+  "start": 171.92,
+  "end": 174.589,
+  "text": "should consider while performing that"
+ },
+ {
+  "start": 174.599,
+  "end": 177.869,
+  "text": "particular uh operation on uh control"
+ },
+ {
+  "start": 177.879,
+  "end": 180.99,
+  "text": "right so it is pretty similar to when we"
+ },
+ {
+  "start": 181.0,
+  "end": 183.949,
+  "text": "scan different elements right and we if"
+ },
+ {
+  "start": 183.959,
+  "end": 186.589,
+  "text": "you have got the same element a number"
+ },
+ {
+  "start": 186.599,
+  "end": 189.07,
+  "text": "of times on that particular page then we"
+ },
+ {
+  "start": 189.08,
+  "end": 192.309,
+  "text": "provide a Index right and uh based on"
+ },
+ {
+  "start": 192.319,
+  "end": 194.91,
+  "text": "that index then tosa can decide uh which"
+ },
+ {
+  "start": 194.92,
+  "end": 196.789,
+  "text": "particular control to click if there are"
+ },
+ {
+  "start": 196.799,
+  "end": 200.55,
+  "text": "multiple controls like similarly uh this"
+ },
+ {
+  "start": 200.56,
+  "end": 203.309,
+  "text": "situation is quite similar but instead"
+ },
+ {
+  "start": 203.319,
+  "end": 205.75,
+  "text": "of me going back and scanning this"
+ },
+ {
+  "start": 205.76,
+  "end": 208.75,
+  "text": "module right uh with two different pages"
+ },
+ {
+  "start": 208.76,
+  "end": 211.309,
+  "text": "and then uh putting indexes there or"
+ },
+ {
+  "start": 211.319,
+  "end": 214.949,
+  "text": "putting some other uh scanning mechanism"
+ },
+ {
+  "start": 214.959,
+  "end": 217.509,
+  "text": "uh rather than that the easier way is to"
+ },
+ {
+  "start": 217.519,
+  "end": 220.789,
+  "text": "just modify the module and uh put an"
+ },
+ {
+  "start": 220.799,
+  "end": 224.75,
+  "text": "extra property here okay so if I go to"
+ },
+ {
+  "start": 224.76,
+  "end": 227.27,
+  "text": "this particular module here is my module"
+ },
+ {
+  "start": 227.28,
+  "end": 230.35,
+  "text": "attribute right and um I can right click"
+ },
+ {
+  "start": 230.36,
+  "end": 232.75,
+  "text": "on the module and there you will find"
+ },
+ {
+  "start": 232.76,
+  "end": 235.19,
+  "text": "different types of parameters I can add"
+ },
+ {
+  "start": 235.2,
+  "end": 236.949,
+  "text": "one of them is the configuration"
+ },
+ {
+  "start": 236.959,
+  "end": 239.949,
+  "text": "parameter so I'm going to create this"
+ },
+ {
+  "start": 239.959,
+  "end": 243.35,
+  "text": "okay uh so here the name you have to"
+ },
+ {
+  "start": 243.36,
+  "end": 248.429,
+  "text": "replace it with constraint"
+ },
+ {
+  "start": 251.149,
+  "end": 251.159,
+  "text": "index and in value you have to provide"
+ },
+ {
+  "start": 251.159,
+  "end": 254.83,
+  "text": "the value so basically on which uh page"
+ },
+ {
+  "start": 254.84,
+  "end": 257.31,
+  "text": "you want to perform this operation on"
+ },
+ {
+  "start": 257.32,
+  "end": 260.27,
+  "text": "right so if I say uh two so it is going"
+ },
+ {
+  "start": 260.28,
+  "end": 264.629,
+  "text": "to select the second tab okay so uh"
+ },
+ {
+  "start": 264.639,
+  "end": 270.469,
+  "text": "let's go ahead and verify this quickly"
+ },
+ {
+  "start": 273.749,
+  "end": 273.759,
+  "text": "so if I'm going to run this again right"
+ },
+ {
+  "start": 273.759,
+  "end": 275.87,
+  "text": "now you will see that it has gone to the"
+ },
+ {
+  "start": 275.88,
+  "end": 279.029,
+  "text": "second Tab and it has executed our"
+ },
+ {
+  "start": 279.039,
+  "end": 280.83,
+  "text": "script which is clicking on that"
+ },
+ {
+  "start": 280.84,
+  "end": 283.909,
+  "text": "automobile link right so basically uh"
+ },
+ {
+  "start": 283.919,
+  "end": 286.55,
+  "text": "this is how uh you can tell tosa on"
+ },
+ {
+  "start": 286.56,
+  "end": 290.029,
+  "text": "which particular tab index it can go and"
+ },
+ {
+  "start": 290.039,
+  "end": 293.71,
+  "text": "it can perform that particular operation"
+ },
+ {
+  "start": 293.72,
+  "end": 297.029,
+  "text": "okay so um I can change it to any"
+ },
+ {
+  "start": 297.039,
+  "end": 300.99,
+  "text": "particular value okay uh in my"
+ },
+ {
+  "start": 301.0,
+  "end": 302.909,
+  "text": "particular module I can change this to"
+ },
+ {
+  "start": 302.919,
+  "end": 306.189,
+  "text": "one or two or three right but uh this is"
+ },
+ {
+  "start": 306.199,
+  "end": 308.87,
+  "text": "not the ideal way of doing it okay"
+ },
+ {
+  "start": 308.88,
+  "end": 311.909,
+  "text": "because uh I don't want any static value"
+ },
+ {
+  "start": 311.919,
+  "end": 314.07,
+  "text": "and I don't want to keep it changing"
+ },
+ {
+  "start": 314.08,
+  "end": 317.15,
+  "text": "from uh the module level right so I"
+ },
+ {
+  "start": 317.16,
+  "end": 319.99,
+  "text": "should put uh some mechanism through"
+ },
+ {
+  "start": 320.0,
+  "end": 322.629,
+  "text": "which it can be changed automatically"
+ },
+ {
+  "start": 322.639,
+  "end": 325.909,
+  "text": "right from the test okay so how can we"
+ },
+ {
+  "start": 325.919,
+  "end": 329.51,
+  "text": "do that let's add uh another test step"
+ },
+ {
+  "start": 329.52,
+  "end": 331.87,
+  "text": "here here uh and we are going to use a"
+ },
+ {
+  "start": 331.88,
+  "end": 335.55,
+  "text": "buffer right now so we'll say tbox set"
+ },
+ {
+  "start": 335.56,
+  "end": 339.43,
+  "text": "buffer uh and we'll put it previous or"
+ },
+ {
+  "start": 339.44,
+  "end": 342.469,
+  "text": "prior to this particular operation right"
+ },
+ {
+  "start": 342.479,
+  "end": 345.11,
+  "text": "so in this tbox set buffer uh we are"
+ },
+ {
+  "start": 345.12,
+  "end": 349.629,
+  "text": "going to put uh index okay and uh we are"
+ },
+ {
+  "start": 349.639,
+  "end": 352.909,
+  "text": "going to put a value here okay so we'll"
+ },
+ {
+  "start": 352.919,
+  "end": 355.749,
+  "text": "be basically controlling the flow of"
+ },
+ {
+  "start": 355.759,
+  "end": 358.309,
+  "text": "this test case right from here okay so"
+ },
+ {
+  "start": 358.319,
+  "end": 360.87,
+  "text": "if you want to click on the first tab we"
+ },
+ {
+  "start": 360.88,
+  "end": 362.67,
+  "text": "will do that from here if you want to do"
+ },
+ {
+  "start": 362.68,
+  "end": 364.35,
+  "text": "it on the second tab we can do it from"
+ },
+ {
+  "start": 364.36,
+  "end": 368.23,
+  "text": "here okay so once you uh create a buffer"
+ },
+ {
+  "start": 368.24,
+  "end": 370.79,
+  "text": "value right like a variable which has"
+ },
+ {
+  "start": 370.8,
+  "end": 373.71,
+  "text": "got this value one now we want to use it"
+ },
+ {
+  "start": 373.72,
+  "end": 376.15,
+  "text": "in the module okay so let's go back here"
+ },
+ {
+  "start": 376.16,
+  "end": 379.27,
+  "text": "in the module and instead of this static"
+ },
+ {
+  "start": 379.28,
+  "end": 381.589,
+  "text": "value I'm going to replace it with a"
+ },
+ {
+  "start": 381.599,
+  "end": 384.23,
+  "text": "buffer value okay it's the same way you"
+ },
+ {
+  "start": 384.24,
+  "end": 387.189,
+  "text": "do it in your test cases or test steps"
+ },
+ {
+  "start": 387.199,
+  "end": 389.909,
+  "text": "uh which is start with CRA and then put"
+ },
+ {
+  "start": 389.919,
+  "end": 392.629,
+  "text": "B and then square bracket and then the"
+ },
+ {
+  "start": 392.639,
+  "end": 395.95,
+  "text": "particular uh variable okay so which is"
+ },
+ {
+  "start": 395.96,
+  "end": 397.67,
+  "text": "index for"
+ },
+ {
+  "start": 397.68,
+  "end": 400.71,
+  "text": "us so now it is going to refer to that"
+ },
+ {
+  "start": 400.72,
+  "end": 403.51,
+  "text": "particular value which uh we'll be"
+ },
+ {
+  "start": 403.52,
+  "end": 405.27,
+  "text": "putting in this particular test case"
+ },
+ {
+  "start": 405.28,
+  "end": 408.07,
+  "text": "right now I can drive multiple values"
+ },
+ {
+  "start": 408.08,
+  "end": 410.95,
+  "text": "here um from my test case design sheet"
+ },
+ {
+  "start": 410.96,
+  "end": 414.23,
+  "text": "or from a configuration parameter but um"
+ },
+ {
+  "start": 414.24,
+  "end": 417.07,
+  "text": "you can configure it easily right but"
+ },
+ {
+  "start": 417.08,
+  "end": 419.15,
+  "text": "you can basically control the execution"
+ },
+ {
+  "start": 419.16,
+  "end": 420.869,
+  "text": "right from here rather than going and"
+ },
+ {
+  "start": 420.879,
+  "end": 423.589,
+  "text": "changing every time uh on the module"
+ },
+ {
+  "start": 423.599,
+  "end": 428.07,
+  "text": "level okay so now if I run this uh it"
+ },
+ {
+  "start": 428.08,
+  "end": 431.029,
+  "text": "should basically click on the first tab"
+ },
+ {
+  "start": 431.039,
+  "end": 434.029,
+  "text": "okay but before that let me uh bring the"
+ },
+ {
+  "start": 434.039,
+  "end": 436.589,
+  "text": "state of both the application to the"
+ },
+ {
+  "start": 436.599,
+  "end": 440.99,
+  "text": "same level okay and now let's go ahead"
+ },
+ {
+  "start": 441.0,
+  "end": 444.95,
+  "text": "and run"
+ },
+ {
+  "start": 447.909,
+  "end": 447.919,
+  "text": "this so as you can see uh it has now"
+ },
+ {
+  "start": 447.919,
+  "end": 450.309,
+  "text": "clicked on the first step instead of the"
+ },
+ {
+  "start": 450.319,
+  "end": 454.23,
+  "text": "second tab okay similarly uh you can"
+ },
+ {
+  "start": 454.24,
+  "end": 457.83,
+  "text": "handle multiple tabs um if they are open"
+ },
+ {
+  "start": 457.84,
+  "end": 461.309,
+  "text": "on your web page still you can uh run"
+ },
+ {
+  "start": 461.319,
+  "end": 464.309,
+  "text": "your automation on a single tab using"
+ },
+ {
+  "start": 464.319,
+  "end": 466.95,
+  "text": "this particular configuration parameter"
+ },
+ {
+  "start": 466.96,
+  "end": 469.029,
+  "text": "with a constraint"
+ },
+ {
+  "start": 469.039,
+  "end": 471.35,
+  "text": "index"
+ },
+ {
+  "start": 471.36,
+  "end": 474.79,
+  "text": "okay so hope uh this a short video was"
+ },
+ {
+  "start": 474.8,
+  "end": 477.51,
+  "text": "helpful um in resolving one of your"
+ },
+ {
+  "start": 477.52,
+  "end": 480.07,
+  "text": "issues which you might face"
+ },
+ {
+  "start": 480.08,
+  "end": 482.309,
+  "text": "while uh executing your test and"
+ },
+ {
+  "start": 482.319,
+  "end": 485.39,
+  "text": "multiple tabs are open for your"
+ },
+ {
+  "start": 485.4,
+  "end": 488.189,
+  "text": "application also for watching more"
+ },
+ {
+  "start": 488.199,
+  "end": 490.23,
+  "text": "interesting videos do tune in into our"
+ },
+ {
+  "start": 490.24,
+  "end": 492.149,
+  "text": "channel uh if you have not subscribed"
+ },
+ {
+  "start": 492.159,
+  "end": 495.749,
+  "text": "yet do subscribe so that whenever uh we"
+ },
+ {
+  "start": 495.759,
+  "end": 497.589,
+  "text": "uh come up with a new video you'll be"
+ },
+ {
+  "start": 497.599,
+  "end": 500.469,
+  "text": "getting notified uh about it so I will"
+ },
+ {
+  "start": 500.479,
+  "end": 502.189,
+  "text": "see you next time with another"
+ },
+ {
+  "start": 502.199,
+  "end": 504.909,
+  "text": "interesting uh TSA lesson uh in the"
+ },
+ {
+  "start": 504.919,
+  "end": 509.479,
+  "text": "coming up video pretty soon"
+ }
+]

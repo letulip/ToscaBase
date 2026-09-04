@@ -1,0 +1,682 @@
+[
+ {
+  "start": 12.43,
+  "end": 12.44,
+  "text": "hey everyone welcome back to our Channel"
+ },
+ {
+  "start": 12.44,
+  "end": 15.07,
+  "text": "I am back with another interesting topic"
+ },
+ {
+  "start": 15.08,
+  "end": 18.109,
+  "text": "in the tosa automation"
+ },
+ {
+  "start": 18.119,
+  "end": 20.189,
+  "text": "playlist so today we are going to"
+ },
+ {
+  "start": 20.199,
+  "end": 22.31,
+  "text": "discuss about a very common use case"
+ },
+ {
+  "start": 22.32,
+  "end": 25.109,
+  "text": "which is called cross browser testing"
+ },
+ {
+  "start": 25.119,
+  "end": 27.99,
+  "text": "now in tosa we already know how we can"
+ },
+ {
+  "start": 28.0,
+  "end": 30.47,
+  "text": "execute our test cases on different"
+ },
+ {
+  "start": 30.48,
+  "end": 33.91,
+  "text": "browsers so that can be easily done uh"
+ },
+ {
+  "start": 33.92,
+  "end": 36.79,
+  "text": "by going into the test configuration and"
+ },
+ {
+  "start": 36.8,
+  "end": 39.15,
+  "text": "then creating a test configuration"
+ },
+ {
+  "start": 39.16,
+  "end": 42.229,
+  "text": "parameter choosing browser here and then"
+ },
+ {
+  "start": 42.239,
+  "end": 44.11,
+  "text": "uh depending on what browser you want to"
+ },
+ {
+  "start": 44.12,
+  "end": 46.189,
+  "text": "execute you can choose that particular"
+ },
+ {
+  "start": 46.199,
+  "end": 48.59,
+  "text": "browser here so if I want to execute"
+ },
+ {
+  "start": 48.6,
+  "end": 50.59,
+  "text": "this test case on Chrome I will choose"
+ },
+ {
+  "start": 50.6,
+  "end": 53.43,
+  "text": "Chrome if I want to execute on Firefox I"
+ },
+ {
+  "start": 53.44,
+  "end": 56.549,
+  "text": "will uh choose Firefox or any other"
+ },
+ {
+  "start": 56.559,
+  "end": 59.99,
+  "text": "browser right so this is how you can EX"
+ },
+ {
+  "start": 60.0,
+  "end": 63.069,
+  "text": "execute your test case on one single"
+ },
+ {
+  "start": 63.079,
+  "end": 66.19,
+  "text": "browser each time you execute so every"
+ },
+ {
+  "start": 66.2,
+  "end": 68.109,
+  "text": "time you execute you can change this"
+ },
+ {
+  "start": 68.119,
+  "end": 69.789,
+  "text": "particular value from your execution"
+ },
+ {
+  "start": 69.799,
+  "end": 74.429,
+  "text": "list or from your test case but what if"
+ },
+ {
+  "start": 74.439,
+  "end": 77.109,
+  "text": "uh you have a requirement where you have"
+ },
+ {
+  "start": 77.119,
+  "end": 80.149,
+  "text": "to run the same test case in multiple"
+ },
+ {
+  "start": 80.159,
+  "end": 83.789,
+  "text": "browsers at the same time now this is a"
+ },
+ {
+  "start": 83.799,
+  "end": 86.63,
+  "text": "popular interview question as well as uh"
+ },
+ {
+  "start": 86.64,
+  "end": 88.27,
+  "text": "this could be a requirement in your"
+ },
+ {
+  "start": 88.28,
+  "end": 91.749,
+  "text": "project right so rather than um having"
+ },
+ {
+  "start": 91.759,
+  "end": 94.109,
+  "text": "different test cases which can execute"
+ },
+ {
+  "start": 94.119,
+  "end": 96.95,
+  "text": "on different browsers you have to"
+ },
+ {
+  "start": 96.96,
+  "end": 100.23,
+  "text": "execute the same test case in multiple"
+ },
+ {
+  "start": 100.24,
+  "end": 104.469,
+  "text": "browsers at the same time so like all"
+ },
+ {
+  "start": 104.479,
+  "end": 106.51,
+  "text": "other automation tools it is also"
+ },
+ {
+  "start": 106.52,
+  "end": 110.19,
+  "text": "possible to configure it in tosa so"
+ },
+ {
+  "start": 110.2,
+  "end": 113.469,
+  "text": "let's see how we can do this now I'll be"
+ },
+ {
+  "start": 113.479,
+  "end": 117.389,
+  "text": "using this swag Labs login uh test case"
+ },
+ {
+  "start": 117.399,
+  "end": 121.029,
+  "text": "for this particular demo and here uh we"
+ },
+ {
+  "start": 121.039,
+  "end": 123.63,
+  "text": "have got a login process folder okay"
+ },
+ {
+  "start": 123.64,
+  "end": 125.87,
+  "text": "which has got two steps open URL and"
+ },
+ {
+  "start": 125.88,
+  "end": 126.749,
+  "text": "close"
+ },
+ {
+  "start": 126.759,
+  "end": 129.71,
+  "text": "browser and what I'm going to do is I'm"
+ },
+ {
+  "start": 129.72,
+  "end": 133.19,
+  "text": "going to copy this and I'm going to"
+ },
+ {
+  "start": 133.2,
+  "end": 136.79,
+  "text": "paste it here so I will be having to"
+ },
+ {
+  "start": 136.8,
+  "end": 141.35,
+  "text": "login process okay and the both login"
+ },
+ {
+  "start": 141.36,
+  "end": 144.03,
+  "text": "process needs to be run on different"
+ },
+ {
+  "start": 144.04,
+  "end": 147.83,
+  "text": "browsers okay now just for uh the sake"
+ },
+ {
+  "start": 147.84,
+  "end": 151.03,
+  "text": "of differentiation I I will just remove"
+ },
+ {
+  "start": 151.04,
+  "end": 153.39,
+  "text": "this Clos browser step from this login"
+ },
+ {
+  "start": 153.4,
+  "end": 156.71,
+  "text": "process one and in login process two uh"
+ },
+ {
+  "start": 156.72,
+  "end": 160.03,
+  "text": "it has got these two steps right so this"
+ },
+ {
+  "start": 160.04,
+  "end": 162.03,
+  "text": "is an example where you have got two"
+ },
+ {
+  "start": 162.04,
+  "end": 164.589,
+  "text": "different processes which needs to be uh"
+ },
+ {
+  "start": 164.599,
+  "end": 167.589,
+  "text": "executed on different browsers okay to"
+ },
+ {
+  "start": 167.599,
+  "end": 170.43,
+  "text": "verify that it is working as expected in"
+ },
+ {
+  "start": 170.44,
+  "end": 171.47,
+  "text": "both the"
+ },
+ {
+  "start": 171.48,
+  "end": 174.71,
+  "text": "browsers now uh we have got these two"
+ },
+ {
+  "start": 174.72,
+  "end": 177.63,
+  "text": "different process now we can see how we"
+ },
+ {
+  "start": 177.64,
+  "end": 180.39,
+  "text": "can run this in different browser ERS"
+ },
+ {
+  "start": 180.4,
+  "end": 184.27,
+  "text": "from the same test case okay now instead"
+ },
+ {
+  "start": 184.28,
+  "end": 188.83,
+  "text": "of uh providing a value like a constant"
+ },
+ {
+  "start": 188.84,
+  "end": 192.55,
+  "text": "value for browser what we can do is uh"
+ },
+ {
+  "start": 192.56,
+  "end": 197.71,
+  "text": "we can pass a buffer value here okay so"
+ },
+ {
+  "start": 197.72,
+  "end": 202.35,
+  "text": "what we will do is we will pass uh"
+ },
+ {
+  "start": 202.36,
+  "end": 204.67,
+  "text": "bore"
+ },
+ {
+  "start": 204.68,
+  "end": 207.949,
+  "text": "browser okay so this is basically uh the"
+ },
+ {
+  "start": 207.959,
+  "end": 210.27,
+  "text": "buffer name bore browser"
+ },
+ {
+  "start": 210.28,
+  "end": 212.509,
+  "text": "okay and we are referring to the value"
+ },
+ {
+  "start": 212.519,
+  "end": 216.11,
+  "text": "of bore browser so whatever uh the value"
+ },
+ {
+  "start": 216.12,
+  "end": 218.55,
+  "text": "it will use the same value here in the"
+ },
+ {
+  "start": 218.56,
+  "end": 222.11,
+  "text": "configuration parameter right now uh"
+ },
+ {
+  "start": 222.12,
+  "end": 225.83,
+  "text": "what you can do here is you can have a"
+ },
+ {
+  "start": 225.84,
+  "end": 234.19,
+  "text": "step here which is uh to um set buffer"
+ },
+ {
+  "start": 238.509,
+  "end": 238.519,
+  "text": "okay and um inside this what we will"
+ },
+ {
+  "start": 238.519,
+  "end": 244.11,
+  "text": "have is we will have the bore browser"
+ },
+ {
+  "start": 244.12,
+  "end": 247.949,
+  "text": "buffer name and here we will pass the"
+ },
+ {
+  "start": 247.959,
+  "end": 249.47,
+  "text": "value which is"
+ },
+ {
+  "start": 249.48,
+  "end": 254.03,
+  "text": "Chrome okay similarly um I can have this"
+ },
+ {
+  "start": 254.04,
+  "end": 257.71,
+  "text": "step again inside the login process"
+ },
+ {
+  "start": 257.72,
+  "end": 260.949,
+  "text": "to okay this will be always the first"
+ },
+ {
+  "start": 260.959,
+  "end": 264.07,
+  "text": "step and again bore browser but this"
+ },
+ {
+  "start": 264.08,
+  "end": 266.99,
+  "text": "time around I will make it"
+ },
+ {
+  "start": 267.0,
+  "end": 270.67,
+  "text": "Edge okay so like this you can have a"
+ },
+ {
+  "start": 270.68,
+  "end": 273.35,
+  "text": "number of steps where you can set the"
+ },
+ {
+  "start": 273.36,
+  "end": 276.31,
+  "text": "buffer to a different browser value"
+ },
+ {
+  "start": 276.32,
+  "end": 280.189,
+  "text": "right and now what it will do is um it"
+ },
+ {
+  "start": 280.199,
+  "end": 282.95,
+  "text": "will come here and it will set the"
+ },
+ {
+  "start": 282.96,
+  "end": 286.23,
+  "text": "buffer to Chrome okay and then while"
+ },
+ {
+  "start": 286.24,
+  "end": 288.67,
+  "text": "executing this test case it is going to"
+ },
+ {
+  "start": 288.68,
+  "end": 291.31,
+  "text": "execute it on the Chrome browser because"
+ },
+ {
+  "start": 291.32,
+  "end": 293.83,
+  "text": "in our test configuration parameter our"
+ },
+ {
+  "start": 293.84,
+  "end": 296.83,
+  "text": "value is set to bore browser which is a"
+ },
+ {
+  "start": 296.84,
+  "end": 299.35,
+  "text": "buffer so it is getting the buffer value"
+ },
+ {
+  "start": 299.36,
+  "end": 303.31,
+  "text": "from the test case itself right and uh"
+ },
+ {
+  "start": 303.32,
+  "end": 305.43,
+  "text": "similarly for the second process it will"
+ },
+ {
+  "start": 305.44,
+  "end": 308.71,
+  "text": "pick up the value as Edge and it will"
+ },
+ {
+  "start": 308.72,
+  "end": 311.99,
+  "text": "execute this uh particular login process"
+ },
+ {
+  "start": 312.0,
+  "end": 313.749,
+  "text": "uh in the edge"
+ },
+ {
+  "start": 313.759,
+  "end": 317.31,
+  "text": "browser so let's go ahead and see"
+ },
+ {
+  "start": 317.32,
+  "end": 320.15,
+  "text": "whether uh this will work or not okay so"
+ },
+ {
+  "start": 320.16,
+  "end": 325.27,
+  "text": "I'm going to run this in"
+ },
+ {
+  "start": 327.51,
+  "end": 327.52,
+  "text": "scratchbook okay so this is the Chrome"
+ },
+ {
+  "start": 327.52,
+  "end": 330.23,
+  "text": "browser which is the first step and now"
+ },
+ {
+  "start": 330.24,
+  "end": 331.95,
+  "text": "this is the edge"
+ },
+ {
+  "start": 331.96,
+  "end": 335.469,
+  "text": "browser"
+ },
+ {
+  "start": 338.39,
+  "end": 338.4,
+  "text": "okay so here you can see uh the edge"
+ },
+ {
+  "start": 338.4,
+  "end": 341.189,
+  "text": "browser was closed as per our login"
+ },
+ {
+  "start": 341.199,
+  "end": 344.99,
+  "text": "process but the Chrome browser is still"
+ },
+ {
+  "start": 345.0,
+  "end": 349.189,
+  "text": "running right so uh here um on the"
+ },
+ {
+  "start": 349.199,
+  "end": 352.59,
+  "text": "scratchbook results or logs you can see"
+ },
+ {
+  "start": 352.6,
+  "end": 355.07,
+  "text": "here the browser value was set to Chrome"
+ },
+ {
+  "start": 355.08,
+  "end": 358.15,
+  "text": "in the first step and then it opened the"
+ },
+ {
+  "start": 358.16,
+  "end": 362.07,
+  "text": "URL in Chrome and then here the browser"
+ },
+ {
+  "start": 362.08,
+  "end": 363.87,
+  "text": "value was set to"
+ },
+ {
+  "start": 363.88,
+  "end": 367.99,
+  "text": "Edge and then it opened the URL in Edge"
+ },
+ {
+  "start": 368.0,
+  "end": 370.39,
+  "text": "and then it closed the browser uh which"
+ },
+ {
+  "start": 370.4,
+  "end": 375.07,
+  "text": "is the edge browser tab right so this"
+ },
+ {
+  "start": 375.08,
+  "end": 379.71,
+  "text": "way you can run your test steps in"
+ },
+ {
+  "start": 379.72,
+  "end": 382.83,
+  "text": "different browsers from the same test"
+ },
+ {
+  "start": 382.84,
+  "end": 384.67,
+  "text": "case you don't need to have different"
+ },
+ {
+  "start": 384.68,
+  "end": 387.51,
+  "text": "test cases to run it on multiple"
+ },
+ {
+  "start": 387.52,
+  "end": 390.43,
+  "text": "browsers or you don't need you have a"
+ },
+ {
+  "start": 390.44,
+  "end": 393.95,
+  "text": "distributed execution for choosing"
+ },
+ {
+  "start": 393.96,
+  "end": 396.309,
+  "text": "different browsers okay so this can be"
+ },
+ {
+  "start": 396.319,
+  "end": 398.99,
+  "text": "done simply uh within your test Case by"
+ },
+ {
+  "start": 399.0,
+  "end": 402.79,
+  "text": "just providing a buffer value in your"
+ },
+ {
+  "start": 402.8,
+  "end": 405.029,
+  "text": "test configuration parameter which is"
+ },
+ {
+  "start": 405.039,
+  "end": 406.99,
+  "text": "the browser"
+ },
+ {
+  "start": 407.0,
+  "end": 409.39,
+  "text": "parameter that's all for this particular"
+ },
+ {
+  "start": 409.4,
+  "end": 411.83,
+  "text": "video if you have any questions then"
+ },
+ {
+  "start": 411.84,
+  "end": 414.27,
+  "text": "please leave it in the comments if you"
+ },
+ {
+  "start": 414.28,
+  "end": 416.23,
+  "text": "like this video then please subscribe to"
+ },
+ {
+  "start": 416.24,
+  "end": 418.95,
+  "text": "our Channel thanks for watching and I"
+ },
+ {
+  "start": 418.96,
+  "end": 420.99,
+  "text": "will see you in the next"
+ },
+ {
+  "start": 421.0,
+  "end": 424.0,
+  "text": "video"
+ }
+]

@@ -1,0 +1,792 @@
+[
+ {
+  "start": 8.089,
+  "end": 8.099,
+  "text": "hey there welcome to another interesting"
+ },
+ {
+  "start": 8.099,
+  "end": 11.33,
+  "text": "lesson on this Tosca automation playlist"
+ },
+ {
+  "start": 11.34,
+  "end": 14.03,
+  "text": "today I'm going to show you how you can"
+ },
+ {
+  "start": 14.04,
+  "end": 17.21,
+  "text": "verify XML files using the Tosca"
+ },
+ {
+  "start": 17.22,
+  "end": 19.01,
+  "text": "automation modules"
+ },
+ {
+  "start": 19.02,
+  "end": 20.51,
+  "text": "now for this particular example I'm"
+ },
+ {
+  "start": 20.52,
+  "end": 25.31,
+  "text": "going to use this books.xml it has got a"
+ },
+ {
+  "start": 25.32,
+  "end": 27.05,
+  "text": "some information related to different"
+ },
+ {
+  "start": 27.06,
+  "end": 29.63,
+  "text": "books it's a catalog of books with"
+ },
+ {
+  "start": 29.64,
+  "end": 31.79,
+  "text": "different"
+ },
+ {
+  "start": 31.8,
+  "end": 34.31,
+  "text": "um properties like ID author title"
+ },
+ {
+  "start": 34.32,
+  "end": 36.79,
+  "text": "general price and some other information"
+ },
+ {
+  "start": 36.8,
+  "end": 39.35,
+  "text": "now we are going to use the Tosca"
+ },
+ {
+  "start": 39.36,
+  "end": 43.43,
+  "text": "modules to basically scan this XML file"
+ },
+ {
+  "start": 43.44,
+  "end": 46.85,
+  "text": "and also do some verification like if"
+ },
+ {
+  "start": 46.86,
+  "end": 48.41,
+  "text": "you want to verify"
+ },
+ {
+  "start": 48.42,
+  "end": 49.069,
+  "text": "um"
+ },
+ {
+  "start": 49.079,
+  "end": 51.47,
+  "text": "whether some title of a particular book"
+ },
+ {
+  "start": 51.48,
+  "end": 55.61,
+  "text": "ID is as per our expected result or not"
+ },
+ {
+  "start": 55.62,
+  "end": 58.79,
+  "text": "okay so that's what we are going to do"
+ },
+ {
+  "start": 58.8,
+  "end": 60.889,
+  "text": "and for this I'm going to use two"
+ },
+ {
+  "start": 60.899,
+  "end": 64.009,
+  "text": "modules both are part of the XML engine"
+ },
+ {
+  "start": 64.019,
+  "end": 67.85,
+  "text": "so let's create a test case here called"
+ },
+ {
+  "start": 67.86,
+  "end": 73.73,
+  "text": "verify XML"
+ },
+ {
+  "start": 76.37,
+  "end": 76.38,
+  "text": "and then I am going to search for this"
+ },
+ {
+  "start": 76.38,
+  "end": 80.289,
+  "text": "modules so let's search with XML"
+ },
+ {
+  "start": 80.299,
+  "end": 83.81,
+  "text": "and I'm going to use the open create XML"
+ },
+ {
+  "start": 83.82,
+  "end": 85.07,
+  "text": "file"
+ },
+ {
+  "start": 85.08,
+  "end": 91.07,
+  "text": "and I'm going to use"
+ },
+ {
+  "start": 94.19,
+  "end": 94.2,
+  "text": "verify XML"
+ },
+ {
+  "start": 94.2,
+  "end": 96.71,
+  "text": "okay so these are the two modules which"
+ },
+ {
+  "start": 96.72,
+  "end": 98.99,
+  "text": "we can use uh the first module is to"
+ },
+ {
+  "start": 99.0,
+  "end": 102.17,
+  "text": "open or it can also create a new XML"
+ },
+ {
+  "start": 102.18,
+  "end": 104.87,
+  "text": "file so for this we need to give a"
+ },
+ {
+  "start": 104.88,
+  "end": 107.21,
+  "text": "resource now research could be anything"
+ },
+ {
+  "start": 107.22,
+  "end": 109.49,
+  "text": "uh for me I will just give it a name"
+ },
+ {
+  "start": 109.5,
+  "end": 112.609,
+  "text": "called books XML"
+ },
+ {
+  "start": 112.619,
+  "end": 116.33,
+  "text": "and then the file path okay so let's"
+ },
+ {
+  "start": 116.34,
+  "end": 120.77,
+  "text": "copy the file path here"
+ },
+ {
+  "start": 123.71,
+  "end": 123.72,
+  "text": "and let's come here and then paste it"
+ },
+ {
+  "start": 123.72,
+  "end": 126.649,
+  "text": "here so this is the file path now while"
+ },
+ {
+  "start": 126.659,
+  "end": 129.41,
+  "text": "verifying the XML file we need to"
+ },
+ {
+  "start": 129.42,
+  "end": 131.75,
+  "text": "provide the same resource which we used"
+ },
+ {
+  "start": 131.76,
+  "end": 133.369,
+  "text": "while opening it"
+ },
+ {
+  "start": 133.379,
+  "end": 136.25,
+  "text": "so we'll mention books XML here"
+ },
+ {
+  "start": 136.26,
+  "end": 138.83,
+  "text": "now we need to give the X path"
+ },
+ {
+  "start": 138.84,
+  "end": 142.25,
+  "text": "okay so in an XML file if you want to"
+ },
+ {
+  "start": 142.26,
+  "end": 144.71,
+  "text": "access any particular node you need to"
+ },
+ {
+  "start": 144.72,
+  "end": 148.13,
+  "text": "provide the path of that node in the XML"
+ },
+ {
+  "start": 148.14,
+  "end": 149.869,
+  "text": "tree okay"
+ },
+ {
+  "start": 149.879,
+  "end": 152.75,
+  "text": "so for example if we are looking at this"
+ },
+ {
+  "start": 152.76,
+  "end": 156.35,
+  "text": "XML file okay so if we want to Traverse"
+ },
+ {
+  "start": 156.36,
+  "end": 160.49,
+  "text": "to a certain book okay book ID we need"
+ },
+ {
+  "start": 160.5,
+  "end": 163.009,
+  "text": "to give the path of this particular node"
+ },
+ {
+  "start": 163.019,
+  "end": 165.35,
+  "text": "okay so whatever node we are trying to"
+ },
+ {
+  "start": 165.36,
+  "end": 167.869,
+  "text": "access we need to provide the path of it"
+ },
+ {
+  "start": 167.879,
+  "end": 171.41,
+  "text": "so the easiest way to do this"
+ },
+ {
+  "start": 171.42,
+  "end": 173.63,
+  "text": "um is either use"
+ },
+ {
+  "start": 173.64,
+  "end": 174.229,
+  "text": "um"
+ },
+ {
+  "start": 174.239,
+  "end": 178.009,
+  "text": "some tool to generate the expert or you"
+ },
+ {
+  "start": 178.019,
+  "end": 179.93,
+  "text": "can write your own expert if you know"
+ },
+ {
+  "start": 179.94,
+  "end": 182.809,
+  "text": "how to write it okay so that's what I'm"
+ },
+ {
+  "start": 182.819,
+  "end": 183.89,
+  "text": "going to do"
+ },
+ {
+  "start": 183.9,
+  "end": 187.25,
+  "text": "okay so to do that I will first go to"
+ },
+ {
+  "start": 187.26,
+  "end": 190.13,
+  "text": "this XML file and then I will click on"
+ },
+ {
+  "start": 190.14,
+  "end": 193.43,
+  "text": "right click and click on inspect okay so"
+ },
+ {
+  "start": 193.44,
+  "end": 196.85,
+  "text": "that will give me a kind of an XML tree"
+ },
+ {
+  "start": 196.86,
+  "end": 199.07,
+  "text": "okay with all the different nodes you"
+ },
+ {
+  "start": 199.08,
+  "end": 200.39,
+  "text": "can see here"
+ },
+ {
+  "start": 200.4,
+  "end": 204.11,
+  "text": "so here I can then press Ctrl F and then"
+ },
+ {
+  "start": 204.12,
+  "end": 206.75,
+  "text": "you will see there is a find by a text"
+ },
+ {
+  "start": 206.76,
+  "end": 209.69,
+  "text": "box okay where I can write and I can"
+ },
+ {
+  "start": 209.7,
+  "end": 213.05,
+  "text": "also verify my XPath okay so for example"
+ },
+ {
+  "start": 213.06,
+  "end": 215.57,
+  "text": "I want to verify the title of this"
+ },
+ {
+  "start": 215.58,
+  "end": 218.57,
+  "text": "particular book which is microsoft.net"
+ },
+ {
+  "start": 218.58,
+  "end": 221.93,
+  "text": "so in order to access this I need to"
+ },
+ {
+  "start": 221.94,
+  "end": 223.97,
+  "text": "write a relative expert so I'll start"
+ },
+ {
+  "start": 223.98,
+  "end": 226.369,
+  "text": "off by writing book"
+ },
+ {
+  "start": 226.379,
+  "end": 229.729,
+  "text": "okay so that will probably give me all"
+ },
+ {
+  "start": 229.739,
+  "end": 230.69,
+  "text": "the list"
+ },
+ {
+  "start": 230.7,
+  "end": 233.21,
+  "text": "of nodes which start with the book tag"
+ },
+ {
+  "start": 233.22,
+  "end": 236.63,
+  "text": "okay and then I'm going to say at ID"
+ },
+ {
+  "start": 236.64,
+  "end": 239.03,
+  "text": "equals"
+ },
+ {
+  "start": 239.04,
+  "end": 241.729,
+  "text": "I'm going to give it a value here so"
+ },
+ {
+  "start": 241.739,
+  "end": 244.25,
+  "text": "it's pk110"
+ },
+ {
+  "start": 244.26,
+  "end": 247.25,
+  "text": "okay so this will filter it down to that"
+ },
+ {
+  "start": 247.26,
+  "end": 249.53,
+  "text": "specific book with this particular ID"
+ },
+ {
+  "start": 249.54,
+  "end": 253.75,
+  "text": "okay and then I'm going to access the"
+ },
+ {
+  "start": 253.76,
+  "end": 257.09,
+  "text": "title here so I'm going to write title"
+ },
+ {
+  "start": 257.1,
+  "end": 261.349,
+  "text": "and that will filter it out again to"
+ },
+ {
+  "start": 261.359,
+  "end": 263.749,
+  "text": "highlight the title here okay so this is"
+ },
+ {
+  "start": 263.759,
+  "end": 264.95,
+  "text": "probably"
+ },
+ {
+  "start": 264.96,
+  "end": 267.89,
+  "text": "the expat for if you want to access this"
+ },
+ {
+  "start": 267.9,
+  "end": 270.17,
+  "text": "particular node okay"
+ },
+ {
+  "start": 270.18,
+  "end": 272.749,
+  "text": "so as I want to verify the title I will"
+ },
+ {
+  "start": 272.759,
+  "end": 274.33,
+  "text": "take this node"
+ },
+ {
+  "start": 274.34,
+  "end": 278.03,
+  "text": "I will go back to Tosca and now I will"
+ },
+ {
+  "start": 278.04,
+  "end": 280.01,
+  "text": "paste it here"
+ },
+ {
+  "start": 280.02,
+  "end": 282.83,
+  "text": "now you need to take care of this"
+ },
+ {
+  "start": 282.84,
+  "end": 284.93,
+  "text": "particular Expressions because there are"
+ },
+ {
+  "start": 284.94,
+  "end": 286.909,
+  "text": "some special characters in this"
+ },
+ {
+  "start": 286.919,
+  "end": 290.27,
+  "text": "particular expert okay and you need to"
+ },
+ {
+  "start": 290.28,
+  "end": 293.03,
+  "text": "tell Tosca to escape the special"
+ },
+ {
+  "start": 293.04,
+  "end": 294.95,
+  "text": "characters otherwise it will throw some"
+ },
+ {
+  "start": 294.96,
+  "end": 298.37,
+  "text": "errors so you can go and right click on"
+ },
+ {
+  "start": 298.38,
+  "end": 301.37,
+  "text": "this and you can say Escape value"
+ },
+ {
+  "start": 301.38,
+  "end": 302.57,
+  "text": "okay"
+ },
+ {
+  "start": 302.58,
+  "end": 303.95,
+  "text": "uh"
+ },
+ {
+  "start": 303.96,
+  "end": 306.95,
+  "text": "that will escape the special characters"
+ },
+ {
+  "start": 306.96,
+  "end": 310.67,
+  "text": "here but again we need to escape this"
+ },
+ {
+  "start": 310.68,
+  "end": 314.51,
+  "text": "particular string value for ID okay so"
+ },
+ {
+  "start": 314.52,
+  "end": 315.409,
+  "text": "better"
+ },
+ {
+  "start": 315.419,
+  "end": 318.29,
+  "text": "we provide some quotes double quotes"
+ },
+ {
+  "start": 318.3,
+  "end": 320.27,
+  "text": "here okay"
+ },
+ {
+  "start": 320.28,
+  "end": 324.35,
+  "text": "so you need to put two double quotes one"
+ },
+ {
+  "start": 324.36,
+  "end": 328.909,
+  "text": "is for the X path and one uh it is still"
+ },
+ {
+  "start": 328.919,
+  "end": 332.21,
+  "text": "in Tosca to basically consider this as a"
+ },
+ {
+  "start": 332.22,
+  "end": 334.55,
+  "text": "string okay"
+ },
+ {
+  "start": 334.56,
+  "end": 337.07,
+  "text": "so this is how your expert should look"
+ },
+ {
+  "start": 337.08,
+  "end": 337.969,
+  "text": "like"
+ },
+ {
+  "start": 337.979,
+  "end": 340.909,
+  "text": "and now we want to verify something in"
+ },
+ {
+  "start": 340.919,
+  "end": 343.49,
+  "text": "the value okay so"
+ },
+ {
+  "start": 343.5,
+  "end": 344.51,
+  "text": "um"
+ },
+ {
+  "start": 344.52,
+  "end": 346.749,
+  "text": "if you look at this value it's"
+ },
+ {
+  "start": 346.759,
+  "end": 348.71,
+  "text": "microsoft.net and then the programming"
+ },
+ {
+  "start": 348.72,
+  "end": 350.27,
+  "text": "Bible"
+ },
+ {
+  "start": 350.28,
+  "end": 352.969,
+  "text": "um I don't want to write the whole text"
+ },
+ {
+  "start": 352.979,
+  "end": 354.95,
+  "text": "so I can use some regular expression"
+ },
+ {
+  "start": 354.96,
+  "end": 358.129,
+  "text": "here so I can write Microsoft and then I"
+ },
+ {
+  "start": 358.139,
+  "end": 359.749,
+  "text": "can put a star"
+ },
+ {
+  "start": 359.759,
+  "end": 362.749,
+  "text": "so that whatever text after that it can"
+ },
+ {
+  "start": 362.759,
+  "end": 364.909,
+  "text": "just verify that okay"
+ },
+ {
+  "start": 364.919,
+  "end": 367.85,
+  "text": "so any text which is uh starting with"
+ },
+ {
+  "start": 367.86,
+  "end": 369.65,
+  "text": "Microsoft and then"
+ },
+ {
+  "start": 369.66,
+  "end": 372.83,
+  "text": "um it can be anything after this okay"
+ },
+ {
+  "start": 372.84,
+  "end": 375.529,
+  "text": "so this way I want to verify the value"
+ },
+ {
+  "start": 375.539,
+  "end": 378.529,
+  "text": "of that particular title so I can do any"
+ },
+ {
+  "start": 378.539,
+  "end": 380.689,
+  "text": "number of verifications by giving the X"
+ },
+ {
+  "start": 380.699,
+  "end": 382.909,
+  "text": "part and then the value"
+ },
+ {
+  "start": 382.919,
+  "end": 384.65,
+  "text": "okay"
+ },
+ {
+  "start": 384.66,
+  "end": 394.249,
+  "text": "so let's go ahead and run this quickly"
+ },
+ {
+  "start": 397.07,
+  "end": 397.08,
+  "text": "and you will see that it will show you"
+ },
+ {
+  "start": 397.08,
+  "end": 399.23,
+  "text": "all the steps which it has performed and"
+ },
+ {
+  "start": 399.24,
+  "end": 401.93,
+  "text": "on the X path it will say verification"
+ },
+ {
+  "start": 401.94,
+  "end": 405.35,
+  "text": "was successful so expression was this"
+ },
+ {
+  "start": 405.36,
+  "end": 409.07,
+  "text": "actual value was this right"
+ },
+ {
+  "start": 409.08,
+  "end": 412.189,
+  "text": "so this is how you can verify any"
+ },
+ {
+  "start": 412.199,
+  "end": 415.49,
+  "text": "particular XML file using these two"
+ },
+ {
+  "start": 415.5,
+  "end": 418.39,
+  "text": "modules which are part of the XML engine"
+ },
+ {
+  "start": 418.4,
+  "end": 421.55,
+  "text": "and one is the open create XML file and"
+ },
+ {
+  "start": 421.56,
+  "end": 424.909,
+  "text": "the other is verify X summary"
+ },
+ {
+  "start": 424.919,
+  "end": 427.73,
+  "text": "that's all for this particular video if"
+ },
+ {
+  "start": 427.74,
+  "end": 429.529,
+  "text": "you have any questions then please leave"
+ },
+ {
+  "start": 429.539,
+  "end": 430.969,
+  "text": "it in the comments"
+ },
+ {
+  "start": 430.979,
+  "end": 432.89,
+  "text": "if you like this video then please"
+ },
+ {
+  "start": 432.9,
+  "end": 434.57,
+  "text": "subscribe to our Channel"
+ },
+ {
+  "start": 434.58,
+  "end": 436.79,
+  "text": "thanks for watching and I will see you"
+ },
+ {
+  "start": 436.8,
+  "end": 439.639,
+  "text": "in the next video"
+ }
+]

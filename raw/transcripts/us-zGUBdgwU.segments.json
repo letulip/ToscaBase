@@ -1,0 +1,767 @@
+[
+ {
+  "start": 8.69,
+  "end": 8.7,
+  "text": "hey everyone welcome back to our Channel"
+ },
+ {
+  "start": 8.7,
+  "end": 11.33,
+  "text": "I am back with another interesting topic"
+ },
+ {
+  "start": 11.34,
+  "end": 14.509,
+  "text": "in the Tosca automation playlist"
+ },
+ {
+  "start": 14.519,
+  "end": 17.15,
+  "text": "now we are going to discuss about how we"
+ },
+ {
+  "start": 17.16,
+  "end": 19.849,
+  "text": "can clone a particular workspace in"
+ },
+ {
+  "start": 19.859,
+  "end": 20.99,
+  "text": "Tosca"
+ },
+ {
+  "start": 21.0,
+  "end": 22.849,
+  "text": "first let's understand what is this"
+ },
+ {
+  "start": 22.859,
+  "end": 25.91,
+  "text": "cloning and why it is required"
+ },
+ {
+  "start": 25.92,
+  "end": 28.429,
+  "text": "so cloning as the name suggests is"
+ },
+ {
+  "start": 28.439,
+  "end": 31.25,
+  "text": "basically creating a copy of your"
+ },
+ {
+  "start": 31.26,
+  "end": 34.43,
+  "text": "workspace which you have created earlier"
+ },
+ {
+  "start": 34.44,
+  "end": 36.95,
+  "text": "now if you are working in a team there"
+ },
+ {
+  "start": 36.96,
+  "end": 39.11,
+  "text": "would be several team members who would"
+ },
+ {
+  "start": 39.12,
+  "end": 41.63,
+  "text": "be working or who need to work on the"
+ },
+ {
+  "start": 41.64,
+  "end": 44.33,
+  "text": "same Tosca workspace so we need to"
+ },
+ {
+  "start": 44.34,
+  "end": 47.81,
+  "text": "provide a copy of our main workspace to"
+ },
+ {
+  "start": 47.82,
+  "end": 50.15,
+  "text": "each one of them right"
+ },
+ {
+  "start": 50.16,
+  "end": 52.97,
+  "text": "so that each one of us in the team are"
+ },
+ {
+  "start": 52.98,
+  "end": 55.31,
+  "text": "working on the same workspace"
+ },
+ {
+  "start": 55.32,
+  "end": 58.01,
+  "text": "now the problem here is you can't just"
+ },
+ {
+  "start": 58.02,
+  "end": 60.95,
+  "text": "copy and paste your workspace into"
+ },
+ {
+  "start": 60.96,
+  "end": 63.83,
+  "text": "another folder or into another machine"
+ },
+ {
+  "start": 63.84,
+  "end": 67.13,
+  "text": "so that will not work because each time"
+ },
+ {
+  "start": 67.14,
+  "end": 70.49,
+  "text": "you create a workspace in Tosca it"
+ },
+ {
+  "start": 70.5,
+  "end": 72.95,
+  "text": "creates a unique ID of that particular"
+ },
+ {
+  "start": 72.96,
+  "end": 76.13,
+  "text": "workspace so if you copy that workspace"
+ },
+ {
+  "start": 76.14,
+  "end": 78.67,
+  "text": "and paste it into a different machine"
+ },
+ {
+  "start": 78.68,
+  "end": 82.07,
+  "text": "then it will still be referring to the"
+ },
+ {
+  "start": 82.08,
+  "end": 85.49,
+  "text": "same ID which was created originally"
+ },
+ {
+  "start": 85.5,
+  "end": 88.19,
+  "text": "so ultimately what will happen is if"
+ },
+ {
+  "start": 88.2,
+  "end": 90.53,
+  "text": "multiple people are working on that"
+ },
+ {
+  "start": 90.54,
+  "end": 93.109,
+  "text": "copied workspace then your workspace"
+ },
+ {
+  "start": 93.119,
+  "end": 96.23,
+  "text": "will get locked because two processes"
+ },
+ {
+  "start": 96.24,
+  "end": 98.63,
+  "text": "will be trying to access the same bug"
+ },
+ {
+  "start": 98.64,
+  "end": 100.91,
+  "text": "space with the same ID"
+ },
+ {
+  "start": 100.92,
+  "end": 103.91,
+  "text": "and that is why you need to basically"
+ },
+ {
+  "start": 103.92,
+  "end": 107.149,
+  "text": "clone a workspace instead of copying the"
+ },
+ {
+  "start": 107.159,
+  "end": 110.27,
+  "text": "workspace okay so there is a particular"
+ },
+ {
+  "start": 110.28,
+  "end": 113.33,
+  "text": "tool which Tosca has provided through"
+ },
+ {
+  "start": 113.34,
+  "end": 116.09,
+  "text": "which you can clone any number of"
+ },
+ {
+  "start": 116.1,
+  "end": 119.63,
+  "text": "workspaces from your main workspace"
+ },
+ {
+  "start": 119.64,
+  "end": 121.789,
+  "text": "and that is the process which you need"
+ },
+ {
+  "start": 121.799,
+  "end": 124.19,
+  "text": "to follow whenever you are working in a"
+ },
+ {
+  "start": 124.2,
+  "end": 126.889,
+  "text": "team and you need to distribute your"
+ },
+ {
+  "start": 126.899,
+  "end": 129.229,
+  "text": "workspace to all the different Oscar"
+ },
+ {
+  "start": 129.239,
+  "end": 131.51,
+  "text": "development machines where people can"
+ },
+ {
+  "start": 131.52,
+  "end": 134.03,
+  "text": "log in and then start working on their"
+ },
+ {
+  "start": 134.04,
+  "end": 136.91,
+  "text": "own workspace okay"
+ },
+ {
+  "start": 136.92,
+  "end": 140.39,
+  "text": "so let's see how we can do this cloning"
+ },
+ {
+  "start": 140.4,
+  "end": 142.19,
+  "text": "process"
+ },
+ {
+  "start": 142.2,
+  "end": 144.949,
+  "text": "so for this we are going to use a"
+ },
+ {
+  "start": 144.959,
+  "end": 147.29,
+  "text": "multi-user workspace which is this multi"
+ },
+ {
+  "start": 147.3,
+  "end": 149.93,
+  "text": "demo okay and we are going to create"
+ },
+ {
+  "start": 149.94,
+  "end": 153.41,
+  "text": "clones of these multi demo Tosca"
+ },
+ {
+  "start": 153.42,
+  "end": 155.93,
+  "text": "workspace which we have created"
+ },
+ {
+  "start": 155.94,
+  "end": 159.65,
+  "text": "so this tool is basically a exe which is"
+ },
+ {
+  "start": 159.66,
+  "end": 162.53,
+  "text": "present in your Tosca Commander uh"
+ },
+ {
+  "start": 162.54,
+  "end": 163.79,
+  "text": "folder directory where you have"
+ },
+ {
+  "start": 163.8,
+  "end": 165.71,
+  "text": "installed it okay"
+ },
+ {
+  "start": 165.72,
+  "end": 167.75,
+  "text": "so this tool is called TC workspace"
+ },
+ {
+  "start": 167.76,
+  "end": 169.97,
+  "text": "cloneutil.exe"
+ },
+ {
+  "start": 169.98,
+  "end": 172.97,
+  "text": "and as I said it is present uh in the"
+ },
+ {
+  "start": 172.98,
+  "end": 176.809,
+  "text": "commander home directory okay so if I go"
+ },
+ {
+  "start": 176.819,
+  "end": 177.83,
+  "text": "here"
+ },
+ {
+  "start": 177.84,
+  "end": 181.25,
+  "text": "into my file explorer and I just type"
+ },
+ {
+  "start": 181.26,
+  "end": 184.91,
+  "text": "Commander underscore home and then"
+ },
+ {
+  "start": 184.92,
+  "end": 187.25,
+  "text": "percentage it will take me to that"
+ },
+ {
+  "start": 187.26,
+  "end": 190.61,
+  "text": "particular folder okay and now here if I"
+ },
+ {
+  "start": 190.62,
+  "end": 193.43,
+  "text": "search PC work"
+ },
+ {
+  "start": 193.44,
+  "end": 195.83,
+  "text": "space clone util"
+ },
+ {
+  "start": 195.84,
+  "end": 199.43,
+  "text": "okay so here you will see this is the"
+ },
+ {
+  "start": 199.44,
+  "end": 202.97,
+  "text": "file or this is the tool a utility tool"
+ },
+ {
+  "start": 202.98,
+  "end": 204.71,
+  "text": "which has been provided by Tosca"
+ },
+ {
+  "start": 204.72,
+  "end": 206.99,
+  "text": "Commander okay and it is present in your"
+ },
+ {
+  "start": 207.0,
+  "end": 209.21,
+  "text": "installation directory so it is called"
+ },
+ {
+  "start": 209.22,
+  "end": 211.97,
+  "text": "TC workspace clone util"
+ },
+ {
+  "start": 211.98,
+  "end": 215.27,
+  "text": "now you cannot directly run this as an"
+ },
+ {
+  "start": 215.28,
+  "end": 218.27,
+  "text": "exe okay here you have to use the"
+ },
+ {
+  "start": 218.28,
+  "end": 220.67,
+  "text": "command line tool in order to run this"
+ },
+ {
+  "start": 220.68,
+  "end": 223.67,
+  "text": "particular uh util tool to clone your"
+ },
+ {
+  "start": 223.68,
+  "end": 226.61,
+  "text": "particular workspaces it also needs some"
+ },
+ {
+  "start": 226.62,
+  "end": 229.97,
+  "text": "arguments which we need to pass okay so"
+ },
+ {
+  "start": 229.98,
+  "end": 231.89,
+  "text": "for that what I have done is I have"
+ },
+ {
+  "start": 231.9,
+  "end": 235.369,
+  "text": "created a batch file okay so if I go"
+ },
+ {
+  "start": 235.379,
+  "end": 238.309,
+  "text": "ahead and I edit this file you will be"
+ },
+ {
+  "start": 238.319,
+  "end": 240.949,
+  "text": "able to see what's inside this so the"
+ },
+ {
+  "start": 240.959,
+  "end": 243.35,
+  "text": "first command is uh to go into the"
+ },
+ {
+  "start": 243.36,
+  "end": 246.35,
+  "text": "command Commander home directory and the"
+ },
+ {
+  "start": 246.36,
+  "end": 248.149,
+  "text": "next command is basically calling that"
+ },
+ {
+  "start": 248.159,
+  "end": 251.39,
+  "text": "exe and then passing the parameters"
+ },
+ {
+  "start": 251.4,
+  "end": 253.309,
+  "text": "so the first parameter which it accepts"
+ },
+ {
+  "start": 253.319,
+  "end": 256.129,
+  "text": "is the workspace which you want to clone"
+ },
+ {
+  "start": 256.139,
+  "end": 259.069,
+  "text": "okay so Dash workspace and then you need"
+ },
+ {
+  "start": 259.079,
+  "end": 261.949,
+  "text": "to give the path the complete path"
+ },
+ {
+  "start": 261.959,
+  "end": 265.61,
+  "text": "and then the out parameter this is"
+ },
+ {
+  "start": 265.62,
+  "end": 268.61,
+  "text": "basically uh the output directory folder"
+ },
+ {
+  "start": 268.62,
+  "end": 270.59,
+  "text": "okay where it will be creating the"
+ },
+ {
+  "start": 270.6,
+  "end": 272.27,
+  "text": "Clones so you need to give that"
+ },
+ {
+  "start": 272.28,
+  "end": 273.469,
+  "text": "particular path"
+ },
+ {
+  "start": 273.479,
+  "end": 276.71,
+  "text": "and then the count uh here you need to"
+ },
+ {
+  "start": 276.72,
+  "end": 280.129,
+  "text": "specify how many clones you want to"
+ },
+ {
+  "start": 280.139,
+  "end": 283.01,
+  "text": "create okay so I want to create five"
+ },
+ {
+  "start": 283.02,
+  "end": 286.969,
+  "text": "clones you can give 10 15 20 50 whatever"
+ },
+ {
+  "start": 286.979,
+  "end": 290.03,
+  "text": "number you want uh to create loans for"
+ },
+ {
+  "start": 290.04,
+  "end": 292.49,
+  "text": "this particular workspace okay so these"
+ },
+ {
+  "start": 292.5,
+  "end": 294.05,
+  "text": "are the two commands which will be"
+ },
+ {
+  "start": 294.06,
+  "end": 296.87,
+  "text": "executed as part of this batch file okay"
+ },
+ {
+  "start": 296.88,
+  "end": 299.33,
+  "text": "you can also go individually into the"
+ },
+ {
+  "start": 299.34,
+  "end": 302.03,
+  "text": "command prompt and go ahead and execute"
+ },
+ {
+  "start": 302.04,
+  "end": 305.45,
+  "text": "uh one by one or you can just create the"
+ },
+ {
+  "start": 305.46,
+  "end": 307.189,
+  "text": "batch file which will automatically"
+ },
+ {
+  "start": 307.199,
+  "end": 310.55,
+  "text": "execute this right"
+ },
+ {
+  "start": 310.56,
+  "end": 313.73,
+  "text": "so let's quickly go ahead and execute"
+ },
+ {
+  "start": 313.74,
+  "end": 315.71,
+  "text": "this now as you can see I have already"
+ },
+ {
+  "start": 315.72,
+  "end": 318.53,
+  "text": "created a clones folder here and I have"
+ },
+ {
+  "start": 318.54,
+  "end": 321.83,
+  "text": "given this particular path in my um in"
+ },
+ {
+  "start": 321.84,
+  "end": 323.57,
+  "text": "my command okay"
+ },
+ {
+  "start": 323.58,
+  "end": 325.61,
+  "text": "so what I'm going to do I'm going to"
+ },
+ {
+  "start": 325.62,
+  "end": 328.189,
+  "text": "double click on this batch file"
+ },
+ {
+  "start": 328.199,
+  "end": 331.01,
+  "text": "and you will see here it will open this"
+ },
+ {
+  "start": 331.02,
+  "end": 334.249,
+  "text": "command prompt so in the First Command"
+ },
+ {
+  "start": 334.259,
+  "end": 337.43,
+  "text": "it went into that particular folder okay"
+ },
+ {
+  "start": 337.44,
+  "end": 340.31,
+  "text": "and then it started the cloning process"
+ },
+ {
+  "start": 340.32,
+  "end": 344.629,
+  "text": "it cloned uh 5 or it created Five clones"
+ },
+ {
+  "start": 344.639,
+  "end": 346.43,
+  "text": "for that particular workspace"
+ },
+ {
+  "start": 346.44,
+  "end": 349.969,
+  "text": "okay and now if I go ahead and the"
+ },
+ {
+  "start": 349.979,
+  "end": 352.79,
+  "text": "Clones directory you will see that the"
+ },
+ {
+  "start": 352.8,
+  "end": 355.189,
+  "text": "five different clones of that particular"
+ },
+ {
+  "start": 355.199,
+  "end": 356.99,
+  "text": "workspace has been created in different"
+ },
+ {
+  "start": 357.0,
+  "end": 358.189,
+  "text": "folders"
+ },
+ {
+  "start": 358.199,
+  "end": 361.61,
+  "text": "now if I go into each folder it is in"
+ },
+ {
+  "start": 361.62,
+  "end": 365.15,
+  "text": "itself a workspace okay and it has got"
+ },
+ {
+  "start": 365.16,
+  "end": 367.15,
+  "text": "its own workspace ID"
+ },
+ {
+  "start": 367.16,
+  "end": 371.33,
+  "text": "and now we just need to copy this okay"
+ },
+ {
+  "start": 371.34,
+  "end": 373.67,
+  "text": "into different development machines"
+ },
+ {
+  "start": 373.68,
+  "end": 376.55,
+  "text": "which will be used by each Tosca team"
+ },
+ {
+  "start": 376.56,
+  "end": 380.33,
+  "text": "member to work on its own workspace"
+ },
+ {
+  "start": 380.34,
+  "end": 382.43,
+  "text": "now all of this workspace are still"
+ },
+ {
+  "start": 382.44,
+  "end": 385.129,
+  "text": "connected to the same repository okay so"
+ },
+ {
+  "start": 385.139,
+  "end": 388.129,
+  "text": "even if everyone is working on their own"
+ },
+ {
+  "start": 388.139,
+  "end": 391.01,
+  "text": "workspace they are checking in and"
+ },
+ {
+  "start": 391.02,
+  "end": 393.59,
+  "text": "checking out from the same Repository"
+ },
+ {
+  "start": 393.6,
+  "end": 395.45,
+  "text": "so this is how you can clone different"
+ },
+ {
+  "start": 395.46,
+  "end": 398.87,
+  "text": "workspaces from your main workspace so"
+ },
+ {
+  "start": 398.88,
+  "end": 401.45,
+  "text": "that it can be used in different Oscar"
+ },
+ {
+  "start": 401.46,
+  "end": 403.43,
+  "text": "machines"
+ },
+ {
+  "start": 403.44,
+  "end": 406.249,
+  "text": "that's all for this particular video if"
+ },
+ {
+  "start": 406.259,
+  "end": 408.05,
+  "text": "you have any questions then please leave"
+ },
+ {
+  "start": 408.06,
+  "end": 409.49,
+  "text": "it in the comments"
+ },
+ {
+  "start": 409.5,
+  "end": 411.469,
+  "text": "if you like this video then please"
+ },
+ {
+  "start": 411.479,
+  "end": 413.09,
+  "text": "subscribe to our Channel"
+ },
+ {
+  "start": 413.1,
+  "end": 415.37,
+  "text": "thanks for watching and I will see you"
+ },
+ {
+  "start": 415.38,
+  "end": 418.16,
+  "text": "in the next video"
+ }
+]

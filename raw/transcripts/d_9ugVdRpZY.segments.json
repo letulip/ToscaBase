@@ -1,0 +1,2047 @@
+[
+ {
+  "start": 2.99,
+  "end": 3.0,
+  "text": "hey everyone welcome to another lesson"
+ },
+ {
+  "start": 3.0,
+  "end": 5.57,
+  "text": "in the stock automation codes today we"
+ },
+ {
+  "start": 5.58,
+  "end": 7.369,
+  "text": "are going to talk about an important"
+ },
+ {
+  "start": 7.379,
+  "end": 10.25,
+  "text": "concept known as recovery scenarios"
+ },
+ {
+  "start": 10.26,
+  "end": 12.95,
+  "text": "now no matter which automation tool you"
+ },
+ {
+  "start": 12.96,
+  "end": 15.35,
+  "text": "work on you have to think about how you"
+ },
+ {
+  "start": 15.36,
+  "end": 18.349,
+  "text": "can recover from unexpected failures or"
+ },
+ {
+  "start": 18.359,
+  "end": 19.37,
+  "text": "errors"
+ },
+ {
+  "start": 19.38,
+  "end": 22.01,
+  "text": "now in some tools this recovery feature"
+ },
+ {
+  "start": 22.02,
+  "end": 25.25,
+  "text": "is already present or in some customized"
+ },
+ {
+  "start": 25.26,
+  "end": 27.29,
+  "text": "automation you have to write your own"
+ },
+ {
+  "start": 27.3,
+  "end": 29.089,
+  "text": "scripts to do that"
+ },
+ {
+  "start": 29.099,
+  "end": 30.65,
+  "text": "so if you have been working with"
+ },
+ {
+  "start": 30.66,
+  "end": 32.45,
+  "text": "selenium you have to write something"
+ },
+ {
+  "start": 32.46,
+  "end": 35.27,
+  "text": "like a try catch Block in order to come"
+ },
+ {
+  "start": 35.28,
+  "end": 38.81,
+  "text": "out of unexpected errors or exceptions"
+ },
+ {
+  "start": 38.82,
+  "end": 41.389,
+  "text": "in Tosca there is a recovery engine"
+ },
+ {
+  "start": 41.399,
+  "end": 43.67,
+  "text": "which already provides you with that"
+ },
+ {
+  "start": 43.68,
+  "end": 44.69,
+  "text": "feature"
+ },
+ {
+  "start": 44.7,
+  "end": 47.63,
+  "text": "so you have to provide a collection of"
+ },
+ {
+  "start": 47.64,
+  "end": 49.67,
+  "text": "desktops which are called recovery"
+ },
+ {
+  "start": 49.68,
+  "end": 52.25,
+  "text": "scenarios and they will kick in whenever"
+ },
+ {
+  "start": 52.26,
+  "end": 54.529,
+  "text": "a test case fails"
+ },
+ {
+  "start": 54.539,
+  "end": 57.11,
+  "text": "so let's see how you can configure this"
+ },
+ {
+  "start": 57.12,
+  "end": 60.11,
+  "text": "recovery scenario in Tosca"
+ },
+ {
+  "start": 60.12,
+  "end": 62.33,
+  "text": "so there are basically three steps in"
+ },
+ {
+  "start": 62.34,
+  "end": 64.85,
+  "text": "order to configure a recovery scenario"
+ },
+ {
+  "start": 64.86,
+  "end": 68.39,
+  "text": "the first step is to enable it in Tosca"
+ },
+ {
+  "start": 68.4,
+  "end": 71.27,
+  "text": "and you can do it in two ways"
+ },
+ {
+  "start": 71.28,
+  "end": 74.09,
+  "text": "so the first way is to go to the"
+ },
+ {
+  "start": 74.1,
+  "end": 76.85,
+  "text": "settings dialog and apply it to all the"
+ },
+ {
+  "start": 76.86,
+  "end": 79.73,
+  "text": "objects in the workspace"
+ },
+ {
+  "start": 79.74,
+  "end": 82.73,
+  "text": "but if you want to specify it for a"
+ },
+ {
+  "start": 82.74,
+  "end": 85.429,
+  "text": "particular object then you have to do it"
+ },
+ {
+  "start": 85.439,
+  "end": 88.19,
+  "text": "via configuration parameters"
+ },
+ {
+  "start": 88.2,
+  "end": 90.17,
+  "text": "and this will be applicable for"
+ },
+ {
+  "start": 90.18,
+  "end": 92.45,
+  "text": "individual test case folders now I'll"
+ },
+ {
+  "start": 92.46,
+  "end": 94.789,
+  "text": "show you how you can do this but let's"
+ },
+ {
+  "start": 94.799,
+  "end": 96.83,
+  "text": "first go through all the different steps"
+ },
+ {
+  "start": 96.84,
+  "end": 99.89,
+  "text": "here"
+ },
+ {
+  "start": 102.41,
+  "end": 102.42,
+  "text": "the next step is to create the recovery"
+ },
+ {
+  "start": 102.42,
+  "end": 104.39,
+  "text": "scenarios"
+ },
+ {
+  "start": 104.4,
+  "end": 107.21,
+  "text": "and you can do it at the test case level"
+ },
+ {
+  "start": 107.22,
+  "end": 109.789,
+  "text": "so either you can create it for test"
+ },
+ {
+  "start": 109.799,
+  "end": 114.53,
+  "text": "case folder or the individual test cases"
+ },
+ {
+  "start": 117.05,
+  "end": 117.06,
+  "text": "and the last step is to specify when"
+ },
+ {
+  "start": 117.06,
+  "end": 119.81,
+  "text": "this recovery scenario should be applied"
+ },
+ {
+  "start": 119.82,
+  "end": 121.789,
+  "text": "for your test cases"
+ },
+ {
+  "start": 121.799,
+  "end": 124.13,
+  "text": "and that you can do using this property"
+ },
+ {
+  "start": 124.14,
+  "end": 126.469,
+  "text": "which is called retry level"
+ },
+ {
+  "start": 126.479,
+  "end": 128.63,
+  "text": "once you have created your recovery"
+ },
+ {
+  "start": 128.64,
+  "end": 131.449,
+  "text": "scenario you can go and change this"
+ },
+ {
+  "start": 131.459,
+  "end": 134.99,
+  "text": "property now it may be by default set to"
+ },
+ {
+  "start": 135.0,
+  "end": 137.869,
+  "text": "test case but you can also put other"
+ },
+ {
+  "start": 137.879,
+  "end": 141.65,
+  "text": "values like the step value test step and"
+ },
+ {
+  "start": 141.66,
+  "end": 143.33,
+  "text": "the test case"
+ },
+ {
+  "start": 143.34,
+  "end": 146.75,
+  "text": "so what does it mean it means this"
+ },
+ {
+  "start": 146.76,
+  "end": 149.449,
+  "text": "recovery will kick in when a test step"
+ },
+ {
+  "start": 149.459,
+  "end": 152.51,
+  "text": "value or a test step or a test case"
+ },
+ {
+  "start": 152.52,
+  "end": 155.27,
+  "text": "fails now you can change it based on"
+ },
+ {
+  "start": 155.28,
+  "end": 158.089,
+  "text": "your scenario or your requirement but"
+ },
+ {
+  "start": 158.099,
+  "end": 159.65,
+  "text": "you have to put"
+ },
+ {
+  "start": 159.66,
+  "end": 160.25,
+  "text": "um"
+ },
+ {
+  "start": 160.26,
+  "end": 164.089,
+  "text": "something on this property retry level"
+ },
+ {
+  "start": 164.099,
+  "end": 166.07,
+  "text": "so all of these three steps are"
+ },
+ {
+  "start": 166.08,
+  "end": 168.65,
+  "text": "important and this is how you can"
+ },
+ {
+  "start": 168.66,
+  "end": 170.93,
+  "text": "configure your recovery scenario for"
+ },
+ {
+  "start": 170.94,
+  "end": 173.21,
+  "text": "your test cases"
+ },
+ {
+  "start": 173.22,
+  "end": 176.449,
+  "text": "now let's go to Tosca and see this uh in"
+ },
+ {
+  "start": 176.459,
+  "end": 178.13,
+  "text": "real time how you can apply this"
+ },
+ {
+  "start": 178.14,
+  "end": 179.809,
+  "text": "coverage scenario how you can enable"
+ },
+ {
+  "start": 179.819,
+  "end": 183.229,
+  "text": "them and how you can create them in your"
+ },
+ {
+  "start": 183.239,
+  "end": 186.11,
+  "text": "test cases"
+ },
+ {
+  "start": 188.33,
+  "end": 188.34,
+  "text": "so I have now launched my Tosca"
+ },
+ {
+  "start": 188.34,
+  "end": 190.729,
+  "text": "commander and let's see how we can"
+ },
+ {
+  "start": 190.739,
+  "end": 193.19,
+  "text": "enable recovery at a global level which"
+ },
+ {
+  "start": 193.2,
+  "end": 195.229,
+  "text": "is for all the objects in the workspace"
+ },
+ {
+  "start": 195.239,
+  "end": 198.53,
+  "text": "and that you can do by going to your"
+ },
+ {
+  "start": 198.54,
+  "end": 200.33,
+  "text": "settings"
+ },
+ {
+  "start": 200.34,
+  "end": 203.21,
+  "text": "and inside the settings you need to go"
+ },
+ {
+  "start": 203.22,
+  "end": 204.77,
+  "text": "to t-box"
+ },
+ {
+  "start": 204.78,
+  "end": 206.809,
+  "text": "Inside the Box you need to go to"
+ },
+ {
+  "start": 206.819,
+  "end": 208.91,
+  "text": "recovery and here you will find"
+ },
+ {
+  "start": 208.92,
+  "end": 211.25,
+  "text": "different options in order to configure"
+ },
+ {
+  "start": 211.26,
+  "end": 213.949,
+  "text": "or enable your recovery scenarios"
+ },
+ {
+  "start": 213.959,
+  "end": 216.77,
+  "text": "so you can enable recovery scenario at"
+ },
+ {
+  "start": 216.78,
+  "end": 218.449,
+  "text": "three levels"
+ },
+ {
+  "start": 218.459,
+  "end": 221.509,
+  "text": "the first is on dialogue failure"
+ },
+ {
+  "start": 221.519,
+  "end": 225.41,
+  "text": "second is on exception failure and the"
+ },
+ {
+  "start": 225.42,
+  "end": 228.41,
+  "text": "third is on verification failure"
+ },
+ {
+  "start": 228.42,
+  "end": 232.13,
+  "text": "so the first one is related to your"
+ },
+ {
+  "start": 232.14,
+  "end": 234.53,
+  "text": "failure with respect to your specific"
+ },
+ {
+  "start": 234.54,
+  "end": 238.309,
+  "text": "application right so if Tosca is not"
+ },
+ {
+  "start": 238.319,
+  "end": 240.229,
+  "text": "able to interact anymore with the"
+ },
+ {
+  "start": 240.239,
+  "end": 243.47,
+  "text": "application due to some uh unexpected"
+ },
+ {
+  "start": 243.48,
+  "end": 247.13,
+  "text": "failure then you can specify a certain"
+ },
+ {
+  "start": 247.14,
+  "end": 249.83,
+  "text": "value here right so choose what those"
+ },
+ {
+  "start": 249.84,
+  "end": 253.61,
+  "text": "guys should do in this case okay so let"
+ },
+ {
+  "start": 253.62,
+  "end": 255.77,
+  "text": "me expand this"
+ },
+ {
+  "start": 255.78,
+  "end": 258.949,
+  "text": "and here you can see all the values and"
+ },
+ {
+  "start": 258.959,
+  "end": 260.39,
+  "text": "the comments okay"
+ },
+ {
+  "start": 260.4,
+  "end": 263.27,
+  "text": "so there are four different values"
+ },
+ {
+  "start": 263.28,
+  "end": 265.49,
+  "text": "either you can halt the execution"
+ },
+ {
+  "start": 265.5,
+  "end": 266.749,
+  "text": "completely"
+ },
+ {
+  "start": 266.759,
+  "end": 270.35,
+  "text": "you can execute the next test case"
+ },
+ {
+  "start": 270.36,
+  "end": 273.29,
+  "text": "and you can continue with the execution"
+ },
+ {
+  "start": 273.3,
+  "end": 274.79,
+  "text": "okay"
+ },
+ {
+  "start": 274.8,
+  "end": 277.969,
+  "text": "or you can just do a recover now these"
+ },
+ {
+  "start": 277.979,
+  "end": 280.49,
+  "text": "are all the four values if you want to"
+ },
+ {
+  "start": 280.5,
+  "end": 282.83,
+  "text": "work with recoveries you have to select"
+ },
+ {
+  "start": 282.84,
+  "end": 286.07,
+  "text": "recover in this particular case okay and"
+ },
+ {
+  "start": 286.08,
+  "end": 288.409,
+  "text": "similarly you need to change all of"
+ },
+ {
+  "start": 288.419,
+  "end": 291.53,
+  "text": "these if you want to recover from all of"
+ },
+ {
+  "start": 291.54,
+  "end": 294.469,
+  "text": "these different types of failures okay"
+ },
+ {
+  "start": 294.479,
+  "end": 297.11,
+  "text": "so on dialogue failure on exception"
+ },
+ {
+  "start": 297.12,
+  "end": 300.469,
+  "text": "failure and on a verification failure in"
+ },
+ {
+  "start": 300.479,
+  "end": 303.23,
+  "text": "all these cases Tosca should run the"
+ },
+ {
+  "start": 303.24,
+  "end": 305.45,
+  "text": "recovery scenarios that's what we are"
+ },
+ {
+  "start": 305.46,
+  "end": 307.49,
+  "text": "currently setting this okay"
+ },
+ {
+  "start": 307.5,
+  "end": 308.99,
+  "text": "now there are three other properties"
+ },
+ {
+  "start": 309.0,
+  "end": 312.17,
+  "text": "called test case retries desktop retries"
+ },
+ {
+  "start": 312.18,
+  "end": 314.629,
+  "text": "and test value retracts now what are"
+ },
+ {
+  "start": 314.639,
+  "end": 317.33,
+  "text": "these is these are the maximum number of"
+ },
+ {
+  "start": 317.34,
+  "end": 320.03,
+  "text": "recovery attempts Tosca will do in order"
+ },
+ {
+  "start": 320.04,
+  "end": 322.189,
+  "text": "to recover a particular test case a"
+ },
+ {
+  "start": 322.199,
+  "end": 324.05,
+  "text": "particular test step or a particular"
+ },
+ {
+  "start": 324.06,
+  "end": 326.45,
+  "text": "test step value okay"
+ },
+ {
+  "start": 326.46,
+  "end": 328.909,
+  "text": "now you can choose any value or enter"
+ },
+ {
+  "start": 328.919,
+  "end": 333.35,
+  "text": "any value here right you can do a two or"
+ },
+ {
+  "start": 333.36,
+  "end": 335.629,
+  "text": "three or you can set different values"
+ },
+ {
+  "start": 335.639,
+  "end": 338.029,
+  "text": "for all the different types okay or you"
+ },
+ {
+  "start": 338.039,
+  "end": 340.79,
+  "text": "can have the same values here"
+ },
+ {
+  "start": 340.8,
+  "end": 342.65,
+  "text": "so this is where you enable your"
+ },
+ {
+  "start": 342.66,
+  "end": 345.05,
+  "text": "recovery at a global level for all your"
+ },
+ {
+  "start": 345.06,
+  "end": 347.87,
+  "text": "objects in the workspace okay once you"
+ },
+ {
+  "start": 347.88,
+  "end": 350.51,
+  "text": "do that just close this window and it"
+ },
+ {
+  "start": 350.52,
+  "end": 352.129,
+  "text": "will enable the recovery for all the"
+ },
+ {
+  "start": 352.139,
+  "end": 353.87,
+  "text": "objects okay"
+ },
+ {
+  "start": 353.88,
+  "end": 355.189,
+  "text": "now"
+ },
+ {
+  "start": 355.199,
+  "end": 357.29,
+  "text": "say for example you don't want to apply"
+ },
+ {
+  "start": 357.3,
+  "end": 360.469,
+  "text": "the same level of recovery for different"
+ },
+ {
+  "start": 360.479,
+  "end": 364.31,
+  "text": "uh objects on your workspace in that"
+ },
+ {
+  "start": 364.32,
+  "end": 366.89,
+  "text": "case what you can do is whenever you are"
+ },
+ {
+  "start": 366.9,
+  "end": 369.29,
+  "text": "creating a test case folder you can go"
+ },
+ {
+  "start": 369.3,
+  "end": 371.39,
+  "text": "to test configuration so I have created"
+ },
+ {
+  "start": 371.4,
+  "end": 374.749,
+  "text": "this recovery folder okay"
+ },
+ {
+  "start": 374.759,
+  "end": 377.81,
+  "text": "and here under test configuration"
+ },
+ {
+  "start": 377.82,
+  "end": 380.749,
+  "text": "you can add different test configuration"
+ },
+ {
+  "start": 380.759,
+  "end": 383.57,
+  "text": "parameters okay so click on create test"
+ },
+ {
+  "start": 383.58,
+  "end": 386.51,
+  "text": "configuration parameter and here you can"
+ },
+ {
+  "start": 386.52,
+  "end": 389.99,
+  "text": "select on dialog failure okay"
+ },
+ {
+  "start": 390.0,
+  "end": 393.409,
+  "text": "and you can select a value so I want to"
+ },
+ {
+  "start": 393.419,
+  "end": 394.55,
+  "text": "recover"
+ },
+ {
+  "start": 394.56,
+  "end": 397.85,
+  "text": "similarly again I can add another test"
+ },
+ {
+  "start": 397.86,
+  "end": 400.73,
+  "text": "configuration failure and I will say on"
+ },
+ {
+  "start": 400.74,
+  "end": 402.409,
+  "text": "exception failure"
+ },
+ {
+  "start": 402.419,
+  "end": 404.99,
+  "text": "and I will say recover"
+ },
+ {
+  "start": 405.0,
+  "end": 406.79,
+  "text": "and the last one which is on"
+ },
+ {
+  "start": 406.8,
+  "end": 409.85,
+  "text": "verification failure okay and here also"
+ },
+ {
+  "start": 409.86,
+  "end": 412.189,
+  "text": "I will say recover"
+ },
+ {
+  "start": 412.199,
+  "end": 415.189,
+  "text": "right so this is how you can set the"
+ },
+ {
+  "start": 415.199,
+  "end": 419.09,
+  "text": "recovery at a folder level right once"
+ },
+ {
+  "start": 419.1,
+  "end": 421.01,
+  "text": "you do this the global settings will be"
+ },
+ {
+  "start": 421.02,
+  "end": 423.35,
+  "text": "overwritten okay so whatever you specify"
+ },
+ {
+  "start": 423.36,
+  "end": 425.57,
+  "text": "here will apply and not the global"
+ },
+ {
+  "start": 425.58,
+  "end": 430.249,
+  "text": "settings okay and similarly you can do"
+ },
+ {
+  "start": 430.259,
+  "end": 433.309,
+  "text": "it for how many times you want Tosca to"
+ },
+ {
+  "start": 433.319,
+  "end": 437.57,
+  "text": "do this reattempt right so that again"
+ },
+ {
+  "start": 437.58,
+  "end": 440.15,
+  "text": "you have to add a configuration"
+ },
+ {
+  "start": 440.16,
+  "end": 444.29,
+  "text": "parameter so let's search for them"
+ },
+ {
+  "start": 444.3,
+  "end": 448.129,
+  "text": "so this will be a test case retries okay"
+ },
+ {
+  "start": 448.139,
+  "end": 450.29,
+  "text": "and I have to specify some value I'll"
+ },
+ {
+  "start": 450.3,
+  "end": 452.27,
+  "text": "specify one for now"
+ },
+ {
+  "start": 452.28,
+  "end": 454.37,
+  "text": "and then"
+ },
+ {
+  "start": 454.38,
+  "end": 457.43,
+  "text": "you can also add the other ones like"
+ },
+ {
+  "start": 457.44,
+  "end": 459.05,
+  "text": "test step"
+ },
+ {
+  "start": 459.06,
+  "end": 461.27,
+  "text": "retries"
+ },
+ {
+  "start": 461.28,
+  "end": 464.51,
+  "text": "and the last one which is called the"
+ },
+ {
+  "start": 464.52,
+  "end": 472.37,
+  "text": "test step level three tries"
+ },
+ {
+  "start": 476.15,
+  "end": 476.16,
+  "text": "or it should be"
+ },
+ {
+  "start": 476.16,
+  "end": 479.689,
+  "text": "let's search for them okay set tester"
+ },
+ {
+  "start": 479.699,
+  "end": 481.49,
+  "text": "value utilize"
+ },
+ {
+  "start": 481.5,
+  "end": 485.15,
+  "text": "so uh here I can specify just two and"
+ },
+ {
+  "start": 485.16,
+  "end": 486.05,
+  "text": "two"
+ },
+ {
+  "start": 486.06,
+  "end": 488.629,
+  "text": "okay so these are all the"
+ },
+ {
+  "start": 488.639,
+  "end": 491.089,
+  "text": "parameters which we have set at a test"
+ },
+ {
+  "start": 491.099,
+  "end": 494.27,
+  "text": "case level okay and this will overwrite"
+ },
+ {
+  "start": 494.28,
+  "end": 497.21,
+  "text": "the global entries"
+ },
+ {
+  "start": 497.22,
+  "end": 499.43,
+  "text": "so our first step is now complete we"
+ },
+ {
+  "start": 499.44,
+  "end": 501.77,
+  "text": "have enabled recovery uh at our test"
+ },
+ {
+  "start": 501.78,
+  "end": 504.95,
+  "text": "case folder level right and now we want"
+ },
+ {
+  "start": 504.96,
+  "end": 508.73,
+  "text": "to create a recovery scenario right and"
+ },
+ {
+  "start": 508.74,
+  "end": 510.83,
+  "text": "how you can do that as I said earlier"
+ },
+ {
+  "start": 510.84,
+  "end": 512.93,
+  "text": "you have to do it at a test case level"
+ },
+ {
+  "start": 512.94,
+  "end": 516.35,
+  "text": "so go to a test case folder and here"
+ },
+ {
+  "start": 516.36,
+  "end": 518.81,
+  "text": "right click and then"
+ },
+ {
+  "start": 518.82,
+  "end": 522.35,
+  "text": "go here and select create recovery"
+ },
+ {
+  "start": 522.36,
+  "end": 524.87,
+  "text": "scenario collection okay you can also"
+ },
+ {
+  "start": 524.88,
+  "end": 528.47,
+  "text": "use the shortcuts Ctrl n and Ctrl R okay"
+ },
+ {
+  "start": 528.48,
+  "end": 530.87,
+  "text": "so let's do this right now and you will"
+ },
+ {
+  "start": 530.88,
+  "end": 532.67,
+  "text": "see here it will create a folder called"
+ },
+ {
+  "start": 532.68,
+  "end": 534.71,
+  "text": "recovery scenarios right so this is the"
+ },
+ {
+  "start": 534.72,
+  "end": 537.05,
+  "text": "parent folder again you need to right"
+ },
+ {
+  "start": 537.06,
+  "end": 539.389,
+  "text": "click on this and you need to now select"
+ },
+ {
+  "start": 539.399,
+  "end": 541.67,
+  "text": "create recovery scenario okay so you can"
+ },
+ {
+  "start": 541.68,
+  "end": 545.269,
+  "text": "create multiple scenarios inside this"
+ },
+ {
+  "start": 545.279,
+  "end": 547.61,
+  "text": "and this is our recovery scenario folder"
+ },
+ {
+  "start": 547.62,
+  "end": 551.449,
+  "text": "right the difference is this is a white"
+ },
+ {
+  "start": 551.459,
+  "end": 554.63,
+  "text": "plus and this is a red plus okay"
+ },
+ {
+  "start": 554.64,
+  "end": 557.21,
+  "text": "now inside this we need to create a"
+ },
+ {
+  "start": 557.22,
+  "end": 559.91,
+  "text": "collection of test steps right so which"
+ },
+ {
+  "start": 559.92,
+  "end": 562.61,
+  "text": "can be executed when this recovery is"
+ },
+ {
+  "start": 562.62,
+  "end": 564.71,
+  "text": "triggered by Tosca"
+ },
+ {
+  "start": 564.72,
+  "end": 567.65,
+  "text": "but first let's understand where we will"
+ },
+ {
+  "start": 567.66,
+  "end": 569.93,
+  "text": "apply this recovery and why we would"
+ },
+ {
+  "start": 569.94,
+  "end": 572.389,
+  "text": "apply this right"
+ },
+ {
+  "start": 572.399,
+  "end": 575.81,
+  "text": "so to do this I have made a very dumb"
+ },
+ {
+  "start": 575.82,
+  "end": 577.43,
+  "text": "test okay"
+ },
+ {
+  "start": 577.44,
+  "end": 580.73,
+  "text": "so what I have done is I want to click"
+ },
+ {
+  "start": 580.74,
+  "end": 584.03,
+  "text": "on this submit button here right"
+ },
+ {
+  "start": 584.04,
+  "end": 586.73,
+  "text": "but now what has happened is there has"
+ },
+ {
+  "start": 586.74,
+  "end": 588.949,
+  "text": "been a development change right so if I"
+ },
+ {
+  "start": 588.959,
+  "end": 591.53,
+  "text": "refresh this page you will see now the"
+ },
+ {
+  "start": 591.54,
+  "end": 594.35,
+  "text": "submit button is disabled for around 13"
+ },
+ {
+  "start": 594.36,
+  "end": 597.71,
+  "text": "or 14 seconds right so after this time"
+ },
+ {
+  "start": 597.72,
+  "end": 600.41,
+  "text": "is gone then only the submit button"
+ },
+ {
+  "start": 600.42,
+  "end": 603.11,
+  "text": "would be enabled right now consider for"
+ },
+ {
+  "start": 603.12,
+  "end": 605.63,
+  "text": "this example this is the change and our"
+ },
+ {
+  "start": 605.64,
+  "end": 608.329,
+  "text": "test is going to fail right because the"
+ },
+ {
+  "start": 608.339,
+  "end": 610.49,
+  "text": "previous functionality was submit button"
+ },
+ {
+  "start": 610.5,
+  "end": 612.65,
+  "text": "was always enabled and now the current"
+ },
+ {
+  "start": 612.66,
+  "end": 614.93,
+  "text": "functionality is it is enabled after"
+ },
+ {
+  "start": 614.94,
+  "end": 617.75,
+  "text": "some time is spanned right"
+ },
+ {
+  "start": 617.76,
+  "end": 620.03,
+  "text": "so now we have to think about how we can"
+ },
+ {
+  "start": 620.04,
+  "end": 622.61,
+  "text": "recover out of this failure right I can"
+ },
+ {
+  "start": 622.62,
+  "end": 625.91,
+  "text": "go and directly change my test but uh if"
+ },
+ {
+  "start": 625.92,
+  "end": 628.25,
+  "text": "I don't want to do that every time there"
+ },
+ {
+  "start": 628.26,
+  "end": 630.11,
+  "text": "is a functionality change like this"
+ },
+ {
+  "start": 630.12,
+  "end": 632.87,
+  "text": "right so I need to think of a way where"
+ },
+ {
+  "start": 632.88,
+  "end": 635.389,
+  "text": "I can recover out of unexpected errors"
+ },
+ {
+  "start": 635.399,
+  "end": 638.449,
+  "text": "in my executions so that my executions"
+ },
+ {
+  "start": 638.459,
+  "end": 641.99,
+  "text": "are not halted because of some change or"
+ },
+ {
+  "start": 642.0,
+  "end": 644.93,
+  "text": "some unexpected error right"
+ },
+ {
+  "start": 644.94,
+  "end": 647.569,
+  "text": "so for this particular example"
+ },
+ {
+  "start": 647.579,
+  "end": 649.91,
+  "text": "um I have created this uh three test"
+ },
+ {
+  "start": 649.92,
+  "end": 652.31,
+  "text": "steps right so it will open the URL it"
+ },
+ {
+  "start": 652.32,
+  "end": 654.949,
+  "text": "will click on the submit button and it"
+ },
+ {
+  "start": 654.959,
+  "end": 657.35,
+  "text": "will close the page now here what I have"
+ },
+ {
+  "start": 657.36,
+  "end": 659.449,
+  "text": "done is I'm also checking for whether"
+ },
+ {
+  "start": 659.459,
+  "end": 662.389,
+  "text": "that button is enabled or not before I"
+ },
+ {
+  "start": 662.399,
+  "end": 665.87,
+  "text": "click on that button right so ideally it"
+ },
+ {
+  "start": 665.88,
+  "end": 669.11,
+  "text": "should fail here because it won't be"
+ },
+ {
+  "start": 669.12,
+  "end": 671.21,
+  "text": "enabled as soon as I launch the page"
+ },
+ {
+  "start": 671.22,
+  "end": 673.91,
+  "text": "right it has to wait for some time and"
+ },
+ {
+  "start": 673.92,
+  "end": 676.79,
+  "text": "that's where we have to enable our"
+ },
+ {
+  "start": 676.8,
+  "end": 678.65,
+  "text": "recovery scenario right"
+ },
+ {
+  "start": 678.66,
+  "end": 682.009,
+  "text": "now let's first see how this execution"
+ },
+ {
+  "start": 682.019,
+  "end": 684.53,
+  "text": "will fail and then we will see how we"
+ },
+ {
+  "start": 684.54,
+  "end": 686.75,
+  "text": "can apply a recovery scenario to make"
+ },
+ {
+  "start": 686.76,
+  "end": 688.85,
+  "text": "this pass okay"
+ },
+ {
+  "start": 688.86,
+  "end": 691.97,
+  "text": "so let me close this and"
+ },
+ {
+  "start": 691.98,
+  "end": 695.389,
+  "text": "let's go ahead and"
+ },
+ {
+  "start": 695.399,
+  "end": 697.67,
+  "text": "run this in scratchbook now while this"
+ },
+ {
+  "start": 697.68,
+  "end": 700.25,
+  "text": "is executing another important thing to"
+ },
+ {
+  "start": 700.26,
+  "end": 703.73,
+  "text": "note as recovery scenario only works"
+ },
+ {
+  "start": 703.74,
+  "end": 706.67,
+  "text": "when you run your test using an"
+ },
+ {
+  "start": 706.68,
+  "end": 709.19,
+  "text": "execution list okay so if you run it"
+ },
+ {
+  "start": 709.2,
+  "end": 711.889,
+  "text": "using a scratch book The Recovery"
+ },
+ {
+  "start": 711.899,
+  "end": 715.37,
+  "text": "scenario won't kick in so it will"
+ },
+ {
+  "start": 715.38,
+  "end": 718.43,
+  "text": "execute just as a simple test the"
+ },
+ {
+  "start": 718.44,
+  "end": 721.49,
+  "text": "recovery scenario won't work okay"
+ },
+ {
+  "start": 721.5,
+  "end": 724.79,
+  "text": "so as expected the test has failed as"
+ },
+ {
+  "start": 724.8,
+  "end": 726.17,
+  "text": "you can see"
+ },
+ {
+  "start": 726.18,
+  "end": 729.71,
+  "text": "and that is what we expected out of this"
+ },
+ {
+  "start": 729.72,
+  "end": 731.389,
+  "text": "okay"
+ },
+ {
+  "start": 731.399,
+  "end": 733.91,
+  "text": "so the submit enabled uh the"
+ },
+ {
+  "start": 733.92,
+  "end": 736.43,
+  "text": "verification has failed now here I can"
+ },
+ {
+  "start": 736.44,
+  "end": 739.85,
+  "text": "also apply two types of uh recoveries"
+ },
+ {
+  "start": 739.86,
+  "end": 742.49,
+  "text": "right I can either do it at a test case"
+ },
+ {
+  "start": 742.5,
+  "end": 745.43,
+  "text": "failure level or I can also do it at on"
+ },
+ {
+  "start": 745.44,
+  "end": 748.31,
+  "text": "verification failure right so I can"
+ },
+ {
+  "start": 748.32,
+  "end": 751.61,
+  "text": "basically enable it at any of these"
+ },
+ {
+  "start": 751.62,
+  "end": 753.29,
+  "text": "places right"
+ },
+ {
+  "start": 753.3,
+  "end": 758.15,
+  "text": "so before we add a recovery right we"
+ },
+ {
+  "start": 758.16,
+  "end": 761.09,
+  "text": "need to also do the third step which is"
+ },
+ {
+  "start": 761.1,
+  "end": 763.069,
+  "text": "the retry level property right so we"
+ },
+ {
+  "start": 763.079,
+  "end": 765.889,
+  "text": "have to set some retry level property"
+ },
+ {
+  "start": 765.899,
+  "end": 768.829,
+  "text": "value here so when you create a recovery"
+ },
+ {
+  "start": 768.839,
+  "end": 771.59,
+  "text": "scenario go to the properties here you"
+ },
+ {
+  "start": 771.6,
+  "end": 774.23,
+  "text": "will find the retry level and we have to"
+ },
+ {
+  "start": 774.24,
+  "end": 776.269,
+  "text": "specify some level where this retry"
+ },
+ {
+  "start": 776.279,
+  "end": 778.85,
+  "text": "should be kicked in so it either it"
+ },
+ {
+  "start": 778.86,
+  "end": 781.129,
+  "text": "could be a test step the step value or"
+ },
+ {
+  "start": 781.139,
+  "end": 783.65,
+  "text": "test case right so for this example I"
+ },
+ {
+  "start": 783.66,
+  "end": 786.71,
+  "text": "will keep it as test case okay"
+ },
+ {
+  "start": 786.72,
+  "end": 789.41,
+  "text": "and now what I'm going to do is I'm"
+ },
+ {
+  "start": 789.42,
+  "end": 792.31,
+  "text": "going to search and add a test step here"
+ },
+ {
+  "start": 792.32,
+  "end": 797.03,
+  "text": "so that uh this desktop would be"
+ },
+ {
+  "start": 797.04,
+  "end": 799.55,
+  "text": "kicked in whenever the recovery scenario"
+ },
+ {
+  "start": 799.56,
+  "end": 803.329,
+  "text": "is enabled okay"
+ },
+ {
+  "start": 803.339,
+  "end": 806.389,
+  "text": "so here what I want to do is I want to"
+ },
+ {
+  "start": 806.399,
+  "end": 808.97,
+  "text": "check or I want to wait for this"
+ },
+ {
+  "start": 808.98,
+  "end": 811.129,
+  "text": "particular button to be enabled before"
+ },
+ {
+  "start": 811.139,
+  "end": 814.31,
+  "text": "it goes and clicks on it okay"
+ },
+ {
+  "start": 814.32,
+  "end": 816.29,
+  "text": "so that's what I want to do so I'm going"
+ },
+ {
+  "start": 816.3,
+  "end": 819.55,
+  "text": "to change this action mode to wait on"
+ },
+ {
+  "start": 819.56,
+  "end": 824.09,
+  "text": "and I will wait for it to be enabled"
+ },
+ {
+  "start": 824.1,
+  "end": 825.769,
+  "text": "okay"
+ },
+ {
+  "start": 825.779,
+  "end": 828.23,
+  "text": "so this weight on action mode uh it will"
+ },
+ {
+  "start": 828.24,
+  "end": 831.17,
+  "text": "ask Tosca to wait until this particular"
+ },
+ {
+  "start": 831.18,
+  "end": 833.15,
+  "text": "value is achieved for this particular"
+ },
+ {
+  "start": 833.16,
+  "end": 835.129,
+  "text": "object okay"
+ },
+ {
+  "start": 835.139,
+  "end": 838.37,
+  "text": "so I will rename this I will say check"
+ },
+ {
+  "start": 838.38,
+  "end": 841.97,
+  "text": "submit"
+ },
+ {
+  "start": 844.37,
+  "end": 844.38,
+  "text": "okay so this is my recovery scenario as"
+ },
+ {
+  "start": 844.38,
+  "end": 846.41,
+  "text": "you can see and this is my test step"
+ },
+ {
+  "start": 846.42,
+  "end": 849.17,
+  "text": "inside the recovery scenario now what"
+ },
+ {
+  "start": 849.18,
+  "end": 851.81,
+  "text": "will happen is when this particular test"
+ },
+ {
+  "start": 851.82,
+  "end": 853.73,
+  "text": "case which is the submit"
+ },
+ {
+  "start": 853.74,
+  "end": 857.269,
+  "text": "uh when this fails this retrial level"
+ },
+ {
+  "start": 857.279,
+  "end": 859.91,
+  "text": "will kick in and it will identify that"
+ },
+ {
+  "start": 859.92,
+  "end": 862.55,
+  "text": "my test case has failed and it will ask"
+ },
+ {
+  "start": 862.56,
+  "end": 864.769,
+  "text": "the recovery engine to start the"
+ },
+ {
+  "start": 864.779,
+  "end": 866.75,
+  "text": "recovery scenario right so it will go"
+ },
+ {
+  "start": 866.76,
+  "end": 869.389,
+  "text": "into this recovery scenario and then it"
+ },
+ {
+  "start": 869.399,
+  "end": 871.67,
+  "text": "will execute this particular step which"
+ },
+ {
+  "start": 871.68,
+  "end": 874.25,
+  "text": "is to wait till that particular button"
+ },
+ {
+  "start": 874.26,
+  "end": 876.889,
+  "text": "is enabled and then again it will"
+ },
+ {
+  "start": 876.899,
+  "end": 878.99,
+  "text": "execute the test case right so it will"
+ },
+ {
+  "start": 879.0,
+  "end": 881.329,
+  "text": "again come here and it will again check"
+ },
+ {
+  "start": 881.339,
+  "end": 883.069,
+  "text": "whether it is enabled and it will click"
+ },
+ {
+  "start": 883.079,
+  "end": 885.17,
+  "text": "on it and then it will go to the other"
+ },
+ {
+  "start": 885.18,
+  "end": 888.769,
+  "text": "steps right so this is the flow"
+ },
+ {
+  "start": 888.779,
+  "end": 891.53,
+  "text": "now let's see whether it actually works"
+ },
+ {
+  "start": 891.54,
+  "end": 893.75,
+  "text": "or it doesn't work right"
+ },
+ {
+  "start": 893.76,
+  "end": 896.629,
+  "text": "so as I said we have to do it in"
+ },
+ {
+  "start": 896.639,
+  "end": 900.41,
+  "text": "execution list right so let me track my"
+ },
+ {
+  "start": 900.42,
+  "end": 902.75,
+  "text": "execution list here"
+ },
+ {
+  "start": 902.76,
+  "end": 904.91,
+  "text": "and I have already created a execution"
+ },
+ {
+  "start": 904.92,
+  "end": 908.689,
+  "text": "list folder so I'm going to drag this"
+ },
+ {
+  "start": 908.699,
+  "end": 910.49,
+  "text": "recovery folder"
+ },
+ {
+  "start": 910.5,
+  "end": 913.55,
+  "text": "into my execution list folder so that"
+ },
+ {
+  "start": 913.56,
+  "end": 916.069,
+  "text": "our execution list is created here"
+ },
+ {
+  "start": 916.079,
+  "end": 920.509,
+  "text": "I will say here recovery right"
+ },
+ {
+  "start": 920.519,
+  "end": 923.21,
+  "text": "and this contains my recovery test case"
+ },
+ {
+  "start": 923.22,
+  "end": 924.65,
+  "text": "okay"
+ },
+ {
+  "start": 924.66,
+  "end": 927.769,
+  "text": "so let's go ahead and run this so that"
+ },
+ {
+  "start": 927.779,
+  "end": 929.629,
+  "text": "our recovery scenario can now kick in"
+ },
+ {
+  "start": 929.639,
+  "end": 932.389,
+  "text": "when there is a failure and it can"
+ },
+ {
+  "start": 932.399,
+  "end": 934.67,
+  "text": "recover out of that failure so that the"
+ },
+ {
+  "start": 934.68,
+  "end": 938.03,
+  "text": "test cases pass okay"
+ },
+ {
+  "start": 938.04,
+  "end": 950.09,
+  "text": "so let's see this in action now"
+ },
+ {
+  "start": 952.85,
+  "end": 952.86,
+  "text": "so at this point the test case is"
+ },
+ {
+  "start": 952.86,
+  "end": 955.43,
+  "text": "failing but it has already kicked in the"
+ },
+ {
+  "start": 955.44,
+  "end": 957.41,
+  "text": "recovery scenario where it is asking"
+ },
+ {
+  "start": 957.42,
+  "end": 959.509,
+  "text": "Tosca to wait till this particular"
+ },
+ {
+  "start": 959.519,
+  "end": 961.009,
+  "text": "button is enabled"
+ },
+ {
+  "start": 961.019,
+  "end": 963.29,
+  "text": "and then it will again execute the test"
+ },
+ {
+  "start": 963.3,
+  "end": 965.81,
+  "text": "case we'll see this all in our results"
+ },
+ {
+  "start": 965.82,
+  "end": 967.73,
+  "text": "where it will be more clear what is"
+ },
+ {
+  "start": 967.74,
+  "end": 971.03,
+  "text": "actually happening right so if I go back"
+ },
+ {
+  "start": 971.04,
+  "end": 973.61,
+  "text": "to my execution list here"
+ },
+ {
+  "start": 973.62,
+  "end": 977.389,
+  "text": "and I go to my execution"
+ },
+ {
+  "start": 977.399,
+  "end": 980.93,
+  "text": "here the open URL is working fine right"
+ },
+ {
+  "start": 980.94,
+  "end": 983.629,
+  "text": "and if you go into the submit if you"
+ },
+ {
+  "start": 983.639,
+  "end": 986.509,
+  "text": "look carefully here the first step has"
+ },
+ {
+  "start": 986.519,
+  "end": 989.09,
+  "text": "failed right the submit enabled has"
+ },
+ {
+  "start": 989.1,
+  "end": 991.31,
+  "text": "failed because the submit button was not"
+ },
+ {
+  "start": 991.32,
+  "end": 993.889,
+  "text": "enabled and hence it failed and then"
+ },
+ {
+  "start": 993.899,
+  "end": 996.71,
+  "text": "what Tosca did is it kicked in this"
+ },
+ {
+  "start": 996.72,
+  "end": 999.949,
+  "text": "recovery scenario right so where it is"
+ },
+ {
+  "start": 999.959,
+  "end": 1002.17,
+  "text": "waiting for that button to be enabled"
+ },
+ {
+  "start": 1002.18,
+  "end": 1004.689,
+  "text": "right it is executing this particular"
+ },
+ {
+  "start": 1004.699,
+  "end": 1005.829,
+  "text": "step"
+ },
+ {
+  "start": 1005.839,
+  "end": 1009.249,
+  "text": "and after that again this step is"
+ },
+ {
+  "start": 1009.259,
+  "end": 1012.249,
+  "text": "getting executed here right"
+ },
+ {
+  "start": 1012.259,
+  "end": 1015.43,
+  "text": "and this is where it is coming and it is"
+ },
+ {
+  "start": 1015.44,
+  "end": 1017.23,
+  "text": "now enabled so it is clicking on the"
+ },
+ {
+  "start": 1017.24,
+  "end": 1020.41,
+  "text": "button and that's where this particular"
+ },
+ {
+  "start": 1020.42,
+  "end": 1023.05,
+  "text": "test case has passed right"
+ },
+ {
+  "start": 1023.06,
+  "end": 1026.35,
+  "text": "so it has attempted just once because I"
+ },
+ {
+  "start": 1026.36,
+  "end": 1029.049,
+  "text": "had put in one one attempt right"
+ },
+ {
+  "start": 1029.059,
+  "end": 1031.09,
+  "text": "if there are scenarios where you want"
+ },
+ {
+  "start": 1031.1,
+  "end": 1033.37,
+  "text": "Tosca to attempt more than once right"
+ },
+ {
+  "start": 1033.38,
+  "end": 1036.61,
+  "text": "you can increase the test case retries"
+ },
+ {
+  "start": 1036.62,
+  "end": 1040.39,
+  "text": "right or the retry levels so you can do"
+ },
+ {
+  "start": 1040.4,
+  "end": 1042.97,
+  "text": "it uh here"
+ },
+ {
+  "start": 1042.98,
+  "end": 1045.13,
+  "text": "on the test configuration parameters so"
+ },
+ {
+  "start": 1045.14,
+  "end": 1047.23,
+  "text": "test case three tries you can increase"
+ },
+ {
+  "start": 1047.24,
+  "end": 1050.59,
+  "text": "this to any value right but in my case"
+ },
+ {
+  "start": 1050.6,
+  "end": 1053.71,
+  "text": "it should be done at one retry but in"
+ },
+ {
+  "start": 1053.72,
+  "end": 1055.75,
+  "text": "some other scenarios it might take more"
+ },
+ {
+  "start": 1055.76,
+  "end": 1059.11,
+  "text": "retries right so you can set any values"
+ },
+ {
+  "start": 1059.12,
+  "end": 1064.21,
+  "text": "but if the test case passes it won't go"
+ },
+ {
+  "start": 1064.22,
+  "end": 1067.21,
+  "text": "into the other it tries okay if it fails"
+ },
+ {
+  "start": 1067.22,
+  "end": 1069.789,
+  "text": "then it will continue retrying until"
+ },
+ {
+  "start": 1069.799,
+  "end": 1072.13,
+  "text": "this value is reached"
+ },
+ {
+  "start": 1072.14,
+  "end": 1073.69,
+  "text": "okay"
+ },
+ {
+  "start": 1073.7,
+  "end": 1076.09,
+  "text": "so this is how you can use recovery"
+ },
+ {
+  "start": 1076.1,
+  "end": 1079.75,
+  "text": "scenario to recover your test cases from"
+ },
+ {
+  "start": 1079.76,
+  "end": 1082.45,
+  "text": "unexpected failures or unexpected"
+ },
+ {
+  "start": 1082.46,
+  "end": 1084.61,
+  "text": "exceptions"
+ },
+ {
+  "start": 1084.62,
+  "end": 1087.43,
+  "text": "now there is also another concept called"
+ },
+ {
+  "start": 1087.44,
+  "end": 1090.31,
+  "text": "cleanup scenarios okay and that I would"
+ },
+ {
+  "start": 1090.32,
+  "end": 1092.77,
+  "text": "be explaining in the next session so"
+ },
+ {
+  "start": 1092.78,
+  "end": 1094.93,
+  "text": "keep watching our channel for more Tosca"
+ },
+ {
+  "start": 1094.94,
+  "end": 1098.529,
+  "text": "lessons uh coming up every Friday so see"
+ },
+ {
+  "start": 1098.539,
+  "end": 1100.87,
+  "text": "you uh next Friday with another new"
+ },
+ {
+  "start": 1100.88,
+  "end": 1103.78,
+  "text": "Tosca lesson"
+ }
+]

@@ -1,0 +1,1936 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:08.639 --> 00:00:10.910 align:start position:0%
+ 
+in<00:00:09.240><c> this</c><00:00:09.420><c> Tasker</c><00:00:09.840><c> session</c><00:00:10.080><c> we</c><00:00:10.440><c> are</c><00:00:10.620><c> going</c><00:00:10.740><c> to</c>
+
+00:00:10.910 --> 00:00:10.920 align:start position:0%
+in this Tasker session we are going to
+ 
+
+00:00:10.920 --> 00:00:14.150 align:start position:0%
+in this Tasker session we are going to
+talk<00:00:11.160><c> about</c><00:00:11.519><c> the</c><00:00:12.179><c> action</c><00:00:12.360><c> mode</c><00:00:12.660><c> buffer</c><00:00:13.200><c> now</c><00:00:13.980><c> we</c>
+
+00:00:14.150 --> 00:00:14.160 align:start position:0%
+talk about the action mode buffer now we
+ 
+
+00:00:14.160 --> 00:00:16.730 align:start position:0%
+talk about the action mode buffer now we
+have<00:00:14.340><c> briefly</c><00:00:14.759><c> spoken</c><00:00:15.420><c> about</c><00:00:15.599><c> the</c><00:00:16.500><c> action</c>
+
+00:00:16.730 --> 00:00:16.740 align:start position:0%
+have briefly spoken about the action
+ 
+
+00:00:16.740 --> 00:00:19.310 align:start position:0%
+have briefly spoken about the action
+mode<00:00:16.980><c> buffer</c><00:00:17.520><c> in</c><00:00:17.820><c> our</c><00:00:18.000><c> previous</c><00:00:18.180><c> session</c><00:00:18.480><c> when</c>
+
+00:00:19.310 --> 00:00:19.320 align:start position:0%
+mode buffer in our previous session when
+ 
+
+00:00:19.320 --> 00:00:22.370 align:start position:0%
+mode buffer in our previous session when
+we<00:00:19.560><c> were</c><00:00:19.680><c> discussing</c><00:00:20.160><c> about</c><00:00:20.580><c> other</c><00:00:21.380><c> action</c>
+
+00:00:22.370 --> 00:00:22.380 align:start position:0%
+we were discussing about other action
+ 
+
+00:00:22.380 --> 00:00:24.529 align:start position:0%
+we were discussing about other action
+modes<00:00:22.800><c> like</c><00:00:23.039><c> verify</c>
+
+00:00:24.529 --> 00:00:24.539 align:start position:0%
+modes like verify
+ 
+
+00:00:24.539 --> 00:00:28.790 align:start position:0%
+modes like verify
+constraint<00:00:25.380><c> and</c><00:00:26.220><c> uh</c><00:00:26.580><c> also</c><00:00:26.939><c> select</c><00:00:27.300><c> right</c><00:00:27.800><c> so</c>
+
+00:00:28.790 --> 00:00:28.800 align:start position:0%
+constraint and uh also select right so
+ 
+
+00:00:28.800 --> 00:00:31.669 align:start position:0%
+constraint and uh also select right so
+what<00:00:29.099><c> exactly</c><00:00:29.640><c> is</c><00:00:30.359><c> a</c><00:00:30.660><c> buffer</c>
+
+00:00:31.669 --> 00:00:31.679 align:start position:0%
+what exactly is a buffer
+ 
+
+00:00:31.679 --> 00:00:35.330 align:start position:0%
+what exactly is a buffer
+in<00:00:32.340><c> Tosca</c><00:00:32.820><c> this</c><00:00:33.480><c> term</c><00:00:33.660><c> buffer</c><00:00:34.200><c> is</c><00:00:34.620><c> used</c><00:00:34.860><c> to</c>
+
+00:00:35.330 --> 00:00:35.340 align:start position:0%
+in Tosca this term buffer is used to
+ 
+
+00:00:35.340 --> 00:00:37.850 align:start position:0%
+in Tosca this term buffer is used to
+refer<00:00:36.120><c> to</c><00:00:36.239><c> values</c><00:00:36.719><c> which</c><00:00:37.020><c> can</c><00:00:37.200><c> be</c><00:00:37.380><c> stored</c>
+
+00:00:37.850 --> 00:00:37.860 align:start position:0%
+refer to values which can be stored
+ 
+
+00:00:37.860 --> 00:00:40.610 align:start position:0%
+refer to values which can be stored
+temporarily<00:00:38.579><c> in</c><00:00:38.940><c> Tosca</c><00:00:39.360><c> commander</c><00:00:39.899><c> and</c><00:00:40.440><c> then</c>
+
+00:00:40.610 --> 00:00:40.620 align:start position:0%
+temporarily in Tosca commander and then
+ 
+
+00:00:40.620 --> 00:00:42.830 align:start position:0%
+temporarily in Tosca commander and then
+they<00:00:40.980><c> can</c><00:00:41.100><c> be</c><00:00:41.280><c> used</c><00:00:41.520><c> again</c>
+
+00:00:42.830 --> 00:00:42.840 align:start position:0%
+they can be used again
+ 
+
+00:00:42.840 --> 00:00:46.430 align:start position:0%
+they can be used again
+so<00:00:43.379><c> this</c><00:00:43.620><c> helps</c><00:00:44.040><c> you</c><00:00:44.700><c> to</c><00:00:45.000><c> store</c><00:00:45.300><c> values</c><00:00:45.899><c> which</c>
+
+00:00:46.430 --> 00:00:46.440 align:start position:0%
+so this helps you to store values which
+ 
+
+00:00:46.440 --> 00:00:48.709 align:start position:0%
+so this helps you to store values which
+you<00:00:46.680><c> want</c><00:00:46.860><c> to</c><00:00:47.040><c> verify</c><00:00:47.460><c> later</c><00:00:47.879><c> in</c><00:00:48.420><c> a</c><00:00:48.539><c> different</c>
+
+00:00:48.709 --> 00:00:48.719 align:start position:0%
+you want to verify later in a different
+ 
+
+00:00:48.719 --> 00:00:51.470 align:start position:0%
+you want to verify later in a different
+test<00:00:49.020><c> case</c><00:00:49.320><c> or</c><00:00:49.860><c> in</c><00:00:50.460><c> later</c><00:00:50.640><c> part</c><00:00:50.940><c> of</c><00:00:51.180><c> your</c><00:00:51.300><c> test</c>
+
+00:00:51.470 --> 00:00:51.480 align:start position:0%
+test case or in later part of your test
+ 
+
+00:00:51.480 --> 00:00:55.189 align:start position:0%
+test case or in later part of your test
+cases<00:00:51.960><c> right</c><00:00:52.739><c> so</c><00:00:53.280><c> it's</c><00:00:53.520><c> like</c><00:00:53.879><c> a</c><00:00:54.539><c> global</c>
+
+00:00:55.189 --> 00:00:55.199 align:start position:0%
+cases right so it's like a global
+ 
+
+00:00:55.199 --> 00:00:58.670 align:start position:0%
+cases right so it's like a global
+variable<00:00:55.620><c> you</c><00:00:56.460><c> can</c><00:00:56.520><c> say</c><00:00:56.760><c> in</c><00:00:57.539><c> uh</c><00:00:57.960><c> in</c><00:00:58.260><c> terms</c><00:00:58.379><c> of</c>
+
+00:00:58.670 --> 00:00:58.680 align:start position:0%
+variable you can say in uh in terms of
+ 
+
+00:00:58.680 --> 00:01:01.250 align:start position:0%
+variable you can say in uh in terms of
+programming<00:00:59.280><c> languages</c><00:00:59.640><c> it</c><00:01:00.539><c> acts</c><00:01:00.960><c> as</c><00:01:01.079><c> a</c>
+
+00:01:01.250 --> 00:01:01.260 align:start position:0%
+programming languages it acts as a
+ 
+
+00:01:01.260 --> 00:01:02.990 align:start position:0%
+programming languages it acts as a
+global<00:01:01.559><c> variable</c><00:01:01.860><c> which</c><00:01:02.219><c> can</c><00:01:02.460><c> store</c><00:01:02.699><c> some</c>
+
+00:01:02.990 --> 00:01:03.000 align:start position:0%
+global variable which can store some
+ 
+
+00:01:03.000 --> 00:01:05.329 align:start position:0%
+global variable which can store some
+values<00:01:03.420><c> and</c><00:01:04.019><c> you</c><00:01:04.199><c> can</c><00:01:04.320><c> use</c><00:01:04.619><c> it</c><00:01:04.860><c> throughout</c>
+
+00:01:05.329 --> 00:01:05.339 align:start position:0%
+values and you can use it throughout
+ 
+
+00:01:05.339 --> 00:01:07.609 align:start position:0%
+values and you can use it throughout
+your<00:01:05.519><c> test</c><00:01:05.700><c> cases</c><00:01:06.180><c> okay</c>
+
+00:01:07.609 --> 00:01:07.619 align:start position:0%
+your test cases okay
+ 
+
+00:01:07.619 --> 00:01:10.550 align:start position:0%
+your test cases okay
+these<00:01:08.400><c> values</c><00:01:08.760><c> can</c><00:01:09.180><c> either</c><00:01:09.420><c> be</c><00:01:09.720><c> static</c><00:01:10.200><c> or</c>
+
+00:01:10.550 --> 00:01:10.560 align:start position:0%
+these values can either be static or
+ 
+
+00:01:10.560 --> 00:01:11.870 align:start position:0%
+these values can either be static or
+dynamic
+
+00:01:11.870 --> 00:01:11.880 align:start position:0%
+dynamic
+ 
+
+00:01:11.880 --> 00:01:14.090 align:start position:0%
+dynamic
+and<00:01:12.360><c> there</c><00:01:12.600><c> are</c><00:01:12.720><c> different</c><00:01:12.900><c> ways</c><00:01:13.380><c> to</c><00:01:13.680><c> buffer</c>
+
+00:01:14.090 --> 00:01:14.100 align:start position:0%
+and there are different ways to buffer
+ 
+
+00:01:14.100 --> 00:01:17.750 align:start position:0%
+and there are different ways to buffer
+values<00:01:14.520><c> in</c><00:01:14.880><c> Tosca</c><00:01:15.780><c> one</c><00:01:16.380><c> of</c><00:01:16.500><c> the</c><00:01:16.619><c> ways</c><00:01:16.979><c> is</c><00:01:17.400><c> the</c>
+
+00:01:17.750 --> 00:01:17.760 align:start position:0%
+values in Tosca one of the ways is the
+ 
+
+00:01:17.760 --> 00:01:20.690 align:start position:0%
+values in Tosca one of the ways is the
+action<00:01:18.000><c> mode</c><00:01:18.299><c> buffer</c><00:01:19.439><c> and</c><00:01:19.860><c> which</c><00:01:20.100><c> we</c><00:01:20.580><c> are</c>
+
+00:01:20.690 --> 00:01:20.700 align:start position:0%
+action mode buffer and which we are
+ 
+
+00:01:20.700 --> 00:01:22.190 align:start position:0%
+action mode buffer and which we are
+going<00:01:20.880><c> to</c><00:01:21.060><c> see</c><00:01:21.240><c> in</c><00:01:21.720><c> this</c><00:01:21.900><c> particular</c>
+
+00:01:22.190 --> 00:01:22.200 align:start position:0%
+going to see in this particular
+ 
+
+00:01:22.200 --> 00:01:24.469 align:start position:0%
+going to see in this particular
+demonstration
+
+00:01:24.469 --> 00:01:24.479 align:start position:0%
+demonstration
+ 
+
+00:01:24.479 --> 00:01:27.050 align:start position:0%
+demonstration
+also<00:01:25.140><c> once</c><00:01:25.560><c> you</c><00:01:25.799><c> create</c><00:01:25.979><c> this</c><00:01:26.280><c> buffer</c><00:01:26.700><c> values</c>
+
+00:01:27.050 --> 00:01:27.060 align:start position:0%
+also once you create this buffer values
+ 
+
+00:01:27.060 --> 00:01:30.649 align:start position:0%
+also once you create this buffer values
+they<00:01:27.840><c> are</c><00:01:28.080><c> available</c><00:01:28.380><c> or</c><00:01:29.100><c> stored</c><00:01:29.640><c> in</c><00:01:30.240><c> settings</c>
+
+00:01:30.649 --> 00:01:30.659 align:start position:0%
+they are available or stored in settings
+ 
+
+00:01:30.659 --> 00:01:34.550 align:start position:0%
+they are available or stored in settings
+under<00:01:31.619><c> the</c><00:01:32.100><c> Tosca</c><00:01:32.640><c> engine</c><00:01:32.939><c> right</c><00:01:33.720><c> so</c><00:01:34.200><c> if</c><00:01:34.439><c> you</c>
+
+00:01:34.550 --> 00:01:34.560 align:start position:0%
+under the Tosca engine right so if you
+ 
+
+00:01:34.560 --> 00:01:37.010 align:start position:0%
+under the Tosca engine right so if you
+go<00:01:34.799><c> to</c><00:01:34.920><c> settings</c><00:01:35.340><c> engine</c><00:01:35.939><c> you</c><00:01:36.479><c> will</c><00:01:36.600><c> see</c><00:01:36.780><c> there</c>
+
+00:01:37.010 --> 00:01:37.020 align:start position:0%
+go to settings engine you will see there
+ 
+
+00:01:37.020 --> 00:01:39.830 align:start position:0%
+go to settings engine you will see there
+is<00:01:37.200><c> a</c><00:01:37.380><c> folder</c><00:01:37.860><c> called</c><00:01:38.280><c> buffer</c><00:01:38.820><c> and</c><00:01:39.479><c> once</c><00:01:39.780><c> you</c>
+
+00:01:39.830 --> 00:01:39.840 align:start position:0%
+is a folder called buffer and once you
+ 
+
+00:01:39.840 --> 00:01:42.109 align:start position:0%
+is a folder called buffer and once you
+create<00:01:40.079><c> a</c><00:01:40.500><c> buffer</c>
+
+00:01:42.109 --> 00:01:42.119 align:start position:0%
+create a buffer
+ 
+
+00:01:42.119 --> 00:01:44.749 align:start position:0%
+create a buffer
+um or<00:01:42.960><c> once</c><00:01:43.380><c> you</c><00:01:43.500><c> buffer</c><00:01:44.159><c> any</c><00:01:44.400><c> particular</c>
+
+00:01:44.749 --> 00:01:44.759 align:start position:0%
+um or once you buffer any particular
+ 
+
+00:01:44.759 --> 00:01:47.330 align:start position:0%
+um or once you buffer any particular
+value<00:01:45.200><c> that</c><00:01:46.200><c> particular</c><00:01:46.560><c> value</c><00:01:46.799><c> will</c><00:01:47.159><c> be</c>
+
+00:01:47.330 --> 00:01:47.340 align:start position:0%
+value that particular value will be
+ 
+
+00:01:47.340 --> 00:01:50.690 align:start position:0%
+value that particular value will be
+stored<00:01:47.759><c> on</c><00:01:48.299><c> under</c><00:01:48.600><c> this</c><00:01:48.960><c> folder</c><00:01:49.380><c> okay</c><00:01:49.740><c> so</c><00:01:50.520><c> for</c>
+
+00:01:50.690 --> 00:01:50.700 align:start position:0%
+stored on under this folder okay so for
+ 
+
+00:01:50.700 --> 00:01:52.670 align:start position:0%
+stored on under this folder okay so for
+creating<00:01:50.939><c> a</c><00:01:51.180><c> buffer</c><00:01:51.479><c> you</c><00:01:51.720><c> need</c><00:01:51.899><c> a</c><00:01:52.140><c> buffer</c><00:01:52.500><c> name</c>
+
+00:01:52.670 --> 00:01:52.680 align:start position:0%
+creating a buffer you need a buffer name
+ 
+
+00:01:52.680 --> 00:01:54.710 align:start position:0%
+creating a buffer you need a buffer name
+and<00:01:53.280><c> then</c><00:01:53.460><c> a</c><00:01:53.700><c> particular</c><00:01:54.000><c> value</c><00:01:54.240><c> which</c><00:01:54.540><c> will</c>
+
+00:01:54.710 --> 00:01:54.720 align:start position:0%
+and then a particular value which will
+ 
+
+00:01:54.720 --> 00:01:56.929 align:start position:0%
+and then a particular value which will
+be<00:01:54.899><c> stored</c><00:01:55.200><c> in</c><00:01:55.500><c> that</c><00:01:55.680><c> particular</c><00:01:56.220><c> variable</c>
+
+00:01:56.929 --> 00:01:56.939 align:start position:0%
+be stored in that particular variable
+ 
+
+00:01:56.939 --> 00:01:59.630 align:start position:0%
+be stored in that particular variable
+which<00:01:57.299><c> is</c><00:01:57.420><c> the</c><00:01:57.540><c> buffer</c><00:01:57.899><c> name</c><00:01:58.140><c> okay</c><00:01:58.680><c> so</c><00:01:59.399><c> both</c>
+
+00:01:59.630 --> 00:01:59.640 align:start position:0%
+which is the buffer name okay so both
+ 
+
+00:01:59.640 --> 00:02:01.910 align:start position:0%
+which is the buffer name okay so both
+will<00:01:59.820><c> be</c><00:02:00.060><c> displayed</c><00:02:00.540><c> here</c><00:02:00.780><c> under</c><00:02:01.079><c> buffer</c><00:02:01.619><c> with</c>
+
+00:02:01.910 --> 00:02:01.920 align:start position:0%
+will be displayed here under buffer with
+ 
+
+00:02:01.920 --> 00:02:04.130 align:start position:0%
+will be displayed here under buffer with
+the<00:02:02.220><c> name</c><00:02:02.399><c> and</c><00:02:02.820><c> a</c><00:02:03.060><c> value</c>
+
+00:02:04.130 --> 00:02:04.140 align:start position:0%
+the name and a value
+ 
+
+00:02:04.140 --> 00:02:06.649 align:start position:0%
+the name and a value
+so<00:02:04.560><c> we'll</c><00:02:04.680><c> see</c><00:02:04.920><c> that</c><00:02:05.159><c> when</c><00:02:05.520><c> after</c><00:02:05.820><c> we</c><00:02:06.180><c> create</c><00:02:06.360><c> a</c>
+
+00:02:06.649 --> 00:02:06.659 align:start position:0%
+so we'll see that when after we create a
+ 
+
+00:02:06.659 --> 00:02:08.449 align:start position:0%
+so we'll see that when after we create a
+particular<00:02:06.899><c> buffer</c><00:02:07.380><c> value</c><00:02:07.560><c> and</c><00:02:08.099><c> then</c><00:02:08.280><c> we'll</c>
+
+00:02:08.449 --> 00:02:08.459 align:start position:0%
+particular buffer value and then we'll
+ 
+
+00:02:08.459 --> 00:02:10.070 align:start position:0%
+particular buffer value and then we'll
+come<00:02:08.640><c> back</c><00:02:08.819><c> to</c><00:02:09.000><c> the</c><00:02:09.179><c> screen</c><00:02:09.360><c> and</c><00:02:09.660><c> we'll</c><00:02:09.780><c> see</c>
+
+00:02:10.070 --> 00:02:10.080 align:start position:0%
+come back to the screen and we'll see
+ 
+
+00:02:10.080 --> 00:02:12.470 align:start position:0%
+come back to the screen and we'll see
+that<00:02:10.380><c> it</c><00:02:10.860><c> is</c><00:02:11.039><c> stored</c><00:02:11.400><c> uh</c><00:02:11.700><c> in</c><00:02:11.940><c> this</c><00:02:12.120><c> particular</c>
+
+00:02:12.470 --> 00:02:12.480 align:start position:0%
+that it is stored uh in this particular
+ 
+
+00:02:12.480 --> 00:02:15.229 align:start position:0%
+that it is stored uh in this particular
+folder<00:02:13.200><c> okay</c>
+
+00:02:15.229 --> 00:02:15.239 align:start position:0%
+folder okay
+ 
+
+00:02:15.239 --> 00:02:17.570 align:start position:0%
+folder okay
+so<00:02:15.780><c> to</c><00:02:15.959><c> understand</c><00:02:16.140><c> how</c><00:02:16.739><c> this</c><00:02:16.980><c> action</c><00:02:17.280><c> mode</c>
+
+00:02:17.570 --> 00:02:17.580 align:start position:0%
+so to understand how this action mode
+ 
+
+00:02:17.580 --> 00:02:20.210 align:start position:0%
+so to understand how this action mode
+buffer<00:02:18.060><c> Works</c><00:02:18.480><c> let's</c><00:02:18.900><c> pick</c><00:02:19.140><c> up</c><00:02:19.379><c> a</c><00:02:19.739><c> scenario</c>
+
+00:02:20.210 --> 00:02:20.220 align:start position:0%
+buffer Works let's pick up a scenario
+ 
+
+00:02:20.220 --> 00:02:23.750 align:start position:0%
+buffer Works let's pick up a scenario
+okay<00:02:20.700><c> so</c><00:02:21.480><c> I</c><00:02:21.599><c> am</c><00:02:21.720><c> on</c><00:02:21.900><c> this</c><00:02:22.080><c> demo</c><00:02:22.379><c> webshop</c><00:02:22.860><c> and</c><00:02:23.459><c> my</c>
+
+00:02:23.750 --> 00:02:23.760 align:start position:0%
+okay so I am on this demo webshop and my
+ 
+
+00:02:23.760 --> 00:02:27.710 align:start position:0%
+okay so I am on this demo webshop and my
+particular<00:02:24.060><c> scenario</c><00:02:24.599><c> is</c><00:02:25.580><c> once</c><00:02:26.580><c> I</c><00:02:27.120><c> go</c><00:02:27.599><c> into</c>
+
+00:02:27.710 --> 00:02:27.720 align:start position:0%
+particular scenario is once I go into
+ 
+
+00:02:27.720 --> 00:02:30.530 align:start position:0%
+particular scenario is once I go into
+this<00:02:28.080><c> login</c><00:02:28.260><c> and</c><00:02:29.220><c> I</c><00:02:29.459><c> log</c><00:02:29.580><c> in</c><00:02:29.819><c> with</c><00:02:30.000><c> my</c><00:02:30.300><c> email</c>
+
+00:02:30.530 --> 00:02:30.540 align:start position:0%
+this login and I log in with my email
+ 
+
+00:02:30.540 --> 00:02:34.670 align:start position:0%
+this login and I log in with my email
+and<00:02:31.020><c> password</c><00:02:31.400><c> okay</c><00:02:32.540><c> and</c><00:02:33.540><c> then</c><00:02:33.959><c> I</c><00:02:34.379><c> click</c><00:02:34.560><c> on</c>
+
+00:02:34.670 --> 00:02:34.680 align:start position:0%
+and password okay and then I click on
+ 
+
+00:02:34.680 --> 00:02:37.309 align:start position:0%
+and password okay and then I click on
+login<00:02:34.920><c> I</c><00:02:35.459><c> come</c><00:02:35.580><c> to</c><00:02:35.760><c> this</c><00:02:36.000><c> page</c><00:02:36.300><c> on</c><00:02:37.020><c> this</c><00:02:37.140><c> home</c>
+
+00:02:37.309 --> 00:02:37.319 align:start position:0%
+login I come to this page on this home
+ 
+
+00:02:37.319 --> 00:02:39.830 align:start position:0%
+login I come to this page on this home
+page<00:02:37.560><c> my</c><00:02:37.920><c> email</c><00:02:38.040><c> is</c><00:02:38.340><c> displayed</c><00:02:38.819><c> right</c><00:02:39.360><c> and</c>
+
+00:02:39.830 --> 00:02:39.840 align:start position:0%
+page my email is displayed right and
+ 
+
+00:02:39.840 --> 00:02:42.890 align:start position:0%
+page my email is displayed right and
+that<00:02:40.620><c> tells</c><00:02:41.099><c> me</c><00:02:41.220><c> that</c><00:02:41.519><c> or</c><00:02:41.940><c> that's</c><00:02:42.599><c> a</c>
+
+00:02:42.890 --> 00:02:42.900 align:start position:0%
+that tells me that or that's a
+ 
+
+00:02:42.900 --> 00:02:45.710 align:start position:0%
+that tells me that or that's a
+verification<00:02:43.319><c> step</c><00:02:43.800><c> telling</c><00:02:44.340><c> me</c><00:02:44.459><c> that</c><00:02:44.819><c> I</c><00:02:45.599><c> have</c>
+
+00:02:45.710 --> 00:02:45.720 align:start position:0%
+verification step telling me that I have
+ 
+
+00:02:45.720 --> 00:02:48.350 align:start position:0%
+verification step telling me that I have
+logged<00:02:46.140><c> in</c><00:02:46.200><c> successfully</c><00:02:46.860><c> okay</c><00:02:47.280><c> I</c><00:02:48.060><c> can</c><00:02:48.180><c> either</c>
+
+00:02:48.350 --> 00:02:48.360 align:start position:0%
+logged in successfully okay I can either
+ 
+
+00:02:48.360 --> 00:02:50.990 align:start position:0%
+logged in successfully okay I can either
+verify<00:02:48.900><c> this</c><00:02:49.140><c> or</c><00:02:49.319><c> I</c><00:02:49.500><c> can</c><00:02:49.620><c> also</c><00:02:49.920><c> verify</c><00:02:50.400><c> a</c><00:02:50.700><c> log</c>
+
+00:02:50.990 --> 00:02:51.000 align:start position:0%
+verify this or I can also verify a log
+ 
+
+00:02:51.000 --> 00:02:53.270 align:start position:0%
+verify this or I can also verify a log
+out<00:02:51.120><c> but</c><00:02:51.959><c> for</c><00:02:52.319><c> this</c><00:02:52.560><c> particular</c><00:02:52.860><c> scenario</c>
+
+00:02:53.270 --> 00:02:53.280 align:start position:0%
+out but for this particular scenario
+ 
+
+00:02:53.280 --> 00:02:55.910 align:start position:0%
+out but for this particular scenario
+let's<00:02:53.519><c> verify</c><00:02:54.060><c> that</c><00:02:54.360><c> this</c><00:02:54.780><c> particular</c><00:02:55.140><c> email</c>
+
+00:02:55.910 --> 00:02:55.920 align:start position:0%
+let's verify that this particular email
+ 
+
+00:02:55.920 --> 00:02:59.509 align:start position:0%
+let's verify that this particular email
+is<00:02:56.640><c> displayed</c><00:02:57.120><c> here</c><00:02:57.360><c> okay</c>
+
+00:02:59.509 --> 00:02:59.519 align:start position:0%
+is displayed here okay
+ 
+
+00:02:59.519 --> 00:03:02.570 align:start position:0%
+is displayed here okay
+now<00:03:00.180><c> it's</c><00:03:00.420><c> a</c><00:03:00.599><c> very</c><00:03:00.780><c> common</c><00:03:00.959><c> scenario</c><00:03:01.580><c> which</c>
+
+00:03:02.570 --> 00:03:02.580 align:start position:0%
+now it's a very common scenario which
+ 
+
+00:03:02.580 --> 00:03:04.850 align:start position:0%
+now it's a very common scenario which
+you<00:03:02.940><c> will</c><00:03:03.120><c> be</c><00:03:03.300><c> probably</c><00:03:03.480><c> automating</c><00:03:04.080><c> in</c>
+
+00:03:04.850 --> 00:03:04.860 align:start position:0%
+you will be probably automating in
+ 
+
+00:03:04.860 --> 00:03:06.890 align:start position:0%
+you will be probably automating in
+almost<00:03:05.280><c> every</c><00:03:05.760><c> application</c><00:03:06.239><c> where</c><00:03:06.660><c> you</c><00:03:06.780><c> are</c>
+
+00:03:06.890 --> 00:03:06.900 align:start position:0%
+almost every application where you are
+ 
+
+00:03:06.900 --> 00:03:09.290 align:start position:0%
+almost every application where you are
+logging<00:03:07.200><c> in</c><00:03:07.379><c> and</c><00:03:07.560><c> logging</c><00:03:07.860><c> out</c><00:03:08.040><c> so</c><00:03:08.700><c> to</c><00:03:08.879><c> verify</c>
+
+00:03:09.290 --> 00:03:09.300 align:start position:0%
+logging in and logging out so to verify
+ 
+
+00:03:09.300 --> 00:03:11.030 align:start position:0%
+logging in and logging out so to verify
+your<00:03:09.480><c> login</c><00:03:09.660><c> test</c><00:03:09.959><c> case</c><00:03:10.200><c> you</c><00:03:10.680><c> will</c><00:03:10.860><c> probably</c>
+
+00:03:11.030 --> 00:03:11.040 align:start position:0%
+your login test case you will probably
+ 
+
+00:03:11.040 --> 00:03:14.210 align:start position:0%
+your login test case you will probably
+need<00:03:11.580><c> this</c><00:03:11.940><c> verification</c><00:03:12.480><c> step</c><00:03:12.900><c> right</c><00:03:13.440><c> so</c>
+
+00:03:14.210 --> 00:03:14.220 align:start position:0%
+need this verification step right so
+ 
+
+00:03:14.220 --> 00:03:16.550 align:start position:0%
+need this verification step right so
+let's<00:03:14.400><c> see</c><00:03:14.700><c> how</c><00:03:15.000><c> we</c><00:03:15.180><c> can</c><00:03:15.360><c> use</c><00:03:15.720><c> the</c><00:03:16.019><c> action</c><00:03:16.200><c> mode</c>
+
+00:03:16.550 --> 00:03:16.560 align:start position:0%
+let's see how we can use the action mode
+ 
+
+00:03:16.560 --> 00:03:19.070 align:start position:0%
+let's see how we can use the action mode
+buffer<00:03:17.220><c> in</c><00:03:17.819><c> order</c><00:03:17.940><c> to</c><00:03:18.360><c> perform</c><00:03:18.599><c> this</c>
+
+00:03:19.070 --> 00:03:19.080 align:start position:0%
+buffer in order to perform this
+ 
+
+00:03:19.080 --> 00:03:22.490 align:start position:0%
+buffer in order to perform this
+particular<00:03:19.379><c> scenario</c><00:03:20.220><c> okay</c>
+
+00:03:22.490 --> 00:03:22.500 align:start position:0%
+particular scenario okay
+ 
+
+00:03:22.500 --> 00:03:27.050 align:start position:0%
+particular scenario okay
+so<00:03:22.920><c> what</c><00:03:23.099><c> I</c><00:03:23.280><c> have</c><00:03:23.400><c> done</c><00:03:23.580><c> already</c><00:03:24.500><c> in</c><00:03:25.500><c> my</c><00:03:26.220><c> Tosca</c>
+
+00:03:27.050 --> 00:03:27.060 align:start position:0%
+so what I have done already in my Tosca
+ 
+
+00:03:27.060 --> 00:03:29.630 align:start position:0%
+so what I have done already in my Tosca
+is<00:03:27.480><c> I've</c><00:03:28.140><c> already</c><00:03:28.379><c> created</c><00:03:28.920><c> a</c><00:03:29.400><c> particular</c>
+
+00:03:29.630 --> 00:03:29.640 align:start position:0%
+is I've already created a particular
+ 
+
+00:03:29.640 --> 00:03:32.809 align:start position:0%
+is I've already created a particular
+module<00:03:30.239><c> or</c><00:03:30.900><c> different</c><00:03:31.260><c> modules</c><00:03:31.920><c> for</c>
+
+00:03:32.809 --> 00:03:32.819 align:start position:0%
+module or different modules for
+ 
+
+00:03:32.819 --> 00:03:35.630 align:start position:0%
+module or different modules for
+performing<00:03:33.780><c> this</c><00:03:34.080><c> particular</c><00:03:34.379><c> scenario</c><00:03:34.980><c> okay</c>
+
+00:03:35.630 --> 00:03:35.640 align:start position:0%
+performing this particular scenario okay
+ 
+
+00:03:35.640 --> 00:03:37.729 align:start position:0%
+performing this particular scenario okay
+so<00:03:36.060><c> I</c><00:03:36.239><c> have</c><00:03:36.360><c> got</c><00:03:36.599><c> all</c><00:03:37.019><c> the</c><00:03:37.140><c> modules</c><00:03:37.500><c> like</c>
+
+00:03:37.729 --> 00:03:37.739 align:start position:0%
+so I have got all the modules like
+ 
+
+00:03:37.739 --> 00:03:41.930 align:start position:0%
+so I have got all the modules like
+logout<00:03:38.340><c> with</c><00:03:39.000><c> username</c><00:03:39.480><c> and</c><00:03:39.659><c> log</c><00:03:39.840><c> out</c><00:03:40.340><c> and</c><00:03:41.340><c> log</c>
+
+00:03:41.930 --> 00:03:41.940 align:start position:0%
+logout with username and log out and log
+ 
+
+00:03:41.940 --> 00:03:44.030 align:start position:0%
+logout with username and log out and log
+in<00:03:42.239><c> where</c><00:03:42.780><c> we'll</c><00:03:43.019><c> enter</c><00:03:43.379><c> all</c><00:03:43.739><c> the</c><00:03:43.920><c> information</c>
+
+00:03:44.030 --> 00:03:44.040 align:start position:0%
+in where we'll enter all the information
+ 
+
+00:03:44.040 --> 00:03:47.089 align:start position:0%
+in where we'll enter all the information
+for<00:03:44.760><c> that</c><00:03:45.299><c> particular</c><00:03:45.599><c> user</c><00:03:46.080><c> and</c><00:03:46.920><c> the</c>
+
+00:03:47.089 --> 00:03:47.099 align:start position:0%
+for that particular user and the
+ 
+
+00:03:47.099 --> 00:03:49.550 align:start position:0%
+for that particular user and the
+register<00:03:47.459><c> page</c><00:03:47.940><c> which</c><00:03:48.599><c> currently</c><00:03:49.140><c> we</c><00:03:49.319><c> are</c><00:03:49.440><c> not</c>
+
+00:03:49.550 --> 00:03:49.560 align:start position:0%
+register page which currently we are not
+ 
+
+00:03:49.560 --> 00:03:52.130 align:start position:0%
+register page which currently we are not
+using<00:03:49.860><c> and</c><00:03:50.280><c> the</c><00:03:50.459><c> headers</c><00:03:50.819><c> where</c><00:03:51.599><c> we</c><00:03:51.840><c> have</c><00:03:51.959><c> got</c>
+
+00:03:52.130 --> 00:03:52.140 align:start position:0%
+using and the headers where we have got
+ 
+
+00:03:52.140 --> 00:03:54.830 align:start position:0%
+using and the headers where we have got
+the<00:03:52.440><c> login</c><00:03:52.620><c> link</c><00:03:52.980><c> okay</c><00:03:53.459><c> so</c><00:03:53.879><c> we'll</c><00:03:54.060><c> be</c><00:03:54.480><c> using</c>
+
+00:03:54.830 --> 00:03:54.840 align:start position:0%
+the login link okay so we'll be using
+ 
+
+00:03:54.840 --> 00:03:58.009 align:start position:0%
+the login link okay so we'll be using
+all<00:03:55.080><c> these</c><00:03:55.260><c> modules</c><00:03:55.680><c> to</c><00:03:56.040><c> create</c><00:03:56.220><c> a</c><00:03:56.700><c> test</c><00:03:56.879><c> case</c>
+
+00:03:58.009 --> 00:03:58.019 align:start position:0%
+all these modules to create a test case
+ 
+
+00:03:58.019 --> 00:04:00.710 align:start position:0%
+all these modules to create a test case
+and<00:03:58.739><c> in</c><00:03:58.980><c> that</c><00:03:59.099><c> test</c><00:03:59.280><c> case</c><00:03:59.519><c> we'll</c><00:03:59.760><c> also</c><00:04:00.000><c> use</c><00:04:00.299><c> the</c>
+
+00:04:00.710 --> 00:04:00.720 align:start position:0%
+and in that test case we'll also use the
+ 
+
+00:04:00.720 --> 00:04:03.530 align:start position:0%
+and in that test case we'll also use the
+action<00:04:01.319><c> mode</c><00:04:01.620><c> buffer</c><00:04:02.340><c> okay</c>
+
+00:04:03.530 --> 00:04:03.540 align:start position:0%
+action mode buffer okay
+ 
+
+00:04:03.540 --> 00:04:06.770 align:start position:0%
+action mode buffer okay
+so<00:04:04.319><c> I</c><00:04:04.799><c> have</c><00:04:04.920><c> already</c><00:04:05.220><c> a</c><00:04:05.700><c> folder</c><00:04:06.060><c> called</c><00:04:06.360><c> actual</c>
+
+00:04:06.770 --> 00:04:06.780 align:start position:0%
+so I have already a folder called actual
+ 
+
+00:04:06.780 --> 00:04:08.809 align:start position:0%
+so I have already a folder called actual
+modes<00:04:07.140><c> inside</c><00:04:07.379><c> this</c><00:04:07.799><c> I'm</c><00:04:08.280><c> going</c><00:04:08.459><c> to</c><00:04:08.640><c> create</c>
+
+00:04:08.809 --> 00:04:08.819 align:start position:0%
+modes inside this I'm going to create
+ 
+
+00:04:08.819 --> 00:04:11.449 align:start position:0%
+modes inside this I'm going to create
+another<00:04:09.120><c> test</c><00:04:09.540><c> case</c><00:04:09.840><c> and</c><00:04:10.680><c> I'm</c><00:04:10.860><c> going</c><00:04:11.040><c> to</c><00:04:11.220><c> name</c>
+
+00:04:11.449 --> 00:04:11.459 align:start position:0%
+another test case and I'm going to name
+ 
+
+00:04:11.459 --> 00:04:14.990 align:start position:0%
+another test case and I'm going to name
+it<00:04:11.700><c> verify</c><00:04:12.480><c> buffer</c>
+
+00:04:14.990 --> 00:04:15.000 align:start position:0%
+it verify buffer
+ 
+
+00:04:15.000 --> 00:04:17.629 align:start position:0%
+it verify buffer
+okay
+
+00:04:17.629 --> 00:04:17.639 align:start position:0%
+ 
+ 
+
+00:04:17.639 --> 00:04:21.170 align:start position:0%
+ 
+so<00:04:18.260><c> this</c><00:04:19.260><c> is</c><00:04:19.440><c> my</c><00:04:20.100><c> test</c><00:04:20.220><c> case</c><00:04:20.459><c> name</c><00:04:20.760><c> you</c><00:04:21.060><c> can</c>
+
+00:04:21.170 --> 00:04:21.180 align:start position:0%
+so this is my test case name you can
+ 
+
+00:04:21.180 --> 00:04:24.830 align:start position:0%
+so this is my test case name you can
+name<00:04:21.299><c> it</c><00:04:21.479><c> anything</c><00:04:22.040><c> but</c><00:04:23.040><c> let's</c><00:04:23.699><c> go</c><00:04:24.240><c> ahead</c><00:04:24.600><c> with</c>
+
+00:04:24.830 --> 00:04:24.840 align:start position:0%
+name it anything but let's go ahead with
+ 
+
+00:04:24.840 --> 00:04:25.670 align:start position:0%
+name it anything but let's go ahead with
+this
+
+00:04:25.670 --> 00:04:25.680 align:start position:0%
+this
+ 
+
+00:04:25.680 --> 00:04:29.450 align:start position:0%
+this
+and<00:04:26.400><c> then</c><00:04:26.639><c> I'm</c><00:04:27.000><c> going</c><00:04:27.300><c> to</c><00:04:27.720><c> add</c><00:04:28.560><c> my</c><00:04:28.800><c> test</c><00:04:28.979><c> steps</c>
+
+00:04:29.450 --> 00:04:29.460 align:start position:0%
+and then I'm going to add my test steps
+ 
+
+00:04:29.460 --> 00:04:32.210 align:start position:0%
+and then I'm going to add my test steps
+so<00:04:29.880><c> the</c><00:04:30.180><c> first</c><00:04:30.300><c> step</c><00:04:30.600><c> is</c><00:04:31.320><c> to</c><00:04:31.500><c> click</c><00:04:31.800><c> on</c><00:04:32.040><c> the</c>
+
+00:04:32.210 --> 00:04:32.220 align:start position:0%
+so the first step is to click on the
+ 
+
+00:04:32.220 --> 00:04:36.170 align:start position:0%
+so the first step is to click on the
+login<00:04:32.340><c> link</c><00:04:32.940><c> okay</c><00:04:33.840><c> so</c><00:04:34.680><c> for</c><00:04:35.040><c> that</c><00:04:35.340><c> I</c><00:04:35.880><c> will</c><00:04:36.000><c> have</c>
+
+00:04:36.170 --> 00:04:36.180 align:start position:0%
+login link okay so for that I will have
+ 
+
+00:04:36.180 --> 00:04:39.530 align:start position:0%
+login link okay so for that I will have
+to<00:04:36.360><c> add</c><00:04:36.900><c> the</c><00:04:37.199><c> headers</c><00:04:37.560><c> module</c><00:04:37.979><c> okay</c><00:04:38.759><c> and</c><00:04:39.180><c> here</c>
+
+00:04:39.530 --> 00:04:39.540 align:start position:0%
+to add the headers module okay and here
+ 
+
+00:04:39.540 --> 00:04:42.409 align:start position:0%
+to add the headers module okay and here
+I<00:04:39.780><c> have</c><00:04:39.900><c> the</c><00:04:40.139><c> login</c><00:04:40.320><c> link</c><00:04:40.800><c> so</c><00:04:41.639><c> I'm</c><00:04:41.759><c> going</c><00:04:42.060><c> to</c>
+
+00:04:42.409 --> 00:04:42.419 align:start position:0%
+I have the login link so I'm going to
+ 
+
+00:04:42.419 --> 00:04:45.590 align:start position:0%
+I have the login link so I'm going to
+click<00:04:42.900><c> on</c><00:04:43.020><c> this</c><00:04:43.580><c> and</c><00:04:44.580><c> the</c><00:04:44.880><c> action</c><00:04:45.060><c> mode</c><00:04:45.360><c> will</c>
+
+00:04:45.590 --> 00:04:45.600 align:start position:0%
+click on this and the action mode will
+ 
+
+00:04:45.600 --> 00:04:49.730 align:start position:0%
+click on this and the action mode will
+be<00:04:45.780><c> input</c><00:04:46.139><c> okay</c><00:04:46.740><c> let's</c><00:04:47.580><c> rename</c><00:04:48.000><c> this</c><00:04:48.300><c> so</c><00:04:49.199><c> to</c>
+
+00:04:49.730 --> 00:04:49.740 align:start position:0%
+be input okay let's rename this so to
+ 
+
+00:04:49.740 --> 00:04:54.530 align:start position:0%
+be input okay let's rename this so to
+click<00:04:50.220><c> login</c>
+
+00:04:54.530 --> 00:04:54.540 align:start position:0%
+ 
+ 
+
+00:04:54.540 --> 00:04:58.550 align:start position:0%
+ 
+and<00:04:55.199><c> my</c><00:04:55.440><c> next</c><00:04:55.620><c> module</c><00:04:56.300><c> is</c><00:04:57.300><c> to</c>
+
+00:04:58.550 --> 00:04:58.560 align:start position:0%
+and my next module is to
+ 
+
+00:04:58.560 --> 00:05:01.730 align:start position:0%
+and my next module is to
+enter<00:04:59.160><c> all</c><00:04:59.580><c> the</c><00:04:59.759><c> user</c><00:05:00.180><c> information</c><00:05:00.720><c> like</c><00:05:01.500><c> the</c>
+
+00:05:01.730 --> 00:05:01.740 align:start position:0%
+enter all the user information like the
+ 
+
+00:05:01.740 --> 00:05:04.990 align:start position:0%
+enter all the user information like the
+email<00:05:01.979><c> password</c><00:05:02.540><c> right</c><00:05:03.540><c> in</c><00:05:04.139><c> the</c><00:05:04.259><c> login</c><00:05:04.440><c> page</c>
+
+00:05:04.990 --> 00:05:05.000 align:start position:0%
+email password right in the login page
+ 
+
+00:05:05.000 --> 00:05:09.590 align:start position:0%
+email password right in the login page
+so<00:05:06.000><c> let's</c><00:05:06.360><c> add</c><00:05:06.960><c> the</c><00:05:07.199><c> login</c><00:05:07.460><c> information</c><00:05:08.460><c> here</c>
+
+00:05:09.590 --> 00:05:09.600 align:start position:0%
+so let's add the login information here
+ 
+
+00:05:09.600 --> 00:05:12.350 align:start position:0%
+so let's add the login information here
+and<00:05:10.259><c> here</c><00:05:10.500><c> we'll</c><00:05:10.800><c> be</c><00:05:10.979><c> entering</c><00:05:11.460><c> the</c><00:05:11.880><c> username</c>
+
+00:05:12.350 --> 00:05:12.360 align:start position:0%
+and here we'll be entering the username
+ 
+
+00:05:12.360 --> 00:05:16.010 align:start position:0%
+and here we'll be entering the username
+and<00:05:12.660><c> password</c>
+
+00:05:16.010 --> 00:05:16.020 align:start position:0%
+ 
+ 
+
+00:05:16.020 --> 00:05:17.150 align:start position:0%
+ 
+okay
+
+00:05:17.150 --> 00:05:17.160 align:start position:0%
+okay
+ 
+
+00:05:17.160 --> 00:05:19.670 align:start position:0%
+okay
+and<00:05:17.699><c> here</c><00:05:17.880><c> we'll</c><00:05:18.060><c> enter</c><00:05:18.300><c> the</c><00:05:18.600><c> password</c><00:05:18.840><c> and</c>
+
+00:05:19.670 --> 00:05:19.680 align:start position:0%
+and here we'll enter the password and
+ 
+
+00:05:19.680 --> 00:05:23.529 align:start position:0%
+and here we'll enter the password and
+then<00:05:19.919><c> we'll</c><00:05:20.580><c> click</c><00:05:21.000><c> on</c><00:05:21.300><c> the</c><00:05:21.479><c> login</c><00:05:21.660><c> link</c>
+
+00:05:23.529 --> 00:05:23.539 align:start position:0%
+then we'll click on the login link
+ 
+
+00:05:23.539 --> 00:05:28.790 align:start position:0%
+then we'll click on the login link
+okay<00:05:24.539><c> so</c><00:05:25.380><c> that's</c><00:05:25.860><c> our</c><00:05:26.580><c> login</c>
+
+00:05:28.790 --> 00:05:28.800 align:start position:0%
+okay so that's our login
+ 
+
+00:05:28.800 --> 00:05:32.150 align:start position:0%
+okay so that's our login
+and<00:05:29.460><c> then</c><00:05:29.639><c> we</c><00:05:30.300><c> will</c><00:05:30.479><c> do</c>
+
+00:05:32.150 --> 00:05:32.160 align:start position:0%
+and then we will do
+ 
+
+00:05:32.160 --> 00:05:36.249 align:start position:0%
+and then we will do
+another<00:05:32.699><c> test</c><00:05:33.060><c> step</c><00:05:33.360><c> where</c><00:05:34.199><c> we</c><00:05:34.440><c> will</c><00:05:34.680><c> be</c>
+
+00:05:36.249 --> 00:05:36.259 align:start position:0%
+another test step where we will be
+ 
+
+00:05:36.259 --> 00:05:38.930 align:start position:0%
+another test step where we will be
+verifying<00:05:37.259><c> or</c><00:05:37.680><c> we'll</c><00:05:37.919><c> be</c><00:05:38.160><c> buffering</c><00:05:38.699><c> our</c>
+
+00:05:38.930 --> 00:05:38.940 align:start position:0%
+verifying or we'll be buffering our
+ 
+
+00:05:38.940 --> 00:05:41.330 align:start position:0%
+verifying or we'll be buffering our
+values<00:05:39.600><c> okay</c><00:05:39.900><c> so</c><00:05:40.259><c> for</c><00:05:40.560><c> this</c><00:05:40.680><c> we'll</c><00:05:40.860><c> be</c><00:05:41.039><c> using</c>
+
+00:05:41.330 --> 00:05:41.340 align:start position:0%
+values okay so for this we'll be using
+ 
+
+00:05:41.340 --> 00:05:43.490 align:start position:0%
+values okay so for this we'll be using
+the<00:05:41.460><c> logout</c><00:05:41.759><c> module</c>
+
+00:05:43.490 --> 00:05:43.500 align:start position:0%
+the logout module
+ 
+
+00:05:43.500 --> 00:05:45.710 align:start position:0%
+the logout module
+okay<00:05:44.100><c> so</c><00:05:44.460><c> we</c><00:05:44.820><c> have</c><00:05:44.880><c> got</c><00:05:45.060><c> two</c><00:05:45.300><c> controls</c>
+
+00:05:45.710 --> 00:05:45.720 align:start position:0%
+okay so we have got two controls
+ 
+
+00:05:45.720 --> 00:05:47.689 align:start position:0%
+okay so we have got two controls
+username<00:05:46.199><c> and</c><00:05:46.380><c> logout</c><00:05:46.680><c> we</c><00:05:46.919><c> can</c><00:05:47.039><c> verify</c><00:05:47.400><c> any</c><00:05:47.520><c> of</c>
+
+00:05:47.689 --> 00:05:47.699 align:start position:0%
+username and logout we can verify any of
+ 
+
+00:05:47.699 --> 00:05:49.430 align:start position:0%
+username and logout we can verify any of
+them<00:05:47.820><c> but</c><00:05:48.060><c> we'll</c><00:05:48.240><c> be</c><00:05:48.419><c> going</c><00:05:48.600><c> ahead</c><00:05:48.960><c> with</c><00:05:49.259><c> the</c>
+
+00:05:49.430 --> 00:05:49.440 align:start position:0%
+them but we'll be going ahead with the
+ 
+
+00:05:49.440 --> 00:05:51.710 align:start position:0%
+them but we'll be going ahead with the
+username<00:05:49.860><c> or</c><00:05:50.220><c> email</c><00:05:50.460><c> okay</c>
+
+00:05:51.710 --> 00:05:51.720 align:start position:0%
+username or email okay
+ 
+
+00:05:51.720 --> 00:05:54.469 align:start position:0%
+username or email okay
+so<00:05:52.139><c> first</c><00:05:52.380><c> what</c><00:05:52.800><c> we</c><00:05:52.919><c> are</c><00:05:53.100><c> going</c><00:05:53.220><c> to</c><00:05:53.340><c> do</c><00:05:53.520><c> is</c><00:05:54.120><c> to</c>
+
+00:05:54.469 --> 00:05:54.479 align:start position:0%
+so first what we are going to do is to
+ 
+
+00:05:54.479 --> 00:05:56.990 align:start position:0%
+so first what we are going to do is to
+buffer<00:05:54.960><c> this</c><00:05:55.440><c> particular</c><00:05:55.740><c> username</c><00:05:56.340><c> or</c><00:05:56.759><c> email</c>
+
+00:05:56.990 --> 00:05:57.000 align:start position:0%
+buffer this particular username or email
+ 
+
+00:05:57.000 --> 00:05:59.330 align:start position:0%
+buffer this particular username or email
+right<00:05:57.539><c> which</c><00:05:58.199><c> is</c><00:05:58.320><c> present</c><00:05:58.680><c> on</c><00:05:59.160><c> the</c>
+
+00:05:59.330 --> 00:05:59.340 align:start position:0%
+right which is present on the
+ 
+
+00:05:59.340 --> 00:06:00.590 align:start position:0%
+right which is present on the
+application
+
+00:06:00.590 --> 00:06:00.600 align:start position:0%
+application
+ 
+
+00:06:00.600 --> 00:06:02.810 align:start position:0%
+application
+so<00:06:01.020><c> for</c><00:06:01.199><c> this</c><00:06:01.440><c> we</c><00:06:01.860><c> are</c><00:06:01.979><c> going</c><00:06:02.100><c> to</c><00:06:02.280><c> use</c><00:06:02.520><c> the</c>
+
+00:06:02.810 --> 00:06:02.820 align:start position:0%
+so for this we are going to use the
+ 
+
+00:06:02.820 --> 00:06:05.210 align:start position:0%
+so for this we are going to use the
+action<00:06:03.060><c> mode</c><00:06:03.419><c> buffer</c>
+
+00:06:05.210 --> 00:06:05.220 align:start position:0%
+action mode buffer
+ 
+
+00:06:05.220 --> 00:06:06.290 align:start position:0%
+action mode buffer
+okay
+
+00:06:06.290 --> 00:06:06.300 align:start position:0%
+okay
+ 
+
+00:06:06.300 --> 00:06:08.270 align:start position:0%
+okay
+so<00:06:06.720><c> once</c><00:06:06.960><c> you</c><00:06:07.020><c> select</c><00:06:07.440><c> the</c><00:06:07.860><c> action</c><00:06:08.039><c> mode</c>
+
+00:06:08.270 --> 00:06:08.280 align:start position:0%
+so once you select the action mode
+ 
+
+00:06:08.280 --> 00:06:10.909 align:start position:0%
+so once you select the action mode
+buffer<00:06:08.880><c> uh</c><00:06:09.419><c> the</c><00:06:09.600><c> value</c><00:06:09.780><c> would</c><00:06:10.080><c> be</c><00:06:10.259><c> entered</c>
+
+00:06:10.909 --> 00:06:10.919 align:start position:0%
+buffer uh the value would be entered
+ 
+
+00:06:10.919 --> 00:06:13.430 align:start position:0%
+buffer uh the value would be entered
+automatically<00:06:11.880><c> it</c><00:06:12.419><c> will</c><00:06:12.600><c> just</c><00:06:12.780><c> copy</c><00:06:13.139><c> the</c>
+
+00:06:13.430 --> 00:06:13.440 align:start position:0%
+automatically it will just copy the
+ 
+
+00:06:13.440 --> 00:06:15.770 align:start position:0%
+automatically it will just copy the
+control<00:06:13.680><c> name</c><00:06:14.039><c> but</c><00:06:14.880><c> you</c><00:06:15.060><c> can</c><00:06:15.180><c> always</c><00:06:15.419><c> change</c>
+
+00:06:15.770 --> 00:06:15.780 align:start position:0%
+control name but you can always change
+ 
+
+00:06:15.780 --> 00:06:18.890 align:start position:0%
+control name but you can always change
+it<00:06:16.020><c> okay</c><00:06:16.380><c> so</c><00:06:17.160><c> I'm</c><00:06:17.639><c> going</c><00:06:17.880><c> to</c><00:06:18.000><c> use</c><00:06:18.300><c> the</c><00:06:18.539><c> buffer</c>
+
+00:06:18.890 --> 00:06:18.900 align:start position:0%
+it okay so I'm going to use the buffer
+ 
+
+00:06:18.900 --> 00:06:20.570 align:start position:0%
+it okay so I'm going to use the buffer
+name<00:06:19.080><c> as</c><00:06:19.620><c> email</c>
+
+00:06:20.570 --> 00:06:20.580 align:start position:0%
+name as email
+ 
+
+00:06:20.580 --> 00:06:23.749 align:start position:0%
+name as email
+okay<00:06:21.120><c> so</c><00:06:21.900><c> what's</c><00:06:22.020><c> going</c><00:06:22.319><c> to</c><00:06:22.440><c> happen</c><00:06:22.620><c> here</c><00:06:23.039><c> uh</c>
+
+00:06:23.749 --> 00:06:23.759 align:start position:0%
+okay so what's going to happen here uh
+ 
+
+00:06:23.759 --> 00:06:27.170 align:start position:0%
+okay so what's going to happen here uh
+once<00:06:24.120><c> we</c><00:06:24.240><c> select</c><00:06:24.479><c> action</c><00:06:24.720><c> one</c><00:06:24.960><c> buffer</c><00:06:25.440><c> it's</c>
+
+00:06:27.170 --> 00:06:27.180 align:start position:0%
+once we select action one buffer it's
+ 
+
+00:06:27.180 --> 00:06:29.629 align:start position:0%
+once we select action one buffer it's
+um we<00:06:27.780><c> have</c><00:06:27.900><c> to</c><00:06:28.080><c> enter</c><00:06:28.440><c> a</c><00:06:28.860><c> buffer</c><00:06:29.220><c> name</c><00:06:29.400><c> here</c>
+
+00:06:29.629 --> 00:06:29.639 align:start position:0%
+um we have to enter a buffer name here
+ 
+
+00:06:29.639 --> 00:06:32.570 align:start position:0%
+um we have to enter a buffer name here
+which<00:06:29.940><c> is</c><00:06:30.060><c> the</c><00:06:30.300><c> email</c><00:06:30.620><c> and</c><00:06:31.620><c> the</c><00:06:31.860><c> value</c><00:06:31.979><c> of</c><00:06:32.340><c> this</c>
+
+00:06:32.570 --> 00:06:32.580 align:start position:0%
+which is the email and the value of this
+ 
+
+00:06:32.580 --> 00:06:35.090 align:start position:0%
+which is the email and the value of this
+particular<00:06:32.819><c> control</c><00:06:33.240><c> okay</c><00:06:33.900><c> will</c><00:06:34.319><c> be</c><00:06:34.560><c> buffered</c>
+
+00:06:35.090 --> 00:06:35.100 align:start position:0%
+particular control okay will be buffered
+ 
+
+00:06:35.100 --> 00:06:38.510 align:start position:0%
+particular control okay will be buffered
+into<00:06:35.460><c> this</c><00:06:36.120><c> particular</c><00:06:36.419><c> email</c><00:06:36.900><c> buffer</c><00:06:37.620><c> name</c>
+
+00:06:38.510 --> 00:06:38.520 align:start position:0%
+into this particular email buffer name
+ 
+
+00:06:38.520 --> 00:06:41.749 align:start position:0%
+into this particular email buffer name
+okay<00:06:38.819><c> so</c><00:06:39.479><c> this</c><00:06:39.660><c> is</c><00:06:39.780><c> like</c><00:06:40.020><c> a</c><00:06:40.259><c> variable</c><00:06:40.560><c> and</c><00:06:41.400><c> the</c>
+
+00:06:41.749 --> 00:06:41.759 align:start position:0%
+okay so this is like a variable and the
+ 
+
+00:06:41.759 --> 00:06:44.029 align:start position:0%
+okay so this is like a variable and the
+value<00:06:41.880><c> of</c><00:06:42.180><c> this</c><00:06:42.360><c> control</c><00:06:42.660><c> would</c><00:06:43.440><c> be</c><00:06:43.620><c> stored</c>
+
+00:06:44.029 --> 00:06:44.039 align:start position:0%
+value of this control would be stored
+ 
+
+00:06:44.039 --> 00:06:45.830 align:start position:0%
+value of this control would be stored
+inside<00:06:44.340><c> this</c>
+
+00:06:45.830 --> 00:06:45.840 align:start position:0%
+inside this
+ 
+
+00:06:45.840 --> 00:06:49.790 align:start position:0%
+inside this
+and<00:06:46.620><c> let's</c><00:06:47.039><c> rename</c><00:06:47.580><c> our</c><00:06:47.940><c> test</c><00:06:48.539><c> steps</c><00:06:49.020><c> so</c><00:06:49.440><c> so</c>
+
+00:06:49.790 --> 00:06:49.800 align:start position:0%
+and let's rename our test steps so so
+ 
+
+00:06:49.800 --> 00:06:51.590 align:start position:0%
+and let's rename our test steps so so
+that<00:06:50.100><c> we</c><00:06:50.280><c> can</c><00:06:50.460><c> better</c><00:06:50.819><c> understand</c><00:06:51.120><c> what's</c>
+
+00:06:51.590 --> 00:06:51.600 align:start position:0%
+that we can better understand what's
+ 
+
+00:06:51.600 --> 00:06:55.430 align:start position:0%
+that we can better understand what's
+going<00:06:51.840><c> on</c><00:06:52.080><c> here</c><00:06:52.800><c> so</c><00:06:53.460><c> we'll</c><00:06:53.819><c> say</c><00:06:54.300><c> buffer</c>
+
+00:06:55.430 --> 00:06:55.440 align:start position:0%
+going on here so we'll say buffer
+ 
+
+00:06:55.440 --> 00:07:00.590 align:start position:0%
+going on here so we'll say buffer
+username
+
+00:07:00.590 --> 00:07:00.600 align:start position:0%
+ 
+ 
+
+00:07:00.600 --> 00:07:04.010 align:start position:0%
+ 
+okay<00:07:01.139><c> and</c><00:07:02.039><c> then</c><00:07:02.280><c> the</c><00:07:02.580><c> next</c><00:07:02.699><c> step</c><00:07:02.880><c> is</c><00:07:03.300><c> to</c><00:07:03.600><c> verify</c>
+
+00:07:04.010 --> 00:07:04.020 align:start position:0%
+okay and then the next step is to verify
+ 
+
+00:07:04.020 --> 00:07:06.710 align:start position:0%
+okay and then the next step is to verify
+the<00:07:04.259><c> username</c><00:07:04.680><c> so</c><00:07:05.280><c> again</c><00:07:05.639><c> we'll</c><00:07:06.060><c> add</c><00:07:06.539><c> the</c>
+
+00:07:06.710 --> 00:07:06.720 align:start position:0%
+the username so again we'll add the
+ 
+
+00:07:06.720 --> 00:07:09.230 align:start position:0%
+the username so again we'll add the
+logout<00:07:07.020><c> module</c><00:07:07.500><c> here</c>
+
+00:07:09.230 --> 00:07:09.240 align:start position:0%
+logout module here
+ 
+
+00:07:09.240 --> 00:07:16.070 align:start position:0%
+logout module here
+and<00:07:10.080><c> we'll</c><00:07:10.380><c> name</c><00:07:10.680><c> it</c><00:07:10.919><c> verify</c><00:07:11.759><c> username</c>
+
+00:07:16.070 --> 00:07:16.080 align:start position:0%
+ 
+ 
+
+00:07:16.080 --> 00:07:18.170 align:start position:0%
+ 
+and<00:07:16.560><c> this</c><00:07:16.740><c> time</c><00:07:16.860><c> around</c><00:07:17.160><c> we</c><00:07:17.639><c> are</c><00:07:17.819><c> going</c><00:07:17.940><c> to</c>
+
+00:07:18.170 --> 00:07:18.180 align:start position:0%
+and this time around we are going to
+ 
+
+00:07:18.180 --> 00:07:20.689 align:start position:0%
+and this time around we are going to
+verify<00:07:18.660><c> or</c><00:07:19.380><c> use</c><00:07:19.560><c> the</c><00:07:19.800><c> action</c><00:07:19.979><c> mode</c><00:07:20.160><c> verify</c>
+
+00:07:20.689 --> 00:07:20.699 align:start position:0%
+verify or use the action mode verify
+ 
+
+00:07:20.699 --> 00:07:24.890 align:start position:0%
+verify or use the action mode verify
+okay<00:07:21.180><c> and</c><00:07:22.080><c> here</c><00:07:22.380><c> we</c><00:07:22.740><c> are</c><00:07:22.919><c> going</c><00:07:23.160><c> to</c><00:07:23.639><c> now</c>
+
+00:07:24.890 --> 00:07:24.900 align:start position:0%
+okay and here we are going to now
+ 
+
+00:07:24.900 --> 00:07:27.290 align:start position:0%
+okay and here we are going to now
+call<00:07:25.560><c> that</c><00:07:25.860><c> buffer</c><00:07:26.280><c> which</c><00:07:26.639><c> we</c><00:07:26.819><c> have</c><00:07:26.940><c> stored</c>
+
+00:07:27.290 --> 00:07:27.300 align:start position:0%
+call that buffer which we have stored
+ 
+
+00:07:27.300 --> 00:07:29.270 align:start position:0%
+call that buffer which we have stored
+earlier<00:07:27.720><c> right</c><00:07:28.080><c> so</c><00:07:28.319><c> we</c><00:07:28.440><c> are</c><00:07:28.620><c> going</c><00:07:28.740><c> to</c><00:07:28.919><c> reuse</c>
+
+00:07:29.270 --> 00:07:29.280 align:start position:0%
+earlier right so we are going to reuse
+ 
+
+00:07:29.280 --> 00:07:31.670 align:start position:0%
+earlier right so we are going to reuse
+that<00:07:29.639><c> particular</c><00:07:30.539><c> value</c><00:07:30.840><c> in</c><00:07:31.259><c> this</c><00:07:31.440><c> particular</c>
+
+00:07:31.670 --> 00:07:31.680 align:start position:0%
+that particular value in this particular
+ 
+
+00:07:31.680 --> 00:07:36.050 align:start position:0%
+that particular value in this particular
+step<00:07:32.039><c> okay</c><00:07:33.180><c> so</c><00:07:33.780><c> for</c><00:07:34.259><c> that</c><00:07:34.440><c> again</c><00:07:35.099><c> curly</c><00:07:35.639><c> braces</c>
+
+00:07:36.050 --> 00:07:36.060 align:start position:0%
+step okay so for that again curly braces
+ 
+
+00:07:36.060 --> 00:07:39.230 align:start position:0%
+step okay so for that again curly braces
+okay<00:07:36.599><c> it's</c><00:07:37.080><c> a</c><00:07:37.259><c> dynamic</c><00:07:37.620><c> expression</c><00:07:38.099><c> and</c><00:07:39.060><c> then</c>
+
+00:07:39.230 --> 00:07:39.240 align:start position:0%
+okay it's a dynamic expression and then
+ 
+
+00:07:39.240 --> 00:07:43.490 align:start position:0%
+okay it's a dynamic expression and then
+you<00:07:39.660><c> need</c><00:07:39.840><c> to</c><00:07:40.259><c> type</c><00:07:40.919><c> B</c><00:07:41.400><c> B</c><00:07:41.940><c> means</c><00:07:42.419><c> buffer</c><00:07:43.020><c> all</c>
+
+00:07:43.490 --> 00:07:43.500 align:start position:0%
+you need to type B B means buffer all
+ 
+
+00:07:43.500 --> 00:07:46.370 align:start position:0%
+you need to type B B means buffer all
+right<00:07:43.620><c> it</c><00:07:44.099><c> shows</c><00:07:44.940><c> you</c><00:07:45.000><c> the</c><00:07:45.180><c> description</c><00:07:45.539><c> so</c>
+
+00:07:46.370 --> 00:07:46.380 align:start position:0%
+right it shows you the description so
+ 
+
+00:07:46.380 --> 00:07:47.870 align:start position:0%
+right it shows you the description so
+Returns<00:07:46.860><c> the</c><00:07:46.919><c> value</c><00:07:47.099><c> stored</c><00:07:47.520><c> in</c><00:07:47.759><c> the</c>
+
+00:07:47.870 --> 00:07:47.880 align:start position:0%
+Returns the value stored in the
+ 
+
+00:07:47.880 --> 00:07:49.790 align:start position:0%
+Returns the value stored in the
+specified<00:07:48.180><c> buffer</c><00:07:48.720><c> okay</c>
+
+00:07:49.790 --> 00:07:49.800 align:start position:0%
+specified buffer okay
+ 
+
+00:07:49.800 --> 00:07:52.909 align:start position:0%
+specified buffer okay
+and<00:07:50.400><c> then</c><00:07:50.580><c> you</c><00:07:50.819><c> have</c><00:07:50.880><c> to</c><00:07:51.120><c> say</c><00:07:51.300><c> bracket</c><00:07:51.919><c> and</c>
+
+00:07:52.909 --> 00:07:52.919 align:start position:0%
+and then you have to say bracket and
+ 
+
+00:07:52.919 --> 00:07:54.350 align:start position:0%
+and then you have to say bracket and
+then<00:07:53.039><c> you</c><00:07:53.220><c> have</c><00:07:53.340><c> to</c><00:07:53.460><c> type</c><00:07:53.639><c> the</c><00:07:53.880><c> buffer</c><00:07:54.180><c> name</c>
+
+00:07:54.350 --> 00:07:54.360 align:start position:0%
+then you have to type the buffer name
+ 
+
+00:07:54.360 --> 00:07:56.749 align:start position:0%
+then you have to type the buffer name
+which<00:07:54.539><c> you</c><00:07:54.660><c> have</c><00:07:54.780><c> used</c><00:07:54.960><c> earlier</c><00:07:55.500><c> right</c><00:07:55.860><c> so</c><00:07:56.340><c> it</c>
+
+00:07:56.749 --> 00:07:56.759 align:start position:0%
+which you have used earlier right so it
+ 
+
+00:07:56.759 --> 00:08:00.409 align:start position:0%
+which you have used earlier right so it
+is<00:07:57.060><c> email</c><00:07:57.300><c> we</c><00:07:58.259><c> already</c><00:07:58.500><c> know</c><00:07:58.800><c> that</c>
+
+00:08:00.409 --> 00:08:00.419 align:start position:0%
+is email we already know that
+ 
+
+00:08:00.419 --> 00:08:03.710 align:start position:0%
+is email we already know that
+so<00:08:01.139><c> this</c><00:08:01.380><c> is</c><00:08:01.560><c> our</c><00:08:01.919><c> value</c><00:08:02.400><c> which</c><00:08:03.000><c> it</c><00:08:03.300><c> should</c><00:08:03.479><c> be</c>
+
+00:08:03.710 --> 00:08:03.720 align:start position:0%
+so this is our value which it should be
+ 
+
+00:08:03.720 --> 00:08:06.170 align:start position:0%
+so this is our value which it should be
+verified<00:08:04.259><c> against</c><00:08:04.680><c> okay</c>
+
+00:08:06.170 --> 00:08:06.180 align:start position:0%
+verified against okay
+ 
+
+00:08:06.180 --> 00:08:08.210 align:start position:0%
+verified against okay
+and<00:08:06.660><c> then</c><00:08:06.840><c> finally</c><00:08:07.199><c> what</c><00:08:07.680><c> we</c><00:08:07.800><c> are</c><00:08:07.919><c> going</c><00:08:08.039><c> to</c><00:08:08.099><c> do</c>
+
+00:08:08.210 --> 00:08:08.220 align:start position:0%
+and then finally what we are going to do
+ 
+
+00:08:08.220 --> 00:08:10.129 align:start position:0%
+and then finally what we are going to do
+is<00:08:08.460><c> we</c><00:08:08.639><c> are</c><00:08:08.759><c> going</c><00:08:08.880><c> to</c><00:08:09.060><c> click</c><00:08:09.419><c> on</c><00:08:09.720><c> the</c><00:08:09.840><c> logout</c>
+
+00:08:10.129 --> 00:08:10.139 align:start position:0%
+is we are going to click on the logout
+ 
+
+00:08:10.139 --> 00:08:13.430 align:start position:0%
+is we are going to click on the logout
+link<00:08:10.380><c> so</c><00:08:10.740><c> again</c><00:08:10.979><c> the</c><00:08:11.340><c> logout</c><00:08:11.699><c> modules</c>
+
+00:08:13.430 --> 00:08:13.440 align:start position:0%
+link so again the logout modules
+ 
+
+00:08:13.440 --> 00:08:15.350 align:start position:0%
+link so again the logout modules
+and<00:08:14.039><c> this</c><00:08:14.220><c> time</c><00:08:14.400><c> around</c><00:08:14.580><c> we</c><00:08:14.880><c> are</c><00:08:15.060><c> going</c><00:08:15.180><c> to</c>
+
+00:08:15.350 --> 00:08:15.360 align:start position:0%
+and this time around we are going to
+ 
+
+00:08:15.360 --> 00:08:18.230 align:start position:0%
+and this time around we are going to
+click<00:08:15.720><c> on</c><00:08:15.960><c> the</c><00:08:16.080><c> logout</c><00:08:16.440><c> link</c><00:08:16.740><c> right</c><00:08:17.280><c> so</c><00:08:18.060><c> that's</c>
+
+00:08:18.230 --> 00:08:18.240 align:start position:0%
+click on the logout link right so that's
+ 
+
+00:08:18.240 --> 00:08:20.330 align:start position:0%
+click on the logout link right so that's
+my<00:08:18.539><c> whole</c><00:08:18.720><c> scenario</c><00:08:19.199><c> you</c><00:08:19.379><c> can</c><00:08:19.560><c> see</c><00:08:19.680><c> first</c><00:08:20.099><c> I'll</c>
+
+00:08:20.330 --> 00:08:20.340 align:start position:0%
+my whole scenario you can see first I'll
+ 
+
+00:08:20.340 --> 00:08:22.610 align:start position:0%
+my whole scenario you can see first I'll
+click<00:08:20.639><c> on</c><00:08:20.759><c> login</c><00:08:20.940><c> I</c><00:08:21.720><c> will</c><00:08:21.900><c> enter</c><00:08:22.319><c> the</c>
+
+00:08:22.610 --> 00:08:22.620 align:start position:0%
+click on login I will enter the
+ 
+
+00:08:22.620 --> 00:08:25.070 align:start position:0%
+click on login I will enter the
+information<00:08:23.039><c> required</c><00:08:23.879><c> and</c><00:08:24.120><c> then</c><00:08:24.360><c> login</c><00:08:24.720><c> the</c>
+
+00:08:25.070 --> 00:08:25.080 align:start position:0%
+information required and then login the
+ 
+
+00:08:25.080 --> 00:08:27.830 align:start position:0%
+information required and then login the
+user<00:08:25.440><c> and</c><00:08:26.220><c> then</c><00:08:26.340><c> I</c><00:08:26.460><c> am</c><00:08:26.639><c> going</c><00:08:26.759><c> to</c><00:08:26.940><c> buffer</c><00:08:27.479><c> the</c>
+
+00:08:27.830 --> 00:08:27.840 align:start position:0%
+user and then I am going to buffer the
+ 
+
+00:08:27.840 --> 00:08:29.390 align:start position:0%
+user and then I am going to buffer the
+username<00:08:28.259><c> which</c><00:08:28.440><c> is</c><00:08:28.560><c> present</c><00:08:28.860><c> on</c><00:08:29.220><c> the</c>
+
+00:08:29.390 --> 00:08:29.400 align:start position:0%
+username which is present on the
+ 
+
+00:08:29.400 --> 00:08:30.529 align:start position:0%
+username which is present on the
+application
+
+00:08:30.529 --> 00:08:30.539 align:start position:0%
+application
+ 
+
+00:08:30.539 --> 00:08:32.690 align:start position:0%
+application
+and<00:08:31.139><c> then</c><00:08:31.319><c> I'm</c><00:08:31.500><c> going</c><00:08:31.740><c> to</c><00:08:31.860><c> verify</c><00:08:32.339><c> that</c>
+
+00:08:32.690 --> 00:08:32.700 align:start position:0%
+and then I'm going to verify that
+ 
+
+00:08:32.700 --> 00:08:34.310 align:start position:0%
+and then I'm going to verify that
+against
+
+00:08:34.310 --> 00:08:34.320 align:start position:0%
+against
+ 
+
+00:08:34.320 --> 00:08:39.649 align:start position:0%
+against
+uh<00:08:35.219><c> my</c><00:08:35.580><c> actual</c><00:08:35.880><c> username</c><00:08:36.360><c> okay</c>
+
+00:08:39.649 --> 00:08:39.659 align:start position:0%
+ 
+ 
+
+00:08:39.659 --> 00:08:43.490 align:start position:0%
+ 
+uh<00:08:40.500><c> okay</c><00:08:40.800><c> and</c><00:08:41.640><c> then</c><00:08:41.760><c> I'm</c><00:08:41.940><c> going</c><00:08:42.240><c> to</c><00:08:42.539><c> click</c><00:08:43.200><c> on</c>
+
+00:08:43.490 --> 00:08:43.500 align:start position:0%
+uh okay and then I'm going to click on
+ 
+
+00:08:43.500 --> 00:08:45.710 align:start position:0%
+uh okay and then I'm going to click on
+the<00:08:43.680><c> logout</c><00:08:43.979><c> link</c>
+
+00:08:45.710 --> 00:08:45.720 align:start position:0%
+the logout link
+ 
+
+00:08:45.720 --> 00:08:48.050 align:start position:0%
+the logout link
+so<00:08:46.200><c> this</c><00:08:46.380><c> is</c><00:08:46.500><c> our</c><00:08:46.680><c> whole</c><00:08:46.980><c> scenario</c><00:08:47.459><c> you</c><00:08:47.940><c> can</c>
+
+00:08:48.050 --> 00:08:48.060 align:start position:0%
+so this is our whole scenario you can
+ 
+
+00:08:48.060 --> 00:08:51.170 align:start position:0%
+so this is our whole scenario you can
+see<00:08:48.360><c> we</c><00:08:48.720><c> are</c><00:08:48.899><c> using</c><00:08:49.320><c> the</c><00:08:49.860><c> action</c><00:08:50.220><c> mode</c><00:08:50.519><c> buffer</c>
+
+00:08:51.170 --> 00:08:51.180 align:start position:0%
+see we are using the action mode buffer
+ 
+
+00:08:51.180 --> 00:08:53.630 align:start position:0%
+see we are using the action mode buffer
+and<00:08:51.720><c> the</c><00:08:52.019><c> action</c><00:08:52.200><c> mode</c><00:08:52.440><c> verify</c>
+
+00:08:53.630 --> 00:08:53.640 align:start position:0%
+and the action mode verify
+ 
+
+00:08:53.640 --> 00:08:55.850 align:start position:0%
+and the action mode verify
+in<00:08:54.180><c> order</c><00:08:54.300><c> to</c><00:08:54.660><c> buffer</c><00:08:55.140><c> a</c><00:08:55.320><c> particular</c><00:08:55.620><c> value</c>
+
+00:08:55.850 --> 00:08:55.860 align:start position:0%
+in order to buffer a particular value
+ 
+
+00:08:55.860 --> 00:09:00.050 align:start position:0%
+in order to buffer a particular value
+and<00:08:56.220><c> then</c><00:08:56.459><c> use</c><00:08:57.000><c> it</c><00:08:57.300><c> uh</c><00:08:57.959><c> later</c><00:08:58.200><c> to</c><00:08:58.800><c> verify</c><00:08:59.279><c> uh</c>
+
+00:09:00.050 --> 00:09:00.060 align:start position:0%
+and then use it uh later to verify uh
+ 
+
+00:09:00.060 --> 00:09:02.449 align:start position:0%
+and then use it uh later to verify uh
+that<00:09:00.360><c> particular</c><00:09:00.600><c> value</c><00:09:00.899><c> okay</c>
+
+00:09:02.449 --> 00:09:02.459 align:start position:0%
+that particular value okay
+ 
+
+00:09:02.459 --> 00:09:05.810 align:start position:0%
+that particular value okay
+foreign<00:09:03.300><c> so</c><00:09:04.080><c> let's</c><00:09:04.380><c> go</c><00:09:04.620><c> ahead</c><00:09:04.920><c> and</c><00:09:05.339><c> run</c><00:09:05.580><c> this</c>
+
+00:09:05.810 --> 00:09:05.820 align:start position:0%
+foreign so let's go ahead and run this
+ 
+
+00:09:05.820 --> 00:09:09.829 align:start position:0%
+foreign so let's go ahead and run this
+now<00:09:06.180><c> Okay</c><00:09:07.019><c> so</c><00:09:08.040><c> let</c><00:09:08.640><c> me</c><00:09:08.760><c> click</c><00:09:09.060><c> on</c><00:09:09.180><c> logout</c><00:09:09.600><c> so</c>
+
+00:09:09.829 --> 00:09:09.839 align:start position:0%
+now Okay so let me click on logout so
+ 
+
+00:09:09.839 --> 00:09:13.910 align:start position:0%
+now Okay so let me click on logout so
+that<00:09:10.080><c> we</c><00:09:10.560><c> are</c><00:09:10.800><c> on</c><00:09:11.040><c> the</c><00:09:11.279><c> uh</c><00:09:11.940><c> home</c><00:09:12.480><c> page</c>
+
+00:09:13.910 --> 00:09:13.920 align:start position:0%
+that we are on the uh home page
+ 
+
+00:09:13.920 --> 00:09:16.730 align:start position:0%
+that we are on the uh home page
+and<00:09:14.640><c> let's</c><00:09:15.060><c> go</c><00:09:15.360><c> ahead</c><00:09:15.600><c> and</c><00:09:15.959><c> run</c><00:09:16.140><c> this</c><00:09:16.380><c> in</c>
+
+00:09:16.730 --> 00:09:16.740 align:start position:0%
+and let's go ahead and run this in
+ 
+
+00:09:16.740 --> 00:09:30.829 align:start position:0%
+and let's go ahead and run this in
+scratchbook
+
+00:09:30.829 --> 00:09:30.839 align:start position:0%
+ 
+ 
+
+00:09:30.839 --> 00:09:33.590 align:start position:0%
+ 
+so<00:09:31.260><c> as</c><00:09:31.380><c> you</c><00:09:31.560><c> can</c><00:09:31.680><c> see</c><00:09:31.920><c> uh</c><00:09:32.339><c> it</c><00:09:32.580><c> executed</c><00:09:33.120><c> all</c><00:09:33.480><c> the</c>
+
+00:09:33.590 --> 00:09:33.600 align:start position:0%
+so as you can see uh it executed all the
+ 
+
+00:09:33.600 --> 00:09:34.730 align:start position:0%
+so as you can see uh it executed all the
+steps
+
+00:09:34.730 --> 00:09:34.740 align:start position:0%
+steps
+ 
+
+00:09:34.740 --> 00:09:36.829 align:start position:0%
+steps
+um<00:09:34.860><c> it's</c><00:09:35.339><c> also</c><00:09:35.760><c> present</c><00:09:36.120><c> in</c><00:09:36.360><c> your</c><00:09:36.540><c> results</c>
+
+00:09:36.829 --> 00:09:36.839 align:start position:0%
+um it's also present in your results
+ 
+
+00:09:36.839 --> 00:09:38.030 align:start position:0%
+um it's also present in your results
+okay
+
+00:09:38.030 --> 00:09:38.040 align:start position:0%
+okay
+ 
+
+00:09:38.040 --> 00:09:40.370 align:start position:0%
+okay
+the<00:09:38.640><c> two</c><00:09:38.760><c> steps</c><00:09:39.120><c> which</c><00:09:39.240><c> we</c><00:09:39.420><c> are</c><00:09:39.540><c> interested</c><00:09:39.899><c> is</c>
+
+00:09:40.370 --> 00:09:40.380 align:start position:0%
+the two steps which we are interested is
+ 
+
+00:09:40.380 --> 00:09:43.790 align:start position:0%
+the two steps which we are interested is
+in<00:09:40.680><c> buffer</c><00:09:41.100><c> username</c><00:09:41.580><c> and</c><00:09:41.820><c> verify</c><00:09:42.300><c> username</c>
+
+00:09:43.790 --> 00:09:43.800 align:start position:0%
+in buffer username and verify username
+ 
+
+00:09:43.800 --> 00:09:47.750 align:start position:0%
+in buffer username and verify username
+so<00:09:44.459><c> the</c><00:09:45.060><c> buffer</c><00:09:45.480><c> username</c><00:09:46.680><c> you</c><00:09:47.160><c> can</c><00:09:47.279><c> see</c><00:09:47.519><c> here</c>
+
+00:09:47.750 --> 00:09:47.760 align:start position:0%
+so the buffer username you can see here
+ 
+
+00:09:47.760 --> 00:09:50.449 align:start position:0%
+so the buffer username you can see here
+it<00:09:48.060><c> is</c><00:09:48.240><c> saying</c><00:09:48.660><c> a</c><00:09:49.140><c> buffer</c><00:09:49.620><c> with</c><00:09:49.800><c> name</c><00:09:50.040><c> email</c>
+
+00:09:50.449 --> 00:09:50.459 align:start position:0%
+it is saying a buffer with name email
+ 
+
+00:09:50.459 --> 00:09:52.910 align:start position:0%
+it is saying a buffer with name email
+has<00:09:50.940><c> been</c><00:09:51.120><c> set</c><00:09:51.360><c> to</c><00:09:51.839><c> this</c><00:09:52.260><c> particular</c><00:09:52.620><c> value</c>
+
+00:09:52.910 --> 00:09:52.920 align:start position:0%
+has been set to this particular value
+ 
+
+00:09:52.920 --> 00:09:56.449 align:start position:0%
+has been set to this particular value
+okay<00:09:53.459><c> so</c><00:09:54.300><c> this</c><00:09:54.540><c> was</c><00:09:54.779><c> the</c><00:09:55.260><c> value</c><00:09:55.440><c> or</c><00:09:55.920><c> the</c><00:09:56.100><c> inner</c>
+
+00:09:56.449 --> 00:09:56.459 align:start position:0%
+okay so this was the value or the inner
+ 
+
+00:09:56.459 --> 00:09:58.610 align:start position:0%
+okay so this was the value or the inner
+text<00:09:56.640><c> right</c><00:09:57.300><c> for</c><00:09:57.660><c> this</c><00:09:57.959><c> particular</c><00:09:58.260><c> control</c>
+
+00:09:58.610 --> 00:09:58.620 align:start position:0%
+text right for this particular control
+ 
+
+00:09:58.620 --> 00:10:01.009 align:start position:0%
+text right for this particular control
+which<00:09:59.459><c> was</c><00:09:59.700><c> stored</c><00:10:00.180><c> in</c><00:10:00.480><c> this</c><00:10:00.720><c> particular</c>
+
+00:10:01.009 --> 00:10:01.019 align:start position:0%
+which was stored in this particular
+ 
+
+00:10:01.019 --> 00:10:01.970 align:start position:0%
+which was stored in this particular
+email
+
+00:10:01.970 --> 00:10:01.980 align:start position:0%
+email
+ 
+
+00:10:01.980 --> 00:10:03.110 align:start position:0%
+email
+okay
+
+00:10:03.110 --> 00:10:03.120 align:start position:0%
+okay
+ 
+
+00:10:03.120 --> 00:10:07.790 align:start position:0%
+okay
+and<00:10:03.899><c> then</c><00:10:04.140><c> uh</c><00:10:04.920><c> what</c><00:10:05.580><c> we</c><00:10:05.760><c> did</c><00:10:06.000><c> we</c><00:10:06.839><c> that</c><00:10:07.260><c> was</c><00:10:07.440><c> our</c>
+
+00:10:07.790 --> 00:10:07.800 align:start position:0%
+and then uh what we did we that was our
+ 
+
+00:10:07.800 --> 00:10:10.610 align:start position:0%
+and then uh what we did we that was our
+expected<00:10:08.399><c> value</c><00:10:08.640><c> right</c><00:10:09.120><c> which</c><00:10:09.899><c> we</c><00:10:10.080><c> stored</c><00:10:10.440><c> in</c>
+
+00:10:10.610 --> 00:10:10.620 align:start position:0%
+expected value right which we stored in
+ 
+
+00:10:10.620 --> 00:10:13.449 align:start position:0%
+expected value right which we stored in
+the<00:10:10.740><c> buffer</c><00:10:11.100><c> and</c><00:10:11.880><c> then</c><00:10:12.060><c> we</c><00:10:12.660><c> are</c><00:10:12.839><c> actually</c>
+
+00:10:13.449 --> 00:10:13.459 align:start position:0%
+the buffer and then we are actually
+ 
+
+00:10:13.459 --> 00:10:17.509 align:start position:0%
+the buffer and then we are actually
+verifying<00:10:14.459><c> it</c><00:10:14.760><c> with</c><00:10:15.000><c> our</c><00:10:15.240><c> actual</c><00:10:15.600><c> value</c><00:10:15.839><c> okay</c>
+
+00:10:17.509 --> 00:10:17.519 align:start position:0%
+verifying it with our actual value okay
+ 
+
+00:10:17.519 --> 00:10:21.470 align:start position:0%
+verifying it with our actual value okay
+so<00:10:18.480><c> this</c><00:10:18.959><c> is</c><00:10:19.140><c> one</c><00:10:19.740><c> small</c><00:10:20.040><c> example</c><00:10:20.640><c> how</c><00:10:21.120><c> you</c><00:10:21.300><c> can</c>
+
+00:10:21.470 --> 00:10:21.480 align:start position:0%
+so this is one small example how you can
+ 
+
+00:10:21.480 --> 00:10:24.290 align:start position:0%
+so this is one small example how you can
+use<00:10:21.779><c> the</c><00:10:22.019><c> action</c><00:10:22.200><c> mode</c><00:10:22.500><c> buffer</c><00:10:23.279><c> it</c><00:10:23.940><c> can</c><00:10:24.120><c> be</c>
+
+00:10:24.290 --> 00:10:24.300 align:start position:0%
+use the action mode buffer it can be
+ 
+
+00:10:24.300 --> 00:10:27.650 align:start position:0%
+use the action mode buffer it can be
+used<00:10:24.600><c> in</c><00:10:25.320><c> different</c><00:10:25.560><c> scenarios</c><00:10:26.279><c> like</c><00:10:26.940><c> if</c><00:10:27.480><c> you</c>
+
+00:10:27.650 --> 00:10:27.660 align:start position:0%
+used in different scenarios like if you
+ 
+
+00:10:27.660 --> 00:10:30.470 align:start position:0%
+used in different scenarios like if you
+want<00:10:27.839><c> to</c><00:10:27.959><c> verify</c><00:10:28.500><c> some</c><00:10:29.040><c> table</c><00:10:29.279><c> values</c><00:10:29.940><c> you</c>
+
+00:10:30.470 --> 00:10:30.480 align:start position:0%
+want to verify some table values you
+ 
+
+00:10:30.480 --> 00:10:32.389 align:start position:0%
+want to verify some table values you
+buffer<00:10:30.839><c> those</c><00:10:31.080><c> values</c><00:10:31.500><c> either</c><00:10:32.040><c> in</c><00:10:32.279><c> the</c>
+
+00:10:32.389 --> 00:10:32.399 align:start position:0%
+buffer those values either in the
+ 
+
+00:10:32.399 --> 00:10:35.449 align:start position:0%
+buffer those values either in the
+database<00:10:32.820><c> or</c><00:10:33.360><c> in</c><00:10:33.600><c> the</c><00:10:33.720><c> web</c><00:10:33.839><c> application</c><00:10:34.459><c> and</c>
+
+00:10:35.449 --> 00:10:35.459 align:start position:0%
+database or in the web application and
+ 
+
+00:10:35.459 --> 00:10:39.110 align:start position:0%
+database or in the web application and
+then<00:10:35.760><c> you</c><00:10:36.600><c> use</c><00:10:37.080><c> those</c><00:10:37.380><c> buffer</c><00:10:37.860><c> values</c><00:10:38.339><c> and</c>
+
+00:10:39.110 --> 00:10:39.120 align:start position:0%
+then you use those buffer values and
+ 
+
+00:10:39.120 --> 00:10:42.410 align:start position:0%
+then you use those buffer values and
+verify<00:10:40.080><c> it</c><00:10:40.260><c> against</c><00:10:40.680><c> the</c><00:10:41.339><c> application</c><00:10:41.820><c> or</c><00:10:42.240><c> the</c>
+
+00:10:42.410 --> 00:10:42.420 align:start position:0%
+verify it against the application or the
+ 
+
+00:10:42.420 --> 00:10:44.389 align:start position:0%
+verify it against the application or the
+database<00:10:42.839><c> right</c><00:10:43.440><c> so</c><00:10:43.980><c> there</c><00:10:44.100><c> are</c><00:10:44.220><c> many</c>
+
+00:10:44.389 --> 00:10:44.399 align:start position:0%
+database right so there are many
+ 
+
+00:10:44.399 --> 00:10:46.370 align:start position:0%
+database right so there are many
+scenarios<00:10:44.940><c> where</c><00:10:45.300><c> you</c><00:10:45.420><c> can</c><00:10:45.540><c> use</c><00:10:45.779><c> this</c><00:10:46.019><c> it's</c>
+
+00:10:46.370 --> 00:10:46.380 align:start position:0%
+scenarios where you can use this it's
+ 
+
+00:10:46.380 --> 00:10:48.110 align:start position:0%
+scenarios where you can use this it's
+very<00:10:46.680><c> useful</c>
+
+00:10:48.110 --> 00:10:48.120 align:start position:0%
+very useful
+ 
+
+00:10:48.120 --> 00:10:50.150 align:start position:0%
+very useful
+um whenever<00:10:48.899><c> you</c><00:10:49.260><c> are</c><00:10:49.380><c> trying</c><00:10:49.560><c> to</c><00:10:49.740><c> automate</c>
+
+00:10:50.150 --> 00:10:50.160 align:start position:0%
+um whenever you are trying to automate
+ 
+
+00:10:50.160 --> 00:10:53.509 align:start position:0%
+um whenever you are trying to automate
+different<00:10:50.640><c> scenarios</c><00:10:51.600><c> okay</c>
+
+00:10:53.509 --> 00:10:53.519 align:start position:0%
+different scenarios okay
+ 
+
+00:10:53.519 --> 00:10:55.910 align:start position:0%
+different scenarios okay
+so<00:10:54.120><c> the</c><00:10:54.300><c> last</c><00:10:54.480><c> thing</c><00:10:54.720><c> uh</c><00:10:55.200><c> which</c><00:10:55.440><c> we</c><00:10:55.620><c> want</c><00:10:55.800><c> to</c>
+
+00:10:55.910 --> 00:10:55.920 align:start position:0%
+so the last thing uh which we want to
+ 
+
+00:10:55.920 --> 00:10:58.490 align:start position:0%
+so the last thing uh which we want to
+verify<00:10:56.339><c> is</c><00:10:56.700><c> whether</c><00:10:56.940><c> this</c><00:10:57.420><c> buffer</c><00:10:57.899><c> value</c><00:10:58.140><c> was</c>
+
+00:10:58.490 --> 00:10:58.500 align:start position:0%
+verify is whether this buffer value was
+ 
+
+00:10:58.500 --> 00:10:59.630 align:start position:0%
+verify is whether this buffer value was
+stored
+
+00:10:59.630 --> 00:10:59.640 align:start position:0%
+stored
+ 
+
+00:10:59.640 --> 00:11:02.930 align:start position:0%
+stored
+um in<00:11:00.240><c> the</c><00:11:00.420><c> Tosca</c><00:11:00.779><c> Commander</c><00:11:01.320><c> okay</c><00:11:01.620><c> so</c><00:11:02.519><c> I</c><00:11:02.820><c> told</c>
+
+00:11:02.930 --> 00:11:02.940 align:start position:0%
+um in the Tosca Commander okay so I told
+ 
+
+00:11:02.940 --> 00:11:04.670 align:start position:0%
+um in the Tosca Commander okay so I told
+you<00:11:03.060><c> that</c><00:11:03.300><c> we</c><00:11:03.480><c> can</c><00:11:03.660><c> see</c><00:11:03.839><c> that</c><00:11:04.079><c> under</c><00:11:04.320><c> settings</c>
+
+00:11:04.670 --> 00:11:04.680 align:start position:0%
+you that we can see that under settings
+ 
+
+00:11:04.680 --> 00:11:06.710 align:start position:0%
+you that we can see that under settings
+and<00:11:05.459><c> under</c><00:11:05.760><c> engine</c>
+
+00:11:06.710 --> 00:11:06.720 align:start position:0%
+and under engine
+ 
+
+00:11:06.720 --> 00:11:09.610 align:start position:0%
+and under engine
+so<00:11:07.260><c> this</c><00:11:07.440><c> buffer</c><00:11:07.860><c> value</c><00:11:08.100><c> with</c><00:11:08.700><c> the</c><00:11:08.940><c> name</c><00:11:09.060><c> email</c>
+
+00:11:09.610 --> 00:11:09.620 align:start position:0%
+so this buffer value with the name email
+ 
+
+00:11:09.620 --> 00:11:13.670 align:start position:0%
+so this buffer value with the name email
+and<00:11:10.620><c> the</c><00:11:10.980><c> username</c><00:11:11.459><c> in</c><00:11:11.880><c> the</c><00:11:12.060><c> value</c><00:11:12.240><c> column</c><00:11:12.899><c> is</c>
+
+00:11:13.670 --> 00:11:13.680 align:start position:0%
+and the username in the value column is
+ 
+
+00:11:13.680 --> 00:11:16.490 align:start position:0%
+and the username in the value column is
+added<00:11:14.100><c> under</c><00:11:14.339><c> this</c><00:11:14.579><c> buffer</c><00:11:15.060><c> okay</c>
+
+00:11:16.490 --> 00:11:16.500 align:start position:0%
+added under this buffer okay
+ 
+
+00:11:16.500 --> 00:11:20.090 align:start position:0%
+added under this buffer okay
+so<00:11:17.220><c> this</c><00:11:17.640><c> is</c><00:11:17.820><c> a</c><00:11:18.180><c> temporary</c><00:11:18.600><c> uh</c><00:11:19.500><c> kind</c><00:11:19.920><c> of</c>
+
+00:11:20.090 --> 00:11:20.100 align:start position:0%
+so this is a temporary uh kind of
+ 
+
+00:11:20.100 --> 00:11:22.670 align:start position:0%
+so this is a temporary uh kind of
+variable<00:11:20.519><c> which</c><00:11:21.060><c> can</c><00:11:21.240><c> be</c><00:11:21.420><c> used</c><00:11:21.720><c> in</c><00:11:22.320><c> your</c><00:11:22.500><c> test</c>
+
+00:11:22.670 --> 00:11:22.680 align:start position:0%
+variable which can be used in your test
+ 
+
+00:11:22.680 --> 00:11:26.509 align:start position:0%
+variable which can be used in your test
+cases<00:11:23.040><c> to</c><00:11:23.880><c> perform</c><00:11:24.060><c> different</c><00:11:24.779><c> steps</c><00:11:25.320><c> right</c>
+
+00:11:26.509 --> 00:11:26.519 align:start position:0%
+cases to perform different steps right
+ 
+
+00:11:26.519 --> 00:11:29.269 align:start position:0%
+cases to perform different steps right
+we'll<00:11:27.240><c> look</c><00:11:27.540><c> at</c><00:11:27.899><c> some</c><00:11:28.140><c> of</c><00:11:28.260><c> the</c><00:11:28.500><c> other</c><00:11:28.740><c> action</c>
+
+00:11:29.269 --> 00:11:29.279 align:start position:0%
+we'll look at some of the other action
+ 
+
+00:11:29.279 --> 00:11:31.550 align:start position:0%
+we'll look at some of the other action
+modes<00:11:29.700><c> like</c><00:11:29.940><c> weight</c><00:11:30.240><c> on</c><00:11:30.480><c> in</c><00:11:30.899><c> our</c><00:11:31.140><c> coming</c><00:11:31.320><c> up</c>
+
+00:11:31.550 --> 00:11:31.560 align:start position:0%
+modes like weight on in our coming up
+ 
+
+00:11:31.560 --> 00:11:33.860 align:start position:0%
+modes like weight on in our coming up
+session
+

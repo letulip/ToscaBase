@@ -1,0 +1,492 @@
+[
+ {
+  "start": 8.81,
+  "end": 8.82,
+  "text": "hey everyone welcome back to our Channel"
+ },
+ {
+  "start": 8.82,
+  "end": 11.39,
+  "text": "I am back with another interesting topic"
+ },
+ {
+  "start": 11.4,
+  "end": 14.749,
+  "text": "in the Tosca automation playlist"
+ },
+ {
+  "start": 14.759,
+  "end": 16.849,
+  "text": "in this session we are going to discuss"
+ },
+ {
+  "start": 16.859,
+  "end": 19.13,
+  "text": "about a useful tool which is available"
+ },
+ {
+  "start": 19.14,
+  "end": 22.07,
+  "text": "in the Tosca Commander through which you"
+ },
+ {
+  "start": 22.08,
+  "end": 26.21,
+  "text": "can perform a set of actions on a buffer"
+ },
+ {
+  "start": 26.22,
+  "end": 29.089,
+  "text": "now this tool is known as buffer viewer"
+ },
+ {
+  "start": 29.099,
+  "end": 32.51,
+  "text": "and this is present inside the tools"
+ },
+ {
+  "start": 32.52,
+  "end": 35.15,
+  "text": "section so here you will see the buffer"
+ },
+ {
+  "start": 35.16,
+  "end": 37.79,
+  "text": "viewer tool and we have already seen how"
+ },
+ {
+  "start": 37.8,
+  "end": 40.85,
+  "text": "we can create different buffers either"
+ },
+ {
+  "start": 40.86,
+  "end": 44.15,
+  "text": "you can use the t-box set buffer module"
+ },
+ {
+  "start": 44.16,
+  "end": 47.869,
+  "text": "or you can also use the action mode"
+ },
+ {
+  "start": 47.879,
+  "end": 50.51,
+  "text": "buffer to buffer a particular value"
+ },
+ {
+  "start": 50.52,
+  "end": 53.709,
+  "text": "which is like a temporary variable right"
+ },
+ {
+  "start": 53.719,
+  "end": 58.43,
+  "text": "so uh if I open this buffer viewer you"
+ },
+ {
+  "start": 58.44,
+  "end": 60.709,
+  "text": "will see a separate window opens and"
+ },
+ {
+  "start": 60.719,
+  "end": 63.529,
+  "text": "this basically provides me with all the"
+ },
+ {
+  "start": 63.539,
+  "end": 66.109,
+  "text": "different buffer names and values which"
+ },
+ {
+  "start": 66.119,
+  "end": 69.59,
+  "text": "I have created anytime in my workspace"
+ },
+ {
+  "start": 69.6,
+  "end": 71.63,
+  "text": "and the interesting part about this"
+ },
+ {
+  "start": 71.64,
+  "end": 74.81,
+  "text": "particular tool is that you can not only"
+ },
+ {
+  "start": 74.82,
+  "end": 77.81,
+  "text": "view the buffers which have been created"
+ },
+ {
+  "start": 77.82,
+  "end": 80.749,
+  "text": "you can also change or modify the"
+ },
+ {
+  "start": 80.759,
+  "end": 83.45,
+  "text": "buffers okay so you can buffer uh modify"
+ },
+ {
+  "start": 83.46,
+  "end": 86.63,
+  "text": "the buffer name or buffer value you can"
+ },
+ {
+  "start": 86.64,
+  "end": 88.969,
+  "text": "also search with a particular buffer"
+ },
+ {
+  "start": 88.979,
+  "end": 90.83,
+  "text": "Okay so"
+ },
+ {
+  "start": 90.84,
+  "end": 94.37,
+  "text": "if I search with something like X you"
+ },
+ {
+  "start": 94.38,
+  "end": 96.649,
+  "text": "will say it will search all the buffers"
+ },
+ {
+  "start": 96.659,
+  "end": 99.35,
+  "text": "which have this particular word or this"
+ },
+ {
+  "start": 99.36,
+  "end": 102.05,
+  "text": "particular character okay"
+ },
+ {
+  "start": 102.06,
+  "end": 104.749,
+  "text": "okay so let's look with an actual"
+ },
+ {
+  "start": 104.759,
+  "end": 107.21,
+  "text": "example let's create a buffer and then"
+ },
+ {
+  "start": 107.22,
+  "end": 109.609,
+  "text": "let's see how we can do some changes on"
+ },
+ {
+  "start": 109.619,
+  "end": 111.53,
+  "text": "that particular buffer using this buffer"
+ },
+ {
+  "start": 111.54,
+  "end": 113.09,
+  "text": "viewer okay"
+ },
+ {
+  "start": 113.1,
+  "end": 116.87,
+  "text": "so I have created a test case here it is"
+ },
+ {
+  "start": 116.88,
+  "end": 119.81,
+  "text": "using the key box set buffer module and"
+ },
+ {
+  "start": 119.82,
+  "end": 121.67,
+  "text": "as you can see I'm setting a buffer"
+ },
+ {
+  "start": 121.68,
+  "end": 123.95,
+  "text": "called temp I'm giving it a value 10"
+ },
+ {
+  "start": 123.96,
+  "end": 127.789,
+  "text": "okay so very simple test and I'm going"
+ },
+ {
+  "start": 127.799,
+  "end": 129.889,
+  "text": "to run this now"
+ },
+ {
+  "start": 129.899,
+  "end": 132.67,
+  "text": "so that should be done in a few seconds"
+ },
+ {
+  "start": 132.68,
+  "end": 135.47,
+  "text": "and the buffer with name temp has been"
+ },
+ {
+  "start": 135.48,
+  "end": 137.51,
+  "text": "set to value 10 okay"
+ },
+ {
+  "start": 137.52,
+  "end": 140.449,
+  "text": "and now if I come here in the buffer"
+ },
+ {
+  "start": 140.459,
+  "end": 143.39,
+  "text": "viewer and I go and search that"
+ },
+ {
+  "start": 143.4,
+  "end": 146.21,
+  "text": "particular buffer called temp okay"
+ },
+ {
+  "start": 146.22,
+  "end": 148.49,
+  "text": "you will see I can find this particular"
+ },
+ {
+  "start": 148.5,
+  "end": 150.89,
+  "text": "buffer here right"
+ },
+ {
+  "start": 150.9,
+  "end": 153.949,
+  "text": "now uh what all I can do on this"
+ },
+ {
+  "start": 153.959,
+  "end": 156.29,
+  "text": "particular buffer or any other buffer"
+ },
+ {
+  "start": 156.3,
+  "end": 159.65,
+  "text": "for that matter right so I can go ahead"
+ },
+ {
+  "start": 159.66,
+  "end": 162.05,
+  "text": "and I can actually change the name of"
+ },
+ {
+  "start": 162.06,
+  "end": 164.75,
+  "text": "this buffer I can even change the value"
+ },
+ {
+  "start": 164.76,
+  "end": 167.27,
+  "text": "of this buffer okay"
+ },
+ {
+  "start": 167.28,
+  "end": 170.03,
+  "text": "and then that will be saved uh whatever"
+ },
+ {
+  "start": 170.04,
+  "end": 171.949,
+  "text": "changes I have done it will be"
+ },
+ {
+  "start": 171.959,
+  "end": 175.61,
+  "text": "implemented uh immediately okay so now"
+ },
+ {
+  "start": 175.62,
+  "end": 177.71,
+  "text": "that buffer name was changed to 10.23"
+ },
+ {
+  "start": 177.72,
+  "end": 179.869,
+  "text": "and the value was changed to 20."
+ },
+ {
+  "start": 179.879,
+  "end": 183.71,
+  "text": "now I can even create a new buffer okay"
+ },
+ {
+  "start": 183.72,
+  "end": 186.89,
+  "text": "so I can go to the next line and then"
+ },
+ {
+  "start": 186.9,
+  "end": 189.229,
+  "text": "there is the edit option so I can say"
+ },
+ {
+  "start": 189.239,
+  "end": 192.35,
+  "text": "temp okay and then again I can put a"
+ },
+ {
+  "start": 192.36,
+  "end": 194.869,
+  "text": "value called 10."
+ },
+ {
+  "start": 194.879,
+  "end": 197.509,
+  "text": "okay so I can add as many buffers as I"
+ },
+ {
+  "start": 197.519,
+  "end": 199.79,
+  "text": "want I can modify the existing buffers"
+ },
+ {
+  "start": 199.8,
+  "end": 204.17,
+  "text": "okay and I can even delete the buffers"
+ },
+ {
+  "start": 204.18,
+  "end": 207.89,
+  "text": "okay so for example if I now select"
+ },
+ {
+  "start": 207.9,
+  "end": 210.53,
+  "text": "these two buffers or some other existing"
+ },
+ {
+  "start": 210.54,
+  "end": 212.21,
+  "text": "buffer okay"
+ },
+ {
+  "start": 212.22,
+  "end": 215.93,
+  "text": "so press on control and then select"
+ },
+ {
+  "start": 215.94,
+  "end": 218.57,
+  "text": "multiple buffers here and then just"
+ },
+ {
+  "start": 218.58,
+  "end": 222.11,
+  "text": "press delete from your keyboard okay"
+ },
+ {
+  "start": 222.12,
+  "end": 224.75,
+  "text": "and you will see that those buffers have"
+ },
+ {
+  "start": 224.76,
+  "end": 226.61,
+  "text": "been deleted"
+ },
+ {
+  "start": 226.62,
+  "end": 228.649,
+  "text": "so these are all the operations you can"
+ },
+ {
+  "start": 228.659,
+  "end": 230.93,
+  "text": "perform on the buffered viewer tool you"
+ },
+ {
+  "start": 230.94,
+  "end": 232.97,
+  "text": "can search for a particular buffer you"
+ },
+ {
+  "start": 232.98,
+  "end": 237.17,
+  "text": "can add new buffers you can modify the"
+ },
+ {
+  "start": 237.18,
+  "end": 240.05,
+  "text": "existing buffers okay"
+ },
+ {
+  "start": 240.06,
+  "end": 243.53,
+  "text": "and you can also delete or remove the"
+ },
+ {
+  "start": 243.54,
+  "end": 246.71,
+  "text": "existing buffers okay so it's an useful"
+ },
+ {
+  "start": 246.72,
+  "end": 250.429,
+  "text": "tool if you are working on buffers and"
+ },
+ {
+  "start": 250.439,
+  "end": 252.53,
+  "text": "there are lots of buffers which have"
+ },
+ {
+  "start": 252.54,
+  "end": 254.27,
+  "text": "been used in your particular project or"
+ },
+ {
+  "start": 254.28,
+  "end": 256.729,
+  "text": "workspace you can look at all those"
+ },
+ {
+  "start": 256.739,
+  "end": 260.21,
+  "text": "buffers uh in the buffer viewer"
+ },
+ {
+  "start": 260.22,
+  "end": 263.09,
+  "text": "that's all for this particular video if"
+ },
+ {
+  "start": 263.1,
+  "end": 264.89,
+  "text": "you have any questions then please leave"
+ },
+ {
+  "start": 264.9,
+  "end": 267.23,
+  "text": "it in the comments if you like this"
+ },
+ {
+  "start": 267.24,
+  "end": 268.969,
+  "text": "video then please subscribe to our"
+ },
+ {
+  "start": 268.979,
+  "end": 269.87,
+  "text": "Channel"
+ },
+ {
+  "start": 269.88,
+  "end": 272.09,
+  "text": "thanks for watching and I will see you"
+ },
+ {
+  "start": 272.1,
+  "end": 274.94,
+  "text": "in the next video"
+ }
+]

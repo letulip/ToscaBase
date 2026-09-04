@@ -1,0 +1,1057 @@
+[
+ {
+  "start": 7.73,
+  "end": 7.74,
+  "text": "hey everyone welcome back to the store"
+ },
+ {
+  "start": 7.74,
+  "end": 9.83,
+  "text": "automation playlist and today we are"
+ },
+ {
+  "start": 9.84,
+  "end": 11.27,
+  "text": "going to discuss about another"
+ },
+ {
+  "start": 11.28,
+  "end": 12.83,
+  "text": "interesting feature which is available"
+ },
+ {
+  "start": 12.84,
+  "end": 14.99,
+  "text": "in tracentistoska"
+ },
+ {
+  "start": 15.0,
+  "end": 17.33,
+  "text": "so until now we have been automating a"
+ },
+ {
+  "start": 17.34,
+  "end": 19.01,
+  "text": "lot of test cases in different"
+ },
+ {
+  "start": 19.02,
+  "end": 21.23,
+  "text": "applications but these are mostly"
+ },
+ {
+  "start": 21.24,
+  "end": 23.81,
+  "text": "functional test cases right which may be"
+ },
+ {
+  "start": 23.82,
+  "end": 26.15,
+  "text": "present in the form of manual test cases"
+ },
+ {
+  "start": 26.16,
+  "end": 28.73,
+  "text": "or some requirement document but what"
+ },
+ {
+  "start": 28.74,
+  "end": 30.89,
+  "text": "about the test cases which are never"
+ },
+ {
+  "start": 30.9,
+  "end": 32.63,
+  "text": "written okay"
+ },
+ {
+  "start": 32.64,
+  "end": 35.09,
+  "text": "so Tosca allows you to also do some"
+ },
+ {
+  "start": 35.1,
+  "end": 37.49,
+  "text": "exploratory testing now if you have not"
+ },
+ {
+  "start": 37.5,
+  "end": 40.01,
+  "text": "heard about exploratory testing it is an"
+ },
+ {
+  "start": 40.02,
+  "end": 42.889,
+  "text": "approach to software testing where you"
+ },
+ {
+  "start": 42.899,
+  "end": 45.83,
+  "text": "do simultaneous learning test design and"
+ },
+ {
+  "start": 45.84,
+  "end": 47.81,
+  "text": "also execution"
+ },
+ {
+  "start": 47.82,
+  "end": 50.45,
+  "text": "so there are no predefined test cases"
+ },
+ {
+  "start": 50.46,
+  "end": 53.029,
+  "text": "okay through which a tester can check"
+ },
+ {
+  "start": 53.039,
+  "end": 56.569,
+  "text": "the system but they go and check the"
+ },
+ {
+  "start": 56.579,
+  "end": 59.33,
+  "text": "system on the Fly okay"
+ },
+ {
+  "start": 59.34,
+  "end": 62.09,
+  "text": "so the focus of exploratory testing is"
+ },
+ {
+  "start": 62.1,
+  "end": 65.509,
+  "text": "to find bugs which will be missed in the"
+ },
+ {
+  "start": 65.519,
+  "end": 68.75,
+  "text": "regular manual testing right so this is"
+ },
+ {
+  "start": 68.76,
+  "end": 72.23,
+  "text": "a kind of ad hoc testing but it is not"
+ },
+ {
+  "start": 72.24,
+  "end": 74.149,
+  "text": "random testing so there are a lot of"
+ },
+ {
+  "start": 74.159,
+  "end": 76.73,
+  "text": "ways you can do exploratory testing and"
+ },
+ {
+  "start": 76.74,
+  "end": 79.49,
+  "text": "Tosca also provides you with a whole"
+ },
+ {
+  "start": 79.5,
+  "end": 81.59,
+  "text": "feature through which you can perform"
+ },
+ {
+  "start": 81.6,
+  "end": 84.109,
+  "text": "this explorative testing"
+ },
+ {
+  "start": 84.119,
+  "end": 86.69,
+  "text": "so let's see how we can do exploratory"
+ },
+ {
+  "start": 86.7,
+  "end": 89.03,
+  "text": "testing using Tosca"
+ },
+ {
+  "start": 89.04,
+  "end": 91.49,
+  "text": "so to start with exploratory testing you"
+ },
+ {
+  "start": 91.5,
+  "end": 94.249,
+  "text": "need to go into the execution folder and"
+ },
+ {
+  "start": 94.259,
+  "end": 96.71,
+  "text": "when you expand this you will find a"
+ },
+ {
+  "start": 96.72,
+  "end": 98.39,
+  "text": "folder which is called exploratory"
+ },
+ {
+  "start": 98.4,
+  "end": 102.23,
+  "text": "testing okay so here uh we have got"
+ },
+ {
+  "start": 102.24,
+  "end": 104.69,
+  "text": "different options we can create a"
+ },
+ {
+  "start": 104.7,
+  "end": 107.45,
+  "text": "explorative session we can create a"
+ },
+ {
+  "start": 107.46,
+  "end": 110.27,
+  "text": "folder okay or we can import results"
+ },
+ {
+  "start": 110.28,
+  "end": 112.55,
+  "text": "file and import results from a session"
+ },
+ {
+  "start": 112.56,
+  "end": 116.149,
+  "text": "ID okay but for now we will be going"
+ },
+ {
+  "start": 116.159,
+  "end": 119.27,
+  "text": "ahead and creating a explorative session"
+ },
+ {
+  "start": 119.28,
+  "end": 121.429,
+  "text": "okay so once you create this exploit"
+ },
+ {
+  "start": 121.439,
+  "end": 123.289,
+  "text": "this session there are lots of different"
+ },
+ {
+  "start": 123.299,
+  "end": 126.53,
+  "text": "things which are present here okay like"
+ },
+ {
+  "start": 126.54,
+  "end": 128.69,
+  "text": "there are exploratory testers we can add"
+ },
+ {
+  "start": 128.7,
+  "end": 130.49,
+  "text": "number of testers who will be doing"
+ },
+ {
+  "start": 130.5,
+  "end": 134.03,
+  "text": "exploratory testing okay then uh there"
+ },
+ {
+  "start": 134.04,
+  "end": 137.63,
+  "text": "are issue proposals so we can link the"
+ },
+ {
+  "start": 137.64,
+  "end": 140.089,
+  "text": "scenario we can have a description we"
+ },
+ {
+  "start": 140.099,
+  "end": 142.55,
+  "text": "have the session schedule okay so it can"
+ },
+ {
+  "start": 142.56,
+  "end": 145.369,
+  "text": "be time boxed from some certain time to"
+ },
+ {
+  "start": 145.379,
+  "end": 146.809,
+  "text": "some certain time"
+ },
+ {
+  "start": 146.819,
+  "end": 149.75,
+  "text": "okay that could be a admin who will be"
+ },
+ {
+  "start": 149.76,
+  "end": 153.229,
+  "text": "the session owner then the session could"
+ },
+ {
+  "start": 153.239,
+  "end": 155.75,
+  "text": "be passed failed okay so the session"
+ },
+ {
+  "start": 155.76,
+  "end": 157.79,
+  "text": "status you can see it is in planned"
+ },
+ {
+  "start": 157.8,
+  "end": 158.809,
+  "text": "right now"
+ },
+ {
+  "start": 158.819,
+  "end": 160.91,
+  "text": "then the number of scenarios the"
+ },
+ {
+  "start": 160.92,
+  "end": 163.729,
+  "text": "duration the objects and also the email"
+ },
+ {
+  "start": 163.739,
+  "end": 165.229,
+  "text": "right"
+ },
+ {
+  "start": 165.239,
+  "end": 167.15,
+  "text": "so all of these different details can be"
+ },
+ {
+  "start": 167.16,
+  "end": 169.91,
+  "text": "filled uh in expertise session"
+ },
+ {
+  "start": 169.92,
+  "end": 173.869,
+  "text": "but the most important part is to uh"
+ },
+ {
+  "start": 173.879,
+  "end": 176.69,
+  "text": "create a session document right an"
+ },
+ {
+  "start": 176.7,
+  "end": 179.089,
+  "text": "exploratory session document and to do"
+ },
+ {
+  "start": 179.099,
+  "end": 181.43,
+  "text": "that we need to open the explorative"
+ },
+ {
+  "start": 181.44,
+  "end": 184.61,
+  "text": "scenario manager okay and here you can"
+ },
+ {
+  "start": 184.62,
+  "end": 187.009,
+  "text": "record the interactions between your"
+ },
+ {
+  "start": 187.019,
+  "end": 189.41,
+  "text": "application and the user"
+ },
+ {
+  "start": 189.42,
+  "end": 191.809,
+  "text": "so on the top you will see there is"
+ },
+ {
+  "start": 191.819,
+  "end": 194.21,
+  "text": "explorative scenario click on that"
+ },
+ {
+  "start": 194.22,
+  "end": 198.05,
+  "text": "okay and then it will ask you what kind"
+ },
+ {
+  "start": 198.06,
+  "end": 200.089,
+  "text": "of application you want to record your"
+ },
+ {
+  "start": 200.099,
+  "end": 202.369,
+  "text": "interactions and we will be working with"
+ },
+ {
+  "start": 202.379,
+  "end": 204.47,
+  "text": "the web application so we will choose"
+ },
+ {
+  "start": 204.48,
+  "end": 207.77,
+  "text": "Chrome for now okay and then I'll click"
+ },
+ {
+  "start": 207.78,
+  "end": 210.11,
+  "text": "on start and you will see that it will"
+ },
+ {
+  "start": 210.12,
+  "end": 212.869,
+  "text": "start recording the interactions okay"
+ },
+ {
+  "start": 212.879,
+  "end": 216.05,
+  "text": "now I can go ahead and perform some"
+ },
+ {
+  "start": 216.06,
+  "end": 217.79,
+  "text": "interactions with my application and"
+ },
+ {
+  "start": 217.8,
+  "end": 220.369,
+  "text": "that will be recorded okay"
+ },
+ {
+  "start": 220.379,
+  "end": 223.19,
+  "text": "so I'll click on automobile here and I"
+ },
+ {
+  "start": 223.2,
+  "end": 225.77,
+  "text": "will fill some data here okay so in the"
+ },
+ {
+  "start": 225.78,
+  "end": 228.89,
+  "text": "background this will also get filled"
+ },
+ {
+  "start": 228.9,
+  "end": 232.55,
+  "text": "in the recording okay so let me fill"
+ },
+ {
+  "start": 232.56,
+  "end": 244.43,
+  "text": "this out"
+ },
+ {
+  "start": 251.33,
+  "end": 251.34,
+  "text": "so this is what I want to record for now"
+ },
+ {
+  "start": 251.34,
+  "end": 254.63,
+  "text": "so I will go here and I will click on"
+ },
+ {
+  "start": 254.64,
+  "end": 257.39,
+  "text": "stop to stop the session"
+ },
+ {
+  "start": 257.4,
+  "end": 260.629,
+  "text": "and now that will create a particular"
+ },
+ {
+  "start": 260.639,
+  "end": 264.11,
+  "text": "scenario document okay so you can see"
+ },
+ {
+  "start": 264.12,
+  "end": 267.71,
+  "text": "here this is a a media document where"
+ },
+ {
+  "start": 267.72,
+  "end": 270.23,
+  "text": "you have got images along with the"
+ },
+ {
+  "start": 270.24,
+  "end": 273.29,
+  "text": "interactions okay so you can see all the"
+ },
+ {
+  "start": 273.3,
+  "end": 275.689,
+  "text": "steps which are performed are present on"
+ },
+ {
+  "start": 275.699,
+  "end": 277.61,
+  "text": "the left hand side in the form of"
+ },
+ {
+  "start": 277.62,
+  "end": 280.249,
+  "text": "scenario steps and then on the right"
+ },
+ {
+  "start": 280.259,
+  "end": 281.33,
+  "text": "hand side"
+ },
+ {
+  "start": 281.34,
+  "end": 284.33,
+  "text": "of the whole screen has been recorded"
+ },
+ {
+  "start": 284.34,
+  "end": 288.71,
+  "text": "okay also the interaction of the user is"
+ },
+ {
+  "start": 288.72,
+  "end": 291.29,
+  "text": "recorded so you can see there is an"
+ },
+ {
+  "start": 291.3,
+  "end": 293.51,
+  "text": "annotation called click on automobile"
+ },
+ {
+  "start": 293.52,
+  "end": 296.749,
+  "text": "okay so this step it says what you need"
+ },
+ {
+  "start": 296.759,
+  "end": 299.21,
+  "text": "to do it says click on the try sentence"
+ },
+ {
+  "start": 299.22,
+  "end": 301.73,
+  "text": "vehicle insurance and it also shows your"
+ },
+ {
+  "start": 301.74,
+  "end": 303.469,
+  "text": "image okay"
+ },
+ {
+  "start": 303.479,
+  "end": 306.11,
+  "text": "similarly uh for a drop down it will"
+ },
+ {
+  "start": 306.12,
+  "end": 308.45,
+  "text": "tell you to click the drop down and then"
+ },
+ {
+  "start": 308.46,
+  "end": 311.45,
+  "text": "select that particular value right so"
+ },
+ {
+  "start": 311.46,
+  "end": 313.49,
+  "text": "you can see this is a very detailed"
+ },
+ {
+  "start": 313.5,
+  "end": 316.31,
+  "text": "document and if you give it to a person"
+ },
+ {
+  "start": 316.32,
+  "end": 319.67,
+  "text": "who doesn't know what he needs to do he"
+ },
+ {
+  "start": 319.68,
+  "end": 321.29,
+  "text": "can basically run through this document"
+ },
+ {
+  "start": 321.3,
+  "end": 324.83,
+  "text": "and perform the steps and then he can"
+ },
+ {
+  "start": 324.84,
+  "end": 327.469,
+  "text": "Mark whether this test case has passed"
+ },
+ {
+  "start": 327.479,
+  "end": 330.469,
+  "text": "or failed right so this document can be"
+ },
+ {
+  "start": 330.479,
+  "end": 333.29,
+  "text": "useful in many ways it could be used for"
+ },
+ {
+  "start": 333.3,
+  "end": 336.77,
+  "text": "exploratory testing also it could be"
+ },
+ {
+  "start": 336.78,
+  "end": 340.61,
+  "text": "used as a document for a person who is"
+ },
+ {
+  "start": 340.62,
+  "end": 343.43,
+  "text": "very new to the team and he doesn't know"
+ },
+ {
+  "start": 343.44,
+  "end": 346.01,
+  "text": "more about the application so you can"
+ },
+ {
+  "start": 346.02,
+  "end": 347.93,
+  "text": "provide him this document and then he"
+ },
+ {
+  "start": 347.94,
+  "end": 350.629,
+  "text": "can start following the steps to know"
+ },
+ {
+  "start": 350.639,
+  "end": 352.55,
+  "text": "more about the application at the same"
+ },
+ {
+  "start": 352.56,
+  "end": 355.49,
+  "text": "time he can also perform the steps and"
+ },
+ {
+  "start": 355.5,
+  "end": 358.31,
+  "text": "test out the application okay"
+ },
+ {
+  "start": 358.32,
+  "end": 361.37,
+  "text": "now this is uh in Tosca you can see this"
+ },
+ {
+  "start": 361.38,
+  "end": 364.07,
+  "text": "is the session you can save and close it"
+ },
+ {
+  "start": 364.08,
+  "end": 367.189,
+  "text": "okay so it will save it and you can go"
+ },
+ {
+  "start": 367.199,
+  "end": 370.129,
+  "text": "into the next session but you can also"
+ },
+ {
+  "start": 370.139,
+  "end": 372.77,
+  "text": "export this okay"
+ },
+ {
+  "start": 372.78,
+  "end": 374.689,
+  "text": "so you can see here it can be exported"
+ },
+ {
+  "start": 374.699,
+  "end": 379.01,
+  "text": "in a docx and a PDF format obviously the"
+ },
+ {
+  "start": 379.02,
+  "end": 381.83,
+  "text": "PDF format is more preferred"
+ },
+ {
+  "start": 381.84,
+  "end": 384.89,
+  "text": "and then there are items like step and"
+ },
+ {
+  "start": 384.9,
+  "end": 387.05,
+  "text": "step values are included you can also"
+ },
+ {
+  "start": 387.06,
+  "end": 390.11,
+  "text": "include extra columns okay so what is"
+ },
+ {
+  "start": 390.12,
+  "end": 392.51,
+  "text": "the actual result uh what is the action"
+ },
+ {
+  "start": 392.52,
+  "end": 395.45,
+  "text": "mode action property right uh the media"
+ },
+ {
+  "start": 395.46,
+  "end": 398.57,
+  "text": "is already included uh and also the page"
+ },
+ {
+  "start": 398.58,
+  "end": 399.95,
+  "text": "setup"
+ },
+ {
+  "start": 399.96,
+  "end": 404.45,
+  "text": "okay so I can export this into a PDF"
+ },
+ {
+  "start": 404.46,
+  "end": 406.49,
+  "text": "once you click on that it will ask you"
+ },
+ {
+  "start": 406.5,
+  "end": 408.77,
+  "text": "where you want to export it okay so"
+ },
+ {
+  "start": 408.78,
+  "end": 411.409,
+  "text": "let's choose a folder here called"
+ },
+ {
+  "start": 411.419,
+  "end": 415.129,
+  "text": "training okay and click on OK"
+ },
+ {
+  "start": 415.139,
+  "end": 417.89,
+  "text": "now it will start exporting this whole"
+ },
+ {
+  "start": 417.9,
+  "end": 421.43,
+  "text": "session into a document and you can see"
+ },
+ {
+  "start": 421.44,
+  "end": 423.83,
+  "text": "a PDF document has been created"
+ },
+ {
+  "start": 423.84,
+  "end": 427.07,
+  "text": "and this is the scenario documentation"
+ },
+ {
+  "start": 427.08,
+  "end": 430.37,
+  "text": "you can see a lot of things have been"
+ },
+ {
+  "start": 430.38,
+  "end": 432.89,
+  "text": "also added in this documentation apart"
+ },
+ {
+  "start": 432.9,
+  "end": 435.77,
+  "text": "from what was recorded okay so that is a"
+ },
+ {
+  "start": 435.78,
+  "end": 438.71,
+  "text": "summary with name uh overall result"
+ },
+ {
+  "start": 438.72,
+  "end": 441.83,
+  "text": "number of field steps okay number of"
+ },
+ {
+  "start": 441.84,
+  "end": 445.55,
+  "text": "steps and then uh there is the scenario"
+ },
+ {
+  "start": 445.56,
+  "end": 448.189,
+  "text": "description with all the different steps"
+ },
+ {
+  "start": 448.199,
+  "end": 451.01,
+  "text": "mentioned here right also it has got a"
+ },
+ {
+  "start": 451.02,
+  "end": 453.11,
+  "text": "media link you can see here these are"
+ },
+ {
+  "start": 453.12,
+  "end": 456.11,
+  "text": "the screenshots okay"
+ },
+ {
+  "start": 456.12,
+  "end": 458.749,
+  "text": "and you can see once you go through this"
+ },
+ {
+  "start": 458.759,
+  "end": 460.67,
+  "text": "screenshot it will just look like a"
+ },
+ {
+  "start": 460.68,
+  "end": 463.129,
+  "text": "video with all the different steps"
+ },
+ {
+  "start": 463.139,
+  "end": 466.129,
+  "text": "um one by one right how you have"
+ },
+ {
+  "start": 466.139,
+  "end": 468.17,
+  "text": "interacted the application in the same"
+ },
+ {
+  "start": 468.18,
+  "end": 469.129,
+  "text": "way"
+ },
+ {
+  "start": 469.139,
+  "end": 471.29,
+  "text": "at the end it will also include the"
+ },
+ {
+  "start": 471.3,
+  "end": 473.749,
+  "text": "system information okay"
+ },
+ {
+  "start": 473.759,
+  "end": 476.629,
+  "text": "so with the operating system and then"
+ },
+ {
+  "start": 476.639,
+  "end": 478.37,
+  "text": "the screen resolution"
+ },
+ {
+  "start": 478.38,
+  "end": 480.89,
+  "text": "and all the other details of the system"
+ },
+ {
+  "start": 480.9,
+  "end": 483.589,
+  "text": "this could be useful sometimes uh when"
+ },
+ {
+  "start": 483.599,
+  "end": 485.689,
+  "text": "you are testing or you when you are"
+ },
+ {
+  "start": 485.699,
+  "end": 487.37,
+  "text": "trying to reproduce a particular issue"
+ },
+ {
+  "start": 487.38,
+  "end": 488.51,
+  "text": "right"
+ },
+ {
+  "start": 488.52,
+  "end": 492.23,
+  "text": "and also the recorded applications with"
+ },
+ {
+  "start": 492.24,
+  "end": 494.99,
+  "text": "its version right so you can see this"
+ },
+ {
+  "start": 495.0,
+  "end": 498.469,
+  "text": "kind of document is pretty useful if you"
+ },
+ {
+  "start": 498.479,
+  "end": 501.17,
+  "text": "are doing some expiratory testing or"
+ },
+ {
+  "start": 501.18,
+  "end": 503.51,
+  "text": "even if you are reporting any issue and"
+ },
+ {
+  "start": 503.52,
+  "end": 505.55,
+  "text": "you can record this interactions give it"
+ },
+ {
+  "start": 505.56,
+  "end": 508.61,
+  "text": "to a developer or a business analyst you"
+ },
+ {
+  "start": 508.62,
+  "end": 510.89,
+  "text": "can have some questions uh from the"
+ },
+ {
+  "start": 510.9,
+  "end": 513.17,
+  "text": "business analyst right so a lot of"
+ },
+ {
+  "start": 513.18,
+  "end": 514.73,
+  "text": "things can be done with this document"
+ },
+ {
+  "start": 514.74,
+  "end": 518.93,
+  "text": "and it's a really good way of creating"
+ },
+ {
+  "start": 518.94,
+  "end": 521.149,
+  "text": "some documentation around your testing"
+ },
+ {
+  "start": 521.159,
+  "end": 524.69,
+  "text": "right so placentus Tosca automatically"
+ },
+ {
+  "start": 524.7,
+  "end": 527.269,
+  "text": "does it and this could be useful in many"
+ },
+ {
+  "start": 527.279,
+  "end": 530.329,
+  "text": "different ways as we discussed"
+ },
+ {
+  "start": 530.339,
+  "end": 534.29,
+  "text": "so that's an overview of uh how"
+ },
+ {
+  "start": 534.3,
+  "end": 536.75,
+  "text": "exploratory testing can be done in Tosca"
+ },
+ {
+  "start": 536.76,
+  "end": 539.509,
+  "text": "there are lots of other options uh which"
+ },
+ {
+  "start": 539.519,
+  "end": 542.329,
+  "text": "we'll discuss later but this is the"
+ },
+ {
+  "start": 542.339,
+  "end": 545.47,
+  "text": "basic idea of how you can record or"
+ },
+ {
+  "start": 545.48,
+  "end": 547.61,
+  "text": "interactions between your application"
+ },
+ {
+  "start": 547.62,
+  "end": 551.75,
+  "text": "and the user and then create a document"
+ },
+ {
+  "start": 551.76,
+  "end": 554.69,
+  "text": "and this document can be exported into a"
+ },
+ {
+  "start": 554.7,
+  "end": 557.509,
+  "text": "PDF"
+ },
+ {
+  "start": 559.85,
+  "end": 559.86,
+  "text": "so that's all for this video I hope you"
+ },
+ {
+  "start": 559.86,
+  "end": 561.53,
+  "text": "enjoyed it and you learned something new"
+ },
+ {
+  "start": 561.54,
+  "end": 564.35,
+  "text": "today keep watching our videos and do"
+ },
+ {
+  "start": 564.36,
+  "end": 565.97,
+  "text": "subscribe to our channel so that you"
+ },
+ {
+  "start": 565.98,
+  "end": 568.25,
+  "text": "don't miss out on any new videos which"
+ },
+ {
+  "start": 568.26,
+  "end": 571.13,
+  "text": "we post on a regular basis"
+ },
+ {
+  "start": 571.14,
+  "end": 573.65,
+  "text": "so until the next video keep watching"
+ },
+ {
+  "start": 573.66,
+  "end": 577.04,
+  "text": "and keep learning Tosca"
+ }
+]

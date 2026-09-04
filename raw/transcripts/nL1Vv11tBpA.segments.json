@@ -1,0 +1,1352 @@
+[
+ {
+  "start": 8.39,
+  "end": 8.4,
+  "text": "hey everyone welcome back to our Channel"
+ },
+ {
+  "start": 8.4,
+  "end": 10.07,
+  "text": "and today we are going to talk about"
+ },
+ {
+  "start": 10.08,
+  "end": 12.169,
+  "text": "another interesting topic in class"
+ },
+ {
+  "start": 12.179,
+  "end": 15.11,
+  "text": "centers Tosca"
+ },
+ {
+  "start": 15.12,
+  "end": 18.05,
+  "text": "so today I'm going to discuss about how"
+ },
+ {
+  "start": 18.06,
+  "end": 20.15,
+  "text": "you can add different desktop libraries"
+ },
+ {
+  "start": 20.16,
+  "end": 23.15,
+  "text": "and then how you can basically add"
+ },
+ {
+  "start": 23.16,
+  "end": 25.55,
+  "text": "different reusable tester blocks inside"
+ },
+ {
+  "start": 25.56,
+  "end": 28.97,
+  "text": "this libraries which can be used or"
+ },
+ {
+  "start": 28.98,
+  "end": 31.849,
+  "text": "reused across different test cases"
+ },
+ {
+  "start": 31.859,
+  "end": 35.209,
+  "text": "now what is the need for this"
+ },
+ {
+  "start": 35.219,
+  "end": 38.09,
+  "text": "so in any test automation framework you"
+ },
+ {
+  "start": 38.1,
+  "end": 41.15,
+  "text": "always have different common uh reusable"
+ },
+ {
+  "start": 41.16,
+  "end": 43.97,
+  "text": "libraries right this increases the"
+ },
+ {
+  "start": 43.98,
+  "end": 46.01,
+  "text": "reusability factor which is very"
+ },
+ {
+  "start": 46.02,
+  "end": 48.709,
+  "text": "important for any framework and also it"
+ },
+ {
+  "start": 48.719,
+  "end": 52.069,
+  "text": "becomes easy for us to maintain our test"
+ },
+ {
+  "start": 52.079,
+  "end": 54.59,
+  "text": "cases because I will be using this"
+ },
+ {
+  "start": 54.6,
+  "end": 57.049,
+  "text": "reusable libraries which can be then"
+ },
+ {
+  "start": 57.059,
+  "end": 59.51,
+  "text": "changed at only one place rather than"
+ },
+ {
+  "start": 59.52,
+  "end": 62.869,
+  "text": "changing it everywhere right so it saves"
+ },
+ {
+  "start": 62.879,
+  "end": 63.609,
+  "text": "time"
+ },
+ {
+  "start": 63.619,
+  "end": 67.07,
+  "text": "it makes our development move faster"
+ },
+ {
+  "start": 67.08,
+  "end": 69.289,
+  "text": "right and more efficient"
+ },
+ {
+  "start": 69.299,
+  "end": 71.81,
+  "text": "so in other Frameworks uh you might have"
+ },
+ {
+  "start": 71.82,
+  "end": 74.27,
+  "text": "to do some customization or you have to"
+ },
+ {
+  "start": 74.28,
+  "end": 76.969,
+  "text": "build these reusable libraries right but"
+ },
+ {
+  "start": 76.979,
+  "end": 79.31,
+  "text": "uh in Tosca it already provides your"
+ },
+ {
+  "start": 79.32,
+  "end": 81.35,
+  "text": "future where you can create this desktop"
+ },
+ {
+  "start": 81.36,
+  "end": 83.69,
+  "text": "libraries and if you have already"
+ },
+ {
+  "start": 83.7,
+  "end": 86.57,
+  "text": "created your test cases you can just uh"
+ },
+ {
+  "start": 86.58,
+  "end": 88.969,
+  "text": "convert this the steps into reusable"
+ },
+ {
+  "start": 88.979,
+  "end": 91.49,
+  "text": "tester blocks which will then be part of"
+ },
+ {
+  "start": 91.5,
+  "end": 92.51,
+  "text": "the library"
+ },
+ {
+  "start": 92.52,
+  "end": 96.289,
+  "text": "and then these blocks can be used as a"
+ },
+ {
+  "start": 96.299,
+  "end": 98.45,
+  "text": "reference in different test cases right"
+ },
+ {
+  "start": 98.46,
+  "end": 102.289,
+  "text": "so this is the flow how a Tosca follows"
+ },
+ {
+  "start": 102.299,
+  "end": 105.17,
+  "text": "or how Tosca uses the desktop libraries"
+ },
+ {
+  "start": 105.18,
+  "end": 108.83,
+  "text": "right it is part of the test cases"
+ },
+ {
+  "start": 108.84,
+  "end": 111.41,
+  "text": "section right so you can create this"
+ },
+ {
+  "start": 111.42,
+  "end": 113.53,
+  "text": "desktop libraries anywhere"
+ },
+ {
+  "start": 113.54,
+  "end": 117.109,
+  "text": "and these libraries could be reused"
+ },
+ {
+  "start": 117.119,
+  "end": 120.469,
+  "text": "across different test cases okay"
+ },
+ {
+  "start": 120.479,
+  "end": 122.69,
+  "text": "so to demonstrate this particular"
+ },
+ {
+  "start": 122.7,
+  "end": 125.03,
+  "text": "feature I have created a folder called"
+ },
+ {
+  "start": 125.04,
+  "end": 128.21,
+  "text": "reusable libraries I have two test cases"
+ },
+ {
+  "start": 128.22,
+  "end": 130.55,
+  "text": "they are pretty similar uh with very"
+ },
+ {
+  "start": 130.56,
+  "end": 133.07,
+  "text": "limited functionality just to show you"
+ },
+ {
+  "start": 133.08,
+  "end": 136.79,
+  "text": "how this works so one is login with the"
+ },
+ {
+  "start": 136.8,
+  "end": 138.83,
+  "text": "valid user one is login with invalid"
+ },
+ {
+  "start": 138.84,
+  "end": 141.89,
+  "text": "user there are just two steps open URL"
+ },
+ {
+  "start": 141.9,
+  "end": 145.13,
+  "text": "and login user the first one is using a"
+ },
+ {
+  "start": 145.14,
+  "end": 147.47,
+  "text": "valid user and the second one is using a"
+ },
+ {
+  "start": 147.48,
+  "end": 151.85,
+  "text": "invalid user okay now if I run them you"
+ },
+ {
+  "start": 151.86,
+  "end": 153.11,
+  "text": "will see there is not much difference"
+ },
+ {
+  "start": 153.12,
+  "end": 155.449,
+  "text": "obviously I could have added lot more"
+ },
+ {
+  "start": 155.459,
+  "end": 158.99,
+  "text": "steps after this two steps okay but"
+ },
+ {
+  "start": 159.0,
+  "end": 161.15,
+  "text": "these are the two steps uh which I feel"
+ },
+ {
+  "start": 161.16,
+  "end": 164.449,
+  "text": "are common for my application okay and"
+ },
+ {
+  "start": 164.459,
+  "end": 166.009,
+  "text": "that is the reason"
+ },
+ {
+  "start": 166.019,
+  "end": 169.07,
+  "text": "um I have I'm going to use them as"
+ },
+ {
+  "start": 169.08,
+  "end": 172.009,
+  "text": "reusable desktop blocks okay"
+ },
+ {
+  "start": 172.019,
+  "end": 174.589,
+  "text": "so you can see in the first test case uh"
+ },
+ {
+  "start": 174.599,
+  "end": 177.77,
+  "text": "it logged in with a valid user into the"
+ },
+ {
+  "start": 177.78,
+  "end": 179.809,
+  "text": "website and then you can continue from"
+ },
+ {
+  "start": 179.819,
+  "end": 182.63,
+  "text": "there but in case of this invalid user"
+ },
+ {
+  "start": 182.64,
+  "end": 185.33,
+  "text": "it will give this message and we can"
+ },
+ {
+  "start": 185.34,
+  "end": 186.89,
+  "text": "also verify this and then we can"
+ },
+ {
+  "start": 186.9,
+  "end": 187.85,
+  "text": "continue"
+ },
+ {
+  "start": 187.86,
+  "end": 190.85,
+  "text": "moving forward with um whatever test"
+ },
+ {
+  "start": 190.86,
+  "end": 193.67,
+  "text": "case scenario we have okay"
+ },
+ {
+  "start": 193.68,
+  "end": 196.19,
+  "text": "so these are the two examples where you"
+ },
+ {
+  "start": 196.2,
+  "end": 198.71,
+  "text": "see there are common steps right so the"
+ },
+ {
+  "start": 198.72,
+  "end": 201.35,
+  "text": "common steps are opening the URL and"
+ },
+ {
+  "start": 201.36,
+  "end": 203.93,
+  "text": "logging in with a user"
+ },
+ {
+  "start": 203.94,
+  "end": 206.869,
+  "text": "so even though that this step data is"
+ },
+ {
+  "start": 206.879,
+  "end": 209.69,
+  "text": "different right so one is valid one is"
+ },
+ {
+  "start": 209.7,
+  "end": 212.449,
+  "text": "invalid but still this can be handled in"
+ },
+ {
+  "start": 212.459,
+  "end": 217.13,
+  "text": "just one common reusable steps so this"
+ },
+ {
+  "start": 217.14,
+  "end": 220.809,
+  "text": "makes a good case for using a library"
+ },
+ {
+  "start": 220.819,
+  "end": 224.33,
+  "text": "instead of having the same steps with"
+ },
+ {
+  "start": 224.34,
+  "end": 226.309,
+  "text": "different test data and two different"
+ },
+ {
+  "start": 226.319,
+  "end": 228.589,
+  "text": "test cases okay"
+ },
+ {
+  "start": 228.599,
+  "end": 231.47,
+  "text": "so um how we can create them uh we can"
+ },
+ {
+  "start": 231.48,
+  "end": 234.83,
+  "text": "create them inside the same folder okay"
+ },
+ {
+  "start": 234.84,
+  "end": 237.35,
+  "text": "so right click on this and then you will"
+ },
+ {
+  "start": 237.36,
+  "end": 241.55,
+  "text": "see a folder uh with a l sign and that's"
+ },
+ {
+  "start": 241.56,
+  "end": 244.25,
+  "text": "what is a test step Library okay"
+ },
+ {
+  "start": 244.26,
+  "end": 247.369,
+  "text": "so you can also use the shortcut control"
+ },
+ {
+  "start": 247.379,
+  "end": 251.03,
+  "text": "and control L to create this so click on"
+ },
+ {
+  "start": 251.04,
+  "end": 253.97,
+  "text": "this and this will create a library here"
+ },
+ {
+  "start": 253.98,
+  "end": 255.589,
+  "text": "okay"
+ },
+ {
+  "start": 255.599,
+  "end": 258.469,
+  "text": "and inside this library now I can create"
+ },
+ {
+  "start": 258.479,
+  "end": 262.189,
+  "text": "a usable desktop block okay"
+ },
+ {
+  "start": 262.199,
+  "end": 265.909,
+  "text": "or I can also if I have already created"
+ },
+ {
+  "start": 265.919,
+  "end": 268.43,
+  "text": "my test cases and I have the test steps"
+ },
+ {
+  "start": 268.44,
+  "end": 273.53,
+  "text": "okay I can also uh convert this into my"
+ },
+ {
+  "start": 273.54,
+  "end": 276.59,
+  "text": "reusable tester blocks okay"
+ },
+ {
+  "start": 276.6,
+  "end": 279.77,
+  "text": "so how you can do that is I can just"
+ },
+ {
+  "start": 279.78,
+  "end": 283.909,
+  "text": "drag it here okay and I can"
+ },
+ {
+  "start": 283.919,
+  "end": 288.17,
+  "text": "drag this to basically uh steps and make"
+ },
+ {
+  "start": 288.18,
+  "end": 291.71,
+  "text": "it a reusable tester blocks okay so you"
+ },
+ {
+  "start": 291.72,
+  "end": 294.409,
+  "text": "can see here now this has become a"
+ },
+ {
+  "start": 294.419,
+  "end": 296.39,
+  "text": "reusable stress the block"
+ },
+ {
+  "start": 296.4,
+  "end": 299.99,
+  "text": "and in the test case it has now changed"
+ },
+ {
+  "start": 300.0,
+  "end": 303.59,
+  "text": "uh into a arrow sign so which means it"
+ },
+ {
+  "start": 303.6,
+  "end": 307.01,
+  "text": "is just a reference okay so it is not"
+ },
+ {
+  "start": 307.02,
+  "end": 309.77,
+  "text": "the actual step it is a reference to"
+ },
+ {
+  "start": 309.78,
+  "end": 312.35,
+  "text": "this particular steps"
+ },
+ {
+  "start": 312.36,
+  "end": 317.15,
+  "text": "okay and uh now how I can reuse these"
+ },
+ {
+  "start": 317.16,
+  "end": 320.03,
+  "text": "steps so these reusables test the blocks"
+ },
+ {
+  "start": 320.04,
+  "end": 323.39,
+  "text": "I can basically delete these steps in my"
+ },
+ {
+  "start": 323.4,
+  "end": 324.95,
+  "text": "second test case"
+ },
+ {
+  "start": 324.96,
+  "end": 329.87,
+  "text": "and now I can just drag this reusable"
+ },
+ {
+  "start": 329.88,
+  "end": 333.65,
+  "text": "desktop blocks into my test case okay so"
+ },
+ {
+  "start": 333.66,
+  "end": 337.249,
+  "text": "you can see uh these are almost the same"
+ },
+ {
+  "start": 337.259,
+  "end": 340.49,
+  "text": "reusable desktop blocks okay but they"
+ },
+ {
+  "start": 340.5,
+  "end": 342.529,
+  "text": "are not different they are references to"
+ },
+ {
+  "start": 342.539,
+  "end": 345.529,
+  "text": "the same uh tester blocks and this you"
+ },
+ {
+  "start": 345.539,
+  "end": 348.409,
+  "text": "can do it across all your test cases so"
+ },
+ {
+  "start": 348.419,
+  "end": 350.749,
+  "text": "wherever your test cases are using these"
+ },
+ {
+  "start": 350.759,
+  "end": 354.11,
+  "text": "two uh steps which is opening the URL"
+ },
+ {
+  "start": 354.12,
+  "end": 357.89,
+  "text": "and logging in the user you can use it"
+ },
+ {
+  "start": 357.9,
+  "end": 360.71,
+  "text": "uh anywhere okay any test case you can"
+ },
+ {
+  "start": 360.72,
+  "end": 363.77,
+  "text": "just pull this references into a test"
+ },
+ {
+  "start": 363.78,
+  "end": 366.83,
+  "text": "cases and they will run them"
+ },
+ {
+  "start": 366.84,
+  "end": 369.469,
+  "text": "okay so that solves one of our problem"
+ },
+ {
+  "start": 369.479,
+  "end": 373.129,
+  "text": "uh where we are now using two common"
+ },
+ {
+  "start": 373.139,
+  "end": 375.95,
+  "text": "steps which are part of a library"
+ },
+ {
+  "start": 375.96,
+  "end": 380.029,
+  "text": "but now you can think uh these values"
+ },
+ {
+  "start": 380.039,
+  "end": 383.27,
+  "text": "right these values are still the same"
+ },
+ {
+  "start": 383.28,
+  "end": 386.45,
+  "text": "so uh it will basically do the same"
+ },
+ {
+  "start": 386.46,
+  "end": 388.49,
+  "text": "thing right now it will login with the"
+ },
+ {
+  "start": 388.5,
+  "end": 390.89,
+  "text": "same user which is present in this"
+ },
+ {
+  "start": 390.9,
+  "end": 394.55,
+  "text": "library right but I want it to be more"
+ },
+ {
+  "start": 394.56,
+  "end": 397.49,
+  "text": "customized so that I can use my own"
+ },
+ {
+  "start": 397.5,
+  "end": 401.57,
+  "text": "values right I can use the own"
+ },
+ {
+  "start": 401.58,
+  "end": 403.55,
+  "text": "um invalid user in the second test case"
+ },
+ {
+  "start": 403.56,
+  "end": 405.89,
+  "text": "rather than a valid user so that my"
+ },
+ {
+  "start": 405.9,
+  "end": 409.49,
+  "text": "scenario is as per the expectations okay"
+ },
+ {
+  "start": 409.5,
+  "end": 413.21,
+  "text": "so for that uh you need to now uh"
+ },
+ {
+  "start": 413.22,
+  "end": 416.689,
+  "text": "convert okay this or you need to add"
+ },
+ {
+  "start": 416.699,
+  "end": 418.43,
+  "text": "business parameters"
+ },
+ {
+  "start": 418.44,
+  "end": 420.11,
+  "text": "so whatever values you want to"
+ },
+ {
+  "start": 420.12,
+  "end": 422.33,
+  "text": "parameterize like the username the"
+ },
+ {
+  "start": 422.34,
+  "end": 425.21,
+  "text": "password or the URL okay which can"
+ },
+ {
+  "start": 425.22,
+  "end": 427.73,
+  "text": "change across different test cases"
+ },
+ {
+  "start": 427.74,
+  "end": 429.35,
+  "text": "you can basically add business"
+ },
+ {
+  "start": 429.36,
+  "end": 432.05,
+  "text": "parameters for these okay"
+ },
+ {
+  "start": 432.06,
+  "end": 435.71,
+  "text": "and to do this uh you need to click on"
+ },
+ {
+  "start": 435.72,
+  "end": 437.809,
+  "text": "the usable tester block"
+ },
+ {
+  "start": 437.819,
+  "end": 439.43,
+  "text": "and there is an option to create"
+ },
+ {
+  "start": 439.44,
+  "end": 443.27,
+  "text": "business parameter container okay"
+ },
+ {
+  "start": 443.28,
+  "end": 446.749,
+  "text": "so we can add that and we can create our"
+ },
+ {
+  "start": 446.759,
+  "end": 449.39,
+  "text": "business parameters here"
+ },
+ {
+  "start": 449.4,
+  "end": 450.55,
+  "text": "right"
+ },
+ {
+  "start": 450.56,
+  "end": 453.409,
+  "text": "once you do that now I can add different"
+ },
+ {
+  "start": 453.419,
+  "end": 454.85,
+  "text": "parameters here"
+ },
+ {
+  "start": 454.86,
+  "end": 458.39,
+  "text": "as you can see so first parameter would"
+ },
+ {
+  "start": 458.4,
+  "end": 460.49,
+  "text": "be username"
+ },
+ {
+  "start": 460.5,
+  "end": 463.249,
+  "text": "and the second parameter would be"
+ },
+ {
+  "start": 463.259,
+  "end": 466.67,
+  "text": "password so these are the two values"
+ },
+ {
+  "start": 466.68,
+  "end": 469.07,
+  "text": "which can be parameterized okay in this"
+ },
+ {
+  "start": 469.08,
+  "end": 470.749,
+  "text": "particular tester block"
+ },
+ {
+  "start": 470.759,
+  "end": 474.77,
+  "text": "and then in url also I can parameterize"
+ },
+ {
+  "start": 474.78,
+  "end": 479.33,
+  "text": "the URL path so I will do that"
+ },
+ {
+  "start": 479.34,
+  "end": 481.43,
+  "text": "so I'll create a business parameter for"
+ },
+ {
+  "start": 481.44,
+  "end": 483.409,
+  "text": "URL okay"
+ },
+ {
+  "start": 483.419,
+  "end": 486.469,
+  "text": "you don't need to provide any values or"
+ },
+ {
+  "start": 486.479,
+  "end": 488.689,
+  "text": "action mode or data type for this"
+ },
+ {
+  "start": 488.699,
+  "end": 490.61,
+  "text": "business parameters they are just"
+ },
+ {
+  "start": 490.62,
+  "end": 492.77,
+  "text": "parameters okay"
+ },
+ {
+  "start": 492.78,
+  "end": 496.909,
+  "text": "and what we need to do is now we need to"
+ },
+ {
+  "start": 496.919,
+  "end": 500.089,
+  "text": "delete these values okay"
+ },
+ {
+  "start": 500.099,
+  "end": 503.21,
+  "text": "because we'll not be using this values"
+ },
+ {
+  "start": 503.22,
+  "end": 505.79,
+  "text": "which are static in nature right we'll"
+ },
+ {
+  "start": 505.8,
+  "end": 509.33,
+  "text": "be using these parameters instead of any"
+ },
+ {
+  "start": 509.34,
+  "end": 511.07,
+  "text": "particular value"
+ },
+ {
+  "start": 511.08,
+  "end": 514.73,
+  "text": "so you have to replace them with these"
+ },
+ {
+  "start": 514.74,
+  "end": 518.029,
+  "text": "parameters okay"
+ },
+ {
+  "start": 520.61,
+  "end": 520.62,
+  "text": "let me drag this again"
+ },
+ {
+  "start": 520.62,
+  "end": 523.31,
+  "text": "so now once you drag these parameters"
+ },
+ {
+  "start": 523.32,
+  "end": 526.13,
+  "text": "into this the steps right so it will"
+ },
+ {
+  "start": 526.14,
+  "end": 529.43,
+  "text": "become a PL and Then followed by that"
+ },
+ {
+  "start": 529.44,
+  "end": 532.37,
+  "text": "parameter name so PL means the business"
+ },
+ {
+  "start": 532.38,
+  "end": 534.11,
+  "text": "parameter"
+ },
+ {
+  "start": 534.12,
+  "end": 536.87,
+  "text": "so similarly for open URL"
+ },
+ {
+  "start": 536.88,
+  "end": 540.47,
+  "text": "I will remove this value and I will drag"
+ },
+ {
+  "start": 540.48,
+  "end": 543.65,
+  "text": "this URL parameter here"
+ },
+ {
+  "start": 543.66,
+  "end": 545.03,
+  "text": "okay"
+ },
+ {
+  "start": 545.04,
+  "end": 547.07,
+  "text": "so now you can see that our usable"
+ },
+ {
+  "start": 547.08,
+  "end": 549.23,
+  "text": "tester blocks are actually reusable"
+ },
+ {
+  "start": 549.24,
+  "end": 551.449,
+  "text": "right because they are not using any"
+ },
+ {
+  "start": 551.459,
+  "end": 555.05,
+  "text": "static values it can be used across any"
+ },
+ {
+  "start": 555.06,
+  "end": 557.87,
+  "text": "test case so any particular login test"
+ },
+ {
+  "start": 557.88,
+  "end": 561.23,
+  "text": "case where it has got these fields and"
+ },
+ {
+  "start": 561.24,
+  "end": 563.57,
+  "text": "you can enter any value from the test"
+ },
+ {
+  "start": 563.58,
+  "end": 566.03,
+  "text": "case itself okay"
+ },
+ {
+  "start": 566.04,
+  "end": 569.75,
+  "text": "so um now our library and usable tester"
+ },
+ {
+  "start": 569.76,
+  "end": 573.769,
+  "text": "blocks are ready now if I go back to my"
+ },
+ {
+  "start": 573.779,
+  "end": 576.53,
+  "text": "test case right you will see that the"
+ },
+ {
+  "start": 576.54,
+  "end": 578.57,
+  "text": "business parameters are already created"
+ },
+ {
+  "start": 578.58,
+  "end": 580.19,
+  "text": "okay"
+ },
+ {
+  "start": 580.2,
+  "end": 582.59,
+  "text": "and you will see all the test step"
+ },
+ {
+  "start": 582.6,
+  "end": 585.53,
+  "text": "values have now been removed from this"
+ },
+ {
+  "start": 585.54,
+  "end": 589.31,
+  "text": "references you just need to pass a valid"
+ },
+ {
+  "start": 589.32,
+  "end": 592.009,
+  "text": "URL a username and password"
+ },
+ {
+  "start": 592.019,
+  "end": 596.15,
+  "text": "now you can again configure it more you"
+ },
+ {
+  "start": 596.16,
+  "end": 598.37,
+  "text": "can put a configuration parameter in"
+ },
+ {
+  "start": 598.38,
+  "end": 600.59,
+  "text": "your folder and you can use that here"
+ },
+ {
+  "start": 600.6,
+  "end": 604.07,
+  "text": "rather than putting the directly rather"
+ },
+ {
+  "start": 604.08,
+  "end": 606.47,
+  "text": "than putting the URL directly here right"
+ },
+ {
+  "start": 606.48,
+  "end": 608.57,
+  "text": "same you can do with username or"
+ },
+ {
+  "start": 608.58,
+  "end": 609.829,
+  "text": "password"
+ },
+ {
+  "start": 609.839,
+  "end": 612.59,
+  "text": "but now you can see that uh even though"
+ },
+ {
+  "start": 612.6,
+  "end": 615.41,
+  "text": "I use it in two different test cases I"
+ },
+ {
+  "start": 615.42,
+  "end": 618.05,
+  "text": "can enter different values based on my"
+ },
+ {
+  "start": 618.06,
+  "end": 620.99,
+  "text": "test cases Okay so"
+ },
+ {
+  "start": 621.0,
+  "end": 624.71,
+  "text": "it is now actually uh using some"
+ },
+ {
+  "start": 624.72,
+  "end": 627.41,
+  "text": "reusable steps uh which can have their"
+ },
+ {
+  "start": 627.42,
+  "end": 630.949,
+  "text": "own values in different test cases okay"
+ },
+ {
+  "start": 630.959,
+  "end": 634.25,
+  "text": "so for this particular example"
+ },
+ {
+  "start": 634.26,
+  "end": 638.09,
+  "text": "um let's go to this URL and let's try to"
+ },
+ {
+  "start": 638.1,
+  "end": 641.329,
+  "text": "put different values here okay so just"
+ },
+ {
+  "start": 641.339,
+  "end": 644.509,
+  "text": "to complete these two scenarios"
+ },
+ {
+  "start": 644.519,
+  "end": 647.15,
+  "text": "so these are the username and password"
+ },
+ {
+  "start": 647.16,
+  "end": 650.63,
+  "text": "which I'm going to use so first one is"
+ },
+ {
+  "start": 650.64,
+  "end": 655.069,
+  "text": "the valid user"
+ },
+ {
+  "start": 661.73,
+  "end": 661.74,
+  "text": "so that's my first test case and in the"
+ },
+ {
+  "start": 661.74,
+  "end": 664.009,
+  "text": "second one I am going to use this logged"
+ },
+ {
+  "start": 664.019,
+  "end": 666.71,
+  "text": "out user so that it throws an error"
+ },
+ {
+  "start": 666.72,
+  "end": 673.43,
+  "text": "message"
+ },
+ {
+  "start": 683.329,
+  "end": 683.339,
+  "text": "so a URL is as you can see it is same"
+ },
+ {
+  "start": 683.339,
+  "end": 685.67,
+  "text": "and as I said you don't need to enter it"
+ },
+ {
+  "start": 685.68,
+  "end": 688.31,
+  "text": "directly here you can create a"
+ },
+ {
+  "start": 688.32,
+  "end": 690.829,
+  "text": "configuration parameter like we have"
+ },
+ {
+  "start": 690.839,
+  "end": 693.47,
+  "text": "done many times okay so create a test"
+ },
+ {
+  "start": 693.48,
+  "end": 696.29,
+  "text": "configuration parameter for URL and just"
+ },
+ {
+  "start": 696.3,
+  "end": 698.569,
+  "text": "use that here"
+ },
+ {
+  "start": 698.579,
+  "end": 701.69,
+  "text": "okay but as you can see now we have got"
+ },
+ {
+  "start": 701.7,
+  "end": 704.81,
+  "text": "two test cases using uh usable tester"
+ },
+ {
+  "start": 704.82,
+  "end": 707.21,
+  "text": "blocks from a library but having"
+ },
+ {
+  "start": 707.22,
+  "end": 709.55,
+  "text": "different values using the business"
+ },
+ {
+  "start": 709.56,
+  "end": 711.829,
+  "text": "parameters okay"
+ },
+ {
+  "start": 711.839,
+  "end": 715.19,
+  "text": "and now if I run them they should still"
+ },
+ {
+  "start": 715.2,
+  "end": 717.65,
+  "text": "run as expected like we have seen before"
+ },
+ {
+  "start": 717.66,
+  "end": 723.29,
+  "text": "there should be no difference"
+ },
+ {
+  "start": 741.65,
+  "end": 741.66,
+  "text": "okay so it should display this error"
+ },
+ {
+  "start": 741.66,
+  "end": 745.43,
+  "text": "message which can be verified of course"
+ },
+ {
+  "start": 745.44,
+  "end": 747.65,
+  "text": "but uh okay so that's that's the results"
+ },
+ {
+  "start": 747.66,
+  "end": 750.53,
+  "text": "we have got okay so we haven't put any"
+ },
+ {
+  "start": 750.54,
+  "end": 753.41,
+  "text": "verifications but the purpose of this"
+ },
+ {
+  "start": 753.42,
+  "end": 755.63,
+  "text": "particular demo was to show you how you"
+ },
+ {
+  "start": 755.64,
+  "end": 759.29,
+  "text": "can use a library and the reusable"
+ },
+ {
+  "start": 759.3,
+  "end": 762.53,
+  "text": "tester blocks with business parameters"
+ },
+ {
+  "start": 762.54,
+  "end": 766.19,
+  "text": "so a very useful way of reusing your"
+ },
+ {
+  "start": 766.2,
+  "end": 768.949,
+  "text": "test steps across your test cases"
+ },
+ {
+  "start": 768.959,
+  "end": 771.35,
+  "text": "okay so this could be used in many"
+ },
+ {
+  "start": 771.36,
+  "end": 774.41,
+  "text": "complex uh scenarios where you have got"
+ },
+ {
+  "start": 774.42,
+  "end": 776.93,
+  "text": "test cases with a number of different"
+ },
+ {
+  "start": 776.94,
+  "end": 779.449,
+  "text": "test steps so find out which are the"
+ },
+ {
+  "start": 779.459,
+  "end": 782.21,
+  "text": "common ones and put it as reusable"
+ },
+ {
+  "start": 782.22,
+  "end": 786.41,
+  "text": "desktop blocks in your libraries"
+ },
+ {
+  "start": 788.99,
+  "end": 789.0,
+  "text": "so that's all for this session but do"
+ },
+ {
+  "start": 789.0,
+  "end": 791.329,
+  "text": "tune in into our Channel if you have not"
+ },
+ {
+  "start": 791.339,
+  "end": 794.329,
+  "text": "subscribed do subscribe so that you get"
+ },
+ {
+  "start": 794.339,
+  "end": 796.97,
+  "text": "a notification whenever I come up with"
+ },
+ {
+  "start": 796.98,
+  "end": 799.129,
+  "text": "more interesting scenarios or"
+ },
+ {
+  "start": 799.139,
+  "end": 801.889,
+  "text": "interesting features available in class"
+ },
+ {
+  "start": 801.899,
+  "end": 804.56,
+  "text": "centers.com"
+ }
+]

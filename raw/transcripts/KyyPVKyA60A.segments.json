@@ -1,0 +1,642 @@
+[
+ {
+  "start": 12.39,
+  "end": 12.4,
+  "text": "hey everyone welcome back to our Channel"
+ },
+ {
+  "start": 12.4,
+  "end": 15.03,
+  "text": "I am back with another interesting topic"
+ },
+ {
+  "start": 15.04,
+  "end": 17.67,
+  "text": "in the tosa automation"
+ },
+ {
+  "start": 17.68,
+  "end": 20.269,
+  "text": "playlist so continuing with our topic on"
+ },
+ {
+  "start": 20.279,
+  "end": 22.509,
+  "text": "test automation obstacles let's look at"
+ },
+ {
+  "start": 22.519,
+  "end": 24.349,
+  "text": "our next obstacle which is called the"
+ },
+ {
+  "start": 24.359,
+  "end": 26.87,
+  "text": "obvious now this is one of the easy"
+ },
+ {
+  "start": 26.88,
+  "end": 29.189,
+  "text": "obstacles but the reason I'm showing you"
+ },
+ {
+  "start": 29.199,
+  "end": 30.47,
+  "text": "this obstacle"
+ },
+ {
+  "start": 30.48,
+  "end": 32.389,
+  "text": "is it's a pretty common scenario which"
+ },
+ {
+  "start": 32.399,
+  "end": 34.83,
+  "text": "you will encounter in your applications"
+ },
+ {
+  "start": 34.84,
+  "end": 37.35,
+  "text": "so it's quite useful to know how to get"
+ },
+ {
+  "start": 37.36,
+  "end": 40.069,
+  "text": "around this uh obstacle pretty easily"
+ },
+ {
+  "start": 40.079,
+  "end": 42.47,
+  "text": "right so in this particular obstacle we"
+ },
+ {
+  "start": 42.48,
+  "end": 44.31,
+  "text": "need to generate a random string by"
+ },
+ {
+  "start": 44.32,
+  "end": 46.47,
+  "text": "clicking on the button so once we click"
+ },
+ {
+  "start": 46.48,
+  "end": 48.189,
+  "text": "on the button it is going to generate a"
+ },
+ {
+  "start": 48.199,
+  "end": 50.83,
+  "text": "random string and then there is a"
+ },
+ {
+  "start": 50.84,
+  "end": 53.229,
+  "text": "dropdown okay and this drop- down"
+ },
+ {
+  "start": 53.239,
+  "end": 56.63,
+  "text": "contains one of these random strings"
+ },
+ {
+  "start": 56.64,
+  "end": 58.83,
+  "text": "okay so you don't know which random text"
+ },
+ {
+  "start": 58.84,
+  "end": 61.75,
+  "text": "will be generated but uh it is part of"
+ },
+ {
+  "start": 61.76,
+  "end": 65.109,
+  "text": "this particular list now you need to uh"
+ },
+ {
+  "start": 65.119,
+  "end": 68.39,
+  "text": "select a particular item from this list"
+ },
+ {
+  "start": 68.4,
+  "end": 71.07,
+  "text": "which matches that random text okay so"
+ },
+ {
+  "start": 71.08,
+  "end": 74.23,
+  "text": "in this case uh it starts with KY so if"
+ },
+ {
+  "start": 74.24,
+  "end": 77.03,
+  "text": "I select this and then I click on submit"
+ },
+ {
+  "start": 77.04,
+  "end": 79.31,
+  "text": "then the obstacle is completed okay so"
+ },
+ {
+  "start": 79.32,
+  "end": 80.99,
+  "text": "we have to automate this particular"
+ },
+ {
+  "start": 81.0,
+  "end": 82.59,
+  "text": "scenario using"
+ },
+ {
+  "start": 82.6,
+  "end": 85.55,
+  "text": "tosa so let's go to tosa and let's"
+ },
+ {
+  "start": 85.56,
+  "end": 87.83,
+  "text": "quickly see how we can automate this"
+ },
+ {
+  "start": 87.84,
+  "end": 90.149,
+  "text": "particular obstacle so first first of"
+ },
+ {
+  "start": 90.159,
+  "end": 92.469,
+  "text": "all uh let me quickly go ahead and"
+ },
+ {
+  "start": 92.479,
+  "end": 94.83,
+  "text": "create a module for this particular"
+ },
+ {
+  "start": 94.84,
+  "end": 103.27,
+  "text": "obstacle so I'm going to scan this"
+ },
+ {
+  "start": 105.55,
+  "end": 105.56,
+  "text": "application and we need couple of"
+ },
+ {
+  "start": 105.56,
+  "end": 107.63,
+  "text": "elements right here so we need the"
+ },
+ {
+  "start": 107.64,
+  "end": 110.87,
+  "text": "Generate random text then we need the"
+ },
+ {
+  "start": 110.88,
+  "end": 114.23,
+  "text": "text box and then uh we also need the"
+ },
+ {
+  "start": 114.24,
+  "end": 117.91,
+  "text": "select item box right so this is a"
+ },
+ {
+  "start": 117.92,
+  "end": 120.19,
+  "text": "select uh element which contains a lot"
+ },
+ {
+  "start": 120.2,
+  "end": 121.95,
+  "text": "of different elements right so these are"
+ },
+ {
+  "start": 121.96,
+  "end": 124.83,
+  "text": "the three uh Elements which we require"
+ },
+ {
+  "start": 124.84,
+  "end": 126.83,
+  "text": "and then we also require the submit"
+ },
+ {
+  "start": 126.84,
+  "end": 130.35,
+  "text": "button okay so actually four elements"
+ },
+ {
+  "start": 130.36,
+  "end": 132.949,
+  "text": "now let's go ahead and rename our module"
+ },
+ {
+  "start": 132.959,
+  "end": 136.27,
+  "text": "so to to match this particular obstacle"
+ },
+ {
+  "start": 136.28,
+  "end": 140.11,
+  "text": "ID and we are going to save this and uh"
+ },
+ {
+  "start": 140.12,
+  "end": 142.19,
+  "text": "we will close"
+ },
+ {
+  "start": 142.2,
+  "end": 146.949,
+  "text": "this okay so the next part is to add a"
+ },
+ {
+  "start": 146.959,
+  "end": 150.19,
+  "text": "test case so we are going here and and"
+ },
+ {
+  "start": 150.2,
+  "end": 157.229,
+  "text": "we are going to add a test case"
+ },
+ {
+  "start": 161.589,
+  "end": 161.599,
+  "text": "here okay and then let's add the"
+ },
+ {
+  "start": 161.599,
+  "end": 164.55,
+  "text": "particular module here with which we'll"
+ },
+ {
+  "start": 164.56,
+  "end": 167.509,
+  "text": "work with and now let's go ahead and"
+ },
+ {
+  "start": 167.519,
+  "end": 169.589,
+  "text": "look at the test steps"
+ },
+ {
+  "start": 169.599,
+  "end": 173.43,
+  "text": "right so the first test step is to click"
+ },
+ {
+  "start": 173.44,
+  "end": 177.589,
+  "text": "on this particular button so I will use"
+ },
+ {
+  "start": 177.599,
+  "end": 180.35,
+  "text": "uh X here to click on it"
+ },
+ {
+  "start": 180.36,
+  "end": 182.71,
+  "text": "and then uh it will generate a random"
+ },
+ {
+  "start": 182.72,
+  "end": 186.509,
+  "text": "text right now the next step is to store"
+ },
+ {
+  "start": 186.519,
+  "end": 189.35,
+  "text": "the random text into a buffer variable"
+ },
+ {
+  "start": 189.36,
+  "end": 191.149,
+  "text": "and for that we can use the action mode"
+ },
+ {
+  "start": 191.159,
+  "end": 194.789,
+  "text": "buffer so uh let's add another step into"
+ },
+ {
+  "start": 194.799,
+  "end": 198.27,
+  "text": "the test case okay and here we are going"
+ },
+ {
+  "start": 198.28,
+  "end": 200.99,
+  "text": "to use the buffer action mode I'm going"
+ },
+ {
+  "start": 201.0,
+  "end": 203.07,
+  "text": "to remove this particular module"
+ },
+ {
+  "start": 203.08,
+  "end": 205.27,
+  "text": "attribute because we have already uh"
+ },
+ {
+  "start": 205.28,
+  "end": 207.91,
+  "text": "clicked on this okay so we are going to"
+ },
+ {
+  "start": 207.92,
+  "end": 210.229,
+  "text": "now use the"
+ },
+ {
+  "start": 210.239,
+  "end": 212.47,
+  "text": "buffer action mode here and we are going"
+ },
+ {
+  "start": 212.48,
+  "end": 216.149,
+  "text": "to specify a buffer name let's call it"
+ },
+ {
+  "start": 216.159,
+  "end": 220.27,
+  "text": "R&D okay and then the next step is to uh"
+ },
+ {
+  "start": 220.28,
+  "end": 223.39,
+  "text": "select that particular uh randomly"
+ },
+ {
+  "start": 223.4,
+  "end": 226.75,
+  "text": "generated text in the select drop down"
+ },
+ {
+  "start": 226.76,
+  "end": 231.229,
+  "text": "okay so again uh we need this step where"
+ },
+ {
+  "start": 231.239,
+  "end": 234.91,
+  "text": "we will do this okay and we make sure"
+ },
+ {
+  "start": 234.92,
+  "end": 238.149,
+  "text": "that uh we remove any any other steps"
+ },
+ {
+  "start": 238.159,
+  "end": 240.949,
+  "text": "which have been uh included here or any"
+ },
+ {
+  "start": 240.959,
+  "end": 244.39,
+  "text": "other values okay and then in the select"
+ },
+ {
+  "start": 244.4,
+  "end": 246.91,
+  "text": "link we are just going to specify the"
+ },
+ {
+  "start": 246.92,
+  "end": 250.83,
+  "text": "buffer here okay so this is the buffer"
+ },
+ {
+  "start": 250.84,
+  "end": 254.069,
+  "text": "value which will be selected and then"
+ },
+ {
+  "start": 254.079,
+  "end": 256.949,
+  "text": "the final step is to click on the submit"
+ },
+ {
+  "start": 256.959,
+  "end": 258.87,
+  "text": "link"
+ },
+ {
+  "start": 258.88,
+  "end": 262.87,
+  "text": "okay so here we are again going to use"
+ },
+ {
+  "start": 262.88,
+  "end": 266.189,
+  "text": "the X to click on this so these are all"
+ },
+ {
+  "start": 266.199,
+  "end": 269.11,
+  "text": "the four steps okay so you need to use"
+ },
+ {
+  "start": 269.12,
+  "end": 271.029,
+  "text": "the module four times because we have"
+ },
+ {
+  "start": 271.039,
+  "end": 273.31,
+  "text": "got four different steps here and is"
+ },
+ {
+  "start": 273.32,
+  "end": 276.23,
+  "text": "always recommended to have just one"
+ },
+ {
+  "start": 276.24,
+  "end": 280.27,
+  "text": "action uh or one value selected in one"
+ },
+ {
+  "start": 280.28,
+  "end": 284.469,
+  "text": "of your modules right so uh you can"
+ },
+ {
+  "start": 284.479,
+  "end": 287.83,
+  "text": "always go ahead and rename all the steps"
+ },
+ {
+  "start": 287.84,
+  "end": 292.51,
+  "text": "so here it is to click on"
+ },
+ {
+  "start": 292.52,
+  "end": 295.15,
+  "text": "random uh"
+ },
+ {
+  "start": 295.16,
+  "end": 300.31,
+  "text": "button okay and then here uh we we"
+ },
+ {
+  "start": 300.32,
+  "end": 306.35,
+  "text": "are buffer random"
+ },
+ {
+  "start": 311.51,
+  "end": 311.52,
+  "text": "text and then here uh we"
+ },
+ {
+  "start": 311.52,
+  "end": 314.51,
+  "text": "select"
+ },
+ {
+  "start": 314.52,
+  "end": 317.11,
+  "text": "random"
+ },
+ {
+  "start": 317.12,
+  "end": 322.83,
+  "text": "text and finally we click on"
+ },
+ {
+  "start": 324.95,
+  "end": 324.96,
+  "text": "submit"
+ },
+ {
+  "start": 324.96,
+  "end": 327.87,
+  "text": "okay so now our test case is complete we"
+ },
+ {
+  "start": 327.88,
+  "end": 330.95,
+  "text": "will mark it as completed and uh now we"
+ },
+ {
+  "start": 330.96,
+  "end": 335.87,
+  "text": "will go ahead and try to run this in"
+ },
+ {
+  "start": 338.189,
+  "end": 338.199,
+  "text": "scratchbook okay so as you can see uh it"
+ },
+ {
+  "start": 338.199,
+  "end": 340.07,
+  "text": "clicked on the Generate random text it"
+ },
+ {
+  "start": 340.08,
+  "end": 343.27,
+  "text": "buffered uh the randomly generated text"
+ },
+ {
+  "start": 343.28,
+  "end": 346.15,
+  "text": "and then uh it used that buffer value to"
+ },
+ {
+  "start": 346.16,
+  "end": 348.11,
+  "text": "select it from the drop down and then it"
+ },
+ {
+  "start": 348.12,
+  "end": 350.909,
+  "text": "clicked on the submit okay it's a pretty"
+ },
+ {
+  "start": 350.919,
+  "end": 353.029,
+  "text": "simple obstacle as I mentioned earlier"
+ },
+ {
+  "start": 353.039,
+  "end": 355.67,
+  "text": "but it's a pretty common scenario which"
+ },
+ {
+  "start": 355.68,
+  "end": 357.67,
+  "text": "you will come across numerous times in"
+ },
+ {
+  "start": 357.68,
+  "end": 358.469,
+  "text": "your"
+ },
+ {
+  "start": 358.479,
+  "end": 361.309,
+  "text": "application so you should be comfortable"
+ },
+ {
+  "start": 361.319,
+  "end": 363.23,
+  "text": "uh with uh how to automate this"
+ },
+ {
+  "start": 363.24,
+  "end": 365.59,
+  "text": "particular scenario uh in your"
+ },
+ {
+  "start": 365.6,
+  "end": 367.07,
+  "text": "application using"
+ },
+ {
+  "start": 367.08,
+  "end": 369.469,
+  "text": "tosa that's all for this particular"
+ },
+ {
+  "start": 369.479,
+  "end": 371.87,
+  "text": "video if you have any questions then"
+ },
+ {
+  "start": 371.88,
+  "end": 374.35,
+  "text": "please leave it in the comments if you"
+ },
+ {
+  "start": 374.36,
+  "end": 376.309,
+  "text": "like this video then please subscribe to"
+ },
+ {
+  "start": 376.319,
+  "end": 379.029,
+  "text": "our Channel thanks for watching and I"
+ },
+ {
+  "start": 379.039,
+  "end": 380.95,
+  "text": "will see you in the next"
+ },
+ {
+  "start": 380.96,
+  "end": 383.96,
+  "text": "video"
+ }
+]

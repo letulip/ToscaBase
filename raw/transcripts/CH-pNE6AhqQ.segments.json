@@ -1,0 +1,1127 @@
+[
+ {
+  "start": 8.21,
+  "end": 8.22,
+  "text": "hey everyone welcome back to this Tosca"
+ },
+ {
+  "start": 8.22,
+  "end": 10.43,
+  "text": "automation playlist and we are still"
+ },
+ {
+  "start": 10.44,
+  "end": 13.43,
+  "text": "talking about our top 10 Tosca best"
+ },
+ {
+  "start": 13.44,
+  "end": 14.69,
+  "text": "practices"
+ },
+ {
+  "start": 14.7,
+  "end": 16.49,
+  "text": "now we have already discussed about"
+ },
+ {
+  "start": 16.5,
+  "end": 19.79,
+  "text": "three best practices and I'm going to"
+ },
+ {
+  "start": 19.8,
+  "end": 22.07,
+  "text": "talk about the fourth best practice in"
+ },
+ {
+  "start": 22.08,
+  "end": 24.23,
+  "text": "this complete list now if you have not"
+ },
+ {
+  "start": 24.24,
+  "end": 26.33,
+  "text": "watched the previous best practices"
+ },
+ {
+  "start": 26.34,
+  "end": 29.81,
+  "text": "again you know the drill go back and"
+ },
+ {
+  "start": 29.82,
+  "end": 31.91,
+  "text": "watch all the three best practices and"
+ },
+ {
+  "start": 31.92,
+  "end": 33.47,
+  "text": "make sure you have implemented them"
+ },
+ {
+  "start": 33.48,
+  "end": 35.99,
+  "text": "before continuing with this particular"
+ },
+ {
+  "start": 36.0,
+  "end": 37.43,
+  "text": "video"
+ },
+ {
+  "start": 37.44,
+  "end": 39.29,
+  "text": "also don't forget to subscribe to our"
+ },
+ {
+  "start": 39.3,
+  "end": 41.389,
+  "text": "channel so that you don't miss out on"
+ },
+ {
+  "start": 41.399,
+  "end": 43.13,
+  "text": "all the upcoming videos on this"
+ },
+ {
+  "start": 43.14,
+  "end": 45.41,
+  "text": "particular topic"
+ },
+ {
+  "start": 45.42,
+  "end": 47.93,
+  "text": "so now let's talk about this particular"
+ },
+ {
+  "start": 47.94,
+  "end": 51.049,
+  "text": "best practice it's a very common best"
+ },
+ {
+  "start": 51.059,
+  "end": 52.97,
+  "text": "practice which is followed in test"
+ },
+ {
+  "start": 52.98,
+  "end": 55.91,
+  "text": "automation no matter which tool you use"
+ },
+ {
+  "start": 55.92,
+  "end": 59.45,
+  "text": "or which framework you use okay"
+ },
+ {
+  "start": 59.46,
+  "end": 62.51,
+  "text": "so it basically talks about not using"
+ },
+ {
+  "start": 62.52,
+  "end": 65.75,
+  "text": "any static weights in your automated"
+ },
+ {
+  "start": 65.76,
+  "end": 69.35,
+  "text": "test cases and the reason is very simple"
+ },
+ {
+  "start": 69.36,
+  "end": 73.37,
+  "text": "when you use static weights then your"
+ },
+ {
+  "start": 73.38,
+  "end": 75.77,
+  "text": "test cases are going to take more time"
+ },
+ {
+  "start": 75.78,
+  "end": 78.83,
+  "text": "to execute because static weights are"
+ },
+ {
+  "start": 78.84,
+  "end": 81.469,
+  "text": "wait times which are constant which"
+ },
+ {
+  "start": 81.479,
+  "end": 85.01,
+  "text": "means the system or the tool is going to"
+ },
+ {
+  "start": 85.02,
+  "end": 87.83,
+  "text": "wait for that amount of time no matter"
+ },
+ {
+  "start": 87.84,
+  "end": 91.31,
+  "text": "what is the state of the application or"
+ },
+ {
+  "start": 91.32,
+  "end": 94.07,
+  "text": "what you intended to get from the"
+ },
+ {
+  "start": 94.08,
+  "end": 97.13,
+  "text": "application is already present right so"
+ },
+ {
+  "start": 97.14,
+  "end": 98.81,
+  "text": "maybe you don't need to wait for that"
+ },
+ {
+  "start": 98.82,
+  "end": 101.749,
+  "text": "amount of time but since you are using a"
+ },
+ {
+  "start": 101.759,
+  "end": 104.51,
+  "text": "static fit the system will always wait"
+ },
+ {
+  "start": 104.52,
+  "end": 106.91,
+  "text": "for that amount of time before"
+ },
+ {
+  "start": 106.92,
+  "end": 109.37,
+  "text": "proceeding with the next step in your"
+ },
+ {
+  "start": 109.38,
+  "end": 111.289,
+  "text": "test case and that's the biggest"
+ },
+ {
+  "start": 111.299,
+  "end": 114.469,
+  "text": "disadvantage because if you keep on"
+ },
+ {
+  "start": 114.479,
+  "end": 116.51,
+  "text": "adding the static weights in your test"
+ },
+ {
+  "start": 116.52,
+  "end": 119.33,
+  "text": "cases then your overall execution time"
+ },
+ {
+  "start": 119.34,
+  "end": 121.789,
+  "text": "for that particular test case will"
+ },
+ {
+  "start": 121.799,
+  "end": 125.09,
+  "text": "increase by a lot of time okay"
+ },
+ {
+  "start": 125.1,
+  "end": 128.449,
+  "text": "so instead of this you should always be"
+ },
+ {
+  "start": 128.459,
+  "end": 131.75,
+  "text": "using a dynamic weight mechanism which"
+ },
+ {
+  "start": 131.76,
+  "end": 133.729,
+  "text": "can basically synchronize your"
+ },
+ {
+  "start": 133.739,
+  "end": 136.61,
+  "text": "application with your automation tool"
+ },
+ {
+  "start": 136.62,
+  "end": 138.71,
+  "text": "and that is the same thing which is"
+ },
+ {
+  "start": 138.72,
+  "end": 140.449,
+  "text": "applied in Tosca"
+ },
+ {
+  "start": 140.459,
+  "end": 142.309,
+  "text": "so there are number of ways to do this"
+ },
+ {
+  "start": 142.319,
+  "end": 144.89,
+  "text": "but generally when you want to"
+ },
+ {
+  "start": 144.9,
+  "end": 147.589,
+  "text": "synchronize your application with Tosca"
+ },
+ {
+  "start": 147.599,
+  "end": 150.01,
+  "text": "and you want to apply some weight"
+ },
+ {
+  "start": 150.02,
+  "end": 153.65,
+  "text": "mechanism then you should be using the"
+ },
+ {
+  "start": 153.66,
+  "end": 157.97,
+  "text": "weight on method now it is uh one of the"
+ },
+ {
+  "start": 157.98,
+  "end": 160.49,
+  "text": "action modes okay and we'll see how it"
+ },
+ {
+  "start": 160.5,
+  "end": 162.949,
+  "text": "is done but this is the method which you"
+ },
+ {
+  "start": 162.959,
+  "end": 164.93,
+  "text": "should use because it is dynamic in"
+ },
+ {
+  "start": 164.94,
+  "end": 167.57,
+  "text": "nature so it will wait"
+ },
+ {
+  "start": 167.58,
+  "end": 170.27,
+  "text": "um until a specified amount of time okay"
+ },
+ {
+  "start": 170.28,
+  "end": 172.369,
+  "text": "which is specified in the test case or"
+ },
+ {
+  "start": 172.379,
+  "end": 175.43,
+  "text": "in the settings and then uh it will wait"
+ },
+ {
+  "start": 175.44,
+  "end": 178.009,
+  "text": "until that maximum time but the"
+ },
+ {
+  "start": 178.019,
+  "end": 181.009,
+  "text": "difference between static weight and the"
+ },
+ {
+  "start": 181.019,
+  "end": 184.07,
+  "text": "weight on method is that when you use"
+ },
+ {
+  "start": 184.08,
+  "end": 186.589,
+  "text": "weight on method then it will only wait"
+ },
+ {
+  "start": 186.599,
+  "end": 188.99,
+  "text": "for the time until that particular"
+ },
+ {
+  "start": 189.0,
+  "end": 191.21,
+  "text": "condition which you have specified is"
+ },
+ {
+  "start": 191.22,
+  "end": 192.05,
+  "text": "met"
+ },
+ {
+  "start": 192.06,
+  "end": 195.17,
+  "text": "so once that condition is met it will go"
+ },
+ {
+  "start": 195.18,
+  "end": 197.75,
+  "text": "ahead and it will execute the next step"
+ },
+ {
+  "start": 197.76,
+  "end": 201.589,
+  "text": "no matter even if it has not reached or"
+ },
+ {
+  "start": 201.599,
+  "end": 203.99,
+  "text": "not waited the amount of time it should"
+ },
+ {
+  "start": 204.0,
+  "end": 207.47,
+  "text": "wait for that maximum period right so"
+ },
+ {
+  "start": 207.48,
+  "end": 209.93,
+  "text": "you can see the difference uh one is"
+ },
+ {
+  "start": 209.94,
+  "end": 211.85,
+  "text": "dynamic in nature one is static in"
+ },
+ {
+  "start": 211.86,
+  "end": 215.03,
+  "text": "nature okay and for static weight we use"
+ },
+ {
+  "start": 215.04,
+  "end": 218.21,
+  "text": "the t-box weight method okay"
+ },
+ {
+  "start": 218.22,
+  "end": 220.85,
+  "text": "so we'll see both the methods with an"
+ },
+ {
+  "start": 220.86,
+  "end": 224.03,
+  "text": "example okay and for this example I'm"
+ },
+ {
+  "start": 224.04,
+  "end": 226.49,
+  "text": "going to use one of the obstacle pages"
+ },
+ {
+  "start": 226.5,
+  "end": 229.67,
+  "text": "okay here you can see uh this in this"
+ },
+ {
+  "start": 229.68,
+  "end": 232.13,
+  "text": "obstacle you need to click on the button"
+ },
+ {
+  "start": 232.14,
+  "end": 234.589,
+  "text": "calculate automatically after some time"
+ },
+ {
+  "start": 234.599,
+  "end": 237.289,
+  "text": "the send button will be visible or"
+ },
+ {
+  "start": 237.299,
+  "end": 239.869,
+  "text": "enabled so right now it is disabled and"
+ },
+ {
+  "start": 239.879,
+  "end": 242.63,
+  "text": "I cannot click on this but if I click on"
+ },
+ {
+  "start": 242.64,
+  "end": 245.39,
+  "text": "calculate and then it is going to take"
+ },
+ {
+  "start": 245.4,
+  "end": 248.05,
+  "text": "this progress bar till 100"
+ },
+ {
+  "start": 248.06,
+  "end": 251.33,
+  "text": "uh so you need to wait for this progress"
+ },
+ {
+  "start": 251.34,
+  "end": 253.789,
+  "text": "bar to complete hundred percent and then"
+ },
+ {
+  "start": 253.799,
+  "end": 256.069,
+  "text": "only the send button will be enabled and"
+ },
+ {
+  "start": 256.079,
+  "end": 258.229,
+  "text": "then I can click on this to complete"
+ },
+ {
+  "start": 258.239,
+  "end": 260.09,
+  "text": "this obstacle right so that's the job"
+ },
+ {
+  "start": 260.1,
+  "end": 261.469,
+  "text": "you need to do"
+ },
+ {
+  "start": 261.479,
+  "end": 264.17,
+  "text": "but uh there are two ways of doing this"
+ },
+ {
+  "start": 264.18,
+  "end": 267.95,
+  "text": "okay so one is the inefficient way where"
+ },
+ {
+  "start": 267.96,
+  "end": 271.73,
+  "text": "you can use a t-box wheat method to wait"
+ },
+ {
+  "start": 271.74,
+  "end": 274.55,
+  "text": "for this amount of time and also you"
+ },
+ {
+  "start": 274.56,
+  "end": 276.469,
+  "text": "need to calculate how much time it is"
+ },
+ {
+  "start": 276.479,
+  "end": 278.93,
+  "text": "taking to reach 100 percent right"
+ },
+ {
+  "start": 278.94,
+  "end": 282.59,
+  "text": "so it may be 20 seconds 30 seconds and"
+ },
+ {
+  "start": 282.6,
+  "end": 284.51,
+  "text": "similarly you have to wait it in your"
+ },
+ {
+  "start": 284.52,
+  "end": 286.67,
+  "text": "you need to put a wait time in your test"
+ },
+ {
+  "start": 286.68,
+  "end": 288.77,
+  "text": "case Okay after which this will be"
+ },
+ {
+  "start": 288.78,
+  "end": 291.05,
+  "text": "enabled and then you can click on it so"
+ },
+ {
+  "start": 291.06,
+  "end": 293.11,
+  "text": "this is the inefficient way of"
+ },
+ {
+  "start": 293.12,
+  "end": 295.969,
+  "text": "automating this particular scenario the"
+ },
+ {
+  "start": 295.979,
+  "end": 298.51,
+  "text": "efficient way is to click on calculate"
+ },
+ {
+  "start": 298.52,
+  "end": 301.43,
+  "text": "and then put a weight on action method"
+ },
+ {
+  "start": 301.44,
+  "end": 305.09,
+  "text": "on this send button okay so it will wait"
+ },
+ {
+  "start": 305.1,
+  "end": 307.249,
+  "text": "till the send button is enabled no"
+ },
+ {
+  "start": 307.259,
+  "end": 309.469,
+  "text": "matter how much time it takes okay"
+ },
+ {
+  "start": 309.479,
+  "end": 312.05,
+  "text": "and once it is enabled then we click on"
+ },
+ {
+  "start": 312.06,
+  "end": 314.749,
+  "text": "this so this is the efficient way of"
+ },
+ {
+  "start": 314.759,
+  "end": 318.469,
+  "text": "automating the scenario with Tosca okay"
+ },
+ {
+  "start": 318.479,
+  "end": 322.55,
+  "text": "now let's see uh this in action okay so"
+ },
+ {
+  "start": 322.56,
+  "end": 326.57,
+  "text": "I have already created two obstacle test"
+ },
+ {
+  "start": 326.58,
+  "end": 329.93,
+  "text": "cases for this particular scenario okay"
+ },
+ {
+  "start": 329.94,
+  "end": 333.35,
+  "text": "and uh it is the same scenario okay but"
+ },
+ {
+  "start": 333.36,
+  "end": 335.57,
+  "text": "the way I'm doing it is little different"
+ },
+ {
+  "start": 335.58,
+  "end": 338.39,
+  "text": "so if you look at the first way it is"
+ },
+ {
+  "start": 338.4,
+  "end": 342.05,
+  "text": "using the key box with method here the"
+ },
+ {
+  "start": 342.06,
+  "end": 344.749,
+  "text": "duration I've specified it as 20 seconds"
+ },
+ {
+  "start": 344.759,
+  "end": 347.57,
+  "text": "I don't really know exactly how much"
+ },
+ {
+  "start": 347.58,
+  "end": 351.469,
+  "text": "time it takes but I have put a certain"
+ },
+ {
+  "start": 351.479,
+  "end": 353.51,
+  "text": "time so that it will wait for 20 seconds"
+ },
+ {
+  "start": 353.52,
+  "end": 356.09,
+  "text": "okay after clicking on calculate and"
+ },
+ {
+  "start": 356.1,
+  "end": 358.189,
+  "text": "then it will click on the send button"
+ },
+ {
+  "start": 358.199,
+  "end": 359.51,
+  "text": "okay"
+ },
+ {
+  "start": 359.52,
+  "end": 363.29,
+  "text": "the second method is uh doing the same"
+ },
+ {
+  "start": 363.3,
+  "end": 365.689,
+  "text": "but it doesn't have the t-box feet a"
+ },
+ {
+  "start": 365.699,
+  "end": 367.85,
+  "text": "step okay so one last step"
+ },
+ {
+  "start": 367.86,
+  "end": 370.249,
+  "text": "also if you see in this particular step"
+ },
+ {
+  "start": 370.259,
+  "end": 372.65,
+  "text": "it clicks on calculate and then it is"
+ },
+ {
+  "start": 372.66,
+  "end": 374.93,
+  "text": "using the action mode weight on to wait"
+ },
+ {
+  "start": 374.94,
+  "end": 376.909,
+  "text": "till this particular condition is"
+ },
+ {
+  "start": 376.919,
+  "end": 379.37,
+  "text": "satisfied in the value which is enabled"
+ },
+ {
+  "start": 379.38,
+  "end": 381.77,
+  "text": "equals equals true okay and then it will"
+ },
+ {
+  "start": 381.78,
+  "end": 383.45,
+  "text": "click on calculate"
+ },
+ {
+  "start": 383.46,
+  "end": 385.79,
+  "text": "so you can see the difference here there"
+ },
+ {
+  "start": 385.8,
+  "end": 390.17,
+  "text": "is one uh step lesser okay also it is"
+ },
+ {
+  "start": 390.18,
+  "end": 392.39,
+  "text": "more efficient because I don't need to"
+ },
+ {
+  "start": 392.4,
+  "end": 395.809,
+  "text": "calculate the time it has to wait and in"
+ },
+ {
+  "start": 395.819,
+  "end": 398.33,
+  "text": "real time applications okay the wait"
+ },
+ {
+  "start": 398.34,
+  "end": 400.189,
+  "text": "time could be anything it could depend"
+ },
+ {
+  "start": 400.199,
+  "end": 402.89,
+  "text": "on your network bandwidth or it could"
+ },
+ {
+  "start": 402.9,
+  "end": 405.65,
+  "text": "depend on various other reasons so it is"
+ },
+ {
+  "start": 405.66,
+  "end": 408.469,
+  "text": "practically impossible to actually"
+ },
+ {
+  "start": 408.479,
+  "end": 410.87,
+  "text": "calculate a particular time uh you"
+ },
+ {
+  "start": 410.88,
+  "end": 412.969,
+  "text": "should wait for a particular control to"
+ },
+ {
+  "start": 412.979,
+  "end": 416.029,
+  "text": "appear or enable also you should not be"
+ },
+ {
+  "start": 416.039,
+  "end": 418.01,
+  "text": "doing that you should be making your"
+ },
+ {
+  "start": 418.02,
+  "end": 420.11,
+  "text": "test cases more dynamic in nature so"
+ },
+ {
+  "start": 420.12,
+  "end": 421.61,
+  "text": "that it can handle this kind of"
+ },
+ {
+  "start": 421.62,
+  "end": 424.73,
+  "text": "scenarios if they appear during the"
+ },
+ {
+  "start": 424.74,
+  "end": 427.01,
+  "text": "execution where you don't have any"
+ },
+ {
+  "start": 427.02,
+  "end": 430.43,
+  "text": "control over your test cases okay"
+ },
+ {
+  "start": 430.44,
+  "end": 434.689,
+  "text": "so if I go ahead and run this you will"
+ },
+ {
+  "start": 434.699,
+  "end": 437.57,
+  "text": "see the difference okay so let me run it"
+ },
+ {
+  "start": 437.58,
+  "end": 439.79,
+  "text": "the first time where we are using a"
+ },
+ {
+  "start": 439.8,
+  "end": 442.129,
+  "text": "static weight and it is going to wait"
+ },
+ {
+  "start": 442.139,
+  "end": 445.85,
+  "text": "till uh 20 seconds after it clicks on"
+ },
+ {
+  "start": 445.86,
+  "end": 449.87,
+  "text": "the calculate button okay"
+ },
+ {
+  "start": 451.969,
+  "end": 451.979,
+  "text": "so here it is clicking on the calculate"
+ },
+ {
+  "start": 451.979,
+  "end": 455.629,
+  "text": "button and then it is waiting for 20"
+ },
+ {
+  "start": 455.639,
+  "end": 458.27,
+  "text": "seconds no matter if the progress is"
+ },
+ {
+  "start": 458.28,
+  "end": 461.089,
+  "text": "complete still it is going to wait for"
+ },
+ {
+  "start": 461.099,
+  "end": 463.129,
+  "text": "that amount of time you can see here it"
+ },
+ {
+  "start": 463.139,
+  "end": 465.35,
+  "text": "is still not clicking on the same button"
+ },
+ {
+  "start": 465.36,
+  "end": 468.55,
+  "text": "because maybe my wait time is more than"
+ },
+ {
+  "start": 468.56,
+  "end": 472.07,
+  "text": "what it should be okay"
+ },
+ {
+  "start": 472.08,
+  "end": 474.35,
+  "text": "and sometimes you will not even get the"
+ },
+ {
+  "start": 474.36,
+  "end": 477.11,
+  "text": "desired result as you can see here now"
+ },
+ {
+  "start": 477.12,
+  "end": 479.629,
+  "text": "this particular page has gone back to"
+ },
+ {
+  "start": 479.639,
+  "end": 481.61,
+  "text": "its original state so it didn't even"
+ },
+ {
+  "start": 481.62,
+  "end": 484.309,
+  "text": "click the send button okay so I need to"
+ },
+ {
+  "start": 484.319,
+  "end": 487.37,
+  "text": "adjust my time wait time to basically"
+ },
+ {
+  "start": 487.38,
+  "end": 489.969,
+  "text": "sync with this particular"
+ },
+ {
+  "start": 489.979,
+  "end": 492.409,
+  "text": "functionality okay which is very"
+ },
+ {
+  "start": 492.419,
+  "end": 494.87,
+  "text": "difficult and which is not recommended"
+ },
+ {
+  "start": 494.88,
+  "end": 498.409,
+  "text": "now let's try and run the second test"
+ },
+ {
+  "start": 498.419,
+  "end": 501.71,
+  "text": "case okay and let's see the difference"
+ },
+ {
+  "start": 501.72,
+  "end": 504.35,
+  "text": "and this time around you will see that"
+ },
+ {
+  "start": 504.36,
+  "end": 507.71,
+  "text": "even if I am not using any wait time it"
+ },
+ {
+  "start": 507.72,
+  "end": 510.469,
+  "text": "is able to progress and it is able to"
+ },
+ {
+  "start": 510.479,
+  "end": 512.63,
+  "text": "click on the send button okay because it"
+ },
+ {
+  "start": 512.64,
+  "end": 516.35,
+  "text": "is dynamic it can wait until the amount"
+ },
+ {
+  "start": 516.36,
+  "end": 520.01,
+  "text": "of time uh till that send button is not"
+ },
+ {
+  "start": 520.02,
+  "end": 523.13,
+  "text": "enabled okay and as soon as it is"
+ },
+ {
+  "start": 523.14,
+  "end": 525.17,
+  "text": "enabled it is going to click on it it's"
+ },
+ {
+  "start": 525.18,
+  "end": 528.769,
+  "text": "not going to wait any longer okay"
+ },
+ {
+  "start": 528.779,
+  "end": 530.93,
+  "text": "so you can see here the send button got"
+ },
+ {
+  "start": 530.94,
+  "end": 533.389,
+  "text": "enabled and then I was able to click on"
+ },
+ {
+  "start": 533.399,
+  "end": 534.17,
+  "text": "it"
+ },
+ {
+  "start": 534.18,
+  "end": 536.389,
+  "text": "so you can see the difference"
+ },
+ {
+  "start": 536.399,
+  "end": 538.85,
+  "text": "um one is more efficient and gives you"
+ },
+ {
+  "start": 538.86,
+  "end": 541.79,
+  "text": "better results you would be sure that"
+ },
+ {
+  "start": 541.8,
+  "end": 544.37,
+  "text": "using a dynamic weight you are actually"
+ },
+ {
+  "start": 544.38,
+  "end": 546.41,
+  "text": "performing the right kind of action"
+ },
+ {
+  "start": 546.42,
+  "end": 548.389,
+  "text": "which your automated test case is"
+ },
+ {
+  "start": 548.399,
+  "end": 552.05,
+  "text": "supposed to do but in static weight it"
+ },
+ {
+  "start": 552.06,
+  "end": 554.63,
+  "text": "might pass sometimes it might feel uh"
+ },
+ {
+  "start": 554.64,
+  "end": 557.93,
+  "text": "many times okay so you know the"
+ },
+ {
+  "start": 557.94,
+  "end": 559.79,
+  "text": "difference but this is the best practice"
+ },
+ {
+  "start": 559.8,
+  "end": 562.37,
+  "text": "which is recommended by transientists so"
+ },
+ {
+  "start": 562.38,
+  "end": 565.25,
+  "text": "to conclude uh you should only be using"
+ },
+ {
+  "start": 565.26,
+  "end": 568.07,
+  "text": "static weight as a last resort"
+ },
+ {
+  "start": 568.08,
+  "end": 571.43,
+  "text": "so if nothing else works then only go"
+ },
+ {
+  "start": 571.44,
+  "end": 573.47,
+  "text": "ahead and use static weight but this"
+ },
+ {
+  "start": 573.48,
+  "end": 576.11,
+  "text": "should be the minimum in your test cases"
+ },
+ {
+  "start": 576.12,
+  "end": 577.19,
+  "text": "okay"
+ },
+ {
+  "start": 577.2,
+  "end": 579.769,
+  "text": "uh always try to use the dynamic weight"
+ },
+ {
+  "start": 579.779,
+  "end": 582.05,
+  "text": "mechanisms one way is the weight on"
+ },
+ {
+  "start": 582.06,
+  "end": 584.15,
+  "text": "method there could be several other ways"
+ },
+ {
+  "start": 584.16,
+  "end": 586.85,
+  "text": "in Tosca through which you can implement"
+ },
+ {
+  "start": 586.86,
+  "end": 590.269,
+  "text": "this Dynamic weight okay"
+ },
+ {
+  "start": 592.73,
+  "end": 592.74,
+  "text": "so that's all for this particular video"
+ },
+ {
+  "start": 592.74,
+  "end": 594.91,
+  "text": "um and talking about the best practices"
+ },
+ {
+  "start": 594.92,
+  "end": 598.009,
+  "text": "uh hope you like it and you enjoyed it"
+ },
+ {
+  "start": 598.019,
+  "end": 600.41,
+  "text": "we have lots more videos coming up so"
+ },
+ {
+  "start": 600.42,
+  "end": 604.04,
+  "text": "keep watching and keep learning"
+ }
+]

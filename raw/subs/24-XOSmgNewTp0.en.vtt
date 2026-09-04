@@ -1,0 +1,1304 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.659 --> 00:00:02.510 align:start position:0%
+ 
+hey<00:00:01.199><c> everyone</c><00:00:01.380><c> welcome</c><00:00:02.100><c> to</c><00:00:02.340><c> another</c>
+
+00:00:02.510 --> 00:00:02.520 align:start position:0%
+hey everyone welcome to another
+ 
+
+00:00:02.520 --> 00:00:05.329 align:start position:0%
+hey everyone welcome to another
+interesting<00:00:03.179><c> Tosca</c><00:00:03.720><c> lesson</c><00:00:04.440><c> in</c><00:00:05.040><c> this</c><00:00:05.160><c> session</c>
+
+00:00:05.329 --> 00:00:05.339 align:start position:0%
+interesting Tosca lesson in this session
+ 
+
+00:00:05.339 --> 00:00:07.670 align:start position:0%
+interesting Tosca lesson in this session
+I<00:00:05.880><c> am</c><00:00:06.060><c> going</c><00:00:06.180><c> to</c><00:00:06.359><c> talk</c><00:00:06.660><c> about</c><00:00:06.960><c> how</c><00:00:07.379><c> you</c><00:00:07.560><c> can</c>
+
+00:00:07.670 --> 00:00:07.680 align:start position:0%
+I am going to talk about how you can
+ 
+
+00:00:07.680 --> 00:00:11.209 align:start position:0%
+I am going to talk about how you can
+compare<00:00:08.220><c> two</c><00:00:08.639><c> PDF</c><00:00:09.179><c> files</c><00:00:09.599><c> using</c><00:00:10.500><c> a</c><00:00:10.860><c> t-box</c>
+
+00:00:11.209 --> 00:00:11.219 align:start position:0%
+compare two PDF files using a t-box
+ 
+
+00:00:11.219 --> 00:00:12.589 align:start position:0%
+compare two PDF files using a t-box
+module
+
+00:00:12.589 --> 00:00:12.599 align:start position:0%
+module
+ 
+
+00:00:12.599 --> 00:00:14.270 align:start position:0%
+module
+so<00:00:13.080><c> you</c><00:00:13.200><c> don't</c><00:00:13.320><c> need</c><00:00:13.500><c> to</c><00:00:13.620><c> write</c><00:00:13.860><c> any</c>
+
+00:00:14.270 --> 00:00:14.280 align:start position:0%
+so you don't need to write any
+ 
+
+00:00:14.280 --> 00:00:16.790 align:start position:0%
+so you don't need to write any
+particular<00:00:14.639><c> test</c><00:00:14.880><c> cases</c><00:00:15.360><c> or</c><00:00:15.900><c> you</c><00:00:16.440><c> don't</c><00:00:16.619><c> need</c>
+
+00:00:16.790 --> 00:00:16.800 align:start position:0%
+particular test cases or you don't need
+ 
+
+00:00:16.800 --> 00:00:19.490 align:start position:0%
+particular test cases or you don't need
+to<00:00:16.920><c> create</c><00:00:17.100><c> any</c><00:00:17.400><c> modules</c><00:00:17.880><c> a</c><00:00:18.600><c> module</c><00:00:19.020><c> is</c>
+
+00:00:19.490 --> 00:00:19.500 align:start position:0%
+to create any modules a module is
+ 
+
+00:00:19.500 --> 00:00:22.070 align:start position:0%
+to create any modules a module is
+already<00:00:19.740><c> provided</c><00:00:20.460><c> in</c><00:00:21.180><c> the</c><00:00:21.300><c> standard</c><00:00:21.600><c> subset</c>
+
+00:00:22.070 --> 00:00:22.080 align:start position:0%
+already provided in the standard subset
+ 
+
+00:00:22.080 --> 00:00:24.769 align:start position:0%
+already provided in the standard subset
+which<00:00:22.680><c> can</c><00:00:22.920><c> be</c><00:00:23.100><c> used</c><00:00:23.340><c> to</c><00:00:23.820><c> compare</c><00:00:24.180><c> to</c><00:00:24.359><c> PDF</c>
+
+00:00:24.769 --> 00:00:24.779 align:start position:0%
+which can be used to compare to PDF
+ 
+
+00:00:24.779 --> 00:00:28.550 align:start position:0%
+which can be used to compare to PDF
+files<00:00:25.619><c> okay</c><00:00:26.160><c> so</c><00:00:26.760><c> I've</c><00:00:26.939><c> created</c><00:00:27.359><c> uh</c><00:00:28.019><c> already</c><00:00:28.260><c> a</c>
+
+00:00:28.550 --> 00:00:28.560 align:start position:0%
+files okay so I've created uh already a
+ 
+
+00:00:28.560 --> 00:00:30.890 align:start position:0%
+files okay so I've created uh already a
+test<00:00:28.680><c> case</c><00:00:28.920><c> folder</c><00:00:29.400><c> called</c><00:00:29.580><c> PDF</c><00:00:30.060><c> comparison</c>
+
+00:00:30.890 --> 00:00:30.900 align:start position:0%
+test case folder called PDF comparison
+ 
+
+00:00:30.900 --> 00:00:33.830 align:start position:0%
+test case folder called PDF comparison
+for<00:00:31.560><c> this</c><00:00:31.859><c> comparison</c><00:00:32.399><c> I'm</c><00:00:32.820><c> going</c><00:00:33.059><c> to</c><00:00:33.239><c> use</c><00:00:33.480><c> two</c>
+
+00:00:33.830 --> 00:00:33.840 align:start position:0%
+for this comparison I'm going to use two
+ 
+
+00:00:33.840 --> 00:00:36.950 align:start position:0%
+for this comparison I'm going to use two
+PDF<00:00:34.260><c> files</c><00:00:35.100><c> these</c><00:00:35.760><c> are</c><00:00:35.880><c> not</c><00:00:36.120><c> exactly</c><00:00:36.660><c> same</c>
+
+00:00:36.950 --> 00:00:36.960 align:start position:0%
+PDF files these are not exactly same
+ 
+
+00:00:36.960 --> 00:00:38.870 align:start position:0%
+PDF files these are not exactly same
+there<00:00:37.500><c> is</c><00:00:37.620><c> some</c><00:00:37.860><c> difference</c><00:00:38.040><c> in</c><00:00:38.579><c> both</c><00:00:38.700><c> the</c>
+
+00:00:38.870 --> 00:00:38.880 align:start position:0%
+there is some difference in both the
+ 
+
+00:00:38.880 --> 00:00:42.110 align:start position:0%
+there is some difference in both the
+files<00:00:39.239><c> right</c><00:00:39.620><c> so</c><00:00:40.620><c> if</c><00:00:41.160><c> you</c><00:00:41.700><c> are</c><00:00:41.820><c> going</c><00:00:42.000><c> to</c>
+
+00:00:42.110 --> 00:00:42.120 align:start position:0%
+files right so if you are going to
+ 
+
+00:00:42.120 --> 00:00:44.389 align:start position:0%
+files right so if you are going to
+compare<00:00:42.480><c> these</c><00:00:42.780><c> two</c><00:00:42.899><c> files</c><00:00:43.320><c> uh</c><00:00:43.800><c> you</c><00:00:44.040><c> will</c><00:00:44.160><c> see</c>
+
+00:00:44.389 --> 00:00:44.399 align:start position:0%
+compare these two files uh you will see
+ 
+
+00:00:44.399 --> 00:00:47.690 align:start position:0%
+compare these two files uh you will see
+that<00:00:44.760><c> uh</c><00:00:45.719><c> the</c><00:00:46.260><c> test</c><00:00:46.379><c> case</c><00:00:46.559><c> will</c><00:00:46.800><c> fail</c><00:00:47.040><c> if</c><00:00:47.460><c> you</c>
+
+00:00:47.690 --> 00:00:47.700 align:start position:0%
+that uh the test case will fail if you
+ 
+
+00:00:47.700 --> 00:00:51.350 align:start position:0%
+that uh the test case will fail if you
+have<00:00:48.079><c> provided</c><00:00:49.079><c> a</c><00:00:49.559><c> hundred</c><00:00:49.920><c> percent</c><00:00:50.039><c> accuracy</c>
+
+00:00:51.350 --> 00:00:51.360 align:start position:0%
+have provided a hundred percent accuracy
+ 
+
+00:00:51.360 --> 00:00:54.229 align:start position:0%
+have provided a hundred percent accuracy
+now<00:00:51.899><c> we'll</c><00:00:52.079><c> talk</c><00:00:52.320><c> about</c><00:00:52.440><c> that</c><00:00:52.920><c> uh</c><00:00:53.700><c> when</c><00:00:54.059><c> we</c>
+
+00:00:54.229 --> 00:00:54.239 align:start position:0%
+now we'll talk about that uh when we
+ 
+
+00:00:54.239 --> 00:00:57.950 align:start position:0%
+now we'll talk about that uh when we
+open<00:00:54.480><c> the</c><00:00:54.719><c> module</c><00:00:55.559><c> but</c><00:00:56.399><c> just</c><00:00:56.820><c> looking</c><00:00:57.000><c> at</c><00:00:57.600><c> the</c>
+
+00:00:57.950 --> 00:00:57.960 align:start position:0%
+open the module but just looking at the
+ 
+
+00:00:57.960 --> 00:01:00.830 align:start position:0%
+open the module but just looking at the
+PDF<00:00:58.320><c> file</c><00:00:58.680><c> so</c><00:00:59.520><c> it's</c><00:00:59.760><c> a</c><00:00:59.940><c> PDF</c><00:01:00.300><c> file</c><00:01:00.539><c> which</c><00:01:00.780><c> is</c>
+
+00:01:00.830 --> 00:01:00.840 align:start position:0%
+PDF file so it's a PDF file which is
+ 
+
+00:01:00.840 --> 00:01:02.869 align:start position:0%
+PDF file so it's a PDF file which is
+generated<00:01:01.320><c> in</c><00:01:02.039><c> one</c><00:01:02.219><c> of</c><00:01:02.399><c> the</c><00:01:02.520><c> sample</c>
+
+00:01:02.869 --> 00:01:02.879 align:start position:0%
+generated in one of the sample
+ 
+
+00:01:02.879 --> 00:01:04.789 align:start position:0%
+generated in one of the sample
+applications<00:01:03.539><c> which</c><00:01:04.140><c> is</c><00:01:04.260><c> the</c><00:01:04.440><c> vehicle</c>
+
+00:01:04.789 --> 00:01:04.799 align:start position:0%
+applications which is the vehicle
+ 
+
+00:01:04.799 --> 00:01:07.250 align:start position:0%
+applications which is the vehicle
+insurance<00:01:05.040><c> application</c><00:01:05.760><c> so</c><00:01:06.659><c> it</c><00:01:06.840><c> looks</c><00:01:07.080><c> like</c>
+
+00:01:07.250 --> 00:01:07.260 align:start position:0%
+insurance application so it looks like
+ 
+
+00:01:07.260 --> 00:01:09.289 align:start position:0%
+insurance application so it looks like
+that
+
+00:01:09.289 --> 00:01:09.299 align:start position:0%
+that
+ 
+
+00:01:09.299 --> 00:01:11.810 align:start position:0%
+that
+so<00:01:09.659><c> it</c><00:01:09.780><c> looks</c><00:01:10.080><c> like</c><00:01:10.260><c> this</c><00:01:10.619><c> it</c><00:01:11.220><c> has</c><00:01:11.400><c> just</c><00:01:11.580><c> got</c>
+
+00:01:11.810 --> 00:01:11.820 align:start position:0%
+so it looks like this it has just got
+ 
+
+00:01:11.820 --> 00:01:13.609 align:start position:0%
+so it looks like this it has just got
+one<00:01:12.240><c> page</c><00:01:12.540><c> okay</c>
+
+00:01:13.609 --> 00:01:13.619 align:start position:0%
+one page okay
+ 
+
+00:01:13.619 --> 00:01:17.690 align:start position:0%
+one page okay
+but<00:01:14.340><c> you</c><00:01:14.760><c> can</c><00:01:14.939><c> also</c><00:01:15.360><c> compare</c><00:01:15.900><c> multiple</c><00:01:16.799><c> uh</c>
+
+00:01:17.690 --> 00:01:17.700 align:start position:0%
+but you can also compare multiple uh
+ 
+
+00:01:17.700 --> 00:01:22.429 align:start position:0%
+but you can also compare multiple uh
+Pages<00:01:18.420><c> uh</c><00:01:19.080><c> in</c><00:01:19.260><c> your</c><00:01:19.439><c> PDFs</c><00:01:19.979><c> okay</c>
+
+00:01:22.429 --> 00:01:22.439 align:start position:0%
+ 
+ 
+
+00:01:22.439 --> 00:01:23.570 align:start position:0%
+ 
+okay
+
+00:01:23.570 --> 00:01:23.580 align:start position:0%
+okay
+ 
+
+00:01:23.580 --> 00:01:26.570 align:start position:0%
+okay
+um<00:01:23.640><c> so</c><00:01:24.000><c> let's</c><00:01:24.180><c> go</c><00:01:24.479><c> ahead</c><00:01:24.720><c> and</c><00:01:25.380><c> add</c><00:01:25.860><c> our</c><00:01:26.100><c> module</c>
+
+00:01:26.570 --> 00:01:26.580 align:start position:0%
+um so let's go ahead and add our module
+ 
+
+00:01:26.580 --> 00:01:30.530 align:start position:0%
+um so let's go ahead and add our module
+now<00:01:26.759><c> okay</c><00:01:27.360><c> so</c><00:01:27.960><c> let</c><00:01:28.500><c> me</c><00:01:28.680><c> add</c><00:01:28.920><c> this</c><00:01:29.340><c> case</c><00:01:29.580><c> here</c>
+
+00:01:30.530 --> 00:01:30.540 align:start position:0%
+now okay so let me add this case here
+ 
+
+00:01:30.540 --> 00:01:35.630 align:start position:0%
+now okay so let me add this case here
+and<00:01:31.020><c> I'm</c><00:01:31.140><c> going</c><00:01:31.380><c> to</c><00:01:31.619><c> call</c><00:01:31.799><c> it</c><00:01:31.979><c> compare</c><00:01:32.580><c> PDF</c>
+
+00:01:35.630 --> 00:01:35.640 align:start position:0%
+ 
+ 
+
+00:01:35.640 --> 00:01:39.050 align:start position:0%
+ 
+and<00:01:36.240><c> then</c><00:01:36.479><c> let's</c><00:01:37.140><c> search</c><00:01:37.680><c> for</c><00:01:38.159><c> this</c><00:01:38.460><c> compare</c>
+
+00:01:39.050 --> 00:01:39.060 align:start position:0%
+and then let's search for this compare
+ 
+
+00:01:39.060 --> 00:01:42.770 align:start position:0%
+and then let's search for this compare
+PDF<00:01:39.540><c> so</c><00:01:40.200><c> when</c><00:01:40.619><c> you</c><00:01:40.799><c> type</c><00:01:41.040><c> compare</c><00:01:41.659><c> the</c><00:01:42.659><c> first</c>
+
+00:01:42.770 --> 00:01:42.780 align:start position:0%
+PDF so when you type compare the first
+ 
+
+00:01:42.780 --> 00:01:45.230 align:start position:0%
+PDF so when you type compare the first
+option<00:01:43.200><c> is</c><00:01:43.560><c> one</c><00:01:43.799><c> is</c><00:01:43.979><c> to</c><00:01:44.100><c> one</c><00:01:44.280><c> compare</c><00:01:44.700><c> now</c><00:01:45.060><c> we</c>
+
+00:01:45.230 --> 00:01:45.240 align:start position:0%
+option is one is to one compare now we
+ 
+
+00:01:45.240 --> 00:01:46.789 align:start position:0%
+option is one is to one compare now we
+have<00:01:45.420><c> already</c><00:01:45.600><c> seen</c><00:01:46.020><c> some</c><00:01:46.320><c> of</c><00:01:46.439><c> the</c><00:01:46.619><c> other</c>
+
+00:01:46.789 --> 00:01:46.799 align:start position:0%
+have already seen some of the other
+ 
+
+00:01:46.799 --> 00:01:49.969 align:start position:0%
+have already seen some of the other
+t-box<00:01:47.400><c> modules</c><00:01:47.880><c> like</c><00:01:48.180><c> file</c><00:01:48.479><c> compare</c><00:01:49.020><c> you</c><00:01:49.920><c> can</c>
+
+00:01:49.969 --> 00:01:49.979 align:start position:0%
+t-box modules like file compare you can
+ 
+
+00:01:49.979 --> 00:01:52.850 align:start position:0%
+t-box modules like file compare you can
+also<00:01:50.220><c> compare</c><00:01:50.579><c> images</c><00:01:50.880><c> right</c><00:01:51.479><c> and</c><00:01:52.079><c> also</c><00:01:52.560><c> a</c>
+
+00:01:52.850 --> 00:01:52.860 align:start position:0%
+also compare images right and also a
+ 
+
+00:01:52.860 --> 00:01:54.289 align:start position:0%
+also compare images right and also a
+Excel<00:01:53.280><c> file</c>
+
+00:01:54.289 --> 00:01:54.299 align:start position:0%
+Excel file
+ 
+
+00:01:54.299 --> 00:01:57.530 align:start position:0%
+Excel file
+so<00:01:55.140><c> when</c><00:01:55.979><c> you</c><00:01:56.100><c> use</c><00:01:56.340><c> this</c><00:01:56.579><c> one</c><00:01:56.700><c> to</c><00:01:56.880><c> one</c><00:01:57.060><c> compare</c>
+
+00:01:57.530 --> 00:01:57.540 align:start position:0%
+so when you use this one to one compare
+ 
+
+00:01:57.540 --> 00:02:00.590 align:start position:0%
+so when you use this one to one compare
+okay<00:01:58.140><c> we</c><00:01:58.920><c> need</c><00:01:59.040><c> to</c><00:01:59.159><c> provide</c><00:01:59.640><c> the</c><00:02:00.180><c> reference</c>
+
+00:02:00.590 --> 00:02:00.600 align:start position:0%
+okay we need to provide the reference
+ 
+
+00:02:00.600 --> 00:02:04.249 align:start position:0%
+okay we need to provide the reference
+and<00:02:01.020><c> the</c><00:02:01.140><c> target</c><00:02:01.320><c> PDF</c><00:02:02.340><c> so</c><00:02:02.759><c> reference</c><00:02:03.180><c> PDF</c><00:02:03.720><c> is</c>
+
+00:02:04.249 --> 00:02:04.259 align:start position:0%
+and the target PDF so reference PDF is
+ 
+
+00:02:04.259 --> 00:02:06.530 align:start position:0%
+and the target PDF so reference PDF is
+the<00:02:04.439><c> PDF</c><00:02:04.860><c> which</c><00:02:05.159><c> will</c><00:02:05.340><c> act</c><00:02:05.579><c> as</c><00:02:05.939><c> a</c><00:02:06.180><c> reference</c>
+
+00:02:06.530 --> 00:02:06.540 align:start position:0%
+the PDF which will act as a reference
+ 
+
+00:02:06.540 --> 00:02:09.290 align:start position:0%
+the PDF which will act as a reference
+for<00:02:07.140><c> the</c><00:02:07.320><c> comparison</c><00:02:07.740><c> and</c><00:02:08.580><c> the</c><00:02:08.700><c> target</c><00:02:08.880><c> would</c>
+
+00:02:09.290 --> 00:02:09.300 align:start position:0%
+for the comparison and the target would
+ 
+
+00:02:09.300 --> 00:02:11.990 align:start position:0%
+for the comparison and the target would
+be<00:02:09.539><c> uh</c><00:02:10.140><c> the</c><00:02:10.560><c> PDF</c><00:02:10.920><c> which</c><00:02:11.160><c> you</c><00:02:11.340><c> want</c><00:02:11.459><c> to</c><00:02:11.640><c> compare</c>
+
+00:02:11.990 --> 00:02:12.000 align:start position:0%
+be uh the PDF which you want to compare
+ 
+
+00:02:12.000 --> 00:02:14.570 align:start position:0%
+be uh the PDF which you want to compare
+this<00:02:12.300><c> reference</c><00:02:12.720><c> PDF</c><00:02:13.140><c> with</c><00:02:13.379><c> okay</c>
+
+00:02:14.570 --> 00:02:14.580 align:start position:0%
+this reference PDF with okay
+ 
+
+00:02:14.580 --> 00:02:17.510 align:start position:0%
+this reference PDF with okay
+we<00:02:15.060><c> can</c><00:02:15.180><c> also</c><00:02:15.599><c> if</c>
+
+00:02:17.510 --> 00:02:17.520 align:start position:0%
+we can also if
+ 
+
+00:02:17.520 --> 00:02:20.030 align:start position:0%
+we can also if
+if your<00:02:18.239><c> PDF</c><00:02:18.720><c> is</c><00:02:18.959><c> password</c><00:02:19.140><c> protected</c><00:02:19.739><c> you</c>
+
+00:02:20.030 --> 00:02:20.040 align:start position:0%
+if your PDF is password protected you
+ 
+
+00:02:20.040 --> 00:02:22.250 align:start position:0%
+if your PDF is password protected you
+can<00:02:20.160><c> also</c><00:02:20.520><c> specify</c><00:02:20.940><c> the</c><00:02:21.180><c> password</c><00:02:21.300><c> here</c><00:02:21.720><c> and</c>
+
+00:02:22.250 --> 00:02:22.260 align:start position:0%
+can also specify the password here and
+ 
+
+00:02:22.260 --> 00:02:24.170 align:start position:0%
+can also specify the password here and
+Tosca<00:02:22.739><c> will</c><00:02:22.980><c> automatically</c><00:02:23.580><c> enter</c><00:02:23.879><c> that</c>
+
+00:02:24.170 --> 00:02:24.180 align:start position:0%
+Tosca will automatically enter that
+ 
+
+00:02:24.180 --> 00:02:26.570 align:start position:0%
+Tosca will automatically enter that
+password<00:02:24.420><c> while</c><00:02:24.900><c> comparing</c><00:02:25.560><c> the</c><00:02:25.739><c> PDF</c><00:02:26.160><c> okay</c>
+
+00:02:26.570 --> 00:02:26.580 align:start position:0%
+password while comparing the PDF okay
+ 
+
+00:02:26.580 --> 00:02:28.550 align:start position:0%
+password while comparing the PDF okay
+same<00:02:26.940><c> for</c><00:02:27.239><c> Target</c><00:02:27.420><c> PDF</c>
+
+00:02:28.550 --> 00:02:28.560 align:start position:0%
+same for Target PDF
+ 
+
+00:02:28.560 --> 00:02:32.150 align:start position:0%
+same for Target PDF
+now<00:02:29.220><c> I</c><00:02:29.580><c> was</c><00:02:29.640><c> talking</c><00:02:29.819><c> about</c><00:02:30.180><c> uh</c><00:02:31.020><c> the</c><00:02:31.560><c> accuracy</c>
+
+00:02:32.150 --> 00:02:32.160 align:start position:0%
+now I was talking about uh the accuracy
+ 
+
+00:02:32.160 --> 00:02:35.809 align:start position:0%
+now I was talking about uh the accuracy
+which<00:02:32.700><c> is</c><00:02:32.879><c> in</c><00:02:33.239><c> percentage</c><00:02:33.780><c> okay</c><00:02:34.680><c> so</c><00:02:35.099><c> we</c><00:02:35.580><c> can</c>
+
+00:02:35.809 --> 00:02:35.819 align:start position:0%
+which is in percentage okay so we can
+ 
+
+00:02:35.819 --> 00:02:38.750 align:start position:0%
+which is in percentage okay so we can
+Define<00:02:36.060><c> our</c><00:02:36.900><c> own</c><00:02:37.319><c> accuracy</c><00:02:38.220><c> so</c><00:02:38.640><c> it's</c>
+
+00:02:38.750 --> 00:02:38.760 align:start position:0%
+Define our own accuracy so it's
+ 
+
+00:02:38.760 --> 00:02:41.750 align:start position:0%
+Define our own accuracy so it's
+basically<00:02:39.180><c> the</c><00:02:39.480><c> percentage</c><00:02:40.020><c> of</c><00:02:40.739><c> uh</c><00:02:41.160><c> accuracy</c>
+
+00:02:41.750 --> 00:02:41.760 align:start position:0%
+basically the percentage of uh accuracy
+ 
+
+00:02:41.760 --> 00:02:43.869 align:start position:0%
+basically the percentage of uh accuracy
+which<00:02:42.000><c> you</c><00:02:42.180><c> want</c><00:02:42.360><c> for</c><00:02:42.720><c> your</c><00:02:42.840><c> comparison</c><00:02:43.319><c> okay</c>
+
+00:02:43.869 --> 00:02:43.879 align:start position:0%
+which you want for your comparison okay
+ 
+
+00:02:43.879 --> 00:02:47.509 align:start position:0%
+which you want for your comparison okay
+uh<00:02:44.879><c> you</c><00:02:45.120><c> can</c><00:02:45.239><c> specify</c><00:02:45.780><c> 100</c><00:02:46.220><c> accuracy</c><00:02:47.220><c> which</c>
+
+00:02:47.509 --> 00:02:47.519 align:start position:0%
+uh you can specify 100 accuracy which
+ 
+
+00:02:47.519 --> 00:02:49.670 align:start position:0%
+uh you can specify 100 accuracy which
+means<00:02:47.819><c> both</c><00:02:48.180><c> the</c><00:02:48.420><c> PDF</c><00:02:48.780><c> should</c><00:02:49.019><c> be</c><00:02:49.200><c> exactly</c>
+
+00:02:49.670 --> 00:02:49.680 align:start position:0%
+means both the PDF should be exactly
+ 
+
+00:02:49.680 --> 00:02:52.369 align:start position:0%
+means both the PDF should be exactly
+same<00:02:49.980><c> you</c><00:02:50.879><c> can</c><00:02:51.000><c> also</c><00:02:51.360><c> decrease</c><00:02:51.599><c> the</c><00:02:51.959><c> accuracy</c>
+
+00:02:52.369 --> 00:02:52.379 align:start position:0%
+same you can also decrease the accuracy
+ 
+
+00:02:52.379 --> 00:02:55.130 align:start position:0%
+same you can also decrease the accuracy
+if<00:02:52.620><c> you</c><00:02:52.800><c> are</c><00:02:52.980><c> not</c><00:02:53.220><c> worried</c><00:02:53.819><c> about</c><00:02:54.060><c> uh</c><00:02:54.660><c> so</c><00:02:55.019><c> much</c>
+
+00:02:55.130 --> 00:02:55.140 align:start position:0%
+if you are not worried about uh so much
+ 
+
+00:02:55.140 --> 00:02:57.170 align:start position:0%
+if you are not worried about uh so much
+about<00:02:55.379><c> uh</c><00:02:55.739><c> some</c><00:02:55.980><c> of</c><00:02:56.099><c> the</c><00:02:56.280><c> things</c><00:02:56.459><c> in</c><00:02:56.700><c> the</c><00:02:56.879><c> PDF</c>
+
+00:02:57.170 --> 00:02:57.180 align:start position:0%
+about uh some of the things in the PDF
+ 
+
+00:02:57.180 --> 00:02:59.150 align:start position:0%
+about uh some of the things in the PDF
+which<00:02:57.599><c> may</c><00:02:57.720><c> not</c><00:02:57.900><c> be</c><00:02:58.080><c> same</c>
+
+00:02:59.150 --> 00:02:59.160 align:start position:0%
+which may not be same
+ 
+
+00:02:59.160 --> 00:03:01.670 align:start position:0%
+which may not be same
+so<00:02:59.819><c> it</c><00:03:00.060><c> depends</c><00:03:00.420><c> on</c><00:03:00.840><c> uh</c><00:03:01.080><c> what</c><00:03:01.500><c> kind</c><00:03:01.620><c> of</c>
+
+00:03:01.670 --> 00:03:01.680 align:start position:0%
+so it depends on uh what kind of
+ 
+
+00:03:01.680 --> 00:03:03.949 align:start position:0%
+so it depends on uh what kind of
+accuracy<00:03:02.280><c> you</c><00:03:02.400><c> require</c><00:03:02.819><c> for</c><00:03:03.300><c> this</c><00:03:03.480><c> comparison</c>
+
+00:03:03.949 --> 00:03:03.959 align:start position:0%
+accuracy you require for this comparison
+ 
+
+00:03:03.959 --> 00:03:08.330 align:start position:0%
+accuracy you require for this comparison
+okay<00:03:04.860><c> and</c><00:03:05.400><c> then</c><00:03:05.519><c> excluded</c><00:03:06.120><c> pages</c><00:03:06.480><c> so</c><00:03:07.319><c> here</c><00:03:07.980><c> you</c>
+
+00:03:08.330 --> 00:03:08.340 align:start position:0%
+okay and then excluded pages so here you
+ 
+
+00:03:08.340 --> 00:03:10.430 align:start position:0%
+okay and then excluded pages so here you
+can<00:03:08.459><c> specify</c><00:03:09.120><c> which</c><00:03:09.480><c> Pages</c><00:03:09.780><c> you</c><00:03:10.140><c> want</c><00:03:10.260><c> to</c>
+
+00:03:10.430 --> 00:03:10.440 align:start position:0%
+can specify which Pages you want to
+ 
+
+00:03:10.440 --> 00:03:13.550 align:start position:0%
+can specify which Pages you want to
+exclude<00:03:10.920><c> uh</c><00:03:11.580><c> from</c><00:03:11.819><c> the</c><00:03:12.000><c> comparison</c><00:03:12.420><c> so</c><00:03:13.319><c> if</c><00:03:13.500><c> you</c>
+
+00:03:13.550 --> 00:03:13.560 align:start position:0%
+exclude uh from the comparison so if you
+ 
+
+00:03:13.560 --> 00:03:15.530 align:start position:0%
+exclude uh from the comparison so if you
+have<00:03:13.680><c> got</c><00:03:13.860><c> multiple</c><00:03:14.340><c> pages</c><00:03:14.640><c> in</c><00:03:14.940><c> your</c><00:03:15.060><c> PDF</c>
+
+00:03:15.530 --> 00:03:15.540 align:start position:0%
+have got multiple pages in your PDF
+ 
+
+00:03:15.540 --> 00:03:17.990 align:start position:0%
+have got multiple pages in your PDF
+files<00:03:16.140><c> you</c><00:03:16.800><c> can</c><00:03:16.860><c> exclude</c><00:03:17.220><c> some</c><00:03:17.519><c> of</c><00:03:17.640><c> the</c><00:03:17.760><c> pages</c>
+
+00:03:17.990 --> 00:03:18.000 align:start position:0%
+files you can exclude some of the pages
+ 
+
+00:03:18.000 --> 00:03:21.470 align:start position:0%
+files you can exclude some of the pages
+from<00:03:18.480><c> the</c><00:03:18.659><c> comparison</c><00:03:19.140><c> okay</c>
+
+00:03:21.470 --> 00:03:21.480 align:start position:0%
+from the comparison okay
+ 
+
+00:03:21.480 --> 00:03:24.589 align:start position:0%
+from the comparison okay
+so<00:03:22.140><c> uh</c><00:03:22.560><c> we</c><00:03:22.800><c> have</c><00:03:22.920><c> to</c><00:03:23.040><c> provide</c><00:03:23.459><c> a</c><00:03:23.879><c> reference</c><00:03:24.180><c> PDF</c>
+
+00:03:24.589 --> 00:03:24.599 align:start position:0%
+so uh we have to provide a reference PDF
+ 
+
+00:03:24.599 --> 00:03:27.649 align:start position:0%
+so uh we have to provide a reference PDF
+as<00:03:24.840><c> I</c><00:03:24.959><c> said</c><00:03:25.140><c> okay</c><00:03:25.560><c> so</c><00:03:25.980><c> this</c><00:03:26.340><c> is</c><00:03:26.459><c> the</c><00:03:26.760><c> path</c><00:03:27.000><c> of</c>
+
+00:03:27.649 --> 00:03:27.659 align:start position:0%
+as I said okay so this is the path of
+ 
+
+00:03:27.659 --> 00:03:30.770 align:start position:0%
+as I said okay so this is the path of
+the<00:03:28.200><c> file</c><00:03:28.440><c> which</c><00:03:28.800><c> you</c><00:03:29.040><c> want</c><00:03:29.220><c> to</c><00:03:29.340><c> compare</c>
+
+00:03:30.770 --> 00:03:30.780 align:start position:0%
+the file which you want to compare
+ 
+
+00:03:30.780 --> 00:03:40.729 align:start position:0%
+the file which you want to compare
+so<00:03:31.319><c> let's</c><00:03:31.500><c> provide</c><00:03:31.980><c> that</c>
+
+00:03:40.729 --> 00:03:40.739 align:start position:0%
+ 
+ 
+
+00:03:40.739 --> 00:03:43.910 align:start position:0%
+ 
+okay<00:03:41.340><c> and</c><00:03:41.580><c> don't</c><00:03:41.940><c> forget</c><00:03:42.599><c> to</c><00:03:43.080><c> also</c><00:03:43.500><c> provide</c>
+
+00:03:43.910 --> 00:03:43.920 align:start position:0%
+okay and don't forget to also provide
+ 
+
+00:03:43.920 --> 00:03:47.089 align:start position:0%
+okay and don't forget to also provide
+the<00:03:44.280><c> extension</c><00:03:44.700><c> which</c><00:03:45.000><c> is</c><00:03:45.120><c> dot</c><00:03:45.540><c> PDF</c><00:03:45.920><c> uh</c><00:03:46.920><c> we</c>
+
+00:03:47.089 --> 00:03:47.099 align:start position:0%
+the extension which is dot PDF uh we
+ 
+
+00:03:47.099 --> 00:03:49.970 align:start position:0%
+the extension which is dot PDF uh we
+don't<00:03:47.220><c> require</c><00:03:47.519><c> a</c><00:03:48.000><c> password</c><00:03:48.180><c> for</c><00:03:48.659><c> this</c><00:03:48.980><c> and</c>
+
+00:03:49.970 --> 00:03:49.980 align:start position:0%
+don't require a password for this and
+ 
+
+00:03:49.980 --> 00:03:52.369 align:start position:0%
+don't require a password for this and
+let's<00:03:50.459><c> copy</c><00:03:50.940><c> this</c><00:03:51.239><c> for</c><00:03:51.599><c> the</c><00:03:51.780><c> reference</c><00:03:52.140><c> and</c>
+
+00:03:52.369 --> 00:03:52.379 align:start position:0%
+let's copy this for the reference and
+ 
+
+00:03:52.379 --> 00:03:54.649 align:start position:0%
+let's copy this for the reference and
+we'll<00:03:52.620><c> just</c><00:03:52.860><c> change</c><00:03:53.340><c> the</c><00:03:53.640><c> name</c><00:03:53.819><c> here</c>
+
+00:03:54.649 --> 00:03:54.659 align:start position:0%
+we'll just change the name here
+ 
+
+00:03:54.659 --> 00:04:06.110 align:start position:0%
+we'll just change the name here
+to<00:03:55.019><c> code</c><00:03:55.260><c> two</c><00:03:55.739><c> okay</c>
+
+00:04:06.110 --> 00:04:06.120 align:start position:0%
+ 
+ 
+
+00:04:06.120 --> 00:04:08.449 align:start position:0%
+ 
+I<00:04:06.659><c> will</c><00:04:06.780><c> just</c><00:04:07.019><c> correct</c><00:04:07.440><c> the</c><00:04:07.560><c> name</c><00:04:07.799><c> here</c><00:04:08.099><c> to</c>
+
+00:04:08.449 --> 00:04:08.459 align:start position:0%
+I will just correct the name here to
+ 
+
+00:04:08.459 --> 00:04:11.690 align:start position:0%
+I will just correct the name here to
+quote<00:04:08.640><c> underscore</c><00:04:09.239><c> 2.</c><00:04:09.959><c> and</c><00:04:10.500><c> then</c><00:04:10.680><c> uh</c><00:04:11.280><c> you</c><00:04:11.580><c> need</c>
+
+00:04:11.690 --> 00:04:11.700 align:start position:0%
+quote underscore 2. and then uh you need
+ 
+
+00:04:11.700 --> 00:04:14.449 align:start position:0%
+quote underscore 2. and then uh you need
+to<00:04:11.879><c> specify</c><00:04:12.299><c> our</c><00:04:12.599><c> accuracy</c><00:04:13.200><c> so</c><00:04:13.620><c> first</c><00:04:14.159><c> of</c><00:04:14.340><c> all</c>
+
+00:04:14.449 --> 00:04:14.459 align:start position:0%
+to specify our accuracy so first of all
+ 
+
+00:04:14.459 --> 00:04:17.210 align:start position:0%
+to specify our accuracy so first of all
+I'll<00:04:14.700><c> provide</c><00:04:15.060><c> a</c><00:04:15.239><c> 80</c><00:04:15.420><c> accuracy</c><00:04:16.320><c> okay</c>
+
+00:04:17.210 --> 00:04:17.220 align:start position:0%
+I'll provide a 80 accuracy okay
+ 
+
+00:04:17.220 --> 00:04:20.629 align:start position:0%
+I'll provide a 80 accuracy okay
+and<00:04:17.880><c> excluded</c><00:04:18.479><c> Pages</c><00:04:18.979><c> although</c><00:04:19.979><c> I</c><00:04:20.280><c> don't</c><00:04:20.400><c> have</c>
+
+00:04:20.629 --> 00:04:20.639 align:start position:0%
+and excluded Pages although I don't have
+ 
+
+00:04:20.639 --> 00:04:23.050 align:start position:0%
+and excluded Pages although I don't have
+multiple<00:04:21.000><c> pages</c><00:04:21.299><c> in</c><00:04:21.600><c> my</c><00:04:21.720><c> PDF</c><00:04:22.139><c> but</c><00:04:22.380><c> if</c><00:04:22.680><c> you</c><00:04:22.860><c> have</c>
+
+00:04:23.050 --> 00:04:23.060 align:start position:0%
+multiple pages in my PDF but if you have
+ 
+
+00:04:23.060 --> 00:04:26.230 align:start position:0%
+multiple pages in my PDF but if you have
+then<00:04:24.060><c> you</c><00:04:24.720><c> can</c><00:04:24.840><c> provide</c>
+
+00:04:26.230 --> 00:04:26.240 align:start position:0%
+then you can provide
+ 
+
+00:04:26.240 --> 00:04:29.890 align:start position:0%
+then you can provide
+some<00:04:27.240><c> values</c><00:04:27.660><c> like</c><00:04:27.960><c> this</c><00:04:28.199><c> okay</c>
+
+00:04:29.890 --> 00:04:29.900 align:start position:0%
+some values like this okay
+ 
+
+00:04:29.900 --> 00:04:33.170 align:start position:0%
+some values like this okay
+so<00:04:30.900><c> what</c><00:04:31.080><c> this</c><00:04:31.320><c> will</c><00:04:31.440><c> do</c><00:04:31.620><c> is</c><00:04:32.100><c> uh</c><00:04:32.639><c> you</c><00:04:33.060><c> can</c>
+
+00:04:33.170 --> 00:04:33.180 align:start position:0%
+so what this will do is uh you can
+ 
+
+00:04:33.180 --> 00:04:36.170 align:start position:0%
+so what this will do is uh you can
+provide<00:04:33.479><c> multiple</c><00:04:34.080><c> uh</c><00:04:34.740><c> page</c><00:04:35.100><c> Pages</c><00:04:35.759><c> which</c><00:04:36.060><c> you</c>
+
+00:04:36.170 --> 00:04:36.180 align:start position:0%
+provide multiple uh page Pages which you
+ 
+
+00:04:36.180 --> 00:04:38.689 align:start position:0%
+provide multiple uh page Pages which you
+want<00:04:36.360><c> to</c><00:04:36.479><c> exclude</c><00:04:36.840><c> so</c><00:04:37.680><c> in</c><00:04:37.860><c> this</c><00:04:37.979><c> case</c><00:04:38.160><c> it</c><00:04:38.580><c> will</c>
+
+00:04:38.689 --> 00:04:38.699 align:start position:0%
+want to exclude so in this case it will
+ 
+
+00:04:38.699 --> 00:04:41.629 align:start position:0%
+want to exclude so in this case it will
+exclude<00:04:39.180><c> the</c><00:04:39.840><c> first</c><00:04:40.020><c> page</c><00:04:40.320><c> the</c><00:04:40.979><c> three</c><00:04:41.220><c> to</c><00:04:41.400><c> four</c>
+
+00:04:41.629 --> 00:04:41.639 align:start position:0%
+exclude the first page the three to four
+ 
+
+00:04:41.639 --> 00:04:44.749 align:start position:0%
+exclude the first page the three to four
+page<00:04:41.940><c> and</c><00:04:42.240><c> the</c><00:04:42.360><c> five</c><00:04:42.540><c> page</c><00:04:42.900><c> okay</c><00:04:43.380><c> so</c><00:04:44.340><c> which</c><00:04:44.520><c> has</c>
+
+00:04:44.749 --> 00:04:44.759 align:start position:0%
+page and the five page okay so which has
+ 
+
+00:04:44.759 --> 00:04:47.330 align:start position:0%
+page and the five page okay so which has
+to<00:04:44.880><c> be</c><00:04:45.000><c> separated</c><00:04:45.419><c> by</c><00:04:45.660><c> semicolon</c><00:04:46.380><c> uh</c><00:04:46.979><c> you</c><00:04:47.220><c> can</c>
+
+00:04:47.330 --> 00:04:47.340 align:start position:0%
+to be separated by semicolon uh you can
+ 
+
+00:04:47.340 --> 00:04:48.610 align:start position:0%
+to be separated by semicolon uh you can
+also
+
+00:04:48.610 --> 00:04:48.620 align:start position:0%
+also
+ 
+
+00:04:48.620 --> 00:04:52.370 align:start position:0%
+also
+combine<00:04:49.620><c> your</c><00:04:49.860><c> pages</c><00:04:50.100><c> like</c><00:04:50.820><c> a</c><00:04:51.419><c> range</c><00:04:51.780><c> like</c>
+
+00:04:52.370 --> 00:04:52.380 align:start position:0%
+combine your pages like a range like
+ 
+
+00:04:52.380 --> 00:04:53.930 align:start position:0%
+combine your pages like a range like
+this<00:04:52.620><c> page</c><00:04:52.860><c> to</c><00:04:53.040><c> this</c><00:04:53.220><c> page</c><00:04:53.460><c> you</c><00:04:53.639><c> want</c><00:04:53.820><c> to</c>
+
+00:04:53.930 --> 00:04:53.940 align:start position:0%
+this page to this page you want to
+ 
+
+00:04:53.940 --> 00:04:57.110 align:start position:0%
+this page to this page you want to
+exclude<00:04:54.300><c> okay</c><00:04:54.720><c> or</c><00:04:55.500><c> individual</c><00:04:56.100><c> Pages</c><00:04:56.340><c> depends</c>
+
+00:04:57.110 --> 00:04:57.120 align:start position:0%
+exclude okay or individual Pages depends
+ 
+
+00:04:57.120 --> 00:04:58.249 align:start position:0%
+exclude okay or individual Pages depends
+on<00:04:57.240><c> you</c>
+
+00:04:58.249 --> 00:04:58.259 align:start position:0%
+on you
+ 
+
+00:04:58.259 --> 00:05:01.129 align:start position:0%
+on you
+so<00:04:58.800><c> this</c><00:04:58.979><c> is</c><00:04:59.100><c> how</c><00:04:59.220><c> you</c><00:04:59.400><c> can</c><00:04:59.580><c> exclude</c><00:05:00.120><c> your</c><00:05:00.720><c> PDF</c>
+
+00:05:01.129 --> 00:05:01.139 align:start position:0%
+so this is how you can exclude your PDF
+ 
+
+00:05:01.139 --> 00:05:03.830 align:start position:0%
+so this is how you can exclude your PDF
+pages<00:05:01.380><c> from</c><00:05:01.740><c> comparison</c><00:05:02.419><c> and</c><00:05:03.419><c> these</c><00:05:03.600><c> are</c><00:05:03.660><c> the</c>
+
+00:05:03.830 --> 00:05:03.840 align:start position:0%
+pages from comparison and these are the
+ 
+
+00:05:03.840 --> 00:05:05.390 align:start position:0%
+pages from comparison and these are the
+module<00:05:04.139><c> attributes</c><00:05:04.620><c> which</c><00:05:04.800><c> you</c><00:05:04.979><c> need</c><00:05:05.100><c> to</c><00:05:05.220><c> pass</c>
+
+00:05:05.390 --> 00:05:05.400 align:start position:0%
+module attributes which you need to pass
+ 
+
+00:05:05.400 --> 00:05:07.490 align:start position:0%
+module attributes which you need to pass
+okay
+
+00:05:07.490 --> 00:05:07.500 align:start position:0%
+okay
+ 
+
+00:05:07.500 --> 00:05:10.790 align:start position:0%
+okay
+now<00:05:08.040><c> if</c><00:05:08.340><c> I</c><00:05:08.520><c> go</c><00:05:08.699><c> ahead</c><00:05:08.940><c> and</c><00:05:09.479><c> compare</c><00:05:10.020><c> or</c><00:05:10.560><c> run</c>
+
+00:05:10.790 --> 00:05:10.800 align:start position:0%
+now if I go ahead and compare or run
+ 
+
+00:05:10.800 --> 00:05:13.430 align:start position:0%
+now if I go ahead and compare or run
+this<00:05:11.100><c> particular</c><00:05:11.460><c> test</c><00:05:12.120><c> case</c>
+
+00:05:13.430 --> 00:05:13.440 align:start position:0%
+this particular test case
+ 
+
+00:05:13.440 --> 00:05:16.070 align:start position:0%
+this particular test case
+you<00:05:13.860><c> will</c><00:05:13.979><c> see</c><00:05:14.160><c> that</c><00:05:14.460><c> uh</c><00:05:14.759><c> this</c><00:05:15.060><c> test</c><00:05:15.240><c> case</c><00:05:15.540><c> will</c>
+
+00:05:16.070 --> 00:05:16.080 align:start position:0%
+you will see that uh this test case will
+ 
+
+00:05:16.080 --> 00:05:18.469 align:start position:0%
+you will see that uh this test case will
+pass<00:05:16.320><c> even</c><00:05:16.680><c> though</c><00:05:16.919><c> the</c><00:05:17.160><c> PDF</c><00:05:17.580><c> files</c><00:05:18.060><c> are</c>
+
+00:05:18.469 --> 00:05:18.479 align:start position:0%
+pass even though the PDF files are
+ 
+
+00:05:18.479 --> 00:05:20.390 align:start position:0%
+pass even though the PDF files are
+different<00:05:18.720><c> okay</c>
+
+00:05:20.390 --> 00:05:20.400 align:start position:0%
+different okay
+ 
+
+00:05:20.400 --> 00:05:22.909 align:start position:0%
+different okay
+uh<00:05:20.820><c> the</c><00:05:21.000><c> reason</c><00:05:21.180><c> being</c><00:05:21.540><c> uh</c><00:05:22.139><c> the</c><00:05:22.440><c> accuracy</c>
+
+00:05:22.909 --> 00:05:22.919 align:start position:0%
+uh the reason being uh the accuracy
+ 
+
+00:05:22.919 --> 00:05:25.850 align:start position:0%
+uh the reason being uh the accuracy
+percentage<00:05:23.520><c> okay</c><00:05:24.060><c> since</c><00:05:24.960><c> the</c><00:05:25.320><c> accuracy</c>
+
+00:05:25.850 --> 00:05:25.860 align:start position:0%
+percentage okay since the accuracy
+ 
+
+00:05:25.860 --> 00:05:29.450 align:start position:0%
+percentage okay since the accuracy
+percentage<00:05:26.460><c> is</c><00:05:27.120><c> 80</c><00:05:27.539><c> percent</c><00:05:27.960><c> okay</c><00:05:28.919><c> so</c><00:05:29.160><c> in</c><00:05:29.340><c> the</c>
+
+00:05:29.450 --> 00:05:29.460 align:start position:0%
+percentage is 80 percent okay so in the
+ 
+
+00:05:29.460 --> 00:05:32.990 align:start position:0%
+percentage is 80 percent okay so in the
+results<00:05:29.639><c> you</c><00:05:30.120><c> can</c><00:05:30.240><c> see</c><00:05:30.479><c> uh</c><00:05:31.020><c> in</c><00:05:31.259><c> log</c><00:05:31.500><c> info</c><00:05:32.000><c> that</c>
+
+00:05:32.990 --> 00:05:33.000 align:start position:0%
+results you can see uh in log info that
+ 
+
+00:05:33.000 --> 00:05:35.570 align:start position:0%
+results you can see uh in log info that
+it<00:05:33.300><c> will</c><00:05:33.419><c> say</c><00:05:33.720><c> that</c><00:05:34.560><c> the</c><00:05:34.919><c> success</c><00:05:35.280><c> condition</c>
+
+00:05:35.570 --> 00:05:35.580 align:start position:0%
+it will say that the success condition
+ 
+
+00:05:35.580 --> 00:05:37.909 align:start position:0%
+it will say that the success condition
+was<00:05:36.120><c> met</c><00:05:36.360><c> and</c><00:05:36.780><c> that</c><00:05:36.960><c> is</c><00:05:37.080><c> why</c><00:05:37.259><c> this</c><00:05:37.500><c> test</c><00:05:37.680><c> case</c>
+
+00:05:37.909 --> 00:05:37.919 align:start position:0%
+was met and that is why this test case
+ 
+
+00:05:37.919 --> 00:05:40.850 align:start position:0%
+was met and that is why this test case
+passed<00:05:38.400><c> so</c><00:05:39.060><c> each</c><00:05:39.360><c> page</c><00:05:39.660><c> of</c><00:05:39.780><c> the</c><00:05:39.960><c> Target</c><00:05:40.139><c> and</c>
+
+00:05:40.850 --> 00:05:40.860 align:start position:0%
+passed so each page of the Target and
+ 
+
+00:05:40.860 --> 00:05:42.529 align:start position:0%
+passed so each page of the Target and
+the<00:05:41.220><c> Baseline</c><00:05:41.639><c> document</c>
+
+00:05:42.529 --> 00:05:42.539 align:start position:0%
+the Baseline document
+ 
+
+00:05:42.539 --> 00:05:46.430 align:start position:0%
+the Baseline document
+is<00:05:43.139><c> at</c><00:05:43.440><c> least</c><00:05:43.560><c> a</c><00:05:43.919><c> 80</c><00:05:44.220><c> percent</c><00:05:44.520><c> match</c><00:05:44.940><c> okay</c><00:05:45.720><c> and</c>
+
+00:05:46.430 --> 00:05:46.440 align:start position:0%
+is at least a 80 percent match okay and
+ 
+
+00:05:46.440 --> 00:05:49.010 align:start position:0%
+is at least a 80 percent match okay and
+we<00:05:46.680><c> have</c><00:05:46.860><c> not</c><00:05:47.220><c> uh</c><00:05:47.580><c> we</c><00:05:47.759><c> have</c><00:05:47.880><c> no</c><00:05:48.000><c> Pages</c><00:05:48.300><c> excluded</c>
+
+00:05:49.010 --> 00:05:49.020 align:start position:0%
+we have not uh we have no Pages excluded
+ 
+
+00:05:49.020 --> 00:05:51.710 align:start position:0%
+we have not uh we have no Pages excluded
+from<00:05:49.380><c> the</c><00:05:49.560><c> comparison</c>
+
+00:05:51.710 --> 00:05:51.720 align:start position:0%
+from the comparison
+ 
+
+00:05:51.720 --> 00:05:55.969 align:start position:0%
+from the comparison
+okay<00:05:52.320><c> now</c><00:05:53.280><c> uh</c><00:05:53.940><c> to</c><00:05:54.180><c> just</c><00:05:54.419><c> to</c><00:05:54.600><c> change</c><00:05:54.840><c> it</c><00:05:55.139><c> if</c><00:05:55.800><c> I</c>
+
+00:05:55.969 --> 00:05:55.979 align:start position:0%
+okay now uh to just to change it if I
+ 
+
+00:05:55.979 --> 00:05:58.010 align:start position:0%
+okay now uh to just to change it if I
+provide<00:05:56.340><c> a</c><00:05:56.580><c> hundred</c><00:05:56.820><c> percent</c><00:05:57.000><c> accuracy</c><00:05:57.720><c> okay</c>
+
+00:05:58.010 --> 00:05:58.020 align:start position:0%
+provide a hundred percent accuracy okay
+ 
+
+00:05:58.020 --> 00:06:00.370 align:start position:0%
+provide a hundred percent accuracy okay
+you<00:05:58.800><c> want</c><00:05:59.280><c> your</c><00:05:59.460><c> comparison</c><00:05:59.880><c> to</c><00:06:00.060><c> be</c><00:06:00.240><c> 100</c>
+
+00:06:00.370 --> 00:06:00.380 align:start position:0%
+you want your comparison to be 100
+ 
+
+00:06:00.380 --> 00:06:04.490 align:start position:0%
+you want your comparison to be 100
+accurate<00:06:01.380><c> for</c><00:06:01.800><c> both</c><00:06:01.979><c> the</c><00:06:02.220><c> PDFs</c><00:06:02.840><c> and</c><00:06:03.840><c> that's</c><00:06:04.199><c> a</c>
+
+00:06:04.490 --> 00:06:04.500 align:start position:0%
+accurate for both the PDFs and that's a
+ 
+
+00:06:04.500 --> 00:06:07.730 align:start position:0%
+accurate for both the PDFs and that's a
+fair<00:06:04.740><c> uh</c><00:06:05.520><c> Fair</c><00:06:06.120><c> way</c><00:06:06.419><c> of</c><00:06:06.539><c> doing</c><00:06:06.720><c> it</c><00:06:06.960><c> right</c><00:06:07.259><c> so</c>
+
+00:06:07.730 --> 00:06:07.740 align:start position:0%
+fair uh Fair way of doing it right so
+ 
+
+00:06:07.740 --> 00:06:09.110 align:start position:0%
+fair uh Fair way of doing it right so
+just<00:06:08.160><c> run</c>
+
+00:06:09.110 --> 00:06:09.120 align:start position:0%
+just run
+ 
+
+00:06:09.120 --> 00:06:11.689 align:start position:0%
+just run
+and<00:06:09.840><c> this</c><00:06:10.020><c> time</c><00:06:10.199><c> it</c><00:06:10.620><c> should</c><00:06:10.740><c> fail</c><00:06:11.039><c> okay</c>
+
+00:06:11.689 --> 00:06:11.699 align:start position:0%
+and this time it should fail okay
+ 
+
+00:06:11.699 --> 00:06:14.810 align:start position:0%
+and this time it should fail okay
+because<00:06:12.060><c> both</c><00:06:12.720><c> the</c><00:06:12.900><c> PDFs</c><00:06:13.440><c> are</c><00:06:13.620><c> not</c><00:06:13.800><c> 100</c><00:06:13.979><c> same</c>
+
+00:06:14.810 --> 00:06:14.820 align:start position:0%
+because both the PDFs are not 100 same
+ 
+
+00:06:14.820 --> 00:06:19.490 align:start position:0%
+because both the PDFs are not 100 same
+okay<00:06:15.740><c> and</c><00:06:16.740><c> uh</c><00:06:16.919><c> in</c><00:06:17.220><c> the</c><00:06:17.280><c> compare</c><00:06:17.699><c> results</c><00:06:18.600><c> in</c>
+
+00:06:19.490 --> 00:06:19.500 align:start position:0%
+okay and uh in the compare results in
+ 
+
+00:06:19.500 --> 00:06:20.990 align:start position:0%
+okay and uh in the compare results in
+log<00:06:19.740><c> info</c>
+
+00:06:20.990 --> 00:06:21.000 align:start position:0%
+log info
+ 
+
+00:06:21.000 --> 00:06:23.330 align:start position:0%
+log info
+you<00:06:21.479><c> will</c><00:06:21.660><c> see</c><00:06:21.840><c> that</c><00:06:22.139><c> it</c><00:06:22.500><c> will</c><00:06:22.680><c> show</c><00:06:22.919><c> you</c><00:06:23.039><c> the</c>
+
+00:06:23.330 --> 00:06:23.340 align:start position:0%
+you will see that it will show you the
+ 
+
+00:06:23.340 --> 00:06:25.490 align:start position:0%
+you will see that it will show you the
+differences<00:06:23.759><c> okay</c><00:06:24.300><c> so</c><00:06:24.900><c> at</c><00:06:25.139><c> least</c><00:06:25.259><c> one</c>
+
+00:06:25.490 --> 00:06:25.500 align:start position:0%
+differences okay so at least one
+ 
+
+00:06:25.500 --> 00:06:27.230 align:start position:0%
+differences okay so at least one
+difference<00:06:25.740><c> was</c><00:06:26.160><c> detected</c>
+
+00:06:27.230 --> 00:06:27.240 align:start position:0%
+difference was detected
+ 
+
+00:06:27.240 --> 00:06:29.990 align:start position:0%
+difference was detected
+and<00:06:27.900><c> in</c><00:06:28.259><c> the</c><00:06:28.380><c> top</c><00:06:28.560><c> left</c><00:06:28.740><c> area</c><00:06:29.039><c> top</c><00:06:29.400><c> right</c><00:06:29.580><c> mid</c>
+
+00:06:29.990 --> 00:06:30.000 align:start position:0%
+and in the top left area top right mid
+ 
+
+00:06:30.000 --> 00:06:31.969 align:start position:0%
+and in the top left area top right mid
+left<00:06:30.180><c> mid</c><00:06:30.720><c> right</c><00:06:30.900><c> and</c><00:06:31.199><c> bottom</c><00:06:31.560><c> right</c><00:06:31.680><c> area</c>
+
+00:06:31.969 --> 00:06:31.979 align:start position:0%
+left mid right and bottom right area
+ 
+
+00:06:31.979 --> 00:06:33.110 align:start position:0%
+left mid right and bottom right area
+okay
+
+00:06:33.110 --> 00:06:33.120 align:start position:0%
+okay
+ 
+
+00:06:33.120 --> 00:06:35.689 align:start position:0%
+okay
+obviously<00:06:33.720><c> it</c><00:06:33.840><c> will</c><00:06:34.020><c> not</c><00:06:34.259><c> uh</c><00:06:34.800><c> exactly</c><00:06:35.460><c> tell</c>
+
+00:06:35.689 --> 00:06:35.699 align:start position:0%
+obviously it will not uh exactly tell
+ 
+
+00:06:35.699 --> 00:06:38.210 align:start position:0%
+obviously it will not uh exactly tell
+you<00:06:35.880><c> what</c><00:06:36.300><c> is</c><00:06:36.840><c> different</c><00:06:37.139><c> in</c><00:06:37.740><c> this</c><00:06:37.919><c> particular</c>
+
+00:06:38.210 --> 00:06:38.220 align:start position:0%
+you what is different in this particular
+ 
+
+00:06:38.220 --> 00:06:41.689 align:start position:0%
+you what is different in this particular
+pages<00:06:38.539><c> but</c><00:06:39.539><c> it's</c><00:06:39.900><c> basically</c><00:06:40.440><c> uh</c><00:06:41.039><c> used</c><00:06:41.340><c> for</c>
+
+00:06:41.689 --> 00:06:41.699 align:start position:0%
+pages but it's basically uh used for
+ 
+
+00:06:41.699 --> 00:06:45.469 align:start position:0%
+pages but it's basically uh used for
+quick<00:06:41.940><c> comparison</c><00:06:42.539><c> of</c><00:06:43.259><c> two</c><00:06:43.560><c> PDF</c><00:06:44.039><c> documents</c><00:06:44.580><c> if</c>
+
+00:06:45.469 --> 00:06:45.479 align:start position:0%
+quick comparison of two PDF documents if
+ 
+
+00:06:45.479 --> 00:06:48.230 align:start position:0%
+quick comparison of two PDF documents if
+you<00:06:45.600><c> want</c><00:06:45.840><c> to</c><00:06:45.960><c> verify</c><00:06:46.560><c> uh</c><00:06:47.280><c> certain</c><00:06:47.639><c> elements</c>
+
+00:06:48.230 --> 00:06:48.240 align:start position:0%
+you want to verify uh certain elements
+ 
+
+00:06:48.240 --> 00:06:52.370 align:start position:0%
+you want to verify uh certain elements
+on<00:06:48.419><c> the</c><00:06:48.600><c> PDF</c><00:06:49.020><c> then</c><00:06:49.620><c> you</c><00:06:50.460><c> need</c><00:06:50.639><c> to</c><00:06:50.819><c> use</c><00:06:51.120><c> our</c><00:06:52.020><c> you</c>
+
+00:06:52.370 --> 00:06:52.380 align:start position:0%
+on the PDF then you need to use our you
+ 
+
+00:06:52.380 --> 00:06:54.950 align:start position:0%
+on the PDF then you need to use our you
+need<00:06:52.560><c> to</c><00:06:52.680><c> create</c><00:06:53.340><c> your</c><00:06:53.699><c> own</c><00:06:53.819><c> test</c><00:06:54.120><c> case</c><00:06:54.360><c> and</c>
+
+00:06:54.950 --> 00:06:54.960 align:start position:0%
+need to create your own test case and
+ 
+
+00:06:54.960 --> 00:06:57.890 align:start position:0%
+need to create your own test case and
+then<00:06:55.560><c> you</c><00:06:56.100><c> need</c><00:06:56.280><c> to</c><00:06:56.400><c> use</c><00:06:56.580><c> the</c><00:06:56.759><c> PDF</c><00:06:57.180><c> scan</c><00:06:57.539><c> okay</c>
+
+00:06:57.890 --> 00:06:57.900 align:start position:0%
+then you need to use the PDF scan okay
+ 
+
+00:06:57.900 --> 00:06:59.930 align:start position:0%
+then you need to use the PDF scan okay
+we<00:06:58.139><c> will</c><00:06:58.199><c> see</c><00:06:58.500><c> that</c><00:06:58.680><c> in</c><00:06:59.400><c> some</c><00:06:59.580><c> of</c><00:06:59.699><c> the</c><00:06:59.759><c> coming</c>
+
+00:06:59.930 --> 00:06:59.940 align:start position:0%
+we will see that in some of the coming
+ 
+
+00:06:59.940 --> 00:07:02.990 align:start position:0%
+we will see that in some of the coming
+up<00:07:00.120><c> session</c><00:07:00.440><c> but</c><00:07:01.440><c> using</c><00:07:01.860><c> the</c><00:07:01.979><c> PDF</c><00:07:02.340><c> scan</c><00:07:02.699><c> then</c>
+
+00:07:02.990 --> 00:07:03.000 align:start position:0%
+up session but using the PDF scan then
+ 
+
+00:07:03.000 --> 00:07:04.909 align:start position:0%
+up session but using the PDF scan then
+you<00:07:03.300><c> can</c><00:07:03.419><c> scan</c><00:07:03.780><c> particular</c><00:07:04.139><c> elements</c><00:07:04.560><c> and</c><00:07:04.740><c> you</c>
+
+00:07:04.909 --> 00:07:04.919 align:start position:0%
+you can scan particular elements and you
+ 
+
+00:07:04.919 --> 00:07:07.010 align:start position:0%
+you can scan particular elements and you
+can<00:07:05.039><c> verify</c><00:07:05.460><c> whether</c><00:07:05.639><c> they</c><00:07:06.060><c> are</c><00:07:06.240><c> same</c><00:07:06.600><c> on</c><00:07:06.840><c> the</c>
+
+00:07:07.010 --> 00:07:07.020 align:start position:0%
+can verify whether they are same on the
+ 
+
+00:07:07.020 --> 00:07:08.270 align:start position:0%
+can verify whether they are same on the
+PDF<00:07:07.380><c> or</c><00:07:07.560><c> not</c>
+
+00:07:08.270 --> 00:07:08.280 align:start position:0%
+PDF or not
+ 
+
+00:07:08.280 --> 00:07:11.150 align:start position:0%
+PDF or not
+but<00:07:08.699><c> this</c><00:07:09.240><c> module</c><00:07:09.900><c> is</c><00:07:10.199><c> meant</c><00:07:10.500><c> for</c><00:07:10.800><c> a</c><00:07:11.039><c> quick</c>
+
+00:07:11.150 --> 00:07:11.160 align:start position:0%
+but this module is meant for a quick
+ 
+
+00:07:11.160 --> 00:07:13.909 align:start position:0%
+but this module is meant for a quick
+comparison<00:07:11.699><c> uh</c><00:07:12.360><c> with</c><00:07:12.660><c> a</c><00:07:13.020><c> certain</c><00:07:13.199><c> accuracy</c>
+
+00:07:13.909 --> 00:07:13.919 align:start position:0%
+comparison uh with a certain accuracy
+ 
+
+00:07:13.919 --> 00:07:17.689 align:start position:0%
+comparison uh with a certain accuracy
+and<00:07:14.819><c> you</c><00:07:15.060><c> can</c><00:07:15.120><c> also</c><00:07:15.419><c> exclude</c><00:07:15.780><c> pages</c><00:07:16.220><c> so</c><00:07:17.220><c> quite</c>
+
+00:07:17.689 --> 00:07:17.699 align:start position:0%
+and you can also exclude pages so quite
+ 
+
+00:07:17.699 --> 00:07:19.430 align:start position:0%
+and you can also exclude pages so quite
+a<00:07:17.880><c> useful</c><00:07:18.120><c> module</c><00:07:18.539><c> if</c><00:07:18.660><c> you</c><00:07:18.840><c> just</c><00:07:19.139><c> want</c><00:07:19.319><c> to</c>
+
+00:07:19.430 --> 00:07:19.440 align:start position:0%
+a useful module if you just want to
+ 
+
+00:07:19.440 --> 00:07:22.129 align:start position:0%
+a useful module if you just want to
+compare<00:07:19.740><c> to</c><00:07:19.919><c> PDFs</c><00:07:20.460><c> okay</c>
+
+00:07:22.129 --> 00:07:22.139 align:start position:0%
+compare to PDFs okay
+ 
+
+00:07:22.139 --> 00:07:25.610 align:start position:0%
+compare to PDFs okay
+so<00:07:22.860><c> that's</c><00:07:23.220><c> that's</c><00:07:23.699><c> all</c><00:07:24.060><c> about</c><00:07:24.300><c> uh</c><00:07:25.139><c> how</c><00:07:25.500><c> you</c>
+
+00:07:25.610 --> 00:07:25.620 align:start position:0%
+so that's that's all about uh how you
+ 
+
+00:07:25.620 --> 00:07:28.129 align:start position:0%
+so that's that's all about uh how you
+can<00:07:25.740><c> compare</c><00:07:26.099><c> to</c><00:07:26.220><c> PDF</c><00:07:26.699><c> files</c><00:07:27.060><c> using</c><00:07:27.720><c> this</c><00:07:27.960><c> one</c>
+
+00:07:28.129 --> 00:07:28.139 align:start position:0%
+can compare to PDF files using this one
+ 
+
+00:07:28.139 --> 00:07:31.309 align:start position:0%
+can compare to PDF files using this one
+is<00:07:28.319><c> to</c><00:07:28.440><c> one</c><00:07:28.620><c> compare</c><00:07:29.160><c> the</c><00:07:29.520><c> Box</c><00:07:29.699><c> module</c><00:07:30.720><c> in</c><00:07:31.199><c> the</c>
+
+00:07:31.309 --> 00:07:31.319 align:start position:0%
+is to one compare the Box module in the
+ 
+
+00:07:31.319 --> 00:07:33.770 align:start position:0%
+is to one compare the Box module in the
+next<00:07:31.440><c> session</c><00:07:31.680><c> uh</c><00:07:32.099><c> we'll</c><00:07:32.340><c> talk</c><00:07:32.580><c> about</c><00:07:32.759><c> the</c><00:07:33.419><c> PDF</c>
+
+00:07:33.770 --> 00:07:33.780 align:start position:0%
+next session uh we'll talk about the PDF
+ 
+
+00:07:33.780 --> 00:07:35.990 align:start position:0%
+next session uh we'll talk about the PDF
+scan<00:07:34.139><c> how</c><00:07:34.560><c> you</c><00:07:34.740><c> can</c><00:07:34.860><c> scan</c><00:07:35.220><c> different</c><00:07:35.460><c> elements</c>
+
+00:07:35.990 --> 00:07:36.000 align:start position:0%
+scan how you can scan different elements
+ 
+
+00:07:36.000 --> 00:07:37.249 align:start position:0%
+scan how you can scan different elements
+in<00:07:36.180><c> the</c><00:07:36.300><c> PDF</c>
+
+00:07:37.249 --> 00:07:37.259 align:start position:0%
+in the PDF
+ 
+
+00:07:37.259 --> 00:07:41.419 align:start position:0%
+in the PDF
+and<00:07:37.860><c> how</c><00:07:38.099><c> you</c><00:07:38.220><c> can</c><00:07:38.340><c> verify</c><00:07:38.759><c> the</c><00:07:38.940><c> values</c>
+

@@ -1,0 +1,32 @@
+---
+id: "BUXOkE9GlI0"
+title: "Tosca Tutorial | Lesson 143 - Common Problems & Fixes | UIA Engine | JavaScript Alert Window |"
+url: "https://www.youtube.com/watch?v=BUXOkE9GlI0"
+channel: "QASCRIPT"
+playlist: "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification"
+playlist_index: 146
+duration: 475
+upload_date: "20240319"
+source: "youtube-subs"
+language: "en"
+transcribed_at: "2026-09-04T08:09:56Z"
+status: "raw"
+---
+
+# Tosca Tutorial | Lesson 143 - Common Problems & Fixes | UIA Engine | JavaScript Alert Window |
+
+[00:12] hey everyone welcome back to our Channel I am back with another interesting topic in the tosa automation playlist so today uh we are going to discuss about a problem uh which is quite common when you are working with uh web applications you might come across scenarios where you get these popups which are mostly JavaScript enabled right now these popups will not be recognized by the tosa application engine which can recognize most of the applications but these windows will not be recognized by this particular technology so in these type of scenarios you need to fall back upon different engines and one of the engine which is called the U IIA engine you can use this UIA scan to scan these popup Windows which are Java Script based and through this you can solve this particular problem where you're not able to
+
+[01:14] identify these particular popup Windows okay so let's see uh with the help of an example uh how we can go around this particular problem and how we can solve this easily with the different scanning methods which are available in tosa so for this um I have gone to this particular website which has got some JavaScript alerts okay and here uh I can go ahead and click any of these different alerts okay so I can click this one and you here it will say um I am a JS alert it is a popup window which comes on top of this particular browser right so let's see uh if we are able to scan this with the normal application uh option which we choose to scan any particular window so we'll go back to tosa and here in the modules we'll go ahead and choose scan application okay so let's go ahead
+
+[02:15] and scan this particular application along with the popup so we'll try this okay so now you can see that uh tosa has scanned some elements uh it has scanned all these buttons and some links here but uh I still cannot see the windows popup here right so I'm going to increase the filtered items and try to see if I can still see this particular controls which are present on this popup okay so if I go through the whole tree I cannot see this popup okay or or any controls which are present in this popup so mostly uh tosa will not be able to scan this JavaScript alert popup okay when you choose the application option so we will see what is the work around for this okay so we'll close this and we will try to scan this again so initially we have to select
+
+[03:17] application because there is no specific method uh present there but once you come to this xcan window here you can choose different options okay so once the window window is selected now what you can do right click on that and by default HTML is selected right but we have got different options and we are going to use the UIA option okay so it's one of the scanning engines uh which can scan some window based controls or even JavaScript based controls okay so we are going to use this particular scanning technology and then we are going to click on scan and now you will see that uh it has scanned uh different controls right here uh you can see many other controls but the main control which we are looking for is the popup or the alert right and it is present right here you can see so
+
+[04:20] here uh we can just select the okay button because we want to click on okay to proceed with our um automation right because this is completely blocking the automation so we want to click on okay and then we want to proceed with our next steps so as you can see uh the okay button is uh unique so we don't need to do anything here okay uh I'm going to go ahead and save this I will change the name here I will say JavaScript popup okay and go ahead and save this now and close this so now coming back here uh you can see that this module has been created now if you want to use this module as a generic module right because most of the JavaScript alerts will have this kind of text so it will start with uh some um application related name and then it
+
+[05:20] will say says okay this is mostly how the JavaScript alerts or popups have the same name so here what we can do is instead of this uh we can put a regular expression here okay so that uh it can cover any particular page title um or the title of that popup right so so whatever uh it begins with that can be covered with the regular expression Aster and then you can uh put say here okay now uh we will go ahead and we will create a new test case let's create a new test case under the the same folder which is Win controls okay so here we will say uh click on popup okay and then we will go ahead and add the module here and here what we need to do we just need to click on it
+
+[06:22] right so that's all uh we have to do here and then let's go ahead and uh run this in scratchbook okay so as you can see now it was able to click on the okay button successfully but previously it was not even able to uh scan this particular control okay so uh in scenarios where you're not able to scan uh particular controls using the application option you can go ahead and choose a different option in the xcan window there are different options like UIA you can also follow back up on Vision AI if you have got an account for that okay so these are the two different options which you can try before falling back to different other options right now uh this uh will work for the Chrome browser so if you are working on other browsers the message may be different or the popup
+
+[07:25] title may be different so you need to adjust your uh name name of that particular title as per the browser window because every browser will have a different title for the JavaScript popup that's all for this particular video if you have any questions then please leave it in the comments if you like this video then please subscribe to our Channel thanks for watching and I will see you in the next video

@@ -1,0 +1,28 @@
+---
+id: "VT4f_mHizH4"
+title: "Tosca Tutorial | Lesson 104 - Merge Duplicate Modules | Workspace Performance | Best Practices |"
+url: "https://www.youtube.com/watch?v=VT4f_mHizH4"
+channel: "QASCRIPT"
+playlist: "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification"
+playlist_index: 104
+duration: 383
+upload_date: "20230727"
+source: "youtube-subs"
+language: "en"
+transcribed_at: "2026-09-04T08:06:34Z"
+status: "raw"
+---
+
+# Tosca Tutorial | Lesson 104 - Merge Duplicate Modules | Workspace Performance | Best Practices |
+
+[00:08] hey everyone welcome back to testoster automation playlist and we are talking about the top 10 Tosca best practices which you should Implement in your workspace or project so before we move forward I would like you to subscribe to our channel so that you don't miss out on all the videos which are on this very topic if you have not watched the previous videos go back to our playlist and do watch all the different videos we have done on the Tosca best practices now coming to the number eight best practice which is recommended by try centers is to merge duplicate modules the reason is very simple duplicate modules uh will only increase your workspace size and in the long run it is going to increase your maintenance efforts what you can do is you can use the merge module feature which is available in Tosca to find and merge all your duplicate modules
+
+[01:08] now the question is why someone will create duplicate modules so probably when you are working alone you will not come across the scenario because you know what modules you have created for your project or for your application and you will not go ahead and create a duplicate module which you have already created but what if you're working in a team right so there are different team members who are working on the same application and then due to some lack of best practices or in your project the modules are not named correctly or someone in your team is not able to find a particular module right it may be because there are lots of modules and he's not able to find it or the names are not represented correctly so somebody is not sure whether that module does what it is intended to do right so generally people uh find it easier to
+
+[02:09] scan new modules and they keep on creating new modules without even searching whether that module already exists in the project that in itself is a mistake and which leads to this particular problem where you have got lots of duplicate modules now the result of this issue is the workspace size keeps on increasing and then it becomes unmanageable and similarly if you have to maybe migrate your modules or you have to update some modules you have to do it for all the different duplicate modules which only increases the time which you need to spend in order to maintain all of these modules right so it is best recommended that you do this activity on a regular basis you check for duplicate modules and if you need to merge uh certain modules then go ahead and merge them so that your workspace contains only a unique and efficient modules this will also make your project more efficient right and if
+
+[03:13] different people are working on it then everybody will be using a single module rather than using the same modules but they are duplicate in the workspace right so let's see with an example uh what I am talking all about right I have already shown you uh in a different video how you can merge duplicate modules but let's say it quickly again so I'm back in Tosca and here uh what I have done is I have scanned this particular page okay uh it's a simple login form with username password and login button now what I've done is I have scanned this twice so you can see here this is the swag labs and this is also the swaglabs module and the module attributes are exactly the same username password login right so it doesn't make any sense to keep both these modules in this particular workspace right it is of no use and also these are additional objects in the
+
+[04:14] workspace right so what we can do is we can go to uh one of our modules okay if we know that there is a duplicate we can directly merge them if not we can go ahead and click on find duplicate modules okay and then it will show me both the modules and then I can select any one of them and click on merge selected right so what it will do it will take this Source module and then it will merge it into the target module right the target module will not be changed uh and any usage also which is present for Source or Target um it will be linked properly to the Target module and then the source module will be deleted right so a proper cleanup is done by this module merge assistant and it is very fast and it also tells you which modules are actually duplicates if you cannot find them on your own right so this feature
+
+[05:16] is already provided by Tosca and you should use it to implement this best practice so that you don't have any unnecessary modules lying in your workspace which is uh obviously going to impact your overall performance of your Tosca project because the workspace size when it becomes too big your performance is impacted um your Tosca will start to load very slowly your executions will be slower all right so it will impact everything else so you need to keep a check on your workspace size always and this is one ways of doing it okay so that's all for this short video I hope you enjoyed it and you learned something new today keep watching out for our Channel as we are going to bring up many more videos related Tosca and other automation tools so until we meet again keep learning and keep watching

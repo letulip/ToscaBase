@@ -1,0 +1,1097 @@
+[
+ {
+  "start": 8.95,
+  "end": 8.96,
+  "text": "hey everyone welcome back to this tosa"
+ },
+ {
+  "start": 8.96,
+  "end": 10.83,
+  "text": "automation playlist and today we are"
+ },
+ {
+  "start": 10.84,
+  "end": 12.549,
+  "text": "going to discuss about another"
+ },
+ {
+  "start": 12.559,
+  "end": 14.91,
+  "text": "interesting topic or feature which is"
+ },
+ {
+  "start": 14.92,
+  "end": 18.59,
+  "text": "provided by tosa and today uh I will"
+ },
+ {
+  "start": 18.6,
+  "end": 21.349,
+  "text": "show you how you can basically compare"
+ },
+ {
+  "start": 21.359,
+  "end": 24.029,
+  "text": "to Excel files which is a pretty common"
+ },
+ {
+  "start": 24.039,
+  "end": 27.349,
+  "text": "scenario in any automation you perform"
+ },
+ {
+  "start": 27.359,
+  "end": 29.47,
+  "text": "with any kind of application you always"
+ },
+ {
+  "start": 29.48,
+  "end": 32.79,
+  "text": "have some data in Excel files right and"
+ },
+ {
+  "start": 32.8,
+  "end": 35.229,
+  "text": "uh in order to compare them either you"
+ },
+ {
+  "start": 35.239,
+  "end": 37.35,
+  "text": "can use some utilities provided by an"
+ },
+ {
+  "start": 37.36,
+  "end": 39.47,
+  "text": "automation tool or you have to build"
+ },
+ {
+  "start": 39.48,
+  "end": 42.91,
+  "text": "your own automation utility now in uh"
+ },
+ {
+  "start": 42.92,
+  "end": 45.67,
+  "text": "tools like selenium uh you need to use"
+ },
+ {
+  "start": 45.68,
+  "end": 49.389,
+  "text": "different libraries to basically access"
+ },
+ {
+  "start": 49.399,
+  "end": 52.349,
+  "text": "uh or open or even compare the different"
+ },
+ {
+  "start": 52.359,
+  "end": 55.75,
+  "text": "Excel files but uh tosa already provides"
+ },
+ {
+  "start": 55.76,
+  "end": 58.79,
+  "text": "you with all of these uh in the standard"
+ },
+ {
+  "start": 58.8,
+  "end": 62.11,
+  "text": "subset as a mod module okay so there are"
+ },
+ {
+  "start": 62.12,
+  "end": 64.869,
+  "text": "different modules uh to access different"
+ },
+ {
+  "start": 64.879,
+  "end": 67.469,
+  "text": "Excel files or you can also steer these"
+ },
+ {
+  "start": 67.479,
+  "end": 71.109,
+  "text": "Excel files you can open them you can um"
+ },
+ {
+  "start": 71.119,
+  "end": 73.83,
+  "text": "create entries or you can also save them"
+ },
+ {
+  "start": 73.84,
+  "end": 75.789,
+  "text": "right so basically you can perform all"
+ },
+ {
+  "start": 75.799,
+  "end": 78.109,
+  "text": "the things uh with respect to the Excel"
+ },
+ {
+  "start": 78.119,
+  "end": 80.71,
+  "text": "files using this uh modules which are"
+ },
+ {
+  "start": 80.72,
+  "end": 82.91,
+  "text": "present in the standard subset now this"
+ },
+ {
+  "start": 82.92,
+  "end": 85.87,
+  "text": "is part of the Excel engine uh which is"
+ },
+ {
+  "start": 85.88,
+  "end": 88.789,
+  "text": "present in tosa and then uh you can"
+ },
+ {
+  "start": 88.799,
+  "end": 90.87,
+  "text": "perform all these different operations"
+ },
+ {
+  "start": 90.88,
+  "end": 92.87,
+  "text": "using the different modules which are"
+ },
+ {
+  "start": 92.88,
+  "end": 95.67,
+  "text": "present okay so today um I'm not going"
+ },
+ {
+  "start": 95.68,
+  "end": 97.389,
+  "text": "to show you how you can steer Excel"
+ },
+ {
+  "start": 97.399,
+  "end": 100.429,
+  "text": "files basically uh create or open Excel"
+ },
+ {
+  "start": 100.439,
+  "end": 102.389,
+  "text": "files but I'm going to show you how you"
+ },
+ {
+  "start": 102.399,
+  "end": 104.67,
+  "text": "can compare the Excel files maybe I will"
+ },
+ {
+  "start": 104.68,
+  "end": 107.31,
+  "text": "show you uh in the next session um how"
+ },
+ {
+  "start": 107.32,
+  "end": 109.51,
+  "text": "you can steer even uh all the different"
+ },
+ {
+  "start": 109.52,
+  "end": 111.749,
+  "text": "Excel files"
+ },
+ {
+  "start": 111.759,
+  "end": 114.83,
+  "text": "okay so uh to compare Excel files let's"
+ },
+ {
+  "start": 114.84,
+  "end": 117.029,
+  "text": "take an example and see how we can do"
+ },
+ {
+  "start": 117.039,
+  "end": 119.27,
+  "text": "this okay so I have already created a"
+ },
+ {
+  "start": 119.28,
+  "end": 121.789,
+  "text": "test case for folder called Excel engine"
+ },
+ {
+  "start": 121.799,
+  "end": 123.95,
+  "text": "and here uh I have created a test case"
+ },
+ {
+  "start": 123.96,
+  "end": 126.51,
+  "text": "called compare Excel okay so the first"
+ },
+ {
+  "start": 126.52,
+  "end": 131.15,
+  "text": "step is to get the tbox module okay uh"
+ },
+ {
+  "start": 131.16,
+  "end": 134.91,
+  "text": "which is used for automation so um the"
+ },
+ {
+  "start": 134.92,
+  "end": 137.35,
+  "text": "process is same you do a search and ADD"
+ },
+ {
+  "start": 137.36,
+  "end": 140.07,
+  "text": "test step and then try to find for uh"
+ },
+ {
+  "start": 140.08,
+  "end": 144.949,
+  "text": "tbox Excel um something related to tbox"
+ },
+ {
+  "start": 144.959,
+  "end": 146.79,
+  "text": "excel right and that will give you the"
+ },
+ {
+  "start": 146.8,
+  "end": 148.99,
+  "text": "whole list you can see here there are"
+ },
+ {
+  "start": 149.0,
+  "end": 152.07,
+  "text": "lots of modules for uh creating Excel"
+ },
+ {
+  "start": 152.08,
+  "end": 155.03,
+  "text": "workbook uh for deleting updating uh"
+ },
+ {
+  "start": 155.04,
+  "end": 157.99,
+  "text": "closing opening right um Range"
+ },
+ {
+  "start": 158.0,
+  "end": 161.309,
+  "text": "manipulation so all the different uh"
+ },
+ {
+  "start": 161.319,
+  "end": 163.75,
+  "text": "things which you need to do or perform"
+ },
+ {
+  "start": 163.76,
+  "end": 166.229,
+  "text": "uh during automation with respect to"
+ },
+ {
+  "start": 166.239,
+  "end": 168.83,
+  "text": "Microsoft Excel sheets you can use this"
+ },
+ {
+  "start": 168.84,
+  "end": 171.03,
+  "text": "different modules okay so we'll go"
+ },
+ {
+  "start": 171.04,
+  "end": 172.91,
+  "text": "through all these different modules uh"
+ },
+ {
+  "start": 172.92,
+  "end": 175.55,
+  "text": "but today we are looking at the tbox"
+ },
+ {
+  "start": 175.56,
+  "end": 178.35,
+  "text": "Excel 1 is to one file compare okay so"
+ },
+ {
+  "start": 178.36,
+  "end": 180.35,
+  "text": "this is the module uh which we are going"
+ },
+ {
+  "start": 180.36,
+  "end": 182.75,
+  "text": "to use in order to compare to excel"
+ },
+ {
+  "start": 182.76,
+  "end": 187.789,
+  "text": "sheets okay so uh you can either uh"
+ },
+ {
+  "start": 187.799,
+  "end": 189.27,
+  "text": "compare all the sheets or you can"
+ },
+ {
+  "start": 189.28,
+  "end": 191.949,
+  "text": "compare uh specific sheets right so"
+ },
+ {
+  "start": 191.959,
+  "end": 193.35,
+  "text": "there are some parameters which you need"
+ },
+ {
+  "start": 193.36,
+  "end": 196.07,
+  "text": "to fulfill okay before that so let's go"
+ },
+ {
+  "start": 196.08,
+  "end": 198.11,
+  "text": "ahead and add this module"
+ },
+ {
+  "start": 198.12,
+  "end": 200.47,
+  "text": "now and once you add this module you can"
+ },
+ {
+  "start": 200.48,
+  "end": 202.11,
+  "text": "see there are different parameters as I"
+ },
+ {
+  "start": 202.12,
+  "end": 205.03,
+  "text": "said okay for this or module attributes"
+ },
+ {
+  "start": 205.04,
+  "end": 206.869,
+  "text": "for this particular module and you need"
+ },
+ {
+  "start": 206.879,
+  "end": 209.03,
+  "text": "to provide a value or action mode"
+ },
+ {
+  "start": 209.04,
+  "end": 211.55,
+  "text": "depending on what you want to perform"
+ },
+ {
+  "start": 211.56,
+  "end": 215.55,
+  "text": "okay so the most uh important things uh"
+ },
+ {
+  "start": 215.56,
+  "end": 218.309,
+  "text": "to put here is the reference file okay"
+ },
+ {
+  "start": 218.319,
+  "end": 221.11,
+  "text": "so this is the file um which will be as"
+ },
+ {
+  "start": 221.12,
+  "end": 224.35,
+  "text": "a reference point okay uh and against"
+ },
+ {
+  "start": 224.36,
+  "end": 226.27,
+  "text": "this you will be comparing it with"
+ },
+ {
+  "start": 226.28,
+  "end": 228.03,
+  "text": "another file okay which will be our"
+ },
+ {
+  "start": 228.04,
+  "end": 230.949,
+  "text": "Target file uh you can also provide a"
+ },
+ {
+  "start": 230.959,
+  "end": 233.069,
+  "text": "reference password the target password"
+ },
+ {
+  "start": 233.079,
+  "end": 237.229,
+  "text": "if your file is password protected okay"
+ },
+ {
+  "start": 237.239,
+  "end": 240.99,
+  "text": "uh then uh you can include uh"
+ },
+ {
+  "start": 241.0,
+  "end": 245.149,
+  "text": "different cells data okay so you can"
+ },
+ {
+  "start": 245.159,
+  "end": 249.39,
+  "text": "tell whether um you want to include uh"
+ },
+ {
+  "start": 249.4,
+  "end": 251.91,
+  "text": "cells data you can include different"
+ },
+ {
+  "start": 251.92,
+  "end": 253.71,
+  "text": "formats you can include different"
+ },
+ {
+  "start": 253.72,
+  "end": 257.03,
+  "text": "objects you can include different sheets"
+ },
+ {
+  "start": 257.04,
+  "end": 258.67,
+  "text": "okay so you can specify all this"
+ },
+ {
+  "start": 258.68,
+  "end": 260.949,
+  "text": "information if you want to compare"
+ },
+ {
+  "start": 260.959,
+  "end": 263.83,
+  "text": "specific cells specific format or"
+ },
+ {
+  "start": 263.84,
+  "end": 268.189,
+  "text": "specific objects okay so uh in"
+ },
+ {
+  "start": 268.199,
+  "end": 270.79,
+  "text": "this uh the most most important is the"
+ },
+ {
+  "start": 270.8,
+  "end": 273.67,
+  "text": "include sheets part okay and then the"
+ },
+ {
+  "start": 273.68,
+  "end": 275.629,
+  "text": "output part where you want to store your"
+ },
+ {
+  "start": 275.639,
+  "end": 278.11,
+  "text": "results okay so if it's a failure it"
+ },
+ {
+  "start": 278.12,
+  "end": 280.35,
+  "text": "will show you where the failure is"
+ },
+ {
+  "start": 280.36,
+  "end": 283.71,
+  "text": "happening uh which rows are not matching"
+ },
+ {
+  "start": 283.72,
+  "end": 286.67,
+  "text": "okay or if it is a pass uh it won't be"
+ },
+ {
+  "start": 286.68,
+  "end": 288.629,
+  "text": "writing anything into the output path"
+ },
+ {
+  "start": 288.639,
+  "end": 290.749,
+  "text": "okay so these are all the uh values"
+ },
+ {
+  "start": 290.759,
+  "end": 293.43,
+  "text": "which you need to provide now looking at"
+ },
+ {
+  "start": 293.44,
+  "end": 295.95,
+  "text": "the comparison so I have got two Excel"
+ },
+ {
+  "start": 295.96,
+  "end": 299.909,
+  "text": "files here okay so here you can see uh"
+ },
+ {
+  "start": 299.919,
+  "end": 302.23,
+  "text": "there is users and there is users one"
+ },
+ {
+  "start": 302.24,
+  "end": 306.11,
+  "text": "okay mostly it contains the similar data"
+ },
+ {
+  "start": 306.12,
+  "end": 308.51,
+  "text": "but I have changed one row you can see"
+ },
+ {
+  "start": 308.52,
+  "end": 311.39,
+  "text": "here this test gmail.com is one row"
+ },
+ {
+  "start": 311.4,
+  "end": 313.909,
+  "text": "which I have changed in both the sheets"
+ },
+ {
+  "start": 313.919,
+  "end": 316.189,
+  "text": "it contains a list of different email"
+ },
+ {
+  "start": 316.199,
+  "end": 319.67,
+  "text": "address the sheet name is email"
+ },
+ {
+  "start": 319.68,
+  "end": 322.909,
+  "text": "okay and uh the similar thing is present"
+ },
+ {
+  "start": 322.919,
+  "end": 325.23,
+  "text": "here except that one email address which"
+ },
+ {
+  "start": 325.24,
+  "end": 328.11,
+  "text": "is not present here okay so currently my"
+ },
+ {
+  "start": 328.12,
+  "end": 330.189,
+  "text": "Excel sheets are not matching and I want"
+ },
+ {
+  "start": 330.199,
+  "end": 332.23,
+  "text": "to see whether tosa is able to compare"
+ },
+ {
+  "start": 332.24,
+  "end": 335.469,
+  "text": "them and tell me that this uh is not"
+ },
+ {
+  "start": 335.479,
+  "end": 337.749,
+  "text": "matching and tell me where it is not"
+ },
+ {
+  "start": 337.759,
+  "end": 340.95,
+  "text": "matching okay what um what row is"
+ },
+ {
+  "start": 340.96,
+  "end": 344.07,
+  "text": "missing from that particular sheet"
+ },
+ {
+  "start": 344.08,
+  "end": 347.15,
+  "text": "right okay um so we need to provide the"
+ },
+ {
+  "start": 347.16,
+  "end": 349.189,
+  "text": "reference file path so this will be our"
+ },
+ {
+  "start": 349.199,
+  "end": 352.15,
+  "text": "reference file path users okay so I'm"
+ },
+ {
+  "start": 352.16,
+  "end": 355.35,
+  "text": "going to copy this path here and put it"
+ },
+ {
+  "start": 355.36,
+  "end": 358.71,
+  "text": "here so we'll say users uh you need to"
+ },
+ {
+  "start": 358.72,
+  "end": 360.749,
+  "text": "also provide the EXT ension so it will"
+ },
+ {
+  "start": 360.759,
+  "end": 365.51,
+  "text": "be xlsx okay and uh it will be the same"
+ },
+ {
+  "start": 365.52,
+  "end": 367.95,
+  "text": "for Target except the name Will Change"
+ },
+ {
+  "start": 367.96,
+  "end": 370.39,
+  "text": "we need to provide uh the target file"
+ },
+ {
+  "start": 370.4,
+  "end": 374.43,
+  "text": "name here so it is users one and then um"
+ },
+ {
+  "start": 374.44,
+  "end": 376.189,
+  "text": "I don't have any password I don't want"
+ },
+ {
+  "start": 376.199,
+  "end": 379.83,
+  "text": "to um do this include CS data or format"
+ },
+ {
+  "start": 379.84,
+  "end": 382.67,
+  "text": "or object it's pretty much optional uh"
+ },
+ {
+  "start": 382.68,
+  "end": 384.99,
+  "text": "you can either provide it's a data type"
+ },
+ {
+  "start": 385.0,
+  "end": 386.95,
+  "text": "is Boolean so you can provide true and"
+ },
+ {
+  "start": 386.96,
+  "end": 389.15,
+  "text": "false here okay so it will include the"
+ },
+ {
+  "start": 389.16,
+  "end": 391.71,
+  "text": "format it will include the sales data"
+ },
+ {
+  "start": 391.72,
+  "end": 394.27,
+  "text": "and it will include the objects"
+ },
+ {
+  "start": 394.28,
+  "end": 397.55,
+  "text": "okay uh but it's optional as I said here"
+ },
+ {
+  "start": 397.56,
+  "end": 399.629,
+  "text": "most important thing is you can give the"
+ },
+ {
+  "start": 399.639,
+  "end": 402.43,
+  "text": "sheet names if you have multiple sheets"
+ },
+ {
+  "start": 402.44,
+  "end": 404.79,
+  "text": "okay you can give which sheet name you"
+ },
+ {
+  "start": 404.8,
+  "end": 406.71,
+  "text": "want to include and which sheet name you"
+ },
+ {
+  "start": 406.72,
+  "end": 408.27,
+  "text": "don't want to include okay so if you"
+ },
+ {
+  "start": 408.28,
+  "end": 410.43,
+  "text": "don't provide the name here the sheet"
+ },
+ {
+  "start": 410.44,
+  "end": 412.15,
+  "text": "name it will be excluded from the"
+ },
+ {
+  "start": 412.16,
+  "end": 416.39,
+  "text": "comparison right so our sheet name is"
+ },
+ {
+  "start": 416.4,
+  "end": 420.83,
+  "text": "email okay and um let's put a semicolon"
+ },
+ {
+  "start": 420.84,
+  "end": 423.27,
+  "text": "here and then we need to provide a"
+ },
+ {
+  "start": 423.28,
+  "end": 426.309,
+  "text": "output path okay so my output path is"
+ },
+ {
+  "start": 426.319,
+  "end": 429.309,
+  "text": "this c training report inside this there"
+ },
+ {
+  "start": 429.319,
+  "end": 432.79,
+  "text": "is a results file okay so I'm going to"
+ },
+ {
+  "start": 432.8,
+  "end": 435.309,
+  "text": "give uh"
+ },
+ {
+  "start": 435.319,
+  "end": 438.029,
+  "text": "results and then uh we have to also give"
+ },
+ {
+  "start": 438.039,
+  "end": 441.23,
+  "text": "the extension we'll give txt okay so"
+ },
+ {
+  "start": 441.24,
+  "end": 443.11,
+  "text": "here uh the results will be written"
+ },
+ {
+  "start": 443.12,
+  "end": 447.309,
+  "text": "after this comparison is done okay so"
+ },
+ {
+  "start": 447.319,
+  "end": 449.15,
+  "text": "it's pretty simple uh if you have got to"
+ },
+ {
+  "start": 449.16,
+  "end": 450.99,
+  "text": "excel sheets you can just provide the"
+ },
+ {
+  "start": 451.0,
+  "end": 453.15,
+  "text": "reference file path and the target file"
+ },
+ {
+  "start": 453.16,
+  "end": 455.35,
+  "text": "path and the sheet names which you want"
+ },
+ {
+  "start": 455.36,
+  "end": 457.99,
+  "text": "to compare and then the output path okay"
+ },
+ {
+  "start": 458.0,
+  "end": 459.629,
+  "text": "so these are the things you need to give"
+ },
+ {
+  "start": 459.639,
+  "end": 462.55,
+  "text": "in this particular tbox module now let's"
+ },
+ {
+  "start": 462.56,
+  "end": 464.71,
+  "text": "go ahead and run this in scratchbook and"
+ },
+ {
+  "start": 464.72,
+  "end": 467.07,
+  "text": "we'll see uh what is the comparison"
+ },
+ {
+  "start": 467.08,
+  "end": 469.39,
+  "text": "result it will take a few seconds to"
+ },
+ {
+  "start": 469.4,
+  "end": 471.909,
+  "text": "compare uh now it depends also on the"
+ },
+ {
+  "start": 471.919,
+  "end": 475.149,
+  "text": "data you have in this Excel sheets um"
+ },
+ {
+  "start": 475.159,
+  "end": 476.869,
+  "text": "and uh accordingly the time will be"
+ },
+ {
+  "start": 476.879,
+  "end": 478.029,
+  "text": "taken"
+ },
+ {
+  "start": 478.039,
+  "end": 481.909,
+  "text": "Okay so for me uh the Excel sheets don't"
+ },
+ {
+  "start": 481.919,
+  "end": 485.07,
+  "text": "match okay that's what we expected and"
+ },
+ {
+  "start": 485.08,
+  "end": 487.67,
+  "text": "you can see here it is saying Excel file"
+ },
+ {
+  "start": 487.68,
+  "end": 490.749,
+  "text": "uh this does not match with this uh and"
+ },
+ {
+  "start": 490.759,
+  "end": 493.27,
+  "text": "it will also tell the cell mismatch in"
+ },
+ {
+  "start": 493.28,
+  "end": 495.95,
+  "text": "email so this is the reference value in"
+ },
+ {
+  "start": 495.96,
+  "end": 497.35,
+  "text": "this cell"
+ },
+ {
+  "start": 497.36,
+  "end": 501.27,
+  "text": "a49 is this and Target there is no value"
+ },
+ {
+  "start": 501.28,
+  "end": 505.07,
+  "text": "in cell a49 so clearly it is specifying"
+ },
+ {
+  "start": 505.08,
+  "end": 506.99,
+  "text": "uh with cells are not matching in your"
+ },
+ {
+  "start": 507.0,
+  "end": 510.07,
+  "text": "Excel sheets okay the same result"
+ },
+ {
+  "start": 510.08,
+  "end": 513.55,
+  "text": "will also be available in this um sheet"
+ },
+ {
+  "start": 513.56,
+  "end": 517.75,
+  "text": "okay uh Let me refresh this just in"
+ },
+ {
+  "start": 517.76,
+  "end": 520.589,
+  "text": "case okay and uh when I open this you"
+ },
+ {
+  "start": 520.599,
+  "end": 522.949,
+  "text": "will see the same results what we saw on"
+ },
+ {
+  "start": 522.959,
+  "end": 525.949,
+  "text": "the log info is recorded here as well"
+ },
+ {
+  "start": 525.959,
+  "end": 528.79,
+  "text": "okay just for reporting purpose so you"
+ },
+ {
+  "start": 528.8,
+  "end": 531.11,
+  "text": "can see here our value in this is not"
+ },
+ {
+  "start": 531.12,
+  "end": 532.75,
+  "text": "matching with this value in this"
+ },
+ {
+  "start": 532.76,
+  "end": 535.87,
+  "text": "particular cell okay and similarly you"
+ },
+ {
+  "start": 535.88,
+  "end": 538.79,
+  "text": "will get results for all the uh"
+ },
+ {
+  "start": 538.8,
+  "end": 541.069,
+  "text": "comparison which you have done for these"
+ },
+ {
+  "start": 541.079,
+  "end": 545.269,
+  "text": "two particular uh Excel sheets okay so"
+ },
+ {
+  "start": 545.279,
+  "end": 547.75,
+  "text": "that's how easy it is uh to compare to"
+ },
+ {
+  "start": 547.76,
+  "end": 549.75,
+  "text": "excel sheets as I said you can do a lot"
+ },
+ {
+  "start": 549.76,
+  "end": 552.829,
+  "text": "more um using this Excel engine modules"
+ },
+ {
+  "start": 552.839,
+  "end": 555.43,
+  "text": "which are present in the tbx we'll see"
+ },
+ {
+  "start": 555.44,
+  "end": 557.829,
+  "text": "that uh in a later session um how you"
+ },
+ {
+  "start": 557.839,
+  "end": 560.43,
+  "text": "can steer different Excel sheets create"
+ },
+ {
+  "start": 560.44,
+  "end": 563.75,
+  "text": "different values or open them save them"
+ },
+ {
+  "start": 563.76,
+  "end": 565.91,
+  "text": "delete update so all kind of operations"
+ },
+ {
+  "start": 565.92,
+  "end": 570.35,
+  "text": "you can perform on the exual seats okay"
+ },
+ {
+  "start": 570.36,
+  "end": 572.31,
+  "text": "so that's all for this particular video"
+ },
+ {
+  "start": 572.32,
+  "end": 574.03,
+  "text": "hope you enjoyed it and you learned"
+ },
+ {
+  "start": 574.04,
+  "end": 576.35,
+  "text": "something new today uh keep watching our"
+ },
+ {
+  "start": 576.36,
+  "end": 578.59,
+  "text": "videos uh at our Channel and don't"
+ },
+ {
+  "start": 578.6,
+  "end": 580.949,
+  "text": "forget to subscribe as lots more videos"
+ },
+ {
+  "start": 580.959,
+  "end": 582.71,
+  "text": "are coming up on tosa and other"
+ },
+ {
+  "start": 582.72,
+  "end": 586.31,
+  "text": "automation tools this will uh help you"
+ },
+ {
+  "start": 586.32,
+  "end": 588.99,
+  "text": "keep learning tosa in a most efficient"
+ },
+ {
+  "start": 589.0,
+  "end": 592.03,
+  "text": "manner so until the next video uh keep"
+ },
+ {
+  "start": 592.04,
+  "end": 595.11,
+  "text": "watching and keep learning we'll see you"
+ },
+ {
+  "start": 595.12,
+  "end": 598.68,
+  "text": "in the next video"
+ }
+]

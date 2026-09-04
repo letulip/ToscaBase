@@ -1,0 +1,1587 @@
+[
+ {
+  "start": 7.909,
+  "end": 7.919,
+  "text": "hey everyone welcome back to the store"
+ },
+ {
+  "start": 7.919,
+  "end": 10.129,
+  "text": "score automation playlist and today we"
+ },
+ {
+  "start": 10.139,
+  "end": 11.93,
+  "text": "are going to continue with the second"
+ },
+ {
+  "start": 11.94,
+  "end": 14.629,
+  "text": "part of the Excel engine now in the"
+ },
+ {
+  "start": 14.639,
+  "end": 16.07,
+  "text": "previous session I showed you how you"
+ },
+ {
+  "start": 16.08,
+  "end": 18.71,
+  "text": "can compare to Excel files which are"
+ },
+ {
+  "start": 18.72,
+  "end": 21.47,
+  "text": "basically existing files but what about"
+ },
+ {
+  "start": 21.48,
+  "end": 24.529,
+  "text": "the other functions like if you want to"
+ },
+ {
+  "start": 24.539,
+  "end": 26.57,
+  "text": "open an Excel file if you want to close"
+ },
+ {
+  "start": 26.58,
+  "end": 29.929,
+  "text": "it if you want to input some values into"
+ },
+ {
+  "start": 29.939,
+  "end": 32.69,
+  "text": "the Excel file or if you want to verify"
+ },
+ {
+  "start": 32.7,
+  "end": 35.51,
+  "text": "uh some values from the Excel sheet"
+ },
+ {
+  "start": 35.52,
+  "end": 38.15,
+  "text": "right so these are the common functions"
+ },
+ {
+  "start": 38.16,
+  "end": 40.85,
+  "text": "which you perform with an Excel during"
+ },
+ {
+  "start": 40.86,
+  "end": 42.11,
+  "text": "your automation"
+ },
+ {
+  "start": 42.12,
+  "end": 45.229,
+  "text": "and all of these functions are already"
+ },
+ {
+  "start": 45.239,
+  "end": 48.95,
+  "text": "defined in the t-box modules uh in Tosca"
+ },
+ {
+  "start": 48.96,
+  "end": 50.93,
+  "text": "okay so you can find it in the standard"
+ },
+ {
+  "start": 50.94,
+  "end": 54.049,
+  "text": "subset where we found the compare Excel"
+ },
+ {
+  "start": 54.059,
+  "end": 57.17,
+  "text": "module uh all the other modules are also"
+ },
+ {
+  "start": 57.18,
+  "end": 58.069,
+  "text": "present"
+ },
+ {
+  "start": 58.079,
+  "end": 60.35,
+  "text": "so let's see what are these modules and"
+ },
+ {
+  "start": 60.36,
+  "end": 62.389,
+  "text": "how you can basically use this modules"
+ },
+ {
+  "start": 62.399,
+  "end": 63.65,
+  "text": "okay"
+ },
+ {
+  "start": 63.66,
+  "end": 67.01,
+  "text": "so uh I've already created a test case"
+ },
+ {
+  "start": 67.02,
+  "end": 69.469,
+  "text": "called create Excel and inside this I"
+ },
+ {
+  "start": 69.479,
+  "end": 71.75,
+  "text": "have you can see I have uh used couple"
+ },
+ {
+  "start": 71.76,
+  "end": 74.87,
+  "text": "of modules from the Excel worksheet okay"
+ },
+ {
+  "start": 74.88,
+  "end": 78.41,
+  "text": "and basically this will do uh first is"
+ },
+ {
+  "start": 78.42,
+  "end": 81.77,
+  "text": "to open an Excel workbook okay then I'm"
+ },
+ {
+  "start": 81.78,
+  "end": 83.99,
+  "text": "creating an Excel worksheet I am"
+ },
+ {
+  "start": 84.0,
+  "end": 86.99,
+  "text": "defining Excel range I am manipulating"
+ },
+ {
+  "start": 87.0,
+  "end": 89.45,
+  "text": "the Excel range and then I'm closing the"
+ },
+ {
+  "start": 89.46,
+  "end": 92.21,
+  "text": "Excel workbook right so we'll understand"
+ },
+ {
+  "start": 92.22,
+  "end": 95.27,
+  "text": "uh what are all these modules and what"
+ },
+ {
+  "start": 95.28,
+  "end": 98.33,
+  "text": "they exactly do okay the t-box edit file"
+ },
+ {
+  "start": 98.34,
+  "end": 99.469,
+  "text": "is just"
+ },
+ {
+  "start": 99.479,
+  "end": 102.289,
+  "text": "um to delete any existing files before I"
+ },
+ {
+  "start": 102.299,
+  "end": 105.53,
+  "text": "create a new Excel worksheet okay"
+ },
+ {
+  "start": 105.54,
+  "end": 109.31,
+  "text": "now to add these modules is pretty much"
+ },
+ {
+  "start": 109.32,
+  "end": 113.27,
+  "text": "the same away you add any module okay so"
+ },
+ {
+  "start": 113.28,
+  "end": 116.51,
+  "text": "go ahead and search for t-box Excel and"
+ },
+ {
+  "start": 116.52,
+  "end": 118.249,
+  "text": "that should pop up all the modules which"
+ },
+ {
+  "start": 118.259,
+  "end": 120.889,
+  "text": "are present uh in Tosca okay"
+ },
+ {
+  "start": 120.899,
+  "end": 124.91,
+  "text": "and part of the standard subset so uh we"
+ },
+ {
+  "start": 124.92,
+  "end": 126.83,
+  "text": "will be looking at few of them if not"
+ },
+ {
+  "start": 126.84,
+  "end": 129.77,
+  "text": "all okay so the first one which I want"
+ },
+ {
+  "start": 129.78,
+  "end": 132.17,
+  "text": "to explain you uh is the t-box open"
+ },
+ {
+  "start": 132.18,
+  "end": 135.89,
+  "text": "Excel workbook module okay and what it"
+ },
+ {
+  "start": 135.9,
+  "end": 138.65,
+  "text": "exactly does is it allows you to open an"
+ },
+ {
+  "start": 138.66,
+  "end": 142.43,
+  "text": "Excel file okay which is also a workbook"
+ },
+ {
+  "start": 142.44,
+  "end": 146.15,
+  "text": "it can contain several worksheets okay"
+ },
+ {
+  "start": 146.16,
+  "end": 149.57,
+  "text": "let's see what uh what all uh module"
+ },
+ {
+  "start": 149.58,
+  "end": 151.13,
+  "text": "attributes you need to pass in order to"
+ },
+ {
+  "start": 151.14,
+  "end": 153.05,
+  "text": "do this okay"
+ },
+ {
+  "start": 153.06,
+  "end": 155.39,
+  "text": "so I'm going to close this as I said I"
+ },
+ {
+  "start": 155.4,
+  "end": 157.91,
+  "text": "have already created uh this module"
+ },
+ {
+  "start": 157.92,
+  "end": 160.309,
+  "text": "and in this uh the three most important"
+ },
+ {
+  "start": 160.319,
+  "end": 163.61,
+  "text": "attributes are workbook name path and"
+ },
+ {
+  "start": 163.62,
+  "end": 165.83,
+  "text": "the create new whether you want to"
+ },
+ {
+  "start": 165.84,
+  "end": 167.63,
+  "text": "create a new workbook or you want to"
+ },
+ {
+  "start": 167.64,
+  "end": 170.869,
+  "text": "read an existing workbook okay so you"
+ },
+ {
+  "start": 170.879,
+  "end": 172.67,
+  "text": "can do both with this particular module"
+ },
+ {
+  "start": 172.68,
+  "end": 175.79,
+  "text": "okay so you can open an existing file or"
+ },
+ {
+  "start": 175.8,
+  "end": 178.49,
+  "text": "you can even create a new file in my"
+ },
+ {
+  "start": 178.5,
+  "end": 181.91,
+  "text": "case I'm creating a new uh workbook okay"
+ },
+ {
+  "start": 181.92,
+  "end": 185.33,
+  "text": "so I'm giving it a name employee data"
+ },
+ {
+  "start": 185.34,
+  "end": 187.61,
+  "text": "and the path"
+ },
+ {
+  "start": 187.62,
+  "end": 191.03,
+  "text": "um it's ctraining employee dot xlsx so"
+ },
+ {
+  "start": 191.04,
+  "end": 194.11,
+  "text": "it will be creating this EMP"
+ },
+ {
+  "start": 194.12,
+  "end": 198.41,
+  "text": "Excel Excel sheet okay and inside this I"
+ },
+ {
+  "start": 198.42,
+  "end": 200.21,
+  "text": "have a bug book name which is employee"
+ },
+ {
+  "start": 200.22,
+  "end": 201.89,
+  "text": "data okay"
+ },
+ {
+  "start": 201.9,
+  "end": 205.07,
+  "text": "and then create new so either you can"
+ },
+ {
+  "start": 205.08,
+  "end": 206.99,
+  "text": "set it to true or you can set it to"
+ },
+ {
+  "start": 207.0,
+  "end": 209.39,
+  "text": "false okay"
+ },
+ {
+  "start": 209.4,
+  "end": 211.369,
+  "text": "if you want to make it a password"
+ },
+ {
+  "start": 211.379,
+  "end": 213.67,
+  "text": "protected you can give the password here"
+ },
+ {
+  "start": 213.68,
+  "end": 216.649,
+  "text": "or if you want to open it as read-only"
+ },
+ {
+  "start": 216.659,
+  "end": 219.29,
+  "text": "you can also select true or false"
+ },
+ {
+  "start": 219.3,
+  "end": 221.03,
+  "text": "okay so these are all the attributes"
+ },
+ {
+  "start": 221.04,
+  "end": 223.55,
+  "text": "which you need to use for open Excel"
+ },
+ {
+  "start": 223.56,
+  "end": 225.89,
+  "text": "workbook and as I said this can be used"
+ },
+ {
+  "start": 225.9,
+  "end": 228.35,
+  "text": "to both open an existing sheet or create"
+ },
+ {
+  "start": 228.36,
+  "end": 230.27,
+  "text": "a new sheet"
+ },
+ {
+  "start": 230.28,
+  "end": 232.789,
+  "text": "so the next module which you want to"
+ },
+ {
+  "start": 232.799,
+  "end": 235.309,
+  "text": "look at is the create Excel worksheet"
+ },
+ {
+  "start": 235.319,
+  "end": 239.869,
+  "text": "okay and in this so you can create a"
+ },
+ {
+  "start": 239.879,
+  "end": 242.21,
+  "text": "worksheet if your worksheet is not"
+ },
+ {
+  "start": 242.22,
+  "end": 243.71,
+  "text": "present or you want to create a new"
+ },
+ {
+  "start": 243.72,
+  "end": 245.27,
+  "text": "worksheet okay"
+ },
+ {
+  "start": 245.28,
+  "end": 248.33,
+  "text": "so here if I open this particular module"
+ },
+ {
+  "start": 248.34,
+  "end": 250.49,
+  "text": "you need to provide the workbook name"
+ },
+ {
+  "start": 250.5,
+  "end": 252.89,
+  "text": "and make sure the workbook name is"
+ },
+ {
+  "start": 252.9,
+  "end": 254.69,
+  "text": "exactly the same which you have provided"
+ },
+ {
+  "start": 254.7,
+  "end": 257.569,
+  "text": "while opening the workbook okay so"
+ },
+ {
+  "start": 257.579,
+  "end": 259.909,
+  "text": "workbook name will remain same during"
+ },
+ {
+  "start": 259.919,
+  "end": 261.89,
+  "text": "the complete test case"
+ },
+ {
+  "start": 261.9,
+  "end": 264.05,
+  "text": "uh worksheet name you need to provide a"
+ },
+ {
+  "start": 264.06,
+  "end": 266.629,
+  "text": "new worksheet name okay so I've given it"
+ },
+ {
+  "start": 266.639,
+  "end": 270.71,
+  "text": "EMP uh worksheet order which means uh"
+ },
+ {
+  "start": 270.72,
+  "end": 273.29,
+  "text": "where you want to create the sheet okay"
+ },
+ {
+  "start": 273.3,
+  "end": 276.469,
+  "text": "so the position of the sheet it can be"
+ },
+ {
+  "start": 276.479,
+  "end": 278.87,
+  "text": "first it can be any number you can"
+ },
+ {
+  "start": 278.88,
+  "end": 281.93,
+  "text": "specify first or last okay so I have"
+ },
+ {
+  "start": 281.94,
+  "end": 284.33,
+  "text": "specified it first so this sheet will"
+ },
+ {
+  "start": 284.34,
+  "end": 286.49,
+  "text": "always be created as the first sheet in"
+ },
+ {
+  "start": 286.5,
+  "end": 288.71,
+  "text": "the workbook okay"
+ },
+ {
+  "start": 288.72,
+  "end": 292.55,
+  "text": "so this is open and then create Excel"
+ },
+ {
+  "start": 292.56,
+  "end": 295.249,
+  "text": "worksheet and then comes the Define"
+ },
+ {
+  "start": 295.259,
+  "end": 297.77,
+  "text": "excel range okay"
+ },
+ {
+  "start": 297.78,
+  "end": 302.15,
+  "text": "so this module Define excel range allows"
+ },
+ {
+  "start": 302.16,
+  "end": 305.39,
+  "text": "you to define a certain data range that"
+ },
+ {
+  "start": 305.4,
+  "end": 307.67,
+  "text": "you want to steer from the Excel sheet"
+ },
+ {
+  "start": 307.68,
+  "end": 310.909,
+  "text": "okay and mind you this step is mandatory"
+ },
+ {
+  "start": 310.919,
+  "end": 313.07,
+  "text": "for every test case where you want to"
+ },
+ {
+  "start": 313.08,
+  "end": 314.99,
+  "text": "manipulate any particular data range"
+ },
+ {
+  "start": 315.0,
+  "end": 318.469,
+  "text": "okay so this is basically like selecting"
+ },
+ {
+  "start": 318.479,
+  "end": 321.23,
+  "text": "any particular"
+ },
+ {
+  "start": 321.24,
+  "end": 324.529,
+  "text": "um Excel sheet and then selecting a data"
+ },
+ {
+  "start": 324.539,
+  "end": 326.689,
+  "text": "range right so if I'm selecting some"
+ },
+ {
+  "start": 326.699,
+  "end": 329.81,
+  "text": "cells that's my data range okay so my"
+ },
+ {
+  "start": 329.82,
+  "end": 334.01,
+  "text": "data range would be A1 and to B4 okay"
+ },
+ {
+  "start": 334.02,
+  "end": 336.89,
+  "text": "and if I've got more data then I'll be"
+ },
+ {
+  "start": 336.9,
+  "end": 339.65,
+  "text": "selecting like this okay so you have to"
+ },
+ {
+  "start": 339.66,
+  "end": 343.31,
+  "text": "take the first cell which is A1 and the"
+ },
+ {
+  "start": 343.32,
+  "end": 346.49,
+  "text": "last cell which is B4 okay so this is"
+ },
+ {
+  "start": 346.5,
+  "end": 349.67,
+  "text": "the range we uh defined in an Excel"
+ },
+ {
+  "start": 349.68,
+  "end": 353.51,
+  "text": "sheet okay same thing we are doing uh in"
+ },
+ {
+  "start": 353.52,
+  "end": 356.33,
+  "text": "the cross cut test case okay we need to"
+ },
+ {
+  "start": 356.34,
+  "end": 358.43,
+  "text": "define a certain data range we are"
+ },
+ {
+  "start": 358.44,
+  "end": 360.29,
+  "text": "giving the range a particular name so"
+ },
+ {
+  "start": 360.3,
+  "end": 361.909,
+  "text": "that we can refer it back"
+ },
+ {
+  "start": 361.919,
+  "end": 365.029,
+  "text": "we are using the same sheet name and the"
+ },
+ {
+  "start": 365.039,
+  "end": 367.43,
+  "text": "same workbook name which we have created"
+ },
+ {
+  "start": 367.44,
+  "end": 370.969,
+  "text": "earlier okay in this data range then I"
+ },
+ {
+  "start": 370.979,
+  "end": 373.909,
+  "text": "will be selecting a starting cell and"
+ },
+ {
+  "start": 373.919,
+  "end": 375.89,
+  "text": "the ending cell okay"
+ },
+ {
+  "start": 375.9,
+  "end": 378.529,
+  "text": "don't worry about this we can select any"
+ },
+ {
+  "start": 378.539,
+  "end": 381.65,
+  "text": "particular uh and cell okay if you want"
+ },
+ {
+  "start": 381.66,
+  "end": 384.35,
+  "text": "to continue creating more records you"
+ },
+ {
+  "start": 384.36,
+  "end": 387.469,
+  "text": "can put some random value here or some"
+ },
+ {
+  "start": 387.479,
+  "end": 389.99,
+  "text": "higher value okay so if you want to"
+ },
+ {
+  "start": 390.0,
+  "end": 392.99,
+  "text": "create 40 records maybe or 49 records"
+ },
+ {
+  "start": 393.0,
+  "end": 396.29,
+  "text": "then the answer will be 50 right"
+ },
+ {
+  "start": 396.3,
+  "end": 398.629,
+  "text": "similarly you can put any range here"
+ },
+ {
+  "start": 398.639,
+  "end": 400.85,
+  "text": "okay"
+ },
+ {
+  "start": 400.86,
+  "end": 404.15,
+  "text": "so that's defining the Excel range and"
+ },
+ {
+  "start": 404.16,
+  "end": 408.29,
+  "text": "the next step is to uh maybe you want to"
+ },
+ {
+  "start": 408.3,
+  "end": 410.33,
+  "text": "manipulate or you want to input some"
+ },
+ {
+  "start": 410.34,
+  "end": 412.43,
+  "text": "values into that particular range of"
+ },
+ {
+  "start": 412.44,
+  "end": 415.189,
+  "text": "your or into your cells okay or you want"
+ },
+ {
+  "start": 415.199,
+  "end": 417.35,
+  "text": "to verify something so you need to use"
+ },
+ {
+  "start": 417.36,
+  "end": 420.59,
+  "text": "this particular module D box Excel range"
+ },
+ {
+  "start": 420.6,
+  "end": 421.79,
+  "text": "manipulation"
+ },
+ {
+  "start": 421.8,
+  "end": 423.59,
+  "text": "so here we need to provide the range"
+ },
+ {
+  "start": 423.6,
+  "end": 425.689,
+  "text": "name okay so we have already defined"
+ },
+ {
+  "start": 425.699,
+  "end": 428.51,
+  "text": "that in the previous step okay employee"
+ },
+ {
+  "start": 428.52,
+  "end": 430.249,
+  "text": "data is our range name"
+ },
+ {
+  "start": 430.259,
+  "end": 433.01,
+  "text": "so we'll be providing it here and then"
+ },
+ {
+  "start": 433.02,
+  "end": 435.35,
+  "text": "inside that range we can create our data"
+ },
+ {
+  "start": 435.36,
+  "end": 438.89,
+  "text": "table okay so inside this data table you"
+ },
+ {
+  "start": 438.9,
+  "end": 441.11,
+  "text": "can see here I am creating some new"
+ },
+ {
+  "start": 441.12,
+  "end": 443.21,
+  "text": "values or I am inputting some new values"
+ },
+ {
+  "start": 443.22,
+  "end": 447.11,
+  "text": "okay so the first value is my header so"
+ },
+ {
+  "start": 447.12,
+  "end": 449.809,
+  "text": "I have selected header here okay and"
+ },
+ {
+  "start": 449.819,
+  "end": 451.73,
+  "text": "then uh the first"
+ },
+ {
+  "start": 451.74,
+  "end": 455.45,
+  "text": "cell okay so this is the header row and"
+ },
+ {
+  "start": 455.46,
+  "end": 458.39,
+  "text": "then the first cell or the first uh"
+ },
+ {
+  "start": 458.4,
+  "end": 461.93,
+  "text": "column would be my header name okay so I"
+ },
+ {
+  "start": 461.94,
+  "end": 464.089,
+  "text": "have given it full name and then the"
+ },
+ {
+  "start": 464.099,
+  "end": 466.67,
+  "text": "cell to or the column 2 would be my"
+ },
+ {
+  "start": 466.68,
+  "end": 469.61,
+  "text": "salary okay so I'm basically"
+ },
+ {
+  "start": 469.62,
+  "end": 472.189,
+  "text": "uh structuring or creating this"
+ },
+ {
+  "start": 472.199,
+  "end": 473.93,
+  "text": "particular Excel sheet which we are"
+ },
+ {
+  "start": 473.94,
+  "end": 476.33,
+  "text": "going to create in this test case you"
+ },
+ {
+  "start": 476.34,
+  "end": 480.409,
+  "text": "can see here it has got basically uh two"
+ },
+ {
+  "start": 480.419,
+  "end": 483.71,
+  "text": "first header okay full name and salary"
+ },
+ {
+  "start": 483.72,
+  "end": 487.61,
+  "text": "and then the values okay two rows and"
+ },
+ {
+  "start": 487.62,
+  "end": 489.71,
+  "text": "then another total salary"
+ },
+ {
+  "start": 489.72,
+  "end": 492.529,
+  "text": "which has got a value so this is the"
+ },
+ {
+  "start": 492.539,
+  "end": 494.33,
+  "text": "sheet which I am creating with my test"
+ },
+ {
+  "start": 494.34,
+  "end": 497.45,
+  "text": "case okay and if you come here you will"
+ },
+ {
+  "start": 497.46,
+  "end": 498.65,
+  "text": "see that"
+ },
+ {
+  "start": 498.66,
+  "end": 499.249,
+  "text": "um"
+ },
+ {
+  "start": 499.259,
+  "end": 502.369,
+  "text": "this is my header values this is my"
+ },
+ {
+  "start": 502.379,
+  "end": 504.35,
+  "text": "first row okay"
+ },
+ {
+  "start": 504.36,
+  "end": 506.689,
+  "text": "these are the values you can see here I"
+ },
+ {
+  "start": 506.699,
+  "end": 509.33,
+  "text": "am also using buffer to buffer this"
+ },
+ {
+  "start": 509.34,
+  "end": 513.17,
+  "text": "amount one okay this this amount and"
+ },
+ {
+  "start": 513.18,
+  "end": 515.209,
+  "text": "then in the second row again the values"
+ },
+ {
+  "start": 515.219,
+  "end": 517.07,
+  "text": "and again I'm buffering this particular"
+ },
+ {
+  "start": 517.08,
+  "end": 518.81,
+  "text": "value okay because I want to perform"
+ },
+ {
+  "start": 518.82,
+  "end": 521.089,
+  "text": "some calculations later on"
+ },
+ {
+  "start": 521.099,
+  "end": 524.149,
+  "text": "and then in the third row you can see"
+ },
+ {
+  "start": 524.159,
+  "end": 526.01,
+  "text": "total salary and then I'm entering some"
+ },
+ {
+  "start": 526.02,
+  "end": 527.509,
+  "text": "salary okay"
+ },
+ {
+  "start": 527.519,
+  "end": 530.449,
+  "text": "and here again I am verifying it"
+ },
+ {
+  "start": 530.459,
+  "end": 532.07,
+  "text": "obviously you can do it in a separate"
+ },
+ {
+  "start": 532.08,
+  "end": 534.23,
+  "text": "test case okay that would be recommended"
+ },
+ {
+  "start": 534.24,
+  "end": 537.11,
+  "text": "but uh for this demo purpose I have used"
+ },
+ {
+  "start": 537.12,
+  "end": 541.13,
+  "text": "the same uh row number to with that"
+ },
+ {
+  "start": 541.14,
+  "end": 543.23,
+  "text": "particular cell and I put a verification"
+ },
+ {
+  "start": 543.24,
+  "end": 546.59,
+  "text": "step here okay so here you can see I"
+ },
+ {
+  "start": 546.6,
+  "end": 549.949,
+  "text": "have used a math calculation okay uh"
+ },
+ {
+  "start": 549.959,
+  "end": 553.009,
+  "text": "function and inside this I am then using"
+ },
+ {
+  "start": 553.019,
+  "end": 555.05,
+  "text": "the buffer values amount 1 and amount"
+ },
+ {
+  "start": 555.06,
+  "end": 558.949,
+  "text": "two I am summing it up and whatever uh"
+ },
+ {
+  "start": 558.959,
+  "end": 560.509,
+  "text": "the result would be from this"
+ },
+ {
+  "start": 560.519,
+  "end": 563.81,
+  "text": "calculation should be same as what is"
+ },
+ {
+  "start": 563.82,
+  "end": 566.03,
+  "text": "present here okay so this is a"
+ },
+ {
+  "start": 566.04,
+  "end": 568.13,
+  "text": "verification I am performing"
+ },
+ {
+  "start": 568.14,
+  "end": 571.009,
+  "text": "okay so this is all you can do you can"
+ },
+ {
+  "start": 571.019,
+  "end": 574.55,
+  "text": "input values you can buffer values you"
+ },
+ {
+  "start": 574.56,
+  "end": 578.09,
+  "text": "can verify your values uh in your cells"
+ },
+ {
+  "start": 578.1,
+  "end": 581.09,
+  "text": "from the Excel range you have defined"
+ },
+ {
+  "start": 581.1,
+  "end": 583.61,
+  "text": "okay so all this can be done with this"
+ },
+ {
+  "start": 583.62,
+  "end": 587.09,
+  "text": "Excel range manipulation module"
+ },
+ {
+  "start": 587.1,
+  "end": 590.03,
+  "text": "and the last step is to close the Excel"
+ },
+ {
+  "start": 590.04,
+  "end": 593.269,
+  "text": "workbook here you can do two functions"
+ },
+ {
+  "start": 593.279,
+  "end": 595.25,
+  "text": "okay one you are closing the workbook"
+ },
+ {
+  "start": 595.26,
+  "end": 598.31,
+  "text": "and the second you can also save it okay"
+ },
+ {
+  "start": 598.32,
+  "end": 600.769,
+  "text": "so that is the same option you can set"
+ },
+ {
+  "start": 600.779,
+  "end": 602.449,
+  "text": "it to true and false"
+ },
+ {
+  "start": 602.459,
+  "end": 605.69,
+  "text": "uh you have to give the path okay"
+ },
+ {
+  "start": 605.7,
+  "end": 608.269,
+  "text": "and then you have to"
+ },
+ {
+  "start": 608.279,
+  "end": 611.75,
+  "text": "name the workbook which is employee data"
+ },
+ {
+  "start": 611.76,
+  "end": 614.269,
+  "text": "okay so whatever we have defined earlier"
+ },
+ {
+  "start": 614.279,
+  "end": 617.329,
+  "text": "the same name will be here okay"
+ },
+ {
+  "start": 617.339,
+  "end": 620.87,
+  "text": "okay so I need to correct this uh Excel"
+ },
+ {
+  "start": 620.88,
+  "end": 624.889,
+  "text": "path this should be EMP"
+ },
+ {
+  "start": 627.889,
+  "end": 627.899,
+  "text": "and you can also give a separate path if"
+ },
+ {
+  "start": 627.899,
+  "end": 629.63,
+  "text": "you want to save it somewhere else okay"
+ },
+ {
+  "start": 629.64,
+  "end": 633.29,
+  "text": "and you can also save as type okay so"
+ },
+ {
+  "start": 633.3,
+  "end": 635.87,
+  "text": "there is an option save as type here you"
+ },
+ {
+  "start": 635.88,
+  "end": 637.009,
+  "text": "can see there are all the different"
+ },
+ {
+  "start": 637.019,
+  "end": 639.65,
+  "text": "formats which you can read and write or"
+ },
+ {
+  "start": 639.66,
+  "end": 641.63,
+  "text": "save and this using this particular"
+ },
+ {
+  "start": 641.64,
+  "end": 644.569,
+  "text": "module okay so there is Excel workbook I"
+ },
+ {
+  "start": 644.579,
+  "end": 648.11,
+  "text": "can save this as a PDF directly"
+ },
+ {
+  "start": 648.12,
+  "end": 652.79,
+  "text": "okay and all the different txt CSV so"
+ },
+ {
+  "start": 652.8,
+  "end": 655.85,
+  "text": "any any file format you can use to save"
+ },
+ {
+  "start": 655.86,
+  "end": 658.31,
+  "text": "this as that particular type you can"
+ },
+ {
+  "start": 658.32,
+  "end": 661.13,
+  "text": "also open different Excel types if you"
+ },
+ {
+  "start": 661.14,
+  "end": 663.35,
+  "text": "are using Okay using this particular"
+ },
+ {
+  "start": 663.36,
+  "end": 664.49,
+  "text": "module"
+ },
+ {
+  "start": 664.5,
+  "end": 668.269,
+  "text": "some of the other t-box modules which"
+ },
+ {
+  "start": 668.279,
+  "end": 669.47,
+  "text": "are available"
+ },
+ {
+  "start": 669.48,
+  "end": 670.79,
+  "text": "and this"
+ },
+ {
+  "start": 670.8,
+  "end": 673.19,
+  "text": "so let me show you that so we have seen"
+ },
+ {
+  "start": 673.2,
+  "end": 676.19,
+  "text": "a file compare so that is a run Excel"
+ },
+ {
+  "start": 676.2,
+  "end": 678.769,
+  "text": "macro so using this you can basically"
+ },
+ {
+  "start": 678.779,
+  "end": 682.13,
+  "text": "run a macro which is present on your"
+ },
+ {
+  "start": 682.14,
+  "end": 684.769,
+  "text": "Excel sheet okay so using this module"
+ },
+ {
+  "start": 684.779,
+  "end": 687.53,
+  "text": "you can do that you can clear the Excel"
+ },
+ {
+  "start": 687.54,
+  "end": 690.41,
+  "text": "range so if you want to clear your"
+ },
+ {
+  "start": 690.42,
+  "end": 692.769,
+  "text": "previous range whatever you have"
+ },
+ {
+  "start": 692.779,
+  "end": 695.569,
+  "text": "inputted into the cells if you want to"
+ },
+ {
+  "start": 695.579,
+  "end": 697.25,
+  "text": "clear all those values you can use this"
+ },
+ {
+  "start": 697.26,
+  "end": 698.449,
+  "text": "module"
+ },
+ {
+  "start": 698.459,
+  "end": 700.73,
+  "text": "so Define we have seen manipulation we"
+ },
+ {
+  "start": 700.74,
+  "end": 704.09,
+  "text": "have seen open close create so all of"
+ },
+ {
+  "start": 704.1,
+  "end": 706.91,
+  "text": "this we have seen you can also delete an"
+ },
+ {
+  "start": 706.92,
+  "end": 709.97,
+  "text": "Excel worksheet and you can also update"
+ },
+ {
+  "start": 709.98,
+  "end": 712.73,
+  "text": "an Excel worksheet okay so if multiple"
+ },
+ {
+  "start": 712.74,
+  "end": 716.389,
+  "text": "sheets in your Excel then you can delete"
+ },
+ {
+  "start": 716.399,
+  "end": 718.79,
+  "text": "and update worksheets using this modules"
+ },
+ {
+  "start": 718.8,
+  "end": 719.87,
+  "text": "okay"
+ },
+ {
+  "start": 719.88,
+  "end": 721.61,
+  "text": "so these are all the modules which are"
+ },
+ {
+  "start": 721.62,
+  "end": 722.41,
+  "text": "available"
+ },
+ {
+  "start": 722.42,
+  "end": 726.889,
+  "text": "for the Excel engine okay and it could"
+ },
+ {
+  "start": 726.899,
+  "end": 730.31,
+  "text": "be used for any kind of functions which"
+ },
+ {
+  "start": 730.32,
+  "end": 731.99,
+  "text": "you want or operations which you want to"
+ },
+ {
+  "start": 732.0,
+  "end": 735.05,
+  "text": "perform on Excel sheets okay"
+ },
+ {
+  "start": 735.06,
+  "end": 740.03,
+  "text": "so let me go ahead and close this now"
+ },
+ {
+  "start": 740.04,
+  "end": 742.069,
+  "text": "and let's go ahead and run this"
+ },
+ {
+  "start": 742.079,
+  "end": 745.009,
+  "text": "particular test case okay let's see if"
+ },
+ {
+  "start": 745.019,
+  "end": 751.31,
+  "text": "it works"
+ },
+ {
+  "start": 753.769,
+  "end": 753.779,
+  "text": "so as you can see the test case has"
+ },
+ {
+  "start": 753.779,
+  "end": 756.71,
+  "text": "passed okay and if I go ahead and look"
+ },
+ {
+  "start": 756.72,
+  "end": 758.99,
+  "text": "at the results in the Excel range"
+ },
+ {
+  "start": 759.0,
+  "end": 761.47,
+  "text": "manipulation specifically we have"
+ },
+ {
+  "start": 761.48,
+  "end": 765.35,
+  "text": "encrypted some values right and if you"
+ },
+ {
+  "start": 765.36,
+  "end": 767.99,
+  "text": "go into the verification step"
+ },
+ {
+  "start": 768.0,
+  "end": 770.99,
+  "text": "you will see the buffer has also worked"
+ },
+ {
+  "start": 771.0,
+  "end": 773.629,
+  "text": "this buffered the value into this amount"
+ },
+ {
+  "start": 773.639,
+  "end": 776.629,
+  "text": "one and it is also verified okay so"
+ },
+ {
+  "start": 776.639,
+  "end": 778.73,
+  "text": "expected value versus the actual value"
+ },
+ {
+  "start": 778.74,
+  "end": 780.35,
+  "text": "right"
+ },
+ {
+  "start": 780.36,
+  "end": 783.59,
+  "text": "so that's how you can perform all the"
+ },
+ {
+  "start": 783.6,
+  "end": 786.29,
+  "text": "different operations on Microsoft Excel"
+ },
+ {
+  "start": 786.3,
+  "end": 789.71,
+  "text": "using this particular modules or using"
+ },
+ {
+  "start": 789.72,
+  "end": 791.81,
+  "text": "all of these different modules which are"
+ },
+ {
+  "start": 791.82,
+  "end": 794.509,
+  "text": "present uh in the Excel"
+ },
+ {
+  "start": 794.519,
+  "end": 798.05,
+  "text": "engine of Tosca and finally let me also"
+ },
+ {
+  "start": 798.06,
+  "end": 799.99,
+  "text": "show you whether it has created the file"
+ },
+ {
+  "start": 800.0,
+  "end": 802.79,
+  "text": "as we have defined it in our test case"
+ },
+ {
+  "start": 802.8,
+  "end": 806.21,
+  "text": "so let's go here under this our sheet"
+ },
+ {
+  "start": 806.22,
+  "end": 809.21,
+  "text": "name was EMP if you remember and if I"
+ },
+ {
+  "start": 809.22,
+  "end": 811.67,
+  "text": "open this you will see uh exactly the"
+ },
+ {
+  "start": 811.68,
+  "end": 814.25,
+  "text": "same data which we have created in our"
+ },
+ {
+  "start": 814.26,
+  "end": 817.79,
+  "text": "test case Okay so the header names the"
+ },
+ {
+  "start": 817.8,
+  "end": 820.129,
+  "text": "data values and index some calculation"
+ },
+ {
+  "start": 820.139,
+  "end": 822.35,
+  "text": "okay which we are verifying this"
+ },
+ {
+  "start": 822.36,
+  "end": 823.91,
+  "text": "particular value"
+ },
+ {
+  "start": 823.92,
+  "end": 825.769,
+  "text": "so that's our Excel sheet which was"
+ },
+ {
+  "start": 825.779,
+  "end": 827.99,
+  "text": "created with that particular test case"
+ },
+ {
+  "start": 828.0,
+  "end": 830.03,
+  "text": "using all the different modules of the"
+ },
+ {
+  "start": 830.04,
+  "end": 831.17,
+  "text": "Excel engine"
+ },
+ {
+  "start": 831.18,
+  "end": 833.75,
+  "text": "so that's all for this video hope you"
+ },
+ {
+  "start": 833.76,
+  "end": 835.43,
+  "text": "enjoyed it and you learned something new"
+ },
+ {
+  "start": 835.44,
+  "end": 837.949,
+  "text": "today uh if you have any questions leave"
+ },
+ {
+  "start": 837.959,
+  "end": 839.69,
+  "text": "it in the comment section"
+ },
+ {
+  "start": 839.7,
+  "end": 842.87,
+  "text": "um keep watching our Channel as lots of"
+ },
+ {
+  "start": 842.88,
+  "end": 844.97,
+  "text": "other videos are coming up if you want"
+ },
+ {
+  "start": 844.98,
+  "end": 847.009,
+  "text": "to continue learning Tosca and other"
+ },
+ {
+  "start": 847.019,
+  "end": 850.04,
+  "text": "automation tools"
+ }
+]

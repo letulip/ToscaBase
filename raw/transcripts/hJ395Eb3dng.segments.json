@@ -1,0 +1,482 @@
+[
+ {
+  "start": 15.02,
+  "end": 19.7,
+  "text": "Hello friends, welcome back to our channel."
+ },
+ {
+  "start": 19.7,
+  "end": 23.66,
+  "text": "I am your Tosca instructor and my name is Kumaresh."
+ },
+ {
+  "start": 23.66,
+  "end": 30.34,
+  "text": "I have total 14 years of IT experience in software development and test automation."
+ },
+ {
+  "start": 30.34,
+  "end": 33.98,
+  "text": "Thank you for connecting with us."
+ },
+ {
+  "start": 33.98,
+  "end": 36.58,
+  "text": "Hope you are doing well."
+ },
+ {
+  "start": 36.58,
+  "end": 39.5,
+  "text": "Let's start our today's session."
+ },
+ {
+  "start": 39.5,
+  "end": 45.86,
+  "text": "Through this video, I will explain the overview of API testing, purposes, and API scanning"
+ },
+ {
+  "start": 45.86,
+  "end": 47.86,
+  "text": "using Tosca."
+ },
+ {
+  "start": 47.86,
+  "end": 52.94,
+  "text": "The explanation will be done through hands-on demonstration."
+ },
+ {
+  "start": 52.94,
+  "end": 58.66,
+  "text": "API is the shorter form of application program interface."
+ },
+ {
+  "start": 58.66,
+  "end": 62.68,
+  "text": "It's working as an interface which allows two applications to communicate with each"
+ },
+ {
+  "start": 62.68,
+  "end": 69.98,
+  "text": "other through common message formats such as, XML, JSON, etc."
+ },
+ {
+  "start": 69.98,
+  "end": 73.66,
+  "text": "Let's consider this figure to understand more on API."
+ },
+ {
+  "start": 73.66,
+  "end": 80.06,
+  "text": "Assume, we have four different applications, SAP, mobile apps, web portal, and billing"
+ },
+ {
+  "start": 80.06,
+  "end": 85.86,
+  "text": "system which are integrated by common interface as API."
+ },
+ {
+  "start": 85.86,
+  "end": 90.08,
+  "text": "Here API is working as an interpreter."
+ },
+ {
+  "start": 90.08,
+  "end": 94.36,
+  "text": "Each of the system interacting with each other by sending an API request and receiving"
+ },
+ {
+  "start": 94.36,
+  "end": 96.5,
+  "text": "the API response."
+ },
+ {
+  "start": 96.7,
+  "end": 102.78,
+  "text": "Basically, each system is communicating with API and, based on the request, API routes"
+ },
+ {
+  "start": 102.78,
+  "end": 107.34,
+  "text": "the messages to the target system."
+ },
+ {
+  "start": 107.34,
+  "end": 111.94,
+  "text": "The goal of API testing is to ensure that the core functionalities of the application"
+ },
+ {
+  "start": 111.94,
+  "end": 117.02,
+  "text": "work is expected without interacting in the UI layer."
+ },
+ {
+  "start": 117.02,
+  "end": 121.58,
+  "text": "To perform the API testing, always, we need to take help from any third party"
+ },
+ {
+  "start": 121.58,
+  "end": 126.38,
+  "text": "tools like Postman, UFT, Tosca, etc."
+ },
+ {
+  "start": 126.38,
+  "end": 134.25,
+  "text": "Nowadays, Tosca is one of the best automation tools for API testing."
+ },
+ {
+  "start": 134.25,
+  "end": 139.61,
+  "text": "The main purposes or benefits API testing in Tosca are such as,"
+ },
+ {
+  "start": 139.61,
+  "end": 144.49,
+  "text": "API testing can be used to validate the core functionalities even when the UI hasn't"
+ },
+ {
+  "start": 144.49,
+  "end": 147.17,
+  "text": "been developed slash modified."
+ },
+ {
+  "start": 147.17,
+  "end": 155.75,
+  "text": "Hence testing can be initiated much before actual functional testing, UI-based, is done."
+ },
+ {
+  "start": 155.75,
+  "end": 160.51,
+  "text": "Frequent application changes can be tested quickly."
+ },
+ {
+  "start": 160.51,
+  "end": 166.15,
+  "text": "It is easy to create and maintain test cases in Tosca."
+ },
+ {
+  "start": 166.15,
+  "end": 171.72,
+  "text": "The API testing in Tosca can be done much faster."
+ },
+ {
+  "start": 171.72,
+  "end": 180.32,
+  "text": "Standalone Tosca API scanning wizard is available to scan the API in the simplest way."
+ },
+ {
+  "start": 180.32,
+  "end": 186.48,
+  "text": "Process flow overview of API testing in Tosca as explained through this diagram."
+ },
+ {
+  "start": 186.48,
+  "end": 192.76,
+  "text": "Here API services are used to identify the API details and functional flow for"
+ },
+ {
+  "start": 192.76,
+  "end": 195.62,
+  "text": "automation."
+ },
+ {
+  "start": 195.66,
+  "end": 202.62,
+  "text": "API scan wizard is used to scan the API and create Tosca modules."
+ },
+ {
+  "start": 202.62,
+  "end": 206.86,
+  "text": "Create test case step, generate the test cases and perform cleanup with"
+ },
+ {
+  "start": 206.86,
+  "end": 210.06,
+  "text": "parameterization."
+ },
+ {
+  "start": 210.06,
+  "end": 216.34,
+  "text": "Run is to execute the test cases and share the reports to stack holders."
+ },
+ {
+  "start": 216.34,
+  "end": 218.3,
+  "text": "All right."
+ },
+ {
+  "start": 218.3,
+  "end": 223.22,
+  "text": "Now we will learn how to scan API, create basic test cases and run through"
+ },
+ {
+  "start": 223.22,
+  "end": 226.66,
+  "text": "the API scan wizard."
+ },
+ {
+  "start": 226.66,
+  "end": 230.66,
+  "text": "We will demonstrate the steps using the sample Tosca API."
+ },
+ {
+  "start": 230.66,
+  "end": 236.82,
+  "text": "HTTP colon slash slash web service dot Tosca cloud dot com slash rest slash"
+ },
+ {
+  "start": 236.82,
+  "end": 244.31,
+  "text": "swagger slash doc slash V2."
+ },
+ {
+  "start": 244.31,
+  "end": 248.19,
+  "text": "First, we will move to the API testing tab."
+ },
+ {
+  "start": 248.19,
+  "end": 258.27,
+  "text": "Here, all the API test automation related options are available."
+ },
+ {
+  "start": 258.27,
+  "end": 263.83,
+  "text": "We can open the API scan wizard by opting the start API scan option."
+ },
+ {
+  "start": 263.83,
+  "end": 273.13,
+  "text": "It will take few seconds to appear the API scan wizard."
+ },
+ {
+  "start": 273.25,
+  "end": 280.5,
+  "text": "Now clearing the default folder structure."
+ },
+ {
+  "start": 280.5,
+  "end": 286.54,
+  "text": "Two options for API scanning is available in the left top corner of the wizard."
+ },
+ {
+  "start": 286.54,
+  "end": 294.38,
+  "text": "One is for file scanning, i.e. if we have the JSON file which contains the API details."
+ },
+ {
+  "start": 294.38,
+  "end": 300.15,
+  "text": "We are going to use another option to scan the API URL."
+ },
+ {
+  "start": 300.15,
+  "end": 306.83,
+  "text": "We will select or enter the API endpoint address of sample swagger application."
+ },
+ {
+  "start": 306.83,
+  "end": 311.51,
+  "text": "The advanced options such as authentication, proxy can be configured here which are not"
+ },
+ {
+  "start": 311.51,
+  "end": 315.03,
+  "text": "required for our case."
+ },
+ {
+  "start": 315.03,
+  "end": 319.38,
+  "text": "Clicking on OK button to start scanning."
+ },
+ {
+  "start": 319.38,
+  "end": 325.22,
+  "text": "The API scan components are appeared in left navigation section."
+ },
+ {
+  "start": 325.22,
+  "end": 330.14,
+  "text": "The components are grouped based on the functional modules such as auth, coffees,"
+ },
+ {
+  "start": 330.14,
+  "end": 333.22,
+  "text": "employee etc."
+ },
+ {
+  "start": 333.22,
+  "end": 339.22,
+  "text": "The auth modules contains the API related to authentication of the application."
+ },
+ {
+  "start": 339.22,
+  "end": 344.7,
+  "text": "The payload tab of request contains request data like user and password."
+ },
+ {
+  "start": 344.7,
+  "end": 349.98,
+  "text": "Click on run to receive the response of this API request for authentication."
+ },
+ {
+  "start": 349.98,
+  "end": 353.78,
+  "text": "It returns the token and the expires time stamp."
+ },
+ {
+  "start": 353.78,
+  "end": 358.74,
+  "text": "The token can be used for any other transactions."
+ },
+ {
+  "start": 358.74,
+  "end": 365.29,
+  "text": "Now we will check another scanned API to retrieve all the coffee information."
+ },
+ {
+  "start": 365.29,
+  "end": 368.89,
+  "text": "Move to folder coffee n."
+ },
+ {
+  "start": 368.89,
+  "end": 375.76,
+  "text": "Select get coffee's components."
+ },
+ {
+  "start": 375.76,
+  "end": 380.92,
+  "text": "Here payload of request should be empty as no input data is required."
+ },
+ {
+  "start": 380.92,
+  "end": 386.88,
+  "text": "Perms tab, we will provide the token number which was received during the authentication."
+ },
+ {
+  "start": 386.88,
+  "end": 390.4,
+  "text": "Run to receive the responses of this API."
+ },
+ {
+  "start": 390.4,
+  "end": 395.6,
+  "text": "After successful API call, the status code should be returned as 200 and the entire"
+ },
+ {
+  "start": 395.6,
+  "end": 399.24,
+  "text": "coffee list will be available in JSON format."
+ },
+ {
+  "start": 399.48,
+  "end": 404.76,
+  "text": "Similarly, we can create coffee using post post coffee API."
+ },
+ {
+  "start": 404.76,
+  "end": 410.36,
+  "text": "Here we need to provide description, ID and name in payload section of request."
+ },
+ {
+  "start": 410.36,
+  "end": 415.36,
+  "text": "The other can be used to delete a coffee or search a specific coffee."
+ },
+ {
+  "start": 415.36,
+  "end": 424.57,
+  "text": "In each of the cases, the ID is the mandatory field in payload section."
+ },
+ {
+  "start": 424.57,
+  "end": 428.53,
+  "text": "So we can get a picture that the API can be called with data and the"
+ },
+ {
+  "start": 428.53,
+  "end": 433.22,
+  "text": "response can be viewed from API scan wizard."
+ },
+ {
+  "start": 433.22,
+  "end": 437.1,
+  "text": "But here the main problem is that this components cannot be handled as a"
+ },
+ {
+  "start": 437.1,
+  "end": 444.5,
+  "text": "Tosca test cases, data cannot be parameterized or verification cannot be performed."
+ },
+ {
+  "start": 444.5,
+  "end": 450.21,
+  "text": "It can be used for manual testing similar to postman tool."
+ },
+ {
+  "start": 450.21,
+  "end": 456.65,
+  "text": "So for API test automation, we need to move this components in the test case section."
+ },
+ {
+  "start": 456.65,
+  "end": 461.37,
+  "text": "In the next video, we will create the Tosca API test case."
+ },
+ {
+  "start": 461.37,
+  "end": 465.31,
+  "text": "That's all about API scan."
+ },
+ {
+  "start": 465.31,
+  "end": 468.47,
+  "text": "Thanks for watching this video."
+ },
+ {
+  "start": 468.47,
+  "end": 472.79,
+  "text": "That's all about API scanning using Tosca."
+ },
+ {
+  "start": 472.79,
+  "end": 479.34,
+  "text": "We will learn more about API test automation approach in next video."
+ },
+ {
+  "start": 479.34,
+  "end": 484.38,
+  "text": "Please visit our website lambdageeks.com for more articles on technology,"
+ },
+ {
+  "start": 484.38,
+  "end": 488.34,
+  "text": "engineering, mathematics and various other domain."
+ },
+ {
+  "start": 488.34,
+  "end": 492.38,
+  "text": "You can check our other website as well."
+ },
+ {
+  "start": 492.38,
+  "end": 499.21,
+  "text": "We have features like YouTube trends, Twitter trends,"
+ },
+ {
+  "start": 499.21,
+  "end": 505.34,
+  "text": "scientific calculator and many more other tools."
+ },
+ {
+  "start": 505.34,
+  "end": 509.38,
+  "text": "If you like our video, please like, comment and share."
+ },
+ {
+  "start": 509.38,
+  "end": 513.38,
+  "text": "If you have any questions, please comment and we will resolve your query."
+ }
+]

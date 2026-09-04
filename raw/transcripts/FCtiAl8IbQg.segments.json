@@ -1,0 +1,902 @@
+[
+ {
+  "start": 8.81,
+  "end": 8.82,
+  "text": "hey everyone welcome back to our Channel"
+ },
+ {
+  "start": 8.82,
+  "end": 11.39,
+  "text": "I am back with another interesting topic"
+ },
+ {
+  "start": 11.4,
+  "end": 14.15,
+  "text": "in the Tosca automation playlist"
+ },
+ {
+  "start": 14.16,
+  "end": 16.609,
+  "text": "in this session we are going to discuss"
+ },
+ {
+  "start": 16.619,
+  "end": 19.97,
+  "text": "how we can execute our manual tests in"
+ },
+ {
+  "start": 19.98,
+  "end": 23.57,
+  "text": "Tosca Commander what we can also do is"
+ },
+ {
+  "start": 23.58,
+  "end": 26.75,
+  "text": "we can execute our automated execution"
+ },
+ {
+  "start": 26.76,
+  "end": 29.39,
+  "text": "list as a manual test case"
+ },
+ {
+  "start": 29.4,
+  "end": 32.33,
+  "text": "now consider this particular scenario so"
+ },
+ {
+  "start": 32.34,
+  "end": 34.37,
+  "text": "in this scenario when we executed this"
+ },
+ {
+  "start": 34.38,
+  "end": 37.31,
+  "text": "it failed from a certain step"
+ },
+ {
+  "start": 37.32,
+  "end": 40.61,
+  "text": "but we don't have time currently to fix"
+ },
+ {
+  "start": 40.62,
+  "end": 43.01,
+  "text": "the remaining steps in this automated"
+ },
+ {
+  "start": 43.02,
+  "end": 44.209,
+  "text": "test case"
+ },
+ {
+  "start": 44.219,
+  "end": 47.69,
+  "text": "and we need to provide the results to"
+ },
+ {
+  "start": 47.7,
+  "end": 51.17,
+  "text": "the testing team so that it can make a"
+ },
+ {
+  "start": 51.18,
+  "end": 53.45,
+  "text": "decision on whether they want to go"
+ },
+ {
+  "start": 53.46,
+  "end": 55.31,
+  "text": "ahead with the release or not"
+ },
+ {
+  "start": 55.32,
+  "end": 57.529,
+  "text": "in such type of scenario where you don't"
+ },
+ {
+  "start": 57.539,
+  "end": 59.63,
+  "text": "have time and you still want to provide"
+ },
+ {
+  "start": 59.64,
+  "end": 62.81,
+  "text": "the results to the management then then"
+ },
+ {
+  "start": 62.82,
+  "end": 64.789,
+  "text": "what you can do is you can quickly"
+ },
+ {
+  "start": 64.799,
+  "end": 67.789,
+  "text": "execute this as a manual test case and"
+ },
+ {
+  "start": 67.799,
+  "end": 69.83,
+  "text": "just verify whether the application is"
+ },
+ {
+  "start": 69.84,
+  "end": 71.929,
+  "text": "working correctly or not"
+ },
+ {
+  "start": 71.939,
+  "end": 74.57,
+  "text": "so how you can do that now we can"
+ },
+ {
+  "start": 74.58,
+  "end": 78.289,
+  "text": "execute a manual test okay from an"
+ },
+ {
+  "start": 78.299,
+  "end": 80.63,
+  "text": "execution list by right clicking and"
+ },
+ {
+  "start": 80.64,
+  "end": 83.03,
+  "text": "then there will be an option to run as"
+ },
+ {
+  "start": 83.04,
+  "end": 85.49,
+  "text": "manual test case you can also use the"
+ },
+ {
+  "start": 85.5,
+  "end": 88.19,
+  "text": "shortcut Ctrl shift and M"
+ },
+ {
+  "start": 88.2,
+  "end": 91.13,
+  "text": "now this will be also available for the"
+ },
+ {
+  "start": 91.14,
+  "end": 94.429,
+  "text": "folder level the execution list level or"
+ },
+ {
+  "start": 94.439,
+  "end": 98.51,
+  "text": "at a execution entry level okay so you"
+ },
+ {
+  "start": 98.52,
+  "end": 100.789,
+  "text": "can do it from anywhere"
+ },
+ {
+  "start": 100.799,
+  "end": 103.789,
+  "text": "now when you click on this it displays a"
+ },
+ {
+  "start": 103.799,
+  "end": 105.35,
+  "text": "checklist window"
+ },
+ {
+  "start": 105.36,
+  "end": 108.17,
+  "text": "okay and there you can see all the"
+ },
+ {
+  "start": 108.18,
+  "end": 110.569,
+  "text": "different steps all the different values"
+ },
+ {
+  "start": 110.579,
+  "end": 112.55,
+  "text": "which have been used all the action"
+ },
+ {
+  "start": 112.56,
+  "end": 115.069,
+  "text": "modes and all the previous results"
+ },
+ {
+  "start": 115.079,
+  "end": 116.929,
+  "text": "so let's see what are the options"
+ },
+ {
+  "start": 116.939,
+  "end": 121.13,
+  "text": "available here okay we can set any"
+ },
+ {
+  "start": 121.14,
+  "end": 124.01,
+  "text": "particular test step to pass or field"
+ },
+ {
+  "start": 124.02,
+  "end": 126.77,
+  "text": "right from here as you can see there is"
+ },
+ {
+  "start": 126.78,
+  "end": 129.529,
+  "text": "a pass option and there is a fail option"
+ },
+ {
+  "start": 129.539,
+  "end": 131.99,
+  "text": "so as you go through each of the step"
+ },
+ {
+  "start": 132.0,
+  "end": 134.449,
+  "text": "along with the application you are"
+ },
+ {
+  "start": 134.459,
+  "end": 136.309,
+  "text": "verifying it manually and you are"
+ },
+ {
+  "start": 136.319,
+  "end": 139.49,
+  "text": "setting the results of each test step"
+ },
+ {
+  "start": 139.5,
+  "end": 142.43,
+  "text": "also what you can do you can insert a"
+ },
+ {
+  "start": 142.44,
+  "end": 145.19,
+  "text": "particular comment you can insert a"
+ },
+ {
+  "start": 145.2,
+  "end": 148.19,
+  "text": "attachment or you can even take a"
+ },
+ {
+  "start": 148.2,
+  "end": 150.17,
+  "text": "screenshot and attach it to the"
+ },
+ {
+  "start": 150.18,
+  "end": 152.93,
+  "text": "particular test step okay so let's"
+ },
+ {
+  "start": 152.94,
+  "end": 154.91,
+  "text": "continue with the first step so the"
+ },
+ {
+  "start": 154.92,
+  "end": 157.309,
+  "text": "first step it tells you to go to this"
+ },
+ {
+  "start": 157.319,
+  "end": 159.29,
+  "text": "particular uh"
+ },
+ {
+  "start": 159.3,
+  "end": 160.869,
+  "text": "demo"
+ },
+ {
+  "start": 160.879,
+  "end": 164.33,
+  "text": "webshop.resentis.com right so let's go"
+ },
+ {
+  "start": 164.34,
+  "end": 167.15,
+  "text": "to this particular website and you can"
+ },
+ {
+  "start": 167.16,
+  "end": 169.729,
+  "text": "see the website is opening so I'm going"
+ },
+ {
+  "start": 169.739,
+  "end": 173.21,
+  "text": "to uh click on this pass option and this"
+ },
+ {
+  "start": 173.22,
+  "end": 175.55,
+  "text": "will pass the result"
+ },
+ {
+  "start": 175.56,
+  "end": 177.71,
+  "text": "now you can always go ahead and clear"
+ },
+ {
+  "start": 177.72,
+  "end": 180.29,
+  "text": "the result whenever you want okay so"
+ },
+ {
+  "start": 180.3,
+  "end": 182.03,
+  "text": "once you have set the result you can"
+ },
+ {
+  "start": 182.04,
+  "end": 184.67,
+  "text": "always clear the result back and you"
+ },
+ {
+  "start": 184.68,
+  "end": 187.79,
+  "text": "will see that uh the result of this"
+ },
+ {
+  "start": 187.8,
+  "end": 190.61,
+  "text": "particular folder has been set to one"
+ },
+ {
+  "start": 190.62,
+  "end": 193.729,
+  "text": "and the overall there are 64 test steps"
+ },
+ {
+  "start": 193.739,
+  "end": 197.57,
+  "text": "out of this one has passed okay"
+ },
+ {
+  "start": 197.58,
+  "end": 200.509,
+  "text": "and then you have to click on register"
+ },
+ {
+  "start": 200.519,
+  "end": 203.63,
+  "text": "okay so let's go back here"
+ },
+ {
+  "start": 203.64,
+  "end": 207.11,
+  "text": "and I'm going to click on register"
+ },
+ {
+  "start": 207.12,
+  "end": 210.71,
+  "text": "so it is showing me the register page"
+ },
+ {
+  "start": 210.72,
+  "end": 214.369,
+  "text": "and then I'm going to pass this"
+ },
+ {
+  "start": 214.379,
+  "end": 216.29,
+  "text": "particular test step"
+ },
+ {
+  "start": 216.3,
+  "end": 221.03,
+  "text": "okay now what I want to do is I want to"
+ },
+ {
+  "start": 221.04,
+  "end": 223.55,
+  "text": "take a screenshot so let's take a"
+ },
+ {
+  "start": 223.56,
+  "end": 227.03,
+  "text": "screenshot here so that we can attach it"
+ },
+ {
+  "start": 227.04,
+  "end": 231.229,
+  "text": "okay into our particular results"
+ },
+ {
+  "start": 231.239,
+  "end": 234.41,
+  "text": "so you can see you can annotate with"
+ },
+ {
+  "start": 234.42,
+  "end": 235.85,
+  "text": "arrow line"
+ },
+ {
+  "start": 235.86,
+  "end": 237.289,
+  "text": "um there are lots of different options"
+ },
+ {
+  "start": 237.299,
+  "end": 240.589,
+  "text": "there is text box as well or you can"
+ },
+ {
+  "start": 240.599,
+  "end": 243.35,
+  "text": "just save and close okay"
+ },
+ {
+  "start": 243.36,
+  "end": 246.229,
+  "text": "so this way you can go through each and"
+ },
+ {
+  "start": 246.239,
+  "end": 249.05,
+  "text": "every step and then you can mark it pass"
+ },
+ {
+  "start": 249.06,
+  "end": 252.11,
+  "text": "or field and this way you can execute"
+ },
+ {
+  "start": 252.12,
+  "end": 254.809,
+  "text": "any particular test case now this could"
+ },
+ {
+  "start": 254.819,
+  "end": 257.569,
+  "text": "also be converted into a live document"
+ },
+ {
+  "start": 257.579,
+  "end": 260.21,
+  "text": "because you can attach screenshots you"
+ },
+ {
+  "start": 260.22,
+  "end": 262.55,
+  "text": "can annotate them you can add"
+ },
+ {
+  "start": 262.56,
+  "end": 265.969,
+  "text": "attachments or even you can enter a"
+ },
+ {
+  "start": 265.979,
+  "end": 267.23,
+  "text": "comment"
+ },
+ {
+  "start": 267.24,
+  "end": 270.969,
+  "text": "okay so here I can say"
+ },
+ {
+  "start": 270.979,
+  "end": 275.39,
+  "text": "this step has passed now let's look at"
+ },
+ {
+  "start": 275.4,
+  "end": 276.95,
+  "text": "some of the other options which are"
+ },
+ {
+  "start": 276.96,
+  "end": 278.93,
+  "text": "available with this particular checklist"
+ },
+ {
+  "start": 278.94,
+  "end": 282.469,
+  "text": "you can always go ahead and collapse"
+ },
+ {
+  "start": 282.479,
+  "end": 285.35,
+  "text": "this checklist when you are trying to"
+ },
+ {
+  "start": 285.36,
+  "end": 288.469,
+  "text": "verify your test case manually okay so"
+ },
+ {
+  "start": 288.479,
+  "end": 290.93,
+  "text": "what it will do it will make it a"
+ },
+ {
+  "start": 290.94,
+  "end": 293.39,
+  "text": "collapsed window so that you can look at"
+ },
+ {
+  "start": 293.4,
+  "end": 295.61,
+  "text": "your application and you can perform the"
+ },
+ {
+  "start": 295.62,
+  "end": 296.99,
+  "text": "steps here"
+ },
+ {
+  "start": 297.0,
+  "end": 300.469,
+  "text": "okay to expand it back you can click on"
+ },
+ {
+  "start": 300.479,
+  "end": 304.129,
+  "text": "this expand option also there is a mini"
+ },
+ {
+  "start": 304.139,
+  "end": 307.37,
+  "text": "size uh of this particular window so if"
+ },
+ {
+  "start": 307.38,
+  "end": 309.53,
+  "text": "I click on this you will see it will"
+ },
+ {
+  "start": 309.54,
+  "end": 312.409,
+  "text": "only display the current the step which"
+ },
+ {
+  "start": 312.419,
+  "end": 315.59,
+  "text": "you are currently executing and then uh"
+ },
+ {
+  "start": 315.6,
+  "end": 317.27,
+  "text": "the other details could be hidden so"
+ },
+ {
+  "start": 317.28,
+  "end": 319.129,
+  "text": "that you have got a minimized window"
+ },
+ {
+  "start": 319.139,
+  "end": 320.629,
+  "text": "okay"
+ },
+ {
+  "start": 320.639,
+  "end": 323.51,
+  "text": "now going back you can click on full"
+ },
+ {
+  "start": 323.52,
+  "end": 325.55,
+  "text": "size and this window will be again"
+ },
+ {
+  "start": 325.56,
+  "end": 328.01,
+  "text": "displayed back right"
+ },
+ {
+  "start": 328.02,
+  "end": 329.749,
+  "text": "now looking at some of the other options"
+ },
+ {
+  "start": 329.759,
+  "end": 332.45,
+  "text": "which are available on the top menu bar"
+ },
+ {
+  "start": 332.46,
+  "end": 335.93,
+  "text": "you can see uh if we have finished our"
+ },
+ {
+  "start": 335.94,
+  "end": 339.29,
+  "text": "manual test steps execution and we think"
+ },
+ {
+  "start": 339.3,
+  "end": 342.11,
+  "text": "that we can continue uh with the"
+ },
+ {
+  "start": 342.12,
+  "end": 344.33,
+  "text": "remaining steps as an automated test"
+ },
+ {
+  "start": 344.34,
+  "end": 348.59,
+  "text": "execution then what we can do we can set"
+ },
+ {
+  "start": 348.6,
+  "end": 351.29,
+  "text": "all the remaining test steps to enable"
+ },
+ {
+  "start": 351.3,
+  "end": 354.65,
+  "text": "automated okay so when you click on this"
+ },
+ {
+  "start": 354.66,
+  "end": 357.05,
+  "text": "option enable automation all the"
+ },
+ {
+  "start": 357.06,
+  "end": 358.85,
+  "text": "remaining test steps will become"
+ },
+ {
+  "start": 358.86,
+  "end": 361.79,
+  "text": "automated and from here on you can run"
+ },
+ {
+  "start": 361.8,
+  "end": 365.689,
+  "text": "it as an automated test case okay or you"
+ },
+ {
+  "start": 365.699,
+  "end": 367.969,
+  "text": "can change it back again to manual test"
+ },
+ {
+  "start": 367.979,
+  "end": 368.81,
+  "text": "case"
+ },
+ {
+  "start": 368.82,
+  "end": 373.07,
+  "text": "you can also inject data value into your"
+ },
+ {
+  "start": 373.08,
+  "end": 375.89,
+  "text": "system under test so by clicking on this"
+ },
+ {
+  "start": 375.9,
+  "end": 378.409,
+  "text": "inject data value it will send the value"
+ },
+ {
+  "start": 378.419,
+  "end": 381.11,
+  "text": "of the currently selected test step or"
+ },
+ {
+  "start": 381.12,
+  "end": 384.59,
+  "text": "tester value to the system under test"
+ },
+ {
+  "start": 384.6,
+  "end": 387.73,
+  "text": "also the same set passed and set field"
+ },
+ {
+  "start": 387.74,
+  "end": 390.59,
+  "text": "options are available on the top menu so"
+ },
+ {
+  "start": 390.6,
+  "end": 392.57,
+  "text": "either you can do it at the desktop"
+ },
+ {
+  "start": 392.58,
+  "end": 395.51,
+  "text": "level from the result column or you can"
+ },
+ {
+  "start": 395.52,
+  "end": 399.17,
+  "text": "also do it right from here okay"
+ },
+ {
+  "start": 399.18,
+  "end": 402.409,
+  "text": "so I can click on pass and it is going"
+ },
+ {
+  "start": 402.419,
+  "end": 405.05,
+  "text": "to set the results to past"
+ },
+ {
+  "start": 405.06,
+  "end": 407.689,
+  "text": "or if I want to fail The Next Step then"
+ },
+ {
+  "start": 407.699,
+  "end": 410.629,
+  "text": "I can also do that okay"
+ },
+ {
+  "start": 410.639,
+  "end": 413.689,
+  "text": "now there is also an option to post the"
+ },
+ {
+  "start": 413.699,
+  "end": 417.11,
+  "text": "execution uh if you have running the"
+ },
+ {
+  "start": 417.12,
+  "end": 419.27,
+  "text": "automated test and you want to pause the"
+ },
+ {
+  "start": 419.28,
+  "end": 422.029,
+  "text": "execution then you can this option will"
+ },
+ {
+  "start": 422.039,
+  "end": 423.71,
+  "text": "be enabled and you can click on that to"
+ },
+ {
+  "start": 423.72,
+  "end": 425.09,
+  "text": "post the execution"
+ },
+ {
+  "start": 425.1,
+  "end": 428.39,
+  "text": "now finally once you are completed with"
+ },
+ {
+  "start": 428.4,
+  "end": 431.27,
+  "text": "your manual test case execution you can"
+ },
+ {
+  "start": 431.28,
+  "end": 433.309,
+  "text": "go ahead and finish your test case"
+ },
+ {
+  "start": 433.319,
+  "end": 435.65,
+  "text": "execution"
+ },
+ {
+  "start": 435.66,
+  "end": 437.629,
+  "text": "and now you will see a additional"
+ },
+ {
+  "start": 437.639,
+  "end": 440.39,
+  "text": "execution log has been added for our"
+ },
+ {
+  "start": 440.4,
+  "end": 443.27,
+  "text": "manual test execution and it will show"
+ },
+ {
+  "start": 443.28,
+  "end": 446.089,
+  "text": "you all the steps which have been passed"
+ },
+ {
+  "start": 446.099,
+  "end": 448.37,
+  "text": "and which have been failed during your"
+ },
+ {
+  "start": 448.38,
+  "end": 450.23,
+  "text": "manual test execution"
+ },
+ {
+  "start": 450.24,
+  "end": 453.65,
+  "text": "also you can see that the screenshot"
+ },
+ {
+  "start": 453.66,
+  "end": 456.35,
+  "text": "which we added it is already added here"
+ },
+ {
+  "start": 456.36,
+  "end": 458.33,
+  "text": "okay"
+ },
+ {
+  "start": 458.34,
+  "end": 462.05,
+  "text": "along with the comment that this step"
+ },
+ {
+  "start": 462.06,
+  "end": 464.27,
+  "text": "has passed this is what we added during"
+ },
+ {
+  "start": 464.28,
+  "end": 467.45,
+  "text": "our manual execution so all of this you"
+ },
+ {
+  "start": 467.46,
+  "end": 470.629,
+  "text": "can do uh both for your manual tests as"
+ },
+ {
+  "start": 470.639,
+  "end": 473.21,
+  "text": "well as for your automated test you can"
+ },
+ {
+  "start": 473.22,
+  "end": 476.749,
+  "text": "execute all your test steps manually"
+ },
+ {
+  "start": 476.759,
+  "end": 479.689,
+  "text": "that's all for this particular video if"
+ },
+ {
+  "start": 479.699,
+  "end": 481.43,
+  "text": "you have any questions then please leave"
+ },
+ {
+  "start": 481.44,
+  "end": 482.87,
+  "text": "it in the comments"
+ },
+ {
+  "start": 482.88,
+  "end": 484.79,
+  "text": "if you like this video then please"
+ },
+ {
+  "start": 484.8,
+  "end": 486.409,
+  "text": "subscribe to our Channel"
+ },
+ {
+  "start": 486.419,
+  "end": 488.629,
+  "text": "thanks for watching and I will see you"
+ },
+ {
+  "start": 488.639,
+  "end": 491.479,
+  "text": "in the next video"
+ }
+]

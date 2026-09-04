@@ -1,0 +1,962 @@
+[
+ {
+  "start": 6.849,
+  "end": 6.859,
+  "text": "foreign"
+ },
+ {
+  "start": 6.859,
+  "end": 9.169,
+  "text": "welcome back to our Channel"
+ },
+ {
+  "start": 9.179,
+  "end": 11.75,
+  "text": "I am back with another interesting topic"
+ },
+ {
+  "start": 11.76,
+  "end": 15.23,
+  "text": "in the Tosca automation playlist"
+ },
+ {
+  "start": 15.24,
+  "end": 17.81,
+  "text": "in this video I am going to show you how"
+ },
+ {
+  "start": 17.82,
+  "end": 19.609,
+  "text": "you can work with test case design"
+ },
+ {
+  "start": 19.619,
+  "end": 21.17,
+  "text": "classes"
+ },
+ {
+  "start": 21.18,
+  "end": 23.81,
+  "text": "first let's understand what is a test"
+ },
+ {
+  "start": 23.82,
+  "end": 26.33,
+  "text": "case design class and why should we use"
+ },
+ {
+  "start": 26.34,
+  "end": 29.87,
+  "text": "it now test case design class in Tosca"
+ },
+ {
+  "start": 29.88,
+  "end": 32.33,
+  "text": "helps us to minimize redundancy in our"
+ },
+ {
+  "start": 32.34,
+  "end": 33.53,
+  "text": "test sheets"
+ },
+ {
+  "start": 33.54,
+  "end": 36.11,
+  "text": "so we can create a test case design"
+ },
+ {
+  "start": 36.12,
+  "end": 39.11,
+  "text": "class for attributes which are"
+ },
+ {
+  "start": 39.12,
+  "end": 41.27,
+  "text": "repeatedly being used in different test"
+ },
+ {
+  "start": 41.28,
+  "end": 45.229,
+  "text": "sheets so by having a common class which"
+ },
+ {
+  "start": 45.239,
+  "end": 47.869,
+  "text": "has got the common attributes you can"
+ },
+ {
+  "start": 47.879,
+  "end": 50.99,
+  "text": "just use the references of this class in"
+ },
+ {
+  "start": 51.0,
+  "end": 53.15,
+  "text": "different test sheets so that you don't"
+ },
+ {
+  "start": 53.16,
+  "end": 55.729,
+  "text": "need to create this attribute a number"
+ },
+ {
+  "start": 55.739,
+  "end": 58.729,
+  "text": "of different times or multiple times"
+ },
+ {
+  "start": 58.739,
+  "end": 61.13,
+  "text": "and then you can also centrally manage"
+ },
+ {
+  "start": 61.14,
+  "end": 63.41,
+  "text": "uh if there are any changes to this"
+ },
+ {
+  "start": 63.42,
+  "end": 66.05,
+  "text": "attributes or instances"
+ },
+ {
+  "start": 66.06,
+  "end": 67.969,
+  "text": "let's look at an example and try to"
+ },
+ {
+  "start": 67.979,
+  "end": 70.49,
+  "text": "understand this in a better way"
+ },
+ {
+  "start": 70.5,
+  "end": 72.53,
+  "text": "so I have opened this vehicle insurance"
+ },
+ {
+  "start": 72.54,
+  "end": 75.35,
+  "text": "application and as you can see there are"
+ },
+ {
+  "start": 75.36,
+  "end": 77.45,
+  "text": "different types of vehicles here"
+ },
+ {
+  "start": 77.46,
+  "end": 80.09,
+  "text": "automobile truck motorcycle camper right"
+ },
+ {
+  "start": 80.1,
+  "end": 83.51,
+  "text": "but what you will notice is if you look"
+ },
+ {
+  "start": 83.52,
+  "end": 86.63,
+  "text": "at the automobile section you will see"
+ },
+ {
+  "start": 86.64,
+  "end": 88.73,
+  "text": "there is enter vehicle data"
+ },
+ {
+  "start": 88.74,
+  "end": 90.71,
+  "text": "and then there are some Fields here"
+ },
+ {
+  "start": 90.72,
+  "end": 93.83,
+  "text": "right now if I go to truck you will see"
+ },
+ {
+  "start": 93.84,
+  "end": 97.13,
+  "text": "the same section enter vehicle data and"
+ },
+ {
+  "start": 97.14,
+  "end": 100.55,
+  "text": "there are some common fields in both of"
+ },
+ {
+  "start": 100.56,
+  "end": 102.59,
+  "text": "these sections there are some additional"
+ },
+ {
+  "start": 102.6,
+  "end": 105.05,
+  "text": "Fields here like the payload and total"
+ },
+ {
+  "start": 105.06,
+  "end": 107.569,
+  "text": "weight but apart from that remaining"
+ },
+ {
+  "start": 107.579,
+  "end": 112.19,
+  "text": "things are all same right now similarly"
+ },
+ {
+  "start": 112.2,
+  "end": 114.77,
+  "text": "for motorcycle and for camper also you"
+ },
+ {
+  "start": 114.78,
+  "end": 118.249,
+  "text": "have got some similar Fields right and"
+ },
+ {
+  "start": 118.259,
+  "end": 120.889,
+  "text": "as we know these fields could be"
+ },
+ {
+  "start": 120.899,
+  "end": 124.01,
+  "text": "converted into attributes and instances"
+ },
+ {
+  "start": 124.02,
+  "end": 127.37,
+  "text": "in our test case design sheet right so"
+ },
+ {
+  "start": 127.38,
+  "end": 130.07,
+  "text": "that's how we design our test cases"
+ },
+ {
+  "start": 130.08,
+  "end": 134.51,
+  "text": "now if I go into Tosca and I've created"
+ },
+ {
+  "start": 134.52,
+  "end": 136.55,
+  "text": "these two different sheets you can see"
+ },
+ {
+  "start": 136.56,
+  "end": 139.55,
+  "text": "for one for automobile and one for truck"
+ },
+ {
+  "start": 139.56,
+  "end": 143.21,
+  "text": "right now here you will see that I have"
+ },
+ {
+  "start": 143.22,
+  "end": 145.97,
+  "text": "created these different attributes for"
+ },
+ {
+  "start": 145.98,
+  "end": 148.729,
+  "text": "enter vehicle data okay so these are all"
+ },
+ {
+  "start": 148.739,
+  "end": 150.589,
+  "text": "the fields which are present and then it"
+ },
+ {
+  "start": 150.599,
+  "end": 153.77,
+  "text": "has got its respective instances right"
+ },
+ {
+  "start": 153.78,
+  "end": 156.89,
+  "text": "each attribute has got its own instances"
+ },
+ {
+  "start": 156.9,
+  "end": 159.35,
+  "text": "similarly I have created another sheet"
+ },
+ {
+  "start": 159.36,
+  "end": 161.57,
+  "text": "called truck and I have created another"
+ },
+ {
+  "start": 161.58,
+  "end": 164.33,
+  "text": "attribute with all the different"
+ },
+ {
+  "start": 164.34,
+  "end": 166.369,
+  "text": "attributes and instances"
+ },
+ {
+  "start": 166.379,
+  "end": 169.07,
+  "text": "again we are duplicating uh the"
+ },
+ {
+  "start": 169.08,
+  "end": 172.19,
+  "text": "attributes in both the sheets and also"
+ },
+ {
+  "start": 172.2,
+  "end": 174.77,
+  "text": "the instances right so as you can see"
+ },
+ {
+  "start": 174.78,
+  "end": 177.53,
+  "text": "there is a case here to make it"
+ },
+ {
+  "start": 177.54,
+  "end": 182.03,
+  "text": "redundant to not repeat or use the same"
+ },
+ {
+  "start": 182.04,
+  "end": 184.729,
+  "text": "attribute multiple times we can reduce"
+ },
+ {
+  "start": 184.739,
+  "end": 187.49,
+  "text": "our efforts and time in creating this"
+ },
+ {
+  "start": 187.5,
+  "end": 190.309,
+  "text": "attributes and instances or even later"
+ },
+ {
+  "start": 190.319,
+  "end": 193.55,
+  "text": "on uh maintaining them if there are any"
+ },
+ {
+  "start": 193.56,
+  "end": 197.27,
+  "text": "changes we can create a common class"
+ },
+ {
+  "start": 197.28,
+  "end": 199.79,
+  "text": "which can contain all these common"
+ },
+ {
+  "start": 199.8,
+  "end": 202.19,
+  "text": "attributes okay and then we can"
+ },
+ {
+  "start": 202.2,
+  "end": 204.71,
+  "text": "centrally manage them in that particular"
+ },
+ {
+  "start": 204.72,
+  "end": 207.11,
+  "text": "class"
+ },
+ {
+  "start": 209.33,
+  "end": 209.34,
+  "text": "now coming to how we can create a"
+ },
+ {
+  "start": 209.34,
+  "end": 210.53,
+  "text": "particular class"
+ },
+ {
+  "start": 210.54,
+  "end": 213.47,
+  "text": "so we can do it multiple ways one way is"
+ },
+ {
+  "start": 213.48,
+  "end": 216.229,
+  "text": "to go to a folder which is your test"
+ },
+ {
+  "start": 216.239,
+  "end": 218.57,
+  "text": "case design folder right click on that"
+ },
+ {
+  "start": 218.58,
+  "end": 220.55,
+  "text": "and you will find an option to create a"
+ },
+ {
+  "start": 220.56,
+  "end": 223.309,
+  "text": "class so I can click on this and it will"
+ },
+ {
+  "start": 223.319,
+  "end": 226.43,
+  "text": "create a class here right now inside"
+ },
+ {
+  "start": 226.44,
+  "end": 230.449,
+  "text": "this class I can add the attributes and"
+ },
+ {
+  "start": 230.459,
+  "end": 234.41,
+  "text": "instances so whatever I require or"
+ },
+ {
+  "start": 234.42,
+  "end": 237.949,
+  "text": "whatever is needed for different test"
+ },
+ {
+  "start": 237.959,
+  "end": 239.449,
+  "text": "sheets so these are all the common"
+ },
+ {
+  "start": 239.459,
+  "end": 242.21,
+  "text": "attributes which we have entered here"
+ },
+ {
+  "start": 242.22,
+  "end": 243.589,
+  "text": "right"
+ },
+ {
+  "start": 243.599,
+  "end": 246.77,
+  "text": "so this is uh the manual way of creating"
+ },
+ {
+  "start": 246.78,
+  "end": 247.97,
+  "text": "the class"
+ },
+ {
+  "start": 247.98,
+  "end": 251.509,
+  "text": "the other way around is you can create a"
+ },
+ {
+  "start": 251.519,
+  "end": 253.789,
+  "text": "class from a module also"
+ },
+ {
+  "start": 253.799,
+  "end": 258.229,
+  "text": "okay so how you can do that is let's"
+ },
+ {
+  "start": 258.239,
+  "end": 261.59,
+  "text": "delete this class and now"
+ },
+ {
+  "start": 261.6,
+  "end": 264.67,
+  "text": "um I will take this module called enter"
+ },
+ {
+  "start": 264.68,
+  "end": 266.749,
+  "text": "vehicle data"
+ },
+ {
+  "start": 266.759,
+  "end": 269.57,
+  "text": "and I'm going to drag it into this"
+ },
+ {
+  "start": 269.58,
+  "end": 271.249,
+  "text": "particular folder"
+ },
+ {
+  "start": 271.259,
+  "end": 274.31,
+  "text": "and now you will see that it has created"
+ },
+ {
+  "start": 274.32,
+  "end": 277.37,
+  "text": "a class on its own called enter vehicle"
+ },
+ {
+  "start": 277.38,
+  "end": 280.01,
+  "text": "data and it has got all the different"
+ },
+ {
+  "start": 280.02,
+  "end": 282.77,
+  "text": "attributes and instances"
+ },
+ {
+  "start": 282.78,
+  "end": 286.31,
+  "text": "obviously I need to make some changes"
+ },
+ {
+  "start": 286.32,
+  "end": 289.07,
+  "text": "here uh all the instances may not be"
+ },
+ {
+  "start": 289.08,
+  "end": 292.249,
+  "text": "correct here right but my main aim of"
+ },
+ {
+  "start": 292.259,
+  "end": 295.969,
+  "text": "creating a class is to have these common"
+ },
+ {
+  "start": 295.979,
+  "end": 298.249,
+  "text": "attributes inside this particular class"
+ },
+ {
+  "start": 298.259,
+  "end": 301.189,
+  "text": "I can add or remove any particular"
+ },
+ {
+  "start": 301.199,
+  "end": 304.249,
+  "text": "attribute I can change the instances"
+ },
+ {
+  "start": 304.259,
+  "end": 308.81,
+  "text": "values here okay but then this is the"
+ },
+ {
+  "start": 308.82,
+  "end": 311.27,
+  "text": "central place where I will managing all"
+ },
+ {
+  "start": 311.28,
+  "end": 314.33,
+  "text": "these common attributes and now instead"
+ },
+ {
+  "start": 314.34,
+  "end": 316.55,
+  "text": "of creating attributes manually or"
+ },
+ {
+  "start": 316.56,
+  "end": 318.249,
+  "text": "adding them manually to my sheets"
+ },
+ {
+  "start": 318.259,
+  "end": 321.83,
+  "text": "multiple times what I can do is I can"
+ },
+ {
+  "start": 321.84,
+  "end": 324.17,
+  "text": "use the class reference"
+ },
+ {
+  "start": 324.18,
+  "end": 328.79,
+  "text": "so now if I remove this and I just go"
+ },
+ {
+  "start": 328.8,
+  "end": 331.79,
+  "text": "ahead and select the sheet I can now"
+ },
+ {
+  "start": 331.8,
+  "end": 334.49,
+  "text": "drag this class into my sheet"
+ },
+ {
+  "start": 334.5,
+  "end": 338.33,
+  "text": "okay and then also for the next one I"
+ },
+ {
+  "start": 338.34,
+  "end": 339.77,
+  "text": "can do the same"
+ },
+ {
+  "start": 339.78,
+  "end": 342.77,
+  "text": "now here you will see that uh this"
+ },
+ {
+  "start": 342.78,
+  "end": 346.01,
+  "text": "automobile test sheet is using a class"
+ },
+ {
+  "start": 346.02,
+  "end": 348.529,
+  "text": "reference okay"
+ },
+ {
+  "start": 348.539,
+  "end": 352.61,
+  "text": "and same for truck it is also using a"
+ },
+ {
+  "start": 352.62,
+  "end": 354.409,
+  "text": "class reference"
+ },
+ {
+  "start": 354.419,
+  "end": 357.05,
+  "text": "okay so it is just a reference to that"
+ },
+ {
+  "start": 357.06,
+  "end": 359.35,
+  "text": "particular class"
+ },
+ {
+  "start": 359.36,
+  "end": 364.07,
+  "text": "also if I make any changes here like if"
+ },
+ {
+  "start": 364.08,
+  "end": 367.31,
+  "text": "I delete this particular instance okay"
+ },
+ {
+  "start": 367.32,
+  "end": 371.029,
+  "text": "the same will be reflected here so now"
+ },
+ {
+  "start": 371.039,
+  "end": 373.07,
+  "text": "you can centrally manage your changes"
+ },
+ {
+  "start": 373.08,
+  "end": 375.35,
+  "text": "across the attributes which are commonly"
+ },
+ {
+  "start": 375.36,
+  "end": 378.05,
+  "text": "used in different sheets okay so if you"
+ },
+ {
+  "start": 378.06,
+  "end": 380.87,
+  "text": "are using a particular class reference"
+ },
+ {
+  "start": 380.88,
+  "end": 383.39,
+  "text": "whatever changes you make in the class"
+ },
+ {
+  "start": 383.4,
+  "end": 386.87,
+  "text": "will be reflected in the class reference"
+ },
+ {
+  "start": 386.88,
+  "end": 389.33,
+  "text": "now for example in the truck section"
+ },
+ {
+  "start": 389.34,
+  "end": 392.93,
+  "text": "okay I need to add some more attributes"
+ },
+ {
+  "start": 392.94,
+  "end": 395.33,
+  "text": "and I don't want to use this class"
+ },
+ {
+  "start": 395.34,
+  "end": 396.71,
+  "text": "reference"
+ },
+ {
+  "start": 396.72,
+  "end": 399.11,
+  "text": "so what you can do is you can resolve"
+ },
+ {
+  "start": 399.12,
+  "end": 401.029,
+  "text": "the class reference so right click on"
+ },
+ {
+  "start": 401.039,
+  "end": 402.77,
+  "text": "the class reference and there is an"
+ },
+ {
+  "start": 402.78,
+  "end": 405.77,
+  "text": "option to resolve class reference and"
+ },
+ {
+  "start": 405.78,
+  "end": 409.01,
+  "text": "now it will convert it into a simple"
+ },
+ {
+  "start": 409.02,
+  "end": 412.01,
+  "text": "attribute like it was previously and"
+ },
+ {
+  "start": 412.02,
+  "end": 415.01,
+  "text": "then I can go ahead and I can add my own"
+ },
+ {
+  "start": 415.02,
+  "end": 417.77,
+  "text": "attributes here right so like for"
+ },
+ {
+  "start": 417.78,
+  "end": 420.35,
+  "text": "example in the truck section we have"
+ },
+ {
+  "start": 420.36,
+  "end": 422.39,
+  "text": "payload and total weight"
+ },
+ {
+  "start": 422.4,
+  "end": 424.01,
+  "text": "so"
+ },
+ {
+  "start": 424.02,
+  "end": 427.49,
+  "text": "I am going here and I'm going to create"
+ },
+ {
+  "start": 427.5,
+  "end": 430.55,
+  "text": "payload"
+ },
+ {
+  "start": 439.85,
+  "end": 439.86,
+  "text": "now once you resolve the class reference"
+ },
+ {
+  "start": 439.86,
+  "end": 442.43,
+  "text": "there is no link between the class and"
+ },
+ {
+  "start": 442.44,
+  "end": 445.79,
+  "text": "this particular attribute so now it is"
+ },
+ {
+  "start": 445.8,
+  "end": 447.529,
+  "text": "not centrally managed for this"
+ },
+ {
+  "start": 447.539,
+  "end": 450.17,
+  "text": "particular attribute okay but this"
+ },
+ {
+  "start": 450.18,
+  "end": 452.809,
+  "text": "reference is still there now if you want"
+ },
+ {
+  "start": 452.819,
+  "end": 454.61,
+  "text": "to jump to the reference class you can"
+ },
+ {
+  "start": 454.62,
+  "end": 457.67,
+  "text": "right click and click on jump to refresh"
+ },
+ {
+  "start": 457.68,
+  "end": 461.39,
+  "text": "class okay"
+ },
+ {
+  "start": 465.17,
+  "end": 465.18,
+  "text": "so this way you can reduce your"
+ },
+ {
+  "start": 465.18,
+  "end": 468.77,
+  "text": "redundancy across your test sheets by"
+ },
+ {
+  "start": 468.78,
+  "end": 472.01,
+  "text": "keeping your common attributes inside a"
+ },
+ {
+  "start": 472.02,
+  "end": 473.749,
+  "text": "class and then using that class"
+ },
+ {
+  "start": 473.759,
+  "end": 476.57,
+  "text": "reference across different sheets"
+ },
+ {
+  "start": 476.58,
+  "end": 479.51,
+  "text": "now it completely depends on how you"
+ },
+ {
+  "start": 479.52,
+  "end": 481.67,
+  "text": "want to design your classes whether you"
+ },
+ {
+  "start": 481.68,
+  "end": 485.45,
+  "text": "do it from the modules or you can do it"
+ },
+ {
+  "start": 485.46,
+  "end": 487.85,
+  "text": "by creating a class manually and then"
+ },
+ {
+  "start": 487.86,
+  "end": 490.07,
+  "text": "adding all the attributes which you"
+ },
+ {
+  "start": 490.08,
+  "end": 491.87,
+  "text": "think could be used multiple times"
+ },
+ {
+  "start": 491.88,
+  "end": 494.33,
+  "text": "across different sheets"
+ },
+ {
+  "start": 494.34,
+  "end": 496.969,
+  "text": "okay so this was a simple example where"
+ },
+ {
+  "start": 496.979,
+  "end": 500.45,
+  "text": "you can use the class and there could be"
+ },
+ {
+  "start": 500.46,
+  "end": 503.15,
+  "text": "several places where you could use"
+ },
+ {
+  "start": 503.16,
+  "end": 506.89,
+  "text": "classes so just like test case libraries"
+ },
+ {
+  "start": 506.9,
+  "end": 510.43,
+  "text": "which increases the reusability factor"
+ },
+ {
+  "start": 510.44,
+  "end": 514.01,
+  "text": "classes also helps you to basically"
+ },
+ {
+  "start": 514.02,
+  "end": 517.37,
+  "text": "reuse something what you have already"
+ },
+ {
+  "start": 517.38,
+  "end": 518.449,
+  "text": "created"
+ },
+ {
+  "start": 518.459,
+  "end": 520.909,
+  "text": "you can use it multiple times across"
+ },
+ {
+  "start": 520.919,
+  "end": 522.769,
+  "text": "different test sheets"
+ },
+ {
+  "start": 522.779,
+  "end": 525.59,
+  "text": "that's all for this particular video if"
+ },
+ {
+  "start": 525.6,
+  "end": 527.389,
+  "text": "you have any questions then please leave"
+ },
+ {
+  "start": 527.399,
+  "end": 528.829,
+  "text": "it in the comments"
+ },
+ {
+  "start": 528.839,
+  "end": 530.69,
+  "text": "if you like this video then please"
+ },
+ {
+  "start": 530.7,
+  "end": 532.49,
+  "text": "subscribe to our Channel"
+ },
+ {
+  "start": 532.5,
+  "end": 534.59,
+  "text": "thanks for watching and I will see you"
+ },
+ {
+  "start": 534.6,
+  "end": 537.44,
+  "text": "in the next video"
+ }
+]

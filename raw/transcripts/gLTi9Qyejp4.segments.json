@@ -1,0 +1,757 @@
+[
+ {
+  "start": 12.509,
+  "end": 12.519,
+  "text": "hey everyone welcome back to our Channel"
+ },
+ {
+  "start": 12.519,
+  "end": 15.15,
+  "text": "I am back with another interesting topic"
+ },
+ {
+  "start": 15.16,
+  "end": 17.75,
+  "text": "in the tosa automation"
+ },
+ {
+  "start": 17.76,
+  "end": 20.23,
+  "text": "playlist now continuing with our topic"
+ },
+ {
+  "start": 20.24,
+  "end": 22.63,
+  "text": "on test automation obstacles moving on"
+ },
+ {
+  "start": 22.64,
+  "end": 26.109,
+  "text": "to our next topic is confusing dates so"
+ },
+ {
+  "start": 26.119,
+  "end": 28.39,
+  "text": "this is the obstacle which uh consists"
+ },
+ {
+  "start": 28.4,
+  "end": 30.71,
+  "text": "of different date formats and different"
+ },
+ {
+  "start": 30.72,
+  "end": 32.99,
+  "text": "calculations which we need to do so"
+ },
+ {
+  "start": 33.0,
+  "end": 35.19,
+  "text": "let's see at this particular problem"
+ },
+ {
+  "start": 35.2,
+  "end": 37.709,
+  "text": "right so we need to generate a new date"
+ },
+ {
+  "start": 37.719,
+  "end": 40.19,
+  "text": "in the US format by pressing the"
+ },
+ {
+  "start": 40.2,
+  "end": 42.51,
+  "text": "calendar button so this is the button"
+ },
+ {
+  "start": 42.52,
+  "end": 44.75,
+  "text": "when you press on it a specific date is"
+ },
+ {
+  "start": 44.76,
+  "end": 47.59,
+  "text": "generated in a specific format now we"
+ },
+ {
+  "start": 47.6,
+  "end": 49.91,
+  "text": "need to use the tosar based functions to"
+ },
+ {
+  "start": 49.92,
+  "end": 52.709,
+  "text": "calculate first of the second following"
+ },
+ {
+  "start": 52.719,
+  "end": 56.709,
+  "text": "month of the generated date okay so uh"
+ },
+ {
+  "start": 56.719,
+  "end": 59.75,
+  "text": "we need to calculate 2 months uh forward"
+ },
+ {
+  "start": 59.76,
+  "end": 62.029,
+  "text": "and and it has to be the first of that"
+ },
+ {
+  "start": 62.039,
+  "end": 65.429,
+  "text": "particular following month right uh and"
+ },
+ {
+  "start": 65.439,
+  "end": 67.27,
+  "text": "then the new date has to be entered in"
+ },
+ {
+  "start": 67.28,
+  "end": 69.51,
+  "text": "this particular text box uh and that has"
+ },
+ {
+  "start": 69.52,
+  "end": 72.03,
+  "text": "to be in the iso format there's an"
+ },
+ {
+  "start": 72.04,
+  "end": 76.03,
+  "text": "example here so if the date is this then"
+ },
+ {
+  "start": 76.04,
+  "end": 80.39,
+  "text": "uh the result date should be this okay"
+ },
+ {
+  "start": 80.4,
+  "end": 82.63,
+  "text": "and once you do that you need to click"
+ },
+ {
+  "start": 82.64,
+  "end": 84.91,
+  "text": "on this done button now for example if"
+ },
+ {
+  "start": 84.92,
+  "end": 87.91,
+  "text": "our generated date is this then our"
+ },
+ {
+  "start": 87.92,
+  "end": 90.35,
+  "text": "resultant date should be"
+ },
+ {
+  "start": 90.36,
+  "end": 94.069,
+  "text": "okay so we have to enter the year first"
+ },
+ {
+  "start": 94.079,
+  "end": 96.789,
+  "text": "and then we need to calculate two months"
+ },
+ {
+  "start": 96.799,
+  "end": 103.149,
+  "text": "in advance okay so that would be 10 and"
+ },
+ {
+  "start": 103.159,
+  "end": 104.19,
+  "text": "then"
+ },
+ {
+  "start": 104.2,
+  "end": 106.95,
+  "text": "01"
+ },
+ {
+  "start": 106.96,
+  "end": 109.789,
+  "text": "okay and you will see that the obstacle"
+ },
+ {
+  "start": 109.799,
+  "end": 112.55,
+  "text": "is completed now so this is what we need"
+ },
+ {
+  "start": 112.56,
+  "end": 115.23,
+  "text": "to automate using tosa so let's see how"
+ },
+ {
+  "start": 115.24,
+  "end": 118.31,
+  "text": "we can do this in"
+ },
+ {
+  "start": 118.32,
+  "end": 121.83,
+  "text": "tosa Okay so coming back to our tosa"
+ },
+ {
+  "start": 121.84,
+  "end": 124.67,
+  "text": "workspace uh and going to our obstacles"
+ },
+ {
+  "start": 124.68,
+  "end": 131.39,
+  "text": "modules folder we will scan the"
+ },
+ {
+  "start": 133.63,
+  "end": 133.64,
+  "text": "application and here we need to add"
+ },
+ {
+  "start": 133.64,
+  "end": 135.71,
+  "text": "basically four controls okay so we need"
+ },
+ {
+  "start": 135.72,
+  "end": 139.35,
+  "text": "to add the buttons and then the two text"
+ },
+ {
+  "start": 139.36,
+  "end": 142.589,
+  "text": "boxes so one is the generated date and"
+ },
+ {
+  "start": 142.599,
+  "end": 144.39,
+  "text": "one is the solution"
+ },
+ {
+  "start": 144.4,
+  "end": 146.63,
+  "text": "date okay so these are all the four"
+ },
+ {
+  "start": 146.64,
+  "end": 149.15,
+  "text": "controls which we require and then I'm"
+ },
+ {
+  "start": 149.16,
+  "end": 153.589,
+  "text": "going to rename this module"
+ },
+ {
+  "start": 156.869,
+  "end": 156.879,
+  "text": "here and then I'm going to save and"
+ },
+ {
+  "start": 156.879,
+  "end": 161.35,
+  "text": "close this okay and now coming back to"
+ },
+ {
+  "start": 161.36,
+  "end": 163.75,
+  "text": "our obstacle test cases folder we are"
+ },
+ {
+  "start": 163.76,
+  "end": 166.149,
+  "text": "going to add new test case"
+ },
+ {
+  "start": 166.159,
+  "end": 169.47,
+  "text": "here and then uh we are going to add the"
+ },
+ {
+  "start": 169.48,
+  "end": 171.309,
+  "text": "particular module to this particular"
+ },
+ {
+  "start": 171.319,
+  "end": 174.83,
+  "text": "test case Okay uh now before we move"
+ },
+ {
+  "start": 174.84,
+  "end": 178.149,
+  "text": "ahead and uh modify our test steps we"
+ },
+ {
+  "start": 178.159,
+  "end": 179.83,
+  "text": "need to add some additional"
+ },
+ {
+  "start": 179.84,
+  "end": 182.35,
+  "text": "configuration parameters to our module"
+ },
+ {
+  "start": 182.36,
+  "end": 185.47,
+  "text": "attributes and this is because of the"
+ },
+ {
+  "start": 185.48,
+  "end": 188.869,
+  "text": "specific date formats right so these two"
+ },
+ {
+  "start": 188.879,
+  "end": 191.55,
+  "text": "are the module attributes or basically"
+ },
+ {
+  "start": 191.56,
+  "end": 194.35,
+  "text": "the date controls so for this we need to"
+ },
+ {
+  "start": 194.36,
+  "end": 197.19,
+  "text": "change the properties okay so in the"
+ },
+ {
+  "start": 197.2,
+  "end": 199.27,
+  "text": "property section we need to right click"
+ },
+ {
+  "start": 199.28,
+  "end": 201.07,
+  "text": "and there we will be finding a"
+ },
+ {
+  "start": 201.08,
+  "end": 203.71,
+  "text": "configuration parameter option so we'll"
+ },
+ {
+  "start": 203.72,
+  "end": 207.149,
+  "text": "click on that and here uh we need to"
+ },
+ {
+  "start": 207.159,
+  "end": 211.55,
+  "text": "provide the target format okay so this"
+ },
+ {
+  "start": 211.56,
+  "end": 215.47,
+  "text": "is the configuration parameter name okay"
+ },
+ {
+  "start": 215.48,
+  "end": 218.11,
+  "text": "uh it is a system defined parameters so"
+ },
+ {
+  "start": 218.12,
+  "end": 220.27,
+  "text": "the name should be exactly defined like"
+ },
+ {
+  "start": 220.28,
+  "end": 223.429,
+  "text": "this okay okay and then the value uh"
+ },
+ {
+  "start": 223.439,
+  "end": 226.47,
+  "text": "would be uh this particular format so"
+ },
+ {
+  "start": 226.48,
+  "end": 228.91,
+  "text": "which is the month then the date and"
+ },
+ {
+  "start": 228.92,
+  "end": 232.149,
+  "text": "then the year okay and uh we need to do"
+ },
+ {
+  "start": 232.159,
+  "end": 234.83,
+  "text": "the same for the solution date field as"
+ },
+ {
+  "start": 234.84,
+  "end": 237.069,
+  "text": "well so we will add a configuration"
+ },
+ {
+  "start": 237.079,
+  "end": 241.589,
+  "text": "parameter and we will call it Target"
+ },
+ {
+  "start": 241.599,
+  "end": 243.589,
+  "text": "date"
+ },
+ {
+  "start": 243.599,
+  "end": 247.429,
+  "text": "format and we will enter the same value"
+ },
+ {
+  "start": 247.439,
+  "end": 251.39,
+  "text": "here so this is the format and then we"
+ },
+ {
+  "start": 251.4,
+  "end": 254.27,
+  "text": "will go back to our test case now and we"
+ },
+ {
+  "start": 254.28,
+  "end": 256.789,
+  "text": "will modify the test step values here so"
+ },
+ {
+  "start": 256.799,
+  "end": 258.43,
+  "text": "first we need to click on the button to"
+ },
+ {
+  "start": 258.44,
+  "end": 260.59,
+  "text": "generate the date so we will perform the"
+ },
+ {
+  "start": 260.6,
+  "end": 263.27,
+  "text": "click operation then once the date is"
+ },
+ {
+  "start": 263.28,
+  "end": 265.79,
+  "text": "generated uh we have to save it into a"
+ },
+ {
+  "start": 265.8,
+  "end": 269.31,
+  "text": "buffer okay so that we will do um I will"
+ },
+ {
+  "start": 269.32,
+  "end": 271.31,
+  "text": "Prov provide a name here called"
+ },
+ {
+  "start": 271.32,
+  "end": 272.469,
+  "text": "generated"
+ },
+ {
+  "start": 272.479,
+  "end": 275.749,
+  "text": "date now when this date is generated we"
+ },
+ {
+  "start": 275.759,
+  "end": 277.79,
+  "text": "also need to change the data type"
+ },
+ {
+  "start": 277.8,
+  "end": 280.749,
+  "text": "because it cannot be string anymore okay"
+ },
+ {
+  "start": 280.759,
+  "end": 284.27,
+  "text": "it has to be a date data type okay so we"
+ },
+ {
+  "start": 284.28,
+  "end": 285.79,
+  "text": "need to change the data type to date"
+ },
+ {
+  "start": 285.8,
+  "end": 288.749,
+  "text": "here and then uh we need to perform some"
+ },
+ {
+  "start": 288.759,
+  "end": 291.59,
+  "text": "calculations here okay so we need to use"
+ },
+ {
+  "start": 291.6,
+  "end": 294.749,
+  "text": "a data expression which is called month"
+ },
+ {
+  "start": 294.759,
+  "end": 297.43,
+  "text": "first and what does it do it Returns the"
+ },
+ {
+  "start": 297.44,
+  "end": 299.71,
+  "text": "first day of the current month as a"
+ },
+ {
+  "start": 299.72,
+  "end": 301.749,
+  "text": "complete date"
+ },
+ {
+  "start": 301.759,
+  "end": 304.59,
+  "text": "okay so inside this uh we are going to"
+ },
+ {
+  "start": 304.6,
+  "end": 306.55,
+  "text": "provide the base date which is nothing"
+ },
+ {
+  "start": 306.56,
+  "end": 310.83,
+  "text": "but our buffer so we will use that"
+ },
+ {
+  "start": 310.84,
+  "end": 314.27,
+  "text": "here okay and after this we need to"
+ },
+ {
+  "start": 314.28,
+  "end": 317.71,
+  "text": "perform some offset calculations because"
+ },
+ {
+  "start": 317.72,
+  "end": 322.11,
+  "text": "we need to calculate 2 months uh after"
+ },
+ {
+  "start": 322.12,
+  "end": 324.909,
+  "text": "the generated date right so we will do"
+ },
+ {
+  "start": 324.919,
+  "end": 328.189,
+  "text": "plus two months"
+ },
+ {
+  "start": 328.199,
+  "end": 329.99,
+  "text": "here right"
+ },
+ {
+  "start": 330.0,
+  "end": 331.629,
+  "text": "and then uh we need to do it in a"
+ },
+ {
+  "start": 331.639,
+  "end": 334.99,
+  "text": "specific format right so we will put the"
+ },
+ {
+  "start": 335.0,
+  "end": 339.189,
+  "text": "format here uh and that will be"
+ },
+ {
+  "start": 339.199,
+  "end": 346.23,
+  "text": "year then month and then"
+ },
+ {
+  "start": 354.27,
+  "end": 354.28,
+  "text": "okay okay so uh I have changed that to"
+ },
+ {
+  "start": 354.28,
+  "end": 356.59,
+  "text": "month first somehow it became"
+ },
+ {
+  "start": 356.6,
+  "end": 358.99,
+  "text": "month uh but this is the expression"
+ },
+ {
+  "start": 359.0,
+  "end": 361.39,
+  "text": "which will use use and once that is done"
+ },
+ {
+  "start": 361.4,
+  "end": 363.309,
+  "text": "once the calculation is done we need to"
+ },
+ {
+  "start": 363.319,
+  "end": 367.189,
+  "text": "click on the done button okay so again a"
+ },
+ {
+  "start": 367.199,
+  "end": 369.749,
+  "text": "click operation so these are all the"
+ },
+ {
+  "start": 369.759,
+  "end": 371.67,
+  "text": "operations which we need to perform in"
+ },
+ {
+  "start": 371.68,
+  "end": 375.189,
+  "text": "our test steps and once that is done uh"
+ },
+ {
+  "start": 375.199,
+  "end": 378.07,
+  "text": "we can mark this as completed and now"
+ },
+ {
+  "start": 378.08,
+  "end": 385.469,
+  "text": "let's go ahead and run this in"
+ },
+ {
+  "start": 387.909,
+  "end": 387.919,
+  "text": "scratchbook okay so as you can see uh it"
+ },
+ {
+  "start": 387.919,
+  "end": 390.23,
+  "text": "generated the date and then it performed"
+ },
+ {
+  "start": 390.24,
+  "end": 391.99,
+  "text": "all the calculations then it entered it"
+ },
+ {
+  "start": 392.0,
+  "end": 394.27,
+  "text": "into the text box and then it clicked on"
+ },
+ {
+  "start": 394.28,
+  "end": 396.99,
+  "text": "the done button which completes all the"
+ },
+ {
+  "start": 397.0,
+  "end": 398.67,
+  "text": "requirements for this particular"
+ },
+ {
+  "start": 398.68,
+  "end": 401.67,
+  "text": "obstacle okay so this is how you can"
+ },
+ {
+  "start": 401.68,
+  "end": 404.469,
+  "text": "perform different uh date calculations"
+ },
+ {
+  "start": 404.479,
+  "end": 407.15,
+  "text": "uh it could be on a base date it could"
+ },
+ {
+  "start": 407.16,
+  "end": 409.029,
+  "text": "be on a default date or it could be some"
+ },
+ {
+  "start": 409.039,
+  "end": 411.35,
+  "text": "generated date right so there could be"
+ },
+ {
+  "start": 411.36,
+  "end": 413.07,
+  "text": "several scenarios in your application"
+ },
+ {
+  "start": 413.08,
+  "end": 414.43,
+  "text": "where you can apply this particular"
+ },
+ {
+  "start": 414.44,
+  "end": 417.029,
+  "text": "knowledge uh you can use different data"
+ },
+ {
+  "start": 417.039,
+  "end": 418.83,
+  "text": "Expressions which are available in tosa"
+ },
+ {
+  "start": 418.84,
+  "end": 422.95,
+  "text": "to perform different types of date"
+ },
+ {
+  "start": 422.96,
+  "end": 424.869,
+  "text": "calculations that's all for this"
+ },
+ {
+  "start": 424.879,
+  "end": 426.99,
+  "text": "particular video if you have any"
+ },
+ {
+  "start": 427.0,
+  "end": 428.909,
+  "text": "questions then please leave it in the"
+ },
+ {
+  "start": 428.919,
+  "end": 431.39,
+  "text": "comments if you like this video then"
+ },
+ {
+  "start": 431.4,
+  "end": 433.83,
+  "text": "please subscribe to our Channel thanks"
+ },
+ {
+  "start": 433.84,
+  "end": 435.869,
+  "text": "for watching and I will see you in the"
+ },
+ {
+  "start": 435.879,
+  "end": 436.99,
+  "text": "next"
+ },
+ {
+  "start": 437.0,
+  "end": 440.0,
+  "text": "video"
+ }
+]

@@ -1,0 +1,30 @@
+---
+id: "r0QVA5jM7m0"
+title: "Tosca Tutorial | Lesson 56 - Dynamically Generate Test Cases with Template Instance | Instantiation"
+url: "https://www.youtube.com/watch?v=r0QVA5jM7m0"
+channel: "QASCRIPT"
+playlist: "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification"
+playlist_index: 56
+duration: 395
+upload_date: "20220607"
+source: "youtube-subs"
+language: "en"
+transcribed_at: "2026-09-04T08:02:21Z"
+status: "raw"
+---
+
+# Tosca Tutorial | Lesson 56 - Dynamically Generate Test Cases with Template Instance | Instantiation
+
+[00:01] hey everyone welcome to another lesson in this task automation course today we are going to talk about how you can create a template and stamps in the last video i showed you how you can create a test case template now it's basically the next step is to instantiate that particular template so that different instances of test cases could be created automatically or dynamically right so test cases can be dynamically generated from a test case template by creating a template instance or in other words it is also called instantiate right the test case template instance must be linked to a data source that data source could be a test design sheet or it could be excel sheet and this will be used for generating the test cases now the steps to uh generate or instantiate a template as basically what we have discussed earlier convert your test case which is to be instantiated into a template link the test sheet with the test case template by dragging and dropping the
+
+[01:02] test design sheet to the test case template link the tester values with the attribute values of the test sheet now this will be done when you drag and drop or link the design sheet with the template but if some values are not present you can specifically do that by using the excel parameter right which we have already seen now the last step is to select the option instantiate or create template instance from the test case template options okay which we are going to see now are in tosca so there are two ways to create an instance of the template from the test custom that options right so one way is select the test case template go to the test cases section and there is an option for instantiate right there are also shortcuts which you can use the other option is right click and there you will find an option right if you click on the extra options
+
+[02:02] you will see there is an option called create template instance right it's both are the same things but there are different ways of doing it okay so just click on this um right on the test case template and click on instantiate now that will throw you a dialog saying start instantiation now click on yes and that should now create a template instance for your test case template right now this will also contain different test cases so this is your template and these are your test cases new test cases which are now generated automatically or dynamically from the template since we had only two instances in our test design sheet which is our data source only two test cases were generated but you have more instances it will generate any number of test pieces right so that's the power of tosca which gives you this reusable option
+
+[03:05] where you can have your design sheet to be linked with your template and then you can generate any number of test cases right and that also with different values okay now you can see here um if you see it is using a standard user and the password here right for login user for and the all the remaining steps are same here but it is not violating an error here because i left it empty right for that particular attribute now in the second test case you will see we are using a different username which is locked out user and there is a error message which needs to be verified so you can see these are two different combinations of test cases which were generated out of the same template but the values were different in our test design sheet which is our source of data right and that is how it is driving or
+
+[04:06] generating this test cases so it becomes very easy to generate different test cases with different test data right once you have your test design sheet ready and your template ready now another scenario here could be once you instantiate your template um scenario would come where you need to change something in your test case design or you want to change something in your template right so for example uh here my password is an um data type string but let's make it password so that it's hidden right so um once i do this uh there is a change in my template right but uh it is it will not directly impact my test cases they are not going to change directly right because those are already generated now you will think um you need to manually go and change that here but that's not the case there is an option for that as well in
+
+[05:07] tosca so go to your template instance right click and you will see an option reinstantiate instance right so as soon as you make some change in your template or test design sheet you will see this option and that option will also be present on the top menu okay so just click on this and then it is going to reinstantiate um your test cases and you should be able to see the change which you did in your template right so now you see the password as must right because the data type has changed from string to password so once you instantiate your test cases or your test template it uh it is not necessary that you cannot make changes you can still make changes to your test design sheet or your a test case template and apply those same changes across all the test cases
+
+[06:10] so now you can see how powerful tosca is the reusability features which tosca provides you with through which once there are efforts in designing your test case design sheet and your template but once that is done you can generate any number of test cases with different test data combinations

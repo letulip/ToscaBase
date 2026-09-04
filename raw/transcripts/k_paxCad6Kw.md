@@ -3,13 +3,13 @@ id: "k_paxCad6Kw"
 title: "Tricentis Tosca Tutorial Part-7: Tosca Parameters,Tosca Configuration Parameter"
 url: "https://www.youtube.com/watch?v=k_paxCad6Kw"
 channel: "LambdaGeeks"
-playlist: null
-playlist_index: null
+playlist: "Tosca Tutorial from Scratch"
+playlist_index: 7
 duration: 353
 upload_date: "20210915"
 source: "whisper:medium"
 language: "en"
-transcribed_at: "2026-09-04T07:55:28Z"
+transcribed_at: "2026-09-04T08:59:57Z"
 status: "raw"
 ---
 

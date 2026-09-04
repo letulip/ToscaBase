@@ -1,0 +1,1587 @@
+[
+ {
+  "start": 9.47,
+  "end": 9.48,
+  "text": "hey everyone welcome again to another"
+ },
+ {
+  "start": 9.48,
+  "end": 11.93,
+  "text": "lesson in this Tosca automation course"
+ },
+ {
+  "start": 11.94,
+  "end": 14.81,
+  "text": "today we are going to talk about action"
+ },
+ {
+  "start": 14.82,
+  "end": 18.17,
+  "text": "modes in Tosca now although in some of"
+ },
+ {
+  "start": 18.18,
+  "end": 20.75,
+  "text": "my previous sessions I have already used"
+ },
+ {
+  "start": 20.76,
+  "end": 24.05,
+  "text": "some of the action modes like input and"
+ },
+ {
+  "start": 24.06,
+  "end": 25.189,
+  "text": "constraint"
+ },
+ {
+  "start": 25.199,
+  "end": 28.91,
+  "text": "or weight on but we'll talk about all of"
+ },
+ {
+  "start": 28.92,
+  "end": 31.609,
+  "text": "these action modes in more details and"
+ },
+ {
+  "start": 31.619,
+  "end": 34.19,
+  "text": "we'll look at some of the examples using"
+ },
+ {
+  "start": 34.2,
+  "end": 36.889,
+  "text": "this action modes"
+ },
+ {
+  "start": 36.899,
+  "end": 41.09,
+  "text": "so what is an action mode action mode is"
+ },
+ {
+  "start": 41.1,
+  "end": 44.27,
+  "text": "used to steer your test objects inside"
+ },
+ {
+  "start": 44.28,
+  "end": 47.93,
+  "text": "your test cases it also defines how the"
+ },
+ {
+  "start": 47.94,
+  "end": 50.029,
+  "text": "value in the value field of your test"
+ },
+ {
+  "start": 50.039,
+  "end": 52.85,
+  "text": "case will be applied for the test step"
+ },
+ {
+  "start": 52.86,
+  "end": 57.95,
+  "text": "values in order to steer your controls"
+ },
+ {
+  "start": 60.29,
+  "end": 60.3,
+  "text": "now action modes which are available on"
+ },
+ {
+  "start": 60.3,
+  "end": 63.17,
+  "text": "the x-step values depend on the"
+ },
+ {
+  "start": 63.18,
+  "end": 66.05,
+  "text": "interface type either you are using a"
+ },
+ {
+  "start": 66.06,
+  "end": 69.77,
+  "text": "GUI or non-jui then according to that"
+ },
+ {
+  "start": 69.78,
+  "end": 72.77,
+  "text": "the action modes would be available in"
+ },
+ {
+  "start": 72.78,
+  "end": 75.77,
+  "text": "your test cases in the respective test"
+ },
+ {
+  "start": 75.78,
+  "end": 79.49,
+  "text": "values"
+ },
+ {
+  "start": 82.07,
+  "end": 82.08,
+  "text": "the different action modes which are"
+ },
+ {
+  "start": 82.08,
+  "end": 85.07,
+  "text": "available in Tosca are the following so"
+ },
+ {
+  "start": 85.08,
+  "end": 88.31,
+  "text": "the first action mode is input"
+ },
+ {
+  "start": 88.32,
+  "end": 90.53,
+  "text": "now this is very common action mode"
+ },
+ {
+  "start": 90.54,
+  "end": 92.87,
+  "text": "which you must have seen while using"
+ },
+ {
+  "start": 92.88,
+  "end": 95.99,
+  "text": "your Tosca so this is used to uh"
+ },
+ {
+  "start": 96.0,
+  "end": 98.69,
+  "text": "basically input values into test objects"
+ },
+ {
+  "start": 98.7,
+  "end": 102.05,
+  "text": "okay something like a edit box where you"
+ },
+ {
+  "start": 102.06,
+  "end": 104.45,
+  "text": "are trying to input some value so you"
+ },
+ {
+  "start": 104.46,
+  "end": 106.85,
+  "text": "will by default use this action mode"
+ },
+ {
+  "start": 106.86,
+  "end": 109.969,
+  "text": "which is called input"
+ },
+ {
+  "start": 109.979,
+  "end": 113.45,
+  "text": "and then there is insert now this insert"
+ },
+ {
+  "start": 113.46,
+  "end": 117.289,
+  "text": "is for non-ui interface environments so"
+ },
+ {
+  "start": 117.299,
+  "end": 120.289,
+  "text": "you will not see if you are using a UI"
+ },
+ {
+  "start": 120.299,
+  "end": 122.63,
+  "text": "environment right UI based application"
+ },
+ {
+  "start": 122.64,
+  "end": 125.63,
+  "text": "it is only for the non-ui applications"
+ },
+ {
+  "start": 125.64,
+  "end": 128.63,
+  "text": "something like an XML file so it allows"
+ },
+ {
+  "start": 128.64,
+  "end": 131.99,
+  "text": "you to create objects inside an XML file"
+ },
+ {
+  "start": 132.0,
+  "end": 134.089,
+  "text": "right so you can use this insert"
+ },
+ {
+  "start": 134.099,
+  "end": 136.43,
+  "text": "accident mode"
+ },
+ {
+  "start": 136.44,
+  "end": 140.57,
+  "text": "the next is buffer action mode so if you"
+ },
+ {
+  "start": 140.58,
+  "end": 143.39,
+  "text": "need input values and different test"
+ },
+ {
+  "start": 143.4,
+  "end": 146.15,
+  "text": "steps or in different test cases right"
+ },
+ {
+  "start": 146.16,
+  "end": 150.53,
+  "text": "so you can store these values or buffer"
+ },
+ {
+  "start": 150.54,
+  "end": 153.229,
+  "text": "these values using this buffer action"
+ },
+ {
+  "start": 153.239,
+  "end": 155.869,
+  "text": "mode so it is like a global variable"
+ },
+ {
+  "start": 155.879,
+  "end": 158.69,
+  "text": "which can store some values and it can"
+ },
+ {
+  "start": 158.7,
+  "end": 161.089,
+  "text": "be used across any of your test cases"
+ },
+ {
+  "start": 161.099,
+  "end": 163.009,
+  "text": "okay"
+ },
+ {
+  "start": 163.019,
+  "end": 165.41,
+  "text": "then there is constraint it limits the"
+ },
+ {
+  "start": 165.42,
+  "end": 168.83,
+  "text": "search for a superordinate node and it"
+ },
+ {
+  "start": 168.84,
+  "end": 171.47,
+  "text": "is mostly used with tables so we'll look"
+ },
+ {
+  "start": 171.48,
+  "end": 173.63,
+  "text": "at an example where you will see that"
+ },
+ {
+  "start": 173.64,
+  "end": 175.67,
+  "text": "when you are steering through a table"
+ },
+ {
+  "start": 175.68,
+  "end": 179.089,
+  "text": "you can use this constraint mode or"
+ },
+ {
+  "start": 179.099,
+  "end": 181.79,
+  "text": "constraint action mode in order to limit"
+ },
+ {
+  "start": 181.8,
+  "end": 184.43,
+  "text": "your search for certain rows and columns"
+ },
+ {
+  "start": 184.44,
+  "end": 187.009,
+  "text": "based on some particular values or"
+ },
+ {
+  "start": 187.019,
+  "end": 190.19,
+  "text": "constraints okay"
+ },
+ {
+  "start": 190.2,
+  "end": 193.43,
+  "text": "then there is verify action mode this is"
+ },
+ {
+  "start": 193.44,
+  "end": 196.49,
+  "text": "basically used for verification a step"
+ },
+ {
+  "start": 196.5,
+  "end": 198.89,
+  "text": "in your test cases so it allows values"
+ },
+ {
+  "start": 198.9,
+  "end": 200.99,
+  "text": "and control properties and test objects"
+ },
+ {
+  "start": 201.0,
+  "end": 203.57,
+  "text": "to be verified so this is also very"
+ },
+ {
+  "start": 203.58,
+  "end": 206.63,
+  "text": "commonly used action mode because you"
+ },
+ {
+  "start": 206.64,
+  "end": 208.67,
+  "text": "need to have a verification step in"
+ },
+ {
+  "start": 208.68,
+  "end": 211.07,
+  "text": "every test case so probably you will be"
+ },
+ {
+  "start": 211.08,
+  "end": 213.83,
+  "text": "using this verify action mode"
+ },
+ {
+  "start": 213.84,
+  "end": 216.71,
+  "text": "then there is weight on it stops the"
+ },
+ {
+  "start": 216.72,
+  "end": 218.63,
+  "text": "execution of the test case until the"
+ },
+ {
+  "start": 218.64,
+  "end": 221.089,
+  "text": "property has the specified value now we"
+ },
+ {
+  "start": 221.099,
+  "end": 222.89,
+  "text": "have seen an example but we'll look at"
+ },
+ {
+  "start": 222.9,
+  "end": 225.53,
+  "text": "more examples of a weight on Action"
+ },
+ {
+  "start": 225.54,
+  "end": 228.05,
+  "text": "Motor"
+ },
+ {
+  "start": 231.17,
+  "end": 231.18,
+  "text": "and the last but final action mode is"
+ },
+ {
+  "start": 231.18,
+  "end": 233.63,
+  "text": "Select now it allows you to select"
+ },
+ {
+  "start": 233.64,
+  "end": 237.77,
+  "text": "specific nodes uh this also is pretty uh"
+ },
+ {
+  "start": 237.78,
+  "end": 241.369,
+  "text": "useful in terms of steering tables so"
+ },
+ {
+  "start": 241.379,
+  "end": 243.35,
+  "text": "we'll be looking at an example where"
+ },
+ {
+  "start": 243.36,
+  "end": 245.99,
+  "text": "we'll see that the select action mode is"
+ },
+ {
+  "start": 246.0,
+  "end": 247.67,
+  "text": "automatically"
+ },
+ {
+  "start": 247.68,
+  "end": 250.729,
+  "text": "um used by Tosca whenever you are"
+ },
+ {
+  "start": 250.739,
+  "end": 255.229,
+  "text": "staring through tables rows and columns"
+ },
+ {
+  "start": 255.239,
+  "end": 258.77,
+  "text": "now let's try to use Tosca and see"
+ },
+ {
+  "start": 258.78,
+  "end": 261.83,
+  "text": "um some of these action modes so we'll"
+ },
+ {
+  "start": 261.84,
+  "end": 266.21,
+  "text": "be looking at how we can use the verify"
+ },
+ {
+  "start": 266.22,
+  "end": 269.51,
+  "text": "constraint and select action modes while"
+ },
+ {
+  "start": 269.52,
+  "end": 273.89,
+  "text": "steering a particular table in Tosca"
+ },
+ {
+  "start": 273.9,
+  "end": 277.189,
+  "text": "so right now I have opened my Tosca and"
+ },
+ {
+  "start": 277.199,
+  "end": 278.749,
+  "text": "here will be"
+ },
+ {
+  "start": 278.759,
+  "end": 281.749,
+  "text": "recording some modules and we'll see how"
+ },
+ {
+  "start": 281.759,
+  "end": 283.909,
+  "text": "we can use the different constraints to"
+ },
+ {
+  "start": 283.919,
+  "end": 286.189,
+  "text": "share a particular table so for that"
+ },
+ {
+  "start": 286.199,
+  "end": 288.65,
+  "text": "I'll be using this page where we have"
+ },
+ {
+  "start": 288.66,
+  "end": 291.65,
+  "text": "got a table and as you can see there are"
+ },
+ {
+  "start": 291.66,
+  "end": 295.61,
+  "text": "some rows and columns here right so what"
+ },
+ {
+  "start": 295.62,
+  "end": 298.31,
+  "text": "we will do is we'll try to pick up a"
+ },
+ {
+  "start": 298.32,
+  "end": 300.71,
+  "text": "particular row and we'll try to verify"
+ },
+ {
+  "start": 300.72,
+  "end": 303.71,
+  "text": "if this email exists in that particular"
+ },
+ {
+  "start": 303.72,
+  "end": 307.37,
+  "text": "row so that's what is our goal and we'll"
+ },
+ {
+  "start": 307.38,
+  "end": 309.95,
+  "text": "achieve it through different action"
+ },
+ {
+  "start": 309.96,
+  "end": 313.01,
+  "text": "modes in Tosca"
+ },
+ {
+  "start": 313.02,
+  "end": 315.95,
+  "text": "so let's go ahead and scan this module"
+ },
+ {
+  "start": 315.96,
+  "end": 317.27,
+  "text": "first"
+ },
+ {
+  "start": 317.28,
+  "end": 320.689,
+  "text": "so I have created a particular folder"
+ },
+ {
+  "start": 320.699,
+  "end": 322.969,
+  "text": "here and I'm going to scan this"
+ },
+ {
+  "start": 322.979,
+  "end": 328.129,
+  "text": "particular application"
+ },
+ {
+  "start": 330.469,
+  "end": 330.479,
+  "text": "select the respective application and"
+ },
+ {
+  "start": 330.479,
+  "end": 333.529,
+  "text": "then click on scan as always"
+ },
+ {
+  "start": 333.539,
+  "end": 335.81,
+  "text": "and then it will show you all the"
+ },
+ {
+  "start": 335.82,
+  "end": 338.27,
+  "text": "different uh controls in this particular"
+ },
+ {
+  "start": 338.28,
+  "end": 341.749,
+  "text": "page right out of these uh we just need"
+ },
+ {
+  "start": 341.759,
+  "end": 345.23,
+  "text": "the table okay which is also called the"
+ },
+ {
+  "start": 345.24,
+  "end": 349.07,
+  "text": "person's table okay and I'm going to"
+ },
+ {
+  "start": 349.08,
+  "end": 356.09,
+  "text": "name this module as obstacle"
+ },
+ {
+  "start": 360.469,
+  "end": 360.479,
+  "text": "um and I can name it action modes"
+ },
+ {
+  "start": 360.479,
+  "end": 363.95,
+  "text": "okay"
+ },
+ {
+  "start": 367.49,
+  "end": 367.5,
+  "text": "and then um I'm going to save it and"
+ },
+ {
+  "start": 367.5,
+  "end": 368.87,
+  "text": "close it"
+ },
+ {
+  "start": 368.88,
+  "end": 369.89,
+  "text": "okay"
+ },
+ {
+  "start": 369.9,
+  "end": 374.029,
+  "text": "now um our module is ready and let's go"
+ },
+ {
+  "start": 374.039,
+  "end": 376.969,
+  "text": "ahead and create a test case and we'll"
+ },
+ {
+  "start": 376.979,
+  "end": 380.17,
+  "text": "see how we can use this particular"
+ },
+ {
+  "start": 380.18,
+  "end": 383.87,
+  "text": "action modes in Tosca right so I'm going"
+ },
+ {
+  "start": 383.88,
+  "end": 387.89,
+  "text": "to create a folder called action modes"
+ },
+ {
+  "start": 387.9,
+  "end": 390.71,
+  "text": "yes"
+ },
+ {
+  "start": 394.07,
+  "end": 394.08,
+  "text": "and inside this I'm going to create a"
+ },
+ {
+  "start": 394.08,
+  "end": 397.79,
+  "text": "test case okay so I'm going to call it"
+ },
+ {
+  "start": 397.8,
+  "end": 399.35,
+  "text": "verify"
+ },
+ {
+  "start": 399.36,
+  "end": 404.809,
+  "text": "tables"
+ },
+ {
+  "start": 407.809,
+  "end": 407.819,
+  "text": "so let's open the test case here and"
+ },
+ {
+  "start": 407.819,
+  "end": 410.029,
+  "text": "then let's"
+ },
+ {
+  "start": 410.039,
+  "end": 414.35,
+  "text": "put our module inside this so we have"
+ },
+ {
+  "start": 414.36,
+  "end": 418.37,
+  "text": "got obstacle action modes"
+ },
+ {
+  "start": 418.38,
+  "end": 422.45,
+  "text": "and we have now got our table right so"
+ },
+ {
+  "start": 422.46,
+  "end": 424.43,
+  "text": "this is also an example where I will"
+ },
+ {
+  "start": 424.44,
+  "end": 427.07,
+  "text": "show you how you can steer through a"
+ },
+ {
+  "start": 427.08,
+  "end": 430.49,
+  "text": "different Dynamic web tables right so"
+ },
+ {
+  "start": 430.5,
+  "end": 433.01,
+  "text": "when you scan a particular table it"
+ },
+ {
+  "start": 433.02,
+  "end": 434.99,
+  "text": "automatically records the rows and"
+ },
+ {
+  "start": 435.0,
+  "end": 439.089,
+  "text": "columns and you will also get"
+ },
+ {
+  "start": 439.099,
+  "end": 442.01,
+  "text": "automatically all the different column"
+ },
+ {
+  "start": 442.02,
+  "end": 445.129,
+  "text": "headers here right so we have got the"
+ },
+ {
+  "start": 445.139,
+  "end": 447.77,
+  "text": "last name for a first name email action"
+ },
+ {
+  "start": 447.78,
+  "end": 451.129,
+  "text": "and also you can select this dollar one"
+ },
+ {
+  "start": 451.139,
+  "end": 454.79,
+  "text": "which will select the first row or you"
+ },
+ {
+  "start": 454.8,
+  "end": 458.51,
+  "text": "can select the last row also or you can"
+ },
+ {
+  "start": 458.52,
+  "end": 462.11,
+  "text": "also give it up any particular row using"
+ },
+ {
+  "start": 462.12,
+  "end": 465.529,
+  "text": "this taller and inside this brackets"
+ },
+ {
+  "start": 465.539,
+  "end": 468.589,
+  "text": "which is n and can be replaced by any"
+ },
+ {
+  "start": 468.599,
+  "end": 470.57,
+  "text": "particular number okay"
+ },
+ {
+  "start": 470.58,
+  "end": 472.79,
+  "text": "so basically you can select any row"
+ },
+ {
+  "start": 472.8,
+  "end": 476.21,
+  "text": "depending on either the row number or"
+ },
+ {
+  "start": 476.22,
+  "end": 481.37,
+  "text": "depending on these column headers okay"
+ },
+ {
+  "start": 481.38,
+  "end": 484.61,
+  "text": "so what we want to do uh let's go back"
+ },
+ {
+  "start": 484.62,
+  "end": 485.51,
+  "text": "here"
+ },
+ {
+  "start": 485.52,
+  "end": 487.85,
+  "text": "um so let's select a particular example"
+ },
+ {
+  "start": 487.86,
+  "end": 492.89,
+  "text": "here okay so let's see if we want to do"
+ },
+ {
+  "start": 492.9,
+  "end": 495.83,
+  "text": "this J into right or we want to yeah"
+ },
+ {
+  "start": 495.84,
+  "end": 497.45,
+  "text": "select this row"
+ },
+ {
+  "start": 497.46,
+  "end": 500.45,
+  "text": "and then we want to verify whether the"
+ },
+ {
+  "start": 500.46,
+  "end": 502.189,
+  "text": "email is correct or not which is"
+ },
+ {
+  "start": 502.199,
+  "end": 503.809,
+  "text": "genetexample.com"
+ },
+ {
+  "start": 503.819,
+  "end": 506.869,
+  "text": "so let's see how we can do this using"
+ },
+ {
+  "start": 506.879,
+  "end": 509.749,
+  "text": "um different action modes okay"
+ },
+ {
+  "start": 509.759,
+  "end": 512.329,
+  "text": "so first uh we need to steer through the"
+ },
+ {
+  "start": 512.339,
+  "end": 515.87,
+  "text": "table so I'm going to select inside the"
+ },
+ {
+  "start": 515.88,
+  "end": 518.029,
+  "text": "row I'm going to select this particular"
+ },
+ {
+  "start": 518.039,
+  "end": 521.329,
+  "text": "cell okay so"
+ },
+ {
+  "start": 521.339,
+  "end": 524.99,
+  "text": "um it will be the first name okay"
+ },
+ {
+  "start": 525.0,
+  "end": 528.35,
+  "text": "and I'm going to change this action mode"
+ },
+ {
+  "start": 528.36,
+  "end": 530.329,
+  "text": "as you can see all the action modes are"
+ },
+ {
+  "start": 530.339,
+  "end": 531.47,
+  "text": "available here"
+ },
+ {
+  "start": 531.48,
+  "end": 534.11,
+  "text": "and the particular action mode which we"
+ },
+ {
+  "start": 534.12,
+  "end": 536.81,
+  "text": "are talking about select right so this"
+ },
+ {
+  "start": 536.82,
+  "end": 539.23,
+  "text": "is the select action mode as you can see"
+ },
+ {
+  "start": 539.24,
+  "end": 542.57,
+  "text": "Tosca has automatically used the select"
+ },
+ {
+  "start": 542.58,
+  "end": 544.79,
+  "text": "action mode for the table and the row"
+ },
+ {
+  "start": 544.8,
+  "end": 547.25,
+  "text": "because we are selecting this table and"
+ },
+ {
+  "start": 547.26,
+  "end": 549.11,
+  "text": "the row in order to get to this cell"
+ },
+ {
+  "start": 549.12,
+  "end": 551.389,
+  "text": "right so we need to use the action mode"
+ },
+ {
+  "start": 551.399,
+  "end": 552.889,
+  "text": "to select here"
+ },
+ {
+  "start": 552.899,
+  "end": 556.43,
+  "text": "and after that I'm going to use the"
+ },
+ {
+  "start": 556.44,
+  "end": 560.09,
+  "text": "constraint mode here okay"
+ },
+ {
+  "start": 560.1,
+  "end": 562.61,
+  "text": "and what the constraint action mode is"
+ },
+ {
+  "start": 562.62,
+  "end": 565.25,
+  "text": "going to do is it is going to constraint"
+ },
+ {
+  "start": 565.26,
+  "end": 567.73,
+  "text": "the search for this particular cell"
+ },
+ {
+  "start": 567.74,
+  "end": 570.65,
+  "text": "based on the value which I provide for"
+ },
+ {
+  "start": 570.66,
+  "end": 575.329,
+  "text": "this cell okay so here what I can say is"
+ },
+ {
+  "start": 575.339,
+  "end": 578.87,
+  "text": "I can look for a value whose inner text"
+ },
+ {
+  "start": 578.88,
+  "end": 583.31,
+  "text": "is equals equals Gene okay so that's the"
+ },
+ {
+  "start": 583.32,
+  "end": 586.009,
+  "text": "value and it is a constraint"
+ },
+ {
+  "start": 586.019,
+  "end": 588.829,
+  "text": "so this makes your search faster if"
+ },
+ {
+  "start": 588.839,
+  "end": 591.41,
+  "text": "there are hundreds of rows it will look"
+ },
+ {
+  "start": 591.42,
+  "end": 594.29,
+  "text": "for this particular constraint value and"
+ },
+ {
+  "start": 594.3,
+  "end": 596.99,
+  "text": "then it will limit the search for that"
+ },
+ {
+  "start": 597.0,
+  "end": 600.47,
+  "text": "particular row okay"
+ },
+ {
+  "start": 602.389,
+  "end": 602.399,
+  "text": "um and then"
+ },
+ {
+  "start": 602.399,
+  "end": 606.29,
+  "text": "once we have got the first name as the"
+ },
+ {
+  "start": 606.3,
+  "end": 608.63,
+  "text": "gene right so this is the value which we"
+ },
+ {
+  "start": 608.64,
+  "end": 609.59,
+  "text": "have given"
+ },
+ {
+  "start": 609.6,
+  "end": 612.23,
+  "text": "so we don't need anything else because"
+ },
+ {
+  "start": 612.24,
+  "end": 614.81,
+  "text": "this is unique in all of these rows"
+ },
+ {
+  "start": 614.82,
+  "end": 616.61,
+  "text": "right this name doesn't exist here"
+ },
+ {
+  "start": 616.62,
+  "end": 619.79,
+  "text": "anymore so I can limit my search based"
+ },
+ {
+  "start": 619.8,
+  "end": 622.31,
+  "text": "on this first name equals to Jane right"
+ },
+ {
+  "start": 622.32,
+  "end": 625.85,
+  "text": "and now I can go ahead and verify my"
+ },
+ {
+  "start": 625.86,
+  "end": 630.05,
+  "text": "email okay so for this next cell I'm"
+ },
+ {
+  "start": 630.06,
+  "end": 631.79,
+  "text": "going to select email"
+ },
+ {
+  "start": 631.8,
+  "end": 634.43,
+  "text": "and this time I will leave the action"
+ },
+ {
+  "start": 634.44,
+  "end": 642.829,
+  "text": "mode as verify okay and I will say"
+ },
+ {
+  "start": 645.41,
+  "end": 645.42,
+  "text": "um here also I can use the inner text"
+ },
+ {
+  "start": 645.42,
+  "end": 650.329,
+  "text": "right so in a text equals equals JN dot"
+ },
+ {
+  "start": 650.339,
+  "end": 655.19,
+  "text": "do at example.com"
+ },
+ {
+  "start": 656.329,
+  "end": 656.339,
+  "text": "okay"
+ },
+ {
+  "start": 656.339,
+  "end": 660.11,
+  "text": "and let's see if the value is okay it's"
+ },
+ {
+  "start": 660.12,
+  "end": 662.53,
+  "text": "Jane at example.com"
+ },
+ {
+  "start": 662.54,
+  "end": 665.09,
+  "text": "so let me correct that"
+ },
+ {
+  "start": 665.1,
+  "end": 667.31,
+  "text": "okay so that's that's my verification"
+ },
+ {
+  "start": 667.32,
+  "end": 670.009,
+  "text": "step and that's my constraint so we have"
+ },
+ {
+  "start": 670.019,
+  "end": 672.73,
+  "text": "used three action modes here select"
+ },
+ {
+  "start": 672.74,
+  "end": 677.09,
+  "text": "constraint and verify okay and that's"
+ },
+ {
+  "start": 677.1,
+  "end": 679.37,
+  "text": "our complete test case now let's try and"
+ },
+ {
+  "start": 679.38,
+  "end": 682.069,
+  "text": "run this and see whether it works as"
+ },
+ {
+  "start": 682.079,
+  "end": 690.71,
+  "text": "expected or not"
+ },
+ {
+  "start": 693.47,
+  "end": 693.48,
+  "text": "so as you can see uh my execution has"
+ },
+ {
+  "start": 693.48,
+  "end": 696.29,
+  "text": "passed and we'll look at the results now"
+ },
+ {
+  "start": 696.3,
+  "end": 697.73,
+  "text": "okay"
+ },
+ {
+  "start": 697.74,
+  "end": 700.37,
+  "text": "here you can see it will show you the"
+ },
+ {
+  "start": 700.38,
+  "end": 701.87,
+  "text": "table and the rows which you have"
+ },
+ {
+  "start": 701.88,
+  "end": 705.23,
+  "text": "selected right and it will only show you"
+ },
+ {
+  "start": 705.24,
+  "end": 707.93,
+  "text": "login for the verification step right"
+ },
+ {
+  "start": 707.94,
+  "end": 710.81,
+  "text": "not for the other steps and that is the"
+ },
+ {
+  "start": 710.82,
+  "end": 712.55,
+  "text": "reason you should have a verification"
+ },
+ {
+  "start": 712.56,
+  "end": 716.15,
+  "text": "step for each test case right"
+ },
+ {
+  "start": 716.16,
+  "end": 718.31,
+  "text": "so here it is showing verification was"
+ },
+ {
+  "start": 718.32,
+  "end": 720.41,
+  "text": "successful it will show you the expected"
+ },
+ {
+  "start": 720.42,
+  "end": 723.17,
+  "text": "value which uh you have given jnet"
+ },
+ {
+  "start": 723.18,
+  "end": 726.05,
+  "text": "example.com and that's also the actual"
+ },
+ {
+  "start": 726.06,
+  "end": 728.81,
+  "text": "value which it has graphed from the"
+ },
+ {
+  "start": 728.82,
+  "end": 731.81,
+  "text": "particular page right"
+ },
+ {
+  "start": 731.82,
+  "end": 735.53,
+  "text": "now let me show you another example uh"
+ },
+ {
+  "start": 735.54,
+  "end": 737.81,
+  "text": "how you can extend this for more"
+ },
+ {
+  "start": 737.82,
+  "end": 741.769,
+  "text": "extensive scenarios like uh like the one"
+ },
+ {
+  "start": 741.779,
+  "end": 745.13,
+  "text": "here uh where we have got this"
+ },
+ {
+  "start": 745.14,
+  "end": 748.91,
+  "text": "um example called John right so this uh"
+ },
+ {
+  "start": 748.92,
+  "end": 751.069,
+  "text": "particular test case will fail if I'm"
+ },
+ {
+  "start": 751.079,
+  "end": 754.25,
+  "text": "going to change this particular row to"
+ },
+ {
+  "start": 754.26,
+  "end": 757.61,
+  "text": "look for this John at example.com and"
+ },
+ {
+  "start": 757.62,
+  "end": 760.67,
+  "text": "why because the first name is same in"
+ },
+ {
+  "start": 760.68,
+  "end": 764.03,
+  "text": "both the rows right so you cannot use"
+ },
+ {
+  "start": 764.04,
+  "end": 767.15,
+  "text": "constraint in just the first name and"
+ },
+ {
+  "start": 767.16,
+  "end": 769.31,
+  "text": "get through your result it is going to"
+ },
+ {
+  "start": 769.32,
+  "end": 771.35,
+  "text": "fail because there are two duplicate"
+ },
+ {
+  "start": 771.36,
+  "end": 774.47,
+  "text": "rows with the same first name so in this"
+ },
+ {
+  "start": 774.48,
+  "end": 776.629,
+  "text": "kind of cases what you can do you can"
+ },
+ {
+  "start": 776.639,
+  "end": 779.21,
+  "text": "add more constraints to your particular"
+ },
+ {
+  "start": 779.22,
+  "end": 782.69,
+  "text": "test steps right so I here we can use"
+ },
+ {
+  "start": 782.7,
+  "end": 785.389,
+  "text": "the last name and the first name as"
+ },
+ {
+  "start": 785.399,
+  "end": 787.79,
+  "text": "constraint so that it can limit the"
+ },
+ {
+  "start": 787.8,
+  "end": 791.75,
+  "text": "search to this particular row okay so if"
+ },
+ {
+  "start": 791.76,
+  "end": 796.37,
+  "text": "I'm using uh John do then it will go"
+ },
+ {
+  "start": 796.38,
+  "end": 798.47,
+  "text": "ahead and search for this particular row"
+ },
+ {
+  "start": 798.48,
+  "end": 800.21,
+  "text": "because there are two constraints"
+ },
+ {
+  "start": 800.22,
+  "end": 803.87,
+  "text": "instead of just one constraint okay so"
+ },
+ {
+  "start": 803.88,
+  "end": 807.11,
+  "text": "let's try and see how we can do this so"
+ },
+ {
+  "start": 807.12,
+  "end": 810.29,
+  "text": "again the same thing"
+ },
+ {
+  "start": 810.3,
+  "end": 811.61,
+  "text": "um"
+ },
+ {
+  "start": 811.62,
+  "end": 814.61,
+  "text": "now let's change this"
+ },
+ {
+  "start": 814.62,
+  "end": 817.61,
+  "text": "um and we will go for the last name"
+ },
+ {
+  "start": 817.62,
+  "end": 821.87,
+  "text": "and here we will instead of example.com"
+ },
+ {
+  "start": 821.88,
+  "end": 825.889,
+  "text": "or the email will look for John Jane do"
+ },
+ {
+  "start": 825.899,
+  "end": 827.389,
+  "text": "okay"
+ },
+ {
+  "start": 827.399,
+  "end": 829.73,
+  "text": "or John Doe"
+ },
+ {
+  "start": 829.74,
+  "end": 832.19,
+  "text": "so we'll we'll look for"
+ },
+ {
+  "start": 832.2,
+  "end": 836.449,
+  "text": "um the first name as John and the last"
+ },
+ {
+  "start": 836.459,
+  "end": 839.509,
+  "text": "name as do okay and we'll change this"
+ },
+ {
+  "start": 839.519,
+  "end": 841.97,
+  "text": "action mode to constraint"
+ },
+ {
+  "start": 841.98,
+  "end": 845.269,
+  "text": "and then finally we'll verify so let's"
+ },
+ {
+  "start": 845.279,
+  "end": 851.15,
+  "text": "do that and here again inner text"
+ },
+ {
+  "start": 851.16,
+  "end": 857.93,
+  "text": "equals to John at example.com"
+ },
+ {
+  "start": 865.31,
+  "end": 865.32,
+  "text": "so uh that's how Tosca will decide which"
+ },
+ {
+  "start": 865.32,
+  "end": 867.59,
+  "text": "row to select based on these two"
+ },
+ {
+  "start": 867.6,
+  "end": 870.05,
+  "text": "constraints okay you can add any number"
+ },
+ {
+  "start": 870.06,
+  "end": 873.59,
+  "text": "of constraints based on your scenario to"
+ },
+ {
+  "start": 873.6,
+  "end": 875.99,
+  "text": "make the search Unique so that you can"
+ },
+ {
+  "start": 876.0,
+  "end": 878.99,
+  "text": "uniquely search the particular row and"
+ },
+ {
+  "start": 879.0,
+  "end": 881.629,
+  "text": "column where you want to perform that"
+ },
+ {
+  "start": 881.639,
+  "end": 883.55,
+  "text": "particular action which whether it's a"
+ },
+ {
+  "start": 883.56,
+  "end": 885.949,
+  "text": "verification step or you want to perform"
+ },
+ {
+  "start": 885.959,
+  "end": 889.37,
+  "text": "some action on some other on particular"
+ },
+ {
+  "start": 889.38,
+  "end": 892.31,
+  "text": "cell okay"
+ },
+ {
+  "start": 897.05,
+  "end": 897.06,
+  "text": "so let's again run this and let's see if"
+ },
+ {
+  "start": 897.06,
+  "end": 901.21,
+  "text": "it works"
+ },
+ {
+  "start": 904.43,
+  "end": 904.44,
+  "text": "it'll pass it was uniquely able to"
+ },
+ {
+  "start": 904.44,
+  "end": 907.49,
+  "text": "identify that particular row using the"
+ },
+ {
+  "start": 907.5,
+  "end": 910.67,
+  "text": "constraints action mode and it was also"
+ },
+ {
+  "start": 910.68,
+  "end": 912.009,
+  "text": "able to"
+ },
+ {
+  "start": 912.019,
+  "end": 914.09,
+  "text": "verify our"
+ },
+ {
+  "start": 914.1,
+  "end": 919.67,
+  "text": "email right so that's John example.com"
+ },
+ {
+  "start": 919.68,
+  "end": 920.87,
+  "text": "so"
+ },
+ {
+  "start": 920.88,
+  "end": 923.689,
+  "text": "that's how you can use all of these"
+ },
+ {
+  "start": 923.699,
+  "end": 926.949,
+  "text": "three action modes which is constrained"
+ },
+ {
+  "start": 926.959,
+  "end": 929.569,
+  "text": "verify and select"
+ },
+ {
+  "start": 929.579,
+  "end": 932.11,
+  "text": "when you are steering through different"
+ },
+ {
+  "start": 932.12,
+  "end": 935.81,
+  "text": "tables or which are dynamic in nature or"
+ },
+ {
+  "start": 935.82,
+  "end": 938.29,
+  "text": "which has got these um"
+ },
+ {
+  "start": 938.3,
+  "end": 941.329,
+  "text": "non-unique rows and columns so you can"
+ },
+ {
+  "start": 941.339,
+  "end": 944.21,
+  "text": "steer through different rows uh uniquely"
+ },
+ {
+  "start": 944.22,
+  "end": 947.329,
+  "text": "using this constraint action mode"
+ },
+ {
+  "start": 947.339,
+  "end": 949.61,
+  "text": "so we'll look through some other action"
+ },
+ {
+  "start": 949.62,
+  "end": 953.81,
+  "text": "modes like buffer and weight on in our"
+ },
+ {
+  "start": 953.82,
+  "end": 956.36,
+  "text": "next session"
+ }
+]

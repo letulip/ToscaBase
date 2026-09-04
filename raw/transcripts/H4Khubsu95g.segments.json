@@ -1,0 +1,572 @@
+[
+ {
+  "start": 15.02,
+  "end": 19.7,
+  "text": "Hello friends, welcome back to our channel."
+ },
+ {
+  "start": 19.7,
+  "end": 23.62,
+  "text": "I am your Tosca instructor and my name is Kumaresh."
+ },
+ {
+  "start": 23.62,
+  "end": 30.34,
+  "text": "I have total 14 years of IT experience in software development and test automation."
+ },
+ {
+  "start": 30.34,
+  "end": 33.98,
+  "text": "Thank you for connecting with us."
+ },
+ {
+  "start": 33.98,
+  "end": 36.58,
+  "text": "Hope you are doing well."
+ },
+ {
+  "start": 36.58,
+  "end": 39.48,
+  "text": "Let's start our today's session."
+ },
+ {
+  "start": 39.48,
+  "end": 44.18,
+  "text": "Through this video, I will explain the usage of frequently used basic Tosca automation"
+ },
+ {
+  "start": 44.18,
+  "end": 51.94,
+  "text": "action modes such as Input, Verify, Dynamic Buffer, Constraint, etc."
+ },
+ {
+  "start": 51.94,
+  "end": 55.7,
+  "text": "The explanation will be done through hands-on demonstration."
+ },
+ {
+  "start": 55.7,
+  "end": 61.46,
+  "text": "Here, we will understand the basic automation steps such as handling of text box, drop"
+ },
+ {
+  "start": 61.46,
+  "end": 67.92,
+  "text": "downs, radio options, click operations, etc."
+ },
+ {
+  "start": 67.92,
+  "end": 77.59,
+  "text": "First, we need to scan the web page to create the module."
+ },
+ {
+  "start": 77.59,
+  "end": 87.64,
+  "text": "We will select the desire application window during the application selection and proceed."
+ },
+ {
+  "start": 87.64,
+  "end": 93.48,
+  "text": "We will add all the controls including drop downs, text fields, radio option, button,"
+ },
+ {
+  "start": 93.48,
+  "end": 103.22,
+  "text": "etc. from the web page using select on screen option from the scan wizard."
+ },
+ {
+  "start": 103.22,
+  "end": 107.26,
+  "text": "We will now check and verify that the controls are identified uniquely through the"
+ },
+ {
+  "start": 107.26,
+  "end": 109.32,
+  "text": "default properties."
+ },
+ {
+  "start": 109.32,
+  "end": 116.36,
+  "text": "After that we need to save to create the module and close the scan window."
+ },
+ {
+  "start": 116.36,
+  "end": 130.12,
+  "text": "The module is created successfully with the required controls."
+ },
+ {
+  "start": 130.12,
+  "end": 139.13,
+  "text": "Next we will understand the approaches to perform basic automation activities."
+ },
+ {
+  "start": 139.13,
+  "end": 147.99,
+  "text": "First, we will navigate to test case section and create a new sample test case in."
+ },
+ {
+  "start": 147.99,
+  "end": 156.36,
+  "text": "Then we will drag and drop the newly created module into this test case."
+ },
+ {
+  "start": 156.36,
+  "end": 160.78,
+  "text": "For data entry, we need to provide the test data in test step value column and"
+ },
+ {
+  "start": 160.78,
+  "end": 164.38,
+  "text": "select the input action mode."
+ },
+ {
+  "start": 164.38,
+  "end": 169.14,
+  "text": "The options for any drop down columns are available in step attributes value which are"
+ },
+ {
+  "start": 169.14,
+  "end": 171.4,
+  "text": "loaded during scanning."
+ },
+ {
+  "start": 171.4,
+  "end": 175.58,
+  "text": "We can select the required option from here."
+ },
+ {
+  "start": 175.58,
+  "end": 182.78,
+  "text": "By default, this action mode is auto-populated as input for any input or clickable controls."
+ },
+ {
+  "start": 182.78,
+  "end": 189.44,
+  "text": "For any text field, we need to enter the data in the value attribute."
+ },
+ {
+  "start": 189.44,
+  "end": 209.77,
+  "text": "Similarly, we will provide the input data for rest of the input fields."
+ },
+ {
+  "start": 209.77,
+  "end": 214.77,
+  "text": "To perform click operation in button, next, we will provide the keyword click with curly"
+ },
+ {
+  "start": 214.77,
+  "end": 219.77,
+  "text": "brackets or we will use capital X in value with input action mode."
+ },
+ {
+  "start": 219.77,
+  "end": 222.81,
+  "text": "The first option will perform the mouse movements."
+ },
+ {
+  "start": 222.81,
+  "end": 228.82,
+  "text": "Now, the test step is completed."
+ },
+ {
+  "start": 228.82,
+  "end": 233.14,
+  "text": "Now we will execute the step in scratch book to perform the data population in"
+ },
+ {
+  "start": 233.14,
+  "end": 237.26,
+  "text": "the application and click on next button through automation."
+ },
+ {
+  "start": 237.26,
+  "end": 246.49,
+  "text": "It will take few seconds to complete the execution of this step."
+ },
+ {
+  "start": 246.53,
+  "end": 249.45,
+  "text": "It's all about the data entry and click operation."
+ },
+ {
+  "start": 249.45,
+  "end": 257.1,
+  "text": "Now, we will understand the action mode verify by performing verification of first"
+ },
+ {
+  "start": 257.1,
+  "end": 259.1,
+  "text": "name field."
+ },
+ {
+  "start": 259.1,
+  "end": 264.26,
+  "text": "Also, we will create a dynamic buffer to store version number from verification"
+ },
+ {
+  "start": 264.26,
+  "end": 270.41,
+  "text": "step which is available in header section of the application."
+ },
+ {
+  "start": 270.41,
+  "end": 276.72,
+  "text": "In order to create automated verification step, we need to create the module for"
+ },
+ {
+  "start": 276.72,
+  "end": 289.87,
+  "text": "enter insurance data web page."
+ },
+ {
+  "start": 289.87,
+  "end": 293.43,
+  "text": "During the scanning, we will add two controls."
+ },
+ {
+  "start": 293.43,
+  "end": 300.87,
+  "text": "First one is the link control from the top section which contains the version number."
+ },
+ {
+  "start": 300.87,
+  "end": 306.99,
+  "text": "We will rename it to branding instead of big texts and verify the uniqueness"
+ },
+ {
+  "start": 306.99,
+  "end": 313.69,
+  "text": "of the controls and the properties."
+ },
+ {
+  "start": 313.69,
+  "end": 320.21,
+  "text": "Then, we will select to add the first name label control."
+ },
+ {
+  "start": 320.21,
+  "end": 328.18,
+  "text": "Now, save the scan wizard to create module and close it."
+ },
+ {
+  "start": 328.18,
+  "end": 336.06,
+  "text": "We will now drag and drop this new module into the sample test case as test step."
+ },
+ {
+  "start": 336.06,
+  "end": 340.3,
+  "text": "We will rename the test step as it performs the verification operation."
+ },
+ {
+  "start": 340.3,
+  "end": 349.24,
+  "text": "Now, we will perform the existence verification of the step attribute first name."
+ },
+ {
+  "start": 349.24,
+  "end": 352.1,
+  "text": "Select the action mode as verify."
+ },
+ {
+  "start": 352.1,
+  "end": 356.68,
+  "text": "There is multiple verification properties are available in value."
+ },
+ {
+  "start": 356.68,
+  "end": 361.04,
+  "text": "Here we will select the exists property with binary true value."
+ },
+ {
+  "start": 361.04,
+  "end": 364.96,
+  "text": "The step will be marked passed if condition satisfied."
+ },
+ {
+  "start": 364.96,
+  "end": 370.08,
+  "text": "Similarly, we will add the verification step for the branding attribute."
+ },
+ {
+  "start": 370.08,
+  "end": 376.04,
+  "text": "Here, we will verify the exact text of the link against the inner text property."
+ },
+ {
+  "start": 376.04,
+  "end": 380.4,
+  "text": "To create dynamic buffer to store version, we will replace the version numbers with"
+ },
+ {
+  "start": 380.4,
+  "end": 385.14,
+  "text": "the keyword curly bracket xb then buffer name buffer version if in third brackets"
+ },
+ {
+  "start": 385.14,
+  "end": 387.48,
+  "text": "and end the curly bracket."
+ },
+ {
+  "start": 387.48,
+  "end": 392.18,
+  "text": "During execution, it will create and store the extracted version number into this dynamic"
+ },
+ {
+  "start": 392.18,
+  "end": 397.9,
+  "text": "buffer."
+ },
+ {
+  "start": 397.9,
+  "end": 404.26,
+  "text": "We will execute this verification step in the scratchbook."
+ },
+ {
+  "start": 404.26,
+  "end": 411.37,
+  "text": "It will take few seconds to be completed."
+ },
+ {
+  "start": 411.37,
+  "end": 417.69,
+  "text": "After the execution, the scratchbook execution logs will be appeared."
+ },
+ {
+  "start": 417.69,
+  "end": 423.59,
+  "text": "It will contains the verification step details."
+ },
+ {
+  "start": 423.59,
+  "end": 427.03,
+  "text": "As though the expected and actual values are matched."
+ },
+ {
+  "start": 427.03,
+  "end": 431.62,
+  "text": "Both the verification steps are passed."
+ },
+ {
+  "start": 431.62,
+  "end": 435.94,
+  "text": "If we navigate to the buffer viewer section, we can see the new buffer with name buffer"
+ },
+ {
+  "start": 435.94,
+  "end": 439.38,
+  "text": "version has been created with the version number."
+ },
+ {
+  "start": 439.38,
+  "end": 444.22,
+  "text": "The action mode constraint is used for checking of a particular value which is mostly used"
+ },
+ {
+  "start": 444.22,
+  "end": 446.3,
+  "text": "in the tables column."
+ },
+ {
+  "start": 446.3,
+  "end": 451.26,
+  "text": "In this particular tutorial, we will find row of text worldwide cover from the first"
+ },
+ {
+  "start": 451.26,
+  "end": 456.06,
+  "text": "column and then capture the corresponding value from the column gold."
+ },
+ {
+  "start": 456.06,
+  "end": 461.62,
+  "text": "Same thing can be done using a loop which is a more complex approach."
+ },
+ {
+  "start": 461.82,
+  "end": 471.35,
+  "text": "First, we need to scan the web page to create the module."
+ },
+ {
+  "start": 471.35,
+  "end": 476.51,
+  "text": "We will select the correct application window during the application selection."
+ },
+ {
+  "start": 476.51,
+  "end": 484.91,
+  "text": "And click on scan button to proceed."
+ },
+ {
+  "start": 484.91,
+  "end": 488.95,
+  "text": "From this xcan window, we will select the corresponding price table control and"
+ },
+ {
+  "start": 488.95,
+  "end": 490.63,
+  "text": "check the uniqueness."
+ },
+ {
+  "start": 490.63,
+  "end": 495.91,
+  "text": "Also, we will add the next button which may require in future."
+ },
+ {
+  "start": 495.91,
+  "end": 501.31,
+  "text": "Click on save to create the module and close the xcan window."
+ },
+ {
+  "start": 501.75,
+  "end": 517.88,
+  "text": "Now, we will navigate to test case section and create a sample test case and rename it."
+ },
+ {
+  "start": 517.88,
+  "end": 525.24,
+  "text": "Then we will drag and drop the newly created module into this test case."
+ },
+ {
+  "start": 525.24,
+  "end": 529.68,
+  "text": "Here the first step would be, we need to search the text worldwide cover from first"
+ },
+ {
+  "start": 529.68,
+  "end": 532.88,
+  "text": "column using the action mode constraint."
+ },
+ {
+  "start": 532.88,
+  "end": 537.52,
+  "text": "From the price table attribute, we will select the cell label as $1, enter cell"
+ },
+ {
+  "start": 537.52,
+  "end": 544.7,
+  "text": "value as worldwide cover."
+ },
+ {
+  "start": 544.7,
+  "end": 548.58,
+  "text": "And change the action mode as constraint for the cell attribute which is available"
+ },
+ {
+  "start": 548.58,
+  "end": 550.66,
+  "text": "within row attribute."
+ },
+ {
+  "start": 550.66,
+  "end": 554.78,
+  "text": "We will keep the row label as is."
+ },
+ {
+  "start": 554.78,
+  "end": 558.86,
+  "text": "Now, we need to capture the value of column gold."
+ },
+ {
+  "start": 558.86,
+  "end": 563.3,
+  "text": "So, we will select the next cell as the gold which represents the column name,"
+ },
+ {
+  "start": 563.3,
+  "end": 567.18,
+  "text": "change the action mode as buffer which will be used to store the column value"
+ },
+ {
+  "start": 567.18,
+  "end": 575.7,
+  "text": "and enter the buffer name as buffer gold in value."
+ },
+ {
+  "start": 575.7,
+  "end": 581.5,
+  "text": "Test step is now completed."
+ },
+ {
+  "start": 581.5,
+  "end": 587.14,
+  "text": "We will execute this test step in the scratch book."
+ },
+ {
+  "start": 587.14,
+  "end": 592.25,
+  "text": "It will take few seconds to be completed."
+ },
+ {
+  "start": 592.25,
+  "end": 598.86,
+  "text": "After the execution, the scratch book execution logs will be appeared."
+ },
+ {
+  "start": 598.86,
+  "end": 603.1,
+  "text": "From the execution logs, we can see that the buffer buffer gold is created with the"
+ },
+ {
+  "start": 603.1,
+  "end": 606.76,
+  "text": "extracted cell value."
+ },
+ {
+  "start": 606.76,
+  "end": 615.37,
+  "text": "That's all about constraint."
+ },
+ {
+  "start": 615.37,
+  "end": 618.73,
+  "text": "Thanks for watching this video."
+ },
+ {
+  "start": 618.73,
+  "end": 624.33,
+  "text": "That's all about basic usage of action mode input, verify and constraint."
+ },
+ {
+  "start": 624.33,
+  "end": 629.51,
+  "text": "We will learn more about Tosca features in next video."
+ },
+ {
+  "start": 629.51,
+  "end": 635.35,
+  "text": "Please visit our website lambdageeks.com for more articles on technology, engineering,"
+ },
+ {
+  "start": 635.35,
+  "end": 638.51,
+  "text": "mathematics and various other domain."
+ },
+ {
+  "start": 638.51,
+  "end": 642.55,
+  "text": "You can check our other website as well."
+ },
+ {
+  "start": 642.55,
+  "end": 650.98,
+  "text": "We have features like YouTube Trends, Twitter Trends, Scientific Calculator and"
+ },
+ {
+  "start": 650.98,
+  "end": 655.56,
+  "text": "many more other tools."
+ },
+ {
+  "start": 655.56,
+  "end": 659.6,
+  "text": "If you like our video, please like, comment and share."
+ },
+ {
+  "start": 659.6,
+  "end": 663.48,
+  "text": "If you have any questions, please comment and we will resolve your query."
+ }
+]

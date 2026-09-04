@@ -1,0 +1,492 @@
+[
+ {
+  "start": 12.509,
+  "end": 12.519,
+  "text": "hey everyone welcome back to our Channel"
+ },
+ {
+  "start": 12.519,
+  "end": 15.15,
+  "text": "I am back with another interesting topic"
+ },
+ {
+  "start": 15.16,
+  "end": 17.79,
+  "text": "in the tosa automation"
+ },
+ {
+  "start": 17.8,
+  "end": 20.23,
+  "text": "playlist so continuing with our"
+ },
+ {
+  "start": 20.24,
+  "end": 22.55,
+  "text": "obstacles topic let's look at our next"
+ },
+ {
+  "start": 22.56,
+  "end": 25.15,
+  "text": "test automation obstacle which is called"
+ },
+ {
+  "start": 25.16,
+  "end": 28.509,
+  "text": "lots of rows now in this obstacle uh we"
+ },
+ {
+  "start": 28.519,
+  "end": 31.749,
+  "text": "need to count the rows in the table and"
+ },
+ {
+  "start": 31.759,
+  "end": 33.79,
+  "text": "we need to input the count into the text"
+ },
+ {
+  "start": 33.8,
+  "end": 36.99,
+  "text": "field which is called the row count and"
+ },
+ {
+  "start": 37.0,
+  "end": 39.03,
+  "text": "after that uh we need to click on the"
+ },
+ {
+  "start": 39.04,
+  "end": 42.11,
+  "text": "button okay so these are the three tasks"
+ },
+ {
+  "start": 42.12,
+  "end": 44.43,
+  "text": "which we need to perform as you can see"
+ },
+ {
+  "start": 44.44,
+  "end": 47.43,
+  "text": "uh this table has got around five rows"
+ },
+ {
+  "start": 47.44,
+  "end": 49.79,
+  "text": "so you can count them and then uh we"
+ },
+ {
+  "start": 49.8,
+  "end": 52.27,
+  "text": "need to uh write five here in the row"
+ },
+ {
+  "start": 52.28,
+  "end": 55.229,
+  "text": "count and then click me okay so this is"
+ },
+ {
+  "start": 55.239,
+  "end": 57.83,
+  "text": "what uh we need to do through Automation"
+ },
+ {
+  "start": 57.84,
+  "end": 60.029,
+  "text": "and as you can see the table is dynamic"
+ },
+ {
+  "start": 60.039,
+  "end": 63.389,
+  "text": "so once I clicked on clickme the number"
+ },
+ {
+  "start": 63.399,
+  "end": 66.07,
+  "text": "of rows again changed right so you"
+ },
+ {
+  "start": 66.08,
+  "end": 69.99,
+  "text": "cannot just uh go ahead and do a static"
+ },
+ {
+  "start": 70.0,
+  "end": 72.35,
+  "text": "way of counting the rows you need to put"
+ },
+ {
+  "start": 72.36,
+  "end": 74.51,
+  "text": "a dynamic way of counting the rows and"
+ },
+ {
+  "start": 74.52,
+  "end": 76.35,
+  "text": "then you need to enter it into the row"
+ },
+ {
+  "start": 76.36,
+  "end": 79.03,
+  "text": "count so let's see how we can do this uh"
+ },
+ {
+  "start": 79.04,
+  "end": 81.27,
+  "text": "in"
+ },
+ {
+  "start": 84.469,
+  "end": 84.479,
+  "text": "tosa so coming back to tosa uh let's go"
+ },
+ {
+  "start": 84.479,
+  "end": 89.109,
+  "text": "ahead and now create our module so I'm"
+ },
+ {
+  "start": 89.119,
+  "end": 100.95,
+  "text": "going to scan this"
+ },
+ {
+  "start": 103.069,
+  "end": 103.079,
+  "text": "application and here we are going to"
+ },
+ {
+  "start": 103.079,
+  "end": 106.35,
+  "text": "select all the three um objects which we"
+ },
+ {
+  "start": 106.36,
+  "end": 108.91,
+  "text": "require so we require the table we"
+ },
+ {
+  "start": 108.92,
+  "end": 111.55,
+  "text": "require the text box and then we require"
+ },
+ {
+  "start": 111.56,
+  "end": 113.709,
+  "text": "the button or link which is called click"
+ },
+ {
+  "start": 113.719,
+  "end": 119.23,
+  "text": "me okay and then let me also rename this"
+ },
+ {
+  "start": 119.24,
+  "end": 121.55,
+  "text": "uh so that we we can find the"
+ },
+ {
+  "start": 121.56,
+  "end": 125.429,
+  "text": "obstacle and here and then save and"
+ },
+ {
+  "start": 125.439,
+  "end": 127.83,
+  "text": "close"
+ },
+ {
+  "start": 131.47,
+  "end": 131.48,
+  "text": "it okay and now coming back to our test"
+ },
+ {
+  "start": 131.48,
+  "end": 135.91,
+  "text": "cases so let's create another test case"
+ },
+ {
+  "start": 135.92,
+  "end": 140.27,
+  "text": "here for the obstacle and then we are"
+ },
+ {
+  "start": 140.28,
+  "end": 142.07,
+  "text": "going to add the module into this"
+ },
+ {
+  "start": 142.08,
+  "end": 145.71,
+  "text": "particular obstacle test case so let's"
+ },
+ {
+  "start": 145.72,
+  "end": 149.79,
+  "text": "go back here and drag our module here we"
+ },
+ {
+  "start": 149.8,
+  "end": 152.07,
+  "text": "you can see the table uh the text box"
+ },
+ {
+  "start": 152.08,
+  "end": 154.11,
+  "text": "and the button"
+ },
+ {
+  "start": 154.12,
+  "end": 157.43,
+  "text": "right so here what we need to do is use"
+ },
+ {
+  "start": 157.44,
+  "end": 160.91,
+  "text": "a property called row count okay so tosa"
+ },
+ {
+  "start": 160.92,
+  "end": 163.55,
+  "text": "provides you uh two properties one is"
+ },
+ {
+  "start": 163.56,
+  "end": 166.63,
+  "text": "row count one is column count uh in a"
+ },
+ {
+  "start": 166.64,
+  "end": 169.75,
+  "text": "table element using which you can easily"
+ },
+ {
+  "start": 169.76,
+  "end": 171.309,
+  "text": "find the number of rows and number of"
+ },
+ {
+  "start": 171.319,
+  "end": 175.11,
+  "text": "columns in the table okay so for this uh"
+ },
+ {
+  "start": 175.12,
+  "end": 179.55,
+  "text": "we will use the row count property here"
+ },
+ {
+  "start": 179.56,
+  "end": 182.39,
+  "text": "which which will be equals to a buffer"
+ },
+ {
+  "start": 182.4,
+  "end": 183.83,
+  "text": "because we'll be buffering that"
+ },
+ {
+  "start": 183.84,
+  "end": 186.47,
+  "text": "particular value okay so that uh we"
+ },
+ {
+  "start": 186.48,
+  "end": 188.71,
+  "text": "don't have any static values here it"
+ },
+ {
+  "start": 188.72,
+  "end": 191.47,
+  "text": "will always be dynamic okay so I'm going"
+ },
+ {
+  "start": 191.48,
+  "end": 194.55,
+  "text": "to call this"
+ },
+ {
+  "start": 198.869,
+  "end": 198.879,
+  "text": "rows and then uh I'm going to make this"
+ },
+ {
+  "start": 198.879,
+  "end": 202.309,
+  "text": "buffer okay so you can see uh it will"
+ },
+ {
+  "start": 202.319,
+  "end": 203.869,
+  "text": "calculate the row count and then it will"
+ },
+ {
+  "start": 203.879,
+  "end": 206.03,
+  "text": "pass it on to the buffer which is called"
+ },
+ {
+  "start": 206.04,
+  "end": 208.99,
+  "text": "Rose okay and then we can use that"
+ },
+ {
+  "start": 209.0,
+  "end": 211.99,
+  "text": "buffer to enter it into the text Fields"
+ },
+ {
+  "start": 212.0,
+  "end": 215.789,
+  "text": "so we'll use B of"
+ },
+ {
+  "start": 218.63,
+  "end": 218.64,
+  "text": "row and then finally we are going to"
+ },
+ {
+  "start": 218.64,
+  "end": 222.47,
+  "text": "click on this particular link okay so"
+ },
+ {
+  "start": 222.48,
+  "end": 224.949,
+  "text": "it's a pretty simple obstacle um you"
+ },
+ {
+  "start": 224.959,
+  "end": 227.509,
+  "text": "just need to know that you can use the"
+ },
+ {
+  "start": 227.519,
+  "end": 229.55,
+  "text": "rowon property to count the number of"
+ },
+ {
+  "start": 229.56,
+  "end": 233.03,
+  "text": "rows in any particular table okay so now"
+ },
+ {
+  "start": 233.04,
+  "end": 234.75,
+  "text": "I'm going to change this work state to"
+ },
+ {
+  "start": 234.76,
+  "end": 237.67,
+  "text": "complete it and now we can go ahead and"
+ },
+ {
+  "start": 237.68,
+  "end": 243.91,
+  "text": "execute this"
+ },
+ {
+  "start": 245.71,
+  "end": 245.72,
+  "text": "okay so as you can see it counted the"
+ },
+ {
+  "start": 245.72,
+  "end": 248.39,
+  "text": "number of rows which is 10 and then it"
+ },
+ {
+  "start": 248.4,
+  "end": 250.309,
+  "text": "entered it into the text box and then it"
+ },
+ {
+  "start": 250.319,
+  "end": 253.35,
+  "text": "clicked on the button and this completed"
+ },
+ {
+  "start": 253.36,
+  "end": 257.15,
+  "text": "the particular obstacle okay so this is"
+ },
+ {
+  "start": 257.16,
+  "end": 259.87,
+  "text": "how you can use uh the property row"
+ },
+ {
+  "start": 259.88,
+  "end": 262.069,
+  "text": "count or column count to count the"
+ },
+ {
+  "start": 262.079,
+  "end": 264.31,
+  "text": "number of rows and columns uh which are"
+ },
+ {
+  "start": 264.32,
+  "end": 267.629,
+  "text": "present in the table it may be a dynamic"
+ },
+ {
+  "start": 267.639,
+  "end": 270.87,
+  "text": "or a static table TOs will anyway count"
+ },
+ {
+  "start": 270.88,
+  "end": 273.27,
+  "text": "the number of rows and return the number"
+ },
+ {
+  "start": 273.28,
+  "end": 276.029,
+  "text": "of rows which can be buffered and stored"
+ },
+ {
+  "start": 276.039,
+  "end": 279.27,
+  "text": "in a buffer uh value which can be used"
+ },
+ {
+  "start": 279.28,
+  "end": 281.909,
+  "text": "uh in later steps in your test"
+ },
+ {
+  "start": 281.919,
+  "end": 284.27,
+  "text": "cases that's all for this particular"
+ },
+ {
+  "start": 284.28,
+  "end": 286.71,
+  "text": "video if you have any questions then"
+ },
+ {
+  "start": 286.72,
+  "end": 289.189,
+  "text": "please leave it in the comments if you"
+ },
+ {
+  "start": 289.199,
+  "end": 291.15,
+  "text": "like this video then please subscribe to"
+ },
+ {
+  "start": 291.16,
+  "end": 293.87,
+  "text": "our Channel thanks for watching and I"
+ },
+ {
+  "start": 293.88,
+  "end": 295.95,
+  "text": "will see you in the next"
+ },
+ {
+  "start": 295.96,
+  "end": 298.96,
+  "text": "video"
+ }
+]

@@ -1,0 +1,867 @@
+[
+ {
+  "start": 10.85,
+  "end": 10.86,
+  "text": "in this Tasker session we are going to"
+ },
+ {
+  "start": 10.86,
+  "end": 14.509,
+  "text": "talk about the key box window operation"
+ },
+ {
+  "start": 14.519,
+  "end": 17.21,
+  "text": "now this is one of the t-box automation"
+ },
+ {
+  "start": 17.22,
+  "end": 18.769,
+  "text": "tools modules"
+ },
+ {
+  "start": 18.779,
+  "end": 21.65,
+  "text": "and using this module you can send"
+ },
+ {
+  "start": 21.66,
+  "end": 25.39,
+  "text": "specific commands to a particular window"
+ },
+ {
+  "start": 25.4,
+  "end": 28.49,
+  "text": "these are mostly useful for window based"
+ },
+ {
+  "start": 28.5,
+  "end": 32.15,
+  "text": "applications and we are going to look at"
+ },
+ {
+  "start": 32.16,
+  "end": 33.83,
+  "text": "some of the operations which you can"
+ },
+ {
+  "start": 33.84,
+  "end": 35.09,
+  "text": "perform"
+ },
+ {
+  "start": 35.1,
+  "end": 37.13,
+  "text": "there are lots of different operations"
+ },
+ {
+  "start": 37.14,
+  "end": 40.01,
+  "text": "which this module provides like you can"
+ },
+ {
+  "start": 40.02,
+  "end": 42.95,
+  "text": "bring the window to front you can close"
+ },
+ {
+  "start": 42.96,
+  "end": 46.31,
+  "text": "the window maximize minimize move to"
+ },
+ {
+  "start": 46.32,
+  "end": 49.85,
+  "text": "Center normal which is restoring the"
+ },
+ {
+  "start": 49.86,
+  "end": 52.369,
+  "text": "window to its original size you can"
+ },
+ {
+  "start": 52.379,
+  "end": 54.83,
+  "text": "resize the window you can check whether"
+ },
+ {
+  "start": 54.84,
+  "end": 57.83,
+  "text": "that particular window is open or not"
+ },
+ {
+  "start": 57.84,
+  "end": 60.65,
+  "text": "and then wait on close and wait on open"
+ },
+ {
+  "start": 60.66,
+  "end": 62.689,
+  "text": "right so these are all the different"
+ },
+ {
+  "start": 62.699,
+  "end": 65.57,
+  "text": "operations which you can perform using"
+ },
+ {
+  "start": 65.58,
+  "end": 68.21,
+  "text": "this particular module we are not going"
+ },
+ {
+  "start": 68.22,
+  "end": 70.429,
+  "text": "to look at all of them but we'll be"
+ },
+ {
+  "start": 70.439,
+  "end": 73.31,
+  "text": "looking at some of them which could be"
+ },
+ {
+  "start": 73.32,
+  "end": 75.17,
+  "text": "useful when you are working with this"
+ },
+ {
+  "start": 75.18,
+  "end": 78.71,
+  "text": "windows in your automation test suit"
+ },
+ {
+  "start": 78.72,
+  "end": 80.63,
+  "text": "okay"
+ },
+ {
+  "start": 80.64,
+  "end": 83.57,
+  "text": "so for this particular example I'm going"
+ },
+ {
+  "start": 83.58,
+  "end": 85.789,
+  "text": "to use a"
+ },
+ {
+  "start": 85.799,
+  "end": 89.749,
+  "text": "the notepad Okay and as you can see I"
+ },
+ {
+  "start": 89.759,
+  "end": 92.45,
+  "text": "have already created a particular test"
+ },
+ {
+  "start": 92.46,
+  "end": 94.49,
+  "text": "case called window operations and inside"
+ },
+ {
+  "start": 94.5,
+  "end": 98.39,
+  "text": "that my first step is to start or open"
+ },
+ {
+  "start": 98.4,
+  "end": 99.71,
+  "text": "the notepad"
+ },
+ {
+  "start": 99.72,
+  "end": 103.13,
+  "text": "now if you remember we have talked about"
+ },
+ {
+  "start": 103.14,
+  "end": 106.31,
+  "text": "process operations where you can have"
+ },
+ {
+  "start": 106.32,
+  "end": 109.73,
+  "text": "the where you can use the t-box Start"
+ },
+ {
+  "start": 109.74,
+  "end": 112.67,
+  "text": "program and that's what I'm using I have"
+ },
+ {
+  "start": 112.68,
+  "end": 116.27,
+  "text": "given the path which is the notepad path"
+ },
+ {
+  "start": 116.28,
+  "end": 118.55,
+  "text": "and when I'm going to run this it is"
+ },
+ {
+  "start": 118.56,
+  "end": 120.469,
+  "text": "just going to open the notepad for me"
+ },
+ {
+  "start": 120.479,
+  "end": 125.09,
+  "text": "okay so"
+ },
+ {
+  "start": 128.749,
+  "end": 128.759,
+  "text": "okay so the notepad is open we have used"
+ },
+ {
+  "start": 128.759,
+  "end": 131.21,
+  "text": "the t-box Start program right it's not"
+ },
+ {
+  "start": 131.22,
+  "end": 134.03,
+  "text": "part of the window operations but this"
+ },
+ {
+  "start": 134.04,
+  "end": 136.13,
+  "text": "is required in order to open this"
+ },
+ {
+  "start": 136.14,
+  "end": 138.11,
+  "text": "particular application okay"
+ },
+ {
+  "start": 138.12,
+  "end": 141.65,
+  "text": "and then now I'm going to add few other"
+ },
+ {
+  "start": 141.66,
+  "end": 144.05,
+  "text": "steps which are related to the window"
+ },
+ {
+  "start": 144.06,
+  "end": 146.69,
+  "text": "operations module okay"
+ },
+ {
+  "start": 146.7,
+  "end": 149.809,
+  "text": "and we are going to use the t-box window"
+ },
+ {
+  "start": 149.819,
+  "end": 151.369,
+  "text": "operation"
+ },
+ {
+  "start": 151.379,
+  "end": 155.39,
+  "text": "so let's search for this"
+ },
+ {
+  "start": 155.4,
+  "end": 158.63,
+  "text": "right and there are basically four"
+ },
+ {
+  "start": 158.64,
+  "end": 160.85,
+  "text": "parameters here or"
+ },
+ {
+  "start": 160.86,
+  "end": 162.53,
+  "text": "um that's the values which you can pass"
+ },
+ {
+  "start": 162.54,
+  "end": 165.71,
+  "text": "right so you can pass a caption a"
+ },
+ {
+  "start": 165.72,
+  "end": 169.43,
+  "text": "caption is nothing but a name for that"
+ },
+ {
+  "start": 169.44,
+  "end": 172.369,
+  "text": "particular window okay then window index"
+ },
+ {
+  "start": 172.379,
+  "end": 175.13,
+  "text": "if you have multiple windows open you"
+ },
+ {
+  "start": 175.14,
+  "end": 177.229,
+  "text": "can put a index to it"
+ },
+ {
+  "start": 177.239,
+  "end": 179.27,
+  "text": "and then the operation the operation"
+ },
+ {
+  "start": 179.28,
+  "end": 181.19,
+  "text": "which I was talking about there are lots"
+ },
+ {
+  "start": 181.2,
+  "end": 184.19,
+  "text": "of operations but uh we are going to use"
+ },
+ {
+  "start": 184.2,
+  "end": 186.83,
+  "text": "some of them and this operation is a"
+ },
+ {
+  "start": 186.84,
+  "end": 190.13,
+  "text": "drop down list okay so you can see uh we"
+ },
+ {
+  "start": 190.14,
+  "end": 191.57,
+  "text": "talked about bring to front close"
+ },
+ {
+  "start": 191.58,
+  "end": 194.27,
+  "text": "maximize minimize"
+ },
+ {
+  "start": 194.28,
+  "end": 196.729,
+  "text": "um resize move to Center and verify"
+ },
+ {
+  "start": 196.739,
+  "end": 198.77,
+  "text": "window access so all of these operations"
+ },
+ {
+  "start": 198.78,
+  "end": 201.11,
+  "text": "are present here which you can perform"
+ },
+ {
+  "start": 201.12,
+  "end": 202.67,
+  "text": "on your window"
+ },
+ {
+  "start": 202.68,
+  "end": 204.53,
+  "text": "okay"
+ },
+ {
+  "start": 204.54,
+  "end": 209.03,
+  "text": "so uh coming to caption right so in this"
+ },
+ {
+  "start": 209.04,
+  "end": 210.35,
+  "text": "caption"
+ },
+ {
+  "start": 210.36,
+  "end": 214.55,
+  "text": "this is a notepad right so the text is"
+ },
+ {
+  "start": 214.56,
+  "end": 216.53,
+  "text": "notepad on this particular window but"
+ },
+ {
+  "start": 216.54,
+  "end": 218.63,
+  "text": "there is also a Untitled text in this"
+ },
+ {
+  "start": 218.64,
+  "end": 221.27,
+  "text": "right so what we can do we can use some"
+ },
+ {
+  "start": 221.28,
+  "end": 223.85,
+  "text": "regular expression so that even if the"
+ },
+ {
+  "start": 223.86,
+  "end": 226.67,
+  "text": "text changes it will always be able to"
+ },
+ {
+  "start": 226.68,
+  "end": 228.41,
+  "text": "identify with this particular caption"
+ },
+ {
+  "start": 228.42,
+  "end": 229.85,
+  "text": "okay"
+ },
+ {
+  "start": 229.86,
+  "end": 232.07,
+  "text": "although I have got just one window open"
+ },
+ {
+  "start": 232.08,
+  "end": 235.13,
+  "text": "right now I can still use a index"
+ },
+ {
+  "start": 235.14,
+  "end": 236.809,
+  "text": "um for instance if there are other"
+ },
+ {
+  "start": 236.819,
+  "end": 240.77,
+  "text": "windows open for notepad then this will"
+ },
+ {
+  "start": 240.78,
+  "end": 243.89,
+  "text": "only consider the first index okay"
+ },
+ {
+  "start": 243.9,
+  "end": 246.71,
+  "text": "and then coming to operation right so"
+ },
+ {
+  "start": 246.72,
+  "end": 250.13,
+  "text": "what we are going to do first is we are"
+ },
+ {
+  "start": 250.14,
+  "end": 253.19,
+  "text": "going to maximize it right"
+ },
+ {
+  "start": 253.2,
+  "end": 260.27,
+  "text": "so let's rename this to maximize"
+ },
+ {
+  "start": 261.229,
+  "end": 261.239,
+  "text": "okay"
+ },
+ {
+  "start": 261.239,
+  "end": 265.73,
+  "text": "now what I can do I can"
+ },
+ {
+  "start": 265.74,
+  "end": 269.09,
+  "text": "copy and paste this okay and I can just"
+ },
+ {
+  "start": 269.1,
+  "end": 271.79,
+  "text": "change the operation now I will change"
+ },
+ {
+  "start": 271.8,
+  "end": 273.59,
+  "text": "it to minimize so it will minimize that"
+ },
+ {
+  "start": 273.6,
+  "end": 278.39,
+  "text": "particular window"
+ },
+ {
+  "start": 280.31,
+  "end": 280.32,
+  "text": "okay and the caption and window index"
+ },
+ {
+  "start": 280.32,
+  "end": 282.77,
+  "text": "will still remain the same"
+ },
+ {
+  "start": 282.78,
+  "end": 285.83,
+  "text": "and then let's copy this again we'll try"
+ },
+ {
+  "start": 285.84,
+  "end": 289.129,
+  "text": "to use some operations"
+ },
+ {
+  "start": 289.139,
+  "end": 294.409,
+  "text": "and then I will say we can bring that or"
+ },
+ {
+  "start": 294.419,
+  "end": 297.23,
+  "text": "to the normal size okay"
+ },
+ {
+  "start": 297.24,
+  "end": 302.21,
+  "text": "so let's change it to normal"
+ },
+ {
+  "start": 305.81,
+  "end": 305.82,
+  "text": "okay and then um in this final step we"
+ },
+ {
+  "start": 305.82,
+  "end": 307.43,
+  "text": "are going to close this particular"
+ },
+ {
+  "start": 307.44,
+  "end": 309.469,
+  "text": "window okay"
+ },
+ {
+  "start": 309.479,
+  "end": 312.469,
+  "text": "and I'm going to use another operation"
+ },
+ {
+  "start": 312.479,
+  "end": 315.11,
+  "text": "here okay but I'm going to drag this to"
+ },
+ {
+  "start": 315.12,
+  "end": 316.249,
+  "text": "the beginning"
+ },
+ {
+  "start": 316.259,
+  "end": 317.81,
+  "text": "okay here"
+ },
+ {
+  "start": 317.82,
+  "end": 320.81,
+  "text": "um I'm going to say bring to front right"
+ },
+ {
+  "start": 320.82,
+  "end": 322.07,
+  "text": "so if"
+ },
+ {
+  "start": 322.08,
+  "end": 324.65,
+  "text": "it is somewhere in the background then"
+ },
+ {
+  "start": 324.66,
+  "end": 328.07,
+  "text": "it is going to bring it to the front"
+ },
+ {
+  "start": 328.08,
+  "end": 329.99,
+  "text": "Okay so we are going to use this"
+ },
+ {
+  "start": 330.0,
+  "end": 331.249,
+  "text": "operation"
+ },
+ {
+  "start": 331.259,
+  "end": 333.65,
+  "text": "and that will be all the steps which"
+ },
+ {
+  "start": 333.66,
+  "end": 334.73,
+  "text": "will be"
+ },
+ {
+  "start": 334.74,
+  "end": 336.35,
+  "text": "um or all the operations which will be"
+ },
+ {
+  "start": 336.36,
+  "end": 338.09,
+  "text": "performing using this window operation"
+ },
+ {
+  "start": 338.1,
+  "end": 340.79,
+  "text": "module you can try out all the remaining"
+ },
+ {
+  "start": 340.8,
+  "end": 343.61,
+  "text": "options but these are the ones uh which"
+ },
+ {
+  "start": 343.62,
+  "end": 346.79,
+  "text": "we can try right now okay now let's try"
+ },
+ {
+  "start": 346.8,
+  "end": 348.23,
+  "text": "and run all of these different"
+ },
+ {
+  "start": 348.24,
+  "end": 351.05,
+  "text": "operations on our notepad right before"
+ },
+ {
+  "start": 351.06,
+  "end": 353.39,
+  "text": "that I'm just going to adjust this"
+ },
+ {
+  "start": 353.4,
+  "end": 355.129,
+  "text": "particular operation I'm just going to"
+ },
+ {
+  "start": 355.139,
+  "end": 360.35,
+  "text": "put it after minimize so that when it is"
+ },
+ {
+  "start": 360.36,
+  "end": 362.21,
+  "text": "minimized you can bring that particular"
+ },
+ {
+  "start": 362.22,
+  "end": 366.409,
+  "text": "window to the front right and if I run"
+ },
+ {
+  "start": 366.419,
+  "end": 370.43,
+  "text": "this whole test case together you might"
+ },
+ {
+  "start": 370.44,
+  "end": 372.529,
+  "text": "not be able to see anything because it"
+ },
+ {
+  "start": 372.539,
+  "end": 374.87,
+  "text": "will be too fast so what I'm going to do"
+ },
+ {
+  "start": 374.88,
+  "end": 378.23,
+  "text": "is I'm going to execute a step one step"
+ },
+ {
+  "start": 378.24,
+  "end": 382.49,
+  "text": "at a time right so first I'm going to"
+ },
+ {
+  "start": 382.5,
+  "end": 385.67,
+  "text": "execute the maximize so that the window"
+ },
+ {
+  "start": 385.68,
+  "end": 390.95,
+  "text": "is maximized"
+ },
+ {
+  "start": 393.35,
+  "end": 393.36,
+  "text": "right you can see uh the window size is"
+ },
+ {
+  "start": 393.36,
+  "end": 395.99,
+  "text": "not changed it is uh to the maximum"
+ },
+ {
+  "start": 396.0,
+  "end": 397.79,
+  "text": "maximum screen size"
+ },
+ {
+  "start": 397.8,
+  "end": 398.809,
+  "text": "right"
+ },
+ {
+  "start": 398.819,
+  "end": 401.809,
+  "text": "and let's go back here and the"
+ },
+ {
+  "start": 401.819,
+  "end": 404.39,
+  "text": "scratchbook you can see it is passed now"
+ },
+ {
+  "start": 404.4,
+  "end": 409.37,
+  "text": "let's try and run the minimize window"
+ },
+ {
+  "start": 419.57,
+  "end": 419.58,
+  "text": "and let me put the scratch book uh to a"
+ },
+ {
+  "start": 419.58,
+  "end": 421.309,
+  "text": "second window so that we can see that"
+ },
+ {
+  "start": 421.319,
+  "end": 429.07,
+  "text": "okay"
+ },
+ {
+  "start": 433.309,
+  "end": 433.319,
+  "text": "right uh now let's try and run uh the"
+ },
+ {
+  "start": 433.319,
+  "end": 436.07,
+  "text": "bring to front because our window is"
+ },
+ {
+  "start": 436.08,
+  "end": 437.39,
+  "text": "minimized"
+ },
+ {
+  "start": 437.4,
+  "end": 441.05,
+  "text": "let's try and do that so you can see now"
+ },
+ {
+  "start": 441.06,
+  "end": 446.21,
+  "text": "it is showing it in front right"
+ },
+ {
+  "start": 448.55,
+  "end": 448.56,
+  "text": "and then let's"
+ },
+ {
+  "start": 448.56,
+  "end": 452.51,
+  "text": "run this normal operation so that it"
+ },
+ {
+  "start": 452.52,
+  "end": 455.21,
+  "text": "will bring back the window to its normal"
+ },
+ {
+  "start": 455.22,
+  "end": 457.73,
+  "text": "size okay"
+ },
+ {
+  "start": 457.74,
+  "end": 460.189,
+  "text": "and then finally we'll close the"
+ },
+ {
+  "start": 460.199,
+  "end": 464.57,
+  "text": "application"
+ },
+ {
+  "start": 467.15,
+  "end": 467.16,
+  "text": "and you will see that uh the notepad is"
+ },
+ {
+  "start": 467.16,
+  "end": 469.43,
+  "text": "closed now okay so these are all the"
+ },
+ {
+  "start": 469.44,
+  "end": 471.529,
+  "text": "operations uh which can be performed on"
+ },
+ {
+  "start": 471.539,
+  "end": 473.689,
+  "text": "a window you can try out all the"
+ },
+ {
+  "start": 473.699,
+  "end": 476.33,
+  "text": "remaining operations which I showed you"
+ },
+ {
+  "start": 476.34,
+  "end": 477.95,
+  "text": "um on the same window or a different"
+ },
+ {
+  "start": 477.96,
+  "end": 479.089,
+  "text": "window"
+ },
+ {
+  "start": 479.099,
+  "end": 481.969,
+  "text": "so it's a quite useful module if you"
+ },
+ {
+  "start": 481.979,
+  "end": 484.129,
+  "text": "want to perform some operations on a"
+ },
+ {
+  "start": 484.139,
+  "end": 485.749,
+  "text": "particular window especially window"
+ },
+ {
+  "start": 485.759,
+  "end": 487.49,
+  "text": "based applications"
+ },
+ {
+  "start": 487.5,
+  "end": 491.57,
+  "text": "and that's all for this particular t-box"
+ },
+ {
+  "start": 491.58,
+  "end": 496.43,
+  "text": "window operation module"
+ }
+]

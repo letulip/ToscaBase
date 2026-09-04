@@ -1,0 +1,1672 @@
+[
+ {
+  "start": 7.67,
+  "end": 7.68,
+  "text": "in this Tasker session we are going to"
+ },
+ {
+  "start": 7.68,
+  "end": 10.31,
+  "text": "talk about the multi-user workspaces in"
+ },
+ {
+  "start": 10.32,
+  "end": 13.19,
+  "text": "Tosca now until now we have seen how to"
+ },
+ {
+  "start": 13.2,
+  "end": 15.77,
+  "text": "create a single user workspace and how"
+ },
+ {
+  "start": 15.78,
+  "end": 18.23,
+  "text": "to use it now this single user workspace"
+ },
+ {
+  "start": 18.24,
+  "end": 21.529,
+  "text": "can be used by only one user at a time"
+ },
+ {
+  "start": 21.539,
+  "end": 24.769,
+  "text": "right if multiple users want to use the"
+ },
+ {
+  "start": 24.779,
+  "end": 27.29,
+  "text": "same workspace you have to create a"
+ },
+ {
+  "start": 27.3,
+  "end": 30.47,
+  "text": "multi-user workspace in Tosca now you"
+ },
+ {
+  "start": 30.48,
+  "end": 32.45,
+  "text": "might think that multi-user workspace"
+ },
+ {
+  "start": 32.46,
+  "end": 35.51,
+  "text": "can only be created if you have got a"
+ },
+ {
+  "start": 35.52,
+  "end": 38.69,
+  "text": "database Connection in place but it's"
+ },
+ {
+  "start": 38.7,
+  "end": 41.75,
+  "text": "not always true okay so Tosca also"
+ },
+ {
+  "start": 41.76,
+  "end": 44.03,
+  "text": "provides you uh with an option where"
+ },
+ {
+  "start": 44.04,
+  "end": 46.25,
+  "text": "even if you don't have a particular"
+ },
+ {
+  "start": 46.26,
+  "end": 49.97,
+  "text": "database like Oracle or SQL server or"
+ },
+ {
+  "start": 49.98,
+  "end": 53.029,
+  "text": "db2 you can still create a in-memory"
+ },
+ {
+  "start": 53.039,
+  "end": 55.029,
+  "text": "database"
+ },
+ {
+  "start": 55.039,
+  "end": 57.59,
+  "text": "multi-user workspace and that can be"
+ },
+ {
+  "start": 57.6,
+  "end": 61.67,
+  "text": "done using uh the sqlite okay so there"
+ },
+ {
+  "start": 61.68,
+  "end": 63.47,
+  "text": "is an option to create a multi-user"
+ },
+ {
+  "start": 63.48,
+  "end": 65.81,
+  "text": "workspace using sqlite you don't require"
+ },
+ {
+  "start": 65.82,
+  "end": 68.69,
+  "text": "any uh connection strings for that"
+ },
+ {
+  "start": 68.7,
+  "end": 72.89,
+  "text": "particular database type and you can use"
+ },
+ {
+  "start": 72.9,
+  "end": 74.929,
+  "text": "it to create a multi-user workspace to"
+ },
+ {
+  "start": 74.939,
+  "end": 77.21,
+  "text": "check out the functionality in Tosca"
+ },
+ {
+  "start": 77.22,
+  "end": 79.37,
+  "text": "but one thing you have to remember is"
+ },
+ {
+  "start": 79.38,
+  "end": 82.429,
+  "text": "this sqlite workspace cannot be used in"
+ },
+ {
+  "start": 82.439,
+  "end": 84.89,
+  "text": "a real-time project okay it can be used"
+ },
+ {
+  "start": 84.9,
+  "end": 88.67,
+  "text": "for a demo or practice as I said to"
+ },
+ {
+  "start": 88.68,
+  "end": 89.87,
+  "text": "check out the functionality for"
+ },
+ {
+  "start": 89.88,
+  "end": 92.09,
+  "text": "multi-user workspace but it is not a"
+ },
+ {
+  "start": 92.1,
+  "end": 94.609,
+  "text": "real solution where you can use it for a"
+ },
+ {
+  "start": 94.619,
+  "end": 97.73,
+  "text": "real uh project okay for real project"
+ },
+ {
+  "start": 97.74,
+  "end": 101.39,
+  "text": "you should have a a dedicated database"
+ },
+ {
+  "start": 101.4,
+  "end": 105.53,
+  "text": "instance either Oracle MSS skill server"
+ },
+ {
+  "start": 105.54,
+  "end": 109.73,
+  "text": "or a db2 workspace right but uh for"
+ },
+ {
+  "start": 109.74,
+  "end": 112.01,
+  "text": "practice we can still use this and that"
+ },
+ {
+  "start": 112.02,
+  "end": 113.749,
+  "text": "is what I'm going to show you how you"
+ },
+ {
+  "start": 113.759,
+  "end": 116.569,
+  "text": "can create a multi-user workspace and"
+ },
+ {
+  "start": 116.579,
+  "end": 118.55,
+  "text": "then probably you can check out all the"
+ },
+ {
+  "start": 118.56,
+  "end": 121.01,
+  "text": "functionalities which come up on this"
+ },
+ {
+  "start": 121.02,
+  "end": 122.69,
+  "text": "multi-user workspace which is not"
+ },
+ {
+  "start": 122.7,
+  "end": 125.03,
+  "text": "available in the single user workspace"
+ },
+ {
+  "start": 125.04,
+  "end": 128.87,
+  "text": "okay so the process is almost the same"
+ },
+ {
+  "start": 128.88,
+  "end": 132.17,
+  "text": "okay so not much changes if you're not"
+ },
+ {
+  "start": 132.18,
+  "end": 134.27,
+  "text": "using a particular database instance"
+ },
+ {
+  "start": 134.28,
+  "end": 136.67,
+  "text": "then you don't need to provide the"
+ },
+ {
+  "start": 136.68,
+  "end": 138.47,
+  "text": "connection string which contains the"
+ },
+ {
+  "start": 138.48,
+  "end": 140.869,
+  "text": "username password and the DB connection"
+ },
+ {
+  "start": 140.879,
+  "end": 142.13,
+  "text": "string"
+ },
+ {
+  "start": 142.14,
+  "end": 144.35,
+  "text": "but for sqlite workspace if you're"
+ },
+ {
+  "start": 144.36,
+  "end": 146.39,
+  "text": "creating that you don't require those"
+ },
+ {
+  "start": 146.4,
+  "end": 147.35,
+  "text": "okay"
+ },
+ {
+  "start": 147.36,
+  "end": 149.33,
+  "text": "so when you come to the Tosca Commander"
+ },
+ {
+  "start": 149.34,
+  "end": 152.03,
+  "text": "screen uh there is a create new Option"
+ },
+ {
+  "start": 152.04,
+  "end": 155.15,
+  "text": "okay and until now we have been using"
+ },
+ {
+  "start": 155.16,
+  "end": 157.79,
+  "text": "this type of repository as none which"
+ },
+ {
+  "start": 157.8,
+  "end": 160.61,
+  "text": "will create a single user workspace but"
+ },
+ {
+  "start": 160.62,
+  "end": 162.71,
+  "text": "now we are going to go into the other"
+ },
+ {
+  "start": 162.72,
+  "end": 166.13,
+  "text": "option which is sqlite okay as I said if"
+ },
+ {
+  "start": 166.14,
+  "end": 168.229,
+  "text": "you have a dedicated database instance"
+ },
+ {
+  "start": 168.239,
+  "end": 172.309,
+  "text": "you can use Oracle Ms SQL server and db2"
+ },
+ {
+  "start": 172.319,
+  "end": 175.309,
+  "text": "so if you look at the MSS skill server"
+ },
+ {
+  "start": 175.319,
+  "end": 177.589,
+  "text": "uh so you will have some additional"
+ },
+ {
+  "start": 177.599,
+  "end": 180.53,
+  "text": "fields which you need to fill okay uh"
+ },
+ {
+  "start": 180.54,
+  "end": 182.21,
+  "text": "the most important is the connection"
+ },
+ {
+  "start": 182.22,
+  "end": 184.309,
+  "text": "string"
+ },
+ {
+  "start": 184.319,
+  "end": 186.35,
+  "text": "now uh if you have this connection"
+ },
+ {
+  "start": 186.36,
+  "end": 189.17,
+  "text": "string and if you place it here you can"
+ },
+ {
+  "start": 189.18,
+  "end": 192.29,
+  "text": "test the connection okay and once the"
+ },
+ {
+  "start": 192.3,
+  "end": 194.509,
+  "text": "connection is valid then you can create"
+ },
+ {
+  "start": 194.519,
+  "end": 196.13,
+  "text": "your workspace in that particular"
+ },
+ {
+  "start": 196.14,
+  "end": 199.25,
+  "text": "database so that is the process okay and"
+ },
+ {
+  "start": 199.26,
+  "end": 202.009,
+  "text": "it will be similar for Oracle or db2"
+ },
+ {
+  "start": 202.019,
+  "end": 204.71,
+  "text": "okay so any kind of database required"
+ },
+ {
+  "start": 204.72,
+  "end": 206.99,
+  "text": "you have to at least give a connection"
+ },
+ {
+  "start": 207.0,
+  "end": 210.35,
+  "text": "string now schema is not mandatory it's"
+ },
+ {
+  "start": 210.36,
+  "end": 213.11,
+  "text": "an optional field so it's mostly the"
+ },
+ {
+  "start": 213.12,
+  "end": 215.27,
+  "text": "connection string and then testing the"
+ },
+ {
+  "start": 215.28,
+  "end": 217.49,
+  "text": "connection okay"
+ },
+ {
+  "start": 217.5,
+  "end": 220.91,
+  "text": "so uh for sqlite as I said you don't"
+ },
+ {
+  "start": 220.92,
+  "end": 223.009,
+  "text": "require the connection string or the"
+ },
+ {
+  "start": 223.019,
+  "end": 226.13,
+  "text": "schema right so as you can see those"
+ },
+ {
+  "start": 226.14,
+  "end": 228.289,
+  "text": "fields are not available but still it"
+ },
+ {
+  "start": 228.299,
+  "end": 230.21,
+  "text": "will create a multi-user workspace for"
+ },
+ {
+  "start": 230.22,
+  "end": 231.77,
+  "text": "me okay"
+ },
+ {
+  "start": 231.78,
+  "end": 235.25,
+  "text": "uh and that's what I'm going to do okay"
+ },
+ {
+  "start": 235.26,
+  "end": 237.17,
+  "text": "so it will create the new workspace in"
+ },
+ {
+  "start": 237.18,
+  "end": 239.27,
+  "text": "this folder you can always change this"
+ },
+ {
+  "start": 239.28,
+  "end": 241.85,
+  "text": "to any particular folder you have to"
+ },
+ {
+  "start": 241.86,
+  "end": 244.61,
+  "text": "give it a name okay"
+ },
+ {
+  "start": 244.62,
+  "end": 248.63,
+  "text": "so what I'm going to give is multi demo"
+ },
+ {
+  "start": 248.64,
+  "end": 252.11,
+  "text": "okay so this is my uh"
+ },
+ {
+  "start": 252.12,
+  "end": 255.229,
+  "text": "multi-user workspace and you can also"
+ },
+ {
+  "start": 255.239,
+  "end": 257.27,
+  "text": "create a slim workspace now Slim"
+ },
+ {
+  "start": 257.28,
+  "end": 259.789,
+  "text": "workspace will take less amount of space"
+ },
+ {
+  "start": 259.799,
+  "end": 262.79,
+  "text": "but uh"
+ },
+ {
+  "start": 262.8,
+  "end": 266.39,
+  "text": "if you have got a high data volume right"
+ },
+ {
+  "start": 266.4,
+  "end": 267.11,
+  "text": "um"
+ },
+ {
+  "start": 267.12,
+  "end": 270.95,
+  "text": "then you should use the slim workspace"
+ },
+ {
+  "start": 270.96,
+  "end": 273.89,
+  "text": "which will basically speed up your whole"
+ },
+ {
+  "start": 273.9,
+  "end": 278.03,
+  "text": "repository but if not then I prefer not"
+ },
+ {
+  "start": 278.04,
+  "end": 280.01,
+  "text": "to use it okay"
+ },
+ {
+  "start": 280.02,
+  "end": 283.43,
+  "text": "also if you have not created any other"
+ },
+ {
+  "start": 283.44,
+  "end": 286.189,
+  "text": "repository using this particular or any"
+ },
+ {
+  "start": 286.199,
+  "end": 287.629,
+  "text": "other workspace using this particular"
+ },
+ {
+  "start": 287.639,
+  "end": 290.87,
+  "text": "repository then do remember to check out"
+ },
+ {
+  "start": 290.88,
+  "end": 293.689,
+  "text": "the use existing repository otherwise uh"
+ },
+ {
+  "start": 293.699,
+  "end": 297.23,
+  "text": "the you cannot proceed okay so let's"
+ },
+ {
+  "start": 297.24,
+  "end": 300.53,
+  "text": "check out this and now I can see that it"
+ },
+ {
+  "start": 300.54,
+  "end": 303.05,
+  "text": "has been enabled okay"
+ },
+ {
+  "start": 303.06,
+  "end": 305.51,
+  "text": "so uh once you have created a particular"
+ },
+ {
+  "start": 305.52,
+  "end": 307.909,
+  "text": "workspace using this repository then you"
+ },
+ {
+  "start": 307.919,
+  "end": 309.59,
+  "text": "can click on this use existing"
+ },
+ {
+  "start": 309.6,
+  "end": 310.73,
+  "text": "Repository"
+ },
+ {
+  "start": 310.74,
+  "end": 312.89,
+  "text": "Okay now click on OK"
+ },
+ {
+  "start": 312.9,
+  "end": 316.61,
+  "text": "and it will start creating a multi-user"
+ },
+ {
+  "start": 316.62,
+  "end": 318.11,
+  "text": "workspace for you"
+ },
+ {
+  "start": 318.12,
+  "end": 320.87,
+  "text": "uh once it is created uh it will open"
+ },
+ {
+  "start": 320.88,
+  "end": 322.79,
+  "text": "that workspace"
+ },
+ {
+  "start": 322.8,
+  "end": 325.49,
+  "text": "and now we can see some of the options"
+ },
+ {
+  "start": 325.5,
+  "end": 327.89,
+  "text": "which will be enabled right which were"
+ },
+ {
+  "start": 327.9,
+  "end": 331.01,
+  "text": "not present or disabled"
+ },
+ {
+  "start": 331.02,
+  "end": 333.23,
+  "text": "um when we are using a single user"
+ },
+ {
+  "start": 333.24,
+  "end": 334.969,
+  "text": "workspace okay"
+ },
+ {
+  "start": 334.979,
+  "end": 337.85,
+  "text": "also uh one major difference you will"
+ },
+ {
+  "start": 337.86,
+  "end": 340.31,
+  "text": "see that for single user workspace there"
+ },
+ {
+  "start": 340.32,
+  "end": 343.37,
+  "text": "was never a login screen right but now"
+ },
+ {
+  "start": 343.38,
+  "end": 346.55,
+  "text": "you can see that there is a login screen"
+ },
+ {
+  "start": 346.56,
+  "end": 348.469,
+  "text": "now if you get this kind of a login"
+ },
+ {
+  "start": 348.479,
+  "end": 350.93,
+  "text": "screen when you create a multi-user"
+ },
+ {
+  "start": 350.94,
+  "end": 352.55,
+  "text": "workspace for the first time"
+ },
+ {
+  "start": 352.56,
+  "end": 354.95,
+  "text": "okay uh you would wonder what is the"
+ },
+ {
+  "start": 354.96,
+  "end": 357.29,
+  "text": "password for this workspace but for now"
+ },
+ {
+  "start": 357.3,
+  "end": 360.35,
+  "text": "Tosca is created a user for you which is"
+ },
+ {
+  "start": 360.36,
+  "end": 363.59,
+  "text": "the admin which is the default user and"
+ },
+ {
+  "start": 363.6,
+  "end": 365.57,
+  "text": "there is no password for it okay so"
+ },
+ {
+  "start": 365.58,
+  "end": 367.61,
+  "text": "don't enter any password and click on"
+ },
+ {
+  "start": 367.62,
+  "end": 369.529,
+  "text": "login"
+ },
+ {
+  "start": 369.539,
+  "end": 372.65,
+  "text": "so now you can create different users in"
+ },
+ {
+  "start": 372.66,
+  "end": 376.189,
+  "text": "this kind of a workspace also uh when"
+ },
+ {
+  "start": 376.199,
+  "end": 378.89,
+  "text": "you go into your project okay so if I"
+ },
+ {
+  "start": 378.9,
+  "end": 381.05,
+  "text": "open my project"
+ },
+ {
+  "start": 381.06,
+  "end": 384.83,
+  "text": "and I put it here you can see there is a"
+ },
+ {
+  "start": 384.84,
+  "end": 388.309,
+  "text": "green sign which is displayed and this"
+ },
+ {
+  "start": 388.319,
+  "end": 390.77,
+  "text": "green sign which is displayed for every"
+ },
+ {
+  "start": 390.78,
+  "end": 393.95,
+  "text": "particular section or object right"
+ },
+ {
+  "start": 393.96,
+  "end": 396.77,
+  "text": "it tells you that these objects are"
+ },
+ {
+  "start": 396.78,
+  "end": 398.689,
+  "text": "checked out or the project is even"
+ },
+ {
+  "start": 398.699,
+  "end": 401.629,
+  "text": "checked out okay so there is a checkout"
+ },
+ {
+  "start": 401.639,
+  "end": 403.27,
+  "text": "and check-in process"
+ },
+ {
+  "start": 403.28,
+  "end": 406.37,
+  "text": "which is there for a multi-user"
+ },
+ {
+  "start": 406.38,
+  "end": 409.07,
+  "text": "workspace because multiple users are"
+ },
+ {
+  "start": 409.08,
+  "end": 411.469,
+  "text": "working on the same workspace so there"
+ },
+ {
+  "start": 411.479,
+  "end": 414.61,
+  "text": "has to be a process of how the changes"
+ },
+ {
+  "start": 414.62,
+  "end": 418.249,
+  "text": "will get merged right when multiple"
+ },
+ {
+  "start": 418.259,
+  "end": 421.87,
+  "text": "users are working in a workspace"
+ },
+ {
+  "start": 421.88,
+  "end": 425.33,
+  "text": "so when you create or open a multi-user"
+ },
+ {
+  "start": 425.34,
+  "end": 428.689,
+  "text": "workspace right uh the objects which are"
+ },
+ {
+  "start": 428.699,
+  "end": 432.23,
+  "text": "checked out uh you can only work on"
+ },
+ {
+  "start": 432.24,
+  "end": 435.11,
+  "text": "those particular objects okay now if you"
+ },
+ {
+  "start": 435.12,
+  "end": 438.409,
+  "text": "see any particular object uh with red"
+ },
+ {
+  "start": 438.419,
+  "end": 440.749,
+  "text": "color in the beginning right a red"
+ },
+ {
+  "start": 440.759,
+  "end": 444.17,
+  "text": "stripe then that means that object is"
+ },
+ {
+  "start": 444.18,
+  "end": 447.29,
+  "text": "checked out by some other user and you"
+ },
+ {
+  "start": 447.3,
+  "end": 449.39,
+  "text": "basically cannot work on that particular"
+ },
+ {
+  "start": 449.4,
+  "end": 452.089,
+  "text": "object or on that particular folder"
+ },
+ {
+  "start": 452.099,
+  "end": 454.129,
+  "text": "right because somebody else is working"
+ },
+ {
+  "start": 454.139,
+  "end": 456.89,
+  "text": "on that so this is how uh the checkout"
+ },
+ {
+  "start": 456.9,
+  "end": 459.95,
+  "text": "and check-in process works so if a"
+ },
+ {
+  "start": 459.96,
+  "end": 461.87,
+  "text": "particular object or folder has been"
+ },
+ {
+  "start": 461.88,
+  "end": 464.629,
+  "text": "checked out by any particular user and"
+ },
+ {
+  "start": 464.639,
+  "end": 467.39,
+  "text": "he's working on it no other user can"
+ },
+ {
+  "start": 467.4,
+  "end": 470.15,
+  "text": "basically uh make any changes to that"
+ },
+ {
+  "start": 470.16,
+  "end": 472.07,
+  "text": "particular folder or object"
+ },
+ {
+  "start": 472.08,
+  "end": 475.49,
+  "text": "okay so once you complete working on a"
+ },
+ {
+  "start": 475.5,
+  "end": 478.189,
+  "text": "particular folder or object you have to"
+ },
+ {
+  "start": 478.199,
+  "end": 480.469,
+  "text": "check in your changes"
+ },
+ {
+  "start": 480.479,
+  "end": 483.29,
+  "text": "and if other users are simultaneously"
+ },
+ {
+  "start": 483.3,
+  "end": 485.93,
+  "text": "working on other objects or other"
+ },
+ {
+  "start": 485.94,
+  "end": 487.909,
+  "text": "folders right and they check in"
+ },
+ {
+  "start": 487.919,
+  "end": 491.21,
+  "text": "something then there is an option called"
+ },
+ {
+  "start": 491.22,
+  "end": 493.49,
+  "text": "update all right so when you click on"
+ },
+ {
+  "start": 493.5,
+  "end": 496.309,
+  "text": "this update all what it will do uh it"
+ },
+ {
+  "start": 496.319,
+  "end": 499.189,
+  "text": "will fetch all the changes from the"
+ },
+ {
+  "start": 499.199,
+  "end": 502.55,
+  "text": "repository or the database right and it"
+ },
+ {
+  "start": 502.56,
+  "end": 504.83,
+  "text": "will merge those changes into your"
+ },
+ {
+  "start": 504.84,
+  "end": 507.529,
+  "text": "particular workspace right so you will"
+ },
+ {
+  "start": 507.539,
+  "end": 509.809,
+  "text": "get all the changes which has been done"
+ },
+ {
+  "start": 509.819,
+  "end": 512.81,
+  "text": "by other users on different objects"
+ },
+ {
+  "start": 512.82,
+  "end": 516.29,
+  "text": "right into your repository before you"
+ },
+ {
+  "start": 516.3,
+  "end": 519.469,
+  "text": "work right so before you start working"
+ },
+ {
+  "start": 519.479,
+  "end": 522.589,
+  "text": "on a multi-user workspace uh you should"
+ },
+ {
+  "start": 522.599,
+  "end": 526.13,
+  "text": "always do an update all this process can"
+ },
+ {
+  "start": 526.14,
+  "end": 530.93,
+  "text": "also be automated uh using the Tosca TC"
+ },
+ {
+  "start": 530.94,
+  "end": 533.03,
+  "text": "shell commands right you can"
+ },
+ {
+  "start": 533.04,
+  "end": 536.389,
+  "text": "you can put a file which can update all"
+ },
+ {
+  "start": 536.399,
+  "end": 538.67,
+  "text": "the repositories before they you start"
+ },
+ {
+  "start": 538.68,
+  "end": 540.949,
+  "text": "working on that okay or else you can"
+ },
+ {
+  "start": 540.959,
+  "end": 543.53,
+  "text": "manually come and do it here uh just do"
+ },
+ {
+  "start": 543.54,
+  "end": 545.87,
+  "text": "an update all so that it fetches all the"
+ },
+ {
+  "start": 545.88,
+  "end": 548.75,
+  "text": "changes from the database uh if multiple"
+ },
+ {
+  "start": 548.76,
+  "end": 552.41,
+  "text": "users are working on that okay and uh if"
+ },
+ {
+  "start": 552.42,
+  "end": 554.09,
+  "text": "all the objects are checked out by you"
+ },
+ {
+  "start": 554.1,
+  "end": 556.73,
+  "text": "then no other user will be able to work"
+ },
+ {
+  "start": 556.74,
+  "end": 559.61,
+  "text": "on this so once you finish your work you"
+ },
+ {
+  "start": 559.62,
+  "end": 562.43,
+  "text": "should always remember to check in all"
+ },
+ {
+  "start": 562.44,
+  "end": 565.31,
+  "text": "which will basically do a check-in of"
+ },
+ {
+  "start": 565.32,
+  "end": 567.11,
+  "text": "all your changes right"
+ },
+ {
+  "start": 567.12,
+  "end": 570.41,
+  "text": "so there are basically four options when"
+ },
+ {
+  "start": 570.42,
+  "end": 572.21,
+  "text": "you are working within a team right so"
+ },
+ {
+  "start": 572.22,
+  "end": 574.31,
+  "text": "this section tells you that"
+ },
+ {
+  "start": 574.32,
+  "end": 577.67,
+  "text": "so there is uh update all as I said that"
+ },
+ {
+  "start": 577.68,
+  "end": 579.17,
+  "text": "is checking all which will check in"
+ },
+ {
+  "start": 579.18,
+  "end": 581.329,
+  "text": "everything which has been checked out by"
+ },
+ {
+  "start": 581.339,
+  "end": 582.11,
+  "text": "you"
+ },
+ {
+  "start": 582.12,
+  "end": 584.269,
+  "text": "okay and then there is a checkout option"
+ },
+ {
+  "start": 584.279,
+  "end": 587.329,
+  "text": "and a checkout tree option okay so let's"
+ },
+ {
+  "start": 587.339,
+  "end": 589.19,
+  "text": "see what is the difference between a"
+ },
+ {
+  "start": 589.2,
+  "end": 592.67,
+  "text": "checkout and a checkout tree option okay"
+ },
+ {
+  "start": 592.68,
+  "end": 596.449,
+  "text": "so check out uh basically at uh it is"
+ },
+ {
+  "start": 596.459,
+  "end": 599.509,
+  "text": "related to just one single object but"
+ },
+ {
+  "start": 599.519,
+  "end": 602.449,
+  "text": "checkout 3 will basically check out all"
+ },
+ {
+  "start": 602.459,
+  "end": 605.389,
+  "text": "the objects which are contained inside"
+ },
+ {
+  "start": 605.399,
+  "end": 608.69,
+  "text": "that particular folder or uh inside that"
+ },
+ {
+  "start": 608.7,
+  "end": 610.55,
+  "text": "particular object right"
+ },
+ {
+  "start": 610.56,
+  "end": 613.91,
+  "text": "so if you look uh at any particular"
+ },
+ {
+  "start": 613.92,
+  "end": 615.769,
+  "text": "folder right so if I go into this"
+ },
+ {
+  "start": 615.779,
+  "end": 617.389,
+  "text": "execution folder"
+ },
+ {
+  "start": 617.399,
+  "end": 619.85,
+  "text": "and I right click on this I will also"
+ },
+ {
+  "start": 619.86,
+  "end": 621.59,
+  "text": "get this option so either you can check"
+ },
+ {
+  "start": 621.6,
+  "end": 624.29,
+  "text": "out from here or you can do a checkout"
+ },
+ {
+  "start": 624.3,
+  "end": 626.329,
+  "text": "tree from here okay"
+ },
+ {
+  "start": 626.339,
+  "end": 630.11,
+  "text": "now if I do a checkout so if I am doing"
+ },
+ {
+  "start": 630.12,
+  "end": 632.269,
+  "text": "this checkout it will basically check"
+ },
+ {
+  "start": 632.279,
+  "end": 635.21,
+  "text": "out only the execution folder but it"
+ },
+ {
+  "start": 635.22,
+  "end": 637.55,
+  "text": "will not check out the other objects"
+ },
+ {
+  "start": 637.56,
+  "end": 639.11,
+  "text": "which are contained inside this"
+ },
+ {
+  "start": 639.12,
+  "end": 641.449,
+  "text": "execution folder right"
+ },
+ {
+  "start": 641.459,
+  "end": 645.35,
+  "text": "so if you want to work on all the"
+ },
+ {
+  "start": 645.36,
+  "end": 648.47,
+  "text": "objects in this particular folder or say"
+ },
+ {
+  "start": 648.48,
+  "end": 650.569,
+  "text": "if you are working on a particular test"
+ },
+ {
+  "start": 650.579,
+  "end": 653.81,
+  "text": "case folder right so you will what you"
+ },
+ {
+  "start": 653.82,
+  "end": 655.73,
+  "text": "will want is you will want to check out"
+ },
+ {
+  "start": 655.74,
+  "end": 657.71,
+  "text": "the complete folder because currently"
+ },
+ {
+  "start": 657.72,
+  "end": 659.75,
+  "text": "you are working on it and you don't want"
+ },
+ {
+  "start": 659.76,
+  "end": 662.569,
+  "text": "anyone else to change that in those kind"
+ },
+ {
+  "start": 662.579,
+  "end": 664.79,
+  "text": "of scenarios you should basically do a"
+ },
+ {
+  "start": 664.8,
+  "end": 667.55,
+  "text": "checkout tree so that all the objects"
+ },
+ {
+  "start": 667.56,
+  "end": 669.47,
+  "text": "are checked out which you are currently"
+ },
+ {
+  "start": 669.48,
+  "end": 671.93,
+  "text": "working on and then you can check in all"
+ },
+ {
+  "start": 671.94,
+  "end": 675.35,
+  "text": "once you finish working on that okay"
+ },
+ {
+  "start": 675.36,
+  "end": 677.569,
+  "text": "so that's how you should be working on"
+ },
+ {
+  "start": 677.579,
+  "end": 680.69,
+  "text": "uh see um now if you have not checked"
+ },
+ {
+  "start": 680.7,
+  "end": 683.389,
+  "text": "out any particular uh object or folder"
+ },
+ {
+  "start": 683.399,
+  "end": 686.449,
+  "text": "like this test cases okay you can see"
+ },
+ {
+  "start": 686.459,
+  "end": 689.389,
+  "text": "there is no no option to either create a"
+ },
+ {
+  "start": 689.399,
+  "end": 692.389,
+  "text": "folder or a test case template or a test"
+ },
+ {
+  "start": 692.399,
+  "end": 694.19,
+  "text": "case right so it is not showing any"
+ },
+ {
+  "start": 694.2,
+  "end": 696.71,
+  "text": "options and that's what happens when you"
+ },
+ {
+  "start": 696.72,
+  "end": 698.99,
+  "text": "work in a multi-user workspace you have"
+ },
+ {
+  "start": 699.0,
+  "end": 701.09,
+  "text": "to first check out that particular"
+ },
+ {
+  "start": 701.1,
+  "end": 703.61,
+  "text": "object which is the test cases folder"
+ },
+ {
+  "start": 703.62,
+  "end": 706.49,
+  "text": "and when I right click on this now I get"
+ },
+ {
+  "start": 706.5,
+  "end": 708.65,
+  "text": "all the options right so I can create a"
+ },
+ {
+  "start": 708.66,
+  "end": 712.43,
+  "text": "folder I can create a test case right"
+ },
+ {
+  "start": 712.44,
+  "end": 715.85,
+  "text": "so if I create a"
+ },
+ {
+  "start": 715.86,
+  "end": 718.79,
+  "text": "test case folder like this right and"
+ },
+ {
+  "start": 718.8,
+  "end": 724.13,
+  "text": "then I create some test cases here okay"
+ },
+ {
+  "start": 724.14,
+  "end": 727.67,
+  "text": "and maybe another test case"
+ },
+ {
+  "start": 727.68,
+  "end": 729.65,
+  "text": "so I have got these many test cases"
+ },
+ {
+  "start": 729.66,
+  "end": 733.19,
+  "text": "inside this folder right and now I do a"
+ },
+ {
+  "start": 733.2,
+  "end": 735.59,
+  "text": "check in all and it will basically check"
+ },
+ {
+  "start": 735.6,
+  "end": 739.55,
+  "text": "in everything inside my repository right"
+ },
+ {
+  "start": 739.56,
+  "end": 741.949,
+  "text": "so the execution folder was checked in"
+ },
+ {
+  "start": 741.959,
+  "end": 743.75,
+  "text": "the test cases folder were checked in"
+ },
+ {
+  "start": 743.76,
+  "end": 745.069,
+  "text": "okay"
+ },
+ {
+  "start": 745.079,
+  "end": 749.449,
+  "text": "now if I want to work on this folder in"
+ },
+ {
+  "start": 749.459,
+  "end": 751.91,
+  "text": "test case 0 1 and I don't want anyone"
+ },
+ {
+  "start": 751.92,
+  "end": 754.37,
+  "text": "else to make changes to this because I"
+ },
+ {
+  "start": 754.38,
+  "end": 757.31,
+  "text": "expect a lot of changes in all the"
+ },
+ {
+  "start": 757.32,
+  "end": 759.71,
+  "text": "different objects okay so in that kind"
+ },
+ {
+  "start": 759.72,
+  "end": 762.05,
+  "text": "of a scenario I can do a checkout tree"
+ },
+ {
+  "start": 762.06,
+  "end": 766.069,
+  "text": "right so if I do a checkout tree uh all"
+ },
+ {
+  "start": 766.079,
+  "end": 767.93,
+  "text": "the objects inside this folder will be"
+ },
+ {
+  "start": 767.94,
+  "end": 770.75,
+  "text": "checked out and uh nobody else can"
+ },
+ {
+  "start": 770.76,
+  "end": 772.61,
+  "text": "basically do any changes on this right"
+ },
+ {
+  "start": 772.62,
+  "end": 776.21,
+  "text": "and once I finish this I can do a"
+ },
+ {
+  "start": 776.22,
+  "end": 779.03,
+  "text": "check-in all which will basically"
+ },
+ {
+  "start": 779.04,
+  "end": 781.91,
+  "text": "check in everything which I have changed"
+ },
+ {
+  "start": 781.92,
+  "end": 785.509,
+  "text": "in my workspace and then other users can"
+ },
+ {
+  "start": 785.519,
+  "end": 788.629,
+  "text": "access these changes okay"
+ },
+ {
+  "start": 788.639,
+  "end": 790.91,
+  "text": "so as you can see"
+ },
+ {
+  "start": 790.92,
+  "end": 793.069,
+  "text": "this is basically a check-in checkout"
+ },
+ {
+  "start": 793.079,
+  "end": 795.949,
+  "text": "process it is pretty much similar to any"
+ },
+ {
+  "start": 795.959,
+  "end": 798.65,
+  "text": "code repository if you have worked on"
+ },
+ {
+  "start": 798.66,
+  "end": 801.65,
+  "text": "get or GitHub uh you will also follow"
+ },
+ {
+  "start": 801.66,
+  "end": 803.569,
+  "text": "this check-in and checkout process where"
+ },
+ {
+  "start": 803.579,
+  "end": 806.69,
+  "text": "you check out your code changes and you"
+ },
+ {
+  "start": 806.7,
+  "end": 808.19,
+  "text": "do the code changes and then you check"
+ },
+ {
+  "start": 808.2,
+  "end": 810.65,
+  "text": "in uh into the repositories so that"
+ },
+ {
+  "start": 810.66,
+  "end": 813.29,
+  "text": "other developers can or other testers"
+ },
+ {
+  "start": 813.3,
+  "end": 815.71,
+  "text": "can basically access those changes right"
+ },
+ {
+  "start": 815.72,
+  "end": 818.449,
+  "text": "and if that is in conflicts then you"
+ },
+ {
+  "start": 818.459,
+  "end": 819.949,
+  "text": "have to resolve that conflicts and you"
+ },
+ {
+  "start": 819.959,
+  "end": 821.99,
+  "text": "have to merge your changes with other"
+ },
+ {
+  "start": 822.0,
+  "end": 824.449,
+  "text": "developers so it's a similar process"
+ },
+ {
+  "start": 824.459,
+  "end": 827.389,
+  "text": "here in Tosca as well right there is"
+ },
+ {
+  "start": 827.399,
+  "end": 830.15,
+  "text": "basically just one difference is that uh"
+ },
+ {
+  "start": 830.16,
+  "end": 832.49,
+  "text": "whenever you are working on a particular"
+ },
+ {
+  "start": 832.5,
+  "end": 836.629,
+  "text": "object it doesn't give access to other"
+ },
+ {
+  "start": 836.639,
+  "end": 839.15,
+  "text": "developers they have to wait until you"
+ },
+ {
+  "start": 839.16,
+  "end": 841.49,
+  "text": "check in right so it's very important"
+ },
+ {
+  "start": 841.5,
+  "end": 843.65,
+  "text": "that once you are completed with your"
+ },
+ {
+  "start": 843.66,
+  "end": 846.11,
+  "text": "work you do a check in all and before"
+ },
+ {
+  "start": 846.12,
+  "end": 849.59,
+  "text": "you start working you do a update all so"
+ },
+ {
+  "start": 849.6,
+  "end": 851.81,
+  "text": "that you get all the changes so it's"
+ },
+ {
+  "start": 851.82,
+  "end": 855.47,
+  "text": "pretty simplified so that uh if many"
+ },
+ {
+  "start": 855.48,
+  "end": 857.03,
+  "text": "users are working in a multi-user"
+ },
+ {
+  "start": 857.04,
+  "end": 859.009,
+  "text": "workspace they don't get many conflicts"
+ },
+ {
+  "start": 859.019,
+  "end": 862.329,
+  "text": "and you don't have to spend time on"
+ },
+ {
+  "start": 862.339,
+  "end": 864.889,
+  "text": "resolving those conflicts and doing a"
+ },
+ {
+  "start": 864.899,
+  "end": 867.65,
+  "text": "merge right so Tosca simplifies this"
+ },
+ {
+  "start": 867.66,
+  "end": 870.769,
+  "text": "process it's just just every user will"
+ },
+ {
+  "start": 870.779,
+  "end": 874.069,
+  "text": "work on its own objects and then once"
+ },
+ {
+  "start": 874.079,
+  "end": 876.59,
+  "text": "they check in all or update all those"
+ },
+ {
+  "start": 876.6,
+  "end": 879.11,
+  "text": "changes will be merged and available for"
+ },
+ {
+  "start": 879.12,
+  "end": 881.569,
+  "text": "everyone okay"
+ },
+ {
+  "start": 881.579,
+  "end": 884.09,
+  "text": "so this is one aspect of multi-user"
+ },
+ {
+  "start": 884.1,
+  "end": 886.49,
+  "text": "workspace when you work on a real-time"
+ },
+ {
+  "start": 886.5,
+  "end": 888.949,
+  "text": "project you have to follow this process"
+ },
+ {
+  "start": 888.959,
+  "end": 891.71,
+  "text": "of check-in and checkout and also the"
+ },
+ {
+  "start": 891.72,
+  "end": 894.26,
+  "text": "update all"
+ }
+]

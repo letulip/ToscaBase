@@ -1,0 +1,652 @@
+[
+ {
+  "start": 12.509,
+  "end": 12.519,
+  "text": "hey everyone welcome back to our Channel"
+ },
+ {
+  "start": 12.519,
+  "end": 15.15,
+  "text": "I am back with another interesting topic"
+ },
+ {
+  "start": 15.16,
+  "end": 17.79,
+  "text": "in the tosa automation"
+ },
+ {
+  "start": 17.8,
+  "end": 20.23,
+  "text": "playlist now continuing with our test"
+ },
+ {
+  "start": 20.24,
+  "end": 22.349,
+  "text": "automation obstacle topic let's look at"
+ },
+ {
+  "start": 22.359,
+  "end": 24.23,
+  "text": "our next obstacle which is called the"
+ },
+ {
+  "start": 24.24,
+  "end": 27.509,
+  "text": "last row now in this particular obstacle"
+ },
+ {
+  "start": 27.519,
+  "end": 30.55,
+  "text": "we need to uh verify that the last row"
+ },
+ {
+  "start": 30.56,
+  "end": 34.31,
+  "text": "in the table displays an order value and"
+ },
+ {
+  "start": 34.32,
+  "end": 36.79,
+  "text": "then we need to take this value and put"
+ },
+ {
+  "start": 36.8,
+  "end": 40.51,
+  "text": "it on the text field okay so for example"
+ },
+ {
+  "start": 40.52,
+  "end": 43.63,
+  "text": "if this is the table then we need to"
+ },
+ {
+  "start": 43.64,
+  "end": 46.11,
+  "text": "grab this particular value here and then"
+ },
+ {
+  "start": 46.12,
+  "end": 48.79,
+  "text": "we need to enter it right here and then"
+ },
+ {
+  "start": 48.8,
+  "end": 51.47,
+  "text": "the obstacle will be completed now take"
+ },
+ {
+  "start": 51.48,
+  "end": 53.67,
+  "text": "note that this table is dynamically"
+ },
+ {
+  "start": 53.68,
+  "end": 56.869,
+  "text": "getting changed so this value won't be"
+ },
+ {
+  "start": 56.879,
+  "end": 59.31,
+  "text": "constant neither the number of rows will"
+ },
+ {
+  "start": 59.32,
+  "end": 60.63,
+  "text": "be constant"
+ },
+ {
+  "start": 60.64,
+  "end": 62.75,
+  "text": "right so this is very similar to the"
+ },
+ {
+  "start": 62.76,
+  "end": 65.109,
+  "text": "last obstacle where we found uh the"
+ },
+ {
+  "start": 65.119,
+  "end": 66.99,
+  "text": "number of rows which are present in a"
+ },
+ {
+  "start": 67.0,
+  "end": 68.55,
+  "text": "particular table and then entered it"
+ },
+ {
+  "start": 68.56,
+  "end": 72.27,
+  "text": "into a text field here we need to uh"
+ },
+ {
+  "start": 72.28,
+  "end": 76.55,
+  "text": "verify and grab the last value of uh"
+ },
+ {
+  "start": 76.56,
+  "end": 79.83,
+  "text": "this particular table okay so let's see"
+ },
+ {
+  "start": 79.84,
+  "end": 82.55,
+  "text": "how we can do this in tosa so coming"
+ },
+ {
+  "start": 82.56,
+  "end": 85.83,
+  "text": "back to our tosa workpace uh let's go to"
+ },
+ {
+  "start": 85.84,
+  "end": 88.91,
+  "text": "our module section and here we will go"
+ },
+ {
+  "start": 88.92,
+  "end": 91.63,
+  "text": "to obstacle"
+ },
+ {
+  "start": 91.64,
+  "end": 94.95,
+  "text": "and here we will be adding a new module"
+ },
+ {
+  "start": 94.96,
+  "end": 105.87,
+  "text": "right so let's scan the"
+ },
+ {
+  "start": 108.87,
+  "end": 108.88,
+  "text": "application and here we'll be adding uh"
+ },
+ {
+  "start": 108.88,
+  "end": 111.749,
+  "text": "two elements one is the table itself and"
+ },
+ {
+  "start": 111.759,
+  "end": 114.99,
+  "text": "then the text box okay so these are uh"
+ },
+ {
+  "start": 115.0,
+  "end": 117.35,
+  "text": "the two elements which we want and then"
+ },
+ {
+  "start": 117.36,
+  "end": 120.35,
+  "text": "let's save it and let's close it"
+ },
+ {
+  "start": 120.36,
+  "end": 122.99,
+  "text": "it okay so I'm going to rename the"
+ },
+ {
+  "start": 123.0,
+  "end": 128.469,
+  "text": "module"
+ },
+ {
+  "start": 131.47,
+  "end": 131.48,
+  "text": "first okay and then uh we are going to"
+ },
+ {
+  "start": 131.48,
+  "end": 133.949,
+  "text": "create a new test case under our"
+ },
+ {
+  "start": 133.959,
+  "end": 135.589,
+  "text": "obstacles"
+ },
+ {
+  "start": 135.599,
+  "end": 138.79,
+  "text": "folder uh with the same test case name"
+ },
+ {
+  "start": 138.8,
+  "end": 142.35,
+  "text": "which is the obstacle number okay and"
+ },
+ {
+  "start": 142.36,
+  "end": 146.509,
+  "text": "then we are going to select our module"
+ },
+ {
+  "start": 146.519,
+  "end": 148.55,
+  "text": "so let's grab the module and let's add"
+ },
+ {
+  "start": 148.56,
+  "end": 152.71,
+  "text": "it here and now uh we have got a table"
+ },
+ {
+  "start": 152.72,
+  "end": 156.79,
+  "text": "and a text box okay so right now in this"
+ },
+ {
+  "start": 156.8,
+  "end": 159.19,
+  "text": "table you can see uh the row element and"
+ },
+ {
+  "start": 159.2,
+  "end": 161.67,
+  "text": "the column element now there are two uh"
+ },
+ {
+  "start": 161.68,
+  "end": 164.63,
+  "text": "ways you can do this okay so we need to"
+ },
+ {
+  "start": 164.64,
+  "end": 167.43,
+  "text": "select the last row of this particular"
+ },
+ {
+  "start": 167.44,
+  "end": 169.63,
+  "text": "table no matter how many rows are there"
+ },
+ {
+  "start": 169.64,
+  "end": 171.75,
+  "text": "we always want to select the last row"
+ },
+ {
+  "start": 171.76,
+  "end": 174.35,
+  "text": "right so for this uh what we can do we"
+ },
+ {
+  "start": 174.36,
+  "end": 177.27,
+  "text": "can use two types of um Elements which"
+ },
+ {
+  "start": 177.28,
+  "end": 180.949,
+  "text": "are present here uh one is the this last"
+ },
+ {
+  "start": 180.959,
+  "end": 184.03,
+  "text": "dollar okay so when you select this"
+ },
+ {
+  "start": 184.04,
+  "end": 186.509,
+  "text": "dollar last then it will always select"
+ },
+ {
+  "start": 186.519,
+  "end": 188.91,
+  "text": "the last row of this particular table"
+ },
+ {
+  "start": 188.92,
+  "end": 191.47,
+  "text": "okay so whatever value it will contain"
+ },
+ {
+  "start": 191.48,
+  "end": 193.789,
+  "text": "you can find it using this particular"
+ },
+ {
+  "start": 193.799,
+  "end": 197.03,
+  "text": "row so once this row is selected then uh"
+ },
+ {
+  "start": 197.04,
+  "end": 199.229,
+  "text": "we just need to select the particular"
+ },
+ {
+  "start": 199.239,
+  "end": 202.949,
+  "text": "cell okay and uh we know that it is in"
+ },
+ {
+  "start": 202.959,
+  "end": 206.55,
+  "text": "the value colum okay so what I can do I"
+ },
+ {
+  "start": 206.56,
+  "end": 211.789,
+  "text": "can um go here and I can check that uh"
+ },
+ {
+  "start": 211.799,
+  "end": 214.19,
+  "text": "in the value column I have got this"
+ },
+ {
+  "start": 214.2,
+  "end": 215.99,
+  "text": "particular value right so this is what I"
+ },
+ {
+  "start": 216.0,
+  "end": 220.39,
+  "text": "want to grab okay so here uh instead of"
+ },
+ {
+  "start": 220.4,
+  "end": 222.83,
+  "text": "verification what I can do I can buffer"
+ },
+ {
+  "start": 222.84,
+  "end": 226.47,
+  "text": "this particular value okay and then um I"
+ },
+ {
+  "start": 226.48,
+  "end": 230.63,
+  "text": "can also put something here called bore"
+ },
+ {
+  "start": 230.64,
+  "end": 233.55,
+  "text": "Val okay so this is my buffer name where"
+ },
+ {
+  "start": 233.56,
+  "end": 235.67,
+  "text": "this particular value will be stored"
+ },
+ {
+  "start": 235.68,
+  "end": 239.03,
+  "text": "okay and once this is stored then um I"
+ },
+ {
+  "start": 239.04,
+  "end": 241.39,
+  "text": "can just go ahead and enter it into the"
+ },
+ {
+  "start": 241.4,
+  "end": 245.03,
+  "text": "text box okay so I can use the buffer so"
+ },
+ {
+  "start": 245.04,
+  "end": 247.75,
+  "text": "bore"
+ },
+ {
+  "start": 247.76,
+  "end": 250.71,
+  "text": "Val okay and then um it will be entered"
+ },
+ {
+  "start": 250.72,
+  "end": 254.069,
+  "text": "into this particular text box okay so"
+ },
+ {
+  "start": 254.079,
+  "end": 256.15,
+  "text": "I'll show you the other way as well uh"
+ },
+ {
+  "start": 256.16,
+  "end": 258.03,
+  "text": "let's first run this and let's check"
+ },
+ {
+  "start": 258.04,
+  "end": 260.749,
+  "text": "whether it is working or not okay so"
+ },
+ {
+  "start": 260.759,
+  "end": 263.469,
+  "text": "I'll mark this as completed and then I"
+ },
+ {
+  "start": 263.479,
+  "end": 268.59,
+  "text": "am going to run"
+ },
+ {
+  "start": 275.35,
+  "end": 275.36,
+  "text": "okay so as you can see uh it grabbed"
+ },
+ {
+  "start": 275.36,
+  "end": 277.39,
+  "text": "that uh particular value and it entered"
+ },
+ {
+  "start": 277.4,
+  "end": 281.43,
+  "text": "it into the text box okay now the other"
+ },
+ {
+  "start": 281.44,
+  "end": 284.79,
+  "text": "way around is uh instead of dollar last"
+ },
+ {
+  "start": 284.8,
+  "end": 288.87,
+  "text": "we can also use uh the last content row"
+ },
+ {
+  "start": 288.88,
+  "end": 291.07,
+  "text": "okay so dollar last content row so this"
+ },
+ {
+  "start": 291.08,
+  "end": 293.909,
+  "text": "will also select the last row so you can"
+ },
+ {
+  "start": 293.919,
+  "end": 296.79,
+  "text": "use any of these two elements which are"
+ },
+ {
+  "start": 296.8,
+  "end": 299.55,
+  "text": "already part of the table row element"
+ },
+ {
+  "start": 299.56,
+  "end": 303.55,
+  "text": "element type okay so now if I go ahead"
+ },
+ {
+  "start": 303.56,
+  "end": 306.51,
+  "text": "and run this in scratchbook"
+ },
+ {
+  "start": 306.52,
+  "end": 316.07,
+  "text": "again it will exactly do the same"
+ },
+ {
+  "start": 319.23,
+  "end": 319.24,
+  "text": "thing okay so this is how you can uh"
+ },
+ {
+  "start": 319.24,
+  "end": 321.71,
+  "text": "basically uh play around with uh"
+ },
+ {
+  "start": 321.72,
+  "end": 325.11,
+  "text": "different row elements so especially for"
+ },
+ {
+  "start": 325.12,
+  "end": 328.629,
+  "text": "first and last row there is already a"
+ },
+ {
+  "start": 328.639,
+  "end": 331.15,
+  "text": "option which is present for the row"
+ },
+ {
+  "start": 331.16,
+  "end": 333.189,
+  "text": "element you can see dollar one is always"
+ },
+ {
+  "start": 333.199,
+  "end": 335.67,
+  "text": "the first row then dollar n you can"
+ },
+ {
+  "start": 335.68,
+  "end": 338.95,
+  "text": "enter any particular row number and then"
+ },
+ {
+  "start": 338.96,
+  "end": 341.67,
+  "text": "uh the last uh the last content row"
+ },
+ {
+  "start": 341.68,
+  "end": 346.27,
+  "text": "would always um contain the last row and"
+ },
+ {
+  "start": 346.28,
+  "end": 348.71,
+  "text": "then you can also put uh you can also"
+ },
+ {
+  "start": 348.72,
+  "end": 351.71,
+  "text": "verify the headers or you can also"
+ },
+ {
+  "start": 351.72,
+  "end": 354.749,
+  "text": "verify whether uh it is the first empty"
+ },
+ {
+  "start": 354.759,
+  "end": 357.79,
+  "text": "row okay so these are the different uh"
+ },
+ {
+  "start": 357.8,
+  "end": 360.83,
+  "text": "types of uh elements which are already"
+ },
+ {
+  "start": 360.84,
+  "end": 363.909,
+  "text": "present in the table element type for"
+ },
+ {
+  "start": 363.919,
+  "end": 368.51,
+  "text": "the row element okay so using this uh we"
+ },
+ {
+  "start": 368.52,
+  "end": 371.15,
+  "text": "can uh basically find out what values"
+ },
+ {
+  "start": 371.16,
+  "end": 374.11,
+  "text": "are present for any particular row and"
+ },
+ {
+  "start": 374.12,
+  "end": 376.629,
+  "text": "we can buffer them we can verify them um"
+ },
+ {
+  "start": 376.639,
+  "end": 379.309,
+  "text": "and then we can use it across different"
+ },
+ {
+  "start": 379.319,
+  "end": 382.23,
+  "text": "test steps uh for our test case Okay so"
+ },
+ {
+  "start": 382.24,
+  "end": 385.189,
+  "text": "this is how you can basically automate"
+ },
+ {
+  "start": 385.199,
+  "end": 387.909,
+  "text": "your Dynamic web tables uh in your"
+ },
+ {
+  "start": 387.919,
+  "end": 391.029,
+  "text": "application using tosa"
+ },
+ {
+  "start": 391.039,
+  "end": 393.469,
+  "text": "that's all for this particular video if"
+ },
+ {
+  "start": 393.479,
+  "end": 395.35,
+  "text": "you have any questions then please leave"
+ },
+ {
+  "start": 395.36,
+  "end": 397.79,
+  "text": "it in the comments if you like this"
+ },
+ {
+  "start": 397.8,
+  "end": 399.67,
+  "text": "video then please subscribe to our"
+ },
+ {
+  "start": 399.68,
+  "end": 402.189,
+  "text": "Channel thanks for watching and I will"
+ },
+ {
+  "start": 402.199,
+  "end": 403.95,
+  "text": "see you in the next"
+ },
+ {
+  "start": 403.96,
+  "end": 406.96,
+  "text": "video"
+ }
+]

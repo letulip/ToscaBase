@@ -1,0 +1,807 @@
+[
+ {
+  "start": 12.549,
+  "end": 12.559,
+  "text": "hey everyone welcome back to our Channel"
+ },
+ {
+  "start": 12.559,
+  "end": 15.15,
+  "text": "I am back with another interesting topic"
+ },
+ {
+  "start": 15.16,
+  "end": 17.91,
+  "text": "in the tosa automation"
+ },
+ {
+  "start": 17.92,
+  "end": 20.349,
+  "text": "playlist so today uh we are going to"
+ },
+ {
+  "start": 20.359,
+  "end": 23.31,
+  "text": "discuss about a problem uh which is"
+ },
+ {
+  "start": 23.32,
+  "end": 26.109,
+  "text": "quite common when you are working with"
+ },
+ {
+  "start": 26.119,
+  "end": 28.83,
+  "text": "uh web applications you might come"
+ },
+ {
+  "start": 28.84,
+  "end": 31.83,
+  "text": "across scenarios where you get these"
+ },
+ {
+  "start": 31.84,
+  "end": 34.59,
+  "text": "popups which are mostly JavaScript"
+ },
+ {
+  "start": 34.6,
+  "end": 38.47,
+  "text": "enabled right now these popups will not"
+ },
+ {
+  "start": 38.48,
+  "end": 42.35,
+  "text": "be recognized by the tosa application"
+ },
+ {
+  "start": 42.36,
+  "end": 44.79,
+  "text": "engine which can recognize most of the"
+ },
+ {
+  "start": 44.8,
+  "end": 47.43,
+  "text": "applications but these windows will not"
+ },
+ {
+  "start": 47.44,
+  "end": 49.27,
+  "text": "be recognized by this particular"
+ },
+ {
+  "start": 49.28,
+  "end": 52.75,
+  "text": "technology so in these type of scenarios"
+ },
+ {
+  "start": 52.76,
+  "end": 56.069,
+  "text": "you need to fall back upon different"
+ },
+ {
+  "start": 56.079,
+  "end": 58.99,
+  "text": "engines and one of the engine which is"
+ },
+ {
+  "start": 59.0,
+  "end": 63.189,
+  "text": "called the U IIA engine you can use this"
+ },
+ {
+  "start": 63.199,
+  "end": 67.429,
+  "text": "UIA scan to scan these popup Windows"
+ },
+ {
+  "start": 67.439,
+  "end": 70.03,
+  "text": "which are Java Script based and through"
+ },
+ {
+  "start": 70.04,
+  "end": 72.23,
+  "text": "this you can solve this particular"
+ },
+ {
+  "start": 72.24,
+  "end": 74.39,
+  "text": "problem where you're not able to"
+ },
+ {
+  "start": 74.4,
+  "end": 77.67,
+  "text": "identify these particular popup Windows"
+ },
+ {
+  "start": 77.68,
+  "end": 80.63,
+  "text": "okay so let's see uh with the help of an"
+ },
+ {
+  "start": 80.64,
+  "end": 83.95,
+  "text": "example uh how we can go around this"
+ },
+ {
+  "start": 83.96,
+  "end": 86.39,
+  "text": "particular problem and how we can solve"
+ },
+ {
+  "start": 86.4,
+  "end": 89.19,
+  "text": "this easily with the different scanning"
+ },
+ {
+  "start": 89.2,
+  "end": 92.149,
+  "text": "methods which are available in tosa so"
+ },
+ {
+  "start": 92.159,
+  "end": 94.069,
+  "text": "for this um I have gone to this"
+ },
+ {
+  "start": 94.079,
+  "end": 96.109,
+  "text": "particular website which has got some"
+ },
+ {
+  "start": 96.119,
+  "end": 99.91,
+  "text": "JavaScript alerts okay and here uh I can"
+ },
+ {
+  "start": 99.92,
+  "end": 102.31,
+  "text": "go ahead and click any of these"
+ },
+ {
+  "start": 102.32,
+  "end": 105.23,
+  "text": "different alerts okay so I can click"
+ },
+ {
+  "start": 105.24,
+  "end": 108.389,
+  "text": "this one and you here it will say um I"
+ },
+ {
+  "start": 108.399,
+  "end": 111.91,
+  "text": "am a JS alert it is a popup window which"
+ },
+ {
+  "start": 111.92,
+  "end": 114.87,
+  "text": "comes on top of this particular browser"
+ },
+ {
+  "start": 114.88,
+  "end": 117.469,
+  "text": "right so let's see uh if we are able to"
+ },
+ {
+  "start": 117.479,
+  "end": 120.35,
+  "text": "scan this with the normal application"
+ },
+ {
+  "start": 120.36,
+  "end": 122.709,
+  "text": "uh option which we choose to scan any"
+ },
+ {
+  "start": 122.719,
+  "end": 123.99,
+  "text": "particular"
+ },
+ {
+  "start": 124.0,
+  "end": 127.389,
+  "text": "window so we'll go back to tosa and here"
+ },
+ {
+  "start": 127.399,
+  "end": 130.749,
+  "text": "in the modules we'll go ahead and choose"
+ },
+ {
+  "start": 130.759,
+  "end": 135.509,
+  "text": "scan application okay so let's go ahead"
+ },
+ {
+  "start": 135.519,
+  "end": 138.19,
+  "text": "and scan this particular application"
+ },
+ {
+  "start": 138.2,
+  "end": 142.35,
+  "text": "along with the popup so we'll try"
+ },
+ {
+  "start": 142.36,
+  "end": 145.39,
+  "text": "this okay so now you can see that uh"
+ },
+ {
+  "start": 145.4,
+  "end": 147.99,
+  "text": "tosa has scanned some elements uh it has"
+ },
+ {
+  "start": 148.0,
+  "end": 150.39,
+  "text": "scanned all these buttons"
+ },
+ {
+  "start": 150.4,
+  "end": 152.63,
+  "text": "and some links here but uh I still"
+ },
+ {
+  "start": 152.64,
+  "end": 155.229,
+  "text": "cannot see the windows popup here right"
+ },
+ {
+  "start": 155.239,
+  "end": 156.83,
+  "text": "so I'm going to increase the filtered"
+ },
+ {
+  "start": 156.84,
+  "end": 160.27,
+  "text": "items and try to see if I can still see"
+ },
+ {
+  "start": 160.28,
+  "end": 162.71,
+  "text": "this particular controls which are"
+ },
+ {
+  "start": 162.72,
+  "end": 165.949,
+  "text": "present on this popup okay so if I go"
+ },
+ {
+  "start": 165.959,
+  "end": 169.19,
+  "text": "through the whole tree I cannot see this"
+ },
+ {
+  "start": 169.2,
+  "end": 171.83,
+  "text": "popup okay or or any controls which are"
+ },
+ {
+  "start": 171.84,
+  "end": 173.07,
+  "text": "present in this"
+ },
+ {
+  "start": 173.08,
+  "end": 177.309,
+  "text": "popup so mostly uh tosa will not be able"
+ },
+ {
+  "start": 177.319,
+  "end": 180.79,
+  "text": "to scan this JavaScript alert popup okay"
+ },
+ {
+  "start": 180.8,
+  "end": 183.509,
+  "text": "when you choose the application option"
+ },
+ {
+  "start": 183.519,
+  "end": 186.07,
+  "text": "so we will see what is the work around"
+ },
+ {
+  "start": 186.08,
+  "end": 189.789,
+  "text": "for this okay so we'll close this and we"
+ },
+ {
+  "start": 189.799,
+  "end": 193.99,
+  "text": "will try to scan this"
+ },
+ {
+  "start": 194.0,
+  "end": 197.149,
+  "text": "again so initially we have to select"
+ },
+ {
+  "start": 197.159,
+  "end": 199.949,
+  "text": "application because there is no specific"
+ },
+ {
+  "start": 199.959,
+  "end": 202.83,
+  "text": "method uh present there but once you"
+ },
+ {
+  "start": 202.84,
+  "end": 206.149,
+  "text": "come to this xcan window here you can"
+ },
+ {
+  "start": 206.159,
+  "end": 209.429,
+  "text": "choose different options okay so once"
+ },
+ {
+  "start": 209.439,
+  "end": 211.63,
+  "text": "the window window is selected now what"
+ },
+ {
+  "start": 211.64,
+  "end": 214.07,
+  "text": "you can do right click on that and by"
+ },
+ {
+  "start": 214.08,
+  "end": 216.99,
+  "text": "default HTML is selected right but we"
+ },
+ {
+  "start": 217.0,
+  "end": 219.35,
+  "text": "have got different options and we are"
+ },
+ {
+  "start": 219.36,
+  "end": 223.309,
+  "text": "going to use the UIA option okay so it's"
+ },
+ {
+  "start": 223.319,
+  "end": 226.27,
+  "text": "one of the scanning engines uh which can"
+ },
+ {
+  "start": 226.28,
+  "end": 229.83,
+  "text": "scan some window based controls or even"
+ },
+ {
+  "start": 229.84,
+  "end": 232.509,
+  "text": "JavaScript based controls okay so we are"
+ },
+ {
+  "start": 232.519,
+  "end": 234.869,
+  "text": "going to use this particular scanning"
+ },
+ {
+  "start": 234.879,
+  "end": 237.19,
+  "text": "technology and then we are going to"
+ },
+ {
+  "start": 237.2,
+  "end": 238.71,
+  "text": "click on"
+ },
+ {
+  "start": 238.72,
+  "end": 241.39,
+  "text": "scan"
+ },
+ {
+  "start": 241.4,
+  "end": 243.83,
+  "text": "and now you will see that uh it has"
+ },
+ {
+  "start": 243.84,
+  "end": 247.91,
+  "text": "scanned uh different controls right here"
+ },
+ {
+  "start": 247.92,
+  "end": 250.069,
+  "text": "uh you can see many other controls but"
+ },
+ {
+  "start": 250.079,
+  "end": 252.11,
+  "text": "the main control which we are looking"
+ },
+ {
+  "start": 252.12,
+  "end": 256.789,
+  "text": "for is the popup or the alert right and"
+ },
+ {
+  "start": 256.799,
+  "end": 260.069,
+  "text": "it is present right here you can see so"
+ },
+ {
+  "start": 260.079,
+  "end": 261.949,
+  "text": "here uh we can just select the okay"
+ },
+ {
+  "start": 261.959,
+  "end": 264.67,
+  "text": "button because we want to click on okay"
+ },
+ {
+  "start": 264.68,
+  "end": 268.15,
+  "text": "to proceed with our um automation right"
+ },
+ {
+  "start": 268.16,
+  "end": 270.07,
+  "text": "because this is completely blocking the"
+ },
+ {
+  "start": 270.08,
+  "end": 272.51,
+  "text": "automation so we want to click on okay"
+ },
+ {
+  "start": 272.52,
+  "end": 274.39,
+  "text": "and then we want to proceed with our"
+ },
+ {
+  "start": 274.4,
+  "end": 277.23,
+  "text": "next steps so as you can see uh the okay"
+ },
+ {
+  "start": 277.24,
+  "end": 280.15,
+  "text": "button is uh unique so we don't need to"
+ },
+ {
+  "start": 280.16,
+  "end": 283.87,
+  "text": "do anything here okay uh I'm going to go"
+ },
+ {
+  "start": 283.88,
+  "end": 286.31,
+  "text": "ahead and save this I will change the"
+ },
+ {
+  "start": 286.32,
+  "end": 289.35,
+  "text": "name here I will say"
+ },
+ {
+  "start": 289.36,
+  "end": 290.909,
+  "text": "JavaScript"
+ },
+ {
+  "start": 290.919,
+  "end": 295.51,
+  "text": "popup okay and go ahead and save this"
+ },
+ {
+  "start": 295.52,
+  "end": 298.629,
+  "text": "now and close"
+ },
+ {
+  "start": 298.639,
+  "end": 300.749,
+  "text": "this"
+ },
+ {
+  "start": 300.759,
+  "end": 304.909,
+  "text": "so now coming back here uh you can see"
+ },
+ {
+  "start": 304.919,
+  "end": 307.31,
+  "text": "that this module has been created now if"
+ },
+ {
+  "start": 307.32,
+  "end": 309.59,
+  "text": "you want to use this module as a generic"
+ },
+ {
+  "start": 309.6,
+  "end": 312.189,
+  "text": "module right because most of the"
+ },
+ {
+  "start": 312.199,
+  "end": 314.95,
+  "text": "JavaScript alerts will have this kind of"
+ },
+ {
+  "start": 314.96,
+  "end": 318.55,
+  "text": "text so it will start with uh some um"
+ },
+ {
+  "start": 318.56,
+  "end": 320.71,
+  "text": "application related name and then it"
+ },
+ {
+  "start": 320.72,
+  "end": 323.87,
+  "text": "will say says okay this is mostly how"
+ },
+ {
+  "start": 323.88,
+  "end": 327.39,
+  "text": "the JavaScript alerts or popups have the"
+ },
+ {
+  "start": 327.4,
+  "end": 330.07,
+  "text": "same name so here what we can do is"
+ },
+ {
+  "start": 330.08,
+  "end": 333.27,
+  "text": "instead of this uh we can put a regular"
+ },
+ {
+  "start": 333.28,
+  "end": 336.07,
+  "text": "expression here okay so that uh it can"
+ },
+ {
+  "start": 336.08,
+  "end": 340.43,
+  "text": "cover any particular page title um or"
+ },
+ {
+  "start": 340.44,
+  "end": 343.309,
+  "text": "the title of that popup right so so"
+ },
+ {
+  "start": 343.319,
+  "end": 346.07,
+  "text": "whatever uh it begins with that can be"
+ },
+ {
+  "start": 346.08,
+  "end": 348.35,
+  "text": "covered with the regular expression"
+ },
+ {
+  "start": 348.36,
+  "end": 352.87,
+  "text": "Aster and then you can uh put say here"
+ },
+ {
+  "start": 352.88,
+  "end": 356.07,
+  "text": "okay now uh we will go ahead and we will"
+ },
+ {
+  "start": 356.08,
+  "end": 358.79,
+  "text": "create a new test case let's create a"
+ },
+ {
+  "start": 358.8,
+  "end": 360.59,
+  "text": "new test case under the the same folder"
+ },
+ {
+  "start": 360.6,
+  "end": 363.79,
+  "text": "which is Win controls okay so here we"
+ },
+ {
+  "start": 363.8,
+  "end": 366.43,
+  "text": "will say uh"
+ },
+ {
+  "start": 366.44,
+  "end": 369.99,
+  "text": "click on"
+ },
+ {
+  "start": 370.0,
+  "end": 375.029,
+  "text": "popup okay and then we will go ahead and"
+ },
+ {
+  "start": 375.039,
+  "end": 377.15,
+  "text": "add the module"
+ },
+ {
+  "start": 377.16,
+  "end": 379.87,
+  "text": "here and here what we need to do we just"
+ },
+ {
+  "start": 379.88,
+  "end": 382.589,
+  "text": "need to click on it"
+ },
+ {
+  "start": 382.599,
+  "end": 385.87,
+  "text": "right so that's all uh we have to do"
+ },
+ {
+  "start": 385.88,
+  "end": 389.83,
+  "text": "here and then let's go ahead and uh run"
+ },
+ {
+  "start": 389.84,
+  "end": 394.67,
+  "text": "this in"
+ },
+ {
+  "start": 397.55,
+  "end": 397.56,
+  "text": "scratchbook okay so as you can see now"
+ },
+ {
+  "start": 397.56,
+  "end": 400.27,
+  "text": "it was able to click on the okay button"
+ },
+ {
+  "start": 400.28,
+  "end": 403.11,
+  "text": "successfully but previously it was not"
+ },
+ {
+  "start": 403.12,
+  "end": 405.71,
+  "text": "even able to uh scan this particular"
+ },
+ {
+  "start": 405.72,
+  "end": 409.309,
+  "text": "control okay so uh in scenarios where"
+ },
+ {
+  "start": 409.319,
+  "end": 411.87,
+  "text": "you're not able to scan uh particular"
+ },
+ {
+  "start": 411.88,
+  "end": 414.71,
+  "text": "controls using the application option"
+ },
+ {
+  "start": 414.72,
+  "end": 417.11,
+  "text": "you can go ahead and choose a different"
+ },
+ {
+  "start": 417.12,
+  "end": 419.99,
+  "text": "option in the xcan window there are"
+ },
+ {
+  "start": 420.0,
+  "end": 422.95,
+  "text": "different options like UIA you can also"
+ },
+ {
+  "start": 422.96,
+  "end": 425.27,
+  "text": "follow back up on Vision AI if you have"
+ },
+ {
+  "start": 425.28,
+  "end": 427.629,
+  "text": "got an account for that okay so these"
+ },
+ {
+  "start": 427.639,
+  "end": 429.27,
+  "text": "are the two different options which you"
+ },
+ {
+  "start": 429.28,
+  "end": 432.07,
+  "text": "can try before falling back to different"
+ },
+ {
+  "start": 432.08,
+  "end": 436.309,
+  "text": "other options right now uh this uh will"
+ },
+ {
+  "start": 436.319,
+  "end": 439.79,
+  "text": "work for the Chrome browser so if you"
+ },
+ {
+  "start": 439.8,
+  "end": 442.15,
+  "text": "are working on other browsers the"
+ },
+ {
+  "start": 442.16,
+  "end": 445.39,
+  "text": "message may be different or the popup"
+ },
+ {
+  "start": 445.4,
+  "end": 447.39,
+  "text": "title may be different so you need to"
+ },
+ {
+  "start": 447.4,
+  "end": 450.51,
+  "text": "adjust your uh name name of that"
+ },
+ {
+  "start": 450.52,
+  "end": 452.79,
+  "text": "particular title as per the browser"
+ },
+ {
+  "start": 452.8,
+  "end": 456.309,
+  "text": "window because every browser will have a"
+ },
+ {
+  "start": 456.319,
+  "end": 459.909,
+  "text": "different title for the JavaScript"
+ },
+ {
+  "start": 459.919,
+  "end": 462.27,
+  "text": "popup that's all for this particular"
+ },
+ {
+  "start": 462.28,
+  "end": 464.71,
+  "text": "video if you have any questions then"
+ },
+ {
+  "start": 464.72,
+  "end": 467.189,
+  "text": "please leave it in the comments if you"
+ },
+ {
+  "start": 467.199,
+  "end": 469.11,
+  "text": "like this video then please subscribe to"
+ },
+ {
+  "start": 469.12,
+  "end": 471.869,
+  "text": "our Channel thanks for watching and I"
+ },
+ {
+  "start": 471.879,
+  "end": 473.99,
+  "text": "will see you in the next"
+ },
+ {
+  "start": 474.0,
+  "end": 477.0,
+  "text": "video"
+ }
+]

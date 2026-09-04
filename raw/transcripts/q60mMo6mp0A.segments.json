@@ -1,0 +1,962 @@
+[
+ {
+  "start": 7.51,
+  "end": 7.52,
+  "text": "hey everyone welcome back to another"
+ },
+ {
+  "start": 7.52,
+  "end": 10.23,
+  "text": "lesson in this tosa automation playlist"
+ },
+ {
+  "start": 10.24,
+  "end": 12.509,
+  "text": "today we are going to talk about the"
+ },
+ {
+  "start": 12.519,
+  "end": 14.829,
+  "text": "dynamic datea Expressions which are"
+ },
+ {
+  "start": 14.839,
+  "end": 18.429,
+  "text": "present in tosa and how you can use them"
+ },
+ {
+  "start": 18.439,
+  "end": 20.75,
+  "text": "in several scenarios where you need to"
+ },
+ {
+  "start": 20.76,
+  "end": 23.75,
+  "text": "perform some date calculations so let's"
+ },
+ {
+  "start": 23.76,
+  "end": 26.95,
+  "text": "look at one such field now I am in the"
+ },
+ {
+  "start": 26.96,
+  "end": 29.31,
+  "text": "TR centers vehicle uh demo application"
+ },
+ {
+  "start": 29.32,
+  "end": 31.39,
+  "text": "and here you can see we need to enter"
+ },
+ {
+  "start": 31.4,
+  "end": 34.03,
+  "text": "some start date here right and enter"
+ },
+ {
+  "start": 34.04,
+  "end": 37.19,
+  "text": "product data screen now I have entered"
+ },
+ {
+  "start": 37.2,
+  "end": 39.869,
+  "text": "one date here uh which is the starting"
+ },
+ {
+  "start": 39.879,
+  "end": 43.029,
+  "text": "date for this year but it gives a error"
+ },
+ {
+  "start": 43.039,
+  "end": 46.31,
+  "text": "message saying it must be more than one"
+ },
+ {
+  "start": 46.32,
+  "end": 49.99,
+  "text": "month in the future right so this date"
+ },
+ {
+  "start": 50.0,
+  "end": 53.389,
+  "text": "should always be one month more than the"
+ },
+ {
+  "start": 53.399,
+  "end": 57.47,
+  "text": "current date okay so if I calculate the"
+ },
+ {
+  "start": 57.48,
+  "end": 63.31,
+  "text": "date okay it should be something like"
+ },
+ {
+  "start": 63.32,
+  "end": 65.55,
+  "text": "1710"
+ },
+ {
+  "start": 65.56,
+  "end": 68.99,
+  "text": "2023 or uh 11"
+ },
+ {
+  "start": 69.0,
+  "end": 73.83,
+  "text": "2023 okay also uh it accepts the date in"
+ },
+ {
+  "start": 73.84,
+  "end": 77.39,
+  "text": "the mmddyy format and that's why this"
+ },
+ {
+  "start": 77.4,
+  "end": 79.31,
+  "text": "error was still coming because I have"
+ },
+ {
+  "start": 79.32,
+  "end": 81.83,
+  "text": "entered it in the wrong format so I need"
+ },
+ {
+  "start": 81.84,
+  "end": 87.429,
+  "text": "to make it 11 17 and then 2023 okay so"
+ },
+ {
+  "start": 87.439,
+  "end": 90.39,
+  "text": "now uh the date is validated and it's"
+ },
+ {
+  "start": 90.4,
+  "end": 93.23,
+  "text": "correct now in these type of scenarios"
+ },
+ {
+  "start": 93.24,
+  "end": 95.469,
+  "text": "you cannot just enter any particular"
+ },
+ {
+  "start": 95.479,
+  "end": 99.19,
+  "text": "date you have to enter a date which"
+ },
+ {
+  "start": 99.2,
+  "end": 101.389,
+  "text": "satisfies this condition which is"
+ },
+ {
+  "start": 101.399,
+  "end": 104.469,
+  "text": "mentioned for this particular field and"
+ },
+ {
+  "start": 104.479,
+  "end": 107.55,
+  "text": "even though you have uh stored some"
+ },
+ {
+  "start": 107.56,
+  "end": 109.789,
+  "text": "dates like some sample dates in your"
+ },
+ {
+  "start": 109.799,
+  "end": 112.389,
+  "text": "test sheet and you try to enter it into"
+ },
+ {
+  "start": 112.399,
+  "end": 115.069,
+  "text": "this particular field it might work on"
+ },
+ {
+  "start": 115.079,
+  "end": 118.23,
+  "text": "that same day but it may not work the"
+ },
+ {
+  "start": 118.24,
+  "end": 120.389,
+  "text": "next day because the calculation"
+ },
+ {
+  "start": 120.399,
+  "end": 124.429,
+  "text": "would go wrong right so this kind of"
+ },
+ {
+  "start": 124.439,
+  "end": 128.029,
+  "text": "test data cannot be uh static in nature"
+ },
+ {
+  "start": 128.039,
+  "end": 130.83,
+  "text": "so you cannot store static test data it"
+ },
+ {
+  "start": 130.84,
+  "end": 133.43,
+  "text": "has to be dynamic in nature so you need"
+ },
+ {
+  "start": 133.44,
+  "end": 136.27,
+  "text": "to put some calculation before you enter"
+ },
+ {
+  "start": 136.28,
+  "end": 139.27,
+  "text": "something in this particular field so"
+ },
+ {
+  "start": 139.28,
+  "end": 140.91,
+  "text": "let's see how we can use the dynamic"
+ },
+ {
+  "start": 140.92,
+  "end": 143.509,
+  "text": "data expression in this particular case"
+ },
+ {
+  "start": 143.519,
+  "end": 146.19,
+  "text": "and how we can perform this calculation"
+ },
+ {
+  "start": 146.2,
+  "end": 148.229,
+  "text": "where we need to enter a date which is"
+ },
+ {
+  "start": 148.239,
+  "end": 151.47,
+  "text": "one month in future"
+ },
+ {
+  "start": 151.48,
+  "end": 154.99,
+  "text": "so uh let's uh head back to tosa and"
+ },
+ {
+  "start": 155.0,
+  "end": 156.589,
+  "text": "here I have already scanned this"
+ },
+ {
+  "start": 156.599,
+  "end": 159.589,
+  "text": "particular module okay uh so I have"
+ },
+ {
+  "start": 159.599,
+  "end": 162.589,
+  "text": "recorded this uh date field which is a"
+ },
+ {
+  "start": 162.599,
+  "end": 164.83,
+  "text": "start date and then I have created a"
+ },
+ {
+  "start": 164.84,
+  "end": 166.35,
+  "text": "test case where I'm using this"
+ },
+ {
+  "start": 166.36,
+  "end": 168.27,
+  "text": "particular module"
+ },
+ {
+  "start": 168.28,
+  "end": 172.149,
+  "text": "okay now one way is I can directly enter"
+ },
+ {
+  "start": 172.159,
+  "end": 175.75,
+  "text": "the date here right it is a text field"
+ },
+ {
+  "start": 175.76,
+  "end": 178.589,
+  "text": "but uh you know it will not work right"
+ },
+ {
+  "start": 178.599,
+  "end": 180.35,
+  "text": "maybe it will work today but but"
+ },
+ {
+  "start": 180.36,
+  "end": 182.509,
+  "text": "tomorrow it won't work because again it"
+ },
+ {
+  "start": 182.519,
+  "end": 186.03,
+  "text": "won't be one month in the future right"
+ },
+ {
+  "start": 186.04,
+  "end": 188.47,
+  "text": "so we need to use something called the"
+ },
+ {
+  "start": 188.48,
+  "end": 192.309,
+  "text": "date expression in this value field okay"
+ },
+ {
+  "start": 192.319,
+  "end": 195.71,
+  "text": "and the date expression can be found uh"
+ },
+ {
+  "start": 195.72,
+  "end": 198.07,
+  "text": "when you start your curly Braes you will"
+ },
+ {
+  "start": 198.08,
+  "end": 201.39,
+  "text": "find it in the drop down okay and there"
+ },
+ {
+  "start": 201.4,
+  "end": 203.75,
+  "text": "is something called"
+ },
+ {
+  "start": 203.76,
+  "end": 206.39,
+  "text": "Date okay and there's also a date time"
+ },
+ {
+  "start": 206.4,
+  "end": 209.429,
+  "text": "expression if you want to use that time"
+ },
+ {
+  "start": 209.439,
+  "end": 211.91,
+  "text": "now for this date uh it will return you"
+ },
+ {
+  "start": 211.92,
+  "end": 215.509,
+  "text": "the full current date okay uh and you"
+ },
+ {
+  "start": 215.519,
+  "end": 217.429,
+  "text": "can see here the date and time values"
+ },
+ {
+  "start": 217.439,
+  "end": 220.789,
+  "text": "can be calculated by using the base date"
+ },
+ {
+  "start": 220.799,
+  "end": 223.789,
+  "text": "along with deviations and it can be"
+ },
+ {
+  "start": 223.799,
+  "end": 226.47,
+  "text": "displayed in a user defined format okay"
+ },
+ {
+  "start": 226.48,
+  "end": 229.309,
+  "text": "so it can do all of this it can"
+ },
+ {
+  "start": 229.319,
+  "end": 232.47,
+  "text": "calculate the date based on a base date"
+ },
+ {
+  "start": 232.48,
+  "end": 234.91,
+  "text": "uh along with some deviations so you can"
+ },
+ {
+  "start": 234.92,
+  "end": 237.35,
+  "text": "do some calculations and then it can"
+ },
+ {
+  "start": 237.36,
+  "end": 240.03,
+  "text": "also be displayed in a particular format"
+ },
+ {
+  "start": 240.04,
+  "end": 244.35,
+  "text": "okay so the Syntax for this is here so"
+ },
+ {
+  "start": 244.36,
+  "end": 247.949,
+  "text": "in date we need to provide a base date"
+ },
+ {
+  "start": 247.959,
+  "end": 250.509,
+  "text": "okay it could be any date and then you"
+ },
+ {
+  "start": 250.519,
+  "end": 254.149,
+  "text": "need to provide the offset now offset is"
+ },
+ {
+  "start": 254.159,
+  "end": 256.71,
+  "text": "something uh called the deviation from"
+ },
+ {
+  "start": 256.72,
+  "end": 260.55,
+  "text": "the base date so either you can add some"
+ },
+ {
+  "start": 260.56,
+  "end": 263.11,
+  "text": "days to your base date or you can"
+ },
+ {
+  "start": 263.12,
+  "end": 266.07,
+  "text": "subtract some days from the base date uh"
+ },
+ {
+  "start": 266.08,
+  "end": 269.87,
+  "text": "now this uh offset it could be in months"
+ },
+ {
+  "start": 269.88,
+  "end": 272.79,
+  "text": "it could be in days it could be in weeks"
+ },
+ {
+  "start": 272.8,
+  "end": 275.59,
+  "text": "um or it could be in several other"
+ },
+ {
+  "start": 275.6,
+  "end": 277.11,
+  "text": "variations"
+ },
+ {
+  "start": 277.12,
+  "end": 280.95,
+  "text": "okay and also we can uh Define the"
+ },
+ {
+  "start": 280.96,
+  "end": 284.029,
+  "text": "format okay so the date expression"
+ },
+ {
+  "start": 284.039,
+  "end": 286.79,
+  "text": "format of the test object can be defined"
+ },
+ {
+  "start": 286.8,
+  "end": 288.95,
+  "text": "here there's also an example here you"
+ },
+ {
+  "start": 288.96,
+  "end": 291.51,
+  "text": "can see so there is the datea expression"
+ },
+ {
+  "start": 291.52,
+  "end": 295.15,
+  "text": "then there is the base date which is 23"
+ },
+ {
+  "start": 295.16,
+  "end": 296.43,
+  "text": "uh May"
+ },
+ {
+  "start": 296.44,
+  "end": 299.71,
+  "text": "2016 then here is the offset which which"
+ },
+ {
+  "start": 299.72,
+  "end": 303.23,
+  "text": "is here we are calculating plus 3 months"
+ },
+ {
+  "start": 303.24,
+  "end": 306.029,
+  "text": "which is uh it will calculate uh 3"
+ },
+ {
+  "start": 306.039,
+  "end": 308.469,
+  "text": "months in future for this particular"
+ },
+ {
+  "start": 308.479,
+  "end": 313.07,
+  "text": "date and then it will also minus one day"
+ },
+ {
+  "start": 313.08,
+  "end": 314.749,
+  "text": "okay so this is the calculation which it"
+ },
+ {
+  "start": 314.759,
+  "end": 317.79,
+  "text": "is doing and then here it is specifying"
+ },
+ {
+  "start": 317.8,
+  "end": 320.43,
+  "text": "the format which is"
+ },
+ {
+  "start": 320.44,
+  "end": 323.99,
+  "text": "mmddyy y okay and then the result is"
+ },
+ {
+  "start": 324.0,
+  "end": 327.27,
+  "text": "this so we need uh something similar"
+ },
+ {
+  "start": 327.28,
+  "end": 331.43,
+  "text": "here in our scenario we need need to um"
+ },
+ {
+  "start": 331.44,
+  "end": 335.23,
+  "text": "find out the date 1 month in future so"
+ },
+ {
+  "start": 335.24,
+  "end": 337.909,
+  "text": "let's uh now enter um our value here"
+ },
+ {
+  "start": 337.919,
+  "end": 340.55,
+  "text": "which is one month in future okay it is"
+ },
+ {
+  "start": 340.56,
+  "end": 343.11,
+  "text": "pretty similar so we'll start off with"
+ },
+ {
+  "start": 343.12,
+  "end": 345.15,
+  "text": "the square brackets and then I'm going"
+ },
+ {
+  "start": 345.16,
+  "end": 347.67,
+  "text": "to close the square brackets now you"
+ },
+ {
+  "start": 347.68,
+  "end": 349.27,
+  "text": "need to make sure that even though"
+ },
+ {
+  "start": 349.28,
+  "end": 351.59,
+  "text": "you're not mentioning any value you"
+ },
+ {
+  "start": 351.6,
+  "end": 354.029,
+  "text": "should always follow the syntax which"
+ },
+ {
+  "start": 354.039,
+  "end": 355.79,
+  "text": "means there should be always three"
+ },
+ {
+  "start": 355.8,
+  "end": 357.95,
+  "text": "square brackets no matter which one you"
+ },
+ {
+  "start": 357.96,
+  "end": 360.11,
+  "text": "are providing the values or which you"
+ },
+ {
+  "start": 360.12,
+  "end": 363.11,
+  "text": "are not providing the values okay now I"
+ },
+ {
+  "start": 363.12,
+  "end": 365.27,
+  "text": "don't want to enter any particular uh"
+ },
+ {
+  "start": 365.28,
+  "end": 367.99,
+  "text": "base date value here because by default"
+ },
+ {
+  "start": 368.0,
+  "end": 370.189,
+  "text": "the base date is the current date and"
+ },
+ {
+  "start": 370.199,
+  "end": 371.87,
+  "text": "that works for me because I want to"
+ },
+ {
+  "start": 371.88,
+  "end": 374.99,
+  "text": "calculate based on my current date now"
+ },
+ {
+  "start": 375.0,
+  "end": 377.15,
+  "text": "if your calculation is based on a"
+ },
+ {
+  "start": 377.16,
+  "end": 379.749,
+  "text": "particular date then you can mention the"
+ },
+ {
+  "start": 379.759,
+  "end": 382.23,
+  "text": "base date as that date okay and then the"
+ },
+ {
+  "start": 382.24,
+  "end": 384.87,
+  "text": "calculation will be done on that base"
+ },
+ {
+  "start": 384.88,
+  "end": 387.629,
+  "text": "date okay so for me it is the current"
+ },
+ {
+  "start": 387.639,
+  "end": 389.749,
+  "text": "date and that's why I have not mention"
+ },
+ {
+  "start": 389.759,
+  "end": 392.07,
+  "text": "anything now I will do the calculation"
+ },
+ {
+  "start": 392.08,
+  "end": 395.99,
+  "text": "which is the offset so I want plus one"
+ },
+ {
+  "start": 396.0,
+  "end": 400.99,
+  "text": "month and also I want plus 1D which is"
+ },
+ {
+  "start": 401.0,
+  "end": 405.309,
+  "text": "1D okay and that is because uh in here"
+ },
+ {
+  "start": 405.319,
+  "end": 410.39,
+  "text": "you will see that if I mention just one"
+ },
+ {
+  "start": 410.4,
+  "end": 413.87,
+  "text": "month in future it won't satisfy the"
+ },
+ {
+  "start": 413.88,
+  "end": 417.029,
+  "text": "condition it should be 1 month in future"
+ },
+ {
+  "start": 417.039,
+  "end": 420.189,
+  "text": "plus one day okay which is the next day"
+ },
+ {
+  "start": 420.199,
+  "end": 424.029,
+  "text": "so I'm going to enter this and then it"
+ },
+ {
+  "start": 424.039,
+  "end": 428.07,
+  "text": "will be satisfied right also you can see"
+ },
+ {
+  "start": 428.08,
+  "end": 432.869,
+  "text": "the format is MM DD and yyy so I need to"
+ },
+ {
+  "start": 432.879,
+  "end": 435.469,
+  "text": "provide or the date in this particular"
+ },
+ {
+  "start": 435.479,
+  "end": 437.55,
+  "text": "format"
+ },
+ {
+  "start": 437.56,
+  "end": 441.83,
+  "text": "okay so in the last field it is for the"
+ },
+ {
+  "start": 441.84,
+  "end": 445.79,
+  "text": "format and I'm going to now mention mm"
+ },
+ {
+  "start": 445.8,
+  "end": 451.029,
+  "text": "and then I'm going to mention slash"
+ },
+ {
+  "start": 451.039,
+  "end": 454.11,
+  "text": "okay and DD and then again slash and"
+ },
+ {
+  "start": 454.12,
+  "end": 457.309,
+  "text": "then YY y so this is the"
+ },
+ {
+  "start": 457.319,
+  "end": 461.15,
+  "text": "format uh which should be calculated"
+ },
+ {
+  "start": 461.16,
+  "end": 465.79,
+  "text": "okay also we need to end the clyra here"
+ },
+ {
+  "start": 465.8,
+  "end": 468.55,
+  "text": "and it should look like"
+ },
+ {
+  "start": 468.56,
+  "end": 472.11,
+  "text": "this now if I translate this particular"
+ },
+ {
+  "start": 472.12,
+  "end": 475.869,
+  "text": "value you will see that the translation"
+ },
+ {
+  "start": 475.879,
+  "end": 479.07,
+  "text": "was successful and my value is exactly"
+ },
+ {
+  "start": 479.08,
+  "end": 483.35,
+  "text": "what I want which is 1117"
+ },
+ {
+  "start": 483.36,
+  "end": 487.27,
+  "text": "2023 now the advantage of uh taking this"
+ },
+ {
+  "start": 487.28,
+  "end": 490.71,
+  "text": "calculation or picking up a dynamic"
+ },
+ {
+  "start": 490.72,
+  "end": 494.23,
+  "text": "expression is tomorrow right if I"
+ },
+ {
+  "start": 494.24,
+  "end": 497.27,
+  "text": "execute this it will again change the"
+ },
+ {
+  "start": 497.28,
+  "end": 500.469,
+  "text": "date based on the calculation so every"
+ },
+ {
+  "start": 500.479,
+  "end": 503.43,
+  "text": "day the value would be different and it"
+ },
+ {
+  "start": 503.44,
+  "end": 505.629,
+  "text": "will satisfy the condition and that's"
+ },
+ {
+  "start": 505.639,
+  "end": 509.749,
+  "text": "how my test case will never fail right"
+ },
+ {
+  "start": 509.759,
+  "end": 513.509,
+  "text": "so that's the uh importance of having a"
+ },
+ {
+  "start": 513.519,
+  "end": 516.469,
+  "text": "dynamic value instead of a static value"
+ },
+ {
+  "start": 516.479,
+  "end": 522.31,
+  "text": "okay so now if I run this in"
+ },
+ {
+  "start": 524.59,
+  "end": 524.6,
+  "text": "scratchbook okay so it should enter the"
+ },
+ {
+  "start": 524.6,
+  "end": 528.07,
+  "text": "date and then the date will be"
+ },
+ {
+  "start": 528.08,
+  "end": 530.87,
+  "text": "validated so uh this is how you can use"
+ },
+ {
+  "start": 530.88,
+  "end": 533.03,
+  "text": "the dynamic date expression which is"
+ },
+ {
+  "start": 533.04,
+  "end": 536.23,
+  "text": "available in tosa for Fields where you"
+ },
+ {
+  "start": 536.24,
+  "end": 539.19,
+  "text": "require some offset or some ad"
+ },
+ {
+  "start": 539.2,
+  "end": 542.269,
+  "text": "adjustments to your current date or some"
+ },
+ {
+  "start": 542.279,
+  "end": 544.75,
+  "text": "particular date okay so some condition"
+ },
+ {
+  "start": 544.76,
+  "end": 547.35,
+  "text": "needs to be satisfied before you enter"
+ },
+ {
+  "start": 547.36,
+  "end": 549.23,
+  "text": "some value in that particular field and"
+ },
+ {
+  "start": 549.24,
+  "end": 551.79,
+  "text": "it is dynamically changing okay so this"
+ },
+ {
+  "start": 551.8,
+  "end": 554.15,
+  "text": "is where you can make use of the dynamic"
+ },
+ {
+  "start": 554.16,
+  "end": 556.43,
+  "text": "data expression and there are lots of"
+ },
+ {
+  "start": 556.44,
+  "end": 558.63,
+  "text": "different options in the dynamic data"
+ },
+ {
+  "start": 558.64,
+  "end": 560.35,
+  "text": "expressions in"
+ },
+ {
+  "start": 560.36,
+  "end": 562.71,
+  "text": "tosa that's all for this particular"
+ },
+ {
+  "start": 562.72,
+  "end": 565.15,
+  "text": "video if you have any questions then"
+ },
+ {
+  "start": 565.16,
+  "end": 567.63,
+  "text": "please leave it in the comments if you"
+ },
+ {
+  "start": 567.64,
+  "end": 569.63,
+  "text": "like this video then please subscribe to"
+ },
+ {
+  "start": 569.64,
+  "end": 572.31,
+  "text": "our Channel thanks for watching and I"
+ },
+ {
+  "start": 572.32,
+  "end": 576.959,
+  "text": "will see you in the next video"
+ }
+]

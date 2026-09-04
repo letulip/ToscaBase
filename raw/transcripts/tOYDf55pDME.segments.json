@@ -1,0 +1,527 @@
+[
+ {
+  "start": 12.509,
+  "end": 12.519,
+  "text": "hey everyone welcome back to our Channel"
+ },
+ {
+  "start": 12.519,
+  "end": 15.15,
+  "text": "I am back with another interesting topic"
+ },
+ {
+  "start": 15.16,
+  "end": 17.71,
+  "text": "in the tosa automation playlist so"
+ },
+ {
+  "start": 17.72,
+  "end": 19.55,
+  "text": "continuing with our topic on test"
+ },
+ {
+  "start": 19.56,
+  "end": 21.91,
+  "text": "automation obstacles let's look at our"
+ },
+ {
+  "start": 21.92,
+  "end": 24.509,
+  "text": "next obstacle which is called future"
+ },
+ {
+  "start": 24.519,
+  "end": 27.669,
+  "text": "Christmas now this is related to a date"
+ },
+ {
+  "start": 27.679,
+  "end": 30.23,
+  "text": "format and here what we need to do is we"
+ },
+ {
+  "start": 30.24,
+  "end": 34.03,
+  "text": "need to calculate on which day Christmas"
+ },
+ {
+  "start": 34.04,
+  "end": 37.43,
+  "text": "25 December falls in the next 2 years"
+ },
+ {
+  "start": 37.44,
+  "end": 40.229,
+  "text": "which means after two years what day"
+ },
+ {
+  "start": 40.239,
+  "end": 42.63,
+  "text": "would Christmas fall on it could be a"
+ },
+ {
+  "start": 42.64,
+  "end": 44.709,
+  "text": "Monday Tuesday Wednesday Thursday or"
+ },
+ {
+  "start": 44.719,
+  "end": 47.79,
+  "text": "Friday right so we have to write it as a"
+ },
+ {
+  "start": 47.8,
+  "end": 51.59,
+  "text": "word okay so in this Christmas is near"
+ },
+ {
+  "start": 51.6,
+  "end": 54.229,
+  "text": "and there is a text box enter the day so"
+ },
+ {
+  "start": 54.239,
+  "end": 57.59,
+  "text": "here we need to write the day and uh if"
+ },
+ {
+  "start": 57.6,
+  "end": 60.59,
+  "text": "we calculate then the ch Christmas after"
+ },
+ {
+  "start": 60.6,
+  "end": 64.429,
+  "text": "2 years would fall on a Friday okay so"
+ },
+ {
+  "start": 64.439,
+  "end": 67.109,
+  "text": "that's basically the answer and that"
+ },
+ {
+  "start": 67.119,
+  "end": 69.789,
+  "text": "will solve the obstacle but we need to"
+ },
+ {
+  "start": 69.799,
+  "end": 73.19,
+  "text": "do this using tosa so let's see how we"
+ },
+ {
+  "start": 73.2,
+  "end": 75.469,
+  "text": "can achieve this particular automation"
+ },
+ {
+  "start": 75.479,
+  "end": 78.63,
+  "text": "using the date"
+ },
+ {
+  "start": 81.23,
+  "end": 81.24,
+  "text": "Expressions so coming back to our TSA"
+ },
+ {
+  "start": 81.24,
+  "end": 84.63,
+  "text": "workspace uh the first step is to get"
+ },
+ {
+  "start": 84.64,
+  "end": 87.789,
+  "text": "that uh module which contains that text"
+ },
+ {
+  "start": 87.799,
+  "end": 94.23,
+  "text": "box so I'm going to scan this"
+ },
+ {
+  "start": 96.749,
+  "end": 96.759,
+  "text": "quickly so here I'm going to just select"
+ },
+ {
+  "start": 96.759,
+  "end": 99.63,
+  "text": "the text box uh that is all uh what we"
+ },
+ {
+  "start": 99.64,
+  "end": 104.27,
+  "text": "need and I will also rename the module"
+ },
+ {
+  "start": 104.28,
+  "end": 108.55,
+  "text": "here and then save this and close"
+ },
+ {
+  "start": 108.56,
+  "end": 113.429,
+  "text": "it okay um so that is done next uh we"
+ },
+ {
+  "start": 113.439,
+  "end": 116.749,
+  "text": "need to add a test case so I'll go to"
+ },
+ {
+  "start": 116.759,
+  "end": 121.069,
+  "text": "our obstacles folder and I will create"
+ },
+ {
+  "start": 121.079,
+  "end": 125.19,
+  "text": "the test case here and then I'm going to"
+ },
+ {
+  "start": 125.2,
+  "end": 128.949,
+  "text": "add the respective module right"
+ },
+ {
+  "start": 128.959,
+  "end": 130.51,
+  "text": "here"
+ },
+ {
+  "start": 130.52,
+  "end": 135.71,
+  "text": "okay so here uh we need to use some"
+ },
+ {
+  "start": 135.72,
+  "end": 137.55,
+  "text": "Expressions uh which is the date"
+ },
+ {
+  "start": 137.56,
+  "end": 140.71,
+  "text": "expression but we also need to find out"
+ },
+ {
+  "start": 140.72,
+  "end": 143.19,
+  "text": "the day on which that particular date"
+ },
+ {
+  "start": 143.2,
+  "end": 146.11,
+  "text": "falls on right so for that uh we need to"
+ },
+ {
+  "start": 146.12,
+  "end": 150.55,
+  "text": "use some expression like uh the L day"
+ },
+ {
+  "start": 150.56,
+  "end": 153.39,
+  "text": "okay so what it does it uh provides you"
+ },
+ {
+  "start": 153.4,
+  "end": 155.99,
+  "text": "with the day according to the current"
+ },
+ {
+  "start": 156.0,
+  "end": 159.67,
+  "text": "system settings okay so the result could"
+ },
+ {
+  "start": 159.68,
+  "end": 163.63,
+  "text": "be a day uh which is stated in words"
+ },
+ {
+  "start": 163.64,
+  "end": 166.11,
+  "text": "okay so inside this you can then put"
+ },
+ {
+  "start": 166.12,
+  "end": 168.83,
+  "text": "your own date expression as given in"
+ },
+ {
+  "start": 168.84,
+  "end": 171.949,
+  "text": "this particular syntax and example right"
+ },
+ {
+  "start": 171.959,
+  "end": 175.47,
+  "text": "and the result would be a day so that's"
+ },
+ {
+  "start": 175.48,
+  "end": 178.11,
+  "text": "what this particular expression does"
+ },
+ {
+  "start": 178.12,
+  "end": 180.949,
+  "text": "okay now inside this we are going to"
+ },
+ {
+  "start": 180.959,
+  "end": 183.55,
+  "text": "write the date expression and as you"
+ },
+ {
+  "start": 183.56,
+  "end": 186.149,
+  "text": "know uh we can put a base date we can"
+ },
+ {
+  "start": 186.159,
+  "end": 188.229,
+  "text": "put a offset and we can also put a"
+ },
+ {
+  "start": 188.239,
+  "end": 191.229,
+  "text": "format but uh we don't require uh the"
+ },
+ {
+  "start": 191.239,
+  "end": 193.27,
+  "text": "format in this case we just require the"
+ },
+ {
+  "start": 193.28,
+  "end": 196.47,
+  "text": "base date and then we require the offset"
+ },
+ {
+  "start": 196.48,
+  "end": 199.229,
+  "text": "which is uh plus two years right because"
+ },
+ {
+  "start": 199.239,
+  "end": 202.19,
+  "text": "we are trying to find the date uh after"
+ },
+ {
+  "start": 202.2,
+  "end": 205.55,
+  "text": "2 years right so we are going to write"
+ },
+ {
+  "start": 205.56,
+  "end": 208.99,
+  "text": "this particular expression so in this uh"
+ },
+ {
+  "start": 209.0,
+  "end": 211.99,
+  "text": "we are going to write the date uh so we"
+ },
+ {
+  "start": 212.0,
+  "end": 214.309,
+  "text": "know that it is the Christmas so 25"
+ },
+ {
+  "start": 214.319,
+  "end": 217.19,
+  "text": "December so I'm going to write 2512 and"
+ },
+ {
+  "start": 217.2,
+  "end": 220.71,
+  "text": "then I'm going to write the current date"
+ },
+ {
+  "start": 220.72,
+  "end": 223.35,
+  "text": "or current year right in this"
+ },
+ {
+  "start": 223.36,
+  "end": 226.429,
+  "text": "2024 and then um we are going to write"
+ },
+ {
+  "start": 226.439,
+  "end": 229.35,
+  "text": "the offset here which is plus 2"
+ },
+ {
+  "start": 229.36,
+  "end": 233.27,
+  "text": "years right uh we will leave the format"
+ },
+ {
+  "start": 233.28,
+  "end": 235.75,
+  "text": "empty because we don't want to change"
+ },
+ {
+  "start": 235.76,
+  "end": 238.589,
+  "text": "the format here and then let's close"
+ },
+ {
+  "start": 238.599,
+  "end": 242.91,
+  "text": "this expression and this expression okay"
+ },
+ {
+  "start": 242.92,
+  "end": 245.11,
+  "text": "so that's all uh we need to do here we"
+ },
+ {
+  "start": 245.12,
+  "end": 246.949,
+  "text": "just need to write the correct"
+ },
+ {
+  "start": 246.959,
+  "end": 249.069,
+  "text": "expression which will provide us the"
+ },
+ {
+  "start": 249.079,
+  "end": 252.27,
+  "text": "result now one way to verify this is you"
+ },
+ {
+  "start": 252.28,
+  "end": 254.83,
+  "text": "can verify it right here so you can"
+ },
+ {
+  "start": 254.84,
+  "end": 256.629,
+  "text": "right click on this expression and click"
+ },
+ {
+  "start": 256.639,
+  "end": 259.349,
+  "text": "on translate value and uh it will"
+ },
+ {
+  "start": 259.359,
+  "end": 261.909,
+  "text": "provide you with the correct value which"
+ },
+ {
+  "start": 261.919,
+  "end": 264.87,
+  "text": "is Friday right and now we can use this"
+ },
+ {
+  "start": 264.88,
+  "end": 268.11,
+  "text": "to enter it into the particular text"
+ },
+ {
+  "start": 268.12,
+  "end": 272.469,
+  "text": "box right so uh this uh will input it"
+ },
+ {
+  "start": 272.479,
+  "end": 276.23,
+  "text": "into the text box so let's go ahead and"
+ },
+ {
+  "start": 276.24,
+  "end": 278.39,
+  "text": "run this now I'll change the work state"
+ },
+ {
+  "start": 278.4,
+  "end": 282.11,
+  "text": "to complete it and then let's try and uh"
+ },
+ {
+  "start": 282.12,
+  "end": 288.189,
+  "text": "run this in"
+ },
+ {
+  "start": 291.31,
+  "end": 291.32,
+  "text": "scratchbook okay so as you can see U the"
+ },
+ {
+  "start": 291.32,
+  "end": 293.79,
+  "text": "day which was Friday was entered into"
+ },
+ {
+  "start": 293.8,
+  "end": 296.11,
+  "text": "the text box and the automation obstacle"
+ },
+ {
+  "start": 296.12,
+  "end": 298.67,
+  "text": "was completed so you can use the"
+ },
+ {
+  "start": 298.68,
+  "end": 300.909,
+  "text": "different date expr questions to"
+ },
+ {
+  "start": 300.919,
+  "end": 303.629,
+  "text": "manipulate your dates based on the"
+ },
+ {
+  "start": 303.639,
+  "end": 306.39,
+  "text": "requirements of your test case and then"
+ },
+ {
+  "start": 306.4,
+  "end": 310.43,
+  "text": "you can run them um as per the"
+ },
+ {
+  "start": 310.44,
+  "end": 312.35,
+  "text": "requirements that's all for this"
+ },
+ {
+  "start": 312.36,
+  "end": 314.51,
+  "text": "particular video if you have any"
+ },
+ {
+  "start": 314.52,
+  "end": 316.43,
+  "text": "questions then please leave it in the"
+ },
+ {
+  "start": 316.44,
+  "end": 318.87,
+  "text": "comments if you like this video then"
+ },
+ {
+  "start": 318.88,
+  "end": 321.309,
+  "text": "please subscribe to our Channel thanks"
+ },
+ {
+  "start": 321.319,
+  "end": 323.35,
+  "text": "for watching and I will see you in the"
+ },
+ {
+  "start": 323.36,
+  "end": 326.96,
+  "text": "next video"
+ }
+]

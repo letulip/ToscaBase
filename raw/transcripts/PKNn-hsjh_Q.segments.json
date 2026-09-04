@@ -1,0 +1,727 @@
+[
+ {
+  "start": 12.509,
+  "end": 12.519,
+  "text": "hey everyone welcome back to our Channel"
+ },
+ {
+  "start": 12.519,
+  "end": 15.15,
+  "text": "I am back with another interesting topic"
+ },
+ {
+  "start": 15.16,
+  "end": 17.95,
+  "text": "in the tosa automation playlist now"
+ },
+ {
+  "start": 17.96,
+  "end": 20.83,
+  "text": "continuing with our obstacles topic so"
+ },
+ {
+  "start": 20.84,
+  "end": 22.59,
+  "text": "we are going to look at the next"
+ },
+ {
+  "start": 22.6,
+  "end": 24.95,
+  "text": "obstacle which is called the testing"
+ },
+ {
+  "start": 24.96,
+  "end": 28.07,
+  "text": "methods now this particular obstacle"
+ },
+ {
+  "start": 28.08,
+  "end": 31.269,
+  "text": "contains a multi- select test box which"
+ },
+ {
+  "start": 31.279,
+  "end": 33.549,
+  "text": "contains a lot of different testing"
+ },
+ {
+  "start": 33.559,
+  "end": 36.869,
+  "text": "methods which are supported by tosa and"
+ },
+ {
+  "start": 36.879,
+  "end": 39.549,
+  "text": "we need to select these testing methods"
+ },
+ {
+  "start": 39.559,
+  "end": 43.27,
+  "text": "from this particular list box okay so we"
+ },
+ {
+  "start": 43.28,
+  "end": 46.709,
+  "text": "need to select a functional testing and"
+ },
+ {
+  "start": 46.719,
+  "end": 49.189,
+  "text": "then we need to select GUI"
+ },
+ {
+  "start": 49.199,
+  "end": 51.389,
+  "text": "testing right and then we need to select"
+ },
+ {
+  "start": 51.399,
+  "end": 54.51,
+  "text": "end to end and exploratory right and"
+ },
+ {
+  "start": 54.52,
+  "end": 56.79,
+  "text": "then if all of them are selected then"
+ },
+ {
+  "start": 56.8,
+  "end": 59.549,
+  "text": "this particular obstacle will be solved"
+ },
+ {
+  "start": 59.559,
+  "end": 60.99,
+  "text": "now this this you need to do through"
+ },
+ {
+  "start": 61.0,
+  "end": 64.35,
+  "text": "automation right and to achieve this we"
+ },
+ {
+  "start": 64.36,
+  "end": 67.749,
+  "text": "need to uh use two different concepts in"
+ },
+ {
+  "start": 67.759,
+  "end": 70.99,
+  "text": "TOA so let's see what are these now to"
+ },
+ {
+  "start": 71.0,
+  "end": 73.469,
+  "text": "make it uh easier I have already scanned"
+ },
+ {
+  "start": 73.479,
+  "end": 75.99,
+  "text": "this particular module so I have"
+ },
+ {
+  "start": 76.0,
+  "end": 78.07,
+  "text": "selected these two controls which is the"
+ },
+ {
+  "start": 78.08,
+  "end": 81.71,
+  "text": "select drop-down or multibox and then"
+ },
+ {
+  "start": 81.72,
+  "end": 84.03,
+  "text": "the item itself right so you don't need"
+ },
+ {
+  "start": 84.04,
+  "end": 87.59,
+  "text": "to select all the items because they"
+ },
+ {
+  "start": 87.6,
+  "end": 90.109,
+  "text": "would be similar in nature right only"
+ },
+ {
+  "start": 90.119,
+  "end": 92.63,
+  "text": "the names are changing but all the"
+ },
+ {
+  "start": 92.64,
+  "end": 95.109,
+  "text": "properties will remain same for all the"
+ },
+ {
+  "start": 95.119,
+  "end": 98.109,
+  "text": "items so we don't need to select uh all"
+ },
+ {
+  "start": 98.119,
+  "end": 100.51,
+  "text": "the items separately that's not the"
+ },
+ {
+  "start": 100.52,
+  "end": 102.83,
+  "text": "ideal way of doing this uh we can just"
+ },
+ {
+  "start": 102.84,
+  "end": 105.91,
+  "text": "select one of the items and then as I"
+ },
+ {
+  "start": 105.92,
+  "end": 108.55,
+  "text": "said we need to use two different"
+ },
+ {
+  "start": 108.56,
+  "end": 110.67,
+  "text": "concepts here"
+ },
+ {
+  "start": 110.68,
+  "end": 114.709,
+  "text": "right so uh the first concept is uh we"
+ },
+ {
+  "start": 114.719,
+  "end": 117.95,
+  "text": "need to change the cardinality okay so"
+ },
+ {
+  "start": 117.96,
+  "end": 120.389,
+  "text": "the cardinality by default is is set to"
+ },
+ {
+  "start": 120.399,
+  "end": 125.59,
+  "text": "0 to one which means uh you can only use"
+ },
+ {
+  "start": 125.6,
+  "end": 129.27,
+  "text": "this particular uh module attribute once"
+ },
+ {
+  "start": 129.28,
+  "end": 132.589,
+  "text": "right now here what we need to do is we"
+ },
+ {
+  "start": 132.599,
+  "end": 135.39,
+  "text": "need to uh click on this module"
+ },
+ {
+  "start": 135.4,
+  "end": 138.509,
+  "text": "attribute number of times uh for four"
+ },
+ {
+  "start": 138.519,
+  "end": 140.11,
+  "text": "different testing methods I need to"
+ },
+ {
+  "start": 140.12,
+  "end": 142.11,
+  "text": "click or I need to use this module"
+ },
+ {
+  "start": 142.12,
+  "end": 145.43,
+  "text": "attribute four times right so the"
+ },
+ {
+  "start": 145.44,
+  "end": 150.43,
+  "text": "cardinality uh helps you to basically um"
+ },
+ {
+  "start": 150.44,
+  "end": 153.309,
+  "text": "use the module attribute multiple times"
+ },
+ {
+  "start": 153.319,
+  "end": 155.75,
+  "text": "okay so if you change the cardinality if"
+ },
+ {
+  "start": 155.76,
+  "end": 158.949,
+  "text": "you increase the range then you can use"
+ },
+ {
+  "start": 158.959,
+  "end": 161.71,
+  "text": "it multiple times so what uh we can do"
+ },
+ {
+  "start": 161.72,
+  "end": 163.43,
+  "text": "here is we can just change the"
+ },
+ {
+  "start": 163.44,
+  "end": 167.71,
+  "text": "cardinality from 0 to 1 to 0 to n so I"
+ },
+ {
+  "start": 167.72,
+  "end": 170.55,
+  "text": "can use this particular module attribute"
+ },
+ {
+  "start": 170.56,
+  "end": 173.07,
+  "text": "n number of times"
+ },
+ {
+  "start": 173.08,
+  "end": 175.589,
+  "text": "okay the second thing which we have to"
+ },
+ {
+  "start": 175.599,
+  "end": 177.79,
+  "text": "do is we have to add a configuration"
+ },
+ {
+  "start": 177.8,
+  "end": 182.11,
+  "text": "parameter so right click on the item and"
+ },
+ {
+  "start": 182.12,
+  "end": 184.39,
+  "text": "then select create configuration"
+ },
+ {
+  "start": 184.4,
+  "end": 187.03,
+  "text": "parameter now here we need to use"
+ },
+ {
+  "start": 187.04,
+  "end": 189.869,
+  "text": "something called explicit"
+ },
+ {
+  "start": 189.879,
+  "end": 192.83,
+  "text": "name right now we have discussed about"
+ },
+ {
+  "start": 192.84,
+  "end": 195.63,
+  "text": "this earlier so what is explicit name"
+ },
+ {
+  "start": 195.64,
+  "end": 198.75,
+  "text": "and we need to set the value to true so"
+ },
+ {
+  "start": 198.76,
+  "end": 201.39,
+  "text": "what this will do is uh it will help me"
+ },
+ {
+  "start": 201.4,
+  "end": 205.55,
+  "text": "to rename this item in my test case"
+ },
+ {
+  "start": 205.56,
+  "end": 208.67,
+  "text": "itself okay so if I rename it in the"
+ },
+ {
+  "start": 208.68,
+  "end": 211.309,
+  "text": "module attribute then it will reflect it"
+ },
+ {
+  "start": 211.319,
+  "end": 214.229,
+  "text": "in the test case or test step but since"
+ },
+ {
+  "start": 214.239,
+  "end": 217.11,
+  "text": "I have to use uh different testing"
+ },
+ {
+  "start": 217.12,
+  "end": 220.149,
+  "text": "method names right like this so I want"
+ },
+ {
+  "start": 220.159,
+  "end": 223.949,
+  "text": "to change the item name uh in each test"
+ },
+ {
+  "start": 223.959,
+  "end": 227.19,
+  "text": "step okay so these are the two changes"
+ },
+ {
+  "start": 227.2,
+  "end": 229.309,
+  "text": "which you need to do at a module"
+ },
+ {
+  "start": 229.319,
+  "end": 231.149,
+  "text": "attribute level so you need to change"
+ },
+ {
+  "start": 231.159,
+  "end": 233.63,
+  "text": "the cardinality and then you need to add"
+ },
+ {
+  "start": 233.64,
+  "end": 235.67,
+  "text": "a configuration parameter which is"
+ },
+ {
+  "start": 235.68,
+  "end": 239.99,
+  "text": "explicit name set to True okay now uh"
+ },
+ {
+  "start": 240.0,
+  "end": 242.75,
+  "text": "let's build a test case out of this so"
+ },
+ {
+  "start": 242.76,
+  "end": 245.789,
+  "text": "let's go to our obstacles and here uh we"
+ },
+ {
+  "start": 245.799,
+  "end": 248.229,
+  "text": "are going to create a new test case I am"
+ },
+ {
+  "start": 248.239,
+  "end": 251.03,
+  "text": "going to use this particular obstacle as"
+ },
+ {
+  "start": 251.04,
+  "end": 255.949,
+  "text": "the test case"
+ },
+ {
+  "start": 259.83,
+  "end": 259.84,
+  "text": "name okay and then uh we can just drag"
+ },
+ {
+  "start": 259.84,
+  "end": 262.55,
+  "text": "the module right here okay so as you can"
+ },
+ {
+  "start": 262.56,
+  "end": 265.71,
+  "text": "see uh in the test step we have got the"
+ },
+ {
+  "start": 265.72,
+  "end": 267.79,
+  "text": "select drop-down and then we have got"
+ },
+ {
+  "start": 267.8,
+  "end": 270.55,
+  "text": "the item okay"
+ },
+ {
+  "start": 270.56,
+  "end": 273.629,
+  "text": "now uh as I said we need to use this"
+ },
+ {
+  "start": 273.639,
+  "end": 276.43,
+  "text": "particular item number of times right so"
+ },
+ {
+  "start": 276.44,
+  "end": 279.629,
+  "text": "what we will do is uh we are going to"
+ },
+ {
+  "start": 279.639,
+  "end": 283.31,
+  "text": "rename this item okay to different"
+ },
+ {
+  "start": 283.32,
+  "end": 284.55,
+  "text": "testing"
+ },
+ {
+  "start": 284.56,
+  "end": 287.67,
+  "text": "methods and then you will see that once"
+ },
+ {
+  "start": 287.68,
+  "end": 291.469,
+  "text": "you do that okay another item is already"
+ },
+ {
+  "start": 291.479,
+  "end": 293.83,
+  "text": "there so I can use this multiple times"
+ },
+ {
+  "start": 293.84,
+  "end": 295.67,
+  "text": "and this is due to the cardinality"
+ },
+ {
+  "start": 295.68,
+  "end": 297.99,
+  "text": "property right so since we have"
+ },
+ {
+  "start": 298.0,
+  "end": 300.749,
+  "text": "increased it to n number of times this"
+ },
+ {
+  "start": 300.759,
+  "end": 303.71,
+  "text": "will keep on adding this particular item"
+ },
+ {
+  "start": 303.72,
+  "end": 307.79,
+  "text": "as many times as you want okay uh so the"
+ },
+ {
+  "start": 307.8,
+  "end": 310.469,
+  "text": "action mode will by default set to input"
+ },
+ {
+  "start": 310.479,
+  "end": 313.629,
+  "text": "which means it is going to uh select or"
+ },
+ {
+  "start": 313.639,
+  "end": 317.67,
+  "text": "click on that particular item okay uh"
+ },
+ {
+  "start": 317.68,
+  "end": 320.23,
+  "text": "and now let's go ahead and add all the"
+ },
+ {
+  "start": 320.24,
+  "end": 322.99,
+  "text": "remaining ones so we need end to end"
+ },
+ {
+  "start": 323.0,
+  "end": 326.43,
+  "text": "testing okay so we also need to mention"
+ },
+ {
+  "start": 326.44,
+  "end": 328.909,
+  "text": "testing here otherwise it will not"
+ },
+ {
+  "start": 328.919,
+  "end": 330.95,
+  "text": "select it"
+ },
+ {
+  "start": 330.96,
+  "end": 334.23,
+  "text": "and then end to end"
+ },
+ {
+  "start": 334.24,
+  "end": 344.11,
+  "text": "testing right and then uh the GUI"
+ },
+ {
+  "start": 348.909,
+  "end": 348.919,
+  "text": "testing and finally uh we will add the"
+ },
+ {
+  "start": 348.919,
+  "end": 351.83,
+  "text": "explor"
+ },
+ {
+  "start": 359.87,
+  "end": 359.88,
+  "text": "okay and uh it can select all these"
+ },
+ {
+  "start": 359.88,
+  "end": 361.909,
+  "text": "module attributes based on these names"
+ },
+ {
+  "start": 361.919,
+  "end": 364.189,
+  "text": "and this is due to the explicit name"
+ },
+ {
+  "start": 364.199,
+  "end": 366.71,
+  "text": "okay so both the concepts are being used"
+ },
+ {
+  "start": 366.72,
+  "end": 368.95,
+  "text": "here and you can understand why we are"
+ },
+ {
+  "start": 368.96,
+  "end": 372.83,
+  "text": "trying to use this okay so this is all"
+ },
+ {
+  "start": 372.84,
+  "end": 375.23,
+  "text": "we have to do here so it will select"
+ },
+ {
+  "start": 375.24,
+  "end": 377.15,
+  "text": "that particular list box and then it"
+ },
+ {
+  "start": 377.16,
+  "end": 380.029,
+  "text": "will uh select all the items"
+ },
+ {
+  "start": 380.039,
+  "end": 382.589,
+  "text": "individually uh together and it will"
+ },
+ {
+  "start": 382.599,
+  "end": 387.79,
+  "text": "complete the rle okay so if I go ahead"
+ },
+ {
+  "start": 387.8,
+  "end": 394.07,
+  "text": "and execute this now"
+ },
+ {
+  "start": 396.909,
+  "end": 396.919,
+  "text": "okay so as you can see it selected all"
+ },
+ {
+  "start": 396.919,
+  "end": 399.39,
+  "text": "the items in the background and it was"
+ },
+ {
+  "start": 399.4,
+  "end": 402.39,
+  "text": "able to complete this particular uh"
+ },
+ {
+  "start": 402.4,
+  "end": 404.629,
+  "text": "ridle right so as you can see it"
+ },
+ {
+  "start": 404.639,
+  "end": 406.35,
+  "text": "selected all the different testing"
+ },
+ {
+  "start": 406.36,
+  "end": 410.35,
+  "text": "methods uh in the multi- select list box"
+ },
+ {
+  "start": 410.36,
+  "end": 413.029,
+  "text": "okay so couple of Concepts which was"
+ },
+ {
+  "start": 413.039,
+  "end": 415.95,
+  "text": "covered uh in this particular obstacle"
+ },
+ {
+  "start": 415.96,
+  "end": 417.909,
+  "text": "which was how you can select multiple"
+ },
+ {
+  "start": 417.919,
+  "end": 419.99,
+  "text": "items in a list box"
+ },
+ {
+  "start": 420.0,
+  "end": 424.27,
+  "text": "then um how you can use cardinality and"
+ },
+ {
+  "start": 424.28,
+  "end": 428.95,
+  "text": "also explicit name for a module"
+ },
+ {
+  "start": 431.35,
+  "end": 431.36,
+  "text": "attribute that's all for this particular"
+ },
+ {
+  "start": 431.36,
+  "end": 433.79,
+  "text": "video if you have any questions then"
+ },
+ {
+  "start": 433.8,
+  "end": 436.27,
+  "text": "please leave it in the comments if you"
+ },
+ {
+  "start": 436.28,
+  "end": 438.189,
+  "text": "like this video then please subscribe to"
+ },
+ {
+  "start": 438.199,
+  "end": 440.95,
+  "text": "our Channel thanks for watching and I"
+ },
+ {
+  "start": 440.96,
+  "end": 445.0,
+  "text": "will see you in the next video"
+ }
+]

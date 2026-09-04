@@ -1,0 +1,1952 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:05.060 --> 00:00:07.909 align:start position:0%
+ 
+hey<00:00:06.060><c> everyone</c><00:00:06.240><c> welcome</c><00:00:06.839><c> back</c><00:00:07.200><c> to</c><00:00:07.379><c> this</c><00:00:07.500><c> Tosca</c>
+
+00:00:07.909 --> 00:00:07.919 align:start position:0%
+hey everyone welcome back to this Tosca
+ 
+
+00:00:07.919 --> 00:00:10.129 align:start position:0%
+hey everyone welcome back to this Tosca
+automation<00:00:08.340><c> playlist</c><00:00:08.639><c> and</c><00:00:09.540><c> we</c><00:00:09.780><c> are</c><00:00:09.960><c> talking</c>
+
+00:00:10.129 --> 00:00:10.139 align:start position:0%
+automation playlist and we are talking
+ 
+
+00:00:10.139 --> 00:00:12.950 align:start position:0%
+automation playlist and we are talking
+about<00:00:10.620><c> the</c><00:00:11.340><c> API</c><00:00:11.700><c> testing</c>
+
+00:00:12.950 --> 00:00:12.960 align:start position:0%
+about the API testing
+ 
+
+00:00:12.960 --> 00:00:14.810 align:start position:0%
+about the API testing
+we<00:00:13.500><c> have</c><00:00:13.620><c> also</c><00:00:13.860><c> seen</c><00:00:14.099><c> a</c><00:00:14.400><c> lot</c><00:00:14.460><c> of</c><00:00:14.580><c> different</c>
+
+00:00:14.810 --> 00:00:14.820 align:start position:0%
+we have also seen a lot of different
+ 
+
+00:00:14.820 --> 00:00:16.849 align:start position:0%
+we have also seen a lot of different
+features<00:00:15.299><c> which</c><00:00:15.540><c> are</c><00:00:15.719><c> available</c><00:00:15.900><c> with</c><00:00:16.619><c> the</c>
+
+00:00:16.849 --> 00:00:16.859 align:start position:0%
+features which are available with the
+ 
+
+00:00:16.859 --> 00:00:19.670 align:start position:0%
+features which are available with the
+Tosca<00:00:17.279><c> API</c><00:00:17.760><c> scan</c><00:00:18.119><c> but</c><00:00:18.779><c> until</c><00:00:18.960><c> now</c><00:00:19.199><c> we</c><00:00:19.500><c> have</c>
+
+00:00:19.670 --> 00:00:19.680 align:start position:0%
+Tosca API scan but until now we have
+ 
+
+00:00:19.680 --> 00:00:22.550 align:start position:0%
+Tosca API scan but until now we have
+been<00:00:19.859><c> only</c><00:00:20.160><c> using</c><00:00:20.760><c> the</c><00:00:21.119><c> rest</c><00:00:21.300><c> apis</c>
+
+00:00:22.550 --> 00:00:22.560 align:start position:0%
+been only using the rest apis
+ 
+
+00:00:22.560 --> 00:00:24.410 align:start position:0%
+been only using the rest apis
+but<00:00:23.100><c> as</c><00:00:23.460><c> you</c><00:00:23.580><c> know</c><00:00:23.760><c> there</c><00:00:24.060><c> are</c><00:00:24.180><c> different</c>
+
+00:00:24.410 --> 00:00:24.420 align:start position:0%
+but as you know there are different
+ 
+
+00:00:24.420 --> 00:00:26.689 align:start position:0%
+but as you know there are different
+types<00:00:24.779><c> of</c><00:00:24.900><c> apis</c><00:00:25.380><c> which</c><00:00:25.920><c> you</c><00:00:26.160><c> can</c><00:00:26.279><c> basically</c>
+
+00:00:26.689 --> 00:00:26.699 align:start position:0%
+types of apis which you can basically
+ 
+
+00:00:26.699 --> 00:00:29.929 align:start position:0%
+types of apis which you can basically
+test<00:00:27.060><c> and</c><00:00:27.420><c> verify</c><00:00:27.840><c> and</c><00:00:28.500><c> Tosca</c><00:00:29.039><c> supports</c><00:00:29.580><c> a</c><00:00:29.880><c> lot</c>
+
+00:00:29.929 --> 00:00:29.939 align:start position:0%
+test and verify and Tosca supports a lot
+ 
+
+00:00:29.939 --> 00:00:32.749 align:start position:0%
+test and verify and Tosca supports a lot
+of<00:00:30.119><c> different</c><00:00:30.359><c> apis</c><00:00:31.019><c> right</c><00:00:31.619><c> so</c><00:00:32.279><c> apart</c><00:00:32.579><c> from</c>
+
+00:00:32.749 --> 00:00:32.759 align:start position:0%
+of different apis right so apart from
+ 
+
+00:00:32.759 --> 00:00:34.970 align:start position:0%
+of different apis right so apart from
+rest<00:00:32.940><c> apis</c><00:00:33.540><c> uh</c><00:00:34.140><c> one</c><00:00:34.380><c> of</c><00:00:34.500><c> the</c><00:00:34.559><c> most</c><00:00:34.739><c> popular</c>
+
+00:00:34.970 --> 00:00:34.980 align:start position:0%
+rest apis uh one of the most popular
+ 
+
+00:00:34.980 --> 00:00:39.049 align:start position:0%
+rest apis uh one of the most popular
+apis<00:00:35.700><c> as</c><00:00:36.300><c> you</c><00:00:36.480><c> know</c><00:00:36.660><c> would</c><00:00:37.320><c> be</c><00:00:37.620><c> soap</c><00:00:38.340><c> API</c><00:00:38.760><c> right</c>
+
+00:00:39.049 --> 00:00:39.059 align:start position:0%
+apis as you know would be soap API right
+ 
+
+00:00:39.059 --> 00:00:41.889 align:start position:0%
+apis as you know would be soap API right
+so<00:00:39.360><c> these</c><00:00:39.660><c> are</c><00:00:39.719><c> based</c><00:00:40.140><c> on</c><00:00:40.440><c> the</c><00:00:40.739><c> soap</c><00:00:41.460><c> protocol</c>
+
+00:00:41.889 --> 00:00:41.899 align:start position:0%
+so these are based on the soap protocol
+ 
+
+00:00:41.899 --> 00:00:45.770 align:start position:0%
+so these are based on the soap protocol
+and<00:00:42.899><c> they</c><00:00:43.079><c> use</c><00:00:43.260><c> XML</c><00:00:43.860><c> as</c><00:00:44.520><c> a</c><00:00:45.120><c> communication</c>
+
+00:00:45.770 --> 00:00:45.780 align:start position:0%
+and they use XML as a communication
+ 
+
+00:00:45.780 --> 00:00:47.750 align:start position:0%
+and they use XML as a communication
+Channel<00:00:46.079><c> between</c><00:00:46.620><c> the</c><00:00:47.040><c> server</c><00:00:47.399><c> and</c><00:00:47.579><c> the</c>
+
+00:00:47.750 --> 00:00:47.760 align:start position:0%
+Channel between the server and the
+ 
+
+00:00:47.760 --> 00:00:50.869 align:start position:0%
+Channel between the server and the
+client<00:00:48.000><c> right</c><00:00:48.660><c> so</c><00:00:49.379><c> we</c><00:00:49.500><c> are</c><00:00:49.680><c> going</c><00:00:49.800><c> to</c><00:00:50.039><c> look</c><00:00:50.399><c> at</c>
+
+00:00:50.869 --> 00:00:50.879 align:start position:0%
+client right so we are going to look at
+ 
+
+00:00:50.879 --> 00:00:53.630 align:start position:0%
+client right so we are going to look at
+how<00:00:51.180><c> we</c><00:00:51.300><c> can</c><00:00:51.480><c> scan</c><00:00:51.840><c> the</c><00:00:52.079><c> soap</c><00:00:52.440><c> apis</c><00:00:52.860><c> and</c><00:00:53.340><c> how</c><00:00:53.520><c> we</c>
+
+00:00:53.630 --> 00:00:53.640 align:start position:0%
+how we can scan the soap apis and how we
+ 
+
+00:00:53.640 --> 00:00:55.670 align:start position:0%
+how we can scan the soap apis and how we
+can<00:00:53.820><c> verify</c><00:00:54.239><c> them</c><00:00:54.480><c> or</c><00:00:54.840><c> create</c><00:00:55.020><c> test</c><00:00:55.260><c> cases</c>
+
+00:00:55.670 --> 00:00:55.680 align:start position:0%
+can verify them or create test cases
+ 
+
+00:00:55.680 --> 00:00:59.029 align:start position:0%
+can verify them or create test cases
+using<00:00:56.640><c> the</c><00:00:57.000><c> API</c><00:00:57.420><c> scan</c><00:00:57.840><c> and</c><00:00:58.260><c> the</c><00:00:58.559><c> commander</c>
+
+00:00:59.029 --> 00:00:59.039 align:start position:0%
+using the API scan and the commander
+ 
+
+00:00:59.039 --> 00:01:01.610 align:start position:0%
+using the API scan and the commander
+okay<00:00:59.579><c> so</c><00:01:00.360><c> for</c><00:01:00.539><c> this</c><00:01:00.660><c> I'm</c><00:01:00.840><c> going</c><00:01:01.079><c> to</c><00:01:01.199><c> use</c><00:01:01.379><c> an</c>
+
+00:01:01.610 --> 00:01:01.620 align:start position:0%
+okay so for this I'm going to use an
+ 
+
+00:01:01.620 --> 00:01:03.709 align:start position:0%
+okay so for this I'm going to use an
+example<00:01:01.980><c> which</c><00:01:02.280><c> is</c><00:01:02.399><c> available</c><00:01:02.719><c> with</c>
+
+00:01:03.709 --> 00:01:03.719 align:start position:0%
+example which is available with
+ 
+
+00:01:03.719 --> 00:01:07.510 align:start position:0%
+example which is available with
+tricentis<00:01:04.760><c> and</c><00:01:05.760><c> you</c><00:01:06.000><c> can</c><00:01:06.060><c> find</c><00:01:06.360><c> it</c><00:01:06.600><c> in</c><00:01:07.140><c> their</c>
+
+00:01:07.510 --> 00:01:07.520 align:start position:0%
+tricentis and you can find it in their
+ 
+
+00:01:07.520 --> 00:01:11.750 align:start position:0%
+tricentis and you can find it in their
+API<00:01:08.520><c> Services</c><00:01:09.180><c> web</c><00:01:09.659><c> page</c><00:01:09.900><c> okay</c><00:01:10.340><c> so</c><00:01:11.340><c> let</c><00:01:11.580><c> me</c>
+
+00:01:11.750 --> 00:01:11.760 align:start position:0%
+API Services web page okay so let me
+ 
+
+00:01:11.760 --> 00:01:14.210 align:start position:0%
+API Services web page okay so let me
+click<00:01:12.060><c> on</c><00:01:12.299><c> this</c><00:01:12.479><c> URI</c><00:01:13.020><c> so</c><00:01:13.200><c> that</c><00:01:13.380><c> we</c><00:01:13.560><c> can</c><00:01:13.680><c> scan</c><00:01:13.979><c> a</c>
+
+00:01:14.210 --> 00:01:14.220 align:start position:0%
+click on this URI so that we can scan a
+ 
+
+00:01:14.220 --> 00:01:16.850 align:start position:0%
+click on this URI so that we can scan a
+particular<00:01:14.460><c> URI</c><00:01:15.000><c> it</c><00:01:15.360><c> is</c><00:01:15.540><c> already</c><00:01:15.780><c> present</c><00:01:16.320><c> uh</c>
+
+00:01:16.850 --> 00:01:16.860 align:start position:0%
+particular URI it is already present uh
+ 
+
+00:01:16.860 --> 00:01:19.370 align:start position:0%
+particular URI it is already present uh
+in<00:01:17.040><c> my</c><00:01:17.220><c> list</c><00:01:17.880><c> so</c><00:01:18.360><c> as</c><00:01:18.479><c> you</c><00:01:18.659><c> can</c><00:01:18.780><c> see</c><00:01:18.900><c> the</c><00:01:19.200><c> first</c>
+
+00:01:19.370 --> 00:01:19.380 align:start position:0%
+in my list so as you can see the first
+ 
+
+00:01:19.380 --> 00:01:20.830 align:start position:0%
+in my list so as you can see the first
+one<00:01:19.560><c> web</c>
+
+00:01:20.830 --> 00:01:20.840 align:start position:0%
+one web
+ 
+
+00:01:20.840 --> 00:01:22.990 align:start position:0%
+one web
+service.torscloud.com
+
+00:01:22.990 --> 00:01:23.000 align:start position:0%
+service.torscloud.com
+ 
+
+00:01:23.000 --> 00:01:26.149 align:start position:0%
+service.torscloud.com
+calculator.svc<00:01:24.000><c> and</c><00:01:24.840><c> this</c><00:01:25.080><c> is</c><00:01:25.259><c> a</c><00:01:25.560><c> soap</c><00:01:25.860><c> based</c>
+
+00:01:26.149 --> 00:01:26.159 align:start position:0%
+calculator.svc and this is a soap based
+ 
+
+00:01:26.159 --> 00:01:27.649 align:start position:0%
+calculator.svc and this is a soap based
+API<00:01:26.580><c> okay</c>
+
+00:01:27.649 --> 00:01:27.659 align:start position:0%
+API okay
+ 
+
+00:01:27.659 --> 00:01:32.330 align:start position:0%
+API okay
+so<00:01:28.020><c> I</c><00:01:28.200><c> can</c><00:01:28.320><c> go</c><00:01:28.500><c> ahead</c><00:01:28.680><c> and</c><00:01:28.979><c> scan</c><00:01:29.280><c> this</c>
+
+00:01:32.330 --> 00:01:32.340 align:start position:0%
+ 
+ 
+
+00:01:32.340 --> 00:01:35.810 align:start position:0%
+ 
+and<00:01:32.939><c> it</c><00:01:33.119><c> is</c><00:01:33.240><c> going</c><00:01:33.540><c> to</c><00:01:33.960><c> basically</c><00:01:34.439><c> create</c><00:01:34.860><c> uh</c>
+
+00:01:35.810 --> 00:01:35.820 align:start position:0%
+and it is going to basically create uh
+ 
+
+00:01:35.820 --> 00:01:39.109 align:start position:0%
+and it is going to basically create uh
+you<00:01:36.299><c> can</c><00:01:36.360><c> see</c><00:01:36.600><c> different</c><00:01:37.020><c> uh</c><00:01:37.799><c> folders</c><00:01:38.280><c> folder</c>
+
+00:01:39.109 --> 00:01:39.119 align:start position:0%
+you can see different uh folders folder
+ 
+
+00:01:39.119 --> 00:01:41.690 align:start position:0%
+you can see different uh folders folder
+structure<00:01:39.540><c> and</c><00:01:39.900><c> the</c><00:01:40.079><c> API</c><00:01:40.380><c> structure</c><00:01:40.860><c> for</c><00:01:41.280><c> the</c>
+
+00:01:41.690 --> 00:01:41.700 align:start position:0%
+structure and the API structure for the
+ 
+
+00:01:41.700 --> 00:01:44.149 align:start position:0%
+structure and the API structure for the
+calculator<00:01:41.880><c> right</c><00:01:42.780><c> so</c><00:01:43.079><c> this</c><00:01:43.200><c> API</c><00:01:43.619><c> can</c><00:01:43.860><c> be</c><00:01:43.979><c> used</c>
+
+00:01:44.149 --> 00:01:44.159 align:start position:0%
+calculator right so this API can be used
+ 
+
+00:01:44.159 --> 00:01:46.850 align:start position:0%
+calculator right so this API can be used
+to<00:01:44.520><c> basically</c><00:01:44.939><c> perform</c><00:01:45.259><c> different</c><00:01:46.259><c> types</c><00:01:46.680><c> of</c>
+
+00:01:46.850 --> 00:01:46.860 align:start position:0%
+to basically perform different types of
+ 
+
+00:01:46.860 --> 00:01:49.249 align:start position:0%
+to basically perform different types of
+calculations<00:01:47.400><c> and</c><00:01:48.000><c> it</c><00:01:48.180><c> is</c><00:01:48.360><c> a</c><00:01:48.659><c> soap</c><00:01:48.960><c> based</c>
+
+00:01:49.249 --> 00:01:49.259 align:start position:0%
+calculations and it is a soap based
+ 
+
+00:01:49.259 --> 00:01:51.230 align:start position:0%
+calculations and it is a soap based
+protocol<00:01:49.560><c> okay</c>
+
+00:01:51.230 --> 00:01:51.240 align:start position:0%
+protocol okay
+ 
+
+00:01:51.240 --> 00:01:54.830 align:start position:0%
+protocol okay
+so<00:01:52.380><c> um</c><00:01:52.380><c> if</c><00:01:52.799><c> we</c><00:01:53.280><c> go</c><00:01:53.520><c> here</c><00:01:53.759><c> you</c><00:01:54.060><c> will</c><00:01:54.180><c> see</c><00:01:54.479><c> under</c>
+
+00:01:54.830 --> 00:01:54.840 align:start position:0%
+so um if we go here you will see under
+ 
+
+00:01:54.840 --> 00:01:55.990 align:start position:0%
+so um if we go here you will see under
+calculator
+
+00:01:55.990 --> 00:01:56.000 align:start position:0%
+calculator
+ 
+
+00:01:56.000 --> 00:01:57.889 align:start position:0%
+calculator
+there<00:01:57.000><c> are</c><00:01:57.180><c> different</c><00:01:57.420><c> types</c><00:01:57.780><c> of</c>
+
+00:01:57.889 --> 00:01:57.899 align:start position:0%
+there are different types of
+ 
+
+00:01:57.899 --> 00:01:59.990 align:start position:0%
+there are different types of
+calculations<00:01:58.500><c> like</c><00:01:58.920><c> add</c><00:01:59.159><c> divide</c><00:01:59.579><c> multiply</c>
+
+00:01:59.990 --> 00:02:00.000 align:start position:0%
+calculations like add divide multiply
+ 
+
+00:02:00.000 --> 00:02:02.810 align:start position:0%
+calculations like add divide multiply
+subtract<00:02:00.540><c> right</c><00:02:00.780><c> and</c><00:02:01.680><c> if</c><00:02:01.920><c> I</c><00:02:02.100><c> open</c><00:02:02.280><c> one</c><00:02:02.700><c> of</c>
+
+00:02:02.810 --> 00:02:02.820 align:start position:0%
+subtract right and if I open one of
+ 
+
+00:02:02.820 --> 00:02:05.149 align:start position:0%
+subtract right and if I open one of
+these<00:02:03.060><c> messages</c><00:02:03.240><c> you</c><00:02:03.960><c> will</c><00:02:04.079><c> see</c><00:02:04.320><c> here</c>
+
+00:02:05.149 --> 00:02:05.159 align:start position:0%
+these messages you will see here
+ 
+
+00:02:05.159 --> 00:02:09.770 align:start position:0%
+these messages you will see here
+this<00:02:05.880><c> is</c><00:02:06.000><c> the</c><00:02:06.119><c> XML</c><00:02:06.659><c> format</c><00:02:07.439><c> not</c><00:02:07.979><c> uh</c>
+
+00:02:09.770 --> 00:02:09.780 align:start position:0%
+this is the XML format not uh
+ 
+
+00:02:09.780 --> 00:02:13.010 align:start position:0%
+this is the XML format not uh
+not<00:02:10.200><c> the</c><00:02:10.440><c> Json</c><00:02:10.739><c> format</c><00:02:11.220><c> okay</c><00:02:11.700><c> and</c><00:02:12.660><c> that</c><00:02:12.959><c> is</c>
+
+00:02:13.010 --> 00:02:13.020 align:start position:0%
+not the Json format okay and that is
+ 
+
+00:02:13.020 --> 00:02:15.770 align:start position:0%
+not the Json format okay and that is
+what<00:02:13.260><c> is</c><00:02:13.440><c> being</c><00:02:13.680><c> used</c><00:02:13.980><c> for</c><00:02:14.459><c> any</c><00:02:14.819><c> soap</c><00:02:15.300><c> based</c>
+
+00:02:15.770 --> 00:02:15.780 align:start position:0%
+what is being used for any soap based
+ 
+
+00:02:15.780 --> 00:02:17.150 align:start position:0%
+what is being used for any soap based
+API<00:02:16.200><c> okay</c>
+
+00:02:17.150 --> 00:02:17.160 align:start position:0%
+API okay
+ 
+
+00:02:17.160 --> 00:02:19.610 align:start position:0%
+API okay
+so<00:02:17.640><c> in</c><00:02:17.819><c> this</c><00:02:18.060><c> you</c><00:02:18.420><c> can</c><00:02:18.540><c> basically</c><00:02:18.900><c> do</c><00:02:19.200><c> a</c><00:02:19.440><c> add</c>
+
+00:02:19.610 --> 00:02:19.620 align:start position:0%
+so in this you can basically do a add
+ 
+
+00:02:19.620 --> 00:02:22.010 align:start position:0%
+so in this you can basically do a add
+operation<00:02:20.040><c> right</c><00:02:20.700><c> so</c><00:02:20.940><c> I</c><00:02:21.120><c> can</c><00:02:21.239><c> put</c><00:02:21.480><c> some</c><00:02:21.780><c> number</c>
+
+00:02:22.010 --> 00:02:22.020 align:start position:0%
+operation right so I can put some number
+ 
+
+00:02:22.020 --> 00:02:26.089 align:start position:0%
+operation right so I can put some number
+like<00:02:22.500><c> 10</c><00:02:22.860><c> here</c><00:02:23.340><c> and</c><00:02:23.819><c> then</c><00:02:24.120><c> then</c><00:02:24.420><c> here</c><00:02:24.900><c> okay</c>
+
+00:02:26.089 --> 00:02:26.099 align:start position:0%
+like 10 here and then then here okay
+ 
+
+00:02:26.099 --> 00:02:28.729 align:start position:0%
+like 10 here and then then here okay
+and<00:02:26.700><c> then</c><00:02:26.819><c> I</c><00:02:27.060><c> can</c><00:02:27.239><c> just</c><00:02:27.480><c> send</c><00:02:28.020><c> the</c><00:02:28.379><c> request</c>
+
+00:02:28.729 --> 00:02:28.739 align:start position:0%
+and then I can just send the request
+ 
+
+00:02:28.739 --> 00:02:31.490 align:start position:0%
+and then I can just send the request
+this<00:02:29.220><c> is</c><00:02:29.459><c> a</c><00:02:29.879><c> post</c><00:02:30.060><c> request</c><00:02:30.660><c> type</c><00:02:30.900><c> this</c><00:02:31.200><c> is</c><00:02:31.319><c> the</c>
+
+00:02:31.490 --> 00:02:31.500 align:start position:0%
+this is a post request type this is the
+ 
+
+00:02:31.500 --> 00:02:33.530 align:start position:0%
+this is a post request type this is the
+end<00:02:31.680><c> point</c><00:02:31.920><c> and</c><00:02:32.400><c> this</c><00:02:32.580><c> is</c><00:02:32.700><c> the</c><00:02:32.940><c> resource</c><00:02:33.360><c> as</c>
+
+00:02:33.530 --> 00:02:33.540 align:start position:0%
+end point and this is the resource as
+ 
+
+00:02:33.540 --> 00:02:36.290 align:start position:0%
+end point and this is the resource as
+you<00:02:33.660><c> can</c><00:02:33.780><c> see</c><00:02:33.959><c> right</c><00:02:34.560><c> so</c><00:02:35.280><c> if</c><00:02:35.400><c> I</c><00:02:35.640><c> now</c><00:02:35.819><c> send</c><00:02:36.120><c> this</c>
+
+00:02:36.290 --> 00:02:36.300 align:start position:0%
+you can see right so if I now send this
+ 
+
+00:02:36.300 --> 00:02:38.869 align:start position:0%
+you can see right so if I now send this
+request<00:02:36.720><c> and</c><00:02:37.560><c> you</c><00:02:37.680><c> will</c><00:02:37.860><c> see</c><00:02:38.040><c> the</c><00:02:38.340><c> response</c><00:02:38.819><c> is</c>
+
+00:02:38.869 --> 00:02:38.879 align:start position:0%
+request and you will see the response is
+ 
+
+00:02:38.879 --> 00:02:41.470 align:start position:0%
+request and you will see the response is
+coming<00:02:39.180><c> back</c><00:02:39.480><c> uh</c><00:02:40.080><c> status</c><00:02:40.260><c> code</c><00:02:40.620><c> is</c><00:02:40.800><c> 200</c><00:02:41.220><c> okay</c>
+
+00:02:41.470 --> 00:02:41.480 align:start position:0%
+coming back uh status code is 200 okay
+ 
+
+00:02:41.480 --> 00:02:44.809 align:start position:0%
+coming back uh status code is 200 okay
+and<00:02:42.480><c> it</c><00:02:42.959><c> will</c><00:02:43.080><c> be</c><00:02:43.319><c> returning</c><00:02:43.800><c> this</c><00:02:44.160><c> payload</c>
+
+00:02:44.809 --> 00:02:44.819 align:start position:0%
+and it will be returning this payload
+ 
+
+00:02:44.819 --> 00:02:47.869 align:start position:0%
+and it will be returning this payload
+which<00:02:45.120><c> is</c><00:02:45.300><c> in</c><00:02:45.480><c> again</c><00:02:45.660><c> in</c><00:02:45.959><c> XML</c><00:02:46.379><c> format</c><00:02:46.860><c> and</c><00:02:47.700><c> the</c>
+
+00:02:47.869 --> 00:02:47.879 align:start position:0%
+which is in again in XML format and the
+ 
+
+00:02:47.879 --> 00:02:50.390 align:start position:0%
+which is in again in XML format and the
+result<00:02:48.060><c> is</c><00:02:48.540><c> 20</c><00:02:48.840><c> right</c>
+
+00:02:50.390 --> 00:02:50.400 align:start position:0%
+result is 20 right
+ 
+
+00:02:50.400 --> 00:02:54.770 align:start position:0%
+result is 20 right
+so<00:02:50.940><c> in</c><00:02:51.300><c> terms</c><00:02:51.660><c> of</c><00:02:52.260><c> uh</c><00:02:52.860><c> how</c><00:02:53.400><c> you</c><00:02:53.700><c> can</c><00:02:53.879><c> scan</c><00:02:54.480><c> a</c>
+
+00:02:54.770 --> 00:02:54.780 align:start position:0%
+so in terms of uh how you can scan a
+ 
+
+00:02:54.780 --> 00:02:57.170 align:start position:0%
+so in terms of uh how you can scan a
+particular<00:02:55.080><c> API</c><00:02:55.860><c> whether</c><00:02:56.400><c> it</c><00:02:56.580><c> is</c><00:02:56.700><c> soap</c><00:02:57.060><c> or</c>
+
+00:02:57.170 --> 00:02:57.180 align:start position:0%
+particular API whether it is soap or
+ 
+
+00:02:57.180 --> 00:02:59.809 align:start position:0%
+particular API whether it is soap or
+rest<00:02:57.360><c> there</c><00:02:57.780><c> is</c><00:02:57.900><c> no</c><00:02:58.140><c> difference</c><00:02:58.580><c> how</c><00:02:59.580><c> you</c>
+
+00:02:59.809 --> 00:02:59.819 align:start position:0%
+rest there is no difference how you
+ 
+
+00:02:59.819 --> 00:03:02.869 align:start position:0%
+rest there is no difference how you
+basically<00:03:00.300><c> uh</c><00:03:00.959><c> perform</c><00:03:01.260><c> the</c><00:03:01.620><c> checks</c><00:03:02.040><c> that</c><00:03:02.640><c> may</c>
+
+00:03:02.869 --> 00:03:02.879 align:start position:0%
+basically uh perform the checks that may
+ 
+
+00:03:02.879 --> 00:03:05.330 align:start position:0%
+basically uh perform the checks that may
+be<00:03:03.060><c> a</c><00:03:03.420><c> little</c><00:03:03.480><c> different</c><00:03:03.840><c> because</c><00:03:04.739><c> the</c>
+
+00:03:05.330 --> 00:03:05.340 align:start position:0%
+be a little different because the
+ 
+
+00:03:05.340 --> 00:03:07.130 align:start position:0%
+be a little different because the
+payload<00:03:05.819><c> format</c><00:03:06.180><c> is</c><00:03:06.360><c> little</c><00:03:06.540><c> different</c><00:03:06.780><c> right</c>
+
+00:03:07.130 --> 00:03:07.140 align:start position:0%
+payload format is little different right
+ 
+
+00:03:07.140 --> 00:03:10.369 align:start position:0%
+payload format is little different right
+so<00:03:07.800><c> in</c><00:03:07.980><c> case</c><00:03:08.160><c> of</c><00:03:08.400><c> rest</c><00:03:08.700><c> it</c><00:03:09.239><c> may</c><00:03:09.420><c> be</c><00:03:09.599><c> in</c><00:03:09.959><c> the</c><00:03:10.080><c> Json</c>
+
+00:03:10.369 --> 00:03:10.379 align:start position:0%
+so in case of rest it may be in the Json
+ 
+
+00:03:10.379 --> 00:03:13.130 align:start position:0%
+so in case of rest it may be in the Json
+format<00:03:10.860><c> but</c><00:03:11.459><c> in</c><00:03:11.640><c> case</c><00:03:11.819><c> of</c><00:03:12.120><c> soap</c><00:03:12.540><c> it</c><00:03:12.780><c> will</c><00:03:12.900><c> be</c><00:03:13.019><c> in</c>
+
+00:03:13.130 --> 00:03:13.140 align:start position:0%
+format but in case of soap it will be in
+ 
+
+00:03:13.140 --> 00:03:15.770 align:start position:0%
+format but in case of soap it will be in
+XML<00:03:13.739><c> format</c><00:03:14.220><c> right</c><00:03:14.519><c> so</c><00:03:15.060><c> that's</c><00:03:15.300><c> the</c><00:03:15.540><c> only</c>
+
+00:03:15.770 --> 00:03:15.780 align:start position:0%
+XML format right so that's the only
+ 
+
+00:03:15.780 --> 00:03:17.750 align:start position:0%
+XML format right so that's the only
+difference<00:03:16.080><c> you</c><00:03:16.440><c> will</c><00:03:16.560><c> see</c><00:03:16.739><c> between</c><00:03:17.159><c> a</c><00:03:17.640><c> rest</c>
+
+00:03:17.750 --> 00:03:17.760 align:start position:0%
+difference you will see between a rest
+ 
+
+00:03:17.760 --> 00:03:21.350 align:start position:0%
+difference you will see between a rest
+API<00:03:18.300><c> and</c><00:03:18.780><c> the</c><00:03:19.080><c> soap</c><00:03:19.440><c> API</c><00:03:19.860><c> okay</c><00:03:20.459><c> rest</c><00:03:21.060><c> of</c><00:03:21.239><c> the</c>
+
+00:03:21.350 --> 00:03:21.360 align:start position:0%
+API and the soap API okay rest of the
+ 
+
+00:03:21.360 --> 00:03:24.290 align:start position:0%
+API and the soap API okay rest of the
+things<00:03:21.599><c> like</c><00:03:22.200><c> scanning</c><00:03:22.800><c> or</c><00:03:23.459><c> basically</c>
+
+00:03:24.290 --> 00:03:24.300 align:start position:0%
+things like scanning or basically
+ 
+
+00:03:24.300 --> 00:03:27.050 align:start position:0%
+things like scanning or basically
+creating<00:03:24.840><c> test</c><00:03:25.200><c> cases</c><00:03:25.620><c> or</c><00:03:26.280><c> verifying</c><00:03:26.819><c> the</c>
+
+00:03:27.050 --> 00:03:27.060 align:start position:0%
+creating test cases or verifying the
+ 
+
+00:03:27.060 --> 00:03:29.509 align:start position:0%
+creating test cases or verifying the
+results<00:03:27.239><c> all</c><00:03:27.900><c> remains</c><00:03:28.440><c> exactly</c><00:03:29.040><c> the</c><00:03:29.400><c> same</c>
+
+00:03:29.509 --> 00:03:29.519 align:start position:0%
+results all remains exactly the same
+ 
+
+00:03:29.519 --> 00:03:30.530 align:start position:0%
+results all remains exactly the same
+okay
+
+00:03:30.530 --> 00:03:30.540 align:start position:0%
+okay
+ 
+
+00:03:30.540 --> 00:03:33.589 align:start position:0%
+okay
+so<00:03:31.019><c> now</c><00:03:31.200><c> if</c><00:03:31.379><c> I</c><00:03:31.560><c> want</c><00:03:31.800><c> to</c><00:03:31.980><c> create</c><00:03:32.700><c> a</c><00:03:33.000><c> API</c><00:03:33.360><c> test</c>
+
+00:03:33.589 --> 00:03:33.599 align:start position:0%
+so now if I want to create a API test
+ 
+
+00:03:33.599 --> 00:03:36.770 align:start position:0%
+so now if I want to create a API test
+case<00:03:33.840><c> on</c><00:03:34.680><c> my</c><00:03:34.860><c> Tosca</c><00:03:35.220><c> Commander</c><00:03:35.700><c> you</c><00:03:36.360><c> know</c><00:03:36.599><c> the</c>
+
+00:03:36.770 --> 00:03:36.780 align:start position:0%
+case on my Tosca Commander you know the
+ 
+
+00:03:36.780 --> 00:03:39.530 align:start position:0%
+case on my Tosca Commander you know the
+process<00:03:37.080><c> right</c><00:03:37.319><c> so</c><00:03:37.739><c> first</c><00:03:38.159><c> select</c><00:03:38.700><c> the</c><00:03:39.180><c> API</c>
+
+00:03:39.530 --> 00:03:39.540 align:start position:0%
+process right so first select the API
+ 
+
+00:03:39.540 --> 00:03:42.229 align:start position:0%
+process right so first select the API
+message<00:03:39.840><c> go</c><00:03:40.319><c> to</c><00:03:40.379><c> API</c><00:03:40.799><c> test</c><00:03:41.040><c> case</c><00:03:41.280><c> and</c><00:03:42.060><c> there</c>
+
+00:03:42.229 --> 00:03:42.239 align:start position:0%
+message go to API test case and there
+ 
+
+00:03:42.239 --> 00:03:45.410 align:start position:0%
+message go to API test case and there
+you<00:03:42.480><c> will</c><00:03:42.659><c> find</c><00:03:42.900><c> API</c><00:03:43.680><c> test</c><00:03:43.920><c> case</c><00:03:44.099><c> export</c>
+
+00:03:45.410 --> 00:03:45.420 align:start position:0%
+you will find API test case export
+ 
+
+00:03:45.420 --> 00:03:47.570 align:start position:0%
+you will find API test case export
+now<00:03:46.080><c> this</c><00:03:46.440><c> time</c><00:03:46.560><c> around</c><00:03:46.799><c> I'm</c><00:03:47.099><c> going</c><00:03:47.280><c> to</c><00:03:47.400><c> show</c>
+
+00:03:47.570 --> 00:03:47.580 align:start position:0%
+now this time around I'm going to show
+ 
+
+00:03:47.580 --> 00:03:49.369 align:start position:0%
+now this time around I'm going to show
+you<00:03:47.760><c> a</c><00:03:48.000><c> different</c><00:03:48.120><c> way</c><00:03:48.480><c> of</c><00:03:48.659><c> doing</c><00:03:48.840><c> this</c><00:03:49.140><c> right</c>
+
+00:03:49.369 --> 00:03:49.379 align:start position:0%
+you a different way of doing this right
+ 
+
+00:03:49.379 --> 00:03:52.610 align:start position:0%
+you a different way of doing this right
+so<00:03:50.220><c> when</c><00:03:50.459><c> we</c><00:03:50.819><c> open</c><00:03:51.060><c> the</c><00:03:51.360><c> API</c><00:03:51.659><c> scan</c><00:03:52.080><c> from</c><00:03:52.440><c> the</c>
+
+00:03:52.610 --> 00:03:52.620 align:start position:0%
+so when we open the API scan from the
+ 
+
+00:03:52.620 --> 00:03:54.710 align:start position:0%
+so when we open the API scan from the
+Tosca<00:03:52.980><c> Commander</c><00:03:53.459><c> it</c><00:03:53.879><c> can</c><00:03:54.060><c> directly</c><00:03:54.420><c> import</c>
+
+00:03:54.710 --> 00:03:54.720 align:start position:0%
+Tosca Commander it can directly import
+ 
+
+00:03:54.720 --> 00:03:57.710 align:start position:0%
+Tosca Commander it can directly import
+this<00:03:55.379><c> API</c><00:03:55.799><c> message</c><00:03:56.040><c> but</c><00:03:56.819><c> right</c><00:03:57.000><c> now</c><00:03:57.239><c> I</c><00:03:57.599><c> haven't</c>
+
+00:03:57.710 --> 00:03:57.720 align:start position:0%
+this API message but right now I haven't
+ 
+
+00:03:57.720 --> 00:04:00.410 align:start position:0%
+this API message but right now I haven't
+opened<00:03:58.379><c> uh</c><00:03:58.799><c> the</c><00:03:59.040><c> Tosca</c><00:03:59.400><c> Commander</c><00:03:59.819><c> I</c><00:04:00.180><c> have</c>
+
+00:04:00.410 --> 00:04:00.420 align:start position:0%
+opened uh the Tosca Commander I have
+ 
+
+00:04:00.420 --> 00:04:02.930 align:start position:0%
+opened uh the Tosca Commander I have
+used<00:04:00.959><c> the</c><00:04:01.200><c> Standalone</c><00:04:01.739><c> version</c><00:04:02.040><c> of</c><00:04:02.459><c> the</c><00:04:02.580><c> API</c>
+
+00:04:02.930 --> 00:04:02.940 align:start position:0%
+used the Standalone version of the API
+ 
+
+00:04:02.940 --> 00:04:05.570 align:start position:0%
+used the Standalone version of the API
+scan<00:04:03.299><c> so</c><00:04:03.900><c> let</c><00:04:04.019><c> me</c><00:04:04.200><c> export</c><00:04:04.620><c> this</c><00:04:04.920><c> and</c><00:04:05.280><c> let</c><00:04:05.459><c> me</c>
+
+00:04:05.570 --> 00:04:05.580 align:start position:0%
+scan so let me export this and let me
+ 
+
+00:04:05.580 --> 00:04:07.670 align:start position:0%
+scan so let me export this and let me
+show<00:04:05.760><c> you</c><00:04:05.940><c> how</c><00:04:06.540><c> you</c><00:04:06.659><c> can</c><00:04:06.780><c> bring</c><00:04:06.959><c> it</c><00:04:07.200><c> back</c><00:04:07.379><c> to</c>
+
+00:04:07.670 --> 00:04:07.680 align:start position:0%
+show you how you can bring it back to
+ 
+
+00:04:07.680 --> 00:04:10.190 align:start position:0%
+show you how you can bring it back to
+Tosca<00:04:08.099><c> Commander</c><00:04:08.580><c> okay</c>
+
+00:04:10.190 --> 00:04:10.200 align:start position:0%
+Tosca Commander okay
+ 
+
+00:04:10.200 --> 00:04:13.550 align:start position:0%
+Tosca Commander okay
+so<00:04:10.980><c> let's</c><00:04:11.519><c> go</c><00:04:11.819><c> ahead</c><00:04:12.000><c> and</c><00:04:12.299><c> Export</c><00:04:12.659><c> this</c><00:04:13.019><c> as</c><00:04:13.379><c> I</c>
+
+00:04:13.550 --> 00:04:13.560 align:start position:0%
+so let's go ahead and Export this as I
+ 
+
+00:04:13.560 --> 00:04:16.310 align:start position:0%
+so let's go ahead and Export this as I
+said<00:04:13.680><c> earlier</c><00:04:13.980><c> this</c><00:04:14.459><c> will</c><00:04:14.580><c> be</c><00:04:14.760><c> saved</c><00:04:15.180><c> as</c><00:04:15.780><c> a</c>
+
+00:04:16.310 --> 00:04:16.320 align:start position:0%
+said earlier this will be saved as a
+ 
+
+00:04:16.320 --> 00:04:19.189 align:start position:0%
+said earlier this will be saved as a
+subset<00:04:16.979><c> okay</c><00:04:17.400><c> so</c><00:04:18.000><c> it</c><00:04:18.120><c> will</c><00:04:18.239><c> be</c><00:04:18.419><c> exported</c><00:04:18.840><c> as</c><00:04:19.019><c> a</c>
+
+00:04:19.189 --> 00:04:19.199 align:start position:0%
+subset okay so it will be exported as a
+ 
+
+00:04:19.199 --> 00:04:21.050 align:start position:0%
+subset okay so it will be exported as a
+subset<00:04:19.560><c> so</c><00:04:20.040><c> let's</c>
+
+00:04:21.050 --> 00:04:21.060 align:start position:0%
+subset so let's
+ 
+
+00:04:21.060 --> 00:04:24.110 align:start position:0%
+subset so let's
+name<00:04:21.600><c> it</c><00:04:21.840><c> as</c><00:04:22.199><c> calculator</c>
+
+00:04:24.110 --> 00:04:24.120 align:start position:0%
+name it as calculator
+ 
+
+00:04:24.120 --> 00:04:27.290 align:start position:0%
+name it as calculator
+and<00:04:24.660><c> let's</c><00:04:24.840><c> save</c><00:04:25.199><c> it</c><00:04:25.440><c> here</c><00:04:25.680><c> okay</c>
+
+00:04:27.290 --> 00:04:27.300 align:start position:0%
+and let's save it here okay
+ 
+
+00:04:27.300 --> 00:04:41.450 align:start position:0%
+and let's save it here okay
+now<00:04:28.040><c> let's</c><00:04:29.040><c> open</c><00:04:29.340><c> Tosca</c><00:04:29.880><c> Commander</c>
+
+00:04:41.450 --> 00:04:41.460 align:start position:0%
+ 
+ 
+
+00:04:41.460 --> 00:04:43.969 align:start position:0%
+ 
+and<00:04:41.880><c> now</c><00:04:42.060><c> let's</c><00:04:42.240><c> go</c><00:04:42.540><c> to</c><00:04:42.720><c> our</c><00:04:42.900><c> project</c><00:04:43.199><c> and</c>
+
+00:04:43.969 --> 00:04:43.979 align:start position:0%
+and now let's go to our project and
+ 
+
+00:04:43.979 --> 00:04:46.550 align:start position:0%
+and now let's go to our project and
+there<00:04:44.280><c> will</c><00:04:44.699><c> be</c><00:04:44.940><c> basically</c><00:04:45.360><c> importing</c><00:04:46.080><c> the</c>
+
+00:04:46.550 --> 00:04:46.560 align:start position:0%
+there will be basically importing the
+ 
+
+00:04:46.560 --> 00:04:49.730 align:start position:0%
+there will be basically importing the
+subset<00:04:46.979><c> and</c><00:04:47.759><c> then</c><00:04:48.000><c> we</c><00:04:48.780><c> will</c><00:04:48.960><c> basically</c><00:04:49.320><c> have</c>
+
+00:04:49.730 --> 00:04:49.740 align:start position:0%
+subset and then we will basically have
+ 
+
+00:04:49.740 --> 00:04:52.850 align:start position:0%
+subset and then we will basically have
+the<00:04:50.100><c> test</c><00:04:50.280><c> case</c><00:04:50.520><c> for</c><00:04:51.180><c> that</c><00:04:51.960><c> particular</c><00:04:52.320><c> API</c>
+
+00:04:52.850 --> 00:04:52.860 align:start position:0%
+the test case for that particular API
+ 
+
+00:04:52.860 --> 00:04:55.070 align:start position:0%
+the test case for that particular API
+message<00:04:53.100><c> which</c><00:04:53.580><c> we</c><00:04:53.759><c> are</c><00:04:53.880><c> trying</c><00:04:54.060><c> to</c><00:04:54.240><c> verify</c><00:04:54.660><c> or</c>
+
+00:04:55.070 --> 00:04:55.080 align:start position:0%
+message which we are trying to verify or
+ 
+
+00:04:55.080 --> 00:04:57.110 align:start position:0%
+message which we are trying to verify or
+trying<00:04:55.440><c> to</c><00:04:55.680><c> create</c><00:04:55.860><c> test</c><00:04:56.220><c> cases</c><00:04:56.639><c> from</c><00:04:56.940><c> that</c>
+
+00:04:57.110 --> 00:04:57.120 align:start position:0%
+trying to create test cases from that
+ 
+
+00:04:57.120 --> 00:04:58.550 align:start position:0%
+trying to create test cases from that
+right
+
+00:04:58.550 --> 00:04:58.560 align:start position:0%
+right
+ 
+
+00:04:58.560 --> 00:05:01.310 align:start position:0%
+right
+so<00:04:59.160><c> this</c><00:04:59.340><c> is</c><00:04:59.460><c> our</c><00:04:59.639><c> project</c><00:04:59.940><c> and</c><00:05:00.479><c> we</c><00:05:00.840><c> can</c><00:05:00.960><c> go</c><00:05:01.139><c> to</c>
+
+00:05:01.310 --> 00:05:01.320 align:start position:0%
+so this is our project and we can go to
+ 
+
+00:05:01.320 --> 00:05:03.850 align:start position:0%
+so this is our project and we can go to
+our<00:05:01.560><c> API</c><00:05:01.919><c> testing</c><00:05:02.400><c> component</c><00:05:02.880><c> folder</c><00:05:03.360><c> okay</c>
+
+00:05:03.850 --> 00:05:03.860 align:start position:0%
+our API testing component folder okay
+ 
+
+00:05:03.860 --> 00:05:07.490 align:start position:0%
+our API testing component folder okay
+and<00:05:04.860><c> then</c><00:05:05.220><c> inside</c><00:05:06.120><c> this</c>
+
+00:05:07.490 --> 00:05:07.500 align:start position:0%
+and then inside this
+ 
+
+00:05:07.500 --> 00:05:10.129 align:start position:0%
+and then inside this
+or<00:05:08.220><c> I</c><00:05:08.460><c> can</c><00:05:08.580><c> even</c><00:05:08.759><c> create</c><00:05:09.060><c> another</c><00:05:09.479><c> component</c>
+
+00:05:10.129 --> 00:05:10.139 align:start position:0%
+or I can even create another component
+ 
+
+00:05:10.139 --> 00:05:12.710 align:start position:0%
+or I can even create another component
+folder<00:05:10.560><c> just</c><00:05:10.800><c> to</c><00:05:10.979><c> make</c><00:05:11.220><c> it</c><00:05:11.460><c> uh</c><00:05:12.240><c> basically</c>
+
+00:05:12.710 --> 00:05:12.720 align:start position:0%
+folder just to make it uh basically
+ 
+
+00:05:12.720 --> 00:05:15.850 align:start position:0%
+folder just to make it uh basically
+clear<00:05:13.020><c> okay</c><00:05:13.560><c> so</c><00:05:14.100><c> let</c><00:05:14.460><c> me</c><00:05:14.639><c> call</c><00:05:14.880><c> it</c>
+
+00:05:15.850 --> 00:05:15.860 align:start position:0%
+clear okay so let me call it
+ 
+
+00:05:15.860 --> 00:05:21.110 align:start position:0%
+clear okay so let me call it
+soap<00:05:16.860><c> API</c><00:05:17.699><c> testing</c>
+
+00:05:21.110 --> 00:05:21.120 align:start position:0%
+ 
+ 
+
+00:05:21.120 --> 00:05:24.350 align:start position:0%
+ 
+okay<00:05:21.600><c> and</c><00:05:22.020><c> now</c><00:05:22.259><c> inside</c><00:05:22.560><c> this</c><00:05:23.160><c> I'm</c><00:05:23.699><c> going</c><00:05:24.000><c> to</c>
+
+00:05:24.350 --> 00:05:24.360 align:start position:0%
+okay and now inside this I'm going to
+ 
+
+00:05:24.360 --> 00:05:26.629 align:start position:0%
+okay and now inside this I'm going to
+import<00:05:24.720><c> my</c><00:05:25.199><c> subset</c><00:05:25.560><c> okay</c>
+
+00:05:26.629 --> 00:05:26.639 align:start position:0%
+import my subset okay
+ 
+
+00:05:26.639 --> 00:05:29.570 align:start position:0%
+import my subset okay
+so<00:05:27.600><c> we</c><00:05:28.440><c> have</c><00:05:28.560><c> to</c><00:05:28.740><c> go</c><00:05:28.919><c> to</c><00:05:29.039><c> that</c><00:05:29.280><c> particular</c>
+
+00:05:29.570 --> 00:05:29.580 align:start position:0%
+so we have to go to that particular
+ 
+
+00:05:29.580 --> 00:05:32.689 align:start position:0%
+so we have to go to that particular
+location<00:05:29.880><c> where</c><00:05:30.419><c> this</c><00:05:30.780><c> was</c><00:05:31.080><c> exported</c>
+
+00:05:32.689 --> 00:05:32.699 align:start position:0%
+location where this was exported
+ 
+
+00:05:32.699 --> 00:05:36.110 align:start position:0%
+location where this was exported
+and<00:05:33.479><c> I</c><00:05:33.780><c> saved</c><00:05:34.139><c> it</c><00:05:34.320><c> under</c><00:05:34.740><c> API</c>
+
+00:05:36.110 --> 00:05:36.120 align:start position:0%
+and I saved it under API
+ 
+
+00:05:36.120 --> 00:05:39.050 align:start position:0%
+and I saved it under API
+this<00:05:36.720><c> is</c><00:05:36.900><c> the</c><00:05:37.380><c> TSU</c><00:05:38.100><c> okay</c>
+
+00:05:39.050 --> 00:05:39.060 align:start position:0%
+this is the TSU okay
+ 
+
+00:05:39.060 --> 00:05:41.930 align:start position:0%
+this is the TSU okay
+and<00:05:39.660><c> once</c><00:05:40.020><c> you</c><00:05:40.080><c> import</c><00:05:40.440><c> that</c><00:05:40.919><c> now</c><00:05:41.639><c> you</c><00:05:41.820><c> will</c>
+
+00:05:41.930 --> 00:05:41.940 align:start position:0%
+and once you import that now you will
+ 
+
+00:05:41.940 --> 00:05:44.930 align:start position:0%
+and once you import that now you will
+see<00:05:42.180><c> that</c><00:05:42.479><c> it</c><00:05:42.960><c> has</c><00:05:43.139><c> created</c><00:05:43.500><c> a</c><00:05:43.979><c> import</c><00:05:44.220><c> folder</c>
+
+00:05:44.930 --> 00:05:44.940 align:start position:0%
+see that it has created a import folder
+ 
+
+00:05:44.940 --> 00:05:46.189 align:start position:0%
+see that it has created a import folder
+right
+
+00:05:46.189 --> 00:05:46.199 align:start position:0%
+right
+ 
+
+00:05:46.199 --> 00:05:48.710 align:start position:0%
+right
+and<00:05:46.620><c> inside</c><00:05:46.740><c> that</c><00:05:47.100><c> you</c><00:05:47.340><c> will</c><00:05:47.520><c> have</c><00:05:47.759><c> your</c><00:05:48.120><c> API</c>
+
+00:05:48.710 --> 00:05:48.720 align:start position:0%
+and inside that you will have your API
+ 
+
+00:05:48.720 --> 00:05:50.029 align:start position:0%
+and inside that you will have your API
+scan
+
+00:05:50.029 --> 00:05:50.039 align:start position:0%
+scan
+ 
+
+00:05:50.039 --> 00:05:52.370 align:start position:0%
+scan
+so<00:05:50.460><c> whatever</c><00:05:50.639><c> you</c><00:05:51.000><c> have</c><00:05:51.120><c> scanned</c><00:05:51.539><c> the</c><00:05:51.720><c> module</c>
+
+00:05:52.370 --> 00:05:52.380 align:start position:0%
+so whatever you have scanned the module
+ 
+
+00:05:52.380 --> 00:05:55.070 align:start position:0%
+so whatever you have scanned the module
+status<00:05:52.740><c> cases</c><00:05:53.340><c> exactly</c><00:05:54.180><c> in</c><00:05:54.360><c> the</c><00:05:54.479><c> same</c><00:05:54.660><c> format</c>
+
+00:05:55.070 --> 00:05:55.080 align:start position:0%
+status cases exactly in the same format
+ 
+
+00:05:55.080 --> 00:05:57.950 align:start position:0%
+status cases exactly in the same format
+the<00:05:55.860><c> only</c><00:05:56.039><c> difference</c><00:05:56.340><c> is</c><00:05:56.759><c> you</c><00:05:57.360><c> need</c><00:05:57.539><c> to</c>
+
+00:05:57.950 --> 00:05:57.960 align:start position:0%
+the only difference is you need to
+ 
+
+00:05:57.960 --> 00:06:01.550 align:start position:0%
+the only difference is you need to
+export<00:05:58.500><c> and</c><00:05:58.919><c> import</c><00:05:59.100><c> if</c><00:05:59.820><c> you</c><00:06:00.060><c> have</c><00:06:00.240><c> used</c><00:06:00.560><c> the</c>
+
+00:06:01.550 --> 00:06:01.560 align:start position:0%
+export and import if you have used the
+ 
+
+00:06:01.560 --> 00:06:04.490 align:start position:0%
+export and import if you have used the
+API<00:06:01.979><c> scan</c><00:06:02.340><c> as</c><00:06:02.580><c> a</c><00:06:02.759><c> standalone</c><00:06:03.240><c> version</c><00:06:03.960><c> not</c>
+
+00:06:04.490 --> 00:06:04.500 align:start position:0%
+API scan as a standalone version not
+ 
+
+00:06:04.500 --> 00:06:06.710 align:start position:0%
+API scan as a standalone version not
+from<00:06:04.740><c> Tosca</c><00:06:05.220><c> Commander</c><00:06:05.759><c> okay</c><00:06:05.940><c> so</c><00:06:06.180><c> this</c><00:06:06.419><c> is</c><00:06:06.479><c> the</c>
+
+00:06:06.710 --> 00:06:06.720 align:start position:0%
+from Tosca Commander okay so this is the
+ 
+
+00:06:06.720 --> 00:06:08.029 align:start position:0%
+from Tosca Commander okay so this is the
+difference
+
+00:06:08.029 --> 00:06:08.039 align:start position:0%
+difference
+ 
+
+00:06:08.039 --> 00:06:09.350 align:start position:0%
+difference
+now
+
+00:06:09.350 --> 00:06:09.360 align:start position:0%
+now
+ 
+
+00:06:09.360 --> 00:06:12.110 align:start position:0%
+now
+the<00:06:10.020><c> rest</c><00:06:10.139><c> of</c><00:06:10.320><c> the</c><00:06:10.440><c> process</c><00:06:10.740><c> is</c><00:06:11.340><c> still</c><00:06:11.520><c> exactly</c>
+
+00:06:12.110 --> 00:06:12.120 align:start position:0%
+the rest of the process is still exactly
+ 
+
+00:06:12.120 --> 00:06:15.350 align:start position:0%
+the rest of the process is still exactly
+the<00:06:12.419><c> same</c><00:06:12.539><c> right</c><00:06:13.080><c> so</c><00:06:14.039><c> this</c><00:06:14.340><c> time</c><00:06:14.460><c> around</c><00:06:14.699><c> you</c>
+
+00:06:15.350 --> 00:06:15.360 align:start position:0%
+the same right so this time around you
+ 
+
+00:06:15.360 --> 00:06:18.170 align:start position:0%
+the same right so this time around you
+need<00:06:15.479><c> to</c><00:06:15.720><c> select</c><00:06:16.139><c> the</c><00:06:16.740><c> notes</c><00:06:17.100><c> which</c><00:06:17.820><c> you</c><00:06:18.000><c> want</c>
+
+00:06:18.170 --> 00:06:18.180 align:start position:0%
+need to select the notes which you want
+ 
+
+00:06:18.180 --> 00:06:21.590 align:start position:0%
+need to select the notes which you want
+to<00:06:18.300><c> add</c><00:06:18.620><c> or</c><00:06:19.620><c> you</c><00:06:19.979><c> want</c><00:06:20.220><c> to</c><00:06:20.460><c> add</c><00:06:20.759><c> the</c><00:06:21.000><c> response</c>
+
+00:06:21.590 --> 00:06:21.600 align:start position:0%
+to add or you want to add the response
+ 
+
+00:06:21.600 --> 00:06:23.450 align:start position:0%
+to add or you want to add the response
+you<00:06:22.020><c> can</c><00:06:22.139><c> do</c><00:06:22.380><c> that</c><00:06:22.620><c> right</c>
+
+00:06:23.450 --> 00:06:23.460 align:start position:0%
+you can do that right
+ 
+
+00:06:23.460 --> 00:06:26.570 align:start position:0%
+you can do that right
+so<00:06:24.000><c> go</c><00:06:24.419><c> ahead</c><00:06:24.600><c> and</c><00:06:24.780><c> click</c><00:06:25.080><c> on</c><00:06:25.259><c> ADD</c><00:06:25.620><c> and</c><00:06:26.280><c> it</c><00:06:26.400><c> will</c>
+
+00:06:26.570 --> 00:06:26.580 align:start position:0%
+so go ahead and click on ADD and it will
+ 
+
+00:06:26.580 --> 00:06:29.629 align:start position:0%
+so go ahead and click on ADD and it will
+add<00:06:27.120><c> the</c><00:06:27.360><c> status</c><00:06:27.539><c> code</c><00:06:27.840><c> we</c><00:06:28.199><c> can</c><00:06:28.380><c> also</c><00:06:28.800><c> add</c><00:06:29.160><c> the</c>
+
+00:06:29.629 --> 00:06:29.639 align:start position:0%
+add the status code we can also add the
+ 
+
+00:06:29.639 --> 00:06:32.510 align:start position:0%
+add the status code we can also add the
+result<00:06:29.819><c> because</c><00:06:30.660><c> we</c><00:06:30.960><c> want</c><00:06:31.139><c> to</c><00:06:31.259><c> verify</c><00:06:31.680><c> that</c>
+
+00:06:32.510 --> 00:06:32.520 align:start position:0%
+result because we want to verify that
+ 
+
+00:06:32.520 --> 00:06:35.930 align:start position:0%
+result because we want to verify that
+okay<00:06:33.060><c> so</c><00:06:33.960><c> these</c><00:06:34.319><c> two</c><00:06:34.500><c> uh</c><00:06:34.919><c> will</c><00:06:35.160><c> add</c><00:06:35.460><c> in</c><00:06:35.819><c> the</c>
+
+00:06:35.930 --> 00:06:35.940 align:start position:0%
+okay so these two uh will add in the
+ 
+
+00:06:35.940 --> 00:06:37.309 align:start position:0%
+okay so these two uh will add in the
+response
+
+00:06:37.309 --> 00:06:37.319 align:start position:0%
+response
+ 
+
+00:06:37.319 --> 00:06:39.950 align:start position:0%
+response
+and<00:06:37.979><c> in</c><00:06:38.160><c> the</c><00:06:38.340><c> request</c><00:06:38.639><c> we</c><00:06:39.120><c> can</c><00:06:39.300><c> basically</c><00:06:39.600><c> add</c>
+
+00:06:39.950 --> 00:06:39.960 align:start position:0%
+and in the request we can basically add
+ 
+
+00:06:39.960 --> 00:06:41.870 align:start position:0%
+and in the request we can basically add
+these<00:06:40.319><c> two</c><00:06:40.440><c> nodes</c><00:06:40.740><c> because</c><00:06:41.160><c> we</c><00:06:41.460><c> can</c><00:06:41.639><c> enter</c>
+
+00:06:41.870 --> 00:06:41.880 align:start position:0%
+these two nodes because we can enter
+ 
+
+00:06:41.880 --> 00:06:44.870 align:start position:0%
+these two nodes because we can enter
+different<00:06:42.560><c> input</c><00:06:43.560><c> values</c><00:06:43.979><c> right</c><00:06:44.220><c> we</c><00:06:44.699><c> don't</c>
+
+00:06:44.870 --> 00:06:44.880 align:start position:0%
+different input values right we don't
+ 
+
+00:06:44.880 --> 00:06:48.230 align:start position:0%
+different input values right we don't
+just<00:06:45.180><c> want</c><00:06:45.419><c> one</c><00:06:45.720><c> input</c><00:06:46.080><c> value</c><00:06:46.319><c> to</c><00:06:46.979><c> to</c><00:06:47.639><c> be</c><00:06:47.940><c> just</c>
+
+00:06:48.230 --> 00:06:48.240 align:start position:0%
+just want one input value to to be just
+ 
+
+00:06:48.240 --> 00:06:51.650 align:start position:0%
+just want one input value to to be just
+added<00:06:48.720><c> we</c><00:06:49.380><c> want</c><00:06:49.620><c> to</c><00:06:49.740><c> make</c><00:06:49.979><c> it</c><00:06:50.360><c> basically</c><00:06:51.360><c> a</c>
+
+00:06:51.650 --> 00:06:51.660 align:start position:0%
+added we want to make it basically a
+ 
+
+00:06:51.660 --> 00:06:53.749 align:start position:0%
+added we want to make it basically a
+calculator<00:06:51.919><c> which</c><00:06:52.919><c> can</c><00:06:53.100><c> take</c><00:06:53.340><c> different</c>
+
+00:06:53.749 --> 00:06:53.759 align:start position:0%
+calculator which can take different
+ 
+
+00:06:53.759 --> 00:06:57.409 align:start position:0%
+calculator which can take different
+inputs<00:06:54.360><c> and</c><00:06:54.720><c> give</c><00:06:54.900><c> different</c><00:06:55.259><c> output</c><00:06:55.860><c> right</c>
+
+00:06:57.409 --> 00:06:57.419 align:start position:0%
+inputs and give different output right
+ 
+
+00:06:57.419 --> 00:07:01.189 align:start position:0%
+inputs and give different output right
+so<00:06:57.960><c> now</c><00:06:58.199><c> if</c><00:06:58.919><c> I</c><00:06:59.340><c> go</c><00:06:59.520><c> back</c><00:06:59.759><c> to</c><00:07:00.120><c> my</c><00:07:00.360><c> test</c><00:07:00.479><c> cases</c><00:07:00.900><c> you</c>
+
+00:07:01.189 --> 00:07:01.199 align:start position:0%
+so now if I go back to my test cases you
+ 
+
+00:07:01.199 --> 00:07:03.430 align:start position:0%
+so now if I go back to my test cases you
+can<00:07:01.319><c> see</c><00:07:01.560><c> uh</c><00:07:02.220><c> we</c><00:07:02.400><c> have</c><00:07:02.520><c> got</c><00:07:02.699><c> this</c><00:07:03.060><c> different</c>
+
+00:07:03.430 --> 00:07:03.440 align:start position:0%
+can see uh we have got this different
+ 
+
+00:07:03.440 --> 00:07:05.749 align:start position:0%
+can see uh we have got this different
+values<00:07:04.440><c> which</c><00:07:04.680><c> we</c><00:07:04.800><c> can</c><00:07:04.919><c> enter</c><00:07:05.100><c> here</c><00:07:05.400><c> in</c><00:07:05.639><c> the</c>
+
+00:07:05.749 --> 00:07:05.759 align:start position:0%
+values which we can enter here in the
+ 
+
+00:07:05.759 --> 00:07:08.689 align:start position:0%
+values which we can enter here in the
+request<00:07:06.060><c> and</c><00:07:06.960><c> in</c><00:07:07.139><c> the</c><00:07:07.259><c> response</c><00:07:07.800><c> we</c><00:07:08.520><c> can</c>
+
+00:07:08.689 --> 00:07:08.699 align:start position:0%
+request and in the response we can
+ 
+
+00:07:08.699 --> 00:07:11.570 align:start position:0%
+request and in the response we can
+basically<00:07:09.560><c> select</c><00:07:10.560><c> any</c><00:07:10.680><c> value</c><00:07:10.979><c> so</c><00:07:11.280><c> that</c><00:07:11.460><c> we</c>
+
+00:07:11.570 --> 00:07:11.580 align:start position:0%
+basically select any value so that we
+ 
+
+00:07:11.580 --> 00:07:13.010 align:start position:0%
+basically select any value so that we
+can<00:07:11.699><c> verify</c><00:07:12.120><c> it</c><00:07:12.300><c> right</c>
+
+00:07:13.010 --> 00:07:13.020 align:start position:0%
+can verify it right
+ 
+
+00:07:13.020 --> 00:07:15.830 align:start position:0%
+can verify it right
+so<00:07:13.560><c> here</c><00:07:13.800><c> it</c><00:07:13.979><c> will</c><00:07:14.100><c> be</c><00:07:14.220><c> 200</c><00:07:14.639><c> okay</c><00:07:14.940><c> and</c><00:07:15.419><c> action</c>
+
+00:07:15.830 --> 00:07:15.840 align:start position:0%
+so here it will be 200 okay and action
+ 
+
+00:07:15.840 --> 00:07:17.570 align:start position:0%
+so here it will be 200 okay and action
+mode<00:07:16.080><c> would</c><00:07:16.319><c> be</c><00:07:16.500><c> verify</c>
+
+00:07:17.570 --> 00:07:17.580 align:start position:0%
+mode would be verify
+ 
+
+00:07:17.580 --> 00:07:22.370 align:start position:0%
+mode would be verify
+and<00:07:18.240><c> in</c><00:07:18.539><c> the</c><00:07:18.660><c> request</c><00:07:19.020><c> what</c><00:07:19.500><c> we</c><00:07:19.620><c> can</c><00:07:19.800><c> do</c><00:07:20.039><c> is</c>
+
+00:07:22.370 --> 00:07:22.380 align:start position:0%
+and in the request what we can do is
+ 
+
+00:07:22.380 --> 00:07:24.469 align:start position:0%
+and in the request what we can do is
+we<00:07:22.860><c> can</c><00:07:23.099><c> basically</c><00:07:23.400><c> enter</c><00:07:23.759><c> any</c><00:07:24.120><c> particular</c>
+
+00:07:24.469 --> 00:07:24.479 align:start position:0%
+we can basically enter any particular
+ 
+
+00:07:24.479 --> 00:07:28.730 align:start position:0%
+we can basically enter any particular
+value<00:07:25.160><c> either</c><00:07:26.160><c> 10</c><00:07:26.759><c> or</c><00:07:27.539><c> I</c><00:07:27.780><c> can</c><00:07:27.960><c> either</c><00:07:28.440><c> enter</c>
+
+00:07:28.730 --> 00:07:28.740 align:start position:0%
+value either 10 or I can either enter
+ 
+
+00:07:28.740 --> 00:07:31.309 align:start position:0%
+value either 10 or I can either enter
+something<00:07:29.160><c> else</c><00:07:29.520><c> also</c><00:07:29.940><c> right</c><00:07:30.660><c> so</c><00:07:31.080><c> it</c><00:07:31.199><c> will</c>
+
+00:07:31.309 --> 00:07:31.319 align:start position:0%
+something else also right so it will
+ 
+
+00:07:31.319 --> 00:07:34.249 align:start position:0%
+something else also right so it will
+give<00:07:31.500><c> this</c><00:07:31.979><c> a</c><00:07:32.280><c> result</c><00:07:32.460><c> but</c><00:07:33.300><c> then</c><00:07:33.599><c> how</c><00:07:33.900><c> do</c><00:07:34.080><c> we</c>
+
+00:07:34.249 --> 00:07:34.259 align:start position:0%
+give this a result but then how do we
+ 
+
+00:07:34.259 --> 00:07:38.150 align:start position:0%
+give this a result but then how do we
+verify<00:07:35.099><c> this</c><00:07:35.280><c> okay</c>
+
+00:07:38.150 --> 00:07:38.160 align:start position:0%
+ 
+ 
+
+00:07:38.160 --> 00:07:39.770 align:start position:0%
+ 
+so<00:07:38.580><c> to</c><00:07:38.759><c> do</c><00:07:39.000><c> that</c>
+
+00:07:39.770 --> 00:07:39.780 align:start position:0%
+so to do that
+ 
+
+00:07:39.780 --> 00:07:42.230 align:start position:0%
+so to do that
+let's<00:07:40.380><c> add</c><00:07:40.740><c> some</c><00:07:40.979><c> configuration</c><00:07:41.520><c> parameters</c>
+
+00:07:42.230 --> 00:07:42.240 align:start position:0%
+let's add some configuration parameters
+ 
+
+00:07:42.240 --> 00:07:44.689 align:start position:0%
+let's add some configuration parameters
+where<00:07:42.660><c> we</c><00:07:42.840><c> can</c><00:07:43.020><c> store</c><00:07:43.259><c> these</c><00:07:43.620><c> values</c><00:07:43.979><c> and</c><00:07:44.580><c> then</c>
+
+00:07:44.689 --> 00:07:44.699 align:start position:0%
+where we can store these values and then
+ 
+
+00:07:44.699 --> 00:07:47.510 align:start position:0%
+where we can store these values and then
+we<00:07:44.940><c> can</c><00:07:45.060><c> check</c><00:07:45.360><c> whether</c><00:07:46.020><c> the</c><00:07:46.740><c> addition</c><00:07:47.280><c> of</c>
+
+00:07:47.510 --> 00:07:47.520 align:start position:0%
+we can check whether the addition of
+ 
+
+00:07:47.520 --> 00:07:49.430 align:start position:0%
+we can check whether the addition of
+these<00:07:47.699><c> two</c><00:07:47.819><c> values</c><00:07:48.180><c> is</c><00:07:48.599><c> equal</c><00:07:48.840><c> in</c><00:07:49.319><c> the</c>
+
+00:07:49.430 --> 00:07:49.440 align:start position:0%
+these two values is equal in the
+ 
+
+00:07:49.440 --> 00:07:52.490 align:start position:0%
+these two values is equal in the
+response<00:07:49.979><c> okay</c><00:07:50.759><c> so</c><00:07:51.660><c> what</c><00:07:51.840><c> I'm</c><00:07:52.020><c> going</c><00:07:52.139><c> to</c><00:07:52.319><c> do</c>
+
+00:07:52.490 --> 00:07:52.500 align:start position:0%
+response okay so what I'm going to do
+ 
+
+00:07:52.500 --> 00:07:54.950 align:start position:0%
+response okay so what I'm going to do
+here<00:07:52.860><c> is</c><00:07:53.160><c> I'm</c><00:07:53.400><c> going</c><00:07:53.580><c> to</c><00:07:53.759><c> add</c><00:07:54.300><c> some</c>
+
+00:07:54.950 --> 00:07:54.960 align:start position:0%
+here is I'm going to add some
+ 
+
+00:07:54.960 --> 00:07:58.210 align:start position:0%
+here is I'm going to add some
+configuration<00:07:55.740><c> parameters</c><00:07:56.639><c> okay</c>
+
+00:07:58.210 --> 00:07:58.220 align:start position:0%
+configuration parameters okay
+ 
+
+00:07:58.220 --> 00:08:02.809 align:start position:0%
+configuration parameters okay
+and<00:07:59.220><c> let's</c><00:07:59.819><c> go</c><00:08:00.180><c> here</c><00:08:00.740><c> and</c><00:08:01.740><c> here</c><00:08:02.340><c> is</c><00:08:02.520><c> the</c><00:08:02.699><c> test</c>
+
+00:08:02.809 --> 00:08:02.819 align:start position:0%
+and let's go here and here is the test
+ 
+
+00:08:02.819 --> 00:08:04.850 align:start position:0%
+and let's go here and here is the test
+configuration<00:08:03.419><c> parameter</c>
+
+00:08:04.850 --> 00:08:04.860 align:start position:0%
+configuration parameter
+ 
+
+00:08:04.860 --> 00:08:09.050 align:start position:0%
+configuration parameter
+and<00:08:05.520><c> I'm</c><00:08:05.699><c> going</c><00:08:06.060><c> to</c><00:08:06.360><c> call</c><00:08:06.780><c> it</c><00:08:07.020><c> num1</c>
+
+00:08:09.050 --> 00:08:09.060 align:start position:0%
+and I'm going to call it num1
+ 
+
+00:08:09.060 --> 00:08:13.309 align:start position:0%
+and I'm going to call it num1
+and<00:08:09.539><c> I'm</c><00:08:09.720><c> going</c><00:08:09.840><c> to</c><00:08:10.020><c> give</c><00:08:10.139><c> some</c><00:08:10.440><c> value</c><00:08:10.620><c> here</c>
+
+00:08:13.309 --> 00:08:13.319 align:start position:0%
+ 
+ 
+
+00:08:13.319 --> 00:08:23.210 align:start position:0%
+ 
+and<00:08:13.919><c> then</c><00:08:14.099><c> num2</c>
+
+00:08:23.210 --> 00:08:23.220 align:start position:0%
+ 
+ 
+
+00:08:23.220 --> 00:08:27.350 align:start position:0%
+ 
+okay<00:08:23.699><c> and</c><00:08:23.940><c> then</c><00:08:24.300><c> let's</c><00:08:25.259><c> change</c><00:08:25.620><c> this</c><00:08:25.979><c> okay</c><00:08:26.580><c> so</c>
+
+00:08:27.350 --> 00:08:27.360 align:start position:0%
+okay and then let's change this okay so
+ 
+
+00:08:27.360 --> 00:08:36.469 align:start position:0%
+okay and then let's change this okay so
+what<00:08:27.840><c> we</c><00:08:27.960><c> are</c><00:08:28.080><c> going</c><00:08:28.199><c> to</c><00:08:28.319><c> call</c><00:08:28.560><c> this</c><00:08:28.860><c> is</c><00:08:29.580><c> CP</c>
+
+00:08:36.469 --> 00:08:36.479 align:start position:0%
+ 
+ 
+
+00:08:36.479 --> 00:08:43.550 align:start position:0%
+ 
+number
+
+00:08:43.550 --> 00:08:43.560 align:start position:0%
+ 
+ 
+
+00:08:43.560 --> 00:08:47.389 align:start position:0%
+ 
+and<00:08:44.459><c> CP</c><00:08:45.120><c> num2</c>
+
+00:08:47.389 --> 00:08:47.399 align:start position:0%
+and CP num2
+ 
+
+00:08:47.399 --> 00:08:50.030 align:start position:0%
+and CP num2
+so<00:08:47.880><c> this</c><00:08:48.120><c> way</c><00:08:48.300><c> you</c><00:08:48.959><c> can</c><00:08:49.080><c> basically</c><00:08:49.440><c> configure</c>
+
+00:08:50.030 --> 00:08:50.040 align:start position:0%
+so this way you can basically configure
+ 
+
+00:08:50.040 --> 00:08:52.730 align:start position:0%
+so this way you can basically configure
+your<00:08:50.580><c> values</c><00:08:50.940><c> and</c><00:08:51.420><c> not</c><00:08:51.600><c> pass</c><00:08:51.839><c> static</c><00:08:52.320><c> values</c>
+
+00:08:52.730 --> 00:08:52.740 align:start position:0%
+your values and not pass static values
+ 
+
+00:08:52.740 --> 00:08:54.829 align:start position:0%
+your values and not pass static values
+all<00:08:53.100><c> the</c><00:08:53.220><c> time</c><00:08:53.339><c> right</c><00:08:53.760><c> so</c><00:08:54.420><c> you</c><00:08:54.540><c> can</c><00:08:54.660><c> just</c>
+
+00:08:54.829 --> 00:08:54.839 align:start position:0%
+all the time right so you can just
+ 
+
+00:08:54.839 --> 00:08:57.590 align:start position:0%
+all the time right so you can just
+change<00:08:55.080><c> the</c><00:08:55.380><c> configuration</c><00:08:55.860><c> values</c><00:08:56.399><c> and</c><00:08:57.360><c> then</c>
+
+00:08:57.590 --> 00:08:57.600 align:start position:0%
+change the configuration values and then
+ 
+
+00:08:57.600 --> 00:09:00.350 align:start position:0%
+change the configuration values and then
+send<00:08:58.320><c> this</c><00:08:58.500><c> request</c><00:08:58.920><c> okay</c><00:08:59.339><c> now</c><00:09:00.000><c> there</c><00:09:00.240><c> are</c>
+
+00:09:00.350 --> 00:09:00.360 align:start position:0%
+send this request okay now there are
+ 
+
+00:09:00.360 --> 00:09:01.910 align:start position:0%
+send this request okay now there are
+different<00:09:00.660><c> ways</c><00:09:01.080><c> of</c><00:09:01.140><c> doing</c><00:09:01.320><c> it</c><00:09:01.500><c> I'm</c><00:09:01.680><c> just</c>
+
+00:09:01.910 --> 00:09:01.920 align:start position:0%
+different ways of doing it I'm just
+ 
+
+00:09:01.920 --> 00:09:04.550 align:start position:0%
+different ways of doing it I'm just
+showing<00:09:02.160><c> you</c><00:09:02.279><c> one</c><00:09:02.519><c> way</c><00:09:02.700><c> okay</c><00:09:03.120><c> now</c><00:09:03.959><c> go</c><00:09:04.200><c> back</c><00:09:04.320><c> to</c>
+
+00:09:04.550 --> 00:09:04.560 align:start position:0%
+showing you one way okay now go back to
+ 
+
+00:09:04.560 --> 00:09:07.430 align:start position:0%
+showing you one way okay now go back to
+response<00:09:05.220><c> and</c><00:09:05.760><c> here</c><00:09:06.120><c> we</c><00:09:06.480><c> are</c><00:09:06.720><c> going</c><00:09:06.839><c> to</c><00:09:07.140><c> use</c>
+
+00:09:07.430 --> 00:09:07.440 align:start position:0%
+response and here we are going to use
+ 
+
+00:09:07.440 --> 00:09:10.670 align:start position:0%
+response and here we are going to use
+some<00:09:07.920><c> math</c><00:09:08.100><c> calculation</c><00:09:08.760><c> right</c><00:09:09.300><c> to</c><00:09:10.140><c> add</c><00:09:10.380><c> these</c>
+
+00:09:10.670 --> 00:09:10.680 align:start position:0%
+some math calculation right to add these
+ 
+
+00:09:10.680 --> 00:09:13.370 align:start position:0%
+some math calculation right to add these
+two<00:09:10.800><c> numbers</c><00:09:11.060><c> so</c><00:09:12.060><c> we</c><00:09:12.540><c> are</c><00:09:12.720><c> going</c><00:09:12.839><c> to</c><00:09:13.080><c> access</c>
+
+00:09:13.370 --> 00:09:13.380 align:start position:0%
+two numbers so we are going to access
+ 
+
+00:09:13.380 --> 00:09:14.990 align:start position:0%
+two numbers so we are going to access
+that<00:09:13.920><c> CP</c>
+
+00:09:14.990 --> 00:09:15.000 align:start position:0%
+that CP
+ 
+
+00:09:15.000 --> 00:09:18.790 align:start position:0%
+that CP
+again<00:09:15.660><c> number</c><00:09:16.080><c> one</c>
+
+00:09:18.790 --> 00:09:18.800 align:start position:0%
+ 
+ 
+
+00:09:18.800 --> 00:09:21.769 align:start position:0%
+ 
+and<00:09:19.800><c> then</c>
+
+00:09:21.769 --> 00:09:21.779 align:start position:0%
+and then
+ 
+
+00:09:21.779 --> 00:09:27.230 align:start position:0%
+and then
+we<00:09:22.320><c> are</c><00:09:22.440><c> going</c><00:09:22.620><c> to</c><00:09:22.920><c> add</c><00:09:23.279><c> this</c><00:09:23.720><c> and</c><00:09:24.720><c> again</c><00:09:25.620><c> CP</c>
+
+00:09:27.230 --> 00:09:27.240 align:start position:0%
+we are going to add this and again CP
+ 
+
+00:09:27.240 --> 00:09:31.730 align:start position:0%
+we are going to add this and again CP
+of<00:09:27.779><c> num2</c>
+
+00:09:31.730 --> 00:09:31.740 align:start position:0%
+ 
+ 
+
+00:09:31.740 --> 00:09:36.110 align:start position:0%
+ 
+right<00:09:32.160><c> and</c><00:09:32.880><c> do</c><00:09:33.120><c> take</c><00:09:33.360><c> care</c><00:09:33.600><c> of</c><00:09:34.080><c> the</c><00:09:34.920><c> start</c><00:09:35.339><c> and</c>
+
+00:09:36.110 --> 00:09:36.120 align:start position:0%
+right and do take care of the start and
+ 
+
+00:09:36.120 --> 00:09:39.410 align:start position:0%
+right and do take care of the start and
+end<00:09:36.480><c> brackets</c><00:09:37.080><c> okay</c><00:09:37.800><c> just</c><00:09:38.640><c> to</c><00:09:38.820><c> make</c><00:09:39.000><c> sure</c><00:09:39.180><c> this</c>
+
+00:09:39.410 --> 00:09:39.420 align:start position:0%
+end brackets okay just to make sure this
+ 
+
+00:09:39.420 --> 00:09:41.509 align:start position:0%
+end brackets okay just to make sure this
+correct
+
+00:09:41.509 --> 00:09:41.519 align:start position:0%
+correct
+ 
+
+00:09:41.519 --> 00:09:44.509 align:start position:0%
+correct
+something<00:09:42.300><c> seems</c><00:09:42.899><c> to</c><00:09:42.959><c> be</c><00:09:43.140><c> wrong</c><00:09:43.440><c> I</c><00:09:43.980><c> forgot</c><00:09:44.279><c> one</c>
+
+00:09:44.509 --> 00:09:44.519 align:start position:0%
+something seems to be wrong I forgot one
+ 
+
+00:09:44.519 --> 00:09:46.730 align:start position:0%
+something seems to be wrong I forgot one
+curly<00:09:44.940><c> brace</c><00:09:45.240><c> okay</c>
+
+00:09:46.730 --> 00:09:46.740 align:start position:0%
+curly brace okay
+ 
+
+00:09:46.740 --> 00:09:49.730 align:start position:0%
+curly brace okay
+okay<00:09:47.040><c> so</c><00:09:47.459><c> now</c><00:09:47.640><c> it</c><00:09:48.060><c> looks</c><00:09:48.360><c> correct</c><00:09:48.600><c> so</c><00:09:49.380><c> what</c><00:09:49.620><c> it</c>
+
+00:09:49.730 --> 00:09:49.740 align:start position:0%
+okay so now it looks correct so what it
+ 
+
+00:09:49.740 --> 00:09:52.190 align:start position:0%
+okay so now it looks correct so what it
+will<00:09:49.920><c> do</c><00:09:50.100><c> here</c><00:09:50.339><c> is</c><00:09:50.880><c> basically</c><00:09:51.300><c> it</c><00:09:51.600><c> will</c><00:09:51.720><c> verify</c>
+
+00:09:52.190 --> 00:09:52.200 align:start position:0%
+will do here is basically it will verify
+ 
+
+00:09:52.200 --> 00:09:54.590 align:start position:0%
+will do here is basically it will verify
+whether<00:09:52.680><c> the</c><00:09:52.920><c> output</c><00:09:53.279><c> of</c><00:09:53.760><c> whatever</c><00:09:54.060><c> we</c><00:09:54.420><c> are</c>
+
+00:09:54.590 --> 00:09:54.600 align:start position:0%
+whether the output of whatever we are
+ 
+
+00:09:54.600 --> 00:09:57.050 align:start position:0%
+whether the output of whatever we are
+calculating<00:09:55.019><c> using</c><00:09:55.620><c> the</c><00:09:55.740><c> math</c><00:09:55.920><c> function</c><00:09:56.339><c> is</c>
+
+00:09:57.050 --> 00:09:57.060 align:start position:0%
+calculating using the math function is
+ 
+
+00:09:57.060 --> 00:09:59.570 align:start position:0%
+calculating using the math function is
+the<00:09:57.360><c> same</c><00:09:57.540><c> as</c><00:09:57.899><c> the</c><00:09:58.140><c> API</c><00:09:58.560><c> response</c><00:09:59.220><c> output</c>
+
+00:09:59.570 --> 00:09:59.580 align:start position:0%
+the same as the API response output
+ 
+
+00:09:59.580 --> 00:10:01.070 align:start position:0%
+the same as the API response output
+right
+
+00:10:01.070 --> 00:10:01.080 align:start position:0%
+right
+ 
+
+00:10:01.080 --> 00:10:04.430 align:start position:0%
+right
+so<00:10:01.620><c> let's</c><00:10:01.800><c> go</c><00:10:02.040><c> ahead</c><00:10:02.279><c> and</c><00:10:02.940><c> execute</c><00:10:03.480><c> this</c><00:10:03.779><c> now</c>
+
+00:10:04.430 --> 00:10:04.440 align:start position:0%
+so let's go ahead and execute this now
+ 
+
+00:10:04.440 --> 00:10:07.490 align:start position:0%
+so let's go ahead and execute this now
+okay<00:10:04.860><c> so</c><00:10:05.100><c> run</c><00:10:05.339><c> this</c><00:10:05.580><c> in</c><00:10:05.760><c> SketchBook</c><00:10:06.720><c> and</c><00:10:07.380><c> then</c>
+
+00:10:07.490 --> 00:10:07.500 align:start position:0%
+okay so run this in SketchBook and then
+ 
+
+00:10:07.500 --> 00:10:09.949 align:start position:0%
+okay so run this in SketchBook and then
+it<00:10:07.740><c> is</c><00:10:07.920><c> going</c><00:10:08.040><c> to</c><00:10:08.279><c> verify</c><00:10:08.700><c> whether</c><00:10:09.060><c> it</c><00:10:09.300><c> has</c>
+
+00:10:09.949 --> 00:10:09.959 align:start position:0%
+it is going to verify whether it has
+ 
+
+00:10:09.959 --> 00:10:13.370 align:start position:0%
+it is going to verify whether it has
+correctly<00:10:10.740><c> calculated</c><00:10:11.279><c> the</c><00:10:11.940><c> value</c><00:10:12.120><c> using</c><00:10:13.080><c> the</c>
+
+00:10:13.370 --> 00:10:13.380 align:start position:0%
+correctly calculated the value using the
+ 
+
+00:10:13.380 --> 00:10:16.670 align:start position:0%
+correctly calculated the value using the
+API<00:10:13.860><c> okay</c><00:10:14.580><c> so</c><00:10:15.300><c> verification</c><00:10:15.839><c> as</c><00:10:16.380><c> I</c><00:10:16.500><c> said</c>
+
+00:10:16.670 --> 00:10:16.680 align:start position:0%
+API okay so verification as I said
+ 
+
+00:10:16.680 --> 00:10:19.730 align:start position:0%
+API okay so verification as I said
+earlier<00:10:17.040><c> is</c><00:10:17.459><c> very</c><00:10:17.760><c> important</c><00:10:18.120><c> no</c><00:10:19.019><c> matter</c><00:10:19.200><c> what</c>
+
+00:10:19.730 --> 00:10:19.740 align:start position:0%
+earlier is very important no matter what
+ 
+
+00:10:19.740 --> 00:10:22.850 align:start position:0%
+earlier is very important no matter what
+you<00:10:20.040><c> are</c><00:10:20.160><c> testing</c><00:10:20.519><c> either</c><00:10:20.880><c> API</c><00:10:21.600><c> or</c><00:10:22.140><c> any</c><00:10:22.680><c> type</c>
+
+00:10:22.850 --> 00:10:22.860 align:start position:0%
+you are testing either API or any type
+ 
+
+00:10:22.860 --> 00:10:25.130 align:start position:0%
+you are testing either API or any type
+of<00:10:22.980><c> application</c><00:10:23.459><c> right</c><00:10:23.820><c> so</c><00:10:24.480><c> you</c><00:10:24.660><c> have</c><00:10:24.899><c> to</c>
+
+00:10:25.130 --> 00:10:25.140 align:start position:0%
+of application right so you have to
+ 
+
+00:10:25.140 --> 00:10:27.530 align:start position:0%
+of application right so you have to
+verify<00:10:25.560><c> what</c><00:10:26.100><c> is</c><00:10:26.220><c> being</c><00:10:26.459><c> returned</c><00:10:26.940><c> by</c><00:10:27.300><c> that</c>
+
+00:10:27.530 --> 00:10:27.540 align:start position:0%
+verify what is being returned by that
+ 
+
+00:10:27.540 --> 00:10:29.630 align:start position:0%
+verify what is being returned by that
+particular<00:10:28.040><c> functionality</c><00:10:29.040><c> which</c><00:10:29.339><c> you</c><00:10:29.519><c> are</c>
+
+00:10:29.630 --> 00:10:29.640 align:start position:0%
+particular functionality which you are
+ 
+
+00:10:29.640 --> 00:10:32.150 align:start position:0%
+particular functionality which you are
+trying<00:10:29.760><c> to</c><00:10:29.940><c> test</c><00:10:30.120><c> so</c><00:10:30.839><c> as</c><00:10:31.019><c> you</c><00:10:31.140><c> can</c><00:10:31.260><c> see</c><00:10:31.500><c> uh</c><00:10:31.920><c> in</c>
+
+00:10:32.150 --> 00:10:32.160 align:start position:0%
+trying to test so as you can see uh in
+ 
+
+00:10:32.160 --> 00:10:33.949 align:start position:0%
+trying to test so as you can see uh in
+the<00:10:32.279><c> result</c><00:10:32.459><c> the</c><00:10:32.820><c> status</c><00:10:33.000><c> code</c><00:10:33.360><c> was</c><00:10:33.660><c> verified</c>
+
+00:10:33.949 --> 00:10:33.959 align:start position:0%
+the result the status code was verified
+ 
+
+00:10:33.959 --> 00:10:36.769 align:start position:0%
+the result the status code was verified
+and<00:10:34.560><c> the</c><00:10:34.740><c> add</c><00:10:34.860><c> result</c><00:10:35.160><c> was</c><00:10:35.459><c> verified</c><00:10:35.760><c> if</c><00:10:36.660><c> you</c>
+
+00:10:36.769 --> 00:10:36.779 align:start position:0%
+and the add result was verified if you
+ 
+
+00:10:36.779 --> 00:10:38.990 align:start position:0%
+and the add result was verified if you
+want<00:10:36.959><c> to</c><00:10:37.140><c> look</c><00:10:37.440><c> at</c><00:10:37.800><c> what</c><00:10:37.980><c> was</c><00:10:38.160><c> verified</c><00:10:38.519><c> the</c>
+
+00:10:38.990 --> 00:10:39.000 align:start position:0%
+want to look at what was verified the
+ 
+
+00:10:39.000 --> 00:10:42.230 align:start position:0%
+want to look at what was verified the
+expected<00:10:39.480><c> value</c><00:10:39.779><c> and</c><00:10:40.500><c> the</c><00:10:40.800><c> actual</c><00:10:41.100><c> value</c><00:10:41.339><c> both</c>
+
+00:10:42.230 --> 00:10:42.240 align:start position:0%
+expected value and the actual value both
+ 
+
+00:10:42.240 --> 00:10:44.870 align:start position:0%
+expected value and the actual value both
+are<00:10:42.420><c> same</c><00:10:42.660><c> so</c><00:10:42.899><c> the</c><00:10:43.140><c> verification</c><00:10:43.620><c> passed</c>
+
+00:10:44.870 --> 00:10:44.880 align:start position:0%
+are same so the verification passed
+ 
+
+00:10:44.880 --> 00:10:47.269 align:start position:0%
+are same so the verification passed
+and<00:10:45.480><c> that</c><00:10:45.660><c> way</c><00:10:45.839><c> we</c><00:10:46.200><c> could</c><00:10:46.320><c> verify</c><00:10:46.740><c> that</c><00:10:47.040><c> the</c>
+
+00:10:47.269 --> 00:10:47.279 align:start position:0%
+and that way we could verify that the
+ 
+
+00:10:47.279 --> 00:10:50.090 align:start position:0%
+and that way we could verify that the
+response<00:10:47.820><c> is</c><00:10:48.360><c> actually</c><00:10:48.660><c> what</c><00:10:49.320><c> was</c><00:10:49.560><c> expected</c>
+
+00:10:50.090 --> 00:10:50.100 align:start position:0%
+response is actually what was expected
+ 
+
+00:10:50.100 --> 00:10:53.269 align:start position:0%
+response is actually what was expected
+right
+
+00:10:53.269 --> 00:10:53.279 align:start position:0%
+ 
+ 
+
+00:10:53.279 --> 00:10:56.930 align:start position:0%
+ 
+so<00:10:53.700><c> this</c><00:10:53.880><c> is</c><00:10:54.000><c> how</c><00:10:54.360><c> you</c><00:10:54.959><c> can</c><00:10:55.140><c> scan</c><00:10:55.620><c> your</c><00:10:56.459><c> soap</c>
+
+00:10:56.930 --> 00:10:56.940 align:start position:0%
+so this is how you can scan your soap
+ 
+
+00:10:56.940 --> 00:11:00.230 align:start position:0%
+so this is how you can scan your soap
+apis<00:10:57.360><c> you</c><00:10:57.779><c> can</c><00:10:57.899><c> create</c><00:10:58.200><c> test</c><00:10:58.560><c> cases</c><00:10:59.040><c> and</c><00:10:59.640><c> you</c>
+
+00:11:00.230 --> 00:11:00.240 align:start position:0%
+apis you can create test cases and you
+ 
+
+00:11:00.240 --> 00:11:02.810 align:start position:0%
+apis you can create test cases and you
+can<00:11:00.360><c> also</c><00:11:00.720><c> verify</c><00:11:01.260><c> the</c><00:11:01.560><c> request</c><00:11:01.860><c> and</c><00:11:02.160><c> response</c>
+
+00:11:02.810 --> 00:11:02.820 align:start position:0%
+can also verify the request and response
+ 
+
+00:11:02.820 --> 00:11:06.410 align:start position:0%
+can also verify the request and response
+of<00:11:03.120><c> your</c><00:11:03.360><c> soap</c><00:11:03.720><c> API</c><00:11:04.260><c> messages</c><00:11:05.160><c> right</c>
+
+00:11:06.410 --> 00:11:06.420 align:start position:0%
+of your soap API messages right
+ 
+
+00:11:06.420 --> 00:11:09.889 align:start position:0%
+of your soap API messages right
+so<00:11:06.839><c> this</c><00:11:07.079><c> can</c><00:11:07.260><c> all</c><00:11:07.500><c> be</c><00:11:07.680><c> done</c><00:11:07.920><c> in</c><00:11:08.279><c> Tosca</c><00:11:09.180><c> using</c>
+
+00:11:09.889 --> 00:11:09.899 align:start position:0%
+so this can all be done in Tosca using
+ 
+
+00:11:09.899 --> 00:11:12.590 align:start position:0%
+so this can all be done in Tosca using
+the<00:11:10.079><c> API</c><00:11:10.500><c> scan</c><00:11:10.920><c> and</c><00:11:11.459><c> tatoska</c><00:11:12.180><c> Commander</c>
+
+00:11:12.590 --> 00:11:12.600 align:start position:0%
+the API scan and tatoska Commander
+ 
+
+00:11:12.600 --> 00:11:15.949 align:start position:0%
+the API scan and tatoska Commander
+similarly<00:11:13.500><c> you</c><00:11:14.100><c> can</c><00:11:14.220><c> also</c><00:11:14.519><c> try</c><00:11:14.820><c> this</c><00:11:15.120><c> with</c><00:11:15.540><c> all</c>
+
+00:11:15.949 --> 00:11:15.959 align:start position:0%
+similarly you can also try this with all
+ 
+
+00:11:15.959 --> 00:11:18.050 align:start position:0%
+similarly you can also try this with all
+different<00:11:16.380><c> types</c><00:11:16.740><c> of</c><00:11:16.860><c> apis</c><00:11:17.399><c> which</c><00:11:17.880><c> are</c>
+
+00:11:18.050 --> 00:11:18.060 align:start position:0%
+different types of apis which are
+ 
+
+00:11:18.060 --> 00:11:20.810 align:start position:0%
+different types of apis which are
+supported<00:11:18.480><c> by</c><00:11:18.839><c> Tosca</c>
+
+00:11:20.810 --> 00:11:20.820 align:start position:0%
+supported by Tosca
+ 
+
+00:11:20.820 --> 00:11:23.030 align:start position:0%
+supported by Tosca
+so<00:11:21.360><c> that's</c><00:11:21.540><c> all</c><00:11:21.720><c> for</c><00:11:21.899><c> this</c><00:11:22.079><c> video</c><00:11:22.320><c> I</c><00:11:22.800><c> hope</c><00:11:22.920><c> you</c>
+
+00:11:23.030 --> 00:11:23.040 align:start position:0%
+so that's all for this video I hope you
+ 
+
+00:11:23.040 --> 00:11:25.130 align:start position:0%
+so that's all for this video I hope you
+enjoyed<00:11:23.459><c> it</c><00:11:23.640><c> and</c><00:11:24.060><c> you</c><00:11:24.240><c> learned</c><00:11:24.600><c> something</c><00:11:24.899><c> new</c>
+
+00:11:25.130 --> 00:11:25.140 align:start position:0%
+enjoyed it and you learned something new
+ 
+
+00:11:25.140 --> 00:11:29.090 align:start position:0%
+enjoyed it and you learned something new
+today<00:11:25.380><c> related</c><00:11:25.980><c> to</c><00:11:26.339><c> API</c><00:11:27.000><c> testing</c><00:11:27.420><c> and</c><00:11:28.079><c> Tosca</c>
+
+00:11:29.090 --> 00:11:29.100 align:start position:0%
+today related to API testing and Tosca
+ 
+
+00:11:29.100 --> 00:11:31.790 align:start position:0%
+today related to API testing and Tosca
+do<00:11:29.519><c> tune</c><00:11:29.760><c> into</c><00:11:29.940><c> our</c><00:11:30.180><c> channel</c><00:11:30.360><c> to</c><00:11:30.839><c> watch</c><00:11:31.140><c> more</c>
+
+00:11:31.790 --> 00:11:31.800 align:start position:0%
+do tune into our channel to watch more
+ 
+
+00:11:31.800 --> 00:11:35.030 align:start position:0%
+do tune into our channel to watch more
+such<00:11:32.100><c> videos</c><00:11:32.459><c> uh</c><00:11:33.120><c> in</c><00:11:33.300><c> the</c><00:11:33.420><c> coming</c><00:11:33.480><c> updates</c>
+
+00:11:35.030 --> 00:11:35.040 align:start position:0%
+such videos uh in the coming updates
+ 
+
+00:11:35.040 --> 00:11:36.410 align:start position:0%
+such videos uh in the coming updates
+if<00:11:35.399><c> you</c><00:11:35.519><c> have</c><00:11:35.640><c> not</c><00:11:35.820><c> subscribed</c><00:11:36.120><c> to</c><00:11:36.300><c> our</c>
+
+00:11:36.410 --> 00:11:36.420 align:start position:0%
+if you have not subscribed to our
+ 
+
+00:11:36.420 --> 00:11:38.150 align:start position:0%
+if you have not subscribed to our
+Channel<00:11:36.600><c> don't</c><00:11:37.140><c> forget</c><00:11:37.380><c> to</c><00:11:37.680><c> subscribe</c>
+
+00:11:38.150 --> 00:11:38.160 align:start position:0%
+Channel don't forget to subscribe
+ 
+
+00:11:38.160 --> 00:11:41.449 align:start position:0%
+Channel don't forget to subscribe
+because<00:11:38.640><c> you</c><00:11:39.420><c> will</c><00:11:39.600><c> get</c><00:11:39.899><c> notified</c><00:11:40.260><c> about</c><00:11:40.800><c> each</c>
+
+00:11:41.449 --> 00:11:41.459 align:start position:0%
+because you will get notified about each
+ 
+
+00:11:41.459 --> 00:11:44.630 align:start position:0%
+because you will get notified about each
+and<00:11:41.700><c> every</c><00:11:41.940><c> video</c><00:11:42.240><c> which</c><00:11:42.779><c> we</c><00:11:42.959><c> add</c><00:11:43.200><c> on</c><00:11:43.620><c> Tosca</c><00:11:44.040><c> so</c>
+
+00:11:44.630 --> 00:11:44.640 align:start position:0%
+and every video which we add on Tosca so
+ 
+
+00:11:44.640 --> 00:11:46.790 align:start position:0%
+and every video which we add on Tosca so
+that<00:11:44.820><c> you</c><00:11:45.060><c> can</c><00:11:45.180><c> continue</c><00:11:45.420><c> learning</c><00:11:46.140><c> this</c>
+
+00:11:46.790 --> 00:11:46.800 align:start position:0%
+that you can continue learning this
+ 
+
+00:11:46.800 --> 00:11:50.600 align:start position:0%
+that you can continue learning this
+exciting<00:11:47.459><c> new</c><00:11:47.700><c> automation</c><00:11:48.180><c> tool</c>
+

@@ -1,0 +1,697 @@
+[
+ {
+  "start": 10.85,
+  "end": 10.86,
+  "text": "now we are going to see how we can do"
+ },
+ {
+  "start": 10.86,
+  "end": 12.65,
+  "text": "different folder operations using the"
+ },
+ {
+  "start": 12.66,
+  "end": 15.289,
+  "text": "kbox automation modules"
+ },
+ {
+  "start": 15.299,
+  "end": 18.349,
+  "text": "so let's create another test folder here"
+ },
+ {
+  "start": 18.359,
+  "end": 21.17,
+  "text": "called folder operations where we'll"
+ },
+ {
+  "start": 21.18,
+  "end": 23.39,
+  "text": "create all our test cases"
+ },
+ {
+  "start": 23.4,
+  "end": 25.97,
+  "text": "inside this let's create our first test"
+ },
+ {
+  "start": 25.98,
+  "end": 26.99,
+  "text": "case"
+ },
+ {
+  "start": 27.0,
+  "end": 30.79,
+  "text": "which is to create a folder okay"
+ },
+ {
+  "start": 30.8,
+  "end": 34.37,
+  "text": "so let's create this test case and let's"
+ },
+ {
+  "start": 34.38,
+  "end": 36.95,
+  "text": "quickly add our"
+ },
+ {
+  "start": 36.96,
+  "end": 40.97,
+  "text": "ebox module so we'll call it t-box and"
+ },
+ {
+  "start": 40.98,
+  "end": 42.29,
+  "text": "create"
+ },
+ {
+  "start": 42.3,
+  "end": 44.869,
+  "text": "okay so that will"
+ },
+ {
+  "start": 44.879,
+  "end": 47.81,
+  "text": "appear as the Box create module or the"
+ },
+ {
+  "start": 47.82,
+  "end": 50.15,
+  "text": "Box create folder module okay and we"
+ },
+ {
+  "start": 50.16,
+  "end": 52.069,
+  "text": "have to give a path here"
+ },
+ {
+  "start": 52.079,
+  "end": 54.59,
+  "text": "so we'll use the same folder which we"
+ },
+ {
+  "start": 54.6,
+  "end": 58.13,
+  "text": "have been using for our testing"
+ },
+ {
+  "start": 58.14,
+  "end": 61.79,
+  "text": "so this is the c training folder and in"
+ },
+ {
+  "start": 61.8,
+  "end": 65.329,
+  "text": "override will set it to true"
+ },
+ {
+  "start": 65.339,
+  "end": 68.69,
+  "text": "but in the part I need to extend it so"
+ },
+ {
+  "start": 68.7,
+  "end": 70.67,
+  "text": "that I can create a subfolder inside"
+ },
+ {
+  "start": 70.68,
+  "end": 72.77,
+  "text": "that particular folder right otherwise"
+ },
+ {
+  "start": 72.78,
+  "end": 74.39,
+  "text": "it's going to just overwrite that"
+ },
+ {
+  "start": 74.4,
+  "end": 76.19,
+  "text": "particular folder"
+ },
+ {
+  "start": 76.2,
+  "end": 81.89,
+  "text": "so I'm going to call it folder one"
+ },
+ {
+  "start": 92.81,
+  "end": 92.82,
+  "text": "okay so a new folder should be created"
+ },
+ {
+  "start": 92.82,
+  "end": 95.929,
+  "text": "here as you can see in this particular"
+ },
+ {
+  "start": 95.939,
+  "end": 97.91,
+  "text": "training folder there is a folder one"
+ },
+ {
+  "start": 97.92,
+  "end": 99.05,
+  "text": "okay"
+ },
+ {
+  "start": 99.06,
+  "end": 102.23,
+  "text": "there is no files obviously but there is"
+ },
+ {
+  "start": 102.24,
+  "end": 104.03,
+  "text": "a new folder"
+ },
+ {
+  "start": 104.04,
+  "end": 106.429,
+  "text": "so our next operation folder operation"
+ },
+ {
+  "start": 106.439,
+  "end": 110.149,
+  "text": "is to copy a particular folder okay"
+ },
+ {
+  "start": 110.159,
+  "end": 115.609,
+  "text": "so let's say t-box or let's call it copy"
+ },
+ {
+  "start": 115.619,
+  "end": 119.389,
+  "text": "folder"
+ },
+ {
+  "start": 122.569,
+  "end": 122.579,
+  "text": "so let's add the module here quickly so"
+ },
+ {
+  "start": 122.579,
+  "end": 124.969,
+  "text": "we are going to search for t-box and"
+ },
+ {
+  "start": 124.979,
+  "end": 126.109,
+  "text": "copy"
+ },
+ {
+  "start": 126.119,
+  "end": 128.33,
+  "text": "right so there are two modules copy file"
+ },
+ {
+  "start": 128.34,
+  "end": 130.13,
+  "text": "and copy folder we are going to use copy"
+ },
+ {
+  "start": 130.14,
+  "end": 132.35,
+  "text": "folder here we are going to give the"
+ },
+ {
+  "start": 132.36,
+  "end": 133.49,
+  "text": "source path"
+ },
+ {
+  "start": 133.5,
+  "end": 136.85,
+  "text": "so our source path will be c training"
+ },
+ {
+  "start": 136.86,
+  "end": 138.13,
+  "text": "right"
+ },
+ {
+  "start": 138.14,
+  "end": 140.99,
+  "text": "let's copy this folder into somewhere"
+ },
+ {
+  "start": 141.0,
+  "end": 144.229,
+  "text": "else okay and I will probably use the"
+ },
+ {
+  "start": 144.239,
+  "end": 146.15,
+  "text": "other folder which I've been using which"
+ },
+ {
+  "start": 146.16,
+  "end": 147.83,
+  "text": "is the C samples"
+ },
+ {
+  "start": 147.84,
+  "end": 150.949,
+  "text": "so I'll copy this here as a subfolder"
+ },
+ {
+  "start": 150.959,
+  "end": 155.27,
+  "text": "right I can give the over right as true"
+ },
+ {
+  "start": 155.28,
+  "end": 166.55,
+  "text": "and let's go ahead and quickly run this"
+ },
+ {
+  "start": 169.25,
+  "end": 169.26,
+  "text": "okay so as you can see uh the contents"
+ },
+ {
+  "start": 169.26,
+  "end": 172.49,
+  "text": "of uh the training folder are now copied"
+ },
+ {
+  "start": 172.5,
+  "end": 174.229,
+  "text": "into the samples"
+ },
+ {
+  "start": 174.239,
+  "end": 177.229,
+  "text": "okay so the folder one is created or"
+ },
+ {
+  "start": 177.239,
+  "end": 179.57,
+  "text": "copied and the files are also copied"
+ },
+ {
+  "start": 179.58,
+  "end": 180.65,
+  "text": "right"
+ },
+ {
+  "start": 180.66,
+  "end": 183.65,
+  "text": "so that's how you can copy"
+ },
+ {
+  "start": 183.66,
+  "end": 186.229,
+  "text": "um a folder and its content from One"
+ },
+ {
+  "start": 186.239,
+  "end": 189.11,
+  "text": "path to another path okay"
+ },
+ {
+  "start": 189.12,
+  "end": 191.449,
+  "text": "and let's go to our third operation now"
+ },
+ {
+  "start": 191.459,
+  "end": 194.27,
+  "text": "so let's create a new test case here"
+ },
+ {
+  "start": 194.28,
+  "end": 197.33,
+  "text": "and we are going to call it to delete a"
+ },
+ {
+  "start": 197.34,
+  "end": 199.97,
+  "text": "folder okay so we'll see how we can"
+ },
+ {
+  "start": 199.98,
+  "end": 202.21,
+  "text": "delete a folder"
+ },
+ {
+  "start": 202.22,
+  "end": 206.03,
+  "text": "and inside this again let's add our"
+ },
+ {
+  "start": 206.04,
+  "end": 210.19,
+  "text": "module so t-box delete"
+ },
+ {
+  "start": 210.2,
+  "end": 214.85,
+  "text": "and we are going to select folder"
+ },
+ {
+  "start": 218.57,
+  "end": 218.58,
+  "text": "okay so it is asking for a path again"
+ },
+ {
+  "start": 218.58,
+  "end": 221.03,
+  "text": "give the path where you want to delete"
+ },
+ {
+  "start": 221.04,
+  "end": 223.49,
+  "text": "this so"
+ },
+ {
+  "start": 223.5,
+  "end": 225.35,
+  "text": "let's go ahead and delete this folder"
+ },
+ {
+  "start": 225.36,
+  "end": 227.869,
+  "text": "one okay"
+ },
+ {
+  "start": 227.879,
+  "end": 230.869,
+  "text": "and um if you want to delete everything"
+ },
+ {
+  "start": 230.879,
+  "end": 233.27,
+  "text": "inside that particular folder right so"
+ },
+ {
+  "start": 233.28,
+  "end": 236.63,
+  "text": "you can also give the recursive value as"
+ },
+ {
+  "start": 236.64,
+  "end": 239.33,
+  "text": "true okay so we don't have any files"
+ },
+ {
+  "start": 239.34,
+  "end": 242.39,
+  "text": "inside inside folder one but if we have"
+ },
+ {
+  "start": 242.4,
+  "end": 244.369,
+  "text": "and if it is set to true then it will"
+ },
+ {
+  "start": 244.379,
+  "end": 247.07,
+  "text": "delete everything okay otherwise it"
+ },
+ {
+  "start": 247.08,
+  "end": 249.289,
+  "text": "won't delete anything inside the folder"
+ },
+ {
+  "start": 249.299,
+  "end": 250.55,
+  "text": "one"
+ },
+ {
+  "start": 250.56,
+  "end": 258.409,
+  "text": "so uh let's go ahead and run this"
+ },
+ {
+  "start": 260.99,
+  "end": 261.0,
+  "text": "okay so let's go to the c training"
+ },
+ {
+  "start": 261.0,
+  "end": 262.67,
+  "text": "folder and there should not be any"
+ },
+ {
+  "start": 262.68,
+  "end": 264.77,
+  "text": "folder one because we have deleted it"
+ },
+ {
+  "start": 264.78,
+  "end": 268.55,
+  "text": "okay"
+ },
+ {
+  "start": 270.53,
+  "end": 270.54,
+  "text": "right"
+ },
+ {
+  "start": 270.54,
+  "end": 272.93,
+  "text": "um so what we are going to do"
+ },
+ {
+  "start": 272.94,
+  "end": 275.689,
+  "text": "is we are going to check for our final"
+ },
+ {
+  "start": 275.699,
+  "end": 278.99,
+  "text": "folder operation so that is to"
+ },
+ {
+  "start": 279.0,
+  "end": 282.83,
+  "text": "check for a folder existence Okay so"
+ },
+ {
+  "start": 282.84,
+  "end": 285.07,
+  "text": "check"
+ },
+ {
+  "start": 285.08,
+  "end": 289.629,
+  "text": "folder existence now this could be a"
+ },
+ {
+  "start": 289.639,
+  "end": 293.09,
+  "text": "interesting one because this could be a"
+ },
+ {
+  "start": 293.1,
+  "end": 294.59,
+  "text": "common one which you will use probably"
+ },
+ {
+  "start": 294.6,
+  "end": 297.11,
+  "text": "to check a particular folder is present"
+ },
+ {
+  "start": 297.12,
+  "end": 300.05,
+  "text": "maybe a reports folder or some test data"
+ },
+ {
+  "start": 300.06,
+  "end": 302.39,
+  "text": "folder before you run your test cases"
+ },
+ {
+  "start": 302.4,
+  "end": 306.17,
+  "text": "right so this could be a useful one for"
+ },
+ {
+  "start": 306.18,
+  "end": 308.45,
+  "text": "that let's go ahead and add the t-box"
+ },
+ {
+  "start": 308.46,
+  "end": 311.11,
+  "text": "module so check"
+ },
+ {
+  "start": 311.12,
+  "end": 313.969,
+  "text": "or it could be"
+ },
+ {
+  "start": 313.979,
+  "end": 317.87,
+  "text": "t-box folder existence okay"
+ },
+ {
+  "start": 317.88,
+  "end": 320.629,
+  "text": "so this is the module and here we just"
+ },
+ {
+  "start": 320.639,
+  "end": 322.55,
+  "text": "need to give the path of the folder"
+ },
+ {
+  "start": 322.56,
+  "end": 325.129,
+  "text": "which we want to verify right"
+ },
+ {
+  "start": 325.139,
+  "end": 328.909,
+  "text": "and that will just verify it okay"
+ },
+ {
+  "start": 328.919,
+  "end": 333.17,
+  "text": "so uh I think you cannot browse it so"
+ },
+ {
+  "start": 333.18,
+  "end": 335.39,
+  "text": "let's go ahead and give this particular"
+ },
+ {
+  "start": 335.4,
+  "end": 338.629,
+  "text": "path okay"
+ },
+ {
+  "start": 338.639,
+  "end": 352.969,
+  "text": "and let's go ahead and run this"
+ },
+ {
+  "start": 355.31,
+  "end": 355.32,
+  "text": "so the verification has passed uh"
+ },
+ {
+  "start": 355.32,
+  "end": 358.189,
+  "text": "verification was successful as usual it"
+ },
+ {
+  "start": 358.199,
+  "end": 361.129,
+  "text": "will give you an expected and actual"
+ },
+ {
+  "start": 361.139,
+  "end": 363.77,
+  "text": "value folder does exist expected value"
+ },
+ {
+  "start": 363.78,
+  "end": 366.71,
+  "text": "was this right should exist"
+ },
+ {
+  "start": 366.72,
+  "end": 369.95,
+  "text": "so this is uh in scenarios where you"
+ },
+ {
+  "start": 369.96,
+  "end": 371.689,
+  "text": "want to check uh whether that folder"
+ },
+ {
+  "start": 371.699,
+  "end": 373.55,
+  "text": "exists before any performing any"
+ },
+ {
+  "start": 373.56,
+  "end": 375.95,
+  "text": "operations in that right so what you can"
+ },
+ {
+  "start": 375.96,
+  "end": 379.129,
+  "text": "also do is basically have this test case"
+ },
+ {
+  "start": 379.139,
+  "end": 383.87,
+  "text": "right inside uh or the first test case"
+ },
+ {
+  "start": 383.88,
+  "end": 386.27,
+  "text": "in your folder operations okay"
+ },
+ {
+  "start": 386.28,
+  "end": 389.39,
+  "text": "so first you verify then you create"
+ },
+ {
+  "start": 389.4,
+  "end": 392.629,
+  "text": "right or and then you copy and then you"
+ },
+ {
+  "start": 392.639,
+  "end": 393.409,
+  "text": "delete"
+ },
+ {
+  "start": 393.419,
+  "end": 395.27,
+  "text": "what you can also do you can put if"
+ },
+ {
+  "start": 395.28,
+  "end": 399.11,
+  "text": "condition and put all this into one"
+ },
+ {
+  "start": 399.12,
+  "end": 402.29,
+  "text": "particular test case if you want to run"
+ },
+ {
+  "start": 402.3,
+  "end": 403.909,
+  "text": "through one test case with all different"
+ },
+ {
+  "start": 403.919,
+  "end": 407.749,
+  "text": "steps right so that also you can do but"
+ },
+ {
+  "start": 407.759,
+  "end": 410.029,
+  "text": "these are the different uh t-box"
+ },
+ {
+  "start": 410.039,
+  "end": 412.01,
+  "text": "automation modules which you can use for"
+ },
+ {
+  "start": 412.02,
+  "end": 414.77,
+  "text": "different folder operations and as we"
+ },
+ {
+  "start": 414.78,
+  "end": 416.51,
+  "text": "have seen earlier you can also use them"
+ },
+ {
+  "start": 416.52,
+  "end": 420.56,
+  "text": "for file operations okay"
+ }
+]

@@ -1,0 +1,1127 @@
+[
+ {
+  "start": 7.909,
+  "end": 7.919,
+  "text": "hey everyone welcome back to this Tosca"
+ },
+ {
+  "start": 7.919,
+  "end": 10.129,
+  "text": "automation playlist and today we are"
+ },
+ {
+  "start": 10.139,
+  "end": 12.049,
+  "text": "going to talk about an interesting"
+ },
+ {
+  "start": 12.059,
+  "end": 14.15,
+  "text": "feature which could be useful for you"
+ },
+ {
+  "start": 14.16,
+  "end": 16.849,
+  "text": "during your automation"
+ },
+ {
+  "start": 16.859,
+  "end": 19.07,
+  "text": "now consider that you are working on a"
+ },
+ {
+  "start": 19.08,
+  "end": 21.05,
+  "text": "desktop application and before you"
+ },
+ {
+  "start": 21.06,
+  "end": 23.269,
+  "text": "launch that application you want to make"
+ },
+ {
+  "start": 23.279,
+  "end": 25.37,
+  "text": "sure that all the other programs which"
+ },
+ {
+  "start": 25.38,
+  "end": 28.31,
+  "text": "are open uh in your desktop are closed"
+ },
+ {
+  "start": 28.32,
+  "end": 32.33,
+  "text": "okay so you want to start up clean and"
+ },
+ {
+  "start": 32.34,
+  "end": 33.95,
+  "text": "you want to close all other programs"
+ },
+ {
+  "start": 33.96,
+  "end": 36.35,
+  "text": "which are currently open before running"
+ },
+ {
+  "start": 36.36,
+  "end": 39.049,
+  "text": "your automated test just to make sure"
+ },
+ {
+  "start": 39.059,
+  "end": 42.59,
+  "text": "that it is not interrupted by any other"
+ },
+ {
+  "start": 42.6,
+  "end": 44.93,
+  "text": "program right and that could be anything"
+ },
+ {
+  "start": 44.94,
+  "end": 47.99,
+  "text": "that program could be a browser that"
+ },
+ {
+  "start": 48.0,
+  "end": 51.11,
+  "text": "program could be a notepad or that"
+ },
+ {
+  "start": 51.12,
+  "end": 53.81,
+  "text": "program could even be your Tosca"
+ },
+ {
+  "start": 53.82,
+  "end": 56.569,
+  "text": "Commander or some something else right"
+ },
+ {
+  "start": 56.579,
+  "end": 60.17,
+  "text": "so all of this can be done using the"
+ },
+ {
+  "start": 60.18,
+  "end": 62.689,
+  "text": "t-box Start program module"
+ },
+ {
+  "start": 62.699,
+  "end": 65.69,
+  "text": "now we have seen how we can use debug"
+ },
+ {
+  "start": 65.7,
+  "end": 67.55,
+  "text": "Start program module to start different"
+ },
+ {
+  "start": 67.56,
+  "end": 70.49,
+  "text": "programs like notepad browsers or any"
+ },
+ {
+  "start": 70.5,
+  "end": 73.67,
+  "text": "other application but you can use the"
+ },
+ {
+  "start": 73.68,
+  "end": 77.09,
+  "text": "same module to close those programs also"
+ },
+ {
+  "start": 77.1,
+  "end": 80.749,
+  "text": "right so don't go uh by the name of the"
+ },
+ {
+  "start": 80.759,
+  "end": 83.69,
+  "text": "Tosca t-box automation module it can be"
+ },
+ {
+  "start": 83.7,
+  "end": 86.45,
+  "text": "used to do both the things which is to"
+ },
+ {
+  "start": 86.46,
+  "end": 89.149,
+  "text": "open and close programs now we have"
+ },
+ {
+  "start": 89.159,
+  "end": 90.83,
+  "text": "already seen how we can open different"
+ },
+ {
+  "start": 90.84,
+  "end": 93.05,
+  "text": "programs using this today we are going"
+ },
+ {
+  "start": 93.06,
+  "end": 95.45,
+  "text": "to see how we can close programs using"
+ },
+ {
+  "start": 95.46,
+  "end": 98.149,
+  "text": "this particular module so to demonstrate"
+ },
+ {
+  "start": 98.159,
+  "end": 99.89,
+  "text": "this I'm going to use three different"
+ },
+ {
+  "start": 99.9,
+  "end": 102.59,
+  "text": "cases first we are going to look at how"
+ },
+ {
+  "start": 102.6,
+  "end": 105.59,
+  "text": "we can close the browsers and then we"
+ },
+ {
+  "start": 105.6,
+  "end": 106.969,
+  "text": "are going to look at how we can close"
+ },
+ {
+  "start": 106.979,
+  "end": 108.95,
+  "text": "the Notepad application and then we'll"
+ },
+ {
+  "start": 108.96,
+  "end": 111.23,
+  "text": "see how we can even close the Tosca"
+ },
+ {
+  "start": 111.24,
+  "end": 113.389,
+  "text": "Commander if it's open in the background"
+ },
+ {
+  "start": 113.399,
+  "end": 117.17,
+  "text": "okay so the first step is to add the"
+ },
+ {
+  "start": 117.18,
+  "end": 120.109,
+  "text": "t-box automation module okay so let's go"
+ },
+ {
+  "start": 120.119,
+  "end": 122.45,
+  "text": "to search and ADD test step and here we"
+ },
+ {
+  "start": 122.46,
+  "end": 124.789,
+  "text": "are going to search for t-box Start"
+ },
+ {
+  "start": 124.799,
+  "end": 125.87,
+  "text": "program"
+ },
+ {
+  "start": 125.88,
+  "end": 129.169,
+  "text": "okay which is a process operation and"
+ },
+ {
+  "start": 129.179,
+  "end": 132.35,
+  "text": "then we will add this module here right"
+ },
+ {
+  "start": 132.36,
+  "end": 134.21,
+  "text": "now we have already seen this earlier"
+ },
+ {
+  "start": 134.22,
+  "end": 136.01,
+  "text": "that you can pass the path of the"
+ },
+ {
+  "start": 136.02,
+  "end": 138.05,
+  "text": "application and then it will start that"
+ },
+ {
+  "start": 138.06,
+  "end": 140.57,
+  "text": "particular program right but what if I"
+ },
+ {
+  "start": 140.58,
+  "end": 142.43,
+  "text": "want to close the program I don't need"
+ },
+ {
+  "start": 142.44,
+  "end": 143.809,
+  "text": "to give the path of the application"
+ },
+ {
+  "start": 143.819,
+  "end": 145.55,
+  "text": "otherwise it is going to open the"
+ },
+ {
+  "start": 145.56,
+  "end": 148.13,
+  "text": "program right so for this purpose we are"
+ },
+ {
+  "start": 148.14,
+  "end": 151.19,
+  "text": "going to use one of the programs or"
+ },
+ {
+  "start": 151.2,
+  "end": 152.809,
+  "text": "commands which are available with"
+ },
+ {
+  "start": 152.819,
+  "end": 155.93,
+  "text": "Microsoft itself okay and that is called"
+ },
+ {
+  "start": 155.94,
+  "end": 159.47,
+  "text": "the task kill command okay so in this"
+ },
+ {
+  "start": 159.48,
+  "end": 163.009,
+  "text": "particular task skill it can end uh one"
+ },
+ {
+  "start": 163.019,
+  "end": 165.11,
+  "text": "or more tasks or processes which are"
+ },
+ {
+  "start": 165.12,
+  "end": 168.17,
+  "text": "running in your Windows machine right"
+ },
+ {
+  "start": 168.18,
+  "end": 170.33,
+  "text": "and this processes can be ended by"
+ },
+ {
+  "start": 170.34,
+  "end": 172.729,
+  "text": "either the process ID or the image name"
+ },
+ {
+  "start": 172.739,
+  "end": 174.47,
+  "text": "okay"
+ },
+ {
+  "start": 174.48,
+  "end": 177.35,
+  "text": "now there are some parameters which you"
+ },
+ {
+  "start": 177.36,
+  "end": 181.009,
+  "text": "need to pass for this and specifically"
+ },
+ {
+  "start": 181.019,
+  "end": 183.89,
+  "text": "we'll be using the image name okay of"
+ },
+ {
+  "start": 183.9,
+  "end": 185.809,
+  "text": "the process to be terminated"
+ },
+ {
+  "start": 185.819,
+  "end": 188.83,
+  "text": "also will be looking at how we can"
+ },
+ {
+  "start": 188.84,
+  "end": 191.63,
+  "text": "specify the process to be forcefully"
+ },
+ {
+  "start": 191.64,
+  "end": 194.75,
+  "text": "ended okay so this will make sure that"
+ },
+ {
+  "start": 194.76,
+  "end": 196.97,
+  "text": "all the remote processes are forcefully"
+ },
+ {
+  "start": 196.98,
+  "end": 199.55,
+  "text": "ended so these are the two arguments uh"
+ },
+ {
+  "start": 199.56,
+  "end": 201.589,
+  "text": "which will be passing on uh when we are"
+ },
+ {
+  "start": 201.599,
+  "end": 204.11,
+  "text": "using this particular command Okay so"
+ },
+ {
+  "start": 204.12,
+  "end": 207.47,
+  "text": "let's go ahead and now see how we can do"
+ },
+ {
+  "start": 207.48,
+  "end": 210.29,
+  "text": "this in the t-box Start program module"
+ },
+ {
+  "start": 210.3,
+  "end": 213.47,
+  "text": "okay so here to start off we need to"
+ },
+ {
+  "start": 213.48,
+  "end": 218.03,
+  "text": "enter task kill in the path okay so this"
+ },
+ {
+  "start": 218.04,
+  "end": 219.649,
+  "text": "will make sure that it is going to open"
+ },
+ {
+  "start": 219.659,
+  "end": 222.47,
+  "text": "this particular command okay from the"
+ },
+ {
+  "start": 222.48,
+  "end": 225.35,
+  "text": "windows so we need to mention task skill"
+ },
+ {
+  "start": 225.36,
+  "end": 227.69,
+  "text": "here and along with that we need to"
+ },
+ {
+  "start": 227.7,
+  "end": 230.63,
+  "text": "enter some arguments right so which are"
+ },
+ {
+  "start": 230.64,
+  "end": 233.089,
+  "text": "the parameters which we looked upon"
+ },
+ {
+  "start": 233.099,
+  "end": 236.149,
+  "text": "earlier right so for this"
+ },
+ {
+  "start": 236.159,
+  "end": 238.85,
+  "text": "um we'll first mention slash IM which is"
+ },
+ {
+  "start": 238.86,
+  "end": 241.369,
+  "text": "image name and we are going to mention"
+ },
+ {
+  "start": 241.379,
+  "end": 243.649,
+  "text": "the exact image name of the process"
+ },
+ {
+  "start": 243.659,
+  "end": 246.41,
+  "text": "which is currently running right"
+ },
+ {
+  "start": 246.42,
+  "end": 252.289,
+  "text": "so uh if I open google.com here and the"
+ },
+ {
+  "start": 252.299,
+  "end": 254.63,
+  "text": "other URL right so I've got multiple"
+ },
+ {
+  "start": 254.64,
+  "end": 258.11,
+  "text": "tabs open here and if I go to my Windows"
+ },
+ {
+  "start": 258.12,
+  "end": 261.289,
+  "text": "Task Manager okay and here in the"
+ },
+ {
+  "start": 261.299,
+  "end": 263.21,
+  "text": "processes you will see all the apps"
+ },
+ {
+  "start": 263.22,
+  "end": 265.249,
+  "text": "which are running so if I go to Google"
+ },
+ {
+  "start": 265.259,
+  "end": 269.39,
+  "text": "Chrome and I go here and go to details"
+ },
+ {
+  "start": 269.4,
+  "end": 271.67,
+  "text": "so this is the PID which we are"
+ },
+ {
+  "start": 271.68,
+  "end": 273.17,
+  "text": "referring to earlier"
+ },
+ {
+  "start": 273.18,
+  "end": 276.11,
+  "text": "and this is the image name okay so if"
+ },
+ {
+  "start": 276.12,
+  "end": 277.909,
+  "text": "you are using image name you have to use"
+ },
+ {
+  "start": 277.919,
+  "end": 280.189,
+  "text": "uh the name here which is displayed in"
+ },
+ {
+  "start": 280.199,
+  "end": 282.11,
+  "text": "the details for that particular process"
+ },
+ {
+  "start": 282.12,
+  "end": 284.689,
+  "text": "okay and for the Chrome browser it is"
+ },
+ {
+  "start": 284.699,
+  "end": 286.43,
+  "text": "chrome.exe"
+ },
+ {
+  "start": 286.44,
+  "end": 289.37,
+  "text": "so the same I will mention it here which"
+ },
+ {
+  "start": 289.38,
+  "end": 291.59,
+  "text": "is Chrome dot EXE"
+ },
+ {
+  "start": 291.6,
+  "end": 294.59,
+  "text": "and also We'll add another parameter"
+ },
+ {
+  "start": 294.6,
+  "end": 297.53,
+  "text": "here which is slash F which is going to"
+ },
+ {
+  "start": 297.54,
+  "end": 300.409,
+  "text": "force all the processes to run which has"
+ },
+ {
+  "start": 300.419,
+  "end": 303.409,
+  "text": "got this particular image name right so"
+ },
+ {
+  "start": 303.419,
+  "end": 304.79,
+  "text": "these are the three parameters or"
+ },
+ {
+  "start": 304.8,
+  "end": 307.07,
+  "text": "arguments which you can add in your"
+ },
+ {
+  "start": 307.08,
+  "end": 310.39,
+  "text": "t-box Start program along with the task"
+ },
+ {
+  "start": 310.4,
+  "end": 315.35,
+  "text": "of value in the path okay and this will"
+ },
+ {
+  "start": 315.36,
+  "end": 318.83,
+  "text": "basically close all the programs uh"
+ },
+ {
+  "start": 318.84,
+  "end": 321.11,
+  "text": "which is related to the Chrome browser"
+ },
+ {
+  "start": 321.12,
+  "end": 322.73,
+  "text": "okay"
+ },
+ {
+  "start": 322.74,
+  "end": 326.27,
+  "text": "so let's go ahead and run this test case"
+ },
+ {
+  "start": 326.28,
+  "end": 329.93,
+  "text": "now"
+ },
+ {
+  "start": 332.689,
+  "end": 332.699,
+  "text": "and you will see uh it already ran the"
+ },
+ {
+  "start": 332.699,
+  "end": 335.15,
+  "text": "program so it started task kill with the"
+ },
+ {
+  "start": 335.16,
+  "end": 337.09,
+  "text": "following arguments which is slash"
+ },
+ {
+  "start": 337.1,
+  "end": 340.37,
+  "text": "imchrome.exe F okay and in the"
+ },
+ {
+  "start": 340.38,
+  "end": 341.749,
+  "text": "background you will see that Chrome"
+ },
+ {
+  "start": 341.759,
+  "end": 344.33,
+  "text": "browser is already closed so I don't"
+ },
+ {
+  "start": 344.34,
+  "end": 347.629,
+  "text": "have any programs uh or any web pages"
+ },
+ {
+  "start": 347.639,
+  "end": 349.79,
+  "text": "which are open in the Chrome browser and"
+ },
+ {
+  "start": 349.8,
+  "end": 351.409,
+  "text": "the Chrome browser itself is not open"
+ },
+ {
+  "start": 351.419,
+  "end": 355.01,
+  "text": "okay so this is how you can basically"
+ },
+ {
+  "start": 355.02,
+  "end": 357.469,
+  "text": "close your browsers using the t-box"
+ },
+ {
+  "start": 357.479,
+  "end": 360.11,
+  "text": "Start program module okay"
+ },
+ {
+  "start": 360.12,
+  "end": 362.749,
+  "text": "similarly uh you can do the same for"
+ },
+ {
+  "start": 362.759,
+  "end": 366.11,
+  "text": "other programs as well right so if I add"
+ },
+ {
+  "start": 366.12,
+  "end": 369.71,
+  "text": "the t-box Start program again right you"
+ },
+ {
+  "start": 369.72,
+  "end": 372.11,
+  "text": "can also copy paste it from the previous"
+ },
+ {
+  "start": 372.12,
+  "end": 375.89,
+  "text": "test case right again I need to use task"
+ },
+ {
+  "start": 375.9,
+  "end": 378.89,
+  "text": "kill here and in the arguments I'm going"
+ },
+ {
+  "start": 378.9,
+  "end": 383.029,
+  "text": "to use uh slash F to force it and then"
+ },
+ {
+  "start": 383.039,
+  "end": 385.49,
+  "text": "slash IM okay"
+ },
+ {
+  "start": 385.5,
+  "end": 388.55,
+  "text": "and then I need to find out uh"
+ },
+ {
+  "start": 388.56,
+  "end": 391.49,
+  "text": "what is the program name for this"
+ },
+ {
+  "start": 391.5,
+  "end": 394.67,
+  "text": "notepad plus plus right so I go to task"
+ },
+ {
+  "start": 394.68,
+  "end": 398.15,
+  "text": "manager and I go to processes uh here"
+ },
+ {
+  "start": 398.16,
+  "end": 400.43,
+  "text": "there is notepad plus plus so I'll go to"
+ },
+ {
+  "start": 400.44,
+  "end": 401.749,
+  "text": "details"
+ },
+ {
+  "start": 401.759,
+  "end": 403.73,
+  "text": "and this is the name notepad plus plus"
+ },
+ {
+  "start": 403.74,
+  "end": 406.37,
+  "text": "dot exe right"
+ },
+ {
+  "start": 406.38,
+  "end": 408.89,
+  "text": "so I'm going to write the same here"
+ },
+ {
+  "start": 408.9,
+  "end": 412.79,
+  "text": "notepad plus plus dot exe and that's"
+ },
+ {
+  "start": 412.8,
+  "end": 415.85,
+  "text": "going to close the Notepad application"
+ },
+ {
+  "start": 415.86,
+  "end": 420.11,
+  "text": "okay so if I run this now"
+ },
+ {
+  "start": 420.12,
+  "end": 423.11,
+  "text": "it's going to force close it okay so if"
+ },
+ {
+  "start": 423.12,
+  "end": 426.77,
+  "text": "you don't give the force argument if you"
+ },
+ {
+  "start": 426.78,
+  "end": 428.45,
+  "text": "are going to close it without the force"
+ },
+ {
+  "start": 428.46,
+  "end": 432.29,
+  "text": "argument then you may uh get a pop-up"
+ },
+ {
+  "start": 432.3,
+  "end": 433.85,
+  "text": "saying do you want to save this"
+ },
+ {
+  "start": 433.86,
+  "end": 435.65,
+  "text": "particular program right so it's always"
+ },
+ {
+  "start": 435.66,
+  "end": 437.809,
+  "text": "safe to use this argument whenever"
+ },
+ {
+  "start": 437.819,
+  "end": 439.37,
+  "text": "you're trying to close any particular"
+ },
+ {
+  "start": 439.38,
+  "end": 441.469,
+  "text": "application okay"
+ },
+ {
+  "start": 441.479,
+  "end": 444.71,
+  "text": "and similarly we can also do it for"
+ },
+ {
+  "start": 444.72,
+  "end": 447.11,
+  "text": "Tosca Commander okay so this is our last"
+ },
+ {
+  "start": 447.12,
+  "end": 449.689,
+  "text": "case let's do that again quickly"
+ },
+ {
+  "start": 449.699,
+  "end": 452.93,
+  "text": "so t-box Start program"
+ },
+ {
+  "start": 452.94,
+  "end": 457.189,
+  "text": "and share again task kill"
+ },
+ {
+  "start": 457.199,
+  "end": 459.95,
+  "text": "argument slash F"
+ },
+ {
+  "start": 459.96,
+  "end": 467.629,
+  "text": "and then here we will give slash IM"
+ },
+ {
+  "start": 471.23,
+  "end": 471.24,
+  "text": "and let's try and find out what is the"
+ },
+ {
+  "start": 471.24,
+  "end": 473.27,
+  "text": "process name for this Tosca Commander"
+ },
+ {
+  "start": 473.28,
+  "end": 474.65,
+  "text": "right"
+ },
+ {
+  "start": 474.66,
+  "end": 476.629,
+  "text": "so here you can see there are so many"
+ },
+ {
+  "start": 476.639,
+  "end": 480.529,
+  "text": "processes which are running and if I go"
+ },
+ {
+  "start": 480.539,
+  "end": 482.15,
+  "text": "to some process"
+ },
+ {
+  "start": 482.16,
+  "end": 484.01,
+  "text": "here"
+ },
+ {
+  "start": 484.02,
+  "end": 486.469,
+  "text": "okay and go to details"
+ },
+ {
+  "start": 486.479,
+  "end": 491.27,
+  "text": "so this is tosser commander.exe right"
+ },
+ {
+  "start": 491.28,
+  "end": 493.79,
+  "text": "so Tosca Commander"
+ },
+ {
+  "start": 493.8,
+  "end": 496.79,
+  "text": "dot EXE"
+ },
+ {
+  "start": 496.8,
+  "end": 498.89,
+  "text": "okay so this is going to close my Tosca"
+ },
+ {
+  "start": 498.9,
+  "end": 501.17,
+  "text": "Commander but if you're doing this make"
+ },
+ {
+  "start": 501.18,
+  "end": 504.409,
+  "text": "sure you save everything okay"
+ },
+ {
+  "start": 504.419,
+  "end": 507.409,
+  "text": "now in usual scenarios this may not be"
+ },
+ {
+  "start": 507.419,
+  "end": 509.99,
+  "text": "required I mean you will never try to"
+ },
+ {
+  "start": 510.0,
+  "end": 513.469,
+  "text": "close Tosca command.exe right but in"
+ },
+ {
+  "start": 513.479,
+  "end": 516.829,
+  "text": "some scenarios if you are maybe running"
+ },
+ {
+  "start": 516.839,
+  "end": 520.37,
+  "text": "um a batch file right which opens"
+ },
+ {
+  "start": 520.38,
+  "end": 523.01,
+  "text": "um the Tosca commander and runs some"
+ },
+ {
+  "start": 523.02,
+  "end": 525.65,
+  "text": "tests using the TC shell right so in"
+ },
+ {
+  "start": 525.66,
+  "end": 527.509,
+  "text": "these cases maybe you want to close the"
+ },
+ {
+  "start": 527.519,
+  "end": 530.87,
+  "text": "Tosca Commander itself right so this"
+ },
+ {
+  "start": 530.88,
+  "end": 532.55,
+  "text": "could be useful in these kind of"
+ },
+ {
+  "start": 532.56,
+  "end": 534.17,
+  "text": "scenarios"
+ },
+ {
+  "start": 534.18,
+  "end": 536.87,
+  "text": "so I've saved uh whatever changes I have"
+ },
+ {
+  "start": 536.88,
+  "end": 539.99,
+  "text": "done uh and let's go ahead and try to"
+ },
+ {
+  "start": 540.0,
+  "end": 544.07,
+  "text": "close this Tosca Commander itself"
+ },
+ {
+  "start": 544.08,
+  "end": 545.99,
+  "text": "okay and you can see that in the"
+ },
+ {
+  "start": 546.0,
+  "end": 548.21,
+  "text": "background Tosca Commander was closed"
+ },
+ {
+  "start": 548.22,
+  "end": 549.47,
+  "text": "okay"
+ },
+ {
+  "start": 549.48,
+  "end": 552.71,
+  "text": "so that's how you can basically close"
+ },
+ {
+  "start": 552.72,
+  "end": 555.65,
+  "text": "any program using the task kill command"
+ },
+ {
+  "start": 555.66,
+  "end": 557.41,
+  "text": "which is a Windows command available"
+ },
+ {
+  "start": 557.42,
+  "end": 560.99,
+  "text": "either you can use the process ID or you"
+ },
+ {
+  "start": 561.0,
+  "end": 563.449,
+  "text": "can use the process name for the program"
+ },
+ {
+  "start": 563.459,
+  "end": 566.03,
+  "text": "which you are trying to close okay so"
+ },
+ {
+  "start": 566.04,
+  "end": 568.37,
+  "text": "it's a very powerful automation module"
+ },
+ {
+  "start": 568.38,
+  "end": 570.769,
+  "text": "which you should be aware of whenever"
+ },
+ {
+  "start": 570.779,
+  "end": 572.87,
+  "text": "you are working on any particular"
+ },
+ {
+  "start": 572.88,
+  "end": 574.55,
+  "text": "automation"
+ },
+ {
+  "start": 574.56,
+  "end": 576.41,
+  "text": "so that's all for this video hopefully"
+ },
+ {
+  "start": 576.42,
+  "end": 577.73,
+  "text": "you enjoyed it"
+ },
+ {
+  "start": 577.74,
+  "end": 579.41,
+  "text": "um and you learned something new today"
+ },
+ {
+  "start": 579.42,
+  "end": 581.509,
+  "text": "uh don't forget to subscribe to our"
+ },
+ {
+  "start": 581.519,
+  "end": 583.49,
+  "text": "Channel as we'll be posting a lot of"
+ },
+ {
+  "start": 583.5,
+  "end": 584.87,
+  "text": "different videos"
+ },
+ {
+  "start": 584.88,
+  "end": 587.09,
+  "text": "um on Tosca and also other automation"
+ },
+ {
+  "start": 587.1,
+  "end": 589.07,
+  "text": "tools very soon"
+ },
+ {
+  "start": 589.08,
+  "end": 591.829,
+  "text": "so until we meet again keep watching our"
+ },
+ {
+  "start": 591.839,
+  "end": 595.37,
+  "text": "videos and do let us know if you want to"
+ },
+ {
+  "start": 595.38,
+  "end": 597.71,
+  "text": "see any particular video on any"
+ },
+ {
+  "start": 597.72,
+  "end": 599.21,
+  "text": "particular topic"
+ },
+ {
+  "start": 599.22,
+  "end": 601.82,
+  "text": "huh"
+ }
+]

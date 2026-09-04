@@ -1,0 +1,1067 @@
+[
+ {
+  "start": 10.79,
+  "end": 10.8,
+  "text": "and this particular Tasker lesson we are"
+ },
+ {
+  "start": 10.8,
+  "end": 13.97,
+  "text": "going to talk about another useful jbox"
+ },
+ {
+  "start": 13.98,
+  "end": 16.43,
+  "text": "automation module which is called the"
+ },
+ {
+  "start": 16.44,
+  "end": 17.99,
+  "text": "evaluation tool"
+ },
+ {
+  "start": 18.0,
+  "end": 20.51,
+  "text": "now this is part of the expression"
+ },
+ {
+  "start": 20.52,
+  "end": 22.97,
+  "text": "evaluation section in your standard"
+ },
+ {
+  "start": 22.98,
+  "end": 25.849,
+  "text": "subset which is provided by Tosca"
+ },
+ {
+  "start": 25.859,
+  "end": 29.029,
+  "text": "and this module can help us to perform"
+ },
+ {
+  "start": 29.039,
+  "end": 31.91,
+  "text": "different types of comparisons whose"
+ },
+ {
+  "start": 31.92,
+  "end": 35.15,
+  "text": "result will be returned as true or false"
+ },
+ {
+  "start": 35.16,
+  "end": 37.97,
+  "text": "so by default your action mode would be"
+ },
+ {
+  "start": 37.98,
+  "end": 40.85,
+  "text": "verified because you are performing a"
+ },
+ {
+  "start": 40.86,
+  "end": 45.53,
+  "text": "verification okay"
+ },
+ {
+  "start": 47.389,
+  "end": 47.399,
+  "text": "now the only thing which you need to"
+ },
+ {
+  "start": 47.399,
+  "end": 50.27,
+  "text": "pass here is the expression so"
+ },
+ {
+  "start": 50.28,
+  "end": 52.91,
+  "text": "expression is nothing but"
+ },
+ {
+  "start": 52.92,
+  "end": 54.83,
+  "text": "um how you are going to compare two"
+ },
+ {
+  "start": 54.84,
+  "end": 57.229,
+  "text": "particular values right whether it is"
+ },
+ {
+  "start": 57.239,
+  "end": 60.11,
+  "text": "equals equals not equals less than"
+ },
+ {
+  "start": 60.12,
+  "end": 62.869,
+  "text": "greater than so any kind of comparison"
+ },
+ {
+  "start": 62.879,
+  "end": 65.509,
+  "text": "operator right and you have to use two"
+ },
+ {
+  "start": 65.519,
+  "end": 67.429,
+  "text": "values through which you can make a"
+ },
+ {
+  "start": 67.439,
+  "end": 70.789,
+  "text": "comparison okay and in this expression"
+ },
+ {
+  "start": 70.799,
+  "end": 73.01,
+  "text": "you can use any kind of dynamic"
+ },
+ {
+  "start": 73.02,
+  "end": 75.41,
+  "text": "Expressions right so you can compare a"
+ },
+ {
+  "start": 75.42,
+  "end": 77.57,
+  "text": "buffer with another buffer a buffer with"
+ },
+ {
+  "start": 77.58,
+  "end": 80.03,
+  "text": "a configuration parameter a buffer with"
+ },
+ {
+  "start": 80.04,
+  "end": 82.55,
+  "text": "a normal or dynamic expression right so"
+ },
+ {
+  "start": 82.56,
+  "end": 85.19,
+  "text": "any kind of comparison is possible and"
+ },
+ {
+  "start": 85.2,
+  "end": 88.49,
+  "text": "it's a very powerful uh evaluation tool"
+ },
+ {
+  "start": 88.5,
+  "end": 91.249,
+  "text": "uh which Tosca provides uh through which"
+ },
+ {
+  "start": 91.259,
+  "end": 93.17,
+  "text": "you can basically perform any kind of"
+ },
+ {
+  "start": 93.18,
+  "end": 98.149,
+  "text": "comparisons okay"
+ },
+ {
+  "start": 100.55,
+  "end": 100.56,
+  "text": "so let's look at the Practical example"
+ },
+ {
+  "start": 100.56,
+  "end": 103.49,
+  "text": "and see how we can use this evaluation"
+ },
+ {
+  "start": 103.5,
+  "end": 105.89,
+  "text": "tool module in our regular automation"
+ },
+ {
+  "start": 105.9,
+  "end": 107.33,
+  "text": "okay"
+ },
+ {
+  "start": 107.34,
+  "end": 110.149,
+  "text": "so for this purpose uh I'm going to use"
+ },
+ {
+  "start": 110.159,
+  "end": 112.31,
+  "text": "this particular application which is the"
+ },
+ {
+  "start": 112.32,
+  "end": 115.789,
+  "text": "demo webshop uh my scenario is to click"
+ },
+ {
+  "start": 115.799,
+  "end": 119.569,
+  "text": "on the login button and then login uh"
+ },
+ {
+  "start": 119.579,
+  "end": 122.149,
+  "text": "with the email and password and then"
+ },
+ {
+  "start": 122.159,
+  "end": 124.73,
+  "text": "verify whether the username is displayed"
+ },
+ {
+  "start": 124.74,
+  "end": 127.19,
+  "text": "on the page or not okay"
+ },
+ {
+  "start": 127.2,
+  "end": 129.77,
+  "text": "now I'm going to show you two ways of"
+ },
+ {
+  "start": 129.78,
+  "end": 133.25,
+  "text": "doing this one is the generic way which"
+ },
+ {
+  "start": 133.26,
+  "end": 136.91,
+  "text": "we have already learned like you uh user"
+ },
+ {
+  "start": 136.92,
+  "end": 139.49,
+  "text": "action mode verify and then you use the"
+ },
+ {
+  "start": 139.5,
+  "end": 141.65,
+  "text": "inner text to verify whether it matches"
+ },
+ {
+  "start": 141.66,
+  "end": 144.17,
+  "text": "a particular value or not right"
+ },
+ {
+  "start": 144.18,
+  "end": 146.449,
+  "text": "now what I have already done in the"
+ },
+ {
+  "start": 146.459,
+  "end": 149.15,
+  "text": "background is I've already created a"
+ },
+ {
+  "start": 149.16,
+  "end": 151.85,
+  "text": "module for this and I have captured all"
+ },
+ {
+  "start": 151.86,
+  "end": 153.17,
+  "text": "the elements which are required or"
+ },
+ {
+  "start": 153.18,
+  "end": 155.75,
+  "text": "scanned them and then I've also created"
+ },
+ {
+  "start": 155.76,
+  "end": 159.35,
+  "text": "a test case with different test steps"
+ },
+ {
+  "start": 159.36,
+  "end": 163.369,
+  "text": "okay now when I run this you will see"
+ },
+ {
+  "start": 163.379,
+  "end": 167.089,
+  "text": "that it is going to verify uh that"
+ },
+ {
+  "start": 167.099,
+  "end": 169.91,
+  "text": "particular username but it is not using"
+ },
+ {
+  "start": 169.92,
+  "end": 172.13,
+  "text": "the t-box automation module it is the"
+ },
+ {
+  "start": 172.14,
+  "end": 174.47,
+  "text": "first way of doing this which is the"
+ },
+ {
+  "start": 174.48,
+  "end": 177.05,
+  "text": "normal verification okay which is using"
+ },
+ {
+  "start": 177.06,
+  "end": 178.67,
+  "text": "the action mode verify"
+ },
+ {
+  "start": 178.68,
+  "end": 181.79,
+  "text": "so let's first see this and then we will"
+ },
+ {
+  "start": 181.8,
+  "end": 184.43,
+  "text": "see how we can change this around to use"
+ },
+ {
+  "start": 184.44,
+  "end": 187.43,
+  "text": "the t-box evaluation module and maybe"
+ },
+ {
+  "start": 187.44,
+  "end": 189.89,
+  "text": "make it more Dynamic"
+ },
+ {
+  "start": 189.9,
+  "end": 192.229,
+  "text": "um then the current version of what we"
+ },
+ {
+  "start": 192.239,
+  "end": 193.729,
+  "text": "have done okay"
+ },
+ {
+  "start": 193.739,
+  "end": 196.13,
+  "text": "so as you can see uh scenario is pretty"
+ },
+ {
+  "start": 196.14,
+  "end": 198.83,
+  "text": "simple it locks in it verifies and then"
+ },
+ {
+  "start": 198.84,
+  "end": 201.17,
+  "text": "locks out okay"
+ },
+ {
+  "start": 201.18,
+  "end": 203.149,
+  "text": "and in the verification step you will"
+ },
+ {
+  "start": 203.159,
+  "end": 206.27,
+  "text": "see that verification was successful uh"
+ },
+ {
+  "start": 206.28,
+  "end": 208.85,
+  "text": "it is comparing the expected value with"
+ },
+ {
+  "start": 208.86,
+  "end": 211.43,
+  "text": "an actual value okay"
+ },
+ {
+  "start": 211.44,
+  "end": 214.61,
+  "text": "now if we look at the test case uh the"
+ },
+ {
+  "start": 214.62,
+  "end": 216.83,
+  "text": "first step will open the URL or"
+ },
+ {
+  "start": 216.84,
+  "end": 219.47,
+  "text": "application the second step is clicking"
+ },
+ {
+  "start": 219.48,
+  "end": 222.949,
+  "text": "on the login link and then it is"
+ },
+ {
+  "start": 222.959,
+  "end": 225.89,
+  "text": "entering the email password and taking"
+ },
+ {
+  "start": 225.9,
+  "end": 229.25,
+  "text": "on login only difference uh in email and"
+ },
+ {
+  "start": 229.26,
+  "end": 231.05,
+  "text": "password we are not using normal text"
+ },
+ {
+  "start": 231.06,
+  "end": 234.53,
+  "text": "but we are using a configuration"
+ },
+ {
+  "start": 234.54,
+  "end": 236.69,
+  "text": "parameter for both username and password"
+ },
+ {
+  "start": 236.7,
+  "end": 241.789,
+  "text": "whose values are stored here okay"
+ },
+ {
+  "start": 243.589,
+  "end": 243.599,
+  "text": "um then there's a verification step here"
+ },
+ {
+  "start": 243.599,
+  "end": 245.27,
+  "text": "you will see I've used action mode"
+ },
+ {
+  "start": 245.28,
+  "end": 249.35,
+  "text": "verify but I've used uh this particular"
+ },
+ {
+  "start": 249.36,
+  "end": 251.809,
+  "text": "expression which is inner text equals"
+ },
+ {
+  "start": 251.819,
+  "end": 254.509,
+  "text": "equals the configuration parameter of"
+ },
+ {
+  "start": 254.519,
+  "end": 256.67,
+  "text": "username which will basically return me"
+ },
+ {
+  "start": 256.68,
+  "end": 258.349,
+  "text": "the value of that configuration"
+ },
+ {
+  "start": 258.359,
+  "end": 260.689,
+  "text": "parameter and then it will compare that"
+ },
+ {
+  "start": 260.699,
+  "end": 261.949,
+  "text": "okay"
+ },
+ {
+  "start": 261.959,
+  "end": 265.07,
+  "text": "so and then it is going to click on"
+ },
+ {
+  "start": 265.08,
+  "end": 267.83,
+  "text": "logout and this is perfectly fine right"
+ },
+ {
+  "start": 267.84,
+  "end": 270.89,
+  "text": "so there is nothing wrong in this"
+ },
+ {
+  "start": 270.9,
+  "end": 273.53,
+  "text": "but you can make it more better okay a"
+ },
+ {
+  "start": 273.54,
+  "end": 275.57,
+  "text": "better way of doing this is also using"
+ },
+ {
+  "start": 275.58,
+  "end": 278.33,
+  "text": "the t-box evaluation tool okay"
+ },
+ {
+  "start": 278.34,
+  "end": 281.689,
+  "text": "and let's see how we can do this"
+ },
+ {
+  "start": 281.699,
+  "end": 284.629,
+  "text": "so here uh let's first disable this"
+ },
+ {
+  "start": 284.639,
+  "end": 286.79,
+  "text": "particular step so if you don't know how"
+ },
+ {
+  "start": 286.8,
+  "end": 288.83,
+  "text": "to disable a particular step you can"
+ },
+ {
+  "start": 288.84,
+  "end": 291.89,
+  "text": "right click and then select disable okay"
+ },
+ {
+  "start": 291.9,
+  "end": 295.249,
+  "text": "it will ask you for a reason and either"
+ },
+ {
+  "start": 295.259,
+  "end": 297.77,
+  "text": "you can specify or you can leave it as"
+ },
+ {
+  "start": 297.78,
+  "end": 300.29,
+  "text": "it is it has a timestamp and the"
+ },
+ {
+  "start": 300.3,
+  "end": 304.67,
+  "text": "username who is disabling this okay"
+ },
+ {
+  "start": 304.68,
+  "end": 308.15,
+  "text": "now um we are going to add our own step"
+ },
+ {
+  "start": 308.16,
+  "end": 311.95,
+  "text": "here okay and I'm going to use the t-box"
+ },
+ {
+  "start": 311.96,
+  "end": 315.11,
+  "text": "evaluation tool"
+ },
+ {
+  "start": 315.12,
+  "end": 318.35,
+  "text": "right and this t-box evaluation tool is"
+ },
+ {
+  "start": 318.36,
+  "end": 321.05,
+  "text": "going to sit here and let's change this"
+ },
+ {
+  "start": 321.06,
+  "end": 323.81,
+  "text": "name as well okay so"
+ },
+ {
+  "start": 323.82,
+  "end": 327.89,
+  "text": "I will say compare values or compare"
+ },
+ {
+  "start": 327.9,
+  "end": 332.45,
+  "text": "email"
+ },
+ {
+  "start": 335.93,
+  "end": 335.94,
+  "text": "okay and in this expression you can see"
+ },
+ {
+  "start": 335.94,
+  "end": 338.93,
+  "text": "action mode is by default verify and"
+ },
+ {
+  "start": 338.94,
+  "end": 341.15,
+  "text": "expression we need to pass two values"
+ },
+ {
+  "start": 341.16,
+  "end": 344.029,
+  "text": "and the comparison operator okay so one"
+ },
+ {
+  "start": 344.039,
+  "end": 346.31,
+  "text": "of our values we know it's our"
+ },
+ {
+  "start": 346.32,
+  "end": 349.37,
+  "text": "configuration parameter for username but"
+ },
+ {
+  "start": 349.38,
+  "end": 352.909,
+  "text": "the other value is not the inner text of"
+ },
+ {
+  "start": 352.919,
+  "end": 356.15,
+  "text": "the username I want to capture the value"
+ },
+ {
+  "start": 356.16,
+  "end": 359.51,
+  "text": "of that particular control in a variable"
+ },
+ {
+  "start": 359.52,
+  "end": 361.909,
+  "text": "and then I'm going to make a comparison"
+ },
+ {
+  "start": 361.919,
+  "end": 363.529,
+  "text": "between that variable and the"
+ },
+ {
+  "start": 363.539,
+  "end": 365.99,
+  "text": "configuration variable okay"
+ },
+ {
+  "start": 366.0,
+  "end": 368.93,
+  "text": "so let's do that for that I would"
+ },
+ {
+  "start": 368.94,
+  "end": 371.17,
+  "text": "require another particular step okay"
+ },
+ {
+  "start": 371.18,
+  "end": 373.49,
+  "text": "where I can capture this particular"
+ },
+ {
+  "start": 373.5,
+  "end": 377.45,
+  "text": "value so let's do that and I'm going to"
+ },
+ {
+  "start": 377.46,
+  "end": 380.029,
+  "text": "add the module which is required for"
+ },
+ {
+  "start": 380.039,
+  "end": 380.87,
+  "text": "this"
+ },
+ {
+  "start": 380.88,
+  "end": 384.05,
+  "text": "okay and I'm going to drag it before my"
+ },
+ {
+  "start": 384.06,
+  "end": 387.469,
+  "text": "compare email step here I'm going to say"
+ },
+ {
+  "start": 387.479,
+  "end": 393.11,
+  "text": "buffer uh email okay"
+ },
+ {
+  "start": 395.809,
+  "end": 395.819,
+  "text": "and then this is the control which I"
+ },
+ {
+  "start": 395.819,
+  "end": 397.309,
+  "text": "need to buffer so I'm going to change"
+ },
+ {
+  "start": 397.319,
+  "end": 400.01,
+  "text": "the actual mode to buffer and here I'm"
+ },
+ {
+  "start": 400.02,
+  "end": 403.49,
+  "text": "going to provide a particular buffer"
+ },
+ {
+  "start": 403.5,
+  "end": 406.49,
+  "text": "name okay so I'm going to provide email"
+ },
+ {
+  "start": 406.5,
+  "end": 408.05,
+  "text": "right"
+ },
+ {
+  "start": 408.06,
+  "end": 411.95,
+  "text": "and then coming to our expression so our"
+ },
+ {
+  "start": 411.96,
+  "end": 415.49,
+  "text": "expression would be so buffer of email"
+ },
+ {
+  "start": 415.5,
+  "end": 417.71,
+  "text": "right"
+ },
+ {
+  "start": 417.72,
+  "end": 421.07,
+  "text": "and then equals equals configuration"
+ },
+ {
+  "start": 421.08,
+  "end": 424.43,
+  "text": "parameter of username"
+ },
+ {
+  "start": 424.44,
+  "end": 426.83,
+  "text": "so pretty simple comparison but as you"
+ },
+ {
+  "start": 426.84,
+  "end": 429.35,
+  "text": "can see both are Dynamic expressions and"
+ },
+ {
+  "start": 429.36,
+  "end": 431.15,
+  "text": "I'm comparing two Dynamic Expressions"
+ },
+ {
+  "start": 431.16,
+  "end": 434.029,
+  "text": "here okay"
+ },
+ {
+  "start": 434.039,
+  "end": 437.09,
+  "text": "so the scenario Still Remains same but I"
+ },
+ {
+  "start": 437.1,
+  "end": 438.909,
+  "text": "have shown you two ways how you can"
+ },
+ {
+  "start": 438.919,
+  "end": 442.189,
+  "text": "perform this automation on this"
+ },
+ {
+  "start": 442.199,
+  "end": 444.23,
+  "text": "particular scenario okay"
+ },
+ {
+  "start": 444.24,
+  "end": 446.629,
+  "text": "now let's run this test case and see"
+ },
+ {
+  "start": 446.639,
+  "end": 448.909,
+  "text": "whether the result is still the same or"
+ },
+ {
+  "start": 448.919,
+  "end": 451.55,
+  "text": "there is some problem okay"
+ },
+ {
+  "start": 451.56,
+  "end": 454.85,
+  "text": "so let's run this and let me close this"
+ },
+ {
+  "start": 454.86,
+  "end": 457.029,
+  "text": "window"
+ },
+ {
+  "start": 457.039,
+  "end": 460.79,
+  "text": "so it's going to login and then it's"
+ },
+ {
+  "start": 460.8,
+  "end": 463.07,
+  "text": "going to check for the username"
+ },
+ {
+  "start": 463.08,
+  "end": 467.33,
+  "text": "but that seems to be a problem okay"
+ },
+ {
+  "start": 467.34,
+  "end": 470.21,
+  "text": "and you will see this in log info it"
+ },
+ {
+  "start": 470.22,
+  "end": 472.61,
+  "text": "will show you what's the exact reason it"
+ },
+ {
+  "start": 472.62,
+  "end": 475.85,
+  "text": "is saying missing end of file"
+ },
+ {
+  "start": 475.86,
+  "end": 478.43,
+  "text": "now looking at the error you may be able"
+ },
+ {
+  "start": 478.44,
+  "end": 481.029,
+  "text": "to guess that it is maybe not able to"
+ },
+ {
+  "start": 481.039,
+  "end": 484.73,
+  "text": "compare uh two expressions because of"
+ },
+ {
+  "start": 484.74,
+  "end": 485.99,
+  "text": "the different characters special"
+ },
+ {
+  "start": 486.0,
+  "end": 488.57,
+  "text": "characters which it has so you need to"
+ },
+ {
+  "start": 488.58,
+  "end": 491.15,
+  "text": "also Escape if you are using any special"
+ },
+ {
+  "start": 491.16,
+  "end": 494.87,
+  "text": "characters in your values okay"
+ },
+ {
+  "start": 494.88,
+  "end": 498.95,
+  "text": "so what we need to do is we need to"
+ },
+ {
+  "start": 498.96,
+  "end": 503.33,
+  "text": "provide here okay codes for both this"
+ },
+ {
+  "start": 503.34,
+  "end": 506.57,
+  "text": "Expressions so that it can basically"
+ },
+ {
+  "start": 506.58,
+  "end": 508.909,
+  "text": "Escape any special characters in your"
+ },
+ {
+  "start": 508.919,
+  "end": 512.81,
+  "text": "values okay"
+ },
+ {
+  "start": 516.29,
+  "end": 516.3,
+  "text": "now if we go ahead and try this again"
+ },
+ {
+  "start": 516.3,
+  "end": 529.55,
+  "text": "this time it should pass but let's see"
+ },
+ {
+  "start": 531.65,
+  "end": 531.66,
+  "text": "okay it's successfully logged out that"
+ },
+ {
+  "start": 531.66,
+  "end": 532.61,
+  "text": "means"
+ },
+ {
+  "start": 532.62,
+  "end": 535.67,
+  "text": "um the scenario has passed and if we"
+ },
+ {
+  "start": 535.68,
+  "end": 538.97,
+  "text": "look at the comparison you can see uh"
+ },
+ {
+  "start": 538.98,
+  "end": 541.19,
+  "text": "now the values are compared correctly"
+ },
+ {
+  "start": 541.2,
+  "end": 543.47,
+  "text": "because we have escaped any special"
+ },
+ {
+  "start": 543.48,
+  "end": 546.47,
+  "text": "characters in these two values okay so"
+ },
+ {
+  "start": 546.48,
+  "end": 549.59,
+  "text": "it has evaluated to true that's what is"
+ },
+ {
+  "start": 549.6,
+  "end": 552.59,
+  "text": "returned by the t-box evaluation module"
+ },
+ {
+  "start": 552.6,
+  "end": 557.75,
+  "text": "okay and you can see here uh also we"
+ },
+ {
+  "start": 557.76,
+  "end": 559.73,
+  "text": "have created a buffer email which has"
+ },
+ {
+  "start": 559.74,
+  "end": 562.07,
+  "text": "got this particular value okay"
+ },
+ {
+  "start": 562.08,
+  "end": 563.75,
+  "text": "so you can see"
+ },
+ {
+  "start": 563.76,
+  "end": 565.61,
+  "text": "um how I'm trying to use different"
+ },
+ {
+  "start": 565.62,
+  "end": 568.43,
+  "text": "things here in order to automate this"
+ },
+ {
+  "start": 568.44,
+  "end": 571.13,
+  "text": "very simple scenario but it's one of the"
+ },
+ {
+  "start": 571.14,
+  "end": 572.69,
+  "text": "most common scenarios which will face"
+ },
+ {
+  "start": 572.7,
+  "end": 575.269,
+  "text": "for any web application so I've shown"
+ },
+ {
+  "start": 575.279,
+  "end": 578.329,
+  "text": "you both ways how you can do this and it"
+ },
+ {
+  "start": 578.339,
+  "end": 579.889,
+  "text": "should be very useful when you are"
+ },
+ {
+  "start": 579.899,
+  "end": 583.67,
+  "text": "trying to use different t-box automation"
+ },
+ {
+  "start": 583.68,
+  "end": 585.41,
+  "text": "modules which are provided by Tosca"
+ },
+ {
+  "start": 585.42,
+  "end": 588.67,
+  "text": "right rather than rewriting your own"
+ },
+ {
+  "start": 588.68,
+  "end": 591.65,
+  "text": "automation or designing it separately"
+ },
+ {
+  "start": 591.66,
+  "end": 594.41,
+  "text": "right you can use or reuse this"
+ },
+ {
+  "start": 594.42,
+  "end": 596.09,
+  "text": "automation modules which are already"
+ },
+ {
+  "start": 596.1,
+  "end": 600.17,
+  "text": "provided by Tosca so that's all for how"
+ },
+ {
+  "start": 600.18,
+  "end": 602.75,
+  "text": "you can compare different Dynamic"
+ },
+ {
+  "start": 602.76,
+  "end": 605.449,
+  "text": "expressions using the t-box evaluation"
+ },
+ {
+  "start": 605.459,
+  "end": 607.94,
+  "text": "tool"
+ }
+]

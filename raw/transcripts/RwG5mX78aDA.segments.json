@@ -1,0 +1,787 @@
+[
+ {
+  "start": 8.81,
+  "end": 8.82,
+  "text": "hey everyone welcome back to our Channel"
+ },
+ {
+  "start": 8.82,
+  "end": 11.39,
+  "text": "I am back with another interesting topic"
+ },
+ {
+  "start": 11.4,
+  "end": 15.11,
+  "text": "in the Tosca automation playlist"
+ },
+ {
+  "start": 15.12,
+  "end": 17.75,
+  "text": "in this session we are going to look at"
+ },
+ {
+  "start": 17.76,
+  "end": 19.43,
+  "text": "how we can backup and restore"
+ },
+ {
+  "start": 19.44,
+  "end": 22.25,
+  "text": "repositories on Tosca Commander"
+ },
+ {
+  "start": 22.26,
+  "end": 24.95,
+  "text": "now Tosca Commander allows us to backup"
+ },
+ {
+  "start": 24.96,
+  "end": 28.13,
+  "text": "and restore uh two types of items one is"
+ },
+ {
+  "start": 28.14,
+  "end": 31.13,
+  "text": "the entire projects it could be either a"
+ },
+ {
+  "start": 31.14,
+  "end": 33.049,
+  "text": "single user project or a multi-user"
+ },
+ {
+  "start": 33.059,
+  "end": 33.709,
+  "text": "project"
+ },
+ {
+  "start": 33.719,
+  "end": 36.95,
+  "text": "it also allows us to uh backup and"
+ },
+ {
+  "start": 36.96,
+  "end": 39.11,
+  "text": "restore component folders which are"
+ },
+ {
+  "start": 39.12,
+  "end": 41.63,
+  "text": "nothing but uh smaller projects inside"
+ },
+ {
+  "start": 41.64,
+  "end": 44.51,
+  "text": "your big project so backing up a single"
+ },
+ {
+  "start": 44.52,
+  "end": 47.09,
+  "text": "user project is pretty simple"
+ },
+ {
+  "start": 47.1,
+  "end": 49.25,
+  "text": "so for example this particular single"
+ },
+ {
+  "start": 49.26,
+  "end": 52.67,
+  "text": "user project can be backed up by just uh"
+ },
+ {
+  "start": 52.68,
+  "end": 55.01,
+  "text": "exporting the subset"
+ },
+ {
+  "start": 55.02,
+  "end": 56.81,
+  "text": "and then whenever you want to restore"
+ },
+ {
+  "start": 56.82,
+  "end": 59.33,
+  "text": "this project then you can just import it"
+ },
+ {
+  "start": 59.34,
+  "end": 62.029,
+  "text": "again so exporting a subset is pretty"
+ },
+ {
+  "start": 62.039,
+  "end": 65.27,
+  "text": "easy click on export subset and then"
+ },
+ {
+  "start": 65.28,
+  "end": 68.45,
+  "text": "here I can store"
+ },
+ {
+  "start": 68.46,
+  "end": 71.57,
+  "text": "some name like the same name"
+ },
+ {
+  "start": 71.58,
+  "end": 74.87,
+  "text": "so it will store this as practice dot"
+ },
+ {
+  "start": 74.88,
+  "end": 77.21,
+  "text": "TSU okay"
+ },
+ {
+  "start": 77.22,
+  "end": 80.149,
+  "text": "so this way you can easily take a backup"
+ },
+ {
+  "start": 80.159,
+  "end": 83.81,
+  "text": "of your current single user project and"
+ },
+ {
+  "start": 83.82,
+  "end": 85.91,
+  "text": "then whenever you need it you just"
+ },
+ {
+  "start": 85.92,
+  "end": 89.21,
+  "text": "import the subset again maybe in a"
+ },
+ {
+  "start": 89.22,
+  "end": 91.55,
+  "text": "different project okay so just go ahead"
+ },
+ {
+  "start": 91.56,
+  "end": 96.89,
+  "text": "and import the practice dot TSU okay"
+ },
+ {
+  "start": 96.9,
+  "end": 100.01,
+  "text": "so I'll click on open and then it is"
+ },
+ {
+  "start": 100.02,
+  "end": 103.31,
+  "text": "going to ask you to merge all the"
+ },
+ {
+  "start": 103.32,
+  "end": 105.109,
+  "text": "different objects because this is the"
+ },
+ {
+  "start": 105.119,
+  "end": 107.69,
+  "text": "same project right so"
+ },
+ {
+  "start": 107.7,
+  "end": 110.33,
+  "text": "don't do it on the same project uh"
+ },
+ {
+  "start": 110.34,
+  "end": 112.37,
+  "text": "probably do it on a different project"
+ },
+ {
+  "start": 112.38,
+  "end": 115.969,
+  "text": "where you want to recover this"
+ },
+ {
+  "start": 115.979,
+  "end": 118.37,
+  "text": "now coming to"
+ },
+ {
+  "start": 118.38,
+  "end": 121.19,
+  "text": "the multi-user projects it's a little"
+ },
+ {
+  "start": 121.2,
+  "end": 124.67,
+  "text": "different okay than single user projects"
+ },
+ {
+  "start": 124.68,
+  "end": 127.55,
+  "text": "so for multi-user projects uh the backup"
+ },
+ {
+  "start": 127.56,
+  "end": 130.07,
+  "text": "includes all the workspace objects the"
+ },
+ {
+  "start": 130.08,
+  "end": 133.55,
+  "text": "project settings uh properties and also"
+ },
+ {
+  "start": 133.56,
+  "end": 136.07,
+  "text": "if you have got any version data"
+ },
+ {
+  "start": 136.08,
+  "end": 139.79,
+  "text": "the main uh prerequisites before you uh"
+ },
+ {
+  "start": 139.8,
+  "end": 141.949,
+  "text": "take a backup of your multi-user project"
+ },
+ {
+  "start": 141.959,
+  "end": 144.17,
+  "text": "is you should make sure that you have"
+ },
+ {
+  "start": 144.18,
+  "end": 147.229,
+  "text": "got enough disk space because the backup"
+ },
+ {
+  "start": 147.239,
+  "end": 149.57,
+  "text": "file could be about 20 percent of the"
+ },
+ {
+  "start": 149.58,
+  "end": 152.809,
+  "text": "size of your backed up Repository"
+ },
+ {
+  "start": 152.819,
+  "end": 155.39,
+  "text": "and to restore the database repositories"
+ },
+ {
+  "start": 155.4,
+  "end": 158.27,
+  "text": "you need create and drop rights"
+ },
+ {
+  "start": 158.28,
+  "end": 161.15,
+  "text": "so let's go ahead and open a multi-user"
+ },
+ {
+  "start": 161.16,
+  "end": 164.21,
+  "text": "project now uh like this multi demo"
+ },
+ {
+  "start": 164.22,
+  "end": 168.35,
+  "text": "and then the process involves you to"
+ },
+ {
+  "start": 168.36,
+  "end": 171.83,
+  "text": "open the workspace as an admin user so"
+ },
+ {
+  "start": 171.84,
+  "end": 174.17,
+  "text": "only an administrator can take a backup"
+ },
+ {
+  "start": 174.18,
+  "end": 176.27,
+  "text": "of a multi-user project"
+ },
+ {
+  "start": 176.28,
+  "end": 178.55,
+  "text": "so we are going to sign in using the"
+ },
+ {
+  "start": 178.56,
+  "end": 182.27,
+  "text": "admin credentials"
+ },
+ {
+  "start": 184.91,
+  "end": 184.92,
+  "text": "and after this uh you have to go to"
+ },
+ {
+  "start": 184.92,
+  "end": 186.77,
+  "text": "Project"
+ },
+ {
+  "start": 186.78,
+  "end": 189.83,
+  "text": "and then info here there is an option to"
+ },
+ {
+  "start": 189.84,
+  "end": 191.449,
+  "text": "backup the currently used common"
+ },
+ {
+  "start": 191.459,
+  "end": 192.77,
+  "text": "Repository"
+ },
+ {
+  "start": 192.78,
+  "end": 195.53,
+  "text": "okay so click on that and then it will"
+ },
+ {
+  "start": 195.54,
+  "end": 197.869,
+  "text": "ask you to exclude object versioning"
+ },
+ {
+  "start": 197.879,
+  "end": 200.63,
+  "text": "history from the backup you can click"
+ },
+ {
+  "start": 200.64,
+  "end": 204.229,
+  "text": "yes or you can click no okay"
+ },
+ {
+  "start": 204.239,
+  "end": 207.17,
+  "text": "and then it will ask you for a folder"
+ },
+ {
+  "start": 207.18,
+  "end": 211.07,
+  "text": "where you want to store this particular"
+ },
+ {
+  "start": 211.08,
+  "end": 215.93,
+  "text": "backed up a repository okay so let's go"
+ },
+ {
+  "start": 215.94,
+  "end": 225.89,
+  "text": "ahead and create a backup folder here"
+ },
+ {
+  "start": 227.93,
+  "end": 227.94,
+  "text": "and then I'm going to select that and"
+ },
+ {
+  "start": 227.94,
+  "end": 230.149,
+  "text": "click on OK"
+ },
+ {
+  "start": 230.159,
+  "end": 233.63,
+  "text": "now depending on your repository size"
+ },
+ {
+  "start": 233.64,
+  "end": 236.869,
+  "text": "this could take uh minutes or hours"
+ },
+ {
+  "start": 236.879,
+  "end": 240.35,
+  "text": "right uh since my repository doesn't"
+ },
+ {
+  "start": 240.36,
+  "end": 243.229,
+  "text": "contain uh much objects so it was done"
+ },
+ {
+  "start": 243.239,
+  "end": 246.649,
+  "text": "in a quick instance but uh it could be"
+ },
+ {
+  "start": 246.659,
+  "end": 248.809,
+  "text": "different uh based on your repository"
+ },
+ {
+  "start": 248.819,
+  "end": 250.369,
+  "text": "size"
+ },
+ {
+  "start": 250.379,
+  "end": 251.99,
+  "text": "so that's how you can backup your"
+ },
+ {
+  "start": 252.0,
+  "end": 255.47,
+  "text": "multi-user project it will be stored in"
+ },
+ {
+  "start": 255.48,
+  "end": 260.09,
+  "text": "the file extension of dot TDP okay so"
+ },
+ {
+  "start": 260.1,
+  "end": 262.85,
+  "text": "that's that's the file extension and"
+ },
+ {
+  "start": 262.86,
+  "end": 265.189,
+  "text": "then in order to restore a particular"
+ },
+ {
+  "start": 265.199,
+  "end": 269.45,
+  "text": "backup okay so we don't need to go into"
+ },
+ {
+  "start": 269.46,
+  "end": 271.249,
+  "text": "any project so we are going to close"
+ },
+ {
+  "start": 271.259,
+  "end": 273.59,
+  "text": "this"
+ },
+ {
+  "start": 273.6,
+  "end": 276.65,
+  "text": "and Crescent is actually recommends that"
+ },
+ {
+  "start": 276.66,
+  "end": 278.629,
+  "text": "whenever you restore a backed up"
+ },
+ {
+  "start": 278.639,
+  "end": 279.79,
+  "text": "repository"
+ },
+ {
+  "start": 279.8,
+  "end": 282.77,
+  "text": "it should always be in a newly created"
+ },
+ {
+  "start": 282.78,
+  "end": 284.629,
+  "text": "repository okay"
+ },
+ {
+  "start": 284.639,
+  "end": 287.33,
+  "text": "because if you restore your backup in a"
+ },
+ {
+  "start": 287.34,
+  "end": 289.909,
+  "text": "existing repository try sentence Tosca"
+ },
+ {
+  "start": 289.919,
+  "end": 292.129,
+  "text": "is going to overwrite all the existing"
+ },
+ {
+  "start": 292.139,
+  "end": 293.39,
+  "text": "data"
+ },
+ {
+  "start": 293.4,
+  "end": 295.67,
+  "text": "so you should not be doing it in"
+ },
+ {
+  "start": 295.68,
+  "end": 297.59,
+  "text": "existing repository you should always do"
+ },
+ {
+  "start": 297.6,
+  "end": 299.93,
+  "text": "it in a new Repository"
+ },
+ {
+  "start": 299.94,
+  "end": 302.57,
+  "text": "so here uh we need to go into project"
+ },
+ {
+  "start": 302.58,
+  "end": 305.87,
+  "text": "again info and then we need to go into"
+ },
+ {
+  "start": 305.88,
+  "end": 307.49,
+  "text": "the restore option which is now"
+ },
+ {
+  "start": 307.5,
+  "end": 310.129,
+  "text": "available because we have got a backup"
+ },
+ {
+  "start": 310.139,
+  "end": 313.61,
+  "text": "so click on that restore and it will say"
+ },
+ {
+  "start": 313.62,
+  "end": 315.71,
+  "text": "that when restoring any existing data in"
+ },
+ {
+  "start": 315.72,
+  "end": 317.03,
+  "text": "the affected repository will be"
+ },
+ {
+  "start": 317.04,
+  "end": 318.29,
+  "text": "discarded"
+ },
+ {
+  "start": 318.3,
+  "end": 320.99,
+  "text": "uh you will not be able to undo or roll"
+ },
+ {
+  "start": 321.0,
+  "end": 325.31,
+  "text": "back this transaction okay so make sure"
+ },
+ {
+  "start": 325.32,
+  "end": 328.67,
+  "text": "you are aware of this before you restore"
+ },
+ {
+  "start": 328.68,
+  "end": 331.01,
+  "text": "your particular project into this"
+ },
+ {
+  "start": 331.02,
+  "end": 332.99,
+  "text": "repository okay"
+ },
+ {
+  "start": 333.0,
+  "end": 336.129,
+  "text": "so here it will ask you for a restore DB"
+ },
+ {
+  "start": 336.139,
+  "end": 340.67,
+  "text": "repository selected file so we can go to"
+ },
+ {
+  "start": 340.68,
+  "end": 342.77,
+  "text": "that particular location where we store"
+ },
+ {
+  "start": 342.78,
+  "end": 345.77,
+  "text": "this dosca workspaces"
+ },
+ {
+  "start": 345.78,
+  "end": 348.529,
+  "text": "and then uh in the backup folder okay so"
+ },
+ {
+  "start": 348.539,
+  "end": 351.83,
+  "text": "this is the file multi demo dump and it"
+ },
+ {
+  "start": 351.84,
+  "end": 356.33,
+  "text": "is dot tgp right"
+ },
+ {
+  "start": 359.99,
+  "end": 360.0,
+  "text": "so uh after this after so after that you"
+ },
+ {
+  "start": 360.0,
+  "end": 361.61,
+  "text": "click on open"
+ },
+ {
+  "start": 361.62,
+  "end": 365.87,
+  "text": "okay and then it will ask you for the"
+ },
+ {
+  "start": 365.88,
+  "end": 369.529,
+  "text": "type of repository okay so it could be a"
+ },
+ {
+  "start": 369.539,
+  "end": 371.749,
+  "text": "new repository an actual database like"
+ },
+ {
+  "start": 371.759,
+  "end": 375.469,
+  "text": "Oracle Ms SQL or db2 or it could be a"
+ },
+ {
+  "start": 375.479,
+  "end": 378.65,
+  "text": "sqlite okay and then"
+ },
+ {
+  "start": 378.66,
+  "end": 381.77,
+  "text": "um the connection string okay so if you"
+ },
+ {
+  "start": 381.78,
+  "end": 385.07,
+  "text": "are using Oracle or a SQL Server uh"
+ },
+ {
+  "start": 385.08,
+  "end": 387.23,
+  "text": "schema is optional and then you click on"
+ },
+ {
+  "start": 387.24,
+  "end": 391.249,
+  "text": "test connection and then click on OK OK"
+ },
+ {
+  "start": 391.259,
+  "end": 395.51,
+  "text": "so uh this is going to overwrite all the"
+ },
+ {
+  "start": 395.52,
+  "end": 397.73,
+  "text": "all the data in the particular"
+ },
+ {
+  "start": 397.74,
+  "end": 400.55,
+  "text": "repository right so I am not going to do"
+ },
+ {
+  "start": 400.56,
+  "end": 401.27,
+  "text": "that"
+ },
+ {
+  "start": 401.28,
+  "end": 404.15,
+  "text": "but this is always helpful uh when you"
+ },
+ {
+  "start": 404.16,
+  "end": 406.189,
+  "text": "have got regular backups of your"
+ },
+ {
+  "start": 406.199,
+  "end": 410.21,
+  "text": "repository or your projects then in in"
+ },
+ {
+  "start": 410.22,
+  "end": 413.45,
+  "text": "very rare scenarios where you lose any"
+ },
+ {
+  "start": 413.46,
+  "end": 415.129,
+  "text": "particular data due to any particular"
+ },
+ {
+  "start": 415.139,
+  "end": 418.21,
+  "text": "problem in your database or in your"
+ },
+ {
+  "start": 418.22,
+  "end": 421.85,
+  "text": "complete infrastructure then you can"
+ },
+ {
+  "start": 421.86,
+  "end": 424.73,
+  "text": "always use this backup to restore your"
+ },
+ {
+  "start": 424.74,
+  "end": 427.57,
+  "text": "repository or project uh in a different"
+ },
+ {
+  "start": 427.58,
+  "end": 430.55,
+  "text": "repository right"
+ },
+ {
+  "start": 430.56,
+  "end": 433.37,
+  "text": "that's all for this particular video if"
+ },
+ {
+  "start": 433.38,
+  "end": 435.23,
+  "text": "you have any questions then please leave"
+ },
+ {
+  "start": 435.24,
+  "end": 437.689,
+  "text": "it in the comments if you like this"
+ },
+ {
+  "start": 437.699,
+  "end": 439.37,
+  "text": "video then please subscribe to our"
+ },
+ {
+  "start": 439.38,
+  "end": 440.27,
+  "text": "Channel"
+ },
+ {
+  "start": 440.28,
+  "end": 442.49,
+  "text": "thanks for watching and I will see you"
+ },
+ {
+  "start": 442.5,
+  "end": 445.34,
+  "text": "in the next video"
+ }
+]

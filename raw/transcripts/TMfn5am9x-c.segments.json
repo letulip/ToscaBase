@@ -1,0 +1,702 @@
+[
+ {
+  "start": 15.02,
+  "end": 19.7,
+  "text": "Hello friends, welcome back to our channel."
+ },
+ {
+  "start": 19.7,
+  "end": 23.66,
+  "text": "I am your Tosca instructor and my name is Kumaresh."
+ },
+ {
+  "start": 23.66,
+  "end": 30.34,
+  "text": "I have total 14 years of IT experience in software development and test automation."
+ },
+ {
+  "start": 30.34,
+  "end": 33.98,
+  "text": "Thank you for connecting with us."
+ },
+ {
+  "start": 33.98,
+  "end": 36.58,
+  "text": "Hope you are doing well."
+ },
+ {
+  "start": 36.58,
+  "end": 39.5,
+  "text": "Let's start our today's session."
+ },
+ {
+  "start": 39.5,
+  "end": 44.98,
+  "text": "Through this video, I will explain the overview of Tosca TestCase."
+ },
+ {
+  "start": 44.98,
+  "end": 50.14,
+  "text": "Also, I will guide to develop the test cases with the help of modules which are created"
+ },
+ {
+  "start": 50.14,
+  "end": 53.54,
+  "text": "during the last tutorial."
+ },
+ {
+  "start": 53.54,
+  "end": 58.76,
+  "text": "TestCase is a set of instructions to ensure the quality of the software product."
+ },
+ {
+  "start": 58.76,
+  "end": 64.62,
+  "text": "In other word, it is a combination of steps to walk through the application with verification."
+ },
+ {
+  "start": 64.62,
+  "end": 69.2,
+  "text": "The test cases are written based on the software requirements."
+ },
+ {
+  "start": 69.2,
+  "end": 72.98,
+  "text": "It can be designed for manual or automated testing."
+ },
+ {
+  "start": 72.98,
+  "end": 78.94,
+  "text": "Here, we are going to discuss about test cases that are automated by Tosca."
+ },
+ {
+  "start": 78.94,
+  "end": 83.78,
+  "text": "The Tosca test cases are created by using the both standard and user-defined modules"
+ },
+ {
+  "start": 83.78,
+  "end": 87.17,
+  "text": "with required test data."
+ },
+ {
+  "start": 87.17,
+  "end": 91.97,
+  "text": "Two types of test cases are available in Tosca."
+ },
+ {
+  "start": 91.97,
+  "end": 93.61,
+  "text": "Technical Test Cases."
+ },
+ {
+  "start": 93.61,
+  "end": 98.25,
+  "text": "And Business Test Cases."
+ },
+ {
+  "start": 98.25,
+  "end": 102.91,
+  "text": "The technical test case keeps all the technical information to steer the controls during"
+ },
+ {
+  "start": 102.91,
+  "end": 103.91,
+  "text": "execution."
+ },
+ {
+  "start": 104.69,
+  "end": 109.23,
+  "text": "It can be created by right-clicking on any folder which are available in test case section"
+ },
+ {
+  "start": 109.23,
+  "end": 113.01,
+  "text": "and selecting the blue-colored circular arrow icon."
+ },
+ {
+  "start": 113.01,
+  "end": 119.81,
+  "text": "The shortcut key for new test case creation are CTRL plus N and CTRL plus T."
+ },
+ {
+  "start": 119.81,
+  "end": 125.75,
+  "text": "It is a collection of test steps which are created by the drag and dropping of modules."
+ },
+ {
+  "start": 125.75,
+  "end": 129.55,
+  "text": "Test steps has different action modes such as."
+ },
+ {
+  "start": 129.55,
+  "end": 136.26,
+  "text": "The input action mode is used while entering data, perform click operations."
+ },
+ {
+  "start": 136.26,
+  "end": 141.39,
+  "text": "The insert action mode is used for insert purpose."
+ },
+ {
+  "start": 141.39,
+  "end": 146.83,
+  "text": "The verify action mode is required to select this option during verification."
+ },
+ {
+  "start": 146.83,
+  "end": 151.68,
+  "text": "In the value field, we need to provide the condition."
+ },
+ {
+  "start": 151.68,
+  "end": 156.85,
+  "text": "The buffer action mode is used to set the value to buffer."
+ },
+ {
+  "start": 156.85,
+  "end": 164.81,
+  "text": "The Walton action mode is used for synchronization purposes to wait until the condition is satisfied."
+ },
+ {
+  "start": 164.81,
+  "end": 169.53,
+  "text": "The select action mode is used while hierarchy levels are available and need to work on"
+ },
+ {
+  "start": 169.53,
+  "end": 172.75,
+  "text": "child items."
+ },
+ {
+  "start": 172.75,
+  "end": 177.47,
+  "text": "The constraint action mode is used for checking for a particular value, mostly used in the"
+ },
+ {
+  "start": 177.47,
+  "end": 181.58,
+  "text": "tables column."
+ },
+ {
+  "start": 181.58,
+  "end": 185.02,
+  "text": "The test cases has three status."
+ },
+ {
+  "start": 185.02,
+  "end": 186.02,
+  "text": "Planning."
+ },
+ {
+  "start": 186.02,
+  "end": 187.7,
+  "text": "In-work and."
+ },
+ {
+  "start": 187.7,
+  "end": 191.26,
+  "text": "Completed."
+ },
+ {
+  "start": 191.26,
+  "end": 196.66,
+  "text": "The business test cases are the logical groups of technical test cases."
+ },
+ {
+  "start": 196.66,
+  "end": 200.92,
+  "text": "Each of the business test case represents the functionality coverage which is designed"
+ },
+ {
+  "start": 200.92,
+  "end": 203.24,
+  "text": "based on the requirements."
+ },
+ {
+  "start": 203.24,
+  "end": 206.36,
+  "text": "The business test cases are not executable."
+ },
+ {
+  "start": 206.36,
+  "end": 210.4,
+  "text": "Only, we can monitor the testing coverage through this."
+ },
+ {
+  "start": 210.4,
+  "end": 211.4,
+  "text": "Alright."
+ },
+ {
+  "start": 211.4,
+  "end": 216.04,
+  "text": "Let's start the test case development process in Tosca."
+ },
+ {
+  "start": 216.04,
+  "end": 220.72,
+  "text": "We will automate a simple scenario on Google search to understand the test automation"
+ },
+ {
+  "start": 220.72,
+  "end": 222.38,
+  "text": "development."
+ },
+ {
+  "start": 222.38,
+  "end": 226.14,
+  "text": "The scenario involved with steps such as."
+ },
+ {
+  "start": 226.14,
+  "end": 229.08,
+  "text": "Launch Google in Chrome browser."
+ },
+ {
+  "start": 229.08,
+  "end": 232.92,
+  "text": "Search text Tricentus Tosca in Google."
+ },
+ {
+  "start": 232.92,
+  "end": 237.68,
+  "text": "Click on first search result to open official portal."
+ },
+ {
+  "start": 237.68,
+  "end": 243.91,
+  "text": "And verify that Tricentus official page has appeared."
+ },
+ {
+  "start": 243.91,
+  "end": 248.75,
+  "text": "The required custom modules are already created with the reference of last video on Tosca"
+ },
+ {
+  "start": 248.75,
+  "end": 252.4,
+  "text": "modules."
+ },
+ {
+  "start": 252.4,
+  "end": 253.96,
+  "text": "Alright."
+ },
+ {
+  "start": 253.96,
+  "end": 257.64,
+  "text": "Let's start the test case creation process."
+ },
+ {
+  "start": 257.64,
+  "end": 262.68,
+  "text": "Three user defined modules are already created for Google search screen, search results"
+ },
+ {
+  "start": 263.28,
+  "end": 266.44,
+  "text": "and the Tricentus Tosca official portal."
+ },
+ {
+  "start": 266.44,
+  "end": 272.86,
+  "text": "We had added only the required controls during the module creation."
+ },
+ {
+  "start": 272.86,
+  "end": 284.75,
+  "text": "Now, we will move to the project hierarchy and dock the component test cases as tabs."
+ },
+ {
+  "start": 284.75,
+  "end": 287.75,
+  "text": "As we are working with the shared repository."
+ },
+ {
+  "start": 287.75,
+  "end": 293.95,
+  "text": "First, we need to check out the test cases section."
+ },
+ {
+  "start": 293.95,
+  "end": 297.23,
+  "text": "After that we need to create the folder structure."
+ },
+ {
+  "start": 297.23,
+  "end": 303.03,
+  "text": "The proper folder structure creation is an optional task, but it's in best practice."
+ },
+ {
+  "start": 303.03,
+  "end": 310.25,
+  "text": "We can logically segregate the test cases using folder."
+ },
+ {
+  "start": 310.25,
+  "end": 314.31,
+  "text": "Now we will create new test case by right clicking on the new folder and provide"
+ },
+ {
+  "start": 314.31,
+  "end": 319.26,
+  "text": "a logical name."
+ },
+ {
+  "start": 319.26,
+  "end": 326.72,
+  "text": "The technical test case is created now."
+ },
+ {
+  "start": 326.72,
+  "end": 331.48,
+  "text": "It's an empty test case, which means no test steps are available."
+ },
+ {
+  "start": 331.48,
+  "end": 339.22,
+  "text": "Our next task is to add test step by referring the modules based on the activity."
+ },
+ {
+  "start": 339.22,
+  "end": 344.1,
+  "text": "Because our first step is launching the application, so we need to use the standard modules which"
+ },
+ {
+  "start": 344.1,
+  "end": 349.1,
+  "text": "is available under T-Box Automation Tools, Process Automation."
+ },
+ {
+  "start": 349.1,
+  "end": 356.46,
+  "text": "We need to drag and drop this modules to the test case."
+ },
+ {
+  "start": 356.46,
+  "end": 359.94,
+  "text": "This module help to launch any application."
+ },
+ {
+  "start": 359.94,
+  "end": 365.5,
+  "text": "But Tosca provides a specific modules to launch any web browser with URL."
+ },
+ {
+  "start": 366.38,
+  "end": 374.83,
+  "text": "So we delete this one and use the standard module open URL to launch web application."
+ },
+ {
+  "start": 374.83,
+  "end": 382.37,
+  "text": "The standard module open URL is available under Module Folders, T-Box Engines, HTML."
+ },
+ {
+  "start": 382.37,
+  "end": 391.83,
+  "text": "We need to drag and drop this module to the test case."
+ },
+ {
+  "start": 391.83,
+  "end": 403.36,
+  "text": "We will now enter the URL as www.google.com and select the action mode as input."
+ },
+ {
+  "start": 403.36,
+  "end": 411.02,
+  "text": "It's advisable to rename the test step logically as per the activity to be performed."
+ },
+ {
+  "start": 411.02,
+  "end": 414.06,
+  "text": "The first test step is ready now."
+ },
+ {
+  "start": 414.06,
+  "end": 417.38,
+  "text": "As per this step, the Google search will appear."
+ },
+ {
+  "start": 417.38,
+  "end": 421.5,
+  "text": "Now, we will look for the second step."
+ },
+ {
+  "start": 421.5,
+  "end": 426.22,
+  "text": "Here, we need to search the text Trisentis Tosca in Google."
+ },
+ {
+  "start": 426.22,
+  "end": 431.34,
+  "text": "We will now add our first custom module."
+ },
+ {
+  "start": 431.34,
+  "end": 435.88,
+  "text": "The custom module Google search screen will be used to create test step to perform"
+ },
+ {
+  "start": 435.88,
+  "end": 441.02,
+  "text": "Google search."
+ },
+ {
+  "start": 441.02,
+  "end": 446.52,
+  "text": "Name the test step accordingly."
+ },
+ {
+  "start": 446.52,
+  "end": 456.04,
+  "text": "Here we will use the WaitOn as action mode for the control Google icon to handle synchronization."
+ },
+ {
+  "start": 456.04,
+  "end": 462.37,
+  "text": "We will check the Exist property as true for Wytton."
+ },
+ {
+  "start": 462.37,
+  "end": 469.75,
+  "text": "Set the string value as Trisentis Tosca for the field QSearchText with action mode input."
+ },
+ {
+  "start": 469.75,
+  "end": 476.94,
+  "text": "This step will enter the search text in Google search field."
+ },
+ {
+  "start": 476.94,
+  "end": 481.94,
+  "text": "Now click operation has to be added as value for the control Google search button."
+ },
+ {
+  "start": 481.94,
+  "end": 485.24,
+  "text": "Then the action mode should be input."
+ },
+ {
+  "start": 485.24,
+  "end": 490.7,
+  "text": "This step will perform the click operation."
+ },
+ {
+  "start": 490.7,
+  "end": 493.94,
+  "text": "The second test step is completed."
+ },
+ {
+  "start": 493.94,
+  "end": 498.74,
+  "text": "It will enter the search text into Google and click on the search button."
+ },
+ {
+  "start": 498.74,
+  "end": 503.14,
+  "text": "The next step is to click on the first result option to open the Trisentis official"
+ },
+ {
+  "start": 503.14,
+  "end": 504.98,
+  "text": "portal."
+ },
+ {
+  "start": 504.98,
+  "end": 509.84,
+  "text": "Sometime Google search is not first enough due to the network condition."
+ },
+ {
+  "start": 509.84,
+  "end": 513.06,
+  "text": "So it's a good practice to add a pause here."
+ },
+ {
+  "start": 513.06,
+  "end": 522.24,
+  "text": "For this purpose, we will add the standard module Wait to perform the pause."
+ },
+ {
+  "start": 522.24,
+  "end": 534.79,
+  "text": "We will configure the wait time as 5 seconds by entering value as 5000 as it allows milliseconds."
+ },
+ {
+  "start": 534.79,
+  "end": 539.39,
+  "text": "Now we will add another custom module to perform the click operation on the first"
+ },
+ {
+  "start": 539.39,
+  "end": 546.64,
+  "text": "search result screen."
+ },
+ {
+  "start": 546.64,
+  "end": 554.89,
+  "text": "Rename the step as per the activity."
+ },
+ {
+  "start": 554.89,
+  "end": 562.59,
+  "text": "Then add the click operation to the link control."
+ },
+ {
+  "start": 562.59,
+  "end": 567.07,
+  "text": "This operation will click on this link from Google search result."
+ },
+ {
+  "start": 567.19,
+  "end": 575.39,
+  "text": "Here we need to add the final verification step to validate the Trisentis official portal."
+ },
+ {
+  "start": 575.39,
+  "end": 579.95,
+  "text": "We will now drag another custom module into this test case."
+ },
+ {
+  "start": 579.95,
+  "end": 587.16,
+  "text": "This module will be used to verify the logo of official Trisentis portal."
+ },
+ {
+  "start": 587.16,
+  "end": 593.11,
+  "text": "Rename this step to verify Tosca official portal."
+ },
+ {
+  "start": 593.11,
+  "end": 600.69,
+  "text": "Here we need to select the action mode as verify to perform the verification operation."
+ },
+ {
+  "start": 600.69,
+  "end": 607.55,
+  "text": "The verification will be done based on the exist property value as true."
+ },
+ {
+  "start": 607.55,
+  "end": 610.15,
+  "text": "See all the steps are created."
+ },
+ {
+  "start": 610.15,
+  "end": 612.97,
+  "text": "Now we need to close the browser."
+ },
+ {
+  "start": 612.97,
+  "end": 622.34,
+  "text": "To perform close operation, we will use the standard module close browser."
+ },
+ {
+  "start": 622.34,
+  "end": 631.59,
+  "text": "The title of close browser standard modules refer the title of the web browser to be closed."
+ },
+ {
+  "start": 631.59,
+  "end": 639.29,
+  "text": "We will use the string as Trisentis Tosca asterisk as the title of the test browser."
+ },
+ {
+  "start": 639.29,
+  "end": 644.37,
+  "text": "Here asterisk denotes any string after the keyword Trisentis Tosca."
+ },
+ {
+  "start": 644.37,
+  "end": 647.07,
+  "text": "The test case is ready now."
+ },
+ {
+  "start": 647.07,
+  "end": 651.29,
+  "text": "By default, Tosca works with the Internet Explorer."
+ },
+ {
+  "start": 651.29,
+  "end": 653.93,
+  "text": "But we are working with Chrome browser here."
+ },
+ {
+  "start": 653.93,
+  "end": 661.41,
+  "text": "So, we will add one test configuration parameter as browser."
+ },
+ {
+  "start": 661.41,
+  "end": 670.84,
+  "text": "The value for this parameter should be selected as Chrome."
+ },
+ {
+  "start": 670.84,
+  "end": 675.54,
+  "text": "The test case is now completely developed and ready to execute."
+ },
+ {
+  "start": 675.54,
+  "end": 680.2,
+  "text": "We will understand the process for test execution in next video."
+ },
+ {
+  "start": 680.4,
+  "end": 689.34,
+  "text": "Also, we will discuss on usage of libraries and parameterization in upcoming videos."
+ },
+ {
+  "start": 689.34,
+  "end": 692.58,
+  "text": "Thanks for watching this video."
+ },
+ {
+  "start": 692.58,
+  "end": 696.74,
+  "text": "That's all about Tosca test case creation."
+ },
+ {
+  "start": 696.74,
+  "end": 702.54,
+  "text": "We will learn more about Tosca data parameterization in next Tosca tutorial."
+ },
+ {
+  "start": 702.54,
+  "end": 708.38,
+  "text": "Please visit our website lambdageeks.com for more articles on technology, engineering,"
+ },
+ {
+  "start": 708.38,
+  "end": 711.54,
+  "text": "mathematics and various other domain."
+ },
+ {
+  "start": 711.54,
+  "end": 715.58,
+  "text": "You can check our other website as well."
+ },
+ {
+  "start": 715.58,
+  "end": 724.5,
+  "text": "We have features like YouTube Trends, Twitter Trends, Scientific Calculator and many more"
+ },
+ {
+  "start": 724.5,
+  "end": 728.58,
+  "text": "other tools."
+ },
+ {
+  "start": 728.58,
+  "end": 732.62,
+  "text": "If you like our video, please like, comment and share."
+ },
+ {
+  "start": 732.62,
+  "end": 736.5,
+  "text": "If you have any questions, please comment and we will resolve your query."
+ }
+]

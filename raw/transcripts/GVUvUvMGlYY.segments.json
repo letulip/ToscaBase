@@ -1,0 +1,1437 @@
+[
+ {
+  "start": 8.21,
+  "end": 8.22,
+  "text": "everyone welcome back to this Tosca"
+ },
+ {
+  "start": 8.22,
+  "end": 10.79,
+  "text": "automation playlist and today we are"
+ },
+ {
+  "start": 10.8,
+  "end": 13.19,
+  "text": "going to solve an interesting automation"
+ },
+ {
+  "start": 13.2,
+  "end": 15.47,
+  "text": "challenge which I am going to give you"
+ },
+ {
+  "start": 15.48,
+  "end": 17.63,
+  "text": "and also I'm going to show you the"
+ },
+ {
+  "start": 17.64,
+  "end": 19.849,
+  "text": "solution on how you can solve this"
+ },
+ {
+  "start": 19.859,
+  "end": 22.609,
+  "text": "particular problem using the string"
+ },
+ {
+  "start": 22.619,
+  "end": 25.849,
+  "text": "operations which are available in Tosca"
+ },
+ {
+  "start": 25.859,
+  "end": 28.429,
+  "text": "so we are going to look at two string"
+ },
+ {
+  "start": 28.439,
+  "end": 31.91,
+  "text": "operations one is the trim function and"
+ },
+ {
+  "start": 31.92,
+  "end": 35.33,
+  "text": "the other is the string replace right so"
+ },
+ {
+  "start": 35.34,
+  "end": 38.45,
+  "text": "using this two string operations so"
+ },
+ {
+  "start": 38.46,
+  "end": 41.33,
+  "text": "using these two string operations we are"
+ },
+ {
+  "start": 41.34,
+  "end": 43.27,
+  "text": "going to solve an automation problem"
+ },
+ {
+  "start": 43.28,
+  "end": 46.069,
+  "text": "which you might face while automating"
+ },
+ {
+  "start": 46.079,
+  "end": 47.99,
+  "text": "any web application"
+ },
+ {
+  "start": 48.0,
+  "end": 52.43,
+  "text": "so let's look at the challenge first"
+ },
+ {
+  "start": 52.44,
+  "end": 56.389,
+  "text": "so I'm on this demo webshop site right"
+ },
+ {
+  "start": 56.399,
+  "end": 60.47,
+  "text": "where we can add different products into"
+ },
+ {
+  "start": 60.48,
+  "end": 64.31,
+  "text": "the cart and we can do a checkout right"
+ },
+ {
+  "start": 64.32,
+  "end": 66.89,
+  "text": "so let me show you the scenario which we"
+ },
+ {
+  "start": 66.9,
+  "end": 70.25,
+  "text": "are going to look at right so I'm going"
+ },
+ {
+  "start": 70.26,
+  "end": 73.07,
+  "text": "to add any product into the cart let's"
+ },
+ {
+  "start": 73.08,
+  "end": 75.649,
+  "text": "say this notebook so I click on add to"
+ },
+ {
+  "start": 75.659,
+  "end": 76.55,
+  "text": "cart"
+ },
+ {
+  "start": 76.56,
+  "end": 79.09,
+  "text": "and then I go to shopping cart"
+ },
+ {
+  "start": 79.1,
+  "end": 85.73,
+  "text": "I do I perform the checkout here"
+ },
+ {
+  "start": 87.83,
+  "end": 87.84,
+  "text": "and then I go through all of these"
+ },
+ {
+  "start": 87.84,
+  "end": 91.55,
+  "text": "checkout screens"
+ },
+ {
+  "start": 93.95,
+  "end": 93.96,
+  "text": "okay so performing all of these steps is"
+ },
+ {
+  "start": 93.96,
+  "end": 96.05,
+  "text": "not difficult you can scan all these"
+ },
+ {
+  "start": 96.06,
+  "end": 99.35,
+  "text": "elements and then you can go ahead uh"
+ },
+ {
+  "start": 99.36,
+  "end": 101.69,
+  "text": "doing performing all these steps on the"
+ },
+ {
+  "start": 101.7,
+  "end": 105.35,
+  "text": "demo website okay but what I want you to"
+ },
+ {
+  "start": 105.36,
+  "end": 110.45,
+  "text": "do is I want you to find out or I want"
+ },
+ {
+  "start": 110.46,
+  "end": 113.63,
+  "text": "you to store this order number in a"
+ },
+ {
+  "start": 113.64,
+  "end": 116.51,
+  "text": "buffer value so that it can be used for"
+ },
+ {
+  "start": 116.52,
+  "end": 119.749,
+  "text": "verification purpose okay so every time"
+ },
+ {
+  "start": 119.759,
+  "end": 122.149,
+  "text": "I place an order I want to store this"
+ },
+ {
+  "start": 122.159,
+  "end": 125.209,
+  "text": "order number and the challenge is to"
+ },
+ {
+  "start": 125.219,
+  "end": 127.969,
+  "text": "extract this order number and store it"
+ },
+ {
+  "start": 127.979,
+  "end": 130.609,
+  "text": "in a buffer so that it can be used for"
+ },
+ {
+  "start": 130.619,
+  "end": 133.07,
+  "text": "verification okay"
+ },
+ {
+  "start": 133.08,
+  "end": 135.91,
+  "text": "so this is the challenge if you want to"
+ },
+ {
+  "start": 135.92,
+  "end": 139.01,
+  "text": "resolve this problem on your own then"
+ },
+ {
+  "start": 139.02,
+  "end": 142.309,
+  "text": "pause the video and go ahead and work"
+ },
+ {
+  "start": 142.319,
+  "end": 145.61,
+  "text": "out this Solution on Tosca and then come"
+ },
+ {
+  "start": 145.62,
+  "end": 147.89,
+  "text": "back to the video and watch out what is"
+ },
+ {
+  "start": 147.9,
+  "end": 151.07,
+  "text": "the solution which I proposed okay so"
+ },
+ {
+  "start": 151.08,
+  "end": 153.17,
+  "text": "now we understood what is the problem"
+ },
+ {
+  "start": 153.18,
+  "end": 155.809,
+  "text": "but let's see what is the solution for"
+ },
+ {
+  "start": 155.819,
+  "end": 158.03,
+  "text": "this okay so there are basically two"
+ },
+ {
+  "start": 158.04,
+  "end": 161.99,
+  "text": "steps first we need to uh"
+ },
+ {
+  "start": 162.0,
+  "end": 164.509,
+  "text": "first we need to extract this particular"
+ },
+ {
+  "start": 164.519,
+  "end": 167.75,
+  "text": "value or this order number from here and"
+ },
+ {
+  "start": 167.76,
+  "end": 169.85,
+  "text": "then we need to store it as a buffer"
+ },
+ {
+  "start": 169.86,
+  "end": 171.229,
+  "text": "okay"
+ },
+ {
+  "start": 171.239,
+  "end": 174.35,
+  "text": "so for this I have already prepared a"
+ },
+ {
+  "start": 174.36,
+  "end": 176.93,
+  "text": "module okay so basically I've scanned"
+ },
+ {
+  "start": 176.94,
+  "end": 178.729,
+  "text": "the elements which are present on this"
+ },
+ {
+  "start": 178.739,
+  "end": 181.49,
+  "text": "page and this is the module which I have"
+ },
+ {
+  "start": 181.5,
+  "end": 186.17,
+  "text": "created okay so you can see here that I"
+ },
+ {
+  "start": 186.18,
+  "end": 188.57,
+  "text": "have got one for Success message for"
+ },
+ {
+  "start": 188.58,
+  "end": 191.33,
+  "text": "order number okay and if you look at the"
+ },
+ {
+  "start": 191.34,
+  "end": 193.43,
+  "text": "properties uh one important thing which"
+ },
+ {
+  "start": 193.44,
+  "end": 196.07,
+  "text": "I have done here is I am not capturing"
+ },
+ {
+  "start": 196.08,
+  "end": 198.77,
+  "text": "the complete text because the order"
+ },
+ {
+  "start": 198.78,
+  "end": 201.53,
+  "text": "number is dynamic right so this order"
+ },
+ {
+  "start": 201.54,
+  "end": 203.93,
+  "text": "number will be changing whenever we"
+ },
+ {
+  "start": 203.94,
+  "end": 206.869,
+  "text": "place a new order and that's why I have"
+ },
+ {
+  "start": 206.879,
+  "end": 209.69,
+  "text": "used regular expression here okay in the"
+ },
+ {
+  "start": 209.7,
+  "end": 212.27,
+  "text": "visible in a text so order number and"
+ },
+ {
+  "start": 212.28,
+  "end": 215.21,
+  "text": "followed by asterisk which will be uh"
+ },
+ {
+  "start": 215.22,
+  "end": 216.949,
+  "text": "which will work for any order number"
+ },
+ {
+  "start": 216.959,
+  "end": 219.229,
+  "text": "okay so whatever text is after the order"
+ },
+ {
+  "start": 219.239,
+  "end": 221.57,
+  "text": "number that doesn't matter because of"
+ },
+ {
+  "start": 221.58,
+  "end": 223.55,
+  "text": "this regular expression on my inner text"
+ },
+ {
+  "start": 223.56,
+  "end": 226.369,
+  "text": "so it will be able to identify this"
+ },
+ {
+  "start": 226.379,
+  "end": 229.25,
+  "text": "particular element uh be it for any"
+ },
+ {
+  "start": 229.26,
+  "end": 231.17,
+  "text": "order number okay so that's the only"
+ },
+ {
+  "start": 231.18,
+  "end": 234.11,
+  "text": "important thing while you are scanning"
+ },
+ {
+  "start": 234.12,
+  "end": 235.91,
+  "text": "your module you should take care of okay"
+ },
+ {
+  "start": 235.92,
+  "end": 238.369,
+  "text": "rest of the things this is a link this"
+ },
+ {
+  "start": 238.379,
+  "end": 240.89,
+  "text": "is a button okay so this will be scanned"
+ },
+ {
+  "start": 240.9,
+  "end": 243.89,
+  "text": "easily by Tosca and able to identify"
+ },
+ {
+  "start": 243.9,
+  "end": 246.05,
+  "text": "uniquely as well you just need to take"
+ },
+ {
+  "start": 246.06,
+  "end": 249.11,
+  "text": "care of this order number text which is"
+ },
+ {
+  "start": 249.12,
+  "end": 252.949,
+  "text": "a tag Li element okay"
+ },
+ {
+  "start": 252.959,
+  "end": 255.649,
+  "text": "so once you do that I have created"
+ },
+ {
+  "start": 255.659,
+  "end": 258.349,
+  "text": "already a test case here okay find order"
+ },
+ {
+  "start": 258.359,
+  "end": 261.59,
+  "text": "number and what I'm going to do here is"
+ },
+ {
+  "start": 261.6,
+  "end": 264.35,
+  "text": "I'm going to drag this module here okay"
+ },
+ {
+  "start": 264.36,
+  "end": 268.61,
+  "text": "and first I'm going to buffer the order"
+ },
+ {
+  "start": 268.62,
+  "end": 270.29,
+  "text": "number okay"
+ },
+ {
+  "start": 270.3,
+  "end": 275.09,
+  "text": "now although I cannot extract the order"
+ },
+ {
+  "start": 275.1,
+  "end": 277.43,
+  "text": "number directly here I will show you why"
+ },
+ {
+  "start": 277.44,
+  "end": 281.03,
+  "text": "okay so here we need to buffer the order"
+ },
+ {
+  "start": 281.04,
+  "end": 284.39,
+  "text": "number so this is the element which gets"
+ },
+ {
+  "start": 284.4,
+  "end": 286.61,
+  "text": "the order number for us okay"
+ },
+ {
+  "start": 286.62,
+  "end": 290.27,
+  "text": "but the problem is it contains the text"
+ },
+ {
+  "start": 290.28,
+  "end": 294.23,
+  "text": "as order number and then which is the"
+ },
+ {
+  "start": 294.24,
+  "end": 297.11,
+  "text": "text and then the number okay so you"
+ },
+ {
+  "start": 297.12,
+  "end": 299.81,
+  "text": "will not get the number directly"
+ },
+ {
+  "start": 299.82,
+  "end": 301.55,
+  "text": "um you cannot buffer the number directly"
+ },
+ {
+  "start": 301.56,
+  "end": 304.43,
+  "text": "because everything is in one single"
+ },
+ {
+  "start": 304.44,
+  "end": 308.09,
+  "text": "element okay so we have to somehow break"
+ },
+ {
+  "start": 308.1,
+  "end": 311.09,
+  "text": "this and get only the number from this"
+ },
+ {
+  "start": 311.1,
+  "end": 313.55,
+  "text": "particular text okay"
+ },
+ {
+  "start": 313.56,
+  "end": 316.79,
+  "text": "so first let's get the whole text and"
+ },
+ {
+  "start": 316.8,
+  "end": 318.17,
+  "text": "then we will see how we can break it"
+ },
+ {
+  "start": 318.18,
+  "end": 321.11,
+  "text": "down and just get the number okay"
+ },
+ {
+  "start": 321.12,
+  "end": 324.469,
+  "text": "so here uh what I'm going to do is I'm"
+ },
+ {
+  "start": 324.479,
+  "end": 326.51,
+  "text": "going to change the action mode to"
+ },
+ {
+  "start": 326.52,
+  "end": 328.189,
+  "text": "buffer because I want to buffer this"
+ },
+ {
+  "start": 328.199,
+  "end": 329.45,
+  "text": "okay"
+ },
+ {
+  "start": 329.46,
+  "end": 332.99,
+  "text": "and then um what I'm going to do is I'm"
+ },
+ {
+  "start": 333.0,
+  "end": 334.49,
+  "text": "going to say"
+ },
+ {
+  "start": 334.5,
+  "end": 337.93,
+  "text": "uh buffer the inner text okay"
+ },
+ {
+  "start": 337.94,
+  "end": 340.55,
+  "text": "and to the value"
+ },
+ {
+  "start": 340.56,
+  "end": 344.629,
+  "text": "so that will be B underscore order"
+ },
+ {
+  "start": 344.639,
+  "end": 349.249,
+  "text": "okay so it will buffer the value of this"
+ },
+ {
+  "start": 349.259,
+  "end": 352.37,
+  "text": "particular element into the buffer B"
+ },
+ {
+  "start": 352.38,
+  "end": 355.01,
+  "text": "underscore order right so that will"
+ },
+ {
+  "start": 355.02,
+  "end": 356.629,
+  "text": "buffer the value"
+ },
+ {
+  "start": 356.639,
+  "end": 360.11,
+  "text": "and let's go ahead and check this first"
+ },
+ {
+  "start": 360.12,
+  "end": 365.81,
+  "text": "okay let's see what it is buffering"
+ },
+ {
+  "start": 367.909,
+  "end": 367.919,
+  "text": "okay you can see uh the step was"
+ },
+ {
+  "start": 367.919,
+  "end": 371.689,
+  "text": "successful and the buffer with name B"
+ },
+ {
+  "start": 371.699,
+  "end": 374.029,
+  "text": "underscore order has been set to value"
+ },
+ {
+  "start": 374.039,
+  "end": 376.189,
+  "text": "now you can see here there are two"
+ },
+ {
+  "start": 376.199,
+  "end": 379.01,
+  "text": "problems one uh it has got the whole"
+ },
+ {
+  "start": 379.02,
+  "end": 381.189,
+  "text": "text which is order number and then"
+ },
+ {
+  "start": 381.199,
+  "end": 383.749,
+  "text": "cologne and then the order number right"
+ },
+ {
+  "start": 383.759,
+  "end": 387.59,
+  "text": "the actual number which we want for our"
+ },
+ {
+  "start": 387.6,
+  "end": 390.29,
+  "text": "purpose or which we want"
+ },
+ {
+  "start": 390.3,
+  "end": 392.57,
+  "text": "um to store as a buffer for our"
+ },
+ {
+  "start": 392.58,
+  "end": 394.909,
+  "text": "verification purpose right the other"
+ },
+ {
+  "start": 394.919,
+  "end": 397.55,
+  "text": "problem is you can see there is lot of"
+ },
+ {
+  "start": 397.56,
+  "end": 401.21,
+  "text": "white space before and after uh this"
+ },
+ {
+  "start": 401.22,
+  "end": 405.95,
+  "text": "text okay so we also need to get rid of"
+ },
+ {
+  "start": 405.96,
+  "end": 409.129,
+  "text": "this white space okay and we also need"
+ },
+ {
+  "start": 409.139,
+  "end": 411.71,
+  "text": "to extract this number from this"
+ },
+ {
+  "start": 411.72,
+  "end": 414.95,
+  "text": "particular buffer okay so these are the"
+ },
+ {
+  "start": 414.96,
+  "end": 417.23,
+  "text": "two problems which can be resolved using"
+ },
+ {
+  "start": 417.24,
+  "end": 419.87,
+  "text": "the string operations okay so like in"
+ },
+ {
+  "start": 419.88,
+  "end": 422.93,
+  "text": "any other language like java.net you do"
+ },
+ {
+  "start": 422.94,
+  "end": 425.57,
+  "text": "have string Methods or functions right"
+ },
+ {
+  "start": 425.58,
+  "end": 428.39,
+  "text": "similarly Tosca has its own string"
+ },
+ {
+  "start": 428.4,
+  "end": 430.01,
+  "text": "operations there are number of"
+ },
+ {
+  "start": 430.02,
+  "end": 432.17,
+  "text": "operations uh but I'm going to talk"
+ },
+ {
+  "start": 432.18,
+  "end": 435.95,
+  "text": "about two basically uh and these two are"
+ },
+ {
+  "start": 435.96,
+  "end": 438.65,
+  "text": "one is the trim function or stream"
+ },
+ {
+  "start": 438.66,
+  "end": 441.589,
+  "text": "operation okay which basically removes"
+ },
+ {
+  "start": 441.599,
+  "end": 444.89,
+  "text": "the white spaces from the start or end"
+ },
+ {
+  "start": 444.9,
+  "end": 448.189,
+  "text": "of the string right just what we need so"
+ },
+ {
+  "start": 448.199,
+  "end": 450.83,
+  "text": "we want to trim the white space which is"
+ },
+ {
+  "start": 450.84,
+  "end": 453.11,
+  "text": "just before the text and after the text"
+ },
+ {
+  "start": 453.12,
+  "end": 457.01,
+  "text": "right and then uh there is string"
+ },
+ {
+  "start": 457.02,
+  "end": 460.249,
+  "text": "replace operation so this will basically"
+ },
+ {
+  "start": 460.259,
+  "end": 463.249,
+  "text": "replace all occurrences of any"
+ },
+ {
+  "start": 463.259,
+  "end": 465.409,
+  "text": "particular input which we are providing"
+ },
+ {
+  "start": 465.419,
+  "end": 468.77,
+  "text": "or pattern right with a new value okay"
+ },
+ {
+  "start": 468.78,
+  "end": 473.029,
+  "text": "so what is my idea is I want to replace"
+ },
+ {
+  "start": 473.039,
+  "end": 477.05,
+  "text": "this order number text okay with a white"
+ },
+ {
+  "start": 477.06,
+  "end": 478.67,
+  "text": "space"
+ },
+ {
+  "start": 478.68,
+  "end": 481.07,
+  "text": "okay so that's what I want to do"
+ },
+ {
+  "start": 481.08,
+  "end": 483.35,
+  "text": "so I will replace this with a white"
+ },
+ {
+  "start": 483.36,
+  "end": 486.05,
+  "text": "space and then I will trim all the white"
+ },
+ {
+  "start": 486.06,
+  "end": 489.35,
+  "text": "spaces so that I just get the number"
+ },
+ {
+  "start": 489.36,
+  "end": 491.87,
+  "text": "here okay which is one four three one"
+ },
+ {
+  "start": 491.88,
+  "end": 493.73,
+  "text": "nine one eight and then I'm going to"
+ },
+ {
+  "start": 493.74,
+  "end": 496.43,
+  "text": "store it in a buffer which then can be"
+ },
+ {
+  "start": 496.44,
+  "end": 499.43,
+  "text": "used anywhere in my test okay"
+ },
+ {
+  "start": 499.44,
+  "end": 502.01,
+  "text": "so that's the solution for this problem"
+ },
+ {
+  "start": 502.02,
+  "end": 504.409,
+  "text": "and that's what we want to implement"
+ },
+ {
+  "start": 504.419,
+  "end": 505.55,
+  "text": "right"
+ },
+ {
+  "start": 505.56,
+  "end": 508.309,
+  "text": "so now let me show you how this can be"
+ },
+ {
+  "start": 508.319,
+  "end": 512.029,
+  "text": "done okay so for this I am going to use"
+ },
+ {
+  "start": 512.039,
+  "end": 516.35,
+  "text": "the key box set buffer"
+ },
+ {
+  "start": 520.79,
+  "end": 520.8,
+  "text": "okay and here uh we are going to give a"
+ },
+ {
+  "start": 520.8,
+  "end": 523.61,
+  "text": "buffer uh called B underscore order"
+ },
+ {
+  "start": 523.62,
+  "end": 524.69,
+  "text": "number"
+ },
+ {
+  "start": 524.7,
+  "end": 525.829,
+  "text": "okay"
+ },
+ {
+  "start": 525.839,
+  "end": 528.769,
+  "text": "so this is our new uh buffer which will"
+ },
+ {
+  "start": 528.779,
+  "end": 531.11,
+  "text": "store the actual order number okay and"
+ },
+ {
+  "start": 531.12,
+  "end": 533.389,
+  "text": "we are going to extract it uh in our"
+ },
+ {
+  "start": 533.399,
+  "end": 535.43,
+  "text": "value right"
+ },
+ {
+  "start": 535.44,
+  "end": 538.13,
+  "text": "so how are we going to do this we have"
+ },
+ {
+  "start": 538.14,
+  "end": 541.19,
+  "text": "to use two string operations as I said"
+ },
+ {
+  "start": 541.2,
+  "end": 542.87,
+  "text": "right"
+ },
+ {
+  "start": 542.88,
+  "end": 545.87,
+  "text": "so here let me first enter the"
+ },
+ {
+  "start": 545.88,
+  "end": 547.73,
+  "text": "expression which we'll be using and then"
+ },
+ {
+  "start": 547.74,
+  "end": 550.19,
+  "text": "let me explain you how I have formed"
+ },
+ {
+  "start": 550.2,
+  "end": 552.889,
+  "text": "this expression right now I'm not typing"
+ },
+ {
+  "start": 552.899,
+  "end": 555.35,
+  "text": "this expression because I am not good at"
+ },
+ {
+  "start": 555.36,
+  "end": 558.41,
+  "text": "maintaining all this uh curly braces and"
+ },
+ {
+  "start": 558.42,
+  "end": 561.71,
+  "text": "brackets if you make a mistake then this"
+ },
+ {
+  "start": 561.72,
+  "end": 564.05,
+  "text": "expression will be invalid right so you"
+ },
+ {
+  "start": 564.06,
+  "end": 566.15,
+  "text": "have to take special care um while"
+ },
+ {
+  "start": 566.16,
+  "end": 569.03,
+  "text": "forming this expression I'm going to"
+ },
+ {
+  "start": 569.04,
+  "end": 571.55,
+  "text": "paste this expression in the description"
+ },
+ {
+  "start": 571.56,
+  "end": 574.009,
+  "text": "so you can take it from there if you"
+ },
+ {
+  "start": 574.019,
+  "end": 577.31,
+  "text": "want okay so let me explain you how I"
+ },
+ {
+  "start": 577.32,
+  "end": 579.769,
+  "text": "have formed this expression so first I"
+ },
+ {
+  "start": 579.779,
+  "end": 583.25,
+  "text": "am using the trim operation okay"
+ },
+ {
+  "start": 583.26,
+  "end": 586.31,
+  "text": "and inside that I am then using the"
+ },
+ {
+  "start": 586.32,
+  "end": 589.37,
+  "text": "string replace operation okay so these"
+ },
+ {
+  "start": 589.38,
+  "end": 591.829,
+  "text": "are the two operation you can see here"
+ },
+ {
+  "start": 591.839,
+  "end": 594.97,
+  "text": "and inside the string replace operation"
+ },
+ {
+  "start": 594.98,
+  "end": 598.43,
+  "text": "then we need to pass the actual string"
+ },
+ {
+  "start": 598.44,
+  "end": 601.43,
+  "text": "right where we want to replace so that"
+ },
+ {
+  "start": 601.44,
+  "end": 604.31,
+  "text": "is B underscore order our buffer which"
+ },
+ {
+  "start": 604.32,
+  "end": 607.25,
+  "text": "contains the string right uh so that's"
+ },
+ {
+  "start": 607.26,
+  "end": 609.05,
+  "text": "that's the buffer it will get the value"
+ },
+ {
+  "start": 609.06,
+  "end": 612.41,
+  "text": "here and then we want to replace this"
+ },
+ {
+  "start": 612.42,
+  "end": 614.57,
+  "text": "particular text right which is the order"
+ },
+ {
+  "start": 614.58,
+  "end": 617.81,
+  "text": "number followed by colon okay so we want"
+ },
+ {
+  "start": 617.82,
+  "end": 619.85,
+  "text": "to replace the string with a white space"
+ },
+ {
+  "start": 619.86,
+  "end": 622.49,
+  "text": "and that's why I given two brackets two"
+ },
+ {
+  "start": 622.5,
+  "end": 625.37,
+  "text": "square brackets okay and then I am using"
+ },
+ {
+  "start": 625.38,
+  "end": 628.97,
+  "text": "the ignore case uh parameter okay so"
+ },
+ {
+  "start": 628.98,
+  "end": 631.49,
+  "text": "this ignore case is basically to ignore"
+ },
+ {
+  "start": 631.5,
+  "end": 634.37,
+  "text": "uh any upper case or lowercase okay so"
+ },
+ {
+  "start": 634.38,
+  "end": 636.71,
+  "text": "no matter if I have typed it in lower"
+ },
+ {
+  "start": 636.72,
+  "end": 638.389,
+  "text": "case and in the application it is"
+ },
+ {
+  "start": 638.399,
+  "end": 640.97,
+  "text": "uppercase right this will take care of"
+ },
+ {
+  "start": 640.98,
+  "end": 643.91,
+  "text": "that okay so it's good to have but it's"
+ },
+ {
+  "start": 643.92,
+  "end": 646.97,
+  "text": "not compulsory the most important uh"
+ },
+ {
+  "start": 646.98,
+  "end": 649.67,
+  "text": "parts are these two parts where you have"
+ },
+ {
+  "start": 649.68,
+  "end": 653.269,
+  "text": "to provide the actual text okay followed"
+ },
+ {
+  "start": 653.279,
+  "end": 656.03,
+  "text": "by what you want to replace by what you"
+ },
+ {
+  "start": 656.04,
+  "end": 658.91,
+  "text": "want to replace okay"
+ },
+ {
+  "start": 658.92,
+  "end": 662.449,
+  "text": "so uh if your expression is correct you"
+ },
+ {
+  "start": 662.459,
+  "end": 664.97,
+  "text": "will see uh it is highlighted in this"
+ },
+ {
+  "start": 664.98,
+  "end": 667.97,
+  "text": "way in Tosca okay if it is not if it"
+ },
+ {
+  "start": 667.98,
+  "end": 670.49,
+  "text": "just displays as normal text then"
+ },
+ {
+  "start": 670.5,
+  "end": 672.05,
+  "text": "something is wrong with your expression"
+ },
+ {
+  "start": 672.06,
+  "end": 674.389,
+  "text": "okay"
+ },
+ {
+  "start": 674.399,
+  "end": 675.889,
+  "text": "so now"
+ },
+ {
+  "start": 675.899,
+  "end": 678.53,
+  "text": "um if I go ahead and run this we are"
+ },
+ {
+  "start": 678.54,
+  "end": 680.99,
+  "text": "going to get the order number as the"
+ },
+ {
+  "start": 681.0,
+  "end": 683.63,
+  "text": "actual number okay and it will be stored"
+ },
+ {
+  "start": 683.64,
+  "end": 685.97,
+  "text": "inside the buffer B underscore order"
+ },
+ {
+  "start": 685.98,
+  "end": 689.09,
+  "text": "number so let's go ahead and see this by"
+ },
+ {
+  "start": 689.1,
+  "end": 694.43,
+  "text": "running this"
+ },
+ {
+  "start": 697.13,
+  "end": 697.14,
+  "text": "okay and you can see the step was run"
+ },
+ {
+  "start": 697.14,
+  "end": 700.19,
+  "text": "successfully in the log info uh I will"
+ },
+ {
+  "start": 700.2,
+  "end": 702.11,
+  "text": "see buffer with name B underscore order"
+ },
+ {
+  "start": 702.12,
+  "end": 706.21,
+  "text": "number and it has been set to Value"
+ },
+ {
+  "start": 706.22,
+  "end": 709.31,
+  "text": "1431918 okay and this is the order"
+ },
+ {
+  "start": 709.32,
+  "end": 711.769,
+  "text": "number which was generated by the"
+ },
+ {
+  "start": 711.779,
+  "end": 715.009,
+  "text": "application and now this I have in a"
+ },
+ {
+  "start": 715.019,
+  "end": 717.53,
+  "text": "variable right so this is stored in a"
+ },
+ {
+  "start": 717.54,
+  "end": 720.35,
+  "text": "buffer variable which I can call anytime"
+ },
+ {
+  "start": 720.36,
+  "end": 724.25,
+  "text": "uh in any of my test case just to either"
+ },
+ {
+  "start": 724.26,
+  "end": 726.29,
+  "text": "verify the order number or do anything"
+ },
+ {
+  "start": 726.3,
+  "end": 728.15,
+  "text": "any modifications on the order number"
+ },
+ {
+  "start": 728.16,
+  "end": 730.25,
+  "text": "right so it can be used for many"
+ },
+ {
+  "start": 730.26,
+  "end": 732.949,
+  "text": "different purposes so this is a very"
+ },
+ {
+  "start": 732.959,
+  "end": 735.23,
+  "text": "common scenario if you are working on"
+ },
+ {
+  "start": 735.24,
+  "end": 737.87,
+  "text": "e-commerce web application right"
+ },
+ {
+  "start": 737.88,
+  "end": 740.389,
+  "text": "so if you are placing an order on the"
+ },
+ {
+  "start": 740.399,
+  "end": 742.61,
+  "text": "website you would want to know what was"
+ },
+ {
+  "start": 742.62,
+  "end": 744.53,
+  "text": "the order number because it will be"
+ },
+ {
+  "start": 744.54,
+  "end": 746.509,
+  "text": "dynamically generated by the application"
+ },
+ {
+  "start": 746.519,
+  "end": 749.329,
+  "text": "and you need to capture it and store it"
+ },
+ {
+  "start": 749.339,
+  "end": 752.329,
+  "text": "somewhere if you want to uh go further"
+ },
+ {
+  "start": 752.339,
+  "end": 755.15,
+  "text": "in your automation because uh that"
+ },
+ {
+  "start": 755.16,
+  "end": 757.069,
+  "text": "verification of that order number is"
+ },
+ {
+  "start": 757.079,
+  "end": 758.75,
+  "text": "very important"
+ },
+ {
+  "start": 758.76,
+  "end": 761.15,
+  "text": "so this was an automation challenge"
+ },
+ {
+  "start": 761.16,
+  "end": 764.329,
+  "text": "which I thought would be useful for you"
+ },
+ {
+  "start": 764.339,
+  "end": 767.99,
+  "text": "I hope uh you enjoyed it and you learned"
+ },
+ {
+  "start": 768.0,
+  "end": 770.87,
+  "text": "something new today if you were able to"
+ },
+ {
+  "start": 770.88,
+  "end": 773.509,
+  "text": "do this in some other way then do let me"
+ },
+ {
+  "start": 773.519,
+  "end": 776.09,
+  "text": "know in the comments so that's all for"
+ },
+ {
+  "start": 776.1,
+  "end": 778.25,
+  "text": "this video do tune into our channel to"
+ },
+ {
+  "start": 778.26,
+  "end": 780.65,
+  "text": "watch more interesting videos on tracing"
+ },
+ {
+  "start": 780.66,
+  "end": 782.569,
+  "text": "testoster and many other automation"
+ },
+ {
+  "start": 782.579,
+  "end": 783.769,
+  "text": "tools"
+ },
+ {
+  "start": 783.779,
+  "end": 785.69,
+  "text": "do subscribe to our Channel if you have"
+ },
+ {
+  "start": 785.7,
+  "end": 787.67,
+  "text": "not already so that you get notified"
+ },
+ {
+  "start": 787.68,
+  "end": 791.269,
+  "text": "about every update we make uh on our"
+ },
+ {
+  "start": 791.279,
+  "end": 792.23,
+  "text": "Channel"
+ },
+ {
+  "start": 792.24,
+  "end": 794.75,
+  "text": "so until we meet again"
+ },
+ {
+  "start": 794.76,
+  "end": 797.69,
+  "text": "see you and keep learning by watching"
+ },
+ {
+  "start": 797.7,
+  "end": 800.959,
+  "text": "different videos on our Channel"
+ }
+]

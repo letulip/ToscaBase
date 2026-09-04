@@ -1,0 +1,4360 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:01.560 --> 00:00:04.610 align:start position:0%
+ 
+in<00:00:02.220><c> this</c><00:00:02.340><c> video</c><00:00:02.520><c> I'm</c><00:00:03.179><c> going</c><00:00:03.419><c> to</c><00:00:03.540><c> show</c><00:00:03.780><c> you</c><00:00:03.959><c> how</c>
+
+00:00:04.610 --> 00:00:04.620 align:start position:0%
+in this video I'm going to show you how
+ 
+
+00:00:04.620 --> 00:00:08.629 align:start position:0%
+in this video I'm going to show you how
+you<00:00:04.799><c> can</c><00:00:04.920><c> set</c><00:00:05.160><c> up</c><00:00:05.400><c> tricentis</c><00:00:06.180><c> Tosca</c><00:00:06.740><c> 16.0</c><00:00:07.740><c> and</c>
+
+00:00:08.629 --> 00:00:08.639 align:start position:0%
+you can set up tricentis Tosca 16.0 and
+ 
+
+00:00:08.639 --> 00:00:12.709 align:start position:0%
+you can set up tricentis Tosca 16.0 and
+run<00:00:08.880><c> it</c><00:00:09.059><c> on</c><00:00:09.540><c> a</c><00:00:09.840><c> AWS</c><00:00:10.500><c> ec2</c><00:00:11.219><c> Windows</c><00:00:12.179><c> Server</c>
+
+00:00:12.709 --> 00:00:12.719 align:start position:0%
+run it on a AWS ec2 Windows Server
+ 
+
+00:00:12.719 --> 00:00:13.789 align:start position:0%
+run it on a AWS ec2 Windows Server
+instance
+
+00:00:13.789 --> 00:00:13.799 align:start position:0%
+instance
+ 
+
+00:00:13.799 --> 00:00:16.369 align:start position:0%
+instance
+now<00:00:14.219><c> there</c><00:00:14.400><c> are</c><00:00:14.580><c> very</c><00:00:14.759><c> simple</c><00:00:15.059><c> steps</c><00:00:15.660><c> to</c><00:00:16.199><c> do</c>
+
+00:00:16.369 --> 00:00:16.379 align:start position:0%
+now there are very simple steps to do
+ 
+
+00:00:16.379 --> 00:00:19.370 align:start position:0%
+now there are very simple steps to do
+this<00:00:16.619><c> first</c><00:00:17.340><c> we</c><00:00:17.760><c> need</c><00:00:17.880><c> to</c><00:00:18.060><c> set</c><00:00:18.300><c> up</c><00:00:18.480><c> a</c><00:00:18.900><c> ec2</c>
+
+00:00:19.370 --> 00:00:19.380 align:start position:0%
+this first we need to set up a ec2
+ 
+
+00:00:19.380 --> 00:00:23.330 align:start position:0%
+this first we need to set up a ec2
+Windows<00:00:19.920><c> server</c><00:00:20.460><c> on</c><00:00:21.000><c> AWS</c><00:00:21.619><c> and</c><00:00:22.619><c> then</c><00:00:22.800><c> we</c><00:00:23.160><c> need</c>
+
+00:00:23.330 --> 00:00:23.340 align:start position:0%
+Windows server on AWS and then we need
+ 
+
+00:00:23.340 --> 00:00:26.570 align:start position:0%
+Windows server on AWS and then we need
+to<00:00:23.520><c> download</c><00:00:23.760><c> the</c><00:00:24.480><c> tricentis</c><00:00:25.140><c> Tosca</c><00:00:25.619><c> latest</c>
+
+00:00:26.570 --> 00:00:26.580 align:start position:0%
+to download the tricentis Tosca latest
+ 
+
+00:00:26.580 --> 00:00:29.810 align:start position:0%
+to download the tricentis Tosca latest
+version<00:00:26.939><c> and</c><00:00:27.779><c> then</c><00:00:28.019><c> install</c><00:00:28.439><c> it</c><00:00:28.800><c> on</c><00:00:29.519><c> that</c>
+
+00:00:29.810 --> 00:00:29.820 align:start position:0%
+version and then install it on that
+ 
+
+00:00:29.820 --> 00:00:31.189 align:start position:0%
+version and then install it on that
+Windows<00:00:30.300><c> server</c>
+
+00:00:31.189 --> 00:00:31.199 align:start position:0%
+Windows server
+ 
+
+00:00:31.199 --> 00:00:33.889 align:start position:0%
+Windows server
+and<00:00:31.980><c> then</c><00:00:32.220><c> simply</c><00:00:32.640><c> we</c><00:00:32.940><c> need</c><00:00:33.120><c> to</c><00:00:33.300><c> connect</c><00:00:33.480><c> to</c>
+
+00:00:33.889 --> 00:00:33.899 align:start position:0%
+and then simply we need to connect to
+ 
+
+00:00:33.899 --> 00:00:37.010 align:start position:0%
+and then simply we need to connect to
+our<00:00:34.140><c> Cloud</c><00:00:34.320><c> license</c><00:00:34.680><c> server</c><00:00:35.340><c> for</c><00:00:36.000><c> Tosca</c><00:00:36.480><c> and</c>
+
+00:00:37.010 --> 00:00:37.020 align:start position:0%
+our Cloud license server for Tosca and
+ 
+
+00:00:37.020 --> 00:00:39.410 align:start position:0%
+our Cloud license server for Tosca and
+start<00:00:37.260><c> running</c><00:00:37.559><c> Tosca</c><00:00:38.100><c> commander</c><00:00:38.640><c> on</c><00:00:39.239><c> a</c>
+
+00:00:39.410 --> 00:00:39.420 align:start position:0%
+start running Tosca commander on a
+ 
+
+00:00:39.420 --> 00:00:41.690 align:start position:0%
+start running Tosca commander on a
+Windows<00:00:39.780><c> ec2</c><00:00:40.379><c> server</c>
+
+00:00:41.690 --> 00:00:41.700 align:start position:0%
+Windows ec2 server
+ 
+
+00:00:41.700 --> 00:00:43.490 align:start position:0%
+Windows ec2 server
+so<00:00:42.059><c> let's</c><00:00:42.239><c> get</c><00:00:42.540><c> started</c>
+
+00:00:43.490 --> 00:00:43.500 align:start position:0%
+so let's get started
+ 
+
+00:00:43.500 --> 00:00:47.270 align:start position:0%
+so let's get started
+the<00:00:44.040><c> first</c><00:00:44.219><c> step</c><00:00:44.460><c> is</c><00:00:45.120><c> to</c><00:00:45.780><c> create</c><00:00:46.320><c> a</c><00:00:46.800><c> Windows</c>
+
+00:00:47.270 --> 00:00:47.280 align:start position:0%
+the first step is to create a Windows
+ 
+
+00:00:47.280 --> 00:00:51.049 align:start position:0%
+the first step is to create a Windows
+ec2<00:00:47.820><c> server</c><00:00:48.239><c> on</c><00:00:48.539><c> AWS</c><00:00:49.200><c> now</c><00:00:50.039><c> to</c><00:00:50.219><c> do</c><00:00:50.399><c> that</c><00:00:50.579><c> you</c>
+
+00:00:51.049 --> 00:00:51.059 align:start position:0%
+ec2 server on AWS now to do that you
+ 
+
+00:00:51.059 --> 00:00:54.770 align:start position:0%
+ec2 server on AWS now to do that you
+need<00:00:51.180><c> to</c><00:00:51.420><c> have</c><00:00:51.660><c> a</c><00:00:52.140><c> account</c><00:00:52.440><c> on</c><00:00:52.980><c> AWS</c><00:00:53.640><c> I</c><00:00:54.420><c> would</c><00:00:54.600><c> be</c>
+
+00:00:54.770 --> 00:00:54.780 align:start position:0%
+need to have a account on AWS I would be
+ 
+
+00:00:54.780 --> 00:00:56.869 align:start position:0%
+need to have a account on AWS I would be
+using<00:00:55.140><c> a</c><00:00:55.500><c> free</c><00:00:55.620><c> tire</c><00:00:55.920><c> account</c>
+
+00:00:56.869 --> 00:00:56.879 align:start position:0%
+using a free tire account
+ 
+
+00:00:56.879 --> 00:00:59.990 align:start position:0%
+using a free tire account
+which<00:00:57.420><c> means</c><00:00:57.780><c> I</c><00:00:58.140><c> have</c><00:00:58.260><c> got</c><00:00:58.559><c> some</c><00:00:59.460><c> limited</c>
+
+00:00:59.990 --> 00:01:00.000 align:start position:0%
+which means I have got some limited
+ 
+
+00:01:00.000 --> 00:01:03.889 align:start position:0%
+which means I have got some limited
+bandwidth<00:01:00.660><c> and</c><00:01:01.379><c> time</c><00:01:01.680><c> on</c><00:01:02.280><c> which</c><00:01:02.460><c> I</c><00:01:02.760><c> can</c><00:01:02.879><c> run</c><00:01:03.180><c> a</c>
+
+00:01:03.889 --> 00:01:03.899 align:start position:0%
+bandwidth and time on which I can run a
+ 
+
+00:01:03.899 --> 00:01:07.250 align:start position:0%
+bandwidth and time on which I can run a
+free<00:01:04.080><c> Windows</c><00:01:04.619><c> ec2</c><00:01:05.159><c> server</c><00:01:05.580><c> but</c><00:01:06.360><c> you</c><00:01:06.780><c> can</c><00:01:06.960><c> have</c>
+
+00:01:07.250 --> 00:01:07.260 align:start position:0%
+free Windows ec2 server but you can have
+ 
+
+00:01:07.260 --> 00:01:11.090 align:start position:0%
+free Windows ec2 server but you can have
+your<00:01:07.860><c> own</c><00:01:08.040><c> choice</c><00:01:08.340><c> of</c><00:01:08.760><c> servers</c><00:01:09.320><c> and</c><00:01:10.320><c> uh</c><00:01:10.740><c> your</c>
+
+00:01:11.090 --> 00:01:11.100 align:start position:0%
+your own choice of servers and uh your
+ 
+
+00:01:11.100 --> 00:01:12.770 align:start position:0%
+your own choice of servers and uh your
+own<00:01:11.220><c> configuration</c><00:01:11.820><c> you</c><00:01:12.299><c> don't</c><00:01:12.420><c> need</c><00:01:12.600><c> to</c>
+
+00:01:12.770 --> 00:01:12.780 align:start position:0%
+own configuration you don't need to
+ 
+
+00:01:12.780 --> 00:01:15.230 align:start position:0%
+own configuration you don't need to
+follow<00:01:13.020><c> the</c><00:01:13.380><c> configuration</c><00:01:13.920><c> which</c><00:01:14.760><c> I</c><00:01:15.060><c> am</c>
+
+00:01:15.230 --> 00:01:15.240 align:start position:0%
+follow the configuration which I am
+ 
+
+00:01:15.240 --> 00:01:17.630 align:start position:0%
+follow the configuration which I am
+going<00:01:15.420><c> to</c><00:01:15.540><c> currently</c><00:01:15.960><c> run</c><00:01:16.260><c> on</c>
+
+00:01:17.630 --> 00:01:17.640 align:start position:0%
+going to currently run on
+ 
+
+00:01:17.640 --> 00:01:21.530 align:start position:0%
+going to currently run on
+so<00:01:18.600><c> let's</c><00:01:19.260><c> get</c><00:01:19.560><c> started</c><00:01:19.979><c> I'm</c><00:01:20.520><c> already</c><00:01:20.880><c> logged</c>
+
+00:01:21.530 --> 00:01:21.540 align:start position:0%
+so let's get started I'm already logged
+ 
+
+00:01:21.540 --> 00:01:26.090 align:start position:0%
+so let's get started I'm already logged
+in<00:01:21.600><c> with</c><00:01:22.140><c> my</c><00:01:22.500><c> AWS</c><00:01:23.040><c> ec2</c><00:01:23.580><c> account</c><00:01:24.259><c> and</c><00:01:25.259><c> you</c><00:01:25.979><c> can</c>
+
+00:01:26.090 --> 00:01:26.100 align:start position:0%
+in with my AWS ec2 account and you can
+ 
+
+00:01:26.100 --> 00:01:30.050 align:start position:0%
+in with my AWS ec2 account and you can
+either<00:01:26.340><c> go</c><00:01:26.640><c> to</c><00:01:26.820><c> services</c><00:01:27.119><c> and</c><00:01:28.080><c> search</c><00:01:28.439><c> for</c><00:01:28.799><c> ec2</c>
+
+00:01:30.050 --> 00:01:30.060 align:start position:0%
+either go to services and search for ec2
+ 
+
+00:01:30.060 --> 00:01:32.270 align:start position:0%
+either go to services and search for ec2
+which<00:01:30.600><c> is</c><00:01:30.780><c> the</c><00:01:31.020><c> virtual</c><00:01:31.380><c> servers</c><00:01:31.920><c> in</c><00:01:32.159><c> the</c>
+
+00:01:32.270 --> 00:01:32.280 align:start position:0%
+which is the virtual servers in the
+ 
+
+00:01:32.280 --> 00:01:33.469 align:start position:0%
+which is the virtual servers in the
+cloud
+
+00:01:33.469 --> 00:01:33.479 align:start position:0%
+cloud
+ 
+
+00:01:33.479 --> 00:01:35.810 align:start position:0%
+cloud
+so<00:01:33.840><c> click</c><00:01:34.200><c> on</c><00:01:34.320><c> that</c><00:01:34.560><c> and</c><00:01:35.100><c> that</c><00:01:35.400><c> should</c><00:01:35.579><c> take</c>
+
+00:01:35.810 --> 00:01:35.820 align:start position:0%
+so click on that and that should take
+ 
+
+00:01:35.820 --> 00:01:38.810 align:start position:0%
+so click on that and that should take
+you<00:01:36.060><c> to</c><00:01:36.420><c> the</c><00:01:36.600><c> ec2</c><00:01:37.079><c> dashboard</c><00:01:37.500><c> now</c><00:01:38.400><c> it</c><00:01:38.640><c> should</c>
+
+00:01:38.810 --> 00:01:38.820 align:start position:0%
+you to the ec2 dashboard now it should
+ 
+
+00:01:38.820 --> 00:01:40.850 align:start position:0%
+you to the ec2 dashboard now it should
+show<00:01:39.060><c> you</c><00:01:39.240><c> all</c><00:01:39.600><c> the</c><00:01:39.780><c> instances</c><00:01:40.320><c> which</c><00:01:40.680><c> are</c>
+
+00:01:40.850 --> 00:01:40.860 align:start position:0%
+show you all the instances which are
+ 
+
+00:01:40.860 --> 00:01:44.090 align:start position:0%
+show you all the instances which are
+currently<00:01:41.159><c> running</c><00:01:41.460><c> on</c><00:01:42.119><c> your</c><00:01:42.299><c> ec2</c>
+
+00:01:44.090 --> 00:01:44.100 align:start position:0%
+currently running on your ec2
+ 
+
+00:01:44.100 --> 00:01:47.630 align:start position:0%
+currently running on your ec2
+if<00:01:44.700><c> not</c><00:01:44.939><c> it</c><00:01:45.420><c> will</c><00:01:45.540><c> show</c><00:01:45.840><c> zero</c><00:01:46.740><c> instances</c><00:01:47.280><c> are</c>
+
+00:01:47.630 --> 00:01:47.640 align:start position:0%
+if not it will show zero instances are
+ 
+
+00:01:47.640 --> 00:01:48.710 align:start position:0%
+if not it will show zero instances are
+running
+
+00:01:48.710 --> 00:01:48.720 align:start position:0%
+running
+ 
+
+00:01:48.720 --> 00:01:52.130 align:start position:0%
+running
+so<00:01:49.259><c> I</c><00:01:49.500><c> need</c><00:01:49.560><c> to</c><00:01:49.740><c> run</c><00:01:49.979><c> uh</c><00:01:50.820><c> instance</c><00:01:51.299><c> a</c><00:01:51.720><c> Windows</c>
+
+00:01:52.130 --> 00:01:52.140 align:start position:0%
+so I need to run uh instance a Windows
+ 
+
+00:01:52.140 --> 00:01:55.429 align:start position:0%
+so I need to run uh instance a Windows
+instance<00:01:52.560><c> on</c><00:01:53.159><c> this</c><00:01:53.340><c> ec2</c><00:01:53.880><c> so</c><00:01:54.659><c> I'm</c><00:01:54.960><c> going</c><00:01:55.200><c> to</c>
+
+00:01:55.429 --> 00:01:55.439 align:start position:0%
+instance on this ec2 so I'm going to
+ 
+
+00:01:55.439 --> 00:01:58.969 align:start position:0%
+instance on this ec2 so I'm going to
+click<00:01:55.979><c> on</c><00:01:56.220><c> launch</c><00:01:56.640><c> launch</c><00:01:57.119><c> instance</c>
+
+00:01:58.969 --> 00:01:58.979 align:start position:0%
+click on launch launch instance
+ 
+
+00:01:58.979 --> 00:02:01.069 align:start position:0%
+click on launch launch instance
+and<00:01:59.520><c> here</c><00:01:59.640><c> I</c><00:01:59.880><c> need</c><00:02:00.000><c> to</c><00:02:00.119><c> fill</c><00:02:00.299><c> some</c><00:02:00.600><c> details</c>
+
+00:02:01.069 --> 00:02:01.079 align:start position:0%
+and here I need to fill some details
+ 
+
+00:02:01.079 --> 00:02:04.190 align:start position:0%
+and here I need to fill some details
+before<00:02:01.799><c> I</c><00:02:02.159><c> can</c><00:02:02.340><c> start</c><00:02:02.520><c> running</c><00:02:02.820><c> a</c><00:02:03.299><c> Windows</c><00:02:03.720><c> ec2</c>
+
+00:02:04.190 --> 00:02:04.200 align:start position:0%
+before I can start running a Windows ec2
+ 
+
+00:02:04.200 --> 00:02:05.330 align:start position:0%
+before I can start running a Windows ec2
+server
+
+00:02:05.330 --> 00:02:05.340 align:start position:0%
+server
+ 
+
+00:02:05.340 --> 00:02:09.229 align:start position:0%
+server
+so<00:02:05.880><c> let's</c><00:02:06.659><c> get</c><00:02:06.960><c> started</c><00:02:07.439><c> with</c><00:02:07.920><c> the</c><00:02:08.280><c> name</c><00:02:08.459><c> so</c>
+
+00:02:09.229 --> 00:02:09.239 align:start position:0%
+so let's get started with the name so
+ 
+
+00:02:09.239 --> 00:02:13.790 align:start position:0%
+so let's get started with the name so
+I'm<00:02:09.420><c> going</c><00:02:09.599><c> to</c><00:02:09.780><c> name</c><00:02:09.959><c> it</c><00:02:10.200><c> Tosca</c><00:02:10.860><c> web</c><00:02:11.340><c> server</c>
+
+00:02:13.790 --> 00:02:13.800 align:start position:0%
+I'm going to name it Tosca web server
+ 
+
+00:02:13.800 --> 00:02:17.390 align:start position:0%
+I'm going to name it Tosca web server
+and<00:02:14.459><c> then</c><00:02:14.700><c> I</c><00:02:15.300><c> need</c><00:02:15.480><c> to</c><00:02:15.780><c> select</c><00:02:16.260><c> a</c><00:02:16.800><c> application</c>
+
+00:02:17.390 --> 00:02:17.400 align:start position:0%
+and then I need to select a application
+ 
+
+00:02:17.400 --> 00:02:21.110 align:start position:0%
+and then I need to select a application
+or<00:02:18.239><c> a</c><00:02:18.540><c> Amazon</c><00:02:19.020><c> machine</c><00:02:19.739><c> image</c><00:02:20.340><c> which</c><00:02:20.700><c> is</c><00:02:20.819><c> also</c>
+
+00:02:21.110 --> 00:02:21.120 align:start position:0%
+or a Amazon machine image which is also
+ 
+
+00:02:21.120 --> 00:02:24.589 align:start position:0%
+or a Amazon machine image which is also
+known<00:02:21.300><c> as</c><00:02:21.480><c> Ami</c><00:02:22.560><c> now</c><00:02:23.340><c> as</c><00:02:23.940><c> you</c><00:02:24.060><c> can</c><00:02:24.180><c> see</c><00:02:24.300><c> there</c>
+
+00:02:24.589 --> 00:02:24.599 align:start position:0%
+known as Ami now as you can see there
+ 
+
+00:02:24.599 --> 00:02:26.930 align:start position:0%
+known as Ami now as you can see there
+are<00:02:24.720><c> lots</c><00:02:25.020><c> of</c><00:02:25.140><c> different</c><00:02:25.379><c> images</c><00:02:25.680><c> here</c><00:02:26.160><c> that</c>
+
+00:02:26.930 --> 00:02:26.940 align:start position:0%
+are lots of different images here that
+ 
+
+00:02:26.940 --> 00:02:29.930 align:start position:0%
+are lots of different images here that
+is<00:02:27.120><c> Mac</c><00:02:27.300><c> OS</c><00:02:27.780><c> that</c><00:02:28.080><c> is</c><00:02:28.260><c> Linux</c><00:02:28.680><c> Ubuntu</c>
+
+00:02:29.930 --> 00:02:29.940 align:start position:0%
+is Mac OS that is Linux Ubuntu
+ 
+
+00:02:29.940 --> 00:02:33.050 align:start position:0%
+is Mac OS that is Linux Ubuntu
+and<00:02:30.540><c> others</c><00:02:31.020><c> right</c><00:02:31.319><c> but</c><00:02:31.739><c> we</c><00:02:32.099><c> need</c><00:02:32.280><c> a</c><00:02:32.580><c> Windows</c>
+
+00:02:33.050 --> 00:02:33.060 align:start position:0%
+and others right but we need a Windows
+ 
+
+00:02:33.060 --> 00:02:36.589 align:start position:0%
+and others right but we need a Windows
+server<00:02:33.599><c> and</c><00:02:34.200><c> hence</c><00:02:34.440><c> I</c><00:02:34.739><c> would</c><00:02:34.920><c> uh</c><00:02:35.819><c> select</c><00:02:36.300><c> a</c>
+
+00:02:36.589 --> 00:02:36.599 align:start position:0%
+server and hence I would uh select a
+ 
+
+00:02:36.599 --> 00:02:39.350 align:start position:0%
+server and hence I would uh select a
+Windows<00:02:37.020><c> image</c><00:02:37.440><c> Now</c><00:02:38.340><c> by</c><00:02:38.520><c> default</c><00:02:38.879><c> it</c><00:02:39.180><c> will</c>
+
+00:02:39.350 --> 00:02:39.360 align:start position:0%
+Windows image Now by default it will
+ 
+
+00:02:39.360 --> 00:02:42.229 align:start position:0%
+Windows image Now by default it will
+select<00:02:39.720><c> me</c><00:02:39.900><c> a</c><00:02:40.200><c> free</c><00:02:40.379><c> tag</c><00:02:40.739><c> eligible</c><00:02:41.160><c> uh</c><00:02:41.940><c> base</c>
+
+00:02:42.229 --> 00:02:42.239 align:start position:0%
+select me a free tag eligible uh base
+ 
+
+00:02:42.239 --> 00:02:45.170 align:start position:0%
+select me a free tag eligible uh base
+image<00:02:42.660><c> which</c><00:02:43.319><c> is</c><00:02:43.440><c> the</c><00:02:43.620><c> Windows</c><00:02:43.980><c> Server</c><00:02:44.280><c> 2022</c>
+
+00:02:45.170 --> 00:02:45.180 align:start position:0%
+image which is the Windows Server 2022
+ 
+
+00:02:45.180 --> 00:02:48.470 align:start position:0%
+image which is the Windows Server 2022
+that's<00:02:45.599><c> exactly</c><00:02:46.140><c> what</c><00:02:46.500><c> I</c><00:02:46.680><c> need</c><00:02:46.860><c> if</c><00:02:47.640><c> you</c><00:02:47.819><c> uh</c>
+
+00:02:48.470 --> 00:02:48.480 align:start position:0%
+that's exactly what I need if you uh
+ 
+
+00:02:48.480 --> 00:02:51.530 align:start position:0%
+that's exactly what I need if you uh
+want<00:02:49.200><c> to</c><00:02:49.319><c> have</c><00:02:49.560><c> a</c><00:02:50.040><c> more</c><00:02:50.160><c> powerful</c><00:02:50.640><c> or</c><00:02:51.300><c> a</c>
+
+00:02:51.530 --> 00:02:51.540 align:start position:0%
+want to have a more powerful or a
+ 
+
+00:02:51.540 --> 00:02:54.710 align:start position:0%
+want to have a more powerful or a
+different<00:02:51.840><c> image</c><00:02:52.440><c> which</c><00:02:53.040><c> uh</c><00:02:53.760><c> you</c><00:02:54.420><c> want</c><00:02:54.599><c> to</c>
+
+00:02:54.710 --> 00:02:54.720 align:start position:0%
+different image which uh you want to
+ 
+
+00:02:54.720 --> 00:02:56.809 align:start position:0%
+different image which uh you want to
+select<00:02:55.140><c> then</c><00:02:55.680><c> you</c><00:02:56.160><c> are</c>
+
+00:02:56.809 --> 00:02:56.819 align:start position:0%
+select then you are
+ 
+
+00:02:56.819 --> 00:02:59.869 align:start position:0%
+select then you are
+free<00:02:57.360><c> to</c><00:02:57.599><c> select</c><00:02:57.900><c> any</c><00:02:58.080><c> of</c><00:02:58.319><c> the</c><00:02:58.500><c> images</c><00:02:58.640><c> but</c><00:02:59.640><c> by</c>
+
+00:02:59.869 --> 00:02:59.879 align:start position:0%
+free to select any of the images but by
+ 
+
+00:02:59.879 --> 00:03:01.970 align:start position:0%
+free to select any of the images but by
+default<00:03:00.180><c> it</c><00:03:00.480><c> will</c><00:03:00.599><c> select</c><00:03:00.959><c> you</c><00:03:01.200><c> the</c><00:03:01.739><c> best</c>
+
+00:03:01.970 --> 00:03:01.980 align:start position:0%
+default it will select you the best
+ 
+
+00:03:01.980 --> 00:03:04.250 align:start position:0%
+default it will select you the best
+possible<00:03:02.340><c> image</c>
+
+00:03:04.250 --> 00:03:04.260 align:start position:0%
+possible image
+ 
+
+00:03:04.260 --> 00:03:07.550 align:start position:0%
+possible image
+okay<00:03:04.739><c> coming</c><00:03:05.160><c> down</c><00:03:05.519><c> uh</c><00:03:06.300><c> coming</c><00:03:06.780><c> to</c><00:03:07.080><c> instance</c>
+
+00:03:07.550 --> 00:03:07.560 align:start position:0%
+okay coming down uh coming to instance
+ 
+
+00:03:07.560 --> 00:03:09.970 align:start position:0%
+okay coming down uh coming to instance
+type<00:03:07.920><c> right</c><00:03:08.280><c> now</c><00:03:09.120><c> again</c>
+
+00:03:09.970 --> 00:03:09.980 align:start position:0%
+type right now again
+ 
+
+00:03:09.980 --> 00:03:12.589 align:start position:0%
+type right now again
+my<00:03:10.980><c> instance</c><00:03:11.220><c> is</c><00:03:11.640><c> a</c><00:03:11.819><c> free</c><00:03:11.940><c> tire</c><00:03:12.180><c> eligible</c>
+
+00:03:12.589 --> 00:03:12.599 align:start position:0%
+my instance is a free tire eligible
+ 
+
+00:03:12.599 --> 00:03:17.449 align:start position:0%
+my instance is a free tire eligible
+instance<00:03:13.200><c> right</c><00:03:14.060><c> but</c><00:03:15.060><c> if</c><00:03:15.659><c> you</c><00:03:16.440><c> want</c><00:03:16.739><c> to</c><00:03:17.040><c> select</c>
+
+00:03:17.449 --> 00:03:17.459 align:start position:0%
+instance right but if you want to select
+ 
+
+00:03:17.459 --> 00:03:20.210 align:start position:0%
+instance right but if you want to select
+a<00:03:17.879><c> different</c><00:03:18.060><c> instance</c><00:03:19.019><c> type</c><00:03:19.319><c> I</c><00:03:20.159><c> would</c>
+
+00:03:20.210 --> 00:03:20.220 align:start position:0%
+a different instance type I would
+ 
+
+00:03:20.220 --> 00:03:23.410 align:start position:0%
+a different instance type I would
+recommend<00:03:20.700><c> you</c><00:03:20.940><c> to</c><00:03:21.480><c> go</c><00:03:21.720><c> for</c><00:03:22.140><c> a</c><00:03:22.620><c> higher</c><00:03:22.980><c> memory</c>
+
+00:03:23.410 --> 00:03:23.420 align:start position:0%
+recommend you to go for a higher memory
+ 
+
+00:03:23.420 --> 00:03:26.690 align:start position:0%
+recommend you to go for a higher memory
+instance<00:03:24.420><c> which</c><00:03:24.780><c> means</c><00:03:25.080><c> either</c><00:03:25.500><c> go</c><00:03:25.800><c> for</c><00:03:26.040><c> a</c><00:03:26.280><c> T2</c>
+
+00:03:26.690 --> 00:03:26.700 align:start position:0%
+instance which means either go for a T2
+ 
+
+00:03:26.700 --> 00:03:31.670 align:start position:0%
+instance which means either go for a T2
+large<00:03:27.599><c> which</c><00:03:28.260><c> is</c><00:03:28.739><c> 8</c><00:03:29.300><c> gigabytes</c><00:03:30.300><c> memory</c><00:03:30.720><c> or</c>
+
+00:03:31.670 --> 00:03:31.680 align:start position:0%
+large which is 8 gigabytes memory or
+ 
+
+00:03:31.680 --> 00:03:35.089 align:start position:0%
+large which is 8 gigabytes memory or
+even<00:03:31.920><c> more</c><00:03:32.220><c> but</c><00:03:33.120><c> if</c><00:03:33.420><c> you</c><00:03:33.540><c> want</c><00:03:33.720><c> to</c><00:03:33.900><c> run</c><00:03:34.140><c> Tosca</c>
+
+00:03:35.089 --> 00:03:35.099 align:start position:0%
+even more but if you want to run Tosca
+ 
+
+00:03:35.099 --> 00:03:36.710 align:start position:0%
+even more but if you want to run Tosca
+continuously<00:03:35.640><c> on</c><00:03:35.940><c> This</c><00:03:36.060><c> Server</c><00:03:36.360><c> I</c><00:03:36.540><c> would</c>
+
+00:03:36.710 --> 00:03:36.720 align:start position:0%
+continuously on This Server I would
+ 
+
+00:03:36.720 --> 00:03:39.229 align:start position:0%
+continuously on This Server I would
+recommend<00:03:37.080><c> to</c><00:03:37.440><c> go</c><00:03:37.620><c> with</c><00:03:37.800><c> the</c><00:03:37.980><c> t2</c><00:03:38.280><c> large</c><00:03:38.580><c> which</c>
+
+00:03:39.229 --> 00:03:39.239 align:start position:0%
+recommend to go with the t2 large which
+ 
+
+00:03:39.239 --> 00:03:41.449 align:start position:0%
+recommend to go with the t2 large which
+has<00:03:39.360><c> got</c><00:03:39.599><c> a</c><00:03:39.900><c> 8GB</c><00:03:40.319><c> memory</c><00:03:40.680><c> and</c><00:03:40.980><c> that</c><00:03:41.159><c> should</c><00:03:41.340><c> be</c>
+
+00:03:41.449 --> 00:03:41.459 align:start position:0%
+has got a 8GB memory and that should be
+ 
+
+00:03:41.459 --> 00:03:43.789 align:start position:0%
+has got a 8GB memory and that should be
+enough<00:03:41.640><c> to</c><00:03:42.000><c> run</c><00:03:42.180><c> Tosca</c><00:03:42.900><c> on</c><00:03:43.200><c> this</c><00:03:43.379><c> Windows</c>
+
+00:03:43.789 --> 00:03:43.799 align:start position:0%
+enough to run Tosca on this Windows
+ 
+
+00:03:43.799 --> 00:03:46.970 align:start position:0%
+enough to run Tosca on this Windows
+server<00:03:44.459><c> but</c><00:03:45.060><c> for</c><00:03:45.299><c> me</c><00:03:45.480><c> uh</c><00:03:46.200><c> for</c><00:03:46.560><c> this</c><00:03:46.739><c> particular</c>
+
+00:03:46.970 --> 00:03:46.980 align:start position:0%
+server but for me uh for this particular
+ 
+
+00:03:46.980 --> 00:03:49.309 align:start position:0%
+server but for me uh for this particular
+video<00:03:47.280><c> I</c><00:03:47.760><c> would</c><00:03:48.000><c> stick</c><00:03:48.420><c> to</c><00:03:48.659><c> the</c><00:03:48.780><c> t2</c><00:03:49.080><c> micro</c>
+
+00:03:49.309 --> 00:03:49.319 align:start position:0%
+video I would stick to the t2 micro
+ 
+
+00:03:49.319 --> 00:03:52.190 align:start position:0%
+video I would stick to the t2 micro
+which<00:03:49.799><c> has</c><00:03:49.860><c> got</c><00:03:50.040><c> 1GB</c><00:03:50.640><c> memory</c><00:03:51.000><c> it's</c><00:03:51.720><c> not</c><00:03:52.019><c> enough</c>
+
+00:03:52.190 --> 00:03:52.200 align:start position:0%
+which has got 1GB memory it's not enough
+ 
+
+00:03:52.200 --> 00:03:54.770 align:start position:0%
+which has got 1GB memory it's not enough
+but<00:03:52.920><c> for</c><00:03:53.159><c> my</c><00:03:53.280><c> purpose</c><00:03:53.580><c> it</c><00:03:53.760><c> is</c><00:03:53.940><c> fine</c>
+
+00:03:54.770 --> 00:03:54.780 align:start position:0%
+but for my purpose it is fine
+ 
+
+00:03:54.780 --> 00:03:58.190 align:start position:0%
+but for my purpose it is fine
+now<00:03:55.200><c> coming</c><00:03:55.440><c> to</c><00:03:55.739><c> a</c><00:03:56.099><c> key</c><00:03:56.340><c> pair</c><00:03:56.640><c> if</c><00:03:57.239><c> uh</c><00:03:57.720><c> you</c><00:03:58.019><c> have</c>
+
+00:03:58.190 --> 00:03:58.200 align:start position:0%
+now coming to a key pair if uh you have
+ 
+
+00:03:58.200 --> 00:04:01.610 align:start position:0%
+now coming to a key pair if uh you have
+a<00:03:58.560><c> key</c><00:03:58.620><c> pair</c><00:03:58.860><c> already</c><00:03:59.220><c> created</c><00:03:59.879><c> you</c><00:04:00.599><c> can</c><00:04:00.780><c> go</c>
+
+00:04:01.610 --> 00:04:01.620 align:start position:0%
+a key pair already created you can go
+ 
+
+00:04:01.620 --> 00:04:03.830 align:start position:0%
+a key pair already created you can go
+ahead<00:04:01.860><c> and</c><00:04:02.340><c> select</c><00:04:02.700><c> that</c><00:04:02.879><c> I've</c><00:04:03.239><c> already</c><00:04:03.480><c> won</c>
+
+00:04:03.830 --> 00:04:03.840 align:start position:0%
+ahead and select that I've already won
+ 
+
+00:04:03.840 --> 00:04:06.470 align:start position:0%
+ahead and select that I've already won
+but<00:04:04.680><c> for</c><00:04:05.159><c> this</c><00:04:05.400><c> particular</c><00:04:05.700><c> video</c><00:04:05.940><c> I</c><00:04:06.299><c> would</c>
+
+00:04:06.470 --> 00:04:06.480 align:start position:0%
+but for this particular video I would
+ 
+
+00:04:06.480 --> 00:04:08.750 align:start position:0%
+but for this particular video I would
+create<00:04:06.720><c> a</c><00:04:07.200><c> new</c><00:04:07.319><c> key</c><00:04:07.500><c> pair</c>
+
+00:04:08.750 --> 00:04:08.760 align:start position:0%
+create a new key pair
+ 
+
+00:04:08.760 --> 00:04:13.130 align:start position:0%
+create a new key pair
+so<00:04:09.239><c> let's</c><00:04:09.480><c> name</c><00:04:09.780><c> it</c><00:04:09.959><c> Tosca</c><00:04:10.799><c> server</c>
+
+00:04:13.130 --> 00:04:13.140 align:start position:0%
+so let's name it Tosca server
+ 
+
+00:04:13.140 --> 00:04:16.550 align:start position:0%
+so let's name it Tosca server
+okay<00:04:13.739><c> and</c><00:04:14.459><c> the</c><00:04:14.760><c> private</c><00:04:15.180><c> key</c><00:04:15.720><c> file</c><00:04:16.079><c> format</c>
+
+00:04:16.550 --> 00:04:16.560 align:start position:0%
+okay and the private key file format
+ 
+
+00:04:16.560 --> 00:04:19.930 align:start position:0%
+okay and the private key file format
+should<00:04:16.979><c> be</c><00:04:17.100><c> dot</c><00:04:17.519><c> pm</c><00:04:18.239><c> I</c><00:04:18.780><c> would</c><00:04:18.959><c> tell</c><00:04:19.139><c> you</c><00:04:19.260><c> why</c><00:04:19.500><c> we</c>
+
+00:04:19.930 --> 00:04:19.940 align:start position:0%
+should be dot pm I would tell you why we
+ 
+
+00:04:19.940 --> 00:04:22.730 align:start position:0%
+should be dot pm I would tell you why we
+require.pm<00:04:20.940><c> it</c><00:04:21.299><c> would</c><00:04:21.479><c> be</c><00:04:21.660><c> required</c><00:04:22.139><c> while</c><00:04:22.320><c> we</c>
+
+00:04:22.730 --> 00:04:22.740 align:start position:0%
+require.pm it would be required while we
+ 
+
+00:04:22.740 --> 00:04:24.830 align:start position:0%
+require.pm it would be required while we
+try<00:04:23.100><c> to</c><00:04:23.280><c> get</c><00:04:23.460><c> the</c><00:04:23.639><c> password</c><00:04:23.820><c> for</c><00:04:24.300><c> the</c><00:04:24.479><c> Windows</c>
+
+00:04:24.830 --> 00:04:24.840 align:start position:0%
+try to get the password for the Windows
+ 
+
+00:04:24.840 --> 00:04:28.249 align:start position:0%
+try to get the password for the Windows
+server<00:04:25.139><c> but</c><00:04:25.860><c> for</c><00:04:26.100><c> now</c><00:04:26.280><c> just</c><00:04:26.699><c> keep</c><00:04:26.940><c> it</c><00:04:27.180><c> dot</c><00:04:27.840><c> PM</c>
+
+00:04:28.249 --> 00:04:28.259 align:start position:0%
+server but for now just keep it dot PM
+ 
+
+00:04:28.259 --> 00:04:31.790 align:start position:0%
+server but for now just keep it dot PM
+okay<00:04:29.000><c> and</c><00:04:30.000><c> create</c><00:04:30.419><c> the</c><00:04:30.720><c> key</c><00:04:30.900><c> pair</c><00:04:31.139><c> it</c><00:04:31.620><c> should</c>
+
+00:04:31.790 --> 00:04:31.800 align:start position:0%
+okay and create the key pair it should
+ 
+
+00:04:31.800 --> 00:04:34.730 align:start position:0%
+okay and create the key pair it should
+download<00:04:31.979><c> it</c><00:04:32.340><c> automatically</c>
+
+00:04:34.730 --> 00:04:34.740 align:start position:0%
+download it automatically
+ 
+
+00:04:34.740 --> 00:04:37.790 align:start position:0%
+download it automatically
+now<00:04:35.160><c> coming</c><00:04:35.280><c> to</c><00:04:35.520><c> network</c><00:04:35.759><c> settings</c><00:04:36.180><c> okay</c>
+
+00:04:37.790 --> 00:04:37.800 align:start position:0%
+now coming to network settings okay
+ 
+
+00:04:37.800 --> 00:04:39.409 align:start position:0%
+now coming to network settings okay
+um<00:04:37.860><c> either</c><00:04:38.100><c> I</c><00:04:38.520><c> can</c><00:04:38.639><c> create</c><00:04:38.820><c> a</c><00:04:39.120><c> new</c><00:04:39.240><c> security</c>
+
+00:04:39.409 --> 00:04:39.419 align:start position:0%
+um either I can create a new security
+ 
+
+00:04:39.419 --> 00:04:42.530 align:start position:0%
+um either I can create a new security
+group<00:04:39.840><c> or</c><00:04:40.380><c> a</c><00:04:41.340><c> select</c><00:04:41.759><c> existing</c><00:04:42.300><c> Security</c>
+
+00:04:42.530 --> 00:04:42.540 align:start position:0%
+group or a select existing Security
+ 
+
+00:04:42.540 --> 00:04:45.830 align:start position:0%
+group or a select existing Security
+Group<00:04:43.020><c> let's</c><00:04:43.560><c> create</c><00:04:43.800><c> a</c><00:04:44.100><c> new</c><00:04:44.220><c> one</c><00:04:44.460><c> so</c><00:04:45.060><c> that</c><00:04:45.360><c> uh</c>
+
+00:04:45.830 --> 00:04:45.840 align:start position:0%
+Group let's create a new one so that uh
+ 
+
+00:04:45.840 --> 00:04:48.469 align:start position:0%
+Group let's create a new one so that uh
+we<00:04:46.080><c> are</c><00:04:46.199><c> well</c><00:04:46.380><c> aware</c><00:04:46.740><c> of</c><00:04:46.860><c> what</c><00:04:47.160><c> is</c><00:04:47.340><c> required</c><00:04:47.759><c> so</c>
+
+00:04:48.469 --> 00:04:48.479 align:start position:0%
+we are well aware of what is required so
+ 
+
+00:04:48.479 --> 00:04:51.050 align:start position:0%
+we are well aware of what is required so
+we<00:04:48.660><c> require</c><00:04:48.900><c> the</c><00:04:49.560><c> RDP</c><00:04:50.040><c> traffic</c>
+
+00:04:51.050 --> 00:04:51.060 align:start position:0%
+we require the RDP traffic
+ 
+
+00:04:51.060 --> 00:04:53.990 align:start position:0%
+we require the RDP traffic
+let's<00:04:51.780><c> keep</c><00:04:52.020><c> it</c><00:04:52.259><c> uh</c><00:04:52.680><c> anywhere</c><00:04:53.220><c> you</c><00:04:53.759><c> can</c><00:04:53.820><c> always</c>
+
+00:04:53.990 --> 00:04:54.000 align:start position:0%
+let's keep it uh anywhere you can always
+ 
+
+00:04:54.000 --> 00:04:57.249 align:start position:0%
+let's keep it uh anywhere you can always
+change<00:04:54.360><c> it</c><00:04:54.600><c> to</c><00:04:54.780><c> my</c><00:04:55.020><c> IP</c><00:04:55.320><c> so</c><00:04:55.620><c> that</c><00:04:55.860><c> it</c><00:04:56.699><c> always</c>
+
+00:04:57.249 --> 00:04:57.259 align:start position:0%
+change it to my IP so that it always
+ 
+
+00:04:57.259 --> 00:05:01.610 align:start position:0%
+change it to my IP so that it always
+allows<00:04:58.259><c> only</c><00:04:58.759><c> through</c><00:04:59.759><c> your</c><00:05:00.120><c> IP</c><00:05:00.540><c> the</c><00:05:01.139><c> RDP</c>
+
+00:05:01.610 --> 00:05:01.620 align:start position:0%
+allows only through your IP the RDP
+ 
+
+00:05:01.620 --> 00:05:03.230 align:start position:0%
+allows only through your IP the RDP
+connection
+
+00:05:03.230 --> 00:05:03.240 align:start position:0%
+connection
+ 
+
+00:05:03.240 --> 00:05:06.950 align:start position:0%
+connection
+um<00:05:03.300><c> you</c><00:05:03.600><c> need</c><00:05:03.780><c> uh</c><00:05:04.560><c> either</c><00:05:04.860><c> HTTP</c><00:05:05.460><c> or</c><00:05:05.699><c> https</c><00:05:06.180><c> but</c>
+
+00:05:06.950 --> 00:05:06.960 align:start position:0%
+um you need uh either HTTP or https but
+ 
+
+00:05:06.960 --> 00:05:10.070 align:start position:0%
+um you need uh either HTTP or https but
+I<00:05:07.500><c> generally</c><00:05:07.740><c> keep</c><00:05:07.979><c> it</c><00:05:08.160><c> both</c><00:05:08.400><c> okay</c><00:05:08.820><c> so</c><00:05:09.720><c> we</c><00:05:09.900><c> need</c>
+
+00:05:10.070 --> 00:05:10.080 align:start position:0%
+I generally keep it both okay so we need
+ 
+
+00:05:10.080 --> 00:05:11.810 align:start position:0%
+I generally keep it both okay so we need
+these<00:05:10.500><c> three</c><00:05:10.620><c> settings</c>
+
+00:05:11.810 --> 00:05:11.820 align:start position:0%
+these three settings
+ 
+
+00:05:11.820 --> 00:05:14.810 align:start position:0%
+these three settings
+um<00:05:11.880><c> or</c><00:05:12.360><c> these</c><00:05:13.020><c> three</c><00:05:13.139><c> security</c><00:05:13.380><c> groups</c><00:05:13.979><c> at</c>
+
+00:05:14.810 --> 00:05:14.820 align:start position:0%
+um or these three security groups at
+ 
+
+00:05:14.820 --> 00:05:15.770 align:start position:0%
+um or these three security groups at
+least
+
+00:05:15.770 --> 00:05:15.780 align:start position:0%
+least
+ 
+
+00:05:15.780 --> 00:05:18.950 align:start position:0%
+least
+um<00:05:15.840><c> in</c><00:05:16.320><c> your</c><00:05:16.560><c> network</c><00:05:16.860><c> settings</c><00:05:17.220><c> without</c><00:05:18.060><c> this</c>
+
+00:05:18.950 --> 00:05:18.960 align:start position:0%
+um in your network settings without this
+ 
+
+00:05:18.960 --> 00:05:20.350 align:start position:0%
+um in your network settings without this
+um<00:05:19.020><c> your</c>
+
+00:05:20.350 --> 00:05:20.360 align:start position:0%
+um your
+ 
+
+00:05:20.360 --> 00:05:24.350 align:start position:0%
+um your
+or<00:05:21.360><c> your</c><00:05:21.600><c> web</c><00:05:21.840><c> server</c><00:05:22.199><c> will</c><00:05:22.380><c> not</c><00:05:22.560><c> work</c><00:05:23.220><c> okay</c>
+
+00:05:24.350 --> 00:05:24.360 align:start position:0%
+or your web server will not work okay
+ 
+
+00:05:24.360 --> 00:05:26.990 align:start position:0%
+or your web server will not work okay
+now<00:05:24.780><c> coming</c><00:05:25.020><c> to</c><00:05:25.320><c> storage</c>
+
+00:05:26.990 --> 00:05:27.000 align:start position:0%
+now coming to storage
+ 
+
+00:05:27.000 --> 00:05:30.050 align:start position:0%
+now coming to storage
+that<00:05:27.660><c> is</c><00:05:27.780><c> 30</c><00:05:27.960><c> gigabytes</c><00:05:28.560><c> which</c><00:05:28.919><c> is</c><00:05:29.400><c> enough</c><00:05:29.639><c> to</c>
+
+00:05:30.050 --> 00:05:30.060 align:start position:0%
+that is 30 gigabytes which is enough to
+ 
+
+00:05:30.060 --> 00:05:31.450 align:start position:0%
+that is 30 gigabytes which is enough to
+run<00:05:30.180><c> a</c><00:05:30.479><c> Tosca</c>
+
+00:05:31.450 --> 00:05:31.460 align:start position:0%
+run a Tosca
+ 
+
+00:05:31.460 --> 00:05:34.430 align:start position:0%
+run a Tosca
+commander<00:05:32.460><c> on</c><00:05:33.000><c> the</c><00:05:33.240><c> web</c><00:05:33.360><c> server</c><00:05:33.780><c> so</c><00:05:34.080><c> I</c><00:05:34.320><c> would</c>
+
+00:05:34.430 --> 00:05:34.440 align:start position:0%
+commander on the web server so I would
+ 
+
+00:05:34.440 --> 00:05:36.409 align:start position:0%
+commander on the web server so I would
+leave<00:05:34.560><c> it</c>
+
+00:05:36.409 --> 00:05:36.419 align:start position:0%
+leave it
+ 
+
+00:05:36.419 --> 00:05:38.570 align:start position:0%
+leave it
+and<00:05:37.080><c> then</c><00:05:37.259><c> there</c><00:05:37.500><c> are</c><00:05:37.680><c> Advanced</c><00:05:38.160><c> details</c>
+
+00:05:38.570 --> 00:05:38.580 align:start position:0%
+and then there are Advanced details
+ 
+
+00:05:38.580 --> 00:05:41.810 align:start position:0%
+and then there are Advanced details
+which<00:05:38.880><c> we</c><00:05:39.180><c> don't</c><00:05:39.300><c> need</c><00:05:39.539><c> to</c><00:05:39.840><c> care</c><00:05:40.259><c> about</c><00:05:40.820><c> these</c>
+
+00:05:41.810 --> 00:05:41.820 align:start position:0%
+which we don't need to care about these
+ 
+
+00:05:41.820 --> 00:05:43.790 align:start position:0%
+which we don't need to care about these
+are<00:05:41.940><c> if</c><00:05:42.360><c> you</c><00:05:42.539><c> want</c><00:05:42.720><c> to</c><00:05:42.900><c> have</c><00:05:43.080><c> some</c><00:05:43.380><c> specific</c>
+
+00:05:43.790 --> 00:05:43.800 align:start position:0%
+are if you want to have some specific
+ 
+
+00:05:43.800 --> 00:05:46.430 align:start position:0%
+are if you want to have some specific
+behavior<00:05:44.520><c> for</c><00:05:44.759><c> your</c><00:05:44.940><c> web</c><00:05:45.060><c> server</c><00:05:45.419><c> but</c><00:05:45.780><c> these</c>
+
+00:05:46.430 --> 00:05:46.440 align:start position:0%
+behavior for your web server but these
+ 
+
+00:05:46.440 --> 00:05:49.129 align:start position:0%
+behavior for your web server but these
+are<00:05:46.560><c> not</c><00:05:46.680><c> uh</c><00:05:47.340><c> something</c><00:05:48.120><c> which</c><00:05:48.539><c> we</c><00:05:48.900><c> need</c><00:05:49.020><c> to</c>
+
+00:05:49.129 --> 00:05:49.139 align:start position:0%
+are not uh something which we need to
+ 
+
+00:05:49.139 --> 00:05:51.170 align:start position:0%
+are not uh something which we need to
+change<00:05:49.380><c> so</c><00:05:50.280><c> these</c><00:05:50.460><c> are</c><00:05:50.580><c> the</c><00:05:50.699><c> mandatory</c>
+
+00:05:51.170 --> 00:05:51.180 align:start position:0%
+change so these are the mandatory
+ 
+
+00:05:51.180 --> 00:05:54.290 align:start position:0%
+change so these are the mandatory
+settings<00:05:51.419><c> and</c><00:05:52.020><c> the</c><00:05:52.199><c> important</c><00:05:52.500><c> ones</c><00:05:52.919><c> which</c><00:05:53.340><c> I</c>
+
+00:05:54.290 --> 00:05:54.300 align:start position:0%
+settings and the important ones which I
+ 
+
+00:05:54.300 --> 00:05:56.570 align:start position:0%
+settings and the important ones which I
+have<00:05:54.419><c> to</c><00:05:54.539><c> change</c><00:05:54.840><c> okay</c>
+
+00:05:56.570 --> 00:05:56.580 align:start position:0%
+have to change okay
+ 
+
+00:05:56.580 --> 00:05:58.430 align:start position:0%
+have to change okay
+um once<00:05:57.000><c> this</c><00:05:57.180><c> is</c><00:05:57.300><c> done</c><00:05:57.840><c> um</c><00:05:57.900><c> I</c><00:05:58.080><c> can</c><00:05:58.199><c> also</c>
+
+00:05:58.430 --> 00:05:58.440 align:start position:0%
+um once this is done um I can also
+ 
+
+00:05:58.440 --> 00:06:00.350 align:start position:0%
+um once this is done um I can also
+decide<00:05:58.740><c> on</c><00:05:58.860><c> a</c><00:05:58.979><c> number</c><00:05:59.100><c> of</c><00:05:59.280><c> instances</c><00:05:59.880><c> for</c><00:06:00.180><c> now</c>
+
+00:06:00.350 --> 00:06:00.360 align:start position:0%
+decide on a number of instances for now
+ 
+
+00:06:00.360 --> 00:06:03.110 align:start position:0%
+decide on a number of instances for now
+it<00:06:00.539><c> is</c><00:06:00.660><c> one</c><00:06:00.840><c> but</c><00:06:01.560><c> if</c><00:06:01.800><c> you</c><00:06:01.919><c> want</c><00:06:02.100><c> to</c><00:06:02.220><c> run</c><00:06:02.460><c> Tosca</c>
+
+00:06:03.110 --> 00:06:03.120 align:start position:0%
+it is one but if you want to run Tosca
+ 
+
+00:06:03.120 --> 00:06:04.969 align:start position:0%
+it is one but if you want to run Tosca
+server<00:06:03.479><c> and</c><00:06:03.720><c> Tosca</c><00:06:04.080><c> commander</c><00:06:04.560><c> on</c><00:06:04.800><c> different</c>
+
+00:06:04.969 --> 00:06:04.979 align:start position:0%
+server and Tosca commander on different
+ 
+
+00:06:04.979 --> 00:06:06.830 align:start position:0%
+server and Tosca commander on different
+instances<00:06:05.520><c> you</c><00:06:05.820><c> can</c><00:06:05.940><c> even</c><00:06:06.120><c> launch</c><00:06:06.479><c> two</c>
+
+00:06:06.830 --> 00:06:06.840 align:start position:0%
+instances you can even launch two
+ 
+
+00:06:06.840 --> 00:06:08.570 align:start position:0%
+instances you can even launch two
+instances<00:06:07.380><c> okay</c>
+
+00:06:08.570 --> 00:06:08.580 align:start position:0%
+instances okay
+ 
+
+00:06:08.580 --> 00:06:11.390 align:start position:0%
+instances okay
+so<00:06:09.180><c> click</c><00:06:09.539><c> on</c><00:06:09.600><c> launch</c><00:06:09.900><c> instance</c>
+
+00:06:11.390 --> 00:06:11.400 align:start position:0%
+so click on launch instance
+ 
+
+00:06:11.400 --> 00:06:14.029 align:start position:0%
+so click on launch instance
+and<00:06:11.940><c> that</c><00:06:12.180><c> should</c><00:06:12.360><c> quickly</c><00:06:12.840><c> uh</c><00:06:13.500><c> create</c><00:06:13.680><c> your</c>
+
+00:06:14.029 --> 00:06:14.039 align:start position:0%
+and that should quickly uh create your
+ 
+
+00:06:14.039 --> 00:06:17.629 align:start position:0%
+and that should quickly uh create your
+instance<00:06:14.400><c> and</c><00:06:15.180><c> start</c><00:06:15.600><c> running</c><00:06:16.080><c> it</c><00:06:16.440><c> go</c><00:06:17.340><c> to</c><00:06:17.460><c> view</c>
+
+00:06:17.629 --> 00:06:17.639 align:start position:0%
+instance and start running it go to view
+ 
+
+00:06:17.639 --> 00:06:22.550 align:start position:0%
+instance and start running it go to view
+all<00:06:17.880><c> instances</c><00:06:18.539><c> to</c><00:06:19.440><c> view</c><00:06:20.039><c> your</c><00:06:21.000><c> instance</c><00:06:21.560><c> that</c>
+
+00:06:22.550 --> 00:06:22.560 align:start position:0%
+all instances to view your instance that
+ 
+
+00:06:22.560 --> 00:06:23.390 align:start position:0%
+all instances to view your instance that
+should
+
+00:06:23.390 --> 00:06:23.400 align:start position:0%
+should
+ 
+
+00:06:23.400 --> 00:06:27.110 align:start position:0%
+should
+um<00:06:23.880><c> change</c><00:06:24.780><c> the</c><00:06:25.560><c> instance</c><00:06:25.919><c> state</c><00:06:26.280><c> in</c><00:06:26.819><c> a</c><00:06:27.000><c> few</c>
+
+00:06:27.110 --> 00:06:27.120 align:start position:0%
+um change the instance state in a few
+ 
+
+00:06:27.120 --> 00:06:31.070 align:start position:0%
+um change the instance state in a few
+minutes<00:06:27.860><c> and</c><00:06:28.860><c> start</c><00:06:29.100><c> running</c><00:06:29.340><c> it</c><00:06:29.699><c> okay</c><00:06:30.120><c> once</c>
+
+00:06:31.070 --> 00:06:31.080 align:start position:0%
+minutes and start running it okay once
+ 
+
+00:06:31.080 --> 00:06:33.590 align:start position:0%
+minutes and start running it okay once
+it<00:06:31.199><c> starts</c><00:06:31.560><c> running</c><00:06:31.740><c> then</c><00:06:32.460><c> we</c><00:06:33.300><c> can</c><00:06:33.419><c> even</c>
+
+00:06:33.590 --> 00:06:33.600 align:start position:0%
+it starts running then we can even
+ 
+
+00:06:33.600 --> 00:06:36.409 align:start position:0%
+it starts running then we can even
+connect<00:06:33.960><c> to</c><00:06:34.380><c> that</c><00:06:34.560><c> instance</c>
+
+00:06:36.409 --> 00:06:36.419 align:start position:0%
+connect to that instance
+ 
+
+00:06:36.419 --> 00:06:39.950 align:start position:0%
+connect to that instance
+okay<00:06:37.080><c> so</c><00:06:37.680><c> let's</c><00:06:38.100><c> wait</c><00:06:38.340><c> until</c><00:06:38.940><c> this</c><00:06:39.479><c> uh</c>
+
+00:06:39.950 --> 00:06:39.960 align:start position:0%
+okay so let's wait until this uh
+ 
+
+00:06:39.960 --> 00:06:42.890 align:start position:0%
+okay so let's wait until this uh
+instance<00:06:40.520><c> starts</c><00:06:41.520><c> running</c>
+
+00:06:42.890 --> 00:06:42.900 align:start position:0%
+instance starts running
+ 
+
+00:06:42.900 --> 00:06:46.490 align:start position:0%
+instance starts running
+and<00:06:43.680><c> we</c><00:06:44.039><c> would</c><00:06:44.220><c> require</c><00:06:44.460><c> the</c><00:06:44.940><c> dot</c><00:06:45.240><c> PM</c><00:06:45.539><c> later</c><00:06:46.259><c> on</c>
+
+00:06:46.490 --> 00:06:46.500 align:start position:0%
+and we would require the dot PM later on
+ 
+
+00:06:46.500 --> 00:06:51.710 align:start position:0%
+and we would require the dot PM later on
+while<00:06:46.860><c> we</c><00:06:47.160><c> connect</c><00:06:47.280><c> to</c><00:06:47.520><c> this</c><00:06:47.759><c> instance</c>
+
+00:06:51.710 --> 00:06:51.720 align:start position:0%
+ 
+ 
+
+00:06:51.720 --> 00:06:53.450 align:start position:0%
+ 
+okay<00:06:52.080><c> as</c><00:06:52.319><c> you</c><00:06:52.440><c> can</c><00:06:52.500><c> see</c><00:06:52.620><c> the</c><00:06:52.919><c> instance</c><00:06:53.160><c> date</c>
+
+00:06:53.450 --> 00:06:53.460 align:start position:0%
+okay as you can see the instance date
+ 
+
+00:06:53.460 --> 00:06:56.210 align:start position:0%
+okay as you can see the instance date
+has<00:06:53.759><c> now</c><00:06:54.000><c> changed</c><00:06:54.479><c> to</c><00:06:54.780><c> running</c><00:06:55.080><c> so</c><00:06:55.979><c> let's</c>
+
+00:06:56.210 --> 00:06:56.220 align:start position:0%
+has now changed to running so let's
+ 
+
+00:06:56.220 --> 00:06:59.090 align:start position:0%
+has now changed to running so let's
+select<00:06:56.819><c> this</c><00:06:57.000><c> instance</c><00:06:57.440><c> you</c><00:06:58.440><c> can</c><00:06:58.560><c> see</c><00:06:58.740><c> all</c><00:06:58.979><c> the</c>
+
+00:06:59.090 --> 00:06:59.100 align:start position:0%
+select this instance you can see all the
+ 
+
+00:06:59.100 --> 00:07:03.710 align:start position:0%
+select this instance you can see all the
+details<00:06:59.520><c> here</c><00:07:00.139><c> for</c><00:07:01.139><c> this</c><00:07:01.319><c> instance</c><00:07:02.240><c> and</c><00:07:03.240><c> the</c>
+
+00:07:03.710 --> 00:07:03.720 align:start position:0%
+details here for this instance and the
+ 
+
+00:07:03.720 --> 00:07:05.330 align:start position:0%
+details here for this instance and the
+security<00:07:03.900><c> which</c><00:07:04.380><c> we</c><00:07:04.620><c> have</c><00:07:04.740><c> created</c><00:07:05.039><c> the</c>
+
+00:07:05.330 --> 00:07:05.340 align:start position:0%
+security which we have created the
+ 
+
+00:07:05.340 --> 00:07:07.450 align:start position:0%
+security which we have created the
+networking<00:07:05.880><c> the</c><00:07:06.240><c> storage</c>
+
+00:07:07.450 --> 00:07:07.460 align:start position:0%
+networking the storage
+ 
+
+00:07:07.460 --> 00:07:10.610 align:start position:0%
+networking the storage
+monitoring<00:07:08.460><c> tags</c><00:07:09.060><c> everything</c><00:07:09.900><c> would</c><00:07:10.440><c> be</c>
+
+00:07:10.610 --> 00:07:10.620 align:start position:0%
+monitoring tags everything would be
+ 
+
+00:07:10.620 --> 00:07:12.290 align:start position:0%
+monitoring tags everything would be
+available<00:07:10.800><c> here</c><00:07:11.340><c> okay</c>
+
+00:07:12.290 --> 00:07:12.300 align:start position:0%
+available here okay
+ 
+
+00:07:12.300 --> 00:07:15.770 align:start position:0%
+available here okay
+including<00:07:13.199><c> the</c><00:07:13.500><c> IP</c><00:07:13.800><c> address</c><00:07:14.240><c> which</c><00:07:15.240><c> should</c><00:07:15.600><c> be</c>
+
+00:07:15.770 --> 00:07:15.780 align:start position:0%
+including the IP address which should be
+ 
+
+00:07:15.780 --> 00:07:17.950 align:start position:0%
+including the IP address which should be
+required<00:07:16.139><c> to</c><00:07:16.319><c> connect</c><00:07:16.500><c> to</c><00:07:16.800><c> your</c>
+
+00:07:17.950 --> 00:07:17.960 align:start position:0%
+required to connect to your
+ 
+
+00:07:17.960 --> 00:07:21.830 align:start position:0%
+required to connect to your
+server<00:07:18.960><c> but</c><00:07:19.620><c> probably</c><00:07:20.280><c> it's</c><00:07:20.639><c> not</c><00:07:20.819><c> required</c>
+
+00:07:21.830 --> 00:07:21.840 align:start position:0%
+server but probably it's not required
+ 
+
+00:07:21.840 --> 00:07:23.390 align:start position:0%
+server but probably it's not required
+um<00:07:21.900><c> there</c><00:07:22.259><c> is</c><00:07:22.380><c> a</c><00:07:22.500><c> direct</c><00:07:22.620><c> way</c><00:07:22.860><c> to</c><00:07:23.039><c> connect</c><00:07:23.160><c> to</c>
+
+00:07:23.390 --> 00:07:23.400 align:start position:0%
+um there is a direct way to connect to
+ 
+
+00:07:23.400 --> 00:07:24.409 align:start position:0%
+um there is a direct way to connect to
+it<00:07:23.520><c> okay</c>
+
+00:07:24.409 --> 00:07:24.419 align:start position:0%
+it okay
+ 
+
+00:07:24.419 --> 00:07:26.809 align:start position:0%
+it okay
+so<00:07:24.960><c> now</c><00:07:25.199><c> select</c><00:07:25.560><c> that</c><00:07:25.680><c> instance</c><00:07:26.099><c> and</c><00:07:26.460><c> click</c><00:07:26.699><c> on</c>
+
+00:07:26.809 --> 00:07:26.819 align:start position:0%
+so now select that instance and click on
+ 
+
+00:07:26.819 --> 00:07:27.950 align:start position:0%
+so now select that instance and click on
+connect
+
+00:07:27.950 --> 00:07:27.960 align:start position:0%
+connect
+ 
+
+00:07:27.960 --> 00:07:30.110 align:start position:0%
+connect
+now<00:07:28.620><c> in</c><00:07:28.979><c> connect</c><00:07:29.160><c> to</c><00:07:29.340><c> instance</c><00:07:29.699><c> there</c><00:07:30.000><c> are</c>
+
+00:07:30.110 --> 00:07:30.120 align:start position:0%
+now in connect to instance there are
+ 
+
+00:07:30.120 --> 00:07:33.050 align:start position:0%
+now in connect to instance there are
+three<00:07:30.300><c> options</c><00:07:30.800><c> but</c><00:07:31.800><c> we</c><00:07:32.340><c> will</c><00:07:32.520><c> stick</c><00:07:32.759><c> to</c><00:07:32.880><c> the</c>
+
+00:07:33.050 --> 00:07:33.060 align:start position:0%
+three options but we will stick to the
+ 
+
+00:07:33.060 --> 00:07:35.150 align:start position:0%
+three options but we will stick to the
+RDP<00:07:33.479><c> client</c><00:07:33.780><c> which</c><00:07:34.139><c> is</c><00:07:34.259><c> the</c><00:07:34.500><c> more</c><00:07:34.620><c> simpler</c><00:07:35.039><c> one</c>
+
+00:07:35.150 --> 00:07:35.160 align:start position:0%
+RDP client which is the more simpler one
+ 
+
+00:07:35.160 --> 00:07:37.089 align:start position:0%
+RDP client which is the more simpler one
+and<00:07:35.639><c> probably</c>
+
+00:07:37.089 --> 00:07:37.099 align:start position:0%
+and probably
+ 
+
+00:07:37.099 --> 00:07:41.390 align:start position:0%
+and probably
+it<00:07:38.099><c> is</c><00:07:38.280><c> the</c><00:07:38.520><c> most</c><00:07:38.699><c> easiest</c><00:07:39.240><c> one</c><00:07:39.500><c> now</c><00:07:40.500><c> ignore</c>
+
+00:07:41.390 --> 00:07:41.400 align:start position:0%
+it is the most easiest one now ignore
+ 
+
+00:07:41.400 --> 00:07:43.610 align:start position:0%
+it is the most easiest one now ignore
+this<00:07:41.639><c> message</c><00:07:41.819><c> if</c><00:07:42.180><c> you</c><00:07:42.240><c> are</c><00:07:42.360><c> getting</c><00:07:42.479><c> this</c>
+
+00:07:43.610 --> 00:07:43.620 align:start position:0%
+this message if you are getting this
+ 
+
+00:07:43.620 --> 00:07:45.950 align:start position:0%
+this message if you are getting this
+um<00:07:43.680><c> it</c><00:07:44.400><c> doesn't</c><00:07:44.580><c> matter</c>
+
+00:07:45.950 --> 00:07:45.960 align:start position:0%
+um it doesn't matter
+ 
+
+00:07:45.960 --> 00:07:48.290 align:start position:0%
+um it doesn't matter
+the<00:07:46.560><c> connection</c><00:07:46.740><c> type</c><00:07:47.280><c> it</c><00:07:48.060><c> will</c><00:07:48.120><c> be</c>
+
+00:07:48.290 --> 00:07:48.300 align:start position:0%
+the connection type it will be
+ 
+
+00:07:48.300 --> 00:07:50.870 align:start position:0%
+the connection type it will be
+automatically<00:07:48.780><c> selected</c><00:07:49.380><c> Connect</c><00:07:49.740><c> using</c><00:07:50.340><c> RDP</c>
+
+00:07:50.870 --> 00:07:50.880 align:start position:0%
+automatically selected Connect using RDP
+ 
+
+00:07:50.880 --> 00:07:53.390 align:start position:0%
+automatically selected Connect using RDP
+client<00:07:51.660><c> you</c><00:07:52.139><c> need</c><00:07:52.259><c> to</c><00:07:52.440><c> click</c><00:07:52.800><c> on</c><00:07:53.160><c> download</c>
+
+00:07:53.390 --> 00:07:53.400 align:start position:0%
+client you need to click on download
+ 
+
+00:07:53.400 --> 00:07:56.210 align:start position:0%
+client you need to click on download
+remote<00:07:53.819><c> desktop</c><00:07:54.360><c> file</c><00:07:54.660><c> that's</c><00:07:55.199><c> the</c><00:07:55.440><c> RDP</c><00:07:55.919><c> file</c>
+
+00:07:56.210 --> 00:07:56.220 align:start position:0%
+remote desktop file that's the RDP file
+ 
+
+00:07:56.220 --> 00:07:58.490 align:start position:0%
+remote desktop file that's the RDP file
+through<00:07:56.400><c> which</c><00:07:56.639><c> we'll</c><00:07:56.819><c> be</c><00:07:57.000><c> connecting</c><00:07:57.500><c> so</c>
+
+00:07:58.490 --> 00:07:58.500 align:start position:0%
+through which we'll be connecting so
+ 
+
+00:07:58.500 --> 00:08:02.270 align:start position:0%
+through which we'll be connecting so
+click<00:07:59.340><c> on</c><00:07:59.759><c> that</c><00:08:00.120><c> to</c><00:08:00.599><c> download</c><00:08:00.900><c> it</c>
+
+00:08:02.270 --> 00:08:02.280 align:start position:0%
+click on that to download it
+ 
+
+00:08:02.280 --> 00:08:04.790 align:start position:0%
+click on that to download it
+and<00:08:03.000><c> we</c><00:08:03.419><c> have</c><00:08:03.539><c> the</c><00:08:03.780><c> DNS</c><00:08:04.199><c> username</c>
+
+00:08:04.790 --> 00:08:04.800 align:start position:0%
+and we have the DNS username
+ 
+
+00:08:04.800 --> 00:08:07.189 align:start position:0%
+and we have the DNS username
+administrator<00:08:05.520><c> right</c><00:08:05.940><c> the</c><00:08:06.660><c> only</c><00:08:06.780><c> thing</c><00:08:06.960><c> which</c>
+
+00:08:07.189 --> 00:08:07.199 align:start position:0%
+administrator right the only thing which
+ 
+
+00:08:07.199 --> 00:08:09.409 align:start position:0%
+administrator right the only thing which
+we<00:08:07.380><c> require</c><00:08:07.560><c> is</c><00:08:08.160><c> the</c><00:08:08.460><c> password</c>
+
+00:08:09.409 --> 00:08:09.419 align:start position:0%
+we require is the password
+ 
+
+00:08:09.419 --> 00:08:10.490 align:start position:0%
+we require is the password
+okay
+
+00:08:10.490 --> 00:08:10.500 align:start position:0%
+okay
+ 
+
+00:08:10.500 --> 00:08:12.770 align:start position:0%
+okay
+now
+
+00:08:12.770 --> 00:08:12.780 align:start position:0%
+now
+ 
+
+00:08:12.780 --> 00:08:16.670 align:start position:0%
+now
+I<00:08:13.380><c> can</c><00:08:13.500><c> click</c><00:08:13.740><c> on</c><00:08:13.919><c> this</c><00:08:14.160><c> to</c><00:08:14.759><c> start</c><00:08:15.000><c> the</c><00:08:15.960><c> RDP</c>
+
+00:08:16.670 --> 00:08:16.680 align:start position:0%
+I can click on this to start the RDP
+ 
+
+00:08:16.680 --> 00:08:17.450 align:start position:0%
+I can click on this to start the RDP
+connection
+
+00:08:17.450 --> 00:08:17.460 align:start position:0%
+connection
+ 
+
+00:08:17.460 --> 00:08:20.629 align:start position:0%
+connection
+but<00:08:18.240><c> I</c><00:08:18.599><c> still</c><00:08:18.840><c> require</c><00:08:19.139><c> the</c><00:08:19.919><c> password</c><00:08:20.099><c> as</c><00:08:20.520><c> you</c>
+
+00:08:20.629 --> 00:08:20.639 align:start position:0%
+but I still require the password as you
+ 
+
+00:08:20.639 --> 00:08:23.629 align:start position:0%
+but I still require the password as you
+can<00:08:20.759><c> see</c><00:08:20.879><c> right</c><00:08:21.560><c> now</c><00:08:22.560><c> there</c><00:08:22.979><c> is</c><00:08:23.099><c> a</c><00:08:23.220><c> way</c><00:08:23.340><c> to</c><00:08:23.460><c> get</c>
+
+00:08:23.629 --> 00:08:23.639 align:start position:0%
+can see right now there is a way to get
+ 
+
+00:08:23.639 --> 00:08:26.629 align:start position:0%
+can see right now there is a way to get
+password<00:08:23.879><c> here</c><00:08:24.360><c> if</c><00:08:24.720><c> you</c><00:08:24.900><c> can</c><00:08:25.080><c> see</c><00:08:25.319><c> uh</c><00:08:26.220><c> get</c>
+
+00:08:26.629 --> 00:08:26.639 align:start position:0%
+password here if you can see uh get
+ 
+
+00:08:26.639 --> 00:08:29.150 align:start position:0%
+password here if you can see uh get
+password<00:08:26.940><c> click</c><00:08:27.479><c> on</c><00:08:27.599><c> that</c><00:08:27.840><c> and</c><00:08:28.680><c> that</c><00:08:28.919><c> should</c>
+
+00:08:29.150 --> 00:08:29.160 align:start position:0%
+password click on that and that should
+ 
+
+00:08:29.160 --> 00:08:32.149 align:start position:0%
+password click on that and that should
+open<00:08:29.520><c> a</c><00:08:30.000><c> get</c><00:08:30.120><c> Windows</c><00:08:30.660><c> password</c>
+
+00:08:32.149 --> 00:08:32.159 align:start position:0%
+open a get Windows password
+ 
+
+00:08:32.159 --> 00:08:34.850 align:start position:0%
+open a get Windows password
+um<00:08:32.279><c> section</c><00:08:33.000><c> and</c><00:08:33.899><c> here</c><00:08:34.140><c> you</c><00:08:34.320><c> have</c><00:08:34.440><c> got</c><00:08:34.620><c> the</c>
+
+00:08:34.850 --> 00:08:34.860 align:start position:0%
+um section and here you have got the
+ 
+
+00:08:34.860 --> 00:08:38.810 align:start position:0%
+um section and here you have got the
+instance<00:08:35.159><c> ID</c><00:08:35.700><c> and</c><00:08:36.479><c> here</c><00:08:36.959><c> we</c><00:08:37.260><c> need</c><00:08:37.440><c> to</c><00:08:37.820><c> upload</c>
+
+00:08:38.810 --> 00:08:38.820 align:start position:0%
+instance ID and here we need to upload
+ 
+
+00:08:38.820 --> 00:08:41.029 align:start position:0%
+instance ID and here we need to upload
+the<00:08:39.180><c> private</c><00:08:39.539><c> key</c><00:08:39.719><c> file</c><00:08:40.140><c> which</c><00:08:40.680><c> we</c><00:08:40.860><c> just</c>
+
+00:08:41.029 --> 00:08:41.039 align:start position:0%
+the private key file which we just
+ 
+
+00:08:41.039 --> 00:08:42.050 align:start position:0%
+the private key file which we just
+created
+
+00:08:42.050 --> 00:08:42.060 align:start position:0%
+created
+ 
+
+00:08:42.060 --> 00:08:45.050 align:start position:0%
+created
+while<00:08:42.659><c> generating</c><00:08:43.140><c> our</c><00:08:43.440><c> key</c><00:08:43.740><c> pair</c><00:08:43.979><c> right</c><00:08:44.399><c> and</c>
+
+00:08:45.050 --> 00:08:45.060 align:start position:0%
+while generating our key pair right and
+ 
+
+00:08:45.060 --> 00:08:47.329 align:start position:0%
+while generating our key pair right and
+that's<00:08:45.240><c> the</c><00:08:45.480><c> dot</c><00:08:45.779><c> PM</c><00:08:46.080><c> format</c>
+
+00:08:47.329 --> 00:08:47.339 align:start position:0%
+that's the dot PM format
+ 
+
+00:08:47.339 --> 00:08:51.230 align:start position:0%
+that's the dot PM format
+so<00:08:47.760><c> click</c><00:08:48.000><c> on</c><00:08:48.120><c> upload</c><00:08:48.600><c> and</c><00:08:49.200><c> select</c><00:08:49.800><c> the</c><00:08:50.700><c> dot</c><00:08:51.000><c> PM</c>
+
+00:08:51.230 --> 00:08:51.240 align:start position:0%
+so click on upload and select the dot PM
+ 
+
+00:08:51.240 --> 00:08:54.050 align:start position:0%
+so click on upload and select the dot PM
+file<00:08:51.600><c> which</c><00:08:51.899><c> we</c><00:08:52.740><c> created</c><00:08:53.040><c> earlier</c>
+
+00:08:54.050 --> 00:08:54.060 align:start position:0%
+file which we created earlier
+ 
+
+00:08:54.060 --> 00:08:57.769 align:start position:0%
+file which we created earlier
+click<00:08:54.660><c> on</c><00:08:54.839><c> open</c><00:08:55.140><c> and</c><00:08:55.680><c> that</c><00:08:56.399><c> should</c><00:08:56.779><c> upload</c>
+
+00:08:57.769 --> 00:08:57.779 align:start position:0%
+click on open and that should upload
+ 
+
+00:08:57.779 --> 00:09:00.110 align:start position:0%
+click on open and that should upload
+that<00:08:58.380><c> PM</c><00:08:58.740><c> file</c><00:08:59.220><c> here</c>
+
+00:09:00.110 --> 00:09:00.120 align:start position:0%
+that PM file here
+ 
+
+00:09:00.120 --> 00:09:02.389 align:start position:0%
+that PM file here
+and<00:09:00.720><c> then</c><00:09:00.839><c> we</c><00:09:01.200><c> just</c><00:09:01.380><c> need</c><00:09:01.500><c> to</c><00:09:01.680><c> click</c><00:09:01.980><c> on</c>
+
+00:09:02.389 --> 00:09:02.399 align:start position:0%
+and then we just need to click on
+ 
+
+00:09:02.399 --> 00:09:04.550 align:start position:0%
+and then we just need to click on
+decrypt<00:09:03.060><c> password</c>
+
+00:09:04.550 --> 00:09:04.560 align:start position:0%
+decrypt password
+ 
+
+00:09:04.560 --> 00:09:07.430 align:start position:0%
+decrypt password
+so<00:09:05.040><c> once</c><00:09:05.279><c> you</c><00:09:05.339><c> do</c><00:09:05.519><c> that</c><00:09:05.700><c> you</c><00:09:06.660><c> should</c><00:09:06.779><c> get</c><00:09:07.080><c> the</c>
+
+00:09:07.430 --> 00:09:07.440 align:start position:0%
+so once you do that you should get the
+ 
+
+00:09:07.440 --> 00:09:10.970 align:start position:0%
+so once you do that you should get the
+password<00:09:07.620><c> here</c><00:09:08.120><c> I</c><00:09:09.120><c> will</c><00:09:09.240><c> just</c><00:09:09.360><c> copy</c><00:09:09.779><c> it</c>
+
+00:09:10.970 --> 00:09:10.980 align:start position:0%
+password here I will just copy it
+ 
+
+00:09:10.980 --> 00:09:14.690 align:start position:0%
+password here I will just copy it
+and<00:09:11.519><c> then</c><00:09:11.880><c> let's</c><00:09:12.300><c> go</c><00:09:12.600><c> back</c><00:09:12.779><c> to</c><00:09:13.080><c> our</c><00:09:13.260><c> RDP</c><00:09:13.920><c> here</c>
+
+00:09:14.690 --> 00:09:14.700 align:start position:0%
+and then let's go back to our RDP here
+ 
+
+00:09:14.700 --> 00:09:18.470 align:start position:0%
+and then let's go back to our RDP here
+and<00:09:15.360><c> we'll</c><00:09:16.019><c> paste</c><00:09:16.500><c> it</c><00:09:16.560><c> here</c>
+
+00:09:18.470 --> 00:09:18.480 align:start position:0%
+and we'll paste it here
+ 
+
+00:09:18.480 --> 00:09:20.870 align:start position:0%
+and we'll paste it here
+we<00:09:19.019><c> should</c><00:09:19.200><c> just</c><00:09:19.620><c> go</c><00:09:19.860><c> through</c><00:09:20.040><c> this</c><00:09:20.339><c> dialogs</c>
+
+00:09:20.870 --> 00:09:20.880 align:start position:0%
+we should just go through this dialogs
+ 
+
+00:09:20.880 --> 00:09:23.630 align:start position:0%
+we should just go through this dialogs
+to<00:09:21.420><c> get</c><00:09:21.720><c> the</c><00:09:21.899><c> connection</c><00:09:22.140><c> working</c>
+
+00:09:23.630 --> 00:09:23.640 align:start position:0%
+to get the connection working
+ 
+
+00:09:23.640 --> 00:09:28.310 align:start position:0%
+to get the connection working
+and<00:09:24.240><c> now</c><00:09:24.480><c> we</c><00:09:24.839><c> are</c><00:09:25.019><c> connecting</c><00:09:25.920><c> to</c><00:09:26.640><c> our</c><00:09:27.000><c> AWS</c><00:09:27.660><c> ec2</c>
+
+00:09:28.310 --> 00:09:28.320 align:start position:0%
+and now we are connecting to our AWS ec2
+ 
+
+00:09:28.320 --> 00:09:33.829 align:start position:0%
+and now we are connecting to our AWS ec2
+Windows<00:09:28.740><c> server</c>
+
+00:09:33.829 --> 00:09:33.839 align:start position:0%
+ 
+ 
+
+00:09:33.839 --> 00:09:37.070 align:start position:0%
+ 
+so<00:09:34.440><c> once</c><00:09:34.800><c> the</c><00:09:34.920><c> connection</c><00:09:35.100><c> is</c><00:09:36.080><c> established</c>
+
+00:09:37.070 --> 00:09:37.080 align:start position:0%
+so once the connection is established
+ 
+
+00:09:37.080 --> 00:09:39.710 align:start position:0%
+so once the connection is established
+you<00:09:37.320><c> will</c><00:09:37.500><c> see</c><00:09:37.800><c> the</c><00:09:38.220><c> Windows</c><00:09:38.580><c> Server</c><00:09:38.940><c> starting</c>
+
+00:09:39.710 --> 00:09:39.720 align:start position:0%
+you will see the Windows Server starting
+ 
+
+00:09:39.720 --> 00:09:42.530 align:start position:0%
+you will see the Windows Server starting
+it<00:09:40.320><c> will</c><00:09:40.500><c> ask</c><00:09:40.740><c> you</c><00:09:40.980><c> to</c><00:09:41.160><c> select</c><00:09:41.519><c> a</c><00:09:42.240><c> network</c>
+
+00:09:42.530 --> 00:09:42.540 align:start position:0%
+it will ask you to select a network
+ 
+
+00:09:42.540 --> 00:09:44.449 align:start position:0%
+it will ask you to select a network
+which<00:09:43.380><c> will</c><00:09:43.500><c> connect</c><00:09:43.680><c> to</c><00:09:43.920><c> your</c><00:09:44.040><c> local</c><00:09:44.220><c> network</c>
+
+00:09:44.449 --> 00:09:44.459 align:start position:0%
+which will connect to your local network
+ 
+
+00:09:44.459 --> 00:09:46.130 align:start position:0%
+which will connect to your local network
+so<00:09:44.820><c> click</c><00:09:45.060><c> on</c><00:09:45.180><c> yes</c>
+
+00:09:46.130 --> 00:09:46.140 align:start position:0%
+so click on yes
+ 
+
+00:09:46.140 --> 00:09:48.230 align:start position:0%
+so click on yes
+um on<00:09:46.500><c> that</c><00:09:46.620><c> Network</c><00:09:46.800><c> dialog</c><00:09:47.339><c> box</c>
+
+00:09:48.230 --> 00:09:48.240 align:start position:0%
+um on that Network dialog box
+ 
+
+00:09:48.240 --> 00:09:51.050 align:start position:0%
+um on that Network dialog box
+uh<00:09:48.720><c> it</c><00:09:48.899><c> will</c><00:09:49.080><c> change</c><00:09:49.380><c> the</c><00:09:50.040><c> theme</c><00:09:50.279><c> by</c><00:09:50.820><c> running</c>
+
+00:09:51.050 --> 00:09:51.060 align:start position:0%
+uh it will change the theme by running
+ 
+
+00:09:51.060 --> 00:09:53.990 align:start position:0%
+uh it will change the theme by running
+uh<00:09:51.839><c> something</c><00:09:52.140><c> in</c><00:09:52.560><c> the</c><00:09:52.680><c> background</c><00:09:53.040><c> so</c><00:09:53.820><c> you</c>
+
+00:09:53.990 --> 00:09:54.000 align:start position:0%
+uh something in the background so you
+ 
+
+00:09:54.000 --> 00:09:56.030 align:start position:0%
+uh something in the background so you
+will<00:09:54.120><c> get</c><00:09:54.360><c> this</c><00:09:54.660><c> theme</c><00:09:54.899><c> for</c><00:09:55.500><c> your</c><00:09:55.680><c> Windows</c>
+
+00:09:56.030 --> 00:09:56.040 align:start position:0%
+will get this theme for your Windows
+ 
+
+00:09:56.040 --> 00:09:57.530 align:start position:0%
+will get this theme for your Windows
+server
+
+00:09:57.530 --> 00:09:57.540 align:start position:0%
+server
+ 
+
+00:09:57.540 --> 00:09:59.150 align:start position:0%
+server
+and
+
+00:09:59.150 --> 00:09:59.160 align:start position:0%
+and
+ 
+
+00:09:59.160 --> 00:10:02.410 align:start position:0%
+and
+that<00:09:59.820><c> completes</c><00:10:00.360><c> our</c><00:10:00.720><c> first</c><00:10:00.959><c> step</c><00:10:01.260><c> so</c><00:10:01.800><c> we</c><00:10:02.100><c> have</c>
+
+00:10:02.410 --> 00:10:02.420 align:start position:0%
+that completes our first step so we have
+ 
+
+00:10:02.420 --> 00:10:06.350 align:start position:0%
+that completes our first step so we have
+successfully<00:10:03.420><c> set</c><00:10:03.660><c> up</c><00:10:03.839><c> a</c><00:10:04.200><c> Windows</c><00:10:04.680><c> ec2</c><00:10:05.360><c> server</c>
+
+00:10:06.350 --> 00:10:06.360 align:start position:0%
+successfully set up a Windows ec2 server
+ 
+
+00:10:06.360 --> 00:10:09.290 align:start position:0%
+successfully set up a Windows ec2 server
+on<00:10:06.720><c> AWS</c><00:10:07.380><c> and</c><00:10:08.100><c> it</c><00:10:08.399><c> is</c><00:10:08.580><c> in</c><00:10:08.760><c> running</c><00:10:09.000><c> condition</c>
+
+00:10:09.290 --> 00:10:09.300 align:start position:0%
+on AWS and it is in running condition
+ 
+
+00:10:09.300 --> 00:10:11.810 align:start position:0%
+on AWS and it is in running condition
+and<00:10:09.899><c> we</c><00:10:10.080><c> have</c><00:10:10.260><c> also</c><00:10:10.560><c> connected</c><00:10:10.920><c> to</c><00:10:11.519><c> that</c>
+
+00:10:11.810 --> 00:10:11.820 align:start position:0%
+and we have also connected to that
+ 
+
+00:10:11.820 --> 00:10:12.710 align:start position:0%
+and we have also connected to that
+server
+
+00:10:12.710 --> 00:10:12.720 align:start position:0%
+server
+ 
+
+00:10:12.720 --> 00:10:16.610 align:start position:0%
+server
+so<00:10:13.500><c> the</c><00:10:13.920><c> next</c><00:10:14.040><c> step</c><00:10:14.220><c> is</c><00:10:14.820><c> to</c><00:10:15.300><c> get</c><00:10:15.779><c> our</c><00:10:16.080><c> Tosca</c>
+
+00:10:16.610 --> 00:10:16.620 align:start position:0%
+so the next step is to get our Tosca
+ 
+
+00:10:16.620 --> 00:10:18.949 align:start position:0%
+so the next step is to get our Tosca
+version<00:10:16.940><c> installed</c><00:10:17.940><c> on</c><00:10:18.420><c> this</c><00:10:18.660><c> particular</c>
+
+00:10:18.949 --> 00:10:18.959 align:start position:0%
+version installed on this particular
+ 
+
+00:10:18.959 --> 00:10:22.730 align:start position:0%
+version installed on this particular
+Windows<00:10:19.560><c> Server</c><00:10:19.920><c> right</c><00:10:20.720><c> so</c><00:10:21.720><c> for</c><00:10:21.959><c> that</c><00:10:22.140><c> we</c><00:10:22.620><c> need</c>
+
+00:10:22.730 --> 00:10:22.740 align:start position:0%
+Windows Server right so for that we need
+ 
+
+00:10:22.740 --> 00:10:26.630 align:start position:0%
+Windows Server right so for that we need
+to<00:10:22.920><c> go</c><00:10:23.160><c> to</c><00:10:23.459><c> the</c><00:10:23.640><c> tracentes</c><00:10:24.360><c> portal</c><00:10:24.980><c> so</c><00:10:25.980><c> let's</c>
+
+00:10:26.630 --> 00:10:26.640 align:start position:0%
+to go to the tracentes portal so let's
+ 
+
+00:10:26.640 --> 00:10:28.070 align:start position:0%
+to go to the tracentes portal so let's
+open
+
+00:10:28.070 --> 00:10:28.080 align:start position:0%
+open
+ 
+
+00:10:28.080 --> 00:10:31.190 align:start position:0%
+open
+uh<00:10:28.740><c> Microsoft</c><00:10:29.160><c> Edge</c><00:10:29.580><c> and</c><00:10:30.120><c> from</c><00:10:30.360><c> there</c><00:10:30.660><c> I</c><00:10:31.019><c> will</c>
+
+00:10:31.190 --> 00:10:31.200 align:start position:0%
+uh Microsoft Edge and from there I will
+ 
+
+00:10:31.200 --> 00:10:37.070 align:start position:0%
+uh Microsoft Edge and from there I will
+go<00:10:31.560><c> to</c><00:10:32.040><c> the</c><00:10:32.339><c> tricentes</c><00:10:33.300><c> portal</c>
+
+00:10:37.070 --> 00:10:37.080 align:start position:0%
+ 
+ 
+
+00:10:37.080 --> 00:10:40.070 align:start position:0%
+ 
+so<00:10:37.620><c> just</c><00:10:37.860><c> go</c><00:10:38.279><c> through</c><00:10:38.459><c> this</c><00:10:38.700><c> setup</c><00:10:39.060><c> of</c><00:10:39.540><c> which</c>
+
+00:10:40.070 --> 00:10:40.080 align:start position:0%
+so just go through this setup of which
+ 
+
+00:10:40.080 --> 00:10:43.190 align:start position:0%
+so just go through this setup of which
+shows<00:10:40.560><c> up</c><00:10:40.680><c> every</c><00:10:41.040><c> time</c><00:10:41.279><c> you</c><00:10:41.640><c> set</c><00:10:42.360><c> up</c><00:10:42.540><c> Windows</c>
+
+00:10:43.190 --> 00:10:43.200 align:start position:0%
+shows up every time you set up Windows
+ 
+
+00:10:43.200 --> 00:10:44.930 align:start position:0%
+shows up every time you set up Windows
+Edge<00:10:43.440><c> for</c><00:10:43.800><c> the</c><00:10:43.980><c> first</c><00:10:44.160><c> time</c>
+
+00:10:44.930 --> 00:10:44.940 align:start position:0%
+Edge for the first time
+ 
+
+00:10:44.940 --> 00:10:48.530 align:start position:0%
+Edge for the first time
+so<00:10:45.779><c> just</c><00:10:46.200><c> go</c><00:10:46.560><c> through</c><00:10:46.800><c> that</c><00:10:47.160><c> whole</c><00:10:47.459><c> setup</c><00:10:47.940><c> and</c>
+
+00:10:48.530 --> 00:10:48.540 align:start position:0%
+so just go through that whole setup and
+ 
+
+00:10:48.540 --> 00:10:49.730 align:start position:0%
+so just go through that whole setup and
+then
+
+00:10:49.730 --> 00:10:49.740 align:start position:0%
+then
+ 
+
+00:10:49.740 --> 00:10:51.769 align:start position:0%
+then
+um you<00:10:50.100><c> should</c><00:10:50.279><c> get</c><00:10:50.519><c> started</c><00:10:51.000><c> with</c><00:10:51.480><c> the</c><00:10:51.660><c> edge</c>
+
+00:10:51.769 --> 00:10:51.779 align:start position:0%
+um you should get started with the edge
+ 
+
+00:10:51.779 --> 00:10:58.550 align:start position:0%
+um you should get started with the edge
+browser
+
+00:10:58.550 --> 00:10:58.560 align:start position:0%
+ 
+ 
+
+00:10:58.560 --> 00:11:01.910 align:start position:0%
+ 
+once<00:10:59.279><c> that</c><00:10:59.399><c> is</c><00:10:59.579><c> done</c><00:10:59.760><c> let's</c><00:11:00.360><c> open</c><00:11:00.899><c> up</c><00:11:01.380><c> the</c>
+
+00:11:01.910 --> 00:11:01.920 align:start position:0%
+once that is done let's open up the
+ 
+
+00:11:01.920 --> 00:11:05.150 align:start position:0%
+once that is done let's open up the
+tricentes<00:11:02.700><c> support</c><00:11:03.120><c> portal</c><00:11:03.779><c> where</c><00:11:04.680><c> we</c><00:11:04.980><c> would</c>
+
+00:11:05.150 --> 00:11:05.160 align:start position:0%
+tricentes support portal where we would
+ 
+
+00:11:05.160 --> 00:11:07.069 align:start position:0%
+tricentes support portal where we would
+get<00:11:05.459><c> our</c>
+
+00:11:07.069 --> 00:11:07.079 align:start position:0%
+get our
+ 
+
+00:11:07.079 --> 00:11:09.650 align:start position:0%
+get our
+Tosca<00:11:07.800><c> installer</c>
+
+00:11:09.650 --> 00:11:09.660 align:start position:0%
+Tosca installer
+ 
+
+00:11:09.660 --> 00:11:12.470 align:start position:0%
+Tosca installer
+so<00:11:10.440><c> I</c><00:11:10.980><c> would</c><00:11:11.100><c> search</c><00:11:11.339><c> for</c><00:11:11.700><c> try</c><00:11:12.000><c> centers</c>
+
+00:11:12.470 --> 00:11:12.480 align:start position:0%
+so I would search for try centers
+ 
+
+00:11:12.480 --> 00:11:14.750 align:start position:0%
+so I would search for try centers
+support<00:11:12.740><c> that</c><00:11:13.740><c> should</c><00:11:13.920><c> take</c><00:11:14.100><c> me</c><00:11:14.279><c> to</c><00:11:14.579><c> the</c>
+
+00:11:14.750 --> 00:11:14.760 align:start position:0%
+support that should take me to the
+ 
+
+00:11:14.760 --> 00:11:17.269 align:start position:0%
+support that should take me to the
+transientist<00:11:15.360><c> support</c><00:11:15.600><c> website</c>
+
+00:11:17.269 --> 00:11:17.279 align:start position:0%
+transientist support website
+ 
+
+00:11:17.279 --> 00:11:19.970 align:start position:0%
+transientist support website
+and<00:11:18.120><c> we</c><00:11:18.300><c> need</c><00:11:18.480><c> to</c><00:11:18.600><c> login</c><00:11:18.779><c> into</c><00:11:19.380><c> the</c><00:11:19.620><c> support</c>
+
+00:11:19.970 --> 00:11:19.980 align:start position:0%
+and we need to login into the support
+ 
+
+00:11:19.980 --> 00:11:25.970 align:start position:0%
+and we need to login into the support
+website
+
+00:11:25.970 --> 00:11:25.980 align:start position:0%
+ 
+ 
+
+00:11:25.980 --> 00:11:28.190 align:start position:0%
+ 
+now<00:11:26.519><c> before</c><00:11:26.700><c> we</c><00:11:27.060><c> move</c><00:11:27.240><c> forward</c>
+
+00:11:28.190 --> 00:11:28.200 align:start position:0%
+now before we move forward
+ 
+
+00:11:28.200 --> 00:11:31.310 align:start position:0%
+now before we move forward
+um<00:11:28.320><c> obviously</c><00:11:28.920><c> you</c><00:11:29.220><c> need</c><00:11:29.339><c> to</c><00:11:29.519><c> have</c><00:11:29.820><c> a</c><00:11:30.660><c> valid</c>
+
+00:11:31.310 --> 00:11:31.320 align:start position:0%
+um obviously you need to have a valid
+ 
+
+00:11:31.320 --> 00:11:33.650 align:start position:0%
+um obviously you need to have a valid
+transcendus<00:11:32.160><c> support</c><00:11:32.459><c> account</c>
+
+00:11:33.650 --> 00:11:33.660 align:start position:0%
+transcendus support account
+ 
+
+00:11:33.660 --> 00:11:36.470 align:start position:0%
+transcendus support account
+where<00:11:34.260><c> you</c><00:11:34.440><c> have</c><00:11:34.560><c> created</c><00:11:34.980><c> that</c><00:11:35.279><c> account</c><00:11:35.519><c> and</c>
+
+00:11:36.470 --> 00:11:36.480 align:start position:0%
+where you have created that account and
+ 
+
+00:11:36.480 --> 00:11:40.370 align:start position:0%
+where you have created that account and
+you<00:11:36.899><c> have</c><00:11:37.079><c> already</c><00:11:37.500><c> requested</c><00:11:38.399><c> a</c><00:11:38.940><c> license</c>
+
+00:11:40.370 --> 00:11:40.380 align:start position:0%
+you have already requested a license
+ 
+
+00:11:40.380 --> 00:11:42.350 align:start position:0%
+you have already requested a license
+now<00:11:40.920><c> if</c><00:11:41.160><c> you</c><00:11:41.220><c> don't</c><00:11:41.399><c> know</c><00:11:41.519><c> how</c><00:11:41.820><c> to</c><00:11:41.940><c> do</c><00:11:42.120><c> that</c>
+
+00:11:42.350 --> 00:11:42.360 align:start position:0%
+now if you don't know how to do that
+ 
+
+00:11:42.360 --> 00:11:44.750 align:start position:0%
+now if you don't know how to do that
+watch<00:11:43.019><c> the</c><00:11:43.260><c> other</c><00:11:43.380><c> video</c><00:11:43.680><c> where</c><00:11:44.100><c> I've</c><00:11:44.459><c> shown</c>
+
+00:11:44.750 --> 00:11:44.760 align:start position:0%
+watch the other video where I've shown
+ 
+
+00:11:44.760 --> 00:11:46.850 align:start position:0%
+watch the other video where I've shown
+you<00:11:45.000><c> how</c><00:11:45.540><c> you</c><00:11:45.720><c> can</c><00:11:45.839><c> request</c><00:11:46.200><c> a</c><00:11:46.560><c> training</c>
+
+00:11:46.850 --> 00:11:46.860 align:start position:0%
+you how you can request a training
+ 
+
+00:11:46.860 --> 00:11:50.030 align:start position:0%
+you how you can request a training
+license<00:11:47.100><c> for</c><00:11:47.880><c> your</c><00:11:48.480><c> where</c><00:11:49.320><c> I</c><00:11:49.560><c> have</c><00:11:49.680><c> shown</c><00:11:49.860><c> you</c>
+
+00:11:50.030 --> 00:11:50.040 align:start position:0%
+license for your where I have shown you
+ 
+
+00:11:50.040 --> 00:11:52.370 align:start position:0%
+license for your where I have shown you
+how<00:11:50.279><c> you</c><00:11:50.399><c> can</c><00:11:50.519><c> request</c><00:11:50.880><c> a</c><00:11:51.300><c> toscal</c><00:11:51.839><c> training</c>
+
+00:11:52.370 --> 00:11:52.380 align:start position:0%
+how you can request a toscal training
+ 
+
+00:11:52.380 --> 00:11:54.110 align:start position:0%
+how you can request a toscal training
+license
+
+00:11:54.110 --> 00:11:54.120 align:start position:0%
+license
+ 
+
+00:11:54.120 --> 00:11:57.230 align:start position:0%
+license
+so<00:11:54.959><c> click</c><00:11:55.260><c> on</c><00:11:55.380><c> login</c><00:11:55.620><c> and</c>
+
+00:11:57.230 --> 00:11:57.240 align:start position:0%
+so click on login and
+ 
+
+00:11:57.240 --> 00:12:00.290 align:start position:0%
+so click on login and
+here<00:11:57.899><c> just</c><00:11:58.380><c> use</c><00:11:58.860><c> the</c><00:11:59.339><c> same</c><00:11:59.519><c> email</c><00:11:59.880><c> and</c>
+
+00:12:00.290 --> 00:12:00.300 align:start position:0%
+here just use the same email and
+ 
+
+00:12:00.300 --> 00:12:02.930 align:start position:0%
+here just use the same email and
+password<00:12:00.540><c> which</c><00:12:01.200><c> you</c><00:12:01.440><c> have</c><00:12:01.620><c> created</c><00:12:02.519><c> an</c>
+
+00:12:02.930 --> 00:12:02.940 align:start position:0%
+password which you have created an
+ 
+
+00:12:02.940 --> 00:12:04.490 align:start position:0%
+password which you have created an
+account<00:12:03.120><c> with</c>
+
+00:12:04.490 --> 00:12:04.500 align:start position:0%
+account with
+ 
+
+00:12:04.500 --> 00:12:11.509 align:start position:0%
+account with
+so<00:12:05.040><c> I</c><00:12:05.399><c> will</c><00:12:05.579><c> use</c><00:12:06.120><c> my</c><00:12:06.600><c> email</c>
+
+00:12:11.509 --> 00:12:11.519 align:start position:0%
+ 
+ 
+
+00:12:11.519 --> 00:12:18.769 align:start position:0%
+ 
+and<00:12:12.120><c> my</c><00:12:12.540><c> password</c>
+
+00:12:18.769 --> 00:12:18.779 align:start position:0%
+ 
+ 
+
+00:12:18.779 --> 00:12:22.069 align:start position:0%
+ 
+and<00:12:19.440><c> just</c><00:12:19.980><c> click</c><00:12:20.399><c> on</c><00:12:20.459><c> login</c><00:12:20.700><c> that</c><00:12:21.600><c> should</c><00:12:21.779><c> take</c>
+
+00:12:22.069 --> 00:12:22.079 align:start position:0%
+and just click on login that should take
+ 
+
+00:12:22.079 --> 00:12:25.190 align:start position:0%
+and just click on login that should take
+you<00:12:22.579><c> inside</c><00:12:23.579><c> the</c><00:12:24.240><c> dress</c><00:12:24.600><c> and</c><00:12:24.839><c> test</c><00:12:25.019><c> support</c>
+
+00:12:25.190 --> 00:12:25.200 align:start position:0%
+you inside the dress and test support
+ 
+
+00:12:25.200 --> 00:12:27.530 align:start position:0%
+you inside the dress and test support
+website
+
+00:12:27.530 --> 00:12:27.540 align:start position:0%
+website
+ 
+
+00:12:27.540 --> 00:12:30.430 align:start position:0%
+website
+now<00:12:28.079><c> once</c><00:12:28.380><c> you</c><00:12:28.440><c> log</c><00:12:28.620><c> in</c><00:12:28.800><c> we</c><00:12:29.100><c> need</c><00:12:29.220><c> to</c><00:12:29.339><c> go</c><00:12:29.579><c> to</c><00:12:29.700><c> the</c>
+
+00:12:30.430 --> 00:12:30.440 align:start position:0%
+now once you log in we need to go to the
+ 
+
+00:12:30.440 --> 00:12:34.069 align:start position:0%
+now once you log in we need to go to the
+tri-centers<00:12:31.760><c> license</c><00:12:32.760><c> request</c><00:12:33.300><c> page</c><00:12:33.660><c> right</c>
+
+00:12:34.069 --> 00:12:34.079 align:start position:0%
+tri-centers license request page right
+ 
+
+00:12:34.079 --> 00:12:37.130 align:start position:0%
+tri-centers license request page right
+so<00:12:34.980><c> the</c><00:12:35.220><c> URL</c><00:12:35.640><c> is</c><00:12:36.000><c> this</c>
+
+00:12:37.130 --> 00:12:37.140 align:start position:0%
+so the URL is this
+ 
+
+00:12:37.140 --> 00:12:37.730 align:start position:0%
+so the URL is this
+um
+
+00:12:37.730 --> 00:12:37.740 align:start position:0%
+um
+ 
+
+00:12:37.740 --> 00:12:40.250 align:start position:0%
+um
+it<00:12:38.339><c> is</c><00:12:38.459><c> available</c><00:12:38.760><c> in</c><00:12:39.480><c> the</c><00:12:39.600><c> video</c><00:12:39.720><c> description</c>
+
+00:12:40.250 --> 00:12:40.260 align:start position:0%
+it is available in the video description
+ 
+
+00:12:40.260 --> 00:12:42.889 align:start position:0%
+it is available in the video description
+if<00:12:40.740><c> you</c><00:12:40.860><c> require</c><00:12:41.100><c> it</c><00:12:41.399><c> but</c><00:12:41.940><c> this</c><00:12:42.420><c> we</c><00:12:42.660><c> have</c>
+
+00:12:42.889 --> 00:12:42.899 align:start position:0%
+if you require it but this we have
+ 
+
+00:12:42.899 --> 00:12:45.350 align:start position:0%
+if you require it but this we have
+already<00:12:43.139><c> done</c><00:12:43.560><c> it</c><00:12:43.800><c> so</c><00:12:44.040><c> you</c><00:12:44.279><c> should</c><00:12:44.399><c> know</c><00:12:44.579><c> this</c>
+
+00:12:45.350 --> 00:12:45.360 align:start position:0%
+already done it so you should know this
+ 
+
+00:12:45.360 --> 00:12:47.269 align:start position:0%
+already done it so you should know this
+so<00:12:45.959><c> just</c>
+
+00:12:47.269 --> 00:12:47.279 align:start position:0%
+so just
+ 
+
+00:12:47.279 --> 00:12:51.530 align:start position:0%
+so just
+copy<00:12:47.760><c> paste</c><00:12:48.180><c> this</c><00:12:48.480><c> URL</c><00:12:49.079><c> and</c><00:12:49.740><c> click</c><00:12:50.279><c> on</c><00:12:50.399><c> it</c><00:12:51.060><c> so</c>
+
+00:12:51.530 --> 00:12:51.540 align:start position:0%
+copy paste this URL and click on it so
+ 
+
+00:12:51.540 --> 00:12:53.990 align:start position:0%
+copy paste this URL and click on it so
+that<00:12:51.779><c> we</c><00:12:52.440><c> land</c><00:12:52.680><c> on</c><00:12:53.160><c> this</c><00:12:53.339><c> particular</c><00:12:53.639><c> page</c>
+
+00:12:53.990 --> 00:12:54.000 align:start position:0%
+that we land on this particular page
+ 
+
+00:12:54.000 --> 00:12:56.810 align:start position:0%
+that we land on this particular page
+where<00:12:54.360><c> we</c><00:12:54.660><c> have</c><00:12:54.839><c> already</c><00:12:55.380><c> a</c><00:12:56.100><c> cloud</c><00:12:56.279><c> training</c>
+
+00:12:56.810 --> 00:12:56.820 align:start position:0%
+where we have already a cloud training
+ 
+
+00:12:56.820 --> 00:12:59.690 align:start position:0%
+where we have already a cloud training
+license<00:12:57.000><c> which</c><00:12:57.360><c> is</c><00:12:57.480><c> deployed</c><00:12:58.160><c> and</c><00:12:59.160><c> there</c><00:12:59.519><c> is</c>
+
+00:12:59.690 --> 00:12:59.700 align:start position:0%
+license which is deployed and there is
+ 
+
+00:12:59.700 --> 00:13:01.910 align:start position:0%
+license which is deployed and there is
+also<00:13:00.060><c> a</c><00:13:00.420><c> link</c><00:13:00.600><c> to</c><00:13:00.959><c> download</c><00:13:01.139><c> press</c><00:13:01.620><c> and</c>
+
+00:13:01.910 --> 00:13:01.920 align:start position:0%
+also a link to download press and
+ 
+
+00:13:01.920 --> 00:13:03.170 align:start position:0%
+also a link to download press and
+testoster
+
+00:13:03.170 --> 00:13:03.180 align:start position:0%
+testoster
+ 
+
+00:13:03.180 --> 00:13:06.710 align:start position:0%
+testoster
+so<00:13:03.660><c> click</c><00:13:03.959><c> on</c><00:13:04.079><c> that</c><00:13:04.339><c> and</c><00:13:05.339><c> here</c><00:13:05.760><c> we'll</c><00:13:06.060><c> try</c><00:13:06.420><c> to</c>
+
+00:13:06.710 --> 00:13:06.720 align:start position:0%
+so click on that and here we'll try to
+ 
+
+00:13:06.720 --> 00:13:10.790 align:start position:0%
+so click on that and here we'll try to
+find<00:13:07.019><c> our</c><00:13:07.560><c> Tosca</c><00:13:08.160><c> version</c><00:13:08.399><c> which</c><00:13:08.820><c> is</c><00:13:09.000><c> 16.0</c><00:13:09.959><c> the</c>
+
+00:13:10.790 --> 00:13:10.800 align:start position:0%
+find our Tosca version which is 16.0 the
+ 
+
+00:13:10.800 --> 00:13:13.970 align:start position:0%
+find our Tosca version which is 16.0 the
+latest<00:13:11.040><c> right</c><00:13:11.660><c> now</c><00:13:12.660><c> here</c><00:13:12.959><c> in</c><00:13:13.440><c> the</c><00:13:13.620><c> downloads</c>
+
+00:13:13.970 --> 00:13:13.980 align:start position:0%
+latest right now here in the downloads
+ 
+
+00:13:13.980 --> 00:13:15.590 align:start position:0%
+latest right now here in the downloads
+page<00:13:14.220><c> you</c><00:13:14.399><c> will</c><00:13:14.519><c> see</c><00:13:14.700><c> there</c><00:13:14.940><c> are</c><00:13:15.060><c> lots</c><00:13:15.420><c> of</c>
+
+00:13:15.590 --> 00:13:15.600 align:start position:0%
+page you will see there are lots of
+ 
+
+00:13:15.600 --> 00:13:19.009 align:start position:0%
+page you will see there are lots of
+different<00:13:15.899><c> uh</c><00:13:16.560><c> products</c><00:13:17.040><c> from</c><00:13:17.459><c> tracentes</c><00:13:18.120><c> but</c>
+
+00:13:19.009 --> 00:13:19.019 align:start position:0%
+different uh products from tracentes but
+ 
+
+00:13:19.019 --> 00:13:21.170 align:start position:0%
+different uh products from tracentes but
+we<00:13:19.440><c> are</c><00:13:19.620><c> only</c><00:13:19.800><c> interested</c><00:13:20.339><c> in</c><00:13:20.579><c> class</c><00:13:20.820><c> and</c>
+
+00:13:21.170 --> 00:13:21.180 align:start position:0%
+we are only interested in class and
+ 
+
+00:13:21.180 --> 00:13:24.170 align:start position:0%
+we are only interested in class and
+testoster<00:13:21.779><c> so</c><00:13:22.139><c> click</c><00:13:22.380><c> on</c><00:13:22.500><c> that</c>
+
+00:13:24.170 --> 00:13:24.180 align:start position:0%
+testoster so click on that
+ 
+
+00:13:24.180 --> 00:13:26.030 align:start position:0%
+testoster so click on that
+here<00:13:24.660><c> you</c><00:13:24.779><c> will</c><00:13:24.899><c> find</c><00:13:25.200><c> lots</c><00:13:25.740><c> of</c><00:13:25.860><c> different</c>
+
+00:13:26.030 --> 00:13:26.040 align:start position:0%
+here you will find lots of different
+ 
+
+00:13:26.040 --> 00:13:28.550 align:start position:0%
+here you will find lots of different
+Oscar<00:13:26.579><c> versions</c><00:13:27.000><c> but</c><00:13:27.300><c> we</c><00:13:27.540><c> need</c><00:13:27.660><c> to</c><00:13:27.779><c> find</c><00:13:28.079><c> the</c>
+
+00:13:28.550 --> 00:13:28.560 align:start position:0%
+Oscar versions but we need to find the
+ 
+
+00:13:28.560 --> 00:13:32.870 align:start position:0%
+Oscar versions but we need to find the
+Tosca<00:13:29.420><c> 16.0</c><00:13:30.420><c> LTS</c><00:13:31.139><c> right</c><00:13:31.500><c> don't</c><00:13:32.040><c> get</c><00:13:32.279><c> confused</c>
+
+00:13:32.870 --> 00:13:32.880 align:start position:0%
+Tosca 16.0 LTS right don't get confused
+ 
+
+00:13:32.880 --> 00:13:36.710 align:start position:0%
+Tosca 16.0 LTS right don't get confused
+uh<00:13:33.600><c> with</c><00:13:34.139><c> the</c><00:13:34.560><c> different</c><00:13:35.000><c> products</c><00:13:36.000><c> there</c><00:13:36.480><c> are</c>
+
+00:13:36.710 --> 00:13:36.720 align:start position:0%
+uh with the different products there are
+ 
+
+00:13:36.720 --> 00:13:40.310 align:start position:0%
+uh with the different products there are
+different<00:13:36.899><c> products</c><00:13:37.440><c> related</c><00:13:38.279><c> to</c><00:13:38.519><c> 16.0</c><00:13:39.420><c> but</c>
+
+00:13:40.310 --> 00:13:40.320 align:start position:0%
+different products related to 16.0 but
+ 
+
+00:13:40.320 --> 00:13:44.030 align:start position:0%
+different products related to 16.0 but
+look<00:13:40.620><c> for</c><00:13:41.040><c> uh</c><00:13:41.639><c> Tosca</c><00:13:42.240><c> in</c><00:13:42.720><c> the</c><00:13:42.839><c> product</c><00:13:43.079><c> and</c>
+
+00:13:44.030 --> 00:13:44.040 align:start position:0%
+look for uh Tosca in the product and
+ 
+
+00:13:44.040 --> 00:13:46.850 align:start position:0%
+look for uh Tosca in the product and
+title<00:13:44.579><c> should</c><00:13:44.820><c> be</c><00:13:44.940><c> Transcendence</c><00:13:45.540><c> Tosca</c><00:13:46.019><c> 16.0</c>
+
+00:13:46.850 --> 00:13:46.860 align:start position:0%
+title should be Transcendence Tosca 16.0
+ 
+
+00:13:46.860 --> 00:13:49.190 align:start position:0%
+title should be Transcendence Tosca 16.0
+LTS
+
+00:13:49.190 --> 00:13:49.200 align:start position:0%
+LTS
+ 
+
+00:13:49.200 --> 00:13:51.470 align:start position:0%
+LTS
+um<00:13:49.260><c> and</c><00:13:49.560><c> the</c><00:13:49.680><c> version</c><00:13:49.860><c> should</c><00:13:50.220><c> be</c><00:13:50.339><c> 16.0</c><00:13:51.180><c> so</c>
+
+00:13:51.470 --> 00:13:51.480 align:start position:0%
+um and the version should be 16.0 so
+ 
+
+00:13:51.480 --> 00:13:54.170 align:start position:0%
+um and the version should be 16.0 so
+this<00:13:51.839><c> is</c><00:13:52.079><c> the</c><00:13:52.680><c> Tosca</c><00:13:53.160><c> installer</c><00:13:53.760><c> which</c><00:13:54.000><c> we</c>
+
+00:13:54.170 --> 00:13:54.180 align:start position:0%
+this is the Tosca installer which we
+ 
+
+00:13:54.180 --> 00:13:56.769 align:start position:0%
+this is the Tosca installer which we
+need<00:13:54.360><c> to</c><00:13:54.480><c> download</c><00:13:54.660><c> okay</c><00:13:55.440><c> so</c><00:13:56.220><c> click</c><00:13:56.459><c> on</c><00:13:56.579><c> that</c>
+
+00:13:56.769 --> 00:13:56.779 align:start position:0%
+need to download okay so click on that
+ 
+
+00:13:56.779 --> 00:14:00.290 align:start position:0%
+need to download okay so click on that
+and<00:13:57.779><c> that</c><00:13:58.139><c> should</c><00:13:58.320><c> start</c><00:13:58.740><c> your</c><00:13:59.040><c> download</c><00:13:59.300><c> for</c>
+
+00:14:00.290 --> 00:14:00.300 align:start position:0%
+and that should start your download for
+ 
+
+00:14:00.300 --> 00:14:03.050 align:start position:0%
+and that should start your download for
+your<00:14:00.540><c> Tosca</c><00:14:00.959><c> version</c>
+
+00:14:03.050 --> 00:14:03.060 align:start position:0%
+your Tosca version
+ 
+
+00:14:03.060 --> 00:14:04.250 align:start position:0%
+your Tosca version
+now
+
+00:14:04.250 --> 00:14:04.260 align:start position:0%
+now
+ 
+
+00:14:04.260 --> 00:14:07.850 align:start position:0%
+now
+um<00:14:04.320><c> it's</c><00:14:04.620><c> around</c><00:14:04.860><c> 1.5</c><00:14:05.760><c> GB</c><00:14:06.360><c> so</c><00:14:06.720><c> it</c><00:14:07.019><c> will</c><00:14:07.200><c> take</c><00:14:07.500><c> a</c>
+
+00:14:07.850 --> 00:14:07.860 align:start position:0%
+um it's around 1.5 GB so it will take a
+ 
+
+00:14:07.860 --> 00:14:10.910 align:start position:0%
+um it's around 1.5 GB so it will take a
+few<00:14:08.100><c> minutes</c><00:14:08.339><c> to</c><00:14:08.760><c> download</c><00:14:09.200><c> and</c><00:14:10.200><c> once</c><00:14:10.680><c> it's</c>
+
+00:14:10.910 --> 00:14:10.920 align:start position:0%
+few minutes to download and once it's
+ 
+
+00:14:10.920 --> 00:14:14.990 align:start position:0%
+few minutes to download and once it's
+downloaded<00:14:11.459><c> then</c><00:14:12.060><c> uh</c><00:14:12.540><c> we'll</c><00:14:12.899><c> start</c><00:14:13.560><c> off</c><00:14:14.000><c> with</c>
+
+00:14:14.990 --> 00:14:15.000 align:start position:0%
+downloaded then uh we'll start off with
+ 
+
+00:14:15.000 --> 00:14:17.930 align:start position:0%
+downloaded then uh we'll start off with
+uh<00:14:15.899><c> installing</c><00:14:16.380><c> this</c><00:14:16.620><c> Tosca</c><00:14:17.100><c> version</c><00:14:17.339><c> on</c><00:14:17.760><c> this</c>
+
+00:14:17.930 --> 00:14:17.940 align:start position:0%
+uh installing this Tosca version on this
+ 
+
+00:14:17.940 --> 00:14:19.970 align:start position:0%
+uh installing this Tosca version on this
+Windows<00:14:18.360><c> server</c>
+
+00:14:19.970 --> 00:14:19.980 align:start position:0%
+Windows server
+ 
+
+00:14:19.980 --> 00:14:22.430 align:start position:0%
+Windows server
+so<00:14:20.639><c> now</c><00:14:20.820><c> that</c><00:14:21.120><c> the</c><00:14:21.300><c> download</c><00:14:21.540><c> is</c><00:14:22.019><c> complete</c>
+
+00:14:22.430 --> 00:14:22.440 align:start position:0%
+so now that the download is complete
+ 
+
+00:14:22.440 --> 00:14:25.790 align:start position:0%
+so now that the download is complete
+let's<00:14:22.800><c> go</c><00:14:23.100><c> ahead</c><00:14:23.459><c> and</c><00:14:23.940><c> go</c><00:14:24.240><c> to</c><00:14:24.420><c> this</c><00:14:24.660><c> folder</c><00:14:25.019><c> it</c>
+
+00:14:25.790 --> 00:14:25.800 align:start position:0%
+let's go ahead and go to this folder it
+ 
+
+00:14:25.800 --> 00:14:28.850 align:start position:0%
+let's go ahead and go to this folder it
+is<00:14:25.980><c> in</c><00:14:26.279><c> the</c><00:14:26.399><c> zip</c><00:14:26.519><c> format</c><00:14:27.060><c> so</c><00:14:27.660><c> we</c><00:14:28.079><c> need</c><00:14:28.260><c> to</c><00:14:28.560><c> first</c>
+
+00:14:28.850 --> 00:14:28.860 align:start position:0%
+is in the zip format so we need to first
+ 
+
+00:14:28.860 --> 00:14:30.769 align:start position:0%
+is in the zip format so we need to first
+uh
+
+00:14:30.769 --> 00:14:30.779 align:start position:0%
+uh
+ 
+
+00:14:30.779 --> 00:14:34.430 align:start position:0%
+uh
+extract<00:14:31.560><c> this</c><00:14:32.100><c> folder</c><00:14:32.459><c> so</c><00:14:33.000><c> let's</c><00:14:33.180><c> do</c><00:14:33.480><c> that</c>
+
+00:14:34.430 --> 00:14:34.440 align:start position:0%
+extract this folder so let's do that
+ 
+
+00:14:34.440 --> 00:14:41.210 align:start position:0%
+extract this folder so let's do that
+so<00:14:34.800><c> that</c><00:14:34.980><c> we</c><00:14:35.160><c> get</c><00:14:35.399><c> the</c><00:14:36.180><c> actual</c><00:14:36.480><c> installer</c>
+
+00:14:41.210 --> 00:14:41.220 align:start position:0%
+ 
+ 
+
+00:14:41.220 --> 00:14:43.550 align:start position:0%
+ 
+once<00:14:41.820><c> that's</c><00:14:41.940><c> completed</c><00:14:42.480><c> you</c><00:14:42.899><c> will</c><00:14:43.019><c> get</c><00:14:43.260><c> two</c>
+
+00:14:43.550 --> 00:14:43.560 align:start position:0%
+once that's completed you will get two
+ 
+
+00:14:43.560 --> 00:14:46.310 align:start position:0%
+once that's completed you will get two
+files<00:14:44.040><c> uh</c><00:14:44.699><c> one</c><00:14:44.940><c> is</c><00:14:45.120><c> the</c><00:14:45.300><c> application</c><00:14:45.720><c> and</c><00:14:46.079><c> one</c>
+
+00:14:46.310 --> 00:14:46.320 align:start position:0%
+files uh one is the application and one
+ 
+
+00:14:46.320 --> 00:14:50.030 align:start position:0%
+files uh one is the application and one
+is<00:14:46.500><c> the</c><00:14:47.060><c> sha256</c><00:14:48.060><c> file</c><00:14:48.420><c> but</c><00:14:49.320><c> uh</c><00:14:49.620><c> you</c><00:14:49.800><c> need</c><00:14:49.920><c> to</c>
+
+00:14:50.030 --> 00:14:50.040 align:start position:0%
+is the sha256 file but uh you need to
+ 
+
+00:14:50.040 --> 00:14:53.629 align:start position:0%
+is the sha256 file but uh you need to
+click<00:14:50.399><c> on</c><00:14:50.760><c> this</c><00:14:51.180><c> uh</c><00:14:51.660><c> application</c><00:14:52.260><c> which</c><00:14:52.680><c> is</c>
+
+00:14:53.629 --> 00:14:53.639 align:start position:0%
+click on this uh application which is
+ 
+
+00:14:53.639 --> 00:14:56.150 align:start position:0%
+click on this uh application which is
+um<00:14:53.699><c> the</c><00:14:54.300><c> actual</c><00:14:54.660><c> installer</c><00:14:55.320><c> so</c><00:14:55.740><c> double</c><00:14:55.920><c> click</c>
+
+00:14:56.150 --> 00:14:56.160 align:start position:0%
+um the actual installer so double click
+ 
+
+00:14:56.160 --> 00:15:02.389 align:start position:0%
+um the actual installer so double click
+on<00:14:56.459><c> it</c><00:14:56.579><c> to</c><00:14:56.940><c> start</c><00:14:57.180><c> the</c><00:14:57.600><c> Tosca</c><00:14:58.500><c> installer</c>
+
+00:15:02.389 --> 00:15:02.399 align:start position:0%
+ 
+ 
+
+00:15:02.399 --> 00:15:05.269 align:start position:0%
+ 
+once<00:15:03.240><c> the</c><00:15:03.360><c> installer</c><00:15:03.899><c> has</c><00:15:04.320><c> started</c><00:15:04.800><c> you</c><00:15:05.160><c> will</c>
+
+00:15:05.269 --> 00:15:05.279 align:start position:0%
+once the installer has started you will
+ 
+
+00:15:05.279 --> 00:15:07.970 align:start position:0%
+once the installer has started you will
+get<00:15:05.519><c> this</c><00:15:05.820><c> kind</c><00:15:06.000><c> of</c><00:15:06.120><c> a</c><00:15:06.300><c> window</c><00:15:06.740><c> with</c><00:15:07.740><c> a</c><00:15:07.860><c> welcome</c>
+
+00:15:07.970 --> 00:15:07.980 align:start position:0%
+get this kind of a window with a welcome
+ 
+
+00:15:07.980 --> 00:15:11.090 align:start position:0%
+get this kind of a window with a welcome
+message<00:15:08.459><c> you</c><00:15:09.420><c> need</c><00:15:09.540><c> to</c><00:15:09.660><c> click</c><00:15:10.019><c> on</c><00:15:10.320><c> I</c><00:15:10.560><c> agree</c><00:15:10.920><c> to</c>
+
+00:15:11.090 --> 00:15:11.100 align:start position:0%
+message you need to click on I agree to
+ 
+
+00:15:11.100 --> 00:15:15.050 align:start position:0%
+message you need to click on I agree to
+license<00:15:11.279><c> terms</c><00:15:11.820><c> and</c><00:15:12.300><c> continue</c>
+
+00:15:15.050 --> 00:15:15.060 align:start position:0%
+ 
+ 
+
+00:15:15.060 --> 00:15:17.509 align:start position:0%
+ 
+you<00:15:15.600><c> just</c><00:15:15.720><c> need</c><00:15:15.839><c> to</c><00:15:16.019><c> follow</c><00:15:16.260><c> everything</c><00:15:17.100><c> which</c>
+
+00:15:17.509 --> 00:15:17.519 align:start position:0%
+you just need to follow everything which
+ 
+
+00:15:17.519 --> 00:15:19.910 align:start position:0%
+you just need to follow everything which
+is<00:15:17.760><c> displayed</c><00:15:18.540><c> on</c><00:15:18.779><c> this</c><00:15:18.959><c> window</c><00:15:19.139><c> and</c><00:15:19.680><c> you</c>
+
+00:15:19.910 --> 00:15:19.920 align:start position:0%
+is displayed on this window and you
+ 
+
+00:15:19.920 --> 00:15:23.389 align:start position:0%
+is displayed on this window and you
+should<00:15:20.100><c> be</c><00:15:20.339><c> installed</c><00:15:21.060><c> uh</c><00:15:21.959><c> pretty</c><00:15:22.199><c> easy</c><00:15:22.440><c> this</c>
+
+00:15:23.389 --> 00:15:23.399 align:start position:0%
+should be installed uh pretty easy this
+ 
+
+00:15:23.399 --> 00:15:26.449 align:start position:0%
+should be installed uh pretty easy this
+Tosca<00:15:24.000><c> setup</c><00:15:24.420><c> okay</c><00:15:24.860><c> so</c><00:15:25.860><c> all</c><00:15:26.279><c> these</c>
+
+00:15:26.449 --> 00:15:26.459 align:start position:0%
+Tosca setup okay so all these
+ 
+
+00:15:26.459 --> 00:15:29.030 align:start position:0%
+Tosca setup okay so all these
+prerequisite<00:15:27.120><c> if</c><00:15:27.959><c> these</c><00:15:28.199><c> are</c><00:15:28.320><c> not</c><00:15:28.440><c> installed</c>
+
+00:15:29.030 --> 00:15:29.040 align:start position:0%
+prerequisite if these are not installed
+ 
+
+00:15:29.040 --> 00:15:31.850 align:start position:0%
+prerequisite if these are not installed
+trash<00:15:29.579><c> and</c><00:15:29.880><c> this</c><00:15:30.060><c> setup</c><00:15:30.720><c> would</c><00:15:31.199><c> install</c><00:15:31.500><c> it</c>
+
+00:15:31.850 --> 00:15:31.860 align:start position:0%
+trash and this setup would install it
+ 
+
+00:15:31.860 --> 00:15:34.670 align:start position:0%
+trash and this setup would install it
+for<00:15:32.100><c> you</c><00:15:32.220><c> so</c><00:15:33.000><c> just</c><00:15:33.180><c> click</c><00:15:33.420><c> on</c><00:15:33.540><c> next</c>
+
+00:15:34.670 --> 00:15:34.680 align:start position:0%
+for you so just click on next
+ 
+
+00:15:34.680 --> 00:15:36.949 align:start position:0%
+for you so just click on next
+um<00:15:34.800><c> choose</c><00:15:35.459><c> the</c><00:15:35.579><c> setup</c><00:15:35.880><c> that</c><00:15:36.060><c> best</c><00:15:36.360><c> suits</c><00:15:36.779><c> or</c>
+
+00:15:36.949 --> 00:15:36.959 align:start position:0%
+um choose the setup that best suits or
+ 
+
+00:15:36.959 --> 00:15:39.889 align:start position:0%
+um choose the setup that best suits or
+needs<00:15:37.320><c> we</c><00:15:38.100><c> can</c><00:15:38.279><c> set</c><00:15:38.459><c> up</c><00:15:38.639><c> this</c><00:15:39.000><c> machine</c><00:15:39.240><c> as</c><00:15:39.660><c> an</c>
+
+00:15:39.889 --> 00:15:39.899 align:start position:0%
+needs we can set up this machine as an
+ 
+
+00:15:39.899 --> 00:15:42.530 align:start position:0%
+needs we can set up this machine as an
+execution<00:15:40.260><c> agent</c><00:15:40.860><c> we</c><00:15:41.279><c> can</c><00:15:41.459><c> set</c><00:15:41.699><c> up</c><00:15:41.880><c> a</c><00:15:42.240><c> custom</c>
+
+00:15:42.530 --> 00:15:42.540 align:start position:0%
+execution agent we can set up a custom
+ 
+
+00:15:42.540 --> 00:15:45.230 align:start position:0%
+execution agent we can set up a custom
+installation<00:15:43.199><c> but</c><00:15:43.680><c> we</c><00:15:44.399><c> need</c><00:15:44.579><c> to</c><00:15:45.120><c> install</c>
+
+00:15:45.230 --> 00:15:45.240 align:start position:0%
+installation but we need to install
+ 
+
+00:15:45.240 --> 00:15:48.590 align:start position:0%
+installation but we need to install
+Tosca<00:15:45.779><c> Commander</c><00:15:46.320><c> so</c><00:15:46.560><c> we'll</c><00:15:46.940><c> keep</c><00:15:47.940><c> it</c><00:15:48.180><c> as</c><00:15:48.420><c> it</c>
+
+00:15:48.590 --> 00:15:48.600 align:start position:0%
+Tosca Commander so we'll keep it as it
+ 
+
+00:15:48.600 --> 00:15:50.810 align:start position:0%
+Tosca Commander so we'll keep it as it
+is<00:15:48.720><c> click</c><00:15:49.139><c> on</c><00:15:49.260><c> next</c>
+
+00:15:50.810 --> 00:15:50.820 align:start position:0%
+is click on next
+ 
+
+00:15:50.820 --> 00:15:52.910 align:start position:0%
+is click on next
+all<00:15:51.420><c> these</c><00:15:51.660><c> are</c><00:15:51.779><c> the</c><00:15:51.959><c> default</c><00:15:52.260><c> folders</c><00:15:52.680><c> for</c>
+
+00:15:52.910 --> 00:15:52.920 align:start position:0%
+all these are the default folders for
+ 
+
+00:15:52.920 --> 00:15:55.009 align:start position:0%
+all these are the default folders for
+Tosca<00:15:53.399><c> so</c><00:15:53.699><c> I</c><00:15:54.120><c> don't</c><00:15:54.180><c> need</c><00:15:54.360><c> to</c><00:15:54.480><c> change</c><00:15:54.720><c> them</c>
+
+00:15:55.009 --> 00:15:55.019 align:start position:0%
+Tosca so I don't need to change them
+ 
+
+00:15:55.019 --> 00:15:57.110 align:start position:0%
+Tosca so I don't need to change them
+click<00:15:55.500><c> on</c><00:15:55.620><c> next</c>
+
+00:15:57.110 --> 00:15:57.120 align:start position:0%
+click on next
+ 
+
+00:15:57.120 --> 00:15:59.269 align:start position:0%
+click on next
+um<00:15:57.180><c> this</c><00:15:57.480><c> is</c><00:15:57.540><c> Tosca</c><00:15:58.079><c> Diagnostics</c><00:15:58.680><c> if</c><00:15:58.980><c> you</c><00:15:59.160><c> want</c>
+
+00:15:59.269 --> 00:15:59.279 align:start position:0%
+um this is Tosca Diagnostics if you want
+ 
+
+00:15:59.279 --> 00:16:02.930 align:start position:0%
+um this is Tosca Diagnostics if you want
+you<00:15:59.519><c> can</c><00:15:59.639><c> keep</c><00:15:59.820><c> it</c><00:16:00.060><c> or</c><00:16:00.779><c> remove</c><00:16:01.199><c> it</c>
+
+00:16:02.930 --> 00:16:02.940 align:start position:0%
+you can keep it or remove it
+ 
+
+00:16:02.940 --> 00:16:05.569 align:start position:0%
+you can keep it or remove it
+this<00:16:03.360><c> is</c><00:16:03.540><c> the</c><00:16:03.720><c> update</c><00:16:03.959><c> service</c><00:16:04.320><c> if</c><00:16:05.160><c> you</c><00:16:05.339><c> want</c>
+
+00:16:05.569 --> 00:16:05.579 align:start position:0%
+this is the update service if you want
+ 
+
+00:16:05.579 --> 00:16:09.590 align:start position:0%
+this is the update service if you want
+to<00:16:05.880><c> enable</c><00:16:06.720><c> the</c><00:16:07.260><c> update</c><00:16:07.560><c> service</c><00:16:07.860><c> by</c><00:16:08.339><c> default</c>
+
+00:16:09.590 --> 00:16:09.600 align:start position:0%
+to enable the update service by default
+ 
+
+00:16:09.600 --> 00:16:12.710 align:start position:0%
+to enable the update service by default
+or<00:16:10.199><c> else</c><00:16:10.380><c> just</c><00:16:10.740><c> click</c><00:16:11.100><c> on</c><00:16:11.220><c> next</c><00:16:11.519><c> uh</c><00:16:12.480><c> something</c>
+
+00:16:12.710 --> 00:16:12.720 align:start position:0%
+or else just click on next uh something
+ 
+
+00:16:12.720 --> 00:16:15.290 align:start position:0%
+or else just click on next uh something
+related<00:16:13.139><c> to</c><00:16:13.380><c> Tosca</c><00:16:13.740><c> data</c><00:16:14.160><c> Integrity</c><00:16:14.579><c> I</c><00:16:15.180><c> don't</c>
+
+00:16:15.290 --> 00:16:15.300 align:start position:0%
+related to Tosca data Integrity I don't
+ 
+
+00:16:15.300 --> 00:16:16.730 align:start position:0%
+related to Tosca data Integrity I don't
+need<00:16:15.480><c> to</c><00:16:15.600><c> install</c><00:16:15.779><c> it</c>
+
+00:16:16.730 --> 00:16:16.740 align:start position:0%
+need to install it
+ 
+
+00:16:16.740 --> 00:16:20.509 align:start position:0%
+need to install it
+this<00:16:17.399><c> is</c><00:16:17.579><c> related</c><00:16:18.000><c> to</c><00:16:18.240><c> Vision</c><00:16:18.480><c> AI</c><00:16:19.139><c> engine</c><00:16:19.519><c> I</c>
+
+00:16:20.509 --> 00:16:20.519 align:start position:0%
+this is related to Vision AI engine I
+ 
+
+00:16:20.519 --> 00:16:22.730 align:start position:0%
+this is related to Vision AI engine I
+believe<00:16:20.699><c> it</c><00:16:21.000><c> as</c><00:16:21.300><c> it</c><00:16:21.480><c> is</c><00:16:21.660><c> it</c><00:16:21.839><c> will</c><00:16:22.019><c> install</c><00:16:22.199><c> the</c>
+
+00:16:22.730 --> 00:16:22.740 align:start position:0%
+believe it as it is it will install the
+ 
+
+00:16:22.740 --> 00:16:25.970 align:start position:0%
+believe it as it is it will install the
+vision<00:16:22.920><c> AI</c><00:16:23.519><c> engine</c><00:16:23.760><c> for</c><00:16:24.240><c> me</c>
+
+00:16:25.970 --> 00:16:25.980 align:start position:0%
+vision AI engine for me
+ 
+
+00:16:25.980 --> 00:16:28.129 align:start position:0%
+vision AI engine for me
+and<00:16:26.579><c> then</c><00:16:26.699><c> it</c><00:16:26.940><c> will</c><00:16:27.060><c> show</c><00:16:27.240><c> you</c><00:16:27.420><c> a</c><00:16:27.540><c> summary</c><00:16:27.839><c> of</c>
+
+00:16:28.129 --> 00:16:28.139 align:start position:0%
+and then it will show you a summary of
+ 
+
+00:16:28.139 --> 00:16:30.350 align:start position:0%
+and then it will show you a summary of
+what<00:16:28.440><c> it</c><00:16:28.620><c> is</c><00:16:28.740><c> going</c><00:16:28.920><c> to</c><00:16:29.100><c> install</c><00:16:29.279><c> okay</c><00:16:29.820><c> so</c><00:16:30.120><c> you</c>
+
+00:16:30.350 --> 00:16:30.360 align:start position:0%
+what it is going to install okay so you
+ 
+
+00:16:30.360 --> 00:16:32.329 align:start position:0%
+what it is going to install okay so you
+can<00:16:30.480><c> still</c><00:16:30.720><c> change</c><00:16:31.019><c> features</c><00:16:31.980><c> which</c><00:16:32.160><c> you</c>
+
+00:16:32.329 --> 00:16:32.339 align:start position:0%
+can still change features which you
+ 
+
+00:16:32.339 --> 00:16:35.810 align:start position:0%
+can still change features which you
+don't<00:16:32.519><c> need</c><00:16:32.839><c> and</c><00:16:33.839><c> remove</c><00:16:34.079><c> them</c><00:16:34.500><c> but</c><00:16:35.579><c> um</c><00:16:35.579><c> I</c>
+
+00:16:35.810 --> 00:16:35.820 align:start position:0%
+don't need and remove them but um I
+ 
+
+00:16:35.820 --> 00:16:37.850 align:start position:0%
+don't need and remove them but um I
+would<00:16:35.940><c> say</c><00:16:36.120><c> just</c><00:16:36.360><c> stick</c><00:16:36.600><c> to</c><00:16:36.720><c> the</c><00:16:36.959><c> default</c><00:16:37.320><c> and</c>
+
+00:16:37.850 --> 00:16:37.860 align:start position:0%
+would say just stick to the default and
+ 
+
+00:16:37.860 --> 00:16:40.490 align:start position:0%
+would say just stick to the default and
+go<00:16:38.399><c> through</c><00:16:38.579><c> the</c><00:16:38.820><c> installation</c>
+
+00:16:40.490 --> 00:16:40.500 align:start position:0%
+go through the installation
+ 
+
+00:16:40.500 --> 00:16:43.430 align:start position:0%
+go through the installation
+so<00:16:41.040><c> now</c><00:16:41.279><c> it</c><00:16:41.519><c> will</c><00:16:41.699><c> install</c><00:16:42.480><c> all</c><00:16:43.079><c> the</c><00:16:43.259><c> different</c>
+
+00:16:43.430 --> 00:16:43.440 align:start position:0%
+so now it will install all the different
+ 
+
+00:16:43.440 --> 00:16:45.829 align:start position:0%
+so now it will install all the different
+uh<00:16:44.040><c> setups</c><00:16:44.579><c> it</c><00:16:44.820><c> may</c><00:16:45.240><c> take</c><00:16:45.420><c> some</c><00:16:45.660><c> time</c>
+
+00:16:45.829 --> 00:16:45.839 align:start position:0%
+uh setups it may take some time
+ 
+
+00:16:45.839 --> 00:16:50.329 align:start position:0%
+uh setups it may take some time
+depending<00:16:46.380><c> on</c><00:16:46.800><c> your</c><00:16:46.980><c> machine</c><00:16:47.160><c> configuration</c>
+
+00:16:50.329 --> 00:16:50.339 align:start position:0%
+ 
+ 
+
+00:16:50.339 --> 00:16:52.310 align:start position:0%
+ 
+once<00:16:50.880><c> the</c><00:16:51.000><c> installation</c><00:16:51.420><c> is</c><00:16:51.660><c> completed</c><00:16:52.079><c> you</c>
+
+00:16:52.310 --> 00:16:52.320 align:start position:0%
+once the installation is completed you
+ 
+
+00:16:52.320 --> 00:16:54.350 align:start position:0%
+once the installation is completed you
+should<00:16:52.500><c> get</c><00:16:52.740><c> a</c><00:16:52.980><c> summary</c><00:16:53.279><c> with</c><00:16:53.639><c> all</c><00:16:54.060><c> the</c><00:16:54.180><c> text</c>
+
+00:16:54.350 --> 00:16:54.360 align:start position:0%
+should get a summary with all the text
+ 
+
+00:16:54.360 --> 00:16:56.389 align:start position:0%
+should get a summary with all the text
+on<00:16:54.899><c> all</c><00:16:55.199><c> the</c><00:16:55.320><c> different</c><00:16:55.440><c> components</c><00:16:56.040><c> you</c><00:16:56.220><c> can</c>
+
+00:16:56.389 --> 00:16:56.399 align:start position:0%
+on all the different components you can
+ 
+
+00:16:56.399 --> 00:16:58.910 align:start position:0%
+on all the different components you can
+even<00:16:56.579><c> look</c><00:16:57.240><c> at</c><00:16:57.420><c> the</c><00:16:57.600><c> logs</c><00:16:57.899><c> if</c><00:16:58.259><c> something</c><00:16:58.440><c> goes</c>
+
+00:16:58.910 --> 00:16:58.920 align:start position:0%
+even look at the logs if something goes
+ 
+
+00:16:58.920 --> 00:16:59.810 align:start position:0%
+even look at the logs if something goes
+wrong
+
+00:16:59.810 --> 00:16:59.820 align:start position:0%
+wrong
+ 
+
+00:16:59.820 --> 00:17:02.870 align:start position:0%
+wrong
+now<00:17:00.959><c> just</c><00:17:01.620><c> to</c><00:17:01.740><c> finish</c><00:17:01.920><c> the</c><00:17:02.160><c> installation</c><00:17:02.579><c> we</c>
+
+00:17:02.870 --> 00:17:02.880 align:start position:0%
+now just to finish the installation we
+ 
+
+00:17:02.880 --> 00:17:04.669 align:start position:0%
+now just to finish the installation we
+need<00:17:03.000><c> to</c><00:17:03.120><c> click</c><00:17:03.300><c> on</c><00:17:03.480><c> finish</c>
+
+00:17:04.669 --> 00:17:04.679 align:start position:0%
+need to click on finish
+ 
+
+00:17:04.679 --> 00:17:07.549 align:start position:0%
+need to click on finish
+and<00:17:05.280><c> that</c><00:17:05.400><c> should</c><00:17:05.699><c> complete</c><00:17:06.179><c> our</c><00:17:06.900><c> next</c><00:17:07.140><c> steps</c>
+
+00:17:07.549 --> 00:17:07.559 align:start position:0%
+and that should complete our next steps
+ 
+
+00:17:07.559 --> 00:17:12.110 align:start position:0%
+and that should complete our next steps
+to<00:17:08.100><c> download</c><00:17:08.579><c> and</c><00:17:09.299><c> install</c><00:17:09.540><c> Tosca</c><00:17:10.260><c> 16.0</c><00:17:11.160><c> on</c>
+
+00:17:12.110 --> 00:17:12.120 align:start position:0%
+to download and install Tosca 16.0 on
+ 
+
+00:17:12.120 --> 00:17:14.329 align:start position:0%
+to download and install Tosca 16.0 on
+your<00:17:12.360><c> Windows</c><00:17:12.839><c> server</c>
+
+00:17:14.329 --> 00:17:14.339 align:start position:0%
+your Windows server
+ 
+
+00:17:14.339 --> 00:17:17.150 align:start position:0%
+your Windows server
+now<00:17:14.939><c> if</c><00:17:15.299><c> you</c><00:17:15.360><c> go</c><00:17:15.540><c> to</c><00:17:15.600><c> a</c><00:17:15.780><c> Windows</c><00:17:16.140><c> menu</c><00:17:16.319><c> you</c>
+
+00:17:17.150 --> 00:17:17.160 align:start position:0%
+now if you go to a Windows menu you
+ 
+
+00:17:17.160 --> 00:17:19.789 align:start position:0%
+now if you go to a Windows menu you
+should<00:17:17.339><c> see</c><00:17:17.760><c> a</c><00:17:18.240><c> Transcendence</c><00:17:18.959><c> folder</c><00:17:19.439><c> with</c>
+
+00:17:19.789 --> 00:17:19.799 align:start position:0%
+should see a Transcendence folder with
+ 
+
+00:17:19.799 --> 00:17:21.049 align:start position:0%
+should see a Transcendence folder with
+all<00:17:20.040><c> the</c><00:17:20.220><c> different</c><00:17:20.339><c> types</c><00:17:20.699><c> in</c><00:17:20.880><c> this</c>
+
+00:17:21.049 --> 00:17:21.059 align:start position:0%
+all the different types in this
+ 
+
+00:17:21.059 --> 00:17:23.510 align:start position:0%
+all the different types in this
+components<00:17:21.660><c> which</c><00:17:22.319><c> are</c><00:17:22.500><c> installed</c><00:17:22.980><c> on</c><00:17:23.280><c> this</c>
+
+00:17:23.510 --> 00:17:23.520 align:start position:0%
+components which are installed on this
+ 
+
+00:17:23.520 --> 00:17:26.030 align:start position:0%
+components which are installed on this
+Windows<00:17:24.120><c> machine</c><00:17:24.360><c> or</c><00:17:24.839><c> server</c>
+
+00:17:26.030 --> 00:17:26.040 align:start position:0%
+Windows machine or server
+ 
+
+00:17:26.040 --> 00:17:28.610 align:start position:0%
+Windows machine or server
+out<00:17:26.579><c> of</c><00:17:26.760><c> this</c><00:17:26.939><c> the</c><00:17:27.299><c> most</c><00:17:27.419><c> interesting</c><00:17:27.900><c> is</c><00:17:28.380><c> the</c>
+
+00:17:28.610 --> 00:17:28.620 align:start position:0%
+out of this the most interesting is the
+ 
+
+00:17:28.620 --> 00:17:31.130 align:start position:0%
+out of this the most interesting is the
+Tosca<00:17:29.040><c> Commander</c><00:17:29.580><c> or</c><00:17:30.059><c> the</c><00:17:30.419><c> most</c><00:17:30.540><c> important</c><00:17:30.960><c> I</c>
+
+00:17:31.130 --> 00:17:31.140 align:start position:0%
+Tosca Commander or the most important I
+ 
+
+00:17:31.140 --> 00:17:34.190 align:start position:0%
+Tosca Commander or the most important I
+would<00:17:31.320><c> say</c><00:17:31.520><c> so</c><00:17:32.520><c> click</c><00:17:32.880><c> on</c><00:17:33.000><c> that</c><00:17:33.179><c> to</c><00:17:33.660><c> launch</c><00:17:33.900><c> our</c>
+
+00:17:34.190 --> 00:17:34.200 align:start position:0%
+would say so click on that to launch our
+ 
+
+00:17:34.200 --> 00:17:37.970 align:start position:0%
+would say so click on that to launch our
+Tosca<00:17:34.679><c> Commander</c><00:17:35.160><c> now</c><00:17:35.720><c> and</c><00:17:36.720><c> we</c><00:17:37.380><c> are</c><00:17:37.559><c> only</c><00:17:37.740><c> left</c>
+
+00:17:37.970 --> 00:17:37.980 align:start position:0%
+Tosca Commander now and we are only left
+ 
+
+00:17:37.980 --> 00:17:40.909 align:start position:0%
+Tosca Commander now and we are only left
+with<00:17:38.340><c> the</c><00:17:38.520><c> final</c><00:17:38.640><c> step</c><00:17:39.000><c> uh</c><00:17:39.900><c> it</c><00:17:40.440><c> is</c><00:17:40.559><c> to</c><00:17:40.740><c> connect</c>
+
+00:17:40.909 --> 00:17:40.919 align:start position:0%
+with the final step uh it is to connect
+ 
+
+00:17:40.919 --> 00:17:44.090 align:start position:0%
+with the final step uh it is to connect
+to<00:17:41.460><c> our</c><00:17:41.640><c> cloud</c><00:17:41.880><c> training</c><00:17:42.419><c> license</c><00:17:42.740><c> server</c><00:17:43.740><c> so</c>
+
+00:17:44.090 --> 00:17:44.100 align:start position:0%
+to our cloud training license server so
+ 
+
+00:17:44.100 --> 00:17:47.690 align:start position:0%
+to our cloud training license server so
+that<00:17:44.400><c> our</c><00:17:44.760><c> Tosca</c><00:17:45.500><c> Commander</c><00:17:46.500><c> can</c><00:17:46.799><c> use</c><00:17:47.400><c> that</c>
+
+00:17:47.690 --> 00:17:47.700 align:start position:0%
+that our Tosca Commander can use that
+ 
+
+00:17:47.700 --> 00:17:50.090 align:start position:0%
+that our Tosca Commander can use that
+license<00:17:48.000><c> and</c><00:17:48.780><c> we</c><00:17:49.200><c> can</c><00:17:49.380><c> launch</c><00:17:49.799><c> out</c><00:17:49.980><c> of</c>
+
+00:17:50.090 --> 00:17:50.100 align:start position:0%
+license and we can launch out of
+ 
+
+00:17:50.100 --> 00:17:57.049 align:start position:0%
+license and we can launch out of
+commander<00:17:50.760><c> on</c><00:17:51.059><c> this</c><00:17:51.299><c> Windows</c><00:17:51.780><c> server</c>
+
+00:17:57.049 --> 00:17:57.059 align:start position:0%
+ 
+ 
+
+00:17:57.059 --> 00:17:59.450 align:start position:0%
+ 
+now<00:17:57.419><c> since</c><00:17:57.660><c> we</c><00:17:57.960><c> have</c><00:17:58.140><c> not</c><00:17:58.620><c> activated</c><00:17:59.160><c> any</c>
+
+00:17:59.450 --> 00:17:59.460 align:start position:0%
+now since we have not activated any
+ 
+
+00:17:59.460 --> 00:18:01.789 align:start position:0%
+now since we have not activated any
+license<00:17:59.820><c> it</c><00:18:00.299><c> will</c><00:18:00.419><c> take</c><00:18:00.600><c> you</c><00:18:00.780><c> to</c><00:18:01.020><c> this</c><00:18:01.380><c> license</c>
+
+00:18:01.789 --> 00:18:01.799 align:start position:0%
+license it will take you to this license
+ 
+
+00:18:01.799 --> 00:18:05.150 align:start position:0%
+license it will take you to this license
+page<00:18:02.520><c> where</c><00:18:02.880><c> you</c><00:18:03.179><c> need</c><00:18:03.299><c> to</c><00:18:03.600><c> enter</c><00:18:04.380><c> a</c><00:18:04.740><c> username</c>
+
+00:18:05.150 --> 00:18:05.160 align:start position:0%
+page where you need to enter a username
+ 
+
+00:18:05.160 --> 00:18:07.130 align:start position:0%
+page where you need to enter a username
+and<00:18:05.340><c> password</c><00:18:05.580><c> to</c><00:18:06.179><c> connect</c><00:18:06.360><c> to</c><00:18:06.780><c> your</c><00:18:06.960><c> cloud</c>
+
+00:18:07.130 --> 00:18:07.140 align:start position:0%
+and password to connect to your cloud
+ 
+
+00:18:07.140 --> 00:18:09.470 align:start position:0%
+and password to connect to your cloud
+training<00:18:07.620><c> license</c><00:18:07.820><c> now</c><00:18:08.820><c> if</c><00:18:09.059><c> you</c><00:18:09.179><c> are</c><00:18:09.299><c> on</c>
+
+00:18:09.470 --> 00:18:09.480 align:start position:0%
+training license now if you are on
+ 
+
+00:18:09.480 --> 00:18:12.049 align:start position:0%
+training license now if you are on
+different<00:18:09.720><c> uh</c><00:18:10.500><c> license</c><00:18:10.860><c> model</c><00:18:11.220><c> don't</c><00:18:11.820><c> worry</c>
+
+00:18:12.049 --> 00:18:12.059 align:start position:0%
+different uh license model don't worry
+ 
+
+00:18:12.059 --> 00:18:17.330 align:start position:0%
+different uh license model don't worry
+uh<00:18:12.960><c> just</c><00:18:13.500><c> go</c><00:18:14.280><c> back</c><00:18:14.580><c> to</c><00:18:15.240><c> manage</c><00:18:15.780><c> and</c><00:18:16.500><c> then</c><00:18:16.740><c> also</c>
+
+00:18:17.330 --> 00:18:17.340 align:start position:0%
+uh just go back to manage and then also
+ 
+
+00:18:17.340 --> 00:18:21.770 align:start position:0%
+uh just go back to manage and then also
+go<00:18:18.179><c> to</c><00:18:18.299><c> activate</c><00:18:18.980><c> and</c><00:18:19.980><c> click</c><00:18:20.460><c> on</c><00:18:20.700><c> connect</c><00:18:20.940><c> that</c>
+
+00:18:21.770 --> 00:18:21.780 align:start position:0%
+go to activate and click on connect that
+ 
+
+00:18:21.780 --> 00:18:24.529 align:start position:0%
+go to activate and click on connect that
+should<00:18:21.960><c> give</c><00:18:22.200><c> you</c><00:18:22.380><c> different</c><00:18:23.039><c> options</c><00:18:23.640><c> like</c><00:18:24.120><c> a</c>
+
+00:18:24.529 --> 00:18:24.539 align:start position:0%
+should give you different options like a
+ 
+
+00:18:24.539 --> 00:18:27.169 align:start position:0%
+should give you different options like a
+self-hosted<00:18:25.380><c> license</c><00:18:25.620><c> server</c><00:18:26.220><c> if</c><00:18:26.580><c> you</c><00:18:26.760><c> want</c>
+
+00:18:27.169 --> 00:18:27.179 align:start position:0%
+self-hosted license server if you want
+ 
+
+00:18:27.179 --> 00:18:30.409 align:start position:0%
+self-hosted license server if you want
+to<00:18:27.299><c> install</c><00:18:27.539><c> it</c><00:18:27.900><c> directly</c><00:18:28.260><c> on</c><00:18:29.100><c> the</c><00:18:29.280><c> server</c><00:18:29.640><c> or</c>
+
+00:18:30.409 --> 00:18:30.419 align:start position:0%
+to install it directly on the server or
+ 
+
+00:18:30.419 --> 00:18:32.630 align:start position:0%
+to install it directly on the server or
+use<00:18:30.780><c> licenses</c><00:18:31.380><c> from</c><00:18:31.620><c> my</c><00:18:31.799><c> local</c><00:18:31.919><c> machine</c><00:18:32.280><c> right</c>
+
+00:18:32.630 --> 00:18:32.640 align:start position:0%
+use licenses from my local machine right
+ 
+
+00:18:32.640 --> 00:18:34.669 align:start position:0%
+use licenses from my local machine right
+but<00:18:33.480><c> I</c><00:18:33.720><c> am</c><00:18:33.840><c> going</c><00:18:33.960><c> to</c><00:18:34.080><c> connect</c><00:18:34.200><c> to</c><00:18:34.440><c> the</c><00:18:34.559><c> cloud</c>
+
+00:18:34.669 --> 00:18:34.679 align:start position:0%
+but I am going to connect to the cloud
+ 
+
+00:18:34.679 --> 00:18:36.770 align:start position:0%
+but I am going to connect to the cloud
+hosted<00:18:35.220><c> license</c><00:18:35.520><c> server</c><00:18:36.000><c> because</c><00:18:36.240><c> that's</c>
+
+00:18:36.770 --> 00:18:36.780 align:start position:0%
+hosted license server because that's
+ 
+
+00:18:36.780 --> 00:18:39.350 align:start position:0%
+hosted license server because that's
+what<00:18:37.020><c> I</c><00:18:37.260><c> have</c><00:18:37.380><c> used</c><00:18:37.559><c> okay</c><00:18:38.220><c> so</c><00:18:38.820><c> I</c><00:18:38.940><c> need</c><00:18:39.059><c> to</c><00:18:39.179><c> use</c>
+
+00:18:39.350 --> 00:18:39.360 align:start position:0%
+what I have used okay so I need to use
+ 
+
+00:18:39.360 --> 00:18:41.470 align:start position:0%
+what I have used okay so I need to use
+the<00:18:39.660><c> same</c><00:18:39.780><c> username</c><00:18:40.200><c> and</c><00:18:40.440><c> password</c><00:18:40.620><c> which</c>
+
+00:18:41.470 --> 00:18:41.480 align:start position:0%
+the same username and password which
+ 
+
+00:18:41.480 --> 00:18:43.850 align:start position:0%
+the same username and password which
+I've<00:18:42.480><c> created</c><00:18:42.840><c> an</c><00:18:43.020><c> account</c><00:18:43.200><c> on</c><00:18:43.740><c> the</c>
+
+00:18:43.850 --> 00:18:43.860 align:start position:0%
+I've created an account on the
+ 
+
+00:18:43.860 --> 00:18:46.610 align:start position:0%
+I've created an account on the
+transientist<00:18:44.520><c> support</c><00:18:44.700><c> portal</c><00:18:45.240><c> right</c><00:18:45.660><c> so</c>
+
+00:18:46.610 --> 00:18:46.620 align:start position:0%
+transientist support portal right so
+ 
+
+00:18:46.620 --> 00:18:49.250 align:start position:0%
+transientist support portal right so
+let's<00:18:47.100><c> go</c><00:18:47.580><c> ahead</c><00:18:47.760><c> and</c><00:18:48.179><c> use</c><00:18:48.539><c> that</c><00:18:49.020><c> same</c>
+
+00:18:49.250 --> 00:18:49.260 align:start position:0%
+let's go ahead and use that same
+ 
+
+00:18:49.260 --> 00:18:51.230 align:start position:0%
+let's go ahead and use that same
+username<00:18:49.799><c> and</c><00:18:50.160><c> password</c>
+
+00:18:51.230 --> 00:18:51.240 align:start position:0%
+username and password
+ 
+
+00:18:51.240 --> 00:18:54.289 align:start position:0%
+username and password
+which<00:18:51.900><c> we</c><00:18:52.080><c> used</c><00:18:52.320><c> earlier</c>
+
+00:18:54.289 --> 00:18:54.299 align:start position:0%
+which we used earlier
+ 
+
+00:18:54.299 --> 00:18:57.310 align:start position:0%
+which we used earlier
+and<00:18:54.960><c> click</c><00:18:55.200><c> on</c><00:18:55.320><c> OK</c>
+
+00:18:57.310 --> 00:18:57.320 align:start position:0%
+and click on OK
+ 
+
+00:18:57.320 --> 00:19:01.250 align:start position:0%
+and click on OK
+bank<00:18:58.460><c> that</c><00:18:59.460><c> worked</c><00:18:59.820><c> like</c><00:18:59.940><c> a</c><00:19:00.120><c> charm</c><00:19:00.419><c> right</c><00:19:00.720><c> so</c>
+
+00:19:01.250 --> 00:19:01.260 align:start position:0%
+bank that worked like a charm right so
+ 
+
+00:19:01.260 --> 00:19:02.930 align:start position:0%
+bank that worked like a charm right so
+now<00:19:01.559><c> we</c><00:19:01.740><c> have</c><00:19:01.860><c> connected</c><00:19:02.340><c> to</c><00:19:02.640><c> the</c><00:19:02.820><c> license</c>
+
+00:19:02.930 --> 00:19:02.940 align:start position:0%
+now we have connected to the license
+ 
+
+00:19:02.940 --> 00:19:05.630 align:start position:0%
+now we have connected to the license
+server<00:19:03.539><c> and</c><00:19:04.080><c> we</c><00:19:04.320><c> can</c><00:19:04.500><c> start</c><00:19:04.679><c> using</c><00:19:05.100><c> Commander</c>
+
+00:19:05.630 --> 00:19:05.640 align:start position:0%
+server and we can start using Commander
+ 
+
+00:19:05.640 --> 00:19:08.750 align:start position:0%
+server and we can start using Commander
+Tosca<00:19:06.419><c> Commander</c><00:19:06.900><c> right</c><00:19:07.080><c> away</c><00:19:07.260><c> okay</c>
+
+00:19:08.750 --> 00:19:08.760 align:start position:0%
+Tosca Commander right away okay
+ 
+
+00:19:08.760 --> 00:19:10.970 align:start position:0%
+Tosca Commander right away okay
+um<00:19:08.880><c> it</c><00:19:09.059><c> will</c><00:19:09.120><c> take</c><00:19:09.299><c> you</c><00:19:09.419><c> to</c><00:19:09.660><c> this</c><00:19:09.840><c> page</c><00:19:10.080><c> once</c><00:19:10.799><c> it</c>
+
+00:19:10.970 --> 00:19:10.980 align:start position:0%
+um it will take you to this page once it
+ 
+
+00:19:10.980 --> 00:19:13.190 align:start position:0%
+um it will take you to this page once it
+has<00:19:11.100><c> connected</c><00:19:11.400><c> to</c><00:19:11.640><c> the</c><00:19:11.760><c> license</c><00:19:11.940><c> server</c><00:19:12.480><c> uh</c>
+
+00:19:13.190 --> 00:19:13.200 align:start position:0%
+has connected to the license server uh
+ 
+
+00:19:13.200 --> 00:19:16.789 align:start position:0%
+has connected to the license server uh
+here<00:19:13.559><c> you</c><00:19:13.860><c> can</c><00:19:13.980><c> create</c><00:19:14.340><c> your</c><00:19:15.000><c> own</c><00:19:15.480><c> project</c><00:19:15.900><c> so</c>
+
+00:19:16.789 --> 00:19:16.799 align:start position:0%
+here you can create your own project so
+ 
+
+00:19:16.799 --> 00:19:20.029 align:start position:0%
+here you can create your own project so
+let's<00:19:16.980><c> go</c><00:19:17.220><c> ahead</c><00:19:17.400><c> and</c><00:19:17.520><c> do</c><00:19:17.760><c> that</c><00:19:18.080><c> uh</c><00:19:19.080><c> so</c><00:19:19.679><c> here</c>
+
+00:19:20.029 --> 00:19:20.039 align:start position:0%
+let's go ahead and do that uh so here
+ 
+
+00:19:20.039 --> 00:19:22.490 align:start position:0%
+let's go ahead and do that uh so here
+you<00:19:20.280><c> can</c><00:19:20.400><c> create</c><00:19:20.640><c> your</c><00:19:20.940><c> new</c><00:19:21.059><c> workspace</c><00:19:21.600><c> as</c><00:19:22.380><c> you</c>
+
+00:19:22.490 --> 00:19:22.500 align:start position:0%
+you can create your new workspace as you
+ 
+
+00:19:22.500 --> 00:19:23.510 align:start position:0%
+you can create your new workspace as you
+know<00:19:22.620><c> there</c><00:19:22.799><c> are</c><00:19:22.980><c> different</c><00:19:23.100><c> types</c><00:19:23.460><c> of</c>
+
+00:19:23.510 --> 00:19:23.520 align:start position:0%
+know there are different types of
+ 
+
+00:19:23.520 --> 00:19:26.690 align:start position:0%
+know there are different types of
+workspaces<00:19:24.120><c> if</c><00:19:24.660><c> we</c><00:19:24.840><c> have</c><00:19:25.080><c> also</c><00:19:25.919><c> got</c><00:19:26.160><c> a</c>
+
+00:19:26.690 --> 00:19:26.700 align:start position:0%
+workspaces if we have also got a
+ 
+
+00:19:26.700 --> 00:19:29.210 align:start position:0%
+workspaces if we have also got a
+database<00:19:27.360><c> we</c><00:19:27.840><c> can</c><00:19:28.020><c> create</c><00:19:28.440><c> a</c><00:19:28.679><c> multi-user</c>
+
+00:19:29.210 --> 00:19:29.220 align:start position:0%
+database we can create a multi-user
+ 
+
+00:19:29.220 --> 00:19:31.430 align:start position:0%
+database we can create a multi-user
+workspace<00:19:29.640><c> for</c><00:19:30.120><c> now</c><00:19:30.299><c> I</c><00:19:30.600><c> will</c><00:19:30.780><c> stick</c><00:19:31.080><c> to</c><00:19:31.260><c> the</c>
+
+00:19:31.430 --> 00:19:31.440 align:start position:0%
+workspace for now I will stick to the
+ 
+
+00:19:31.440 --> 00:19:34.909 align:start position:0%
+workspace for now I will stick to the
+single<00:19:31.980><c> user</c><00:19:32.220><c> workspace</c><00:19:32.900><c> I</c><00:19:33.900><c> will</c><00:19:34.020><c> leave</c><00:19:34.320><c> the</c>
+
+00:19:34.909 --> 00:19:34.919 align:start position:0%
+single user workspace I will leave the
+ 
+
+00:19:34.919 --> 00:19:37.730 align:start position:0%
+single user workspace I will leave the
+location<00:19:35.100><c> as</c><00:19:35.700><c> it</c><00:19:35.880><c> is</c><00:19:36.059><c> and</c><00:19:36.720><c> I</c><00:19:37.080><c> will</c>
+
+00:19:37.730 --> 00:19:37.740 align:start position:0%
+location as it is and I will
+ 
+
+00:19:37.740 --> 00:19:41.150 align:start position:0%
+location as it is and I will
+select<00:19:38.580><c> the</c><00:19:38.760><c> name</c><00:19:38.880><c> for</c><00:19:39.179><c> the</c><00:19:39.360><c> new</c><00:19:39.480><c> workspace</c><00:19:40.160><c> I</c>
+
+00:19:41.150 --> 00:19:41.160 align:start position:0%
+select the name for the new workspace I
+ 
+
+00:19:41.160 --> 00:19:42.230 align:start position:0%
+select the name for the new workspace I
+would<00:19:41.340><c> also</c>
+
+00:19:42.230 --> 00:19:42.240 align:start position:0%
+would also
+ 
+
+00:19:42.240 --> 00:19:44.750 align:start position:0%
+would also
+use<00:19:43.020><c> the</c><00:19:43.320><c> standard</c><00:19:43.679><c> workspace</c><00:19:44.220><c> template</c>
+
+00:19:44.750 --> 00:19:44.760 align:start position:0%
+use the standard workspace template
+ 
+
+00:19:44.760 --> 00:19:48.049 align:start position:0%
+use the standard workspace template
+which<00:19:45.539><c> is</c><00:19:45.720><c> the</c><00:19:46.140><c> standard</c><00:19:46.740><c> TSU</c>
+
+00:19:48.049 --> 00:19:48.059 align:start position:0%
+which is the standard TSU
+ 
+
+00:19:48.059 --> 00:19:49.730 align:start position:0%
+which is the standard TSU
+and<00:19:48.539><c> click</c><00:19:48.840><c> on</c><00:19:48.900><c> OK</c>
+
+00:19:49.730 --> 00:19:49.740 align:start position:0%
+and click on OK
+ 
+
+00:19:49.740 --> 00:19:52.549 align:start position:0%
+and click on OK
+so<00:19:50.220><c> it</c><00:19:50.460><c> will</c><00:19:50.640><c> start</c><00:19:50.940><c> creating</c><00:19:51.419><c> my</c><00:19:52.020><c> new</c><00:19:52.200><c> single</c>
+
+00:19:52.549 --> 00:19:52.559 align:start position:0%
+so it will start creating my new single
+ 
+
+00:19:52.559 --> 00:19:57.049 align:start position:0%
+so it will start creating my new single
+user<00:19:52.919><c> workspace</c>
+
+00:19:57.049 --> 00:19:57.059 align:start position:0%
+ 
+ 
+
+00:19:57.059 --> 00:20:00.650 align:start position:0%
+ 
+and<00:19:57.539><c> now</c><00:19:57.720><c> it</c><00:19:58.080><c> will</c><00:19:58.260><c> start</c><00:19:59.240><c> launching</c><00:20:00.240><c> the</c>
+
+00:20:00.650 --> 00:20:00.660 align:start position:0%
+and now it will start launching the
+ 
+
+00:20:00.660 --> 00:20:04.549 align:start position:0%
+and now it will start launching the
+project<00:20:00.900><c> or</c><00:20:01.740><c> which</c><00:20:02.039><c> we</c><00:20:02.220><c> have</c><00:20:02.400><c> created</c><00:20:02.700><c> now</c>
+
+00:20:04.549 --> 00:20:04.559 align:start position:0%
+project or which we have created now
+ 
+
+00:20:04.559 --> 00:20:06.230 align:start position:0%
+project or which we have created now
+so<00:20:04.980><c> it</c><00:20:05.160><c> will</c><00:20:05.280><c> open</c><00:20:05.520><c> all</c><00:20:05.880><c> the</c><00:20:06.059><c> different</c>
+
+00:20:06.230 --> 00:20:06.240 align:start position:0%
+so it will open all the different
+ 
+
+00:20:06.240 --> 00:20:09.770 align:start position:0%
+so it will open all the different
+modules<00:20:07.460><c> or</c><00:20:08.460><c> the</c><00:20:08.820><c> different</c><00:20:09.000><c> sections</c><00:20:09.600><c> which</c>
+
+00:20:09.770 --> 00:20:09.780 align:start position:0%
+modules or the different sections which
+ 
+
+00:20:09.780 --> 00:20:12.830 align:start position:0%
+modules or the different sections which
+are<00:20:09.960><c> present</c><00:20:10.200><c> in</c><00:20:10.440><c> Tosca</c><00:20:10.860><c> Commander</c><00:20:11.820><c> and</c><00:20:12.539><c> you</c>
+
+00:20:12.830 --> 00:20:12.840 align:start position:0%
+are present in Tosca Commander and you
+ 
+
+00:20:12.840 --> 00:20:15.230 align:start position:0%
+are present in Tosca Commander and you
+can<00:20:12.960><c> see</c><00:20:13.260><c> test</c><00:20:13.559><c> cases</c><00:20:13.980><c> modules</c><00:20:14.580><c> requirements</c>
+
+00:20:15.230 --> 00:20:15.240 align:start position:0%
+can see test cases modules requirements
+ 
+
+00:20:15.240 --> 00:20:17.630 align:start position:0%
+can see test cases modules requirements
+test<00:20:15.480><c> design</c><00:20:16.080><c> execution</c>
+
+00:20:17.630 --> 00:20:17.640 align:start position:0%
+test design execution
+ 
+
+00:20:17.640 --> 00:20:21.409 align:start position:0%
+test design execution
+Etc<00:20:17.760><c> right</c><00:20:18.240><c> so</c><00:20:19.020><c> everything</c><00:20:19.320><c> is</c><00:20:19.799><c> present</c><00:20:20.100><c> here</c>
+
+00:20:21.409 --> 00:20:21.419 align:start position:0%
+Etc right so everything is present here
+ 
+
+00:20:21.419 --> 00:20:25.310 align:start position:0%
+Etc right so everything is present here
+um<00:20:21.480><c> the</c><00:20:22.320><c> only</c><00:20:22.559><c> last</c><00:20:23.520><c> thing</c><00:20:23.820><c> which</c><00:20:24.480><c> is</c><00:20:25.020><c> also</c>
+
+00:20:25.310 --> 00:20:25.320 align:start position:0%
+um the only last thing which is also
+ 
+
+00:20:25.320 --> 00:20:26.330 align:start position:0%
+um the only last thing which is also
+important
+
+00:20:26.330 --> 00:20:26.340 align:start position:0%
+important
+ 
+
+00:20:26.340 --> 00:20:29.750 align:start position:0%
+important
+so<00:20:26.880><c> while</c><00:20:27.299><c> scanning</c><00:20:27.840><c> any</c><00:20:28.140><c> module</c><00:20:28.679><c> so</c><00:20:29.460><c> right</c>
+
+00:20:29.750 --> 00:20:29.760 align:start position:0%
+so while scanning any module so right
+ 
+
+00:20:29.760 --> 00:20:32.090 align:start position:0%
+so while scanning any module so right
+now<00:20:29.880><c> if</c><00:20:30.240><c> I</c><00:20:30.419><c> if</c><00:20:30.840><c> I'm</c><00:20:31.020><c> going</c><00:20:31.200><c> to</c><00:20:31.380><c> scan</c><00:20:31.740><c> a</c>
+
+00:20:32.090 --> 00:20:32.100 align:start position:0%
+now if I if I'm going to scan a
+ 
+
+00:20:32.100 --> 00:20:35.810 align:start position:0%
+now if I if I'm going to scan a
+particular<00:20:32.400><c> module</c><00:20:33.020><c> so</c><00:20:34.020><c> let</c><00:20:34.559><c> me</c><00:20:34.740><c> open</c><00:20:35.160><c> Chrome</c>
+
+00:20:35.810 --> 00:20:35.820 align:start position:0%
+particular module so let me open Chrome
+ 
+
+00:20:35.820 --> 00:20:40.190 align:start position:0%
+particular module so let me open Chrome
+for<00:20:36.240><c> that</c><00:20:36.419><c> matter</c><00:20:36.799><c> now</c><00:20:37.799><c> by</c><00:20:38.460><c> default</c><00:20:39.020><c> you</c><00:20:40.020><c> will</c>
+
+00:20:40.190 --> 00:20:40.200 align:start position:0%
+for that matter now by default you will
+ 
+
+00:20:40.200 --> 00:20:43.010 align:start position:0%
+for that matter now by default you will
+not<00:20:40.620><c> get</c><00:20:40.980><c> Google</c><00:20:41.460><c> Chrome</c><00:20:41.940><c> in</c><00:20:42.419><c> your</c><00:20:42.660><c> Windows</c>
+
+00:20:43.010 --> 00:20:43.020 align:start position:0%
+not get Google Chrome in your Windows
+ 
+
+00:20:43.020 --> 00:20:48.770 align:start position:0%
+not get Google Chrome in your Windows
+Server<00:20:43.320><c> when</c><00:20:43.679><c> you</c><00:20:44.240><c> launch</c><00:20:45.240><c> a</c><00:20:46.020><c> new</c><00:20:46.320><c> AWS</c><00:20:47.160><c> ec2</c><00:20:47.780><c> but</c>
+
+00:20:48.770 --> 00:20:48.780 align:start position:0%
+Server when you launch a new AWS ec2 but
+ 
+
+00:20:48.780 --> 00:20:51.590 align:start position:0%
+Server when you launch a new AWS ec2 but
+in<00:20:49.620><c> the</c><00:20:49.740><c> background</c><00:20:49.980><c> I</c><00:20:50.640><c> did</c><00:20:50.820><c> download</c><00:20:51.179><c> and</c>
+
+00:20:51.590 --> 00:20:51.600 align:start position:0%
+in the background I did download and
+ 
+
+00:20:51.600 --> 00:20:54.950 align:start position:0%
+in the background I did download and
+install<00:20:51.780><c> Google</c><00:20:52.200><c> Chrome</c>
+
+00:20:54.950 --> 00:20:54.960 align:start position:0%
+ 
+ 
+
+00:20:54.960 --> 00:20:58.669 align:start position:0%
+ 
+so<00:20:55.620><c> let's</c><00:20:55.799><c> just</c><00:20:56.160><c> open</c><00:20:56.520><c> google.com</c><00:20:57.480><c> and</c><00:20:58.200><c> try</c><00:20:58.500><c> to</c>
+
+00:20:58.669 --> 00:20:58.679 align:start position:0%
+so let's just open google.com and try to
+ 
+
+00:20:58.679 --> 00:21:05.810 align:start position:0%
+so let's just open google.com and try to
+scan<00:20:59.280><c> some</c><00:21:00.000><c> modules</c><00:21:00.480><c> with</c><00:21:01.200><c> our</c><00:21:01.500><c> new</c><00:21:01.740><c> Tosca</c>
+
+00:21:05.810 --> 00:21:05.820 align:start position:0%
+ 
+ 
+
+00:21:05.820 --> 00:21:08.870 align:start position:0%
+ 
+so<00:21:06.240><c> let's</c><00:21:06.360><c> go</c><00:21:06.600><c> back</c><00:21:06.720><c> to</c><00:21:06.900><c> Tosca</c><00:21:07.380><c> and</c><00:21:08.100><c> create</c><00:21:08.520><c> a</c>
+
+00:21:08.870 --> 00:21:08.880 align:start position:0%
+so let's go back to Tosca and create a
+ 
+
+00:21:08.880 --> 00:21:11.690 align:start position:0%
+so let's go back to Tosca and create a
+new<00:21:09.000><c> module</c><00:21:09.419><c> and</c><00:21:09.720><c> try</c><00:21:09.900><c> to</c><00:21:10.080><c> scan</c><00:21:10.320><c> the</c><00:21:10.500><c> speech</c><00:21:10.919><c> so</c>
+
+00:21:11.690 --> 00:21:11.700 align:start position:0%
+new module and try to scan the speech so
+ 
+
+00:21:11.700 --> 00:21:13.970 align:start position:0%
+new module and try to scan the speech so
+right<00:21:12.360><c> click</c><00:21:12.780><c> and</c>
+
+00:21:13.970 --> 00:21:13.980 align:start position:0%
+right click and
+ 
+
+00:21:13.980 --> 00:21:19.130 align:start position:0%
+right click and
+create<00:21:14.640><c> a</c><00:21:15.179><c> new</c><00:21:15.299><c> folder</c><00:21:15.780><c> here</c>
+
+00:21:19.130 --> 00:21:19.140 align:start position:0%
+ 
+ 
+
+00:21:19.140 --> 00:21:27.830 align:start position:0%
+ 
+let's<00:21:19.679><c> call</c><00:21:19.980><c> it</c><00:21:20.160><c> Google</c><00:21:20.640><c> for</c><00:21:21.299><c> now</c>
+
+00:21:27.830 --> 00:21:27.840 align:start position:0%
+ 
+ 
+
+00:21:27.840 --> 00:21:30.529 align:start position:0%
+ 
+and<00:21:28.380><c> now</c><00:21:28.620><c> let's</c><00:21:28.980><c> right</c><00:21:29.460><c> click</c><00:21:29.820><c> on</c><00:21:29.940><c> this</c><00:21:30.179><c> and</c>
+
+00:21:30.529 --> 00:21:30.539 align:start position:0%
+and now let's right click on this and
+ 
+
+00:21:30.539 --> 00:21:37.570 align:start position:0%
+and now let's right click on this and
+try<00:21:30.780><c> to</c><00:21:30.900><c> scan</c><00:21:31.200><c> this</c><00:21:31.380><c> application</c>
+
+00:21:37.570 --> 00:21:37.580 align:start position:0%
+ 
+ 
+
+00:21:37.580 --> 00:21:40.909 align:start position:0%
+ 
+and<00:21:38.580><c> now</c><00:21:38.760><c> you</c><00:21:39.059><c> you</c><00:21:39.360><c> should</c><00:21:39.600><c> notice</c><00:21:40.020><c> that</c><00:21:40.500><c> you</c>
+
+00:21:40.909 --> 00:21:40.919 align:start position:0%
+and now you you should notice that you
+ 
+
+00:21:40.919 --> 00:21:43.070 align:start position:0%
+and now you you should notice that you
+are<00:21:41.220><c> not</c><00:21:41.400><c> able</c><00:21:41.640><c> to</c><00:21:41.880><c> scan</c><00:21:42.179><c> that</c><00:21:42.780><c> particular</c>
+
+00:21:43.070 --> 00:21:43.080 align:start position:0%
+are not able to scan that particular
+ 
+
+00:21:43.080 --> 00:21:45.730 align:start position:0%
+are not able to scan that particular
+application<00:21:43.500><c> because</c><00:21:43.919><c> it's</c><00:21:44.520><c> open</c><00:21:44.760><c> in</c><00:21:45.120><c> Chrome</c>
+
+00:21:45.730 --> 00:21:45.740 align:start position:0%
+application because it's open in Chrome
+ 
+
+00:21:45.740 --> 00:21:49.490 align:start position:0%
+application because it's open in Chrome
+and<00:21:46.740><c> every</c><00:21:47.520><c> browser</c><00:21:48.000><c> requires</c><00:21:48.539><c> an</c><00:21:48.960><c> extension</c>
+
+00:21:49.490 --> 00:21:49.500 align:start position:0%
+and every browser requires an extension
+ 
+
+00:21:49.500 --> 00:21:52.370 align:start position:0%
+and every browser requires an extension
+uh<00:21:50.460><c> before</c><00:21:50.760><c> you</c><00:21:51.600><c> can</c>
+
+00:21:52.370 --> 00:21:52.380 align:start position:0%
+uh before you can
+ 
+
+00:21:52.380 --> 00:21:55.310 align:start position:0%
+uh before you can
+scan<00:21:53.039><c> your</c><00:21:53.280><c> objects</c><00:21:53.820><c> in</c><00:21:54.419><c> that</c><00:21:54.600><c> browser</c><00:21:54.960><c> using</c>
+
+00:21:55.310 --> 00:21:55.320 align:start position:0%
+scan your objects in that browser using
+ 
+
+00:21:55.320 --> 00:21:58.070 align:start position:0%
+scan your objects in that browser using
+Tosca<00:21:55.740><c> so</c><00:21:56.400><c> you</c><00:21:56.640><c> need</c><00:21:56.760><c> to</c><00:21:56.940><c> install</c><00:21:57.179><c> a</c><00:21:57.659><c> Tosca</c>
+
+00:21:58.070 --> 00:21:58.080 align:start position:0%
+Tosca so you need to install a Tosca
+ 
+
+00:21:58.080 --> 00:22:00.590 align:start position:0%
+Tosca so you need to install a Tosca
+extension<00:21:58.679><c> and</c><00:21:59.220><c> that</c><00:21:59.820><c> is</c><00:22:00.000><c> the</c><00:22:00.240><c> last</c><00:22:00.360><c> thing</c>
+
+00:22:00.590 --> 00:22:00.600 align:start position:0%
+extension and that is the last thing
+ 
+
+00:22:00.600 --> 00:22:02.830 align:start position:0%
+extension and that is the last thing
+which<00:22:00.900><c> I</c><00:22:01.140><c> wanted</c><00:22:01.320><c> to</c><00:22:01.559><c> show</c><00:22:01.740><c> you</c>
+
+00:22:02.830 --> 00:22:02.840 align:start position:0%
+which I wanted to show you
+ 
+
+00:22:02.840 --> 00:22:07.610 align:start position:0%
+which I wanted to show you
+so<00:22:03.860><c> uh</c><00:22:04.860><c> once</c><00:22:05.460><c> it</c><00:22:05.820><c> starts</c><00:22:06.360><c> this</c><00:22:06.659><c> x-scan</c><00:22:07.320><c> it</c><00:22:07.500><c> is</c>
+
+00:22:07.610 --> 00:22:07.620 align:start position:0%
+so uh once it starts this x-scan it is
+ 
+
+00:22:07.620 --> 00:22:10.250 align:start position:0%
+so uh once it starts this x-scan it is
+going<00:22:07.799><c> to</c><00:22:07.919><c> realize</c><00:22:08.280><c> that</c><00:22:08.700><c> that</c><00:22:09.179><c> extension</c><00:22:09.900><c> is</c>
+
+00:22:10.250 --> 00:22:10.260 align:start position:0%
+going to realize that that extension is
+ 
+
+00:22:10.260 --> 00:22:13.370 align:start position:0%
+going to realize that that extension is
+not<00:22:10.559><c> installed</c><00:22:11.100><c> on</c><00:22:11.340><c> this</c><00:22:11.460><c> browser</c>
+
+00:22:13.370 --> 00:22:13.380 align:start position:0%
+not installed on this browser
+ 
+
+00:22:13.380 --> 00:22:16.010 align:start position:0%
+not installed on this browser
+so<00:22:13.860><c> let's</c><00:22:14.100><c> try</c><00:22:14.400><c> and</c><00:22:14.640><c> select</c><00:22:15.360><c> Google</c><00:22:15.659><c> Chrome</c>
+
+00:22:16.010 --> 00:22:16.020 align:start position:0%
+so let's try and select Google Chrome
+ 
+
+00:22:16.020 --> 00:22:18.710 align:start position:0%
+so let's try and select Google Chrome
+here<00:22:16.380><c> and</c><00:22:16.799><c> try</c><00:22:17.039><c> to</c><00:22:17.220><c> scan</c>
+
+00:22:18.710 --> 00:22:18.720 align:start position:0%
+here and try to scan
+ 
+
+00:22:18.720 --> 00:22:20.810 align:start position:0%
+here and try to scan
+and<00:22:19.140><c> as</c><00:22:19.320><c> you</c><00:22:19.440><c> can</c><00:22:19.559><c> see</c><00:22:19.679><c> now</c><00:22:19.980><c> it</c><00:22:20.159><c> is</c><00:22:20.280><c> throwing</c><00:22:20.640><c> a</c>
+
+00:22:20.810 --> 00:22:20.820 align:start position:0%
+and as you can see now it is throwing a
+ 
+
+00:22:20.820 --> 00:22:22.909 align:start position:0%
+and as you can see now it is throwing a
+message<00:22:21.000><c> saying</c><00:22:21.600><c> browser</c><00:22:22.080><c> extension</c><00:22:22.620><c> not</c>
+
+00:22:22.909 --> 00:22:22.919 align:start position:0%
+message saying browser extension not
+ 
+
+00:22:22.919 --> 00:22:26.930 align:start position:0%
+message saying browser extension not
+installed<00:22:23.520><c> or</c><00:22:23.940><c> outdated</c><00:22:24.419><c> right</c><00:22:24.960><c> so</c>
+
+00:22:26.930 --> 00:22:26.940 align:start position:0%
+installed or outdated right so
+ 
+
+00:22:26.940 --> 00:22:28.669 align:start position:0%
+installed or outdated right so
+in<00:22:27.419><c> order</c><00:22:27.480><c> to</c><00:22:27.720><c> scan</c><00:22:27.960><c> you</c><00:22:28.140><c> need</c><00:22:28.320><c> to</c><00:22:28.440><c> install</c>
+
+00:22:28.669 --> 00:22:28.679 align:start position:0%
+in order to scan you need to install
+ 
+
+00:22:28.679 --> 00:22:31.610 align:start position:0%
+in order to scan you need to install
+this<00:22:29.460><c> extension</c><00:22:30.059><c> from</c><00:22:30.419><c> Tosca</c><00:22:30.900><c> and</c><00:22:31.440><c> let's</c>
+
+00:22:31.610 --> 00:22:31.620 align:start position:0%
+this extension from Tosca and let's
+ 
+
+00:22:31.620 --> 00:22:34.610 align:start position:0%
+this extension from Tosca and let's
+click<00:22:31.919><c> on</c><00:22:32.039><c> yes</c><00:22:32.220><c> so</c><00:22:33.059><c> it</c><00:22:33.419><c> will</c><00:22:33.659><c> directly</c><00:22:34.260><c> take</c><00:22:34.440><c> us</c>
+
+00:22:34.610 --> 00:22:34.620 align:start position:0%
+click on yes so it will directly take us
+ 
+
+00:22:34.620 --> 00:22:36.529 align:start position:0%
+click on yes so it will directly take us
+to<00:22:34.799><c> that</c><00:22:35.039><c> page</c><00:22:35.280><c> where</c><00:22:35.520><c> we</c><00:22:35.760><c> can</c><00:22:35.880><c> install</c><00:22:36.120><c> this</c>
+
+00:22:36.529 --> 00:22:36.539 align:start position:0%
+to that page where we can install this
+ 
+
+00:22:36.539 --> 00:22:38.450 align:start position:0%
+to that page where we can install this
+extension
+
+00:22:38.450 --> 00:22:38.460 align:start position:0%
+extension
+ 
+
+00:22:38.460 --> 00:22:41.029 align:start position:0%
+extension
+and<00:22:39.120><c> then</c><00:22:39.240><c> here</c><00:22:39.539><c> we</c><00:22:39.840><c> just</c><00:22:39.960><c> need</c><00:22:40.140><c> to</c><00:22:40.440><c> add</c><00:22:40.740><c> this</c>
+
+00:22:41.029 --> 00:22:41.039 align:start position:0%
+and then here we just need to add this
+ 
+
+00:22:41.039 --> 00:22:43.549 align:start position:0%
+and then here we just need to add this
+extension<00:22:41.640><c> to</c><00:22:41.940><c> our</c><00:22:42.120><c> Chrome</c><00:22:42.299><c> browser</c>
+
+00:22:43.549 --> 00:22:43.559 align:start position:0%
+extension to our Chrome browser
+ 
+
+00:22:43.559 --> 00:22:47.690 align:start position:0%
+extension to our Chrome browser
+so<00:22:44.039><c> click</c><00:22:44.340><c> on</c><00:22:44.460><c> add</c><00:22:44.700><c> to</c><00:22:44.880><c> Chrome</c>
+
+00:22:47.690 --> 00:22:47.700 align:start position:0%
+ 
+ 
+
+00:22:47.700 --> 00:22:50.450 align:start position:0%
+ 
+and<00:22:48.419><c> it</c><00:22:48.780><c> should</c><00:22:49.020><c> start</c><00:22:49.679><c> adding</c><00:22:50.220><c> this</c>
+
+00:22:50.450 --> 00:22:50.460 align:start position:0%
+and it should start adding this
+ 
+
+00:22:50.460 --> 00:22:51.950 align:start position:0%
+and it should start adding this
+extension
+
+00:22:51.950 --> 00:22:51.960 align:start position:0%
+extension
+ 
+
+00:22:51.960 --> 00:22:55.130 align:start position:0%
+extension
+once<00:22:52.679><c> that's</c><00:22:52.860><c> done</c><00:22:53.159><c> then</c><00:22:54.000><c> our</c><00:22:54.600><c> Tosca</c>
+
+00:22:55.130 --> 00:22:55.140 align:start position:0%
+once that's done then our Tosca
+ 
+
+00:22:55.140 --> 00:22:58.070 align:start position:0%
+once that's done then our Tosca
+installation<00:22:55.679><c> would</c><00:22:55.980><c> be</c><00:22:56.220><c> complete</c><00:22:56.900><c> and</c><00:22:57.900><c> we</c>
+
+00:22:58.070 --> 00:22:58.080 align:start position:0%
+installation would be complete and we
+ 
+
+00:22:58.080 --> 00:23:01.669 align:start position:0%
+installation would be complete and we
+would<00:22:58.260><c> be</c><00:22:58.380><c> able</c><00:22:58.620><c> to</c><00:22:58.799><c> scan</c><00:22:59.220><c> a</c><00:22:59.580><c> module</c><00:23:00.000><c> using</c>
+
+00:23:01.669 --> 00:23:01.679 align:start position:0%
+would be able to scan a module using
+ 
+
+00:23:01.679 --> 00:23:05.570 align:start position:0%
+would be able to scan a module using
+um<00:23:01.740><c> Chrome</c><00:23:02.039><c> browser</c>
+
+00:23:05.570 --> 00:23:05.580 align:start position:0%
+ 
+ 
+
+00:23:05.580 --> 00:23:08.630 align:start position:0%
+ 
+so<00:23:06.179><c> that's</c><00:23:06.419><c> completed</c><00:23:06.960><c> we</c><00:23:07.799><c> can</c><00:23:07.919><c> close</c><00:23:08.159><c> that</c>
+
+00:23:08.630 --> 00:23:08.640 align:start position:0%
+so that's completed we can close that
+ 
+
+00:23:08.640 --> 00:23:12.190 align:start position:0%
+so that's completed we can close that
+window<00:23:08.880><c> and</c><00:23:09.720><c> go</c><00:23:10.020><c> back</c><00:23:10.260><c> to</c><00:23:10.980><c> our</c><00:23:11.220><c> Google</c><00:23:11.520><c> module</c>
+
+00:23:12.190 --> 00:23:12.200 align:start position:0%
+window and go back to our Google module
+ 
+
+00:23:12.200 --> 00:23:15.770 align:start position:0%
+window and go back to our Google module
+and<00:23:13.200><c> let's</c><00:23:13.620><c> try</c><00:23:13.919><c> to</c><00:23:14.100><c> scan</c><00:23:14.400><c> again</c><00:23:14.880><c> this</c><00:23:15.600><c> time</c>
+
+00:23:15.770 --> 00:23:15.780 align:start position:0%
+and let's try to scan again this time
+ 
+
+00:23:15.780 --> 00:23:19.690 align:start position:0%
+and let's try to scan again this time
+around<00:23:15.960><c> it</c><00:23:16.559><c> should</c><00:23:16.799><c> work</c>
+
+00:23:19.690 --> 00:23:19.700 align:start position:0%
+ 
+ 
+
+00:23:19.700 --> 00:23:23.810 align:start position:0%
+ 
+okay<00:23:20.700><c> so</c><00:23:21.120><c> the</c><00:23:21.419><c> X</c><00:23:21.659><c> scan</c><00:23:21.960><c> is</c><00:23:22.380><c> already</c><00:23:22.620><c> running</c><00:23:23.280><c> in</c>
+
+00:23:23.810 --> 00:23:23.820 align:start position:0%
+okay so the X scan is already running in
+ 
+
+00:23:23.820 --> 00:23:24.770 align:start position:0%
+okay so the X scan is already running in
+the<00:23:23.940><c> background</c>
+
+00:23:24.770 --> 00:23:24.780 align:start position:0%
+the background
+ 
+
+00:23:24.780 --> 00:23:28.730 align:start position:0%
+the background
+so<00:23:25.559><c> let's</c><00:23:25.980><c> wait</c>
+
+00:23:28.730 --> 00:23:28.740 align:start position:0%
+ 
+ 
+
+00:23:28.740 --> 00:23:32.570 align:start position:0%
+ 
+okay<00:23:29.220><c> so</c><00:23:30.059><c> now</c><00:23:30.720><c> you</c><00:23:31.260><c> can</c><00:23:31.380><c> see</c><00:23:31.559><c> that</c><00:23:31.919><c> message</c><00:23:32.159><c> did</c>
+
+00:23:32.570 --> 00:23:32.580 align:start position:0%
+okay so now you can see that message did
+ 
+
+00:23:32.580 --> 00:23:35.270 align:start position:0%
+okay so now you can see that message did
+not<00:23:32.760><c> appear</c><00:23:33.200><c> and</c><00:23:34.200><c> now</c><00:23:34.559><c> I</c><00:23:34.799><c> can</c><00:23:34.860><c> go</c><00:23:34.980><c> to</c><00:23:35.159><c> the</c>
+
+00:23:35.270 --> 00:23:35.280 align:start position:0%
+not appear and now I can go to the
+ 
+
+00:23:35.280 --> 00:23:36.529 align:start position:0%
+not appear and now I can go to the
+advanced<00:23:35.700><c> tab</c>
+
+00:23:36.529 --> 00:23:36.539 align:start position:0%
+advanced tab
+ 
+
+00:23:36.539 --> 00:23:41.870 align:start position:0%
+advanced tab
+and<00:23:37.080><c> I</c><00:23:37.260><c> can</c><00:23:37.380><c> just</c><00:23:37.679><c> uh</c><00:23:39.000><c> maybe</c><00:23:39.600><c> just</c><00:23:40.440><c> add</c><00:23:41.340><c> some</c>
+
+00:23:41.870 --> 00:23:41.880 align:start position:0%
+and I can just uh maybe just add some
+ 
+
+00:23:41.880 --> 00:23:49.970 align:start position:0%
+and I can just uh maybe just add some
+controls
+
+00:23:49.970 --> 00:23:49.980 align:start position:0%
+ 
+ 
+
+00:23:49.980 --> 00:23:53.510 align:start position:0%
+ 
+okay<00:23:50.460><c> so</c><00:23:50.880><c> this</c><00:23:51.299><c> item</c><00:23:51.659><c> is</c><00:23:51.900><c> not</c><00:23:52.140><c> unique</c>
+
+00:23:53.510 --> 00:23:53.520 align:start position:0%
+okay so this item is not unique
+ 
+
+00:23:53.520 --> 00:23:56.450 align:start position:0%
+okay so this item is not unique
+um<00:23:53.640><c> I</c><00:23:53.940><c> can</c><00:23:54.059><c> even</c><00:23:54.299><c> change</c><00:23:54.840><c> it</c>
+
+00:23:56.450 --> 00:23:56.460 align:start position:0%
+um I can even change it
+ 
+
+00:23:56.460 --> 00:24:00.049 align:start position:0%
+um I can even change it
+by<00:23:57.179><c> image</c><00:23:57.720><c> or</c><00:23:58.320><c> by</c><00:23:58.620><c> index</c>
+
+00:24:00.049 --> 00:24:00.059 align:start position:0%
+by image or by index
+ 
+
+00:24:00.059 --> 00:24:03.529 align:start position:0%
+by image or by index
+to<00:24:00.659><c> make</c><00:24:00.840><c> it</c><00:24:01.020><c> unique</c>
+
+00:24:03.529 --> 00:24:03.539 align:start position:0%
+ 
+ 
+
+00:24:03.539 --> 00:24:08.029 align:start position:0%
+ 
+let's<00:24:04.140><c> let's</c><00:24:04.380><c> go</c><00:24:04.620><c> with</c><00:24:04.799><c> index</c>
+
+00:24:08.029 --> 00:24:08.039 align:start position:0%
+ 
+ 
+
+00:24:08.039 --> 00:24:12.049 align:start position:0%
+ 
+and<00:24:08.940><c> that</c><00:24:09.900><c> makes</c><00:24:10.200><c> it</c><00:24:10.380><c> unique</c><00:24:10.799><c> okay</c><00:24:11.220><c> so</c><00:24:11.700><c> that's</c>
+
+00:24:12.049 --> 00:24:12.059 align:start position:0%
+and that makes it unique okay so that's
+ 
+
+00:24:12.059 --> 00:24:15.049 align:start position:0%
+and that makes it unique okay so that's
+all<00:24:12.240><c> I</c><00:24:12.480><c> wanted</c><00:24:12.659><c> to</c><00:24:12.900><c> do</c><00:24:13.020><c> here</c><00:24:13.400><c> uh</c><00:24:14.400><c> I</c><00:24:14.640><c> will</c><00:24:14.760><c> click</c>
+
+00:24:15.049 --> 00:24:15.059 align:start position:0%
+all I wanted to do here uh I will click
+ 
+
+00:24:15.059 --> 00:24:21.289 align:start position:0%
+all I wanted to do here uh I will click
+on<00:24:15.240><c> Save</c><00:24:15.480><c> quickly</c><00:24:16.020><c> uh</c><00:24:16.980><c> to</c><00:24:17.159><c> save</c><00:24:17.280><c> this</c><00:24:17.580><c> module</c>
+
+00:24:21.289 --> 00:24:21.299 align:start position:0%
+ 
+ 
+
+00:24:21.299 --> 00:24:26.330 align:start position:0%
+ 
+okay<00:24:21.980><c> and</c><00:24:22.980><c> then</c><00:24:23.460><c> close</c><00:24:23.880><c> this</c><00:24:24.179><c> window</c>
+
+00:24:26.330 --> 00:24:26.340 align:start position:0%
+okay and then close this window
+ 
+
+00:24:26.340 --> 00:24:29.570 align:start position:0%
+okay and then close this window
+so<00:24:26.760><c> now</c><00:24:26.940><c> our</c><00:24:27.240><c> scanning</c><00:24:27.840><c> is</c><00:24:28.260><c> also</c><00:24:28.620><c> working</c><00:24:28.860><c> we</c>
+
+00:24:29.570 --> 00:24:29.580 align:start position:0%
+so now our scanning is also working we
+ 
+
+00:24:29.580 --> 00:24:31.909 align:start position:0%
+so now our scanning is also working we
+can<00:24:29.760><c> scan</c><00:24:30.059><c> modules</c><00:24:30.539><c> with</c><00:24:31.140><c> the</c><00:24:31.320><c> Chrome</c><00:24:31.440><c> browser</c>
+
+00:24:31.909 --> 00:24:31.919 align:start position:0%
+can scan modules with the Chrome browser
+ 
+
+00:24:31.919 --> 00:24:35.570 align:start position:0%
+can scan modules with the Chrome browser
+so<00:24:32.820><c> that</c><00:24:33.120><c> completes</c><00:24:33.780><c> the</c><00:24:34.200><c> whole</c><00:24:34.380><c> setup</c><00:24:34.919><c> okay</c>
+
+00:24:35.570 --> 00:24:35.580 align:start position:0%
+so that completes the whole setup okay
+ 
+
+00:24:35.580 --> 00:24:37.970 align:start position:0%
+so that completes the whole setup okay
+so<00:24:36.240><c> the</c><00:24:36.480><c> whole</c><00:24:36.600><c> setup</c><00:24:37.020><c> consisted</c><00:24:37.559><c> of</c>
+
+00:24:37.970 --> 00:24:37.980 align:start position:0%
+so the whole setup consisted of
+ 
+
+00:24:37.980 --> 00:24:41.029 align:start position:0%
+so the whole setup consisted of
+basically<00:24:38.520><c> three</c><00:24:38.820><c> steps</c><00:24:39.299><c> the</c><00:24:40.140><c> first</c><00:24:40.260><c> step</c><00:24:40.559><c> was</c>
+
+00:24:41.029 --> 00:24:41.039 align:start position:0%
+basically three steps the first step was
+ 
+
+00:24:41.039 --> 00:24:45.110 align:start position:0%
+basically three steps the first step was
+to<00:24:41.400><c> create</c><00:24:41.640><c> a</c><00:24:42.120><c> Windows</c><00:24:42.600><c> ec2</c><00:24:43.140><c> server</c><00:24:43.559><c> on</c><00:24:43.799><c> AWS</c>
+
+00:24:45.110 --> 00:24:45.120 align:start position:0%
+to create a Windows ec2 server on AWS
+ 
+
+00:24:45.120 --> 00:24:49.010 align:start position:0%
+to create a Windows ec2 server on AWS
+and<00:24:45.900><c> then</c><00:24:46.200><c> we</c><00:24:47.039><c> installed</c><00:24:47.760><c> we</c><00:24:48.120><c> downloaded</c><00:24:48.600><c> and</c>
+
+00:24:49.010 --> 00:24:49.020 align:start position:0%
+and then we installed we downloaded and
+ 
+
+00:24:49.020 --> 00:24:52.070 align:start position:0%
+and then we installed we downloaded and
+installed<00:24:49.500><c> the</c><00:24:49.740><c> Tosca</c><00:24:50.220><c> 16.0</c><00:24:51.059><c> version</c><00:24:51.360><c> on</c><00:24:51.900><c> this</c>
+
+00:24:52.070 --> 00:24:52.080 align:start position:0%
+installed the Tosca 16.0 version on this
+ 
+
+00:24:52.080 --> 00:24:55.070 align:start position:0%
+installed the Tosca 16.0 version on this
+Windows<00:24:52.440><c> ec2</c><00:24:52.919><c> server</c><00:24:53.700><c> we</c><00:24:54.120><c> connected</c><00:24:54.539><c> to</c><00:24:54.720><c> the</c>
+
+00:24:55.070 --> 00:24:55.080 align:start position:0%
+Windows ec2 server we connected to the
+ 
+
+00:24:55.080 --> 00:24:58.909 align:start position:0%
+Windows ec2 server we connected to the
+cloud<00:24:55.620><c> license</c><00:24:56.039><c> uh</c><00:24:56.940><c> using</c><00:24:57.360><c> our</c><00:24:57.960><c> training</c>
+
+00:24:58.909 --> 00:24:58.919 align:start position:0%
+cloud license uh using our training
+ 
+
+00:24:58.919 --> 00:25:02.210 align:start position:0%
+cloud license uh using our training
+license<00:24:59.340><c> which</c><00:24:59.760><c> we</c><00:25:00.000><c> deployed</c><00:25:00.600><c> already</c>
+
+00:25:02.210 --> 00:25:02.220 align:start position:0%
+license which we deployed already
+ 
+
+00:25:02.220 --> 00:25:04.669 align:start position:0%
+license which we deployed already
+and<00:25:02.820><c> then</c><00:25:03.000><c> we</c><00:25:03.539><c> finally</c><00:25:03.900><c> installed</c><00:25:04.559><c> the</c>
+
+00:25:04.669 --> 00:25:04.679 align:start position:0%
+and then we finally installed the
+ 
+
+00:25:04.679 --> 00:25:07.130 align:start position:0%
+and then we finally installed the
+extension<00:25:05.159><c> on</c><00:25:05.520><c> the</c><00:25:05.640><c> Chrome</c><00:25:05.760><c> browser</c><00:25:06.419><c> and</c><00:25:06.960><c> we</c>
+
+00:25:07.130 --> 00:25:07.140 align:start position:0%
+extension on the Chrome browser and we
+ 
+
+00:25:07.140 --> 00:25:09.289 align:start position:0%
+extension on the Chrome browser and we
+scanned<00:25:07.500><c> few</c><00:25:07.679><c> modules</c><00:25:08.159><c> just</c><00:25:08.760><c> to</c><00:25:08.940><c> make</c><00:25:09.120><c> sure</c>
+
+00:25:09.289 --> 00:25:09.299 align:start position:0%
+scanned few modules just to make sure
+ 
+
+00:25:09.299 --> 00:25:13.190 align:start position:0%
+scanned few modules just to make sure
+that<00:25:09.600><c> everything</c><00:25:10.080><c> is</c><00:25:10.559><c> working</c><00:25:10.799><c> as</c><00:25:11.400><c> expected</c>
+
+00:25:13.190 --> 00:25:13.200 align:start position:0%
+that everything is working as expected
+ 
+
+00:25:13.200 --> 00:25:16.250 align:start position:0%
+that everything is working as expected
+so<00:25:13.919><c> if</c><00:25:14.280><c> you</c><00:25:14.340><c> have</c><00:25:14.520><c> noticed</c><00:25:15.000><c> it's</c><00:25:15.900><c> a</c><00:25:16.140><c> little</c>
+
+00:25:16.250 --> 00:25:16.260 align:start position:0%
+so if you have noticed it's a little
+ 
+
+00:25:16.260 --> 00:25:19.909 align:start position:0%
+so if you have noticed it's a little
+slow<00:25:16.620><c> uh</c><00:25:17.460><c> because</c><00:25:17.760><c> I</c><00:25:18.299><c> am</c><00:25:18.480><c> running</c><00:25:18.659><c> on</c><00:25:19.440><c> a</c><00:25:19.799><c> very</c>
+
+00:25:19.909 --> 00:25:19.919 align:start position:0%
+slow uh because I am running on a very
+ 
+
+00:25:19.919 --> 00:25:23.210 align:start position:0%
+slow uh because I am running on a very
+low<00:25:20.159><c> configuration</c><00:25:21.260><c> Windows</c><00:25:22.260><c> server</c>
+
+00:25:23.210 --> 00:25:23.220 align:start position:0%
+low configuration Windows server
+ 
+
+00:25:23.220 --> 00:25:27.529 align:start position:0%
+low configuration Windows server
+but<00:25:24.000><c> ideally</c><00:25:24.419><c> you</c><00:25:24.900><c> should</c><00:25:25.140><c> be</c><00:25:25.700><c> running</c><00:25:26.700><c> Tosca</c>
+
+00:25:27.529 --> 00:25:27.539 align:start position:0%
+but ideally you should be running Tosca
+ 
+
+00:25:27.539 --> 00:25:32.210 align:start position:0%
+but ideally you should be running Tosca
+on<00:25:27.840><c> at</c><00:25:28.679><c> least</c><00:25:28.799><c> a</c><00:25:29.159><c> 8</c><00:25:29.400><c> gigabit</c><00:25:29.820><c> memory</c><00:25:30.779><c> right</c><00:25:31.320><c> so</c>
+
+00:25:32.210 --> 00:25:32.220 align:start position:0%
+on at least a 8 gigabit memory right so
+ 
+
+00:25:32.220 --> 00:25:35.690 align:start position:0%
+on at least a 8 gigabit memory right so
+just<00:25:32.760><c> choose</c><00:25:33.179><c> a</c><00:25:33.539><c> higher</c><00:25:33.840><c> version</c><00:25:34.020><c> of</c><00:25:34.500><c> ec2</c><00:25:35.100><c> uh</c>
+
+00:25:35.690 --> 00:25:35.700 align:start position:0%
+just choose a higher version of ec2 uh
+ 
+
+00:25:35.700 --> 00:25:37.970 align:start position:0%
+just choose a higher version of ec2 uh
+when<00:25:35.940><c> you</c><00:25:36.120><c> are</c><00:25:36.299><c> creating</c><00:25:37.080><c> a</c><00:25:37.440><c> new</c><00:25:37.559><c> Windows</c>
+
+00:25:37.970 --> 00:25:37.980 align:start position:0%
+when you are creating a new Windows
+ 
+
+00:25:37.980 --> 00:25:40.549 align:start position:0%
+when you are creating a new Windows
+Server<00:25:38.340><c> if</c><00:25:39.179><c> you</c><00:25:39.299><c> want</c><00:25:39.539><c> to</c><00:25:39.659><c> run</c><00:25:39.840><c> this</c><00:25:40.140><c> for</c><00:25:40.440><c> a</c>
+
+00:25:40.549 --> 00:25:40.559 align:start position:0%
+Server if you want to run this for a
+ 
+
+00:25:40.559 --> 00:25:42.529 align:start position:0%
+Server if you want to run this for a
+very<00:25:40.679><c> long</c><00:25:40.860><c> time</c><00:25:41.100><c> right</c>
+
+00:25:42.529 --> 00:25:42.539 align:start position:0%
+very long time right
+ 
+
+00:25:42.539 --> 00:25:44.990 align:start position:0%
+very long time right
+um<00:25:42.600><c> the</c><00:25:42.960><c> only</c><00:25:43.140><c> disadvantage</c><00:25:43.919><c> is</c><00:25:44.460><c> it</c><00:25:44.820><c> would</c>
+
+00:25:44.990 --> 00:25:45.000 align:start position:0%
+um the only disadvantage is it would
+ 
+
+00:25:45.000 --> 00:25:48.769 align:start position:0%
+um the only disadvantage is it would
+incur<00:25:45.480><c> some</c><00:25:45.779><c> cost</c><00:25:46.200><c> or</c><00:25:46.559><c> charges</c><00:25:47.100><c> on</c><00:25:47.880><c> on</c><00:25:48.480><c> your</c>
+
+00:25:48.769 --> 00:25:48.779 align:start position:0%
+incur some cost or charges on on your
+ 
+
+00:25:48.779 --> 00:25:52.669 align:start position:0%
+incur some cost or charges on on your
+AWS<00:25:49.320><c> account</c><00:25:49.580><c> but</c><00:25:50.580><c> still</c><00:25:51.179><c> it's</c><00:25:52.080><c> a</c><00:25:52.440><c> very</c><00:25:52.500><c> good</c>
+
+00:25:52.669 --> 00:25:52.679 align:start position:0%
+AWS account but still it's a very good
+ 
+
+00:25:52.679 --> 00:25:54.350 align:start position:0%
+AWS account but still it's a very good
+option<00:25:53.039><c> if</c><00:25:53.520><c> you</c><00:25:53.640><c> don't</c><00:25:53.820><c> have</c><00:25:54.059><c> that</c>
+
+00:25:54.350 --> 00:25:54.360 align:start position:0%
+option if you don't have that
+ 
+
+00:25:54.360 --> 00:25:56.990 align:start position:0%
+option if you don't have that
+configuration<00:25:54.900><c> in</c><00:25:55.260><c> your</c><00:25:55.440><c> local</c><00:25:55.559><c> machine</c><00:25:56.000><c> or</c>
+
+00:25:56.990 --> 00:25:57.000 align:start position:0%
+configuration in your local machine or
+ 
+
+00:25:57.000 --> 00:25:59.149 align:start position:0%
+configuration in your local machine or
+you<00:25:57.240><c> don't</c><00:25:57.360><c> want</c><00:25:57.659><c> to</c><00:25:57.840><c> run</c><00:25:58.080><c> Tosca</c><00:25:58.740><c> on</c><00:25:59.039><c> your</c>
+
+00:25:59.149 --> 00:25:59.159 align:start position:0%
+you don't want to run Tosca on your
+ 
+
+00:25:59.159 --> 00:26:01.250 align:start position:0%
+you don't want to run Tosca on your
+local<00:25:59.340><c> machine</c><00:25:59.640><c> you</c><00:26:00.120><c> want</c><00:26:00.240><c> to</c><00:26:00.360><c> run</c><00:26:00.600><c> it</c><00:26:00.779><c> on</c><00:26:01.140><c> a</c>
+
+00:26:01.250 --> 00:26:01.260 align:start position:0%
+local machine you want to run it on a
+ 
+
+00:26:01.260 --> 00:26:04.850 align:start position:0%
+local machine you want to run it on a
+virtual<00:26:01.559><c> server</c><00:26:01.980><c> so</c><00:26:02.820><c> this</c><00:26:03.179><c> way</c><00:26:03.360><c> you</c><00:26:04.320><c> can</c><00:26:04.500><c> run</c>
+
+00:26:04.850 --> 00:26:04.860 align:start position:0%
+virtual server so this way you can run
+ 
+
+00:26:04.860 --> 00:26:06.909 align:start position:0%
+virtual server so this way you can run
+all<00:26:05.100><c> your</c><00:26:05.279><c> automation</c><00:26:05.700><c> on</c><00:26:06.000><c> a</c><00:26:06.179><c> virtual</c><00:26:06.419><c> server</c>
+
+00:26:06.909 --> 00:26:06.919 align:start position:0%
+all your automation on a virtual server
+ 
+
+00:26:06.919 --> 00:26:11.090 align:start position:0%
+all your automation on a virtual server
+and<00:26:07.919><c> you</c><00:26:08.460><c> can</c><00:26:08.580><c> even</c><00:26:08.760><c> start</c><00:26:09.120><c> it</c><00:26:09.360><c> from</c><00:26:09.779><c> a</c><00:26:10.200><c> Mac</c><00:26:10.440><c> OS</c>
+
+00:26:11.090 --> 00:26:11.100 align:start position:0%
+and you can even start it from a Mac OS
+ 
+
+00:26:11.100 --> 00:26:14.990 align:start position:0%
+and you can even start it from a Mac OS
+right<00:26:11.460><c> you</c><00:26:12.179><c> cannot</c><00:26:12.419><c> install</c><00:26:13.039><c> uh</c><00:26:14.039><c> Tosca</c><00:26:14.520><c> on</c><00:26:14.820><c> a</c>
+
+00:26:14.990 --> 00:26:15.000 align:start position:0%
+right you cannot install uh Tosca on a
+ 
+
+00:26:15.000 --> 00:26:18.830 align:start position:0%
+right you cannot install uh Tosca on a
+Mac<00:26:15.179><c> machine</c><00:26:16.080><c> but</c><00:26:16.740><c> you</c><00:26:17.340><c> can</c><00:26:17.520><c> install</c><00:26:18.059><c> it</c><00:26:18.360><c> on</c><00:26:18.720><c> a</c>
+
+00:26:18.830 --> 00:26:18.840 align:start position:0%
+Mac machine but you can install it on a
+ 
+
+00:26:18.840 --> 00:26:21.409 align:start position:0%
+Mac machine but you can install it on a
+Windows<00:26:19.140><c> ec2</c><00:26:19.679><c> server</c><00:26:20.039><c> and</c><00:26:20.760><c> virtually</c><00:26:21.120><c> start</c>
+
+00:26:21.409 --> 00:26:21.419 align:start position:0%
+Windows ec2 server and virtually start
+ 
+
+00:26:21.419 --> 00:26:24.230 align:start position:0%
+Windows ec2 server and virtually start
+it<00:26:21.659><c> from</c><00:26:21.960><c> the</c><00:26:22.140><c> Mac</c><00:26:22.320><c> OS</c><00:26:22.860><c> right</c><00:26:23.279><c> so</c><00:26:23.700><c> you</c><00:26:24.120><c> can</c>
+
+00:26:24.230 --> 00:26:24.240 align:start position:0%
+it from the Mac OS right so you can
+ 
+
+00:26:24.240 --> 00:26:27.110 align:start position:0%
+it from the Mac OS right so you can
+still<00:26:24.480><c> run</c><00:26:24.720><c> Tosca</c><00:26:25.260><c> from</c><00:26:25.860><c> a</c><00:26:26.039><c> Mac</c><00:26:26.159><c> OS</c><00:26:26.640><c> or</c><00:26:26.880><c> any</c>
+
+00:26:27.110 --> 00:26:27.120 align:start position:0%
+still run Tosca from a Mac OS or any
+ 
+
+00:26:27.120 --> 00:26:30.529 align:start position:0%
+still run Tosca from a Mac OS or any
+other<00:26:27.299><c> OS</c><00:26:27.779><c> using</c><00:26:28.679><c> this</c><00:26:29.100><c> way</c><00:26:29.220><c> where</c><00:26:30.120><c> you</c><00:26:30.299><c> are</c>
+
+00:26:30.529 --> 00:26:30.539 align:start position:0%
+other OS using this way where you are
+ 
+
+00:26:30.539 --> 00:26:34.730 align:start position:0%
+other OS using this way where you are
+using<00:26:30.720><c> using</c><00:26:31.260><c> a</c><00:26:31.620><c> AWS</c><00:26:32.220><c> ec2</c><00:26:32.760><c> Windows</c><00:26:33.179><c> server</c>
+
+00:26:34.730 --> 00:26:34.740 align:start position:0%
+using using a AWS ec2 Windows server
+ 
+
+00:26:34.740 --> 00:26:38.090 align:start position:0%
+using using a AWS ec2 Windows server
+so<00:26:35.159><c> that's</c><00:26:35.340><c> all</c><00:26:35.580><c> for</c><00:26:35.820><c> this</c><00:26:35.940><c> video</c><00:26:36.679><c> this</c><00:26:37.679><c> is</c><00:26:37.740><c> how</c>
+
+00:26:38.090 --> 00:26:38.100 align:start position:0%
+so that's all for this video this is how
+ 
+
+00:26:38.100 --> 00:26:40.970 align:start position:0%
+so that's all for this video this is how
+you<00:26:38.700><c> can</c><00:26:38.880><c> download</c><00:26:39.179><c> and</c><00:26:39.720><c> set</c><00:26:39.960><c> up</c><00:26:40.140><c> your</c><00:26:40.559><c> Tosca</c>
+
+00:26:40.970 --> 00:26:40.980 align:start position:0%
+you can download and set up your Tosca
+ 
+
+00:26:40.980 --> 00:26:44.029 align:start position:0%
+you can download and set up your Tosca
+on<00:26:41.640><c> a</c><00:26:41.760><c> AWS</c><00:26:42.240><c> ec2</c><00:26:42.840><c> server</c><00:26:43.260><c> and</c><00:26:43.620><c> start</c><00:26:43.799><c> running</c>
+
+00:26:44.029 --> 00:26:44.039 align:start position:0%
+on a AWS ec2 server and start running
+ 
+
+00:26:44.039 --> 00:26:47.930 align:start position:0%
+on a AWS ec2 server and start running
+Tosca<00:26:44.520><c> commander</c><00:26:45.059><c> and</c><00:26:45.779><c> start</c><00:26:46.559><c> working</c><00:26:47.279><c> on</c>
+
+00:26:47.930 --> 00:26:47.940 align:start position:0%
+Tosca commander and start working on
+ 
+
+00:26:47.940 --> 00:26:51.320 align:start position:0%
+Tosca commander and start working on
+your<00:26:48.240><c> Tosca</c><00:26:48.840><c> automation</c>
+

@@ -1,0 +1,712 @@
+[
+ {
+  "start": 12.47,
+  "end": 12.48,
+  "text": "hey everyone welcome back to our Channel"
+ },
+ {
+  "start": 12.48,
+  "end": 15.11,
+  "text": "I am back with another interesting topic"
+ },
+ {
+  "start": 15.12,
+  "end": 18.109,
+  "text": "in the tosa automation playlist now"
+ },
+ {
+  "start": 18.119,
+  "end": 20.59,
+  "text": "continuing with our obstacles topic"
+ },
+ {
+  "start": 20.6,
+  "end": 23.47,
+  "text": "let's look at our next obstacle which is"
+ },
+ {
+  "start": 23.48,
+  "end": 26.87,
+  "text": "called and Counting so in this we have"
+ },
+ {
+  "start": 26.88,
+  "end": 31.63,
+  "text": "got a autocomplete text box so when we"
+ },
+ {
+  "start": 31.64,
+  "end": 35.229,
+  "text": "type this particular text which is DDD"
+ },
+ {
+  "start": 35.239,
+  "end": 38.03,
+  "text": "here right you can see that uh it"
+ },
+ {
+  "start": 38.04,
+  "end": 41.229,
+  "text": "contains a list of different text right"
+ },
+ {
+  "start": 41.239,
+  "end": 45.47,
+  "text": "so as you uh keep typing it will search"
+ },
+ {
+  "start": 45.48,
+  "end": 48.99,
+  "text": "and find out all the similar uh text uh"
+ },
+ {
+  "start": 49.0,
+  "end": 52.389,
+  "text": "in this particular list right so uh we"
+ },
+ {
+  "start": 52.399,
+  "end": 55.15,
+  "text": "need to count the entries in this list"
+ },
+ {
+  "start": 55.16,
+  "end": 58.75,
+  "text": "and then we need to enter the number of"
+ },
+ {
+  "start": 58.76,
+  "end": 61.75,
+  "text": "that particular entries uh in this"
+ },
+ {
+  "start": 61.76,
+  "end": 65.63,
+  "text": "particular text box right so for DDD you"
+ },
+ {
+  "start": 65.64,
+  "end": 68.59,
+  "text": "can see there are five entries so we"
+ },
+ {
+  "start": 68.6,
+  "end": 71.149,
+  "text": "need to enter here five and when you"
+ },
+ {
+  "start": 71.159,
+  "end": 74.27,
+  "text": "enter five uh this automation obstacle"
+ },
+ {
+  "start": 74.28,
+  "end": 76.83,
+  "text": "will be completed so that's what we need"
+ },
+ {
+  "start": 76.84,
+  "end": 80.83,
+  "text": "to automate using tosa Okay so let's go"
+ },
+ {
+  "start": 80.84,
+  "end": 84.429,
+  "text": "ahead and do this in tosa now now to"
+ },
+ {
+  "start": 84.439,
+  "end": 86.95,
+  "text": "make this a little bit easier I have"
+ },
+ {
+  "start": 86.96,
+  "end": 89.19,
+  "text": "already uh scanned this particular"
+ },
+ {
+  "start": 89.2,
+  "end": 91.91,
+  "text": "module okay so let's go through what are"
+ },
+ {
+  "start": 91.92,
+  "end": 93.749,
+  "text": "the different elements which are present"
+ },
+ {
+  "start": 93.759,
+  "end": 97.99,
+  "text": "here so this is the span element okay uh"
+ },
+ {
+  "start": 98.0,
+  "end": 100.59,
+  "text": "and it represents this particular text"
+ },
+ {
+  "start": 100.6,
+  "end": 103.149,
+  "text": "which we have to enter okay so it is a"
+ },
+ {
+  "start": 103.159,
+  "end": 106.109,
+  "text": "span element and we will use the inner"
+ },
+ {
+  "start": 106.119,
+  "end": 109.59,
+  "text": "text to basically grab this text right"
+ },
+ {
+  "start": 109.6,
+  "end": 111.95,
+  "text": "and then we have got uh this text box we"
+ },
+ {
+  "start": 111.96,
+  "end": 113.99,
+  "text": "have got this text box and then we have"
+ },
+ {
+  "start": 114.0,
+  "end": 117.55,
+  "text": "also got a list here right so that's uh"
+ },
+ {
+  "start": 117.56,
+  "end": 119.55,
+  "text": "the elements we have scanned uh you can"
+ },
+ {
+  "start": 119.56,
+  "end": 123.23,
+  "text": "see this is the autocomplete text box"
+ },
+ {
+  "start": 123.24,
+  "end": 126.83,
+  "text": "then this is the list okay so you can"
+ },
+ {
+  "start": 126.84,
+  "end": 129.389,
+  "text": "see the list uh item here and this is"
+ },
+ {
+  "start": 129.399,
+  "end": 131.47,
+  "text": "the underlying"
+ },
+ {
+  "start": 131.48,
+  "end": 134.309,
+  "text": "list and then uh we have got the text"
+ },
+ {
+  "start": 134.319,
+  "end": 137.27,
+  "text": "box which is the entry count right now"
+ },
+ {
+  "start": 137.28,
+  "end": 140.949,
+  "text": "if I go ahead and look at the properties"
+ },
+ {
+  "start": 140.959,
+  "end": 142.67,
+  "text": "uh one of the things which you need to"
+ },
+ {
+  "start": 142.68,
+  "end": 145.99,
+  "text": "take care is the title uh that may be"
+ },
+ {
+  "start": 146.0,
+  "end": 148.99,
+  "text": "dynamic so always try to use regular"
+ },
+ {
+  "start": 149.0,
+  "end": 152.47,
+  "text": "expressions in your title okay and then"
+ },
+ {
+  "start": 152.48,
+  "end": 155.75,
+  "text": "uh coming to the list item now uh we"
+ },
+ {
+  "start": 155.76,
+  "end": 158.07,
+  "text": "have already seen and talked about"
+ },
+ {
+  "start": 158.08,
+  "end": 161.91,
+  "text": "cardinality so since uh these you can"
+ },
+ {
+  "start": 161.92,
+  "end": 163.79,
+  "text": "see there are lots of different items"
+ },
+ {
+  "start": 163.8,
+  "end": 166.43,
+  "text": "here right and uh we are not going to"
+ },
+ {
+  "start": 166.44,
+  "end": 169.11,
+  "text": "scan each and every item in this list"
+ },
+ {
+  "start": 169.12,
+  "end": 172.39,
+  "text": "right so uh we can scan just one element"
+ },
+ {
+  "start": 172.4,
+  "end": 176.149,
+  "text": "type and then we can use the cardinality"
+ },
+ {
+  "start": 176.159,
+  "end": 178.869,
+  "text": "0 to n right so we have increased the"
+ },
+ {
+  "start": 178.879,
+  "end": 180.55,
+  "text": "cardinality here because we want to"
+ },
+ {
+  "start": 180.56,
+  "end": 182.47,
+  "text": "count all the elements in that"
+ },
+ {
+  "start": 182.48,
+  "end": 186.47,
+  "text": "particular list right so uh yeah so"
+ },
+ {
+  "start": 186.48,
+  "end": 188.71,
+  "text": "that's that's all you need to do in the"
+ },
+ {
+  "start": 188.72,
+  "end": 192.11,
+  "text": "in your module attributes and then let's"
+ },
+ {
+  "start": 192.12,
+  "end": 195.789,
+  "text": "go ahead and create a new test case here"
+ },
+ {
+  "start": 195.799,
+  "end": 200.63,
+  "text": "now okay so I'm going to rename this to"
+ },
+ {
+  "start": 200.64,
+  "end": 208.149,
+  "text": "uh this particular obstacle"
+ },
+ {
+  "start": 210.589,
+  "end": 210.599,
+  "text": "number okay and then then uh I'm going"
+ },
+ {
+  "start": 210.599,
+  "end": 215.07,
+  "text": "to drag this module right here okay now"
+ },
+ {
+  "start": 215.08,
+  "end": 217.71,
+  "text": "uh this span as I said we will be taking"
+ },
+ {
+  "start": 217.72,
+  "end": 219.949,
+  "text": "the inner text value which is contains"
+ },
+ {
+  "start": 219.959,
+  "end": 222.949,
+  "text": "the actual text right for that uh we"
+ },
+ {
+  "start": 222.959,
+  "end": 225.949,
+  "text": "will choose your inner text and here we"
+ },
+ {
+  "start": 225.959,
+  "end": 230.39,
+  "text": "will see or give uh text as the value"
+ },
+ {
+  "start": 230.4,
+  "end": 232.27,
+  "text": "and what we'll do we'll change the"
+ },
+ {
+  "start": 232.28,
+  "end": 235.149,
+  "text": "action mode to buffer so what it will do"
+ },
+ {
+  "start": 235.159,
+  "end": 237.91,
+  "text": "it will uh grab the inner text and then"
+ },
+ {
+  "start": 237.92,
+  "end": 240.19,
+  "text": "it will store it in this text value"
+ },
+ {
+  "start": 240.2,
+  "end": 243.35,
+  "text": "okay and then uh coming to this autoc"
+ },
+ {
+  "start": 243.36,
+  "end": 247.11,
+  "text": "complete so here we need to uh type the"
+ },
+ {
+  "start": 247.12,
+  "end": 249.99,
+  "text": "text right and although you can directly"
+ },
+ {
+  "start": 250.0,
+  "end": 253.03,
+  "text": "enter the text uh that won't work out"
+ },
+ {
+  "start": 253.04,
+  "end": 256.15,
+  "text": "because uh it's a autocomplete text box"
+ },
+ {
+  "start": 256.16,
+  "end": 258.99,
+  "text": "so in this case you can use the send"
+ },
+ {
+  "start": 259.0,
+  "end": 261.789,
+  "text": "keys right so what it will do it will"
+ },
+ {
+  "start": 261.799,
+  "end": 264.27,
+  "text": "send one key from the keyboard into that"
+ },
+ {
+  "start": 264.28,
+  "end": 266.27,
+  "text": "particular text box"
+ },
+ {
+  "start": 266.28,
+  "end": 269.71,
+  "text": "right so uh here uh we have to use the"
+ },
+ {
+  "start": 269.72,
+  "end": 272.23,
+  "text": "buffer which we have stored earlier so"
+ },
+ {
+  "start": 272.24,
+  "end": 277.029,
+  "text": "we'll we use a buffer of text here"
+ },
+ {
+  "start": 277.039,
+  "end": 281.39,
+  "text": "okay and this will be our input right"
+ },
+ {
+  "start": 281.4,
+  "end": 284.39,
+  "text": "now uh coming to the list item here what"
+ },
+ {
+  "start": 284.4,
+  "end": 287.51,
+  "text": "we'll do is we'll use another property"
+ },
+ {
+  "start": 287.52,
+  "end": 290.27,
+  "text": "of a list through which we can count the"
+ },
+ {
+  "start": 290.28,
+  "end": 292.749,
+  "text": "number of items and that is called the"
+ },
+ {
+  "start": 292.759,
+  "end": 295.15,
+  "text": "result count"
+ },
+ {
+  "start": 295.16,
+  "end": 298.43,
+  "text": "okay so here we can type the result"
+ },
+ {
+  "start": 298.44,
+  "end": 300.23,
+  "text": "count property"
+ },
+ {
+  "start": 300.24,
+  "end": 302.79,
+  "text": "and here we can again buffer this to a"
+ },
+ {
+  "start": 302.8,
+  "end": 305.43,
+  "text": "particular buffer value okay I will"
+ },
+ {
+  "start": 305.44,
+  "end": 307.99,
+  "text": "change the action mode to buffer so the"
+ },
+ {
+  "start": 308.0,
+  "end": 310.87,
+  "text": "result count of this particular list"
+ },
+ {
+  "start": 310.88,
+  "end": 313.629,
+  "text": "will be stored in this count"
+ },
+ {
+  "start": 313.639,
+  "end": 316.55,
+  "text": "right and once we get the count then we"
+ },
+ {
+  "start": 316.56,
+  "end": 320.71,
+  "text": "can directly enter it uh with the buffer"
+ },
+ {
+  "start": 320.72,
+  "end": 322.59,
+  "text": "so buffer of"
+ },
+ {
+  "start": 322.6,
+  "end": 324.35,
+  "text": "count"
+ },
+ {
+  "start": 324.36,
+  "end": 327.39,
+  "text": "right so couple of things uh we have"
+ },
+ {
+  "start": 327.4,
+  "end": 330.11,
+  "text": "seen uh we have to use the send Keys"
+ },
+ {
+  "start": 330.12,
+  "end": 332.189,
+  "text": "instead of uh directly inputting the"
+ },
+ {
+  "start": 332.199,
+  "end": 335.87,
+  "text": "text here because uh it's a autocomplete"
+ },
+ {
+  "start": 335.88,
+  "end": 338.79,
+  "text": "text box so we have to enter Keys one by"
+ },
+ {
+  "start": 338.8,
+  "end": 341.55,
+  "text": "one right then we are buffering uh the"
+ },
+ {
+  "start": 341.56,
+  "end": 344.469,
+  "text": "inner text uh from the span element"
+ },
+ {
+  "start": 344.479,
+  "end": 347.07,
+  "text": "which becomes our text and then we are"
+ },
+ {
+  "start": 347.08,
+  "end": 349.67,
+  "text": "using the result count property for the"
+ },
+ {
+  "start": 349.68,
+  "end": 353.23,
+  "text": "list uh items so that we can uh get the"
+ },
+ {
+  "start": 353.24,
+  "end": 356.11,
+  "text": "count of all the items right and then we"
+ },
+ {
+  "start": 356.12,
+  "end": 357.909,
+  "text": "are storing it in a buffer and then we"
+ },
+ {
+  "start": 357.919,
+  "end": 360.469,
+  "text": "are entering that uh account value into"
+ },
+ {
+  "start": 360.479,
+  "end": 364.189,
+  "text": "the text box right so let's go ahead and"
+ },
+ {
+  "start": 364.199,
+  "end": 368.23,
+  "text": "execute this"
+ },
+ {
+  "start": 372.189,
+  "end": 372.199,
+  "text": "now so as you can see it uh entered the"
+ },
+ {
+  "start": 372.199,
+  "end": 376.39,
+  "text": "text which is CCC and then um it counted"
+ },
+ {
+  "start": 376.4,
+  "end": 379.55,
+  "text": "how many uh C CC are present in that"
+ },
+ {
+  "start": 379.56,
+  "end": 382.95,
+  "text": "particular list and then it entered two"
+ },
+ {
+  "start": 382.96,
+  "end": 385.35,
+  "text": "which is the number of uh text which is"
+ },
+ {
+  "start": 385.36,
+  "end": 388.589,
+  "text": "present in the count here right and then"
+ },
+ {
+  "start": 388.599,
+  "end": 391.469,
+  "text": "this particular op CLE was"
+ },
+ {
+  "start": 391.479,
+  "end": 394.469,
+  "text": "completed so this is how you can use"
+ },
+ {
+  "start": 394.479,
+  "end": 397.589,
+  "text": "different concepts to basically solve uh"
+ },
+ {
+  "start": 397.599,
+  "end": 400.309,
+  "text": "your automation problem right so you can"
+ },
+ {
+  "start": 400.319,
+  "end": 403.39,
+  "text": "use the action mode buffer you can use"
+ },
+ {
+  "start": 403.4,
+  "end": 405.71,
+  "text": "some properties like the inner text the"
+ },
+ {
+  "start": 405.72,
+  "end": 409.189,
+  "text": "result count uh to get the count of uh"
+ },
+ {
+  "start": 409.199,
+  "end": 412.11,
+  "text": "the list of items and then you can also"
+ },
+ {
+  "start": 412.12,
+  "end": 415.11,
+  "text": "use the send keys to enter some keys"
+ },
+ {
+  "start": 415.12,
+  "end": 417.67,
+  "text": "into a autocomplete text"
+ },
+ {
+  "start": 417.68,
+  "end": 420.99,
+  "text": "box that's all for this particular video"
+ },
+ {
+  "start": 421.0,
+  "end": 422.79,
+  "text": "if you have any questions then please"
+ },
+ {
+  "start": 422.8,
+  "end": 425.23,
+  "text": "leave it in the comments if you like"
+ },
+ {
+  "start": 425.24,
+  "end": 427.35,
+  "text": "this video then please subscribe to our"
+ },
+ {
+  "start": 427.36,
+  "end": 429.869,
+  "text": "Channel thanks for watching and I will"
+ },
+ {
+  "start": 429.879,
+  "end": 431.95,
+  "text": "see you in the next"
+ },
+ {
+  "start": 431.96,
+  "end": 434.96,
+  "text": "video"
+ }
+]

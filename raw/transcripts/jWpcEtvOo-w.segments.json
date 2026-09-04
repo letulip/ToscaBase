@@ -1,0 +1,902 @@
+[
+ {
+  "start": 2.93,
+  "end": 2.94,
+  "text": "hey everyone welcome again to another"
+ },
+ {
+  "start": 2.94,
+  "end": 4.789,
+  "text": "lesson in the stores car automation"
+ },
+ {
+  "start": 4.799,
+  "end": 7.61,
+  "text": "course today I am going to show you how"
+ },
+ {
+  "start": 7.62,
+  "end": 10.73,
+  "text": "you can use repetitions in Tosca to run"
+ },
+ {
+  "start": 10.74,
+  "end": 13.85,
+  "text": "your test steps repeatedly and number of"
+ },
+ {
+  "start": 13.86,
+  "end": 16.31,
+  "text": "times I am going to show you two ways of"
+ },
+ {
+  "start": 16.32,
+  "end": 19.37,
+  "text": "doing this in your Tosca automation test"
+ },
+ {
+  "start": 19.38,
+  "end": 21.109,
+  "text": "cases"
+ },
+ {
+  "start": 21.119,
+  "end": 23.39,
+  "text": "for this purpose I have created a new"
+ },
+ {
+  "start": 23.4,
+  "end": 26.63,
+  "text": "folder and I have created a test case"
+ },
+ {
+  "start": 26.64,
+  "end": 30.529,
+  "text": "flow in which we'll be using repetitions"
+ },
+ {
+  "start": 30.539,
+  "end": 33.41,
+  "text": "so we'll be using the same app what I'll"
+ },
+ {
+  "start": 33.42,
+  "end": 35.69,
+  "text": "be doing is I'll be"
+ },
+ {
+  "start": 35.7,
+  "end": 38.51,
+  "text": "going to this URL I'll be using this"
+ },
+ {
+  "start": 38.52,
+  "end": 41.09,
+  "text": "username and password to login"
+ },
+ {
+  "start": 41.1,
+  "end": 45.889,
+  "text": "and then what I'm going to do"
+ },
+ {
+  "start": 48.11,
+  "end": 48.12,
+  "text": "just let me get clear of this"
+ },
+ {
+  "start": 48.12,
+  "end": 50.93,
+  "text": "notifications and then what I will do is"
+ },
+ {
+  "start": 50.94,
+  "end": 52.729,
+  "text": "I'm going to click on this add to cart"
+ },
+ {
+  "start": 52.739,
+  "end": 54.049,
+  "text": "button"
+ },
+ {
+  "start": 54.059,
+  "end": 57.35,
+  "text": "five times now this might not be an"
+ },
+ {
+  "start": 57.36,
+  "end": 59.51,
+  "text": "ideal scenario where you will use"
+ },
+ {
+  "start": 59.52,
+  "end": 62.389,
+  "text": "repetitions but if you want to also do"
+ },
+ {
+  "start": 62.399,
+  "end": 64.549,
+  "text": "some performance testing on your"
+ },
+ {
+  "start": 64.559,
+  "end": 66.17,
+  "text": "elements"
+ },
+ {
+  "start": 66.18,
+  "end": 68.87,
+  "text": "or on your application you can also use"
+ },
+ {
+  "start": 68.88,
+  "end": 71.81,
+  "text": "this repetitions or else if you have a"
+ },
+ {
+  "start": 71.82,
+  "end": 73.67,
+  "text": "specific scenario where we want to"
+ },
+ {
+  "start": 73.68,
+  "end": 75.469,
+  "text": "repeat your test steps"
+ },
+ {
+  "start": 75.479,
+  "end": 77.75,
+  "text": "so you can use this repetitions logic"
+ },
+ {
+  "start": 77.76,
+  "end": 80.09,
+  "text": "which I'm going to show you"
+ },
+ {
+  "start": 80.1,
+  "end": 83.99,
+  "text": "okay so let me reset this app State and"
+ },
+ {
+  "start": 84.0,
+  "end": 85.31,
+  "text": "let's log out"
+ },
+ {
+  "start": 85.32,
+  "end": 88.67,
+  "text": "and let's close this okay so as I told"
+ },
+ {
+  "start": 88.68,
+  "end": 90.83,
+  "text": "you I'm going I have added these steps"
+ },
+ {
+  "start": 90.84,
+  "end": 94.01,
+  "text": "where I'm going to login First into the"
+ },
+ {
+  "start": 94.02,
+  "end": 96.289,
+  "text": "application and then I've got this"
+ },
+ {
+  "start": 96.299,
+  "end": 99.41,
+  "text": "repetition test step right or a"
+ },
+ {
+  "start": 99.42,
+  "end": 102.289,
+  "text": "repetition test case inside this I have"
+ },
+ {
+  "start": 102.299,
+  "end": 105.89,
+  "text": "a test step for adding products as I"
+ },
+ {
+  "start": 105.9,
+  "end": 106.85,
+  "text": "showed you"
+ },
+ {
+  "start": 106.86,
+  "end": 109.73,
+  "text": "and the reputation would be"
+ },
+ {
+  "start": 109.74,
+  "end": 112.789,
+  "text": "in this particular folder okay so the"
+ },
+ {
+  "start": 112.799,
+  "end": 114.77,
+  "text": "steps inside this folder will be"
+ },
+ {
+  "start": 114.78,
+  "end": 117.35,
+  "text": "repeated again and again and that is to"
+ },
+ {
+  "start": 117.36,
+  "end": 120.05,
+  "text": "click on the add to cart button okay as"
+ },
+ {
+  "start": 120.06,
+  "end": 121.73,
+  "text": "I showed you and then we are going to"
+ },
+ {
+  "start": 121.74,
+  "end": 123.23,
+  "text": "close the application"
+ },
+ {
+  "start": 123.24,
+  "end": 126.109,
+  "text": "okay so let's see how we can add these"
+ },
+ {
+  "start": 126.119,
+  "end": 129.41,
+  "text": "repetitions to our test steps so uh for"
+ },
+ {
+  "start": 129.42,
+  "end": 132.589,
+  "text": "our case the test step is to add the"
+ },
+ {
+  "start": 132.599,
+  "end": 135.77,
+  "text": "products multiple times okay or click on"
+ },
+ {
+  "start": 135.78,
+  "end": 138.53,
+  "text": "the add to cart button multiple times"
+ },
+ {
+  "start": 138.54,
+  "end": 140.51,
+  "text": "so as I said earlier there are two ways"
+ },
+ {
+  "start": 140.52,
+  "end": 142.01,
+  "text": "of doing this okay"
+ },
+ {
+  "start": 142.02,
+  "end": 145.43,
+  "text": "so the first way is to add another extra"
+ },
+ {
+  "start": 145.44,
+  "end": 148.91,
+  "text": "column in your test cases section where"
+ },
+ {
+  "start": 148.92,
+  "end": 150.71,
+  "text": "you can add repetitions"
+ },
+ {
+  "start": 150.72,
+  "end": 153.65,
+  "text": "and how you can do that is go to this"
+ },
+ {
+  "start": 153.66,
+  "end": 156.589,
+  "text": "particular section and right click here"
+ },
+ {
+  "start": 156.599,
+  "end": 158.449,
+  "text": "and you will see there is an option"
+ },
+ {
+  "start": 158.459,
+  "end": 161.03,
+  "text": "called column Chooser okay so this way"
+ },
+ {
+  "start": 161.04,
+  "end": 164.509,
+  "text": "uh you can add any number of columns or"
+ },
+ {
+  "start": 164.519,
+  "end": 166.85,
+  "text": "different columns to your test cases"
+ },
+ {
+  "start": 166.86,
+  "end": 169.85,
+  "text": "so here you will find there is a column"
+ },
+ {
+  "start": 169.86,
+  "end": 172.61,
+  "text": "called repetition now either you can"
+ },
+ {
+  "start": 172.62,
+  "end": 176.39,
+  "text": "drag and drop this into uh your sections"
+ },
+ {
+  "start": 176.4,
+  "end": 179.75,
+  "text": "column section or you can also double"
+ },
+ {
+  "start": 179.76,
+  "end": 182.21,
+  "text": "click it to just add it to your columns"
+ },
+ {
+  "start": 182.22,
+  "end": 185.809,
+  "text": "okay and it will currently show it under"
+ },
+ {
+  "start": 185.819,
+  "end": 188.449,
+  "text": "The Columns of your test cases"
+ },
+ {
+  "start": 188.459,
+  "end": 190.97,
+  "text": "once you do that you have got the"
+ },
+ {
+  "start": 190.98,
+  "end": 193.85,
+  "text": "repetition column and now you can add"
+ },
+ {
+  "start": 193.86,
+  "end": 196.25,
+  "text": "any number of repetitions here"
+ },
+ {
+  "start": 196.26,
+  "end": 196.85,
+  "text": "um"
+ },
+ {
+  "start": 196.86,
+  "end": 198.949,
+  "text": "which you want to run this test steps"
+ },
+ {
+  "start": 198.959,
+  "end": 202.49,
+  "text": "okay so this will not be at uh the test"
+ },
+ {
+  "start": 202.5,
+  "end": 205.55,
+  "text": "step level you cannot add it here or you"
+ },
+ {
+  "start": 205.56,
+  "end": 208.79,
+  "text": "cannot add it under the test case you"
+ },
+ {
+  "start": 208.8,
+  "end": 211.19,
+  "text": "have to add it in the folder under which"
+ },
+ {
+  "start": 211.2,
+  "end": 215.03,
+  "text": "your test steps are there okay so if you"
+ },
+ {
+  "start": 215.04,
+  "end": 216.89,
+  "text": "want to run all of these steps under"
+ },
+ {
+  "start": 216.9,
+  "end": 218.509,
+  "text": "this folder"
+ },
+ {
+  "start": 218.519,
+  "end": 221.03,
+  "text": "um multiple number of times then you"
+ },
+ {
+  "start": 221.04,
+  "end": 223.309,
+  "text": "have to mention it here so for example"
+ },
+ {
+  "start": 223.319,
+  "end": 227.63,
+  "text": "if I do five times okay I want to run"
+ },
+ {
+  "start": 227.64,
+  "end": 229.55,
+  "text": "this five times I have added a"
+ },
+ {
+  "start": 229.56,
+  "end": 231.71,
+  "text": "repetition of five"
+ },
+ {
+  "start": 231.72,
+  "end": 234.949,
+  "text": "okay so that's all I need to do and"
+ },
+ {
+  "start": 234.959,
+  "end": 237.83,
+  "text": "let's go ahead and see whether this is"
+ },
+ {
+  "start": 237.84,
+  "end": 240.05,
+  "text": "working or not okay"
+ },
+ {
+  "start": 240.06,
+  "end": 241.97,
+  "text": "so I'm going to run this particular"
+ },
+ {
+  "start": 241.98,
+  "end": 248.869,
+  "text": "folder which contains all the steps"
+ },
+ {
+  "start": 251.449,
+  "end": 251.459,
+  "text": "and as you can see now it is logging in"
+ },
+ {
+  "start": 251.459,
+  "end": 253.61,
+  "text": "and it is trying to click on the add to"
+ },
+ {
+  "start": 253.62,
+  "end": 255.949,
+  "text": "cart multiple times okay"
+ },
+ {
+  "start": 255.959,
+  "end": 257.99,
+  "text": "just ignore that notification on the"
+ },
+ {
+  "start": 258.0,
+  "end": 260.39,
+  "text": "Chrome browser it is giving on some"
+ },
+ {
+  "start": 260.4,
+  "end": 263.57,
+  "text": "password being used uh maliciously"
+ },
+ {
+  "start": 263.58,
+  "end": 266.03,
+  "text": "so if we ignore that particular thing"
+ },
+ {
+  "start": 266.04,
+  "end": 268.969,
+  "text": "and we go to the results of the scratch"
+ },
+ {
+  "start": 268.979,
+  "end": 271.37,
+  "text": "book you will see in add products folder"
+ },
+ {
+  "start": 271.38,
+  "end": 274.37,
+  "text": "we have got five repetitions so let me"
+ },
+ {
+  "start": 274.38,
+  "end": 275.629,
+  "text": "expand this"
+ },
+ {
+  "start": 275.639,
+  "end": 279.65,
+  "text": "and you will see it has got this step"
+ },
+ {
+  "start": 279.66,
+  "end": 282.59,
+  "text": "which has been executed multiple times"
+ },
+ {
+  "start": 282.6,
+  "end": 288.65,
+  "text": "or the number of times we decided okay"
+ },
+ {
+  "start": 292.129,
+  "end": 292.139,
+  "text": "so this way you can add repetitions to"
+ },
+ {
+  "start": 292.139,
+  "end": 293.689,
+  "text": "your test steps which will be repeated"
+ },
+ {
+  "start": 293.699,
+  "end": 296.45,
+  "text": "multiple number of times okay"
+ },
+ {
+  "start": 296.46,
+  "end": 298.85,
+  "text": "now this was just the one way of doing"
+ },
+ {
+  "start": 298.86,
+  "end": 301.969,
+  "text": "it okay uh now let's look at another way"
+ },
+ {
+  "start": 301.979,
+  "end": 304.79,
+  "text": "of doing this so let me remove this"
+ },
+ {
+  "start": 304.8,
+  "end": 308.15,
+  "text": "okay you can also remove uh your columns"
+ },
+ {
+  "start": 308.16,
+  "end": 311.33,
+  "text": "uh if I haven't mentioned it earlier you"
+ },
+ {
+  "start": 311.34,
+  "end": 315.469,
+  "text": "can just drag your column and that is a"
+ },
+ {
+  "start": 315.479,
+  "end": 317.81,
+  "text": "cross sign on your screen so just leave"
+ },
+ {
+  "start": 317.82,
+  "end": 320.749,
+  "text": "it and your column would be removed okay"
+ },
+ {
+  "start": 320.759,
+  "end": 324.17,
+  "text": "so now um I have removed the repetition"
+ },
+ {
+  "start": 324.18,
+  "end": 327.23,
+  "text": "uh column value here from the add"
+ },
+ {
+  "start": 327.24,
+  "end": 329.749,
+  "text": "products folder so it's not going to run"
+ },
+ {
+  "start": 329.759,
+  "end": 332.689,
+  "text": "any repetition for my test steps but I'm"
+ },
+ {
+  "start": 332.699,
+  "end": 334.73,
+  "text": "going to show you the other way okay so"
+ },
+ {
+  "start": 334.74,
+  "end": 337.37,
+  "text": "go to the properties section and here"
+ },
+ {
+  "start": 337.38,
+  "end": 340.189,
+  "text": "you will also find a property called"
+ },
+ {
+  "start": 340.199,
+  "end": 343.07,
+  "text": "repetition okay only for this particular"
+ },
+ {
+  "start": 343.08,
+  "end": 345.17,
+  "text": "folder so"
+ },
+ {
+  "start": 345.18,
+  "end": 348.469,
+  "text": "here I can again mention uh to run this"
+ },
+ {
+  "start": 348.479,
+  "end": 350.93,
+  "text": "repetitions rather four times this time"
+ },
+ {
+  "start": 350.94,
+  "end": 353.81,
+  "text": "okay so let's try a different number"
+ },
+ {
+  "start": 353.82,
+  "end": 357.529,
+  "text": "so this is now set to run the repetition"
+ },
+ {
+  "start": 357.539,
+  "end": 359.93,
+  "text": "uh for the test steps under this folder"
+ },
+ {
+  "start": 359.94,
+  "end": 362.93,
+  "text": "for four times okay and it is set in the"
+ },
+ {
+  "start": 362.94,
+  "end": 365.39,
+  "text": "properties section not in the column"
+ },
+ {
+  "start": 365.4,
+  "end": 367.73,
+  "text": "section okay"
+ },
+ {
+  "start": 367.74,
+  "end": 371.87,
+  "text": "uh but as you can see once I set it in"
+ },
+ {
+  "start": 371.88,
+  "end": 373.79,
+  "text": "the properties section the column"
+ },
+ {
+  "start": 373.8,
+  "end": 377.629,
+  "text": "section is automatically updated okay"
+ },
+ {
+  "start": 377.639,
+  "end": 380.39,
+  "text": "so it's one and the same thing but uh"
+ },
+ {
+  "start": 380.4,
+  "end": 382.73,
+  "text": "there are two ways of doing it okay"
+ },
+ {
+  "start": 382.74,
+  "end": 389.21,
+  "text": "so now if I go ahead and run"
+ },
+ {
+  "start": 392.87,
+  "end": 392.88,
+  "text": "so running this again in scratchbook and"
+ },
+ {
+  "start": 392.88,
+  "end": 395.39,
+  "text": "now it should basically do the same"
+ },
+ {
+  "start": 395.4,
+  "end": 396.71,
+  "text": "thing"
+ },
+ {
+  "start": 396.72,
+  "end": 398.93,
+  "text": "okay so it is going to click on the add"
+ },
+ {
+  "start": 398.94,
+  "end": 401.33,
+  "text": "to cart multiple times"
+ },
+ {
+  "start": 401.34,
+  "end": 404.15,
+  "text": "and we can see the same thing uh in our"
+ },
+ {
+  "start": 404.16,
+  "end": 406.43,
+  "text": "results"
+ },
+ {
+  "start": 409.909,
+  "end": 409.919,
+  "text": "so let's expand this result section"
+ },
+ {
+  "start": 409.919,
+  "end": 412.309,
+  "text": "and go to the add products and you can"
+ },
+ {
+  "start": 412.319,
+  "end": 415.07,
+  "text": "see four repetitions okay so last time"
+ },
+ {
+  "start": 415.08,
+  "end": 417.71,
+  "text": "around we had five repetitions and now"
+ },
+ {
+  "start": 417.72,
+  "end": 420.409,
+  "text": "we have four"
+ },
+ {
+  "start": 423.95,
+  "end": 423.96,
+  "text": "so this is how you can um add"
+ },
+ {
+  "start": 423.96,
+  "end": 426.11,
+  "text": "repetitions to your test steps so that"
+ },
+ {
+  "start": 426.12,
+  "end": 428.87,
+  "text": "they are executed multiple number of"
+ },
+ {
+  "start": 428.88,
+  "end": 431.629,
+  "text": "times that depends as I said uh on your"
+ },
+ {
+  "start": 431.639,
+  "end": 433.85,
+  "text": "scenario of the application you are"
+ },
+ {
+  "start": 433.86,
+  "end": 434.749,
+  "text": "testing"
+ },
+ {
+  "start": 434.759,
+  "end": 437.15,
+  "text": "although uh the scenario I showed was"
+ },
+ {
+  "start": 437.16,
+  "end": 440.15,
+  "text": "not the perfect example but at least uh"
+ },
+ {
+  "start": 440.16,
+  "end": 442.37,
+  "text": "now you got an idea on how you can use"
+ },
+ {
+  "start": 442.38,
+  "end": 445.61,
+  "text": "repetitions in your Tosca test cases"
+ },
+ {
+  "start": 445.62,
+  "end": 448.55,
+  "text": "and before we end this topic let me show"
+ },
+ {
+  "start": 448.56,
+  "end": 452.089,
+  "text": "you another small thing which is quite"
+ },
+ {
+  "start": 452.099,
+  "end": 455.15,
+  "text": "noticeable or not noticeable so when we"
+ },
+ {
+  "start": 455.16,
+  "end": 458.089,
+  "text": "add some repetition to a folder the"
+ },
+ {
+  "start": 458.099,
+  "end": 460.43,
+  "text": "folder icon changes okay so you can see"
+ },
+ {
+  "start": 460.44,
+  "end": 463.43,
+  "text": "a rounded Arrow going backwards uh"
+ },
+ {
+  "start": 463.44,
+  "end": 465.589,
+  "text": "Whenever there is a repetition"
+ },
+ {
+  "start": 465.599,
+  "end": 468.95,
+  "text": "and if I remove this repetition now you"
+ },
+ {
+  "start": 468.96,
+  "end": 472.189,
+  "text": "will see the folder has again changed to"
+ },
+ {
+  "start": 472.199,
+  "end": 475.309,
+  "text": "a normal folder okay so that's the sign"
+ },
+ {
+  "start": 475.319,
+  "end": 478.249,
+  "text": "you need to look for if there is any"
+ },
+ {
+  "start": 478.259,
+  "end": 481.61,
+  "text": "repetition for any particular test steps"
+ },
+ {
+  "start": 481.62,
+  "end": 485.23,
+  "text": "which are part of that folder okay"
+ },
+ {
+  "start": 485.24,
+  "end": 488.39,
+  "text": "so this is all about repetitions uh look"
+ },
+ {
+  "start": 488.4,
+  "end": 490.07,
+  "text": "out for more videos"
+ },
+ {
+  "start": 490.08,
+  "end": 491.33,
+  "text": "um coming up soon"
+ },
+ {
+  "start": 491.34,
+  "end": 494.18,
+  "text": "um in Tosca again"
+ }
+]

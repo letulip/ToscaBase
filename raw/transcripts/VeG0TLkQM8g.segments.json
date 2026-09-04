@@ -1,0 +1,842 @@
+[
+ {
+  "start": 15.02,
+  "end": 19.7,
+  "text": "Hello friends, welcome back to our channel."
+ },
+ {
+  "start": 19.7,
+  "end": 23.66,
+  "text": "I am your Tosca instructor and my name is Kumaresh."
+ },
+ {
+  "start": 23.66,
+  "end": 30.54,
+  "text": "I have total 14 years of IT experience in software development and test automation."
+ },
+ {
+  "start": 30.54,
+  "end": 33.98,
+  "text": "Thank you for connecting with us."
+ },
+ {
+  "start": 33.98,
+  "end": 36.58,
+  "text": "Hope you are doing well."
+ },
+ {
+  "start": 36.58,
+  "end": 39.5,
+  "text": "Let's start our today's session."
+ },
+ {
+  "start": 39.5,
+  "end": 44.06,
+  "text": "Through this video, I will explain the detailed overview and implementation approaches"
+ },
+ {
+  "start": 44.06,
+  "end": 47.42,
+  "text": "of Tosca TestCase design."
+ },
+ {
+  "start": 47.42,
+  "end": 54.66,
+  "text": "The explanation will be done through hands-on demonstration at the previously developed TestCase."
+ },
+ {
+  "start": 54.66,
+  "end": 59.46,
+  "text": "Tosca TestCase design is an approach to isolate the test data from the technical sections"
+ },
+ {
+  "start": 59.46,
+  "end": 61.1,
+  "text": "of test cases."
+ },
+ {
+  "start": 61.1,
+  "end": 65.98,
+  "text": "So, the data and test cases are kept separately."
+ },
+ {
+  "start": 65.98,
+  "end": 70.3,
+  "text": "In short, it is also known as TCD."
+ },
+ {
+  "start": 70.3,
+  "end": 75.12,
+  "text": "The Tosca TestCase design section has the capability to break our test cases into"
+ },
+ {
+  "start": 75.12,
+  "end": 77.32,
+  "text": "a logical structure."
+ },
+ {
+  "start": 77.32,
+  "end": 81.54,
+  "text": "It is also help us to plan and design the test cases in an efficient and structured"
+ },
+ {
+  "start": 81.54,
+  "end": 85.46,
+  "text": "way to reduce the development and maintenance efforts."
+ },
+ {
+  "start": 85.46,
+  "end": 89.58,
+  "text": "The primary activities of TCD are."
+ },
+ {
+  "start": 89.58,
+  "end": 94.18,
+  "text": "Create the test sheets, which is a combination of all possible test cases for any particular"
+ },
+ {
+  "start": 94.18,
+  "end": 96.42,
+  "text": "scenario or template."
+ },
+ {
+  "start": 96.54,
+  "end": 102.44,
+  "text": "Basically, test sheets are holding the data for different combinations."
+ },
+ {
+  "start": 102.44,
+  "end": 107.72,
+  "text": "The concept of class-in-test-case design approach helps to reuse the common data across"
+ },
+ {
+  "start": 107.72,
+  "end": 113.19,
+  "text": "the test cases which reduce the efforts of data management."
+ },
+ {
+  "start": 113.19,
+  "end": 118.13,
+  "text": "With the help of instances, we can create the specific data for test sheets, TCD"
+ },
+ {
+  "start": 118.13,
+  "end": 122.74,
+  "text": "attributes or TCD classes."
+ },
+ {
+  "start": 122.74,
+  "end": 127.64,
+  "text": "Create test case templates and assign the test sheets."
+ },
+ {
+  "start": 127.64,
+  "end": 133.2,
+  "text": "We need to instantiate or reinstantiate templates to generate the instance test cases as per"
+ },
+ {
+  "start": 133.2,
+  "end": 135.2,
+  "text": "the test sheets."
+ },
+ {
+  "start": 135.2,
+  "end": 140.36,
+  "text": "It manages test data in test sheets and execute the instance test cases."
+ },
+ {
+  "start": 140.36,
+  "end": 145.84,
+  "text": "Before starting of TCD implementation, we need to familiar with some TCD objects"
+ },
+ {
+  "start": 145.84,
+  "end": 149.24,
+  "text": "which are mostly used in TCD."
+ },
+ {
+  "start": 149.24,
+  "end": 152.64,
+  "text": "I am explaining them one by one."
+ },
+ {
+  "start": 152.64,
+  "end": 153.64,
+  "text": "Folder"
+ },
+ {
+  "start": 153.8,
+  "end": 161.17,
+  "text": "Test case design folder is used to group the test sheets or classes in a logical way."
+ },
+ {
+  "start": 161.17,
+  "end": 162.17,
+  "text": "Test sheet."
+ },
+ {
+  "start": 162.17,
+  "end": 167.45,
+  "text": "Is a list of data for all possible combinations of TOSCA test cases."
+ },
+ {
+  "start": 167.45,
+  "end": 172.86,
+  "text": "Each data set represents one unique test case."
+ },
+ {
+  "start": 172.86,
+  "end": 173.86,
+  "text": "Attribute"
+ },
+ {
+  "start": 173.86,
+  "end": 180.83,
+  "text": "Is referred to as the different data parameters corresponding to each application field."
+ },
+ {
+  "start": 180.83,
+  "end": 183.07,
+  "text": "Attribute which are not business relevant."
+ },
+ {
+  "start": 183.07,
+  "end": 187.73,
+  "text": "Are used for comment or description purposes."
+ },
+ {
+  "start": 187.73,
+  "end": 189.45,
+  "text": "The result attribute."
+ },
+ {
+  "start": 189.45,
+  "end": 193.88,
+  "text": "Is used for result purposes."
+ },
+ {
+  "start": 193.88,
+  "end": 195.28,
+  "text": "Instances collection."
+ },
+ {
+  "start": 195.28,
+  "end": 202.79,
+  "text": "Holds the instances i.e. all possible values available for particular attribute."
+ },
+ {
+  "start": 202.79,
+  "end": 203.79,
+  "text": "Instances"
+ },
+ {
+  "start": 203.79,
+  "end": 207.25,
+  "text": "Is the value of each attribute slash parameter."
+ },
+ {
+  "start": 207.25,
+  "end": 212.19,
+  "text": "It can be created test sheets, attributes or class level."
+ },
+ {
+  "start": 212.19,
+  "end": 217.49,
+  "text": "Instances of test sheets are basically a test case name."
+ },
+ {
+  "start": 217.49,
+  "end": 218.49,
+  "text": "Class"
+ },
+ {
+  "start": 218.49,
+  "end": 223.21,
+  "text": "This is similar to test sheets but it's used for the reusable purpose."
+ },
+ {
+  "start": 223.21,
+  "end": 230.14,
+  "text": "All the common data are stored here which can be reused in multiple test sheets."
+ },
+ {
+  "start": 230.14,
+  "end": 231.5,
+  "text": "Class reference."
+ },
+ {
+  "start": 231.5,
+  "end": 235.42,
+  "text": "Is acting as a link of classes from test sheets."
+ },
+ {
+  "start": 235.42,
+  "end": 239.42,
+  "text": "We can create it with the drag drop method."
+ },
+ {
+  "start": 239.42,
+  "end": 243.3,
+  "text": "The object hierarchies in test case design are."
+ },
+ {
+  "start": 243.3,
+  "end": 250.23,
+  "text": "A test sheet may have attributes, instances, test steps and class references."
+ },
+ {
+  "start": 250.23,
+  "end": 255.23,
+  "text": "A class may be the combinations of class attributes and instances."
+ },
+ {
+  "start": 255.23,
+  "end": 261.99,
+  "text": "Again, an attribute can keeps further attributes and instances."
+ },
+ {
+  "start": 261.99,
+  "end": 266.39,
+  "text": "A step can keeps more steps and attributes."
+ },
+ {
+  "start": 266.39,
+  "end": 271.36,
+  "text": "Advantages of TCD approach are."
+ },
+ {
+  "start": 271.36,
+  "end": 275.8,
+  "text": "Handling of dynamic test data and objects are very easy."
+ },
+ {
+  "start": 275.8,
+  "end": 280.0,
+  "text": "It helps to reuse of data in different test cases."
+ },
+ {
+  "start": 280.0,
+  "end": 284.18,
+  "text": "No scripting is required to implement TCD."
+ },
+ {
+  "start": 284.18,
+  "end": 287.88,
+  "text": "Data and technical components are kept separately."
+ },
+ {
+  "start": 287.88,
+  "end": 294.92,
+  "text": "In the case of data change, no need to modify the test cases."
+ },
+ {
+  "start": 294.92,
+  "end": 300.76,
+  "text": "The main disadvantages of TCD is that the test case design section are."
+ },
+ {
+  "start": 300.76,
+  "end": 304.64,
+  "text": "Thus approach is very complicated and little expensive."
+ },
+ {
+  "start": 304.64,
+  "end": 308.72,
+  "text": "Also, the UI takes time to understand."
+ },
+ {
+  "start": 308.72,
+  "end": 310.52,
+  "text": "Alright."
+ },
+ {
+  "start": 310.52,
+  "end": 315.16,
+  "text": "Let's start the demonstration on test case design."
+ },
+ {
+  "start": 315.16,
+  "end": 322.68,
+  "text": "I will guide you the step by step approaches to implement TCD in an existing test case."
+ },
+ {
+  "start": 322.68,
+  "end": 329.4,
+  "text": "First, we need to create the test data sheet in test case design section."
+ },
+ {
+  "start": 329.4,
+  "end": 334.92,
+  "text": "We will implement TCD in this test case which was developed previously."
+ },
+ {
+  "start": 334.92,
+  "end": 339.72,
+  "text": "Now we open the test case design section as a floating window on top of test case"
+ },
+ {
+  "start": 339.72,
+  "end": 343.2,
+  "text": "section."
+ },
+ {
+  "start": 343.2,
+  "end": 346.96,
+  "text": "Check out the TCD section."
+ },
+ {
+  "start": 346.96,
+  "end": 351.96,
+  "text": "To create the data sheet, we need to right click on the TCD folder."
+ },
+ {
+  "start": 351.96,
+  "end": 354.88,
+  "text": "We rename it to data set one."
+ },
+ {
+  "start": 354.88,
+  "end": 359.0,
+  "text": "Now we will create the attribute of the data sheet as the test data parameter such"
+ },
+ {
+  "start": 359.0,
+  "end": 361.8,
+  "text": "as URL."
+ },
+ {
+  "start": 361.8,
+  "end": 366.7,
+  "text": "After that, we need to create the instances of URL attribute which will be treated as"
+ },
+ {
+  "start": 366.7,
+  "end": 369.5,
+  "text": "test data."
+ },
+ {
+  "start": 369.5,
+  "end": 381.44,
+  "text": "We are adding two URLs for Google as values."
+ },
+ {
+  "start": 381.44,
+  "end": 385.72,
+  "text": "Similarly, we will add another attribute as search value which will represent the"
+ },
+ {
+  "start": 385.76,
+  "end": 392.92,
+  "text": "data parameter to store values of Google search text."
+ },
+ {
+  "start": 392.92,
+  "end": 412.89,
+  "text": "And created two instances as test data."
+ },
+ {
+  "start": 412.89,
+  "end": 418.05,
+  "text": "Next, we need to create the instances of data sheet."
+ },
+ {
+  "start": 418.05,
+  "end": 424.49,
+  "text": "This instances will be represented as the test case name later."
+ },
+ {
+  "start": 424.49,
+  "end": 429.33,
+  "text": "Here, we create two instances test case underscore zero one and test case"
+ },
+ {
+  "start": 429.33,
+  "end": 432.76,
+  "text": "underscore zero two."
+ },
+ {
+  "start": 432.76,
+  "end": 437.6,
+  "text": "After creation of data sheet instances, we need to assign assign attribute values"
+ },
+ {
+  "start": 437.6,
+  "end": 440.08,
+  "text": "for each of the instances."
+ },
+ {
+  "start": 440.08,
+  "end": 443.04,
+  "text": "We can do it from details section."
+ },
+ {
+  "start": 443.04,
+  "end": 446.72,
+  "text": "We will select the values from attribute drop down."
+ },
+ {
+  "start": 446.72,
+  "end": 450.88,
+  "text": "For two instances, we will select different set of data which are defined"
+ },
+ {
+  "start": 450.88,
+  "end": 453.16,
+  "text": "during attribute creation."
+ },
+ {
+  "start": 453.16,
+  "end": 461.17,
+  "text": "The test data sheet is now created successfully."
+ },
+ {
+  "start": 461.17,
+  "end": 465.77,
+  "text": "Now I will demonstrate the approach to create a template test case and assign"
+ },
+ {
+  "start": 465.77,
+  "end": 469.29,
+  "text": "the data sheet."
+ },
+ {
+  "start": 469.29,
+  "end": 473.89,
+  "text": "First, go to the corresponding test case and perform checkout operation to"
+ },
+ {
+  "start": 473.89,
+  "end": 476.66,
+  "text": "make it editable."
+ },
+ {
+  "start": 476.66,
+  "end": 480.78,
+  "text": "Right click on the test case and select the option convert to template to make"
+ },
+ {
+  "start": 480.78,
+  "end": 487.2,
+  "text": "two as template test case."
+ },
+ {
+  "start": 487.2,
+  "end": 496.58,
+  "text": "Now, drag the data sheet data set one and drop it to the template test case"
+ },
+ {
+  "start": 496.58,
+  "end": 499.18,
+  "text": "after the data sheet assignment."
+ },
+ {
+  "start": 499.18,
+  "end": 502.9,
+  "text": "Same can be viewed from the property section against the property name as"
+ },
+ {
+  "start": 502.9,
+  "end": 506.84,
+  "text": "schema path."
+ },
+ {
+  "start": 506.84,
+  "end": 510.92,
+  "text": "Now, we will assign or replace the data parameter in the template test case"
+ },
+ {
+  "start": 510.92,
+  "end": 514.72,
+  "text": "by dragging the attribute from the test data sheet into the value field of"
+ },
+ {
+  "start": 514.72,
+  "end": 517.56,
+  "text": "the test case."
+ },
+ {
+  "start": 517.56,
+  "end": 521.84,
+  "text": "Instead of drag drop method, we can directly type the syntax in the value"
+ },
+ {
+  "start": 521.84,
+  "end": 523.24,
+  "text": "field."
+ },
+ {
+  "start": 523.24,
+  "end": 528.04,
+  "text": "We will replace all the hard coded value from the test case."
+ },
+ {
+  "start": 528.04,
+  "end": 531.4,
+  "text": "The data sheet assignment is now completed."
+ },
+ {
+  "start": 531.4,
+  "end": 535.28,
+  "text": "Next, we will generate the instance test cases by right clicking on the"
+ },
+ {
+  "start": 535.28,
+  "end": 539.88,
+  "text": "template test case and selecting the create template instance option."
+ },
+ {
+  "start": 539.88,
+  "end": 543.64,
+  "text": "After confirming the process, it will take few seconds to generate the"
+ },
+ {
+  "start": 543.64,
+  "end": 547.88,
+  "text": "instance test cases with the data defined in TCD."
+ },
+ {
+  "start": 547.88,
+  "end": 552.2,
+  "text": "Here, two test cases will be created as per the definition in the data"
+ },
+ {
+  "start": 552.2,
+  "end": 556.14,
+  "text": "sheet instances."
+ },
+ {
+  "start": 556.14,
+  "end": 560.22,
+  "text": "We can also see that the data will be updated as per the data provided"
+ },
+ {
+  "start": 560.22,
+  "end": 563.22,
+  "text": "in our data set one data sheet."
+ },
+ {
+  "start": 563.22,
+  "end": 568.42,
+  "text": "The implementation test case design is now completed."
+ },
+ {
+  "start": 568.42,
+  "end": 572.7,
+  "text": "We will now execute the instance test case from execution list to ensure"
+ },
+ {
+  "start": 572.7,
+  "end": 577.28,
+  "text": "the correctness of the implementation."
+ },
+ {
+  "start": 577.28,
+  "end": 582.76,
+  "text": "Dock or close the test case design section and go to execution section."
+ },
+ {
+  "start": 582.76,
+  "end": 586.68,
+  "text": "Create a new execution list with name TCD."
+ },
+ {
+  "start": 586.68,
+  "end": 589.36,
+  "text": "We can assign any name here."
+ },
+ {
+  "start": 589.36,
+  "end": 593.6,
+  "text": "Now we need to drag and drop the newly generated instance test cases"
+ },
+ {
+  "start": 593.6,
+  "end": 595.88,
+  "text": "here."
+ },
+ {
+  "start": 595.88,
+  "end": 599.24,
+  "text": "We can execute entire execution list."
+ },
+ {
+  "start": 599.24,
+  "end": 605.97,
+  "text": "But to save time, we are selecting first test case and run it."
+ },
+ {
+  "start": 605.97,
+  "end": 609.53,
+  "text": "The automated script will perform the defined test steps, including"
+ },
+ {
+  "start": 609.53,
+  "end": 616.48,
+  "text": "Google search, opening the official portal from the search result"
+ },
+ {
+  "start": 616.48,
+  "end": 625.98,
+  "text": "displayed in the Google page and validate the logo."
+ },
+ {
+  "start": 625.98,
+  "end": 630.18,
+  "text": "After completion of execution, the execution logs will be available in the"
+ },
+ {
+  "start": 630.18,
+  "end": 633.5,
+  "text": "execution list, which contains the logs for each of the steps,"
+ },
+ {
+  "start": 633.5,
+  "end": 636.86,
+  "text": "including verifications."
+ },
+ {
+  "start": 636.86,
+  "end": 642.06,
+  "text": "The implementation test case design is now completed."
+ },
+ {
+  "start": 642.06,
+  "end": 646.74,
+  "text": "I will show how to create class in TCD to reuse data in multiple"
+ },
+ {
+  "start": 646.74,
+  "end": 648.26,
+  "text": "data sheets."
+ },
+ {
+  "start": 648.26,
+  "end": 652.3,
+  "text": "First, navigate to test case design section."
+ },
+ {
+  "start": 652.3,
+  "end": 656.7,
+  "text": "To create class, right click on any desire folder and then click on"
+ },
+ {
+  "start": 656.7,
+  "end": 660.86,
+  "text": "create class option available in menu with icon C."
+ },
+ {
+  "start": 660.86,
+  "end": 662.94,
+  "text": "We can rename it."
+ },
+ {
+  "start": 662.94,
+  "end": 666.82,
+  "text": "We will now follow the same approach to create the class instances and"
+ },
+ {
+  "start": 666.82,
+  "end": 670.66,
+  "text": "the attributes which was used during data sheet creation."
+ },
+ {
+  "start": 670.66,
+  "end": 675.42,
+  "text": "Here we will create two class instances, set one and set two."
+ },
+ {
+  "start": 675.42,
+  "end": 690.45,
+  "text": "Also, we will create one attribute as data parameter, which represents the URL."
+ },
+ {
+  "start": 690.45,
+  "end": 705.4,
+  "text": "Two instances as the value of this attribute will be created."
+ },
+ {
+  "start": 705.4,
+  "end": 709.16,
+  "text": "Now we need to assign assign attribute values for each of the"
+ },
+ {
+  "start": 709.16,
+  "end": 711.44,
+  "text": "instances of the class."
+ },
+ {
+  "start": 711.44,
+  "end": 715.0,
+  "text": "It can be done from the details section by selecting the value from"
+ },
+ {
+  "start": 715.0,
+  "end": 717.36,
+  "text": "attributes drop down."
+ },
+ {
+  "start": 717.36,
+  "end": 721.08,
+  "text": "We will now assign this class to data sheet by drag and drop it to"
+ },
+ {
+  "start": 721.08,
+  "end": 723.84,
+  "text": "data sheet."
+ },
+ {
+  "start": 723.84,
+  "end": 728.08,
+  "text": "Now we will select the corresponding instance, which represents the data set"
+ },
+ {
+  "start": 728.08,
+  "end": 730.12,
+  "text": "from the class reference."
+ },
+ {
+  "start": 730.12,
+  "end": 734.76,
+  "text": "By selecting this, the corresponding URL will be assigned to the test data"
+ },
+ {
+  "start": 734.76,
+  "end": 738.05,
+  "text": "sheet."
+ },
+ {
+  "start": 738.05,
+  "end": 743.29,
+  "text": "The same class can be assigned to multiple data sheets to reuse the data."
+ },
+ {
+  "start": 743.29,
+  "end": 747.17,
+  "text": "We can now assign this attributes of class reference to the template test"
+ },
+ {
+  "start": 747.17,
+  "end": 749.25,
+  "text": "case as the data sheet attributes."
+ },
+ {
+  "start": 749.25,
+  "end": 752.45,
+  "text": "Thanks for watching this video."
+ },
+ {
+  "start": 752.45,
+  "end": 754.85,
+  "text": "That's all about Tosca test case design."
+ },
+ {
+  "start": 756.05,
+  "end": 759.41,
+  "text": "We will learn more about Tosca features in next video."
+ },
+ {
+  "start": 790.98,
+  "end": 795.42,
+  "text": "If you have any questions, please comment and we will resolve your query."
+ }
+]

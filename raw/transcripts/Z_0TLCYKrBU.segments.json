@@ -1,0 +1,3072 @@
+[
+ {
+  "start": 4.11,
+  "end": 4.12,
+  "text": "hey guys welcome back so in this"
+ },
+ {
+  "start": 4.12,
+  "end": 5.869,
+  "text": "particular session we are going to talk"
+ },
+ {
+  "start": 5.879,
+  "end": 9.27,
+  "text": "about our live project now we have done"
+ },
+ {
+  "start": 9.28,
+  "end": 11.47,
+  "text": "some work on this already in our"
+ },
+ {
+  "start": 11.48,
+  "end": 14.47,
+  "text": "previous sessions uh so we have already"
+ },
+ {
+  "start": 14.48,
+  "end": 16.59,
+  "text": "created our component folder which is"
+ },
+ {
+  "start": 16.6,
+  "end": 18.55,
+  "text": "the vehicle insurance and that will"
+ },
+ {
+  "start": 18.56,
+  "end": 22.509,
+  "text": "contain all our test cases modules uh"
+ },
+ {
+  "start": 22.519,
+  "end": 25.429,
+  "text": "test case design and requirements"
+ },
+ {
+  "start": 25.439,
+  "end": 28.79,
+  "text": "okay so we have created the first set of"
+ },
+ {
+  "start": 28.8,
+  "end": 31.389,
+  "text": "test cases we already have all the"
+ },
+ {
+  "start": 31.399,
+  "end": 35.03,
+  "text": "modules okay uh for all these pages and"
+ },
+ {
+  "start": 35.04,
+  "end": 37.95,
+  "text": "then we have our test case design for"
+ },
+ {
+  "start": 37.96,
+  "end": 38.79,
+  "text": "vehicle"
+ },
+ {
+  "start": 38.8,
+  "end": 41.59,
+  "text": "insurance and then we have our template"
+ },
+ {
+  "start": 41.6,
+  "end": 44.63,
+  "text": "as well okay uh which will basically"
+ },
+ {
+  "start": 44.64,
+  "end": 46.67,
+  "text": "contain all the steps including the"
+ },
+ {
+  "start": 46.68,
+  "end": 49.51,
+  "text": "pre-processing process and"
+ },
+ {
+  "start": 49.52,
+  "end": 52.31,
+  "text": "postprocessing so I have already used"
+ },
+ {
+  "start": 52.32,
+  "end": 55.31,
+  "text": "all the best practices until now to uh"
+ },
+ {
+  "start": 55.32,
+  "end": 58.47,
+  "text": "design all of these different templates"
+ },
+ {
+  "start": 58.48,
+  "end": 60.67,
+  "text": "test cage design uh"
+ },
+ {
+  "start": 60.68,
+  "end": 64.95,
+  "text": "modules and uh folder structure for test"
+ },
+ {
+  "start": 64.96,
+  "end": 68.59,
+  "text": "cases um and everything is as per the"
+ },
+ {
+  "start": 68.6,
+  "end": 71.469,
+  "text": "best practices defined by trius so do"
+ },
+ {
+  "start": 71.479,
+  "end": 73.55,
+  "text": "try to follow all of these uh when you"
+ },
+ {
+  "start": 73.56,
+  "end": 76.109,
+  "text": "are designing or uh creating your test"
+ },
+ {
+  "start": 76.119,
+  "end": 79.31,
+  "text": "cases test templates or test case design"
+ },
+ {
+  "start": 79.32,
+  "end": 82.149,
+  "text": "right now we have also instantiated and"
+ },
+ {
+  "start": 82.159,
+  "end": 84.469,
+  "text": "we have created four different types of"
+ },
+ {
+  "start": 84.479,
+  "end": 87.149,
+  "text": "test cases from our test design one is a"
+ },
+ {
+  "start": 87.159,
+  "end": 89.749,
+  "text": "straight through we have got two valid"
+ },
+ {
+  "start": 89.759,
+  "end": 91.99,
+  "text": "uh scenarios and one invalid scenario"
+ },
+ {
+  "start": 92.0,
+  "end": 94.389,
+  "text": "now all of this has got different sets"
+ },
+ {
+  "start": 94.399,
+  "end": 97.069,
+  "text": "of data right and we have also put some"
+ },
+ {
+  "start": 97.079,
+  "end": 99.389,
+  "text": "verification points uh in one of our"
+ },
+ {
+  "start": 99.399,
+  "end": 102.67,
+  "text": "test cases so you can see a lot of"
+ },
+ {
+  "start": 102.68,
+  "end": 104.99,
+  "text": "things have been covered already uh in"
+ },
+ {
+  "start": 105.0,
+  "end": 107.35,
+  "text": "this particular"
+ },
+ {
+  "start": 107.36,
+  "end": 110.35,
+  "text": "application now in terms of the end to"
+ },
+ {
+  "start": 110.36,
+  "end": 112.469,
+  "text": "endend functionality coverage of this"
+ },
+ {
+  "start": 112.479,
+  "end": 114.789,
+  "text": "particular application let's see how"
+ },
+ {
+  "start": 114.799,
+  "end": 116.95,
+  "text": "much we have covered and what is left"
+ },
+ {
+  "start": 116.96,
+  "end": 119.31,
+  "text": "and we will be covering the remaining"
+ },
+ {
+  "start": 119.32,
+  "end": 120.469,
+  "text": "functionality"
+ },
+ {
+  "start": 120.479,
+  "end": 122.63,
+  "text": "the automation of those"
+ },
+ {
+  "start": 122.64,
+  "end": 124.55,
+  "text": "functionalities in this particular"
+ },
+ {
+  "start": 124.56,
+  "end": 127.19,
+  "text": "session okay so let's go ahead and"
+ },
+ {
+  "start": 127.2,
+  "end": 128.99,
+  "text": "execute this and this will give us an"
+ },
+ {
+  "start": 129.0,
+  "end": 131.71,
+  "text": "idea of what has been covered until now"
+ },
+ {
+  "start": 131.72,
+  "end": 146.229,
+  "text": "and what is still left"
+ },
+ {
+  "start": 149.229,
+  "end": 149.239,
+  "text": "okay okay so we have covered until uh we"
+ },
+ {
+  "start": 149.239,
+  "end": 152.19,
+  "text": "select an option from the price options"
+ },
+ {
+  "start": 152.2,
+  "end": 153.949,
+  "text": "after entering all the data like the"
+ },
+ {
+  "start": 153.959,
+  "end": 157.07,
+  "text": "vehicle insurance and product data and"
+ },
+ {
+  "start": 157.08,
+  "end": 159.43,
+  "text": "based on the prices we verify everything"
+ },
+ {
+  "start": 159.44,
+  "end": 161.55,
+  "text": "which is displayed on this table and"
+ },
+ {
+  "start": 161.56,
+  "end": 163.67,
+  "text": "then we select that particular option"
+ },
+ {
+  "start": 163.68,
+  "end": 167.03,
+  "text": "which we want to uh go ahead with okay"
+ },
+ {
+  "start": 167.04,
+  "end": 169.83,
+  "text": "now from here on uh we have also seen"
+ },
+ {
+  "start": 169.84,
+  "end": 172.19,
+  "text": "how you can U verify a few things on the"
+ },
+ {
+  "start": 172.2,
+  "end": 175.91,
+  "text": "PDF using the PDF uh scan now we need to"
+ },
+ {
+  "start": 175.92,
+  "end": 177.71,
+  "text": "integrate that functionality where we'll"
+ },
+ {
+  "start": 177.72,
+  "end": 180.03,
+  "text": "do some verifications on the PDF after"
+ },
+ {
+  "start": 180.04,
+  "end": 183.83,
+  "text": "is generated and then we click on next"
+ },
+ {
+  "start": 183.84,
+  "end": 185.71,
+  "text": "okay and then we enter all this"
+ },
+ {
+  "start": 185.72,
+  "end": 187.83,
+  "text": "information and then we click on send"
+ },
+ {
+  "start": 187.84,
+  "end": 190.27,
+  "text": "and then we verify whether uh success"
+ },
+ {
+  "start": 190.28,
+  "end": 192.509,
+  "text": "message is displayed so this is the"
+ },
+ {
+  "start": 192.519,
+  "end": 195.03,
+  "text": "functionality which is left over uh in"
+ },
+ {
+  "start": 195.04,
+  "end": 197.949,
+  "text": "this particular application and that is"
+ },
+ {
+  "start": 197.959,
+  "end": 201.229,
+  "text": "what we are going to cover"
+ },
+ {
+  "start": 201.239,
+  "end": 204.67,
+  "text": "okay so to start off let's create all"
+ },
+ {
+  "start": 204.68,
+  "end": 206.949,
+  "text": "the modules which are required to cover"
+ },
+ {
+  "start": 206.959,
+  "end": 209.55,
+  "text": "or to automate all of this functionality"
+ },
+ {
+  "start": 209.56,
+  "end": 212.869,
+  "text": "right so let's go to our module section"
+ },
+ {
+  "start": 212.879,
+  "end": 215.11,
+  "text": "and here we have got different pages as"
+ },
+ {
+  "start": 215.12,
+  "end": 218.429,
+  "text": "you can see right um and we have got the"
+ },
+ {
+  "start": 218.439,
+  "end": 221.71,
+  "text": "select price option uh module and here"
+ },
+ {
+  "start": 221.72,
+  "end": 223.11,
+  "text": "we have just got the"
+ },
+ {
+  "start": 223.12,
+  "end": 226.67,
+  "text": "table so we can rescan this module and"
+ },
+ {
+  "start": 226.68,
+  "end": 229.75,
+  "text": "uh we can then uh also put the other"
+ },
+ {
+  "start": 229.76,
+  "end": 231.47,
+  "text": "buttons which are available here or"
+ },
+ {
+  "start": 231.48,
+  "end": 235.149,
+  "text": "links okay so let's go ahead and rescan"
+ },
+ {
+  "start": 235.159,
+  "end": 240.55,
+  "text": "this"
+ },
+ {
+  "start": 243.19,
+  "end": 243.2,
+  "text": "and here um I'm going to add the"
+ },
+ {
+  "start": 243.2,
+  "end": 247.149,
+  "text": "download code link okay and also the"
+ },
+ {
+  "start": 247.159,
+  "end": 249.03,
+  "text": "next"
+ },
+ {
+  "start": 249.04,
+  "end": 251.429,
+  "text": "button and these are the things which I"
+ },
+ {
+  "start": 251.439,
+  "end": 253.67,
+  "text": "requir from this module now do remember"
+ },
+ {
+  "start": 253.68,
+  "end": 255.91,
+  "text": "it's a best practice to not add all the"
+ },
+ {
+  "start": 255.92,
+  "end": 259.629,
+  "text": "controls on the page for your module uh"
+ },
+ {
+  "start": 259.639,
+  "end": 262.03,
+  "text": "it is only recommended that you add the"
+ },
+ {
+  "start": 262.04,
+  "end": 264.749,
+  "text": "controls which you are actually using in"
+ },
+ {
+  "start": 264.759,
+  "end": 267.15,
+  "text": "your automation for to these particular"
+ },
+ {
+  "start": 267.16,
+  "end": 269.71,
+  "text": "modules which you are saving okay that"
+ },
+ {
+  "start": 269.72,
+  "end": 272.35,
+  "text": "that improves the performance and also"
+ },
+ {
+  "start": 272.36,
+  "end": 275.67,
+  "text": "uh saves you a lot of uh space if you"
+ },
+ {
+  "start": 275.68,
+  "end": 279.87,
+  "text": "are working on a large workspace"
+ },
+ {
+  "start": 279.88,
+  "end": 283.51,
+  "text": "okay so this page is complete now uh and"
+ },
+ {
+  "start": 283.52,
+  "end": 286.15,
+  "text": "if I go to the next page in the send"
+ },
+ {
+  "start": 286.16,
+  "end": 290.95,
+  "text": "code okay so let me uh scan a new module"
+ },
+ {
+  "start": 290.96,
+  "end": 308.189,
+  "text": "here"
+ },
+ {
+  "start": 311.07,
+  "end": 311.08,
+  "text": "right so here uh what we are going to do"
+ },
+ {
+  "start": 311.08,
+  "end": 314.189,
+  "text": "is we are going to go to the basic View"
+ },
+ {
+  "start": 314.199,
+  "end": 316.909,
+  "text": "and I'm going to just select my fields"
+ },
+ {
+  "start": 316.919,
+  "end": 320.39,
+  "text": "or controls which I want to scan"
+ },
+ {
+  "start": 320.4,
+  "end": 323.87,
+  "text": "okay okay and the send button so these"
+ },
+ {
+  "start": 323.88,
+  "end": 328.39,
+  "text": "are all the uh things which I need to"
+ },
+ {
+  "start": 328.4,
+  "end": 331.749,
+  "text": "add okay there is just another thing uh"
+ },
+ {
+  "start": 331.759,
+  "end": 334.11,
+  "text": "which I would like to add and that's the"
+ },
+ {
+  "start": 334.12,
+  "end": 339.27,
+  "text": "confirmation"
+ },
+ {
+  "start": 343.749,
+  "end": 343.759,
+  "text": "message so let me go till there okay uh"
+ },
+ {
+  "start": 343.759,
+  "end": 347.83,
+  "text": "and we are going to use the user"
+ },
+ {
+  "start": 360.55,
+  "end": 360.56,
+  "text": "password and I'm I'm going to click on"
+ },
+ {
+  "start": 360.56,
+  "end": 362.95,
+  "text": "send"
+ },
+ {
+  "start": 362.96,
+  "end": 366.309,
+  "text": "right now we have to wait until that uh"
+ },
+ {
+  "start": 366.319,
+  "end": 367.469,
+  "text": "screen"
+ },
+ {
+  "start": 367.479,
+  "end": 370.11,
+  "text": "appears and then I'm going to scan this"
+ },
+ {
+  "start": 370.12,
+  "end": 377.07,
+  "text": "particular skill"
+ },
+ {
+  "start": 379.07,
+  "end": 379.08,
+  "text": "okay"
+ },
+ {
+  "start": 379.08,
+  "end": 383.43,
+  "text": "so we can scan this okay control button"
+ },
+ {
+  "start": 383.44,
+  "end": 387.629,
+  "text": "right and then I'm going to finish"
+ },
+ {
+  "start": 387.639,
+  "end": 391.35,
+  "text": "screen and save it"
+ },
+ {
+  "start": 391.36,
+  "end": 393.629,
+  "text": "close the"
+ },
+ {
+  "start": 393.639,
+  "end": 397.23,
+  "text": "module right so that should create our"
+ },
+ {
+  "start": 397.24,
+  "end": 402.749,
+  "text": "um module for send"
+ },
+ {
+  "start": 405.79,
+  "end": 405.8,
+  "text": "code so there are two uh modules created"
+ },
+ {
+  "start": 405.8,
+  "end": 408.029,
+  "text": "with uh the same name so I will change"
+ },
+ {
+  "start": 408.039,
+  "end": 412.469,
+  "text": "this to confirmation message okay and"
+ },
+ {
+  "start": 412.479,
+  "end": 415.67,
+  "text": "that's our um other module so we have"
+ },
+ {
+  "start": 415.68,
+  "end": 417.67,
+  "text": "scanned all the modules now which are"
+ },
+ {
+  "start": 417.68,
+  "end": 421.15,
+  "text": "required for our automation and now we"
+ },
+ {
+  "start": 421.16,
+  "end": 424.11,
+  "text": "need to start automating from the point"
+ },
+ {
+  "start": 424.12,
+  "end": 427.79,
+  "text": "where we left okay so here after uh"
+ },
+ {
+  "start": 427.8,
+  "end": 430.749,
+  "text": "doing the price option verification on"
+ },
+ {
+  "start": 430.759,
+  "end": 433.67,
+  "text": "the page okay so we are buffering some"
+ },
+ {
+  "start": 433.68,
+  "end": 435.55,
+  "text": "values we are verifying some values in"
+ },
+ {
+  "start": 435.56,
+  "end": 438.51,
+  "text": "this table and now we have to select a"
+ },
+ {
+  "start": 438.52,
+  "end": 440.909,
+  "text": "particular option right so either we'll"
+ },
+ {
+  "start": 440.919,
+  "end": 443.629,
+  "text": "select silver or gold or platinum or"
+ },
+ {
+  "start": 443.639,
+  "end": 446.589,
+  "text": "ultimate right it depends on our test"
+ },
+ {
+  "start": 446.599,
+  "end": 448.469,
+  "text": "data what we want to select but"
+ },
+ {
+  "start": 448.479,
+  "end": 450.869,
+  "text": "depending on that we need to click on"
+ },
+ {
+  "start": 450.879,
+  "end": 453.35,
+  "text": "one of these options and then we'll"
+ },
+ {
+  "start": 453.36,
+  "end": 455.15,
+  "text": "download the code and then we'll click"
+ },
+ {
+  "start": 455.16,
+  "end": 456.99,
+  "text": "on next so these are the three"
+ },
+ {
+  "start": 457.0,
+  "end": 458.67,
+  "text": "operations which we have to do on this"
+ },
+ {
+  "start": 458.68,
+  "end": 461.99,
+  "text": "page"
+ },
+ {
+  "start": 465.27,
+  "end": 465.28,
+  "text": "okay so let's first uh create a folder"
+ },
+ {
+  "start": 465.28,
+  "end": 471.39,
+  "text": "here and I'm going to say select price"
+ },
+ {
+  "start": 471.4,
+  "end": 473.629,
+  "text": "option here"
+ },
+ {
+  "start": 473.639,
+  "end": 477.79,
+  "text": "okay and uh here I'm going to then add"
+ },
+ {
+  "start": 477.8,
+  "end": 480.07,
+  "text": "the price option"
+ },
+ {
+  "start": 480.08,
+  "end": 482.95,
+  "text": "module so this is the"
+ },
+ {
+  "start": 482.96,
+  "end": 487.589,
+  "text": "module right and uh now we need to"
+ },
+ {
+  "start": 487.599,
+  "end": 491.07,
+  "text": "select one of these values okay now as I"
+ },
+ {
+  "start": 491.08,
+  "end": 494.469,
+  "text": "said uh which value we are going to"
+ },
+ {
+  "start": 494.479,
+  "end": 498.67,
+  "text": "select that completely depends on um"
+ },
+ {
+  "start": 498.68,
+  "end": 501.79,
+  "text": "what is our data point right so we need"
+ },
+ {
+  "start": 501.8,
+  "end": 504.629,
+  "text": "to have some data point here which will"
+ },
+ {
+  "start": 504.639,
+  "end": 507.79,
+  "text": "tell us uh what we are going to select"
+ },
+ {
+  "start": 507.8,
+  "end": 511.67,
+  "text": "right okay uh so here in the process uh"
+ },
+ {
+  "start": 511.68,
+  "end": 515.87,
+  "text": "I'm going to add another attribute okay"
+ },
+ {
+  "start": 515.88,
+  "end": 518.79,
+  "text": "and I'm going to name it price"
+ },
+ {
+  "start": 518.8,
+  "end": 520.75,
+  "text": "option this will give me all the"
+ },
+ {
+  "start": 520.76,
+  "end": 522.029,
+  "text": "different price"
+ },
+ {
+  "start": 522.039,
+  "end": 525.03,
+  "text": "options and uh I'm going to create some"
+ },
+ {
+  "start": 525.04,
+  "end": 528.71,
+  "text": "instances here like"
+ },
+ {
+  "start": 528.72,
+  "end": 531.31,
+  "text": "silver"
+ },
+ {
+  "start": 531.32,
+  "end": 534.389,
+  "text": "and"
+ },
+ {
+  "start": 541.79,
+  "end": 541.8,
+  "text": "Platinum and ultimate okay so these are"
+ },
+ {
+  "start": 541.8,
+  "end": 550.99,
+  "text": "the four"
+ },
+ {
+  "start": 556.069,
+  "end": 556.079,
+  "text": "instances right uh so now um we want uh"
+ },
+ {
+  "start": 556.079,
+  "end": 558.509,
+  "text": "different data points right so we want"
+ },
+ {
+  "start": 558.519,
+  "end": 560.829,
+  "text": "to select different values basically for"
+ },
+ {
+  "start": 560.839,
+  "end": 564.99,
+  "text": "different test cases so let me put this"
+ },
+ {
+  "start": 565.0,
+  "end": 568.71,
+  "text": "uh or fill this randomly okay so make it"
+ },
+ {
+  "start": 568.72,
+  "end": 571.59,
+  "text": "orthogonal so it will select some values"
+ },
+ {
+  "start": 571.6,
+  "end": 574.829,
+  "text": "here so now uh we have got uh some price"
+ },
+ {
+  "start": 574.839,
+  "end": 576.949,
+  "text": "option which we can select on different"
+ },
+ {
+  "start": 576.959,
+  "end": 579.79,
+  "text": "test cases now depending on what we have"
+ },
+ {
+  "start": 579.8,
+  "end": 583.03,
+  "text": "been selected here uh we will then come"
+ },
+ {
+  "start": 583.04,
+  "end": 585.949,
+  "text": "here and we will select the price option"
+ },
+ {
+  "start": 585.959,
+  "end": 589.829,
+  "text": "based on that particular value okay so"
+ },
+ {
+  "start": 589.839,
+  "end": 591.829,
+  "text": "I'm going to put a condition on this"
+ },
+ {
+  "start": 591.839,
+  "end": 594.87,
+  "text": "particular folder okay so let's come"
+ },
+ {
+  "start": 594.88,
+  "end": 599.75,
+  "text": "here and process and price option"
+ },
+ {
+  "start": 599.76,
+  "end": 601.67,
+  "text": "and for silver I'm going to put a"
+ },
+ {
+  "start": 601.68,
+  "end": 605.19,
+  "text": "condition on this folder right so"
+ },
+ {
+  "start": 605.2,
+  "end": 610.59,
+  "text": "this and uh Al this will be only for the"
+ },
+ {
+  "start": 610.6,
+  "end": 613.949,
+  "text": "administrative valid option right so we"
+ },
+ {
+  "start": 613.959,
+  "end": 617.79,
+  "text": "don't want it to run for invalid so I'm"
+ },
+ {
+  "start": 617.8,
+  "end": 621.15,
+  "text": "going to keep the test data type here"
+ },
+ {
+  "start": 621.16,
+  "end": 626.31,
+  "text": "and also add this condition"
+ },
+ {
+  "start": 629.63,
+  "end": 629.64,
+  "text": "here okay"
+ },
+ {
+  "start": 629.64,
+  "end": 633.35,
+  "text": "also uh coming back here I don't want to"
+ },
+ {
+  "start": 633.36,
+  "end": 636.79,
+  "text": "make it an or condition actually it"
+ },
+ {
+  "start": 636.8,
+  "end": 641.35,
+  "text": "should be and condition okay so if both"
+ },
+ {
+  "start": 641.36,
+  "end": 643.67,
+  "text": "both the conditions are met then only it"
+ },
+ {
+  "start": 643.68,
+  "end": 646.47,
+  "text": "will be uh selected or this will be run"
+ },
+ {
+  "start": 646.48,
+  "end": 651.59,
+  "text": "okay so now coming here uh so let's"
+ },
+ {
+  "start": 651.6,
+  "end": 653.79,
+  "text": "change this a little bit select price"
+ },
+ {
+  "start": 653.8,
+  "end": 656.35,
+  "text": "option"
+ },
+ {
+  "start": 656.36,
+  "end": 659.629,
+  "text": "silver okay"
+ },
+ {
+  "start": 659.639,
+  "end": 661.829,
+  "text": "and this will remain the same so here"
+ },
+ {
+  "start": 661.839,
+  "end": 664.59,
+  "text": "coming back uh I just want to click on"
+ },
+ {
+  "start": 664.6,
+  "end": 665.91,
+  "text": "this"
+ },
+ {
+  "start": 665.92,
+  "end": 669.71,
+  "text": "okay because uh this price option is"
+ },
+ {
+  "start": 669.72,
+  "end": 672.949,
+  "text": "silver it is going to click on this okay"
+ },
+ {
+  "start": 672.959,
+  "end": 675.55,
+  "text": "now similarly I need to create for gold"
+ },
+ {
+  "start": 675.56,
+  "end": 678.67,
+  "text": "platinum and ultimate okay so what I'm"
+ },
+ {
+  "start": 678.68,
+  "end": 682.47,
+  "text": "going to do is I'm going to create some"
+ },
+ {
+  "start": 682.48,
+  "end": 687.43,
+  "text": "copies here and just going to change"
+ },
+ {
+  "start": 687.44,
+  "end": 690.31,
+  "text": "based on the names okay so this will be"
+ },
+ {
+  "start": 690.32,
+  "end": 693.67,
+  "text": "faster uh you can do the same way which"
+ },
+ {
+  "start": 693.68,
+  "end": 695.91,
+  "text": "I showed for the first"
+ },
+ {
+  "start": 695.92,
+  "end": 699.43,
+  "text": "instance but to do this little fast I am"
+ },
+ {
+  "start": 699.44,
+  "end": 701.23,
+  "text": "doing it this way"
+ },
+ {
+  "start": 701.24,
+  "end": 706.15,
+  "text": "okay and platinum and then I'm going to"
+ },
+ {
+  "start": 706.16,
+  "end": 713.829,
+  "text": "make it"
+ },
+ {
+  "start": 716.79,
+  "end": 716.8,
+  "text": "ultimate right um and let's change the"
+ },
+ {
+  "start": 716.8,
+  "end": 722.19,
+  "text": "names here so gold"
+ },
+ {
+  "start": 733.069,
+  "end": 733.079,
+  "text": "ultimate okay so these are the different"
+ },
+ {
+  "start": 733.079,
+  "end": 735.99,
+  "text": "price options and we need to change the"
+ },
+ {
+  "start": 736.0,
+  "end": 740.069,
+  "text": "operation here for that option so"
+ },
+ {
+  "start": 740.079,
+  "end": 743.269,
+  "text": "instead of"
+ },
+ {
+  "start": 743.279,
+  "end": 748.75,
+  "text": "this so let me just uh disable this and"
+ },
+ {
+  "start": 748.76,
+  "end": 752.99,
+  "text": "let me click"
+ },
+ {
+  "start": 762.91,
+  "end": 762.92,
+  "text": "ultimate so do remember if you don't"
+ },
+ {
+  "start": 762.92,
+  "end": 765.269,
+  "text": "disable this step uh if you have copied"
+ },
+ {
+  "start": 765.279,
+  "end": 769.069,
+  "text": "paste uh this folders or steps right the"
+ },
+ {
+  "start": 769.079,
+  "end": 771.43,
+  "text": "action mode is input still so if you"
+ },
+ {
+  "start": 771.44,
+  "end": 773.87,
+  "text": "don't uh disable this it will still"
+ },
+ {
+  "start": 773.88,
+  "end": 777.389,
+  "text": "accept uh expect a particular value uh"
+ },
+ {
+  "start": 777.399,
+  "end": 780.03,
+  "text": "in this particular field okay so do"
+ },
+ {
+  "start": 780.04,
+  "end": 782.189,
+  "text": "remember that"
+ },
+ {
+  "start": 782.199,
+  "end": 795.15,
+  "text": "uh and then the last"
+ },
+ {
+  "start": 798.829,
+  "end": 798.839,
+  "text": "one okay so that's that's now complete"
+ },
+ {
+  "start": 798.839,
+  "end": 801.35,
+  "text": "now before we move forward Also let's"
+ },
+ {
+  "start": 801.36,
+  "end": 803.35,
+  "text": "see uh whether the instances are"
+ },
+ {
+  "start": 803.36,
+  "end": 805.23,
+  "text": "generated correctly based on these"
+ },
+ {
+  "start": 805.24,
+  "end": 807.75,
+  "text": "conditions which we have put right so"
+ },
+ {
+  "start": 807.76,
+  "end": 809.629,
+  "text": "based on the price of option which has"
+ },
+ {
+  "start": 809.639,
+  "end": 811.11,
+  "text": "been selected for that particular test"
+ },
+ {
+  "start": 811.12,
+  "end": 813.87,
+  "text": "case uh it should only have this"
+ },
+ {
+  "start": 813.88,
+  "end": 816.189,
+  "text": "particular folder okay so for silver it"
+ },
+ {
+  "start": 816.199,
+  "end": 819.47,
+  "text": "will have the silver not the other three"
+ },
+ {
+  "start": 819.48,
+  "end": 822.15,
+  "text": "and similarly for gold Platinum ultimate"
+ },
+ {
+  "start": 822.16,
+  "end": 825.069,
+  "text": "uh it should have just one folder okay"
+ },
+ {
+  "start": 825.079,
+  "end": 828.629,
+  "text": "so that's the uh conditional uh steps"
+ },
+ {
+  "start": 828.639,
+  "end": 831.55,
+  "text": "which we have put so let's go to our uh"
+ },
+ {
+  "start": 831.56,
+  "end": 833.629,
+  "text": "template first let's check whether there"
+ },
+ {
+  "start": 833.639,
+  "end": 836.269,
+  "text": "is any errors or not so click on check"
+ },
+ {
+  "start": 836.279,
+  "end": 839.949,
+  "text": "template no errors now go to uh template"
+ },
+ {
+  "start": 839.959,
+  "end": 842.87,
+  "text": "instance and reinstantiate instances"
+ },
+ {
+  "start": 842.88,
+  "end": 845.67,
+  "text": "okay so now for a straight through we"
+ },
+ {
+  "start": 845.68,
+  "end": 847.629,
+  "text": "have selected silver if you remember and"
+ },
+ {
+  "start": 847.639,
+  "end": 850.189,
+  "text": "you see there just select price option"
+ },
+ {
+  "start": 850.199,
+  "end": 855.069,
+  "text": "silver okay and then uh for uh this uh"
+ },
+ {
+  "start": 855.079,
+  "end": 858.67,
+  "text": "valid one so it will just have one price"
+ },
+ {
+  "start": 858.68,
+  "end": 861.35,
+  "text": "option not four price options so it is"
+ },
+ {
+  "start": 861.36,
+  "end": 865.629,
+  "text": "gold and for similarly for this uh it is"
+ },
+ {
+  "start": 865.639,
+  "end": 867.189,
+  "text": "platinum"
+ },
+ {
+  "start": 867.199,
+  "end": 869.749,
+  "text": "right so as you can see"
+ },
+ {
+  "start": 869.759,
+  "end": 873.87,
+  "text": "uh how I'm using the conditions with the"
+ },
+ {
+  "start": 873.88,
+  "end": 876.749,
+  "text": "test case design uh including the"
+ },
+ {
+  "start": 876.759,
+  "end": 880.509,
+  "text": "instances and attributes to basically"
+ },
+ {
+  "start": 880.519,
+  "end": 883.03,
+  "text": "design my different scenarios right so"
+ },
+ {
+  "start": 883.04,
+  "end": 885.629,
+  "text": "based on different test data my test"
+ },
+ {
+  "start": 885.639,
+  "end": 888.59,
+  "text": "scenarios are designed um on that"
+ },
+ {
+  "start": 888.6,
+  "end": 891.87,
+  "text": "particular test data so not one of my"
+ },
+ {
+  "start": 891.88,
+  "end": 894.67,
+  "text": "test case instance has got the same data"
+ },
+ {
+  "start": 894.68,
+  "end": 896.79,
+  "text": "right and that's very important because"
+ },
+ {
+  "start": 896.8,
+  "end": 899.03,
+  "text": "we want to have the optimal number"
+ },
+ {
+  "start": 899.04,
+  "end": 901.35,
+  "text": "number of test cases instead of all the"
+ },
+ {
+  "start": 901.36,
+  "end": 903.23,
+  "text": "test cases testing with the same test"
+ },
+ {
+  "start": 903.24,
+  "end": 906.67,
+  "text": "data okay so that's of no use so you"
+ },
+ {
+  "start": 906.68,
+  "end": 910.03,
+  "text": "need to intelligently put conditions on"
+ },
+ {
+  "start": 910.04,
+  "end": 913.91,
+  "text": "your different uh test uh TS or folders"
+ },
+ {
+  "start": 913.92,
+  "end": 916.91,
+  "text": "in your template and uh your test case"
+ },
+ {
+  "start": 916.92,
+  "end": 919.749,
+  "text": "template should uh have all those"
+ },
+ {
+  "start": 919.759,
+  "end": 921.87,
+  "text": "conditions in place so that when you"
+ },
+ {
+  "start": 921.88,
+  "end": 924.79,
+  "text": "instantiate it will generate a set of"
+ },
+ {
+  "start": 924.8,
+  "end": 930.11,
+  "text": "unique test cases for you okay"
+ },
+ {
+  "start": 932.23,
+  "end": 932.24,
+  "text": "now uh moving forward we need to add"
+ },
+ {
+  "start": 932.24,
+  "end": 934.91,
+  "text": "some more operations into our template"
+ },
+ {
+  "start": 934.92,
+  "end": 937.11,
+  "text": "so we have basically two more operations"
+ },
+ {
+  "start": 937.12,
+  "end": 939.91,
+  "text": "uh download code and next now I don't"
+ },
+ {
+  "start": 939.92,
+  "end": 943.03,
+  "text": "need to do a download code for now uh we"
+ },
+ {
+  "start": 943.04,
+  "end": 945.03,
+  "text": "can see it later how we can integrate"
+ },
+ {
+  "start": 945.04,
+  "end": 947.47,
+  "text": "the PDF comparison which we have already"
+ },
+ {
+  "start": 947.48,
+  "end": 950.829,
+  "text": "done or the PDF verification uh into"
+ },
+ {
+  "start": 950.839,
+  "end": 953.91,
+  "text": "this particular uh scenario but for now"
+ },
+ {
+  "start": 953.92,
+  "end": 956.269,
+  "text": "let's just complete the whole scenario"
+ },
+ {
+  "start": 956.279,
+  "end": 957.79,
+  "text": "so I'll be just clicking on next and"
+ },
+ {
+  "start": 957.8,
+  "end": 961.069,
+  "text": "filling up the fields on the next page"
+ },
+ {
+  "start": 961.079,
+  "end": 962.79,
+  "text": "and then basically submitting this"
+ },
+ {
+  "start": 962.8,
+  "end": 964.47,
+  "text": "application so it's a end to end"
+ },
+ {
+  "start": 964.48,
+  "end": 967.15,
+  "text": "scenario right so it's basically a"
+ },
+ {
+  "start": 967.16,
+  "end": 969.55,
+  "text": "straightforward scenario okay or a"
+ },
+ {
+  "start": 969.56,
+  "end": 971.67,
+  "text": "straight through scenario you can say"
+ },
+ {
+  "start": 971.68,
+  "end": 974.949,
+  "text": "which all the uh basic things which an"
+ },
+ {
+  "start": 974.959,
+  "end": 977.629,
+  "text": "application can do but then uh obviously"
+ },
+ {
+  "start": 977.639,
+  "end": 980.35,
+  "text": "you can expand your uh test cases your"
+ },
+ {
+  "start": 980.36,
+  "end": 982.749,
+  "text": "scenarios based on your user"
+ },
+ {
+  "start": 982.759,
+  "end": 985.35,
+  "text": "requirements right so you can add many"
+ },
+ {
+  "start": 985.36,
+  "end": 986.91,
+  "text": "things uh into this particular"
+ },
+ {
+  "start": 986.92,
+  "end": 989.67,
+  "text": "application but the goal here is how you"
+ },
+ {
+  "start": 989.68,
+  "end": 992.629,
+  "text": "can uh basically do a endtoend uh"
+ },
+ {
+  "start": 992.639,
+  "end": 995.749,
+  "text": "scenario or project in tosa using all"
+ },
+ {
+  "start": 995.759,
+  "end": 997.629,
+  "text": "the different components uh which are"
+ },
+ {
+  "start": 997.639,
+  "end": 999.23,
+  "text": "present"
+ },
+ {
+  "start": 999.24,
+  "end": 1002.829,
+  "text": "okay so uh coming back here we already"
+ },
+ {
+  "start": 1002.839,
+  "end": 1004.99,
+  "text": "have this module so what we are going to"
+ },
+ {
+  "start": 1005.0,
+  "end": 1008.389,
+  "text": "do let's go to our template and here"
+ },
+ {
+  "start": 1008.399,
+  "end": 1012.03,
+  "text": "inside every uh price option we have to"
+ },
+ {
+  "start": 1012.04,
+  "end": 1015.71,
+  "text": "put this particular click button okay so"
+ },
+ {
+  "start": 1015.72,
+  "end": 1017.55,
+  "text": "that uh it completes that particular"
+ },
+ {
+  "start": 1017.56,
+  "end": 1019.99,
+  "text": "operation now I would not do it in the"
+ },
+ {
+  "start": 1020.0,
+  "end": 1023.67,
+  "text": "same test step since it's like a uh next"
+ },
+ {
+  "start": 1023.68,
+  "end": 1025.789,
+  "text": "test step uh on clicking on the next"
+ },
+ {
+  "start": 1025.799,
+  "end": 1029.51,
+  "text": "button so what we'll do we'll again um"
+ },
+ {
+  "start": 1029.52,
+  "end": 1032.35,
+  "text": "do a select price option module we'll"
+ },
+ {
+  "start": 1032.36,
+  "end": 1033.429,
+  "text": "search for"
+ },
+ {
+  "start": 1033.439,
+  "end": 1036.309,
+  "text": "that and here we are going to click on"
+ },
+ {
+  "start": 1036.319,
+  "end": 1038.429,
+  "text": "that button okay so I will rename this"
+ },
+ {
+  "start": 1038.439,
+  "end": 1041.27,
+  "text": "test step as click"
+ },
+ {
+  "start": 1041.28,
+  "end": 1045.069,
+  "text": "next and here I'm going to click on the"
+ },
+ {
+  "start": 1045.079,
+  "end": 1049.029,
+  "text": "next button okay"
+ },
+ {
+  "start": 1049.039,
+  "end": 1054.23,
+  "text": "right so uh we also need to have this uh"
+ },
+ {
+  "start": 1054.24,
+  "end": 1057.27,
+  "text": "this this test step in every folder"
+ },
+ {
+  "start": 1057.28,
+  "end": 1059.669,
+  "text": "because depending on the price option uh"
+ },
+ {
+  "start": 1059.679,
+  "end": 1062.59,
+  "text": "it will has to do that particular"
+ },
+ {
+  "start": 1062.6,
+  "end": 1067.15,
+  "text": "operation also right and here as"
+ },
+ {
+  "start": 1067.16,
+  "end": 1071.11,
+  "text": "well so that that completes uh our next"
+ },
+ {
+  "start": 1071.12,
+  "end": 1075.99,
+  "text": "steps and then once we uh reach here"
+ },
+ {
+  "start": 1076.0,
+  "end": 1077.83,
+  "text": "okay so we click on next and we reach"
+ },
+ {
+  "start": 1077.84,
+  "end": 1080.19,
+  "text": "here now let's let's fill these details"
+ },
+ {
+  "start": 1080.2,
+  "end": 1085.27,
+  "text": "and click on send okay so for that again"
+ },
+ {
+  "start": 1085.28,
+  "end": 1087.029,
+  "text": "uh in the process let's create and the"
+ },
+ {
+  "start": 1087.039,
+  "end": 1091.47,
+  "text": "folder here so we will name this send"
+ },
+ {
+  "start": 1091.48,
+  "end": 1097.149,
+  "text": "code right so this is the send"
+ },
+ {
+  "start": 1100.83,
+  "end": 1100.84,
+  "text": "code and now inside this I will add a"
+ },
+ {
+  "start": 1100.84,
+  "end": 1106.43,
+  "text": "test step which is the send code"
+ },
+ {
+  "start": 1106.44,
+  "end": 1109.31,
+  "text": "again okay and here we need to fill all"
+ },
+ {
+  "start": 1109.32,
+  "end": 1112.789,
+  "text": "the details now okay so these details"
+ },
+ {
+  "start": 1112.799,
+  "end": 1116.75,
+  "text": "will uh again you don't need to provide"
+ },
+ {
+  "start": 1116.76,
+  "end": 1118.789,
+  "text": "static values here it should be coming"
+ },
+ {
+  "start": 1118.799,
+  "end": 1122.149,
+  "text": "from your uh test design sheet okay so"
+ },
+ {
+  "start": 1122.159,
+  "end": 1124.27,
+  "text": "all the values should be configured uh"
+ },
+ {
+  "start": 1124.28,
+  "end": 1127.149,
+  "text": "no static values in your test case"
+ },
+ {
+  "start": 1127.159,
+  "end": 1130.669,
+  "text": "right so let's go here into our design"
+ },
+ {
+  "start": 1130.679,
+  "end": 1134.19,
+  "text": "sheet and now we are going to add some"
+ },
+ {
+  "start": 1134.2,
+  "end": 1137.029,
+  "text": "more options here so let's add an"
+ },
+ {
+  "start": 1137.039,
+  "end": 1142.95,
+  "text": "attribute called send"
+ },
+ {
+  "start": 1146.39,
+  "end": 1146.4,
+  "text": "quote okay uh and inside this again"
+ },
+ {
+  "start": 1146.4,
+  "end": 1147.43,
+  "text": "another"
+ },
+ {
+  "start": 1147.44,
+  "end": 1149.87,
+  "text": "attribute and this time around I will"
+ },
+ {
+  "start": 1149.88,
+  "end": 1153.669,
+  "text": "say"
+ },
+ {
+  "start": 1163.31,
+  "end": 1163.32,
+  "text": "phone although we might not use this"
+ },
+ {
+  "start": 1163.32,
+  "end": 1166.19,
+  "text": "attribute uh"
+ },
+ {
+  "start": 1166.2,
+  "end": 1174.47,
+  "text": "username and password"
+ },
+ {
+  "start": 1183.149,
+  "end": 1183.159,
+  "text": "password and comments okay so these are"
+ },
+ {
+  "start": 1183.159,
+  "end": 1183.99,
+  "text": "all"
+ },
+ {
+  "start": 1184.0,
+  "end": 1186.63,
+  "text": "the values which we need to enter on"
+ },
+ {
+  "start": 1186.64,
+  "end": 1188.43,
+  "text": "this particular page and that's why I've"
+ },
+ {
+  "start": 1188.44,
+  "end": 1190.31,
+  "text": "created all the different attributes now"
+ },
+ {
+  "start": 1190.32,
+  "end": 1192.39,
+  "text": "I need to create some instances here as"
+ },
+ {
+  "start": 1192.4,
+  "end": 1196.35,
+  "text": "well so um I'm going"
+ },
+ {
+  "start": 1196.36,
+  "end": 1202.149,
+  "text": "to create some email addresses here"
+ },
+ {
+  "start": 1202.159,
+  "end": 1207.51,
+  "text": "okay uh not necessary that I use um any"
+ },
+ {
+  "start": 1207.52,
+  "end": 1209.59,
+  "text": "specific email but for now I will just"
+ },
+ {
+  "start": 1209.6,
+  "end": 1211.51,
+  "text": "leave it"
+ },
+ {
+  "start": 1211.52,
+  "end": 1214.99,
+  "text": "okay and then phone number as I said"
+ },
+ {
+  "start": 1215.0,
+  "end": 1217.789,
+  "text": "it's not really mandatory right now it's"
+ },
+ {
+  "start": 1217.799,
+  "end": 1220.63,
+  "text": "not a mandatory field so we can avoid it"
+ },
+ {
+  "start": 1220.64,
+  "end": 1224.35,
+  "text": "for now and use a name I will say Qs"
+ },
+ {
+  "start": 1224.36,
+  "end": 1227.19,
+  "text": "script right"
+ },
+ {
+  "start": 1227.2,
+  "end": 1231.63,
+  "text": "password again and"
+ },
+ {
+  "start": 1234.2,
+  "end": 1234.21,
+  "text": "instance and uh I can"
+ },
+ {
+  "start": 1236.44,
+  "end": 1242.39,
+  "text": "say test at 1 2 3 Ash"
+ },
+ {
+  "start": 1244.87,
+  "end": 1244.88,
+  "text": "okay and confirm"
+ },
+ {
+  "start": 1244.88,
+  "end": 1250.11,
+  "text": "password again the"
+ },
+ {
+  "start": 1252.87,
+  "end": 1252.88,
+  "text": "same and comments for now we can leave"
+ },
+ {
+  "start": 1252.88,
+  "end": 1255.71,
+  "text": "it okay so these are all our"
+ },
+ {
+  "start": 1255.72,
+  "end": 1260.39,
+  "text": "attributes uh let me just"
+ },
+ {
+  "start": 1260.4,
+  "end": 1262.549,
+  "text": "okay now we need to select some values"
+ },
+ {
+  "start": 1262.559,
+  "end": 1264.99,
+  "text": "here so for now I will have the same"
+ },
+ {
+  "start": 1265.0,
+  "end": 1267.47,
+  "text": "email address you can have different"
+ },
+ {
+  "start": 1267.48,
+  "end": 1269.87,
+  "text": "email address but generally it is not"
+ },
+ {
+  "start": 1269.88,
+  "end": 1272.029,
+  "text": "the case right but if you have got"
+ },
+ {
+  "start": 1272.039,
+  "end": 1274.789,
+  "text": "different users uh you can have"
+ },
+ {
+  "start": 1274.799,
+  "end": 1276.95,
+  "text": "different email addresses here for"
+ },
+ {
+  "start": 1276.96,
+  "end": 1279.99,
+  "text": "different test cases but for now I will"
+ },
+ {
+  "start": 1280.0,
+  "end": 1283.789,
+  "text": "just select the same values okay so"
+ },
+ {
+  "start": 1283.799,
+  "end": 1286.59,
+  "text": "let's use"
+ },
+ {
+  "start": 1286.6,
+  "end": 1292.669,
+  "text": "this and this"
+ },
+ {
+  "start": 1296.029,
+  "end": 1296.039,
+  "text": "okay so that's all our values and now"
+ },
+ {
+  "start": 1296.039,
+  "end": 1299.11,
+  "text": "let's go back to our"
+ },
+ {
+  "start": 1299.12,
+  "end": 1303.11,
+  "text": "template okay and here um I have to use"
+ },
+ {
+  "start": 1303.12,
+  "end": 1307.99,
+  "text": "those values now so let's do"
+ },
+ {
+  "start": 1308.0,
+  "end": 1312.549,
+  "text": "this and let me go to the section"
+ },
+ {
+  "start": 1312.559,
+  "end": 1314.63,
+  "text": "particular section and pull those values"
+ },
+ {
+  "start": 1314.64,
+  "end": 1316.269,
+  "text": "which we"
+ },
+ {
+  "start": 1316.279,
+  "end": 1319.909,
+  "text": "have okay"
+ },
+ {
+  "start": 1319.919,
+  "end": 1321.95,
+  "text": "right uh so I need to pull the"
+ },
+ {
+  "start": 1321.96,
+  "end": 1326.07,
+  "text": "attributes here I'm pulling"
+ },
+ {
+  "start": 1326.08,
+  "end": 1328.43,
+  "text": "and"
+ },
+ {
+  "start": 1328.44,
+  "end": 1331.63,
+  "text": "username"
+ },
+ {
+  "start": 1334.95,
+  "end": 1334.96,
+  "text": "password okay confirm"
+ },
+ {
+  "start": 1334.96,
+  "end": 1337.31,
+  "text": "password and comments and phone we can"
+ },
+ {
+  "start": 1337.32,
+  "end": 1339.149,
+  "text": "add it later but these are all the"
+ },
+ {
+  "start": 1339.159,
+  "end": 1341.149,
+  "text": "values"
+ },
+ {
+  "start": 1341.159,
+  "end": 1343.75,
+  "text": "okay so now we have got all the values"
+ },
+ {
+  "start": 1343.76,
+  "end": 1345.11,
+  "text": "which are coming from the test design"
+ },
+ {
+  "start": 1345.12,
+  "end": 1348.549,
+  "text": "sheet for this particular page okay and"
+ },
+ {
+  "start": 1348.559,
+  "end": 1350.71,
+  "text": "and I don't want to execute this again"
+ },
+ {
+  "start": 1350.72,
+  "end": 1353.87,
+  "text": "for U invalid test cases because it"
+ },
+ {
+  "start": 1353.88,
+  "end": 1356.11,
+  "text": "won't reach to this particular page"
+ },
+ {
+  "start": 1356.12,
+  "end": 1359.909,
+  "text": "right so I'll put this condition"
+ },
+ {
+  "start": 1359.919,
+  "end": 1364.549,
+  "text": "here right uh after this okay so we have"
+ },
+ {
+  "start": 1364.559,
+  "end": 1369.19,
+  "text": "done this and we want to click on"
+ },
+ {
+  "start": 1369.2,
+  "end": 1371.59,
+  "text": "send"
+ },
+ {
+  "start": 1371.6,
+  "end": 1375.549,
+  "text": "right also what we have to do is we have"
+ },
+ {
+  "start": 1375.559,
+  "end": 1378.07,
+  "text": "to wait for the confirmation message"
+ },
+ {
+  "start": 1378.08,
+  "end": 1379.39,
+  "text": "right"
+ },
+ {
+  "start": 1379.4,
+  "end": 1384.23,
+  "text": "so what we'll do here is let's add the"
+ },
+ {
+  "start": 1384.24,
+  "end": 1389.43,
+  "text": "test step and confirmation"
+ },
+ {
+  "start": 1392.71,
+  "end": 1392.72,
+  "text": "message okay so I'll put a weight on"
+ },
+ {
+  "start": 1392.72,
+  "end": 1395.75,
+  "text": "here and I will"
+ },
+ {
+  "start": 1395.76,
+  "end": 1402.95,
+  "text": "see if this um exists equals equals true"
+ },
+ {
+  "start": 1402.96,
+  "end": 1407.669,
+  "text": "right so if this exists so that's the"
+ },
+ {
+  "start": 1407.679,
+  "end": 1410.75,
+  "text": "confirmation meage message and let me"
+ },
+ {
+  "start": 1410.76,
+  "end": 1413.39,
+  "text": "just check"
+ },
+ {
+  "start": 1413.4,
+  "end": 1416.83,
+  "text": "here right um so yeah so if this exist"
+ },
+ {
+  "start": 1416.84,
+  "end": 1418.59,
+  "text": "that means we have got our confirmation"
+ },
+ {
+  "start": 1418.6,
+  "end": 1422.39,
+  "text": "message right and then um we can also"
+ },
+ {
+  "start": 1422.4,
+  "end": 1424.83,
+  "text": "click on the okay button so that's our"
+ },
+ {
+  "start": 1424.84,
+  "end": 1427.549,
+  "text": "final step"
+ },
+ {
+  "start": 1427.559,
+  "end": 1430.59,
+  "text": "so I'm adding again this particular test"
+ },
+ {
+  "start": 1430.6,
+  "end": 1432.63,
+  "text": "step this time"
+ },
+ {
+  "start": 1432.64,
+  "end": 1437.149,
+  "text": "around I'm going to say click"
+ },
+ {
+  "start": 1441.11,
+  "end": 1441.12,
+  "text": "okay and and here I will say verify"
+ },
+ {
+  "start": 1441.12,
+  "end": 1442.47,
+  "text": "confirmation"
+ },
+ {
+  "start": 1442.48,
+  "end": 1445.789,
+  "text": "message and here we are going to click"
+ },
+ {
+  "start": 1445.799,
+  "end": 1447.99,
+  "text": "on okay"
+ },
+ {
+  "start": 1448.0,
+  "end": 1452.789,
+  "text": "right okay so that's all our steps okay"
+ },
+ {
+  "start": 1452.799,
+  "end": 1454.87,
+  "text": "so we have completed the whole"
+ },
+ {
+  "start": 1454.88,
+  "end": 1457.35,
+  "text": "application now uh we have enter all the"
+ },
+ {
+  "start": 1457.36,
+  "end": 1460.23,
+  "text": "details and click on send and then we'll"
+ },
+ {
+  "start": 1460.24,
+  "end": 1462.19,
+  "text": "get the confirmation so we'll verify"
+ },
+ {
+  "start": 1462.2,
+  "end": 1464.149,
+  "text": "that and we'll click on okay so it's an"
+ },
+ {
+  "start": 1464.159,
+  "end": 1467.87,
+  "text": "end to endend um application right all"
+ },
+ {
+  "start": 1467.88,
+  "end": 1470.71,
+  "text": "the scenarios all the pages are covered"
+ },
+ {
+  "start": 1470.72,
+  "end": 1473.669,
+  "text": "all the fields are covered and at least"
+ },
+ {
+  "start": 1473.679,
+  "end": 1475.75,
+  "text": "one straight through scenario is now"
+ },
+ {
+  "start": 1475.76,
+  "end": 1477.63,
+  "text": "covered okay there could be more"
+ },
+ {
+  "start": 1477.64,
+  "end": 1480.07,
+  "text": "scenarios as I said uh there could be"
+ },
+ {
+  "start": 1480.08,
+  "end": 1482.029,
+  "text": "lots of scenarios depending on your"
+ },
+ {
+  "start": 1482.039,
+  "end": 1485.43,
+  "text": "testing requirements right but once you"
+ },
+ {
+  "start": 1485.44,
+  "end": 1487.43,
+  "text": "know the process you can always add"
+ },
+ {
+  "start": 1487.44,
+  "end": 1490.07,
+  "text": "those scenarios back"
+ },
+ {
+  "start": 1490.08,
+  "end": 1494.35,
+  "text": "okay so now uh final thing which is left"
+ },
+ {
+  "start": 1494.36,
+  "end": 1497.43,
+  "text": "is to check for the template whether it"
+ },
+ {
+  "start": 1497.44,
+  "end": 1501.149,
+  "text": "is still valid or not and then"
+ },
+ {
+  "start": 1501.159,
+  "end": 1504.389,
+  "text": "reinstantiate our instances so that all"
+ },
+ {
+  "start": 1504.399,
+  "end": 1507.75,
+  "text": "the new attributes and values are uh"
+ },
+ {
+  "start": 1507.76,
+  "end": 1510.87,
+  "text": "displayed here so in the process now we"
+ },
+ {
+  "start": 1510.88,
+  "end": 1514.47,
+  "text": "have an additional step for send quote"
+ },
+ {
+  "start": 1514.48,
+  "end": 1518.59,
+  "text": "okay and it has got all the uh different"
+ },
+ {
+  "start": 1518.6,
+  "end": 1521.029,
+  "text": "test step and their"
+ },
+ {
+  "start": 1521.039,
+  "end": 1524.83,
+  "text": "values okay um so now uh it is just a"
+ },
+ {
+  "start": 1524.84,
+  "end": 1527.029,
+  "text": "matter of running this particular test"
+ },
+ {
+  "start": 1527.039,
+  "end": 1530.47,
+  "text": "cases okay so what we'll do uh first of"
+ },
+ {
+  "start": 1530.48,
+  "end": 1533.669,
+  "text": "all let's try it in scratchbook and then"
+ },
+ {
+  "start": 1533.679,
+  "end": 1535.71,
+  "text": "we can also run it from the execution"
+ },
+ {
+  "start": 1535.72,
+  "end": 1548.789,
+  "text": "list okay so let me run this in"
+ },
+ {
+  "start": 1551.59,
+  "end": 1551.6,
+  "text": "scratchbook so great everything was"
+ },
+ {
+  "start": 1551.6,
+  "end": 1553.669,
+  "text": "successful you can see it waited for"
+ },
+ {
+  "start": 1553.679,
+  "end": 1556.75,
+  "text": "that confirmation message and uh instead"
+ },
+ {
+  "start": 1556.76,
+  "end": 1559.11,
+  "text": "of a static weight I used Dynamic weit"
+ },
+ {
+  "start": 1559.12,
+  "end": 1561.35,
+  "text": "which is wait on method so it will wait"
+ },
+ {
+  "start": 1561.36,
+  "end": 1563.549,
+  "text": "for that particular control on that page"
+ },
+ {
+  "start": 1563.559,
+  "end": 1566.029,
+  "text": "no matter how much time it takes and"
+ },
+ {
+  "start": 1566.039,
+  "end": 1569.11,
+  "text": "then uh it will click on okay now it's"
+ },
+ {
+  "start": 1569.12,
+  "end": 1572.31,
+  "text": "not a live application so we cannot uh"
+ },
+ {
+  "start": 1572.32,
+  "end": 1575.19,
+  "text": "it doesn't send an actual email to the"
+ },
+ {
+  "start": 1575.2,
+  "end": 1577.549,
+  "text": "email address which we provide so we"
+ },
+ {
+  "start": 1577.559,
+  "end": 1580.269,
+  "text": "cannot do that email verification part"
+ },
+ {
+  "start": 1580.279,
+  "end": 1583.47,
+  "text": "but uh with tosa you can even do that"
+ },
+ {
+  "start": 1583.48,
+  "end": 1586.389,
+  "text": "okay so either you do it through the UI"
+ },
+ {
+  "start": 1586.399,
+  "end": 1591.029,
+  "text": "or if you have an API so if the API is"
+ },
+ {
+  "start": 1591.039,
+  "end": 1593.63,
+  "text": "uh sending that particular uh email"
+ },
+ {
+  "start": 1593.64,
+  "end": 1597.11,
+  "text": "message to that email address then you"
+ },
+ {
+  "start": 1597.12,
+  "end": 1600.87,
+  "text": "even you can um integrate the apis into"
+ },
+ {
+  "start": 1600.88,
+  "end": 1602.389,
+  "text": "this particular test case now we have"
+ },
+ {
+  "start": 1602.399,
+  "end": 1605.269,
+  "text": "already seen how you can build your API"
+ },
+ {
+  "start": 1605.279,
+  "end": 1607.71,
+  "text": "test case so you just need to uh"
+ },
+ {
+  "start": 1607.72,
+  "end": 1610.269,
+  "text": "integrate it uh basically in the next"
+ },
+ {
+  "start": 1610.279,
+  "end": 1613.19,
+  "text": "test steps you just add those API"
+ },
+ {
+  "start": 1613.2,
+  "end": 1615.83,
+  "text": "scenarios here so that you can even"
+ },
+ {
+  "start": 1615.84,
+  "end": 1618.909,
+  "text": "verify the email which which is going to"
+ },
+ {
+  "start": 1618.919,
+  "end": 1621.269,
+  "text": "that particular email address so that"
+ },
+ {
+  "start": 1621.279,
+  "end": 1623.99,
+  "text": "will be like a complete integration of"
+ },
+ {
+  "start": 1624.0,
+  "end": 1626.31,
+  "text": "all the different components of your"
+ },
+ {
+  "start": 1626.32,
+  "end": 1628.909,
+  "text": "application right and this is how you"
+ },
+ {
+  "start": 1628.919,
+  "end": 1632.909,
+  "text": "can perform and endtoend scenario using"
+ },
+ {
+  "start": 1632.919,
+  "end": 1635.43,
+  "text": "all the different components which is"
+ },
+ {
+  "start": 1635.44,
+  "end": 1638.63,
+  "text": "test case designing uh the test case"
+ },
+ {
+  "start": 1638.64,
+  "end": 1640.71,
+  "text": "template the template"
+ },
+ {
+  "start": 1640.72,
+  "end": 1644.029,
+  "text": "instances and uh even requirements we"
+ },
+ {
+  "start": 1644.039,
+  "end": 1645.87,
+  "text": "have already added few requirements"
+ },
+ {
+  "start": 1645.88,
+  "end": 1648.95,
+  "text": "right and then the modules uh we have"
+ },
+ {
+  "start": 1648.96,
+  "end": 1651.23,
+  "text": "added lots of modules in this for this"
+ },
+ {
+  "start": 1651.24,
+  "end": 1654.029,
+  "text": "application and then uh finally the"
+ },
+ {
+  "start": 1654.039,
+  "end": 1657.87,
+  "text": "execution right so we already have"
+ },
+ {
+  "start": 1657.88,
+  "end": 1660.909,
+  "text": "different execution lists right and uh"
+ },
+ {
+  "start": 1660.919,
+  "end": 1662.43,
+  "text": "if you're working on a real project you"
+ },
+ {
+  "start": 1662.44,
+  "end": 1665.63,
+  "text": "will also have test events right so to"
+ },
+ {
+  "start": 1665.64,
+  "end": 1668.99,
+  "text": "run this on a distributed execution so"
+ },
+ {
+  "start": 1669.0,
+  "end": 1671.95,
+  "text": "on different agents okay so if you have"
+ },
+ {
+  "start": 1671.96,
+  "end": 1674.029,
+  "text": "that kind of a setup you can even create"
+ },
+ {
+  "start": 1674.039,
+  "end": 1676.23,
+  "text": "test events uh that is only available"
+ },
+ {
+  "start": 1676.24,
+  "end": 1679.669,
+  "text": "with the multi-user workspace so uh once"
+ },
+ {
+  "start": 1679.679,
+  "end": 1682.389,
+  "text": "that is there uh you can even run it"
+ },
+ {
+  "start": 1682.399,
+  "end": 1683.63,
+  "text": "there"
+ },
+ {
+  "start": 1683.64,
+  "end": 1688.549,
+  "text": "okay uh just to wrap this up okay uh for"
+ },
+ {
+  "start": 1688.559,
+  "end": 1690.43,
+  "text": "this live project which we have"
+ },
+ {
+  "start": 1690.44,
+  "end": 1694.59,
+  "text": "completed right now um what we can do is"
+ },
+ {
+  "start": 1694.6,
+  "end": 1697.71,
+  "text": "we can come here okay so we can uh"
+ },
+ {
+  "start": 1697.72,
+  "end": 1701.789,
+  "text": "synchronize this here uh and"
+ },
+ {
+  "start": 1701.799,
+  "end": 1704.63,
+  "text": "here just just to make sure that uh it"
+ },
+ {
+  "start": 1704.64,
+  "end": 1707.11,
+  "text": "has got all the changes from our uh"
+ },
+ {
+  "start": 1707.12,
+  "end": 1710.35,
+  "text": "recent changes which we have done"
+ },
+ {
+  "start": 1710.36,
+  "end": 1714.75,
+  "text": "okay so uh if I can run one of these"
+ },
+ {
+  "start": 1714.76,
+  "end": 1716.029,
+  "text": "test"
+ },
+ {
+  "start": 1716.039,
+  "end": 1720.269,
+  "text": "cases from an execution list it will"
+ },
+ {
+  "start": 1720.279,
+  "end": 1722.43,
+  "text": "have the same results uh there's no"
+ },
+ {
+  "start": 1722.44,
+  "end": 1723.87,
+  "text": "difference between scratchbook and"
+ },
+ {
+  "start": 1723.88,
+  "end": 1726.669,
+  "text": "execution list it is just that it will"
+ },
+ {
+  "start": 1726.679,
+  "end": 1729.149,
+  "text": "store the results uh in my execution"
+ },
+ {
+  "start": 1729.159,
+  "end": 1732.269,
+  "text": "list okay so but to make sure that"
+ },
+ {
+  "start": 1732.279,
+  "end": 1735.07,
+  "text": "everything is still working as expected"
+ },
+ {
+  "start": 1735.08,
+  "end": 1737.63,
+  "text": "from the execution list uh I'm also"
+ },
+ {
+  "start": 1737.64,
+  "end": 1742.19,
+  "text": "running get from the execution list"
+ },
+ {
+  "start": 1742.2,
+  "end": 1746.63,
+  "text": "okay but uh you expect the same things"
+ },
+ {
+  "start": 1746.64,
+  "end": 1750.789,
+  "text": "okay and uh the same results the only"
+ },
+ {
+  "start": 1750.799,
+  "end": 1754.669,
+  "text": "part which I did not show uh was um you"
+ },
+ {
+  "start": 1754.679,
+  "end": 1757.509,
+  "text": "clicking on that particular uh PDF"
+ },
+ {
+  "start": 1757.519,
+  "end": 1761.59,
+  "text": "button and then uh extracting that PDF"
+ },
+ {
+  "start": 1761.6,
+  "end": 1764.509,
+  "text": "uh scanning and PDF uh verification"
+ },
+ {
+  "start": 1764.519,
+  "end": 1765.87,
+  "text": "which we have seen"
+ },
+ {
+  "start": 1765.88,
+  "end": 1768.669,
+  "text": "separately um into this particular test"
+ },
+ {
+  "start": 1768.679,
+  "end": 1771.83,
+  "text": "case okay so you can see here now the"
+ },
+ {
+  "start": 1771.84,
+  "end": 1774.149,
+  "text": "execution list is storing the results so"
+ },
+ {
+  "start": 1774.159,
+  "end": 1776.75,
+  "text": "you have got the result uh with the date"
+ },
+ {
+  "start": 1776.76,
+  "end": 1780.149,
+  "text": "of execution and time uh the duration is"
+ },
+ {
+  "start": 1780.159,
+  "end": 1782.19,
+  "text": "also there right so you can execute all"
+ },
+ {
+  "start": 1782.2,
+  "end": 1784.549,
+  "text": "the execution uh lists which we have"
+ },
+ {
+  "start": 1784.559,
+  "end": 1786.59,
+  "text": "created for all the different"
+ },
+ {
+  "start": 1786.6,
+  "end": 1790.549,
+  "text": "scenarios and uh as I have explained"
+ },
+ {
+  "start": 1790.559,
+  "end": 1793.43,
+  "text": "earlier uh you can use the print view"
+ },
+ {
+  "start": 1793.44,
+  "end": 1798.31,
+  "text": "option to basically export this uh into"
+ },
+ {
+  "start": 1798.32,
+  "end": 1801.11,
+  "text": "uh report right so you can use any"
+ },
+ {
+  "start": 1801.12,
+  "end": 1807.71,
+  "text": "format uh into Excel uh into a PDF uh so"
+ },
+ {
+  "start": 1807.72,
+  "end": 1810.71,
+  "text": "all the all the formats are here uh"
+ },
+ {
+  "start": 1810.72,
+  "end": 1814.07,
+  "text": "whichever you want to use okay and if I"
+ },
+ {
+  "start": 1814.08,
+  "end": 1817.19,
+  "text": "want to use uh Excel just for uh"
+ },
+ {
+  "start": 1817.2,
+  "end": 1819.909,
+  "text": "reporting purpose I can export"
+ },
+ {
+  "start": 1819.919,
+  "end": 1823.87,
+  "text": "it and I can save it"
+ },
+ {
+  "start": 1823.88,
+  "end": 1826.95,
+  "text": "here okay and then it will open it in"
+ },
+ {
+  "start": 1826.96,
+  "end": 1830.07,
+  "text": "Excel obviously it will uh require some"
+ },
+ {
+  "start": 1830.08,
+  "end": 1834.509,
+  "text": "formatting which you can do on your own"
+ },
+ {
+  "start": 1834.519,
+  "end": 1837.71,
+  "text": "okay but after that uh it will look"
+ },
+ {
+  "start": 1837.72,
+  "end": 1841.59,
+  "text": "proper so this um you can even use it as"
+ },
+ {
+  "start": 1841.6,
+  "end": 1845.19,
+  "text": "a reporting format and to provide"
+ },
+ {
+  "start": 1845.2,
+  "end": 1847.87,
+  "text": "reports to your management right just"
+ },
+ {
+  "start": 1847.88,
+  "end": 1850.11,
+  "text": "need to format a few lines here and"
+ },
+ {
+  "start": 1850.12,
+  "end": 1852.669,
+  "text": "there and uh this report would be"
+ },
+ {
+  "start": 1852.679,
+  "end": 1855.71,
+  "text": "perfect for you and you can always add"
+ },
+ {
+  "start": 1855.72,
+  "end": 1857.99,
+  "text": "and remove columns from your execution"
+ },
+ {
+  "start": 1858.0,
+  "end": 1860.07,
+  "text": "so that it will appear the same way in"
+ },
+ {
+  "start": 1860.08,
+  "end": 1863.549,
+  "text": "your report okay so you can generate any"
+ },
+ {
+  "start": 1863.559,
+  "end": 1866.71,
+  "text": "uh PDF any Excel report based on your"
+ },
+ {
+  "start": 1866.72,
+  "end": 1870.909,
+  "text": "requirement that's that's how uh you uh"
+ },
+ {
+  "start": 1870.919,
+  "end": 1874.509,
+  "text": "will work on a realtime scenario okay uh"
+ },
+ {
+  "start": 1874.519,
+  "end": 1878.59,
+  "text": "just make sure you are using the correct"
+ },
+ {
+  "start": 1878.6,
+  "end": 1880.83,
+  "text": "uh or you are using the best practices"
+ },
+ {
+  "start": 1880.84,
+  "end": 1882.269,
+  "text": "whenever you are developing any"
+ },
+ {
+  "start": 1882.279,
+  "end": 1883.71,
+  "text": "particular project or you're working on"
+ },
+ {
+  "start": 1883.72,
+  "end": 1886.43,
+  "text": "any project always use a component"
+ },
+ {
+  "start": 1886.44,
+  "end": 1890.549,
+  "text": "folder uh to store all your components"
+ },
+ {
+  "start": 1890.559,
+  "end": 1893.19,
+  "text": "okay uh and create this execution"
+ },
+ {
+  "start": 1893.2,
+  "end": 1895.31,
+  "text": "modules requirements test case design"
+ },
+ {
+  "start": 1895.32,
+  "end": 1897.99,
+  "text": "test cases inside the component folder"
+ },
+ {
+  "start": 1898.0,
+  "end": 1900.83,
+  "text": "so if you are working on a large project"
+ },
+ {
+  "start": 1900.84,
+  "end": 1902.509,
+  "text": "or you're working on multiple projects"
+ },
+ {
+  "start": 1902.519,
+  "end": 1905.029,
+  "text": "you can have multiple component folders"
+ },
+ {
+  "start": 1905.039,
+  "end": 1907.95,
+  "text": "but uh make sure that uh you use that"
+ },
+ {
+  "start": 1907.96,
+  "end": 1909.629,
+  "text": "because that's one of the best practice"
+ },
+ {
+  "start": 1909.639,
+  "end": 1912.909,
+  "text": "and also it is easy to maintain okay and"
+ },
+ {
+  "start": 1912.919,
+  "end": 1916.149,
+  "text": "then um a naming conventions uh you have"
+ },
+ {
+  "start": 1916.159,
+  "end": 1920.029,
+  "text": "to use right uh make sure you are not"
+ },
+ {
+  "start": 1920.039,
+  "end": 1922.95,
+  "text": "using any constant values in your test"
+ },
+ {
+  "start": 1922.96,
+  "end": 1926.59,
+  "text": "cases you are always parameterizing it"
+ },
+ {
+  "start": 1926.6,
+  "end": 1928.07,
+  "text": "so you can do it using test"
+ },
+ {
+  "start": 1928.08,
+  "end": 1930.549,
+  "text": "configuration parameter or uh you can"
+ },
+ {
+  "start": 1930.559,
+  "end": 1933.19,
+  "text": "use your test case design to basically"
+ },
+ {
+  "start": 1933.2,
+  "end": 1935.669,
+  "text": "enter all the values you have to use"
+ },
+ {
+  "start": 1935.679,
+  "end": 1938.47,
+  "text": "conditions uh in order to have separate"
+ },
+ {
+  "start": 1938.48,
+  "end": 1941.389,
+  "text": "instances for different scenarios right"
+ },
+ {
+  "start": 1941.399,
+  "end": 1944.549,
+  "text": "and uh this was our uh complete endtoend"
+ },
+ {
+  "start": 1944.559,
+  "end": 1948.72,
+  "text": "uh life project"
+ }
+]

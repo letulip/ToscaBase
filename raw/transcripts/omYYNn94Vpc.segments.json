@@ -1,0 +1,1487 @@
+[
+ {
+  "start": 8.99,
+  "end": 9.0,
+  "text": "hi all welcome back again to our Tosca"
+ },
+ {
+  "start": 9.0,
+  "end": 11.509,
+  "text": "playlist and today we are going to talk"
+ },
+ {
+  "start": 11.519,
+  "end": 14.15,
+  "text": "about an interesting topic and it's all"
+ },
+ {
+  "start": 14.16,
+  "end": 17.33,
+  "text": "about API testing so how do you do API"
+ },
+ {
+  "start": 17.34,
+  "end": 20.57,
+  "text": "testing in Tosca now we have seen a lot"
+ },
+ {
+  "start": 20.58,
+  "end": 23.39,
+  "text": "of examples about how we scan and"
+ },
+ {
+  "start": 23.4,
+  "end": 27.29,
+  "text": "automate our web applications or even a"
+ },
+ {
+  "start": 27.3,
+  "end": 30.95,
+  "text": "PDF document right so Tosca can automate"
+ },
+ {
+  "start": 30.96,
+  "end": 33.41,
+  "text": "any type of application or it can scan"
+ },
+ {
+  "start": 33.42,
+  "end": 36.29,
+  "text": "different types of applications based on"
+ },
+ {
+  "start": 36.3,
+  "end": 38.63,
+  "text": "the engine right so Tosca has got all"
+ },
+ {
+  "start": 38.64,
+  "end": 40.91,
+  "text": "these different engines through which it"
+ },
+ {
+  "start": 40.92,
+  "end": 43.549,
+  "text": "can interact with this applications and"
+ },
+ {
+  "start": 43.559,
+  "end": 45.65,
+  "text": "similarly it has got a API engine"
+ },
+ {
+  "start": 45.66,
+  "end": 48.29,
+  "text": "through which it can interact with"
+ },
+ {
+  "start": 48.3,
+  "end": 51.17,
+  "text": "different types of apis okay"
+ },
+ {
+  "start": 51.18,
+  "end": 53.869,
+  "text": "and Tosca is not able to only send and"
+ },
+ {
+  "start": 53.879,
+  "end": 57.95,
+  "text": "receive requests or even verify your"
+ },
+ {
+  "start": 57.96,
+  "end": 62.09,
+  "text": "responses for your apis but it can also"
+ },
+ {
+  "start": 62.1,
+  "end": 66.109,
+  "text": "scan your apis right obviously uh that"
+ },
+ {
+  "start": 66.119,
+  "end": 69.23,
+  "text": "needs some level of documentation for"
+ },
+ {
+  "start": 69.24,
+  "end": 71.63,
+  "text": "your apis basically like a Swagger"
+ },
+ {
+  "start": 71.64,
+  "end": 74.57,
+  "text": "documentation if it is present then you"
+ },
+ {
+  "start": 74.58,
+  "end": 76.51,
+  "text": "can scan that particular"
+ },
+ {
+  "start": 76.52,
+  "end": 80.63,
+  "text": "documentation and all your API messages"
+ },
+ {
+  "start": 80.64,
+  "end": 84.35,
+  "text": "will be created automatically by the API"
+ },
+ {
+  "start": 84.36,
+  "end": 85.55,
+  "text": "scan"
+ },
+ {
+  "start": 85.56,
+  "end": 88.07,
+  "text": "we'll look at an example but first let's"
+ },
+ {
+  "start": 88.08,
+  "end": 90.649,
+  "text": "see how you can basically interact with"
+ },
+ {
+  "start": 90.659,
+  "end": 93.83,
+  "text": "this API scan okay so in this API"
+ },
+ {
+  "start": 93.84,
+  "end": 96.95,
+  "text": "testing uh tab when you go to this"
+ },
+ {
+  "start": 96.96,
+  "end": 98.69,
+  "text": "particular tab you will find the API"
+ },
+ {
+  "start": 98.7,
+  "end": 101.51,
+  "text": "scan and to launch this application you"
+ },
+ {
+  "start": 101.52,
+  "end": 104.09,
+  "text": "need to start API scan"
+ },
+ {
+  "start": 104.1,
+  "end": 106.609,
+  "text": "so this will basically open a new window"
+ },
+ {
+  "start": 106.619,
+  "end": 109.91,
+  "text": "it is like a separate tool in itself"
+ },
+ {
+  "start": 109.92,
+  "end": 112.49,
+  "text": "which has got a lot of lot of different"
+ },
+ {
+  "start": 112.5,
+  "end": 116.569,
+  "text": "options okay and you can send and"
+ },
+ {
+  "start": 116.579,
+  "end": 119.749,
+  "text": "receive requests and responses you can"
+ },
+ {
+  "start": 119.759,
+  "end": 122.81,
+  "text": "do all types of things which any other"
+ },
+ {
+  "start": 122.82,
+  "end": 125.149,
+  "text": "API testing tool will provide you okay"
+ },
+ {
+  "start": 125.159,
+  "end": 129.05,
+  "text": "but the most interesting uh option is"
+ },
+ {
+  "start": 129.06,
+  "end": 132.05,
+  "text": "scanning you can scan a particular file"
+ },
+ {
+  "start": 132.06,
+  "end": 135.11,
+  "text": "or you can scan a particular URI which"
+ },
+ {
+  "start": 135.12,
+  "end": 137.21,
+  "text": "is basically a"
+ },
+ {
+  "start": 137.22,
+  "end": 141.77,
+  "text": "the URL for your API okay and as you can"
+ },
+ {
+  "start": 141.78,
+  "end": 143.99,
+  "text": "see there are different formats which"
+ },
+ {
+  "start": 144.0,
+  "end": 146.33,
+  "text": "you can scan but we'll talk about it"
+ },
+ {
+  "start": 146.34,
+  "end": 147.589,
+  "text": "little bit later"
+ },
+ {
+  "start": 147.599,
+  "end": 150.65,
+  "text": "first I want to show you that there are"
+ },
+ {
+  "start": 150.66,
+  "end": 152.69,
+  "text": "two ways of opening this particular"
+ },
+ {
+  "start": 152.7,
+  "end": 155.99,
+  "text": "window or particular tool which is the"
+ },
+ {
+  "start": 156.0,
+  "end": 159.29,
+  "text": "Tosca API scan so one way which I have"
+ },
+ {
+  "start": 159.3,
+  "end": 161.03,
+  "text": "already shown you through Tosca"
+ },
+ {
+  "start": 161.04,
+  "end": 164.33,
+  "text": "Commander but now if I go ahead and"
+ },
+ {
+  "start": 164.34,
+  "end": 167.089,
+  "text": "close my Tosca Commander there is a"
+ },
+ {
+  "start": 167.099,
+  "end": 171.11,
+  "text": "second way of launching API scan even if"
+ },
+ {
+  "start": 171.12,
+  "end": 173.27,
+  "text": "there is no Tosca commander on your"
+ },
+ {
+  "start": 173.28,
+  "end": 177.17,
+  "text": "machine okay so how you can do that"
+ },
+ {
+  "start": 177.18,
+  "end": 180.83,
+  "text": "go to your search bar and search for API"
+ },
+ {
+  "start": 180.84,
+  "end": 182.57,
+  "text": "scan"
+ },
+ {
+  "start": 182.58,
+  "end": 184.79,
+  "text": "once you search for the API scan you can"
+ },
+ {
+  "start": 184.8,
+  "end": 187.85,
+  "text": "see the API scan application and I can"
+ },
+ {
+  "start": 187.86,
+  "end": 190.49,
+  "text": "run it independently without posca"
+ },
+ {
+  "start": 190.5,
+  "end": 192.41,
+  "text": "Commander you can see uh I don't have"
+ },
+ {
+  "start": 192.42,
+  "end": 194.21,
+  "text": "toss the commander running in the"
+ },
+ {
+  "start": 194.22,
+  "end": 195.89,
+  "text": "background"
+ },
+ {
+  "start": 195.9,
+  "end": 198.649,
+  "text": "so when I open uh you will see the same"
+ },
+ {
+  "start": 198.659,
+  "end": 201.77,
+  "text": "window opening with all the same"
+ },
+ {
+  "start": 201.78,
+  "end": 204.11,
+  "text": "features and how you work everything"
+ },
+ {
+  "start": 204.12,
+  "end": 205.79,
+  "text": "remains same"
+ },
+ {
+  "start": 205.8,
+  "end": 208.49,
+  "text": "but the biggest difference between how"
+ },
+ {
+  "start": 208.5,
+  "end": 210.83,
+  "text": "you launch API scan from Tosca commander"
+ },
+ {
+  "start": 210.84,
+  "end": 212.809,
+  "text": "and how you launch it from your desktop"
+ },
+ {
+  "start": 212.819,
+  "end": 215.869,
+  "text": "is this particular API scan application"
+ },
+ {
+  "start": 215.879,
+  "end": 218.27,
+  "text": "it doesn't require any particular"
+ },
+ {
+  "start": 218.28,
+  "end": 220.49,
+  "text": "license okay so you can run it"
+ },
+ {
+  "start": 220.5,
+  "end": 223.309,
+  "text": "independently and freely without"
+ },
+ {
+  "start": 223.319,
+  "end": 226.13,
+  "text": "requiring a license but obviously if you"
+ },
+ {
+  "start": 226.14,
+  "end": 229.789,
+  "text": "want to integrate your API testing with"
+ },
+ {
+  "start": 229.799,
+  "end": 232.43,
+  "text": "your web application testing and you"
+ },
+ {
+  "start": 232.44,
+  "end": 236.69,
+  "text": "want to uh do more uh with your API test"
+ },
+ {
+  "start": 236.7,
+  "end": 239.03,
+  "text": "then obviously you will require Tosca"
+ },
+ {
+  "start": 239.04,
+  "end": 241.91,
+  "text": "Commander but for just checking your"
+ },
+ {
+  "start": 241.92,
+  "end": 246.11,
+  "text": "apis whether your request and response"
+ },
+ {
+  "start": 246.12,
+  "end": 247.43,
+  "text": "is working"
+ },
+ {
+  "start": 247.44,
+  "end": 251.57,
+  "text": "um or some aspects of your apis are are"
+ },
+ {
+  "start": 251.58,
+  "end": 253.19,
+  "text": "working correctly or they have been"
+ },
+ {
+  "start": 253.2,
+  "end": 254.509,
+  "text": "designed correctly they have been"
+ },
+ {
+  "start": 254.519,
+  "end": 257.09,
+  "text": "developed correctly so that you can"
+ },
+ {
+  "start": 257.1,
+  "end": 258.469,
+  "text": "basically do with this particular"
+ },
+ {
+  "start": 258.479,
+  "end": 259.67,
+  "text": "application"
+ },
+ {
+  "start": 259.68,
+  "end": 261.53,
+  "text": "and it also provides you with the"
+ },
+ {
+  "start": 261.54,
+  "end": 263.81,
+  "text": "facility to scan uh which we already"
+ },
+ {
+  "start": 263.82,
+  "end": 267.71,
+  "text": "talked about so this can be used uh"
+ },
+ {
+  "start": 267.72,
+  "end": 270.83,
+  "text": "along with other developers or your uh"
+ },
+ {
+  "start": 270.84,
+  "end": 273.83,
+  "text": "API Architects or designers right and"
+ },
+ {
+  "start": 273.84,
+  "end": 276.29,
+  "text": "you can sit with them and you can also"
+ },
+ {
+  "start": 276.3,
+  "end": 278.27,
+  "text": "provide this tool to them they don't"
+ },
+ {
+  "start": 278.28,
+  "end": 280.31,
+  "text": "need to install Tosca Commander or they"
+ },
+ {
+  "start": 280.32,
+  "end": 282.71,
+  "text": "don't need a license they can just open"
+ },
+ {
+  "start": 282.72,
+  "end": 285.89,
+  "text": "this API scan and they can play around"
+ },
+ {
+  "start": 285.9,
+  "end": 289.01,
+  "text": "with their own apis to basically do some"
+ },
+ {
+  "start": 289.02,
+  "end": 291.53,
+  "text": "initial testing or to check whether"
+ },
+ {
+  "start": 291.54,
+  "end": 294.95,
+  "text": "their apis are ready for testing okay"
+ },
+ {
+  "start": 294.96,
+  "end": 299.09,
+  "text": "the other Advantage is as I said uh for"
+ },
+ {
+  "start": 299.1,
+  "end": 301.249,
+  "text": "doing more with your API testing you"
+ },
+ {
+  "start": 301.259,
+  "end": 303.77,
+  "text": "require the Tosca commander and to do"
+ },
+ {
+  "start": 303.78,
+  "end": 306.29,
+  "text": "that we need to basically export"
+ },
+ {
+  "start": 306.3,
+  "end": 309.29,
+  "text": "whatever we have created here uh into"
+ },
+ {
+  "start": 309.3,
+  "end": 311.45,
+  "text": "our Tasker Commander now there are two"
+ },
+ {
+  "start": 311.46,
+  "end": 314.33,
+  "text": "ways of it one way if we are opening it"
+ },
+ {
+  "start": 314.34,
+  "end": 317.03,
+  "text": "right from your desktop you need to uh"
+ },
+ {
+  "start": 317.04,
+  "end": 320.21,
+  "text": "export the API test case uh and that"
+ },
+ {
+  "start": 320.22,
+  "end": 322.55,
+  "text": "will be created as a subset which again"
+ },
+ {
+  "start": 322.56,
+  "end": 324.71,
+  "text": "you need to import back into Tosca"
+ },
+ {
+  "start": 324.72,
+  "end": 326.45,
+  "text": "Commander right"
+ },
+ {
+  "start": 326.46,
+  "end": 329.09,
+  "text": "but if you have opened this from the"
+ },
+ {
+  "start": 329.1,
+  "end": 332.15,
+  "text": "Tosca Commander then it will be directly"
+ },
+ {
+  "start": 332.16,
+  "end": 334.55,
+  "text": "integrated which means the folders will"
+ },
+ {
+  "start": 334.56,
+  "end": 336.71,
+  "text": "be automatically created for you you"
+ },
+ {
+  "start": 336.72,
+  "end": 338.749,
+  "text": "don't need to import anything or export"
+ },
+ {
+  "start": 338.759,
+  "end": 341.21,
+  "text": "anything it will be directly uh taking"
+ },
+ {
+  "start": 341.22,
+  "end": 344.51,
+  "text": "you to the Tosca Commander API testing"
+ },
+ {
+  "start": 344.52,
+  "end": 347.93,
+  "text": "window okay"
+ },
+ {
+  "start": 350.11,
+  "end": 350.12,
+  "text": "so that's the only major difference"
+ },
+ {
+  "start": 350.12,
+  "end": 353.93,
+  "text": "apart from the licensing part but a rest"
+ },
+ {
+  "start": 353.94,
+  "end": 356.39,
+  "text": "of the functionality as I said Remains"
+ },
+ {
+  "start": 356.4,
+  "end": 359.21,
+  "text": "the Same right"
+ },
+ {
+  "start": 359.22,
+  "end": 361.43,
+  "text": "now let's talk about the basic"
+ },
+ {
+  "start": 361.44,
+  "end": 363.89,
+  "text": "functionality uh without looking at the"
+ },
+ {
+  "start": 363.9,
+  "end": 366.35,
+  "text": "scanning functionality so the basic"
+ },
+ {
+  "start": 366.36,
+  "end": 369.65,
+  "text": "functionality of any API testing tool is"
+ },
+ {
+  "start": 369.66,
+  "end": 371.87,
+  "text": "uh it is the ability of that particular"
+ },
+ {
+  "start": 371.88,
+  "end": 375.61,
+  "text": "tool to send any request and receive any"
+ },
+ {
+  "start": 375.62,
+  "end": 379.189,
+  "text": "response right so you can view that"
+ },
+ {
+  "start": 379.199,
+  "end": 382.49,
+  "text": "response uh in right in this tool and"
+ },
+ {
+  "start": 382.5,
+  "end": 384.65,
+  "text": "you can also verify how much time it"
+ },
+ {
+  "start": 384.66,
+  "end": 387.77,
+  "text": "took uh what are the response values"
+ },
+ {
+  "start": 387.78,
+  "end": 390.65,
+  "text": "which you are expecting if you want to"
+ },
+ {
+  "start": 390.66,
+  "end": 393.17,
+  "text": "send some Header information if it"
+ },
+ {
+  "start": 393.18,
+  "end": 395.33,
+  "text": "includes some parameters like path"
+ },
+ {
+  "start": 395.34,
+  "end": 397.969,
+  "text": "parameters so everything can be done"
+ },
+ {
+  "start": 397.979,
+  "end": 400.01,
+  "text": "right from here okay"
+ },
+ {
+  "start": 400.02,
+  "end": 401.51,
+  "text": "so let's see what are the different"
+ },
+ {
+  "start": 401.52,
+  "end": 405.35,
+  "text": "options and also let's try to send a"
+ },
+ {
+  "start": 405.36,
+  "end": 408.529,
+  "text": "simple request and then we can see how"
+ },
+ {
+  "start": 408.539,
+  "end": 412.67,
+  "text": "it works in the API scan okay"
+ },
+ {
+  "start": 412.68,
+  "end": 415.01,
+  "text": "so for this example I'm going to use"
+ },
+ {
+  "start": 415.02,
+  "end": 416.87,
+  "text": "this particular API"
+ },
+ {
+  "start": 416.88,
+  "end": 419.87,
+  "text": "it is just a demo API which basically"
+ },
+ {
+  "start": 419.88,
+  "end": 422.029,
+  "text": "returns"
+ },
+ {
+  "start": 422.039,
+  "end": 424.79,
+  "text": "um a page which all the list of users"
+ },
+ {
+  "start": 424.8,
+  "end": 426.29,
+  "text": "for this particular get request"
+ },
+ {
+  "start": 426.3,
+  "end": 427.85,
+  "text": "obviously there are lots of other"
+ },
+ {
+  "start": 427.86,
+  "end": 430.309,
+  "text": "requests which you can send but I'll be"
+ },
+ {
+  "start": 430.319,
+  "end": 432.409,
+  "text": "using this you can see this is the"
+ },
+ {
+  "start": 432.419,
+  "end": 433.51,
+  "text": "request"
+ },
+ {
+  "start": 433.52,
+  "end": 438.35,
+  "text": "resource or along with the URL and this"
+ },
+ {
+  "start": 438.36,
+  "end": 441.35,
+  "text": "is the response okay so it will return"
+ },
+ {
+  "start": 441.36,
+  "end": 444.71,
+  "text": "me this particular response with all the"
+ },
+ {
+  "start": 444.72,
+  "end": 447.35,
+  "text": "different user details okay"
+ },
+ {
+  "start": 447.36,
+  "end": 450.05,
+  "text": "to send any particular request in your"
+ },
+ {
+  "start": 450.06,
+  "end": 453.05,
+  "text": "API scan you need to First create a"
+ },
+ {
+  "start": 453.06,
+  "end": 454.55,
+  "text": "message right"
+ },
+ {
+  "start": 454.56,
+  "end": 458.749,
+  "text": "so first you can see a default D"
+ },
+ {
+  "start": 458.759,
+  "end": 460.43,
+  "text": "structure which is already also present"
+ },
+ {
+  "start": 460.44,
+  "end": 463.129,
+  "text": "on the left hand side this is its own t"
+ },
+ {
+  "start": 463.139,
+  "end": 466.249,
+  "text": "structure when I can create any number"
+ },
+ {
+  "start": 466.259,
+  "end": 469.37,
+  "text": "of messages or folders okay so our"
+ },
+ {
+  "start": 469.38,
+  "end": 472.01,
+  "text": "folder is already created you can see I"
+ },
+ {
+  "start": 472.02,
+  "end": 474.11,
+  "text": "can also rename this particular project"
+ },
+ {
+  "start": 474.12,
+  "end": 477.589,
+  "text": "okay and I can create my own messages"
+ },
+ {
+  "start": 477.599,
+  "end": 480.17,
+  "text": "here so these are basically the API"
+ },
+ {
+  "start": 480.18,
+  "end": 482.93,
+  "text": "messages and once I create this message"
+ },
+ {
+  "start": 482.94,
+  "end": 486.61,
+  "text": "uh maybe I can call it I can rename it"
+ },
+ {
+  "start": 486.62,
+  "end": 489.11,
+  "text": "to get request"
+ },
+ {
+  "start": 489.12,
+  "end": 494.39,
+  "text": "okay or get a list of users"
+ },
+ {
+  "start": 498.23,
+  "end": 498.24,
+  "text": "and then I need to select a method now"
+ },
+ {
+  "start": 498.24,
+  "end": 502.189,
+  "text": "if you are familiar with API rest API"
+ },
+ {
+  "start": 502.199,
+  "end": 504.05,
+  "text": "methods then these are all the methods"
+ },
+ {
+  "start": 504.06,
+  "end": 506.809,
+  "text": "which are available in the rest API and"
+ },
+ {
+  "start": 506.819,
+  "end": 509.029,
+  "text": "the most useful ones or the most"
+ },
+ {
+  "start": 509.039,
+  "end": 511.55,
+  "text": "frequently used ones are get post put"
+ },
+ {
+  "start": 511.56,
+  "end": 514.79,
+  "text": "delete right but there are that's also"
+ },
+ {
+  "start": 514.8,
+  "end": 516.73,
+  "text": "if you want to use them"
+ },
+ {
+  "start": 516.74,
+  "end": 520.13,
+  "text": "for me currently it is the get method I"
+ },
+ {
+  "start": 520.14,
+  "end": 522.529,
+  "text": "need to provide a endpoint and a"
+ },
+ {
+  "start": 522.539,
+  "end": 524.149,
+  "text": "resource these are the two most"
+ },
+ {
+  "start": 524.159,
+  "end": 525.949,
+  "text": "important information which you need to"
+ },
+ {
+  "start": 525.959,
+  "end": 529.31,
+  "text": "provide with any API request okay"
+ },
+ {
+  "start": 529.32,
+  "end": 531.949,
+  "text": "and then you can also provide the"
+ },
+ {
+  "start": 531.959,
+  "end": 534.41,
+  "text": "payload but for a get request you don't"
+ },
+ {
+  "start": 534.42,
+  "end": 536.99,
+  "text": "require a payload for that will be"
+ },
+ {
+  "start": 537.0,
+  "end": 539.75,
+  "text": "required for a post request okay"
+ },
+ {
+  "start": 539.76,
+  "end": 541.97,
+  "text": "and then as I said you can also provide"
+ },
+ {
+  "start": 541.98,
+  "end": 544.67,
+  "text": "parameters uh and parameters out of"
+ },
+ {
+  "start": 544.68,
+  "end": 547.31,
+  "text": "three types here first is the query"
+ },
+ {
+  "start": 547.32,
+  "end": 549.889,
+  "text": "parameters then second is path and then"
+ },
+ {
+  "start": 549.899,
+  "end": 553.43,
+  "text": "you can also use header parameter okay"
+ },
+ {
+  "start": 553.44,
+  "end": 555.17,
+  "text": "also there are different types of"
+ },
+ {
+  "start": 555.18,
+  "end": 559.31,
+  "text": "authentication uh the important ones are"
+ },
+ {
+  "start": 559.32,
+  "end": 563.81,
+  "text": "the basic uh you can use oauth 2.0 or"
+ },
+ {
+  "start": 563.82,
+  "end": 567.65,
+  "text": "digest authentication uh ntlm and"
+ },
+ {
+  "start": 567.66,
+  "end": 569.63,
+  "text": "Kerberos right so there are different"
+ },
+ {
+  "start": 569.64,
+  "end": 572.269,
+  "text": "authentication mechanisms which can be"
+ },
+ {
+  "start": 572.279,
+  "end": 575.57,
+  "text": "associated with every every API so you"
+ },
+ {
+  "start": 575.58,
+  "end": 578.75,
+  "text": "can use any of this uh authentication if"
+ },
+ {
+  "start": 578.76,
+  "end": 581.75,
+  "text": "it applies to your API okay you can also"
+ },
+ {
+  "start": 581.76,
+  "end": 584.99,
+  "text": "send attachments you can also select a"
+ },
+ {
+  "start": 585.0,
+  "end": 587.329,
+  "text": "security protocol if it is applicable"
+ },
+ {
+  "start": 587.339,
+  "end": 590.87,
+  "text": "for your request okay"
+ },
+ {
+  "start": 590.88,
+  "end": 593.329,
+  "text": "so now talking about this sample request"
+ },
+ {
+  "start": 593.339,
+  "end": 595.97,
+  "text": "which I am trying to send so this is the"
+ },
+ {
+  "start": 595.98,
+  "end": 597.65,
+  "text": "end point for this particular API"
+ },
+ {
+  "start": 597.66,
+  "end": 600.65,
+  "text": "request and I'm going to mention it here"
+ },
+ {
+  "start": 600.66,
+  "end": 603.889,
+  "text": "and after this uh we need to provide a"
+ },
+ {
+  "start": 603.899,
+  "end": 606.71,
+  "text": "resource right now do keep in mind that"
+ },
+ {
+  "start": 606.72,
+  "end": 609.949,
+  "text": "for every API request which you look at"
+ },
+ {
+  "start": 609.959,
+  "end": 613.07,
+  "text": "it will always have this endpoint which"
+ },
+ {
+  "start": 613.08,
+  "end": 615.53,
+  "text": "is common across all your API requests"
+ },
+ {
+  "start": 615.54,
+  "end": 617.93,
+  "text": "and then there would be a resource which"
+ },
+ {
+  "start": 617.94,
+  "end": 621.05,
+  "text": "is basically a unique location on the"
+ },
+ {
+  "start": 621.06,
+  "end": 623.509,
+  "text": "server where you will be either"
+ },
+ {
+  "start": 623.519,
+  "end": 625.49,
+  "text": "requesting information or you'll be"
+ },
+ {
+  "start": 625.5,
+  "end": 627.17,
+  "text": "updating the information"
+ },
+ {
+  "start": 627.18,
+  "end": 630.73,
+  "text": "so for me uh the resource is this"
+ },
+ {
+  "start": 630.74,
+  "end": 634.19,
+  "text": "so whatever is mentioned here this is my"
+ },
+ {
+  "start": 634.2,
+  "end": 637.25,
+  "text": "resource and this is what I want to do"
+ },
+ {
+  "start": 637.26,
+  "end": 638.509,
+  "text": "okay"
+ },
+ {
+  "start": 638.519,
+  "end": 640.97,
+  "text": "I want to get the information from this"
+ },
+ {
+  "start": 640.98,
+  "end": 644.509,
+  "text": "particular resource"
+ },
+ {
+  "start": 647.09,
+  "end": 647.1,
+  "text": "so for some reason I am not able to copy"
+ },
+ {
+  "start": 647.1,
+  "end": 650.21,
+  "text": "this let's try it one more time"
+ },
+ {
+  "start": 650.22,
+  "end": 653.87,
+  "text": "okay but okay let me type this in I"
+ },
+ {
+  "start": 653.88,
+  "end": 658.37,
+  "text": "don't know why I'm not able to copy this"
+ },
+ {
+  "start": 662.81,
+  "end": 662.82,
+  "text": "okay but let's type this in so slash API"
+ },
+ {
+  "start": 662.82,
+  "end": 665.329,
+  "text": "slash users"
+ },
+ {
+  "start": 665.339,
+  "end": 670.43,
+  "text": "and pH equals"
+ },
+ {
+  "start": 671.81,
+  "end": 671.82,
+  "text": "two"
+ },
+ {
+  "start": 671.82,
+  "end": 676.43,
+  "text": "okay so this is uh my resource and if"
+ },
+ {
+  "start": 676.44,
+  "end": 679.25,
+  "text": "you look at this API page it doesn't"
+ },
+ {
+  "start": 679.26,
+  "end": 682.31,
+  "text": "have any kind of authentication okay or"
+ },
+ {
+  "start": 682.32,
+  "end": 684.829,
+  "text": "and also this doesn't require any kind"
+ },
+ {
+  "start": 684.839,
+  "end": 686.75,
+  "text": "of parameter okay"
+ },
+ {
+  "start": 686.76,
+  "end": 689.75,
+  "text": "so once I provide a endpoint and the"
+ },
+ {
+  "start": 689.76,
+  "end": 692.87,
+  "text": "resource I can send this request and how"
+ },
+ {
+  "start": 692.88,
+  "end": 695.63,
+  "text": "you can run a particular API message"
+ },
+ {
+  "start": 695.64,
+  "end": 698.75,
+  "text": "request so there is a run option on the"
+ },
+ {
+  "start": 698.76,
+  "end": 699.47,
+  "text": "top"
+ },
+ {
+  "start": 699.48,
+  "end": 701.99,
+  "text": "so you can perform any kind of operation"
+ },
+ {
+  "start": 702.0,
+  "end": 704.87,
+  "text": "on your API messages so when you're"
+ },
+ {
+  "start": 704.88,
+  "end": 706.61,
+  "text": "sending a request you need to provide"
+ },
+ {
+  "start": 706.62,
+  "end": 708.29,
+  "text": "the details and then you need to click"
+ },
+ {
+  "start": 708.3,
+  "end": 710.09,
+  "text": "on run"
+ },
+ {
+  "start": 710.1,
+  "end": 712.97,
+  "text": "okay once you click on run you will see"
+ },
+ {
+  "start": 712.98,
+  "end": 716.15,
+  "text": "uh the tab which was on the request now"
+ },
+ {
+  "start": 716.16,
+  "end": 719.329,
+  "text": "has changed to response okay because we"
+ },
+ {
+  "start": 719.339,
+  "end": 722.69,
+  "text": "are looking uh at the response okay and"
+ },
+ {
+  "start": 722.7,
+  "end": 724.25,
+  "text": "if you want to go back to your request"
+ },
+ {
+  "start": 724.26,
+  "end": 727.13,
+  "text": "you can click back on this request if"
+ },
+ {
+  "start": 727.14,
+  "end": 729.23,
+  "text": "you want to go back to a response you"
+ },
+ {
+  "start": 729.24,
+  "end": 732.23,
+  "text": "can click it here it will show you a"
+ },
+ {
+  "start": 732.24,
+  "end": 733.85,
+  "text": "status code now there are different"
+ },
+ {
+  "start": 733.86,
+  "end": 736.55,
+  "text": "status codes so it will select whatever"
+ },
+ {
+  "start": 736.56,
+  "end": 739.13,
+  "text": "it is getting from the response it will"
+ },
+ {
+  "start": 739.14,
+  "end": 741.29,
+  "text": "show you the response time so you can"
+ },
+ {
+  "start": 741.3,
+  "end": 743.509,
+  "text": "check how much time it took to process"
+ },
+ {
+  "start": 743.519,
+  "end": 746.449,
+  "text": "this request and then the payload which"
+ },
+ {
+  "start": 746.459,
+  "end": 748.91,
+  "text": "is the response API response which we"
+ },
+ {
+  "start": 748.92,
+  "end": 751.55,
+  "text": "received from the server with all the"
+ },
+ {
+  "start": 751.56,
+  "end": 753.949,
+  "text": "user details okay"
+ },
+ {
+  "start": 753.959,
+  "end": 758.269,
+  "text": "so this is how you can simply uh send a"
+ },
+ {
+  "start": 758.279,
+  "end": 761.87,
+  "text": "request and receive a response in your"
+ },
+ {
+  "start": 761.88,
+  "end": 765.71,
+  "text": "Tosca API scan okay and you can create a"
+ },
+ {
+  "start": 765.72,
+  "end": 768.769,
+  "text": "message you can create folders folder"
+ },
+ {
+  "start": 768.779,
+  "end": 772.129,
+  "text": "structure for your API project and you"
+ },
+ {
+  "start": 772.139,
+  "end": 773.75,
+  "text": "can then create any number of messages"
+ },
+ {
+  "start": 773.76,
+  "end": 775.49,
+  "text": "and you can check all these messages"
+ },
+ {
+  "start": 775.5,
+  "end": 777.829,
+  "text": "here okay"
+ },
+ {
+  "start": 777.839,
+  "end": 780.05,
+  "text": "so this is the basic functionality of"
+ },
+ {
+  "start": 780.06,
+  "end": 783.65,
+  "text": "Tosca API scan in the next video I am"
+ },
+ {
+  "start": 783.66,
+  "end": 785.15,
+  "text": "going to show you"
+ },
+ {
+  "start": 785.16,
+  "end": 787.37,
+  "text": "in the next video I am going to show you"
+ },
+ {
+  "start": 787.38,
+  "end": 789.53,
+  "text": "how you can basically scan different"
+ },
+ {
+  "start": 789.54,
+  "end": 793.73,
+  "text": "apis right from Tosca API scan and how"
+ },
+ {
+  "start": 793.74,
+  "end": 795.949,
+  "text": "it will automatically create all these"
+ },
+ {
+  "start": 795.959,
+  "end": 798.55,
+  "text": "messages with all the different values"
+ },
+ {
+  "start": 798.56,
+  "end": 802.129,
+  "text": "and also a particular structure based on"
+ },
+ {
+  "start": 802.139,
+  "end": 805.009,
+  "text": "your apis okay"
+ },
+ {
+  "start": 805.019,
+  "end": 806.93,
+  "text": "so that's all for this video uh"
+ },
+ {
+  "start": 806.94,
+  "end": 809.21,
+  "text": "hopefully this was interesting and do"
+ },
+ {
+  "start": 809.22,
+  "end": 811.73,
+  "text": "tune in into our channel to watch the"
+ },
+ {
+  "start": 811.74,
+  "end": 814.67,
+  "text": "next uh video on API testing where we'll"
+ },
+ {
+  "start": 814.68,
+  "end": 816.829,
+  "text": "be looking at how you can scan different"
+ },
+ {
+  "start": 816.839,
+  "end": 821.269,
+  "text": "apis and create your API project right"
+ },
+ {
+  "start": 821.279,
+  "end": 825.68,
+  "text": "on the API scan application"
+ }
+]

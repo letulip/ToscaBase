@@ -1,0 +1,767 @@
+[
+ {
+  "start": 7.829,
+  "end": 7.839,
+  "text": "hey everyone welcome back to the stsco"
+ },
+ {
+  "start": 7.839,
+  "end": 10.03,
+  "text": "automation playlist and we are talking"
+ },
+ {
+  "start": 10.04,
+  "end": 13.669,
+  "text": "about the top 10 tosa best practices now"
+ },
+ {
+  "start": 13.679,
+  "end": 16.63,
+  "text": "prior to this I have done five videos on"
+ },
+ {
+  "start": 16.64,
+  "end": 19.029,
+  "text": "different best practices so if you not"
+ },
+ {
+  "start": 19.039,
+  "end": 22.07,
+  "text": "watched them please go ahead and watch"
+ },
+ {
+  "start": 22.08,
+  "end": 24.23,
+  "text": "all those videos before you continue"
+ },
+ {
+  "start": 24.24,
+  "end": 25.99,
+  "text": "with this particular"
+ },
+ {
+  "start": 26.0,
+  "end": 29.39,
+  "text": "video so before we talk about the tosa"
+ },
+ {
+  "start": 29.4,
+  "end": 31.47,
+  "text": "best practice number six I would also"
+ },
+ {
+  "start": 31.48,
+  "end": 33.15,
+  "text": "recommend you to subscribe to our"
+ },
+ {
+  "start": 33.16,
+  "end": 35.229,
+  "text": "channel so that you don't miss out on"
+ },
+ {
+  "start": 35.239,
+  "end": 36.67,
+  "text": "the future"
+ },
+ {
+  "start": 36.68,
+  "end": 39.47,
+  "text": "videos so let's jump to this particular"
+ },
+ {
+  "start": 39.48,
+  "end": 40.31,
+  "text": "best"
+ },
+ {
+  "start": 40.32,
+  "end": 43.19,
+  "text": "practice now tric centus recommends that"
+ },
+ {
+  "start": 43.2,
+  "end": 46.15,
+  "text": "we should minimize the use of"
+ },
+ {
+  "start": 46.16,
+  "end": 49.67,
+  "text": "Loops now we have seen different loops"
+ },
+ {
+  "start": 49.68,
+  "end": 52.549,
+  "text": "and how we can use them in tosa now we"
+ },
+ {
+  "start": 52.559,
+  "end": 57.11,
+  "text": "have seen uh do Loop a y Loop and IFL"
+ },
+ {
+  "start": 57.12,
+  "end": 59.15,
+  "text": "statement right so we have been using"
+ },
+ {
+  "start": 59.16,
+  "end": 62.59,
+  "text": "this uh in some of the scenarios but Tri"
+ },
+ {
+  "start": 62.6,
+  "end": 66.51,
+  "text": "scientist tells that Loops are not uh"
+ },
+ {
+  "start": 66.52,
+  "end": 70.63,
+  "text": "the natural way of doing things in tosa"
+ },
+ {
+  "start": 70.64,
+  "end": 74.03,
+  "text": "the reason is tosa is not a programming"
+ },
+ {
+  "start": 74.04,
+  "end": 78.19,
+  "text": "language like Java oret so Java and net"
+ },
+ {
+  "start": 78.2,
+  "end": 82.109,
+  "text": "are more suitable for using these Loops"
+ },
+ {
+  "start": 82.119,
+  "end": 85.069,
+  "text": "they also have some enhanced versions of"
+ },
+ {
+  "start": 85.079,
+  "end": 88.469,
+  "text": "Loops so that they can uh perform better"
+ },
+ {
+  "start": 88.479,
+  "end": 92.19,
+  "text": "or more efficiently or faster right but"
+ },
+ {
+  "start": 92.2,
+  "end": 95.27,
+  "text": "tosa is just a test automation tool and"
+ },
+ {
+  "start": 95.28,
+  "end": 98.31,
+  "text": "it is providing you a way of using the"
+ },
+ {
+  "start": 98.32,
+  "end": 101.63,
+  "text": "loops but at the end it is not a"
+ },
+ {
+  "start": 101.64,
+  "end": 103.429,
+  "text": "programming language and it cannot"
+ },
+ {
+  "start": 103.439,
+  "end": 104.55,
+  "text": "handle the"
+ },
+ {
+  "start": 104.56,
+  "end": 107.149,
+  "text": "complexity uh because Loops are complex"
+ },
+ {
+  "start": 107.159,
+  "end": 110.67,
+  "text": "to use also they take much longer and"
+ },
+ {
+  "start": 110.68,
+  "end": 112.709,
+  "text": "hence they should be"
+ },
+ {
+  "start": 112.719,
+  "end": 116.63,
+  "text": "avoided instead of these Loops what"
+ },
+ {
+  "start": 116.64,
+  "end": 118.749,
+  "text": "tricentis recommends is to use"
+ },
+ {
+  "start": 118.759,
+  "end": 122.19,
+  "text": "constraints or repetion methods so you"
+ },
+ {
+  "start": 122.2,
+  "end": 124.83,
+  "text": "will be using Loops whenever you want to"
+ },
+ {
+  "start": 124.84,
+  "end": 127.31,
+  "text": "repeat a particular test case a certain"
+ },
+ {
+  "start": 127.32,
+  "end": 129.469,
+  "text": "number of times before a condition is"
+ },
+ {
+  "start": 129.479,
+  "end": 132.67,
+  "text": "met or you could be also using it um"
+ },
+ {
+  "start": 132.68,
+  "end": 134.509,
+  "text": "inside a table where you want to Loop"
+ },
+ {
+  "start": 134.519,
+  "end": 137.07,
+  "text": "through all the rows and columns and try"
+ },
+ {
+  "start": 137.08,
+  "end": 140.07,
+  "text": "to find some particular cell value right"
+ },
+ {
+  "start": 140.08,
+  "end": 142.19,
+  "text": "so these are the scenarios where you'll"
+ },
+ {
+  "start": 142.2,
+  "end": 145.35,
+  "text": "be using Loops but instead of that so"
+ },
+ {
+  "start": 145.36,
+  "end": 147.71,
+  "text": "instead of going through the loops in"
+ },
+ {
+  "start": 147.72,
+  "end": 150.55,
+  "text": "table you can use something like St we"
+ },
+ {
+  "start": 150.56,
+  "end": 153.43,
+  "text": "have already seen that and also to"
+ },
+ {
+  "start": 153.44,
+  "end": 155.869,
+  "text": "repeat the number of steps u in a"
+ },
+ {
+  "start": 155.879,
+  "end": 157.589,
+  "text": "particular test case you can use the"
+ },
+ {
+  "start": 157.599,
+  "end": 160.39,
+  "text": "reputations method these two are pretty"
+ },
+ {
+  "start": 160.4,
+  "end": 162.99,
+  "text": "straightforward uh methods and they can"
+ },
+ {
+  "start": 163.0,
+  "end": 165.79,
+  "text": "be used in these different scenarios now"
+ },
+ {
+  "start": 165.8,
+  "end": 168.75,
+  "text": "although we have seen this already uh"
+ },
+ {
+  "start": 168.76,
+  "end": 170.149,
+  "text": "since we are talking about this best"
+ },
+ {
+  "start": 170.159,
+  "end": 172.39,
+  "text": "practice let me quickly uh go through"
+ },
+ {
+  "start": 172.4,
+  "end": 175.35,
+  "text": "the concept uh again"
+ },
+ {
+  "start": 175.36,
+  "end": 178.71,
+  "text": "okay so coming back to tosa um let's"
+ },
+ {
+  "start": 178.72,
+  "end": 180.75,
+  "text": "look at an example where we have used"
+ },
+ {
+  "start": 180.76,
+  "end": 184.19,
+  "text": "the while loop and how it can be avoided"
+ },
+ {
+  "start": 184.2,
+  "end": 186.39,
+  "text": "um and instead of that we can use"
+ },
+ {
+  "start": 186.4,
+  "end": 189.75,
+  "text": "something called repetion okay so in"
+ },
+ {
+  "start": 189.76,
+  "end": 191.63,
+  "text": "this test case you can see there is a"
+ },
+ {
+  "start": 191.64,
+  "end": 194.91,
+  "text": "while loop okay what it is doing it is"
+ },
+ {
+  "start": 194.92,
+  "end": 198.99,
+  "text": "just setting a buffer uh with a value X"
+ },
+ {
+  "start": 199.0,
+  "end": 201.99,
+  "text": "okay so initial value is one for that uh"
+ },
+ {
+  "start": 202.0,
+  "end": 205.19,
+  "text": "buffer X and then inside the Y Loop we"
+ },
+ {
+  "start": 205.2,
+  "end": 207.67,
+  "text": "are checking whether um that buffer"
+ },
+ {
+  "start": 207.68,
+  "end": 210.03,
+  "text": "value is less than five okay okay so"
+ },
+ {
+  "start": 210.04,
+  "end": 212.75,
+  "text": "there is a verification step until then"
+ },
+ {
+  "start": 212.76,
+  "end": 215.39,
+  "text": "this while loop will continue and inside"
+ },
+ {
+  "start": 215.4,
+  "end": 217.39,
+  "text": "the loop what we are doing we are"
+ },
+ {
+  "start": 217.4,
+  "end": 219.91,
+  "text": "calculating so we are increasing the"
+ },
+ {
+  "start": 219.92,
+  "end": 223.83,
+  "text": "value of the buffer X by one okay so"
+ },
+ {
+  "start": 223.84,
+  "end": 226.429,
+  "text": "this will continue until it reaches this"
+ },
+ {
+  "start": 226.439,
+  "end": 228.63,
+  "text": "value five and then this condition will"
+ },
+ {
+  "start": 228.64,
+  "end": 231.83,
+  "text": "not satisfy so it will stop the loop"
+ },
+ {
+  "start": 231.84,
+  "end": 234.67,
+  "text": "okay so that's the whole concept here um"
+ },
+ {
+  "start": 234.68,
+  "end": 240.069,
+  "text": "let me quickly run it and show it to you"
+ },
+ {
+  "start": 240.079,
+  "end": 242.71,
+  "text": "so here uh we have executed this you can"
+ },
+ {
+  "start": 242.72,
+  "end": 246.19,
+  "text": "see uh the buffer has value one and then"
+ },
+ {
+  "start": 246.2,
+  "end": 247.789,
+  "text": "the while loop it has got five"
+ },
+ {
+  "start": 247.799,
+  "end": 249.949,
+  "text": "reputations and in the last"
+ },
+ {
+  "start": 249.959,
+  "end": 253.069,
+  "text": "reputation um the five is less than five"
+ },
+ {
+  "start": 253.079,
+  "end": 255.149,
+  "text": "condition is evaluated to false and"
+ },
+ {
+  "start": 255.159,
+  "end": 258.43,
+  "text": "hence the repetion stops right so that"
+ },
+ {
+  "start": 258.44,
+  "end": 261.83,
+  "text": "all works okay but there is another way"
+ },
+ {
+  "start": 261.84,
+  "end": 264.03,
+  "text": "of doing that and even that is much"
+ },
+ {
+  "start": 264.04,
+  "end": 266.95,
+  "text": "simpler right again the same thing uh we"
+ },
+ {
+  "start": 266.96,
+  "end": 269.23,
+  "text": "set the buffer but then we create a"
+ },
+ {
+  "start": 269.24,
+  "end": 270.27,
+  "text": "folder"
+ },
+ {
+  "start": 270.28,
+  "end": 273.15,
+  "text": "okay inside this we again do the"
+ },
+ {
+  "start": 273.16,
+  "end": 276.35,
+  "text": "calculation okay but here uh in the"
+ },
+ {
+  "start": 276.36,
+  "end": 278.43,
+  "text": "properties of this folder we have set"
+ },
+ {
+  "start": 278.44,
+  "end": 281.31,
+  "text": "the repetion to five so this will"
+ },
+ {
+  "start": 281.32,
+  "end": 283.909,
+  "text": "automatically repeat the steps for five"
+ },
+ {
+  "start": 283.919,
+  "end": 288.39,
+  "text": "number of times okay now if I run this"
+ },
+ {
+  "start": 288.4,
+  "end": 290.95,
+  "text": "probably the same um action it will"
+ },
+ {
+  "start": 290.96,
+  "end": 293.469,
+  "text": "perform it will run the reputations"
+ },
+ {
+  "start": 293.479,
+  "end": 295.71,
+  "text": "right so it will set the buffer and then"
+ },
+ {
+  "start": 295.72,
+  "end": 298.35,
+  "text": "it will do five repetition okay and then"
+ },
+ {
+  "start": 298.36,
+  "end": 300.87,
+  "text": "we will get the buffer value of x"
+ },
+ {
+  "start": 300.88,
+  "end": 304.67,
+  "text": "whatever it is right so this is just a"
+ },
+ {
+  "start": 304.68,
+  "end": 307.15,
+  "text": "simple example of how you can avoid"
+ },
+ {
+  "start": 307.16,
+  "end": 309.87,
+  "text": "Loops in a particular scenario instead"
+ },
+ {
+  "start": 309.88,
+  "end": 314.43,
+  "text": "of that use repetition right similarly"
+ },
+ {
+  "start": 314.44,
+  "end": 317.59,
+  "text": "if you want to do it in tables right in"
+ },
+ {
+  "start": 317.6,
+  "end": 319.469,
+  "text": "web tables when you want to find a"
+ },
+ {
+  "start": 319.479,
+  "end": 323.15,
+  "text": "particular cell instead of um going"
+ },
+ {
+  "start": 323.16,
+  "end": 325.55,
+  "text": "through all the rows and columns and"
+ },
+ {
+  "start": 325.56,
+  "end": 328.39,
+  "text": "then trying to do a comparison of values"
+ },
+ {
+  "start": 328.4,
+  "end": 330.55,
+  "text": "and finding that particular set"
+ },
+ {
+  "start": 330.56,
+  "end": 333.67,
+  "text": "just put constraints okay so we have put"
+ },
+ {
+  "start": 333.68,
+  "end": 335.67,
+  "text": "the constraint on first team and last"
+ },
+ {
+  "start": 335.68,
+  "end": 340.07,
+  "text": "team and then um we are verifying that"
+ },
+ {
+  "start": 340.08,
+  "end": 343.029,
+  "text": "particular cell okay on which this"
+ },
+ {
+  "start": 343.039,
+  "end": 346.749,
+  "text": "constraints are set right so tosa will"
+ },
+ {
+  "start": 346.759,
+  "end": 349.71,
+  "text": "go ahead and search for this uh cells"
+ },
+ {
+  "start": 349.72,
+  "end": 352.39,
+  "text": "which has got this constraints right and"
+ },
+ {
+  "start": 352.4,
+  "end": 354.15,
+  "text": "it will directly end up with this"
+ },
+ {
+  "start": 354.16,
+  "end": 356.469,
+  "text": "particular cell uh which matches both"
+ },
+ {
+  "start": 356.479,
+  "end": 358.469,
+  "text": "the conditions right so we don't even"
+ },
+ {
+  "start": 358.479,
+  "end": 360.79,
+  "text": "need to iterate through all the rows and"
+ },
+ {
+  "start": 360.8,
+  "end": 363.189,
+  "text": "columns and make it more complicated"
+ },
+ {
+  "start": 363.199,
+  "end": 367.07,
+  "text": "right so the whole idea is to simplify"
+ },
+ {
+  "start": 367.08,
+  "end": 369.909,
+  "text": "your test cases right so that it can be"
+ },
+ {
+  "start": 369.919,
+  "end": 373.43,
+  "text": "maintained easily and uh they perform"
+ },
+ {
+  "start": 373.44,
+  "end": 375.95,
+  "text": "better right and there are less chances"
+ },
+ {
+  "start": 375.96,
+  "end": 378.189,
+  "text": "of failure okay so these are the three"
+ },
+ {
+  "start": 378.199,
+  "end": 380.35,
+  "text": "ideas which you need to always keep in"
+ },
+ {
+  "start": 380.36,
+  "end": 382.629,
+  "text": "mind whenever you are developing your"
+ },
+ {
+  "start": 382.639,
+  "end": 385.39,
+  "text": "test cases and use the more efficient"
+ },
+ {
+  "start": 385.4,
+  "end": 389.15,
+  "text": "way of U developing them maybe not the"
+ },
+ {
+  "start": 389.16,
+  "end": 393.43,
+  "text": "usual way of doing it right so that is"
+ },
+ {
+  "start": 393.44,
+  "end": 395.43,
+  "text": "uh what tendus recommends for this"
+ },
+ {
+  "start": 395.44,
+  "end": 397.71,
+  "text": "particular best practice minimize the"
+ },
+ {
+  "start": 397.72,
+  "end": 401.11,
+  "text": "usage of Loops wherever you can okay you"
+ },
+ {
+  "start": 401.12,
+  "end": 404.87,
+  "text": "should only use it at specific places um"
+ },
+ {
+  "start": 404.88,
+  "end": 407.43,
+  "text": "otherwise use the more efficient methods"
+ },
+ {
+  "start": 407.44,
+  "end": 410.309,
+  "text": "like constraints or"
+ },
+ {
+  "start": 410.319,
+  "end": 412.23,
+  "text": "reputations so that's all for this"
+ },
+ {
+  "start": 412.24,
+  "end": 414.35,
+  "text": "particular video I hope you enjoyed it"
+ },
+ {
+  "start": 414.36,
+  "end": 416.39,
+  "text": "and you liked it uh we would like to"
+ },
+ {
+  "start": 416.4,
+  "end": 419.189,
+  "text": "hear your comments so go to the comment"
+ },
+ {
+  "start": 419.199,
+  "end": 421.83,
+  "text": "section and put your comments or any"
+ },
+ {
+  "start": 421.84,
+  "end": 424.95,
+  "text": "questions you have on this particular"
+ },
+ {
+  "start": 424.96,
+  "end": 427.629,
+  "text": "topic we have lots more videos coming up"
+ },
+ {
+  "start": 427.639,
+  "end": 432.08,
+  "text": "so keep watching and keep learning"
+ }
+]

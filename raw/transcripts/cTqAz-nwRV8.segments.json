@@ -1,0 +1,437 @@
+[
+ {
+  "start": 15.02,
+  "end": 19.7,
+  "text": "Hello friends, welcome back to our channel."
+ },
+ {
+  "start": 19.7,
+  "end": 23.66,
+  "text": "I am your Tosca instructor and my name is Kumaresh."
+ },
+ {
+  "start": 23.66,
+  "end": 30.34,
+  "text": "I have total 14 years of IT experience in software development and test automation."
+ },
+ {
+  "start": 30.34,
+  "end": 33.98,
+  "text": "Thank you for connecting with us."
+ },
+ {
+  "start": 33.98,
+  "end": 36.58,
+  "text": "Hope you are doing well."
+ },
+ {
+  "start": 36.58,
+  "end": 39.48,
+  "text": "Let's start our today's session."
+ },
+ {
+  "start": 39.48,
+  "end": 45.48,
+  "text": "Through this video, I will explain the overview of Tosca buffers and standard modules which"
+ },
+ {
+  "start": 45.48,
+  "end": 49.08,
+  "text": "are used to manage buffers."
+ },
+ {
+  "start": 49.08,
+  "end": 54.56,
+  "text": "The explanation of usage of Tosca buffers will be done through demonstration."
+ },
+ {
+  "start": 54.56,
+  "end": 59.28,
+  "text": "Buffer is acted like variables to store the values during execution."
+ },
+ {
+  "start": 59.28,
+  "end": 64.28,
+  "text": "The stored values are also available after completion of execution."
+ },
+ {
+  "start": 64.28,
+  "end": 68.88,
+  "text": "The scope of buffer is restricted to the local workspace only as the buffer value"
+ },
+ {
+  "start": 68.88,
+  "end": 73.48,
+  "text": "cannot be updated to shared repository."
+ },
+ {
+  "start": 73.48,
+  "end": 78.32,
+  "text": "The syntax of buffer to read the value is, b, buffer underscore name."
+ },
+ {
+  "start": 78.32,
+  "end": 82.12,
+  "text": "Buffer can be created by using action mode as buffer for any test step where"
+ },
+ {
+  "start": 82.12,
+  "end": 87.56,
+  "text": "buffer name should be the test step value instead of using set buffer module."
+ },
+ {
+  "start": 87.56,
+  "end": 93.72,
+  "text": "Also, using xb, buffer underscore name, buffer can be created from a verification"
+ },
+ {
+  "start": 93.72,
+  "end": 96.84,
+  "text": "test step dynamical."
+ },
+ {
+  "start": 96.84,
+  "end": 101.2,
+  "text": "Tosca provides four standard modules to works with buffers which are available under the"
+ },
+ {
+  "start": 101.2,
+  "end": 106.12,
+  "text": "path standard modules, buffer operations in modules section."
+ },
+ {
+  "start": 106.12,
+  "end": 110.28,
+  "text": "The standard modules are T box set buffer."
+ },
+ {
+  "start": 110.28,
+  "end": 114.2,
+  "text": "This module is used to create the buffer as per the name provided in the attribute"
+ },
+ {
+  "start": 114.2,
+  "end": 115.76,
+  "text": "section."
+ },
+ {
+  "start": 115.76,
+  "end": 120.6,
+  "text": "The value provided in the attributes value section will be stored in the buffer."
+ },
+ {
+  "start": 120.6,
+  "end": 125.78,
+  "text": "We can create more than one buffers using this module."
+ },
+ {
+  "start": 125.78,
+  "end": 130.58,
+  "text": "T box name to buffer, this module is used to store the test case name into the buffer"
+ },
+ {
+  "start": 130.58,
+  "end": 134.62,
+  "text": "for which name is provided in the attribute value field."
+ },
+ {
+  "start": 134.62,
+  "end": 140.14,
+  "text": "We need to execute the test case from the execution list to store the test case name."
+ },
+ {
+  "start": 140.14,
+  "end": 145.52,
+  "text": "Otherwise, it will store as scratch book."
+ },
+ {
+  "start": 145.52,
+  "end": 150.24,
+  "text": "T box partial buffer, this module is used to extract the partial text and store it"
+ },
+ {
+  "start": 150.24,
+  "end": 153.4,
+  "text": "to another buffer."
+ },
+ {
+  "start": 153.4,
+  "end": 157.92,
+  "text": "T box delete buffer, it's used to delete the existing buffers."
+ },
+ {
+  "start": 157.92,
+  "end": 163.2,
+  "text": "The buffer name should be mentioned in the attributes value section."
+ },
+ {
+  "start": 163.2,
+  "end": 167.4,
+  "text": "I will now show how to work with buffers."
+ },
+ {
+  "start": 167.4,
+  "end": 172.48,
+  "text": "We will start with box set buffer to create and assign values."
+ },
+ {
+  "start": 172.48,
+  "end": 177.84,
+  "text": "First we will go to the buffer operation folder in module section."
+ },
+ {
+  "start": 177.84,
+  "end": 184.85,
+  "text": "All the standards modules which are related to buffers are listed here."
+ },
+ {
+  "start": 184.85,
+  "end": 190.57,
+  "text": "Now selecting T box set buffer module and drag and drop it to the test case."
+ },
+ {
+  "start": 190.57,
+  "end": 197.0,
+  "text": "Inside the name of buffer as mybuffer1 by renaming the test step attribute."
+ },
+ {
+  "start": 197.0,
+  "end": 202.4,
+  "text": "We can enter any text in value column of the test step to assign it to the buffer."
+ },
+ {
+  "start": 202.4,
+  "end": 207.64,
+  "text": "Now we will execute this step in scratch book to create the buffer as mybuffer1"
+ },
+ {
+  "start": 207.64,
+  "end": 213.0,
+  "text": "and assign value as abcde."
+ },
+ {
+  "start": 213.0,
+  "end": 218.6,
+  "text": "The temporary execution log shows the creation of buffer with value assignment."
+ },
+ {
+  "start": 218.6,
+  "end": 222.94,
+  "text": "It can viewed from buffer viewer wizard."
+ },
+ {
+  "start": 222.94,
+  "end": 226.72,
+  "text": "Now we will understand the module T box name to buffer."
+ },
+ {
+  "start": 226.72,
+  "end": 231.42,
+  "text": "First, we will drag and drop it to our test case."
+ },
+ {
+  "start": 231.42,
+  "end": 236.3,
+  "text": "Entering the buffer name in value column which will be assigned the test case name."
+ },
+ {
+  "start": 236.3,
+  "end": 241.15,
+  "text": "Let's use the buffer mybuffer1 which was just created."
+ },
+ {
+  "start": 241.15,
+  "end": 247.67,
+  "text": "We will execute this step in scratch book to store test case name into buffer mybuffer1."
+ },
+ {
+  "start": 247.67,
+  "end": 252.93,
+  "text": "In this case text scratch book will be assigned as it was executed from scratch book."
+ },
+ {
+  "start": 252.93,
+  "end": 257.89,
+  "text": "We need to execute an execution list to assign the actual test name."
+ },
+ {
+  "start": 257.89,
+  "end": 263.45,
+  "text": "Next, we will see the usage of the module T box partial buffer."
+ },
+ {
+  "start": 263.45,
+  "end": 269.2,
+  "text": "We will drag and drop it to our test case."
+ },
+ {
+  "start": 269.2,
+  "end": 272.94,
+  "text": "We need to provide values for four attributes."
+ },
+ {
+  "start": 272.94,
+  "end": 278.78,
+  "text": "The buffer which will be assigned the extracted text has to be provided in buffer attribute."
+ },
+ {
+  "start": 278.78,
+  "end": 281.94,
+  "text": "We are providing mybuffer2."
+ },
+ {
+  "start": 282.02,
+  "end": 286.86,
+  "text": "The value attribute should be the source from which we are going to extract partial texts."
+ },
+ {
+  "start": 286.86,
+  "end": 291.5,
+  "text": "We can use the previously created buffer mybuffer1 as the source of string which"
+ },
+ {
+  "start": 291.5,
+  "end": 294.18,
+  "text": "contains abcde."
+ },
+ {
+  "start": 294.18,
+  "end": 302.11,
+  "text": "The syntax to use the existing buffer as the input value is, b, mybuffer1."
+ },
+ {
+  "start": 302.11,
+  "end": 306.07,
+  "text": "Start denotes the start position and end denotes the end position of the text to"
+ },
+ {
+  "start": 306.07,
+  "end": 308.11,
+  "text": "be extracted."
+ },
+ {
+  "start": 308.11,
+  "end": 312.55,
+  "text": "We will execute the test in scratch book to store the extracted values to buffer"
+ },
+ {
+  "start": 312.55,
+  "end": 314.55,
+  "text": "mybuffer2."
+ },
+ {
+  "start": 314.55,
+  "end": 319.35,
+  "text": "Here extracted text should be bcd which is starting from second to fourth position"
+ },
+ {
+  "start": 319.35,
+  "end": 322.47,
+  "text": "of the source value abcde."
+ },
+ {
+  "start": 322.47,
+  "end": 327.14,
+  "text": "We can check it from buffer viewer."
+ },
+ {
+  "start": 327.14,
+  "end": 331.26,
+  "text": "Here the last attribute is used alone to extract the text from the end of source"
+ },
+ {
+  "start": 331.26,
+  "end": 332.42,
+  "text": "value."
+ },
+ {
+  "start": 332.42,
+  "end": 338.5,
+  "text": "Now, we will drag and drop the last module T box delete buffer to remove any existing"
+ },
+ {
+  "start": 338.5,
+  "end": 340.1,
+  "text": "buffer."
+ },
+ {
+  "start": 340.1,
+  "end": 344.38,
+  "text": "Entering the existing buffer mybuffer2 in value column."
+ },
+ {
+  "start": 344.38,
+  "end": 349.38,
+  "text": "We will execute this step in scratch book to delete the existing mybuffer2 from the"
+ },
+ {
+  "start": 349.38,
+  "end": 350.38,
+  "text": "workspace."
+ },
+ {
+  "start": 352.78,
+  "end": 358.18,
+  "text": "The the log scratch book shows that the buffer is deleted successfully."
+ },
+ {
+  "start": 358.18,
+  "end": 365.34,
+  "text": "If we see the buffer viewer, the buffer name mybuffer2 is not available now."
+ },
+ {
+  "start": 365.34,
+  "end": 368.62,
+  "text": "Thanks for watching this video."
+ },
+ {
+  "start": 368.62,
+  "end": 372.7,
+  "text": "That's all about Tosca buffers and its usage."
+ },
+ {
+  "start": 372.7,
+  "end": 377.26,
+  "text": "We will learn more about Tosca test case design features to manage test data in"
+ },
+ {
+  "start": 377.26,
+  "end": 377.98,
+  "text": "next video."
+ },
+ {
+  "start": 379.34,
+  "end": 385.18,
+  "text": "Please visit our website lambdageeks.com for more articles on technology, engineering,"
+ },
+ {
+  "start": 385.18,
+  "end": 387.34,
+  "text": "mathematics and various other domain."
+ },
+ {
+  "start": 388.3,
+  "end": 390.38,
+  "text": "You can check our other website as well."
+ },
+ {
+  "start": 392.3,
+  "end": 401.46,
+  "text": "We have features like YouTube Trends, Twitter Trends, Scientific Calculator and many more"
+ },
+ {
+  "start": 401.46,
+  "end": 402.1,
+  "text": "other tools."
+ },
+ {
+  "start": 405.31,
+  "end": 408.35,
+  "text": "If you like our video, please like, comment and share."
+ },
+ {
+  "start": 409.31,
+  "end": 413.39,
+  "text": "If you have any questions, please comment and we will resolve your query."
+ }
+]

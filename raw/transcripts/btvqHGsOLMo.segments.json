@@ -1,0 +1,1472 @@
+[
+ {
+  "start": 4.39,
+  "end": 4.4,
+  "text": "Hey guys, welcome back. So in this"
+ },
+ {
+  "start": 4.4,
+  "end": 7.269,
+  "text": "session we are going to set up Tska"
+ },
+ {
+  "start": 7.279,
+  "end": 9.99,
+  "text": "server and uh we are going to see what"
+ },
+ {
+  "start": 10.0,
+  "end": 13.99,
+  "text": "all services are available. So on this"
+ },
+ {
+  "start": 14.0,
+  "end": 17.349,
+  "text": "picture we see how the TSA architecture"
+ },
+ {
+  "start": 17.359,
+  "end": 21.029,
+  "text": "is uh distributed and uh we are talking"
+ },
+ {
+  "start": 21.039,
+  "end": 24.63,
+  "text": "about the TSA server. Now within TSCA"
+ },
+ {
+  "start": 24.64,
+  "end": 26.23,
+  "text": "server you can see there are lots of"
+ },
+ {
+  "start": 26.24,
+  "end": 30.31,
+  "text": "different services. Um some of them like"
+ },
+ {
+  "start": 30.32,
+  "end": 33.67,
+  "text": "the rest API service, the file service,"
+ },
+ {
+  "start": 33.68,
+  "end": 36.389,
+  "text": "the dex monitor, uh dex server,"
+ },
+ {
+  "start": 36.399,
+  "end": 41.389,
+  "text": "automation object service and uh license"
+ },
+ {
+  "start": 41.399,
+  "end": 43.99,
+  "text": "administration and also authentication"
+ },
+ {
+  "start": 44.0,
+  "end": 47.029,
+  "text": "service. Right? So all of these services"
+ },
+ {
+  "start": 47.039,
+  "end": 50.63,
+  "text": "uh they work from the TSCA server and"
+ },
+ {
+  "start": 50.64,
+  "end": 52.069,
+  "text": "they are connected to different"
+ },
+ {
+  "start": 52.079,
+  "end": 55.35,
+  "text": "components as you can see um across the"
+ },
+ {
+  "start": 55.36,
+  "end": 58.229,
+  "text": "TSka architecture right. So there is the"
+ },
+ {
+  "start": 58.239,
+  "end": 61.67,
+  "text": "database tire um then there is tasks CI"
+ },
+ {
+  "start": 61.68,
+  "end": 65.23,
+  "text": "client which helps uh in building CI/CD"
+ },
+ {
+  "start": 65.24,
+  "end": 68.39,
+  "text": "pipelines and then there are the agents"
+ },
+ {
+  "start": 68.4,
+  "end": 70.71,
+  "text": "uh DEX agents right which are also"
+ },
+ {
+  "start": 70.72,
+  "end": 74.75,
+  "text": "connected to uh the DEX server uh in TSA"
+ },
+ {
+  "start": 74.76,
+  "end": 77.59,
+  "text": "server and then there's the license tire"
+ },
+ {
+  "start": 77.6,
+  "end": 79.59,
+  "text": "and then there's the TSA commander at"
+ },
+ {
+  "start": 79.6,
+  "end": 83.03,
+  "text": "the end right so all of these are"
+ },
+ {
+  "start": 83.04,
+  "end": 86.469,
+  "text": "connected to each other and uh you have"
+ },
+ {
+  "start": 86.479,
+  "end": 89.19,
+  "text": "to set up TSA server uh if you want to"
+ },
+ {
+  "start": 89.2,
+  "end": 91.59,
+  "text": "manage all of these different components"
+ },
+ {
+  "start": 91.6,
+  "end": 94.87,
+  "text": "within the toka architecture. Okay. So"
+ },
+ {
+  "start": 94.88,
+  "end": 98.149,
+  "text": "we are going to see um how we can uh set"
+ },
+ {
+  "start": 98.159,
+  "end": 100.87,
+  "text": "up toka server and then later on we'll"
+ },
+ {
+  "start": 100.88,
+  "end": 103.91,
+  "text": "also see how you can set up dex agents"
+ },
+ {
+  "start": 103.92,
+  "end": 106.87,
+  "text": "and um how you can then trigger test"
+ },
+ {
+  "start": 106.88,
+  "end": 109.59,
+  "text": "events from the toka commander which"
+ },
+ {
+  "start": 109.6,
+  "end": 112.069,
+  "text": "will then reach to the dex server and"
+ },
+ {
+  "start": 112.079,
+  "end": 114.71,
+  "text": "then um they will be triggered in these"
+ },
+ {
+  "start": 114.72,
+  "end": 117.149,
+  "text": "dex agents."
+ },
+ {
+  "start": 117.159,
+  "end": 121.91,
+  "text": "Okay. So, um to set up Tska server, it's"
+ },
+ {
+  "start": 121.92,
+  "end": 125.95,
+  "text": "not that difficult. Okay."
+ },
+ {
+  "start": 125.96,
+  "end": 130.309,
+  "text": "So, it is pretty similar to how we uh"
+ },
+ {
+  "start": 130.319,
+  "end": 133.75,
+  "text": "set up TSCA commander. Okay. So, we have"
+ },
+ {
+  "start": 133.76,
+  "end": 136.869,
+  "text": "got a .exe and I have downloaded it"
+ },
+ {
+  "start": 136.879,
+  "end": 139.67,
+  "text": "already on my machine. Uh where you can"
+ },
+ {
+  "start": 139.68,
+  "end": 142.39,
+  "text": "get this again. Uh go to the Tricentis"
+ },
+ {
+  "start": 142.4,
+  "end": 144.229,
+  "text": "support portal and go to product"
+ },
+ {
+  "start": 144.239,
+  "end": 148.15,
+  "text": "support. uh go to the relevant TSCA"
+ },
+ {
+  "start": 148.16,
+  "end": 149.99,
+  "text": "version which you want to download. So"
+ },
+ {
+  "start": 150.0,
+  "end": 152.15,
+  "text": "go to the download section. Here you"
+ },
+ {
+  "start": 152.16,
+  "end": 154.71,
+  "text": "will find all the different versions but"
+ },
+ {
+  "start": 154.72,
+  "end": 157.19,
+  "text": "I have picked uh the latest version TSCA"
+ },
+ {
+  "start": 157.2,
+  "end": 161.27,
+  "text": "16. Okay. And uh this is the TSA server."
+ },
+ {
+  "start": 161.28,
+  "end": 163.83,
+  "text": "You can see here just click on this uh"
+ },
+ {
+  "start": 163.84,
+  "end": 166.91,
+  "text": "and it will download that particular"
+ },
+ {
+  "start": 166.92,
+  "end": 171.03,
+  "text": "version. So I have updated my TSA"
+ },
+ {
+  "start": 171.04,
+  "end": 174.47,
+  "text": "commander from 14.3 to 16.0 zero for"
+ },
+ {
+  "start": 174.48,
+  "end": 177.03,
+  "text": "this particular uh session and that is"
+ },
+ {
+  "start": 177.04,
+  "end": 182.07,
+  "text": "because um they don't have uh that old"
+ },
+ {
+  "start": 182.08,
+  "end": 184.39,
+  "text": "um TUSCa server version which is"
+ },
+ {
+  "start": 184.4,
+  "end": 188.229,
+  "text": "available for download here. So"
+ },
+ {
+  "start": 188.239,
+  "end": 190.39,
+  "text": "uh and I thought it's better uh to"
+ },
+ {
+  "start": 190.4,
+  "end": 192.47,
+  "text": "update the TSCA version to the latest"
+ },
+ {
+  "start": 192.48,
+  "end": 195.589,
+  "text": "version. So finally I have done that and"
+ },
+ {
+  "start": 195.599,
+  "end": 200.55,
+  "text": "I've also uh downloaded the TSA 16.0"
+ },
+ {
+  "start": 200.56,
+  "end": 204.79,
+  "text": "server now. Okay. So uh we are going to"
+ },
+ {
+  "start": 204.8,
+  "end": 208.309,
+  "text": "install this now and as I said uh it's"
+ },
+ {
+  "start": 208.319,
+  "end": 211.91,
+  "text": "not pretty complicated um you just need"
+ },
+ {
+  "start": 211.92,
+  "end": 214.869,
+  "text": "to follow uh the software installation"
+ },
+ {
+  "start": 214.879,
+  "end": 217.83,
+  "text": "process right so click on continue it"
+ },
+ {
+  "start": 217.84,
+  "end": 220.309,
+  "text": "will uh install all these prerequisites"
+ },
+ {
+  "start": 220.319,
+  "end": 222.35,
+  "text": "if they are not"
+ },
+ {
+  "start": 222.36,
+  "end": 225.589,
+  "text": "present and then um it will install all"
+ },
+ {
+  "start": 225.599,
+  "end": 227.83,
+  "text": "these different services which we saw in"
+ },
+ {
+  "start": 227.84,
+  "end": 230.55,
+  "text": "the diagram you can see gateway license"
+ },
+ {
+  "start": 230.56,
+  "end": 235.03,
+  "text": "administration DDS is uh AOS distributed"
+ },
+ {
+  "start": 235.04,
+  "end": 238.309,
+  "text": "execution file service REST API. Okay."
+ },
+ {
+  "start": 238.319,
+  "end": 240.07,
+  "text": "So all of these services should be"
+ },
+ {
+  "start": 240.08,
+  "end": 242.67,
+  "text": "available on your"
+ },
+ {
+  "start": 242.68,
+  "end": 245.91,
+  "text": "machine. Um I will choose the default"
+ },
+ {
+  "start": 245.92,
+  "end": 248.71,
+  "text": "location. You can always change it. Uh"
+ },
+ {
+  "start": 248.72,
+  "end": 252.91,
+  "text": "you can select or deselect this"
+ },
+ {
+  "start": 252.92,
+  "end": 256.83,
+  "text": "option. And here uh something important."
+ },
+ {
+  "start": 256.84,
+  "end": 260.229,
+  "text": "So we have two options to set up Tska"
+ },
+ {
+  "start": 260.239,
+  "end": 263.07,
+  "text": "server either through HTTP or"
+ },
+ {
+  "start": 263.08,
+  "end": 267.07,
+  "text": "HTTPS. For HTTPS uh you will require a"
+ },
+ {
+  "start": 267.08,
+  "end": 269.59,
+  "text": "certificate thumbrint. Okay. And it"
+ },
+ {
+  "start": 269.6,
+  "end": 272.87,
+  "text": "should match. So that's what uh is"
+ },
+ {
+  "start": 272.88,
+  "end": 275.67,
+  "text": "required for HTTPS. So I generally"
+ },
+ {
+  "start": 275.68,
+  "end": 279.99,
+  "text": "prefer HTTP for this setup. And uh by"
+ },
+ {
+  "start": 280.0,
+  "end": 284.31,
+  "text": "default port 80 should be um should be"
+ },
+ {
+  "start": 284.32,
+  "end": 286.35,
+  "text": "available if you're installing this on a"
+ },
+ {
+  "start": 286.36,
+  "end": 289.189,
+  "text": "server. Uh so but for me it's not"
+ },
+ {
+  "start": 289.199,
+  "end": 293.99,
+  "text": "available. So I will use 8080. Okay. So"
+ },
+ {
+  "start": 294.0,
+  "end": 296.909,
+  "text": "which matches the local host uh of my"
+ },
+ {
+  "start": 296.919,
+  "end": 299.79,
+  "text": "server or this"
+ },
+ {
+  "start": 299.8,
+  "end": 302.07,
+  "text": "machine. And then I'm going to click"
+ },
+ {
+  "start": 302.08,
+  "end": 305.03,
+  "text": "next. This is the install location for"
+ },
+ {
+  "start": 305.04,
+  "end": 307.67,
+  "text": "file service."
+ },
+ {
+  "start": 307.68,
+  "end": 309.909,
+  "text": "And these are all the services. Okay."
+ },
+ {
+  "start": 309.919,
+  "end": 312.749,
+  "text": "And it will start uh installing"
+ },
+ {
+  "start": 312.759,
+  "end": 315.99,
+  "text": "now. So one thing uh to note is I'm"
+ },
+ {
+  "start": 316.0,
+  "end": 318.71,
+  "text": "doing all this setup on my local. So"
+ },
+ {
+  "start": 318.72,
+  "end": 321.11,
+  "text": "both TSCA commander and server would be"
+ },
+ {
+  "start": 321.12,
+  "end": 323.43,
+  "text": "running in my local. Uh it's not a"
+ },
+ {
+  "start": 323.44,
+  "end": 325.99,
+  "text": "recommended setup for a production like"
+ },
+ {
+  "start": 326.0,
+  "end": 329.27,
+  "text": "environment. It is just for uh demo and"
+ },
+ {
+  "start": 329.28,
+  "end": 332.629,
+  "text": "practice. Uh we are looking at this but"
+ },
+ {
+  "start": 332.639,
+  "end": 334.31,
+  "text": "uh you can get a different Windows"
+ },
+ {
+  "start": 334.32,
+  "end": 337.59,
+  "text": "server, right? uh and make sure it is it"
+ },
+ {
+  "start": 337.6,
+  "end": 340.23,
+  "text": "is of uh higher configuration because"
+ },
+ {
+  "start": 340.24,
+  "end": 343.749,
+  "text": "Tska server does take up uh little more"
+ },
+ {
+  "start": 343.759,
+  "end": 346.23,
+  "text": "resources than uh Tska commander because"
+ },
+ {
+  "start": 346.24,
+  "end": 348.87,
+  "text": "so many services are running okay so"
+ },
+ {
+  "start": 348.88,
+  "end": 351.59,
+  "text": "it's better to have a TSCA server uh a"
+ },
+ {
+  "start": 351.6,
+  "end": 355.749,
+  "text": "dedicated uh server for TSA server okay"
+ },
+ {
+  "start": 355.759,
+  "end": 359.23,
+  "text": "which could be a windows uh windows"
+ },
+ {
+  "start": 359.24,
+  "end": 361.83,
+  "text": "server and uh this could be a physical"
+ },
+ {
+  "start": 361.84,
+  "end": 364.55,
+  "text": "server or a cloud server uh it's up to"
+ },
+ {
+  "start": 364.56,
+  "end": 367.83,
+  "text": "too. But uh it should be a dedicated"
+ },
+ {
+  "start": 367.84,
+  "end": 371.749,
+  "text": "server uh mostly. Okay. And uh when you"
+ },
+ {
+  "start": 371.759,
+  "end": 374.71,
+  "text": "work in real projects, you will have"
+ },
+ {
+  "start": 374.72,
+  "end": 378.07,
+  "text": "these servers which are dedicated for a"
+ },
+ {
+  "start": 378.08,
+  "end": 380.55,
+  "text": "TSCA server and then you will have"
+ },
+ {
+  "start": 380.56,
+  "end": 383.11,
+  "text": "different machines for TSK commanders"
+ },
+ {
+  "start": 383.12,
+  "end": 386.07,
+  "text": "and then different machines for TOS TSA"
+ },
+ {
+  "start": 386.08,
+  "end": 388.469,
+  "text": "DEX agents. Right? So these are the"
+ },
+ {
+  "start": 388.479,
+  "end": 390.87,
+  "text": "three main components uh which you need"
+ },
+ {
+  "start": 390.88,
+  "end": 394.55,
+  "text": "to set up uh in your infrastructure and"
+ },
+ {
+  "start": 394.56,
+  "end": 397.749,
+  "text": "uh that way uh it will be better to"
+ },
+ {
+  "start": 397.759,
+  "end": 400.55,
+  "text": "manage and also it will be efficient and"
+ },
+ {
+  "start": 400.56,
+  "end": 403.99,
+  "text": "faster. Okay. But for practice purpose,"
+ },
+ {
+  "start": 404.0,
+  "end": 406.629,
+  "text": "you can always go ahead and uh set up"
+ },
+ {
+  "start": 406.639,
+  "end": 409.909,
+  "text": "TSA server on your machine if your"
+ },
+ {
+  "start": 409.919,
+  "end": 413.67,
+  "text": "resources are good and it can handle um"
+ },
+ {
+  "start": 413.68,
+  "end": 416.55,
+  "text": "this load of both TSA server and"
+ },
+ {
+  "start": 416.56,
+  "end": 420.51,
+  "text": "commander uh running at the same time."
+ },
+ {
+  "start": 420.52,
+  "end": 423.67,
+  "text": "Okay. So this will take some time uh to"
+ },
+ {
+  "start": 423.68,
+  "end": 427.029,
+  "text": "install um all the services. So let's"
+ },
+ {
+  "start": 427.039,
+  "end": 453.83,
+  "text": "wait until this is finished."
+ },
+ {
+  "start": 455.909,
+  "end": 455.919,
+  "text": "If you want to follow along then uh go"
+ },
+ {
+  "start": 455.919,
+  "end": 459.35,
+  "text": "ahead and download the TSA server 16.0"
+ },
+ {
+  "start": 459.36,
+  "end": 463.43,
+  "text": "or any other version. Uh it should match"
+ },
+ {
+  "start": 463.44,
+  "end": 465.51,
+  "text": "uh whatever TSA commander version you"
+ },
+ {
+  "start": 465.52,
+  "end": 468.309,
+  "text": "have uh on your machine currently. So"
+ },
+ {
+  "start": 468.319,
+  "end": 470.87,
+  "text": "either upgrade it to 16 and then uh"
+ },
+ {
+  "start": 470.88,
+  "end": 474.55,
+  "text": "install 16 or um download the server"
+ },
+ {
+  "start": 474.56,
+  "end": 477.11,
+  "text": "version which is available on the"
+ },
+ {
+  "start": 477.12,
+  "end": 479.67,
+  "text": "support portal and which matches the"
+ },
+ {
+  "start": 479.68,
+  "end": 482.39,
+  "text": "commander version. Okay. Uh so that is"
+ },
+ {
+  "start": 482.4,
+  "end": 518.949,
+  "text": "important."
+ },
+ {
+  "start": 520.87,
+  "end": 520.88,
+  "text": "So as you can see the installation was"
+ },
+ {
+  "start": 520.88,
+  "end": 523.829,
+  "text": "completed uh without any problem. It is"
+ },
+ {
+  "start": 523.839,
+  "end": 526.31,
+  "text": "going to open the TSA server in your"
+ },
+ {
+  "start": 526.32,
+  "end": 528.79,
+  "text": "browser and also the settings page."
+ },
+ {
+  "start": 528.8,
+  "end": 531.67,
+  "text": "Okay. Uh we will look into both of these"
+ },
+ {
+  "start": 531.68,
+  "end": 538.15,
+  "text": "pages and what it means. Okay. So uh"
+ },
+ {
+  "start": 538.16,
+  "end": 541.11,
+  "text": "while managing the TSCA server um either"
+ },
+ {
+  "start": 541.12,
+  "end": 544.949,
+  "text": "as an admin okay or as an user uh who"
+ },
+ {
+  "start": 544.959,
+  "end": 548.07,
+  "text": "has got this access to this server you"
+ },
+ {
+  "start": 548.08,
+  "end": 549.75,
+  "text": "need to look at all these different"
+ },
+ {
+  "start": 549.76,
+  "end": 553.35,
+  "text": "services okay. So this is the Tska"
+ },
+ {
+  "start": 553.36,
+  "end": 556.71,
+  "text": "dashboard you can say and uh it contains"
+ },
+ {
+  "start": 556.72,
+  "end": 559.99,
+  "text": "some of the uh services which are"
+ },
+ {
+  "start": 560.0,
+  "end": 563.19,
+  "text": "important for Tska server also when you"
+ },
+ {
+  "start": 563.2,
+  "end": 565.43,
+  "text": "click on this settings. Okay. So, it"
+ },
+ {
+  "start": 565.44,
+  "end": 569.43,
+  "text": "opens this settings page and uh here you"
+ },
+ {
+  "start": 569.44,
+  "end": 571.67,
+  "text": "can see all the different ports and"
+ },
+ {
+  "start": 571.68,
+  "end": 574.87,
+  "text": "configurations for each service. Okay."
+ },
+ {
+  "start": 574.88,
+  "end": 576.63,
+  "text": "Which if you want to change you can"
+ },
+ {
+  "start": 576.64,
+  "end": 577.87,
+  "text": "change it"
+ },
+ {
+  "start": 577.88,
+  "end": 580.15,
+  "text": "here. And as soon as you change"
+ },
+ {
+  "start": 580.16,
+  "end": 583.43,
+  "text": "something uh you click on save then this"
+ },
+ {
+  "start": 583.44,
+  "end": 586.23,
+  "text": "service is going to be restarted. So if"
+ },
+ {
+  "start": 586.24,
+  "end": 588.31,
+  "text": "something is not available or not"
+ },
+ {
+  "start": 588.32,
+  "end": 591.269,
+  "text": "running here right. So all the services"
+ },
+ {
+  "start": 591.279,
+  "end": 593.43,
+  "text": "should be in running state if you are"
+ },
+ {
+  "start": 593.44,
+  "end": 596.07,
+  "text": "currently using it. If something is not"
+ },
+ {
+  "start": 596.08,
+  "end": 597.91,
+  "text": "running you can come here and click on"
+ },
+ {
+  "start": 597.92,
+  "end": 599.949,
+  "text": "save. It is going to restart the"
+ },
+ {
+  "start": 599.959,
+  "end": 603.269,
+  "text": "services. Okay. And after that uh it"
+ },
+ {
+  "start": 603.279,
+  "end": 605.55,
+  "text": "should be in the running"
+ },
+ {
+  "start": 605.56,
+  "end": 608.55,
+  "text": "state. Um you're not going to use all of"
+ },
+ {
+  "start": 608.56,
+  "end": 610.949,
+  "text": "the services but whatever services you"
+ },
+ {
+  "start": 610.959,
+  "end": 613.91,
+  "text": "are using so uh do take care of the"
+ },
+ {
+  "start": 613.92,
+  "end": 616.87,
+  "text": "ports where they are running right. So"
+ },
+ {
+  "start": 616.88,
+  "end": 619.67,
+  "text": "these are all the endpoint URLs like for"
+ },
+ {
+  "start": 619.68,
+  "end": 621.87,
+  "text": "text this is the endpoint URL"
+ },
+ {
+  "start": 621.88,
+  "end": 623.55,
+  "text": "currently."
+ },
+ {
+  "start": 623.56,
+  "end": 628.23,
+  "text": "Um and similarly every service has got a"
+ },
+ {
+  "start": 628.24,
+  "end": 630.63,
+  "text": "particular port. Okay. And that port"
+ },
+ {
+  "start": 630.64,
+  "end": 632.47,
+  "text": "should be available on that particular"
+ },
+ {
+  "start": 632.48,
+  "end": 635.43,
+  "text": "machine or server otherwise your service"
+ },
+ {
+  "start": 635.44,
+  "end": 639.19,
+  "text": "would be affected. Okay. Now the other"
+ },
+ {
+  "start": 639.2,
+  "end": 643.829,
+  "text": "way uh to restart your services is you"
+ },
+ {
+  "start": 643.839,
+  "end": 647.069,
+  "text": "can also go to your task manager."
+ },
+ {
+  "start": 647.079,
+  "end": 650.03,
+  "text": "Okay. And there uh you will go to"
+ },
+ {
+  "start": 650.04,
+  "end": 654.069,
+  "text": "services and go to tricentis and you"
+ },
+ {
+  "start": 654.079,
+  "end": 656.03,
+  "text": "will find all the different services"
+ },
+ {
+  "start": 656.04,
+  "end": 660.31,
+  "text": "here. And I can either stop or start"
+ },
+ {
+  "start": 660.32,
+  "end": 662.87,
+  "text": "this particular service. Okay. like this"
+ },
+ {
+  "start": 662.88,
+  "end": 666.87,
+  "text": "one. I can start this service although I"
+ },
+ {
+  "start": 666.88,
+  "end": 670.55,
+  "text": "may not be using it. Okay. I can also go"
+ },
+ {
+  "start": 670.56,
+  "end": 673.31,
+  "text": "ahead and restart any particular"
+ },
+ {
+  "start": 673.32,
+  "end": 676.47,
+  "text": "service. So when you restart it goes to"
+ },
+ {
+  "start": 676.48,
+  "end": 681.269,
+  "text": "stop and then starts running. Okay. Um"
+ },
+ {
+  "start": 681.279,
+  "end": 685.269,
+  "text": "and similarly you can also go and search"
+ },
+ {
+  "start": 685.279,
+  "end": 688.31,
+  "text": "for services. Okay. Here it's the same"
+ },
+ {
+  "start": 688.32,
+  "end": 690.59,
+  "text": "thing but"
+ },
+ {
+  "start": 690.6,
+  "end": 694.389,
+  "text": "um from Windows you can find your which"
+ },
+ {
+  "start": 694.399,
+  "end": 698.71,
+  "text": "service you want to restart and all the"
+ },
+ {
+  "start": 698.72,
+  "end": 701.35,
+  "text": "services are listed here uh and their"
+ },
+ {
+  "start": 701.36,
+  "end": 704.069,
+  "text": "status. So you can monitor your services"
+ },
+ {
+  "start": 704.079,
+  "end": 706.71,
+  "text": "right from here and restart if they are"
+ },
+ {
+  "start": 706.72,
+  "end": 709.79,
+  "text": "not in running state."
+ },
+ {
+  "start": 709.8,
+  "end": 713.67,
+  "text": "Okay. So there are three ways you can uh"
+ },
+ {
+  "start": 713.68,
+  "end": 717.15,
+  "text": "maintain your uh TSA server"
+ },
+ {
+  "start": 717.16,
+  "end": 719.63,
+  "text": "services. And coming"
+ },
+ {
+  "start": 719.64,
+  "end": 723.23,
+  "text": "back to"
+ },
+ {
+  "start": 726.55,
+  "end": 726.56,
+  "text": "our our TSA dashboard, uh you can see"
+ },
+ {
+  "start": 726.56,
+  "end": 729.67,
+  "text": "all the major services here like the TDS"
+ },
+ {
+  "start": 729.68,
+  "end": 732.31,
+  "text": "test data services. This is the license"
+ },
+ {
+  "start": 732.32,
+  "end": 733.99,
+  "text": "administration. This is the user"
+ },
+ {
+  "start": 734.0,
+  "end": 735.75,
+  "text": "administration and this is the"
+ },
+ {
+  "start": 735.76,
+  "end": 739.59,
+  "text": "administration console. Okay. Um and one"
+ },
+ {
+  "start": 739.6,
+  "end": 741.509,
+  "text": "of the important ones we are going to"
+ },
+ {
+  "start": 741.519,
+  "end": 744.71,
+  "text": "look at is distributed execution. Okay."
+ },
+ {
+  "start": 744.72,
+  "end": 747.35,
+  "text": "Uh which is also known as text. We are"
+ },
+ {
+  "start": 747.36,
+  "end": 749.269,
+  "text": "going to talk about this. Um and when"
+ },
+ {
+  "start": 749.279,
+  "end": 751.269,
+  "text": "you click on this it actually takes you"
+ },
+ {
+  "start": 751.279,
+  "end": 755.829,
+  "text": "to the monitor. Okay. And in the monitor"
+ },
+ {
+  "start": 755.839,
+  "end": 758.629,
+  "text": "uh this is a web page where you can"
+ },
+ {
+  "start": 758.639,
+  "end": 762.55,
+  "text": "monitor your uh all your test events"
+ },
+ {
+  "start": 762.56,
+  "end": 765.99,
+  "text": "which are triggered through DEX okay on"
+ },
+ {
+  "start": 766.0,
+  "end": 769.03,
+  "text": "different agents. So if you have set up"
+ },
+ {
+  "start": 769.04,
+  "end": 771.91,
+  "text": "any particular agent, it will be uh"
+ },
+ {
+  "start": 771.92,
+  "end": 774.23,
+  "text": "available in the agent view. Here you"
+ },
+ {
+  "start": 774.24,
+  "end": 777.11,
+  "text": "can see all the agents which are set up"
+ },
+ {
+  "start": 777.12,
+  "end": 779.75,
+  "text": "and connected to the TSA machine. Okay."
+ },
+ {
+  "start": 779.76,
+  "end": 781.629,
+  "text": "Or TSCA different"
+ },
+ {
+  "start": 781.639,
+  "end": 784.15,
+  "text": "commanders. Um so all the agents which"
+ },
+ {
+  "start": 784.16,
+  "end": 786.23,
+  "text": "you set up they will be available here."
+ },
+ {
+  "start": 786.24,
+  "end": 789.91,
+  "text": "You can see their state whether they are"
+ },
+ {
+  "start": 789.92,
+  "end": 792.71,
+  "text": "running or they are in some error state."
+ },
+ {
+  "start": 792.72,
+  "end": 794.55,
+  "text": "So you can monitor everything here. You"
+ },
+ {
+  "start": 794.56,
+  "end": 796.55,
+  "text": "can also restart all the agents from"
+ },
+ {
+  "start": 796.56,
+  "end": 799.03,
+  "text": "here. Right? So currently I don't have"
+ },
+ {
+  "start": 799.04,
+  "end": 801.67,
+  "text": "any agents running. So it is showing uh"
+ },
+ {
+  "start": 801.68,
+  "end": 804.629,
+  "text": "zero agents. Um also in the event"
+ },
+ {
+  "start": 804.639,
+  "end": 806.389,
+  "text": "whatever test events we are going to"
+ },
+ {
+  "start": 806.399,
+  "end": 808.389,
+  "text": "trigger uh whether they are passing,"
+ },
+ {
+  "start": 808.399,
+  "end": 810.15,
+  "text": "they are in running state or they are"
+ },
+ {
+  "start": 810.16,
+  "end": 814.55,
+  "text": "failing right. So everything will be you"
+ },
+ {
+  "start": 814.56,
+  "end": 817.03,
+  "text": "can monitor it right here or you can"
+ },
+ {
+  "start": 817.04,
+  "end": 819.91,
+  "text": "also uh stop those test events if you"
+ },
+ {
+  "start": 819.92,
+  "end": 822.949,
+  "text": "don't want them to run right from here."
+ },
+ {
+  "start": 822.959,
+  "end": 825.19,
+  "text": "Okay. So this is called uh the event"
+ },
+ {
+  "start": 825.2,
+  "end": 828.31,
+  "text": "monitor. It is part of the TSCA server."
+ },
+ {
+  "start": 828.32,
+  "end": 830.389,
+  "text": "So once you set up Tska server, this"
+ },
+ {
+  "start": 830.399,
+  "end": 833.35,
+  "text": "event monitor URL would be available for"
+ },
+ {
+  "start": 833.36,
+  "end": 837.069,
+  "text": "you."
+ },
+ {
+  "start": 841.35,
+  "end": 841.36,
+  "text": "Okay. Right. Um so this was all about"
+ },
+ {
+  "start": 841.36,
+  "end": 844.87,
+  "text": "the TSA server. Um obviously there are"
+ },
+ {
+  "start": 844.88,
+  "end": 846.629,
+  "text": "lots of different configurations which"
+ },
+ {
+  "start": 846.639,
+  "end": 849.509,
+  "text": "you need to do if you want to work. Uh"
+ },
+ {
+  "start": 849.519,
+  "end": 851.59,
+  "text": "we'll see one of them. uh for"
+ },
+ {
+  "start": 851.6,
+  "end": 854.55,
+  "text": "distributed execution we need to change"
+ },
+ {
+  "start": 854.56,
+  "end": 858.23,
+  "text": "some configurations um and all of it"
+ },
+ {
+  "start": 858.24,
+  "end": 863.59,
+  "text": "would be uh done on C program files. So"
+ },
+ {
+  "start": 863.6,
+  "end": 865.75,
+  "text": "you can go to that location where your"
+ },
+ {
+  "start": 865.76,
+  "end": 868.87,
+  "text": "TSA server is currently present. Go to"
+ },
+ {
+  "start": 868.88,
+  "end": 872.03,
+  "text": "tricentis tuska server and here you will"
+ },
+ {
+  "start": 872.04,
+  "end": 874.79,
+  "text": "find all the folders for all the"
+ },
+ {
+  "start": 874.8,
+  "end": 877.43,
+  "text": "different services and inside this you"
+ },
+ {
+  "start": 877.44,
+  "end": 879.91,
+  "text": "will find different configuration files"
+ },
+ {
+  "start": 879.92,
+  "end": 882.47,
+  "text": "um which you might need to tweak in"
+ },
+ {
+  "start": 882.48,
+  "end": 886.269,
+  "text": "order to um get it running uh for you."
+ },
+ {
+  "start": 886.279,
+  "end": 889.03,
+  "text": "Okay. So here we have also got the dex"
+ },
+ {
+  "start": 889.04,
+  "end": 892.069,
+  "text": "monitor and dex server you can see."
+ },
+ {
+  "start": 892.079,
+  "end": 894.79,
+  "text": "Okay. So we are going to see um how you"
+ },
+ {
+  "start": 894.8,
+  "end": 897.629,
+  "text": "can change some configurations here uh"
+ },
+ {
+  "start": 897.639,
+  "end": 900.91,
+  "text": "in while we talk about the distributed"
+ },
+ {
+  "start": 900.92,
+  "end": 902.75,
+  "text": "execution."
+ },
+ {
+  "start": 902.76,
+  "end": 906.629,
+  "text": "Okay. So this was all about uh TSA"
+ },
+ {
+  "start": 906.639,
+  "end": 908.55,
+  "text": "server. How you can set it up, how you"
+ },
+ {
+  "start": 908.56,
+  "end": 911.35,
+  "text": "can maintain your TSA server and all the"
+ },
+ {
+  "start": 911.36,
+  "end": 913.03,
+  "text": "different services which are running"
+ },
+ {
+  "start": 913.04,
+  "end": 916.31,
+  "text": "with TSCA server and also uh you can"
+ },
+ {
+  "start": 916.32,
+  "end": 920.069,
+  "text": "view the DEX monitor right from a URL um"
+ },
+ {
+  "start": 920.079,
+  "end": 923.35,
+  "text": "or from your dashboard. Okay. So this is"
+ },
+ {
+  "start": 923.36,
+  "end": 925.629,
+  "text": "the TSA"
+ },
+ {
+  "start": 925.639,
+  "end": 927.99,
+  "text": "dashboard. Yeah. And next we are going"
+ },
+ {
+  "start": 928.0,
+  "end": 930.79,
+  "text": "to talk about the distribution services"
+ },
+ {
+  "start": 930.8,
+  "end": 934.949,
+  "text": "or uh the distribution execution. So"
+ },
+ {
+  "start": 934.959,
+  "end": 938.839,
+  "text": "which is known as text."
+ }
+]

@@ -1,6 +1,96 @@
 {
   "videos": [
     {
+      "id": "qTmnXrP3Dqw",
+      "title": "Tosca Testing Tutorial Part 1:  What is Tosca, Tosca, Architecture, Introduction",
+      "url": "https://www.youtube.com/watch?v=qTmnXrP3Dqw",
+      "playlist": "Tosca Tutorial from Scratch",
+      "playlist_index": 1,
+      "duration": 505,
+      "transcript": "raw/transcripts/qTmnXrP3Dqw.md",
+      "source": "whisper:medium",
+      "ingested_at": "2026-09-04T08:38:55Z",
+      "docs": [
+        "getting-started/architecture",
+        "getting-started/what-is-tosca"
+      ]
+    },
+    {
+      "id": "gw1m7U_8xGg",
+      "title": "Tricentis Tosca Tutorial Part 2:  Download Tosca, Install Tosca, Activate Tosca Trial license",
+      "url": "https://www.youtube.com/watch?v=gw1m7U_8xGg",
+      "playlist": "Tosca Tutorial from Scratch",
+      "playlist_index": 2,
+      "duration": 697,
+      "transcript": "raw/transcripts/gw1m7U_8xGg.md",
+      "source": "whisper:medium",
+      "ingested_at": "2026-09-04T08:42:22Z",
+      "docs": [
+        "getting-started/installation",
+        "getting-started/licensing"
+      ]
+    },
+    {
+      "id": "c-VgJF2i1mU",
+      "title": "Tricentis Tosca Tutorial Part-3 : Tosca Initial Project Setup, Tosca Workspace Overview & Creation",
+      "url": "https://www.youtube.com/watch?v=c-VgJF2i1mU",
+      "playlist": "Tosca Tutorial from Scratch",
+      "playlist_index": 3,
+      "duration": 580,
+      "transcript": "raw/transcripts/c-VgJF2i1mU.md",
+      "source": "whisper:medium",
+      "ingested_at": "2026-09-04T08:46:00Z",
+      "docs": [
+        "getting-started/commander-overview",
+        "getting-started/workspace-and-project-setup"
+      ]
+    },
+    {
+      "id": "deY38EHGvNs",
+      "title": "Tricentis Tosca Tutorial Part-4 : Tosca Module Creation, Tosca Xscan, Tosca Modules Overview",
+      "url": "https://www.youtube.com/watch?v=deY38EHGvNs",
+      "playlist": "Tosca Tutorial from Scratch",
+      "playlist_index": 4,
+      "duration": 789,
+      "transcript": "raw/transcripts/deY38EHGvNs.md",
+      "source": "whisper:medium",
+      "ingested_at": "2026-09-04T08:50:45Z",
+      "docs": [
+        "modules/control-identification",
+        "modules/modules-overview",
+        "modules/xscan"
+      ]
+    },
+    {
+      "id": "TMfn5am9x-c",
+      "title": "Tricentis Tosca Tutorial Part-5 : Tosca Test Case, Tosca Test Case Design and Best Practices",
+      "url": "https://www.youtube.com/watch?v=TMfn5am9x-c",
+      "playlist": "Tosca Tutorial from Scratch",
+      "playlist_index": 5,
+      "duration": 738,
+      "transcript": "raw/transcripts/TMfn5am9x-c.md",
+      "source": "whisper:medium",
+      "ingested_at": "2026-09-04T08:54:50Z",
+      "docs": [
+        "test-cases/test-case-basics"
+      ]
+    },
+    {
+      "id": "mFptsa3Wuts",
+      "title": "Tricentis Tosca Tutorial Part-6 : Tosca Execution, Tosca Execution List, Dokusnapper",
+      "url": "https://www.youtube.com/watch?v=mFptsa3Wuts",
+      "playlist": "Tosca Tutorial from Scratch",
+      "playlist_index": 6,
+      "duration": 516,
+      "transcript": "raw/transcripts/mFptsa3Wuts.md",
+      "source": "whisper:medium",
+      "ingested_at": "2026-09-04T08:57:56Z",
+      "docs": [
+        "execution/dokusnapper",
+        "execution/execution-lists"
+      ]
+    },
+    {
       "id": "k_paxCad6Kw",
       "title": "Tricentis Tosca Tutorial Part-7: Tosca Parameters,Tosca Configuration Parameter",
       "url": "https://www.youtube.com/watch?v=k_paxCad6Kw",
@@ -9,8 +99,2393 @@
       "duration": 353,
       "transcript": "raw/transcripts/k_paxCad6Kw.md",
       "source": "whisper:medium",
-      "ingested_at": "2026-09-04T07:55:28Z",
+      "ingested_at": "2026-09-04T08:59:57Z",
+      "docs": [
+        "data-and-parameters/test-configuration-parameters"
+      ]
+    },
+    {
+      "id": "5kWTxvxcfXQ",
+      "title": "Tricentis Tosca Tutorial Part-8: Tosca Business Parameters,Tosca Library,Reusable TestStepBlocks",
+      "url": "https://www.youtube.com/watch?v=5kWTxvxcfXQ",
+      "playlist": "Tosca Tutorial from Scratch",
+      "playlist_index": 8,
+      "duration": 380,
+      "transcript": "raw/transcripts/5kWTxvxcfXQ.md",
+      "source": "whisper:medium",
+      "ingested_at": "2026-09-04T09:02:07Z",
+      "docs": [
+        "data-and-parameters/business-parameters-and-libraries"
+      ]
+    },
+    {
+      "id": "cTqAz-nwRV8",
+      "title": "Tricentis Tosca Tutorial Part-9 : Tosca Buffer",
+      "url": "https://www.youtube.com/watch?v=cTqAz-nwRV8",
+      "playlist": "Tosca Tutorial from Scratch",
+      "playlist_index": 9,
+      "duration": 415,
+      "transcript": "raw/transcripts/cTqAz-nwRV8.md",
+      "source": "whisper:medium",
+      "ingested_at": "2026-09-04T09:04:59Z",
+      "docs": [
+        "data-and-parameters/buffers"
+      ]
+    },
+    {
+      "id": "VeG0TLkQM8g",
+      "title": "Tricentis Tosca Tutorial Part-10 : Tosca Test Case Design, Tosca Class",
+      "url": "https://www.youtube.com/watch?v=VeG0TLkQM8g",
+      "playlist": "Tosca Tutorial from Scratch",
+      "playlist_index": 10,
+      "duration": 797,
+      "transcript": "raw/transcripts/VeG0TLkQM8g.md",
+      "source": "whisper:medium",
+      "ingested_at": "2026-09-04T09:09:22Z",
+      "docs": [
+        "test-case-design/design-classes",
+        "test-case-design/templates-and-instantiation",
+        "test-case-design/test-case-design-overview"
+      ]
+    },
+    {
+      "id": "H4Khubsu95g",
+      "title": "Tricentis Tosca Tutorial Part-11: Tosca Action Modes-Input,Verify,Constraint, Dynamic Buffer",
+      "url": "https://www.youtube.com/watch?v=H4Khubsu95g",
+      "playlist": "Tosca Tutorial from Scratch",
+      "playlist_index": 11,
+      "duration": 665,
+      "transcript": "raw/transcripts/H4Khubsu95g.md",
+      "source": "whisper:medium",
+      "ingested_at": "2026-09-04T09:12:55Z",
+      "docs": [
+        "test-cases/action-modes"
+      ]
+    },
+    {
+      "id": "hJ395Eb3dng",
+      "title": "Tricentis Tosca Tutorial Part-12: Tosca Api Testing and TOSCA Scan | Tosca Api Automation",
+      "url": "https://www.youtube.com/watch?v=hJ395Eb3dng",
+      "playlist": "Tosca Tutorial from Scratch",
+      "playlist_index": 12,
+      "duration": 515,
+      "transcript": "raw/transcripts/hJ395Eb3dng.md",
+      "source": "whisper:medium",
+      "ingested_at": "2026-09-04T09:16:24Z",
+      "docs": [
+        "api-testing/api-scan-basics"
+      ]
+    },
+    {
+      "id": "NXR5dZ-DYHw",
+      "title": "Tricentis Tosca Tutorial Part-13: Advance Tosca Api Testing And Tosca API Test Case",
+      "url": "https://www.youtube.com/watch?v=NXR5dZ-DYHw",
+      "playlist": "Tosca Tutorial from Scratch",
+      "playlist_index": 13,
+      "duration": 785,
+      "transcript": "raw/transcripts/NXR5dZ-DYHw.md",
+      "source": "whisper:medium",
+      "ingested_at": "2026-09-04T09:22:27Z",
+      "docs": [
+        "api-testing/api-test-cases"
+      ]
+    },
+    {
+      "id": "qeYPDWYYEX4",
+      "title": "Tricentis Tosca Tutorial Part-14: Tosca User Management, Tosca User Group, Tosca Password Reset",
+      "url": "https://www.youtube.com/watch?v=qeYPDWYYEX4",
+      "playlist": "Tosca Tutorial from Scratch",
+      "playlist_index": 14,
+      "duration": 553,
+      "transcript": "raw/transcripts/qeYPDWYYEX4.md",
+      "source": "whisper:medium",
+      "ingested_at": "2026-09-04T09:26:53Z",
+      "docs": [
+        "administration/users-and-groups"
+      ]
+    },
+    {
+      "id": "4At7coUGDJU",
+      "title": "Tosca Tutorial | Lesson 1 - Introduction To Tosca | What is Tosca | Codeless Automation Tool |",
+      "url": "https://www.youtube.com/watch?v=4At7coUGDJU",
+      "playlist": "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification",
+      "playlist_index": 1,
+      "duration": 535,
+      "transcript": "raw/transcripts/4At7coUGDJU.md",
+      "source": "youtube-subs",
+      "ingested_at": "2026-09-04T07:57:30Z",
+      "docs": [
+        "getting-started/architecture",
+        "getting-started/what-is-tosca"
+      ]
+    },
+    {
+      "id": "9FwDDivrNT4",
+      "title": "Tosca Tutorial - New features released in latest version of Tosca 16.0",
+      "url": "https://www.youtube.com/watch?v=9FwDDivrNT4",
+      "playlist": "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification",
+      "playlist_index": 2,
+      "duration": 1713,
+      "transcript": "raw/transcripts/9FwDDivrNT4.md",
+      "source": "youtube-subs",
+      "ingested_at": "2026-09-04T08:30:50Z",
+      "docs": [
+        "getting-started/whats-new-in-tosca-16"
+      ]
+    },
+    {
+      "id": "EoTAKgbeB8Y",
+      "title": "Tosca Tutorial | Lesson 2 - How to get a free cloud training license? | Free License |",
+      "url": "https://www.youtube.com/watch?v=EoTAKgbeB8Y",
+      "playlist": "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification",
+      "playlist_index": 3,
+      "duration": 630,
+      "transcript": "raw/transcripts/EoTAKgbeB8Y.md",
+      "source": "youtube-subs",
+      "ingested_at": "2026-09-04T07:57:39Z",
+      "docs": [
+        "getting-started/licensing"
+      ]
+    },
+    {
+      "id": "8OJHR-hCSNM",
+      "title": "Tosca Tutorial - Setup Tricentis Tosca With Trial Cloud License (Latest Video)",
+      "url": "https://www.youtube.com/watch?v=8OJHR-hCSNM",
+      "playlist": "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification",
+      "playlist_index": 4,
+      "duration": 411,
+      "transcript": "raw/transcripts/8OJHR-hCSNM.md",
+      "source": "youtube-subs",
+      "ingested_at": "2026-09-04T07:58:10Z",
+      "docs": [
+        "getting-started/installation",
+        "getting-started/licensing"
+      ]
+    },
+    {
+      "id": "qzYWlZJ8oac",
+      "title": "Tosca Tutorial | Lesson 3 - Setup Tosca 16 | AWS EC2 | Virtual Windows Server | Cloud |",
+      "url": "https://www.youtube.com/watch?v=qzYWlZJ8oac",
+      "playlist": "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification",
+      "playlist_index": 5,
+      "duration": 1612,
+      "transcript": "raw/transcripts/qzYWlZJ8oac.md",
+      "source": "youtube-subs",
+      "ingested_at": "2026-09-04T07:58:14Z",
+      "docs": [
+        "getting-started/installation",
+        "getting-started/workspace-and-project-setup"
+      ]
+    },
+    {
+      "id": "U9X3juv6tz4",
+      "title": "Tosca Tutorial | Lesson 4 - Tosca Commander Overview | Execute First Test Case | Test Results |",
+      "url": "https://www.youtube.com/watch?v=U9X3juv6tz4",
+      "playlist": "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification",
+      "playlist_index": 6,
+      "duration": 683,
+      "transcript": "raw/transcripts/U9X3juv6tz4.md",
+      "source": "youtube-subs",
+      "ingested_at": "2026-09-04T07:58:20Z",
+      "docs": [
+        "getting-started/commander-overview",
+        "getting-started/first-test-case"
+      ]
+    },
+    {
+      "id": "6Z-XkFoVoxw",
+      "title": "Tosca Tutorial | Lesson 5 - Create First Test Case | Tosca Commander | New Workspace |",
+      "url": "https://www.youtube.com/watch?v=6Z-XkFoVoxw",
+      "playlist": "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification",
+      "playlist_index": 7,
+      "duration": 1537,
+      "transcript": "raw/transcripts/6Z-XkFoVoxw.md",
+      "source": "youtube-subs",
+      "ingested_at": "2026-09-04T07:58:26Z",
+      "docs": [
+        "getting-started/commander-overview",
+        "getting-started/first-test-case",
+        "getting-started/workspace-and-project-setup"
+      ]
+    },
+    {
+      "id": "Hy7xq4YP-Eo",
+      "title": "Tosca Tutorial | Lesson 6 - Identify Controls By Anchor | Scan Modules |",
+      "url": "https://www.youtube.com/watch?v=Hy7xq4YP-Eo",
+      "playlist": "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification",
+      "playlist_index": 8,
+      "duration": 634,
+      "transcript": "raw/transcripts/Hy7xq4YP-Eo.md",
+      "source": "youtube-subs",
+      "ingested_at": "2026-09-04T07:58:32Z",
+      "docs": [
+        "modules/control-identification",
+        "modules/xscan"
+      ]
+    },
+    {
+      "id": "GGH8_xFhLdk",
+      "title": "Tosca Tutorial | Lesson 7 - Identify Controls By Image | Image Based Test Automation |",
+      "url": "https://www.youtube.com/watch?v=GGH8_xFhLdk",
+      "playlist": "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification",
+      "playlist_index": 9,
+      "duration": 620,
+      "transcript": "raw/transcripts/GGH8_xFhLdk.md",
+      "source": "youtube-subs",
+      "ingested_at": "2026-09-04T07:58:37Z",
+      "docs": [
+        "modules/control-identification"
+      ]
+    },
+    {
+      "id": "zgqUoo_1tpM",
+      "title": "Tosca Tutorial | Lesson 8 - Identify Controls By Index | Duplicate Controls |",
+      "url": "https://www.youtube.com/watch?v=zgqUoo_1tpM",
+      "playlist": "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification",
+      "playlist_index": 10,
+      "duration": 393,
+      "transcript": "raw/transcripts/zgqUoo_1tpM.md",
+      "source": "youtube-subs",
+      "ingested_at": "2026-09-04T07:58:42Z",
+      "docs": [
+        "modules/control-identification"
+      ]
+    },
+    {
+      "id": "7LTRawRLoE8",
+      "title": "Tosca Tutorial | Lesson 9 - Rescan Modules in Tosca | Handle Non Unique Controls |",
+      "url": "https://www.youtube.com/watch?v=7LTRawRLoE8",
+      "playlist": "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification",
+      "playlist_index": 11,
+      "duration": 483,
+      "transcript": "raw/transcripts/7LTRawRLoE8.md",
+      "source": "youtube-subs",
+      "ingested_at": "2026-09-04T07:58:48Z",
+      "docs": [
+        "modules/rescan-modules"
+      ]
+    },
+    {
+      "id": "UVOH_DevQAc",
+      "title": "Tosca Tutorial | Lesson 10 - Find Duplicate Modules | Merge Modules | Merge Module Assistant |",
+      "url": "https://www.youtube.com/watch?v=UVOH_DevQAc",
+      "playlist": "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification",
+      "playlist_index": 12,
+      "duration": 534,
+      "transcript": "raw/transcripts/UVOH_DevQAc.md",
+      "source": "youtube-subs",
+      "ingested_at": "2026-09-04T07:58:53Z",
+      "docs": [
+        "modules/duplicate-and-merge-modules"
+      ]
+    },
+    {
+      "id": "OoKV56JM8BE",
+      "title": "Tosca Tutorial | Lesson 11 - Performing File Operations | TBox Automation Modules |",
+      "url": "https://www.youtube.com/watch?v=OoKV56JM8BE",
+      "playlist": "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification",
+      "playlist_index": 13,
+      "duration": 697,
+      "transcript": "raw/transcripts/OoKV56JM8BE.md",
+      "source": "youtube-subs",
+      "ingested_at": "2026-09-04T07:58:57Z",
+      "docs": [
+        "standard-modules/file-and-folder-operations"
+      ]
+    },
+    {
+      "id": "U5iILzXT56A",
+      "title": "Tosca Tutorial | Lesson 12 - Performing Folder Operations | TBox Automation Modules |",
+      "url": "https://www.youtube.com/watch?v=U5iILzXT56A",
+      "playlist": "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification",
+      "playlist_index": 14,
+      "duration": 428,
+      "transcript": "raw/transcripts/U5iILzXT56A.md",
+      "source": "youtube-subs",
+      "ingested_at": "2026-09-04T07:59:02Z",
+      "docs": [
+        "standard-modules/file-and-folder-operations"
+      ]
+    },
+    {
+      "id": "yj_4PepSreg",
+      "title": "Tosca Tutorial | Lesson 13 - Use Buffer Operations | TBox Automation Modules |",
+      "url": "https://www.youtube.com/watch?v=yj_4PepSreg",
+      "playlist": "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification",
+      "playlist_index": 15,
+      "duration": 940,
+      "transcript": "raw/transcripts/yj_4PepSreg.md",
+      "source": "youtube-subs",
+      "ingested_at": "2026-09-04T07:59:08Z",
+      "docs": [
+        "standard-modules/buffer-operations"
+      ]
+    },
+    {
+      "id": "OATubSuVee8",
+      "title": "Tosca Tutorial | Lesson 14 - Use TBox Start Program | Open Application | Executable File |",
+      "url": "https://www.youtube.com/watch?v=OATubSuVee8",
+      "playlist": "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification",
+      "playlist_index": 16,
+      "duration": 564,
+      "transcript": "raw/transcripts/OATubSuVee8.md",
+      "source": "youtube-subs",
+      "ingested_at": "2026-09-04T07:59:13Z",
+      "docs": [
+        "standard-modules/start-and-close-programs"
+      ]
+    },
+    {
+      "id": "sbKJIaEoRd4",
+      "title": "Tosca Tutorial | Lesson 15 - Close Programs | Taskkill | TBox Start Program Module |",
+      "url": "https://www.youtube.com/watch?v=sbKJIaEoRd4",
+      "playlist": "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification",
+      "playlist_index": 17,
+      "duration": 609,
+      "transcript": "raw/transcripts/sbKJIaEoRd4.md",
+      "source": "youtube-subs",
+      "ingested_at": "2026-09-04T07:59:17Z",
+      "docs": [
+        "standard-modules/start-and-close-programs"
+      ]
+    },
+    {
+      "id": "IkPL7G4QR7k",
+      "title": "Tosca Tutorial | Lesson 16 - Using TBox Evalutation Tool | Compare Dynamic Expressions|",
+      "url": "https://www.youtube.com/watch?v=IkPL7G4QR7k",
+      "playlist": "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification",
+      "playlist_index": 18,
+      "duration": 615,
+      "transcript": "raw/transcripts/IkPL7G4QR7k.md",
+      "source": "youtube-subs",
+      "ingested_at": "2026-09-04T08:21:26Z",
+      "docs": [
+        "standard-modules/evaluation-tool"
+      ]
+    },
+    {
+      "id": "w3k8DuVFNBU",
+      "title": "Tosca Tutorial | Lesson 17 - Automatically take Screenshot on Failures | TBox Automation Module |",
+      "url": "https://www.youtube.com/watch?v=w3k8DuVFNBU",
+      "playlist": "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification",
+      "playlist_index": 19,
+      "duration": 732,
+      "transcript": "raw/transcripts/w3k8DuVFNBU.md",
+      "source": "youtube-subs",
+      "ingested_at": "2026-09-04T07:59:29Z",
+      "docs": [
+        "standard-modules/screenshots-on-failure"
+      ]
+    },
+    {
+      "id": "_WKauyXPI8g",
+      "title": "Tosca Tutorial | Lesson 18 - Window Operations | TBox Automation Module |",
+      "url": "https://www.youtube.com/watch?v=_WKauyXPI8g",
+      "playlist": "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification",
+      "playlist_index": 20,
+      "duration": 505,
+      "transcript": "raw/transcripts/_WKauyXPI8g.md",
+      "source": "youtube-subs",
+      "ingested_at": "2026-09-04T07:59:34Z",
+      "docs": [
+        "standard-modules/window-operations"
+      ]
+    },
+    {
+      "id": "idPsLArM3zc",
+      "title": "Tosca Tutorial | Lesson 19 -  Compare Two Excel Files | TBox Automation Module | Excel Engine |",
+      "url": "https://www.youtube.com/watch?v=idPsLArM3zc",
+      "playlist": "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification",
+      "playlist_index": 21,
+      "duration": 606,
+      "transcript": "raw/transcripts/idPsLArM3zc.md",
+      "source": "youtube-subs",
+      "ingested_at": "2026-09-04T08:28:40Z",
+      "docs": [
+        "engines/excel-engine"
+      ]
+    },
+    {
+      "id": "hi0GA1Dg1Nc",
+      "title": "Tosca Tutorial | Lesson 20 -  Create, Open, Modify & Delete Excel Workbook | Excel Engine |",
+      "url": "https://www.youtube.com/watch?v=hi0GA1Dg1Nc",
+      "playlist": "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification",
+      "playlist_index": 22,
+      "duration": 857,
+      "transcript": "raw/transcripts/hi0GA1Dg1Nc.md",
+      "source": "youtube-subs",
+      "ingested_at": "2026-09-04T08:26:42Z",
+      "docs": [
+        "engines/excel-engine"
+      ]
+    },
+    {
+      "id": "4V0ygehvBAk",
+      "title": "Tosca Tutorial | Lesson 21 - Verify  RowCount & ColumnCount of Excel WorkBook | Excel Engine |",
+      "url": "https://www.youtube.com/watch?v=4V0ygehvBAk",
+      "playlist": "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification",
+      "playlist_index": 23,
+      "duration": 456,
+      "transcript": "raw/transcripts/4V0ygehvBAk.md",
+      "source": "youtube-subs",
+      "ingested_at": "2026-09-04T08:16:05Z",
+      "docs": [
+        "engines/excel-engine"
+      ]
+    },
+    {
+      "id": "XOSmgNewTp0",
+      "title": "Tosca Tutorial | Lesson 22 - Compare PDF files | TBox Automation Module | 1:1 Compare",
+      "url": "https://www.youtube.com/watch?v=XOSmgNewTp0",
+      "playlist": "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification",
+      "playlist_index": 24,
+      "duration": 468,
+      "transcript": "raw/transcripts/XOSmgNewTp0.md",
+      "source": "youtube-subs",
+      "ingested_at": "2026-09-04T07:59:56Z",
+      "docs": [
+        "engines/pdf-engine"
+      ]
+    },
+    {
+      "id": "O9FYIm7L9YU",
+      "title": "Tosca Tutorial | Lesson 23 - Scan and Verify different elements on a PDF document | PDF Engine |",
+      "url": "https://www.youtube.com/watch?v=O9FYIm7L9YU",
+      "playlist": "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification",
+      "playlist_index": 25,
+      "duration": 1055,
+      "transcript": "raw/transcripts/O9FYIm7L9YU.md",
+      "source": "youtube-subs",
+      "ingested_at": "2026-09-04T08:00:01Z",
+      "docs": [
+        "engines/pdf-engine"
+      ]
+    },
+    {
+      "id": "cW_JhVahFpE",
+      "title": "Tosca Tutorial | Lesson 24 - Desktop Automation | Save As Dialog Box | TBox Automation Module |",
+      "url": "https://www.youtube.com/watch?v=cW_JhVahFpE",
+      "playlist": "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification",
+      "playlist_index": 26,
+      "duration": 444,
+      "transcript": "raw/transcripts/cW_JhVahFpE.md",
+      "source": "youtube-subs",
+      "ingested_at": "2026-09-04T08:26:29Z",
+      "docs": [
+        "standard-modules/desktop-dialogs"
+      ]
+    },
+    {
+      "id": "SZj-04A7aQA",
+      "title": "Tosca Tutorial | Lesson 25 - Scroll Window | TBox Window Scroll Operation | Standard Module |",
+      "url": "https://www.youtube.com/watch?v=SZj-04A7aQA",
+      "playlist": "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification",
+      "playlist_index": 27,
+      "duration": 387,
+      "transcript": "raw/transcripts/SZj-04A7aQA.md",
+      "source": "youtube-subs",
+      "ingested_at": "2026-09-04T08:00:17Z",
+      "docs": [
+        "standard-modules/window-operations"
+      ]
+    },
+    {
+      "id": "zZfamr0wZlc",
+      "title": "Tosca Tutorial | Lesson 26 - Execute JavaScript | Verify JavaScript call | TBox HTML Modules |",
+      "url": "https://www.youtube.com/watch?v=zZfamr0wZlc",
+      "playlist": "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification",
+      "playlist_index": 28,
+      "duration": 425,
+      "transcript": "raw/transcripts/zZfamr0wZlc.md",
+      "source": "youtube-subs",
+      "ingested_at": "2026-09-04T08:00:23Z",
+      "docs": [
+        "standard-modules/execute-javascript"
+      ]
+    },
+    {
+      "id": "OnymDRufrak",
+      "title": "Tosca Tutorial | Lesson 27  - Automatically Clear Cache in Chrome Browser | TBox Start Program",
+      "url": "https://www.youtube.com/watch?v=OnymDRufrak",
+      "playlist": "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification",
+      "playlist_index": 29,
+      "duration": 430,
+      "transcript": "raw/transcripts/OnymDRufrak.md",
+      "source": "youtube-subs",
+      "ingested_at": "2026-09-04T08:21:39Z",
+      "docs": [
+        "standard-modules/start-and-close-programs"
+      ]
+    },
+    {
+      "id": "HM_WNiK2nKg",
+      "title": "Tosca Tutorial | Lesson 28 - Open and Verify XML Files | XML Engine",
+      "url": "https://www.youtube.com/watch?v=HM_WNiK2nKg",
+      "playlist": "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification",
+      "playlist_index": 30,
+      "duration": 439,
+      "transcript": "raw/transcripts/HM_WNiK2nKg.md",
+      "source": "youtube-subs",
+      "ingested_at": "2026-09-04T08:00:34Z",
+      "docs": [
+        "engines/xml-engine"
+      ]
+    },
+    {
+      "id": "-rQU1krBgHU",
+      "title": "Tosca Tutorial | Lesson 29 - How to use Action Mode Buffer | Action Modes | Building Test Cases |",
+      "url": "https://www.youtube.com/watch?v=-rQU1krBgHU",
+      "playlist": "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification",
+      "playlist_index": 31,
+      "duration": 701,
+      "transcript": "raw/transcripts/-rQU1krBgHU.md",
+      "source": "youtube-subs",
+      "ingested_at": "2026-09-04T08:00:37Z",
+      "docs": [
+        "test-cases/action-modes"
+      ]
+    },
+    {
+      "id": "V8gPjt1dqVQ",
+      "title": "Tosca Tutorial | Lesson 30 - What is WaitOn Action Mode? | Action Modes | Building Test Cases |",
+      "url": "https://www.youtube.com/watch?v=V8gPjt1dqVQ",
+      "playlist": "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification",
+      "playlist_index": 32,
+      "duration": 584,
+      "transcript": "raw/transcripts/V8gPjt1dqVQ.md",
+      "source": "youtube-subs",
+      "ingested_at": "2026-09-04T08:23:43Z",
+      "docs": [
+        "test-cases/action-modes"
+      ]
+    },
+    {
+      "id": "QIZ_97SiLNc",
+      "title": "Tosca Tutorial | Lesson 31 - Use Select, Constraint & Verify Action Modes | Table Objects |",
+      "url": "https://www.youtube.com/watch?v=QIZ_97SiLNc",
+      "playlist": "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification",
+      "playlist_index": 33,
+      "duration": 965,
+      "transcript": "raw/transcripts/QIZ_97SiLNc.md",
+      "source": "youtube-subs",
+      "ingested_at": "2026-09-04T08:00:46Z",
+      "docs": [
+        "test-cases/action-modes"
+      ]
+    },
+    {
+      "id": "ngQU7wKdoy8",
+      "title": "Tosca Tutorial | Lesson 32 -  Use If Then Else Condition | Building Test Cases | Control Flows |",
+      "url": "https://www.youtube.com/watch?v=ngQU7wKdoy8",
+      "playlist": "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification",
+      "playlist_index": 34,
+      "duration": 525,
+      "transcript": "raw/transcripts/ngQU7wKdoy8.md",
+      "source": "youtube-subs",
+      "ingested_at": "2026-09-04T08:00:50Z",
+      "docs": [
+        "test-cases/control-flow"
+      ]
+    },
+    {
+      "id": "FphWNQxRrjM",
+      "title": "Tosca Tutorial | Lesson 33 - Use Do & While Loops | Building Test Cases | Control Flows |",
+      "url": "https://www.youtube.com/watch?v=FphWNQxRrjM",
+      "playlist": "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification",
+      "playlist_index": 35,
+      "duration": 695,
+      "transcript": "raw/transcripts/FphWNQxRrjM.md",
+      "source": "youtube-subs",
+      "ingested_at": "2026-09-04T08:00:55Z",
+      "docs": [
+        "test-cases/control-flow"
+      ]
+    },
+    {
+      "id": "d7s1tQfLlMk",
+      "title": "Tosca Tutorial | Lesson 34 - Generate Random Values | Test Steps | Random Expressions |",
+      "url": "https://www.youtube.com/watch?v=d7s1tQfLlMk",
+      "playlist": "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification",
+      "playlist_index": 36,
+      "duration": 1069,
+      "transcript": "raw/transcripts/d7s1tQfLlMk.md",
+      "source": "youtube-subs",
+      "ingested_at": "2026-09-04T08:00:59Z",
+      "docs": [
+        "expressions/random-values"
+      ]
+    },
+    {
+      "id": "hBRAnB_3iBc",
+      "title": "Tosca Tutorial | Lesson 35 - Multilingual Testing | Multiple Languages | Regular Expressions |",
+      "url": "https://www.youtube.com/watch?v=hBRAnB_3iBc",
+      "playlist": "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification",
+      "playlist_index": 37,
+      "duration": 580,
+      "transcript": "raw/transcripts/hBRAnB_3iBc.md",
+      "source": "youtube-subs",
+      "ingested_at": "2026-09-04T08:01:03Z",
+      "docs": [
+        "expressions/intervals-and-verification-expressions"
+      ]
+    },
+    {
+      "id": "q60mMo6mp0A",
+      "title": "Tosca Tutorial | Lesson 36 - Use Dynamic Date Expressions | Date Calculations |",
+      "url": "https://www.youtube.com/watch?v=q60mMo6mp0A",
+      "playlist": "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification",
+      "playlist_index": 38,
+      "duration": 575,
+      "transcript": "raw/transcripts/q60mMo6mp0A.md",
+      "source": "youtube-subs",
+      "ingested_at": "2026-09-04T08:01:08Z",
+      "docs": [
+        "expressions/date-expressions"
+      ]
+    },
+    {
+      "id": "Ul3ZN1FKw2E",
+      "title": "Tosca Tutorial | Lesson 37 - Use Intervals to verify values within a specific range | Verify Action",
+      "url": "https://www.youtube.com/watch?v=Ul3ZN1FKw2E",
+      "playlist": "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification",
+      "playlist_index": 39,
+      "duration": 667,
+      "transcript": "raw/transcripts/Ul3ZN1FKw2E.md",
+      "source": "youtube-subs",
+      "ingested_at": "2026-09-04T08:23:34Z",
+      "docs": [
+        "expressions/intervals-and-verification-expressions"
+      ]
+    },
+    {
+      "id": "Zk3-J0TxUEc",
+      "title": "Tosca Tutorial | Lesson 38 -  Generate, calculate and format date and time values | Date Expressions",
+      "url": "https://www.youtube.com/watch?v=Zk3-J0TxUEc",
+      "playlist": "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification",
+      "playlist_index": 40,
+      "duration": 671,
+      "transcript": "raw/transcripts/Zk3-J0TxUEc.md",
+      "source": "youtube-subs",
+      "ingested_at": "2026-09-04T08:01:17Z",
+      "docs": [
+        "expressions/date-expressions"
+      ]
+    },
+    {
+      "id": "GziZqKLQh58",
+      "title": "Tosca Tutorial | Lesson 39 - Use String Operations | Find length | Convert To Uppercase | Occurences",
+      "url": "https://www.youtube.com/watch?v=GziZqKLQh58",
+      "playlist": "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification",
+      "playlist_index": 41,
+      "duration": 511,
+      "transcript": "raw/transcripts/GziZqKLQh58.md",
+      "source": "youtube-subs",
+      "ingested_at": "2026-09-04T08:01:20Z",
+      "docs": [
+        "expressions/string-operations"
+      ]
+    },
+    {
+      "id": "1_-3R24tqaI",
+      "title": "Tosca Tutorial | Lesson 40 - Use Base64 String Operations | Encode and Decode text |",
+      "url": "https://www.youtube.com/watch?v=1_-3R24tqaI",
+      "playlist": "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification",
+      "playlist_index": 42,
+      "duration": 551,
+      "transcript": "raw/transcripts/1_-3R24tqaI.md",
+      "source": "youtube-subs",
+      "ingested_at": "2026-09-04T08:01:24Z",
+      "docs": [
+        "expressions/string-operations"
+      ]
+    },
+    {
+      "id": "GVUvUvMGlYY",
+      "title": "Tosca Tutorial | Lesson 41 - Trim whitespace and Replace text | String Operations | Challenge |",
+      "url": "https://www.youtube.com/watch?v=GVUvUvMGlYY",
+      "playlist": "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification",
+      "playlist_index": 43,
+      "duration": 809,
+      "transcript": "raw/transcripts/GVUvUvMGlYY.md",
+      "source": "youtube-subs",
+      "ingested_at": "2026-09-04T08:01:28Z",
+      "docs": [
+        "expressions/string-operations"
+      ]
+    },
+    {
+      "id": "rCZQyJFonhY",
+      "title": "Tosca Tutorial | Lesson 43 - Use Explicit Name to identify duplicate controls | Module Properties",
+      "url": "https://www.youtube.com/watch?v=rCZQyJFonhY",
+      "playlist": "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification",
+      "playlist_index": 44,
+      "duration": 446,
+      "transcript": "raw/transcripts/rCZQyJFonhY.md",
+      "source": "youtube-subs",
+      "ingested_at": "2026-09-04T08:01:32Z",
+      "docs": [
+        "modules/control-identification"
+      ]
+    },
+    {
+      "id": "ojiutjOB61w",
+      "title": "Tosca Tutorial | Lesson 45 - Creating & Handling Embedded Controls Inside Table | Table Control |",
+      "url": "https://www.youtube.com/watch?v=ojiutjOB61w",
+      "playlist": "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification",
+      "playlist_index": 45,
+      "duration": 748,
+      "transcript": "raw/transcripts/ojiutjOB61w.md",
+      "source": "youtube-subs",
+      "ingested_at": "2026-09-04T08:01:35Z",
+      "docs": [
+        "modules/table-controls"
+      ]
+    },
+    {
+      "id": "O5DWq3HSn3c",
+      "title": "Tosca Tutorial | Lesson 46 - Verify Row and Column Count of a Web Table | Table Controls |",
+      "url": "https://www.youtube.com/watch?v=O5DWq3HSn3c",
+      "playlist": "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification",
+      "playlist_index": 46,
+      "duration": 369,
+      "transcript": "raw/transcripts/O5DWq3HSn3c.md",
+      "source": "youtube-subs",
+      "ingested_at": "2026-09-04T08:01:38Z",
+      "docs": [
+        "modules/table-controls"
+      ]
+    },
+    {
+      "id": "u33y-Vu12fQ",
+      "title": "Tosca Tutorial | Lesson 47 - Use Baseline Comparison for Table Control | Compare Web Tables |",
+      "url": "https://www.youtube.com/watch?v=u33y-Vu12fQ",
+      "playlist": "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification",
+      "playlist_index": 47,
+      "duration": 675,
+      "transcript": "raw/transcripts/u33y-Vu12fQ.md",
+      "source": "youtube-subs",
+      "ingested_at": "2026-09-04T08:01:42Z",
+      "docs": [
+        "modules/table-baseline-comparison"
+      ]
+    },
+    {
+      "id": "jWpcEtvOo-w",
+      "title": "Tosca Tutorial | Lesson 48 - Run Test Steps Repeatedly using Repetitions |",
+      "url": "https://www.youtube.com/watch?v=jWpcEtvOo-w",
+      "playlist": "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification",
+      "playlist_index": 48,
+      "duration": 496,
+      "transcript": "raw/transcripts/jWpcEtvOo-w.md",
+      "source": "youtube-subs",
+      "ingested_at": "2026-09-04T08:01:46Z",
+      "docs": [
+        "test-cases/repetitions"
+      ]
+    },
+    {
+      "id": "d_9ugVdRpZY",
+      "title": "Tosca Tutorial | Lesson 49 - Create Recovery Scenarios | Handle Unexpected Errors | Recovery Engine",
+      "url": "https://www.youtube.com/watch?v=d_9ugVdRpZY",
+      "playlist": "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification",
+      "playlist_index": 49,
+      "duration": 1105,
+      "transcript": "raw/transcripts/d_9ugVdRpZY.md",
+      "source": "youtube-subs",
+      "ingested_at": "2026-09-04T08:01:49Z",
+      "docs": [
+        "test-cases/recovery-and-cleanup-scenarios"
+      ]
+    },
+    {
+      "id": "2xPO0SHEHLo",
+      "title": "Tosca Tutorial | Lesson 50 - Add Cleanup Scenarios to Test Cases | Recovery Engine |",
+      "url": "https://www.youtube.com/watch?v=2xPO0SHEHLo",
+      "playlist": "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification",
+      "playlist_index": 50,
+      "duration": 526,
+      "transcript": "raw/transcripts/2xPO0SHEHLo.md",
+      "source": "youtube-subs",
+      "ingested_at": "2026-09-04T08:01:53Z",
+      "docs": [
+        "test-cases/recovery-and-cleanup-scenarios"
+      ]
+    },
+    {
+      "id": "nL1Vv11tBpA",
+      "title": "Tosca Tutorial | Lesson 51 - Create TestStep Libraries | Reusable TestStep Blocks | Parameters |",
+      "url": "https://www.youtube.com/watch?v=nL1Vv11tBpA",
+      "playlist": "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification",
+      "playlist_index": 51,
+      "duration": 813,
+      "transcript": "raw/transcripts/nL1Vv11tBpA.md",
+      "source": "youtube-subs",
+      "ingested_at": "2026-09-04T08:28:59Z",
+      "docs": [
+        "data-and-parameters/business-parameters-and-libraries"
+      ]
+    },
+    {
+      "id": "29ZncNqBgrc",
+      "title": "Tosca Tutorial | Lesson 52 - Create Test Sheet and Attributes | Test Case Design | Business Relevant",
+      "url": "https://www.youtube.com/watch?v=29ZncNqBgrc",
+      "playlist": "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification",
+      "playlist_index": 52,
+      "duration": 1290,
+      "transcript": "raw/transcripts/29ZncNqBgrc.md",
+      "source": "youtube-subs",
+      "ingested_at": "2026-09-04T08:02:03Z",
+      "docs": [
+        "test-case-design/test-sheets-and-attributes"
+      ]
+    },
+    {
+      "id": "oCuNTr5nvPw",
+      "title": "Tosca Tutorial | Lesson 53 - Create different Instances for Attributes | Test Case Design | Position",
+      "url": "https://www.youtube.com/watch?v=oCuNTr5nvPw",
+      "playlist": "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification",
+      "playlist_index": 53,
+      "duration": 970,
+      "transcript": "raw/transcripts/oCuNTr5nvPw.md",
+      "source": "youtube-subs",
+      "ingested_at": "2026-09-04T08:29:09Z",
+      "docs": [
+        "test-case-design/instances-and-combinatorics"
+      ]
+    },
+    {
+      "id": "IPjsBUMM00k",
+      "title": "Tosca Tutorial | Lesson 54 - Use Different Combinatorial methods to generate instances | Test Design",
+      "url": "https://www.youtube.com/watch?v=IPjsBUMM00k",
+      "playlist": "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification",
+      "playlist_index": 54,
+      "duration": 651,
+      "transcript": "raw/transcripts/IPjsBUMM00k.md",
+      "source": "youtube-subs",
+      "ingested_at": "2026-09-04T08:02:11Z",
+      "docs": [
+        "test-case-design/instances-and-combinatorics"
+      ]
+    },
+    {
+      "id": "ZPQqBvTdJew",
+      "title": "Tosca Tutorial | Lesson 55 - How to create a Test Case Template | Dynamic Test Case Generation|",
+      "url": "https://www.youtube.com/watch?v=ZPQqBvTdJew",
+      "playlist": "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification",
+      "playlist_index": 55,
+      "duration": 746,
+      "transcript": "raw/transcripts/ZPQqBvTdJew.md",
+      "source": "youtube-subs",
+      "ingested_at": "2026-09-04T08:02:15Z",
+      "docs": [
+        "test-case-design/templates-and-instantiation"
+      ]
+    },
+    {
+      "id": "r0QVA5jM7m0",
+      "title": "Tosca Tutorial | Lesson 56 - Dynamically Generate Test Cases with Template Instance | Instantiation",
+      "url": "https://www.youtube.com/watch?v=r0QVA5jM7m0",
+      "playlist": "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification",
+      "playlist_index": 56,
+      "duration": 395,
+      "transcript": "raw/transcripts/r0QVA5jM7m0.md",
+      "source": "youtube-subs",
+      "ingested_at": "2026-09-04T08:02:21Z",
+      "docs": [
+        "test-case-design/templates-and-instantiation"
+      ]
+    },
+    {
+      "id": "YOvThZyYOaM",
+      "title": "Tosca Tutorial | Lesson 57 - Use condition in Test Case Instantiation | Test Case Templates |",
+      "url": "https://www.youtube.com/watch?v=YOvThZyYOaM",
+      "playlist": "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification",
+      "playlist_index": 57,
+      "duration": 517,
+      "transcript": "raw/transcripts/YOvThZyYOaM.md",
+      "source": "youtube-subs",
+      "ingested_at": "2026-09-04T08:34:18Z",
+      "docs": [
+        "test-case-design/templates-and-instantiation"
+      ]
+    },
+    {
+      "id": "R3tCelZvf8w",
+      "title": "Tosca Tutorial | Lesson 58 - Create and use TestCase Design Classes for common Attributes |",
+      "url": "https://www.youtube.com/watch?v=R3tCelZvf8w",
+      "playlist": "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification",
+      "playlist_index": 58,
+      "duration": 537,
+      "transcript": "raw/transcripts/R3tCelZvf8w.md",
+      "source": "youtube-subs",
+      "ingested_at": "2026-09-04T08:02:31Z",
+      "docs": [
+        "test-case-design/design-classes"
+      ]
+    },
+    {
+      "id": "H16RSCy6e_g",
+      "title": "Tosca Tutorial | Lesson 59 - Execute Test Cases | Execution Lists |  Test Results | Execution Entry|",
+      "url": "https://www.youtube.com/watch?v=H16RSCy6e_g",
+      "playlist": "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification",
+      "playlist_index": 59,
+      "duration": 489,
+      "transcript": "raw/transcripts/H16RSCy6e_g.md",
+      "source": "youtube-subs",
+      "ingested_at": "2026-09-04T08:02:38Z",
+      "docs": [
+        "execution/execution-lists"
+      ]
+    },
+    {
+      "id": "26Uj-nXXcAw",
+      "title": "Tosca Tutorial | Lesson 60 - Change View of Execution Results | Execution Lists | Actual Logs |",
+      "url": "https://www.youtube.com/watch?v=26Uj-nXXcAw",
+      "playlist": "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification",
+      "playlist_index": 60,
+      "duration": 271,
+      "transcript": "raw/transcripts/26Uj-nXXcAw.md",
+      "source": "youtube-subs",
+      "ingested_at": "2026-09-04T08:02:42Z",
+      "docs": [
+        "execution/execution-results-and-logs"
+      ]
+    },
+    {
+      "id": "c42YuuEksL0",
+      "title": "Tosca Tutorial | Lesson 61 - Synchronize Execution List with Test Cases | Execution Lists |",
+      "url": "https://www.youtube.com/watch?v=c42YuuEksL0",
+      "playlist": "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification",
+      "playlist_index": 61,
+      "duration": 330,
+      "transcript": "raw/transcripts/c42YuuEksL0.md",
+      "source": "youtube-subs",
+      "ingested_at": "2026-09-04T08:02:45Z",
+      "docs": [
+        "execution/execution-lists"
+      ]
+    },
+    {
+      "id": "IJyo8YlR2Dg",
+      "title": "Tosca Tutorial | Lesson 62 - Create Trend Charts from Execution Results | Execution Lists | Logs |",
+      "url": "https://www.youtube.com/watch?v=IJyo8YlR2Dg",
+      "playlist": "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification",
+      "playlist_index": 62,
+      "duration": 311,
+      "transcript": "raw/transcripts/IJyo8YlR2Dg.md",
+      "source": "youtube-subs",
+      "ingested_at": "2026-09-04T08:02:49Z",
+      "docs": [
+        "execution/execution-results-and-logs"
+      ]
+    },
+    {
+      "id": "el-UnoqLoCA",
+      "title": "Tosca Tutorial Lession 63 -  Clear and Archive actual execution logs | Execution Lists | Logs |",
+      "url": "https://www.youtube.com/watch?v=el-UnoqLoCA",
+      "playlist": "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification",
+      "playlist_index": 63,
+      "duration": 421,
+      "transcript": "raw/transcripts/el-UnoqLoCA.md",
+      "source": "youtube-subs",
+      "ingested_at": "2026-09-04T08:02:53Z",
+      "docs": [
+        "execution/execution-results-and-logs"
+      ]
+    },
+    {
+      "id": "R-am5RdZYUw",
+      "title": "Tosca Tutorial | Lesson 64 - Transfer Execution Results from Execution Lists to Microsoft Excel |",
+      "url": "https://www.youtube.com/watch?v=R-am5RdZYUw",
+      "playlist": "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification",
+      "playlist_index": 64,
+      "duration": 202,
+      "transcript": "raw/transcripts/R-am5RdZYUw.md",
+      "source": "youtube-subs",
+      "ingested_at": "2026-09-04T08:02:57Z",
+      "docs": [
+        "execution/execution-results-and-logs"
+      ]
+    },
+    {
+      "id": "FCtiAl8IbQg",
+      "title": "Tosca Tutorial | Lesson 65 - Execute Test Cases Manually | Execution Lists | Manual Testing |",
+      "url": "https://www.youtube.com/watch?v=FCtiAl8IbQg",
+      "playlist": "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification",
+      "playlist_index": 65,
+      "duration": 491,
+      "transcript": "raw/transcripts/FCtiAl8IbQg.md",
+      "source": "youtube-subs",
+      "ingested_at": "2026-09-04T08:03:03Z",
+      "docs": [
+        "execution/manual-execution"
+      ]
+    },
+    {
+      "id": "F33QydlpDI0",
+      "title": "Tosca Tutorial | Lesson 66 - Set Execution Results Manually in Execution Lists | Manual Testing |",
+      "url": "https://www.youtube.com/watch?v=F33QydlpDI0",
+      "playlist": "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification",
+      "playlist_index": 66,
+      "duration": 194,
+      "transcript": "raw/transcripts/F33QydlpDI0.md",
+      "source": "youtube-subs",
+      "ingested_at": "2026-09-04T08:03:07Z",
+      "docs": [
+        "execution/manual-execution"
+      ]
+    },
+    {
+      "id": "jQ-UZfAcU9o",
+      "title": "Tosca Tutorial | Lesson 67 - Execute Test Case Multiple Times from Execution Lists | Repetitions |",
+      "url": "https://www.youtube.com/watch?v=jQ-UZfAcU9o",
+      "playlist": "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification",
+      "playlist_index": 67,
+      "duration": 198,
+      "transcript": "raw/transcripts/jQ-UZfAcU9o.md",
+      "source": "youtube-subs",
+      "ingested_at": "2026-09-04T08:03:11Z",
+      "docs": [
+        "execution/execution-repetitions-and-business-test-cases"
+      ]
+    },
+    {
+      "id": "D9N2HVczgPc",
+      "title": "Tosca Tutorial | Lesson 68 - Use Business Test Cases | Execution Lists | End-to-End Scenarios |",
+      "url": "https://www.youtube.com/watch?v=D9N2HVczgPc",
+      "playlist": "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification",
+      "playlist_index": 68,
+      "duration": 492,
+      "transcript": "raw/transcripts/D9N2HVczgPc.md",
+      "source": "youtube-subs",
+      "ingested_at": "2026-09-04T08:03:14Z",
+      "docs": [
+        "execution/execution-repetitions-and-business-test-cases"
+      ]
+    },
+    {
+      "id": "w-g6OTmrr7M",
+      "title": "Tosca Tutorial | Lesson 69 - Monitor TestCase Execution Logs using Log Viewer | Monitoring | Debug |",
+      "url": "https://www.youtube.com/watch?v=w-g6OTmrr7M",
+      "playlist": "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification",
+      "playlist_index": 69,
+      "duration": 456,
+      "transcript": "raw/transcripts/w-g6OTmrr7M.md",
+      "source": "youtube-subs",
+      "ingested_at": "2026-09-04T08:03:18Z",
+      "docs": [
+        "execution/execution-results-and-logs"
+      ]
+    },
+    {
+      "id": "piCdpKk86Zc",
+      "title": "Tosca Tutorial | Lesson 70 - Record Test Executions and save it in MP4 format | Debug Errors |",
+      "url": "https://www.youtube.com/watch?v=piCdpKk86Zc",
+      "playlist": "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification",
+      "playlist_index": 70,
+      "duration": 661,
+      "transcript": "raw/transcripts/piCdpKk86Zc.md",
+      "source": "youtube-subs",
+      "ingested_at": "2026-09-04T08:03:23Z",
+      "docs": [
+        "execution/recording-executions"
+      ]
+    },
+    {
+      "id": "z7Vck380lDs",
+      "title": "Tosca Tutorial | Lesson 71 - Create, Structure & Risk Weight Requirements  | Risk Analysis |",
+      "url": "https://www.youtube.com/watch?v=z7Vck380lDs",
+      "playlist": "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification",
+      "playlist_index": 71,
+      "duration": 1373,
+      "transcript": "raw/transcripts/z7Vck380lDs.md",
+      "source": "youtube-subs",
+      "ingested_at": "2026-09-04T08:03:31Z",
+      "docs": [
+        "requirements-and-reporting/requirements-and-risk"
+      ]
+    },
+    {
+      "id": "epE3kZJjoP0",
+      "title": "Tosca Tutorial | Lesson 72 - Generate Reports and Create Report Definitions | Reporting |",
+      "url": "https://www.youtube.com/watch?v=epE3kZJjoP0",
+      "playlist": "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification",
+      "playlist_index": 72,
+      "duration": 696,
+      "transcript": "raw/transcripts/epE3kZJjoP0.md",
+      "source": "youtube-subs",
+      "ingested_at": "2026-09-04T08:03:36Z",
+      "docs": [
+        "requirements-and-reporting/reports"
+      ]
+    },
+    {
+      "id": "bhuotHSk12Q",
+      "title": "Tosca Tutorial | Lesson 73 - Using Tosca Query Language(TQL) Search with Virtual Folders | Reporting",
+      "url": "https://www.youtube.com/watch?v=bhuotHSk12Q",
+      "playlist": "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification",
+      "playlist_index": 73,
+      "duration": 613,
+      "transcript": "raw/transcripts/bhuotHSk12Q.md",
+      "source": "youtube-subs",
+      "ingested_at": "2026-09-04T08:03:42Z",
+      "docs": [
+        "requirements-and-reporting/tql-and-virtual-folders"
+      ]
+    },
+    {
+      "id": "ob-ktPgLPIA",
+      "title": "Tosca Tutorial | Lesson 74 - Import Folder Structures from Microsoft Excel Sheet |",
+      "url": "https://www.youtube.com/watch?v=ob-ktPgLPIA",
+      "playlist": "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification",
+      "playlist_index": 74,
+      "duration": 466,
+      "transcript": "raw/transcripts/ob-ktPgLPIA.md",
+      "source": "youtube-subs",
+      "ingested_at": "2026-09-04T08:03:48Z",
+      "docs": [
+        "requirements-and-reporting/import-from-excel"
+      ]
+    },
+    {
+      "id": "_DlTBXAcxSw",
+      "title": "Tosca Tutorial | Lesson 75 - Create TestCases Automatically using the Recorder |",
+      "url": "https://www.youtube.com/watch?v=_DlTBXAcxSw",
+      "playlist": "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification",
+      "playlist_index": 75,
+      "duration": 751,
+      "transcript": "raw/transcripts/_DlTBXAcxSw.md",
+      "source": "youtube-subs",
+      "ingested_at": "2026-09-04T08:03:53Z",
+      "docs": [
+        "test-cases/recorder"
+      ]
+    },
+    {
+      "id": "VZDh9N5WjMQ",
+      "title": "Tosca Tutorial | Lesson 76 - Record & Create Exploratory Testing Scenario Document |",
+      "url": "https://www.youtube.com/watch?v=VZDh9N5WjMQ",
+      "playlist": "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification",
+      "playlist_index": 76,
+      "duration": 585,
+      "transcript": "raw/transcripts/VZDh9N5WjMQ.md",
+      "source": "youtube-subs",
+      "ingested_at": "2026-09-04T08:03:58Z",
+      "docs": [
+        "test-cases/exploratory-testing"
+      ]
+    },
+    {
+      "id": "HOZ81KPcyMY",
+      "title": "Tosca Tutorial | Lesson 77 - View and Manage buffers using Buffer Viewer | Tools |",
+      "url": "https://www.youtube.com/watch?v=HOZ81KPcyMY",
+      "playlist": "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification",
+      "playlist_index": 77,
+      "duration": 274,
+      "transcript": "raw/transcripts/HOZ81KPcyMY.md",
+      "source": "youtube-subs",
+      "ingested_at": "2026-09-04T08:04:03Z",
+      "docs": [
+        "data-and-parameters/buffers"
+      ]
+    },
+    {
+      "id": "OoIOA5VMnI8",
+      "title": "Tosca Tutorial | Lesson 78 - Steer Tosca Commander using Command Line | TCShell |",
+      "url": "https://www.youtube.com/watch?v=OoIOA5VMnI8",
+      "playlist": "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification",
+      "playlist_index": 78,
+      "duration": 611,
+      "transcript": "raw/transcripts/OoIOA5VMnI8.md",
+      "source": "youtube-subs",
+      "ingested_at": "2026-09-04T08:04:08Z",
+      "docs": [
+        "administration/command-line-tools"
+      ]
+    },
+    {
+      "id": "omYYNn94Vpc",
+      "title": "Tosca Tutorial | Lesson 79 - What is API Scan | How to Send or Receive API requests | API Testing |",
+      "url": "https://www.youtube.com/watch?v=omYYNn94Vpc",
+      "playlist": "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification",
+      "playlist_index": 79,
+      "duration": 833,
+      "transcript": "raw/transcripts/omYYNn94Vpc.md",
+      "source": "youtube-subs",
+      "ingested_at": "2026-09-04T08:04:13Z",
+      "docs": [
+        "api-testing/api-scan-basics"
+      ]
+    },
+    {
+      "id": "OId0okYmuM8",
+      "title": "Tosca Tutorial | Lesson 80 - Scan API Definition File and URI using  | Tosca API Scan | API Testing|",
+      "url": "https://www.youtube.com/watch?v=OId0okYmuM8",
+      "playlist": "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification",
+      "playlist_index": 80,
+      "duration": 625,
+      "transcript": "raw/transcripts/OId0okYmuM8.md",
+      "source": "youtube-subs",
+      "ingested_at": "2026-09-04T08:04:18Z",
+      "docs": [
+        "api-testing/api-scan-basics"
+      ]
+    },
+    {
+      "id": "rdxTMtZrVEs",
+      "title": "Tosca Tutorial | Lesson 81 - Generate & Execute API Test Cases | API Testing |",
+      "url": "https://www.youtube.com/watch?v=rdxTMtZrVEs",
+      "playlist": "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification",
+      "playlist_index": 81,
+      "duration": 892,
+      "transcript": "raw/transcripts/rdxTMtZrVEs.md",
+      "source": "youtube-subs",
+      "ingested_at": "2026-09-04T08:04:23Z",
+      "docs": [
+        "api-testing/api-test-cases"
+      ]
+    },
+    {
+      "id": "4Y9u474ohJM",
+      "title": "Tosca Tutorial | Lesson 82 - Buffer API Response Values | Configure Request Parameters | API Testing",
+      "url": "https://www.youtube.com/watch?v=4Y9u474ohJM",
+      "playlist": "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification",
+      "playlist_index": 82,
+      "duration": 843,
+      "transcript": "raw/transcripts/4Y9u474ohJM.md",
+      "source": "youtube-subs",
+      "ingested_at": "2026-09-04T08:16:18Z",
+      "docs": [
+        "api-testing/api-test-cases"
+      ]
+    },
+    {
+      "id": "ZDUQj2z3m7o",
+      "title": "Tosca Tutorial | Lesson 83 - Authorize API requests using Basic Authentication | API Testing |",
+      "url": "https://www.youtube.com/watch?v=ZDUQj2z3m7o",
+      "playlist": "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification",
+      "playlist_index": 83,
+      "duration": 307,
+      "transcript": "raw/transcripts/ZDUQj2z3m7o.md",
+      "source": "youtube-subs",
+      "ingested_at": "2026-09-04T08:04:33Z",
+      "docs": [
+        "api-testing/api-authentication"
+      ]
+    },
+    {
+      "id": "f5vrILeqbmQ",
+      "title": "Tosca Tutorial | Lesson 84 -  Authorize API requests using Digest Authentication | API Testing |",
+      "url": "https://www.youtube.com/watch?v=f5vrILeqbmQ",
+      "playlist": "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification",
+      "playlist_index": 84,
+      "duration": 427,
+      "transcript": "raw/transcripts/f5vrILeqbmQ.md",
+      "source": "youtube-subs",
+      "ingested_at": "2026-09-04T08:04:40Z",
+      "docs": [
+        "api-testing/api-authentication"
+      ]
+    },
+    {
+      "id": "udsDLQpUDrY",
+      "title": "Tosca Tutorial | Lesson 85 - Search, Validate and Structure API message in API Scan | API Testing |",
+      "url": "https://www.youtube.com/watch?v=udsDLQpUDrY",
+      "playlist": "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification",
+      "playlist_index": 85,
+      "duration": 613,
+      "transcript": "raw/transcripts/udsDLQpUDrY.md",
+      "source": "youtube-subs",
+      "ingested_at": "2026-09-04T08:04:44Z",
+      "docs": [
+        "api-testing/api-message-structure-and-soap"
+      ]
+    },
+    {
+      "id": "tkUDG21IiMA",
+      "title": "Tosca Tutorial | Lesson 86 - Scan & Verify SOAP API Messages | API Testing |",
+      "url": "https://www.youtube.com/watch?v=tkUDG21IiMA",
+      "playlist": "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification",
+      "playlist_index": 86,
+      "duration": 717,
+      "transcript": "raw/transcripts/tkUDG21IiMA.md",
+      "source": "youtube-subs",
+      "ingested_at": "2026-09-04T08:04:50Z",
+      "docs": [
+        "api-testing/api-message-structure-and-soap",
+        "api-testing/api-test-cases"
+      ]
+    },
+    {
+      "id": "2ynHXKyfLFc",
+      "title": "Tosca Tutorial | Lesson 87 - Send Attachments in API Messages using Tosca API Scan | API Testing |",
+      "url": "https://www.youtube.com/watch?v=2ynHXKyfLFc",
+      "playlist": "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification",
+      "playlist_index": 87,
+      "duration": 258,
+      "transcript": "raw/transcripts/2ynHXKyfLFc.md",
+      "source": "youtube-subs",
+      "ingested_at": "2026-09-04T08:04:55Z",
+      "docs": [
+        "api-testing/api-message-structure-and-soap"
+      ]
+    },
+    {
+      "id": "GWWPLBMYatE",
+      "title": "Tosca Tutorial | Lesson 88 - Record API Messages using Message Recorder | API Testing |",
+      "url": "https://www.youtube.com/watch?v=GWWPLBMYatE",
+      "playlist": "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification",
+      "playlist_index": 88,
+      "duration": 436,
+      "transcript": "raw/transcripts/GWWPLBMYatE.md",
+      "source": "youtube-subs",
+      "ingested_at": "2026-09-04T08:05:00Z",
+      "docs": [
+        "api-testing/api-message-recorder"
+      ]
+    },
+    {
+      "id": "GFVCsjV-8_w",
+      "title": "Tosca Tutorial | Lesson 89 - Run Tosca Commander Tasks from Jenkins | CI/CD | DevOps |",
+      "url": "https://www.youtube.com/watch?v=GFVCsjV-8_w",
+      "playlist": "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification",
+      "playlist_index": 89,
+      "duration": 410,
+      "transcript": "raw/transcripts/GFVCsjV-8_w.md",
+      "source": "youtube-subs",
+      "ingested_at": "2026-09-04T08:05:05Z",
+      "docs": [
+        "execution/ci-integration-jenkins"
+      ]
+    },
+    {
+      "id": "duNDCSb2Tz0",
+      "title": "Tosca Tutorial | Lesson 90 - Create Multi-User Workspace | SQLite DB | CheckIn/Checkout | Repository",
+      "url": "https://www.youtube.com/watch?v=duNDCSb2Tz0",
+      "playlist": "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification",
+      "playlist_index": 90,
+      "duration": 905,
+      "transcript": "raw/transcripts/duNDCSb2Tz0.md",
+      "source": "youtube-subs",
+      "ingested_at": "2026-09-04T08:05:11Z",
+      "docs": [
+        "administration/multi-user-workspaces"
+      ]
+    },
+    {
+      "id": "PDP4hgWD9zY",
+      "title": "Tosca Tutorial | Lesson 91 - Create and Manage User Groups with Users | Multi-User Workspace |",
+      "url": "https://www.youtube.com/watch?v=PDP4hgWD9zY",
+      "playlist": "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification",
+      "playlist_index": 91,
+      "duration": 758,
+      "transcript": "raw/transcripts/PDP4hgWD9zY.md",
+      "source": "youtube-subs",
+      "ingested_at": "2026-09-04T08:05:15Z",
+      "docs": [
+        "administration/multi-user-workspaces",
+        "administration/users-and-groups"
+      ]
+    },
+    {
+      "id": "M6J7EqEjjco",
+      "title": "Tosca Tutorial | Lesson 92 - Create, Merge and Delete Branches | Multi-User Workspace |",
+      "url": "https://www.youtube.com/watch?v=M6J7EqEjjco",
+      "playlist": "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification",
+      "playlist_index": 92,
+      "duration": 908,
+      "transcript": "raw/transcripts/M6J7EqEjjco.md",
+      "source": "youtube-subs",
+      "ingested_at": "2026-09-04T08:05:21Z",
+      "docs": [
+        "administration/branches"
+      ]
+    },
+    {
+      "id": "RwG5mX78aDA",
+      "title": "Tosca Tutorial | Lesson 93 - Backup & Restore Repositories | Multi-User Repositories |",
+      "url": "https://www.youtube.com/watch?v=RwG5mX78aDA",
+      "playlist": "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification",
+      "playlist_index": 93,
+      "duration": 446,
+      "transcript": "raw/transcripts/RwG5mX78aDA.md",
+      "source": "youtube-subs",
+      "ingested_at": "2026-09-04T08:05:27Z",
+      "docs": [
+        "administration/backup-and-restore"
+      ]
+    },
+    {
+      "id": "us-zGUBdgwU",
+      "title": "Tosca Tutorial | Lesson 94 - Clone Workspaces using Command Line Tool | TCWorkspaceUtil |",
+      "url": "https://www.youtube.com/watch?v=us-zGUBdgwU",
+      "playlist": "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification",
+      "playlist_index": 94,
+      "duration": 418,
+      "transcript": "raw/transcripts/us-zGUBdgwU.md",
+      "source": "youtube-subs",
+      "ingested_at": "2026-09-04T08:05:32Z",
+      "docs": [
+        "administration/command-line-tools"
+      ]
+    },
+    {
+      "id": "kkhG9MAM41A",
+      "title": "Tosca Tutorial | Lesson 95 - View Latest Change Details | Checkout Details | Revoke Checkout |",
+      "url": "https://www.youtube.com/watch?v=kkhG9MAM41A",
+      "playlist": "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification",
+      "playlist_index": 95,
+      "duration": 348,
+      "transcript": "raw/transcripts/kkhG9MAM41A.md",
+      "source": "youtube-subs",
+      "ingested_at": "2026-09-04T08:28:49Z",
+      "docs": [
+        "administration/multi-user-workspaces"
+      ]
+    },
+    {
+      "id": "zFHcStTuHbI",
+      "title": "Tosca Tutorial | Lesson 96 - Use Test Mandates to execute same tests simultaneously | Multiple Users",
+      "url": "https://www.youtube.com/watch?v=zFHcStTuHbI",
+      "playlist": "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification",
+      "playlist_index": 96,
+      "duration": 390,
+      "transcript": "raw/transcripts/zFHcStTuHbI.md",
+      "source": "youtube-subs",
+      "ingested_at": "2026-09-04T08:05:47Z",
+      "docs": [
+        "administration/test-mandates"
+      ]
+    },
+    {
+      "id": "09bxXvoB5zo",
+      "title": "Tosca Tutorial | Lesson 97 - Use Proper Naming Conventions | Best Practices |",
+      "url": "https://www.youtube.com/watch?v=09bxXvoB5zo",
+      "playlist": "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification",
+      "playlist_index": 97,
+      "duration": 559,
+      "transcript": "raw/transcripts/09bxXvoB5zo.md",
+      "source": "youtube-subs",
+      "ingested_at": "2026-09-04T08:05:52Z",
+      "docs": [
+        "best-practices/naming-conventions"
+      ]
+    },
+    {
+      "id": "rRLn2RFyN14",
+      "title": "Tosca Tutorial | Lesson 98 - Use Verification Points in Test Cases | Best Practices |",
+      "url": "https://www.youtube.com/watch?v=rRLn2RFyN14",
+      "playlist": "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification",
+      "playlist_index": 98,
+      "duration": 441,
+      "transcript": "raw/transcripts/rRLn2RFyN14.md",
+      "source": "youtube-subs",
+      "ingested_at": "2026-09-04T08:05:58Z",
+      "docs": [
+        "best-practices/test-case-structure"
+      ]
+    },
+    {
+      "id": "8_WAZ6d1jQM",
+      "title": "Tosca Tutorial | Lesson 99 - Use limited Module Attributes | Categorize | Best Practices |",
+      "url": "https://www.youtube.com/watch?v=8_WAZ6d1jQM",
+      "playlist": "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification",
+      "playlist_index": 99,
+      "duration": 388,
+      "transcript": "raw/transcripts/8_WAZ6d1jQM.md",
+      "source": "youtube-subs",
+      "ingested_at": "2026-09-04T08:06:05Z",
+      "docs": [
+        "best-practices/module-hygiene"
+      ]
+    },
+    {
+      "id": "CH-pNE6AhqQ",
+      "title": "Tosca Tutorial | Lesson 100 - No Static Waits in Test Cases | Best Practices |",
+      "url": "https://www.youtube.com/watch?v=CH-pNE6AhqQ",
+      "playlist": "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification",
+      "playlist_index": 100,
+      "duration": 612,
+      "transcript": "raw/transcripts/CH-pNE6AhqQ.md",
+      "source": "youtube-subs",
+      "ingested_at": "2026-09-04T08:06:11Z",
+      "docs": [
+        "best-practices/synchronisation-not-waits"
+      ]
+    },
+    {
+      "id": "NRzZcXaskvo",
+      "title": "Tosca Tutorial | Lesson 101 - No Mouse or Keyboard Methods in Test Step Values | Best Practices |",
+      "url": "https://www.youtube.com/watch?v=NRzZcXaskvo",
+      "playlist": "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification",
+      "playlist_index": 101,
+      "duration": 349,
+      "transcript": "raw/transcripts/NRzZcXaskvo.md",
+      "source": "youtube-subs",
+      "ingested_at": "2026-09-04T08:06:16Z",
+      "docs": [
+        "best-practices/synchronisation-not-waits"
+      ]
+    },
+    {
+      "id": "a_npDSmS95s",
+      "title": "Tosca Tutorial | Lesson 102 - Loops should be avoided in Test Cases | Best Practices |",
+      "url": "https://www.youtube.com/watch?v=a_npDSmS95s",
+      "playlist": "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification",
+      "playlist_index": 102,
+      "duration": 439,
+      "transcript": "raw/transcripts/a_npDSmS95s.md",
+      "source": "youtube-subs",
+      "ingested_at": "2026-09-04T08:06:23Z",
+      "docs": [
+        "best-practices/test-case-structure"
+      ]
+    },
+    {
+      "id": "oa8weD5auAY",
+      "title": "Tosca Tutorial | Lesson 103 - Test Steps should be grouped into different folders | Best Practices |",
+      "url": "https://www.youtube.com/watch?v=oa8weD5auAY",
+      "playlist": "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification",
+      "playlist_index": 103,
+      "duration": 417,
+      "transcript": "raw/transcripts/oa8weD5auAY.md",
+      "source": "youtube-subs",
+      "ingested_at": "2026-09-04T08:06:29Z",
+      "docs": [
+        "best-practices/test-case-structure"
+      ]
+    },
+    {
+      "id": "VT4f_mHizH4",
+      "title": "Tosca Tutorial | Lesson 104 - Merge Duplicate Modules | Workspace Performance | Best Practices |",
+      "url": "https://www.youtube.com/watch?v=VT4f_mHizH4",
+      "playlist": "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification",
+      "playlist_index": 104,
+      "duration": 383,
+      "transcript": "raw/transcripts/VT4f_mHizH4.md",
+      "source": "youtube-subs",
+      "ingested_at": "2026-09-04T08:06:34Z",
+      "docs": [
+        "best-practices/module-hygiene",
+        "modules/duplicate-and-merge-modules"
+      ]
+    },
+    {
+      "id": "IAXhQvwRuuk",
+      "title": "Tosca Tutorial | Lesson 105 - Set Proper Workstates for Test Cases | Best Practices |",
+      "url": "https://www.youtube.com/watch?v=IAXhQvwRuuk",
+      "playlist": "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification",
+      "playlist_index": 105,
+      "duration": 452,
+      "transcript": "raw/transcripts/IAXhQvwRuuk.md",
+      "source": "youtube-subs",
+      "ingested_at": "2026-09-04T08:06:41Z",
+      "docs": [
+        "best-practices/test-case-structure"
+      ]
+    },
+    {
+      "id": "1khI-I1gonk",
+      "title": "Tosca Tutorial | Lesson 106 - Handle multiple browser tabs | Configuration Parameter | Obstacles |",
+      "url": "https://www.youtube.com/watch?v=1khI-I1gonk",
+      "playlist": "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification",
+      "playlist_index": 106,
+      "duration": 517,
+      "transcript": "raw/transcripts/1khI-I1gonk.md",
+      "source": "youtube-subs",
+      "ingested_at": "2026-09-04T08:06:46Z",
+      "docs": [
+        "troubleshooting/common-problems-and-fixes"
+      ]
+    },
+    {
+      "id": "1wda85oh_ok",
+      "title": "Tosca Tutorial Lesson 106 - Review Process | Approval stages | 4 eyes principal | Best Practices |",
+      "url": "https://www.youtube.com/watch?v=1wda85oh_ok",
+      "playlist": "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification",
+      "playlist_index": 107,
+      "duration": 568,
+      "transcript": "raw/transcripts/1wda85oh_ok.md",
+      "source": "youtube-subs",
+      "ingested_at": "2026-09-04T08:06:53Z",
+      "docs": [
+        "best-practices/review-process"
+      ]
+    },
+    {
+      "id": "AX495tz4jIM",
+      "title": "Tosca Tutorial | Lesson 107 -  IDs are not everything | Elements with same IDs | Obstacle 1 |",
+      "url": "https://www.youtube.com/watch?v=AX495tz4jIM",
+      "playlist": "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification",
+      "playlist_index": 108,
+      "duration": 415,
+      "transcript": "raw/transcripts/AX495tz4jIM.md",
+      "source": "youtube-subs",
+      "ingested_at": "2026-09-04T08:06:58Z",
+      "docs": [
+        "troubleshooting/obstacles-identification"
+      ]
+    },
+    {
+      "id": "jB6ay9xvRcE",
+      "title": "Tosca Tutorial | Lesson 108 - Twins | Duplicate Elements with same ID and InnerText | Obstacle 2 |",
+      "url": "https://www.youtube.com/watch?v=jB6ay9xvRcE",
+      "playlist": "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification",
+      "playlist_index": 109,
+      "duration": 512,
+      "transcript": "raw/transcripts/jB6ay9xvRcE.md",
+      "source": "youtube-subs",
+      "ingested_at": "2026-09-04T08:07:04Z",
+      "docs": [
+        "troubleshooting/obstacles-identification"
+      ]
+    },
+    {
+      "id": "k6AQZELm3H4",
+      "title": "Tosca Tutorial | Lesson 109 - Not a Table | Dynamically changing Table Element | Obstacle 3 |",
+      "url": "https://www.youtube.com/watch?v=k6AQZELm3H4",
+      "playlist": "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification",
+      "playlist_index": 110,
+      "duration": 535,
+      "transcript": "raw/transcripts/k6AQZELm3H4.md",
+      "source": "youtube-subs",
+      "ingested_at": "2026-09-04T08:07:11Z",
+      "docs": [
+        "troubleshooting/obstacles-tables"
+      ]
+    },
+    {
+      "id": "sZ4uO5o26Kc",
+      "title": "Tosca Tutorial | Lesson 110 - Two Times | Dynamically changing ID Property | Obstacle 4 |",
+      "url": "https://www.youtube.com/watch?v=sZ4uO5o26Kc",
+      "playlist": "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification",
+      "playlist_index": 111,
+      "duration": 338,
+      "transcript": "raw/transcripts/sZ4uO5o26Kc.md",
+      "source": "youtube-subs",
+      "ingested_at": "2026-09-04T08:07:18Z",
+      "docs": [
+        "troubleshooting/obstacles-identification"
+      ]
+    },
+    {
+      "id": "dWayq96UL1M",
+      "title": "Tosca Tutorial | Lesson 111 - Complex Table Interactions | Dynamic Rows  | Obstacle 5 |",
+      "url": "https://www.youtube.com/watch?v=dWayq96UL1M",
+      "playlist": "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification",
+      "playlist_index": 112,
+      "duration": 351,
+      "transcript": "raw/transcripts/dWayq96UL1M.md",
+      "source": "youtube-subs",
+      "ingested_at": "2026-09-04T08:07:24Z",
+      "docs": [
+        "troubleshooting/obstacles-tables"
+      ]
+    },
+    {
+      "id": "PKNn-hsjh_Q",
+      "title": "Tosca Tutorial | Lesson 112 - Multiselect ListBox | Cardinality | Explicit Name | Obstacle 6 |",
+      "url": "https://www.youtube.com/watch?v=PKNn-hsjh_Q",
+      "playlist": "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification",
+      "playlist_index": 113,
+      "duration": 443,
+      "transcript": "raw/transcripts/PKNn-hsjh_Q.md",
+      "source": "youtube-subs",
+      "ingested_at": "2026-09-04T08:07:31Z",
+      "docs": [
+        "troubleshooting/obstacles-identification"
+      ]
+    },
+    {
+      "id": "daXKUviEo2g",
+      "title": "Tosca Tutorial | Lesson 113 - Autocomplete TextBox | ResultCount | InnerText | Obstacle 7 |",
+      "url": "https://www.youtube.com/watch?v=daXKUviEo2g",
+      "playlist": "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification",
+      "playlist_index": 114,
+      "duration": 433,
+      "transcript": "raw/transcripts/daXKUviEo2g.md",
+      "source": "youtube-subs",
+      "ingested_at": "2026-09-04T08:07:36Z",
+      "docs": [
+        "troubleshooting/obstacles-identification"
+      ]
+    },
+    {
+      "id": "Fq68hFb2K_0",
+      "title": "Tosca Tutorial | Lesson 114 - Drag and Drop Image | Repositioning | Obstacle 8 |",
+      "url": "https://www.youtube.com/watch?v=Fq68hFb2K_0",
+      "playlist": "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification",
+      "playlist_index": 115,
+      "duration": 232,
+      "transcript": "raw/transcripts/Fq68hFb2K_0.md",
+      "source": "youtube-subs",
+      "ingested_at": "2026-09-04T08:07:42Z",
+      "docs": [
+        "troubleshooting/obstacles-input-and-clicks"
+      ]
+    },
+    {
+      "id": "vjxpW60gvXs",
+      "title": "Tosca Tutorial | Lesson 115 - Drag and Drop Table Rows | Repetition | Obstacle 9 |",
+      "url": "https://www.youtube.com/watch?v=vjxpW60gvXs",
+      "playlist": "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification",
+      "playlist_index": 116,
+      "duration": 449,
+      "transcript": "raw/transcripts/vjxpW60gvXs.md",
+      "source": "youtube-subs",
+      "ingested_at": "2026-09-04T08:29:19Z",
       "docs": []
+    },
+    {
+      "id": "HhOPIJ-fwyI",
+      "title": "Tosca Tutorial | Lesson 116 - Extract Text | XBuffer | Dynamic Text | Obstacle 10 |",
+      "url": "https://www.youtube.com/watch?v=HhOPIJ-fwyI",
+      "playlist": "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification",
+      "playlist_index": 117,
+      "duration": 438,
+      "transcript": "raw/transcripts/HhOPIJ-fwyI.md",
+      "source": "youtube-subs",
+      "ingested_at": "2026-09-04T08:07:59Z",
+      "docs": [
+        "data-and-parameters/buffers"
+      ]
+    },
+    {
+      "id": "BVuIulDDDpA",
+      "title": "Tosca Tutorial | Lesson 117 - Add Random Numbers | Math Expression | SendKeys | Obstacle 11 |",
+      "url": "https://www.youtube.com/watch?v=BVuIulDDDpA",
+      "playlist": "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification",
+      "playlist_index": 118,
+      "duration": 548,
+      "transcript": "raw/transcripts/BVuIulDDDpA.md",
+      "source": "youtube-subs",
+      "ingested_at": "2026-09-04T08:08:06Z",
+      "docs": [
+        "expressions/random-values"
+      ]
+    },
+    {
+      "id": "xO3FT31lsks",
+      "title": "Tosca Tutorial | Lesson 118 - Load, Create & Search XML File | XML Engine | Obstacle 12 |",
+      "url": "https://www.youtube.com/watch?v=xO3FT31lsks",
+      "playlist": "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification",
+      "playlist_index": 119,
+      "duration": 829,
+      "transcript": "raw/transcripts/xO3FT31lsks.md",
+      "source": "youtube-subs",
+      "ingested_at": "2026-09-04T08:08:11Z",
+      "docs": [
+        "engines/xml-engine"
+      ]
+    },
+    {
+      "id": "9-nRnS3-lPM",
+      "title": "Tosca Tutorial | Lesson 119 - Extract Random Numbers | Regex | Named Group | Obstacle 13 |",
+      "url": "https://www.youtube.com/watch?v=9-nRnS3-lPM",
+      "playlist": "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification",
+      "playlist_index": 120,
+      "duration": 563,
+      "transcript": "raw/transcripts/9-nRnS3-lPM.md",
+      "source": "youtube-subs",
+      "ingested_at": "2026-09-04T08:08:15Z",
+      "docs": [
+        "expressions/intervals-and-verification-expressions",
+        "expressions/random-values"
+      ]
+    },
+    {
+      "id": "gLTi9Qyejp4",
+      "title": "Tosca Tutorial | Lesson 120 - Calculate Calendar Date | Date Expressions | Obstacle 14 |",
+      "url": "https://www.youtube.com/watch?v=gLTi9Qyejp4",
+      "playlist": "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification",
+      "playlist_index": 121,
+      "duration": 438,
+      "transcript": "raw/transcripts/gLTi9Qyejp4.md",
+      "source": "youtube-subs",
+      "ingested_at": "2026-09-04T08:08:18Z",
+      "docs": [
+        "expressions/date-expressions"
+      ]
+    },
+    {
+      "id": "G-1TF7oLe8g",
+      "title": "Tosca Tutorial | Lesson 121 - Multiple Interactions | While Loop | Obstacle 15 |",
+      "url": "https://www.youtube.com/watch?v=G-1TF7oLe8g",
+      "playlist": "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification",
+      "playlist_index": 122,
+      "duration": 405,
+      "transcript": "raw/transcripts/G-1TF7oLe8g.md",
+      "source": "youtube-subs",
+      "ingested_at": "2026-09-04T08:08:22Z",
+      "docs": [
+        "troubleshooting/obstacles-input-and-clicks"
+      ]
+    },
+    {
+      "id": "doHtSzuBCFY",
+      "title": "Tosca Tutorial | Lesson 122 - Close Window Popup | Window Operations |Obstacle 16 |",
+      "url": "https://www.youtube.com/watch?v=doHtSzuBCFY",
+      "playlist": "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification",
+      "playlist_index": 123,
+      "duration": 447,
+      "transcript": "raw/transcripts/doHtSzuBCFY.md",
+      "source": "youtube-subs",
+      "ingested_at": "2026-09-04T08:08:26Z",
+      "docs": [
+        "standard-modules/window-operations"
+      ]
+    },
+    {
+      "id": "jZU_s3DspGY",
+      "title": "Tosca Tutorial | Lesson 123 - Enter Tomorrow's Date | Dynamic Date Expression | Obstacle 17 |",
+      "url": "https://www.youtube.com/watch?v=jZU_s3DspGY",
+      "playlist": "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification",
+      "playlist_index": 124,
+      "duration": 323,
+      "transcript": "raw/transcripts/jZU_s3DspGY.md",
+      "source": "youtube-subs",
+      "ingested_at": "2026-09-04T08:08:30Z",
+      "docs": [
+        "expressions/date-expressions"
+      ]
+    },
+    {
+      "id": "GeBgfUdwM-E",
+      "title": "Tosca Tutorial | Lesson 124 - Count Number of Rows | Dynamic Web Table | RowCount | Obstacle 18 |",
+      "url": "https://www.youtube.com/watch?v=GeBgfUdwM-E",
+      "playlist": "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification",
+      "playlist_index": 125,
+      "duration": 297,
+      "transcript": "raw/transcripts/GeBgfUdwM-E.md",
+      "source": "youtube-subs",
+      "ingested_at": "2026-09-04T08:08:34Z",
+      "docs": [
+        "troubleshooting/obstacles-tables"
+      ]
+    },
+    {
+      "id": "2cSYF98wQb8",
+      "title": "Tosca Tutorial | Lesson 125 - Get Last Table Row Value | LastContentRow | Obstacle 19 |",
+      "url": "https://www.youtube.com/watch?v=2cSYF98wQb8",
+      "playlist": "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification",
+      "playlist_index": 126,
+      "duration": 405,
+      "transcript": "raw/transcripts/2cSYF98wQb8.md",
+      "source": "youtube-subs",
+      "ingested_at": "2026-09-04T08:08:39Z",
+      "docs": [
+        "troubleshooting/obstacles-tables"
+      ]
+    },
+    {
+      "id": "2sbIUWs5wcI",
+      "title": "Tosca Tutorial | Lesson 126 - Random Mathematical Operations | Evaluation Tool | Obstacle 20 |",
+      "url": "https://www.youtube.com/watch?v=2sbIUWs5wcI",
+      "playlist": "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification",
+      "playlist_index": 127,
+      "duration": 613,
+      "transcript": "raw/transcripts/2sbIUWs5wcI.md",
+      "source": "youtube-subs",
+      "ingested_at": "2026-09-04T08:08:43Z",
+      "docs": [
+        "standard-modules/evaluation-tool"
+      ]
+    },
+    {
+      "id": "WMatBr3w8UI",
+      "title": "Tosca Tutorial | Lesson 127 - Search Table Cell Value | Constraint Action Mode | Obstacle 21 |",
+      "url": "https://www.youtube.com/watch?v=WMatBr3w8UI",
+      "playlist": "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification",
+      "playlist_index": 128,
+      "duration": 327,
+      "transcript": "raw/transcripts/WMatBr3w8UI.md",
+      "source": "youtube-subs",
+      "ingested_at": "2026-09-04T08:08:48Z",
+      "docs": [
+        "troubleshooting/obstacles-tables"
+      ]
+    },
+    {
+      "id": "ULBjqXHmDjs",
+      "title": "Tosca Tutorial | Lesson 128 - Meeting Scheduler Table | Buffer Action Mode | Obstacle 22 |",
+      "url": "https://www.youtube.com/watch?v=ULBjqXHmDjs",
+      "playlist": "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification",
+      "playlist_index": 129,
+      "duration": 368,
+      "transcript": "raw/transcripts/ULBjqXHmDjs.md",
+      "source": "youtube-subs",
+      "ingested_at": "2026-09-04T08:08:52Z",
+      "docs": [
+        "troubleshooting/obstacles-tables"
+      ]
+    },
+    {
+      "id": "R0zEbmFq0HE",
+      "title": "Tosca Tutorial | Live Session | Test Case Designing | End-To-End | Real time Examples | Live Project",
+      "url": "https://www.youtube.com/watch?v=R0zEbmFq0HE",
+      "playlist": "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification",
+      "playlist_index": 130,
+      "duration": 3437,
+      "transcript": "raw/transcripts/R0zEbmFq0HE.md",
+      "source": "youtube-subs",
+      "ingested_at": "2026-09-04T08:08:55Z",
+      "docs": [
+        "test-case-design/design-classes",
+        "test-case-design/instances-and-combinatorics",
+        "test-case-design/templates-and-instantiation",
+        "test-case-design/test-case-design-overview",
+        "test-case-design/test-sheets-and-attributes",
+        "test-case-design/worked-example-end-to-end"
+      ]
+    },
+    {
+      "id": "UQpoXy-e3no",
+      "title": "Tosca Tutorial | Lesson 129 - Dropdown Table | Dynamic XBuffer | Embedded Controls | Obstacle 23 |",
+      "url": "https://www.youtube.com/watch?v=UQpoXy-e3no",
+      "playlist": "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification",
+      "playlist_index": 131,
+      "duration": 631,
+      "transcript": "raw/transcripts/UQpoXy-e3no.md",
+      "source": "youtube-subs",
+      "ingested_at": "2026-09-04T08:08:59Z",
+      "docs": [
+        "troubleshooting/obstacles-tables"
+      ]
+    },
+    {
+      "id": "RsbKnsNt8Rs",
+      "title": "Tosca Tutorial | Lesson 131 - Scroll Into View | Steering Parameter | Scrolling  | Obstacle 25 |",
+      "url": "https://www.youtube.com/watch?v=RsbKnsNt8Rs",
+      "playlist": "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification",
+      "playlist_index": 132,
+      "duration": 333,
+      "transcript": "raw/transcripts/RsbKnsNt8Rs.md",
+      "source": "youtube-subs",
+      "ingested_at": "2026-09-04T08:09:03Z",
+      "docs": [
+        "troubleshooting/obstacles-identification"
+      ]
+    },
+    {
+      "id": "jZvsxD41Iuw",
+      "title": "Tosca Tutorial | Lesson 130 - Hidden Element | Click Element |  Obstacle 24 |",
+      "url": "https://www.youtube.com/watch?v=jZvsxD41Iuw",
+      "playlist": "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification",
+      "playlist_index": 133,
+      "duration": 302,
+      "transcript": "raw/transcripts/jZvsxD41Iuw.md",
+      "source": "youtube-subs",
+      "ingested_at": "2026-09-04T08:09:06Z",
+      "docs": [
+        "troubleshooting/obstacles-identification"
+      ]
+    },
+    {
+      "id": "B2A_h9TMzFM",
+      "title": "Tosca Tutorial | Lesson 132 - Escape Values | Click Method | Obstacle 26 |",
+      "url": "https://www.youtube.com/watch?v=B2A_h9TMzFM",
+      "playlist": "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification",
+      "playlist_index": 134,
+      "duration": 271,
+      "transcript": "raw/transcripts/B2A_h9TMzFM.md",
+      "source": "youtube-subs",
+      "ingested_at": "2026-09-04T08:09:10Z",
+      "docs": [
+        "troubleshooting/obstacles-input-and-clicks"
+      ]
+    },
+    {
+      "id": "3QNlHZLmelw",
+      "title": "Tosca Tutorial | Lesson 133 - Click Position | OffsetHorizontal | OffsetVertical | Obstacle 27 |",
+      "url": "https://www.youtube.com/watch?v=3QNlHZLmelw",
+      "playlist": "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification",
+      "playlist_index": 135,
+      "duration": 374,
+      "transcript": "raw/transcripts/3QNlHZLmelw.md",
+      "source": "youtube-subs",
+      "ingested_at": "2026-09-04T08:09:13Z",
+      "docs": [
+        "troubleshooting/obstacles-input-and-clicks"
+      ]
+    },
+    {
+      "id": "ym1ewJCAAJk",
+      "title": "Tosca Tutorial | Lesson 134 - Extract XML | Scan XML | Buffer Values | File Scan | Obstacle 28 |",
+      "url": "https://www.youtube.com/watch?v=ym1ewJCAAJk",
+      "playlist": "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification",
+      "playlist_index": 136,
+      "duration": 531,
+      "transcript": "raw/transcripts/ym1ewJCAAJk.md",
+      "source": "youtube-subs",
+      "ingested_at": "2026-09-04T08:29:30Z",
+      "docs": [
+        "engines/xml-engine"
+      ]
+    },
+    {
+      "id": "tOYDf55pDME",
+      "title": "Tosca Tutorial | Lesson 135 - Future Date | LDay | Date Expressions | Offset | Obstacle 29 |",
+      "url": "https://www.youtube.com/watch?v=tOYDf55pDME",
+      "playlist": "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification",
+      "playlist_index": 137,
+      "duration": 325,
+      "transcript": "raw/transcripts/tOYDf55pDME.md",
+      "source": "youtube-subs",
+      "ingested_at": "2026-09-04T08:09:21Z",
+      "docs": [
+        "expressions/date-expressions"
+      ]
+    },
+    {
+      "id": "aAjkpWkv9lE",
+      "title": "Tosca Tutorial | Lesson 136 - Click On Screen | XModules | Screen Width | Obstacle 30 |",
+      "url": "https://www.youtube.com/watch?v=aAjkpWkv9lE",
+      "playlist": "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification",
+      "playlist_index": 138,
+      "duration": 476,
+      "transcript": "raw/transcripts/aAjkpWkv9lE.md",
+      "source": "youtube-subs",
+      "ingested_at": "2026-09-04T08:09:25Z",
+      "docs": [
+        "troubleshooting/obstacles-input-and-clicks"
+      ]
+    },
+    {
+      "id": "KyyPVKyA60A",
+      "title": "Tosca Tutorial | Lesson 137 - Select Random Combo Box Item | Random Text | Buffer | Obstacle 31 |",
+      "url": "https://www.youtube.com/watch?v=KyyPVKyA60A",
+      "playlist": "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification",
+      "playlist_index": 139,
+      "duration": 382,
+      "transcript": "raw/transcripts/KyyPVKyA60A.md",
+      "source": "youtube-subs",
+      "ingested_at": "2026-09-04T08:09:28Z",
+      "docs": [
+        "expressions/random-values"
+      ]
+    },
+    {
+      "id": "Vgo6EM86-7k",
+      "title": "Tosca Tutorial | Live Webinar Session | Requirements Management | Risk Based Testing | Live Project|",
+      "url": "https://www.youtube.com/watch?v=Vgo6EM86-7k",
+      "playlist": "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification",
+      "playlist_index": 140,
+      "duration": 2865,
+      "transcript": "raw/transcripts/Vgo6EM86-7k.md",
+      "source": "youtube-subs",
+      "ingested_at": "2026-09-04T08:09:32Z",
+      "docs": [
+        "requirements-and-reporting/requirements-and-risk"
+      ]
+    },
+    {
+      "id": "o1b8cACf4Hs",
+      "title": "Tosca Tutorial | Lesson 138 - Common RealTime Tosca Problems & Fixes | Synchronization Policy |",
+      "url": "https://www.youtube.com/watch?v=o1b8cACf4Hs",
+      "playlist": "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification",
+      "playlist_index": 141,
+      "duration": 502,
+      "transcript": "raw/transcripts/o1b8cACf4Hs.md",
+      "source": "youtube-subs",
+      "ingested_at": "2026-09-04T08:09:35Z",
+      "docs": [
+        "administration/multi-user-workspaces"
+      ]
+    },
+    {
+      "id": "ucnJlmkhs04",
+      "title": "Tosca Tutorial | Lesson 139 - Common RealTime Tosca Problems & Fixes | Tosca Date Format |",
+      "url": "https://www.youtube.com/watch?v=ucnJlmkhs04",
+      "playlist": "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification",
+      "playlist_index": 142,
+      "duration": 512,
+      "transcript": "raw/transcripts/ucnJlmkhs04.md",
+      "source": "youtube-subs",
+      "ingested_at": "2026-09-04T08:09:39Z",
+      "docs": [
+        "expressions/date-expressions"
+      ]
+    },
+    {
+      "id": "LeSc28YnTTk",
+      "title": "Tosca Tutorial | Lesson 140 - Common RealTime Tosca Problems & Fixes | Regular Expression | Buffers|",
+      "url": "https://www.youtube.com/watch?v=LeSc28YnTTk",
+      "playlist": "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification",
+      "playlist_index": 143,
+      "duration": 663,
+      "transcript": "raw/transcripts/LeSc28YnTTk.md",
+      "source": "youtube-subs",
+      "ingested_at": "2026-09-04T08:09:43Z",
+      "docs": [
+        "expressions/intervals-and-verification-expressions"
+      ]
+    },
+    {
+      "id": "EWJxuLJyJWU",
+      "title": "Tosca Tutorial| Lesson 141 - Common RealTime Tosca Problems & Fixes | Schedule Automated Executions|",
+      "url": "https://www.youtube.com/watch?v=EWJxuLJyJWU",
+      "playlist": "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification",
+      "playlist_index": 144,
+      "duration": 627,
+      "transcript": "raw/transcripts/EWJxuLJyJWU.md",
+      "source": "youtube-subs",
+      "ingested_at": "2026-09-04T08:18:35Z",
+      "docs": [
+        "execution/scheduling-executions"
+      ]
+    },
+    {
+      "id": "UkEHEb_LNrI",
+      "title": "Tosca Tutorial| Lesson 142 - Common Problems & Fixes | Desktop Application | Generic List Items |",
+      "url": "https://www.youtube.com/watch?v=UkEHEb_LNrI",
+      "playlist": "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification",
+      "playlist_index": 145,
+      "duration": 769,
+      "transcript": "raw/transcripts/UkEHEb_LNrI.md",
+      "source": "youtube-subs",
+      "ingested_at": "2026-09-04T08:09:52Z",
+      "docs": [
+        "engines/uia-engine-and-desktop"
+      ]
+    },
+    {
+      "id": "BUXOkE9GlI0",
+      "title": "Tosca Tutorial | Lesson 143 - Common Problems & Fixes | UIA Engine | JavaScript Alert Window |",
+      "url": "https://www.youtube.com/watch?v=BUXOkE9GlI0",
+      "playlist": "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification",
+      "playlist_index": 146,
+      "duration": 475,
+      "transcript": "raw/transcripts/BUXOkE9GlI0.md",
+      "source": "youtube-subs",
+      "ingested_at": "2026-09-04T08:09:56Z",
+      "docs": [
+        "engines/uia-engine-and-desktop"
+      ]
+    },
+    {
+      "id": "h8u3f4AU4_I",
+      "title": "Tosca Tutorial | Lesson 143 - Common Problems & Fixes | No Feasible Executor Found | Execution |",
+      "url": "https://www.youtube.com/watch?v=h8u3f4AU4_I",
+      "playlist": "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification",
+      "playlist_index": 147,
+      "duration": 480,
+      "transcript": "raw/transcripts/h8u3f4AU4_I.md",
+      "source": "youtube-subs",
+      "ingested_at": "2026-09-04T08:10:01Z",
+      "docs": [
+        "execution/cross-browser-execution"
+      ]
+    },
+    {
+      "id": "8tXcwf0qLx8",
+      "title": "Tosca Tutorial | Lesson 144 - Common Problems & Fixes | Cross Browser Testing | Multiple Browsers |",
+      "url": "https://www.youtube.com/watch?v=8tXcwf0qLx8",
+      "playlist": "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification",
+      "playlist_index": 148,
+      "duration": 422,
+      "transcript": "raw/transcripts/8tXcwf0qLx8.md",
+      "source": "youtube-subs",
+      "ingested_at": "2026-09-04T08:10:05Z",
+      "docs": [
+        "execution/cross-browser-execution"
+      ]
+    },
+    {
+      "id": "L3gBI9u0VAc",
+      "title": "Tosca Tutorial | Lesson 145 - Common Problems & Fixes | Recover Deleted Objects | Versioning |",
+      "url": "https://www.youtube.com/watch?v=L3gBI9u0VAc",
+      "playlist": "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification",
+      "playlist_index": 149,
+      "duration": 865,
+      "transcript": "raw/transcripts/L3gBI9u0VAc.md",
+      "source": "youtube-subs",
+      "ingested_at": "2026-09-04T08:10:10Z",
+      "docs": [
+        "administration/versioning-and-recovery"
+      ]
+    },
+    {
+      "id": "1t4hgmo42lM",
+      "title": "Tosca Tutorial | Lesson 146 - Common Problems & Fixes | Get Total PageCount of PDF | PDF Scan |",
+      "url": "https://www.youtube.com/watch?v=1t4hgmo42lM",
+      "playlist": "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification",
+      "playlist_index": 150,
+      "duration": 471,
+      "transcript": "raw/transcripts/1t4hgmo42lM.md",
+      "source": "youtube-subs",
+      "ingested_at": "2026-09-04T08:10:14Z",
+      "docs": [
+        "engines/pdf-engine"
+      ]
+    },
+    {
+      "id": "pfEIPPUBbo0",
+      "title": "Tosca Tutorial | Lesson 147 - Common Problems & Fixes | Switch Browser Tabs | SendKeys |",
+      "url": "https://www.youtube.com/watch?v=pfEIPPUBbo0",
+      "playlist": "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification",
+      "playlist_index": 151,
+      "duration": 392,
+      "transcript": "raw/transcripts/pfEIPPUBbo0.md",
+      "source": "youtube-subs",
+      "ingested_at": "2026-09-04T08:10:20Z",
+      "docs": [
+        "troubleshooting/common-problems-and-fixes"
+      ]
+    },
+    {
+      "id": "ajyFN1dqNHE",
+      "title": "Tosca Tutorial | Lesson 148 - Common Issues | Remove Special Characters | String Replace | Escape |",
+      "url": "https://www.youtube.com/watch?v=ajyFN1dqNHE",
+      "playlist": "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification",
+      "playlist_index": 152,
+      "duration": 662,
+      "transcript": "raw/transcripts/ajyFN1dqNHE.md",
+      "source": "youtube-subs",
+      "ingested_at": "2026-09-04T08:10:24Z",
+      "docs": [
+        "expressions/string-operations"
+      ]
+    },
+    {
+      "id": "oA61Emt_HUs",
+      "title": "Tosca Tutorial | Lesson 149 - Common Issues | Count All Links | ResultCount | Cardinality | Regex |",
+      "url": "https://www.youtube.com/watch?v=oA61Emt_HUs",
+      "playlist": "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification",
+      "playlist_index": 153,
+      "duration": 677,
+      "transcript": "raw/transcripts/oA61Emt_HUs.md",
+      "source": "youtube-subs",
+      "ingested_at": "2026-09-04T08:10:29Z",
+      "docs": [
+        "troubleshooting/common-problems-and-fixes"
+      ]
+    },
+    {
+      "id": "WBx--Dvc1eM",
+      "title": "Tosca Tutorial | Lesson 150 - Common Issues | Download & Verify File | Curl | PowerShell |",
+      "url": "https://www.youtube.com/watch?v=WBx--Dvc1eM",
+      "playlist": "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification",
+      "playlist_index": 154,
+      "duration": 502,
+      "transcript": "raw/transcripts/WBx--Dvc1eM.md",
+      "source": "youtube-subs",
+      "ingested_at": "2026-09-04T08:10:34Z",
+      "docs": [
+        "troubleshooting/common-problems-and-fixes"
+      ]
+    },
+    {
+      "id": "Z_0TLCYKrBU",
+      "title": "Tosca Tutorial | Live Project | Automate End-to-End Scenarios |",
+      "url": "https://www.youtube.com/watch?v=Z_0TLCYKrBU",
+      "playlist": "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification",
+      "playlist_index": 155,
+      "duration": 1947,
+      "transcript": "raw/transcripts/Z_0TLCYKrBU.md",
+      "source": "youtube-subs",
+      "ingested_at": "2026-09-04T08:10:38Z",
+      "docs": [
+        "troubleshooting/worked-example-live-project"
+      ]
+    },
+    {
+      "id": "btvqHGsOLMo",
+      "title": "Tosca Tutorial | Lesson 151 - Tosca Server Setup, Features & Architecture",
+      "url": "https://www.youtube.com/watch?v=btvqHGsOLMo",
+      "playlist": "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification",
+      "playlist_index": 156,
+      "duration": 939,
+      "transcript": "raw/transcripts/btvqHGsOLMo.md",
+      "source": "youtube-subs",
+      "ingested_at": "2026-09-04T08:10:42Z",
+      "docs": [
+        "administration/tosca-server"
+      ]
+    },
+    {
+      "id": "-hceXOD_WB4",
+      "title": "Tosca Tutorial | Lesson 152 - Tosca Distributed Execution Setup with AOS | DEX Agents| Test Events |",
+      "url": "https://www.youtube.com/watch?v=-hceXOD_WB4",
+      "playlist": "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification",
+      "playlist_index": 157,
+      "duration": 2495,
+      "transcript": "raw/transcripts/-hceXOD_WB4.md",
+      "source": "youtube-subs",
+      "ingested_at": "2026-09-04T08:10:46Z",
+      "docs": [
+        "execution/distributed-execution-dex"
+      ]
+    },
+    {
+      "id": "e5hbUh6SM08",
+      "title": "Tosca Tutorial | Lesson 153 - Tosca Execution Client | Script Based CI/CD Integration | Powershell |",
+      "url": "https://www.youtube.com/watch?v=e5hbUh6SM08",
+      "playlist": "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification",
+      "playlist_index": 158,
+      "duration": 1031,
+      "transcript": "raw/transcripts/e5hbUh6SM08.md",
+      "source": "youtube-subs",
+      "ingested_at": "2026-09-04T08:10:49Z",
+      "docs": [
+        "execution/tosca-execution-client"
+      ]
+    },
+    {
+      "id": "Eli2iucdQ_s",
+      "title": "Tosca Tutorial | Lesson 154 - Test Data Management with Tosca | Test Data Services | TDS Modules |",
+      "url": "https://www.youtube.com/watch?v=Eli2iucdQ_s",
+      "playlist": "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification",
+      "playlist_index": 159,
+      "duration": 4152,
+      "transcript": "raw/transcripts/Eli2iucdQ_s.md",
+      "source": "youtube-subs",
+      "ingested_at": "2026-09-04T08:20:37Z",
+      "docs": [
+        "data-and-parameters/test-data-service-modules",
+        "data-and-parameters/test-data-services"
+      ]
+    },
+    {
+      "id": "J24QB9a78hY",
+      "title": "Tosca Tutorial | Lesson 155 - Steering Table Controls | Table Structure | Table Properties | Example",
+      "url": "https://www.youtube.com/watch?v=J24QB9a78hY",
+      "playlist": "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification",
+      "playlist_index": 160,
+      "duration": 1351,
+      "transcript": "raw/transcripts/J24QB9a78hY.md",
+      "source": "youtube-subs",
+      "ingested_at": "2026-09-04T08:10:58Z",
+      "docs": [
+        "modules/table-controls"
+      ]
+    },
+    {
+      "id": "H5M6Y_Su4OQ",
+      "title": "Tosca Tutorial | Lesson 156 - Test Configuration Parameters | Project Configurations |",
+      "url": "https://www.youtube.com/watch?v=H5M6Y_Su4OQ",
+      "playlist": "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification",
+      "playlist_index": 161,
+      "duration": 1381,
+      "transcript": "raw/transcripts/H5M6Y_Su4OQ.md",
+      "source": "youtube-subs",
+      "ingested_at": "2026-09-04T08:11:03Z",
+      "docs": [
+        "data-and-parameters/test-configuration-parameters"
+      ]
+    },
+    {
+      "id": "IYGr51H7CIg",
+      "title": "Tosca Tutorial | Lesson 157 - Module Properties | Configuration, Identification & Steering Params |",
+      "url": "https://www.youtube.com/watch?v=IYGr51H7CIg",
+      "playlist": "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification",
+      "playlist_index": 162,
+      "duration": 1681,
+      "transcript": "raw/transcripts/IYGr51H7CIg.md",
+      "source": "youtube-subs",
+      "ingested_at": "2026-09-04T08:11:06Z",
+      "docs": [
+        "modules/module-properties-and-parameters"
+      ]
     }
   ]
 }

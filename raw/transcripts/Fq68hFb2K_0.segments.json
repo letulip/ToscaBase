@@ -1,0 +1,407 @@
+[
+ {
+  "start": 12.509,
+  "end": 12.519,
+  "text": "hey everyone welcome back to our Channel"
+ },
+ {
+  "start": 12.519,
+  "end": 15.15,
+  "text": "I am back with another interesting topic"
+ },
+ {
+  "start": 15.16,
+  "end": 18.23,
+  "text": "in the TSA automation playlist so"
+ },
+ {
+  "start": 18.24,
+  "end": 20.71,
+  "text": "continuing with our topic on the test"
+ },
+ {
+  "start": 20.72,
+  "end": 23.509,
+  "text": "automation obstacles now we are going to"
+ },
+ {
+  "start": 23.519,
+  "end": 26.429,
+  "text": "look at an obstacle where we need to"
+ },
+ {
+  "start": 26.439,
+  "end": 30.189,
+  "text": "drag a particular image from a left to"
+ },
+ {
+  "start": 30.199,
+  "end": 33.229,
+  "text": "write box so here you can see uh we need"
+ },
+ {
+  "start": 33.239,
+  "end": 35.229,
+  "text": "to drag this particular image so we need"
+ },
+ {
+  "start": 35.239,
+  "end": 37.549,
+  "text": "to drag this and put it here and that"
+ },
+ {
+  "start": 37.559,
+  "end": 40.27,
+  "text": "will complete top ccle okay so it's"
+ },
+ {
+  "start": 40.28,
+  "end": 41.95,
+  "text": "basically the drag and drop"
+ },
+ {
+  "start": 41.96,
+  "end": 44.51,
+  "text": "functionality and this is provided out"
+ },
+ {
+  "start": 44.52,
+  "end": 47.63,
+  "text": "of the box by tosa so let's see how we"
+ },
+ {
+  "start": 47.64,
+  "end": 51.51,
+  "text": "can use this so to make this a little"
+ },
+ {
+  "start": 51.52,
+  "end": 54.91,
+  "text": "easier I have already scanned the module"
+ },
+ {
+  "start": 54.92,
+  "end": 57.47,
+  "text": "uh it's nothing specific okay so you"
+ },
+ {
+  "start": 57.48,
+  "end": 60.75,
+  "text": "just need to select the particular image"
+ },
+ {
+  "start": 60.76,
+  "end": 62.91,
+  "text": "which we want to drag and then we need"
+ },
+ {
+  "start": 62.92,
+  "end": 65.35,
+  "text": "to select the element which is like a"
+ },
+ {
+  "start": 65.36,
+  "end": 68.469,
+  "text": "Dev element okay so this is the dev"
+ },
+ {
+  "start": 68.479,
+  "end": 70.19,
+  "text": "element where we need to drag this"
+ },
+ {
+  "start": 70.2,
+  "end": 73.63,
+  "text": "particular uh bot picture right so these"
+ },
+ {
+  "start": 73.64,
+  "end": 76.27,
+  "text": "are the two elements which uh we need to"
+ },
+ {
+  "start": 76.28,
+  "end": 79.39,
+  "text": "uh scan and create a module which I have"
+ },
+ {
+  "start": 79.4,
+  "end": 83.069,
+  "text": "already done okay and then uh let's go"
+ },
+ {
+  "start": 83.079,
+  "end": 86.67,
+  "text": "ahead and create our test case so here"
+ },
+ {
+  "start": 86.68,
+  "end": 88.83,
+  "text": "uh we are going to create our new test"
+ },
+ {
+  "start": 88.84,
+  "end": 92.63,
+  "text": "case and uh we are going to rename this"
+ },
+ {
+  "start": 92.64,
+  "end": 96.069,
+  "text": "based on this obstacle"
+ },
+ {
+  "start": 96.079,
+  "end": 98.91,
+  "text": "number okay and then uh we are going to"
+ },
+ {
+  "start": 98.92,
+  "end": 100.87,
+  "text": "use this particular module"
+ },
+ {
+  "start": 100.88,
+  "end": 104.31,
+  "text": "here okay so now in the test steps uh we"
+ },
+ {
+  "start": 104.32,
+  "end": 107.069,
+  "text": "need to drag and drop right so we need"
+ },
+ {
+  "start": 107.079,
+  "end": 110.55,
+  "text": "to drag this particular tosot image okay"
+ },
+ {
+  "start": 110.56,
+  "end": 113.429,
+  "text": "so to do this uh we need to use a"
+ },
+ {
+  "start": 113.439,
+  "end": 116.23,
+  "text": "predefined uh expression or function"
+ },
+ {
+  "start": 116.24,
+  "end": 118.469,
+  "text": "which is already available in tosa which"
+ },
+ {
+  "start": 118.479,
+  "end": 121.27,
+  "text": "can perform the drag operation okay and"
+ },
+ {
+  "start": 121.28,
+  "end": 123.87,
+  "text": "for that we need to use the curly braces"
+ },
+ {
+  "start": 123.88,
+  "end": 126.59,
+  "text": "and then uh we have to type drag so as"
+ },
+ {
+  "start": 126.6,
+  "end": 129.71,
+  "text": "you can see uh here is the syntax uh it"
+ },
+ {
+  "start": 129.72,
+  "end": 132.71,
+  "text": "is just within the curly braces drag and"
+ },
+ {
+  "start": 132.72,
+  "end": 134.67,
+  "text": "then it selects the object for"
+ },
+ {
+  "start": 134.68,
+  "end": 137.15,
+  "text": "repositioning uh the respective object"
+ },
+ {
+  "start": 137.16,
+  "end": 139.91,
+  "text": "must support drag and drop operations"
+ },
+ {
+  "start": 139.92,
+  "end": 142.47,
+  "text": "okay so if you're trying to drag any"
+ },
+ {
+  "start": 142.48,
+  "end": 144.67,
+  "text": "particular element it will not work it"
+ },
+ {
+  "start": 144.68,
+  "end": 147.03,
+  "text": "should support the drag and drop"
+ },
+ {
+  "start": 147.04,
+  "end": 150.91,
+  "text": "operation right okay so so this is what"
+ },
+ {
+  "start": 150.92,
+  "end": 153.309,
+  "text": "uh we need to enter here in the value"
+ },
+ {
+  "start": 153.319,
+  "end": 155.91,
+  "text": "okay the action mode will be input and"
+ },
+ {
+  "start": 155.92,
+  "end": 157.949,
+  "text": "then uh we need to drop it into this"
+ },
+ {
+  "start": 157.959,
+  "end": 160.35,
+  "text": "particular element so we will be using"
+ },
+ {
+  "start": 160.36,
+  "end": 163.39,
+  "text": "again a expression which is called drop"
+ },
+ {
+  "start": 163.4,
+  "end": 166.39,
+  "text": "so this basically will insert an object"
+ },
+ {
+  "start": 166.4,
+  "end": 168.79,
+  "text": "uh that was previously selected with the"
+ },
+ {
+  "start": 168.8,
+  "end": 172.149,
+  "text": "drag functionality so we are going to uh"
+ },
+ {
+  "start": 172.159,
+  "end": 175.43,
+  "text": "write the drop expression here and the"
+ },
+ {
+  "start": 175.44,
+  "end": 177.949,
+  "text": "action mode will still be input so this"
+ },
+ {
+  "start": 177.959,
+  "end": 180.35,
+  "text": "is all we need to do here in order to"
+ },
+ {
+  "start": 180.36,
+  "end": 183.03,
+  "text": "drag a particular object and drop it"
+ },
+ {
+  "start": 183.04,
+  "end": 186.63,
+  "text": "into another object right so let's go"
+ },
+ {
+  "start": 186.64,
+  "end": 189.589,
+  "text": "ahead and test it out if it works as"
+ },
+ {
+  "start": 189.599,
+  "end": 192.91,
+  "text": "expected or"
+ },
+ {
+  "start": 196.03,
+  "end": 196.04,
+  "text": "not so as you can see uh tosa is"
+ },
+ {
+  "start": 196.04,
+  "end": 198.19,
+  "text": "dragging that particular image and then"
+ },
+ {
+  "start": 198.2,
+  "end": 201.27,
+  "text": "putting it inside the Box okay so which"
+ },
+ {
+  "start": 201.28,
+  "end": 204.63,
+  "text": "is the expected behavior and that's how"
+ },
+ {
+  "start": 204.64,
+  "end": 206.789,
+  "text": "we can solve this particular automation"
+ },
+ {
+  "start": 206.799,
+  "end": 208.83,
+  "text": "problem where we have to drag a"
+ },
+ {
+  "start": 208.84,
+  "end": 211.83,
+  "text": "particular element from one position to"
+ },
+ {
+  "start": 211.84,
+  "end": 214.27,
+  "text": "another position okay and this is"
+ },
+ {
+  "start": 214.28,
+  "end": 217.229,
+  "text": "provided out of the box by"
+ },
+ {
+  "start": 217.239,
+  "end": 219.589,
+  "text": "tosa that's all for this particular"
+ },
+ {
+  "start": 219.599,
+  "end": 222.03,
+  "text": "video if you have any questions then"
+ },
+ {
+  "start": 222.04,
+  "end": 224.47,
+  "text": "please leave it in the comments if you"
+ },
+ {
+  "start": 224.48,
+  "end": 226.429,
+  "text": "like this video then please subscribe to"
+ },
+ {
+  "start": 226.439,
+  "end": 229.19,
+  "text": "our Channel thanks for watching and I"
+ },
+ {
+  "start": 229.2,
+  "end": 230.99,
+  "text": "will see you in the next"
+ },
+ {
+  "start": 231.0,
+  "end": 234.0,
+  "text": "video"
+ }
+]

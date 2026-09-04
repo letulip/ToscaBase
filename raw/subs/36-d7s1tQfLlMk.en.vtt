@@ -1,0 +1,2960 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.599 --> 00:00:02.350 align:start position:0%
+ 
+hey<00:00:00.799><c> everyone</c><00:00:01.360><c> welcome</c><00:00:01.680><c> to</c><00:00:01.800><c> another</c><00:00:02.080><c> lesson</c>
+
+00:00:02.350 --> 00:00:02.360 align:start position:0%
+hey everyone welcome to another lesson
+ 
+
+00:00:02.360 --> 00:00:05.510 align:start position:0%
+hey everyone welcome to another lesson
+in<00:00:02.520><c> the</c><00:00:02.679><c> stsa</c><00:00:03.120><c> automation</c><00:00:03.759><c> course</c><00:00:04.759><c> today</c><00:00:05.359><c> we</c>
+
+00:00:05.510 --> 00:00:05.520 align:start position:0%
+in the stsa automation course today we
+ 
+
+00:00:05.520 --> 00:00:07.470 align:start position:0%
+in the stsa automation course today we
+are<00:00:05.680><c> going</c><00:00:05.879><c> to</c><00:00:06.080><c> learn</c><00:00:06.600><c> about</c><00:00:07.000><c> how</c><00:00:07.200><c> you</c><00:00:07.319><c> can</c>
+
+00:00:07.470 --> 00:00:07.480 align:start position:0%
+are going to learn about how you can
+ 
+
+00:00:07.480 --> 00:00:10.430 align:start position:0%
+are going to learn about how you can
+Generate<00:00:08.120><c> random</c><00:00:08.559><c> values</c><00:00:09.120><c> and</c><00:00:09.400><c> enter</c><00:00:10.120><c> into</c>
+
+00:00:10.430 --> 00:00:10.440 align:start position:0%
+Generate random values and enter into
+ 
+
+00:00:10.440 --> 00:00:12.629 align:start position:0%
+Generate random values and enter into
+your<00:00:10.639><c> test</c><00:00:11.000><c> steps</c><00:00:11.639><c> in</c>
+
+00:00:12.629 --> 00:00:12.639 align:start position:0%
+your test steps in
+ 
+
+00:00:12.639 --> 00:00:15.470 align:start position:0%
+your test steps in
+tosa<00:00:13.639><c> now</c><00:00:13.799><c> we</c><00:00:13.920><c> have</c><00:00:14.160><c> already</c><00:00:14.480><c> seen</c><00:00:15.160><c> how</c><00:00:15.360><c> you</c>
+
+00:00:15.470 --> 00:00:15.480 align:start position:0%
+tosa now we have already seen how you
+ 
+
+00:00:15.480 --> 00:00:17.990 align:start position:0%
+tosa now we have already seen how you
+can<00:00:15.639><c> enter</c><00:00:16.119><c> input</c><00:00:16.520><c> values</c><00:00:17.119><c> into</c><00:00:17.400><c> your</c><00:00:17.600><c> test</c>
+
+00:00:17.990 --> 00:00:18.000 align:start position:0%
+can enter input values into your test
+ 
+
+00:00:18.000 --> 00:00:21.509 align:start position:0%
+can enter input values into your test
+cases<00:00:19.000><c> but</c><00:00:19.199><c> these</c><00:00:19.359><c> are</c><00:00:19.760><c> all</c><00:00:20.320><c> uh</c><00:00:20.640><c> fixed</c><00:00:21.080><c> values</c>
+
+00:00:21.509 --> 00:00:21.519 align:start position:0%
+cases but these are all uh fixed values
+ 
+
+00:00:21.519 --> 00:00:24.189 align:start position:0%
+cases but these are all uh fixed values
+which<00:00:21.640><c> you</c><00:00:21.760><c> are</c><00:00:21.880><c> entering</c><00:00:22.519><c> right</c><00:00:23.000><c> static</c><00:00:23.400><c> data</c>
+
+00:00:24.189 --> 00:00:24.199 align:start position:0%
+which you are entering right static data
+ 
+
+00:00:24.199 --> 00:00:26.509 align:start position:0%
+which you are entering right static data
+but<00:00:24.400><c> what</c><00:00:24.599><c> if</c><00:00:24.960><c> you</c><00:00:25.400><c> want</c><00:00:25.599><c> to</c><00:00:25.840><c> make</c><00:00:26.039><c> your</c><00:00:26.240><c> test</c>
+
+00:00:26.509 --> 00:00:26.519 align:start position:0%
+but what if you want to make your test
+ 
+
+00:00:26.519 --> 00:00:29.109 align:start position:0%
+but what if you want to make your test
+more<00:00:26.760><c> Dynamic</c><00:00:27.439><c> right</c><00:00:27.599><c> so</c><00:00:27.840><c> every</c><00:00:28.039><c> time</c><00:00:28.240><c> you</c><00:00:28.400><c> run</c>
+
+00:00:29.109 --> 00:00:29.119 align:start position:0%
+more Dynamic right so every time you run
+ 
+
+00:00:29.119 --> 00:00:31.269 align:start position:0%
+more Dynamic right so every time you run
+there<00:00:29.279><c> is</c><00:00:30.000><c> a</c><00:00:30.119><c> different</c><00:00:30.480><c> value</c><00:00:30.960><c> you</c><00:00:31.119><c> are</c>
+
+00:00:31.269 --> 00:00:31.279 align:start position:0%
+there is a different value you are
+ 
+
+00:00:31.279 --> 00:00:33.150 align:start position:0%
+there is a different value you are
+entering<00:00:31.679><c> into</c><00:00:31.920><c> the</c><00:00:32.079><c> test</c>
+
+00:00:33.150 --> 00:00:33.160 align:start position:0%
+entering into the test
+ 
+
+00:00:33.160 --> 00:00:34.950 align:start position:0%
+entering into the test
+case
+
+00:00:34.950 --> 00:00:34.960 align:start position:0%
+case
+ 
+
+00:00:34.960 --> 00:00:37.670 align:start position:0%
+case
+right<00:00:35.960><c> and</c><00:00:36.160><c> that</c><00:00:36.280><c> is</c><00:00:36.480><c> where</c><00:00:36.760><c> tosa</c><00:00:37.280><c> provides</c>
+
+00:00:37.670 --> 00:00:37.680 align:start position:0%
+right and that is where tosa provides
+ 
+
+00:00:37.680 --> 00:00:40.869 align:start position:0%
+right and that is where tosa provides
+you<00:00:38.040><c> a</c><00:00:38.239><c> way</c><00:00:38.600><c> to</c><00:00:38.840><c> Generate</c><00:00:39.360><c> random</c><00:00:39.840><c> values</c><00:00:40.680><c> be</c>
+
+00:00:40.869 --> 00:00:40.879 align:start position:0%
+you a way to Generate random values be
+ 
+
+00:00:40.879 --> 00:00:44.709 align:start position:0%
+you a way to Generate random values be
+it<00:00:41.120><c> a</c><00:00:41.320><c> integer</c><00:00:42.079><c> a</c><00:00:42.239><c> number</c><00:00:42.920><c> or</c><00:00:43.200><c> a</c><00:00:43.399><c> string</c><00:00:44.280><c> right</c>
+
+00:00:44.709 --> 00:00:44.719 align:start position:0%
+it a integer a number or a string right
+ 
+
+00:00:44.719 --> 00:00:46.750 align:start position:0%
+it a integer a number or a string right
+so<00:00:44.920><c> let's</c><00:00:45.120><c> see</c><00:00:45.399><c> what</c><00:00:45.520><c> are</c><00:00:45.640><c> the</c><00:00:45.840><c> different</c><00:00:46.280><c> ways</c>
+
+00:00:46.750 --> 00:00:46.760 align:start position:0%
+so let's see what are the different ways
+ 
+
+00:00:46.760 --> 00:00:49.590 align:start position:0%
+so let's see what are the different ways
+of<00:00:47.559><c> generating</c><00:00:48.320><c> random</c><00:00:48.760><c> values</c><00:00:49.239><c> for</c><00:00:49.440><c> your</c>
+
+00:00:49.590 --> 00:00:49.600 align:start position:0%
+of generating random values for your
+ 
+
+00:00:49.600 --> 00:00:52.670 align:start position:0%
+of generating random values for your
+test<00:00:49.920><c> cases</c><00:00:50.360><c> in</c>
+
+00:00:52.670 --> 00:00:52.680 align:start position:0%
+ 
+ 
+
+00:00:52.680 --> 00:00:56.110 align:start position:0%
+ 
+tosa<00:00:53.680><c> so</c><00:00:53.960><c> the</c><00:00:54.120><c> first</c><00:00:54.399><c> way</c><00:00:54.680><c> is</c><00:00:55.320><c> uh</c><00:00:55.600><c> generating</c>
+
+00:00:56.110 --> 00:00:56.120 align:start position:0%
+tosa so the first way is uh generating
+ 
+
+00:00:56.120 --> 00:00:58.549 align:start position:0%
+tosa so the first way is uh generating
+the<00:00:56.320><c> random</c><00:00:56.800><c> integer</c><00:00:57.280><c> values</c><00:00:58.000><c> right</c><00:00:58.160><c> so</c><00:00:58.399><c> these</c>
+
+00:00:58.549 --> 00:00:58.559 align:start position:0%
+the random integer values right so these
+ 
+
+00:00:58.559 --> 00:01:00.790 align:start position:0%
+the random integer values right so these
+are<00:00:59.160><c> random</c><00:00:59.519><c> numbers</c><00:01:00.120><c> which</c><00:01:00.440><c> can</c><00:01:00.600><c> be</c>
+
+00:01:00.790 --> 00:01:00.800 align:start position:0%
+are random numbers which can be
+ 
+
+00:01:00.800 --> 00:01:03.910 align:start position:0%
+are random numbers which can be
+generated<00:01:01.640><c> by</c><00:01:01.920><c> tosa</c><00:01:02.920><c> and</c><00:01:03.239><c> you</c><00:01:03.359><c> can</c><00:01:03.559><c> enter</c>
+
+00:01:03.910 --> 00:01:03.920 align:start position:0%
+generated by tosa and you can enter
+ 
+
+00:01:03.920 --> 00:01:06.190 align:start position:0%
+generated by tosa and you can enter
+these<00:01:04.119><c> numbers</c><00:01:04.920><c> uh</c><00:01:05.000><c> in</c><00:01:05.199><c> any</c><00:01:05.400><c> field</c><00:01:05.840><c> which</c>
+
+00:01:06.190 --> 00:01:06.200 align:start position:0%
+these numbers uh in any field which
+ 
+
+00:01:06.200 --> 00:01:09.789 align:start position:0%
+these numbers uh in any field which
+accepts<00:01:06.760><c> some</c><00:01:07.000><c> numerical</c><00:01:07.560><c> data</c><00:01:08.640><c> okay</c><00:01:09.640><c> now</c>
+
+00:01:09.789 --> 00:01:09.799 align:start position:0%
+accepts some numerical data okay now
+ 
+
+00:01:09.799 --> 00:01:12.070 align:start position:0%
+accepts some numerical data okay now
+there<00:01:09.880><c> are</c><00:01:10.040><c> two</c><00:01:10.240><c> ways</c><00:01:10.439><c> of</c><00:01:10.560><c> doing</c><00:01:10.840><c> it</c><00:01:11.320><c> one</c><00:01:11.680><c> is</c>
+
+00:01:12.070 --> 00:01:12.080 align:start position:0%
+there are two ways of doing it one is
+ 
+
+00:01:12.080 --> 00:01:14.670 align:start position:0%
+there are two ways of doing it one is
+generate<00:01:12.560><c> an</c><00:01:12.799><c> integer</c><00:01:13.400><c> Without</c><00:01:13.759><c> Limits</c><00:01:14.439><c> right</c>
+
+00:01:14.670 --> 00:01:14.680 align:start position:0%
+generate an integer Without Limits right
+ 
+
+00:01:14.680 --> 00:01:18.510 align:start position:0%
+generate an integer Without Limits right
+so<00:01:15.280><c> here</c><00:01:15.960><c> you</c><00:01:16.119><c> can</c><00:01:16.400><c> use</c><00:01:16.720><c> an</c><00:01:17.200><c> expression</c><00:01:18.200><c> like</c>
+
+00:01:18.510 --> 00:01:18.520 align:start position:0%
+so here you can use an expression like
+ 
+
+00:01:18.520 --> 00:01:20.670 align:start position:0%
+so here you can use an expression like
+this<00:01:19.040><c> so</c><00:01:19.200><c> we</c><00:01:19.320><c> are</c><00:01:19.439><c> going</c><00:01:19.640><c> to</c><00:01:19.759><c> see</c><00:01:20.079><c> how</c><00:01:20.439><c> and</c>
+
+00:01:20.670 --> 00:01:20.680 align:start position:0%
+this so we are going to see how and
+ 
+
+00:01:20.680 --> 00:01:23.149 align:start position:0%
+this so we are going to see how and
+where<00:01:20.920><c> you'll</c><00:01:21.159><c> be</c><00:01:21.280><c> using</c><00:01:21.680><c> that</c><00:01:22.079><c> right</c><00:01:22.680><c> so</c><00:01:23.000><c> you</c>
+
+00:01:23.149 --> 00:01:23.159 align:start position:0%
+where you'll be using that right so you
+ 
+
+00:01:23.159 --> 00:01:26.230 align:start position:0%
+where you'll be using that right so you
+have<00:01:23.280><c> to</c><00:01:23.439><c> use</c><00:01:23.759><c> R&amp;D</c><00:01:24.759><c> and</c><00:01:25.000><c> then</c><00:01:25.520><c> uh</c><00:01:25.680><c> in</c><00:01:25.920><c> square</c>
+
+00:01:26.230 --> 00:01:26.240 align:start position:0%
+have to use R&amp;D and then uh in square
+ 
+
+00:01:26.240 --> 00:01:29.190 align:start position:0%
+have to use R&amp;D and then uh in square
+brackets<00:01:26.680><c> you</c><00:01:26.799><c> have</c><00:01:26.920><c> to</c><00:01:27.200><c> enter</c><00:01:28.000><c> the</c><00:01:28.200><c> length</c><00:01:28.759><c> of</c>
+
+00:01:29.190 --> 00:01:29.200 align:start position:0%
+brackets you have to enter the length of
+ 
+
+00:01:29.200 --> 00:01:30.990 align:start position:0%
+brackets you have to enter the length of
+random<00:01:29.600><c> number</c><00:01:29.920><c> number</c><00:01:30.320><c> right</c><00:01:30.439><c> so</c><00:01:30.640><c> that</c><00:01:30.799><c> could</c>
+
+00:01:30.990 --> 00:01:31.000 align:start position:0%
+random number number right so that could
+ 
+
+00:01:31.000 --> 00:01:35.230 align:start position:0%
+random number number right so that could
+be<00:01:31.680><c> either</c><00:01:31.960><c> 10</c><00:01:32.600><c> 9</c><00:01:33.320><c> or</c><00:01:33.600><c> 50</c><00:01:34.159><c> 100</c><00:01:34.720><c> whatever</c><00:01:35.119><c> you</c>
+
+00:01:35.230 --> 00:01:35.240 align:start position:0%
+be either 10 9 or 50 100 whatever you
+ 
+
+00:01:35.240 --> 00:01:38.910 align:start position:0%
+be either 10 9 or 50 100 whatever you
+want<00:01:35.520><c> to</c><00:01:36.520><c> have</c><00:01:36.840><c> the</c><00:01:37.000><c> length</c><00:01:37.479><c> of</c><00:01:37.600><c> your</c><00:01:37.880><c> number</c>
+
+00:01:38.910 --> 00:01:38.920 align:start position:0%
+want to have the length of your number
+ 
+
+00:01:38.920 --> 00:01:41.990 align:start position:0%
+want to have the length of your number
+right<00:01:39.920><c> so</c><00:01:40.159><c> this</c><00:01:40.320><c> will</c><00:01:40.680><c> generate</c><00:01:41.240><c> a</c><00:01:41.520><c> random</c>
+
+00:01:41.990 --> 00:01:42.000 align:start position:0%
+right so this will generate a random
+ 
+
+00:01:42.000 --> 00:01:44.190 align:start position:0%
+right so this will generate a random
+number<00:01:42.640><c> of</c><00:01:42.920><c> that</c><00:01:43.200><c> particular</c><00:01:43.640><c> length</c><00:01:44.079><c> which</c>
+
+00:01:44.190 --> 00:01:44.200 align:start position:0%
+number of that particular length which
+ 
+
+00:01:44.200 --> 00:01:47.990 align:start position:0%
+number of that particular length which
+is<00:01:44.439><c> defined</c><00:01:44.960><c> by</c><00:01:45.360><c> you</c><00:01:46.360><c> okay</c><00:01:47.119><c> the</c><00:01:47.240><c> other</c><00:01:47.479><c> way</c><00:01:47.799><c> of</c>
+
+00:01:47.990 --> 00:01:48.000 align:start position:0%
+is defined by you okay the other way of
+ 
+
+00:01:48.000 --> 00:01:50.870 align:start position:0%
+is defined by you okay the other way of
+doing<00:01:48.320><c> it</c><00:01:48.680><c> is</c><00:01:49.000><c> generating</c><00:01:49.520><c> a</c><00:01:49.759><c> integer</c><00:01:50.479><c> within</c>
+
+00:01:50.870 --> 00:01:50.880 align:start position:0%
+doing it is generating a integer within
+ 
+
+00:01:50.880 --> 00:01:53.870 align:start position:0%
+doing it is generating a integer within
+a<00:01:51.079><c> certain</c><00:01:51.640><c> range</c><00:01:52.280><c> right</c><00:01:52.479><c> so</c><00:01:52.719><c> if</c><00:01:52.840><c> you</c><00:01:53.000><c> want</c><00:01:53.560><c> to</c>
+
+00:01:53.870 --> 00:01:53.880 align:start position:0%
+a certain range right so if you want to
+ 
+
+00:01:53.880 --> 00:01:58.630 align:start position:0%
+a certain range right so if you want to
+generate<00:01:54.560><c> a</c><00:01:54.840><c> number</c><00:01:55.600><c> between</c><00:01:56.360><c> a</c><00:01:56.640><c> th000</c><00:01:57.320><c> or</c><00:01:57.840><c> and</c>
+
+00:01:58.630 --> 00:01:58.640 align:start position:0%
+generate a number between a th000 or and
+ 
+
+00:01:58.640 --> 00:02:00.350 align:start position:0%
+generate a number between a th000 or and
+a<00:01:58.840><c> 10,000</c><00:01:59.680><c> right</c>
+
+00:02:00.350 --> 00:02:00.360 align:start position:0%
+a 10,000 right
+ 
+
+00:02:00.360 --> 00:02:03.510 align:start position:0%
+a 10,000 right
+then<00:02:00.640><c> you</c><00:02:00.840><c> have</c><00:02:01.119><c> to</c><00:02:02.119><c> define</c><00:02:02.680><c> the</c><00:02:02.880><c> expression</c>
+
+00:02:03.510 --> 00:02:03.520 align:start position:0%
+then you have to define the expression
+ 
+
+00:02:03.520 --> 00:02:05.789 align:start position:0%
+then you have to define the expression
+like<00:02:03.880><c> R&amp;D</c><00:02:04.880><c> then</c><00:02:05.000><c> you</c><00:02:05.119><c> have</c><00:02:05.240><c> to</c><00:02:05.399><c> define</c><00:02:05.680><c> the</c>
+
+00:02:05.789 --> 00:02:05.799 align:start position:0%
+like R&amp;D then you have to define the
+ 
+
+00:02:05.799 --> 00:02:08.469 align:start position:0%
+like R&amp;D then you have to define the
+lower<00:02:06.079><c> limit</c><00:02:06.600><c> and</c><00:02:06.799><c> then</c><00:02:07.119><c> the</c><00:02:07.280><c> upper</c><00:02:07.600><c> limit</c><00:02:08.280><c> so</c>
+
+00:02:08.469 --> 00:02:08.479 align:start position:0%
+lower limit and then the upper limit so
+ 
+
+00:02:08.479 --> 00:02:10.669 align:start position:0%
+lower limit and then the upper limit so
+what<00:02:08.679><c> tosa</c><00:02:09.119><c> will</c><00:02:09.280><c> do</c><00:02:09.720><c> it</c><00:02:09.840><c> will</c><00:02:10.039><c> generate</c><00:02:10.479><c> a</c>
+
+00:02:10.669 --> 00:02:10.679 align:start position:0%
+what tosa will do it will generate a
+ 
+
+00:02:10.679 --> 00:02:13.910 align:start position:0%
+what tosa will do it will generate a
+random<00:02:11.080><c> number</c><00:02:11.800><c> between</c><00:02:12.560><c> this</c><00:02:13.200><c> lower</c><00:02:13.560><c> limit</c>
+
+00:02:13.910 --> 00:02:13.920 align:start position:0%
+random number between this lower limit
+ 
+
+00:02:13.920 --> 00:02:15.869 align:start position:0%
+random number between this lower limit
+and<00:02:14.120><c> upper</c><00:02:14.440><c> limit</c><00:02:15.080><c> okay</c><00:02:15.239><c> so</c><00:02:15.440><c> this</c><00:02:15.560><c> is</c><00:02:15.680><c> the</c>
+
+00:02:15.869 --> 00:02:15.879 align:start position:0%
+and upper limit okay so this is the
+ 
+
+00:02:15.879 --> 00:02:18.110 align:start position:0%
+and upper limit okay so this is the
+range<00:02:16.519><c> between</c><00:02:16.959><c> which</c><00:02:17.319><c> these</c><00:02:17.560><c> numbers</c><00:02:17.920><c> will</c>
+
+00:02:18.110 --> 00:02:18.120 align:start position:0%
+range between which these numbers will
+ 
+
+00:02:18.120 --> 00:02:19.990 align:start position:0%
+range between which these numbers will
+be
+
+00:02:19.990 --> 00:02:20.000 align:start position:0%
+be
+ 
+
+00:02:20.000 --> 00:02:22.390 align:start position:0%
+be
+generated<00:02:21.000><c> so</c><00:02:21.200><c> these</c><00:02:21.319><c> are</c><00:02:21.480><c> the</c><00:02:21.599><c> two</c><00:02:21.800><c> ways</c><00:02:22.200><c> of</c>
+
+00:02:22.390 --> 00:02:22.400 align:start position:0%
+generated so these are the two ways of
+ 
+
+00:02:22.400 --> 00:02:25.830 align:start position:0%
+generated so these are the two ways of
+generating<00:02:23.080><c> random</c><00:02:23.480><c> numbers</c><00:02:23.959><c> in</c><00:02:24.640><c> tosa</c><00:02:25.640><c> and</c>
+
+00:02:25.830 --> 00:02:25.840 align:start position:0%
+generating random numbers in tosa and
+ 
+
+00:02:25.840 --> 00:02:28.229 align:start position:0%
+generating random numbers in tosa and
+then<00:02:26.120><c> you</c><00:02:26.239><c> can</c><00:02:26.560><c> also</c><00:02:26.840><c> generate</c><00:02:27.319><c> numbers</c><00:02:27.840><c> with</c>
+
+00:02:28.229 --> 00:02:28.239 align:start position:0%
+then you can also generate numbers with
+ 
+
+00:02:28.239 --> 00:02:30.830 align:start position:0%
+then you can also generate numbers with
+decimal<00:02:28.760><c> places</c><00:02:29.599><c> okay</c>
+
+00:02:30.830 --> 00:02:30.840 align:start position:0%
+decimal places okay
+ 
+
+00:02:30.840 --> 00:02:33.670 align:start position:0%
+decimal places okay
+so<00:02:31.840><c> here</c><00:02:32.160><c> you</c><00:02:32.280><c> have</c><00:02:32.440><c> to</c><00:02:32.640><c> define</c><00:02:33.200><c> the</c><00:02:33.360><c> number</c>
+
+00:02:33.670 --> 00:02:33.680 align:start position:0%
+so here you have to define the number
+ 
+
+00:02:33.680 --> 00:02:37.030 align:start position:0%
+so here you have to define the number
+length<00:02:34.599><c> and</c><00:02:35.160><c> the</c><00:02:35.360><c> expression</c><00:02:35.840><c> would</c><00:02:36.040><c> be</c><00:02:36.400><c> R&amp;D</c>
+
+00:02:37.030 --> 00:02:37.040 align:start position:0%
+length and the expression would be R&amp;D
+ 
+
+00:02:37.040 --> 00:02:39.589 align:start position:0%
+length and the expression would be R&amp;D
+decimal<00:02:37.959><c> and</c><00:02:38.080><c> in</c><00:02:38.239><c> square</c><00:02:38.560><c> brackets</c><00:02:39.159><c> you</c><00:02:39.319><c> have</c>
+
+00:02:39.589 --> 00:02:39.599 align:start position:0%
+decimal and in square brackets you have
+ 
+
+00:02:39.599 --> 00:02:43.470 align:start position:0%
+decimal and in square brackets you have
+to<00:02:40.599><c> put</c><00:02:41.040><c> the</c><00:02:41.280><c> length</c><00:02:41.760><c> of</c><00:02:42.159><c> random</c><00:02:42.640><c> number</c><00:02:43.319><c> okay</c>
+
+00:02:43.470 --> 00:02:43.480 align:start position:0%
+to put the length of random number okay
+ 
+
+00:02:43.480 --> 00:02:45.309 align:start position:0%
+to put the length of random number okay
+so<00:02:43.959><c> what</c><00:02:44.080><c> would</c><00:02:44.280><c> be</c><00:02:44.440><c> the</c><00:02:44.560><c> length</c><00:02:44.840><c> of</c><00:02:45.000><c> random</c>
+
+00:02:45.309 --> 00:02:45.319 align:start position:0%
+so what would be the length of random
+ 
+
+00:02:45.319 --> 00:02:48.229 align:start position:0%
+so what would be the length of random
+number<00:02:46.159><c> and</c><00:02:46.360><c> then</c><00:02:46.760><c> you</c><00:02:46.920><c> have</c><00:02:47.080><c> to</c><00:02:47.280><c> also</c><00:02:47.599><c> mention</c>
+
+00:02:48.229 --> 00:02:48.239 align:start position:0%
+number and then you have to also mention
+ 
+
+00:02:48.239 --> 00:02:51.430 align:start position:0%
+number and then you have to also mention
+the<00:02:48.440><c> decimal</c><00:02:48.879><c> places</c><00:02:49.640><c> so</c><00:02:50.560><c> what</c><00:02:50.760><c> number</c><00:02:51.159><c> of</c>
+
+00:02:51.430 --> 00:02:51.440 align:start position:0%
+the decimal places so what number of
+ 
+
+00:02:51.440 --> 00:02:54.390 align:start position:0%
+the decimal places so what number of
+decimal<00:02:51.959><c> places</c><00:02:52.519><c> you</c><00:02:52.720><c> want</c><00:02:53.480><c> your</c><00:02:53.760><c> number</c><00:02:54.159><c> to</c>
+
+00:02:54.390 --> 00:02:54.400 align:start position:0%
+decimal places you want your number to
+ 
+
+00:02:54.400 --> 00:02:56.630 align:start position:0%
+decimal places you want your number to
+be<00:02:54.959><c> right</c><00:02:55.400><c> so</c><00:02:55.599><c> it</c><00:02:55.680><c> could</c><00:02:55.840><c> be</c><00:02:56.000><c> two</c><00:02:56.239><c> it</c><00:02:56.360><c> could</c><00:02:56.480><c> be</c>
+
+00:02:56.630 --> 00:02:56.640 align:start position:0%
+be right so it could be two it could be
+ 
+
+00:02:56.640 --> 00:02:58.869 align:start position:0%
+be right so it could be two it could be
+three<00:02:56.879><c> it</c><00:02:56.959><c> could</c><00:02:57.120><c> be</c><00:02:57.280><c> four</c><00:02:57.760><c> or</c><00:02:58.040><c> any</c><00:02:58.480><c> particular</c>
+
+00:02:58.869 --> 00:02:58.879 align:start position:0%
+three it could be four or any particular
+ 
+
+00:02:58.879 --> 00:03:01.149 align:start position:0%
+three it could be four or any particular
+decimal<00:02:59.280><c> places</c><00:03:00.080><c> so</c><00:03:00.360><c> tosa</c><00:03:00.800><c> is</c><00:03:00.879><c> going</c><00:03:01.040><c> to</c>
+
+00:03:01.149 --> 00:03:01.159 align:start position:0%
+decimal places so tosa is going to
+ 
+
+00:03:01.159 --> 00:03:03.630 align:start position:0%
+decimal places so tosa is going to
+generate<00:03:01.720><c> a</c><00:03:01.920><c> number</c><00:03:02.599><c> with</c><00:03:02.959><c> that</c><00:03:03.239><c> number</c><00:03:03.440><c> of</c>
+
+00:03:03.630 --> 00:03:03.640 align:start position:0%
+generate a number with that number of
+ 
+
+00:03:03.640 --> 00:03:05.830 align:start position:0%
+generate a number with that number of
+decimal
+
+00:03:05.830 --> 00:03:05.840 align:start position:0%
+decimal
+ 
+
+00:03:05.840 --> 00:03:09.470 align:start position:0%
+decimal
+places<00:03:06.840><c> next</c><00:03:07.519><c> you</c><00:03:07.799><c> can</c><00:03:08.080><c> also</c>
+
+00:03:09.470 --> 00:03:09.480 align:start position:0%
+places next you can also
+ 
+
+00:03:09.480 --> 00:03:12.149 align:start position:0%
+places next you can also
+generate<00:03:10.480><c> a</c><00:03:10.640><c> number</c><00:03:11.040><c> with</c><00:03:11.239><c> decimal</c><00:03:11.640><c> places</c>
+
+00:03:12.149 --> 00:03:12.159 align:start position:0%
+generate a number with decimal places
+ 
+
+00:03:12.159 --> 00:03:14.830 align:start position:0%
+generate a number with decimal places
+within<00:03:12.440><c> a</c><00:03:12.640><c> certain</c><00:03:13.159><c> range</c><00:03:13.959><c> okay</c><00:03:14.360><c> so</c><00:03:14.560><c> you</c><00:03:14.680><c> have</c>
+
+00:03:14.830 --> 00:03:14.840 align:start position:0%
+within a certain range okay so you have
+ 
+
+00:03:14.840 --> 00:03:18.949 align:start position:0%
+within a certain range okay so you have
+to<00:03:15.680><c> uh</c><00:03:16.319><c> follow</c><00:03:16.720><c> this</c><00:03:16.959><c> expression</c><00:03:17.480><c> R&amp;D</c><00:03:18.040><c> decimal</c>
+
+00:03:18.949 --> 00:03:18.959 align:start position:0%
+to uh follow this expression R&amp;D decimal
+ 
+
+00:03:18.959 --> 00:03:21.229 align:start position:0%
+to uh follow this expression R&amp;D decimal
+here<00:03:19.159><c> you</c><00:03:19.280><c> need</c><00:03:19.440><c> to</c><00:03:20.239><c> mention</c><00:03:20.640><c> the</c><00:03:20.799><c> decimal</c>
+
+00:03:21.229 --> 00:03:21.239 align:start position:0%
+here you need to mention the decimal
+ 
+
+00:03:21.239 --> 00:03:23.589 align:start position:0%
+here you need to mention the decimal
+places<00:03:22.000><c> and</c><00:03:22.200><c> then</c><00:03:22.480><c> the</c><00:03:22.599><c> lower</c><00:03:22.920><c> limit</c><00:03:23.360><c> and</c>
+
+00:03:23.589 --> 00:03:23.599 align:start position:0%
+places and then the lower limit and
+ 
+
+00:03:23.599 --> 00:03:26.550 align:start position:0%
+places and then the lower limit and
+upper<00:03:23.959><c> limit</c><00:03:24.720><c> okay</c><00:03:24.920><c> so</c><00:03:25.680><c> tosa</c><00:03:26.120><c> is</c><00:03:26.200><c> going</c><00:03:26.360><c> to</c>
+
+00:03:26.550 --> 00:03:26.560 align:start position:0%
+upper limit okay so tosa is going to
+ 
+
+00:03:26.560 --> 00:03:28.710 align:start position:0%
+upper limit okay so tosa is going to
+generate<00:03:27.000><c> a</c><00:03:27.120><c> number</c><00:03:27.599><c> with</c><00:03:27.959><c> certain</c><00:03:28.319><c> decimal</c>
+
+00:03:28.710 --> 00:03:28.720 align:start position:0%
+generate a number with certain decimal
+ 
+
+00:03:28.720 --> 00:03:32.270 align:start position:0%
+generate a number with certain decimal
+places<00:03:29.439><c> between</c><00:03:29.799><c> between</c><00:03:30.239><c> a</c><00:03:30.439><c> certain</c><00:03:31.280><c> range</c>
+
+00:03:32.270 --> 00:03:32.280 align:start position:0%
+places between between a certain range
+ 
+
+00:03:32.280 --> 00:03:35.509 align:start position:0%
+places between between a certain range
+okay<00:03:32.480><c> so</c><00:03:33.159><c> that's</c><00:03:33.400><c> how</c><00:03:33.840><c> you</c><00:03:34.560><c> can</c><00:03:34.840><c> generate</c><00:03:35.319><c> a</c>
+
+00:03:35.509 --> 00:03:35.519 align:start position:0%
+okay so that's how you can generate a
+ 
+
+00:03:35.519 --> 00:03:38.309 align:start position:0%
+okay so that's how you can generate a
+random<00:03:35.840><c> number</c><00:03:36.280><c> with</c>
+
+00:03:38.309 --> 00:03:38.319 align:start position:0%
+random number with
+ 
+
+00:03:38.319 --> 00:03:41.350 align:start position:0%
+random number with
+decimals<00:03:39.319><c> now</c><00:03:39.480><c> the</c><00:03:39.640><c> next</c><00:03:39.840><c> thing</c><00:03:40.360><c> uh</c><00:03:40.560><c> is</c><00:03:41.159><c> the</c>
+
+00:03:41.350 --> 00:03:41.360 align:start position:0%
+decimals now the next thing uh is the
+ 
+
+00:03:41.360 --> 00:03:45.270 align:start position:0%
+decimals now the next thing uh is the
+random<00:03:41.760><c> strings</c><00:03:42.560><c> so</c><00:03:43.560><c> this</c><00:03:44.200><c> random</c><00:03:44.560><c> string</c>
+
+00:03:45.270 --> 00:03:45.280 align:start position:0%
+random strings so this random string
+ 
+
+00:03:45.280 --> 00:03:47.470 align:start position:0%
+random strings so this random string
+could<00:03:45.480><c> be</c><00:03:45.680><c> a</c><00:03:45.879><c> mix</c><00:03:46.200><c> of</c><00:03:46.439><c> random</c><00:03:46.799><c> numbers</c><00:03:47.280><c> and</c>
+
+00:03:47.470 --> 00:03:47.480 align:start position:0%
+could be a mix of random numbers and
+ 
+
+00:03:47.480 --> 00:03:49.390 align:start position:0%
+could be a mix of random numbers and
+letters<00:03:48.080><c> and</c><00:03:48.239><c> this</c><00:03:48.319><c> will</c><00:03:48.480><c> be</c><00:03:48.640><c> generated</c><00:03:49.200><c> by</c>
+
+00:03:49.390 --> 00:03:49.400 align:start position:0%
+letters and this will be generated by
+ 
+
+00:03:49.400 --> 00:03:52.390 align:start position:0%
+letters and this will be generated by
+tosa<00:03:50.280><c> okay</c><00:03:51.040><c> so</c><00:03:51.280><c> you</c><00:03:51.400><c> can</c><00:03:51.560><c> generate</c><00:03:51.920><c> a</c><00:03:52.079><c> random</c>
+
+00:03:52.390 --> 00:03:52.400 align:start position:0%
+tosa okay so you can generate a random
+ 
+
+00:03:52.400 --> 00:03:56.390 align:start position:0%
+tosa okay so you can generate a random
+string<00:03:53.319><c> uh</c><00:03:53.920><c> the</c><00:03:54.200><c> expression</c><00:03:54.840><c> is</c><00:03:55.280><c> random</c><00:03:55.799><c> text</c>
+
+00:03:56.390 --> 00:03:56.400 align:start position:0%
+string uh the expression is random text
+ 
+
+00:03:56.400 --> 00:03:59.030 align:start position:0%
+string uh the expression is random text
+and<00:03:56.560><c> in</c><00:03:56.720><c> square</c><00:03:57.000><c> bracket</c><00:03:57.319><c> you</c><00:03:57.439><c> need</c><00:03:57.599><c> to</c><00:03:58.400><c> define</c>
+
+00:03:59.030 --> 00:03:59.040 align:start position:0%
+and in square bracket you need to define
+ 
+
+00:03:59.040 --> 00:04:01.550 align:start position:0%
+and in square bracket you need to define
+the<00:03:59.239><c> desired</c><00:03:59.840><c> string</c><00:04:00.239><c> length</c><00:04:00.760><c> and</c><00:04:00.879><c> it</c><00:04:01.040><c> will</c>
+
+00:04:01.550 --> 00:04:01.560 align:start position:0%
+the desired string length and it will
+ 
+
+00:04:01.560 --> 00:04:05.350 align:start position:0%
+the desired string length and it will
+going<00:04:01.840><c> to</c><00:04:02.079><c> generate</c><00:04:02.959><c> the</c><00:04:03.959><c> random</c><00:04:04.439><c> text</c><00:04:05.000><c> with</c>
+
+00:04:05.350 --> 00:04:05.360 align:start position:0%
+going to generate the random text with
+ 
+
+00:04:05.360 --> 00:04:08.789 align:start position:0%
+going to generate the random text with
+this<00:04:05.599><c> particular</c><00:04:06.200><c> length</c>
+
+00:04:08.789 --> 00:04:08.799 align:start position:0%
+this particular length
+ 
+
+00:04:08.799 --> 00:04:11.949 align:start position:0%
+this particular length
+Okay<00:04:09.799><c> so</c><00:04:10.360><c> these</c><00:04:10.519><c> are</c><00:04:10.720><c> all</c><00:04:10.920><c> the</c><00:04:11.079><c> ways</c><00:04:11.680><c> how</c><00:04:11.840><c> you</c>
+
+00:04:11.949 --> 00:04:11.959 align:start position:0%
+Okay so these are all the ways how you
+ 
+
+00:04:11.959 --> 00:04:14.030 align:start position:0%
+Okay so these are all the ways how you
+can<00:04:12.120><c> generate</c><00:04:12.640><c> different</c><00:04:13.200><c> numbers</c><00:04:13.720><c> number</c>
+
+00:04:14.030 --> 00:04:14.040 align:start position:0%
+can generate different numbers number
+ 
+
+00:04:14.040 --> 00:04:16.629 align:start position:0%
+can generate different numbers number
+with<00:04:14.239><c> decimals</c><00:04:15.079><c> or</c><00:04:15.519><c> uh</c><00:04:15.760><c> strings</c><00:04:16.359><c> right</c><00:04:16.479><c> so</c>
+
+00:04:16.629 --> 00:04:16.639 align:start position:0%
+with decimals or uh strings right so
+ 
+
+00:04:16.639 --> 00:04:18.990 align:start position:0%
+with decimals or uh strings right so
+there<00:04:16.720><c> are</c><00:04:17.320><c> couple</c><00:04:17.680><c> of</c><00:04:18.079><c> other</c><00:04:18.359><c> options</c><00:04:18.840><c> as</c>
+
+00:04:18.990 --> 00:04:19.000 align:start position:0%
+there are couple of other options as
+ 
+
+00:04:19.000 --> 00:04:21.749 align:start position:0%
+there are couple of other options as
+well<00:04:19.440><c> like</c><00:04:19.639><c> you</c><00:04:19.799><c> can</c><00:04:20.040><c> generate</c><00:04:20.799><c> um</c><00:04:21.040><c> a</c><00:04:21.239><c> string</c>
+
+00:04:21.749 --> 00:04:21.759 align:start position:0%
+well like you can generate um a string
+ 
+
+00:04:21.759 --> 00:04:23.189 align:start position:0%
+well like you can generate um a string
+with<00:04:22.120><c> a</c>
+
+00:04:23.189 --> 00:04:23.199 align:start position:0%
+with a
+ 
+
+00:04:23.199 --> 00:04:25.710 align:start position:0%
+with a
+timestamp<00:04:24.199><c> right</c><00:04:24.520><c> but</c><00:04:24.960><c> um</c><00:04:25.360><c> these</c><00:04:25.520><c> are</c>
+
+00:04:25.710 --> 00:04:25.720 align:start position:0%
+timestamp right but um these are
+ 
+
+00:04:25.720 --> 00:04:29.310 align:start position:0%
+timestamp right but um these are
+generally<00:04:26.400><c> used</c><00:04:26.960><c> in</c><00:04:27.240><c> your</c><00:04:27.440><c> test</c><00:04:27.880><c> cases</c><00:04:28.880><c> okay</c>
+
+00:04:29.310 --> 00:04:29.320 align:start position:0%
+generally used in your test cases okay
+ 
+
+00:04:29.320 --> 00:04:31.110 align:start position:0%
+generally used in your test cases okay
+so<00:04:29.520><c> now</c><00:04:29.720><c> now</c><00:04:29.840><c> let's</c><00:04:30.039><c> see</c><00:04:30.360><c> how</c><00:04:30.600><c> this</c><00:04:30.759><c> could</c><00:04:30.960><c> be</c>
+
+00:04:31.110 --> 00:04:31.120 align:start position:0%
+so now now let's see how this could be
+ 
+
+00:04:31.120 --> 00:04:33.469 align:start position:0%
+so now now let's see how this could be
+useful<00:04:31.759><c> in</c><00:04:31.880><c> a</c><00:04:32.039><c> scenario</c><00:04:32.919><c> where</c><00:04:33.120><c> you</c><00:04:33.280><c> can</c>
+
+00:04:33.469 --> 00:04:33.479 align:start position:0%
+useful in a scenario where you can
+ 
+
+00:04:33.479 --> 00:04:35.469 align:start position:0%
+useful in a scenario where you can
+generate<00:04:33.960><c> this</c><00:04:34.160><c> random</c><00:04:34.560><c> data</c><00:04:35.039><c> and</c><00:04:35.240><c> then</c>
+
+00:04:35.469 --> 00:04:35.479 align:start position:0%
+generate this random data and then
+ 
+
+00:04:35.479 --> 00:04:38.670 align:start position:0%
+generate this random data and then
+insert<00:04:35.919><c> it</c><00:04:36.240><c> into</c><00:04:36.560><c> your</c><00:04:36.759><c> test</c>
+
+00:04:38.670 --> 00:04:38.680 align:start position:0%
+insert it into your test
+ 
+
+00:04:38.680 --> 00:04:42.390 align:start position:0%
+insert it into your test
+case<00:04:39.680><c> so</c><00:04:39.960><c> I'm</c><00:04:40.320><c> in</c><00:04:40.520><c> my</c><00:04:41.080><c> workspace</c><00:04:41.800><c> in</c><00:04:42.000><c> tosa</c>
+
+00:04:42.390 --> 00:04:42.400 align:start position:0%
+case so I'm in my workspace in tosa
+ 
+
+00:04:42.400 --> 00:04:44.510 align:start position:0%
+case so I'm in my workspace in tosa
+Commander<00:04:43.000><c> where</c><00:04:43.199><c> I'm</c><00:04:43.440><c> going</c><00:04:43.639><c> to</c><00:04:43.880><c> add</c><00:04:44.160><c> another</c>
+
+00:04:44.510 --> 00:04:44.520 align:start position:0%
+Commander where I'm going to add another
+ 
+
+00:04:44.520 --> 00:04:47.990 align:start position:0%
+Commander where I'm going to add another
+scenario<00:04:45.520><c> where</c><00:04:45.919><c> we</c><00:04:46.080><c> could</c><00:04:46.440><c> use</c><00:04:47.160><c> the</c><00:04:47.360><c> random</c>
+
+00:04:47.990 --> 00:04:48.000 align:start position:0%
+scenario where we could use the random
+ 
+
+00:04:48.000 --> 00:04:53.070 align:start position:0%
+scenario where we could use the random
+values<00:04:49.000><c> right</c><00:04:49.720><c> uh</c><00:04:49.880><c> provided</c><00:04:50.520><c> by</c><00:04:50.759><c> tosa</c><00:04:52.080><c> so</c>
+
+00:04:53.070 --> 00:04:53.080 align:start position:0%
+values right uh provided by tosa so
+ 
+
+00:04:53.080 --> 00:04:55.189 align:start position:0%
+values right uh provided by tosa so
+let's<00:04:53.280><c> see</c><00:04:53.880><c> we</c><00:04:54.000><c> are</c><00:04:54.120><c> going</c><00:04:54.280><c> to</c><00:04:54.440><c> pick</c><00:04:54.600><c> up</c><00:04:54.919><c> a</c>
+
+00:04:55.189 --> 00:04:55.199 align:start position:0%
+let's see we are going to pick up a
+ 
+
+00:04:55.199 --> 00:04:57.670 align:start position:0%
+let's see we are going to pick up a
+application<00:04:56.039><c> with</c><00:04:56.280><c> a</c><00:04:56.440><c> particular</c><00:04:56.800><c> scenario</c>
+
+00:04:57.670 --> 00:04:57.680 align:start position:0%
+application with a particular scenario
+ 
+
+00:04:57.680 --> 00:04:59.430 align:start position:0%
+application with a particular scenario
+so<00:04:57.919><c> this</c><00:04:58.039><c> would</c><00:04:58.240><c> be</c><00:04:58.440><c> our</c><00:04:58.720><c> application</c><00:04:59.320><c> which</c>
+
+00:04:59.430 --> 00:04:59.440 align:start position:0%
+so this would be our application which
+ 
+
+00:04:59.440 --> 00:05:03.469 align:start position:0%
+so this would be our application which
+is<00:04:59.919><c> a</c><00:05:00.199><c> register</c><00:05:00.720><c> page</c><00:05:01.280><c> right</c><00:05:01.639><c> so</c><00:05:02.639><c> here</c><00:05:03.320><c> the</c>
+
+00:05:03.469 --> 00:05:03.479 align:start position:0%
+is a register page right so here the
+ 
+
+00:05:03.479 --> 00:05:06.230 align:start position:0%
+is a register page right so here the
+user<00:05:03.840><c> can</c><00:05:04.039><c> come</c><00:05:04.240><c> in</c><00:05:04.639><c> and</c><00:05:05.120><c> register</c><00:05:05.880><c> its</c>
+
+00:05:06.230 --> 00:05:06.240 align:start position:0%
+user can come in and register its
+ 
+
+00:05:06.240 --> 00:05:08.830 align:start position:0%
+user can come in and register its
+account<00:05:06.919><c> in</c><00:05:07.120><c> this</c><00:05:07.320><c> particular</c><00:05:07.840><c> application</c>
+
+00:05:08.830 --> 00:05:08.840 align:start position:0%
+account in this particular application
+ 
+
+00:05:08.840 --> 00:05:11.469 align:start position:0%
+account in this particular application
+right<00:05:09.000><c> so</c><00:05:09.840><c> he</c><00:05:10.000><c> has</c><00:05:10.160><c> to</c><00:05:10.320><c> enter</c><00:05:10.680><c> the</c><00:05:10.880><c> first</c><00:05:11.160><c> name</c>
+
+00:05:11.469 --> 00:05:11.479 align:start position:0%
+right so he has to enter the first name
+ 
+
+00:05:11.479 --> 00:05:14.870 align:start position:0%
+right so he has to enter the first name
+last<00:05:11.800><c> name</c><00:05:12.240><c> email</c><00:05:13.400><c> telephone</c><00:05:14.400><c> password</c>
+
+00:05:14.870 --> 00:05:14.880 align:start position:0%
+last name email telephone password
+ 
+
+00:05:14.880 --> 00:05:17.270 align:start position:0%
+last name email telephone password
+confirm<00:05:15.320><c> password</c><00:05:15.840><c> and</c><00:05:15.960><c> then</c><00:05:16.199><c> some</c><00:05:16.840><c> um</c>
+
+00:05:17.270 --> 00:05:17.280 align:start position:0%
+confirm password and then some um
+ 
+
+00:05:17.280 --> 00:05:18.990 align:start position:0%
+confirm password and then some um
+options<00:05:17.800><c> which</c><00:05:17.960><c> he</c><00:05:18.080><c> needs</c><00:05:18.319><c> to</c><00:05:18.479><c> select</c><00:05:18.880><c> and</c>
+
+00:05:18.990 --> 00:05:19.000 align:start position:0%
+options which he needs to select and
+ 
+
+00:05:19.000 --> 00:05:21.710 align:start position:0%
+options which he needs to select and
+then<00:05:19.400><c> click</c><00:05:19.639><c> on</c><00:05:19.880><c> continue</c><00:05:20.720><c> to</c><00:05:20.960><c> register</c><00:05:21.479><c> an</c>
+
+00:05:21.710 --> 00:05:21.720 align:start position:0%
+then click on continue to register an
+ 
+
+00:05:21.720 --> 00:05:24.469 align:start position:0%
+then click on continue to register an
+account<00:05:22.039><c> on</c><00:05:22.280><c> this</c><00:05:22.479><c> particular</c><00:05:23.479><c> application</c>
+
+00:05:24.469 --> 00:05:24.479 align:start position:0%
+account on this particular application
+ 
+
+00:05:24.479 --> 00:05:26.590 align:start position:0%
+account on this particular application
+okay<00:05:25.080><c> so</c><00:05:25.280><c> we</c><00:05:25.360><c> are</c><00:05:25.479><c> going</c><00:05:25.600><c> to</c><00:05:25.759><c> automate</c><00:05:26.280><c> this</c>
+
+00:05:26.590 --> 00:05:26.600 align:start position:0%
+okay so we are going to automate this
+ 
+
+00:05:26.600 --> 00:05:30.270 align:start position:0%
+okay so we are going to automate this
+using<00:05:27.120><c> tosa</c><00:05:28.120><c> and</c><00:05:28.440><c> we'll</c><00:05:28.720><c> see</c><00:05:29.199><c> how</c><00:05:29.800><c> and</c><00:05:30.039><c> where</c>
+
+00:05:30.270 --> 00:05:30.280 align:start position:0%
+using tosa and we'll see how and where
+ 
+
+00:05:30.280 --> 00:05:33.390 align:start position:0%
+using tosa and we'll see how and where
+we<00:05:30.440><c> can</c><00:05:30.639><c> use</c><00:05:31.520><c> the</c><00:05:31.720><c> random</c><00:05:32.080><c> value</c><00:05:32.400><c> generation</c>
+
+00:05:33.390 --> 00:05:33.400 align:start position:0%
+we can use the random value generation
+ 
+
+00:05:33.400 --> 00:05:36.270 align:start position:0%
+we can use the random value generation
+feature<00:05:33.919><c> provided</c><00:05:34.479><c> by</c>
+
+00:05:36.270 --> 00:05:36.280 align:start position:0%
+feature provided by
+ 
+
+00:05:36.280 --> 00:05:39.270 align:start position:0%
+feature provided by
+tosa<00:05:37.280><c> so</c><00:05:37.440><c> first</c><00:05:37.720><c> of</c><00:05:37.880><c> all</c><00:05:38.360><c> uh</c><00:05:38.479><c> let's</c><00:05:38.720><c> go</c><00:05:38.880><c> ahead</c>
+
+00:05:39.270 --> 00:05:39.280 align:start position:0%
+tosa so first of all uh let's go ahead
+ 
+
+00:05:39.280 --> 00:05:42.590 align:start position:0%
+tosa so first of all uh let's go ahead
+and<00:05:39.880><c> uh</c><00:05:40.080><c> create</c><00:05:40.520><c> a</c><00:05:40.720><c> new</c><00:05:41.199><c> test</c><00:05:41.560><c> case</c><00:05:41.759><c> folder</c>
+
+00:05:42.590 --> 00:05:42.600 align:start position:0%
+and uh create a new test case folder
+ 
+
+00:05:42.600 --> 00:05:45.309 align:start position:0%
+and uh create a new test case folder
+right<00:05:42.840><c> for</c><00:05:43.039><c> our</c><00:05:43.639><c> application</c><00:05:44.639><c> I'm</c><00:05:44.919><c> going</c><00:05:45.120><c> to</c>
+
+00:05:45.309 --> 00:05:45.319 align:start position:0%
+right for our application I'm going to
+ 
+
+00:05:45.319 --> 00:05:46.029 align:start position:0%
+right for our application I'm going to
+call
+
+00:05:46.029 --> 00:05:46.039 align:start position:0%
+call
+ 
+
+00:05:46.039 --> 00:05:47.790 align:start position:0%
+call
+it
+
+00:05:47.790 --> 00:05:47.800 align:start position:0%
+it
+ 
+
+00:05:47.800 --> 00:05:49.390 align:start position:0%
+it
+tutorial
+
+00:05:49.390 --> 00:05:49.400 align:start position:0%
+tutorial
+ 
+
+00:05:49.400 --> 00:05:52.150 align:start position:0%
+tutorial
+ninja<00:05:50.400><c> that's</c><00:05:50.600><c> the</c><00:05:50.759><c> application</c><00:05:51.280><c> name</c><00:05:51.720><c> so</c>
+
+00:05:52.150 --> 00:05:52.160 align:start position:0%
+ninja that's the application name so
+ 
+
+00:05:52.160 --> 00:05:55.150 align:start position:0%
+ninja that's the application name so
+I'll<00:05:52.440><c> keep</c><00:05:52.680><c> it</c><00:05:53.000><c> that</c>
+
+00:05:55.150 --> 00:05:55.160 align:start position:0%
+I'll keep it that
+ 
+
+00:05:55.160 --> 00:06:00.390 align:start position:0%
+I'll keep it that
+okay<00:05:56.160><c> and</c><00:05:56.639><c> then</c><00:05:57.400><c> here</c><00:05:57.840><c> we</c><00:05:58.000><c> need</c><00:05:58.240><c> to</c><00:05:59.240><c> again</c>
+
+00:06:00.390 --> 00:06:00.400 align:start position:0%
+okay and then here we need to again
+ 
+
+00:06:00.400 --> 00:06:02.590 align:start position:0%
+okay and then here we need to again
+um<00:06:00.680><c> create</c><00:06:01.080><c> our</c><00:06:01.360><c> test</c><00:06:01.639><c> cases</c><00:06:02.080><c> or</c><00:06:02.240><c> we</c><00:06:02.360><c> can</c>
+
+00:06:02.590 --> 00:06:02.600 align:start position:0%
+um create our test cases or we can
+ 
+
+00:06:02.600 --> 00:06:05.590 align:start position:0%
+um create our test cases or we can
+create<00:06:03.080><c> some</c><00:06:03.360><c> other</c><00:06:03.919><c> subfolders</c><00:06:04.919><c> but</c><00:06:05.080><c> for</c><00:06:05.280><c> now</c>
+
+00:06:05.590 --> 00:06:05.600 align:start position:0%
+create some other subfolders but for now
+ 
+
+00:06:05.600 --> 00:06:08.710 align:start position:0%
+create some other subfolders but for now
+let's<00:06:05.880><c> create</c><00:06:06.160><c> our</c><00:06:06.400><c> test</c><00:06:06.680><c> cases</c><00:06:07.280><c> okay</c><00:06:07.599><c> so</c><00:06:08.560><c> the</c>
+
+00:06:08.710 --> 00:06:08.720 align:start position:0%
+let's create our test cases okay so the
+ 
+
+00:06:08.720 --> 00:06:13.909 align:start position:0%
+let's create our test cases okay so the
+first<00:06:09.000><c> test</c><00:06:09.759><c> case</c><00:06:10.759><c> right</c><00:06:11.400><c> uh</c><00:06:11.599><c> would</c><00:06:12.240><c> be</c><00:06:13.240><c> for</c><00:06:13.759><c> a</c>
+
+00:06:13.909 --> 00:06:13.919 align:start position:0%
+first test case right uh would be for a
+ 
+
+00:06:13.919 --> 00:06:17.790 align:start position:0%
+first test case right uh would be for a
+registering<00:06:14.680><c> and</c><00:06:15.240><c> application</c><00:06:16.160><c> right</c><00:06:16.639><c> or</c><00:06:17.639><c> we</c>
+
+00:06:17.790 --> 00:06:17.800 align:start position:0%
+registering and application right or we
+ 
+
+00:06:17.800 --> 00:06:19.909 align:start position:0%
+registering and application right or we
+have<00:06:17.960><c> to</c><00:06:18.199><c> first</c><00:06:18.520><c> open</c><00:06:18.840><c> the</c><00:06:19.000><c> application</c><00:06:19.759><c> as</c>
+
+00:06:19.909 --> 00:06:19.919 align:start position:0%
+have to first open the application as
+ 
+
+00:06:19.919 --> 00:06:22.629 align:start position:0%
+have to first open the application as
+well<00:06:20.240><c> which</c><00:06:20.360><c> is</c><00:06:20.560><c> a</c><00:06:20.840><c> prerequisite</c><00:06:21.840><c> so</c><00:06:22.039><c> let's</c><00:06:22.319><c> do</c>
+
+00:06:22.629 --> 00:06:22.639 align:start position:0%
+well which is a prerequisite so let's do
+ 
+
+00:06:22.639 --> 00:06:25.749 align:start position:0%
+well which is a prerequisite so let's do
+that<00:06:23.280><c> okay</c><00:06:23.440><c> so</c><00:06:23.759><c> this</c><00:06:23.840><c> is</c><00:06:24.080><c> my</c><00:06:24.440><c> first</c><00:06:24.759><c> test</c><00:06:25.080><c> case</c>
+
+00:06:25.749 --> 00:06:25.759 align:start position:0%
+that okay so this is my first test case
+ 
+
+00:06:25.759 --> 00:06:28.870 align:start position:0%
+that okay so this is my first test case
+open<00:06:26.560><c> application</c><00:06:27.560><c> and</c><00:06:27.800><c> then</c><00:06:28.280><c> I</c><00:06:28.400><c> can</c><00:06:28.639><c> add</c>
+
+00:06:28.870 --> 00:06:28.880 align:start position:0%
+open application and then I can add
+ 
+
+00:06:28.880 --> 00:06:31.909 align:start position:0%
+open application and then I can add
+another<00:06:29.199><c> test</c><00:06:29.400><c> case</c><00:06:29.639><c> is</c><00:06:30.520><c> and</c><00:06:30.800><c> I</c><00:06:30.919><c> will</c><00:06:31.199><c> say</c>
+
+00:06:31.909 --> 00:06:31.919 align:start position:0%
+another test case is and I will say
+ 
+
+00:06:31.919 --> 00:06:35.110 align:start position:0%
+another test case is and I will say
+register
+
+00:06:35.110 --> 00:06:35.120 align:start position:0%
+ 
+ 
+
+00:06:35.120 --> 00:06:39.350 align:start position:0%
+ 
+account<00:06:36.120><c> okay</c><00:06:36.880><c> and</c><00:06:37.240><c> this</c><00:06:37.360><c> is</c><00:06:37.680><c> my</c><00:06:37.880><c> second</c><00:06:38.199><c> test</c>
+
+00:06:39.350 --> 00:06:39.360 align:start position:0%
+account okay and this is my second test
+ 
+
+00:06:39.360 --> 00:06:43.629 align:start position:0%
+account okay and this is my second test
+case<00:06:40.360><c> now</c><00:06:40.720><c> for</c><00:06:41.120><c> open</c><00:06:41.800><c> application</c><00:06:42.800><c> I</c><00:06:43.160><c> need</c>
+
+00:06:43.629 --> 00:06:43.639 align:start position:0%
+case now for open application I need
+ 
+
+00:06:43.639 --> 00:06:47.270 align:start position:0%
+case now for open application I need
+some<00:06:43.919><c> test</c><00:06:44.240><c> steps</c><00:06:45.120><c> and</c><00:06:45.680><c> for</c><00:06:45.919><c> that</c><00:06:46.280><c> I</c><00:06:46.360><c> can</c><00:06:46.680><c> use</c>
+
+00:06:47.270 --> 00:06:47.280 align:start position:0%
+some test steps and for that I can use
+ 
+
+00:06:47.280 --> 00:06:50.029 align:start position:0%
+some test steps and for that I can use
+some<00:06:47.560><c> default</c><00:06:48.120><c> module</c><00:06:48.800><c> right</c><00:06:49.360><c> the</c><00:06:49.520><c> same</c><00:06:49.800><c> way</c>
+
+00:06:50.029 --> 00:06:50.039 align:start position:0%
+some default module right the same way
+ 
+
+00:06:50.039 --> 00:06:53.469 align:start position:0%
+some default module right the same way
+we<00:06:50.199><c> have</c><00:06:50.440><c> used</c><00:06:50.800><c> it</c><00:06:51.160><c> in</c><00:06:51.400><c> our</c><00:06:51.680><c> other</c><00:06:52.240><c> application</c>
+
+00:06:53.469 --> 00:06:53.479 align:start position:0%
+we have used it in our other application
+ 
+
+00:06:53.479 --> 00:06:57.909 align:start position:0%
+we have used it in our other application
+okay<00:06:54.479><c> now</c><00:06:55.440><c> in</c><00:06:55.599><c> order</c><00:06:55.919><c> to</c><00:06:56.599><c> uh</c><00:06:56.800><c> get</c><00:06:57.199><c> a</c><00:06:57.440><c> standard</c>
+
+00:06:57.909 --> 00:06:57.919 align:start position:0%
+okay now in order to uh get a standard
+ 
+
+00:06:57.919 --> 00:07:00.270 align:start position:0%
+okay now in order to uh get a standard
+module<00:06:58.599><c> right</c><00:06:59.280><c> uh</c>
+
+00:07:00.270 --> 00:07:00.280 align:start position:0%
+module right uh
+ 
+
+00:07:00.280 --> 00:07:02.950 align:start position:0%
+module right uh
+one<00:07:00.560><c> way</c><00:07:00.879><c> is</c><00:07:01.039><c> you</c><00:07:01.199><c> can</c><00:07:01.479><c> go</c><00:07:01.680><c> and</c><00:07:01.960><c> search</c><00:07:02.520><c> it</c><00:07:02.800><c> in</c>
+
+00:07:02.950 --> 00:07:02.960 align:start position:0%
+one way is you can go and search it in
+ 
+
+00:07:02.960 --> 00:07:06.270 align:start position:0%
+one way is you can go and search it in
+your<00:07:03.199><c> standard</c><00:07:03.599><c> modules</c><00:07:04.400><c> right</c><00:07:05.199><c> or</c><00:07:05.800><c> the</c><00:07:06.000><c> other</c>
+
+00:07:06.270 --> 00:07:06.280 align:start position:0%
+your standard modules right or the other
+ 
+
+00:07:06.280 --> 00:07:09.710 align:start position:0%
+your standard modules right or the other
+way<00:07:06.680><c> around</c><00:07:07.280><c> is</c><00:07:08.120><c> just</c><00:07:08.319><c> go</c><00:07:08.479><c> to</c><00:07:08.639><c> your</c><00:07:08.800><c> test</c><00:07:09.120><c> case</c>
+
+00:07:09.710 --> 00:07:09.720 align:start position:0%
+way around is just go to your test case
+ 
+
+00:07:09.720 --> 00:07:13.589 align:start position:0%
+way around is just go to your test case
+and<00:07:10.440><c> press</c><00:07:10.919><c> contrl</c><00:07:11.639><c> T</c><00:07:12.639><c> right</c><00:07:12.879><c> so</c><00:07:13.280><c> when</c><00:07:13.440><c> you</c>
+
+00:07:13.589 --> 00:07:13.599 align:start position:0%
+and press contrl T right so when you
+ 
+
+00:07:13.599 --> 00:07:16.110 align:start position:0%
+and press contrl T right so when you
+press<00:07:13.879><c> control</c><00:07:14.280><c> T</c><00:07:14.680><c> it</c><00:07:14.800><c> will</c><00:07:15.000><c> open</c><00:07:15.319><c> a</c><00:07:15.560><c> window</c>
+
+00:07:16.110 --> 00:07:16.120 align:start position:0%
+press control T it will open a window
+ 
+
+00:07:16.120 --> 00:07:18.749 align:start position:0%
+press control T it will open a window
+where<00:07:16.440><c> all</c><00:07:16.639><c> the</c><00:07:16.879><c> different</c><00:07:17.440><c> modules</c><00:07:18.440><c> present</c>
+
+00:07:18.749 --> 00:07:18.759 align:start position:0%
+where all the different modules present
+ 
+
+00:07:18.759 --> 00:07:21.869 align:start position:0%
+where all the different modules present
+in<00:07:18.960><c> this</c><00:07:19.160><c> workspace</c><00:07:19.960><c> will</c><00:07:20.199><c> be</c><00:07:20.759><c> displayed</c><00:07:21.599><c> and</c>
+
+00:07:21.869 --> 00:07:21.879 align:start position:0%
+in this workspace will be displayed and
+ 
+
+00:07:21.879 --> 00:07:24.629 align:start position:0%
+in this workspace will be displayed and
+here<00:07:22.280><c> you</c><00:07:22.400><c> can</c><00:07:22.680><c> search</c><00:07:23.680><c> your</c><00:07:23.919><c> module</c><00:07:24.479><c> which</c>
+
+00:07:24.629 --> 00:07:24.639 align:start position:0%
+here you can search your module which
+ 
+
+00:07:24.639 --> 00:07:27.830 align:start position:0%
+here you can search your module which
+you<00:07:24.759><c> want</c><00:07:24.960><c> to</c><00:07:25.240><c> include</c><00:07:25.639><c> in</c><00:07:25.759><c> your</c><00:07:26.000><c> test</c><00:07:26.639><c> case</c><00:07:27.080><c> or</c>
+
+00:07:27.830 --> 00:07:27.840 align:start position:0%
+you want to include in your test case or
+ 
+
+00:07:27.840 --> 00:07:30.390 align:start position:0%
+you want to include in your test case or
+test<00:07:28.360><c> steps</c><00:07:29.199><c> right</c>
+
+00:07:30.390 --> 00:07:30.400 align:start position:0%
+test steps right
+ 
+
+00:07:30.400 --> 00:07:34.589 align:start position:0%
+test steps right
+now<00:07:30.879><c> I</c><00:07:31.039><c> need</c><00:07:31.360><c> something</c><00:07:31.800><c> called</c><00:07:32.199><c> open</c><00:07:33.199><c> URL</c>
+
+00:07:34.589 --> 00:07:34.599 align:start position:0%
+now I need something called open URL
+ 
+
+00:07:34.599 --> 00:07:36.150 align:start position:0%
+now I need something called open URL
+okay
+
+00:07:36.150 --> 00:07:36.160 align:start position:0%
+okay
+ 
+
+00:07:36.160 --> 00:07:40.510 align:start position:0%
+okay
+so<00:07:37.160><c> this</c><00:07:37.319><c> is</c><00:07:37.840><c> the</c><00:07:38.000><c> open</c><00:07:38.400><c> URL</c><00:07:38.879><c> module</c>
+
+00:07:40.510 --> 00:07:40.520 align:start position:0%
+so this is the open URL module
+ 
+
+00:07:40.520 --> 00:07:43.390 align:start position:0%
+so this is the open URL module
+right<00:07:41.520><c> and</c><00:07:41.720><c> this</c><00:07:41.840><c> will</c><00:07:42.039><c> allow</c><00:07:42.319><c> me</c><00:07:42.599><c> to</c><00:07:42.800><c> open</c><00:07:43.120><c> an</c>
+
+00:07:43.390 --> 00:07:43.400 align:start position:0%
+right and this will allow me to open an
+ 
+
+00:07:43.400 --> 00:07:46.309 align:start position:0%
+right and this will allow me to open an
+application<00:07:44.199><c> on</c><00:07:44.400><c> the</c><00:07:44.560><c> browser</c><00:07:45.319><c> right</c><00:07:45.680><c> so</c>
+
+00:07:46.309 --> 00:07:46.319 align:start position:0%
+application on the browser right so
+ 
+
+00:07:46.319 --> 00:07:48.950 align:start position:0%
+application on the browser right so
+let's<00:07:46.639><c> grab</c><00:07:47.159><c> the</c><00:07:47.319><c> URL</c>
+
+00:07:48.950 --> 00:07:48.960 align:start position:0%
+let's grab the URL
+ 
+
+00:07:48.960 --> 00:07:53.350 align:start position:0%
+let's grab the URL
+here<00:07:49.960><c> and</c><00:07:50.319><c> I'll</c><00:07:50.560><c> put</c><00:07:51.000><c> the</c><00:07:51.400><c> value</c><00:07:52.400><c> as</c><00:07:52.599><c> it</c><00:07:52.800><c> is</c><00:07:53.159><c> in</c>
+
+00:07:53.350 --> 00:07:53.360 align:start position:0%
+here and I'll put the value as it is in
+ 
+
+00:07:53.360 --> 00:07:55.909 align:start position:0%
+here and I'll put the value as it is in
+the<00:07:53.639><c> value</c><00:07:54.240><c> right</c><00:07:54.800><c> the</c><00:07:54.960><c> action</c><00:07:55.199><c> mode</c><00:07:55.560><c> would</c><00:07:55.759><c> be</c>
+
+00:07:55.909 --> 00:07:55.919 align:start position:0%
+the value right the action mode would be
+ 
+
+00:07:55.919 --> 00:07:58.909 align:start position:0%
+the value right the action mode would be
+input<00:07:56.520><c> the</c><00:07:56.680><c> data</c><00:07:57.000><c> type</c><00:07:57.360><c> is</c><00:07:57.560><c> still</c><00:07:58.080><c> string</c>
+
+00:07:58.909 --> 00:07:58.919 align:start position:0%
+input the data type is still string
+ 
+
+00:07:58.919 --> 00:08:04.430 align:start position:0%
+input the data type is still string
+right<00:07:59.039><c> so</c><00:07:59.159><c> that</c><00:07:59.680><c> open</c><00:08:00.479><c> a</c><00:08:00.639><c> URL</c><00:08:01.280><c> in</c><00:08:01.400><c> a</c><00:08:01.639><c> specific</c>
+
+00:08:04.430 --> 00:08:04.440 align:start position:0%
+ 
+ 
+
+00:08:04.440 --> 00:08:07.510 align:start position:0%
+ 
+browser<00:08:05.440><c> now</c><00:08:05.759><c> coming</c><00:08:06.039><c> to</c><00:08:06.759><c> our</c><00:08:07.199><c> this</c>
+
+00:08:07.510 --> 00:08:07.520 align:start position:0%
+browser now coming to our this
+ 
+
+00:08:07.520 --> 00:08:09.869 align:start position:0%
+browser now coming to our this
+particular<00:08:07.919><c> application</c><00:08:08.639><c> we</c><00:08:08.840><c> also</c><00:08:09.199><c> need</c><00:08:09.639><c> a</c>
+
+00:08:09.869 --> 00:08:09.879 align:start position:0%
+particular application we also need a
+ 
+
+00:08:09.879 --> 00:08:12.950 align:start position:0%
+particular application we also need a
+test<00:08:10.240><c> configuration</c><00:08:11.240><c> parameter</c><00:08:12.120><c> right</c><00:08:12.759><c> so</c>
+
+00:08:12.950 --> 00:08:12.960 align:start position:0%
+test configuration parameter right so
+ 
+
+00:08:12.960 --> 00:08:14.990 align:start position:0%
+test configuration parameter right so
+let's<00:08:13.159><c> go</c><00:08:13.280><c> ahead</c><00:08:13.520><c> and</c><00:08:13.680><c> add</c><00:08:13.919><c> it</c><00:08:14.280><c> we</c><00:08:14.360><c> can</c><00:08:14.560><c> add</c><00:08:14.720><c> it</c>
+
+00:08:14.990 --> 00:08:15.000 align:start position:0%
+let's go ahead and add it we can add it
+ 
+
+00:08:15.000 --> 00:08:17.950 align:start position:0%
+let's go ahead and add it we can add it
+from<00:08:15.280><c> here</c><00:08:16.199><c> uh</c><00:08:16.400><c> from</c><00:08:16.560><c> the</c><00:08:16.720><c> test</c><00:08:17.000><c> case</c><00:08:17.199><c> folder</c>
+
+00:08:17.950 --> 00:08:17.960 align:start position:0%
+from here uh from the test case folder
+ 
+
+00:08:17.960 --> 00:08:21.270 align:start position:0%
+from here uh from the test case folder
+right<00:08:18.960><c> so</c><00:08:19.479><c> go</c><00:08:19.759><c> here</c><00:08:20.080><c> and</c><00:08:20.240><c> you</c><00:08:20.319><c> will</c><00:08:20.479><c> see</c><00:08:20.759><c> test</c>
+
+00:08:21.270 --> 00:08:21.280 align:start position:0%
+right so go here and you will see test
+ 
+
+00:08:21.280 --> 00:08:23.670 align:start position:0%
+right so go here and you will see test
+create<00:08:21.599><c> test</c><00:08:21.879><c> configuration</c><00:08:22.560><c> parameter</c><00:08:23.560><c> we</c>
+
+00:08:23.670 --> 00:08:23.680 align:start position:0%
+create test configuration parameter we
+ 
+
+00:08:23.680 --> 00:08:26.350 align:start position:0%
+create test configuration parameter we
+have<00:08:23.840><c> already</c><00:08:24.080><c> seen</c><00:08:24.479><c> this</c><00:08:25.440><c> so</c><00:08:25.680><c> we'll</c><00:08:25.879><c> select</c>
+
+00:08:26.350 --> 00:08:26.360 align:start position:0%
+have already seen this so we'll select
+ 
+
+00:08:26.360 --> 00:08:29.589 align:start position:0%
+have already seen this so we'll select
+browser<00:08:27.360><c> and</c><00:08:27.639><c> in</c><00:08:27.800><c> the</c><00:08:27.919><c> browser</c>
+
+00:08:29.589 --> 00:08:29.599 align:start position:0%
+browser and in the browser
+ 
+
+00:08:29.599 --> 00:08:31.589 align:start position:0%
+browser and in the browser
+Chrome<00:08:29.879><c> browser</c><00:08:30.240><c> so</c><00:08:30.440><c> that</c><00:08:30.840><c> the</c><00:08:30.960><c> application</c>
+
+00:08:31.589 --> 00:08:31.599 align:start position:0%
+Chrome browser so that the application
+ 
+
+00:08:31.599 --> 00:08:35.149 align:start position:0%
+Chrome browser so that the application
+opens<00:08:32.080><c> in</c><00:08:32.279><c> this</c><00:08:32.440><c> particular</c><00:08:32.800><c> browser</c><00:08:33.919><c> okay</c><00:08:34.919><c> so</c>
+
+00:08:35.149 --> 00:08:35.159 align:start position:0%
+opens in this particular browser okay so
+ 
+
+00:08:35.159 --> 00:08:37.870 align:start position:0%
+opens in this particular browser okay so
+the<00:08:35.279><c> initial</c><00:08:35.680><c> steps</c><00:08:36.120><c> are</c><00:08:36.399><c> now</c><00:08:36.599><c> done</c><00:08:37.320><c> and</c><00:08:37.599><c> let's</c>
+
+00:08:37.870 --> 00:08:37.880 align:start position:0%
+the initial steps are now done and let's
+ 
+
+00:08:37.880 --> 00:08:42.070 align:start position:0%
+the initial steps are now done and let's
+go<00:08:38.279><c> to</c><00:08:38.719><c> register</c><00:08:39.320><c> account</c><00:08:40.279><c> where</c><00:08:41.279><c> we</c><00:08:41.440><c> will</c>
+
+00:08:42.070 --> 00:08:42.080 align:start position:0%
+go to register account where we will
+ 
+
+00:08:42.080 --> 00:08:44.949 align:start position:0%
+go to register account where we will
+again<00:08:42.519><c> create</c><00:08:42.959><c> a</c><00:08:43.159><c> module</c><00:08:44.080><c> for</c><00:08:44.440><c> our</c>
+
+00:08:44.949 --> 00:08:44.959 align:start position:0%
+again create a module for our
+ 
+
+00:08:44.959 --> 00:08:48.670 align:start position:0%
+again create a module for our
+registration<00:08:45.800><c> page</c><00:08:46.959><c> right</c><00:08:47.959><c> let's</c><00:08:48.240><c> create</c><00:08:48.519><c> a</c>
+
+00:08:48.670 --> 00:08:48.680 align:start position:0%
+registration page right let's create a
+ 
+
+00:08:48.680 --> 00:08:51.150 align:start position:0%
+registration page right let's create a
+new<00:08:48.839><c> module</c><00:08:49.320><c> here</c><00:08:49.760><c> right</c><00:08:49.959><c> so</c><00:08:50.600><c> let's</c><00:08:50.839><c> first</c>
+
+00:08:51.150 --> 00:08:51.160 align:start position:0%
+new module here right so let's first
+ 
+
+00:08:51.160 --> 00:08:54.550 align:start position:0%
+new module here right so let's first
+create<00:08:51.600><c> a</c><00:08:51.800><c> new</c><00:08:52.240><c> module</c><00:08:52.680><c> folder</c><00:08:53.680><c> so</c><00:08:54.320><c> right</c>
+
+00:08:54.550 --> 00:08:54.560 align:start position:0%
+create a new module folder so right
+ 
+
+00:08:54.560 --> 00:08:57.070 align:start position:0%
+create a new module folder so right
+click<00:08:54.880><c> and</c><00:08:55.080><c> select</c><00:08:55.440><c> create</c><00:08:55.760><c> folder</c><00:08:56.680><c> here</c><00:08:56.920><c> I'm</c>
+
+00:08:57.070 --> 00:08:57.080 align:start position:0%
+click and select create folder here I'm
+ 
+
+00:08:57.080 --> 00:08:59.150 align:start position:0%
+click and select create folder here I'm
+going<00:08:57.279><c> to</c><00:08:57.800><c> enter</c><00:08:58.079><c> some</c><00:08:58.320><c> name</c><00:08:58.800><c> right</c><00:08:58.920><c> it</c><00:08:59.040><c> could</c>
+
+00:08:59.150 --> 00:08:59.160 align:start position:0%
+going to enter some name right it could
+ 
+
+00:08:59.160 --> 00:09:01.910 align:start position:0%
+going to enter some name right it could
+be<00:08:59.279><c> any</c><00:08:59.440><c> anything</c><00:09:00.000><c> but</c><00:09:00.440><c> I</c><00:09:00.519><c> would</c><00:09:00.760><c> just</c><00:09:01.000><c> enter</c>
+
+00:09:01.910 --> 00:09:01.920 align:start position:0%
+be any anything but I would just enter
+ 
+
+00:09:01.920 --> 00:09:05.430 align:start position:0%
+be any anything but I would just enter
+the<00:09:02.200><c> application</c><00:09:02.800><c> name</c>
+
+00:09:05.430 --> 00:09:05.440 align:start position:0%
+ 
+ 
+
+00:09:05.440 --> 00:09:08.389 align:start position:0%
+ 
+here<00:09:06.440><c> okay</c><00:09:07.000><c> now</c><00:09:07.480><c> we</c><00:09:07.560><c> need</c><00:09:07.720><c> to</c><00:09:07.880><c> add</c><00:09:08.120><c> different</c>
+
+00:09:08.389 --> 00:09:08.399 align:start position:0%
+here okay now we need to add different
+ 
+
+00:09:08.399 --> 00:09:10.069 align:start position:0%
+here okay now we need to add different
+modules<00:09:08.839><c> for</c><00:09:09.040><c> this</c><00:09:09.240><c> application</c><00:09:09.839><c> and</c><00:09:09.959><c> the</c>
+
+00:09:10.069 --> 00:09:10.079 align:start position:0%
+modules for this application and the
+ 
+
+00:09:10.079 --> 00:09:12.750 align:start position:0%
+modules for this application and the
+best<00:09:10.279><c> way</c><00:09:10.440><c> to</c><00:09:10.560><c> do</c><00:09:10.720><c> it</c><00:09:11.279><c> is</c><00:09:11.600><c> directly</c><00:09:12.000><c> scan</c><00:09:12.560><c> the</c>
+
+00:09:12.750 --> 00:09:12.760 align:start position:0%
+best way to do it is directly scan the
+ 
+
+00:09:12.760 --> 00:09:14.630 align:start position:0%
+best way to do it is directly scan the
+application<00:09:13.600><c> right</c><00:09:13.800><c> the</c><00:09:14.000><c> page</c><00:09:14.240><c> which</c><00:09:14.399><c> you</c><00:09:14.480><c> are</c>
+
+00:09:14.630 --> 00:09:14.640 align:start position:0%
+application right the page which you are
+ 
+
+00:09:14.640 --> 00:09:17.190 align:start position:0%
+application right the page which you are
+trying<00:09:14.880><c> to</c><00:09:15.040><c> automate</c><00:09:16.040><c> so</c><00:09:16.279><c> right</c><00:09:16.560><c> click</c><00:09:16.880><c> and</c><00:09:17.040><c> go</c>
+
+00:09:17.190 --> 00:09:17.200 align:start position:0%
+trying to automate so right click and go
+ 
+
+00:09:17.200 --> 00:09:18.829 align:start position:0%
+trying to automate so right click and go
+to<00:09:17.399><c> scan</c>
+
+00:09:18.829 --> 00:09:18.839 align:start position:0%
+to scan
+ 
+
+00:09:18.839 --> 00:09:21.069 align:start position:0%
+to scan
+application<00:09:19.839><c> there</c><00:09:20.079><c> we</c><00:09:20.200><c> have</c><00:09:20.320><c> to</c><00:09:20.480><c> select</c><00:09:20.839><c> our</c>
+
+00:09:21.069 --> 00:09:21.079 align:start position:0%
+application there we have to select our
+ 
+
+00:09:21.079 --> 00:09:24.790 align:start position:0%
+application there we have to select our
+application<00:09:21.839><c> which</c><00:09:22.000><c> we</c><00:09:22.160><c> want</c><00:09:22.320><c> to</c><00:09:22.480><c> scan</c><00:09:23.760><c> okay</c>
+
+00:09:24.790 --> 00:09:24.800 align:start position:0%
+application which we want to scan okay
+ 
+
+00:09:24.800 --> 00:09:30.509 align:start position:0%
+application which we want to scan okay
+so<00:09:25.800><c> I'll</c><00:09:26.000><c> go</c><00:09:26.160><c> to</c><00:09:26.440><c> this</c><00:09:27.160><c> and</c><00:09:27.760><c> click</c><00:09:28.000><c> on</c><00:09:28.240><c> scan</c>
+
+00:09:30.509 --> 00:09:30.519 align:start position:0%
+so I'll go to this and click on scan
+ 
+
+00:09:30.519 --> 00:09:32.910 align:start position:0%
+so I'll go to this and click on scan
+now<00:09:30.680><c> it</c><00:09:30.760><c> will</c><00:09:31.000><c> ask</c><00:09:31.200><c> me</c><00:09:31.480><c> to</c><00:09:31.680><c> click</c><00:09:31.880><c> on</c><00:09:32.079><c> controls</c>
+
+00:09:32.910 --> 00:09:32.920 align:start position:0%
+now it will ask me to click on controls
+ 
+
+00:09:32.920 --> 00:09:36.550 align:start position:0%
+now it will ask me to click on controls
+in<00:09:33.079><c> my</c><00:09:33.279><c> application</c><00:09:34.120><c> to</c><00:09:34.399><c> basically</c><00:09:35.200><c> add</c><00:09:35.519><c> those</c>
+
+00:09:36.550 --> 00:09:36.560 align:start position:0%
+in my application to basically add those
+ 
+
+00:09:36.560 --> 00:09:41.550 align:start position:0%
+in my application to basically add those
+controls<00:09:38.040><c> right</c><00:09:39.160><c> so</c><00:09:40.160><c> let</c><00:09:40.320><c> me</c><00:09:40.560><c> click</c><00:09:40.880><c> on</c><00:09:41.200><c> first</c>
+
+00:09:41.550 --> 00:09:41.560 align:start position:0%
+controls right so let me click on first
+ 
+
+00:09:41.560 --> 00:09:45.750 align:start position:0%
+controls right so let me click on first
+name<00:09:42.079><c> last</c><00:09:42.399><c> name</c><00:09:42.800><c> email</c><00:09:43.519><c> telephone</c><00:09:44.760><c> password</c>
+
+00:09:45.750 --> 00:09:45.760 align:start position:0%
+name last name email telephone password
+ 
+
+00:09:45.760 --> 00:09:49.190 align:start position:0%
+name last name email telephone password
+the<00:09:45.959><c> confirm</c><00:09:46.839><c> password</c><00:09:47.839><c> the</c><00:09:48.040><c> Subscribe</c>
+
+00:09:49.190 --> 00:09:49.200 align:start position:0%
+the confirm password the Subscribe
+ 
+
+00:09:49.200 --> 00:09:52.470 align:start position:0%
+the confirm password the Subscribe
+button<00:09:50.200><c> the</c><00:09:50.399><c> privacy</c><00:09:50.880><c> policy</c><00:09:51.240><c> checkbox</c><00:09:52.079><c> and</c>
+
+00:09:52.470 --> 00:09:52.480 align:start position:0%
+button the privacy policy checkbox and
+ 
+
+00:09:52.480 --> 00:09:54.030 align:start position:0%
+button the privacy policy checkbox and
+the<00:09:52.839><c> continue</c>
+
+00:09:54.030 --> 00:09:54.040 align:start position:0%
+the continue
+ 
+
+00:09:54.040 --> 00:09:57.750 align:start position:0%
+the continue
+button<00:09:55.040><c> okay</c><00:09:55.200><c> so</c><00:09:55.640><c> all</c><00:09:55.800><c> of</c><00:09:56.000><c> these</c><00:09:56.519><c> controls</c><00:09:57.519><c> I</c>
+
+00:09:57.750 --> 00:09:57.760 align:start position:0%
+button okay so all of these controls I
+ 
+
+00:09:57.760 --> 00:10:01.150 align:start position:0%
+button okay so all of these controls I
+want<00:09:57.959><c> to</c><00:09:58.279><c> add</c><00:09:58.720><c> into</c><00:09:59.040><c> my</c><00:09:59.480><c> module</c>
+
+00:10:01.150 --> 00:10:01.160 align:start position:0%
+want to add into my module
+ 
+
+00:10:01.160 --> 00:10:07.069 align:start position:0%
+want to add into my module
+okay<00:10:02.160><c> so</c><00:10:02.440><c> click</c><00:10:02.640><c> on</c><00:10:03.160><c> Save</c><00:10:04.160><c> and</c><00:10:05.079><c> click</c><00:10:05.560><c> on</c>
+
+00:10:07.069 --> 00:10:07.079 align:start position:0%
+okay so click on Save and click on
+ 
+
+00:10:07.079 --> 00:10:10.150 align:start position:0%
+okay so click on Save and click on
+close<00:10:08.079><c> so</c><00:10:08.320><c> that</c><00:10:08.440><c> is</c><00:10:08.640><c> basically</c><00:10:09.040><c> going</c><00:10:09.279><c> to</c><00:10:09.800><c> add</c>
+
+00:10:10.150 --> 00:10:10.160 align:start position:0%
+close so that is basically going to add
+ 
+
+00:10:10.160 --> 00:10:13.269 align:start position:0%
+close so that is basically going to add
+all<00:10:10.399><c> the</c><00:10:11.360><c> controls</c><00:10:12.120><c> in</c><00:10:12.680><c> this</c><00:10:12.880><c> particular</c>
+
+00:10:13.269 --> 00:10:13.279 align:start position:0%
+all the controls in this particular
+ 
+
+00:10:13.279 --> 00:10:15.949 align:start position:0%
+all the controls in this particular
+module<00:10:13.720><c> which</c><00:10:13.880><c> is</c><00:10:14.240><c> register</c>
+
+00:10:15.949 --> 00:10:15.959 align:start position:0%
+module which is register
+ 
+
+00:10:15.959 --> 00:10:21.230 align:start position:0%
+module which is register
+account<00:10:17.320><c> okay</c><00:10:18.320><c> now</c><00:10:19.120><c> what</c><00:10:19.279><c> we</c><00:10:19.399><c> want</c><00:10:19.560><c> to</c><00:10:19.720><c> do</c><00:10:20.399><c> is</c>
+
+00:10:21.230 --> 00:10:21.240 align:start position:0%
+account okay now what we want to do is
+ 
+
+00:10:21.240 --> 00:10:23.470 align:start position:0%
+account okay now what we want to do is
+let's<00:10:21.640><c> drag</c><00:10:21.959><c> it</c><00:10:22.160><c> here</c><00:10:22.399><c> so</c><00:10:22.600><c> that</c><00:10:22.880><c> we</c><00:10:23.040><c> can</c><00:10:23.160><c> see</c>
+
+00:10:23.470 --> 00:10:23.480 align:start position:0%
+let's drag it here so that we can see
+ 
+
+00:10:23.480 --> 00:10:26.350 align:start position:0%
+let's drag it here so that we can see
+both<00:10:23.640><c> the</c><00:10:23.760><c> test</c><00:10:24.000><c> cases</c><00:10:24.440><c> and</c><00:10:24.600><c> modules</c><00:10:25.360><c> right</c>
+
+00:10:26.350 --> 00:10:26.360 align:start position:0%
+both the test cases and modules right
+ 
+
+00:10:26.360 --> 00:10:30.350 align:start position:0%
+both the test cases and modules right
+and<00:10:26.800><c> I</c><00:10:26.959><c> want</c><00:10:27.160><c> to</c><00:10:27.399><c> add</c><00:10:27.680><c> this</c><00:10:27.839><c> module</c><00:10:28.480><c> right</c><00:10:28.800><c> so</c>
+
+00:10:30.350 --> 00:10:30.360 align:start position:0%
+and I want to add this module right so
+ 
+
+00:10:30.360 --> 00:10:32.230 align:start position:0%
+and I want to add this module right so
+either<00:10:30.640><c> you</c><00:10:30.720><c> can</c><00:10:30.920><c> again</c><00:10:31.200><c> press</c><00:10:31.440><c> contr</c><00:10:31.800><c> T</c><00:10:32.079><c> and</c>
+
+00:10:32.230 --> 00:10:32.240 align:start position:0%
+either you can again press contr T and
+ 
+
+00:10:32.240 --> 00:10:34.470 align:start position:0%
+either you can again press contr T and
+search<00:10:32.519><c> for</c><00:10:32.800><c> this</c><00:10:33.360><c> or</c><00:10:33.560><c> you</c><00:10:33.640><c> can</c><00:10:33.800><c> directly</c><00:10:34.200><c> drag</c>
+
+00:10:34.470 --> 00:10:34.480 align:start position:0%
+search for this or you can directly drag
+ 
+
+00:10:34.480 --> 00:10:38.030 align:start position:0%
+search for this or you can directly drag
+and<00:10:34.680><c> drop</c><00:10:35.279><c> into</c><00:10:35.680><c> this</c><00:10:35.880><c> particular</c><00:10:36.560><c> test</c><00:10:36.920><c> step</c>
+
+00:10:38.030 --> 00:10:38.040 align:start position:0%
+and drop into this particular test step
+ 
+
+00:10:38.040 --> 00:10:41.350 align:start position:0%
+and drop into this particular test step
+okay<00:10:39.040><c> so</c><00:10:39.440><c> this</c><00:10:39.600><c> will</c><00:10:40.200><c> add</c><00:10:40.519><c> this</c><00:10:40.680><c> module</c><00:10:41.200><c> and</c>
+
+00:10:41.350 --> 00:10:41.360 align:start position:0%
+okay so this will add this module and
+ 
+
+00:10:41.360 --> 00:10:43.230 align:start position:0%
+okay so this will add this module and
+all<00:10:41.519><c> the</c><00:10:41.680><c> controls</c><00:10:42.399><c> into</c><00:10:42.720><c> this</c><00:10:42.880><c> particular</c>
+
+00:10:43.230 --> 00:10:43.240 align:start position:0%
+all the controls into this particular
+ 
+
+00:10:43.240 --> 00:10:47.670 align:start position:0%
+all the controls into this particular
+test<00:10:43.560><c> case</c><00:10:44.000><c> as</c><00:10:44.440><c> different</c><00:10:45.120><c> test</c><00:10:45.720><c> steps</c>
+
+00:10:47.670 --> 00:10:47.680 align:start position:0%
+test case as different test steps
+ 
+
+00:10:47.680 --> 00:10:50.190 align:start position:0%
+test case as different test steps
+okay<00:10:48.680><c> and</c><00:10:48.920><c> as</c><00:10:49.000><c> you</c><00:10:49.120><c> can</c><00:10:49.279><c> see</c><00:10:49.639><c> it</c><00:10:49.760><c> has</c><00:10:49.959><c> got</c>
+
+00:10:50.190 --> 00:10:50.200 align:start position:0%
+okay and as you can see it has got
+ 
+
+00:10:50.200 --> 00:10:52.550 align:start position:0%
+okay and as you can see it has got
+different<00:10:50.519><c> controls</c><00:10:51.480><c> and</c><00:10:51.680><c> we</c><00:10:51.800><c> have</c><00:10:51.920><c> to</c><00:10:52.120><c> enter</c>
+
+00:10:52.550 --> 00:10:52.560 align:start position:0%
+different controls and we have to enter
+ 
+
+00:10:52.560 --> 00:10:54.550 align:start position:0%
+different controls and we have to enter
+different<00:10:52.920><c> values</c><00:10:53.760><c> right</c><00:10:54.240><c> now</c><00:10:54.440><c> the</c>
+
+00:10:54.550 --> 00:10:54.560 align:start position:0%
+different values right now the
+ 
+
+00:10:54.560 --> 00:10:56.750 align:start position:0%
+different values right now the
+straightforward<00:10:55.320><c> V</c><00:10:56.040><c> which</c><00:10:56.200><c> we</c><00:10:56.320><c> have</c><00:10:56.480><c> already</c>
+
+00:10:56.750 --> 00:10:56.760 align:start position:0%
+straightforward V which we have already
+ 
+
+00:10:56.760 --> 00:11:00.110 align:start position:0%
+straightforward V which we have already
+seen<00:10:57.320><c> is</c><00:10:57.480><c> to</c><00:10:57.720><c> directly</c><00:10:58.160><c> enter</c><00:10:59.440><c> different</c>
+
+00:11:00.110 --> 00:11:00.120 align:start position:0%
+seen is to directly enter different
+ 
+
+00:11:00.120 --> 00:11:02.629 align:start position:0%
+seen is to directly enter different
+values<00:11:00.639><c> into</c><00:11:00.959><c> these</c><00:11:01.160><c> fields</c><00:11:01.839><c> right</c><00:11:02.279><c> and</c><00:11:02.519><c> it</c>
+
+00:11:02.629 --> 00:11:02.639 align:start position:0%
+values into these fields right and it
+ 
+
+00:11:02.639 --> 00:11:05.710 align:start position:0%
+values into these fields right and it
+would<00:11:02.880><c> work</c><00:11:03.320><c> as</c><00:11:03.760><c> usual</c><00:11:04.760><c> so</c><00:11:04.959><c> I</c><00:11:05.079><c> can</c><00:11:05.240><c> enter</c><00:11:05.560><c> a</c>
+
+00:11:05.710 --> 00:11:05.720 align:start position:0%
+would work as usual so I can enter a
+ 
+
+00:11:05.720 --> 00:11:08.150 align:start position:0%
+would work as usual so I can enter a
+name<00:11:06.079><c> first</c><00:11:06.360><c> name</c><00:11:06.639><c> last</c><00:11:06.959><c> name</c><00:11:07.320><c> email</c>
+
+00:11:08.150 --> 00:11:08.160 align:start position:0%
+name first name last name email
+ 
+
+00:11:08.160 --> 00:11:10.949 align:start position:0%
+name first name last name email
+telephone<00:11:08.880><c> password</c><00:11:09.440><c> right</c><00:11:10.240><c> but</c><00:11:10.440><c> then</c><00:11:10.760><c> uh</c><00:11:10.880><c> we</c>
+
+00:11:10.949 --> 00:11:10.959 align:start position:0%
+telephone password right but then uh we
+ 
+
+00:11:10.959 --> 00:11:13.190 align:start position:0%
+telephone password right but then uh we
+are<00:11:11.120><c> trying</c><00:11:11.360><c> to</c><00:11:11.519><c> learn</c><00:11:12.200><c> how</c><00:11:12.399><c> we</c><00:11:12.480><c> can</c><00:11:12.639><c> Generate</c>
+
+00:11:13.190 --> 00:11:13.200 align:start position:0%
+are trying to learn how we can Generate
+ 
+
+00:11:13.200 --> 00:11:16.910 align:start position:0%
+are trying to learn how we can Generate
+random<00:11:13.680><c> values</c><00:11:14.560><c> for</c><00:11:15.279><c> Strings</c><00:11:15.720><c> or</c><00:11:15.959><c> numbers</c><00:11:16.680><c> in</c>
+
+00:11:16.910 --> 00:11:16.920 align:start position:0%
+random values for Strings or numbers in
+ 
+
+00:11:16.920 --> 00:11:20.230 align:start position:0%
+random values for Strings or numbers in
+tosa<00:11:17.760><c> okay</c><00:11:18.200><c> so</c><00:11:18.560><c> that</c><00:11:18.880><c> uh</c><00:11:19.000><c> we</c><00:11:19.120><c> can</c><00:11:19.320><c> make</c><00:11:19.680><c> our</c>
+
+00:11:20.230 --> 00:11:20.240 align:start position:0%
+tosa okay so that uh we can make our
+ 
+
+00:11:20.240 --> 00:11:23.230 align:start position:0%
+tosa okay so that uh we can make our
+test<00:11:20.560><c> case</c><00:11:20.800><c> more</c><00:11:21.040><c> Dynamic</c>
+
+00:11:23.230 --> 00:11:23.240 align:start position:0%
+test case more Dynamic
+ 
+
+00:11:23.240 --> 00:11:28.030 align:start position:0%
+test case more Dynamic
+okay<00:11:24.240><c> so</c><00:11:25.200><c> um</c><00:11:26.200><c> let's</c><00:11:26.440><c> see</c><00:11:26.839><c> how</c><00:11:27.000><c> we</c><00:11:27.160><c> can</c><00:11:27.519><c> generate</c>
+
+00:11:28.030 --> 00:11:28.040 align:start position:0%
+okay so um let's see how we can generate
+ 
+
+00:11:28.040 --> 00:11:30.750 align:start position:0%
+okay so um let's see how we can generate
+the<00:11:28.200><c> random</c><00:11:28.600><c> string</c><00:11:29.519><c> okay</c><00:11:30.120><c> so</c><00:11:30.320><c> you</c><00:11:30.440><c> need</c><00:11:30.600><c> to</c>
+
+00:11:30.750 --> 00:11:30.760 align:start position:0%
+the random string okay so you need to
+ 
+
+00:11:30.760 --> 00:11:33.069 align:start position:0%
+the random string okay so you need to
+follow<00:11:31.079><c> the</c><00:11:31.200><c> expression</c><00:11:31.760><c> here</c><00:11:32.279><c> in</c><00:11:32.440><c> the</c><00:11:32.600><c> value</c>
+
+00:11:33.069 --> 00:11:33.079 align:start position:0%
+follow the expression here in the value
+ 
+
+00:11:33.079 --> 00:11:36.389 align:start position:0%
+follow the expression here in the value
+you<00:11:33.240><c> need</c><00:11:33.399><c> to</c><00:11:33.600><c> type</c><00:11:34.600><c> this</c><00:11:34.839><c> curly</c><00:11:35.200><c> braces</c><00:11:36.200><c> and</c>
+
+00:11:36.389 --> 00:11:36.399 align:start position:0%
+you need to type this curly braces and
+ 
+
+00:11:36.399 --> 00:11:38.350 align:start position:0%
+you need to type this curly braces and
+then<00:11:36.680><c> you</c><00:11:36.839><c> need</c><00:11:37.000><c> to</c><00:11:37.120><c> type</c>
+
+00:11:38.350 --> 00:11:38.360 align:start position:0%
+then you need to type
+ 
+
+00:11:38.360 --> 00:11:40.949 align:start position:0%
+then you need to type
+random<00:11:39.360><c> okay</c><00:11:39.760><c> and</c><00:11:39.959><c> it</c><00:11:40.079><c> would</c><00:11:40.279><c> be</c><00:11:40.480><c> popped</c><00:11:40.800><c> up</c>
+
+00:11:40.949 --> 00:11:40.959 align:start position:0%
+random okay and it would be popped up
+ 
+
+00:11:40.959 --> 00:11:44.069 align:start position:0%
+random okay and it would be popped up
+you<00:11:41.079><c> will</c><00:11:41.240><c> see</c><00:11:41.720><c> random</c><00:11:42.320><c> text</c><00:11:43.320><c> so</c><00:11:43.639><c> either</c><00:11:43.880><c> you</c>
+
+00:11:44.069 --> 00:11:44.079 align:start position:0%
+you will see random text so either you
+ 
+
+00:11:44.079 --> 00:11:46.949 align:start position:0%
+you will see random text so either you
+type<00:11:44.320><c> it</c><00:11:44.600><c> or</c><00:11:44.920><c> select</c><00:11:45.320><c> it</c><00:11:45.680><c> from</c><00:11:45.880><c> the</c><00:11:46.040><c> options</c>
+
+00:11:46.949 --> 00:11:46.959 align:start position:0%
+type it or select it from the options
+ 
+
+00:11:46.959 --> 00:11:49.629 align:start position:0%
+type it or select it from the options
+and<00:11:47.160><c> then</c><00:11:47.480><c> square</c><00:11:47.880><c> bracket</c><00:11:48.880><c> okay</c><00:11:49.320><c> and</c><00:11:49.519><c> you</c>
+
+00:11:49.629 --> 00:11:49.639 align:start position:0%
+and then square bracket okay and you
+ 
+
+00:11:49.639 --> 00:11:53.430 align:start position:0%
+and then square bracket okay and you
+need<00:11:49.800><c> to</c><00:11:50.079><c> enter</c><00:11:50.480><c> some</c><00:11:50.720><c> length</c><00:11:51.120><c> here</c><00:11:52.120><c> so</c><00:11:53.000><c> let</c><00:11:53.279><c> me</c>
+
+00:11:53.430 --> 00:11:53.440 align:start position:0%
+need to enter some length here so let me
+ 
+
+00:11:53.440 --> 00:11:54.910 align:start position:0%
+need to enter some length here so let me
+enter
+
+00:11:54.910 --> 00:11:54.920 align:start position:0%
+enter
+ 
+
+00:11:54.920 --> 00:11:58.629 align:start position:0%
+enter
+five<00:11:55.920><c> okay</c><00:11:56.600><c> and</c><00:11:56.839><c> close</c><00:11:57.320><c> the</c><00:11:57.480><c> curly</c><00:11:57.839><c> braces</c>
+
+00:11:58.629 --> 00:11:58.639 align:start position:0%
+five okay and close the curly braces
+ 
+
+00:11:58.639 --> 00:11:59.870 align:start position:0%
+five okay and close the curly braces
+that's<00:11:58.839><c> it</c>
+
+00:11:59.870 --> 00:11:59.880 align:start position:0%
+that's it
+ 
+
+00:11:59.880 --> 00:12:01.910 align:start position:0%
+that's it
+when<00:12:00.000><c> you</c><00:12:00.200><c> press</c><00:12:00.480><c> enter</c><00:12:00.800><c> you</c><00:12:00.920><c> will</c><00:12:01.120><c> see</c><00:12:01.760><c> uh</c>
+
+00:12:01.910 --> 00:12:01.920 align:start position:0%
+when you press enter you will see uh
+ 
+
+00:12:01.920 --> 00:12:02.710 align:start position:0%
+when you press enter you will see uh
+this
+
+00:12:02.710 --> 00:12:02.720 align:start position:0%
+this
+ 
+
+00:12:02.720 --> 00:12:05.710 align:start position:0%
+this
+highlighted<00:12:03.720><c> uh</c><00:12:04.000><c> value</c><00:12:04.880><c> which</c><00:12:05.000><c> is</c><00:12:05.279><c> random</c>
+
+00:12:05.710 --> 00:12:05.720 align:start position:0%
+highlighted uh value which is random
+ 
+
+00:12:05.720 --> 00:12:09.030 align:start position:0%
+highlighted uh value which is random
+text<00:12:06.240><c> and</c><00:12:06.680><c> the</c><00:12:06.800><c> length</c><00:12:07.200><c> is</c><00:12:07.399><c> five</c><00:12:08.079><c> okay</c>
+
+00:12:09.030 --> 00:12:09.040 align:start position:0%
+text and the length is five okay
+ 
+
+00:12:09.040 --> 00:12:13.430 align:start position:0%
+text and the length is five okay
+similarly<00:12:09.920><c> I</c><00:12:10.079><c> can</c><00:12:10.480><c> do</c><00:12:10.720><c> it</c><00:12:10.959><c> for</c><00:12:11.560><c> last</c><00:12:12.040><c> name</c><00:12:13.040><c> so</c>
+
+00:12:13.430 --> 00:12:13.440 align:start position:0%
+similarly I can do it for last name so
+ 
+
+00:12:13.440 --> 00:12:14.910 align:start position:0%
+similarly I can do it for last name so
+I'll<00:12:13.720><c> say</c>
+
+00:12:14.910 --> 00:12:14.920 align:start position:0%
+I'll say
+ 
+
+00:12:14.920 --> 00:12:17.189 align:start position:0%
+I'll say
+random
+
+00:12:17.189 --> 00:12:17.199 align:start position:0%
+random
+ 
+
+00:12:17.199 --> 00:12:18.949 align:start position:0%
+random
+right
+
+00:12:18.949 --> 00:12:18.959 align:start position:0%
+right
+ 
+
+00:12:18.959 --> 00:12:23.110 align:start position:0%
+right
+text<00:12:19.959><c> and</c><00:12:20.199><c> in</c><00:12:20.399><c> square</c><00:12:20.760><c> bracket</c><00:12:21.240><c> again</c><00:12:22.120><c> five</c>
+
+00:12:23.110 --> 00:12:23.120 align:start position:0%
+text and in square bracket again five
+ 
+
+00:12:23.120 --> 00:12:26.350 align:start position:0%
+text and in square bracket again five
+okay<00:12:24.000><c> and</c><00:12:24.240><c> press</c><00:12:24.560><c> enter</c><00:12:25.199><c> so</c><00:12:25.440><c> you</c><00:12:25.560><c> can</c><00:12:25.720><c> see</c><00:12:26.160><c> both</c>
+
+00:12:26.350 --> 00:12:26.360 align:start position:0%
+okay and press enter so you can see both
+ 
+
+00:12:26.360 --> 00:12:28.990 align:start position:0%
+okay and press enter so you can see both
+of<00:12:26.560><c> these</c><00:12:26.800><c> values</c><00:12:27.199><c> are</c><00:12:27.399><c> now</c><00:12:27.680><c> random</c><00:12:28.120><c> values</c>
+
+00:12:28.990 --> 00:12:29.000 align:start position:0%
+of these values are now random values
+ 
+
+00:12:29.000 --> 00:12:30.629 align:start position:0%
+of these values are now random values
+which<00:12:29.160><c> which</c><00:12:29.240><c> will</c><00:12:29.399><c> be</c><00:12:29.519><c> generated</c><00:12:29.959><c> by</c>
+
+00:12:30.629 --> 00:12:30.639 align:start position:0%
+which which will be generated by
+ 
+
+00:12:30.639 --> 00:12:34.269 align:start position:0%
+which which will be generated by
+tosa<00:12:31.639><c> now</c><00:12:31.880><c> if</c><00:12:32.000><c> you</c><00:12:32.160><c> want</c><00:12:32.360><c> to</c><00:12:32.600><c> verify</c><00:12:33.600><c> what</c><00:12:33.760><c> tosa</c>
+
+00:12:34.269 --> 00:12:34.279 align:start position:0%
+tosa now if you want to verify what tosa
+ 
+
+00:12:34.279 --> 00:12:37.389 align:start position:0%
+tosa now if you want to verify what tosa
+is<00:12:34.800><c> actually</c><00:12:35.160><c> doing</c><00:12:35.720><c> for</c><00:12:36.000><c> these</c><00:12:36.240><c> values</c><00:12:36.800><c> right</c>
+
+00:12:37.389 --> 00:12:37.399 align:start position:0%
+is actually doing for these values right
+ 
+
+00:12:37.399 --> 00:12:39.470 align:start position:0%
+is actually doing for these values right
+whether<00:12:37.600><c> it</c><00:12:37.680><c> is</c><00:12:37.839><c> generating</c><00:12:38.320><c> random</c><00:12:39.040><c> values</c>
+
+00:12:39.470 --> 00:12:39.480 align:start position:0%
+whether it is generating random values
+ 
+
+00:12:39.480 --> 00:12:42.870 align:start position:0%
+whether it is generating random values
+or<00:12:39.680><c> not</c><00:12:40.320><c> that</c><00:12:40.639><c> also</c><00:12:40.880><c> you</c><00:12:41.000><c> can</c><00:12:41.199><c> do</c><00:12:41.839><c> so</c><00:12:42.079><c> go</c><00:12:42.360><c> here</c>
+
+00:12:42.870 --> 00:12:42.880 align:start position:0%
+or not that also you can do so go here
+ 
+
+00:12:42.880 --> 00:12:45.470 align:start position:0%
+or not that also you can do so go here
+right<00:12:43.199><c> click</c><00:12:44.199><c> and</c><00:12:44.360><c> then</c><00:12:44.560><c> there</c><00:12:44.639><c> is</c><00:12:44.760><c> an</c><00:12:45.000><c> option</c>
+
+00:12:45.470 --> 00:12:45.480 align:start position:0%
+right click and then there is an option
+ 
+
+00:12:45.480 --> 00:12:48.550 align:start position:0%
+right click and then there is an option
+called<00:12:45.800><c> translate</c><00:12:46.519><c> value</c><00:12:47.320><c> okay</c><00:12:47.560><c> so</c><00:12:48.040><c> click</c><00:12:48.279><c> on</c>
+
+00:12:48.550 --> 00:12:48.560 align:start position:0%
+called translate value okay so click on
+ 
+
+00:12:48.560 --> 00:12:52.030 align:start position:0%
+called translate value okay so click on
+that<00:12:49.560><c> and</c><00:12:49.760><c> you</c><00:12:49.920><c> should</c><00:12:50.240><c> see</c><00:12:50.639><c> a</c><00:12:51.040><c> translation</c>
+
+00:12:52.030 --> 00:12:52.040 align:start position:0%
+that and you should see a translation
+ 
+
+00:12:52.040 --> 00:12:54.829 align:start position:0%
+that and you should see a translation
+right<00:12:52.320><c> for</c><00:12:52.639><c> this</c><00:12:52.800><c> particular</c><00:12:53.440><c> expression</c><00:12:54.440><c> so</c>
+
+00:12:54.829 --> 00:12:54.839 align:start position:0%
+right for this particular expression so
+ 
+
+00:12:54.839 --> 00:12:57.590 align:start position:0%
+right for this particular expression so
+it<00:12:54.959><c> will</c><00:12:55.160><c> show</c><00:12:55.440><c> you</c><00:12:55.839><c> the</c><00:12:56.079><c> value</c><00:12:56.800><c> which</c><00:12:57.240><c> it</c><00:12:57.399><c> is</c>
+
+00:12:57.590 --> 00:12:57.600 align:start position:0%
+it will show you the value which it is
+ 
+
+00:12:57.600 --> 00:12:59.829 align:start position:0%
+it will show you the value which it is
+printing<00:12:58.279><c> or</c><00:12:58.480><c> it</c><00:12:58.600><c> is</c><00:12:58.760><c> generating</c>
+
+00:12:59.829 --> 00:12:59.839 align:start position:0%
+printing or it is generating
+ 
+
+00:12:59.839 --> 00:13:01.990 align:start position:0%
+printing or it is generating
+and<00:13:00.040><c> using</c><00:13:00.399><c> it</c><00:13:00.600><c> for</c><00:13:00.839><c> this</c><00:13:01.000><c> particular</c><00:13:01.360><c> field</c>
+
+00:13:01.990 --> 00:13:02.000 align:start position:0%
+and using it for this particular field
+ 
+
+00:13:02.000 --> 00:13:05.310 align:start position:0%
+and using it for this particular field
+okay<00:13:03.000><c> uh</c><00:13:03.120><c> it's</c><00:13:03.279><c> some</c><00:13:03.519><c> random</c><00:13:03.880><c> value</c><00:13:04.600><c> um</c><00:13:05.040><c> as</c><00:13:05.199><c> we</c>
+
+00:13:05.310 --> 00:13:05.320 align:start position:0%
+okay uh it's some random value um as we
+ 
+
+00:13:05.320 --> 00:13:07.629 align:start position:0%
+okay uh it's some random value um as we
+have<00:13:05.519><c> put</c><00:13:05.839><c> random</c><00:13:06.199><c> text</c><00:13:06.639><c> right</c><00:13:06.800><c> so</c><00:13:06.959><c> it's</c><00:13:07.399><c> a</c>
+
+00:13:07.629 --> 00:13:07.639 align:start position:0%
+have put random text right so it's a
+ 
+
+00:13:07.639 --> 00:13:14.030 align:start position:0%
+have put random text right so it's a
+combination<00:13:08.680><c> of</c><00:13:09.680><c> um</c><00:13:10.279><c> text</c><00:13:10.880><c> and</c><00:13:11.680><c> numbers</c><00:13:13.040><c> okay</c>
+
+00:13:14.030 --> 00:13:14.040 align:start position:0%
+combination of um text and numbers okay
+ 
+
+00:13:14.040 --> 00:13:15.590 align:start position:0%
+combination of um text and numbers okay
+so<00:13:14.320><c> it</c><00:13:14.399><c> is</c><00:13:14.560><c> generating</c><00:13:15.040><c> this</c><00:13:15.240><c> particular</c>
+
+00:13:15.590 --> 00:13:15.600 align:start position:0%
+so it is generating this particular
+ 
+
+00:13:15.600 --> 00:13:18.030 align:start position:0%
+so it is generating this particular
+value<00:13:16.320><c> now</c><00:13:16.480><c> similarly</c><00:13:16.959><c> for</c><00:13:17.320><c> this</c><00:13:17.680><c> you</c><00:13:17.839><c> can</c>
+
+00:13:18.030 --> 00:13:18.040 align:start position:0%
+value now similarly for this you can
+ 
+
+00:13:18.040 --> 00:13:20.550 align:start position:0%
+value now similarly for this you can
+also<00:13:18.279><c> translate</c><00:13:18.800><c> the</c><00:13:19.000><c> value</c><00:13:19.920><c> and</c><00:13:20.120><c> it</c><00:13:20.240><c> will</c>
+
+00:13:20.550 --> 00:13:20.560 align:start position:0%
+also translate the value and it will
+ 
+
+00:13:20.560 --> 00:13:23.389 align:start position:0%
+also translate the value and it will
+show<00:13:20.839><c> you</c><00:13:21.079><c> a</c><00:13:21.240><c> random</c><00:13:21.760><c> value</c>
+
+00:13:23.389 --> 00:13:23.399 align:start position:0%
+show you a random value
+ 
+
+00:13:23.399 --> 00:13:25.590 align:start position:0%
+show you a random value
+okay
+
+00:13:25.590 --> 00:13:25.600 align:start position:0%
+okay
+ 
+
+00:13:25.600 --> 00:13:29.230 align:start position:0%
+okay
+so<00:13:26.600><c> let's</c><00:13:26.880><c> enter</c><00:13:27.279><c> some</c><00:13:27.920><c> um</c><00:13:28.320><c> value</c><00:13:28.680><c> in</c><00:13:28.880><c> this</c>
+
+00:13:29.230 --> 00:13:29.240 align:start position:0%
+so let's enter some um value in this
+ 
+
+00:13:29.240 --> 00:13:34.269 align:start position:0%
+so let's enter some um value in this
+email<00:13:29.600><c> field</c><00:13:30.440><c> okay</c><00:13:30.600><c> so</c><00:13:31.079><c> test</c><00:13:31.920><c> at</c>
+
+00:13:34.269 --> 00:13:34.279 align:start position:0%
+email field okay so test at
+ 
+
+00:13:34.279 --> 00:13:36.069 align:start position:0%
+email field okay so test at
+um
+
+00:13:36.069 --> 00:13:36.079 align:start position:0%
+um
+ 
+
+00:13:36.079 --> 00:13:41.189 align:start position:0%
+um
+test<00:13:37.079><c> at</c><00:13:37.440><c> qscript</c>
+
+00:13:41.189 --> 00:13:41.199 align:start position:0%
+ 
+ 
+
+00:13:41.199 --> 00:13:45.150 align:start position:0%
+ 
+tocom<00:13:42.199><c> this</c><00:13:42.320><c> is</c><00:13:42.519><c> my</c><00:13:42.720><c> email</c><00:13:43.480><c> right</c><00:13:44.040><c> uh</c><00:13:44.279><c> in</c>
+
+00:13:45.150 --> 00:13:45.160 align:start position:0%
+tocom this is my email right uh in
+ 
+
+00:13:45.160 --> 00:13:48.509 align:start position:0%
+tocom this is my email right uh in
+telephone<00:13:46.240><c> let's</c><00:13:47.240><c> see</c><00:13:47.639><c> how</c><00:13:47.800><c> we</c><00:13:47.920><c> can</c><00:13:48.079><c> use</c><00:13:48.320><c> the</c>
+
+00:13:48.509 --> 00:13:48.519 align:start position:0%
+telephone let's see how we can use the
+ 
+
+00:13:48.519 --> 00:13:50.509 align:start position:0%
+telephone let's see how we can use the
+random<00:13:48.959><c> number</c><00:13:49.680><c> okay</c><00:13:49.880><c> so</c><00:13:50.160><c> how</c><00:13:50.279><c> you</c><00:13:50.399><c> can</c>
+
+00:13:50.509 --> 00:13:50.519 align:start position:0%
+random number okay so how you can
+ 
+
+00:13:50.519 --> 00:13:52.189 align:start position:0%
+random number okay so how you can
+generate<00:13:50.880><c> a</c><00:13:51.040><c> random</c><00:13:51.320><c> number</c><00:13:51.600><c> and</c><00:13:51.759><c> put</c><00:13:51.920><c> it</c><00:13:52.040><c> in</c>
+
+00:13:52.189 --> 00:13:52.199 align:start position:0%
+generate a random number and put it in
+ 
+
+00:13:52.199 --> 00:13:55.069 align:start position:0%
+generate a random number and put it in
+this<00:13:52.399><c> telephone</c><00:13:52.959><c> Field</c><00:13:53.959><c> so</c><00:13:54.160><c> for</c>
+
+00:13:55.069 --> 00:13:55.079 align:start position:0%
+this telephone Field so for
+ 
+
+00:13:55.079 --> 00:13:58.829 align:start position:0%
+this telephone Field so for
+that<00:13:56.079><c> again</c><00:13:56.880><c> um</c><00:13:57.160><c> start</c><00:13:57.440><c> with</c><00:13:57.600><c> C</c><00:13:57.959><c> braces</c><00:13:58.639><c> and</c>
+
+00:13:58.829 --> 00:13:58.839 align:start position:0%
+that again um start with C braces and
+ 
+
+00:13:58.839 --> 00:14:02.470 align:start position:0%
+that again um start with C braces and
+then<00:13:59.320><c> type</c><00:13:59.720><c> R&amp;D</c><00:14:00.720><c> okay</c><00:14:01.360><c> so</c><00:14:01.639><c> that's</c><00:14:02.279><c> the</c>
+
+00:14:02.470 --> 00:14:02.480 align:start position:0%
+then type R&amp;D okay so that's the
+ 
+
+00:14:02.480 --> 00:14:05.509 align:start position:0%
+then type R&amp;D okay so that's the
+expression<00:14:02.920><c> for</c><00:14:03.160><c> random</c><00:14:03.519><c> number</c><00:14:04.160><c> after</c><00:14:04.519><c> this</c>
+
+00:14:05.509 --> 00:14:05.519 align:start position:0%
+expression for random number after this
+ 
+
+00:14:05.519 --> 00:14:08.829 align:start position:0%
+expression for random number after this
+either<00:14:05.759><c> you</c><00:14:05.880><c> can</c><00:14:06.519><c> um</c><00:14:06.800><c> do</c><00:14:07.160><c> a</c><00:14:07.399><c> range</c><00:14:08.240><c> right</c><00:14:08.600><c> or</c>
+
+00:14:08.829 --> 00:14:08.839 align:start position:0%
+either you can um do a range right or
+ 
+
+00:14:08.839 --> 00:14:10.470 align:start position:0%
+either you can um do a range right or
+you<00:14:08.959><c> can</c><00:14:09.160><c> directly</c><00:14:09.560><c> put</c><00:14:09.959><c> the</c><00:14:10.079><c> number</c><00:14:10.320><c> of</c>
+
+00:14:10.470 --> 00:14:10.480 align:start position:0%
+you can directly put the number of
+ 
+
+00:14:10.480 --> 00:14:14.030 align:start position:0%
+you can directly put the number of
+digits<00:14:10.839><c> you</c><00:14:11.160><c> want</c><00:14:12.160><c> okay</c><00:14:12.399><c> so</c><00:14:13.399><c> the</c><00:14:13.560><c> digits</c>
+
+00:14:14.030 --> 00:14:14.040 align:start position:0%
+digits you want okay so the digits
+ 
+
+00:14:14.040 --> 00:14:16.069 align:start position:0%
+digits you want okay so the digits
+number<00:14:14.240><c> of</c><00:14:14.399><c> digits</c><00:14:14.680><c> for</c><00:14:14.839><c> telone</c><00:14:15.440><c> is</c><00:14:15.639><c> generally</c>
+
+00:14:16.069 --> 00:14:16.079 align:start position:0%
+number of digits for telone is generally
+ 
+
+00:14:16.079 --> 00:14:19.629 align:start position:0%
+number of digits for telone is generally
+10<00:14:16.560><c> so</c><00:14:16.759><c> I'll</c><00:14:17.000><c> keep</c><00:14:17.240><c> it</c><00:14:17.440><c> as</c><00:14:18.000><c> 10</c><00:14:19.000><c> and</c><00:14:19.160><c> then</c><00:14:19.399><c> hit</c>
+
+00:14:19.629 --> 00:14:19.639 align:start position:0%
+10 so I'll keep it as 10 and then hit
+ 
+
+00:14:19.639 --> 00:14:22.550 align:start position:0%
+10 so I'll keep it as 10 and then hit
+enter<00:14:20.240><c> and</c><00:14:20.360><c> you</c><00:14:20.440><c> will</c><00:14:20.639><c> see</c><00:14:21.360><c> the</c><00:14:21.519><c> expression</c><00:14:22.040><c> is</c>
+
+00:14:22.550 --> 00:14:22.560 align:start position:0%
+enter and you will see the expression is
+ 
+
+00:14:22.560 --> 00:14:26.269 align:start position:0%
+enter and you will see the expression is
+converted<00:14:23.560><c> right</c><00:14:23.880><c> again</c><00:14:24.320><c> if</c><00:14:24.440><c> you</c><00:14:24.639><c> want</c><00:14:24.959><c> to</c><00:14:25.959><c> see</c>
+
+00:14:26.269 --> 00:14:26.279 align:start position:0%
+converted right again if you want to see
+ 
+
+00:14:26.279 --> 00:14:28.150 align:start position:0%
+converted right again if you want to see
+what<00:14:26.440><c> is</c><00:14:26.560><c> the</c><00:14:26.720><c> value</c><00:14:27.519><c> just</c><00:14:27.720><c> click</c><00:14:27.959><c> on</c>
+
+00:14:28.150 --> 00:14:28.160 align:start position:0%
+what is the value just click on
+ 
+
+00:14:28.160 --> 00:14:29.629 align:start position:0%
+what is the value just click on
+translate<00:14:28.680><c> value</c>
+
+00:14:29.629 --> 00:14:29.639 align:start position:0%
+translate value
+ 
+
+00:14:29.639 --> 00:14:31.710 align:start position:0%
+translate value
+and<00:14:29.800><c> you</c><00:14:29.880><c> will</c><00:14:30.079><c> see</c><00:14:30.519><c> some</c><00:14:30.800><c> random</c><00:14:31.199><c> number</c>
+
+00:14:31.710 --> 00:14:31.720 align:start position:0%
+and you will see some random number
+ 
+
+00:14:31.720 --> 00:14:33.509 align:start position:0%
+and you will see some random number
+being
+
+00:14:33.509 --> 00:14:33.519 align:start position:0%
+being
+ 
+
+00:14:33.519 --> 00:14:35.110 align:start position:0%
+being
+generated
+
+00:14:35.110 --> 00:14:35.120 align:start position:0%
+generated
+ 
+
+00:14:35.120 --> 00:14:38.389 align:start position:0%
+generated
+okay<00:14:36.120><c> now</c><00:14:36.560><c> password</c><00:14:37.160><c> I</c><00:14:37.279><c> will</c><00:14:37.720><c> put</c><00:14:38.079><c> some</c>
+
+00:14:38.389 --> 00:14:38.399 align:start position:0%
+okay now password I will put some
+ 
+
+00:14:38.399 --> 00:14:40.550 align:start position:0%
+okay now password I will put some
+password<00:14:38.959><c> here</c>
+
+00:14:40.550 --> 00:14:40.560 align:start position:0%
+password here
+ 
+
+00:14:40.560 --> 00:14:44.310 align:start position:0%
+password here
+okay<00:14:41.560><c> and</c><00:14:42.160><c> here</c><00:14:42.639><c> as</c><00:14:42.880><c> well</c><00:14:43.279><c> the</c><00:14:43.480><c> confirm</c>
+
+00:14:44.310 --> 00:14:44.320 align:start position:0%
+okay and here as well the confirm
+ 
+
+00:14:44.320 --> 00:14:47.470 align:start position:0%
+okay and here as well the confirm
+password<00:14:45.320><c> now</c><00:14:45.480><c> later</c><00:14:45.839><c> I</c><00:14:45.920><c> will</c><00:14:46.160><c> show</c><00:14:46.399><c> you</c><00:14:47.000><c> also</c>
+
+00:14:47.470 --> 00:14:47.480 align:start position:0%
+password now later I will show you also
+ 
+
+00:14:47.480 --> 00:14:49.829 align:start position:0%
+password now later I will show you also
+how<00:14:47.639><c> you</c><00:14:47.759><c> can</c><00:14:47.920><c> Generate</c><00:14:48.680><c> random</c><00:14:49.160><c> passwords</c>
+
+00:14:49.829 --> 00:14:49.839 align:start position:0%
+how you can Generate random passwords
+ 
+
+00:14:49.839 --> 00:14:52.030 align:start position:0%
+how you can Generate random passwords
+right<00:14:50.160><c> and</c><00:14:50.440><c> you</c><00:14:50.560><c> can</c><00:14:50.800><c> also</c><00:14:51.040><c> use</c><00:14:51.199><c> it</c><00:14:51.360><c> in</c><00:14:51.560><c> confirm</c>
+
+00:14:52.030 --> 00:14:52.040 align:start position:0%
+right and you can also use it in confirm
+ 
+
+00:14:52.040 --> 00:14:54.829 align:start position:0%
+right and you can also use it in confirm
+password<00:14:53.000><c> but</c><00:14:53.440><c> for</c><00:14:53.680><c> that</c><00:14:53.880><c> we</c><00:14:54.000><c> need</c><00:14:54.160><c> to</c><00:14:54.320><c> use</c><00:14:54.639><c> a</c>
+
+00:14:54.829 --> 00:14:54.839 align:start position:0%
+password but for that we need to use a
+ 
+
+00:14:54.839 --> 00:14:56.870 align:start position:0%
+password but for that we need to use a
+different<00:14:55.240><c> concept</c><00:14:55.839><c> right</c><00:14:56.000><c> so</c><00:14:56.320><c> I'll</c><00:14:56.519><c> take</c><00:14:56.720><c> it</c>
+
+00:14:56.870 --> 00:14:56.880 align:start position:0%
+different concept right so I'll take it
+ 
+
+00:14:56.880 --> 00:15:00.949 align:start position:0%
+different concept right so I'll take it
+up<00:14:57.320><c> in</c><00:14:57.600><c> some</c><00:14:57.759><c> of</c><00:14:57.959><c> the</c><00:14:58.240><c> future</c><00:14:58.600><c> sessions</c>
+
+00:15:00.949 --> 00:15:00.959 align:start position:0%
+up in some of the future sessions
+ 
+
+00:15:00.959 --> 00:15:03.269 align:start position:0%
+up in some of the future sessions
+now<00:15:01.240><c> for</c><00:15:01.759><c> this</c><00:15:01.920><c> radio</c><00:15:02.279><c> button</c><00:15:02.839><c> we</c><00:15:03.000><c> have</c><00:15:03.120><c> to</c>
+
+00:15:03.269 --> 00:15:03.279 align:start position:0%
+now for this radio button we have to
+ 
+
+00:15:03.279 --> 00:15:04.870 align:start position:0%
+now for this radio button we have to
+click<00:15:03.480><c> on</c><00:15:03.680><c> it</c>
+
+00:15:04.870 --> 00:15:04.880 align:start position:0%
+click on it
+ 
+
+00:15:04.880 --> 00:15:07.749 align:start position:0%
+click on it
+right<00:15:05.880><c> and</c><00:15:06.079><c> checkbox</c><00:15:06.920><c> we</c><00:15:07.079><c> need</c><00:15:07.240><c> to</c><00:15:07.399><c> select</c>
+
+00:15:07.749 --> 00:15:07.759 align:start position:0%
+right and checkbox we need to select
+ 
+
+00:15:07.759 --> 00:15:09.310 align:start position:0%
+right and checkbox we need to select
+true<00:15:08.079><c> or</c>
+
+00:15:09.310 --> 00:15:09.320 align:start position:0%
+true or
+ 
+
+00:15:09.320 --> 00:15:12.949 align:start position:0%
+true or
+false<00:15:10.320><c> and</c><00:15:10.560><c> then</c><00:15:10.839><c> we</c><00:15:10.959><c> need</c><00:15:11.120><c> to</c><00:15:11.279><c> click</c><00:15:11.759><c> on</c><00:15:12.680><c> the</c>
+
+00:15:12.949 --> 00:15:12.959 align:start position:0%
+false and then we need to click on the
+ 
+
+00:15:12.959 --> 00:15:14.870 align:start position:0%
+false and then we need to click on the
+okay<00:15:13.240><c> button</c><00:15:13.720><c> right</c><00:15:13.920><c> so</c><00:15:14.199><c> these</c><00:15:14.320><c> are</c><00:15:14.519><c> all</c><00:15:14.720><c> the</c>
+
+00:15:14.870 --> 00:15:14.880 align:start position:0%
+okay button right so these are all the
+ 
+
+00:15:14.880 --> 00:15:17.430 align:start position:0%
+okay button right so these are all the
+values<00:15:15.519><c> or</c><00:15:15.759><c> all</c><00:15:15.920><c> the</c><00:15:16.120><c> actions</c><00:15:17.000><c> which</c><00:15:17.120><c> we</c><00:15:17.279><c> want</c>
+
+00:15:17.430 --> 00:15:17.440 align:start position:0%
+values or all the actions which we want
+ 
+
+00:15:17.440 --> 00:15:21.150 align:start position:0%
+values or all the actions which we want
+to<00:15:17.639><c> perform</c><00:15:18.440><c> on</c><00:15:18.839><c> all</c><00:15:19.079><c> these</c><00:15:19.320><c> different</c>
+
+00:15:21.150 --> 00:15:21.160 align:start position:0%
+to perform on all these different
+ 
+
+00:15:21.160 --> 00:15:25.990 align:start position:0%
+to perform on all these different
+controls<00:15:22.160><c> um</c><00:15:22.399><c> so</c><00:15:22.639><c> now</c><00:15:23.519><c> let's</c><00:15:24.040><c> go</c><00:15:24.279><c> ahead</c><00:15:25.000><c> and</c>
+
+00:15:25.990 --> 00:15:26.000 align:start position:0%
+controls um so now let's go ahead and
+ 
+
+00:15:26.000 --> 00:15:29.150 align:start position:0%
+controls um so now let's go ahead and
+let's<00:15:26.240><c> see</c><00:15:26.800><c> if</c><00:15:27.120><c> we</c><00:15:27.240><c> are</c><00:15:27.480><c> able</c><00:15:27.759><c> to</c><00:15:27.959><c> see</c><00:15:28.639><c> all</c><00:15:28.800><c> the</c>
+
+00:15:29.150 --> 00:15:29.160 align:start position:0%
+let's see if we are able to see all the
+ 
+
+00:15:29.160 --> 00:15:31.230 align:start position:0%
+let's see if we are able to see all the
+random<00:15:29.519><c> values</c><00:15:29.880><c> which</c><00:15:30.040><c> we</c><00:15:30.120><c> have</c><00:15:30.279><c> generated</c>
+
+00:15:31.230 --> 00:15:31.240 align:start position:0%
+random values which we have generated
+ 
+
+00:15:31.240 --> 00:15:33.350 align:start position:0%
+random values which we have generated
+are<00:15:31.480><c> being</c><00:15:31.759><c> entered</c><00:15:32.199><c> into</c><00:15:32.440><c> the</c><00:15:32.600><c> application</c>
+
+00:15:33.350 --> 00:15:33.360 align:start position:0%
+are being entered into the application
+ 
+
+00:15:33.360 --> 00:15:35.030 align:start position:0%
+are being entered into the application
+when<00:15:33.519><c> we'll</c><00:15:34.040><c> run</c><00:15:34.360><c> this</c><00:15:34.600><c> particular</c>
+
+00:15:35.030 --> 00:15:35.040 align:start position:0%
+when we'll run this particular
+ 
+
+00:15:35.040 --> 00:15:36.590 align:start position:0%
+when we'll run this particular
+application
+
+00:15:36.590 --> 00:15:36.600 align:start position:0%
+application
+ 
+
+00:15:36.600 --> 00:15:40.189 align:start position:0%
+application
+okay<00:15:37.600><c> so</c><00:15:37.920><c> let's</c><00:15:38.199><c> go</c><00:15:38.360><c> ahead</c><00:15:38.800><c> and</c><00:15:39.199><c> close</c><00:15:39.639><c> this</c>
+
+00:15:40.189 --> 00:15:40.199 align:start position:0%
+okay so let's go ahead and close this
+ 
+
+00:15:40.199 --> 00:15:41.710 align:start position:0%
+okay so let's go ahead and close this
+existing
+
+00:15:41.710 --> 00:15:41.720 align:start position:0%
+existing
+ 
+
+00:15:41.720 --> 00:15:45.269 align:start position:0%
+existing
+browser<00:15:42.720><c> and</c><00:15:42.920><c> let's</c><00:15:43.120><c> run</c><00:15:43.480><c> this</c><00:15:44.279><c> from</c><00:15:44.680><c> our</c><00:15:44.959><c> test</c>
+
+00:15:45.269 --> 00:15:45.279 align:start position:0%
+browser and let's run this from our test
+ 
+
+00:15:45.279 --> 00:15:49.470 align:start position:0%
+browser and let's run this from our test
+case<00:15:45.480><c> folder</c><00:15:46.399><c> okay</c><00:15:46.880><c> so</c><00:15:47.079><c> go</c><00:15:47.240><c> to</c><00:15:47.480><c> run</c><00:15:47.759><c> in</c>
+
+00:15:49.470 --> 00:15:49.480 align:start position:0%
+case folder okay so go to run in
+ 
+
+00:15:49.480 --> 00:15:52.749 align:start position:0%
+case folder okay so go to run in
+scratchbook<00:15:50.480><c> and</c><00:15:50.759><c> it</c><00:15:51.079><c> should</c><00:15:51.480><c> open</c><00:15:51.800><c> a</c><00:15:52.000><c> browser</c>
+
+00:15:52.749 --> 00:15:52.759 align:start position:0%
+scratchbook and it should open a browser
+ 
+
+00:15:52.759 --> 00:15:54.350 align:start position:0%
+scratchbook and it should open a browser
+with<00:15:53.120><c> the</c>
+
+00:15:54.350 --> 00:15:54.360 align:start position:0%
+with the
+ 
+
+00:15:54.360 --> 00:15:56.949 align:start position:0%
+with the
+application<00:15:55.360><c> and</c><00:15:55.759><c> it</c><00:15:55.880><c> will</c><00:15:56.160><c> enter</c><00:15:56.560><c> all</c><00:15:56.720><c> the</c>
+
+00:15:56.949 --> 00:15:56.959 align:start position:0%
+application and it will enter all the
+ 
+
+00:15:56.959 --> 00:15:59.590 align:start position:0%
+application and it will enter all the
+values<00:15:57.959><c> okay</c>
+
+00:15:59.590 --> 00:15:59.600 align:start position:0%
+values okay
+ 
+
+00:15:59.600 --> 00:16:03.030 align:start position:0%
+values okay
+so<00:16:00.120><c> as</c><00:16:00.199><c> you</c><00:16:00.319><c> can</c><00:16:00.519><c> see</c><00:16:01.360><c> it</c><00:16:01.560><c> has</c><00:16:01.839><c> entered</c><00:16:02.519><c> some</c>
+
+00:16:03.030 --> 00:16:03.040 align:start position:0%
+so as you can see it has entered some
+ 
+
+00:16:03.040 --> 00:16:06.509 align:start position:0%
+so as you can see it has entered some
+random<00:16:04.040><c> uh</c><00:16:04.199><c> values</c><00:16:04.560><c> for</c><00:16:04.839><c> first</c><00:16:05.160><c> name</c><00:16:05.639><c> for</c><00:16:05.920><c> last</c>
+
+00:16:06.509 --> 00:16:06.519 align:start position:0%
+random uh values for first name for last
+ 
+
+00:16:06.519 --> 00:16:09.949 align:start position:0%
+random uh values for first name for last
+name<00:16:07.519><c> and</c><00:16:07.800><c> for</c><00:16:08.160><c> telephone</c><00:16:09.160><c> right</c><00:16:09.560><c> so</c><00:16:09.839><c> these</c>
+
+00:16:09.949 --> 00:16:09.959 align:start position:0%
+name and for telephone right so these
+ 
+
+00:16:09.959 --> 00:16:12.189 align:start position:0%
+name and for telephone right so these
+are<00:16:10.319><c> the</c><00:16:10.480><c> random</c><00:16:10.839><c> numbers</c><00:16:11.480><c> and</c><00:16:11.800><c> random</c>
+
+00:16:12.189 --> 00:16:12.199 align:start position:0%
+are the random numbers and random
+ 
+
+00:16:12.199 --> 00:16:14.550 align:start position:0%
+are the random numbers and random
+strings<00:16:12.880><c> which</c><00:16:13.040><c> we</c><00:16:13.160><c> have</c><00:16:13.319><c> generated</c><00:16:14.319><c> are</c>
+
+00:16:14.550 --> 00:16:14.560 align:start position:0%
+strings which we have generated are
+ 
+
+00:16:14.560 --> 00:16:18.910 align:start position:0%
+strings which we have generated are
+being<00:16:14.959><c> entered</c><00:16:15.560><c> into</c><00:16:15.959><c> these</c><00:16:16.839><c> fields</c>
+
+00:16:18.910 --> 00:16:18.920 align:start position:0%
+being entered into these fields
+ 
+
+00:16:18.920 --> 00:16:22.269 align:start position:0%
+being entered into these fields
+right<00:16:19.920><c> now</c><00:16:20.839><c> there</c><00:16:21.000><c> is</c><00:16:21.360><c> some</c><00:16:21.639><c> failure</c>
+
+00:16:22.269 --> 00:16:22.279 align:start position:0%
+right now there is some failure
+ 
+
+00:16:22.279 --> 00:16:25.389 align:start position:0%
+right now there is some failure
+currently<00:16:23.160><c> right</c><00:16:23.720><c> and</c><00:16:24.319><c> uh</c><00:16:24.680><c> that's</c><00:16:25.000><c> because</c><00:16:25.279><c> it</c>
+
+00:16:25.389 --> 00:16:25.399 align:start position:0%
+currently right and uh that's because it
+ 
+
+00:16:25.399 --> 00:16:27.230 align:start position:0%
+currently right and uh that's because it
+is<00:16:25.560><c> not</c><00:16:25.759><c> able</c><00:16:26.000><c> to</c><00:16:26.160><c> click</c><00:16:26.519><c> on</c><00:16:26.639><c> a</c><00:16:26.800><c> particular</c>
+
+00:16:27.230 --> 00:16:27.240 align:start position:0%
+is not able to click on a particular
+ 
+
+00:16:27.240 --> 00:16:30.470 align:start position:0%
+is not able to click on a particular
+control<00:16:28.160><c> right</c><00:16:29.199><c> and</c><00:16:29.800><c> the</c><00:16:30.000><c> thing</c><00:16:30.160><c> it</c><00:16:30.279><c> is</c>
+
+00:16:30.470 --> 00:16:30.480 align:start position:0%
+control right and the thing it is
+ 
+
+00:16:30.480 --> 00:16:32.629 align:start position:0%
+control right and the thing it is
+complaining<00:16:31.240><c> is</c><00:16:31.680><c> there</c><00:16:31.839><c> is</c><00:16:32.000><c> more</c><00:16:32.199><c> than</c><00:16:32.399><c> one</c>
+
+00:16:32.629 --> 00:16:32.639 align:start position:0%
+complaining is there is more than one
+ 
+
+00:16:32.639 --> 00:16:36.389 align:start position:0%
+complaining is there is more than one
+control<00:16:33.240><c> found</c><00:16:33.759><c> for</c><00:16:34.120><c> action</c><00:16:34.720><c> one</c>
+
+00:16:36.389 --> 00:16:36.399 align:start position:0%
+control found for action one
+ 
+
+00:16:36.399 --> 00:16:40.309 align:start position:0%
+control found for action one
+okay<00:16:37.399><c> so</c><00:16:37.600><c> we</c><00:16:37.759><c> know</c><00:16:38.199><c> the</c><00:16:38.440><c> problem</c><00:16:38.920><c> is</c><00:16:39.360><c> with</c><00:16:40.000><c> the</c>
+
+00:16:40.309 --> 00:16:40.319 align:start position:0%
+okay so we know the problem is with the
+ 
+
+00:16:40.319 --> 00:16:42.509 align:start position:0%
+okay so we know the problem is with the
+radio<00:16:40.800><c> button</c><00:16:41.399><c> right</c><00:16:41.639><c> so</c><00:16:41.959><c> there</c><00:16:42.120><c> are</c><00:16:42.319><c> more</c>
+
+00:16:42.509 --> 00:16:42.519 align:start position:0%
+radio button right so there are more
+ 
+
+00:16:42.519 --> 00:16:44.910 align:start position:0%
+radio button right so there are more
+than<00:16:42.680><c> one</c><00:16:42.920><c> control</c><00:16:43.360><c> with</c><00:16:43.519><c> the</c><00:16:43.680><c> same</c>
+
+00:16:44.910 --> 00:16:44.920 align:start position:0%
+than one control with the same
+ 
+
+00:16:44.920 --> 00:16:48.670 align:start position:0%
+than one control with the same
+properties<00:16:45.920><c> now</c><00:16:46.680><c> obviously</c><00:16:47.680><c> um</c><00:16:48.120><c> the</c><00:16:48.279><c> way</c><00:16:48.440><c> to</c>
+
+00:16:48.670 --> 00:16:48.680 align:start position:0%
+properties now obviously um the way to
+ 
+
+00:16:48.680 --> 00:16:50.990 align:start position:0%
+properties now obviously um the way to
+fix<00:16:49.040><c> this</c><00:16:49.360><c> is</c><00:16:49.519><c> to</c><00:16:49.759><c> select</c><00:16:50.319><c> some</c><00:16:50.639><c> other</c>
+
+00:16:50.990 --> 00:16:51.000 align:start position:0%
+fix this is to select some other
+ 
+
+00:16:51.000 --> 00:16:54.110 align:start position:0%
+fix this is to select some other
+property<00:16:51.519><c> value</c><00:16:52.519><c> right</c><00:16:53.000><c> but</c><00:16:53.160><c> this</c><00:16:53.279><c> is</c><00:16:53.519><c> part</c><00:16:53.839><c> of</c>
+
+00:16:54.110 --> 00:16:54.120 align:start position:0%
+property value right but this is part of
+ 
+
+00:16:54.120 --> 00:16:58.470 align:start position:0%
+property value right but this is part of
+our<00:16:54.399><c> module</c><00:16:55.199><c> right</c><00:16:56.079><c> um</c><00:16:56.560><c> and</c><00:16:57.560><c> we</c><00:16:57.720><c> need</c><00:16:57.959><c> to</c>
+
+00:16:58.470 --> 00:16:58.480 align:start position:0%
+our module right um and we need to
+ 
+
+00:16:58.480 --> 00:17:01.629 align:start position:0%
+our module right um and we need to
+actually<00:16:59.000><c> rescan</c><00:16:59.519><c> the</c><00:16:59.639><c> module</c><00:17:00.519><c> and</c><00:17:01.319><c> we</c><00:17:01.480><c> need</c>
+
+00:17:01.629 --> 00:17:01.639 align:start position:0%
+actually rescan the module and we need
+ 
+
+00:17:01.639 --> 00:17:04.270 align:start position:0%
+actually rescan the module and we need
+to<00:17:01.880><c> change</c><00:17:02.639><c> this</c><00:17:03.000><c> particular</c><00:17:03.519><c> property</c><00:17:03.959><c> value</c>
+
+00:17:04.270 --> 00:17:04.280 align:start position:0%
+to change this particular property value
+ 
+
+00:17:04.280 --> 00:17:06.870 align:start position:0%
+to change this particular property value
+for<00:17:04.480><c> this</c><00:17:04.679><c> control</c><00:17:05.480><c> right</c><00:17:06.039><c> so</c><00:17:06.319><c> that's</c><00:17:06.679><c> the</c>
+
+00:17:06.870 --> 00:17:06.880 align:start position:0%
+for this control right so that's the
+ 
+
+00:17:06.880 --> 00:17:09.069 align:start position:0%
+for this control right so that's the
+solution<00:17:07.480><c> for</c><00:17:07.760><c> this</c><00:17:08.000><c> kind</c><00:17:08.199><c> of</c><00:17:08.480><c> issues</c><00:17:08.919><c> which</c>
+
+00:17:09.069 --> 00:17:09.079 align:start position:0%
+solution for this kind of issues which
+ 
+
+00:17:09.079 --> 00:17:11.150 align:start position:0%
+solution for this kind of issues which
+will<00:17:09.280><c> come</c><00:17:09.559><c> across</c><00:17:10.079><c> every</c><00:17:10.360><c> application</c><00:17:11.000><c> right</c>
+
+00:17:11.150 --> 00:17:11.160 align:start position:0%
+will come across every application right
+ 
+
+00:17:11.160 --> 00:17:13.750 align:start position:0%
+will come across every application right
+so<00:17:11.360><c> there</c><00:17:11.520><c> could</c><00:17:11.679><c> be</c><00:17:12.360><c> some</c><00:17:12.880><c> common</c><00:17:13.240><c> controls</c>
+
+00:17:13.750 --> 00:17:13.760 align:start position:0%
+so there could be some common controls
+ 
+
+00:17:13.760 --> 00:17:16.549 align:start position:0%
+so there could be some common controls
+which<00:17:13.919><c> have</c><00:17:14.160><c> some</c><00:17:14.679><c> same</c><00:17:15.360><c> values</c><00:17:16.199><c> and</c><00:17:16.400><c> these</c>
+
+00:17:16.549 --> 00:17:16.559 align:start position:0%
+which have some same values and these
+ 
+
+00:17:16.559 --> 00:17:19.189 align:start position:0%
+which have some same values and these
+are<00:17:16.760><c> not</c><00:17:17.280><c> uh</c><00:17:17.400><c> uniquely</c><00:17:17.919><c> identified</c><00:17:18.520><c> by</c><00:17:18.679><c> tosa</c>
+
+00:17:19.189 --> 00:17:19.199 align:start position:0%
+are not uh uniquely identified by tosa
+ 
+
+00:17:19.199 --> 00:17:21.390 align:start position:0%
+are not uh uniquely identified by tosa
+right<00:17:19.360><c> so</c><00:17:19.520><c> in</c><00:17:19.679><c> that</c><00:17:20.240><c> you</c><00:17:20.360><c> need</c><00:17:20.559><c> to</c><00:17:20.720><c> intervene</c>
+
+00:17:21.390 --> 00:17:21.400 align:start position:0%
+right so in that you need to intervene
+ 
+
+00:17:21.400 --> 00:17:23.429 align:start position:0%
+right so in that you need to intervene
+and<00:17:21.559><c> you</c><00:17:21.679><c> need</c><00:17:21.839><c> to</c><00:17:22.360><c> change</c><00:17:22.760><c> that</c><00:17:23.000><c> control</c>
+
+00:17:23.429 --> 00:17:23.439 align:start position:0%
+and you need to change that control
+ 
+
+00:17:23.439 --> 00:17:25.549 align:start position:0%
+and you need to change that control
+property<00:17:23.880><c> value</c><00:17:24.799><c> now</c><00:17:24.959><c> I'm</c><00:17:25.079><c> going</c><00:17:25.240><c> to</c><00:17:25.360><c> take</c>
+
+00:17:25.549 --> 00:17:25.559 align:start position:0%
+property value now I'm going to take
+ 
+
+00:17:25.559 --> 00:17:27.870 align:start position:0%
+property value now I'm going to take
+this<00:17:25.720><c> up</c><00:17:26.000><c> in</c><00:17:26.120><c> the</c><00:17:26.280><c> next</c><00:17:26.520><c> session</c><00:17:27.280><c> where</c><00:17:27.600><c> I</c><00:17:27.679><c> will</c>
+
+00:17:27.870 --> 00:17:27.880 align:start position:0%
+this up in the next session where I will
+ 
+
+00:17:27.880 --> 00:17:30.750 align:start position:0%
+this up in the next session where I will
+show<00:17:28.120><c> you</c><00:17:28.319><c> how</c><00:17:28.480><c> you</c><00:17:28.600><c> can</c><00:17:28.960><c> rescan</c><00:17:29.480><c> your</c><00:17:29.760><c> module</c>
+
+00:17:30.750 --> 00:17:30.760 align:start position:0%
+show you how you can rescan your module
+ 
+
+00:17:30.760 --> 00:17:33.950 align:start position:0%
+show you how you can rescan your module
+right<00:17:31.400><c> um</c><00:17:31.640><c> from</c><00:17:31.880><c> the</c><00:17:32.039><c> application</c><00:17:32.840><c> and</c><00:17:33.080><c> pull</c>
+
+00:17:33.950 --> 00:17:33.960 align:start position:0%
+right um from the application and pull
+ 
+
+00:17:33.960 --> 00:17:36.510 align:start position:0%
+right um from the application and pull
+the<00:17:34.160><c> different</c><00:17:34.600><c> values</c><00:17:35.120><c> or</c><00:17:35.760><c> change</c><00:17:36.360><c> the</c>
+
+00:17:36.510 --> 00:17:36.520 align:start position:0%
+the different values or change the
+ 
+
+00:17:36.520 --> 00:17:38.350 align:start position:0%
+the different values or change the
+values<00:17:36.960><c> or</c><00:17:37.160><c> properties</c><00:17:37.679><c> of</c><00:17:37.840><c> a</c><00:17:37.960><c> particular</c>
+
+00:17:38.350 --> 00:17:38.360 align:start position:0%
+values or properties of a particular
+ 
+
+00:17:38.360 --> 00:17:41.390 align:start position:0%
+values or properties of a particular
+control<00:17:39.360><c> which</c><00:17:39.600><c> are</c><00:17:39.840><c> not</c><00:17:40.240><c> unique</c><00:17:41.120><c> okay</c><00:17:41.240><c> so</c>
+
+00:17:41.390 --> 00:17:41.400 align:start position:0%
+control which are not unique okay so
+ 
+
+00:17:41.400 --> 00:17:46.120 align:start position:0%
+control which are not unique okay so
+we'll<00:17:41.600><c> see</c><00:17:41.880><c> this</c><00:17:42.160><c> in</c><00:17:42.320><c> our</c><00:17:42.840><c> next</c><00:17:43.120><c> session</c>
+

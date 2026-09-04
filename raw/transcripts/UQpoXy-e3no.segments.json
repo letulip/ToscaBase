@@ -1,0 +1,1062 @@
+[
+ {
+  "start": 12.509,
+  "end": 12.519,
+  "text": "hey everyone welcome back to our Channel"
+ },
+ {
+  "start": 12.519,
+  "end": 15.15,
+  "text": "I am back with another interesting topic"
+ },
+ {
+  "start": 15.16,
+  "end": 17.67,
+  "text": "in the TSA automation"
+ },
+ {
+  "start": 17.68,
+  "end": 20.109,
+  "text": "playlist so continuing with our topic on"
+ },
+ {
+  "start": 20.119,
+  "end": 23.07,
+  "text": "test automation obstacles with Tren tosa"
+ },
+ {
+  "start": 23.08,
+  "end": 25.15,
+  "text": "let's look at our next obstacle which is"
+ },
+ {
+  "start": 25.16,
+  "end": 28.39,
+  "text": "called the drop-down table okay so in"
+ },
+ {
+  "start": 28.4,
+  "end": 30.07,
+  "text": "this particular obstacle we can see"
+ },
+ {
+  "start": 30.08,
+  "end": 33.51,
+  "text": "there is a table uh which has got some"
+ },
+ {
+  "start": 33.52,
+  "end": 36.47,
+  "text": "text in each arow and also there is a"
+ },
+ {
+  "start": 36.48,
+  "end": 39.35,
+  "text": "drop- down with certain values okay now"
+ },
+ {
+  "start": 39.36,
+  "end": 41.51,
+  "text": "what we need to do is we need to click"
+ },
+ {
+  "start": 41.52,
+  "end": 43.83,
+  "text": "on the generate button and then we need"
+ },
+ {
+  "start": 43.84,
+  "end": 46.91,
+  "text": "to select the right values and submit"
+ },
+ {
+  "start": 46.92,
+  "end": 48.99,
+  "text": "okay uh we have to note that the drop"
+ },
+ {
+  "start": 49.0,
+  "end": 51.389,
+  "text": "down contains only one element matching"
+ },
+ {
+  "start": 51.399,
+  "end": 54.79,
+  "text": "the criteria okay so if you have got"
+ },
+ {
+  "start": 54.8,
+  "end": 56.79,
+  "text": "something like select word that starts"
+ },
+ {
+  "start": 56.8,
+  "end": 59.59,
+  "text": "with letter M then uh we need to select"
+ },
+ {
+  "start": 59.6,
+  "end": 61.63,
+  "text": "that particular word which starts with m"
+ },
+ {
+  "start": 61.64,
+  "end": 64.549,
+  "text": "which is mobile here then uh it starts"
+ },
+ {
+  "start": 64.559,
+  "end": 68.469,
+  "text": "with s uh and this one starts with X"
+ },
+ {
+  "start": 68.479,
+  "end": 70.27,
+  "text": "this one starts with v and this one"
+ },
+ {
+  "start": 70.28,
+  "end": 73.03,
+  "text": "starts with a okay once we do that we"
+ },
+ {
+  "start": 73.04,
+  "end": 74.87,
+  "text": "can click on submit and the obstacle"
+ },
+ {
+  "start": 74.88,
+  "end": 77.59,
+  "text": "will be completed so this is a little"
+ },
+ {
+  "start": 77.6,
+  "end": 80.429,
+  "text": "bit tricky uh in the sense that you need"
+ },
+ {
+  "start": 80.439,
+  "end": 84.31,
+  "text": "to uh know that which letter is being"
+ },
+ {
+  "start": 84.32,
+  "end": 86.39,
+  "text": "searched for and then you need to find"
+ },
+ {
+  "start": 86.4,
+  "end": 89.429,
+  "text": "out that particular letter and select it"
+ },
+ {
+  "start": 89.439,
+  "end": 91.83,
+  "text": "right in the drop down okay so there are"
+ },
+ {
+  "start": 91.84,
+  "end": 94.03,
+  "text": "a couple of Concepts uh which you need"
+ },
+ {
+  "start": 94.04,
+  "end": 96.51,
+  "text": "to be aware of in order to complete this"
+ },
+ {
+  "start": 96.52,
+  "end": 98.429,
+  "text": "particular obstacle so let's see how we"
+ },
+ {
+  "start": 98.439,
+  "end": 101.149,
+  "text": "can do this in tosa so coming back to"
+ },
+ {
+  "start": 101.159,
+  "end": 104.95,
+  "text": "tosa uh let's go ahead and first scan"
+ },
+ {
+  "start": 104.96,
+  "end": 110.83,
+  "text": "this particular"
+ },
+ {
+  "start": 113.99,
+  "end": 114.0,
+  "text": "module so here uh we basically need four"
+ },
+ {
+  "start": 114.0,
+  "end": 116.709,
+  "text": "different controls uh first two is the"
+ },
+ {
+  "start": 116.719,
+  "end": 119.87,
+  "text": "generate and the submit buttons and then"
+ },
+ {
+  "start": 119.88,
+  "end": 121.67,
+  "text": "then we require the table which is the"
+ },
+ {
+  "start": 121.68,
+  "end": 124.389,
+  "text": "combo box table and we require one of"
+ },
+ {
+  "start": 124.399,
+  "end": 127.23,
+  "text": "the select dropdowns now you will notice"
+ },
+ {
+  "start": 127.24,
+  "end": 129.389,
+  "text": "that as soon as it's selected tosa will"
+ },
+ {
+  "start": 129.399,
+  "end": 131.99,
+  "text": "complain that the selected item is not"
+ },
+ {
+  "start": 132.0,
+  "end": 134.35,
+  "text": "unique but I'm not going to make it"
+ },
+ {
+  "start": 134.36,
+  "end": 136.75,
+  "text": "unique uh right in this module will"
+ },
+ {
+  "start": 136.76,
+  "end": 139.47,
+  "text": "handle it dynamically inside the test"
+ },
+ {
+  "start": 139.48,
+  "end": 142.589,
+  "text": "case okay so do not worry about this"
+ },
+ {
+  "start": 142.599,
+  "end": 144.43,
+  "text": "particular select drop down right now"
+ },
+ {
+  "start": 144.44,
+  "end": 146.509,
+  "text": "just select all of these controls and"
+ },
+ {
+  "start": 146.519,
+  "end": 149.229,
+  "text": "then save this particular module and"
+ },
+ {
+  "start": 149.239,
+  "end": 152.47,
+  "text": "close it"
+ },
+ {
+  "start": 154.99,
+  "end": 155.0,
+  "text": "okay so before designing the test case"
+ },
+ {
+  "start": 155.0,
+  "end": 157.03,
+  "text": "now I'm going to first rename this"
+ },
+ {
+  "start": 157.04,
+  "end": 163.03,
+  "text": "particular"
+ },
+ {
+  "start": 166.07,
+  "end": 166.08,
+  "text": "module okay once that's done then we"
+ },
+ {
+  "start": 166.08,
+  "end": 169.03,
+  "text": "come back to our obstacles and then we"
+ },
+ {
+  "start": 169.04,
+  "end": 172.39,
+  "text": "create a new test case"
+ },
+ {
+  "start": 172.4,
+  "end": 176.55,
+  "text": "here okay and then U I'm going to add"
+ },
+ {
+  "start": 176.56,
+  "end": 179.91,
+  "text": "that module but before that let's have a"
+ },
+ {
+  "start": 179.92,
+  "end": 182.03,
+  "text": "look at this particular module because"
+ },
+ {
+  "start": 182.04,
+  "end": 185.83,
+  "text": "we need to make some changes okay so uh"
+ },
+ {
+  "start": 185.84,
+  "end": 187.869,
+  "text": "the links are fine or the buttons"
+ },
+ {
+  "start": 187.879,
+  "end": 191.19,
+  "text": "generate and submit are as expected but"
+ },
+ {
+  "start": 191.2,
+  "end": 193.229,
+  "text": "here you will notice that when we"
+ },
+ {
+  "start": 193.239,
+  "end": 196.309,
+  "text": "scanned all the controls which is the"
+ },
+ {
+  "start": 196.319,
+  "end": 201.27,
+  "text": "table and the drop-down they are not in"
+ },
+ {
+  "start": 201.28,
+  "end": 205.03,
+  "text": "line with how it looks on the page okay"
+ },
+ {
+  "start": 205.04,
+  "end": 207.149,
+  "text": "so here you can see if you consider this"
+ },
+ {
+  "start": 207.159,
+  "end": 210.11,
+  "text": "as stable then um the task is one column"
+ },
+ {
+  "start": 210.12,
+  "end": 212.429,
+  "text": "the value is another column and then we"
+ },
+ {
+  "start": 212.439,
+  "end": 214.789,
+  "text": "have got this cells so this is the first"
+ },
+ {
+  "start": 214.799,
+  "end": 217.35,
+  "text": "cell which contains this particular text"
+ },
+ {
+  "start": 217.36,
+  "end": 218.71,
+  "text": "and this is the second cell which"
+ },
+ {
+  "start": 218.72,
+  "end": 221.869,
+  "text": "contains the drop down right but uh this"
+ },
+ {
+  "start": 221.879,
+  "end": 224.789,
+  "text": "is not the way tosa has scanned and"
+ },
+ {
+  "start": 224.799,
+  "end": 227.03,
+  "text": "saved this module because the select"
+ },
+ {
+  "start": 227.04,
+  "end": 230.07,
+  "text": "drop down is outside the row or the"
+ },
+ {
+  "start": 230.08,
+  "end": 233.03,
+  "text": "column right which is not ideal because"
+ },
+ {
+  "start": 233.04,
+  "end": 235.47,
+  "text": "we need to make this select drop down as"
+ },
+ {
+  "start": 235.48,
+  "end": 238.229,
+  "text": "an embedded control inside one of the"
+ },
+ {
+  "start": 238.239,
+  "end": 241.429,
+  "text": "cells okay and to do that what I'm going"
+ },
+ {
+  "start": 241.439,
+  "end": 243.869,
+  "text": "to do is I'm going to drag this select"
+ },
+ {
+  "start": 243.879,
+  "end": 247.869,
+  "text": "drop down into the particular cell of"
+ },
+ {
+  "start": 247.879,
+  "end": 251.429,
+  "text": "that row inside the table okay so I'm"
+ },
+ {
+  "start": 251.439,
+  "end": 253.91,
+  "text": "going to drag this and put it inside the"
+ },
+ {
+  "start": 253.92,
+  "end": 257.87,
+  "text": "cell so that uh with every row and with"
+ },
+ {
+  "start": 257.88,
+  "end": 260.03,
+  "text": "every cell this select drop down will"
+ },
+ {
+  "start": 260.04,
+  "end": 262.99,
+  "text": "appear and that is the way I can then"
+ },
+ {
+  "start": 263.0,
+  "end": 265.95,
+  "text": "automate this particular problem"
+ },
+ {
+  "start": 265.96,
+  "end": 270.67,
+  "text": "okay so now uh we can go ahead and add"
+ },
+ {
+  "start": 270.68,
+  "end": 272.99,
+  "text": "this particular module into our test"
+ },
+ {
+  "start": 273.0,
+  "end": 276.55,
+  "text": "case so I'm going to drag this and uh"
+ },
+ {
+  "start": 276.56,
+  "end": 279.629,
+  "text": "add it to the particular test case here"
+ },
+ {
+  "start": 279.639,
+  "end": 282.51,
+  "text": "so now uh the first steps uh it's as I"
+ },
+ {
+  "start": 282.52,
+  "end": 284.27,
+  "text": "said it's very simple we just need to"
+ },
+ {
+  "start": 284.28,
+  "end": 287.27,
+  "text": "click on these two links so I'm going to"
+ },
+ {
+  "start": 287.28,
+  "end": 289.95,
+  "text": "put uh the X here which will do the"
+ },
+ {
+  "start": 289.96,
+  "end": 292.95,
+  "text": "click operation and then we will move on"
+ },
+ {
+  "start": 292.96,
+  "end": 296.15,
+  "text": "to the next bit which is to adjust the"
+ },
+ {
+  "start": 296.16,
+  "end": 300.83,
+  "text": "table okay so here uh what we need to do"
+ },
+ {
+  "start": 300.84,
+  "end": 304.029,
+  "text": "is uh we need to select some value in"
+ },
+ {
+  "start": 304.039,
+  "end": 306.39,
+  "text": "the drop down but first we need to"
+ },
+ {
+  "start": 306.4,
+  "end": 308.99,
+  "text": "buffer this particular letter okay so"
+ },
+ {
+  "start": 309.0,
+  "end": 310.99,
+  "text": "once we generate uh this letter will"
+ },
+ {
+  "start": 311.0,
+  "end": 313.51,
+  "text": "change so I need to buffer this and put"
+ },
+ {
+  "start": 313.52,
+  "end": 316.55,
+  "text": "it into a particular variable now the"
+ },
+ {
+  "start": 316.56,
+  "end": 318.99,
+  "text": "normal buffer will not work in this case"
+ },
+ {
+  "start": 319.0,
+  "end": 320.79,
+  "text": "because we don't know what this letter"
+ },
+ {
+  "start": 320.8,
+  "end": 323.99,
+  "text": "is right and then uh we also don't know"
+ },
+ {
+  "start": 324.0,
+  "end": 326.909,
+  "text": "that this is the element which keeps on"
+ },
+ {
+  "start": 326.919,
+  "end": 329.629,
+  "text": "changing so in this uh we will try to"
+ },
+ {
+  "start": 329.639,
+  "end": 333.23,
+  "text": "use the dynamic X buffer okay so that we"
+ },
+ {
+  "start": 333.24,
+  "end": 336.39,
+  "text": "can verify and we can also buffer this"
+ },
+ {
+  "start": 336.4,
+  "end": 341.11,
+  "text": "particular text at the same time okay so"
+ },
+ {
+  "start": 341.12,
+  "end": 345.029,
+  "text": "here coming to row okay I know that it"
+ },
+ {
+  "start": 345.039,
+  "end": 346.83,
+  "text": "will be the second row because the first"
+ },
+ {
+  "start": 346.84,
+  "end": 350.189,
+  "text": "row is the row header and we'll start"
+ },
+ {
+  "start": 350.199,
+  "end": 352.469,
+  "text": "with the second row here okay so I'm"
+ },
+ {
+  "start": 352.479,
+  "end": 355.749,
+  "text": "going to specifically mention that it"
+ },
+ {
+  "start": 355.759,
+  "end": 359.27,
+  "text": "selects the second row for me okay and"
+ },
+ {
+  "start": 359.28,
+  "end": 362.39,
+  "text": "then moving on uh I want to select the"
+ },
+ {
+  "start": 362.4,
+  "end": 366.79,
+  "text": "first cell which contains the text okay"
+ },
+ {
+  "start": 366.8,
+  "end": 369.23,
+  "text": "and here uh I'm going to use the X"
+ },
+ {
+  "start": 369.24,
+  "end": 372.35,
+  "text": "buffer but for that I need the partial"
+ },
+ {
+  "start": 372.36,
+  "end": 375.79,
+  "text": "text which remains constant and then the"
+ },
+ {
+  "start": 375.8,
+  "end": 377.749,
+  "text": "dynamic part of it I will buffer which"
+ },
+ {
+  "start": 377.759,
+  "end": 381.749,
+  "text": "is this particular letter okay so here"
+ },
+ {
+  "start": 381.759,
+  "end": 385.79,
+  "text": "I'm going to type this text and then I'm"
+ },
+ {
+  "start": 385.8,
+  "end": 387.909,
+  "text": "going to use the buffer here which is"
+ },
+ {
+  "start": 387.919,
+  "end": 391.27,
+  "text": "the dynamic buffer so it is called the"
+ },
+ {
+  "start": 391.28,
+  "end": 393.71,
+  "text": "XB and inside this I'm going to write"
+ },
+ {
+  "start": 393.72,
+  "end": 395.87,
+  "text": "the buffer name which will store it uh"
+ },
+ {
+  "start": 395.88,
+  "end": 397.469,
+  "text": "which I'll call it"
+ },
+ {
+  "start": 397.479,
+  "end": 400.909,
+  "text": "letter okay so the action mode will"
+ },
+ {
+  "start": 400.919,
+  "end": 402.629,
+  "text": "remain as verify"
+ },
+ {
+  "start": 402.639,
+  "end": 406.27,
+  "text": "here uh but it will not only verify this"
+ },
+ {
+  "start": 406.28,
+  "end": 408.79,
+  "text": "text it will also buffer this particular"
+ },
+ {
+  "start": 408.8,
+  "end": 413.43,
+  "text": "letter okay so coming to the next cell"
+ },
+ {
+  "start": 413.44,
+  "end": 416.11,
+  "text": "which contains the drop down okay so I"
+ },
+ {
+  "start": 416.12,
+  "end": 419.51,
+  "text": "will select the next cell here uh by by"
+ },
+ {
+  "start": 419.52,
+  "end": 421.43,
+  "text": "default it will change it to verify but"
+ },
+ {
+  "start": 421.44,
+  "end": 424.749,
+  "text": "make sure you uh change it to select so"
+ },
+ {
+  "start": 424.759,
+  "end": 427.43,
+  "text": "that it selects the second cell and then"
+ },
+ {
+  "start": 427.44,
+  "end": 429.83,
+  "text": "it goes into the drop-down here I'm"
+ },
+ {
+  "start": 429.84,
+  "end": 431.67,
+  "text": "going to call the buffer which I have"
+ },
+ {
+  "start": 431.68,
+  "end": 435.67,
+  "text": "stored earlier so I will call B of"
+ },
+ {
+  "start": 435.68,
+  "end": 438.43,
+  "text": "letter and also we need to use some"
+ },
+ {
+  "start": 438.44,
+  "end": 440.35,
+  "text": "regular expression here so that the"
+ },
+ {
+  "start": 440.36,
+  "end": 441.95,
+  "text": "remaining part of the text can be"
+ },
+ {
+  "start": 441.96,
+  "end": 444.79,
+  "text": "selected automatically"
+ },
+ {
+  "start": 444.8,
+  "end": 448.27,
+  "text": "okay so this is what uh we have to do"
+ },
+ {
+  "start": 448.28,
+  "end": 451.11,
+  "text": "for all the different rows okay so there"
+ },
+ {
+  "start": 451.12,
+  "end": 454.55,
+  "text": "are 1 2 3 four more rows and we need to"
+ },
+ {
+  "start": 454.56,
+  "end": 459.79,
+  "text": "perform the same operation again okay so"
+ },
+ {
+  "start": 459.8,
+  "end": 465.029,
+  "text": "here again uh this will be the third"
+ },
+ {
+  "start": 465.039,
+  "end": 470.629,
+  "text": "row and then um it will be the same"
+ },
+ {
+  "start": 470.639,
+  "end": 474.79,
+  "text": "so we will do"
+ },
+ {
+  "start": 474.8,
+  "end": 476.43,
+  "text": "one"
+ },
+ {
+  "start": 476.44,
+  "end": 481.67,
+  "text": "and we copy this"
+ },
+ {
+  "start": 492.07,
+  "end": 492.08,
+  "text": "cell we will select and we will enter"
+ },
+ {
+  "start": 492.08,
+  "end": 493.23,
+  "text": "the same"
+ },
+ {
+  "start": 493.24,
+  "end": 495.95,
+  "text": "buffer okay so we can use the same"
+ },
+ {
+  "start": 495.96,
+  "end": 498.149,
+  "text": "buffer every time it doesn't matter"
+ },
+ {
+  "start": 498.159,
+  "end": 500.35,
+  "text": "because it will overwrite the previous"
+ },
+ {
+  "start": 500.36,
+  "end": 502.469,
+  "text": "value okay so you don't need to use new"
+ },
+ {
+  "start": 502.479,
+  "end": 504.07,
+  "text": "buffers all the"
+ },
+ {
+  "start": 504.08,
+  "end": 508.27,
+  "text": "time uh but let's go ahead and also use"
+ },
+ {
+  "start": 508.28,
+  "end": 510.43,
+  "text": "this select"
+ },
+ {
+  "start": 510.44,
+  "end": 514.87,
+  "text": "okay so let's try and actually try to"
+ },
+ {
+  "start": 514.88,
+  "end": 517.35,
+  "text": "copy this and see if we are able to"
+ },
+ {
+  "start": 517.36,
+  "end": 520.469,
+  "text": "waste it so that I don't need to rewrite"
+ },
+ {
+  "start": 520.479,
+  "end": 522.55,
+  "text": "this again and"
+ },
+ {
+  "start": 522.56,
+  "end": 526.75,
+  "text": "again okay so this will do and then I'm"
+ },
+ {
+  "start": 526.76,
+  "end": 531.11,
+  "text": "going to just do it three more times"
+ },
+ {
+  "start": 531.12,
+  "end": 533.949,
+  "text": "okay and then I'm just going to change"
+ },
+ {
+  "start": 533.959,
+  "end": 537.99,
+  "text": "the row number"
+ },
+ {
+  "start": 540.63,
+  "end": 540.64,
+  "text": "here and and the remaining part of it"
+ },
+ {
+  "start": 540.64,
+  "end": 544.63,
+  "text": "will still remain the same okay so we"
+ },
+ {
+  "start": 544.64,
+  "end": 548.11,
+  "text": "have got in total five rows and that's"
+ },
+ {
+  "start": 548.12,
+  "end": 549.99,
+  "text": "what we have got in this particular"
+ },
+ {
+  "start": 550.0,
+  "end": 551.99,
+  "text": "application"
+ },
+ {
+  "start": 552.0,
+  "end": 556.269,
+  "text": "okay so this should work uh but let's go"
+ },
+ {
+  "start": 556.279,
+  "end": 558.069,
+  "text": "ahead and see whether it is working or"
+ },
+ {
+  "start": 558.079,
+  "end": 560.75,
+  "text": "not so I'm going to mark it as completed"
+ },
+ {
+  "start": 560.76,
+  "end": 563.389,
+  "text": "and I'm going to try and run this now"
+ },
+ {
+  "start": 563.399,
+  "end": 567.35,
+  "text": "okay uh but first let me take this page"
+ },
+ {
+  "start": 567.36,
+  "end": 569.79,
+  "text": "to the initial"
+ },
+ {
+  "start": 569.8,
+  "end": 571.59,
+  "text": "uh page"
+ },
+ {
+  "start": 571.6,
+  "end": 574.31,
+  "text": "okay and then I'm going to run this"
+ },
+ {
+  "start": 574.32,
+  "end": 580.23,
+  "text": "particular test"
+ },
+ {
+  "start": 582.75,
+  "end": 582.76,
+  "text": "case Okay so as you can see in the"
+ },
+ {
+  "start": 582.76,
+  "end": 584.949,
+  "text": "background uh it has selected all the"
+ },
+ {
+  "start": 584.959,
+  "end": 588.15,
+  "text": "different letters uh which start with"
+ },
+ {
+  "start": 588.16,
+  "end": 590.269,
+  "text": "that particular character in the"
+ },
+ {
+  "start": 590.279,
+  "end": 592.79,
+  "text": "drop-down and it was able to complete"
+ },
+ {
+  "start": 592.8,
+  "end": 595.23,
+  "text": "this obstacle"
+ },
+ {
+  "start": 595.24,
+  "end": 597.389,
+  "text": "successfully okay so this is how you can"
+ },
+ {
+  "start": 597.399,
+  "end": 600.55,
+  "text": "use the dynamic X buffer to buffer some"
+ },
+ {
+  "start": 600.56,
+  "end": 603.87,
+  "text": "Dynamic text from your application and"
+ },
+ {
+  "start": 603.88,
+  "end": 606.35,
+  "text": "then you can use some regular expression"
+ },
+ {
+  "start": 606.36,
+  "end": 609.15,
+  "text": "to choose any particular text which is"
+ },
+ {
+  "start": 609.16,
+  "end": 611.71,
+  "text": "dynamic in nature from the drop-down"
+ },
+ {
+  "start": 611.72,
+  "end": 613.63,
+  "text": "without even knowing what that"
+ },
+ {
+  "start": 613.64,
+  "end": 616.389,
+  "text": "particular element is inside the"
+ },
+ {
+  "start": 616.399,
+  "end": 618.75,
+  "text": "dropdown that's all for this particular"
+ },
+ {
+  "start": 618.76,
+  "end": 621.19,
+  "text": "video if you have any questions then"
+ },
+ {
+  "start": 621.2,
+  "end": 623.67,
+  "text": "please leave it in the comments if you"
+ },
+ {
+  "start": 623.68,
+  "end": 625.63,
+  "text": "like this video then please subscribe to"
+ },
+ {
+  "start": 625.64,
+  "end": 628.35,
+  "text": "our Channel thanks for watching and I"
+ },
+ {
+  "start": 628.36,
+  "end": 632.959,
+  "text": "will see you in the next video"
+ }
+]

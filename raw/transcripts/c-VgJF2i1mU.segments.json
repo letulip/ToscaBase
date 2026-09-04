@@ -1,0 +1,532 @@
+[
+ {
+  "start": 15.02,
+  "end": 20.7,
+  "text": "Hello friends, welcome back to our channel."
+ },
+ {
+  "start": 20.7,
+  "end": 24.54,
+  "text": "I am your Tosca instructor and my name is Kumaresh."
+ },
+ {
+  "start": 24.54,
+  "end": 28.1,
+  "text": "Thank you for connecting with us."
+ },
+ {
+  "start": 28.1,
+  "end": 30.7,
+  "text": "Hope you are doing well."
+ },
+ {
+  "start": 30.7,
+  "end": 33.48,
+  "text": "Let's start our today's session."
+ },
+ {
+  "start": 33.48,
+  "end": 38.82,
+  "text": "Through this video, I will explain the overview of Tosca workspaces and guide you to create"
+ },
+ {
+  "start": 38.82,
+  "end": 45.41,
+  "text": "different types of Tosca workspaces to start our hands-on for test automation."
+ },
+ {
+  "start": 45.41,
+  "end": 52.05,
+  "text": "Alright, let's starts with the concepts of Tosca workspace."
+ },
+ {
+  "start": 52.05,
+  "end": 57.17,
+  "text": "The Tosca workspace is nothing but a repository to store different components which are required"
+ },
+ {
+  "start": 57.17,
+  "end": 60.33,
+  "text": "for test automation."
+ },
+ {
+  "start": 60.33,
+  "end": 65.17,
+  "text": "To develop, maintain or execute the test cases, we need to connect the workspace"
+ },
+ {
+  "start": 65.17,
+  "end": 66.55,
+  "text": "first."
+ },
+ {
+  "start": 66.55,
+  "end": 71.69,
+  "text": "The Tosca workspace stores the information of important components such as modules,"
+ },
+ {
+  "start": 71.69,
+  "end": 79.41,
+  "text": "test cases, data, execution, requirement, etc. for test automation."
+ },
+ {
+  "start": 79.41,
+  "end": 82.89,
+  "text": "The workspace has to be defined in local work system."
+ },
+ {
+  "start": 82.89,
+  "end": 89.01,
+  "text": "But, the data of Tosca workspaces can be synced to different databases such as SQLite,"
+ },
+ {
+  "start": 89.01,
+  "end": 95.53,
+  "text": "SQL Server, DB2, Oracle etc. which can be acted as a shared repository."
+ },
+ {
+  "start": 95.53,
+  "end": 99.93,
+  "text": "Let's discuss on classifications of Tosca workspaces."
+ },
+ {
+  "start": 99.93,
+  "end": 103.49,
+  "text": "New types of workspaces are available."
+ },
+ {
+  "start": 103.49,
+  "end": 107.77,
+  "text": "Single user and multi-user workspace."
+ },
+ {
+  "start": 107.77,
+  "end": 113.29,
+  "text": "In a single user workspace, only one user is able to connect and work with Tosca."
+ },
+ {
+  "start": 113.29,
+  "end": 119.05,
+  "text": "So, the central repository is not required here."
+ },
+ {
+  "start": 119.05,
+  "end": 124.37,
+  "text": "In a multi-user workspace more than one users are able to access the workspace."
+ },
+ {
+  "start": 124.81,
+  "end": 131.89,
+  "text": "So, the Tosca workspace has to be created in central repositories."
+ },
+ {
+  "start": 131.89,
+  "end": 137.25,
+  "text": "Tosca allows to create the workspace in different databases such as Oracle, SQLite,"
+ },
+ {
+  "start": 137.25,
+  "end": 141.05,
+  "text": "DB2, SQL Server, etc."
+ },
+ {
+  "start": 141.05,
+  "end": 145.47,
+  "text": "In the multi-user workspace, the data management is more simple and easier as"
+ },
+ {
+  "start": 145.47,
+  "end": 152.11,
+  "text": "the data are stored in shared databases which are known as common repositories."
+ },
+ {
+  "start": 152.11,
+  "end": 157.19,
+  "text": "To perform any transaction such as add, edit, delete in a multi-user workspace,"
+ },
+ {
+  "start": 157.19,
+  "end": 160.55,
+  "text": "we need to lock the corresponding records first."
+ },
+ {
+  "start": 160.55,
+  "end": 165.27,
+  "text": "It will restrict any other users to manipulate the same records."
+ },
+ {
+  "start": 165.27,
+  "end": 170.05,
+  "text": "After completion of the transaction, W need to unlock the records."
+ },
+ {
+  "start": 170.05,
+  "end": 175.31,
+  "text": "In Tosca, locking of data is known as checkout and unlock is known as check-in."
+ },
+ {
+  "start": 175.31,
+  "end": 179.43,
+  "text": "Before starting of workspace creation, we need to understand the different values"
+ },
+ {
+  "start": 179.43,
+  "end": 182.39,
+  "text": "of repository type."
+ },
+ {
+  "start": 182.39,
+  "end": 188.67,
+  "text": "Based on the selection of this field, the single or multi-user workspace will be created."
+ },
+ {
+  "start": 188.67,
+  "end": 197.03,
+  "text": "It has five different values such as none, SQLite, Oracle, MS SQL Server and DB2."
+ },
+ {
+  "start": 197.03,
+  "end": 203.92,
+  "text": "If we select the value as none, single user workspace will be created."
+ },
+ {
+  "start": 203.92,
+  "end": 208.6,
+  "text": "For other values, multi-user workspace will be created and the selected database"
+ },
+ {
+  "start": 208.6,
+  "end": 212.2,
+  "text": "will be used as a central repository."
+ },
+ {
+  "start": 212.2,
+  "end": 217.24,
+  "text": "Once we select the appropriate repository name, the database related field will be"
+ },
+ {
+  "start": 217.24,
+  "end": 222.32,
+  "text": "appeared such as schema name, connection type, etc."
+ },
+ {
+  "start": 222.32,
+  "end": 227.48,
+  "text": "In this video, we will learn how to create single user workspace and multi-user workspace"
+ },
+ {
+  "start": 227.48,
+  "end": 230.36,
+  "text": "with the help of SQLite database."
+ },
+ {
+  "start": 230.36,
+  "end": 236.04,
+  "text": "Alright, now we will learn how to create the single user workspace."
+ },
+ {
+  "start": 236.04,
+  "end": 240.24,
+  "text": "First of all, we need to open the Tosca Commander and click on create new option"
+ },
+ {
+  "start": 240.24,
+  "end": 243.24,
+  "text": "to open workspace creation screen."
+ },
+ {
+  "start": 243.24,
+  "end": 249.28,
+  "text": "Prior to Tosca version 14.x, workspace creation new option was available in project"
+ },
+ {
+  "start": 249.28,
+  "end": 250.28,
+  "text": "tab."
+ },
+ {
+  "start": 250.28,
+  "end": 255.24,
+  "text": "Now, we need to enter the mandatory fields in this screen."
+ },
+ {
+  "start": 255.24,
+  "end": 260.8,
+  "text": "As we are creating single user workspace, the central repository is not required."
+ },
+ {
+  "start": 260.8,
+  "end": 266.02,
+  "text": "So, we will select the option none for the field type of repository."
+ },
+ {
+  "start": 266.02,
+  "end": 270.06,
+  "text": "The path for the new workspace can be provided here."
+ },
+ {
+  "start": 270.06,
+  "end": 275.26,
+  "text": "We will keep the default path and proceed."
+ },
+ {
+  "start": 275.26,
+  "end": 280.2,
+  "text": "After that we have to enter the name of the workspace which we are going to create."
+ },
+ {
+  "start": 280.2,
+  "end": 283.86,
+  "text": "We are using the name as single user workspace."
+ },
+ {
+  "start": 283.86,
+  "end": 287.98,
+  "text": "The use workspace template option allows us to include additional components such"
+ },
+ {
+  "start": 287.98,
+  "end": 294.94,
+  "text": "as default modules, reusables, report templates etc. which will helps for automation activities."
+ },
+ {
+  "start": 294.94,
+  "end": 298.3,
+  "text": "We can include our own components or the default one."
+ },
+ {
+  "start": 298.3,
+  "end": 303.14,
+  "text": "Here, we will use the default option which is required for test automation."
+ },
+ {
+  "start": 303.14,
+  "end": 313.27,
+  "text": "Now, we are ready to create the single user workspace by clicking on OK button."
+ },
+ {
+  "start": 313.27,
+  "end": 318.55,
+  "text": "It will take few seconds to configure and create the single user workspace."
+ },
+ {
+  "start": 318.55,
+  "end": 322.87,
+  "text": "After creation of the workspace, success message will be appear and the close button"
+ },
+ {
+  "start": 322.87,
+  "end": 327.98,
+  "text": "will be enabled."
+ },
+ {
+  "start": 327.98,
+  "end": 332.54,
+  "text": "After closing the window, Tosca loads the newly created workspace which contains the"
+ },
+ {
+  "start": 332.54,
+  "end": 337.1,
+  "text": "different components of Tosca."
+ },
+ {
+  "start": 337.1,
+  "end": 346.39,
+  "text": "The default view of Tosca workspace contains the sections such as test cases, modules,"
+ },
+ {
+  "start": 346.39,
+  "end": 356.88,
+  "text": "requirements, test case design, execution, etc."
+ },
+ {
+  "start": 356.88,
+  "end": 359.6,
+  "text": "We will discuss on each of the sections later."
+ },
+ {
+  "start": 359.6,
+  "end": 364.52,
+  "text": "Now, to view the workspace hierarchy, we need to click on project option which"
+ },
+ {
+  "start": 364.52,
+  "end": 368.04,
+  "text": "is available in home tab of the Tosca header."
+ },
+ {
+  "start": 368.16,
+  "end": 372.44,
+  "text": "It's all about single workspace creation."
+ },
+ {
+  "start": 372.44,
+  "end": 379.5,
+  "text": "Now we will learn how to create the multi-user workspace."
+ },
+ {
+  "start": 379.5,
+  "end": 383.7,
+  "text": "First of all, we need to open the Tosca commander and click on create new option"
+ },
+ {
+  "start": 383.7,
+  "end": 386.74,
+  "text": "to open workspace creation screen."
+ },
+ {
+  "start": 386.74,
+  "end": 391.98,
+  "text": "As we are creating multi-user workspace, the central repository is required."
+ },
+ {
+  "start": 391.98,
+  "end": 396.66,
+  "text": "So, we will select the option based on our database."
+ },
+ {
+  "start": 396.66,
+  "end": 401.74,
+  "text": "If select Oracle, then we need to provide the additional schema and connection string."
+ },
+ {
+  "start": 401.74,
+  "end": 407.62,
+  "text": "Here, we will SQLite option and provide the corresponding repository path."
+ },
+ {
+  "start": 407.62,
+  "end": 412.98,
+  "text": "We will keep the default path and proceed."
+ },
+ {
+  "start": 412.98,
+  "end": 418.26,
+  "text": "For first time, use existing repository checkbox should be unchecked."
+ },
+ {
+  "start": 418.26,
+  "end": 423.18,
+  "text": "After that we have to enter the name of the workspace which we are going to create."
+ },
+ {
+  "start": 423.18,
+  "end": 431.89,
+  "text": "We are using the name as multi-user workspace."
+ },
+ {
+  "start": 431.89,
+  "end": 435.21,
+  "text": "We can include our own components or the default one."
+ },
+ {
+  "start": 435.21,
+  "end": 439.97,
+  "text": "Here, we will use the default option which is required for test automation."
+ },
+ {
+  "start": 439.97,
+  "end": 453.34,
+  "text": "Now, we are ready to create the multi-user workspace by clicking on OK button."
+ },
+ {
+  "start": 453.34,
+  "end": 458.62,
+  "text": "It will take few seconds to configure and create the single user workspace."
+ },
+ {
+  "start": 458.62,
+  "end": 463.02,
+  "text": "After creation of the workspace, success message will be appeared and the close button"
+ },
+ {
+  "start": 463.02,
+  "end": 470.22,
+  "text": "will be enabled."
+ },
+ {
+  "start": 470.22,
+  "end": 474.34,
+  "text": "While creating the multi-user workspace, we need to connect the workspace through"
+ },
+ {
+  "start": 480.56,
+  "end": 489.36,
+  "text": "The default user is admin with empty password."
+ },
+ {
+  "start": 489.36,
+  "end": 500.26,
+  "text": "Here, to update any component, first, we need to perform the checkout."
+ },
+ {
+  "start": 500.26,
+  "end": 504.74,
+  "text": "And after completion of update, we need to perform check-in to save the details"
+ },
+ {
+  "start": 504.74,
+  "end": 511.75,
+  "text": "in repository."
+ },
+ {
+  "start": 511.75,
+  "end": 522.26,
+  "text": "We can view the project and reset the password by right-clicking on hierarchy."
+ },
+ {
+  "start": 522.26,
+  "end": 532.34,
+  "text": "That's all about creation of multi-user workspace."
+ },
+ {
+  "start": 532.34,
+  "end": 535.7,
+  "text": "Thanks for watching this video."
+ },
+ {
+  "start": 535.7,
+  "end": 539.94,
+  "text": "That's all about Tosca workspace related topic."
+ },
+ {
+  "start": 539.94,
+  "end": 544.38,
+  "text": "We will learn more about Tosca test case automation in next Tosca tutorial."
+ },
+ {
+  "start": 544.38,
+  "end": 550.18,
+  "text": "Please visit our website lambdageeks.com for more articles on technology, engineering,"
+ },
+ {
+  "start": 550.18,
+  "end": 553.42,
+  "text": "mathematics and various other domain."
+ },
+ {
+  "start": 553.42,
+  "end": 557.46,
+  "text": "You can check our other website as well."
+ },
+ {
+  "start": 557.46,
+  "end": 565.9,
+  "text": "We have features like YouTube Trends, Twitter Trends, Scientific Calculator and"
+ },
+ {
+  "start": 565.9,
+  "end": 570.47,
+  "text": "many more other tools."
+ },
+ {
+  "start": 570.47,
+  "end": 574.51,
+  "text": "If you like our video, please like, comment and share."
+ },
+ {
+  "start": 574.51,
+  "end": 578.39,
+  "text": "If you have any questions, please comment and we will resolve your query."
+ }
+]

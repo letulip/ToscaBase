@@ -1,0 +1,4852 @@
+[
+ {
+  "start": 2.75,
+  "end": 2.76,
+  "text": "hi everyone uh thanks for joining in to"
+ },
+ {
+  "start": 2.76,
+  "end": 5.67,
+  "text": "this webinar uh can you all please raise"
+ },
+ {
+  "start": 5.68,
+  "end": 7.87,
+  "text": "your hand if you can hear me and see my"
+ },
+ {
+  "start": 7.88,
+  "end": 12.07,
+  "text": "screen okay so I can see some hands so"
+ },
+ {
+  "start": 12.08,
+  "end": 14.11,
+  "text": "yeah uh as I said uh welcome to this"
+ },
+ {
+  "start": 14.12,
+  "end": 16.15,
+  "text": "webinar on mastering requirements"
+ },
+ {
+  "start": 16.16,
+  "end": 19.31,
+  "text": "management uh and tricentis tosa"
+ },
+ {
+  "start": 19.32,
+  "end": 22.39,
+  "text": "although this webinar is for 1 hour"
+ },
+ {
+  "start": 22.4,
+  "end": 26.23,
+  "text": "duration um if it might not take that"
+ },
+ {
+  "start": 26.24,
+  "end": 28.71,
+  "text": "much of time uh it's not a very big"
+ },
+ {
+  "start": 28.72,
+  "end": 31.349,
+  "text": "topic but uh it's an important topic"
+ },
+ {
+  "start": 31.359,
+  "end": 34.95,
+  "text": "within pren TSA uh we will try to stick"
+ },
+ {
+  "start": 34.96,
+  "end": 37.389,
+  "text": "with the topic today uh which is"
+ },
+ {
+  "start": 37.399,
+  "end": 39.63,
+  "text": "requirements uh management which will"
+ },
+ {
+  "start": 39.64,
+  "end": 41.63,
+  "text": "revolve around the requirement section"
+ },
+ {
+  "start": 41.64,
+  "end": 44.63,
+  "text": "in tosa uh if you have got any questions"
+ },
+ {
+  "start": 44.64,
+  "end": 47.389,
+  "text": "you can raise your hand or you can use"
+ },
+ {
+  "start": 47.399,
+  "end": 52.47,
+  "text": "the QA q& a section to just write your"
+ },
+ {
+  "start": 52.48,
+  "end": 55.11,
+  "text": "question down and uh I will try to"
+ },
+ {
+  "start": 55.12,
+  "end": 57.31,
+  "text": "answer it within the session if not I"
+ },
+ {
+  "start": 57.32,
+  "end": 61.27,
+  "text": "will uh reach out to you later on uh if"
+ },
+ {
+  "start": 61.28,
+  "end": 62.83,
+  "text": "uh you have some specific question"
+ },
+ {
+  "start": 62.84,
+  "end": 65.39,
+  "text": "around this topic or uh any other topic"
+ },
+ {
+  "start": 65.4,
+  "end": 68.71,
+  "text": "within uh the trentis tosa"
+ },
+ {
+  "start": 68.72,
+  "end": 73.27,
+  "text": "tool so yeah uh we'll get started um"
+ },
+ {
+  "start": 73.28,
+  "end": 77.149,
+  "text": "while people are joining in"
+ },
+ {
+  "start": 77.159,
+  "end": 81.99,
+  "text": "so let's go to tosa and then we will"
+ },
+ {
+  "start": 82.0,
+  "end": 84.99,
+  "text": "start with the requirements section okay"
+ },
+ {
+  "start": 85.0,
+  "end": 88.469,
+  "text": "so uh talking a little bit brief about"
+ },
+ {
+  "start": 88.479,
+  "end": 92.27,
+  "text": "uh what is a require ments and why it is"
+ },
+ {
+  "start": 92.28,
+  "end": 95.95,
+  "text": "important and U how tosa tries to"
+ },
+ {
+  "start": 95.96,
+  "end": 98.069,
+  "text": "integrate this uh particular feature"
+ },
+ {
+  "start": 98.079,
+  "end": 101.91,
+  "text": "into its tool right so requirements as"
+ },
+ {
+  "start": 101.92,
+  "end": 105.19,
+  "text": "we know um any any application you are"
+ },
+ {
+  "start": 105.2,
+  "end": 108.03,
+  "text": "working on or any business for that"
+ },
+ {
+  "start": 108.04,
+  "end": 111.63,
+  "text": "matter has got um requirements right uh"
+ },
+ {
+  "start": 111.64,
+  "end": 113.63,
+  "text": "which comes either from the client's"
+ },
+ {
+  "start": 113.64,
+  "end": 117.83,
+  "text": "customers or from uh the product owners"
+ },
+ {
+  "start": 117.84,
+  "end": 121.67,
+  "text": "uh so all the testing which we do are um"
+ },
+ {
+  "start": 121.68,
+  "end": 123.91,
+  "text": "somehow linked to the requirements of"
+ },
+ {
+  "start": 123.92,
+  "end": 126.51,
+  "text": "the application and then the development"
+ },
+ {
+  "start": 126.52,
+  "end": 129.27,
+  "text": "is also done based on these requirements"
+ },
+ {
+  "start": 129.28,
+  "end": 131.63,
+  "text": "and then testing is done to basically"
+ },
+ {
+  "start": 131.64,
+  "end": 135.07,
+  "text": "confirm that uh these um whatever has"
+ },
+ {
+  "start": 135.08,
+  "end": 137.509,
+  "text": "been developed as a feature or as an"
+ },
+ {
+  "start": 137.519,
+  "end": 140.229,
+  "text": "application meets the requirements"
+ },
+ {
+  "start": 140.239,
+  "end": 142.67,
+  "text": "because that's the ultimate goal of any"
+ },
+ {
+  "start": 142.68,
+  "end": 145.83,
+  "text": "application which uh is being built uh"
+ },
+ {
+  "start": 145.84,
+  "end": 148.55,
+  "text": "it meets the uh expectations of the"
+ },
+ {
+  "start": 148.56,
+  "end": 151.869,
+  "text": "client and uh it meets the requirements"
+ },
+ {
+  "start": 151.879,
+  "end": 154.229,
+  "text": "of how the product is being developed"
+ },
+ {
+  "start": 154.239,
+  "end": 157.39,
+  "text": "and how it should look for the end user"
+ },
+ {
+  "start": 157.4,
+  "end": 159.19,
+  "text": "right so every product or every"
+ },
+ {
+  "start": 159.2,
+  "end": 162.509,
+  "text": "application has got requirements and um"
+ },
+ {
+  "start": 162.519,
+  "end": 164.949,
+  "text": "as part of testing it's very important"
+ },
+ {
+  "start": 164.959,
+  "end": 167.91,
+  "text": "that we link uh whatever test cases we"
+ },
+ {
+  "start": 167.92,
+  "end": 170.75,
+  "text": "are building uh either be it manual"
+ },
+ {
+  "start": 170.76,
+  "end": 173.309,
+  "text": "testing or automation testing that has"
+ },
+ {
+  "start": 173.319,
+  "end": 177.309,
+  "text": "to be um a link to all I mean all of the"
+ },
+ {
+  "start": 177.319,
+  "end": 179.35,
+  "text": "test cases should link back to some"
+ },
+ {
+  "start": 179.36,
+  "end": 181.47,
+  "text": "requirement M otherwise we would never"
+ },
+ {
+  "start": 181.48,
+  "end": 184.63,
+  "text": "be able to tell whether um we are"
+ },
+ {
+  "start": 184.64,
+  "end": 186.67,
+  "text": "actually covering any requirements if we"
+ },
+ {
+  "start": 186.68,
+  "end": 189.149,
+  "text": "are just writing test cases and never"
+ },
+ {
+  "start": 189.159,
+  "end": 191.67,
+  "text": "looking back at our requirements so"
+ },
+ {
+  "start": 191.68,
+  "end": 194.47,
+  "text": "there has to be a a traceability between"
+ },
+ {
+  "start": 194.48,
+  "end": 197.11,
+  "text": "your requirements and your test cases"
+ },
+ {
+  "start": 197.12,
+  "end": 199.47,
+  "text": "which you are developing and then uh"
+ },
+ {
+  "start": 199.48,
+  "end": 201.63,
+  "text": "when you are executing then also you"
+ },
+ {
+  "start": 201.64,
+  "end": 204.149,
+  "text": "need to look back at your requirements"
+ },
+ {
+  "start": 204.159,
+  "end": 206.789,
+  "text": "and see um how much coverage you are"
+ },
+ {
+  "start": 206.799,
+  "end": 208.309,
+  "text": "providing through that particular"
+ },
+ {
+  "start": 208.319,
+  "end": 210.67,
+  "text": "execution how much is passing how much"
+ },
+ {
+  "start": 210.68,
+  "end": 214.47,
+  "text": "is failing because at the end of the day"
+ },
+ {
+  "start": 214.48,
+  "end": 215.39,
+  "text": "uh"
+ },
+ {
+  "start": 215.4,
+  "end": 218.55,
+  "text": "the the testing uh which you are doing"
+ },
+ {
+  "start": 218.56,
+  "end": 221.71,
+  "text": "uh will be marked as uh successful or"
+ },
+ {
+  "start": 221.72,
+  "end": 223.869,
+  "text": "not successful based on how much"
+ },
+ {
+  "start": 223.879,
+  "end": 225.99,
+  "text": "coverage you provide to to your"
+ },
+ {
+  "start": 226.0,
+  "end": 228.67,
+  "text": "requirements and uh what is the pass"
+ },
+ {
+  "start": 228.68,
+  "end": 230.71,
+  "text": "coverage and based on that then the"
+ },
+ {
+  "start": 230.72,
+  "end": 234.149,
+  "text": "project uh or the project owners uh can"
+ },
+ {
+  "start": 234.159,
+  "end": 236.11,
+  "text": "decide whether they want to go ahead"
+ },
+ {
+  "start": 236.12,
+  "end": 237.99,
+  "text": "with a particular feature being released"
+ },
+ {
+  "start": 238.0,
+  "end": 240.67,
+  "text": "or big whe whether the product should be"
+ },
+ {
+  "start": 240.68,
+  "end": 242.949,
+  "text": "released to the clients or customers"
+ },
+ {
+  "start": 242.959,
+  "end": 245.55,
+  "text": "based on your past fail criteria and"
+ },
+ {
+  "start": 245.56,
+  "end": 247.47,
+  "text": "then your coverage of the requirements"
+ },
+ {
+  "start": 247.48,
+  "end": 249.869,
+  "text": "right so everything ties back to the"
+ },
+ {
+  "start": 249.879,
+  "end": 252.869,
+  "text": "requirements uh it is a essential part"
+ },
+ {
+  "start": 252.879,
+  "end": 255.949,
+  "text": "of uh the whole development life cycle"
+ },
+ {
+  "start": 255.959,
+  "end": 258.069,
+  "text": "and even the software testing life cycle"
+ },
+ {
+  "start": 258.079,
+  "end": 260.31,
+  "text": "right so everything starts from the"
+ },
+ {
+  "start": 260.32,
+  "end": 262.189,
+  "text": "requirements where we analyze the"
+ },
+ {
+  "start": 262.199,
+  "end": 264.39,
+  "text": "requirements and then we build our test"
+ },
+ {
+  "start": 264.4,
+  "end": 267.71,
+  "text": "cases which can cover those requirements"
+ },
+ {
+  "start": 267.72,
+  "end": 271.35,
+  "text": "so uh the this is all a background about"
+ },
+ {
+  "start": 271.36,
+  "end": 273.31,
+  "text": "what is requirements and why it is"
+ },
+ {
+  "start": 273.32,
+  "end": 276.749,
+  "text": "important then coming to tosa so tosa"
+ },
+ {
+  "start": 276.759,
+  "end": 279.83,
+  "text": "has got a section called requirements um"
+ },
+ {
+  "start": 279.84,
+  "end": 283.15,
+  "text": "and this is provided uh to build your"
+ },
+ {
+  "start": 283.16,
+  "end": 286.39,
+  "text": "own requirements okay and then uh all"
+ },
+ {
+  "start": 286.4,
+  "end": 288.51,
+  "text": "these requirements which are built uh"
+ },
+ {
+  "start": 288.52,
+  "end": 291.59,
+  "text": "can be easily linked to all the other"
+ },
+ {
+  "start": 291.6,
+  "end": 295.029,
+  "text": "sections in tosa okay so all the other"
+ },
+ {
+  "start": 295.039,
+  "end": 297.469,
+  "text": "sections which I mean is uh the"
+ },
+ {
+  "start": 297.479,
+  "end": 300.55,
+  "text": "execution list the test cases"
+ },
+ {
+  "start": 300.56,
+  "end": 302.35,
+  "text": "uh you can even link your test case"
+ },
+ {
+  "start": 302.36,
+  "end": 305.23,
+  "text": "design so these are the objects which"
+ },
+ {
+  "start": 305.24,
+  "end": 306.79,
+  "text": "can be linked to a particular"
+ },
+ {
+  "start": 306.8,
+  "end": 309.51,
+  "text": "requirement and then um at the end of"
+ },
+ {
+  "start": 309.52,
+  "end": 312.35,
+  "text": "the day um the product owners or the"
+ },
+ {
+  "start": 312.36,
+  "end": 314.749,
+  "text": "project uh stakeholders can come to this"
+ },
+ {
+  "start": 314.759,
+  "end": 318.309,
+  "text": "requirement section and they can uh have"
+ },
+ {
+  "start": 318.319,
+  "end": 321.79,
+  "text": "u a view of your project how it is going"
+ },
+ {
+  "start": 321.8,
+  "end": 324.39,
+  "text": "because it will uh act as a dashboard"
+ },
+ {
+  "start": 324.4,
+  "end": 326.59,
+  "text": "for them where they can see uh what is"
+ },
+ {
+  "start": 326.6,
+  "end": 328.629,
+  "text": "the requirement coverage what is the"
+ },
+ {
+  "start": 328.639,
+  "end": 330.39,
+  "text": "execution state"
+ },
+ {
+  "start": 330.4,
+  "end": 333.189,
+  "text": "um and how much has been covered through"
+ },
+ {
+  "start": 333.199,
+  "end": 335.43,
+  "text": "these requirements for the specific"
+ },
+ {
+  "start": 335.44,
+  "end": 338.23,
+  "text": "project right so the requirements uh"
+ },
+ {
+  "start": 338.24,
+  "end": 341.15,
+  "text": "section not only holds the requirements"
+ },
+ {
+  "start": 341.16,
+  "end": 344.189,
+  "text": "uh for the project it also acts as a"
+ },
+ {
+  "start": 344.199,
+  "end": 347.629,
+  "text": "dashboard for the project where um"
+ },
+ {
+  "start": 347.639,
+  "end": 351.07,
+  "text": "anybody can come here and they can see"
+ },
+ {
+  "start": 351.08,
+  "end": 353.11,
+  "text": "um what are the requirements and what"
+ },
+ {
+  "start": 353.12,
+  "end": 355.35,
+  "text": "are what is the requirement coverage"
+ },
+ {
+  "start": 355.36,
+  "end": 357.43,
+  "text": "current requirement coverage what is the"
+ },
+ {
+  "start": 357.44,
+  "end": 359.87,
+  "text": "execution state so it also asks like a"
+ },
+ {
+  "start": 359.88,
+  "end": 362.71,
+  "text": "report for all the business stakeholders"
+ },
+ {
+  "start": 362.72,
+  "end": 365.95,
+  "text": "um when they looking at the automation"
+ },
+ {
+  "start": 365.96,
+  "end": 368.79,
+  "text": "from a tosa perspective"
+ },
+ {
+  "start": 368.8,
+  "end": 373.35,
+  "text": "okay so um the requirement section is uh"
+ },
+ {
+  "start": 373.36,
+  "end": 376.07,
+  "text": "already there on the menu right so if"
+ },
+ {
+  "start": 376.08,
+  "end": 377.83,
+  "text": "you if you're not able to see that"
+ },
+ {
+  "start": 377.84,
+  "end": 380.87,
+  "text": "section then you can always go back to"
+ },
+ {
+  "start": 380.88,
+  "end": 383.87,
+  "text": "uh this SE section menu and then you can"
+ },
+ {
+  "start": 383.88,
+  "end": 385.99,
+  "text": "choose requirements and that will come"
+ },
+ {
+  "start": 386.0,
+  "end": 388.39,
+  "text": "up uh in your"
+ },
+ {
+  "start": 388.4,
+  "end": 392.39,
+  "text": "screen so um it is also part of the main"
+ },
+ {
+  "start": 392.4,
+  "end": 395.11,
+  "text": "project which uh has been created you"
+ },
+ {
+  "start": 395.12,
+  "end": 397.51,
+  "text": "can see the requirement section is there"
+ },
+ {
+  "start": 397.52,
+  "end": 400.11,
+  "text": "by default like all the other sections"
+ },
+ {
+  "start": 400.12,
+  "end": 403.43,
+  "text": "if you create any particular um"
+ },
+ {
+  "start": 403.44,
+  "end": 406.43,
+  "text": "component folder like this then also you"
+ },
+ {
+  "start": 406.44,
+  "end": 408.589,
+  "text": "can add your own requirements section"
+ },
+ {
+  "start": 408.599,
+  "end": 410.749,
+  "text": "inside that or requirements folder"
+ },
+ {
+  "start": 410.759,
+  "end": 414.39,
+  "text": "inside that okay so any any project uh"
+ },
+ {
+  "start": 414.4,
+  "end": 417.35,
+  "text": "which is there inside uh the workspace"
+ },
+ {
+  "start": 417.36,
+  "end": 418.95,
+  "text": "you can create your own requirement"
+ },
+ {
+  "start": 418.96,
+  "end": 421.27,
+  "text": "section"
+ },
+ {
+  "start": 421.28,
+  "end": 425.39,
+  "text": "so starting off uh with the requirements"
+ },
+ {
+  "start": 425.4,
+  "end": 427.309,
+  "text": "and how you start working with the"
+ },
+ {
+  "start": 427.319,
+  "end": 429.55,
+  "text": "requirements the first thing which uh"
+ },
+ {
+  "start": 429.56,
+  "end": 431.15,
+  "text": "you need to do in the requirement"
+ },
+ {
+  "start": 431.16,
+  "end": 433.55,
+  "text": "section is you need to create a"
+ },
+ {
+  "start": 433.56,
+  "end": 437.15,
+  "text": "requirement structure in tosa okay which"
+ },
+ {
+  "start": 437.16,
+  "end": 439.39,
+  "text": "is uh quite important when you are"
+ },
+ {
+  "start": 439.4,
+  "end": 441.51,
+  "text": "working on a real-time project you"
+ },
+ {
+  "start": 441.52,
+  "end": 443.749,
+  "text": "should have a structure through which uh"
+ },
+ {
+  "start": 443.759,
+  "end": 446.629,
+  "text": "you can design your or you can build"
+ },
+ {
+  "start": 446.639,
+  "end": 448.67,
+  "text": "your requirements for that specific"
+ },
+ {
+  "start": 448.68,
+  "end": 451.55,
+  "text": "application could be working on multiple"
+ },
+ {
+  "start": 451.56,
+  "end": 453.51,
+  "text": "projects at the same time or multiple"
+ },
+ {
+  "start": 453.52,
+  "end": 455.79,
+  "text": "applications so you should have a"
+ },
+ {
+  "start": 455.8,
+  "end": 459.15,
+  "text": "structure which will display the actual"
+ },
+ {
+  "start": 459.16,
+  "end": 460.83,
+  "text": "uh requirements of that particular"
+ },
+ {
+  "start": 460.84,
+  "end": 463.67,
+  "text": "application or that particular project"
+ },
+ {
+  "start": 463.68,
+  "end": 466.27,
+  "text": "right so um how do you build your"
+ },
+ {
+  "start": 466.28,
+  "end": 468.629,
+  "text": "requirement structure so first of all"
+ },
+ {
+  "start": 468.639,
+  "end": 472.51,
+  "text": "you should create a folder okay so that"
+ },
+ {
+  "start": 472.52,
+  "end": 475.27,
+  "text": "folder will uh constitute of all the"
+ },
+ {
+  "start": 475.28,
+  "end": 477.79,
+  "text": "requirements for a particular"
+ },
+ {
+  "start": 477.8,
+  "end": 479.95,
+  "text": "application so"
+ },
+ {
+  "start": 479.96,
+  "end": 482.309,
+  "text": "for this session let's consider this"
+ },
+ {
+  "start": 482.319,
+  "end": 485.469,
+  "text": "application vehicle insurance okay so we"
+ },
+ {
+  "start": 485.479,
+  "end": 487.909,
+  "text": "will create some requirements for this"
+ },
+ {
+  "start": 487.919,
+  "end": 490.27,
+  "text": "particular application today so I'm"
+ },
+ {
+  "start": 490.28,
+  "end": 494.469,
+  "text": "going to call this uh vehicle"
+ },
+ {
+  "start": 494.479,
+  "end": 496.83,
+  "text": "insurance similarly you can have"
+ },
+ {
+  "start": 496.84,
+  "end": 499.869,
+  "text": "multiple uh folders now how do you want"
+ },
+ {
+  "start": 499.879,
+  "end": 502.589,
+  "text": "to structure is completely dependent on"
+ },
+ {
+  "start": 502.599,
+  "end": 504.23,
+  "text": "um your requirement your project"
+ },
+ {
+  "start": 504.24,
+  "end": 506.909,
+  "text": "requirement so you can structure it"
+ },
+ {
+  "start": 506.919,
+  "end": 509.83,
+  "text": "based on um the applic"
+ },
+ {
+  "start": 509.84,
+  "end": 512.55,
+  "text": "itself or you can break it down into"
+ },
+ {
+  "start": 512.56,
+  "end": 514.79,
+  "text": "different folders based on your"
+ },
+ {
+  "start": 514.8,
+  "end": 517.43,
+  "text": "functionality or you can have uh"
+ },
+ {
+  "start": 517.44,
+  "end": 519.43,
+  "text": "something like uh if you are having"
+ },
+ {
+  "start": 519.44,
+  "end": 522.23,
+  "text": "different releases then you can build uh"
+ },
+ {
+  "start": 522.24,
+  "end": 524.59,
+  "text": "or create folders based on your release"
+ },
+ {
+  "start": 524.6,
+  "end": 527.35,
+  "text": "Cycles so you can have multiple folders"
+ },
+ {
+  "start": 527.36,
+  "end": 529.59,
+  "text": "for all the different release cycles and"
+ },
+ {
+  "start": 529.6,
+  "end": 531.43,
+  "text": "then you can build your requirements in"
+ },
+ {
+  "start": 531.44,
+  "end": 534.67,
+  "text": "those um in those folders right so how"
+ },
+ {
+  "start": 534.68,
+  "end": 537.15,
+  "text": "you build it completely depends on you"
+ },
+ {
+  "start": 537.16,
+  "end": 539.99,
+  "text": "uh I'm going to use this as as the main"
+ },
+ {
+  "start": 540.0,
+  "end": 543.31,
+  "text": "project folder inside this once you have"
+ },
+ {
+  "start": 543.32,
+  "end": 545.949,
+  "text": "the requirements folder then you create"
+ },
+ {
+  "start": 545.959,
+  "end": 548.71,
+  "text": "a requirement set okay so all the"
+ },
+ {
+  "start": 548.72,
+  "end": 550.91,
+  "text": "requirements which you want to create"
+ },
+ {
+  "start": 550.92,
+  "end": 553.47,
+  "text": "should always be inside a requirement"
+ },
+ {
+  "start": 553.48,
+  "end": 556.79,
+  "text": "set so a requirement set is like a"
+ },
+ {
+  "start": 556.8,
+  "end": 559.31,
+  "text": "collection of requirements okay so which"
+ },
+ {
+  "start": 559.32,
+  "end": 562.269,
+  "text": "contains different requirements it can"
+ },
+ {
+  "start": 562.279,
+  "end": 564.23,
+  "text": "hold a different requirements and you"
+ },
+ {
+  "start": 564.24,
+  "end": 566.949,
+  "text": "can build number of requirement sets"
+ },
+ {
+  "start": 566.959,
+  "end": 569.23,
+  "text": "again within the folder so there are"
+ },
+ {
+  "start": 569.24,
+  "end": 571.91,
+  "text": "multiple levels of uh hierarchy between"
+ },
+ {
+  "start": 571.92,
+  "end": 574.15,
+  "text": "uh inside the requirement section and"
+ },
+ {
+  "start": 574.16,
+  "end": 576.15,
+  "text": "you can structure them as per your"
+ },
+ {
+  "start": 576.16,
+  "end": 577.47,
+  "text": "project"
+ },
+ {
+  "start": 577.48,
+  "end": 580.23,
+  "text": "requirements okay so uh this is One"
+ },
+ {
+  "start": 580.24,
+  "end": 584.19,
+  "text": "requirement set um as you can see now"
+ },
+ {
+  "start": 584.2,
+  "end": 587.59,
+  "text": "inside this uh we can have multiple uh"
+ },
+ {
+  "start": 587.6,
+  "end": 589.91,
+  "text": "requirements right"
+ },
+ {
+  "start": 589.92,
+  "end": 592.55,
+  "text": "so if we look at this particular"
+ },
+ {
+  "start": 592.56,
+  "end": 596.15,
+  "text": "application um you can see we have got"
+ },
+ {
+  "start": 596.16,
+  "end": 599.87,
+  "text": "different um different vehicle types"
+ },
+ {
+  "start": 599.88,
+  "end": 602.63,
+  "text": "like automobile truck motorcycle camper"
+ },
+ {
+  "start": 602.64,
+  "end": 605.829,
+  "text": "right so each of them then have their"
+ },
+ {
+  "start": 605.839,
+  "end": 610.43,
+  "text": "own um application flow right so every"
+ },
+ {
+  "start": 610.44,
+  "end": 612.79,
+  "text": "vehicle type will have its own"
+ },
+ {
+  "start": 612.8,
+  "end": 615.43,
+  "text": "requirements uh it will have its own"
+ },
+ {
+  "start": 615.44,
+  "end": 618.269,
+  "text": "weightage and then it will have uh its"
+ },
+ {
+  "start": 618.279,
+  "end": 621.43,
+  "text": "own test cases right so it's good idea"
+ },
+ {
+  "start": 621.44,
+  "end": 624.35,
+  "text": "to have different requirements for all"
+ },
+ {
+  "start": 624.36,
+  "end": 627.79,
+  "text": "these different vehicle types okay so"
+ },
+ {
+  "start": 627.8,
+  "end": 631.47,
+  "text": "inside requirements set then uh we can"
+ },
+ {
+  "start": 631.48,
+  "end": 634.19,
+  "text": "create some requirements like"
+ },
+ {
+  "start": 634.2,
+  "end": 640.629,
+  "text": "automobile and then for"
+ },
+ {
+  "start": 642.19,
+  "end": 642.2,
+  "text": "camper"
+ },
+ {
+  "start": 642.2,
+  "end": 651.47,
+  "text": "and truck and"
+ },
+ {
+  "start": 653.949,
+  "end": 653.959,
+  "text": "motorcycle okay so this is how you"
+ },
+ {
+  "start": 653.959,
+  "end": 656.15,
+  "text": "structure your requirements uh you first"
+ },
+ {
+  "start": 656.16,
+  "end": 658.55,
+  "text": "create a folder then a set then your"
+ },
+ {
+  "start": 658.56,
+  "end": 660.75,
+  "text": "individual ual requirements and then"
+ },
+ {
+  "start": 660.76,
+  "end": 662.59,
+  "text": "each individual requirement will be"
+ },
+ {
+  "start": 662.6,
+  "end": 667.23,
+  "text": "linked to its own test cases okay"
+ },
+ {
+  "start": 667.24,
+  "end": 670.91,
+  "text": "so uh this is the uh structure of how"
+ },
+ {
+  "start": 670.92,
+  "end": 674.11,
+  "text": "every requirement should be built right"
+ },
+ {
+  "start": 674.12,
+  "end": 677.91,
+  "text": "the next thing is coming to weight right"
+ },
+ {
+  "start": 677.92,
+  "end": 680.99,
+  "text": "so uh there is a column called weight uh"
+ },
+ {
+  "start": 681.0,
+  "end": 683.23,
+  "text": "in your requirements whenever you create"
+ },
+ {
+  "start": 683.24,
+  "end": 685.829,
+  "text": "any any requirement the default weight"
+ },
+ {
+  "start": 685.839,
+  "end": 689.19,
+  "text": "is always one okay so that's set by tosa"
+ },
+ {
+  "start": 689.2,
+  "end": 691.99,
+  "text": "itself you can always go ahead and"
+ },
+ {
+  "start": 692.0,
+  "end": 695.389,
+  "text": "change this weight now uh what is this"
+ },
+ {
+  "start": 695.399,
+  "end": 698.509,
+  "text": "weight uh it's basically the weightage"
+ },
+ {
+  "start": 698.519,
+  "end": 701.19,
+  "text": "of any particular requirement within the"
+ },
+ {
+  "start": 701.2,
+  "end": 705.11,
+  "text": "application okay so in the application"
+ },
+ {
+  "start": 705.12,
+  "end": 707.43,
+  "text": "every every requirement or every"
+ },
+ {
+  "start": 707.44,
+  "end": 710.269,
+  "text": "functionality will have got will have"
+ },
+ {
+  "start": 710.279,
+  "end": 712.389,
+  "text": "different weightage which means it will"
+ },
+ {
+  "start": 712.399,
+  "end": 716.55,
+  "text": "have different uh different risk"
+ },
+ {
+  "start": 716.56,
+  "end": 718.629,
+  "text": "compared to other functionality or other"
+ },
+ {
+  "start": 718.639,
+  "end": 720.79,
+  "text": "require requirements now how do you"
+ },
+ {
+  "start": 720.8,
+  "end": 723.55,
+  "text": "calculate that risk okay so it it comes"
+ },
+ {
+  "start": 723.56,
+  "end": 726.43,
+  "text": "to the business risk so if a particular"
+ },
+ {
+  "start": 726.44,
+  "end": 729.15,
+  "text": "functionality fails then what impact"
+ },
+ {
+  "start": 729.16,
+  "end": 733.75,
+  "text": "does it have on um the end users so that"
+ },
+ {
+  "start": 733.76,
+  "end": 736.509,
+  "text": "calculates the business risk right and"
+ },
+ {
+  "start": 736.519,
+  "end": 738.629,
+  "text": "there are multiple factors which can uh"
+ },
+ {
+  "start": 738.639,
+  "end": 740.71,
+  "text": "constitute this risk but this is the"
+ },
+ {
+  "start": 740.72,
+  "end": 743.829,
+  "text": "whole uh or the main purpose of uh"
+ },
+ {
+  "start": 743.839,
+  "end": 746.389,
+  "text": "defining the business risk or weightage"
+ },
+ {
+  "start": 746.399,
+  "end": 749.11,
+  "text": "of a particular requirement right so not"
+ },
+ {
+  "start": 749.12,
+  "end": 751.03,
+  "text": "every requirement will have the same"
+ },
+ {
+  "start": 751.04,
+  "end": 755.269,
+  "text": "weightage okay so for me the automobile"
+ },
+ {
+  "start": 755.279,
+  "end": 758.91,
+  "text": "section has got the highest weightage"
+ },
+ {
+  "start": 758.92,
+  "end": 761.67,
+  "text": "because I think that uh this carries the"
+ },
+ {
+  "start": 761.68,
+  "end": 766.509,
+  "text": "most uh most risk uh in the application"
+ },
+ {
+  "start": 766.519,
+  "end": 770.55,
+  "text": "and also uh it is being used by the"
+ },
+ {
+  "start": 770.56,
+  "end": 772.949,
+  "text": "maximum customers and that is why it is"
+ },
+ {
+  "start": 772.959,
+  "end": 776.509,
+  "text": "got more importance and if it fails then"
+ },
+ {
+  "start": 776.519,
+  "end": 778.91,
+  "text": "it has got more risk to my business than"
+ },
+ {
+  "start": 778.92,
+  "end": 781.79,
+  "text": "compared to some other uh requirements"
+ },
+ {
+  "start": 781.8,
+  "end": 785.03,
+  "text": "or other functionality okay so what I I"
+ },
+ {
+  "start": 785.04,
+  "end": 788.23,
+  "text": "can do is I can have uh different uh"
+ },
+ {
+  "start": 788.24,
+  "end": 791.03,
+  "text": "weightage for each of my requirements"
+ },
+ {
+  "start": 791.04,
+  "end": 793.99,
+  "text": "okay based on this could be based on"
+ },
+ {
+  "start": 794.0,
+  "end": 795.43,
+  "text": "either your understanding of the"
+ },
+ {
+  "start": 795.44,
+  "end": 797.99,
+  "text": "application or you can talk to your"
+ },
+ {
+  "start": 798.0,
+  "end": 802.23,
+  "text": "product owners your uh your uh project"
+ },
+ {
+  "start": 802.24,
+  "end": 806.59,
+  "text": "managers on uh What uh what best"
+ },
+ {
+  "start": 806.6,
+  "end": 809.59,
+  "text": "weightage could be put on this this"
+ },
+ {
+  "start": 809.6,
+  "end": 811.91,
+  "text": "sometimes are also done by the product"
+ },
+ {
+  "start": 811.92,
+  "end": 814.15,
+  "text": "owners themselves but if they are not"
+ },
+ {
+  "start": 814.16,
+  "end": 816.59,
+  "text": "doing it themselves then uh that"
+ },
+ {
+  "start": 816.6,
+  "end": 819.15,
+  "text": "automation testers can speak to them and"
+ },
+ {
+  "start": 819.16,
+  "end": 821.269,
+  "text": "then decide what weightage they want to"
+ },
+ {
+  "start": 821.279,
+  "end": 823.67,
+  "text": "put for all these requirements which has"
+ },
+ {
+  "start": 823.68,
+  "end": 828.509,
+  "text": "been created okay so uh this uh"
+ },
+ {
+  "start": 828.519,
+  "end": 830.59,
+  "text": "weightage you can always change"
+ },
+ {
+  "start": 830.6,
+  "end": 832.629,
+  "text": "initially when you create it uh it is"
+ },
+ {
+  "start": 832.639,
+  "end": 835.269,
+  "text": "set to one but there is no right or"
+ },
+ {
+  "start": 835.279,
+  "end": 838.829,
+  "text": "wrong or how you set what number you put"
+ },
+ {
+  "start": 838.839,
+  "end": 841.31,
+  "text": "uh it's all dependent on um how you want"
+ },
+ {
+  "start": 841.32,
+  "end": 845.87,
+  "text": "to use them okay so uh in general um"
+ },
+ {
+  "start": 845.88,
+  "end": 848.91,
+  "text": "when we create it is one and then uh"
+ },
+ {
+  "start": 848.92,
+  "end": 850.91,
+  "text": "when you want to increase or decrease it"
+ },
+ {
+  "start": 850.92,
+  "end": 853.59,
+  "text": "should be on a scale of 1 to five it is"
+ },
+ {
+  "start": 853.6,
+  "end": 855.47,
+  "text": "just based on some best practice as I"
+ },
+ {
+  "start": 855.48,
+  "end": 857.749,
+  "text": "said there is no hard rule that you"
+ },
+ {
+  "start": 857.759,
+  "end": 860.23,
+  "text": "should put this number but uh you should"
+ },
+ {
+  "start": 860.24,
+  "end": 863.389,
+  "text": "think like one is um like the least"
+ },
+ {
+  "start": 863.399,
+  "end": 865.23,
+  "text": "weightage and five is the greatest"
+ },
+ {
+  "start": 865.24,
+  "end": 867.55,
+  "text": "weightage when you are trying to wait"
+ },
+ {
+  "start": 867.56,
+  "end": 870.03,
+  "text": "requirements based on their importance"
+ },
+ {
+  "start": 870.04,
+  "end": 874.43,
+  "text": "or their risk factor okay so here you"
+ },
+ {
+  "start": 874.44,
+  "end": 876.23,
+  "text": "can see automobile has got the highest"
+ },
+ {
+  "start": 876.24,
+  "end": 878.67,
+  "text": "weightage um then the truck then"
+ },
+ {
+  "start": 878.68,
+  "end": 881.23,
+  "text": "motorcycle then camper right and"
+ },
+ {
+  "start": 881.24,
+  "end": 883.47,
+  "text": "accordingly then the contribution"
+ },
+ {
+  "start": 883.48,
+  "end": 885.71,
+  "text": "percentage which is here will change you"
+ },
+ {
+  "start": 885.72,
+  "end": 888.59,
+  "text": "can see U automobile contributes the"
+ },
+ {
+  "start": 888.6,
+  "end": 890.71,
+  "text": "maximum to this particular requirement"
+ },
+ {
+  "start": 890.72,
+  "end": 892.55,
+  "text": "Set uh which is"
+ },
+ {
+  "start": 892.56,
+  "end": 895.43,
+  "text": "45% and then depending on the weightage"
+ },
+ {
+  "start": 895.44,
+  "end": 897.15,
+  "text": "it will autocalculate all this"
+ },
+ {
+  "start": 897.16,
+  "end": 900.43,
+  "text": "contribution percentage okay um there"
+ },
+ {
+  "start": 900.44,
+  "end": 901.99,
+  "text": "are some other columns like coverage"
+ },
+ {
+  "start": 902.0,
+  "end": 904.11,
+  "text": "specified execution State these are all"
+ },
+ {
+  "start": 904.12,
+  "end": 906.749,
+  "text": "gray right now because I haven't linked"
+ },
+ {
+  "start": 906.759,
+  "end": 909.509,
+  "text": "any executions here or I haven't linked"
+ },
+ {
+  "start": 909.519,
+  "end": 911.949,
+  "text": "any test cases so the coverage specified"
+ },
+ {
+  "start": 911.959,
+  "end": 915.23,
+  "text": "and execution state are all gray which"
+ },
+ {
+  "start": 915.24,
+  "end": 918.23,
+  "text": "means they are by default showing 100%"
+ },
+ {
+  "start": 918.24,
+  "end": 920.59,
+  "text": "because nothing has been linked as of"
+ },
+ {
+  "start": 920.6,
+  "end": 925.55,
+  "text": "now okay so uh this is how you can put"
+ },
+ {
+  "start": 925.56,
+  "end": 929.35,
+  "text": "some basic weightage uh uh with the"
+ },
+ {
+  "start": 929.36,
+  "end": 933.829,
+  "text": "weight column uh then there is two other"
+ },
+ {
+  "start": 933.839,
+  "end": 937.189,
+  "text": "factors which can be used to calculate"
+ },
+ {
+  "start": 937.199,
+  "end": 939.71,
+  "text": "the weightage automatically in"
+ },
+ {
+  "start": 939.72,
+  "end": 943.59,
+  "text": "tosa and uh these two columns uh they"
+ },
+ {
+  "start": 943.6,
+  "end": 946.509,
+  "text": "represent two different factors one is"
+ },
+ {
+  "start": 946.519,
+  "end": 949.71,
+  "text": "frequency class and one is damage class"
+ },
+ {
+  "start": 949.72,
+  "end": 952.11,
+  "text": "okay so there are two ways of putting"
+ },
+ {
+  "start": 952.12,
+  "end": 953.91,
+  "text": "weight to your requirement either you"
+ },
+ {
+  "start": 953.92,
+  "end": 955.91,
+  "text": "can if you know the weight then you put"
+ },
+ {
+  "start": 955.92,
+  "end": 958.35,
+  "text": "the weight directly here if you don't"
+ },
+ {
+  "start": 958.36,
+  "end": 960.47,
+  "text": "know the weight you want tosa to"
+ },
+ {
+  "start": 960.48,
+  "end": 962.55,
+  "text": "calculate it uh based on different"
+ },
+ {
+  "start": 962.56,
+  "end": 964.91,
+  "text": "factors then you use frequency class and"
+ },
+ {
+  "start": 964.92,
+  "end": 969.15,
+  "text": "damage class okay so now um what is"
+ },
+ {
+  "start": 969.16,
+  "end": 972.23,
+  "text": "frequency class and what is damage class"
+ },
+ {
+  "start": 972.24,
+  "end": 974.749,
+  "text": "so coming to frequency class uh"
+ },
+ {
+  "start": 974.759,
+  "end": 976.59,
+  "text": "frequency class of a particular"
+ },
+ {
+  "start": 976.6,
+  "end": 980.069,
+  "text": "requirement is uh the frequency of that"
+ },
+ {
+  "start": 980.079,
+  "end": 983.15,
+  "text": "particular requirement being used by the"
+ },
+ {
+  "start": 983.16,
+  "end": 986.15,
+  "text": "end users in your application okay so"
+ },
+ {
+  "start": 986.16,
+  "end": 987.79,
+  "text": "any particular functionality which is"
+ },
+ {
+  "start": 987.8,
+  "end": 991.949,
+  "text": "being used uh maximum uh or the most"
+ },
+ {
+  "start": 991.959,
+  "end": 996.069,
+  "text": "number of times um in a particular cycle"
+ },
+ {
+  "start": 996.079,
+  "end": 999.67,
+  "text": "or or by the analysis of the application"
+ },
+ {
+  "start": 999.68,
+  "end": 1002.35,
+  "text": "uh when you do a proper analysis of"
+ },
+ {
+  "start": 1002.36,
+  "end": 1003.949,
+  "text": "which part of the application is being"
+ },
+ {
+  "start": 1003.959,
+  "end": 1006.509,
+  "text": "you most used by your end users so you"
+ },
+ {
+  "start": 1006.519,
+  "end": 1008.71,
+  "text": "can find that out so that's that's"
+ },
+ {
+  "start": 1008.72,
+  "end": 1010.99,
+  "text": "basically the frequency class okay so"
+ },
+ {
+  "start": 1011.0,
+  "end": 1013.35,
+  "text": "the frequency of uh the functionality"
+ },
+ {
+  "start": 1013.36,
+  "end": 1018.509,
+  "text": "being used uh by by the end users and"
+ },
+ {
+  "start": 1018.519,
+  "end": 1021.71,
+  "text": "that will uh Define your frequency class"
+ },
+ {
+  "start": 1021.72,
+  "end": 1024.949,
+  "text": "similarly the damage class um is"
+ },
+ {
+  "start": 1024.959,
+  "end": 1027.99,
+  "text": "basically the damage uh which it will do"
+ },
+ {
+  "start": 1028.0,
+  "end": 1029.949,
+  "text": "if this particular requirement stops"
+ },
+ {
+  "start": 1029.959,
+  "end": 1032.909,
+  "text": "working or uh there is some problem with"
+ },
+ {
+  "start": 1032.919,
+  "end": 1035.549,
+  "text": "this functionality it's not working then"
+ },
+ {
+  "start": 1035.559,
+  "end": 1039.069,
+  "text": "what damage it will do to uh the overall"
+ },
+ {
+  "start": 1039.079,
+  "end": 1041.47,
+  "text": "uh project uh from the end user"
+ },
+ {
+  "start": 1041.48,
+  "end": 1044.27,
+  "text": "perspective um or what damage it will do"
+ },
+ {
+  "start": 1044.28,
+  "end": 1047.909,
+  "text": "to the um to the maybe to the client to"
+ },
+ {
+  "start": 1047.919,
+  "end": 1048.95,
+  "text": "the customer"
+ },
+ {
+  "start": 1048.96,
+  "end": 1051.23,
+  "text": "so that defines the damage class okay so"
+ },
+ {
+  "start": 1051.24,
+  "end": 1053.07,
+  "text": "you have to think from that perspective"
+ },
+ {
+  "start": 1053.08,
+  "end": 1055.51,
+  "text": "whenever you are putting these numbers"
+ },
+ {
+  "start": 1055.52,
+  "end": 1059.35,
+  "text": "into your requirements okay so um for"
+ },
+ {
+  "start": 1059.36,
+  "end": 1061.75,
+  "text": "example of as I said automobile carries"
+ },
+ {
+  "start": 1061.76,
+  "end": 1065.23,
+  "text": "the maximum weightage so I I put um"
+ },
+ {
+  "start": 1065.24,
+  "end": 1067.549,
+  "text": "again frequency classes five your damage"
+ },
+ {
+  "start": 1067.559,
+  "end": 1071.95,
+  "text": "classes five um again here I always use"
+ },
+ {
+  "start": 1071.96,
+  "end": 1073.87,
+  "text": "a scale of 1 to five whenever I'm"
+ },
+ {
+  "start": 1073.88,
+  "end": 1075.909,
+  "text": "putting these numbers you have to be"
+ },
+ {
+  "start": 1075.919,
+  "end": 1077.95,
+  "text": "consistent across the requirements uh"
+ },
+ {
+  "start": 1077.96,
+  "end": 1080.23,
+  "text": "whenever you are trying to uh put these"
+ },
+ {
+  "start": 1080.24,
+  "end": 1082.87,
+  "text": "numbers because you cannot uh put a"
+ },
+ {
+  "start": 1082.88,
+  "end": 1085.07,
+  "text": "scale of one to five for One requirement"
+ },
+ {
+  "start": 1085.08,
+  "end": 1086.83,
+  "text": "and then for another requirement you put"
+ },
+ {
+  "start": 1086.84,
+  "end": 1089.75,
+  "text": "a scale or use a scale of 1 to 10 you"
+ },
+ {
+  "start": 1089.76,
+  "end": 1091.789,
+  "text": "have to be consistent if you are using 1"
+ },
+ {
+  "start": 1091.799,
+  "end": 1093.83,
+  "text": "to 10 as the scale then use it"
+ },
+ {
+  "start": 1093.84,
+  "end": 1095.95,
+  "text": "throughout all your requirements if"
+ },
+ {
+  "start": 1095.96,
+  "end": 1098.909,
+  "text": "you're using scale 1 to five then you"
+ },
+ {
+  "start": 1098.919,
+  "end": 1100.63,
+  "text": "use one to five for all the other"
+ },
+ {
+  "start": 1100.64,
+  "end": 1102.95,
+  "text": "requirements okay so there has to be a"
+ },
+ {
+  "start": 1102.96,
+  "end": 1106.11,
+  "text": "consistency otherwise um or your"
+ },
+ {
+  "start": 1106.12,
+  "end": 1108.39,
+  "text": "requirement coverage and everything"
+ },
+ {
+  "start": 1108.4,
+  "end": 1112.95,
+  "text": "would be all over the place okay so here"
+ },
+ {
+  "start": 1112.96,
+  "end": 1115.95,
+  "text": "um I can then uh put a frequency and"
+ },
+ {
+  "start": 1115.96,
+  "end": 1120.23,
+  "text": "damage class and then uh based on my"
+ },
+ {
+  "start": 1120.24,
+  "end": 1122.789,
+  "text": "understanding or uh based on the"
+ },
+ {
+  "start": 1122.799,
+  "end": 1124.43,
+  "text": "information which I receive from the"
+ },
+ {
+  "start": 1124.44,
+  "end": 1127.27,
+  "text": "product owners or the business owners"
+ },
+ {
+  "start": 1127.28,
+  "end": 1131.51,
+  "text": "right so I put uh these numbers and then"
+ },
+ {
+  "start": 1131.52,
+  "end": 1134.51,
+  "text": "what tosa will do is it will put some"
+ },
+ {
+  "start": 1134.52,
+  "end": 1137.59,
+  "text": "calculation and it will automatically"
+ },
+ {
+  "start": 1137.6,
+  "end": 1141.19,
+  "text": "update the weight of each requirement"
+ },
+ {
+  "start": 1141.2,
+  "end": 1144.75,
+  "text": "okay uh it does it using a formula and"
+ },
+ {
+  "start": 1144.76,
+  "end": 1146.71,
+  "text": "that formula is"
+ },
+ {
+  "start": 1146.72,
+  "end": 1150.11,
+  "text": "uh 2 to the power of frequency class"
+ },
+ {
+  "start": 1150.12,
+  "end": 1152.35,
+  "text": "multiplied by 2 to the power of damage"
+ },
+ {
+  "start": 1152.36,
+  "end": 1155.789,
+  "text": "class okay so basically it is 2^ of 5"
+ },
+ {
+  "start": 1155.799,
+  "end": 1160.51,
+  "text": "into 2^ of 5 which comes around 1024"
+ },
+ {
+  "start": 1160.52,
+  "end": 1163.47,
+  "text": "similarly the same um calculation is"
+ },
+ {
+  "start": 1163.48,
+  "end": 1165.95,
+  "text": "applied across all the other"
+ },
+ {
+  "start": 1165.96,
+  "end": 1169.029,
+  "text": "requirements okay and that gives you a"
+ },
+ {
+  "start": 1169.039,
+  "end": 1171.87,
+  "text": "weightage uh which is the weightage of"
+ },
+ {
+  "start": 1171.88,
+  "end": 1174.71,
+  "text": "that particular requirement okay and you"
+ },
+ {
+  "start": 1174.72,
+  "end": 1177.27,
+  "text": "can see here automobile now has got the"
+ },
+ {
+  "start": 1177.28,
+  "end": 1179.149,
+  "text": "maximum weightage because uh the"
+ },
+ {
+  "start": 1179.159,
+  "end": 1181.31,
+  "text": "frequency and damage class are higher"
+ },
+ {
+  "start": 1181.32,
+  "end": 1183.59,
+  "text": "for this compared to all the other"
+ },
+ {
+  "start": 1183.6,
+  "end": 1186.43,
+  "text": "requirements okay so these are the two"
+ },
+ {
+  "start": 1186.44,
+  "end": 1190.11,
+  "text": "ways uh you can calculate your weight"
+ },
+ {
+  "start": 1190.12,
+  "end": 1193.59,
+  "text": "for your requirements it's important"
+ },
+ {
+  "start": 1193.6,
+  "end": 1197.71,
+  "text": "because uh it then comes back to other"
+ },
+ {
+  "start": 1197.72,
+  "end": 1200.87,
+  "text": "framework or the pillar on which tosa is"
+ },
+ {
+  "start": 1200.88,
+  "end": 1204.31,
+  "text": "built on it is built on basically two"
+ },
+ {
+  "start": 1204.32,
+  "end": 1206.789,
+  "text": "pillars of Frameworks one is the modular"
+ },
+ {
+  "start": 1206.799,
+  "end": 1209.789,
+  "text": "framework which it uses and then the"
+ },
+ {
+  "start": 1209.799,
+  "end": 1212.909,
+  "text": "risk-based testing okay so tosa is built"
+ },
+ {
+  "start": 1212.919,
+  "end": 1215.51,
+  "text": "all around risk-based testing where the"
+ },
+ {
+  "start": 1215.52,
+  "end": 1219.549,
+  "text": "testing um is optimized to uh cover the"
+ },
+ {
+  "start": 1219.559,
+  "end": 1221.47,
+  "text": "maximum coverage to have the maximum"
+ },
+ {
+  "start": 1221.48,
+  "end": 1224.63,
+  "text": "coverage and also provide the best"
+ },
+ {
+  "start": 1224.64,
+  "end": 1227.99,
+  "text": "possible or efficient risk based testing"
+ },
+ {
+  "start": 1228.0,
+  "end": 1232.43,
+  "text": "okay so uh you can um you can design"
+ },
+ {
+  "start": 1232.44,
+  "end": 1234.909,
+  "text": "your test cases so that uh it will have"
+ },
+ {
+  "start": 1234.919,
+  "end": 1236.95,
+  "text": "the maximum coverage but the minimum"
+ },
+ {
+  "start": 1236.96,
+  "end": 1239.59,
+  "text": "number of test cases uh which has got"
+ },
+ {
+  "start": 1239.6,
+  "end": 1242.669,
+  "text": "the highest risk okay so that's"
+ },
+ {
+  "start": 1242.679,
+  "end": 1246.39,
+  "text": "basically uh which um implies the risk"
+ },
+ {
+  "start": 1246.4,
+  "end": 1249.83,
+  "text": "based testing which tosa is built on and"
+ },
+ {
+  "start": 1249.84,
+  "end": 1252.029,
+  "text": "which you can also Implement using tosa"
+ },
+ {
+  "start": 1252.039,
+  "end": 1254.83,
+  "text": "for your project okay so it's important"
+ },
+ {
+  "start": 1254.84,
+  "end": 1257.43,
+  "text": "to have some weight either you have the"
+ },
+ {
+  "start": 1257.44,
+  "end": 1259.669,
+  "text": "static weight or you have the"
+ },
+ {
+  "start": 1259.679,
+  "end": 1261.59,
+  "text": "calculation of frequency and damage"
+ },
+ {
+  "start": 1261.6,
+  "end": 1263.43,
+  "text": "class"
+ },
+ {
+  "start": 1263.44,
+  "end": 1267.07,
+  "text": "okay so uh this is how you wait your"
+ },
+ {
+  "start": 1267.08,
+  "end": 1270.07,
+  "text": "requirements uh now another thing which"
+ },
+ {
+  "start": 1270.08,
+  "end": 1274.149,
+  "text": "you can do is for each requirement if"
+ },
+ {
+  "start": 1274.159,
+  "end": 1279.149,
+  "text": "you go to the properties okay so here uh"
+ },
+ {
+  "start": 1279.159,
+  "end": 1281.269,
+  "text": "in the properties you will"
+ },
+ {
+  "start": 1281.279,
+  "end": 1284.549,
+  "text": "see first of all the status uh here also"
+ },
+ {
+  "start": 1284.559,
+  "end": 1286.149,
+  "text": "you can see the status how much is"
+ },
+ {
+  "start": 1286.159,
+  "end": 1288.75,
+  "text": "passed how much is failed and and uh"
+ },
+ {
+  "start": 1288.76,
+  "end": 1291.23,
+  "text": "what is not linked you can see here it"
+ },
+ {
+  "start": 1291.24,
+  "end": 1294.789,
+  "text": "is showing uh currently is all zero"
+ },
+ {
+  "start": 1294.799,
+  "end": 1297.789,
+  "text": "right and 100% which means it is not"
+ },
+ {
+  "start": 1297.799,
+  "end": 1300.07,
+  "text": "linked to any test cases so that's the"
+ },
+ {
+  "start": 1300.08,
+  "end": 1302.549,
+  "text": "status of this particular"
+ },
+ {
+  "start": 1302.559,
+  "end": 1304.75,
+  "text": "requirement um there's calculation"
+ },
+ {
+  "start": 1304.76,
+  "end": 1307.63,
+  "text": "results all everything is zero right now"
+ },
+ {
+  "start": 1307.64,
+  "end": 1310.19,
+  "text": "and then there is a requirement type"
+ },
+ {
+  "start": 1310.2,
+  "end": 1312.47,
+  "text": "okay so by default for all the"
+ },
+ {
+  "start": 1312.48,
+  "end": 1314.669,
+  "text": "requirements the requirement type is"
+ },
+ {
+  "start": 1314.679,
+  "end": 1318.39,
+  "text": "requirement but um if you want to have a"
+ },
+ {
+  "start": 1318.4,
+  "end": 1320.669,
+  "text": "classification of your requirements in"
+ },
+ {
+  "start": 1320.679,
+  "end": 1322.63,
+  "text": "your project if you want to have"
+ },
+ {
+  "start": 1322.64,
+  "end": 1325.07,
+  "text": "different requirements for maybe"
+ },
+ {
+  "start": 1325.08,
+  "end": 1327.99,
+  "text": "different releases Cycles or maybe"
+ },
+ {
+  "start": 1328.0,
+  "end": 1331.99,
+  "text": "different U application types uh depends"
+ },
+ {
+  "start": 1332.0,
+  "end": 1334.669,
+  "text": "uh what you want okay so that can be"
+ },
+ {
+  "start": 1334.679,
+  "end": 1337.35,
+  "text": "done uh at a project level okay so how"
+ },
+ {
+  "start": 1337.36,
+  "end": 1339.59,
+  "text": "you can do that you can go to your main"
+ },
+ {
+  "start": 1339.6,
+  "end": 1342.31,
+  "text": "project and then"
+ },
+ {
+  "start": 1342.32,
+  "end": 1346.95,
+  "text": "um you you go to uh your project"
+ },
+ {
+  "start": 1346.96,
+  "end": 1349.47,
+  "text": "settings"
+ },
+ {
+  "start": 1349.48,
+  "end": 1354.47,
+  "text": "and here uh you can right click and then"
+ },
+ {
+  "start": 1354.48,
+  "end": 1356.669,
+  "text": "when you right click you will see uh"
+ },
+ {
+  "start": 1356.679,
+  "end": 1358.59,
+  "text": "there is an option called create"
+ },
+ {
+  "start": 1358.6,
+  "end": 1362.51,
+  "text": "requirement type definition okay so this"
+ },
+ {
+  "start": 1362.52,
+  "end": 1364.95,
+  "text": "will be some additional requirement type"
+ },
+ {
+  "start": 1364.96,
+  "end": 1367.269,
+  "text": "definitions um and there is only one"
+ },
+ {
+  "start": 1367.279,
+  "end": 1368.83,
+  "text": "requirement type definition right now"
+ },
+ {
+  "start": 1368.84,
+  "end": 1370.99,
+  "text": "which is requirement okay but you can"
+ },
+ {
+  "start": 1371.0,
+  "end": 1373.99,
+  "text": "add as many as you required for your"
+ },
+ {
+  "start": 1374.0,
+  "end": 1378.19,
+  "text": "project just a minute so yeah oh sorry"
+ },
+ {
+  "start": 1378.2,
+  "end": 1379.549,
+  "text": "so you need to go to properties"
+ },
+ {
+  "start": 1379.559,
+  "end": 1382.07,
+  "text": "definition uh I clicked many times so it"
+ },
+ {
+  "start": 1382.08,
+  "end": 1384.029,
+  "text": "created uh these many types of"
+ },
+ {
+  "start": 1384.039,
+  "end": 1385.95,
+  "text": "requirement"
+ },
+ {
+  "start": 1385.96,
+  "end": 1389.19,
+  "text": "definitions so you can name it as I said"
+ },
+ {
+  "start": 1389.2,
+  "end": 1391.99,
+  "text": "U any type of requirement uh maybe you"
+ },
+ {
+  "start": 1392.0,
+  "end": 1396.99,
+  "text": "can have functional requirements"
+ },
+ {
+  "start": 1414.029,
+  "end": 1414.039,
+  "text": "okay so like this you can uh create as"
+ },
+ {
+  "start": 1414.039,
+  "end": 1417.029,
+  "text": "many requirement types as you want right"
+ },
+ {
+  "start": 1417.039,
+  "end": 1418.51,
+  "text": "right now you can see I have three"
+ },
+ {
+  "start": 1418.52,
+  "end": 1420.31,
+  "text": "different types one is created by"
+ },
+ {
+  "start": 1420.32,
+  "end": 1422.63,
+  "text": "default the other two I have created"
+ },
+ {
+  "start": 1422.64,
+  "end": 1425.23,
+  "text": "functional and nonf functional like this"
+ },
+ {
+  "start": 1425.24,
+  "end": 1427.83,
+  "text": "you can have as many as you want uh"
+ },
+ {
+  "start": 1427.84,
+  "end": 1430.149,
+  "text": "depending on what you want to create"
+ },
+ {
+  "start": 1430.159,
+  "end": 1432.63,
+  "text": "okay and how you want to Define your"
+ },
+ {
+  "start": 1432.64,
+  "end": 1436.669,
+  "text": "requirements so for now uh what I can do"
+ },
+ {
+  "start": 1436.679,
+  "end": 1439.029,
+  "text": "is um"
+ },
+ {
+  "start": 1439.039,
+  "end": 1445.71,
+  "text": "I can go ahead"
+ },
+ {
+  "start": 1449.83,
+  "end": 1449.84,
+  "text": "and so um once we create those"
+ },
+ {
+  "start": 1449.84,
+  "end": 1452.909,
+  "text": "requirement types right so if uh we want"
+ },
+ {
+  "start": 1452.919,
+  "end": 1455.669,
+  "text": "to assign any particular requirement"
+ },
+ {
+  "start": 1455.679,
+  "end": 1460.029,
+  "text": "types so we need to uh drag and drop"
+ },
+ {
+  "start": 1460.039,
+  "end": 1462.19,
+  "text": "that particular requirement type"
+ },
+ {
+  "start": 1462.2,
+  "end": 1466.59,
+  "text": "definition into our requirements okay"
+ },
+ {
+  "start": 1466.6,
+  "end": 1470.269,
+  "text": "so go go to properties definition and"
+ },
+ {
+  "start": 1470.279,
+  "end": 1474.35,
+  "text": "then come"
+ },
+ {
+  "start": 1477.95,
+  "end": 1477.96,
+  "text": "here okay so if I want this to"
+ },
+ {
+  "start": 1477.96,
+  "end": 1480.51,
+  "text": "be okay no I think it's the other way"
+ },
+ {
+  "start": 1480.52,
+  "end": 1484.35,
+  "text": "around yeah so uh we need to drag and"
+ },
+ {
+  "start": 1484.36,
+  "end": 1485.99,
+  "text": "drop the requirement into the"
+ },
+ {
+  "start": 1486.0,
+  "end": 1487.47,
+  "text": "requirement type definition not the"
+ },
+ {
+  "start": 1487.48,
+  "end": 1491.35,
+  "text": "other way around which I was trying so"
+ },
+ {
+  "start": 1491.36,
+  "end": 1493.149,
+  "text": "now I have dragged the automobile into"
+ },
+ {
+  "start": 1493.159,
+  "end": 1494.95,
+  "text": "the functional requirement and"
+ },
+ {
+  "start": 1494.96,
+  "end": 1496.83,
+  "text": "motorcycle into the non-functional"
+ },
+ {
+  "start": 1496.84,
+  "end": 1502.95,
+  "text": "requirement okay okay so if I now go"
+ },
+ {
+  "start": 1506.389,
+  "end": 1506.399,
+  "text": "back and I look at automobile you will"
+ },
+ {
+  "start": 1506.399,
+  "end": 1508.95,
+  "text": "see the requirement type as functional"
+ },
+ {
+  "start": 1508.96,
+  "end": 1511.789,
+  "text": "requirement and motorcycle as"
+ },
+ {
+  "start": 1511.799,
+  "end": 1513.789,
+  "text": "non-functional requirement the other two"
+ },
+ {
+  "start": 1513.799,
+  "end": 1516.389,
+  "text": "are just requirement okay so this is"
+ },
+ {
+  "start": 1516.399,
+  "end": 1520.389,
+  "text": "just a way of uh classifying or um"
+ },
+ {
+  "start": 1520.399,
+  "end": 1522.31,
+  "text": "dividing your requirement into different"
+ },
+ {
+  "start": 1522.32,
+  "end": 1524.35,
+  "text": "requirement types rather than just"
+ },
+ {
+  "start": 1524.36,
+  "end": 1526.75,
+  "text": "keeping One requirement type you can"
+ },
+ {
+  "start": 1526.76,
+  "end": 1529.269,
+  "text": "have multiple requir types so tosa"
+ },
+ {
+  "start": 1529.279,
+  "end": 1533.07,
+  "text": "provides this uh unique feature"
+ },
+ {
+  "start": 1533.08,
+  "end": 1535.23,
+  "text": "okay"
+ },
+ {
+  "start": 1535.24,
+  "end": 1539.19,
+  "text": "um so this is uh this is how you can uh"
+ },
+ {
+  "start": 1539.2,
+  "end": 1542.63,
+  "text": "do all the different requirement types"
+ },
+ {
+  "start": 1542.64,
+  "end": 1545.149,
+  "text": "and then um the weightage we talked"
+ },
+ {
+  "start": 1545.159,
+  "end": 1549.71,
+  "text": "about then um coming to the linking or"
+ },
+ {
+  "start": 1549.72,
+  "end": 1552.47,
+  "text": "linking the requirements to different"
+ },
+ {
+  "start": 1552.48,
+  "end": 1555.75,
+  "text": "object types or like test cases or"
+ },
+ {
+  "start": 1555.76,
+  "end": 1558.549,
+  "text": "execution list right so we talked about"
+ },
+ {
+  "start": 1558.559,
+  "end": 1563.149,
+  "text": "that now how you can do that so now"
+ },
+ {
+  "start": 1563.159,
+  "end": 1565.909,
+  "text": "currently there is no uh test cases link"
+ },
+ {
+  "start": 1565.919,
+  "end": 1568.07,
+  "text": "here that is why the coverage specified"
+ },
+ {
+  "start": 1568.08,
+  "end": 1572.95,
+  "text": "is not uh it's by default 100% not"
+ },
+ {
+  "start": 1572.96,
+  "end": 1576.149,
+  "text": "linked right that's the status of it so"
+ },
+ {
+  "start": 1576.159,
+  "end": 1579.51,
+  "text": "what we can do uh we can go ahead and"
+ },
+ {
+  "start": 1579.52,
+  "end": 1582.19,
+  "text": "now um link some test cases into our"
+ },
+ {
+  "start": 1582.2,
+  "end": 1584.669,
+  "text": "requirements okay so for that you need"
+ },
+ {
+  "start": 1584.679,
+  "end": 1586.63,
+  "text": "to have test cases built for that"
+ },
+ {
+  "start": 1586.64,
+  "end": 1588.19,
+  "text": "obviously"
+ },
+ {
+  "start": 1588.2,
+  "end": 1590.669,
+  "text": "and once you have that um you can"
+ },
+ {
+  "start": 1590.679,
+  "end": 1593.47,
+  "text": "directly go ahead and either link one"
+ },
+ {
+  "start": 1593.48,
+  "end": 1596.19,
+  "text": "test case or all the test cases so here"
+ },
+ {
+  "start": 1596.2,
+  "end": 1598.389,
+  "text": "I have got a template instance you can"
+ },
+ {
+  "start": 1598.399,
+  "end": 1600.909,
+  "text": "see which is built from a template of"
+ },
+ {
+  "start": 1600.919,
+  "end": 1604.11,
+  "text": "vehicle insurance I can go ahead uh"
+ },
+ {
+  "start": 1604.12,
+  "end": 1607.029,
+  "text": "either I can link these test cases"
+ },
+ {
+  "start": 1607.039,
+  "end": 1609.35,
+  "text": "individually or I can directly link this"
+ },
+ {
+  "start": 1609.36,
+  "end": 1612.95,
+  "text": "complete uh folder into a requirement"
+ },
+ {
+  "start": 1612.96,
+  "end": 1615.95,
+  "text": "which is automobile okay you cannot link"
+ },
+ {
+  "start": 1615.96,
+  "end": 1618.549,
+  "text": "your test cases to your a requirement"
+ },
+ {
+  "start": 1618.559,
+  "end": 1621.51,
+  "text": "set it always has to be a to a"
+ },
+ {
+  "start": 1621.52,
+  "end": 1623.71,
+  "text": "requirement so remember"
+ },
+ {
+  "start": 1623.72,
+  "end": 1626.71,
+  "text": "that okay so now you will see that uh"
+ },
+ {
+  "start": 1626.72,
+  "end": 1629.75,
+  "text": "the coverage specified uh will change"
+ },
+ {
+  "start": 1629.76,
+  "end": 1633.549,
+  "text": "right so for requirement set it is uh"
+ },
+ {
+  "start": 1633.559,
+  "end": 1635.63,
+  "text": "still not 100% because there are other"
+ },
+ {
+  "start": 1635.64,
+  "end": 1638.23,
+  "text": "requirements within this requirement set"
+ },
+ {
+  "start": 1638.24,
+  "end": 1640.909,
+  "text": "but for a a individual requirement you"
+ },
+ {
+  "start": 1640.919,
+  "end": 1644.789,
+  "text": "can see it has now dragged it to 100%"
+ },
+ {
+  "start": 1644.799,
+  "end": 1648.07,
+  "text": "right now how is that calculated"
+ },
+ {
+  "start": 1648.08,
+  "end": 1651.07,
+  "text": "so the coverage specified uh has also"
+ },
+ {
+  "start": 1651.08,
+  "end": 1653.95,
+  "text": "got its own calculation and something"
+ },
+ {
+  "start": 1653.96,
+  "end": 1656.87,
+  "text": "will affect this percentage so let me"
+ },
+ {
+  "start": 1656.88,
+  "end": 1661.269,
+  "text": "tell you how so now if I go back to"
+ },
+ {
+  "start": 1661.279,
+  "end": 1663.87,
+  "text": "these test cases individual test cases"
+ },
+ {
+  "start": 1663.88,
+  "end": 1668.23,
+  "text": "okay the most important uh thing in this"
+ },
+ {
+  "start": 1668.24,
+  "end": 1669.789,
+  "text": "uh whenever you are linking your test"
+ },
+ {
+  "start": 1669.799,
+  "end": 1671.909,
+  "text": "cases to your requirements is the work"
+ },
+ {
+  "start": 1671.919,
+  "end": 1675.35,
+  "text": "state of your of your test case Okay so"
+ },
+ {
+  "start": 1675.36,
+  "end": 1678.509,
+  "text": "this work state of the test case impacts"
+ },
+ {
+  "start": 1678.519,
+  "end": 1681.11,
+  "text": "uh the coverage specified percentage on"
+ },
+ {
+  "start": 1681.12,
+  "end": 1684.07,
+  "text": "the requirements dashboard so that is"
+ },
+ {
+  "start": 1684.08,
+  "end": 1686.83,
+  "text": "why uh this work state has got three"
+ },
+ {
+  "start": 1686.84,
+  "end": 1689.47,
+  "text": "states you can see here planned in work"
+ },
+ {
+  "start": 1689.48,
+  "end": 1693.71,
+  "text": "and completed okay now every a work"
+ },
+ {
+  "start": 1693.72,
+  "end": 1697.07,
+  "text": "state value has got um a particular"
+ },
+ {
+  "start": 1697.08,
+  "end": 1700.87,
+  "text": "number assigned to it in tosa so if you"
+ },
+ {
+  "start": 1700.88,
+  "end": 1704.909,
+  "text": "set the work state to plann then uh it"
+ },
+ {
+  "start": 1704.919,
+  "end": 1708.83,
+  "text": "consider considers it as 20 % complete"
+ },
+ {
+  "start": 1708.84,
+  "end": 1711.87,
+  "text": "if it is in work then it considers to be"
+ },
+ {
+  "start": 1711.88,
+  "end": 1715.35,
+  "text": "50% and if you mark it as completed then"
+ },
+ {
+  "start": 1715.36,
+  "end": 1719.59,
+  "text": "it is 100% okay so that's how it is um"
+ },
+ {
+  "start": 1719.6,
+  "end": 1722.47,
+  "text": "assigned uh in tosa within tosa and"
+ },
+ {
+  "start": 1722.48,
+  "end": 1726.509,
+  "text": "that's how it calculates also so if"
+ },
+ {
+  "start": 1726.519,
+  "end": 1728.87,
+  "text": "currently all my test cases are marked"
+ },
+ {
+  "start": 1728.88,
+  "end": 1730.75,
+  "text": "as completed and that is why the"
+ },
+ {
+  "start": 1730.76,
+  "end": 1734.75,
+  "text": "coverage specified is 100% but if I go"
+ },
+ {
+  "start": 1734.76,
+  "end": 1737.669,
+  "text": "ahead and change uh the work state of"
+ },
+ {
+  "start": 1737.679,
+  "end": 1741.149,
+  "text": "one of these test cases to maybe in"
+ },
+ {
+  "start": 1741.159,
+  "end": 1744.909,
+  "text": "work and then I change one of these test"
+ },
+ {
+  "start": 1744.919,
+  "end": 1748.87,
+  "text": "test cases to plann then you will see my"
+ },
+ {
+  "start": 1748.88,
+  "end": 1752.669,
+  "text": "requirement coverage will change okay so"
+ },
+ {
+  "start": 1752.679,
+  "end": 1755.549,
+  "text": "now if I just look at the automobile"
+ },
+ {
+  "start": 1755.559,
+  "end": 1757.63,
+  "text": "requirement you will see the coverage"
+ },
+ {
+  "start": 1757.64,
+  "end": 1760.269,
+  "text": "specified went down to"
+ },
+ {
+  "start": 1760.279,
+  "end": 1764.59,
+  "text": "87% okay and 30 133% is still not"
+ },
+ {
+  "start": 1764.6,
+  "end": 1767.669,
+  "text": "covered so this is the requirement or"
+ },
+ {
+  "start": 1767.679,
+  "end": 1769.549,
+  "text": "coverage specified percentage which"
+ },
+ {
+  "start": 1769.559,
+  "end": 1771.99,
+  "text": "means it tells you what number of test"
+ },
+ {
+  "start": 1772.0,
+  "end": 1774.95,
+  "text": "cases are already completed what are"
+ },
+ {
+  "start": 1774.96,
+  "end": 1778.149,
+  "text": "still in progress what uh percentage of"
+ },
+ {
+  "start": 1778.159,
+  "end": 1782.19,
+  "text": "test cases are U still not covered or"
+ },
+ {
+  "start": 1782.2,
+  "end": 1786.23,
+  "text": "still not completed okay so all of it"
+ },
+ {
+  "start": 1786.24,
+  "end": 1788.909,
+  "text": "impacts uh the coverage specified on"
+ },
+ {
+  "start": 1788.919,
+  "end": 1791.99,
+  "text": "your dashboard so whenever you are"
+ },
+ {
+  "start": 1792.0,
+  "end": 1794.43,
+  "text": "completing uh your test cases you should"
+ },
+ {
+  "start": 1794.44,
+  "end": 1796.87,
+  "text": "always make sure that uh it is marked as"
+ },
+ {
+  "start": 1796.88,
+  "end": 1799.63,
+  "text": "completed"
+ },
+ {
+  "start": 1803.909,
+  "end": 1803.919,
+  "text": "okay now what is the um what is the"
+ },
+ {
+  "start": 1803.919,
+  "end": 1807.63,
+  "text": "calculation so it is calculated uh based"
+ },
+ {
+  "start": 1807.64,
+  "end": 1811.549,
+  "text": "on uh two factors one is relative weight"
+ },
+ {
+  "start": 1811.559,
+  "end": 1815.509,
+  "text": "okay uh which is again um another column"
+ },
+ {
+  "start": 1815.519,
+  "end": 1818.389,
+  "text": "and then that is Multiplied with the"
+ },
+ {
+  "start": 1818.399,
+  "end": 1821.47,
+  "text": "work state as I said different workstate"
+ },
+ {
+  "start": 1821.48,
+  "end": 1825.149,
+  "text": "a status has got different uh percentage"
+ },
+ {
+  "start": 1825.159,
+  "end": 1829.47,
+  "text": "so it is Multiplied the weight and the"
+ },
+ {
+  "start": 1829.48,
+  "end": 1832.23,
+  "text": "work state and then it comes to a number"
+ },
+ {
+  "start": 1832.24,
+  "end": 1834.35,
+  "text": "which is the percentage so it is shown"
+ },
+ {
+  "start": 1834.36,
+  "end": 1836.149,
+  "text": "in here"
+ },
+ {
+  "start": 1836.159,
+  "end": 1839.509,
+  "text": "okay now um there are some default"
+ },
+ {
+  "start": 1839.519,
+  "end": 1841.75,
+  "text": "columns in the requirement requirement"
+ },
+ {
+  "start": 1841.76,
+  "end": 1844.31,
+  "text": "section but there are more columns you"
+ },
+ {
+  "start": 1844.32,
+  "end": 1846.59,
+  "text": "can always go to column Chooser and add"
+ },
+ {
+  "start": 1846.6,
+  "end": 1848.59,
+  "text": "more columns into this particular"
+ },
+ {
+  "start": 1848.6,
+  "end": 1850.59,
+  "text": "dashboard so I was talking about"
+ },
+ {
+  "start": 1850.6,
+  "end": 1852.47,
+  "text": "relative weight right"
+ },
+ {
+  "start": 1852.48,
+  "end": 1857.23,
+  "text": "so that also um factors in in coverage"
+ },
+ {
+  "start": 1857.24,
+  "end": 1860.47,
+  "text": "specified as I said so relative weight"
+ },
+ {
+  "start": 1860.48,
+  "end": 1864.629,
+  "text": "um is like the weight of this particular"
+ },
+ {
+  "start": 1864.639,
+  "end": 1866.95,
+  "text": "requirement compared to all the other"
+ },
+ {
+  "start": 1866.96,
+  "end": 1869.31,
+  "text": "weights in the requirement set that"
+ },
+ {
+  "start": 1869.32,
+  "end": 1871.75,
+  "text": "brings out the relative weight okay so"
+ },
+ {
+  "start": 1871.76,
+  "end": 1873.99,
+  "text": "the coverage specified is relative"
+ },
+ {
+  "start": 1874.0,
+  "end": 1877.71,
+  "text": "weight into M or multiplied by the work"
+ },
+ {
+  "start": 1877.72,
+  "end": 1879.83,
+  "text": "state and that will uh give you the"
+ },
+ {
+  "start": 1879.84,
+  "end": 1881.43,
+  "text": "coverage specified that's the"
+ },
+ {
+  "start": 1881.44,
+  "end": 1884.11,
+  "text": "calculation"
+ },
+ {
+  "start": 1884.12,
+  "end": 1886.149,
+  "text": "okay"
+ },
+ {
+  "start": 1886.159,
+  "end": 1889.35,
+  "text": "um yeah so that's how you link your test"
+ },
+ {
+  "start": 1889.36,
+  "end": 1893.389,
+  "text": "cases into your requirements right and"
+ },
+ {
+  "start": 1893.399,
+  "end": 1897.029,
+  "text": "now uh coming back to let's go to our"
+ },
+ {
+  "start": 1897.039,
+  "end": 1901.35,
+  "text": "requirements folder so that's that's the"
+ },
+ {
+  "start": 1901.36,
+  "end": 1903.35,
+  "text": "that's how you link your test cases the"
+ },
+ {
+  "start": 1903.36,
+  "end": 1906.149,
+  "text": "next thing is what you can link is your"
+ },
+ {
+  "start": 1906.159,
+  "end": 1908.509,
+  "text": "execution list so that you get a"
+ },
+ {
+  "start": 1908.519,
+  "end": 1912.11,
+  "text": "execution State here okay so for that"
+ },
+ {
+  "start": 1912.12,
+  "end": 1914.549,
+  "text": "you need to have some execution list"
+ },
+ {
+  "start": 1914.559,
+  "end": 1916.669,
+  "text": "okay so I've got this execution list you"
+ },
+ {
+  "start": 1916.679,
+  "end": 1918.83,
+  "text": "can see here here uh for vehicle"
+ },
+ {
+  "start": 1918.84,
+  "end": 1921.59,
+  "text": "insurance which contains all the test"
+ },
+ {
+  "start": 1921.6,
+  "end": 1924.35,
+  "text": "cases now some of them are passed some"
+ },
+ {
+  "start": 1924.36,
+  "end": 1926.389,
+  "text": "of them are failed some of them are not"
+ },
+ {
+  "start": 1926.399,
+  "end": 1928.59,
+  "text": "executed in this particular execution"
+ },
+ {
+  "start": 1928.6,
+  "end": 1932.87,
+  "text": "list okay so if I want to link this into"
+ },
+ {
+  "start": 1932.88,
+  "end": 1934.19,
+  "text": "uh my"
+ },
+ {
+  "start": 1934.2,
+  "end": 1937.99,
+  "text": "requirements then I can either uh link"
+ },
+ {
+  "start": 1938.0,
+  "end": 1941.11,
+  "text": "the individual execution entries okay"
+ },
+ {
+  "start": 1941.12,
+  "end": 1945.43,
+  "text": "one by one or I can also directly link"
+ },
+ {
+  "start": 1945.44,
+  "end": 1948.43,
+  "text": "the complete execution list"
+ },
+ {
+  "start": 1948.44,
+  "end": 1953.789,
+  "text": "okay so I can go ahead and uh drag it"
+ },
+ {
+  "start": 1953.799,
+  "end": 1957.629,
+  "text": "into my requirement set okay so that"
+ },
+ {
+  "start": 1957.639,
+  "end": 1960.549,
+  "text": "execution list will then be displayed uh"
+ },
+ {
+  "start": 1960.559,
+  "end": 1963.43,
+  "text": "inside the requirement set okay and it"
+ },
+ {
+  "start": 1963.44,
+  "end": 1965.389,
+  "text": "is linked to this particular requirement"
+ },
+ {
+  "start": 1965.399,
+  "end": 1969.71,
+  "text": "set now and then you will see a proper"
+ },
+ {
+  "start": 1969.72,
+  "end": 1972.83,
+  "text": "State uh execution state for your"
+ },
+ {
+  "start": 1972.84,
+  "end": 1975.789,
+  "text": "requirements okay now you will see that"
+ },
+ {
+  "start": 1975.799,
+  "end": 1977.87,
+  "text": "it is showing the execution ution state"
+ },
+ {
+  "start": 1977.88,
+  "end": 1983.31,
+  "text": "which is 37% passed 30% uh failed 20%"
+ },
+ {
+  "start": 1983.32,
+  "end": 1987.789,
+  "text": "not executed uh 133% maybe not linked"
+ },
+ {
+  "start": 1987.799,
+  "end": 1991.269,
+  "text": "okay so that's that's the current state"
+ },
+ {
+  "start": 1991.279,
+  "end": 1993.95,
+  "text": "uh execution state of your"
+ },
+ {
+  "start": 1993.96,
+  "end": 1996.47,
+  "text": "requirement and this is the coverage"
+ },
+ {
+  "start": 1996.48,
+  "end": 1999.269,
+  "text": "specified which is linked to your test"
+ },
+ {
+  "start": 1999.279,
+  "end": 2003.149,
+  "text": "case uh status whether it is completed"
+ },
+ {
+  "start": 2003.159,
+  "end": 2005.389,
+  "text": "whether it isn't planned or it is not"
+ },
+ {
+  "start": 2005.399,
+  "end": 2008.549,
+  "text": "yet started okay so as you can see"
+ },
+ {
+  "start": 2008.559,
+  "end": 2012.07,
+  "text": "overall uh this view will give uh any"
+ },
+ {
+  "start": 2012.08,
+  "end": 2015.11,
+  "text": "project uh project manager or product"
+ },
+ {
+  "start": 2015.12,
+  "end": 2018.99,
+  "text": "owner the overall status of the uh"
+ },
+ {
+  "start": 2019.0,
+  "end": 2020.99,
+  "text": "current project automation project which"
+ },
+ {
+  "start": 2021.0,
+  "end": 2024.509,
+  "text": "is going on so he can see what has been"
+ },
+ {
+  "start": 2024.519,
+  "end": 2028.029,
+  "text": "executed uh what is the state and he can"
+ },
+ {
+  "start": 2028.039,
+  "end": 2031.629,
+  "text": "also see how many test cases have been"
+ },
+ {
+  "start": 2031.639,
+  "end": 2035.269,
+  "text": "created or has been U covered as part of"
+ },
+ {
+  "start": 2035.279,
+  "end": 2038.029,
+  "text": "the requirements okay so it gives uh"
+ },
+ {
+  "start": 2038.039,
+  "end": 2040.23,
+  "text": "them a complete picture of what is going"
+ },
+ {
+  "start": 2040.24,
+  "end": 2042.029,
+  "text": "on currently within the automation"
+ },
+ {
+  "start": 2042.039,
+  "end": 2044.31,
+  "text": "project and they can then take a call"
+ },
+ {
+  "start": 2044.32,
+  "end": 2047.07,
+  "text": "based on that uh how they want to"
+ },
+ {
+  "start": 2047.08,
+  "end": 2050.349,
+  "text": "proceed with the maybe the release cycle"
+ },
+ {
+  "start": 2050.359,
+  "end": 2053.349,
+  "text": "or they want to extend or they want to"
+ },
+ {
+  "start": 2053.359,
+  "end": 2056.589,
+  "text": "uh not release a particular feature so"
+ },
+ {
+  "start": 2056.599,
+  "end": 2059.19,
+  "text": "it it gives them a very clear picture"
+ },
+ {
+  "start": 2059.2,
+  "end": 2062.109,
+  "text": "and this should always be updated based"
+ },
+ {
+  "start": 2062.119,
+  "end": 2064.55,
+  "text": "on your current project and what you are"
+ },
+ {
+  "start": 2064.56,
+  "end": 2067.909,
+  "text": "currently working on and that depends on"
+ },
+ {
+  "start": 2067.919,
+  "end": 2072.31,
+  "text": "how you link them and how you um update"
+ },
+ {
+  "start": 2072.32,
+  "end": 2075.95,
+  "text": "your status of your test cases always"
+ },
+ {
+  "start": 2075.96,
+  "end": 2080.55,
+  "text": "okay uh now there are some other columns"
+ },
+ {
+  "start": 2080.56,
+  "end": 2083.389,
+  "text": "also present uh within requirements"
+ },
+ {
+  "start": 2083.399,
+  "end": 2085.47,
+  "text": "apart from we talked about relative"
+ },
+ {
+  "start": 2085.48,
+  "end": 2088.31,
+  "text": "weight uh we talked about C specified we"
+ },
+ {
+  "start": 2088.32,
+  "end": 2092.03,
+  "text": "talked about execution state right so"
+ },
+ {
+  "start": 2092.04,
+  "end": 2095.149,
+  "text": "apart from this also you have got some"
+ },
+ {
+  "start": 2095.159,
+  "end": 2097.71,
+  "text": "um other columns okay"
+ },
+ {
+  "start": 2097.72,
+  "end": 2101.87,
+  "text": "which might help you sometimes uh to uh"
+ },
+ {
+  "start": 2101.88,
+  "end": 2106.829,
+  "text": "gauge what what is the maybe what what's"
+ },
+ {
+  "start": 2106.839,
+  "end": 2109.43,
+  "text": "the requirement like we can also add the"
+ },
+ {
+  "start": 2109.44,
+  "end": 2111.67,
+  "text": "requirement type here if we have got"
+ },
+ {
+  "start": 2111.68,
+  "end": 2113.55,
+  "text": "different types so that is a column"
+ },
+ {
+  "start": 2113.56,
+  "end": 2117.29,
+  "text": "called requirement type okay then"
+ },
+ {
+  "start": 2118.44,
+  "end": 2122.23,
+  "text": "um there is coverage executed so what"
+ },
+ {
+  "start": 2122.24,
+  "end": 2125.829,
+  "text": "amount of um test cases have already"
+ },
+ {
+  "start": 2125.839,
+  "end": 2127.829,
+  "text": "been executed you can also put"
+ },
+ {
+  "start": 2127.839,
+  "end": 2131.23,
+  "text": "aggregated weight okay then required"
+ },
+ {
+  "start": 2131.24,
+  "end": 2134.63,
+  "text": "test cases uh result aggregation uh that"
+ },
+ {
+  "start": 2134.64,
+  "end": 2137.349,
+  "text": "will be at a requirement set level if"
+ },
+ {
+  "start": 2137.359,
+  "end": 2140.19,
+  "text": "you have also linked test case design"
+ },
+ {
+  "start": 2140.2,
+  "end": 2142.91,
+  "text": "then you can also add this particular"
+ },
+ {
+  "start": 2142.92,
+  "end": 2146.15,
+  "text": "column okay so you can decide what"
+ },
+ {
+  "start": 2146.16,
+  "end": 2149.109,
+  "text": "columns you want to have or remove any"
+ },
+ {
+  "start": 2149.119,
+  "end": 2152.67,
+  "text": "column which you don't want to see here"
+ },
+ {
+  "start": 2152.68,
+  "end": 2155.51,
+  "text": "okay um so you can see here the"
+ },
+ {
+  "start": 2155.52,
+  "end": 2157.069,
+  "text": "requirement type this this is the"
+ },
+ {
+  "start": 2157.079,
+  "end": 2160.63,
+  "text": "requirement type and then we can"
+ },
+ {
+  "start": 2160.64,
+  "end": 2164.309,
+  "text": "collapse this we can see the coverage"
+ },
+ {
+  "start": 2164.319,
+  "end": 2169.109,
+  "text": "executed okay um the aggregated weight"
+ },
+ {
+  "start": 2169.119,
+  "end": 2172.349,
+  "text": "here and then uh the test case design so"
+ },
+ {
+  "start": 2172.359,
+  "end": 2175.309,
+  "text": "we haven't linked any test case design"
+ },
+ {
+  "start": 2175.319,
+  "end": 2177.87,
+  "text": "but uh if you have"
+ },
+ {
+  "start": 2177.88,
+  "end": 2181.03,
+  "text": "got your test case design then you can"
+ },
+ {
+  "start": 2181.04,
+  "end": 2185.71,
+  "text": "also link that here okay so let me see"
+ },
+ {
+  "start": 2185.72,
+  "end": 2199.03,
+  "text": "here"
+ },
+ {
+  "start": 2202.51,
+  "end": 2202.52,
+  "text": "okay um I don't have anything inside"
+ },
+ {
+  "start": 2202.52,
+  "end": 2205.309,
+  "text": "this sheet because I have created a"
+ },
+ {
+  "start": 2205.319,
+  "end": 2209.349,
+  "text": "class"
+ },
+ {
+  "start": 2212.43,
+  "end": 2212.44,
+  "text": "here okay um it's not allowing me but"
+ },
+ {
+  "start": 2212.44,
+  "end": 2215.55,
+  "text": "generally it is you just drag the test"
+ },
+ {
+  "start": 2215.56,
+  "end": 2218.03,
+  "text": "sheet into the requir M and then it will"
+ },
+ {
+  "start": 2218.04,
+  "end": 2221.87,
+  "text": "create a test case uh substitute link"
+ },
+ {
+  "start": 2221.88,
+  "end": 2224.95,
+  "text": "which will then U link the design sheet"
+ },
+ {
+  "start": 2224.96,
+  "end": 2228.27,
+  "text": "into the particular requirement okay so"
+ },
+ {
+  "start": 2228.28,
+  "end": 2231.63,
+  "text": "maybe I um you can try and create a new"
+ },
+ {
+  "start": 2231.64,
+  "end": 2233.39,
+  "text": "requirement sheet add some attributes"
+ },
+ {
+  "start": 2233.4,
+  "end": 2236.63,
+  "text": "and instances and then try to link this"
+ },
+ {
+  "start": 2236.64,
+  "end": 2239.589,
+  "text": "into a requirement set or uh into a"
+ },
+ {
+  "start": 2239.599,
+  "end": 2241.95,
+  "text": "requirement I will check why it is not"
+ },
+ {
+  "start": 2241.96,
+  "end": 2246.87,
+  "text": "adding but I will share um an update"
+ },
+ {
+  "start": 2246.88,
+  "end": 2249.63,
+  "text": "maybe after the webinar on why it was"
+ },
+ {
+  "start": 2249.64,
+  "end": 2252.47,
+  "text": "not linking okay but that's how you can"
+ },
+ {
+  "start": 2252.48,
+  "end": 2254.39,
+  "text": "also link the test case design apart"
+ },
+ {
+  "start": 2254.4,
+  "end": 2258.349,
+  "text": "from the execution and uh execution list"
+ },
+ {
+  "start": 2258.359,
+  "end": 2261.109,
+  "text": "and the test cases but the most"
+ },
+ {
+  "start": 2261.119,
+  "end": 2262.95,
+  "text": "important are"
+ },
+ {
+  "start": 2262.96,
+  "end": 2266.43,
+  "text": "um the test cases and the execution list"
+ },
+ {
+  "start": 2266.44,
+  "end": 2267.99,
+  "text": "because they provide you with the"
+ },
+ {
+  "start": 2268.0,
+  "end": 2271.15,
+  "text": "coverage specified and execution State"
+ },
+ {
+  "start": 2271.16,
+  "end": 2273.91,
+  "text": "percentage"
+ },
+ {
+  "start": 2273.92,
+  "end": 2276.589,
+  "text": "okay um so those are all the call"
+ },
+ {
+  "start": 2276.599,
+  "end": 2280.069,
+  "text": "columns uh which can be added to to the"
+ },
+ {
+  "start": 2280.079,
+  "end": 2283.55,
+  "text": "requirement section and um that will"
+ },
+ {
+  "start": 2283.56,
+  "end": 2287.99,
+  "text": "provide you with the overall project"
+ },
+ {
+  "start": 2288.0,
+  "end": 2293.95,
+  "text": "estate um apart from this so what else"
+ },
+ {
+  "start": 2293.96,
+  "end": 2297.27,
+  "text": "is there let"
+ },
+ {
+  "start": 2297.28,
+  "end": 2301.87,
+  "text": "me yeah so if there are any uh changes"
+ },
+ {
+  "start": 2301.88,
+  "end": 2304.87,
+  "text": "which which is happening uh maybe on at"
+ },
+ {
+  "start": 2304.88,
+  "end": 2307.87,
+  "text": "execution list level or something has"
+ },
+ {
+  "start": 2307.88,
+  "end": 2309.75,
+  "text": "changed at your test cases you have"
+ },
+ {
+  "start": 2309.76,
+  "end": 2312.79,
+  "text": "added more test cases or uh some you"
+ },
+ {
+  "start": 2312.8,
+  "end": 2315.43,
+  "text": "have executed a new set of execution"
+ },
+ {
+  "start": 2315.44,
+  "end": 2317.829,
+  "text": "entries right so in those kind of"
+ },
+ {
+  "start": 2317.839,
+  "end": 2320.51,
+  "text": "scenarios what will happen sometimes if"
+ },
+ {
+  "start": 2320.52,
+  "end": 2323.39,
+  "text": "you're working in a um multi-user"
+ },
+ {
+  "start": 2323.4,
+  "end": 2326.19,
+  "text": "project where multiple users are using"
+ },
+ {
+  "start": 2326.2,
+  "end": 2328.47,
+  "text": "the same project and everybody's"
+ },
+ {
+  "start": 2328.48,
+  "end": 2331.19,
+  "text": "executing the test cases and everybody"
+ },
+ {
+  "start": 2331.2,
+  "end": 2333.75,
+  "text": "is developing their test cases so the"
+ },
+ {
+  "start": 2333.76,
+  "end": 2336.51,
+  "text": "requirement uh percentages will keep on"
+ },
+ {
+  "start": 2336.52,
+  "end": 2337.95,
+  "text": "changing"
+ },
+ {
+  "start": 2337.96,
+  "end": 2341.03,
+  "text": "okay and it might happen that you will"
+ },
+ {
+  "start": 2341.04,
+  "end": 2344.349,
+  "text": "not have the updated values always in"
+ },
+ {
+  "start": 2344.359,
+  "end": 2346.95,
+  "text": "this requirements okay if it is a big"
+ },
+ {
+  "start": 2346.96,
+  "end": 2349.71,
+  "text": "project uh in those kind of scenarios"
+ },
+ {
+  "start": 2349.72,
+  "end": 2352.23,
+  "text": "there is also an option to update the"
+ },
+ {
+  "start": 2352.24,
+  "end": 2354.829,
+  "text": "values if you don't have the latest"
+ },
+ {
+  "start": 2354.839,
+  "end": 2357.27,
+  "text": "values then you can always right click"
+ },
+ {
+  "start": 2357.28,
+  "end": 2360.109,
+  "text": "on the requirement set and you can click"
+ },
+ {
+  "start": 2360.119,
+  "end": 2362.71,
+  "text": "on update values it will throw you this"
+ },
+ {
+  "start": 2362.72,
+  "end": 2364.87,
+  "text": "warning that it will take some time"
+ },
+ {
+  "start": 2364.88,
+  "end": 2367.43,
+  "text": "based on how big your project is how"
+ },
+ {
+  "start": 2367.44,
+  "end": 2369.39,
+  "text": "many test cases you have it might take"
+ },
+ {
+  "start": 2369.4,
+  "end": 2371.87,
+  "text": "some time but usually doesn't take so"
+ },
+ {
+  "start": 2371.88,
+  "end": 2376.589,
+  "text": "long okay so um what it will do is it"
+ },
+ {
+  "start": 2376.599,
+  "end": 2379.349,
+  "text": "will recalculate everything okay uh"
+ },
+ {
+  "start": 2379.359,
+  "end": 2381.63,
+  "text": "based on whatever is linked to this"
+ },
+ {
+  "start": 2381.64,
+  "end": 2384.15,
+  "text": "requirement set it will recalculate and"
+ },
+ {
+  "start": 2384.16,
+  "end": 2386.43,
+  "text": "it will display you the latest values"
+ },
+ {
+  "start": 2386.44,
+  "end": 2391.43,
+  "text": "right here okay so that's how you can um"
+ },
+ {
+  "start": 2391.44,
+  "end": 2395.589,
+  "text": "basically update your requirements um"
+ },
+ {
+  "start": 2395.599,
+  "end": 2397.47,
+  "text": "all and all the calculations which are"
+ },
+ {
+  "start": 2397.48,
+  "end": 2399.309,
+  "text": "linked to this particular"
+ },
+ {
+  "start": 2399.319,
+  "end": 2403.27,
+  "text": "requirement"
+ },
+ {
+  "start": 2407.27,
+  "end": 2407.28,
+  "text": "okay uh there's also an feature from"
+ },
+ {
+  "start": 2407.28,
+  "end": 2410.349,
+  "text": "where you can um also import your"
+ },
+ {
+  "start": 2410.359,
+  "end": 2413.15,
+  "text": "requirements from uh some external"
+ },
+ {
+  "start": 2413.16,
+  "end": 2415.109,
+  "text": "documents if you if you're working on"
+ },
+ {
+  "start": 2415.119,
+  "end": 2420.39,
+  "text": "like a Microsoft Word uh for that uh you"
+ },
+ {
+  "start": 2420.4,
+  "end": 2424.87,
+  "text": "can do is there is an option"
+ },
+ {
+  "start": 2424.88,
+  "end": 2427.75,
+  "text": "okay let me me"
+ },
+ {
+  "start": 2427.76,
+  "end": 2431.75,
+  "text": "see okay so if um you go into the folder"
+ },
+ {
+  "start": 2431.76,
+  "end": 2434.67,
+  "text": "level for your requirements right and"
+ },
+ {
+  "start": 2434.68,
+  "end": 2436.589,
+  "text": "you right click there you will see"
+ },
+ {
+  "start": 2436.599,
+  "end": 2438.71,
+  "text": "there's an option import requirements"
+ },
+ {
+  "start": 2438.72,
+  "end": 2443.23,
+  "text": "from word captions okay so this uh will"
+ },
+ {
+  "start": 2443.24,
+  "end": 2446.67,
+  "text": "basically uh allow you to import your"
+ },
+ {
+  "start": 2446.68,
+  "end": 2450.71,
+  "text": "requirements from a document file but uh"
+ },
+ {
+  "start": 2450.72,
+  "end": 2454.99,
+  "text": "it has to be uh in a certain structure"
+ },
+ {
+  "start": 2455.0,
+  "end": 2456.99,
+  "text": "that you can find out from"
+ },
+ {
+  "start": 2457.0,
+  "end": 2459.67,
+  "text": "um from the tosar documentation you can"
+ },
+ {
+  "start": 2459.68,
+  "end": 2464.55,
+  "text": "see that is a a a sample Word document"
+ },
+ {
+  "start": 2464.56,
+  "end": 2467.109,
+  "text": "which has been provided okay so there uh"
+ },
+ {
+  "start": 2467.119,
+  "end": 2468.95,
+  "text": "you need to have a"
+ },
+ {
+  "start": 2468.96,
+  "end": 2472.39,
+  "text": "particular almost um different headings"
+ },
+ {
+  "start": 2472.4,
+  "end": 2474.27,
+  "text": "for all your different uh requirements"
+ },
+ {
+  "start": 2474.28,
+  "end": 2476.47,
+  "text": "and then within that you can have sub"
+ },
+ {
+  "start": 2476.48,
+  "end": 2479.19,
+  "text": "requirements uh you can have some text"
+ },
+ {
+  "start": 2479.2,
+  "end": 2482.309,
+  "text": "so it has to be in a particular format"
+ },
+ {
+  "start": 2482.319,
+  "end": 2485.829,
+  "text": "uh then only it will um allow you to"
+ },
+ {
+  "start": 2485.839,
+  "end": 2488.39,
+  "text": "import that particular document and then"
+ },
+ {
+  "start": 2488.4,
+  "end": 2490.71,
+  "text": "uh that can be used to build uh your"
+ },
+ {
+  "start": 2490.72,
+  "end": 2493.99,
+  "text": "requirements from that external document"
+ },
+ {
+  "start": 2494.0,
+  "end": 2495.71,
+  "text": "okay"
+ },
+ {
+  "start": 2495.72,
+  "end": 2500.19,
+  "text": "um so that's how you can import the doc"
+ },
+ {
+  "start": 2500.2,
+  "end": 2502.47,
+  "text": "um your requirements from the Microsoft"
+ },
+ {
+  "start": 2502.48,
+  "end": 2504.19,
+  "text": "Word into tosa"
+ },
+ {
+  "start": 2504.2,
+  "end": 2512.109,
+  "text": "Commander um what"
+ },
+ {
+  "start": 2514.829,
+  "end": 2514.839,
+  "text": "else okay um"
+ },
+ {
+  "start": 2514.839,
+  "end": 2517.27,
+  "text": "also you can can create different"
+ },
+ {
+  "start": 2517.28,
+  "end": 2522.589,
+  "text": "requirement set links okay um so I"
+ },
+ {
+  "start": 2522.599,
+  "end": 2526.15,
+  "text": "showed you one way of um linking your"
+ },
+ {
+  "start": 2526.16,
+  "end": 2529.19,
+  "text": "require requirements to your execution"
+ },
+ {
+  "start": 2529.2,
+  "end": 2533.95,
+  "text": "list right or your um or your test cases"
+ },
+ {
+  "start": 2533.96,
+  "end": 2536.19,
+  "text": "uh you what you can also do is you can"
+ },
+ {
+  "start": 2536.2,
+  "end": 2539.87,
+  "text": "create these requirement set links okay"
+ },
+ {
+  "start": 2539.88,
+  "end": 2542.71,
+  "text": "which uh will allow you to"
+ },
+ {
+  "start": 2542.72,
+  "end": 2545.63,
+  "text": "uh link your requirements to your test"
+ },
+ {
+  "start": 2545.64,
+  "end": 2549.27,
+  "text": "cases or your uh execution lists so"
+ },
+ {
+  "start": 2549.28,
+  "end": 2551.99,
+  "text": "there are two ways of doing it um you"
+ },
+ {
+  "start": 2552.0,
+  "end": 2555.23,
+  "text": "can use any of them um as you"
+ },
+ {
+  "start": 2555.24,
+  "end": 2563.349,
+  "text": "like okay so here if we"
+ },
+ {
+  "start": 2566.069,
+  "end": 2566.079,
+  "text": "look you can see here uh if you right"
+ },
+ {
+  "start": 2566.079,
+  "end": 2568.99,
+  "text": "click on the requirement the individual"
+ },
+ {
+  "start": 2569.0,
+  "end": 2570.91,
+  "text": "requirement there is an option called"
+ },
+ {
+  "start": 2570.92,
+  "end": 2575.27,
+  "text": "create test case link okay so um as I"
+ },
+ {
+  "start": 2575.28,
+  "end": 2577.39,
+  "text": "said you can do it both ways either you"
+ },
+ {
+  "start": 2577.4,
+  "end": 2579.829,
+  "text": "can directly drag and drop which I find"
+ },
+ {
+  "start": 2579.839,
+  "end": 2583.19,
+  "text": "it easier all the time I directly drag"
+ },
+ {
+  "start": 2583.2,
+  "end": 2585.79,
+  "text": "um test cases into the requirement but"
+ },
+ {
+  "start": 2585.8,
+  "end": 2588.15,
+  "text": "you can always create this test case"
+ },
+ {
+  "start": 2588.16,
+  "end": 2592.27,
+  "text": "links okay uh and then uh drag your test"
+ },
+ {
+  "start": 2592.28,
+  "end": 2595.19,
+  "text": "case into this particular link so that"
+ },
+ {
+  "start": 2595.2,
+  "end": 2598.589,
+  "text": "it up it links uh it links the"
+ },
+ {
+  "start": 2598.599,
+  "end": 2600.87,
+  "text": "requirements into this particular test"
+ },
+ {
+  "start": 2600.88,
+  "end": 2604.309,
+  "text": "case link you need to rename this um and"
+ },
+ {
+  "start": 2604.319,
+  "end": 2607.309,
+  "text": "then you need to link it to the"
+ },
+ {
+  "start": 2607.319,
+  "end": 2610.87,
+  "text": "respective uh test cases okay but um as"
+ },
+ {
+  "start": 2610.88,
+  "end": 2613.39,
+  "text": "I said dragging and dropping is the"
+ },
+ {
+  "start": 2613.4,
+  "end": 2615.829,
+  "text": "mostly the easier way of uh linking the"
+ },
+ {
+  "start": 2615.839,
+  "end": 2618.51,
+  "text": "requirements to the test cases but um"
+ },
+ {
+  "start": 2618.52,
+  "end": 2620.67,
+  "text": "I'm telling you all the different ways"
+ },
+ {
+  "start": 2620.68,
+  "end": 2622.39,
+  "text": "uh or all the different options which"
+ },
+ {
+  "start": 2622.4,
+  "end": 2625.589,
+  "text": "are available inside the requirement"
+ },
+ {
+  "start": 2625.599,
+  "end": 2630.549,
+  "text": "section okay um so I think I have"
+ },
+ {
+  "start": 2630.559,
+  "end": 2633.23,
+  "text": "covered almost everything which is"
+ },
+ {
+  "start": 2633.24,
+  "end": 2639.23,
+  "text": "present inside the requirements section"
+ },
+ {
+  "start": 2643.39,
+  "end": 2643.4,
+  "text": "um we are almost on time so if you have"
+ },
+ {
+  "start": 2643.4,
+  "end": 2646.43,
+  "text": "got any questions then uh please post it"
+ },
+ {
+  "start": 2646.44,
+  "end": 2650.03,
+  "text": "into the Q&A section uh this uh video"
+ },
+ {
+  "start": 2650.04,
+  "end": 2652.39,
+  "text": "will be available after the session on"
+ },
+ {
+  "start": 2652.4,
+  "end": 2656.19,
+  "text": "our website um and for accessing it you"
+ },
+ {
+  "start": 2656.2,
+  "end": 2658.15,
+  "text": "need to be registered on the website and"
+ },
+ {
+  "start": 2658.16,
+  "end": 2659.71,
+  "text": "you'll be able to go through the"
+ },
+ {
+  "start": 2659.72,
+  "end": 2660.91,
+  "text": "recording"
+ },
+ {
+  "start": 2660.92,
+  "end": 2664.829,
+  "text": "anytime uh so this was the requirements"
+ },
+ {
+  "start": 2664.839,
+  "end": 2668.67,
+  "text": "management uh session where we looked at"
+ },
+ {
+  "start": 2668.68,
+  "end": 2671.27,
+  "text": "how requirements can be built how they"
+ },
+ {
+  "start": 2671.28,
+  "end": 2674.75,
+  "text": "can be linked and how um the"
+ },
+ {
+  "start": 2674.76,
+  "end": 2678.03,
+  "text": "calculations are done how it uh how the"
+ },
+ {
+  "start": 2678.04,
+  "end": 2680.91,
+  "text": "coverage specified uh is calculated how"
+ },
+ {
+  "start": 2680.92,
+  "end": 2682.95,
+  "text": "the execution state is calculated how"
+ },
+ {
+  "start": 2682.96,
+  "end": 2687.109,
+  "text": "the frequency damage class is used to uh"
+ },
+ {
+  "start": 2687.119,
+  "end": 2689.589,
+  "text": "to calculate the weightage of each"
+ },
+ {
+  "start": 2689.599,
+  "end": 2692.43,
+  "text": "requirement and how it serves as a"
+ },
+ {
+  "start": 2692.44,
+  "end": 2695.549,
+  "text": "project dashboard right so all of these"
+ },
+ {
+  "start": 2695.559,
+  "end": 2697.15,
+  "text": "topics are covered inside the"
+ },
+ {
+  "start": 2697.16,
+  "end": 2699.829,
+  "text": "requirements management and how it helps"
+ },
+ {
+  "start": 2699.839,
+  "end": 2702.63,
+  "text": "you to uh perform risk based testing"
+ },
+ {
+  "start": 2702.64,
+  "end": 2705.43,
+  "text": "properly you can always use the print"
+ },
+ {
+  "start": 2705.44,
+  "end": 2707.63,
+  "text": "view feature uh in the requirements"
+ },
+ {
+  "start": 2707.64,
+  "end": 2711.27,
+  "text": "dashboard if you want to provide uh your"
+ },
+ {
+  "start": 2711.28,
+  "end": 2715.67,
+  "text": "uh project managers a real time view of"
+ },
+ {
+  "start": 2715.68,
+  "end": 2718.43,
+  "text": "um your project dashboard if they don't"
+ },
+ {
+  "start": 2718.44,
+  "end": 2721.03,
+  "text": "have access to tosa then you can always"
+ },
+ {
+  "start": 2721.04,
+  "end": 2723.27,
+  "text": "do this right"
+ },
+ {
+  "start": 2723.28,
+  "end": 2727.03,
+  "text": "so uh this feature is present in almost"
+ },
+ {
+  "start": 2727.04,
+  "end": 2730.069,
+  "text": "all all the different sections uh you"
+ },
+ {
+  "start": 2730.079,
+  "end": 2733.03,
+  "text": "can do it right from here from the"
+ },
+ {
+  "start": 2733.04,
+  "end": 2735.47,
+  "text": "requirement section as well"
+ },
+ {
+  "start": 2735.48,
+  "end": 2739.109,
+  "text": "so uh you can you can choose the print"
+ },
+ {
+  "start": 2739.119,
+  "end": 2741.47,
+  "text": "View and then you can direct it to any"
+ },
+ {
+  "start": 2741.48,
+  "end": 2744.63,
+  "text": "particular format you want so it even"
+ },
+ {
+  "start": 2744.64,
+  "end": 2747.27,
+  "text": "could be a HTML format or it could be a"
+ },
+ {
+  "start": 2747.28,
+  "end": 2750.27,
+  "text": "PDF it could be uh Excel whatever you"
+ },
+ {
+  "start": 2750.28,
+  "end": 2754.87,
+  "text": "want to um share right so once you"
+ },
+ {
+  "start": 2754.88,
+  "end": 2758.15,
+  "text": "export"
+ },
+ {
+  "start": 2761.15,
+  "end": 2761.16,
+  "text": "okay and then you can open it uh in HTML"
+ },
+ {
+  "start": 2761.16,
+  "end": 2764.069,
+  "text": "obviously it is not the best format but"
+ },
+ {
+  "start": 2764.079,
+  "end": 2766.87,
+  "text": "you can always adjust this uh if uh you"
+ },
+ {
+  "start": 2766.88,
+  "end": 2769.549,
+  "text": "want you can put it in Excel and then"
+ },
+ {
+  "start": 2769.559,
+  "end": 2772.43,
+  "text": "adjust the rows and columns accordingly"
+ },
+ {
+  "start": 2772.44,
+  "end": 2775.75,
+  "text": "to uh have it like a report for your"
+ },
+ {
+  "start": 2775.76,
+  "end": 2778.67,
+  "text": "management to look at uh what is your"
+ },
+ {
+  "start": 2778.68,
+  "end": 2781.79,
+  "text": "current status of the project um mostly"
+ },
+ {
+  "start": 2781.8,
+  "end": 2784.47,
+  "text": "the coverage specified and the execution"
+ },
+ {
+  "start": 2784.48,
+  "end": 2787.91,
+  "text": "State okay"
+ },
+ {
+  "start": 2790.71,
+  "end": 2790.72,
+  "text": "so yeah uh that was the last thing uh"
+ },
+ {
+  "start": 2790.72,
+  "end": 2793.75,
+  "text": "which I wanted to say uh in the"
+ },
+ {
+  "start": 2793.76,
+  "end": 2795.47,
+  "text": "requirements"
+ },
+ {
+  "start": 2795.48,
+  "end": 2797.99,
+  "text": "section um if there are no other"
+ },
+ {
+  "start": 2798.0,
+  "end": 2801.39,
+  "text": "questions then I will close the session"
+ },
+ {
+  "start": 2801.4,
+  "end": 2803.829,
+  "text": "we have five minutes early but look out"
+ },
+ {
+  "start": 2803.839,
+  "end": 2808.15,
+  "text": "for the upcoming upcoming webinars um I"
+ },
+ {
+  "start": 2808.16,
+  "end": 2811.27,
+  "text": "will we will be posting it in the"
+ },
+ {
+  "start": 2811.28,
+  "end": 2814.109,
+  "text": "website and you can register for them"
+ },
+ {
+  "start": 2814.119,
+  "end": 2816.309,
+  "text": "they are free and they will be on"
+ },
+ {
+  "start": 2816.319,
+  "end": 2818.51,
+  "text": "different topics uh within the rent"
+ },
+ {
+  "start": 2818.52,
+  "end": 2821.75,
+  "text": "distar"
+ },
+ {
+  "start": 2824.71,
+  "end": 2824.72,
+  "text": "tool yep uh there are many sessions"
+ },
+ {
+  "start": 2824.72,
+  "end": 2828.67,
+  "text": "lined up so we will try to also cover"
+ },
+ {
+  "start": 2828.68,
+  "end": 2834.549,
+  "text": "the UIA um if it is uh possible so but"
+ },
+ {
+  "start": 2834.559,
+  "end": 2836.549,
+  "text": "keep looking out for the upcoming"
+ },
+ {
+  "start": 2836.559,
+  "end": 2839.27,
+  "text": "webinars it could be on different topics"
+ },
+ {
+  "start": 2839.28,
+  "end": 2842.23,
+  "text": "which are being asked by uh"
+ },
+ {
+  "start": 2842.24,
+  "end": 2845.27,
+  "text": "everyone okay so thanks for joining in"
+ },
+ {
+  "start": 2845.28,
+  "end": 2848.309,
+  "text": "um and and uh we'll talk to you guys"
+ },
+ {
+  "start": 2848.319,
+  "end": 2850.67,
+  "text": "later on in upcoming webinars or if"
+ },
+ {
+  "start": 2850.68,
+  "end": 2852.75,
+  "text": "you're part of the course then um you"
+ },
+ {
+  "start": 2852.76,
+  "end": 2856.63,
+  "text": "can always interact with me um"
+ },
+ {
+  "start": 2856.64,
+  "end": 2860.15,
+  "text": "individually yep so thanks for all of"
+ },
+ {
+  "start": 2860.16,
+  "end": 2862.99,
+  "text": "your time and we'll talk to you soon"
+ },
+ {
+  "start": 2863.0,
+  "end": 2863.99,
+  "text": "thank you"
+ },
+ {
+  "start": 2864.0,
+  "end": 2867.0,
+  "text": "bye"
+ }
+]

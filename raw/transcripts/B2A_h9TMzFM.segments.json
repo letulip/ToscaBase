@@ -1,0 +1,447 @@
+[
+ {
+  "start": 12.509,
+  "end": 12.519,
+  "text": "hey everyone welcome back to our Channel"
+ },
+ {
+  "start": 12.519,
+  "end": 15.15,
+  "text": "I am back with another interesting topic"
+ },
+ {
+  "start": 15.16,
+  "end": 17.67,
+  "text": "in the TSA automation"
+ },
+ {
+  "start": 17.68,
+  "end": 20.509,
+  "text": "playlist so continuing with our topic on"
+ },
+ {
+  "start": 20.519,
+  "end": 23.83,
+  "text": "test automation obstacles with trst tosa"
+ },
+ {
+  "start": 23.84,
+  "end": 25.83,
+  "text": "let's look our next obstacle which is"
+ },
+ {
+  "start": 25.84,
+  "end": 28.95,
+  "text": "called The Escape now in this particular"
+ },
+ {
+  "start": 28.96,
+  "end": 31.31,
+  "text": "obstacle we need to input the value"
+ },
+ {
+  "start": 31.32,
+  "end": 34.51,
+  "text": "click into the text box now you will"
+ },
+ {
+  "start": 34.52,
+  "end": 37.75,
+  "text": "think that why it is an obstacle we can"
+ },
+ {
+  "start": 37.76,
+  "end": 40.709,
+  "text": "directly type this value into the text"
+ },
+ {
+  "start": 40.719,
+  "end": 43.19,
+  "text": "box but when you scan this particular"
+ },
+ {
+  "start": 43.2,
+  "end": 45.79,
+  "text": "module and you are trying to enter click"
+ },
+ {
+  "start": 45.8,
+  "end": 49.27,
+  "text": "into the value then by default it will"
+ },
+ {
+  "start": 49.28,
+  "end": 52.029,
+  "text": "think that it is the click operation and"
+ },
+ {
+  "start": 52.039,
+  "end": 54.27,
+  "text": "what it will do is it will try to click"
+ },
+ {
+  "start": 54.28,
+  "end": 57.11,
+  "text": "on the text box rather than entering it"
+ },
+ {
+  "start": 57.12,
+  "end": 60.549,
+  "text": "as a value and that is why it is a"
+ },
+ {
+  "start": 60.559,
+  "end": 63.59,
+  "text": "little tricky but not that difficult so"
+ },
+ {
+  "start": 63.6,
+  "end": 66.109,
+  "text": "what basically we can do here is uh we"
+ },
+ {
+  "start": 66.119,
+  "end": 68.51,
+  "text": "can use something called Escape"
+ },
+ {
+  "start": 68.52,
+  "end": 72.27,
+  "text": "characters in tosa so this is basically"
+ },
+ {
+  "start": 72.28,
+  "end": 75.109,
+  "text": "used in case we want to escape some"
+ },
+ {
+  "start": 75.119,
+  "end": 77.55,
+  "text": "special characters but you can use it"
+ },
+ {
+  "start": 77.56,
+  "end": 80.19,
+  "text": "for any particular text so let's see how"
+ },
+ {
+  "start": 80.2,
+  "end": 81.789,
+  "text": "we can automate this particular obstacle"
+ },
+ {
+  "start": 81.799,
+  "end": 85.35,
+  "text": "in tosa now okay so going back to tosa"
+ },
+ {
+  "start": 85.36,
+  "end": 88.23,
+  "text": "the first step is always the same we"
+ },
+ {
+  "start": 88.24,
+  "end": 91.069,
+  "text": "need to scan this particular module so"
+ },
+ {
+  "start": 91.079,
+  "end": 96.19,
+  "text": "let's go ahead and scan this"
+ },
+ {
+  "start": 99.59,
+  "end": 99.6,
+  "text": "now okay and then U I'm going"
+ },
+ {
+  "start": 99.6,
+  "end": 102.67,
+  "text": "to scan this particular text box which"
+ },
+ {
+  "start": 102.68,
+  "end": 106.069,
+  "text": "is called the result text and I'm going"
+ },
+ {
+  "start": 106.079,
+  "end": 110.069,
+  "text": "to save this and close"
+ },
+ {
+  "start": 110.079,
+  "end": 112.55,
+  "text": "it let's go back"
+ },
+ {
+  "start": 112.56,
+  "end": 118.83,
+  "text": "here and I'm going to just rename"
+ },
+ {
+  "start": 122.109,
+  "end": 122.119,
+  "text": "this okay so now coming back to our tosa"
+ },
+ {
+  "start": 122.119,
+  "end": 125.19,
+  "text": "obstacle disc cases let's create a new"
+ },
+ {
+  "start": 125.2,
+  "end": 129.15,
+  "text": "one here and then uh let's add the"
+ },
+ {
+  "start": 129.16,
+  "end": 134.11,
+  "text": "module which we have scanned"
+ },
+ {
+  "start": 136.75,
+  "end": 136.76,
+  "text": "earlier okay so we have got uh the"
+ },
+ {
+  "start": 136.76,
+  "end": 139.91,
+  "text": "particular text box right here um and"
+ },
+ {
+  "start": 139.92,
+  "end": 142.47,
+  "text": "now we need to enter click into that"
+ },
+ {
+  "start": 142.48,
+  "end": 144.99,
+  "text": "particular text box now as I was"
+ },
+ {
+  "start": 145.0,
+  "end": 148.309,
+  "text": "mentioning if we directly try to use the"
+ },
+ {
+  "start": 148.319,
+  "end": 153.19,
+  "text": "click uh as this okay so it will by"
+ },
+ {
+  "start": 153.2,
+  "end": 156.229,
+  "text": "default become the click operation"
+ },
+ {
+  "start": 156.239,
+  "end": 158.07,
+  "text": "because tosa cannot tell that you are"
+ },
+ {
+  "start": 158.08,
+  "end": 159.75,
+  "text": "trying to click on it or you are trying"
+ },
+ {
+  "start": 159.76,
+  "end": 163.149,
+  "text": "to enter a particular text okay because"
+ },
+ {
+  "start": 163.159,
+  "end": 166.27,
+  "text": "this is a system defined operation and"
+ },
+ {
+  "start": 166.28,
+  "end": 168.75,
+  "text": "this is the expression which is used so"
+ },
+ {
+  "start": 168.76,
+  "end": 171.63,
+  "text": "tosa will always take it as the default"
+ },
+ {
+  "start": 171.64,
+  "end": 172.55,
+  "text": "click"
+ },
+ {
+  "start": 172.56,
+  "end": 176.11,
+  "text": "operation now if you want to make it a"
+ },
+ {
+  "start": 176.12,
+  "end": 179.75,
+  "text": "simple text right then we need to escape"
+ },
+ {
+  "start": 179.76,
+  "end": 181.39,
+  "text": "all the characters in this particular"
+ },
+ {
+  "start": 181.4,
+  "end": 183.589,
+  "text": "text and that can be done in two"
+ },
+ {
+  "start": 183.599,
+  "end": 186.589,
+  "text": "different ways so uh you can right click"
+ },
+ {
+  "start": 186.599,
+  "end": 188.75,
+  "text": "on this particular value and then you"
+ },
+ {
+  "start": 188.76,
+  "end": 192.55,
+  "text": "will get an option to escape the value"
+ },
+ {
+  "start": 192.56,
+  "end": 196.39,
+  "text": "okay or uh you can directly also uh"
+ },
+ {
+  "start": 196.4,
+  "end": 199.19,
+  "text": "enclose the whole text inside double"
+ },
+ {
+  "start": 199.2,
+  "end": 202.589,
+  "text": "quotes so this will basically Escape all"
+ },
+ {
+  "start": 202.599,
+  "end": 204.43,
+  "text": "your characters which are contained"
+ },
+ {
+  "start": 204.44,
+  "end": 206.869,
+  "text": "inside this double quotes Okay and then"
+ },
+ {
+  "start": 206.879,
+  "end": 210.71,
+  "text": "tosa will uh consider it as a normal"
+ },
+ {
+  "start": 210.72,
+  "end": 214.35,
+  "text": "text and not as a special expression uh"
+ },
+ {
+  "start": 214.36,
+  "end": 216.229,
+  "text": "which is related to any particular"
+ },
+ {
+  "start": 216.239,
+  "end": 217.869,
+  "text": "operation"
+ },
+ {
+  "start": 217.879,
+  "end": 220.789,
+  "text": "okay so now uh this is what we need to"
+ },
+ {
+  "start": 220.799,
+  "end": 223.55,
+  "text": "do here uh so we'll mark it as completed"
+ },
+ {
+  "start": 223.56,
+  "end": 227.99,
+  "text": "and we'll try to execute it in the"
+ },
+ {
+  "start": 230.71,
+  "end": 230.72,
+  "text": "scratchbook okay so as you can see uh it"
+ },
+ {
+  "start": 230.72,
+  "end": 234.99,
+  "text": "entered click uh as a particular text"
+ },
+ {
+  "start": 235.0,
+  "end": 237.19,
+  "text": "into the text box and the automation"
+ },
+ {
+  "start": 237.2,
+  "end": 240.949,
+  "text": "obstacle was marked as completed"
+ },
+ {
+  "start": 240.959,
+  "end": 243.309,
+  "text": "so this is how you can escape characters"
+ },
+ {
+  "start": 243.319,
+  "end": 245.91,
+  "text": "at different places uh in your test"
+ },
+ {
+  "start": 245.92,
+  "end": 249.509,
+  "text": "cases so that TSA consider it as a"
+ },
+ {
+  "start": 249.519,
+  "end": 251.91,
+  "text": "normal text rather than any special"
+ },
+ {
+  "start": 251.92,
+  "end": 255.509,
+  "text": "characters or any particular"
+ },
+ {
+  "start": 255.519,
+  "end": 257.43,
+  "text": "expression that's all for this"
+ },
+ {
+  "start": 257.44,
+  "end": 259.55,
+  "text": "particular video if you have any"
+ },
+ {
+  "start": 259.56,
+  "end": 261.469,
+  "text": "questions then please leave it in the"
+ },
+ {
+  "start": 261.479,
+  "end": 263.95,
+  "text": "comments if you like this video then"
+ },
+ {
+  "start": 263.96,
+  "end": 266.39,
+  "text": "please subscribe to our Channel thanks"
+ },
+ {
+  "start": 266.4,
+  "end": 268.43,
+  "text": "for watching and I will see you in the"
+ },
+ {
+  "start": 268.44,
+  "end": 271.6,
+  "text": "next video"
+ }
+]

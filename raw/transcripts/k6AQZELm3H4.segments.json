@@ -1,0 +1,992 @@
+[
+ {
+  "start": 8.93,
+  "end": 8.94,
+  "text": "hey everyone welcome back to our Channel"
+ },
+ {
+  "start": 8.94,
+  "end": 11.509,
+  "text": "I am back with another interesting topic"
+ },
+ {
+  "start": 11.519,
+  "end": 14.33,
+  "text": "in the Tosca automation playlist"
+ },
+ {
+  "start": 14.34,
+  "end": 15.89,
+  "text": "so continuing with our automation"
+ },
+ {
+  "start": 15.9,
+  "end": 19.13,
+  "text": "obstacles for Tosca we are looking at"
+ },
+ {
+  "start": 19.14,
+  "end": 22.07,
+  "text": "the third obstacle and this one is"
+ },
+ {
+  "start": 22.08,
+  "end": 24.89,
+  "text": "marked as hard so there would be some"
+ },
+ {
+  "start": 24.9,
+  "end": 27.529,
+  "text": "challenge in this particular obstacle so"
+ },
+ {
+  "start": 27.539,
+  "end": 29.689,
+  "text": "let's see what this obstacle is"
+ },
+ {
+  "start": 29.699,
+  "end": 32.33,
+  "text": "so here uh it is saying let's assume"
+ },
+ {
+  "start": 32.34,
+  "end": 34.19,
+  "text": "your application as a test generates an"
+ },
+ {
+  "start": 34.2,
+  "end": 36.889,
+  "text": "offer ID every time you click on the"
+ },
+ {
+  "start": 36.899,
+  "end": 38.569,
+  "text": "according button so this particular"
+ },
+ {
+  "start": 38.579,
+  "end": 41.63,
+  "text": "button uh unfortunately it gets added to"
+ },
+ {
+  "start": 41.64,
+  "end": 43.729,
+  "text": "the table randomly"
+ },
+ {
+  "start": 43.739,
+  "end": 46.25,
+  "text": "find a way to automate a stable test"
+ },
+ {
+  "start": 46.26,
+  "end": 49.31,
+  "text": "step that clicks the button okay and"
+ },
+ {
+  "start": 49.32,
+  "end": 51.95,
+  "text": "then buffers the generated offer ID and"
+ },
+ {
+  "start": 51.96,
+  "end": 54.29,
+  "text": "enter it into the text box"
+ },
+ {
+  "start": 54.3,
+  "end": 56.63,
+  "text": "the test steps needs to run every time"
+ },
+ {
+  "start": 56.64,
+  "end": 59.33,
+  "text": "okay so"
+ },
+ {
+  "start": 59.34,
+  "end": 61.91,
+  "text": "here there will be an order ID which"
+ },
+ {
+  "start": 61.92,
+  "end": 63.889,
+  "text": "will be added into this particular table"
+ },
+ {
+  "start": 63.899,
+  "end": 66.17,
+  "text": "as a row okay so when we click on this"
+ },
+ {
+  "start": 66.18,
+  "end": 68.09,
+  "text": "generate order ID"
+ },
+ {
+  "start": 68.1,
+  "end": 70.19,
+  "text": "so you can see here this is the order ID"
+ },
+ {
+  "start": 70.2,
+  "end": 72.67,
+  "text": "which has been generated now we need to"
+ },
+ {
+  "start": 72.68,
+  "end": 76.789,
+  "text": "select this and then enter it here okay"
+ },
+ {
+  "start": 76.799,
+  "end": 78.83,
+  "text": "and then this particular riddle will be"
+ },
+ {
+  "start": 78.84,
+  "end": 79.85,
+  "text": "solved so"
+ },
+ {
+  "start": 79.86,
+  "end": 83.39,
+  "text": "but the problem is when we click on this"
+ },
+ {
+  "start": 83.4,
+  "end": 86.749,
+  "text": "generate order ID okay so this time you"
+ },
+ {
+  "start": 86.759,
+  "end": 89.21,
+  "text": "see it is added here"
+ },
+ {
+  "start": 89.22,
+  "end": 92.749,
+  "text": "the next time it will be added here okay"
+ },
+ {
+  "start": 92.759,
+  "end": 96.469,
+  "text": "so the position is not consistent it is"
+ },
+ {
+  "start": 96.479,
+  "end": 98.63,
+  "text": "changing the row number uh every time"
+ },
+ {
+  "start": 98.64,
+  "end": 101.33,
+  "text": "okay so that's the problem here and"
+ },
+ {
+  "start": 101.34,
+  "end": 102.95,
+  "text": "that's the challenge actually which you"
+ },
+ {
+  "start": 102.96,
+  "end": 105.35,
+  "text": "need to solve okay"
+ },
+ {
+  "start": 105.36,
+  "end": 107.51,
+  "text": "so if you already know the solution then"
+ },
+ {
+  "start": 107.52,
+  "end": 110.33,
+  "text": "go ahead and complete this challenge"
+ },
+ {
+  "start": 110.34,
+  "end": 112.609,
+  "text": "if not I am going to tell you"
+ },
+ {
+  "start": 112.619,
+  "end": 114.35,
+  "text": "um how you should solve this particular"
+ },
+ {
+  "start": 114.36,
+  "end": 115.609,
+  "text": "challenge"
+ },
+ {
+  "start": 115.619,
+  "end": 119.749,
+  "text": "okay so first let's go ahead and"
+ },
+ {
+  "start": 119.759,
+  "end": 122.45,
+  "text": "go into the modules and let's go into"
+ },
+ {
+  "start": 122.46,
+  "end": 124.49,
+  "text": "obstacles and then we are going to scan"
+ },
+ {
+  "start": 124.5,
+  "end": 127.789,
+  "text": "this particular application"
+ },
+ {
+  "start": 136.49,
+  "end": 136.5,
+  "text": "and here uh currently it is not showing"
+ },
+ {
+  "start": 136.5,
+  "end": 138.589,
+  "text": "me that particular table as you can see"
+ },
+ {
+  "start": 138.599,
+  "end": 140.57,
+  "text": "here so I'm going to increase the"
+ },
+ {
+  "start": 140.58,
+  "end": 142.39,
+  "text": "filtered items"
+ },
+ {
+  "start": 142.4,
+  "end": 144.53,
+  "text": "and then"
+ },
+ {
+  "start": 144.54,
+  "end": 149.03,
+  "text": "I am going to come here and"
+ },
+ {
+  "start": 149.04,
+  "end": 152.21,
+  "text": "and then we are going to look for the"
+ },
+ {
+  "start": 152.22,
+  "end": 154.43,
+  "text": "order ID okay so this is the order ID"
+ },
+ {
+  "start": 154.44,
+  "end": 156.05,
+  "text": "you can see here"
+ },
+ {
+  "start": 156.06,
+  "end": 158.63,
+  "text": "and as you can see"
+ },
+ {
+  "start": 158.64,
+  "end": 161.93,
+  "text": "um it's not actually a table okay it"
+ },
+ {
+  "start": 161.94,
+  "end": 164.33,
+  "text": "looks like a table on the page but it is"
+ },
+ {
+  "start": 164.34,
+  "end": 166.19,
+  "text": "not because it doesn't contain any rows"
+ },
+ {
+  "start": 166.2,
+  "end": 168.49,
+  "text": "and tables everything is a div element"
+ },
+ {
+  "start": 168.5,
+  "end": 171.17,
+  "text": "so you need to consider this as a Dev"
+ },
+ {
+  "start": 171.18,
+  "end": 172.369,
+  "text": "element"
+ },
+ {
+  "start": 172.379,
+  "end": 175.25,
+  "text": "now here is the order you can see here"
+ },
+ {
+  "start": 175.26,
+  "end": 177.17,
+  "text": "order number right"
+ },
+ {
+  "start": 177.18,
+  "end": 179.57,
+  "text": "but if we go ahead and select this"
+ },
+ {
+  "start": 179.58,
+  "end": 180.71,
+  "text": "element"
+ },
+ {
+  "start": 180.72,
+  "end": 182.39,
+  "text": "So currently this order number is"
+ },
+ {
+  "start": 182.4,
+  "end": 185.15,
+  "text": "present but the next time we click on"
+ },
+ {
+  "start": 185.16,
+  "end": 186.589,
+  "text": "generating the order"
+ },
+ {
+  "start": 186.599,
+  "end": 189.11,
+  "text": "then the order number will change also"
+ },
+ {
+  "start": 189.12,
+  "end": 191.27,
+  "text": "in this particular element will not be"
+ },
+ {
+  "start": 191.28,
+  "end": 194.509,
+  "text": "in this same position so our test case"
+ },
+ {
+  "start": 194.519,
+  "end": 197.21,
+  "text": "will obviously fail okay"
+ },
+ {
+  "start": 197.22,
+  "end": 200.21,
+  "text": "now what you need to do here is first of"
+ },
+ {
+  "start": 200.22,
+  "end": 202.79,
+  "text": "all we need to remove this in a text"
+ },
+ {
+  "start": 202.8,
+  "end": 205.009,
+  "text": "because this inner text is dynamically"
+ },
+ {
+  "start": 205.019,
+  "end": 207.89,
+  "text": "changing okay so we cannot use this we"
+ },
+ {
+  "start": 207.9,
+  "end": 211.009,
+  "text": "can use the tag div but as soon as we"
+ },
+ {
+  "start": 211.019,
+  "end": 214.13,
+  "text": "remove the inner text our item becomes"
+ },
+ {
+  "start": 214.14,
+  "end": 217.07,
+  "text": "or the element becomes uh not unique"
+ },
+ {
+  "start": 217.08,
+  "end": 220.369,
+  "text": "right so Tosca now cannot identify this"
+ },
+ {
+  "start": 220.379,
+  "end": 223.789,
+  "text": "element because everything is a div tag"
+ },
+ {
+  "start": 223.799,
+  "end": 225.43,
+  "text": "right here"
+ },
+ {
+  "start": 225.44,
+  "end": 227.509,
+  "text": "so in this case"
+ },
+ {
+  "start": 227.519,
+  "end": 229.19,
+  "text": "um obviously when we don't have any"
+ },
+ {
+  "start": 229.2,
+  "end": 232.13,
+  "text": "properties to fall back up on uh we have"
+ },
+ {
+  "start": 232.14,
+  "end": 234.229,
+  "text": "to change the identification mechanism"
+ },
+ {
+  "start": 234.239,
+  "end": 237.05,
+  "text": "right so instead of properties now let's"
+ },
+ {
+  "start": 237.06,
+  "end": 239.63,
+  "text": "go ahead and look out for identifier by"
+ },
+ {
+  "start": 239.64,
+  "end": 243.289,
+  "text": "anchor okay so change the identification"
+ },
+ {
+  "start": 243.299,
+  "end": 246.77,
+  "text": "method okay so let's choose anchor"
+ },
+ {
+  "start": 246.78,
+  "end": 249.589,
+  "text": "and now we are going to look out for"
+ },
+ {
+  "start": 249.599,
+  "end": 251.57,
+  "text": "anchor control so the best possible"
+ },
+ {
+  "start": 251.58,
+  "end": 254.99,
+  "text": "anchor control here could be the order"
+ },
+ {
+  "start": 255.0,
+  "end": 258.349,
+  "text": "ID right so this is also development and"
+ },
+ {
+  "start": 258.359,
+  "end": 261.349,
+  "text": "no matter where this order ID is placed"
+ },
+ {
+  "start": 261.359,
+  "end": 263.27,
+  "text": "in this particular table"
+ },
+ {
+  "start": 263.28,
+  "end": 265.73,
+  "text": "it will always be besides this number"
+ },
+ {
+  "start": 265.74,
+  "end": 268.73,
+  "text": "the order ID value right"
+ },
+ {
+  "start": 268.74,
+  "end": 271.67,
+  "text": "so this is the best possible anchor"
+ },
+ {
+  "start": 271.68,
+  "end": 273.53,
+  "text": "control through which you can identify"
+ },
+ {
+  "start": 273.54,
+  "end": 276.35,
+  "text": "this uh control which is the actual"
+ },
+ {
+  "start": 276.36,
+  "end": 277.43,
+  "text": "order ID"
+ },
+ {
+  "start": 277.44,
+  "end": 278.81,
+  "text": "okay"
+ },
+ {
+  "start": 278.82,
+  "end": 281.51,
+  "text": "so here what we are going to do is I'm"
+ },
+ {
+  "start": 281.52,
+  "end": 283.67,
+  "text": "going to drag this order ID"
+ },
+ {
+  "start": 283.68,
+  "end": 286.79,
+  "text": "and place it in the anchor control"
+ },
+ {
+  "start": 286.8,
+  "end": 289.07,
+  "text": "and now you will see that the selected"
+ },
+ {
+  "start": 289.08,
+  "end": 293.21,
+  "text": "item is unique okay so using that order"
+ },
+ {
+  "start": 293.22,
+  "end": 297.23,
+  "text": "ID text we are identifying the actual"
+ },
+ {
+  "start": 297.24,
+  "end": 299.51,
+  "text": "order number okay"
+ },
+ {
+  "start": 299.52,
+  "end": 302.27,
+  "text": "so we are using that text as an anchor"
+ },
+ {
+  "start": 302.28,
+  "end": 304.43,
+  "text": "control to identify the other control"
+ },
+ {
+  "start": 304.44,
+  "end": 306.409,
+  "text": "basically"
+ },
+ {
+  "start": 306.419,
+  "end": 309.23,
+  "text": "so let's now decrease this filtered"
+ },
+ {
+  "start": 309.24,
+  "end": 311.93,
+  "text": "items and now I also want to select the"
+ },
+ {
+  "start": 311.94,
+  "end": 314.99,
+  "text": "generate order ID link and the text box"
+ },
+ {
+  "start": 315.0,
+  "end": 316.909,
+  "text": "so these are the three controls which I"
+ },
+ {
+  "start": 316.919,
+  "end": 317.629,
+  "text": "want"
+ },
+ {
+  "start": 317.639,
+  "end": 322.01,
+  "text": "I'm going to save this and close this"
+ },
+ {
+  "start": 322.02,
+  "end": 325.43,
+  "text": "and come here I'm going to rename this"
+ },
+ {
+  "start": 325.44,
+  "end": 329.87,
+  "text": "module first"
+ },
+ {
+  "start": 334.129,
+  "end": 334.139,
+  "text": "okay and here"
+ },
+ {
+  "start": 334.139,
+  "end": 337.85,
+  "text": "and now uh since I selected this order"
+ },
+ {
+  "start": 337.86,
+  "end": 340.79,
+  "text": "ID control first it is here"
+ },
+ {
+  "start": 340.8,
+  "end": 342.59,
+  "text": "but I need to make sure that my test"
+ },
+ {
+  "start": 342.6,
+  "end": 345.05,
+  "text": "steps are in the right order right so"
+ },
+ {
+  "start": 345.06,
+  "end": 347.27,
+  "text": "first I need to click on this link then"
+ },
+ {
+  "start": 347.28,
+  "end": 350.81,
+  "text": "I need to buffer this or somehow store"
+ },
+ {
+  "start": 350.82,
+  "end": 353.81,
+  "text": "this somewhere and then I need to enter"
+ },
+ {
+  "start": 353.82,
+  "end": 356.57,
+  "text": "this into the text box okay"
+ },
+ {
+  "start": 356.58,
+  "end": 358.37,
+  "text": "so we are going to rename this because"
+ },
+ {
+  "start": 358.38,
+  "end": 360.529,
+  "text": "this is not the order ID which we'll be"
+ },
+ {
+  "start": 360.539,
+  "end": 364.31,
+  "text": "getting so I am going to rename it to"
+ },
+ {
+  "start": 364.32,
+  "end": 366.249,
+  "text": "order ID"
+ },
+ {
+  "start": 366.259,
+  "end": 369.249,
+  "text": "so here I'm going to create a test case"
+ },
+ {
+  "start": 369.259,
+  "end": 372.35,
+  "text": "so let's create a test case here and"
+ },
+ {
+  "start": 372.36,
+  "end": 375.409,
+  "text": "then I'm going to rename this"
+ },
+ {
+  "start": 375.419,
+  "end": 377.749,
+  "text": "and then I'm going to drag my module"
+ },
+ {
+  "start": 377.759,
+  "end": 381.95,
+  "text": "here right now we have solved uh the"
+ },
+ {
+  "start": 381.96,
+  "end": 385.49,
+  "text": "first problem which is to basically find"
+ },
+ {
+  "start": 385.5,
+  "end": 387.83,
+  "text": "out where this particular order is and"
+ },
+ {
+  "start": 387.84,
+  "end": 391.67,
+  "text": "we can identify this element the next"
+ },
+ {
+  "start": 391.68,
+  "end": 394.249,
+  "text": "challenge is to buffer the generated"
+ },
+ {
+  "start": 394.259,
+  "end": 397.61,
+  "text": "offer ID okay and enter it into this"
+ },
+ {
+  "start": 397.62,
+  "end": 400.85,
+  "text": "edit box so it's quite simple to buffer"
+ },
+ {
+  "start": 400.86,
+  "end": 403.249,
+  "text": "that okay so first we are going to click"
+ },
+ {
+  "start": 403.259,
+  "end": 404.45,
+  "text": "on this"
+ },
+ {
+  "start": 404.46,
+  "end": 407.629,
+  "text": "and then we are going to buffer this so"
+ },
+ {
+  "start": 407.639,
+  "end": 409.43,
+  "text": "I will change the actual mode to buffer"
+ },
+ {
+  "start": 409.44,
+  "end": 410.45,
+  "text": "here"
+ },
+ {
+  "start": 410.46,
+  "end": 413.93,
+  "text": "and I am going to select inner text"
+ },
+ {
+  "start": 413.94,
+  "end": 415.73,
+  "text": "because the inner text will actually"
+ },
+ {
+  "start": 415.74,
+  "end": 417.59,
+  "text": "contain the order ID"
+ },
+ {
+  "start": 417.6,
+  "end": 421.67,
+  "text": "and then I am going to name it order ID"
+ },
+ {
+  "start": 421.68,
+  "end": 423.05,
+  "text": "here"
+ },
+ {
+  "start": 423.06,
+  "end": 425.749,
+  "text": "and then here I'm going to use the"
+ },
+ {
+  "start": 425.759,
+  "end": 428.409,
+  "text": "buffer value okay"
+ },
+ {
+  "start": 428.419,
+  "end": 434.689,
+  "text": "so order ID"
+ },
+ {
+  "start": 437.689,
+  "end": 437.699,
+  "text": "okay so this is my test tip you can see"
+ },
+ {
+  "start": 437.699,
+  "end": 439.629,
+  "text": "here first it is clicking on this link"
+ },
+ {
+  "start": 439.639,
+  "end": 442.85,
+  "text": "then it is identifying this element"
+ },
+ {
+  "start": 442.86,
+  "end": 445.79,
+  "text": "getting the inner text and storing it in"
+ },
+ {
+  "start": 445.8,
+  "end": 449.089,
+  "text": "a buffer uh name called order ID"
+ },
+ {
+  "start": 449.099,
+  "end": 451.85,
+  "text": "and that buffer will contain the actual"
+ },
+ {
+  "start": 451.86,
+  "end": 455.029,
+  "text": "order ID value which I can use it to"
+ },
+ {
+  "start": 455.039,
+  "end": 457.43,
+  "text": "enter it into the text field okay so"
+ },
+ {
+  "start": 457.44,
+  "end": 458.749,
+  "text": "that's the logic which you need to"
+ },
+ {
+  "start": 458.759,
+  "end": 460.189,
+  "text": "implement here"
+ },
+ {
+  "start": 460.199,
+  "end": 462.529,
+  "text": "now let's go here and we'll change the"
+ },
+ {
+  "start": 462.539,
+  "end": 464.99,
+  "text": "workstate to complete it and then we are"
+ },
+ {
+  "start": 465.0,
+  "end": 472.01,
+  "text": "going to run this quickly"
+ },
+ {
+  "start": 475.37,
+  "end": 475.38,
+  "text": "okay so as you can see uh it grabbed the"
+ },
+ {
+  "start": 475.38,
+  "end": 477.409,
+  "text": "order ID and then it entered it into the"
+ },
+ {
+  "start": 477.419,
+  "end": 480.35,
+  "text": "text box okay so the order ID generated"
+ },
+ {
+  "start": 480.36,
+  "end": 482.45,
+  "text": "is the same which we have entered here"
+ },
+ {
+  "start": 482.46,
+  "end": 485.39,
+  "text": "which means our challenge has been"
+ },
+ {
+  "start": 485.4,
+  "end": 487.249,
+  "text": "completed okay"
+ },
+ {
+  "start": 487.259,
+  "end": 490.55,
+  "text": "so I would say this was a good obstacle"
+ },
+ {
+  "start": 490.56,
+  "end": 493.43,
+  "text": "um to practice and you will face this"
+ },
+ {
+  "start": 493.44,
+  "end": 495.83,
+  "text": "kind of challenges a lot of times in"
+ },
+ {
+  "start": 495.84,
+  "end": 497.21,
+  "text": "your application"
+ },
+ {
+  "start": 497.22,
+  "end": 501.409,
+  "text": "so this is how you can basically uh find"
+ },
+ {
+  "start": 501.419,
+  "end": 504.23,
+  "text": "out a element which doesn't have any"
+ },
+ {
+  "start": 504.24,
+  "end": 506.99,
+  "text": "properties using the identify by anchor"
+ },
+ {
+  "start": 507.0,
+  "end": 510.529,
+  "text": "method and then you can buffer the value"
+ },
+ {
+  "start": 510.539,
+  "end": 514.43,
+  "text": "which you have selected and then you can"
+ },
+ {
+  "start": 514.44,
+  "end": 517.79,
+  "text": "enter it into the edit box okay so all"
+ },
+ {
+  "start": 517.8,
+  "end": 521.269,
+  "text": "three steps have been covered here"
+ },
+ {
+  "start": 521.279,
+  "end": 524.209,
+  "text": "that's all for this particular video if"
+ },
+ {
+  "start": 524.219,
+  "end": 525.949,
+  "text": "you have any questions then please leave"
+ },
+ {
+  "start": 525.959,
+  "end": 528.29,
+  "text": "it in the comments if you like this"
+ },
+ {
+  "start": 528.3,
+  "end": 530.03,
+  "text": "video then please subscribe to our"
+ },
+ {
+  "start": 530.04,
+  "end": 530.99,
+  "text": "Channel"
+ },
+ {
+  "start": 531.0,
+  "end": 533.15,
+  "text": "thanks for watching and I will see you"
+ },
+ {
+  "start": 533.16,
+  "end": 536.0,
+  "text": "in the next video"
+ }
+]

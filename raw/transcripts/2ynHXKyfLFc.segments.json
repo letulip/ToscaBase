@@ -1,0 +1,442 @@
+[
+ {
+  "start": 7.909,
+  "end": 7.919,
+  "text": "hey everyone welcome back to this Tosca"
+ },
+ {
+  "start": 7.919,
+  "end": 9.589,
+  "text": "automation playlist"
+ },
+ {
+  "start": 9.599,
+  "end": 13.129,
+  "text": "and we are talking about API testing now"
+ },
+ {
+  "start": 13.139,
+  "end": 14.57,
+  "text": "we have looked at many features"
+ },
+ {
+  "start": 14.58,
+  "end": 17.33,
+  "text": "available in the Tosca API scan"
+ },
+ {
+  "start": 17.34,
+  "end": 19.43,
+  "text": "and today I am going to show you how you"
+ },
+ {
+  "start": 19.44,
+  "end": 22.429,
+  "text": "can add different attachments to your"
+ },
+ {
+  "start": 22.439,
+  "end": 26.57,
+  "text": "API message through API scan okay so"
+ },
+ {
+  "start": 26.58,
+  "end": 29.33,
+  "text": "let's go ahead and create a new message"
+ },
+ {
+  "start": 29.34,
+  "end": 32.51,
+  "text": "here API message and I'm going to call"
+ },
+ {
+  "start": 32.52,
+  "end": 33.53,
+  "text": "it"
+ },
+ {
+  "start": 33.54,
+  "end": 37.069,
+  "text": "test attachment"
+ },
+ {
+  "start": 37.079,
+  "end": 38.389,
+  "text": "okay"
+ },
+ {
+  "start": 38.399,
+  "end": 41.75,
+  "text": "and for this we are going to use a"
+ },
+ {
+  "start": 41.76,
+  "end": 45.11,
+  "text": "endpoint this is a sample endpoint which"
+ },
+ {
+  "start": 45.12,
+  "end": 48.229,
+  "text": "is available in Postman okay it is the"
+ },
+ {
+  "start": 48.239,
+  "end": 50.69,
+  "text": "Eco service which is used to test"
+ },
+ {
+  "start": 50.7,
+  "end": 53.209,
+  "text": "different features of Postman it's a"
+ },
+ {
+  "start": 53.219,
+  "end": 55.189,
+  "text": "sample API service which is available"
+ },
+ {
+  "start": 55.199,
+  "end": 57.65,
+  "text": "with Postman okay"
+ },
+ {
+  "start": 57.66,
+  "end": 61.549,
+  "text": "so I'm going to use this endpoint okay"
+ },
+ {
+  "start": 61.559,
+  "end": 65.57,
+  "text": "and we have to change the method to post"
+ },
+ {
+  "start": 65.58,
+  "end": 67.19,
+  "text": "okay"
+ },
+ {
+  "start": 67.2,
+  "end": 69.41,
+  "text": "and then we need to go to the"
+ },
+ {
+  "start": 69.42,
+  "end": 72.53,
+  "text": "attachments tab okay so from the payload"
+ },
+ {
+  "start": 72.54,
+  "end": 74.27,
+  "text": "you will see there is a attachments tab"
+ },
+ {
+  "start": 74.28,
+  "end": 77.39,
+  "text": "here and uh here you can specify the"
+ },
+ {
+  "start": 77.4,
+  "end": 80.03,
+  "text": "name file content type right and here"
+ },
+ {
+  "start": 80.04,
+  "end": 83.749,
+  "text": "you can also load from a file okay so"
+ },
+ {
+  "start": 83.759,
+  "end": 86.45,
+  "text": "when you click on file there will be a"
+ },
+ {
+  "start": 86.46,
+  "end": 89.149,
+  "text": "load button which will appear here with"
+ },
+ {
+  "start": 89.159,
+  "end": 91.969,
+  "text": "three ellipses click on that and it will"
+ },
+ {
+  "start": 91.979,
+  "end": 94.07,
+  "text": "ask you to upload the file which you"
+ },
+ {
+  "start": 94.08,
+  "end": 96.95,
+  "text": "want to attach okay say for example I"
+ },
+ {
+  "start": 96.96,
+  "end": 99.23,
+  "text": "want to attach this Json source file"
+ },
+ {
+  "start": 99.24,
+  "end": 103.67,
+  "text": "okay so I'm going to click on open"
+ },
+ {
+  "start": 103.68,
+  "end": 105.59,
+  "text": "and then the content type will be"
+ },
+ {
+  "start": 105.6,
+  "end": 110.149,
+  "text": "automatically uh displayed here so Tosca"
+ },
+ {
+  "start": 110.159,
+  "end": 112.069,
+  "text": "EPS can will automatically detect what"
+ },
+ {
+  "start": 112.079,
+  "end": 114.23,
+  "text": "is the content type"
+ },
+ {
+  "start": 114.24,
+  "end": 116.51,
+  "text": "and then the name will also appear here"
+ },
+ {
+  "start": 116.52,
+  "end": 119.149,
+  "text": "I can obviously I can change this but"
+ },
+ {
+  "start": 119.159,
+  "end": 121.85,
+  "text": "let in V for now okay"
+ },
+ {
+  "start": 121.86,
+  "end": 124.01,
+  "text": "so you can see you can load the file"
+ },
+ {
+  "start": 124.02,
+  "end": 126.289,
+  "text": "from here and then automatically all the"
+ },
+ {
+  "start": 126.299,
+  "end": 129.949,
+  "text": "other fields will be provided here okay"
+ },
+ {
+  "start": 129.959,
+  "end": 131.869,
+  "text": "now there are some additional options"
+ },
+ {
+  "start": 131.879,
+  "end": 134.229,
+  "text": "here like content transfer encoding"
+ },
+ {
+  "start": 134.239,
+  "end": 138.35,
+  "text": "content type omit file name okay so you"
+ },
+ {
+  "start": 138.36,
+  "end": 141.229,
+  "text": "can do that you can omit the file name"
+ },
+ {
+  "start": 141.239,
+  "end": 144.53,
+  "text": "and you can also enable m2om"
+ },
+ {
+  "start": 144.54,
+  "end": 148.01,
+  "text": "now frankly I am not aware what is this"
+ },
+ {
+  "start": 148.02,
+  "end": 151.25,
+  "text": "but I can check back and provide this in"
+ },
+ {
+  "start": 151.26,
+  "end": 154.55,
+  "text": "the comments if you require this okay"
+ },
+ {
+  "start": 154.56,
+  "end": 156.83,
+  "text": "but for now uh this is what we are going"
+ },
+ {
+  "start": 156.84,
+  "end": 158.69,
+  "text": "to do we are going to attach this file"
+ },
+ {
+  "start": 158.7,
+  "end": 161.869,
+  "text": "uh with this particular API message and"
+ },
+ {
+  "start": 161.879,
+  "end": 164.63,
+  "text": "we are going to run this now"
+ },
+ {
+  "start": 164.64,
+  "end": 167.449,
+  "text": "and you will see that in the status code"
+ },
+ {
+  "start": 167.459,
+  "end": 172.25,
+  "text": "we'll get a 200 okay and in the payload"
+ },
+ {
+  "start": 172.26,
+  "end": 174.89,
+  "text": "so this particular API message it just"
+ },
+ {
+  "start": 174.9,
+  "end": 177.41,
+  "text": "gets back the complete"
+ },
+ {
+  "start": 177.42,
+  "end": 180.47,
+  "text": "content of your attachment file okay so"
+ },
+ {
+  "start": 180.48,
+  "end": 183.05,
+  "text": "this is the file content of the file"
+ },
+ {
+  "start": 183.06,
+  "end": 186.11,
+  "text": "which we have attached obviously it is"
+ },
+ {
+  "start": 186.12,
+  "end": 189.41,
+  "text": "encoded so you cannot see what is there"
+ },
+ {
+  "start": 189.42,
+  "end": 192.05,
+  "text": "in that particular content which is"
+ },
+ {
+  "start": 192.06,
+  "end": 194.93,
+  "text": "being returned by the response right"
+ },
+ {
+  "start": 194.94,
+  "end": 198.949,
+  "text": "but uh this is how uh for API messages"
+ },
+ {
+  "start": 198.959,
+  "end": 201.589,
+  "text": "where you need to send Maybe"
+ },
+ {
+  "start": 201.599,
+  "end": 205.63,
+  "text": "a file a image or anything right you can"
+ },
+ {
+  "start": 205.64,
+  "end": 209.75,
+  "text": "attach that file or you can send an"
+ },
+ {
+  "start": 209.76,
+  "end": 212.75,
+  "text": "attachment right from your request okay"
+ },
+ {
+  "start": 212.76,
+  "end": 215.27,
+  "text": "you can just browse for the file and"
+ },
+ {
+  "start": 215.28,
+  "end": 218.21,
+  "text": "then uh you have some additional options"
+ },
+ {
+  "start": 218.22,
+  "end": 220.19,
+  "text": "and after that you can just send the"
+ },
+ {
+  "start": 220.2,
+  "end": 222.35,
+  "text": "message and you will get back the"
+ },
+ {
+  "start": 222.36,
+  "end": 224.93,
+  "text": "response"
+ },
+ {
+  "start": 227.39,
+  "end": 227.4,
+  "text": "so it's a very simple way of uh"
+ },
+ {
+  "start": 227.4,
+  "end": 230.03,
+  "text": "basically attaching different files"
+ },
+ {
+  "start": 230.04,
+  "end": 231.77,
+  "text": "which are required for your particular"
+ },
+ {
+  "start": 231.78,
+  "end": 233.21,
+  "text": "API message"
+ },
+ {
+  "start": 233.22,
+  "end": 236.99,
+  "text": "and that's all for this short video"
+ },
+ {
+  "start": 237.0,
+  "end": 239.149,
+  "text": "I hope you enjoyed it and you learned"
+ },
+ {
+  "start": 239.159,
+  "end": 241.13,
+  "text": "something new do tune into our channel"
+ },
+ {
+  "start": 241.14,
+  "end": 243.47,
+  "text": "to watch more videos on trash and"
+ },
+ {
+  "start": 243.48,
+  "end": 246.949,
+  "text": "testoster and API testing using the"
+ },
+ {
+  "start": 246.959,
+  "end": 250.22,
+  "text": "Tosca API scan"
+ }
+]

@@ -1,0 +1,704 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:05.339 --> 00:00:07.909 align:start position:0%
+ 
+hey<00:00:06.000><c> everyone</c><00:00:06.180><c> welcome</c><00:00:06.720><c> back</c><00:00:07.080><c> to</c><00:00:07.319><c> this</c><00:00:07.440><c> Tosca</c>
+
+00:00:07.909 --> 00:00:07.919 align:start position:0%
+hey everyone welcome back to this Tosca
+ 
+
+00:00:07.919 --> 00:00:09.589 align:start position:0%
+hey everyone welcome back to this Tosca
+automation<00:00:08.460><c> playlist</c>
+
+00:00:09.589 --> 00:00:09.599 align:start position:0%
+automation playlist
+ 
+
+00:00:09.599 --> 00:00:13.129 align:start position:0%
+automation playlist
+and<00:00:10.080><c> we</c><00:00:10.260><c> are</c><00:00:10.440><c> talking</c><00:00:10.620><c> about</c><00:00:11.040><c> API</c><00:00:11.820><c> testing</c><00:00:12.780><c> now</c>
+
+00:00:13.129 --> 00:00:13.139 align:start position:0%
+and we are talking about API testing now
+ 
+
+00:00:13.139 --> 00:00:14.570 align:start position:0%
+and we are talking about API testing now
+we<00:00:13.320><c> have</c><00:00:13.380><c> looked</c><00:00:13.679><c> at</c><00:00:13.920><c> many</c><00:00:14.099><c> features</c>
+
+00:00:14.570 --> 00:00:14.580 align:start position:0%
+we have looked at many features
+ 
+
+00:00:14.580 --> 00:00:17.330 align:start position:0%
+we have looked at many features
+available<00:00:15.000><c> in</c><00:00:15.480><c> the</c><00:00:15.540><c> Tosca</c><00:00:15.960><c> API</c><00:00:16.440><c> scan</c>
+
+00:00:17.330 --> 00:00:17.340 align:start position:0%
+available in the Tosca API scan
+ 
+
+00:00:17.340 --> 00:00:19.430 align:start position:0%
+available in the Tosca API scan
+and<00:00:17.760><c> today</c><00:00:17.880><c> I</c><00:00:18.060><c> am</c><00:00:18.119><c> going</c><00:00:18.300><c> to</c><00:00:18.420><c> show</c><00:00:18.600><c> you</c><00:00:18.779><c> how</c><00:00:19.260><c> you</c>
+
+00:00:19.430 --> 00:00:19.440 align:start position:0%
+and today I am going to show you how you
+ 
+
+00:00:19.440 --> 00:00:22.429 align:start position:0%
+and today I am going to show you how you
+can<00:00:19.560><c> add</c><00:00:19.980><c> different</c><00:00:20.840><c> attachments</c><00:00:21.840><c> to</c><00:00:22.260><c> your</c>
+
+00:00:22.429 --> 00:00:22.439 align:start position:0%
+can add different attachments to your
+ 
+
+00:00:22.439 --> 00:00:26.570 align:start position:0%
+can add different attachments to your
+API<00:00:22.920><c> message</c><00:00:23.160><c> through</c><00:00:23.699><c> API</c><00:00:24.300><c> scan</c><00:00:25.140><c> okay</c><00:00:25.580><c> so</c>
+
+00:00:26.570 --> 00:00:26.580 align:start position:0%
+API message through API scan okay so
+ 
+
+00:00:26.580 --> 00:00:29.330 align:start position:0%
+API message through API scan okay so
+let's<00:00:26.760><c> go</c><00:00:27.240><c> ahead</c><00:00:27.539><c> and</c><00:00:28.140><c> create</c><00:00:28.560><c> a</c><00:00:28.980><c> new</c><00:00:29.099><c> message</c>
+
+00:00:29.330 --> 00:00:29.340 align:start position:0%
+let's go ahead and create a new message
+ 
+
+00:00:29.340 --> 00:00:32.510 align:start position:0%
+let's go ahead and create a new message
+here<00:00:29.699><c> API</c><00:00:30.480><c> message</c><00:00:30.779><c> and</c><00:00:31.619><c> I'm</c><00:00:31.920><c> going</c><00:00:32.099><c> to</c><00:00:32.279><c> call</c>
+
+00:00:32.510 --> 00:00:32.520 align:start position:0%
+here API message and I'm going to call
+ 
+
+00:00:32.520 --> 00:00:33.530 align:start position:0%
+here API message and I'm going to call
+it
+
+00:00:33.530 --> 00:00:33.540 align:start position:0%
+it
+ 
+
+00:00:33.540 --> 00:00:37.069 align:start position:0%
+it
+test<00:00:34.320><c> attachment</c>
+
+00:00:37.069 --> 00:00:37.079 align:start position:0%
+test attachment
+ 
+
+00:00:37.079 --> 00:00:38.389 align:start position:0%
+test attachment
+okay
+
+00:00:38.389 --> 00:00:38.399 align:start position:0%
+okay
+ 
+
+00:00:38.399 --> 00:00:41.750 align:start position:0%
+okay
+and<00:00:39.180><c> for</c><00:00:39.480><c> this</c><00:00:39.719><c> we</c><00:00:40.320><c> are</c><00:00:40.500><c> going</c><00:00:40.680><c> to</c><00:00:40.920><c> use</c><00:00:41.280><c> a</c>
+
+00:00:41.750 --> 00:00:41.760 align:start position:0%
+and for this we are going to use a
+ 
+
+00:00:41.760 --> 00:00:45.110 align:start position:0%
+and for this we are going to use a
+endpoint<00:00:42.239><c> this</c><00:00:43.079><c> is</c><00:00:43.260><c> a</c><00:00:43.620><c> sample</c><00:00:43.980><c> endpoint</c><00:00:44.520><c> which</c>
+
+00:00:45.110 --> 00:00:45.120 align:start position:0%
+endpoint this is a sample endpoint which
+ 
+
+00:00:45.120 --> 00:00:48.229 align:start position:0%
+endpoint this is a sample endpoint which
+is<00:00:45.300><c> available</c><00:00:45.480><c> in</c><00:00:45.960><c> Postman</c><00:00:46.379><c> okay</c><00:00:46.980><c> it</c><00:00:47.820><c> is</c><00:00:48.000><c> the</c>
+
+00:00:48.229 --> 00:00:48.239 align:start position:0%
+is available in Postman okay it is the
+ 
+
+00:00:48.239 --> 00:00:50.690 align:start position:0%
+is available in Postman okay it is the
+Eco<00:00:48.539><c> service</c><00:00:48.960><c> which</c><00:00:49.680><c> is</c><00:00:49.800><c> used</c><00:00:50.039><c> to</c><00:00:50.520><c> test</c>
+
+00:00:50.690 --> 00:00:50.700 align:start position:0%
+Eco service which is used to test
+ 
+
+00:00:50.700 --> 00:00:53.209 align:start position:0%
+Eco service which is used to test
+different<00:00:51.059><c> features</c><00:00:51.480><c> of</c><00:00:51.719><c> Postman</c><00:00:52.140><c> it's</c><00:00:52.980><c> a</c>
+
+00:00:53.209 --> 00:00:53.219 align:start position:0%
+different features of Postman it's a
+ 
+
+00:00:53.219 --> 00:00:55.189 align:start position:0%
+different features of Postman it's a
+sample<00:00:53.640><c> API</c><00:00:54.180><c> service</c><00:00:54.420><c> which</c><00:00:54.780><c> is</c><00:00:54.960><c> available</c>
+
+00:00:55.189 --> 00:00:55.199 align:start position:0%
+sample API service which is available
+ 
+
+00:00:55.199 --> 00:00:57.650 align:start position:0%
+sample API service which is available
+with<00:00:55.860><c> Postman</c><00:00:56.340><c> okay</c>
+
+00:00:57.650 --> 00:00:57.660 align:start position:0%
+with Postman okay
+ 
+
+00:00:57.660 --> 00:01:01.549 align:start position:0%
+with Postman okay
+so<00:00:58.020><c> I'm</c><00:00:58.140><c> going</c><00:00:58.320><c> to</c><00:00:58.500><c> use</c><00:00:58.739><c> this</c><00:00:59.160><c> endpoint</c><00:01:00.120><c> okay</c>
+
+00:01:01.549 --> 00:01:01.559 align:start position:0%
+so I'm going to use this endpoint okay
+ 
+
+00:01:01.559 --> 00:01:05.570 align:start position:0%
+so I'm going to use this endpoint okay
+and<00:01:02.340><c> we</c><00:01:02.760><c> have</c><00:01:02.940><c> to</c><00:01:03.239><c> change</c><00:01:03.960><c> the</c><00:01:04.379><c> method</c><00:01:04.799><c> to</c><00:01:05.280><c> post</c>
+
+00:01:05.570 --> 00:01:05.580 align:start position:0%
+and we have to change the method to post
+ 
+
+00:01:05.580 --> 00:01:07.190 align:start position:0%
+and we have to change the method to post
+okay
+
+00:01:07.190 --> 00:01:07.200 align:start position:0%
+okay
+ 
+
+00:01:07.200 --> 00:01:09.410 align:start position:0%
+okay
+and<00:01:07.920><c> then</c><00:01:08.100><c> we</c><00:01:08.520><c> need</c><00:01:08.640><c> to</c><00:01:08.760><c> go</c><00:01:09.000><c> to</c><00:01:09.180><c> the</c>
+
+00:01:09.410 --> 00:01:09.420 align:start position:0%
+and then we need to go to the
+ 
+
+00:01:09.420 --> 00:01:12.530 align:start position:0%
+and then we need to go to the
+attachments<00:01:10.020><c> tab</c><00:01:10.380><c> okay</c><00:01:11.159><c> so</c><00:01:11.760><c> from</c><00:01:11.939><c> the</c><00:01:12.119><c> payload</c>
+
+00:01:12.530 --> 00:01:12.540 align:start position:0%
+attachments tab okay so from the payload
+ 
+
+00:01:12.540 --> 00:01:14.270 align:start position:0%
+attachments tab okay so from the payload
+you<00:01:12.659><c> will</c><00:01:12.780><c> see</c><00:01:12.900><c> there</c><00:01:13.080><c> is</c><00:01:13.260><c> a</c><00:01:13.380><c> attachments</c><00:01:13.979><c> tab</c>
+
+00:01:14.270 --> 00:01:14.280 align:start position:0%
+you will see there is a attachments tab
+ 
+
+00:01:14.280 --> 00:01:17.390 align:start position:0%
+you will see there is a attachments tab
+here<00:01:14.540><c> and</c><00:01:15.540><c> uh</c><00:01:15.840><c> here</c><00:01:16.140><c> you</c><00:01:16.380><c> can</c><00:01:16.560><c> specify</c><00:01:17.159><c> the</c>
+
+00:01:17.390 --> 00:01:17.400 align:start position:0%
+here and uh here you can specify the
+ 
+
+00:01:17.400 --> 00:01:20.030 align:start position:0%
+here and uh here you can specify the
+name<00:01:17.580><c> file</c><00:01:18.000><c> content</c><00:01:18.479><c> type</c><00:01:18.720><c> right</c><00:01:19.140><c> and</c><00:01:19.860><c> here</c>
+
+00:01:20.030 --> 00:01:20.040 align:start position:0%
+name file content type right and here
+ 
+
+00:01:20.040 --> 00:01:23.749 align:start position:0%
+name file content type right and here
+you<00:01:20.460><c> can</c><00:01:20.580><c> also</c><00:01:21.060><c> load</c><00:01:21.659><c> from</c><00:01:22.080><c> a</c><00:01:22.320><c> file</c><00:01:22.619><c> okay</c><00:01:23.400><c> so</c>
+
+00:01:23.749 --> 00:01:23.759 align:start position:0%
+you can also load from a file okay so
+ 
+
+00:01:23.759 --> 00:01:26.450 align:start position:0%
+you can also load from a file okay so
+when<00:01:24.000><c> you</c><00:01:24.119><c> click</c><00:01:24.360><c> on</c><00:01:24.479><c> file</c><00:01:24.900><c> there</c><00:01:25.740><c> will</c><00:01:25.920><c> be</c><00:01:26.159><c> a</c>
+
+00:01:26.450 --> 00:01:26.460 align:start position:0%
+when you click on file there will be a
+ 
+
+00:01:26.460 --> 00:01:29.149 align:start position:0%
+when you click on file there will be a
+load<00:01:26.759><c> button</c><00:01:27.060><c> which</c><00:01:27.299><c> will</c><00:01:27.420><c> appear</c><00:01:27.840><c> here</c><00:01:28.159><c> with</c>
+
+00:01:29.149 --> 00:01:29.159 align:start position:0%
+load button which will appear here with
+ 
+
+00:01:29.159 --> 00:01:31.969 align:start position:0%
+load button which will appear here with
+three<00:01:29.280><c> ellipses</c><00:01:29.880><c> click</c><00:01:30.420><c> on</c><00:01:30.540><c> that</c><00:01:30.720><c> and</c><00:01:31.619><c> it</c><00:01:31.860><c> will</c>
+
+00:01:31.969 --> 00:01:31.979 align:start position:0%
+three ellipses click on that and it will
+ 
+
+00:01:31.979 --> 00:01:34.070 align:start position:0%
+three ellipses click on that and it will
+ask<00:01:32.159><c> you</c><00:01:32.340><c> to</c><00:01:32.580><c> upload</c><00:01:32.939><c> the</c><00:01:33.360><c> file</c><00:01:33.600><c> which</c><00:01:33.900><c> you</c>
+
+00:01:34.070 --> 00:01:34.080 align:start position:0%
+ask you to upload the file which you
+ 
+
+00:01:34.080 --> 00:01:36.950 align:start position:0%
+ask you to upload the file which you
+want<00:01:34.259><c> to</c><00:01:34.439><c> attach</c><00:01:34.799><c> okay</c><00:01:35.280><c> say</c><00:01:36.180><c> for</c><00:01:36.420><c> example</c><00:01:36.659><c> I</c>
+
+00:01:36.950 --> 00:01:36.960 align:start position:0%
+want to attach okay say for example I
+ 
+
+00:01:36.960 --> 00:01:39.230 align:start position:0%
+want to attach okay say for example I
+want<00:01:37.079><c> to</c><00:01:37.259><c> attach</c><00:01:37.560><c> this</c><00:01:37.979><c> Json</c><00:01:38.460><c> source</c><00:01:39.000><c> file</c>
+
+00:01:39.230 --> 00:01:39.240 align:start position:0%
+want to attach this Json source file
+ 
+
+00:01:39.240 --> 00:01:43.670 align:start position:0%
+want to attach this Json source file
+okay<00:01:40.020><c> so</c><00:01:40.920><c> I'm</c><00:01:41.040><c> going</c><00:01:41.280><c> to</c><00:01:41.520><c> click</c><00:01:42.060><c> on</c><00:01:42.180><c> open</c>
+
+00:01:43.670 --> 00:01:43.680 align:start position:0%
+okay so I'm going to click on open
+ 
+
+00:01:43.680 --> 00:01:45.590 align:start position:0%
+okay so I'm going to click on open
+and<00:01:44.280><c> then</c><00:01:44.400><c> the</c><00:01:44.640><c> content</c><00:01:44.939><c> type</c><00:01:45.119><c> will</c><00:01:45.420><c> be</c>
+
+00:01:45.590 --> 00:01:45.600 align:start position:0%
+and then the content type will be
+ 
+
+00:01:45.600 --> 00:01:50.149 align:start position:0%
+and then the content type will be
+automatically<00:01:46.439><c> uh</c><00:01:47.400><c> displayed</c><00:01:48.360><c> here</c><00:01:48.540><c> so</c><00:01:49.200><c> Tosca</c>
+
+00:01:50.149 --> 00:01:50.159 align:start position:0%
+automatically uh displayed here so Tosca
+ 
+
+00:01:50.159 --> 00:01:52.069 align:start position:0%
+automatically uh displayed here so Tosca
+EPS<00:01:50.579><c> can</c><00:01:50.759><c> will</c><00:01:50.939><c> automatically</c><00:01:51.420><c> detect</c><00:01:51.780><c> what</c>
+
+00:01:52.069 --> 00:01:52.079 align:start position:0%
+EPS can will automatically detect what
+ 
+
+00:01:52.079 --> 00:01:54.230 align:start position:0%
+EPS can will automatically detect what
+is<00:01:52.320><c> the</c><00:01:52.799><c> content</c><00:01:53.280><c> type</c>
+
+00:01:54.230 --> 00:01:54.240 align:start position:0%
+is the content type
+ 
+
+00:01:54.240 --> 00:01:56.510 align:start position:0%
+is the content type
+and<00:01:54.780><c> then</c><00:01:54.899><c> the</c><00:01:55.320><c> name</c><00:01:55.439><c> will</c><00:01:55.680><c> also</c><00:01:55.979><c> appear</c><00:01:56.280><c> here</c>
+
+00:01:56.510 --> 00:01:56.520 align:start position:0%
+and then the name will also appear here
+ 
+
+00:01:56.520 --> 00:01:59.149 align:start position:0%
+and then the name will also appear here
+I<00:01:56.939><c> can</c><00:01:57.119><c> obviously</c><00:01:57.720><c> I</c><00:01:57.899><c> can</c><00:01:58.020><c> change</c><00:01:58.259><c> this</c><00:01:58.619><c> but</c>
+
+00:01:59.149 --> 00:01:59.159 align:start position:0%
+I can obviously I can change this but
+ 
+
+00:01:59.159 --> 00:02:01.850 align:start position:0%
+I can obviously I can change this but
+let<00:01:59.579><c> in</c><00:01:59.759><c> V</c><00:01:59.939><c> for</c><00:02:00.360><c> now</c><00:02:00.540><c> okay</c>
+
+00:02:01.850 --> 00:02:01.860 align:start position:0%
+let in V for now okay
+ 
+
+00:02:01.860 --> 00:02:04.010 align:start position:0%
+let in V for now okay
+so<00:02:02.280><c> you</c><00:02:02.399><c> can</c><00:02:02.460><c> see</c><00:02:02.579><c> you</c><00:02:02.880><c> can</c><00:02:03.000><c> load</c><00:02:03.659><c> the</c><00:02:03.840><c> file</c>
+
+00:02:04.010 --> 00:02:04.020 align:start position:0%
+so you can see you can load the file
+ 
+
+00:02:04.020 --> 00:02:06.289 align:start position:0%
+so you can see you can load the file
+from<00:02:04.320><c> here</c><00:02:04.500><c> and</c><00:02:04.680><c> then</c><00:02:04.860><c> automatically</c><00:02:05.579><c> all</c><00:02:06.119><c> the</c>
+
+00:02:06.289 --> 00:02:06.299 align:start position:0%
+from here and then automatically all the
+ 
+
+00:02:06.299 --> 00:02:09.949 align:start position:0%
+from here and then automatically all the
+other<00:02:06.540><c> fields</c><00:02:06.960><c> will</c><00:02:07.259><c> be</c><00:02:07.700><c> provided</c><00:02:08.700><c> here</c><00:02:08.940><c> okay</c>
+
+00:02:09.949 --> 00:02:09.959 align:start position:0%
+other fields will be provided here okay
+ 
+
+00:02:09.959 --> 00:02:11.869 align:start position:0%
+other fields will be provided here okay
+now<00:02:10.440><c> there</c><00:02:10.679><c> are</c><00:02:10.800><c> some</c><00:02:10.979><c> additional</c><00:02:11.520><c> options</c>
+
+00:02:11.869 --> 00:02:11.879 align:start position:0%
+now there are some additional options
+ 
+
+00:02:11.879 --> 00:02:14.229 align:start position:0%
+now there are some additional options
+here<00:02:12.239><c> like</c><00:02:12.599><c> content</c><00:02:13.140><c> transfer</c><00:02:13.620><c> encoding</c>
+
+00:02:14.229 --> 00:02:14.239 align:start position:0%
+here like content transfer encoding
+ 
+
+00:02:14.239 --> 00:02:18.350 align:start position:0%
+here like content transfer encoding
+content<00:02:15.239><c> type</c><00:02:15.560><c> omit</c><00:02:16.560><c> file</c><00:02:16.800><c> name</c><00:02:17.040><c> okay</c><00:02:17.520><c> so</c><00:02:18.180><c> you</c>
+
+00:02:18.350 --> 00:02:18.360 align:start position:0%
+content type omit file name okay so you
+ 
+
+00:02:18.360 --> 00:02:21.229 align:start position:0%
+content type omit file name okay so you
+can<00:02:18.480><c> do</c><00:02:18.660><c> that</c><00:02:18.840><c> you</c><00:02:19.200><c> can</c><00:02:19.319><c> omit</c><00:02:19.680><c> the</c><00:02:19.860><c> file</c><00:02:20.040><c> name</c>
+
+00:02:21.229 --> 00:02:21.239 align:start position:0%
+can do that you can omit the file name
+ 
+
+00:02:21.239 --> 00:02:24.530 align:start position:0%
+can do that you can omit the file name
+and<00:02:21.840><c> you</c><00:02:22.080><c> can</c><00:02:22.200><c> also</c><00:02:22.560><c> enable</c><00:02:22.920><c> m2om</c>
+
+00:02:24.530 --> 00:02:24.540 align:start position:0%
+and you can also enable m2om
+ 
+
+00:02:24.540 --> 00:02:28.010 align:start position:0%
+and you can also enable m2om
+now<00:02:25.319><c> frankly</c><00:02:26.220><c> I</c><00:02:26.580><c> am</c><00:02:26.760><c> not</c><00:02:27.060><c> aware</c><00:02:27.360><c> what</c><00:02:27.720><c> is</c><00:02:27.900><c> this</c>
+
+00:02:28.010 --> 00:02:28.020 align:start position:0%
+now frankly I am not aware what is this
+ 
+
+00:02:28.020 --> 00:02:31.250 align:start position:0%
+now frankly I am not aware what is this
+but<00:02:28.379><c> I</c><00:02:28.560><c> can</c><00:02:28.680><c> check</c><00:02:28.860><c> back</c><00:02:29.099><c> and</c><00:02:29.780><c> provide</c><00:02:30.780><c> this</c><00:02:31.020><c> in</c>
+
+00:02:31.250 --> 00:02:31.260 align:start position:0%
+but I can check back and provide this in
+ 
+
+00:02:31.260 --> 00:02:34.550 align:start position:0%
+but I can check back and provide this in
+the<00:02:31.379><c> comments</c><00:02:31.739><c> if</c><00:02:32.280><c> you</c><00:02:32.520><c> require</c><00:02:32.760><c> this</c><00:02:33.180><c> okay</c>
+
+00:02:34.550 --> 00:02:34.560 align:start position:0%
+the comments if you require this okay
+ 
+
+00:02:34.560 --> 00:02:36.830 align:start position:0%
+the comments if you require this okay
+but<00:02:34.980><c> for</c><00:02:35.160><c> now</c><00:02:35.340><c> uh</c><00:02:35.879><c> this</c><00:02:36.120><c> is</c><00:02:36.239><c> what</c><00:02:36.420><c> we</c><00:02:36.599><c> are</c><00:02:36.780><c> going</c>
+
+00:02:36.830 --> 00:02:36.840 align:start position:0%
+but for now uh this is what we are going
+ 
+
+00:02:36.840 --> 00:02:38.690 align:start position:0%
+but for now uh this is what we are going
+to<00:02:36.959><c> do</c><00:02:37.140><c> we</c><00:02:37.440><c> are</c><00:02:37.560><c> going</c><00:02:37.680><c> to</c><00:02:37.800><c> attach</c><00:02:38.099><c> this</c><00:02:38.459><c> file</c>
+
+00:02:38.690 --> 00:02:38.700 align:start position:0%
+to do we are going to attach this file
+ 
+
+00:02:38.700 --> 00:02:41.869 align:start position:0%
+to do we are going to attach this file
+uh<00:02:39.300><c> with</c><00:02:39.599><c> this</c><00:02:39.840><c> particular</c><00:02:40.200><c> API</c><00:02:40.920><c> message</c><00:02:41.160><c> and</c>
+
+00:02:41.869 --> 00:02:41.879 align:start position:0%
+uh with this particular API message and
+ 
+
+00:02:41.879 --> 00:02:44.630 align:start position:0%
+uh with this particular API message and
+we<00:02:42.060><c> are</c><00:02:42.180><c> going</c><00:02:42.300><c> to</c><00:02:42.480><c> run</c><00:02:42.660><c> this</c><00:02:42.959><c> now</c>
+
+00:02:44.630 --> 00:02:44.640 align:start position:0%
+we are going to run this now
+ 
+
+00:02:44.640 --> 00:02:47.449 align:start position:0%
+we are going to run this now
+and<00:02:45.120><c> you</c><00:02:45.300><c> will</c><00:02:45.480><c> see</c><00:02:45.780><c> that</c><00:02:46.319><c> in</c><00:02:46.800><c> the</c><00:02:46.980><c> status</c><00:02:47.099><c> code</c>
+
+00:02:47.449 --> 00:02:47.459 align:start position:0%
+and you will see that in the status code
+ 
+
+00:02:47.459 --> 00:02:52.250 align:start position:0%
+and you will see that in the status code
+we'll<00:02:47.640><c> get</c><00:02:47.879><c> a</c><00:02:48.120><c> 200</c><00:02:48.540><c> okay</c><00:02:48.920><c> and</c><00:02:49.920><c> in</c><00:02:50.760><c> the</c><00:02:51.260><c> payload</c>
+
+00:02:52.250 --> 00:02:52.260 align:start position:0%
+we'll get a 200 okay and in the payload
+ 
+
+00:02:52.260 --> 00:02:54.890 align:start position:0%
+we'll get a 200 okay and in the payload
+so<00:02:52.800><c> this</c><00:02:53.099><c> particular</c><00:02:53.400><c> API</c><00:02:53.760><c> message</c><00:02:54.000><c> it</c><00:02:54.599><c> just</c>
+
+00:02:54.890 --> 00:02:54.900 align:start position:0%
+so this particular API message it just
+ 
+
+00:02:54.900 --> 00:02:57.410 align:start position:0%
+so this particular API message it just
+gets<00:02:55.739><c> back</c><00:02:55.980><c> the</c><00:02:56.459><c> complete</c>
+
+00:02:57.410 --> 00:02:57.420 align:start position:0%
+gets back the complete
+ 
+
+00:02:57.420 --> 00:03:00.470 align:start position:0%
+gets back the complete
+content<00:02:58.260><c> of</c><00:02:58.620><c> your</c><00:02:58.800><c> attachment</c><00:02:59.340><c> file</c><00:02:59.819><c> okay</c><00:03:00.120><c> so</c>
+
+00:03:00.470 --> 00:03:00.480 align:start position:0%
+content of your attachment file okay so
+ 
+
+00:03:00.480 --> 00:03:03.050 align:start position:0%
+content of your attachment file okay so
+this<00:03:00.660><c> is</c><00:03:00.780><c> the</c><00:03:01.140><c> file</c><00:03:01.860><c> content</c><00:03:02.400><c> of</c><00:03:02.580><c> the</c><00:03:02.760><c> file</c>
+
+00:03:03.050 --> 00:03:03.060 align:start position:0%
+this is the file content of the file
+ 
+
+00:03:03.060 --> 00:03:06.110 align:start position:0%
+this is the file content of the file
+which<00:03:03.480><c> we</c><00:03:03.660><c> have</c><00:03:03.840><c> attached</c><00:03:04.280><c> obviously</c><00:03:05.280><c> it</c><00:03:05.940><c> is</c>
+
+00:03:06.110 --> 00:03:06.120 align:start position:0%
+which we have attached obviously it is
+ 
+
+00:03:06.120 --> 00:03:09.410 align:start position:0%
+which we have attached obviously it is
+encoded<00:03:06.780><c> so</c><00:03:07.620><c> you</c><00:03:07.920><c> cannot</c><00:03:08.280><c> see</c><00:03:08.819><c> what</c><00:03:09.060><c> is</c><00:03:09.239><c> there</c>
+
+00:03:09.410 --> 00:03:09.420 align:start position:0%
+encoded so you cannot see what is there
+ 
+
+00:03:09.420 --> 00:03:12.050 align:start position:0%
+encoded so you cannot see what is there
+in<00:03:09.780><c> that</c><00:03:09.959><c> particular</c><00:03:10.459><c> content</c><00:03:11.459><c> which</c><00:03:11.879><c> is</c>
+
+00:03:12.050 --> 00:03:12.060 align:start position:0%
+in that particular content which is
+ 
+
+00:03:12.060 --> 00:03:14.930 align:start position:0%
+in that particular content which is
+being<00:03:12.180><c> returned</c><00:03:12.599><c> by</c><00:03:12.780><c> the</c><00:03:12.959><c> response</c><00:03:13.500><c> right</c>
+
+00:03:14.930 --> 00:03:14.940 align:start position:0%
+being returned by the response right
+ 
+
+00:03:14.940 --> 00:03:18.949 align:start position:0%
+being returned by the response right
+but<00:03:15.659><c> uh</c><00:03:16.200><c> this</c><00:03:16.560><c> is</c><00:03:16.620><c> how</c><00:03:16.920><c> uh</c><00:03:17.640><c> for</c><00:03:18.000><c> API</c><00:03:18.720><c> messages</c>
+
+00:03:18.949 --> 00:03:18.959 align:start position:0%
+but uh this is how uh for API messages
+ 
+
+00:03:18.959 --> 00:03:21.589 align:start position:0%
+but uh this is how uh for API messages
+where<00:03:19.500><c> you</c><00:03:19.680><c> need</c><00:03:19.800><c> to</c><00:03:19.980><c> send</c><00:03:20.280><c> Maybe</c>
+
+00:03:21.589 --> 00:03:21.599 align:start position:0%
+where you need to send Maybe
+ 
+
+00:03:21.599 --> 00:03:25.630 align:start position:0%
+where you need to send Maybe
+a<00:03:22.260><c> file</c><00:03:22.560><c> a</c><00:03:22.860><c> image</c><00:03:23.340><c> or</c><00:03:23.879><c> anything</c><00:03:24.120><c> right</c><00:03:24.720><c> you</c><00:03:25.500><c> can</c>
+
+00:03:25.630 --> 00:03:25.640 align:start position:0%
+a file a image or anything right you can
+ 
+
+00:03:25.640 --> 00:03:29.750 align:start position:0%
+a file a image or anything right you can
+attach<00:03:26.640><c> that</c><00:03:26.940><c> file</c><00:03:27.239><c> or</c><00:03:28.200><c> you</c><00:03:28.319><c> can</c><00:03:28.440><c> send</c><00:03:28.800><c> an</c>
+
+00:03:29.750 --> 00:03:29.760 align:start position:0%
+attach that file or you can send an
+ 
+
+00:03:29.760 --> 00:03:32.750 align:start position:0%
+attach that file or you can send an
+attachment<00:03:30.180><c> right</c><00:03:31.080><c> from</c><00:03:31.500><c> your</c><00:03:31.739><c> request</c><00:03:32.099><c> okay</c>
+
+00:03:32.750 --> 00:03:32.760 align:start position:0%
+attachment right from your request okay
+ 
+
+00:03:32.760 --> 00:03:35.270 align:start position:0%
+attachment right from your request okay
+you<00:03:33.480><c> can</c><00:03:33.540><c> just</c><00:03:33.720><c> browse</c><00:03:34.080><c> for</c><00:03:34.260><c> the</c><00:03:34.440><c> file</c><00:03:34.680><c> and</c>
+
+00:03:35.270 --> 00:03:35.280 align:start position:0%
+you can just browse for the file and
+ 
+
+00:03:35.280 --> 00:03:38.210 align:start position:0%
+you can just browse for the file and
+then<00:03:35.519><c> uh</c><00:03:36.000><c> you</c><00:03:36.239><c> have</c><00:03:36.720><c> some</c><00:03:36.900><c> additional</c><00:03:37.260><c> options</c>
+
+00:03:38.210 --> 00:03:38.220 align:start position:0%
+then uh you have some additional options
+ 
+
+00:03:38.220 --> 00:03:40.190 align:start position:0%
+then uh you have some additional options
+and<00:03:38.760><c> after</c><00:03:38.940><c> that</c><00:03:39.239><c> you</c><00:03:39.480><c> can</c><00:03:39.599><c> just</c><00:03:39.780><c> send</c><00:03:39.959><c> the</c>
+
+00:03:40.190 --> 00:03:40.200 align:start position:0%
+and after that you can just send the
+ 
+
+00:03:40.200 --> 00:03:42.350 align:start position:0%
+and after that you can just send the
+message<00:03:40.440><c> and</c><00:03:41.099><c> you</c><00:03:41.459><c> will</c><00:03:41.640><c> get</c><00:03:41.940><c> back</c><00:03:42.120><c> the</c>
+
+00:03:42.350 --> 00:03:42.360 align:start position:0%
+message and you will get back the
+ 
+
+00:03:42.360 --> 00:03:44.930 align:start position:0%
+message and you will get back the
+response
+
+00:03:44.930 --> 00:03:44.940 align:start position:0%
+ 
+ 
+
+00:03:44.940 --> 00:03:47.390 align:start position:0%
+ 
+so<00:03:45.360><c> it's</c><00:03:45.420><c> a</c><00:03:45.599><c> very</c><00:03:45.720><c> simple</c><00:03:45.900><c> way</c><00:03:46.260><c> of</c><00:03:46.739><c> uh</c>
+
+00:03:47.390 --> 00:03:47.400 align:start position:0%
+so it's a very simple way of uh
+ 
+
+00:03:47.400 --> 00:03:50.030 align:start position:0%
+so it's a very simple way of uh
+basically<00:03:48.180><c> attaching</c><00:03:48.900><c> different</c><00:03:49.200><c> files</c>
+
+00:03:50.030 --> 00:03:50.040 align:start position:0%
+basically attaching different files
+ 
+
+00:03:50.040 --> 00:03:51.770 align:start position:0%
+basically attaching different files
+which<00:03:50.220><c> are</c><00:03:50.400><c> required</c><00:03:50.819><c> for</c><00:03:51.360><c> your</c><00:03:51.540><c> particular</c>
+
+00:03:51.770 --> 00:03:51.780 align:start position:0%
+which are required for your particular
+ 
+
+00:03:51.780 --> 00:03:53.210 align:start position:0%
+which are required for your particular
+API<00:03:52.260><c> message</c>
+
+00:03:53.210 --> 00:03:53.220 align:start position:0%
+API message
+ 
+
+00:03:53.220 --> 00:03:56.990 align:start position:0%
+API message
+and<00:03:53.879><c> that's</c><00:03:54.299><c> all</c><00:03:54.599><c> for</c><00:03:55.140><c> this</c><00:03:55.560><c> short</c><00:03:55.920><c> video</c>
+
+00:03:56.990 --> 00:03:57.000 align:start position:0%
+and that's all for this short video
+ 
+
+00:03:57.000 --> 00:03:59.149 align:start position:0%
+and that's all for this short video
+I<00:03:57.480><c> hope</c><00:03:57.599><c> you</c><00:03:57.720><c> enjoyed</c><00:03:58.080><c> it</c><00:03:58.260><c> and</c><00:03:58.680><c> you</c><00:03:58.860><c> learned</c>
+
+00:03:59.149 --> 00:03:59.159 align:start position:0%
+I hope you enjoyed it and you learned
+ 
+
+00:03:59.159 --> 00:04:01.130 align:start position:0%
+I hope you enjoyed it and you learned
+something<00:03:59.280><c> new</c><00:03:59.640><c> do</c><00:04:00.299><c> tune</c><00:04:00.599><c> into</c><00:04:00.780><c> our</c><00:04:00.959><c> channel</c>
+
+00:04:01.130 --> 00:04:01.140 align:start position:0%
+something new do tune into our channel
+ 
+
+00:04:01.140 --> 00:04:03.470 align:start position:0%
+something new do tune into our channel
+to<00:04:01.560><c> watch</c><00:04:01.799><c> more</c><00:04:02.159><c> videos</c><00:04:02.459><c> on</c><00:04:03.000><c> trash</c><00:04:03.239><c> and</c>
+
+00:04:03.470 --> 00:04:03.480 align:start position:0%
+to watch more videos on trash and
+ 
+
+00:04:03.480 --> 00:04:06.949 align:start position:0%
+to watch more videos on trash and
+testoster<00:04:04.319><c> and</c><00:04:05.099><c> API</c><00:04:05.580><c> testing</c><00:04:06.060><c> using</c><00:04:06.720><c> the</c>
+
+00:04:06.949 --> 00:04:06.959 align:start position:0%
+testoster and API testing using the
+ 
+
+00:04:06.959 --> 00:04:10.220 align:start position:0%
+testoster and API testing using the
+Tosca<00:04:07.379><c> API</c><00:04:07.860><c> scan</c>
+

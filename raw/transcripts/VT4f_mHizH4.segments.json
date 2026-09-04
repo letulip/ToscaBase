@@ -1,0 +1,717 @@
+[
+ {
+  "start": 8.39,
+  "end": 8.4,
+  "text": "hey everyone welcome back to testoster"
+ },
+ {
+  "start": 8.4,
+  "end": 10.79,
+  "text": "automation playlist and we are talking"
+ },
+ {
+  "start": 10.8,
+  "end": 13.669,
+  "text": "about the top 10 Tosca best practices"
+ },
+ {
+  "start": 13.679,
+  "end": 16.609,
+  "text": "which you should Implement in your"
+ },
+ {
+  "start": 16.619,
+  "end": 19.67,
+  "text": "workspace or project"
+ },
+ {
+  "start": 19.68,
+  "end": 21.59,
+  "text": "so before we move forward I would like"
+ },
+ {
+  "start": 21.6,
+  "end": 23.21,
+  "text": "you to subscribe to our channel so that"
+ },
+ {
+  "start": 23.22,
+  "end": 25.13,
+  "text": "you don't miss out on all the videos"
+ },
+ {
+  "start": 25.14,
+  "end": 28.25,
+  "text": "which are on this very topic if you have"
+ },
+ {
+  "start": 28.26,
+  "end": 29.87,
+  "text": "not watched the previous videos go back"
+ },
+ {
+  "start": 29.88,
+  "end": 32.21,
+  "text": "to our playlist and do watch all the"
+ },
+ {
+  "start": 32.22,
+  "end": 34.49,
+  "text": "different videos we have done on the"
+ },
+ {
+  "start": 34.5,
+  "end": 36.53,
+  "text": "Tosca best practices"
+ },
+ {
+  "start": 36.54,
+  "end": 39.17,
+  "text": "now coming to the number eight best"
+ },
+ {
+  "start": 39.18,
+  "end": 41.03,
+  "text": "practice which is recommended by try"
+ },
+ {
+  "start": 41.04,
+  "end": 45.17,
+  "text": "centers is to merge duplicate modules"
+ },
+ {
+  "start": 45.18,
+  "end": 47.27,
+  "text": "the reason is very simple"
+ },
+ {
+  "start": 47.28,
+  "end": 50.63,
+  "text": "duplicate modules uh will only increase"
+ },
+ {
+  "start": 50.64,
+  "end": 53.75,
+  "text": "your workspace size and in the long run"
+ },
+ {
+  "start": 53.76,
+  "end": 55.85,
+  "text": "it is going to increase your maintenance"
+ },
+ {
+  "start": 55.86,
+  "end": 58.31,
+  "text": "efforts"
+ },
+ {
+  "start": 58.32,
+  "end": 61.25,
+  "text": "what you can do is you can use the merge"
+ },
+ {
+  "start": 61.26,
+  "end": 63.11,
+  "text": "module feature which is available in"
+ },
+ {
+  "start": 63.12,
+  "end": 66.23,
+  "text": "Tosca to find and merge all your"
+ },
+ {
+  "start": 66.24,
+  "end": 68.87,
+  "text": "duplicate modules"
+ },
+ {
+  "start": 68.88,
+  "end": 71.149,
+  "text": "now the question is why someone will"
+ },
+ {
+  "start": 71.159,
+  "end": 73.13,
+  "text": "create duplicate modules"
+ },
+ {
+  "start": 73.14,
+  "end": 75.649,
+  "text": "so probably when you are working alone"
+ },
+ {
+  "start": 75.659,
+  "end": 77.75,
+  "text": "you will not come across the scenario"
+ },
+ {
+  "start": 77.76,
+  "end": 80.27,
+  "text": "because you know what modules you have"
+ },
+ {
+  "start": 80.28,
+  "end": 82.37,
+  "text": "created for your project or for your"
+ },
+ {
+  "start": 82.38,
+  "end": 85.49,
+  "text": "application and you will not go ahead"
+ },
+ {
+  "start": 85.5,
+  "end": 87.71,
+  "text": "and create a duplicate module which you"
+ },
+ {
+  "start": 87.72,
+  "end": 89.45,
+  "text": "have already created"
+ },
+ {
+  "start": 89.46,
+  "end": 91.789,
+  "text": "but what if you're working in a team"
+ },
+ {
+  "start": 91.799,
+  "end": 93.649,
+  "text": "right so there are different team"
+ },
+ {
+  "start": 93.659,
+  "end": 95.51,
+  "text": "members who are working on the same"
+ },
+ {
+  "start": 95.52,
+  "end": 99.289,
+  "text": "application and then due to some lack of"
+ },
+ {
+  "start": 99.299,
+  "end": 102.71,
+  "text": "best practices or in your project the"
+ },
+ {
+  "start": 102.72,
+  "end": 105.59,
+  "text": "modules are not named correctly or"
+ },
+ {
+  "start": 105.6,
+  "end": 108.649,
+  "text": "someone in your team is not able to find"
+ },
+ {
+  "start": 108.659,
+  "end": 111.59,
+  "text": "a particular module right it may be"
+ },
+ {
+  "start": 111.6,
+  "end": 113.81,
+  "text": "because there are lots of modules and"
+ },
+ {
+  "start": 113.82,
+  "end": 117.109,
+  "text": "he's not able to find it or the names"
+ },
+ {
+  "start": 117.119,
+  "end": 119.99,
+  "text": "are not represented correctly so"
+ },
+ {
+  "start": 120.0,
+  "end": 122.63,
+  "text": "somebody is not sure whether that module"
+ },
+ {
+  "start": 122.64,
+  "end": 125.929,
+  "text": "does what it is intended to do right"
+ },
+ {
+  "start": 125.939,
+  "end": 129.83,
+  "text": "so generally people uh find it easier to"
+ },
+ {
+  "start": 129.84,
+  "end": 131.69,
+  "text": "scan new modules and they keep on"
+ },
+ {
+  "start": 131.7,
+  "end": 134.39,
+  "text": "creating new modules without even"
+ },
+ {
+  "start": 134.4,
+  "end": 136.25,
+  "text": "searching whether that module already"
+ },
+ {
+  "start": 136.26,
+  "end": 139.55,
+  "text": "exists in the project that in itself is"
+ },
+ {
+  "start": 139.56,
+  "end": 141.65,
+  "text": "a mistake and which leads to this"
+ },
+ {
+  "start": 141.66,
+  "end": 143.809,
+  "text": "particular problem where you have got"
+ },
+ {
+  "start": 143.819,
+  "end": 146.449,
+  "text": "lots of duplicate modules now the result"
+ },
+ {
+  "start": 146.459,
+  "end": 149.57,
+  "text": "of this issue is the workspace size"
+ },
+ {
+  "start": 149.58,
+  "end": 152.35,
+  "text": "keeps on increasing and then it becomes"
+ },
+ {
+  "start": 152.36,
+  "end": 155.809,
+  "text": "unmanageable and similarly if you have"
+ },
+ {
+  "start": 155.819,
+  "end": 158.63,
+  "text": "to maybe migrate your modules or you"
+ },
+ {
+  "start": 158.64,
+  "end": 160.67,
+  "text": "have to update some modules you have to"
+ },
+ {
+  "start": 160.68,
+  "end": 162.949,
+  "text": "do it for all the different duplicate"
+ },
+ {
+  "start": 162.959,
+  "end": 165.71,
+  "text": "modules which only increases the time"
+ },
+ {
+  "start": 165.72,
+  "end": 168.229,
+  "text": "which you need to spend in order to"
+ },
+ {
+  "start": 168.239,
+  "end": 170.509,
+  "text": "maintain all of these modules right"
+ },
+ {
+  "start": 170.519,
+  "end": 173.75,
+  "text": "so it is best recommended that you do"
+ },
+ {
+  "start": 173.76,
+  "end": 176.089,
+  "text": "this activity on a regular basis you"
+ },
+ {
+  "start": 176.099,
+  "end": 178.49,
+  "text": "check for duplicate modules and if you"
+ },
+ {
+  "start": 178.5,
+  "end": 181.13,
+  "text": "need to merge uh certain modules then go"
+ },
+ {
+  "start": 181.14,
+  "end": 183.77,
+  "text": "ahead and merge them so that your"
+ },
+ {
+  "start": 183.78,
+  "end": 187.009,
+  "text": "workspace contains only a unique and"
+ },
+ {
+  "start": 187.019,
+  "end": 189.35,
+  "text": "efficient modules this will also make"
+ },
+ {
+  "start": 189.36,
+  "end": 193.43,
+  "text": "your project more efficient right and if"
+ },
+ {
+  "start": 193.44,
+  "end": 195.649,
+  "text": "different people are working on it then"
+ },
+ {
+  "start": 195.659,
+  "end": 198.47,
+  "text": "everybody will be using a single module"
+ },
+ {
+  "start": 198.48,
+  "end": 201.67,
+  "text": "rather than using the same modules but"
+ },
+ {
+  "start": 201.68,
+  "end": 204.35,
+  "text": "they are duplicate in the workspace"
+ },
+ {
+  "start": 204.36,
+  "end": 205.729,
+  "text": "right"
+ },
+ {
+  "start": 205.739,
+  "end": 208.79,
+  "text": "so let's see with an example uh what I"
+ },
+ {
+  "start": 208.8,
+  "end": 210.77,
+  "text": "am talking all about right I have"
+ },
+ {
+  "start": 210.78,
+  "end": 212.39,
+  "text": "already shown you uh in a different"
+ },
+ {
+  "start": 212.4,
+  "end": 214.61,
+  "text": "video how you can merge duplicate"
+ },
+ {
+  "start": 214.62,
+  "end": 219.229,
+  "text": "modules but let's say it quickly again"
+ },
+ {
+  "start": 219.239,
+  "end": 222.41,
+  "text": "so I'm back in Tosca and here uh what I"
+ },
+ {
+  "start": 222.42,
+  "end": 224.21,
+  "text": "have done is I have scanned this"
+ },
+ {
+  "start": 224.22,
+  "end": 227.089,
+  "text": "particular page okay uh it's a simple"
+ },
+ {
+  "start": 227.099,
+  "end": 229.309,
+  "text": "login form with username password and"
+ },
+ {
+  "start": 229.319,
+  "end": 232.61,
+  "text": "login button now what I've done is I"
+ },
+ {
+  "start": 232.62,
+  "end": 235.13,
+  "text": "have scanned this twice so you can see"
+ },
+ {
+  "start": 235.14,
+  "end": 237.229,
+  "text": "here this is the swag labs and this is"
+ },
+ {
+  "start": 237.239,
+  "end": 240.17,
+  "text": "also the swaglabs module and the module"
+ },
+ {
+  "start": 240.18,
+  "end": 242.69,
+  "text": "attributes are exactly the same username"
+ },
+ {
+  "start": 242.7,
+  "end": 244.789,
+  "text": "password login right"
+ },
+ {
+  "start": 244.799,
+  "end": 247.309,
+  "text": "so it doesn't make any sense to keep"
+ },
+ {
+  "start": 247.319,
+  "end": 249.649,
+  "text": "both these modules in this particular"
+ },
+ {
+  "start": 249.659,
+  "end": 252.89,
+  "text": "workspace right it is of no use and also"
+ },
+ {
+  "start": 252.9,
+  "end": 254.69,
+  "text": "these are additional objects in the"
+ },
+ {
+  "start": 254.7,
+  "end": 258.05,
+  "text": "workspace right so what we can do is we"
+ },
+ {
+  "start": 258.06,
+  "end": 261.71,
+  "text": "can go to uh one of our modules okay if"
+ },
+ {
+  "start": 261.72,
+  "end": 263.33,
+  "text": "we know that there is a duplicate we can"
+ },
+ {
+  "start": 263.34,
+  "end": 266.21,
+  "text": "directly merge them if not we can go"
+ },
+ {
+  "start": 266.22,
+  "end": 267.89,
+  "text": "ahead and click on find duplicate"
+ },
+ {
+  "start": 267.9,
+  "end": 270.55,
+  "text": "modules okay and then it will show me"
+ },
+ {
+  "start": 270.56,
+  "end": 273.05,
+  "text": "both the modules"
+ },
+ {
+  "start": 273.06,
+  "end": 274.969,
+  "text": "and then I can select any one of them"
+ },
+ {
+  "start": 274.979,
+  "end": 279.17,
+  "text": "and click on merge selected right"
+ },
+ {
+  "start": 279.18,
+  "end": 283.27,
+  "text": "so what it will do it will take this"
+ },
+ {
+  "start": 283.28,
+  "end": 286.129,
+  "text": "Source module and then it will merge it"
+ },
+ {
+  "start": 286.139,
+  "end": 287.99,
+  "text": "into the target module right the target"
+ },
+ {
+  "start": 288.0,
+  "end": 291.11,
+  "text": "module will not be changed uh and any"
+ },
+ {
+  "start": 291.12,
+  "end": 294.23,
+  "text": "usage also which is present for Source"
+ },
+ {
+  "start": 294.24,
+  "end": 295.37,
+  "text": "or Target"
+ },
+ {
+  "start": 295.38,
+  "end": 297.35,
+  "text": "um it will be linked properly to the"
+ },
+ {
+  "start": 297.36,
+  "end": 299.749,
+  "text": "Target module and then the source module"
+ },
+ {
+  "start": 299.759,
+  "end": 302.27,
+  "text": "will be deleted right so a proper"
+ },
+ {
+  "start": 302.28,
+  "end": 304.73,
+  "text": "cleanup is done by this module merge"
+ },
+ {
+  "start": 304.74,
+  "end": 308.15,
+  "text": "assistant and it is very fast and it"
+ },
+ {
+  "start": 308.16,
+  "end": 311.27,
+  "text": "also tells you which modules are"
+ },
+ {
+  "start": 311.28,
+  "end": 313.67,
+  "text": "actually duplicates if you cannot find"
+ },
+ {
+  "start": 313.68,
+  "end": 316.67,
+  "text": "them on your own right so this feature"
+ },
+ {
+  "start": 316.68,
+  "end": 318.71,
+  "text": "is already provided by Tosca and you"
+ },
+ {
+  "start": 318.72,
+  "end": 321.17,
+  "text": "should use it to implement this best"
+ },
+ {
+  "start": 321.18,
+  "end": 323.629,
+  "text": "practice so that you don't have any"
+ },
+ {
+  "start": 323.639,
+  "end": 325.85,
+  "text": "unnecessary modules lying in your"
+ },
+ {
+  "start": 325.86,
+  "end": 328.37,
+  "text": "workspace which is uh"
+ },
+ {
+  "start": 328.38,
+  "end": 330.77,
+  "text": "obviously going to impact your overall"
+ },
+ {
+  "start": 330.78,
+  "end": 333.29,
+  "text": "performance of your Tosca project"
+ },
+ {
+  "start": 333.3,
+  "end": 336.05,
+  "text": "because the workspace size when it"
+ },
+ {
+  "start": 336.06,
+  "end": 338.93,
+  "text": "becomes too big your performance is"
+ },
+ {
+  "start": 338.94,
+  "end": 340.189,
+  "text": "impacted"
+ },
+ {
+  "start": 340.199,
+  "end": 343.249,
+  "text": "um your Tosca will start to load very"
+ },
+ {
+  "start": 343.259,
+  "end": 346.37,
+  "text": "slowly your executions will be slower"
+ },
+ {
+  "start": 346.38,
+  "end": 348.469,
+  "text": "all right so it will impact everything"
+ },
+ {
+  "start": 348.479,
+  "end": 351.529,
+  "text": "else so you need to keep a check on your"
+ },
+ {
+  "start": 351.539,
+  "end": 354.17,
+  "text": "workspace size always and this is one"
+ },
+ {
+  "start": 354.18,
+  "end": 357.529,
+  "text": "ways of doing it okay"
+ },
+ {
+  "start": 357.539,
+  "end": 359.749,
+  "text": "so that's all for this short video I"
+ },
+ {
+  "start": 359.759,
+  "end": 361.43,
+  "text": "hope you enjoyed it and you learned"
+ },
+ {
+  "start": 361.44,
+  "end": 363.469,
+  "text": "something new today keep watching out"
+ },
+ {
+  "start": 363.479,
+  "end": 366.23,
+  "text": "for our Channel as we are going to bring"
+ },
+ {
+  "start": 366.24,
+  "end": 368.629,
+  "text": "up many more videos related Tosca and"
+ },
+ {
+  "start": 368.639,
+  "end": 370.37,
+  "text": "other automation tools"
+ },
+ {
+  "start": 370.38,
+  "end": 372.89,
+  "text": "so until we meet again keep learning and"
+ },
+ {
+  "start": 372.9,
+  "end": 375.44,
+  "text": "keep watching"
+ }
+]

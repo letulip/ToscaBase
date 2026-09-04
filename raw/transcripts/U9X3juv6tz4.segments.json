@@ -1,0 +1,1397 @@
+[
+ {
+  "start": 2.629,
+  "end": 2.639,
+  "text": "hey everyone welcome to another lesson"
+ },
+ {
+  "start": 2.639,
+  "end": 5.03,
+  "text": "in this task automation course"
+ },
+ {
+  "start": 5.04,
+  "end": 6.23,
+  "text": "so today"
+ },
+ {
+  "start": 6.24,
+  "end": 7.749,
+  "text": "we are going to see"
+ },
+ {
+  "start": 7.759,
+  "end": 10.87,
+  "text": "what is the tosca commander will see a"
+ },
+ {
+  "start": 10.88,
+  "end": 13.43,
+  "text": "high level overview of all the different"
+ },
+ {
+  "start": 13.44,
+  "end": 15.11,
+  "text": "modules which are present in the tosca"
+ },
+ {
+  "start": 15.12,
+  "end": 18.31,
+  "text": "commander and we'll see how you can run"
+ },
+ {
+  "start": 18.32,
+  "end": 20.95,
+  "text": "a example test case or test project"
+ },
+ {
+  "start": 20.96,
+  "end": 23.67,
+  "text": "we'll also see how you can"
+ },
+ {
+  "start": 23.68,
+  "end": 26.63,
+  "text": "start automating your web application"
+ },
+ {
+  "start": 26.64,
+  "end": 29.509,
+  "text": "using the tosca commander so we'll do a"
+ },
+ {
+  "start": 29.519,
+  "end": 31.99,
+  "text": "sample test case right"
+ },
+ {
+  "start": 32.0,
+  "end": 33.83,
+  "text": "now uh we have already seen how we can"
+ },
+ {
+  "start": 33.84,
+  "end": 36.95,
+  "text": "set up tosca commander with its license"
+ },
+ {
+  "start": 36.96,
+  "end": 39.27,
+  "text": "in our last video so if not watched it"
+ },
+ {
+  "start": 39.28,
+  "end": 41.75,
+  "text": "uh do watch it over"
+ },
+ {
+  "start": 41.76,
+  "end": 43.99,
+  "text": "now once you launch your toska commander"
+ },
+ {
+  "start": 44.0,
+  "end": 45.91,
+  "text": "this is the home page which will be"
+ },
+ {
+  "start": 45.92,
+  "end": 47.91,
+  "text": "visible to you"
+ },
+ {
+  "start": 47.92,
+  "end": 49.91,
+  "text": "there you will have some default"
+ },
+ {
+  "start": 49.92,
+  "end": 51.43,
+  "text": "projects right"
+ },
+ {
+  "start": 51.44,
+  "end": 53.51,
+  "text": "so the first steps project it is"
+ },
+ {
+  "start": 53.52,
+  "end": 56.47,
+  "text": "provided by default to you by tosca"
+ },
+ {
+  "start": 56.48,
+  "end": 58.79,
+  "text": "right so it contains some sample test"
+ },
+ {
+  "start": 58.8,
+  "end": 62.229,
+  "text": "cases uh which you can run and get"
+ },
+ {
+  "start": 62.239,
+  "end": 65.35,
+  "text": "acquainted with the tosca commander"
+ },
+ {
+  "start": 65.36,
+  "end": 69.03,
+  "text": "so um right now we'll just open this uh"
+ },
+ {
+  "start": 69.04,
+  "end": 70.95,
+  "text": "project which is already provided by the"
+ },
+ {
+  "start": 70.96,
+  "end": 74.23,
+  "text": "toska commander so click on first steps"
+ },
+ {
+  "start": 74.24,
+  "end": 77.109,
+  "text": "and it will start building your or"
+ },
+ {
+  "start": 77.119,
+  "end": 79.109,
+  "text": "opening your project right"
+ },
+ {
+  "start": 79.119,
+  "end": 81.83,
+  "text": "now this is the tosca commander"
+ },
+ {
+  "start": 81.84,
+  "end": 84.149,
+  "text": "view you can say"
+ },
+ {
+  "start": 84.159,
+  "end": 86.63,
+  "text": "the tool or the application"
+ },
+ {
+  "start": 86.64,
+  "end": 88.55,
+  "text": "through which you can automate your test"
+ },
+ {
+  "start": 88.56,
+  "end": 90.789,
+  "text": "cases right so there are different"
+ },
+ {
+  "start": 90.799,
+  "end": 92.71,
+  "text": "uh sections to this particular"
+ },
+ {
+  "start": 92.72,
+  "end": 94.789,
+  "text": "application or tool right"
+ },
+ {
+  "start": 94.799,
+  "end": 95.67,
+  "text": "and"
+ },
+ {
+  "start": 95.68,
+  "end": 97.67,
+  "text": "all of these different blocks which you"
+ },
+ {
+  "start": 97.68,
+  "end": 101.35,
+  "text": "see here are all the different"
+ },
+ {
+  "start": 101.36,
+  "end": 103.83,
+  "text": "parts of this tosca commander right so"
+ },
+ {
+  "start": 103.84,
+  "end": 106.87,
+  "text": "these are the places where you will find"
+ },
+ {
+  "start": 106.88,
+  "end": 109.67,
+  "text": "all the different um"
+ },
+ {
+  "start": 109.68,
+  "end": 111.51,
+  "text": "information which you require in order"
+ },
+ {
+  "start": 111.52,
+  "end": 114.469,
+  "text": "to automate your application right so"
+ },
+ {
+  "start": 114.479,
+  "end": 116.95,
+  "text": "it completely supports the whole testing"
+ },
+ {
+  "start": 116.96,
+  "end": 119.59,
+  "text": "life cycle right so the first thing"
+ },
+ {
+  "start": 119.6,
+  "end": 122.31,
+  "text": "which you will notice is the test cases"
+ },
+ {
+  "start": 122.32,
+  "end": 124.789,
+  "text": "section okay and this will contain all"
+ },
+ {
+  "start": 124.799,
+  "end": 127.749,
+  "text": "your test cases okay so uh these test"
+ },
+ {
+  "start": 127.759,
+  "end": 130.229,
+  "text": "cases are already provided uh"
+ },
+ {
+  "start": 130.239,
+  "end": 133.83,
+  "text": "to us by the tosca right by default"
+ },
+ {
+  "start": 133.84,
+  "end": 135.43,
+  "text": "and as you can see they have provided"
+ },
+ {
+  "start": 135.44,
+  "end": 137.35,
+  "text": "some manual tests uh some automated"
+ },
+ {
+  "start": 137.36,
+  "end": 139.51,
+  "text": "tests uh data driven tests"
+ },
+ {
+  "start": 139.52,
+  "end": 142.63,
+  "text": "and some helpers right and they have"
+ },
+ {
+  "start": 142.64,
+  "end": 146.309,
+  "text": "also given us this run me okay so this"
+ },
+ {
+  "start": 146.319,
+  "end": 148.71,
+  "text": "is the sample test case which you can"
+ },
+ {
+  "start": 148.72,
+  "end": 151.19,
+  "text": "run in this particular test cases"
+ },
+ {
+  "start": 151.2,
+  "end": 152.71,
+  "text": "section okay"
+ },
+ {
+  "start": 152.72,
+  "end": 154.55,
+  "text": "now there are other sections like"
+ },
+ {
+  "start": 154.56,
+  "end": 158.15,
+  "text": "modules uh requirements test case design"
+ },
+ {
+  "start": 158.16,
+  "end": 159.509,
+  "text": "execution"
+ },
+ {
+  "start": 159.519,
+  "end": 160.55,
+  "text": "issues"
+ },
+ {
+  "start": 160.56,
+  "end": 162.71,
+  "text": "right and there is also a tutorial but"
+ },
+ {
+  "start": 162.72,
+  "end": 166.229,
+  "text": "that's not so important one okay"
+ },
+ {
+  "start": 166.239,
+  "end": 169.27,
+  "text": "now um we will see what are modules what"
+ },
+ {
+  "start": 169.28,
+  "end": 171.75,
+  "text": "are requirements test case design"
+ },
+ {
+  "start": 171.76,
+  "end": 174.229,
+  "text": "and execution right uh throughout this"
+ },
+ {
+  "start": 174.239,
+  "end": 176.869,
+  "text": "course whenever we're trying to build a"
+ },
+ {
+  "start": 176.879,
+  "end": 179.43,
+  "text": "complete project okay for now let's"
+ },
+ {
+  "start": 179.44,
+  "end": 182.07,
+  "text": "concentrate on this test cases section"
+ },
+ {
+  "start": 182.08,
+  "end": 184.47,
+  "text": "okay so as you can see uh there are"
+ },
+ {
+  "start": 184.48,
+  "end": 186.47,
+  "text": "different folders which you can create"
+ },
+ {
+  "start": 186.48,
+  "end": 187.99,
+  "text": "for your test cases so that could be a"
+ },
+ {
+  "start": 188.0,
+  "end": 190.63,
+  "text": "parent folder under that uh that could"
+ },
+ {
+  "start": 190.64,
+  "end": 193.589,
+  "text": "be uh child folders and under each"
+ },
+ {
+  "start": 193.599,
+  "end": 196.39,
+  "text": "folder you will have a test case right"
+ },
+ {
+  "start": 196.4,
+  "end": 198.71,
+  "text": "like this and then that test case will"
+ },
+ {
+  "start": 198.72,
+  "end": 201.99,
+  "text": "have different steps okay"
+ },
+ {
+  "start": 202.0,
+  "end": 205.03,
+  "text": "so uh you can add your own folder you"
+ },
+ {
+  "start": 205.04,
+  "end": 206.63,
+  "text": "can see create folder there is create"
+ },
+ {
+  "start": 206.64,
+  "end": 208.789,
+  "text": "folder option you can create a folder"
+ },
+ {
+  "start": 208.799,
+  "end": 211.27,
+  "text": "structure um you can create a virtual"
+ },
+ {
+  "start": 211.28,
+  "end": 214.309,
+  "text": "folder we'll talk about it um later"
+ },
+ {
+  "start": 214.319,
+  "end": 217.19,
+  "text": "uh you can create a test case right so"
+ },
+ {
+  "start": 217.2,
+  "end": 218.63,
+  "text": "this um"
+ },
+ {
+  "start": 218.64,
+  "end": 222.47,
+  "text": "circle symbol is a test case symbol okay"
+ },
+ {
+  "start": 222.48,
+  "end": 224.149,
+  "text": "so this means this"
+ },
+ {
+  "start": 224.159,
+  "end": 226.63,
+  "text": "is contains a test case okay"
+ },
+ {
+  "start": 226.64,
+  "end": 228.789,
+  "text": "uh then there is a business test case uh"
+ },
+ {
+  "start": 228.799,
+  "end": 231.03,
+  "text": "we'll talk about it later you can create"
+ },
+ {
+  "start": 231.04,
+  "end": 233.67,
+  "text": "a step library right so there are"
+ },
+ {
+  "start": 233.68,
+  "end": 235.91,
+  "text": "different options uh you can also create"
+ },
+ {
+  "start": 235.92,
+  "end": 238.229,
+  "text": "recovery scenario collection and test"
+ },
+ {
+  "start": 238.239,
+  "end": 239.75,
+  "text": "configuration parameters so there are"
+ },
+ {
+  "start": 239.76,
+  "end": 242.71,
+  "text": "lots of things in tosca and we'll learn"
+ },
+ {
+  "start": 242.72,
+  "end": 246.869,
+  "text": "um one by one slowly okay"
+ },
+ {
+  "start": 246.879,
+  "end": 249.429,
+  "text": "so let's look at our test case okay so"
+ },
+ {
+  "start": 249.439,
+  "end": 251.429,
+  "text": "these are the different steps uh these"
+ },
+ {
+  "start": 251.439,
+  "end": 253.19,
+  "text": "are basically"
+ },
+ {
+  "start": 253.2,
+  "end": 255.35,
+  "text": "you can call the steps which control the"
+ },
+ {
+  "start": 255.36,
+  "end": 258.39,
+  "text": "execution of your application flow okay"
+ },
+ {
+  "start": 258.4,
+  "end": 260.31,
+  "text": "for this particular test case"
+ },
+ {
+  "start": 260.32,
+  "end": 262.15,
+  "text": "so as you can see there are different"
+ },
+ {
+  "start": 262.16,
+  "end": 264.469,
+  "text": "steps like open sample app maximize the"
+ },
+ {
+  "start": 264.479,
+  "end": 266.39,
+  "text": "browser main menu"
+ },
+ {
+  "start": 266.4,
+  "end": 268.71,
+  "text": "vehicle data insurance data product data"
+ },
+ {
+  "start": 268.72,
+  "end": 271.189,
+  "text": "price option and then send code so this"
+ },
+ {
+  "start": 271.199,
+  "end": 274.469,
+  "text": "is a complete flow for your test case in"
+ },
+ {
+  "start": 274.479,
+  "end": 277.35,
+  "text": "your application okay and what taos cut"
+ },
+ {
+  "start": 277.36,
+  "end": 279.83,
+  "text": "does it it captures all the technical"
+ },
+ {
+  "start": 279.84,
+  "end": 282.15,
+  "text": "information which are nothing but the"
+ },
+ {
+  "start": 282.16,
+  "end": 284.71,
+  "text": "objects on the page which are required"
+ },
+ {
+  "start": 284.72,
+  "end": 287.909,
+  "text": "to automate each and every flow of your"
+ },
+ {
+  "start": 287.919,
+  "end": 290.23,
+  "text": "particular application right and once it"
+ },
+ {
+  "start": 290.24,
+  "end": 293.11,
+  "text": "captures it provides it in this"
+ },
+ {
+  "start": 293.12,
+  "end": 296.79,
+  "text": "particular test steps where you can"
+ },
+ {
+  "start": 296.8,
+  "end": 300.15,
+  "text": "control what you want to enter in any or"
+ },
+ {
+  "start": 300.16,
+  "end": 303.11,
+  "text": "any field to build your application or"
+ },
+ {
+  "start": 303.12,
+  "end": 306.07,
+  "text": "test case flow okay"
+ },
+ {
+  "start": 306.08,
+  "end": 308.15,
+  "text": "so when you are viewing this particular"
+ },
+ {
+  "start": 308.16,
+  "end": 311.27,
+  "text": "test case you can do you can expand all"
+ },
+ {
+  "start": 311.28,
+  "end": 313.11,
+  "text": "the steps you can collapse all the steps"
+ },
+ {
+  "start": 313.12,
+  "end": 315.51,
+  "text": "right so as there are different steps i"
+ },
+ {
+  "start": 315.52,
+  "end": 318.15,
+  "text": "can expand them and as you can see there"
+ },
+ {
+  "start": 318.16,
+  "end": 320.23,
+  "text": "are different objects which are present"
+ },
+ {
+  "start": 320.24,
+  "end": 323.43,
+  "text": "here right and each object or"
+ },
+ {
+  "start": 323.44,
+  "end": 325.749,
+  "text": "each particular information right it"
+ },
+ {
+  "start": 325.759,
+  "end": 328.629,
+  "text": "contains some data and it contains some"
+ },
+ {
+  "start": 328.639,
+  "end": 330.95,
+  "text": "properties okay so as you can see this"
+ },
+ {
+  "start": 330.96,
+  "end": 334.87,
+  "text": "automobile object it must be a input"
+ },
+ {
+  "start": 334.88,
+  "end": 338.469,
+  "text": "uh input field right and um either you"
+ },
+ {
+  "start": 338.479,
+  "end": 341.11,
+  "text": "can uh enter some information or you can"
+ },
+ {
+  "start": 341.12,
+  "end": 343.189,
+  "text": "click on it right it could be a link"
+ },
+ {
+  "start": 343.199,
+  "end": 345.749,
+  "text": "okay and that could be identified by"
+ },
+ {
+  "start": 345.759,
+  "end": 347.59,
+  "text": "properties which is shown on the right"
+ },
+ {
+  "start": 347.6,
+  "end": 350.07,
+  "text": "hand side right so using this properties"
+ },
+ {
+  "start": 350.08,
+  "end": 352.79,
+  "text": "it can identify this particular object"
+ },
+ {
+  "start": 352.8,
+  "end": 354.71,
+  "text": "on the page and then you can perform"
+ },
+ {
+  "start": 354.72,
+  "end": 357.43,
+  "text": "some action on this particular object by"
+ },
+ {
+  "start": 357.44,
+  "end": 360.55,
+  "text": "passing some value here okay so that is"
+ },
+ {
+  "start": 360.56,
+  "end": 363.43,
+  "text": "how you build your test case or test"
+ },
+ {
+  "start": 363.44,
+  "end": 365.67,
+  "text": "steps right similarly you will see there"
+ },
+ {
+  "start": 365.68,
+  "end": 367.83,
+  "text": "are different fields where there are"
+ },
+ {
+  "start": 367.84,
+  "end": 370.309,
+  "text": "different values for those fields right"
+ },
+ {
+  "start": 370.319,
+  "end": 373.27,
+  "text": "so this is this is all uh the data which"
+ },
+ {
+  "start": 373.28,
+  "end": 374.71,
+  "text": "you require for this particular test"
+ },
+ {
+  "start": 374.72,
+  "end": 377.029,
+  "text": "case with all the fields right which are"
+ },
+ {
+  "start": 377.039,
+  "end": 378.71,
+  "text": "available here"
+ },
+ {
+  "start": 378.72,
+  "end": 381.43,
+  "text": "and that is how you control the flow of"
+ },
+ {
+  "start": 381.44,
+  "end": 383.51,
+  "text": "your execution so depending on how your"
+ },
+ {
+  "start": 383.52,
+  "end": 386.629,
+  "text": "test case is built you will enter those"
+ },
+ {
+  "start": 386.639,
+  "end": 387.83,
+  "text": "values or"
+ },
+ {
+  "start": 387.84,
+  "end": 390.39,
+  "text": "perform the operation on those fields"
+ },
+ {
+  "start": 390.4,
+  "end": 392.83,
+  "text": "required in this particular test case"
+ },
+ {
+  "start": 392.84,
+  "end": 395.51,
+  "text": "right now the initial two steps you can"
+ },
+ {
+  "start": 395.52,
+  "end": 397.67,
+  "text": "see uh are just opening the sample"
+ },
+ {
+  "start": 397.68,
+  "end": 400.07,
+  "text": "application and maximizing the browser"
+ },
+ {
+  "start": 400.08,
+  "end": 403.029,
+  "text": "right and there you are passing the url"
+ },
+ {
+  "start": 403.039,
+  "end": 403.83,
+  "text": "okay"
+ },
+ {
+  "start": 403.84,
+  "end": 406.79,
+  "text": "similarly uh there would be also a test"
+ },
+ {
+  "start": 406.8,
+  "end": 408.39,
+  "text": "configuration right"
+ },
+ {
+  "start": 408.4,
+  "end": 410.629,
+  "text": "so these are the test case details and"
+ },
+ {
+  "start": 410.639,
+  "end": 413.67,
+  "text": "the next step is test configuration now"
+ },
+ {
+  "start": 413.68,
+  "end": 416.71,
+  "text": "it is also important um because you can"
+ },
+ {
+  "start": 416.72,
+  "end": 418.629,
+  "text": "see here"
+ },
+ {
+  "start": 418.639,
+  "end": 420.95,
+  "text": "this particular test case has got a test"
+ },
+ {
+  "start": 420.96,
+  "end": 423.51,
+  "text": "configuration called browser right and"
+ },
+ {
+  "start": 423.52,
+  "end": 426.39,
+  "text": "that browser is internet explorer okay"
+ },
+ {
+  "start": 426.4,
+  "end": 428.15,
+  "text": "so that's the value you need to set in"
+ },
+ {
+  "start": 428.16,
+  "end": 430.309,
+  "text": "order to run this test case on a"
+ },
+ {
+  "start": 430.319,
+  "end": 432.629,
+  "text": "particular browser"
+ },
+ {
+  "start": 432.639,
+  "end": 433.99,
+  "text": "now we can also change the test"
+ },
+ {
+  "start": 434.0,
+  "end": 435.909,
+  "text": "configuration parameter value in this"
+ },
+ {
+  "start": 435.919,
+  "end": 438.309,
+  "text": "case it is browser so you can put any"
+ },
+ {
+  "start": 438.319,
+  "end": 440.15,
+  "text": "value for this right now the default"
+ },
+ {
+  "start": 440.16,
+  "end": 442.23,
+  "text": "isn't in the explorer that's where the"
+ },
+ {
+  "start": 442.24,
+  "end": 445.189,
+  "text": "test case was designed right so probably"
+ },
+ {
+  "start": 445.199,
+  "end": 446.79,
+  "text": "you will try to run it in the same"
+ },
+ {
+  "start": 446.8,
+  "end": 449.029,
+  "text": "browser but if you want to run your test"
+ },
+ {
+  "start": 449.039,
+  "end": 450.95,
+  "text": "case on other browsers like chrome edge"
+ },
+ {
+  "start": 450.96,
+  "end": 453.99,
+  "text": "firefox you can select those values okay"
+ },
+ {
+  "start": 454.0,
+  "end": 455.83,
+  "text": "similarly you can add any number of test"
+ },
+ {
+  "start": 455.84,
+  "end": 458.23,
+  "text": "configuration parameters by just right"
+ },
+ {
+  "start": 458.24,
+  "end": 459.749,
+  "text": "clicking on the test case and then"
+ },
+ {
+  "start": 459.759,
+  "end": 462.309,
+  "text": "clicking on this purple square button"
+ },
+ {
+  "start": 462.319,
+  "end": 464.39,
+  "text": "which is for adding"
+ },
+ {
+  "start": 464.4,
+  "end": 466.469,
+  "text": "a different test configuration parameter"
+ },
+ {
+  "start": 466.479,
+  "end": 469.029,
+  "text": "for your test case okay so this is how"
+ },
+ {
+  "start": 469.039,
+  "end": 471.27,
+  "text": "you can add different test configuration"
+ },
+ {
+  "start": 471.28,
+  "end": 473.35,
+  "text": "parameters"
+ },
+ {
+  "start": 473.36,
+  "end": 476.469,
+  "text": "okay uh let's reset to default value"
+ },
+ {
+  "start": 476.479,
+  "end": 479.83,
+  "text": "and now we have seen what uh are the"
+ },
+ {
+  "start": 479.84,
+  "end": 481.67,
+  "text": "details of our test cases what are test"
+ },
+ {
+  "start": 481.68,
+  "end": 484.629,
+  "text": "configuration parameters and now"
+ },
+ {
+  "start": 484.639,
+  "end": 486.469,
+  "text": "we'll look at the control flow diagram"
+ },
+ {
+  "start": 486.479,
+  "end": 488.309,
+  "text": "right so this is a simple uh"
+ },
+ {
+  "start": 488.319,
+  "end": 490.71,
+  "text": "representational view of your test case"
+ },
+ {
+  "start": 490.72,
+  "end": 492.629,
+  "text": "right so the complete flow of the test"
+ },
+ {
+  "start": 492.639,
+  "end": 494.55,
+  "text": "case with all the different steps which"
+ },
+ {
+  "start": 494.56,
+  "end": 498.55,
+  "text": "are involved here okay"
+ },
+ {
+  "start": 500.869,
+  "end": 500.879,
+  "text": "now that we have a good view of um how"
+ },
+ {
+  "start": 500.879,
+  "end": 503.029,
+  "text": "we can design our test case um what"
+ },
+ {
+  "start": 503.039,
+  "end": 504.869,
+  "text": "values we can pass what is the test"
+ },
+ {
+  "start": 504.879,
+  "end": 507.27,
+  "text": "configuration parameter right"
+ },
+ {
+  "start": 507.28,
+  "end": 509.43,
+  "text": "let's see how we can run our test case"
+ },
+ {
+  "start": 509.44,
+  "end": 511.51,
+  "text": "so for that you can go to the test case"
+ },
+ {
+  "start": 511.52,
+  "end": 513.589,
+  "text": "and then right click there's an option"
+ },
+ {
+  "start": 513.599,
+  "end": 516.07,
+  "text": "run in scratch book that option is also"
+ },
+ {
+  "start": 516.08,
+  "end": 519.509,
+  "text": "available on the top sidebar right under"
+ },
+ {
+  "start": 519.519,
+  "end": 521.589,
+  "text": "test cases you can see a green play"
+ },
+ {
+  "start": 521.599,
+  "end": 524.31,
+  "text": "button which is run in scratch book so"
+ },
+ {
+  "start": 524.32,
+  "end": 526.63,
+  "text": "if you go ahead and select your test"
+ },
+ {
+  "start": 526.64,
+  "end": 528.15,
+  "text": "case and then"
+ },
+ {
+  "start": 528.16,
+  "end": 529.829,
+  "text": "run your test case"
+ },
+ {
+  "start": 529.839,
+  "end": 532.23,
+  "text": "using the run in scratch book it will"
+ },
+ {
+  "start": 532.24,
+  "end": 533.829,
+  "text": "start running your test case on the"
+ },
+ {
+  "start": 533.839,
+  "end": 535.99,
+  "text": "application so as you can see it has"
+ },
+ {
+  "start": 536.0,
+  "end": 538.71,
+  "text": "performed all the different actions on"
+ },
+ {
+  "start": 538.72,
+  "end": 543.03,
+  "text": "the particular application right"
+ },
+ {
+  "start": 543.04,
+  "end": 545.35,
+  "text": "now once it is finished you can go back"
+ },
+ {
+  "start": 545.36,
+  "end": 547.59,
+  "text": "here and you can see this is the scratch"
+ },
+ {
+  "start": 547.6,
+  "end": 549.03,
+  "text": "book right"
+ },
+ {
+  "start": 549.04,
+  "end": 552.47,
+  "text": "so uh in scratch book you can do some"
+ },
+ {
+  "start": 552.48,
+  "end": 555.75,
+  "text": "dry run testing of your test case okay"
+ },
+ {
+  "start": 555.76,
+  "end": 558.15,
+  "text": "so if you want to check whether your"
+ },
+ {
+  "start": 558.16,
+  "end": 559.99,
+  "text": "test case is working fine"
+ },
+ {
+  "start": 560.0,
+  "end": 562.23,
+  "text": "or not or you have any issues then you"
+ },
+ {
+  "start": 562.24,
+  "end": 564.47,
+  "text": "can use this run in scratch book"
+ },
+ {
+  "start": 564.48,
+  "end": 566.949,
+  "text": "the only thing to remember is it's not"
+ },
+ {
+  "start": 566.959,
+  "end": 568.79,
+  "text": "permanently stored right so these"
+ },
+ {
+  "start": 568.8,
+  "end": 571.11,
+  "text": "results are not stored anywhere it is"
+ },
+ {
+  "start": 571.12,
+  "end": 574.23,
+  "text": "only on a temporary basis right so for"
+ },
+ {
+  "start": 574.24,
+  "end": 576.79,
+  "text": "uh storing results and all you need to"
+ },
+ {
+  "start": 576.8,
+  "end": 581.509,
+  "text": "run it from a different place okay"
+ },
+ {
+  "start": 581.519,
+  "end": 583.829,
+  "text": "so as you can see uh it will display all"
+ },
+ {
+  "start": 583.839,
+  "end": 585.67,
+  "text": "the different steps it has performed"
+ },
+ {
+  "start": 585.68,
+  "end": 587.75,
+  "text": "right which has passed and which has"
+ },
+ {
+  "start": 587.76,
+  "end": 591.03,
+  "text": "failed inside this scratch book okay and"
+ },
+ {
+  "start": 591.04,
+  "end": 593.91,
+  "text": "that start time and duration also if"
+ },
+ {
+  "start": 593.92,
+  "end": 595.99,
+  "text": "you're logging any information or"
+ },
+ {
+  "start": 596.0,
+  "end": 598.47,
+  "text": "message it will show it in the log info"
+ },
+ {
+  "start": 598.48,
+  "end": 601.75,
+  "text": "right so this is your scratch book"
+ },
+ {
+  "start": 601.76,
+  "end": 602.71,
+  "text": "now"
+ },
+ {
+  "start": 602.72,
+  "end": 604.949,
+  "text": "as i said uh this is only"
+ },
+ {
+  "start": 604.959,
+  "end": 607.59,
+  "text": "it only stores temporary results right"
+ },
+ {
+  "start": 607.6,
+  "end": 608.87,
+  "text": "if you want to"
+ },
+ {
+  "start": 608.88,
+  "end": 611.67,
+  "text": "store your results uh permanently or on"
+ },
+ {
+  "start": 611.68,
+  "end": 614.15,
+  "text": "a permanent basis you need to execute"
+ },
+ {
+  "start": 614.16,
+  "end": 617.35,
+  "text": "your test from the execution folder okay"
+ },
+ {
+  "start": 617.36,
+  "end": 619.19,
+  "text": "so there you need to create an execution"
+ },
+ {
+  "start": 619.2,
+  "end": 621.35,
+  "text": "list and then you need to create your"
+ },
+ {
+  "start": 621.36,
+  "end": 623.59,
+  "text": "execution folder and then"
+ },
+ {
+  "start": 623.6,
+  "end": 625.67,
+  "text": "bring your test cases here and start"
+ },
+ {
+  "start": 625.68,
+  "end": 627.59,
+  "text": "execution okay"
+ },
+ {
+  "start": 627.6,
+  "end": 629.59,
+  "text": "so that's how you can"
+ },
+ {
+  "start": 629.6,
+  "end": 632.55,
+  "text": "run an existing test case from your"
+ },
+ {
+  "start": 632.56,
+  "end": 634.79,
+  "text": "project in tosca right so this"
+ },
+ {
+  "start": 634.8,
+  "end": 636.55,
+  "text": "particular test case was provided by"
+ },
+ {
+  "start": 636.56,
+  "end": 639.43,
+  "text": "tosca but in our next session we'll be"
+ },
+ {
+  "start": 639.44,
+  "end": 641.67,
+  "text": "looking at how we can design our own"
+ },
+ {
+  "start": 641.68,
+  "end": 644.31,
+  "text": "test case okay how we can automate a"
+ },
+ {
+  "start": 644.32,
+  "end": 646.79,
+  "text": "particular application using tosca and"
+ },
+ {
+  "start": 646.8,
+  "end": 648.87,
+  "text": "that is when i am going to introduce you"
+ },
+ {
+  "start": 648.88,
+  "end": 650.79,
+  "text": "to some of the other folders like"
+ },
+ {
+  "start": 650.8,
+  "end": 653.03,
+  "text": "modules right how do you"
+ },
+ {
+  "start": 653.04,
+  "end": 655.59,
+  "text": "um store all the technical information"
+ },
+ {
+  "start": 655.6,
+  "end": 657.91,
+  "text": "in the modules folder and then use it in"
+ },
+ {
+  "start": 657.92,
+  "end": 660.55,
+  "text": "your test cases right we'll also try to"
+ },
+ {
+  "start": 660.56,
+  "end": 663.59,
+  "text": "see how we can execute our particular"
+ },
+ {
+  "start": 663.6,
+  "end": 665.829,
+  "text": "test case from the execution folder"
+ },
+ {
+  "start": 665.839,
+  "end": 666.63,
+  "text": "right"
+ },
+ {
+  "start": 666.64,
+  "end": 668.949,
+  "text": "so uh slowly we'll also learn about"
+ },
+ {
+  "start": 668.959,
+  "end": 671.59,
+  "text": "requirements uh and test case design and"
+ },
+ {
+  "start": 671.6,
+  "end": 673.91,
+  "text": "how it can be linked to different test"
+ },
+ {
+  "start": 673.92,
+  "end": 678.519,
+  "text": "cases and modules right"
+ }
+]

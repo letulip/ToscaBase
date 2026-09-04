@@ -1,0 +1,612 @@
+[
+ {
+  "start": 7.49,
+  "end": 7.5,
+  "text": "hey everyone welcome back to the stores"
+ },
+ {
+  "start": 7.5,
+  "end": 9.53,
+  "text": "automation playlist and we are talking"
+ },
+ {
+  "start": 9.54,
+  "end": 11.87,
+  "text": "about Tosca best practices"
+ },
+ {
+  "start": 11.88,
+  "end": 13.91,
+  "text": "now this is the fifth video in the"
+ },
+ {
+  "start": 13.92,
+  "end": 15.709,
+  "text": "series so if you have not watched the"
+ },
+ {
+  "start": 15.719,
+  "end": 17.99,
+  "text": "previous ones go to the playlist and"
+ },
+ {
+  "start": 18.0,
+  "end": 20.63,
+  "text": "watch all of these previous videos"
+ },
+ {
+  "start": 20.64,
+  "end": 23.33,
+  "text": "now coming to the best practice number"
+ },
+ {
+  "start": 23.34,
+  "end": 26.39,
+  "text": "five but before we start I would also"
+ },
+ {
+  "start": 26.4,
+  "end": 28.13,
+  "text": "recommend you to subscribe to our"
+ },
+ {
+  "start": 28.14,
+  "end": 29.99,
+  "text": "channel so that you don't miss out on"
+ },
+ {
+  "start": 30.0,
+  "end": 32.69,
+  "text": "all the future videos uh as soon as we"
+ },
+ {
+  "start": 32.7,
+  "end": 34.43,
+  "text": "upload them okay"
+ },
+ {
+  "start": 34.44,
+  "end": 36.65,
+  "text": "so this best practice is talking about"
+ },
+ {
+  "start": 36.66,
+  "end": 40.31,
+  "text": "no mouse or keyboard methods so minimize"
+ },
+ {
+  "start": 40.32,
+  "end": 42.229,
+  "text": "the methods which are related to mouse"
+ },
+ {
+  "start": 42.239,
+  "end": 45.35,
+  "text": "or keyboard and these are basically uh"
+ },
+ {
+  "start": 45.36,
+  "end": 48.11,
+  "text": "it could be any method it could be some"
+ },
+ {
+  "start": 48.12,
+  "end": 50.63,
+  "text": "key combinations from a keyboard or it"
+ },
+ {
+  "start": 50.64,
+  "end": 53.09,
+  "text": "could be a mouse click right and you can"
+ },
+ {
+  "start": 53.1,
+  "end": 56.27,
+  "text": "use them in some of the methods like the"
+ },
+ {
+  "start": 56.28,
+  "end": 58.97,
+  "text": "send Keys method okay and it is very"
+ },
+ {
+  "start": 58.98,
+  "end": 61.549,
+  "text": "common uh whenever you want to click on"
+ },
+ {
+  "start": 61.559,
+  "end": 63.65,
+  "text": "a button or a link you generally use"
+ },
+ {
+  "start": 63.66,
+  "end": 66.59,
+  "text": "this click method okay or you want to"
+ },
+ {
+  "start": 66.6,
+  "end": 69.649,
+  "text": "send some key key combinations through"
+ },
+ {
+  "start": 69.659,
+  "end": 71.69,
+  "text": "your keyboard you in your send Keys"
+ },
+ {
+  "start": 71.7,
+  "end": 73.25,
+  "text": "method you use all these key"
+ },
+ {
+  "start": 73.26,
+  "end": 75.17,
+  "text": "combinations right so you have to"
+ },
+ {
+  "start": 75.18,
+  "end": 77.33,
+  "text": "understand that Tosca is trying to"
+ },
+ {
+  "start": 77.34,
+  "end": 80.39,
+  "text": "simulate this uh keystrokes from your"
+ },
+ {
+  "start": 80.4,
+  "end": 83.69,
+  "text": "keyboard or the click buttons from the"
+ },
+ {
+  "start": 83.7,
+  "end": 86.57,
+  "text": "mouse right using this methods which is"
+ },
+ {
+  "start": 86.58,
+  "end": 88.73,
+  "text": "defined in the Microsoft Keys okay so"
+ },
+ {
+  "start": 88.74,
+  "end": 90.41,
+  "text": "these are basically Keys which are"
+ },
+ {
+  "start": 90.42,
+  "end": 92.749,
+  "text": "defined by Microsoft which works in a"
+ },
+ {
+  "start": 92.759,
+  "end": 95.87,
+  "text": "Windows based operating system right so"
+ },
+ {
+  "start": 95.88,
+  "end": 98.749,
+  "text": "uh that's what Tosca is doing and for"
+ },
+ {
+  "start": 98.759,
+  "end": 101.17,
+  "text": "that uh it needs to connect to different"
+ },
+ {
+  "start": 101.18,
+  "end": 103.609,
+  "text": "apis through which it can basically"
+ },
+ {
+  "start": 103.619,
+  "end": 106.249,
+  "text": "perform this particular operation all"
+ },
+ {
+  "start": 106.259,
+  "end": 109.37,
+  "text": "right but you have to understand due to"
+ },
+ {
+  "start": 109.38,
+  "end": 112.429,
+  "text": "the complexity of this uh it may not be"
+ },
+ {
+  "start": 112.439,
+  "end": 115.37,
+  "text": "the best way to do this okay so"
+ },
+ {
+  "start": 115.38,
+  "end": 119.929,
+  "text": "generally uh it is much slower and not"
+ },
+ {
+  "start": 119.939,
+  "end": 123.23,
+  "text": "so stable okay so you can still use this"
+ },
+ {
+  "start": 123.24,
+  "end": 125.51,
+  "text": "method but uh class centers recommends"
+ },
+ {
+  "start": 125.52,
+  "end": 128.99,
+  "text": "that you minimize the use of this or you"
+ },
+ {
+  "start": 129.0,
+  "end": 132.17,
+  "text": "use something else okay for example if"
+ },
+ {
+  "start": 132.18,
+  "end": 134.21,
+  "text": "you are using this click method instead"
+ },
+ {
+  "start": 134.22,
+  "end": 138.589,
+  "text": "of that you can put a x now this x is"
+ },
+ {
+  "start": 138.599,
+  "end": 140.93,
+  "text": "doing the same thing as a click method"
+ },
+ {
+  "start": 140.94,
+  "end": 143.57,
+  "text": "so it will perform the click on a button"
+ },
+ {
+  "start": 143.58,
+  "end": 148.13,
+  "text": "or on a link right but it is much faster"
+ },
+ {
+  "start": 148.14,
+  "end": 151.49,
+  "text": "and also considered more stable okay"
+ },
+ {
+  "start": 151.5,
+  "end": 153.65,
+  "text": "so you have to take care of these things"
+ },
+ {
+  "start": 153.66,
+  "end": 155.75,
+  "text": "whenever you are designing your test"
+ },
+ {
+  "start": 155.76,
+  "end": 159.05,
+  "text": "case and in your test steps I try to use"
+ },
+ {
+  "start": 159.06,
+  "end": 160.729,
+  "text": "the more efficient and more faster"
+ },
+ {
+  "start": 160.739,
+  "end": 164.089,
+  "text": "methods instead of the regular methods"
+ },
+ {
+  "start": 164.099,
+  "end": 165.89,
+  "text": "okay"
+ },
+ {
+  "start": 165.9,
+  "end": 169.79,
+  "text": "so let's try to look at an example okay"
+ },
+ {
+  "start": 169.8,
+  "end": 173.33,
+  "text": "a real-time example on how this can be"
+ },
+ {
+  "start": 173.34,
+  "end": 178.61,
+  "text": "done so in our last uh best practice we"
+ },
+ {
+  "start": 178.62,
+  "end": 180.41,
+  "text": "were talking about the sweet on method"
+ },
+ {
+  "start": 180.42,
+  "end": 184.13,
+  "text": "right and in this test case you can see"
+ },
+ {
+  "start": 184.14,
+  "end": 187.97,
+  "text": "I have used uh The Click method okay"
+ },
+ {
+  "start": 187.98,
+  "end": 190.61,
+  "text": "to click on this particular buttons like"
+ },
+ {
+  "start": 190.62,
+  "end": 193.009,
+  "text": "calculate and send and it works"
+ },
+ {
+  "start": 193.019,
+  "end": 195.29,
+  "text": "absolutely fine you may not even notice"
+ },
+ {
+  "start": 195.3,
+  "end": 197.53,
+  "text": "the difference if I use something else"
+ },
+ {
+  "start": 197.54,
+  "end": 201.41,
+  "text": "but uh in the long run when you are"
+ },
+ {
+  "start": 201.42,
+  "end": 204.53,
+  "text": "executing long lot of test cases a small"
+ },
+ {
+  "start": 204.54,
+  "end": 208.369,
+  "text": "change or a small Improvement in the"
+ },
+ {
+  "start": 208.379,
+  "end": 211.25,
+  "text": "execution could help you immensely right"
+ },
+ {
+  "start": 211.26,
+  "end": 213.77,
+  "text": "so it can speed up your execution your"
+ },
+ {
+  "start": 213.78,
+  "end": 216.29,
+  "text": "execution time could come down okay so"
+ },
+ {
+  "start": 216.3,
+  "end": 218.39,
+  "text": "you have to take care of a small things"
+ },
+ {
+  "start": 218.4,
+  "end": 222.17,
+  "text": "in order to make your uh test set more"
+ },
+ {
+  "start": 222.18,
+  "end": 225.35,
+  "text": "efficient Okay so so instead of this"
+ },
+ {
+  "start": 225.36,
+  "end": 228.589,
+  "text": "click method uh what we can do is we can"
+ },
+ {
+  "start": 228.599,
+  "end": 231.47,
+  "text": "write X here okay"
+ },
+ {
+  "start": 231.48,
+  "end": 234.77,
+  "text": "and the same I can do it here"
+ },
+ {
+  "start": 234.78,
+  "end": 238.009,
+  "text": "and as you can see uh it is going to"
+ },
+ {
+  "start": 238.019,
+  "end": 240.53,
+  "text": "perform the same operation okay so let's"
+ },
+ {
+  "start": 240.54,
+  "end": 243.53,
+  "text": "run this and let's verify this so I'm"
+ },
+ {
+  "start": 243.54,
+  "end": 246.41,
+  "text": "going to run this now and it should work"
+ },
+ {
+  "start": 246.42,
+  "end": 248.69,
+  "text": "exactly the same as it was working"
+ },
+ {
+  "start": 248.7,
+  "end": 250.91,
+  "text": "earlier okay"
+ },
+ {
+  "start": 250.92,
+  "end": 253.61,
+  "text": "so let's see uh if it is still working"
+ },
+ {
+  "start": 253.62,
+  "end": 255.83,
+  "text": "the same using"
+ },
+ {
+  "start": 255.84,
+  "end": 258.59,
+  "text": "um this particular method instead of the"
+ },
+ {
+  "start": 258.6,
+  "end": 262.009,
+  "text": "mouse or keyboard method right"
+ },
+ {
+  "start": 262.019,
+  "end": 264.53,
+  "text": "so it is clicked on the calculate button"
+ },
+ {
+  "start": 264.54,
+  "end": 267.469,
+  "text": "uh you've watched it"
+ },
+ {
+  "start": 267.479,
+  "end": 269.57,
+  "text": "the difference you will see that the"
+ },
+ {
+  "start": 269.58,
+  "end": 271.79,
+  "text": "mouse pointer has not moved to the"
+ },
+ {
+  "start": 271.8,
+  "end": 274.37,
+  "text": "button because Tosca is not actually"
+ },
+ {
+  "start": 274.38,
+  "end": 276.29,
+  "text": "simulating the mouse and keyboard"
+ },
+ {
+  "start": 276.3,
+  "end": 279.17,
+  "text": "movements okay so it is doing this"
+ },
+ {
+  "start": 279.18,
+  "end": 282.29,
+  "text": "internally and that's why I said this"
+ },
+ {
+  "start": 282.3,
+  "end": 285.29,
+  "text": "method is much faster because it is not"
+ },
+ {
+  "start": 285.3,
+  "end": 288.05,
+  "text": "a UI interaction right it is doing that"
+ },
+ {
+  "start": 288.06,
+  "end": 290.749,
+  "text": "internally so it is much faster than"
+ },
+ {
+  "start": 290.759,
+  "end": 294.17,
+  "text": "simulating the exact way a human does it"
+ },
+ {
+  "start": 294.18,
+  "end": 297.469,
+  "text": "right like we take the mouse pointer and"
+ },
+ {
+  "start": 297.479,
+  "end": 299.21,
+  "text": "then we click on a particular button"
+ },
+ {
+  "start": 299.22,
+  "end": 301.49,
+  "text": "right so that's the simulation which is"
+ },
+ {
+  "start": 301.5,
+  "end": 303.71,
+  "text": "performed when you use a keyboard or"
+ },
+ {
+  "start": 303.72,
+  "end": 307.01,
+  "text": "Mouse method but if you use something"
+ },
+ {
+  "start": 307.02,
+  "end": 309.35,
+  "text": "else then it will be much faster right"
+ },
+ {
+  "start": 309.36,
+  "end": 311.629,
+  "text": "because you don't need to do that on the"
+ },
+ {
+  "start": 311.639,
+  "end": 315.59,
+  "text": "UI okay so to conclude Transcendence"
+ },
+ {
+  "start": 315.6,
+  "end": 318.65,
+  "text": "recommends that don't use or minimize"
+ },
+ {
+  "start": 318.66,
+  "end": 321.409,
+  "text": "the use of uh the mouse and keyboard"
+ },
+ {
+  "start": 321.419,
+  "end": 324.29,
+  "text": "methods instead of this try to find a"
+ },
+ {
+  "start": 324.3,
+  "end": 328.79,
+  "text": "more efficient and faster method okay"
+ },
+ {
+  "start": 328.8,
+  "end": 331.129,
+  "text": "so that's all for this video I hope you"
+ },
+ {
+  "start": 331.139,
+  "end": 333.409,
+  "text": "like it and you enjoyed it"
+ },
+ {
+  "start": 333.419,
+  "end": 335.21,
+  "text": "um there are lots more videos coming up"
+ },
+ {
+  "start": 335.22,
+  "end": 338.39,
+  "text": "on our channel so keep watching and keep"
+ },
+ {
+  "start": 338.4,
+  "end": 340.82,
+  "text": "learning"
+ }
+]

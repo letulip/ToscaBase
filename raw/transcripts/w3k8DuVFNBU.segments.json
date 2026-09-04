@@ -1,0 +1,1202 @@
+[
+ {
+  "start": 10.97,
+  "end": 10.98,
+  "text": "in this Tasker session I'm going to show"
+ },
+ {
+  "start": 10.98,
+  "end": 13.37,
+  "text": "you how you can take screenshots in"
+ },
+ {
+  "start": 13.38,
+  "end": 16.07,
+  "text": "Tosca and I'm going to show you two ways"
+ },
+ {
+  "start": 16.08,
+  "end": 18.47,
+  "text": "of doing that in one way where you can"
+ },
+ {
+  "start": 18.48,
+  "end": 20.929,
+  "text": "take a screenshot anytime within your"
+ },
+ {
+  "start": 20.939,
+  "end": 23.63,
+  "text": "test case it is a particular"
+ },
+ {
+  "start": 23.64,
+  "end": 25.73,
+  "text": "key box module through which you can"
+ },
+ {
+  "start": 25.74,
+  "end": 27.95,
+  "text": "take this particular screenshot at any"
+ },
+ {
+  "start": 27.96,
+  "end": 31.49,
+  "text": "point as a test step right and then I'm"
+ },
+ {
+  "start": 31.5,
+  "end": 34.13,
+  "text": "going to show you how you can capture"
+ },
+ {
+  "start": 34.14,
+  "end": 37.49,
+  "text": "screenshots during execution only when"
+ },
+ {
+  "start": 37.5,
+  "end": 41.15,
+  "text": "your execution fails okay so both the"
+ },
+ {
+  "start": 41.16,
+  "end": 45.29,
+  "text": "ways are useful on their own methods but"
+ },
+ {
+  "start": 45.3,
+  "end": 48.65,
+  "text": "so both the ways you can use in order to"
+ },
+ {
+  "start": 48.66,
+  "end": 51.47,
+  "text": "take screenshots at different intervals"
+ },
+ {
+  "start": 51.48,
+  "end": 54.889,
+  "text": "either only during failures or if you"
+ },
+ {
+  "start": 54.899,
+  "end": 57.35,
+  "text": "want to have screenshots for any"
+ },
+ {
+  "start": 57.36,
+  "end": 59.93,
+  "text": "particular step or all the steps you can"
+ },
+ {
+  "start": 59.94,
+  "end": 62.15,
+  "text": "always implement this in your test cases"
+ },
+ {
+  "start": 62.16,
+  "end": 63.529,
+  "text": "okay"
+ },
+ {
+  "start": 63.539,
+  "end": 67.37,
+  "text": "so let's go ahead and look how we can do"
+ },
+ {
+  "start": 67.38,
+  "end": 69.41,
+  "text": "this right so for this I have created"
+ },
+ {
+  "start": 69.42,
+  "end": 71.95,
+  "text": "another test case folder uh screenshots"
+ },
+ {
+  "start": 71.96,
+  "end": 75.53,
+  "text": "and uh I'm using our earlier test case"
+ },
+ {
+  "start": 75.54,
+  "end": 78.83,
+  "text": "which we had used for this demo webshop"
+ },
+ {
+  "start": 78.84,
+  "end": 81.59,
+  "text": "to log in right the only difference is"
+ },
+ {
+  "start": 81.6,
+  "end": 84.59,
+  "text": "this time I'm using uh invalid"
+ },
+ {
+  "start": 84.6,
+  "end": 87.109,
+  "text": "credential to login and it is going to"
+ },
+ {
+  "start": 87.119,
+  "end": 88.49,
+  "text": "fail right"
+ },
+ {
+  "start": 88.5,
+  "end": 91.789,
+  "text": "okay so here you can see this is the"
+ },
+ {
+  "start": 91.799,
+  "end": 93.53,
+  "text": "test case with all the test steps like"
+ },
+ {
+  "start": 93.54,
+  "end": 96.41,
+  "text": "opening URL uh and then clicking on"
+ },
+ {
+  "start": 96.42,
+  "end": 99.23,
+  "text": "login uh entering the credentials this"
+ },
+ {
+  "start": 99.24,
+  "end": 102.649,
+  "text": "time I'm using uh invalid login and then"
+ },
+ {
+  "start": 102.659,
+  "end": 104.99,
+  "text": "verifying the login and then log out"
+ },
+ {
+  "start": 105.0,
+  "end": 107.569,
+  "text": "right but it is going to fail in the"
+ },
+ {
+  "start": 107.579,
+  "end": 110.99,
+  "text": "login step itself now we'll see how we"
+ },
+ {
+  "start": 111.0,
+  "end": 115.13,
+  "text": "can capture uh this failure of this"
+ },
+ {
+  "start": 115.14,
+  "end": 116.99,
+  "text": "particular test case in a cap in a"
+ },
+ {
+  "start": 117.0,
+  "end": 118.91,
+  "text": "screenshot and store it somewhere right"
+ },
+ {
+  "start": 118.92,
+  "end": 121.91,
+  "text": "but before that let me tell you how you"
+ },
+ {
+  "start": 121.92,
+  "end": 124.789,
+  "text": "can use a t-box module to capture a"
+ },
+ {
+  "start": 124.799,
+  "end": 127.01,
+  "text": "screenshot at any point in your test"
+ },
+ {
+  "start": 127.02,
+  "end": 131.57,
+  "text": "case Okay so again let's search for"
+ },
+ {
+  "start": 131.58,
+  "end": 135.35,
+  "text": "t-box screenshot okay so it is t-box"
+ },
+ {
+  "start": 135.36,
+  "end": 138.89,
+  "text": "take screenshot that's the module name"
+ },
+ {
+  "start": 138.9,
+  "end": 142.25,
+  "text": "and here you can choose an environment"
+ },
+ {
+  "start": 142.26,
+  "end": 145.67,
+  "text": "either you can choose a desktop or even"
+ },
+ {
+  "start": 145.68,
+  "end": 147.83,
+  "text": "a mobile okay so since we'll be working"
+ },
+ {
+  "start": 147.84,
+  "end": 150.77,
+  "text": "with desktop I will choose desktop and"
+ },
+ {
+  "start": 150.78,
+  "end": 152.99,
+  "text": "then uh we can choose a particular"
+ },
+ {
+  "start": 153.0,
+  "end": 155.33,
+  "text": "directory where this will be stored okay"
+ },
+ {
+  "start": 155.34,
+  "end": 158.71,
+  "text": "so let me choose a directory for this"
+ },
+ {
+  "start": 158.72,
+  "end": 162.949,
+  "text": "and it will be this okay"
+ },
+ {
+  "start": 162.959,
+  "end": 164.869,
+  "text": "and now file name"
+ },
+ {
+  "start": 164.879,
+  "end": 168.35,
+  "text": "now if you notice if I give a file name"
+ },
+ {
+  "start": 168.36,
+  "end": 171.35,
+  "text": "like a screenshot one"
+ },
+ {
+  "start": 171.36,
+  "end": 174.53,
+  "text": "every time it is going to uh"
+ },
+ {
+  "start": 174.54,
+  "end": 177.29,
+  "text": "every time it will try to rewrite this"
+ },
+ {
+  "start": 177.3,
+  "end": 179.27,
+  "text": "particular screenshot one because the"
+ },
+ {
+  "start": 179.28,
+  "end": 182.21,
+  "text": "name would still be same so if I run"
+ },
+ {
+  "start": 182.22,
+  "end": 184.25,
+  "text": "this test case multiple times it is"
+ },
+ {
+  "start": 184.26,
+  "end": 185.509,
+  "text": "going to overwrite this particular"
+ },
+ {
+  "start": 185.519,
+  "end": 188.39,
+  "text": "screenshot right but what if I want to"
+ },
+ {
+  "start": 188.4,
+  "end": 191.089,
+  "text": "store this all the screenshots which it"
+ },
+ {
+  "start": 191.099,
+  "end": 193.43,
+  "text": "is taking in different executions right"
+ },
+ {
+  "start": 193.44,
+  "end": 196.729,
+  "text": "so that can be done you just need to"
+ },
+ {
+  "start": 196.739,
+  "end": 199.43,
+  "text": "apply some Dynamic expression here so"
+ },
+ {
+  "start": 199.44,
+  "end": 202.49,
+  "text": "after screenshot what you can do uh you"
+ },
+ {
+  "start": 202.5,
+  "end": 204.77,
+  "text": "can put some Dynamic expression and I"
+ },
+ {
+  "start": 204.78,
+  "end": 205.67,
+  "text": "can"
+ },
+ {
+  "start": 205.68,
+  "end": 207.29,
+  "text": "use"
+ },
+ {
+  "start": 207.3,
+  "end": 211.369,
+  "text": "date time expression here so uh it will"
+ },
+ {
+  "start": 211.379,
+  "end": 214.61,
+  "text": "always be unique because it will be like"
+ },
+ {
+  "start": 214.62,
+  "end": 217.43,
+  "text": "it will put the date and then the time"
+ },
+ {
+  "start": 217.44,
+  "end": 221.149,
+  "text": "in in terms of minutes seconds hours so"
+ },
+ {
+  "start": 221.159,
+  "end": 223.97,
+  "text": "it will always be unique right it cannot"
+ },
+ {
+  "start": 223.98,
+  "end": 227.149,
+  "text": "be the same file name whenever you are"
+ },
+ {
+  "start": 227.159,
+  "end": 229.13,
+  "text": "using this kind of a dynamic file name"
+ },
+ {
+  "start": 229.14,
+  "end": 232.25,
+  "text": "right so now I can have multiple file"
+ },
+ {
+  "start": 232.26,
+  "end": 234.71,
+  "text": "names uh with different names right"
+ },
+ {
+  "start": 234.72,
+  "end": 237.05,
+  "text": "which contains screenshots of each"
+ },
+ {
+  "start": 237.06,
+  "end": 238.309,
+  "text": "execution"
+ },
+ {
+  "start": 238.319,
+  "end": 241.07,
+  "text": "okay so what I'm going to do I'm going"
+ },
+ {
+  "start": 241.08,
+  "end": 244.729,
+  "text": "to put this after uh we click on login"
+ },
+ {
+  "start": 244.739,
+  "end": 247.49,
+  "text": "okay this might not be useful if my"
+ },
+ {
+  "start": 247.5,
+  "end": 249.17,
+  "text": "login is failing"
+ },
+ {
+  "start": 249.18,
+  "end": 252.07,
+  "text": "um because if I put it after the login"
+ },
+ {
+  "start": 252.08,
+  "end": 255.229,
+  "text": "uh it probably won't get executed right"
+ },
+ {
+  "start": 255.239,
+  "end": 257.75,
+  "text": "because it will fail at the login step"
+ },
+ {
+  "start": 257.76,
+  "end": 260.39,
+  "text": "so let me put it before that so that at"
+ },
+ {
+  "start": 260.4,
+  "end": 262.85,
+  "text": "least we can see that this screenshot is"
+ },
+ {
+  "start": 262.86,
+  "end": 265.129,
+  "text": "being captured okay"
+ },
+ {
+  "start": 265.139,
+  "end": 281.27,
+  "text": "so uh let's go ahead and execute this"
+ },
+ {
+  "start": 284.15,
+  "end": 284.16,
+  "text": "okay so now a screenshot should be"
+ },
+ {
+  "start": 284.16,
+  "end": 287.629,
+  "text": "captured after it clicks on login and"
+ },
+ {
+  "start": 287.639,
+  "end": 290.39,
+  "text": "we'll verify that by going to that"
+ },
+ {
+  "start": 290.4,
+  "end": 293.99,
+  "text": "particular folder okay"
+ },
+ {
+  "start": 295.85,
+  "end": 295.86,
+  "text": "in the scratch book"
+ },
+ {
+  "start": 295.86,
+  "end": 298.129,
+  "text": "um you can see in that particular test"
+ },
+ {
+  "start": 298.139,
+  "end": 300.17,
+  "text": "step that it is showing you in the"
+ },
+ {
+  "start": 300.18,
+  "end": 302.689,
+  "text": "details where this particular screenshot"
+ },
+ {
+  "start": 302.699,
+  "end": 306.29,
+  "text": "is captured right so you can copy the"
+ },
+ {
+  "start": 306.3,
+  "end": 309.11,
+  "text": "path from here or if you know then you"
+ },
+ {
+  "start": 309.12,
+  "end": 311.15,
+  "text": "can also go to that particular path in"
+ },
+ {
+  "start": 311.16,
+  "end": 312.83,
+  "text": "the login info it will tell you a"
+ },
+ {
+  "start": 312.84,
+  "end": 315.29,
+  "text": "screenshot was successfully created okay"
+ },
+ {
+  "start": 315.3,
+  "end": 318.409,
+  "text": "so you can put these steps multiple"
+ },
+ {
+  "start": 318.419,
+  "end": 320.99,
+  "text": "times at various other places where you"
+ },
+ {
+  "start": 321.0,
+  "end": 323.689,
+  "text": "want to capture something right uh it"
+ },
+ {
+  "start": 323.699,
+  "end": 327.23,
+  "text": "could be part of any requirement right"
+ },
+ {
+  "start": 327.24,
+  "end": 330.85,
+  "text": "so here if I go I have got some other"
+ },
+ {
+  "start": 330.86,
+  "end": 333.409,
+  "text": "screenshots but this one is the one"
+ },
+ {
+  "start": 333.419,
+  "end": 336.89,
+  "text": "which I named it now screenshot you can"
+ },
+ {
+  "start": 336.9,
+  "end": 339.17,
+  "text": "see there is a particular date time"
+ },
+ {
+  "start": 339.18,
+  "end": 340.49,
+  "text": "right"
+ },
+ {
+  "start": 340.5,
+  "end": 343.55,
+  "text": "and if I run this again it will capture"
+ },
+ {
+  "start": 343.56,
+  "end": 345.469,
+  "text": "the same screenshot but with a different"
+ },
+ {
+  "start": 345.479,
+  "end": 347.629,
+  "text": "name okay"
+ },
+ {
+  "start": 347.639,
+  "end": 350.99,
+  "text": "so uh this seems to be useful but still"
+ },
+ {
+  "start": 351.0,
+  "end": 355.07,
+  "text": "it doesn't actually uh solve any purpose"
+ },
+ {
+  "start": 355.08,
+  "end": 358.31,
+  "text": "for me because I want to see where my"
+ },
+ {
+  "start": 358.32,
+  "end": 360.77,
+  "text": "test step has failed right and I want to"
+ },
+ {
+  "start": 360.78,
+  "end": 363.71,
+  "text": "capture something or"
+ },
+ {
+  "start": 363.72,
+  "end": 366.65,
+  "text": "and I want to capture a screenshot of my"
+ },
+ {
+  "start": 366.66,
+  "end": 370.31,
+  "text": "failure right so where it failed to do"
+ },
+ {
+  "start": 370.32,
+  "end": 372.71,
+  "text": "something or verify something uh in the"
+ },
+ {
+  "start": 372.72,
+  "end": 376.189,
+  "text": "application okay"
+ },
+ {
+  "start": 379.49,
+  "end": 379.5,
+  "text": "so uh to do this uh there is an"
+ },
+ {
+  "start": 379.5,
+  "end": 382.79,
+  "text": "automatic way you don't need to use any"
+ },
+ {
+  "start": 382.8,
+  "end": 385.07,
+  "text": "modules or make any changes to your test"
+ },
+ {
+  "start": 385.08,
+  "end": 387.65,
+  "text": "cases you can apply it at a project"
+ },
+ {
+  "start": 387.66,
+  "end": 390.71,
+  "text": "level okay so for that we need to go to"
+ },
+ {
+  "start": 390.72,
+  "end": 392.629,
+  "text": "Project settings"
+ },
+ {
+  "start": 392.639,
+  "end": 397.129,
+  "text": "right and then we need to go to D box"
+ },
+ {
+  "start": 397.139,
+  "end": 400.85,
+  "text": "and in this t-box there is something"
+ },
+ {
+  "start": 400.86,
+  "end": 404.57,
+  "text": "called a logging and inside logging that"
+ },
+ {
+  "start": 404.58,
+  "end": 406.85,
+  "text": "is screenshots okay"
+ },
+ {
+  "start": 406.86,
+  "end": 410.93,
+  "text": "so here by default uh make screenshot on"
+ },
+ {
+  "start": 410.94,
+  "end": 413.629,
+  "text": "failed test steps this will be uh"
+ },
+ {
+  "start": 413.639,
+  "end": 416.809,
+  "text": "switched off but you can turn it on okay"
+ },
+ {
+  "start": 416.819,
+  "end": 419.15,
+  "text": "and there are two options either on"
+ },
+ {
+  "start": 419.16,
+  "end": 421.43,
+  "text": "detection failure or verification"
+ },
+ {
+  "start": 421.44,
+  "end": 423.89,
+  "text": "failure I would suggest put it on the"
+ },
+ {
+  "start": 423.9,
+  "end": 426.23,
+  "text": "verification failure because that's"
+ },
+ {
+  "start": 426.24,
+  "end": 430.249,
+  "text": "where uh your tests will fail and you"
+ },
+ {
+  "start": 430.259,
+  "end": 432.35,
+  "text": "want to see them in results what has"
+ },
+ {
+  "start": 432.36,
+  "end": 434.27,
+  "text": "failed okay"
+ },
+ {
+  "start": 434.28,
+  "end": 437.15,
+  "text": "again screenshot directory you can put"
+ },
+ {
+  "start": 437.16,
+  "end": 439.37,
+  "text": "it anything I have put the same"
+ },
+ {
+  "start": 439.38,
+  "end": 441.89,
+  "text": "directory where it can store and then"
+ },
+ {
+  "start": 441.9,
+  "end": 443.629,
+  "text": "the image format right there are"
+ },
+ {
+  "start": 443.639,
+  "end": 445.189,
+  "text": "different image formats you can choose"
+ },
+ {
+  "start": 445.199,
+  "end": 448.189,
+  "text": "from I will choose PNG"
+ },
+ {
+  "start": 448.199,
+  "end": 451.129,
+  "text": "and these are the three settings which"
+ },
+ {
+  "start": 451.139,
+  "end": 454.01,
+  "text": "you need to do at a project level this"
+ },
+ {
+  "start": 454.02,
+  "end": 457.79,
+  "text": "will be applicable everywhere okay"
+ },
+ {
+  "start": 457.8,
+  "end": 460.73,
+  "text": "and now when we execute this test case"
+ },
+ {
+  "start": 460.74,
+  "end": 463.49,
+  "text": "again and if it fails it is going to"
+ },
+ {
+  "start": 463.5,
+  "end": 465.83,
+  "text": "capture a screenshot in that particular"
+ },
+ {
+  "start": 465.84,
+  "end": 467.45,
+  "text": "folder okay"
+ },
+ {
+  "start": 467.46,
+  "end": 483.05,
+  "text": "so let's go ahead and run this"
+ },
+ {
+  "start": 485.39,
+  "end": 485.4,
+  "text": "okay now when I look at the scratch book"
+ },
+ {
+  "start": 485.4,
+  "end": 488.11,
+  "text": "after this test case has been completed"
+ },
+ {
+  "start": 488.12,
+  "end": 490.67,
+  "text": "uh you will see that our normal"
+ },
+ {
+  "start": 490.68,
+  "end": 493.189,
+  "text": "screenshot has been taken as well"
+ },
+ {
+  "start": 493.199,
+  "end": 495.77,
+  "text": "because we did not remove this step but"
+ },
+ {
+  "start": 495.78,
+  "end": 498.89,
+  "text": "once this test case fails something has"
+ },
+ {
+  "start": 498.9,
+  "end": 500.869,
+  "text": "changed now in the detail section you"
+ },
+ {
+  "start": 500.879,
+  "end": 502.909,
+  "text": "can see there is a system.drawing dot"
+ },
+ {
+  "start": 502.919,
+  "end": 505.43,
+  "text": "bitmap but it doesn't show me the"
+ },
+ {
+  "start": 505.44,
+  "end": 508.01,
+  "text": "screenshot right so it is not possible"
+ },
+ {
+  "start": 508.02,
+  "end": 510.409,
+  "text": "to see this and scratchbook you need to"
+ },
+ {
+  "start": 510.419,
+  "end": 512.51,
+  "text": "run it in our execution list"
+ },
+ {
+  "start": 512.52,
+  "end": 515.69,
+  "text": "so let's go ahead and do that I have"
+ },
+ {
+  "start": 515.7,
+  "end": 518.69,
+  "text": "execution list folder here called demo"
+ },
+ {
+  "start": 518.7,
+  "end": 522.23,
+  "text": "and I'm going to pull this screenshots"
+ },
+ {
+  "start": 522.24,
+  "end": 525.11,
+  "text": "into this particular demo execution list"
+ },
+ {
+  "start": 525.12,
+  "end": 527.269,
+  "text": "folder okay"
+ },
+ {
+  "start": 527.279,
+  "end": 533.449,
+  "text": "so let's put this here and"
+ },
+ {
+  "start": 542.63,
+  "end": 542.64,
+  "text": "okay down"
+ },
+ {
+  "start": 542.64,
+  "end": 544.97,
+  "text": "so that's my execution list inside this"
+ },
+ {
+  "start": 544.98,
+  "end": 548.269,
+  "text": "I have got my test case right"
+ },
+ {
+  "start": 548.279,
+  "end": 552.05,
+  "text": "now let's go ahead and run this and"
+ },
+ {
+  "start": 552.06,
+  "end": 555.29,
+  "text": "let's see if it now shows the actual"
+ },
+ {
+  "start": 555.3,
+  "end": 568.49,
+  "text": "screenshot in our execution list results"
+ },
+ {
+  "start": 571.009,
+  "end": 571.019,
+  "text": "okay so now in the login for you will"
+ },
+ {
+  "start": 571.019,
+  "end": 573.47,
+  "text": "see that uh it is showing it as failed"
+ },
+ {
+  "start": 573.48,
+  "end": 576.53,
+  "text": "the test case but the important thing uh"
+ },
+ {
+  "start": 576.54,
+  "end": 578.99,
+  "text": "which we required is in the details"
+ },
+ {
+  "start": 579.0,
+  "end": 581.09,
+  "text": "section now you can see"
+ },
+ {
+  "start": 581.1,
+  "end": 584.389,
+  "text": "uh both uh the screenshots one which we"
+ },
+ {
+  "start": 584.399,
+  "end": 589.79,
+  "text": "have taken it uh by a module and also uh"
+ },
+ {
+  "start": 589.8,
+  "end": 592.91,
+  "text": "the failure test step right so the field"
+ },
+ {
+  "start": 592.92,
+  "end": 595.37,
+  "text": "test step where it failed on the"
+ },
+ {
+  "start": 595.38,
+  "end": 598.25,
+  "text": "verification part so it is going to take"
+ },
+ {
+  "start": 598.26,
+  "end": 601.07,
+  "text": "a screenshot automatically right you"
+ },
+ {
+  "start": 601.08,
+  "end": 602.87,
+  "text": "don't require any particular test step"
+ },
+ {
+  "start": 602.88,
+  "end": 604.43,
+  "text": "or any changes"
+ },
+ {
+  "start": 604.44,
+  "end": 607.55,
+  "text": "and you can extend this so this is part"
+ },
+ {
+  "start": 607.56,
+  "end": 609.53,
+  "text": "of your debugging right so whenever a"
+ },
+ {
+  "start": 609.54,
+  "end": 612.829,
+  "text": "test step fails you can then see where"
+ },
+ {
+  "start": 612.839,
+  "end": 616.43,
+  "text": "it exactly field but uh this is not the"
+ },
+ {
+  "start": 616.44,
+  "end": 618.949,
+  "text": "right this is not the right screenshot"
+ },
+ {
+  "start": 618.959,
+  "end": 621.769,
+  "text": "and that is because I closed the window"
+ },
+ {
+  "start": 621.779,
+  "end": 625.31,
+  "text": "uh even before or I came back to this"
+ },
+ {
+  "start": 625.32,
+  "end": 627.71,
+  "text": "window uh before it took a particular"
+ },
+ {
+  "start": 627.72,
+  "end": 630.17,
+  "text": "screenshot but let me run this again"
+ },
+ {
+  "start": 630.18,
+  "end": 633.41,
+  "text": "quickly and I will show you the correct"
+ },
+ {
+  "start": 633.42,
+  "end": 639.47,
+  "text": "screenshot right"
+ },
+ {
+  "start": 642.829,
+  "end": 642.839,
+  "text": "okay so once the test case is completely"
+ },
+ {
+  "start": 642.839,
+  "end": 645.17,
+  "text": "uh finished then only come to the"
+ },
+ {
+  "start": 645.18,
+  "end": 646.31,
+  "text": "results section"
+ },
+ {
+  "start": 646.32,
+  "end": 648.889,
+  "text": "or else you are going to get a different"
+ },
+ {
+  "start": 648.899,
+  "end": 651.71,
+  "text": "kind of screenshot right like I did"
+ },
+ {
+  "start": 651.72,
+  "end": 654.49,
+  "text": "so now uh coming to the latest execution"
+ },
+ {
+  "start": 654.5,
+  "end": 658.19,
+  "text": "uh here you will see that now it has got"
+ },
+ {
+  "start": 658.2,
+  "end": 661.67,
+  "text": "the correct screenshot here okay"
+ },
+ {
+  "start": 661.68,
+  "end": 663.829,
+  "text": "so you can see it is the demo webshop"
+ },
+ {
+  "start": 663.839,
+  "end": 667.069,
+  "text": "and uh now looking at the screenshot I"
+ },
+ {
+  "start": 667.079,
+  "end": 669.41,
+  "text": "can find out where my test is exactly"
+ },
+ {
+  "start": 669.42,
+  "end": 672.11,
+  "text": "filled right so it failed uh the login"
+ },
+ {
+  "start": 672.12,
+  "end": 675.23,
+  "text": "was unsuccessful because of uh incorrect"
+ },
+ {
+  "start": 675.24,
+  "end": 677.569,
+  "text": "email or password okay"
+ },
+ {
+  "start": 677.579,
+  "end": 681.35,
+  "text": "so looking at that then I can go ahead"
+ },
+ {
+  "start": 681.36,
+  "end": 685.55,
+  "text": "and fix my particular uh test case so"
+ },
+ {
+  "start": 685.56,
+  "end": 689.389,
+  "text": "it's it's good in terms of debugging any"
+ },
+ {
+  "start": 689.399,
+  "end": 692.63,
+  "text": "particular failures and the Tee Box take"
+ },
+ {
+  "start": 692.64,
+  "end": 695.69,
+  "text": "screenshot module is good for any"
+ },
+ {
+  "start": 695.7,
+  "end": 698.15,
+  "text": "particular screenshots which you want to"
+ },
+ {
+  "start": 698.16,
+  "end": 701.509,
+  "text": "capture at any point of time okay so you"
+ },
+ {
+  "start": 701.519,
+  "end": 704.81,
+  "text": "can use both hand in hand depending on"
+ },
+ {
+  "start": 704.82,
+  "end": 708.11,
+  "text": "your scenario how you want to perform or"
+ },
+ {
+  "start": 708.12,
+  "end": 710.569,
+  "text": "take screenshots while running your test"
+ },
+ {
+  "start": 710.579,
+  "end": 711.91,
+  "text": "cases"
+ },
+ {
+  "start": 711.92,
+  "end": 714.65,
+  "text": "so that's all for how you can take"
+ },
+ {
+  "start": 714.66,
+  "end": 717.71,
+  "text": "screenshots uh in Tosca using different"
+ },
+ {
+  "start": 717.72,
+  "end": 721.67,
+  "text": "ways one is a t-box module and one is a"
+ },
+ {
+  "start": 721.68,
+  "end": 723.41,
+  "text": "system settings"
+ },
+ {
+  "start": 723.42,
+  "end": 726.26,
+  "text": "foreign"
+ }
+]

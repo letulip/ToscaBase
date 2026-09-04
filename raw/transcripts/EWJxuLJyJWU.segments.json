@@ -1,0 +1,1007 @@
+[
+ {
+  "start": 12.589,
+  "end": 12.599,
+  "text": "hey everyone welcome back to our Channel"
+ },
+ {
+  "start": 12.599,
+  "end": 15.19,
+  "text": "I am back with another interesting topic"
+ },
+ {
+  "start": 15.2,
+  "end": 18.63,
+  "text": "in the tosa automation"
+ },
+ {
+  "start": 18.64,
+  "end": 21.47,
+  "text": "playlist so now uh we are going to talk"
+ },
+ {
+  "start": 21.48,
+  "end": 23.63,
+  "text": "about a problem which is very common"
+ },
+ {
+  "start": 23.64,
+  "end": 26.71,
+  "text": "across uh different projects or teams"
+ },
+ {
+  "start": 26.72,
+  "end": 30.109,
+  "text": "which is the problem of uh unattended"
+ },
+ {
+  "start": 30.119,
+  "end": 33.15,
+  "text": "execution which means uh you don't uh"
+ },
+ {
+  "start": 33.16,
+  "end": 36.03,
+  "text": "execute your automated test manually"
+ },
+ {
+  "start": 36.04,
+  "end": 38.83,
+  "text": "because it defeats the purpose of"
+ },
+ {
+  "start": 38.84,
+  "end": 41.069,
+  "text": "automation okay so you build your"
+ },
+ {
+  "start": 41.079,
+  "end": 43.79,
+  "text": "automated test but then you end up"
+ },
+ {
+  "start": 43.8,
+  "end": 46.63,
+  "text": "running them manually which is a waste"
+ },
+ {
+  "start": 46.64,
+  "end": 49.47,
+  "text": "of resources and time so every"
+ },
+ {
+  "start": 49.48,
+  "end": 51.35,
+  "text": "automation project no matter if you're"
+ },
+ {
+  "start": 51.36,
+  "end": 54.51,
+  "text": "using tosa or you are not using tosa you"
+ },
+ {
+  "start": 54.52,
+  "end": 57.59,
+  "text": "should have some kind of unattended"
+ },
+ {
+  "start": 57.6,
+  "end": 59.95,
+  "text": "execution which means you should be able"
+ },
+ {
+  "start": 59.96,
+  "end": 63.27,
+  "text": "ble to schedule your automated test to"
+ },
+ {
+  "start": 63.28,
+  "end": 66.429,
+  "text": "run without any manual interruption or"
+ },
+ {
+  "start": 66.439,
+  "end": 69.71,
+  "text": "without any manual efforts right so that"
+ },
+ {
+  "start": 69.72,
+  "end": 72.63,
+  "text": "should be unattended it should not be"
+ },
+ {
+  "start": 72.64,
+  "end": 76.39,
+  "text": "done by a person sitting behind a desk"
+ },
+ {
+  "start": 76.4,
+  "end": 78.51,
+  "text": "and manually executing the test and"
+ },
+ {
+  "start": 78.52,
+  "end": 81.71,
+  "text": "looking at those tests right so all this"
+ },
+ {
+  "start": 81.72,
+  "end": 84.429,
+  "text": "process should be automated now there"
+ },
+ {
+  "start": 84.439,
+  "end": 87.27,
+  "text": "are multiple ways to schedule this uh"
+ },
+ {
+  "start": 87.28,
+  "end": 89.87,
+  "text": "test executions one way is obviously"
+ },
+ {
+  "start": 89.88,
+  "end": 93.27,
+  "text": "viously you can use a cicd tool but what"
+ },
+ {
+  "start": 93.28,
+  "end": 96.03,
+  "text": "if you don't have any cicd integration"
+ },
+ {
+  "start": 96.04,
+  "end": 98.87,
+  "text": "or you don't have access to these tools"
+ },
+ {
+  "start": 98.88,
+  "end": 101.55,
+  "text": "then you can always fall back upon your"
+ },
+ {
+  "start": 101.56,
+  "end": 104.109,
+  "text": "windows scheduler which is a window"
+ },
+ {
+  "start": 104.119,
+  "end": 106.149,
+  "text": "based tool which can schedule any"
+ },
+ {
+  "start": 106.159,
+  "end": 108.469,
+  "text": "particular events and we can use this"
+ },
+ {
+  "start": 108.479,
+  "end": 112.19,
+  "text": "Windows scheduler to uh schedule our"
+ },
+ {
+  "start": 112.2,
+  "end": 115.789,
+  "text": "executions from tosa Commander so I'm"
+ },
+ {
+  "start": 115.799,
+  "end": 118.55,
+  "text": "going to show you how we can do that uh"
+ },
+ {
+  "start": 118.56,
+  "end": 122.069,
+  "text": "we already know about TC shell right so"
+ },
+ {
+  "start": 122.079,
+  "end": 124.95,
+  "text": "this is the command line tool for tosa"
+ },
+ {
+  "start": 124.96,
+  "end": 127.029,
+  "text": "through which you can do different tasks"
+ },
+ {
+  "start": 127.039,
+  "end": 130.27,
+  "text": "without even opening tosa commander and"
+ },
+ {
+  "start": 130.28,
+  "end": 133.589,
+  "text": "we are going to use the same method to"
+ },
+ {
+  "start": 133.599,
+  "end": 135.99,
+  "text": "uh schedule execution from the windows"
+ },
+ {
+  "start": 136.0,
+  "end": 137.79,
+  "text": "scheduler"
+ },
+ {
+  "start": 137.8,
+  "end": 140.71,
+  "text": "okay so for this um I have already"
+ },
+ {
+  "start": 140.72,
+  "end": 145.71,
+  "text": "prepared a TC shell okay script so if I"
+ },
+ {
+  "start": 145.72,
+  "end": 150.11,
+  "text": "open this it is in the format. TCS so"
+ },
+ {
+  "start": 150.12,
+  "end": 152.15,
+  "text": "whenever you are creating any tcell"
+ },
+ {
+  "start": 152.16,
+  "end": 154.91,
+  "text": "script it will be in the format of TCS"
+ },
+ {
+  "start": 154.92,
+  "end": 157.949,
+  "text": "which is the extension right now uh what"
+ },
+ {
+  "start": 157.959,
+  "end": 160.949,
+  "text": "I'm doing here so I'm using this tcsl"
+ },
+ {
+  "start": 160.959,
+  "end": 165.19,
+  "text": "commands so first one is to jump to node"
+ },
+ {
+  "start": 165.2,
+  "end": 168.19,
+  "text": "okay so what node it does it is going"
+ },
+ {
+  "start": 168.2,
+  "end": 171.55,
+  "text": "into the execution folder then into"
+ },
+ {
+  "start": 171.56,
+  "end": 174.83,
+  "text": "execution list and then into this swag"
+ },
+ {
+  "start": 174.84,
+  "end": 178.91,
+  "text": "Labs folder and then it is going into"
+ },
+ {
+  "start": 178.92,
+  "end": 183.27,
+  "text": "this run login okay when um I look at"
+ },
+ {
+  "start": 183.28,
+  "end": 186.35,
+  "text": "this so this is the jump to node which"
+ },
+ {
+  "start": 186.36,
+  "end": 188.509,
+  "text": "will basically uh jump to this"
+ },
+ {
+  "start": 188.519,
+  "end": 191.55,
+  "text": "particular node okay and then uh there"
+ },
+ {
+  "start": 191.56,
+  "end": 194.27,
+  "text": "is a task command which is to clear the"
+ },
+ {
+  "start": 194.28,
+  "end": 197.27,
+  "text": "log then there is a task to run the"
+ },
+ {
+  "start": 197.28,
+  "end": 199.789,
+  "text": "execution and then there's a task to"
+ },
+ {
+  "start": 199.799,
+  "end": 203.149,
+  "text": "save the results okay so these are all"
+ },
+ {
+  "start": 203.159,
+  "end": 205.309,
+  "text": "the tasks which this particular script"
+ },
+ {
+  "start": 205.319,
+  "end": 206.229,
+  "text": "will"
+ },
+ {
+  "start": 206.239,
+  "end": 210.55,
+  "text": "perform now the next uh thing here is"
+ },
+ {
+  "start": 210.56,
+  "end": 213.67,
+  "text": "the batch file okay so this is the batch"
+ },
+ {
+  "start": 213.68,
+  "end": 215.27,
+  "text": "command which will be"
+ },
+ {
+  "start": 215.28,
+  "end": 219.11,
+  "text": "executed and if we go ahead and look at"
+ },
+ {
+  "start": 219.12,
+  "end": 223.429,
+  "text": "it so if you look at edit a notepad so"
+ },
+ {
+  "start": 223.439,
+  "end": 226.75,
+  "text": "here uh it is first going into the"
+ },
+ {
+  "start": 226.76,
+  "end": 229.47,
+  "text": "commander home directory okay so there"
+ },
+ {
+  "start": 229.48,
+  "end": 232.47,
+  "text": "is a CD command and then this is uh the"
+ },
+ {
+  "start": 232.48,
+  "end": 235.63,
+  "text": "T Cell workspace command where we are"
+ },
+ {
+  "start": 235.64,
+  "end": 238.11,
+  "text": "trying to open the workspace okay so"
+ },
+ {
+  "start": 238.12,
+  "end": 242.11,
+  "text": "this is the workspace file path and then"
+ },
+ {
+  "start": 242.12,
+  "end": 244.63,
+  "text": "we are providing the login credentials"
+ },
+ {
+  "start": 244.64,
+  "end": 247.83,
+  "text": "for us it is a local workspace so it is"
+ },
+ {
+  "start": 247.84,
+  "end": 250.75,
+  "text": "got no login credentials and then we are"
+ },
+ {
+  "start": 250.76,
+  "end": 253.309,
+  "text": "passing uh the parameter which is the"
+ },
+ {
+  "start": 253.319,
+  "end": 257.469,
+  "text": "script okay so c training tcell script."
+ },
+ {
+  "start": 257.479,
+  "end": 260.59,
+  "text": "DCS which is the path of the file so"
+ },
+ {
+  "start": 260.6,
+  "end": 262.27,
+  "text": "this is the batch command which will be"
+ },
+ {
+  "start": 262.28,
+  "end": 265.59,
+  "text": "used for triggering the execution okay"
+ },
+ {
+  "start": 265.6,
+  "end": 267.99,
+  "text": "and this batch command will be uh"
+ },
+ {
+  "start": 268.0,
+  "end": 270.79,
+  "text": "triggered from the windows schedule"
+ },
+ {
+  "start": 270.8,
+  "end": 273.79,
+  "text": "right now uh we will go to the windows"
+ },
+ {
+  "start": 273.8,
+  "end": 276.909,
+  "text": "scheduler okay for that um I'm going to"
+ },
+ {
+  "start": 276.919,
+  "end": 280.43,
+  "text": "search for that okay so task"
+ },
+ {
+  "start": 280.44,
+  "end": 283.79,
+  "text": "scheduler and here is the task scheduler"
+ },
+ {
+  "start": 283.8,
+  "end": 286.87,
+  "text": "so we will open this we will go to the"
+ },
+ {
+  "start": 286.88,
+  "end": 290.029,
+  "text": "task scheduler Library okay and from the"
+ },
+ {
+  "start": 290.039,
+  "end": 293.43,
+  "text": "right hand side there is an actions tab"
+ },
+ {
+  "start": 293.44,
+  "end": 296.909,
+  "text": "so from here we will click on create"
+ },
+ {
+  "start": 296.919,
+  "end": 300.51,
+  "text": "task uh here we will provide it a name"
+ },
+ {
+  "start": 300.52,
+  "end": 305.029,
+  "text": "so we will say tosa"
+ },
+ {
+  "start": 308.43,
+  "end": 308.44,
+  "text": "executions okay so"
+ },
+ {
+  "start": 308.44,
+  "end": 310.07,
+  "text": "execution"
+ },
+ {
+  "start": 310.08,
+  "end": 312.87,
+  "text": "for"
+ },
+ {
+  "start": 312.88,
+  "end": 317.749,
+  "text": "tosa automated test okay so I'll give it"
+ },
+ {
+  "start": 317.759,
+  "end": 320.909,
+  "text": "a name and description then here uh we"
+ },
+ {
+  "start": 320.919,
+  "end": 325.629,
+  "text": "will run this with highest privileges"
+ },
+ {
+  "start": 325.639,
+  "end": 328.95,
+  "text": "okay then we'll go to the triggers tab"
+ },
+ {
+  "start": 328.96,
+  "end": 332.67,
+  "text": "here click on"
+ },
+ {
+  "start": 336.99,
+  "end": 337.0,
+  "text": "new and now we will um begin the tasks"
+ },
+ {
+  "start": 337.0,
+  "end": 338.95,
+  "text": "so you can see there are lots of"
+ },
+ {
+  "start": 338.96,
+  "end": 341.71,
+  "text": "different options right so we will keep"
+ },
+ {
+  "start": 341.72,
+  "end": 342.95,
+  "text": "it on a"
+ },
+ {
+  "start": 342.96,
+  "end": 347.59,
+  "text": "schedule um we'll keep it one time so I"
+ },
+ {
+  "start": 347.6,
+  "end": 351.59,
+  "text": "will keep it after just 2 minutes okay"
+ },
+ {
+  "start": 351.6,
+  "end": 355.23,
+  "text": "so that we see it uh"
+ },
+ {
+  "start": 355.24,
+  "end": 358.629,
+  "text": "running so let me make"
+ },
+ {
+  "start": 358.639,
+  "end": 362.95,
+  "text": "it"
+ },
+ {
+  "start": 365.35,
+  "end": 365.36,
+  "text": "okay and then there are advanced"
+ },
+ {
+  "start": 365.36,
+  "end": 367.39,
+  "text": "settings you can delay theask for random"
+ },
+ {
+  "start": 367.4,
+  "end": 370.029,
+  "text": "delay you can repeat the task uh every 1"
+ },
+ {
+  "start": 370.039,
+  "end": 371.469,
+  "text": "hour or"
+ },
+ {
+  "start": 371.479,
+  "end": 374.27,
+  "text": "duration um and then you can expire and"
+ },
+ {
+  "start": 374.28,
+  "end": 377.43,
+  "text": "stop task okay so these are okay uh"
+ },
+ {
+  "start": 377.44,
+  "end": 380.23,
+  "text": "we'll click on okay so our trigger is"
+ },
+ {
+  "start": 380.24,
+  "end": 384.07,
+  "text": "now enabled now we will go to actions uh"
+ },
+ {
+  "start": 384.08,
+  "end": 387.309,
+  "text": "we will click on new we will choose the"
+ },
+ {
+  "start": 387.319,
+  "end": 390.189,
+  "text": "action as start a program"
+ },
+ {
+  "start": 390.199,
+  "end": 393.029,
+  "text": "and then uh we'll choose the program"
+ },
+ {
+  "start": 393.039,
+  "end": 397.15,
+  "text": "script here okay so here we will choose"
+ },
+ {
+  "start": 397.16,
+  "end": 399.79,
+  "text": "the execute batch"
+ },
+ {
+  "start": 399.8,
+  "end": 402.67,
+  "text": "Command right and now we will click on"
+ },
+ {
+  "start": 402.68,
+  "end": 406.469,
+  "text": "okay and click on okay and now we will"
+ },
+ {
+  "start": 406.479,
+  "end": 409.909,
+  "text": "verify in the schedule Library whether"
+ },
+ {
+  "start": 409.919,
+  "end": 413.55,
+  "text": "our uh event is being displayed here or"
+ },
+ {
+  "start": 413.56,
+  "end": 417.27,
+  "text": "not right so you can see tosa executions"
+ },
+ {
+  "start": 417.28,
+  "end": 420.749,
+  "text": "uh status is ready triggered at this"
+ },
+ {
+  "start": 420.759,
+  "end": 424.589,
+  "text": "time on this date okay and it will also"
+ },
+ {
+  "start": 424.599,
+  "end": 427.23,
+  "text": "show you the next run time here so this"
+ },
+ {
+  "start": 427.24,
+  "end": 428.95,
+  "text": "is the next run"
+ },
+ {
+  "start": 428.96,
+  "end": 433.43,
+  "text": "time and now we just need to wait for"
+ },
+ {
+  "start": 433.44,
+  "end": 436.23,
+  "text": "this to trigger the execution okay so"
+ },
+ {
+  "start": 436.24,
+  "end": 438.71,
+  "text": "it'll trigger it after 2 minutes um what"
+ },
+ {
+  "start": 438.72,
+  "end": 442.07,
+  "text": "I can also do is I can basically right"
+ },
+ {
+  "start": 442.08,
+  "end": 445.749,
+  "text": "click on this and I can start the run"
+ },
+ {
+  "start": 445.759,
+  "end": 449.629,
+  "text": "right away okay or I can wait for uh it"
+ },
+ {
+  "start": 449.639,
+  "end": 452.189,
+  "text": "to execute at the given"
+ },
+ {
+  "start": 452.199,
+  "end": 455.83,
+  "text": "time so let's uh wait for this uh to"
+ },
+ {
+  "start": 455.84,
+  "end": 459.189,
+  "text": "trigger the event okay okay so as you"
+ },
+ {
+  "start": 459.199,
+  "end": 462.749,
+  "text": "can see U the Windows command uh it"
+ },
+ {
+  "start": 462.759,
+  "end": 466.43,
+  "text": "opened on its own and it started to run"
+ },
+ {
+  "start": 466.44,
+  "end": 468.07,
+  "text": "all the commands which we have provided"
+ },
+ {
+  "start": 468.08,
+  "end": 472.35,
+  "text": "in that batch Command right so uh it is"
+ },
+ {
+  "start": 472.36,
+  "end": 475.629,
+  "text": "now currently running but the problem is"
+ },
+ {
+  "start": 475.639,
+  "end": 479.629,
+  "text": "I have kept the workspace open right so"
+ },
+ {
+  "start": 479.639,
+  "end": 482.39,
+  "text": "uh it will not execute until I close the"
+ },
+ {
+  "start": 482.4,
+  "end": 485.67,
+  "text": "workspace because it cannot log in into"
+ },
+ {
+  "start": 485.68,
+  "end": 488.11,
+  "text": "the workspace right because it is open"
+ },
+ {
+  "start": 488.12,
+  "end": 490.23,
+  "text": "locally so I'm going to close my"
+ },
+ {
+  "start": 490.24,
+  "end": 491.35,
+  "text": "workspace"
+ },
+ {
+  "start": 491.36,
+  "end": 498.029,
+  "text": "now and here uh now we are going to say"
+ },
+ {
+  "start": 502.27,
+  "end": 502.28,
+  "text": "no okay um so to show you uh I'm going"
+ },
+ {
+  "start": 502.28,
+  "end": 506.11,
+  "text": "to change the time of this particular uh"
+ },
+ {
+  "start": 506.12,
+  "end": 509.11,
+  "text": "execution so what we are going to do is"
+ },
+ {
+  "start": 509.12,
+  "end": 512.99,
+  "text": "we are going to go to"
+ },
+ {
+  "start": 513.0,
+  "end": 516.269,
+  "text": "properties and we are going to triggers"
+ },
+ {
+  "start": 516.279,
+  "end": 520.19,
+  "text": "we will go and edit this trigger and we"
+ },
+ {
+  "start": 520.2,
+  "end": 523.99,
+  "text": "will try to trigger it again"
+ },
+ {
+  "start": 524.0,
+  "end": 529.03,
+  "text": "okay and we keep it zero click on okay"
+ },
+ {
+  "start": 529.04,
+  "end": 533.43,
+  "text": "and okay okay so now we will wait for it"
+ },
+ {
+  "start": 533.44,
+  "end": 535.47,
+  "text": "to trigger this particular execution"
+ },
+ {
+  "start": 535.48,
+  "end": 538.47,
+  "text": "this time it should run because I have"
+ },
+ {
+  "start": 538.48,
+  "end": 541.79,
+  "text": "closed the workspace"
+ },
+ {
+  "start": 544.43,
+  "end": 544.44,
+  "text": "so always remember that whenever you are"
+ },
+ {
+  "start": 544.44,
+  "end": 547.87,
+  "text": "running anything from TC shell uh then"
+ },
+ {
+  "start": 547.88,
+  "end": 550.069,
+  "text": "your workspace should be closed if"
+ },
+ {
+  "start": 550.079,
+  "end": 551.87,
+  "text": "you're trying to open it from your"
+ },
+ {
+  "start": 551.88,
+  "end": 555.19,
+  "text": "command line okay so as you can see uh"
+ },
+ {
+  "start": 555.2,
+  "end": 559.069,
+  "text": "it started the command prompt on its own"
+ },
+ {
+  "start": 559.079,
+  "end": 562.23,
+  "text": "I did not uh started it and it all also"
+ },
+ {
+  "start": 562.24,
+  "end": 564.15,
+  "text": "started the execution now so it is"
+ },
+ {
+  "start": 564.16,
+  "end": 566.389,
+  "text": "basically running the bad script in the"
+ },
+ {
+  "start": 566.399,
+  "end": 568.75,
+  "text": "background so it will complete this"
+ },
+ {
+  "start": 568.76,
+  "end": 571.829,
+  "text": "execution and then um it will perform"
+ },
+ {
+  "start": 571.839,
+  "end": 576.67,
+  "text": "all the tasks and uh it will end uh the"
+ },
+ {
+  "start": 576.68,
+  "end": 579.509,
+  "text": "event okay so whatever we have scheduled"
+ },
+ {
+  "start": 579.519,
+  "end": 582.509,
+  "text": "will run on its own you can do it on a"
+ },
+ {
+  "start": 582.519,
+  "end": 584.829,
+  "text": "daily basis you can do it on a weekly"
+ },
+ {
+  "start": 584.839,
+  "end": 588.389,
+  "text": "basis or you can do it on um any time"
+ },
+ {
+  "start": 588.399,
+  "end": 592.11,
+  "text": "you like right so this is a powerful uh"
+ },
+ {
+  "start": 592.12,
+  "end": 594.35,
+  "text": "scheduling tool okay you don't need to"
+ },
+ {
+  "start": 594.36,
+  "end": 597.55,
+  "text": "always depend on a cicd tool uh if you"
+ },
+ {
+  "start": 597.56,
+  "end": 599.949,
+  "text": "don't have a cicd integrated in your"
+ },
+ {
+  "start": 599.959,
+  "end": 603.43,
+  "text": "project you can still uh do unattended"
+ },
+ {
+  "start": 603.44,
+  "end": 606.35,
+  "text": "execution automatically using the Tas"
+ },
+ {
+  "start": 606.36,
+  "end": 609.63,
+  "text": "scheduler which is part of your windows"
+ },
+ {
+  "start": 609.64,
+  "end": 611.79,
+  "text": "uh operating"
+ },
+ {
+  "start": 611.8,
+  "end": 614.15,
+  "text": "system that's all for this particular"
+ },
+ {
+  "start": 614.16,
+  "end": 616.59,
+  "text": "video if you have any questions then"
+ },
+ {
+  "start": 616.6,
+  "end": 619.069,
+  "text": "please leave it in the comments if you"
+ },
+ {
+  "start": 619.079,
+  "end": 621.03,
+  "text": "like this video then please subscribe to"
+ },
+ {
+  "start": 621.04,
+  "end": 623.75,
+  "text": "our Channel thanks for watching and I"
+ },
+ {
+  "start": 623.76,
+  "end": 625.99,
+  "text": "will see you in the next"
+ },
+ {
+  "start": 626.0,
+  "end": 629.0,
+  "text": "video"
+ }
+]

@@ -1,0 +1,1832 @@
+[
+ {
+  "start": 3.51,
+  "end": 3.52,
+  "text": "Hey guys, welcome again. In this"
+ },
+ {
+  "start": 3.52,
+  "end": 5.269,
+  "text": "particular session, we are going to talk"
+ },
+ {
+  "start": 5.279,
+  "end": 9.509,
+  "text": "about TSCA CI/CD integration. So this"
+ },
+ {
+  "start": 9.519,
+  "end": 12.23,
+  "text": "integration will allow you to run your"
+ },
+ {
+  "start": 12.24,
+  "end": 15.91,
+  "text": "TSCA scripts in your own CI/CD pipeline"
+ },
+ {
+  "start": 15.92,
+  "end": 18.47,
+  "text": "and it could be any particular CI/CD"
+ },
+ {
+  "start": 18.48,
+  "end": 22.07,
+  "text": "integration tool like Genkins, GitLab or"
+ },
+ {
+  "start": 22.08,
+  "end": 24.87,
+  "text": "any other tool. So from the later"
+ },
+ {
+  "start": 24.88,
+  "end": 28.63,
+  "text": "versions of TSka like 15.2, two, TSka"
+ },
+ {
+  "start": 28.64,
+  "end": 32.31,
+  "text": "has introduced a new CI/CD integration"
+ },
+ {
+  "start": 32.32,
+  "end": 34.63,
+  "text": "uh client which is known as TSka"
+ },
+ {
+  "start": 34.64,
+  "end": 37.19,
+  "text": "execution client. So you can basically"
+ },
+ {
+  "start": 37.2,
+  "end": 39.43,
+  "text": "trigger your tests via this TSka"
+ },
+ {
+  "start": 39.44,
+  "end": 42.63,
+  "text": "execution client which is only a command"
+ },
+ {
+  "start": 42.64,
+  "end": 45.11,
+  "text": "line tool. So you can handle everything"
+ },
+ {
+  "start": 45.12,
+  "end": 48.869,
+  "text": "through the command line. Right now this"
+ },
+ {
+  "start": 48.879,
+  "end": 51.51,
+  "text": "option is only available with uh DEX"
+ },
+ {
+  "start": 51.52,
+  "end": 53.91,
+  "text": "with AOS. Now we have already seen how"
+ },
+ {
+  "start": 53.92,
+  "end": 57.59,
+  "text": "to set up Dex with AOS and run our test"
+ },
+ {
+  "start": 57.6,
+  "end": 61.91,
+  "text": "events through uh a DEX agent, right? Um"
+ },
+ {
+  "start": 61.92,
+  "end": 64.95,
+  "text": "now we'll try to do the same thing but"
+ },
+ {
+  "start": 64.96,
+  "end": 66.55,
+  "text": "we'll try to run it through the"
+ },
+ {
+  "start": 66.56,
+  "end": 68.55,
+  "text": "execution client rather than uh"
+ },
+ {
+  "start": 68.56,
+  "end": 70.55,
+  "text": "triggering triggering it from the"
+ },
+ {
+  "start": 70.56,
+  "end": 72.71,
+  "text": "workspace. We'll be triggering it from"
+ },
+ {
+  "start": 72.72,
+  "end": 74.109,
+  "text": "the command"
+ },
+ {
+  "start": 74.119,
+  "end": 78.149,
+  "text": "line. So uh let's get started. So first"
+ },
+ {
+  "start": 78.159,
+  "end": 80.71,
+  "text": "uh we need to download the TSA execution"
+ },
+ {
+  "start": 80.72,
+  "end": 83.51,
+  "text": "client. Now for this uh you can go to"
+ },
+ {
+  "start": 83.52,
+  "end": 85.749,
+  "text": "Google and search for Tska execution"
+ },
+ {
+  "start": 85.759,
+  "end": 88.51,
+  "text": "client and there you will find this"
+ },
+ {
+  "start": 88.52,
+  "end": 91.109,
+  "text": "github.com tricentis tuska execution"
+ },
+ {
+  "start": 91.119,
+  "end": 93.91,
+  "text": "client page. Okay. So this particular"
+ },
+ {
+  "start": 93.92,
+  "end": 97.35,
+  "text": "TSA execution client is hosted on GitHub"
+ },
+ {
+  "start": 97.36,
+  "end": 100.069,
+  "text": "with all the documentation and also the"
+ },
+ {
+  "start": 100.079,
+  "end": 102.31,
+  "text": "actual client. Right? So if you go"
+ },
+ {
+  "start": 102.32,
+  "end": 104.71,
+  "text": "through this uh page uh you will get the"
+ },
+ {
+  "start": 104.72,
+  "end": 107.03,
+  "text": "client you can download it and then uh"
+ },
+ {
+  "start": 107.04,
+  "end": 109.35,
+  "text": "it also provides you uh with a proper"
+ },
+ {
+  "start": 109.36,
+  "end": 110.95,
+  "text": "description that it allows you to"
+ },
+ {
+  "start": 110.96,
+  "end": 113.19,
+  "text": "trigger TSCA test events from CI/CD"
+ },
+ {
+  "start": 113.2,
+  "end": 115.83,
+  "text": "pipelines or other environments. Okay,"
+ },
+ {
+  "start": 115.84,
+  "end": 119.27,
+  "text": "it is an out ofbox solution. Okay, so"
+ },
+ {
+  "start": 119.28,
+  "end": 122.149,
+  "text": "this you can run it from anywhere"
+ },
+ {
+  "start": 122.159,
+  "end": 124.149,
+  "text": "basically, right? So you can run it from"
+ },
+ {
+  "start": 124.159,
+  "end": 126.709,
+  "text": "a Linux system as well also as Windows"
+ },
+ {
+  "start": 126.719,
+  "end": 129.109,
+  "text": "system. As I said, it is only supported"
+ },
+ {
+  "start": 129.119,
+  "end": 132.47,
+  "text": "in TSA 15.2 two and above. So if you're"
+ },
+ {
+  "start": 132.48,
+  "end": 134.15,
+  "text": "working in on the older versions, you"
+ },
+ {
+  "start": 134.16,
+  "end": 136.71,
+  "text": "will not find this functionality. Okay."
+ },
+ {
+  "start": 136.72,
+  "end": 138.71,
+  "text": "The requirements system requirements are"
+ },
+ {
+  "start": 138.72,
+  "end": 142.47,
+  "text": "pretty simple. Um you can run it in both"
+ },
+ {
+  "start": 142.48,
+  "end": 145.35,
+  "text": "um both the systems either in Windows or"
+ },
+ {
+  "start": 145.36,
+  "end": 149.35,
+  "text": "Linux. Okay. Uh in in Windows it is the"
+ },
+ {
+  "start": 149.36,
+  "end": 151.75,
+  "text": "client is PowerShell script and in Linux"
+ },
+ {
+  "start": 151.76,
+  "end": 153.43,
+  "text": "it is a shell script. So you can"
+ },
+ {
+  "start": 153.44,
+  "end": 156.309,
+  "text": "download uh both the options if you are"
+ },
+ {
+  "start": 156.319,
+  "end": 159.75,
+  "text": "working on a Windows or a Linux system."
+ },
+ {
+  "start": 159.76,
+  "end": 162.15,
+  "text": "Um the most important thing uh once you"
+ },
+ {
+  "start": 162.16,
+  "end": 163.99,
+  "text": "download this is you need to set this"
+ },
+ {
+  "start": 164.0,
+  "end": 166.39,
+  "text": "PowerShell execution policy. Okay, if"
+ },
+ {
+  "start": 166.4,
+  "end": 168.55,
+  "text": "you're working on a Windows machine uh"
+ },
+ {
+  "start": 168.56,
+  "end": 170.55,
+  "text": "we'll see how we can do that. For Linux"
+ },
+ {
+  "start": 170.56,
+  "end": 172.79,
+  "text": "that is a separate configuration. So"
+ },
+ {
+  "start": 172.8,
+  "end": 175.27,
+  "text": "that's the prerequisite and then to run"
+ },
+ {
+  "start": 175.28,
+  "end": 178.71,
+  "text": "the TSA execution client uh we need to"
+ },
+ {
+  "start": 178.72,
+  "end": 180.949,
+  "text": "execute this particular command. Okay."
+ },
+ {
+  "start": 180.959,
+  "end": 182.55,
+  "text": "So it is basically calling the"
+ },
+ {
+  "start": 182.56,
+  "end": 185.19,
+  "text": "PowerShell script and then uh you need"
+ },
+ {
+  "start": 185.2,
+  "end": 188.47,
+  "text": "to pass the TSA server URL the project"
+ },
+ {
+  "start": 188.48,
+  "end": 191.27,
+  "text": "name um and then you can pass different"
+ },
+ {
+  "start": 191.28,
+  "end": 193.35,
+  "text": "events. Okay, so you can execute"
+ },
+ {
+  "start": 193.36,
+  "end": 195.589,
+  "text": "multiple test events or a single test"
+ },
+ {
+  "start": 195.599,
+  "end": 197.99,
+  "text": "event on a Linux based system. This is"
+ },
+ {
+  "start": 198.0,
+  "end": 200.149,
+  "text": "the command. So you just need to copy"
+ },
+ {
+  "start": 200.159,
+  "end": 202.149,
+  "text": "and paste this command and then replace"
+ },
+ {
+  "start": 202.159,
+  "end": 205.589,
+  "text": "this values like the TSA server URL, the"
+ },
+ {
+  "start": 205.599,
+  "end": 208.71,
+  "text": "project name and the events. Okay, so"
+ },
+ {
+  "start": 208.72,
+  "end": 211.27,
+  "text": "these are the mandatory parameters. So"
+ },
+ {
+  "start": 211.28,
+  "end": 214.47,
+  "text": "the TSA server URL, URL of your TSCA"
+ },
+ {
+  "start": 214.48,
+  "end": 217.27,
+  "text": "server, right? The project name, the"
+ },
+ {
+  "start": 217.28,
+  "end": 219.509,
+  "text": "project root name of your TSCA project"
+ },
+ {
+  "start": 219.519,
+  "end": 221.43,
+  "text": "where your test event which you are"
+ },
+ {
+  "start": 221.44,
+  "end": 222.27,
+  "text": "trying to"
+ },
+ {
+  "start": 222.28,
+  "end": 225.27,
+  "text": "execute and then the events. So"
+ },
+ {
+  "start": 225.28,
+  "end": 228.229,
+  "text": "basically it is a JSON array of all the"
+ },
+ {
+  "start": 228.239,
+  "end": 230.35,
+  "text": "test events which you want to execute."
+ },
+ {
+  "start": 230.36,
+  "end": 233.27,
+  "text": "Okay. And then the events config file"
+ },
+ {
+  "start": 233.28,
+  "end": 235.99,
+  "text": "path path to the JSON file that contains"
+ },
+ {
+  "start": 236.0,
+  "end": 237.509,
+  "text": "the event configuration. So there are"
+ },
+ {
+  "start": 237.519,
+  "end": 239.67,
+  "text": "basically two ways of running this. One"
+ },
+ {
+  "start": 239.68,
+  "end": 241.83,
+  "text": "you can directly pass the events and one"
+ },
+ {
+  "start": 241.84,
+  "end": 244.47,
+  "text": "you can also pass a JSON file and then"
+ },
+ {
+  "start": 244.48,
+  "end": 247.429,
+  "text": "the file path. Okay. Then there are some"
+ },
+ {
+  "start": 247.439,
+  "end": 250.869,
+  "text": "optional uh parameters like the CA"
+ },
+ {
+  "start": 250.879,
+  "end": 253.03,
+  "text": "certificate. Uh it is only required if"
+ },
+ {
+  "start": 253.04,
+  "end": 256.229,
+  "text": "you're using HTTPS. Then the client ID,"
+ },
+ {
+  "start": 256.239,
+  "end": 258.789,
+  "text": "client secret. Again these are based of"
+ },
+ {
+  "start": 258.799,
+  "end": 261.55,
+  "text": "on HTTPS if your connection is"
+ },
+ {
+  "start": 261.56,
+  "end": 266.07,
+  "text": "HTTPS. Uh client timeout. Okay. Then um"
+ },
+ {
+  "start": 266.08,
+  "end": 267.31,
+  "text": "execution"
+ },
+ {
+  "start": 267.32,
+  "end": 271.189,
+  "text": "environment the execution ID"
+ },
+ {
+  "start": 271.199,
+  "end": 273.83,
+  "text": "um you can also put a polling interval"
+ },
+ {
+  "start": 273.84,
+  "end": 276.39,
+  "text": "which means it will wait for some time"
+ },
+ {
+  "start": 276.4,
+  "end": 279.43,
+  "text": "or you can uh request time out or"
+ },
+ {
+  "start": 279.44,
+  "end": 282.629,
+  "text": "retries retry delay uh results file"
+ },
+ {
+  "start": 282.639,
+  "end": 284.87,
+  "text": "name. So where do you want to save the"
+ },
+ {
+  "start": 284.88,
+  "end": 286.95,
+  "text": "file name? Okay, this is by default"
+ },
+ {
+  "start": 286.96,
+  "end": 289.43,
+  "text": "saved in the same folder but if you want"
+ },
+ {
+  "start": 289.44,
+  "end": 291.99,
+  "text": "you can also save it in somewhere else."
+ },
+ {
+  "start": 292.0,
+  "end": 293.99,
+  "text": "uh you can define the folder and file"
+ },
+ {
+  "start": 294.0,
+  "end": 296.55,
+  "text": "path for those results. You can also"
+ },
+ {
+  "start": 296.56,
+  "end": 299.35,
+  "text": "deactivate the login logging right which"
+ },
+ {
+  "start": 299.36,
+  "end": 303.189,
+  "text": "is done. Then the log folder path um and"
+ },
+ {
+  "start": 303.199,
+  "end": 305.189,
+  "text": "all of these optional parameters which"
+ },
+ {
+  "start": 305.199,
+  "end": 307.51,
+  "text": "you can pass apart from this but the"
+ },
+ {
+  "start": 307.52,
+  "end": 309.43,
+  "text": "main parameters or mandatory parameters"
+ },
+ {
+  "start": 309.44,
+  "end": 312.189,
+  "text": "are these four parameters."
+ },
+ {
+  "start": 312.199,
+  "end": 315.59,
+  "text": "Okay. So uh this is what we need to do."
+ },
+ {
+  "start": 315.6,
+  "end": 317.83,
+  "text": "Uh the first step is as I said we need"
+ },
+ {
+  "start": 317.84,
+  "end": 320.55,
+  "text": "to download this execution client. I'll"
+ },
+ {
+  "start": 320.56,
+  "end": 323.43,
+  "text": "be working on the Windows system because"
+ },
+ {
+  "start": 323.44,
+  "end": 326.95,
+  "text": "we have already set up our Dex um and"
+ },
+ {
+  "start": 326.96,
+  "end": 329.749,
+  "text": "also our Dex agent, our Dex server,"
+ },
+ {
+  "start": 329.759,
+  "end": 332.27,
+  "text": "everything is on one Windows system,"
+ },
+ {
+  "start": 332.28,
+  "end": 335.43,
+  "text": "right? So, uh here uh you need to make"
+ },
+ {
+  "start": 335.44,
+  "end": 337.51,
+  "text": "sure that you are selected on the main"
+ },
+ {
+  "start": 337.52,
+  "end": 341.43,
+  "text": "branch and then you need to go here into"
+ },
+ {
+  "start": 341.44,
+  "end": 345.51,
+  "text": "the code and then you need to download"
+ },
+ {
+  "start": 345.52,
+  "end": 347.79,
+  "text": "it as a zip."
+ },
+ {
+  "start": 347.8,
+  "end": 351.95,
+  "text": "Okay. So, do that. And once it's"
+ },
+ {
+  "start": 351.96,
+  "end": 354.55,
+  "text": "downloaded, then I'm going to extract"
+ },
+ {
+  "start": 354.56,
+  "end": 358.029,
+  "text": "this"
+ },
+ {
+  "start": 360.55,
+  "end": 360.56,
+  "text": "here. Okay. And then I'm going to copy"
+ },
+ {
+  "start": 360.56,
+  "end": 362.87,
+  "text": "this and I'm going to save it somewhere."
+ },
+ {
+  "start": 362.88,
+  "end": 366.15,
+  "text": "So, I've got this C execution folder"
+ },
+ {
+  "start": 366.16,
+  "end": 368.909,
+  "text": "where I'm going to save this."
+ },
+ {
+  "start": 368.919,
+  "end": 372.23,
+  "text": "Okay. And I'm going to rename this to to"
+ },
+ {
+  "start": 372.24,
+  "end": 375.67,
+  "text": "TSA execution client. Inside this you"
+ },
+ {
+  "start": 375.68,
+  "end": 378.469,
+  "text": "will find that readme.md file and then"
+ },
+ {
+  "start": 378.479,
+  "end": 380.07,
+  "text": "this is the execution client toka"
+ },
+ {
+  "start": 380.08,
+  "end": 382.39,
+  "text": "execution client when it is a windows"
+ },
+ {
+  "start": 382.4,
+  "end": 384.43,
+  "text": "powershell script."
+ },
+ {
+  "start": 384.44,
+  "end": 388.15,
+  "text": "Okay. So yep. So that's it about"
+ },
+ {
+  "start": 388.16,
+  "end": 390.55,
+  "text": "downloading the execution client. Once"
+ },
+ {
+  "start": 390.56,
+  "end": 393.67,
+  "text": "we have that right now let's go ahead"
+ },
+ {
+  "start": 393.68,
+  "end": 395.95,
+  "text": "and start our"
+ },
+ {
+  "start": 395.96,
+  "end": 398.79,
+  "text": "powershell. So here is the powershell"
+ },
+ {
+  "start": 398.8,
+  "end": 400.79,
+  "text": "and the first step which we need to do"
+ },
+ {
+  "start": 400.8,
+  "end": 404.629,
+  "text": "is set the execution policy. Okay. So by"
+ },
+ {
+  "start": 404.639,
+  "end": 407.909,
+  "text": "default u this execution policy is uh"
+ },
+ {
+  "start": 407.919,
+  "end": 411.51,
+  "text": "set to undefined in in your system and"
+ },
+ {
+  "start": 411.52,
+  "end": 413.909,
+  "text": "it will not allow you to execute the"
+ },
+ {
+  "start": 413.919,
+  "end": 417.27,
+  "text": "script. Okay. For that you need to uh"
+ },
+ {
+  "start": 417.28,
+  "end": 419.749,
+  "text": "basically do this. So we need to set"
+ },
+ {
+  "start": 419.759,
+  "end": 423.11,
+  "text": "execution policy and we need to set the"
+ },
+ {
+  "start": 423.12,
+  "end": 425.83,
+  "text": "policy to bypass and the scope will be"
+ },
+ {
+  "start": 425.84,
+  "end": 427.99,
+  "text": "local machine. Okay. So this is the"
+ },
+ {
+  "start": 428.0,
+  "end": 433.029,
+  "text": "command you need to run now."
+ },
+ {
+  "start": 433.039,
+  "end": 435.189,
+  "text": "Okay. Um it will ask you whether you"
+ },
+ {
+  "start": 435.199,
+  "end": 438.07,
+  "text": "want to change this execution policy and"
+ },
+ {
+  "start": 438.08,
+  "end": 440.79,
+  "text": "there are some security risk but uh"
+ },
+ {
+  "start": 440.8,
+  "end": 442.79,
+  "text": "that's fine. We want to execute this"
+ },
+ {
+  "start": 442.8,
+  "end": 445.11,
+  "text": "script. Okay. So once this execution"
+ },
+ {
+  "start": 445.12,
+  "end": 449.11,
+  "text": "policy is executed then we can run our"
+ },
+ {
+  "start": 449.12,
+  "end": 452.95,
+  "text": "execution script. Okay. Now this is the"
+ },
+ {
+  "start": 452.96,
+  "end": 455.83,
+  "text": "command uh which was there. Okay. So it"
+ },
+ {
+  "start": 455.84,
+  "end": 458.55,
+  "text": "starts with this PowerShell script. It"
+ },
+ {
+  "start": 458.56,
+  "end": 460.95,
+  "text": "calls this and then we give the"
+ },
+ {
+  "start": 460.96,
+  "end": 463.43,
+  "text": "parameters. Okay. So this is the TSCA"
+ },
+ {
+  "start": 463.44,
+  "end": 467.11,
+  "text": "server URL you can see. So localhost 80."
+ },
+ {
+  "start": 467.12,
+  "end": 469.35,
+  "text": "Now it could be anything depending on"
+ },
+ {
+  "start": 469.36,
+  "end": 472.23,
+  "text": "your server address. Just uh take your"
+ },
+ {
+  "start": 472.24,
+  "end": 475.629,
+  "text": "IP and uh paste it here with the port."
+ },
+ {
+  "start": 475.639,
+  "end": 478.869,
+  "text": "Okay. And then the events. Um so in the"
+ },
+ {
+  "start": 478.879,
+  "end": 481.27,
+  "text": "event I just want to execute this one"
+ },
+ {
+  "start": 481.28,
+  "end": 483.67,
+  "text": "event which is sample. You just need to"
+ },
+ {
+  "start": 483.68,
+  "end": 485.909,
+  "text": "give the test event name. Then the"
+ },
+ {
+  "start": 485.919,
+  "end": 488.23,
+  "text": "project name uh which is multi-user."
+ },
+ {
+  "start": 488.24,
+  "end": 491.83,
+  "text": "Okay. Now if I go back to my uh TSA"
+ },
+ {
+  "start": 491.84,
+  "end": 492.95,
+  "text": "project, you will see this is the"
+ },
+ {
+  "start": 492.96,
+  "end": 495.67,
+  "text": "multi-user project and then under test"
+ },
+ {
+  "start": 495.68,
+  "end": 497.749,
+  "text": "events, I have got this sample test"
+ },
+ {
+  "start": 497.759,
+  "end": 501.51,
+  "text": "event. I have created this uh it is uh"
+ },
+ {
+  "start": 501.52,
+  "end": 503.67,
+  "text": "it has got a dex configuration which is"
+ },
+ {
+  "start": 503.68,
+  "end": 506.71,
+  "text": "a dex uh which is a dex agent and then"
+ },
+ {
+  "start": 506.72,
+  "end": 509.79,
+  "text": "it will execute this login script."
+ },
+ {
+  "start": 509.8,
+  "end": 513.35,
+  "text": "Okay. So this is how uh you can execute"
+ },
+ {
+  "start": 513.36,
+  "end": 516.55,
+  "text": "it on the TSA execution client. So now"
+ },
+ {
+  "start": 516.56,
+  "end": 520.389,
+  "text": "just copy this but first uh we need to"
+ },
+ {
+  "start": 520.399,
+  "end": 522.31,
+  "text": "go to that particular folder where that"
+ },
+ {
+  "start": 522.32,
+  "end": 524.87,
+  "text": "execution client is otherwise you will"
+ },
+ {
+  "start": 524.88,
+  "end": 527.79,
+  "text": "get error that it is not executable."
+ },
+ {
+  "start": 527.8,
+  "end": 532.03,
+  "text": "Okay. So first uh we are going to go"
+ },
+ {
+  "start": 532.04,
+  "end": 533.87,
+  "text": "here"
+ },
+ {
+  "start": 533.88,
+  "end": 537.11,
+  "text": "right and then we are going to execute"
+ },
+ {
+  "start": 537.12,
+  "end": 544.03,
+  "text": "that particular command. So let's copy"
+ },
+ {
+  "start": 547.07,
+  "end": 547.08,
+  "text": "this and then come here"
+ },
+ {
+  "start": 547.08,
+  "end": 552.43,
+  "text": "and okay and then"
+ },
+ {
+  "start": 556.23,
+  "end": 556.24,
+  "text": "execute. So you will see that um it will"
+ },
+ {
+  "start": 556.24,
+  "end": 557.23,
+  "text": "start"
+ },
+ {
+  "start": 557.24,
+  "end": 561.03,
+  "text": "execution and uh it will successfully"
+ },
+ {
+  "start": 561.04,
+  "end": 564.79,
+  "text": "encue the execution or the dex event. It"
+ },
+ {
+  "start": 564.8,
+  "end": 568.19,
+  "text": "will start the execution. Okay."
+ },
+ {
+  "start": 568.2,
+  "end": 570.87,
+  "text": "and then it will complete the execution"
+ },
+ {
+  "start": 570.88,
+  "end": 573.59,
+  "text": "and um it will store the results as"
+ },
+ {
+  "start": 573.6,
+  "end": 576.31,
+  "text": "well. Okay. So you can see on my screen"
+ },
+ {
+  "start": 576.32,
+  "end": 579.509,
+  "text": "uh the swag labs um screen has opened"
+ },
+ {
+  "start": 579.519,
+  "end": 581.509,
+  "text": "and it is going to login into this that"
+ },
+ {
+  "start": 581.519,
+  "end": 583.829,
+  "text": "was my test script and it is being"
+ },
+ {
+  "start": 583.839,
+  "end": 586.23,
+  "text": "executed from the command line tool"
+ },
+ {
+  "start": 586.24,
+  "end": 589.43,
+  "text": "which is toka execution client. Okay. So"
+ },
+ {
+  "start": 589.44,
+  "end": 591.15,
+  "text": "the execution is now"
+ },
+ {
+  "start": 591.16,
+  "end": 595.75,
+  "text": "complete and the same you can see here"
+ },
+ {
+  "start": 595.76,
+  "end": 599.11,
+  "text": "um it has already executed this. Okay."
+ },
+ {
+  "start": 599.12,
+  "end": 603.55,
+  "text": "So this is the recent event which I have"
+ },
+ {
+  "start": 606.47,
+  "end": 606.48,
+  "text": "executed right. So it it executed it"
+ },
+ {
+  "start": 606.48,
+  "end": 608.11,
+  "text": "from the execution"
+ },
+ {
+  "start": 608.12,
+  "end": 611.43,
+  "text": "client and then it will also store the"
+ },
+ {
+  "start": 611.44,
+  "end": 613.509,
+  "text": "results as I said. Okay. So if you go"
+ },
+ {
+  "start": 613.519,
+  "end": 616.71,
+  "text": "into the TSA execution client folder uh"
+ },
+ {
+  "start": 616.72,
+  "end": 619.75,
+  "text": "you will see it has stored in the logs"
+ },
+ {
+  "start": 619.76,
+  "end": 622.23,
+  "text": "that is the logs. Okay. So if you want"
+ },
+ {
+  "start": 622.24,
+  "end": 624.069,
+  "text": "if there is any error you can go through"
+ },
+ {
+  "start": 624.079,
+  "end": 628.03,
+  "text": "this uh logs uh to debug any particular"
+ },
+ {
+  "start": 628.04,
+  "end": 631.59,
+  "text": "issue or um if you want to see the"
+ },
+ {
+  "start": 631.6,
+  "end": 635.269,
+  "text": "results there is the result in XML file."
+ },
+ {
+  "start": 635.279,
+  "end": 637.79,
+  "text": "So I can open it with any particular"
+ },
+ {
+  "start": 637.8,
+  "end": 641.59,
+  "text": "browser. Okay. It is not the best format"
+ },
+ {
+  "start": 641.6,
+  "end": 645.67,
+  "text": "as you can see here but it tells you uh"
+ },
+ {
+  "start": 645.68,
+  "end": 648.87,
+  "text": "so the test suit name uh the tests uh"
+ },
+ {
+  "start": 648.88,
+  "end": 651.75,
+  "text": "how many failed how many passed uh the"
+ },
+ {
+  "start": 651.76,
+  "end": 654.75,
+  "text": "time taken so all these details are here"
+ },
+ {
+  "start": 654.76,
+  "end": 658.389,
+  "text": "okay so it it is XML format but uh you"
+ },
+ {
+  "start": 658.399,
+  "end": 662.15,
+  "text": "know you can um always convert it into a"
+ },
+ {
+  "start": 662.16,
+  "end": 665.509,
+  "text": "proper format or if you're using a CI/CD"
+ },
+ {
+  "start": 665.519,
+  "end": 668.389,
+  "text": "client like genkins you can always uh do"
+ },
+ {
+  "start": 668.399,
+  "end": 671.35,
+  "text": "the reporting using this XML file. Okay."
+ },
+ {
+  "start": 671.36,
+  "end": 674.87,
+  "text": "So this uh particular client is made for"
+ },
+ {
+  "start": 674.88,
+  "end": 677.509,
+  "text": "your CI/CD pipelines so that you can"
+ },
+ {
+  "start": 677.519,
+  "end": 680.31,
+  "text": "integrate it easily with any CI/CD"
+ },
+ {
+  "start": 680.32,
+  "end": 683.03,
+  "text": "client, right? And then it is much"
+ },
+ {
+  "start": 683.04,
+  "end": 686.35,
+  "text": "faster because it is not dependent on"
+ },
+ {
+  "start": 686.36,
+  "end": 689.509,
+  "text": "your machine or any other uh"
+ },
+ {
+  "start": 689.519,
+  "end": 691.99,
+  "text": "configuration. It is just running from a"
+ },
+ {
+  "start": 692.0,
+  "end": 693.99,
+  "text": "command line tool like PowerShell,"
+ },
+ {
+  "start": 694.0,
+  "end": 696.949,
+  "text": "right? And then uh if you have genkins"
+ },
+ {
+  "start": 696.959,
+  "end": 699.19,
+  "text": "configured then you can easily call this"
+ },
+ {
+  "start": 699.2,
+  "end": 702.79,
+  "text": "PowerShell script uh by just uh creating"
+ },
+ {
+  "start": 702.8,
+  "end": 706.55,
+  "text": "a genkins build and then um calling this"
+ },
+ {
+  "start": 706.56,
+  "end": 708.63,
+  "text": "PowerShell script just like how we have"
+ },
+ {
+  "start": 708.64,
+  "end": 710.949,
+  "text": "done in our local. We'll be doing the"
+ },
+ {
+  "start": 710.959,
+  "end": 712.43,
+  "text": "same thing in the"
+ },
+ {
+  "start": 712.44,
+  "end": 715.99,
+  "text": "genkins. Now let's jump onto uh Genkins"
+ },
+ {
+  "start": 716.0,
+  "end": 717.829,
+  "text": "and let's see how we can execute the"
+ },
+ {
+  "start": 717.839,
+  "end": 722.31,
+  "text": "same thing not from the PowerShell but"
+ },
+ {
+  "start": 722.32,
+  "end": 726.23,
+  "text": "from a CI/CD client like genkins. Okay."
+ },
+ {
+  "start": 726.24,
+  "end": 728.949,
+  "text": "So uh I am in my genkins you can see"
+ },
+ {
+  "start": 728.959,
+  "end": 731.829,
+  "text": "here. So we need to create a new item"
+ },
+ {
+  "start": 731.839,
+  "end": 735.069,
+  "text": "and let's name it"
+ },
+ {
+  "start": 735.079,
+  "end": 737.629,
+  "text": "execution client"
+ },
+ {
+  "start": 737.639,
+  "end": 741.43,
+  "text": "or okay and then create a freestyle"
+ },
+ {
+  "start": 741.44,
+  "end": 743.949,
+  "text": "project here. Click on"
+ },
+ {
+  "start": 743.959,
+  "end": 746.389,
+  "text": "okay and then you can fill the"
+ },
+ {
+  "start": 746.399,
+  "end": 748.55,
+  "text": "description. All the other options are"
+ },
+ {
+  "start": 748.56,
+  "end": 750.55,
+  "text": "really optional. Okay, because we will"
+ },
+ {
+  "start": 750.56,
+  "end": 752.79,
+  "text": "not be using all of these options. The"
+ },
+ {
+  "start": 752.8,
+  "end": 755.509,
+  "text": "main option here is the build steps."
+ },
+ {
+  "start": 755.519,
+  "end": 757.99,
+  "text": "Okay, and we need to add a build step"
+ },
+ {
+  "start": 758.0,
+  "end": 759.35,
+  "text": "here. You can see there are different"
+ },
+ {
+  "start": 759.36,
+  "end": 761.43,
+  "text": "types of commands which we can run here"
+ },
+ {
+  "start": 761.44,
+  "end": 764.31,
+  "text": "and one of them is PowerShell. Now if"
+ },
+ {
+  "start": 764.32,
+  "end": 767.03,
+  "text": "you're not able to see this option uh go"
+ },
+ {
+  "start": 767.04,
+  "end": 770.629,
+  "text": "into your uh TSA plugins and then"
+ },
+ {
+  "start": 770.639,
+  "end": 772.389,
+  "text": "download this particular plug-in called"
+ },
+ {
+  "start": 772.399,
+  "end": 774.389,
+  "text": "PowerShell. Okay. And then you'll be"
+ },
+ {
+  "start": 774.399,
+  "end": 777.31,
+  "text": "able to execute the PowerShell commands"
+ },
+ {
+  "start": 777.32,
+  "end": 780.629,
+  "text": "here. So now uh we can execute this"
+ },
+ {
+  "start": 780.639,
+  "end": 784.629,
+  "text": "PowerShell script here. Okay. And we are"
+ },
+ {
+  "start": 784.639,
+  "end": 786.31,
+  "text": "going to enter this here. But before"
+ },
+ {
+  "start": 786.32,
+  "end": 789.509,
+  "text": "that as you remember we need to go to a"
+ },
+ {
+  "start": 789.519,
+  "end": 791.99,
+  "text": "particular directory. Right? So I'm"
+ },
+ {
+  "start": 792.0,
+  "end": 794.389,
+  "text": "going to go to that particular directory"
+ },
+ {
+  "start": 794.399,
+  "end": 798.35,
+  "text": "here where our execution client is"
+ },
+ {
+  "start": 798.36,
+  "end": 801.35,
+  "text": "present. Right? So these are the two uh"
+ },
+ {
+  "start": 801.36,
+  "end": 803.829,
+  "text": "lines of script which we want to execute"
+ },
+ {
+  "start": 803.839,
+  "end": 806.71,
+  "text": "on this PowerShell. Right? And then uh"
+ },
+ {
+  "start": 806.72,
+  "end": 810.79,
+  "text": "I'm going to save this and go back to my"
+ },
+ {
+  "start": 810.8,
+  "end": 813.91,
+  "text": "dashboard. So this is the genkins build"
+ },
+ {
+  "start": 813.92,
+  "end": 816.75,
+  "text": "which uh we are going to execute."
+ },
+ {
+  "start": 816.76,
+  "end": 820.069,
+  "text": "Okay. Now here I'm going to click on"
+ },
+ {
+  "start": 820.079,
+  "end": 821.15,
+  "text": "build."
+ },
+ {
+  "start": 821.16,
+  "end": 825.55,
+  "text": "now and it will start the build right"
+ },
+ {
+  "start": 825.56,
+  "end": 828.949,
+  "text": "away. Okay. So this is our build and"
+ },
+ {
+  "start": 828.959,
+  "end": 831.75,
+  "text": "then uh we can go to the console output"
+ },
+ {
+  "start": 831.76,
+  "end": 834.31,
+  "text": "and you can see the same logs are being"
+ },
+ {
+  "start": 834.32,
+  "end": 837.43,
+  "text": "generated when we executed this on a"
+ },
+ {
+  "start": 837.44,
+  "end": 840.55,
+  "text": "PowerShell um as a PowerShell script. It"
+ },
+ {
+  "start": 840.56,
+  "end": 842.79,
+  "text": "was generating this logs and now you can"
+ },
+ {
+  "start": 842.8,
+  "end": 845.75,
+  "text": "see it has opened u the demo website"
+ },
+ {
+  "start": 845.76,
+  "end": 847.91,
+  "text": "where it is going to execute this"
+ },
+ {
+  "start": 847.92,
+  "end": 850.87,
+  "text": "particular script. Right? So everything"
+ },
+ {
+  "start": 850.88,
+  "end": 853.59,
+  "text": "remains the same but now uh we are able"
+ },
+ {
+  "start": 853.6,
+  "end": 857.35,
+  "text": "to integrate our script right from a"
+ },
+ {
+  "start": 857.36,
+  "end": 859.829,
+  "text": "CI/CD client like Jenkins. You can use"
+ },
+ {
+  "start": 859.839,
+  "end": 862.47,
+  "text": "any CI/CD client as I said you just need"
+ },
+ {
+  "start": 862.48,
+  "end": 865.35,
+  "text": "to make sure that in your build step you"
+ },
+ {
+  "start": 865.36,
+  "end": 867.43,
+  "text": "are executing that PowerShell script"
+ },
+ {
+  "start": 867.44,
+  "end": 870.629,
+  "text": "command. Okay. So that's all is required"
+ },
+ {
+  "start": 870.639,
+  "end": 873.829,
+  "text": "in order to integrate your TSCA with any"
+ },
+ {
+  "start": 873.839,
+  "end": 879.509,
+  "text": "particular CI/CD client."
+ },
+ {
+  "start": 883.43,
+  "end": 883.44,
+  "text": "Now um let's wait for uh this execution"
+ },
+ {
+  "start": 883.44,
+  "end": 887.189,
+  "text": "to get over. Okay. And uh now you can"
+ },
+ {
+  "start": 887.199,
+  "end": 890.069,
+  "text": "see it has finished as success. And you"
+ },
+ {
+  "start": 890.079,
+  "end": 891.67,
+  "text": "can see it has also written the"
+ },
+ {
+  "start": 891.68,
+  "end": 893.43,
+  "text": "execution results to this particular"
+ },
+ {
+  "start": 893.44,
+  "end": 897.91,
+  "text": "file. Right. So see execution um and"
+ },
+ {
+  "start": 897.92,
+  "end": 901.829,
+  "text": "results and this XML file. Okay. Now, as"
+ },
+ {
+  "start": 901.839,
+  "end": 904.87,
+  "text": "I said, u if you're not able to find the"
+ },
+ {
+  "start": 904.88,
+  "end": 908.31,
+  "text": "PowerShell option in your build step,"
+ },
+ {
+  "start": 908.32,
+  "end": 912.069,
+  "text": "then uh you can go into your dashboard"
+ },
+ {
+  "start": 912.079,
+  "end": 913.829,
+  "text": "and from there you can go to manage"
+ },
+ {
+  "start": 913.839,
+  "end": 916.189,
+  "text": "genkins and go to"
+ },
+ {
+  "start": 916.199,
+  "end": 921.55,
+  "text": "plugins and then you can go to installed"
+ },
+ {
+  "start": 921.56,
+  "end": 924.47,
+  "text": "plugins. Okay, here uh I have already"
+ },
+ {
+  "start": 924.48,
+  "end": 926.71,
+  "text": "installed PowerShell. You can see"
+ },
+ {
+  "start": 926.72,
+  "end": 929.59,
+  "text": "PowerShell plug-in. If uh this is not"
+ },
+ {
+  "start": 929.6,
+  "end": 931.43,
+  "text": "present for you, then go to available"
+ },
+ {
+  "start": 931.44,
+  "end": 936.35,
+  "text": "plugins and then just type"
+ },
+ {
+  "start": 938.87,
+  "end": 938.88,
+  "text": "powershell. Okay. So for me it will not"
+ },
+ {
+  "start": 938.88,
+  "end": 941.03,
+  "text": "show because uh it's already present in"
+ },
+ {
+  "start": 941.04,
+  "end": 943.189,
+  "text": "the installed plugins. But uh once you"
+ },
+ {
+  "start": 943.199,
+  "end": 944.71,
+  "text": "type this PowerShell you will get that"
+ },
+ {
+  "start": 944.72,
+  "end": 947.43,
+  "text": "plug-in and then just select it and then"
+ },
+ {
+  "start": 947.44,
+  "end": 949.43,
+  "text": "install it. Okay. So that's all you need"
+ },
+ {
+  "start": 949.44,
+  "end": 951.91,
+  "text": "to do. Okay. So this is how you can"
+ },
+ {
+  "start": 951.92,
+  "end": 953.67,
+  "text": "install the PowerShell plug-in if you"
+ },
+ {
+  "start": 953.68,
+  "end": 956.31,
+  "text": "want. Um now few other things which you"
+ },
+ {
+  "start": 956.32,
+  "end": 959.03,
+  "text": "can do obviously is if you want to view"
+ },
+ {
+  "start": 959.04,
+  "end": 961.67,
+  "text": "a particular report for this particular"
+ },
+ {
+  "start": 961.68,
+  "end": 964.55,
+  "text": "build okay apart from the regular logs"
+ },
+ {
+  "start": 964.56,
+  "end": 966.629,
+  "text": "which are present or the XML report"
+ },
+ {
+  "start": 966.639,
+  "end": 968.55,
+  "text": "which is generated you can always"
+ },
+ {
+  "start": 968.56,
+  "end": 970.71,
+  "text": "download the XML plug-in or any other"
+ },
+ {
+  "start": 970.72,
+  "end": 972.87,
+  "text": "reporting plug-in which can basically"
+ },
+ {
+  "start": 972.88,
+  "end": 975.43,
+  "text": "give you um a better report if you want"
+ },
+ {
+  "start": 975.44,
+  "end": 977.91,
+  "text": "to see it in your genkins build. Okay."
+ },
+ {
+  "start": 977.92,
+  "end": 980.79,
+  "text": "So those things uh you can always do but"
+ },
+ {
+  "start": 980.8,
+  "end": 982.629,
+  "text": "this is how you can use the TSCA"
+ },
+ {
+  "start": 982.639,
+  "end": 986.629,
+  "text": "execution client to integrate your TSA"
+ },
+ {
+  "start": 986.639,
+  "end": 989.67,
+  "text": "automation test suit with any particular"
+ },
+ {
+  "start": 989.68,
+  "end": 991.99,
+  "text": "CI/CD client and then you can also"
+ },
+ {
+  "start": 992.0,
+  "end": 994.47,
+  "text": "integrate this with the CI/CD pipeline"
+ },
+ {
+  "start": 994.48,
+  "end": 996.23,
+  "text": "where your development changes can be"
+ },
+ {
+  "start": 996.24,
+  "end": 999.269,
+  "text": "tested directly uh with your TSka test"
+ },
+ {
+  "start": 999.279,
+  "end": 1002.47,
+  "text": "cases. If your team is using the same uh"
+ },
+ {
+  "start": 1002.48,
+  "end": 1004.87,
+  "text": "CI/CD client like genkins or anything"
+ },
+ {
+  "start": 1004.88,
+  "end": 1007.43,
+  "text": "else that will be part of the pipeline"
+ },
+ {
+  "start": 1007.44,
+  "end": 1009.67,
+  "text": "and once there is any code change then"
+ },
+ {
+  "start": 1009.68,
+  "end": 1011.11,
+  "text": "there will be a trigger which will"
+ },
+ {
+  "start": 1011.12,
+  "end": 1015.069,
+  "text": "execute uh your TSCA test cases"
+ },
+ {
+  "start": 1015.079,
+  "end": 1019.189,
+  "text": "right. So this is all about uh CI/CD"
+ },
+ {
+  "start": 1019.199,
+  "end": 1022.67,
+  "text": "integration um in TSCA with DEX uh and"
+ },
+ {
+  "start": 1022.68,
+  "end": 1026.47,
+  "text": "EOS. So you can also set it up on your"
+ },
+ {
+  "start": 1026.48,
+  "end": 1029.429,
+  "text": "uh TSCA machine similar to how I have"
+ },
+ {
+  "start": 1029.439,
+  "end": 1032.319,
+  "text": "shown you."
+ }
+]

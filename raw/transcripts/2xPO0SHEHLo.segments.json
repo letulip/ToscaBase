@@ -1,0 +1,927 @@
+[
+ {
+  "start": 2.23,
+  "end": 2.24,
+  "text": "Hey everyone, welcome to another lesson"
+ },
+ {
+  "start": 2.24,
+  "end": 5.11,
+  "text": "in the Stoska automation course."
+ },
+ {
+  "start": 5.12,
+  "end": 7.269,
+  "text": "In the previous session, we talked about"
+ },
+ {
+  "start": 7.279,
+  "end": 9.589,
+  "text": "recovery scenarios. How you can recover"
+ },
+ {
+  "start": 9.599,
+  "end": 11.669,
+  "text": "your test cases from an unexpected"
+ },
+ {
+  "start": 11.679,
+  "end": 15.749,
+  "text": "failure or error. But before I continue,"
+ },
+ {
+  "start": 15.759,
+  "end": 18.07,
+  "text": "I must say you have to watch the"
+ },
+ {
+  "start": 18.08,
+  "end": 19.83,
+  "text": "previous session in order to understand"
+ },
+ {
+  "start": 19.84,
+  "end": 22.15,
+  "text": "this session better because these two"
+ },
+ {
+  "start": 22.16,
+  "end": 24.31,
+  "text": "topics are quite related. So if you"
+ },
+ {
+  "start": 24.32,
+  "end": 26.15,
+  "text": "don't understand how recovery scenarios"
+ },
+ {
+  "start": 26.16,
+  "end": 28.71,
+  "text": "work, you won't understand how cleanup"
+ },
+ {
+  "start": 28.72,
+  "end": 31.83,
+  "text": "scenarios would be working. Right? So"
+ },
+ {
+  "start": 31.84,
+  "end": 34.549,
+  "text": "coming back to recovery scenarios, when"
+ },
+ {
+  "start": 34.559,
+  "end": 37.67,
+  "text": "we employ a recovery scenario and the"
+ },
+ {
+  "start": 37.68,
+  "end": 40.63,
+  "text": "application state now changes so that it"
+ },
+ {
+  "start": 40.64,
+  "end": 43.03,
+  "text": "can recover out of unexpected failure,"
+ },
+ {
+  "start": 43.04,
+  "end": 46.15,
+  "text": "right? But what if this recovery also"
+ },
+ {
+  "start": 46.16,
+  "end": 49.19,
+  "text": "fails? So tosska is not able to recover"
+ },
+ {
+  "start": 49.2,
+  "end": 52.31,
+  "text": "out of that error and now it is stuck in"
+ },
+ {
+  "start": 52.32,
+  "end": 55.029,
+  "text": "a state from where it cannot continue."
+ },
+ {
+  "start": 55.039,
+  "end": 57.43,
+  "text": "So your all your test steps which"
+ },
+ {
+  "start": 57.44,
+  "end": 60.709,
+  "text": "continue after this uh failed test step"
+ },
+ {
+  "start": 60.719,
+  "end": 63.27,
+  "text": "would also fail because the application"
+ },
+ {
+  "start": 63.28,
+  "end": 65.67,
+  "text": "is in a state from where it cannot"
+ },
+ {
+  "start": 65.68,
+  "end": 69.35,
+  "text": "execute those test steps. Right?"
+ },
+ {
+  "start": 69.36,
+  "end": 72.07,
+  "text": "So to resolve this problem toka also"
+ },
+ {
+  "start": 72.08,
+  "end": 74.789,
+  "text": "provides you an additional option called"
+ },
+ {
+  "start": 74.799,
+  "end": 77.91,
+  "text": "cleanup scenarios. Now it is also part"
+ },
+ {
+  "start": 77.92,
+  "end": 80.39,
+  "text": "of the recovery engine. So when the"
+ },
+ {
+  "start": 80.4,
+  "end": 82.95,
+  "text": "recovery scenarios fail, it goes into"
+ },
+ {
+  "start": 82.96,
+  "end": 84.95,
+  "text": "this cleanup scenarios and you can"
+ },
+ {
+  "start": 84.96,
+  "end": 87.749,
+  "text": "define your own test steps to bring the"
+ },
+ {
+  "start": 87.759,
+  "end": 91.19,
+  "text": "application back to the original state."
+ },
+ {
+  "start": 91.2,
+  "end": 95.27,
+  "text": "So for example, if um you are closing"
+ },
+ {
+  "start": 95.28,
+  "end": 97.429,
+  "text": "and opening the application in your"
+ },
+ {
+  "start": 97.439,
+  "end": 100.469,
+  "text": "recovery scenario, right? And uh it is"
+ },
+ {
+  "start": 100.479,
+  "end": 103.109,
+  "text": "not able to open the application. So all"
+ },
+ {
+  "start": 103.119,
+  "end": 105.83,
+  "text": "your test steps of continuing after this"
+ },
+ {
+  "start": 105.84,
+  "end": 108.149,
+  "text": "will fail. Right? So in this case what"
+ },
+ {
+  "start": 108.159,
+  "end": 111.19,
+  "text": "you can do you can put some test steps"
+ },
+ {
+  "start": 111.2,
+  "end": 114.31,
+  "text": "which can go back and launch the"
+ },
+ {
+  "start": 114.32,
+  "end": 116.95,
+  "text": "application login into that page and go"
+ },
+ {
+  "start": 116.96,
+  "end": 119.59,
+  "text": "to that particular page from where it"
+ },
+ {
+  "start": 119.6,
+  "end": 121.59,
+  "text": "will continue the next steps. Right? So"
+ },
+ {
+  "start": 121.6,
+  "end": 124.31,
+  "text": "all these test steps you can mention in"
+ },
+ {
+  "start": 124.32,
+  "end": 127.59,
+  "text": "the cleanup scenarios."
+ },
+ {
+  "start": 127.6,
+  "end": 130.55,
+  "text": "So let's uh take it little further and"
+ },
+ {
+  "start": 130.56,
+  "end": 132.55,
+  "text": "let's try to understand with our"
+ },
+ {
+  "start": 132.56,
+  "end": 135.27,
+  "text": "original example where we employed our"
+ },
+ {
+  "start": 135.28,
+  "end": 137.91,
+  "text": "recovery scenario right so we employed"
+ },
+ {
+  "start": 137.92,
+  "end": 140.79,
+  "text": "our recovery scenario on this page where"
+ },
+ {
+  "start": 140.8,
+  "end": 142.55,
+  "text": "we were trying to click on the submit"
+ },
+ {
+  "start": 142.56,
+  "end": 145.99,
+  "text": "button and it takes around few seconds"
+ },
+ {
+  "start": 146.0,
+  "end": 149.43,
+  "text": "to enable this right so we had put a"
+ },
+ {
+  "start": 149.44,
+  "end": 151.75,
+  "text": "recovery scenario to wait on this button"
+ },
+ {
+  "start": 151.76,
+  "end": 154.15,
+  "text": "until this is enabled and then it will"
+ },
+ {
+  "start": 154.16,
+  "end": 156.15,
+  "text": "click right so that way we were able to"
+ },
+ {
+  "start": 156.16,
+  "end": 159.67,
+  "text": "recover uh from an unexpected failure."
+ },
+ {
+  "start": 159.68,
+  "end": 161.35,
+  "text": "Okay."
+ },
+ {
+  "start": 161.36,
+  "end": 163.43,
+  "text": "Now think of a scenario. We want to"
+ },
+ {
+  "start": 163.44,
+  "end": 165.91,
+  "text": "click on the next link, right? Which is"
+ },
+ {
+  "start": 165.92,
+  "end": 168.55,
+  "text": "open new page. So on clicking this link,"
+ },
+ {
+  "start": 168.56,
+  "end": 170.71,
+  "text": "it opens the same page in a different"
+ },
+ {
+  "start": 170.72,
+  "end": 174.949,
+  "text": "tab. Okay? But uh what is the scenario"
+ },
+ {
+  "start": 174.959,
+  "end": 178.55,
+  "text": "is if the submit button is still not"
+ },
+ {
+  "start": 178.56,
+  "end": 181.589,
+  "text": "enabled, right? You cannot go ahead and"
+ },
+ {
+  "start": 181.599,
+  "end": 184.949,
+  "text": "click on this link unless you reopen the"
+ },
+ {
+  "start": 184.959,
+  "end": 187.509,
+  "text": "application and then you will be able to"
+ },
+ {
+  "start": 187.519,
+  "end": 190.869,
+  "text": "directly click on this open new page."
+ },
+ {
+  "start": 190.879,
+  "end": 193.27,
+  "text": "Okay. So that's that's the kind of"
+ },
+ {
+  "start": 193.28,
+  "end": 195.11,
+  "text": "scenario which is present in front of"
+ },
+ {
+  "start": 195.12,
+  "end": 198.47,
+  "text": "you. Now I'm just trying to relate uh to"
+ },
+ {
+  "start": 198.48,
+  "end": 200.47,
+  "text": "this recovery and cleanup scenarios so"
+ },
+ {
+  "start": 200.48,
+  "end": 203.589,
+  "text": "that you can understand uh this"
+ },
+ {
+  "start": 203.599,
+  "end": 206.309,
+  "text": "scenarios better and you can employ it"
+ },
+ {
+  "start": 206.319,
+  "end": 208.55,
+  "text": "same into your application whenever you"
+ },
+ {
+  "start": 208.56,
+  "end": 212.39,
+  "text": "face this kind of scenarios right."
+ },
+ {
+  "start": 212.4,
+  "end": 214.309,
+  "text": "So uh in this kind of scenario what we"
+ },
+ {
+  "start": 214.319,
+  "end": 217.19,
+  "text": "can do is even if our recovery fails to"
+ },
+ {
+  "start": 217.2,
+  "end": 220.39,
+  "text": "click on this button right uh we go"
+ },
+ {
+  "start": 220.4,
+  "end": 223.589,
+  "text": "ahead and put two steps where we close"
+ },
+ {
+  "start": 223.599,
+  "end": 226.63,
+  "text": "the page and reopen this page so that"
+ },
+ {
+  "start": 226.64,
+  "end": 229.35,
+  "text": "this open new page link is now enabled"
+ },
+ {
+  "start": 229.36,
+  "end": 231.91,
+  "text": "and we can click on it directly. Okay."
+ },
+ {
+  "start": 231.92,
+  "end": 233.43,
+  "text": "So we don't have to go through this"
+ },
+ {
+  "start": 233.44,
+  "end": 237.11,
+  "text": "loop. We uh do a different way of"
+ },
+ {
+  "start": 237.12,
+  "end": 239.429,
+  "text": "clicking on this page. So we bring back"
+ },
+ {
+  "start": 239.439,
+  "end": 242.309,
+  "text": "the application to its original state."
+ },
+ {
+  "start": 242.319,
+  "end": 244.309,
+  "text": "Okay."
+ },
+ {
+  "start": 244.319,
+  "end": 246.71,
+  "text": "So this is what our scenario is. Now"
+ },
+ {
+  "start": 246.72,
+  "end": 249.03,
+  "text": "let's go to TSA and see how we can"
+ },
+ {
+  "start": 249.04,
+  "end": 252.949,
+  "text": "implement a cleanup scenarios. Okay."
+ },
+ {
+  "start": 252.959,
+  "end": 255.509,
+  "text": "So you have to have a recovery scenario"
+ },
+ {
+  "start": 255.519,
+  "end": 258.15,
+  "text": "in order to add a cleanup scenario."
+ },
+ {
+  "start": 258.16,
+  "end": 261.59,
+  "text": "Okay. So when you have created this"
+ },
+ {
+  "start": 261.6,
+  "end": 263.749,
+  "text": "recovery scenarios folder right the"
+ },
+ {
+  "start": 263.759,
+  "end": 266.39,
+  "text": "parent folder right click on it and you"
+ },
+ {
+  "start": 266.4,
+  "end": 269.67,
+  "text": "will see there is a icon where it tells"
+ },
+ {
+  "start": 269.68,
+  "end": 272.55,
+  "text": "create cleanup scenario okay you can"
+ },
+ {
+  "start": 272.56,
+  "end": 275.99,
+  "text": "also use the shortcuts CtrlN and Ctrl C"
+ },
+ {
+  "start": 276.0,
+  "end": 279.189,
+  "text": "okay so click on that and then it will"
+ },
+ {
+  "start": 279.199,
+  "end": 281.83,
+  "text": "create a cleanup scenario okay and"
+ },
+ {
+  "start": 281.84,
+  "end": 285.43,
+  "text": "inside this we can add our steps so what"
+ },
+ {
+  "start": 285.44,
+  "end": 287.909,
+  "text": "I want is I want to close the page and I"
+ },
+ {
+  "start": 287.919,
+  "end": 292.23,
+  "text": "want to reopen on the page. Okay. So"
+ },
+ {
+  "start": 292.24,
+  "end": 295.189,
+  "text": "I can directly go here and I can copy"
+ },
+ {
+  "start": 295.199,
+  "end": 297.909,
+  "text": "this test steps into this cleanup"
+ },
+ {
+  "start": 297.919,
+  "end": 300.95,
+  "text": "scenario. So I first want to close the"
+ },
+ {
+  "start": 300.96,
+  "end": 305.67,
+  "text": "URL and then I want to open the URL. So"
+ },
+ {
+  "start": 305.68,
+  "end": 308.31,
+  "text": "I will just copy it here and paste it"
+ },
+ {
+  "start": 308.32,
+  "end": 309.99,
+  "text": "here. Right? So I have two test steps"
+ },
+ {
+  "start": 310.0,
+  "end": 312.87,
+  "text": "now in cleanup scenario. Close URL and"
+ },
+ {
+  "start": 312.88,
+  "end": 316.629,
+  "text": "open URL. And this will bring back my"
+ },
+ {
+  "start": 316.639,
+  "end": 319.27,
+  "text": "application to its original state from"
+ },
+ {
+  "start": 319.28,
+  "end": 323.029,
+  "text": "which then it can continue to execute"
+ },
+ {
+  "start": 323.039,
+  "end": 325.27,
+  "text": "the other test steps. Right? Which is to"
+ },
+ {
+  "start": 325.28,
+  "end": 327.43,
+  "text": "open new page and then it will uh"
+ },
+ {
+  "start": 327.44,
+  "end": 329.83,
+  "text": "finally close it or any other test"
+ },
+ {
+  "start": 329.84,
+  "end": 333.189,
+  "text": "steps. Right? The main idea is if the"
+ },
+ {
+  "start": 333.199,
+  "end": 335.67,
+  "text": "recovery scenario fails, we also have a"
+ },
+ {
+  "start": 335.68,
+  "end": 338.87,
+  "text": "cleanup scenario where we can bring back"
+ },
+ {
+  "start": 338.88,
+  "end": 341.909,
+  "text": "our application to its original state."
+ },
+ {
+  "start": 341.919,
+  "end": 345.43,
+  "text": "Okay. So that's the main idea."
+ },
+ {
+  "start": 345.44,
+  "end": 349.59,
+  "text": "Now uh let's go ahead and execute this"
+ },
+ {
+  "start": 349.6,
+  "end": 352.95,
+  "text": "right and see whether it works or not."
+ },
+ {
+  "start": 352.96,
+  "end": 354.87,
+  "text": "Now if you have created your execution"
+ },
+ {
+  "start": 354.88,
+  "end": 357.27,
+  "text": "list and you are making some changes to"
+ },
+ {
+  "start": 357.28,
+  "end": 360.07,
+  "text": "your test cases right just to be sure"
+ },
+ {
+  "start": 360.08,
+  "end": 362.629,
+  "text": "that these changes are also reflecting"
+ },
+ {
+  "start": 362.639,
+  "end": 364.629,
+  "text": "in your execution list. You can right"
+ },
+ {
+  "start": 364.639,
+  "end": 367.83,
+  "text": "click on it and click on synchronize."
+ },
+ {
+  "start": 367.84,
+  "end": 369.189,
+  "text": "Right? So it will synchronize the"
+ },
+ {
+  "start": 369.199,
+  "end": 371.189,
+  "text": "changes between the test cases and the"
+ },
+ {
+  "start": 371.199,
+  "end": 375.59,
+  "text": "execution list. Okay. Now let's go ahead"
+ },
+ {
+  "start": 375.6,
+  "end": 379.189,
+  "text": "and click on run. Okay. And let's see"
+ },
+ {
+  "start": 379.199,
+  "end": 382.71,
+  "text": "whether it works or not."
+ },
+ {
+  "start": 382.72,
+  "end": 384.79,
+  "text": "So in this particular scenario, it is"
+ },
+ {
+  "start": 384.8,
+  "end": 388.23,
+  "text": "going to fail the test step and the"
+ },
+ {
+  "start": 388.24,
+  "end": 390.55,
+  "text": "recovery scenario. And in that"
+ },
+ {
+  "start": 390.56,
+  "end": 393.029,
+  "text": "particular case, it is going to employ"
+ },
+ {
+  "start": 393.039,
+  "end": 395.27,
+  "text": "the cleanup scenario. If you have"
+ },
+ {
+  "start": 395.28,
+  "end": 398.07,
+  "text": "noticed in the screen, it has reopened"
+ },
+ {
+  "start": 398.08,
+  "end": 400.55,
+  "text": "this application, right? And after that,"
+ },
+ {
+  "start": 400.56,
+  "end": 403.35,
+  "text": "it is going ahead and performing the"
+ },
+ {
+  "start": 403.36,
+  "end": 406.23,
+  "text": "test steps which could have been blocked"
+ },
+ {
+  "start": 406.24,
+  "end": 409.59,
+  "text": "if there was no cleanup scenario. Okay."
+ },
+ {
+  "start": 409.6,
+  "end": 411.909,
+  "text": "So, let's go ahead and look at these"
+ },
+ {
+  "start": 411.919,
+  "end": 414.39,
+  "text": "logs, right? So, let's go into this"
+ },
+ {
+  "start": 414.4,
+  "end": 417.51,
+  "text": "submit log and this is the current"
+ },
+ {
+  "start": 417.52,
+  "end": 420.15,
+  "text": "execution. So, you see this submit"
+ },
+ {
+  "start": 420.16,
+  "end": 423.11,
+  "text": "enabled this uh this is failed this test"
+ },
+ {
+  "start": 423.12,
+  "end": 426.07,
+  "text": "step. The recovery scenario has also"
+ },
+ {
+  "start": 426.08,
+  "end": 428.309,
+  "text": "failed. Okay."
+ },
+ {
+  "start": 428.319,
+  "end": 430.23,
+  "text": "But after this recovery scenario has"
+ },
+ {
+  "start": 430.24,
+  "end": 433.749,
+  "text": "failed, it has now enabled this cleanup"
+ },
+ {
+  "start": 433.759,
+  "end": 435.51,
+  "text": "scenario. Right. So it has gone into"
+ },
+ {
+  "start": 435.52,
+  "end": 437.35,
+  "text": "this cleanup scenario and it has closed"
+ },
+ {
+  "start": 437.36,
+  "end": 439.99,
+  "text": "the URL, opened the URL. Basically, it"
+ },
+ {
+  "start": 440.0,
+  "end": 443.189,
+  "text": "has executed this test steps. Okay."
+ },
+ {
+  "start": 443.199,
+  "end": 446.309,
+  "text": "After this was done, now it went ahead"
+ },
+ {
+  "start": 446.319,
+  "end": 451.909,
+  "text": "with the remaining test steps. Right."
+ },
+ {
+  "start": 456.39,
+  "end": 456.4,
+  "text": "So combining both cleanup scenarios and"
+ },
+ {
+  "start": 456.4,
+  "end": 459.589,
+  "text": "recovery scenarios, you can ideally come"
+ },
+ {
+  "start": 459.599,
+  "end": 463.589,
+  "text": "out of unexpected failures or errors"
+ },
+ {
+  "start": 463.599,
+  "end": 466.15,
+  "text": "from which your execution can still"
+ },
+ {
+  "start": 466.16,
+  "end": 468.39,
+  "text": "continue. Even if there are failures,"
+ },
+ {
+  "start": 468.4,
+  "end": 471.189,
+  "text": "your execution will not stop, right? So"
+ },
+ {
+  "start": 471.199,
+  "end": 473.83,
+  "text": "that way you can have a better execution"
+ },
+ {
+  "start": 473.84,
+  "end": 476.79,
+  "text": "cycle because uh then you can look at"
+ },
+ {
+  "start": 476.8,
+  "end": 478.71,
+  "text": "those failures and go ahead and fix"
+ },
+ {
+  "start": 478.72,
+  "end": 481.67,
+  "text": "them. But at least your execution will"
+ },
+ {
+  "start": 481.68,
+  "end": 484.55,
+  "text": "go ahead and it is not stuck if your"
+ },
+ {
+  "start": 484.56,
+  "end": 486.95,
+  "text": "recovery scenario fails or if your test"
+ },
+ {
+  "start": 486.96,
+  "end": 490.23,
+  "text": "step fails. Right?"
+ },
+ {
+  "start": 490.24,
+  "end": 493.909,
+  "text": "So this was all about cleanup scenarios."
+ },
+ {
+  "start": 493.919,
+  "end": 496.869,
+  "text": "Hope uh it was useful for you. We would"
+ },
+ {
+  "start": 496.879,
+  "end": 499.51,
+  "text": "come up with another interesting topic"
+ },
+ {
+  "start": 499.52,
+  "end": 502.71,
+  "text": "next Friday. So keep watching and do"
+ },
+ {
+  "start": 502.72,
+  "end": 505.749,
+  "text": "subscribe to our channel. We also have a"
+ },
+ {
+  "start": 505.759,
+  "end": 509.029,
+  "text": "webinar on uh tricentis tosskut live"
+ },
+ {
+  "start": 509.039,
+  "end": 513.269,
+  "text": "training going ahead on this Sunday the"
+ },
+ {
+  "start": 513.279,
+  "end": 515.829,
+  "text": "6th of November. So if you are"
+ },
+ {
+  "start": 515.839,
+  "end": 517.75,
+  "text": "interested please go ahead and register"
+ },
+ {
+  "start": 517.76,
+  "end": 522.039,
+  "text": "at our site www.qascript.com."
+ }
+]

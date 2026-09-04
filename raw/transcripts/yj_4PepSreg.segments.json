@@ -1,0 +1,1702 @@
+[
+ {
+  "start": 8.69,
+  "end": 8.7,
+  "text": "hey guys welcome back"
+ },
+ {
+  "start": 8.7,
+  "end": 11.15,
+  "text": "and today we are going to talk about"
+ },
+ {
+  "start": 11.16,
+  "end": 13.549,
+  "text": "buffer operations what are the different"
+ },
+ {
+  "start": 13.559,
+  "end": 16.189,
+  "text": "operations which are available uh in the"
+ },
+ {
+  "start": 16.199,
+  "end": 18.769,
+  "text": "t-box automation module and how you can"
+ },
+ {
+  "start": 18.779,
+  "end": 21.65,
+  "text": "use them in your test cases now this"
+ },
+ {
+  "start": 21.66,
+  "end": 23.75,
+  "text": "will be a continuation uh from our"
+ },
+ {
+  "start": 23.76,
+  "end": 26.09,
+  "text": "previous session when we talked about"
+ },
+ {
+  "start": 26.1,
+  "end": 29.21,
+  "text": "different string operations and then we"
+ },
+ {
+  "start": 29.22,
+  "end": 32.21,
+  "text": "used it to actually resolve one of"
+ },
+ {
+  "start": 32.22,
+  "end": 35.209,
+  "text": "automation challenge right so we used it"
+ },
+ {
+  "start": 35.219,
+  "end": 37.49,
+  "text": "to basically extract this particular"
+ },
+ {
+  "start": 37.5,
+  "end": 41.93,
+  "text": "order number from this text okay and we"
+ },
+ {
+  "start": 41.94,
+  "end": 43.91,
+  "text": "use different string operations we also"
+ },
+ {
+  "start": 43.92,
+  "end": 47.63,
+  "text": "used the t-box buffer Right Said buffer"
+ },
+ {
+  "start": 47.64,
+  "end": 50.389,
+  "text": "and we also used the action mode buffer"
+ },
+ {
+  "start": 50.399,
+  "end": 52.31,
+  "text": "right so we have seen some of the"
+ },
+ {
+  "start": 52.32,
+  "end": 54.229,
+  "text": "operations which we are already using"
+ },
+ {
+  "start": 54.239,
+  "end": 57.29,
+  "text": "but I'm going to talk explicitly about"
+ },
+ {
+  "start": 57.3,
+  "end": 59.75,
+  "text": "all of these operations okay"
+ },
+ {
+  "start": 59.76,
+  "end": 61.91,
+  "text": "so we have already seen how you can"
+ },
+ {
+  "start": 61.92,
+  "end": 64.07,
+  "text": "resolve this problem of getting the"
+ },
+ {
+  "start": 64.08,
+  "end": 66.85,
+  "text": "order number using this complex"
+ },
+ {
+  "start": 66.86,
+  "end": 69.53,
+  "text": "expression which involves a lot of"
+ },
+ {
+  "start": 69.54,
+  "end": 71.57,
+  "text": "different string operations right so we"
+ },
+ {
+  "start": 71.58,
+  "end": 73.49,
+  "text": "used the trim operation we use the"
+ },
+ {
+  "start": 73.5,
+  "end": 76.789,
+  "text": "string replace to replace that"
+ },
+ {
+  "start": 76.799,
+  "end": 79.25,
+  "text": "particular text with some um"
+ },
+ {
+  "start": 79.26,
+  "end": 81.77,
+  "text": "space or white space and then we also"
+ },
+ {
+  "start": 81.78,
+  "end": 84.469,
+  "text": "used the ignore case inside that in"
+ },
+ {
+  "start": 84.479,
+  "end": 86.03,
+  "text": "order to get that particular order"
+ },
+ {
+  "start": 86.04,
+  "end": 89.51,
+  "text": "number so that works perfectly fine it's"
+ },
+ {
+  "start": 89.52,
+  "end": 91.609,
+  "text": "um it's a valid way of getting this"
+ },
+ {
+  "start": 91.619,
+  "end": 93.77,
+  "text": "order number but there is also another"
+ },
+ {
+  "start": 93.78,
+  "end": 95.99,
+  "text": "way to do this okay and I'm going to"
+ },
+ {
+  "start": 96.0,
+  "end": 98.99,
+  "text": "show you exactly that"
+ },
+ {
+  "start": 99.0,
+  "end": 100.249,
+  "text": "so"
+ },
+ {
+  "start": 100.259,
+  "end": 102.469,
+  "text": "um I have created a test case folder and"
+ },
+ {
+  "start": 102.479,
+  "end": 104.569,
+  "text": "I'm going to reuse this test case so I'm"
+ },
+ {
+  "start": 104.579,
+  "end": 107.21,
+  "text": "going to copy and paste it here okay"
+ },
+ {
+  "start": 107.22,
+  "end": 110.21,
+  "text": "and inside this I'm going to now uh"
+ },
+ {
+  "start": 110.22,
+  "end": 113.149,
+  "text": "delete this particular test step because"
+ },
+ {
+  "start": 113.159,
+  "end": 114.77,
+  "text": "I don't want to use this string"
+ },
+ {
+  "start": 114.78,
+  "end": 117.35,
+  "text": "operations okay I may use some of them"
+ },
+ {
+  "start": 117.36,
+  "end": 119.51,
+  "text": "but not all of them I want to show you"
+ },
+ {
+  "start": 119.52,
+  "end": 122.149,
+  "text": "another way of doing that okay so this"
+ },
+ {
+  "start": 122.159,
+  "end": 124.31,
+  "text": "particular step where we are getting the"
+ },
+ {
+  "start": 124.32,
+  "end": 126.289,
+  "text": "inner text and we are buffering that"
+ },
+ {
+  "start": 126.299,
+  "end": 128.69,
+  "text": "into this particular value B underscore"
+ },
+ {
+  "start": 128.7,
+  "end": 130.79,
+  "text": "order so that will still remain the same"
+ },
+ {
+  "start": 130.8,
+  "end": 134.03,
+  "text": "okay we want to get the text which is"
+ },
+ {
+  "start": 134.04,
+  "end": 135.89,
+  "text": "present in this particular page and we"
+ },
+ {
+  "start": 135.9,
+  "end": 137.63,
+  "text": "want to buffer it using the action mode"
+ },
+ {
+  "start": 137.64,
+  "end": 141.71,
+  "text": "so that that's fine now I'm going to"
+ },
+ {
+  "start": 141.72,
+  "end": 143.089,
+  "text": "show you all the different buffer"
+ },
+ {
+  "start": 143.099,
+  "end": 145.369,
+  "text": "operations which are available in Tosca"
+ },
+ {
+  "start": 145.379,
+  "end": 149.449,
+  "text": "okay so when you go into this ADD test"
+ },
+ {
+  "start": 149.459,
+  "end": 153.71,
+  "text": "step and you type t-box and buffer"
+ },
+ {
+  "start": 153.72,
+  "end": 155.69,
+  "text": "so these are all the four different"
+ },
+ {
+  "start": 155.7,
+  "end": 157.91,
+  "text": "operations which you can perform okay so"
+ },
+ {
+  "start": 157.92,
+  "end": 160.67,
+  "text": "we have already seen t-box set buffer it"
+ },
+ {
+  "start": 160.68,
+  "end": 163.97,
+  "text": "basically uh sets a buffer value right"
+ },
+ {
+  "start": 163.98,
+  "end": 166.79,
+  "text": "and then there is also name to buffer"
+ },
+ {
+  "start": 166.8,
+  "end": 169.19,
+  "text": "we'll see this that is delete buffer"
+ },
+ {
+  "start": 169.2,
+  "end": 171.11,
+  "text": "which will basically delete the buffer"
+ },
+ {
+  "start": 171.12,
+  "end": 174.47,
+  "text": "okay and then there is t-box partial"
+ },
+ {
+  "start": 174.48,
+  "end": 177.61,
+  "text": "buffer okay so if you want to basically"
+ },
+ {
+  "start": 177.62,
+  "end": 180.47,
+  "text": "extract a part of the value and buffer"
+ },
+ {
+  "start": 180.48,
+  "end": 182.75,
+  "text": "it then you can use the partial buffer"
+ },
+ {
+  "start": 182.76,
+  "end": 184.61,
+  "text": "okay"
+ },
+ {
+  "start": 184.62,
+  "end": 186.589,
+  "text": "so this name to buffer this will"
+ },
+ {
+  "start": 186.599,
+  "end": 189.91,
+  "text": "basically what it will do is it will"
+ },
+ {
+  "start": 189.92,
+  "end": 192.83,
+  "text": "allow you to buffer the name of the test"
+ },
+ {
+  "start": 192.84,
+  "end": 195.41,
+  "text": "case okay that uses that particular"
+ },
+ {
+  "start": 195.42,
+  "end": 200.03,
+  "text": "module okay so it's not a a very kind of"
+ },
+ {
+  "start": 200.04,
+  "end": 203.27,
+  "text": "common scenario you will do always but"
+ },
+ {
+  "start": 203.28,
+  "end": 206.33,
+  "text": "it could be useful in in some steps okay"
+ },
+ {
+  "start": 206.34,
+  "end": 209.27,
+  "text": "so we will see this how how to use this"
+ },
+ {
+  "start": 209.28,
+  "end": 211.729,
+  "text": "but do keep in mind that this name to"
+ },
+ {
+  "start": 211.739,
+  "end": 214.67,
+  "text": "buffer can will only work when you run"
+ },
+ {
+  "start": 214.68,
+  "end": 217.13,
+  "text": "it from execution list it will not work"
+ },
+ {
+  "start": 217.14,
+  "end": 219.35,
+  "text": "when you run it from scratchbook as it"
+ },
+ {
+  "start": 219.36,
+  "end": 220.61,
+  "text": "doesn't support this particular"
+ },
+ {
+  "start": 220.62,
+  "end": 223.009,
+  "text": "functionality okay"
+ },
+ {
+  "start": 223.019,
+  "end": 225.35,
+  "text": "so let's go ahead and use all of these"
+ },
+ {
+  "start": 225.36,
+  "end": 227.99,
+  "text": "modules now okay so I'm going to start"
+ },
+ {
+  "start": 228.0,
+  "end": 230.809,
+  "text": "with t-box set buffer okay so once we"
+ },
+ {
+  "start": 230.819,
+  "end": 232.97,
+  "text": "get this in our text"
+ },
+ {
+  "start": 232.98,
+  "end": 235.13,
+  "text": "um inside this buffer uh what we want to"
+ },
+ {
+  "start": 235.14,
+  "end": 236.21,
+  "text": "do"
+ },
+ {
+  "start": 236.22,
+  "end": 240.53,
+  "text": "we want to extract the order number okay"
+ },
+ {
+  "start": 240.54,
+  "end": 243.11,
+  "text": "so let's see how we can do this"
+ },
+ {
+  "start": 243.12,
+  "end": 246.11,
+  "text": "um I'm going to call it order num and"
+ },
+ {
+  "start": 246.12,
+  "end": 247.25,
+  "text": "here"
+ },
+ {
+  "start": 247.26,
+  "end": 250.369,
+  "text": "actually I could get the order number"
+ },
+ {
+  "start": 250.379,
+  "end": 252.589,
+  "text": "but what we need to do is we need to"
+ },
+ {
+  "start": 252.599,
+  "end": 255.47,
+  "text": "First trim this white spaces okay there"
+ },
+ {
+  "start": 255.48,
+  "end": 257.509,
+  "text": "is no other way of doing this we have to"
+ },
+ {
+  "start": 257.519,
+  "end": 259.449,
+  "text": "trim the white spaces okay because"
+ },
+ {
+  "start": 259.459,
+  "end": 262.79,
+  "text": "otherwise you will always get the white"
+ },
+ {
+  "start": 262.8,
+  "end": 265.01,
+  "text": "space even if I try to extract the"
+ },
+ {
+  "start": 265.02,
+  "end": 268.129,
+  "text": "partial buffer value okay"
+ },
+ {
+  "start": 268.139,
+  "end": 271.37,
+  "text": "so first we need to do this and for this"
+ },
+ {
+  "start": 271.38,
+  "end": 273.23,
+  "text": "again we'll be using the trim function"
+ },
+ {
+  "start": 273.24,
+  "end": 276.05,
+  "text": "like we have done before okay inside"
+ },
+ {
+  "start": 276.06,
+  "end": 279.23,
+  "text": "this I'm going to pass the buffer value"
+ },
+ {
+  "start": 279.24,
+  "end": 283.189,
+  "text": "which is B underscore order"
+ },
+ {
+  "start": 283.199,
+  "end": 285.65,
+  "text": "okay"
+ },
+ {
+  "start": 285.66,
+  "end": 288.65,
+  "text": "and this will basically trim all the"
+ },
+ {
+  "start": 288.66,
+  "end": 291.29,
+  "text": "white spaces inside this text which we"
+ },
+ {
+  "start": 291.3,
+  "end": 293.03,
+  "text": "are getting okay"
+ },
+ {
+  "start": 293.04,
+  "end": 296.51,
+  "text": "so this uh will set the buffer okay so"
+ },
+ {
+  "start": 296.52,
+  "end": 299.749,
+  "text": "this particular buffer operation is used"
+ },
+ {
+  "start": 299.759,
+  "end": 300.95,
+  "text": "to"
+ },
+ {
+  "start": 300.96,
+  "end": 303.05,
+  "text": "set the buffer so it will create a"
+ },
+ {
+  "start": 303.06,
+  "end": 305.33,
+  "text": "buffer with a particular value the value"
+ },
+ {
+  "start": 305.34,
+  "end": 308.81,
+  "text": "is this what we are trimming okay and"
+ },
+ {
+  "start": 308.82,
+  "end": 310.969,
+  "text": "then um it will"
+ },
+ {
+  "start": 310.979,
+  "end": 314.51,
+  "text": "um set it into a buffer name which is"
+ },
+ {
+  "start": 314.52,
+  "end": 317.39,
+  "text": "order num okay so this is what the set"
+ },
+ {
+  "start": 317.4,
+  "end": 319.909,
+  "text": "buffer does already we have used this"
+ },
+ {
+  "start": 319.919,
+  "end": 322.969,
+  "text": "many times but I'm just explaining you"
+ },
+ {
+  "start": 322.979,
+  "end": 326.09,
+  "text": "again okay it can also verify the value"
+ },
+ {
+  "start": 326.1,
+  "end": 328.07,
+  "text": "okay if I change the action mode to"
+ },
+ {
+  "start": 328.08,
+  "end": 330.29,
+  "text": "verify then it is going to verify the"
+ },
+ {
+  "start": 330.3,
+  "end": 333.23,
+  "text": "value for this particular buffer so this"
+ },
+ {
+  "start": 333.24,
+  "end": 336.11,
+  "text": "t-box set buffer can be used for both it"
+ },
+ {
+  "start": 336.12,
+  "end": 338.93,
+  "text": "can be used for creating a buffer with a"
+ },
+ {
+  "start": 338.94,
+  "end": 341.39,
+  "text": "particular value it can also be used for"
+ },
+ {
+  "start": 341.4,
+  "end": 343.79,
+  "text": "verifying the value of existing buffer"
+ },
+ {
+  "start": 343.8,
+  "end": 346.249,
+  "text": "okay"
+ },
+ {
+  "start": 347.4,
+  "end": 350.09,
+  "text": "um now what we are going to do is we are"
+ },
+ {
+  "start": 350.1,
+  "end": 354.409,
+  "text": "going to now use another module called T"
+ },
+ {
+  "start": 354.419,
+  "end": 355.49,
+  "text": "box"
+ },
+ {
+  "start": 355.5,
+  "end": 357.11,
+  "text": "uh"
+ },
+ {
+  "start": 357.12,
+  "end": 359.87,
+  "text": "partial buffer okay"
+ },
+ {
+  "start": 359.88,
+  "end": 362.39,
+  "text": "so this is where we are going to extract"
+ },
+ {
+  "start": 362.4,
+  "end": 365.39,
+  "text": "a part of the value okay so part of the"
+ },
+ {
+  "start": 365.4,
+  "end": 368.629,
+  "text": "text and store it into a buffer right"
+ },
+ {
+  "start": 368.639,
+  "end": 372.77,
+  "text": "so here we need to pass couple of values"
+ },
+ {
+  "start": 372.78,
+  "end": 373.67,
+  "text": "okay"
+ },
+ {
+  "start": 373.68,
+  "end": 377.39,
+  "text": "so we need to pass uh what would be the"
+ },
+ {
+  "start": 377.4,
+  "end": 379.73,
+  "text": "buffer new buffer name okay where you"
+ },
+ {
+  "start": 379.74,
+  "end": 382.249,
+  "text": "want to store this so say I'm going to"
+ },
+ {
+  "start": 382.259,
+  "end": 385.49,
+  "text": "store it in order number and then in the"
+ },
+ {
+  "start": 385.5,
+  "end": 387.83,
+  "text": "value you need to pass the actual buffer"
+ },
+ {
+  "start": 387.84,
+  "end": 389.87,
+  "text": "okay so from where you want to extract"
+ },
+ {
+  "start": 389.88,
+  "end": 392.99,
+  "text": "this partial text and that is uh order"
+ },
+ {
+  "start": 393.0,
+  "end": 397.07,
+  "text": "number right so we'll use buffer here"
+ },
+ {
+  "start": 397.08,
+  "end": 404.029,
+  "text": "and we will use order num"
+ },
+ {
+  "start": 406.129,
+  "end": 406.139,
+  "text": "okay"
+ },
+ {
+  "start": 406.139,
+  "end": 410.09,
+  "text": "and then uh we what we need to give here"
+ },
+ {
+  "start": 410.1,
+  "end": 413.99,
+  "text": "is either we can give it a start okay a"
+ },
+ {
+  "start": 414.0,
+  "end": 416.09,
+  "text": "start value this is basically the index"
+ },
+ {
+  "start": 416.1,
+  "end": 418.37,
+  "text": "from which you want the system to start"
+ },
+ {
+  "start": 418.38,
+  "end": 421.07,
+  "text": "buffering or verifying the value okay"
+ },
+ {
+  "start": 421.08,
+  "end": 423.83,
+  "text": "and then you can also put a end value"
+ },
+ {
+  "start": 423.84,
+  "end": 428.27,
+  "text": "okay so uh see for example here uh we"
+ },
+ {
+  "start": 428.28,
+  "end": 429.71,
+  "text": "want to extract this particular text"
+ },
+ {
+  "start": 429.72,
+  "end": 433.43,
+  "text": "okay so either you give it a start value"
+ },
+ {
+  "start": 433.44,
+  "end": 436.969,
+  "text": "okay so it could be after all of these"
+ },
+ {
+  "start": 436.979,
+  "end": 438.77,
+  "text": "characters right so you need to count"
+ },
+ {
+  "start": 438.78,
+  "end": 442.189,
+  "text": "all of this and then it could be 20 30"
+ },
+ {
+  "start": 442.199,
+  "end": 444.71,
+  "text": "uh so whatever is the start value and"
+ },
+ {
+  "start": 444.72,
+  "end": 446.99,
+  "text": "then the end value okay"
+ },
+ {
+  "start": 447.0,
+  "end": 450.65,
+  "text": "but this is not the ideal scenario for"
+ },
+ {
+  "start": 450.66,
+  "end": 454.43,
+  "text": "this purpose okay uh start and end could"
+ },
+ {
+  "start": 454.44,
+  "end": 456.83,
+  "text": "be useful when you are starting right in"
+ },
+ {
+  "start": 456.84,
+  "end": 458.57,
+  "text": "the beginning right so if I want to"
+ },
+ {
+  "start": 458.58,
+  "end": 462.29,
+  "text": "extract this order text I can give it"
+ },
+ {
+  "start": 462.3,
+  "end": 466.909,
+  "text": "um a start value like 1 here okay"
+ },
+ {
+  "start": 466.919,
+  "end": 470.87,
+  "text": "and then um I can give it uh one two"
+ },
+ {
+  "start": 470.88,
+  "end": 473.93,
+  "text": "three four five right so I can give it a"
+ },
+ {
+  "start": 473.94,
+  "end": 475.79,
+  "text": "end value of five so it will basically"
+ },
+ {
+  "start": 475.8,
+  "end": 478.67,
+  "text": "extract the first five characters right"
+ },
+ {
+  "start": 478.68,
+  "end": 481.07,
+  "text": "starting from one till five whatever"
+ },
+ {
+  "start": 481.08,
+  "end": 483.409,
+  "text": "characters it will get it will extract"
+ },
+ {
+  "start": 483.419,
+  "end": 484.969,
+  "text": "that and it will store it in this"
+ },
+ {
+  "start": 484.979,
+  "end": 487.909,
+  "text": "particular order num right"
+ },
+ {
+  "start": 487.919,
+  "end": 490.909,
+  "text": "but that is not what I want to do I want"
+ },
+ {
+  "start": 490.919,
+  "end": 493.85,
+  "text": "to extract the order number and the best"
+ },
+ {
+  "start": 493.86,
+  "end": 497.029,
+  "text": "way to do is is to use"
+ },
+ {
+  "start": 497.039,
+  "end": 499.43,
+  "text": "um this particular parameter which is"
+ },
+ {
+  "start": 499.44,
+  "end": 501.17,
+  "text": "last okay"
+ },
+ {
+  "start": 501.18,
+  "end": 504.11,
+  "text": "so this will basically uh you have to"
+ },
+ {
+  "start": 504.12,
+  "end": 505.49,
+  "text": "give the number of characters you want"
+ },
+ {
+  "start": 505.5,
+  "end": 507.89,
+  "text": "to buffer or verify starting from the"
+ },
+ {
+  "start": 507.9,
+  "end": 510.589,
+  "text": "last character okay so you need to"
+ },
+ {
+  "start": 510.599,
+  "end": 513.17,
+  "text": "decide which parameters you want to use"
+ },
+ {
+  "start": 513.18,
+  "end": 515.57,
+  "text": "in this partial buffer which suits your"
+ },
+ {
+  "start": 515.58,
+  "end": 518.269,
+  "text": "particular use case Okay so for my use"
+ },
+ {
+  "start": 518.279,
+  "end": 521.87,
+  "text": "case uh it this last parameter suits"
+ },
+ {
+  "start": 521.88,
+  "end": 524.93,
+  "text": "better okay so if I count from the last"
+ },
+ {
+  "start": 524.94,
+  "end": 528.59,
+  "text": "one two three four five six seven right"
+ },
+ {
+  "start": 528.6,
+  "end": 530.57,
+  "text": "so seven characters I want to extract"
+ },
+ {
+  "start": 530.58,
+  "end": 531.829,
+  "text": "okay"
+ },
+ {
+  "start": 531.839,
+  "end": 535.07,
+  "text": "so you cannot do a combination of both"
+ },
+ {
+  "start": 535.08,
+  "end": 537.949,
+  "text": "okay because it will contract each other"
+ },
+ {
+  "start": 537.959,
+  "end": 540.829,
+  "text": "right so better I will just delete this"
+ },
+ {
+  "start": 540.839,
+  "end": 543.59,
+  "text": "and then here I will give last seven"
+ },
+ {
+  "start": 543.6,
+  "end": 546.05,
+  "text": "okay so it will buffer the last seven"
+ },
+ {
+  "start": 546.06,
+  "end": 548.509,
+  "text": "characters from this particular text"
+ },
+ {
+  "start": 548.519,
+  "end": 551.99,
+  "text": "okay and into this buffer value"
+ },
+ {
+  "start": 552.0,
+  "end": 556.79,
+  "text": "right I can also use the same t-box"
+ },
+ {
+  "start": 556.8,
+  "end": 560.389,
+  "text": "partial buffer to verify okay same for"
+ },
+ {
+  "start": 560.399,
+  "end": 563.21,
+  "text": "t-box set buffer you can do that but"
+ },
+ {
+  "start": 563.22,
+  "end": 566.269,
+  "text": "let's use the partial buffer here again"
+ },
+ {
+  "start": 566.279,
+  "end": 569.59,
+  "text": "and here I need to pass the same buffer"
+ },
+ {
+  "start": 569.6,
+  "end": 572.69,
+  "text": "value which is order number"
+ },
+ {
+  "start": 572.7,
+  "end": 575.509,
+  "text": "and then in the value I need to pass"
+ },
+ {
+  "start": 575.519,
+  "end": 577.67,
+  "text": "this particular order number"
+ },
+ {
+  "start": 577.68,
+  "end": 580.73,
+  "text": "obviously this is not an ideal case for"
+ },
+ {
+  "start": 580.74,
+  "end": 582.769,
+  "text": "this but I just want to verify it"
+ },
+ {
+  "start": 582.779,
+  "end": 584.99,
+  "text": "ideally I would not know this order"
+ },
+ {
+  "start": 585.0,
+  "end": 586.85,
+  "text": "number because it's dynamically"
+ },
+ {
+  "start": 586.86,
+  "end": 589.79,
+  "text": "generated but in any other use case"
+ },
+ {
+  "start": 589.8,
+  "end": 592.19,
+  "text": "where you already know the value it is"
+ },
+ {
+  "start": 592.2,
+  "end": 594.769,
+  "text": "coming from the requirements you can use"
+ },
+ {
+  "start": 594.779,
+  "end": 596.81,
+  "text": "the partial buffer to even verify this"
+ },
+ {
+  "start": 596.82,
+  "end": 599.269,
+  "text": "okay so you just need to change the"
+ },
+ {
+  "start": 599.279,
+  "end": 601.67,
+  "text": "action mode to verify"
+ },
+ {
+  "start": 601.68,
+  "end": 607.81,
+  "text": "right and now uh we'll be using another"
+ },
+ {
+  "start": 607.82,
+  "end": 613.37,
+  "text": "module okay which is t-box set"
+ },
+ {
+  "start": 613.38,
+  "end": 615.829,
+  "text": "um or let's type buffer here"
+ },
+ {
+  "start": 615.839,
+  "end": 621.11,
+  "text": "and name to buffer okay"
+ },
+ {
+  "start": 623.389,
+  "end": 623.399,
+  "text": "so here uh"
+ },
+ {
+  "start": 623.399,
+  "end": 627.949,
+  "text": "we have to give basically a name okay a"
+ },
+ {
+  "start": 627.959,
+  "end": 630.05,
+  "text": "value where this particular name will be"
+ },
+ {
+  "start": 630.06,
+  "end": 631.97,
+  "text": "stored it will store the test case name"
+ },
+ {
+  "start": 631.98,
+  "end": 635.269,
+  "text": "okay so we'll say test case underscore"
+ },
+ {
+  "start": 635.279,
+  "end": 637.009,
+  "text": "name here"
+ },
+ {
+  "start": 637.019,
+  "end": 639.71,
+  "text": "and this will basically allow you to"
+ },
+ {
+  "start": 639.72,
+  "end": 641.69,
+  "text": "buffer the name of the test case okay"
+ },
+ {
+  "start": 641.7,
+  "end": 644.389,
+  "text": "which uses this particular module right"
+ },
+ {
+  "start": 644.399,
+  "end": 647.509,
+  "text": "and it will only work with execution"
+ },
+ {
+  "start": 647.519,
+  "end": 649.85,
+  "text": "list it will not work with when you run"
+ },
+ {
+  "start": 649.86,
+  "end": 652.43,
+  "text": "it from scratchbook right"
+ },
+ {
+  "start": 652.44,
+  "end": 655.329,
+  "text": "and the last uh t-box"
+ },
+ {
+  "start": 655.339,
+  "end": 657.949,
+  "text": "buffer operation which I want to show"
+ },
+ {
+  "start": 657.959,
+  "end": 661.73,
+  "text": "you is delete buffer okay"
+ },
+ {
+  "start": 661.74,
+  "end": 663.889,
+  "text": "this could be useful if you want to"
+ },
+ {
+  "start": 663.899,
+  "end": 665.99,
+  "text": "clean up whatever buffer names you have"
+ },
+ {
+  "start": 666.0,
+  "end": 667.19,
+  "text": "used okay"
+ },
+ {
+  "start": 667.2,
+  "end": 669.829,
+  "text": "uh it's not necessary because whenever"
+ },
+ {
+  "start": 669.839,
+  "end": 672.11,
+  "text": "you run it will always override the"
+ },
+ {
+  "start": 672.12,
+  "end": 674.329,
+  "text": "values but still if you want to do a"
+ },
+ {
+  "start": 674.339,
+  "end": 677.569,
+  "text": "cleanup you can always do that right"
+ },
+ {
+  "start": 677.579,
+  "end": 680.03,
+  "text": "so let's see what buffer names we have"
+ },
+ {
+  "start": 680.04,
+  "end": 683.269,
+  "text": "already used I can delete all of them at"
+ },
+ {
+  "start": 683.279,
+  "end": 686.269,
+  "text": "the time okay so I have used order num"
+ },
+ {
+  "start": 686.279,
+  "end": 689.81,
+  "text": "somewhere right here and then I have"
+ },
+ {
+  "start": 689.82,
+  "end": 693.889,
+  "text": "also used order number"
+ },
+ {
+  "start": 693.899,
+  "end": 695.569,
+  "text": "and then"
+ },
+ {
+  "start": 695.579,
+  "end": 700.43,
+  "text": "I have also used TC underscore name"
+ },
+ {
+  "start": 700.44,
+  "end": 702.29,
+  "text": "okay so these are the three buffers"
+ },
+ {
+  "start": 702.3,
+  "end": 706.069,
+  "text": "which I have used you can see here"
+ },
+ {
+  "start": 706.079,
+  "end": 709.49,
+  "text": "okay and at the last step I am basically"
+ },
+ {
+  "start": 709.5,
+  "end": 712.37,
+  "text": "deleting all these three buffers right"
+ },
+ {
+  "start": 712.38,
+  "end": 714.829,
+  "text": "so you can see here I have used all the"
+ },
+ {
+  "start": 714.839,
+  "end": 717.17,
+  "text": "different buffer operations okay for"
+ },
+ {
+  "start": 717.18,
+  "end": 719.389,
+  "text": "this particular scenario"
+ },
+ {
+  "start": 719.399,
+  "end": 721.43,
+  "text": "um we are using the set buffer we are"
+ },
+ {
+  "start": 721.44,
+  "end": 724.79,
+  "text": "using partial buffer to basically"
+ },
+ {
+  "start": 724.8,
+  "end": 727.069,
+  "text": "store the partial"
+ },
+ {
+  "start": 727.079,
+  "end": 731.03,
+  "text": "buffer paths okay and also verify it"
+ },
+ {
+  "start": 731.04,
+  "end": 733.49,
+  "text": "using the same method okay and then name"
+ },
+ {
+  "start": 733.5,
+  "end": 736.25,
+  "text": "to buffer we'll see what it gives and"
+ },
+ {
+  "start": 736.26,
+  "end": 738.65,
+  "text": "also the buffer to delete all the buffer"
+ },
+ {
+  "start": 738.66,
+  "end": 740.509,
+  "text": "names right"
+ },
+ {
+  "start": 740.519,
+  "end": 743.269,
+  "text": "so let's go ahead and run this"
+ },
+ {
+  "start": 743.279,
+  "end": 745.49,
+  "text": "particular test case now and let me show"
+ },
+ {
+  "start": 745.5,
+  "end": 747.949,
+  "text": "you the result okay as I said it's"
+ },
+ {
+  "start": 747.959,
+  "end": 750.17,
+  "text": "better to run it from execution list if"
+ },
+ {
+  "start": 750.18,
+  "end": 752.15,
+  "text": "you want to see the result for name to"
+ },
+ {
+  "start": 752.16,
+  "end": 753.71,
+  "text": "buffer"
+ },
+ {
+  "start": 753.72,
+  "end": 756.949,
+  "text": "so let me create execution list I"
+ },
+ {
+  "start": 756.959,
+  "end": 760.43,
+  "text": "already have a folder here okay and I am"
+ },
+ {
+  "start": 760.44,
+  "end": 763.55,
+  "text": "going to drag this particular test case"
+ },
+ {
+  "start": 763.56,
+  "end": 764.81,
+  "text": "here"
+ },
+ {
+  "start": 764.82,
+  "end": 766.569,
+  "text": "okay"
+ },
+ {
+  "start": 766.579,
+  "end": 770.09,
+  "text": "and I'm going to say"
+ },
+ {
+  "start": 770.1,
+  "end": 775.43,
+  "text": "um order number"
+ },
+ {
+  "start": 782.15,
+  "end": 782.16,
+  "text": "okay and then this will contain my test"
+ },
+ {
+  "start": 782.16,
+  "end": 784.67,
+  "text": "case so let's go ahead and execute it"
+ },
+ {
+  "start": 784.68,
+  "end": 790.85,
+  "text": "right from here"
+ },
+ {
+  "start": 792.889,
+  "end": 792.899,
+  "text": "okay so the execution has passed and"
+ },
+ {
+  "start": 792.899,
+  "end": 795.29,
+  "text": "let's look at the results now okay so"
+ },
+ {
+  "start": 795.3,
+  "end": 797.629,
+  "text": "here if I come here"
+ },
+ {
+  "start": 797.639,
+  "end": 799.91,
+  "text": "you will see here"
+ },
+ {
+  "start": 799.92,
+  "end": 802.37,
+  "text": "um in the log info we can see"
+ },
+ {
+  "start": 802.38,
+  "end": 804.65,
+  "text": "P underscore order has been set to the"
+ },
+ {
+  "start": 804.66,
+  "end": 806.75,
+  "text": "value this right it has got some white"
+ },
+ {
+  "start": 806.76,
+  "end": 808.129,
+  "text": "space characters"
+ },
+ {
+  "start": 808.139,
+  "end": 811.55,
+  "text": "and then if we come here and here we are"
+ },
+ {
+  "start": 811.56,
+  "end": 814.67,
+  "text": "trimming the value or white spaces from"
+ },
+ {
+  "start": 814.68,
+  "end": 816.17,
+  "text": "the text right so there are no white"
+ },
+ {
+  "start": 816.18,
+  "end": 817.79,
+  "text": "spaces in this"
+ },
+ {
+  "start": 817.8,
+  "end": 819.829,
+  "text": "now we want to extract the order number"
+ },
+ {
+  "start": 819.839,
+  "end": 821.87,
+  "text": "right so here"
+ },
+ {
+  "start": 821.88,
+  "end": 825.47,
+  "text": "now I'm buffering that a particular"
+ },
+ {
+  "start": 825.48,
+  "end": 828.47,
+  "text": "part of the text right so the last part"
+ },
+ {
+  "start": 828.48,
+  "end": 831.65,
+  "text": "so it counts from the last till the"
+ },
+ {
+  "start": 831.66,
+  "end": 833.629,
+  "text": "character or what the value I have"
+ },
+ {
+  "start": 833.639,
+  "end": 835.55,
+  "text": "provided I provide seven so it counted"
+ },
+ {
+  "start": 835.56,
+  "end": 837.71,
+  "text": "and it grabbed this particular text"
+ },
+ {
+  "start": 837.72,
+  "end": 840.05,
+  "text": "which is actually the order number so I"
+ },
+ {
+  "start": 840.06,
+  "end": 841.79,
+  "text": "have set it to this particular buffer"
+ },
+ {
+  "start": 841.8,
+  "end": 842.87,
+  "text": "right"
+ },
+ {
+  "start": 842.88,
+  "end": 845.87,
+  "text": "and again here I'm verifying okay"
+ },
+ {
+  "start": 845.88,
+  "end": 850.73,
+  "text": "whether these two are equal so these two"
+ },
+ {
+  "start": 850.74,
+  "end": 854.21,
+  "text": "are actually same so it has passed and"
+ },
+ {
+  "start": 854.22,
+  "end": 856.79,
+  "text": "then we are using the Box name to buffer"
+ },
+ {
+  "start": 856.8,
+  "end": 860.269,
+  "text": "here we are storing the test case name"
+ },
+ {
+  "start": 860.279,
+  "end": 862.25,
+  "text": "so you can see this is the test case"
+ },
+ {
+  "start": 862.26,
+  "end": 864.53,
+  "text": "name find order number it has been"
+ },
+ {
+  "start": 864.54,
+  "end": 867.769,
+  "text": "stored in this particular buffer name"
+ },
+ {
+  "start": 867.779,
+  "end": 870.41,
+  "text": "which is TC underscore name okay"
+ },
+ {
+  "start": 870.42,
+  "end": 873.769,
+  "text": "and then uh t-box Delete buffer so here"
+ },
+ {
+  "start": 873.779,
+  "end": 876.11,
+  "text": "you will see buffer what a number was"
+ },
+ {
+  "start": 876.12,
+  "end": 878.81,
+  "text": "successfully deleted so it deleted all"
+ },
+ {
+  "start": 878.82,
+  "end": 880.79,
+  "text": "the three buffers which we had created"
+ },
+ {
+  "start": 880.8,
+  "end": 885.53,
+  "text": "earlier so performed a cleanup okay"
+ },
+ {
+  "start": 885.54,
+  "end": 886.85,
+  "text": "so these are all the different"
+ },
+ {
+  "start": 886.86,
+  "end": 890.269,
+  "text": "operations which you can perform using"
+ },
+ {
+  "start": 890.279,
+  "end": 893.09,
+  "text": "the t-box automation modules for buffers"
+ },
+ {
+  "start": 893.1,
+  "end": 894.949,
+  "text": "right"
+ },
+ {
+  "start": 894.959,
+  "end": 896.569,
+  "text": "um it could be useful in different"
+ },
+ {
+  "start": 896.579,
+  "end": 899.03,
+  "text": "scenarios so you have to look at your"
+ },
+ {
+  "start": 899.04,
+  "end": 902.269,
+  "text": "use case and then use any of this uh"
+ },
+ {
+  "start": 902.279,
+  "end": 905.75,
+  "text": "buffer operations inside your test case"
+ },
+ {
+  "start": 905.76,
+  "end": 907.67,
+  "text": "so that's all for this particular video"
+ },
+ {
+  "start": 907.68,
+  "end": 910.43,
+  "text": "hopefully you enjoyed it and you learned"
+ },
+ {
+  "start": 910.44,
+  "end": 912.47,
+  "text": "something new today I will continue to"
+ },
+ {
+  "start": 912.48,
+  "end": 915.05,
+  "text": "bring more interesting videos on Tosca"
+ },
+ {
+  "start": 915.06,
+  "end": 917.93,
+  "text": "on different features of Tosca and how"
+ },
+ {
+  "start": 917.94,
+  "end": 919.97,
+  "text": "you can use it in your day-to-day"
+ },
+ {
+  "start": 919.98,
+  "end": 923.269,
+  "text": "automation scenarios so keep watching"
+ },
+ {
+  "start": 923.279,
+  "end": 926.509,
+  "text": "and until the next video keep learning"
+ },
+ {
+  "start": 926.519,
+  "end": 929.269,
+  "text": "Tosca and keep watching our channel for"
+ },
+ {
+  "start": 929.279,
+  "end": 932.18,
+  "text": "more upcoming videos"
+ }
+]

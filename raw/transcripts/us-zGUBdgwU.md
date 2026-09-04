@@ -1,0 +1,30 @@
+---
+id: "us-zGUBdgwU"
+title: "Tosca Tutorial | Lesson 94 - Clone Workspaces using Command Line Tool | TCWorkspaceUtil |"
+url: "https://www.youtube.com/watch?v=us-zGUBdgwU"
+channel: "QASCRIPT"
+playlist: "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification"
+playlist_index: 94
+duration: 418
+upload_date: "20230908"
+source: "youtube-subs"
+language: "en"
+transcribed_at: "2026-09-04T08:05:32Z"
+status: "raw"
+---
+
+# Tosca Tutorial | Lesson 94 - Clone Workspaces using Command Line Tool | TCWorkspaceUtil |
+
+[00:08] hey everyone welcome back to our Channel I am back with another interesting topic in the Tosca automation playlist now we are going to discuss about how we can clone a particular workspace in Tosca first let's understand what is this cloning and why it is required so cloning as the name suggests is basically creating a copy of your workspace which you have created earlier now if you are working in a team there would be several team members who would be working or who need to work on the same Tosca workspace so we need to provide a copy of our main workspace to each one of them right so that each one of us in the team are working on the same workspace now the problem here is you can't just copy and paste your workspace into another folder or into another machine so that will not work because each time you create a workspace in Tosca it
+
+[01:10] creates a unique ID of that particular workspace so if you copy that workspace and paste it into a different machine then it will still be referring to the same ID which was created originally so ultimately what will happen is if multiple people are working on that copied workspace then your workspace will get locked because two processes will be trying to access the same bug space with the same ID and that is why you need to basically clone a workspace instead of copying the workspace okay so there is a particular tool which Tosca has provided through which you can clone any number of workspaces from your main workspace and that is the process which you need to follow whenever you are working in a team and you need to distribute your workspace to all the different Oscar development machines where people can
+
+[02:11] log in and then start working on their own workspace okay so let's see how we can do this cloning process so for this we are going to use a multi-user workspace which is this multi demo okay and we are going to create clones of these multi demo Tosca workspace which we have created so this tool is basically a exe which is present in your Tosca Commander uh folder directory where you have installed it okay so this tool is called TC workspace cloneutil.exe and as I said it is present uh in the commander home directory okay so if I go here into my file explorer and I just type Commander underscore home and then percentage it will take me to that particular folder okay and now here if I search PC work
+
+[03:13] space clone util okay so here you will see this is the file or this is the tool a utility tool which has been provided by Tosca Commander okay and it is present in your installation directory so it is called TC workspace clone util now you cannot directly run this as an exe okay here you have to use the command line tool in order to run this particular uh util tool to clone your particular workspaces it also needs some arguments which we need to pass okay so for that what I have done is I have created a batch file okay so if I go ahead and I edit this file you will be able to see what's inside this so the first command is uh to go into the command Commander home directory and the next command is basically calling that exe and then passing the parameters so the first parameter which it accepts is the workspace which you want to clone
+
+[04:16] okay so Dash workspace and then you need to give the path the complete path and then the out parameter this is basically uh the output directory folder okay where it will be creating the Clones so you need to give that particular path and then the count uh here you need to specify how many clones you want to create okay so I want to create five clones you can give 10 15 20 50 whatever number you want uh to create loans for this particular workspace okay so these are the two commands which will be executed as part of this batch file okay you can also go individually into the command prompt and go ahead and execute uh one by one or you can just create the batch file which will automatically execute this right so let's quickly go ahead and execute this now as you can see I have already created a clones folder here and I have
+
+[05:18] given this particular path in my um in my command okay so what I'm going to do I'm going to double click on this batch file and you will see here it will open this command prompt so in the First Command it went into that particular folder okay and then it started the cloning process it cloned uh 5 or it created Five clones for that particular workspace okay and now if I go ahead and the Clones directory you will see that the five different clones of that particular workspace has been created in different folders now if I go into each folder it is in itself a workspace okay and it has got its own workspace ID and now we just need to copy this okay into different development machines which will be used by each Tosca team member to work on its own workspace
+
+[06:20] now all of this workspace are still connected to the same repository okay so even if everyone is working on their own workspace they are checking in and checking out from the same Repository so this is how you can clone different workspaces from your main workspace so that it can be used in different Oscar machines that's all for this particular video if you have any questions then please leave it in the comments if you like this video then please subscribe to our Channel thanks for watching and I will see you in the next video

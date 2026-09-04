@@ -1,0 +1,737 @@
+[
+ {
+  "start": 12.509,
+  "end": 12.519,
+  "text": "hey everyone welcome back to our Channel"
+ },
+ {
+  "start": 12.519,
+  "end": 15.15,
+  "text": "I am back with another interesting topic"
+ },
+ {
+  "start": 15.16,
+  "end": 18.429,
+  "text": "in the tosa automation playlist so"
+ },
+ {
+  "start": 18.439,
+  "end": 20.349,
+  "text": "continuing with our topic on the test"
+ },
+ {
+  "start": 20.359,
+  "end": 23.15,
+  "text": "automation obstacles let's look at the"
+ },
+ {
+  "start": 23.16,
+  "end": 25.15,
+  "text": "next automation obstacle which is called"
+ },
+ {
+  "start": 25.16,
+  "end": 28.55,
+  "text": "the to-do list and here we have got two"
+ },
+ {
+  "start": 28.56,
+  "end": 31.47,
+  "text": "tables one is the the to-do tasks and"
+ },
+ {
+  "start": 31.48,
+  "end": 34.069,
+  "text": "one is the completed tasks now the"
+ },
+ {
+  "start": 34.079,
+  "end": 37.63,
+  "text": "challenge here is we need to drag and"
+ },
+ {
+  "start": 37.64,
+  "end": 41.59,
+  "text": "drop each row from these twoo tasks into"
+ },
+ {
+  "start": 41.6,
+  "end": 44.83,
+  "text": "the completed tasks in a certain order"
+ },
+ {
+  "start": 44.84,
+  "end": 47.31,
+  "text": "okay so we need to drag uh in the"
+ },
+ {
+  "start": 47.32,
+  "end": 50.43,
+  "text": "numerical order so we'll first drag the"
+ },
+ {
+  "start": 50.44,
+  "end": 54.549,
+  "text": "first task then uh the second one and"
+ },
+ {
+  "start": 54.559,
+  "end": 55.95,
+  "text": "then the third"
+ },
+ {
+  "start": 55.96,
+  "end": 59.59,
+  "text": "one okay and then the fourth one and"
+ },
+ {
+  "start": 59.6,
+  "end": 62.63,
+  "text": "then the the fifth and then the sixth"
+ },
+ {
+  "start": 62.64,
+  "end": 64.31,
+  "text": "okay and then the obstacle will be"
+ },
+ {
+  "start": 64.32,
+  "end": 67.31,
+  "text": "completed so that's what you need to do"
+ },
+ {
+  "start": 67.32,
+  "end": 70.51,
+  "text": "using tosa now we have already seen how"
+ },
+ {
+  "start": 70.52,
+  "end": 73.83,
+  "text": "we can drag and drop elements okay so we"
+ },
+ {
+  "start": 73.84,
+  "end": 76.789,
+  "text": "can use that in the table also we can"
+ },
+ {
+  "start": 76.799,
+  "end": 79.71,
+  "text": "drag and drop the rows but here we need"
+ },
+ {
+  "start": 79.72,
+  "end": 82.63,
+  "text": "to do this uh number of times as you can"
+ },
+ {
+  "start": 82.64,
+  "end": 85.789,
+  "text": "see six times right and in a certain"
+ },
+ {
+  "start": 85.799,
+  "end": 89.109,
+  "text": "order so that's the challenge here right"
+ },
+ {
+  "start": 89.119,
+  "end": 91.109,
+  "text": "so let's see how we can do this in"
+ },
+ {
+  "start": 91.119,
+  "end": 94.35,
+  "text": "tosa so first of all we need to scan uh"
+ },
+ {
+  "start": 94.36,
+  "end": 97.23,
+  "text": "our page okay so let's go ahead and do"
+ },
+ {
+  "start": 97.24,
+  "end": 99.83,
+  "text": "that I'm going to scan the application"
+ },
+ {
+  "start": 99.84,
+  "end": 102.95,
+  "text": "now and basically we need to scan uh the"
+ },
+ {
+  "start": 102.96,
+  "end": 106.149,
+  "text": "two tables which uh we'll be working on"
+ },
+ {
+  "start": 106.159,
+  "end": 109.149,
+  "text": "right so here if I scan this page you"
+ },
+ {
+  "start": 109.159,
+  "end": 112.109,
+  "text": "can see these two tables the to-do task"
+ },
+ {
+  "start": 112.119,
+  "end": 114.749,
+  "text": "and the completed tasks okay so these"
+ },
+ {
+  "start": 114.759,
+  "end": 117.83,
+  "text": "are the two tables which I need to scan"
+ },
+ {
+  "start": 117.84,
+  "end": 120.389,
+  "text": "so let me rename this module to this"
+ },
+ {
+  "start": 120.399,
+  "end": 122.749,
+  "text": "particular"
+ },
+ {
+  "start": 122.759,
+  "end": 126.23,
+  "text": "obstacle and I am going to do it right"
+ },
+ {
+  "start": 126.24,
+  "end": 129.35,
+  "text": "here okay and then I'm going to save"
+ },
+ {
+  "start": 129.36,
+  "end": 133.07,
+  "text": "this and close the module right so our"
+ },
+ {
+  "start": 133.08,
+  "end": 135.79,
+  "text": "module is created here with both the"
+ },
+ {
+  "start": 135.8,
+  "end": 139.35,
+  "text": "tables and now let's go back to our test"
+ },
+ {
+  "start": 139.36,
+  "end": 141.39,
+  "text": "case folder and here we are going to"
+ },
+ {
+  "start": 141.4,
+  "end": 144.39,
+  "text": "create a new test case again with the"
+ },
+ {
+  "start": 144.4,
+  "end": 149.19,
+  "text": "same obstacle uh number okay and here we"
+ },
+ {
+  "start": 149.2,
+  "end": 151.83,
+  "text": "are done going to use our module which"
+ },
+ {
+  "start": 151.84,
+  "end": 155.19,
+  "text": "we have scanned earlier"
+ },
+ {
+  "start": 155.2,
+  "end": 158.229,
+  "text": "right so uh once you drag this module"
+ },
+ {
+  "start": 158.239,
+  "end": 160.75,
+  "text": "here so what we need to do is uh we need"
+ },
+ {
+  "start": 160.76,
+  "end": 163.75,
+  "text": "to drag each row from the too task table"
+ },
+ {
+  "start": 163.76,
+  "end": 166.43,
+  "text": "to the completed task table right but"
+ },
+ {
+  "start": 166.44,
+  "end": 169.869,
+  "text": "before we do that we also need to use"
+ },
+ {
+  "start": 169.879,
+  "end": 173.79,
+  "text": "another uh functionality here or another"
+ },
+ {
+  "start": 173.8,
+  "end": 175.75,
+  "text": "feature which is called the reputation"
+ },
+ {
+  "start": 175.76,
+  "end": 179.39,
+  "text": "property right so that uh we need to do"
+ },
+ {
+  "start": 179.4,
+  "end": 182.47,
+  "text": "for for our table right and in order to"
+ },
+ {
+  "start": 182.48,
+  "end": 185.949,
+  "text": "do that uh we need to create a folder"
+ },
+ {
+  "start": 185.959,
+  "end": 188.71,
+  "text": "okay so I'm going to create a folder"
+ },
+ {
+  "start": 188.72,
+  "end": 192.149,
+  "text": "inside my test case and uh we are going"
+ },
+ {
+  "start": 192.159,
+  "end": 196.43,
+  "text": "to rename this okay so we'll re rename"
+ },
+ {
+  "start": 196.44,
+  "end": 199.43,
+  "text": "this to"
+ },
+ {
+  "start": 202.43,
+  "end": 202.44,
+  "text": "repetition okay and then uh we are going"
+ },
+ {
+  "start": 202.44,
+  "end": 205.39,
+  "text": "to drag our test step inside this now"
+ },
+ {
+  "start": 205.4,
+  "end": 207.91,
+  "text": "what this will do is it will basically"
+ },
+ {
+  "start": 207.92,
+  "end": 211.19,
+  "text": "repeat it the number of times which we"
+ },
+ {
+  "start": 211.2,
+  "end": 213.429,
+  "text": "will uh Define for this particular"
+ },
+ {
+  "start": 213.439,
+  "end": 216.35,
+  "text": "folder right and as you know we have to"
+ },
+ {
+  "start": 216.36,
+  "end": 218.869,
+  "text": "repeat our drag and drop step six times"
+ },
+ {
+  "start": 218.879,
+  "end": 222.75,
+  "text": "so I'm going to set this repetion to six"
+ },
+ {
+  "start": 222.76,
+  "end": 225.71,
+  "text": "okay so that's what you need to do and"
+ },
+ {
+  "start": 225.72,
+  "end": 227.71,
+  "text": "then uh this particular test step will"
+ },
+ {
+  "start": 227.72,
+  "end": 232.429,
+  "text": "be executed six times okay now if we go"
+ },
+ {
+  "start": 232.439,
+  "end": 235.39,
+  "text": "inside the table uh and we'll look at"
+ },
+ {
+  "start": 235.4,
+  "end": 238.99,
+  "text": "this page you can see that uh we need to"
+ },
+ {
+  "start": 239.0,
+  "end": 242.27,
+  "text": "drag a according to the ID right so we"
+ },
+ {
+  "start": 242.28,
+  "end": 244.99,
+  "text": "need to drag the first uh task which has"
+ },
+ {
+  "start": 245.0,
+  "end": 247.309,
+  "text": "got id1 and then the second task which"
+ },
+ {
+  "start": 247.319,
+  "end": 249.99,
+  "text": "has got the id2 so we need to work"
+ },
+ {
+  "start": 250.0,
+  "end": 252.949,
+  "text": "around this ID column right so what"
+ },
+ {
+  "start": 252.959,
+  "end": 255.229,
+  "text": "we'll do uh we'll go to the column and"
+ },
+ {
+  "start": 255.239,
+  "end": 259.349,
+  "text": "we'll select the ID here okay and then"
+ },
+ {
+  "start": 259.359,
+  "end": 262.83,
+  "text": "in the cell value uh we are going to put"
+ },
+ {
+  "start": 262.84,
+  "end": 264.43,
+  "text": "something called"
+ },
+ {
+  "start": 264.44,
+  "end": 267.87,
+  "text": "reputation okay so this is an expression"
+ },
+ {
+  "start": 267.88,
+  "end": 270.59,
+  "text": "which returns you the value of the"
+ },
+ {
+  "start": 270.6,
+  "end": 273.71,
+  "text": "reputation property okay so whatever"
+ },
+ {
+  "start": 273.72,
+  "end": 277.99,
+  "text": "reputation uh value is being set here uh"
+ },
+ {
+  "start": 278.0,
+  "end": 280.79,
+  "text": "which means if uh we are running this"
+ },
+ {
+  "start": 280.8,
+  "end": 282.39,
+  "text": "for the first time the repetition"
+ },
+ {
+  "start": 282.4,
+  "end": 284.87,
+  "text": "property value or the repetion"
+ },
+ {
+  "start": 284.88,
+  "end": 287.71,
+  "text": "expression value would be one and then"
+ },
+ {
+  "start": 287.72,
+  "end": 290.629,
+  "text": "two then three like that it will keep on"
+ },
+ {
+  "start": 290.639,
+  "end": 293.189,
+  "text": "changing this particular value of the"
+ },
+ {
+  "start": 293.199,
+  "end": 297.27,
+  "text": "cell right so uh that will decide the ID"
+ },
+ {
+  "start": 297.28,
+  "end": 300.87,
+  "text": "which will be 1 2 3 4 5 six and that is"
+ },
+ {
+  "start": 300.88,
+  "end": 304.11,
+  "text": "what we want right we want to drag um"
+ },
+ {
+  "start": 304.12,
+  "end": 308.23,
+  "text": "each task with a different ID each time"
+ },
+ {
+  "start": 308.24,
+  "end": 312.79,
+  "text": "right now um in the value U again we"
+ },
+ {
+  "start": 312.8,
+  "end": 315.79,
+  "text": "will put the drag operation here because"
+ },
+ {
+  "start": 315.8,
+  "end": 318.27,
+  "text": "we want to drag this particular row with"
+ },
+ {
+  "start": 318.28,
+  "end": 320.99,
+  "text": "this particular ID and we will change"
+ },
+ {
+  "start": 321.0,
+  "end": 325.43,
+  "text": "the action mode to input okay now once"
+ },
+ {
+  "start": 325.44,
+  "end": 327.909,
+  "text": "that is done we just need to drop it"
+ },
+ {
+  "start": 327.919,
+  "end": 330.83,
+  "text": "into the completed task table right so"
+ },
+ {
+  "start": 330.84,
+  "end": 334.189,
+  "text": "here we can use the drop"
+ },
+ {
+  "start": 334.199,
+  "end": 336.51,
+  "text": "expression okay uh we don't need to"
+ },
+ {
+  "start": 336.52,
+  "end": 338.629,
+  "text": "select any row and colum because we just"
+ },
+ {
+  "start": 338.639,
+  "end": 342.59,
+  "text": "want to drag it into the table right so"
+ },
+ {
+  "start": 342.6,
+  "end": 344.79,
+  "text": "now this will be repeated uh six times"
+ },
+ {
+  "start": 344.8,
+  "end": 347.189,
+  "text": "because we have set the property to six"
+ },
+ {
+  "start": 347.199,
+  "end": 350.11,
+  "text": "for the reputation folder and then it"
+ },
+ {
+  "start": 350.12,
+  "end": 352.43,
+  "text": "will get this particular value of"
+ },
+ {
+  "start": 352.44,
+  "end": 355.51,
+  "text": "reputation and uh it will select the ID"
+ },
+ {
+  "start": 355.52,
+  "end": 358.15,
+  "text": "based on that okay and then it will drag"
+ },
+ {
+  "start": 358.16,
+  "end": 361.87,
+  "text": "it and drop it into the completed tasks"
+ },
+ {
+  "start": 361.88,
+  "end": 365.749,
+  "text": "so let's see if it works or not but this"
+ },
+ {
+  "start": 365.759,
+  "end": 368.67,
+  "text": "is how we can uh complete this"
+ },
+ {
+  "start": 368.68,
+  "end": 371.43,
+  "text": "particular obstacle okay so let's run"
+ },
+ {
+  "start": 371.44,
+  "end": 373.309,
+  "text": "this in"
+ },
+ {
+  "start": 373.319,
+  "end": 375.43,
+  "text": "scratchbook so as you can see it has"
+ },
+ {
+  "start": 375.44,
+  "end": 377.27,
+  "text": "started dragging the first row and then"
+ },
+ {
+  "start": 377.28,
+  "end": 379.95,
+  "text": "dropped it into the completed task table"
+ },
+ {
+  "start": 379.96,
+  "end": 383.189,
+  "text": "it will do it for each of the task based"
+ },
+ {
+  "start": 383.199,
+  "end": 386.39,
+  "text": "on the ID so this is running on a"
+ },
+ {
+  "start": 386.4,
+  "end": 389.07,
+  "text": "repetition six times and it will drag"
+ },
+ {
+  "start": 389.08,
+  "end": 397.589,
+  "text": "and drop all the six rows"
+ },
+ {
+  "start": 399.87,
+  "end": 399.88,
+  "text": "right okay and you can see uh the"
+ },
+ {
+  "start": 399.88,
+  "end": 402.589,
+  "text": "obstacle was successfully completed"
+ },
+ {
+  "start": 402.599,
+  "end": 406.029,
+  "text": "right so this is how you can drag and"
+ },
+ {
+  "start": 406.039,
+  "end": 409.39,
+  "text": "drop a rows from a table and drop it"
+ },
+ {
+  "start": 409.4,
+  "end": 412.15,
+  "text": "into another table and then using the"
+ },
+ {
+  "start": 412.16,
+  "end": 414.39,
+  "text": "repetition property you can put your"
+ },
+ {
+  "start": 414.4,
+  "end": 417.07,
+  "text": "test steps inside a folder and then you"
+ },
+ {
+  "start": 417.08,
+  "end": 420.629,
+  "text": "can select uh some unique column like"
+ },
+ {
+  "start": 420.639,
+  "end": 424.029,
+  "text": "the ID which has got the numbers 1 to"
+ },
+ {
+  "start": 424.039,
+  "end": 426.869,
+  "text": "six so you can put the reputation"
+ },
+ {
+  "start": 426.879,
+  "end": 430.749,
+  "text": "property value inside that so that uh"
+ },
+ {
+  "start": 430.759,
+  "end": 433.629,
+  "text": "these tasks are dragged and dropped in a"
+ },
+ {
+  "start": 433.639,
+  "end": 434.629,
+  "text": "certain"
+ },
+ {
+  "start": 434.639,
+  "end": 436.99,
+  "text": "order that's all for this particular"
+ },
+ {
+  "start": 437.0,
+  "end": 439.43,
+  "text": "video if you have any questions then"
+ },
+ {
+  "start": 439.44,
+  "end": 441.869,
+  "text": "please leave it in the comments if you"
+ },
+ {
+  "start": 441.879,
+  "end": 443.869,
+  "text": "like this video then please subscribe to"
+ },
+ {
+  "start": 443.879,
+  "end": 446.589,
+  "text": "our Channel thanks for watching and I"
+ },
+ {
+  "start": 446.599,
+  "end": 450.96,
+  "text": "will see you in the next video"
+ }
+]

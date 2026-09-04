@@ -1,0 +1,3704 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:08.800 --> 00:00:10.470 align:start position:0%
+ 
+Hey<00:00:09.040><c> there.</c><00:00:09.360><c> Uh</c><00:00:09.599><c> in</c><00:00:09.679><c> this</c><00:00:09.840><c> particular</c><00:00:10.240><c> session</c>
+
+00:00:10.470 --> 00:00:10.480 align:start position:0%
+Hey there. Uh in this particular session
+ 
+
+00:00:10.480 --> 00:00:12.790 align:start position:0%
+Hey there. Uh in this particular session
+we<00:00:10.719><c> are</c><00:00:10.880><c> going</c><00:00:10.960><c> to</c><00:00:11.120><c> talk</c><00:00:11.360><c> about</c><00:00:12.160><c> uh</c><00:00:12.400><c> how</c><00:00:12.639><c> to</c>
+
+00:00:12.790 --> 00:00:12.800 align:start position:0%
+we are going to talk about uh how to
+ 
+
+00:00:12.800 --> 00:00:15.509 align:start position:0%
+we are going to talk about uh how to
+steer<00:00:13.200><c> tables</c><00:00:13.599><c> using</c><00:00:14.040><c> TUSCa.</c><00:00:15.040><c> But</c><00:00:15.280><c> first</c>
+
+00:00:15.509 --> 00:00:15.519 align:start position:0%
+steer tables using TUSCa. But first
+ 
+
+00:00:15.519 --> 00:00:19.269 align:start position:0%
+steer tables using TUSCa. But first
+we'll<00:00:16.000><c> uh</c><00:00:16.240><c> understand</c><00:00:17.119><c> uh</c><00:00:17.279><c> what</c><00:00:17.600><c> a</c><00:00:17.920><c> table</c><00:00:18.720><c> is</c>
+
+00:00:19.269 --> 00:00:19.279 align:start position:0%
+we'll uh understand uh what a table is
+ 
+
+00:00:19.279 --> 00:00:23.269 align:start position:0%
+we'll uh understand uh what a table is
+and<00:00:19.920><c> uh</c><00:00:20.320><c> how</c><00:00:20.640><c> it</c><00:00:20.880><c> is</c><00:00:21.119><c> structured</c><00:00:21.920><c> uh</c><00:00:22.000><c> in</c><00:00:22.160><c> TSA.</c>
+
+00:00:23.269 --> 00:00:23.279 align:start position:0%
+and uh how it is structured uh in TSA.
+ 
+
+00:00:23.279 --> 00:00:25.109 align:start position:0%
+and uh how it is structured uh in TSA.
+So<00:00:23.439><c> what</c><00:00:23.680><c> are</c><00:00:23.760><c> the</c><00:00:23.920><c> different</c><00:00:24.240><c> column</c><00:00:24.560><c> and</c><00:00:24.960><c> row</c>
+
+00:00:25.109 --> 00:00:25.119 align:start position:0%
+So what are the different column and row
+ 
+
+00:00:25.119 --> 00:00:28.070 align:start position:0%
+So what are the different column and row
+attributes<00:00:25.680><c> which</c><00:00:26.080><c> you</c><00:00:26.320><c> can</c><00:00:26.480><c> use</c><00:00:27.439><c> uh</c><00:00:27.519><c> to</c><00:00:27.680><c> steer</c>
+
+00:00:28.070 --> 00:00:28.080 align:start position:0%
+attributes which you can use uh to steer
+ 
+
+00:00:28.080 --> 00:00:30.470 align:start position:0%
+attributes which you can use uh to steer
+different<00:00:28.400><c> elements</c><00:00:28.960><c> inside</c><00:00:29.359><c> the</c><00:00:29.679><c> table</c><00:00:30.320><c> and</c>
+
+00:00:30.470 --> 00:00:30.480 align:start position:0%
+different elements inside the table and
+ 
+
+00:00:30.480 --> 00:00:31.990 align:start position:0%
+different elements inside the table and
+then<00:00:30.640><c> we'll</c><00:00:30.960><c> talk</c><00:00:31.119><c> about</c><00:00:31.359><c> the</c><00:00:31.679><c> different</c>
+
+00:00:31.990 --> 00:00:32.000 align:start position:0%
+then we'll talk about the different
+ 
+
+00:00:32.000 --> 00:00:34.950 align:start position:0%
+then we'll talk about the different
+action<00:00:32.399><c> modes</c><00:00:32.960><c> and</c><00:00:33.200><c> then</c><00:00:33.680><c> uh</c><00:00:33.840><c> we'll</c><00:00:34.160><c> also</c><00:00:34.480><c> look</c>
+
+00:00:34.950 --> 00:00:34.960 align:start position:0%
+action modes and then uh we'll also look
+ 
+
+00:00:34.960 --> 00:00:38.549 align:start position:0%
+action modes and then uh we'll also look
+at<00:00:35.200><c> some</c><00:00:35.440><c> of</c><00:00:36.079><c> uh</c><00:00:36.719><c> the</c><00:00:37.040><c> examples</c><00:00:37.840><c> through</c><00:00:38.160><c> which</c>
+
+00:00:38.549 --> 00:00:38.559 align:start position:0%
+at some of uh the examples through which
+ 
+
+00:00:38.559 --> 00:00:41.350 align:start position:0%
+at some of uh the examples through which
+you<00:00:38.879><c> can</c><00:00:39.360><c> steer</c><00:00:40.000><c> different</c><00:00:40.399><c> elements</c><00:00:40.879><c> inside</c>
+
+00:00:41.350 --> 00:00:41.360 align:start position:0%
+you can steer different elements inside
+ 
+
+00:00:41.360 --> 00:00:44.630 align:start position:0%
+you can steer different elements inside
+a<00:00:41.719><c> table</c><00:00:42.719><c> and</c><00:00:42.879><c> different</c><00:00:43.200><c> ways</c><00:00:43.600><c> using</c><00:00:44.320><c> uh</c><00:00:44.480><c> the</c>
+
+00:00:44.630 --> 00:00:44.640 align:start position:0%
+a table and different ways using uh the
+ 
+
+00:00:44.640 --> 00:00:46.549 align:start position:0%
+a table and different ways using uh the
+methods<00:00:45.120><c> which</c><00:00:45.360><c> are</c><00:00:45.520><c> available</c><00:00:46.160><c> uh</c><00:00:46.239><c> in</c><00:00:46.399><c> the</c>
+
+00:00:46.549 --> 00:00:46.559 align:start position:0%
+methods which are available uh in the
+ 
+
+00:00:46.559 --> 00:00:50.229 align:start position:0%
+methods which are available uh in the
+TSCA<00:00:47.039><c> tbox</c><00:00:47.520><c> module.</c><00:00:48.559><c> So</c><00:00:48.960><c> let's</c><00:00:49.280><c> start</c><00:00:49.920><c> uh</c><00:00:50.079><c> with</c>
+
+00:00:50.229 --> 00:00:50.239 align:start position:0%
+TSCA tbox module. So let's start uh with
+ 
+
+00:00:50.239 --> 00:00:53.470 align:start position:0%
+TSCA tbox module. So let's start uh with
+the<00:00:50.399><c> basics</c><00:00:50.800><c> which</c><00:00:51.039><c> is</c><00:00:51.520><c> uh</c><00:00:51.920><c> what</c><00:00:52.160><c> is</c><00:00:52.559><c> the</c><00:00:52.879><c> table</c>
+
+00:00:53.470 --> 00:00:53.480 align:start position:0%
+the basics which is uh what is the table
+ 
+
+00:00:53.480 --> 00:00:56.069 align:start position:0%
+the basics which is uh what is the table
+structure.<00:00:54.480><c> So</c><00:00:54.719><c> this</c><00:00:55.039><c> particular</c><00:00:55.440><c> image</c><00:00:56.000><c> uh</c>
+
+00:00:56.069 --> 00:00:56.079 align:start position:0%
+structure. So this particular image uh
+ 
+
+00:00:56.079 --> 00:01:00.549 align:start position:0%
+structure. So this particular image uh
+it<00:00:56.399><c> shows</c><00:00:57.280><c> you</c><00:00:57.680><c> a</c><00:00:58.000><c> typical</c><00:00:58.640><c> table</c><00:00:59.760><c> uh</c><00:00:59.840><c> when</c><00:01:00.239><c> you</c>
+
+00:01:00.549 --> 00:01:00.559 align:start position:0%
+it shows you a typical table uh when you
+ 
+
+00:01:00.559 --> 00:01:02.950 align:start position:0%
+it shows you a typical table uh when you
+create<00:01:00.800><c> a</c><00:01:01.039><c> module</c><00:01:01.520><c> for</c><00:01:01.840><c> a</c><00:01:02.079><c> table</c><00:01:02.399><c> and</c><00:01:02.559><c> then</c><00:01:02.800><c> you</c>
+
+00:01:02.950 --> 00:01:02.960 align:start position:0%
+create a module for a table and then you
+ 
+
+00:01:02.960 --> 00:01:06.310 align:start position:0%
+create a module for a table and then you
+pull<00:01:03.120><c> it</c><00:01:03.359><c> into</c><00:01:03.600><c> the</c><00:01:03.760><c> TSA</c><00:01:04.640><c> uh</c><00:01:04.799><c> T-Box</c><00:01:05.280><c> test</c><00:01:05.600><c> case.</c>
+
+00:01:06.310 --> 00:01:06.320 align:start position:0%
+pull it into the TSA uh T-Box test case.
+ 
+
+00:01:06.320 --> 00:01:09.030 align:start position:0%
+pull it into the TSA uh T-Box test case.
+Then<00:01:06.880><c> uh</c><00:01:06.960><c> this</c><00:01:07.200><c> is</c><00:01:07.280><c> the</c><00:01:07.520><c> step</c><00:01:08.320><c> where</c><00:01:08.640><c> you</c><00:01:08.880><c> will</c>
+
+00:01:09.030 --> 00:01:09.040 align:start position:0%
+Then uh this is the step where you will
+ 
+
+00:01:09.040 --> 00:01:12.550 align:start position:0%
+Then uh this is the step where you will
+see<00:01:09.280><c> that</c><00:01:09.920><c> uh</c><00:01:10.000><c> it</c><00:01:10.159><c> has</c><00:01:10.400><c> got</c><00:01:10.640><c> a</c><00:01:10.880><c> table</c><00:01:11.760><c> and</c><00:01:12.000><c> then</c>
+
+00:01:12.550 --> 00:01:12.560 align:start position:0%
+see that uh it has got a table and then
+ 
+
+00:01:12.560 --> 00:01:16.070 align:start position:0%
+see that uh it has got a table and then
+uh<00:01:12.720><c> it</c><00:01:12.960><c> has</c><00:01:13.200><c> typically</c><00:01:13.680><c> got</c><00:01:14.640><c> rows</c><00:01:14.960><c> and</c><00:01:15.280><c> columns</c>
+
+00:01:16.070 --> 00:01:16.080 align:start position:0%
+uh it has typically got rows and columns
+ 
+
+00:01:16.080 --> 00:01:18.469 align:start position:0%
+uh it has typically got rows and columns
+right.<00:01:16.720><c> So</c><00:01:16.960><c> a</c><00:01:17.200><c> table</c><00:01:17.439><c> structure</c><00:01:18.000><c> generally</c>
+
+00:01:18.469 --> 00:01:18.479 align:start position:0%
+right. So a table structure generally
+ 
+
+00:01:18.479 --> 00:01:21.270 align:start position:0%
+right. So a table structure generally
+consists<00:01:19.040><c> of</c><00:01:19.680><c> uh</c><00:01:19.840><c> two</c><00:01:20.080><c> attributes</c><00:01:20.640><c> which</c><00:01:20.880><c> is</c>
+
+00:01:21.270 --> 00:01:21.280 align:start position:0%
+consists of uh two attributes which is
+ 
+
+00:01:21.280 --> 00:01:24.950 align:start position:0%
+consists of uh two attributes which is
+uh<00:01:21.439><c> the</c><00:01:21.680><c> column</c><00:01:22.080><c> and</c><00:01:22.400><c> the</c><00:01:22.840><c> row.</c><00:01:23.840><c> Then</c><00:01:24.320><c> each</c><00:01:24.880><c> row</c>
+
+00:01:24.950 --> 00:01:24.960 align:start position:0%
+uh the column and the row. Then each row
+ 
+
+00:01:24.960 --> 00:01:29.109 align:start position:0%
+uh the column and the row. Then each row
+or<00:01:25.280><c> column</c><00:01:26.080><c> uh</c><00:01:26.240><c> could</c><00:01:26.560><c> have</c><00:01:27.200><c> several</c><00:01:28.080><c> uh</c><00:01:28.240><c> cells</c>
+
+00:01:29.109 --> 00:01:29.119 align:start position:0%
+or column uh could have several uh cells
+ 
+
+00:01:29.119 --> 00:01:31.830 align:start position:0%
+or column uh could have several uh cells
+and<00:01:29.600><c> uh</c><00:01:29.759><c> these</c><00:01:30.159><c> cells</c><00:01:30.640><c> then</c><00:01:31.040><c> have</c><00:01:31.360><c> different</c>
+
+00:01:31.830 --> 00:01:31.840 align:start position:0%
+and uh these cells then have different
+ 
+
+00:01:31.840 --> 00:01:34.069 align:start position:0%
+and uh these cells then have different
+attributes.<00:01:32.799><c> Right?</c><00:01:33.439><c> So</c><00:01:33.680><c> there</c><00:01:33.920><c> are</c>
+
+00:01:34.069 --> 00:01:34.079 align:start position:0%
+attributes. Right? So there are
+ 
+
+00:01:34.079 --> 00:01:37.510 align:start position:0%
+attributes. Right? So there are
+basically<00:01:34.640><c> three</c><00:01:34.880><c> parts</c><00:01:35.439><c> to</c><00:01:35.680><c> a</c><00:01:35.920><c> table.</c><00:01:36.720><c> Um</c><00:01:37.200><c> so</c>
+
+00:01:37.510 --> 00:01:37.520 align:start position:0%
+basically three parts to a table. Um so
+ 
+
+00:01:37.520 --> 00:01:40.469 align:start position:0%
+basically three parts to a table. Um so
+one<00:01:37.759><c> is</c><00:01:37.920><c> the</c><00:01:38.320><c> row</c><00:01:38.960><c> then</c><00:01:39.200><c> a</c><00:01:39.600><c> row</c><00:01:39.759><c> will</c><00:01:40.079><c> have</c>
+
+00:01:40.469 --> 00:01:40.479 align:start position:0%
+one is the row then a row will have
+ 
+
+00:01:40.479 --> 00:01:43.749 align:start position:0%
+one is the row then a row will have
+several<00:01:40.960><c> cells.</c><00:01:41.920><c> Then</c><00:01:42.320><c> there</c><00:01:42.560><c> is</c><00:01:42.880><c> a</c><00:01:43.200><c> column</c>
+
+00:01:43.749 --> 00:01:43.759 align:start position:0%
+several cells. Then there is a column
+ 
+
+00:01:43.759 --> 00:01:46.270 align:start position:0%
+several cells. Then there is a column
+which<00:01:44.000><c> will</c><00:01:44.320><c> also</c><00:01:44.640><c> have</c><00:01:44.960><c> several</c><00:01:45.439><c> cells.</c>
+
+00:01:46.270 --> 00:01:46.280 align:start position:0%
+which will also have several cells.
+ 
+
+00:01:46.280 --> 00:01:49.030 align:start position:0%
+which will also have several cells.
+Right.<00:01:47.280><c> So,</c><00:01:47.840><c> uh</c><00:01:47.920><c> let's</c><00:01:48.240><c> look</c><00:01:48.399><c> at</c><00:01:48.560><c> some</c><00:01:48.799><c> of</c><00:01:48.880><c> the</c>
+
+00:01:49.030 --> 00:01:49.040 align:start position:0%
+Right. So, uh let's look at some of the
+ 
+
+00:01:49.040 --> 00:01:52.469 align:start position:0%
+Right. So, uh let's look at some of the
+attributes<00:01:50.079><c> uh</c><00:01:50.159><c> which</c><00:01:50.560><c> can</c><00:01:50.799><c> be</c><00:01:51.040><c> used</c><00:01:51.479><c> here.</c>
+
+00:01:52.469 --> 00:01:52.479 align:start position:0%
+attributes uh which can be used here.
+ 
+
+00:01:52.479 --> 00:01:55.030 align:start position:0%
+attributes uh which can be used here.
+So,<00:01:52.720><c> whether</c><00:01:53.200><c> uh</c><00:01:53.280><c> it</c><00:01:53.520><c> is</c><00:01:53.680><c> a</c><00:01:54.079><c> row</c><00:01:54.159><c> or</c><00:01:54.479><c> a</c><00:01:54.640><c> column</c>
+
+00:01:55.030 --> 00:01:55.040 align:start position:0%
+So, whether uh it is a row or a column
+ 
+
+00:01:55.040 --> 00:01:58.709 align:start position:0%
+So, whether uh it is a row or a column
+or<00:01:55.439><c> a</c><00:01:55.759><c> cell</c><00:01:56.159><c> of</c><00:01:56.479><c> a</c><00:01:56.799><c> particular</c><00:01:57.320><c> table.</c><00:01:58.320><c> So,</c>
+
+00:01:58.709 --> 00:01:58.719 align:start position:0%
+or a cell of a particular table. So,
+ 
+
+00:01:58.719 --> 00:02:01.190 align:start position:0%
+or a cell of a particular table. So,
+using<00:01:59.119><c> this</c><00:01:59.439><c> dollar</c><00:01:59.920><c> one</c><00:02:00.560><c> uh</c><00:02:00.719><c> you</c><00:02:00.960><c> can</c>
+
+00:02:01.190 --> 00:02:01.200 align:start position:0%
+using this dollar one uh you can
+ 
+
+00:02:01.200 --> 00:02:04.389 align:start position:0%
+using this dollar one uh you can
+basically<00:02:01.840><c> steer</c><00:02:02.399><c> the</c><00:02:02.799><c> first</c><00:02:03.360><c> row</c><00:02:03.840><c> or</c><00:02:04.159><c> the</c>
+
+00:02:04.389 --> 00:02:04.399 align:start position:0%
+basically steer the first row or the
+ 
+
+00:02:04.399 --> 00:02:07.109 align:start position:0%
+basically steer the first row or the
+first<00:02:04.719><c> column</c><00:02:05.119><c> or</c><00:02:05.439><c> the</c><00:02:05.759><c> first</c><00:02:06.000><c> cell</c><00:02:06.479><c> of</c><00:02:06.880><c> a</c>
+
+00:02:07.109 --> 00:02:07.119 align:start position:0%
+first column or the first cell of a
+ 
+
+00:02:07.119 --> 00:02:09.070 align:start position:0%
+first column or the first cell of a
+particular<00:02:07.520><c> table.</c>
+
+00:02:09.070 --> 00:02:09.080 align:start position:0%
+particular table.
+ 
+
+00:02:09.080 --> 00:02:13.110 align:start position:0%
+particular table.
+Similarly,<00:02:10.080><c> you</c><00:02:10.399><c> can</c><00:02:10.800><c> steer</c><00:02:11.920><c> u</c><00:02:12.160><c> any</c><00:02:12.720><c> row,</c><00:02:12.879><c> any</c>
+
+00:02:13.110 --> 00:02:13.120 align:start position:0%
+Similarly, you can steer u any row, any
+ 
+
+00:02:13.120 --> 00:02:16.150 align:start position:0%
+Similarly, you can steer u any row, any
+column<00:02:13.520><c> or</c><00:02:13.840><c> any</c><00:02:14.160><c> cell</c><00:02:14.480><c> position</c><00:02:15.440><c> using</c><00:02:15.840><c> this</c>
+
+00:02:16.150 --> 00:02:16.160 align:start position:0%
+column or any cell position using this
+ 
+
+00:02:16.160 --> 00:02:19.589 align:start position:0%
+column or any cell position using this
+dollar<00:02:16.720><c> sign</c><00:02:17.520><c> with</c><00:02:18.239><c> the</c><00:02:18.640><c> particular</c><00:02:19.040><c> number.</c>
+
+00:02:19.589 --> 00:02:19.599 align:start position:0%
+dollar sign with the particular number.
+ 
+
+00:02:19.599 --> 00:02:22.470 align:start position:0%
+dollar sign with the particular number.
+Right?<00:02:19.920><c> So,</c><00:02:20.080><c> if</c><00:02:20.319><c> I</c><00:02:20.480><c> give</c><00:02:21.200><c> uh</c><00:02:21.680><c> dollar</c><00:02:22.080><c> two,</c><00:02:22.319><c> it</c>
+
+00:02:22.470 --> 00:02:22.480 align:start position:0%
+Right? So, if I give uh dollar two, it
+ 
+
+00:02:22.480 --> 00:02:25.110 align:start position:0%
+Right? So, if I give uh dollar two, it
+will<00:02:22.959><c> uh</c><00:02:23.120><c> do</c><00:02:23.280><c> the</c><00:02:23.520><c> second</c><00:02:24.000><c> row.</c><00:02:24.319><c> If</c><00:02:24.480><c> I</c><00:02:24.640><c> give</c>
+
+00:02:25.110 --> 00:02:25.120 align:start position:0%
+will uh do the second row. If I give
+ 
+
+00:02:25.120 --> 00:02:28.150 align:start position:0%
+will uh do the second row. If I give
+dollar<00:02:25.520><c> three</c><00:02:26.319><c> for</c><00:02:26.480><c> a</c><00:02:26.640><c> column,</c><00:02:27.040><c> it</c><00:02:27.280><c> will</c><00:02:27.920><c> uh</c>
+
+00:02:28.150 --> 00:02:28.160 align:start position:0%
+dollar three for a column, it will uh
+ 
+
+00:02:28.160 --> 00:02:31.830 align:start position:0%
+dollar three for a column, it will uh
+steer<00:02:28.720><c> the</c><00:02:29.040><c> third</c><00:02:29.360><c> column.</c><00:02:30.319><c> And</c><00:02:30.560><c> if</c><00:02:30.800><c> I</c><00:02:30.959><c> give</c><00:02:31.680><c> uh</c>
+
+00:02:31.830 --> 00:02:31.840 align:start position:0%
+steer the third column. And if I give uh
+ 
+
+00:02:31.840 --> 00:02:34.229 align:start position:0%
+steer the third column. And if I give uh
+the<00:02:32.160><c> fourth</c><00:02:32.640><c> cell,</c><00:02:32.959><c> then</c><00:02:33.200><c> it</c><00:02:33.440><c> will</c><00:02:33.760><c> steer</c><00:02:34.080><c> the</c>
+
+00:02:34.229 --> 00:02:34.239 align:start position:0%
+the fourth cell, then it will steer the
+ 
+
+00:02:34.239 --> 00:02:36.309 align:start position:0%
+the fourth cell, then it will steer the
+fourth<00:02:34.560><c> cell.</c><00:02:35.040><c> Right?</c><00:02:35.360><c> So</c><00:02:35.599><c> it</c><00:02:35.920><c> basically</c>
+
+00:02:36.309 --> 00:02:36.319 align:start position:0%
+fourth cell. Right? So it basically
+ 
+
+00:02:36.319 --> 00:02:39.270 align:start position:0%
+fourth cell. Right? So it basically
+steers<00:02:36.800><c> the</c><00:02:37.040><c> specified</c><00:02:38.480><c> row</c><00:02:38.640><c> column</c><00:02:39.040><c> cell</c>
+
+00:02:39.270 --> 00:02:39.280 align:start position:0%
+steers the specified row column cell
+ 
+
+00:02:39.280 --> 00:02:42.990 align:start position:0%
+steers the specified row column cell
+position<00:02:39.840><c> which</c><00:02:40.400><c> you</c><00:02:40.959><c> give</c><00:02:41.519><c> and</c><00:02:41.840><c> your</c><00:02:42.080><c> test</c>
+
+00:02:42.990 --> 00:02:43.000 align:start position:0%
+position which you give and your test
+ 
+
+00:02:43.000 --> 00:02:45.589 align:start position:0%
+position which you give and your test
+case.<00:02:44.000><c> Then</c><00:02:44.480><c> uh</c><00:02:44.560><c> there's</c><00:02:44.879><c> another</c><00:02:45.120><c> attribute</c>
+
+00:02:45.589 --> 00:02:45.599 align:start position:0%
+case. Then uh there's another attribute
+ 
+
+00:02:45.599 --> 00:02:47.830 align:start position:0%
+case. Then uh there's another attribute
+called<00:02:45.840><c> dollar</c><00:02:46.239><c> last.</c><00:02:46.879><c> Now</c><00:02:47.120><c> this</c><00:02:47.680><c> uh</c>
+
+00:02:47.830 --> 00:02:47.840 align:start position:0%
+called dollar last. Now this uh
+ 
+
+00:02:47.840 --> 00:02:50.309 align:start position:0%
+called dollar last. Now this uh
+basically<00:02:48.319><c> steers</c><00:02:48.720><c> the</c><00:02:48.959><c> last</c><00:02:49.440><c> row</c><00:02:49.920><c> uh</c><00:02:50.000><c> or</c>
+
+00:02:50.309 --> 00:02:50.319 align:start position:0%
+basically steers the last row uh or
+ 
+
+00:02:50.319 --> 00:02:53.830 align:start position:0%
+basically steers the last row uh or
+column<00:02:50.720><c> or</c><00:02:51.120><c> the</c><00:02:51.360><c> cell</c><00:02:51.599><c> of</c><00:02:51.840><c> the</c><00:02:52.200><c> table.</c><00:02:53.200><c> Then</c><00:02:53.680><c> uh</c>
+
+00:02:53.830 --> 00:02:53.840 align:start position:0%
+column or the cell of the table. Then uh
+ 
+
+00:02:53.840 --> 00:02:58.229 align:start position:0%
+column or the cell of the table. Then uh
+we<00:02:54.080><c> have</c><00:02:54.400><c> also</c><00:02:54.879><c> got</c><00:02:55.840><c> uh</c><00:02:56.400><c> the</c><00:02:56.720><c> dollar</c><00:02:57.360><c> header.</c>
+
+00:02:58.229 --> 00:02:58.239 align:start position:0%
+we have also got uh the dollar header.
+ 
+
+00:02:58.239 --> 00:03:01.270 align:start position:0%
+we have also got uh the dollar header.
+Now<00:02:58.480><c> this</c><00:02:58.720><c> will</c><00:02:59.040><c> steer</c><00:02:59.680><c> uh</c><00:02:59.840><c> a</c><00:03:00.160><c> cell</c><00:03:00.720><c> in</c><00:03:00.959><c> the</c>
+
+00:03:01.270 --> 00:03:01.280 align:start position:0%
+Now this will steer uh a cell in the
+ 
+
+00:03:01.280 --> 00:03:04.630 align:start position:0%
+Now this will steer uh a cell in the
+table<00:03:01.959><c> header.</c><00:03:03.040><c> Then</c><00:03:03.360><c> we</c><00:03:03.519><c> have</c><00:03:03.680><c> got</c><00:03:04.080><c> the</c><00:03:04.319><c> last</c>
+
+00:03:04.630 --> 00:03:04.640 align:start position:0%
+table header. Then we have got the last
+ 
+
+00:03:04.640 --> 00:03:07.509 align:start position:0%
+table header. Then we have got the last
+content<00:03:05.280><c> row</c><00:03:05.920><c> uh</c><00:03:06.080><c> which</c><00:03:06.400><c> steers</c><00:03:06.879><c> the</c><00:03:07.200><c> last</c>
+
+00:03:07.509 --> 00:03:07.519 align:start position:0%
+content row uh which steers the last
+ 
+
+00:03:07.519 --> 00:03:10.550 align:start position:0%
+content row uh which steers the last
+table<00:03:08.000><c> row</c><00:03:08.080><c> with</c><00:03:08.319><c> value</c><00:03:09.519><c> uh</c><00:03:09.599><c> and</c><00:03:09.840><c> then</c><00:03:10.239><c> the</c>
+
+00:03:10.550 --> 00:03:10.560 align:start position:0%
+table row with value uh and then the
+ 
+
+00:03:10.560 --> 00:03:13.990 align:start position:0%
+table row with value uh and then the
+first<00:03:10.959><c> empty</c><00:03:11.519><c> row</c><00:03:12.080><c> uh</c><00:03:12.640><c> which</c><00:03:13.040><c> will</c><00:03:13.440><c> basically</c>
+
+00:03:13.990 --> 00:03:14.000 align:start position:0%
+first empty row uh which will basically
+ 
+
+00:03:14.000 --> 00:03:16.470 align:start position:0%
+first empty row uh which will basically
+steer<00:03:14.319><c> the</c><00:03:14.640><c> first</c><00:03:14.959><c> table</c><00:03:15.519><c> row</c><00:03:15.760><c> without</c><00:03:16.239><c> a</c>
+
+00:03:16.470 --> 00:03:16.480 align:start position:0%
+steer the first table row without a
+ 
+
+00:03:16.480 --> 00:03:18.710 align:start position:0%
+steer the first table row without a
+value.<00:03:17.120><c> Right?</c><00:03:17.599><c> So</c><00:03:17.840><c> as</c><00:03:18.000><c> you</c><00:03:18.159><c> can</c><00:03:18.239><c> see</c><00:03:18.400><c> there</c>
+
+00:03:18.710 --> 00:03:18.720 align:start position:0%
+value. Right? So as you can see there
+ 
+
+00:03:18.720 --> 00:03:21.110 align:start position:0%
+value. Right? So as you can see there
+are<00:03:18.959><c> multiple</c><00:03:19.360><c> options</c><00:03:19.760><c> here</c><00:03:20.239><c> and</c><00:03:20.640><c> these</c><00:03:20.959><c> are</c>
+
+00:03:21.110 --> 00:03:21.120 align:start position:0%
+are multiple options here and these are
+ 
+
+00:03:21.120 --> 00:03:23.670 align:start position:0%
+are multiple options here and these are
+provided<00:03:21.680><c> uh</c><00:03:21.840><c> by</c><00:03:22.000><c> TSA</c><00:03:22.560><c> so</c><00:03:22.720><c> that</c><00:03:23.280><c> you</c><00:03:23.519><c> can</c>
+
+00:03:23.670 --> 00:03:23.680 align:start position:0%
+provided uh by TSA so that you can
+ 
+
+00:03:23.680 --> 00:03:27.350 align:start position:0%
+provided uh by TSA so that you can
+easily<00:03:24.159><c> steer</c><00:03:24.879><c> uh</c><00:03:25.120><c> different</c><00:03:25.920><c> elements</c><00:03:26.879><c> uh</c><00:03:27.120><c> on</c>
+
+00:03:27.350 --> 00:03:27.360 align:start position:0%
+easily steer uh different elements uh on
+ 
+
+00:03:27.360 --> 00:03:30.070 align:start position:0%
+easily steer uh different elements uh on
+the<00:03:27.519><c> table</c><00:03:28.319><c> using</c><00:03:28.800><c> different</c><00:03:29.200><c> properties</c>
+
+00:03:30.070 --> 00:03:30.080 align:start position:0%
+the table using different properties
+ 
+
+00:03:30.080 --> 00:03:32.149 align:start position:0%
+the table using different properties
+basically<00:03:30.560><c> right</c><00:03:30.959><c> so</c><00:03:31.280><c> whether</c><00:03:31.519><c> it</c><00:03:31.760><c> is</c><00:03:31.840><c> based</c>
+
+00:03:32.149 --> 00:03:32.159 align:start position:0%
+basically right so whether it is based
+ 
+
+00:03:32.159 --> 00:03:34.789 align:start position:0%
+basically right so whether it is based
+on<00:03:32.319><c> the</c><00:03:32.480><c> position</c><00:03:33.120><c> or</c><00:03:33.519><c> whether</c><00:03:33.760><c> it</c><00:03:34.000><c> is</c><00:03:34.159><c> based</c>
+
+00:03:34.789 --> 00:03:34.799 align:start position:0%
+on the position or whether it is based
+ 
+
+00:03:34.799 --> 00:03:38.309 align:start position:0%
+on the position or whether it is based
+on<00:03:35.280><c> the</c><00:03:35.519><c> header</c><00:03:36.319><c> or</c><00:03:36.560><c> whether</c><00:03:36.879><c> it</c><00:03:37.040><c> is</c><00:03:37.200><c> based</c><00:03:37.599><c> on</c>
+
+00:03:38.309 --> 00:03:38.319 align:start position:0%
+on the header or whether it is based on
+ 
+
+00:03:38.319 --> 00:03:41.990 align:start position:0%
+on the header or whether it is based on
+um<00:03:39.120><c> some</c><00:03:39.440><c> content</c><00:03:40.159><c> which</c><00:03:40.480><c> is</c><00:03:40.640><c> present</c><00:03:41.200><c> or</c><00:03:41.840><c> uh</c>
+
+00:03:41.990 --> 00:03:42.000 align:start position:0%
+um some content which is present or uh
+ 
+
+00:03:42.000 --> 00:03:45.750 align:start position:0%
+um some content which is present or uh
+it's<00:03:42.319><c> empty.</c><00:03:43.200><c> So</c><00:03:43.519><c> all</c><00:03:43.760><c> the</c><00:03:43.920><c> conditions</c><00:03:44.879><c> um</c><00:03:45.200><c> are</c>
+
+00:03:45.750 --> 00:03:45.760 align:start position:0%
+it's empty. So all the conditions um are
+ 
+
+00:03:45.760 --> 00:03:48.630 align:start position:0%
+it's empty. So all the conditions um are
+provided<00:03:46.239><c> here</c><00:03:46.720><c> and</c><00:03:47.040><c> you</c><00:03:47.360><c> can</c><00:03:47.519><c> use</c><00:03:47.760><c> this</c><00:03:48.159><c> to</c>
+
+00:03:48.630 --> 00:03:48.640 align:start position:0%
+provided here and you can use this to
+ 
+
+00:03:48.640 --> 00:03:51.630 align:start position:0%
+provided here and you can use this to
+steer<00:03:49.040><c> different</c><00:03:49.760><c> uh</c><00:03:49.920><c> cell</c>
+
+00:03:51.630 --> 00:03:51.640 align:start position:0%
+steer different uh cell
+ 
+
+00:03:51.640 --> 00:03:54.149 align:start position:0%
+steer different uh cell
+attributes.<00:03:52.640><c> So</c><00:03:53.200><c> uh</c><00:03:53.360><c> now</c><00:03:53.599><c> coming</c><00:03:53.840><c> to</c>
+
+00:03:54.149 --> 00:03:54.159 align:start position:0%
+attributes. So uh now coming to
+ 
+
+00:03:54.159 --> 00:03:56.070 align:start position:0%
+attributes. So uh now coming to
+different<00:03:54.640><c> action</c><00:03:55.040><c> modes</c><00:03:55.599><c> uh</c><00:03:55.680><c> which</c><00:03:55.920><c> are</c>
+
+00:03:56.070 --> 00:03:56.080 align:start position:0%
+different action modes uh which are
+ 
+
+00:03:56.080 --> 00:03:59.429 align:start position:0%
+different action modes uh which are
+present<00:03:56.480><c> in</c><00:03:56.720><c> the</c><00:03:57.000><c> table.</c><00:03:58.000><c> Now</c><00:03:58.640><c> uh</c><00:03:58.879><c> we</c><00:03:59.120><c> have</c><00:03:59.280><c> got</c>
+
+00:03:59.429 --> 00:03:59.439 align:start position:0%
+present in the table. Now uh we have got
+ 
+
+00:03:59.439 --> 00:04:01.350 align:start position:0%
+present in the table. Now uh we have got
+four<00:03:59.760><c> different</c><00:04:00.000><c> action</c><00:04:00.319><c> modes.</c><00:04:00.879><c> Now</c><00:04:01.120><c> these</c>
+
+00:04:01.350 --> 00:04:01.360 align:start position:0%
+four different action modes. Now these
+ 
+
+00:04:01.360 --> 00:04:03.670 align:start position:0%
+four different action modes. Now these
+are<00:04:01.439><c> pretty</c><00:04:01.760><c> common</c><00:04:02.000><c> to</c><00:04:02.239><c> other</c><00:04:02.879><c> uh</c><00:04:02.959><c> objects</c><00:04:03.439><c> as</c>
+
+00:04:03.670 --> 00:04:03.680 align:start position:0%
+are pretty common to other uh objects as
+ 
+
+00:04:03.680 --> 00:04:05.990 align:start position:0%
+are pretty common to other uh objects as
+well.<00:04:04.319><c> But</c><00:04:04.480><c> for</c><00:04:04.720><c> a</c><00:04:04.879><c> table</c><00:04:05.280><c> uh</c><00:04:05.360><c> we</c><00:04:05.519><c> have</c><00:04:05.680><c> got</c><00:04:05.840><c> the</c>
+
+00:04:05.990 --> 00:04:06.000 align:start position:0%
+well. But for a table uh we have got the
+ 
+
+00:04:06.000 --> 00:04:08.550 align:start position:0%
+well. But for a table uh we have got the
+input<00:04:06.400><c> action</c><00:04:06.720><c> mode</c><00:04:07.360><c> uh</c><00:04:07.680><c> using</c><00:04:08.000><c> which</c><00:04:08.239><c> we</c><00:04:08.400><c> can</c>
+
+00:04:08.550 --> 00:04:08.560 align:start position:0%
+input action mode uh using which we can
+ 
+
+00:04:08.560 --> 00:04:11.750 align:start position:0%
+input action mode uh using which we can
+enter<00:04:08.879><c> a</c><00:04:09.120><c> particular</c><00:04:09.640><c> value</c><00:04:10.640><c> and</c><00:04:10.799><c> then</c><00:04:11.360><c> uh</c><00:04:11.519><c> we</c>
+
+00:04:11.750 --> 00:04:11.760 align:start position:0%
+enter a particular value and then uh we
+ 
+
+00:04:11.760 --> 00:04:13.830 align:start position:0%
+enter a particular value and then uh we
+have<00:04:11.840><c> got</c><00:04:12.000><c> the</c><00:04:12.159><c> verify</c><00:04:12.959><c> using</c><00:04:13.280><c> which</c><00:04:13.519><c> we</c><00:04:13.680><c> can</c>
+
+00:04:13.830 --> 00:04:13.840 align:start position:0%
+have got the verify using which we can
+ 
+
+00:04:13.840 --> 00:04:16.310 align:start position:0%
+have got the verify using which we can
+verify<00:04:14.239><c> a</c><00:04:14.480><c> value</c><00:04:14.640><c> or</c><00:04:14.879><c> a</c><00:04:15.040><c> property</c><00:04:15.840><c> and</c><00:04:16.000><c> then</c><00:04:16.160><c> we</c>
+
+00:04:16.310 --> 00:04:16.320 align:start position:0%
+verify a value or a property and then we
+ 
+
+00:04:16.320 --> 00:04:19.189 align:start position:0%
+verify a value or a property and then we
+have<00:04:16.479><c> got</c><00:04:16.799><c> the</c><00:04:17.160><c> constraint.</c><00:04:18.160><c> Now</c><00:04:18.479><c> this</c><00:04:19.040><c> uh</c>
+
+00:04:19.189 --> 00:04:19.199 align:start position:0%
+have got the constraint. Now this uh
+ 
+
+00:04:19.199 --> 00:04:22.230 align:start position:0%
+have got the constraint. Now this uh
+will<00:04:19.440><c> basically</c><00:04:20.280><c> restrict</c><00:04:21.280><c> your</c><00:04:21.759><c> search</c>
+
+00:04:22.230 --> 00:04:22.240 align:start position:0%
+will basically restrict your search
+ 
+
+00:04:22.240 --> 00:04:24.469 align:start position:0%
+will basically restrict your search
+within<00:04:22.639><c> the</c><00:04:22.880><c> table.</c><00:04:23.440><c> So</c><00:04:23.600><c> you</c><00:04:23.840><c> can</c><00:04:23.919><c> define</c><00:04:24.240><c> a</c>
+
+00:04:24.469 --> 00:04:24.479 align:start position:0%
+within the table. So you can define a
+ 
+
+00:04:24.479 --> 00:04:27.110 align:start position:0%
+within the table. So you can define a
+constraint<00:04:25.360><c> on</c><00:04:25.600><c> a</c><00:04:25.840><c> particular</c><00:04:26.240><c> column</c><00:04:26.720><c> on</c><00:04:26.880><c> a</c>
+
+00:04:27.110 --> 00:04:27.120 align:start position:0%
+constraint on a particular column on a
+ 
+
+00:04:27.120 --> 00:04:29.510 align:start position:0%
+constraint on a particular column on a
+particular<00:04:27.680><c> row</c><00:04:27.840><c> or</c><00:04:28.240><c> or</c><00:04:28.639><c> on</c><00:04:28.880><c> a</c><00:04:29.120><c> particular</c>
+
+00:04:29.510 --> 00:04:29.520 align:start position:0%
+particular row or or on a particular
+ 
+
+00:04:29.520 --> 00:04:33.710 align:start position:0%
+particular row or or on a particular
+cell.<00:04:30.000><c> Right?</c><00:04:31.360><c> Then</c><00:04:31.840><c> uh</c><00:04:31.919><c> we</c><00:04:32.080><c> have</c><00:04:32.240><c> got</c><00:04:32.880><c> uh</c><00:04:33.040><c> the</c>
+
+00:04:33.710 --> 00:04:33.720 align:start position:0%
+cell. Right? Then uh we have got uh the
+ 
+
+00:04:33.720 --> 00:04:36.070 align:start position:0%
+cell. Right? Then uh we have got uh the
+buffer.<00:04:34.720><c> So</c><00:04:34.880><c> this</c><00:04:35.120><c> will</c><00:04:35.360><c> basically</c><00:04:35.680><c> buffer</c>
+
+00:04:36.070 --> 00:04:36.080 align:start position:0%
+buffer. So this will basically buffer
+ 
+
+00:04:36.080 --> 00:04:38.469 align:start position:0%
+buffer. So this will basically buffer
+the<00:04:36.320><c> value</c><00:04:36.479><c> of</c><00:04:36.639><c> a</c><00:04:36.880><c> cell,</c><00:04:37.520><c> row</c><00:04:37.600><c> or</c><00:04:37.919><c> column</c><00:04:38.240><c> and</c>
+
+00:04:38.469 --> 00:04:38.479 align:start position:0%
+the value of a cell, row or column and
+ 
+
+00:04:38.479 --> 00:04:41.430 align:start position:0%
+the value of a cell, row or column and
+then<00:04:38.800><c> store</c><00:04:39.040><c> it</c><00:04:39.360><c> in</c><00:04:39.520><c> a</c><00:04:39.759><c> buffer</c><00:04:40.199><c> variable.</c><00:04:41.199><c> So</c>
+
+00:04:41.430 --> 00:04:41.440 align:start position:0%
+then store it in a buffer variable. So
+ 
+
+00:04:41.440 --> 00:04:43.670 align:start position:0%
+then store it in a buffer variable. So
+all<00:04:41.600><c> these</c><00:04:41.840><c> action</c><00:04:42.160><c> modes</c><00:04:42.479><c> can</c><00:04:42.720><c> be</c><00:04:42.880><c> used</c><00:04:43.199><c> when</c>
+
+00:04:43.670 --> 00:04:43.680 align:start position:0%
+all these action modes can be used when
+ 
+
+00:04:43.680 --> 00:04:46.830 align:start position:0%
+all these action modes can be used when
+you<00:04:44.080><c> are</c><00:04:44.800><c> um</c><00:04:45.120><c> steering</c><00:04:45.520><c> any</c><00:04:45.840><c> particular</c>
+
+00:04:46.830 --> 00:04:46.840 align:start position:0%
+you are um steering any particular
+ 
+
+00:04:46.840 --> 00:04:49.510 align:start position:0%
+you are um steering any particular
+table.<00:04:47.840><c> Now</c><00:04:48.080><c> let's</c><00:04:48.320><c> talk</c><00:04:48.560><c> about</c><00:04:48.720><c> some</c><00:04:49.040><c> of</c><00:04:49.280><c> the</c>
+
+00:04:49.510 --> 00:04:49.520 align:start position:0%
+table. Now let's talk about some of the
+ 
+
+00:04:49.520 --> 00:04:52.310 align:start position:0%
+table. Now let's talk about some of the
+general<00:04:49.919><c> properties</c><00:04:50.400><c> which</c><00:04:50.800><c> are</c><00:04:51.120><c> part</c><00:04:51.440><c> of</c><00:04:52.160><c> um</c>
+
+00:04:52.310 --> 00:04:52.320 align:start position:0%
+general properties which are part of um
+ 
+
+00:04:52.320 --> 00:04:55.270 align:start position:0%
+general properties which are part of um
+a<00:04:52.639><c> table</c><00:04:53.120><c> control</c><00:04:54.000><c> and</c><00:04:54.320><c> then</c><00:04:54.800><c> uh</c><00:04:54.960><c> these</c>
+
+00:04:55.270 --> 00:04:55.280 align:start position:0%
+a table control and then uh these
+ 
+
+00:04:55.280 --> 00:04:56.950 align:start position:0%
+a table control and then uh these
+properties<00:04:55.759><c> can</c><00:04:56.000><c> be</c><00:04:56.160><c> used</c><00:04:56.400><c> to</c><00:04:56.639><c> perform</c>
+
+00:04:56.950 --> 00:04:56.960 align:start position:0%
+properties can be used to perform
+ 
+
+00:04:56.960 --> 00:04:59.749 align:start position:0%
+properties can be used to perform
+different<00:04:57.360><c> operations.</c><00:04:58.160><c> Um</c><00:04:58.880><c> and</c><00:04:59.199><c> let's</c><00:04:59.520><c> look</c>
+
+00:04:59.749 --> 00:04:59.759 align:start position:0%
+different operations. Um and let's look
+ 
+
+00:04:59.759 --> 00:05:02.150 align:start position:0%
+different operations. Um and let's look
+at<00:05:00.240><c> all</c><00:05:00.479><c> of</c><00:05:00.639><c> these.</c><00:05:01.280><c> So</c><00:05:01.440><c> we</c><00:05:01.680><c> have</c><00:05:01.840><c> got</c><00:05:02.000><c> the</c>
+
+00:05:02.150 --> 00:05:02.160 align:start position:0%
+at all of these. So we have got the
+ 
+
+00:05:02.160 --> 00:05:04.070 align:start position:0%
+at all of these. So we have got the
+column<00:05:02.479><c> count.</c><00:05:02.960><c> Now</c><00:05:03.199><c> this</c><00:05:03.440><c> will</c><00:05:03.600><c> give</c><00:05:03.680><c> you</c><00:05:03.840><c> the</c>
+
+00:05:04.070 --> 00:05:04.080 align:start position:0%
+column count. Now this will give you the
+ 
+
+00:05:04.080 --> 00:05:06.230 align:start position:0%
+column count. Now this will give you the
+number<00:05:04.240><c> of</c><00:05:04.400><c> columns</c><00:05:04.800><c> in</c><00:05:04.960><c> the</c><00:05:05.120><c> table.</c><00:05:05.919><c> We</c><00:05:06.080><c> have</c>
+
+00:05:06.230 --> 00:05:06.240 align:start position:0%
+number of columns in the table. We have
+ 
+
+00:05:06.240 --> 00:05:07.909 align:start position:0%
+number of columns in the table. We have
+got<00:05:06.320><c> the</c><00:05:06.639><c> row</c><00:05:06.800><c> count</c><00:05:07.120><c> which</c><00:05:07.360><c> will</c><00:05:07.520><c> give</c><00:05:07.680><c> the</c>
+
+00:05:07.909 --> 00:05:07.919 align:start position:0%
+got the row count which will give the
+ 
+
+00:05:07.919 --> 00:05:10.070 align:start position:0%
+got the row count which will give the
+number<00:05:08.080><c> of</c><00:05:08.400><c> rows</c><00:05:08.479><c> in</c><00:05:08.720><c> the</c><00:05:08.880><c> table.</c><00:05:09.520><c> Uh</c><00:05:09.759><c> we</c><00:05:10.000><c> have</c>
+
+00:05:10.070 --> 00:05:10.080 align:start position:0%
+number of rows in the table. Uh we have
+ 
+
+00:05:10.080 --> 00:05:12.790 align:start position:0%
+number of rows in the table. Uh we have
+got<00:05:10.320><c> column</c><00:05:10.720><c> number</c><00:05:11.199><c> and</c><00:05:11.680><c> row</c><00:05:11.840><c> number.</c><00:05:12.560><c> Now</c>
+
+00:05:12.790 --> 00:05:12.800 align:start position:0%
+got column number and row number. Now
+ 
+
+00:05:12.800 --> 00:05:14.629 align:start position:0%
+got column number and row number. Now
+this<00:05:12.960><c> is</c><00:05:13.120><c> basically</c><00:05:13.520><c> the</c><00:05:13.759><c> index</c><00:05:14.240><c> of</c><00:05:14.400><c> the</c>
+
+00:05:14.629 --> 00:05:14.639 align:start position:0%
+this is basically the index of the
+ 
+
+00:05:14.639 --> 00:05:17.430 align:start position:0%
+this is basically the index of the
+selected<00:05:15.120><c> column</c><00:05:15.360><c> or</c><00:05:15.759><c> row.</c><00:05:16.400><c> Um</c><00:05:16.800><c> and</c><00:05:17.039><c> this</c><00:05:17.280><c> is</c>
+
+00:05:17.430 --> 00:05:17.440 align:start position:0%
+selected column or row. Um and this is
+ 
+
+00:05:17.440 --> 00:05:19.430 align:start position:0%
+selected column or row. Um and this is
+obviously<00:05:17.919><c> relative</c><00:05:18.400><c> to</c><00:05:18.560><c> the</c><00:05:18.720><c> header</c><00:05:19.120><c> column</c>
+
+00:05:19.430 --> 00:05:19.440 align:start position:0%
+obviously relative to the header column
+ 
+
+00:05:19.440 --> 00:05:20.950 align:start position:0%
+obviously relative to the header column
+or<00:05:19.840><c> row.</c>
+
+00:05:20.950 --> 00:05:20.960 align:start position:0%
+or row.
+ 
+
+00:05:20.960 --> 00:05:24.790 align:start position:0%
+or row.
+Then<00:05:21.680><c> uh</c><00:05:22.400><c> we</c><00:05:22.720><c> can</c><00:05:22.960><c> also</c><00:05:23.600><c> use</c><00:05:23.759><c> the</c><00:05:24.000><c> property</c><00:05:24.560><c> row</c>
+
+00:05:24.790 --> 00:05:24.800 align:start position:0%
+Then uh we can also use the property row
+ 
+
+00:05:24.800 --> 00:05:27.189 align:start position:0%
+Then uh we can also use the property row
+column<00:05:25.120><c> number</c><00:05:25.680><c> to</c><00:05:26.160><c> get</c><00:05:26.400><c> the</c><00:05:26.560><c> index</c><00:05:26.880><c> of</c><00:05:27.039><c> the</c>
+
+00:05:27.189 --> 00:05:27.199 align:start position:0%
+column number to get the index of the
+ 
+
+00:05:27.199 --> 00:05:30.469 align:start position:0%
+column number to get the index of the
+selected<00:05:27.600><c> column.</c><00:05:28.400><c> Similarly</c><00:05:28.960><c> for</c><00:05:29.840><c> um</c><00:05:30.080><c> the</c>
+
+00:05:30.469 --> 00:05:30.479 align:start position:0%
+selected column. Similarly for um the
+ 
+
+00:05:30.479 --> 00:05:34.150 align:start position:0%
+selected column. Similarly for um the
+row<00:05:30.639><c> we</c><00:05:30.880><c> can</c><00:05:31.039><c> use</c><00:05:31.919><c> uh</c><00:05:32.160><c> the</c><00:05:32.479><c> raw</c><00:05:33.199><c> row</c><00:05:33.360><c> number</c>
+
+00:05:34.150 --> 00:05:34.160 align:start position:0%
+row we can use uh the raw row number
+ 
+
+00:05:34.160 --> 00:05:36.790 align:start position:0%
+row we can use uh the raw row number
+which<00:05:34.400><c> will</c><00:05:34.639><c> provide</c><00:05:34.880><c> the</c><00:05:35.120><c> index</c><00:05:35.520><c> of</c><00:05:36.080><c> selected</c>
+
+00:05:36.790 --> 00:05:36.800 align:start position:0%
+which will provide the index of selected
+ 
+
+00:05:36.800 --> 00:05:39.350 align:start position:0%
+which will provide the index of selected
+row.<00:05:37.440><c> Now</c><00:05:37.759><c> you</c><00:05:37.919><c> will</c><00:05:38.080><c> see</c><00:05:38.240><c> a</c><00:05:38.400><c> difference.</c><00:05:38.960><c> Uh</c>
+
+00:05:39.350 --> 00:05:39.360 align:start position:0%
+row. Now you will see a difference. Uh
+ 
+
+00:05:39.360 --> 00:05:41.990 align:start position:0%
+row. Now you will see a difference. Uh
+both<00:05:40.080><c> seem</c><00:05:40.479><c> pretty</c><00:05:40.880><c> similar</c><00:05:41.280><c> column</c><00:05:41.680><c> number</c>
+
+00:05:41.990 --> 00:05:42.000 align:start position:0%
+both seem pretty similar column number
+ 
+
+00:05:42.000 --> 00:05:44.469 align:start position:0%
+both seem pretty similar column number
+and<00:05:42.479><c> row</c><00:05:42.639><c> column</c><00:05:42.960><c> number.</c><00:05:43.840><c> But</c><00:05:44.000><c> here</c><00:05:44.240><c> the</c>
+
+00:05:44.469 --> 00:05:44.479 align:start position:0%
+and row column number. But here the
+ 
+
+00:05:44.479 --> 00:05:47.909 align:start position:0%
+and row column number. But here the
+difference<00:05:44.800><c> is</c><00:05:45.520><c> uh</c><00:05:45.840><c> the</c><00:05:46.080><c> header</c><00:05:46.400><c> column</c><00:05:47.360><c> which</c>
+
+00:05:47.909 --> 00:05:47.919 align:start position:0%
+difference is uh the header column which
+ 
+
+00:05:47.919 --> 00:05:50.550 align:start position:0%
+difference is uh the header column which
+starts<00:05:48.320><c> at</c><00:05:48.639><c> zero</c><00:05:48.960><c> for</c><00:05:49.199><c> column</c><00:05:49.520><c> number.</c><00:05:50.160><c> But</c><00:05:50.320><c> if</c>
+
+00:05:50.550 --> 00:05:50.560 align:start position:0%
+starts at zero for column number. But if
+ 
+
+00:05:50.560 --> 00:05:52.629 align:start position:0%
+starts at zero for column number. But if
+you<00:05:50.720><c> want</c><00:05:50.880><c> to</c><00:05:51.120><c> start</c><00:05:51.360><c> at</c><00:05:51.600><c> one</c><00:05:51.919><c> then</c><00:05:52.160><c> you</c><00:05:52.479><c> can</c>
+
+00:05:52.629 --> 00:05:52.639 align:start position:0%
+you want to start at one then you can
+ 
+
+00:05:52.639 --> 00:05:54.350 align:start position:0%
+you want to start at one then you can
+use<00:05:52.800><c> the</c><00:05:52.960><c> raw</c><00:05:53.280><c> column</c>
+
+00:05:54.350 --> 00:05:54.360 align:start position:0%
+use the raw column
+ 
+
+00:05:54.360 --> 00:05:57.029 align:start position:0%
+use the raw column
+number.<00:05:55.360><c> Then</c><00:05:55.600><c> we</c><00:05:55.840><c> have</c><00:05:56.000><c> got</c><00:05:56.400><c> uh</c><00:05:56.479><c> the</c><00:05:56.720><c> result</c>
+
+00:05:57.029 --> 00:05:57.039 align:start position:0%
+number. Then we have got uh the result
+ 
+
+00:05:57.039 --> 00:05:59.350 align:start position:0%
+number. Then we have got uh the result
+count.<00:05:57.600><c> Uh</c><00:05:57.840><c> now</c><00:05:58.080><c> this</c><00:05:58.240><c> will</c><00:05:58.400><c> return</c><00:05:58.720><c> us</c><00:05:58.960><c> the</c>
+
+00:05:59.350 --> 00:05:59.360 align:start position:0%
+count. Uh now this will return us the
+ 
+
+00:05:59.360 --> 00:06:01.270 align:start position:0%
+count. Uh now this will return us the
+number<00:05:59.600><c> of</c><00:05:59.759><c> cells</c><00:06:00.160><c> which</c><00:06:00.479><c> contains</c><00:06:00.960><c> the</c>
+
+00:06:01.270 --> 00:06:01.280 align:start position:0%
+number of cells which contains the
+ 
+
+00:06:01.280 --> 00:06:04.150 align:start position:0%
+number of cells which contains the
+specified<00:06:01.919><c> content.</c><00:06:03.199><c> So</c><00:06:03.360><c> this</c><00:06:03.600><c> will</c><00:06:03.840><c> further</c>
+
+00:06:04.150 --> 00:06:04.160 align:start position:0%
+specified content. So this will further
+ 
+
+00:06:04.160 --> 00:06:06.350 align:start position:0%
+specified content. So this will further
+help<00:06:04.400><c> you</c><00:06:04.960><c> uh</c><00:06:05.039><c> to</c><00:06:05.280><c> perform</c><00:06:05.840><c> certain</c>
+
+00:06:06.350 --> 00:06:06.360 align:start position:0%
+help you uh to perform certain
+ 
+
+00:06:06.360 --> 00:06:08.950 align:start position:0%
+help you uh to perform certain
+operations<00:06:07.360><c> like</c><00:06:07.600><c> if</c><00:06:07.840><c> you</c><00:06:07.919><c> want</c><00:06:08.080><c> to</c><00:06:08.240><c> get</c><00:06:08.639><c> the</c>
+
+00:06:08.950 --> 00:06:08.960 align:start position:0%
+operations like if you want to get the
+ 
+
+00:06:08.960 --> 00:06:10.950 align:start position:0%
+operations like if you want to get the
+total<00:06:09.360><c> number</c><00:06:09.520><c> of</c><00:06:09.759><c> columns</c><00:06:10.160><c> or</c><00:06:10.400><c> total</c><00:06:10.720><c> number</c>
+
+00:06:10.950 --> 00:06:10.960 align:start position:0%
+total number of columns or total number
+ 
+
+00:06:10.960 --> 00:06:13.670 align:start position:0%
+total number of columns or total number
+of<00:06:11.280><c> rows</c><00:06:12.000><c> or</c><00:06:12.319><c> you</c><00:06:12.479><c> want</c><00:06:12.639><c> to</c><00:06:13.120><c> select</c><00:06:13.440><c> a</c>
+
+00:06:13.670 --> 00:06:13.680 align:start position:0%
+of rows or you want to select a
+ 
+
+00:06:13.680 --> 00:06:16.469 align:start position:0%
+of rows or you want to select a
+particular<00:06:14.000><c> column</c><00:06:14.560><c> or</c><00:06:14.880><c> a</c><00:06:15.199><c> row</c><00:06:15.919><c> uh</c><00:06:16.000><c> or</c><00:06:16.319><c> you</c>
+
+00:06:16.469 --> 00:06:16.479 align:start position:0%
+particular column or a row uh or you
+ 
+
+00:06:16.479 --> 00:06:18.710 align:start position:0%
+particular column or a row uh or you
+want<00:06:16.560><c> to</c><00:06:16.720><c> get</c><00:06:16.880><c> the</c><00:06:17.120><c> number</c><00:06:17.280><c> of</c><00:06:17.440><c> cells</c><00:06:18.080><c> uh</c><00:06:18.240><c> with</c>
+
+00:06:18.710 --> 00:06:18.720 align:start position:0%
+want to get the number of cells uh with
+ 
+
+00:06:18.720 --> 00:06:20.870 align:start position:0%
+want to get the number of cells uh with
+specified<00:06:19.280><c> content.</c><00:06:19.759><c> So</c><00:06:20.000><c> all</c><00:06:20.160><c> of</c><00:06:20.319><c> this</c><00:06:20.560><c> can</c><00:06:20.720><c> be</c>
+
+00:06:20.870 --> 00:06:20.880 align:start position:0%
+specified content. So all of this can be
+ 
+
+00:06:20.880 --> 00:06:23.749 align:start position:0%
+specified content. So all of this can be
+done<00:06:21.039><c> using</c><00:06:21.360><c> this</c><00:06:21.680><c> table</c><00:06:22.360><c> properties.</c><00:06:23.360><c> So</c><00:06:23.520><c> now</c>
+
+00:06:23.749 --> 00:06:23.759 align:start position:0%
+done using this table properties. So now
+ 
+
+00:06:23.759 --> 00:06:26.070 align:start position:0%
+done using this table properties. So now
+we<00:06:23.919><c> have</c><00:06:24.080><c> discussed</c><00:06:24.880><c> u</c><00:06:25.120><c> the</c><00:06:25.360><c> action</c><00:06:25.680><c> modes,</c>
+
+00:06:26.070 --> 00:06:26.080 align:start position:0%
+we have discussed u the action modes,
+ 
+
+00:06:26.080 --> 00:06:27.990 align:start position:0%
+we have discussed u the action modes,
+the<00:06:26.319><c> properties</c><00:06:26.960><c> and</c><00:06:27.360><c> uh</c><00:06:27.440><c> the</c><00:06:27.680><c> table</c>
+
+00:06:27.990 --> 00:06:28.000 align:start position:0%
+the properties and uh the table
+ 
+
+00:06:28.000 --> 00:06:30.870 align:start position:0%
+the properties and uh the table
+structure.<00:06:28.880><c> Let's</c><00:06:29.199><c> look</c><00:06:29.360><c> at</c><00:06:29.520><c> some</c><00:06:29.840><c> examples</c>
+
+00:06:30.870 --> 00:06:30.880 align:start position:0%
+structure. Let's look at some examples
+ 
+
+00:06:30.880 --> 00:06:33.510 align:start position:0%
+structure. Let's look at some examples
+um<00:06:31.039><c> of</c><00:06:31.440><c> how</c><00:06:31.680><c> we</c><00:06:31.919><c> can</c><00:06:32.080><c> steer</c><00:06:32.880><c> a</c><00:06:33.120><c> particular</c>
+
+00:06:33.510 --> 00:06:33.520 align:start position:0%
+um of how we can steer a particular
+ 
+
+00:06:33.520 --> 00:06:37.510 align:start position:0%
+um of how we can steer a particular
+table<00:06:34.400><c> using</c><00:06:34.800><c> all</c><00:06:35.039><c> of</c><00:06:35.280><c> this</c><00:06:36.319><c> um</c><00:06:36.560><c> and</c><00:06:36.880><c> then</c><00:06:37.440><c> uh</c>
+
+00:06:37.510 --> 00:06:37.520 align:start position:0%
+table using all of this um and then uh
+ 
+
+00:06:37.520 --> 00:06:40.870 align:start position:0%
+table using all of this um and then uh
+we<00:06:37.840><c> can</c><00:06:38.479><c> basically</c><00:06:38.960><c> automate</c><00:06:39.520><c> our</c><00:06:39.840><c> scenarios</c>
+
+00:06:40.870 --> 00:06:40.880 align:start position:0%
+we can basically automate our scenarios
+ 
+
+00:06:40.880 --> 00:06:43.590 align:start position:0%
+we can basically automate our scenarios
+uh<00:06:41.039><c> in</c><00:06:41.280><c> a</c><00:06:41.520><c> particular</c><00:06:41.919><c> table.</c><00:06:42.400><c> Right?</c><00:06:43.199><c> So</c><00:06:43.360><c> for</c>
+
+00:06:43.590 --> 00:06:43.600 align:start position:0%
+uh in a particular table. Right? So for
+ 
+
+00:06:43.600 --> 00:06:45.189 align:start position:0%
+uh in a particular table. Right? So for
+this<00:06:43.840><c> particular</c><00:06:44.160><c> session</c><00:06:44.479><c> we</c><00:06:44.720><c> are</c><00:06:44.880><c> going</c><00:06:45.039><c> to</c>
+
+00:06:45.189 --> 00:06:45.199 align:start position:0%
+this particular session we are going to
+ 
+
+00:06:45.199 --> 00:06:47.430 align:start position:0%
+this particular session we are going to
+use<00:06:45.759><c> uh</c><00:06:45.840><c> this</c><00:06:46.160><c> particular</c><00:06:46.479><c> table.</c><00:06:46.960><c> It's</c><00:06:47.199><c> part</c>
+
+00:06:47.430 --> 00:06:47.440 align:start position:0%
+use uh this particular table. It's part
+ 
+
+00:06:47.440 --> 00:06:50.950 align:start position:0%
+use uh this particular table. It's part
+of<00:06:48.000><c> uh</c><00:06:48.160><c> the</c><00:06:48.400><c> main</c><00:06:48.639><c> obstacle</c><00:06:49.199><c> page.</c><00:06:50.160><c> Uh</c><00:06:50.560><c> and</c>
+
+00:06:50.950 --> 00:06:50.960 align:start position:0%
+of uh the main obstacle page. Uh and
+ 
+
+00:06:50.960 --> 00:06:52.870 align:start position:0%
+of uh the main obstacle page. Uh and
+this<00:06:51.199><c> is</c><00:06:51.280><c> how</c><00:06:51.440><c> a</c><00:06:51.600><c> typical</c><00:06:52.000><c> table</c><00:06:52.319><c> looks</c><00:06:52.560><c> like.</c>
+
+00:06:52.870 --> 00:06:52.880 align:start position:0%
+this is how a typical table looks like.
+ 
+
+00:06:52.880 --> 00:06:54.870 align:start position:0%
+this is how a typical table looks like.
+Right?<00:06:53.199><c> So</c><00:06:53.440><c> we</c><00:06:53.600><c> have</c><00:06:53.759><c> got</c><00:06:53.919><c> the</c><00:06:54.319><c> rows</c><00:06:54.560><c> and</c><00:06:54.720><c> we</c>
+
+00:06:54.870 --> 00:06:54.880 align:start position:0%
+Right? So we have got the rows and we
+ 
+
+00:06:54.880 --> 00:06:56.469 align:start position:0%
+Right? So we have got the rows and we
+have<00:06:55.039><c> got</c><00:06:55.199><c> the</c><00:06:55.440><c> columns</c><00:06:55.759><c> and</c><00:06:55.919><c> then</c><00:06:56.160><c> we</c><00:06:56.319><c> have</c>
+
+00:06:56.469 --> 00:06:56.479 align:start position:0%
+have got the columns and then we have
+ 
+
+00:06:56.479 --> 00:06:58.870 align:start position:0%
+have got the columns and then we have
+got<00:06:56.639><c> the</c><00:06:56.880><c> cells.</c><00:06:57.759><c> inside</c><00:06:58.160><c> those</c><00:06:58.400><c> cells</c><00:06:58.639><c> we</c>
+
+00:06:58.870 --> 00:06:58.880 align:start position:0%
+got the cells. inside those cells we
+ 
+
+00:06:58.880 --> 00:07:01.749 align:start position:0%
+got the cells. inside those cells we
+have<00:06:58.960><c> got</c><00:06:59.199><c> some</c><00:06:59.520><c> values</c><00:07:00.160><c> and</c><00:07:00.479><c> then</c><00:07:00.880><c> uh</c><00:07:01.039><c> we</c><00:07:01.280><c> need</c>
+
+00:07:01.749 --> 00:07:01.759 align:start position:0%
+have got some values and then uh we need
+ 
+
+00:07:01.759 --> 00:07:05.110 align:start position:0%
+have got some values and then uh we need
+to<00:07:02.160><c> steer</c><00:07:02.720><c> this</c><00:07:03.039><c> particular</c><00:07:03.440><c> table</c><00:07:04.720><c> uh</c><00:07:04.880><c> to</c>
+
+00:07:05.110 --> 00:07:05.120 align:start position:0%
+to steer this particular table uh to
+ 
+
+00:07:05.120 --> 00:07:09.189 align:start position:0%
+to steer this particular table uh to
+automate<00:07:05.520><c> our</c><00:07:05.759><c> scenarios</c><00:07:06.560><c> right</c><00:07:07.440><c> so</c><00:07:08.400><c> let's</c><00:07:09.039><c> uh</c>
+
+00:07:09.189 --> 00:07:09.199 align:start position:0%
+automate our scenarios right so let's uh
+ 
+
+00:07:09.199 --> 00:07:12.309 align:start position:0%
+automate our scenarios right so let's uh
+go<00:07:09.360><c> back</c><00:07:09.599><c> to</c><00:07:09.840><c> TUSCa</c><00:07:10.800><c> and</c><00:07:11.039><c> here</c><00:07:11.759><c> um</c><00:07:11.919><c> I</c><00:07:12.160><c> have</c>
+
+00:07:12.309 --> 00:07:12.319 align:start position:0%
+go back to TUSCa and here um I have
+ 
+
+00:07:12.319 --> 00:07:13.990 align:start position:0%
+go back to TUSCa and here um I have
+already<00:07:12.639><c> scanned</c><00:07:12.960><c> this</c><00:07:13.199><c> particular</c><00:07:13.520><c> module</c>
+
+00:07:13.990 --> 00:07:14.000 align:start position:0%
+already scanned this particular module
+ 
+
+00:07:14.000 --> 00:07:16.230 align:start position:0%
+already scanned this particular module
+here<00:07:14.400><c> as</c><00:07:14.560><c> you</c><00:07:14.720><c> can</c><00:07:14.880><c> see</c><00:07:15.440><c> so</c><00:07:15.759><c> this</c><00:07:16.000><c> is</c><00:07:16.080><c> the</c>
+
+00:07:16.230 --> 00:07:16.240 align:start position:0%
+here as you can see so this is the
+ 
+
+00:07:16.240 --> 00:07:19.029 align:start position:0%
+here as you can see so this is the
+obstacle<00:07:16.800><c> list</c><00:07:17.599><c> uh</c><00:07:17.840><c> control</c><00:07:18.160><c> and</c><00:07:18.400><c> it</c><00:07:18.639><c> has</c><00:07:18.800><c> got</c>
+
+00:07:19.029 --> 00:07:19.039 align:start position:0%
+obstacle list uh control and it has got
+ 
+
+00:07:19.039 --> 00:07:22.550 align:start position:0%
+obstacle list uh control and it has got
+a<00:07:19.280><c> table</c><00:07:20.240><c> which</c><00:07:20.560><c> has</c><00:07:20.720><c> got</c><00:07:21.520><c> uh</c><00:07:21.759><c> different</c><00:07:22.319><c> rows</c>
+
+00:07:22.550 --> 00:07:22.560 align:start position:0%
+a table which has got uh different rows
+ 
+
+00:07:22.560 --> 00:07:25.510 align:start position:0%
+a table which has got uh different rows
+and<00:07:22.880><c> columns</c><00:07:23.599><c> right</c><00:07:24.560><c> and</c><00:07:24.800><c> then</c><00:07:25.120><c> uh</c><00:07:25.280><c> in</c><00:07:25.440><c> the</c>
+
+00:07:25.510 --> 00:07:25.520 align:start position:0%
+and columns right and then uh in the
+ 
+
+00:07:25.520 --> 00:07:27.270 align:start position:0%
+and columns right and then uh in the
+properties<00:07:26.000><c> section</c><00:07:26.479><c> if</c><00:07:26.720><c> you</c><00:07:26.800><c> go</c><00:07:26.960><c> to</c><00:07:27.120><c> the</c>
+
+00:07:27.270 --> 00:07:27.280 align:start position:0%
+properties section if you go to the
+ 
+
+00:07:27.280 --> 00:07:29.749 align:start position:0%
+properties section if you go to the
+variable<00:07:27.680><c> you</c><00:07:27.840><c> will</c><00:07:28.000><c> see</c><00:07:28.639><c> uh</c><00:07:29.039><c> we</c><00:07:29.280><c> have</c><00:07:29.520><c> also</c>
+
+00:07:29.749 --> 00:07:29.759 align:start position:0%
+variable you will see uh we have also
+ 
+
+00:07:29.759 --> 00:07:32.230 align:start position:0%
+variable you will see uh we have also
+got<00:07:30.080><c> the</c><00:07:30.400><c> header</c><00:07:30.880><c> row.</c><00:07:31.440><c> So</c><00:07:31.599><c> we</c><00:07:31.840><c> can</c><00:07:32.000><c> also</c>
+
+00:07:32.230 --> 00:07:32.240 align:start position:0%
+got the header row. So we can also
+ 
+
+00:07:32.240 --> 00:07:34.469 align:start position:0%
+got the header row. So we can also
+define<00:07:32.560><c> our</c><00:07:32.800><c> own</c><00:07:32.960><c> header</c><00:07:33.440><c> row.</c><00:07:33.759><c> So</c><00:07:33.919><c> we</c><00:07:34.240><c> just</c>
+
+00:07:34.469 --> 00:07:34.479 align:start position:0%
+define our own header row. So we just
+ 
+
+00:07:34.479 --> 00:07:36.950 align:start position:0%
+define our own header row. So we just
+need<00:07:34.639><c> to</c><00:07:34.800><c> change</c><00:07:35.120><c> this</c><00:07:35.520><c> value.</c><00:07:36.160><c> If</c><00:07:36.319><c> it</c><00:07:36.479><c> is</c><00:07:36.720><c> not</c>
+
+00:07:36.950 --> 00:07:36.960 align:start position:0%
+need to change this value. If it is not
+ 
+
+00:07:36.960 --> 00:07:40.070 align:start position:0%
+need to change this value. If it is not
+the<00:07:37.199><c> first</c><00:07:37.840><c> row</c><00:07:38.000><c> then</c><00:07:38.639><c> uh</c><00:07:39.120><c> we</c><00:07:39.360><c> can</c><00:07:39.520><c> define</c><00:07:39.840><c> it</c>
+
+00:07:40.070 --> 00:07:40.080 align:start position:0%
+the first row then uh we can define it
+ 
+
+00:07:40.080 --> 00:07:42.230 align:start position:0%
+the first row then uh we can define it
+anything<00:07:40.560><c> here</c><00:07:40.880><c> in</c><00:07:41.120><c> the</c><00:07:41.280><c> properties.</c><00:07:41.840><c> So</c><00:07:42.000><c> we</c>
+
+00:07:42.230 --> 00:07:42.240 align:start position:0%
+anything here in the properties. So we
+ 
+
+00:07:42.240 --> 00:07:44.629 align:start position:0%
+anything here in the properties. So we
+can<00:07:42.400><c> change</c><00:07:42.639><c> that</c><00:07:43.039><c> right.</c><00:07:43.919><c> So</c><00:07:44.080><c> as</c><00:07:44.319><c> you</c><00:07:44.400><c> can</c><00:07:44.560><c> see</c>
+
+00:07:44.629 --> 00:07:44.639 align:start position:0%
+can change that right. So as you can see
+ 
+
+00:07:44.639 --> 00:07:47.589 align:start position:0%
+can change that right. So as you can see
+the<00:07:44.880><c> tag</c><00:07:45.280><c> type</c><00:07:45.599><c> is</c><00:07:45.919><c> table</c><00:07:46.400><c> which</c><00:07:46.639><c> means</c><00:07:47.199><c> uh</c><00:07:47.360><c> it</c>
+
+00:07:47.589 --> 00:07:47.599 align:start position:0%
+the tag type is table which means uh it
+ 
+
+00:07:47.599 --> 00:07:50.469 align:start position:0%
+the tag type is table which means uh it
+is<00:07:47.919><c> a</c><00:07:48.160><c> table</c><00:07:48.639><c> control.</c>
+
+00:07:50.469 --> 00:07:50.479 align:start position:0%
+is a table control.
+ 
+
+00:07:50.479 --> 00:07:53.510 align:start position:0%
+is a table control.
+So,<00:07:51.199><c> uh</c><00:07:51.440><c> let's</c><00:07:51.840><c> go</c><00:07:52.000><c> ahead</c><00:07:52.319><c> and</c><00:07:52.880><c> uh</c><00:07:53.039><c> create</c><00:07:53.280><c> a</c>
+
+00:07:53.510 --> 00:07:53.520 align:start position:0%
+So, uh let's go ahead and uh create a
+ 
+
+00:07:53.520 --> 00:07:55.070 align:start position:0%
+So, uh let's go ahead and uh create a
+new<00:07:53.680><c> folder</c>
+
+00:07:55.070 --> 00:07:55.080 align:start position:0%
+new folder
+ 
+
+00:07:55.080 --> 00:07:59.270 align:start position:0%
+new folder
+here.<00:07:56.080><c> And</c><00:07:56.720><c> uh</c><00:07:56.879><c> I'm</c><00:07:57.280><c> going</c><00:07:57.440><c> to</c><00:07:57.680><c> call</c><00:07:58.280><c> this</c>
+
+00:07:59.270 --> 00:07:59.280 align:start position:0%
+here. And uh I'm going to call this
+ 
+
+00:07:59.280 --> 00:08:02.350 align:start position:0%
+here. And uh I'm going to call this
+steer
+
+00:08:02.350 --> 00:08:02.360 align:start position:0%
+ 
+ 
+
+00:08:02.360 --> 00:08:05.830 align:start position:0%
+ 
+tables.<00:08:03.360><c> Inside</c><00:08:03.840><c> this</c><00:08:04.560><c> uh</c><00:08:04.720><c> let's</c><00:08:05.039><c> create</c><00:08:05.440><c> a</c>
+
+00:08:05.830 --> 00:08:05.840 align:start position:0%
+tables. Inside this uh let's create a
+ 
+
+00:08:05.840 --> 00:08:06.670 align:start position:0%
+tables. Inside this uh let's create a
+test
+
+00:08:06.670 --> 00:08:06.680 align:start position:0%
+test
+ 
+
+00:08:06.680 --> 00:08:11.869 align:start position:0%
+test
+case<00:08:07.680><c> and</c><00:08:07.919><c> let's</c><00:08:08.160><c> call</c><00:08:08.400><c> this</c><00:08:08.639><c> table</c>
+
+00:08:11.869 --> 00:08:11.879 align:start position:0%
+ 
+ 
+
+00:08:11.879 --> 00:08:14.550 align:start position:0%
+ 
+steering.<00:08:12.879><c> Okay.</c>
+
+00:08:14.550 --> 00:08:14.560 align:start position:0%
+steering. Okay.
+ 
+
+00:08:14.560 --> 00:08:17.430 align:start position:0%
+steering. Okay.
+And<00:08:14.800><c> then</c><00:08:15.120><c> inside</c><00:08:15.599><c> this</c><00:08:16.160><c> uh</c><00:08:16.240><c> we</c><00:08:16.479><c> are</c><00:08:16.639><c> going</c><00:08:16.800><c> to</c>
+
+00:08:17.430 --> 00:08:17.440 align:start position:0%
+And then inside this uh we are going to
+ 
+
+00:08:17.440 --> 00:08:21.350 align:start position:0%
+And then inside this uh we are going to
+pull<00:08:17.919><c> our</c><00:08:18.240><c> obstacle</c><00:08:18.879><c> list</c><00:08:19.800><c> module.</c><00:08:20.800><c> So</c><00:08:21.120><c> which</c>
+
+00:08:21.350 --> 00:08:21.360 align:start position:0%
+pull our obstacle list module. So which
+ 
+
+00:08:21.360 --> 00:08:23.830 align:start position:0%
+pull our obstacle list module. So which
+will<00:08:21.680><c> contain</c><00:08:22.000><c> the</c><00:08:22.240><c> table</c><00:08:22.560><c> as</c><00:08:22.800><c> you</c><00:08:22.960><c> can</c><00:08:23.120><c> see.</c>
+
+00:08:23.830 --> 00:08:23.840 align:start position:0%
+will contain the table as you can see.
+ 
+
+00:08:23.840 --> 00:08:25.909 align:start position:0%
+will contain the table as you can see.
+So<00:08:24.000><c> now</c><00:08:24.479><c> uh</c><00:08:24.560><c> let's</c><00:08:24.800><c> look</c><00:08:25.039><c> at</c><00:08:25.280><c> our</c><00:08:25.599><c> first</c>
+
+00:08:25.909 --> 00:08:25.919 align:start position:0%
+So now uh let's look at our first
+ 
+
+00:08:25.919 --> 00:08:28.550 align:start position:0%
+So now uh let's look at our first
+example<00:08:26.400><c> which</c><00:08:26.639><c> is</c><00:08:26.800><c> to</c><00:08:27.120><c> select</c><00:08:27.599><c> a</c><00:08:27.919><c> particular</c>
+
+00:08:28.550 --> 00:08:28.560 align:start position:0%
+example which is to select a particular
+ 
+
+00:08:28.560 --> 00:08:31.430 align:start position:0%
+example which is to select a particular
+row<00:08:29.280><c> uh</c><00:08:29.360><c> with</c><00:08:29.599><c> a</c><00:08:29.919><c> fixed</c><00:08:30.319><c> position.</c><00:08:31.039><c> Now</c><00:08:31.199><c> what</c>
+
+00:08:31.430 --> 00:08:31.440 align:start position:0%
+row uh with a fixed position. Now what
+ 
+
+00:08:31.440 --> 00:08:34.709 align:start position:0%
+row uh with a fixed position. Now what
+do<00:08:31.520><c> I</c><00:08:31.759><c> mean</c><00:08:32.320><c> is</c><00:08:32.800><c> if</c><00:08:33.360><c> uh</c><00:08:33.519><c> we</c><00:08:33.760><c> know</c><00:08:34.000><c> the</c><00:08:34.240><c> position</c>
+
+00:08:34.709 --> 00:08:34.719 align:start position:0%
+do I mean is if uh we know the position
+ 
+
+00:08:34.719 --> 00:08:38.790 align:start position:0%
+do I mean is if uh we know the position
+of<00:08:35.120><c> a</c><00:08:35.519><c> particular</c><00:08:36.479><c> uh</c><00:08:36.880><c> row</c><00:08:37.360><c> and</c><00:08:37.839><c> we</c><00:08:38.159><c> want</c><00:08:38.479><c> to</c>
+
+00:08:38.790 --> 00:08:38.800 align:start position:0%
+of a particular uh row and we want to
+ 
+
+00:08:38.800 --> 00:08:41.589 align:start position:0%
+of a particular uh row and we want to
+select<00:08:39.200><c> a</c><00:08:39.519><c> particular</c><00:08:40.240><c> row</c><00:08:40.719><c> or</c><00:08:41.039><c> a</c><00:08:41.279><c> particular</c>
+
+00:08:41.589 --> 00:08:41.599 align:start position:0%
+select a particular row or a particular
+ 
+
+00:08:41.599 --> 00:08:44.310 align:start position:0%
+select a particular row or a particular
+value<00:08:41.919><c> in</c><00:08:42.159><c> a</c><00:08:42.399><c> particular</c><00:08:42.880><c> row.</c><00:08:43.680><c> So</c><00:08:43.919><c> what</c><00:08:44.080><c> I</c>
+
+00:08:44.310 --> 00:08:44.320 align:start position:0%
+value in a particular row. So what I
+ 
+
+00:08:44.320 --> 00:08:47.190 align:start position:0%
+value in a particular row. So what I
+mean<00:08:44.720><c> is</c><00:08:45.040><c> if</c><00:08:45.279><c> we</c><00:08:45.519><c> already</c><00:08:45.920><c> know</c><00:08:46.640><c> the</c><00:08:47.040><c> row</c>
+
+00:08:47.190 --> 00:08:47.200 align:start position:0%
+mean is if we already know the row
+ 
+
+00:08:47.200 --> 00:08:49.670 align:start position:0%
+mean is if we already know the row
+number<00:08:47.680><c> so</c><00:08:47.920><c> which</c><00:08:48.160><c> is</c><00:08:48.320><c> fixed</c><00:08:48.800><c> and</c><00:08:49.200><c> uh</c><00:08:49.360><c> it</c><00:08:49.519><c> is</c>
+
+00:08:49.670 --> 00:08:49.680 align:start position:0%
+number so which is fixed and uh it is
+ 
+
+00:08:49.680 --> 00:08:51.990 align:start position:0%
+number so which is fixed and uh it is
+not<00:08:49.920><c> going</c><00:08:50.080><c> to</c><00:08:50.240><c> change</c><00:08:50.959><c> then</c><00:08:51.279><c> we</c><00:08:51.440><c> can</c><00:08:51.600><c> use</c><00:08:51.760><c> this</c>
+
+00:08:51.990 --> 00:08:52.000 align:start position:0%
+not going to change then we can use this
+ 
+
+00:08:52.000 --> 00:08:54.269 align:start position:0%
+not going to change then we can use this
+method<00:08:52.480><c> to</c><00:08:52.720><c> select</c><00:08:53.200><c> any</c><00:08:53.519><c> particular</c><00:08:53.920><c> value</c>
+
+00:08:54.269 --> 00:08:54.279 align:start position:0%
+method to select any particular value
+ 
+
+00:08:54.279 --> 00:08:58.870 align:start position:0%
+method to select any particular value
+here.<00:08:55.279><c> So</c><00:08:55.760><c> for</c><00:08:55.920><c> example</c><00:08:56.720><c> I</c><00:08:57.200><c> want</c><00:08:57.440><c> to</c><00:08:58.000><c> uh</c><00:08:58.160><c> verify</c>
+
+00:08:58.870 --> 00:08:58.880 align:start position:0%
+here. So for example I want to uh verify
+ 
+
+00:08:58.880 --> 00:09:02.310 align:start position:0%
+here. So for example I want to uh verify
+whether<00:08:59.440><c> the</c><00:08:59.760><c> name</c><00:09:00.000><c> of</c><00:09:00.240><c> this</c><00:09:00.880><c> third</c><00:09:01.440><c> row</c><00:09:02.000><c> is</c>
+
+00:09:02.310 --> 00:09:02.320 align:start position:0%
+whether the name of this third row is
+ 
+
+00:09:02.320 --> 00:09:05.430 align:start position:0%
+whether the name of this third row is
+not<00:09:02.640><c> a</c><00:09:02.959><c> table</c><00:09:03.519><c> right</c><00:09:03.839><c> so</c><00:09:04.080><c> under</c><00:09:04.320><c> the</c><00:09:04.560><c> name</c><00:09:05.200><c> this</c>
+
+00:09:05.430 --> 00:09:05.440 align:start position:0%
+not a table right so under the name this
+ 
+
+00:09:05.440 --> 00:09:09.990 align:start position:0%
+not a table right so under the name this
+is<00:09:05.920><c> uh</c><00:09:06.000><c> the</c><00:09:06.519><c> value.</c><00:09:07.600><c> So</c><00:09:08.240><c> what</c><00:09:08.560><c> I</c><00:09:08.800><c> will</c><00:09:09.040><c> do</c><00:09:09.600><c> is</c>
+
+00:09:09.990 --> 00:09:10.000 align:start position:0%
+is uh the value. So what I will do is
+ 
+
+00:09:10.000 --> 00:09:12.509 align:start position:0%
+is uh the value. So what I will do is
+I'm<00:09:10.320><c> going</c><00:09:10.399><c> to</c><00:09:10.560><c> copy</c><00:09:10.959><c> this</c><00:09:11.440><c> particular</c><00:09:11.839><c> thing</c>
+
+00:09:12.509 --> 00:09:12.519 align:start position:0%
+I'm going to copy this particular thing
+ 
+
+00:09:12.519 --> 00:09:15.670 align:start position:0%
+I'm going to copy this particular thing
+here<00:09:13.519><c> and</c><00:09:13.760><c> then</c><00:09:14.399><c> I'm</c><00:09:14.800><c> going</c><00:09:15.040><c> to</c><00:09:15.200><c> come</c><00:09:15.440><c> back</c>
+
+00:09:15.670 --> 00:09:15.680 align:start position:0%
+here and then I'm going to come back
+ 
+
+00:09:15.680 --> 00:09:20.630 align:start position:0%
+here and then I'm going to come back
+here<00:09:16.560><c> and</c><00:09:17.440><c> here</c><00:09:18.080><c> uh</c><00:09:18.240><c> we</c><00:09:18.480><c> are</c><00:09:18.640><c> going</c><00:09:18.880><c> to</c><00:09:19.480><c> select</c>
+
+00:09:20.630 --> 00:09:20.640 align:start position:0%
+here and here uh we are going to select
+ 
+
+00:09:20.640 --> 00:09:23.269 align:start position:0%
+here and here uh we are going to select
+uh<00:09:21.120><c> this</c><00:09:21.440><c> dollar</c><00:09:21.920><c> with</c><00:09:22.560><c> uh</c><00:09:22.640><c> any</c><00:09:22.959><c> particular</c>
+
+00:09:23.269 --> 00:09:23.279 align:start position:0%
+uh this dollar with uh any particular
+ 
+
+00:09:23.279 --> 00:09:25.910 align:start position:0%
+uh this dollar with uh any particular
+number<00:09:23.600><c> here</c><00:09:24.399><c> and</c><00:09:24.959><c> uh</c><00:09:25.120><c> we</c><00:09:25.360><c> are</c><00:09:25.519><c> going</c><00:09:25.680><c> to</c>
+
+00:09:25.910 --> 00:09:25.920 align:start position:0%
+number here and uh we are going to
+ 
+
+00:09:25.920 --> 00:09:29.949 align:start position:0%
+number here and uh we are going to
+select<00:09:26.399><c> the</c><00:09:26.959><c> row</c><00:09:27.120><c> number</c><00:09:27.920><c> three</c><00:09:28.360><c> here.</c>
+
+00:09:29.949 --> 00:09:29.959 align:start position:0%
+select the row number three here.
+ 
+
+00:09:29.959 --> 00:09:35.030 align:start position:0%
+select the row number three here.
+Okay.<00:09:30.959><c> And</c><00:09:31.200><c> then</c><00:09:32.240><c> uh</c><00:09:33.040><c> we</c><00:09:33.360><c> are</c><00:09:33.519><c> going</c><00:09:33.760><c> to</c><00:09:34.000><c> select</c>
+
+00:09:35.030 --> 00:09:35.040 align:start position:0%
+Okay. And then uh we are going to select
+ 
+
+00:09:35.040 --> 00:09:38.070 align:start position:0%
+Okay. And then uh we are going to select
+uh<00:09:35.120><c> the</c><00:09:35.440><c> particular</c><00:09:35.920><c> cell.</c><00:09:36.720><c> So</c><00:09:37.360><c> it</c><00:09:37.600><c> is</c><00:09:37.839><c> under</c>
+
+00:09:38.070 --> 00:09:38.080 align:start position:0%
+uh the particular cell. So it is under
+ 
+
+00:09:38.080 --> 00:09:42.310 align:start position:0%
+uh the particular cell. So it is under
+the<00:09:38.320><c> name</c><00:09:39.160><c> right</c><00:09:40.160><c> and</c><00:09:40.640><c> here</c><00:09:41.680><c> uh</c><00:09:41.760><c> we</c><00:09:42.000><c> are</c><00:09:42.160><c> going</c>
+
+00:09:42.310 --> 00:09:42.320 align:start position:0%
+the name right and here uh we are going
+ 
+
+00:09:42.320 --> 00:09:45.030 align:start position:0%
+the name right and here uh we are going
+to<00:09:42.480><c> give</c><00:09:42.640><c> it</c><00:09:42.880><c> a</c><00:09:43.399><c> value.</c><00:09:44.399><c> So</c><00:09:44.560><c> let's</c><00:09:44.800><c> go</c><00:09:44.880><c> ahead</c>
+
+00:09:45.030 --> 00:09:45.040 align:start position:0%
+to give it a value. So let's go ahead
+ 
+
+00:09:45.040 --> 00:09:46.870 align:start position:0%
+to give it a value. So let's go ahead
+and<00:09:45.200><c> give</c><00:09:45.360><c> it</c><00:09:45.519><c> a</c><00:09:45.680><c> value</c><00:09:46.080><c> and</c><00:09:46.320><c> I've</c><00:09:46.640><c> already</c>
+
+00:09:46.870 --> 00:09:46.880 align:start position:0%
+and give it a value and I've already
+ 
+
+00:09:46.880 --> 00:09:50.030 align:start position:0%
+and give it a value and I've already
+copied<00:09:47.279><c> that.</c><00:09:47.920><c> So</c><00:09:48.399><c> this</c><00:09:48.640><c> is</c><00:09:48.720><c> the</c><00:09:48.959><c> value</c><00:09:49.440><c> not</c><00:09:49.600><c> a</c>
+
+00:09:50.030 --> 00:09:50.040 align:start position:0%
+copied that. So this is the value not a
+ 
+
+00:09:50.040 --> 00:09:53.509 align:start position:0%
+copied that. So this is the value not a
+table.<00:09:51.040><c> So</c><00:09:51.279><c> we</c><00:09:51.600><c> can</c><00:09:51.839><c> go</c><00:09:52.080><c> ahead</c><00:09:52.480><c> and</c><00:09:53.040><c> execute</c>
+
+00:09:53.509 --> 00:09:53.519 align:start position:0%
+table. So we can go ahead and execute
+ 
+
+00:09:53.519 --> 00:09:55.230 align:start position:0%
+table. So we can go ahead and execute
+this
+
+00:09:55.230 --> 00:09:55.240 align:start position:0%
+this
+ 
+
+00:09:55.240 --> 00:09:58.230 align:start position:0%
+this
+now.<00:09:56.240><c> Okay.</c><00:09:56.640><c> So</c><00:09:56.800><c> now</c><00:09:56.959><c> in</c><00:09:57.200><c> the</c><00:09:57.360><c> scratchbook</c><00:09:58.160><c> uh</c>
+
+00:09:58.230 --> 00:09:58.240 align:start position:0%
+now. Okay. So now in the scratchbook uh
+ 
+
+00:09:58.240 --> 00:10:01.750 align:start position:0%
+now. Okay. So now in the scratchbook uh
+if<00:09:58.480><c> you</c><00:09:58.640><c> look</c><00:09:58.880><c> the</c><00:09:59.120><c> test</c><00:09:59.360><c> step</c><00:09:59.680><c> has</c><00:10:00.200><c> passed</c><00:10:01.200><c> and</c>
+
+00:10:01.750 --> 00:10:01.760 align:start position:0%
+if you look the test step has passed and
+ 
+
+00:10:01.760 --> 00:10:04.710 align:start position:0%
+if you look the test step has passed and
+here<00:10:02.560><c> if</c><00:10:02.959><c> I</c><00:10:03.200><c> go</c><00:10:03.440><c> further</c><00:10:03.760><c> into</c><00:10:04.000><c> the</c><00:10:04.240><c> table</c><00:10:04.480><c> you</c>
+
+00:10:04.710 --> 00:10:04.720 align:start position:0%
+here if I go further into the table you
+ 
+
+00:10:04.720 --> 00:10:08.230 align:start position:0%
+here if I go further into the table you
+can<00:10:04.880><c> see</c><00:10:05.040><c> it</c><00:10:05.360><c> selected</c><00:10:06.160><c> the</c><00:10:06.560><c> third</c><00:10:07.120><c> row</c><00:10:07.920><c> and</c>
+
+00:10:08.230 --> 00:10:08.240 align:start position:0%
+can see it selected the third row and
+ 
+
+00:10:08.240 --> 00:10:10.150 align:start position:0%
+can see it selected the third row and
+then<00:10:08.720><c> uh</c><00:10:08.800><c> it</c><00:10:09.040><c> went</c><00:10:09.279><c> into</c><00:10:09.600><c> this</c><00:10:09.760><c> particular</c>
+
+00:10:10.150 --> 00:10:10.160 align:start position:0%
+then uh it went into this particular
+ 
+
+00:10:10.160 --> 00:10:12.110 align:start position:0%
+then uh it went into this particular
+cell<00:10:10.560><c> under</c><00:10:10.880><c> the</c><00:10:11.040><c> column</c><00:10:11.360><c> which</c><00:10:11.519><c> is</c><00:10:11.680><c> the</c><00:10:11.839><c> name</c>
+
+00:10:12.110 --> 00:10:12.120 align:start position:0%
+cell under the column which is the name
+ 
+
+00:10:12.120 --> 00:10:16.350 align:start position:0%
+cell under the column which is the name
+column<00:10:13.120><c> and</c><00:10:13.360><c> then</c><00:10:14.000><c> uh</c><00:10:14.079><c> it</c><00:10:14.320><c> verified</c><00:10:15.120><c> the</c><00:10:15.440><c> value</c>
+
+00:10:16.350 --> 00:10:16.360 align:start position:0%
+column and then uh it verified the value
+ 
+
+00:10:16.360 --> 00:10:19.829 align:start position:0%
+column and then uh it verified the value
+right.<00:10:17.360><c> So</c><00:10:17.760><c> this</c><00:10:18.000><c> is</c><00:10:18.399><c> pretty</c><00:10:19.040><c> uh</c><00:10:19.200><c> simple</c><00:10:19.519><c> and</c>
+
+00:10:19.829 --> 00:10:19.839 align:start position:0%
+right. So this is pretty uh simple and
+ 
+
+00:10:19.839 --> 00:10:22.949 align:start position:0%
+right. So this is pretty uh simple and
+easy.<00:10:20.560><c> If</c><00:10:20.800><c> you</c><00:10:21.040><c> already</c><00:10:21.440><c> know</c><00:10:21.680><c> the</c><00:10:22.000><c> row</c><00:10:22.160><c> number</c>
+
+00:10:22.949 --> 00:10:22.959 align:start position:0%
+easy. If you already know the row number
+ 
+
+00:10:22.959 --> 00:10:26.230 align:start position:0%
+easy. If you already know the row number
+and<00:10:23.519><c> uh</c><00:10:23.600><c> it</c><00:10:23.839><c> is</c><00:10:24.079><c> not</c><00:10:24.320><c> going</c><00:10:24.480><c> to</c><00:10:24.640><c> change</c><00:10:25.360><c> then</c><00:10:26.000><c> um</c>
+
+00:10:26.230 --> 00:10:26.240 align:start position:0%
+and uh it is not going to change then um
+ 
+
+00:10:26.240 --> 00:10:29.269 align:start position:0%
+and uh it is not going to change then um
+it's<00:10:26.640><c> pretty</c><00:10:27.079><c> straightforward.</c><00:10:28.079><c> Right</c><00:10:29.040><c> now</c>
+
+00:10:29.269 --> 00:10:29.279 align:start position:0%
+it's pretty straightforward. Right now
+ 
+
+00:10:29.279 --> 00:10:32.069 align:start position:0%
+it's pretty straightforward. Right now
+let's<00:10:29.600><c> look</c><00:10:30.000><c> at</c><00:10:30.399><c> our</c><00:10:30.720><c> second</c><00:10:31.040><c> scenario</c><00:10:31.760><c> and</c>
+
+00:10:32.069 --> 00:10:32.079 align:start position:0%
+let's look at our second scenario and
+ 
+
+00:10:32.079 --> 00:10:35.430 align:start position:0%
+let's look at our second scenario and
+here<00:10:32.320><c> we</c><00:10:32.560><c> are</c><00:10:32.720><c> going</c><00:10:32.880><c> to</c><00:10:33.120><c> select</c><00:10:33.920><c> a</c><00:10:34.399><c> row</c><00:10:35.120><c> by</c>
+
+00:10:35.430 --> 00:10:35.440 align:start position:0%
+here we are going to select a row by
+ 
+
+00:10:35.440 --> 00:10:37.910 align:start position:0%
+here we are going to select a row by
+using<00:10:35.839><c> some</c><00:10:36.160><c> values</c><00:10:36.560><c> which</c><00:10:36.959><c> are</c><00:10:37.200><c> in</c><00:10:37.519><c> specific</c>
+
+00:10:37.910 --> 00:10:37.920 align:start position:0%
+using some values which are in specific
+ 
+
+00:10:37.920 --> 00:10:40.389 align:start position:0%
+using some values which are in specific
+cells.<00:10:38.560><c> So</c><00:10:38.800><c> here</c><00:10:39.040><c> we</c><00:10:39.279><c> don't</c><00:10:39.519><c> know</c><00:10:39.839><c> the</c><00:10:40.240><c> row</c>
+
+00:10:40.389 --> 00:10:40.399 align:start position:0%
+cells. So here we don't know the row
+ 
+
+00:10:40.399 --> 00:10:43.110 align:start position:0%
+cells. So here we don't know the row
+number<00:10:41.120><c> but</c><00:10:41.519><c> we</c><00:10:41.839><c> know</c><00:10:42.000><c> that</c><00:10:42.560><c> uh</c><00:10:42.640><c> there</c><00:10:42.880><c> are</c>
+
+00:10:43.110 --> 00:10:43.120 align:start position:0%
+number but we know that uh there are
+ 
+
+00:10:43.120 --> 00:10:44.949 align:start position:0%
+number but we know that uh there are
+some<00:10:43.360><c> values</c><00:10:43.680><c> in</c><00:10:43.920><c> particular</c><00:10:44.320><c> cells</c><00:10:44.640><c> using</c>
+
+00:10:44.949 --> 00:10:44.959 align:start position:0%
+some values in particular cells using
+ 
+
+00:10:44.959 --> 00:10:48.310 align:start position:0%
+some values in particular cells using
+that<00:10:45.600><c> we</c><00:10:45.839><c> will</c><00:10:46.079><c> select</c><00:10:46.800><c> uh</c><00:10:46.959><c> or</c><00:10:47.200><c> verify</c><00:10:48.000><c> some</c>
+
+00:10:48.310 --> 00:10:48.320 align:start position:0%
+that we will select uh or verify some
+ 
+
+00:10:48.320 --> 00:10:50.430 align:start position:0%
+that we will select uh or verify some
+other<00:10:48.560><c> value</c><00:10:48.880><c> in</c><00:10:49.040><c> that</c><00:10:49.279><c> particular</c><00:10:49.839><c> row.</c>
+
+00:10:50.430 --> 00:10:50.440 align:start position:0%
+other value in that particular row.
+ 
+
+00:10:50.440 --> 00:10:53.670 align:start position:0%
+other value in that particular row.
+Okay.<00:10:51.440><c> So</c><00:10:52.160><c> uh</c><00:10:52.240><c> let's</c><00:10:52.480><c> go</c><00:10:52.640><c> ahead</c><00:10:52.800><c> and</c><00:10:53.040><c> do</c><00:10:53.200><c> that.</c>
+
+00:10:53.670 --> 00:10:53.680 align:start position:0%
+Okay. So uh let's go ahead and do that.
+ 
+
+00:10:53.680 --> 00:10:56.750 align:start position:0%
+Okay. So uh let's go ahead and do that.
+So<00:10:54.160><c> this</c><00:10:54.480><c> I'm</c><00:10:54.800><c> going</c><00:10:54.959><c> to</c><00:10:55.120><c> call</c><00:10:55.360><c> this</c>
+
+00:10:56.750 --> 00:10:56.760 align:start position:0%
+So this I'm going to call this
+ 
+
+00:10:56.760 --> 00:11:01.550 align:start position:0%
+So this I'm going to call this
+fixed
+
+00:11:01.550 --> 00:11:01.560 align:start position:0%
+ 
+ 
+
+00:11:01.560 --> 00:11:05.190 align:start position:0%
+ 
+position.<00:11:02.560><c> Okay.</c><00:11:03.120><c> And</c><00:11:03.360><c> then</c><00:11:04.079><c> um</c><00:11:04.640><c> let's</c><00:11:05.040><c> go</c>
+
+00:11:05.190 --> 00:11:05.200 align:start position:0%
+position. Okay. And then um let's go
+ 
+
+00:11:05.200 --> 00:11:09.670 align:start position:0%
+position. Okay. And then um let's go
+ahead<00:11:05.920><c> and</c><00:11:06.480><c> add</c><00:11:06.880><c> another</c><00:11:07.279><c> step</c><00:11:07.959><c> here.</c><00:11:08.959><c> So</c><00:11:09.360><c> I'm</c>
+
+00:11:09.670 --> 00:11:09.680 align:start position:0%
+ahead and add another step here. So I'm
+ 
+
+00:11:09.680 --> 00:11:12.350 align:start position:0%
+ahead and add another step here. So I'm
+going<00:11:09.839><c> to</c><00:11:10.240><c> drag</c><00:11:10.640><c> this</c>
+
+00:11:12.350 --> 00:11:12.360 align:start position:0%
+going to drag this
+ 
+
+00:11:12.360 --> 00:11:16.069 align:start position:0%
+going to drag this
+again.<00:11:13.360><c> And</c><00:11:13.760><c> here</c><00:11:14.560><c> we</c><00:11:14.880><c> are</c><00:11:15.040><c> going</c><00:11:15.200><c> to</c><00:11:15.440><c> call</c>
+
+00:11:16.069 --> 00:11:16.079 align:start position:0%
+again. And here we are going to call
+ 
+
+00:11:16.079 --> 00:11:19.150 align:start position:0%
+again. And here we are going to call
+this
+
+00:11:19.150 --> 00:11:19.160 align:start position:0%
+ 
+ 
+
+00:11:19.160 --> 00:11:23.069 align:start position:0%
+ 
+specific<00:11:20.160><c> cell</c>
+
+00:11:23.069 --> 00:11:23.079 align:start position:0%
+ 
+ 
+
+00:11:23.079 --> 00:11:26.870 align:start position:0%
+ 
+value.<00:11:24.079><c> Okay.</c><00:11:24.640><c> Uh</c><00:11:25.200><c> so</c><00:11:25.440><c> now</c><00:11:26.000><c> let's</c><00:11:26.320><c> look</c><00:11:26.480><c> at</c><00:11:26.640><c> an</c>
+
+00:11:26.870 --> 00:11:26.880 align:start position:0%
+value. Okay. Uh so now let's look at an
+ 
+
+00:11:26.880 --> 00:11:30.630 align:start position:0%
+value. Okay. Uh so now let's look at an
+example<00:11:27.680><c> how</c><00:11:28.000><c> what</c><00:11:28.320><c> we</c><00:11:28.480><c> can</c><00:11:28.640><c> do</c><00:11:28.800><c> here.</c><00:11:29.760><c> So</c><00:11:30.000><c> now</c>
+
+00:11:30.630 --> 00:11:30.640 align:start position:0%
+example how what we can do here. So now
+ 
+
+00:11:30.640 --> 00:11:34.310 align:start position:0%
+example how what we can do here. So now
+u<00:11:31.200><c> based</c><00:11:31.839><c> on</c><00:11:32.560><c> um</c><00:11:32.959><c> these</c><00:11:33.440><c> particular</c><00:11:33.920><c> values</c>
+
+00:11:34.310 --> 00:11:34.320 align:start position:0%
+u based on um these particular values
+ 
+
+00:11:34.320 --> 00:11:36.710 align:start position:0%
+u based on um these particular values
+here<00:11:34.720><c> right</c><00:11:34.959><c> so</c><00:11:35.200><c> we</c><00:11:35.360><c> have</c><00:11:35.519><c> got</c><00:11:36.000><c> ID</c><00:11:36.320><c> and</c><00:11:36.480><c> we</c><00:11:36.640><c> have</c>
+
+00:11:36.710 --> 00:11:36.720 align:start position:0%
+here right so we have got ID and we have
+ 
+
+00:11:36.720 --> 00:11:39.430 align:start position:0%
+here right so we have got ID and we have
+got<00:11:36.880><c> a</c><00:11:37.120><c> name.</c><00:11:37.920><c> So</c><00:11:38.079><c> either</c><00:11:38.399><c> we</c><00:11:38.560><c> can</c><00:11:38.720><c> use</c><00:11:38.959><c> one</c><00:11:39.200><c> or</c>
+
+00:11:39.430 --> 00:11:39.440 align:start position:0%
+got a name. So either we can use one or
+ 
+
+00:11:39.440 --> 00:11:42.949 align:start position:0%
+got a name. So either we can use one or
+we<00:11:39.680><c> can</c><00:11:39.839><c> use</c><00:11:40.240><c> both</c><00:11:40.560><c> of</c><00:11:40.720><c> them</c><00:11:41.680><c> and</c><00:11:42.160><c> uh</c><00:11:42.320><c> I</c><00:11:42.640><c> want</c><00:11:42.800><c> to</c>
+
+00:11:42.949 --> 00:11:42.959 align:start position:0%
+we can use both of them and uh I want to
+ 
+
+00:11:42.959 --> 00:11:46.790 align:start position:0%
+we can use both of them and uh I want to
+verify<00:11:43.839><c> the</c><00:11:44.160><c> category.</c><00:11:45.040><c> Okay.</c><00:11:45.920><c> So</c><00:11:46.240><c> let's</c><00:11:46.560><c> take</c>
+
+00:11:46.790 --> 00:11:46.800 align:start position:0%
+verify the category. Okay. So let's take
+ 
+
+00:11:46.800 --> 00:11:49.829 align:start position:0%
+verify the category. Okay. So let's take
+this<00:11:47.279><c> fun</c><00:11:47.600><c> with</c><00:11:47.920><c> tables</c><00:11:48.720><c> and</c><00:11:48.959><c> then</c><00:11:49.440><c> uh</c><00:11:49.519><c> we</c><00:11:49.760><c> want</c>
+
+00:11:49.829 --> 00:11:49.839 align:start position:0%
+this fun with tables and then uh we want
+ 
+
+00:11:49.839 --> 00:11:52.949 align:start position:0%
+this fun with tables and then uh we want
+to<00:11:50.000><c> verify</c><00:11:50.480><c> the</c><00:11:50.720><c> category</c><00:11:51.120><c> is</c><00:11:51.360><c> hard.</c><00:11:52.079><c> Okay.</c><00:11:52.800><c> So</c>
+
+00:11:52.949 --> 00:11:52.959 align:start position:0%
+to verify the category is hard. Okay. So
+ 
+
+00:11:52.959 --> 00:11:55.190 align:start position:0%
+to verify the category is hard. Okay. So
+either<00:11:53.279><c> we</c><00:11:53.440><c> can</c><00:11:53.760><c> uh</c><00:11:54.000><c> put</c><00:11:54.160><c> a</c><00:11:54.320><c> constraint</c><00:11:54.880><c> on</c>
+
+00:11:55.190 --> 00:11:55.200 align:start position:0%
+either we can uh put a constraint on
+ 
+
+00:11:55.200 --> 00:11:57.750 align:start position:0%
+either we can uh put a constraint on
+this<00:11:55.680><c> name</c><00:11:56.399><c> or</c><00:11:56.640><c> we</c><00:11:56.800><c> can</c><00:11:56.959><c> put</c><00:11:57.120><c> a</c><00:11:57.279><c> constraint</c><00:11:57.600><c> on</c>
+
+00:11:57.750 --> 00:11:57.760 align:start position:0%
+this name or we can put a constraint on
+ 
+
+00:11:57.760 --> 00:12:01.269 align:start position:0%
+this name or we can put a constraint on
+the<00:11:57.920><c> ID</c><00:11:58.320><c> or</c><00:11:58.480><c> we</c><00:11:58.720><c> can</c><00:11:58.800><c> use</c><00:11:59.040><c> both.</c><00:12:00.000><c> So</c><00:12:00.240><c> let's</c><00:12:00.800><c> uh</c>
+
+00:12:01.269 --> 00:12:01.279 align:start position:0%
+the ID or we can use both. So let's uh
+ 
+
+00:12:01.279 --> 00:12:04.150 align:start position:0%
+the ID or we can use both. So let's uh
+work<00:12:01.519><c> out</c><00:12:01.760><c> with</c><00:12:02.240><c> just</c><00:12:02.560><c> one</c><00:12:02.959><c> constraint</c><00:12:03.920><c> uh</c><00:12:04.000><c> and</c>
+
+00:12:04.150 --> 00:12:04.160 align:start position:0%
+work out with just one constraint uh and
+ 
+
+00:12:04.160 --> 00:12:05.670 align:start position:0%
+work out with just one constraint uh and
+then<00:12:04.399><c> let</c><00:12:04.640><c> let's</c><00:12:04.880><c> try</c><00:12:05.040><c> to</c><00:12:05.200><c> select</c><00:12:05.440><c> a</c>
+
+00:12:05.670 --> 00:12:05.680 align:start position:0%
+then let let's try to select a
+ 
+
+00:12:05.680 --> 00:12:08.550 align:start position:0%
+then let let's try to select a
+particular<00:12:06.200><c> value.</c><00:12:07.200><c> So</c><00:12:07.440><c> here</c><00:12:07.920><c> uh</c><00:12:08.079><c> either</c><00:12:08.399><c> I</c>
+
+00:12:08.550 --> 00:12:08.560 align:start position:0%
+particular value. So here uh either I
+ 
+
+00:12:08.560 --> 00:12:10.949 align:start position:0%
+particular value. So here uh either I
+can<00:12:08.720><c> use</c><00:12:08.880><c> the</c><00:12:09.120><c> ID</c><00:12:09.600><c> or</c><00:12:09.839><c> I</c><00:12:10.079><c> can</c><00:12:10.160><c> use</c><00:12:10.399><c> the</c><00:12:10.560><c> name</c>
+
+00:12:10.949 --> 00:12:10.959 align:start position:0%
+can use the ID or I can use the name
+ 
+
+00:12:10.959 --> 00:12:13.590 align:start position:0%
+can use the ID or I can use the name
+since<00:12:11.279><c> it</c><00:12:11.519><c> is</c><00:12:11.680><c> unique</c><00:12:12.240><c> I</c><00:12:12.560><c> can</c><00:12:12.959><c> go</c><00:12:13.120><c> ahead</c><00:12:13.440><c> and</c>
+
+00:12:13.590 --> 00:12:13.600 align:start position:0%
+since it is unique I can go ahead and
+ 
+
+00:12:13.600 --> 00:12:16.310 align:start position:0%
+since it is unique I can go ahead and
+use<00:12:13.839><c> the</c><00:12:14.000><c> name</c><00:12:14.279><c> here.</c><00:12:15.279><c> So</c><00:12:15.519><c> I'll</c><00:12:15.839><c> come</c><00:12:16.079><c> back</c>
+
+00:12:16.310 --> 00:12:16.320 align:start position:0%
+use the name here. So I'll come back
+ 
+
+00:12:16.320 --> 00:12:18.949 align:start position:0%
+use the name here. So I'll come back
+here.<00:12:16.959><c> I</c><00:12:17.200><c> will</c><00:12:17.360><c> go</c><00:12:17.519><c> to</c><00:12:17.680><c> a</c><00:12:17.839><c> particular</c><00:12:18.320><c> row.</c><00:12:18.720><c> I</c>
+
+00:12:18.949 --> 00:12:18.959 align:start position:0%
+here. I will go to a particular row. I
+ 
+
+00:12:18.959 --> 00:12:21.670 align:start position:0%
+here. I will go to a particular row. I
+will<00:12:19.200><c> select</c><00:12:19.519><c> the</c><00:12:19.680><c> cell</c><00:12:20.000><c> here.</c>
+
+00:12:21.670 --> 00:12:21.680 align:start position:0%
+will select the cell here.
+ 
+
+00:12:21.680 --> 00:12:24.310 align:start position:0%
+will select the cell here.
+uh<00:12:21.760><c> and</c><00:12:22.079><c> I'm</c><00:12:22.320><c> going</c><00:12:22.480><c> to</c><00:12:22.639><c> use</c><00:12:22.800><c> the</c><00:12:23.040><c> name</c><00:12:24.000><c> uh</c><00:12:24.079><c> I'll</c>
+
+00:12:24.310 --> 00:12:24.320 align:start position:0%
+uh and I'm going to use the name uh I'll
+ 
+
+00:12:24.320 --> 00:12:26.110 align:start position:0%
+uh and I'm going to use the name uh I'll
+put<00:12:24.480><c> the</c><00:12:24.720><c> value</c><00:12:24.959><c> here.</c><00:12:25.360><c> Now</c><00:12:25.600><c> instead</c><00:12:25.920><c> of</c>
+
+00:12:26.110 --> 00:12:26.120 align:start position:0%
+put the value here. Now instead of
+ 
+
+00:12:26.120 --> 00:12:28.470 align:start position:0%
+put the value here. Now instead of
+verify<00:12:27.120><c> I'm</c><00:12:27.360><c> going</c><00:12:27.519><c> to</c><00:12:27.680><c> put</c><00:12:27.839><c> a</c><00:12:28.000><c> constraint</c>
+
+00:12:28.470 --> 00:12:28.480 align:start position:0%
+verify I'm going to put a constraint
+ 
+
+00:12:28.480 --> 00:12:31.030 align:start position:0%
+verify I'm going to put a constraint
+here.<00:12:28.959><c> Okay.</c><00:12:29.360><c> So</c><00:12:29.519><c> this</c><00:12:29.680><c> is</c><00:12:29.839><c> the</c><00:12:30.079><c> way</c><00:12:30.240><c> of</c><00:12:30.800><c> uh</c>
+
+00:12:31.030 --> 00:12:31.040 align:start position:0%
+here. Okay. So this is the way of uh
+ 
+
+00:12:31.040 --> 00:12:32.710 align:start position:0%
+here. Okay. So this is the way of uh
+basically<00:12:31.519><c> filtering</c><00:12:32.000><c> out</c><00:12:32.160><c> your</c><00:12:32.399><c> search</c>
+
+00:12:32.710 --> 00:12:32.720 align:start position:0%
+basically filtering out your search
+ 
+
+00:12:32.720 --> 00:12:35.430 align:start position:0%
+basically filtering out your search
+based<00:12:33.040><c> on</c><00:12:33.200><c> some</c><00:12:33.440><c> value.</c><00:12:34.160><c> So</c><00:12:34.399><c> TSA</c><00:12:34.959><c> will</c><00:12:35.200><c> search</c>
+
+00:12:35.430 --> 00:12:35.440 align:start position:0%
+based on some value. So TSA will search
+ 
+
+00:12:35.440 --> 00:12:38.069 align:start position:0%
+based on some value. So TSA will search
+for<00:12:35.680><c> this</c><00:12:35.920><c> value</c><00:12:36.320><c> in</c><00:12:36.880><c> um</c><00:12:37.120><c> all</c><00:12:37.360><c> the</c><00:12:37.680><c> rows</c><00:12:37.839><c> and</c>
+
+00:12:38.069 --> 00:12:38.079 align:start position:0%
+for this value in um all the rows and
+ 
+
+00:12:38.079 --> 00:12:39.990 align:start position:0%
+for this value in um all the rows and
+wherever<00:12:38.480><c> it</c><00:12:38.720><c> finds</c><00:12:38.959><c> it</c><00:12:39.360><c> will</c><00:12:39.519><c> select</c><00:12:39.760><c> that</c>
+
+00:12:39.990 --> 00:12:40.000 align:start position:0%
+wherever it finds it will select that
+ 
+
+00:12:40.000 --> 00:12:42.230 align:start position:0%
+wherever it finds it will select that
+particular<00:12:40.560><c> row.</c><00:12:41.040><c> Right?</c><00:12:41.519><c> So</c><00:12:41.680><c> that's</c><00:12:42.000><c> how</c>
+
+00:12:42.230 --> 00:12:42.240 align:start position:0%
+particular row. Right? So that's how
+ 
+
+00:12:42.240 --> 00:12:45.829 align:start position:0%
+particular row. Right? So that's how
+this<00:12:42.560><c> particular</c><00:12:42.880><c> logic</c><00:12:43.560><c> works.</c><00:12:44.639><c> Now</c><00:12:45.440><c> uh</c><00:12:45.600><c> we</c>
+
+00:12:45.829 --> 00:12:45.839 align:start position:0%
+this particular logic works. Now uh we
+ 
+
+00:12:45.839 --> 00:12:46.670 align:start position:0%
+this particular logic works. Now uh we
+want
+
+00:12:46.670 --> 00:12:46.680 align:start position:0%
+want
+ 
+
+00:12:46.680 --> 00:12:50.389 align:start position:0%
+want
+to<00:12:47.680><c> see</c><00:12:48.000><c> whether</c><00:12:48.320><c> the</c><00:12:48.560><c> category</c><00:12:49.200><c> is</c><00:12:50.079><c> uh</c>
+
+00:12:50.389 --> 00:12:50.399 align:start position:0%
+to see whether the category is uh
+ 
+
+00:12:50.399 --> 00:12:52.870 align:start position:0%
+to see whether the category is uh
+basically<00:12:50.880><c> what</c><00:12:51.360><c> is</c><00:12:51.680><c> the</c><00:12:51.920><c> expected</c><00:12:52.399><c> category</c>
+
+00:12:52.870 --> 00:12:52.880 align:start position:0%
+basically what is the expected category
+ 
+
+00:12:52.880 --> 00:12:55.750 align:start position:0%
+basically what is the expected category
+here<00:12:53.200><c> which</c><00:12:53.440><c> is</c><00:12:53.600><c> hard</c><00:12:54.000><c> right.</c><00:12:54.959><c> So</c><00:12:55.279><c> based</c><00:12:55.600><c> on</c>
+
+00:12:55.750 --> 00:12:55.760 align:start position:0%
+here which is hard right. So based on
+ 
+
+00:12:55.760 --> 00:12:57.590 align:start position:0%
+here which is hard right. So based on
+this<00:12:56.079><c> constraint</c><00:12:56.560><c> it</c><00:12:56.800><c> will</c><00:12:56.959><c> select</c><00:12:57.200><c> the</c><00:12:57.519><c> row</c>
+
+00:12:57.590 --> 00:12:57.600 align:start position:0%
+this constraint it will select the row
+ 
+
+00:12:57.600 --> 00:13:00.069 align:start position:0%
+this constraint it will select the row
+and<00:12:57.839><c> then</c><00:12:58.160><c> it</c><00:12:58.480><c> will</c><00:12:58.639><c> select</c><00:12:59.360><c> the</c><00:12:59.600><c> particular</c>
+
+00:13:00.069 --> 00:13:00.079 align:start position:0%
+and then it will select the particular
+ 
+
+00:13:00.079 --> 00:13:02.790 align:start position:0%
+and then it will select the particular
+cell<00:13:00.320><c> and</c><00:13:00.639><c> then</c><00:13:00.800><c> it</c><00:13:01.040><c> will</c><00:13:01.200><c> verify</c><00:13:01.600><c> the</c><00:13:01.839><c> value</c>
+
+00:13:02.790 --> 00:13:02.800 align:start position:0%
+cell and then it will verify the value
+ 
+
+00:13:02.800 --> 00:13:05.030 align:start position:0%
+cell and then it will verify the value
+that's<00:13:03.120><c> what</c><00:13:03.279><c> it</c><00:13:03.519><c> is</c><00:13:03.680><c> going</c><00:13:03.760><c> to</c><00:13:03.920><c> do</c><00:13:04.079><c> here.</c><00:13:04.800><c> So</c>
+
+00:13:05.030 --> 00:13:05.040 align:start position:0%
+that's what it is going to do here. So
+ 
+
+00:13:05.040 --> 00:13:07.870 align:start position:0%
+that's what it is going to do here. So
+let's<00:13:05.279><c> go</c><00:13:05.440><c> ahead</c><00:13:05.680><c> and</c><00:13:06.000><c> run</c>
+
+00:13:07.870 --> 00:13:07.880 align:start position:0%
+let's go ahead and run
+ 
+
+00:13:07.880 --> 00:13:10.870 align:start position:0%
+let's go ahead and run
+this.<00:13:08.880><c> Okay.</c><00:13:09.200><c> So</c><00:13:09.360><c> in</c><00:13:09.600><c> the</c><00:13:09.760><c> scratchbook</c><00:13:10.480><c> uh</c><00:13:10.639><c> now</c>
+
+00:13:10.870 --> 00:13:10.880 align:start position:0%
+this. Okay. So in the scratchbook uh now
+ 
+
+00:13:10.880 --> 00:13:13.509 align:start position:0%
+this. Okay. So in the scratchbook uh now
+you<00:13:11.040><c> can</c><00:13:11.200><c> see</c><00:13:11.440><c> if</c><00:13:11.760><c> you</c><00:13:11.920><c> drill</c><00:13:12.160><c> down</c><00:13:12.399><c> the</c><00:13:12.639><c> table</c>
+
+00:13:13.509 --> 00:13:13.519 align:start position:0%
+you can see if you drill down the table
+ 
+
+00:13:13.519 --> 00:13:15.430 align:start position:0%
+you can see if you drill down the table
+uh<00:13:13.760><c> it</c><00:13:14.000><c> has</c><00:13:14.160><c> selected</c><00:13:14.480><c> that</c><00:13:14.720><c> particular</c><00:13:15.279><c> row</c>
+
+00:13:15.430 --> 00:13:15.440 align:start position:0%
+uh it has selected that particular row
+ 
+
+00:13:15.440 --> 00:13:18.550 align:start position:0%
+uh it has selected that particular row
+based<00:13:15.760><c> on</c><00:13:16.240><c> the</c><00:13:16.600><c> constraint</c><00:13:17.600><c> and</c><00:13:17.839><c> then</c><00:13:18.000><c> it</c><00:13:18.240><c> is</c>
+
+00:13:18.550 --> 00:13:18.560 align:start position:0%
+based on the constraint and then it is
+ 
+
+00:13:18.560 --> 00:13:20.629 align:start position:0%
+based on the constraint and then it is
+verifying<00:13:19.200><c> that</c><00:13:19.519><c> particular</c><00:13:19.920><c> cell</c><00:13:20.240><c> value</c>
+
+00:13:20.629 --> 00:13:20.639 align:start position:0%
+verifying that particular cell value
+ 
+
+00:13:20.639 --> 00:13:23.910 align:start position:0%
+verifying that particular cell value
+which<00:13:20.959><c> is</c><00:13:21.120><c> hard.</c><00:13:21.920><c> Okay.</c><00:13:22.880><c> So</c><00:13:23.120><c> that's</c><00:13:23.600><c> our</c>
+
+00:13:23.910 --> 00:13:23.920 align:start position:0%
+which is hard. Okay. So that's our
+ 
+
+00:13:23.920 --> 00:13:27.110 align:start position:0%
+which is hard. Okay. So that's our
+second<00:13:24.240><c> scenario.</c><00:13:24.959><c> Uh</c><00:13:25.440><c> so</c><00:13:25.760><c> selecting</c><00:13:26.560><c> a</c><00:13:27.040><c> row</c>
+
+00:13:27.110 --> 00:13:27.120 align:start position:0%
+second scenario. Uh so selecting a row
+ 
+
+00:13:27.120 --> 00:13:29.389 align:start position:0%
+second scenario. Uh so selecting a row
+based<00:13:27.440><c> on</c><00:13:27.760><c> a</c><00:13:28.000><c> particular</c><00:13:28.399><c> cell</c>
+
+00:13:29.389 --> 00:13:29.399 align:start position:0%
+based on a particular cell
+ 
+
+00:13:29.399 --> 00:13:33.350 align:start position:0%
+based on a particular cell
+value.<00:13:30.399><c> Now</c><00:13:31.040><c> uh</c><00:13:31.360><c> the</c><00:13:31.680><c> next</c><00:13:31.920><c> one</c><00:13:32.639><c> uh</c><00:13:32.720><c> is</c><00:13:33.040><c> pretty</c>
+
+00:13:33.350 --> 00:13:33.360 align:start position:0%
+value. Now uh the next one uh is pretty
+ 
+
+00:13:33.360 --> 00:13:36.150 align:start position:0%
+value. Now uh the next one uh is pretty
+similar<00:13:33.680><c> to</c><00:13:33.920><c> this.</c><00:13:34.480><c> Okay.</c><00:13:35.040><c> But</c><00:13:35.440><c> instead</c><00:13:35.839><c> of</c>
+
+00:13:36.150 --> 00:13:36.160 align:start position:0%
+similar to this. Okay. But instead of
+ 
+
+00:13:36.160 --> 00:13:38.870 align:start position:0%
+similar to this. Okay. But instead of
+constraint<00:13:37.360><c> uh</c><00:13:37.519><c> if</c><00:13:37.839><c> we</c><00:13:38.000><c> know</c><00:13:38.240><c> that</c><00:13:38.560><c> a</c>
+
+00:13:38.870 --> 00:13:38.880 align:start position:0%
+constraint uh if we know that a
+ 
+
+00:13:38.880 --> 00:13:41.750 align:start position:0%
+constraint uh if we know that a
+particular<00:13:39.360><c> value</c><00:13:39.920><c> is</c><00:13:40.240><c> kind</c><00:13:40.480><c> of</c><00:13:40.720><c> unique</c><00:13:41.440><c> in</c>
+
+00:13:41.750 --> 00:13:41.760 align:start position:0%
+particular value is kind of unique in
+ 
+
+00:13:41.760 --> 00:13:44.870 align:start position:0%
+particular value is kind of unique in
+that<00:13:42.000><c> particular</c><00:13:42.399><c> table</c><00:13:42.800><c> or</c><00:13:43.440><c> in</c><00:13:43.760><c> all</c><00:13:43.920><c> the</c><00:13:44.240><c> rows</c>
+
+00:13:44.870 --> 00:13:44.880 align:start position:0%
+that particular table or in all the rows
+ 
+
+00:13:44.880 --> 00:13:47.190 align:start position:0%
+that particular table or in all the rows
+then<00:13:45.040><c> we</c><00:13:45.279><c> can</c><00:13:45.360><c> directly</c><00:13:45.839><c> use</c><00:13:46.079><c> the</c><00:13:46.480><c> row</c><00:13:46.639><c> value</c>
+
+00:13:47.190 --> 00:13:47.200 align:start position:0%
+then we can directly use the row value
+ 
+
+00:13:47.200 --> 00:13:49.990 align:start position:0%
+then we can directly use the row value
+instead<00:13:47.680><c> of</c><00:13:48.399><c> uh</c><00:13:48.639><c> selecting</c><00:13:49.040><c> a</c><00:13:49.360><c> constraint</c>
+
+00:13:49.990 --> 00:13:50.000 align:start position:0%
+instead of uh selecting a constraint
+ 
+
+00:13:50.000 --> 00:13:52.870 align:start position:0%
+instead of uh selecting a constraint
+because<00:13:50.959><c> uh</c><00:13:51.120><c> the</c><00:13:51.360><c> constraint</c><00:13:52.160><c> uh</c><00:13:52.240><c> it</c><00:13:52.480><c> will</c>
+
+00:13:52.870 --> 00:13:52.880 align:start position:0%
+because uh the constraint uh it will
+ 
+
+00:13:52.880 --> 00:13:55.030 align:start position:0%
+because uh the constraint uh it will
+take<00:13:53.200><c> some</c><00:13:53.440><c> time</c><00:13:53.839><c> if</c><00:13:54.079><c> you</c><00:13:54.240><c> have</c><00:13:54.399><c> got</c><00:13:54.560><c> a</c><00:13:54.720><c> large</c>
+
+00:13:55.030 --> 00:13:55.040 align:start position:0%
+take some time if you have got a large
+ 
+
+00:13:55.040 --> 00:13:57.350 align:start position:0%
+take some time if you have got a large
+table<00:13:55.680><c> um</c><00:13:55.920><c> toka</c><00:13:56.399><c> will</c><00:13:56.560><c> take</c><00:13:56.720><c> some</c><00:13:56.880><c> time</c><00:13:57.040><c> to</c>
+
+00:13:57.350 --> 00:13:57.360 align:start position:0%
+table um toka will take some time to
+ 
+
+00:13:57.360 --> 00:14:00.470 align:start position:0%
+table um toka will take some time to
+filter<00:13:57.680><c> out</c><00:13:58.399><c> uh</c><00:13:58.560><c> that</c><00:13:59.440><c> results</c><00:13:59.839><c> based</c><00:14:00.079><c> on</c><00:14:00.240><c> that</c>
+
+00:14:00.470 --> 00:14:00.480 align:start position:0%
+filter out uh that results based on that
+ 
+
+00:14:00.480 --> 00:14:02.629 align:start position:0%
+filter out uh that results based on that
+particular<00:14:00.880><c> constraint.</c><00:14:01.600><c> But</c><00:14:02.160><c> uh</c><00:14:02.320><c> if</c><00:14:02.480><c> you</c>
+
+00:14:02.629 --> 00:14:02.639 align:start position:0%
+particular constraint. But uh if you
+ 
+
+00:14:02.639 --> 00:14:04.550 align:start position:0%
+particular constraint. But uh if you
+know<00:14:02.800><c> that</c><00:14:02.959><c> that</c><00:14:03.360><c> particular</c><00:14:03.760><c> value</c><00:14:04.160><c> is</c>
+
+00:14:04.550 --> 00:14:04.560 align:start position:0%
+know that that particular value is
+ 
+
+00:14:04.560 --> 00:14:07.030 align:start position:0%
+know that that particular value is
+unique<00:14:05.040><c> across</c><00:14:05.440><c> all</c><00:14:05.600><c> the</c><00:14:05.920><c> rows</c><00:14:06.560><c> then</c><00:14:06.800><c> you</c>
+
+00:14:07.030 --> 00:14:07.040 align:start position:0%
+unique across all the rows then you
+ 
+
+00:14:07.040 --> 00:14:09.509 align:start position:0%
+unique across all the rows then you
+don't<00:14:07.199><c> need</c><00:14:07.279><c> to</c><00:14:07.440><c> use</c><00:14:07.600><c> the</c><00:14:07.839><c> constraint.</c><00:14:08.639><c> Right?</c>
+
+00:14:09.509 --> 00:14:09.519 align:start position:0%
+don't need to use the constraint. Right?
+ 
+
+00:14:09.519 --> 00:14:12.990 align:start position:0%
+don't need to use the constraint. Right?
+So<00:14:10.079><c> uh</c><00:14:10.320><c> I'm</c><00:14:10.639><c> going</c><00:14:10.800><c> to</c><00:14:10.959><c> pull</c><00:14:11.279><c> this</c><00:14:11.680><c> table</c>
+
+00:14:12.990 --> 00:14:13.000 align:start position:0%
+So uh I'm going to pull this table
+ 
+
+00:14:13.000 --> 00:14:17.189 align:start position:0%
+So uh I'm going to pull this table
+here<00:14:14.000><c> and</c><00:14:14.279><c> then</c><00:14:15.279><c> inside</c><00:14:16.000><c> this</c><00:14:16.480><c> row</c><00:14:16.800><c> we</c><00:14:17.040><c> can</c>
+
+00:14:17.189 --> 00:14:17.199 align:start position:0%
+here and then inside this row we can
+ 
+
+00:14:17.199 --> 00:14:20.550 align:start position:0%
+here and then inside this row we can
+directly<00:14:17.680><c> put</c><00:14:18.000><c> a</c><00:14:18.320><c> value</c><00:14:18.639><c> here.</c><00:14:19.279><c> Right?</c><00:14:20.160><c> So</c>
+
+00:14:20.550 --> 00:14:20.560 align:start position:0%
+directly put a value here. Right? So
+ 
+
+00:14:20.560 --> 00:14:23.430 align:start position:0%
+directly put a value here. Right? So
+let's<00:14:20.800><c> try</c><00:14:21.040><c> with</c><00:14:21.279><c> this</c><00:14:21.519><c> one</c><00:14:22.240><c> or</c><00:14:22.959><c> let's</c><00:14:23.199><c> try</c>
+
+00:14:23.430 --> 00:14:23.440 align:start position:0%
+let's try with this one or let's try
+ 
+
+00:14:23.440 --> 00:14:26.030 align:start position:0%
+let's try with this one or let's try
+with<00:14:23.680><c> this</c><00:14:23.839><c> one</c><00:14:24.320><c> since</c><00:14:24.639><c> it's</c><00:14:24.880><c> a</c><00:14:25.120><c> different</c>
+
+00:14:26.030 --> 00:14:26.040 align:start position:0%
+with this one since it's a different
+ 
+
+00:14:26.040 --> 00:14:29.189 align:start position:0%
+with this one since it's a different
+category.<00:14:27.120><c> So</c><00:14:27.440><c> we'll</c><00:14:27.839><c> use</c><00:14:28.079><c> this</c><00:14:28.560><c> weight</c><00:14:28.959><c> a</c>
+
+00:14:29.189 --> 00:14:29.199 align:start position:0%
+category. So we'll use this weight a
+ 
+
+00:14:29.199 --> 00:14:30.590 align:start position:0%
+category. So we'll use this weight a
+moment
+
+00:14:30.590 --> 00:14:30.600 align:start position:0%
+moment
+ 
+
+00:14:30.600 --> 00:14:32.829 align:start position:0%
+moment
+value.
+
+00:14:32.829 --> 00:14:32.839 align:start position:0%
+value.
+ 
+
+00:14:32.839 --> 00:14:37.189 align:start position:0%
+value.
+Now<00:14:33.839><c> as</c><00:14:34.079><c> you</c><00:14:34.240><c> can</c><00:14:34.399><c> see</c><00:14:35.120><c> uh</c><00:14:35.279><c> it's</c><00:14:36.240><c> unique</c><00:14:36.720><c> across</c>
+
+00:14:37.189 --> 00:14:37.199 align:start position:0%
+Now as you can see uh it's unique across
+ 
+
+00:14:37.199 --> 00:14:39.990 align:start position:0%
+Now as you can see uh it's unique across
+all<00:14:37.360><c> the</c><00:14:37.680><c> rows.</c><00:14:38.000><c> If</c><00:14:38.240><c> it's</c><00:14:38.560><c> not</c><00:14:39.360><c> then</c><00:14:39.600><c> it</c><00:14:39.839><c> will</c>
+
+00:14:39.990 --> 00:14:40.000 align:start position:0%
+all the rows. If it's not then it will
+ 
+
+00:14:40.000 --> 00:14:41.829 align:start position:0%
+all the rows. If it's not then it will
+not<00:14:40.160><c> work.</c><00:14:40.560><c> In</c><00:14:40.720><c> that</c><00:14:40.959><c> case</c><00:14:41.120><c> you</c><00:14:41.360><c> have</c><00:14:41.440><c> to</c><00:14:41.600><c> use</c>
+
+00:14:41.829 --> 00:14:41.839 align:start position:0%
+not work. In that case you have to use
+ 
+
+00:14:41.839 --> 00:14:45.430 align:start position:0%
+not work. In that case you have to use
+two<00:14:42.160><c> constraints</c><00:14:42.959><c> instead</c><00:14:43.440><c> of</c><00:14:43.600><c> one.</c><00:14:44.440><c> Right?</c>
+
+00:14:45.430 --> 00:14:45.440 align:start position:0%
+two constraints instead of one. Right?
+ 
+
+00:14:45.440 --> 00:14:49.350 align:start position:0%
+two constraints instead of one. Right?
+So<00:14:46.079><c> u</c><00:14:46.760><c> here</c><00:14:47.760><c> the</c><00:14:48.240><c> row</c><00:14:48.320><c> value</c><00:14:48.720><c> is</c><00:14:49.040><c> wait</c><00:14:49.199><c> a</c>
+
+00:14:49.350 --> 00:14:49.360 align:start position:0%
+So u here the row value is wait a
+ 
+
+00:14:49.360 --> 00:14:51.350 align:start position:0%
+So u here the row value is wait a
+moment.<00:14:49.839><c> Now</c><00:14:50.079><c> based</c><00:14:50.320><c> on</c><00:14:50.480><c> this</c><00:14:50.720><c> it</c><00:14:50.959><c> will</c><00:14:51.040><c> select</c>
+
+00:14:51.350 --> 00:14:51.360 align:start position:0%
+moment. Now based on this it will select
+ 
+
+00:14:51.360 --> 00:14:54.629 align:start position:0%
+moment. Now based on this it will select
+a<00:14:51.680><c> row.</c><00:14:52.240><c> Okay.</c><00:14:52.959><c> And</c><00:14:53.199><c> then</c><00:14:53.760><c> uh</c><00:14:53.920><c> we</c><00:14:54.079><c> can</c><00:14:54.240><c> verify</c>
+
+00:14:54.629 --> 00:14:54.639 align:start position:0%
+a row. Okay. And then uh we can verify
+ 
+
+00:14:54.639 --> 00:14:56.629 align:start position:0%
+a row. Okay. And then uh we can verify
+any<00:14:54.959><c> particular</c><00:14:55.360><c> value</c><00:14:55.680><c> here.</c><00:14:56.079><c> So</c><00:14:56.320><c> if</c><00:14:56.560><c> you</c>
+
+00:14:56.629 --> 00:14:56.639 align:start position:0%
+any particular value here. So if you
+ 
+
+00:14:56.639 --> 00:14:59.189 align:start position:0%
+any particular value here. So if you
+want<00:14:56.800><c> to</c><00:14:56.880><c> verify</c><00:14:57.360><c> the</c><00:14:57.600><c> category</c>
+
+00:14:59.189 --> 00:14:59.199 align:start position:0%
+want to verify the category
+ 
+
+00:14:59.199 --> 00:15:02.030 align:start position:0%
+want to verify the category
+uh<00:14:59.440><c> then</c><00:14:59.920><c> we</c><00:15:00.240><c> can</c><00:15:00.399><c> just</c><00:15:00.800><c> fill</c><00:15:01.120><c> the</c><00:15:01.279><c> value</c>
+
+00:15:02.030 --> 00:15:02.040 align:start position:0%
+uh then we can just fill the value
+ 
+
+00:15:02.040 --> 00:15:06.069 align:start position:0%
+uh then we can just fill the value
+here.<00:15:03.040><c> So</c><00:15:03.279><c> it's</c><00:15:04.160><c> uh</c><00:15:04.320><c> category</c><00:15:04.800><c> is</c><00:15:05.040><c> easy.</c><00:15:05.600><c> Uh</c><00:15:05.839><c> we</c>
+
+00:15:06.069 --> 00:15:06.079 align:start position:0%
+here. So it's uh category is easy. Uh we
+ 
+
+00:15:06.079 --> 00:15:08.629 align:start position:0%
+here. So it's uh category is easy. Uh we
+can<00:15:06.240><c> also</c><00:15:06.560><c> verify</c><00:15:07.120><c> all</c><00:15:07.279><c> the</c><00:15:07.440><c> other</c><00:15:07.760><c> values</c><00:15:08.399><c> for</c>
+
+00:15:08.629 --> 00:15:08.639 align:start position:0%
+can also verify all the other values for
+ 
+
+00:15:08.639 --> 00:15:10.790 align:start position:0%
+can also verify all the other values for
+this<00:15:08.880><c> particular</c><00:15:09.440><c> row.</c><00:15:10.160><c> So</c><00:15:10.399><c> the</c><00:15:10.639><c> main</c>
+
+00:15:10.790 --> 00:15:10.800 align:start position:0%
+this particular row. So the main
+ 
+
+00:15:10.800 --> 00:15:13.750 align:start position:0%
+this particular row. So the main
+challenge<00:15:11.839><c> uh</c><00:15:11.920><c> is</c><00:15:12.160><c> to</c><00:15:12.480><c> find</c><00:15:12.800><c> the</c><00:15:13.120><c> particular</c>
+
+00:15:13.750 --> 00:15:13.760 align:start position:0%
+challenge uh is to find the particular
+ 
+
+00:15:13.760 --> 00:15:16.949 align:start position:0%
+challenge uh is to find the particular
+row<00:15:14.160><c> or</c><00:15:14.560><c> column</c><00:15:15.120><c> where</c><00:15:15.440><c> you</c><00:15:15.760><c> want</c><00:15:16.240><c> to</c><00:15:16.560><c> do</c><00:15:16.720><c> a</c>
+
+00:15:16.949 --> 00:15:16.959 align:start position:0%
+row or column where you want to do a
+ 
+
+00:15:16.959 --> 00:15:18.829 align:start position:0%
+row or column where you want to do a
+verification<00:15:17.600><c> for</c><00:15:17.839><c> a</c><00:15:18.079><c> particular</c><00:15:18.480><c> cell</c>
+
+00:15:18.829 --> 00:15:18.839 align:start position:0%
+verification for a particular cell
+ 
+
+00:15:18.839 --> 00:15:21.910 align:start position:0%
+verification for a particular cell
+value.<00:15:19.839><c> So</c><00:15:20.079><c> the</c><00:15:20.320><c> first</c><00:15:20.560><c> step</c><00:15:20.959><c> always</c><00:15:21.360><c> remains</c>
+
+00:15:21.910 --> 00:15:21.920 align:start position:0%
+value. So the first step always remains
+ 
+
+00:15:21.920 --> 00:15:24.949 align:start position:0%
+value. So the first step always remains
+same.<00:15:22.480><c> you</c><00:15:22.720><c> need</c><00:15:22.959><c> to</c><00:15:23.839><c> uh</c><00:15:24.320><c> select</c><00:15:24.720><c> the</c>
+
+00:15:24.949 --> 00:15:24.959 align:start position:0%
+same. you need to uh select the
+ 
+
+00:15:24.959 --> 00:15:27.030 align:start position:0%
+same. you need to uh select the
+particular<00:15:25.440><c> row</c><00:15:25.519><c> and</c><00:15:25.760><c> column</c><00:15:26.079><c> based</c><00:15:26.399><c> on</c><00:15:26.639><c> some</c>
+
+00:15:27.030 --> 00:15:27.040 align:start position:0%
+particular row and column based on some
+ 
+
+00:15:27.040 --> 00:15:31.590 align:start position:0%
+particular row and column based on some
+search<00:15:27.440><c> criteria.</c><00:15:28.680><c> Right.</c><00:15:29.680><c> So</c><00:15:30.320><c> uh</c><00:15:30.639><c> now</c><00:15:31.279><c> uh</c><00:15:31.440><c> we</c>
+
+00:15:31.590 --> 00:15:31.600 align:start position:0%
+search criteria. Right. So uh now uh we
+ 
+
+00:15:31.600 --> 00:15:35.230 align:start position:0%
+search criteria. Right. So uh now uh we
+can<00:15:31.760><c> go</c><00:15:31.920><c> ahead</c><00:15:32.639><c> and</c><00:15:33.199><c> execute</c>
+
+00:15:35.230 --> 00:15:35.240 align:start position:0%
+can go ahead and execute
+ 
+
+00:15:35.240 --> 00:15:38.710 align:start position:0%
+can go ahead and execute
+this.<00:15:36.240><c> Okay.</c><00:15:36.560><c> And</c><00:15:37.040><c> uh</c><00:15:37.279><c> as</c><00:15:37.600><c> expected</c><00:15:38.160><c> this</c><00:15:38.320><c> also</c>
+
+00:15:38.710 --> 00:15:38.720 align:start position:0%
+this. Okay. And uh as expected this also
+ 
+
+00:15:38.720 --> 00:15:41.430 align:start position:0%
+this. Okay. And uh as expected this also
+passed.<00:15:39.360><c> Uh</c><00:15:39.680><c> if</c><00:15:39.839><c> you</c><00:15:40.000><c> drill</c><00:15:40.240><c> down</c><00:15:40.560><c> again</c><00:15:41.360><c> uh</c>
+
+00:15:41.430 --> 00:15:41.440 align:start position:0%
+passed. Uh if you drill down again uh
+ 
+
+00:15:41.440 --> 00:15:43.310 align:start position:0%
+passed. Uh if you drill down again uh
+you<00:15:41.600><c> will</c><00:15:41.760><c> see</c><00:15:41.839><c> the</c><00:15:42.079><c> verification</c><00:15:42.720><c> was</c>
+
+00:15:43.310 --> 00:15:43.320 align:start position:0%
+you will see the verification was
+ 
+
+00:15:43.320 --> 00:15:45.829 align:start position:0%
+you will see the verification was
+successful.<00:15:44.320><c> Okay.</c><00:15:44.560><c> So</c><00:15:44.720><c> this</c><00:15:44.959><c> is</c><00:15:45.040><c> another</c><00:15:45.440><c> way</c>
+
+00:15:45.829 --> 00:15:45.839 align:start position:0%
+successful. Okay. So this is another way
+ 
+
+00:15:45.839 --> 00:15:49.430 align:start position:0%
+successful. Okay. So this is another way
+uh<00:15:46.000><c> of</c><00:15:46.320><c> doing</c><00:15:46.560><c> it.</c><00:15:47.199><c> So</c><00:15:47.519><c> this</c><00:15:47.760><c> is</c><00:15:48.079><c> based</c><00:15:48.720><c> on</c><00:15:49.120><c> a</c>
+
+00:15:49.430 --> 00:15:49.440 align:start position:0%
+uh of doing it. So this is based on a
+ 
+
+00:15:49.440 --> 00:15:53.110 align:start position:0%
+uh of doing it. So this is based on a
+particular<00:15:50.000><c> row</c><00:15:50.440><c> value.</c><00:15:51.600><c> So</c><00:15:52.160><c> we</c><00:15:52.480><c> can</c><00:15:52.720><c> say</c>
+
+00:15:53.110 --> 00:15:53.120 align:start position:0%
+particular row value. So we can say
+ 
+
+00:15:53.120 --> 00:15:56.350 align:start position:0%
+particular row value. So we can say
+specific
+
+00:15:56.350 --> 00:15:56.360 align:start position:0%
+ 
+ 
+
+00:15:56.360 --> 00:15:58.269 align:start position:0%
+ 
+row
+
+00:15:58.269 --> 00:15:58.279 align:start position:0%
+row
+ 
+
+00:15:58.279 --> 00:16:00.870 align:start position:0%
+row
+value.<00:15:59.279><c> So</c><00:15:59.680><c> uh</c><00:15:59.759><c> let's</c><00:16:00.079><c> move</c><00:16:00.240><c> on</c><00:16:00.399><c> to</c><00:16:00.480><c> our</c><00:16:00.720><c> next</c>
+
+00:16:00.870 --> 00:16:00.880 align:start position:0%
+value. So uh let's move on to our next
+ 
+
+00:16:00.880 --> 00:16:02.710 align:start position:0%
+value. So uh let's move on to our next
+scenario.<00:16:01.440><c> In</c><00:16:01.600><c> this</c><00:16:02.000><c> uh</c><00:16:02.079><c> we</c><00:16:02.320><c> are</c><00:16:02.399><c> going</c><00:16:02.560><c> to</c>
+
+00:16:02.710 --> 00:16:02.720 align:start position:0%
+scenario. In this uh we are going to
+ 
+
+00:16:02.720 --> 00:16:05.829 align:start position:0%
+scenario. In this uh we are going to
+select<00:16:03.040><c> a</c><00:16:03.199><c> particular</c><00:16:03.600><c> cell</c><00:16:03.920><c> by</c><00:16:04.240><c> index.</c><00:16:05.040><c> Okay.</c>
+
+00:16:05.829 --> 00:16:05.839 align:start position:0%
+select a particular cell by index. Okay.
+ 
+
+00:16:05.839 --> 00:16:09.790 align:start position:0%
+select a particular cell by index. Okay.
+So<00:16:06.320><c> let's</c><00:16:06.720><c> go</c><00:16:06.880><c> ahead</c><00:16:07.199><c> and</c><00:16:07.680><c> add</c><00:16:08.079><c> another</c><00:16:08.720><c> module</c>
+
+00:16:09.790 --> 00:16:09.800 align:start position:0%
+So let's go ahead and add another module
+ 
+
+00:16:09.800 --> 00:16:13.189 align:start position:0%
+So let's go ahead and add another module
+here.<00:16:10.800><c> So</c><00:16:11.040><c> we'll</c><00:16:11.279><c> drag</c><00:16:11.600><c> this</c><00:16:12.480><c> and</c><00:16:12.880><c> we</c><00:16:13.040><c> will</c>
+
+00:16:13.189 --> 00:16:13.199 align:start position:0%
+here. So we'll drag this and we will
+ 
+
+00:16:13.199 --> 00:16:15.230 align:start position:0%
+here. So we'll drag this and we will
+name<00:16:13.519><c> this</c><00:16:14.399><c> uh</c>
+
+00:16:15.230 --> 00:16:15.240 align:start position:0%
+name this uh
+ 
+
+00:16:15.240 --> 00:16:19.749 align:start position:0%
+name this uh
+select<00:16:16.240><c> cell</c><00:16:17.199><c> by</c><00:16:17.600><c> index.</c>
+
+00:16:19.749 --> 00:16:19.759 align:start position:0%
+select cell by index.
+ 
+
+00:16:19.759 --> 00:16:21.829 align:start position:0%
+select cell by index.
+And<00:16:19.920><c> what</c><00:16:20.160><c> we</c><00:16:20.320><c> are</c><00:16:20.399><c> going</c><00:16:20.480><c> to</c><00:16:20.639><c> do</c><00:16:21.120><c> is</c><00:16:21.440><c> we</c><00:16:21.680><c> are</c>
+
+00:16:21.829 --> 00:16:21.839 align:start position:0%
+And what we are going to do is we are
+ 
+
+00:16:21.839 --> 00:16:24.069 align:start position:0%
+And what we are going to do is we are
+going<00:16:22.000><c> to</c><00:16:22.240><c> select</c><00:16:23.040><c> uh</c><00:16:23.199><c> this</c><00:16:23.440><c> particular</c><00:16:23.920><c> row</c>
+
+00:16:24.069 --> 00:16:24.079 align:start position:0%
+going to select uh this particular row
+ 
+
+00:16:24.079 --> 00:16:27.030 align:start position:0%
+going to select uh this particular row
+which<00:16:24.240><c> is</c><00:16:24.320><c> the</c><00:16:24.560><c> second</c><00:16:24.880><c> row</c><00:16:25.040><c> here</c><00:16:25.759><c> based</c><00:16:26.240><c> on</c><00:16:26.880><c> uh</c>
+
+00:16:27.030 --> 00:16:27.040 align:start position:0%
+which is the second row here based on uh
+ 
+
+00:16:27.040 --> 00:16:29.509 align:start position:0%
+which is the second row here based on uh
+the<00:16:27.199><c> category</c><00:16:27.759><c> value</c><00:16:28.079><c> which</c><00:16:28.320><c> is</c><00:16:28.480><c> easy.</c><00:16:29.279><c> Now</c>
+
+00:16:29.509 --> 00:16:29.519 align:start position:0%
+the category value which is easy. Now
+ 
+
+00:16:29.519 --> 00:16:32.629 align:start position:0%
+the category value which is easy. Now
+this<00:16:29.759><c> is</c><00:16:30.480><c> uh</c><00:16:30.959><c> common</c><00:16:31.279><c> across</c><00:16:31.680><c> both</c><00:16:31.839><c> the</c><00:16:32.240><c> rows.</c>
+
+00:16:32.629 --> 00:16:32.639 align:start position:0%
+this is uh common across both the rows.
+ 
+
+00:16:32.639 --> 00:16:35.509 align:start position:0%
+this is uh common across both the rows.
+So<00:16:32.880><c> we</c><00:16:33.199><c> are</c><00:16:33.680><c> telling</c><00:16:34.000><c> Tosska</c><00:16:34.639><c> to</c><00:16:34.880><c> select</c><00:16:35.279><c> the</c>
+
+00:16:35.509 --> 00:16:35.519 align:start position:0%
+So we are telling Tosska to select the
+ 
+
+00:16:35.519 --> 00:16:38.230 align:start position:0%
+So we are telling Tosska to select the
+second<00:16:36.000><c> row</c><00:16:36.399><c> which</c><00:16:36.720><c> contains</c><00:16:37.600><c> uh</c><00:16:37.759><c> the</c><00:16:38.000><c> value</c>
+
+00:16:38.230 --> 00:16:38.240 align:start position:0%
+second row which contains uh the value
+ 
+
+00:16:38.240 --> 00:16:41.030 align:start position:0%
+second row which contains uh the value
+category<00:16:38.720><c> as</c><00:16:39.120><c> easy</c><00:16:39.680><c> right</c><00:16:40.240><c> and</c><00:16:40.480><c> we'll</c><00:16:40.720><c> use</c><00:16:40.880><c> a</c>
+
+00:16:41.030 --> 00:16:41.040 align:start position:0%
+category as easy right and we'll use a
+ 
+
+00:16:41.040 --> 00:16:43.030 align:start position:0%
+category as easy right and we'll use a
+constraint<00:16:41.519><c> to</c><00:16:41.759><c> basically</c><00:16:42.160><c> filter</c><00:16:42.480><c> out</c><00:16:42.639><c> these</c>
+
+00:16:43.030 --> 00:16:43.040 align:start position:0%
+constraint to basically filter out these
+ 
+
+00:16:43.040 --> 00:16:44.949 align:start position:0%
+constraint to basically filter out these
+rows<00:16:43.440><c> and</c><00:16:43.680><c> then</c><00:16:43.839><c> we'll</c><00:16:44.079><c> select</c><00:16:44.399><c> the</c><00:16:44.639><c> second</c>
+
+00:16:44.949 --> 00:16:44.959 align:start position:0%
+rows and then we'll select the second
+ 
+
+00:16:44.959 --> 00:16:47.189 align:start position:0%
+rows and then we'll select the second
+index<00:16:45.360><c> which</c><00:16:45.600><c> is</c><00:16:45.680><c> the</c><00:16:45.920><c> second</c><00:16:46.399><c> row</c><00:16:46.720><c> with</c><00:16:47.040><c> the</c>
+
+00:16:47.189 --> 00:16:47.199 align:start position:0%
+index which is the second row with the
+ 
+
+00:16:47.199 --> 00:16:52.230 align:start position:0%
+index which is the second row with the
+same<00:16:47.440><c> value</c><00:16:48.600><c> right</c><00:16:49.600><c> so</c><00:16:50.079><c> here</c><00:16:50.880><c> uh</c><00:16:51.120><c> in</c><00:16:51.360><c> the</c><00:16:51.680><c> row</c>
+
+00:16:52.230 --> 00:16:52.240 align:start position:0%
+same value right so here uh in the row
+ 
+
+00:16:52.240 --> 00:16:54.150 align:start position:0%
+same value right so here uh in the row
+instead<00:16:52.560><c> of</c><00:16:52.800><c> dollar</c><00:16:53.279><c> we</c><00:16:53.519><c> are</c><00:16:53.600><c> going</c><00:16:53.759><c> to</c><00:16:53.920><c> use</c>
+
+00:16:54.150 --> 00:16:54.160 align:start position:0%
+instead of dollar we are going to use
+ 
+
+00:16:54.160 --> 00:16:56.790 align:start position:0%
+instead of dollar we are going to use
+something<00:16:54.560><c> called</c><00:16:55.040><c> hash</c><00:16:55.440><c> symbol</c><00:16:56.240><c> and</c><00:16:56.480><c> then</c><00:16:56.639><c> we</c>
+
+00:16:56.790 --> 00:16:56.800 align:start position:0%
+something called hash symbol and then we
+ 
+
+00:16:56.800 --> 00:16:58.710 align:start position:0%
+something called hash symbol and then we
+are<00:16:56.959><c> going</c><00:16:57.120><c> to</c><00:16:57.199><c> use</c><00:16:57.440><c> the</c><00:16:57.680><c> two</c><00:16:58.000><c> which</c><00:16:58.160><c> is</c><00:16:58.240><c> the</c>
+
+00:16:58.710 --> 00:16:58.720 align:start position:0%
+are going to use the two which is the
+ 
+
+00:16:58.720 --> 00:17:02.629 align:start position:0%
+are going to use the two which is the
+index<00:16:59.560><c> two</c><00:17:00.560><c> inside</c><00:17:01.040><c> this</c><00:17:01.839><c> uh</c><00:17:01.920><c> we</c><00:17:02.160><c> are</c><00:17:02.320><c> going</c><00:17:02.480><c> to</c>
+
+00:17:02.629 --> 00:17:02.639 align:start position:0%
+index two inside this uh we are going to
+ 
+
+00:17:02.639 --> 00:17:05.510 align:start position:0%
+index two inside this uh we are going to
+use<00:17:02.800><c> the</c><00:17:02.959><c> dollar</c><00:17:03.279><c> symbol</c><00:17:04.160><c> and</c><00:17:04.799><c> uh</c><00:17:04.880><c> we</c><00:17:05.199><c> going</c><00:17:05.360><c> to</c>
+
+00:17:05.510 --> 00:17:05.520 align:start position:0%
+use the dollar symbol and uh we going to
+ 
+
+00:17:05.520 --> 00:17:08.949 align:start position:0%
+use the dollar symbol and uh we going to
+say<00:17:05.919><c> the</c><00:17:06.160><c> second</c><00:17:06.480><c> cell.</c><00:17:07.679><c> Uh</c><00:17:08.000><c> but</c><00:17:08.400><c> this</c><00:17:08.640><c> will</c><00:17:08.880><c> be</c>
+
+00:17:08.949 --> 00:17:08.959 align:start position:0%
+say the second cell. Uh but this will be
+ 
+
+00:17:08.959 --> 00:17:12.230 align:start position:0%
+say the second cell. Uh but this will be
+a<00:17:09.559><c> constraint</c><00:17:10.559><c> and</c><00:17:10.880><c> the</c><00:17:11.120><c> constraint</c><00:17:11.679><c> would</c><00:17:11.919><c> be</c>
+
+00:17:12.230 --> 00:17:12.240 align:start position:0%
+a constraint and the constraint would be
+ 
+
+00:17:12.240 --> 00:17:15.990 align:start position:0%
+a constraint and the constraint would be
+the<00:17:12.559><c> category</c><00:17:13.120><c> which</c><00:17:13.360><c> is</c><00:17:13.880><c> easy</c><00:17:14.880><c> right?</c><00:17:15.439><c> Uh</c>
+
+00:17:15.990 --> 00:17:16.000 align:start position:0%
+the category which is easy right? Uh
+ 
+
+00:17:16.000 --> 00:17:19.710 align:start position:0%
+the category which is easy right? Uh
+actually<00:17:16.640><c> it</c><00:17:16.959><c> is</c><00:17:17.280><c> the</c><00:17:17.679><c> third</c><00:17:18.079><c> cell</c><00:17:18.559><c> not</c><00:17:18.799><c> the</c>
+
+00:17:19.710 --> 00:17:19.720 align:start position:0%
+actually it is the third cell not the
+ 
+
+00:17:19.720 --> 00:17:23.350 align:start position:0%
+actually it is the third cell not the
+second<00:17:20.720><c> and</c><00:17:20.959><c> then</c><00:17:21.520><c> here</c><00:17:22.240><c> uh</c><00:17:22.640><c> we</c><00:17:22.880><c> will</c><00:17:23.120><c> choose</c>
+
+00:17:23.350 --> 00:17:23.360 align:start position:0%
+second and then here uh we will choose
+ 
+
+00:17:23.360 --> 00:17:28.990 align:start position:0%
+second and then here uh we will choose
+the<00:17:23.679><c> second</c><00:17:23.919><c> one</c><00:17:24.720><c> and</c>
+
+00:17:28.990 --> 00:17:29.000 align:start position:0%
+ 
+ 
+
+00:17:29.000 --> 00:17:33.630 align:start position:0%
+ 
+uh<00:17:30.000><c> and</c><00:17:30.240><c> we</c><00:17:30.480><c> will</c><00:17:30.640><c> verify</c><00:17:31.120><c> the</c><00:17:31.440><c> name</c><00:17:31.760><c> which</c><00:17:32.000><c> is</c>
+
+00:17:33.630 --> 00:17:33.640 align:start position:0%
+uh and we will verify the name which is
+ 
+
+00:17:33.640 --> 00:17:36.789 align:start position:0%
+uh and we will verify the name which is
+twins.<00:17:34.640><c> Okay.</c><00:17:35.039><c> And</c><00:17:35.200><c> then</c><00:17:35.840><c> let's</c><00:17:36.160><c> go</c><00:17:36.320><c> ahead</c><00:17:36.559><c> and</c>
+
+00:17:36.789 --> 00:17:36.799 align:start position:0%
+twins. Okay. And then let's go ahead and
+ 
+
+00:17:36.799 --> 00:17:38.350 align:start position:0%
+twins. Okay. And then let's go ahead and
+execute
+
+00:17:38.350 --> 00:17:38.360 align:start position:0%
+execute
+ 
+
+00:17:38.360 --> 00:17:41.990 align:start position:0%
+execute
+this.<00:17:39.360><c> So</c><00:17:39.520><c> as</c><00:17:39.760><c> you</c><00:17:39.919><c> can</c><00:17:40.080><c> see</c><00:17:40.640><c> uh</c><00:17:41.440><c> the</c><00:17:41.679><c> test</c>
+
+00:17:41.990 --> 00:17:42.000 align:start position:0%
+this. So as you can see uh the test
+ 
+
+00:17:42.000 --> 00:17:44.470 align:start position:0%
+this. So as you can see uh the test
+passed<00:17:42.640><c> and</c><00:17:42.880><c> if</c><00:17:43.039><c> you</c><00:17:43.200><c> drill</c><00:17:43.520><c> down</c><00:17:43.760><c> again</c><00:17:44.400><c> uh</c>
+
+00:17:44.470 --> 00:17:44.480 align:start position:0%
+passed and if you drill down again uh
+ 
+
+00:17:44.480 --> 00:17:46.710 align:start position:0%
+passed and if you drill down again uh
+you<00:17:44.720><c> can</c><00:17:44.799><c> go</c><00:17:44.960><c> into</c><00:17:45.200><c> the</c><00:17:45.360><c> log</c><00:17:45.600><c> info</c><00:17:46.240><c> where</c><00:17:46.559><c> you</c>
+
+00:17:46.710 --> 00:17:46.720 align:start position:0%
+you can go into the log info where you
+ 
+
+00:17:46.720 --> 00:17:48.230 align:start position:0%
+you can go into the log info where you
+can<00:17:46.880><c> see</c><00:17:46.960><c> the</c><00:17:47.200><c> expected</c><00:17:47.679><c> and</c><00:17:47.840><c> the</c><00:17:48.000><c> actual</c>
+
+00:17:48.230 --> 00:17:48.240 align:start position:0%
+can see the expected and the actual
+ 
+
+00:17:48.240 --> 00:17:50.710 align:start position:0%
+can see the expected and the actual
+value.<00:17:49.200><c> So</c><00:17:49.360><c> this</c><00:17:49.520><c> is</c><00:17:49.600><c> how</c><00:17:49.760><c> you</c><00:17:50.000><c> can</c><00:17:50.080><c> select</c><00:17:50.400><c> any</c>
+
+00:17:50.710 --> 00:17:50.720 align:start position:0%
+value. So this is how you can select any
+ 
+
+00:17:50.720 --> 00:17:53.029 align:start position:0%
+value. So this is how you can select any
+particular<00:17:51.039><c> cell</c><00:17:51.679><c> uh</c><00:17:51.760><c> by</c><00:17:52.000><c> using</c><00:17:52.640><c> uh</c><00:17:52.799><c> the</c>
+
+00:17:53.029 --> 00:17:53.039 align:start position:0%
+particular cell uh by using uh the
+ 
+
+00:17:53.039 --> 00:17:55.909 align:start position:0%
+particular cell uh by using uh the
+index.<00:17:53.840><c> Right?</c><00:17:54.799><c> So</c><00:17:54.960><c> let's</c><00:17:55.200><c> move</c><00:17:55.440><c> forward</c><00:17:55.679><c> and</c>
+
+00:17:55.909 --> 00:17:55.919 align:start position:0%
+index. Right? So let's move forward and
+ 
+
+00:17:55.919 --> 00:17:57.830 align:start position:0%
+index. Right? So let's move forward and
+let's<00:17:56.080><c> try</c><00:17:56.320><c> to</c><00:17:56.480><c> use</c><00:17:56.640><c> some</c><00:17:56.799><c> other</c><00:17:57.039><c> properties</c>
+
+00:17:57.830 --> 00:17:57.840 align:start position:0%
+let's try to use some other properties
+ 
+
+00:17:57.840 --> 00:17:59.190 align:start position:0%
+let's try to use some other properties
+uh<00:17:58.000><c> which</c><00:17:58.240><c> could</c><00:17:58.400><c> be</c><00:17:58.559><c> useful</c><00:17:58.799><c> in</c><00:17:59.039><c> some</c>
+
+00:17:59.190 --> 00:17:59.200 align:start position:0%
+uh which could be useful in some
+ 
+
+00:17:59.200 --> 00:18:02.310 align:start position:0%
+uh which could be useful in some
+scenarios<00:18:00.160><c> like</c><00:18:00.799><c> uh</c><00:18:00.960><c> getting</c><00:18:01.360><c> the</c><00:18:01.600><c> count</c><00:18:01.919><c> of</c>
+
+00:18:02.310 --> 00:18:02.320 align:start position:0%
+scenarios like uh getting the count of
+ 
+
+00:18:02.320 --> 00:18:05.350 align:start position:0%
+scenarios like uh getting the count of
+uh<00:18:02.400><c> the</c><00:18:02.640><c> number</c><00:18:02.799><c> of</c><00:18:03.200><c> rows</c><00:18:03.520><c> or</c><00:18:04.000><c> the</c><00:18:04.240><c> columns</c><00:18:04.720><c> or</c>
+
+00:18:05.350 --> 00:18:05.360 align:start position:0%
+uh the number of rows or the columns or
+ 
+
+00:18:05.360 --> 00:18:08.710 align:start position:0%
+uh the number of rows or the columns or
+selecting<00:18:06.000><c> any</c><00:18:06.320><c> particular</c><00:18:06.760><c> cell.</c><00:18:07.760><c> So</c><00:18:08.320><c> uh</c>
+
+00:18:08.710 --> 00:18:08.720 align:start position:0%
+selecting any particular cell. So uh
+ 
+
+00:18:08.720 --> 00:18:11.990 align:start position:0%
+selecting any particular cell. So uh
+let's<00:18:09.120><c> go</c><00:18:09.280><c> ahead</c><00:18:09.760><c> and</c><00:18:10.400><c> add</c><00:18:11.120><c> another</c><00:18:11.520><c> module</c>
+
+00:18:11.990 --> 00:18:12.000 align:start position:0%
+let's go ahead and add another module
+ 
+
+00:18:12.000 --> 00:18:15.110 align:start position:0%
+let's go ahead and add another module
+here<00:18:12.480><c> and</c><00:18:12.799><c> let's</c><00:18:13.120><c> calculate</c><00:18:14.000><c> or</c><00:18:14.320><c> let's</c><00:18:14.640><c> verify</c>
+
+00:18:15.110 --> 00:18:15.120 align:start position:0%
+here and let's calculate or let's verify
+ 
+
+00:18:15.120 --> 00:18:17.909 align:start position:0%
+here and let's calculate or let's verify
+the<00:18:15.440><c> row</c><00:18:15.600><c> count</c><00:18:15.760><c> of</c><00:18:16.080><c> a</c><00:18:16.320><c> particular</c><00:18:16.679><c> table</c><00:18:17.679><c> and</c>
+
+00:18:17.909 --> 00:18:17.919 align:start position:0%
+the row count of a particular table and
+ 
+
+00:18:17.919 --> 00:18:20.070 align:start position:0%
+the row count of a particular table and
+that<00:18:18.080><c> we</c><00:18:18.320><c> can</c><00:18:18.480><c> do</c><00:18:18.640><c> using</c><00:18:19.360><c> uh</c><00:18:19.440><c> the</c><00:18:19.679><c> property</c>
+
+00:18:20.070 --> 00:18:20.080 align:start position:0%
+that we can do using uh the property
+ 
+
+00:18:20.080 --> 00:18:22.070 align:start position:0%
+that we can do using uh the property
+which<00:18:20.320><c> we</c><00:18:20.559><c> already</c><00:18:20.960><c> discussed</c><00:18:21.360><c> which</c><00:18:21.600><c> is</c><00:18:21.760><c> the</c>
+
+00:18:22.070 --> 00:18:22.080 align:start position:0%
+which we already discussed which is the
+ 
+
+00:18:22.080 --> 00:18:26.150 align:start position:0%
+which we already discussed which is the
+row<00:18:22.240><c> count</c><00:18:22.919><c> right.</c><00:18:24.000><c> So</c><00:18:24.240><c> here</c><00:18:25.280><c> uh</c><00:18:25.360><c> in</c><00:18:25.600><c> the</c><00:18:25.760><c> value</c>
+
+00:18:26.150 --> 00:18:26.160 align:start position:0%
+row count right. So here uh in the value
+ 
+
+00:18:26.160 --> 00:18:30.549 align:start position:0%
+row count right. So here uh in the value
+of<00:18:26.559><c> the</c><00:18:26.799><c> table</c><00:18:27.679><c> we</c><00:18:28.000><c> can</c><00:18:28.960><c> put</c><00:18:29.320><c> down</c><00:18:30.320><c> the</c>
+
+00:18:30.549 --> 00:18:30.559 align:start position:0%
+of the table we can put down the
+ 
+
+00:18:30.559 --> 00:18:33.270 align:start position:0%
+of the table we can put down the
+property<00:18:31.039><c> name</c><00:18:31.919><c> which</c><00:18:32.080><c> is</c><00:18:32.400><c> row</c><00:18:32.559><c> count</c><00:18:33.039><c> and</c>
+
+00:18:33.270 --> 00:18:33.280 align:start position:0%
+property name which is row count and
+ 
+
+00:18:33.280 --> 00:18:37.669 align:start position:0%
+property name which is row count and
+then<00:18:33.600><c> the</c><00:18:34.200><c> value</c><00:18:35.360><c> uh</c><00:18:35.520><c> for</c><00:18:35.679><c> example</c><00:18:36.160><c> this</c><00:18:36.400><c> is</c><00:18:36.720><c> 12</c>
+
+00:18:37.669 --> 00:18:37.679 align:start position:0%
+then the value uh for example this is 12
+ 
+
+00:18:37.679 --> 00:18:39.630 align:start position:0%
+then the value uh for example this is 12
+uh<00:18:37.760><c> and</c><00:18:38.000><c> I'm</c><00:18:38.400><c> still</c><00:18:38.640><c> looking</c><00:18:38.799><c> at</c><00:18:38.960><c> the</c><00:18:39.200><c> same</c>
+
+00:18:39.630 --> 00:18:39.640 align:start position:0%
+uh and I'm still looking at the same
+ 
+
+00:18:39.640 --> 00:18:43.510 align:start position:0%
+uh and I'm still looking at the same
+table<00:18:40.640><c> and</c><00:18:41.200><c> uh</c><00:18:41.440><c> instead</c><00:18:42.000><c> of</c><00:18:42.480><c> select</c><00:18:43.120><c> we</c><00:18:43.280><c> will</c>
+
+00:18:43.510 --> 00:18:43.520 align:start position:0%
+table and uh instead of select we will
+ 
+
+00:18:43.520 --> 00:18:46.549 align:start position:0%
+table and uh instead of select we will
+change<00:18:43.919><c> this</c><00:18:44.160><c> to</c><00:18:44.600><c> verify.</c><00:18:45.600><c> Okay</c><00:18:46.080><c> so</c><00:18:46.320><c> this</c>
+
+00:18:46.549 --> 00:18:46.559 align:start position:0%
+change this to verify. Okay so this
+ 
+
+00:18:46.559 --> 00:18:48.549 align:start position:0%
+change this to verify. Okay so this
+verification<00:18:47.120><c> will</c><00:18:47.360><c> be</c><00:18:47.520><c> done</c><00:18:47.679><c> directly</c><00:18:48.160><c> at</c>
+
+00:18:48.549 --> 00:18:48.559 align:start position:0%
+verification will be done directly at
+ 
+
+00:18:48.559 --> 00:18:52.390 align:start position:0%
+verification will be done directly at
+the<00:18:48.880><c> table</c><00:18:49.600><c> control</c><00:18:50.200><c> level.</c><00:18:51.280><c> So</c><00:18:51.919><c> let's</c><00:18:52.240><c> go</c>
+
+00:18:52.390 --> 00:18:52.400 align:start position:0%
+the table control level. So let's go
+ 
+
+00:18:52.400 --> 00:18:55.549 align:start position:0%
+the table control level. So let's go
+ahead<00:18:52.960><c> and</c><00:18:53.360><c> try</c><00:18:53.600><c> to</c><00:18:53.840><c> run</c>
+
+00:18:55.549 --> 00:18:55.559 align:start position:0%
+ahead and try to run
+ 
+
+00:18:55.559 --> 00:18:58.150 align:start position:0%
+ahead and try to run
+this.<00:18:56.559><c> Okay,</c><00:18:56.799><c> as</c><00:18:56.960><c> you</c><00:18:57.120><c> can</c><00:18:57.280><c> see</c><00:18:57.679><c> uh</c><00:18:57.840><c> in</c><00:18:58.000><c> the</c>
+
+00:18:58.150 --> 00:18:58.160 align:start position:0%
+this. Okay, as you can see uh in the
+ 
+
+00:18:58.160 --> 00:19:01.270 align:start position:0%
+this. Okay, as you can see uh in the
+scratchbook<00:18:58.720><c> results</c><00:18:59.520><c> that</c><00:19:00.480><c> uh</c><00:19:00.640><c> the</c><00:19:00.960><c> value</c>
+
+00:19:01.270 --> 00:19:01.280 align:start position:0%
+scratchbook results that uh the value
+ 
+
+00:19:01.280 --> 00:19:04.390 align:start position:0%
+scratchbook results that uh the value
+has<00:19:01.600><c> been</c><00:19:01.919><c> verified</c><00:19:02.799><c> and</c><00:19:03.280><c> uh</c><00:19:03.440><c> it</c><00:19:03.760><c> was</c><00:19:04.080><c> a</c>
+
+00:19:04.390 --> 00:19:04.400 align:start position:0%
+has been verified and uh it was a
+ 
+
+00:19:04.400 --> 00:19:06.230 align:start position:0%
+has been verified and uh it was a
+success.<00:19:05.280><c> Obviously</c><00:19:05.679><c> we</c><00:19:05.840><c> will</c><00:19:05.919><c> not</c><00:19:06.080><c> get</c>
+
+00:19:06.230 --> 00:19:06.240 align:start position:0%
+success. Obviously we will not get
+ 
+
+00:19:06.240 --> 00:19:08.310 align:start position:0%
+success. Obviously we will not get
+anything<00:19:06.480><c> in</c><00:19:06.640><c> the</c><00:19:06.799><c> log</c><00:19:07.039><c> info</c><00:19:07.520><c> like</c><00:19:08.080><c> other</c>
+
+00:19:08.310 --> 00:19:08.320 align:start position:0%
+anything in the log info like other
+ 
+
+00:19:08.320 --> 00:19:11.870 align:start position:0%
+anything in the log info like other
+verifications<00:19:09.200><c> but</c><00:19:09.679><c> uh</c><00:19:09.840><c> it</c><00:19:10.160><c> has</c><00:19:10.480><c> done</c><00:19:10.720><c> this</c>
+
+00:19:11.870 --> 00:19:11.880 align:start position:0%
+verifications but uh it has done this
+ 
+
+00:19:11.880 --> 00:19:15.669 align:start position:0%
+verifications but uh it has done this
+verification.<00:19:12.880><c> So</c><00:19:13.600><c> similarly</c><00:19:14.240><c> you</c><00:19:14.559><c> can</c><00:19:14.880><c> also</c>
+
+00:19:15.669 --> 00:19:15.679 align:start position:0%
+verification. So similarly you can also
+ 
+
+00:19:15.679 --> 00:19:20.710 align:start position:0%
+verification. So similarly you can also
+uh<00:19:15.840><c> do</c><00:19:16.320><c> the</c><00:19:16.720><c> column</c><00:19:17.120><c> count</c><00:19:17.440><c> here.</c>
+
+00:19:20.710 --> 00:19:20.720 align:start position:0%
+ 
+ 
+
+00:19:20.720 --> 00:19:23.710 align:start position:0%
+ 
+Okay.<00:19:21.559><c> Um,</c>
+
+00:19:23.710 --> 00:19:23.720 align:start position:0%
+Okay. Um,
+ 
+
+00:19:23.720 --> 00:19:27.750 align:start position:0%
+Okay. Um,
+and<00:19:24.720><c> let's</c><00:19:25.120><c> change</c><00:19:25.840><c> the</c><00:19:26.160><c> value</c><00:19:26.480><c> to</c><00:19:26.720><c> 10.</c><00:19:27.520><c> I</c>
+
+00:19:27.750 --> 00:19:27.760 align:start position:0%
+and let's change the value to 10. I
+ 
+
+00:19:27.760 --> 00:19:29.510 align:start position:0%
+and let's change the value to 10. I
+haven't<00:19:28.080><c> counted</c><00:19:28.559><c> the</c><00:19:28.799><c> number</c><00:19:28.960><c> of</c><00:19:29.200><c> columns</c>
+
+00:19:29.510 --> 00:19:29.520 align:start position:0%
+haven't counted the number of columns
+ 
+
+00:19:29.520 --> 00:19:33.110 align:start position:0%
+haven't counted the number of columns
+here,<00:19:29.760><c> so</c><00:19:30.000><c> it</c><00:19:30.400><c> might</c><00:19:31.000><c> fail.</c><00:19:32.000><c> But,</c><00:19:32.559><c> uh,</c><00:19:32.640><c> we</c><00:19:32.880><c> will</c>
+
+00:19:33.110 --> 00:19:33.120 align:start position:0%
+here, so it might fail. But, uh, we will
+ 
+
+00:19:33.120 --> 00:19:35.230 align:start position:0%
+here, so it might fail. But, uh, we will
+see<00:19:33.600><c> uh</c><00:19:33.679><c> if</c><00:19:33.919><c> it</c><00:19:34.160><c> fails</c><00:19:34.480><c> or</c>
+
+00:19:35.230 --> 00:19:35.240 align:start position:0%
+see uh if it fails or
+ 
+
+00:19:35.240 --> 00:19:38.590 align:start position:0%
+see uh if it fails or
+passes.<00:19:36.240><c> Okay.</c><00:19:36.640><c> Um,</c><00:19:37.039><c> so</c><00:19:37.360><c> expectedly</c><00:19:38.160><c> it</c>
+
+00:19:38.590 --> 00:19:38.600 align:start position:0%
+passes. Okay. Um, so expectedly it
+ 
+
+00:19:38.600 --> 00:19:41.669 align:start position:0%
+passes. Okay. Um, so expectedly it
+failed.<00:19:39.600><c> Uh,</c><00:19:39.919><c> the</c><00:19:40.160><c> reason</c><00:19:40.400><c> is</c><00:19:41.280><c> uh</c><00:19:41.440><c> this</c>
+
+00:19:41.669 --> 00:19:41.679 align:start position:0%
+failed. Uh, the reason is uh this
+ 
+
+00:19:41.679 --> 00:19:44.310 align:start position:0%
+failed. Uh, the reason is uh this
+particular<00:19:42.320><c> table</c><00:19:42.720><c> has</c><00:19:42.960><c> got</c><00:19:43.600><c> around</c><00:19:44.000><c> nine</c>
+
+00:19:44.310 --> 00:19:44.320 align:start position:0%
+particular table has got around nine
+ 
+
+00:19:44.320 --> 00:19:47.830 align:start position:0%
+particular table has got around nine
+columns,<00:19:44.880><c> right?</c><00:19:45.760><c> So</c><00:19:46.480><c> uh</c><00:19:46.559><c> but</c><00:19:47.039><c> uh</c><00:19:47.200><c> we</c><00:19:47.440><c> can</c><00:19:47.600><c> use</c>
+
+00:19:47.830 --> 00:19:47.840 align:start position:0%
+columns, right? So uh but uh we can use
+ 
+
+00:19:47.840 --> 00:19:50.070 align:start position:0%
+columns, right? So uh but uh we can use
+this<00:19:48.080><c> properties</c><00:19:48.640><c> to</c><00:19:48.880><c> verify</c><00:19:49.280><c> the</c><00:19:49.760><c> row</c><00:19:49.840><c> and</c>
+
+00:19:50.070 --> 00:19:50.080 align:start position:0%
+this properties to verify the row and
+ 
+
+00:19:50.080 --> 00:19:54.150 align:start position:0%
+this properties to verify the row and
+column<00:19:50.480><c> count.</c><00:19:51.039><c> Right.</c><00:19:51.919><c> So</c><00:19:52.559><c> let</c><00:19:52.799><c> me</c><00:19:53.160><c> change</c>
+
+00:19:54.150 --> 00:19:54.160 align:start position:0%
+column count. Right. So let me change
+ 
+
+00:19:54.160 --> 00:19:59.710 align:start position:0%
+column count. Right. So let me change
+this<00:19:54.720><c> step</c><00:19:55.039><c> name</c><00:19:55.520><c> to</c><00:19:56.720><c> row</c><00:19:57.120><c> column</c>
+
+00:19:59.710 --> 00:19:59.720 align:start position:0%
+ 
+ 
+
+00:19:59.720 --> 00:20:03.430 align:start position:0%
+ 
+count.<00:20:00.720><c> Okay.</c><00:20:01.600><c> And</c><00:20:01.919><c> let's</c><00:20:02.240><c> move</c><00:20:02.400><c> on.</c><00:20:02.960><c> Um</c>
+
+00:20:03.430 --> 00:20:03.440 align:start position:0%
+count. Okay. And let's move on. Um
+ 
+
+00:20:03.440 --> 00:20:05.750 align:start position:0%
+count. Okay. And let's move on. Um
+obviously<00:20:03.840><c> I</c><00:20:04.080><c> can</c><00:20:04.160><c> correct</c><00:20:04.480><c> this</c><00:20:04.720><c> and</c><00:20:05.039><c> I</c><00:20:05.360><c> can</c>
+
+00:20:05.750 --> 00:20:05.760 align:start position:0%
+obviously I can correct this and I can
+ 
+
+00:20:05.760 --> 00:20:09.669 align:start position:0%
+obviously I can correct this and I can
+rerun<00:20:06.240><c> this</c><00:20:06.880><c> always.</c><00:20:07.840><c> Okay.</c><00:20:08.799><c> And</c><00:20:09.039><c> it</c><00:20:09.360><c> should</c>
+
+00:20:09.669 --> 00:20:09.679 align:start position:0%
+rerun this always. Okay. And it should
+ 
+
+00:20:09.679 --> 00:20:13.110 align:start position:0%
+rerun this always. Okay. And it should
+pass<00:20:10.160><c> the</c><00:20:10.400><c> second</c><00:20:10.640><c> time</c><00:20:10.880><c> around.</c>
+
+00:20:13.110 --> 00:20:13.120 align:start position:0%
+pass the second time around.
+ 
+
+00:20:13.120 --> 00:20:16.870 align:start position:0%
+pass the second time around.
+So<00:20:13.760><c> uh</c><00:20:14.080><c> the</c><00:20:14.320><c> next</c><00:20:14.480><c> thing</c><00:20:14.720><c> which</c><00:20:15.200><c> we</c><00:20:15.520><c> can</c><00:20:15.679><c> do</c><00:20:16.080><c> is</c>
+
+00:20:16.870 --> 00:20:16.880 align:start position:0%
+So uh the next thing which we can do is
+ 
+
+00:20:16.880 --> 00:20:19.270 align:start position:0%
+So uh the next thing which we can do is
+uh<00:20:17.039><c> saving</c><00:20:17.600><c> the</c><00:20:17.919><c> value</c><00:20:18.160><c> of</c><00:20:18.320><c> a</c><00:20:18.559><c> particular</c><00:20:18.880><c> cell</c>
+
+00:20:19.270 --> 00:20:19.280 align:start position:0%
+uh saving the value of a particular cell
+ 
+
+00:20:19.280 --> 00:20:23.190 align:start position:0%
+uh saving the value of a particular cell
+to<00:20:19.600><c> a</c><00:20:19.840><c> buffer</c><00:20:20.679><c> right.</c><00:20:21.679><c> So</c><00:20:21.919><c> for</c><00:20:22.240><c> that</c><00:20:22.640><c> again</c>
+
+00:20:23.190 --> 00:20:23.200 align:start position:0%
+to a buffer right. So for that again
+ 
+
+00:20:23.200 --> 00:20:24.909 align:start position:0%
+to a buffer right. So for that again
+we'll<00:20:23.600><c> add</c><00:20:23.760><c> the</c><00:20:24.000><c> module</c>
+
+00:20:24.909 --> 00:20:24.919 align:start position:0%
+we'll add the module
+ 
+
+00:20:24.919 --> 00:20:27.590 align:start position:0%
+we'll add the module
+here.<00:20:25.919><c> Okay.</c><00:20:26.240><c> So</c><00:20:26.400><c> here</c><00:20:26.720><c> what</c><00:20:26.880><c> we</c><00:20:27.120><c> will</c><00:20:27.280><c> do</c><00:20:27.360><c> is</c>
+
+00:20:27.590 --> 00:20:27.600 align:start position:0%
+here. Okay. So here what we will do is
+ 
+
+00:20:27.600 --> 00:20:30.149 align:start position:0%
+here. Okay. So here what we will do is
+we<00:20:27.840><c> will</c><00:20:27.919><c> select</c><00:20:28.240><c> a</c><00:20:28.400><c> particular</c><00:20:28.799><c> column.</c><00:20:29.520><c> So</c>
+
+00:20:30.149 --> 00:20:30.159 align:start position:0%
+we will select a particular column. So
+ 
+
+00:20:30.159 --> 00:20:35.830 align:start position:0%
+we will select a particular column. So
+uh<00:20:30.320><c> let's</c><00:20:31.240><c> choose</c><00:20:32.240><c> maybe</c><00:20:33.200><c> um</c><00:20:33.760><c> the</c><00:20:34.120><c> name.</c><00:20:35.120><c> Okay.</c>
+
+00:20:35.830 --> 00:20:35.840 align:start position:0%
+uh let's choose maybe um the name. Okay.
+ 
+
+00:20:35.840 --> 00:20:38.870 align:start position:0%
+uh let's choose maybe um the name. Okay.
+And<00:20:36.080><c> then</c><00:20:36.559><c> uh</c><00:20:36.640><c> we</c><00:20:36.880><c> will</c><00:20:37.039><c> choose</c><00:20:37.360><c> a</c><00:20:37.880><c> particular</c>
+
+00:20:38.870 --> 00:20:38.880 align:start position:0%
+And then uh we will choose a particular
+ 
+
+00:20:38.880 --> 00:20:42.310 align:start position:0%
+And then uh we will choose a particular
+cell<00:20:39.200><c> number.</c><00:20:39.760><c> Right.</c><00:20:40.159><c> So</c><00:20:41.120><c> let's</c><00:20:41.520><c> choose</c>
+
+00:20:42.310 --> 00:20:42.320 align:start position:0%
+cell number. Right. So let's choose
+ 
+
+00:20:42.320 --> 00:20:45.350 align:start position:0%
+cell number. Right. So let's choose
+anything.<00:20:42.960><c> Let's</c><00:20:43.280><c> choose</c><00:20:43.720><c> five.</c><00:20:44.720><c> Uh</c><00:20:44.960><c> we</c><00:20:45.200><c> don't</c>
+
+00:20:45.350 --> 00:20:45.360 align:start position:0%
+anything. Let's choose five. Uh we don't
+ 
+
+00:20:45.360 --> 00:20:48.149 align:start position:0%
+anything. Let's choose five. Uh we don't
+know<00:20:45.520><c> what</c><00:20:45.840><c> kind</c><00:20:46.159><c> what</c><00:20:46.799><c> cell</c><00:20:47.120><c> value</c><00:20:47.440><c> it</c><00:20:47.679><c> has</c>
+
+00:20:48.149 --> 00:20:48.159 align:start position:0%
+know what kind what cell value it has
+ 
+
+00:20:48.159 --> 00:20:50.390 align:start position:0%
+know what kind what cell value it has
+but<00:20:48.480><c> I</c><00:20:48.720><c> want</c><00:20:48.799><c> to</c><00:20:48.960><c> buffer</c><00:20:49.360><c> this</c><00:20:49.600><c> and</c><00:20:49.840><c> I</c><00:20:50.080><c> want</c><00:20:50.240><c> to</c>
+
+00:20:50.390 --> 00:20:50.400 align:start position:0%
+but I want to buffer this and I want to
+ 
+
+00:20:50.400 --> 00:20:53.029 align:start position:0%
+but I want to buffer this and I want to
+save<00:20:50.640><c> this.</c><00:20:51.039><c> Right.</c><00:20:51.679><c> So</c><00:20:51.840><c> I'll</c><00:20:52.080><c> choose</c><00:20:52.640><c> the</c>
+
+00:20:53.029 --> 00:20:53.039 align:start position:0%
+save this. Right. So I'll choose the
+ 
+
+00:20:53.039 --> 00:20:57.029 align:start position:0%
+save this. Right. So I'll choose the
+text<00:20:53.440><c> property</c><00:20:54.039><c> here.</c><00:20:55.039><c> Okay.</c><00:20:55.760><c> Then</c><00:20:56.000><c> I</c><00:20:56.240><c> will</c><00:20:56.880><c> uh</c>
+
+00:20:57.029 --> 00:20:57.039 align:start position:0%
+text property here. Okay. Then I will uh
+ 
+
+00:20:57.039 --> 00:20:59.630 align:start position:0%
+text property here. Okay. Then I will uh
+save<00:20:57.360><c> it</c><00:20:57.760><c> to</c><00:20:58.159><c> some</c>
+
+00:20:59.630 --> 00:20:59.640 align:start position:0%
+save it to some
+ 
+
+00:20:59.640 --> 00:21:04.149 align:start position:0%
+save it to some
+b<00:21:00.640><c> name.</c><00:21:01.520><c> So</c><00:21:01.760><c> this</c><00:21:01.919><c> is</c><00:21:02.000><c> the</c><00:21:02.240><c> buffer</c><00:21:02.640><c> name.</c>
+
+00:21:04.149 --> 00:21:04.159 align:start position:0%
+b name. So this is the buffer name.
+ 
+
+00:21:04.159 --> 00:21:07.590 align:start position:0%
+b name. So this is the buffer name.
+So<00:21:04.400><c> if</c><00:21:04.640><c> it</c><00:21:05.520><c> uh</c><00:21:05.840><c> is</c><00:21:06.159><c> able</c><00:21:06.480><c> to</c><00:21:06.720><c> select</c><00:21:07.039><c> this</c><00:21:07.360><c> and</c>
+
+00:21:07.590 --> 00:21:07.600 align:start position:0%
+So if it uh is able to select this and
+ 
+
+00:21:07.600 --> 00:21:10.950 align:start position:0%
+So if it uh is able to select this and
+then<00:21:07.840><c> it</c><00:21:08.159><c> is</c><00:21:08.400><c> able</c><00:21:08.720><c> to</c><00:21:09.200><c> get</c><00:21:09.440><c> that</c><00:21:09.760><c> text</c><00:21:10.320><c> value</c>
+
+00:21:10.950 --> 00:21:10.960 align:start position:0%
+then it is able to get that text value
+ 
+
+00:21:10.960 --> 00:21:12.590 align:start position:0%
+then it is able to get that text value
+it<00:21:11.120><c> will</c><00:21:11.280><c> save</c><00:21:11.520><c> it</c><00:21:11.679><c> in</c><00:21:11.840><c> this</c><00:21:12.000><c> particular</c>
+
+00:21:12.590 --> 00:21:12.600 align:start position:0%
+it will save it in this particular
+ 
+
+00:21:12.600 --> 00:21:15.630 align:start position:0%
+it will save it in this particular
+buffer.<00:21:13.600><c> So</c><00:21:13.919><c> let's</c><00:21:14.240><c> go</c><00:21:14.400><c> ahead</c><00:21:14.559><c> and</c><00:21:14.720><c> run</c>
+
+00:21:15.630 --> 00:21:15.640 align:start position:0%
+buffer. So let's go ahead and run
+ 
+
+00:21:15.640 --> 00:21:18.230 align:start position:0%
+buffer. So let's go ahead and run
+this.<00:21:16.640><c> Okay.</c><00:21:16.960><c> So</c><00:21:17.120><c> as</c><00:21:17.280><c> you</c><00:21:17.440><c> can</c><00:21:17.520><c> see</c><00:21:18.000><c> uh</c><00:21:18.080><c> the</c>
+
+00:21:18.230 --> 00:21:18.240 align:start position:0%
+this. Okay. So as you can see uh the
+ 
+
+00:21:18.240 --> 00:21:21.190 align:start position:0%
+this. Okay. So as you can see uh the
+test<00:21:18.559><c> has</c><00:21:18.799><c> passed</c><00:21:19.520><c> and</c><00:21:19.840><c> let's</c><00:21:20.159><c> see</c><00:21:20.320><c> what</c><00:21:20.880><c> value</c>
+
+00:21:21.190 --> 00:21:21.200 align:start position:0%
+test has passed and let's see what value
+ 
+
+00:21:21.200 --> 00:21:24.070 align:start position:0%
+test has passed and let's see what value
+it<00:21:21.440><c> is</c><00:21:21.600><c> stored</c><00:21:21.840><c> in</c><00:21:22.080><c> this</c><00:21:22.240><c> particular</c><00:21:23.000><c> buffer.</c>
+
+00:21:24.070 --> 00:21:24.080 align:start position:0%
+it is stored in this particular buffer.
+ 
+
+00:21:24.080 --> 00:21:27.750 align:start position:0%
+it is stored in this particular buffer.
+So<00:21:24.760><c> p_name</c><00:21:25.760><c> has</c><00:21:26.080><c> got</c><00:21:26.480><c> the</c><00:21:26.799><c> value</c><00:21:27.120><c> fun</c><00:21:27.520><c> with</c>
+
+00:21:27.750 --> 00:21:27.760 align:start position:0%
+So p_name has got the value fun with
+ 
+
+00:21:27.760 --> 00:21:31.190 align:start position:0%
+So p_name has got the value fun with
+tables<00:21:28.400><c> right</c><00:21:28.960><c> and</c><00:21:29.200><c> if</c><00:21:29.360><c> I</c><00:21:29.520><c> look</c><00:21:29.679><c> at</c><00:21:29.840><c> my</c><00:21:30.200><c> table</c>
+
+00:21:31.190 --> 00:21:31.200 align:start position:0%
+tables right and if I look at my table
+ 
+
+00:21:31.200 --> 00:21:34.230 align:start position:0%
+tables right and if I look at my table
+this<00:21:31.679><c> is</c><00:21:32.400><c> uh</c><00:21:32.559><c> the</c><00:21:32.799><c> fifth</c><00:21:33.200><c> one</c><00:21:33.520><c> which</c><00:21:33.679><c> is</c><00:21:33.919><c> fun</c>
+
+00:21:34.230 --> 00:21:34.240 align:start position:0%
+this is uh the fifth one which is fun
+ 
+
+00:21:34.240 --> 00:21:37.350 align:start position:0%
+this is uh the fifth one which is fun
+with<00:21:34.760><c> tables.</c><00:21:35.760><c> So</c><00:21:35.919><c> I</c><00:21:36.159><c> can</c><00:21:36.320><c> buffer</c><00:21:36.799><c> out</c><00:21:37.039><c> any</c>
+
+00:21:37.350 --> 00:21:37.360 align:start position:0%
+with tables. So I can buffer out any
+ 
+
+00:21:37.360 --> 00:21:38.950 align:start position:0%
+with tables. So I can buffer out any
+particular<00:21:37.760><c> value</c><00:21:38.080><c> from</c><00:21:38.320><c> this</c><00:21:38.559><c> particular</c>
+
+00:21:38.950 --> 00:21:38.960 align:start position:0%
+particular value from this particular
+ 
+
+00:21:38.960 --> 00:21:41.870 align:start position:0%
+particular value from this particular
+table<00:21:39.600><c> using</c><00:21:40.000><c> this</c><00:21:40.320><c> particular</c><00:21:40.720><c> method.</c>
+
+00:21:41.870 --> 00:21:41.880 align:start position:0%
+table using this particular method.
+ 
+
+00:21:41.880 --> 00:21:45.669 align:start position:0%
+table using this particular method.
+Okay.<00:21:42.880><c> And</c><00:21:43.520><c> uh</c><00:21:43.679><c> if</c><00:21:43.919><c> you</c><00:21:44.080><c> want</c><00:21:44.640><c> to</c><00:21:45.280><c> see</c><00:21:45.440><c> the</c>
+
+00:21:45.669 --> 00:21:45.679 align:start position:0%
+Okay. And uh if you want to see the
+ 
+
+00:21:45.679 --> 00:21:48.390 align:start position:0%
+Okay. And uh if you want to see the
+buffer<00:21:46.240><c> as</c><00:21:46.559><c> well</c><00:21:46.960><c> so</c><00:21:47.200><c> it</c><00:21:47.440><c> will</c><00:21:47.679><c> be</c><00:21:47.840><c> available</c>
+
+00:21:48.390 --> 00:21:48.400 align:start position:0%
+buffer as well so it will be available
+ 
+
+00:21:48.400 --> 00:21:51.230 align:start position:0%
+buffer as well so it will be available
+in<00:21:48.880><c> the</c><00:21:49.039><c> buffer</c><00:21:49.520><c> viewer.</c>
+
+00:21:51.230 --> 00:21:51.240 align:start position:0%
+in the buffer viewer.
+ 
+
+00:21:51.240 --> 00:21:53.990 align:start position:0%
+in the buffer viewer.
+Okay.<00:21:52.320><c> So</c><00:21:52.559><c> these</c><00:21:52.799><c> are</c><00:21:53.039><c> some</c><00:21:53.280><c> of</c><00:21:53.520><c> the</c><00:21:53.760><c> different</c>
+
+00:21:53.990 --> 00:21:54.000 align:start position:0%
+Okay. So these are some of the different
+ 
+
+00:21:54.000 --> 00:21:56.310 align:start position:0%
+Okay. So these are some of the different
+operations<00:21:54.559><c> which</c><00:21:54.880><c> you</c><00:21:55.039><c> can</c><00:21:55.200><c> do</c><00:21:55.919><c> using</c>
+
+00:21:56.310 --> 00:21:56.320 align:start position:0%
+operations which you can do using
+ 
+
+00:21:56.320 --> 00:21:58.470 align:start position:0%
+operations which you can do using
+different<00:21:56.720><c> properties</c><00:21:57.679><c> uh</c><00:21:57.760><c> and</c><00:21:58.080><c> different</c>
+
+00:21:58.470 --> 00:21:58.480 align:start position:0%
+different properties uh and different
+ 
+
+00:21:58.480 --> 00:22:01.110 align:start position:0%
+different properties uh and different
+methods<00:21:58.960><c> which</c><00:21:59.200><c> are</c><00:21:59.360><c> present</c><00:21:59.600><c> in</c><00:21:59.760><c> TUSCa.</c><00:22:00.880><c> Uh</c>
+
+00:22:01.110 --> 00:22:01.120 align:start position:0%
+methods which are present in TUSCa. Uh
+ 
+
+00:22:01.120 --> 00:22:03.909 align:start position:0%
+methods which are present in TUSCa. Uh
+this<00:22:01.360><c> is</c><00:22:01.520><c> part</c><00:22:01.760><c> of</c><00:22:02.080><c> the</c><00:22:02.320><c> TBOX</c><00:22:03.280><c> uh</c><00:22:03.520><c> table</c>
+
+00:22:03.909 --> 00:22:03.919 align:start position:0%
+this is part of the TBOX uh table
+ 
+
+00:22:03.919 --> 00:22:06.070 align:start position:0%
+this is part of the TBOX uh table
+control<00:22:04.559><c> and</c><00:22:04.799><c> once</c><00:22:05.039><c> you</c><00:22:05.200><c> add</c><00:22:05.440><c> that</c><00:22:05.679><c> control</c>
+
+00:22:06.070 --> 00:22:06.080 align:start position:0%
+control and once you add that control
+ 
+
+00:22:06.080 --> 00:22:07.990 align:start position:0%
+control and once you add that control
+then<00:22:06.400><c> you</c><00:22:06.720><c> will</c><00:22:06.960><c> have</c><00:22:07.120><c> access</c><00:22:07.440><c> to</c><00:22:07.600><c> all</c><00:22:07.760><c> these</c>
+
+00:22:07.990 --> 00:22:08.000 align:start position:0%
+then you will have access to all these
+ 
+
+00:22:08.000 --> 00:22:10.310 align:start position:0%
+then you will have access to all these
+properties<00:22:08.960><c> and</c><00:22:09.280><c> using</c><00:22:09.679><c> different</c><00:22:10.000><c> action</c>
+
+00:22:10.310 --> 00:22:10.320 align:start position:0%
+properties and using different action
+ 
+
+00:22:10.320 --> 00:22:12.789 align:start position:0%
+properties and using different action
+modes<00:22:10.640><c> along</c><00:22:10.960><c> with</c><00:22:11.120><c> the</c><00:22:11.280><c> properties</c><00:22:12.080><c> and</c><00:22:12.480><c> the</c>
+
+00:22:12.789 --> 00:22:12.799 align:start position:0%
+modes along with the properties and the
+ 
+
+00:22:12.799 --> 00:22:15.630 align:start position:0%
+modes along with the properties and the
+attributes<00:22:13.679><c> you</c><00:22:14.080><c> can</c><00:22:14.799><c> uh</c>
+
+00:22:15.630 --> 00:22:15.640 align:start position:0%
+attributes you can uh
+ 
+
+00:22:15.640 --> 00:22:20.470 align:start position:0%
+attributes you can uh
+basically<00:22:16.640><c> steer</c><00:22:17.520><c> u</c><00:22:17.919><c> any</c><00:22:18.320><c> table</c><00:22:19.120><c> and</c><00:22:19.600><c> any</c><00:22:20.000><c> cell</c>
+
+00:22:20.470 --> 00:22:20.480 align:start position:0%
+basically steer u any table and any cell
+ 
+
+00:22:20.480 --> 00:22:23.679 align:start position:0%
+basically steer u any table and any cell
+or<00:22:20.799><c> any</c><00:22:21.120><c> column</c><00:22:21.440><c> or</c>
+

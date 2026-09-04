@@ -1,0 +1,602 @@
+[
+ {
+  "start": 12.39,
+  "end": 12.4,
+  "text": "hey everyone welcome back to our Channel"
+ },
+ {
+  "start": 12.4,
+  "end": 15.03,
+  "text": "I am back with another interesting topic"
+ },
+ {
+  "start": 15.04,
+  "end": 17.67,
+  "text": "in the tosa automation"
+ },
+ {
+  "start": 17.68,
+  "end": 20.349,
+  "text": "playlist so continuing with our topic on"
+ },
+ {
+  "start": 20.359,
+  "end": 23.31,
+  "text": "test automation obstacles let's look at"
+ },
+ {
+  "start": 23.32,
+  "end": 25.189,
+  "text": "our next obstacle which is called the"
+ },
+ {
+  "start": 25.199,
+  "end": 28.31,
+  "text": "meeting scheduler now this is another"
+ },
+ {
+  "start": 28.32,
+  "end": 31.15,
+  "text": "Dynamic table or a stat I table which"
+ },
+ {
+  "start": 31.16,
+  "end": 34.47,
+  "text": "has got some calendar like structure"
+ },
+ {
+  "start": 34.48,
+  "end": 38.03,
+  "text": "with some timings and then the days and"
+ },
+ {
+  "start": 38.04,
+  "end": 41.029,
+  "text": "then the status of uh the meeting room"
+ },
+ {
+  "start": 41.039,
+  "end": 43.51,
+  "text": "whether it is available or not and out"
+ },
+ {
+  "start": 43.52,
+  "end": 47.029,
+  "text": "of this uh we need to find a room on"
+ },
+ {
+  "start": 47.039,
+  "end": 51.75,
+  "text": "Thursday uh 11 to13 is the timing and we"
+ },
+ {
+  "start": 51.76,
+  "end": 53.389,
+  "text": "need to find whether it is open or"
+ },
+ {
+  "start": 53.399,
+  "end": 58.389,
+  "text": "closed okay so basically this particular"
+ },
+ {
+  "start": 58.399,
+  "end": 60.79,
+  "text": "status right so on Thursday we need to"
+ },
+ {
+  "start": 60.8,
+  "end": 63.509,
+  "text": "find this particular timing and then we"
+ },
+ {
+  "start": 63.519,
+  "end": 65.31,
+  "text": "need to find the status whether it is"
+ },
+ {
+  "start": 65.32,
+  "end": 67.67,
+  "text": "open or closed and then we need to type"
+ },
+ {
+  "start": 67.68,
+  "end": 70.429,
+  "text": "that particular status uh in this uh"
+ },
+ {
+  "start": 70.439,
+  "end": 74.55,
+  "text": "text box so for me it is open right now"
+ },
+ {
+  "start": 74.56,
+  "end": 77.27,
+  "text": "so if I type this then the obstacle is"
+ },
+ {
+  "start": 77.28,
+  "end": 80.03,
+  "text": "completed okay so it seems to be a"
+ },
+ {
+  "start": 80.04,
+  "end": 82.429,
+  "text": "pretty simple one uh considering we have"
+ },
+ {
+  "start": 82.439,
+  "end": 85.59,
+  "text": "done some complex tables and uh this one"
+ },
+ {
+  "start": 85.6,
+  "end": 88.149,
+  "text": "is pretty simple the reason why it is"
+ },
+ {
+  "start": 88.159,
+  "end": 90.51,
+  "text": "simple is because uh it has already"
+ },
+ {
+  "start": 90.52,
+  "end": 94.469,
+  "text": "provided us the row okay and also it has"
+ },
+ {
+  "start": 94.479,
+  "end": 98.19,
+  "text": "provided us the column so the THS day"
+ },
+ {
+  "start": 98.2,
+  "end": 101.83,
+  "text": "refers to the column header and the 11"
+ },
+ {
+  "start": 101.84,
+  "end": 105.27,
+  "text": "to 13 timing is the row header so once"
+ },
+ {
+  "start": 105.28,
+  "end": 108.55,
+  "text": "you know which row or which column you"
+ },
+ {
+  "start": 108.56,
+  "end": 112.35,
+  "text": "have to work on then it becomes a little"
+ },
+ {
+  "start": 112.36,
+  "end": 115.19,
+  "text": "easier now in some other scenario this"
+ },
+ {
+  "start": 115.2,
+  "end": 117.749,
+  "text": "could be more interesting or a little"
+ },
+ {
+  "start": 117.759,
+  "end": 121.31,
+  "text": "difficult when you don't know the timing"
+ },
+ {
+  "start": 121.32,
+  "end": 123.95,
+  "text": "okay so in this case it is fixed but"
+ },
+ {
+  "start": 123.96,
+  "end": 127.31,
+  "text": "think that um it is a dynamic timing so"
+ },
+ {
+  "start": 127.32,
+  "end": 130.029,
+  "text": "you need to find the status of that"
+ },
+ {
+  "start": 130.039,
+  "end": 131.91,
+  "text": "particular timing and it keeps on"
+ },
+ {
+  "start": 131.92,
+  "end": 134.11,
+  "text": "changing then it becomes a little"
+ },
+ {
+  "start": 134.12,
+  "end": 136.67,
+  "text": "interesting but for us uh in this"
+ },
+ {
+  "start": 136.68,
+  "end": 139.589,
+  "text": "particular case it is static so we'll go"
+ },
+ {
+  "start": 139.599,
+  "end": 142.949,
+  "text": "ahead and automate this uh in tosa so"
+ },
+ {
+  "start": 142.959,
+  "end": 145.83,
+  "text": "coming back to tosa the first step is"
+ },
+ {
+  "start": 145.84,
+  "end": 147.99,
+  "text": "again to scan this particular module so"
+ },
+ {
+  "start": 148.0,
+  "end": 150.43,
+  "text": "we'll go to our obstacles"
+ },
+ {
+  "start": 150.44,
+  "end": 163.07,
+  "text": "and here we will scan this particular"
+ },
+ {
+  "start": 166.309,
+  "end": 166.319,
+  "text": "application okay and I basically need uh"
+ },
+ {
+  "start": 166.319,
+  "end": 169.229,
+  "text": "these two elements one is the time table"
+ },
+ {
+  "start": 169.239,
+  "end": 171.509,
+  "text": "and the other is the result text which"
+ },
+ {
+  "start": 171.519,
+  "end": 175.509,
+  "text": "is a text box okay and then I'm going to"
+ },
+ {
+  "start": 175.519,
+  "end": 178.75,
+  "text": "rename the module with this obstacle"
+ },
+ {
+  "start": 178.76,
+  "end": 181.869,
+  "text": "number"
+ },
+ {
+  "start": 184.19,
+  "end": 184.2,
+  "text": "and then I'm going to save this and"
+ },
+ {
+  "start": 184.2,
+  "end": 185.869,
+  "text": "close this"
+ },
+ {
+  "start": 185.879,
+  "end": 190.309,
+  "text": "okay now uh going back to tosa again uh"
+ },
+ {
+  "start": 190.319,
+  "end": 192.949,
+  "text": "going back to test cases section and"
+ },
+ {
+  "start": 192.959,
+  "end": 194.99,
+  "text": "obstacles we'll be creating a new"
+ },
+ {
+  "start": 195.0,
+  "end": 196.55,
+  "text": "obstacle test"
+ },
+ {
+  "start": 196.56,
+  "end": 200.91,
+  "text": "case and then uh we are going to add the"
+ },
+ {
+  "start": 200.92,
+  "end": 205.47,
+  "text": "module to this particular test case"
+ },
+ {
+  "start": 209.27,
+  "end": 209.28,
+  "text": "Okay okay so we have got the table and"
+ },
+ {
+  "start": 209.28,
+  "end": 210.229,
+  "text": "the text"
+ },
+ {
+  "start": 210.239,
+  "end": 212.589,
+  "text": "now what we need to do here is pretty"
+ },
+ {
+  "start": 212.599,
+  "end": 216.27,
+  "text": "simple so we need to select the row and"
+ },
+ {
+  "start": 216.28,
+  "end": 221.509,
+  "text": "the row here is this right so 11 to13 is"
+ },
+ {
+  "start": 221.519,
+  "end": 223.03,
+  "text": "the text which is present in this"
+ },
+ {
+  "start": 223.04,
+  "end": 226.03,
+  "text": "particular row right so we can take that"
+ },
+ {
+  "start": 226.04,
+  "end": 228.429,
+  "text": "text directly and tosa will be able to"
+ },
+ {
+  "start": 228.439,
+  "end": 231.19,
+  "text": "select it with this particular text"
+ },
+ {
+  "start": 231.2,
+  "end": 233.949,
+  "text": "right so we'll go back here and in the"
+ },
+ {
+  "start": 233.959,
+  "end": 236.67,
+  "text": "row we will put this particular"
+ },
+ {
+  "start": 236.68,
+  "end": 239.789,
+  "text": "text okay so it will uh select the the"
+ },
+ {
+  "start": 239.799,
+  "end": 241.91,
+  "text": "row based on this particular text if it"
+ },
+ {
+  "start": 241.92,
+  "end": 245.589,
+  "text": "is unique if it is not unique then um we"
+ },
+ {
+  "start": 245.599,
+  "end": 247.55,
+  "text": "need to make some more adjustments but"
+ },
+ {
+  "start": 247.56,
+  "end": 250.67,
+  "text": "right now it is unique okay and then in"
+ },
+ {
+  "start": 250.68,
+  "end": 253.99,
+  "text": "the cell uh we can check that these are"
+ },
+ {
+  "start": 254.0,
+  "end": 255.19,
+  "text": "all the column headers which are"
+ },
+ {
+  "start": 255.2,
+  "end": 257.349,
+  "text": "displaying here so we need to select"
+ },
+ {
+  "start": 257.359,
+  "end": 258.509,
+  "text": "Thursday"
+ },
+ {
+  "start": 258.519,
+  "end": 261.949,
+  "text": "here and uh then instead of verify we"
+ },
+ {
+  "start": 261.959,
+  "end": 266.15,
+  "text": "will do a buffer okay and uh in this I"
+ },
+ {
+  "start": 266.16,
+  "end": 267.43,
+  "text": "will say"
+ },
+ {
+  "start": 267.44,
+  "end": 270.83,
+  "text": "bore status"
+ },
+ {
+  "start": 270.84,
+  "end": 272.55,
+  "text": "so it will be stored uh in this"
+ },
+ {
+  "start": 272.56,
+  "end": 274.55,
+  "text": "particular buffer name which is bore"
+ },
+ {
+  "start": 274.56,
+  "end": 277.59,
+  "text": "status and then in the result text I can"
+ },
+ {
+  "start": 277.6,
+  "end": 280.909,
+  "text": "just use the buffer okay so this time"
+ },
+ {
+  "start": 280.919,
+  "end": 283.029,
+  "text": "around I will use the send"
+ },
+ {
+  "start": 283.039,
+  "end": 285.95,
+  "text": "keys and inside this I will use the"
+ },
+ {
+  "start": 285.96,
+  "end": 296.99,
+  "text": "buffer okay so bcore"
+ },
+ {
+  "start": 299.59,
+  "end": 299.6,
+  "text": "status so this is all we need to do in"
+ },
+ {
+  "start": 299.6,
+  "end": 302.55,
+  "text": "this particular test case um and now"
+ },
+ {
+  "start": 302.56,
+  "end": 306.029,
+  "text": "let's change the obstacle to complet it"
+ },
+ {
+  "start": 306.039,
+  "end": 308.189,
+  "text": "and then uh let's try and execute this"
+ },
+ {
+  "start": 308.199,
+  "end": 309.749,
+  "text": "and let's see whether it is able to grab"
+ },
+ {
+  "start": 309.759,
+  "end": 312.51,
+  "text": "the status and enter it into the"
+ },
+ {
+  "start": 312.52,
+  "end": 319.83,
+  "text": "particular text box right so run this in"
+ },
+ {
+  "start": 322.11,
+  "end": 322.12,
+  "text": "scratchbook okay so as you can see it"
+ },
+ {
+  "start": 322.12,
+  "end": 325.309,
+  "text": "was able to grab the status based on the"
+ },
+ {
+  "start": 325.319,
+  "end": 328.629,
+  "text": "row name and then uh based on the column"
+ },
+ {
+  "start": 328.639,
+  "end": 331.27,
+  "text": "it picked up status which is present in"
+ },
+ {
+  "start": 331.28,
+  "end": 333.67,
+  "text": "that particular cell okay and then it"
+ },
+ {
+  "start": 333.68,
+  "end": 335.55,
+  "text": "entered it into the text box which"
+ },
+ {
+  "start": 335.56,
+  "end": 338.67,
+  "text": "completed the obstacle so a pretty"
+ },
+ {
+  "start": 338.68,
+  "end": 340.909,
+  "text": "simple obstacle you just need to know"
+ },
+ {
+  "start": 340.919,
+  "end": 343.79,
+  "text": "how to steer the web tables based on"
+ },
+ {
+  "start": 343.8,
+  "end": 346.189,
+  "text": "different row heading or the column"
+ },
+ {
+  "start": 346.199,
+  "end": 348.71,
+  "text": "heading or you can use different types"
+ },
+ {
+  "start": 348.72,
+  "end": 353.43,
+  "text": "of action modes based on your specific"
+ },
+ {
+  "start": 353.44,
+  "end": 355.79,
+  "text": "scenario that's all for this particular"
+ },
+ {
+  "start": 355.8,
+  "end": 358.23,
+  "text": "video if you have any questions then"
+ },
+ {
+  "start": 358.24,
+  "end": 360.43,
+  "text": "please leave it in the comments"
+ },
+ {
+  "start": 360.44,
+  "end": 362.15,
+  "text": "if you like this video then please"
+ },
+ {
+  "start": 362.16,
+  "end": 364.59,
+  "text": "subscribe to our Channel thanks for"
+ },
+ {
+  "start": 364.6,
+  "end": 366.95,
+  "text": "watching and I will see you in the next"
+ },
+ {
+  "start": 366.96,
+  "end": 369.96,
+  "text": "video"
+ }
+]

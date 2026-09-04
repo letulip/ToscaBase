@@ -1,0 +1,727 @@
+[
+ {
+  "start": 9.29,
+  "end": 9.3,
+  "text": "everyone welcome back to our Channel I"
+ },
+ {
+  "start": 9.3,
+  "end": 11.39,
+  "text": "am back with another interesting topic"
+ },
+ {
+  "start": 11.4,
+  "end": 14.15,
+  "text": "in the Tosca automation playlist"
+ },
+ {
+  "start": 14.16,
+  "end": 16.01,
+  "text": "in this session we are going to talk"
+ },
+ {
+  "start": 16.02,
+  "end": 18.71,
+  "text": "about test mandates which is part of the"
+ },
+ {
+  "start": 18.72,
+  "end": 21.17,
+  "text": "execution section and it is only present"
+ },
+ {
+  "start": 21.18,
+  "end": 23.63,
+  "text": "uh in a multi-user workspace"
+ },
+ {
+  "start": 23.64,
+  "end": 25.97,
+  "text": "now we'll also try to understand why do"
+ },
+ {
+  "start": 25.98,
+  "end": 29.15,
+  "text": "we need test mandates and what is the"
+ },
+ {
+  "start": 29.16,
+  "end": 31.73,
+  "text": "importance of a test mandate"
+ },
+ {
+  "start": 31.74,
+  "end": 34.13,
+  "text": "so there will be scenarios when you are"
+ },
+ {
+  "start": 34.14,
+  "end": 35.83,
+  "text": "working in a multi-user environment"
+ },
+ {
+  "start": 35.84,
+  "end": 39.049,
+  "text": "where multiple users need to execute the"
+ },
+ {
+  "start": 39.059,
+  "end": 41.15,
+  "text": "same execution list which has been"
+ },
+ {
+  "start": 41.16,
+  "end": 43.25,
+  "text": "created and they should be able to"
+ },
+ {
+  "start": 43.26,
+  "end": 46.31,
+  "text": "execute it simultaneously also without"
+ },
+ {
+  "start": 46.32,
+  "end": 49.19,
+  "text": "overwriting each other's results"
+ },
+ {
+  "start": 49.2,
+  "end": 51.77,
+  "text": "now this would be a problem if multiple"
+ },
+ {
+  "start": 51.78,
+  "end": 54.41,
+  "text": "users are just using the same execution"
+ },
+ {
+  "start": 54.42,
+  "end": 57.29,
+  "text": "list then they will be overwriting each"
+ },
+ {
+  "start": 57.3,
+  "end": 59.689,
+  "text": "other's results so in order to avoid"
+ },
+ {
+  "start": 59.699,
+  "end": 61.729,
+  "text": "this problem Tosca provides you with"
+ },
+ {
+  "start": 61.739,
+  "end": 63.889,
+  "text": "another option which is known as test"
+ },
+ {
+  "start": 63.899,
+  "end": 66.289,
+  "text": "mandate it can be created in the"
+ },
+ {
+  "start": 66.299,
+  "end": 69.109,
+  "text": "execution section and then it can be"
+ },
+ {
+  "start": 69.119,
+  "end": 71.69,
+  "text": "linked to a particular test object which"
+ },
+ {
+  "start": 71.7,
+  "end": 74.469,
+  "text": "could be a execution entry execution"
+ },
+ {
+  "start": 74.479,
+  "end": 78.83,
+  "text": "list or execution folder so any of these"
+ },
+ {
+  "start": 78.84,
+  "end": 81.35,
+  "text": "objects can be linked to a test mandate"
+ },
+ {
+  "start": 81.36,
+  "end": 85.07,
+  "text": "so by using a test mandate then multiple"
+ },
+ {
+  "start": 85.08,
+  "end": 87.109,
+  "text": "users can run their execution"
+ },
+ {
+  "start": 87.119,
+  "end": 89.45,
+  "text": "simultaneously without overwriting any"
+ },
+ {
+  "start": 89.46,
+  "end": 90.53,
+  "text": "results"
+ },
+ {
+  "start": 90.54,
+  "end": 94.37,
+  "text": "so let's see how we can use this and how"
+ },
+ {
+  "start": 94.38,
+  "end": 95.81,
+  "text": "it can be linked to different test"
+ },
+ {
+  "start": 95.82,
+  "end": 98.09,
+  "text": "objects and then"
+ },
+ {
+  "start": 98.1,
+  "end": 99.95,
+  "text": "um how should you look at the results"
+ },
+ {
+  "start": 99.96,
+  "end": 101.99,
+  "text": "when it is linked to a particular test"
+ },
+ {
+  "start": 102.0,
+  "end": 103.609,
+  "text": "mandate"
+ },
+ {
+  "start": 103.619,
+  "end": 105.649,
+  "text": "so here in the execution list folder we"
+ },
+ {
+  "start": 105.659,
+  "end": 108.109,
+  "text": "can create a dust mandate so let's go"
+ },
+ {
+  "start": 108.119,
+  "end": 111.889,
+  "text": "out and check out this whole tree"
+ },
+ {
+  "start": 111.899,
+  "end": 114.95,
+  "text": "and then we'll be using this login test"
+ },
+ {
+  "start": 114.96,
+  "end": 118.069,
+  "text": "to link it to a test mandate and then I"
+ },
+ {
+  "start": 118.079,
+  "end": 120.83,
+  "text": "will go ahead and execute it so inside"
+ },
+ {
+  "start": 120.84,
+  "end": 123.05,
+  "text": "the execution list folder when you right"
+ },
+ {
+  "start": 123.06,
+  "end": 124.969,
+  "text": "click you will find there is an option"
+ },
+ {
+  "start": 124.979,
+  "end": 127.069,
+  "text": "called create test mandate"
+ },
+ {
+  "start": 127.079,
+  "end": 129.77,
+  "text": "so click on that and this is our test"
+ },
+ {
+  "start": 129.78,
+  "end": 134.75,
+  "text": "mandate so we'll say login mandate"
+ },
+ {
+  "start": 134.76,
+  "end": 135.949,
+  "text": "okay"
+ },
+ {
+  "start": 135.959,
+  "end": 138.65,
+  "text": "and then in order to link any particular"
+ },
+ {
+  "start": 138.66,
+  "end": 141.229,
+  "text": "object to a mandate you just need to"
+ },
+ {
+  "start": 141.239,
+  "end": 144.71,
+  "text": "drag and drop it into the Mandate what"
+ },
+ {
+  "start": 144.72,
+  "end": 148.43,
+  "text": "Tosca will do it will create a copy of"
+ },
+ {
+  "start": 148.44,
+  "end": 152.449,
+  "text": "your execution list okay as a folder"
+ },
+ {
+  "start": 152.459,
+  "end": 154.01,
+  "text": "here as you can see and then it will"
+ },
+ {
+  "start": 154.02,
+  "end": 155.809,
+  "text": "contain the test case"
+ },
+ {
+  "start": 155.819,
+  "end": 159.17,
+  "text": "also in the execution list you will see"
+ },
+ {
+  "start": 159.18,
+  "end": 161.089,
+  "text": "that on the log"
+ },
+ {
+  "start": 161.099,
+  "end": 164.449,
+  "text": "there will be a blue arrow okay which"
+ },
+ {
+  "start": 164.459,
+  "end": 167.15,
+  "text": "will tell you that this is linked to a"
+ },
+ {
+  "start": 167.16,
+  "end": 171.29,
+  "text": "particular uh mandate test mandate okay"
+ },
+ {
+  "start": 171.3,
+  "end": 173.57,
+  "text": "Now using this test mandate multiple"
+ },
+ {
+  "start": 173.58,
+  "end": 175.97,
+  "text": "users can execute this test mandate"
+ },
+ {
+  "start": 175.98,
+  "end": 178.309,
+  "text": "without even checking out the actual"
+ },
+ {
+  "start": 178.319,
+  "end": 180.53,
+  "text": "execution list so they don't need to"
+ },
+ {
+  "start": 180.54,
+  "end": 182.75,
+  "text": "execute the execution list but instead"
+ },
+ {
+  "start": 182.76,
+  "end": 184.309,
+  "text": "they will be executing this login"
+ },
+ {
+  "start": 184.319,
+  "end": 187.61,
+  "text": "mandate which will in turn give you the"
+ },
+ {
+  "start": 187.62,
+  "end": 190.369,
+  "text": "results back in the test object which is"
+ },
+ {
+  "start": 190.379,
+  "end": 194.75,
+  "text": "the execution list right so finally what"
+ },
+ {
+  "start": 194.76,
+  "end": 197.149,
+  "text": "will happen is once everybody is done"
+ },
+ {
+  "start": 197.159,
+  "end": 199.85,
+  "text": "their executions and the results are"
+ },
+ {
+  "start": 199.86,
+  "end": 203.149,
+  "text": "checked in then all the results will be"
+ },
+ {
+  "start": 203.159,
+  "end": 205.43,
+  "text": "collated together and displayed in the"
+ },
+ {
+  "start": 205.44,
+  "end": 206.809,
+  "text": "test mandate"
+ },
+ {
+  "start": 206.819,
+  "end": 210.41,
+  "text": "so now if I go ahead and check in all"
+ },
+ {
+  "start": 210.42,
+  "end": 213.71,
+  "text": "right and now you can see this is our"
+ },
+ {
+  "start": 213.72,
+  "end": 216.35,
+  "text": "login mandate which contains the login"
+ },
+ {
+  "start": 216.36,
+  "end": 220.07,
+  "text": "execution so we can go ahead and"
+ },
+ {
+  "start": 220.08,
+  "end": 222.83,
+  "text": "check out this"
+ },
+ {
+  "start": 222.84,
+  "end": 225.289,
+  "text": "now I can go ahead and run this test"
+ },
+ {
+  "start": 225.299,
+  "end": 228.83,
+  "text": "mandate okay without even checking out"
+ },
+ {
+  "start": 228.84,
+  "end": 231.17,
+  "text": "the login test which is the execution"
+ },
+ {
+  "start": 231.18,
+  "end": 239.089,
+  "text": "list so let's go ahead and run this"
+ },
+ {
+  "start": 242.449,
+  "end": 242.459,
+  "text": "so once the execution is completed you"
+ },
+ {
+  "start": 242.459,
+  "end": 244.369,
+  "text": "will see whether it is passed or failed"
+ },
+ {
+  "start": 244.379,
+  "end": 247.729,
+  "text": "right and then you can also go to your"
+ },
+ {
+  "start": 247.739,
+  "end": 249.17,
+  "text": "execution list"
+ },
+ {
+  "start": 249.18,
+  "end": 253.61,
+  "text": "and let me first check in all"
+ },
+ {
+  "start": 253.62,
+  "end": 256.43,
+  "text": "and then here you will see that the"
+ },
+ {
+  "start": 256.44,
+  "end": 259.129,
+  "text": "latest execution is linked to the test"
+ },
+ {
+  "start": 259.139,
+  "end": 262.37,
+  "text": "mandate okay so the results of the test"
+ },
+ {
+  "start": 262.38,
+  "end": 265.67,
+  "text": "mandate is also shown here okay in the"
+ },
+ {
+  "start": 265.68,
+  "end": 268.49,
+  "text": "execution list so without even executing"
+ },
+ {
+  "start": 268.5,
+  "end": 271.01,
+  "text": "the execution list by executing the test"
+ },
+ {
+  "start": 271.02,
+  "end": 273.469,
+  "text": "mandate you got the results back here"
+ },
+ {
+  "start": 273.479,
+  "end": 276.23,
+  "text": "so if multiple users are going to"
+ },
+ {
+  "start": 276.24,
+  "end": 278.21,
+  "text": "execute the test mandate it is never"
+ },
+ {
+  "start": 278.22,
+  "end": 281.21,
+  "text": "going to rewrite the results it will it"
+ },
+ {
+  "start": 281.22,
+  "end": 283.55,
+  "text": "will collate all the results and store"
+ },
+ {
+  "start": 283.56,
+  "end": 285.59,
+  "text": "it in the execution list"
+ },
+ {
+  "start": 285.6,
+  "end": 289.61,
+  "text": "also if you go to the execution list and"
+ },
+ {
+  "start": 289.62,
+  "end": 292.909,
+  "text": "if you want to go to your test mandate"
+ },
+ {
+  "start": 292.919,
+  "end": 296.57,
+  "text": "entry then from the logs itself you can"
+ },
+ {
+  "start": 296.58,
+  "end": 298.85,
+  "text": "jump to the test mandate entry there is"
+ },
+ {
+  "start": 298.86,
+  "end": 301.85,
+  "text": "an option here okay so click on that and"
+ },
+ {
+  "start": 301.86,
+  "end": 303.65,
+  "text": "it will take you to the test mandate"
+ },
+ {
+  "start": 303.66,
+  "end": 305.03,
+  "text": "entry"
+ },
+ {
+  "start": 305.04,
+  "end": 308.749,
+  "text": "now if finally if you don't want uh to"
+ },
+ {
+  "start": 308.759,
+  "end": 310.49,
+  "text": "keep the link between your test"
+ },
+ {
+  "start": 310.5,
+  "end": 313.31,
+  "text": "execution list and the test mandate then"
+ },
+ {
+  "start": 313.32,
+  "end": 316.37,
+  "text": "you can even remove that link so uh go"
+ },
+ {
+  "start": 316.38,
+  "end": 318.77,
+  "text": "to your execution list and then check"
+ },
+ {
+  "start": 318.78,
+  "end": 320.45,
+  "text": "this out"
+ },
+ {
+  "start": 320.46,
+  "end": 322.85,
+  "text": "and then right click on the actual log"
+ },
+ {
+  "start": 322.86,
+  "end": 325.49,
+  "text": "and there you will find there is a clear"
+ },
+ {
+  "start": 325.5,
+  "end": 328.61,
+  "text": "Auto merge list okay so when you click"
+ },
+ {
+  "start": 328.62,
+  "end": 331.87,
+  "text": "on the clear Auto merge list it will"
+ },
+ {
+  "start": 331.88,
+  "end": 334.73,
+  "text": "clear out the link between the test"
+ },
+ {
+  "start": 334.74,
+  "end": 337.49,
+  "text": "mandate and the execution list so you"
+ },
+ {
+  "start": 337.5,
+  "end": 340.09,
+  "text": "will see now that uh the latest"
+ },
+ {
+  "start": 340.1,
+  "end": 343.129,
+  "text": "execution log is no mode linked to the"
+ },
+ {
+  "start": 343.139,
+  "end": 346.55,
+  "text": "test mandate okay so the link has been"
+ },
+ {
+  "start": 346.56,
+  "end": 349.37,
+  "text": "taken off so now the test mandate result"
+ },
+ {
+  "start": 349.38,
+  "end": 351.77,
+  "text": "will not be shown here okay"
+ },
+ {
+  "start": 351.78,
+  "end": 354.83,
+  "text": "so this is how you can use the test"
+ },
+ {
+  "start": 354.84,
+  "end": 355.85,
+  "text": "mandate"
+ },
+ {
+  "start": 355.86,
+  "end": 358.129,
+  "text": "in a multi-user environment where"
+ },
+ {
+  "start": 358.139,
+  "end": 360.17,
+  "text": "multiple users can execute the test"
+ },
+ {
+  "start": 360.18,
+  "end": 362.33,
+  "text": "mandate without overwriting any results"
+ },
+ {
+  "start": 362.34,
+  "end": 364.37,
+  "text": "and then you can collate all your"
+ },
+ {
+  "start": 364.38,
+  "end": 366.71,
+  "text": "results in the execution list without"
+ },
+ {
+  "start": 366.72,
+  "end": 369.35,
+  "text": "even checking out the execution list or"
+ },
+ {
+  "start": 369.36,
+  "end": 372.29,
+  "text": "without even executing it you just need"
+ },
+ {
+  "start": 372.3,
+  "end": 374.33,
+  "text": "to link the execution list to your test"
+ },
+ {
+  "start": 374.34,
+  "end": 375.77,
+  "text": "mandate"
+ },
+ {
+  "start": 375.78,
+  "end": 378.71,
+  "text": "that's all for this particular video if"
+ },
+ {
+  "start": 378.72,
+  "end": 380.45,
+  "text": "you have any questions then please leave"
+ },
+ {
+  "start": 380.46,
+  "end": 381.89,
+  "text": "it in the comments"
+ },
+ {
+  "start": 381.9,
+  "end": 383.749,
+  "text": "if you like this video then please"
+ },
+ {
+  "start": 383.759,
+  "end": 385.49,
+  "text": "subscribe to our Channel"
+ },
+ {
+  "start": 385.5,
+  "end": 387.71,
+  "text": "thanks for watching and I will see you"
+ },
+ {
+  "start": 387.72,
+  "end": 390.56,
+  "text": "in the next video"
+ }
+]

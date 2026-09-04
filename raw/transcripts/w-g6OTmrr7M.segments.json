@@ -1,0 +1,857 @@
+[
+ {
+  "start": 8.629,
+  "end": 8.639,
+  "text": "hey everyone welcome back to our Channel"
+ },
+ {
+  "start": 8.639,
+  "end": 11.27,
+  "text": "I am back with another interesting topic"
+ },
+ {
+  "start": 11.28,
+  "end": 13.97,
+  "text": "in the Tosca automation playlist"
+ },
+ {
+  "start": 13.98,
+  "end": 15.89,
+  "text": "in this session we are going to discuss"
+ },
+ {
+  "start": 15.9,
+  "end": 19.01,
+  "text": "about the log viewer how you can view"
+ },
+ {
+  "start": 19.02,
+  "end": 22.25,
+  "text": "your logs in Tosca commander and how you"
+ },
+ {
+  "start": 22.26,
+  "end": 24.71,
+  "text": "can monitor them during the execution of"
+ },
+ {
+  "start": 24.72,
+  "end": 26.09,
+  "text": "your test cases"
+ },
+ {
+  "start": 26.1,
+  "end": 29.689,
+  "text": "now many a times you will face different"
+ },
+ {
+  "start": 29.699,
+  "end": 33.77,
+  "text": "issues in Tosca and apart from the error"
+ },
+ {
+  "start": 33.78,
+  "end": 36.35,
+  "text": "information which is provided either in"
+ },
+ {
+  "start": 36.36,
+  "end": 38.389,
+  "text": "the scratch book or in the execution"
+ },
+ {
+  "start": 38.399,
+  "end": 42.53,
+  "text": "logs there is also a log viewer which"
+ },
+ {
+  "start": 42.54,
+  "end": 45.95,
+  "text": "provides you with complete or detailed"
+ },
+ {
+  "start": 45.96,
+  "end": 49.729,
+  "text": "logs of what is happening with respect"
+ },
+ {
+  "start": 49.739,
+  "end": 53.029,
+  "text": "to your execution and if there are any"
+ },
+ {
+  "start": 53.039,
+  "end": 55.43,
+  "text": "errors or any issues you can easily"
+ },
+ {
+  "start": 55.44,
+  "end": 59.33,
+  "text": "debug them using this log viewer"
+ },
+ {
+  "start": 59.34,
+  "end": 62.09,
+  "text": "so let's look at how we can start this"
+ },
+ {
+  "start": 62.1,
+  "end": 64.189,
+  "text": "log viewer and what are the different"
+ },
+ {
+  "start": 64.199,
+  "end": 67.31,
+  "text": "options and how you can monitor your"
+ },
+ {
+  "start": 67.32,
+  "end": 70.609,
+  "text": "logs using this log viewer application"
+ },
+ {
+  "start": 70.619,
+  "end": 72.53,
+  "text": "so this particular log viewer"
+ },
+ {
+  "start": 72.54,
+  "end": 75.17,
+  "text": "application is present in the commander"
+ },
+ {
+  "start": 75.18,
+  "end": 78.05,
+  "text": "home directory and also in the t-box"
+ },
+ {
+  "start": 78.06,
+  "end": 81.109,
+  "text": "home directory so we can start this by"
+ },
+ {
+  "start": 81.119,
+  "end": 82.969,
+  "text": "directly going into that particular"
+ },
+ {
+  "start": 82.979,
+  "end": 85.91,
+  "text": "directory and launching the exe we can"
+ },
+ {
+  "start": 85.92,
+  "end": 88.19,
+  "text": "also launch it using the command line"
+ },
+ {
+  "start": 88.2,
+  "end": 89.51,
+  "text": "tool"
+ },
+ {
+  "start": 89.52,
+  "end": 93.649,
+  "text": "so uh if now I go here I am already in"
+ },
+ {
+  "start": 93.659,
+  "end": 96.71,
+  "text": "my Tosca Commander uh home directory so"
+ },
+ {
+  "start": 96.72,
+  "end": 98.03,
+  "text": "this is the Tosca Commander home"
+ },
+ {
+  "start": 98.04,
+  "end": 101.69,
+  "text": "directory and here you will see uh there"
+ },
+ {
+  "start": 101.7,
+  "end": 105.23,
+  "text": "is the log viewer okay so it's an exe"
+ },
+ {
+  "start": 105.24,
+  "end": 106.31,
+  "text": "application"
+ },
+ {
+  "start": 106.32,
+  "end": 108.17,
+  "text": "um so I can directly double click on it"
+ },
+ {
+  "start": 108.18,
+  "end": 110.09,
+  "text": "and it will start the log viewer"
+ },
+ {
+  "start": 110.1,
+  "end": 112.55,
+  "text": "application right here"
+ },
+ {
+  "start": 112.56,
+  "end": 114.77,
+  "text": "it is also present in the teebox home"
+ },
+ {
+  "start": 114.78,
+  "end": 116.51,
+  "text": "directory as I said earlier so you can"
+ },
+ {
+  "start": 116.52,
+  "end": 119.149,
+  "text": "start it from there as well"
+ },
+ {
+  "start": 119.159,
+  "end": 122.389,
+  "text": "now coming to uh the different options"
+ },
+ {
+  "start": 122.399,
+  "end": 124.609,
+  "text": "which are present in this particular log"
+ },
+ {
+  "start": 124.619,
+  "end": 127.13,
+  "text": "viewer application so the first option"
+ },
+ {
+  "start": 127.14,
+  "end": 128.449,
+  "text": "is"
+ },
+ {
+  "start": 128.459,
+  "end": 131.51,
+  "text": "um what kind of log level values will be"
+ },
+ {
+  "start": 131.52,
+  "end": 133.729,
+  "text": "displayed okay so you can choose between"
+ },
+ {
+  "start": 133.739,
+  "end": 136.79,
+  "text": "all these different logs"
+ },
+ {
+  "start": 136.8,
+  "end": 138.71,
+  "text": "um So currently you can see it is off"
+ },
+ {
+  "start": 138.72,
+  "end": 141.65,
+  "text": "which means it is not displaying any"
+ },
+ {
+  "start": 141.66,
+  "end": 145.43,
+  "text": "logs but you can also choose uh to show"
+ },
+ {
+  "start": 145.44,
+  "end": 149.03,
+  "text": "only the errors or the warnings or just"
+ },
+ {
+  "start": 149.04,
+  "end": 151.91,
+  "text": "the information level logs or you can"
+ },
+ {
+  "start": 151.92,
+  "end": 154.85,
+  "text": "choose to display all the logs so that's"
+ },
+ {
+  "start": 154.86,
+  "end": 156.47,
+  "text": "also possible"
+ },
+ {
+  "start": 156.48,
+  "end": 159.41,
+  "text": "the next option is display mode"
+ },
+ {
+  "start": 159.42,
+  "end": 161.69,
+  "text": "um so here there are two options one is"
+ },
+ {
+  "start": 161.7,
+  "end": 163.55,
+  "text": "the console mode and one is the file"
+ },
+ {
+  "start": 163.56,
+  "end": 166.309,
+  "text": "mode so in the file mode it will only"
+ },
+ {
+  "start": 166.319,
+  "end": 168.47,
+  "text": "show where the logs are being captured"
+ },
+ {
+  "start": 168.48,
+  "end": 171.589,
+  "text": "and you can see uh this is the log file"
+ },
+ {
+  "start": 171.599,
+  "end": 174.53,
+  "text": "which has been generated here okay by"
+ },
+ {
+  "start": 174.54,
+  "end": 176.27,
+  "text": "default it will be stored in this"
+ },
+ {
+  "start": 176.28,
+  "end": 177.77,
+  "text": "particular folders"
+ },
+ {
+  "start": 177.78,
+  "end": 180.229,
+  "text": "and then this is the console mode where"
+ },
+ {
+  "start": 180.239,
+  "end": 182.15,
+  "text": "you can view your logs in the console"
+ },
+ {
+  "start": 182.16,
+  "end": 183.97,
+  "text": "itself"
+ },
+ {
+  "start": 183.98,
+  "end": 188.39,
+  "text": "next is the files okay so again it is"
+ },
+ {
+  "start": 188.4,
+  "end": 190.61,
+  "text": "showing you the different files which"
+ },
+ {
+  "start": 190.62,
+  "end": 192.83,
+  "text": "have been created so this is the log"
+ },
+ {
+  "start": 192.84,
+  "end": 195.47,
+  "text": "file and this is also the diagnostic"
+ },
+ {
+  "start": 195.48,
+  "end": 199.309,
+  "text": "login.txt so I can directly go into"
+ },
+ {
+  "start": 199.319,
+  "end": 202.79,
+  "text": "these uh different logs files okay so"
+ },
+ {
+  "start": 202.8,
+  "end": 204.29,
+  "text": "these are the log files which have been"
+ },
+ {
+  "start": 204.3,
+  "end": 206.63,
+  "text": "generated"
+ },
+ {
+  "start": 206.64,
+  "end": 209.69,
+  "text": "then coming to the next option is the"
+ },
+ {
+  "start": 209.7,
+  "end": 212.39,
+  "text": "clear option so if I click on clear it"
+ },
+ {
+  "start": 212.4,
+  "end": 215.11,
+  "text": "will clear the logs on the console"
+ },
+ {
+  "start": 215.12,
+  "end": 219.35,
+  "text": "I can save the logs separately okay if I"
+ },
+ {
+  "start": 219.36,
+  "end": 220.85,
+  "text": "want to save the log events to a"
+ },
+ {
+  "start": 220.86,
+  "end": 223.61,
+  "text": "different file I can do that okay so it"
+ },
+ {
+  "start": 223.62,
+  "end": 225.77,
+  "text": "will store it in that file"
+ },
+ {
+  "start": 225.78,
+  "end": 228.71,
+  "text": "then there is also a chrome Trace option"
+ },
+ {
+  "start": 228.72,
+  "end": 232.729,
+  "text": "so we can use this Chrome test option to"
+ },
+ {
+  "start": 232.739,
+  "end": 236.27,
+  "text": "basically store it into a Json file and"
+ },
+ {
+  "start": 236.28,
+  "end": 237.949,
+  "text": "then we can use this file with the"
+ },
+ {
+  "start": 237.959,
+  "end": 240.53,
+  "text": "Google Chrome's tracing event profiling"
+ },
+ {
+  "start": 240.54,
+  "end": 244.55,
+  "text": "tool so so that we can even debug much"
+ },
+ {
+  "start": 244.56,
+  "end": 247.009,
+  "text": "better with our respect to the Chrome's"
+ },
+ {
+  "start": 247.019,
+  "end": 249.71,
+  "text": "up profiling tool"
+ },
+ {
+  "start": 249.72,
+  "end": 250.97,
+  "text": "okay"
+ },
+ {
+  "start": 250.98,
+  "end": 253.929,
+  "text": "um then uh this two options is for"
+ },
+ {
+  "start": 253.939,
+  "end": 256.43,
+  "text": "navigating between different errors so"
+ },
+ {
+  "start": 256.44,
+  "end": 258.05,
+  "text": "if you have got multiple errors you can"
+ },
+ {
+  "start": 258.06,
+  "end": 259.729,
+  "text": "go to the next error or you can come"
+ },
+ {
+  "start": 259.739,
+  "end": 262.189,
+  "text": "back to the previous error you can also"
+ },
+ {
+  "start": 262.199,
+  "end": 265.73,
+  "text": "do a search using this find option so if"
+ },
+ {
+  "start": 265.74,
+  "end": 269.15,
+  "text": "you want to search in your logs uh with"
+ },
+ {
+  "start": 269.16,
+  "end": 271.49,
+  "text": "respect to something then you can easily"
+ },
+ {
+  "start": 271.5,
+  "end": 274.79,
+  "text": "use this you can also use the regex and"
+ },
+ {
+  "start": 274.8,
+  "end": 276.53,
+  "text": "previous and next option to go through"
+ },
+ {
+  "start": 276.54,
+  "end": 278.39,
+  "text": "your search results"
+ },
+ {
+  "start": 278.4,
+  "end": 280.79,
+  "text": "so these are all the different options"
+ },
+ {
+  "start": 280.8,
+  "end": 284.629,
+  "text": "uh which you can see here right now if I"
+ },
+ {
+  "start": 284.639,
+  "end": 287.629,
+  "text": "go ahead and start my Tosca Commander"
+ },
+ {
+  "start": 287.639,
+  "end": 289.01,
+  "text": "okay"
+ },
+ {
+  "start": 289.02,
+  "end": 292.31,
+  "text": "so here if I'm going into one of my box"
+ },
+ {
+  "start": 292.32,
+  "end": 293.45,
+  "text": "pieces"
+ },
+ {
+  "start": 293.46,
+  "end": 296.689,
+  "text": "and we will also keep the log viewer"
+ },
+ {
+  "start": 296.699,
+  "end": 298.249,
+  "text": "handy here"
+ },
+ {
+  "start": 298.259,
+  "end": 300.77,
+  "text": "so as you can see currently I have"
+ },
+ {
+  "start": 300.78,
+  "end": 304.189,
+  "text": "selected all logs right so it is logging"
+ },
+ {
+  "start": 304.199,
+  "end": 307.73,
+  "text": "everything into this particular console"
+ },
+ {
+  "start": 307.74,
+  "end": 311.57,
+  "text": "so as soon as I started my Tosca"
+ },
+ {
+  "start": 311.58,
+  "end": 313.189,
+  "text": "Commander you can see a lot of different"
+ },
+ {
+  "start": 313.199,
+  "end": 315.65,
+  "text": "log events which have triggered in this"
+ },
+ {
+  "start": 315.66,
+  "end": 318.23,
+  "text": "particular log viewer okay"
+ },
+ {
+  "start": 318.24,
+  "end": 320.99,
+  "text": "now if I go ahead and execute some test"
+ },
+ {
+  "start": 321.0,
+  "end": 324.23,
+  "text": "case like this login test case so I'll"
+ },
+ {
+  "start": 324.24,
+  "end": 326.81,
+  "text": "go ahead and run this in scratchbook and"
+ },
+ {
+  "start": 326.82,
+  "end": 329.15,
+  "text": "you will see lot of log events which"
+ },
+ {
+  "start": 329.16,
+  "end": 331.61,
+  "text": "will be now triggering in this uh"
+ },
+ {
+  "start": 331.62,
+  "end": 335.39,
+  "text": "console right so there is the debug log"
+ },
+ {
+  "start": 335.4,
+  "end": 338.27,
+  "text": "level that is the info log level"
+ },
+ {
+  "start": 338.28,
+  "end": 340.37,
+  "text": "um and then it is going to log"
+ },
+ {
+  "start": 340.38,
+  "end": 344.57,
+  "text": "everything what your execution is doing"
+ },
+ {
+  "start": 344.58,
+  "end": 346.909,
+  "text": "with respect to Tosca Commander the"
+ },
+ {
+  "start": 346.919,
+  "end": 349.61,
+  "text": "different components and a lot of other"
+ },
+ {
+  "start": 349.62,
+  "end": 352.61,
+  "text": "things okay some of the things uh may"
+ },
+ {
+  "start": 352.62,
+  "end": 355.129,
+  "text": "not be understood by us but you don't"
+ },
+ {
+  "start": 355.139,
+  "end": 356.57,
+  "text": "need to understand everything which is"
+ },
+ {
+  "start": 356.58,
+  "end": 359.45,
+  "text": "being logged into this login log viewer"
+ },
+ {
+  "start": 359.46,
+  "end": 362.21,
+  "text": "it will be mostly used for debugging"
+ },
+ {
+  "start": 362.22,
+  "end": 364.969,
+  "text": "purpose right so if there is some"
+ },
+ {
+  "start": 364.979,
+  "end": 368.15,
+  "text": "unusual behavior with Tosca Commander or"
+ },
+ {
+  "start": 368.16,
+  "end": 369.95,
+  "text": "there is some error which you are not"
+ },
+ {
+  "start": 369.96,
+  "end": 372.05,
+  "text": "able to get through or you don't find"
+ },
+ {
+  "start": 372.06,
+  "end": 374.029,
+  "text": "any solution then maybe you can debug"
+ },
+ {
+  "start": 374.039,
+  "end": 377.93,
+  "text": "something from this log viewer which"
+ },
+ {
+  "start": 377.94,
+  "end": 379.969,
+  "text": "will show you some technical issue maybe"
+ },
+ {
+  "start": 379.979,
+  "end": 383.029,
+  "text": "uh like this sending transaction to the"
+ },
+ {
+  "start": 383.039,
+  "end": 385.85,
+  "text": "server field right but it was not"
+ },
+ {
+  "start": 385.86,
+  "end": 387.83,
+  "text": "related to my test case"
+ },
+ {
+  "start": 387.84,
+  "end": 391.79,
+  "text": "so um I can even change this uh log"
+ },
+ {
+  "start": 391.8,
+  "end": 396.65,
+  "text": "level to only error so that I just see"
+ },
+ {
+  "start": 396.66,
+  "end": 399.29,
+  "text": "the errors in my log viewer instead of"
+ },
+ {
+  "start": 399.3,
+  "end": 400.309,
+  "text": "everything"
+ },
+ {
+  "start": 400.319,
+  "end": 403.61,
+  "text": "so depends on how you want to set the"
+ },
+ {
+  "start": 403.62,
+  "end": 405.11,
+  "text": "log level"
+ },
+ {
+  "start": 405.12,
+  "end": 408.77,
+  "text": "but it's a very useful tool if you are"
+ },
+ {
+  "start": 408.78,
+  "end": 411.83,
+  "text": "facing any issues which you are not able"
+ },
+ {
+  "start": 411.84,
+  "end": 415.61,
+  "text": "to resolve using the usual logs which"
+ },
+ {
+  "start": 415.62,
+  "end": 418.309,
+  "text": "are displayed in your execution or in a"
+ },
+ {
+  "start": 418.319,
+  "end": 420.65,
+  "text": "scratch book but apart from that there"
+ },
+ {
+  "start": 420.66,
+  "end": 422.39,
+  "text": "are lots of configuration issues which"
+ },
+ {
+  "start": 422.4,
+  "end": 424.67,
+  "text": "you might face while configuring"
+ },
+ {
+  "start": 424.68,
+  "end": 428.15,
+  "text": "different components of Tosca so there"
+ },
+ {
+  "start": 428.16,
+  "end": 429.83,
+  "text": "could be lots of issues which could be"
+ },
+ {
+  "start": 429.84,
+  "end": 431.749,
+  "text": "resolved by just looking at the log"
+ },
+ {
+  "start": 431.759,
+  "end": 434.39,
+  "text": "viewer and maybe you can also provide"
+ },
+ {
+  "start": 434.4,
+  "end": 437.51,
+  "text": "this to your technical team or the Tosca"
+ },
+ {
+  "start": 437.52,
+  "end": 439.55,
+  "text": "support team so that they can help you"
+ },
+ {
+  "start": 439.56,
+  "end": 441.71,
+  "text": "further"
+ },
+ {
+  "start": 441.72,
+  "end": 444.529,
+  "text": "that's all for this particular video if"
+ },
+ {
+  "start": 444.539,
+  "end": 446.33,
+  "text": "you have any questions then please leave"
+ },
+ {
+  "start": 446.34,
+  "end": 448.73,
+  "text": "it in the comments if you like this"
+ },
+ {
+  "start": 448.74,
+  "end": 450.469,
+  "text": "video then please subscribe to our"
+ },
+ {
+  "start": 450.479,
+  "end": 451.43,
+  "text": "Channel"
+ },
+ {
+  "start": 451.44,
+  "end": 453.589,
+  "text": "thanks for watching and I will see you"
+ },
+ {
+  "start": 453.599,
+  "end": 456.44,
+  "text": "in the next video"
+ }
+]

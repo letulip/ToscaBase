@@ -1,0 +1,817 @@
+[
+ {
+  "start": 2.51,
+  "end": 2.52,
+  "text": "hey everyone welcome to another"
+ },
+ {
+  "start": 2.52,
+  "end": 5.329,
+  "text": "interesting Tosca lesson in this session"
+ },
+ {
+  "start": 5.339,
+  "end": 7.67,
+  "text": "I am going to talk about how you can"
+ },
+ {
+  "start": 7.68,
+  "end": 11.209,
+  "text": "compare two PDF files using a t-box"
+ },
+ {
+  "start": 11.219,
+  "end": 12.589,
+  "text": "module"
+ },
+ {
+  "start": 12.599,
+  "end": 14.27,
+  "text": "so you don't need to write any"
+ },
+ {
+  "start": 14.28,
+  "end": 16.79,
+  "text": "particular test cases or you don't need"
+ },
+ {
+  "start": 16.8,
+  "end": 19.49,
+  "text": "to create any modules a module is"
+ },
+ {
+  "start": 19.5,
+  "end": 22.07,
+  "text": "already provided in the standard subset"
+ },
+ {
+  "start": 22.08,
+  "end": 24.769,
+  "text": "which can be used to compare to PDF"
+ },
+ {
+  "start": 24.779,
+  "end": 28.55,
+  "text": "files okay so I've created uh already a"
+ },
+ {
+  "start": 28.56,
+  "end": 30.89,
+  "text": "test case folder called PDF comparison"
+ },
+ {
+  "start": 30.9,
+  "end": 33.83,
+  "text": "for this comparison I'm going to use two"
+ },
+ {
+  "start": 33.84,
+  "end": 36.95,
+  "text": "PDF files these are not exactly same"
+ },
+ {
+  "start": 36.96,
+  "end": 38.87,
+  "text": "there is some difference in both the"
+ },
+ {
+  "start": 38.88,
+  "end": 42.11,
+  "text": "files right so if you are going to"
+ },
+ {
+  "start": 42.12,
+  "end": 44.389,
+  "text": "compare these two files uh you will see"
+ },
+ {
+  "start": 44.399,
+  "end": 47.69,
+  "text": "that uh the test case will fail if you"
+ },
+ {
+  "start": 47.7,
+  "end": 51.35,
+  "text": "have provided a hundred percent accuracy"
+ },
+ {
+  "start": 51.36,
+  "end": 54.229,
+  "text": "now we'll talk about that uh when we"
+ },
+ {
+  "start": 54.239,
+  "end": 57.95,
+  "text": "open the module but just looking at the"
+ },
+ {
+  "start": 57.96,
+  "end": 60.83,
+  "text": "PDF file so it's a PDF file which is"
+ },
+ {
+  "start": 60.84,
+  "end": 62.869,
+  "text": "generated in one of the sample"
+ },
+ {
+  "start": 62.879,
+  "end": 64.789,
+  "text": "applications which is the vehicle"
+ },
+ {
+  "start": 64.799,
+  "end": 67.25,
+  "text": "insurance application so it looks like"
+ },
+ {
+  "start": 67.26,
+  "end": 69.289,
+  "text": "that"
+ },
+ {
+  "start": 69.299,
+  "end": 71.81,
+  "text": "so it looks like this it has just got"
+ },
+ {
+  "start": 71.82,
+  "end": 73.609,
+  "text": "one page okay"
+ },
+ {
+  "start": 73.619,
+  "end": 77.69,
+  "text": "but you can also compare multiple uh"
+ },
+ {
+  "start": 77.7,
+  "end": 82.429,
+  "text": "Pages uh in your PDFs okay"
+ },
+ {
+  "start": 83.57,
+  "end": 83.58,
+  "text": "okay"
+ },
+ {
+  "start": 83.58,
+  "end": 86.57,
+  "text": "um so let's go ahead and add our module"
+ },
+ {
+  "start": 86.58,
+  "end": 90.53,
+  "text": "now okay so let me add this case here"
+ },
+ {
+  "start": 90.54,
+  "end": 95.63,
+  "text": "and I'm going to call it compare PDF"
+ },
+ {
+  "start": 99.05,
+  "end": 99.06,
+  "text": "and then let's search for this compare"
+ },
+ {
+  "start": 99.06,
+  "end": 102.77,
+  "text": "PDF so when you type compare the first"
+ },
+ {
+  "start": 102.78,
+  "end": 105.23,
+  "text": "option is one is to one compare now we"
+ },
+ {
+  "start": 105.24,
+  "end": 106.789,
+  "text": "have already seen some of the other"
+ },
+ {
+  "start": 106.799,
+  "end": 109.969,
+  "text": "t-box modules like file compare you can"
+ },
+ {
+  "start": 109.979,
+  "end": 112.85,
+  "text": "also compare images right and also a"
+ },
+ {
+  "start": 112.86,
+  "end": 114.289,
+  "text": "Excel file"
+ },
+ {
+  "start": 114.299,
+  "end": 117.53,
+  "text": "so when you use this one to one compare"
+ },
+ {
+  "start": 117.54,
+  "end": 120.59,
+  "text": "okay we need to provide the reference"
+ },
+ {
+  "start": 120.6,
+  "end": 124.249,
+  "text": "and the target PDF so reference PDF is"
+ },
+ {
+  "start": 124.259,
+  "end": 126.53,
+  "text": "the PDF which will act as a reference"
+ },
+ {
+  "start": 126.54,
+  "end": 129.29,
+  "text": "for the comparison and the target would"
+ },
+ {
+  "start": 129.3,
+  "end": 131.99,
+  "text": "be uh the PDF which you want to compare"
+ },
+ {
+  "start": 132.0,
+  "end": 134.57,
+  "text": "this reference PDF with okay"
+ },
+ {
+  "start": 134.58,
+  "end": 137.51,
+  "text": "we can also if"
+ },
+ {
+  "start": 137.52,
+  "end": 140.03,
+  "text": "if your PDF is password protected you"
+ },
+ {
+  "start": 140.04,
+  "end": 142.25,
+  "text": "can also specify the password here and"
+ },
+ {
+  "start": 142.26,
+  "end": 144.17,
+  "text": "Tosca will automatically enter that"
+ },
+ {
+  "start": 144.18,
+  "end": 146.57,
+  "text": "password while comparing the PDF okay"
+ },
+ {
+  "start": 146.58,
+  "end": 148.55,
+  "text": "same for Target PDF"
+ },
+ {
+  "start": 148.56,
+  "end": 152.15,
+  "text": "now I was talking about uh the accuracy"
+ },
+ {
+  "start": 152.16,
+  "end": 155.809,
+  "text": "which is in percentage okay so we can"
+ },
+ {
+  "start": 155.819,
+  "end": 158.75,
+  "text": "Define our own accuracy so it's"
+ },
+ {
+  "start": 158.76,
+  "end": 161.75,
+  "text": "basically the percentage of uh accuracy"
+ },
+ {
+  "start": 161.76,
+  "end": 163.869,
+  "text": "which you want for your comparison okay"
+ },
+ {
+  "start": 163.879,
+  "end": 167.509,
+  "text": "uh you can specify 100 accuracy which"
+ },
+ {
+  "start": 167.519,
+  "end": 169.67,
+  "text": "means both the PDF should be exactly"
+ },
+ {
+  "start": 169.68,
+  "end": 172.369,
+  "text": "same you can also decrease the accuracy"
+ },
+ {
+  "start": 172.379,
+  "end": 175.13,
+  "text": "if you are not worried about uh so much"
+ },
+ {
+  "start": 175.14,
+  "end": 177.17,
+  "text": "about uh some of the things in the PDF"
+ },
+ {
+  "start": 177.18,
+  "end": 179.15,
+  "text": "which may not be same"
+ },
+ {
+  "start": 179.16,
+  "end": 181.67,
+  "text": "so it depends on uh what kind of"
+ },
+ {
+  "start": 181.68,
+  "end": 183.949,
+  "text": "accuracy you require for this comparison"
+ },
+ {
+  "start": 183.959,
+  "end": 188.33,
+  "text": "okay and then excluded pages so here you"
+ },
+ {
+  "start": 188.34,
+  "end": 190.43,
+  "text": "can specify which Pages you want to"
+ },
+ {
+  "start": 190.44,
+  "end": 193.55,
+  "text": "exclude uh from the comparison so if you"
+ },
+ {
+  "start": 193.56,
+  "end": 195.53,
+  "text": "have got multiple pages in your PDF"
+ },
+ {
+  "start": 195.54,
+  "end": 197.99,
+  "text": "files you can exclude some of the pages"
+ },
+ {
+  "start": 198.0,
+  "end": 201.47,
+  "text": "from the comparison okay"
+ },
+ {
+  "start": 201.48,
+  "end": 204.589,
+  "text": "so uh we have to provide a reference PDF"
+ },
+ {
+  "start": 204.599,
+  "end": 207.649,
+  "text": "as I said okay so this is the path of"
+ },
+ {
+  "start": 207.659,
+  "end": 210.77,
+  "text": "the file which you want to compare"
+ },
+ {
+  "start": 210.78,
+  "end": 220.729,
+  "text": "so let's provide that"
+ },
+ {
+  "start": 223.91,
+  "end": 223.92,
+  "text": "okay and don't forget to also provide"
+ },
+ {
+  "start": 223.92,
+  "end": 227.089,
+  "text": "the extension which is dot PDF uh we"
+ },
+ {
+  "start": 227.099,
+  "end": 229.97,
+  "text": "don't require a password for this and"
+ },
+ {
+  "start": 229.98,
+  "end": 232.369,
+  "text": "let's copy this for the reference and"
+ },
+ {
+  "start": 232.379,
+  "end": 234.649,
+  "text": "we'll just change the name here"
+ },
+ {
+  "start": 234.659,
+  "end": 246.11,
+  "text": "to code two okay"
+ },
+ {
+  "start": 248.449,
+  "end": 248.459,
+  "text": "I will just correct the name here to"
+ },
+ {
+  "start": 248.459,
+  "end": 251.69,
+  "text": "quote underscore 2. and then uh you need"
+ },
+ {
+  "start": 251.7,
+  "end": 254.449,
+  "text": "to specify our accuracy so first of all"
+ },
+ {
+  "start": 254.459,
+  "end": 257.21,
+  "text": "I'll provide a 80 accuracy okay"
+ },
+ {
+  "start": 257.22,
+  "end": 260.629,
+  "text": "and excluded Pages although I don't have"
+ },
+ {
+  "start": 260.639,
+  "end": 263.05,
+  "text": "multiple pages in my PDF but if you have"
+ },
+ {
+  "start": 263.06,
+  "end": 266.23,
+  "text": "then you can provide"
+ },
+ {
+  "start": 266.24,
+  "end": 269.89,
+  "text": "some values like this okay"
+ },
+ {
+  "start": 269.9,
+  "end": 273.17,
+  "text": "so what this will do is uh you can"
+ },
+ {
+  "start": 273.18,
+  "end": 276.17,
+  "text": "provide multiple uh page Pages which you"
+ },
+ {
+  "start": 276.18,
+  "end": 278.689,
+  "text": "want to exclude so in this case it will"
+ },
+ {
+  "start": 278.699,
+  "end": 281.629,
+  "text": "exclude the first page the three to four"
+ },
+ {
+  "start": 281.639,
+  "end": 284.749,
+  "text": "page and the five page okay so which has"
+ },
+ {
+  "start": 284.759,
+  "end": 287.33,
+  "text": "to be separated by semicolon uh you can"
+ },
+ {
+  "start": 287.34,
+  "end": 288.61,
+  "text": "also"
+ },
+ {
+  "start": 288.62,
+  "end": 292.37,
+  "text": "combine your pages like a range like"
+ },
+ {
+  "start": 292.38,
+  "end": 293.93,
+  "text": "this page to this page you want to"
+ },
+ {
+  "start": 293.94,
+  "end": 297.11,
+  "text": "exclude okay or individual Pages depends"
+ },
+ {
+  "start": 297.12,
+  "end": 298.249,
+  "text": "on you"
+ },
+ {
+  "start": 298.259,
+  "end": 301.129,
+  "text": "so this is how you can exclude your PDF"
+ },
+ {
+  "start": 301.139,
+  "end": 303.83,
+  "text": "pages from comparison and these are the"
+ },
+ {
+  "start": 303.84,
+  "end": 305.39,
+  "text": "module attributes which you need to pass"
+ },
+ {
+  "start": 305.4,
+  "end": 307.49,
+  "text": "okay"
+ },
+ {
+  "start": 307.5,
+  "end": 310.79,
+  "text": "now if I go ahead and compare or run"
+ },
+ {
+  "start": 310.8,
+  "end": 313.43,
+  "text": "this particular test case"
+ },
+ {
+  "start": 313.44,
+  "end": 316.07,
+  "text": "you will see that uh this test case will"
+ },
+ {
+  "start": 316.08,
+  "end": 318.469,
+  "text": "pass even though the PDF files are"
+ },
+ {
+  "start": 318.479,
+  "end": 320.39,
+  "text": "different okay"
+ },
+ {
+  "start": 320.4,
+  "end": 322.909,
+  "text": "uh the reason being uh the accuracy"
+ },
+ {
+  "start": 322.919,
+  "end": 325.85,
+  "text": "percentage okay since the accuracy"
+ },
+ {
+  "start": 325.86,
+  "end": 329.45,
+  "text": "percentage is 80 percent okay so in the"
+ },
+ {
+  "start": 329.46,
+  "end": 332.99,
+  "text": "results you can see uh in log info that"
+ },
+ {
+  "start": 333.0,
+  "end": 335.57,
+  "text": "it will say that the success condition"
+ },
+ {
+  "start": 335.58,
+  "end": 337.909,
+  "text": "was met and that is why this test case"
+ },
+ {
+  "start": 337.919,
+  "end": 340.85,
+  "text": "passed so each page of the Target and"
+ },
+ {
+  "start": 340.86,
+  "end": 342.529,
+  "text": "the Baseline document"
+ },
+ {
+  "start": 342.539,
+  "end": 346.43,
+  "text": "is at least a 80 percent match okay and"
+ },
+ {
+  "start": 346.44,
+  "end": 349.01,
+  "text": "we have not uh we have no Pages excluded"
+ },
+ {
+  "start": 349.02,
+  "end": 351.71,
+  "text": "from the comparison"
+ },
+ {
+  "start": 351.72,
+  "end": 355.969,
+  "text": "okay now uh to just to change it if I"
+ },
+ {
+  "start": 355.979,
+  "end": 358.01,
+  "text": "provide a hundred percent accuracy okay"
+ },
+ {
+  "start": 358.02,
+  "end": 360.37,
+  "text": "you want your comparison to be 100"
+ },
+ {
+  "start": 360.38,
+  "end": 364.49,
+  "text": "accurate for both the PDFs and that's a"
+ },
+ {
+  "start": 364.5,
+  "end": 367.73,
+  "text": "fair uh Fair way of doing it right so"
+ },
+ {
+  "start": 367.74,
+  "end": 369.11,
+  "text": "just run"
+ },
+ {
+  "start": 369.12,
+  "end": 371.689,
+  "text": "and this time it should fail okay"
+ },
+ {
+  "start": 371.699,
+  "end": 374.81,
+  "text": "because both the PDFs are not 100 same"
+ },
+ {
+  "start": 374.82,
+  "end": 379.49,
+  "text": "okay and uh in the compare results in"
+ },
+ {
+  "start": 379.5,
+  "end": 380.99,
+  "text": "log info"
+ },
+ {
+  "start": 381.0,
+  "end": 383.33,
+  "text": "you will see that it will show you the"
+ },
+ {
+  "start": 383.34,
+  "end": 385.49,
+  "text": "differences okay so at least one"
+ },
+ {
+  "start": 385.5,
+  "end": 387.23,
+  "text": "difference was detected"
+ },
+ {
+  "start": 387.24,
+  "end": 389.99,
+  "text": "and in the top left area top right mid"
+ },
+ {
+  "start": 390.0,
+  "end": 391.969,
+  "text": "left mid right and bottom right area"
+ },
+ {
+  "start": 391.979,
+  "end": 393.11,
+  "text": "okay"
+ },
+ {
+  "start": 393.12,
+  "end": 395.689,
+  "text": "obviously it will not uh exactly tell"
+ },
+ {
+  "start": 395.699,
+  "end": 398.21,
+  "text": "you what is different in this particular"
+ },
+ {
+  "start": 398.22,
+  "end": 401.689,
+  "text": "pages but it's basically uh used for"
+ },
+ {
+  "start": 401.699,
+  "end": 405.469,
+  "text": "quick comparison of two PDF documents if"
+ },
+ {
+  "start": 405.479,
+  "end": 408.23,
+  "text": "you want to verify uh certain elements"
+ },
+ {
+  "start": 408.24,
+  "end": 412.37,
+  "text": "on the PDF then you need to use our you"
+ },
+ {
+  "start": 412.38,
+  "end": 414.95,
+  "text": "need to create your own test case and"
+ },
+ {
+  "start": 414.96,
+  "end": 417.89,
+  "text": "then you need to use the PDF scan okay"
+ },
+ {
+  "start": 417.9,
+  "end": 419.93,
+  "text": "we will see that in some of the coming"
+ },
+ {
+  "start": 419.94,
+  "end": 422.99,
+  "text": "up session but using the PDF scan then"
+ },
+ {
+  "start": 423.0,
+  "end": 424.909,
+  "text": "you can scan particular elements and you"
+ },
+ {
+  "start": 424.919,
+  "end": 427.01,
+  "text": "can verify whether they are same on the"
+ },
+ {
+  "start": 427.02,
+  "end": 428.27,
+  "text": "PDF or not"
+ },
+ {
+  "start": 428.28,
+  "end": 431.15,
+  "text": "but this module is meant for a quick"
+ },
+ {
+  "start": 431.16,
+  "end": 433.909,
+  "text": "comparison uh with a certain accuracy"
+ },
+ {
+  "start": 433.919,
+  "end": 437.689,
+  "text": "and you can also exclude pages so quite"
+ },
+ {
+  "start": 437.699,
+  "end": 439.43,
+  "text": "a useful module if you just want to"
+ },
+ {
+  "start": 439.44,
+  "end": 442.129,
+  "text": "compare to PDFs okay"
+ },
+ {
+  "start": 442.139,
+  "end": 445.61,
+  "text": "so that's that's all about uh how you"
+ },
+ {
+  "start": 445.62,
+  "end": 448.129,
+  "text": "can compare to PDF files using this one"
+ },
+ {
+  "start": 448.139,
+  "end": 451.309,
+  "text": "is to one compare the Box module in the"
+ },
+ {
+  "start": 451.319,
+  "end": 453.77,
+  "text": "next session uh we'll talk about the PDF"
+ },
+ {
+  "start": 453.78,
+  "end": 455.99,
+  "text": "scan how you can scan different elements"
+ },
+ {
+  "start": 456.0,
+  "end": 457.249,
+  "text": "in the PDF"
+ },
+ {
+  "start": 457.259,
+  "end": 461.419,
+  "text": "and how you can verify the values"
+ }
+]

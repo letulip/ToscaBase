@@ -1,0 +1,1042 @@
+[
+ {
+  "start": 2.07,
+  "end": 2.08,
+  "text": "hey everyone welcome to another lesson"
+ },
+ {
+  "start": 2.08,
+  "end": 4.63,
+  "text": "in this task automation course today we"
+ },
+ {
+  "start": 4.64,
+  "end": 6.95,
+  "text": "are going to talk about the execution"
+ },
+ {
+  "start": 6.96,
+  "end": 9.35,
+  "text": "section in tosca"
+ },
+ {
+  "start": 9.36,
+  "end": 11.91,
+  "text": "tosca helps you to execute your test"
+ },
+ {
+  "start": 11.92,
+  "end": 15.749,
+  "text": "cases with the help of execution lists"
+ },
+ {
+  "start": 15.759,
+  "end": 17.189,
+  "text": "now what's the difference between the"
+ },
+ {
+  "start": 17.199,
+  "end": 19.109,
+  "text": "execution lists and what we have seen"
+ },
+ {
+  "start": 19.119,
+  "end": 20.87,
+  "text": "earlier which was called the scratch"
+ },
+ {
+  "start": 20.88,
+  "end": 22.23,
+  "text": "book"
+ },
+ {
+  "start": 22.24,
+  "end": 24.71,
+  "text": "in scratchbook we used to individually"
+ },
+ {
+  "start": 24.72,
+  "end": 27.429,
+  "text": "run our test cases but if you noticed"
+ },
+ {
+  "start": 27.439,
+  "end": 29.91,
+  "text": "once you close the scratchbook all your"
+ },
+ {
+  "start": 29.92,
+  "end": 31.83,
+  "text": "results are gone"
+ },
+ {
+  "start": 31.84,
+  "end": 33.83,
+  "text": "so it's not an ideal"
+ },
+ {
+  "start": 33.84,
+  "end": 36.069,
+  "text": "way of running your tests because you"
+ },
+ {
+  "start": 36.079,
+  "end": 39.11,
+  "text": "require the results for"
+ },
+ {
+  "start": 39.12,
+  "end": 42.389,
+  "text": "debugging or for generating your reports"
+ },
+ {
+  "start": 42.399,
+  "end": 45.59,
+  "text": "or for historical purposes right"
+ },
+ {
+  "start": 45.6,
+  "end": 48.15,
+  "text": "so execution less is the recommended way"
+ },
+ {
+  "start": 48.16,
+  "end": 50.069,
+  "text": "of running your tests once they are"
+ },
+ {
+  "start": 50.079,
+  "end": 51.99,
+  "text": "ready"
+ },
+ {
+  "start": 52.0,
+  "end": 56.79,
+  "text": "let's see what are these execution lists"
+ },
+ {
+  "start": 58.869,
+  "end": 58.879,
+  "text": "so it's nothing but it's a collection of"
+ },
+ {
+  "start": 58.879,
+  "end": 60.95,
+  "text": "your test cases which are already ready"
+ },
+ {
+  "start": 60.96,
+  "end": 64.149,
+  "text": "for execution"
+ },
+ {
+  "start": 66.63,
+  "end": 66.64,
+  "text": "and all the results of these executions"
+ },
+ {
+  "start": 66.64,
+  "end": 69.75,
+  "text": "are always stored in the execution list"
+ },
+ {
+  "start": 69.76,
+  "end": 70.55,
+  "text": "so"
+ },
+ {
+  "start": 70.56,
+  "end": 73.51,
+  "text": "if you are running your test cases"
+ },
+ {
+  "start": 73.52,
+  "end": 75.51,
+  "text": "on different iterations right so there"
+ },
+ {
+  "start": 75.52,
+  "end": 77.67,
+  "text": "are several iterations you want to run"
+ },
+ {
+  "start": 77.68,
+  "end": 79.83,
+  "text": "your test cases all the iterations"
+ },
+ {
+  "start": 79.84,
+  "end": 82.149,
+  "text": "whether past or field would be stored in"
+ },
+ {
+  "start": 82.159,
+  "end": 85.19,
+  "text": "the execution list"
+ },
+ {
+  "start": 87.27,
+  "end": 87.28,
+  "text": "once a test case is added to an"
+ },
+ {
+  "start": 87.28,
+  "end": 89.91,
+  "text": "execution list it becomes an execution"
+ },
+ {
+  "start": 89.92,
+  "end": 90.95,
+  "text": "entry"
+ },
+ {
+  "start": 90.96,
+  "end": 92.31,
+  "text": "now there could be"
+ },
+ {
+  "start": 92.32,
+  "end": 94.23,
+  "text": "different execution entries or that"
+ },
+ {
+  "start": 94.24,
+  "end": 99.59,
+  "text": "could be execution entry folders"
+ },
+ {
+  "start": 101.83,
+  "end": 101.84,
+  "text": "if you want to make some changes after"
+ },
+ {
+  "start": 101.84,
+  "end": 103.83,
+  "text": "you have added your test cases to the"
+ },
+ {
+  "start": 103.84,
+  "end": 106.149,
+  "text": "execution list you can do that in the"
+ },
+ {
+  "start": 106.159,
+  "end": 107.83,
+  "text": "test cases section"
+ },
+ {
+  "start": 107.84,
+  "end": 109.03,
+  "text": "and then you can go back to the"
+ },
+ {
+  "start": 109.04,
+  "end": 111.03,
+  "text": "execution list and you can just"
+ },
+ {
+  "start": 111.04,
+  "end": 113.429,
+  "text": "synchronize the execution list by the"
+ },
+ {
+  "start": 113.439,
+  "end": 115.91,
+  "text": "test cases so that all the changes which"
+ },
+ {
+  "start": 115.92,
+  "end": 117.03,
+  "text": "were made"
+ },
+ {
+  "start": 117.04,
+  "end": 118.709,
+  "text": "should also be reflected in the"
+ },
+ {
+  "start": 118.719,
+  "end": 122.149,
+  "text": "execution list"
+ },
+ {
+  "start": 124.389,
+  "end": 124.399,
+  "text": "the best way to create an execution list"
+ },
+ {
+  "start": 124.399,
+  "end": 126.789,
+  "text": "is by dragging and dropping a test case"
+ },
+ {
+  "start": 126.799,
+  "end": 128.869,
+  "text": "or a test case folder to the execution"
+ },
+ {
+  "start": 128.879,
+  "end": 131.029,
+  "text": "list that will create"
+ },
+ {
+  "start": 131.039,
+  "end": 132.79,
+  "text": "the same folder structure which you have"
+ },
+ {
+  "start": 132.8,
+  "end": 134.55,
+  "text": "in the test cases section"
+ },
+ {
+  "start": 134.56,
+  "end": 136.949,
+  "text": "you can also do that manually by going"
+ },
+ {
+  "start": 136.959,
+  "end": 138.869,
+  "text": "to the execution list and creating your"
+ },
+ {
+  "start": 138.879,
+  "end": 142.309,
+  "text": "own folder structure"
+ },
+ {
+  "start": 142.319,
+  "end": 144.07,
+  "text": "right so that all your tests are"
+ },
+ {
+  "start": 144.08,
+  "end": 146.71,
+  "text": "organized as per your functionality or"
+ },
+ {
+  "start": 146.72,
+  "end": 150.15,
+  "text": "as per your executions"
+ },
+ {
+  "start": 150.16,
+  "end": 152.63,
+  "text": "so this is what execution list is all"
+ },
+ {
+  "start": 152.64,
+  "end": 154.15,
+  "text": "about in tosca"
+ },
+ {
+  "start": 154.16,
+  "end": 155.27,
+  "text": "let's see"
+ },
+ {
+  "start": 155.28,
+  "end": 157.509,
+  "text": "how it looks like in tosca how you can"
+ },
+ {
+  "start": 157.519,
+  "end": 159.99,
+  "text": "create an execution list how you can"
+ },
+ {
+  "start": 160.0,
+  "end": 162.39,
+  "text": "actually run your execution list and how"
+ },
+ {
+  "start": 162.4,
+  "end": 165.91,
+  "text": "the results are stored"
+ },
+ {
+  "start": 168.309,
+  "end": 168.319,
+  "text": "so now i am back to tosca where we had"
+ },
+ {
+  "start": 168.319,
+  "end": 171.27,
+  "text": "earlier created two template instances"
+ },
+ {
+  "start": 171.28,
+  "end": 173.589,
+  "text": "of basically two test cases"
+ },
+ {
+  "start": 173.599,
+  "end": 176.39,
+  "text": "from our template instance right"
+ },
+ {
+  "start": 176.4,
+  "end": 179.27,
+  "text": "and now we want to execute this so you"
+ },
+ {
+  "start": 179.28,
+  "end": 181.43,
+  "text": "can always go ahead and execute it from"
+ },
+ {
+  "start": 181.44,
+  "end": 184.07,
+  "text": "the scratch book but the results are not"
+ },
+ {
+  "start": 184.08,
+  "end": 185.03,
+  "text": "stored"
+ },
+ {
+  "start": 185.04,
+  "end": 187.11,
+  "text": "so the other way is to go to the"
+ },
+ {
+  "start": 187.12,
+  "end": 188.949,
+  "text": "execution list"
+ },
+ {
+  "start": 188.959,
+  "end": 191.19,
+  "text": "now the execution list is the green"
+ },
+ {
+  "start": 191.2,
+  "end": 194.79,
+  "text": "folder in tosca and if you don't see it"
+ },
+ {
+  "start": 194.8,
+  "end": 196.869,
+  "text": "in your home page"
+ },
+ {
+  "start": 196.879,
+  "end": 197.67,
+  "text": "then"
+ },
+ {
+  "start": 197.68,
+  "end": 199.99,
+  "text": "what you can do is go to the section and"
+ },
+ {
+  "start": 200.0,
+  "end": 204.47,
+  "text": "there you will find the execution okay"
+ },
+ {
+  "start": 204.48,
+  "end": 205.27,
+  "text": "so"
+ },
+ {
+  "start": 205.28,
+  "end": 206.71,
+  "text": "let me drag this"
+ },
+ {
+  "start": 206.72,
+  "end": 209.11,
+  "text": "into the view so that we can see both"
+ },
+ {
+  "start": 209.12,
+  "end": 212.789,
+  "text": "the test cases and the execution"
+ },
+ {
+  "start": 212.799,
+  "end": 213.589,
+  "text": "now"
+ },
+ {
+  "start": 213.599,
+  "end": 215.509,
+  "text": "as you can see under execution there are"
+ },
+ {
+  "start": 215.519,
+  "end": 217.35,
+  "text": "some default folders"
+ },
+ {
+  "start": 217.36,
+  "end": 219.83,
+  "text": "already created by tosca so that is the"
+ },
+ {
+  "start": 219.84,
+  "end": 221.83,
+  "text": "execution list"
+ },
+ {
+  "start": 221.84,
+  "end": 223.91,
+  "text": "which contains some standard module"
+ },
+ {
+  "start": 223.92,
+  "end": 226.149,
+  "text": "examples which you can go ahead and run"
+ },
+ {
+  "start": 226.159,
+  "end": 227.03,
+  "text": "it"
+ },
+ {
+  "start": 227.04,
+  "end": 229.35,
+  "text": "or there are some virtual folders there"
+ },
+ {
+  "start": 229.36,
+  "end": 231.589,
+  "text": "is also exploratory testing interactive"
+ },
+ {
+  "start": 231.599,
+  "end": 232.71,
+  "text": "testing"
+ },
+ {
+  "start": 232.72,
+  "end": 235.27,
+  "text": "and configurations and test events we'll"
+ },
+ {
+  "start": 235.28,
+  "end": 237.589,
+  "text": "talk about test events later"
+ },
+ {
+  "start": 237.599,
+  "end": 240.07,
+  "text": "but now we are concentrating on the"
+ },
+ {
+  "start": 240.08,
+  "end": 242.789,
+  "text": "execution list right"
+ },
+ {
+  "start": 242.799,
+  "end": 244.55,
+  "text": "so as i said"
+ },
+ {
+  "start": 244.56,
+  "end": 247.11,
+  "text": "creating a execution list is pretty"
+ },
+ {
+  "start": 247.12,
+  "end": 248.149,
+  "text": "simple"
+ },
+ {
+  "start": 248.159,
+  "end": 251.429,
+  "text": "you can directly drag your test cases"
+ },
+ {
+  "start": 251.439,
+  "end": 254.47,
+  "text": "folder or your individual test cases"
+ },
+ {
+  "start": 254.48,
+  "end": 256.87,
+  "text": "into the execution list"
+ },
+ {
+  "start": 256.88,
+  "end": 259.509,
+  "text": "now what i can do is i can create"
+ },
+ {
+  "start": 259.519,
+  "end": 262.39,
+  "text": "a separate execution folder right or"
+ },
+ {
+  "start": 262.4,
+  "end": 264.23,
+  "text": "execution list folder"
+ },
+ {
+  "start": 264.24,
+  "end": 267.03,
+  "text": "inside this execution list this is to"
+ },
+ {
+  "start": 267.04,
+  "end": 269.749,
+  "text": "just segregate my folder from the other"
+ },
+ {
+  "start": 269.759,
+  "end": 273.11,
+  "text": "folders okay so let me call it the"
+ },
+ {
+  "start": 273.12,
+  "end": 275.27,
+  "text": "source demo"
+ },
+ {
+  "start": 275.28,
+  "end": 277.11,
+  "text": "right so this is my source demo"
+ },
+ {
+  "start": 277.12,
+  "end": 279.59,
+  "text": "execution list entry folder"
+ },
+ {
+  "start": 279.6,
+  "end": 281.909,
+  "text": "and inside this i want to have my test"
+ },
+ {
+  "start": 281.919,
+  "end": 283.59,
+  "text": "cases okay"
+ },
+ {
+  "start": 283.6,
+  "end": 284.95,
+  "text": "so what you can do"
+ },
+ {
+  "start": 284.96,
+  "end": 288.15,
+  "text": "you can just drag it and you can drag it"
+ },
+ {
+  "start": 288.16,
+  "end": 290.07,
+  "text": "to the source demo folder"
+ },
+ {
+  "start": 290.08,
+  "end": 292.79,
+  "text": "now that will create an execution entry"
+ },
+ {
+  "start": 292.8,
+  "end": 294.95,
+  "text": "list"
+ },
+ {
+  "start": 294.96,
+  "end": 297.03,
+  "text": "which will have the actual log which"
+ },
+ {
+  "start": 297.04,
+  "end": 299.35,
+  "text": "contains all the logs"
+ },
+ {
+  "start": 299.36,
+  "end": 301.59,
+  "text": "after your test cases are run"
+ },
+ {
+  "start": 301.6,
+  "end": 303.67,
+  "text": "and it will contain this test cases"
+ },
+ {
+  "start": 303.68,
+  "end": 304.87,
+  "text": "folder"
+ },
+ {
+  "start": 304.88,
+  "end": 306.629,
+  "text": "uh inside that will have the template"
+ },
+ {
+  "start": 306.639,
+  "end": 308.87,
+  "text": "instance and inside that you will have"
+ },
+ {
+  "start": 308.88,
+  "end": 311.43,
+  "text": "the test cases so basically the same"
+ },
+ {
+  "start": 311.44,
+  "end": 313.749,
+  "text": "structure which you have in your test"
+ },
+ {
+  "start": 313.759,
+  "end": 316.71,
+  "text": "cases the same will be created here"
+ },
+ {
+  "start": 316.72,
+  "end": 318.55,
+  "text": "now it's better to"
+ },
+ {
+  "start": 318.56,
+  "end": 321.51,
+  "text": "name this execution list right so i'll"
+ },
+ {
+  "start": 321.52,
+  "end": 324.95,
+  "text": "just name it um"
+ },
+ {
+  "start": 324.96,
+  "end": 326.55,
+  "text": "demo execution"
+ },
+ {
+  "start": 326.56,
+  "end": 329.27,
+  "text": "you can name it anything you like"
+ },
+ {
+  "start": 329.28,
+  "end": 330.39,
+  "text": "okay"
+ },
+ {
+  "start": 330.4,
+  "end": 332.629,
+  "text": "so this is my execution"
+ },
+ {
+  "start": 332.639,
+  "end": 335.029,
+  "text": "list entry which has been created here"
+ },
+ {
+  "start": 335.039,
+  "end": 337.189,
+  "text": "containing my two test cases"
+ },
+ {
+  "start": 337.199,
+  "end": 341.029,
+  "text": "the next thing is how to run them right"
+ },
+ {
+  "start": 341.039,
+  "end": 342.31,
+  "text": "so"
+ },
+ {
+  "start": 342.32,
+  "end": 344.15,
+  "text": "you can directly go to your execution"
+ },
+ {
+  "start": 344.16,
+  "end": 346.07,
+  "text": "entry here and"
+ },
+ {
+  "start": 346.08,
+  "end": 348.629,
+  "text": "right click and that will show you an"
+ },
+ {
+  "start": 348.639,
+  "end": 350.79,
+  "text": "option called run now there is something"
+ },
+ {
+  "start": 350.8,
+  "end": 352.95,
+  "text": "also called run as manual test case but"
+ },
+ {
+  "start": 352.96,
+  "end": 355.59,
+  "text": "right now we are not focusing on that"
+ },
+ {
+  "start": 355.6,
+  "end": 359.67,
+  "text": "so go ahead and run this"
+ },
+ {
+  "start": 359.68,
+  "end": 361.59,
+  "text": "and you will see that now it will start"
+ },
+ {
+  "start": 361.6,
+  "end": 362.55,
+  "text": "running"
+ },
+ {
+  "start": 362.56,
+  "end": 364.469,
+  "text": "all the test cases which are present in"
+ },
+ {
+  "start": 364.479,
+  "end": 367.59,
+  "text": "that execution enter list okay"
+ },
+ {
+  "start": 367.6,
+  "end": 369.67,
+  "text": "so we have two test cases so it will be"
+ },
+ {
+  "start": 369.68,
+  "end": 372.79,
+  "text": "running two test cases one after another"
+ },
+ {
+  "start": 372.8,
+  "end": 374.95,
+  "text": "and then finally it will take us back to"
+ },
+ {
+  "start": 374.96,
+  "end": 378.469,
+  "text": "the execution list where we can see all"
+ },
+ {
+  "start": 378.479,
+  "end": 382.309,
+  "text": "our results from this execution okay"
+ },
+ {
+  "start": 382.319,
+  "end": 384.87,
+  "text": "so now tosca is running our test cases"
+ },
+ {
+  "start": 384.88,
+  "end": 386.87,
+  "text": "uh that's the first test case then it"
+ },
+ {
+  "start": 386.88,
+  "end": 390.15,
+  "text": "will launch the second test case"
+ },
+ {
+  "start": 390.16,
+  "end": 392.469,
+  "text": "and once it's done it will process the"
+ },
+ {
+  "start": 392.479,
+  "end": 394.87,
+  "text": "results and show us"
+ },
+ {
+  "start": 394.88,
+  "end": 401.11,
+  "text": "in the execution list"
+ },
+ {
+  "start": 402.87,
+  "end": 402.88,
+  "text": "okay as you can see it is processing the"
+ },
+ {
+  "start": 402.88,
+  "end": 405.11,
+  "text": "execution results and it has taken us"
+ },
+ {
+  "start": 405.12,
+  "end": 407.029,
+  "text": "back to the execution"
+ },
+ {
+  "start": 407.039,
+  "end": 409.11,
+  "text": "so let me bring this to center so that"
+ },
+ {
+  "start": 409.12,
+  "end": 412.71,
+  "text": "we can see this clearly"
+ },
+ {
+  "start": 415.67,
+  "end": 415.68,
+  "text": "so as you can see in the details section"
+ },
+ {
+  "start": 415.68,
+  "end": 419.27,
+  "text": "you will find your execution details"
+ },
+ {
+  "start": 419.28,
+  "end": 422.79,
+  "text": "okay now you can add or remove um any"
+ },
+ {
+  "start": 422.8,
+  "end": 425.27,
+  "text": "columns here from the column chooser you"
+ },
+ {
+  "start": 425.28,
+  "end": 427.749,
+  "text": "can find lots of other"
+ },
+ {
+  "start": 427.759,
+  "end": 428.79,
+  "text": "um"
+ },
+ {
+  "start": 428.8,
+  "end": 431.27,
+  "text": "other columns which you want to add here"
+ },
+ {
+  "start": 431.28,
+  "end": 434.23,
+  "text": "which you can certainly add like um"
+ },
+ {
+  "start": 434.24,
+  "end": 437.029,
+  "text": "summary or the"
+ },
+ {
+  "start": 437.039,
+  "end": 439.67,
+  "text": "end time so that you have the duration"
+ },
+ {
+  "start": 439.68,
+  "end": 442.23,
+  "text": "already how much time it took to"
+ },
+ {
+  "start": 442.24,
+  "end": 443.83,
+  "text": "run this test case like what was the"
+ },
+ {
+  "start": 443.84,
+  "end": 445.11,
+  "text": "start time"
+ },
+ {
+  "start": 445.12,
+  "end": 447.029,
+  "text": "and some other details"
+ },
+ {
+  "start": 447.039,
+  "end": 449.51,
+  "text": "and once you expand this you will see"
+ },
+ {
+  "start": 449.52,
+  "end": 452.15,
+  "text": "that one test case was passed"
+ },
+ {
+  "start": 452.16,
+  "end": 454.15,
+  "text": "and one was failed"
+ },
+ {
+  "start": 454.16,
+  "end": 456.39,
+  "text": "right and it will show you the steps uh"
+ },
+ {
+  "start": 456.4,
+  "end": 457.589,
+  "text": "what failed"
+ },
+ {
+  "start": 457.599,
+  "end": 459.51,
+  "text": "and what passed"
+ },
+ {
+  "start": 459.52,
+  "end": 462.15,
+  "text": "okay"
+ },
+ {
+  "start": 463.99,
+  "end": 464.0,
+  "text": "so this is how you can execute your test"
+ },
+ {
+  "start": 464.0,
+  "end": 466.23,
+  "text": "cases from the execution section in"
+ },
+ {
+  "start": 466.24,
+  "end": 467.67,
+  "text": "execution list"
+ },
+ {
+  "start": 467.68,
+  "end": 470.07,
+  "text": "and all the results would be stored"
+ },
+ {
+  "start": 470.08,
+  "end": 472.309,
+  "text": "until you don't delete it or archive it"
+ },
+ {
+  "start": 472.319,
+  "end": 473.35,
+  "text": "right so"
+ },
+ {
+  "start": 473.36,
+  "end": 475.909,
+  "text": "whenever i come back here and i want to"
+ },
+ {
+  "start": 475.919,
+  "end": 478.71,
+  "text": "see my results it will be present okay"
+ },
+ {
+  "start": 478.72,
+  "end": 480.71,
+  "text": "so that's the advantage of execution"
+ },
+ {
+  "start": 480.72,
+  "end": 483.029,
+  "text": "list and that's the recommended way of"
+ },
+ {
+  "start": 483.039,
+  "end": 487.56,
+  "text": "running your test in real time"
+ }
+]

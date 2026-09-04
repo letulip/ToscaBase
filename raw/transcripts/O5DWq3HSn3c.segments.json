@@ -1,0 +1,592 @@
+[
+ {
+  "start": 7.97,
+  "end": 7.98,
+  "text": "hey everyone welcome back to this Tosca"
+ },
+ {
+  "start": 7.98,
+  "end": 9.71,
+  "text": "automation playlist and we'll talk about"
+ },
+ {
+  "start": 9.72,
+  "end": 12.35,
+  "text": "another interesting feature today"
+ },
+ {
+  "start": 12.36,
+  "end": 14.509,
+  "text": "so today we are going to discuss about"
+ },
+ {
+  "start": 14.519,
+  "end": 16.67,
+  "text": "one of the features which is available"
+ },
+ {
+  "start": 16.68,
+  "end": 21.349,
+  "text": "uh on the web tables so if you want to"
+ },
+ {
+  "start": 21.359,
+  "end": 24.17,
+  "text": "verify the row and column count of a"
+ },
+ {
+  "start": 24.18,
+  "end": 26.75,
+  "text": "particular web table then there is a"
+ },
+ {
+  "start": 26.76,
+  "end": 28.849,
+  "text": "method which you can use to get the"
+ },
+ {
+  "start": 28.859,
+  "end": 31.13,
+  "text": "total row count and the total column"
+ },
+ {
+  "start": 31.14,
+  "end": 33.53,
+  "text": "count very easily from any particular"
+ },
+ {
+  "start": 33.54,
+  "end": 35.209,
+  "text": "web table"
+ },
+ {
+  "start": 35.219,
+  "end": 37.43,
+  "text": "so let's look at an example"
+ },
+ {
+  "start": 37.44,
+  "end": 40.25,
+  "text": "now we have used this many times we have"
+ },
+ {
+  "start": 40.26,
+  "end": 44.389,
+  "text": "seen how we can steer this table uh"
+ },
+ {
+  "start": 44.399,
+  "end": 47.51,
+  "text": "using the constraints action mode on"
+ },
+ {
+  "start": 47.52,
+  "end": 50.33,
+  "text": "different columns right but see for"
+ },
+ {
+  "start": 50.34,
+  "end": 52.79,
+  "text": "example you have got a web table and you"
+ },
+ {
+  "start": 52.8,
+  "end": 55.81,
+  "text": "have to verify how many rows are there"
+ },
+ {
+  "start": 55.82,
+  "end": 58.729,
+  "text": "and how many columns are there okay for"
+ },
+ {
+  "start": 58.739,
+  "end": 61.13,
+  "text": "verification purpose so how are you"
+ },
+ {
+  "start": 61.14,
+  "end": 62.529,
+  "text": "going to do that"
+ },
+ {
+  "start": 62.539,
+  "end": 66.35,
+  "text": "so for that uh there is a property"
+ },
+ {
+  "start": 66.36,
+  "end": 69.71,
+  "text": "called row count and column count okay"
+ },
+ {
+  "start": 69.72,
+  "end": 72.89,
+  "text": "and we'll see how we can get this and"
+ },
+ {
+  "start": 72.9,
+  "end": 74.99,
+  "text": "also verify it"
+ },
+ {
+  "start": 75.0,
+  "end": 77.75,
+  "text": "so for this uh I have already scanned"
+ },
+ {
+  "start": 77.76,
+  "end": 80.929,
+  "text": "this module so I'm going to create a"
+ },
+ {
+  "start": 80.939,
+  "end": 84.13,
+  "text": "couple of test cases here okay"
+ },
+ {
+  "start": 84.14,
+  "end": 89.929,
+  "text": "so coming here I want to verify row"
+ },
+ {
+  "start": 89.939,
+  "end": 92.27,
+  "text": "count"
+ },
+ {
+  "start": 92.28,
+  "end": 95.749,
+  "text": "okay and uh the second test case is to"
+ },
+ {
+  "start": 95.759,
+  "end": 100.45,
+  "text": "verify the column count"
+ },
+ {
+  "start": 104.09,
+  "end": 104.1,
+  "text": "now I'm going to drag this module here"
+ },
+ {
+  "start": 104.1,
+  "end": 108.17,
+  "text": "in verify row count and what we need to"
+ },
+ {
+  "start": 108.18,
+  "end": 110.569,
+  "text": "do is we need to go to the table object"
+ },
+ {
+  "start": 110.579,
+  "end": 113.149,
+  "text": "okay so this is our table object"
+ },
+ {
+  "start": 113.159,
+  "end": 118.85,
+  "text": "and here we need to as I said specify a"
+ },
+ {
+  "start": 118.86,
+  "end": 121.789,
+  "text": "property called row count"
+ },
+ {
+  "start": 121.799,
+  "end": 123.35,
+  "text": "okay"
+ },
+ {
+  "start": 123.36,
+  "end": 125.51,
+  "text": "and then we are going to assign this row"
+ },
+ {
+  "start": 125.52,
+  "end": 128.93,
+  "text": "count uh into a buffer variable okay so"
+ },
+ {
+  "start": 128.94,
+  "end": 132.229,
+  "text": "we are going to call it row count"
+ },
+ {
+  "start": 132.239,
+  "end": 135.11,
+  "text": "and in the action mode we are going to"
+ },
+ {
+  "start": 135.12,
+  "end": 137.51,
+  "text": "select buffer okay so what's going to do"
+ },
+ {
+  "start": 137.52,
+  "end": 140.15,
+  "text": "it's going to get the row count using"
+ },
+ {
+  "start": 140.16,
+  "end": 142.43,
+  "text": "this particular property and then it is"
+ },
+ {
+  "start": 142.44,
+  "end": 144.41,
+  "text": "going to assign the value to the rocon"
+ },
+ {
+  "start": 144.42,
+  "end": 146.51,
+  "text": "buffer okay"
+ },
+ {
+  "start": 146.52,
+  "end": 152.21,
+  "text": "so uh that's done and then what we are"
+ },
+ {
+  "start": 152.22,
+  "end": 156.05,
+  "text": "going to do is we want to verify that"
+ },
+ {
+  "start": 156.06,
+  "end": 159.77,
+  "text": "this particular table has got the"
+ },
+ {
+  "start": 159.78,
+  "end": 162.41,
+  "text": "specific row count right"
+ },
+ {
+  "start": 162.42,
+  "end": 166.19,
+  "text": "so for that uh let's do a verification"
+ },
+ {
+  "start": 166.2,
+  "end": 168.77,
+  "text": "then and for that we are going to use"
+ },
+ {
+  "start": 168.78,
+  "end": 172.97,
+  "text": "the t-box evaluation tool"
+ },
+ {
+  "start": 172.98,
+  "end": 176.27,
+  "text": "okay and then I just need to do a"
+ },
+ {
+  "start": 176.28,
+  "end": 180.29,
+  "text": "verification here so I will be verifying"
+ },
+ {
+  "start": 180.3,
+  "end": 184.07,
+  "text": "uh buffer of row count"
+ },
+ {
+  "start": 184.08,
+  "end": 185.589,
+  "text": "okay"
+ },
+ {
+  "start": 185.599,
+  "end": 192.17,
+  "text": "equals equals uh five"
+ },
+ {
+  "start": 194.93,
+  "end": 194.94,
+  "text": "so I need to close this and then equals"
+ },
+ {
+  "start": 194.94,
+  "end": 197.63,
+  "text": "equals five right"
+ },
+ {
+  "start": 197.64,
+  "end": 200.449,
+  "text": "so this is a verification I want to do"
+ },
+ {
+  "start": 200.459,
+  "end": 203.33,
+  "text": "and then let's move on to our next test"
+ },
+ {
+  "start": 203.34,
+  "end": 206.69,
+  "text": "case which is the column count okay"
+ },
+ {
+  "start": 206.7,
+  "end": 209.93,
+  "text": "so let me drag this module again here"
+ },
+ {
+  "start": 209.94,
+  "end": 213.35,
+  "text": "and this time around the method is same"
+ },
+ {
+  "start": 213.36,
+  "end": 215.089,
+  "text": "but the name is different"
+ },
+ {
+  "start": 215.099,
+  "end": 217.91,
+  "text": "so we need to get the column count okay"
+ },
+ {
+  "start": 217.92,
+  "end": 221.509,
+  "text": "and then I'm going to also create a"
+ },
+ {
+  "start": 221.519,
+  "end": 224.149,
+  "text": "particular buffer called column count"
+ },
+ {
+  "start": 224.159,
+  "end": 226.25,
+  "text": "and then change the action mode to"
+ },
+ {
+  "start": 226.26,
+  "end": 229.55,
+  "text": "buffer here okay"
+ },
+ {
+  "start": 229.56,
+  "end": 231.229,
+  "text": "um also"
+ },
+ {
+  "start": 231.239,
+  "end": 235.25,
+  "text": "after this uh what we can do we can add"
+ },
+ {
+  "start": 235.26,
+  "end": 237.589,
+  "text": "another test step here"
+ },
+ {
+  "start": 237.599,
+  "end": 241.67,
+  "text": "again t-box evaluation tool"
+ },
+ {
+  "start": 241.68,
+  "end": 245.33,
+  "text": "and here we are going to verify so we"
+ },
+ {
+  "start": 245.34,
+  "end": 250.789,
+  "text": "are going to verify the column count"
+ },
+ {
+  "start": 257.15,
+  "end": 257.16,
+  "text": "okay and equals equals four right"
+ },
+ {
+  "start": 257.16,
+  "end": 261.65,
+  "text": "so we have got four columns and we have"
+ },
+ {
+  "start": 261.66,
+  "end": 264.95,
+  "text": "got four rows okay"
+ },
+ {
+  "start": 264.96,
+  "end": 268.189,
+  "text": "or actually the five rows because the"
+ },
+ {
+  "start": 268.199,
+  "end": 271.79,
+  "text": "first row is the header so it should uh"
+ },
+ {
+  "start": 271.8,
+  "end": 275.39,
+  "text": "actually verify correctly okay so if our"
+ },
+ {
+  "start": 275.4,
+  "end": 277.07,
+  "text": "methods are correct"
+ },
+ {
+  "start": 277.08,
+  "end": 279.05,
+  "text": "so let's quickly go ahead and execute"
+ },
+ {
+  "start": 279.06,
+  "end": 281.749,
+  "text": "this and check if this test case passes"
+ },
+ {
+  "start": 281.759,
+  "end": 284.93,
+  "text": "or it fails"
+ },
+ {
+  "start": 287.629,
+  "end": 287.639,
+  "text": "okay so the test case has passed"
+ },
+ {
+  "start": 287.639,
+  "end": 290.15,
+  "text": "and let's see what are the values which"
+ },
+ {
+  "start": 290.16,
+  "end": 293.27,
+  "text": "has been captured here okay"
+ },
+ {
+  "start": 293.28,
+  "end": 296.57,
+  "text": "so here uh the buffer with name row"
+ },
+ {
+  "start": 296.58,
+  "end": 299.03,
+  "text": "count is set to 5 and then in the"
+ },
+ {
+  "start": 299.04,
+  "end": 301.37,
+  "text": "evaluation"
+ },
+ {
+  "start": 301.38,
+  "end": 303.969,
+  "text": "um the expected was equal to"
+ },
+ {
+  "start": 303.979,
+  "end": 308.21,
+  "text": "actual so it evaluated to true and then"
+ },
+ {
+  "start": 308.22,
+  "end": 311.57,
+  "text": "here column count was four and the"
+ },
+ {
+  "start": 311.58,
+  "end": 315.05,
+  "text": "actual versus expected was also true so"
+ },
+ {
+  "start": 315.06,
+  "end": 318.65,
+  "text": "the verification has passed right"
+ },
+ {
+  "start": 318.66,
+  "end": 321.23,
+  "text": "as a best practice don't forget to"
+ },
+ {
+  "start": 321.24,
+  "end": 324.71,
+  "text": "rename all your test steps and also the"
+ },
+ {
+  "start": 324.72,
+  "end": 326.09,
+  "text": "test case names which I have already"
+ },
+ {
+  "start": 326.1,
+  "end": 329.27,
+  "text": "done and then you should also ask that"
+ },
+ {
+  "start": 329.28,
+  "end": 332.93,
+  "text": "the work state to complete it right"
+ },
+ {
+  "start": 332.94,
+  "end": 335.33,
+  "text": "so as you can see it's very easy to"
+ },
+ {
+  "start": 335.34,
+  "end": 337.55,
+  "text": "verify the row count and column count"
+ },
+ {
+  "start": 337.56,
+  "end": 340.01,
+  "text": "this might be useful in some scenarios"
+ },
+ {
+  "start": 340.02,
+  "end": 343.85,
+  "text": "where you have to put a verification on"
+ },
+ {
+  "start": 343.86,
+  "end": 346.31,
+  "text": "these particular values"
+ },
+ {
+  "start": 346.32,
+  "end": 347.81,
+  "text": "so that's all for this particular video"
+ },
+ {
+  "start": 347.82,
+  "end": 349.67,
+  "text": "I hope you enjoyed it and you learned"
+ },
+ {
+  "start": 349.68,
+  "end": 351.59,
+  "text": "something new today if you want to watch"
+ },
+ {
+  "start": 351.6,
+  "end": 353.39,
+  "text": "more videos please subscribe to our"
+ },
+ {
+  "start": 353.4,
+  "end": 356.029,
+  "text": "Channel and we'll come up with lots more"
+ },
+ {
+  "start": 356.039,
+  "end": 357.11,
+  "text": "videos"
+ },
+ {
+  "start": 357.12,
+  "end": 361.4,
+  "text": "so keep watching and keep learning Tosca"
+ }
+]

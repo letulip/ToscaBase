@@ -1,0 +1,1437 @@
+[
+ {
+  "start": 12.549,
+  "end": 12.559,
+  "text": "hey everyone welcome back to our Channel"
+ },
+ {
+  "start": 12.559,
+  "end": 15.19,
+  "text": "I am back with another interesting topic"
+ },
+ {
+  "start": 15.2,
+  "end": 17.99,
+  "text": "in the tosa automation"
+ },
+ {
+  "start": 18.0,
+  "end": 20.79,
+  "text": "playlist so today we are going to talk"
+ },
+ {
+  "start": 20.8,
+  "end": 22.95,
+  "text": "about a common issue which you might"
+ },
+ {
+  "start": 22.96,
+  "end": 26.109,
+  "text": "have faced earlier or you might face uh"
+ },
+ {
+  "start": 26.119,
+  "end": 29.349,
+  "text": "when you working with tosa and that is"
+ },
+ {
+  "start": 29.359,
+  "end": 32.91,
+  "text": "um when you make a mistake while working"
+ },
+ {
+  "start": 32.92,
+  "end": 36.389,
+  "text": "in a project which uh is a multi-user"
+ },
+ {
+  "start": 36.399,
+  "end": 39.67,
+  "text": "workspace and you are working in a team"
+ },
+ {
+  "start": 39.68,
+  "end": 43.67,
+  "text": "now think that uh by mistake you deleted"
+ },
+ {
+  "start": 43.68,
+  "end": 46.549,
+  "text": "a particular object which might be a"
+ },
+ {
+  "start": 46.559,
+  "end": 50.31,
+  "text": "test case uh which might be a module or"
+ },
+ {
+  "start": 50.32,
+  "end": 52.75,
+  "text": "um which might be execution list or any"
+ },
+ {
+  "start": 52.76,
+  "end": 55.99,
+  "text": "object uh within tosa right which was"
+ },
+ {
+  "start": 56.0,
+  "end": 58.91,
+  "text": "already present in the project and then"
+ },
+ {
+  "start": 58.92,
+  "end": 61.95,
+  "text": "you miss stenly uh deleted that"
+ },
+ {
+  "start": 61.96,
+  "end": 65.31,
+  "text": "particular object now you would think"
+ },
+ {
+  "start": 65.32,
+  "end": 67.95,
+  "text": "that there is no way to recover that"
+ },
+ {
+  "start": 67.96,
+  "end": 71.35,
+  "text": "particular object in your TSA project"
+ },
+ {
+  "start": 71.36,
+  "end": 74.51,
+  "text": "but uh that's not true okay uh"
+ },
+ {
+  "start": 74.52,
+  "end": 76.95,
+  "text": "especially not true if your project has"
+ },
+ {
+  "start": 76.96,
+  "end": 78.83,
+  "text": "got versioning"
+ },
+ {
+  "start": 78.84,
+  "end": 82.39,
+  "text": "enabled so let's see how this particular"
+ },
+ {
+  "start": 82.4,
+  "end": 85.31,
+  "text": "uh issue could be resolved um even"
+ },
+ {
+  "start": 85.32,
+  "end": 88.149,
+  "text": "though it looks uh improvable it is"
+ },
+ {
+  "start": 88.159,
+  "end": 91.87,
+  "text": "actually possible to recover a deleted"
+ },
+ {
+  "start": 91.88,
+  "end": 96.23,
+  "text": "object in tosa so um I am currently in a"
+ },
+ {
+  "start": 96.24,
+  "end": 99.59,
+  "text": "multi-user workspace okay and I will"
+ },
+ {
+  "start": 99.6,
+  "end": 102.63,
+  "text": "show you this particular example or demo"
+ },
+ {
+  "start": 102.64,
+  "end": 104.469,
+  "text": "on this particular folder which is the"
+ },
+ {
+  "start": 104.479,
+  "end": 106.27,
+  "text": "project folder which I have created with"
+ },
+ {
+  "start": 106.28,
+  "end": 109.469,
+  "text": "some test cases uh and some test steps"
+ },
+ {
+  "start": 109.479,
+  "end": 112.469,
+  "text": "inside this right so this is the folder"
+ },
+ {
+  "start": 112.479,
+  "end": 114.87,
+  "text": "where we are working now before moving"
+ },
+ {
+  "start": 114.88,
+  "end": 117.749,
+  "text": "forward we need to First make sure that"
+ },
+ {
+  "start": 117.759,
+  "end": 120.31,
+  "text": "versioning is enabled for about this"
+ },
+ {
+  "start": 120.32,
+  "end": 123.63,
+  "text": "particular workspace or project okay and"
+ },
+ {
+  "start": 123.64,
+  "end": 127.389,
+  "text": "that you can do uh by going into the uh"
+ },
+ {
+  "start": 127.399,
+  "end": 130.589,
+  "text": "menu bar there you will find a tab uh"
+ },
+ {
+  "start": 130.599,
+  "end": 131.47,
+  "text": "which is"
+ },
+ {
+  "start": 131.48,
+  "end": 134.19,
+  "text": "versioning right and here you will see"
+ },
+ {
+  "start": 134.2,
+  "end": 136.83,
+  "text": "there are three option uh view change"
+ },
+ {
+  "start": 136.84,
+  "end": 139.869,
+  "text": "history for project view recovered and"
+ },
+ {
+  "start": 139.879,
+  "end": 144.35,
+  "text": "lost objects and manage versioning okay"
+ },
+ {
+  "start": 144.36,
+  "end": 147.07,
+  "text": "so if you click on manage versioning uh"
+ },
+ {
+  "start": 147.08,
+  "end": 150.39,
+  "text": "you will see that versioning is enabled"
+ },
+ {
+  "start": 150.4,
+  "end": 153.79,
+  "text": "okay I can also enable this delete this"
+ },
+ {
+  "start": 153.8,
+  "end": 156.83,
+  "text": "day and older I can choose a particular"
+ },
+ {
+  "start": 156.84,
+  "end": 160.27,
+  "text": "day and uh Beyond this it will try to"
+ },
+ {
+  "start": 160.28,
+  "end": 162.949,
+  "text": "remove everything okay or delete this"
+ },
+ {
+  "start": 162.959,
+  "end": 165.99,
+  "text": "revision and older so I can put a"
+ },
+ {
+  "start": 166.0,
+  "end": 168.27,
+  "text": "version number here and Beyond this it"
+ },
+ {
+  "start": 168.28,
+  "end": 171.75,
+  "text": "is going to uh or below this it is going"
+ },
+ {
+  "start": 171.76,
+  "end": 175.63,
+  "text": "to remove all the other versions now if"
+ },
+ {
+  "start": 175.64,
+  "end": 178.509,
+  "text": "I want I can also disable the"
+ },
+ {
+  "start": 178.519,
+  "end": 181.03,
+  "text": "versioning um it will say that disabling"
+ },
+ {
+  "start": 181.04,
+  "end": 182.83,
+  "text": "the version permanently deletes your"
+ },
+ {
+  "start": 182.84,
+  "end": 185.43,
+  "text": "entire version history and it will ask"
+ },
+ {
+  "start": 185.44,
+  "end": 188.75,
+  "text": "you to confirm or cancel okay so mostly"
+ },
+ {
+  "start": 188.76,
+  "end": 191.07,
+  "text": "I would not recommend to disable the"
+ },
+ {
+  "start": 191.08,
+  "end": 193.71,
+  "text": "version unless you have got space"
+ },
+ {
+  "start": 193.72,
+  "end": 196.149,
+  "text": "constraints because if we enable the"
+ },
+ {
+  "start": 196.159,
+  "end": 199.47,
+  "text": "first thing then um your workspace size"
+ },
+ {
+  "start": 199.48,
+  "end": 203.509,
+  "text": "is going to increase because um it is"
+ },
+ {
+  "start": 203.519,
+  "end": 206.11,
+  "text": "always going to maintain a particular"
+ },
+ {
+  "start": 206.12,
+  "end": 209.789,
+  "text": "number of versions for your every object"
+ },
+ {
+  "start": 209.799,
+  "end": 212.229,
+  "text": "in the workspace so if you got a huge"
+ },
+ {
+  "start": 212.239,
+  "end": 214.63,
+  "text": "workspace and then you have enabled"
+ },
+ {
+  "start": 214.64,
+  "end": 219.429,
+  "text": "vering then um it will uh consume a lot"
+ },
+ {
+  "start": 219.439,
+  "end": 224.11,
+  "text": "of space but uh versing is um"
+ },
+ {
+  "start": 224.12,
+  "end": 226.91,
+  "text": "recommended and also important because"
+ },
+ {
+  "start": 226.92,
+  "end": 230.39,
+  "text": "of these kind of scenarios where um you"
+ },
+ {
+  "start": 230.4,
+  "end": 233.869,
+  "text": "need uh some backup for all of your"
+ },
+ {
+  "start": 233.879,
+  "end": 238.83,
+  "text": "objects right so if by mistake um you"
+ },
+ {
+  "start": 238.84,
+  "end": 242.63,
+  "text": "lose some object or your workspace gets"
+ },
+ {
+  "start": 242.64,
+  "end": 245.39,
+  "text": "corrupted and uh you are not able to"
+ },
+ {
+  "start": 245.4,
+  "end": 248.309,
+  "text": "save or check in your objects right in"
+ },
+ {
+  "start": 248.319,
+  "end": 250.71,
+  "text": "those kind of scenarios versioning uh"
+ },
+ {
+  "start": 250.72,
+  "end": 255.39,
+  "text": "may be helpful okay so um this is about"
+ },
+ {
+  "start": 255.4,
+  "end": 258.71,
+  "text": "manage versioning uh I can also see view"
+ },
+ {
+  "start": 258.72,
+  "end": 263.39,
+  "text": "recovered and uh lost objects okay so it"
+ },
+ {
+  "start": 263.4,
+  "end": 266.55,
+  "text": "will show you which objects were lost"
+ },
+ {
+  "start": 266.56,
+  "end": 269.87,
+  "text": "right if I search right now I cannot see"
+ },
+ {
+  "start": 269.88,
+  "end": 273.23,
+  "text": "um any lost objects in my"
+ },
+ {
+  "start": 273.24,
+  "end": 276.469,
+  "text": "workspace and then um I can also see the"
+ },
+ {
+  "start": 276.479,
+  "end": 279.15,
+  "text": "change history for the complete project"
+ },
+ {
+  "start": 279.16,
+  "end": 281.469,
+  "text": "okay so here you can see the change"
+ },
+ {
+  "start": 281.479,
+  "end": 283.83,
+  "text": "history for the complete project these"
+ },
+ {
+  "start": 283.84,
+  "end": 286.23,
+  "text": "are all the versions you can see here"
+ },
+ {
+  "start": 286.24,
+  "end": 288.67,
+  "text": "and when you click on a version it will"
+ },
+ {
+  "start": 288.68,
+  "end": 293.029,
+  "text": "tell you what was done okay so this"
+ },
+ {
+  "start": 293.039,
+  "end": 295.23,
+  "text": "particular demo"
+ },
+ {
+  "start": 295.24,
+  "end": 298.83,
+  "text": "folder uh one object was updated right"
+ },
+ {
+  "start": 298.84,
+  "end": 301.189,
+  "text": "in this folder then in this test case"
+ },
+ {
+  "start": 301.199,
+  "end": 303.95,
+  "text": "one object was deleted and then in this"
+ },
+ {
+  "start": 303.96,
+  "end": 306.51,
+  "text": "test case one object was"
+ },
+ {
+  "start": 306.52,
+  "end": 309.71,
+  "text": "added okay this is how it shows you all"
+ },
+ {
+  "start": 309.72,
+  "end": 312.87,
+  "text": "the different versions and uh what was"
+ },
+ {
+  "start": 312.88,
+  "end": 315.67,
+  "text": "done in that particular version also the"
+ },
+ {
+  "start": 315.68,
+  "end": 317.59,
+  "text": "unique ID uh through which you can"
+ },
+ {
+  "start": 317.6,
+  "end": 318.59,
+  "text": "search"
+ },
+ {
+  "start": 318.6,
+  "end": 322.39,
+  "text": "it okay so this is for the whole"
+ },
+ {
+  "start": 322.4,
+  "end": 324.909,
+  "text": "project now coming to our particular"
+ },
+ {
+  "start": 324.919,
+  "end": 327.43,
+  "text": "scenario right so here we have got uh"
+ },
+ {
+  "start": 327.44,
+  "end": 330.23,
+  "text": "the project folder so we will go out and"
+ },
+ {
+  "start": 330.24,
+  "end": 334.59,
+  "text": "check out the tree here and then uh by"
+ },
+ {
+  "start": 334.6,
+  "end": 337.87,
+  "text": "mistake uh we actually deleted uh the"
+ },
+ {
+  "start": 337.88,
+  "end": 340.51,
+  "text": "test case three"
+ },
+ {
+  "start": 340.52,
+  "end": 342.95,
+  "text": "okay now there could be several reasons"
+ },
+ {
+  "start": 342.96,
+  "end": 345.15,
+  "text": "you thought it is not needed uh you"
+ },
+ {
+  "start": 345.16,
+  "end": 347.749,
+  "text": "thought you would create a new test case"
+ },
+ {
+  "start": 347.759,
+  "end": 351.23,
+  "text": "or due to any reason you just deleted"
+ },
+ {
+  "start": 351.24,
+  "end": 354.39,
+  "text": "this particular test case and then you"
+ },
+ {
+  "start": 354.4,
+  "end": 357.39,
+  "text": "also performed a checkin all so which"
+ },
+ {
+  "start": 357.4,
+  "end": 359.23,
+  "text": "makes sure that all the changes are"
+ },
+ {
+  "start": 359.24,
+  "end": 361.749,
+  "text": "checked in right which are not"
+ },
+ {
+  "start": 361.759,
+  "end": 364.39,
+  "text": "reversible anyways because there is no"
+ },
+ {
+  "start": 364.4,
+  "end": 367.51,
+  "text": "option to reverse your changes or to"
+ },
+ {
+  "start": 367.52,
+  "end": 369.83,
+  "text": "recover that particular test case"
+ },
+ {
+  "start": 369.84,
+  "end": 371.79,
+  "text": "directly okay so there is no direct"
+ },
+ {
+  "start": 371.8,
+  "end": 374.39,
+  "text": "option like that in tosa and then most"
+ },
+ {
+  "start": 374.4,
+  "end": 377.629,
+  "text": "people think that once a object is"
+ },
+ {
+  "start": 377.639,
+  "end": 379.99,
+  "text": "deleted in tosa it is not possible to"
+ },
+ {
+  "start": 380.0,
+  "end": 383.23,
+  "text": "recover right so what they do they try"
+ },
+ {
+  "start": 383.24,
+  "end": 386.35,
+  "text": "and recreate all the objects which uh"
+ },
+ {
+  "start": 386.36,
+  "end": 389.189,
+  "text": "were removed by mistake but that's not"
+ },
+ {
+  "start": 389.199,
+  "end": 393.35,
+  "text": "correct okay so now what we will do here"
+ },
+ {
+  "start": 393.36,
+  "end": 395.83,
+  "text": "uh we'll check out the whole project"
+ },
+ {
+  "start": 395.84,
+  "end": 400.189,
+  "text": "okay and now uh we will"
+ },
+ {
+  "start": 400.199,
+  "end": 403.55,
+  "text": "also let's add another test case here uh"
+ },
+ {
+  "start": 403.56,
+  "end": 407.43,
+  "text": "which is called tc4 not TC3 uh which I"
+ },
+ {
+  "start": 407.44,
+  "end": 410.23,
+  "text": "deleted and then I'm going to check in"
+ },
+ {
+  "start": 410.24,
+  "end": 413.83,
+  "text": "all now how can I recover the lost"
+ },
+ {
+  "start": 413.84,
+  "end": 418.79,
+  "text": "object so uh right click on the project"
+ },
+ {
+  "start": 418.8,
+  "end": 421.15,
+  "text": "okay uh which is the test case folder"
+ },
+ {
+  "start": 421.16,
+  "end": 424.11,
+  "text": "and then you will find a versioning uh"
+ },
+ {
+  "start": 424.12,
+  "end": 426.99,
+  "text": "in the menu okay so this is the option"
+ },
+ {
+  "start": 427.0,
+  "end": 429.469,
+  "text": "versioning option and there are three"
+ },
+ {
+  "start": 429.479,
+  "end": 431.79,
+  "text": "options view change history uh view"
+ },
+ {
+  "start": 431.8,
+  "end": 434.749,
+  "text": "change history for tree or uh export"
+ },
+ {
+  "start": 434.759,
+  "end": 437.309,
+  "text": "subset for revision so either we can"
+ },
+ {
+  "start": 437.319,
+  "end": 439.23,
+  "text": "view the change history for the"
+ },
+ {
+  "start": 439.24,
+  "end": 442.189,
+  "text": "individual object or we can uh view the"
+ },
+ {
+  "start": 442.199,
+  "end": 444.39,
+  "text": "change history for the tree which means"
+ },
+ {
+  "start": 444.4,
+  "end": 447.189,
+  "text": "it will show the change history not only"
+ },
+ {
+  "start": 447.199,
+  "end": 451.029,
+  "text": "for the folder but also for for all the"
+ },
+ {
+  "start": 451.039,
+  "end": 453.15,
+  "text": "objects which are contained inside that"
+ },
+ {
+  "start": 453.16,
+  "end": 455.029,
+  "text": "folder because we are looking at the"
+ },
+ {
+  "start": 455.039,
+  "end": 460.27,
+  "text": "tree so now if I look at the version"
+ },
+ {
+  "start": 460.28,
+  "end": 464.029,
+  "text": "history for this particular tree right"
+ },
+ {
+  "start": 464.039,
+  "end": 466.589,
+  "text": "you will see there are two versions okay"
+ },
+ {
+  "start": 466.599,
+  "end": 468.11,
+  "text": "so one is"
+ },
+ {
+  "start": 468.12,
+  "end": 471.629,
+  "text": "30 okay so here what it is showing me"
+ },
+ {
+  "start": 471.639,
+  "end": 475.869,
+  "text": "zero objects updated right uh zero"
+ },
+ {
+  "start": 475.879,
+  "end": 478.43,
+  "text": "objects were added and four objects were"
+ },
+ {
+  "start": 478.44,
+  "end": 481.309,
+  "text": "deleted right and if you notice this is"
+ },
+ {
+  "start": 481.319,
+  "end": 484.83,
+  "text": "the test case three which we deleted by"
+ },
+ {
+  "start": 484.84,
+  "end": 488.749,
+  "text": "mistake and then here one object updated"
+ },
+ {
+  "start": 488.759,
+  "end": 491.469,
+  "text": "right in the project"
+ },
+ {
+  "start": 491.479,
+  "end": 497.79,
+  "text": "folder then um if I go into this the"
+ },
+ {
+  "start": 497.8,
+  "end": 500.909,
+  "text": "last version which is 26 in this you"
+ },
+ {
+  "start": 500.919,
+  "end": 504.51,
+  "text": "will see uh one object added then the"
+ },
+ {
+  "start": 504.52,
+  "end": 507.99,
+  "text": "test case one test case 2 and test case"
+ },
+ {
+  "start": 508.0,
+  "end": 510.589,
+  "text": "three right"
+ },
+ {
+  "start": 510.599,
+  "end": 513.79,
+  "text": "so whenever you are trying to recover uh"
+ },
+ {
+  "start": 513.8,
+  "end": 516.11,
+  "text": "any particular object uh and you're"
+ },
+ {
+  "start": 516.12,
+  "end": 519.43,
+  "text": "looking at the uh change history you"
+ },
+ {
+  "start": 519.44,
+  "end": 523.35,
+  "text": "always need to uh choose the option or"
+ },
+ {
+  "start": 523.36,
+  "end": 526.389,
+  "text": "you always need to look at the revision"
+ },
+ {
+  "start": 526.399,
+  "end": 531.03,
+  "text": "number uh prior to uh the number which"
+ },
+ {
+  "start": 531.04,
+  "end": 533.35,
+  "text": "uh shows that you have deleted that"
+ },
+ {
+  "start": 533.36,
+  "end": 535.47,
+  "text": "particular object which is for our case"
+ },
+ {
+  "start": 535.48,
+  "end": 540.03,
+  "text": "it is 30 here right but uh we need to"
+ },
+ {
+  "start": 540.04,
+  "end": 543.31,
+  "text": "use the revision number 26 so that we"
+ },
+ {
+  "start": 543.32,
+  "end": 547.389,
+  "text": "can recover the earlier version of this"
+ },
+ {
+  "start": 547.399,
+  "end": 551.31,
+  "text": "three or this particular test cases so"
+ },
+ {
+  "start": 551.32,
+  "end": 553.55,
+  "text": "what it will do it will recover test"
+ },
+ {
+  "start": 553.56,
+  "end": 555.47,
+  "text": "case 3 which is not present in our"
+ },
+ {
+  "start": 555.48,
+  "end": 558.31,
+  "text": "folder so uh you cannot directly do this"
+ },
+ {
+  "start": 558.32,
+  "end": 562.91,
+  "text": "from here so uh let's close this option"
+ },
+ {
+  "start": 562.92,
+  "end": 567.269,
+  "text": "and let's come back here now um here"
+ },
+ {
+  "start": 567.279,
+  "end": 569.87,
+  "text": "there were three options right so now"
+ },
+ {
+  "start": 569.88,
+  "end": 572.71,
+  "text": "what we'll do we have to export subset"
+ },
+ {
+  "start": 572.72,
+  "end": 575.59,
+  "text": "for a particular revision so we will"
+ },
+ {
+  "start": 575.6,
+  "end": 577.23,
+  "text": "choose this option"
+ },
+ {
+  "start": 577.24,
+  "end": 580.63,
+  "text": "here and now it will ask you to select a"
+ },
+ {
+  "start": 580.64,
+  "end": 584.91,
+  "text": "revision which is between 1 to 30 okay"
+ },
+ {
+  "start": 584.92,
+  "end": 587.87,
+  "text": "so we are going to choose a division"
+ },
+ {
+  "start": 587.88,
+  "end": 589.069,
+  "text": "which is"
+ },
+ {
+  "start": 589.079,
+  "end": 593.67,
+  "text": "26 right so what we will do here uh we"
+ },
+ {
+  "start": 593.68,
+  "end": 596.91,
+  "text": "will click on okay and then it will ask"
+ },
+ {
+  "start": 596.92,
+  "end": 599.59,
+  "text": "you to save this particular subset now"
+ },
+ {
+  "start": 599.6,
+  "end": 601.79,
+  "text": "it is just like uh Import and Export"
+ },
+ {
+  "start": 601.8,
+  "end": 604.63,
+  "text": "subset uh which we have used multiple"
+ },
+ {
+  "start": 604.64,
+  "end": 606.949,
+  "text": "times to Import and Export different"
+ },
+ {
+  "start": 606.959,
+  "end": 609.91,
+  "text": "objects but this particular option is"
+ },
+ {
+  "start": 609.92,
+  "end": 613.03,
+  "text": "made to export a particular revision"
+ },
+ {
+  "start": 613.04,
+  "end": 615.87,
+  "text": "right so which is a version saved in"
+ },
+ {
+  "start": 615.88,
+  "end": 619.829,
+  "text": "tosa and then you create a export subset"
+ },
+ {
+  "start": 619.839,
+  "end": 623.23,
+  "text": "out of it right so I'm going to call"
+ },
+ {
+  "start": 623.24,
+  "end": 627.11,
+  "text": "this TC3 uh. TSU which is the tosa"
+ },
+ {
+  "start": 627.12,
+  "end": 631.55,
+  "text": "subset and click on Save"
+ },
+ {
+  "start": 633.79,
+  "end": 633.8,
+  "text": "okay once uh this message comes which is"
+ },
+ {
+  "start": 633.8,
+  "end": 635.949,
+  "text": "export subset for revision"
+ },
+ {
+  "start": 635.959,
+  "end": 639.31,
+  "text": "finished which means it was uh"
+ },
+ {
+  "start": 639.32,
+  "end": 642.15,
+  "text": "exported now uh what we going to do is"
+ },
+ {
+  "start": 642.16,
+  "end": 643.79,
+  "text": "we are going to check out"
+ },
+ {
+  "start": 643.8,
+  "end": 646.87,
+  "text": "all now once uh you have successfully"
+ },
+ {
+  "start": 646.88,
+  "end": 649.71,
+  "text": "exported your revision now we need to"
+ },
+ {
+  "start": 649.72,
+  "end": 652.069,
+  "text": "import that particular subset right"
+ },
+ {
+  "start": 652.079,
+  "end": 653.069,
+  "text": "which we"
+ },
+ {
+  "start": 653.079,
+  "end": 655.71,
+  "text": "created now uh when I click on this"
+ },
+ {
+  "start": 655.72,
+  "end": 658.19,
+  "text": "folder you will see that import subset"
+ },
+ {
+  "start": 658.2,
+  "end": 661.71,
+  "text": "is not any build now this is correct"
+ },
+ {
+  "start": 661.72,
+  "end": 664.43,
+  "text": "because when you import a subset a"
+ },
+ {
+  "start": 664.44,
+  "end": 667.03,
+  "text": "number of different objects are used"
+ },
+ {
+  "start": 667.04,
+  "end": 668.829,
+  "text": "right it could be in modules folder it"
+ },
+ {
+  "start": 668.839,
+  "end": 671.91,
+  "text": "could be in execution folder so the best"
+ },
+ {
+  "start": 671.92,
+  "end": 674.069,
+  "text": "way uh to enable the import subset"
+ },
+ {
+  "start": 674.079,
+  "end": 678.269,
+  "text": "option is to also check out the project"
+ },
+ {
+  "start": 678.279,
+  "end": 682.829,
+  "text": "right because um tosa will need uh to"
+ },
+ {
+  "start": 682.839,
+  "end": 685.91,
+  "text": "merge different objects okay once you do"
+ },
+ {
+  "start": 685.92,
+  "end": 687.389,
+  "text": "that you will see the import subset"
+ },
+ {
+  "start": 687.399,
+  "end": 690.31,
+  "text": "option is enabled again right so"
+ },
+ {
+  "start": 690.32,
+  "end": 692.069,
+  "text": "whenever you find import subset not"
+ },
+ {
+  "start": 692.079,
+  "end": 694.35,
+  "text": "enabled you can do"
+ },
+ {
+  "start": 694.36,
+  "end": 697.31,
+  "text": "this now uh we will select our project"
+ },
+ {
+  "start": 697.32,
+  "end": 701.11,
+  "text": "folder and we will import subset uh we"
+ },
+ {
+  "start": 701.12,
+  "end": 703.43,
+  "text": "will select the subset which we"
+ },
+ {
+  "start": 703.44,
+  "end": 706.269,
+  "text": "created now um it will tell you when"
+ },
+ {
+  "start": 706.279,
+  "end": 708.59,
+  "text": "mergeable objects found and this is"
+ },
+ {
+  "start": 708.6,
+  "end": 711.59,
+  "text": "probably the module which I used which"
+ },
+ {
+  "start": 711.6,
+  "end": 713.829,
+  "text": "was a standard module which is already"
+ },
+ {
+  "start": 713.839,
+  "end": 717.11,
+  "text": "present okay so you can choose either"
+ },
+ {
+  "start": 717.12,
+  "end": 719.23,
+  "text": "options uh if you choose the import op"
+ },
+ {
+  "start": 719.24,
+  "end": 721.389,
+  "text": "option it will um again create a"
+ },
+ {
+  "start": 721.399,
+  "end": 725.11,
+  "text": "different folder out of it um but if you"
+ },
+ {
+  "start": 725.12,
+  "end": 727.43,
+  "text": "want to merge the existing objects"
+ },
+ {
+  "start": 727.44,
+  "end": 729.829,
+  "text": "that's fine you can do that"
+ },
+ {
+  "start": 729.839,
+  "end": 732.99,
+  "text": "okay so we will choose that option which"
+ },
+ {
+  "start": 733.0,
+  "end": 737.189,
+  "text": "is to merge that particular object now"
+ },
+ {
+  "start": 737.199,
+  "end": 740.31,
+  "text": "the only problem here uh Is It Anyways"
+ },
+ {
+  "start": 740.32,
+  "end": 742.87,
+  "text": "creates a new folder uh which is the"
+ },
+ {
+  "start": 742.88,
+  "end": 746.47,
+  "text": "test case import and uh it Imports"
+ },
+ {
+  "start": 746.48,
+  "end": 748.99,
+  "text": "everything okay uh instead of the test"
+ },
+ {
+  "start": 749.0,
+  "end": 752.79,
+  "text": "case three which is not ideal um it"
+ },
+ {
+  "start": 752.8,
+  "end": 755.069,
+  "text": "should have merged everything into the"
+ },
+ {
+  "start": 755.079,
+  "end": 756.15,
+  "text": "same"
+ },
+ {
+  "start": 756.16,
+  "end": 759.55,
+  "text": "folder but it doesn't do that okay so in"
+ },
+ {
+  "start": 759.56,
+  "end": 761.71,
+  "text": "these kind of cases um obviously what we"
+ },
+ {
+  "start": 761.72,
+  "end": 765.069,
+  "text": "need to do is we will take the required"
+ },
+ {
+  "start": 765.079,
+  "end": 768.389,
+  "text": "object from here and then we will paste"
+ },
+ {
+  "start": 768.399,
+  "end": 771.389,
+  "text": "it here so now we have recovered the"
+ },
+ {
+  "start": 771.399,
+  "end": 774.389,
+  "text": "test case three so now what uh you can"
+ },
+ {
+  "start": 774.399,
+  "end": 777.67,
+  "text": "do is if you don't require um these test"
+ },
+ {
+  "start": 777.68,
+  "end": 779.949,
+  "text": "cases which are kind of a duplic"
+ },
+ {
+  "start": 779.959,
+  "end": 782.629,
+  "text": "that which was imported uh what you can"
+ },
+ {
+  "start": 782.639,
+  "end": 785.069,
+  "text": "simply do is you can go ahead and delete"
+ },
+ {
+  "start": 785.079,
+  "end": 789.03,
+  "text": "all these objects which are not required"
+ },
+ {
+  "start": 789.04,
+  "end": 791.949,
+  "text": "okay and then you you can bring your"
+ },
+ {
+  "start": 791.959,
+  "end": 794.829,
+  "text": "workspace to the exact state which was"
+ },
+ {
+  "start": 794.839,
+  "end": 797.75,
+  "text": "previous uh to when you created the test"
+ },
+ {
+  "start": 797.76,
+  "end": 800.87,
+  "text": "case 4 which is the test case 3 which"
+ },
+ {
+  "start": 800.88,
+  "end": 803.509,
+  "text": "was removed by mistake and which is now"
+ },
+ {
+  "start": 803.519,
+  "end": 805.67,
+  "text": "been recovered"
+ },
+ {
+  "start": 805.68,
+  "end": 809.99,
+  "text": "okay so now I can check in all and now I"
+ },
+ {
+  "start": 810.0,
+  "end": 812.59,
+  "text": "have got all my objects uh without"
+ },
+ {
+  "start": 812.6,
+  "end": 815.949,
+  "text": "recreating that object I used uh the"
+ },
+ {
+  "start": 815.959,
+  "end": 819.629,
+  "text": "versioning uh to get a different version"
+ },
+ {
+  "start": 819.639,
+  "end": 821.949,
+  "text": "of uh a test case which was removed"
+ },
+ {
+  "start": 821.959,
+  "end": 824.15,
+  "text": "earlier but it could be recovered using"
+ },
+ {
+  "start": 824.16,
+  "end": 827.43,
+  "text": "that particular version okay so viring"
+ },
+ {
+  "start": 827.44,
+  "end": 829.47,
+  "text": "is quite powerful if that feature is"
+ },
+ {
+  "start": 829.48,
+  "end": 832.829,
+  "text": "enabled for your project you can recover"
+ },
+ {
+  "start": 832.839,
+  "end": 836.069,
+  "text": "um any version of a particular object"
+ },
+ {
+  "start": 836.079,
+  "end": 840.269,
+  "text": "which is either lost or uh if you want"
+ },
+ {
+  "start": 840.279,
+  "end": 843.67,
+  "text": "to get a version of your previous change"
+ },
+ {
+  "start": 843.68,
+  "end": 846.03,
+  "text": "also um so which means you want to"
+ },
+ {
+  "start": 846.04,
+  "end": 849.11,
+  "text": "revert your change you can do it this"
+ },
+ {
+  "start": 849.12,
+  "end": 852.43,
+  "text": "way that's all for this particular video"
+ },
+ {
+  "start": 852.44,
+  "end": 854.189,
+  "text": "if you have any questions then please"
+ },
+ {
+  "start": 854.199,
+  "end": 856.67,
+  "text": "leave it in the comments if you like"
+ },
+ {
+  "start": 856.68,
+  "end": 858.749,
+  "text": "this video then please subscribe to our"
+ },
+ {
+  "start": 858.759,
+  "end": 861.269,
+  "text": "Channel thanks for watching and I will"
+ },
+ {
+  "start": 861.279,
+  "end": 863.99,
+  "text": "see you in the next"
+ },
+ {
+  "start": 864.0,
+  "end": 867.0,
+  "text": "video"
+ }
+]

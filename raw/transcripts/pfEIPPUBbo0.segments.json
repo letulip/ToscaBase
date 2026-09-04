@@ -1,0 +1,642 @@
+[
+ {
+  "start": 2.909,
+  "end": 2.919,
+  "text": "now let's talk about a browser scenario"
+ },
+ {
+  "start": 2.919,
+  "end": 6.349,
+  "text": "where uh we have got multiple tabs and"
+ },
+ {
+  "start": 6.359,
+  "end": 10.31,
+  "text": "we need to move between this tabs uh for"
+ },
+ {
+  "start": 10.32,
+  "end": 13.23,
+  "text": "our different scenarios right so if I've"
+ },
+ {
+  "start": 13.24,
+  "end": 16.43,
+  "text": "got four five different tabs on this"
+ },
+ {
+  "start": 16.44,
+  "end": 19.429,
+  "text": "stenters vehicle insurance I want to"
+ },
+ {
+  "start": 19.439,
+  "end": 21.95,
+  "text": "switch between different tabs maybe I"
+ },
+ {
+  "start": 21.96,
+  "end": 24.39,
+  "text": "want to go to the third tab or the fifth"
+ },
+ {
+  "start": 24.4,
+  "end": 27.07,
+  "text": "Tab and again I want to go back to the"
+ },
+ {
+  "start": 27.08,
+  "end": 29.509,
+  "text": "third and the first tab so this is the"
+ },
+ {
+  "start": 29.519,
+  "end": 30.47,
+  "text": "scenario"
+ },
+ {
+  "start": 30.48,
+  "end": 33.15,
+  "text": "and now the question is um how can we do"
+ },
+ {
+  "start": 33.16,
+  "end": 36.43,
+  "text": "this so there is no direct way of uh"
+ },
+ {
+  "start": 36.44,
+  "end": 38.95,
+  "text": "switching uh the tabs there is no method"
+ },
+ {
+  "start": 38.96,
+  "end": 42.47,
+  "text": "in tosa which you can use to basically"
+ },
+ {
+  "start": 42.48,
+  "end": 45.51,
+  "text": "switch between different tabs right but"
+ },
+ {
+  "start": 45.52,
+  "end": 47.35,
+  "text": "whenever you don't find any direct"
+ },
+ {
+  "start": 47.36,
+  "end": 51.51,
+  "text": "method you can always fall back upon um"
+ },
+ {
+  "start": 51.52,
+  "end": 55.63,
+  "text": "how the user is basically uh doing this"
+ },
+ {
+  "start": 55.64,
+  "end": 57.549,
+  "text": "uh maybe from the keyboard or from the"
+ },
+ {
+  "start": 57.559,
+  "end": 60.189,
+  "text": "mouse and then you can emulate those"
+ },
+ {
+  "start": 60.199,
+  "end": 63.43,
+  "text": "actions uh from tosa now we know that we"
+ },
+ {
+  "start": 63.44,
+  "end": 65.469,
+  "text": "can emulate any particular action which"
+ },
+ {
+  "start": 65.479,
+  "end": 68.91,
+  "text": "we perform from the keyboard uh in tosa"
+ },
+ {
+  "start": 68.92,
+  "end": 72.429,
+  "text": "uh so uh in this particular scenario uh"
+ },
+ {
+  "start": 72.439,
+  "end": 75.59,
+  "text": "if we want to switch to a particular"
+ },
+ {
+  "start": 75.6,
+  "end": 78.95,
+  "text": "browser tab we can always use uh the tab"
+ },
+ {
+  "start": 78.96,
+  "end": 81.83,
+  "text": "option right so uh when you press"
+ },
+ {
+  "start": 81.84,
+  "end": 84.39,
+  "text": "control+ tab it is going to switch"
+ },
+ {
+  "start": 84.4,
+  "end": 86.35,
+  "text": "between different tabs like I'm doing"
+ },
+ {
+  "start": 86.36,
+  "end": 89.51,
+  "text": "right now and if I want to switch back"
+ },
+ {
+  "start": 89.52,
+  "end": 93.67,
+  "text": "to a previous tab I can also use control"
+ },
+ {
+  "start": 93.68,
+  "end": 97.87,
+  "text": "shift and tab okay so these are the"
+ },
+ {
+  "start": 97.88,
+  "end": 99.03,
+  "text": "keyboard"
+ },
+ {
+  "start": 99.04,
+  "end": 102.429,
+  "text": "shortcuts which can be used in scenarios"
+ },
+ {
+  "start": 102.439,
+  "end": 104.389,
+  "text": "where you don't have any other option"
+ },
+ {
+  "start": 104.399,
+  "end": 107.31,
+  "text": "like a direct method so you can"
+ },
+ {
+  "start": 107.32,
+  "end": 109.87,
+  "text": "basically send these keys from tosa and"
+ },
+ {
+  "start": 109.88,
+  "end": 112.83,
+  "text": "then you can um achieve what you want to"
+ },
+ {
+  "start": 112.84,
+  "end": 116.789,
+  "text": "do with your particular automation right"
+ },
+ {
+  "start": 116.799,
+  "end": 120.069,
+  "text": "so uh let's try and now uh replicate"
+ },
+ {
+  "start": 120.079,
+  "end": 123.149,
+  "text": "this in our test cases so let me quickly"
+ },
+ {
+  "start": 123.159,
+  "end": 125.83,
+  "text": "create a new folder I'm going to call"
+ },
+ {
+  "start": 125.84,
+  "end": 126.67,
+  "text": "this"
+ },
+ {
+  "start": 126.68,
+  "end": 129.27,
+  "text": "browser and here we will create a new"
+ },
+ {
+  "start": 129.28,
+  "end": 133.35,
+  "text": "test case called switch"
+ },
+ {
+  "start": 133.36,
+  "end": 137.63,
+  "text": "tabs okay here um I'm going to add a"
+ },
+ {
+  "start": 137.64,
+  "end": 142.309,
+  "text": "test step uh which is the tbox send"
+ },
+ {
+  "start": 142.319,
+  "end": 144.99,
+  "text": "keys and here uh we need to pass a"
+ },
+ {
+  "start": 145.0,
+  "end": 149.35,
+  "text": "caption and a key so caption uh it is we"
+ },
+ {
+  "start": 149.36,
+  "end": 151.869,
+  "text": "know the brows the title here so it T"
+ },
+ {
+  "start": 151.879,
+  "end": 153.869,
+  "text": "Trend this vehicle insurance throughout"
+ },
+ {
+  "start": 153.879,
+  "end": 156.63,
+  "text": "right so what I can do is I can use a"
+ },
+ {
+  "start": 156.64,
+  "end": 159.83,
+  "text": "part of the text here and then I can put"
+ },
+ {
+  "start": 159.84,
+  "end": 161.91,
+  "text": "a regular expression so I will use that"
+ },
+ {
+  "start": 161.92,
+  "end": 163.99,
+  "text": "t and this part here"
+ },
+ {
+  "start": 164.0,
+  "end": 166.83,
+  "text": "okay and now in the keys uh what I can"
+ },
+ {
+  "start": 166.84,
+  "end": 169.71,
+  "text": "do is I can pass the control key and in"
+ },
+ {
+  "start": 169.72,
+  "end": 173.35,
+  "text": "this case we can pass the carot sign uh"
+ },
+ {
+  "start": 173.36,
+  "end": 176.27,
+  "text": "so it implies the control and then we"
+ },
+ {
+  "start": 176.28,
+  "end": 179.19,
+  "text": "can pass the browser tab number okay so"
+ },
+ {
+  "start": 179.2,
+  "end": 180.75,
+  "text": "if you know where which browser tab you"
+ },
+ {
+  "start": 180.76,
+  "end": 183.07,
+  "text": "want to switch to you can directly pass"
+ },
+ {
+  "start": 183.08,
+  "end": 184.949,
+  "text": "the number here so if I want to switch"
+ },
+ {
+  "start": 184.959,
+  "end": 189.47,
+  "text": "to the third tab I can pass control+ 3"
+ },
+ {
+  "start": 189.48,
+  "end": 196.869,
+  "text": "okay now um if I go ahead and run"
+ },
+ {
+  "start": 200.55,
+  "end": 200.56,
+  "text": "this okay so we were already on the"
+ },
+ {
+  "start": 200.56,
+  "end": 203.75,
+  "text": "third tab so it will not make any"
+ },
+ {
+  "start": 203.76,
+  "end": 206.949,
+  "text": "difference so uh let me go ahead and"
+ },
+ {
+  "start": 206.959,
+  "end": 209.429,
+  "text": "switch back to the first tab now okay"
+ },
+ {
+  "start": 209.439,
+  "end": 213.55,
+  "text": "and let's go ahead and done this"
+ },
+ {
+  "start": 216.83,
+  "end": 216.84,
+  "text": "again okay so now you see that uh it"
+ },
+ {
+  "start": 216.84,
+  "end": 221.55,
+  "text": "switched to the third tab now in in"
+ },
+ {
+  "start": 221.56,
+  "end": 224.149,
+  "text": "cases where I don't know which"
+ },
+ {
+  "start": 224.159,
+  "end": 226.91,
+  "text": "particular tab is the next tab uh what"
+ },
+ {
+  "start": 226.92,
+  "end": 230.149,
+  "text": "is the number for that okay um so if I"
+ },
+ {
+  "start": 230.159,
+  "end": 231.869,
+  "text": "want to switch to the next tab but I"
+ },
+ {
+  "start": 231.879,
+  "end": 234.67,
+  "text": "don't know the number of tabs then um I"
+ },
+ {
+  "start": 234.68,
+  "end": 238.149,
+  "text": "can always use the control+ tab key"
+ },
+ {
+  "start": 238.159,
+  "end": 241.19,
+  "text": "right so what I will do I will just copy"
+ },
+ {
+  "start": 241.2,
+  "end": 243.309,
+  "text": "this and"
+ },
+ {
+  "start": 243.319,
+  "end": 246.83,
+  "text": "here instead of the number uh we will"
+ },
+ {
+  "start": 246.84,
+  "end": 248.509,
+  "text": "pass"
+ },
+ {
+  "start": 248.519,
+  "end": 252.229,
+  "text": "control and then we will pass"
+ },
+ {
+  "start": 252.239,
+  "end": 256.189,
+  "text": "tab okay so it will now uh switch to the"
+ },
+ {
+  "start": 256.199,
+  "end": 260.509,
+  "text": "next tab so let's go ahead and run this"
+ },
+ {
+  "start": 260.519,
+  "end": 263.909,
+  "text": "now okay so as you can see uh it"
+ },
+ {
+  "start": 263.919,
+  "end": 267.11,
+  "text": "switched to the fourth tab"
+ },
+ {
+  "start": 267.12,
+  "end": 270.87,
+  "text": "right now uh similarly if I want to"
+ },
+ {
+  "start": 270.88,
+  "end": 273.629,
+  "text": "switch to the previous tab okay uh"
+ },
+ {
+  "start": 273.639,
+  "end": 277.029,
+  "text": "without passing the number so again uh"
+ },
+ {
+  "start": 277.039,
+  "end": 281.87,
+  "text": "we can use a shortcut here so let's do"
+ },
+ {
+  "start": 281.88,
+  "end": 286.11,
+  "text": "that what we will do here is uh we will"
+ },
+ {
+  "start": 286.12,
+  "end": 290.15,
+  "text": "pass Control Plus shift plus tab okay"
+ },
+ {
+  "start": 290.16,
+  "end": 292.27,
+  "text": "and the shortcut for that is the plus"
+ },
+ {
+  "start": 292.28,
+  "end": 295.629,
+  "text": "sign so the plus sign implies the shift"
+ },
+ {
+  "start": 295.639,
+  "end": 298.11,
+  "text": "the Scot sign implies the control and"
+ },
+ {
+  "start": 298.12,
+  "end": 301.07,
+  "text": "this is the tab so in total it is contr"
+ },
+ {
+  "start": 301.08,
+  "end": 306.27,
+  "text": "plus shift plus tab now if I run"
+ },
+ {
+  "start": 306.28,
+  "end": 308.749,
+  "text": "this okay you will see it will move on"
+ },
+ {
+  "start": 308.759,
+  "end": 310.31,
+  "text": "to the third"
+ },
+ {
+  "start": 310.32,
+  "end": 313.39,
+  "text": "tab now if you're not sure about what"
+ },
+ {
+  "start": 313.4,
+  "end": 315.95,
+  "text": "are the shortcut for all the different"
+ },
+ {
+  "start": 315.96,
+  "end": 319.43,
+  "text": "Keys you can always go to the Microsoft"
+ },
+ {
+  "start": 319.44,
+  "end": 322.629,
+  "text": "send Keys page okay so there is a send"
+ },
+ {
+  "start": 322.639,
+  "end": 325.27,
+  "text": "Keys class uh which you can search for"
+ },
+ {
+  "start": 325.28,
+  "end": 328.71,
+  "text": "uh in Microsoft and that will actually"
+ },
+ {
+  "start": 328.72,
+  "end": 332.15,
+  "text": "give you all the different uh keys or"
+ },
+ {
+  "start": 332.16,
+  "end": 335.27,
+  "text": "the code for all the keyboard Keys uh"
+ },
+ {
+  "start": 335.28,
+  "end": 337.39,
+  "text": "which you want to use okay so these are"
+ },
+ {
+  "start": 337.4,
+  "end": 339.67,
+  "text": "all the code you can see here and these"
+ },
+ {
+  "start": 339.68,
+  "end": 342.23,
+  "text": "are the exact codes which we can use uh"
+ },
+ {
+  "start": 342.24,
+  "end": 345.99,
+  "text": "in tosa as well okay so we used the tab"
+ },
+ {
+  "start": 346.0,
+  "end": 348.909,
+  "text": "here you can see and then if I go a"
+ },
+ {
+  "start": 348.919,
+  "end": 351.15,
+  "text": "little bit down then you will see the"
+ },
+ {
+  "start": 351.16,
+  "end": 356.79,
+  "text": "code for shift it is plus for control uh"
+ },
+ {
+  "start": 356.8,
+  "end": 359.909,
+  "text": "it is this uh carot sign and and then"
+ },
+ {
+  "start": 359.919,
+  "end": 363.189,
+  "text": "for all it is percentage okay so these"
+ },
+ {
+  "start": 363.199,
+  "end": 366.589,
+  "text": "are all the codes uh which can be used"
+ },
+ {
+  "start": 366.599,
+  "end": 369.99,
+  "text": "uh for the different keyboard keys and"
+ },
+ {
+  "start": 370.0,
+  "end": 372.79,
+  "text": "you can always use them in scenarios"
+ },
+ {
+  "start": 372.8,
+  "end": 375.99,
+  "text": "where you don't have a direct V of"
+ },
+ {
+  "start": 376.0,
+  "end": 378.95,
+  "text": "automation using the default tosa"
+ },
+ {
+  "start": 378.96,
+  "end": 382.55,
+  "text": "modules then just use the keyboard keys"
+ },
+ {
+  "start": 382.56,
+  "end": 384.909,
+  "text": "and do the other way around like a"
+ },
+ {
+  "start": 384.919,
+  "end": 387.909,
+  "text": "normal user would do so just emulate"
+ },
+ {
+  "start": 387.919,
+  "end": 390.35,
+  "text": "that particular action using the send"
+ },
+ {
+  "start": 390.36,
+  "end": 393.88,
+  "text": "Keys module"
+ }
+]

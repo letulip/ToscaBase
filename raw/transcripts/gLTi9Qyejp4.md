@@ -1,0 +1,30 @@
+---
+id: "gLTi9Qyejp4"
+title: "Tosca Tutorial | Lesson 120 - Calculate Calendar Date | Date Expressions | Obstacle 14 |"
+url: "https://www.youtube.com/watch?v=gLTi9Qyejp4"
+channel: "QASCRIPT"
+playlist: "Tosca Tutorial | Tricentis Tosca Automation Tool | End-to-End Test Automation | Model Based Testing |  Codeless Automation Tool | Tosca Certification"
+playlist_index: 121
+duration: 438
+upload_date: "20231219"
+source: "youtube-subs"
+language: "en"
+transcribed_at: "2026-09-04T08:08:18Z"
+status: "raw"
+---
+
+# Tosca Tutorial | Lesson 120 - Calculate Calendar Date | Date Expressions | Obstacle 14 |
+
+[00:12] hey everyone welcome back to our Channel I am back with another interesting topic in the tosa automation playlist now continuing with our topic on test automation obstacles moving on to our next topic is confusing dates so this is the obstacle which uh consists of different date formats and different calculations which we need to do so let's see at this particular problem right so we need to generate a new date in the US format by pressing the calendar button so this is the button when you press on it a specific date is generated in a specific format now we need to use the tosar based functions to calculate first of the second following month of the generated date okay so uh we need to calculate 2 months uh forward and and it has to be the first of that particular following month right uh and then the new date has to be entered in this particular text box uh and that has to be in the iso format there's an example here so if the date is this then
+
+[01:16] uh the result date should be this okay and once you do that you need to click on this done button now for example if our generated date is this then our resultant date should be okay so we have to enter the year first and then we need to calculate two months in advance okay so that would be 10 and then 01 okay and you will see that the obstacle is completed now so this is what we need to automate using tosa so let's see how we can do this in tosa Okay so coming back to our tosa workspace uh and going to our obstacles modules folder we will scan the application and here we need to add basically four controls okay so we need to add the buttons and then the two text
+
+[02:19] boxes so one is the generated date and one is the solution date okay so these are all the four controls which we require and then I'm going to rename this module here and then I'm going to save and close this okay and now coming back to our obstacle test cases folder we are going to add new test case here and then uh we are going to add the particular module to this particular test case Okay uh now before we move ahead and uh modify our test steps we need to add some additional configuration parameters to our module attributes and this is because of the specific date formats right so these two are the module attributes or basically the date controls so for this we need to change the properties okay so in the property section we need to right click and there we will be finding a
+
+[03:21] configuration parameter option so we'll click on that and here uh we need to provide the target format okay so this is the configuration parameter name okay uh it is a system defined parameters so the name should be exactly defined like this okay okay and then the value uh would be uh this particular format so which is the month then the date and then the year okay and uh we need to do the same for the solution date field as well so we will add a configuration parameter and we will call it Target date format and we will enter the same value here so this is the format and then we will go back to our test case now and we will modify the test step values here so first we need to click on the button to generate the date so we will perform the click operation then once the date is
+
+[04:23] generated uh we have to save it into a buffer okay so that we will do um I will Prov provide a name here called generated date now when this date is generated we also need to change the data type because it cannot be string anymore okay it has to be a date data type okay so we need to change the data type to date here and then uh we need to perform some calculations here okay so we need to use a data expression which is called month first and what does it do it Returns the first day of the current month as a complete date okay so inside this uh we are going to provide the base date which is nothing but our buffer so we will use that here okay and after this we need to perform some offset calculations because we need to calculate 2 months uh after the generated date right so we will do
+
+[05:24] plus two months here right and then uh we need to do it in a specific format right so we will put the format here uh and that will be year then month and then okay okay so uh I have changed that to month first somehow it became month uh but this is the expression which will use use and once that is done once the calculation is done we need to click on the done button okay so again a click operation so these are all the operations which we need to perform in our test steps and once that is done uh we can mark this as completed and now let's go ahead and run this in
+
+[06:27] scratchbook okay so as you can see uh it generated the date and then it performed all the calculations then it entered it into the text box and then it clicked on the done button which completes all the requirements for this particular obstacle okay so this is how you can perform different uh date calculations uh it could be on a base date it could be on a default date or it could be some generated date right so there could be several scenarios in your application where you can apply this particular knowledge uh you can use different data Expressions which are available in tosa to perform different types of date calculations that's all for this particular video if you have any questions then please leave it in the comments if you like this video then please subscribe to our Channel thanks for watching and I will see you in the next video

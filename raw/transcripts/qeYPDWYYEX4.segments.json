@@ -1,0 +1,487 @@
+[
+ {
+  "start": 15.02,
+  "end": 19.7,
+  "text": "Hello friends, welcome back to our channel."
+ },
+ {
+  "start": 19.7,
+  "end": 23.66,
+  "text": "I am your Tosca instructor and my name is Kumaresh."
+ },
+ {
+  "start": 23.66,
+  "end": 30.34,
+  "text": "I have total 14 years of IT experience in software development and test automation."
+ },
+ {
+  "start": 30.34,
+  "end": 33.98,
+  "text": "Thank you for connecting with us."
+ },
+ {
+  "start": 33.98,
+  "end": 36.58,
+  "text": "Hope you are doing well."
+ },
+ {
+  "start": 36.58,
+  "end": 39.46,
+  "text": "Let's start our today's session."
+ },
+ {
+  "start": 39.46,
+  "end": 45.7,
+  "text": "Through this video, I will explain the steps to create and working Tosca Commander users."
+ },
+ {
+  "start": 45.7,
+  "end": 48.14,
+  "text": "Working with groups and"
+ },
+ {
+  "start": 48.14,
+  "end": 51.52,
+  "text": "Process to disable the users."
+ },
+ {
+  "start": 51.52,
+  "end": 55.58,
+  "text": "The entire explanation will be done through hands-on demonstration."
+ },
+ {
+  "start": 55.58,
+  "end": 61.76,
+  "text": "Now, I will explain the detailed steps for create Tosca user."
+ },
+ {
+  "start": 61.76,
+  "end": 64.38,
+  "text": "Set password by admin."
+ },
+ {
+  "start": 64.38,
+  "end": 67.72,
+  "text": "User assignment to admin group and"
+ },
+ {
+  "start": 67.72,
+  "end": 72.2,
+  "text": "Change password by user."
+ },
+ {
+  "start": 72.2,
+  "end": 73.68,
+  "text": "Alright."
+ },
+ {
+  "start": 73.68,
+  "end": 79.25,
+  "text": "Let us start the demo."
+ },
+ {
+  "start": 79.25,
+  "end": 83.73,
+  "text": "First, select the Tosca workspace root directory."
+ },
+ {
+  "start": 83.73,
+  "end": 87.18,
+  "text": "And check out."
+ },
+ {
+  "start": 87.18,
+  "end": 91.48,
+  "text": "Then, click on management tab to open user management section."
+ },
+ {
+  "start": 91.48,
+  "end": 96.46,
+  "text": "The right section of the Tosca Commander window contains the users and group."
+ },
+ {
+  "start": 96.46,
+  "end": 101.18,
+  "text": "By default, admin and all users groups are available."
+ },
+ {
+  "start": 101.18,
+  "end": 106.74,
+  "text": "Right click on all users and click on create user icon to create a new user."
+ },
+ {
+  "start": 106.74,
+  "end": 110.02,
+  "text": "The new entry represents the user name."
+ },
+ {
+  "start": 110.02,
+  "end": 112.34,
+  "text": "Rename it accordingly."
+ },
+ {
+  "start": 112.34,
+  "end": 116.02,
+  "text": "Here we are creating the user with name test."
+ },
+ {
+  "start": 116.02,
+  "end": 119.26,
+  "text": "Enable field should be checked by default."
+ },
+ {
+  "start": 119.26,
+  "end": 125.62,
+  "text": "Level represents the user proficiency which has three values basic, advance and expert."
+ },
+ {
+  "start": 125.62,
+  "end": 128.9,
+  "text": "After creation, user has the empty password."
+ },
+ {
+  "start": 129.5,
+  "end": 132.98,
+  "text": "So, it's advisable to set the password."
+ },
+ {
+  "start": 132.98,
+  "end": 137.02,
+  "text": "Right click on user and choose the set password option."
+ },
+ {
+  "start": 137.02,
+  "end": 145.4,
+  "text": "Then enter and confirm the new password."
+ },
+ {
+  "start": 145.4,
+  "end": 149.16,
+  "text": "This option is only available for admin user."
+ },
+ {
+  "start": 149.16,
+  "end": 153.84,
+  "text": "To provide the admin access to the newly created user, we need to drag and drop it"
+ },
+ {
+  "start": 153.84,
+  "end": 155.44,
+  "text": "into admins group."
+ },
+ {
+  "start": 155.44,
+  "end": 159.96,
+  "text": "Though the user instance exists in both the groups."
+ },
+ {
+  "start": 160.0,
+  "end": 164.88,
+  "text": "If we change in one place, same will reflects into all the instances."
+ },
+ {
+  "start": 164.88,
+  "end": 169.88,
+  "text": "The password set option is available here for the admin user only."
+ },
+ {
+  "start": 169.88,
+  "end": 176.45,
+  "text": "Which means an admin can set or change the password of any users through this option."
+ },
+ {
+  "start": 176.45,
+  "end": 181.53,
+  "text": "Now, save the workspace."
+ },
+ {
+  "start": 181.53,
+  "end": 189.73,
+  "text": "Click on check in all icon to save the newly created user information into repository."
+ },
+ {
+  "start": 189.73,
+  "end": 191.73,
+  "text": "We will check the user now."
+ },
+ {
+  "start": 191.73,
+  "end": 195.21,
+  "text": "First, close the workspace."
+ },
+ {
+  "start": 195.21,
+  "end": 200.88,
+  "text": "Creating of workspace will take couple of seconds."
+ },
+ {
+  "start": 200.88,
+  "end": 206.12,
+  "text": "After user creation, we can access the workspace using new user after performing the update"
+ },
+ {
+  "start": 206.12,
+  "end": 213.08,
+  "text": "all for existing or need to create new workspace using the shared repository."
+ },
+ {
+  "start": 213.08,
+  "end": 220.81,
+  "text": "Now, reopen the workspace from here."
+ },
+ {
+  "start": 220.81,
+  "end": 240.17,
+  "text": "Again it will takes couple of seconds to appears the user prompt."
+ },
+ {
+  "start": 240.17,
+  "end": 244.57,
+  "text": "Once the prompt appears, we need to enter the new test user details and click on"
+ },
+ {
+  "start": 244.57,
+  "end": 250.39,
+  "text": "login button."
+ },
+ {
+  "start": 250.39,
+  "end": 253.23,
+  "text": "The user credential is case sensitive."
+ },
+ {
+  "start": 253.23,
+  "end": 258.59,
+  "text": "So, we will re-enter the user details properly."
+ },
+ {
+  "start": 258.59,
+  "end": 263.27,
+  "text": "After validating the credential, Tosca will open the workspace for the test user with"
+ },
+ {
+  "start": 263.27,
+  "end": 266.11,
+  "text": "default view."
+ },
+ {
+  "start": 266.11,
+  "end": 269.83,
+  "text": "We will open the project component and check out the root directory."
+ },
+ {
+  "start": 269.83,
+  "end": 283.05,
+  "text": "Now, the logged in user can change the password by right clicking on root directory"
+ },
+ {
+  "start": 283.05,
+  "end": 286.29,
+  "text": "and selecting the change my password option."
+ },
+ {
+  "start": 286.29,
+  "end": 292.49,
+  "text": "To change the password, we need to enter the old password first and click on OK button."
+ },
+ {
+  "start": 292.49,
+  "end": 299.26,
+  "text": "Now, we will enter new password for the test user."
+ },
+ {
+  "start": 299.26,
+  "end": 305.05,
+  "text": "We need to enter the new password again to confirm it."
+ },
+ {
+  "start": 305.05,
+  "end": 308.83,
+  "text": "The password is now successfully changed."
+ },
+ {
+  "start": 308.83,
+  "end": 314.42,
+  "text": "Check in the workspace to update the repository."
+ },
+ {
+  "start": 314.42,
+  "end": 326.11,
+  "text": "The changed password can be used from the next time."
+ },
+ {
+  "start": 326.11,
+  "end": 330.99,
+  "text": "Now, I will explain the detailed steps for create group."
+ },
+ {
+  "start": 330.99,
+  "end": 340.32,
+  "text": "Assign user to group, grant access to group and disable user."
+ },
+ {
+  "start": 340.32,
+  "end": 345.16,
+  "text": "Let us start the demo."
+ },
+ {
+  "start": 345.16,
+  "end": 354.08,
+  "text": "First, check out the project root directory."
+ },
+ {
+  "start": 354.08,
+  "end": 357.96,
+  "text": "Right click on top of the user management section and select the create user group"
+ },
+ {
+  "start": 357.96,
+  "end": 361.88,
+  "text": "option to create the new group."
+ },
+ {
+  "start": 361.88,
+  "end": 366.97,
+  "text": "Rename the new group based on our choice."
+ },
+ {
+  "start": 366.97,
+  "end": 372.93,
+  "text": "To assign users into this group, we need to drag and drop any existing users here."
+ },
+ {
+  "start": 372.93,
+  "end": 376.46,
+  "text": "Let us drag the new test user."
+ },
+ {
+  "start": 376.46,
+  "end": 382.46,
+  "text": "Now, we will grant access to this group in any components such as modules."
+ },
+ {
+  "start": 382.46,
+  "end": 386.58,
+  "text": "We will check out the modules first."
+ },
+ {
+  "start": 386.58,
+  "end": 391.05,
+  "text": "Open the property section of the modules component."
+ },
+ {
+  "start": 391.05,
+  "end": 395.17,
+  "text": "Now navigate to the owning group property drop down from the property section,"
+ },
+ {
+  "start": 395.17,
+  "end": 398.01,
+  "text": "select the newly created group from here."
+ },
+ {
+  "start": 398.01,
+  "end": 402.57,
+  "text": "This will grant the access on modules components to the new group and the users associated"
+ },
+ {
+  "start": 402.57,
+  "end": 404.85,
+  "text": "with it."
+ },
+ {
+  "start": 404.93,
+  "end": 413.52,
+  "text": "Similarly, we can grant the access to other components as well."
+ },
+ {
+  "start": 413.52,
+  "end": 419.16,
+  "text": "Now, we will understand how to disable the user."
+ },
+ {
+  "start": 419.16,
+  "end": 423.92,
+  "text": "Navigate to user management section and select the user."
+ },
+ {
+  "start": 423.92,
+  "end": 429.44,
+  "text": "To disable the user, we need to uncheck the enabled checkbox for this user."
+ },
+ {
+  "start": 429.44,
+  "end": 435.09,
+  "text": "Same change is replicated to other instances as well."
+ },
+ {
+  "start": 435.09,
+  "end": 440.5,
+  "text": "Perform check in all to update the changes in shared repository."
+ },
+ {
+  "start": 440.5,
+  "end": 474.14,
+  "text": "We will now close the workspace and reopen it."
+ },
+ {
+  "start": 474.14,
+  "end": 483.84,
+  "text": "Once the user pop-up appears, we will try login with the credential for the test user."
+ },
+ {
+  "start": 483.84,
+  "end": 504.33,
+  "text": "It's not allowing as the user is already disabled through admin login."
+ },
+ {
+  "start": 504.33,
+  "end": 507.73,
+  "text": "Thanks for watching this video."
+ },
+ {
+  "start": 507.73,
+  "end": 512.02,
+  "text": "That's all about Tosca user management."
+ },
+ {
+  "start": 512.02,
+  "end": 517.68,
+  "text": "Please stay tuned for more interesting videos on Tosca."
+ },
+ {
+  "start": 517.68,
+  "end": 523.36,
+  "text": "Please visit our website lambdageeks.com for more articles on technology, engineering,"
+ },
+ {
+  "start": 523.36,
+  "end": 526.52,
+  "text": "mathematics and various other domain."
+ },
+ {
+  "start": 526.52,
+  "end": 530.56,
+  "text": "You can check our other website as well."
+ },
+ {
+  "start": 530.56,
+  "end": 539.47,
+  "text": "We have features like YouTube Trends, Twitter Trends, Scientific Calculator and many more"
+ },
+ {
+  "start": 539.47,
+  "end": 543.54,
+  "text": "other tools."
+ },
+ {
+  "start": 543.54,
+  "end": 547.58,
+  "text": "If you like our video, please like, comment and share."
+ },
+ {
+  "start": 547.58,
+  "end": 551.48,
+  "text": "If you have any questions, please comment and we will resolve your query."
+ }
+]

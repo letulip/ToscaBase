@@ -1,0 +1,737 @@
+[
+ {
+  "start": 3.169,
+  "end": 3.179,
+  "text": "hey everyone welcome back again"
+ },
+ {
+  "start": 3.179,
+  "end": 5.09,
+  "text": "so today uh we are going to continue"
+ },
+ {
+  "start": 5.1,
+  "end": 7.13,
+  "text": "from where we left in our last session"
+ },
+ {
+  "start": 7.14,
+  "end": 9.35,
+  "text": "where we are talking about how we can"
+ },
+ {
+  "start": 9.36,
+  "end": 12.23,
+  "text": "execute or steer our Tosca Commander"
+ },
+ {
+  "start": 12.24,
+  "end": 15.169,
+  "text": "using uh the command line tool which is"
+ },
+ {
+  "start": 15.179,
+  "end": 17.87,
+  "text": "known as the TC shell we have also seen"
+ },
+ {
+  "start": 17.88,
+  "end": 20.57,
+  "text": "how we can even execute a particular"
+ },
+ {
+  "start": 20.58,
+  "end": 23.09,
+  "text": "execution list right from the command"
+ },
+ {
+  "start": 23.1,
+  "end": 25.73,
+  "text": "prompt using this DC shell right without"
+ },
+ {
+  "start": 25.74,
+  "end": 28.609,
+  "text": "opening the Tosca Commander now we are"
+ },
+ {
+  "start": 28.619,
+  "end": 31.189,
+  "text": "going one step further"
+ },
+ {
+  "start": 31.199,
+  "end": 34.19,
+  "text": "so here we still have a manual process"
+ },
+ {
+  "start": 34.2,
+  "end": 35.99,
+  "text": "like we are opening command prompt and"
+ },
+ {
+  "start": 36.0,
+  "end": 38.69,
+  "text": "we are entering some commands here uh to"
+ },
+ {
+  "start": 38.7,
+  "end": 41.81,
+  "text": "do some execution but what if we want to"
+ },
+ {
+  "start": 41.82,
+  "end": 43.79,
+  "text": "automate this whole process we don't"
+ },
+ {
+  "start": 43.8,
+  "end": 45.59,
+  "text": "want to open command prompt or don't"
+ },
+ {
+  "start": 45.6,
+  "end": 48.17,
+  "text": "want to enter in commands we just want"
+ },
+ {
+  "start": 48.18,
+  "end": 49.25,
+  "text": "to click"
+ },
+ {
+  "start": 49.26,
+  "end": 51.83,
+  "text": "um on a particular link or button and it"
+ },
+ {
+  "start": 51.84,
+  "end": 53.75,
+  "text": "should just execute right or even"
+ },
+ {
+  "start": 53.76,
+  "end": 57.59,
+  "text": "schedule our events at a certain time at"
+ },
+ {
+  "start": 57.6,
+  "end": 60.65,
+  "text": "a certain day or depending on some other"
+ },
+ {
+  "start": 60.66,
+  "end": 63.049,
+  "text": "conditions right so all of this is"
+ },
+ {
+  "start": 63.059,
+  "end": 66.17,
+  "text": "possible uh obviously with uh continuous"
+ },
+ {
+  "start": 66.18,
+  "end": 69.17,
+  "text": "integration tool like Jenkins so today"
+ },
+ {
+  "start": 69.18,
+  "end": 72.05,
+  "text": "we are going to see how you can perform"
+ },
+ {
+  "start": 72.06,
+  "end": 75.649,
+  "text": "all of these tasks in Jenkins right"
+ },
+ {
+  "start": 75.659,
+  "end": 79.07,
+  "text": "before I jump uh into Jenkins uh we will"
+ },
+ {
+  "start": 79.08,
+  "end": 81.83,
+  "text": "need a batch file Windows batch file in"
+ },
+ {
+  "start": 81.84,
+  "end": 83.59,
+  "text": "order to execute our"
+ },
+ {
+  "start": 83.6,
+  "end": 86.63,
+  "text": "script.tcs right so the script.tcs"
+ },
+ {
+  "start": 86.64,
+  "end": 88.55,
+  "text": "contains uh the commands which we want"
+ },
+ {
+  "start": 88.56,
+  "end": 89.749,
+  "text": "to execute"
+ },
+ {
+  "start": 89.759,
+  "end": 92.63,
+  "text": "but uh to execute this particular script"
+ },
+ {
+  "start": 92.64,
+  "end": 95.39,
+  "text": "uh we would require a batch file which"
+ },
+ {
+  "start": 95.4,
+  "end": 97.19,
+  "text": "can call this particular script right"
+ },
+ {
+  "start": 97.2,
+  "end": 100.19,
+  "text": "because we cannot execute this script"
+ },
+ {
+  "start": 100.2,
+  "end": 102.649,
+  "text": "file directly in Jenkins"
+ },
+ {
+  "start": 102.659,
+  "end": 106.609,
+  "text": "so I have created a execute.bat file and"
+ },
+ {
+  "start": 106.619,
+  "end": 109.789,
+  "text": "if I edit this particular file you will"
+ },
+ {
+  "start": 109.799,
+  "end": 112.91,
+  "text": "see that it contains the same commands"
+ },
+ {
+  "start": 112.92,
+  "end": 116.87,
+  "text": "which we have seen earlier okay"
+ },
+ {
+  "start": 116.88,
+  "end": 119.749,
+  "text": "so the First Command will open the"
+ },
+ {
+  "start": 119.759,
+  "end": 122.149,
+  "text": "commander home folder and then the TC"
+ },
+ {
+  "start": 122.159,
+  "end": 123.77,
+  "text": "cell command which will basically call"
+ },
+ {
+  "start": 123.78,
+  "end": 127.069,
+  "text": "the dot TCS file right so those are the"
+ },
+ {
+  "start": 127.079,
+  "end": 128.69,
+  "text": "two commands which are present in this"
+ },
+ {
+  "start": 128.7,
+  "end": 132.47,
+  "text": "patch file you can always"
+ },
+ {
+  "start": 132.48,
+  "end": 135.89,
+  "text": "create a batch file using a notepad just"
+ },
+ {
+  "start": 135.9,
+  "end": 139.13,
+  "text": "type the commands and then dot then just"
+ },
+ {
+  "start": 139.14,
+  "end": 142.97,
+  "text": "save it as a DOT bat file okay"
+ },
+ {
+  "start": 142.98,
+  "end": 146.27,
+  "text": "so let's go into our Jenkins now I have"
+ },
+ {
+  "start": 146.28,
+  "end": 149.33,
+  "text": "already logged it into my Jenkins local"
+ },
+ {
+  "start": 149.34,
+  "end": 152.449,
+  "text": "instance right if you are using a server"
+ },
+ {
+  "start": 152.459,
+  "end": 154.85,
+  "text": "instance the steps will still remain"
+ },
+ {
+  "start": 154.86,
+  "end": 157.25,
+  "text": "same there might be some minor changes"
+ },
+ {
+  "start": 157.26,
+  "end": 160.07,
+  "text": "or you have to maybe configure a little"
+ },
+ {
+  "start": 160.08,
+  "end": 162.41,
+  "text": "bit more but still you can follow the"
+ },
+ {
+  "start": 162.42,
+  "end": 164.27,
+  "text": "same process okay"
+ },
+ {
+  "start": 164.28,
+  "end": 167.15,
+  "text": "so for this uh I will create a new"
+ },
+ {
+  "start": 167.16,
+  "end": 169.91,
+  "text": "project here I will choose freestyle"
+ },
+ {
+  "start": 169.92,
+  "end": 173.33,
+  "text": "project I can also choose a pipeline"
+ },
+ {
+  "start": 173.34,
+  "end": 175.13,
+  "text": "right"
+ },
+ {
+  "start": 175.14,
+  "end": 177.65,
+  "text": "so let's give it a proper name here I"
+ },
+ {
+  "start": 177.66,
+  "end": 180.83,
+  "text": "will say Tosca execute underscore CI"
+ },
+ {
+  "start": 180.84,
+  "end": 186.35,
+  "text": "okay and click on OK"
+ },
+ {
+  "start": 187.97,
+  "end": 187.98,
+  "text": "now there are a lot of configuration"
+ },
+ {
+  "start": 187.98,
+  "end": 189.949,
+  "text": "which is present in Jenkins which you"
+ },
+ {
+  "start": 189.959,
+  "end": 193.19,
+  "text": "can configure for your project right you"
+ },
+ {
+  "start": 193.2,
+  "end": 195.89,
+  "text": "can give it a description you can do all"
+ },
+ {
+  "start": 195.9,
+  "end": 199.25,
+  "text": "this discard old builds right uh you can"
+ },
+ {
+  "start": 199.26,
+  "end": 200.869,
+  "text": "integrate it with the source code"
+ },
+ {
+  "start": 200.879,
+  "end": 203.149,
+  "text": "management tool like get"
+ },
+ {
+  "start": 203.159,
+  "end": 205.13,
+  "text": "you can schedule your bills using the"
+ },
+ {
+  "start": 205.14,
+  "end": 208.07,
+  "text": "build triggers uh either periodically or"
+ },
+ {
+  "start": 208.08,
+  "end": 210.71,
+  "text": "with get the same polling or pole SCM"
+ },
+ {
+  "start": 210.72,
+  "end": 211.61,
+  "text": "right"
+ },
+ {
+  "start": 211.62,
+  "end": 213.89,
+  "text": "so if you want to look at how to"
+ },
+ {
+  "start": 213.9,
+  "end": 216.47,
+  "text": "configure all of this in Jenkins you can"
+ },
+ {
+  "start": 216.48,
+  "end": 218.41,
+  "text": "go to my Jenkins playlist you will find"
+ },
+ {
+  "start": 218.42,
+  "end": 221.39,
+  "text": "all different videos present on these"
+ },
+ {
+  "start": 221.4,
+  "end": 225.11,
+  "text": "different options okay we don't require"
+ },
+ {
+  "start": 225.12,
+  "end": 227.27,
+  "text": "to configure all of this since we are"
+ },
+ {
+  "start": 227.28,
+  "end": 230.089,
+  "text": "running it on a local Jenkins instance I"
+ },
+ {
+  "start": 230.099,
+  "end": 233.869,
+  "text": "just need the build step okay so here I"
+ },
+ {
+  "start": 233.879,
+  "end": 236.03,
+  "text": "will do add build step and then I will"
+ },
+ {
+  "start": 236.04,
+  "end": 238.43,
+  "text": "say execute Windows patch command since"
+ },
+ {
+  "start": 238.44,
+  "end": 242.21,
+  "text": "I'm working on a Windows machine"
+ },
+ {
+  "start": 242.22,
+  "end": 244.19,
+  "text": "um and here I need to pass some commands"
+ },
+ {
+  "start": 244.2,
+  "end": 246.41,
+  "text": "so that I'm able to run that Windows"
+ },
+ {
+  "start": 246.42,
+  "end": 249.05,
+  "text": "batch file okay so for that it's pretty"
+ },
+ {
+  "start": 249.06,
+  "end": 251.869,
+  "text": "simple uh I just need to change the"
+ },
+ {
+  "start": 251.879,
+  "end": 254.57,
+  "text": "directory first to this particular uh"
+ },
+ {
+  "start": 254.58,
+  "end": 257.569,
+  "text": "directory and then I need to call"
+ },
+ {
+  "start": 257.579,
+  "end": 261.11,
+  "text": "execute dot bat"
+ },
+ {
+  "start": 261.12,
+  "end": 264.77,
+  "text": "which is the name of my batch file okay"
+ },
+ {
+  "start": 264.78,
+  "end": 269.11,
+  "text": "and then I just need to save it"
+ },
+ {
+  "start": 272.99,
+  "end": 273.0,
+  "text": "once I save it just make sure that Tosca"
+ },
+ {
+  "start": 273.0,
+  "end": 277.61,
+  "text": "Commander is not open with the workspace"
+ },
+ {
+  "start": 277.62,
+  "end": 280.129,
+  "text": "okay if it's normally open that's fine"
+ },
+ {
+  "start": 280.139,
+  "end": 281.689,
+  "text": "but if you have logged into the"
+ },
+ {
+  "start": 281.699,
+  "end": 283.55,
+  "text": "workspace then just make sure you have"
+ },
+ {
+  "start": 283.56,
+  "end": 285.83,
+  "text": "closed the workspace otherwise you will"
+ },
+ {
+  "start": 285.84,
+  "end": 290.03,
+  "text": "get uh some funny issues in Jenkins okay"
+ },
+ {
+  "start": 290.04,
+  "end": 292.55,
+  "text": "so after this uh just click on Bell now"
+ },
+ {
+  "start": 292.56,
+  "end": 295.49,
+  "text": "and the bill will start so we can even"
+ },
+ {
+  "start": 295.5,
+  "end": 298.37,
+  "text": "look at the console output here"
+ },
+ {
+  "start": 298.38,
+  "end": 301.55,
+  "text": "so the output in the console would still"
+ },
+ {
+  "start": 301.56,
+  "end": 303.469,
+  "text": "be very similar to what we have seen"
+ },
+ {
+  "start": 303.479,
+  "end": 306.05,
+  "text": "earlier uh in while executing it from"
+ },
+ {
+  "start": 306.06,
+  "end": 308.33,
+  "text": "the command prompt right so it will"
+ },
+ {
+  "start": 308.34,
+  "end": 311.09,
+  "text": "basically log into the workspace it will"
+ },
+ {
+  "start": 311.1,
+  "end": 313.969,
+  "text": "start the tasks what we have provided in"
+ },
+ {
+  "start": 313.979,
+  "end": 317.57,
+  "text": "that script file so no matter what you"
+ },
+ {
+  "start": 317.58,
+  "end": 320.21,
+  "text": "want to do you can just make your script"
+ },
+ {
+  "start": 320.22,
+  "end": 323.33,
+  "text": "file and then just run this patch file"
+ },
+ {
+  "start": 323.34,
+  "end": 326.39,
+  "text": "so it will just perform all the tasks"
+ },
+ {
+  "start": 326.4,
+  "end": 328.61,
+  "text": "which is present in that script file"
+ },
+ {
+  "start": 328.62,
+  "end": 331.67,
+  "text": "okay so as you can see the build is"
+ },
+ {
+  "start": 331.68,
+  "end": 333.189,
+  "text": "successful"
+ },
+ {
+  "start": 333.199,
+  "end": 336.409,
+  "text": "and that's how easy is to integrate"
+ },
+ {
+  "start": 336.419,
+  "end": 339.11,
+  "text": "Jenkins with your Tosca Commander right"
+ },
+ {
+  "start": 339.12,
+  "end": 342.61,
+  "text": "you can directly run your test cases or"
+ },
+ {
+  "start": 342.62,
+  "end": 346.01,
+  "text": "perform some other tasks write on your"
+ },
+ {
+  "start": 346.02,
+  "end": 348.89,
+  "text": "Tosca Commander using Jenkins you can"
+ },
+ {
+  "start": 348.9,
+  "end": 351.23,
+  "text": "even schedule your bills as I said"
+ },
+ {
+  "start": 351.24,
+  "end": 353.45,
+  "text": "earlier right"
+ },
+ {
+  "start": 353.46,
+  "end": 357.17,
+  "text": "so that's all about how you can run or"
+ },
+ {
+  "start": 357.18,
+  "end": 359.21,
+  "text": "steer your Tasker Commander using the"
+ },
+ {
+  "start": 359.22,
+  "end": 362.51,
+  "text": "command line tool which is TC shell and"
+ },
+ {
+  "start": 362.52,
+  "end": 364.909,
+  "text": "you can do it directly from Jenkins you"
+ },
+ {
+  "start": 364.919,
+  "end": 367.31,
+  "text": "just have to create a batch file which"
+ },
+ {
+  "start": 367.32,
+  "end": 370.73,
+  "text": "will be referring to the uh TCS script"
+ },
+ {
+  "start": 370.74,
+  "end": 373.37,
+  "text": "file and which will in turn perform all"
+ },
+ {
+  "start": 373.38,
+  "end": 377.09,
+  "text": "the different actions or tasks which"
+ },
+ {
+  "start": 377.1,
+  "end": 379.49,
+  "text": "um are there for the Tosca Commander"
+ },
+ {
+  "start": 379.5,
+  "end": 380.45,
+  "text": "right"
+ },
+ {
+  "start": 380.46,
+  "end": 383.09,
+  "text": "so uh if you have any questions just put"
+ },
+ {
+  "start": 383.1,
+  "end": 385.129,
+  "text": "them in the comments and I will"
+ },
+ {
+  "start": 385.139,
+  "end": 388.129,
+  "text": "certainly try to get back to you uh do"
+ },
+ {
+  "start": 388.139,
+  "end": 390.83,
+  "text": "look out for more videos uh which are"
+ },
+ {
+  "start": 390.84,
+  "end": 393.17,
+  "text": "coming up uh in Tosca there are lots of"
+ },
+ {
+  "start": 393.18,
+  "end": 394.87,
+  "text": "different topics which I want to cover"
+ },
+ {
+  "start": 394.88,
+  "end": 398.57,
+  "text": "so keep looking out for those videos in"
+ },
+ {
+  "start": 398.58,
+  "end": 401.3,
+  "text": "the coming updates"
+ }
+]

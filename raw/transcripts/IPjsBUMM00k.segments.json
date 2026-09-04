@@ -1,0 +1,1372 @@
+[
+ {
+  "start": 2.149,
+  "end": 2.159,
+  "text": "hey everyone welcome to another lesson"
+ },
+ {
+  "start": 2.159,
+  "end": 4.39,
+  "text": "in this tosca automation course"
+ },
+ {
+  "start": 4.4,
+  "end": 7.19,
+  "text": "today we are going to look at how tosca"
+ },
+ {
+  "start": 7.2,
+  "end": 10.31,
+  "text": "provides us with different combination"
+ },
+ {
+  "start": 10.32,
+  "end": 11.669,
+  "text": "methods"
+ },
+ {
+  "start": 11.679,
+  "end": 14.549,
+  "text": "which can be triggered automatically so"
+ },
+ {
+  "start": 14.559,
+  "end": 16.95,
+  "text": "till now we have been looking at how we"
+ },
+ {
+  "start": 16.96,
+  "end": 19.429,
+  "text": "can manually create our combinations in"
+ },
+ {
+  "start": 19.439,
+  "end": 22.07,
+  "text": "the test case design sheet but tosca"
+ },
+ {
+  "start": 22.08,
+  "end": 23.99,
+  "text": "also provides us with different"
+ },
+ {
+  "start": 24.0,
+  "end": 26.63,
+  "text": "automated methods through which it can"
+ },
+ {
+  "start": 26.64,
+  "end": 28.87,
+  "text": "provide different number of combinations"
+ },
+ {
+  "start": 28.88,
+  "end": 31.109,
+  "text": "and types of combinations"
+ },
+ {
+  "start": 31.119,
+  "end": 33.03,
+  "text": "so let's see what are these different"
+ },
+ {
+  "start": 33.04,
+  "end": 35.67,
+  "text": "methods"
+ },
+ {
+  "start": 37.91,
+  "end": 37.92,
+  "text": "so there are basically four types of"
+ },
+ {
+  "start": 37.92,
+  "end": 40.63,
+  "text": "methods through which toska combines the"
+ },
+ {
+  "start": 40.64,
+  "end": 42.63,
+  "text": "data which you have created in your test"
+ },
+ {
+  "start": 42.64,
+  "end": 44.389,
+  "text": "case design sheet you don't need to"
+ },
+ {
+  "start": 44.399,
+  "end": 47.59,
+  "text": "manually create the combinations"
+ },
+ {
+  "start": 47.6,
+  "end": 48.79,
+  "text": "okay"
+ },
+ {
+  "start": 48.8,
+  "end": 50.549,
+  "text": "so going through all the different"
+ },
+ {
+  "start": 50.559,
+  "end": 53.189,
+  "text": "methods to combine the data uh the first"
+ },
+ {
+  "start": 53.199,
+  "end": 55.91,
+  "text": "method is all combinations as the name"
+ },
+ {
+  "start": 55.92,
+  "end": 57.75,
+  "text": "suggests it"
+ },
+ {
+  "start": 57.76,
+  "end": 59.59,
+  "text": "creates all the possible instance"
+ },
+ {
+  "start": 59.6,
+  "end": 61.83,
+  "text": "combinations which are considered for"
+ },
+ {
+  "start": 61.84,
+  "end": 63.029,
+  "text": "testing"
+ },
+ {
+  "start": 63.039,
+  "end": 65.59,
+  "text": "and what this does is results in the"
+ },
+ {
+  "start": 65.6,
+  "end": 68.149,
+  "text": "highest number of test cases okay"
+ },
+ {
+  "start": 68.159,
+  "end": 69.51,
+  "text": "so whatever"
+ },
+ {
+  "start": 69.52,
+  "end": 71.109,
+  "text": "instances you have created it will"
+ },
+ {
+  "start": 71.119,
+  "end": 73.27,
+  "text": "create the combinations out of all those"
+ },
+ {
+  "start": 73.28,
+  "end": 75.749,
+  "text": "instances so you can see the probability"
+ },
+ {
+  "start": 75.759,
+  "end": 77.35,
+  "text": "would be much higher right so it will"
+ },
+ {
+  "start": 77.36,
+  "end": 80.63,
+  "text": "cover each and every scenario"
+ },
+ {
+  "start": 80.64,
+  "end": 81.51,
+  "text": "uh"
+ },
+ {
+  "start": 81.52,
+  "end": 84.149,
+  "text": "orthogonal so this is the"
+ },
+ {
+  "start": 84.159,
+  "end": 86.469,
+  "text": "type of combination where each instance"
+ },
+ {
+  "start": 86.479,
+  "end": 89.03,
+  "text": "value will be used just once for each"
+ },
+ {
+  "start": 89.04,
+  "end": 90.39,
+  "text": "combination"
+ },
+ {
+  "start": 90.4,
+  "end": 92.95,
+  "text": "so this results in a very low number of"
+ },
+ {
+  "start": 92.96,
+  "end": 95.429,
+  "text": "combinations right"
+ },
+ {
+  "start": 95.439,
+  "end": 97.429,
+  "text": "the next is pairwise"
+ },
+ {
+  "start": 97.439,
+  "end": 100.23,
+  "text": "it combines each pair of possible value"
+ },
+ {
+  "start": 100.24,
+  "end": 103.109,
+  "text": "combinations for two attributes okay so"
+ },
+ {
+  "start": 103.119,
+  "end": 105.19,
+  "text": "this will also not result in a higher"
+ },
+ {
+  "start": 105.2,
+  "end": 107.03,
+  "text": "number of test cases"
+ },
+ {
+  "start": 107.04,
+  "end": 109.91,
+  "text": "and then the linear expansion"
+ },
+ {
+  "start": 109.92,
+  "end": 112.55,
+  "text": "it defines a straight through or happy"
+ },
+ {
+  "start": 112.56,
+  "end": 115.27,
+  "text": "path combination okay"
+ },
+ {
+  "start": 115.28,
+  "end": 117.59,
+  "text": "and it should always contain the highest"
+ },
+ {
+  "start": 117.6,
+  "end": 119.35,
+  "text": "risk test cases"
+ },
+ {
+  "start": 119.36,
+  "end": 121.749,
+  "text": "and this method is actually recommended"
+ },
+ {
+  "start": 121.759,
+  "end": 124.87,
+  "text": "by trash centers because it provides you"
+ },
+ {
+  "start": 124.88,
+  "end": 127.83,
+  "text": "uh with the right amount of test cases"
+ },
+ {
+  "start": 127.84,
+  "end": 130.949,
+  "text": "not very high not very low okay"
+ },
+ {
+  "start": 130.959,
+  "end": 134.309,
+  "text": "and this is also the most uh highest"
+ },
+ {
+  "start": 134.319,
+  "end": 136.309,
+  "text": "test cases which would be beneficial for"
+ },
+ {
+  "start": 136.319,
+  "end": 141.11,
+  "text": "your project or for your automation okay"
+ },
+ {
+  "start": 141.12,
+  "end": 142.949,
+  "text": "so these are all the four combinations"
+ },
+ {
+  "start": 142.959,
+  "end": 145.35,
+  "text": "now it depends on you on your project uh"
+ },
+ {
+  "start": 145.36,
+  "end": 147.75,
+  "text": "what kind of requirement there is if you"
+ },
+ {
+  "start": 147.76,
+  "end": 149.35,
+  "text": "want to test all the combinations you"
+ },
+ {
+  "start": 149.36,
+  "end": 151.43,
+  "text": "can go with all combinations if you just"
+ },
+ {
+  "start": 151.44,
+  "end": 154.229,
+  "text": "want to have just one instance"
+ },
+ {
+  "start": 154.239,
+  "end": 155.19,
+  "text": "for"
+ },
+ {
+  "start": 155.2,
+  "end": 157.03,
+  "text": "one combination then you can go for"
+ },
+ {
+  "start": 157.04,
+  "end": 159.35,
+  "text": "orthogonal you can go for pairwise if"
+ },
+ {
+  "start": 159.36,
+  "end": 162.07,
+  "text": "you want to do two possible uh i mean a"
+ },
+ {
+  "start": 162.08,
+  "end": 163.43,
+  "text": "pair of"
+ },
+ {
+  "start": 163.44,
+  "end": 165.19,
+  "text": "each possible value combination for two"
+ },
+ {
+  "start": 165.2,
+  "end": 167.27,
+  "text": "attributes or you can go for linear"
+ },
+ {
+  "start": 167.28,
+  "end": 169.35,
+  "text": "expansion which is also recommended by"
+ },
+ {
+  "start": 169.36,
+  "end": 171.03,
+  "text": "dry centers"
+ },
+ {
+  "start": 171.04,
+  "end": 171.91,
+  "text": "okay"
+ },
+ {
+  "start": 171.92,
+  "end": 176.309,
+  "text": "so let's see this in action in our tosca"
+ },
+ {
+  "start": 176.319,
+  "end": 178.949,
+  "text": "okay now i'm in my tosca instance where"
+ },
+ {
+  "start": 178.959,
+  "end": 181.35,
+  "text": "we are at the testcase design sheet"
+ },
+ {
+  "start": 181.36,
+  "end": 183.35,
+  "text": "earlier we had designed this regulation"
+ },
+ {
+  "start": 183.36,
+  "end": 184.63,
+  "text": "test sheet"
+ },
+ {
+  "start": 184.64,
+  "end": 186.79,
+  "text": "now just to remind you if you have not"
+ },
+ {
+  "start": 186.8,
+  "end": 188.79,
+  "text": "seen this how we have designed this"
+ },
+ {
+  "start": 188.8,
+  "end": 190.39,
+  "text": "regression test sheet"
+ },
+ {
+  "start": 190.4,
+  "end": 192.309,
+  "text": "then please go to my earlier videos"
+ },
+ {
+  "start": 192.319,
+  "end": 193.83,
+  "text": "where i have shown you how you can"
+ },
+ {
+  "start": 193.84,
+  "end": 196.869,
+  "text": "create attributes and stances"
+ },
+ {
+  "start": 196.879,
+  "end": 199.27,
+  "text": "and how you can assign instances to"
+ },
+ {
+  "start": 199.28,
+  "end": 201.27,
+  "text": "different attributes right"
+ },
+ {
+  "start": 201.28,
+  "end": 203.589,
+  "text": "so this is our test sheet and as you can"
+ },
+ {
+  "start": 203.599,
+  "end": 204.55,
+  "text": "see"
+ },
+ {
+  "start": 204.56,
+  "end": 206.71,
+  "text": "we have created some instances and we"
+ },
+ {
+  "start": 206.72,
+  "end": 208.309,
+  "text": "have also assigned them"
+ },
+ {
+  "start": 208.319,
+  "end": 210.63,
+  "text": "here so which is basically creating"
+ },
+ {
+  "start": 210.64,
+  "end": 213.589,
+  "text": "different combinations of the data for"
+ },
+ {
+  "start": 213.599,
+  "end": 216.149,
+  "text": "that particular attribute right now what"
+ },
+ {
+  "start": 216.159,
+  "end": 218.47,
+  "text": "i have done is i've also added few more"
+ },
+ {
+  "start": 218.48,
+  "end": 220.63,
+  "text": "instances to all the different"
+ },
+ {
+  "start": 220.64,
+  "end": 222.47,
+  "text": "attributes right"
+ },
+ {
+  "start": 222.48,
+  "end": 224.47,
+  "text": "so just show you how"
+ },
+ {
+  "start": 224.48,
+  "end": 227.19,
+  "text": "toska can create different combinations"
+ },
+ {
+  "start": 227.2,
+  "end": 230.309,
+  "text": "out of these attributes and instances"
+ },
+ {
+  "start": 230.319,
+  "end": 231.99,
+  "text": "of data"
+ },
+ {
+  "start": 232.0,
+  "end": 234.789,
+  "text": "right so i have added a few product"
+ },
+ {
+  "start": 234.799,
+  "end": 238.149,
+  "text": "names some prices right so i have just"
+ },
+ {
+  "start": 238.159,
+  "end": 240.39,
+  "text": "increased some instances for all the"
+ },
+ {
+  "start": 240.4,
+  "end": 242.63,
+  "text": "different attributes"
+ },
+ {
+  "start": 242.64,
+  "end": 244.63,
+  "text": "now as you can see there are just three"
+ },
+ {
+  "start": 244.64,
+  "end": 246.309,
+  "text": "test cases right now so what i'm going"
+ },
+ {
+  "start": 246.319,
+  "end": 249.67,
+  "text": "to do is i'm going to copy this"
+ },
+ {
+  "start": 249.68,
+  "end": 251.91,
+  "text": "we're going to create some more"
+ },
+ {
+  "start": 251.92,
+  "end": 256.55,
+  "text": "test sheets out of this right"
+ },
+ {
+  "start": 257.83,
+  "end": 257.84,
+  "text": "um"
+ },
+ {
+  "start": 257.84,
+  "end": 259.59,
+  "text": "so let me just"
+ },
+ {
+  "start": 259.6,
+  "end": 263.11,
+  "text": "delete this let's copy this"
+ },
+ {
+  "start": 263.12,
+  "end": 265.83,
+  "text": "and i'm going to paste it here"
+ },
+ {
+  "start": 265.84,
+  "end": 268.87,
+  "text": "again i'm going to paste it here and"
+ },
+ {
+  "start": 268.88,
+  "end": 270.15,
+  "text": "here"
+ },
+ {
+  "start": 270.16,
+  "end": 271.67,
+  "text": "and here"
+ },
+ {
+  "start": 271.68,
+  "end": 273.43,
+  "text": "right so i've got four different test"
+ },
+ {
+  "start": 273.44,
+  "end": 276.629,
+  "text": "sheets i've just copied the original one"
+ },
+ {
+  "start": 276.639,
+  "end": 277.99,
+  "text": "because i want to show you four"
+ },
+ {
+  "start": 278.0,
+  "end": 280.15,
+  "text": "different combinations um the"
+ },
+ {
+  "start": 280.16,
+  "end": 282.39,
+  "text": "combinational methods which tosca"
+ },
+ {
+  "start": 282.4,
+  "end": 284.07,
+  "text": "provides okay"
+ },
+ {
+  "start": 284.08,
+  "end": 286.469,
+  "text": "so let's go to this first test sheet now"
+ },
+ {
+  "start": 286.479,
+  "end": 288.629,
+  "text": "how can we use the different combination"
+ },
+ {
+  "start": 288.639,
+  "end": 290.31,
+  "text": "methods right so"
+ },
+ {
+  "start": 290.32,
+  "end": 292.31,
+  "text": "there are different ways of doing that"
+ },
+ {
+  "start": 292.32,
+  "end": 295.11,
+  "text": "either right click on the test sheet and"
+ },
+ {
+  "start": 295.12,
+  "end": 297.59,
+  "text": "you can go to generate instances right"
+ },
+ {
+  "start": 297.6,
+  "end": 298.79,
+  "text": "you will see"
+ },
+ {
+  "start": 298.8,
+  "end": 301.43,
+  "text": "all the different um combination methods"
+ },
+ {
+  "start": 301.44,
+  "end": 302.87,
+  "text": "which we have discussed"
+ },
+ {
+  "start": 302.88,
+  "end": 304.07,
+  "text": "out of that"
+ },
+ {
+  "start": 304.08,
+  "end": 306.07,
+  "text": "we are going to use the all combinations"
+ },
+ {
+  "start": 306.08,
+  "end": 308.83,
+  "text": "here right"
+ },
+ {
+  "start": 308.84,
+  "end": 310.79,
+  "text": "so um"
+ },
+ {
+  "start": 310.8,
+  "end": 313.749,
+  "text": "if i select this all combinations now"
+ },
+ {
+  "start": 313.759,
+  "end": 316.31,
+  "text": "tosca is going to generate combinations"
+ },
+ {
+  "start": 316.32,
+  "end": 318.95,
+  "text": "out of all the different instances which"
+ },
+ {
+  "start": 318.96,
+  "end": 319.909,
+  "text": "i have"
+ },
+ {
+  "start": 319.919,
+  "end": 322.55,
+  "text": "created for all the different attributes"
+ },
+ {
+  "start": 322.56,
+  "end": 324.55,
+  "text": "so there is a lot of competition and"
+ },
+ {
+  "start": 324.56,
+  "end": 327.51,
+  "text": "combinations which will go on right it's"
+ },
+ {
+  "start": 327.52,
+  "end": 329.59,
+  "text": "just mathematics"
+ },
+ {
+  "start": 329.6,
+  "end": 330.39,
+  "text": "so"
+ },
+ {
+  "start": 330.4,
+  "end": 331.83,
+  "text": "what it will do it will create all the"
+ },
+ {
+  "start": 331.84,
+  "end": 334.469,
+  "text": "different instances and you will see"
+ },
+ {
+  "start": 334.479,
+  "end": 339.909,
+  "text": "uh the number of instances grows right"
+ },
+ {
+  "start": 339.919,
+  "end": 343.51,
+  "text": "and the number of test cases are now"
+ },
+ {
+  "start": 343.52,
+  "end": 345.029,
+  "text": "previously there were only three test"
+ },
+ {
+  "start": 345.039,
+  "end": 346.23,
+  "text": "cases"
+ },
+ {
+  "start": 346.24,
+  "end": 348.79,
+  "text": "and now there are as you can see"
+ },
+ {
+  "start": 348.8,
+  "end": 350.79,
+  "text": "it has got"
+ },
+ {
+  "start": 350.8,
+  "end": 353.35,
+  "text": "almost 972"
+ },
+ {
+  "start": 353.36,
+  "end": 355.189,
+  "text": "test cases right so"
+ },
+ {
+  "start": 355.199,
+  "end": 356.629,
+  "text": "it is"
+ },
+ {
+  "start": 356.639,
+  "end": 358.39,
+  "text": "it is a very high number of test cases"
+ },
+ {
+  "start": 358.4,
+  "end": 360.55,
+  "text": "but if you really want to test all the"
+ },
+ {
+  "start": 360.56,
+  "end": 363.51,
+  "text": "combinations of data this is the actual"
+ },
+ {
+  "start": 363.52,
+  "end": 365.27,
+  "text": "uh number of test cases which you have"
+ },
+ {
+  "start": 365.28,
+  "end": 366.79,
+  "text": "to test right"
+ },
+ {
+  "start": 366.8,
+  "end": 369.43,
+  "text": "so it's actually not recommended unless"
+ },
+ {
+  "start": 369.44,
+  "end": 371.59,
+  "text": "you have a lot of time uh to test all"
+ },
+ {
+  "start": 371.6,
+  "end": 373.27,
+  "text": "your test cases right"
+ },
+ {
+  "start": 373.28,
+  "end": 376.07,
+  "text": "because this is going to test um"
+ },
+ {
+  "start": 376.08,
+  "end": 378.95,
+  "text": "everything right"
+ },
+ {
+  "start": 378.96,
+  "end": 381.67,
+  "text": "um"
+ },
+ {
+  "start": 381.68,
+  "end": 382.71,
+  "text": "now"
+ },
+ {
+  "start": 382.72,
+  "end": 385.83,
+  "text": "you can fill this data uh there are also"
+ },
+ {
+  "start": 385.84,
+  "end": 388.23,
+  "text": "different ways of doing that right"
+ },
+ {
+  "start": 388.24,
+  "end": 390.07,
+  "text": "but this is going to create all the"
+ },
+ {
+  "start": 390.08,
+  "end": 392.87,
+  "text": "combinations so the number of test cases"
+ },
+ {
+  "start": 392.88,
+  "end": 396.71,
+  "text": "for all your test data okay"
+ },
+ {
+  "start": 396.72,
+  "end": 399.749,
+  "text": "similarly if i go to test sheet 2 right"
+ },
+ {
+  "start": 399.759,
+  "end": 402.15,
+  "text": "now there are three test cases but now"
+ },
+ {
+  "start": 402.16,
+  "end": 406.39,
+  "text": "um i want to use a different"
+ },
+ {
+  "start": 408.87,
+  "end": 408.88,
+  "text": "different type of combination okay so"
+ },
+ {
+  "start": 408.88,
+  "end": 411.589,
+  "text": "i'm going to use the orthogonal"
+ },
+ {
+  "start": 411.599,
+  "end": 415.11,
+  "text": "and as you can see in orthogonal we have"
+ },
+ {
+  "start": 415.12,
+  "end": 418.95,
+  "text": "uh just got three more instances right"
+ },
+ {
+  "start": 418.96,
+  "end": 421.11,
+  "text": "so we already had three and"
+ },
+ {
+  "start": 421.12,
+  "end": 423.51,
+  "text": "uh tosca has added three more right so"
+ },
+ {
+  "start": 423.52,
+  "end": 425.909,
+  "text": "that's those guys telling us that there"
+ },
+ {
+  "start": 425.919,
+  "end": 427.67,
+  "text": "could be six test cases which could be"
+ },
+ {
+  "start": 427.68,
+  "end": 430.469,
+  "text": "created out of uh the different"
+ },
+ {
+  "start": 430.479,
+  "end": 433.589,
+  "text": "instances and uh the attributes"
+ },
+ {
+  "start": 433.599,
+  "end": 435.27,
+  "text": "okay"
+ },
+ {
+  "start": 435.28,
+  "end": 437.83,
+  "text": "now coming to third type of combination"
+ },
+ {
+  "start": 437.84,
+  "end": 438.629,
+  "text": "so"
+ },
+ {
+  "start": 438.639,
+  "end": 439.99,
+  "text": "the third type of combination is"
+ },
+ {
+  "start": 440.0,
+  "end": 444.15,
+  "text": "pairwise and if i create pairwise um you"
+ },
+ {
+  "start": 444.16,
+  "end": 446.55,
+  "text": "will see it has created little more test"
+ },
+ {
+  "start": 446.56,
+  "end": 449.35,
+  "text": "cases than orthogonal"
+ },
+ {
+  "start": 449.36,
+  "end": 451.589,
+  "text": "so there are 16 combinations which are"
+ },
+ {
+  "start": 451.599,
+  "end": 454.07,
+  "text": "possible so there should be 16 test"
+ },
+ {
+  "start": 454.08,
+  "end": 456.629,
+  "text": "cases okay"
+ },
+ {
+  "start": 456.639,
+  "end": 458.87,
+  "text": "and coming to the last combination"
+ },
+ {
+  "start": 458.88,
+  "end": 460.55,
+  "text": "method which is"
+ },
+ {
+  "start": 460.56,
+  "end": 463.43,
+  "text": "the linear expansion also"
+ },
+ {
+  "start": 463.44,
+  "end": 466.39,
+  "text": "it is recommended by tricentes"
+ },
+ {
+  "start": 466.4,
+  "end": 469.909,
+  "text": "okay um so one thing um which i forgot"
+ },
+ {
+  "start": 469.919,
+  "end": 471.43,
+  "text": "to mention earlier"
+ },
+ {
+  "start": 471.44,
+  "end": 474.71,
+  "text": "is for linear expansion to work you have"
+ },
+ {
+  "start": 474.72,
+  "end": 477.83,
+  "text": "to have a straight through"
+ },
+ {
+  "start": 477.84,
+  "end": 481.189,
+  "text": "uh defined for your attributes okay"
+ },
+ {
+  "start": 481.199,
+  "end": 485.11,
+  "text": "if you have not defined this then this"
+ },
+ {
+  "start": 485.12,
+  "end": 487.51,
+  "text": "this combination will not be possible"
+ },
+ {
+  "start": 487.52,
+  "end": 489.43,
+  "text": "okay because it requires all the"
+ },
+ {
+  "start": 489.44,
+  "end": 492.469,
+  "text": "straight through instances okay so let's"
+ },
+ {
+  "start": 492.479,
+  "end": 495.029,
+  "text": "go ahead and declare some"
+ },
+ {
+  "start": 495.039,
+  "end": 497.11,
+  "text": "state through instances"
+ },
+ {
+  "start": 497.12,
+  "end": 499.83,
+  "text": "okay so"
+ },
+ {
+  "start": 501.99,
+  "end": 502.0,
+  "text": "what i'm going to do here is i'm going"
+ },
+ {
+  "start": 502.0,
+  "end": 503.99,
+  "text": "to change"
+ },
+ {
+  "start": 504.0,
+  "end": 506.23,
+  "text": "the new as the straight through instance"
+ },
+ {
+  "start": 506.24,
+  "end": 507.35,
+  "text": "so"
+ },
+ {
+  "start": 507.36,
+  "end": 508.95,
+  "text": "i'm going to say"
+ },
+ {
+  "start": 508.96,
+  "end": 511.029,
+  "text": "toggle character and make this a"
+ },
+ {
+  "start": 511.039,
+  "end": 513.43,
+  "text": "straight through instance okay"
+ },
+ {
+  "start": 513.44,
+  "end": 515.509,
+  "text": "and then in process"
+ },
+ {
+  "start": 515.519,
+  "end": 518.469,
+  "text": "i'm going to go to name"
+ },
+ {
+  "start": 518.479,
+  "end": 520.87,
+  "text": "i'm going to make this a straight"
+ },
+ {
+  "start": 520.88,
+  "end": 524.07,
+  "text": "through instance similarly for price"
+ },
+ {
+  "start": 524.08,
+  "end": 525.829,
+  "text": "i will make this a straight through"
+ },
+ {
+  "start": 525.839,
+  "end": 527.59,
+  "text": "instance"
+ },
+ {
+  "start": 527.6,
+  "end": 530.07,
+  "text": "for quantity"
+ },
+ {
+  "start": 530.08,
+  "end": 533.11,
+  "text": "let's make this"
+ },
+ {
+  "start": 534.87,
+  "end": 534.88,
+  "text": "and for"
+ },
+ {
+  "start": 534.88,
+  "end": 548.87,
+  "text": "shipping information free delivery"
+ },
+ {
+  "start": 551.269,
+  "end": 551.279,
+  "text": "okay so now we have got a straight twin"
+ },
+ {
+  "start": 551.279,
+  "end": 554.07,
+  "text": "stance for each of our attribute right"
+ },
+ {
+  "start": 554.08,
+  "end": 557.11,
+  "text": "now what it is telling is these are the"
+ },
+ {
+  "start": 557.12,
+  "end": 560.15,
+  "text": "most highest test cases or the highest"
+ },
+ {
+  "start": 560.16,
+  "end": 561.35,
+  "text": "test flow"
+ },
+ {
+  "start": 561.36,
+  "end": 564.07,
+  "text": "which could be used by the uh"
+ },
+ {
+  "start": 564.08,
+  "end": 566.63,
+  "text": "customer right so this"
+ },
+ {
+  "start": 566.64,
+  "end": 568.31,
+  "text": "is the straight through or the happy"
+ },
+ {
+  "start": 568.32,
+  "end": 569.269,
+  "text": "path"
+ },
+ {
+  "start": 569.279,
+  "end": 571.11,
+  "text": "basically okay"
+ },
+ {
+  "start": 571.12,
+  "end": 574.15,
+  "text": "so let's go back and let's try again"
+ },
+ {
+  "start": 574.16,
+  "end": 577.269,
+  "text": "let's go here and generate instances and"
+ },
+ {
+  "start": 577.279,
+  "end": 579.75,
+  "text": "linear expansion okay so this time it"
+ },
+ {
+  "start": 579.76,
+  "end": 581.509,
+  "text": "worked"
+ },
+ {
+  "start": 581.519,
+  "end": 584.07,
+  "text": "um so as you can see this is"
+ },
+ {
+  "start": 584.08,
+  "end": 586.71,
+  "text": "all the high risk test cases which"
+ },
+ {
+  "start": 586.72,
+  "end": 588.63,
+  "text": "should be tested in"
+ },
+ {
+  "start": 588.64,
+  "end": 591.509,
+  "text": "your this particular test sheet okay"
+ },
+ {
+  "start": 591.519,
+  "end": 593.43,
+  "text": "and this uses all the straight through"
+ },
+ {
+  "start": 593.44,
+  "end": 597.19,
+  "text": "instances or the happy path"
+ },
+ {
+  "start": 597.2,
+  "end": 599.91,
+  "text": "got it"
+ },
+ {
+  "start": 601.99,
+  "end": 602.0,
+  "text": "obviously uh it has taken"
+ },
+ {
+  "start": 602.0,
+  "end": 605.269,
+  "text": "the names of those instances but you can"
+ },
+ {
+  "start": 605.279,
+  "end": 607.43,
+  "text": "always change this names"
+ },
+ {
+  "start": 607.44,
+  "end": 609.11,
+  "text": "okay"
+ },
+ {
+  "start": 609.12,
+  "end": 611.75,
+  "text": "so there are around uh one two three"
+ },
+ {
+  "start": 611.76,
+  "end": 613.59,
+  "text": "four five six seven eight nine ten"
+ },
+ {
+  "start": 613.6,
+  "end": 615.269,
+  "text": "eleven twelve thirteen fourteen fifteen"
+ },
+ {
+  "start": 615.279,
+  "end": 617.509,
+  "text": "sixteen test cases okay"
+ },
+ {
+  "start": 617.519,
+  "end": 619.509,
+  "text": "so which is uh quite"
+ },
+ {
+  "start": 619.519,
+  "end": 625.03,
+  "text": "similar to what we got in pairwise okay"
+ },
+ {
+  "start": 626.15,
+  "end": 626.16,
+  "text": "so"
+ },
+ {
+  "start": 626.16,
+  "end": 629.19,
+  "text": "this is how you can create"
+ },
+ {
+  "start": 629.2,
+  "end": 631.829,
+  "text": "the different test case combinations out"
+ },
+ {
+  "start": 631.839,
+  "end": 634.63,
+  "text": "of your attributes and instances"
+ },
+ {
+  "start": 634.64,
+  "end": 636.87,
+  "text": "based on your project requirements okay"
+ },
+ {
+  "start": 636.88,
+  "end": 638.71,
+  "text": "so as i said you can use any of these"
+ },
+ {
+  "start": 638.72,
+  "end": 641.91,
+  "text": "combinations but attractions is already"
+ },
+ {
+  "start": 641.92,
+  "end": 644.15,
+  "text": "recommends one combination so you should"
+ },
+ {
+  "start": 644.16,
+  "end": 646.15,
+  "text": "probably go with that right so go with"
+ },
+ {
+  "start": 646.16,
+  "end": 648.389,
+  "text": "the linear expansion and it will provide"
+ },
+ {
+  "start": 648.399,
+  "end": 650.23,
+  "text": "you the right amount of test cases which"
+ },
+ {
+  "start": 650.24,
+  "end": 652.8,
+  "text": "you require"
+ }
+]

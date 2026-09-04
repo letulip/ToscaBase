@@ -1,0 +1,562 @@
+[
+ {
+  "start": 12.39,
+  "end": 12.4,
+  "text": "hey everyone welcome back to our Channel"
+ },
+ {
+  "start": 12.4,
+  "end": 15.03,
+  "text": "I am back with another interesting topic"
+ },
+ {
+  "start": 15.04,
+  "end": 17.79,
+  "text": "in the tosa automation"
+ },
+ {
+  "start": 17.8,
+  "end": 20.109,
+  "text": "playlist so continuing with our test"
+ },
+ {
+  "start": 20.119,
+  "end": 22.79,
+  "text": "automation obstacles topic with trien"
+ },
+ {
+  "start": 22.8,
+  "end": 25.39,
+  "text": "tosa let's look at our next obstacle"
+ },
+ {
+  "start": 25.4,
+  "end": 28.269,
+  "text": "which is called scroll into view now"
+ },
+ {
+  "start": 28.279,
+  "end": 30.31,
+  "text": "here the obstacle seems it's pretty"
+ },
+ {
+  "start": 30.32,
+  "end": 32.429,
+  "text": "simple that you need to enter tosa into"
+ },
+ {
+  "start": 32.439,
+  "end": 35.83,
+  "text": "text box but the catch here is the text"
+ },
+ {
+  "start": 35.84,
+  "end": 38.27,
+  "text": "will disappear once the text box is out"
+ },
+ {
+  "start": 38.28,
+  "end": 42.19,
+  "text": "of the visible area so here if you look"
+ },
+ {
+  "start": 42.2,
+  "end": 45.59,
+  "text": "here uh I cannot enter the text directly"
+ },
+ {
+  "start": 45.6,
+  "end": 47.79,
+  "text": "because currently this particular text"
+ },
+ {
+  "start": 47.8,
+  "end": 50.11,
+  "text": "box is not in view and something is"
+ },
+ {
+  "start": 50.12,
+  "end": 54.15,
+  "text": "blocking the UI now if I scroll this to"
+ },
+ {
+  "start": 54.16,
+  "end": 57.349,
+  "text": "the bottom then the text box is going to"
+ },
+ {
+  "start": 57.359,
+  "end": 60.229,
+  "text": "come into the view and then I I can"
+ },
+ {
+  "start": 60.239,
+  "end": 63.67,
+  "text": "enter some text here okay and then I can"
+ },
+ {
+  "start": 63.68,
+  "end": 66.07,
+  "text": "click on submit to complete this"
+ },
+ {
+  "start": 66.08,
+  "end": 68.27,
+  "text": "obstacle so this is what we need to do"
+ },
+ {
+  "start": 68.28,
+  "end": 70.59,
+  "text": "in tosa so let's see how we can perform"
+ },
+ {
+  "start": 70.6,
+  "end": 72.789,
+  "text": "this particular"
+ },
+ {
+  "start": 72.799,
+  "end": 76.07,
+  "text": "automation so coming back to tosa uh"
+ },
+ {
+  "start": 76.08,
+  "end": 78.51,
+  "text": "first of all we are going to scan this"
+ },
+ {
+  "start": 78.52,
+  "end": 80.55,
+  "text": "particular module so I'm going to scan"
+ },
+ {
+  "start": 80.56,
+  "end": 87.749,
+  "text": "the application"
+ },
+ {
+  "start": 90.91,
+  "end": 90.92,
+  "text": "here and now we are going going to add"
+ },
+ {
+  "start": 90.92,
+  "end": 94.63,
+  "text": "uh the particular text field and also we"
+ },
+ {
+  "start": 94.64,
+  "end": 99.67,
+  "text": "are going to uh select the submit button"
+ },
+ {
+  "start": 99.68,
+  "end": 101.389,
+  "text": "so these are the two objects which we"
+ },
+ {
+  "start": 101.399,
+  "end": 103.87,
+  "text": "want to add and as you can see the text"
+ },
+ {
+  "start": 103.88,
+  "end": 108.19,
+  "text": "field uh is uh embedded inside iframe"
+ },
+ {
+  "start": 108.2,
+  "end": 110.149,
+  "text": "and then there is an HTML document"
+ },
+ {
+  "start": 110.159,
+  "end": 112.87,
+  "text": "inside which there is the text field"
+ },
+ {
+  "start": 112.88,
+  "end": 115.55,
+  "text": "okay so these are the two controls which"
+ },
+ {
+  "start": 115.56,
+  "end": 118.389,
+  "text": "we need currently so I'm going to save"
+ },
+ {
+  "start": 118.399,
+  "end": 121.069,
+  "text": "and I'm going to to also rename this"
+ },
+ {
+  "start": 121.079,
+  "end": 125.109,
+  "text": "obstacle before I close it so I'm going"
+ },
+ {
+  "start": 125.119,
+  "end": 128.07,
+  "text": "to rename this module here then I'm"
+ },
+ {
+  "start": 128.08,
+  "end": 134.43,
+  "text": "going to save and I'm going to"
+ },
+ {
+  "start": 137.35,
+  "end": 137.36,
+  "text": "close now the next thing which uh we"
+ },
+ {
+  "start": 137.36,
+  "end": 140.47,
+  "text": "have to do is we need to add some more"
+ },
+ {
+  "start": 140.48,
+  "end": 143.11,
+  "text": "Properties or parameters into this"
+ },
+ {
+  "start": 143.12,
+  "end": 145.309,
+  "text": "particular text field because as you"
+ },
+ {
+  "start": 145.319,
+  "end": 148.63,
+  "text": "know we need to scroll in order to get"
+ },
+ {
+  "start": 148.64,
+  "end": 151.79,
+  "text": "this particular field into the view okay"
+ },
+ {
+  "start": 151.8,
+  "end": 154.79,
+  "text": "and for this uh we can use something"
+ },
+ {
+  "start": 154.8,
+  "end": 158.11,
+  "text": "called the steering parameter in tosa"
+ },
+ {
+  "start": 158.12,
+  "end": 159.79,
+  "text": "okay so when you right click on this"
+ },
+ {
+  "start": 159.8,
+  "end": 163.63,
+  "text": "particular field then uh you can add a"
+ },
+ {
+  "start": 163.64,
+  "end": 165.91,
+  "text": "steering parameter okay so that is an"
+ },
+ {
+  "start": 165.92,
+  "end": 167.91,
+  "text": "option to create steering parameter so"
+ },
+ {
+  "start": 167.92,
+  "end": 171.11,
+  "text": "click on that and we are going to rename"
+ },
+ {
+  "start": 171.12,
+  "end": 173.55,
+  "text": "this steering parameter property to"
+ },
+ {
+  "start": 173.56,
+  "end": 178.75,
+  "text": "scrolling"
+ },
+ {
+  "start": 180.35,
+  "end": 180.36,
+  "text": "Behavior"
+ },
+ {
+  "start": 180.36,
+  "end": 182.27,
+  "text": "okay so in this scrolling Behavior"
+ },
+ {
+  "start": 182.28,
+  "end": 184.43,
+  "text": "steering parameter we have got four"
+ },
+ {
+  "start": 184.44,
+  "end": 187.71,
+  "text": "different values uh which is top bottom"
+ },
+ {
+  "start": 187.72,
+  "end": 190.83,
+  "text": "center and none so what it does is it"
+ },
+ {
+  "start": 190.84,
+  "end": 193.07,
+  "text": "allows you to Define where the control"
+ },
+ {
+  "start": 193.08,
+  "end": 195.949,
+  "text": "should be positioned on the screen and"
+ },
+ {
+  "start": 195.959,
+  "end": 198.83,
+  "text": "for this it can scroll uh to top to"
+ },
+ {
+  "start": 198.84,
+  "end": 202.43,
+  "text": "bottom or to Center okay so what we are"
+ },
+ {
+  "start": 202.44,
+  "end": 204.11,
+  "text": "going to do uh we are going to mention"
+ },
+ {
+  "start": 204.12,
+  "end": 207.11,
+  "text": "the value here as top so that this"
+ },
+ {
+  "start": 207.12,
+  "end": 209.949,
+  "text": "particular uh scrolling Behavior helps"
+ },
+ {
+  "start": 209.959,
+  "end": 213.35,
+  "text": "us to bring this particular uh control"
+ },
+ {
+  "start": 213.36,
+  "end": 216.429,
+  "text": "uh to the right position on the screen"
+ },
+ {
+  "start": 216.439,
+  "end": 219.589,
+  "text": "okay once you do that then uh it's"
+ },
+ {
+  "start": 219.599,
+  "end": 222.869,
+  "text": "becomes very simple we just uh need to"
+ },
+ {
+  "start": 222.879,
+  "end": 225.55,
+  "text": "add the test case here so we are going"
+ },
+ {
+  "start": 225.56,
+  "end": 231.91,
+  "text": "here and we are adding a new test"
+ },
+ {
+  "start": 235.229,
+  "end": 235.239,
+  "text": "case Okay and then uh I'm going to add"
+ },
+ {
+  "start": 235.239,
+  "end": 237.149,
+  "text": "the module right"
+ },
+ {
+  "start": 237.159,
+  "end": 240.149,
+  "text": "here and then uh we just need to enter"
+ },
+ {
+  "start": 240.159,
+  "end": 243.99,
+  "text": "the text here so I'm going to enter tosa"
+ },
+ {
+  "start": 244.0,
+  "end": 247.75,
+  "text": "here and then um this is the first step"
+ },
+ {
+  "start": 247.76,
+  "end": 250.35,
+  "text": "the next step is to click on submit so"
+ },
+ {
+  "start": 250.36,
+  "end": 252.429,
+  "text": "I'm going to use another test step for"
+ },
+ {
+  "start": 252.439,
+  "end": 255.229,
+  "text": "that okay and I'm going to perform the"
+ },
+ {
+  "start": 255.239,
+  "end": 259.349,
+  "text": "click operation here using X now uh also"
+ },
+ {
+  "start": 259.359,
+  "end": 260.99,
+  "text": "what we can do is we can rename the"
+ },
+ {
+  "start": 261.0,
+  "end": 264.43,
+  "text": "steps so here I will say enter"
+ },
+ {
+  "start": 264.44,
+  "end": 268.59,
+  "text": "text and here I will say click"
+ },
+ {
+  "start": 268.6,
+  "end": 271.99,
+  "text": "submit"
+ },
+ {
+  "start": 273.749,
+  "end": 273.759,
+  "text": "okay so this is all we have to do in"
+ },
+ {
+  "start": 273.759,
+  "end": 276.07,
+  "text": "this particular obstacle uh we can set"
+ },
+ {
+  "start": 276.08,
+  "end": 278.67,
+  "text": "the work state to complete it and then"
+ },
+ {
+  "start": 278.68,
+  "end": 280.31,
+  "text": "uh we can try and run this particular"
+ },
+ {
+  "start": 280.32,
+  "end": 283.95,
+  "text": "test case now okay so let's go ahead and"
+ },
+ {
+  "start": 283.96,
+  "end": 288.23,
+  "text": "run this in"
+ },
+ {
+  "start": 291.189,
+  "end": 291.199,
+  "text": "scratchbook okay so as you can see uh"
+ },
+ {
+  "start": 291.199,
+  "end": 293.27,
+  "text": "the scrolling Behavior helped us to"
+ },
+ {
+  "start": 293.28,
+  "end": 295.51,
+  "text": "bring that control into the particular"
+ },
+ {
+  "start": 295.52,
+  "end": 298.909,
+  "text": "position so that it is visible and then"
+ },
+ {
+  "start": 298.919,
+  "end": 300.99,
+  "text": "uh it is in View and then we can type"
+ },
+ {
+  "start": 301.0,
+  "end": 303.51,
+  "text": "the text into that particular text"
+ },
+ {
+  "start": 303.52,
+  "end": 306.23,
+  "text": "box so similarly you can use different"
+ },
+ {
+  "start": 306.24,
+  "end": 308.749,
+  "text": "steering parameters to change the"
+ },
+ {
+  "start": 308.759,
+  "end": 311.59,
+  "text": "behavior of your particular controls uh"
+ },
+ {
+  "start": 311.6,
+  "end": 314.029,
+  "text": "in your application tosa provides a"
+ },
+ {
+  "start": 314.039,
+  "end": 315.95,
+  "text": "number of different steering parameters"
+ },
+ {
+  "start": 315.96,
+  "end": 317.71,
+  "text": "which can be"
+ },
+ {
+  "start": 317.72,
+  "end": 320.07,
+  "text": "used that's all for this particular"
+ },
+ {
+  "start": 320.08,
+  "end": 322.51,
+  "text": "video if you have any questions then"
+ },
+ {
+  "start": 322.52,
+  "end": 324.99,
+  "text": "please leave it in the comments if you"
+ },
+ {
+  "start": 325.0,
+  "end": 326.95,
+  "text": "like this video then please subscribe to"
+ },
+ {
+  "start": 326.96,
+  "end": 329.749,
+  "text": "our Channel thanks for watching and I"
+ },
+ {
+  "start": 329.759,
+  "end": 331.95,
+  "text": "will see you in the next"
+ },
+ {
+  "start": 331.96,
+  "end": 334.96,
+  "text": "video"
+ }
+]

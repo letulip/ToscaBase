@@ -1,0 +1,547 @@
+[
+ {
+  "start": 12.509,
+  "end": 12.519,
+  "text": "hey everyone welcome back to our Channel"
+ },
+ {
+  "start": 12.519,
+  "end": 15.15,
+  "text": "I am back with another interesting topic"
+ },
+ {
+  "start": 15.16,
+  "end": 17.83,
+  "text": "in the tosa automation"
+ },
+ {
+  "start": 17.84,
+  "end": 20.109,
+  "text": "playlist continuing with our test"
+ },
+ {
+  "start": 20.119,
+  "end": 22.75,
+  "text": "automation obstacle topic let's look at"
+ },
+ {
+  "start": 22.76,
+  "end": 24.79,
+  "text": "our next obstacle which is called the"
+ },
+ {
+  "start": 24.8,
+  "end": 27.669,
+  "text": "table search now this particular"
+ },
+ {
+  "start": 27.679,
+  "end": 30.189,
+  "text": "obstacle contains a dynamic table with"
+ },
+ {
+  "start": 30.199,
+  "end": 33.03,
+  "text": "rows and columns and here we need to"
+ },
+ {
+  "start": 33.04,
+  "end": 35.27,
+  "text": "find whether a particular cell in this"
+ },
+ {
+  "start": 35.28,
+  "end": 37.63,
+  "text": "table contains this particular value"
+ },
+ {
+  "start": 37.64,
+  "end": 41.35,
+  "text": "which is 15 if it is present then uh the"
+ },
+ {
+  "start": 41.36,
+  "end": 44.35,
+  "text": "value should be true if not then false"
+ },
+ {
+  "start": 44.36,
+  "end": 46.35,
+  "text": "and accordingly we need to enter that"
+ },
+ {
+  "start": 46.36,
+  "end": 48.91,
+  "text": "into this text field so this particular"
+ },
+ {
+  "start": 48.92,
+  "end": 52.43,
+  "text": "table I can see there is 15 okay so I'm"
+ },
+ {
+  "start": 52.44,
+  "end": 55.389,
+  "text": "going to enter true here and then the"
+ },
+ {
+  "start": 55.399,
+  "end": 58.67,
+  "text": "obstacle will be completed so the same"
+ },
+ {
+  "start": 58.68,
+  "end": 61.029,
+  "text": "thing we need to perform using tosa so"
+ },
+ {
+  "start": 61.039,
+  "end": 64.869,
+  "text": "let's see how we can do this using tosa"
+ },
+ {
+  "start": 64.879,
+  "end": 67.23,
+  "text": "so coming back to our tosa workspace uh"
+ },
+ {
+  "start": 67.24,
+  "end": 70.51,
+  "text": "the first step as always is to create a"
+ },
+ {
+  "start": 70.52,
+  "end": 72.87,
+  "text": "new module so we will go to our"
+ },
+ {
+  "start": 72.88,
+  "end": 84.55,
+  "text": "obstacles folder here we will scan the"
+ },
+ {
+  "start": 86.749,
+  "end": 86.759,
+  "text": "application and from here we need to"
+ },
+ {
+  "start": 86.759,
+  "end": 89.429,
+  "text": "select just two elements one is the"
+ },
+ {
+  "start": 89.439,
+  "end": 90.59,
+  "text": "table"
+ },
+ {
+  "start": 90.6,
+  "end": 93.95,
+  "text": "okay and then the other is the text box"
+ },
+ {
+  "start": 93.96,
+  "end": 95.91,
+  "text": "so these are the two elements which uh"
+ },
+ {
+  "start": 95.92,
+  "end": 99.99,
+  "text": "we need to enter here and then I will"
+ },
+ {
+  "start": 100.0,
+  "end": 104.149,
+  "text": "copy this and change the module name"
+ },
+ {
+  "start": 104.159,
+  "end": 108.03,
+  "text": "here and then I will save it and close"
+ },
+ {
+  "start": 108.04,
+  "end": 112.789,
+  "text": "it okay and then uh coming to the test"
+ },
+ {
+  "start": 112.799,
+  "end": 115.19,
+  "text": "cases section so we'll go to our"
+ },
+ {
+  "start": 115.2,
+  "end": 117.709,
+  "text": "obstacles folder here we will create a"
+ },
+ {
+  "start": 117.719,
+  "end": 120.789,
+  "text": "new test case"
+ },
+ {
+  "start": 120.799,
+  "end": 124.63,
+  "text": "and then uh we are going to add the"
+ },
+ {
+  "start": 124.64,
+  "end": 125.87,
+  "text": "module"
+ },
+ {
+  "start": 125.88,
+  "end": 130.83,
+  "text": "here so here coming to obstacles and add"
+ },
+ {
+  "start": 130.84,
+  "end": 132.71,
+  "text": "the module"
+ },
+ {
+  "start": 132.72,
+  "end": 136.03,
+  "text": "here now uh we have got a table and we"
+ },
+ {
+  "start": 136.04,
+  "end": 140.229,
+  "text": "have got the text field right so uh what"
+ },
+ {
+  "start": 140.239,
+  "end": 143.47,
+  "text": "we can do here is in order to find any"
+ },
+ {
+  "start": 143.48,
+  "end": 146.589,
+  "text": "particular cell since this table is"
+ },
+ {
+  "start": 146.599,
+  "end": 149.03,
+  "text": "dynamic in nature so this 15 value can"
+ },
+ {
+  "start": 149.04,
+  "end": 151.309,
+  "text": "come anywhere right so any row any"
+ },
+ {
+  "start": 151.319,
+  "end": 154.15,
+  "text": "column so the best and the fastest way"
+ },
+ {
+  "start": 154.16,
+  "end": 157.19,
+  "text": "to do a search on all the rows and"
+ },
+ {
+  "start": 157.2,
+  "end": 159.83,
+  "text": "columns is to use the constraint action"
+ },
+ {
+  "start": 159.84,
+  "end": 162.47,
+  "text": "mode so we'll put a constraint action"
+ },
+ {
+  "start": 162.48,
+  "end": 166.35,
+  "text": "mode on this value which is 15 and"
+ },
+ {
+  "start": 166.36,
+  "end": 168.43,
+  "text": "depending on that it will filter out the"
+ },
+ {
+  "start": 168.44,
+  "end": 171.11,
+  "text": "row which contains this particular cell"
+ },
+ {
+  "start": 171.12,
+  "end": 173.79,
+  "text": "right once that is done then uh we can"
+ },
+ {
+  "start": 173.8,
+  "end": 177.869,
+  "text": "go ahead and we can buffer whether this"
+ },
+ {
+  "start": 177.879,
+  "end": 181.309,
+  "text": "particular element exists or not it will"
+ },
+ {
+  "start": 181.319,
+  "end": 184.43,
+  "text": "return a true or false so whatever value"
+ },
+ {
+  "start": 184.44,
+  "end": 186.509,
+  "text": "it returns it will be stored in a buffer"
+ },
+ {
+  "start": 186.519,
+  "end": 188.39,
+  "text": "and then that buffer value can be"
+ },
+ {
+  "start": 188.4,
+  "end": 191.63,
+  "text": "entered here okay so this is the whole"
+ },
+ {
+  "start": 191.64,
+  "end": 194.149,
+  "text": "process which we are going to follow so"
+ },
+ {
+  "start": 194.159,
+  "end": 196.75,
+  "text": "let's go back here uh and now we are"
+ },
+ {
+  "start": 196.76,
+  "end": 199.509,
+  "text": "going into the table so we need to find"
+ },
+ {
+  "start": 199.519,
+  "end": 202.27,
+  "text": "out the row and we know that the cell"
+ },
+ {
+  "start": 202.28,
+  "end": 206.789,
+  "text": "value is 15 right so this we are going"
+ },
+ {
+  "start": 206.799,
+  "end": 208.67,
+  "text": "to do a"
+ },
+ {
+  "start": 208.68,
+  "end": 211.589,
+  "text": "constraint so that the row will be"
+ },
+ {
+  "start": 211.599,
+  "end": 213.509,
+  "text": "filtered based on this"
+ },
+ {
+  "start": 213.519,
+  "end": 215.99,
+  "text": "constraint and then once that is done"
+ },
+ {
+  "start": 216.0,
+  "end": 221.99,
+  "text": "then uh we are going to say exist equals"
+ },
+ {
+  "start": 222.0,
+  "end": 224.789,
+  "text": "equals uh the buffer name so we are"
+ },
+ {
+  "start": 224.799,
+  "end": 228.35,
+  "text": "going to put this as bore"
+ },
+ {
+  "start": 228.36,
+  "end": 231.509,
+  "text": "exists okay and then we are also going"
+ },
+ {
+  "start": 231.519,
+  "end": 234.75,
+  "text": "to change this to"
+ },
+ {
+  "start": 234.76,
+  "end": 239.309,
+  "text": "buffer right so it will check on the row"
+ },
+ {
+  "start": 239.319,
+  "end": 241.949,
+  "text": "whether it exists okay if this cell"
+ },
+ {
+  "start": 241.959,
+  "end": 243.83,
+  "text": "exists then it will store that in the"
+ },
+ {
+  "start": 243.84,
+  "end": 248.069,
+  "text": "buffer whether it is true or false and"
+ },
+ {
+  "start": 248.079,
+  "end": 250.149,
+  "text": "once that is done then we can come to"
+ },
+ {
+  "start": 250.159,
+  "end": 253.91,
+  "text": "the text box and here we can enter the"
+ },
+ {
+  "start": 253.92,
+  "end": 256.909,
+  "text": "buffer"
+ },
+ {
+  "start": 258.55,
+  "end": 258.56,
+  "text": "value"
+ },
+ {
+  "start": 258.56,
+  "end": 261.55,
+  "text": "okay so that almost completes our"
+ },
+ {
+  "start": 261.56,
+  "end": 263.99,
+  "text": "obstacle so I'll change the bu state to"
+ },
+ {
+  "start": 264.0,
+  "end": 266.39,
+  "text": "complet it and now we are ready to"
+ },
+ {
+  "start": 266.4,
+  "end": 269.87,
+  "text": "execute so let's go ahead and execute"
+ },
+ {
+  "start": 269.88,
+  "end": 273.43,
+  "text": "this in"
+ },
+ {
+  "start": 275.55,
+  "end": 275.56,
+  "text": "scratchbook okay so as you can see in"
+ },
+ {
+  "start": 275.56,
+  "end": 278.79,
+  "text": "the background it entered uh true"
+ },
+ {
+  "start": 278.8,
+  "end": 280.629,
+  "text": "depending on whether that element was"
+ },
+ {
+  "start": 280.639,
+  "end": 282.87,
+  "text": "present or not and it will enter false"
+ },
+ {
+  "start": 282.88,
+  "end": 284.99,
+  "text": "if it is not present and the obstacle"
+ },
+ {
+  "start": 285.0,
+  "end": 289.31,
+  "text": "was completed right so this is how you"
+ },
+ {
+  "start": 289.32,
+  "end": 292.189,
+  "text": "can filter out rows based on the"
+ },
+ {
+  "start": 292.199,
+  "end": 295.189,
+  "text": "constraint action mode and also you can"
+ },
+ {
+  "start": 295.199,
+  "end": 297.99,
+  "text": "easily search any particular cell with"
+ },
+ {
+  "start": 298.0,
+  "end": 299.909,
+  "text": "any particular value using this"
+ },
+ {
+  "start": 299.919,
+  "end": 302.35,
+  "text": "constraint action mode and then you can"
+ },
+ {
+  "start": 302.36,
+  "end": 305.95,
+  "text": "use the buffer action mode to U"
+ },
+ {
+  "start": 305.96,
+  "end": 308.07,
+  "text": "basically buffer any particular value"
+ },
+ {
+  "start": 308.08,
+  "end": 309.79,
+  "text": "based on some condition for that"
+ },
+ {
+  "start": 309.8,
+  "end": 311.99,
+  "text": "particular row or"
+ },
+ {
+  "start": 312.0,
+  "end": 314.35,
+  "text": "column that's all for this particular"
+ },
+ {
+  "start": 314.36,
+  "end": 316.79,
+  "text": "video if you have any questions then"
+ },
+ {
+  "start": 316.8,
+  "end": 319.27,
+  "text": "please leave it in the comments if you"
+ },
+ {
+  "start": 319.28,
+  "end": 321.23,
+  "text": "like this video then please subscribe to"
+ },
+ {
+  "start": 321.24,
+  "end": 323.95,
+  "text": "our Channel thanks for watching and I"
+ },
+ {
+  "start": 323.96,
+  "end": 325.95,
+  "text": "will see you in the next"
+ },
+ {
+  "start": 325.96,
+  "end": 328.96,
+  "text": "video"
+ }
+]

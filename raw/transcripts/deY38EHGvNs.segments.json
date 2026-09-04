@@ -1,0 +1,577 @@
+[
+ {
+  "start": 15.02,
+  "end": 22.02,
+  "text": "Hello friends, welcome back to our channel. I am your Tosca instructor and my name is"
+ },
+ {
+  "start": 22.02,
+  "end": 30.54,
+  "text": "Kumaresh. I have total 14 years of IT experience in software development and test automation."
+ },
+ {
+  "start": 30.54,
+  "end": 37.94,
+  "text": "Thank you for connecting with us. Hope you are doing well. Let's start our today's"
+ },
+ {
+  "start": 37.94,
+  "end": 44.28,
+  "text": "session. Through this video, I will explain the overview of Tosca modules and guide you"
+ },
+ {
+  "start": 44.28,
+  "end": 52.96,
+  "text": "to scan application to create modules which will be required for test automation. Alright."
+ },
+ {
+  "start": 52.96,
+  "end": 60.3,
+  "text": "Let's starts with the Tosca modules. Conceptually the Tosca modules keeps the technical properties"
+ },
+ {
+  "start": 60.3,
+  "end": 66.9,
+  "text": "of any control that is refer to any test object. Basically, module creation is the"
+ },
+ {
+  "start": 66.9,
+  "end": 73.1,
+  "text": "first step to start with test case development in Tosca. Modules maps a page or screen"
+ },
+ {
+  "start": 73.1,
+  "end": 78.26,
+  "text": "for the application under test with the Tosca. The controls or the objects which"
+ },
+ {
+  "start": 78.26,
+  "end": 85.92,
+  "text": "are required for test automation has to be captured in module as module attributes."
+ },
+ {
+  "start": 85.92,
+  "end": 91.68,
+  "text": "Tosca modules are classified into two categories. Classic modules which are created by classic"
+ },
+ {
+  "start": 91.68,
+  "end": 99.4,
+  "text": "engines during the scanning and X modules which are based on the Tosca TBox framework."
+ },
+ {
+  "start": 99.4,
+  "end": 107.32,
+  "text": "Alright. Let's starts with the Tosca modules. Conceptually the Tosca modules keeps the"
+ },
+ {
+  "start": 107.32,
+  "end": 114.0,
+  "text": "technical properties of any control that is refer to any test object. Basically, module"
+ },
+ {
+  "start": 114.0,
+  "end": 119.6,
+  "text": "creation is the first step to start with test case development in Tosca. Modules"
+ },
+ {
+  "start": 119.6,
+  "end": 125.24,
+  "text": "maps a page or screen for the application under test with the Tosca. The controls"
+ },
+ {
+  "start": 125.24,
+  "end": 130.26,
+  "text": "or the objects which are required for test automation has to be captured in module as"
+ },
+ {
+  "start": 130.26,
+  "end": 138.6,
+  "text": "module attributes. Tosca modules are classified into two categories based on the architecture."
+ },
+ {
+  "start": 138.6,
+  "end": 145.1,
+  "text": "Classic modules which are created by classic engines during the scanning and X modules"
+ },
+ {
+  "start": 145.1,
+  "end": 154.72,
+  "text": "which are based on the Tosca TBox framework. The icons of modules are similar to this."
+ },
+ {
+  "start": 154.72,
+  "end": 159.12,
+  "text": "The each components of a module are known as module attributes and the components are"
+ },
+ {
+  "start": 159.12,
+  "end": 165.16,
+  "text": "known as controls. The classic modules have the classic module attributes and on the other hand,"
+ },
+ {
+  "start": 165.16,
+  "end": 171.56,
+  "text": "the X modules have the X module attributes. Now, let's understand the different types of"
+ },
+ {
+  "start": 171.56,
+  "end": 179.48,
+  "text": "Tosca engines which will help to automate any applications. Classic engines. In the early"
+ },
+ {
+  "start": 179.48,
+  "end": 184.8,
+  "text": "phase of Tosca, classic engines are developed to processes the the test case information and"
+ },
+ {
+  "start": 184.8,
+  "end": 191.0,
+  "text": "steers the test object. There is respective engines are available to steer any test object."
+ },
+ {
+  "start": 191.0,
+  "end": 199.29,
+  "text": "TBox. The reference of Tosca TBox framework algorithm is the basis for X engines to steer"
+ },
+ {
+  "start": 199.29,
+  "end": 208.99,
+  "text": "any controls. Same can be applied to steer GUI and non-GUI objects. X engines. With the"
+ },
+ {
+  "start": 208.99,
+  "end": 214.67,
+  "text": "help of X definitions, the X engines are defined in Tosca. The controls for the"
+ },
+ {
+  "start": 214.67,
+  "end": 220.71,
+  "text": "test objects are hierarchically structured through the X definition. So, the tree structure"
+ },
+ {
+  "start": 220.71,
+  "end": 228.28,
+  "text": "of the test objects are mapped with controls of any modules. The Tosca TBox is compatible"
+ },
+ {
+  "start": 228.28,
+  "end": 235.04,
+  "text": "with the most of the Tosca engines such as Tosca Xscan 3.0, Neui Engine 3.0,"
+ },
+ {
+  "start": 235.04,
+  "end": 242.92,
+  "text": "Tosca AP Engine 3.0, Tosca Database Engine 3.0, Tosca.net Engine 3.0,"
+ },
+ {
+  "start": 242.92,
+  "end": 256.04,
+  "text": "Tosca Mobile Engine 3.0, Tosca SAP Engine 3.0 etc. Please visit https://lambdegeeks.com"
+ },
+ {
+  "start": 256.04,
+  "end": 266.91,
+  "text": "Tosca-modules. To learn more on Tosca engines. Based on the usage, two types of modules are"
+ },
+ {
+  "start": 266.91,
+  "end": 273.23,
+  "text": "available in Tosca. Standard modules can be imported or loaded during workspace creation."
+ },
+ {
+  "start": 273.23,
+  "end": 279.43,
+  "text": "Standard modules are defined by Tosca which are used to perform very common operations such"
+ },
+ {
+  "start": 279.43,
+  "end": 285.75,
+  "text": "that open file, invoke application, string operations, buffer operations, verifications,"
+ },
+ {
+  "start": 285.75,
+  "end": 293.42,
+  "text": "etc. User-defined modules are defined by the tester during the test case automation."
+ },
+ {
+  "start": 293.42,
+  "end": 299.58,
+  "text": "This modules are developed by scanning the applications. Each of the modules"
+ },
+ {
+  "start": 299.58,
+  "end": 308.05,
+  "text": "represents a logical functional block. Let's see the most commonly used standard modules."
+ },
+ {
+  "start": 308.05,
+  "end": 313.33,
+  "text": "Based on the usage, we can group the standard modules in three categories."
+ },
+ {
+  "start": 313.33,
+  "end": 320.13,
+  "text": "Those are TBox automation tools which are used to perform basic operations such as"
+ },
+ {
+  "start": 320.13,
+  "end": 327.13,
+  "text": "basic windows, buffer, file folder, string, date-time, process, resource handling etc."
+ },
+ {
+  "start": 329.05,
+  "end": 334.29,
+  "text": "TBox X-Engines modules are used to perform the basic operations in different applications"
+ },
+ {
+  "start": 334.29,
+  "end": 344.2,
+  "text": "such as database, HTML, PDF, .NET, SAP, mobile etc. Test data related modules are used to"
+ },
+ {
+  "start": 344.2,
+  "end": 348.92,
+  "text": "manage the test data through the features such as test data management, test data services."
+ },
+ {
+  "start": 348.92,
+  "end": 357.25,
+  "text": "This are the frequently used standard modules for any test automations. But apart from this,"
+ },
+ {
+  "start": 357.25,
+  "end": 362.49,
+  "text": "Tosca provides many modules to support test automation activities. Now,"
+ },
+ {
+  "start": 362.49,
+  "end": 365.97,
+  "text": "we will discuss about the most important Tosca scan feature."
+ },
+ {
+  "start": 365.97,
+  "end": 372.51,
+  "text": "Scanning through Tosca is an approach to create user-defined custom modules which"
+ },
+ {
+  "start": 372.51,
+  "end": 378.45,
+  "text": "contain all the technical information for any test applications. Tosca provides many"
+ },
+ {
+  "start": 378.45,
+  "end": 384.01,
+  "text": "engines to scan various applications. Through this tutorial we are going to learn about."
+ },
+ {
+  "start": 384.01,
+  "end": 390.29,
+  "text": "Tosca scan to create classic modules and Tosca scan to create TBox modules."
+ },
+ {
+  "start": 390.29,
+  "end": 396.49,
+  "text": "We can initiate Tosca scan either right clicking on module folder or selecting the"
+ },
+ {
+  "start": 396.49,
+  "end": 403.93,
+  "text": "dynamic menu modules and click on scan icon. Also standalone Tosca scan wizard is available"
+ },
+ {
+  "start": 403.93,
+  "end": 409.21,
+  "text": "to perform classic scanning. I am going to demonstrate the scanning approach to create"
+ },
+ {
+  "start": 409.21,
+  "end": 415.49,
+  "text": "user-defined TBox modules. Here, we are using Google search engine portal as a test"
+ },
+ {
+  "start": 415.49,
+  "end": 422.33,
+  "text": "application and we are keeping it open in a web browser. We will add 3 objects. Search box,"
+ },
+ {
+  "start": 422.33,
+  "end": 430.2,
+  "text": "Google icon and Google search button during the scanning. I am going to work with the"
+ },
+ {
+  "start": 430.2,
+  "end": 435.92,
+  "text": "multi-user workspace which was previously created. First, we will clean the Tosca"
+ },
+ {
+  "start": 435.92,
+  "end": 443.72,
+  "text": "commander view. To do so, we will close all the tabs except the project view. Now, as we are"
+ },
+ {
+  "start": 443.72,
+  "end": 448.52,
+  "text": "working on the modules, we will dock the modules section in the tab list by selecting"
+ },
+ {
+  "start": 448.52,
+  "end": 455.87,
+  "text": "the plus option after right clicking on modules component. In the module section,"
+ },
+ {
+  "start": 455.87,
+  "end": 460.71,
+  "text": "the standard modules are displayed which will be used during the test case creation phase."
+ },
+ {
+  "start": 460.71,
+  "end": 467.79,
+  "text": "By default, TBox automation tools, TBox X engines and test data related modules are"
+ },
+ {
+  "start": 467.83,
+  "end": 477.13,
+  "text": "available. Now, we will create one new folder to store the newly created modules. We can give"
+ },
+ {
+  "start": 477.13,
+  "end": 482.97,
+  "text": "a logical name for the newly created module folder. The scanning can be initiated from the"
+ },
+ {
+  "start": 482.97,
+  "end": 488.13,
+  "text": "modules tab which is available in Tosca commander header section or by right clicking"
+ },
+ {
+  "start": 488.13,
+  "end": 493.97,
+  "text": "on the folder option. After clicking on the scan option, all the scanning option is showing."
+ },
+ {
+  "start": 493.97,
+  "end": 499.73,
+  "text": "As we will scan web application using TBox approach, we will select the application"
+ },
+ {
+  "start": 499.73,
+  "end": 505.21,
+  "text": "option and wait for application selection screen. It will take few seconds to appear"
+ },
+ {
+  "start": 505.21,
+  "end": 511.49,
+  "text": "the select application screen. In the meantime, Tosca identifying and listing all the open"
+ },
+ {
+  "start": 511.49,
+  "end": 517.29,
+  "text": "applications which are active in the desktop. Those applications will be shown in select"
+ },
+ {
+  "start": 517.29,
+  "end": 534.62,
+  "text": "application screen. The desired web application need to select and click on scan button to"
+ },
+ {
+  "start": 535.06,
+  "end": 541.54,
+  "text": "proceed. Now the Tosca starts the scanning the Google page. After this the X can screen"
+ },
+ {
+  "start": 541.54,
+  "end": 546.78,
+  "text": "ill appear which displayed the list of scanned objects. Here we will use the select on"
+ },
+ {
+  "start": 546.78,
+  "end": 552.82,
+  "text": "screen feature to choose objects directly from the applications. Here, we will click"
+ },
+ {
+  "start": 552.82,
+  "end": 558.98,
+  "text": "on search text box, Google icon and Google search button to add this objects. The"
+ },
+ {
+  "start": 558.98,
+  "end": 565.58,
+  "text": "three objects are added, but one is uniquely identified and two are not. Now, I will"
+ },
+ {
+  "start": 565.58,
+  "end": 571.14,
+  "text": "explain how we can identify them uniquely. Tosca follows four different methods to recognize"
+ },
+ {
+  "start": 571.14,
+  "end": 578.46,
+  "text": "any test objects or controls during scanning. The identified by properties methods, the"
+ },
+ {
+  "start": 578.46,
+  "end": 588.81,
+  "text": "controls are getting identified based on the technical properties. In identify by"
+ },
+ {
+  "start": 588.81,
+  "end": 595.65,
+  "text": "anchor method, the controls are getting identified with the reference of other controls."
+ },
+ {
+  "start": 595.65,
+  "end": 600.53,
+  "text": "In identify by image method, the bitmap of the objects are used to recognize the"
+ },
+ {
+  "start": 600.53,
+  "end": 607.64,
+  "text": "controls. If all the methods fail, we should use the identify by index method which"
+ },
+ {
+  "start": 607.64,
+  "end": 614.0,
+  "text": "indicated the occurrence of same types of objects. Always we should prefer to recognize"
+ },
+ {
+  "start": 614.0,
+  "end": 621.52,
+  "text": "objects by identify by properties method. In our case, first we will try to identify"
+ },
+ {
+  "start": 621.52,
+  "end": 627.2,
+  "text": "the Google logo object based on the alt technical property. After this the control"
+ },
+ {
+  "start": 627.2,
+  "end": 634.56,
+  "text": "is properly identified. Now, we try to identify another Google search button object to be"
+ },
+ {
+  "start": 634.56,
+  "end": 641.16,
+  "text": "recognized. After analyzing the properties, we observe that all suitable technical properties"
+ },
+ {
+  "start": 641.16,
+  "end": 648.5,
+  "text": "are already selected. So we have to follow other object recognition methods. It is"
+ },
+ {
+  "start": 648.5,
+  "end": 653.2,
+  "text": "advisable to use the identify by anchor method, the technical properties are failed"
+ },
+ {
+  "start": 653.2,
+  "end": 659.04,
+  "text": "to identify controls uniquely. We will use another stable object queue as the reference"
+ },
+ {
+  "start": 659.04,
+  "end": 664.56,
+  "text": "anchor control. If there is not properly identified controls are available, we should"
+ },
+ {
+  "start": 664.56,
+  "end": 669.46,
+  "text": "not use this method. With the reference of this anchor, we will try to identify"
+ },
+ {
+  "start": 669.46,
+  "end": 674.84,
+  "text": "the Google search button uniquely. To do so, let's drag the queue control and"
+ },
+ {
+  "start": 674.84,
+  "end": 680.44,
+  "text": "drop it into anchor control section. Now, the object is getting recognized uniquely"
+ },
+ {
+  "start": 680.44,
+  "end": 686.52,
+  "text": "with the reference of another control. It is always advisable to rename the controls"
+ },
+ {
+  "start": 686.52,
+  "end": 691.68,
+  "text": "based on the logical name. It will help to understand the purpose of the controls"
+ },
+ {
+  "start": 691.68,
+  "end": 699.56,
+  "text": "future. Now, we need to save the scanned controls to create the modules. This newly"
+ },
+ {
+  "start": 699.56,
+  "end": 706.03,
+  "text": "created module is available in the custom folder under the module section. We can"
+ },
+ {
+  "start": 706.03,
+  "end": 711.51,
+  "text": "view the control properties as parameters from the modules. The property section is"
+ },
+ {
+  "start": 711.55,
+  "end": 716.91,
+  "text": "available in the right side of the screen. As we are working in multi user workspace"
+ },
+ {
+  "start": 716.91,
+  "end": 721.09,
+  "text": "environment, we need to click on check in all button to save the modules in"
+ },
+ {
+  "start": 721.09,
+  "end": 729.74,
+  "text": "central repository. Similarly, we will create few more modules for Google"
+ },
+ {
+  "start": 729.74,
+  "end": 735.3,
+  "text": "search. Those modules will be used in next video tutorial to develop the test"
+ },
+ {
+  "start": 735.3,
+  "end": 745.67,
+  "text": "cases. Thanks for watching this video. That's all about Tosca modules and"
+ },
+ {
+  "start": 745.67,
+  "end": 751.07,
+  "text": "scanning. We will learn more about Tosca test automation in next Tosca"
+ },
+ {
+  "start": 751.07,
+  "end": 757.27,
+  "text": "tutorial. Please visit our website lambda geeks.com for more articles on"
+ },
+ {
+  "start": 757.27,
+  "end": 762.91,
+  "text": "technology, engineering, mathematics and various other domain. You can check"
+ },
+ {
+  "start": 762.91,
+  "end": 770.59,
+  "text": "our other website as well. We have features like YouTube trends, Twitter"
+ },
+ {
+  "start": 770.67,
+  "end": 780.4,
+  "text": "trends, scientific calculator and many more other tools. If you like our video,"
+ },
+ {
+  "start": 780.4,
+  "end": 786.2,
+  "text": "please like, comment and share. If you have any questions, please comment and we"
+ },
+ {
+  "start": 786.2,
+  "end": 789.2,
+  "text": "will resolve your query."
+ }
+]

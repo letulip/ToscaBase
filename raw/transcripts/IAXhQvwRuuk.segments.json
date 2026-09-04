@@ -1,0 +1,847 @@
+[
+ {
+  "start": 8.15,
+  "end": 8.16,
+  "text": "hey everyone welcome back to the Tosca"
+ },
+ {
+  "start": 8.16,
+  "end": 10.129,
+  "text": "automation playlist and we are talking"
+ },
+ {
+  "start": 10.139,
+  "end": 13.73,
+  "text": "about the top 10 Tosca best practices"
+ },
+ {
+  "start": 13.74,
+  "end": 16.49,
+  "text": "now we are in the last two best"
+ },
+ {
+  "start": 16.5,
+  "end": 18.349,
+  "text": "practices we have already spoken about"
+ },
+ {
+  "start": 18.359,
+  "end": 20.75,
+  "text": "eight best practices so if you have not"
+ },
+ {
+  "start": 20.76,
+  "end": 22.73,
+  "text": "watched them please go ahead and watch"
+ },
+ {
+  "start": 22.74,
+  "end": 25.31,
+  "text": "all of these before we continue with"
+ },
+ {
+  "start": 25.32,
+  "end": 28.37,
+  "text": "this particular best practice also you"
+ },
+ {
+  "start": 28.38,
+  "end": 29.99,
+  "text": "might want to subscribe to our Channel"
+ },
+ {
+  "start": 30.0,
+  "end": 32.269,
+  "text": "if you have not already done it so that"
+ },
+ {
+  "start": 32.279,
+  "end": 33.83,
+  "text": "you don't miss out on the upcoming"
+ },
+ {
+  "start": 33.84,
+  "end": 35.27,
+  "text": "videos"
+ },
+ {
+  "start": 35.28,
+  "end": 37.069,
+  "text": "now talking about this particular best"
+ },
+ {
+  "start": 37.079,
+  "end": 38.09,
+  "text": "practice"
+ },
+ {
+  "start": 38.1,
+  "end": 40.97,
+  "text": "so try centers recommends that you"
+ },
+ {
+  "start": 40.98,
+  "end": 43.67,
+  "text": "should set the proper work states for"
+ },
+ {
+  "start": 43.68,
+  "end": 45.229,
+  "text": "your test cases"
+ },
+ {
+  "start": 45.239,
+  "end": 46.85,
+  "text": "now what are the different levels of"
+ },
+ {
+  "start": 46.86,
+  "end": 48.83,
+  "text": "this workstates and where this work"
+ },
+ {
+  "start": 48.84,
+  "end": 51.65,
+  "text": "state is present I would show you with"
+ },
+ {
+  "start": 51.66,
+  "end": 54.529,
+  "text": "an example but setting the work states"
+ },
+ {
+  "start": 54.539,
+  "end": 57.65,
+  "text": "on test cases does provide a good"
+ },
+ {
+  "start": 57.66,
+  "end": 60.529,
+  "text": "overview on the overall status of this"
+ },
+ {
+  "start": 60.539,
+  "end": 62.93,
+  "text": "test case now what do you mean by the"
+ },
+ {
+  "start": 62.94,
+  "end": 65.329,
+  "text": "overall status is whether the test case"
+ },
+ {
+  "start": 65.339,
+  "end": 69.23,
+  "text": "is under review whether the test case is"
+ },
+ {
+  "start": 69.24,
+  "end": 71.99,
+  "text": "um you're working on it currently or you"
+ },
+ {
+  "start": 72.0,
+  "end": 73.429,
+  "text": "are planning that particular test case"
+ },
+ {
+  "start": 73.439,
+  "end": 75.53,
+  "text": "or you have completed the test case"
+ },
+ {
+  "start": 75.54,
+  "end": 78.83,
+  "text": "right so this particular setting is very"
+ },
+ {
+  "start": 78.84,
+  "end": 80.749,
+  "text": "important when you are working within a"
+ },
+ {
+  "start": 80.759,
+  "end": 83.39,
+  "text": "team because there may be scenarios"
+ },
+ {
+  "start": 83.4,
+  "end": 85.789,
+  "text": "where you would be working on the same"
+ },
+ {
+  "start": 85.799,
+  "end": 88.789,
+  "text": "test case or at least under the same"
+ },
+ {
+  "start": 88.799,
+  "end": 91.91,
+  "text": "folder with your other teammates so it's"
+ },
+ {
+  "start": 91.92,
+  "end": 93.95,
+  "text": "very important for each of the teammates"
+ },
+ {
+  "start": 93.96,
+  "end": 98.149,
+  "text": "to know uh what level of completion is"
+ },
+ {
+  "start": 98.159,
+  "end": 100.31,
+  "text": "done for that particular test case Okay"
+ },
+ {
+  "start": 100.32,
+  "end": 102.469,
+  "text": "so looking at the test case you can find"
+ },
+ {
+  "start": 102.479,
+  "end": 104.99,
+  "text": "out whether the test case is still in"
+ },
+ {
+  "start": 105.0,
+  "end": 107.929,
+  "text": "progress or it is completed or it is"
+ },
+ {
+  "start": 107.939,
+  "end": 110.569,
+  "text": "still in the planning stages right"
+ },
+ {
+  "start": 110.579,
+  "end": 113.929,
+  "text": "so that helps you to plan your work much"
+ },
+ {
+  "start": 113.939,
+  "end": 115.85,
+  "text": "better and also it provides a good"
+ },
+ {
+  "start": 115.86,
+  "end": 119.81,
+  "text": "overview for the management on what is"
+ },
+ {
+  "start": 119.82,
+  "end": 122.569,
+  "text": "the status of the work with the team"
+ },
+ {
+  "start": 122.579,
+  "end": 124.249,
+  "text": "right"
+ },
+ {
+  "start": 124.259,
+  "end": 127.19,
+  "text": "also it helps with the overview of the"
+ },
+ {
+  "start": 127.2,
+  "end": 129.35,
+  "text": "requirements section because the"
+ },
+ {
+  "start": 129.36,
+  "end": 131.27,
+  "text": "requirements are linked to the test case"
+ },
+ {
+  "start": 131.28,
+  "end": 134.63,
+  "text": "so depending on the work state of a test"
+ },
+ {
+  "start": 134.64,
+  "end": 137.99,
+  "text": "case the requirement uh overall coverage"
+ },
+ {
+  "start": 138.0,
+  "end": 141.229,
+  "text": "and the execution status changes in the"
+ },
+ {
+  "start": 141.239,
+  "end": 142.91,
+  "text": "requirements section and this"
+ },
+ {
+  "start": 142.92,
+  "end": 145.49,
+  "text": "requirements section is the main"
+ },
+ {
+  "start": 145.5,
+  "end": 148.67,
+  "text": "dashboard for the test management team"
+ },
+ {
+  "start": 148.68,
+  "end": 152.39,
+  "text": "or even the stakeholders right so if you"
+ },
+ {
+  "start": 152.4,
+  "end": 154.01,
+  "text": "are not setting the proper work state"
+ },
+ {
+  "start": 154.02,
+  "end": 157.309,
+  "text": "for your test cases then um the"
+ },
+ {
+  "start": 157.319,
+  "end": 159.589,
+  "text": "requirement coverage may not be showing"
+ },
+ {
+  "start": 159.599,
+  "end": 162.89,
+  "text": "correctly for the team management and"
+ },
+ {
+  "start": 162.9,
+  "end": 165.89,
+  "text": "that will create problems okay so let's"
+ },
+ {
+  "start": 165.9,
+  "end": 168.53,
+  "text": "see with an example of what is this work"
+ },
+ {
+  "start": 168.54,
+  "end": 170.69,
+  "text": "state how you can set this in a test"
+ },
+ {
+  "start": 170.7,
+  "end": 173.089,
+  "text": "case and how this is linked to the"
+ },
+ {
+  "start": 173.099,
+  "end": 176.21,
+  "text": "requirement section okay"
+ },
+ {
+  "start": 176.22,
+  "end": 179.03,
+  "text": "so coming back to Tosca I can open any"
+ },
+ {
+  "start": 179.04,
+  "end": 181.009,
+  "text": "particular test case okay no matter"
+ },
+ {
+  "start": 181.019,
+  "end": 183.83,
+  "text": "which test case you work on uh there is"
+ },
+ {
+  "start": 183.84,
+  "end": 186.11,
+  "text": "a column called work state now if you"
+ },
+ {
+  "start": 186.12,
+  "end": 188.809,
+  "text": "cannot see this column you can always go"
+ },
+ {
+  "start": 188.819,
+  "end": 191.75,
+  "text": "to column Chooser and then just select"
+ },
+ {
+  "start": 191.76,
+  "end": 194.33,
+  "text": "that particular work state column okay"
+ },
+ {
+  "start": 194.34,
+  "end": 197.21,
+  "text": "and then it will be appearing here"
+ },
+ {
+  "start": 197.22,
+  "end": 199.79,
+  "text": "now this work state has three status"
+ },
+ {
+  "start": 199.8,
+  "end": 201.11,
+  "text": "okay"
+ },
+ {
+  "start": 201.12,
+  "end": 204.35,
+  "text": "uh the first is planned the second is in"
+ },
+ {
+  "start": 204.36,
+  "end": 207.77,
+  "text": "work and the third is completed"
+ },
+ {
+  "start": 207.78,
+  "end": 210.71,
+  "text": "so whenever you are starting with your"
+ },
+ {
+  "start": 210.72,
+  "end": 213.17,
+  "text": "uh particular test case it will be in"
+ },
+ {
+  "start": 213.18,
+  "end": 216.35,
+  "text": "the plant Stitch okay at this stage you"
+ },
+ {
+  "start": 216.36,
+  "end": 217.79,
+  "text": "are trying to go through the scenarios"
+ },
+ {
+  "start": 217.8,
+  "end": 219.649,
+  "text": "and you are planning how you can build"
+ },
+ {
+  "start": 219.659,
+  "end": 222.649,
+  "text": "this particular test case okay so you"
+ },
+ {
+  "start": 222.659,
+  "end": 225.35,
+  "text": "can keep this in the plant stage once"
+ },
+ {
+  "start": 225.36,
+  "end": 227.21,
+  "text": "you start working on the test case you"
+ },
+ {
+  "start": 227.22,
+  "end": 229.85,
+  "text": "can change it to in work and once you"
+ },
+ {
+  "start": 229.86,
+  "end": 231.649,
+  "text": "have completed the test case you can"
+ },
+ {
+  "start": 231.659,
+  "end": 234.35,
+  "text": "change it to completed okay so these are"
+ },
+ {
+  "start": 234.36,
+  "end": 236.21,
+  "text": "the three work states it's pretty simple"
+ },
+ {
+  "start": 236.22,
+  "end": 239.21,
+  "text": "so it's basically the status of the"
+ },
+ {
+  "start": 239.22,
+  "end": 240.53,
+  "text": "current test case which you are"
+ },
+ {
+  "start": 240.54,
+  "end": 243.229,
+  "text": "currently working on and the right work"
+ },
+ {
+  "start": 243.239,
+  "end": 246.53,
+  "text": "state can help you and your teammates"
+ },
+ {
+  "start": 246.54,
+  "end": 249.949,
+  "text": "and even the team management okay"
+ },
+ {
+  "start": 249.959,
+  "end": 252.229,
+  "text": "so that's how you can set a particular"
+ },
+ {
+  "start": 252.239,
+  "end": 255.41,
+  "text": "work state and the three different work"
+ },
+ {
+  "start": 255.42,
+  "end": 257.21,
+  "text": "states which you can set for a"
+ },
+ {
+  "start": 257.22,
+  "end": 259.129,
+  "text": "particular test case right and you will"
+ },
+ {
+  "start": 259.139,
+  "end": 262.61,
+  "text": "see uh for every uh test case a work"
+ },
+ {
+  "start": 262.62,
+  "end": 265.31,
+  "text": "state is always set right"
+ },
+ {
+  "start": 265.32,
+  "end": 267.409,
+  "text": "now how this is linked to the"
+ },
+ {
+  "start": 267.419,
+  "end": 271.43,
+  "text": "requirements okay so if I go back to uh"
+ },
+ {
+  "start": 271.44,
+  "end": 273.89,
+  "text": "the requirement section here you can see"
+ },
+ {
+  "start": 273.9,
+  "end": 276.29,
+  "text": "that we have got different requirements"
+ },
+ {
+  "start": 276.3,
+  "end": 279.11,
+  "text": "and under this we have got this"
+ },
+ {
+  "start": 279.12,
+  "end": 281.33,
+  "text": "particular test case which is linked to"
+ },
+ {
+  "start": 281.34,
+  "end": 283.07,
+  "text": "this requirement okay"
+ },
+ {
+  "start": 283.08,
+  "end": 286.07,
+  "text": "so our coverage specified is 100 our"
+ },
+ {
+  "start": 286.08,
+  "end": 288.59,
+  "text": "execution state is 97 percent"
+ },
+ {
+  "start": 288.6,
+  "end": 292.01,
+  "text": "now if I jump to the linked test case"
+ },
+ {
+  "start": 292.02,
+  "end": 293.27,
+  "text": "okay"
+ },
+ {
+  "start": 293.28,
+  "end": 295.55,
+  "text": "so this is the particular test case okay"
+ },
+ {
+  "start": 295.56,
+  "end": 297.53,
+  "text": "which is present in that requirement or"
+ },
+ {
+  "start": 297.54,
+  "end": 299.689,
+  "text": "linked to that particular requirement"
+ },
+ {
+  "start": 299.699,
+  "end": 301.969,
+  "text": "now this work state is currently"
+ },
+ {
+  "start": 301.979,
+  "end": 303.17,
+  "text": "completed"
+ },
+ {
+  "start": 303.18,
+  "end": 306.409,
+  "text": "but what if I change it to in work okay"
+ },
+ {
+  "start": 306.419,
+  "end": 309.53,
+  "text": "so either I forgot to make it completed"
+ },
+ {
+  "start": 309.54,
+  "end": 311.629,
+  "text": "or I am still working on this particular"
+ },
+ {
+  "start": 311.639,
+  "end": 314.689,
+  "text": "test case right so I make it uh in work"
+ },
+ {
+  "start": 314.699,
+  "end": 317.99,
+  "text": "and now if I go back to requirements you"
+ },
+ {
+  "start": 318.0,
+  "end": 320.21,
+  "text": "will see the coverage specified has"
+ },
+ {
+  "start": 320.22,
+  "end": 323.83,
+  "text": "decreased from 100 percent to 69 percent"
+ },
+ {
+  "start": 323.84,
+  "end": 326.749,
+  "text": "for this particular requirement and the"
+ },
+ {
+  "start": 326.759,
+  "end": 330.11,
+  "text": "execution state has also reduced to 65"
+ },
+ {
+  "start": 330.12,
+  "end": 331.01,
+  "text": "percent"
+ },
+ {
+  "start": 331.02,
+  "end": 334.67,
+  "text": "so that's the impact it has on your"
+ },
+ {
+  "start": 334.68,
+  "end": 337.07,
+  "text": "overall requirement coverage and also"
+ },
+ {
+  "start": 337.08,
+  "end": 340.43,
+  "text": "the execution percentage because this"
+ },
+ {
+  "start": 340.44,
+  "end": 342.83,
+  "text": "particular test case may have a certain"
+ },
+ {
+  "start": 342.84,
+  "end": 345.469,
+  "text": "number of weight right you can see here"
+ },
+ {
+  "start": 345.479,
+  "end": 348.11,
+  "text": "the contribution is quite High For This"
+ },
+ {
+  "start": 348.12,
+  "end": 352.67,
+  "text": "Test case it is 54.77 percent so it's a"
+ },
+ {
+  "start": 352.68,
+  "end": 355.31,
+  "text": "very important test case uh in terms of"
+ },
+ {
+  "start": 355.32,
+  "end": 357.469,
+  "text": "this particular requirement and that is"
+ },
+ {
+  "start": 357.479,
+  "end": 360.23,
+  "text": "why it has got a higher weightage and"
+ },
+ {
+  "start": 360.24,
+  "end": 362.87,
+  "text": "also the contribution is much higher in"
+ },
+ {
+  "start": 362.88,
+  "end": 366.29,
+  "text": "terms of the coverage and so as soon as"
+ },
+ {
+  "start": 366.3,
+  "end": 370.73,
+  "text": "I change uh my test case to in work my"
+ },
+ {
+  "start": 370.74,
+  "end": 374.09,
+  "text": "requirements coverage gets affected also"
+ },
+ {
+  "start": 374.1,
+  "end": 377.27,
+  "text": "the execution state gets affected okay"
+ },
+ {
+  "start": 377.28,
+  "end": 380.87,
+  "text": "so if you forget or if you don't update"
+ },
+ {
+  "start": 380.88,
+  "end": 383.27,
+  "text": "your test case in the right manner then"
+ },
+ {
+  "start": 383.28,
+  "end": 385.49,
+  "text": "your requirements are going to get"
+ },
+ {
+  "start": 385.5,
+  "end": 388.909,
+  "text": "screwed and that is going to uh"
+ },
+ {
+  "start": 388.919,
+  "end": 391.249,
+  "text": "provide a different picture to the test"
+ },
+ {
+  "start": 391.259,
+  "end": 394.189,
+  "text": "management team on how much the coverage"
+ },
+ {
+  "start": 394.199,
+  "end": 397.73,
+  "text": "is or the execution state is okay so"
+ },
+ {
+  "start": 397.74,
+  "end": 399.89,
+  "text": "it's very important as you can see to"
+ },
+ {
+  "start": 399.9,
+  "end": 402.17,
+  "text": "set the right work state"
+ },
+ {
+  "start": 402.18,
+  "end": 405.35,
+  "text": "okay so once I set it to completed and"
+ },
+ {
+  "start": 405.36,
+  "end": 407.629,
+  "text": "then I go back here now the coverage"
+ },
+ {
+  "start": 407.639,
+  "end": 410.21,
+  "text": "specified is 100 and the execution is"
+ },
+ {
+  "start": 410.22,
+  "end": 411.95,
+  "text": "also higher right"
+ },
+ {
+  "start": 411.96,
+  "end": 414.95,
+  "text": "so that's the impact it has if you don't"
+ },
+ {
+  "start": 414.96,
+  "end": 416.93,
+  "text": "set the correct work state for your test"
+ },
+ {
+  "start": 416.94,
+  "end": 419.33,
+  "text": "cases and that's why it is one of the"
+ },
+ {
+  "start": 419.34,
+  "end": 422.029,
+  "text": "most important uh best practices which"
+ },
+ {
+  "start": 422.039,
+  "end": 423.95,
+  "text": "you should follow whenever you are"
+ },
+ {
+  "start": 423.96,
+  "end": 426.65,
+  "text": "working in a team or you have got the"
+ },
+ {
+  "start": 426.66,
+  "end": 429.65,
+  "text": "requirements linked to your test cases"
+ },
+ {
+  "start": 429.66,
+  "end": 431.629,
+  "text": "so that's all for this particular video"
+ },
+ {
+  "start": 431.639,
+  "end": 433.79,
+  "text": "I hope you enjoyed it and you learned"
+ },
+ {
+  "start": 433.8,
+  "end": 435.89,
+  "text": "something new today uh there are lots"
+ },
+ {
+  "start": 435.9,
+  "end": 437.87,
+  "text": "more videos coming up so keep watching"
+ },
+ {
+  "start": 437.88,
+  "end": 440.51,
+  "text": "so until we speak again keep watching"
+ },
+ {
+  "start": 440.52,
+  "end": 443.84,
+  "text": "and keep learning Tosca"
+ }
+]

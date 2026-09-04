@@ -1,0 +1,337 @@
+[
+ {
+  "start": 8.81,
+  "end": 8.82,
+  "text": "hey everyone welcome back to our Channel"
+ },
+ {
+  "start": 8.82,
+  "end": 11.39,
+  "text": "I am back with another interesting topic"
+ },
+ {
+  "start": 11.4,
+  "end": 15.11,
+  "text": "in the Tosca automation playlist"
+ },
+ {
+  "start": 15.12,
+  "end": 17.09,
+  "text": "now we have already seen how we can"
+ },
+ {
+  "start": 17.1,
+  "end": 20.39,
+  "text": "execute our test cases manually by going"
+ },
+ {
+  "start": 20.4,
+  "end": 22.189,
+  "text": "through each step and verifying it"
+ },
+ {
+  "start": 22.199,
+  "end": 25.25,
+  "text": "manually on the system under test but"
+ },
+ {
+  "start": 25.26,
+  "end": 27.95,
+  "text": "there is also a way through which you"
+ },
+ {
+  "start": 27.96,
+  "end": 32.03,
+  "text": "can directly set your automation result"
+ },
+ {
+  "start": 32.04,
+  "end": 35.69,
+  "text": "to either pass field or no result for"
+ },
+ {
+  "start": 35.7,
+  "end": 38.51,
+  "text": "the specific execution entry"
+ },
+ {
+  "start": 38.52,
+  "end": 40.97,
+  "text": "so let's see how you can do this"
+ },
+ {
+  "start": 40.98,
+  "end": 44.389,
+  "text": "so if you go ahead and open a particular"
+ },
+ {
+  "start": 44.399,
+  "end": 46.67,
+  "text": "execution list and then you go to the"
+ },
+ {
+  "start": 46.68,
+  "end": 48.229,
+  "text": "execution entry"
+ },
+ {
+  "start": 48.239,
+  "end": 52.369,
+  "text": "here uh currently it is set to pass but"
+ },
+ {
+  "start": 52.379,
+  "end": 55.85,
+  "text": "if I want I can set this manually to"
+ },
+ {
+  "start": 55.86,
+  "end": 59.029,
+  "text": "either past field or no result so when"
+ },
+ {
+  "start": 59.039,
+  "end": 60.95,
+  "text": "you right click on the execution entry"
+ },
+ {
+  "start": 60.96,
+  "end": 64.789,
+  "text": "you see a option called set result"
+ },
+ {
+  "start": 64.799,
+  "end": 66.59,
+  "text": "now there are three options as I said"
+ },
+ {
+  "start": 66.6,
+  "end": 68.75,
+  "text": "that is passed there is failed and no"
+ },
+ {
+  "start": 68.76,
+  "end": 73.19,
+  "text": "result so I can set this to no result"
+ },
+ {
+  "start": 73.2,
+  "end": 77.03,
+  "text": "and then it will ask me for a comment so"
+ },
+ {
+  "start": 77.04,
+  "end": 82.789,
+  "text": "I can say manually set to no result"
+ },
+ {
+  "start": 85.07,
+  "end": 85.08,
+  "text": "and then I can click on OK"
+ },
+ {
+  "start": 85.08,
+  "end": 87.83,
+  "text": "and you will see that the recent"
+ },
+ {
+  "start": 87.84,
+  "end": 90.59,
+  "text": "execution will be set to no result"
+ },
+ {
+  "start": 90.6,
+  "end": 94.07,
+  "text": "also in the log info you will see who"
+ },
+ {
+  "start": 94.08,
+  "end": 97.31,
+  "text": "has set this particular result so it was"
+ },
+ {
+  "start": 97.32,
+  "end": 99.109,
+  "text": "set by admin"
+ },
+ {
+  "start": 99.119,
+  "end": 101.63,
+  "text": "and it will also show you the specific"
+ },
+ {
+  "start": 101.64,
+  "end": 103.85,
+  "text": "comment so manually set to no result"
+ },
+ {
+  "start": 103.86,
+  "end": 105.95,
+  "text": "okay"
+ },
+ {
+  "start": 105.96,
+  "end": 109.85,
+  "text": "similarly I can go ahead and again set"
+ },
+ {
+  "start": 109.86,
+  "end": 112.55,
+  "text": "this result to field"
+ },
+ {
+  "start": 112.56,
+  "end": 116.749,
+  "text": "and then I am going to see manually set"
+ },
+ {
+  "start": 116.759,
+  "end": 120.71,
+  "text": "to field"
+ },
+ {
+  "start": 123.95,
+  "end": 123.96,
+  "text": "okay and again you will see uh this test"
+ },
+ {
+  "start": 123.96,
+  "end": 126.41,
+  "text": "case will now be filled in the login"
+ },
+ {
+  "start": 126.42,
+  "end": 128.449,
+  "text": "flow also it will be highlighted that"
+ },
+ {
+  "start": 128.459,
+  "end": 132.25,
+  "text": "this whole test case has failed it will"
+ },
+ {
+  "start": 132.26,
+  "end": 135.11,
+  "text": "enter it into the start time into the"
+ },
+ {
+  "start": 135.12,
+  "end": 139.55,
+  "text": "logs and also it will specify which user"
+ },
+ {
+  "start": 139.56,
+  "end": 142.13,
+  "text": "has done that and why he has done that"
+ },
+ {
+  "start": 142.14,
+  "end": 143.809,
+  "text": "in the comments"
+ },
+ {
+  "start": 143.819,
+  "end": 146.69,
+  "text": "so it's a pretty uh easy and quick way"
+ },
+ {
+  "start": 146.7,
+  "end": 149.27,
+  "text": "of manually setting a particular result"
+ },
+ {
+  "start": 149.28,
+  "end": 152.449,
+  "text": "for your test cases in execution lists"
+ },
+ {
+  "start": 152.459,
+  "end": 155.03,
+  "text": "this could be useful uh during releases"
+ },
+ {
+  "start": 155.04,
+  "end": 158.809,
+  "text": "when you want to start freshly for a"
+ },
+ {
+  "start": 158.819,
+  "end": 160.91,
+  "text": "particular test case you want to set it"
+ },
+ {
+  "start": 160.92,
+  "end": 165.05,
+  "text": "to no result or maybe you have tested"
+ },
+ {
+  "start": 165.06,
+  "end": 166.55,
+  "text": "that particular feature in your"
+ },
+ {
+  "start": 166.56,
+  "end": 168.71,
+  "text": "application and you found it is not"
+ },
+ {
+  "start": 168.72,
+  "end": 170.69,
+  "text": "working so you manually set this test"
+ },
+ {
+  "start": 170.7,
+  "end": 172.07,
+  "text": "case to field"
+ },
+ {
+  "start": 172.08,
+  "end": 174.949,
+  "text": "so this way you can modify the result of"
+ },
+ {
+  "start": 174.959,
+  "end": 177.77,
+  "text": "any particular execution entry in your"
+ },
+ {
+  "start": 177.78,
+  "end": 180.65,
+  "text": "execution lists"
+ },
+ {
+  "start": 180.66,
+  "end": 183.41,
+  "text": "that's all for this particular video if"
+ },
+ {
+  "start": 183.42,
+  "end": 185.21,
+  "text": "you have any questions then please leave"
+ },
+ {
+  "start": 185.22,
+  "end": 187.55,
+  "text": "it in the comments if you like this"
+ },
+ {
+  "start": 187.56,
+  "end": 189.29,
+  "text": "video then please subscribe to our"
+ },
+ {
+  "start": 189.3,
+  "end": 190.309,
+  "text": "Channel"
+ },
+ {
+  "start": 190.319,
+  "end": 192.53,
+  "text": "thanks for watching and I will see you"
+ },
+ {
+  "start": 192.54,
+  "end": 195.319,
+  "text": "in the next video"
+ }
+]

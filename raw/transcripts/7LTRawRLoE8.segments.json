@@ -1,0 +1,1007 @@
+[
+ {
+  "start": 5.03,
+  "end": 5.04,
+  "text": "hey everyone welcome back to another"
+ },
+ {
+  "start": 5.04,
+  "end": 7.749,
+  "text": "lesson in this car automation course"
+ },
+ {
+  "start": 7.759,
+  "end": 10.07,
+  "text": "so in the last video i showed you how"
+ },
+ {
+  "start": 10.08,
+  "end": 12.549,
+  "text": "you can use random values in your test"
+ },
+ {
+  "start": 12.559,
+  "end": 15.509,
+  "text": "steps in order to make your test dynamic"
+ },
+ {
+  "start": 15.519,
+  "end": 17.67,
+  "text": "right but in the process we also came"
+ },
+ {
+  "start": 17.68,
+  "end": 19.59,
+  "text": "across an issue"
+ },
+ {
+  "start": 19.6,
+  "end": 22.23,
+  "text": "where it was not able to perform a"
+ },
+ {
+  "start": 22.24,
+  "end": 24.07,
+  "text": "particular operation on one of the"
+ },
+ {
+  "start": 24.08,
+  "end": 27.349,
+  "text": "controls and hence the test failed right"
+ },
+ {
+  "start": 27.359,
+  "end": 28.39,
+  "text": "so"
+ },
+ {
+  "start": 28.4,
+  "end": 30.71,
+  "text": "the reason for this failure was more"
+ },
+ {
+  "start": 30.72,
+  "end": 33.99,
+  "text": "than one control was found for that same"
+ },
+ {
+  "start": 34.0,
+  "end": 35.11,
+  "text": "particular"
+ },
+ {
+  "start": 35.12,
+  "end": 37.99,
+  "text": "element right and hence it was not able"
+ },
+ {
+  "start": 38.0,
+  "end": 40.709,
+  "text": "to perform that particular operation"
+ },
+ {
+  "start": 40.719,
+  "end": 41.51,
+  "text": "so"
+ },
+ {
+  "start": 41.52,
+  "end": 45.19,
+  "text": "the element in contention was a radio"
+ },
+ {
+  "start": 45.2,
+  "end": 48.79,
+  "text": "button right so"
+ },
+ {
+  "start": 50.229,
+  "end": 50.239,
+  "text": "there are two radio buttons in the"
+ },
+ {
+  "start": 50.239,
+  "end": 53.11,
+  "text": "application and both had the same"
+ },
+ {
+  "start": 53.12,
+  "end": 55.43,
+  "text": "technical properties right and hence"
+ },
+ {
+  "start": 55.44,
+  "end": 57.83,
+  "text": "tosca was not able to decide which radio"
+ },
+ {
+  "start": 57.84,
+  "end": 60.15,
+  "text": "button it should click on"
+ },
+ {
+  "start": 60.16,
+  "end": 62.549,
+  "text": "it so to resolve this kind of issues"
+ },
+ {
+  "start": 62.559,
+  "end": 64.789,
+  "text": "right you have to"
+ },
+ {
+  "start": 64.799,
+  "end": 67.19,
+  "text": "add more technical properties into your"
+ },
+ {
+  "start": 67.2,
+  "end": 69.27,
+  "text": "elements right so"
+ },
+ {
+  "start": 69.28,
+  "end": 71.03,
+  "text": "whenever you are trying to scan your"
+ },
+ {
+  "start": 71.04,
+  "end": 73.67,
+  "text": "modules and if you come across some"
+ },
+ {
+  "start": 73.68,
+  "end": 76.71,
+  "text": "elements which is not unique right or"
+ },
+ {
+  "start": 76.72,
+  "end": 78.07,
+  "text": "which is not"
+ },
+ {
+  "start": 78.08,
+  "end": 79.83,
+  "text": "where toska is not able to uniquely"
+ },
+ {
+  "start": 79.84,
+  "end": 81.91,
+  "text": "identify that element you need to add"
+ },
+ {
+  "start": 81.92,
+  "end": 84.71,
+  "text": "additional properties okay"
+ },
+ {
+  "start": 84.72,
+  "end": 87.19,
+  "text": "or you need to change the identifying"
+ },
+ {
+  "start": 87.2,
+  "end": 89.83,
+  "text": "mechanism okay so in this case we are"
+ },
+ {
+  "start": 89.84,
+  "end": 92.149,
+  "text": "going to add another property which is a"
+ },
+ {
+  "start": 92.159,
+  "end": 94.39,
+  "text": "technical property which will make this"
+ },
+ {
+  "start": 94.4,
+  "end": 96.149,
+  "text": "control unique"
+ },
+ {
+  "start": 96.159,
+  "end": 98.95,
+  "text": "and how we can do that we can do that by"
+ },
+ {
+  "start": 98.96,
+  "end": 101.35,
+  "text": "rescanning our module okay"
+ },
+ {
+  "start": 101.36,
+  "end": 103.51,
+  "text": "so tosca provides you"
+ },
+ {
+  "start": 103.52,
+  "end": 107.27,
+  "text": "a way to rescan all your modules so that"
+ },
+ {
+  "start": 107.28,
+  "end": 109.109,
+  "text": "if there are any changes in any"
+ },
+ {
+  "start": 109.119,
+  "end": 111.83,
+  "text": "particular control or some control is"
+ },
+ {
+  "start": 111.84,
+  "end": 113.109,
+  "text": "not able to"
+ },
+ {
+  "start": 113.119,
+  "end": 115.59,
+  "text": "identify right then you can rescan the"
+ },
+ {
+  "start": 115.6,
+  "end": 118.469,
+  "text": "module you can change the controls or"
+ },
+ {
+  "start": 118.479,
+  "end": 120.469,
+  "text": "you can add additional properties to"
+ },
+ {
+  "start": 120.479,
+  "end": 123.59,
+  "text": "your controls so that your tests are"
+ },
+ {
+  "start": 123.6,
+  "end": 126.789,
+  "text": "running successfully right"
+ },
+ {
+  "start": 126.799,
+  "end": 129.27,
+  "text": "so let's go to our module and this is"
+ },
+ {
+  "start": 129.28,
+  "end": 131.99,
+  "text": "our module right so"
+ },
+ {
+  "start": 132.0,
+  "end": 134.71,
+  "text": "select it and right click and there you"
+ },
+ {
+  "start": 134.72,
+  "end": 138.309,
+  "text": "will find an option called rescan okay"
+ },
+ {
+  "start": 138.319,
+  "end": 141.43,
+  "text": "so click on that and it should open up a"
+ },
+ {
+  "start": 141.44,
+  "end": 142.39,
+  "text": "window"
+ },
+ {
+  "start": 142.4,
+  "end": 144.63,
+  "text": "where it will show you all the"
+ },
+ {
+  "start": 144.64,
+  "end": 147.91,
+  "text": "properties for your elements right"
+ },
+ {
+  "start": 147.92,
+  "end": 150.949,
+  "text": "but before that i should have opened the"
+ },
+ {
+  "start": 150.959,
+  "end": 153.11,
+  "text": "application otherwise you will see there"
+ },
+ {
+  "start": 153.12,
+  "end": 155.03,
+  "text": "is no window found right"
+ },
+ {
+  "start": 155.04,
+  "end": 158.15,
+  "text": "so let me just open up that particular"
+ },
+ {
+  "start": 158.16,
+  "end": 162.79,
+  "text": "application"
+ },
+ {
+  "start": 165.75,
+  "end": 165.76,
+  "text": "okay so this was the page which we were"
+ },
+ {
+  "start": 165.76,
+  "end": 167.589,
+  "text": "trying to work upon and this was the"
+ },
+ {
+  "start": 167.599,
+  "end": 169.75,
+  "text": "control the radio button which was not"
+ },
+ {
+  "start": 169.76,
+  "end": 172.15,
+  "text": "working okay"
+ },
+ {
+  "start": 172.16,
+  "end": 173.19,
+  "text": "so"
+ },
+ {
+  "start": 173.2,
+  "end": 174.229,
+  "text": "let me"
+ },
+ {
+  "start": 174.239,
+  "end": 181.27,
+  "text": "scan this again"
+ },
+ {
+  "start": 184.149,
+  "end": 184.159,
+  "text": "okay so once i refresh it now you will"
+ },
+ {
+  "start": 184.159,
+  "end": 187.19,
+  "text": "see um it will show up all the elements"
+ },
+ {
+  "start": 187.2,
+  "end": 189.19,
+  "text": "which were selected and also the"
+ },
+ {
+  "start": 189.2,
+  "end": 190.47,
+  "text": "elements other elements which are"
+ },
+ {
+  "start": 190.48,
+  "end": 193.19,
+  "text": "present in this application okay"
+ },
+ {
+  "start": 193.2,
+  "end": 195.11,
+  "text": "and the control which we are talking"
+ },
+ {
+  "start": 195.12,
+  "end": 198.07,
+  "text": "about is this particular radio button"
+ },
+ {
+  "start": 198.08,
+  "end": 200.07,
+  "text": "now if i select this radio button you"
+ },
+ {
+  "start": 200.08,
+  "end": 202.309,
+  "text": "will see a orange pad being displayed"
+ },
+ {
+  "start": 202.319,
+  "end": 204.949,
+  "text": "here which means the selected item is"
+ },
+ {
+  "start": 204.959,
+  "end": 207.19,
+  "text": "not unique the message is given"
+ },
+ {
+  "start": 207.2,
+  "end": 208.71,
+  "text": "right at the bottom"
+ },
+ {
+  "start": 208.72,
+  "end": 211.35,
+  "text": "where you can easily see which controls"
+ },
+ {
+  "start": 211.36,
+  "end": 213.75,
+  "text": "are unique and which controls are not"
+ },
+ {
+  "start": 213.76,
+  "end": 215.35,
+  "text": "unique right"
+ },
+ {
+  "start": 215.36,
+  "end": 217.35,
+  "text": "once you select this control"
+ },
+ {
+  "start": 217.36,
+  "end": 219.99,
+  "text": "you will see here that uh the properties"
+ },
+ {
+  "start": 220.0,
+  "end": 222.869,
+  "text": "are being displayed here right so"
+ },
+ {
+  "start": 222.879,
+  "end": 224.71,
+  "text": "we should be taking care of the"
+ },
+ {
+  "start": 224.72,
+  "end": 226.63,
+  "text": "technical properties because that's the"
+ },
+ {
+  "start": 226.64,
+  "end": 228.949,
+  "text": "properties which is used by tosca in"
+ },
+ {
+  "start": 228.959,
+  "end": 231.91,
+  "text": "order to identify your element right so"
+ },
+ {
+  "start": 231.92,
+  "end": 233.429,
+  "text": "you can see there are two properties"
+ },
+ {
+  "start": 233.439,
+  "end": 235.99,
+  "text": "currently selected one is name"
+ },
+ {
+  "start": 236.0,
+  "end": 237.589,
+  "text": "and one is tag"
+ },
+ {
+  "start": 237.599,
+  "end": 239.589,
+  "text": "but using these two technical properties"
+ },
+ {
+  "start": 239.599,
+  "end": 241.91,
+  "text": "it is not able to identify your element"
+ },
+ {
+  "start": 241.92,
+  "end": 242.71,
+  "text": "right"
+ },
+ {
+  "start": 242.72,
+  "end": 243.429,
+  "text": "so"
+ },
+ {
+  "start": 243.439,
+  "end": 246.149,
+  "text": "you can choose some more properties here"
+ },
+ {
+  "start": 246.159,
+  "end": 247.91,
+  "text": "right so that is checked there is"
+ },
+ {
+  "start": 247.92,
+  "end": 250.949,
+  "text": "disabled there is read only but you need"
+ },
+ {
+  "start": 250.959,
+  "end": 253.27,
+  "text": "to be wise enough to choose the right"
+ },
+ {
+  "start": 253.28,
+  "end": 255.83,
+  "text": "kind of property okay so just uh don't"
+ },
+ {
+  "start": 255.84,
+  "end": 258.39,
+  "text": "go ahead and select any property but"
+ },
+ {
+  "start": 258.4,
+  "end": 260.39,
+  "text": "choose the property which makes sense"
+ },
+ {
+  "start": 260.4,
+  "end": 262.95,
+  "text": "right uh through which the tosca tool"
+ },
+ {
+  "start": 262.96,
+  "end": 264.71,
+  "text": "can identify that particular element"
+ },
+ {
+  "start": 264.72,
+  "end": 267.51,
+  "text": "right something like id name or anything"
+ },
+ {
+  "start": 267.52,
+  "end": 268.71,
+  "text": "right"
+ },
+ {
+  "start": 268.72,
+  "end": 270.71,
+  "text": "so in our case the name and tag is"
+ },
+ {
+  "start": 270.72,
+  "end": 273.03,
+  "text": "already selected so i'll go ahead and"
+ },
+ {
+  "start": 273.04,
+  "end": 275.43,
+  "text": "select this value okay"
+ },
+ {
+  "start": 275.44,
+  "end": 277.67,
+  "text": "and once i select this value you will"
+ },
+ {
+  "start": 277.68,
+  "end": 279.749,
+  "text": "see now the message has changed the"
+ },
+ {
+  "start": 279.759,
+  "end": 282.55,
+  "text": "orange color sign has gone which means"
+ },
+ {
+  "start": 282.56,
+  "end": 285.749,
+  "text": "my selected item is unique now right so"
+ },
+ {
+  "start": 285.759,
+  "end": 287.909,
+  "text": "using these three properties it is"
+ },
+ {
+  "start": 287.919,
+  "end": 290.469,
+  "text": "uniquely able to identify this element"
+ },
+ {
+  "start": 290.479,
+  "end": 292.629,
+  "text": "right"
+ },
+ {
+  "start": 292.639,
+  "end": 295.67,
+  "text": "so once it's this is done right uh now i"
+ },
+ {
+  "start": 295.68,
+  "end": 298.07,
+  "text": "can click on save so that it can"
+ },
+ {
+  "start": 298.08,
+  "end": 301.27,
+  "text": "save the changes and close this window"
+ },
+ {
+  "start": 301.28,
+  "end": 302.23,
+  "text": "okay"
+ },
+ {
+  "start": 302.24,
+  "end": 304.31,
+  "text": "now let's go back to our module and you"
+ },
+ {
+  "start": 304.32,
+  "end": 307.11,
+  "text": "will see it has added another control"
+ },
+ {
+  "start": 307.12,
+  "end": 309.59,
+  "text": "here right so it has not edited the"
+ },
+ {
+  "start": 309.6,
+  "end": 311.67,
+  "text": "previous control which was added but it"
+ },
+ {
+  "start": 311.68,
+  "end": 314.23,
+  "text": "has added new control and you can also"
+ },
+ {
+  "start": 314.24,
+  "end": 315.909,
+  "text": "check the properties here there is an"
+ },
+ {
+  "start": 315.919,
+  "end": 319.11,
+  "text": "additional property called value right"
+ },
+ {
+  "start": 319.12,
+  "end": 320.31,
+  "text": "so"
+ },
+ {
+  "start": 320.32,
+  "end": 322.55,
+  "text": "what i can do here is i can change the"
+ },
+ {
+  "start": 322.56,
+  "end": 324.23,
+  "text": "name of this property so that i can"
+ },
+ {
+  "start": 324.24,
+  "end": 326.23,
+  "text": "identify which control i am working with"
+ },
+ {
+  "start": 326.24,
+  "end": 329.27,
+  "text": "right i will also go ahead and delete"
+ },
+ {
+  "start": 329.28,
+  "end": 331.909,
+  "text": "this particular control here right"
+ },
+ {
+  "start": 331.919,
+  "end": 332.71,
+  "text": "so"
+ },
+ {
+  "start": 332.72,
+  "end": 334.87,
+  "text": "it will give me some warning"
+ },
+ {
+  "start": 334.88,
+  "end": 336.79,
+  "text": "because it is already being used in one"
+ },
+ {
+  "start": 336.8,
+  "end": 339.43,
+  "text": "of my test step but i will go ahead and"
+ },
+ {
+  "start": 339.44,
+  "end": 341.83,
+  "text": "delete this right so that i am using the"
+ },
+ {
+  "start": 341.84,
+  "end": 344.87,
+  "text": "right control in my module and the same"
+ },
+ {
+  "start": 344.88,
+  "end": 347.35,
+  "text": "thing happens in my test case"
+ },
+ {
+  "start": 347.36,
+  "end": 348.15,
+  "text": "okay"
+ },
+ {
+  "start": 348.16,
+  "end": 350.23,
+  "text": "now if i come to test case"
+ },
+ {
+  "start": 350.24,
+  "end": 352.23,
+  "text": "i need to perform some action on this"
+ },
+ {
+  "start": 352.24,
+  "end": 354.55,
+  "text": "particular test step right uh this is"
+ },
+ {
+  "start": 354.56,
+  "end": 356.71,
+  "text": "the new control which i have added"
+ },
+ {
+  "start": 356.72,
+  "end": 357.59,
+  "text": "so"
+ },
+ {
+  "start": 357.6,
+  "end": 362.469,
+  "text": "let me go and click this right"
+ },
+ {
+  "start": 365.35,
+  "end": 365.36,
+  "text": "um there is some error here this is"
+ },
+ {
+  "start": 365.36,
+  "end": 367.43,
+  "text": "probably because we have deleted that"
+ },
+ {
+  "start": 367.44,
+  "end": 370.15,
+  "text": "particular control so let's go ahead and"
+ },
+ {
+  "start": 370.16,
+  "end": 372.07,
+  "text": "delete this step right so these are all"
+ },
+ {
+  "start": 372.08,
+  "end": 375.909,
+  "text": "the steps which we require in our test"
+ },
+ {
+  "start": 375.919,
+  "end": 376.95,
+  "text": "okay so"
+ },
+ {
+  "start": 376.96,
+  "end": 379.51,
+  "text": "once you do that right"
+ },
+ {
+  "start": 379.52,
+  "end": 382.23,
+  "text": "we can now try and run this particular"
+ },
+ {
+  "start": 382.24,
+  "end": 383.43,
+  "text": "test again"
+ },
+ {
+  "start": 383.44,
+  "end": 385.59,
+  "text": "and see whether we are able to identify"
+ },
+ {
+  "start": 385.6,
+  "end": 386.87,
+  "text": "the"
+ },
+ {
+  "start": 386.88,
+  "end": 389.83,
+  "text": "control uniquely or not okay"
+ },
+ {
+  "start": 389.84,
+  "end": 395.029,
+  "text": "so go to scratchbook and run it there"
+ },
+ {
+  "start": 395.039,
+  "end": 397.35,
+  "text": "let me close this window so that it"
+ },
+ {
+  "start": 397.36,
+  "end": 399.35,
+  "text": "opens up a fresh window"
+ },
+ {
+  "start": 399.36,
+  "end": 401.43,
+  "text": "and now you will see the mouse pointer"
+ },
+ {
+  "start": 401.44,
+  "end": 404.309,
+  "text": "went to the right control right"
+ },
+ {
+  "start": 404.319,
+  "end": 407.67,
+  "text": "so there was no error right now because"
+ },
+ {
+  "start": 407.68,
+  "end": 410.23,
+  "text": "tosca is able to identify the control"
+ },
+ {
+  "start": 410.24,
+  "end": 412.309,
+  "text": "by using an additional technical"
+ },
+ {
+  "start": 412.319,
+  "end": 413.35,
+  "text": "property"
+ },
+ {
+  "start": 413.36,
+  "end": 415.99,
+  "text": "and the test passed right"
+ },
+ {
+  "start": 416.0,
+  "end": 417.749,
+  "text": "so the application the account was"
+ },
+ {
+  "start": 417.759,
+  "end": 420.15,
+  "text": "created successfully and all the test"
+ },
+ {
+  "start": 420.16,
+  "end": 423.189,
+  "text": "steps also passed right"
+ },
+ {
+  "start": 423.199,
+  "end": 425.11,
+  "text": "so this is a very"
+ },
+ {
+  "start": 425.12,
+  "end": 427.43,
+  "text": "important thing whenever you are trying"
+ },
+ {
+  "start": 427.44,
+  "end": 429.909,
+  "text": "to automate any application using tosca"
+ },
+ {
+  "start": 429.919,
+  "end": 432.469,
+  "text": "because you will come across"
+ },
+ {
+  "start": 432.479,
+  "end": 434.87,
+  "text": "many applications where you will face"
+ },
+ {
+  "start": 434.88,
+  "end": 438.07,
+  "text": "this challenge where there are many"
+ },
+ {
+  "start": 438.08,
+  "end": 439.83,
+  "text": "controls which have the same technical"
+ },
+ {
+  "start": 439.84,
+  "end": 442.39,
+  "text": "properties so the first time you scan"
+ },
+ {
+  "start": 442.4,
+  "end": 444.79,
+  "text": "your application uh you might not get"
+ },
+ {
+  "start": 444.8,
+  "end": 448.95,
+  "text": "all unique elements okay so tosca can"
+ },
+ {
+  "start": 448.96,
+  "end": 451.189,
+  "text": "identify some elements uniquely but it"
+ },
+ {
+  "start": 451.199,
+  "end": 453.51,
+  "text": "may not identify all the elements"
+ },
+ {
+  "start": 453.52,
+  "end": 456.23,
+  "text": "uniquely okay so you need to add some"
+ },
+ {
+  "start": 456.24,
+  "end": 457.749,
+  "text": "additional technical properties which"
+ },
+ {
+  "start": 457.759,
+  "end": 460.469,
+  "text": "are provided by tosca so that"
+ },
+ {
+  "start": 460.479,
+  "end": 463.11,
+  "text": "those controls can be identified"
+ },
+ {
+  "start": 463.12,
+  "end": 465.99,
+  "text": "uniquely when you are running your test"
+ },
+ {
+  "start": 466.0,
+  "end": 467.589,
+  "text": "okay"
+ },
+ {
+  "start": 467.599,
+  "end": 469.67,
+  "text": "so this is how you can rescan your"
+ },
+ {
+  "start": 469.68,
+  "end": 471.749,
+  "text": "module how you can"
+ },
+ {
+  "start": 471.759,
+  "end": 473.83,
+  "text": "add some more technical properties to"
+ },
+ {
+  "start": 473.84,
+  "end": 476.309,
+  "text": "your controls and then run your test"
+ },
+ {
+  "start": 476.319,
+  "end": 479.319,
+  "text": "successfully"
+ }
+]

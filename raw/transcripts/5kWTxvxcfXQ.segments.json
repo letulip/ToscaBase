@@ -1,0 +1,367 @@
+[
+ {
+  "start": 5.62,
+  "end": 17.39,
+  "text": "Hello friends."
+ },
+ {
+  "start": 17.39,
+  "end": 19.71,
+  "text": "Welcome back to our channel."
+ },
+ {
+  "start": 19.71,
+  "end": 23.67,
+  "text": "I am your Tosca instructor and my name is Kumaresh."
+ },
+ {
+  "start": 23.67,
+  "end": 30.55,
+  "text": "I have total 14 years of IT experience in software development and test automation."
+ },
+ {
+  "start": 30.55,
+  "end": 33.99,
+  "text": "Thank you for connecting with us."
+ },
+ {
+  "start": 33.99,
+  "end": 36.63,
+  "text": "Hope you are doing well."
+ },
+ {
+  "start": 36.63,
+  "end": 39.51,
+  "text": "Let's start our today's session."
+ },
+ {
+  "start": 39.51,
+  "end": 45.55,
+  "text": "Through this video, I will explain the overview of Tosca library, concept of reusable test"
+ },
+ {
+  "start": 45.55,
+  "end": 50.31,
+  "text": "step block, and business parameters."
+ },
+ {
+  "start": 50.31,
+  "end": 57.38,
+  "text": "The explanation of reusable test step block creation will be done through demonstration."
+ },
+ {
+  "start": 57.38,
+  "end": 62.68,
+  "text": "To understand the Tosca library completely, we need to understand few more related concepts"
+ },
+ {
+  "start": 62.68,
+  "end": 64.6,
+  "text": "in Tosca."
+ },
+ {
+  "start": 64.6,
+  "end": 71.04,
+  "text": "Such as, test step block is a grouping of test steps to perform a specific task such"
+ },
+ {
+  "start": 71.04,
+  "end": 75.28,
+  "text": "as login, logout, create record, etc."
+ },
+ {
+  "start": 75.28,
+  "end": 80.26,
+  "text": "The test step block can be created using the test case level folder."
+ },
+ {
+  "start": 80.26,
+  "end": 86.96,
+  "text": "It helps to increase the readability and reduces the efforts for maintenance."
+ },
+ {
+  "start": 86.96,
+  "end": 91.76,
+  "text": "Library is acted as a container of reusable test step blocks."
+ },
+ {
+  "start": 91.76,
+  "end": 96.52,
+  "text": "The library can be created within any folder available in test case section."
+ },
+ {
+  "start": 96.52,
+  "end": 102.08,
+  "text": "But, more than one library cannot be created within single folder."
+ },
+ {
+  "start": 102.08,
+  "end": 109.43,
+  "text": "The icon of the library is similar to test case folder with symbol, L."
+ },
+ {
+  "start": 109.43,
+  "end": 114.31,
+  "text": "Reusable test step block when we define a test step block within the library section,"
+ },
+ {
+  "start": 114.31,
+  "end": 117.67,
+  "text": "it's acted as reusable test step block."
+ },
+ {
+  "start": 117.67,
+  "end": 120.71,
+  "text": "We can create it in two ways."
+ },
+ {
+  "start": 120.91,
+  "end": 126.17,
+  "text": "Such as either, new reusable test step block creation in library or convert existing test"
+ },
+ {
+  "start": 126.17,
+  "end": 133.7,
+  "text": "step block by drag and dropping any existing test step block into library."
+ },
+ {
+  "start": 133.7,
+  "end": 138.74,
+  "text": "Business parameter, it's an approach to pass test data into the reusable test step block"
+ },
+ {
+  "start": 138.74,
+  "end": 140.82,
+  "text": "through this parameter."
+ },
+ {
+  "start": 140.82,
+  "end": 145.18,
+  "text": "With the help of business parameters, we can use the reusable test step block"
+ },
+ {
+  "start": 145.18,
+  "end": 148.7,
+  "text": "for a different set of test data."
+ },
+ {
+  "start": 149.06,
+  "end": 154.54,
+  "text": "Now, I will show how to create the library reusable test step blocks with business parameters"
+ },
+ {
+  "start": 154.54,
+  "end": 158.42,
+  "text": "in an existing automated test case."
+ },
+ {
+  "start": 158.42,
+  "end": 165.42,
+  "text": "We will create the reusable test step block with the test case which was created previously."
+ },
+ {
+  "start": 165.42,
+  "end": 172.26,
+  "text": "First, we will select and check out the the parent folder for modification."
+ },
+ {
+  "start": 172.26,
+  "end": 177.34,
+  "text": "Create the library component by clicking on create test step library icon with L symbol"
+ },
+ {
+  "start": 177.34,
+  "end": 181.49,
+  "text": "after right clicking on the parent folder."
+ },
+ {
+  "start": 181.49,
+  "end": 187.83,
+  "text": "Now right click on library folder and create reusable test step block with a logical name."
+ },
+ {
+  "start": 187.83,
+  "end": 191.97,
+  "text": "We are providing name as Google search as we are going to create reusable test step"
+ },
+ {
+  "start": 191.97,
+  "end": 196.29,
+  "text": "block for Google search functionality."
+ },
+ {
+  "start": 196.29,
+  "end": 201.03,
+  "text": "We will add two test steps by dragging from test case for searching text in Google"
+ },
+ {
+  "start": 201.03,
+  "end": 203.51,
+  "text": "and wait for search result."
+ },
+ {
+  "start": 203.51,
+  "end": 209.97,
+  "text": "We can place this reusable test step block in the test case by drag and drop method."
+ },
+ {
+  "start": 209.97,
+  "end": 214.65,
+  "text": "The next step is to create the business parameter to pass the test data."
+ },
+ {
+  "start": 214.65,
+  "end": 220.49,
+  "text": "In order to do that, first business parameters component to be added."
+ },
+ {
+  "start": 220.49,
+  "end": 224.87,
+  "text": "Then we can create the parameter as search text to pass the search text from test"
+ },
+ {
+  "start": 224.87,
+  "end": 230.71,
+  "text": "case to reusable."
+ },
+ {
+  "start": 230.71,
+  "end": 234.87,
+  "text": "Assign this newly created search text parameter to the test step in reusable"
+ },
+ {
+  "start": 234.87,
+  "end": 240.78,
+  "text": "test step block by drag drop to replace the hard coded test data."
+ },
+ {
+  "start": 241.02,
+  "end": 247.86,
+  "text": "So, the creation of reusable test step block with business parameter is now completed."
+ },
+ {
+  "start": 247.86,
+  "end": 252.58,
+  "text": "Go to the test case and pass the search text tricentistoska in the reference of"
+ },
+ {
+  "start": 252.58,
+  "end": 254.38,
+  "text": "reusable block."
+ },
+ {
+  "start": 254.38,
+  "end": 259.62,
+  "text": "Now, we will see how to parameterize the test data using the test case configuration"
+ },
+ {
+  "start": 259.62,
+  "end": 265.36,
+  "text": "parameter and pass it as business parameter value."
+ },
+ {
+  "start": 265.36,
+  "end": 269.92,
+  "text": "First, go to the test configuration section and create a test configuration"
+ },
+ {
+  "start": 269.92,
+  "end": 277.82,
+  "text": "parameter as search text."
+ },
+ {
+  "start": 277.82,
+  "end": 285.71,
+  "text": "After that assign the value as tricentistoska to this parameter."
+ },
+ {
+  "start": 285.71,
+  "end": 289.59,
+  "text": "Now go to test case details section and select the reference component of"
+ },
+ {
+  "start": 289.59,
+  "end": 300.74,
+  "text": "reusable test step block."
+ },
+ {
+  "start": 300.74,
+  "end": 304.38,
+  "text": "Replace the hard coded value which was passed to reusable component with the"
+ },
+ {
+  "start": 304.38,
+  "end": 313.61,
+  "text": "newly created test configuration parameter search text."
+ },
+ {
+  "start": 313.61,
+  "end": 318.85,
+  "text": "Similarly, we can create multiple test configuration parameters in a test case"
+ },
+ {
+  "start": 318.85,
+  "end": 326.89,
+  "text": "based based on the requirement."
+ },
+ {
+  "start": 326.89,
+  "end": 330.66,
+  "text": "Thanks for watching this video."
+ },
+ {
+  "start": 330.66,
+  "end": 336.02,
+  "text": "That's all about Tosca library, reusable test step block and business parameters"
+ },
+ {
+  "start": 336.02,
+  "end": 339.3,
+  "text": "to manage test data."
+ },
+ {
+  "start": 339.3,
+  "end": 344.57,
+  "text": "We will learn more about Tosca buffers in next video."
+ },
+ {
+  "start": 344.57,
+  "end": 349.53,
+  "text": "Please visit our website lambdageeks.com for more articles on technology,"
+ },
+ {
+  "start": 349.53,
+  "end": 353.61,
+  "text": "engineering, mathematics and various other domain."
+ },
+ {
+  "start": 353.61,
+  "end": 357.65,
+  "text": "You can check our other website as well."
+ },
+ {
+  "start": 357.65,
+  "end": 361.49,
+  "text": "We have features like YouTube trends,"
+ },
+ {
+  "start": 361.49,
+  "end": 364.4,
+  "text": "Twitter trends,"
+ },
+ {
+  "start": 364.4,
+  "end": 370.5,
+  "text": "scientific calculator and many more other tools."
+ },
+ {
+  "start": 370.5,
+  "end": 374.54,
+  "text": "If you like our video, please like, comment and share."
+ },
+ {
+  "start": 374.54,
+  "end": 378.54,
+  "text": "If you have any questions, please comment and we will resolve your query."
+ }
+]

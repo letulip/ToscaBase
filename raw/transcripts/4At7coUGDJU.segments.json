@@ -1,0 +1,1077 @@
+[
+ {
+  "start": 2.55,
+  "end": 2.56,
+  "text": "hello and welcome to another lesson in"
+ },
+ {
+  "start": 2.56,
+  "end": 4.07,
+  "text": "this course"
+ },
+ {
+  "start": 4.08,
+  "end": 6.95,
+  "text": "today we are going to learn about what"
+ },
+ {
+  "start": 6.96,
+  "end": 8.87,
+  "text": "is tosca"
+ },
+ {
+  "start": 8.88,
+  "end": 10.79,
+  "text": "what are the different features of tosca"
+ },
+ {
+  "start": 10.8,
+  "end": 14.47,
+  "text": "which makes it a popular automation tool"
+ },
+ {
+  "start": 14.48,
+  "end": 15.91,
+  "text": "we'll look at all the different"
+ },
+ {
+  "start": 15.92,
+  "end": 17.51,
+  "text": "components which form"
+ },
+ {
+  "start": 17.52,
+  "end": 21.51,
+  "text": "the tosca test automation suit"
+ },
+ {
+  "start": 21.52,
+  "end": 25.349,
+  "text": "and we'll also look at how tosca differs"
+ },
+ {
+  "start": 25.359,
+  "end": 27.91,
+  "text": "from another popular web automation"
+ },
+ {
+  "start": 27.92,
+  "end": 29.029,
+  "text": "testing tool"
+ },
+ {
+  "start": 29.039,
+  "end": 32.549,
+  "text": "which is selenium"
+ },
+ {
+  "start": 34.79,
+  "end": 34.8,
+  "text": "so let's start off by learning more"
+ },
+ {
+  "start": 34.8,
+  "end": 37.43,
+  "text": "about tosca"
+ },
+ {
+  "start": 37.44,
+  "end": 40.549,
+  "text": "in simple terms tosca is a scriptless ai"
+ },
+ {
+  "start": 40.559,
+  "end": 41.35,
+  "text": "based"
+ },
+ {
+  "start": 41.36,
+  "end": 44.31,
+  "text": "no code automation tool for end-to-end"
+ },
+ {
+  "start": 44.32,
+  "end": 44.709,
+  "text": "test"
+ },
+ {
+  "start": 44.719,
+  "end": 48.549,
+  "text": "automation so in tosca"
+ },
+ {
+  "start": 48.559,
+  "end": 51.75,
+  "text": "without writing a single line of code or"
+ },
+ {
+  "start": 51.76,
+  "end": 54.709,
+  "text": "script you can automate any type of"
+ },
+ {
+  "start": 54.719,
+  "end": 56.15,
+  "text": "application"
+ },
+ {
+  "start": 56.16,
+  "end": 59.189,
+  "text": "be it a web application a mobile"
+ },
+ {
+  "start": 59.199,
+  "end": 60.31,
+  "text": "application"
+ },
+ {
+  "start": 60.32,
+  "end": 63.029,
+  "text": "desktop application or you can also"
+ },
+ {
+  "start": 63.039,
+  "end": 63.91,
+  "text": "automate"
+ },
+ {
+  "start": 63.92,
+  "end": 67.109,
+  "text": "api based applications"
+ },
+ {
+  "start": 67.119,
+  "end": 70.23,
+  "text": "it uses artificial intelligence and"
+ },
+ {
+  "start": 70.24,
+  "end": 72.95,
+  "text": "different technologies to identify all"
+ },
+ {
+  "start": 72.96,
+  "end": 73.91,
+  "text": "the elements"
+ },
+ {
+  "start": 73.92,
+  "end": 77.109,
+  "text": "on your application"
+ },
+ {
+  "start": 77.119,
+  "end": 80.149,
+  "text": "also it is a continuous testing platform"
+ },
+ {
+  "start": 80.159,
+  "end": 83.27,
+  "text": "that delivers fast feedback for agile"
+ },
+ {
+  "start": 83.28,
+  "end": 87.03,
+  "text": "and devops so you can integrate your"
+ },
+ {
+  "start": 87.04,
+  "end": 89.35,
+  "text": "tosca test automation suit"
+ },
+ {
+  "start": 89.36,
+  "end": 92.789,
+  "text": "with a ci cd tool like jenkins"
+ },
+ {
+  "start": 92.799,
+  "end": 95.27,
+  "text": "which will deliver fast feedback for"
+ },
+ {
+  "start": 95.28,
+  "end": 98.95,
+  "text": "your agile development teams"
+ },
+ {
+  "start": 101.59,
+  "end": 101.6,
+  "text": "and it will also help you to integrate"
+ },
+ {
+  "start": 101.6,
+  "end": 102.389,
+  "text": "your testing"
+ },
+ {
+  "start": 102.399,
+  "end": 104.95,
+  "text": "with the cicd pipeline in a devops"
+ },
+ {
+  "start": 104.96,
+  "end": 109.83,
+  "text": "environment"
+ },
+ {
+  "start": 112.95,
+  "end": 112.96,
+  "text": "tosca allows us to design functional"
+ },
+ {
+  "start": 112.96,
+  "end": 115.99,
+  "text": "automated end-to-end software test"
+ },
+ {
+  "start": 116.0,
+  "end": 118.23,
+  "text": "across all layers of the enterprise"
+ },
+ {
+  "start": 118.24,
+  "end": 119.67,
+  "text": "architecture"
+ },
+ {
+  "start": 119.68,
+  "end": 123.03,
+  "text": "and what i mean is you can design manual"
+ },
+ {
+  "start": 123.04,
+  "end": 123.83,
+  "text": "tests"
+ },
+ {
+  "start": 123.84,
+  "end": 127.03,
+  "text": "automated tests api tests"
+ },
+ {
+  "start": 127.04,
+  "end": 130.07,
+  "text": "and a lot more across all the layers"
+ },
+ {
+  "start": 130.08,
+  "end": 133.35,
+  "text": "of your application be it the front end"
+ },
+ {
+  "start": 133.36,
+  "end": 137.589,
+  "text": "back end or the api layer"
+ },
+ {
+  "start": 137.599,
+  "end": 139.99,
+  "text": "it also provides real-time risk"
+ },
+ {
+  "start": 140.0,
+  "end": 141.03,
+  "text": "assessment"
+ },
+ {
+  "start": 141.04,
+  "end": 146.71,
+  "text": "with business focused actionable results"
+ },
+ {
+  "start": 149.91,
+  "end": 149.92,
+  "text": "so what you can do with tosca is you can"
+ },
+ {
+  "start": 149.92,
+  "end": 150.229,
+  "text": "do"
+ },
+ {
+  "start": 150.239,
+  "end": 153.27,
+  "text": "a risk assessment so you can create your"
+ },
+ {
+  "start": 153.28,
+  "end": 154.71,
+  "text": "business requirements"
+ },
+ {
+  "start": 154.72,
+  "end": 157.99,
+  "text": "and then you can put a weightage on"
+ },
+ {
+  "start": 158.0,
+  "end": 161.11,
+  "text": "each requirement and then they could be"
+ },
+ {
+  "start": 161.12,
+  "end": 163.27,
+  "text": "linked to different test cases"
+ },
+ {
+  "start": 163.28,
+  "end": 166.63,
+  "text": "and your test reports through which"
+ },
+ {
+  "start": 166.64,
+  "end": 169.589,
+  "text": "you can measure the risk of all your"
+ },
+ {
+  "start": 169.599,
+  "end": 171.11,
+  "text": "test cases"
+ },
+ {
+  "start": 171.12,
+  "end": 174.15,
+  "text": "in a particular release"
+ },
+ {
+  "start": 174.16,
+  "end": 177.11,
+  "text": "it also ensures availability of"
+ },
+ {
+  "start": 177.12,
+  "end": 178.63,
+  "text": "appropriate test data"
+ },
+ {
+  "start": 178.64,
+  "end": 182.149,
+  "text": "at any time so tosca uses"
+ },
+ {
+  "start": 182.159,
+  "end": 185.11,
+  "text": "test data management through which it"
+ },
+ {
+  "start": 185.12,
+  "end": 186.39,
+  "text": "can store"
+ },
+ {
+  "start": 186.4,
+  "end": 189.43,
+  "text": "all the different test cases and the"
+ },
+ {
+  "start": 189.44,
+  "end": 191.03,
+  "text": "test data"
+ },
+ {
+  "start": 191.04,
+  "end": 194.39,
+  "text": "which is available at any point of time"
+ },
+ {
+  "start": 194.4,
+  "end": 196.39,
+  "text": "you can either store it in the same"
+ },
+ {
+  "start": 196.4,
+  "end": 197.43,
+  "text": "database"
+ },
+ {
+  "start": 197.44,
+  "end": 200.63,
+  "text": "where tosca is running"
+ },
+ {
+  "start": 200.64,
+  "end": 202.949,
+  "text": "or you can also set up an external"
+ },
+ {
+  "start": 202.959,
+  "end": 206.63,
+  "text": "database for your test data management"
+ },
+ {
+  "start": 206.64,
+  "end": 208.869,
+  "text": "tosca also helps you to simulate the"
+ },
+ {
+  "start": 208.879,
+  "end": 209.67,
+  "text": "behavior"
+ },
+ {
+  "start": 209.68,
+  "end": 212.39,
+  "text": "of dependent systems if they are"
+ },
+ {
+  "start": 212.4,
+  "end": 213.509,
+  "text": "unavailable"
+ },
+ {
+  "start": 213.519,
+  "end": 216.949,
+  "text": "during your test execution"
+ },
+ {
+  "start": 216.959,
+  "end": 219.35,
+  "text": "so this is done with the help of service"
+ },
+ {
+  "start": 219.36,
+  "end": 220.71,
+  "text": "virtualization"
+ },
+ {
+  "start": 220.72,
+  "end": 224.229,
+  "text": "which is also provided by tosca"
+ },
+ {
+  "start": 224.239,
+  "end": 226.229,
+  "text": "through which you can emulate any"
+ },
+ {
+  "start": 226.239,
+  "end": 227.589,
+  "text": "particular system"
+ },
+ {
+  "start": 227.599,
+  "end": 231.11,
+  "text": "and its behavior so that in case it is"
+ },
+ {
+  "start": 231.12,
+  "end": 232.47,
+  "text": "not available"
+ },
+ {
+  "start": 232.48,
+  "end": 235.11,
+  "text": "you can still go ahead with a test"
+ },
+ {
+  "start": 235.12,
+  "end": 239.75,
+  "text": "execution"
+ },
+ {
+  "start": 241.91,
+  "end": 241.92,
+  "text": "now let's look at some of the features"
+ },
+ {
+  "start": 241.92,
+  "end": 244.71,
+  "text": "which tosca provides"
+ },
+ {
+  "start": 244.72,
+  "end": 247.19,
+  "text": "so tosca provides you with risk based"
+ },
+ {
+  "start": 247.2,
+  "end": 248.07,
+  "text": "testing"
+ },
+ {
+  "start": 248.08,
+  "end": 249.75,
+  "text": "which means you can track your"
+ },
+ {
+  "start": 249.76,
+  "end": 254.07,
+  "text": "requirements based on the risk weightage"
+ },
+ {
+  "start": 254.08,
+  "end": 256.71,
+  "text": "also you can perform load testing on"
+ },
+ {
+  "start": 256.72,
+  "end": 257.99,
+  "text": "your applications"
+ },
+ {
+  "start": 258.0,
+  "end": 261.509,
+  "text": "using the tosca you can perform all the"
+ },
+ {
+  "start": 261.519,
+  "end": 262.39,
+  "text": "activities"
+ },
+ {
+  "start": 262.4,
+  "end": 265.59,
+  "text": "which are part of test management like"
+ },
+ {
+  "start": 265.6,
+  "end": 268.23,
+  "text": "defining your requirements tracking your"
+ },
+ {
+  "start": 268.24,
+  "end": 269.59,
+  "text": "requirements"
+ },
+ {
+  "start": 269.6,
+  "end": 275.749,
+  "text": "performing risk analysis and a lot more"
+ },
+ {
+  "start": 278.55,
+  "end": 278.56,
+  "text": "you can also manage your test data in"
+ },
+ {
+  "start": 278.56,
+  "end": 279.189,
+  "text": "different"
+ },
+ {
+  "start": 279.199,
+  "end": 282.469,
+  "text": "databases either external or on the same"
+ },
+ {
+  "start": 282.479,
+  "end": 285.83,
+  "text": "database"
+ },
+ {
+  "start": 289.27,
+  "end": 289.28,
+  "text": "you can do manual testing and also"
+ },
+ {
+  "start": 289.28,
+  "end": 291.59,
+  "text": "exploratory testing which is provided by"
+ },
+ {
+  "start": 291.6,
+  "end": 293.27,
+  "text": "tosca"
+ },
+ {
+  "start": 293.28,
+  "end": 296.23,
+  "text": "you can also perform api testing using"
+ },
+ {
+  "start": 296.24,
+  "end": 297.35,
+  "text": "the tosca"
+ },
+ {
+  "start": 297.36,
+  "end": 301.11,
+  "text": "automation tool"
+ },
+ {
+  "start": 304.15,
+  "end": 304.16,
+  "text": "you can do a lot of different analysis"
+ },
+ {
+  "start": 304.16,
+  "end": 307.43,
+  "text": "and analytics on different data and test"
+ },
+ {
+  "start": 307.44,
+  "end": 309.189,
+  "text": "cases"
+ },
+ {
+  "start": 309.199,
+  "end": 312.39,
+  "text": "you can take advantage of bi"
+ },
+ {
+  "start": 312.4,
+  "end": 314.79,
+  "text": "and big data while doing all of these"
+ },
+ {
+  "start": 314.8,
+  "end": 318.23,
+  "text": "analysis"
+ },
+ {
+  "start": 320.23,
+  "end": 320.24,
+  "text": "as i explained earlier we can do"
+ },
+ {
+  "start": 320.24,
+  "end": 321.83,
+  "text": "exploratory testing"
+ },
+ {
+  "start": 321.84,
+  "end": 324.87,
+  "text": "and we can also integrate tosca into a"
+ },
+ {
+  "start": 324.88,
+  "end": 326.469,
+  "text": "continuous integration tool"
+ },
+ {
+  "start": 326.479,
+  "end": 330.79,
+  "text": "like jenkins"
+ },
+ {
+  "start": 333.029,
+  "end": 333.039,
+  "text": "we can do service virtualization which"
+ },
+ {
+  "start": 333.039,
+  "end": 333.83,
+  "text": "means"
+ },
+ {
+  "start": 333.84,
+  "end": 336.31,
+  "text": "even though our applications are not"
+ },
+ {
+  "start": 336.32,
+  "end": 337.11,
+  "text": "available"
+ },
+ {
+  "start": 337.12,
+  "end": 340.39,
+  "text": "we can still perform testing on"
+ },
+ {
+  "start": 340.4,
+  "end": 343.11,
+  "text": "these applications which are emulated by"
+ },
+ {
+  "start": 343.12,
+  "end": 345.35,
+  "text": "tosca"
+ },
+ {
+  "start": 345.36,
+  "end": 348.469,
+  "text": "we can do impact analysis with"
+ },
+ {
+  "start": 348.479,
+  "end": 353.51,
+  "text": "the risk-based testing"
+ },
+ {
+  "start": 353.52,
+  "end": 355.27,
+  "text": "now let's look at some of the tosca"
+ },
+ {
+  "start": 355.28,
+  "end": 358.07,
+  "text": "components"
+ },
+ {
+  "start": 361.43,
+  "end": 361.44,
+  "text": "so tosca commander is the main component"
+ },
+ {
+  "start": 361.44,
+  "end": 364.71,
+  "text": "which enables easy creation management"
+ },
+ {
+  "start": 364.72,
+  "end": 367.909,
+  "text": "execution and analysis of the automation"
+ },
+ {
+  "start": 367.919,
+  "end": 372.07,
+  "text": "test cases"
+ },
+ {
+  "start": 374.95,
+  "end": 374.96,
+  "text": "then there is tosca executor which helps"
+ },
+ {
+  "start": 374.96,
+  "end": 375.27,
+  "text": "us"
+ },
+ {
+  "start": 375.28,
+  "end": 377.909,
+  "text": "to execute the test cases on different"
+ },
+ {
+  "start": 377.919,
+  "end": 378.83,
+  "text": "test"
+ },
+ {
+  "start": 378.84,
+  "end": 381.749,
+  "text": "objects there is also tosca x"
+ },
+ {
+  "start": 381.759,
+  "end": 383.99,
+  "text": "scan which basically scans the"
+ },
+ {
+  "start": 384.0,
+  "end": 385.029,
+  "text": "application"
+ },
+ {
+  "start": 385.039,
+  "end": 387.35,
+  "text": "and saves the technical information of"
+ },
+ {
+  "start": 387.36,
+  "end": 388.71,
+  "text": "all the elements"
+ },
+ {
+  "start": 388.72,
+  "end": 390.79,
+  "text": "in different modules which is then used"
+ },
+ {
+  "start": 390.8,
+  "end": 391.83,
+  "text": "to identify"
+ },
+ {
+  "start": 391.84,
+  "end": 395.749,
+  "text": "and steer the screen items"
+ },
+ {
+  "start": 395.759,
+  "end": 398.469,
+  "text": "we have also got the test repository in"
+ },
+ {
+  "start": 398.479,
+  "end": 399.35,
+  "text": "tosca"
+ },
+ {
+  "start": 399.36,
+  "end": 401.51,
+  "text": "which helps us to manage the test data"
+ },
+ {
+  "start": 401.52,
+  "end": 407.35,
+  "text": "needed for all the test execution"
+ },
+ {
+  "start": 409.27,
+  "end": 409.28,
+  "text": "now let's talk about what's the"
+ },
+ {
+  "start": 409.28,
+  "end": 410.39,
+  "text": "difference between"
+ },
+ {
+  "start": 410.4,
+  "end": 412.23,
+  "text": "tosca and one of the most popular"
+ },
+ {
+  "start": 412.24,
+  "end": 414.71,
+  "text": "automation tools which is selenium"
+ },
+ {
+  "start": 414.72,
+  "end": 416.39,
+  "text": "the first difference which you'll notice"
+ },
+ {
+  "start": 416.4,
+  "end": 418.07,
+  "text": "is selenium is an open"
+ },
+ {
+  "start": 418.08,
+  "end": 422.629,
+  "text": "and free tool but tosca is a licensed"
+ },
+ {
+  "start": 422.639,
+  "end": 425.909,
+  "text": "and paid tool tosca is"
+ },
+ {
+  "start": 425.919,
+  "end": 428.55,
+  "text": "completely codeless which means you"
+ },
+ {
+  "start": 428.56,
+  "end": 430.309,
+  "text": "don't need to write any code in order to"
+ },
+ {
+  "start": 430.319,
+  "end": 432.309,
+  "text": "automate any application"
+ },
+ {
+  "start": 432.319,
+  "end": 434.309,
+  "text": "but in selenium it's a complete"
+ },
+ {
+  "start": 434.319,
+  "end": 435.43,
+  "text": "code-based tool"
+ },
+ {
+  "start": 435.44,
+  "end": 438.15,
+  "text": "right so you have to use some language"
+ },
+ {
+  "start": 438.16,
+  "end": 442.39,
+  "text": "in order to write your scripts"
+ },
+ {
+  "start": 444.79,
+  "end": 444.8,
+  "text": "tosca supports all types of applications"
+ },
+ {
+  "start": 444.8,
+  "end": 445.67,
+  "text": "be it web"
+ },
+ {
+  "start": 445.68,
+  "end": 449.35,
+  "text": "desktop or mobile but selenium supports"
+ },
+ {
+  "start": 449.36,
+  "end": 453.029,
+  "text": "only web applications"
+ },
+ {
+  "start": 455.35,
+  "end": 455.36,
+  "text": "there is a dedicated support team for"
+ },
+ {
+  "start": 455.36,
+  "end": 456.79,
+  "text": "tosca if you come across"
+ },
+ {
+  "start": 456.8,
+  "end": 459.83,
+  "text": "any issues or you require any help"
+ },
+ {
+  "start": 459.84,
+  "end": 462.87,
+  "text": "but in selenium you will only"
+ },
+ {
+  "start": 462.88,
+  "end": 466.309,
+  "text": "have to fall back on community support"
+ },
+ {
+  "start": 466.319,
+  "end": 469.11,
+  "text": "tosca comes with inbuilt reporting and"
+ },
+ {
+  "start": 469.12,
+  "end": 471.51,
+  "text": "object repository features"
+ },
+ {
+  "start": 471.52,
+  "end": 474.07,
+  "text": "but there is no such feature for"
+ },
+ {
+  "start": 474.08,
+  "end": 475.83,
+  "text": "reporting an object repository in"
+ },
+ {
+  "start": 475.84,
+  "end": 478.23,
+  "text": "selenium webdriver"
+ },
+ {
+  "start": 478.24,
+  "end": 480.71,
+  "text": "tosca is built upon model based test"
+ },
+ {
+  "start": 480.72,
+  "end": 481.67,
+  "text": "automation"
+ },
+ {
+  "start": 481.68,
+  "end": 483.83,
+  "text": "while selenium is a script-based test"
+ },
+ {
+  "start": 483.84,
+  "end": 485.35,
+  "text": "automation right"
+ },
+ {
+  "start": 485.36,
+  "end": 487.749,
+  "text": "so in selenium you have to write all the"
+ },
+ {
+  "start": 487.759,
+  "end": 489.589,
+  "text": "scripts in order to execute the test"
+ },
+ {
+  "start": 489.599,
+  "end": 490.39,
+  "text": "cases"
+ },
+ {
+  "start": 490.4,
+  "end": 492.869,
+  "text": "but in tosca you can build different"
+ },
+ {
+  "start": 492.879,
+  "end": 493.749,
+  "text": "modules"
+ },
+ {
+  "start": 493.759,
+  "end": 495.51,
+  "text": "through which you can drive your"
+ },
+ {
+  "start": 495.52,
+  "end": 498.629,
+  "text": "automation"
+ },
+ {
+  "start": 502.23,
+  "end": 502.24,
+  "text": "tosca also supports api and load testing"
+ },
+ {
+  "start": 502.24,
+  "end": 503.909,
+  "text": "but there is no such support for"
+ },
+ {
+  "start": 503.919,
+  "end": 506.71,
+  "text": "selenium out of the box for api or load"
+ },
+ {
+  "start": 506.72,
+  "end": 508.79,
+  "text": "testing"
+ },
+ {
+  "start": 508.8,
+  "end": 511.35,
+  "text": "so these are all the differences between"
+ },
+ {
+  "start": 511.36,
+  "end": 512.149,
+  "text": "tosca"
+ },
+ {
+  "start": 512.159,
+  "end": 515.269,
+  "text": "and selenium so both have their own"
+ },
+ {
+  "start": 515.279,
+  "end": 517.43,
+  "text": "disadvantages and advantages"
+ },
+ {
+  "start": 517.44,
+  "end": 520.469,
+  "text": "and then you have to decide based on the"
+ },
+ {
+  "start": 520.479,
+  "end": 521.35,
+  "text": "budget"
+ },
+ {
+  "start": 521.36,
+  "end": 524.63,
+  "text": "uh the types of applications and uh"
+ },
+ {
+  "start": 524.64,
+  "end": 526.79,
+  "text": "what are the skill sets of your team"
+ },
+ {
+  "start": 526.8,
+  "end": 528.389,
+  "text": "members based on which"
+ },
+ {
+  "start": 528.399,
+  "end": 530.23,
+  "text": "you want to decide on which automation"
+ },
+ {
+  "start": 530.24,
+  "end": 535.839,
+  "text": "tool is best for your application"
+ }
+]

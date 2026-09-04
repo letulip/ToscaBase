@@ -1,0 +1,1087 @@
+[
+ {
+  "start": 12.509,
+  "end": 12.519,
+  "text": "hey everyone welcome back to our Channel"
+ },
+ {
+  "start": 12.519,
+  "end": 15.15,
+  "text": "I am back with another interesting topic"
+ },
+ {
+  "start": 15.16,
+  "end": 17.83,
+  "text": "in the tosa automation"
+ },
+ {
+  "start": 17.84,
+  "end": 20.07,
+  "text": "playlist so in this session we are going"
+ },
+ {
+  "start": 20.08,
+  "end": 24.39,
+  "text": "to look at a real time scenario where uh"
+ },
+ {
+  "start": 24.4,
+  "end": 27.39,
+  "text": "you have got a particular um maybe a"
+ },
+ {
+  "start": 27.4,
+  "end": 30.509,
+  "text": "transaction ID which you need to now"
+ },
+ {
+  "start": 30.519,
+  "end": 32.749,
+  "text": "break it down into different parts"
+ },
+ {
+  "start": 32.759,
+  "end": 34.99,
+  "text": "because you need it for further"
+ },
+ {
+  "start": 35.0,
+  "end": 37.069,
+  "text": "verification or you need it for"
+ },
+ {
+  "start": 37.079,
+  "end": 38.91,
+  "text": "different test steps which require that"
+ },
+ {
+  "start": 38.92,
+  "end": 41.91,
+  "text": "part of the transaction ID now it's a"
+ },
+ {
+  "start": 41.92,
+  "end": 44.11,
+  "text": "very common scenario which everybody"
+ },
+ {
+  "start": 44.12,
+  "end": 47.79,
+  "text": "comes across uh sometime or the other be"
+ },
+ {
+  "start": 47.8,
+  "end": 49.59,
+  "text": "uh you are working in a banking"
+ },
+ {
+  "start": 49.6,
+  "end": 51.43,
+  "text": "financial application or some other"
+ },
+ {
+  "start": 51.44,
+  "end": 53.229,
+  "text": "application which generates some"
+ },
+ {
+  "start": 53.239,
+  "end": 56.869,
+  "text": "transaction ID right um so people do"
+ },
+ {
+  "start": 56.879,
+  "end": 60.549,
+  "text": "face this issue a a lot of times"
+ },
+ {
+  "start": 60.559,
+  "end": 63.189,
+  "text": "and they don't know how to proceed with"
+ },
+ {
+  "start": 63.199,
+  "end": 65.63,
+  "text": "this particular problem so I'm going to"
+ },
+ {
+  "start": 65.64,
+  "end": 68.27,
+  "text": "tell you how uh to resolve this"
+ },
+ {
+  "start": 68.28,
+  "end": 71.469,
+  "text": "particular problem using tosa and you"
+ },
+ {
+  "start": 71.479,
+  "end": 74.39,
+  "text": "need to be aware of uh something called"
+ },
+ {
+  "start": 74.4,
+  "end": 77.83,
+  "text": "regular expression how it works and how"
+ },
+ {
+  "start": 77.84,
+  "end": 80.39,
+  "text": "you can form the regular expression also"
+ },
+ {
+  "start": 80.4,
+  "end": 82.91,
+  "text": "how tosa uses the regular expression"
+ },
+ {
+  "start": 82.92,
+  "end": 85.429,
+  "text": "okay so I picked up an example and you"
+ },
+ {
+  "start": 85.439,
+  "end": 87.789,
+  "text": "can always relate back to your own"
+ },
+ {
+  "start": 87.799,
+  "end": 91.27,
+  "text": "scenario but this is uh um the scenario"
+ },
+ {
+  "start": 91.28,
+  "end": 94.03,
+  "text": "for us okay so this is the transaction"
+ },
+ {
+  "start": 94.04,
+  "end": 97.27,
+  "text": "ID uh which starts with in in and then"
+ },
+ {
+  "start": 97.28,
+  "end": 101.67,
+  "text": "uh some Bank uh ID and then some number"
+ },
+ {
+  "start": 101.68,
+  "end": 104.31,
+  "text": "followed by another number okay and then"
+ },
+ {
+  "start": 104.32,
+  "end": 106.63,
+  "text": "we need to split this into different"
+ },
+ {
+  "start": 106.64,
+  "end": 108.99,
+  "text": "parts okay so as you can see this is the"
+ },
+ {
+  "start": 109.0,
+  "end": 112.67,
+  "text": "part one uh which contains um a static"
+ },
+ {
+  "start": 112.68,
+  "end": 115.31,
+  "text": "text which is in it will always remain"
+ },
+ {
+  "start": 115.32,
+  "end": 119.59,
+  "text": "the same then uh part two is um some"
+ },
+ {
+  "start": 119.6,
+  "end": 122.99,
+  "text": "text text okay which comes before any"
+ },
+ {
+  "start": 123.0,
+  "end": 126.83,
+  "text": "particular number okay which so any text"
+ },
+ {
+  "start": 126.84,
+  "end": 129.55,
+  "text": "it it could be any number of characters"
+ },
+ {
+  "start": 129.56,
+  "end": 132.11,
+  "text": "not only four characters but any number"
+ },
+ {
+  "start": 132.12,
+  "end": 134.309,
+  "text": "of characters which comes before the"
+ },
+ {
+  "start": 134.319,
+  "end": 138.309,
+  "text": "numeric part okay then the part three uh"
+ },
+ {
+  "start": 138.319,
+  "end": 141.589,
+  "text": "which is of three-digit number okay so"
+ },
+ {
+  "start": 141.599,
+  "end": 144.91,
+  "text": "we need to uh specifically extract it as"
+ },
+ {
+  "start": 144.92,
+  "end": 147.15,
+  "text": "a three-digit number and then the"
+ },
+ {
+  "start": 147.16,
+  "end": 149.949,
+  "text": "remaining part of that particular text"
+ },
+ {
+  "start": 149.959,
+  "end": 152.229,
+  "text": "okay so whatever number is after these"
+ },
+ {
+  "start": 152.239,
+  "end": 155.07,
+  "text": "three digits we need to put it into part"
+ },
+ {
+  "start": 155.08,
+  "end": 158.589,
+  "text": "four okay so these are all the different"
+ },
+ {
+  "start": 158.599,
+  "end": 161.309,
+  "text": "uh Parts uh which we need to split from"
+ },
+ {
+  "start": 161.319,
+  "end": 163.75,
+  "text": "this particular transaction ID okay and"
+ },
+ {
+  "start": 163.76,
+  "end": 166.71,
+  "text": "that is the requirement um so how can"
+ },
+ {
+  "start": 166.72,
+  "end": 169.869,
+  "text": "you do this so as I said we need to use"
+ },
+ {
+  "start": 169.879,
+  "end": 173.47,
+  "text": "regular expression here and uh in tosa"
+ },
+ {
+  "start": 173.48,
+  "end": 176.149,
+  "text": "uh you can use regular expression with"
+ },
+ {
+  "start": 176.159,
+  "end": 180.91,
+  "text": "something called named groups okay so in"
+ },
+ {
+  "start": 180.92,
+  "end": 183.63,
+  "text": "this uh you will have a buffer name and"
+ },
+ {
+  "start": 183.64,
+  "end": 188.149,
+  "text": "a sub expression so that buffer name uh"
+ },
+ {
+  "start": 188.159,
+  "end": 189.99,
+  "text": "it is the name of the buffer which will"
+ },
+ {
+  "start": 190.0,
+  "end": 194.07,
+  "text": "store the dynamic part of the comparison"
+ },
+ {
+  "start": 194.08,
+  "end": 196.789,
+  "text": "and the sub expression would Define the"
+ },
+ {
+  "start": 196.799,
+  "end": 199.789,
+  "text": "dynamic part which should be buffered"
+ },
+ {
+  "start": 199.799,
+  "end": 202.75,
+  "text": "okay so this you will understand more"
+ },
+ {
+  "start": 202.76,
+  "end": 205.75,
+  "text": "when we go ahead and uh implement this"
+ },
+ {
+  "start": 205.76,
+  "end": 209.47,
+  "text": "into a test case right so uh let's go"
+ },
+ {
+  "start": 209.48,
+  "end": 210.19,
+  "text": "ahead"
+ },
+ {
+  "start": 210.2,
+  "end": 213.07,
+  "text": "and uh let's go to test cases section"
+ },
+ {
+  "start": 213.08,
+  "end": 217.47,
+  "text": "here uh we will create another test case"
+ },
+ {
+  "start": 217.48,
+  "end": 222.99,
+  "text": "and we will call it Rex for now okay"
+ },
+ {
+  "start": 223.0,
+  "end": 226.67,
+  "text": "here um I will say"
+ },
+ {
+  "start": 226.68,
+  "end": 229.869,
+  "text": "split"
+ },
+ {
+  "start": 233.83,
+  "end": 233.84,
+  "text": "transaction okay and then um we will"
+ },
+ {
+  "start": 233.84,
+  "end": 238.39,
+  "text": "first use the tbox set"
+ },
+ {
+  "start": 238.4,
+  "end": 240.75,
+  "text": "buffer okay"
+ },
+ {
+  "start": 240.76,
+  "end": 245.91,
+  "text": "and we will call this"
+ },
+ {
+  "start": 250.03,
+  "end": 250.04,
+  "text": "TR okay and then here uh we will store"
+ },
+ {
+  "start": 250.04,
+  "end": 255.189,
+  "text": "this particular transaction"
+ },
+ {
+  "start": 260.31,
+  "end": 260.32,
+  "text": "ID okay and now uh we need to create"
+ },
+ {
+  "start": 260.32,
+  "end": 262.629,
+  "text": "different buffers as you can see here"
+ },
+ {
+  "start": 262.639,
+  "end": 267.03,
+  "text": "right so now we have to use uh the same"
+ },
+ {
+  "start": 267.04,
+  "end": 270.749,
+  "text": "buffer name but with a reg verification"
+ },
+ {
+  "start": 270.759,
+  "end": 273.67,
+  "text": "right so here again on the buffer name"
+ },
+ {
+  "start": 273.68,
+  "end": 276.51,
+  "text": "we are going to use trans and here we"
+ },
+ {
+  "start": 276.52,
+  "end": 278.67,
+  "text": "are going to write the reix expression"
+ },
+ {
+  "start": 278.68,
+  "end": 281.749,
+  "text": "okay so it's a little long Rex"
+ },
+ {
+  "start": 281.759,
+  "end": 284.59,
+  "text": "expression so I will try to explain what"
+ },
+ {
+  "start": 284.6,
+  "end": 289.27,
+  "text": "it is and how you have formed this okay"
+ },
+ {
+  "start": 289.28,
+  "end": 292.31,
+  "text": "so here first we need to use the Rex"
+ },
+ {
+  "start": 292.32,
+  "end": 294.189,
+  "text": "expression"
+ },
+ {
+  "start": 294.199,
+  "end": 296.27,
+  "text": "okay"
+ },
+ {
+  "start": 296.28,
+  "end": 299.749,
+  "text": "and as you can see here this is uh the"
+ },
+ {
+  "start": 299.759,
+  "end": 302.59,
+  "text": "description provided and if you look at"
+ },
+ {
+  "start": 302.6,
+  "end": 304.79,
+  "text": "the last part which is extracting text"
+ },
+ {
+  "start": 304.8,
+  "end": 307.11,
+  "text": "using regular Expressions you will see"
+ },
+ {
+  "start": 307.12,
+  "end": 309.79,
+  "text": "this is the syntax okay so rexs then"
+ },
+ {
+  "start": 309.8,
+  "end": 314.39,
+  "text": "expression then the group which is um so"
+ },
+ {
+  "start": 314.4,
+  "end": 316.71,
+  "text": "buffer name and then sub expression and"
+ },
+ {
+  "start": 316.72,
+  "end": 318.39,
+  "text": "then expression"
+ },
+ {
+  "start": 318.4,
+  "end": 321.629,
+  "text": "right and so this first part is the"
+ },
+ {
+  "start": 321.639,
+  "end": 324.43,
+  "text": "static part then the buffer name okay so"
+ },
+ {
+  "start": 324.44,
+  "end": 326.15,
+  "text": "this is the name for the buffer to which"
+ },
+ {
+  "start": 326.16,
+  "end": 328.629,
+  "text": "Dynamic part of the comparison is saved"
+ },
+ {
+  "start": 328.639,
+  "end": 330.43,
+  "text": "and then the subex expression this the"
+ },
+ {
+  "start": 330.44,
+  "end": 333.189,
+  "text": "dynamic part should be buffered right"
+ },
+ {
+  "start": 333.199,
+  "end": 335.99,
+  "text": "there's an example also given here um"
+ },
+ {
+  "start": 336.0,
+  "end": 339.469,
+  "text": "and the expression verifies of the text"
+ },
+ {
+  "start": 339.479,
+  "end": 343.59,
+  "text": "uh label matches the pattern right so uh"
+ },
+ {
+  "start": 343.6,
+  "end": 346.35,
+  "text": "this is how it should be done um any"
+ },
+ {
+  "start": 346.36,
+  "end": 348.83,
+  "text": "particular scenario where you have to uh"
+ },
+ {
+  "start": 348.84,
+  "end": 351.35,
+  "text": "do this you have to use extracting testt"
+ },
+ {
+  "start": 351.36,
+  "end": 354.189,
+  "text": "using regular Expressions"
+ },
+ {
+  "start": 354.199,
+  "end": 357.83,
+  "text": "okay so uh let's go ahead and form this"
+ },
+ {
+  "start": 357.84,
+  "end": 360.35,
+  "text": "regular expression now so we'll start"
+ },
+ {
+  "start": 360.36,
+  "end": 364.309,
+  "text": "with Rex okay now inside this uh we are"
+ },
+ {
+  "start": 364.319,
+  "end": 367.43,
+  "text": "going to have four different parts right"
+ },
+ {
+  "start": 367.44,
+  "end": 370.309,
+  "text": "so we'll start with the first part here"
+ },
+ {
+  "start": 370.319,
+  "end": 374.39,
+  "text": "which is called the part one okay you"
+ },
+ {
+  "start": 374.4,
+  "end": 376.15,
+  "text": "can give any particular name to this"
+ },
+ {
+  "start": 376.16,
+  "end": 380.23,
+  "text": "buffer uh it doesn't matter now this is"
+ },
+ {
+  "start": 380.24,
+  "end": 382.95,
+  "text": "the sub expression okay but uh this is"
+ },
+ {
+  "start": 382.96,
+  "end": 385.23,
+  "text": "static always so we have written I in"
+ },
+ {
+  "start": 385.24,
+  "end": 389.07,
+  "text": "here because it will not change okay now"
+ },
+ {
+  "start": 389.08,
+  "end": 392.11,
+  "text": "we'll close this and we will now form"
+ },
+ {
+  "start": 392.12,
+  "end": 396.35,
+  "text": "the second part which is the part two"
+ },
+ {
+  "start": 396.36,
+  "end": 399.27,
+  "text": "okay we'll save it in part two now here"
+ },
+ {
+  "start": 399.28,
+  "end": 402.39,
+  "text": "uh we have got a couple of characters"
+ },
+ {
+  "start": 402.4,
+  "end": 405.27,
+  "text": "right so here we will be"
+ },
+ {
+  "start": 405.28,
+  "end": 408.71,
+  "text": "using um some regular expression like a"
+ },
+ {
+  "start": 408.72,
+  "end": 412.589,
+  "text": "to zed and then I will use the regular"
+ },
+ {
+  "start": 412.599,
+  "end": 416.23,
+  "text": "expression star which means uh any text"
+ },
+ {
+  "start": 416.24,
+  "end": 418.71,
+  "text": "any particular text with any number of"
+ },
+ {
+  "start": 418.72,
+  "end": 420.83,
+  "text": "characters it will be able to identify"
+ },
+ {
+  "start": 420.84,
+  "end": 424.15,
+  "text": "that okay now the next part is the"
+ },
+ {
+  "start": 424.16,
+  "end": 425.869,
+  "text": "three-digit number which we me to"
+ },
+ {
+  "start": 425.879,
+  "end": 429.589,
+  "text": "extract right so we'll form this again"
+ },
+ {
+  "start": 429.599,
+  "end": 433.99,
+  "text": "we will name this part"
+ },
+ {
+  "start": 437.23,
+  "end": 437.24,
+  "text": "three okay and here uh we'll be using"
+ },
+ {
+  "start": 437.24,
+  "end": 440.469,
+  "text": "some other regular expression which will"
+ },
+ {
+  "start": 440.479,
+  "end": 443.909,
+  "text": "extract our digits okay so we'll use"
+ },
+ {
+  "start": 443.919,
+  "end": 448.029,
+  "text": "slash D and then we require just uh"
+ },
+ {
+  "start": 448.039,
+  "end": 450.67,
+  "text": "three digits from here right so we will"
+ },
+ {
+  "start": 450.68,
+  "end": 452.99,
+  "text": "specify that so that it extracts only"
+ },
+ {
+  "start": 453.0,
+  "end": 457.07,
+  "text": "three digits so now we come to the last"
+ },
+ {
+  "start": 457.08,
+  "end": 461.189,
+  "text": "part and here we will name it part"
+ },
+ {
+  "start": 461.199,
+  "end": 465.67,
+  "text": "four okay and this uh will be the"
+ },
+ {
+  "start": 465.68,
+  "end": 469.99,
+  "text": "remaining uh digits in the ID right so"
+ },
+ {
+  "start": 470.0,
+  "end": 474.149,
+  "text": "uh here again we will use"
+ },
+ {
+  "start": 474.159,
+  "end": 477.71,
+  "text": "SLT okay and then we will use star so"
+ },
+ {
+  "start": 477.72,
+  "end": 480.469,
+  "text": "that it can extract any number of digits"
+ },
+ {
+  "start": 480.479,
+  "end": 483.27,
+  "text": "okay then we will close"
+ },
+ {
+  "start": 483.28,
+  "end": 486.95,
+  "text": "this and here actually we don't require"
+ },
+ {
+  "start": 486.96,
+  "end": 491.55,
+  "text": "this square brackets so I'll remove"
+ },
+ {
+  "start": 494.07,
+  "end": 494.08,
+  "text": "this okay so this is our regular"
+ },
+ {
+  "start": 494.08,
+  "end": 496.39,
+  "text": "expression which has got four parts you"
+ },
+ {
+  "start": 496.4,
+  "end": 498.99,
+  "text": "can see four different buffers so it"
+ },
+ {
+  "start": 499.0,
+  "end": 501.83,
+  "text": "will extract each part uh from the"
+ },
+ {
+  "start": 501.84,
+  "end": 503.71,
+  "text": "regular expression and then it will"
+ },
+ {
+  "start": 503.72,
+  "end": 506.029,
+  "text": "store it into these four different"
+ },
+ {
+  "start": 506.039,
+  "end": 509.99,
+  "text": "buffers okay so now uh let's go ahead"
+ },
+ {
+  "start": 510.0,
+  "end": 512.389,
+  "text": "and change the work state to complete it"
+ },
+ {
+  "start": 512.399,
+  "end": 518.99,
+  "text": "and let's try and execute this"
+ },
+ {
+  "start": 522.709,
+  "end": 522.719,
+  "text": "now okay um you will get this particular"
+ },
+ {
+  "start": 522.719,
+  "end": 525.03,
+  "text": "error okay if you have not changed the"
+ },
+ {
+  "start": 525.04,
+  "end": 527.949,
+  "text": "action mode okay so it will say it has"
+ },
+ {
+  "start": 527.959,
+  "end": 530.35,
+  "text": "to be an input value so what you need to"
+ },
+ {
+  "start": 530.36,
+  "end": 531.91,
+  "text": "do"
+ },
+ {
+  "start": 531.92,
+  "end": 534.949,
+  "text": "here is you need to change this action"
+ },
+ {
+  "start": 534.959,
+  "end": 536.31,
+  "text": "mode to"
+ },
+ {
+  "start": 536.32,
+  "end": 537.99,
+  "text": "verify"
+ },
+ {
+  "start": 538.0,
+  "end": 541.71,
+  "text": "Okay so so whenever uh you are using Rex"
+ },
+ {
+  "start": 541.72,
+  "end": 543.87,
+  "text": "to extract text it has to be uh the"
+ },
+ {
+  "start": 543.88,
+  "end": 546.31,
+  "text": "action mode verify so let's go ahead and"
+ },
+ {
+  "start": 546.32,
+  "end": 553.069,
+  "text": "try this"
+ },
+ {
+  "start": 555.71,
+  "end": 555.72,
+  "text": "again okay so this time around it will"
+ },
+ {
+  "start": 555.72,
+  "end": 558.91,
+  "text": "pass and now we need to verify whether"
+ },
+ {
+  "start": 558.92,
+  "end": 560.79,
+  "text": "these buffers have the correct value or"
+ },
+ {
+  "start": 560.8,
+  "end": 563.59,
+  "text": "not okay so that can be done using this"
+ },
+ {
+  "start": 563.6,
+  "end": 566.23,
+  "text": "buffer viewer if you go into tools you"
+ },
+ {
+  "start": 566.24,
+  "end": 568.19,
+  "text": "will find this particular tool which"
+ },
+ {
+  "start": 568.2,
+  "end": 570.91,
+  "text": "contains all the buffers which we have"
+ },
+ {
+  "start": 570.92,
+  "end": 575.15,
+  "text": "created okay and if I go here I can also"
+ },
+ {
+  "start": 575.16,
+  "end": 578.269,
+  "text": "search my buffers so I will search with"
+ },
+ {
+  "start": 578.279,
+  "end": 581.03,
+  "text": "part and it will give me all the"
+ },
+ {
+  "start": 581.04,
+  "end": 582.79,
+  "text": "different buffer names with start with"
+ },
+ {
+  "start": 582.8,
+  "end": 585.949,
+  "text": "part okay and you can see here so part"
+ },
+ {
+  "start": 585.959,
+  "end": 589.47,
+  "text": "one contains the in in value part two"
+ },
+ {
+  "start": 589.48,
+  "end": 593.71,
+  "text": "contains uh the four uh banking"
+ },
+ {
+  "start": 593.72,
+  "end": 596.03,
+  "text": "abbreviation and part three contains the"
+ },
+ {
+  "start": 596.04,
+  "end": 598.35,
+  "text": "three digits and part four contains the"
+ },
+ {
+  "start": 598.36,
+  "end": 601.31,
+  "text": "remaining digits okay so this is how you"
+ },
+ {
+  "start": 601.32,
+  "end": 605.35,
+  "text": "can extract different uh text or"
+ },
+ {
+  "start": 605.36,
+  "end": 608.99,
+  "text": "different values from your buffer and"
+ },
+ {
+  "start": 609.0,
+  "end": 611.91,
+  "text": "store it in different buffers now this"
+ },
+ {
+  "start": 611.92,
+  "end": 615.269,
+  "text": "could be useful for verification purpose"
+ },
+ {
+  "start": 615.279,
+  "end": 617.55,
+  "text": "or it could be used uh for different"
+ },
+ {
+  "start": 617.56,
+  "end": 620.949,
+  "text": "test steps"
+ },
+ {
+  "start": 624.99,
+  "end": 625.0,
+  "text": "okay so it's a very useful um expression"
+ },
+ {
+  "start": 625.0,
+  "end": 626.87,
+  "text": "the Rex expression and it's a very"
+ },
+ {
+  "start": 626.88,
+  "end": 630.31,
+  "text": "powerful expression okay so whenever you"
+ },
+ {
+  "start": 630.32,
+  "end": 632.91,
+  "text": "want to extract text or you want to"
+ },
+ {
+  "start": 632.92,
+  "end": 634.91,
+  "text": "verify certain part of the text"
+ },
+ {
+  "start": 634.92,
+  "end": 637.949,
+  "text": "especially when this particular value in"
+ },
+ {
+  "start": 637.959,
+  "end": 640.75,
+  "text": "is dynamic in nature okay or the parts"
+ },
+ {
+  "start": 640.76,
+  "end": 643.67,
+  "text": "of the values are dynamic in nature in"
+ },
+ {
+  "start": 643.68,
+  "end": 645.79,
+  "text": "this type of scenarios you should be"
+ },
+ {
+  "start": 645.8,
+  "end": 647.99,
+  "text": "using the Rex"
+ },
+ {
+  "start": 648.0,
+  "end": 649.949,
+  "text": "expression that's all for this"
+ },
+ {
+  "start": 649.959,
+  "end": 652.069,
+  "text": "particular video if you have any"
+ },
+ {
+  "start": 652.079,
+  "end": 653.99,
+  "text": "questions then please leave it in the"
+ },
+ {
+  "start": 654.0,
+  "end": 656.47,
+  "text": "comments if you like this video then"
+ },
+ {
+  "start": 656.48,
+  "end": 658.79,
+  "text": "please subscribe to our Channel thanks"
+ },
+ {
+  "start": 658.8,
+  "end": 660.949,
+  "text": "for watching and I will see you in the"
+ },
+ {
+  "start": 660.959,
+  "end": 661.99,
+  "text": "next"
+ },
+ {
+  "start": 662.0,
+  "end": 665.0,
+  "text": "video"
+ }
+]

@@ -1,0 +1,1157 @@
+[
+ {
+  "start": 12.549,
+  "end": 12.559,
+  "text": "hey everyone welcome back to our Channel"
+ },
+ {
+  "start": 12.559,
+  "end": 15.19,
+  "text": "I am back with another interesting topic"
+ },
+ {
+  "start": 15.2,
+  "end": 17.95,
+  "text": "in the tosa automation"
+ },
+ {
+  "start": 17.96,
+  "end": 20.83,
+  "text": "playlist so now um I'm going to discuss"
+ },
+ {
+  "start": 20.84,
+  "end": 24.109,
+  "text": "a scenario uh which uh is asked quite"
+ },
+ {
+  "start": 24.119,
+  "end": 26.79,
+  "text": "often and I have come across many"
+ },
+ {
+  "start": 26.8,
+  "end": 29.669,
+  "text": "questions on this particular scenario"
+ },
+ {
+  "start": 29.679,
+  "end": 31.87,
+  "text": "and the question was how can we find all"
+ },
+ {
+  "start": 31.88,
+  "end": 34.069,
+  "text": "the links uh which are present on the"
+ },
+ {
+  "start": 34.079,
+  "end": 38.47,
+  "text": "page using tosa right so uh either it"
+ },
+ {
+  "start": 38.48,
+  "end": 40.67,
+  "text": "could be the number of links uh it could"
+ },
+ {
+  "start": 40.68,
+  "end": 42.79,
+  "text": "be the number of buttons or it could be"
+ },
+ {
+  "start": 42.8,
+  "end": 45.029,
+  "text": "number of checkboxes any particular"
+ },
+ {
+  "start": 45.039,
+  "end": 48.189,
+  "text": "element right so all of these um are"
+ },
+ {
+  "start": 48.199,
+  "end": 51.31,
+  "text": "some common elements like uh the link"
+ },
+ {
+  "start": 51.32,
+  "end": 54.31,
+  "text": "would have uh some common property like"
+ },
+ {
+  "start": 54.32,
+  "end": 57.47,
+  "text": "the tag would be uh the value a which"
+ },
+ {
+  "start": 57.48,
+  "end": 60.349,
+  "text": "implies that it is a link similarly for"
+ },
+ {
+  "start": 60.359,
+  "end": 62.59,
+  "text": "buttons there could be a common property"
+ },
+ {
+  "start": 62.6,
+  "end": 64.99,
+  "text": "value so using this common property"
+ },
+ {
+  "start": 65.0,
+  "end": 68.789,
+  "text": "values you can find all the elements"
+ },
+ {
+  "start": 68.799,
+  "end": 70.429,
+  "text": "which are present on that particular"
+ },
+ {
+  "start": 70.439,
+  "end": 72.469,
+  "text": "page which have got these common"
+ },
+ {
+  "start": 72.479,
+  "end": 75.789,
+  "text": "properties okay you can also modify some"
+ },
+ {
+  "start": 75.799,
+  "end": 78.95,
+  "text": "of the property like the ID value uh"
+ },
+ {
+  "start": 78.96,
+  "end": 81.51,
+  "text": "where you can find some static part of"
+ },
+ {
+  "start": 81.52,
+  "end": 83.39,
+  "text": "that particular ID value which remains"
+ },
+ {
+  "start": 83.4,
+  "end": 85.83,
+  "text": "constant and then other parts may be"
+ },
+ {
+  "start": 85.84,
+  "end": 88.469,
+  "text": "changing but using that static part you"
+ },
+ {
+  "start": 88.479,
+  "end": 92.31,
+  "text": "can find all all um the elements which"
+ },
+ {
+  "start": 92.32,
+  "end": 94.55,
+  "text": "matches that particular ID property"
+ },
+ {
+  "start": 94.56,
+  "end": 97.87,
+  "text": "value so this is how you you can find a"
+ },
+ {
+  "start": 97.88,
+  "end": 100.149,
+  "text": "solution to this particular problem"
+ },
+ {
+  "start": 100.159,
+  "end": 102.31,
+  "text": "let's pick up an example and let's uh"
+ },
+ {
+  "start": 102.32,
+  "end": 105.23,
+  "text": "look at a real-time example on how we"
+ },
+ {
+  "start": 105.24,
+  "end": 108.069,
+  "text": "can go ahead and uh find a solution for"
+ },
+ {
+  "start": 108.079,
+  "end": 111.63,
+  "text": "this right so here uh the scenario is uh"
+ },
+ {
+  "start": 111.64,
+  "end": 114.23,
+  "text": "I've got the source demo website and I"
+ },
+ {
+  "start": 114.24,
+  "end": 116.51,
+  "text": "am in the product speech where I've got"
+ },
+ {
+  "start": 116.52,
+  "end": 119.27,
+  "text": "a number of different products right and"
+ },
+ {
+  "start": 119.28,
+  "end": 122.23,
+  "text": "here what I to verify is uh there are"
+ },
+ {
+  "start": 122.24,
+  "end": 125.429,
+  "text": "six products displayed on this page now"
+ },
+ {
+  "start": 125.439,
+  "end": 127.749,
+  "text": "there are various ways of uh going about"
+ },
+ {
+  "start": 127.759,
+  "end": 132.43,
+  "text": "this right so either uh you can go and"
+ },
+ {
+  "start": 132.44,
+  "end": 135.509,
+  "text": "scan each of these elements um and then"
+ },
+ {
+  "start": 135.519,
+  "end": 139.39,
+  "text": "you can verify uh by putting a buffer"
+ },
+ {
+  "start": 139.4,
+  "end": 141.949,
+  "text": "count and then uh calculating how many"
+ },
+ {
+  "start": 141.959,
+  "end": 144.27,
+  "text": "products are displayed on the page but"
+ },
+ {
+  "start": 144.28,
+  "end": 146.91,
+  "text": "what if there are hundreds of products"
+ },
+ {
+  "start": 146.92,
+  "end": 149.99,
+  "text": "okay so these are basically links um all"
+ },
+ {
+  "start": 150.0,
+  "end": 152.949,
+  "text": "of these titles which you see are uh the"
+ },
+ {
+  "start": 152.959,
+  "end": 155.91,
+  "text": "product links okay and if I got 100"
+ },
+ {
+  "start": 155.92,
+  "end": 157.75,
+  "text": "products on this page then this"
+ },
+ {
+  "start": 157.76,
+  "end": 159.63,
+  "text": "particular solution may be difficult"
+ },
+ {
+  "start": 159.64,
+  "end": 161.71,
+  "text": "right you you don't want to scan 100"
+ },
+ {
+  "start": 161.72,
+  "end": 164.83,
+  "text": "elements uh which are of similar nature"
+ },
+ {
+  "start": 164.84,
+  "end": 166.83,
+  "text": "right which are particularly similar"
+ },
+ {
+  "start": 166.84,
+  "end": 170.19,
+  "text": "links now instead of that uh we can opt"
+ },
+ {
+  "start": 170.2,
+  "end": 173.63,
+  "text": "for a much efficient and easier solution"
+ },
+ {
+  "start": 173.64,
+  "end": 176.509,
+  "text": "okay so let me show you um how you can"
+ },
+ {
+  "start": 176.519,
+  "end": 180.509,
+  "text": "do that so here uh let's first uh go"
+ },
+ {
+  "start": 180.519,
+  "end": 183.03,
+  "text": "ahead and scan this application so what"
+ },
+ {
+  "start": 183.04,
+  "end": 186.789,
+  "text": "we need to do uh is we need to just scan"
+ },
+ {
+  "start": 186.799,
+  "end": 189.83,
+  "text": "one of these elements and then we have"
+ },
+ {
+  "start": 189.84,
+  "end": 192.71,
+  "text": "to modify the properties which can match"
+ },
+ {
+  "start": 192.72,
+  "end": 195.47,
+  "text": "all the other elements on this page of"
+ },
+ {
+  "start": 195.48,
+  "end": 197.949,
+  "text": "uh the similar nature in our case uh"
+ },
+ {
+  "start": 197.959,
+  "end": 200.869,
+  "text": "these are the product links right so"
+ },
+ {
+  "start": 200.879,
+  "end": 202.11,
+  "text": "we'll go"
+ },
+ {
+  "start": 202.12,
+  "end": 205.35,
+  "text": "here and then uh we will pick up one of"
+ },
+ {
+  "start": 205.36,
+  "end": 207.589,
+  "text": "the products let's pick up the first"
+ },
+ {
+  "start": 207.599,
+  "end": 210.35,
+  "text": "product okay Source laabs backpack"
+ },
+ {
+  "start": 210.36,
+  "end": 212.55,
+  "text": "so I can find this link here I can"
+ },
+ {
+  "start": 212.56,
+  "end": 215.949,
+  "text": "select this uh it's a unique uh item you"
+ },
+ {
+  "start": 215.959,
+  "end": 218.149,
+  "text": "can see and if I go into the technical"
+ },
+ {
+  "start": 218.159,
+  "end": 220.75,
+  "text": "properties you can see the tag value is"
+ },
+ {
+  "start": 220.76,
+  "end": 223.869,
+  "text": "a which will never change for a link and"
+ },
+ {
+  "start": 223.879,
+  "end": 227.11,
+  "text": "then uh if I look at the ID it is itmore"
+ },
+ {
+  "start": 227.12,
+  "end": 233.229,
+  "text": "4ore titlecore link right now if I look"
+ },
+ {
+  "start": 233.239,
+  "end": 236.35,
+  "text": "at the other links right uh for example"
+ },
+ {
+  "start": 236.36,
+  "end": 239.789,
+  "text": "this bike light if I select this you"
+ },
+ {
+  "start": 239.799,
+  "end": 243.509,
+  "text": "will see uh the tag uh property value is"
+ },
+ {
+  "start": 243.519,
+  "end": 248.19,
+  "text": "still a but the ID is changing okay the"
+ },
+ {
+  "start": 248.2,
+  "end": 252.55,
+  "text": "ID is now item undor zore titlecore link"
+ },
+ {
+  "start": 252.56,
+  "end": 256.39,
+  "text": "okay but if you noticed uh the last part"
+ },
+ {
+  "start": 256.4,
+  "end": 259.11,
+  "text": "of the of this particular value is"
+ },
+ {
+  "start": 259.12,
+  "end": 261.67,
+  "text": "actually constant right so the title"
+ },
+ {
+  "start": 261.68,
+  "end": 265.59,
+  "text": "underscore link is constant and the item"
+ },
+ {
+  "start": 265.6,
+  "end": 268.71,
+  "text": "underscore the number is changing okay"
+ },
+ {
+  "start": 268.72,
+  "end": 272.95,
+  "text": "so for this it is item _ 0 and if I look"
+ },
+ {
+  "start": 272.96,
+  "end": 276.23,
+  "text": "back at my previous element then it is"
+ },
+ {
+  "start": 276.24,
+  "end": 280.07,
+  "text": "item underscore 4 but the last part is"
+ },
+ {
+  "start": 280.08,
+  "end": 284.029,
+  "text": "still titlecore link okay so uh we can"
+ },
+ {
+  "start": 284.039,
+  "end": 286.79,
+  "text": "modify this uh ID value so that it"
+ },
+ {
+  "start": 286.8,
+  "end": 289.51,
+  "text": "matches all the elements uh which have"
+ },
+ {
+  "start": 289.52,
+  "end": 291.99,
+  "text": "got this constant value which is"
+ },
+ {
+  "start": 292.0,
+  "end": 294.99,
+  "text": "titlecore link okay and then tosa will"
+ },
+ {
+  "start": 295.0,
+  "end": 297.43,
+  "text": "be able to find all the links which have"
+ },
+ {
+  "start": 297.44,
+  "end": 300.83,
+  "text": "got this particular ID okay okay so"
+ },
+ {
+  "start": 300.84,
+  "end": 302.39,
+  "text": "let's go ahead and first select this"
+ },
+ {
+  "start": 302.4,
+  "end": 303.95,
+  "text": "particular link and then we will change"
+ },
+ {
+  "start": 303.96,
+  "end": 306.27,
+  "text": "it in our module attribute here I'm"
+ },
+ {
+  "start": 306.28,
+  "end": 309.15,
+  "text": "going to name this uh called products"
+ },
+ {
+  "start": 309.16,
+  "end": 311.67,
+  "text": "the name of the module and then I'm"
+ },
+ {
+  "start": 311.68,
+  "end": 313.029,
+  "text": "going to save"
+ },
+ {
+  "start": 313.039,
+  "end": 317.31,
+  "text": "this and close this and then let's go to"
+ },
+ {
+  "start": 317.32,
+  "end": 321.07,
+  "text": "our module attribute here I am going to"
+ },
+ {
+  "start": 321.08,
+  "end": 323.469,
+  "text": "call this just"
+ },
+ {
+  "start": 323.479,
+  "end": 326.79,
+  "text": "product okay because it is a generic"
+ },
+ {
+  "start": 326.8,
+  "end": 329.23,
+  "text": "product link um and it's not any"
+ },
+ {
+  "start": 329.24,
+  "end": 332.029,
+  "text": "specific link so I'm changing it to a"
+ },
+ {
+  "start": 332.039,
+  "end": 335.189,
+  "text": "generic name and then I want to change"
+ },
+ {
+  "start": 335.199,
+  "end": 338.83,
+  "text": "the ID of this particular product okay"
+ },
+ {
+  "start": 338.84,
+  "end": 340.909,
+  "text": "so we want to keep the constant part"
+ },
+ {
+  "start": 340.919,
+  "end": 344.029,
+  "text": "here titlecore link but we will uh"
+ },
+ {
+  "start": 344.039,
+  "end": 346.71,
+  "text": "remove this itmore 4 underscore and"
+ },
+ {
+  "start": 346.72,
+  "end": 349.11,
+  "text": "replace it with a regular expression so"
+ },
+ {
+  "start": 349.12,
+  "end": 351.99,
+  "text": "that it can match all the other elements"
+ },
+ {
+  "start": 352.0,
+  "end": 354.83,
+  "text": "which this particular ID"
+ },
+ {
+  "start": 354.84,
+  "end": 358.189,
+  "text": "okay also what we want to do is uh we"
+ },
+ {
+  "start": 358.199,
+  "end": 360.27,
+  "text": "want to change the cardinality"
+ },
+ {
+  "start": 360.28,
+  "end": 363.71,
+  "text": "here okay so that uh we can use this"
+ },
+ {
+  "start": 363.72,
+  "end": 366.749,
+  "text": "link uh any number of times okay uh in"
+ },
+ {
+  "start": 366.759,
+  "end": 369.909,
+  "text": "our test case and then uh we can also"
+ },
+ {
+  "start": 369.919,
+  "end": 372.189,
+  "text": "add a configuration parameter called"
+ },
+ {
+  "start": 372.199,
+  "end": 373.83,
+  "text": "explicit"
+ },
+ {
+  "start": 373.84,
+  "end": 377.71,
+  "text": "name and we can set it to True here so"
+ },
+ {
+  "start": 377.72,
+  "end": 379.67,
+  "text": "that we can uh change the module"
+ },
+ {
+  "start": 379.68,
+  "end": 382.51,
+  "text": "attribute name from the test step itself"
+ },
+ {
+  "start": 382.52,
+  "end": 384.11,
+  "text": "okay so these are two additional"
+ },
+ {
+  "start": 384.12,
+  "end": 386.15,
+  "text": "properties uh if you want to perform"
+ },
+ {
+  "start": 386.16,
+  "end": 389.029,
+  "text": "some action on the link or you want to"
+ },
+ {
+  "start": 389.039,
+  "end": 391.309,
+  "text": "change the name of the link and click on"
+ },
+ {
+  "start": 391.319,
+  "end": 394.309,
+  "text": "these links uh repeatedly then you need"
+ },
+ {
+  "start": 394.319,
+  "end": 395.95,
+  "text": "to change the cardinality and the"
+ },
+ {
+  "start": 395.96,
+  "end": 400.15,
+  "text": "explicit name property okay now if I go"
+ },
+ {
+  "start": 400.16,
+  "end": 403.79,
+  "text": "back to my module and then um I create a"
+ },
+ {
+  "start": 403.8,
+  "end": 406.629,
+  "text": "test case for this so let's pick up one"
+ },
+ {
+  "start": 406.639,
+  "end": 408.909,
+  "text": "folder and here I'm going to create a"
+ },
+ {
+  "start": 408.919,
+  "end": 412.23,
+  "text": "test case called check"
+ },
+ {
+  "start": 412.24,
+  "end": 415.39,
+  "text": "products okay and then uh we are going"
+ },
+ {
+  "start": 415.4,
+  "end": 419.71,
+  "text": "to add our module products right here"
+ },
+ {
+  "start": 419.72,
+  "end": 422.869,
+  "text": "and now uh what we want to do is we want"
+ },
+ {
+  "start": 422.879,
+  "end": 426.629,
+  "text": "to get the count of these links present"
+ },
+ {
+  "start": 426.639,
+  "end": 429.23,
+  "text": "on the page which will give me U the"
+ },
+ {
+  "start": 429.24,
+  "end": 433.189,
+  "text": "number of products okay so uh what I can"
+ },
+ {
+  "start": 433.199,
+  "end": 435.55,
+  "text": "do is I can use something called the"
+ },
+ {
+  "start": 435.56,
+  "end": 439.029,
+  "text": "result count so this will return me the"
+ },
+ {
+  "start": 439.039,
+  "end": 442.029,
+  "text": "count of all of these module attributes"
+ },
+ {
+  "start": 442.039,
+  "end": 444.35,
+  "text": "or these links which are present in the"
+ },
+ {
+  "start": 444.36,
+  "end": 447.15,
+  "text": "page okay and then I can just uh store"
+ },
+ {
+  "start": 447.16,
+  "end": 452.71,
+  "text": "it into um a buffer so um I'm going to"
+ },
+ {
+  "start": 452.72,
+  "end": 455.469,
+  "text": "call this bcore"
+ },
+ {
+  "start": 455.479,
+  "end": 459.27,
+  "text": "products okay and then um we are going"
+ },
+ {
+  "start": 459.28,
+  "end": 462.029,
+  "text": "to change the action mode to buffer here"
+ },
+ {
+  "start": 462.039,
+  "end": 464.43,
+  "text": "right so it will basically get the"
+ },
+ {
+  "start": 464.44,
+  "end": 466.51,
+  "text": "result count and then it will store it"
+ },
+ {
+  "start": 466.52,
+  "end": 470.029,
+  "text": "in bore products right so that's our"
+ },
+ {
+  "start": 470.039,
+  "end": 472.749,
+  "text": "first part now due to the cardinality"
+ },
+ {
+  "start": 472.759,
+  "end": 476.43,
+  "text": "factor which we changed from 0 to 1 to 0"
+ },
+ {
+  "start": 476.44,
+  "end": 479.149,
+  "text": "to n now you can see repeatedly this"
+ },
+ {
+  "start": 479.159,
+  "end": 481.83,
+  "text": "model attribute will be added also we"
+ },
+ {
+  "start": 481.84,
+  "end": 484.39,
+  "text": "can change the name of this uh product"
+ },
+ {
+  "start": 484.4,
+  "end": 488.589,
+  "text": "right here okay so I can change it to"
+ },
+ {
+  "start": 488.599,
+  "end": 491.23,
+  "text": "anything um let's remove it right now we"
+ },
+ {
+  "start": 491.24,
+  "end": 493.749,
+  "text": "don't require this now the next thing"
+ },
+ {
+  "start": 493.759,
+  "end": 498.35,
+  "text": "which uh I want to do here is um I want"
+ },
+ {
+  "start": 498.36,
+  "end": 500.95,
+  "text": "to verify whether this result count is"
+ },
+ {
+  "start": 500.96,
+  "end": 504.51,
+  "text": "equal to a particular number okay so in"
+ },
+ {
+  "start": 504.52,
+  "end": 506.749,
+  "text": "my case it is six I want to verify"
+ },
+ {
+  "start": 506.759,
+  "end": 508.629,
+  "text": "whether the result count is six so I"
+ },
+ {
+  "start": 508.639,
+  "end": 510.67,
+  "text": "will do that before that let me change"
+ },
+ {
+  "start": 510.68,
+  "end": 513.11,
+  "text": "the test step name here so I will say"
+ },
+ {
+  "start": 513.12,
+  "end": 515.31,
+  "text": "get product"
+ },
+ {
+  "start": 515.32,
+  "end": 518.23,
+  "text": "count so now let's go back to our test"
+ },
+ {
+  "start": 518.24,
+  "end": 520.469,
+  "text": "case and we are going to add another"
+ },
+ {
+  "start": 520.479,
+  "end": 523.67,
+  "text": "test step here and that is tbox"
+ },
+ {
+  "start": 523.68,
+  "end": 527.03,
+  "text": "evaluation tool okay so this way we can"
+ },
+ {
+  "start": 527.04,
+  "end": 529.389,
+  "text": "evaluate any particular expression uh we"
+ },
+ {
+  "start": 529.399,
+  "end": 533.15,
+  "text": "are going to evaluate whether our buffer"
+ },
+ {
+  "start": 533.16,
+  "end": 536.19,
+  "text": "be underscore"
+ },
+ {
+  "start": 536.2,
+  "end": 540.03,
+  "text": "products is equals equals 6"
+ },
+ {
+  "start": 540.04,
+  "end": 541.67,
+  "text": "so this is an expression it will"
+ },
+ {
+  "start": 541.68,
+  "end": 544.269,
+  "text": "evaluate this expression and if it is"
+ },
+ {
+  "start": 544.279,
+  "end": 546.71,
+  "text": "correct then it will pass otherwise it"
+ },
+ {
+  "start": 546.72,
+  "end": 550.47,
+  "text": "will fail okay so I will say here check"
+ },
+ {
+  "start": 550.48,
+  "end": 553.43,
+  "text": "number of"
+ },
+ {
+  "start": 553.44,
+  "end": 555.79,
+  "text": "products"
+ },
+ {
+  "start": 555.8,
+  "end": 558.91,
+  "text": "is six"
+ },
+ {
+  "start": 558.92,
+  "end": 563.11,
+  "text": "okay so this way uh I can get the result"
+ },
+ {
+  "start": 563.12,
+  "end": 566.35,
+  "text": "count of all the uh product links on my"
+ },
+ {
+  "start": 566.36,
+  "end": 569.11,
+  "text": "page and then I can also verify um the"
+ },
+ {
+  "start": 569.12,
+  "end": 570.91,
+  "text": "number number of products okay using"
+ },
+ {
+  "start": 570.92,
+  "end": 573.63,
+  "text": "that result count so let's go ahead and"
+ },
+ {
+  "start": 573.64,
+  "end": 575.31,
+  "text": "run this and let's verify whether we're"
+ },
+ {
+  "start": 575.32,
+  "end": 578.63,
+  "text": "getting the same result as expected uh"
+ },
+ {
+  "start": 578.64,
+  "end": 580.509,
+  "text": "run this in"
+ },
+ {
+  "start": 580.519,
+  "end": 583.15,
+  "text": "scratchbook and then um the test case"
+ },
+ {
+  "start": 583.16,
+  "end": 587.91,
+  "text": "will pass we can go ahead and look in"
+ },
+ {
+  "start": 587.92,
+  "end": 590.23,
+  "text": "our scratchbook"
+ },
+ {
+  "start": 590.24,
+  "end": 594.03,
+  "text": "logs okay so here you can see bore"
+ },
+ {
+  "start": 594.04,
+  "end": 595.79,
+  "text": "products was set to"
+ },
+ {
+  "start": 595.8,
+  "end": 600.31,
+  "text": "six and then here U six equal equal 6"
+ },
+ {
+  "start": 600.32,
+  "end": 602.75,
+  "text": "was evaluated to True okay so the"
+ },
+ {
+  "start": 602.76,
+  "end": 604.35,
+  "text": "expression was"
+ },
+ {
+  "start": 604.36,
+  "end": 607.15,
+  "text": "correct so this way I could verify the"
+ },
+ {
+  "start": 607.16,
+  "end": 610.47,
+  "text": "number of product links uh and that in"
+ },
+ {
+  "start": 610.48,
+  "end": 613.069,
+  "text": "turn told me how many products are being"
+ },
+ {
+  "start": 613.079,
+  "end": 615.91,
+  "text": "displayed on the page similarly You Can"
+ },
+ {
+  "start": 615.92,
+  "end": 618.389,
+  "text": "Count uh all the links which are present"
+ },
+ {
+  "start": 618.399,
+  "end": 621.23,
+  "text": "on your page you just need to change the"
+ },
+ {
+  "start": 621.24,
+  "end": 624.59,
+  "text": "module attribute if I go to the module"
+ },
+ {
+  "start": 624.6,
+  "end": 627.99,
+  "text": "attribute of the link and I just remove"
+ },
+ {
+  "start": 628.0,
+  "end": 631.91,
+  "text": "the ID property from here then it will"
+ },
+ {
+  "start": 631.92,
+  "end": 634.389,
+  "text": "return me all the links present on this"
+ },
+ {
+  "start": 634.399,
+  "end": 637.47,
+  "text": "page so there are number of possible"
+ },
+ {
+  "start": 637.48,
+  "end": 639.79,
+  "text": "scenarios uh in which this particular"
+ },
+ {
+  "start": 639.8,
+  "end": 643.75,
+  "text": "way could be used to uh automate uh your"
+ },
+ {
+  "start": 643.76,
+  "end": 646.389,
+  "text": "particular scenario it as I said it"
+ },
+ {
+  "start": 646.399,
+  "end": 649.069,
+  "text": "could be uh for the links if you have"
+ },
+ {
+  "start": 649.079,
+  "end": 651.55,
+  "text": "got number of common check boxes on the"
+ },
+ {
+  "start": 651.56,
+  "end": 653.23,
+  "text": "page and you have to check all the"
+ },
+ {
+  "start": 653.24,
+  "end": 655.829,
+  "text": "checkboxes you can also do this using"
+ },
+ {
+  "start": 655.839,
+  "end": 658.43,
+  "text": "this way so as I said uh it could be"
+ },
+ {
+  "start": 658.44,
+  "end": 661.71,
+  "text": "used in many different"
+ },
+ {
+  "start": 661.72,
+  "end": 664.069,
+  "text": "scenarios that's all for this particular"
+ },
+ {
+  "start": 664.079,
+  "end": 666.509,
+  "text": "video if you have any questions then"
+ },
+ {
+  "start": 666.519,
+  "end": 668.99,
+  "text": "please leave it in the comments if you"
+ },
+ {
+  "start": 669.0,
+  "end": 670.949,
+  "text": "like this video then please subscribe to"
+ },
+ {
+  "start": 670.959,
+  "end": 673.67,
+  "text": "our Channel thanks for watching and I"
+ },
+ {
+  "start": 673.68,
+  "end": 677.959,
+  "text": "will see you in the next video"
+ }
+]

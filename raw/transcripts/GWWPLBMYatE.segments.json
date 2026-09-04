@@ -1,0 +1,812 @@
+[
+ {
+  "start": 7.73,
+  "end": 7.74,
+  "text": "hey everyone welcome to this Tosca"
+ },
+ {
+  "start": 7.74,
+  "end": 9.83,
+  "text": "automation playlist and we have been"
+ },
+ {
+  "start": 9.84,
+  "end": 11.27,
+  "text": "talking about a lot of different"
+ },
+ {
+  "start": 11.28,
+  "end": 13.49,
+  "text": "features which are available with Tosca"
+ },
+ {
+  "start": 13.5,
+  "end": 16.55,
+  "text": "API scan in this session I am going to"
+ },
+ {
+  "start": 16.56,
+  "end": 18.349,
+  "text": "talk about another interesting feature"
+ },
+ {
+  "start": 18.359,
+  "end": 20.33,
+  "text": "which is called the message recorder"
+ },
+ {
+  "start": 20.34,
+  "end": 23.15,
+  "text": "okay and this message recorder it"
+ },
+ {
+  "start": 23.16,
+  "end": 25.49,
+  "text": "basically helps you to basically record"
+ },
+ {
+  "start": 25.5,
+  "end": 27.89,
+  "text": "the traffic between your system and the"
+ },
+ {
+  "start": 27.9,
+  "end": 29.689,
+  "text": "test and the backend"
+ },
+ {
+  "start": 29.699,
+  "end": 32.389,
+  "text": "whenever you are running any tests or"
+ },
+ {
+  "start": 32.399,
+  "end": 34.069,
+  "text": "even if you are interacting with your"
+ },
+ {
+  "start": 34.079,
+  "end": 36.229,
+  "text": "browser and going to some other website"
+ },
+ {
+  "start": 36.239,
+  "end": 39.29,
+  "text": "right so any kind of API calls which are"
+ },
+ {
+  "start": 39.3,
+  "end": 41.69,
+  "text": "happening in your website or in your"
+ },
+ {
+  "start": 41.7,
+  "end": 44.09,
+  "text": "system under test that will be captured"
+ },
+ {
+  "start": 44.1,
+  "end": 46.61,
+  "text": "by this message recorder and then you"
+ },
+ {
+  "start": 46.62,
+  "end": 49.85,
+  "text": "can visualize and analyze the traffic as"
+ },
+ {
+  "start": 49.86,
+  "end": 52.91,
+  "text": "API messages okay"
+ },
+ {
+  "start": 52.92,
+  "end": 55.25,
+  "text": "so this particular feature is available"
+ },
+ {
+  "start": 55.26,
+  "end": 57.83,
+  "text": "on the top bar as you can see this is"
+ },
+ {
+  "start": 57.84,
+  "end": 60.11,
+  "text": "called the record option and when you"
+ },
+ {
+  "start": 60.12,
+  "end": 62.029,
+  "text": "click on this it will open the message"
+ },
+ {
+  "start": 62.039,
+  "end": 64.85,
+  "text": "recorder window okay so in this message"
+ },
+ {
+  "start": 64.86,
+  "end": 67.25,
+  "text": "recorder window there is a start and"
+ },
+ {
+  "start": 67.26,
+  "end": 69.17,
+  "text": "stop button through which you can start"
+ },
+ {
+  "start": 69.18,
+  "end": 71.03,
+  "text": "this recording session"
+ },
+ {
+  "start": 71.04,
+  "end": 73.49,
+  "text": "and then there is a clear all which will"
+ },
+ {
+  "start": 73.5,
+  "end": 75.23,
+  "text": "basically clear all the messages which"
+ },
+ {
+  "start": 75.24,
+  "end": 76.789,
+  "text": "are already present"
+ },
+ {
+  "start": 76.799,
+  "end": 78.59,
+  "text": "the configure option is basically"
+ },
+ {
+  "start": 78.6,
+  "end": 81.469,
+  "text": "present to configure any proxy username"
+ },
+ {
+  "start": 81.479,
+  "end": 83.33,
+  "text": "password and address you can also"
+ },
+ {
+  "start": 83.34,
+  "end": 88.01,
+  "text": "decrypt the https traffic okay and then"
+ },
+ {
+  "start": 88.02,
+  "end": 90.17,
+  "text": "um the export option which is basically"
+ },
+ {
+  "start": 90.18,
+  "end": 92.27,
+  "text": "it will export the messages which we"
+ },
+ {
+  "start": 92.28,
+  "end": 95.69,
+  "text": "have recorded into API scan okay"
+ },
+ {
+  "start": 95.7,
+  "end": 98.569,
+  "text": "so let's see how this particular feature"
+ },
+ {
+  "start": 98.579,
+  "end": 101.33,
+  "text": "or tool Works uh in Tosca and how you"
+ },
+ {
+  "start": 101.34,
+  "end": 103.91,
+  "text": "can capture API messages as traffic"
+ },
+ {
+  "start": 103.92,
+  "end": 106.37,
+  "text": "during your execution or during your"
+ },
+ {
+  "start": 106.38,
+  "end": 108.77,
+  "text": "interaction with the browser okay"
+ },
+ {
+  "start": 108.78,
+  "end": 111.59,
+  "text": "so now uh I'm going to start this"
+ },
+ {
+  "start": 111.6,
+  "end": 113.63,
+  "text": "particular recorder so it will start"
+ },
+ {
+  "start": 113.64,
+  "end": 116.87,
+  "text": "message tracing and let's start this and"
+ },
+ {
+  "start": 116.88,
+  "end": 119.09,
+  "text": "you will get a stop icon right here okay"
+ },
+ {
+  "start": 119.1,
+  "end": 121.91,
+  "text": "so you can stop at any time right now as"
+ },
+ {
+  "start": 121.92,
+  "end": 123.71,
+  "text": "you can see there are no messages which"
+ },
+ {
+  "start": 123.72,
+  "end": 126.289,
+  "text": "is being recorded right now but what"
+ },
+ {
+  "start": 126.299,
+  "end": 129.29,
+  "text": "we'll do is we'll go here to Tasker"
+ },
+ {
+  "start": 129.3,
+  "end": 132.47,
+  "text": "Commander and now um I will execute one"
+ },
+ {
+  "start": 132.48,
+  "end": 135.29,
+  "text": "of my test cases which is for the"
+ },
+ {
+  "start": 135.3,
+  "end": 137.15,
+  "text": "vehicle insurance page which is open"
+ },
+ {
+  "start": 137.16,
+  "end": 139.13,
+  "text": "here okay"
+ },
+ {
+  "start": 139.14,
+  "end": 142.07,
+  "text": "so let's go here and I'm going to run in"
+ },
+ {
+  "start": 142.08,
+  "end": 143.57,
+  "text": "scratchbook"
+ },
+ {
+  "start": 143.58,
+  "end": 146.03,
+  "text": "so any kind of interactions with any"
+ },
+ {
+  "start": 146.04,
+  "end": 148.85,
+  "text": "application okay if any API messages are"
+ },
+ {
+  "start": 148.86,
+  "end": 151.79,
+  "text": "being transmitted it will basically uh"
+ },
+ {
+  "start": 151.8,
+  "end": 154.67,
+  "text": "record that or basically capture that"
+ },
+ {
+  "start": 154.68,
+  "end": 157.309,
+  "text": "and display it here okay"
+ },
+ {
+  "start": 157.319,
+  "end": 165.05,
+  "text": "let the execution complete"
+ },
+ {
+  "start": 167.15,
+  "end": 167.16,
+  "text": "and then we will see what API messages"
+ },
+ {
+  "start": 167.16,
+  "end": 171.83,
+  "text": "has been captured uh until now okay"
+ },
+ {
+  "start": 171.84,
+  "end": 174.53,
+  "text": "so now I'm going to"
+ },
+ {
+  "start": 174.54,
+  "end": 177.05,
+  "text": "come back to the recorder and you will"
+ },
+ {
+  "start": 177.06,
+  "end": 179.99,
+  "text": "see that there is only one message which"
+ },
+ {
+  "start": 180.0,
+  "end": 182.449,
+  "text": "has been captured that could be also the"
+ },
+ {
+  "start": 182.459,
+  "end": 185.15,
+  "text": "case when you click on it okay you will"
+ },
+ {
+  "start": 185.16,
+  "end": 188.449,
+  "text": "get all the information right here and"
+ },
+ {
+  "start": 188.459,
+  "end": 191.41,
+  "text": "also here on different Windows okay"
+ },
+ {
+  "start": 191.42,
+  "end": 194.69,
+  "text": "maybe it is not using um any particular"
+ },
+ {
+  "start": 194.7,
+  "end": 198.17,
+  "text": "API and this application is mostly"
+ },
+ {
+  "start": 198.18,
+  "end": 200.449,
+  "text": "front-end that's why you are only able"
+ },
+ {
+  "start": 200.459,
+  "end": 204.29,
+  "text": "to see this HTTP requests right but if"
+ },
+ {
+  "start": 204.3,
+  "end": 207.05,
+  "text": "you have got some backend functionality"
+ },
+ {
+  "start": 207.06,
+  "end": 210.589,
+  "text": "and it is used as an API then you will"
+ },
+ {
+  "start": 210.599,
+  "end": 213.11,
+  "text": "basically see that captured here okay it"
+ },
+ {
+  "start": 213.12,
+  "end": 214.729,
+  "text": "will show the result it will show the"
+ },
+ {
+  "start": 214.739,
+  "end": 218.57,
+  "text": "host URL content type and the process as"
+ },
+ {
+  "start": 218.58,
+  "end": 221.39,
+  "text": "well right"
+ },
+ {
+  "start": 221.4,
+  "end": 222.589,
+  "text": "um also"
+ },
+ {
+  "start": 222.599,
+  "end": 226.009,
+  "text": "what you can do is if I come back here"
+ },
+ {
+  "start": 226.019,
+  "end": 227.869,
+  "text": "right and I start interacting with this"
+ },
+ {
+  "start": 227.879,
+  "end": 229.97,
+  "text": "application on my own not running any"
+ },
+ {
+  "start": 229.98,
+  "end": 232.309,
+  "text": "test still"
+ },
+ {
+  "start": 232.319,
+  "end": 234.41,
+  "text": "um it will be captured on the API"
+ },
+ {
+  "start": 234.42,
+  "end": 236.69,
+  "text": "recorder or on the message recorder"
+ },
+ {
+  "start": 236.7,
+  "end": 241.13,
+  "text": "right so if I click on this view code"
+ },
+ {
+  "start": 241.14,
+  "end": 243.649,
+  "text": "it is basically a backend process okay"
+ },
+ {
+  "start": 243.659,
+  "end": 246.89,
+  "text": "because it will be uh calculating or it"
+ },
+ {
+  "start": 246.9,
+  "end": 248.57,
+  "text": "will be capturing some data and it will"
+ },
+ {
+  "start": 248.58,
+  "end": 251.809,
+  "text": "generate this document okay now if I go"
+ },
+ {
+  "start": 251.819,
+  "end": 253.49,
+  "text": "back here you will see that there is"
+ },
+ {
+  "start": 253.5,
+  "end": 255.53,
+  "text": "another message now which has been"
+ },
+ {
+  "start": 255.54,
+  "end": 257.87,
+  "text": "captured content type is application PDF"
+ },
+ {
+  "start": 257.88,
+  "end": 259.189,
+  "text": "okay"
+ },
+ {
+  "start": 259.199,
+  "end": 261.949,
+  "text": "and the result was also 200 so you can"
+ },
+ {
+  "start": 261.959,
+  "end": 265.43,
+  "text": "basically analyze your traffic as API"
+ },
+ {
+  "start": 265.44,
+  "end": 268.249,
+  "text": "messages and you can visualize them as"
+ },
+ {
+  "start": 268.259,
+  "end": 269.15,
+  "text": "you are interacting with your"
+ },
+ {
+  "start": 269.16,
+  "end": 270.71,
+  "text": "application or even if you are running"
+ },
+ {
+  "start": 270.72,
+  "end": 273.11,
+  "text": "your tests in the background so it's a"
+ },
+ {
+  "start": 273.12,
+  "end": 274.909,
+  "text": "very useful feature in terms of that"
+ },
+ {
+  "start": 274.919,
+  "end": 275.99,
+  "text": "right"
+ },
+ {
+  "start": 276.0,
+  "end": 279.17,
+  "text": "I can always go ahead and clear this all"
+ },
+ {
+  "start": 279.18,
+  "end": 281.15,
+  "text": "these messages which are captured here"
+ },
+ {
+  "start": 281.16,
+  "end": 285.71,
+  "text": "now let's stop this recorder okay"
+ },
+ {
+  "start": 285.72,
+  "end": 289.249,
+  "text": "and now uh we have stopped the recorder"
+ },
+ {
+  "start": 289.259,
+  "end": 291.11,
+  "text": "and now we can export these messages"
+ },
+ {
+  "start": 291.12,
+  "end": 295.31,
+  "text": "into your API scan okay so if I click on"
+ },
+ {
+  "start": 295.32,
+  "end": 297.65,
+  "text": "export you will see it will create a"
+ },
+ {
+  "start": 297.66,
+  "end": 299.45,
+  "text": "folder here called Trace underscore"
+ },
+ {
+  "start": 299.46,
+  "end": 302.51,
+  "text": "import and then it will capture this"
+ },
+ {
+  "start": 302.52,
+  "end": 306.11,
+  "text": "message that this PDF's code dot PDF"
+ },
+ {
+  "start": 306.12,
+  "end": 309.11,
+  "text": "this was the payload this was the end"
+ },
+ {
+  "start": 309.12,
+  "end": 312.77,
+  "text": "point and this was that is Source okay"
+ },
+ {
+  "start": 312.78,
+  "end": 317.03,
+  "text": "uh basically I should have actually"
+ },
+ {
+  "start": 317.04,
+  "end": 318.89,
+  "text": "selected both the messages okay"
+ },
+ {
+  "start": 318.9,
+  "end": 321.35,
+  "text": "otherwise it won't be exported so now"
+ },
+ {
+  "start": 321.36,
+  "end": 322.73,
+  "text": "you can see there are two folders"
+ },
+ {
+  "start": 322.74,
+  "end": 326.749,
+  "text": "created for two different messages okay"
+ },
+ {
+  "start": 326.759,
+  "end": 329.39,
+  "text": "and now if I come back here I can go"
+ },
+ {
+  "start": 329.4,
+  "end": 331.73,
+  "text": "ahead and clear this all this messages"
+ },
+ {
+  "start": 331.74,
+  "end": 334.189,
+  "text": "which are captured here and again I can"
+ },
+ {
+  "start": 334.199,
+  "end": 337.49,
+  "text": "start and I can start recording okay"
+ },
+ {
+  "start": 337.5,
+  "end": 341.27,
+  "text": "so this way even if you are not aware of"
+ },
+ {
+  "start": 341.28,
+  "end": 343.61,
+  "text": "some API messages which are happening in"
+ },
+ {
+  "start": 343.62,
+  "end": 346.249,
+  "text": "the background for your application and"
+ },
+ {
+  "start": 346.259,
+  "end": 348.77,
+  "text": "you are you know that it is using an API"
+ },
+ {
+  "start": 348.78,
+  "end": 351.469,
+  "text": "you can capture this API messages in"
+ },
+ {
+  "start": 351.479,
+  "end": 354.59,
+  "text": "this way and you can start capturing"
+ },
+ {
+  "start": 354.6,
+  "end": 357.23,
+  "text": "those API messages right here and then"
+ },
+ {
+  "start": 357.24,
+  "end": 359.57,
+  "text": "you can create your own test cases you"
+ },
+ {
+  "start": 359.58,
+  "end": 361.67,
+  "text": "can start verification even if the"
+ },
+ {
+  "start": 361.68,
+  "end": 363.83,
+  "text": "developers have not provided you with"
+ },
+ {
+  "start": 363.84,
+  "end": 366.05,
+  "text": "the exact API messages you can still"
+ },
+ {
+  "start": 366.06,
+  "end": 367.909,
+  "text": "figure out what are the API messages"
+ },
+ {
+  "start": 367.919,
+  "end": 371.21,
+  "text": "using this record feature so it's quite"
+ },
+ {
+  "start": 371.22,
+  "end": 374.51,
+  "text": "a useful feature if you are starting to"
+ },
+ {
+  "start": 374.52,
+  "end": 377.93,
+  "text": "work on some new API development uh for"
+ },
+ {
+  "start": 377.94,
+  "end": 380.15,
+  "text": "your application and you want to test"
+ },
+ {
+  "start": 380.16,
+  "end": 382.55,
+  "text": "your apis then this could be a useful"
+ },
+ {
+  "start": 382.56,
+  "end": 385.909,
+  "text": "feature okay"
+ },
+ {
+  "start": 388.07,
+  "end": 388.08,
+  "text": "so that's all for this video hopefully"
+ },
+ {
+  "start": 388.08,
+  "end": 390.05,
+  "text": "you enjoyed it and you learned something"
+ },
+ {
+  "start": 390.06,
+  "end": 393.77,
+  "text": "new about API testing using Tosca"
+ },
+ {
+  "start": 393.78,
+  "end": 396.529,
+  "text": "Beauty into a channel uh for more uh"
+ },
+ {
+  "start": 396.539,
+  "end": 398.629,
+  "text": "similar videos we'll be talking about"
+ },
+ {
+  "start": 398.639,
+  "end": 400.67,
+  "text": "lots of different topics related to"
+ },
+ {
+  "start": 400.68,
+  "end": 403.37,
+  "text": "Tosca and other automation tools so"
+ },
+ {
+  "start": 403.38,
+  "end": 407.09,
+  "text": "hopefully uh you can benefit from these"
+ },
+ {
+  "start": 407.1,
+  "end": 409.01,
+  "text": "free videos which are available on our"
+ },
+ {
+  "start": 409.02,
+  "end": 410.029,
+  "text": "Channel"
+ },
+ {
+  "start": 410.039,
+  "end": 412.43,
+  "text": "also please subscribe to our Channel if"
+ },
+ {
+  "start": 412.44,
+  "end": 414.77,
+  "text": "you have not already so that you get"
+ },
+ {
+  "start": 414.78,
+  "end": 417.05,
+  "text": "notified about each and every new video"
+ },
+ {
+  "start": 417.06,
+  "end": 419.629,
+  "text": "which we post on our channel so that's"
+ },
+ {
+  "start": 419.639,
+  "end": 422.39,
+  "text": "all for now until next time keep"
+ },
+ {
+  "start": 422.4,
+  "end": 425.39,
+  "text": "learning and keep enjoying our videos uh"
+ },
+ {
+  "start": 425.4,
+  "end": 428.66,
+  "text": "at our Channel thank you"
+ }
+]

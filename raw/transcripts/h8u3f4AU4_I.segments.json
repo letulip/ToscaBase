@@ -1,0 +1,822 @@
+[
+ {
+  "start": 12.549,
+  "end": 12.559,
+  "text": "hey everyone welcome back to our Channel"
+ },
+ {
+  "start": 12.559,
+  "end": 15.19,
+  "text": "I am back with another interesting topic"
+ },
+ {
+  "start": 15.2,
+  "end": 17.75,
+  "text": "in the TSA automation"
+ },
+ {
+  "start": 17.76,
+  "end": 21.15,
+  "text": "playlist so we are going to talk about"
+ },
+ {
+  "start": 21.16,
+  "end": 23.67,
+  "text": "uh error which you might come across"
+ },
+ {
+  "start": 23.68,
+  "end": 26.109,
+  "text": "when you are trying to execute a test"
+ },
+ {
+  "start": 26.119,
+  "end": 28.83,
+  "text": "keys or you are trying to execute a"
+ },
+ {
+  "start": 28.84,
+  "end": 32.03,
+  "text": "execution list or or even a test event"
+ },
+ {
+  "start": 32.04,
+  "end": 34.47,
+  "text": "now this could happen for a number of"
+ },
+ {
+  "start": 34.48,
+  "end": 36.51,
+  "text": "different reasons it could happen if"
+ },
+ {
+  "start": 36.52,
+  "end": 39.229,
+  "text": "you're working uh in your own workspace"
+ },
+ {
+  "start": 39.239,
+  "end": 41.229,
+  "text": "or it could happen if you're working on"
+ },
+ {
+  "start": 41.239,
+  "end": 44.27,
+  "text": "a multi-user workspace uh in a project"
+ },
+ {
+  "start": 44.28,
+  "end": 46.35,
+  "text": "where you have got lots of team members"
+ },
+ {
+  "start": 46.36,
+  "end": 49.67,
+  "text": "working on the same project right so uh"
+ },
+ {
+  "start": 49.68,
+  "end": 51.709,
+  "text": "let's first talk about what is the Ser"
+ },
+ {
+  "start": 51.719,
+  "end": 54.029,
+  "text": "about and then we will talk about uh why"
+ },
+ {
+  "start": 54.039,
+  "end": 56.83,
+  "text": "this occurs and how you can resolve this"
+ },
+ {
+  "start": 56.84,
+  "end": 60.549,
+  "text": "okay so uh for this I'm going to execute"
+ },
+ {
+  "start": 60.559,
+  "end": 65.109,
+  "text": "a particular execution list okay so uh"
+ },
+ {
+  "start": 65.119,
+  "end": 68.23,
+  "text": "it's here uh this is the execution list"
+ },
+ {
+  "start": 68.24,
+  "end": 70.67,
+  "text": "which I want to execute so looking at"
+ },
+ {
+  "start": 70.68,
+  "end": 72.71,
+  "text": "the execution list you don't see"
+ },
+ {
+  "start": 72.72,
+  "end": 74.749,
+  "text": "anything wrong here okay so it has"
+ },
+ {
+  "start": 74.759,
+  "end": 77.71,
+  "text": "passed once and then it has failed once"
+ },
+ {
+  "start": 77.72,
+  "end": 79.67,
+  "text": "and this is the execution list and then"
+ },
+ {
+  "start": 79.68,
+  "end": 82.31,
+  "text": "it is under execution folder we have"
+ },
+ {
+  "start": 82.32,
+  "end": 86.069,
+  "text": "also got some logs right now uh when I"
+ },
+ {
+  "start": 86.079,
+  "end": 89.429,
+  "text": "try to execute this so I try to execute"
+ },
+ {
+  "start": 89.439,
+  "end": 92.469,
+  "text": "the execute ution"
+ },
+ {
+  "start": 96.27,
+  "end": 96.28,
+  "text": "list okay uh I get error like this okay"
+ },
+ {
+  "start": 96.28,
+  "end": 98.749,
+  "text": "so unable to run the selected items no"
+ },
+ {
+  "start": 98.759,
+  "end": 104.31,
+  "text": "phys executor was found right um now it"
+ },
+ {
+  "start": 104.32,
+  "end": 107.429,
+  "text": "is also giving you a reason here but uh"
+ },
+ {
+  "start": 107.439,
+  "end": 109.95,
+  "text": "this is not always the case Okay"
+ },
+ {
+  "start": 109.96,
+  "end": 112.19,
+  "text": "sometimes you might just get this line"
+ },
+ {
+  "start": 112.2,
+  "end": 114.03,
+  "text": "which is unable to run the selected"
+ },
+ {
+  "start": 114.04,
+  "end": 118.51,
+  "text": "items and no phys executor was found now"
+ },
+ {
+  "start": 118.52,
+  "end": 120.95,
+  "text": "looking at this error uh it is very"
+ },
+ {
+  "start": 120.96,
+  "end": 122.83,
+  "text": "difficult to find out what might be the"
+ },
+ {
+  "start": 122.84,
+  "end": 126.429,
+  "text": "issue uh it might look like uh the"
+ },
+ {
+  "start": 126.439,
+  "end": 129.27,
+  "text": "executor is having some problem right"
+ },
+ {
+  "start": 129.28,
+  "end": 131.71,
+  "text": "especially when you are executing a test"
+ },
+ {
+  "start": 131.72,
+  "end": 134.11,
+  "text": "event okay in that case you might think"
+ },
+ {
+  "start": 134.12,
+  "end": 137.11,
+  "text": "that it is a error with your distributed"
+ },
+ {
+  "start": 137.12,
+  "end": 140.43,
+  "text": "execution or your distributed execution"
+ },
+ {
+  "start": 140.44,
+  "end": 143.35,
+  "text": "agent is not working but that is not the"
+ },
+ {
+  "start": 143.36,
+  "end": 145.79,
+  "text": "case okay so when you run it in an"
+ },
+ {
+  "start": 145.8,
+  "end": 149.03,
+  "text": "execution list you could get the reason"
+ },
+ {
+  "start": 149.04,
+  "end": 151.43,
+  "text": "why it is not running so it is very"
+ },
+ {
+  "start": 151.44,
+  "end": 153.63,
+  "text": "simple uh it is saying that this"
+ },
+ {
+  "start": 153.64,
+  "end": 156.35,
+  "text": "particular test step is not referencing"
+ },
+ {
+  "start": 156.36,
+  "end": 161.07,
+  "text": "a module okay now um to debug a little"
+ },
+ {
+  "start": 161.08,
+  "end": 165.27,
+  "text": "further okay so if uh we go back to this"
+ },
+ {
+  "start": 165.28,
+  "end": 167.869,
+  "text": "particular test case right so if I go"
+ },
+ {
+  "start": 167.879,
+  "end": 169.83,
+  "text": "back to this test"
+ },
+ {
+  "start": 169.84,
+  "end": 173.55,
+  "text": "case so here uh if I look at this"
+ },
+ {
+  "start": 173.56,
+  "end": 177.07,
+  "text": "particular test step right so if you"
+ },
+ {
+  "start": 177.08,
+  "end": 179.509,
+  "text": "look at this test step you will see uh"
+ },
+ {
+  "start": 179.519,
+  "end": 182.67,
+  "text": "there is no module attribute Associated"
+ },
+ {
+  "start": 182.68,
+  "end": 185.789,
+  "text": "which is being shown uh in the test step"
+ },
+ {
+  "start": 185.799,
+  "end": 189.03,
+  "text": "right now the values are still intact"
+ },
+ {
+  "start": 189.04,
+  "end": 192.39,
+  "text": "but uh the module is showing that it is"
+ },
+ {
+  "start": 192.4,
+  "end": 193.35,
+  "text": "not"
+ },
+ {
+  "start": 193.36,
+  "end": 196.11,
+  "text": "associated now uh what is the reason"
+ },
+ {
+  "start": 196.12,
+  "end": 199.55,
+  "text": "behind this and why did this happen Okay"
+ },
+ {
+  "start": 199.56,
+  "end": 201.869,
+  "text": "so if I try to uh jump to this"
+ },
+ {
+  "start": 201.879,
+  "end": 203.63,
+  "text": "particular module I don't have any"
+ },
+ {
+  "start": 203.64,
+  "end": 206.309,
+  "text": "option and that is because there is no"
+ },
+ {
+  "start": 206.319,
+  "end": 209.27,
+  "text": "module which is associated with this"
+ },
+ {
+  "start": 209.28,
+  "end": 212.27,
+  "text": "which means the module which was earlier"
+ },
+ {
+  "start": 212.28,
+  "end": 214.03,
+  "text": "associated with this particular test"
+ },
+ {
+  "start": 214.04,
+  "end": 218.11,
+  "text": "step has been removed uh by mistake or"
+ },
+ {
+  "start": 218.12,
+  "end": 220.99,
+  "text": "somebody else has removed that module or"
+ },
+ {
+  "start": 221.0,
+  "end": 223.429,
+  "text": "replaced that module or renamed that"
+ },
+ {
+  "start": 223.439,
+  "end": 225.869,
+  "text": "module right a lot of things could have"
+ },
+ {
+  "start": 225.879,
+  "end": 228.27,
+  "text": "happened and this could happen by"
+ },
+ {
+  "start": 228.28,
+  "end": 231.99,
+  "text": "accident or um this could happen for"
+ },
+ {
+  "start": 232.0,
+  "end": 234.19,
+  "text": "some reason right we don't know what"
+ },
+ {
+  "start": 234.2,
+  "end": 237.309,
+  "text": "that reason could be but that module was"
+ },
+ {
+  "start": 237.319,
+  "end": 240.55,
+  "text": "removed from the workspace and once uh"
+ },
+ {
+  "start": 240.56,
+  "end": 243.429,
+  "text": "it is removed then uh it will be removed"
+ },
+ {
+  "start": 243.439,
+  "end": 246.63,
+  "text": "from uh the test step which it was"
+ },
+ {
+  "start": 246.64,
+  "end": 249.83,
+  "text": "associated with now let me show you"
+ },
+ {
+  "start": 249.84,
+  "end": 252.429,
+  "text": "another example of how this could happen"
+ },
+ {
+  "start": 252.439,
+  "end": 256.189,
+  "text": "Okay so uh we have got this another"
+ },
+ {
+  "start": 256.199,
+  "end": 259.469,
+  "text": "execution list which is the swag Labs so"
+ },
+ {
+  "start": 259.479,
+  "end": 262.469,
+  "text": "if I go to jump to test case here uh we"
+ },
+ {
+  "start": 262.479,
+  "end": 264.51,
+  "text": "have got some standard modules like open"
+ },
+ {
+  "start": 264.52,
+  "end": 267.67,
+  "text": "URL and close browser okay uh obviously"
+ },
+ {
+  "start": 267.68,
+  "end": 269.67,
+  "text": "you cannot remove these standard mod"
+ },
+ {
+  "start": 269.68,
+  "end": 272.39,
+  "text": "modules but there is a module uh which"
+ },
+ {
+  "start": 272.4,
+  "end": 274.87,
+  "text": "is user login now this is application"
+ },
+ {
+  "start": 274.88,
+  "end": 277.43,
+  "text": "related so if I jump to this"
+ },
+ {
+  "start": 277.44,
+  "end": 279.87,
+  "text": "module uh it references this particular"
+ },
+ {
+  "start": 279.88,
+  "end": 283.909,
+  "text": "module okay now um by mistake uh if"
+ },
+ {
+  "start": 283.919,
+  "end": 285.51,
+  "text": "you're are working in a team and"
+ },
+ {
+  "start": 285.52,
+  "end": 288.99,
+  "text": "somebody uh has removed this module okay"
+ },
+ {
+  "start": 289.0,
+  "end": 293.35,
+  "text": "so if I go here and if I delete this um"
+ },
+ {
+  "start": 293.36,
+  "end": 295.79,
+  "text": "it will also show me a warning that it"
+ },
+ {
+  "start": 295.8,
+  "end": 298.79,
+  "text": "is associated or used in one test step"
+ },
+ {
+  "start": 298.8,
+  "end": 301.43,
+  "text": "so basically you should not remove it"
+ },
+ {
+  "start": 301.44,
+  "end": 304.15,
+  "text": "right but still somebody has maybe"
+ },
+ {
+  "start": 304.16,
+  "end": 307.39,
+  "text": "cleaned up some modules or he's working"
+ },
+ {
+  "start": 307.4,
+  "end": 311.469,
+  "text": "on something which is not required so he"
+ },
+ {
+  "start": 311.479,
+  "end": 313.87,
+  "text": "goes ahead and remove this or this could"
+ },
+ {
+  "start": 313.88,
+  "end": 316.749,
+  "text": "be done by mistake as well so once this"
+ },
+ {
+  "start": 316.759,
+  "end": 319.95,
+  "text": "is removed now if I go back to the test"
+ },
+ {
+  "start": 319.96,
+  "end": 323.11,
+  "text": "case you will see here that it shows me"
+ },
+ {
+  "start": 323.12,
+  "end": 325.51,
+  "text": "no module attribute Associated no modu"
+ },
+ {
+  "start": 325.52,
+  "end": 328.83,
+  "text": "attribute Associated and for this right"
+ },
+ {
+  "start": 328.84,
+  "end": 331.79,
+  "text": "remaining Things Are fine but now if you"
+ },
+ {
+  "start": 331.8,
+  "end": 335.55,
+  "text": "go ahead and try to run this so it is"
+ },
+ {
+  "start": 335.56,
+  "end": 338.39,
+  "text": "not going to run the complete test case"
+ },
+ {
+  "start": 338.4,
+  "end": 340.23,
+  "text": "even though we have CAU some other"
+ },
+ {
+  "start": 340.24,
+  "end": 343.629,
+  "text": "modules but uh it will not run this"
+ },
+ {
+  "start": 343.639,
+  "end": 346.27,
+  "text": "because one of the module is missing so"
+ },
+ {
+  "start": 346.28,
+  "end": 348.029,
+  "text": "that step which is referencing that"
+ },
+ {
+  "start": 348.039,
+  "end": 350.55,
+  "text": "module will not work so the test case"
+ },
+ {
+  "start": 350.56,
+  "end": 354.15,
+  "text": "itself will stop working"
+ },
+ {
+  "start": 354.16,
+  "end": 357.35,
+  "text": "okay so this is um how this particular"
+ },
+ {
+  "start": 357.36,
+  "end": 361.55,
+  "text": "error CA is caused okay it comes up uh"
+ },
+ {
+  "start": 361.56,
+  "end": 363.35,
+  "text": "frequently especially when you're"
+ },
+ {
+  "start": 363.36,
+  "end": 366.029,
+  "text": "working in a multi-user workspace uh and"
+ },
+ {
+  "start": 366.039,
+  "end": 368.35,
+  "text": "a multi-user repository where lots of"
+ },
+ {
+  "start": 368.36,
+  "end": 370.79,
+  "text": "people are working and uh you are not"
+ },
+ {
+  "start": 370.8,
+  "end": 373.55,
+  "text": "following best practices so uh these"
+ },
+ {
+  "start": 373.56,
+  "end": 376.07,
+  "text": "kind of things uh do generally happen"
+ },
+ {
+  "start": 376.08,
+  "end": 378.71,
+  "text": "but uh we should be aware of why this"
+ },
+ {
+  "start": 378.72,
+  "end": 381.83,
+  "text": "error is occurring and then obviously uh"
+ },
+ {
+  "start": 381.84,
+  "end": 384.83,
+  "text": "to solve this uh what we need to do is"
+ },
+ {
+  "start": 384.84,
+  "end": 387.749,
+  "text": "uh we need to remove this particular uh"
+ },
+ {
+  "start": 387.759,
+  "end": 390.189,
+  "text": "test step okay"
+ },
+ {
+  "start": 390.199,
+  "end": 393.55,
+  "text": "and then uh we need to um add it back"
+ },
+ {
+  "start": 393.56,
+  "end": 397.029,
+  "text": "into this okay so once you remove this"
+ },
+ {
+  "start": 397.039,
+  "end": 399.629,
+  "text": "then that particular error will uh not"
+ },
+ {
+  "start": 399.639,
+  "end": 403.39,
+  "text": "occur okay so if I run this now it will"
+ },
+ {
+  "start": 403.4,
+  "end": 405.029,
+  "text": "not give me any"
+ },
+ {
+  "start": 405.039,
+  "end": 408.99,
+  "text": "error so uh let's try and run this"
+ },
+ {
+  "start": 409.0,
+  "end": 411.51,
+  "text": "again and you will see that uh it will"
+ },
+ {
+  "start": 411.52,
+  "end": 413.55,
+  "text": "open the browser and then uh it will"
+ },
+ {
+  "start": 413.56,
+  "end": 416.43,
+  "text": "close the browser so whatever steps are"
+ },
+ {
+  "start": 416.44,
+  "end": 421.589,
+  "text": "present it will execute those steps okay"
+ },
+ {
+  "start": 425.07,
+  "end": 425.08,
+  "text": "so now the problem uh is resolved right"
+ },
+ {
+  "start": 425.08,
+  "end": 427.15,
+  "text": "uh it is able to execute this particular"
+ },
+ {
+  "start": 427.16,
+  "end": 429.95,
+  "text": "execution list because we have removed"
+ },
+ {
+  "start": 429.96,
+  "end": 431.71,
+  "text": "that particular test step which was"
+ },
+ {
+  "start": 431.72,
+  "end": 434.55,
+  "text": "having the problem obviously to fix this"
+ },
+ {
+  "start": 434.56,
+  "end": 437.27,
+  "text": "completely you need to rescan or you"
+ },
+ {
+  "start": 437.28,
+  "end": 440.07,
+  "text": "need to scan that particular application"
+ },
+ {
+  "start": 440.08,
+  "end": 442.43,
+  "text": "and create a module and then uh add your"
+ },
+ {
+  "start": 442.44,
+  "end": 445.029,
+  "text": "test step back into this particular test"
+ },
+ {
+  "start": 445.039,
+  "end": 448.15,
+  "text": "case so this was all about the error"
+ },
+ {
+  "start": 448.16,
+  "end": 450.11,
+  "text": "which comes up uh"
+ },
+ {
+  "start": 450.12,
+  "end": 453.15,
+  "text": "pretty frequently which is Executor not"
+ },
+ {
+  "start": 453.16,
+  "end": 456.749,
+  "text": "found so uh this is the reason behind"
+ },
+ {
+  "start": 456.759,
+  "end": 459.51,
+  "text": "the error uh it is due to a missing"
+ },
+ {
+  "start": 459.52,
+  "end": 465.309,
+  "text": "module in your"
+ },
+ {
+  "start": 467.67,
+  "end": 467.68,
+  "text": "workspace that's all for this particular"
+ },
+ {
+  "start": 467.68,
+  "end": 470.11,
+  "text": "video if you have any questions then"
+ },
+ {
+  "start": 470.12,
+  "end": 472.55,
+  "text": "please leave it in the comments if you"
+ },
+ {
+  "start": 472.56,
+  "end": 474.55,
+  "text": "like this video then please subscribe to"
+ },
+ {
+  "start": 474.56,
+  "end": 477.27,
+  "text": "our Channel thanks for watching and I"
+ },
+ {
+  "start": 477.28,
+  "end": 481.44,
+  "text": "will see you in the next video"
+ }
+]

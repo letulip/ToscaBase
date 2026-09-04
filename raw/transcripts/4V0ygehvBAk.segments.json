@@ -1,0 +1,792 @@
+[
+ {
+  "start": 7.67,
+  "end": 7.68,
+  "text": "hey everyone welcome back to this task"
+ },
+ {
+  "start": 7.68,
+  "end": 9.95,
+  "text": "automation playlist and today we are"
+ },
+ {
+  "start": 9.96,
+  "end": 12.169,
+  "text": "going to continue with another Excel"
+ },
+ {
+  "start": 12.179,
+  "end": 14.749,
+  "text": "feature which is available in Tosca"
+ },
+ {
+  "start": 14.759,
+  "end": 16.849,
+  "text": "now we have already seen how you can"
+ },
+ {
+  "start": 16.859,
+  "end": 19.43,
+  "text": "create this particular Excel workbook"
+ },
+ {
+  "start": 19.44,
+  "end": 23.51,
+  "text": "with a new uh Excel worksheet and even"
+ },
+ {
+  "start": 23.52,
+  "end": 26.75,
+  "text": "you can enter different values into your"
+ },
+ {
+  "start": 26.76,
+  "end": 30.23,
+  "text": "Excel cells right so just like we have"
+ },
+ {
+  "start": 30.24,
+  "end": 33.59,
+  "text": "prepared this employee worksheet okay"
+ },
+ {
+  "start": 33.6,
+  "end": 35.93,
+  "text": "with some employee names and salaries"
+ },
+ {
+  "start": 35.94,
+  "end": 37.79,
+  "text": "and total salary we have also verified"
+ },
+ {
+  "start": 37.8,
+  "end": 40.79,
+  "text": "it using different Excel modules present"
+ },
+ {
+  "start": 40.8,
+  "end": 43.19,
+  "text": "in the standard subset"
+ },
+ {
+  "start": 43.2,
+  "end": 46.49,
+  "text": "now if you have not watched this video I"
+ },
+ {
+  "start": 46.5,
+  "end": 48.65,
+  "text": "would recommend to go back to our"
+ },
+ {
+  "start": 48.66,
+  "end": 51.229,
+  "text": "Channel and watch this video first and"
+ },
+ {
+  "start": 51.239,
+  "end": 53.27,
+  "text": "then come back to this video where I'm"
+ },
+ {
+  "start": 53.28,
+  "end": 55.91,
+  "text": "going to explain you how you can use the"
+ },
+ {
+  "start": 55.92,
+  "end": 59.389,
+  "text": "same t-box modules to basically find the"
+ },
+ {
+  "start": 59.399,
+  "end": 62.029,
+  "text": "row count and column count for your"
+ },
+ {
+  "start": 62.039,
+  "end": 64.609,
+  "text": "Excel sheet okay so for this particular"
+ },
+ {
+  "start": 64.619,
+  "end": 66.469,
+  "text": "Excel sheet you can see there are four"
+ },
+ {
+  "start": 66.479,
+  "end": 69.59,
+  "text": "rows right and there are two columns so"
+ },
+ {
+  "start": 69.6,
+  "end": 72.109,
+  "text": "that is what we want to verify or we"
+ },
+ {
+  "start": 72.119,
+  "end": 75.49,
+  "text": "want to find out after we create some"
+ },
+ {
+  "start": 75.5,
+  "end": 78.89,
+  "text": "Excel sheet or for an existing Excel"
+ },
+ {
+  "start": 78.9,
+  "end": 80.57,
+  "text": "sheet okay"
+ },
+ {
+  "start": 80.58,
+  "end": 83.63,
+  "text": "so let's go back to Tosca and here you"
+ },
+ {
+  "start": 83.64,
+  "end": 85.67,
+  "text": "can see I have got already two test"
+ },
+ {
+  "start": 85.68,
+  "end": 87.71,
+  "text": "cases one is to compare to Excel files"
+ },
+ {
+  "start": 87.72,
+  "end": 91.31,
+  "text": "and one is to create uh an Excel sheet"
+ },
+ {
+  "start": 91.32,
+  "end": 93.83,
+  "text": "with some values in it right now I'm"
+ },
+ {
+  "start": 93.84,
+  "end": 96.109,
+  "text": "going to create a third test case and"
+ },
+ {
+  "start": 96.119,
+  "end": 98.33,
+  "text": "I'm going to show you how you can get"
+ },
+ {
+  "start": 98.34,
+  "end": 100.73,
+  "text": "the row count and column count of your"
+ },
+ {
+  "start": 100.74,
+  "end": 103.37,
+  "text": "Excel sheet using the Excel modules"
+ },
+ {
+  "start": 103.38,
+  "end": 106.969,
+  "text": "present in Tosca okay so I'm going to"
+ },
+ {
+  "start": 106.979,
+  "end": 110.27,
+  "text": "name it get row count"
+ },
+ {
+  "start": 110.28,
+  "end": 115.429,
+  "text": "and column count"
+ },
+ {
+  "start": 118.31,
+  "end": 118.32,
+  "text": "okay and we are going to reuse some of"
+ },
+ {
+  "start": 118.32,
+  "end": 120.289,
+  "text": "the test steps okay so these are"
+ },
+ {
+  "start": 120.299,
+  "end": 121.85,
+  "text": "basically the tree box modules which we"
+ },
+ {
+  "start": 121.86,
+  "end": 124.49,
+  "text": "have used earlier so I'll be using the"
+ },
+ {
+  "start": 124.5,
+  "end": 127.37,
+  "text": "open Excel bug book I'll be using Define"
+ },
+ {
+  "start": 127.38,
+  "end": 130.309,
+  "text": "excel range okay and a close Excel"
+ },
+ {
+  "start": 130.319,
+  "end": 133.25,
+  "text": "workbook so these three modules I'll be"
+ },
+ {
+  "start": 133.26,
+  "end": 134.809,
+  "text": "reusing here"
+ },
+ {
+  "start": 134.819,
+  "end": 136.91,
+  "text": "we need to make some changes quickly"
+ },
+ {
+  "start": 136.92,
+  "end": 140.63,
+  "text": "okay so I don't want to create any new"
+ },
+ {
+  "start": 140.64,
+  "end": 143.63,
+  "text": "um Excel workbook I will be using the"
+ },
+ {
+  "start": 143.64,
+  "end": 145.01,
+  "text": "same Excel workbook which is already"
+ },
+ {
+  "start": 145.02,
+  "end": 147.71,
+  "text": "created so I will change it to false"
+ },
+ {
+  "start": 147.72,
+  "end": 150.949,
+  "text": "and then Excel range okay so workbook"
+ },
+ {
+  "start": 150.959,
+  "end": 153.29,
+  "text": "name worksheet name and the range name"
+ },
+ {
+  "start": 153.3,
+  "end": 154.97,
+  "text": "will remain same"
+ },
+ {
+  "start": 154.98,
+  "end": 158.75,
+  "text": "here close Excel workbook so that's also"
+ },
+ {
+  "start": 158.76,
+  "end": 162.89,
+  "text": "fine right now I'm going to add one more"
+ },
+ {
+  "start": 162.9,
+  "end": 165.65,
+  "text": "module here so let's go out to our test"
+ },
+ {
+  "start": 165.66,
+  "end": 168.97,
+  "text": "step and here we will try and find Excel"
+ },
+ {
+  "start": 168.98,
+  "end": 174.35,
+  "text": "range manipulation okay the last one"
+ },
+ {
+  "start": 174.36,
+  "end": 177.229,
+  "text": "and uh we are going to drag it before"
+ },
+ {
+  "start": 177.239,
+  "end": 179.69,
+  "text": "the close Excel workbook here I'm going"
+ },
+ {
+  "start": 179.7,
+  "end": 183.229,
+  "text": "to change this name and name it to get"
+ },
+ {
+  "start": 183.239,
+  "end": 186.47,
+  "text": "row count"
+ },
+ {
+  "start": 190.25,
+  "end": 190.26,
+  "text": "okay and then I'm going to copy this and"
+ },
+ {
+  "start": 190.26,
+  "end": 193.85,
+  "text": "paste it again okay and again I'm going"
+ },
+ {
+  "start": 193.86,
+  "end": 196.43,
+  "text": "to place it here and I'm going to change"
+ },
+ {
+  "start": 196.44,
+  "end": 199.79,
+  "text": "this to get column count"
+ },
+ {
+  "start": 199.8,
+  "end": 201.589,
+  "text": "okay so these are the two test steps"
+ },
+ {
+  "start": 201.599,
+  "end": 205.19,
+  "text": "built from the same module which is the"
+ },
+ {
+  "start": 205.2,
+  "end": 208.07,
+  "text": "Excel range manipulation right"
+ },
+ {
+  "start": 208.08,
+  "end": 211.61,
+  "text": "so in this we have got the range name so"
+ },
+ {
+  "start": 211.62,
+  "end": 213.89,
+  "text": "we'll keep it so that it can find that"
+ },
+ {
+  "start": 213.9,
+  "end": 215.63,
+  "text": "particular range okay which we have"
+ },
+ {
+  "start": 215.64,
+  "end": 217.309,
+  "text": "defined already"
+ },
+ {
+  "start": 217.319,
+  "end": 220.369,
+  "text": "and we're going to paste it here in the"
+ },
+ {
+  "start": 220.379,
+  "end": 224.57,
+  "text": "data table we just need to uh get the"
+ },
+ {
+  "start": 224.58,
+  "end": 227.33,
+  "text": "row count okay and how you can do that"
+ },
+ {
+  "start": 227.34,
+  "end": 230.089,
+  "text": "so under the value just click on this"
+ },
+ {
+  "start": 230.099,
+  "end": 232.85,
+  "text": "Arrow okay and here you will see you can"
+ },
+ {
+  "start": 232.86,
+  "end": 235.13,
+  "text": "Define some property and some value"
+ },
+ {
+  "start": 235.14,
+  "end": 239.149,
+  "text": "right so here I'm going to uh make it"
+ },
+ {
+  "start": 239.159,
+  "end": 242.509,
+  "text": "row count okay and here I'm going to"
+ },
+ {
+  "start": 242.519,
+  "end": 245.089,
+  "text": "give some value called RC or variable"
+ },
+ {
+  "start": 245.099,
+  "end": 247.85,
+  "text": "name okay and I'm going to change this"
+ },
+ {
+  "start": 247.86,
+  "end": 250.369,
+  "text": "action mode to buffer"
+ },
+ {
+  "start": 250.379,
+  "end": 252.77,
+  "text": "so what it is going to do is it is going"
+ },
+ {
+  "start": 252.78,
+  "end": 255.41,
+  "text": "to get the row count okay so it's a"
+ },
+ {
+  "start": 255.42,
+  "end": 257.39,
+  "text": "special property which can get the row"
+ },
+ {
+  "start": 257.4,
+  "end": 260.449,
+  "text": "count from a table in Tosca and then it"
+ },
+ {
+  "start": 260.459,
+  "end": 263.629,
+  "text": "will assign that value to RC okay"
+ },
+ {
+  "start": 263.639,
+  "end": 266.689,
+  "text": "similar thing you need to do it here"
+ },
+ {
+  "start": 266.699,
+  "end": 270.29,
+  "text": "you can also directly type this okay"
+ },
+ {
+  "start": 270.3,
+  "end": 273.77,
+  "text": "but let's do it this way so again column"
+ },
+ {
+  "start": 273.78,
+  "end": 275.21,
+  "text": "count"
+ },
+ {
+  "start": 275.22,
+  "end": 278.99,
+  "text": "and then uh in the value we'll put it CC"
+ },
+ {
+  "start": 279.0,
+  "end": 281.81,
+  "text": "okay and then we'll change this to"
+ },
+ {
+  "start": 281.82,
+  "end": 283.31,
+  "text": "buffer"
+ },
+ {
+  "start": 283.32,
+  "end": 284.629,
+  "text": "right so"
+ },
+ {
+  "start": 284.639,
+  "end": 287.629,
+  "text": "RC and CC are the buffer values so that"
+ },
+ {
+  "start": 287.639,
+  "end": 289.85,
+  "text": "will contain the actual row count and"
+ },
+ {
+  "start": 289.86,
+  "end": 291.35,
+  "text": "column count of this particular table"
+ },
+ {
+  "start": 291.36,
+  "end": 293.09,
+  "text": "right"
+ },
+ {
+  "start": 293.1,
+  "end": 296.27,
+  "text": "so that's all you need to do uh to get"
+ },
+ {
+  "start": 296.28,
+  "end": 298.189,
+  "text": "the row count in column count for your"
+ },
+ {
+  "start": 298.199,
+  "end": 301.61,
+  "text": "Excel workbook right let's go ahead and"
+ },
+ {
+  "start": 301.62,
+  "end": 309.77,
+  "text": "run this now"
+ },
+ {
+  "start": 313.49,
+  "end": 313.5,
+  "text": "okay so this is going to fail because my"
+ },
+ {
+  "start": 313.5,
+  "end": 316.67,
+  "text": "file is already open right so whenever"
+ },
+ {
+  "start": 316.68,
+  "end": 319.55,
+  "text": "you run uh any anything with an Excel"
+ },
+ {
+  "start": 319.56,
+  "end": 321.83,
+  "text": "sheet or Excel workbook you need to make"
+ },
+ {
+  "start": 321.84,
+  "end": 325.01,
+  "text": "sure that the Excel is not in use okay"
+ },
+ {
+  "start": 325.02,
+  "end": 331.49,
+  "text": "so let's go ahead and close our Excel"
+ },
+ {
+  "start": 333.409,
+  "end": 333.419,
+  "text": "okay save it"
+ },
+ {
+  "start": 333.419,
+  "end": 335.749,
+  "text": "so let's try and run it again but before"
+ },
+ {
+  "start": 335.759,
+  "end": 338.15,
+  "text": "that I just noticed that we missed one"
+ },
+ {
+  "start": 338.16,
+  "end": 340.67,
+  "text": "thing okay so in the get column count"
+ },
+ {
+  "start": 340.68,
+  "end": 343.189,
+  "text": "test tip we did not give the range name"
+ },
+ {
+  "start": 343.199,
+  "end": 346.37,
+  "text": "so let's give this employee data"
+ },
+ {
+  "start": 346.38,
+  "end": 349.31,
+  "text": "and just just verify okay so both the"
+ },
+ {
+  "start": 349.32,
+  "end": 352.07,
+  "text": "range names are present and let's try"
+ },
+ {
+  "start": 352.08,
+  "end": 354.05,
+  "text": "and run this again hopefully this time"
+ },
+ {
+  "start": 354.06,
+  "end": 359.81,
+  "text": "it will pass"
+ },
+ {
+  "start": 362.749,
+  "end": 362.759,
+  "text": "okay so the test case has passed and if"
+ },
+ {
+  "start": 362.759,
+  "end": 365.749,
+  "text": "I look at the results right if we go"
+ },
+ {
+  "start": 365.759,
+  "end": 368.87,
+  "text": "into the log info you can see uh range"
+ },
+ {
+  "start": 368.88,
+  "end": 371.05,
+  "text": "employee data is updated successfully"
+ },
+ {
+  "start": 371.06,
+  "end": 373.909,
+  "text": "and then in the row count"
+ },
+ {
+  "start": 373.919,
+  "end": 377.27,
+  "text": "you will see that the RC has been set to"
+ },
+ {
+  "start": 377.28,
+  "end": 381.05,
+  "text": "Value 4 okay so that's our buffer and"
+ },
+ {
+  "start": 381.06,
+  "end": 383.51,
+  "text": "then the column count uh"
+ },
+ {
+  "start": 383.52,
+  "end": 386.029,
+  "text": "okay it has been set to two so we had"
+ },
+ {
+  "start": 386.039,
+  "end": 388.37,
+  "text": "four rows and we had two columns and"
+ },
+ {
+  "start": 388.38,
+  "end": 391.189,
+  "text": "that's what it is storing in the buffer"
+ },
+ {
+  "start": 391.199,
+  "end": 394.189,
+  "text": "now if you want to verify a certain row"
+ },
+ {
+  "start": 394.199,
+  "end": 396.11,
+  "text": "count and column count you can just use"
+ },
+ {
+  "start": 396.12,
+  "end": 397.909,
+  "text": "this buffer values and put a"
+ },
+ {
+  "start": 397.919,
+  "end": 401.09,
+  "text": "verification step later on okay so that"
+ },
+ {
+  "start": 401.1,
+  "end": 402.95,
+  "text": "we already know so I'm not going to do"
+ },
+ {
+  "start": 402.96,
+  "end": 406.67,
+  "text": "it I will leave it for you to do it"
+ },
+ {
+  "start": 406.68,
+  "end": 410.93,
+  "text": "okay so that's how easy it is to find"
+ },
+ {
+  "start": 410.94,
+  "end": 413.27,
+  "text": "the row and column count of a particular"
+ },
+ {
+  "start": 413.28,
+  "end": 416.09,
+  "text": "Excel workbook it may be an existing one"
+ },
+ {
+  "start": 416.1,
+  "end": 418.189,
+  "text": "or if you are creating a new one you can"
+ },
+ {
+  "start": 418.199,
+  "end": 420.35,
+  "text": "still add the steps and then you can"
+ },
+ {
+  "start": 420.36,
+  "end": 423.89,
+  "text": "verify the row count and column count"
+ },
+ {
+  "start": 423.9,
+  "end": 425.87,
+  "text": "so that's all for this video I hope you"
+ },
+ {
+  "start": 425.88,
+  "end": 427.61,
+  "text": "enjoyed it and you learned something new"
+ },
+ {
+  "start": 427.62,
+  "end": 428.87,
+  "text": "today"
+ },
+ {
+  "start": 428.88,
+  "end": 430.85,
+  "text": "if you have got any questions just leave"
+ },
+ {
+  "start": 430.86,
+  "end": 433.249,
+  "text": "it in the comments and do share it with"
+ },
+ {
+  "start": 433.259,
+  "end": 436.73,
+  "text": "others who might find it useful also"
+ },
+ {
+  "start": 436.74,
+  "end": 438.409,
+  "text": "don't forget to subscribe to our channel"
+ },
+ {
+  "start": 438.419,
+  "end": 440.749,
+  "text": "so that you don't miss out on any new"
+ },
+ {
+  "start": 440.759,
+  "end": 443.689,
+  "text": "videos being uploaded to our Channel"
+ },
+ {
+  "start": 443.699,
+  "end": 446.15,
+  "text": "until the next video keep watching and"
+ },
+ {
+  "start": 446.16,
+  "end": 448.759,
+  "text": "keep learning"
+ }
+]

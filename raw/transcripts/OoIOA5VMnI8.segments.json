@@ -1,0 +1,1132 @@
+[
+ {
+  "start": 2.149,
+  "end": 2.159,
+  "text": "hey everyone welcome to another"
+ },
+ {
+  "start": 2.159,
+  "end": 4.97,
+  "text": "interesting lesson in this Tosca course"
+ },
+ {
+  "start": 4.98,
+  "end": 7.43,
+  "text": "um today I'm going to talk about"
+ },
+ {
+  "start": 7.44,
+  "end": 9.71,
+  "text": "how you can steer your Tosca Commander"
+ },
+ {
+  "start": 9.72,
+  "end": 11.75,
+  "text": "using the command line tool which is"
+ },
+ {
+  "start": 11.76,
+  "end": 14.27,
+  "text": "also known as DC cell okay this is"
+ },
+ {
+  "start": 14.28,
+  "end": 17.33,
+  "text": "provided by Tosca so that you can"
+ },
+ {
+  "start": 17.34,
+  "end": 20.39,
+  "text": "execute your scripts not only from Tosca"
+ },
+ {
+  "start": 20.4,
+  "end": 23.51,
+  "text": "Commander but from the back end using uh"
+ },
+ {
+  "start": 23.52,
+  "end": 26.269,
+  "text": "any command line tool okay"
+ },
+ {
+  "start": 26.279,
+  "end": 28.37,
+  "text": "so for Windows we have got command"
+ },
+ {
+  "start": 28.38,
+  "end": 31.13,
+  "text": "prompt as you know and we can right away"
+ },
+ {
+  "start": 31.14,
+  "end": 33.709,
+  "text": "execute our Tosca test cases right from"
+ },
+ {
+  "start": 33.719,
+  "end": 36.35,
+  "text": "here using this particular tool so let's"
+ },
+ {
+  "start": 36.36,
+  "end": 38.51,
+  "text": "see how we can do that"
+ },
+ {
+  "start": 38.52,
+  "end": 41.33,
+  "text": "in order to access this TC shell which"
+ },
+ {
+  "start": 41.34,
+  "end": 43.67,
+  "text": "is the command line tool it is present"
+ },
+ {
+  "start": 43.68,
+  "end": 45.95,
+  "text": "in the Tosca Commander installation"
+ },
+ {
+  "start": 45.96,
+  "end": 49.25,
+  "text": "folder so one you are installing Tosca"
+ },
+ {
+  "start": 49.26,
+  "end": 51.59,
+  "text": "Commander it will be automatically set"
+ },
+ {
+  "start": 51.6,
+  "end": 53.75,
+  "text": "up for you okay you just need to access"
+ },
+ {
+  "start": 53.76,
+  "end": 55.43,
+  "text": "it and use it"
+ },
+ {
+  "start": 55.44,
+  "end": 58.189,
+  "text": "so to access it uh we need to go to that"
+ },
+ {
+  "start": 58.199,
+  "end": 60.41,
+  "text": "particular folder and one of the"
+ },
+ {
+  "start": 60.42,
+  "end": 62.689,
+  "text": "shortcuts which you can use is Commander"
+ },
+ {
+  "start": 62.699,
+  "end": 67.25,
+  "text": "underscore home okay and it is basically"
+ },
+ {
+  "start": 67.26,
+  "end": 69.17,
+  "text": "the same folder which is your"
+ },
+ {
+  "start": 69.18,
+  "end": 71.51,
+  "text": "installation directory program files"
+ },
+ {
+  "start": 71.52,
+  "end": 74.51,
+  "text": "trash Center Commander okay this is"
+ },
+ {
+  "start": 74.52,
+  "end": 76.91,
+  "text": "where this particular command line"
+ },
+ {
+  "start": 76.92,
+  "end": 79.85,
+  "text": "utility is present"
+ },
+ {
+  "start": 79.86,
+  "end": 82.73,
+  "text": "now in order to access this command line"
+ },
+ {
+  "start": 82.74,
+  "end": 86.09,
+  "text": "tool uh you don't only need to call it"
+ },
+ {
+  "start": 86.1,
+  "end": 87.77,
+  "text": "but you also need to pass some"
+ },
+ {
+  "start": 87.78,
+  "end": 89.99,
+  "text": "parameters and these parameters are"
+ },
+ {
+  "start": 90.0,
+  "end": 92.929,
+  "text": "basically the workspace path with uh"
+ },
+ {
+  "start": 92.939,
+  "end": 95.149,
+  "text": "your credentials for logging into that"
+ },
+ {
+  "start": 95.159,
+  "end": 96.59,
+  "text": "workspace"
+ },
+ {
+  "start": 96.6,
+  "end": 98.63,
+  "text": "now if you are working in a single user"
+ },
+ {
+  "start": 98.64,
+  "end": 100.609,
+  "text": "workspace you don't require any"
+ },
+ {
+  "start": 100.619,
+  "end": 102.71,
+  "text": "credentials but in a multi-user"
+ },
+ {
+  "start": 102.72,
+  "end": 105.289,
+  "text": "workspace in a real-time scenario you"
+ },
+ {
+  "start": 105.299,
+  "end": 107.63,
+  "text": "will require a username and password as"
+ },
+ {
+  "start": 107.64,
+  "end": 109.67,
+  "text": "well okay so you need to provide all of"
+ },
+ {
+  "start": 109.68,
+  "end": 110.51,
+  "text": "this"
+ },
+ {
+  "start": 110.52,
+  "end": 114.71,
+  "text": "and how you can do that is this so it's"
+ },
+ {
+  "start": 114.72,
+  "end": 117.469,
+  "text": "basically uh calling the TC cell and"
+ },
+ {
+  "start": 117.479,
+  "end": 120.59,
+  "text": "passing the parameters workspace and the"
+ },
+ {
+  "start": 120.6,
+  "end": 122.69,
+  "text": "login okay"
+ },
+ {
+  "start": 122.7,
+  "end": 124.73,
+  "text": "so in workspace I am giving the"
+ },
+ {
+  "start": 124.74,
+  "end": 127.13,
+  "text": "workspace path obviously you need to go"
+ },
+ {
+  "start": 127.14,
+  "end": 130.37,
+  "text": "till the tws file which is the actual"
+ },
+ {
+  "start": 130.38,
+  "end": 132.29,
+  "text": "workspace file okay"
+ },
+ {
+  "start": 132.3,
+  "end": 136.79,
+  "text": "also there are two ways of working with"
+ },
+ {
+  "start": 136.8,
+  "end": 138.47,
+  "text": "the TC shelf which is the command line"
+ },
+ {
+  "start": 138.48,
+  "end": 141.589,
+  "text": "tool a one is the interactive way and"
+ },
+ {
+  "start": 141.599,
+  "end": 144.29,
+  "text": "one is the script way we'll look at both"
+ },
+ {
+  "start": 144.3,
+  "end": 146.51,
+  "text": "of them briefly okay starting with the"
+ },
+ {
+  "start": 146.52,
+  "end": 148.91,
+  "text": "interactive way uh in interactive way"
+ },
+ {
+  "start": 148.92,
+  "end": 150.71,
+  "text": "you can interact with the command line"
+ },
+ {
+  "start": 150.72,
+  "end": 152.93,
+  "text": "tool basically so if the command line"
+ },
+ {
+  "start": 152.94,
+  "end": 156.229,
+  "text": "tool requires a any input you can"
+ },
+ {
+  "start": 156.239,
+  "end": 158.39,
+  "text": "provide them right away in the screen"
+ },
+ {
+  "start": 158.4,
+  "end": 161.449,
+  "text": "but in script uh in the script process"
+ },
+ {
+  "start": 161.459,
+  "end": 163.67,
+  "text": "you just write the script and prepared"
+ },
+ {
+  "start": 163.68,
+  "end": 166.309,
+  "text": "the script once and then you just run"
+ },
+ {
+  "start": 166.319,
+  "end": 167.93,
+  "text": "the script so there is no way to"
+ },
+ {
+  "start": 167.94,
+  "end": 169.85,
+  "text": "interact with the command line tool in"
+ },
+ {
+  "start": 169.86,
+  "end": 172.729,
+  "text": "between the execution okay"
+ },
+ {
+  "start": 172.739,
+  "end": 175.13,
+  "text": "so to start off with the interactive"
+ },
+ {
+  "start": 175.14,
+  "end": 177.71,
+  "text": "mode uh we required this command TC"
+ },
+ {
+  "start": 177.72,
+  "end": 180.35,
+  "text": "shell and then we pass the workspace"
+ },
+ {
+  "start": 180.36,
+  "end": 184.19,
+  "text": "so if I copy paste this path here"
+ },
+ {
+  "start": 184.2,
+  "end": 186.77,
+  "text": "and then it is going to check for the"
+ },
+ {
+  "start": 186.78,
+  "end": 190.369,
+  "text": "license and then it is trying to login"
+ },
+ {
+  "start": 190.379,
+  "end": 192.649,
+  "text": "into this workspace okay"
+ },
+ {
+  "start": 192.659,
+  "end": 195.589,
+  "text": "for now it is stopped by another process"
+ },
+ {
+  "start": 195.599,
+  "end": 198.67,
+  "text": "which is basically the workspace"
+ },
+ {
+  "start": 198.68,
+  "end": 203.39,
+  "text": "opened in my Tosca Commander okay so do"
+ },
+ {
+  "start": 203.4,
+  "end": 206.149,
+  "text": "keep in mind that you cannot open the"
+ },
+ {
+  "start": 206.159,
+  "end": 208.43,
+  "text": "workspace in two places at the same time"
+ },
+ {
+  "start": 208.44,
+  "end": 209.869,
+  "text": "unless"
+ },
+ {
+  "start": 209.879,
+  "end": 213.11,
+  "text": "you are using a multi-user workspace and"
+ },
+ {
+  "start": 213.12,
+  "end": 215.53,
+  "text": "you have got different repositories but"
+ },
+ {
+  "start": 215.54,
+  "end": 218.21,
+  "text": "for this particular repository I cannot"
+ },
+ {
+  "start": 218.22,
+  "end": 220.13,
+  "text": "access it from the command line and also"
+ },
+ {
+  "start": 220.14,
+  "end": 222.589,
+  "text": "from the Tosca Commander I need to close"
+ },
+ {
+  "start": 222.599,
+  "end": 226.55,
+  "text": "one of them okay so let's press yes here"
+ },
+ {
+  "start": 226.56,
+  "end": 229.67,
+  "text": "okay since uh this is a single user"
+ },
+ {
+  "start": 229.68,
+  "end": 232.25,
+  "text": "workspace so it doesn't require username"
+ },
+ {
+  "start": 232.26,
+  "end": 234.41,
+  "text": "and password and Tosca already"
+ },
+ {
+  "start": 234.42,
+  "end": 236.869,
+  "text": "recognizes that and that's the reason it"
+ },
+ {
+  "start": 236.879,
+  "end": 239.03,
+  "text": "didn't ask for any username and password"
+ },
+ {
+  "start": 239.04,
+  "end": 241.85,
+  "text": "okay so when you see this prompt that"
+ },
+ {
+  "start": 241.86,
+  "end": 244.25,
+  "text": "means you have successfully logged in"
+ },
+ {
+  "start": 244.26,
+  "end": 246.949,
+  "text": "into the TC shell and it is connected to"
+ },
+ {
+  "start": 246.959,
+  "end": 250.03,
+  "text": "your workspace now okay so now you can"
+ },
+ {
+  "start": 250.04,
+  "end": 253.009,
+  "text": "go ahead and run all the commands but"
+ },
+ {
+  "start": 253.019,
+  "end": 255.649,
+  "text": "what commands are included in the TC"
+ },
+ {
+  "start": 255.659,
+  "end": 259.49,
+  "text": "shell that can be easily uh noted by"
+ },
+ {
+  "start": 259.5,
+  "end": 261.949,
+  "text": "this health command okay so when you"
+ },
+ {
+  "start": 261.959,
+  "end": 264.35,
+  "text": "write this help command it will show you"
+ },
+ {
+  "start": 264.36,
+  "end": 266.81,
+  "text": "all the different options or all the"
+ },
+ {
+  "start": 266.82,
+  "end": 267.95,
+  "text": "commands with all the different"
+ },
+ {
+  "start": 267.96,
+  "end": 269.89,
+  "text": "parameters okay"
+ },
+ {
+  "start": 269.9,
+  "end": 272.749,
+  "text": "the important words are compact"
+ },
+ {
+  "start": 272.759,
+  "end": 275.03,
+  "text": "workspace which will basically com uh"
+ },
+ {
+  "start": 275.04,
+  "end": 277.49,
+  "text": "compactive works for performance reasons"
+ },
+ {
+  "start": 277.5,
+  "end": 280.67,
+  "text": "you can change the node you can call a"
+ },
+ {
+  "start": 280.68,
+  "end": 282.17,
+  "text": "script"
+ },
+ {
+  "start": 282.18,
+  "end": 285.65,
+  "text": "right uh you can get uh all options get"
+ },
+ {
+  "start": 285.66,
+  "end": 288.71,
+  "text": "option you can set different parameters"
+ },
+ {
+  "start": 288.72,
+  "end": 290.629,
+  "text": "you can do a health check"
+ },
+ {
+  "start": 290.639,
+  "end": 293.57,
+  "text": "okay you can jump to a particular node"
+ },
+ {
+  "start": 293.58,
+  "end": 298.01,
+  "text": "so this is what we will see later on"
+ },
+ {
+  "start": 298.02,
+  "end": 302.629,
+  "text": "and you can save uh save options uh as I"
+ },
+ {
+  "start": 302.639,
+  "end": 305.629,
+  "text": "said set option set property and then"
+ },
+ {
+  "start": 305.639,
+  "end": 308.87,
+  "text": "you can also run a particular task so"
+ },
+ {
+  "start": 308.88,
+  "end": 311.629,
+  "text": "task is basically uh something like"
+ },
+ {
+  "start": 311.639,
+  "end": 314.51,
+  "text": "execution so if you want to execute your"
+ },
+ {
+  "start": 314.52,
+  "end": 316.79,
+  "text": "test cases you can use it using this"
+ },
+ {
+  "start": 316.8,
+  "end": 319.189,
+  "text": "task okay"
+ },
+ {
+  "start": 319.199,
+  "end": 321.469,
+  "text": "so we are going to look at some of these"
+ },
+ {
+  "start": 321.479,
+  "end": 323.51,
+  "text": "commands not all of them at least but"
+ },
+ {
+  "start": 323.52,
+  "end": 327.409,
+  "text": "the most important ones are the task and"
+ },
+ {
+  "start": 327.419,
+  "end": 329.57,
+  "text": "if you want to perform some background"
+ },
+ {
+  "start": 329.58,
+  "end": 332.93,
+  "text": "checks like the health check or if you"
+ },
+ {
+  "start": 332.94,
+  "end": 335.39,
+  "text": "want to check in all so those things you"
+ },
+ {
+  "start": 335.4,
+  "end": 338.57,
+  "text": "can do using this command line tool"
+ },
+ {
+  "start": 338.58,
+  "end": 339.59,
+  "text": "okay"
+ },
+ {
+  "start": 339.6,
+  "end": 342.23,
+  "text": "so this is the interactive mode uh and"
+ },
+ {
+  "start": 342.24,
+  "end": 345.529,
+  "text": "then if I can exit from this interactive"
+ },
+ {
+  "start": 345.539,
+  "end": 346.43,
+  "text": "mode"
+ },
+ {
+  "start": 346.44,
+  "end": 349.629,
+  "text": "as I said it asks for different"
+ },
+ {
+  "start": 349.639,
+  "end": 353.33,
+  "text": "inputs right so it will really ask you"
+ },
+ {
+  "start": 353.34,
+  "end": 356.51,
+  "text": "how you want to exit decision or you"
+ },
+ {
+  "start": 356.52,
+  "end": 360.17,
+  "text": "want to login into this your workspace"
+ },
+ {
+  "start": 360.18,
+  "end": 363.05,
+  "text": "is locked so all of this are inputs"
+ },
+ {
+  "start": 363.06,
+  "end": 365.45,
+  "text": "which is asking from the user so that's"
+ },
+ {
+  "start": 365.46,
+  "end": 367.73,
+  "text": "the interactive mode but in script mode"
+ },
+ {
+  "start": 367.74,
+  "end": 369.89,
+  "text": "you will not find all of these prompts"
+ },
+ {
+  "start": 369.9,
+  "end": 373.51,
+  "text": "okay"
+ },
+ {
+  "start": 376.85,
+  "end": 376.86,
+  "text": "so I'm now exiting the interactive mode"
+ },
+ {
+  "start": 376.86,
+  "end": 380.27,
+  "text": "and let's clear this screen so that we"
+ },
+ {
+  "start": 380.28,
+  "end": 383.029,
+  "text": "can see it and then we are going to use"
+ },
+ {
+  "start": 383.039,
+  "end": 386.23,
+  "text": "the script mode okay so in script mode"
+ },
+ {
+  "start": 386.24,
+  "end": 389.629,
+  "text": "uh apart from these parameters we can"
+ },
+ {
+  "start": 389.639,
+  "end": 392.99,
+  "text": "also pass a parameter which contains the"
+ },
+ {
+  "start": 393.0,
+  "end": 395.809,
+  "text": "script uh path to the script file okay"
+ },
+ {
+  "start": 395.819,
+  "end": 398.93,
+  "text": "so the script.tcs this is the file which"
+ },
+ {
+  "start": 398.94,
+  "end": 401.21,
+  "text": "I have created and it contains some"
+ },
+ {
+  "start": 401.22,
+  "end": 404.689,
+  "text": "commands or some operations which I want"
+ },
+ {
+  "start": 404.699,
+  "end": 407.39,
+  "text": "to perform using the Tosca Commander"
+ },
+ {
+  "start": 407.4,
+  "end": 409.909,
+  "text": "okay and if I open this you will see"
+ },
+ {
+  "start": 409.919,
+  "end": 411.89,
+  "text": "there are four commands basically first"
+ },
+ {
+  "start": 411.9,
+  "end": 416.029,
+  "text": "is jump to node and it contains the node"
+ },
+ {
+  "start": 416.039,
+  "end": 419.45,
+  "text": "path uh where my execution list is"
+ },
+ {
+  "start": 419.46,
+  "end": 420.29,
+  "text": "present"
+ },
+ {
+  "start": 420.3,
+  "end": 423.529,
+  "text": "so the execution list is PDF compare"
+ },
+ {
+  "start": 423.539,
+  "end": 426.969,
+  "text": "okay so this will compare to PDF files"
+ },
+ {
+  "start": 426.979,
+  "end": 430.37,
+  "text": "and it is inside the execution and"
+ },
+ {
+  "start": 430.38,
+  "end": 433.67,
+  "text": "execution lists okay so basically you"
+ },
+ {
+  "start": 433.68,
+  "end": 436.49,
+  "text": "have to just look at the uh path of your"
+ },
+ {
+  "start": 436.5,
+  "end": 440.21,
+  "text": "particular object and just pass it here"
+ },
+ {
+  "start": 440.22,
+  "end": 442.39,
+  "text": "after that I'm"
+ },
+ {
+  "start": 442.4,
+  "end": 446.15,
+  "text": "calling the task command to perform some"
+ },
+ {
+  "start": 446.16,
+  "end": 448.37,
+  "text": "tasks like clearing the log of the"
+ },
+ {
+  "start": 448.38,
+  "end": 451.129,
+  "text": "execution and then running the execution"
+ },
+ {
+  "start": 451.139,
+  "end": 453.589,
+  "text": "list and then saving the results so"
+ },
+ {
+  "start": 453.599,
+  "end": 454.969,
+  "text": "these are the four commands which I'm"
+ },
+ {
+  "start": 454.979,
+  "end": 458.689,
+  "text": "running together in this script.tcs file"
+ },
+ {
+  "start": 458.699,
+  "end": 460.249,
+  "text": "okay"
+ },
+ {
+  "start": 460.259,
+  "end": 463.49,
+  "text": "now in order to run this I can copy this"
+ },
+ {
+  "start": 463.5,
+  "end": 466.07,
+  "text": "whole command okay so this is the script"
+ },
+ {
+  "start": 466.08,
+  "end": 469.07,
+  "text": "mode as you remember and we can just"
+ },
+ {
+  "start": 469.08,
+  "end": 471.77,
+  "text": "paste it here and we can just start"
+ },
+ {
+  "start": 471.78,
+  "end": 476.27,
+  "text": "running our script right from here"
+ },
+ {
+  "start": 479.33,
+  "end": 479.34,
+  "text": "so once the script is completed uh it"
+ },
+ {
+  "start": 479.34,
+  "end": 481.189,
+  "text": "will post the results back to Tosca"
+ },
+ {
+  "start": 481.199,
+  "end": 484.189,
+  "text": "commander and we can go into Tosca"
+ },
+ {
+  "start": 484.199,
+  "end": 486.71,
+  "text": "commander and verify their whether the"
+ },
+ {
+  "start": 486.72,
+  "end": 489.35,
+  "text": "execution was successful or failed"
+ },
+ {
+  "start": 489.36,
+  "end": 491.749,
+  "text": "now"
+ },
+ {
+  "start": 491.759,
+  "end": 495.83,
+  "text": "now why this is important is this is the"
+ },
+ {
+  "start": 495.84,
+  "end": 498.05,
+  "text": "only way you can integrate your Tosca"
+ },
+ {
+  "start": 498.06,
+  "end": 500.57,
+  "text": "test cases with a CI CD tool like"
+ },
+ {
+  "start": 500.58,
+  "end": 503.21,
+  "text": "Jenkins right so in Jenkins if you have"
+ },
+ {
+  "start": 503.22,
+  "end": 506.809,
+  "text": "got a script uh which you can execute"
+ },
+ {
+  "start": 506.819,
+  "end": 509.57,
+  "text": "from Jenkins directly you can automate"
+ },
+ {
+  "start": 509.58,
+  "end": 511.969,
+  "text": "your whole execution process or you can"
+ },
+ {
+  "start": 511.979,
+  "end": 515.69,
+  "text": "even schedule your executions okay so as"
+ },
+ {
+  "start": 515.7,
+  "end": 518.57,
+  "text": "you see uh it is showing all the steps"
+ },
+ {
+  "start": 518.58,
+  "end": 521.449,
+  "text": "which is it has performed and it is"
+ },
+ {
+  "start": 521.459,
+  "end": 523.67,
+  "text": "saying run finished so let's go to Tosca"
+ },
+ {
+  "start": 523.68,
+  "end": 527.449,
+  "text": "commander and let's verify whether it"
+ },
+ {
+  "start": 527.459,
+  "end": 529.25,
+  "text": "actually executed that particular"
+ },
+ {
+  "start": 529.26,
+  "end": 530.93,
+  "text": "execution list"
+ },
+ {
+  "start": 530.94,
+  "end": 534.05,
+  "text": "so if you remember uh we have given this"
+ },
+ {
+  "start": 534.06,
+  "end": 536.93,
+  "text": "path which is uh starts from the project"
+ },
+ {
+  "start": 536.94,
+  "end": 539.15,
+  "text": "right which is the top node and then"
+ },
+ {
+  "start": 539.16,
+  "end": 541.67,
+  "text": "execution then it goes to execution"
+ },
+ {
+  "start": 541.68,
+  "end": 545.389,
+  "text": "lists so the first step is to jump to"
+ },
+ {
+  "start": 545.399,
+  "end": 547.07,
+  "text": "this particular node which is PDF"
+ },
+ {
+  "start": 547.08,
+  "end": 551.09,
+  "text": "compare right and as you can see the"
+ },
+ {
+  "start": 551.1,
+  "end": 553.37,
+  "text": "start time stamp"
+ },
+ {
+  "start": 553.38,
+  "end": 557.69,
+  "text": "it has been executed just now okay and"
+ },
+ {
+  "start": 557.7,
+  "end": 559.73,
+  "text": "the results is fail obviously because"
+ },
+ {
+  "start": 559.74,
+  "end": 562.07,
+  "text": "the compare results failed that was"
+ },
+ {
+  "start": 562.08,
+  "end": 565.13,
+  "text": "expected but this execution was"
+ },
+ {
+  "start": 565.14,
+  "end": 567.41,
+  "text": "performed from the back end which is"
+ },
+ {
+  "start": 567.42,
+  "end": 569.75,
+  "text": "from the command line tool right not"
+ },
+ {
+  "start": 569.76,
+  "end": 572.93,
+  "text": "from Tosca Commander like the usual way"
+ },
+ {
+  "start": 572.94,
+  "end": 574.07,
+  "text": "we do it"
+ },
+ {
+  "start": 574.08,
+  "end": 575.81,
+  "text": "and this is more efficient and much"
+ },
+ {
+  "start": 575.82,
+  "end": 577.67,
+  "text": "faster obviously because you are doing"
+ },
+ {
+  "start": 577.68,
+  "end": 580.61,
+  "text": "it from the back end and you can even"
+ },
+ {
+  "start": 580.62,
+  "end": 583.79,
+  "text": "use this process to integrate your Tosca"
+ },
+ {
+  "start": 583.8,
+  "end": 588.11,
+  "text": "test cases or execution to uh CI CD tool"
+ },
+ {
+  "start": 588.12,
+  "end": 589.55,
+  "text": "okay"
+ },
+ {
+  "start": 589.56,
+  "end": 593.03,
+  "text": "so that's our next topic and it will be"
+ },
+ {
+  "start": 593.04,
+  "end": 594.889,
+  "text": "very interesting to see how you can run"
+ },
+ {
+  "start": 594.899,
+  "end": 597.769,
+  "text": "your test cases right from Jenkins"
+ },
+ {
+  "start": 597.779,
+  "end": 601.13,
+  "text": "so do look out for my next session which"
+ },
+ {
+  "start": 601.14,
+  "end": 602.81,
+  "text": "is much related to this"
+ },
+ {
+  "start": 602.82,
+  "end": 605.87,
+  "text": "and uh we'll talk more about how you can"
+ },
+ {
+  "start": 605.88,
+  "end": 609.68,
+  "text": "integrate your Tosca with Jenkins"
+ }
+]

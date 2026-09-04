@@ -1,0 +1,777 @@
+[
+ {
+  "start": 8.75,
+  "end": 8.76,
+  "text": "hey everyone welcome back to our Channel"
+ },
+ {
+  "start": 8.76,
+  "end": 11.39,
+  "text": "I am back with another interesting topic"
+ },
+ {
+  "start": 11.4,
+  "end": 14.39,
+  "text": "in the tosa automation playlist and"
+ },
+ {
+  "start": 14.4,
+  "end": 16.87,
+  "text": "today we are going to discuss how we can"
+ },
+ {
+  "start": 16.88,
+  "end": 20.71,
+  "text": "automate the save as dialog box which is"
+ },
+ {
+  "start": 20.72,
+  "end": 23.79,
+  "text": "uh like a Microsoft Windows dialog box"
+ },
+ {
+  "start": 23.8,
+  "end": 25.79,
+  "text": "and this cannot be steered like any"
+ },
+ {
+  "start": 25.8,
+  "end": 28.39,
+  "text": "other web application uh because you"
+ },
+ {
+  "start": 28.4,
+  "end": 30.99,
+  "text": "cannot scan this particular application"
+ },
+ {
+  "start": 31.0,
+  "end": 33.95,
+  "text": "through the normal X engine right uh"
+ },
+ {
+  "start": 33.96,
+  "end": 36.75,
+  "text": "since it's like a desktop based dialog"
+ },
+ {
+  "start": 36.76,
+  "end": 40.869,
+  "text": "box so you need to use some other"
+ },
+ {
+  "start": 40.879,
+  "end": 44.029,
+  "text": "modules now uh here uh as you can see"
+ },
+ {
+  "start": 44.039,
+  "end": 45.869,
+  "text": "this dialog box appears whenever you are"
+ },
+ {
+  "start": 45.879,
+  "end": 48.27,
+  "text": "trying to save any particular file it"
+ },
+ {
+  "start": 48.28,
+  "end": 50.79,
+  "text": "could be any Microsoft Office file uh"
+ },
+ {
+  "start": 50.8,
+  "end": 53.069,
+  "text": "like a Word document so if you want to"
+ },
+ {
+  "start": 53.079,
+  "end": 55.229,
+  "text": "make some changes and after that you"
+ },
+ {
+  "start": 55.239,
+  "end": 58.27,
+  "text": "want to save this file so basically you"
+ },
+ {
+  "start": 58.28,
+  "end": 60.389,
+  "text": "need to steer all these elements right"
+ },
+ {
+  "start": 60.399,
+  "end": 63.99,
+  "text": "so you need to enter the file name uh"
+ },
+ {
+  "start": 64.0,
+  "end": 67.149,
+  "text": "the save as type uh then where do you"
+ },
+ {
+  "start": 67.159,
+  "end": 70.149,
+  "text": "want to save this or what name you want"
+ },
+ {
+  "start": 70.159,
+  "end": 72.99,
+  "text": "to put and then click on save or cancel"
+ },
+ {
+  "start": 73.0,
+  "end": 76.19,
+  "text": "right so these kind of uh dialog boxes"
+ },
+ {
+  "start": 76.2,
+  "end": 80.19,
+  "text": "can be steered okay using the save as uh"
+ },
+ {
+  "start": 80.2,
+  "end": 82.39,
+  "text": "module which is part of the t-box"
+ },
+ {
+  "start": 82.4,
+  "end": 85.069,
+  "text": "automation modules uh part of the"
+ },
+ {
+  "start": 85.079,
+  "end": 87.95,
+  "text": "standard subset which comes uh with tosa"
+ },
+ {
+  "start": 87.96,
+  "end": 90.67,
+  "text": "Commander so you can easy easily"
+ },
+ {
+  "start": 90.68,
+  "end": 93.27,
+  "text": "automate this particular scenario using"
+ },
+ {
+  "start": 93.28,
+  "end": 95.19,
+  "text": "that particular module so let's look how"
+ },
+ {
+  "start": 95.2,
+  "end": 99.27,
+  "text": "you can do this okay so I am here uh in"
+ },
+ {
+  "start": 99.28,
+  "end": 101.91,
+  "text": "my tosa test case section and I have"
+ },
+ {
+  "start": 101.92,
+  "end": 104.109,
+  "text": "created a test case here called save"
+ },
+ {
+  "start": 104.119,
+  "end": 107.51,
+  "text": "file so here I'm going to search and ADD"
+ },
+ {
+  "start": 107.52,
+  "end": 111.389,
+  "text": "test step and then go to tbox save"
+ },
+ {
+  "start": 111.399,
+  "end": 115.19,
+  "text": "as okay and then I'm going to add this"
+ },
+ {
+  "start": 115.2,
+  "end": 117.27,
+  "text": "here and here you can see there are a"
+ },
+ {
+  "start": 117.28,
+  "end": 119.95,
+  "text": "couple of module attributes uh which you"
+ },
+ {
+  "start": 119.96,
+  "end": 121.95,
+  "text": "can call them as parameters for this"
+ },
+ {
+  "start": 121.96,
+  "end": 124.99,
+  "text": "particular module so here uh the first"
+ },
+ {
+  "start": 125.0,
+  "end": 128.469,
+  "text": "module attribute is caption okay so this"
+ },
+ {
+  "start": 128.479,
+  "end": 131.63,
+  "text": "caption is basically U the caption of"
+ },
+ {
+  "start": 131.64,
+  "end": 134.309,
+  "text": "the window which you want to steer uh it"
+ },
+ {
+  "start": 134.319,
+  "end": 137.15,
+  "text": "could be mostly the title of the window"
+ },
+ {
+  "start": 137.16,
+  "end": 141.11,
+  "text": "so for example here uh the caption of"
+ },
+ {
+  "start": 141.12,
+  "end": 144.39,
+  "text": "this particular window is save as right"
+ },
+ {
+  "start": 144.4,
+  "end": 148.67,
+  "text": "so we need to enter the same here so I'm"
+ },
+ {
+  "start": 148.68,
+  "end": 152.35,
+  "text": "going to enter same as here so coming to"
+ },
+ {
+  "start": 152.36,
+  "end": 154.35,
+  "text": "the second module attribute is the file"
+ },
+ {
+  "start": 154.36,
+  "end": 157.07,
+  "text": "name label this what you see here so"
+ },
+ {
+  "start": 157.08,
+  "end": 160.35,
+  "text": "this is the label of the file name right"
+ },
+ {
+  "start": 160.36,
+  "end": 163.43,
+  "text": "um and if by default it is file name"
+ },
+ {
+  "start": 163.44,
+  "end": 165.39,
+  "text": "then tosa will automatically steer it"
+ },
+ {
+  "start": 165.4,
+  "end": 167.43,
+  "text": "you don't need to mention it separately"
+ },
+ {
+  "start": 167.44,
+  "end": 169.309,
+  "text": "but if it is something else if it is a"
+ },
+ {
+  "start": 169.319,
+  "end": 172.67,
+  "text": "some custom uh edit box then uh it has"
+ },
+ {
+  "start": 172.68,
+  "end": 175.07,
+  "text": "got a different label then also you can"
+ },
+ {
+  "start": 175.08,
+  "end": 177.949,
+  "text": "mention it but if you want you can still"
+ },
+ {
+  "start": 177.959,
+  "end": 181.19,
+  "text": "mention this okay so so I can say file"
+ },
+ {
+  "start": 181.2,
+  "end": 183.71,
+  "text": "name"
+ },
+ {
+  "start": 188.91,
+  "end": 188.92,
+  "text": "here okay and then uh the file path so"
+ },
+ {
+  "start": 188.92,
+  "end": 190.07,
+  "text": "where do you want to save this"
+ },
+ {
+  "start": 190.08,
+  "end": 192.67,
+  "text": "particular file and that will be entered"
+ },
+ {
+  "start": 192.68,
+  "end": 194.789,
+  "text": "right in the file name okay along with"
+ },
+ {
+  "start": 194.799,
+  "end": 196.869,
+  "text": "the path you will have the name of the"
+ },
+ {
+  "start": 196.879,
+  "end": 200.91,
+  "text": "file so uh we can enter this here the"
+ },
+ {
+  "start": 200.92,
+  "end": 204.07,
+  "text": "file path so I'm going to enter this uh"
+ },
+ {
+  "start": 204.08,
+  "end": 206.03,
+  "text": "c"
+ },
+ {
+  "start": 206.04,
+  "end": 209.35,
+  "text": "training and then uh the file file name"
+ },
+ {
+  "start": 209.36,
+  "end": 210.27,
+  "text": "actually"
+ },
+ {
+  "start": 210.28,
+  "end": 213.75,
+  "text": "okay so I'm going to call it"
+ },
+ {
+  "start": 213.76,
+  "end": 215.71,
+  "text": "test."
+ },
+ {
+  "start": 215.72,
+  "end": 217.39,
+  "text": "do"
+ },
+ {
+  "start": 217.4,
+  "end": 221.429,
+  "text": "right so this will be saved here uh"
+ },
+ {
+  "start": 221.439,
+  "end": 224.07,
+  "text": "under the training folder and then the"
+ },
+ {
+  "start": 224.08,
+  "end": 227.509,
+  "text": "button so this button refers to uh all"
+ },
+ {
+  "start": 227.519,
+  "end": 229.03,
+  "text": "the buttons in this particular dialog"
+ },
+ {
+  "start": 229.04,
+  "end": 232.869,
+  "text": "box so either want to click on save or"
+ },
+ {
+  "start": 232.879,
+  "end": 235.83,
+  "text": "cancel we want to click on save so I'm"
+ },
+ {
+  "start": 235.84,
+  "end": 238.91,
+  "text": "going to do that now so I'm going to"
+ },
+ {
+  "start": 238.92,
+  "end": 240.83,
+  "text": "write here save"
+ },
+ {
+  "start": 240.84,
+  "end": 242.91,
+  "text": "right and then there are two more"
+ },
+ {
+  "start": 242.92,
+  "end": 245.19,
+  "text": "attributes called confirmation popup"
+ },
+ {
+  "start": 245.2,
+  "end": 248.869,
+  "text": "caption and Confirmation popup button"
+ },
+ {
+  "start": 248.879,
+  "end": 251.99,
+  "text": "now these are basically the popups which"
+ },
+ {
+  "start": 252.0,
+  "end": 254.39,
+  "text": "might appear after you click on Save"
+ },
+ {
+  "start": 254.4,
+  "end": 257.83,
+  "text": "right so sometimes um some popup will"
+ },
+ {
+  "start": 257.84,
+  "end": 260.43,
+  "text": "appear whether uh you have changing the"
+ },
+ {
+  "start": 260.44,
+  "end": 262.43,
+  "text": "name of an existing file so it will ask"
+ },
+ {
+  "start": 262.44,
+  "end": 265.67,
+  "text": "you for a confirmation or you are making"
+ },
+ {
+  "start": 265.68,
+  "end": 269.189,
+  "text": "some other changes right so any popup"
+ },
+ {
+  "start": 269.199,
+  "end": 271.469,
+  "text": "which uh comes up after you click on"
+ },
+ {
+  "start": 271.479,
+  "end": 273.67,
+  "text": "Save could be handled with these two"
+ },
+ {
+  "start": 273.68,
+  "end": 275.909,
+  "text": "attributes so again we need to provide"
+ },
+ {
+  "start": 275.919,
+  "end": 278.55,
+  "text": "the caption and then uh we have to"
+ },
+ {
+  "start": 278.56,
+  "end": 280.43,
+  "text": "provide the button name which we want to"
+ },
+ {
+  "start": 280.44,
+  "end": 284.029,
+  "text": "click so I will tell you uh we'll see uh"
+ },
+ {
+  "start": 284.039,
+  "end": 286.469,
+  "text": "what kind of popup comes up after we"
+ },
+ {
+  "start": 286.479,
+  "end": 289.07,
+  "text": "perform this uh steps and then I will"
+ },
+ {
+  "start": 289.08,
+  "end": 292.029,
+  "text": "tell you how you can uh enter the"
+ },
+ {
+  "start": 292.039,
+  "end": 293.909,
+  "text": "remaining two attributes to handle that"
+ },
+ {
+  "start": 293.919,
+  "end": 295.79,
+  "text": "popup"
+ },
+ {
+  "start": 295.8,
+  "end": 298.95,
+  "text": "okay so let's go ahead and execute this"
+ },
+ {
+  "start": 298.96,
+  "end": 305.27,
+  "text": "now"
+ },
+ {
+  "start": 308.029,
+  "end": 308.039,
+  "text": "and as you can see uh it entered the"
+ },
+ {
+  "start": 308.039,
+  "end": 311.27,
+  "text": "path okay and it clicked on Save but"
+ },
+ {
+  "start": 311.28,
+  "end": 313.71,
+  "text": "after that there is a new popup from"
+ },
+ {
+  "start": 313.72,
+  "end": 315.87,
+  "text": "Microsoft Word you can see that it is"
+ },
+ {
+  "start": 315.88,
+  "end": 317.31,
+  "text": "mentioning your document will be"
+ },
+ {
+  "start": 317.32,
+  "end": 321.43,
+  "text": "upgraded to a a new file format okay and"
+ },
+ {
+  "start": 321.44,
+  "end": 323.39,
+  "text": "it is asking for your confirmation so"
+ },
+ {
+  "start": 323.4,
+  "end": 326.11,
+  "text": "this is a popup uh which comes up right"
+ },
+ {
+  "start": 326.12,
+  "end": 328.909,
+  "text": "uh we were not aware of this but uh if"
+ },
+ {
+  "start": 328.919,
+  "end": 331.79,
+  "text": "it comes up then it can be handled using"
+ },
+ {
+  "start": 331.8,
+  "end": 332.95,
+  "text": "the two"
+ },
+ {
+  "start": 332.96,
+  "end": 336.83,
+  "text": "attributes okay so here uh we need to"
+ },
+ {
+  "start": 336.84,
+  "end": 339.43,
+  "text": "provide a caption again so what's the"
+ },
+ {
+  "start": 339.44,
+  "end": 341.79,
+  "text": "caption it's Microsoft"
+ },
+ {
+  "start": 341.8,
+  "end": 345.469,
+  "text": "Word so I'm going to mention this"
+ },
+ {
+  "start": 345.479,
+  "end": 347.35,
+  "text": "Microsoft"
+ },
+ {
+  "start": 347.36,
+  "end": 350.71,
+  "text": "Word and then uh what button we want to"
+ },
+ {
+  "start": 350.72,
+  "end": 354.79,
+  "text": "enter here right so we want to click on"
+ },
+ {
+  "start": 354.8,
+  "end": 359.11,
+  "text": "okay to go over this so I'm going to say"
+ },
+ {
+  "start": 359.12,
+  "end": 363.99,
+  "text": "okay"
+ },
+ {
+  "start": 367.589,
+  "end": 367.599,
+  "text": "here right so these are uh the two"
+ },
+ {
+  "start": 367.599,
+  "end": 370.95,
+  "text": "changes which we need to do here to save"
+ },
+ {
+  "start": 370.96,
+  "end": 374.309,
+  "text": "this particular file now let's run this"
+ },
+ {
+  "start": 374.319,
+  "end": 376.87,
+  "text": "complete uh test step again for that I"
+ },
+ {
+  "start": 376.88,
+  "end": 379.469,
+  "text": "need to bring this back to the original"
+ },
+ {
+  "start": 379.479,
+  "end": 381.589,
+  "text": "state okay so I'm going to click on"
+ },
+ {
+  "start": 381.599,
+  "end": 383.99,
+  "text": "cancel and that will bring to this"
+ },
+ {
+  "start": 384.0,
+  "end": 386.27,
+  "text": "particular savest dialog box it will not"
+ },
+ {
+  "start": 386.28,
+  "end": 388.87,
+  "text": "be saved until you click on okay on that"
+ },
+ {
+  "start": 388.88,
+  "end": 392.83,
+  "text": "particular pop up right so again um I"
+ },
+ {
+  "start": 392.84,
+  "end": 397.07,
+  "text": "will going to run this complete step now"
+ },
+ {
+  "start": 397.08,
+  "end": 399.629,
+  "text": "so that it runs through the whole step"
+ },
+ {
+  "start": 399.639,
+  "end": 402.71,
+  "text": "okay so now you will see that uh this"
+ },
+ {
+  "start": 402.72,
+  "end": 406.79,
+  "text": "file has been saved okay uh with the"
+ },
+ {
+  "start": 406.8,
+  "end": 409.51,
+  "text": "name test. talk and in the exact"
+ },
+ {
+  "start": 409.52,
+  "end": 413.27,
+  "text": "location where we mentioned it so it"
+ },
+ {
+  "start": 413.28,
+  "end": 415.67,
+  "text": "went through all the steps right so this"
+ },
+ {
+  "start": 415.68,
+  "end": 418.51,
+  "text": "is how you can easily uh automate any"
+ },
+ {
+  "start": 418.52,
+  "end": 421.15,
+  "text": "save as stal box whenever it appears"
+ },
+ {
+  "start": 421.16,
+  "end": 422.71,
+  "text": "maybe it is from your desktop"
+ },
+ {
+  "start": 422.72,
+  "end": 425.71,
+  "text": "application or it is from some file"
+ },
+ {
+  "start": 425.72,
+  "end": 428.35,
+  "text": "which you are trying to"
+ },
+ {
+  "start": 428.36,
+  "end": 430.749,
+  "text": "automate that's all for this particular"
+ },
+ {
+  "start": 430.759,
+  "end": 433.189,
+  "text": "video if you have any questions then"
+ },
+ {
+  "start": 433.199,
+  "end": 435.67,
+  "text": "please leave it in the comments if you"
+ },
+ {
+  "start": 435.68,
+  "end": 437.589,
+  "text": "like this video then please subscribe to"
+ },
+ {
+  "start": 437.599,
+  "end": 440.35,
+  "text": "our Channel thanks for watching and I"
+ },
+ {
+  "start": 440.36,
+  "end": 442.99,
+  "text": "will see you in the next"
+ },
+ {
+  "start": 443.0,
+  "end": 446.0,
+  "text": "video"
+ }
+]

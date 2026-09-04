@@ -1,0 +1,1517 @@
+[
+ {
+  "start": 4.43,
+  "end": 4.44,
+  "text": "hey everyone welcome back to this Tosca"
+ },
+ {
+  "start": 4.44,
+  "end": 6.829,
+  "text": "playlist and we are going to continue"
+ },
+ {
+  "start": 6.839,
+  "end": 10.37,
+  "text": "with our API testing Series so this is"
+ },
+ {
+  "start": 10.38,
+  "end": 13.249,
+  "text": "the part 3 of this series and if you"
+ },
+ {
+  "start": 13.259,
+  "end": 15.47,
+  "text": "have not watched the earlier parts then"
+ },
+ {
+  "start": 15.48,
+  "end": 20.09,
+  "text": "go ahead and watch it uh on our Channel"
+ },
+ {
+  "start": 23.15,
+  "end": 23.16,
+  "text": "so now that uh we have scanned our URI"
+ },
+ {
+  "start": 23.16,
+  "end": 25.67,
+  "text": "and all the different messages the"
+ },
+ {
+  "start": 25.68,
+  "end": 29.029,
+  "text": "structure and functions of the API are"
+ },
+ {
+  "start": 29.039,
+  "end": 32.15,
+  "text": "already created for us uh in our API"
+ },
+ {
+  "start": 32.16,
+  "end": 33.229,
+  "text": "scan"
+ },
+ {
+  "start": 33.239,
+  "end": 36.049,
+  "text": "so now we are going to take the next"
+ },
+ {
+  "start": 36.059,
+  "end": 39.83,
+  "text": "step which is to uh create test cases"
+ },
+ {
+  "start": 39.84,
+  "end": 43.67,
+  "text": "from this particular messages right so"
+ },
+ {
+  "start": 43.68,
+  "end": 46.31,
+  "text": "that will do in Tosca commander and for"
+ },
+ {
+  "start": 46.32,
+  "end": 49.369,
+  "text": "this particular session I have created"
+ },
+ {
+  "start": 49.379,
+  "end": 52.729,
+  "text": "uh or I have opened the Tosca API scan"
+ },
+ {
+  "start": 52.739,
+  "end": 55.49,
+  "text": "from the commander okay so I haven't"
+ },
+ {
+  "start": 55.5,
+  "end": 58.79,
+  "text": "opened it uh from the Standalone version"
+ },
+ {
+  "start": 58.8,
+  "end": 60.83,
+  "text": "I've opened it from the Tosca Commander"
+ },
+ {
+  "start": 60.84,
+  "end": 62.569,
+  "text": "okay"
+ },
+ {
+  "start": 62.579,
+  "end": 65.509,
+  "text": "so for this purpose I'm going to use"
+ },
+ {
+  "start": 65.519,
+  "end": 68.87,
+  "text": "three different messages okay API"
+ },
+ {
+  "start": 68.88,
+  "end": 72.17,
+  "text": "messages and these are the first is post"
+ },
+ {
+  "start": 72.18,
+  "end": 75.71,
+  "text": "okay and this was basically uh it will"
+ },
+ {
+  "start": 75.72,
+  "end": 79.49,
+  "text": "add a new pet to this pet store okay and"
+ },
+ {
+  "start": 79.5,
+  "end": 82.429,
+  "text": "I have changed the name here to Max okay"
+ },
+ {
+  "start": 82.439,
+  "end": 85.249,
+  "text": "and the remaining uh payload is still"
+ },
+ {
+  "start": 85.259,
+  "end": 86.749,
+  "text": "the same"
+ },
+ {
+  "start": 86.759,
+  "end": 89.87,
+  "text": "and then um we are going to use the get"
+ },
+ {
+  "start": 89.88,
+  "end": 93.71,
+  "text": "pet by ID okay and this uh we need to"
+ },
+ {
+  "start": 93.72,
+  "end": 98.27,
+  "text": "pass a pet ID you can see here it's uh"
+ },
+ {
+  "start": 98.28,
+  "end": 101.45,
+  "text": "path parameter so I have provided a"
+ },
+ {
+  "start": 101.46,
+  "end": 103.31,
+  "text": "value here okay"
+ },
+ {
+  "start": 103.32,
+  "end": 106.13,
+  "text": "and then uh in delete"
+ },
+ {
+  "start": 106.14,
+  "end": 109.55,
+  "text": "um I'm going to provide a API key and a"
+ },
+ {
+  "start": 109.56,
+  "end": 112.69,
+  "text": "pet ID okay so this is going to delete"
+ },
+ {
+  "start": 112.7,
+  "end": 116.27,
+  "text": "this particular pet which was created"
+ },
+ {
+  "start": 116.28,
+  "end": 119.27,
+  "text": "earlier okay so basically three API"
+ },
+ {
+  "start": 119.28,
+  "end": 122.81,
+  "text": "messages or request uh first will uh is"
+ },
+ {
+  "start": 122.82,
+  "end": 125.35,
+  "text": "a post request which will add a new pet"
+ },
+ {
+  "start": 125.36,
+  "end": 128.749,
+  "text": "into the pet store and then the get bed"
+ },
+ {
+  "start": 128.759,
+  "end": 131.33,
+  "text": "ID which is a get request which will get"
+ },
+ {
+  "start": 131.34,
+  "end": 133.85,
+  "text": "the information uh from the pet store of"
+ },
+ {
+  "start": 133.86,
+  "end": 137.27,
+  "text": "this pet new pet uh using the ID and"
+ },
+ {
+  "start": 137.28,
+  "end": 140.809,
+  "text": "then we'll finally delete uh the new pet"
+ },
+ {
+  "start": 140.819,
+  "end": 142.91,
+  "text": "which was created on the pet store okay"
+ },
+ {
+  "start": 142.92,
+  "end": 146.03,
+  "text": "so these three API requests will be"
+ },
+ {
+  "start": 146.04,
+  "end": 147.89,
+  "text": "using okay"
+ },
+ {
+  "start": 147.9,
+  "end": 150.83,
+  "text": "now I've already tested and these are"
+ },
+ {
+  "start": 150.84,
+  "end": 154.369,
+  "text": "working fine but what we want to do is"
+ },
+ {
+  "start": 154.379,
+  "end": 158.15,
+  "text": "uh we want to create our test cases so"
+ },
+ {
+  "start": 158.16,
+  "end": 159.89,
+  "text": "that we can verify some of the values"
+ },
+ {
+  "start": 159.9,
+  "end": 163.009,
+  "text": "here right and to do this as I said"
+ },
+ {
+  "start": 163.019,
+  "end": 166.85,
+  "text": "earlier we have to basically export our"
+ },
+ {
+  "start": 166.86,
+  "end": 169.91,
+  "text": "API test case okay and how we can do"
+ },
+ {
+  "start": 169.92,
+  "end": 173.69,
+  "text": "that is uh we have to actually"
+ },
+ {
+  "start": 173.7,
+  "end": 178.55,
+  "text": "select the individual messages okay so"
+ },
+ {
+  "start": 178.56,
+  "end": 181.309,
+  "text": "don't forget this otherwise it will only"
+ },
+ {
+  "start": 181.319,
+  "end": 184.25,
+  "text": "export the single request which is"
+ },
+ {
+  "start": 184.26,
+  "end": 186.47,
+  "text": "selected or message which is selected at"
+ },
+ {
+  "start": 186.48,
+  "end": 188.93,
+  "text": "the present you have to select all the"
+ },
+ {
+  "start": 188.94,
+  "end": 192.229,
+  "text": "messages which you want to export okay"
+ },
+ {
+  "start": 192.239,
+  "end": 195.589,
+  "text": "also what we have to do is we have to"
+ },
+ {
+  "start": 195.599,
+  "end": 199.25,
+  "text": "create a separate component folder for"
+ },
+ {
+  "start": 199.26,
+  "end": 202.309,
+  "text": "this otherwise it is going to create"
+ },
+ {
+  "start": 202.319,
+  "end": 205.97,
+  "text": "this or export this into the root folder"
+ },
+ {
+  "start": 205.98,
+  "end": 208.369,
+  "text": "which is not ideal okay"
+ },
+ {
+  "start": 208.379,
+  "end": 211.19,
+  "text": "so let's create a component folder and"
+ },
+ {
+  "start": 211.2,
+  "end": 214.55,
+  "text": "I'm going to name it API testing"
+ },
+ {
+  "start": 214.56,
+  "end": 218.809,
+  "text": "okay inside this API testing and you"
+ },
+ {
+  "start": 218.819,
+  "end": 220.43,
+  "text": "have to make sure that it is selected"
+ },
+ {
+  "start": 220.44,
+  "end": 224.03,
+  "text": "before you export your API messages"
+ },
+ {
+  "start": 224.04,
+  "end": 227.93,
+  "text": "so once it is selected okay go ahead and"
+ },
+ {
+  "start": 227.94,
+  "end": 232.789,
+  "text": "go to API test case and go to export"
+ },
+ {
+  "start": 232.799,
+  "end": 236.39,
+  "text": "okay now uh Tosca is exporting all these"
+ },
+ {
+  "start": 236.4,
+  "end": 238.729,
+  "text": "messages and it will automatically"
+ },
+ {
+  "start": 238.739,
+  "end": 242.57,
+  "text": "create the required folders and the"
+ },
+ {
+  "start": 242.58,
+  "end": 244.61,
+  "text": "required structure for these API"
+ },
+ {
+  "start": 244.62,
+  "end": 247.85,
+  "text": "messages okay so let's go back to Tosca"
+ },
+ {
+  "start": 247.86,
+  "end": 250.009,
+  "text": "commander and now you can see under this"
+ },
+ {
+  "start": 250.019,
+  "end": 252.35,
+  "text": "component folder we have got this"
+ },
+ {
+  "start": 252.36,
+  "end": 254.089,
+  "text": "modules okay"
+ },
+ {
+  "start": 254.099,
+  "end": 256.67,
+  "text": "now surprisingly you will see that we"
+ },
+ {
+  "start": 256.68,
+  "end": 258.83,
+  "text": "had got three messages but now we have"
+ },
+ {
+  "start": 258.84,
+  "end": 261.53,
+  "text": "got six modules okay so don't get"
+ },
+ {
+  "start": 261.54,
+  "end": 265.37,
+  "text": "confused uh the reason for this is for"
+ },
+ {
+  "start": 265.38,
+  "end": 267.29,
+  "text": "each message okay"
+ },
+ {
+  "start": 267.3,
+  "end": 271.73,
+  "text": "uh Tosca has created one request type"
+ },
+ {
+  "start": 271.74,
+  "end": 274.67,
+  "text": "and one response type okay so for post"
+ },
+ {
+  "start": 274.68,
+  "end": 277.189,
+  "text": "we have a request and response for"
+ },
+ {
+  "start": 277.199,
+  "end": 279.83,
+  "text": "delete we have a request in response and"
+ },
+ {
+  "start": 279.84,
+  "end": 282.59,
+  "text": "forget we have a request and response"
+ },
+ {
+  "start": 282.6,
+  "end": 284.33,
+  "text": "okay because we'll be sending a request"
+ },
+ {
+  "start": 284.34,
+  "end": 286.55,
+  "text": "and we'll be receiving a response okay"
+ },
+ {
+  "start": 286.56,
+  "end": 289.909,
+  "text": "and similarly we have got a test cases"
+ },
+ {
+  "start": 289.919,
+  "end": 293.57,
+  "text": "folder okay and here also under each"
+ },
+ {
+  "start": 293.58,
+  "end": 295.85,
+  "text": "message you will see that we have got"
+ },
+ {
+  "start": 295.86,
+  "end": 299.09,
+  "text": "two requests or two"
+ },
+ {
+  "start": 299.1,
+  "end": 302.39,
+  "text": "um the steps which is one is post and"
+ },
+ {
+  "start": 302.4,
+  "end": 306.05,
+  "text": "one is request and one is response okay"
+ },
+ {
+  "start": 306.06,
+  "end": 309.59,
+  "text": "so Tosca creates everything for you uh"
+ },
+ {
+  "start": 309.6,
+  "end": 312.11,
+  "text": "the module the structure the test cases"
+ },
+ {
+  "start": 312.12,
+  "end": 315.77,
+  "text": "okay and the request and response okay"
+ },
+ {
+  "start": 315.78,
+  "end": 318.65,
+  "text": "everything is created but after this we"
+ },
+ {
+  "start": 318.66,
+  "end": 320.45,
+  "text": "have to make some configuration changes"
+ },
+ {
+  "start": 320.46,
+  "end": 322.85,
+  "text": "and also we need to put some"
+ },
+ {
+  "start": 322.86,
+  "end": 325.01,
+  "text": "verifications so that we can execute"
+ },
+ {
+  "start": 325.02,
+  "end": 327.23,
+  "text": "these test cases okay"
+ },
+ {
+  "start": 327.24,
+  "end": 336.189,
+  "text": "foreign"
+ },
+ {
+  "start": 339.35,
+  "end": 339.36,
+  "text": "you can always rename this modules"
+ },
+ {
+  "start": 339.36,
+  "end": 341.33,
+  "text": "um as per your application it's always"
+ },
+ {
+  "start": 341.34,
+  "end": 342.529,
+  "text": "recommended"
+ },
+ {
+  "start": 342.539,
+  "end": 346.909,
+  "text": "but um what we have to see is now inside"
+ },
+ {
+  "start": 346.919,
+  "end": 350.15,
+  "text": "this API modules okay there is an extra"
+ },
+ {
+  "start": 350.16,
+  "end": 352.969,
+  "text": "tab called technical view this is not"
+ },
+ {
+  "start": 352.979,
+  "end": 355.79,
+  "text": "available when you scan your other"
+ },
+ {
+  "start": 355.8,
+  "end": 358.49,
+  "text": "applications but it is available when"
+ },
+ {
+  "start": 358.5,
+  "end": 362.15,
+  "text": "you scan your apis okay and this is the"
+ },
+ {
+  "start": 362.16,
+  "end": 365.27,
+  "text": "exact view which was present in the API"
+ },
+ {
+  "start": 365.28,
+  "end": 367.55,
+  "text": "scan window okay so it has got all the"
+ },
+ {
+  "start": 367.56,
+  "end": 369.83,
+  "text": "information for the API message the"
+ },
+ {
+  "start": 369.84,
+  "end": 371.87,
+  "text": "endpoint the method the resource okay"
+ },
+ {
+  "start": 371.88,
+  "end": 374.39,
+  "text": "the Header information the payload"
+ },
+ {
+  "start": 374.4,
+  "end": 376.55,
+  "text": "now let's see how we can execute this"
+ },
+ {
+  "start": 376.56,
+  "end": 378.59,
+  "text": "API request right from our test cases"
+ },
+ {
+  "start": 378.6,
+  "end": 380.749,
+  "text": "without even going to API scan right"
+ },
+ {
+  "start": 380.759,
+  "end": 382.909,
+  "text": "since we have now captured everything"
+ },
+ {
+  "start": 382.919,
+  "end": 385.01,
+  "text": "under modules which is present in the"
+ },
+ {
+  "start": 385.02,
+  "end": 387.29,
+  "text": "technical view we can directly go ahead"
+ },
+ {
+  "start": 387.3,
+  "end": 390.05,
+  "text": "and execute this test cases okay so for"
+ },
+ {
+  "start": 390.06,
+  "end": 393.05,
+  "text": "example if I execute this post request"
+ },
+ {
+  "start": 393.06,
+  "end": 396.29,
+  "text": "and response to add a pet"
+ },
+ {
+  "start": 396.3,
+  "end": 400.67,
+  "text": "so it will execute fine right but in the"
+ },
+ {
+  "start": 400.68,
+  "end": 402.71,
+  "text": "log you won't be able to see much"
+ },
+ {
+  "start": 402.72,
+  "end": 404.93,
+  "text": "because we haven't captured anything"
+ },
+ {
+  "start": 404.94,
+  "end": 407.99,
+  "text": "right so there are no verifications and"
+ },
+ {
+  "start": 408.0,
+  "end": 410.029,
+  "text": "we are also not capturing the status"
+ },
+ {
+  "start": 410.039,
+  "end": 412.85,
+  "text": "code uh it is only displaying the server"
+ },
+ {
+  "start": 412.86,
+  "end": 415.67,
+  "text": "response time which is not very useful"
+ },
+ {
+  "start": 415.68,
+  "end": 419.689,
+  "text": "right so if you want to test a API uh we"
+ },
+ {
+  "start": 419.699,
+  "end": 422.33,
+  "text": "should be verifying um at least the"
+ },
+ {
+  "start": 422.34,
+  "end": 424.129,
+  "text": "status code which is returned by the"
+ },
+ {
+  "start": 424.139,
+  "end": 427.37,
+  "text": "response right and for that we need to"
+ },
+ {
+  "start": 427.38,
+  "end": 430.43,
+  "text": "add some attributes to this module"
+ },
+ {
+  "start": 430.44,
+  "end": 433.67,
+  "text": "so in the API modules these attributes"
+ },
+ {
+  "start": 433.68,
+  "end": 436.73,
+  "text": "are nothing but uh the elements of the"
+ },
+ {
+  "start": 436.74,
+  "end": 439.909,
+  "text": "payload or the status code or the"
+ },
+ {
+  "start": 439.919,
+  "end": 443.15,
+  "text": "response time or the parameters right so"
+ },
+ {
+  "start": 443.16,
+  "end": 445.309,
+  "text": "whatever is contained inside the API"
+ },
+ {
+  "start": 445.319,
+  "end": 448.129,
+  "text": "message we can add them as module"
+ },
+ {
+  "start": 448.139,
+  "end": 450.529,
+  "text": "attributes and these are also known as"
+ },
+ {
+  "start": 450.539,
+  "end": 453.35,
+  "text": "business parameters because then you can"
+ },
+ {
+  "start": 453.36,
+  "end": 455.57,
+  "text": "change these values in your test cases"
+ },
+ {
+  "start": 455.58,
+  "end": 459.89,
+  "text": "okay so for example if I want to verify"
+ },
+ {
+  "start": 459.9,
+  "end": 462.23,
+  "text": "this post request right and I want to"
+ },
+ {
+  "start": 462.24,
+  "end": 464.629,
+  "text": "verify the status code so what I can do"
+ },
+ {
+  "start": 464.639,
+  "end": 467.689,
+  "text": "I can select the status code and I can"
+ },
+ {
+  "start": 467.699,
+  "end": 470.87,
+  "text": "click on ADD at the top of the API"
+ },
+ {
+  "start": 470.88,
+  "end": 473.629,
+  "text": "testing tab okay so this is going to add"
+ },
+ {
+  "start": 473.639,
+  "end": 476.689,
+  "text": "a module attribute or business parameter"
+ },
+ {
+  "start": 476.699,
+  "end": 480.89,
+  "text": "for status code okay similarly I can add"
+ },
+ {
+  "start": 480.9,
+  "end": 484.37,
+  "text": "all of these payload items into this"
+ },
+ {
+  "start": 484.38,
+  "end": 486.95,
+  "text": "particular module attributes as module"
+ },
+ {
+  "start": 486.96,
+  "end": 488.99,
+  "text": "attributes right so if I select"
+ },
+ {
+  "start": 489.0,
+  "end": 491.809,
+  "text": "everything and click on ADD then it is"
+ },
+ {
+  "start": 491.819,
+  "end": 493.249,
+  "text": "going to add all the different"
+ },
+ {
+  "start": 493.259,
+  "end": 495.95,
+  "text": "attributes into this module"
+ },
+ {
+  "start": 495.96,
+  "end": 498.589,
+  "text": "okay and once we add that it will also"
+ },
+ {
+  "start": 498.599,
+  "end": 502.369,
+  "text": "get reflected in our test case okay so"
+ },
+ {
+  "start": 502.379,
+  "end": 505.43,
+  "text": "if I go back to my test case now you can"
+ },
+ {
+  "start": 505.44,
+  "end": 507.529,
+  "text": "see under the test step I can see an"
+ },
+ {
+  "start": 507.539,
+  "end": 510.71,
+  "text": "additional uh test right the step which"
+ },
+ {
+  "start": 510.72,
+  "end": 512.75,
+  "text": "is for status code"
+ },
+ {
+  "start": 512.76,
+  "end": 516.889,
+  "text": "and also I can pass a value here okay so"
+ },
+ {
+  "start": 516.899,
+  "end": 518.99,
+  "text": "there are two ways to do that there will"
+ },
+ {
+  "start": 519.0,
+  "end": 520.969,
+  "text": "be the default value which is captured"
+ },
+ {
+  "start": 520.979,
+  "end": 524.329,
+  "text": "by the scan okay and you can see all the"
+ },
+ {
+  "start": 524.339,
+  "end": 526.55,
+  "text": "values are already here which has been"
+ },
+ {
+  "start": 526.56,
+  "end": 529.13,
+  "text": "captured so we can select any of these"
+ },
+ {
+  "start": 529.14,
+  "end": 531.47,
+  "text": "values so I'm going to select 200 okay"
+ },
+ {
+  "start": 531.48,
+  "end": 535.37,
+  "text": "because that's what it should return and"
+ },
+ {
+  "start": 535.38,
+  "end": 537.41,
+  "text": "then I'm going to select the action mode"
+ },
+ {
+  "start": 537.42,
+  "end": 539.93,
+  "text": "verify okay"
+ },
+ {
+  "start": 539.94,
+  "end": 543.05,
+  "text": "so this is one of the verification you"
+ },
+ {
+  "start": 543.06,
+  "end": 546.25,
+  "text": "can do on your particular request okay"
+ },
+ {
+  "start": 546.26,
+  "end": 556.37,
+  "text": "now if I go ahead and run this again"
+ },
+ {
+  "start": 559.37,
+  "end": 559.38,
+  "text": "so this time around in the log info you"
+ },
+ {
+  "start": 559.38,
+  "end": 560.93,
+  "text": "can see that the status code"
+ },
+ {
+  "start": 560.94,
+  "end": 563.75,
+  "text": "verification was successful and it will"
+ },
+ {
+  "start": 563.76,
+  "end": 565.61,
+  "text": "show you the expected and actual value"
+ },
+ {
+  "start": 565.62,
+  "end": 568.85,
+  "text": "so this is the actual testing of your"
+ },
+ {
+  "start": 568.86,
+  "end": 571.19,
+  "text": "API right now you are actually testing"
+ },
+ {
+  "start": 571.2,
+  "end": 572.57,
+  "text": "the API because you are checking"
+ },
+ {
+  "start": 572.58,
+  "end": 573.889,
+  "text": "something you are verifying something"
+ },
+ {
+  "start": 573.899,
+  "end": 575.93,
+  "text": "and you have to make sure that these"
+ },
+ {
+  "start": 575.94,
+  "end": 578.57,
+  "text": "verifications are at least there for"
+ },
+ {
+  "start": 578.58,
+  "end": 582.23,
+  "text": "every post or any get request right so"
+ },
+ {
+  "start": 582.24,
+  "end": 584.269,
+  "text": "at least the status code should be"
+ },
+ {
+  "start": 584.279,
+  "end": 585.889,
+  "text": "verified"
+ },
+ {
+  "start": 585.899,
+  "end": 588.59,
+  "text": "now let's try to verify some more things"
+ },
+ {
+  "start": 588.6,
+  "end": 590.99,
+  "text": "on this particular post request because"
+ },
+ {
+  "start": 591.0,
+  "end": 593.69,
+  "text": "uh when it Returns the response it is"
+ },
+ {
+  "start": 593.7,
+  "end": 596.509,
+  "text": "also returning us the payload right and"
+ },
+ {
+  "start": 596.519,
+  "end": 598.43,
+  "text": "that will contain a certain Elements"
+ },
+ {
+  "start": 598.44,
+  "end": 600.65,
+  "text": "which you want to verify uh when we send"
+ },
+ {
+  "start": 600.66,
+  "end": 603.23,
+  "text": "this particular request so let's go back"
+ },
+ {
+  "start": 603.24,
+  "end": 605.81,
+  "text": "to our response and here you will see uh"
+ },
+ {
+  "start": 605.82,
+  "end": 609.11,
+  "text": "what we want to verify as maybe the name"
+ },
+ {
+  "start": 609.12,
+  "end": 612.65,
+  "text": "right and maybe the ID which will be"
+ },
+ {
+  "start": 612.66,
+  "end": 615.71,
+  "text": "using later on but right now we we may"
+ },
+ {
+  "start": 615.72,
+  "end": 619.009,
+  "text": "not be verifying this particular ID okay"
+ },
+ {
+  "start": 619.019,
+  "end": 620.389,
+  "text": "but"
+ },
+ {
+  "start": 620.399,
+  "end": 623.57,
+  "text": "um let's go ahead and verify this name"
+ },
+ {
+  "start": 623.58,
+  "end": 627.829,
+  "text": "which we are sending okay so uh what"
+ },
+ {
+  "start": 627.839,
+  "end": 630.35,
+  "text": "we'll do is we will add this particular"
+ },
+ {
+  "start": 630.36,
+  "end": 633.47,
+  "text": "name as a business parameter here okay"
+ },
+ {
+  "start": 633.48,
+  "end": 636.23,
+  "text": "and what I'm also going to do is I'm"
+ },
+ {
+  "start": 636.24,
+  "end": 641.15,
+  "text": "going to also add this okay name uh into"
+ },
+ {
+  "start": 641.16,
+  "end": 645.47,
+  "text": "this particular request"
+ },
+ {
+  "start": 647.63,
+  "end": 647.64,
+  "text": "and that's because uh you can see the"
+ },
+ {
+  "start": 647.64,
+  "end": 650.329,
+  "text": "name is little different here I changed"
+ },
+ {
+  "start": 650.339,
+  "end": 653.93,
+  "text": "it here but I did not run this before I"
+ },
+ {
+  "start": 653.94,
+  "end": 656.93,
+  "text": "scanned this particular API okay so"
+ },
+ {
+  "start": 656.94,
+  "end": 659.63,
+  "text": "that's why it has captured the name from"
+ },
+ {
+  "start": 659.64,
+  "end": 662.93,
+  "text": "my previous run but right now we can we"
+ },
+ {
+  "start": 662.94,
+  "end": 665.389,
+  "text": "can do that we can change that okay"
+ },
+ {
+  "start": 665.399,
+  "end": 668.63,
+  "text": "so I've added the name as a parameter"
+ },
+ {
+  "start": 668.64,
+  "end": 671.509,
+  "text": "here and if I go back to my request now"
+ },
+ {
+  "start": 671.519,
+  "end": 675.71,
+  "text": "go to details uh here in the name I am"
+ },
+ {
+  "start": 675.72,
+  "end": 678.73,
+  "text": "going to select Max okay"
+ },
+ {
+  "start": 678.74,
+  "end": 681.889,
+  "text": "and also in the response I am going to"
+ },
+ {
+  "start": 681.899,
+  "end": 687.11,
+  "text": "verify uh whether it is Max or not okay"
+ },
+ {
+  "start": 687.12,
+  "end": 689.389,
+  "text": "so there are two verifications now for"
+ },
+ {
+  "start": 689.399,
+  "end": 692.93,
+  "text": "my response and also I am sending a"
+ },
+ {
+  "start": 692.94,
+  "end": 695.75,
+  "text": "different value on the request okay"
+ },
+ {
+  "start": 695.76,
+  "end": 699.11,
+  "text": "using the business parameter so let's"
+ },
+ {
+  "start": 699.12,
+  "end": 702.29,
+  "text": "see if this works or not so let's go"
+ },
+ {
+  "start": 702.3,
+  "end": 709.31,
+  "text": "ahead and run this now"
+ },
+ {
+  "start": 712.91,
+  "end": 712.92,
+  "text": "okay so uh the test case has passed okay"
+ },
+ {
+  "start": 712.92,
+  "end": 715.61,
+  "text": "uh it was able to send the request and"
+ },
+ {
+  "start": 715.62,
+  "end": 718.43,
+  "text": "both verifications were successful the"
+ },
+ {
+  "start": 718.44,
+  "end": 721.97,
+  "text": "status code was 200 okay and the name"
+ },
+ {
+  "start": 721.98,
+  "end": 725.05,
+  "text": "was also matching which is now Max"
+ },
+ {
+  "start": 725.06,
+  "end": 728.509,
+  "text": "instead of something else right"
+ },
+ {
+  "start": 728.519,
+  "end": 731.449,
+  "text": "so now you can see that I can verify"
+ },
+ {
+  "start": 731.459,
+  "end": 733.31,
+  "text": "correctly whether my request and"
+ },
+ {
+  "start": 733.32,
+  "end": 736.37,
+  "text": "response are actually matching or they"
+ },
+ {
+  "start": 736.38,
+  "end": 737.93,
+  "text": "have been scanned properly right because"
+ },
+ {
+  "start": 737.94,
+  "end": 741.829,
+  "text": "we saw that previously uh it was not"
+ },
+ {
+  "start": 741.839,
+  "end": 744.35,
+  "text": "scanned properly because my post request"
+ },
+ {
+  "start": 744.36,
+  "end": 748.67,
+  "text": "had a different name and uh my response"
+ },
+ {
+  "start": 748.68,
+  "end": 750.53,
+  "text": "had a different name right because it"
+ },
+ {
+  "start": 750.54,
+  "end": 753.769,
+  "text": "was scanned from a previous execution so"
+ },
+ {
+  "start": 753.779,
+  "end": 755.99,
+  "text": "uh even if you scan your API you should"
+ },
+ {
+  "start": 756.0,
+  "end": 757.91,
+  "text": "not be sure that you are sending the"
+ },
+ {
+  "start": 757.92,
+  "end": 760.73,
+  "text": "right details so that all the values"
+ },
+ {
+  "start": 760.74,
+  "end": 762.65,
+  "text": "which you are going to send for a"
+ },
+ {
+  "start": 762.66,
+  "end": 765.29,
+  "text": "request or the details which is required"
+ },
+ {
+  "start": 765.3,
+  "end": 767.389,
+  "text": "to process that request it should be"
+ },
+ {
+  "start": 767.399,
+  "end": 770.21,
+  "text": "configured okay and that configuration"
+ },
+ {
+  "start": 770.22,
+  "end": 773.03,
+  "text": "value should go in your test case when"
+ },
+ {
+  "start": 773.04,
+  "end": 776.449,
+  "text": "you are executing it and similarly uh"
+ },
+ {
+  "start": 776.459,
+  "end": 778.67,
+  "text": "while you are receiving a response you"
+ },
+ {
+  "start": 778.68,
+  "end": 781.49,
+  "text": "have to verify that the expected values"
+ },
+ {
+  "start": 781.5,
+  "end": 785.269,
+  "text": "are present in your API response okay so"
+ },
+ {
+  "start": 785.279,
+  "end": 787.37,
+  "text": "this is how you can create your test"
+ },
+ {
+  "start": 787.38,
+  "end": 789.889,
+  "text": "cases in Tosca Commander by exporting it"
+ },
+ {
+  "start": 789.899,
+  "end": 793.19,
+  "text": "from the API scan and also you can put"
+ },
+ {
+  "start": 793.2,
+  "end": 795.41,
+  "text": "some verifications you can create"
+ },
+ {
+  "start": 795.42,
+  "end": 798.35,
+  "text": "business parameters uh from your API"
+ },
+ {
+  "start": 798.36,
+  "end": 802.73,
+  "text": "messages and then verify them"
+ },
+ {
+  "start": 802.74,
+  "end": 805.97,
+  "text": "so next we are going to talk about how"
+ },
+ {
+  "start": 805.98,
+  "end": 810.17,
+  "text": "we can actually use this or we can"
+ },
+ {
+  "start": 810.18,
+  "end": 813.29,
+  "text": "buffer these values right the ID which"
+ },
+ {
+  "start": 813.3,
+  "end": 815.09,
+  "text": "is coming back from the response because"
+ },
+ {
+  "start": 815.1,
+  "end": 818.629,
+  "text": "we need this to verify our or to send"
+ },
+ {
+  "start": 818.639,
+  "end": 820.61,
+  "text": "our get and delete request which"
+ },
+ {
+  "start": 820.62,
+  "end": 823.129,
+  "text": "requires a path parameter which is the"
+ },
+ {
+  "start": 823.139,
+  "end": 827.87,
+  "text": "ID right so in order to use this ID from"
+ },
+ {
+  "start": 827.88,
+  "end": 830.629,
+  "text": "the response we need to store it"
+ },
+ {
+  "start": 830.639,
+  "end": 833.03,
+  "text": "somewhere or we need to basically buffer"
+ },
+ {
+  "start": 833.04,
+  "end": 835.49,
+  "text": "that value and once we buffer that value"
+ },
+ {
+  "start": 835.5,
+  "end": 838.79,
+  "text": "then we can use that in our other"
+ },
+ {
+  "start": 838.8,
+  "end": 841.37,
+  "text": "request so that is what we are going to"
+ },
+ {
+  "start": 841.38,
+  "end": 844.61,
+  "text": "look in our next video where we use the"
+ },
+ {
+  "start": 844.62,
+  "end": 848.69,
+  "text": "buffer method or the buffer action mode"
+ },
+ {
+  "start": 848.7,
+  "end": 850.91,
+  "text": "to basically buffer different values"
+ },
+ {
+  "start": 850.92,
+  "end": 853.73,
+  "text": "from the response and use it in other"
+ },
+ {
+  "start": 853.74,
+  "end": 857.329,
+  "text": "get request where that ID or any other"
+ },
+ {
+  "start": 857.339,
+  "end": 859.85,
+  "text": "value can be used by buffering those"
+ },
+ {
+  "start": 859.86,
+  "end": 862.009,
+  "text": "okay"
+ },
+ {
+  "start": 862.019,
+  "end": 863.93,
+  "text": "so that's all for this video hopefully"
+ },
+ {
+  "start": 863.94,
+  "end": 866.75,
+  "text": "this was helpful uh in understanding how"
+ },
+ {
+  "start": 866.76,
+  "end": 869.769,
+  "text": "you can work with API messages and then"
+ },
+ {
+  "start": 869.779,
+  "end": 872.269,
+  "text": "export them back to your Tosca commander"
+ },
+ {
+  "start": 872.279,
+  "end": 874.31,
+  "text": "and create test cases out of it right"
+ },
+ {
+  "start": 874.32,
+  "end": 878.03,
+  "text": "we'll see lot more uh on this uh by"
+ },
+ {
+  "start": 878.04,
+  "end": 880.43,
+  "text": "continuing in our next video so keep"
+ },
+ {
+  "start": 880.44,
+  "end": 882.949,
+  "text": "watching and do tuning to our channel to"
+ },
+ {
+  "start": 882.959,
+  "end": 886.37,
+  "text": "watch the next video on API testing"
+ },
+ {
+  "start": 886.38,
+  "end": 888.53,
+  "text": "until then keep learning and don't"
+ },
+ {
+  "start": 888.54,
+  "end": 891.86,
+  "text": "forget to subscribe to our Channel"
+ }
+]

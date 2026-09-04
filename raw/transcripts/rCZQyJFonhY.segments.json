@@ -1,0 +1,797 @@
+[
+ {
+  "start": 8.629,
+  "end": 8.639,
+  "text": "hey everyone welcome back to this Tosca"
+ },
+ {
+  "start": 8.639,
+  "end": 11.089,
+  "text": "automation playlist and today I am going"
+ },
+ {
+  "start": 11.099,
+  "end": 13.37,
+  "text": "to talk about a common issue which we"
+ },
+ {
+  "start": 13.38,
+  "end": 16.849,
+  "text": "face during our test Automation and how"
+ },
+ {
+  "start": 16.859,
+  "end": 19.49,
+  "text": "we can dissolve this in Tosca"
+ },
+ {
+  "start": 19.5,
+  "end": 22.57,
+  "text": "so the scenario is when you have"
+ },
+ {
+  "start": 22.58,
+  "end": 24.71,
+  "text": "Elements which have got common"
+ },
+ {
+  "start": 24.72,
+  "end": 27.109,
+  "text": "properties how do you identify these"
+ },
+ {
+  "start": 27.119,
+  "end": 29.089,
+  "text": "elements now one way we have already"
+ },
+ {
+  "start": 29.099,
+  "end": 31.97,
+  "text": "seen is to use different identification"
+ },
+ {
+  "start": 31.98,
+  "end": 34.67,
+  "text": "mechanisms available in Tosca like you"
+ },
+ {
+  "start": 34.68,
+  "end": 37.37,
+  "text": "can identify by anchor by image or by"
+ },
+ {
+  "start": 37.38,
+  "end": 39.95,
+  "text": "index but what if you don't want to use"
+ },
+ {
+  "start": 39.96,
+  "end": 43.01,
+  "text": "any of these options right and there is"
+ },
+ {
+  "start": 43.02,
+  "end": 45.59,
+  "text": "another option which you can Implement"
+ },
+ {
+  "start": 45.6,
+  "end": 48.709,
+  "text": "right at a test case level okay so we'll"
+ },
+ {
+  "start": 48.719,
+  "end": 50.569,
+  "text": "see how you can do this"
+ },
+ {
+  "start": 50.579,
+  "end": 53.63,
+  "text": "and our scenario is on this particular"
+ },
+ {
+  "start": 53.64,
+  "end": 55.79,
+  "text": "page if I want to click on this add to"
+ },
+ {
+  "start": 55.8,
+  "end": 58.189,
+  "text": "cart button all the add to cart buttons"
+ },
+ {
+  "start": 58.199,
+  "end": 61.069,
+  "text": "have got similar properties and Tosca"
+ },
+ {
+  "start": 61.079,
+  "end": 63.47,
+  "text": "cannot identify and cannot perform the"
+ },
+ {
+  "start": 63.48,
+  "end": 65.69,
+  "text": "click on this so let's see this in"
+ },
+ {
+  "start": 65.7,
+  "end": 67.429,
+  "text": "action and then we'll see how we can"
+ },
+ {
+  "start": 67.439,
+  "end": 70.789,
+  "text": "resolve this issue"
+ },
+ {
+  "start": 73.49,
+  "end": 73.5,
+  "text": "so let me go back to Tosca and here I'm"
+ },
+ {
+  "start": 73.5,
+  "end": 74.99,
+  "text": "going to scan this particular"
+ },
+ {
+  "start": 75.0,
+  "end": 77.33,
+  "text": "application and add this particular"
+ },
+ {
+  "start": 77.34,
+  "end": 79.609,
+  "text": "button into our module"
+ },
+ {
+  "start": 79.619,
+  "end": 85.609,
+  "text": "so let's do that first"
+ },
+ {
+  "start": 87.53,
+  "end": 87.54,
+  "text": "I'm going to select this application"
+ },
+ {
+  "start": 87.54,
+  "end": 93.35,
+  "text": "here"
+ },
+ {
+  "start": 96.17,
+  "end": 96.18,
+  "text": "and then uh here we will see that there"
+ },
+ {
+  "start": 96.18,
+  "end": 98.09,
+  "text": "are different add to cart buttons and if"
+ },
+ {
+  "start": 98.1,
+  "end": 100.67,
+  "text": "I go ahead and select one of these you"
+ },
+ {
+  "start": 100.68,
+  "end": 103.19,
+  "text": "will see that the item is not unique"
+ },
+ {
+  "start": 103.2,
+  "end": 106.13,
+  "text": "right so selected item is not unique and"
+ },
+ {
+  "start": 106.14,
+  "end": 108.53,
+  "text": "if I go into properties even in the"
+ },
+ {
+  "start": 108.54,
+  "end": 110.63,
+  "text": "technical properties you won't find any"
+ },
+ {
+  "start": 110.64,
+  "end": 112.31,
+  "text": "property which will help you to identify"
+ },
+ {
+  "start": 112.32,
+  "end": 116.09,
+  "text": "this uniquely okay so as I said uh you"
+ },
+ {
+  "start": 116.1,
+  "end": 118.31,
+  "text": "can always go ahead and use this"
+ },
+ {
+  "start": 118.32,
+  "end": 120.59,
+  "text": "different identification mechanisms like"
+ },
+ {
+  "start": 120.6,
+  "end": 124.069,
+  "text": "anchor image or index in order to make"
+ },
+ {
+  "start": 124.079,
+  "end": 126.95,
+  "text": "this unique right but what if I don't"
+ },
+ {
+  "start": 126.96,
+  "end": 130.249,
+  "text": "want to do this okay so let's go ahead"
+ },
+ {
+  "start": 130.259,
+  "end": 132.949,
+  "text": "and save this module first"
+ },
+ {
+  "start": 132.959,
+  "end": 135.65,
+  "text": "and let's close this let's go back to"
+ },
+ {
+  "start": 135.66,
+  "end": 136.97,
+  "text": "our Tosca"
+ },
+ {
+  "start": 136.98,
+  "end": 140.15,
+  "text": "and here I am quickly going to rename"
+ },
+ {
+  "start": 140.16,
+  "end": 142.729,
+  "text": "this okay so I'm going to call it"
+ },
+ {
+  "start": 142.739,
+  "end": 144.55,
+  "text": "products"
+ },
+ {
+  "start": 144.56,
+  "end": 147.65,
+  "text": "and now I have created a test case here"
+ },
+ {
+  "start": 147.66,
+  "end": 150.949,
+  "text": "uh with a folder so here I'm going to"
+ },
+ {
+  "start": 150.959,
+  "end": 153.83,
+  "text": "add this particular module okay so let"
+ },
+ {
+  "start": 153.84,
+  "end": 156.41,
+  "text": "me drag this to here and this will"
+ },
+ {
+  "start": 156.42,
+  "end": 158.93,
+  "text": "create meta step okay"
+ },
+ {
+  "start": 158.94,
+  "end": 161.869,
+  "text": "and we are just performing uh add to cut"
+ },
+ {
+  "start": 161.879,
+  "end": 165.89,
+  "text": "so I'm going to perform the click method"
+ },
+ {
+  "start": 165.9,
+  "end": 169.009,
+  "text": "on this add to cart button okay so first"
+ },
+ {
+  "start": 169.019,
+  "end": 171.53,
+  "text": "uh let's go ahead and run this and let's"
+ },
+ {
+  "start": 171.54,
+  "end": 174.11,
+  "text": "see if it can actually perform the click"
+ },
+ {
+  "start": 174.12,
+  "end": 177.41,
+  "text": "or not and what is the error which is"
+ },
+ {
+  "start": 177.42,
+  "end": 181.75,
+  "text": "written by Tosca"
+ },
+ {
+  "start": 184.49,
+  "end": 184.5,
+  "text": "so as soon as you see that Tosca is"
+ },
+ {
+  "start": 184.5,
+  "end": 186.41,
+  "text": "taking some time to perform any"
+ },
+ {
+  "start": 186.42,
+  "end": 188.21,
+  "text": "particular action and it is doing"
+ },
+ {
+  "start": 188.22,
+  "end": 191.75,
+  "text": "nothing that means uh it is a sign that"
+ },
+ {
+  "start": 191.76,
+  "end": 194.089,
+  "text": "you are going to face some error okay"
+ },
+ {
+  "start": 194.099,
+  "end": 196.99,
+  "text": "because then it goes into that timeout"
+ },
+ {
+  "start": 197.0,
+  "end": 200.21,
+  "text": "phase where you have mentioned some time"
+ },
+ {
+  "start": 200.22,
+  "end": 202.79,
+  "text": "out some default timeout for identifying"
+ },
+ {
+  "start": 202.8,
+  "end": 204.949,
+  "text": "a particular element right so if it is"
+ },
+ {
+  "start": 204.959,
+  "end": 206.869,
+  "text": "fails to identify that in that"
+ },
+ {
+  "start": 206.879,
+  "end": 209.57,
+  "text": "particular timeout then after that time"
+ },
+ {
+  "start": 209.58,
+  "end": 212.27,
+  "text": "it is going to return a particular error"
+ },
+ {
+  "start": 212.28,
+  "end": 218.089,
+  "text": "okay"
+ },
+ {
+  "start": 221.39,
+  "end": 221.4,
+  "text": "so now um as you can see uh the test"
+ },
+ {
+  "start": 221.4,
+  "end": 223.49,
+  "text": "case has failed and if I go back to"
+ },
+ {
+  "start": 223.5,
+  "end": 224.509,
+  "text": "Tosca"
+ },
+ {
+  "start": 224.519,
+  "end": 226.729,
+  "text": "here it will exactly tell you what has"
+ },
+ {
+  "start": 226.739,
+  "end": 228.649,
+  "text": "happened okay so in the login for you"
+ },
+ {
+  "start": 228.659,
+  "end": 230.27,
+  "text": "will see that more than one control"
+ },
+ {
+  "start": 230.28,
+  "end": 233.21,
+  "text": "found okay for this action"
+ },
+ {
+  "start": 233.22,
+  "end": 236.089,
+  "text": "now as I said there are multiple ways of"
+ },
+ {
+  "start": 236.099,
+  "end": 238.009,
+  "text": "handling this particular scenario right"
+ },
+ {
+  "start": 238.019,
+  "end": 241.19,
+  "text": "you can do it at the module level but I"
+ },
+ {
+  "start": 241.2,
+  "end": 243.229,
+  "text": "want to show you another way which is"
+ },
+ {
+  "start": 243.239,
+  "end": 244.61,
+  "text": "possible okay"
+ },
+ {
+  "start": 244.62,
+  "end": 247.49,
+  "text": "so for this uh what we need to do is we"
+ },
+ {
+  "start": 247.5,
+  "end": 249.77,
+  "text": "need to go to our module and go to this"
+ },
+ {
+  "start": 249.78,
+  "end": 252.77,
+  "text": "module attribute and here we need to add"
+ },
+ {
+  "start": 252.78,
+  "end": 255.71,
+  "text": "another configuration parameter okay so"
+ },
+ {
+  "start": 255.72,
+  "end": 258.11,
+  "text": "when you right click and click on create"
+ },
+ {
+  "start": 258.12,
+  "end": 261.11,
+  "text": "configuration parameter here I am going"
+ },
+ {
+  "start": 261.12,
+  "end": 263.39,
+  "text": "to add another configuration parameter"
+ },
+ {
+  "start": 263.4,
+  "end": 265.61,
+  "text": "called explicit name"
+ },
+ {
+  "start": 265.62,
+  "end": 270.65,
+  "text": "okay and we can set this value"
+ },
+ {
+  "start": 270.66,
+  "end": 274.61,
+  "text": "to either true false or we can also"
+ },
+ {
+  "start": 274.62,
+  "end": 278.33,
+  "text": "provide a range okay and then in the"
+ },
+ {
+  "start": 278.34,
+  "end": 281.09,
+  "text": "test case you can use any particular"
+ },
+ {
+  "start": 281.1,
+  "end": 283.43,
+  "text": "name from that range or if it is set to"
+ },
+ {
+  "start": 283.44,
+  "end": 285.71,
+  "text": "true then you can use"
+ },
+ {
+  "start": 285.72,
+  "end": 288.409,
+  "text": "um some other name through which it can"
+ },
+ {
+  "start": 288.419,
+  "end": 290.27,
+  "text": "probably steer that particular element"
+ },
+ {
+  "start": 290.28,
+  "end": 292.15,
+  "text": "okay"
+ },
+ {
+  "start": 292.16,
+  "end": 295.99,
+  "text": "so now if I go back to my test case here"
+ },
+ {
+  "start": 296.0,
+  "end": 300.409,
+  "text": "I can actually change this name okay"
+ },
+ {
+  "start": 300.419,
+  "end": 303.35,
+  "text": "so in normal scenarios if you don't have"
+ },
+ {
+  "start": 303.36,
+  "end": 305.33,
+  "text": "that explicit name property or"
+ },
+ {
+  "start": 305.34,
+  "end": 307.61,
+  "text": "configuration parameter then you cannot"
+ },
+ {
+  "start": 307.62,
+  "end": 309.89,
+  "text": "change this name right from your test"
+ },
+ {
+  "start": 309.9,
+  "end": 312.05,
+  "text": "case level right you can change it at a"
+ },
+ {
+  "start": 312.06,
+  "end": 314.03,
+  "text": "module attribute level but you cannot"
+ },
+ {
+  "start": 314.04,
+  "end": 317.749,
+  "text": "change it at a test step level okay so"
+ },
+ {
+  "start": 317.759,
+  "end": 320.749,
+  "text": "for this uh what I'm going to do is I'm"
+ },
+ {
+  "start": 320.759,
+  "end": 325.55,
+  "text": "going to name it as hash okay and three"
+ },
+ {
+  "start": 325.56,
+  "end": 329.27,
+  "text": "so what I'm telling Tosca is uh go ahead"
+ },
+ {
+  "start": 329.28,
+  "end": 332.51,
+  "text": "and click on the number three button"
+ },
+ {
+  "start": 332.52,
+  "end": 334.85,
+  "text": "okay in this particular page so it will"
+ },
+ {
+  "start": 334.86,
+  "end": 336.83,
+  "text": "click on this add to cut"
+ },
+ {
+  "start": 336.84,
+  "end": 339.409,
+  "text": "right and it is going to identify it"
+ },
+ {
+  "start": 339.419,
+  "end": 341.65,
+  "text": "using this particular explicit name"
+ },
+ {
+  "start": 341.66,
+  "end": 344.87,
+  "text": "property which we have uh provided for"
+ },
+ {
+  "start": 344.88,
+  "end": 347.09,
+  "text": "this model attribute okay"
+ },
+ {
+  "start": 347.1,
+  "end": 353.33,
+  "text": "so let's go ahead and run this now"
+ },
+ {
+  "start": 355.73,
+  "end": 355.74,
+  "text": "and as you can see it is clicking on the"
+ },
+ {
+  "start": 355.74,
+  "end": 358.55,
+  "text": "third add to cart button okay so"
+ },
+ {
+  "start": 358.56,
+  "end": 361.01,
+  "text": "similarly you can steer any particular"
+ },
+ {
+  "start": 361.02,
+  "end": 363.11,
+  "text": "element okay if there are some common"
+ },
+ {
+  "start": 363.12,
+  "end": 366.17,
+  "text": "elements on the page maybe it is links"
+ },
+ {
+  "start": 366.18,
+  "end": 368.57,
+  "text": "it is buttons or it is any other"
+ },
+ {
+  "start": 368.58,
+  "end": 370.31,
+  "text": "elements right which where you want to"
+ },
+ {
+  "start": 370.32,
+  "end": 372.95,
+  "text": "perform some action so you can steer it"
+ },
+ {
+  "start": 372.96,
+  "end": 374.99,
+  "text": "this way okay so you just have to use"
+ },
+ {
+  "start": 375.0,
+  "end": 377.45,
+  "text": "the explicit name property for that"
+ },
+ {
+  "start": 377.46,
+  "end": 381.29,
+  "text": "module attribute and then put a name uh"
+ },
+ {
+  "start": 381.3,
+  "end": 384.89,
+  "text": "as the number of the element which you"
+ },
+ {
+  "start": 384.9,
+  "end": 387.469,
+  "text": "are trying to perform the action on it"
+ },
+ {
+  "start": 387.479,
+  "end": 390.77,
+  "text": "is similar to uh index property right"
+ },
+ {
+  "start": 390.78,
+  "end": 392.809,
+  "text": "where we provide an index of a"
+ },
+ {
+  "start": 392.819,
+  "end": 395.33,
+  "text": "particular element but this would be"
+ },
+ {
+  "start": 395.34,
+  "end": 397.309,
+  "text": "more stable compared to index because"
+ },
+ {
+  "start": 397.319,
+  "end": 400.309,
+  "text": "index as you know can change in a"
+ },
+ {
+  "start": 400.319,
+  "end": 402.95,
+  "text": "particular page right"
+ },
+ {
+  "start": 402.96,
+  "end": 406.01,
+  "text": "so that's all for this particular video"
+ },
+ {
+  "start": 406.02,
+  "end": 408.469,
+  "text": "I hope you enjoyed it and learned"
+ },
+ {
+  "start": 408.479,
+  "end": 410.93,
+  "text": "something new today don't forget to"
+ },
+ {
+  "start": 410.94,
+  "end": 413.39,
+  "text": "subscribe to our Channel as a VR"
+ },
+ {
+  "start": 413.4,
+  "end": 417.17,
+  "text": "regularly posting new videos and you"
+ },
+ {
+  "start": 417.18,
+  "end": 419.09,
+  "text": "would want to get notified every time we"
+ },
+ {
+  "start": 419.1,
+  "end": 421.55,
+  "text": "post a new video okay"
+ },
+ {
+  "start": 421.56,
+  "end": 423.59,
+  "text": "also if you have any other suggestions"
+ },
+ {
+  "start": 423.6,
+  "end": 425.45,
+  "text": "or any other topic which you want to"
+ },
+ {
+  "start": 425.46,
+  "end": 427.85,
+  "text": "learn just put it on the comments and"
+ },
+ {
+  "start": 427.86,
+  "end": 430.249,
+  "text": "we'll make sure that uh we would include"
+ },
+ {
+  "start": 430.259,
+  "end": 432.59,
+  "text": "that in the coming up sessions so until"
+ },
+ {
+  "start": 432.6,
+  "end": 434.749,
+  "text": "we meet again keep enjoying our sessions"
+ },
+ {
+  "start": 434.759,
+  "end": 438.68,
+  "text": "on Tosca and keep learning"
+ }
+]

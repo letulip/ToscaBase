@@ -1,0 +1,2997 @@
+[
+ {
+  "start": 2.51,
+  "end": 2.52,
+  "text": "hey everyone welcome again to another"
+ },
+ {
+  "start": 2.52,
+  "end": 4.67,
+  "text": "interesting Tosca lesson"
+ },
+ {
+  "start": 4.68,
+  "end": 7.13,
+  "text": "in today's session I am going to talk"
+ },
+ {
+  "start": 7.14,
+  "end": 10.549,
+  "text": "about the new Tosca 16 features now"
+ },
+ {
+  "start": 10.559,
+  "end": 13.61,
+  "text": "recently a couple of weeks back Tosca"
+ },
+ {
+  "start": 13.62,
+  "end": 17.109,
+  "text": "released its latest version which is"
+ },
+ {
+  "start": 17.119,
+  "end": 20.51,
+  "text": "16.0 and along with it came some"
+ },
+ {
+  "start": 20.52,
+  "end": 23.63,
+  "text": "interesting features uh which are new"
+ },
+ {
+  "start": 23.64,
+  "end": 26.15,
+  "text": "and some improvements so we are going to"
+ },
+ {
+  "start": 26.16,
+  "end": 29.509,
+  "text": "talk about few of them not all of them"
+ },
+ {
+  "start": 29.519,
+  "end": 32.33,
+  "text": "if you want to go to or the list of all"
+ },
+ {
+  "start": 32.34,
+  "end": 35.75,
+  "text": "the features released in Tosca 16 you"
+ },
+ {
+  "start": 35.76,
+  "end": 38.33,
+  "text": "can go to the blog introducing new"
+ },
+ {
+  "start": 38.34,
+  "end": 40.97,
+  "text": "features in tosca16 and there you will"
+ },
+ {
+  "start": 40.98,
+  "end": 42.77,
+  "text": "find the list of all the different"
+ },
+ {
+  "start": 42.78,
+  "end": 44.45,
+  "text": "features which were released in this"
+ },
+ {
+  "start": 44.46,
+  "end": 45.41,
+  "text": "version"
+ },
+ {
+  "start": 45.42,
+  "end": 48.529,
+  "text": "now out of all these different features"
+ },
+ {
+  "start": 48.539,
+  "end": 51.049,
+  "text": "which includes the try centers Mobile"
+ },
+ {
+  "start": 51.059,
+  "end": 53.69,
+  "text": "agent for seamless connectivity for"
+ },
+ {
+  "start": 53.7,
+  "end": 55.43,
+  "text": "Android and iOS"
+ },
+ {
+  "start": 55.44,
+  "end": 58.61,
+  "text": "some of the important features which I"
+ },
+ {
+  "start": 58.62,
+  "end": 61.549,
+  "text": "would like to pick it up and explain it"
+ },
+ {
+  "start": 61.559,
+  "end": 63.229,
+  "text": "to you because I find it quite"
+ },
+ {
+  "start": 63.239,
+  "end": 66.289,
+  "text": "interesting and also quite useful if you"
+ },
+ {
+  "start": 66.299,
+  "end": 68.87,
+  "text": "are working in these applications right"
+ },
+ {
+  "start": 68.88,
+  "end": 71.33,
+  "text": "so we are going to talk about uh"
+ },
+ {
+  "start": 71.34,
+  "end": 74.87,
+  "text": "enhanced test automation for Oracle and"
+ },
+ {
+  "start": 74.88,
+  "end": 77.929,
+  "text": "how Tosca has introduced the new Tosca"
+ },
+ {
+  "start": 77.939,
+  "end": 80.87,
+  "text": "ID mapper along with the support for"
+ },
+ {
+  "start": 80.88,
+  "end": 83.81,
+  "text": "Arya framework which helps you to build"
+ },
+ {
+  "start": 83.82,
+  "end": 87.109,
+  "text": "your automation for Oracle Enterprise"
+ },
+ {
+  "start": 87.119,
+  "end": 89.09,
+  "text": "applications"
+ },
+ {
+  "start": 89.1,
+  "end": 91.49,
+  "text": "so we're going to talk about that these"
+ },
+ {
+  "start": 91.5,
+  "end": 93.289,
+  "text": "two features in particular"
+ },
+ {
+  "start": 93.299,
+  "end": 95.33,
+  "text": "and then we are also going to look at"
+ },
+ {
+  "start": 95.34,
+  "end": 98.63,
+  "text": "the new UI like it's little different uh"
+ },
+ {
+  "start": 98.64,
+  "end": 101.51,
+  "text": "Tosca 16 compared to all the previous"
+ },
+ {
+  "start": 101.52,
+  "end": 104.83,
+  "text": "versions uh there is a new uh theme"
+ },
+ {
+  "start": 104.84,
+  "end": 107.569,
+  "text": "which you can Implement a dark theme"
+ },
+ {
+  "start": 107.579,
+  "end": 110.33,
+  "text": "along with some other themes which are"
+ },
+ {
+  "start": 110.34,
+  "end": 111.23,
+  "text": "quite"
+ },
+ {
+  "start": 111.24,
+  "end": 114.35,
+  "text": "um intuitive in terms of UI so we'll see"
+ },
+ {
+  "start": 114.36,
+  "end": 116.81,
+  "text": "how it looks like in this particular"
+ },
+ {
+  "start": 116.82,
+  "end": 117.77,
+  "text": "session"
+ },
+ {
+  "start": 117.78,
+  "end": 120.05,
+  "text": "there is also Cloud license supporting"
+ },
+ {
+  "start": 120.06,
+  "end": 123.35,
+  "text": "uh it's mostly for Tosca admins and then"
+ },
+ {
+  "start": 123.36,
+  "end": 124.969,
+  "text": "we'll also"
+ },
+ {
+  "start": 124.979,
+  "end": 127.429,
+  "text": "talk briefly about this test is"
+ },
+ {
+  "start": 127.439,
+  "end": 129.949,
+  "text": "pre-execution approval which is quite"
+ },
+ {
+  "start": 129.959,
+  "end": 133.01,
+  "text": "interesting if you are looking for"
+ },
+ {
+  "start": 133.02,
+  "end": 137.69,
+  "text": "getting an automated flow of of approval"
+ },
+ {
+  "start": 137.7,
+  "end": 139.79,
+  "text": "of your test cases before"
+ },
+ {
+  "start": 139.8,
+  "end": 142.61,
+  "text": "um you go ahead and execute this test"
+ },
+ {
+  "start": 142.62,
+  "end": 145.99,
+  "text": "cases right so that is an automation"
+ },
+ {
+  "start": 146.0,
+  "end": 148.91,
+  "text": "flow through which you can"
+ },
+ {
+  "start": 148.92,
+  "end": 152.089,
+  "text": "uh the Quest for approval for your test"
+ },
+ {
+  "start": 152.099,
+  "end": 155.27,
+  "text": "cases and also a group can basically"
+ },
+ {
+  "start": 155.28,
+  "end": 157.97,
+  "text": "review and approve your test cases"
+ },
+ {
+  "start": 157.98,
+  "end": 160.97,
+  "text": "before these go into the execution so"
+ },
+ {
+  "start": 160.98,
+  "end": 162.77,
+  "text": "it's a very interesting feature I will"
+ },
+ {
+  "start": 162.78,
+  "end": 164.63,
+  "text": "talk about it and there are some other"
+ },
+ {
+  "start": 164.64,
+  "end": 167.69,
+  "text": "enhancements like improvements to file"
+ },
+ {
+  "start": 167.7,
+  "end": 169.07,
+  "text": "service"
+ },
+ {
+  "start": 169.08,
+  "end": 173.03,
+  "text": "um some sap Innovations uh q-test"
+ },
+ {
+  "start": 173.04,
+  "end": 176.57,
+  "text": "integration Dex enhancements uh"
+ },
+ {
+  "start": 176.58,
+  "end": 179.15,
+  "text": "improvements to PDF automation"
+ },
+ {
+  "start": 179.16,
+  "end": 180.53,
+  "text": "um very interesting if you are working"
+ },
+ {
+  "start": 180.54,
+  "end": 183.77,
+  "text": "with the PDF comparison uh that is the"
+ },
+ {
+  "start": 183.78,
+  "end": 186.17,
+  "text": "Mainframe improvements and also support"
+ },
+ {
+  "start": 186.18,
+  "end": 189.89,
+  "text": "for Java 17 applications and then"
+ },
+ {
+  "start": 189.9,
+  "end": 191.03,
+  "text": "um"
+ },
+ {
+  "start": 191.04,
+  "end": 194.089,
+  "text": "support for the latest windows 11. okay"
+ },
+ {
+  "start": 194.099,
+  "end": 195.83,
+  "text": "so all of these are different"
+ },
+ {
+  "start": 195.84,
+  "end": 197.69,
+  "text": "enhancements and features which have"
+ },
+ {
+  "start": 197.7,
+  "end": 201.11,
+  "text": "been released in Tosca 16. if you want"
+ },
+ {
+  "start": 201.12,
+  "end": 203.03,
+  "text": "to go through the whole list and details"
+ },
+ {
+  "start": 203.04,
+  "end": 206.39,
+  "text": "you can always hop uh into this link and"
+ },
+ {
+  "start": 206.4,
+  "end": 209.93,
+  "text": "go through the details right but I'm"
+ },
+ {
+  "start": 209.94,
+  "end": 212.27,
+  "text": "going to focus on few of these features"
+ },
+ {
+  "start": 212.28,
+  "end": 215.869,
+  "text": "which I think is important and also"
+ },
+ {
+  "start": 215.879,
+  "end": 219.11,
+  "text": "useful if you are working in these"
+ },
+ {
+  "start": 219.12,
+  "end": 220.809,
+  "text": "Enterprise applications"
+ },
+ {
+  "start": 220.819,
+  "end": 225.11,
+  "text": "and overall posca 16. so now let's get"
+ },
+ {
+  "start": 225.12,
+  "end": 227.27,
+  "text": "started with our first topic which is"
+ },
+ {
+  "start": 227.28,
+  "end": 230.63,
+  "text": "enhance test automation for Oracle"
+ },
+ {
+  "start": 230.64,
+  "end": 232.729,
+  "text": "now if you have been working with Oracle"
+ },
+ {
+  "start": 232.739,
+  "end": 235.43,
+  "text": "applications you know automated testing"
+ },
+ {
+  "start": 235.44,
+  "end": 238.91,
+  "text": "is quite critical for ensuring um your"
+ },
+ {
+  "start": 238.92,
+  "end": 241.55,
+  "text": "business processes are reliable but"
+ },
+ {
+  "start": 241.56,
+  "end": 244.729,
+  "text": "Oracle implementations are quite highly"
+ },
+ {
+  "start": 244.739,
+  "end": 245.93,
+  "text": "customized"
+ },
+ {
+  "start": 245.94,
+  "end": 248.69,
+  "text": "and they are integrated uh with many"
+ },
+ {
+  "start": 248.7,
+  "end": 251.63,
+  "text": "other systems which are under constant"
+ },
+ {
+  "start": 251.64,
+  "end": 253.07,
+  "text": "change"
+ },
+ {
+  "start": 253.08,
+  "end": 256.909,
+  "text": "so testing end to end is quite crucial"
+ },
+ {
+  "start": 256.919,
+  "end": 260.99,
+  "text": "but um Oracle apps they all have"
+ },
+ {
+  "start": 261.0,
+  "end": 264.17,
+  "text": "um like any other Erp system contain uh"
+ },
+ {
+  "start": 264.18,
+  "end": 266.27,
+  "text": "Dynamic controls which are sometimes"
+ },
+ {
+  "start": 266.28,
+  "end": 270.71,
+  "text": "difficult to automate so with Tosca 16.0"
+ },
+ {
+  "start": 270.72,
+  "end": 274.79,
+  "text": "now Tosca has introduced the Tosca ID"
+ },
+ {
+  "start": 274.8,
+  "end": 279.53,
+  "text": "mapper and support for Arya framework so"
+ },
+ {
+  "start": 279.54,
+  "end": 281.81,
+  "text": "that all the complex controls which are"
+ },
+ {
+  "start": 281.82,
+  "end": 283.909,
+  "text": "found in the Oracle applications can be"
+ },
+ {
+  "start": 283.919,
+  "end": 287.57,
+  "text": "identified easily and your automation"
+ },
+ {
+  "start": 287.58,
+  "end": 290.33,
+  "text": "could be more stable"
+ },
+ {
+  "start": 290.34,
+  "end": 293.45,
+  "text": "so talking more about this ID mapper"
+ },
+ {
+  "start": 293.46,
+  "end": 296.749,
+  "text": "right so with the Tosca new ID mapper"
+ },
+ {
+  "start": 296.759,
+  "end": 299.99,
+  "text": "now we can select our own application on"
+ },
+ {
+  "start": 300.0,
+  "end": 303.11,
+  "text": "this test uniquely identify controls by"
+ },
+ {
+  "start": 303.12,
+  "end": 306.05,
+  "text": "adjusting the properties and then save"
+ },
+ {
+  "start": 306.06,
+  "end": 308.45,
+  "text": "all the default IDs in a particular"
+ },
+ {
+  "start": 308.46,
+  "end": 311.51,
+  "text": "Library which we can use for future use"
+ },
+ {
+  "start": 311.52,
+  "end": 315.469,
+  "text": "or if some um someone else wants to use"
+ },
+ {
+  "start": 315.479,
+  "end": 317.99,
+  "text": "this particular Library they can also"
+ },
+ {
+  "start": 318.0,
+  "end": 320.629,
+  "text": "use it for other applications"
+ },
+ {
+  "start": 320.639,
+  "end": 324.11,
+  "text": "so it is a comprehensive way to identify"
+ },
+ {
+  "start": 324.12,
+  "end": 326.629,
+  "text": "various control types"
+ },
+ {
+  "start": 326.639,
+  "end": 328.249,
+  "text": "and also"
+ },
+ {
+  "start": 328.259,
+  "end": 331.73,
+  "text": "also it lowers your efforts in terms of"
+ },
+ {
+  "start": 331.74,
+  "end": 334.67,
+  "text": "test customization and it also increases"
+ },
+ {
+  "start": 334.68,
+  "end": 337.01,
+  "text": "stability"
+ },
+ {
+  "start": 337.02,
+  "end": 340.55,
+  "text": "so now let's head back to our Tosca 16.0"
+ },
+ {
+  "start": 340.56,
+  "end": 343.55,
+  "text": "uh Costco Commander and there we will"
+ },
+ {
+  "start": 343.56,
+  "end": 346.129,
+  "text": "look at how the new ID mapper"
+ },
+ {
+  "start": 346.139,
+  "end": 349.129,
+  "text": "functionality looks like how you can use"
+ },
+ {
+  "start": 349.139,
+  "end": 352.79,
+  "text": "it to implement different automation for"
+ },
+ {
+  "start": 352.8,
+  "end": 354.95,
+  "text": "your Oracle applications"
+ },
+ {
+  "start": 354.96,
+  "end": 357.35,
+  "text": "and how it is helpful in terms of"
+ },
+ {
+  "start": 357.36,
+  "end": 360.71,
+  "text": "identifying controls uniquely across"
+ },
+ {
+  "start": 360.72,
+  "end": 364.73,
+  "text": "your Erp systems"
+ },
+ {
+  "start": 368.689,
+  "end": 368.699,
+  "text": "so now I have opened my Tosca 16.0 uh"
+ },
+ {
+  "start": 368.699,
+  "end": 371.45,
+  "text": "which is the latest version of Tosca now"
+ },
+ {
+  "start": 371.46,
+  "end": 373.969,
+  "text": "it's quite easy to upgrade or if you are"
+ },
+ {
+  "start": 373.979,
+  "end": 377.029,
+  "text": "installing a Tosca 16 as a completely"
+ },
+ {
+  "start": 377.039,
+  "end": 379.43,
+  "text": "new version in one of your Windows"
+ },
+ {
+  "start": 379.44,
+  "end": 381.05,
+  "text": "server or machine"
+ },
+ {
+  "start": 381.06,
+  "end": 383.51,
+  "text": "you just need to download uh the latest"
+ },
+ {
+  "start": 383.52,
+  "end": 387.17,
+  "text": "version of Tosca 16. from Dodge Center"
+ },
+ {
+  "start": 387.18,
+  "end": 388.969,
+  "text": "support portal where you have created an"
+ },
+ {
+  "start": 388.979,
+  "end": 392.809,
+  "text": "account and you have got a trial or a"
+ },
+ {
+  "start": 392.819,
+  "end": 394.969,
+  "text": "full license you can just download it"
+ },
+ {
+  "start": 394.979,
+  "end": 397.43,
+  "text": "and just go through the installation"
+ },
+ {
+  "start": 397.44,
+  "end": 399.409,
+  "text": "it's pretty simple and straightforward"
+ },
+ {
+  "start": 399.419,
+  "end": 402.23,
+  "text": "so I'm not going to spend time on"
+ },
+ {
+  "start": 402.24,
+  "end": 405.17,
+  "text": "showing you how to install or upgrade"
+ },
+ {
+  "start": 405.18,
+  "end": 407.09,
+  "text": "the Tosca version which you are"
+ },
+ {
+  "start": 407.1,
+  "end": 409.189,
+  "text": "currently on or you are trying to"
+ },
+ {
+  "start": 409.199,
+  "end": 412.189,
+  "text": "install a completely new version"
+ },
+ {
+  "start": 412.199,
+  "end": 415.01,
+  "text": "now just to make sure that I am on the"
+ },
+ {
+  "start": 415.02,
+  "end": 418.969,
+  "text": "right version I can also go to my about"
+ },
+ {
+  "start": 418.979,
+  "end": 422.689,
+  "text": "Tosca and check whether this is the"
+ },
+ {
+  "start": 422.699,
+  "end": 424.969,
+  "text": "latest Tosca 16.0"
+ },
+ {
+  "start": 424.979,
+  "end": 428.45,
+  "text": "so which it is right so the version is"
+ },
+ {
+  "start": 428.46,
+  "end": 431.21,
+  "text": "16.0"
+ },
+ {
+  "start": 431.22,
+  "end": 433.85,
+  "text": "um and you can already notice there are"
+ },
+ {
+  "start": 433.86,
+  "end": 436.01,
+  "text": "some UI changes but we'll talk about it"
+ },
+ {
+  "start": 436.02,
+  "end": 436.85,
+  "text": "later"
+ },
+ {
+  "start": 436.86,
+  "end": 440.99,
+  "text": "for now uh let's concentrate on our"
+ },
+ {
+  "start": 441.0,
+  "end": 443.93,
+  "text": "um enhanced test automation for Oracle"
+ },
+ {
+  "start": 443.94,
+  "end": 446.39,
+  "text": "applications including the Tosca ID"
+ },
+ {
+  "start": 446.4,
+  "end": 449.809,
+  "text": "mapper right so for this um I have"
+ },
+ {
+  "start": 449.819,
+  "end": 453.17,
+  "text": "already logged in into one of the"
+ },
+ {
+  "start": 453.18,
+  "end": 455.629,
+  "text": "Oracle Erp application"
+ },
+ {
+  "start": 455.639,
+  "end": 458.809,
+  "text": "and here we are going to look at how we"
+ },
+ {
+  "start": 458.819,
+  "end": 461.689,
+  "text": "can use the Tosca ID mapper in order to"
+ },
+ {
+  "start": 461.699,
+  "end": 463.909,
+  "text": "uniquely identify controls in this"
+ },
+ {
+  "start": 463.919,
+  "end": 467.089,
+  "text": "particular application right so for this"
+ },
+ {
+  "start": 467.099,
+  "end": 468.529,
+  "text": "particular purpose"
+ },
+ {
+  "start": 468.539,
+  "end": 473.809,
+  "text": "um let's go to create a new contact okay"
+ },
+ {
+  "start": 473.819,
+  "end": 476.57,
+  "text": "and once we reach this page we'll see"
+ },
+ {
+  "start": 476.58,
+  "end": 478.37,
+  "text": "different controls"
+ },
+ {
+  "start": 478.38,
+  "end": 482.51,
+  "text": "um which are Oracle based and which are"
+ },
+ {
+  "start": 482.52,
+  "end": 485.39,
+  "text": "pretty dynamic in nature if you look at"
+ },
+ {
+  "start": 485.4,
+  "end": 489.05,
+  "text": "their IDs they are all Dynamic IDs okay"
+ },
+ {
+  "start": 489.06,
+  "end": 491.99,
+  "text": "so as you can see uh on this page there"
+ },
+ {
+  "start": 492.0,
+  "end": 495.17,
+  "text": "are a couple of control types like text"
+ },
+ {
+  "start": 495.18,
+  "end": 498.11,
+  "text": "boxes drop downs"
+ },
+ {
+  "start": 498.12,
+  "end": 499.07,
+  "text": "um"
+ },
+ {
+  "start": 499.08,
+  "end": 501.65,
+  "text": "and buttons right so there are different"
+ },
+ {
+  "start": 501.66,
+  "end": 503.869,
+  "text": "types of controls present on this"
+ },
+ {
+  "start": 503.879,
+  "end": 505.01,
+  "text": "particular page"
+ },
+ {
+  "start": 505.02,
+  "end": 508.249,
+  "text": "so let's go back to our Tosca and here"
+ },
+ {
+  "start": 508.259,
+  "end": 511.61,
+  "text": "inside modules let's create a new"
+ },
+ {
+  "start": 511.62,
+  "end": 514.19,
+  "text": "folder so that we can scan this"
+ },
+ {
+  "start": 514.2,
+  "end": 517.07,
+  "text": "particular application okay so here I'm"
+ },
+ {
+  "start": 517.08,
+  "end": 519.469,
+  "text": "going to create a"
+ },
+ {
+  "start": 519.479,
+  "end": 523.79,
+  "text": "a folder called ARP cloud"
+ },
+ {
+  "start": 523.8,
+  "end": 527.15,
+  "text": "okay and inside this let's go ahead and"
+ },
+ {
+  "start": 527.16,
+  "end": 533.63,
+  "text": "scan this application"
+ },
+ {
+  "start": 536.21,
+  "end": 536.22,
+  "text": "okay um so once the application is"
+ },
+ {
+  "start": 536.22,
+  "end": 538.31,
+  "text": "identified just select the application"
+ },
+ {
+  "start": 538.32,
+  "end": 542.57,
+  "text": "and click on scan so that it starts or"
+ },
+ {
+  "start": 542.58,
+  "end": 546.47,
+  "text": "the xcan window appears with all the"
+ },
+ {
+  "start": 546.48,
+  "end": 547.97,
+  "text": "different controls which you want to"
+ },
+ {
+  "start": 547.98,
+  "end": 550.87,
+  "text": "scan for this particular application"
+ },
+ {
+  "start": 550.88,
+  "end": 552.53,
+  "text": "so"
+ },
+ {
+  "start": 552.54,
+  "end": 555.71,
+  "text": "we'll go to the advanced tab once uh all"
+ },
+ {
+  "start": 555.72,
+  "end": 557.99,
+  "text": "the controls are loaded in this"
+ },
+ {
+  "start": 558.0,
+  "end": 559.97,
+  "text": "particular scan window"
+ },
+ {
+  "start": 559.98,
+  "end": 563.449,
+  "text": "okay so let's go back to the advanced"
+ },
+ {
+  "start": 563.459,
+  "end": 566.69,
+  "text": "window and here we can view all the"
+ },
+ {
+  "start": 566.7,
+  "end": 569.21,
+  "text": "controls which are present for this"
+ },
+ {
+  "start": 569.22,
+  "end": 571.73,
+  "text": "particular page right now if you have"
+ },
+ {
+  "start": 571.74,
+  "end": 575.03,
+  "text": "worked previously in Tosca most of the"
+ },
+ {
+  "start": 575.04,
+  "end": 576.65,
+  "text": "things on this particular screen would"
+ },
+ {
+  "start": 576.66,
+  "end": 579.829,
+  "text": "look same we have different controls we"
+ },
+ {
+  "start": 579.839,
+  "end": 581.57,
+  "text": "have different properties through which"
+ },
+ {
+  "start": 581.58,
+  "end": 585.05,
+  "text": "these controls are identified but what"
+ },
+ {
+  "start": 585.06,
+  "end": 588.53,
+  "text": "Tosca has done in addition to this is"
+ },
+ {
+  "start": 588.54,
+  "end": 591.23,
+  "text": "for the Oracle applications"
+ },
+ {
+  "start": 591.24,
+  "end": 594.53,
+  "text": "um now they have got a settings icon"
+ },
+ {
+  "start": 594.54,
+  "end": 597.889,
+  "text": "here right and in this settings icon you"
+ },
+ {
+  "start": 597.899,
+  "end": 600.47,
+  "text": "will see different options here we'll"
+ },
+ {
+  "start": 600.48,
+  "end": 603.71,
+  "text": "talk about the Aria controls you can"
+ },
+ {
+  "start": 603.72,
+  "end": 607.79,
+  "text": "turn on and off this Aria controls okay"
+ },
+ {
+  "start": 607.8,
+  "end": 610.73,
+  "text": "uh but we"
+ },
+ {
+  "start": 610.74,
+  "end": 613.85,
+  "text": "but let's focus on the"
+ },
+ {
+  "start": 613.86,
+  "end": 616.73,
+  "text": "Tosca ID mapper and for that you need to"
+ },
+ {
+  "start": 616.74,
+  "end": 619.25,
+  "text": "go to the unique application identifieds"
+ },
+ {
+  "start": 619.26,
+  "end": 622.85,
+  "text": "section okay so here we can create our"
+ },
+ {
+  "start": 622.86,
+  "end": 625.49,
+  "text": "own application identifiers"
+ },
+ {
+  "start": 625.5,
+  "end": 628.19,
+  "text": "through which we can Define default IDs"
+ },
+ {
+  "start": 628.2,
+  "end": 631.009,
+  "text": "for controls in a particular application"
+ },
+ {
+  "start": 631.019,
+  "end": 634.49,
+  "text": "right so for this Oracle application we"
+ },
+ {
+  "start": 634.5,
+  "end": 637.91,
+  "text": "can have our own default IDs for all the"
+ },
+ {
+  "start": 637.92,
+  "end": 639.829,
+  "text": "controls so that they can be uniquely"
+ },
+ {
+  "start": 639.839,
+  "end": 644.269,
+  "text": "identified using these default IDs okay"
+ },
+ {
+  "start": 644.279,
+  "end": 647.329,
+  "text": "so for this what we have to do is uh we"
+ },
+ {
+  "start": 647.339,
+  "end": 650.329,
+  "text": "have to Define our application name so"
+ },
+ {
+  "start": 650.339,
+  "end": 654.65,
+  "text": "for here uh I will put Oracle okay"
+ },
+ {
+  "start": 654.66,
+  "end": 657.05,
+  "text": "and you will see uh the application"
+ },
+ {
+  "start": 657.06,
+  "end": 659.99,
+  "text": "identifier is by default it is selected"
+ },
+ {
+  "start": 660.0,
+  "end": 663.35,
+  "text": "as title you also have an option for URL"
+ },
+ {
+  "start": 663.36,
+  "end": 665.269,
+  "text": "and the value is"
+ },
+ {
+  "start": 665.279,
+  "end": 666.71,
+  "text": "um automatically"
+ },
+ {
+  "start": 666.72,
+  "end": 670.009,
+  "text": "created for this particular page okay"
+ },
+ {
+  "start": 670.019,
+  "end": 673.49,
+  "text": "so now this is a unique application"
+ },
+ {
+  "start": 673.5,
+  "end": 676.19,
+  "text": "identifier which is specific for a"
+ },
+ {
+  "start": 676.2,
+  "end": 678.17,
+  "text": "specific application which you have"
+ },
+ {
+  "start": 678.18,
+  "end": 681.29,
+  "text": "defined on your own right and now let's"
+ },
+ {
+  "start": 681.3,
+  "end": 683.569,
+  "text": "go ahead and save this"
+ },
+ {
+  "start": 683.579,
+  "end": 686.389,
+  "text": "okay so once you save this uh it is"
+ },
+ {
+  "start": 686.399,
+  "end": 690.23,
+  "text": "going to save these default IDs okay and"
+ },
+ {
+  "start": 690.24,
+  "end": 693.19,
+  "text": "then I will look at one of the controls"
+ },
+ {
+  "start": 693.2,
+  "end": 696.53,
+  "text": "uh say for example First theme which is"
+ },
+ {
+  "start": 696.54,
+  "end": 699.47,
+  "text": "a text box right so let's close this"
+ },
+ {
+  "start": 699.48,
+  "end": 700.19,
+  "text": "window"
+ },
+ {
+  "start": 700.2,
+  "end": 703.91,
+  "text": "and let's come here and here we will see"
+ },
+ {
+  "start": 703.92,
+  "end": 706.91,
+  "text": "the different controls so we want this"
+ },
+ {
+  "start": 706.92,
+  "end": 709.97,
+  "text": "uh first name which is a text box we"
+ },
+ {
+  "start": 709.98,
+  "end": 712.37,
+  "text": "want to select this okay"
+ },
+ {
+  "start": 712.38,
+  "end": 713.81,
+  "text": "so"
+ },
+ {
+  "start": 713.82,
+  "end": 715.97,
+  "text": "once you select this"
+ },
+ {
+  "start": 715.98,
+  "end": 718.009,
+  "text": "um all the properties would start"
+ },
+ {
+  "start": 718.019,
+  "end": 721.069,
+  "text": "appearing here okay and you will see"
+ },
+ {
+  "start": 721.079,
+  "end": 725.449,
+  "text": "that it has selected or it has scanned"
+ },
+ {
+  "start": 725.459,
+  "end": 727.79,
+  "text": "this control and it is able to identify"
+ },
+ {
+  "start": 727.8,
+  "end": 731.509,
+  "text": "using ID and some tag value"
+ },
+ {
+  "start": 731.519,
+  "end": 734.81,
+  "text": "but the problem with the ID is as you"
+ },
+ {
+  "start": 734.82,
+  "end": 737.71,
+  "text": "can see it is pretty Dynamic right so"
+ },
+ {
+  "start": 737.72,
+  "end": 742.19,
+  "text": "you cannot basically depend on this ID"
+ },
+ {
+  "start": 742.2,
+  "end": 746.03,
+  "text": "which looks uh pretty Dynamic and it can"
+ },
+ {
+  "start": 746.04,
+  "end": 748.79,
+  "text": "change anytime okay so what we'll do"
+ },
+ {
+  "start": 748.8,
+  "end": 752.81,
+  "text": "we'll deselect this ID and instead of"
+ },
+ {
+  "start": 752.82,
+  "end": 755.99,
+  "text": "that what we'll select is we'll have a"
+ },
+ {
+  "start": 756.0,
+  "end": 758.63,
+  "text": "default name which is first name and"
+ },
+ {
+  "start": 758.64,
+  "end": 760.79,
+  "text": "then we will also select the visible"
+ },
+ {
+  "start": 760.8,
+  "end": 763.85,
+  "text": "property which is true okay so these are"
+ },
+ {
+  "start": 763.86,
+  "end": 765.53,
+  "text": "the two properties through which we want"
+ },
+ {
+  "start": 765.54,
+  "end": 768.889,
+  "text": "to identify this control and the other"
+ },
+ {
+  "start": 768.899,
+  "end": 771.71,
+  "text": "thing which we want to do is"
+ },
+ {
+  "start": 771.72,
+  "end": 775.79,
+  "text": "we want to define a default ID on the"
+ },
+ {
+  "start": 775.8,
+  "end": 777.949,
+  "text": "application Level for this control right"
+ },
+ {
+  "start": 777.959,
+  "end": 781.31,
+  "text": "so this is the Tosca ID mapper it Maps"
+ },
+ {
+  "start": 781.32,
+  "end": 785.99,
+  "text": "your IDs with your controls okay so now"
+ },
+ {
+  "start": 786.0,
+  "end": 789.35,
+  "text": "we can Define our own default ID at an"
+ },
+ {
+  "start": 789.36,
+  "end": 791.75,
+  "text": "application Level so as you can see here"
+ },
+ {
+  "start": 791.76,
+  "end": 794.629,
+  "text": "once you select that option it comes as"
+ },
+ {
+  "start": 794.639,
+  "end": 797.329,
+  "text": "select application so choose from"
+ },
+ {
+  "start": 797.339,
+  "end": 799.25,
+  "text": "previously configured applications where"
+ },
+ {
+  "start": 799.26,
+  "end": 801.23,
+  "text": "you want to save the default Define"
+ },
+ {
+  "start": 801.24,
+  "end": 804.069,
+  "text": "default IDs okay"
+ },
+ {
+  "start": 804.079,
+  "end": 806.569,
+  "text": "ah and here we can select our"
+ },
+ {
+  "start": 806.579,
+  "end": 808.129,
+  "text": "application which we have created"
+ },
+ {
+  "start": 808.139,
+  "end": 811.009,
+  "text": "earlier in the settings so here you will"
+ },
+ {
+  "start": 811.019,
+  "end": 813.71,
+  "text": "see uh there is an option called Oracle"
+ },
+ {
+  "start": 813.72,
+  "end": 816.23,
+  "text": "which we have created earlier okay so"
+ },
+ {
+  "start": 816.24,
+  "end": 819.53,
+  "text": "select that and click on Save and now"
+ },
+ {
+  "start": 819.54,
+  "end": 824.09,
+  "text": "the control would be reloaded right and"
+ },
+ {
+  "start": 824.1,
+  "end": 826.97,
+  "text": "you will see that it has got now a"
+ },
+ {
+  "start": 826.98,
+  "end": 830.21,
+  "text": "default ID at an application Level and"
+ },
+ {
+  "start": 830.22,
+  "end": 832.97,
+  "text": "it has it will always select based on"
+ },
+ {
+  "start": 832.98,
+  "end": 835.49,
+  "text": "these two properties okay"
+ },
+ {
+  "start": 835.5,
+  "end": 838.129,
+  "text": "now the other good thing about this is"
+ },
+ {
+  "start": 838.139,
+  "end": 839.99,
+  "text": "It's Not only applicable for this"
+ },
+ {
+  "start": 840.0,
+  "end": 842.629,
+  "text": "particular control but for all the other"
+ },
+ {
+  "start": 842.639,
+  "end": 845.87,
+  "text": "controls on this application like if I"
+ },
+ {
+  "start": 845.88,
+  "end": 847.31,
+  "text": "go to last name"
+ },
+ {
+  "start": 847.32,
+  "end": 851.329,
+  "text": "okay and you will see by default it has"
+ },
+ {
+  "start": 851.339,
+  "end": 853.67,
+  "text": "selected the default name and visible"
+ },
+ {
+  "start": 853.68,
+  "end": 857.75,
+  "text": "property but if I would have not given a"
+ },
+ {
+  "start": 857.76,
+  "end": 860.629,
+  "text": "ID mapper or I would not have selected"
+ },
+ {
+  "start": 860.639,
+  "end": 863.21,
+  "text": "the ID mapper then it would have"
+ },
+ {
+  "start": 863.22,
+  "end": 865.55,
+  "text": "probably selected based on the ID and"
+ },
+ {
+  "start": 865.56,
+  "end": 871.85,
+  "text": "tag right but since we have defined"
+ },
+ {
+  "start": 871.86,
+  "end": 874.61,
+  "text": "um default ID at application Level so"
+ },
+ {
+  "start": 874.62,
+  "end": 876.889,
+  "text": "all the controls in this application"
+ },
+ {
+  "start": 876.899,
+  "end": 880.129,
+  "text": "will have this default ID through which"
+ },
+ {
+  "start": 880.139,
+  "end": 883.31,
+  "text": "it can uniquely identify all these"
+ },
+ {
+  "start": 883.32,
+  "end": 885.41,
+  "text": "controls right"
+ },
+ {
+  "start": 885.42,
+  "end": 886.67,
+  "text": "so"
+ },
+ {
+  "start": 886.68,
+  "end": 889.129,
+  "text": "this is how the Tosca ID mapper works"
+ },
+ {
+  "start": 889.139,
+  "end": 892.49,
+  "text": "you need to go to the settings icon"
+ },
+ {
+  "start": 892.5,
+  "end": 896.509,
+  "text": "which is a new icon on the xcan window"
+ },
+ {
+  "start": 896.519,
+  "end": 899.03,
+  "text": "and you can Define your own application"
+ },
+ {
+  "start": 899.04,
+  "end": 901.79,
+  "text": "name with a value"
+ },
+ {
+  "start": 901.8,
+  "end": 905.629,
+  "text": "uh and then you can save it and then you"
+ },
+ {
+  "start": 905.639,
+  "end": 908.509,
+  "text": "can go to the control and you can select"
+ },
+ {
+  "start": 908.519,
+  "end": 911.269,
+  "text": "that particular value or that"
+ },
+ {
+  "start": 911.279,
+  "end": 914.09,
+  "text": "application ID which you have created"
+ },
+ {
+  "start": 914.1,
+  "end": 917.21,
+  "text": "and you can select it for all your"
+ },
+ {
+  "start": 917.22,
+  "end": 920.569,
+  "text": "controls in the application this way uh"
+ },
+ {
+  "start": 920.579,
+  "end": 923.629,
+  "text": "it will be uh more stable and you don't"
+ },
+ {
+  "start": 923.639,
+  "end": 926.41,
+  "text": "need to customize it for every control"
+ },
+ {
+  "start": 926.42,
+  "end": 929.21,
+  "text": "it will be automatically customized for"
+ },
+ {
+  "start": 929.22,
+  "end": 932.509,
+  "text": "all the controls in your application so"
+ },
+ {
+  "start": 932.519,
+  "end": 934.189,
+  "text": "um your customization times goes down"
+ },
+ {
+  "start": 934.199,
+  "end": 936.65,
+  "text": "and you can focus more on the automation"
+ },
+ {
+  "start": 936.66,
+  "end": 939.23,
+  "text": "rather than spending time on customizing"
+ },
+ {
+  "start": 939.24,
+  "end": 941.09,
+  "text": "each and every control in the Erp"
+ },
+ {
+  "start": 941.1,
+  "end": 943.37,
+  "text": "application"
+ },
+ {
+  "start": 943.38,
+  "end": 945.71,
+  "text": "now let's talk about the next feature"
+ },
+ {
+  "start": 945.72,
+  "end": 948.47,
+  "text": "which is available in enhanced test"
+ },
+ {
+  "start": 948.48,
+  "end": 951.29,
+  "text": "automation for Oracle in Tosca 16.0"
+ },
+ {
+  "start": 951.3,
+  "end": 954.769,
+  "text": "which is the support for Aria framework"
+ },
+ {
+  "start": 954.779,
+  "end": 957.05,
+  "text": "but before that let's understand a"
+ },
+ {
+  "start": 957.06,
+  "end": 960.23,
+  "text": "little bit about what is Arya and Arya"
+ },
+ {
+  "start": 960.24,
+  "end": 962.21,
+  "text": "stands for accessible Rich internet"
+ },
+ {
+  "start": 962.22,
+  "end": 965.509,
+  "text": "applications it is a framework that"
+ },
+ {
+  "start": 965.519,
+  "end": 967.37,
+  "text": "makes it easy for users with"
+ },
+ {
+  "start": 967.38,
+  "end": 970.67,
+  "text": "disabilities to view interact or access"
+ },
+ {
+  "start": 970.68,
+  "end": 973.129,
+  "text": "web content and applications"
+ },
+ {
+  "start": 973.139,
+  "end": 975.35,
+  "text": "it is used by assistive Technologies"
+ },
+ {
+  "start": 975.36,
+  "end": 978.23,
+  "text": "like screen readers magnifiers or"
+ },
+ {
+  "start": 978.24,
+  "end": 979.97,
+  "text": "text-to-speech"
+ },
+ {
+  "start": 979.98,
+  "end": 982.43,
+  "text": "and Arya can be implemented across any"
+ },
+ {
+  "start": 982.44,
+  "end": 984.65,
+  "text": "mobile web or Enterprise application"
+ },
+ {
+  "start": 984.66,
+  "end": 987.829,
+  "text": "like Oracle workday Microsoft Dynamics"
+ },
+ {
+  "start": 987.839,
+  "end": 991.129,
+  "text": "365 sap and others"
+ },
+ {
+  "start": 991.139,
+  "end": 992.93,
+  "text": "now why this is important is because"
+ },
+ {
+  "start": 992.94,
+  "end": 995.449,
+  "text": "Aria framework is going to be more and"
+ },
+ {
+  "start": 995.459,
+  "end": 997.389,
+  "text": "more used across all the applications"
+ },
+ {
+  "start": 997.399,
+  "end": 1000.189,
+  "text": "all the controls are going to be built"
+ },
+ {
+  "start": 1000.199,
+  "end": 1004.449,
+  "text": "using the Aria framework to help uh"
+ },
+ {
+  "start": 1004.459,
+  "end": 1007.15,
+  "text": "users with disabilities to interact with"
+ },
+ {
+  "start": 1007.16,
+  "end": 1009.73,
+  "text": "these applications more easily and this"
+ },
+ {
+  "start": 1009.74,
+  "end": 1012.31,
+  "text": "is being regulated by the European Union"
+ },
+ {
+  "start": 1012.32,
+  "end": 1015.55,
+  "text": "which is soon going to make it mandatory"
+ },
+ {
+  "start": 1015.56,
+  "end": 1017.65,
+  "text": "for most of the applications to have"
+ },
+ {
+  "start": 1017.66,
+  "end": 1020.769,
+  "text": "this area framework implemented uh in"
+ },
+ {
+  "start": 1020.779,
+  "end": 1024.01,
+  "text": "their applications by 2025."
+ },
+ {
+  "start": 1024.02,
+  "end": 1027.789,
+  "text": "so in Tosca 16.0 it provides you with"
+ },
+ {
+  "start": 1027.799,
+  "end": 1030.429,
+  "text": "inbuilt capabilities to automate this"
+ },
+ {
+  "start": 1030.439,
+  "end": 1034.27,
+  "text": "controls with Aria labels it decides"
+ },
+ {
+  "start": 1034.28,
+  "end": 1036.789,
+  "text": "based on the steering parameter if the"
+ },
+ {
+  "start": 1036.799,
+  "end": 1039.37,
+  "text": "native area support should be considered"
+ },
+ {
+  "start": 1039.38,
+  "end": 1040.809,
+  "text": "or not"
+ },
+ {
+  "start": 1040.819,
+  "end": 1045.069,
+  "text": "so now let's see how you can use this"
+ },
+ {
+  "start": 1045.079,
+  "end": 1048.309,
+  "text": "feature which is the support for Aria"
+ },
+ {
+  "start": 1048.319,
+  "end": 1052.21,
+  "text": "framework in applications like Oracle to"
+ },
+ {
+  "start": 1052.22,
+  "end": 1054.43,
+  "text": "identify controls based on this"
+ },
+ {
+  "start": 1054.44,
+  "end": 1057.13,
+  "text": "particular feature"
+ },
+ {
+  "start": 1057.14,
+  "end": 1060.27,
+  "text": "so let's go back to our Erp application"
+ },
+ {
+  "start": 1060.28,
+  "end": 1064.09,
+  "text": "and let's go to some other page to view"
+ },
+ {
+  "start": 1064.1,
+  "end": 1066.37,
+  "text": "some controls which we can"
+ },
+ {
+  "start": 1066.38,
+  "end": 1072.909,
+  "text": "link with the Aria framework"
+ },
+ {
+  "start": 1078.13,
+  "end": 1078.14,
+  "text": "so I'm going to go to a page and add a"
+ },
+ {
+  "start": 1078.14,
+  "end": 1082.39,
+  "text": "absence here from the ARP application"
+ },
+ {
+  "start": 1082.4,
+  "end": 1084.669,
+  "text": "and that will that will take me to this"
+ },
+ {
+  "start": 1084.679,
+  "end": 1088.27,
+  "text": "page where um I can select a value for"
+ },
+ {
+  "start": 1088.28,
+  "end": 1090.31,
+  "text": "my leave type"
+ },
+ {
+  "start": 1090.32,
+  "end": 1092.95,
+  "text": "and then I can proceed right"
+ },
+ {
+  "start": 1092.96,
+  "end": 1095.11,
+  "text": "but the thing to note here is these"
+ },
+ {
+  "start": 1095.12,
+  "end": 1097.57,
+  "text": "three buttons now these three buttons"
+ },
+ {
+  "start": 1097.58,
+  "end": 1100.93,
+  "text": "um are built with the Aria framework and"
+ },
+ {
+  "start": 1100.94,
+  "end": 1103.69,
+  "text": "how I can tell that is"
+ },
+ {
+  "start": 1103.7,
+  "end": 1106.93,
+  "text": "let's add another module for this"
+ },
+ {
+  "start": 1106.94,
+  "end": 1108.49,
+  "text": "particular page"
+ },
+ {
+  "start": 1108.5,
+  "end": 1115.99,
+  "text": "so let's scan the application"
+ },
+ {
+  "start": 1118.39,
+  "end": 1118.4,
+  "text": "now we can select the application and"
+ },
+ {
+  "start": 1118.4,
+  "end": 1123.25,
+  "text": "click on scan"
+ },
+ {
+  "start": 1126.85,
+  "end": 1126.86,
+  "text": "so once the advanced view is displaying"
+ },
+ {
+  "start": 1126.86,
+  "end": 1129.549,
+  "text": "all the controls again"
+ },
+ {
+  "start": 1129.559,
+  "end": 1132.43,
+  "text": "um the new settings icon which we"
+ },
+ {
+  "start": 1132.44,
+  "end": 1140.169,
+  "text": "already talked about so click on that"
+ },
+ {
+  "start": 1143.529,
+  "end": 1143.539,
+  "text": "and then it will open a settings uh"
+ },
+ {
+  "start": 1143.539,
+  "end": 1146.11,
+  "text": "window where you can find general"
+ },
+ {
+  "start": 1146.12,
+  "end": 1148.57,
+  "text": "settings in general settings there is an"
+ },
+ {
+  "start": 1148.58,
+  "end": 1153.19,
+  "text": "option to either ignore or enable the"
+ },
+ {
+  "start": 1153.2,
+  "end": 1155.11,
+  "text": "Aria controls right"
+ },
+ {
+  "start": 1155.12,
+  "end": 1157.15,
+  "text": "so by default this option would not be"
+ },
+ {
+  "start": 1157.16,
+  "end": 1159.37,
+  "text": "checked out that means uh the Aria"
+ },
+ {
+  "start": 1159.38,
+  "end": 1160.51,
+  "text": "controls would be taken into"
+ },
+ {
+  "start": 1160.52,
+  "end": 1164.59,
+  "text": "consideration by Tosca but if you want"
+ },
+ {
+  "start": 1164.6,
+  "end": 1167.289,
+  "text": "uh to ignore area controls you can"
+ },
+ {
+  "start": 1167.299,
+  "end": 1170.65,
+  "text": "select this and click on Save and that"
+ },
+ {
+  "start": 1170.66,
+  "end": 1173.289,
+  "text": "should uh basically turn off this"
+ },
+ {
+  "start": 1173.299,
+  "end": 1175.57,
+  "text": "feature which means all your controls"
+ },
+ {
+  "start": 1175.58,
+  "end": 1178.39,
+  "text": "would now be normally identified by the"
+ },
+ {
+  "start": 1178.4,
+  "end": 1181.81,
+  "text": "properties right but uh since we want to"
+ },
+ {
+  "start": 1181.82,
+  "end": 1185.169,
+  "text": "see how we can identify our controls"
+ },
+ {
+  "start": 1185.179,
+  "end": 1188.169,
+  "text": "using the new Aria framework support"
+ },
+ {
+  "start": 1188.179,
+  "end": 1190.69,
+  "text": "provided by Tosca 16 so let's check this"
+ },
+ {
+  "start": 1190.7,
+  "end": 1193.75,
+  "text": "out and click on Save"
+ },
+ {
+  "start": 1193.76,
+  "end": 1196.63,
+  "text": "and then um just close the settings"
+ },
+ {
+  "start": 1196.64,
+  "end": 1200.11,
+  "text": "dialog box right now let's shift our"
+ },
+ {
+  "start": 1200.12,
+  "end": 1203.77,
+  "text": "Focus uh to the three controls uh which"
+ },
+ {
+  "start": 1203.78,
+  "end": 1206.529,
+  "text": "are on the top of this page right so"
+ },
+ {
+  "start": 1206.539,
+  "end": 1209.71,
+  "text": "which are the save and close submit and"
+ },
+ {
+  "start": 1209.72,
+  "end": 1210.789,
+  "text": "cancel"
+ },
+ {
+  "start": 1210.799,
+  "end": 1213.669,
+  "text": "now as you can see these three uh"
+ },
+ {
+  "start": 1213.679,
+  "end": 1217.63,
+  "text": "controls or buttons are within a table"
+ },
+ {
+  "start": 1217.64,
+  "end": 1221.169,
+  "text": "now if you have not enabled the Aria's"
+ },
+ {
+  "start": 1221.179,
+  "end": 1223.15,
+  "text": "support provided by Tosca then these"
+ },
+ {
+  "start": 1223.16,
+  "end": 1225.669,
+  "text": "three buttons should be mostly visible"
+ },
+ {
+  "start": 1225.679,
+  "end": 1229.029,
+  "text": "like a div elements and div elements are"
+ },
+ {
+  "start": 1229.039,
+  "end": 1231.789,
+  "text": "difficult to identify as you know since"
+ },
+ {
+  "start": 1231.799,
+  "end": 1233.59,
+  "text": "there would be lot of developments and"
+ },
+ {
+  "start": 1233.6,
+  "end": 1235.39,
+  "text": "there would not be any unique properties"
+ },
+ {
+  "start": 1235.4,
+  "end": 1237.549,
+  "text": "through which you can identify them so"
+ },
+ {
+  "start": 1237.559,
+  "end": 1241.21,
+  "text": "when you enable the Arias framework"
+ },
+ {
+  "start": 1241.22,
+  "end": 1243.789,
+  "text": "support then these are displayed as"
+ },
+ {
+  "start": 1243.799,
+  "end": 1246.73,
+  "text": "buttons and if I select one of these"
+ },
+ {
+  "start": 1246.74,
+  "end": 1249.31,
+  "text": "buttons and"
+ },
+ {
+  "start": 1249.32,
+  "end": 1253.87,
+  "text": "I go to one of its properties we can see"
+ },
+ {
+  "start": 1253.88,
+  "end": 1257.529,
+  "text": "that this is a Aria framework control so"
+ },
+ {
+  "start": 1257.539,
+  "end": 1260.35,
+  "text": "if you go to the adapter"
+ },
+ {
+  "start": 1260.36,
+  "end": 1263.59,
+  "text": "um and you can see here it is showing up"
+ },
+ {
+  "start": 1263.6,
+  "end": 1266.97,
+  "text": "as tricentice Dot"
+ },
+ {
+  "start": 1266.98,
+  "end": 1271.029,
+  "text": "automation dot engines dot adapter"
+ },
+ {
+  "start": 1271.039,
+  "end": 1274.95,
+  "text": "and Dot aria.aria button adapter right"
+ },
+ {
+  "start": 1274.96,
+  "end": 1278.95,
+  "text": "so it is one of the Aria framework"
+ },
+ {
+  "start": 1278.96,
+  "end": 1283.51,
+  "text": "buttons or controls through which Tosca"
+ },
+ {
+  "start": 1283.52,
+  "end": 1286.63,
+  "text": "is able to identify this controls as a"
+ },
+ {
+  "start": 1286.64,
+  "end": 1290.35,
+  "text": "specific buttons right if if it is not"
+ },
+ {
+  "start": 1290.36,
+  "end": 1292.63,
+  "text": "if the support is not present or the"
+ },
+ {
+  "start": 1292.64,
+  "end": 1295.27,
+  "text": "Aria framework is not supported then it"
+ },
+ {
+  "start": 1295.28,
+  "end": 1297.13,
+  "text": "would be difficult to identify these"
+ },
+ {
+  "start": 1297.14,
+  "end": 1300.01,
+  "text": "controls on the application"
+ },
+ {
+  "start": 1300.02,
+  "end": 1303.25,
+  "text": "so I can select all these uh three"
+ },
+ {
+  "start": 1303.26,
+  "end": 1306.13,
+  "text": "buttons uh using the audio framework"
+ },
+ {
+  "start": 1306.14,
+  "end": 1309.549,
+  "text": "support and I can save it to my module"
+ },
+ {
+  "start": 1309.559,
+  "end": 1311.89,
+  "text": "and close this"
+ },
+ {
+  "start": 1311.9,
+  "end": 1314.77,
+  "text": "um particular X scan"
+ },
+ {
+  "start": 1314.78,
+  "end": 1318.37,
+  "text": "to have my module ready and now I can"
+ },
+ {
+  "start": 1318.38,
+  "end": 1322.149,
+  "text": "work out with these three controls"
+ },
+ {
+  "start": 1322.159,
+  "end": 1323.59,
+  "text": "right"
+ },
+ {
+  "start": 1323.6,
+  "end": 1326.289,
+  "text": "so uh this is how you can turn on and"
+ },
+ {
+  "start": 1326.299,
+  "end": 1329.049,
+  "text": "turn off the audio framework support if"
+ },
+ {
+  "start": 1329.059,
+  "end": 1331.33,
+  "text": "you are working with a specific Aria"
+ },
+ {
+  "start": 1331.34,
+  "end": 1334.63,
+  "text": "controls it's best to have that enabled"
+ },
+ {
+  "start": 1334.64,
+  "end": 1336.549,
+  "text": "so that you can easily identify those"
+ },
+ {
+  "start": 1336.559,
+  "end": 1339.13,
+  "text": "controls and start working on the"
+ },
+ {
+  "start": 1339.14,
+  "end": 1341.95,
+  "text": "automation of your application"
+ },
+ {
+  "start": 1341.96,
+  "end": 1347.97,
+  "text": "foreign"
+ },
+ {
+  "start": 1351.549,
+  "end": 1351.559,
+  "text": "of Tosca as you can see uh the buttons"
+ },
+ {
+  "start": 1351.559,
+  "end": 1354.13,
+  "text": "or the folders are little different uh"
+ },
+ {
+  "start": 1354.14,
+  "end": 1357.19,
+  "text": "compared to the previous versions"
+ },
+ {
+  "start": 1357.2,
+  "end": 1360.43,
+  "text": "um they have changed the folder icons"
+ },
+ {
+  "start": 1360.44,
+  "end": 1363.31,
+  "text": "little bit the colors have changed the"
+ },
+ {
+  "start": 1363.32,
+  "end": 1366.789,
+  "text": "overall UI looks little different right"
+ },
+ {
+  "start": 1366.799,
+  "end": 1370.029,
+  "text": "and they have also introduced a few"
+ },
+ {
+  "start": 1370.039,
+  "end": 1372.19,
+  "text": "other themes apart from the default"
+ },
+ {
+  "start": 1372.2,
+  "end": 1375.43,
+  "text": "theme now personally I really like this"
+ },
+ {
+  "start": 1375.44,
+  "end": 1378.01,
+  "text": "theme I've been working it's little uh"
+ },
+ {
+  "start": 1378.02,
+  "end": 1382.81,
+  "text": "dark right now but I personally prefer"
+ },
+ {
+  "start": 1382.82,
+  "end": 1385.51,
+  "text": "the default theme but if you go on the"
+ },
+ {
+  "start": 1385.52,
+  "end": 1388.39,
+  "text": "top you will see this window and right"
+ },
+ {
+  "start": 1388.4,
+  "end": 1390.549,
+  "text": "now I am on the light theme"
+ },
+ {
+  "start": 1390.559,
+  "end": 1393.669,
+  "text": "and there are other high contrast light"
+ },
+ {
+  "start": 1393.679,
+  "end": 1396.49,
+  "text": "and high contrast dark and also the"
+ },
+ {
+  "start": 1396.5,
+  "end": 1399.31,
+  "text": "popular Dark theme now if you are used"
+ },
+ {
+  "start": 1399.32,
+  "end": 1401.95,
+  "text": "to uh working on dark themes especially"
+ },
+ {
+  "start": 1401.96,
+  "end": 1405.25,
+  "text": "on different IDs this could be ideal for"
+ },
+ {
+  "start": 1405.26,
+  "end": 1407.409,
+  "text": "you uh"
+ },
+ {
+  "start": 1407.419,
+  "end": 1410.71,
+  "text": "to get the stock theme enabled for your"
+ },
+ {
+  "start": 1410.72,
+  "end": 1414.25,
+  "text": "uh Tosca 16.0"
+ },
+ {
+  "start": 1414.26,
+  "end": 1417.13,
+  "text": "so you can always change back your theme"
+ },
+ {
+  "start": 1417.14,
+  "end": 1420.13,
+  "text": "to The Light default theme"
+ },
+ {
+  "start": 1420.14,
+  "end": 1422.289,
+  "text": "which is my personal favorite"
+ },
+ {
+  "start": 1422.299,
+  "end": 1426.49,
+  "text": "so uh that's that's a new feature a new"
+ },
+ {
+  "start": 1426.5,
+  "end": 1429.669,
+  "text": "theme which has been um introduced in"
+ },
+ {
+  "start": 1429.679,
+  "end": 1433.27,
+  "text": "Tosca 16.0 and it provides you with a"
+ },
+ {
+  "start": 1433.28,
+  "end": 1436.33,
+  "text": "different UI layout uh which is better"
+ },
+ {
+  "start": 1436.34,
+  "end": 1440.049,
+  "text": "for different uh users depending on your"
+ },
+ {
+  "start": 1440.059,
+  "end": 1442.21,
+  "text": "personal choices and"
+ },
+ {
+  "start": 1442.22,
+  "end": 1443.77,
+  "text": "um how you are used to working with"
+ },
+ {
+  "start": 1443.78,
+  "end": 1447.31,
+  "text": "different automation tools or IDs"
+ },
+ {
+  "start": 1447.32,
+  "end": 1450.669,
+  "text": "now talking about the final feature in"
+ },
+ {
+  "start": 1450.679,
+  "end": 1454.45,
+  "text": "this particular session so the test case"
+ },
+ {
+  "start": 1454.46,
+  "end": 1457.149,
+  "text": "is pre-execution approval which is an"
+ },
+ {
+  "start": 1457.159,
+  "end": 1460.09,
+  "text": "automated process uh being introduced in"
+ },
+ {
+  "start": 1460.1,
+  "end": 1462.07,
+  "text": "Tosca 16.0"
+ },
+ {
+  "start": 1462.08,
+  "end": 1464.35,
+  "text": "now let's talk about it uh what it is"
+ },
+ {
+  "start": 1464.36,
+  "end": 1466.45,
+  "text": "and how does it work"
+ },
+ {
+  "start": 1466.46,
+  "end": 1469.63,
+  "text": "so Tosca pre-execution approval uh as I"
+ },
+ {
+  "start": 1469.64,
+  "end": 1471.61,
+  "text": "said it's an automated process to"
+ },
+ {
+  "start": 1471.62,
+  "end": 1474.31,
+  "text": "request and Grant approval for your test"
+ },
+ {
+  "start": 1474.32,
+  "end": 1475.75,
+  "text": "cases"
+ },
+ {
+  "start": 1475.76,
+  "end": 1478.09,
+  "text": "it allows us to validate our test cases"
+ },
+ {
+  "start": 1478.1,
+  "end": 1480.07,
+  "text": "before they are run"
+ },
+ {
+  "start": 1480.08,
+  "end": 1481.51,
+  "text": "so that"
+ },
+ {
+  "start": 1481.52,
+  "end": 1485.169,
+  "text": "um the test cases are all validated and"
+ },
+ {
+  "start": 1485.179,
+  "end": 1488.35,
+  "text": "no unauthorized modifications can be"
+ },
+ {
+  "start": 1488.36,
+  "end": 1491.89,
+  "text": "done on this test cases if they are once"
+ },
+ {
+  "start": 1491.9,
+  "end": 1495.13,
+  "text": "validated and approved"
+ },
+ {
+  "start": 1495.14,
+  "end": 1498.01,
+  "text": "the approval process is only for test"
+ },
+ {
+  "start": 1498.02,
+  "end": 1500.649,
+  "text": "cases now do remember that it doesn't"
+ },
+ {
+  "start": 1500.659,
+  "end": 1502.69,
+  "text": "include other objects like test case"
+ },
+ {
+  "start": 1502.7,
+  "end": 1505.51,
+  "text": "templates business test cases modules or"
+ },
+ {
+  "start": 1505.52,
+  "end": 1508.63,
+  "text": "execution lists this is purely for your"
+ },
+ {
+  "start": 1508.64,
+  "end": 1511.99,
+  "text": "test cases"
+ },
+ {
+  "start": 1516.25,
+  "end": 1516.26,
+  "text": "so uh how it is done the test case work"
+ },
+ {
+  "start": 1516.26,
+  "end": 1520.09,
+  "text": "state which you must have seen uh it has"
+ },
+ {
+  "start": 1520.1,
+  "end": 1522.31,
+  "text": "got three uh basically three stages"
+ },
+ {
+  "start": 1522.32,
+  "end": 1525.669,
+  "text": "planned in work and completed and with"
+ },
+ {
+  "start": 1525.679,
+  "end": 1527.47,
+  "text": "this pre-execution approval the test"
+ },
+ {
+  "start": 1527.48,
+  "end": 1530.769,
+  "text": "case work state can be used by Tosca to"
+ },
+ {
+  "start": 1530.779,
+  "end": 1533.89,
+  "text": "change the approval state of the test"
+ },
+ {
+  "start": 1533.9,
+  "end": 1535.149,
+  "text": "cases"
+ },
+ {
+  "start": 1535.159,
+  "end": 1539.169,
+  "text": "so it lets users know how far along the"
+ },
+ {
+  "start": 1539.179,
+  "end": 1541.75,
+  "text": "test cases is either planned in work or"
+ },
+ {
+  "start": 1541.76,
+  "end": 1544.39,
+  "text": "completed"
+ },
+ {
+  "start": 1546.909,
+  "end": 1546.919,
+  "text": "now if we use pre-execution approval"
+ },
+ {
+  "start": 1546.919,
+  "end": 1550.33,
+  "text": "only Tosca can change the state"
+ },
+ {
+  "start": 1550.34,
+  "end": 1552.909,
+  "text": "um automatically so if for every new"
+ },
+ {
+  "start": 1552.919,
+  "end": 1555.37,
+  "text": "test case that's in progress has the"
+ },
+ {
+  "start": 1555.38,
+  "end": 1558.49,
+  "text": "state planned and when a user requests"
+ },
+ {
+  "start": 1558.5,
+  "end": 1560.71,
+  "text": "approval for a test case Tosca changes"
+ },
+ {
+  "start": 1560.72,
+  "end": 1562.45,
+  "text": "it to in work"
+ },
+ {
+  "start": 1562.46,
+  "end": 1565.21,
+  "text": "and then approved test cases get the"
+ },
+ {
+  "start": 1565.22,
+  "end": 1567.669,
+  "text": "state completed and rejected test cases"
+ },
+ {
+  "start": 1567.679,
+  "end": 1569.289,
+  "text": "go back to planned"
+ },
+ {
+  "start": 1569.299,
+  "end": 1571.149,
+  "text": "so this is how the test cases"
+ },
+ {
+  "start": 1571.159,
+  "end": 1574.75,
+  "text": "pre-execution approval works now ideally"
+ },
+ {
+  "start": 1574.76,
+  "end": 1578.89,
+  "text": "um I would have shown you how it works"
+ },
+ {
+  "start": 1578.9,
+  "end": 1581.35,
+  "text": "but it is not possible uh to show you"
+ },
+ {
+  "start": 1581.36,
+  "end": 1583.57,
+  "text": "this feature currently because I'm"
+ },
+ {
+  "start": 1583.58,
+  "end": 1585.909,
+  "text": "working on a single user workspace and"
+ },
+ {
+  "start": 1585.919,
+  "end": 1588.31,
+  "text": "this particular feature works when you"
+ },
+ {
+  "start": 1588.32,
+  "end": 1590.169,
+  "text": "are working within a team on a"
+ },
+ {
+  "start": 1590.179,
+  "end": 1593.47,
+  "text": "multi-user workspace right so that it"
+ },
+ {
+  "start": 1593.48,
+  "end": 1595.57,
+  "text": "goes through different uh review process"
+ },
+ {
+  "start": 1595.58,
+  "end": 1598.57,
+  "text": "before that test cases can be approved"
+ },
+ {
+  "start": 1598.58,
+  "end": 1600.669,
+  "text": "and then go into the execution that"
+ },
+ {
+  "start": 1600.679,
+  "end": 1602.669,
+  "text": "would be a specific User Group assigned"
+ },
+ {
+  "start": 1602.679,
+  "end": 1605.769,
+  "text": "and that user group will take care of"
+ },
+ {
+  "start": 1605.779,
+  "end": 1607.51,
+  "text": "reviewing the test cases and then"
+ },
+ {
+  "start": 1607.52,
+  "end": 1610.87,
+  "text": "approving them okay but I can tell you"
+ },
+ {
+  "start": 1610.88,
+  "end": 1613.21,
+  "text": "that if you're working on a multi-user"
+ },
+ {
+  "start": 1613.22,
+  "end": 1614.95,
+  "text": "workspace you can go to your root"
+ },
+ {
+  "start": 1614.96,
+  "end": 1618.25,
+  "text": "project level and right click and then"
+ },
+ {
+  "start": 1618.26,
+  "end": 1621.85,
+  "text": "you can enable that feature right from"
+ },
+ {
+  "start": 1621.86,
+  "end": 1624.43,
+  "text": "this particular menu okay you can always"
+ },
+ {
+  "start": 1624.44,
+  "end": 1626.909,
+  "text": "create your own user group"
+ },
+ {
+  "start": 1626.919,
+  "end": 1630.73,
+  "text": "at at this level so that that user group"
+ },
+ {
+  "start": 1630.74,
+  "end": 1633.789,
+  "text": "would be taking care of this whole"
+ },
+ {
+  "start": 1633.799,
+  "end": 1637.75,
+  "text": "approval and review process"
+ },
+ {
+  "start": 1641.35,
+  "end": 1641.36,
+  "text": "so uh that's all about this particular"
+ },
+ {
+  "start": 1641.36,
+  "end": 1644.23,
+  "text": "feature it is very interesting uh to"
+ },
+ {
+  "start": 1644.24,
+  "end": 1645.37,
+  "text": "know"
+ },
+ {
+  "start": 1645.38,
+  "end": 1647.83,
+  "text": "um I wish I could have shown you more on"
+ },
+ {
+  "start": 1647.84,
+  "end": 1649.39,
+  "text": "this feature but maybe in the later"
+ },
+ {
+  "start": 1649.4,
+  "end": 1651.43,
+  "text": "sessions I would try to show you this"
+ },
+ {
+  "start": 1651.44,
+  "end": 1653.23,
+  "text": "new feature which is available in Tosca"
+ },
+ {
+  "start": 1653.24,
+  "end": 1655.45,
+  "text": "16.0"
+ },
+ {
+  "start": 1655.46,
+  "end": 1657.909,
+  "text": "so that's all for this session I hope it"
+ },
+ {
+  "start": 1657.919,
+  "end": 1659.89,
+  "text": "was interesting to know all the new"
+ },
+ {
+  "start": 1659.9,
+  "end": 1662.11,
+  "text": "features uh which are currently"
+ },
+ {
+  "start": 1662.12,
+  "end": 1665.23,
+  "text": "available in Tosca 16.0 I would highly"
+ },
+ {
+  "start": 1665.24,
+  "end": 1667.81,
+  "text": "recommend all of you to upgrade to the"
+ },
+ {
+  "start": 1667.82,
+  "end": 1669.669,
+  "text": "latest version of Tosca if you have not"
+ },
+ {
+  "start": 1669.679,
+  "end": 1672.43,
+  "text": "already done or if you are installing it"
+ },
+ {
+  "start": 1672.44,
+  "end": 1674.649,
+  "text": "completely new uh it's a good time to"
+ },
+ {
+  "start": 1674.659,
+  "end": 1678.09,
+  "text": "start installing Tosca 16.0 and"
+ },
+ {
+  "start": 1678.1,
+  "end": 1680.35,
+  "text": "interacting with all the different new"
+ },
+ {
+  "start": 1680.36,
+  "end": 1681.73,
+  "text": "features which are currently available"
+ },
+ {
+  "start": 1681.74,
+  "end": 1684.43,
+  "text": "there are lots of different enhancements"
+ },
+ {
+  "start": 1684.44,
+  "end": 1687.43,
+  "text": "which would help you to increase your"
+ },
+ {
+  "start": 1687.44,
+  "end": 1689.649,
+  "text": "automation coverage and especially if"
+ },
+ {
+  "start": 1689.659,
+  "end": 1691.45,
+  "text": "you're working with Erp applications"
+ },
+ {
+  "start": 1691.46,
+  "end": 1693.43,
+  "text": "then there are lots of different"
+ },
+ {
+  "start": 1693.44,
+  "end": 1696.49,
+  "text": "features which can help your automation"
+ },
+ {
+  "start": 1696.5,
+  "end": 1701.23,
+  "text": "become more robust and also decrease at"
+ },
+ {
+  "start": 1701.24,
+  "end": 1703.63,
+  "text": "the time you spend on customizing your"
+ },
+ {
+  "start": 1703.64,
+  "end": 1707.11,
+  "text": "automation for these applications"
+ },
+ {
+  "start": 1707.12,
+  "end": 1710.11,
+  "text": "so keep watching uh we'll be coming up"
+ },
+ {
+  "start": 1710.12,
+  "end": 1713.919,
+  "text": "with more interesting Tosca lessons"
+ }
+]

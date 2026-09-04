@@ -1,0 +1,1612 @@
+[
+ {
+  "start": 7.61,
+  "end": 7.62,
+  "text": "hey everyone welcome back to our Channel"
+ },
+ {
+  "start": 7.62,
+  "end": 10.25,
+  "text": "I am back with another interesting topic"
+ },
+ {
+  "start": 10.26,
+  "end": 13.07,
+  "text": "in the Tosca automation playlist"
+ },
+ {
+  "start": 13.08,
+  "end": 15.89,
+  "text": "so now we are going to talk about how we"
+ },
+ {
+  "start": 15.9,
+  "end": 19.25,
+  "text": "can create and manage branches in Tosca"
+ },
+ {
+  "start": 19.26,
+  "end": 20.81,
+  "text": "workspaces"
+ },
+ {
+  "start": 20.82,
+  "end": 22.849,
+  "text": "now if you are working in a multi-user"
+ },
+ {
+  "start": 22.859,
+  "end": 25.25,
+  "text": "workspace and you are working in a big"
+ },
+ {
+  "start": 25.26,
+  "end": 27.29,
+  "text": "team uh where you have got different"
+ },
+ {
+  "start": 27.3,
+  "end": 30.529,
+  "text": "Tosca automation Specialists working on"
+ },
+ {
+  "start": 30.539,
+  "end": 32.81,
+  "text": "the same project or different releases"
+ },
+ {
+  "start": 32.82,
+  "end": 35.51,
+  "text": "of the same project or the application"
+ },
+ {
+  "start": 35.52,
+  "end": 37.43,
+  "text": "itself right"
+ },
+ {
+  "start": 37.44,
+  "end": 40.97,
+  "text": "you have to find a way of how you can"
+ },
+ {
+  "start": 40.98,
+  "end": 44.209,
+  "text": "basically work separately on different"
+ },
+ {
+  "start": 44.219,
+  "end": 48.65,
+  "text": "features or different releases right so"
+ },
+ {
+  "start": 48.66,
+  "end": 50.569,
+  "text": "different people will be developing"
+ },
+ {
+  "start": 50.579,
+  "end": 53.27,
+  "text": "different test cases for uh same"
+ },
+ {
+  "start": 53.28,
+  "end": 55.67,
+  "text": "application or different application"
+ },
+ {
+  "start": 55.68,
+  "end": 58.25,
+  "text": "but you need to find a way how you can"
+ },
+ {
+  "start": 58.26,
+  "end": 61.25,
+  "text": "manage all these different work and then"
+ },
+ {
+  "start": 61.26,
+  "end": 64.789,
+  "text": "merge everything into one place so that"
+ },
+ {
+  "start": 64.799,
+  "end": 68.21,
+  "text": "that can be used in the coming up"
+ },
+ {
+  "start": 68.22,
+  "end": 71.57,
+  "text": "release right or in the next automation"
+ },
+ {
+  "start": 71.58,
+  "end": 74.149,
+  "text": "run when you want to run all the test"
+ },
+ {
+  "start": 74.159,
+  "end": 76.13,
+  "text": "cases which have been developed recently"
+ },
+ {
+  "start": 76.14,
+  "end": 78.59,
+  "text": "by all these different Oscar automation"
+ },
+ {
+  "start": 78.6,
+  "end": 80.51,
+  "text": "specialists"
+ },
+ {
+  "start": 80.52,
+  "end": 83.45,
+  "text": "to do this Tosca also provides you with"
+ },
+ {
+  "start": 83.46,
+  "end": 85.55,
+  "text": "a feature where you can create different"
+ },
+ {
+  "start": 85.56,
+  "end": 88.91,
+  "text": "branches and you can basically merge"
+ },
+ {
+  "start": 88.92,
+  "end": 91.429,
+  "text": "these branches into the master branch"
+ },
+ {
+  "start": 91.439,
+  "end": 93.77,
+  "text": "and then you can also delete these"
+ },
+ {
+  "start": 93.78,
+  "end": 95.569,
+  "text": "branches right"
+ },
+ {
+  "start": 95.579,
+  "end": 97.85,
+  "text": "so the concept which Tosca follows is"
+ },
+ {
+  "start": 97.86,
+  "end": 100.01,
+  "text": "pretty much similar to the git workflow"
+ },
+ {
+  "start": 100.02,
+  "end": 102.71,
+  "text": "which is displayed here you can see"
+ },
+ {
+  "start": 102.72,
+  "end": 105.649,
+  "text": "there is a main branch right so the"
+ },
+ {
+  "start": 105.659,
+  "end": 107.51,
+  "text": "slide blue color this is the main branch"
+ },
+ {
+  "start": 107.52,
+  "end": 109.609,
+  "text": "and you can see there are different"
+ },
+ {
+  "start": 109.619,
+  "end": 113.21,
+  "text": "versions of this main branch but"
+ },
+ {
+  "start": 113.22,
+  "end": 115.67,
+  "text": "then there are development branches okay"
+ },
+ {
+  "start": 115.68,
+  "end": 117.77,
+  "text": "so this purple color are all the"
+ },
+ {
+  "start": 117.78,
+  "end": 120.17,
+  "text": "development branches and they could be"
+ },
+ {
+  "start": 120.18,
+  "end": 123.469,
+  "text": "linked to a particular version okay now"
+ },
+ {
+  "start": 123.479,
+  "end": 125.99,
+  "text": "each development branch is independent"
+ },
+ {
+  "start": 126.0,
+  "end": 130.07,
+  "text": "of uh each other right so any developer"
+ },
+ {
+  "start": 130.08,
+  "end": 132.949,
+  "text": "who is uh has created a branch from this"
+ },
+ {
+  "start": 132.959,
+  "end": 136.61,
+  "text": "version 0.1 can work on its own features"
+ },
+ {
+  "start": 136.62,
+  "end": 140.51,
+  "text": "and once it is completed uh it can merge"
+ },
+ {
+  "start": 140.52,
+  "end": 142.79,
+  "text": "his changes to this version zero one"
+ },
+ {
+  "start": 142.8,
+  "end": 146.69,
+  "text": "right and then start working on 0.2 so"
+ },
+ {
+  "start": 146.7,
+  "end": 150.05,
+  "text": "this way it will be easier to manage uh"
+ },
+ {
+  "start": 150.06,
+  "end": 152.089,
+  "text": "different features uh where different"
+ },
+ {
+  "start": 152.099,
+  "end": 155.089,
+  "text": "developers are working and nobody will"
+ },
+ {
+  "start": 155.099,
+  "end": 158.51,
+  "text": "be basically overwriting or overriding"
+ },
+ {
+  "start": 158.52,
+  "end": 160.91,
+  "text": "changes of some other developer right"
+ },
+ {
+  "start": 160.92,
+  "end": 163.009,
+  "text": "everybody will be working independently"
+ },
+ {
+  "start": 163.019,
+  "end": 166.67,
+  "text": "but at a later point of time when all"
+ },
+ {
+  "start": 166.68,
+  "end": 168.65,
+  "text": "the features are completed you can merge"
+ },
+ {
+  "start": 168.66,
+  "end": 172.13,
+  "text": "everything into the master Branch or the"
+ },
+ {
+  "start": 172.14,
+  "end": 175.13,
+  "text": "main branch okay so that's the concept"
+ },
+ {
+  "start": 175.14,
+  "end": 178.369,
+  "text": "uh which is followed in the source code"
+ },
+ {
+  "start": 178.379,
+  "end": 181.79,
+  "text": "repository like git or any other SCM"
+ },
+ {
+  "start": 181.8,
+  "end": 185.03,
+  "text": "tool if you have worked upon and the Sim"
+ },
+ {
+  "start": 185.04,
+  "end": 188.57,
+  "text": "concept applies for Tosca as well"
+ },
+ {
+  "start": 188.58,
+  "end": 190.91,
+  "text": "so you can create different branches"
+ },
+ {
+  "start": 190.92,
+  "end": 194.39,
+  "text": "from a master Branch okay so your"
+ },
+ {
+  "start": 194.4,
+  "end": 196.91,
+  "text": "multi-user workspace uh will be your"
+ },
+ {
+  "start": 196.92,
+  "end": 199.13,
+  "text": "master branch which you have created and"
+ },
+ {
+  "start": 199.14,
+  "end": 201.949,
+  "text": "then as an admin you can create"
+ },
+ {
+  "start": 201.959,
+  "end": 204.41,
+  "text": "different branches out of this master"
+ },
+ {
+  "start": 204.42,
+  "end": 208.79,
+  "text": "Branch right and then uh from that uh"
+ },
+ {
+  "start": 208.8,
+  "end": 210.77,
+  "text": "branches which has been created by the"
+ },
+ {
+  "start": 210.78,
+  "end": 213.89,
+  "text": "Admin different Tosca users can work on"
+ },
+ {
+  "start": 213.9,
+  "end": 215.99,
+  "text": "those branches they can create their own"
+ },
+ {
+  "start": 216.0,
+  "end": 219.17,
+  "text": "repository or uh they can create their"
+ },
+ {
+  "start": 219.18,
+  "end": 221.809,
+  "text": "own workspace out of that branch and"
+ },
+ {
+  "start": 221.819,
+  "end": 223.61,
+  "text": "they can keep on working on that"
+ },
+ {
+  "start": 223.62,
+  "end": 225.71,
+  "text": "repository which has got that Branch"
+ },
+ {
+  "start": 225.72,
+  "end": 228.35,
+  "text": "okay and once they are finished then the"
+ },
+ {
+  "start": 228.36,
+  "end": 231.77,
+  "text": "admin will come back and it will merge"
+ },
+ {
+  "start": 231.78,
+  "end": 233.53,
+  "text": "that Branch to the master Branch"
+ },
+ {
+  "start": 233.54,
+  "end": 235.49,
+  "text": "obviously there if there are any"
+ },
+ {
+  "start": 235.5,
+  "end": 238.97,
+  "text": "conflicts uh it will be either merged or"
+ },
+ {
+  "start": 238.98,
+  "end": 242.149,
+  "text": "removed right and this way you can"
+ },
+ {
+  "start": 242.159,
+  "end": 245.69,
+  "text": "manage your Tosca workspace much better"
+ },
+ {
+  "start": 245.7,
+  "end": 248.93,
+  "text": "if everybody starts working on the same"
+ },
+ {
+  "start": 248.94,
+  "end": 251.869,
+  "text": "Master workspace then it will be very"
+ },
+ {
+  "start": 251.879,
+  "end": 254.39,
+  "text": "hard to manage and also very hard to"
+ },
+ {
+  "start": 254.4,
+  "end": 256.069,
+  "text": "maintain in the long run"
+ },
+ {
+  "start": 256.079,
+  "end": 258.949,
+  "text": "okay so this way you can resolve"
+ },
+ {
+  "start": 258.959,
+  "end": 262.31,
+  "text": "conflicts easily you can also work on"
+ },
+ {
+  "start": 262.32,
+  "end": 264.77,
+  "text": "different uh test cases for different"
+ },
+ {
+  "start": 264.78,
+  "end": 268.67,
+  "text": "applications without impacting the main"
+ },
+ {
+  "start": 268.68,
+  "end": 271.61,
+  "text": "workspace okay"
+ },
+ {
+  "start": 271.62,
+  "end": 274.49,
+  "text": "so uh this is uh the concept of creating"
+ },
+ {
+  "start": 274.5,
+  "end": 276.83,
+  "text": "branches and managing branches but let's"
+ },
+ {
+  "start": 276.84,
+  "end": 279.65,
+  "text": "have a look in Tosca in jail time how it"
+ },
+ {
+  "start": 279.66,
+  "end": 281.45,
+  "text": "looks like how we can create branches"
+ },
+ {
+  "start": 281.46,
+  "end": 284.39,
+  "text": "okay"
+ },
+ {
+  "start": 287.03,
+  "end": 287.04,
+  "text": "now coming back to Tosca uh we can"
+ },
+ {
+  "start": 287.04,
+  "end": 289.79,
+  "text": "launch our multi-user workspace from"
+ },
+ {
+  "start": 289.8,
+  "end": 291.83,
+  "text": "where we can create different branches"
+ },
+ {
+  "start": 291.84,
+  "end": 294.53,
+  "text": "so we can consider this as our Master"
+ },
+ {
+  "start": 294.54,
+  "end": 297.23,
+  "text": "Branch this contains all our shared"
+ },
+ {
+  "start": 297.24,
+  "end": 300.77,
+  "text": "libraries all our main test cases and"
+ },
+ {
+  "start": 300.78,
+  "end": 304.07,
+  "text": "all our modules right requirements"
+ },
+ {
+  "start": 304.08,
+  "end": 306.17,
+  "text": "everything and this is the main branch"
+ },
+ {
+  "start": 306.18,
+  "end": 309.53,
+  "text": "right for our project now there are"
+ },
+ {
+  "start": 309.54,
+  "end": 311.93,
+  "text": "different people in the team who want to"
+ },
+ {
+  "start": 311.94,
+  "end": 315.23,
+  "text": "work on different test cases and they"
+ },
+ {
+  "start": 315.24,
+  "end": 317.39,
+  "text": "want to work on different releases right"
+ },
+ {
+  "start": 317.4,
+  "end": 320.45,
+  "text": "so what we'll do we will come to this"
+ },
+ {
+  "start": 320.46,
+  "end": 323.57,
+  "text": "main branch we'll log in as an admin"
+ },
+ {
+  "start": 323.58,
+  "end": 326.45,
+  "text": "and then we are going to create branches"
+ },
+ {
+  "start": 326.46,
+  "end": 328.909,
+  "text": "for these different users who are going"
+ },
+ {
+  "start": 328.919,
+  "end": 332.029,
+  "text": "to work on different releases or"
+ },
+ {
+  "start": 332.039,
+  "end": 334.55,
+  "text": "different features some additional"
+ },
+ {
+  "start": 334.56,
+  "end": 336.65,
+  "text": "features which we want to add to this"
+ },
+ {
+  "start": 336.66,
+  "end": 338.87,
+  "text": "particular project right"
+ },
+ {
+  "start": 338.88,
+  "end": 343.01,
+  "text": "so for this uh right click on the root"
+ },
+ {
+  "start": 343.02,
+  "end": 345.35,
+  "text": "project and there you will find an"
+ },
+ {
+  "start": 345.36,
+  "end": 347.81,
+  "text": "option called create Branch Okay click"
+ },
+ {
+  "start": 347.82,
+  "end": 350.51,
+  "text": "on that it will ask you for a branch"
+ },
+ {
+  "start": 350.52,
+  "end": 351.529,
+  "text": "name"
+ },
+ {
+  "start": 351.539,
+  "end": 357.35,
+  "text": "so I will say multi and RC one right so"
+ },
+ {
+  "start": 357.36,
+  "end": 359.81,
+  "text": "which is maybe a release candidate one"
+ },
+ {
+  "start": 359.82,
+  "end": 362.629,
+  "text": "right so that's my first branch"
+ },
+ {
+  "start": 362.639,
+  "end": 365.029,
+  "text": "and once you do this you will see that"
+ },
+ {
+  "start": 365.039,
+  "end": 366.71,
+  "text": "it will give you a message that it was"
+ },
+ {
+  "start": 366.72,
+  "end": 369.17,
+  "text": "created successfully"
+ },
+ {
+  "start": 369.18,
+  "end": 371.57,
+  "text": "also in order to work with the new"
+ },
+ {
+  "start": 371.58,
+  "end": 373.969,
+  "text": "Branch we need to save all changes to"
+ },
+ {
+  "start": 373.979,
+  "end": 375.95,
+  "text": "our current workspace close the"
+ },
+ {
+  "start": 375.96,
+  "end": 377.689,
+  "text": "workspace and then create a new"
+ },
+ {
+  "start": 377.699,
+  "end": 380.81,
+  "text": "workspace with this new branch which is"
+ },
+ {
+  "start": 380.82,
+  "end": 383.57,
+  "text": "called the multi-rc fund right so all"
+ },
+ {
+  "start": 383.58,
+  "end": 385.85,
+  "text": "the steps are already mentioned here we"
+ },
+ {
+  "start": 385.86,
+  "end": 387.409,
+  "text": "just need to follow all these three"
+ },
+ {
+  "start": 387.419,
+  "end": 389.45,
+  "text": "steps okay"
+ },
+ {
+  "start": 389.46,
+  "end": 392.27,
+  "text": "so what we are going to do uh we have to"
+ },
+ {
+  "start": 392.28,
+  "end": 395.45,
+  "text": "check in all okay so although I have"
+ },
+ {
+  "start": 395.46,
+  "end": 398.39,
+  "text": "already checked in everything and then"
+ },
+ {
+  "start": 398.4,
+  "end": 401.45,
+  "text": "we have to close this project"
+ },
+ {
+  "start": 401.46,
+  "end": 403.249,
+  "text": "our workspace"
+ },
+ {
+  "start": 403.259,
+  "end": 407.809,
+  "text": "and now we need to open or create a new"
+ },
+ {
+  "start": 407.819,
+  "end": 411.35,
+  "text": "workspace with our new Branch okay so"
+ },
+ {
+  "start": 411.36,
+  "end": 414.11,
+  "text": "that's uh the previous workspace was"
+ },
+ {
+  "start": 414.12,
+  "end": 416.629,
+  "text": "with the master Branch okay so you don't"
+ },
+ {
+  "start": 416.639,
+  "end": 418.55,
+  "text": "need to make any changes into the master"
+ },
+ {
+  "start": 418.56,
+  "end": 420.409,
+  "text": "branch and that's why we have created a"
+ },
+ {
+  "start": 420.419,
+  "end": 423.05,
+  "text": "new branch and now with this new Branch"
+ },
+ {
+  "start": 423.06,
+  "end": 425.57,
+  "text": "we should create a new workspace as well"
+ },
+ {
+  "start": 425.58,
+  "end": 426.95,
+  "text": "okay"
+ },
+ {
+  "start": 426.96,
+  "end": 428.51,
+  "text": "so for this"
+ },
+ {
+  "start": 428.52,
+  "end": 430.969,
+  "text": "um again I am going to select sqlite"
+ },
+ {
+  "start": 430.979,
+  "end": 432.83,
+  "text": "okay"
+ },
+ {
+  "start": 432.84,
+  "end": 434.87,
+  "text": "and this time around you can see I can"
+ },
+ {
+  "start": 434.88,
+  "end": 437.93,
+  "text": "use the use existing repository uh this"
+ },
+ {
+  "start": 437.94,
+  "end": 439.49,
+  "text": "check mark is there"
+ },
+ {
+  "start": 439.5,
+  "end": 442.61,
+  "text": "and I have already a repository you can"
+ },
+ {
+  "start": 442.62,
+  "end": 444.95,
+  "text": "see this is my common repository for my"
+ },
+ {
+  "start": 444.96,
+  "end": 447.77,
+  "text": "multi-buck multi-user workspace right"
+ },
+ {
+  "start": 447.78,
+  "end": 450.77,
+  "text": "and then we have got another field here"
+ },
+ {
+  "start": 450.78,
+  "end": 453.89,
+  "text": "called Branch right now by default it"
+ },
+ {
+  "start": 453.9,
+  "end": 455.689,
+  "text": "will be Master but if you have created"
+ },
+ {
+  "start": 455.699,
+  "end": 458.87,
+  "text": "more branches you will get it here so go"
+ },
+ {
+  "start": 458.88,
+  "end": 462.29,
+  "text": "ahead and select this multi rc1 branch"
+ },
+ {
+  "start": 462.3,
+  "end": 465.65,
+  "text": "and then we will create a new workspace"
+ },
+ {
+  "start": 465.66,
+  "end": 470.93,
+  "text": "for this okay so we will call it rc1"
+ },
+ {
+  "start": 470.94,
+  "end": 472.189,
+  "text": "okay"
+ },
+ {
+  "start": 472.199,
+  "end": 475.909,
+  "text": "and then create this new workspace"
+ },
+ {
+  "start": 475.919,
+  "end": 477.95,
+  "text": "so now this new workspace is being"
+ },
+ {
+  "start": 477.96,
+  "end": 481.85,
+  "text": "created with a branch from the master"
+ },
+ {
+  "start": 481.86,
+  "end": 485.21,
+  "text": "Branch right so this is like a branch"
+ },
+ {
+  "start": 485.22,
+  "end": 488.029,
+  "text": "which where we can do our changes"
+ },
+ {
+  "start": 488.039,
+  "end": 490.49,
+  "text": "without affecting the master Branch okay"
+ },
+ {
+  "start": 490.5,
+  "end": 493.01,
+  "text": "and we have got a separate repository"
+ },
+ {
+  "start": 493.02,
+  "end": 495.29,
+  "text": "for this Branch as well"
+ },
+ {
+  "start": 495.3,
+  "end": 499.85,
+  "text": "okay so now um again we have to we can"
+ },
+ {
+  "start": 499.86,
+  "end": 502.129,
+  "text": "use the same user if you have created"
+ },
+ {
+  "start": 502.139,
+  "end": 505.969,
+  "text": "more users you can use that as well"
+ },
+ {
+  "start": 505.979,
+  "end": 508.67,
+  "text": "okay and let's go to our project now"
+ },
+ {
+  "start": 508.68,
+  "end": 512.99,
+  "text": "here is the project"
+ },
+ {
+  "start": 515.269,
+  "end": 515.279,
+  "text": "now even though the workspace name is"
+ },
+ {
+  "start": 515.279,
+  "end": 518.57,
+  "text": "same if you go on the top you will see"
+ },
+ {
+  "start": 518.58,
+  "end": 521.149,
+  "text": "the Tosca Commander multi demo and the"
+ },
+ {
+  "start": 521.159,
+  "end": 524.389,
+  "text": "path of this uh particular repository it"
+ },
+ {
+  "start": 524.399,
+  "end": 525.07,
+  "text": "is"
+ },
+ {
+  "start": 525.08,
+  "end": 530.63,
+  "text": "rc1.tws okay and the branch is multi rc1"
+ },
+ {
+  "start": 530.64,
+  "end": 532.79,
+  "text": "even though the name is same it is not"
+ },
+ {
+  "start": 532.8,
+  "end": 535.19,
+  "text": "the same workspace the branch is"
+ },
+ {
+  "start": 535.2,
+  "end": 537.29,
+  "text": "different so whatever changes you make"
+ },
+ {
+  "start": 537.3,
+  "end": 539.81,
+  "text": "here will not affect the master Branch"
+ },
+ {
+  "start": 539.82,
+  "end": 541.31,
+  "text": "okay"
+ },
+ {
+  "start": 541.32,
+  "end": 544.97,
+  "text": "so let's see now if I go ahead and"
+ },
+ {
+  "start": 544.98,
+  "end": 547.67,
+  "text": "create another test case here so let's"
+ },
+ {
+  "start": 547.68,
+  "end": 549.29,
+  "text": "check this out"
+ },
+ {
+  "start": 549.3,
+  "end": 554.269,
+  "text": "and I am going to create a new test case"
+ },
+ {
+  "start": 554.279,
+  "end": 558.11,
+  "text": "here okay going to name it TC3 now"
+ },
+ {
+  "start": 558.12,
+  "end": 560.03,
+  "text": "so this is what I have changed here"
+ },
+ {
+  "start": 560.04,
+  "end": 564.829,
+  "text": "let's go ahead check in all okay"
+ },
+ {
+  "start": 564.839,
+  "end": 568.009,
+  "text": "now we have seen how we can create a"
+ },
+ {
+  "start": 568.019,
+  "end": 570.71,
+  "text": "branch from the master Branch right now"
+ },
+ {
+  "start": 570.72,
+  "end": 572.509,
+  "text": "once we have made changes we have"
+ },
+ {
+  "start": 572.519,
+  "end": 574.43,
+  "text": "completed our all our changes in this"
+ },
+ {
+  "start": 574.44,
+  "end": 577.37,
+  "text": "particular Branch we want to merge these"
+ },
+ {
+  "start": 577.38,
+  "end": 579.29,
+  "text": "changes back into the master Branch"
+ },
+ {
+  "start": 579.3,
+  "end": 581.09,
+  "text": "right so everything is tested everything"
+ },
+ {
+  "start": 581.1,
+  "end": 583.91,
+  "text": "is working fine now let's go back and"
+ },
+ {
+  "start": 583.92,
+  "end": 585.949,
+  "text": "merge these changes okay"
+ },
+ {
+  "start": 585.959,
+  "end": 587.57,
+  "text": "so how you can do that checking your"
+ },
+ {
+  "start": 587.58,
+  "end": 591.25,
+  "text": "changes and then close this particular"
+ },
+ {
+  "start": 591.26,
+  "end": 594.71,
+  "text": "repository okay or workspace"
+ },
+ {
+  "start": 594.72,
+  "end": 598.13,
+  "text": "and then let's go ahead and open our"
+ },
+ {
+  "start": 598.14,
+  "end": 610.69,
+  "text": "multi-demo project okay"
+ },
+ {
+  "start": 625.91,
+  "end": 625.92,
+  "text": "and here uh now"
+ },
+ {
+  "start": 625.92,
+  "end": 628.67,
+  "text": "again you can check uh the workspace"
+ },
+ {
+  "start": 628.68,
+  "end": 630.829,
+  "text": "name is same but you can see the path is"
+ },
+ {
+  "start": 630.839,
+  "end": 633.009,
+  "text": "different and the branch is Master okay"
+ },
+ {
+  "start": 633.019,
+  "end": 636.53,
+  "text": "so do take note of this although uh in"
+ },
+ {
+  "start": 636.54,
+  "end": 638.81,
+  "text": "real world this will not happen like"
+ },
+ {
+  "start": 638.82,
+  "end": 641.57,
+  "text": "this I mean currently I am the only user"
+ },
+ {
+  "start": 641.58,
+  "end": 643.67,
+  "text": "here who is managing all these different"
+ },
+ {
+  "start": 643.68,
+  "end": 646.009,
+  "text": "things but generally there will be an"
+ },
+ {
+  "start": 646.019,
+  "end": 648.17,
+  "text": "admin who will be managing the master"
+ },
+ {
+  "start": 648.18,
+  "end": 650.569,
+  "text": "Branch okay and then there will be"
+ },
+ {
+  "start": 650.579,
+  "end": 653.269,
+  "text": "different uh testers who will be working"
+ },
+ {
+  "start": 653.279,
+  "end": 655.91,
+  "text": "on their own branches so what they will"
+ },
+ {
+  "start": 655.92,
+  "end": 658.069,
+  "text": "do uh once they have completed they will"
+ },
+ {
+  "start": 658.079,
+  "end": 660.41,
+  "text": "notify the admin and the admin will log"
+ },
+ {
+  "start": 660.42,
+  "end": 662.69,
+  "text": "into the master branch and then he will"
+ },
+ {
+  "start": 662.7,
+  "end": 664.79,
+  "text": "merge all the branches which have been"
+ },
+ {
+  "start": 664.8,
+  "end": 668.21,
+  "text": "completed okay so it won't be one single"
+ },
+ {
+  "start": 668.22,
+  "end": 670.49,
+  "text": "user there will be different users but"
+ },
+ {
+  "start": 670.5,
+  "end": 673.73,
+  "text": "for now uh I am doing all the works so"
+ },
+ {
+  "start": 673.74,
+  "end": 676.85,
+  "text": "it may sound or it may seem a little bit"
+ },
+ {
+  "start": 676.86,
+  "end": 678.59,
+  "text": "confusing okay"
+ },
+ {
+  "start": 678.6,
+  "end": 681.829,
+  "text": "okay but here now we are in the master"
+ },
+ {
+  "start": 681.839,
+  "end": 684.769,
+  "text": "Branch so when you right click on this"
+ },
+ {
+  "start": 684.779,
+  "end": 687.11,
+  "text": "you will also see an option called merge"
+ },
+ {
+  "start": 687.12,
+  "end": 688.009,
+  "text": "branch"
+ },
+ {
+  "start": 688.019,
+  "end": 690.47,
+  "text": "and this is how you will merge different"
+ },
+ {
+  "start": 690.48,
+  "end": 694.43,
+  "text": "branches back to the master Branch okay"
+ },
+ {
+  "start": 694.44,
+  "end": 696.23,
+  "text": "now you can see by default it has"
+ },
+ {
+  "start": 696.24,
+  "end": 698.75,
+  "text": "selected the multi-rc one because I"
+ },
+ {
+  "start": 698.76,
+  "end": 700.97,
+  "text": "don't have any other branches but you"
+ },
+ {
+  "start": 700.98,
+  "end": 702.829,
+  "text": "have got if you have got more branches"
+ },
+ {
+  "start": 702.839,
+  "end": 706.069,
+  "text": "then you can select any of the branch to"
+ },
+ {
+  "start": 706.079,
+  "end": 708.53,
+  "text": "get merged uh into the master Branch"
+ },
+ {
+  "start": 708.54,
+  "end": 711.35,
+  "text": "okay it will give you a warning the"
+ },
+ {
+  "start": 711.36,
+  "end": 714.11,
+  "text": "branch will permanently delete it when"
+ },
+ {
+  "start": 714.12,
+  "end": 718.49,
+  "text": "you check in the up changed objects okay"
+ },
+ {
+  "start": 718.5,
+  "end": 719.75,
+  "text": "so"
+ },
+ {
+  "start": 719.76,
+  "end": 722.99,
+  "text": "now we will merge the changes here and"
+ },
+ {
+  "start": 723.0,
+  "end": 724.91,
+  "text": "let's go here"
+ },
+ {
+  "start": 724.92,
+  "end": 727.67,
+  "text": "and here you will see that we have got"
+ },
+ {
+  "start": 727.68,
+  "end": 731.269,
+  "text": "now a third test case which is DC3 it"
+ },
+ {
+  "start": 731.279,
+  "end": 733.79,
+  "text": "came from the different branch which I"
+ },
+ {
+  "start": 733.8,
+  "end": 736.55,
+  "text": "had created rc1 right so I have added"
+ },
+ {
+  "start": 736.56,
+  "end": 739.61,
+  "text": "the TC3 there and now you can see those"
+ },
+ {
+  "start": 739.62,
+  "end": 742.069,
+  "text": "has been merged into the master branch"
+ },
+ {
+  "start": 742.079,
+  "end": 744.59,
+  "text": "and we can see here it's been updated"
+ },
+ {
+  "start": 744.6,
+  "end": 746.63,
+  "text": "okay"
+ },
+ {
+  "start": 746.64,
+  "end": 749.93,
+  "text": "so this is how you can uh see that"
+ },
+ {
+  "start": 749.94,
+  "end": 752.99,
+  "text": "without affecting our Master repository"
+ },
+ {
+  "start": 753.0,
+  "end": 756.23,
+  "text": "right from a master workspace we are"
+ },
+ {
+  "start": 756.24,
+  "end": 759.47,
+  "text": "making changes uh we are making changes"
+ },
+ {
+  "start": 759.48,
+  "end": 762.35,
+  "text": "at a different level not at the Master"
+ },
+ {
+  "start": 762.36,
+  "end": 765.889,
+  "text": "Level and this makes our maintenance"
+ },
+ {
+  "start": 765.899,
+  "end": 769.93,
+  "text": "easier right also uh nothing can"
+ },
+ {
+  "start": 769.94,
+  "end": 771.949,
+  "text": "basically enter into the master"
+ },
+ {
+  "start": 771.959,
+  "end": 774.23,
+  "text": "repository without being properly tested"
+ },
+ {
+  "start": 774.24,
+  "end": 777.41,
+  "text": "and executed okay so this will make sure"
+ },
+ {
+  "start": 777.42,
+  "end": 780.11,
+  "text": "that your master is always working as"
+ },
+ {
+  "start": 780.12,
+  "end": 784.25,
+  "text": "expected and no unnecessary changes are"
+ },
+ {
+  "start": 784.26,
+  "end": 786.65,
+  "text": "being made into the master workspace"
+ },
+ {
+  "start": 786.66,
+  "end": 789.59,
+  "text": "right so whatever changes people want to"
+ },
+ {
+  "start": 789.6,
+  "end": 791.509,
+  "text": "work on they will work on the branches"
+ },
+ {
+  "start": 791.519,
+  "end": 794.99,
+  "text": "but uh nothing should come into the"
+ },
+ {
+  "start": 795.0,
+  "end": 797.21,
+  "text": "master Branch without being tested"
+ },
+ {
+  "start": 797.22,
+  "end": 801.41,
+  "text": "properly and without being executed okay"
+ },
+ {
+  "start": 801.42,
+  "end": 804.17,
+  "text": "so now the last step which is remaining"
+ },
+ {
+  "start": 804.18,
+  "end": 807.47,
+  "text": "in this particular workflow is to delete"
+ },
+ {
+  "start": 807.48,
+  "end": 810.11,
+  "text": "a particular Branch okay"
+ },
+ {
+  "start": 810.12,
+  "end": 814.31,
+  "text": "so you can delete branches like this you"
+ },
+ {
+  "start": 814.32,
+  "end": 816.79,
+  "text": "right click on the project and then"
+ },
+ {
+  "start": 816.8,
+  "end": 819.889,
+  "text": "click on delete Branch now it is saying"
+ },
+ {
+  "start": 819.899,
+  "end": 822.11,
+  "text": "no branches available to delete and that"
+ },
+ {
+  "start": 822.12,
+  "end": 823.19,
+  "text": "is because"
+ },
+ {
+  "start": 823.2,
+  "end": 826.37,
+  "text": "uh when we merge the ma Branch to the"
+ },
+ {
+  "start": 826.38,
+  "end": 828.53,
+  "text": "master Branch uh that particular Branch"
+ },
+ {
+  "start": 828.54,
+  "end": 831.59,
+  "text": "was already deleted okay but if you have"
+ },
+ {
+  "start": 831.6,
+  "end": 834.29,
+  "text": "more branches you can just right click"
+ },
+ {
+  "start": 834.3,
+  "end": 837.17,
+  "text": "and go to delete Branch okay"
+ },
+ {
+  "start": 837.18,
+  "end": 839.15,
+  "text": "so these are the three functionality"
+ },
+ {
+  "start": 839.16,
+  "end": 841.79,
+  "text": "which is available create Branch merge"
+ },
+ {
+  "start": 841.8,
+  "end": 844.61,
+  "text": "branch and delete branch and using these"
+ },
+ {
+  "start": 844.62,
+  "end": 847.67,
+  "text": "three functionalities uh you can work on"
+ },
+ {
+  "start": 847.68,
+  "end": 850.49,
+  "text": "a branching workflow which is very"
+ },
+ {
+  "start": 850.5,
+  "end": 853.85,
+  "text": "similar to any uh source code management"
+ },
+ {
+  "start": 853.86,
+  "end": 857.03,
+  "text": "repository like git or GitHub or there"
+ },
+ {
+  "start": 857.04,
+  "end": 859.069,
+  "text": "are many source code repositories if you"
+ },
+ {
+  "start": 859.079,
+  "end": 861.59,
+  "text": "have previously worked on you will"
+ },
+ {
+  "start": 861.6,
+  "end": 863.93,
+  "text": "understand how it works and the same"
+ },
+ {
+  "start": 863.94,
+  "end": 866.75,
+  "text": "concept can be applied into the Tosca"
+ },
+ {
+  "start": 866.76,
+  "end": 869.449,
+  "text": "workspaces to make it more maintainable"
+ },
+ {
+  "start": 869.459,
+  "end": 874.31,
+  "text": "more sustainable and to make it uh"
+ },
+ {
+  "start": 874.32,
+  "end": 877.43,
+  "text": "error free going forward right so that"
+ },
+ {
+  "start": 877.44,
+  "end": 881.509,
+  "text": "we have a clean master branch and then"
+ },
+ {
+  "start": 881.519,
+  "end": 884.949,
+  "text": "we'll we can provide different branch"
+ },
+ {
+  "start": 884.959,
+  "end": 887.449,
+  "text": "feature branches to all the different"
+ },
+ {
+  "start": 887.459,
+  "end": 890.15,
+  "text": "developers or testers who are working on"
+ },
+ {
+  "start": 890.16,
+  "end": 893.93,
+  "text": "different Oscar projects or features"
+ },
+ {
+  "start": 893.94,
+  "end": 896.689,
+  "text": "that's all for this particular video if"
+ },
+ {
+  "start": 896.699,
+  "end": 898.55,
+  "text": "you have any questions then please leave"
+ },
+ {
+  "start": 898.56,
+  "end": 899.99,
+  "text": "it in the comments"
+ },
+ {
+  "start": 900.0,
+  "end": 902.03,
+  "text": "if you like this video then please"
+ },
+ {
+  "start": 902.04,
+  "end": 903.65,
+  "text": "subscribe to our Channel"
+ },
+ {
+  "start": 903.66,
+  "end": 905.87,
+  "text": "thanks for watching and I will see you"
+ },
+ {
+  "start": 905.88,
+  "end": 908.72,
+  "text": "in the next video"
+ }
+]

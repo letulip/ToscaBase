@@ -1,0 +1,737 @@
+[
+ {
+  "start": 8.87,
+  "end": 8.88,
+  "text": "hey everyone welcome back to our Channel"
+ },
+ {
+  "start": 8.88,
+  "end": 11.45,
+  "text": "I am back with another interesting topic"
+ },
+ {
+  "start": 11.46,
+  "end": 14.749,
+  "text": "in the Tosca automation playlist in this"
+ },
+ {
+  "start": 14.759,
+  "end": 16.97,
+  "text": "session I am going to tell you how you"
+ },
+ {
+  "start": 16.98,
+  "end": 20.21,
+  "text": "can archive your execution logs in the"
+ },
+ {
+  "start": 20.22,
+  "end": 22.849,
+  "text": "execution list now we have already seen"
+ },
+ {
+  "start": 22.859,
+  "end": 25.73,
+  "text": "how we can execute our test case using"
+ },
+ {
+  "start": 25.74,
+  "end": 29.21,
+  "text": "an execution list so the results are"
+ },
+ {
+  "start": 29.22,
+  "end": 31.55,
+  "text": "always maintained in the execution lists"
+ },
+ {
+  "start": 31.56,
+  "end": 34.67,
+  "text": "which are nothing but the logs which are"
+ },
+ {
+  "start": 34.68,
+  "end": 37.97,
+  "text": "stored in the actual log right now for"
+ },
+ {
+  "start": 37.98,
+  "end": 41.09,
+  "text": "example this execution list has got an"
+ },
+ {
+  "start": 41.1,
+  "end": 44.209,
+  "text": "actual log which is storing the logs as"
+ },
+ {
+  "start": 44.219,
+  "end": 46.549,
+  "text": "we go ahead and execute this multiple"
+ },
+ {
+  "start": 46.559,
+  "end": 49.19,
+  "text": "times right so multiple execution"
+ },
+ {
+  "start": 49.2,
+  "end": 52.43,
+  "text": "entries will be uh stored here as we go"
+ },
+ {
+  "start": 52.44,
+  "end": 55.369,
+  "text": "ahead and execute this and everything is"
+ },
+ {
+  "start": 55.379,
+  "end": 57.47,
+  "text": "stored in this actual log"
+ },
+ {
+  "start": 57.48,
+  "end": 59.689,
+  "text": "so this particular execution list has"
+ },
+ {
+  "start": 59.699,
+  "end": 62.27,
+  "text": "got one execution entry and this was"
+ },
+ {
+  "start": 62.28,
+  "end": 65.929,
+  "text": "executed uh three months back okay so"
+ },
+ {
+  "start": 65.939,
+  "end": 69.71,
+  "text": "this is all fine but what if you are"
+ },
+ {
+  "start": 69.72,
+  "end": 72.23,
+  "text": "working on different releases which"
+ },
+ {
+  "start": 72.24,
+  "end": 74.45,
+  "text": "happens quarterly or which happens"
+ },
+ {
+  "start": 74.46,
+  "end": 77.99,
+  "text": "monthly or which happens weekly now for"
+ },
+ {
+  "start": 78.0,
+  "end": 80.45,
+  "text": "each release you need to execute this"
+ },
+ {
+  "start": 80.46,
+  "end": 82.91,
+  "text": "test cases again and again right because"
+ },
+ {
+  "start": 82.92,
+  "end": 85.609,
+  "text": "these are regression test cases and you"
+ },
+ {
+  "start": 85.619,
+  "end": 88.19,
+  "text": "want to test whether your changes in the"
+ },
+ {
+  "start": 88.2,
+  "end": 90.469,
+  "text": "application have not affected your"
+ },
+ {
+  "start": 90.479,
+  "end": 92.09,
+  "text": "regression test cases"
+ },
+ {
+  "start": 92.1,
+  "end": 94.55,
+  "text": "and you want the latest results to be"
+ },
+ {
+  "start": 94.56,
+  "end": 98.149,
+  "text": "linked to your requirements so that your"
+ },
+ {
+  "start": 98.159,
+  "end": 101.03,
+  "text": "release dashboard can show that these"
+ },
+ {
+  "start": 101.04,
+  "end": 104.63,
+  "text": "are the current results okay but for in"
+ },
+ {
+  "start": 104.64,
+  "end": 107.63,
+  "text": "order to do that we need to delete our"
+ },
+ {
+  "start": 107.64,
+  "end": 110.69,
+  "text": "previous execution logs okay because"
+ },
+ {
+  "start": 110.7,
+  "end": 114.59,
+  "text": "these are all logs and although we would"
+ },
+ {
+  "start": 114.6,
+  "end": 117.289,
+  "text": "like to keep it but we don't want to"
+ },
+ {
+  "start": 117.299,
+  "end": 120.53,
+  "text": "show these logs in our release dashboard"
+ },
+ {
+  "start": 120.54,
+  "end": 122.27,
+  "text": "right which is nothing but our"
+ },
+ {
+  "start": 122.28,
+  "end": 124.55,
+  "text": "requirements and this execution list"
+ },
+ {
+  "start": 124.56,
+  "end": 127.01,
+  "text": "they are linked to the requirements so"
+ },
+ {
+  "start": 127.02,
+  "end": 129.529,
+  "text": "if you don't clear this log then it is"
+ },
+ {
+  "start": 129.539,
+  "end": 131.39,
+  "text": "going to reflect it in the requirement"
+ },
+ {
+  "start": 131.4,
+  "end": 134.51,
+  "text": "section right so one way is to just"
+ },
+ {
+  "start": 134.52,
+  "end": 137.809,
+  "text": "clear this logs and it will delete this"
+ },
+ {
+  "start": 137.819,
+  "end": 141.17,
+  "text": "Old Log you cannot see this anymore okay"
+ },
+ {
+  "start": 141.18,
+  "end": 143.33,
+  "text": "so that you can do easily by right"
+ },
+ {
+  "start": 143.34,
+  "end": 145.369,
+  "text": "clicking on actual log and then clicking"
+ },
+ {
+  "start": 145.379,
+  "end": 147.71,
+  "text": "on clear lock so that will basically"
+ },
+ {
+  "start": 147.72,
+  "end": 148.97,
+  "text": "delete this"
+ },
+ {
+  "start": 148.98,
+  "end": 151.43,
+  "text": "but I don't want to do that right"
+ },
+ {
+  "start": 151.44,
+  "end": 154.61,
+  "text": "because what I want to do is I want to"
+ },
+ {
+  "start": 154.62,
+  "end": 156.589,
+  "text": "compare my results which is my current"
+ },
+ {
+  "start": 156.599,
+  "end": 159.71,
+  "text": "results versus my previous results"
+ },
+ {
+  "start": 159.72,
+  "end": 162.29,
+  "text": "so I want a way to store my previous"
+ },
+ {
+  "start": 162.3,
+  "end": 166.13,
+  "text": "results and also I want the log to have"
+ },
+ {
+  "start": 166.14,
+  "end": 168.89,
+  "text": "the current results and that I can do"
+ },
+ {
+  "start": 168.9,
+  "end": 172.49,
+  "text": "only by archiving my previous locks so"
+ },
+ {
+  "start": 172.5,
+  "end": 176.089,
+  "text": "that I have it in a safe place and I can"
+ },
+ {
+  "start": 176.099,
+  "end": 178.49,
+  "text": "always get it back okay"
+ },
+ {
+  "start": 178.5,
+  "end": 180.589,
+  "text": "so how you can do that"
+ },
+ {
+  "start": 180.599,
+  "end": 182.63,
+  "text": "um that you can do from the execution"
+ },
+ {
+  "start": 182.64,
+  "end": 185.089,
+  "text": "list okay so right click on the"
+ },
+ {
+  "start": 185.099,
+  "end": 187.49,
+  "text": "execution list and there you will find"
+ },
+ {
+  "start": 187.5,
+  "end": 190.97,
+  "text": "and archive actual execution log option"
+ },
+ {
+  "start": 190.98,
+  "end": 193.61,
+  "text": "okay so click on that it will ask you"
+ },
+ {
+  "start": 193.62,
+  "end": 196.91,
+  "text": "for a archive name so I'm going to give"
+ },
+ {
+  "start": 196.92,
+  "end": 201.13,
+  "text": "it RC okay and"
+ },
+ {
+  "start": 201.14,
+  "end": 205.67,
+  "text": "rc01 or something"
+ },
+ {
+  "start": 208.07,
+  "end": 208.08,
+  "text": "and then I'm going to click ok"
+ },
+ {
+  "start": 208.08,
+  "end": 210.11,
+  "text": "it is going to ask you whether you want"
+ },
+ {
+  "start": 210.12,
+  "end": 212.99,
+  "text": "to discard your actual log okay"
+ },
+ {
+  "start": 213.0,
+  "end": 216.77,
+  "text": "now if you want to remove uh the entries"
+ },
+ {
+  "start": 216.78,
+  "end": 218.93,
+  "text": "from the actual log then click on yes if"
+ },
+ {
+  "start": 218.94,
+  "end": 220.369,
+  "text": "you don't want to remove then click on"
+ },
+ {
+  "start": 220.379,
+  "end": 222.77,
+  "text": "no okay for my case I would click on yes"
+ },
+ {
+  "start": 222.78,
+  "end": 225.53,
+  "text": "because I want to remove my actual"
+ },
+ {
+  "start": 225.54,
+  "end": 228.71,
+  "text": "entries from the actual log okay"
+ },
+ {
+  "start": 228.72,
+  "end": 231.77,
+  "text": "so I'll click on yes and that will clear"
+ },
+ {
+  "start": 231.78,
+  "end": 235.55,
+  "text": "off my current actual log so for this"
+ },
+ {
+  "start": 235.56,
+  "end": 238.13,
+  "text": "execution entry you don't see any logs"
+ },
+ {
+  "start": 238.14,
+  "end": 241.55,
+  "text": "but you only see the archive log with"
+ },
+ {
+  "start": 241.56,
+  "end": 244.61,
+  "text": "this particular name okay"
+ },
+ {
+  "start": 244.62,
+  "end": 248.149,
+  "text": "um and the actual log is actually empty"
+ },
+ {
+  "start": 248.159,
+  "end": 250.49,
+  "text": "now okay it only contains the archive"
+ },
+ {
+  "start": 250.5,
+  "end": 252.949,
+  "text": "logs for this execution list"
+ },
+ {
+  "start": 252.959,
+  "end": 254.089,
+  "text": "now"
+ },
+ {
+  "start": 254.099,
+  "end": 257.81,
+  "text": "um how I can get it back okay uh"
+ },
+ {
+  "start": 257.82,
+  "end": 261.009,
+  "text": "so I can just if I want to get this back"
+ },
+ {
+  "start": 261.019,
+  "end": 264.469,
+  "text": "into my actual log then I just drag it"
+ },
+ {
+  "start": 264.479,
+  "end": 267.89,
+  "text": "and I drop it into the actual log okay"
+ },
+ {
+  "start": 267.9,
+  "end": 269.93,
+  "text": "so that way again you will see the"
+ },
+ {
+  "start": 269.94,
+  "end": 271.969,
+  "text": "actual log is green that means the"
+ },
+ {
+  "start": 271.979,
+  "end": 275.81,
+  "text": "actual log is still present okay"
+ },
+ {
+  "start": 275.82,
+  "end": 278.81,
+  "text": "so but I don't want to do that"
+ },
+ {
+  "start": 278.82,
+  "end": 281.93,
+  "text": "um so what I will do I will delete this"
+ },
+ {
+  "start": 281.94,
+  "end": 284.93,
+  "text": "and I will repeat the process just to"
+ },
+ {
+  "start": 284.94,
+  "end": 287.57,
+  "text": "show it one more time so I'm going to"
+ },
+ {
+  "start": 287.58,
+  "end": 290.27,
+  "text": "Archive the actual execution log"
+ },
+ {
+  "start": 290.28,
+  "end": 292.85,
+  "text": "um and I'm going to this time name it"
+ },
+ {
+  "start": 292.86,
+  "end": 295.01,
+  "text": "something like archive"
+ },
+ {
+  "start": 295.02,
+  "end": 298.49,
+  "text": "results"
+ },
+ {
+  "start": 300.23,
+  "end": 300.24,
+  "text": "okay I am going to discard all the"
+ },
+ {
+  "start": 300.24,
+  "end": 302.749,
+  "text": "entries so the actual log is empty now"
+ },
+ {
+  "start": 302.759,
+  "end": 304.969,
+  "text": "okay and we have got the archived"
+ },
+ {
+  "start": 304.979,
+  "end": 309.35,
+  "text": "results now I can go ahead and execute"
+ },
+ {
+  "start": 309.36,
+  "end": 313.07,
+  "text": "this okay"
+ },
+ {
+  "start": 316.67,
+  "end": 316.68,
+  "text": "although this time it's going to fail"
+ },
+ {
+  "start": 316.68,
+  "end": 318.29,
+  "text": "um that is because"
+ },
+ {
+  "start": 318.3,
+  "end": 319.969,
+  "text": "um I have not opened the web page which"
+ },
+ {
+  "start": 319.979,
+  "end": 323.029,
+  "text": "it is expecting so this will fail but"
+ },
+ {
+  "start": 323.039,
+  "end": 325.249,
+  "text": "that's fine uh I just want to show you"
+ },
+ {
+  "start": 325.259,
+  "end": 327.71,
+  "text": "how you can archive your previous looks"
+ },
+ {
+  "start": 327.72,
+  "end": 330.65,
+  "text": "and then you can get your latest logs"
+ },
+ {
+  "start": 330.66,
+  "end": 333.35,
+  "text": "for that particular execution list so"
+ },
+ {
+  "start": 333.36,
+  "end": 336.11,
+  "text": "that your requirement dashboard or your"
+ },
+ {
+  "start": 336.12,
+  "end": 339.65,
+  "text": "overall dashboard depicts the current"
+ },
+ {
+  "start": 339.66,
+  "end": 342.89,
+  "text": "picture of your test cases not the"
+ },
+ {
+  "start": 342.9,
+  "end": 347.99,
+  "text": "previous results okay"
+ },
+ {
+  "start": 350.99,
+  "end": 351.0,
+  "text": "also another benefit is you will always"
+ },
+ {
+  "start": 351.0,
+  "end": 353.689,
+  "text": "have the previous results with you okay"
+ },
+ {
+  "start": 353.699,
+  "end": 356.629,
+  "text": "so you can easily revert this results"
+ },
+ {
+  "start": 356.639,
+  "end": 358.73,
+  "text": "back as I showed you just drag and drop"
+ },
+ {
+  "start": 358.74,
+  "end": 360.29,
+  "text": "it into the actual log"
+ },
+ {
+  "start": 360.3,
+  "end": 363.17,
+  "text": "and that will revert back the results uh"
+ },
+ {
+  "start": 363.18,
+  "end": 367.07,
+  "text": "plus you can also see what failed okay"
+ },
+ {
+  "start": 367.08,
+  "end": 369.83,
+  "text": "which depth field uh which was passing"
+ },
+ {
+  "start": 369.84,
+  "end": 371.93,
+  "text": "previously so from the archived results"
+ },
+ {
+  "start": 371.94,
+  "end": 375.35,
+  "text": "I can see that this step had passed"
+ },
+ {
+  "start": 375.36,
+  "end": 378.29,
+  "text": "earlier and now this step is failing so"
+ },
+ {
+  "start": 378.3,
+  "end": 380.27,
+  "text": "I can easily make out what has changed"
+ },
+ {
+  "start": 380.28,
+  "end": 382.55,
+  "text": "in the application and I can debug it"
+ },
+ {
+  "start": 382.56,
+  "end": 385.49,
+  "text": "much easier rather than if I would have"
+ },
+ {
+  "start": 385.5,
+  "end": 388.73,
+  "text": "just deleted this right"
+ },
+ {
+  "start": 388.74,
+  "end": 392.45,
+  "text": "so this way you can maintain an archive"
+ },
+ {
+  "start": 392.46,
+  "end": 394.49,
+  "text": "of different results for your execution"
+ },
+ {
+  "start": 394.5,
+  "end": 396.95,
+  "text": "list and this is mostly helpful when"
+ },
+ {
+  "start": 396.96,
+  "end": 399.65,
+  "text": "you're working with different releases"
+ },
+ {
+  "start": 399.66,
+  "end": 402.469,
+  "text": "that's all for this particular video if"
+ },
+ {
+  "start": 402.479,
+  "end": 404.21,
+  "text": "you have any questions then please leave"
+ },
+ {
+  "start": 404.22,
+  "end": 405.71,
+  "text": "it in the comments"
+ },
+ {
+  "start": 405.72,
+  "end": 407.629,
+  "text": "if you like this video then please"
+ },
+ {
+  "start": 407.639,
+  "end": 409.37,
+  "text": "subscribe to our Channel"
+ },
+ {
+  "start": 409.38,
+  "end": 411.529,
+  "text": "thanks for watching and I will see you"
+ },
+ {
+  "start": 411.539,
+  "end": 414.38,
+  "text": "in the next video"
+ }
+]

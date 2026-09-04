@@ -1,0 +1,957 @@
+[
+ {
+  "start": 12.39,
+  "end": 12.4,
+  "text": "hey everyone welcome back to our Channel"
+ },
+ {
+  "start": 12.4,
+  "end": 15.03,
+  "text": "I am back with another interesting topic"
+ },
+ {
+  "start": 15.04,
+  "end": 17.75,
+  "text": "in the tosa automation"
+ },
+ {
+  "start": 17.76,
+  "end": 20.55,
+  "text": "playlist so continuing with our topic on"
+ },
+ {
+  "start": 20.56,
+  "end": 23.509,
+  "text": "test automation obstacles let's look at"
+ },
+ {
+  "start": 23.519,
+  "end": 26.95,
+  "text": "our next obstacle which is called math"
+ },
+ {
+  "start": 26.96,
+  "end": 29.349,
+  "text": "and as the name suggest uh we need to"
+ },
+ {
+  "start": 29.359,
+  "end": 32.589,
+  "text": "perform math operation here okay so in"
+ },
+ {
+  "start": 32.599,
+  "end": 34.67,
+  "text": "order to complete this obstacle we need"
+ },
+ {
+  "start": 34.68,
+  "end": 37.51,
+  "text": "to complete the operation listed below"
+ },
+ {
+  "start": 37.52,
+  "end": 39.389,
+  "text": "and we need to enter the result in the"
+ },
+ {
+  "start": 39.399,
+  "end": 43.19,
+  "text": "result box okay so this might seem uh"
+ },
+ {
+  "start": 43.2,
+  "end": 46.59,
+  "text": "pretty simple in the first instance but"
+ },
+ {
+  "start": 46.6,
+  "end": 49.83,
+  "text": "the challenge here is um everything is"
+ },
+ {
+  "start": 49.84,
+  "end": 52.79,
+  "text": "randomized okay so the two uh random"
+ },
+ {
+  "start": 52.8,
+  "end": 55.27,
+  "text": "numbers you can see here are randomly"
+ },
+ {
+  "start": 55.28,
+  "end": 58.15,
+  "text": "generated plus the upper end here which"
+ },
+ {
+  "start": 58.16,
+  "end": 60.79,
+  "text": "is this minus sign this is also randomly"
+ },
+ {
+  "start": 60.8,
+  "end": 63.829,
+  "text": "changing okay so if I refresh this page"
+ },
+ {
+  "start": 63.839,
+  "end": 67.59,
+  "text": "now you will see that uh the numbers are"
+ },
+ {
+  "start": 67.6,
+  "end": 70.95,
+  "text": "changing and sometimes the operant is"
+ },
+ {
+  "start": 70.96,
+  "end": 73.149,
+  "text": "also changing so it could be a"
+ },
+ {
+  "start": 73.159,
+  "end": 75.35,
+  "text": "multiplication it could be addition"
+ },
+ {
+  "start": 75.36,
+  "end": 78.27,
+  "text": "subtraction or uh even a modular"
+ },
+ {
+  "start": 78.28,
+  "end": 81.71,
+  "text": "operation okay so whatever the operation"
+ },
+ {
+  "start": 81.72,
+  "end": 84.87,
+  "text": "you need to be able to uh handle that"
+ },
+ {
+  "start": 84.88,
+  "end": 88.469,
+  "text": "into your automation okay so everything"
+ },
+ {
+  "start": 88.479,
+  "end": 91.51,
+  "text": "uh should be parameterized here uh in a"
+ },
+ {
+  "start": 91.52,
+  "end": 94.35,
+  "text": "way and using some conditions you need"
+ },
+ {
+  "start": 94.36,
+  "end": 97.27,
+  "text": "to uh handle these changing random"
+ },
+ {
+  "start": 97.28,
+  "end": 100.389,
+  "text": "numbers and operants okay so once we"
+ },
+ {
+  "start": 100.399,
+  "end": 103.55,
+  "text": "enter uh the result here like for"
+ },
+ {
+  "start": 103.56,
+  "end": 106.95,
+  "text": "instance here the result is 80 uh this"
+ },
+ {
+  "start": 106.96,
+  "end": 109.59,
+  "text": "operation will be completed"
+ },
+ {
+  "start": 109.6,
+  "end": 113.55,
+  "text": "okay now the ideal way of doing this um"
+ },
+ {
+  "start": 113.56,
+  "end": 115.87,
+  "text": "would be in any programming language or"
+ },
+ {
+  "start": 115.88,
+  "end": 119.67,
+  "text": "any automation tool you can make use of"
+ },
+ {
+  "start": 119.68,
+  "end": 122.429,
+  "text": "uh the switch case right so if I talk"
+ },
+ {
+  "start": 122.439,
+  "end": 124.709,
+  "text": "about Java you can make use of the"
+ },
+ {
+  "start": 124.719,
+  "end": 127.789,
+  "text": "switch case where you can have different"
+ },
+ {
+  "start": 127.799,
+  "end": 131.43,
+  "text": "uh case and based on that case you can"
+ },
+ {
+  "start": 131.44,
+  "end": 134.07,
+  "text": "have a specific calculation right so it"
+ },
+ {
+  "start": 134.08,
+  "end": 136.229,
+  "text": "will fit for this particular kind of"
+ },
+ {
+  "start": 136.239,
+  "end": 139.27,
+  "text": "problem but uh tosa doesn't have a"
+ },
+ {
+  "start": 139.28,
+  "end": 142.19,
+  "text": "switch case okay so we need to fall back"
+ },
+ {
+  "start": 142.2,
+  "end": 146.79,
+  "text": "upon um the conditional statements and"
+ },
+ {
+  "start": 146.8,
+  "end": 149.83,
+  "text": "we need to use the if condition in this"
+ },
+ {
+  "start": 149.84,
+  "end": 152.19,
+  "text": "particular scenario okay so let's see"
+ },
+ {
+  "start": 152.2,
+  "end": 153.869,
+  "text": "how we can do this in"
+ },
+ {
+  "start": 153.879,
+  "end": 157.35,
+  "text": "tosa so coming back here uh I'm going to"
+ },
+ {
+  "start": 157.36,
+  "end": 160.43,
+  "text": "go back to my modules uh section and"
+ },
+ {
+  "start": 160.44,
+  "end": 162.19,
+  "text": "here we'll go to"
+ },
+ {
+  "start": 162.2,
+  "end": 171.67,
+  "text": "obstacles here we will add another"
+ },
+ {
+  "start": 175.869,
+  "end": 175.879,
+  "text": "module okay and then here uh we need to"
+ },
+ {
+  "start": 175.879,
+  "end": 179.27,
+  "text": "have the numbers the randomly generated"
+ },
+ {
+  "start": 179.28,
+  "end": 184.19,
+  "text": "numbers the uh operation okay and then"
+ },
+ {
+  "start": 184.2,
+  "end": 186.309,
+  "text": "uh we need to have the result okay so"
+ },
+ {
+  "start": 186.319,
+  "end": 188.71,
+  "text": "these are the four elements which we"
+ },
+ {
+  "start": 188.72,
+  "end": 191.43,
+  "text": "have to add here so I'm going to save it"
+ },
+ {
+  "start": 191.44,
+  "end": 194.03,
+  "text": "and close it now I'm going to copy the"
+ },
+ {
+  "start": 194.04,
+  "end": 198.789,
+  "text": "obstacle number here and"
+ },
+ {
+  "start": 198.799,
+  "end": 203.75,
+  "text": "then we are going to rename"
+ },
+ {
+  "start": 206.83,
+  "end": 206.84,
+  "text": "this okay and then uh going back to test"
+ },
+ {
+  "start": 206.84,
+  "end": 209.39,
+  "text": "cases we will add a new test case here"
+ },
+ {
+  "start": 209.4,
+  "end": 215.149,
+  "text": "now"
+ },
+ {
+  "start": 218.83,
+  "end": 218.84,
+  "text": "okay and then uh we are going to add the"
+ },
+ {
+  "start": 218.84,
+  "end": 220.429,
+  "text": "module right"
+ },
+ {
+  "start": 220.439,
+  "end": 222.35,
+  "text": "here"
+ },
+ {
+  "start": 222.36,
+  "end": 226.55,
+  "text": "okay right um so the first step here is"
+ },
+ {
+  "start": 226.56,
+  "end": 230.75,
+  "text": "to basically buffer all the values okay"
+ },
+ {
+  "start": 230.76,
+  "end": 233.39,
+  "text": "so what we are going to do is we are"
+ },
+ {
+  "start": 233.4,
+  "end": 236.11,
+  "text": "also going to uh name these module"
+ },
+ {
+  "start": 236.12,
+  "end": 238.35,
+  "text": "attributes because these are randomly"
+ },
+ {
+  "start": 238.36,
+  "end": 241.47,
+  "text": "changing so it won't remain the same"
+ },
+ {
+  "start": 241.48,
+  "end": 244.75,
+  "text": "always right so we'll change the names"
+ },
+ {
+  "start": 244.76,
+  "end": 247.509,
+  "text": "here and we'll call it"
+ },
+ {
+  "start": 247.519,
+  "end": 251.27,
+  "text": "operand okay and now coming back to our"
+ },
+ {
+  "start": 251.28,
+  "end": 253.83,
+  "text": "test case so now these are properly"
+ },
+ {
+  "start": 253.84,
+  "end": 255.99,
+  "text": "displayed here so what I'm going to do"
+ },
+ {
+  "start": 256.0,
+  "end": 259.629,
+  "text": "is I will be uh buffering all these"
+ },
+ {
+  "start": 259.639,
+  "end": 262.55,
+  "text": "values okay I will be buffering the"
+ },
+ {
+  "start": 262.56,
+  "end": 266.59,
+  "text": "number one the operant and also the"
+ },
+ {
+  "start": 266.6,
+  "end": 270.15,
+  "text": "number two okay so all these will be"
+ },
+ {
+  "start": 270.16,
+  "end": 272.749,
+  "text": "stored in these different buffers so"
+ },
+ {
+  "start": 272.759,
+  "end": 275.43,
+  "text": "that's our first step okay so we are"
+ },
+ {
+  "start": 275.44,
+  "end": 280.029,
+  "text": "going to name this buffer"
+ },
+ {
+  "start": 282.95,
+  "end": 282.96,
+  "text": "values now uh in the Second Step as I"
+ },
+ {
+  "start": 282.96,
+  "end": 284.79,
+  "text": "said we need to use some kind of"
+ },
+ {
+  "start": 284.8,
+  "end": 286.629,
+  "text": "condition because the operant is"
+ },
+ {
+  "start": 286.639,
+  "end": 289.35,
+  "text": "changing and depending on the operant uh"
+ },
+ {
+  "start": 289.36,
+  "end": 291.35,
+  "text": "we need to perform the mathematical"
+ },
+ {
+  "start": 291.36,
+  "end": 293.71,
+  "text": "operation accordingly right so we are"
+ },
+ {
+  "start": 293.72,
+  "end": 297.029,
+  "text": "going to use the F statement here okay"
+ },
+ {
+  "start": 297.039,
+  "end": 300.23,
+  "text": "so I'm going to use the F statement here"
+ },
+ {
+  "start": 300.24,
+  "end": 303.43,
+  "text": "and in the condition uh then uh we need"
+ },
+ {
+  "start": 303.44,
+  "end": 306.31,
+  "text": "to check what kind of operant it is"
+ },
+ {
+  "start": 306.32,
+  "end": 310.71,
+  "text": "right so for that we'll be using another"
+ },
+ {
+  "start": 310.72,
+  "end": 314.79,
+  "text": "test step and that is called tbox"
+ },
+ {
+  "start": 314.8,
+  "end": 316.83,
+  "text": "evaluation tool"
+ },
+ {
+  "start": 316.84,
+  "end": 319.83,
+  "text": "okay so here we can put some expression"
+ },
+ {
+  "start": 319.84,
+  "end": 322.59,
+  "text": "which can be verified okay so that will"
+ },
+ {
+  "start": 322.6,
+  "end": 327.79,
+  "text": "be our condition so in this uh eval uh"
+ },
+ {
+  "start": 327.8,
+  "end": 329.95,
+  "text": "we will be putting an expression to"
+ },
+ {
+  "start": 329.96,
+  "end": 333.67,
+  "text": "check what is the operant okay so I'll"
+ },
+ {
+  "start": 333.68,
+  "end": 338.23,
+  "text": "be checking here B of"
+ },
+ {
+  "start": 338.24,
+  "end": 342.35,
+  "text": "operant okay and uh I'll be putting this"
+ },
+ {
+  "start": 342.36,
+  "end": 343.469,
+  "text": "in"
+ },
+ {
+  "start": 343.479,
+  "end": 346.51,
+  "text": "codes so whenever you are using the tbox"
+ },
+ {
+  "start": 346.52,
+  "end": 350.35,
+  "text": "evalution tool and you are um working"
+ },
+ {
+  "start": 350.36,
+  "end": 352.59,
+  "text": "with different types of Expressions you"
+ },
+ {
+  "start": 352.6,
+  "end": 355.07,
+  "text": "should always use single codes uh so"
+ },
+ {
+  "start": 355.08,
+  "end": 357.79,
+  "text": "that uh everything is escaped properly"
+ },
+ {
+  "start": 357.8,
+  "end": 360.189,
+  "text": "okay and then equal"
+ },
+ {
+  "start": 360.199,
+  "end": 361.55,
+  "text": "uh we'll be"
+ },
+ {
+  "start": 361.56,
+  "end": 364.83,
+  "text": "using um the first plus sign so for"
+ },
+ {
+  "start": 364.84,
+  "end": 366.589,
+  "text": "addition"
+ },
+ {
+  "start": 366.599,
+  "end": 369.23,
+  "text": "okay so it will check whether this"
+ },
+ {
+  "start": 369.24,
+  "end": 374.029,
+  "text": "operand is plus uh and if it is then um"
+ },
+ {
+  "start": 374.039,
+  "end": 378.23,
+  "text": "we will be again adding the same module"
+ },
+ {
+  "start": 378.24,
+  "end": 379.79,
+  "text": "here"
+ },
+ {
+  "start": 379.8,
+  "end": 383.95,
+  "text": "okay and then in the then statement in"
+ },
+ {
+  "start": 383.96,
+  "end": 386.35,
+  "text": "the result section we'll be using"
+ },
+ {
+  "start": 386.36,
+  "end": 389.469,
+  "text": "something called the math expression so"
+ },
+ {
+  "start": 389.479,
+  "end": 391.83,
+  "text": "it is used to perform any mathematical"
+ },
+ {
+  "start": 391.84,
+  "end": 394.87,
+  "text": "calculations so inside this uh we'll be"
+ },
+ {
+  "start": 394.88,
+  "end": 403.029,
+  "text": "then adding the buffers okay so num"
+ },
+ {
+  "start": 417.35,
+  "end": 417.36,
+  "text": "here and then we'll be closing this okay"
+ },
+ {
+  "start": 417.36,
+  "end": 419.07,
+  "text": "so this is the math expression where it"
+ },
+ {
+  "start": 419.08,
+  "end": 421.11,
+  "text": "will perform the mathematical operation"
+ },
+ {
+  "start": 421.12,
+  "end": 424.39,
+  "text": "okay so this is for addition similarly"
+ },
+ {
+  "start": 424.4,
+  "end": 426.27,
+  "text": "we need to make four different if"
+ },
+ {
+  "start": 426.28,
+  "end": 429.189,
+  "text": "statements okay for four different"
+ },
+ {
+  "start": 429.199,
+  "end": 435.79,
+  "text": "operations so I will be uh pasting this"
+ },
+ {
+  "start": 435.8,
+  "end": 437.55,
+  "text": "four times"
+ },
+ {
+  "start": 437.56,
+  "end": 441.15,
+  "text": "okay and then here we'll be changing the"
+ },
+ {
+  "start": 441.16,
+  "end": 444.15,
+  "text": "conditions okay so we will have one"
+ },
+ {
+  "start": 444.16,
+  "end": 445.83,
+  "text": "for"
+ },
+ {
+  "start": 445.84,
+  "end": 449.39,
+  "text": "subtraction and we'll change uh the"
+ },
+ {
+  "start": 449.4,
+  "end": 452.95,
+  "text": "operation"
+ },
+ {
+  "start": 468.23,
+  "end": 468.24,
+  "text": "multiplication and the final one would"
+ },
+ {
+  "start": 468.24,
+  "end": 473.35,
+  "text": "be for a modular operation okay so we"
+ },
+ {
+  "start": 473.36,
+  "end": 476.11,
+  "text": "will put the operation here and then"
+ },
+ {
+  "start": 476.12,
+  "end": 477.95,
+  "text": "we'll go to the last"
+ },
+ {
+  "start": 477.96,
+  "end": 482.67,
+  "text": "one and we will add the mod symbol here"
+ },
+ {
+  "start": 482.68,
+  "end": 486.07,
+  "text": "okay so the"
+ },
+ {
+  "start": 486.08,
+  "end": 487.71,
+  "text": "mod"
+ },
+ {
+  "start": 487.72,
+  "end": 494.39,
+  "text": "and and the then we will do"
+ },
+ {
+  "start": 496.83,
+  "end": 496.84,
+  "text": "that okay so these are all the four"
+ },
+ {
+  "start": 496.84,
+  "end": 500.71,
+  "text": "different operations which uh we need to"
+ },
+ {
+  "start": 500.72,
+  "end": 504.07,
+  "text": "perform okay and everything is inside uh"
+ },
+ {
+  "start": 504.08,
+  "end": 507.35,
+  "text": "if else statement although it is not"
+ },
+ {
+  "start": 507.36,
+  "end": 509.869,
+  "text": "super efficient uh we have doing this"
+ },
+ {
+  "start": 509.879,
+  "end": 512.07,
+  "text": "but there is no other way of doing this"
+ },
+ {
+  "start": 512.08,
+  "end": 515.389,
+  "text": "particular uh problem right so we need"
+ },
+ {
+  "start": 515.399,
+  "end": 518.269,
+  "text": "to use the if then else"
+ },
+ {
+  "start": 518.279,
+  "end": 521.67,
+  "text": "statements so now we are going to mark"
+ },
+ {
+  "start": 521.68,
+  "end": 524.19,
+  "text": "this as completed that's all what we"
+ },
+ {
+  "start": 524.2,
+  "end": 527.31,
+  "text": "need to do and now let's go ahead and"
+ },
+ {
+  "start": 527.32,
+  "end": 529.63,
+  "text": "run this couple of times so that we can"
+ },
+ {
+  "start": 529.64,
+  "end": 531.949,
+  "text": "see it is working for all the different"
+ },
+ {
+  "start": 531.959,
+  "end": 536.47,
+  "text": "operations okay so I'm going to run"
+ },
+ {
+  "start": 536.48,
+  "end": 539.949,
+  "text": "this okay so as you can see uh"
+ },
+ {
+  "start": 539.959,
+  "end": 542.63,
+  "text": "the result was populated with the"
+ },
+ {
+  "start": 542.64,
+  "end": 544.509,
+  "text": "correct value and the automation"
+ },
+ {
+  "start": 544.519,
+  "end": 547.87,
+  "text": "obstacle was completed right now you can"
+ },
+ {
+  "start": 547.88,
+  "end": 551.269,
+  "text": "see um now this particular sign has"
+ },
+ {
+  "start": 551.279,
+  "end": 554.31,
+  "text": "changed okay so it is a subtraction now"
+ },
+ {
+  "start": 554.32,
+  "end": 557.35,
+  "text": "so what we'll do uh we will go ahead and"
+ },
+ {
+  "start": 557.36,
+  "end": 560.99,
+  "text": "run this once"
+ },
+ {
+  "start": 563.949,
+  "end": 563.959,
+  "text": "more okay so as you can see both of the"
+ },
+ {
+  "start": 563.959,
+  "end": 566.069,
+  "text": "times uh everything was changing but"
+ },
+ {
+  "start": 566.079,
+  "end": 568.069,
+  "text": "still uh the automation was able to"
+ },
+ {
+  "start": 568.079,
+  "end": 570.23,
+  "text": "handle all those changes"
+ },
+ {
+  "start": 570.24,
+  "end": 573.03,
+  "text": "um and effectively this is um automating"
+ },
+ {
+  "start": 573.04,
+  "end": 575.389,
+  "text": "the calculator itself right because we"
+ },
+ {
+  "start": 575.399,
+  "end": 576.59,
+  "text": "have been performing all the"
+ },
+ {
+  "start": 576.6,
+  "end": 578.79,
+  "text": "calculations which are part of the"
+ },
+ {
+  "start": 578.8,
+  "end": 581.55,
+  "text": "calculator so uh this is how you can"
+ },
+ {
+  "start": 581.56,
+  "end": 582.91,
+  "text": "perform different mathematical"
+ },
+ {
+  "start": 582.92,
+  "end": 585.31,
+  "text": "operations using the math function and"
+ },
+ {
+  "start": 585.32,
+  "end": 587.949,
+  "text": "then using the if else statements you"
+ },
+ {
+  "start": 587.959,
+  "end": 590.63,
+  "text": "can put conditions uh and you can check"
+ },
+ {
+  "start": 590.64,
+  "end": 592.829,
+  "text": "for different conditions and based on"
+ },
+ {
+  "start": 592.839,
+  "end": 595.87,
+  "text": "whatever condition it is you can perform"
+ },
+ {
+  "start": 595.88,
+  "end": 598.11,
+  "text": "the respective"
+ },
+ {
+  "start": 598.12,
+  "end": 600.75,
+  "text": "operation that's all for this particular"
+ },
+ {
+  "start": 600.76,
+  "end": 603.19,
+  "text": "video if you have any questions then"
+ },
+ {
+  "start": 603.2,
+  "end": 605.63,
+  "text": "please leave it in the comments if you"
+ },
+ {
+  "start": 605.64,
+  "end": 607.59,
+  "text": "like this video then please subscribe to"
+ },
+ {
+  "start": 607.6,
+  "end": 610.31,
+  "text": "our Channel thanks for watching and I"
+ },
+ {
+  "start": 610.32,
+  "end": 614.959,
+  "text": "will see you in the next video"
+ }
+]

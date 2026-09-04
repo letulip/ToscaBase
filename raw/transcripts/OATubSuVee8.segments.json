@@ -1,0 +1,917 @@
+[
+ {
+  "start": 3.53,
+  "end": 3.54,
+  "text": "now we are going to look at some of the"
+ },
+ {
+  "start": 3.54,
+  "end": 5.809,
+  "text": "other t-box modules which could be"
+ },
+ {
+  "start": 5.819,
+  "end": 7.369,
+  "text": "useful when you are working with"
+ },
+ {
+  "start": 7.379,
+  "end": 9.589,
+  "text": "different process or you want to do some"
+ },
+ {
+  "start": 9.599,
+  "end": 12.29,
+  "text": "performance checks the first is the"
+ },
+ {
+  "start": 12.3,
+  "end": 15.53,
+  "text": "process operations and part of this you"
+ },
+ {
+  "start": 15.54,
+  "end": 19.55,
+  "text": "have the Start program which is a t-box"
+ },
+ {
+  "start": 19.56,
+  "end": 22.609,
+  "text": "module so using this you can start any"
+ },
+ {
+  "start": 22.619,
+  "end": 25.73,
+  "text": "particular application be it a exe a"
+ },
+ {
+  "start": 25.74,
+  "end": 28.55,
+  "text": "desktop application or even a browser"
+ },
+ {
+  "start": 28.56,
+  "end": 31.99,
+  "text": "okay so let's go ahead and look at this"
+ },
+ {
+  "start": 32.0,
+  "end": 36.11,
+  "text": "let me create open"
+ },
+ {
+  "start": 36.12,
+  "end": 48.709,
+  "text": "or a Start program right"
+ },
+ {
+  "start": 51.709,
+  "end": 51.719,
+  "text": "so let's create a new folder here and"
+ },
+ {
+  "start": 51.719,
+  "end": 56.51,
+  "text": "I'm going to call it process operations"
+ },
+ {
+  "start": 59.389,
+  "end": 59.399,
+  "text": "inside this let me create another test"
+ },
+ {
+  "start": 59.399,
+  "end": 62.42,
+  "text": "case and let's call it open"
+ },
+ {
+  "start": 63.66,
+  "end": 66.83,
+  "text": "notepad Okay so this is the application"
+ },
+ {
+  "start": 66.84,
+  "end": 69.23,
+  "text": "which I want to open to Tosca"
+ },
+ {
+  "start": 69.24,
+  "end": 72.05,
+  "text": "and let's see how we can do that so"
+ },
+ {
+  "start": 72.06,
+  "end": 75.05,
+  "text": "let's go ahead and add the t-box module"
+ },
+ {
+  "start": 75.06,
+  "end": 75.89,
+  "text": "now"
+ },
+ {
+  "start": 75.9,
+  "end": 79.91,
+  "text": "and we'll say open"
+ },
+ {
+  "start": 79.92,
+  "end": 85.609,
+  "text": "or Start program"
+ },
+ {
+  "start": 88.13,
+  "end": 88.14,
+  "text": "okay and here we have to give some"
+ },
+ {
+  "start": 88.14,
+  "end": 91.07,
+  "text": "parameters for notepad.exe we just"
+ },
+ {
+  "start": 91.08,
+  "end": 92.87,
+  "text": "require the path"
+ },
+ {
+  "start": 92.88,
+  "end": 95.09,
+  "text": "okay so I'm going to give the path here"
+ },
+ {
+  "start": 95.1,
+  "end": 97.31,
+  "text": "which is C window"
+ },
+ {
+  "start": 97.32,
+  "end": 101.929,
+  "text": "and notepad.exe"
+ },
+ {
+  "start": 104.45,
+  "end": 104.46,
+  "text": "okay uh similarly you can pass the path"
+ },
+ {
+  "start": 104.46,
+  "end": 107.149,
+  "text": "for any particular application"
+ },
+ {
+  "start": 107.159,
+  "end": 109.55,
+  "text": "um you can also pass arguments"
+ },
+ {
+  "start": 109.56,
+  "end": 112.01,
+  "text": "um and wait for exit and also run as"
+ },
+ {
+  "start": 112.02,
+  "end": 113.63,
+  "text": "which will have the username and"
+ },
+ {
+  "start": 113.64,
+  "end": 116.81,
+  "text": "password if uh it's a secure application"
+ },
+ {
+  "start": 116.82,
+  "end": 119.81,
+  "text": "right so these are all the different"
+ },
+ {
+  "start": 119.82,
+  "end": 121.749,
+  "text": "parameters which you can pass you can"
+ },
+ {
+  "start": 121.759,
+  "end": 124.249,
+  "text": "use whichever application you require"
+ },
+ {
+  "start": 124.259,
+  "end": 125.569,
+  "text": "okay"
+ },
+ {
+  "start": 125.579,
+  "end": 129.229,
+  "text": "but for us it is notepad.exe so let's go"
+ },
+ {
+  "start": 129.239,
+  "end": 138.229,
+  "text": "ahead and run this"
+ },
+ {
+  "start": 141.11,
+  "end": 141.12,
+  "text": "as you can see the step has passed and"
+ },
+ {
+  "start": 141.12,
+  "end": 143.75,
+  "text": "in the background uh Tosca has opened a"
+ },
+ {
+  "start": 143.76,
+  "end": 146.69,
+  "text": "Notepad application or the notepad.exe"
+ },
+ {
+  "start": 146.7,
+  "end": 149.63,
+  "text": "right so that's what uh how you can"
+ },
+ {
+  "start": 149.64,
+  "end": 151.729,
+  "text": "start a particular program or"
+ },
+ {
+  "start": 151.739,
+  "end": 155.449,
+  "text": "application uh using Oscar okay using"
+ },
+ {
+  "start": 155.459,
+  "end": 158.99,
+  "text": "the steebok Start program module"
+ },
+ {
+  "start": 159.0,
+  "end": 162.53,
+  "text": "to show another example out of it right"
+ },
+ {
+  "start": 162.54,
+  "end": 165.47,
+  "text": "um I can also add another devox module"
+ },
+ {
+  "start": 165.48,
+  "end": 166.55,
+  "text": "here"
+ },
+ {
+  "start": 166.56,
+  "end": 170.63,
+  "text": "so"
+ },
+ {
+  "start": 172.55,
+  "end": 172.56,
+  "text": "and this time around we are going to"
+ },
+ {
+  "start": 172.56,
+  "end": 175.43,
+  "text": "open uh the Chrome browser okay with"
+ },
+ {
+  "start": 175.44,
+  "end": 179.449,
+  "text": "some parameters so let's go ahead and"
+ },
+ {
+  "start": 179.459,
+  "end": 182.39,
+  "text": "browse the Chrome browser okay"
+ },
+ {
+  "start": 182.4,
+  "end": 186.229,
+  "text": "and that you will find here in C program"
+ },
+ {
+  "start": 186.239,
+  "end": 189.53,
+  "text": "files Google Chrome application okay if"
+ },
+ {
+  "start": 189.54,
+  "end": 193.19,
+  "text": "it's a 64-bit if it's uh not a 64-bit"
+ },
+ {
+  "start": 193.2,
+  "end": 196.19,
+  "text": "you will find it in the x86 folder"
+ },
+ {
+  "start": 196.2,
+  "end": 199.55,
+  "text": "so here I have got the chrome.exe so I'm"
+ },
+ {
+  "start": 199.56,
+  "end": 203.57,
+  "text": "going to browse to that path right and"
+ },
+ {
+  "start": 203.58,
+  "end": 204.949,
+  "text": "then um"
+ },
+ {
+  "start": 204.959,
+  "end": 208.309,
+  "text": "I will also add some arguments okay so"
+ },
+ {
+  "start": 208.319,
+  "end": 210.35,
+  "text": "inside the arguments"
+ },
+ {
+  "start": 210.36,
+  "end": 213.649,
+  "text": "uh I'm going to first add a argument for"
+ },
+ {
+  "start": 213.659,
+  "end": 216.589,
+  "text": "Incognito because I want to start this"
+ },
+ {
+  "start": 216.599,
+  "end": 219.229,
+  "text": "browser in in computer mode"
+ },
+ {
+  "start": 219.239,
+  "end": 223.729,
+  "text": "and then I'm going to pass the URL which"
+ },
+ {
+  "start": 223.739,
+  "end": 227.69,
+  "text": "it should go once it opens okay so I'm"
+ },
+ {
+  "start": 227.7,
+  "end": 231.71,
+  "text": "going to go to google.com"
+ },
+ {
+  "start": 234.47,
+  "end": 234.48,
+  "text": "so those are the two arguments uh which"
+ },
+ {
+  "start": 234.48,
+  "end": 236.69,
+  "text": "I have passed right it should open in"
+ },
+ {
+  "start": 236.7,
+  "end": 238.49,
+  "text": "the incognito mode and it should open"
+ },
+ {
+  "start": 238.5,
+  "end": 242.21,
+  "text": "this URL right and let's go ahead and"
+ },
+ {
+  "start": 242.22,
+  "end": 246.949,
+  "text": "run this"
+ },
+ {
+  "start": 249.11,
+  "end": 249.12,
+  "text": "so as you can see the test has passed"
+ },
+ {
+  "start": 249.12,
+  "end": 250.729,
+  "text": "and Google"
+ },
+ {
+  "start": 250.739,
+  "end": 253.97,
+  "text": ".com is opened in Chrome in Incognito"
+ },
+ {
+  "start": 253.98,
+  "end": 255.41,
+  "text": "mode okay"
+ },
+ {
+  "start": 255.42,
+  "end": 257.689,
+  "text": "so that's how powerful this particular"
+ },
+ {
+  "start": 257.699,
+  "end": 260.15,
+  "text": "t-box module is it can open any"
+ },
+ {
+  "start": 260.16,
+  "end": 262.189,
+  "text": "particular application with parameters"
+ },
+ {
+  "start": 262.199,
+  "end": 265.129,
+  "text": "or with arguments or even if it's a"
+ },
+ {
+  "start": 265.139,
+  "end": 266.81,
+  "text": "username and password protected"
+ },
+ {
+  "start": 266.82,
+  "end": 269.39,
+  "text": "application okay"
+ },
+ {
+  "start": 269.4,
+  "end": 273.05,
+  "text": "now um coming to our last module which"
+ },
+ {
+  "start": 273.06,
+  "end": 275.15,
+  "text": "we are going to look in this particular"
+ },
+ {
+  "start": 275.16,
+  "end": 275.99,
+  "text": "session"
+ },
+ {
+  "start": 276.0,
+  "end": 280.49,
+  "text": "is for timing okay so some modules which"
+ },
+ {
+  "start": 280.5,
+  "end": 283.49,
+  "text": "are related to timing and I'm going to"
+ },
+ {
+  "start": 283.5,
+  "end": 287.81,
+  "text": "add here a test case called start timer"
+ },
+ {
+  "start": 287.82,
+  "end": 290.749,
+  "text": "right and then I am going to add in the"
+ },
+ {
+  "start": 290.759,
+  "end": 294.11,
+  "text": "test case called stop timer"
+ },
+ {
+  "start": 294.12,
+  "end": 297.59,
+  "text": "okay and what I'm going to do is I am"
+ },
+ {
+  "start": 297.6,
+  "end": 300.17,
+  "text": "going to"
+ },
+ {
+  "start": 300.18,
+  "end": 303.83,
+  "text": "bring in this particular uh"
+ },
+ {
+  "start": 303.84,
+  "end": 309.01,
+  "text": "start Chrome right so let's actually"
+ },
+ {
+  "start": 309.02,
+  "end": 311.09,
+  "text": "rename this"
+ },
+ {
+  "start": 311.1,
+  "end": 314.99,
+  "text": "and this one is for notepad right so"
+ },
+ {
+  "start": 315.0,
+  "end": 316.249,
+  "text": "start"
+ },
+ {
+  "start": 316.259,
+  "end": 320.15,
+  "text": "Notepad"
+ },
+ {
+  "start": 322.67,
+  "end": 322.68,
+  "text": "okay um so I'm going to add in the test"
+ },
+ {
+  "start": 322.68,
+  "end": 328.73,
+  "text": "case here called uh open browser"
+ },
+ {
+  "start": 330.77,
+  "end": 330.78,
+  "text": "right and I'm going to put it between"
+ },
+ {
+  "start": 330.78,
+  "end": 333.59,
+  "text": "the start timer and the stop timer and"
+ },
+ {
+  "start": 333.6,
+  "end": 335.93,
+  "text": "then I'm also going to copy this step"
+ },
+ {
+  "start": 335.94,
+  "end": 339.529,
+  "text": "into the open browser test case right so"
+ },
+ {
+  "start": 339.539,
+  "end": 340.969,
+  "text": "it's basically going to do the same"
+ },
+ {
+  "start": 340.979,
+  "end": 342.59,
+  "text": "thing it's going to open the Chrome"
+ },
+ {
+  "start": 342.6,
+  "end": 346.31,
+  "text": "browser but what I will get here is I"
+ },
+ {
+  "start": 346.32,
+  "end": 347.749,
+  "text": "will get"
+ },
+ {
+  "start": 347.759,
+  "end": 351.11,
+  "text": "um the time it takes to execute this"
+ },
+ {
+  "start": 351.12,
+  "end": 352.85,
+  "text": "particular step okay"
+ },
+ {
+  "start": 352.86,
+  "end": 355.79,
+  "text": "how we can do that uh we will add a"
+ },
+ {
+  "start": 355.8,
+  "end": 358.969,
+  "text": "module here called The Box"
+ },
+ {
+  "start": 358.979,
+  "end": 362.99,
+  "text": "start timer"
+ },
+ {
+  "start": 365.15,
+  "end": 365.16,
+  "text": "okay"
+ },
+ {
+  "start": 365.16,
+  "end": 368.51,
+  "text": "and here we need to provide ID which is"
+ },
+ {
+  "start": 368.52,
+  "end": 371.029,
+  "text": "just nothing but the name of that"
+ },
+ {
+  "start": 371.039,
+  "end": 375.05,
+  "text": "particular timer so I will say it is a"
+ },
+ {
+  "start": 375.06,
+  "end": 377.27,
+  "text": "timer one okay"
+ },
+ {
+  "start": 377.28,
+  "end": 380.629,
+  "text": "and the same thing here but we will have"
+ },
+ {
+  "start": 380.639,
+  "end": 385.73,
+  "text": "a different t-box module so stop timer"
+ },
+ {
+  "start": 385.74,
+  "end": 389.029,
+  "text": "and we'll be using the same ID here so"
+ },
+ {
+  "start": 389.039,
+  "end": 392.33,
+  "text": "that this runs and calculates how much"
+ },
+ {
+  "start": 392.34,
+  "end": 393.65,
+  "text": "time it is taking"
+ },
+ {
+  "start": 393.66,
+  "end": 396.23,
+  "text": "right in terms of the timer running for"
+ },
+ {
+  "start": 396.24,
+  "end": 398.809,
+  "text": "this particular test case"
+ },
+ {
+  "start": 398.819,
+  "end": 401.93,
+  "text": "so we have got the start timer and stop"
+ },
+ {
+  "start": 401.94,
+  "end": 404.57,
+  "text": "timer and let's go ahead and run this"
+ },
+ {
+  "start": 404.58,
+  "end": 414.409,
+  "text": "whole folder"
+ },
+ {
+  "start": 417.529,
+  "end": 417.539,
+  "text": "okay just executed now and in the"
+ },
+ {
+  "start": 417.539,
+  "end": 422.45,
+  "text": "results you can now see that the log"
+ },
+ {
+  "start": 422.46,
+  "end": 425.45,
+  "text": "info it has got a start timer which was"
+ },
+ {
+  "start": 425.46,
+  "end": 427.79,
+  "text": "started okay"
+ },
+ {
+  "start": 427.8,
+  "end": 430.129,
+  "text": "um the application was launched as"
+ },
+ {
+  "start": 430.139,
+  "end": 433.49,
+  "text": "expected but in the stop timer you will"
+ },
+ {
+  "start": 433.5,
+  "end": 435.89,
+  "text": "also find something called measured"
+ },
+ {
+  "start": 435.9,
+  "end": 438.89,
+  "text": "value okay and that's the time it took"
+ },
+ {
+  "start": 438.9,
+  "end": 441.17,
+  "text": "to execute this particular test step"
+ },
+ {
+  "start": 441.18,
+  "end": 444.29,
+  "text": "which is in between these two timers and"
+ },
+ {
+  "start": 444.3,
+  "end": 447.409,
+  "text": "that was 28 milliseconds okay"
+ },
+ {
+  "start": 447.419,
+  "end": 450.11,
+  "text": "so it's quite useful if you want to know"
+ },
+ {
+  "start": 450.12,
+  "end": 453.89,
+  "text": "how much a particular step uh is taking"
+ },
+ {
+  "start": 453.9,
+  "end": 457.189,
+  "text": "to execute right and what also you can"
+ },
+ {
+  "start": 457.199,
+  "end": 459.65,
+  "text": "do in the stop timer is you can put a"
+ },
+ {
+  "start": 459.66,
+  "end": 461.27,
+  "text": "maximum duration"
+ },
+ {
+  "start": 461.28,
+  "end": 464.87,
+  "text": "so this could be useful in doing a"
+ },
+ {
+  "start": 464.88,
+  "end": 467.749,
+  "text": "performance test for your uh testing"
+ },
+ {
+  "start": 467.759,
+  "end": 471.469,
+  "text": "right so if that particular step or a"
+ },
+ {
+  "start": 471.479,
+  "end": 474.77,
+  "text": "particular test case is not completing"
+ },
+ {
+  "start": 474.78,
+  "end": 476.93,
+  "text": "in that particular time then you can"
+ },
+ {
+  "start": 476.94,
+  "end": 480.29,
+  "text": "mark it as failed right it did not uh"
+ },
+ {
+  "start": 480.3,
+  "end": 482.21,
+  "text": "meet up to the performance expectations"
+ },
+ {
+  "start": 482.22,
+  "end": 485.27,
+  "text": "of the particular test okay"
+ },
+ {
+  "start": 485.28,
+  "end": 487.67,
+  "text": "so what I can do here is I can put a"
+ },
+ {
+  "start": 487.68,
+  "end": 490.129,
+  "text": "maximum duration of just 10 milliseconds"
+ },
+ {
+  "start": 490.139,
+  "end": 493.909,
+  "text": "and put a verify action mode and when I"
+ },
+ {
+  "start": 493.919,
+  "end": 501.409,
+  "text": "execute this again"
+ },
+ {
+  "start": 504.05,
+  "end": 504.06,
+  "text": "okay so this time around it's going to"
+ },
+ {
+  "start": 504.06,
+  "end": 506.689,
+  "text": "fail uh because the verification field"
+ },
+ {
+  "start": 506.699,
+  "end": 510.01,
+  "text": "okay and you can see in the stop timer"
+ },
+ {
+  "start": 510.02,
+  "end": 512.87,
+  "text": "it is saying that the verification is"
+ },
+ {
+  "start": 512.88,
+  "end": 515.69,
+  "text": "filled expected value was less than 10"
+ },
+ {
+  "start": 515.7,
+  "end": 518.93,
+  "text": "seconds uh actually took 43 seconds"
+ },
+ {
+  "start": 518.94,
+  "end": 521.81,
+  "text": "so it's basically a performance check or"
+ },
+ {
+  "start": 521.82,
+  "end": 523.73,
+  "text": "a performance test right which you can"
+ },
+ {
+  "start": 523.74,
+  "end": 527.389,
+  "text": "perform using this uh two t-box modules"
+ },
+ {
+  "start": 527.399,
+  "end": 531.769,
+  "text": "uh start timer and start stop timer"
+ },
+ {
+  "start": 531.779,
+  "end": 535.79,
+  "text": "okay so these are um all the commonly"
+ },
+ {
+  "start": 535.8,
+  "end": 538.85,
+  "text": "used t-box modules uh which are generic"
+ },
+ {
+  "start": 538.86,
+  "end": 541.49,
+  "text": "in terms of how you can do different"
+ },
+ {
+  "start": 541.5,
+  "end": 545.15,
+  "text": "operations on files folders uh on your"
+ },
+ {
+  "start": 545.16,
+  "end": 548.21,
+  "text": "applications starting and stopping and"
+ },
+ {
+  "start": 548.22,
+  "end": 550.31,
+  "text": "also some performance tests"
+ },
+ {
+  "start": 550.32,
+  "end": 552.59,
+  "text": "now there are many other modules which"
+ },
+ {
+  "start": 552.6,
+  "end": 554.69,
+  "text": "are present uh in the standard subset"
+ },
+ {
+  "start": 554.7,
+  "end": 558.07,
+  "text": "but these are the most commonly used"
+ },
+ {
+  "start": 558.08,
+  "end": 561.47,
+  "text": "okay so that's all for this session uh"
+ },
+ {
+  "start": 561.48,
+  "end": 563.329,
+  "text": "which covered the key box automation"
+ },
+ {
+  "start": 563.339,
+  "end": 565.82,
+  "text": "modules"
+ }
+]

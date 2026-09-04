@@ -1,0 +1,872 @@
+[
+ {
+  "start": 12.509,
+  "end": 12.519,
+  "text": "hey everyone welcome back to our Channel"
+ },
+ {
+  "start": 12.519,
+  "end": 15.15,
+  "text": "I am back with another interesting topic"
+ },
+ {
+  "start": 15.16,
+  "end": 17.63,
+  "text": "in the tosa automation"
+ },
+ {
+  "start": 17.64,
+  "end": 20.349,
+  "text": "playlist so continuing with our topic on"
+ },
+ {
+  "start": 20.359,
+  "end": 23.23,
+  "text": "the test automation obstacles let's look"
+ },
+ {
+  "start": 23.24,
+  "end": 25.63,
+  "text": "at our next obstacle which is known as"
+ },
+ {
+  "start": 25.64,
+  "end": 29.15,
+  "text": "the tough cookie now what is this so we"
+ },
+ {
+  "start": 29.16,
+  "end": 31.39,
+  "text": "have got kind of four text boxes as you"
+ },
+ {
+  "start": 31.4,
+  "end": 34.67,
+  "text": "can see here and then uh the first edit"
+ },
+ {
+  "start": 34.68,
+  "end": 38.63,
+  "text": "box uh when you click on this it reveals"
+ },
+ {
+  "start": 38.64,
+  "end": 41.709,
+  "text": "a random text and this random text"
+ },
+ {
+  "start": 41.719,
+  "end": 44.63,
+  "text": "includes three large numbers okay so"
+ },
+ {
+  "start": 44.64,
+  "end": 46.99,
+  "text": "here is the first number here is the"
+ },
+ {
+  "start": 47.0,
+  "end": 50.91,
+  "text": "second one and uh here is the third one"
+ },
+ {
+  "start": 50.92,
+  "end": 53.99,
+  "text": "right what we need to do is we need to"
+ },
+ {
+  "start": 54.0,
+  "end": 56.43,
+  "text": "extract all these three numbers and then"
+ },
+ {
+  "start": 56.44,
+  "end": 59.189,
+  "text": "we need to enter it one by one into each"
+ },
+ {
+  "start": 59.199,
+  "end": 62.189,
+  "text": "of this t text boxes so this is what uh"
+ },
+ {
+  "start": 62.199,
+  "end": 63.469,
+  "text": "we need to"
+ },
+ {
+  "start": 63.479,
+  "end": 67.23,
+  "text": "do now keep in mind that this particular"
+ },
+ {
+  "start": 67.24,
+  "end": 69.87,
+  "text": "uh text which is generated is random in"
+ },
+ {
+  "start": 69.88,
+  "end": 72.749,
+  "text": "nature so U the numbers could be"
+ },
+ {
+  "start": 72.759,
+  "end": 76.429,
+  "text": "anything right now in order to automate"
+ },
+ {
+  "start": 76.439,
+  "end": 78.59,
+  "text": "this particular problem we need to be"
+ },
+ {
+  "start": 78.6,
+  "end": 82.069,
+  "text": "able to extract text using regular"
+ },
+ {
+  "start": 82.079,
+  "end": 85.149,
+  "text": "Expressions okay so we have to use uh"
+ },
+ {
+  "start": 85.159,
+  "end": 88.39,
+  "text": "regular expression and uh there we need"
+ },
+ {
+  "start": 88.4,
+  "end": 91.87,
+  "text": "to use something called a named group"
+ },
+ {
+  "start": 91.88,
+  "end": 95.99,
+  "text": "using which we can buffer some parts of"
+ },
+ {
+  "start": 96.0,
+  "end": 98.51,
+  "text": "this particular expression using a"
+ },
+ {
+  "start": 98.52,
+  "end": 102.03,
+  "text": "random rejects okay so let's see U how"
+ },
+ {
+  "start": 102.04,
+  "end": 105.109,
+  "text": "we can do this in tosa so coming back to"
+ },
+ {
+  "start": 105.119,
+  "end": 107.95,
+  "text": "our tosa work space uh the first step as"
+ },
+ {
+  "start": 107.96,
+  "end": 110.95,
+  "text": "always is to uh scan the particular"
+ },
+ {
+  "start": 110.96,
+  "end": 114.749,
+  "text": "module so we'll go to our obstacles here"
+ },
+ {
+  "start": 114.759,
+  "end": 118.83,
+  "text": "uh we are going to scan a new"
+ },
+ {
+  "start": 120.55,
+  "end": 120.56,
+  "text": "application"
+ },
+ {
+  "start": 120.56,
+  "end": 122.51,
+  "text": "and then we are going to scan this"
+ },
+ {
+  "start": 122.52,
+  "end": 125.87,
+  "text": "particular page so basically we need all"
+ },
+ {
+  "start": 125.88,
+  "end": 130.029,
+  "text": "the four text boxes so um we are going"
+ },
+ {
+  "start": 130.039,
+  "end": 138.63,
+  "text": "to select all of these different"
+ },
+ {
+  "start": 142.309,
+  "end": 142.319,
+  "text": "controls okay and then um also I'm going"
+ },
+ {
+  "start": 142.319,
+  "end": 148.75,
+  "text": "to rename the"
+ },
+ {
+  "start": 151.55,
+  "end": 151.56,
+  "text": "module okay and then I'm going to save"
+ },
+ {
+  "start": 151.56,
+  "end": 155.229,
+  "text": "this and then I'm going to close this"
+ },
+ {
+  "start": 155.239,
+  "end": 158.67,
+  "text": "okay so now uh going back to our test"
+ },
+ {
+  "start": 158.68,
+  "end": 162.03,
+  "text": "cases and the obstacles folder let's"
+ },
+ {
+  "start": 162.04,
+  "end": 164.229,
+  "text": "create a new test case"
+ },
+ {
+  "start": 164.239,
+  "end": 168.149,
+  "text": "here and let's rename"
+ },
+ {
+  "start": 168.159,
+  "end": 172.07,
+  "text": "this okay and then I'm going to drag the"
+ },
+ {
+  "start": 172.08,
+  "end": 174.99,
+  "text": "module and add it"
+ },
+ {
+  "start": 175.0,
+  "end": 178.47,
+  "text": "here okay so obviously the first step is"
+ },
+ {
+  "start": 178.48,
+  "end": 181.509,
+  "text": "to reveal the particular text or"
+ },
+ {
+  "start": 181.519,
+  "end": 184.75,
+  "text": "generate the random text so for that uh"
+ },
+ {
+  "start": 184.76,
+  "end": 187.149,
+  "text": "we need to click here right so we will"
+ },
+ {
+  "start": 187.159,
+  "end": 190.309,
+  "text": "do that so that uh it's going to reveal"
+ },
+ {
+  "start": 190.319,
+  "end": 192.71,
+  "text": "or generate the text so let's rename"
+ },
+ {
+  "start": 192.72,
+  "end": 196.509,
+  "text": "this particular test tip as generate"
+ },
+ {
+  "start": 196.519,
+  "end": 200.229,
+  "text": "text okay and then uh we are going to"
+ },
+ {
+  "start": 200.239,
+  "end": 203.63,
+  "text": "add the same module again to perform the"
+ },
+ {
+  "start": 203.64,
+  "end": 205.789,
+  "text": "remaining steps okay so I'm going to add"
+ },
+ {
+  "start": 205.799,
+  "end": 210.91,
+  "text": "it here and then um I'm going to say"
+ },
+ {
+  "start": 210.92,
+  "end": 212.83,
+  "text": "buffer"
+ },
+ {
+  "start": 212.84,
+  "end": 214.429,
+  "text": "results"
+ },
+ {
+  "start": 214.439,
+  "end": 217.47,
+  "text": "okay um so the first step is to"
+ },
+ {
+  "start": 217.48,
+  "end": 221.11,
+  "text": "basically buffer all the three numbers"
+ },
+ {
+  "start": 221.12,
+  "end": 224.39,
+  "text": "right so you cannot do it uh step by"
+ },
+ {
+  "start": 224.4,
+  "end": 228.07,
+  "text": "step like you buffer normal uh values"
+ },
+ {
+  "start": 228.08,
+  "end": 230.589,
+  "text": "here uh as I said we need to extract the"
+ },
+ {
+  "start": 230.599,
+  "end": 233.91,
+  "text": "text uh which is dynamic in nature using"
+ },
+ {
+  "start": 233.92,
+  "end": 236.91,
+  "text": "some regular Expressions right so for"
+ },
+ {
+  "start": 236.92,
+  "end": 239.75,
+  "text": "this uh we have to use a particular"
+ },
+ {
+  "start": 239.76,
+  "end": 241.91,
+  "text": "regular expression which is little"
+ },
+ {
+  "start": 241.92,
+  "end": 244.71,
+  "text": "complex in nature so I have written it"
+ },
+ {
+  "start": 244.72,
+  "end": 246.75,
+  "text": "down so that I don't make any mistakes"
+ },
+ {
+  "start": 246.76,
+  "end": 249.71,
+  "text": "it's quite long but I'm going to explain"
+ },
+ {
+  "start": 249.72,
+  "end": 253.67,
+  "text": "you this Rex uh what I have written here"
+ },
+ {
+  "start": 253.68,
+  "end": 257.31,
+  "text": "right so let's expand this a little bit"
+ },
+ {
+  "start": 257.32,
+  "end": 260.349,
+  "text": "so that we can see this okay so as you"
+ },
+ {
+  "start": 260.359,
+  "end": 263.51,
+  "text": "can see this is the Rex expression and"
+ },
+ {
+  "start": 263.52,
+  "end": 267.35,
+  "text": "then inside this okay so this carot sign"
+ },
+ {
+  "start": 267.36,
+  "end": 269.95,
+  "text": "means uh this is the starting of the"
+ },
+ {
+  "start": 269.96,
+  "end": 272.99,
+  "text": "expression and dollar means it's the end"
+ },
+ {
+  "start": 273.0,
+  "end": 276.629,
+  "text": "of the Rex right so inside this we have"
+ },
+ {
+  "start": 276.639,
+  "end": 279.43,
+  "text": "got the dot star which will basically"
+ },
+ {
+  "start": 279.44,
+  "end": 283.31,
+  "text": "cover any particular uh text right and"
+ },
+ {
+  "start": 283.32,
+  "end": 286.23,
+  "text": "then after that uh we have something"
+ },
+ {
+  "start": 286.24,
+  "end": 289.31,
+  "text": "called the named group okay so this"
+ },
+ {
+  "start": 289.32,
+  "end": 293.27,
+  "text": "named group it consists of the buffer"
+ },
+ {
+  "start": 293.28,
+  "end": 296.35,
+  "text": "okay so this uh angular brackets number"
+ },
+ {
+  "start": 296.36,
+  "end": 300.31,
+  "text": "one this is the buffer okay so this is"
+ },
+ {
+  "start": 300.32,
+  "end": 303.43,
+  "text": "where uh the first number will be stored"
+ },
+ {
+  "start": 303.44,
+  "end": 306.67,
+  "text": "okay and the number you know uh the rexs"
+ },
+ {
+  "start": 306.68,
+  "end": 309.23,
+  "text": "for that would be 0 to 9 so all the"
+ },
+ {
+  "start": 309.24,
+  "end": 312.15,
+  "text": "digits between 0 to 9 it could be any"
+ },
+ {
+  "start": 312.16,
+  "end": 315.749,
+  "text": "number right and then uh we are saying"
+ },
+ {
+  "start": 315.759,
+  "end": 317.909,
+  "text": "that there is more text so we have put"
+ },
+ {
+  "start": 317.919,
+  "end": 321.79,
+  "text": "the plus sign and then again uh dot Star"
+ },
+ {
+  "start": 321.8,
+  "end": 325.59,
+  "text": "as you can see here so that uh again uh"
+ },
+ {
+  "start": 325.6,
+  "end": 328.15,
+  "text": "it could consider any random text which"
+ },
+ {
+  "start": 328.16,
+  "end": 331.309,
+  "text": "is generated okay okay and then uh for"
+ },
+ {
+  "start": 331.319,
+  "end": 333.79,
+  "text": "the second number we have again got a"
+ },
+ {
+  "start": 333.8,
+  "end": 337.99,
+  "text": "named group okay so this named group is"
+ },
+ {
+  "start": 338.0,
+  "end": 341.55,
+  "text": "formed of two parts so the first part is"
+ },
+ {
+  "start": 341.56,
+  "end": 345.309,
+  "text": "the buffer name and the second part is"
+ },
+ {
+  "start": 345.319,
+  "end": 349.95,
+  "text": "the expression okay so the expression is"
+ },
+ {
+  "start": 349.96,
+  "end": 352.15,
+  "text": "the dynamic part which needs to be"
+ },
+ {
+  "start": 352.16,
+  "end": 355.189,
+  "text": "buffered so when this is buffered it"
+ },
+ {
+  "start": 355.199,
+  "end": 357.469,
+  "text": "will be stored in this particular number"
+ },
+ {
+  "start": 357.479,
+  "end": 359.55,
+  "text": "two or whatever buffer name you Pro"
+ },
+ {
+  "start": 359.56,
+  "end": 362.95,
+  "text": "provide and the same we do for number"
+ },
+ {
+  "start": 362.96,
+  "end": 366.67,
+  "text": "three okay so this is how this whole uh"
+ },
+ {
+  "start": 366.68,
+  "end": 369.67,
+  "text": "regular expression has been written so"
+ },
+ {
+  "start": 369.68,
+  "end": 372.629,
+  "text": "that it can buffer all the three"
+ },
+ {
+  "start": 372.639,
+  "end": 375.23,
+  "text": "randomly generated numbers and then it"
+ },
+ {
+  "start": 375.24,
+  "end": 379.189,
+  "text": "can store in this buffer names okay so"
+ },
+ {
+  "start": 379.199,
+  "end": 382.15,
+  "text": "this is a specialized named group uh"
+ },
+ {
+  "start": 382.16,
+  "end": 385.11,
+  "text": "expression which is present in tosa okay"
+ },
+ {
+  "start": 385.12,
+  "end": 388.39,
+  "text": "and this is how you can use this to"
+ },
+ {
+  "start": 388.4,
+  "end": 391.469,
+  "text": "basically extract Dynamic parts of a"
+ },
+ {
+  "start": 391.479,
+  "end": 393.629,
+  "text": "string and then you can save these"
+ },
+ {
+  "start": 393.639,
+  "end": 396.55,
+  "text": "values to different"
+ },
+ {
+  "start": 396.56,
+  "end": 399.79,
+  "text": "buffers now once uh we buffer this then"
+ },
+ {
+  "start": 399.8,
+  "end": 402.79,
+  "text": "this problem becomes easier now we just"
+ },
+ {
+  "start": 402.8,
+  "end": 406.27,
+  "text": "need to enter uh the buffer values into"
+ },
+ {
+  "start": 406.28,
+  "end": 410.51,
+  "text": "the respective text boxes okay so here"
+ },
+ {
+  "start": 410.52,
+  "end": 412.79,
+  "text": "uh we will be using the expression"
+ },
+ {
+  "start": 412.8,
+  "end": 416.35,
+  "text": "simple buffer and then I will be using"
+ },
+ {
+  "start": 416.36,
+  "end": 418.39,
+  "text": "number"
+ },
+ {
+  "start": 418.4,
+  "end": 421.99,
+  "text": "one"
+ },
+ {
+  "start": 432.07,
+  "end": 432.08,
+  "text": "two and in the third one we will use"
+ },
+ {
+  "start": 432.08,
+  "end": 440.15,
+  "text": "number"
+ },
+ {
+  "start": 443.15,
+  "end": 443.16,
+  "text": "three okay so this is how you can"
+ },
+ {
+  "start": 443.16,
+  "end": 445.67,
+  "text": "basically solve this automation problem"
+ },
+ {
+  "start": 445.68,
+  "end": 448.869,
+  "text": "so once you write the random Rex"
+ },
+ {
+  "start": 448.879,
+  "end": 449.99,
+  "text": "expression"
+ },
+ {
+  "start": 450.0,
+  "end": 453.83,
+  "text": "and then you can just uh extract all the"
+ },
+ {
+  "start": 453.84,
+  "end": 457.11,
+  "text": "dynamic parts of that particular text"
+ },
+ {
+  "start": 457.12,
+  "end": 459.27,
+  "text": "and then you can store them in different"
+ },
+ {
+  "start": 459.28,
+  "end": 462.83,
+  "text": "buffers okay so now let's go back to the"
+ },
+ {
+  "start": 462.84,
+  "end": 464.83,
+  "text": "test case let's change the work state to"
+ },
+ {
+  "start": 464.84,
+  "end": 468.35,
+  "text": "complete it and let's try and run this"
+ },
+ {
+  "start": 468.36,
+  "end": 476.029,
+  "text": "particular test"
+ },
+ {
+  "start": 479.43,
+  "end": 479.44,
+  "text": "case Okay so one important thing to note"
+ },
+ {
+  "start": 479.44,
+  "end": 481.83,
+  "text": "is whenever you are using uh something"
+ },
+ {
+  "start": 481.84,
+  "end": 485.11,
+  "text": "like a named group then the input action"
+ },
+ {
+  "start": 485.12,
+  "end": 488.23,
+  "text": "mode type is not supported okay so you"
+ },
+ {
+  "start": 488.24,
+  "end": 490.469,
+  "text": "can see here input is not supported for"
+ },
+ {
+  "start": 490.479,
+  "end": 493.469,
+  "text": "Rex values right so what we need to do"
+ },
+ {
+  "start": 493.479,
+  "end": 495.629,
+  "text": "is we need to change the action mode"
+ },
+ {
+  "start": 495.639,
+  "end": 498.99,
+  "text": "here to verify so let's go ahead and try"
+ },
+ {
+  "start": 499.0,
+  "end": 502.749,
+  "text": "this one more"
+ },
+ {
+  "start": 506.469,
+  "end": 506.479,
+  "text": "time okay so as you can see uh now uh it"
+ },
+ {
+  "start": 506.479,
+  "end": 509.27,
+  "text": "clicked on the first text box to reveal"
+ },
+ {
+  "start": 509.28,
+  "end": 512.31,
+  "text": "the randomly generated uh text and then"
+ },
+ {
+  "start": 512.32,
+  "end": 515.31,
+  "text": "from there it extracted all the three"
+ },
+ {
+  "start": 515.32,
+  "end": 518.389,
+  "text": "large numbers and it stored it into the"
+ },
+ {
+  "start": 518.399,
+  "end": 521.19,
+  "text": "buffers and then it used that buffers to"
+ },
+ {
+  "start": 521.2,
+  "end": 523.829,
+  "text": "enter it into all the three different"
+ },
+ {
+  "start": 523.839,
+  "end": 526.47,
+  "text": "text boxes and the automation problem"
+ },
+ {
+  "start": 526.48,
+  "end": 530.07,
+  "text": "was resolved okay so this is how you can"
+ },
+ {
+  "start": 530.08,
+  "end": 533.71,
+  "text": "use the Rex and the named group to uh"
+ },
+ {
+  "start": 533.72,
+  "end": 536.59,
+  "text": "solve these complex U automation"
+ },
+ {
+  "start": 536.6,
+  "end": 538.829,
+  "text": "problems where you have to use some"
+ },
+ {
+  "start": 538.839,
+  "end": 542.03,
+  "text": "random regular expressions and you also"
+ },
+ {
+  "start": 542.04,
+  "end": 545.11,
+  "text": "need to buffer different Dynamic values"
+ },
+ {
+  "start": 545.12,
+  "end": 548.19,
+  "text": "from a randomly generated"
+ },
+ {
+  "start": 548.2,
+  "end": 550.55,
+  "text": "text that's all for this particular"
+ },
+ {
+  "start": 550.56,
+  "end": 552.99,
+  "text": "video if you have any questions then"
+ },
+ {
+  "start": 553.0,
+  "end": 555.47,
+  "text": "please leave it in the comments if you"
+ },
+ {
+  "start": 555.48,
+  "end": 557.43,
+  "text": "like this video then please subscribe to"
+ },
+ {
+  "start": 557.44,
+  "end": 560.15,
+  "text": "our Channel thanks for watching and I"
+ },
+ {
+  "start": 560.16,
+  "end": 561.949,
+  "text": "will see you in the next"
+ },
+ {
+  "start": 561.959,
+  "end": 564.959,
+  "text": "video"
+ }
+]

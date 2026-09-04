@@ -1,0 +1,1367 @@
+[
+ {
+  "start": 12.509,
+  "end": 12.519,
+  "text": "hey everyone welcome back to our Channel"
+ },
+ {
+  "start": 12.519,
+  "end": 15.15,
+  "text": "I am back with another interesting topic"
+ },
+ {
+  "start": 15.16,
+  "end": 18.07,
+  "text": "in the tosa automation playlist now"
+ },
+ {
+  "start": 18.08,
+  "end": 20.39,
+  "text": "continuing with our topic on the"
+ },
+ {
+  "start": 20.4,
+  "end": 22.87,
+  "text": "automation obstacles so let's look at"
+ },
+ {
+  "start": 22.88,
+  "end": 26.269,
+  "text": "our next obstacle which is related to"
+ },
+ {
+  "start": 26.279,
+  "end": 30.669,
+  "text": "XML and how we can find something in XML"
+ },
+ {
+  "start": 30.679,
+  "end": 32.99,
+  "text": "and also how we can enter that into a"
+ },
+ {
+  "start": 33.0,
+  "end": 36.11,
+  "text": "particular text box right so this"
+ },
+ {
+  "start": 36.12,
+  "end": 39.069,
+  "text": "particular obstacle is quite complex uh"
+ },
+ {
+  "start": 39.079,
+  "end": 40.95,
+  "text": "because we have to use a number of"
+ },
+ {
+  "start": 40.96,
+  "end": 43.91,
+  "text": "different engines okay so here we need"
+ },
+ {
+  "start": 43.92,
+  "end": 47.43,
+  "text": "to click on this load books and then uh"
+ },
+ {
+  "start": 47.44,
+  "end": 50.229,
+  "text": "XML structure will be loaded into this"
+ },
+ {
+  "start": 50.239,
+  "end": 54.189,
+  "text": "particular text area Okay so uh you can"
+ },
+ {
+  "start": 54.199,
+  "end": 56.349,
+  "text": "see this is currently disabled right so"
+ },
+ {
+  "start": 56.359,
+  "end": 58.95,
+  "text": "we cannot directly search from here and"
+ },
+ {
+  "start": 58.96,
+  "end": 61.869,
+  "text": "then we need need to also enter the"
+ },
+ {
+  "start": 61.879,
+  "end": 65.149,
+  "text": "ISBN of a particular book name which is"
+ },
+ {
+  "start": 65.159,
+  "end": 68.67,
+  "text": "testing computer software right so we"
+ },
+ {
+  "start": 68.68,
+  "end": 71.07,
+  "text": "need to search through the XML find the"
+ },
+ {
+  "start": 71.08,
+  "end": 74.83,
+  "text": "ISBN uh which title is this and then we"
+ },
+ {
+  "start": 74.84,
+  "end": 77.91,
+  "text": "need to enter that into the text box now"
+ },
+ {
+  "start": 77.92,
+  "end": 80.31,
+  "text": "in order to uh resolve this particular"
+ },
+ {
+  "start": 80.32,
+  "end": 82.429,
+  "text": "obstacle we need to use couple of"
+ },
+ {
+  "start": 82.439,
+  "end": 84.91,
+  "text": "engines like we need to use the browser"
+ },
+ {
+  "start": 84.92,
+  "end": 88.55,
+  "text": "engine in order to click on the button"
+ },
+ {
+  "start": 88.56,
+  "end": 91.069,
+  "text": "or in order to buffer the text uh which"
+ },
+ {
+  "start": 91.079,
+  "end": 94.31,
+  "text": "is present here and then uh also in"
+ },
+ {
+  "start": 94.32,
+  "end": 97.35,
+  "text": "order to enter it into the text box we"
+ },
+ {
+  "start": 97.36,
+  "end": 99.55,
+  "text": "also need to use the file engine so that"
+ },
+ {
+  "start": 99.56,
+  "end": 102.429,
+  "text": "we can create a new XML file and then we"
+ },
+ {
+  "start": 102.439,
+  "end": 104.83,
+  "text": "need we can enter the text in present"
+ },
+ {
+  "start": 104.84,
+  "end": 107.67,
+  "text": "here into that particular XML file we"
+ },
+ {
+  "start": 107.68,
+  "end": 110.83,
+  "text": "also need to scan the XML file and also"
+ },
+ {
+  "start": 110.84,
+  "end": 113.35,
+  "text": "we need to then use the XML engine to"
+ },
+ {
+  "start": 113.36,
+  "end": 115.67,
+  "text": "basically find the ispn with this"
+ },
+ {
+  "start": 115.68,
+  "end": 118.029,
+  "text": "particular book title okay so as you can"
+ },
+ {
+  "start": 118.039,
+  "end": 120.19,
+  "text": "see there are lots of moving parts in"
+ },
+ {
+  "start": 120.2,
+  "end": 123.029,
+  "text": "this particular obstacle and it's a very"
+ },
+ {
+  "start": 123.039,
+  "end": 125.59,
+  "text": "good uh way of practicing what you have"
+ },
+ {
+  "start": 125.6,
+  "end": 128.27,
+  "text": "learned until now in"
+ },
+ {
+  "start": 128.28,
+  "end": 131.67,
+  "text": "tosa so let's go ahead and let's try to"
+ },
+ {
+  "start": 131.68,
+  "end": 133.71,
+  "text": "resolve this particular obstacle or"
+ },
+ {
+  "start": 133.72,
+  "end": 136.55,
+  "text": "let's try to um automate this particular"
+ },
+ {
+  "start": 136.56,
+  "end": 139.229,
+  "text": "obstacle using"
+ },
+ {
+  "start": 139.239,
+  "end": 142.35,
+  "text": "tosa okay so coming back to our tosa"
+ },
+ {
+  "start": 142.36,
+  "end": 145.11,
+  "text": "workspace um let's go to our module"
+ },
+ {
+  "start": 145.12,
+  "end": 148.47,
+  "text": "section and here uh we will go to the"
+ },
+ {
+  "start": 148.48,
+  "end": 152.47,
+  "text": "obstacles and then uh I'm going to scan"
+ },
+ {
+  "start": 152.48,
+  "end": 155.63,
+  "text": "this particular application"
+ },
+ {
+  "start": 155.64,
+  "end": 159.149,
+  "text": "here okay before that uh I will just uh"
+ },
+ {
+  "start": 159.159,
+  "end": 162.19,
+  "text": "refresh this page so that we are back to"
+ },
+ {
+  "start": 162.2,
+  "end": 164.949,
+  "text": "the original state of this page and then"
+ },
+ {
+  "start": 164.959,
+  "end": 167.83,
+  "text": "I'm going to scan this page okay so"
+ },
+ {
+  "start": 167.84,
+  "end": 170.91,
+  "text": "initially uh we just require the Load"
+ },
+ {
+  "start": 170.92,
+  "end": 174.83,
+  "text": "Books link okay and then we require uh"
+ },
+ {
+  "start": 174.84,
+  "end": 178.07,
+  "text": "the text area and then we require the"
+ },
+ {
+  "start": 178.08,
+  "end": 180.07,
+  "text": "text field where we need to enter the"
+ },
+ {
+  "start": 180.08,
+  "end": 182.509,
+  "text": "Isn okay so these are the three controls"
+ },
+ {
+  "start": 182.519,
+  "end": 185.589,
+  "text": "which we require uh and then uh we can"
+ },
+ {
+  "start": 185.599,
+  "end": 189.55,
+  "text": "save this and we can close this okay uh"
+ },
+ {
+  "start": 189.56,
+  "end": 190.99,
+  "text": "I'm going to copy this particular"
+ },
+ {
+  "start": 191.0,
+  "end": 194.789,
+  "text": "obstacle ID so that I can uh rename this"
+ },
+ {
+  "start": 194.799,
+  "end": 197.309,
+  "text": "module name as per"
+ },
+ {
+  "start": 197.319,
+  "end": 200.75,
+  "text": "this okay uh this time around I'm also"
+ },
+ {
+  "start": 200.76,
+  "end": 204.55,
+  "text": "going to create a folder okay uh now I'm"
+ },
+ {
+  "start": 204.56,
+  "end": 206.47,
+  "text": "going to tell you why I'm doing this"
+ },
+ {
+  "start": 206.48,
+  "end": 209.11,
+  "text": "later on but for now we are going to"
+ },
+ {
+  "start": 209.12,
+  "end": 210.83,
+  "text": "create this folder and we are going to"
+ },
+ {
+  "start": 210.84,
+  "end": 213.589,
+  "text": "place it this module inside this"
+ },
+ {
+  "start": 213.599,
+  "end": 217.229,
+  "text": "particular folder okay okay so I'm I'm"
+ },
+ {
+  "start": 217.239,
+  "end": 222.509,
+  "text": "going to rename this to load XML"
+ },
+ {
+  "start": 222.519,
+  "end": 226.509,
+  "text": "right and uh we are going to put this"
+ },
+ {
+  "start": 226.519,
+  "end": 228.509,
+  "text": "the obstacle number"
+ },
+ {
+  "start": 228.519,
+  "end": 231.229,
+  "text": "right right uh and then uh we are going"
+ },
+ {
+  "start": 231.239,
+  "end": 233.91,
+  "text": "to go to a test cases section here again"
+ },
+ {
+  "start": 233.92,
+  "end": 235.869,
+  "text": "uh we will go to our obstacles where we"
+ },
+ {
+  "start": 235.879,
+  "end": 238.63,
+  "text": "have been creating all the test cases we"
+ },
+ {
+  "start": 238.64,
+  "end": 239.91,
+  "text": "are going to create our next next"
+ },
+ {
+  "start": 239.92,
+  "end": 242.429,
+  "text": "obstacle test case uh again we are going"
+ },
+ {
+  "start": 242.439,
+  "end": 245.99,
+  "text": "to use the same obstacle number okay and"
+ },
+ {
+  "start": 246.0,
+  "end": 250.27,
+  "text": "then uh we are simply going"
+ },
+ {
+  "start": 254.869,
+  "end": 254.879,
+  "text": "to uh put this module right here okay"
+ },
+ {
+  "start": 254.879,
+  "end": 257.509,
+  "text": "and then um the first thing which we"
+ },
+ {
+  "start": 257.519,
+  "end": 260.67,
+  "text": "need to do here is obviously to load the"
+ },
+ {
+  "start": 260.68,
+  "end": 263.909,
+  "text": "XML right so we need to click on this"
+ },
+ {
+  "start": 263.919,
+  "end": 268.03,
+  "text": "particular link and then uh the XML text"
+ },
+ {
+  "start": 268.04,
+  "end": 270.71,
+  "text": "will be loaded in this particular box"
+ },
+ {
+  "start": 270.72,
+  "end": 274.39,
+  "text": "text area okay and what we will do is we"
+ },
+ {
+  "start": 274.4,
+  "end": 276.59,
+  "text": "will basically buffer this particular"
+ },
+ {
+  "start": 276.6,
+  "end": 280.11,
+  "text": "text okay so we will store it into a"
+ },
+ {
+  "start": 280.12,
+  "end": 283.629,
+  "text": "particular um buffer name so I'm going"
+ },
+ {
+  "start": 283.639,
+  "end": 287.87,
+  "text": "to call this buffer XML"
+ },
+ {
+  "start": 287.88,
+  "end": 291.59,
+  "text": "text after this right uh we need to"
+ },
+ {
+  "start": 291.6,
+  "end": 294.95,
+  "text": "create a particular file and then we"
+ },
+ {
+  "start": 294.96,
+  "end": 297.55,
+  "text": "need to uh write this particular text"
+ },
+ {
+  "start": 297.56,
+  "end": 301.67,
+  "text": "into that file okay so now uh we are"
+ },
+ {
+  "start": 301.68,
+  "end": 305.029,
+  "text": "going to search for a test step uh which"
+ },
+ {
+  "start": 305.039,
+  "end": 308.71,
+  "text": "is called"
+ },
+ {
+  "start": 312.79,
+  "end": 312.8,
+  "text": "create uh so tbox read create file right"
+ },
+ {
+  "start": 312.8,
+  "end": 316.469,
+  "text": "so this is uh the module which I want"
+ },
+ {
+  "start": 316.479,
+  "end": 320.27,
+  "text": "and here uh we are going to write it"
+ },
+ {
+  "start": 320.28,
+  "end": 323.43,
+  "text": "into a particular directory"
+ },
+ {
+  "start": 323.44,
+  "end": 326.909,
+  "text": "right so I'm going to write it into this"
+ },
+ {
+  "start": 326.919,
+  "end": 328.469,
+  "text": "particular"
+ },
+ {
+  "start": 328.479,
+  "end": 330.309,
+  "text": "directory"
+ },
+ {
+  "start": 330.319,
+  "end": 335.39,
+  "text": "okay and uh the file name will be books."
+ },
+ {
+  "start": 335.4,
+  "end": 339.95,
+  "text": "XML and the text uh will be the buffer"
+ },
+ {
+  "start": 339.96,
+  "end": 342.189,
+  "text": "okay so I'm going to use the buffer"
+ },
+ {
+  "start": 342.199,
+  "end": 344.87,
+  "text": "which I have created earlier so I'm"
+ },
+ {
+  "start": 344.88,
+  "end": 350.23,
+  "text": "going to call it XML"
+ },
+ {
+  "start": 353.55,
+  "end": 353.56,
+  "text": "text okay and then in override I'm going"
+ },
+ {
+  "start": 353.56,
+  "end": 357.35,
+  "text": "to set it to True okay so what this will"
+ },
+ {
+  "start": 357.36,
+  "end": 360.43,
+  "text": "do is it will basically write the"
+ },
+ {
+  "start": 360.44,
+  "end": 362.909,
+  "text": "content of this particular text which"
+ },
+ {
+  "start": 362.919,
+  "end": 366.07,
+  "text": "has been generated and it will write it"
+ },
+ {
+  "start": 366.08,
+  "end": 370.79,
+  "text": "into a file called box. XML okay"
+ },
+ {
+  "start": 370.8,
+  "end": 376.23,
+  "text": "so I'm going to say write XML file so"
+ },
+ {
+  "start": 376.24,
+  "end": 377.95,
+  "text": "this is the test"
+ },
+ {
+  "start": 377.96,
+  "end": 381.39,
+  "text": "step so now uh we are going to first of"
+ },
+ {
+  "start": 381.4,
+  "end": 383.79,
+  "text": "all execute this so that we can see that"
+ },
+ {
+  "start": 383.8,
+  "end": 385.71,
+  "text": "XML file is created with that particular"
+ },
+ {
+  "start": 385.72,
+  "end": 388.43,
+  "text": "text and then uh we need to scan that"
+ },
+ {
+  "start": 388.44,
+  "end": 391.67,
+  "text": "particular XML file okay so let's go"
+ },
+ {
+  "start": 391.68,
+  "end": 394.87,
+  "text": "ahead and execute these two steps for"
+ },
+ {
+  "start": 394.88,
+  "end": 398.309,
+  "text": "now"
+ },
+ {
+  "start": 401.07,
+  "end": 401.08,
+  "text": "okay so as you can see it clicked on the"
+ },
+ {
+  "start": 401.08,
+  "end": 403.07,
+  "text": "load books and then the text was"
+ },
+ {
+  "start": 403.08,
+  "end": 405.71,
+  "text": "generated uh it buffered the text and"
+ },
+ {
+  "start": 405.72,
+  "end": 409.309,
+  "text": "then it created a file and then uh it"
+ },
+ {
+  "start": 409.319,
+  "end": 411.71,
+  "text": "wrote the text into that particular file"
+ },
+ {
+  "start": 411.72,
+  "end": 414.469,
+  "text": "okay uh if I go to that location you"
+ },
+ {
+  "start": 414.479,
+  "end": 417.309,
+  "text": "will see the books. XML file is present"
+ },
+ {
+  "start": 417.319,
+  "end": 419.39,
+  "text": "here although I had that file already"
+ },
+ {
+  "start": 419.4,
+  "end": 422.749,
+  "text": "already it will also overwrite the text"
+ },
+ {
+  "start": 422.759,
+  "end": 425.15,
+  "text": "if that particular file is already"
+ },
+ {
+  "start": 425.16,
+  "end": 428.869,
+  "text": "present okay so if now I open this you"
+ },
+ {
+  "start": 428.879,
+  "end": 431.71,
+  "text": "will see that it has got the particular"
+ },
+ {
+  "start": 431.72,
+  "end": 435.99,
+  "text": "text which was generated okay and uh we"
+ },
+ {
+  "start": 436.0,
+  "end": 439.309,
+  "text": "are looking for a particular title right"
+ },
+ {
+  "start": 439.319,
+  "end": 440.909,
+  "text": "so we are looking for this particular"
+ },
+ {
+  "start": 440.919,
+  "end": 444.869,
+  "text": "title and we want the ISBN which is like"
+ },
+ {
+  "start": 444.879,
+  "end": 447.909,
+  "text": "an ID so we want this number and then we"
+ },
+ {
+  "start": 447.919,
+  "end": 449.79,
+  "text": "need to enter this number into the text"
+ },
+ {
+  "start": 449.8,
+  "end": 452.629,
+  "text": "box okay so these are the uh remaining"
+ },
+ {
+  "start": 452.639,
+  "end": 455.11,
+  "text": "things which we need to do now in order"
+ },
+ {
+  "start": 455.12,
+  "end": 457.869,
+  "text": "to do this right uh there are couple of"
+ },
+ {
+  "start": 457.879,
+  "end": 460.35,
+  "text": "ways to do this but I'm going to follow"
+ },
+ {
+  "start": 460.36,
+  "end": 462.43,
+  "text": "a different approach here so what I'm"
+ },
+ {
+  "start": 462.44,
+  "end": 465.39,
+  "text": "going to do is I'm going to scan uh the"
+ },
+ {
+  "start": 465.4,
+  "end": 469.55,
+  "text": "XML file and that can be done using the"
+ },
+ {
+  "start": 469.56,
+  "end": 472.51,
+  "text": "scan option you should go to more and"
+ },
+ {
+  "start": 472.52,
+  "end": 475.629,
+  "text": "here you will find a file scan option"
+ },
+ {
+  "start": 475.639,
+  "end": 479.35,
+  "text": "okay now if I go to file scan I can"
+ },
+ {
+  "start": 479.36,
+  "end": 482.51,
+  "text": "directly um browse any particular file"
+ },
+ {
+  "start": 482.52,
+  "end": 485.55,
+  "text": "in this case it is an XML file so I'm"
+ },
+ {
+  "start": 485.56,
+  "end": 488.589,
+  "text": "going to browse this okay and it is"
+ },
+ {
+  "start": 488.599,
+  "end": 490.99,
+  "text": "going to create a module for this"
+ },
+ {
+  "start": 491.0,
+  "end": 494.909,
+  "text": "particular file right so I am going to"
+ },
+ {
+  "start": 494.919,
+  "end": 498.67,
+  "text": "call this books"
+ },
+ {
+  "start": 498.68,
+  "end": 502.029,
+  "text": "XML okay and you will see it contains uh"
+ },
+ {
+  "start": 502.039,
+  "end": 504.749,
+  "text": "resource and then it contains the uh all"
+ },
+ {
+  "start": 504.759,
+  "end": 507.83,
+  "text": "the nodes for that particular XML file"
+ },
+ {
+  "start": 507.84,
+  "end": 510.909,
+  "text": "okay now uh what we can do is we can go"
+ },
+ {
+  "start": 510.919,
+  "end": 513.509,
+  "text": "back to our test case and then we can"
+ },
+ {
+  "start": 513.519,
+  "end": 516.63,
+  "text": "add our third test step which is uh this"
+ },
+ {
+  "start": 516.64,
+  "end": 520.63,
+  "text": "particular module right and here uh I'm"
+ },
+ {
+  "start": 520.64,
+  "end": 522.43,
+  "text": "going to say"
+ },
+ {
+  "start": 522.44,
+  "end": 525.07,
+  "text": "search book"
+ },
+ {
+  "start": 525.08,
+  "end": 527.75,
+  "text": "title now before this we need to add"
+ },
+ {
+  "start": 527.76,
+  "end": 530.59,
+  "text": "another step which is to open the XML"
+ },
+ {
+  "start": 530.6,
+  "end": 532.79,
+  "text": "file because until now we haven't"
+ },
+ {
+  "start": 532.8,
+  "end": 536.23,
+  "text": "actually open the XML file right so"
+ },
+ {
+  "start": 536.24,
+  "end": 539.389,
+  "text": "let's go ahead and let's search for and"
+ },
+ {
+  "start": 539.399,
+  "end": 542.11,
+  "text": "ADD test step and this time it will be"
+ },
+ {
+  "start": 542.12,
+  "end": 544.11,
+  "text": "open"
+ },
+ {
+  "start": 544.12,
+  "end": 546.829,
+  "text": "XML okay so this"
+ },
+ {
+  "start": 546.839,
+  "end": 550.47,
+  "text": "one and then um I'm going to drag this"
+ },
+ {
+  "start": 550.48,
+  "end": 552.829,
+  "text": "uh and put it before the search book"
+ },
+ {
+  "start": 552.839,
+  "end": 556.15,
+  "text": "title so this is going to open uh the"
+ },
+ {
+  "start": 556.16,
+  "end": 558.43,
+  "text": "XML file we need to provide it a"
+ },
+ {
+  "start": 558.44,
+  "end": 562.75,
+  "text": "resource I'm going to call it uh books"
+ },
+ {
+  "start": 562.76,
+  "end": 566.43,
+  "text": "and then uh the file path which will be"
+ },
+ {
+  "start": 566.44,
+  "end": 568.11,
+  "text": "this"
+ },
+ {
+  "start": 568.12,
+  "end": 573.99,
+  "text": "okay after this uh we will write books."
+ },
+ {
+  "start": 574.0,
+  "end": 577.55,
+  "text": "XML so this is going to open the XML"
+ },
+ {
+  "start": 577.56,
+  "end": 580.47,
+  "text": "file I'm going to rename this to reflect"
+ },
+ {
+  "start": 580.48,
+  "end": 582.87,
+  "text": "that particular test step and then we"
+ },
+ {
+  "start": 582.88,
+  "end": 584.949,
+  "text": "are going to search for the book title"
+ },
+ {
+  "start": 584.959,
+  "end": 587.59,
+  "text": "right again the resource uh should be"
+ },
+ {
+  "start": 587.6,
+  "end": 590.389,
+  "text": "same whatever you are opening uh for the"
+ },
+ {
+  "start": 590.399,
+  "end": 592.67,
+  "text": "XML file whatever resource you passed"
+ },
+ {
+  "start": 592.68,
+  "end": 595.069,
+  "text": "the same name should be passed here so"
+ },
+ {
+  "start": 595.079,
+  "end": 598.829,
+  "text": "the reference is passed here and then um"
+ },
+ {
+  "start": 598.839,
+  "end": 600.11,
+  "text": "in the"
+ },
+ {
+  "start": 600.12,
+  "end": 602.75,
+  "text": "catalog we can search for that"
+ },
+ {
+  "start": 602.76,
+  "end": 606.43,
+  "text": "particular title okay so what is the"
+ },
+ {
+  "start": 606.44,
+  "end": 610.67,
+  "text": "title is this testing computer software"
+ },
+ {
+  "start": 610.68,
+  "end": 613.19,
+  "text": "right so I'm going to copy this"
+ },
+ {
+  "start": 613.2,
+  "end": 616.59,
+  "text": "particular title here and I'm going to"
+ },
+ {
+  "start": 616.6,
+  "end": 618.11,
+  "text": "paste it"
+ },
+ {
+  "start": 618.12,
+  "end": 621.47,
+  "text": "here okay so instead of verify uh we are"
+ },
+ {
+  "start": 621.48,
+  "end": 623.31,
+  "text": "going to put it as a"
+ },
+ {
+  "start": 623.32,
+  "end": 626.71,
+  "text": "constraint okay now this uh constraint"
+ },
+ {
+  "start": 626.72,
+  "end": 628.509,
+  "text": "what it will do it will search for this"
+ },
+ {
+  "start": 628.519,
+  "end": 630.43,
+  "text": "particular type and then it will filter"
+ },
+ {
+  "start": 630.44,
+  "end": 634.23,
+  "text": "it out right so that that particular um"
+ },
+ {
+  "start": 634.24,
+  "end": 636.509,
+  "text": "node will be filtered out from the rest"
+ },
+ {
+  "start": 636.519,
+  "end": 639.87,
+  "text": "of the XML right and after that uh what"
+ },
+ {
+  "start": 639.88,
+  "end": 642.87,
+  "text": "we can do we can buffer the respective"
+ },
+ {
+  "start": 642.88,
+  "end": 648.11,
+  "text": "ispn for this particular book title okay"
+ },
+ {
+  "start": 648.12,
+  "end": 651.069,
+  "text": "now I'm going to give it above a name so"
+ },
+ {
+  "start": 651.079,
+  "end": 655.79,
+  "text": "I'm going to call it bore"
+ },
+ {
+  "start": 659.43,
+  "end": 659.44,
+  "text": "ISBN so now this uh will be basically"
+ },
+ {
+  "start": 659.44,
+  "end": 661.79,
+  "text": "Search the book title and then grab the"
+ },
+ {
+  "start": 661.8,
+  "end": 665.31,
+  "text": "ispn and store it in a buffer now the"
+ },
+ {
+  "start": 665.32,
+  "end": 669.629,
+  "text": "last step which uh is pending is to just"
+ },
+ {
+  "start": 669.639,
+  "end": 672.47,
+  "text": "write it into the text box so write our"
+ },
+ {
+  "start": 672.48,
+  "end": 674.67,
+  "text": "result into the text box right so we are"
+ },
+ {
+  "start": 674.68,
+  "end": 677.59,
+  "text": "going to again use the same module here"
+ },
+ {
+  "start": 677.6,
+  "end": 679.99,
+  "text": "uh I'm going to rename this so we are"
+ },
+ {
+  "start": 680.0,
+  "end": 683.87,
+  "text": "going to say enter"
+ },
+ {
+  "start": 683.88,
+  "end": 687.069,
+  "text": "ispn okay and here we are just going to"
+ },
+ {
+  "start": 687.079,
+  "end": 689.75,
+  "text": "use this particular text box okay so"
+ },
+ {
+  "start": 689.76,
+  "end": 693.629,
+  "text": "here we'll be entering buffer"
+ },
+ {
+  "start": 693.639,
+  "end": 697.269,
+  "text": "bore"
+ },
+ {
+  "start": 699.47,
+  "end": 699.48,
+  "text": "ispn okay so this is what we are going"
+ },
+ {
+  "start": 699.48,
+  "end": 700.31,
+  "text": "to"
+ },
+ {
+  "start": 700.32,
+  "end": 704.15,
+  "text": "input so now uh the complete test case"
+ },
+ {
+  "start": 704.16,
+  "end": 706.23,
+  "text": "is completed so I'll change the work"
+ },
+ {
+  "start": 706.24,
+  "end": 708.55,
+  "text": "state to completed here so as you can"
+ },
+ {
+  "start": 708.56,
+  "end": 710.79,
+  "text": "see there are lots of different steps"
+ },
+ {
+  "start": 710.8,
+  "end": 714.069,
+  "text": "here right so first uh we clicked on the"
+ },
+ {
+  "start": 714.079,
+  "end": 717.87,
+  "text": "link We generated the XML text then uh"
+ },
+ {
+  "start": 717.88,
+  "end": 721.43,
+  "text": "we wrote that text into a particular"
+ },
+ {
+  "start": 721.44,
+  "end": 724.67,
+  "text": "file and then we opened that particular"
+ },
+ {
+  "start": 724.68,
+  "end": 729.31,
+  "text": "XML file then uh we read the XML file"
+ },
+ {
+  "start": 729.32,
+  "end": 731.509,
+  "text": "and we searched for the title we got the"
+ },
+ {
+  "start": 731.519,
+  "end": 734.79,
+  "text": "ispn we buffered the ispn and finally we"
+ },
+ {
+  "start": 734.8,
+  "end": 738.069,
+  "text": "entered the ispn uh in in the input text"
+ },
+ {
+  "start": 738.079,
+  "end": 742.75,
+  "text": "box right so now this is completed now"
+ },
+ {
+  "start": 742.76,
+  "end": 746.75,
+  "text": "let's go ahead and U run this again okay"
+ },
+ {
+  "start": 746.76,
+  "end": 748.47,
+  "text": "so I'm going to refresh this page this"
+ },
+ {
+  "start": 748.48,
+  "end": 750.03,
+  "text": "time around we are going to run the"
+ },
+ {
+  "start": 750.04,
+  "end": 757.23,
+  "text": "complete steps so let's go ahead and run"
+ },
+ {
+  "start": 760.389,
+  "end": 760.399,
+  "text": "this okay so as you can see uh it has"
+ },
+ {
+  "start": 760.399,
+  "end": 763.71,
+  "text": "entered the particular ispn for that"
+ },
+ {
+  "start": 763.72,
+  "end": 766.43,
+  "text": "particular book title now if you want to"
+ },
+ {
+  "start": 766.44,
+  "end": 770.11,
+  "text": "verify that you can easily do that go to"
+ },
+ {
+  "start": 770.12,
+  "end": 772.43,
+  "text": "your books XML and you can see the"
+ },
+ {
+  "start": 772.44,
+  "end": 773.509,
+  "text": "particular"
+ },
+ {
+  "start": 773.519,
+  "end": 776.87,
+  "text": "ispn so this is how you can resolve this"
+ },
+ {
+  "start": 776.88,
+  "end": 779.509,
+  "text": "complex automation problem"
+ },
+ {
+  "start": 779.519,
+  "end": 781.91,
+  "text": "uh we have to use different engines like"
+ },
+ {
+  "start": 781.92,
+  "end": 785.31,
+  "text": "the XML engine and the browser engine"
+ },
+ {
+  "start": 785.32,
+  "end": 787.189,
+  "text": "then we need to use different standard"
+ },
+ {
+  "start": 787.199,
+  "end": 789.71,
+  "text": "modules like we have to use uh the"
+ },
+ {
+  "start": 789.72,
+  "end": 791.67,
+  "text": "create file standard module we have to"
+ },
+ {
+  "start": 791.68,
+  "end": 795.59,
+  "text": "use the open XML file module uh we have"
+ },
+ {
+  "start": 795.6,
+  "end": 798.629,
+  "text": "to use a buffer at similar places to"
+ },
+ {
+  "start": 798.639,
+  "end": 801.949,
+  "text": "buffer the values so we have to use a"
+ },
+ {
+  "start": 801.959,
+  "end": 804.03,
+  "text": "lot of different things uh in this"
+ },
+ {
+  "start": 804.04,
+  "end": 806.31,
+  "text": "particular automation problem and it's a"
+ },
+ {
+  "start": 806.32,
+  "end": 809.629,
+  "text": "good test as I said earlier of your uh"
+ },
+ {
+  "start": 809.639,
+  "end": 813.03,
+  "text": "tosa skills in order to automate this"
+ },
+ {
+  "start": 813.04,
+  "end": 814.55,
+  "text": "particular"
+ },
+ {
+  "start": 814.56,
+  "end": 816.949,
+  "text": "problem that's all for this particular"
+ },
+ {
+  "start": 816.959,
+  "end": 819.35,
+  "text": "video if you have any questions then"
+ },
+ {
+  "start": 819.36,
+  "end": 821.829,
+  "text": "please leave it in the comments if you"
+ },
+ {
+  "start": 821.839,
+  "end": 823.79,
+  "text": "like this video then please subscribe to"
+ },
+ {
+  "start": 823.8,
+  "end": 826.509,
+  "text": "our Channel thanks for watching and I"
+ },
+ {
+  "start": 826.519,
+  "end": 830.959,
+  "text": "will see you in the next video"
+ }
+]

@@ -1,0 +1,607 @@
+[
+ {
+  "start": 6.73,
+  "end": 6.74,
+  "text": "foreign"
+ },
+ {
+  "start": 6.74,
+  "end": 9.049,
+  "text": "welcome back to our Channel"
+ },
+ {
+  "start": 9.059,
+  "end": 11.69,
+  "text": "I am back with another interesting topic"
+ },
+ {
+  "start": 11.7,
+  "end": 14.509,
+  "text": "in the Tosca automation playlist"
+ },
+ {
+  "start": 14.519,
+  "end": 16.849,
+  "text": "in this session we are going to discuss"
+ },
+ {
+  "start": 16.859,
+  "end": 19.97,
+  "text": "how we can synchronize execution lists"
+ },
+ {
+  "start": 19.98,
+  "end": 22.01,
+  "text": "with the test cases"
+ },
+ {
+  "start": 22.02,
+  "end": 24.769,
+  "text": "but first let's understand why do we"
+ },
+ {
+  "start": 24.779,
+  "end": 26.509,
+  "text": "even need to synchronize this execution"
+ },
+ {
+  "start": 26.519,
+  "end": 29.63,
+  "text": "list with the test cases"
+ },
+ {
+  "start": 29.64,
+  "end": 32.51,
+  "text": "so whenever you make any changes to your"
+ },
+ {
+  "start": 32.52,
+  "end": 33.77,
+  "text": "test cases"
+ },
+ {
+  "start": 33.78,
+  "end": 35.93,
+  "text": "some of the changes are automatically"
+ },
+ {
+  "start": 35.94,
+  "end": 39.53,
+  "text": "synchronized with the execution list but"
+ },
+ {
+  "start": 39.54,
+  "end": 42.41,
+  "text": "some of the things are not synchronized"
+ },
+ {
+  "start": 42.42,
+  "end": 44.99,
+  "text": "automatically by Tosca and you need to"
+ },
+ {
+  "start": 45.0,
+  "end": 47.389,
+  "text": "synchronize them manually"
+ },
+ {
+  "start": 47.399,
+  "end": 49.91,
+  "text": "but first let's discuss what is"
+ },
+ {
+  "start": 49.92,
+  "end": 52.549,
+  "text": "synchronized automatically okay"
+ },
+ {
+  "start": 52.559,
+  "end": 55.79,
+  "text": "so any changes which you make directly"
+ },
+ {
+  "start": 55.8,
+  "end": 57.889,
+  "text": "to the test case whether you are"
+ },
+ {
+  "start": 57.899,
+  "end": 60.35,
+  "text": "changing any particular test step or you"
+ },
+ {
+  "start": 60.36,
+  "end": 63.77,
+  "text": "are changing any value here or if even"
+ },
+ {
+  "start": 63.78,
+  "end": 66.289,
+  "text": "if you are changing the name of the test"
+ },
+ {
+  "start": 66.299,
+  "end": 69.17,
+  "text": "case all these changes are synchronized"
+ },
+ {
+  "start": 69.18,
+  "end": 72.35,
+  "text": "automatically in your execution list"
+ },
+ {
+  "start": 72.36,
+  "end": 75.89,
+  "text": "so for example if I change the name of"
+ },
+ {
+  "start": 75.9,
+  "end": 81.95,
+  "text": "this test case now okay to Execute order"
+ },
+ {
+  "start": 84.469,
+  "end": 84.479,
+  "text": "you will see that the name is"
+ },
+ {
+  "start": 84.479,
+  "end": 87.289,
+  "text": "automatically changed in the execution"
+ },
+ {
+  "start": 87.299,
+  "end": 89.09,
+  "text": "list as well"
+ },
+ {
+  "start": 89.1,
+  "end": 91.31,
+  "text": "so the changes are getting synchronized"
+ },
+ {
+  "start": 91.32,
+  "end": 93.77,
+  "text": "automatically here"
+ },
+ {
+  "start": 93.78,
+  "end": 97.55,
+  "text": "but some of the changes like if I uh"
+ },
+ {
+  "start": 97.56,
+  "end": 101.149,
+  "text": "rename some of the test case folder or"
+ },
+ {
+  "start": 101.159,
+  "end": 104.33,
+  "text": "if I move the test case to another"
+ },
+ {
+  "start": 104.34,
+  "end": 107.21,
+  "text": "folder so these changes are not"
+ },
+ {
+  "start": 107.22,
+  "end": 109.49,
+  "text": "automatically reflected in the execution"
+ },
+ {
+  "start": 109.5,
+  "end": 110.569,
+  "text": "list"
+ },
+ {
+  "start": 110.579,
+  "end": 114.05,
+  "text": "so for example if now I move this test"
+ },
+ {
+  "start": 114.06,
+  "end": 117.35,
+  "text": "case to this particular new folder which"
+ },
+ {
+  "start": 117.36,
+  "end": 120.83,
+  "text": "is webshop from the demo webshop okay"
+ },
+ {
+  "start": 120.84,
+  "end": 123.649,
+  "text": "and if I look back at my execution list"
+ },
+ {
+  "start": 123.659,
+  "end": 127.13,
+  "text": "you will see that Execute order is still"
+ },
+ {
+  "start": 127.14,
+  "end": 130.49,
+  "text": "under the demo webshop folder it has not"
+ },
+ {
+  "start": 130.5,
+  "end": 133.309,
+  "text": "been moved to the other folder like we"
+ },
+ {
+  "start": 133.319,
+  "end": 137.089,
+  "text": "have done for the webshop right so if"
+ },
+ {
+  "start": 137.099,
+  "end": 141.89,
+  "text": "now I synchronize this okay"
+ },
+ {
+  "start": 141.9,
+  "end": 144.41,
+  "text": "so you will see that the test case is"
+ },
+ {
+  "start": 144.42,
+  "end": 145.369,
+  "text": "gone"
+ },
+ {
+  "start": 145.379,
+  "end": 147.71,
+  "text": "so that is how you can synchronize your"
+ },
+ {
+  "start": 147.72,
+  "end": 150.17,
+  "text": "execution list with your test cases"
+ },
+ {
+  "start": 150.18,
+  "end": 151.369,
+  "text": "changes"
+ },
+ {
+  "start": 151.379,
+  "end": 153.589,
+  "text": "so you have to right click on the"
+ },
+ {
+  "start": 153.599,
+  "end": 155.51,
+  "text": "execution list and then click on"
+ },
+ {
+  "start": 155.52,
+  "end": 157.61,
+  "text": "synchronize okay so it will"
+ },
+ {
+  "start": 157.62,
+  "end": 159.41,
+  "text": "automatically synchronize all the"
+ },
+ {
+  "start": 159.42,
+  "end": 162.229,
+  "text": "changes which you have made like here so"
+ },
+ {
+  "start": 162.239,
+  "end": 164.57,
+  "text": "now the test case fold the demo webshop"
+ },
+ {
+  "start": 164.58,
+  "end": 167.57,
+  "text": "does not have that particular test case"
+ },
+ {
+  "start": 167.58,
+  "end": 170.03,
+  "text": "right and that's what is being reflected"
+ },
+ {
+  "start": 170.04,
+  "end": 172.55,
+  "text": "here it has been moved to the other"
+ },
+ {
+  "start": 172.56,
+  "end": 175.369,
+  "text": "folder okay"
+ },
+ {
+  "start": 175.379,
+  "end": 179.27,
+  "text": "or if I am going to put this back into"
+ },
+ {
+  "start": 179.28,
+  "end": 182.809,
+  "text": "the demo webshop now okay and now let's"
+ },
+ {
+  "start": 182.819,
+  "end": 186.05,
+  "text": "go back and synchronize it again to see"
+ },
+ {
+  "start": 186.06,
+  "end": 189.83,
+  "text": "the change okay so it's still there"
+ },
+ {
+  "start": 189.84,
+  "end": 193.49,
+  "text": "also some of the changes like uh if I"
+ },
+ {
+  "start": 193.5,
+  "end": 196.309,
+  "text": "rename this folder from demo webshop to"
+ },
+ {
+  "start": 196.319,
+  "end": 197.93,
+  "text": "demo shop"
+ },
+ {
+  "start": 197.94,
+  "end": 200.149,
+  "text": "you will see that in the execution list"
+ },
+ {
+  "start": 200.159,
+  "end": 204.11,
+  "text": "that folder has not changed right"
+ },
+ {
+  "start": 204.12,
+  "end": 207.589,
+  "text": "so it is still demo webshop this is the"
+ },
+ {
+  "start": 207.599,
+  "end": 209.39,
+  "text": "test case folder which is it is"
+ },
+ {
+  "start": 209.4,
+  "end": 211.91,
+  "text": "referring to so it is still demo webshop"
+ },
+ {
+  "start": 211.92,
+  "end": 215.63,
+  "text": "not demo shop and if now I go ahead and"
+ },
+ {
+  "start": 215.64,
+  "end": 217.309,
+  "text": "synchronize this you will see it has"
+ },
+ {
+  "start": 217.319,
+  "end": 219.77,
+  "text": "changed to demo shop okay"
+ },
+ {
+  "start": 219.78,
+  "end": 223.25,
+  "text": "similarly if I add a new test case here"
+ },
+ {
+  "start": 223.26,
+  "end": 224.869,
+  "text": "on the demo shop"
+ },
+ {
+  "start": 224.879,
+  "end": 228.229,
+  "text": "okay so that particular new test case"
+ },
+ {
+  "start": 228.239,
+  "end": 230.69,
+  "text": "which is present in our test case folder"
+ },
+ {
+  "start": 230.7,
+  "end": 234.949,
+  "text": "is not automatically displayed under the"
+ },
+ {
+  "start": 234.959,
+  "end": 237.71,
+  "text": "execution list okay you need to"
+ },
+ {
+  "start": 237.72,
+  "end": 239.809,
+  "text": "synchronize whenever you are adding new"
+ },
+ {
+  "start": 239.819,
+  "end": 242.99,
+  "text": "test cases to your test cases folder so"
+ },
+ {
+  "start": 243.0,
+  "end": 245.089,
+  "text": "right click here again and do"
+ },
+ {
+  "start": 245.099,
+  "end": 247.13,
+  "text": "synchronize and you will see the new"
+ },
+ {
+  "start": 247.14,
+  "end": 251.03,
+  "text": "test case now appears here okay"
+ },
+ {
+  "start": 251.04,
+  "end": 253.97,
+  "text": "so all these changes are required if you"
+ },
+ {
+  "start": 253.98,
+  "end": 256.189,
+  "text": "have already created an execution list"
+ },
+ {
+  "start": 256.199,
+  "end": 258.17,
+  "text": "for your test case and then you are"
+ },
+ {
+  "start": 258.18,
+  "end": 260.81,
+  "text": "making those changes inside your test"
+ },
+ {
+  "start": 260.82,
+  "end": 264.53,
+  "text": "cases okay it is not required if you are"
+ },
+ {
+  "start": 264.54,
+  "end": 266.15,
+  "text": "still developing or if you have"
+ },
+ {
+  "start": 266.16,
+  "end": 268.49,
+  "text": "completely finished your test cases"
+ },
+ {
+  "start": 268.5,
+  "end": 270.71,
+  "text": "development and then you are creating an"
+ },
+ {
+  "start": 270.72,
+  "end": 272.87,
+  "text": "execution list so if you don't make any"
+ },
+ {
+  "start": 272.88,
+  "end": 275.689,
+  "text": "changes like adding new test cases"
+ },
+ {
+  "start": 275.699,
+  "end": 278.81,
+  "text": "removing the test cases from the folder"
+ },
+ {
+  "start": 278.82,
+  "end": 281.21,
+  "text": "or renaming the folders if you don't"
+ },
+ {
+  "start": 281.22,
+  "end": 283.37,
+  "text": "make these kind of changes then the"
+ },
+ {
+  "start": 283.38,
+  "end": 285.53,
+  "text": "synchronization is not required because"
+ },
+ {
+  "start": 285.54,
+  "end": 288.11,
+  "text": "all the remaining changes what you make"
+ },
+ {
+  "start": 288.12,
+  "end": 290.93,
+  "text": "in the test case would be synchronized"
+ },
+ {
+  "start": 290.94,
+  "end": 293.27,
+  "text": "automatically so you don't need to go"
+ },
+ {
+  "start": 293.28,
+  "end": 295.73,
+  "text": "and manually synchronize it is only"
+ },
+ {
+  "start": 295.74,
+  "end": 299.45,
+  "text": "required in these three scenarios when"
+ },
+ {
+  "start": 299.46,
+  "end": 302.93,
+  "text": "you change the folder names when you"
+ },
+ {
+  "start": 302.94,
+  "end": 306.35,
+  "text": "remove the folders or if you add more"
+ },
+ {
+  "start": 306.36,
+  "end": 309.29,
+  "text": "test cases to the test case folders so"
+ },
+ {
+  "start": 309.3,
+  "end": 311.57,
+  "text": "in all of these scenarios you to"
+ },
+ {
+  "start": 311.58,
+  "end": 314.51,
+  "text": "synchronize your execution list with"
+ },
+ {
+  "start": 314.52,
+  "end": 316.61,
+  "text": "your test case"
+ },
+ {
+  "start": 316.62,
+  "end": 319.49,
+  "text": "that's all for this particular video if"
+ },
+ {
+  "start": 319.5,
+  "end": 321.23,
+  "text": "you have any questions then please leave"
+ },
+ {
+  "start": 321.24,
+  "end": 323.749,
+  "text": "it in the comments if you like this"
+ },
+ {
+  "start": 323.759,
+  "end": 325.43,
+  "text": "video then please subscribe to our"
+ },
+ {
+  "start": 325.44,
+  "end": 326.39,
+  "text": "Channel"
+ },
+ {
+  "start": 326.4,
+  "end": 328.55,
+  "text": "thanks for watching and I will see you"
+ },
+ {
+  "start": 328.56,
+  "end": 331.4,
+  "text": "in the next video"
+ }
+]

@@ -1,0 +1,522 @@
+[
+ {
+  "start": 12.39,
+  "end": 12.4,
+  "text": "hey everyone welcome back to our Channel"
+ },
+ {
+  "start": 12.4,
+  "end": 15.03,
+  "text": "I am back with another interesting topic"
+ },
+ {
+  "start": 15.04,
+  "end": 17.79,
+  "text": "in the tosa automation"
+ },
+ {
+  "start": 17.8,
+  "end": 20.63,
+  "text": "playlist so continuing with our topic on"
+ },
+ {
+  "start": 20.64,
+  "end": 23.189,
+  "text": "the test automation obstacle with trst"
+ },
+ {
+  "start": 23.199,
+  "end": 25.83,
+  "text": "tosa let's look at our next obstacle"
+ },
+ {
+  "start": 25.84,
+  "end": 28.95,
+  "text": "which is called the hidden element now"
+ },
+ {
+  "start": 28.96,
+  "end": 30.71,
+  "text": "this is an interesting one"
+ },
+ {
+  "start": 30.72,
+  "end": 32.79,
+  "text": "uh here it is saying who turned off the"
+ },
+ {
+  "start": 32.8,
+  "end": 35.35,
+  "text": "lights click the hidden element and as"
+ },
+ {
+  "start": 35.36,
+  "end": 37.95,
+  "text": "you can see there is no way to find out"
+ },
+ {
+  "start": 37.96,
+  "end": 40.869,
+  "text": "where that particular element exists"
+ },
+ {
+  "start": 40.879,
+  "end": 43.63,
+  "text": "okay so visually I'm not able to see the"
+ },
+ {
+  "start": 43.64,
+  "end": 45.79,
+  "text": "element and you will think that it is"
+ },
+ {
+  "start": 45.8,
+  "end": 48.35,
+  "text": "impossible to click the hidden element"
+ },
+ {
+  "start": 48.36,
+  "end": 51.069,
+  "text": "but in reality I don't need to know"
+ },
+ {
+  "start": 51.079,
+  "end": 54.27,
+  "text": "where that particular element is until I"
+ },
+ {
+  "start": 54.28,
+  "end": 57.95,
+  "text": "am able to identify that using the tosa"
+ },
+ {
+  "start": 57.96,
+  "end": 61.709,
+  "text": "scanner okay so if a tosa is able to"
+ },
+ {
+  "start": 61.719,
+  "end": 64.109,
+  "text": "scan that particular element using its"
+ },
+ {
+  "start": 64.119,
+  "end": 66.83,
+  "text": "properties and it's able to identify it"
+ },
+ {
+  "start": 66.84,
+  "end": 70.27,
+  "text": "on the page then uh no matter if it is"
+ },
+ {
+  "start": 70.28,
+  "end": 73.469,
+  "text": "visible actually on the page or not it"
+ },
+ {
+  "start": 73.479,
+  "end": 76.71,
+  "text": "can still perform the required operation"
+ },
+ {
+  "start": 76.72,
+  "end": 79.87,
+  "text": "okay so let's go ahead and try to scan"
+ },
+ {
+  "start": 79.88,
+  "end": 81.83,
+  "text": "this and let's try to find this element"
+ },
+ {
+  "start": 81.84,
+  "end": 84.149,
+  "text": "which is currently"
+ },
+ {
+  "start": 84.159,
+  "end": 87.23,
+  "text": "hidden so coming back to tosa uh going"
+ },
+ {
+  "start": 87.24,
+  "end": 90.27,
+  "text": "back to the modules and here going back"
+ },
+ {
+  "start": 90.28,
+  "end": 93.95,
+  "text": "to the folder here let's try and scan"
+ },
+ {
+  "start": 93.96,
+  "end": 97.87,
+  "text": "this particular"
+ },
+ {
+  "start": 100.71,
+  "end": 100.72,
+  "text": "application okay so here as you can see"
+ },
+ {
+  "start": 100.72,
+  "end": 102.91,
+  "text": "we need to do a little bit of digging"
+ },
+ {
+  "start": 102.92,
+  "end": 104.63,
+  "text": "around so that we can find this"
+ },
+ {
+  "start": 104.64,
+  "end": 107.469,
+  "text": "particular hidden element and uh here in"
+ },
+ {
+  "start": 107.479,
+  "end": 110.149,
+  "text": "the filtered items uh you can see that I"
+ },
+ {
+  "start": 110.159,
+  "end": 112.789,
+  "text": "cannot see any particular hidden element"
+ },
+ {
+  "start": 112.799,
+  "end": 114.83,
+  "text": "so I'm going to increase the filtered"
+ },
+ {
+  "start": 114.84,
+  "end": 118.709,
+  "text": "items now okay until I'm able to see all"
+ },
+ {
+  "start": 118.719,
+  "end": 122.149,
+  "text": "the elements which are on this HTML page"
+ },
+ {
+  "start": 122.159,
+  "end": 126.389,
+  "text": "okay so now coming back here uh we'll"
+ },
+ {
+  "start": 126.399,
+  "end": 129.71,
+  "text": "try to find this element by looking at"
+ },
+ {
+  "start": 129.72,
+  "end": 132.15,
+  "text": "where uh this particular element may be"
+ },
+ {
+  "start": 132.16,
+  "end": 134.509,
+  "text": "present okay and that you can tell by"
+ },
+ {
+  "start": 134.519,
+  "end": 136.27,
+  "text": "looking at some of the other elements"
+ },
+ {
+  "start": 136.28,
+  "end": 139.75,
+  "text": "okay like this text uh which is the easy"
+ },
+ {
+  "start": 139.76,
+  "end": 142.83,
+  "text": "okay so I can see this uh easy element"
+ },
+ {
+  "start": 142.84,
+  "end": 146.11,
+  "text": "is right here under this div section so"
+ },
+ {
+  "start": 146.12,
+  "end": 148.949,
+  "text": "probably you will have that click"
+ },
+ {
+  "start": 148.959,
+  "end": 151.589,
+  "text": "element where we need to click inside"
+ },
+ {
+  "start": 151.599,
+  "end": 155.229,
+  "text": "this particular div element okay and uh"
+ },
+ {
+  "start": 155.239,
+  "end": 158.27,
+  "text": "going a little further I can see that"
+ },
+ {
+  "start": 158.28,
+  "end": 161.309,
+  "text": "there is a click this uh element which"
+ },
+ {
+  "start": 161.319,
+  "end": 164.309,
+  "text": "is again like a span element okay and if"
+ },
+ {
+  "start": 164.319,
+  "end": 166.149,
+  "text": "I look at its"
+ },
+ {
+  "start": 166.159,
+  "end": 169.43,
+  "text": "properties the it has got a ID so that's"
+ },
+ {
+  "start": 169.44,
+  "end": 172.35,
+  "text": "very good it can easily identify this"
+ },
+ {
+  "start": 172.36,
+  "end": 175.63,
+  "text": "and then uh the tag type is span so it"
+ },
+ {
+  "start": 175.64,
+  "end": 179.83,
+  "text": "is a span element right now here um I'm"
+ },
+ {
+  "start": 179.84,
+  "end": 182.19,
+  "text": "able to identify this using the ID which"
+ },
+ {
+  "start": 182.2,
+  "end": 184.99,
+  "text": "is unique so I don't need to add any"
+ },
+ {
+  "start": 185.0,
+  "end": 187.99,
+  "text": "other properties here right so once I'm"
+ },
+ {
+  "start": 188.0,
+  "end": 191.11,
+  "text": "able to do this and I'm able to add it"
+ },
+ {
+  "start": 191.12,
+  "end": 193.99,
+  "text": "into the module then tosa will be able"
+ },
+ {
+  "start": 194.0,
+  "end": 196.43,
+  "text": "to identify this no matter if it is"
+ },
+ {
+  "start": 196.44,
+  "end": 199.43,
+  "text": "visible or not visible uh to The Naked"
+ },
+ {
+  "start": 199.44,
+  "end": 204.229,
+  "text": "Eyes okay so uh let's go ahead and close"
+ },
+ {
+  "start": 204.239,
+  "end": 208.67,
+  "text": "this and let's go ahead and rename the"
+ },
+ {
+  "start": 208.68,
+  "end": 211.75,
+  "text": "module"
+ },
+ {
+  "start": 214.229,
+  "end": 214.239,
+  "text": "okay so now uh we will go back to our"
+ },
+ {
+  "start": 214.239,
+  "end": 216.03,
+  "text": "test cases"
+ },
+ {
+  "start": 216.04,
+  "end": 219.03,
+  "text": "section and we will create a new test"
+ },
+ {
+  "start": 219.04,
+  "end": 223.67,
+  "text": "case"
+ },
+ {
+  "start": 227.63,
+  "end": 227.64,
+  "text": "now okay so now uh let's go ahead and"
+ },
+ {
+  "start": 227.64,
+  "end": 230.589,
+  "text": "add the specific module"
+ },
+ {
+  "start": 230.599,
+  "end": 234.11,
+  "text": "here and then uh we will look at this"
+ },
+ {
+  "start": 234.12,
+  "end": 236.91,
+  "text": "particular test case so what we need to"
+ },
+ {
+  "start": 236.92,
+  "end": 238.63,
+  "text": "do we need to just perform a click"
+ },
+ {
+  "start": 238.64,
+  "end": 240.83,
+  "text": "operation on this particular element"
+ },
+ {
+  "start": 240.84,
+  "end": 244.069,
+  "text": "right and that you know we can do in two"
+ },
+ {
+  "start": 244.079,
+  "end": 245.55,
+  "text": "ways we can either use the click"
+ },
+ {
+  "start": 245.56,
+  "end": 247.67,
+  "text": "operation or we can also use something"
+ },
+ {
+  "start": 247.68,
+  "end": 251.67,
+  "text": "called X which does the same thing okay"
+ },
+ {
+  "start": 251.68,
+  "end": 255.149,
+  "text": "so this is all we have to do uh so most"
+ },
+ {
+  "start": 255.159,
+  "end": 256.749,
+  "text": "of the work will be done in this"
+ },
+ {
+  "start": 256.759,
+  "end": 258.59,
+  "text": "particular case while scanning the"
+ },
+ {
+  "start": 258.6,
+  "end": 261.469,
+  "text": "module rather than um designing the test"
+ },
+ {
+  "start": 261.479,
+  "end": 263.83,
+  "text": "steps okay so I'll will mark it as"
+ },
+ {
+  "start": 263.84,
+  "end": 266.469,
+  "text": "completed and then let's try and run"
+ },
+ {
+  "start": 266.479,
+  "end": 268.59,
+  "text": "this in scratchbook"
+ },
+ {
+  "start": 268.6,
+  "end": 273.029,
+  "text": "now"
+ },
+ {
+  "start": 275.15,
+  "end": 275.16,
+  "text": "okay as you can see it is uh able to"
+ },
+ {
+  "start": 275.16,
+  "end": 277.749,
+  "text": "click on that particular hidden element"
+ },
+ {
+  "start": 277.759,
+  "end": 280.189,
+  "text": "although we cannot see it still tosa"
+ },
+ {
+  "start": 280.199,
+  "end": 281.909,
+  "text": "could identify it and then perform the"
+ },
+ {
+  "start": 281.919,
+  "end": 284.23,
+  "text": "click operation on it so that the"
+ },
+ {
+  "start": 284.24,
+  "end": 286.99,
+  "text": "obstacle is completed for"
+ },
+ {
+  "start": 287.0,
+  "end": 290.27,
+  "text": "us that's all for this particular video"
+ },
+ {
+  "start": 290.28,
+  "end": 292.07,
+  "text": "if you have any questions then please"
+ },
+ {
+  "start": 292.08,
+  "end": 294.55,
+  "text": "leave it in the comments if you like"
+ },
+ {
+  "start": 294.56,
+  "end": 296.629,
+  "text": "this video then please subscribe to our"
+ },
+ {
+  "start": 296.639,
+  "end": 299.11,
+  "text": "Channel thanks for watching and I will"
+ },
+ {
+  "start": 299.12,
+  "end": 300.95,
+  "text": "see you in the next"
+ },
+ {
+  "start": 300.96,
+  "end": 303.96,
+  "text": "video"
+ }
+]

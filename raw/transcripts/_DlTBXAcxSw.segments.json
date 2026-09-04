@@ -1,0 +1,1372 @@
+[
+ {
+  "start": 7.849,
+  "end": 7.859,
+  "text": "hey everyone welcome back to the stores"
+ },
+ {
+  "start": 7.859,
+  "end": 9.83,
+  "text": "car automation playlist and today we are"
+ },
+ {
+  "start": 9.84,
+  "end": 11.089,
+  "text": "going to discuss about another"
+ },
+ {
+  "start": 11.099,
+  "end": 12.77,
+  "text": "interesting feature which is available"
+ },
+ {
+  "start": 12.78,
+  "end": 16.91,
+  "text": "in the Tosca uh tool so we are going to"
+ },
+ {
+  "start": 16.92,
+  "end": 19.49,
+  "text": "talk about uh how you can use the"
+ },
+ {
+  "start": 19.5,
+  "end": 21.95,
+  "text": "recording feature to develop automated"
+ },
+ {
+  "start": 21.96,
+  "end": 25.79,
+  "text": "test cases so until now we have been uh"
+ },
+ {
+  "start": 25.8,
+  "end": 28.49,
+  "text": "basically scanning the modules of a"
+ },
+ {
+  "start": 28.5,
+  "end": 30.05,
+  "text": "particular web application or desktop"
+ },
+ {
+  "start": 30.06,
+  "end": 32.87,
+  "text": "application and then create a test case"
+ },
+ {
+  "start": 32.88,
+  "end": 34.85,
+  "text": "from that module"
+ },
+ {
+  "start": 34.86,
+  "end": 37.13,
+  "text": "but there is also a feature called"
+ },
+ {
+  "start": 37.14,
+  "end": 39.77,
+  "text": "recorder okay through which you can"
+ },
+ {
+  "start": 39.78,
+  "end": 41.389,
+  "text": "record all your actions which are"
+ },
+ {
+  "start": 41.399,
+  "end": 42.83,
+  "text": "performing on a particular application"
+ },
+ {
+  "start": 42.84,
+  "end": 45.95,
+  "text": "and Tosca will automatically create the"
+ },
+ {
+  "start": 45.96,
+  "end": 48.59,
+  "text": "necessary modules and the test cases for"
+ },
+ {
+  "start": 48.6,
+  "end": 51.35,
+  "text": "you so you don't need to uh do it every"
+ },
+ {
+  "start": 51.36,
+  "end": 52.67,
+  "text": "time manually"
+ },
+ {
+  "start": 52.68,
+  "end": 55.49,
+  "text": "obviously uh the preferred way is to"
+ },
+ {
+  "start": 55.5,
+  "end": 58.97,
+  "text": "scan your own modules and prepare your"
+ },
+ {
+  "start": 58.98,
+  "end": 62.09,
+  "text": "own structure but if you want to do a"
+ },
+ {
+  "start": 62.1,
+  "end": 63.83,
+  "text": "quick round of"
+ },
+ {
+  "start": 63.84,
+  "end": 64.67,
+  "text": "um"
+ },
+ {
+  "start": 64.68,
+  "end": 67.67,
+  "text": "test on your application whether it is"
+ },
+ {
+  "start": 67.68,
+  "end": 71.929,
+  "text": "feasible for you to work with Tosca then"
+ },
+ {
+  "start": 71.939,
+  "end": 74.57,
+  "text": "you can use this particular way of"
+ },
+ {
+  "start": 74.58,
+  "end": 77.09,
+  "text": "quickly recording all your actions on"
+ },
+ {
+  "start": 77.1,
+  "end": 79.55,
+  "text": "your web application and then you can do"
+ },
+ {
+  "start": 79.56,
+  "end": 81.71,
+  "text": "that visibility analysis of whether"
+ },
+ {
+  "start": 81.72,
+  "end": 83.929,
+  "text": "Tosca is feasible for your web"
+ },
+ {
+  "start": 83.939,
+  "end": 86.81,
+  "text": "application or not okay or even for"
+ },
+ {
+  "start": 86.82,
+  "end": 89.03,
+  "text": "small applications where you need a"
+ },
+ {
+  "start": 89.04,
+  "end": 91.37,
+  "text": "quick automation solution you can use"
+ },
+ {
+  "start": 91.38,
+  "end": 94.429,
+  "text": "this recording feature okay"
+ },
+ {
+  "start": 94.439,
+  "end": 98.21,
+  "text": "so talking about uh the recorder okay so"
+ },
+ {
+  "start": 98.22,
+  "end": 100.91,
+  "text": "it is available on the home menu bar it"
+ },
+ {
+  "start": 100.92,
+  "end": 103.55,
+  "text": "is the last option you can see here it's"
+ },
+ {
+  "start": 103.56,
+  "end": 106.49,
+  "text": "called a recorder and automated test"
+ },
+ {
+  "start": 106.5,
+  "end": 107.99,
+  "text": "case okay"
+ },
+ {
+  "start": 108.0,
+  "end": 110.21,
+  "text": "now there are two options here one is"
+ },
+ {
+  "start": 110.22,
+  "end": 111.95,
+  "text": "automated test case which you can create"
+ },
+ {
+  "start": 111.96,
+  "end": 114.59,
+  "text": "you can also create a automated data"
+ },
+ {
+  "start": 114.6,
+  "end": 117.23,
+  "text": "driven test cases okay so this will"
+ },
+ {
+  "start": 117.24,
+  "end": 120.109,
+  "text": "basically also include a test sheet from"
+ },
+ {
+  "start": 120.119,
+  "end": 122.69,
+  "text": "where you can drive your test case based"
+ },
+ {
+  "start": 122.7,
+  "end": 125.209,
+  "text": "on the data provided okay"
+ },
+ {
+  "start": 125.219,
+  "end": 127.31,
+  "text": "now let's look at some of the options"
+ },
+ {
+  "start": 127.32,
+  "end": 129.65,
+  "text": "which are available in this recorder"
+ },
+ {
+  "start": 129.66,
+  "end": 131.51,
+  "text": "menu okay"
+ },
+ {
+  "start": 131.52,
+  "end": 135.41,
+  "text": "so first if you want to start off with"
+ },
+ {
+  "start": 135.42,
+  "end": 137.75,
+  "text": "this recorder feature then either you"
+ },
+ {
+  "start": 137.76,
+  "end": 139.49,
+  "text": "can select from these two options or you"
+ },
+ {
+  "start": 139.5,
+  "end": 142.369,
+  "text": "can directly click on this okay and then"
+ },
+ {
+  "start": 142.379,
+  "end": 145.13,
+  "text": "it will start loading the recorder as"
+ },
+ {
+  "start": 145.14,
+  "end": 146.57,
+  "text": "you can see"
+ },
+ {
+  "start": 146.58,
+  "end": 148.97,
+  "text": "okay so as you can see there is a"
+ },
+ {
+  "start": 148.98,
+  "end": 150.65,
+  "text": "recorder in the background which is"
+ },
+ {
+  "start": 150.66,
+  "end": 152.63,
+  "text": "coming up here and this is the recorder"
+ },
+ {
+  "start": 152.64,
+  "end": 155.93,
+  "text": "menu okay so if the first option is to"
+ },
+ {
+  "start": 155.94,
+  "end": 159.17,
+  "text": "show all the recorder settings then you"
+ },
+ {
+  "start": 159.18,
+  "end": 162.35,
+  "text": "can create a image based test step okay"
+ },
+ {
+  "start": 162.36,
+  "end": 164.63,
+  "text": "so we have already seen how you can do"
+ },
+ {
+  "start": 164.64,
+  "end": 167.15,
+  "text": "uh image based Automation in Tosca and"
+ },
+ {
+  "start": 167.16,
+  "end": 170.75,
+  "text": "the same you can do it here okay"
+ },
+ {
+  "start": 170.76,
+  "end": 173.57,
+  "text": "um and then you can also switch to"
+ },
+ {
+  "start": 173.58,
+  "end": 175.67,
+  "text": "verification mode in this particular"
+ },
+ {
+  "start": 175.68,
+  "end": 181.009,
+  "text": "recorder okay"
+ },
+ {
+  "start": 184.79,
+  "end": 184.8,
+  "text": "now there are other options uh here is"
+ },
+ {
+  "start": 184.8,
+  "end": 186.83,
+  "text": "the pause button and here is the Stop"
+ },
+ {
+  "start": 186.84,
+  "end": 190.25,
+  "text": "and Save button okay and here is the"
+ },
+ {
+  "start": 190.26,
+  "end": 191.41,
+  "text": "recorder"
+ },
+ {
+  "start": 191.42,
+  "end": 193.85,
+  "text": "option right"
+ },
+ {
+  "start": 193.86,
+  "end": 196.55,
+  "text": "so I can pause this particular recording"
+ },
+ {
+  "start": 196.56,
+  "end": 199.25,
+  "text": "okay and I can navigate between"
+ },
+ {
+  "start": 199.26,
+  "end": 202.13,
+  "text": "different pages of my application"
+ },
+ {
+  "start": 202.14,
+  "end": 205.61,
+  "text": "I can stop and save my recording once it"
+ },
+ {
+  "start": 205.62,
+  "end": 207.229,
+  "text": "is finished I can switch to verification"
+ },
+ {
+  "start": 207.239,
+  "end": 212.089,
+  "text": "mode okay uh using this uh tick sign and"
+ },
+ {
+  "start": 212.099,
+  "end": 214.729,
+  "text": "you can also do a image based desktop"
+ },
+ {
+  "start": 214.739,
+  "end": 217.309,
+  "text": "okay so if I click on this"
+ },
+ {
+  "start": 217.319,
+  "end": 221.03,
+  "text": "um then I can just uh basically do a"
+ },
+ {
+  "start": 221.04,
+  "end": 223.25,
+  "text": "image based control okay so you can see"
+ },
+ {
+  "start": 223.26,
+  "end": 225.17,
+  "text": "here it will it is the same"
+ },
+ {
+  "start": 225.18,
+  "end": 228.35,
+  "text": "functionality which we did from the"
+ },
+ {
+  "start": 228.36,
+  "end": 230.99,
+  "text": "module section but you can do it here as"
+ },
+ {
+  "start": 231.0,
+  "end": 234.229,
+  "text": "well okay"
+ },
+ {
+  "start": 236.93,
+  "end": 236.94,
+  "text": "uh to cancel uh you just press escape"
+ },
+ {
+  "start": 236.94,
+  "end": 239.69,
+  "text": "and it will go back to the previous mode"
+ },
+ {
+  "start": 239.7,
+  "end": 242.75,
+  "text": "okay uh we can see the recorder settings"
+ },
+ {
+  "start": 242.76,
+  "end": 246.41,
+  "text": "uh right here okay so here you can see"
+ },
+ {
+  "start": 246.42,
+  "end": 248.99,
+  "text": "our Auto record Mouse over is off right"
+ },
+ {
+  "start": 249.0,
+  "end": 252.17,
+  "text": "now you can keep the hints on uh you can"
+ },
+ {
+  "start": 252.18,
+  "end": 254.929,
+  "text": "reuse existing modules okay"
+ },
+ {
+  "start": 254.939,
+  "end": 257.469,
+  "text": "uh you can also"
+ },
+ {
+  "start": 257.479,
+  "end": 261.349,
+  "text": "block some processes from recording uh"
+ },
+ {
+  "start": 261.359,
+  "end": 264.469,
+  "text": "you can use this shortcuts uh to maybe"
+ },
+ {
+  "start": 264.479,
+  "end": 266.87,
+  "text": "change the recording mode or record"
+ },
+ {
+  "start": 266.88,
+  "end": 269.81,
+  "text": "Mouse over or refresh the recorder okay"
+ },
+ {
+  "start": 269.82,
+  "end": 272.27,
+  "text": "so these are all the settings which are"
+ },
+ {
+  "start": 272.28,
+  "end": 275.03,
+  "text": "available in the recorder"
+ },
+ {
+  "start": 275.04,
+  "end": 279.71,
+  "text": "now how you can record basically so once"
+ },
+ {
+  "start": 279.72,
+  "end": 282.53,
+  "text": "you click on the record option it will"
+ },
+ {
+  "start": 282.54,
+  "end": 285.71,
+  "text": "start recording your screen okay"
+ },
+ {
+  "start": 285.72,
+  "end": 288.71,
+  "text": "and it will record the whole screen as"
+ },
+ {
+  "start": 288.72,
+  "end": 290.93,
+  "text": "you can see there are four corners uh"
+ },
+ {
+  "start": 290.94,
+  "end": 294.11,
+  "text": "which are being displayed on Each corner"
+ },
+ {
+  "start": 294.12,
+  "end": 296.27,
+  "text": "that is a red sign that means it is"
+ },
+ {
+  "start": 296.28,
+  "end": 298.07,
+  "text": "recording okay"
+ },
+ {
+  "start": 298.08,
+  "end": 300.71,
+  "text": "so let's go ahead and stop this recorder"
+ },
+ {
+  "start": 300.72,
+  "end": 303.59,
+  "text": "now I just wanted to show you uh the"
+ },
+ {
+  "start": 303.6,
+  "end": 305.51,
+  "text": "menu which is available with the"
+ },
+ {
+  "start": 305.52,
+  "end": 308.15,
+  "text": "recorder but we'll go ahead and record a"
+ },
+ {
+  "start": 308.16,
+  "end": 311.03,
+  "text": "particular uh flow from my application"
+ },
+ {
+  "start": 311.04,
+  "end": 313.909,
+  "text": "and I will show you okay but as you can"
+ },
+ {
+  "start": 313.919,
+  "end": 316.55,
+  "text": "see once you stop and save the recorder"
+ },
+ {
+  "start": 316.56,
+  "end": 320.15,
+  "text": "it will create a folder and then it will"
+ },
+ {
+  "start": 320.16,
+  "end": 322.909,
+  "text": "create all the uh modules which were"
+ },
+ {
+  "start": 322.919,
+  "end": 325.55,
+  "text": "recorded and as well as the test cases"
+ },
+ {
+  "start": 325.56,
+  "end": 328.129,
+  "text": "and if you use any verifications those"
+ },
+ {
+  "start": 328.139,
+  "end": 331.31,
+  "text": "will also be captured okay so that will"
+ },
+ {
+  "start": 331.32,
+  "end": 333.77,
+  "text": "be created a folder will be created in"
+ },
+ {
+  "start": 333.78,
+  "end": 336.409,
+  "text": "your project as you can see here"
+ },
+ {
+  "start": 336.419,
+  "end": 339.29,
+  "text": "okay with the modules and test cases"
+ },
+ {
+  "start": 339.3,
+  "end": 341.749,
+  "text": "so that's how the recorder works so"
+ },
+ {
+  "start": 341.759,
+  "end": 343.249,
+  "text": "let's go ahead and record a particular"
+ },
+ {
+  "start": 343.259,
+  "end": 345.83,
+  "text": "scenario I'm going to use the demo"
+ },
+ {
+  "start": 345.84,
+  "end": 347.99,
+  "text": "webshop from class centers to record a"
+ },
+ {
+  "start": 348.0,
+  "end": 350.21,
+  "text": "particular end-to-end scenario and show"
+ },
+ {
+  "start": 350.22,
+  "end": 352.129,
+  "text": "you how the test cases and modules are"
+ },
+ {
+  "start": 352.139,
+  "end": 353.99,
+  "text": "created okay"
+ },
+ {
+  "start": 354.0,
+  "end": 357.35,
+  "text": "so here let's click on automated test"
+ },
+ {
+  "start": 357.36,
+  "end": 360.89,
+  "text": "case Okay so it will record it now let's"
+ },
+ {
+  "start": 360.9,
+  "end": 363.71,
+  "text": "go to our website and here we are going"
+ },
+ {
+  "start": 363.72,
+  "end": 370.01,
+  "text": "to click on login"
+ },
+ {
+  "start": 373.43,
+  "end": 373.44,
+  "text": "and then it will type the email address"
+ },
+ {
+  "start": 373.44,
+  "end": 376.249,
+  "text": "and the password okay and then click on"
+ },
+ {
+  "start": 376.259,
+  "end": 378.35,
+  "text": "login"
+ },
+ {
+  "start": 378.36,
+  "end": 382.49,
+  "text": "and then I will go to some item I will"
+ },
+ {
+  "start": 382.5,
+  "end": 384.529,
+  "text": "add it to the cart"
+ },
+ {
+  "start": 384.539,
+  "end": 389.99,
+  "text": "and then I will go to the cart"
+ },
+ {
+  "start": 393.23,
+  "end": 393.24,
+  "text": "once this has been added let's try one"
+ },
+ {
+  "start": 393.24,
+  "end": 395.809,
+  "text": "more time"
+ },
+ {
+  "start": 413.15,
+  "end": 413.16,
+  "text": "and then I'm going to go through all the"
+ },
+ {
+  "start": 413.16,
+  "end": 415.969,
+  "text": "steps mentioned in the checkout uh the"
+ },
+ {
+  "start": 415.979,
+  "end": 417.89,
+  "text": "billing address shipping address uh"
+ },
+ {
+  "start": 417.9,
+  "end": 419.39,
+  "text": "everything okay"
+ },
+ {
+  "start": 419.4,
+  "end": 422.45,
+  "text": "so this is basically a end to end flow"
+ },
+ {
+  "start": 422.46,
+  "end": 425.689,
+  "text": "of this particular application"
+ },
+ {
+  "start": 425.699,
+  "end": 427.909,
+  "text": "so I'll go through all the steps and the"
+ },
+ {
+  "start": 427.919,
+  "end": 430.249,
+  "text": "recorder will record it"
+ },
+ {
+  "start": 430.259,
+  "end": 432.07,
+  "text": "okay"
+ },
+ {
+  "start": 432.08,
+  "end": 434.57,
+  "text": "just click on continue"
+ },
+ {
+  "start": 434.58,
+  "end": 440.45,
+  "text": "till I reach the final confirmation"
+ },
+ {
+  "start": 442.129,
+  "end": 442.139,
+  "text": "okay so this is the final confirmation"
+ },
+ {
+  "start": 442.139,
+  "end": 445.189,
+  "text": "page I will click on confirm"
+ },
+ {
+  "start": 445.199,
+  "end": 447.529,
+  "text": "okay and you can see uh there is a hint"
+ },
+ {
+  "start": 447.539,
+  "end": 450.529,
+  "text": "showing press Ctrl shift plus h to"
+ },
+ {
+  "start": 450.539,
+  "end": 452.27,
+  "text": "record a mouse over event"
+ },
+ {
+  "start": 452.28,
+  "end": 454.85,
+  "text": "or you can press F5 to refresh the"
+ },
+ {
+  "start": 454.86,
+  "end": 458.749,
+  "text": "recorder or you can also press Ctrl"
+ },
+ {
+  "start": 458.759,
+  "end": 461.089,
+  "text": "shift V to switch to verification mode"
+ },
+ {
+  "start": 461.099,
+  "end": 465.35,
+  "text": "okay so if I press Ctrl shift v v here"
+ },
+ {
+  "start": 465.36,
+  "end": 466.73,
+  "text": "okay"
+ },
+ {
+  "start": 466.74,
+  "end": 470.87,
+  "text": "or I can go to the menu and I can"
+ },
+ {
+  "start": 470.88,
+  "end": 474.05,
+  "text": "click on this right"
+ },
+ {
+  "start": 474.06,
+  "end": 478.79,
+  "text": "and then I can just"
+ },
+ {
+  "start": 481.909,
+  "end": 481.919,
+  "text": "okay so that once you click on any"
+ },
+ {
+  "start": 481.919,
+  "end": 484.37,
+  "text": "particular control then it will be added"
+ },
+ {
+  "start": 484.38,
+  "end": 486.05,
+  "text": "to the verification"
+ },
+ {
+  "start": 486.06,
+  "end": 489.65,
+  "text": "right now I will go back or I will turn"
+ },
+ {
+  "start": 489.66,
+  "end": 491.51,
+  "text": "off the verification mode and I will"
+ },
+ {
+  "start": 491.52,
+  "end": 497.029,
+  "text": "click on continue"
+ },
+ {
+  "start": 499.969,
+  "end": 499.979,
+  "text": "okay so and then I can maybe click on"
+ },
+ {
+  "start": 499.979,
+  "end": 502.189,
+  "text": "logout so that's that's the complete"
+ },
+ {
+  "start": 502.199,
+  "end": 506.089,
+  "text": "flow of this uh shopping website where"
+ },
+ {
+  "start": 506.099,
+  "end": 508.369,
+  "text": "we have added a product to the cart and"
+ },
+ {
+  "start": 508.379,
+  "end": 511.249,
+  "text": "we have checked out that product okay"
+ },
+ {
+  "start": 511.259,
+  "end": 513.769,
+  "text": "so that's our complete flow and now I'm"
+ },
+ {
+  "start": 513.779,
+  "end": 516.409,
+  "text": "going to uh stop and save this recording"
+ },
+ {
+  "start": 516.419,
+  "end": 519.529,
+  "text": "and we'll see uh what has been recorded"
+ },
+ {
+  "start": 519.539,
+  "end": 521.149,
+  "text": "so far okay"
+ },
+ {
+  "start": 521.159,
+  "end": 523.43,
+  "text": "so as you can see a new folder has been"
+ },
+ {
+  "start": 523.44,
+  "end": 526.25,
+  "text": "created uh and all the modules have been"
+ },
+ {
+  "start": 526.26,
+  "end": 528.41,
+  "text": "automatically created okay with the"
+ },
+ {
+  "start": 528.42,
+  "end": 530.75,
+  "text": "module attributes uh you can obviously"
+ },
+ {
+  "start": 530.76,
+  "end": 533.03,
+  "text": "change all these naming conventions"
+ },
+ {
+  "start": 533.04,
+  "end": 534.65,
+  "text": "because these are the default name"
+ },
+ {
+  "start": 534.66,
+  "end": 536.389,
+  "text": "conventions which have been used by"
+ },
+ {
+  "start": 536.399,
+  "end": 538.97,
+  "text": "Tosca and it's recommended if you are"
+ },
+ {
+  "start": 538.98,
+  "end": 541.67,
+  "text": "using this in your test cases for a real"
+ },
+ {
+  "start": 541.68,
+  "end": 543.949,
+  "text": "execution uh you should change all this"
+ },
+ {
+  "start": 543.959,
+  "end": 546.35,
+  "text": "okay depending on what action you are"
+ },
+ {
+  "start": 546.36,
+  "end": 548.93,
+  "text": "providing you can do this so as you can"
+ },
+ {
+  "start": 548.94,
+  "end": 549.71,
+  "text": "see"
+ },
+ {
+  "start": 549.72,
+  "end": 551.63,
+  "text": "um one of the examples is we are"
+ },
+ {
+  "start": 551.64,
+  "end": 553.55,
+  "text": "clicking on the login button so the"
+ },
+ {
+  "start": 553.56,
+  "end": 556.07,
+  "text": "value is X which means it is clicking on"
+ },
+ {
+  "start": 556.08,
+  "end": 560.75,
+  "text": "this action mode is input right"
+ },
+ {
+  "start": 563.269,
+  "end": 563.279,
+  "text": "um similarly again login it is going to"
+ },
+ {
+  "start": 563.279,
+  "end": 565.67,
+  "text": "desktops and clicking on it"
+ },
+ {
+  "start": 565.68,
+  "end": 568.07,
+  "text": "um and then add to cart"
+ },
+ {
+  "start": 568.08,
+  "end": 570.71,
+  "text": "okay so uh whatever you have performed"
+ },
+ {
+  "start": 570.72,
+  "end": 572.21,
+  "text": "whatever actions you performed on the"
+ },
+ {
+  "start": 572.22,
+  "end": 574.97,
+  "text": "application it has been recorded uh and"
+ },
+ {
+  "start": 574.98,
+  "end": 576.71,
+  "text": "it has been provided to you in the test"
+ },
+ {
+  "start": 576.72,
+  "end": 579.949,
+  "text": "case based on the steps okay you can see"
+ },
+ {
+  "start": 579.959,
+  "end": 584.15,
+  "text": "there is also a verification uh here uh"
+ },
+ {
+  "start": 584.16,
+  "end": 587.449,
+  "text": "whenever I changed to uh the verify mode"
+ },
+ {
+  "start": 587.459,
+  "end": 590.389,
+  "text": "and I clicked on that particular text it"
+ },
+ {
+  "start": 590.399,
+  "end": 593.29,
+  "text": "is verifying whether this inner text is"
+ },
+ {
+  "start": 593.3,
+  "end": 595.73,
+  "text": "the same which is displayed in the"
+ },
+ {
+  "start": 595.74,
+  "end": 598.009,
+  "text": "application because once the order is"
+ },
+ {
+  "start": 598.019,
+  "end": 599.81,
+  "text": "placed I want to verify whether this"
+ },
+ {
+  "start": 599.82,
+  "end": 603.17,
+  "text": "order number was verified okay"
+ },
+ {
+  "start": 603.18,
+  "end": 605.449,
+  "text": "so that verification step is also there"
+ },
+ {
+  "start": 605.459,
+  "end": 609.11,
+  "text": "so you can do both you can record your"
+ },
+ {
+  "start": 609.12,
+  "end": 611.21,
+  "text": "actions you can also put verifications"
+ },
+ {
+  "start": 611.22,
+  "end": 613.13,
+  "text": "while you are recording your actions"
+ },
+ {
+  "start": 613.14,
+  "end": 615.17,
+  "text": "okay"
+ },
+ {
+  "start": 615.18,
+  "end": 616.73,
+  "text": "and then"
+ },
+ {
+  "start": 616.74,
+  "end": 619.25,
+  "text": "um it is clicking on logout okay so"
+ },
+ {
+  "start": 619.26,
+  "end": 621.769,
+  "text": "there might be some uh"
+ },
+ {
+  "start": 621.779,
+  "end": 624.35,
+  "text": "repeated steps which you may need to"
+ },
+ {
+  "start": 624.36,
+  "end": 628.009,
+  "text": "remove because maybe you I have clicked"
+ },
+ {
+  "start": 628.019,
+  "end": 630.11,
+  "text": "um this three times and that's why there"
+ },
+ {
+  "start": 630.12,
+  "end": 631.73,
+  "text": "are three verifications or two"
+ },
+ {
+  "start": 631.74,
+  "end": 634.55,
+  "text": "verifications one of them I have to"
+ },
+ {
+  "start": 634.56,
+  "end": 637.37,
+  "text": "remove okay I need to change few things"
+ },
+ {
+  "start": 637.38,
+  "end": 640.07,
+  "text": "uh this order number is static right now"
+ },
+ {
+  "start": 640.08,
+  "end": 642.41,
+  "text": "so maybe I need to verify I need to"
+ },
+ {
+  "start": 642.42,
+  "end": 645.11,
+  "text": "modify this test case right so not"
+ },
+ {
+  "start": 645.12,
+  "end": 647.509,
+  "text": "everything uh would be ready once you"
+ },
+ {
+  "start": 647.519,
+  "end": 649.25,
+  "text": "record your test case you obviously need"
+ },
+ {
+  "start": 649.26,
+  "end": 651.23,
+  "text": "to make some changes before you try to"
+ },
+ {
+  "start": 651.24,
+  "end": 654.59,
+  "text": "run this again but at least uh you don't"
+ },
+ {
+  "start": 654.6,
+  "end": 657.949,
+  "text": "need to uh go ahead and"
+ },
+ {
+  "start": 657.959,
+  "end": 658.569,
+  "text": "um"
+ },
+ {
+  "start": 658.579,
+  "end": 661.37,
+  "text": "basically scan each module separately"
+ },
+ {
+  "start": 661.38,
+  "end": 663.829,
+  "text": "that will take a little longer yeah as"
+ },
+ {
+  "start": 663.839,
+  "end": 666.05,
+  "text": "you can see here as we are interacting"
+ },
+ {
+  "start": 666.06,
+  "end": 667.85,
+  "text": "with the application everything was"
+ },
+ {
+  "start": 667.86,
+  "end": 670.31,
+  "text": "recorded for you okay it's not the"
+ },
+ {
+  "start": 670.32,
+  "end": 672.23,
+  "text": "perfect way of doing it but it's the"
+ },
+ {
+  "start": 672.24,
+  "end": 675.59,
+  "text": "quickest way uh if you compare it to the"
+ },
+ {
+  "start": 675.6,
+  "end": 677.329,
+  "text": "other way where you scan each module and"
+ },
+ {
+  "start": 677.339,
+  "end": 680.329,
+  "text": "then you build your own test case okay"
+ },
+ {
+  "start": 680.339,
+  "end": 683.09,
+  "text": "so in some situations uh this method"
+ },
+ {
+  "start": 683.1,
+  "end": 685.25,
+  "text": "could be useful this recorder feature"
+ },
+ {
+  "start": 685.26,
+  "end": 688.49,
+  "text": "would be useful okay uh but in most"
+ },
+ {
+  "start": 688.5,
+  "end": 690.35,
+  "text": "cases you will be scanning your own"
+ },
+ {
+  "start": 690.36,
+  "end": 693.05,
+  "text": "modules and building your own test cases"
+ },
+ {
+  "start": 693.06,
+  "end": 694.55,
+  "text": "okay"
+ },
+ {
+  "start": 694.56,
+  "end": 698.03,
+  "text": "so that's how you can use the Tosca"
+ },
+ {
+  "start": 698.04,
+  "end": 701.21,
+  "text": "recorder feature to automate your test"
+ },
+ {
+  "start": 701.22,
+  "end": 704.21,
+  "text": "cases uh the modules and test cases will"
+ },
+ {
+  "start": 704.22,
+  "end": 705.769,
+  "text": "be automatically created you can add"
+ },
+ {
+  "start": 705.779,
+  "end": 708.47,
+  "text": "your own verifications uh you can also"
+ },
+ {
+  "start": 708.48,
+  "end": 711.59,
+  "text": "do a image based test step uh maybe I'll"
+ },
+ {
+  "start": 711.6,
+  "end": 714.11,
+  "text": "show it sometime later but if you're"
+ },
+ {
+  "start": 714.12,
+  "end": 716.329,
+  "text": "trying to use this then this is the way"
+ },
+ {
+  "start": 716.339,
+  "end": 718.19,
+  "text": "how you do it"
+ },
+ {
+  "start": 718.2,
+  "end": 720.29,
+  "text": "so that's all for this particular video"
+ },
+ {
+  "start": 720.3,
+  "end": 722.87,
+  "text": "uh I hope you enjoyed it and you learned"
+ },
+ {
+  "start": 722.88,
+  "end": 725.93,
+  "text": "something new today uh on Tosca so keep"
+ },
+ {
+  "start": 725.94,
+  "end": 727.91,
+  "text": "watching for more videos which are"
+ },
+ {
+  "start": 727.92,
+  "end": 729.71,
+  "text": "coming up pretty soon"
+ },
+ {
+  "start": 729.72,
+  "end": 732.17,
+  "text": "um on trash and testoster"
+ },
+ {
+  "start": 732.18,
+  "end": 734.93,
+  "text": "so until we meet again uh keep watching"
+ },
+ {
+  "start": 734.94,
+  "end": 737.329,
+  "text": "our Channel and do subscribe uh to our"
+ },
+ {
+  "start": 737.339,
+  "end": 739.61,
+  "text": "channel so that you get notified about"
+ },
+ {
+  "start": 739.62,
+  "end": 741.71,
+  "text": "each and every video which we post on"
+ },
+ {
+  "start": 741.72,
+  "end": 744.019,
+  "text": "our Channel"
+ }
+]

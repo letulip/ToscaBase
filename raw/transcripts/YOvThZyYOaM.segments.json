@@ -1,0 +1,912 @@
+[
+ {
+  "start": 2.629,
+  "end": 2.639,
+  "text": "hey everyone welcome to another lesson"
+ },
+ {
+  "start": 2.639,
+  "end": 5.67,
+  "text": "in the stsa automation course now in"
+ },
+ {
+  "start": 5.68,
+  "end": 7.71,
+  "text": "previous videos I have shown you how you"
+ },
+ {
+  "start": 7.72,
+  "end": 10.15,
+  "text": "can create your test case design sheet"
+ },
+ {
+  "start": 10.16,
+  "end": 12.43,
+  "text": "how you can link it to a template and"
+ },
+ {
+  "start": 12.44,
+  "end": 14.23,
+  "text": "then how you can create different"
+ },
+ {
+  "start": 14.24,
+  "end": 16.79,
+  "text": "template instances out of your test case"
+ },
+ {
+  "start": 16.8,
+  "end": 19.71,
+  "text": "design sheet and your test case"
+ },
+ {
+  "start": 19.72,
+  "end": 22.55,
+  "text": "template now today I'm going to show you"
+ },
+ {
+  "start": 22.56,
+  "end": 25.109,
+  "text": "how you can conditionally create"
+ },
+ {
+  "start": 25.119,
+  "end": 27.79,
+  "text": "different test case template instances"
+ },
+ {
+  "start": 27.8,
+  "end": 30.669,
+  "text": "now what does it mean is depending on"
+ },
+ {
+  "start": 30.679,
+  "end": 33.19,
+  "text": "some condition some test step would be"
+ },
+ {
+  "start": 33.2,
+  "end": 35.709,
+  "text": "part of a particular instance and at the"
+ },
+ {
+  "start": 35.719,
+  "end": 38.03,
+  "text": "same time if that condition is not"
+ },
+ {
+  "start": 38.04,
+  "end": 41.31,
+  "text": "satisfied then that test step will not"
+ },
+ {
+  "start": 41.32,
+  "end": 43.869,
+  "text": "be part of a particular instance right"
+ },
+ {
+  "start": 43.879,
+  "end": 46.47,
+  "text": "so you need that flexibility because not"
+ },
+ {
+  "start": 46.48,
+  "end": 48.59,
+  "text": "all the test steps should be part of"
+ },
+ {
+  "start": 48.6,
+  "end": 52.27,
+  "text": "every instance okay so let's look at a"
+ },
+ {
+  "start": 52.28,
+  "end": 55.59,
+  "text": "real example so I'm going to take up uh"
+ },
+ {
+  "start": 55.6,
+  "end": 58.029,
+  "text": "the same example which where we have"
+ },
+ {
+  "start": 58.039,
+  "end": 60.069,
+  "text": "developed this template instance for"
+ },
+ {
+  "start": 60.079,
+  "end": 64.429,
+  "text": "validate login now if I go to test case"
+ },
+ {
+  "start": 64.439,
+  "end": 68.07,
+  "text": "design and if we look at these two"
+ },
+ {
+  "start": 68.08,
+  "end": 71.87,
+  "text": "instances right so one is of valid user"
+ },
+ {
+  "start": 71.88,
+  "end": 74.99,
+  "text": "and one is loged user now in this uh"
+ },
+ {
+  "start": 75.0,
+  "end": 78.03,
+  "text": "scenario what we are doing is for loged"
+ },
+ {
+  "start": 78.04,
+  "end": 81.109,
+  "text": "user it will throw a error message and"
+ },
+ {
+  "start": 81.119,
+  "end": 83.069,
+  "text": "we want to validate it so we have put"
+ },
+ {
+  "start": 83.079,
+  "end": 85.51,
+  "text": "this verification but the same"
+ },
+ {
+  "start": 85.52,
+  "end": 88.069,
+  "text": "verification does not apply for a valid"
+ },
+ {
+  "start": 88.079,
+  "end": 90.99,
+  "text": "user because there is no error message"
+ },
+ {
+  "start": 91.0,
+  "end": 93.469,
+  "text": "and uh we don't want to validate this"
+ },
+ {
+  "start": 93.479,
+  "end": 95.35,
+  "text": "particular error message or any kind of"
+ },
+ {
+  "start": 95.36,
+  "end": 98.63,
+  "text": "verification for this valid user right"
+ },
+ {
+  "start": 98.64,
+  "end": 101.35,
+  "text": "but uh when you link this test case"
+ },
+ {
+  "start": 101.36,
+  "end": 104.31,
+  "text": "design sheet to your template what will"
+ },
+ {
+  "start": 104.32,
+  "end": 106.51,
+  "text": "happen is it will create uh two"
+ },
+ {
+  "start": 106.52,
+  "end": 109.95,
+  "text": "instances okay but it will have the same"
+ },
+ {
+  "start": 109.96,
+  "end": 113.59,
+  "text": "steps uh irrespective of the fact that"
+ },
+ {
+  "start": 113.6,
+  "end": 116.95,
+  "text": "there is no validation error uh"
+ },
+ {
+  "start": 116.96,
+  "end": 121.23,
+  "text": "for for a valid user but the step still"
+ },
+ {
+  "start": 121.24,
+  "end": 125.63,
+  "text": "exists so during execution also uh"
+ },
+ {
+  "start": 125.64,
+  "end": 128.309,
+  "text": "although this uh there is not no values"
+ },
+ {
+  "start": 128.319,
+  "end": 130.91,
+  "text": "here so it won't execute this step or it"
+ },
+ {
+  "start": 130.92,
+  "end": 132.63,
+  "text": "will execute the step but it will not"
+ },
+ {
+  "start": 132.64,
+  "end": 135.589,
+  "text": "perform any action and in the loged user"
+ },
+ {
+  "start": 135.599,
+  "end": 137.79,
+  "text": "it will go ahead and validate uh or"
+ },
+ {
+  "start": 137.8,
+  "end": 141.83,
+  "text": "verify this error message right but in"
+ },
+ {
+  "start": 141.84,
+  "end": 144.309,
+  "text": "real world scenario uh you don't want uh"
+ },
+ {
+  "start": 144.319,
+  "end": 146.47,
+  "text": "when there are lots of different steps"
+ },
+ {
+  "start": 146.48,
+  "end": 149.11,
+  "text": "you don't want to confuse uh the tester"
+ },
+ {
+  "start": 149.12,
+  "end": 152.91,
+  "text": "and put all the U all the test steps for"
+ },
+ {
+  "start": 152.92,
+  "end": 154.67,
+  "text": "all the different instances right you"
+ },
+ {
+  "start": 154.68,
+  "end": 157.35,
+  "text": "should be having some business logic"
+ },
+ {
+  "start": 157.36,
+  "end": 159.71,
+  "text": "based on which you will have different"
+ },
+ {
+  "start": 159.72,
+  "end": 162.63,
+  "text": "types of test cases or test instances"
+ },
+ {
+  "start": 162.64,
+  "end": 165.71,
+  "text": "right and the flow of uh those test case"
+ },
+ {
+  "start": 165.72,
+  "end": 168.309,
+  "text": "instances should be different based on"
+ },
+ {
+  "start": 168.319,
+  "end": 171.55,
+  "text": "some business logic right now that is"
+ },
+ {
+  "start": 171.56,
+  "end": 174.229,
+  "text": "where condition comes into picture and"
+ },
+ {
+  "start": 174.239,
+  "end": 176.309,
+  "text": "you conditionally instantiate your test"
+ },
+ {
+  "start": 176.319,
+  "end": 180.07,
+  "text": "cases based on some business logic right"
+ },
+ {
+  "start": 180.08,
+  "end": 182.149,
+  "text": "so let's see how you can do this right"
+ },
+ {
+  "start": 182.159,
+  "end": 186.229,
+  "text": "how we can uh make this uh verification"
+ },
+ {
+  "start": 186.239,
+  "end": 189.71,
+  "text": "message test step to go away right in"
+ },
+ {
+  "start": 189.72,
+  "end": 192.19,
+  "text": "one of our template instance for valid"
+ },
+ {
+  "start": 192.2,
+  "end": 194.43,
+  "text": "user so we don't require this validate"
+ },
+ {
+  "start": 194.44,
+  "end": 197.39,
+  "text": "error test step in a valid user test"
+ },
+ {
+  "start": 197.4,
+  "end": 199.869,
+  "text": "case we just require it for locked user"
+ },
+ {
+  "start": 199.879,
+  "end": 203.03,
+  "text": "right so that's that's our uh scenario"
+ },
+ {
+  "start": 203.04,
+  "end": 205.07,
+  "text": "that's what we want to achieve and I'm"
+ },
+ {
+  "start": 205.08,
+  "end": 206.91,
+  "text": "going to tell you how you can do that in"
+ },
+ {
+  "start": 206.92,
+  "end": 211.07,
+  "text": "tosa okay"
+ },
+ {
+  "start": 214.07,
+  "end": 214.08,
+  "text": "so the first step for this is to go to"
+ },
+ {
+  "start": 214.08,
+  "end": 217.149,
+  "text": "your test case template and here uh we"
+ },
+ {
+  "start": 217.159,
+  "end": 219.47,
+  "text": "need another column called condition"
+ },
+ {
+  "start": 219.48,
+  "end": 222.27,
+  "text": "okay now the same way uh we have to do"
+ },
+ {
+  "start": 222.28,
+  "end": 224.99,
+  "text": "uh we have to go to column Chooser and"
+ },
+ {
+  "start": 225.0,
+  "end": 227.309,
+  "text": "here we have to find our column and we"
+ },
+ {
+  "start": 227.319,
+  "end": 229.27,
+  "text": "can drag and drop it or just double"
+ },
+ {
+  "start": 229.28,
+  "end": 231.789,
+  "text": "click it to add it to our test case"
+ },
+ {
+  "start": 231.799,
+  "end": 234.75,
+  "text": "template okay now uh we have got a"
+ },
+ {
+  "start": 234.76,
+  "end": 235.63,
+  "text": "condition"
+ },
+ {
+  "start": 235.64,
+  "end": 239.27,
+  "text": "column now we have to put some condition"
+ },
+ {
+  "start": 239.28,
+  "end": 243.19,
+  "text": "on our validate error test step right so"
+ },
+ {
+  "start": 243.2,
+  "end": 246.789,
+  "text": "here uh either we can type uh the"
+ },
+ {
+  "start": 246.799,
+  "end": 249.71,
+  "text": "condition or we can do a drag and drop"
+ },
+ {
+  "start": 249.72,
+  "end": 252.589,
+  "text": "the recommended way uh of tosa is to"
+ },
+ {
+  "start": 252.599,
+  "end": 254.99,
+  "text": "drag and drop the condition and not type"
+ },
+ {
+  "start": 255.0,
+  "end": 257.43,
+  "text": "it so uh so that you don't make any"
+ },
+ {
+  "start": 257.44,
+  "end": 261.629,
+  "text": "mistakes okay so uh we have to drag it"
+ },
+ {
+  "start": 261.639,
+  "end": 263.87,
+  "text": "from the test case design sheet so let"
+ },
+ {
+  "start": 263.88,
+  "end": 266.749,
+  "text": "me just pull this aside so that uh we"
+ },
+ {
+  "start": 266.759,
+  "end": 268.029,
+  "text": "can have a"
+ },
+ {
+  "start": 268.039,
+  "end": 270.23,
+  "text": "look Okay so"
+ },
+ {
+  "start": 270.24,
+  "end": 273.469,
+  "text": "so uh let's open our test case template"
+ },
+ {
+  "start": 273.479,
+  "end": 276.189,
+  "text": "and here we want to put a condition in"
+ },
+ {
+  "start": 276.199,
+  "end": 279.629,
+  "text": "this particular step right and what we"
+ },
+ {
+  "start": 279.639,
+  "end": 282.029,
+  "text": "want to do is we want to put some"
+ },
+ {
+  "start": 282.039,
+  "end": 284.15,
+  "text": "business logic here right so what would"
+ },
+ {
+  "start": 284.16,
+  "end": 287.27,
+  "text": "be our business logic so in case of a"
+ },
+ {
+  "start": 287.28,
+  "end": 289.87,
+  "text": "user when it is the username is standard"
+ },
+ {
+  "start": 289.88,
+  "end": 292.469,
+  "text": "user uh the password Remains the Same"
+ },
+ {
+  "start": 292.479,
+  "end": 294.71,
+  "text": "right so it doesn't change but the"
+ },
+ {
+  "start": 294.72,
+  "end": 297.11,
+  "text": "username changes so when it is a logged"
+ },
+ {
+  "start": 297.12,
+  "end": 300.55,
+  "text": "out user uh it throws this error message"
+ },
+ {
+  "start": 300.56,
+  "end": 303.31,
+  "text": "and that's our business logic right so"
+ },
+ {
+  "start": 303.32,
+  "end": 305.31,
+  "text": "when the username equals to logged out"
+ },
+ {
+  "start": 305.32,
+  "end": 308.67,
+  "text": "user then go ahead and verify or execute"
+ },
+ {
+  "start": 308.68,
+  "end": 310.749,
+  "text": "that particular step otherwise don't do"
+ },
+ {
+  "start": 310.759,
+  "end": 312.67,
+  "text": "it right if it is standard user we don't"
+ },
+ {
+  "start": 312.68,
+  "end": 315.189,
+  "text": "want to do it okay"
+ },
+ {
+  "start": 315.199,
+  "end": 319.309,
+  "text": "so either um you can have a step like uh"
+ },
+ {
+  "start": 319.319,
+  "end": 321.469,
+  "text": "not equals to standard user or you can"
+ },
+ {
+  "start": 321.479,
+  "end": 323.43,
+  "text": "have a step where username equals to"
+ },
+ {
+  "start": 323.44,
+  "end": 327.39,
+  "text": "lockout user okay uh for me um I will do"
+ },
+ {
+  "start": 327.4,
+  "end": 329.87,
+  "text": "the second one where uh I want to put"
+ },
+ {
+  "start": 329.88,
+  "end": 333.55,
+  "text": "this username logged out user right uh"
+ },
+ {
+  "start": 333.56,
+  "end": 337.15,
+  "text": "into my test case condition okay or my"
+ },
+ {
+  "start": 337.16,
+  "end": 341.51,
+  "text": "test step condition so to do that uh you"
+ },
+ {
+  "start": 341.52,
+  "end": 343.67,
+  "text": "need to go to your instances right so"
+ },
+ {
+  "start": 343.68,
+  "end": 347.59,
+  "text": "expand the instances and then uh drag"
+ },
+ {
+  "start": 347.6,
+  "end": 350.749,
+  "text": "and drop this logged out user instance"
+ },
+ {
+  "start": 350.759,
+  "end": 354.71,
+  "text": "into our condition okay now as soon as"
+ },
+ {
+  "start": 354.72,
+  "end": 358.309,
+  "text": "we drag this so let me close or bring"
+ },
+ {
+  "start": 358.319,
+  "end": 360.27,
+  "text": "this to the center"
+ },
+ {
+  "start": 360.28,
+  "end": 362.95,
+  "text": "let's go to our test case template right"
+ },
+ {
+  "start": 362.96,
+  "end": 365.95,
+  "text": "now if you look at this condition column"
+ },
+ {
+  "start": 365.96,
+  "end": 367.67,
+  "text": "okay for this validate"
+ },
+ {
+  "start": 367.68,
+  "end": 371.55,
+  "text": "error and you will see here the logic"
+ },
+ {
+  "start": 371.56,
+  "end": 375.189,
+  "text": "here is process do username equals"
+ },
+ {
+  "start": 375.199,
+  "end": 378.629,
+  "text": "equals logged out user okay so I can"
+ },
+ {
+  "start": 378.639,
+  "end": 381.43,
+  "text": "also type this um directly in this"
+ },
+ {
+  "start": 381.44,
+  "end": 383.79,
+  "text": "condition column but I will follow the"
+ },
+ {
+  "start": 383.8,
+  "end": 386.39,
+  "text": "recommended way of dragging and dropping"
+ },
+ {
+  "start": 386.4,
+  "end": 388.71,
+  "text": "that particular instance into this uh"
+ },
+ {
+  "start": 388.72,
+  "end": 390.99,
+  "text": "column and that will create a condition"
+ },
+ {
+  "start": 391.0,
+  "end": 394.51,
+  "text": "for me automatically okay so whenever uh"
+ },
+ {
+  "start": 394.52,
+  "end": 396.95,
+  "text": "this process. username equals equals"
+ },
+ {
+  "start": 396.96,
+  "end": 399.79,
+  "text": "this then only it will go ahead and"
+ },
+ {
+  "start": 399.8,
+  "end": 402.629,
+  "text": "instantiate it so while instantiating it"
+ },
+ {
+  "start": 402.639,
+  "end": 405.029,
+  "text": "it will either skip this or it will add"
+ },
+ {
+  "start": 405.039,
+  "end": 410.51,
+  "text": "this step okay and uh whenever you see"
+ },
+ {
+  "start": 410.52,
+  "end": 413.23,
+  "text": "uh this particular Arrow Signs with two"
+ },
+ {
+  "start": 413.24,
+  "end": 416.99,
+  "text": "dots okay then it is clear that this is"
+ },
+ {
+  "start": 417.0,
+  "end": 421.029,
+  "text": "a conditional test step okay for um"
+ },
+ {
+  "start": 421.039,
+  "end": 424.23,
+  "text": "normal two arrows it is a normal uh test"
+ },
+ {
+  "start": 424.24,
+  "end": 428.35,
+  "text": "step for two arrows with two dots then"
+ },
+ {
+  "start": 428.36,
+  "end": 430.99,
+  "text": "uh it is a conditional test step okay so"
+ },
+ {
+  "start": 431.0,
+  "end": 432.79,
+  "text": "wherever you see this you should be"
+ },
+ {
+  "start": 432.8,
+  "end": 435.749,
+  "text": "clear that this is a conditional test"
+ },
+ {
+  "start": 435.759,
+  "end": 439.27,
+  "text": "step okay um now we have made changes to"
+ },
+ {
+  "start": 439.28,
+  "end": 441.629,
+  "text": "our template right now we have to"
+ },
+ {
+  "start": 441.639,
+  "end": 444.589,
+  "text": "reinstantiate our template instances so"
+ },
+ {
+  "start": 444.599,
+  "end": 447.029,
+  "text": "that it creates the right test cases for"
+ },
+ {
+  "start": 447.039,
+  "end": 450.909,
+  "text": "us okay so let's go go to our template"
+ },
+ {
+  "start": 450.919,
+  "end": 453.79,
+  "text": "instance um and now you can see that all"
+ },
+ {
+  "start": 453.8,
+  "end": 456.67,
+  "text": "the test steps are same but that's going"
+ },
+ {
+  "start": 456.68,
+  "end": 459.99,
+  "text": "to change okay so right click and go"
+ },
+ {
+  "start": 460.0,
+  "end": 463.27,
+  "text": "ahead and reinstantiate the"
+ },
+ {
+  "start": 463.28,
+  "end": 466.83,
+  "text": "instance and you will see that tosa"
+ },
+ {
+  "start": 466.84,
+  "end": 470.149,
+  "text": "automatically removed the test step for"
+ },
+ {
+  "start": 470.159,
+  "end": 474.149,
+  "text": "the valid user but the locked user still"
+ },
+ {
+  "start": 474.159,
+  "end": 477.39,
+  "text": "has that t step and that is because of"
+ },
+ {
+  "start": 477.4,
+  "end": 480.589,
+  "text": "our condition Okay so so this is how"
+ },
+ {
+  "start": 480.599,
+  "end": 482.869,
+  "text": "when you are creating hundreds of test"
+ },
+ {
+  "start": 482.879,
+  "end": 485.35,
+  "text": "cases and you want to put some business"
+ },
+ {
+  "start": 485.36,
+  "end": 487.95,
+  "text": "logic while creating this test cases you"
+ },
+ {
+  "start": 487.96,
+  "end": 491.43,
+  "text": "have to use the condition column okay so"
+ },
+ {
+  "start": 491.44,
+  "end": 493.55,
+  "text": "you should put it in your template and"
+ },
+ {
+  "start": 493.56,
+  "end": 496.469,
+  "text": "then reinstantiate uh your template so"
+ },
+ {
+  "start": 496.479,
+  "end": 498.909,
+  "text": "that the right kind of instances are"
+ },
+ {
+  "start": 498.919,
+  "end": 501.189,
+  "text": "created uh with the right kind of"
+ },
+ {
+  "start": 501.199,
+  "end": 502.83,
+  "text": "business"
+ },
+ {
+  "start": 502.84,
+  "end": 505.99,
+  "text": "logic so that was all about uh uh"
+ },
+ {
+  "start": 506.0,
+  "end": 509.029,
+  "text": "reinstantiate of your test cases with"
+ },
+ {
+  "start": 509.039,
+  "end": 510.51,
+  "text": "condition"
+ },
+ {
+  "start": 510.52,
+  "end": 512.709,
+  "text": "look out for more videos uh on our"
+ },
+ {
+  "start": 512.719,
+  "end": 515.19,
+  "text": "Channel related to tosa coming up pretty"
+ },
+ {
+  "start": 515.2,
+  "end": 518.2,
+  "text": "soon"
+ }
+]

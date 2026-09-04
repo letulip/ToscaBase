@@ -1,0 +1,752 @@
+[
+ {
+  "start": 7.11,
+  "end": 7.12,
+  "text": "Hey everyone, welcome back to another"
+ },
+ {
+  "start": 7.12,
+  "end": 9.669,
+  "text": "lesson in this TSCA automation playlist."
+ },
+ {
+  "start": 9.679,
+  "end": 11.589,
+  "text": "Today I'm going to show you how you can"
+ },
+ {
+  "start": 11.599,
+  "end": 14.39,
+  "text": "execute JavaScript on your browser using"
+ },
+ {
+  "start": 14.4,
+  "end": 17.349,
+  "text": "one of the TSCA automation modules. So"
+ },
+ {
+  "start": 17.359,
+  "end": 19.91,
+  "text": "there are some standard modules inside"
+ },
+ {
+  "start": 19.92,
+  "end": 24.15,
+  "text": "the T-Box X engines and HTML where you"
+ },
+ {
+  "start": 24.16,
+  "end": 26.71,
+  "text": "can find the modules called the execute"
+ },
+ {
+  "start": 26.72,
+  "end": 29.669,
+  "text": "JavaScript and verify JavaScript result."
+ },
+ {
+  "start": 29.679,
+  "end": 32.389,
+  "text": "So using these two modules you can"
+ },
+ {
+  "start": 32.399,
+  "end": 34.389,
+  "text": "either execute a particular JavaScript"
+ },
+ {
+  "start": 34.399,
+  "end": 37.03,
+  "text": "or you can also verify the result of a"
+ },
+ {
+  "start": 37.04,
+  "end": 39.75,
+  "text": "JavaScript. Okay."
+ },
+ {
+  "start": 39.76,
+  "end": 42.79,
+  "text": "So let's see how we can use this modules"
+ },
+ {
+  "start": 42.8,
+  "end": 45.19,
+  "text": "uh to execute a javascript and then"
+ },
+ {
+  "start": 45.2,
+  "end": 48.869,
+  "text": "verify the result of it. So u I am in my"
+ },
+ {
+  "start": 48.879,
+  "end": 50.47,
+  "text": "test cases folder and I have already"
+ },
+ {
+  "start": 50.48,
+  "end": 52.79,
+  "text": "created a test case called execute"
+ },
+ {
+  "start": 52.8,
+  "end": 55.59,
+  "text": "javascript. Now inside this we are going"
+ },
+ {
+  "start": 55.6,
+  "end": 58.389,
+  "text": "to drag the module or add the module."
+ },
+ {
+  "start": 58.399,
+  "end": 60.47,
+  "text": "Okay. So as I said uh it is under"
+ },
+ {
+  "start": 60.48,
+  "end": 63.43,
+  "text": "standard modules tbox x engines and then"
+ },
+ {
+  "start": 63.44,
+  "end": 66.63,
+  "text": "html. Here we'll find the two modules"
+ },
+ {
+  "start": 66.64,
+  "end": 69.109,
+  "text": "execute JavaScript and verify JavaScript"
+ },
+ {
+  "start": 69.119,
+  "end": 71.51,
+  "text": "result. Okay."
+ },
+ {
+  "start": 71.52,
+  "end": 74.31,
+  "text": "So, uh let's add these modules into our"
+ },
+ {
+  "start": 74.32,
+  "end": 78.149,
+  "text": "test case. So, I'm going to drag the"
+ },
+ {
+  "start": 78.159,
+  "end": 81.429,
+  "text": "execute JavaScript here first. And uh"
+ },
+ {
+  "start": 81.439,
+  "end": 83.35,
+  "text": "then coming to module attributes for"
+ },
+ {
+  "start": 83.36,
+  "end": 85.67,
+  "text": "this module uh we need to provide a"
+ },
+ {
+  "start": 85.68,
+  "end": 88.55,
+  "text": "title of the window. uh this is the"
+ },
+ {
+  "start": 88.56,
+  "end": 90.71,
+  "text": "browser window and then uh the"
+ },
+ {
+  "start": 90.72,
+  "end": 92.789,
+  "text": "JavaScript the actual JavaScript which"
+ },
+ {
+  "start": 92.799,
+  "end": 96.069,
+  "text": "you want to execute. Okay. So in title"
+ },
+ {
+  "start": 96.079,
+  "end": 98.63,
+  "text": "I'm going to use a regular expression uh"
+ },
+ {
+  "start": 98.64,
+  "end": 102.149,
+  "text": "which means it can be any title. Okay."
+ },
+ {
+  "start": 102.159,
+  "end": 104.149,
+  "text": "And then I'm going to write some"
+ },
+ {
+  "start": 104.159,
+  "end": 106.31,
+  "text": "JavaScript right here. So I'm going to"
+ },
+ {
+  "start": 106.32,
+  "end": 113.19,
+  "text": "use window dot location dot href. Okay."
+ },
+ {
+  "start": 113.2,
+  "end": 116.23,
+  "text": "And then I'm going to use uh the actual"
+ },
+ {
+  "start": 116.24,
+  "end": 118.87,
+  "text": "web page here. Right. So I've already"
+ },
+ {
+  "start": 118.88,
+  "end": 121.27,
+  "text": "copied this website uh source demo. This"
+ },
+ {
+  "start": 121.28,
+  "end": 124.389,
+  "text": "is what I want to open. And this is the"
+ },
+ {
+  "start": 124.399,
+  "end": 127.19,
+  "text": "JavaScript which we want to execute. So"
+ },
+ {
+  "start": 127.2,
+  "end": 130.389,
+  "text": "let's go ahead and execute this now. So"
+ },
+ {
+  "start": 130.399,
+  "end": 134.55,
+  "text": "run this in scratchbook."
+ },
+ {
+  "start": 137.67,
+  "end": 137.68,
+  "text": "And now uh we will get an error here."
+ },
+ {
+  "start": 137.68,
+  "end": 140.47,
+  "text": "Okay. So in the log info you can see uh"
+ },
+ {
+  "start": 140.48,
+  "end": 142.55,
+  "text": "that it is asking to define a test"
+ },
+ {
+  "start": 142.56,
+  "end": 145.67,
+  "text": "configuration parameter for browser and"
+ },
+ {
+  "start": 145.68,
+  "end": 148.63,
+  "text": "also enter the actual browser on which"
+ },
+ {
+  "start": 148.64,
+  "end": 150.63,
+  "text": "we want to perform this. Okay. So this"
+ },
+ {
+  "start": 150.64,
+  "end": 152.63,
+  "text": "is a mandatory requirement. If you don't"
+ },
+ {
+  "start": 152.64,
+  "end": 154.869,
+  "text": "do this then you will get this uh"
+ },
+ {
+  "start": 154.879,
+  "end": 158.869,
+  "text": "invalid operation exception. Okay. So"
+ },
+ {
+  "start": 158.879,
+  "end": 160.949,
+  "text": "let's go into our test case. Go to the"
+ },
+ {
+  "start": 160.959,
+  "end": 163.509,
+  "text": "test configuration tab here. Uh we are"
+ },
+ {
+  "start": 163.519,
+  "end": 165.35,
+  "text": "going to add a new test configuration"
+ },
+ {
+  "start": 165.36,
+  "end": 168.71,
+  "text": "parameter called browser."
+ },
+ {
+  "start": 168.72,
+  "end": 171.03,
+  "text": "And then uh we are going to choose the"
+ },
+ {
+  "start": 171.04,
+  "end": 173.67,
+  "text": "Chrome browser right here. Okay. Now"
+ },
+ {
+  "start": 173.68,
+  "end": 178.63,
+  "text": "let's go ahead and execute this again."
+ },
+ {
+  "start": 180.869,
+  "end": 180.879,
+  "text": "Now you can see in the background it has"
+ },
+ {
+  "start": 180.879,
+  "end": 183.509,
+  "text": "uh redirected your web page to source"
+ },
+ {
+  "start": 183.519,
+  "end": 186.71,
+  "text": "demo.com on the Chrome browser and our"
+ },
+ {
+  "start": 186.72,
+  "end": 189.509,
+  "text": "test case has actually passed. So it was"
+ },
+ {
+  "start": 189.519,
+  "end": 190.949,
+  "text": "able to execute the particular"
+ },
+ {
+  "start": 190.959,
+  "end": 194.229,
+  "text": "JavaScript. Right? So this is how you"
+ },
+ {
+  "start": 194.239,
+  "end": 196.39,
+  "text": "can execute any particular JavaScript."
+ },
+ {
+  "start": 196.4,
+  "end": 198.47,
+  "text": "uh either it is to move to a particular"
+ },
+ {
+  "start": 198.48,
+  "end": 200.55,
+  "text": "web page or performing some actions on"
+ },
+ {
+  "start": 200.56,
+  "end": 203.589,
+  "text": "your web elements. So any JavaScript uh"
+ },
+ {
+  "start": 203.599,
+  "end": 206.71,
+  "text": "which can be done on the browser uh you"
+ },
+ {
+  "start": 206.72,
+  "end": 208.47,
+  "text": "can execute it right here using this"
+ },
+ {
+  "start": 208.48,
+  "end": 210.149,
+  "text": "module."
+ },
+ {
+  "start": 210.159,
+  "end": 211.67,
+  "text": "Now the next module which we want to"
+ },
+ {
+  "start": 211.68,
+  "end": 214.149,
+  "text": "check is the verify JavaScript result."
+ },
+ {
+  "start": 214.159,
+  "end": 217.19,
+  "text": "So let's add another test case here to"
+ },
+ {
+  "start": 217.2,
+  "end": 221.27,
+  "text": "verify JavaScript."
+ },
+ {
+  "start": 223.67,
+  "end": 223.68,
+  "text": "Okay. And then I'm going to add the"
+ },
+ {
+  "start": 223.68,
+  "end": 226.229,
+  "text": "module here called verify JavaScript"
+ },
+ {
+  "start": 226.239,
+  "end": 227.75,
+  "text": "result."
+ },
+ {
+  "start": 227.76,
+  "end": 230.149,
+  "text": "And here again um you need to provide a"
+ },
+ {
+  "start": 230.159,
+  "end": 233.11,
+  "text": "title. Uh then the JavaScript and then"
+ },
+ {
+  "start": 233.12,
+  "end": 235.589,
+  "text": "the result. Okay. Which has got an"
+ },
+ {
+  "start": 235.599,
+  "end": 237.589,
+  "text": "action mode verify. So it is going to"
+ },
+ {
+  "start": 237.599,
+  "end": 240.39,
+  "text": "perform a verification. Okay. So let's"
+ },
+ {
+  "start": 240.4,
+  "end": 242.63,
+  "text": "first see what we want to verify here."
+ },
+ {
+  "start": 242.64,
+  "end": 245.03,
+  "text": "Okay. So what I want to do is I want to"
+ },
+ {
+  "start": 245.04,
+  "end": 248.55,
+  "text": "verify uh some cookies from the website."
+ },
+ {
+  "start": 248.56,
+  "end": 251.27,
+  "text": "Okay. So let's check on the website what"
+ },
+ {
+  "start": 251.28,
+  "end": 253.67,
+  "text": "cookies are available here. Okay. So I'm"
+ },
+ {
+  "start": 253.68,
+  "end": 257.349,
+  "text": "going to go to uh developer tools"
+ },
+ {
+  "start": 257.359,
+  "end": 260.15,
+  "text": "and uh right here uh I'm going to find"
+ },
+ {
+  "start": 260.16,
+  "end": 262.79,
+  "text": "the cookies for this particular website."
+ },
+ {
+  "start": 262.8,
+  "end": 265.27,
+  "text": "Okay. So currently there are no cookies."
+ },
+ {
+  "start": 265.28,
+  "end": 268.87,
+  "text": "But if I'm going to enter some standard"
+ },
+ {
+  "start": 268.88,
+  "end": 274.39,
+  "text": "user right here and uh the password."
+ },
+ {
+  "start": 274.4,
+  "end": 276.629,
+  "text": "Now if I login into this website you"
+ },
+ {
+  "start": 276.639,
+  "end": 278.95,
+  "text": "will see that a session cookie has been"
+ },
+ {
+  "start": 278.96,
+  "end": 281.83,
+  "text": "created called session username and the"
+ },
+ {
+  "start": 281.84,
+  "end": 285.35,
+  "text": "value for this is standard user and that"
+ },
+ {
+  "start": 285.36,
+  "end": 287.51,
+  "text": "is what I want to verify from the"
+ },
+ {
+  "start": 287.52,
+  "end": 291.11,
+  "text": "JavaScript. Okay. So let's go back here"
+ },
+ {
+  "start": 291.12,
+  "end": 293.35,
+  "text": "and in the title I'm going to give a"
+ },
+ {
+  "start": 293.36,
+  "end": 297.43,
+  "text": "star again and then in the JavaScript I"
+ },
+ {
+  "start": 297.44,
+  "end": 300.31,
+  "text": "am going to say return"
+ },
+ {
+  "start": 300.32,
+  "end": 304.07,
+  "text": "document dot cookie."
+ },
+ {
+  "start": 304.08,
+  "end": 306.07,
+  "text": "Okay. So what it is going to do is it is"
+ },
+ {
+  "start": 306.08,
+  "end": 308.23,
+  "text": "going to return uh the cookie which is"
+ },
+ {
+  "start": 308.24,
+  "end": 311.749,
+  "text": "present in that HTML document and then I"
+ },
+ {
+  "start": 311.759,
+  "end": 313.43,
+  "text": "want to verify whether that cookie"
+ },
+ {
+  "start": 313.44,
+  "end": 317.11,
+  "text": "contains uh the username. Okay. So we"
+ },
+ {
+  "start": 317.12,
+  "end": 318.55,
+  "text": "have to give the cookie name here which"
+ },
+ {
+  "start": 318.56,
+  "end": 320.629,
+  "text": "is session username and value standard"
+ },
+ {
+  "start": 320.639,
+  "end": 325.189,
+  "text": "user. Okay. So let's go here and then uh"
+ },
+ {
+  "start": 325.199,
+  "end": 330.15,
+  "text": "we are going to say session username"
+ },
+ {
+  "start": 330.16,
+  "end": 335.43,
+  "text": "equals uh and then we are going to copy"
+ },
+ {
+  "start": 335.44,
+  "end": 338.95,
+  "text": "this standard user."
+ },
+ {
+  "start": 338.96,
+  "end": 342.469,
+  "text": "Okay. So write here standard"
+ },
+ {
+  "start": 342.479,
+  "end": 345.51,
+  "text": "user. So this is the cookie which is"
+ },
+ {
+  "start": 345.52,
+  "end": 347.909,
+  "text": "present here and this is what we want to"
+ },
+ {
+  "start": 347.919,
+  "end": 351.35,
+  "text": "verify. Okay. So let's go ahead and"
+ },
+ {
+  "start": 351.36,
+  "end": 355.029,
+  "text": "execute this now."
+ },
+ {
+  "start": 355.039,
+  "end": 357.909,
+  "text": "Okay. Uh the same error again. Uh I"
+ },
+ {
+  "start": 357.919,
+  "end": 359.83,
+  "text": "should have done this at the folder"
+ },
+ {
+  "start": 359.84,
+  "end": 364.23,
+  "text": "level not at the test case level. Okay."
+ },
+ {
+  "start": 364.24,
+  "end": 367.67,
+  "text": "So let's do one thing. Uh for now I will"
+ },
+ {
+  "start": 367.68,
+  "end": 370.55,
+  "text": "just add it here as well. But ideally we"
+ },
+ {
+  "start": 370.56,
+  "end": 373.99,
+  "text": "should have done that at a folder level."
+ },
+ {
+  "start": 374.0,
+  "end": 377.83,
+  "text": "Okay. So, browser and Chrome and then"
+ },
+ {
+  "start": 377.84,
+  "end": 384.55,
+  "text": "let's go ahead and execute this now."
+ },
+ {
+  "start": 386.309,
+  "end": 386.319,
+  "text": "And you will see the verification was"
+ },
+ {
+  "start": 386.319,
+  "end": 388.71,
+  "text": "successful. Uh this was the expected"
+ },
+ {
+  "start": 388.72,
+  "end": 390.87,
+  "text": "value and this was the actual value."
+ },
+ {
+  "start": 390.88,
+  "end": 393.59,
+  "text": "Okay. So, this way you can also verify"
+ },
+ {
+  "start": 393.6,
+  "end": 395.749,
+  "text": "some results uh which is returned from"
+ },
+ {
+  "start": 395.759,
+  "end": 397.749,
+  "text": "your JavaScript using this particular"
+ },
+ {
+  "start": 397.759,
+  "end": 399.99,
+  "text": "module. So these are the two modules"
+ },
+ {
+  "start": 400.0,
+  "end": 401.35,
+  "text": "which are present in the TSCOA"
+ },
+ {
+  "start": 401.36,
+  "end": 404.629,
+  "text": "automation modules under HTML engine and"
+ },
+ {
+  "start": 404.639,
+  "end": 406.55,
+  "text": "this you can use to execute in"
+ },
+ {
+  "start": 406.56,
+  "end": 408.71,
+  "text": "JavaScript or verify the result of the"
+ },
+ {
+  "start": 408.72,
+  "end": 411.27,
+  "text": "JavaScript."
+ },
+ {
+  "start": 411.28,
+  "end": 413.83,
+  "text": "That's all for this particular video. If"
+ },
+ {
+  "start": 413.84,
+  "end": 415.67,
+  "text": "you have any questions then please leave"
+ },
+ {
+  "start": 415.68,
+  "end": 418.07,
+  "text": "it in the comments. If you like this"
+ },
+ {
+  "start": 418.08,
+  "end": 419.83,
+  "text": "video then please subscribe to our"
+ },
+ {
+  "start": 419.84,
+  "end": 422.55,
+  "text": "channel. Thanks for watching and I will"
+ },
+ {
+  "start": 422.56,
+  "end": 426.319,
+  "text": "see you in the next video."
+ }
+]

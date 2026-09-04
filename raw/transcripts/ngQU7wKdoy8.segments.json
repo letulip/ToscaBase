@@ -1,0 +1,992 @@
+[
+ {
+  "start": 2.51,
+  "end": 2.52,
+  "text": "hey everyone welcome again to end the"
+ },
+ {
+  "start": 2.52,
+  "end": 4.07,
+  "text": "lesson in the stores car automation"
+ },
+ {
+  "start": 4.08,
+  "end": 4.97,
+  "text": "course"
+ },
+ {
+  "start": 4.98,
+  "end": 6.59,
+  "text": "today I am going to talk about"
+ },
+ {
+  "start": 6.6,
+  "end": 9.95,
+  "text": "conditional Loops a loop such as a if"
+ },
+ {
+  "start": 9.96,
+  "end": 13.009,
+  "text": "else condition where and how you can use"
+ },
+ {
+  "start": 13.019,
+  "end": 14.87,
+  "text": "that in Tosca"
+ },
+ {
+  "start": 14.88,
+  "end": 17.51,
+  "text": "so we'll see a scenario I have picked up"
+ },
+ {
+  "start": 17.52,
+  "end": 20.15,
+  "text": "a very simple flow where it will just"
+ },
+ {
+  "start": 20.16,
+  "end": 22.91,
+  "text": "open the application log in the user it"
+ },
+ {
+  "start": 22.92,
+  "end": 24.89,
+  "text": "will add the product and then it will"
+ },
+ {
+  "start": 24.9,
+  "end": 26.99,
+  "text": "close the application this is the same"
+ },
+ {
+  "start": 27.0,
+  "end": 29.63,
+  "text": "application the swag labs and we have"
+ },
+ {
+  "start": 29.64,
+  "end": 31.849,
+  "text": "already seen this flow right so it will"
+ },
+ {
+  "start": 31.859,
+  "end": 34.37,
+  "text": "just go here and it will click on this"
+ },
+ {
+  "start": 34.38,
+  "end": 36.65,
+  "text": "add to cart for this first product and"
+ },
+ {
+  "start": 36.66,
+  "end": 39.11,
+  "text": "it will add the product into the cart"
+ },
+ {
+  "start": 39.12,
+  "end": 42.229,
+  "text": "now what I have done purposefully is I"
+ },
+ {
+  "start": 42.239,
+  "end": 44.93,
+  "text": "have already done that manually right so"
+ },
+ {
+  "start": 44.94,
+  "end": 47.45,
+  "text": "the product is already in the cart and"
+ },
+ {
+  "start": 47.46,
+  "end": 49.85,
+  "text": "what that has done is it has changed"
+ },
+ {
+  "start": 49.86,
+  "end": 52.19,
+  "text": "this particular"
+ },
+ {
+  "start": 52.2,
+  "end": 56.209,
+  "text": "button to remove instead of add to cart"
+ },
+ {
+  "start": 56.219,
+  "end": 58.369,
+  "text": "now what is going to happen is it is"
+ },
+ {
+  "start": 58.379,
+  "end": 60.83,
+  "text": "going uh to fail this particular test"
+ },
+ {
+  "start": 60.84,
+  "end": 62.869,
+  "text": "case because Tosca is not able to find"
+ },
+ {
+  "start": 62.879,
+  "end": 66.289,
+  "text": "this particular button right but"
+ },
+ {
+  "start": 66.299,
+  "end": 68.87,
+  "text": "in some scenarios you might want to fail"
+ },
+ {
+  "start": 68.88,
+  "end": 71.27,
+  "text": "this particular scenario but in some"
+ },
+ {
+  "start": 71.28,
+  "end": 73.73,
+  "text": "cases you also want to just go ahead and"
+ },
+ {
+  "start": 73.74,
+  "end": 76.01,
+  "text": "execute your test cases even though that"
+ },
+ {
+  "start": 76.02,
+  "end": 78.77,
+  "text": "button is not present right so your test"
+ },
+ {
+  "start": 78.78,
+  "end": 81.07,
+  "text": "should be dynamically able to"
+ },
+ {
+  "start": 81.08,
+  "end": 84.71,
+  "text": "come out of these scenarios right you"
+ },
+ {
+  "start": 84.72,
+  "end": 86.81,
+  "text": "don't always want to fail your scenarios"
+ },
+ {
+  "start": 86.82,
+  "end": 89.87,
+  "text": "you want to recover from these type of"
+ },
+ {
+  "start": 89.88,
+  "end": 92.57,
+  "text": "cases and you want to handle that"
+ },
+ {
+  "start": 92.58,
+  "end": 95.33,
+  "text": "logically uh within your status cases"
+ },
+ {
+  "start": 95.34,
+  "end": 97.73,
+  "text": "right so for in these type of scenarios"
+ },
+ {
+  "start": 97.74,
+  "end": 100.85,
+  "text": "we can use conditional Loops right so we"
+ },
+ {
+  "start": 100.86,
+  "end": 102.71,
+  "text": "can check whether a particular element"
+ },
+ {
+  "start": 102.72,
+  "end": 105.53,
+  "text": "is present before actually performing"
+ },
+ {
+  "start": 105.54,
+  "end": 107.81,
+  "text": "that action on on that particular"
+ },
+ {
+  "start": 107.82,
+  "end": 110.21,
+  "text": "element this is a very common scenario"
+ },
+ {
+  "start": 110.22,
+  "end": 112.01,
+  "text": "whenever you are developing any task"
+ },
+ {
+  "start": 112.02,
+  "end": 114.53,
+  "text": "automation test cases you have to take"
+ },
+ {
+  "start": 114.54,
+  "end": 116.929,
+  "text": "care of this Dynamic early changing"
+ },
+ {
+  "start": 116.939,
+  "end": 121.13,
+  "text": "elements right in your application"
+ },
+ {
+  "start": 124.31,
+  "end": 124.32,
+  "text": "so what we'll do is uh let's first go"
+ },
+ {
+  "start": 124.32,
+  "end": 127.429,
+  "text": "ahead and execute this particular"
+ },
+ {
+  "start": 127.439,
+  "end": 130.249,
+  "text": "scenario so that we can see that it is"
+ },
+ {
+  "start": 130.259,
+  "end": 132.35,
+  "text": "going to fail and then we are going to"
+ },
+ {
+  "start": 132.36,
+  "end": 134.93,
+  "text": "put the logic in terms of how we can put"
+ },
+ {
+  "start": 134.94,
+  "end": 137.03,
+  "text": "the if else condition in this particular"
+ },
+ {
+  "start": 137.04,
+  "end": 139.25,
+  "text": "test case okay"
+ },
+ {
+  "start": 139.26,
+  "end": 141.47,
+  "text": "so let me first run this particular test"
+ },
+ {
+  "start": 141.48,
+  "end": 143.75,
+  "text": "case"
+ },
+ {
+  "start": 143.76,
+  "end": 146.449,
+  "text": "and now as you can see Tosca is not able"
+ },
+ {
+  "start": 146.459,
+  "end": 149.15,
+  "text": "to find that particular button and it is"
+ },
+ {
+  "start": 149.16,
+  "end": 151.85,
+  "text": "ultimately going to fail this test case"
+ },
+ {
+  "start": 151.86,
+  "end": 154.91,
+  "text": "okay so we'll see uh why it has failed"
+ },
+ {
+  "start": 154.92,
+  "end": 156.41,
+  "text": "in the Tosca"
+ },
+ {
+  "start": 156.42,
+  "end": 160.309,
+  "text": "report so we'll see here we'll go to add"
+ },
+ {
+  "start": 160.319,
+  "end": 163.309,
+  "text": "product and as you can see Tosca is"
+ },
+ {
+  "start": 163.319,
+  "end": 165.35,
+  "text": "complaining about could not find"
+ },
+ {
+  "start": 165.36,
+  "end": 167.809,
+  "text": "add to cart with the following"
+ },
+ {
+  "start": 167.819,
+  "end": 170.15,
+  "text": "properties which is completely valid"
+ },
+ {
+  "start": 170.16,
+  "end": 173.03,
+  "text": "right so that button is not present and"
+ },
+ {
+  "start": 173.04,
+  "end": 175.55,
+  "text": "that's why the test case is failing"
+ },
+ {
+  "start": 175.56,
+  "end": 178.49,
+  "text": "but what if I don't want to fail this"
+ },
+ {
+  "start": 178.5,
+  "end": 181.61,
+  "text": "test case right I want to check whether"
+ },
+ {
+  "start": 181.62,
+  "end": 183.77,
+  "text": "this button is present or not before"
+ },
+ {
+  "start": 183.78,
+  "end": 186.71,
+  "text": "actually performing that operation right"
+ },
+ {
+  "start": 186.72,
+  "end": 189.41,
+  "text": "so in this kind of scenarios we have to"
+ },
+ {
+  "start": 189.42,
+  "end": 192.229,
+  "text": "use some conditional Loops okay"
+ },
+ {
+  "start": 192.239,
+  "end": 195.17,
+  "text": "so let's go ahead and come to this test"
+ },
+ {
+  "start": 195.18,
+  "end": 198.589,
+  "text": "case and here you will find there are"
+ },
+ {
+  "start": 198.599,
+  "end": 201.11,
+  "text": "options for conditional Loops right so"
+ },
+ {
+  "start": 201.12,
+  "end": 203.39,
+  "text": "when I right click you will see there is"
+ },
+ {
+  "start": 203.4,
+  "end": 206.869,
+  "text": "a create a statement and if I click on"
+ },
+ {
+  "start": 206.879,
+  "end": 210.41,
+  "text": "this it's going to create a if else step"
+ },
+ {
+  "start": 210.42,
+  "end": 214.07,
+  "text": "okay so if condition and then a then"
+ },
+ {
+  "start": 214.08,
+  "end": 216.71,
+  "text": "condition okay so what I'm going to do"
+ },
+ {
+  "start": 216.72,
+  "end": 219.41,
+  "text": "is I'm going to drag and drop it after"
+ },
+ {
+  "start": 219.42,
+  "end": 224.03,
+  "text": "login user okay and in this add product"
+ },
+ {
+  "start": 224.04,
+  "end": 227.03,
+  "text": "right so this particular step I am going"
+ },
+ {
+  "start": 227.04,
+  "end": 230.089,
+  "text": "to put it inside my condition okay so"
+ },
+ {
+  "start": 230.099,
+  "end": 231.229,
+  "text": "this is"
+ },
+ {
+  "start": 231.239,
+  "end": 234.35,
+  "text": "this is the place where you uh specify"
+ },
+ {
+  "start": 234.36,
+  "end": 237.289,
+  "text": "what condition you want to check okay"
+ },
+ {
+  "start": 237.299,
+  "end": 239.27,
+  "text": "uh based on this particular condition"
+ },
+ {
+  "start": 239.28,
+  "end": 242.63,
+  "text": "whether it passes or fails then it is"
+ },
+ {
+  "start": 242.64,
+  "end": 244.97,
+  "text": "going to perform the step which you"
+ },
+ {
+  "start": 244.98,
+  "end": 247.91,
+  "text": "mentioned in the then part okay"
+ },
+ {
+  "start": 247.92,
+  "end": 250.25,
+  "text": "so here uh"
+ },
+ {
+  "start": 250.26,
+  "end": 252.89,
+  "text": "what I want to do is I don't want to"
+ },
+ {
+  "start": 252.9,
+  "end": 255.229,
+  "text": "click on this okay I'm going to change"
+ },
+ {
+  "start": 255.239,
+  "end": 258.53,
+  "text": "the action mode to verify so instead of"
+ },
+ {
+  "start": 258.54,
+  "end": 260.99,
+  "text": "input it will be verify okay"
+ },
+ {
+  "start": 261.0,
+  "end": 263.57,
+  "text": "and instead of Click what I'm going to"
+ },
+ {
+  "start": 263.58,
+  "end": 266.17,
+  "text": "do is I'm going to put a condition here"
+ },
+ {
+  "start": 266.18,
+  "end": 269.629,
+  "text": "enabled equals to true"
+ },
+ {
+  "start": 269.639,
+  "end": 271.129,
+  "text": "okay"
+ },
+ {
+  "start": 271.139,
+  "end": 275.21,
+  "text": "so if this button is enabled then only"
+ },
+ {
+  "start": 275.22,
+  "end": 277.43,
+  "text": "this condition will be satisfied"
+ },
+ {
+  "start": 277.44,
+  "end": 280.37,
+  "text": "and once this condition is satisfied"
+ },
+ {
+  "start": 280.38,
+  "end": 283.49,
+  "text": "what I'm going to do is I'm going to go"
+ },
+ {
+  "start": 283.5,
+  "end": 285.35,
+  "text": "ahead and then"
+ },
+ {
+  "start": 285.36,
+  "end": 287.45,
+  "text": "I want to add the step"
+ },
+ {
+  "start": 287.46,
+  "end": 292.189,
+  "text": "to click on this button okay"
+ },
+ {
+  "start": 292.199,
+  "end": 296.27,
+  "text": "so let's go to add to cart and here I'm"
+ },
+ {
+  "start": 296.28,
+  "end": 298.67,
+  "text": "going to now click on this button the"
+ },
+ {
+  "start": 298.68,
+  "end": 300.05,
+  "text": "same thing which we are doing earlier"
+ },
+ {
+  "start": 300.06,
+  "end": 302.93,
+  "text": "but now the difference is we are not"
+ },
+ {
+  "start": 302.94,
+  "end": 304.909,
+  "text": "directly going and clicking on that"
+ },
+ {
+  "start": 304.919,
+  "end": 307.61,
+  "text": "button we are putting some logic so that"
+ },
+ {
+  "start": 307.62,
+  "end": 309.29,
+  "text": "it can be checked whether it is present"
+ },
+ {
+  "start": 309.3,
+  "end": 312.17,
+  "text": "or not depending on some scenario and"
+ },
+ {
+  "start": 312.18,
+  "end": 313.49,
+  "text": "then we are going to perform some"
+ },
+ {
+  "start": 313.5,
+  "end": 315.469,
+  "text": "operation okay"
+ },
+ {
+  "start": 315.479,
+  "end": 318.83,
+  "text": "so this is how you can add if else"
+ },
+ {
+  "start": 318.84,
+  "end": 322.07,
+  "text": "statement in your test steps in a tasker"
+ },
+ {
+  "start": 322.08,
+  "end": 324.29,
+  "text": "test case and then you can add your"
+ },
+ {
+  "start": 324.3,
+  "end": 327.35,
+  "text": "steps uh so you can put a condition and"
+ },
+ {
+  "start": 327.36,
+  "end": 329.99,
+  "text": "then you can add what you want to do if"
+ },
+ {
+  "start": 330.0,
+  "end": 333.35,
+  "text": "that condition is met or not met okay"
+ },
+ {
+  "start": 333.36,
+  "end": 336.05,
+  "text": "now what this will do is it will tell"
+ },
+ {
+  "start": 336.06,
+  "end": 338.81,
+  "text": "Tosca that go ahead and check the"
+ },
+ {
+  "start": 338.82,
+  "end": 340.49,
+  "text": "condition first and then perform the"
+ },
+ {
+  "start": 340.5,
+  "end": 343.61,
+  "text": "operation so this way my test case would"
+ },
+ {
+  "start": 343.62,
+  "end": 346.07,
+  "text": "not fail in this particular tester so"
+ },
+ {
+  "start": 346.08,
+  "end": 347.99,
+  "text": "let's go ahead and check whether this is"
+ },
+ {
+  "start": 348.0,
+  "end": 350.81,
+  "text": "working or not so I'm going to run this"
+ },
+ {
+  "start": 350.82,
+  "end": 354.77,
+  "text": "in scratchbook"
+ },
+ {
+  "start": 357.29,
+  "end": 357.3,
+  "text": "and it's going through the same flow but"
+ },
+ {
+  "start": 357.3,
+  "end": 359.629,
+  "text": "uh with some logic behind it okay so"
+ },
+ {
+  "start": 359.639,
+  "end": 362.629,
+  "text": "let's see whether Tosca is able to now"
+ },
+ {
+  "start": 362.639,
+  "end": 365.87,
+  "text": "handle this particular scenario or not"
+ },
+ {
+  "start": 365.88,
+  "end": 367.85,
+  "text": "so initially it will try to find that"
+ },
+ {
+  "start": 367.86,
+  "end": 370.79,
+  "text": "button but since we have put a FL"
+ },
+ {
+  "start": 370.8,
+  "end": 374.45,
+  "text": "statement it's going to go through some"
+ },
+ {
+  "start": 374.46,
+  "end": 377.629,
+  "text": "checks okay so it's going to enter this"
+ },
+ {
+  "start": 377.639,
+  "end": 380.029,
+  "text": "if condition now okay and then it is"
+ },
+ {
+  "start": 380.039,
+  "end": 382.07,
+  "text": "going to go into condition"
+ },
+ {
+  "start": 382.08,
+  "end": 384.89,
+  "text": "and we have mentioned that it should"
+ },
+ {
+  "start": 384.9,
+  "end": 388.01,
+  "text": "check for this button to be enabled now"
+ },
+ {
+  "start": 388.02,
+  "end": 389.749,
+  "text": "as you can see it is saying could not"
+ },
+ {
+  "start": 389.759,
+  "end": 392.87,
+  "text": "find button so this condition is not"
+ },
+ {
+  "start": 392.88,
+  "end": 395.689,
+  "text": "satisfied and that is why there is a"
+ },
+ {
+  "start": 395.699,
+  "end": 397.73,
+  "text": "cross mark on this condition and the"
+ },
+ {
+  "start": 397.74,
+  "end": 400.309,
+  "text": "test step okay so what basically has"
+ },
+ {
+  "start": 400.319,
+  "end": 402.77,
+  "text": "happened is now since the condition is"
+ },
+ {
+  "start": 402.78,
+  "end": 405.59,
+  "text": "not met it is not going to execute the"
+ },
+ {
+  "start": 405.6,
+  "end": 409.01,
+  "text": "then part okay so that way uh the test"
+ },
+ {
+  "start": 409.02,
+  "end": 411.65,
+  "text": "case has not failed it has passed okay"
+ },
+ {
+  "start": 411.66,
+  "end": 414.77,
+  "text": "now if my application scenario changes"
+ },
+ {
+  "start": 414.78,
+  "end": 417.17,
+  "text": "right if the add to cart button uh"
+ },
+ {
+  "start": 417.18,
+  "end": 419.93,
+  "text": "reappears what will happen it will go"
+ },
+ {
+  "start": 419.94,
+  "end": 422.33,
+  "text": "through the flow okay so let's see that"
+ },
+ {
+  "start": 422.34,
+  "end": 425.87,
+  "text": "part as well so what I'm going to do is"
+ },
+ {
+  "start": 425.88,
+  "end": 430.55,
+  "text": "I'm going to go to my website"
+ },
+ {
+  "start": 433.49,
+  "end": 433.5,
+  "text": "and I'm going to either remove it or"
+ },
+ {
+  "start": 433.5,
+  "end": 436.49,
+  "text": "also I can reset the App State so it"
+ },
+ {
+  "start": 436.5,
+  "end": 438.83,
+  "text": "will reset everything okay"
+ },
+ {
+  "start": 438.84,
+  "end": 441.11,
+  "text": "and then I'm going to close this okay"
+ },
+ {
+  "start": 441.12,
+  "end": 444.05,
+  "text": "now let's try and run this again and"
+ },
+ {
+  "start": 444.06,
+  "end": 445.79,
+  "text": "this time you will see"
+ },
+ {
+  "start": 445.8,
+  "end": 449.15,
+  "text": "uh it will also execute the then part"
+ },
+ {
+  "start": 449.16,
+  "end": 450.89,
+  "text": "okay"
+ },
+ {
+  "start": 450.9,
+  "end": 454.07,
+  "text": "so let's see it is going to click on add"
+ },
+ {
+  "start": 454.08,
+  "end": 455.15,
+  "text": "to cart"
+ },
+ {
+  "start": 455.16,
+  "end": 459.469,
+  "text": "okay and the test case will pass"
+ },
+ {
+  "start": 459.479,
+  "end": 462.29,
+  "text": "so let's go and see"
+ },
+ {
+  "start": 462.3,
+  "end": 466.07,
+  "text": "the If part right now okay so let me"
+ },
+ {
+  "start": 466.08,
+  "end": 467.93,
+  "text": "expand this"
+ },
+ {
+  "start": 467.94,
+  "end": 470.809,
+  "text": "and now uh in the condition part you"
+ },
+ {
+  "start": 470.819,
+  "end": 472.67,
+  "text": "will see that the add to cart"
+ },
+ {
+  "start": 472.68,
+  "end": 475.01,
+  "text": "verification was successful and that's"
+ },
+ {
+  "start": 475.02,
+  "end": 478.189,
+  "text": "why there is a tick mark here and in the"
+ },
+ {
+  "start": 478.199,
+  "end": 480.529,
+  "text": "then part it is going to execute"
+ },
+ {
+  "start": 480.539,
+  "end": 483.71,
+  "text": "whatever step we have added here okay so"
+ },
+ {
+  "start": 483.72,
+  "end": 486.29,
+  "text": "both the condition and the then part"
+ },
+ {
+  "start": 486.3,
+  "end": 488.27,
+  "text": "will be executed"
+ },
+ {
+  "start": 488.28,
+  "end": 491.689,
+  "text": "so as you can see uh this gives you more"
+ },
+ {
+  "start": 491.699,
+  "end": 493.969,
+  "text": "flexibility in terms of how you want to"
+ },
+ {
+  "start": 493.979,
+  "end": 496.43,
+  "text": "handle uh particular scenarios in your"
+ },
+ {
+  "start": 496.44,
+  "end": 497.45,
+  "text": "application"
+ },
+ {
+  "start": 497.46,
+  "end": 499.969,
+  "text": "and using this if else condition you can"
+ },
+ {
+  "start": 499.979,
+  "end": 502.43,
+  "text": "handle uh some Dynamic elements in your"
+ },
+ {
+  "start": 502.44,
+  "end": 505.249,
+  "text": "application or some Dynamic scenarios"
+ },
+ {
+  "start": 505.259,
+  "end": 506.93,
+  "text": "so stay tuned"
+ },
+ {
+  "start": 506.94,
+  "end": 509.33,
+  "text": "um And subscribe to our Channel more"
+ },
+ {
+  "start": 509.34,
+  "end": 512.389,
+  "text": "Tosca videos are coming up we'll try to"
+ },
+ {
+  "start": 512.399,
+  "end": 515.389,
+  "text": "upload a new Tosca video every Friday so"
+ },
+ {
+  "start": 515.399,
+  "end": 518.089,
+  "text": "look out for these videos uh log into"
+ },
+ {
+  "start": 518.099,
+  "end": 520.49,
+  "text": "our Channel every Friday and learn"
+ },
+ {
+  "start": 520.5,
+  "end": 522.589,
+  "text": "something more about this amazing"
+ },
+ {
+  "start": 522.599,
+  "end": 526.219,
+  "text": "automation tool called Tosca"
+ }
+]

@@ -1,0 +1,902 @@
+[
+ {
+  "start": 12.509,
+  "end": 12.519,
+  "text": "hey everyone welcome back to our Channel"
+ },
+ {
+  "start": 12.519,
+  "end": 15.15,
+  "text": "I am back with another interesting topic"
+ },
+ {
+  "start": 15.16,
+  "end": 18.07,
+  "text": "in the tosa automation playlist so"
+ },
+ {
+  "start": 18.08,
+  "end": 19.95,
+  "text": "continuing with our topic on test"
+ },
+ {
+  "start": 19.96,
+  "end": 22.63,
+  "text": "automation obstacles let's look at our"
+ },
+ {
+  "start": 22.64,
+  "end": 25.15,
+  "text": "next obstacle which is called the"
+ },
+ {
+  "start": 25.16,
+  "end": 28.07,
+  "text": "addition now this is a pretty simple"
+ },
+ {
+  "start": 28.08,
+  "end": 30.95,
+  "text": "obstacle where we need to to uh add two"
+ },
+ {
+  "start": 30.96,
+  "end": 32.87,
+  "text": "numbers and then provide the sum of the"
+ },
+ {
+  "start": 32.88,
+  "end": 36.63,
+  "text": "number here the only challenge here is"
+ },
+ {
+  "start": 36.64,
+  "end": 39.91,
+  "text": "these two numbers are not static they"
+ },
+ {
+  "start": 39.92,
+  "end": 43.229,
+  "text": "are two randomly generated numbers okay"
+ },
+ {
+  "start": 43.239,
+  "end": 45.709,
+  "text": "so if now I refresh this particular page"
+ },
+ {
+  "start": 45.719,
+  "end": 48.79,
+  "text": "you will see that this numbers change"
+ },
+ {
+  "start": 48.8,
+  "end": 51.91,
+  "text": "okay so that's the only difficulty here"
+ },
+ {
+  "start": 51.92,
+  "end": 55.349,
+  "text": "so you need to um add these two numbers"
+ },
+ {
+  "start": 55.359,
+  "end": 57.51,
+  "text": "which are randomly generated and change"
+ },
+ {
+  "start": 57.52,
+  "end": 60.47,
+  "text": "every time and then you need to uh"
+ },
+ {
+  "start": 60.48,
+  "end": 64.75,
+  "text": "get the sum and write it here okay so"
+ },
+ {
+  "start": 64.76,
+  "end": 69.27,
+  "text": "for example if this is"
+ },
+ {
+  "start": 69.28,
+  "end": 72.149,
+  "text": "143 and then uh you will see that the"
+ },
+ {
+  "start": 72.159,
+  "end": 74.83,
+  "text": "obstacle is completed okay so pretty"
+ },
+ {
+  "start": 74.84,
+  "end": 78.63,
+  "text": "simple if you know how to do this so"
+ },
+ {
+  "start": 78.64,
+  "end": 81.59,
+  "text": "let's see uh in tosa how we can uh"
+ },
+ {
+  "start": 81.6,
+  "end": 84.109,
+  "text": "achieve this particular obstacle"
+ },
+ {
+  "start": 84.119,
+  "end": 87.27,
+  "text": "right so coming back here uh first we"
+ },
+ {
+  "start": 87.28,
+  "end": 91.149,
+  "text": "need to scan this particular application"
+ },
+ {
+  "start": 91.159,
+  "end": 94.99,
+  "text": "okay so here I'm going to scan the"
+ },
+ {
+  "start": 95.0,
+  "end": 98.19,
+  "text": "application and then um we will look out"
+ },
+ {
+  "start": 98.2,
+  "end": 100.469,
+  "text": "for the numbers so here are the numbers"
+ },
+ {
+  "start": 100.479,
+  "end": 104.749,
+  "text": "you can see and then uh we have also the"
+ },
+ {
+  "start": 104.759,
+  "end": 108.429,
+  "text": "result right which is a text box so now"
+ },
+ {
+  "start": 108.439,
+  "end": 110.99,
+  "text": "if you look at these two numbers we"
+ },
+ {
+  "start": 111.0,
+  "end": 113.749,
+  "text": "don't actually need the numbers we need"
+ },
+ {
+  "start": 113.759,
+  "end": 116.55,
+  "text": "the elements and then using the inner"
+ },
+ {
+  "start": 116.56,
+  "end": 119.789,
+  "text": "text we can get the actual value right"
+ },
+ {
+  "start": 119.799,
+  "end": 121.67,
+  "text": "so what I'm going to do here is I'm"
+ },
+ {
+  "start": 121.68,
+  "end": 124.83,
+  "text": "going to change the names here I'm going"
+ },
+ {
+  "start": 124.84,
+  "end": 128.949,
+  "text": "to call this num one and num two"
+ },
+ {
+  "start": 128.959,
+  "end": 134.43,
+  "text": "right and then um I'm going to see this"
+ },
+ {
+  "start": 134.44,
+  "end": 138.71,
+  "text": "obstacle okay so I'm going to copy this"
+ },
+ {
+  "start": 138.72,
+  "end": 141.07,
+  "text": "number and I'm going to rename this"
+ },
+ {
+  "start": 141.08,
+  "end": 145.589,
+  "text": "module okay and then I'm going to save"
+ },
+ {
+  "start": 148.949,
+  "end": 148.959,
+  "text": "this okay so our module is ready now uh"
+ },
+ {
+  "start": 148.959,
+  "end": 150.79,
+  "text": "this is the module"
+ },
+ {
+  "start": 150.8,
+  "end": 152.83,
+  "text": "and you can see num one num two and the"
+ },
+ {
+  "start": 152.84,
+  "end": 156.99,
+  "text": "result right so now uh let's go to our"
+ },
+ {
+  "start": 157.0,
+  "end": 160.35,
+  "text": "test cases and then under obstacles we"
+ },
+ {
+  "start": 160.36,
+  "end": 162.949,
+  "text": "are going to create a new test case"
+ },
+ {
+  "start": 162.959,
+  "end": 166.55,
+  "text": "here okay and then uh we are also going"
+ },
+ {
+  "start": 166.56,
+  "end": 170.67,
+  "text": "to drag the module into this test case"
+ },
+ {
+  "start": 170.68,
+  "end": 173.19,
+  "text": "right now coming to this particular test"
+ },
+ {
+  "start": 173.2,
+  "end": 176.11,
+  "text": "case uh now we have got the number one"
+ },
+ {
+  "start": 176.12,
+  "end": 179.309,
+  "text": "right but it is randomly generated so we"
+ },
+ {
+  "start": 179.319,
+  "end": 182.47,
+  "text": "cannot just uh scan that particular"
+ },
+ {
+  "start": 182.48,
+  "end": 185.869,
+  "text": "element and then use the value there"
+ },
+ {
+  "start": 185.879,
+  "end": 189.39,
+  "text": "right so we need to basically store this"
+ },
+ {
+  "start": 189.4,
+  "end": 192.55,
+  "text": "into a variable so that whatever uh"
+ },
+ {
+  "start": 192.56,
+  "end": 196.55,
+  "text": "number is um being displayed on the page"
+ },
+ {
+  "start": 196.56,
+  "end": 198.47,
+  "text": "it can capture that and save it"
+ },
+ {
+  "start": 198.48,
+  "end": 200.67,
+  "text": "somewhere right so the best possible"
+ },
+ {
+  "start": 200.68,
+  "end": 202.869,
+  "text": "option is to buffer that particular"
+ },
+ {
+  "start": 202.879,
+  "end": 204.229,
+  "text": "number"
+ },
+ {
+  "start": 204.239,
+  "end": 206.869,
+  "text": "right so I'm going to change uh the"
+ },
+ {
+  "start": 206.879,
+  "end": 210.19,
+  "text": "action mode to buffer here and then uh"
+ },
+ {
+  "start": 210.2,
+  "end": 213.789,
+  "text": "we are going to grab the inner text of"
+ },
+ {
+  "start": 213.799,
+  "end": 217.03,
+  "text": "this particular number right and uh we"
+ },
+ {
+  "start": 217.04,
+  "end": 223.83,
+  "text": "are going to save it into a buffer"
+ },
+ {
+  "start": 226.509,
+  "end": 226.519,
+  "text": "right uh and the same we are going to do"
+ },
+ {
+  "start": 226.519,
+  "end": 228.589,
+  "text": "for the next number we are going to use"
+ },
+ {
+  "start": 228.599,
+  "end": 233.309,
+  "text": "buffer here and we are going to get the"
+ },
+ {
+  "start": 233.319,
+  "end": 236.869,
+  "text": "inner text and save it into another"
+ },
+ {
+  "start": 236.879,
+  "end": 241.149,
+  "text": "buffer right so this this way uh we can"
+ },
+ {
+  "start": 241.159,
+  "end": 244.309,
+  "text": "grab the numbers um even if those are"
+ },
+ {
+  "start": 244.319,
+  "end": 245.83,
+  "text": "randomly generated we will get the"
+ },
+ {
+  "start": 245.84,
+  "end": 247.429,
+  "text": "numbers which are currently present on"
+ },
+ {
+  "start": 247.439,
+  "end": 251.19,
+  "text": "the page right so once we have got the"
+ },
+ {
+  "start": 251.2,
+  "end": 252.789,
+  "text": "numbers and we have stored them into"
+ },
+ {
+  "start": 252.799,
+  "end": 255.069,
+  "text": "buffers now we need to add those two"
+ },
+ {
+  "start": 255.079,
+  "end": 258.31,
+  "text": "numbers right now I cannot directly go"
+ },
+ {
+  "start": 258.32,
+  "end": 261.789,
+  "text": "ahead and add uh two buffers like bore"
+ },
+ {
+  "start": 261.799,
+  "end": 264.909,
+  "text": "num 1 plus bore num2 it will give you no"
+ },
+ {
+  "start": 264.919,
+  "end": 266.55,
+  "text": "result"
+ },
+ {
+  "start": 266.56,
+  "end": 269.87,
+  "text": "right uh because uh tosa needs a"
+ },
+ {
+  "start": 269.88,
+  "end": 272.79,
+  "text": "function through which it can perform"
+ },
+ {
+  "start": 272.8,
+  "end": 275.629,
+  "text": "the mathematical calculations and that"
+ },
+ {
+  "start": 275.639,
+  "end": 277.99,
+  "text": "function is called the math function"
+ },
+ {
+  "start": 278.0,
+  "end": 280.55,
+  "text": "okay so using this math"
+ },
+ {
+  "start": 280.56,
+  "end": 283.67,
+  "text": "expression uh you can perform any kind"
+ },
+ {
+  "start": 283.68,
+  "end": 285.71,
+  "text": "of mathematical calculations whether it"
+ },
+ {
+  "start": 285.72,
+  "end": 288.07,
+  "text": "is addition subtraction multiplication"
+ },
+ {
+  "start": 288.08,
+  "end": 290.87,
+  "text": "division or any other mathematical"
+ },
+ {
+  "start": 290.88,
+  "end": 292.629,
+  "text": "calculation you want to do you have to"
+ },
+ {
+  "start": 292.639,
+  "end": 297.029,
+  "text": "use the math expression right so uh here"
+ },
+ {
+  "start": 297.039,
+  "end": 299.189,
+  "text": "in the result what we are going to do we"
+ },
+ {
+  "start": 299.199,
+  "end": 301.51,
+  "text": "are going going to use the math"
+ },
+ {
+  "start": 301.52,
+  "end": 304.189,
+  "text": "expression as I said inside this we need"
+ },
+ {
+  "start": 304.199,
+  "end": 307.79,
+  "text": "to provide the operant and the operator"
+ },
+ {
+  "start": 307.8,
+  "end": 310.87,
+  "text": "right so here the operant are the"
+ },
+ {
+  "start": 310.88,
+  "end": 315.35,
+  "text": "buffers so I'm going to use buffer here"
+ },
+ {
+  "start": 315.36,
+  "end": 317.79,
+  "text": "so I'm going to build this particular"
+ },
+ {
+  "start": 317.8,
+  "end": 319.15,
+  "text": "expression"
+ },
+ {
+  "start": 319.16,
+  "end": 322.27,
+  "text": "here okay and then I'm going to use the"
+ },
+ {
+  "start": 322.28,
+  "end": 325.07,
+  "text": "operator here plus as the operator we"
+ },
+ {
+  "start": 325.08,
+  "end": 327.629,
+  "text": "want to add the two numbers right so"
+ },
+ {
+  "start": 327.639,
+  "end": 330.39,
+  "text": "here again the next buffer"
+ },
+ {
+  "start": 330.4,
+  "end": 336.469,
+  "text": "and I'm going to build this"
+ },
+ {
+  "start": 341.51,
+  "end": 341.52,
+  "text": "so and num two and then um I'm going to"
+ },
+ {
+  "start": 341.52,
+  "end": 344.07,
+  "text": "close this"
+ },
+ {
+  "start": 344.08,
+  "end": 347.51,
+  "text": "okay so this is how the expression looks"
+ },
+ {
+  "start": 347.52,
+  "end": 349.469,
+  "text": "like okay so we have used the math"
+ },
+ {
+  "start": 349.479,
+  "end": 352.59,
+  "text": "expression inside that we have our"
+ },
+ {
+  "start": 352.6,
+  "end": 355.43,
+  "text": "operant and the operator uh which is"
+ },
+ {
+  "start": 355.44,
+  "end": 358.469,
+  "text": "nothing but the addition operator"
+ },
+ {
+  "start": 358.479,
+  "end": 361.83,
+  "text": "right so now uh let's go ahead and"
+ },
+ {
+  "start": 361.84,
+  "end": 363.55,
+  "text": "execute this and let's see whether it is"
+ },
+ {
+  "start": 363.56,
+  "end": 366.589,
+  "text": "able to add the two numbers and enter it"
+ },
+ {
+  "start": 366.599,
+  "end": 370.909,
+  "text": "into the text box or"
+ },
+ {
+  "start": 374.35,
+  "end": 374.36,
+  "text": "not okay so here uh you can see that uh"
+ },
+ {
+  "start": 374.36,
+  "end": 377.629,
+  "text": "it entered uh the number or sum of the"
+ },
+ {
+  "start": 377.639,
+  "end": 380.87,
+  "text": "two numbers which is correct right but"
+ },
+ {
+  "start": 380.88,
+  "end": 384.029,
+  "text": "even though it entered correctly the sum"
+ },
+ {
+  "start": 384.039,
+  "end": 385.589,
+  "text": "you can see the obstacle was not"
+ },
+ {
+  "start": 385.599,
+  "end": 387.67,
+  "text": "completed I mean we did not get the"
+ },
+ {
+  "start": 387.68,
+  "end": 390.23,
+  "text": "message that it was completed"
+ },
+ {
+  "start": 390.24,
+  "end": 393.11,
+  "text": "and the reason for that is uh we just"
+ },
+ {
+  "start": 393.12,
+  "end": 396.35,
+  "text": "inputed the number right but here uh"
+ },
+ {
+  "start": 396.36,
+  "end": 398.029,
+  "text": "this particular application what it is"
+ },
+ {
+  "start": 398.039,
+  "end": 400.83,
+  "text": "expecting that you are typing the number"
+ },
+ {
+  "start": 400.84,
+  "end": 405.43,
+  "text": "like a normal user right so for that uh"
+ },
+ {
+  "start": 405.44,
+  "end": 408.029,
+  "text": "we need to change how we input the"
+ },
+ {
+  "start": 408.039,
+  "end": 411.87,
+  "text": "numbers into the text box okay so rather"
+ },
+ {
+  "start": 411.88,
+  "end": 415.189,
+  "text": "than just inputting them what we will do"
+ },
+ {
+  "start": 415.199,
+  "end": 418.39,
+  "text": "uh we will enter the keys one by one"
+ },
+ {
+  "start": 418.4,
+  "end": 420.99,
+  "text": "okay and and for"
+ },
+ {
+  "start": 421.0,
+  "end": 424.189,
+  "text": "that we are going to use something"
+ },
+ {
+  "start": 424.199,
+  "end": 428.029,
+  "text": "called the send Keys expression right so"
+ },
+ {
+  "start": 428.039,
+  "end": 430.15,
+  "text": "using the send Keys expression we can"
+ },
+ {
+  "start": 430.16,
+  "end": 433.67,
+  "text": "send the keys one by one and in that way"
+ },
+ {
+  "start": 433.68,
+  "end": 437.07,
+  "text": "it will emulate a user typing the number"
+ },
+ {
+  "start": 437.08,
+  "end": 439.83,
+  "text": "into the text box okay so let's see if"
+ },
+ {
+  "start": 439.84,
+  "end": 442.589,
+  "text": "that makes a difference so I'm just"
+ },
+ {
+  "start": 442.599,
+  "end": 445.11,
+  "text": "going to put the same expression inside"
+ },
+ {
+  "start": 445.12,
+  "end": 448.309,
+  "text": "the send Keys now okay so this is how"
+ },
+ {
+  "start": 448.319,
+  "end": 451.469,
+  "text": "the expression will look like so let's"
+ },
+ {
+  "start": 451.479,
+  "end": 453.469,
+  "text": "go ahead and execute this and see"
+ },
+ {
+  "start": 453.479,
+  "end": 455.71,
+  "text": "whether it makes any difference or not"
+ },
+ {
+  "start": 455.72,
+  "end": 458.589,
+  "text": "right so I'm going to refresh this page"
+ },
+ {
+  "start": 458.599,
+  "end": 461.71,
+  "text": "so that we get some new numbers here and"
+ },
+ {
+  "start": 461.72,
+  "end": 464.71,
+  "text": "then uh we are going to execute that uh"
+ },
+ {
+  "start": 464.72,
+  "end": 467.99,
+  "text": "from the test case right so let's go"
+ },
+ {
+  "start": 468.0,
+  "end": 469.83,
+  "text": "ahead and execute that before that I"
+ },
+ {
+  "start": 469.84,
+  "end": 472.149,
+  "text": "will change the work state to complet it"
+ },
+ {
+  "start": 472.159,
+  "end": 476.95,
+  "text": "and then I'll execute"
+ },
+ {
+  "start": 480.149,
+  "end": 480.159,
+  "text": "this and this time around you will see"
+ },
+ {
+  "start": 480.159,
+  "end": 483.749,
+  "text": "that uh the message uh will appear and"
+ },
+ {
+  "start": 483.759,
+  "end": 486.83,
+  "text": "the difference is pretty clear right so"
+ },
+ {
+  "start": 486.84,
+  "end": 490.11,
+  "text": "if you are entering like an user then uh"
+ },
+ {
+  "start": 490.12,
+  "end": 492.469,
+  "text": "the application is able to recognize"
+ },
+ {
+  "start": 492.479,
+  "end": 495.07,
+  "text": "that okay the numbers have been entered"
+ },
+ {
+  "start": 495.08,
+  "end": 497.99,
+  "text": "but if you just use the input"
+ },
+ {
+  "start": 498.0,
+  "end": 501.27,
+  "text": "function then um it will probably not"
+ },
+ {
+  "start": 501.28,
+  "end": 503.469,
+  "text": "work sometimes right even though you"
+ },
+ {
+  "start": 503.479,
+  "end": 505.629,
+  "text": "have entered the correct number so"
+ },
+ {
+  "start": 505.639,
+  "end": 508.07,
+  "text": "sometimes you need to uh adjust uh the"
+ },
+ {
+  "start": 508.08,
+  "end": 512.11,
+  "text": "inputting uh methods in your test cases"
+ },
+ {
+  "start": 512.12,
+  "end": 514.67,
+  "text": "but this is how uh you can basically"
+ },
+ {
+  "start": 514.68,
+  "end": 517.149,
+  "text": "buffer uh your randomly generated"
+ },
+ {
+  "start": 517.159,
+  "end": 520.19,
+  "text": "numbers and then you can use the math"
+ },
+ {
+  "start": 520.2,
+  "end": 522.909,
+  "text": "function to uh perform any mathematical"
+ },
+ {
+  "start": 522.919,
+  "end": 525.23,
+  "text": "calculation and then you can also use"
+ },
+ {
+  "start": 525.24,
+  "end": 529.47,
+  "text": "the send Keys expression to uh enter the"
+ },
+ {
+  "start": 529.48,
+  "end": 532.71,
+  "text": "number into the text box"
+ },
+ {
+  "start": 532.72,
+  "end": 535.07,
+  "text": "field that's all for this particular"
+ },
+ {
+  "start": 535.08,
+  "end": 537.509,
+  "text": "video if you have any questions then"
+ },
+ {
+  "start": 537.519,
+  "end": 539.71,
+  "text": "please leave it in the comments"
+ },
+ {
+  "start": 539.72,
+  "end": 541.43,
+  "text": "if you like this video then please"
+ },
+ {
+  "start": 541.44,
+  "end": 543.829,
+  "text": "subscribe to our Channel thanks for"
+ },
+ {
+  "start": 543.839,
+  "end": 546.949,
+  "text": "watching and I will see you in the next"
+ },
+ {
+  "start": 546.959,
+  "end": 549.959,
+  "text": "video"
+ }
+]

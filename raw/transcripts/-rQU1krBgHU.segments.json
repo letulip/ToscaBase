@@ -1,0 +1,1212 @@
+[
+ {
+  "start": 10.91,
+  "end": 10.92,
+  "text": "in this Tasker session we are going to"
+ },
+ {
+  "start": 10.92,
+  "end": 14.15,
+  "text": "talk about the action mode buffer now we"
+ },
+ {
+  "start": 14.16,
+  "end": 16.73,
+  "text": "have briefly spoken about the action"
+ },
+ {
+  "start": 16.74,
+  "end": 19.31,
+  "text": "mode buffer in our previous session when"
+ },
+ {
+  "start": 19.32,
+  "end": 22.37,
+  "text": "we were discussing about other action"
+ },
+ {
+  "start": 22.38,
+  "end": 24.529,
+  "text": "modes like verify"
+ },
+ {
+  "start": 24.539,
+  "end": 28.79,
+  "text": "constraint and uh also select right so"
+ },
+ {
+  "start": 28.8,
+  "end": 31.669,
+  "text": "what exactly is a buffer"
+ },
+ {
+  "start": 31.679,
+  "end": 35.33,
+  "text": "in Tosca this term buffer is used to"
+ },
+ {
+  "start": 35.34,
+  "end": 37.85,
+  "text": "refer to values which can be stored"
+ },
+ {
+  "start": 37.86,
+  "end": 40.61,
+  "text": "temporarily in Tosca commander and then"
+ },
+ {
+  "start": 40.62,
+  "end": 42.83,
+  "text": "they can be used again"
+ },
+ {
+  "start": 42.84,
+  "end": 46.43,
+  "text": "so this helps you to store values which"
+ },
+ {
+  "start": 46.44,
+  "end": 48.709,
+  "text": "you want to verify later in a different"
+ },
+ {
+  "start": 48.719,
+  "end": 51.47,
+  "text": "test case or in later part of your test"
+ },
+ {
+  "start": 51.48,
+  "end": 55.189,
+  "text": "cases right so it's like a global"
+ },
+ {
+  "start": 55.199,
+  "end": 58.67,
+  "text": "variable you can say in uh in terms of"
+ },
+ {
+  "start": 58.68,
+  "end": 61.25,
+  "text": "programming languages it acts as a"
+ },
+ {
+  "start": 61.26,
+  "end": 62.99,
+  "text": "global variable which can store some"
+ },
+ {
+  "start": 63.0,
+  "end": 65.329,
+  "text": "values and you can use it throughout"
+ },
+ {
+  "start": 65.339,
+  "end": 67.609,
+  "text": "your test cases okay"
+ },
+ {
+  "start": 67.619,
+  "end": 70.55,
+  "text": "these values can either be static or"
+ },
+ {
+  "start": 70.56,
+  "end": 71.87,
+  "text": "dynamic"
+ },
+ {
+  "start": 71.88,
+  "end": 74.09,
+  "text": "and there are different ways to buffer"
+ },
+ {
+  "start": 74.1,
+  "end": 77.75,
+  "text": "values in Tosca one of the ways is the"
+ },
+ {
+  "start": 77.76,
+  "end": 80.69,
+  "text": "action mode buffer and which we are"
+ },
+ {
+  "start": 80.7,
+  "end": 82.19,
+  "text": "going to see in this particular"
+ },
+ {
+  "start": 82.2,
+  "end": 84.469,
+  "text": "demonstration"
+ },
+ {
+  "start": 84.479,
+  "end": 87.05,
+  "text": "also once you create this buffer values"
+ },
+ {
+  "start": 87.06,
+  "end": 90.649,
+  "text": "they are available or stored in settings"
+ },
+ {
+  "start": 90.659,
+  "end": 94.55,
+  "text": "under the Tosca engine right so if you"
+ },
+ {
+  "start": 94.56,
+  "end": 97.01,
+  "text": "go to settings engine you will see there"
+ },
+ {
+  "start": 97.02,
+  "end": 99.83,
+  "text": "is a folder called buffer and once you"
+ },
+ {
+  "start": 99.84,
+  "end": 102.109,
+  "text": "create a buffer"
+ },
+ {
+  "start": 102.119,
+  "end": 104.749,
+  "text": "um or once you buffer any particular"
+ },
+ {
+  "start": 104.759,
+  "end": 107.33,
+  "text": "value that particular value will be"
+ },
+ {
+  "start": 107.34,
+  "end": 110.69,
+  "text": "stored on under this folder okay so for"
+ },
+ {
+  "start": 110.7,
+  "end": 112.67,
+  "text": "creating a buffer you need a buffer name"
+ },
+ {
+  "start": 112.68,
+  "end": 114.71,
+  "text": "and then a particular value which will"
+ },
+ {
+  "start": 114.72,
+  "end": 116.929,
+  "text": "be stored in that particular variable"
+ },
+ {
+  "start": 116.939,
+  "end": 119.63,
+  "text": "which is the buffer name okay so both"
+ },
+ {
+  "start": 119.64,
+  "end": 121.91,
+  "text": "will be displayed here under buffer with"
+ },
+ {
+  "start": 121.92,
+  "end": 124.13,
+  "text": "the name and a value"
+ },
+ {
+  "start": 124.14,
+  "end": 126.649,
+  "text": "so we'll see that when after we create a"
+ },
+ {
+  "start": 126.659,
+  "end": 128.449,
+  "text": "particular buffer value and then we'll"
+ },
+ {
+  "start": 128.459,
+  "end": 130.07,
+  "text": "come back to the screen and we'll see"
+ },
+ {
+  "start": 130.08,
+  "end": 132.47,
+  "text": "that it is stored uh in this particular"
+ },
+ {
+  "start": 132.48,
+  "end": 135.229,
+  "text": "folder okay"
+ },
+ {
+  "start": 135.239,
+  "end": 137.57,
+  "text": "so to understand how this action mode"
+ },
+ {
+  "start": 137.58,
+  "end": 140.21,
+  "text": "buffer Works let's pick up a scenario"
+ },
+ {
+  "start": 140.22,
+  "end": 143.75,
+  "text": "okay so I am on this demo webshop and my"
+ },
+ {
+  "start": 143.76,
+  "end": 147.71,
+  "text": "particular scenario is once I go into"
+ },
+ {
+  "start": 147.72,
+  "end": 150.53,
+  "text": "this login and I log in with my email"
+ },
+ {
+  "start": 150.54,
+  "end": 154.67,
+  "text": "and password okay and then I click on"
+ },
+ {
+  "start": 154.68,
+  "end": 157.309,
+  "text": "login I come to this page on this home"
+ },
+ {
+  "start": 157.319,
+  "end": 159.83,
+  "text": "page my email is displayed right and"
+ },
+ {
+  "start": 159.84,
+  "end": 162.89,
+  "text": "that tells me that or that's a"
+ },
+ {
+  "start": 162.9,
+  "end": 165.71,
+  "text": "verification step telling me that I have"
+ },
+ {
+  "start": 165.72,
+  "end": 168.35,
+  "text": "logged in successfully okay I can either"
+ },
+ {
+  "start": 168.36,
+  "end": 170.99,
+  "text": "verify this or I can also verify a log"
+ },
+ {
+  "start": 171.0,
+  "end": 173.27,
+  "text": "out but for this particular scenario"
+ },
+ {
+  "start": 173.28,
+  "end": 175.91,
+  "text": "let's verify that this particular email"
+ },
+ {
+  "start": 175.92,
+  "end": 179.509,
+  "text": "is displayed here okay"
+ },
+ {
+  "start": 179.519,
+  "end": 182.57,
+  "text": "now it's a very common scenario which"
+ },
+ {
+  "start": 182.58,
+  "end": 184.85,
+  "text": "you will be probably automating in"
+ },
+ {
+  "start": 184.86,
+  "end": 186.89,
+  "text": "almost every application where you are"
+ },
+ {
+  "start": 186.9,
+  "end": 189.29,
+  "text": "logging in and logging out so to verify"
+ },
+ {
+  "start": 189.3,
+  "end": 191.03,
+  "text": "your login test case you will probably"
+ },
+ {
+  "start": 191.04,
+  "end": 194.21,
+  "text": "need this verification step right so"
+ },
+ {
+  "start": 194.22,
+  "end": 196.55,
+  "text": "let's see how we can use the action mode"
+ },
+ {
+  "start": 196.56,
+  "end": 199.07,
+  "text": "buffer in order to perform this"
+ },
+ {
+  "start": 199.08,
+  "end": 202.49,
+  "text": "particular scenario okay"
+ },
+ {
+  "start": 202.5,
+  "end": 207.05,
+  "text": "so what I have done already in my Tosca"
+ },
+ {
+  "start": 207.06,
+  "end": 209.63,
+  "text": "is I've already created a particular"
+ },
+ {
+  "start": 209.64,
+  "end": 212.809,
+  "text": "module or different modules for"
+ },
+ {
+  "start": 212.819,
+  "end": 215.63,
+  "text": "performing this particular scenario okay"
+ },
+ {
+  "start": 215.64,
+  "end": 217.729,
+  "text": "so I have got all the modules like"
+ },
+ {
+  "start": 217.739,
+  "end": 221.93,
+  "text": "logout with username and log out and log"
+ },
+ {
+  "start": 221.94,
+  "end": 224.03,
+  "text": "in where we'll enter all the information"
+ },
+ {
+  "start": 224.04,
+  "end": 227.089,
+  "text": "for that particular user and the"
+ },
+ {
+  "start": 227.099,
+  "end": 229.55,
+  "text": "register page which currently we are not"
+ },
+ {
+  "start": 229.56,
+  "end": 232.13,
+  "text": "using and the headers where we have got"
+ },
+ {
+  "start": 232.14,
+  "end": 234.83,
+  "text": "the login link okay so we'll be using"
+ },
+ {
+  "start": 234.84,
+  "end": 238.009,
+  "text": "all these modules to create a test case"
+ },
+ {
+  "start": 238.019,
+  "end": 240.71,
+  "text": "and in that test case we'll also use the"
+ },
+ {
+  "start": 240.72,
+  "end": 243.53,
+  "text": "action mode buffer okay"
+ },
+ {
+  "start": 243.54,
+  "end": 246.77,
+  "text": "so I have already a folder called actual"
+ },
+ {
+  "start": 246.78,
+  "end": 248.809,
+  "text": "modes inside this I'm going to create"
+ },
+ {
+  "start": 248.819,
+  "end": 251.449,
+  "text": "another test case and I'm going to name"
+ },
+ {
+  "start": 251.459,
+  "end": 254.99,
+  "text": "it verify buffer"
+ },
+ {
+  "start": 255.0,
+  "end": 257.629,
+  "text": "okay"
+ },
+ {
+  "start": 261.17,
+  "end": 261.18,
+  "text": "so this is my test case name you can"
+ },
+ {
+  "start": 261.18,
+  "end": 264.83,
+  "text": "name it anything but let's go ahead with"
+ },
+ {
+  "start": 264.84,
+  "end": 265.67,
+  "text": "this"
+ },
+ {
+  "start": 265.68,
+  "end": 269.45,
+  "text": "and then I'm going to add my test steps"
+ },
+ {
+  "start": 269.46,
+  "end": 272.21,
+  "text": "so the first step is to click on the"
+ },
+ {
+  "start": 272.22,
+  "end": 276.17,
+  "text": "login link okay so for that I will have"
+ },
+ {
+  "start": 276.18,
+  "end": 279.53,
+  "text": "to add the headers module okay and here"
+ },
+ {
+  "start": 279.54,
+  "end": 282.409,
+  "text": "I have the login link so I'm going to"
+ },
+ {
+  "start": 282.419,
+  "end": 285.59,
+  "text": "click on this and the action mode will"
+ },
+ {
+  "start": 285.6,
+  "end": 289.73,
+  "text": "be input okay let's rename this so to"
+ },
+ {
+  "start": 289.74,
+  "end": 294.53,
+  "text": "click login"
+ },
+ {
+  "start": 298.55,
+  "end": 298.56,
+  "text": "and my next module is to"
+ },
+ {
+  "start": 298.56,
+  "end": 301.73,
+  "text": "enter all the user information like the"
+ },
+ {
+  "start": 301.74,
+  "end": 304.99,
+  "text": "email password right in the login page"
+ },
+ {
+  "start": 305.0,
+  "end": 309.59,
+  "text": "so let's add the login information here"
+ },
+ {
+  "start": 309.6,
+  "end": 312.35,
+  "text": "and here we'll be entering the username"
+ },
+ {
+  "start": 312.36,
+  "end": 316.01,
+  "text": "and password"
+ },
+ {
+  "start": 317.15,
+  "end": 317.16,
+  "text": "okay"
+ },
+ {
+  "start": 317.16,
+  "end": 319.67,
+  "text": "and here we'll enter the password and"
+ },
+ {
+  "start": 319.68,
+  "end": 323.529,
+  "text": "then we'll click on the login link"
+ },
+ {
+  "start": 323.539,
+  "end": 328.79,
+  "text": "okay so that's our login"
+ },
+ {
+  "start": 328.8,
+  "end": 332.15,
+  "text": "and then we will do"
+ },
+ {
+  "start": 332.16,
+  "end": 336.249,
+  "text": "another test step where we will be"
+ },
+ {
+  "start": 336.259,
+  "end": 338.93,
+  "text": "verifying or we'll be buffering our"
+ },
+ {
+  "start": 338.94,
+  "end": 341.33,
+  "text": "values okay so for this we'll be using"
+ },
+ {
+  "start": 341.34,
+  "end": 343.49,
+  "text": "the logout module"
+ },
+ {
+  "start": 343.5,
+  "end": 345.71,
+  "text": "okay so we have got two controls"
+ },
+ {
+  "start": 345.72,
+  "end": 347.689,
+  "text": "username and logout we can verify any of"
+ },
+ {
+  "start": 347.699,
+  "end": 349.43,
+  "text": "them but we'll be going ahead with the"
+ },
+ {
+  "start": 349.44,
+  "end": 351.71,
+  "text": "username or email okay"
+ },
+ {
+  "start": 351.72,
+  "end": 354.469,
+  "text": "so first what we are going to do is to"
+ },
+ {
+  "start": 354.479,
+  "end": 356.99,
+  "text": "buffer this particular username or email"
+ },
+ {
+  "start": 357.0,
+  "end": 359.33,
+  "text": "right which is present on the"
+ },
+ {
+  "start": 359.34,
+  "end": 360.59,
+  "text": "application"
+ },
+ {
+  "start": 360.6,
+  "end": 362.81,
+  "text": "so for this we are going to use the"
+ },
+ {
+  "start": 362.82,
+  "end": 365.21,
+  "text": "action mode buffer"
+ },
+ {
+  "start": 365.22,
+  "end": 366.29,
+  "text": "okay"
+ },
+ {
+  "start": 366.3,
+  "end": 368.27,
+  "text": "so once you select the action mode"
+ },
+ {
+  "start": 368.28,
+  "end": 370.909,
+  "text": "buffer uh the value would be entered"
+ },
+ {
+  "start": 370.919,
+  "end": 373.43,
+  "text": "automatically it will just copy the"
+ },
+ {
+  "start": 373.44,
+  "end": 375.77,
+  "text": "control name but you can always change"
+ },
+ {
+  "start": 375.78,
+  "end": 378.89,
+  "text": "it okay so I'm going to use the buffer"
+ },
+ {
+  "start": 378.9,
+  "end": 380.57,
+  "text": "name as email"
+ },
+ {
+  "start": 380.58,
+  "end": 383.749,
+  "text": "okay so what's going to happen here uh"
+ },
+ {
+  "start": 383.759,
+  "end": 387.17,
+  "text": "once we select action one buffer it's"
+ },
+ {
+  "start": 387.18,
+  "end": 389.629,
+  "text": "um we have to enter a buffer name here"
+ },
+ {
+  "start": 389.639,
+  "end": 392.57,
+  "text": "which is the email and the value of this"
+ },
+ {
+  "start": 392.58,
+  "end": 395.09,
+  "text": "particular control okay will be buffered"
+ },
+ {
+  "start": 395.1,
+  "end": 398.51,
+  "text": "into this particular email buffer name"
+ },
+ {
+  "start": 398.52,
+  "end": 401.749,
+  "text": "okay so this is like a variable and the"
+ },
+ {
+  "start": 401.759,
+  "end": 404.029,
+  "text": "value of this control would be stored"
+ },
+ {
+  "start": 404.039,
+  "end": 405.83,
+  "text": "inside this"
+ },
+ {
+  "start": 405.84,
+  "end": 409.79,
+  "text": "and let's rename our test steps so so"
+ },
+ {
+  "start": 409.8,
+  "end": 411.59,
+  "text": "that we can better understand what's"
+ },
+ {
+  "start": 411.6,
+  "end": 415.43,
+  "text": "going on here so we'll say buffer"
+ },
+ {
+  "start": 415.44,
+  "end": 420.59,
+  "text": "username"
+ },
+ {
+  "start": 424.01,
+  "end": 424.02,
+  "text": "okay and then the next step is to verify"
+ },
+ {
+  "start": 424.02,
+  "end": 426.71,
+  "text": "the username so again we'll add the"
+ },
+ {
+  "start": 426.72,
+  "end": 429.23,
+  "text": "logout module here"
+ },
+ {
+  "start": 429.24,
+  "end": 436.07,
+  "text": "and we'll name it verify username"
+ },
+ {
+  "start": 438.17,
+  "end": 438.18,
+  "text": "and this time around we are going to"
+ },
+ {
+  "start": 438.18,
+  "end": 440.689,
+  "text": "verify or use the action mode verify"
+ },
+ {
+  "start": 440.699,
+  "end": 444.89,
+  "text": "okay and here we are going to now"
+ },
+ {
+  "start": 444.9,
+  "end": 447.29,
+  "text": "call that buffer which we have stored"
+ },
+ {
+  "start": 447.3,
+  "end": 449.27,
+  "text": "earlier right so we are going to reuse"
+ },
+ {
+  "start": 449.28,
+  "end": 451.67,
+  "text": "that particular value in this particular"
+ },
+ {
+  "start": 451.68,
+  "end": 456.05,
+  "text": "step okay so for that again curly braces"
+ },
+ {
+  "start": 456.06,
+  "end": 459.23,
+  "text": "okay it's a dynamic expression and then"
+ },
+ {
+  "start": 459.24,
+  "end": 463.49,
+  "text": "you need to type B B means buffer all"
+ },
+ {
+  "start": 463.5,
+  "end": 466.37,
+  "text": "right it shows you the description so"
+ },
+ {
+  "start": 466.38,
+  "end": 467.87,
+  "text": "Returns the value stored in the"
+ },
+ {
+  "start": 467.88,
+  "end": 469.79,
+  "text": "specified buffer okay"
+ },
+ {
+  "start": 469.8,
+  "end": 472.909,
+  "text": "and then you have to say bracket and"
+ },
+ {
+  "start": 472.919,
+  "end": 474.35,
+  "text": "then you have to type the buffer name"
+ },
+ {
+  "start": 474.36,
+  "end": 476.749,
+  "text": "which you have used earlier right so it"
+ },
+ {
+  "start": 476.759,
+  "end": 480.409,
+  "text": "is email we already know that"
+ },
+ {
+  "start": 480.419,
+  "end": 483.71,
+  "text": "so this is our value which it should be"
+ },
+ {
+  "start": 483.72,
+  "end": 486.17,
+  "text": "verified against okay"
+ },
+ {
+  "start": 486.18,
+  "end": 488.21,
+  "text": "and then finally what we are going to do"
+ },
+ {
+  "start": 488.22,
+  "end": 490.129,
+  "text": "is we are going to click on the logout"
+ },
+ {
+  "start": 490.139,
+  "end": 493.43,
+  "text": "link so again the logout modules"
+ },
+ {
+  "start": 493.44,
+  "end": 495.35,
+  "text": "and this time around we are going to"
+ },
+ {
+  "start": 495.36,
+  "end": 498.23,
+  "text": "click on the logout link right so that's"
+ },
+ {
+  "start": 498.24,
+  "end": 500.33,
+  "text": "my whole scenario you can see first I'll"
+ },
+ {
+  "start": 500.34,
+  "end": 502.61,
+  "text": "click on login I will enter the"
+ },
+ {
+  "start": 502.62,
+  "end": 505.07,
+  "text": "information required and then login the"
+ },
+ {
+  "start": 505.08,
+  "end": 507.83,
+  "text": "user and then I am going to buffer the"
+ },
+ {
+  "start": 507.84,
+  "end": 509.39,
+  "text": "username which is present on the"
+ },
+ {
+  "start": 509.4,
+  "end": 510.529,
+  "text": "application"
+ },
+ {
+  "start": 510.539,
+  "end": 512.69,
+  "text": "and then I'm going to verify that"
+ },
+ {
+  "start": 512.7,
+  "end": 514.31,
+  "text": "against"
+ },
+ {
+  "start": 514.32,
+  "end": 519.649,
+  "text": "uh my actual username okay"
+ },
+ {
+  "start": 523.49,
+  "end": 523.5,
+  "text": "uh okay and then I'm going to click on"
+ },
+ {
+  "start": 523.5,
+  "end": 525.71,
+  "text": "the logout link"
+ },
+ {
+  "start": 525.72,
+  "end": 528.05,
+  "text": "so this is our whole scenario you can"
+ },
+ {
+  "start": 528.06,
+  "end": 531.17,
+  "text": "see we are using the action mode buffer"
+ },
+ {
+  "start": 531.18,
+  "end": 533.63,
+  "text": "and the action mode verify"
+ },
+ {
+  "start": 533.64,
+  "end": 535.85,
+  "text": "in order to buffer a particular value"
+ },
+ {
+  "start": 535.86,
+  "end": 540.05,
+  "text": "and then use it uh later to verify uh"
+ },
+ {
+  "start": 540.06,
+  "end": 542.449,
+  "text": "that particular value okay"
+ },
+ {
+  "start": 542.459,
+  "end": 545.81,
+  "text": "foreign so let's go ahead and run this"
+ },
+ {
+  "start": 545.82,
+  "end": 549.829,
+  "text": "now Okay so let me click on logout so"
+ },
+ {
+  "start": 549.839,
+  "end": 553.91,
+  "text": "that we are on the uh home page"
+ },
+ {
+  "start": 553.92,
+  "end": 556.73,
+  "text": "and let's go ahead and run this in"
+ },
+ {
+  "start": 556.74,
+  "end": 570.829,
+  "text": "scratchbook"
+ },
+ {
+  "start": 573.59,
+  "end": 573.6,
+  "text": "so as you can see uh it executed all the"
+ },
+ {
+  "start": 573.6,
+  "end": 574.73,
+  "text": "steps"
+ },
+ {
+  "start": 574.74,
+  "end": 576.829,
+  "text": "um it's also present in your results"
+ },
+ {
+  "start": 576.839,
+  "end": 578.03,
+  "text": "okay"
+ },
+ {
+  "start": 578.04,
+  "end": 580.37,
+  "text": "the two steps which we are interested is"
+ },
+ {
+  "start": 580.38,
+  "end": 583.79,
+  "text": "in buffer username and verify username"
+ },
+ {
+  "start": 583.8,
+  "end": 587.75,
+  "text": "so the buffer username you can see here"
+ },
+ {
+  "start": 587.76,
+  "end": 590.449,
+  "text": "it is saying a buffer with name email"
+ },
+ {
+  "start": 590.459,
+  "end": 592.91,
+  "text": "has been set to this particular value"
+ },
+ {
+  "start": 592.92,
+  "end": 596.449,
+  "text": "okay so this was the value or the inner"
+ },
+ {
+  "start": 596.459,
+  "end": 598.61,
+  "text": "text right for this particular control"
+ },
+ {
+  "start": 598.62,
+  "end": 601.009,
+  "text": "which was stored in this particular"
+ },
+ {
+  "start": 601.019,
+  "end": 601.97,
+  "text": "email"
+ },
+ {
+  "start": 601.98,
+  "end": 603.11,
+  "text": "okay"
+ },
+ {
+  "start": 603.12,
+  "end": 607.79,
+  "text": "and then uh what we did we that was our"
+ },
+ {
+  "start": 607.8,
+  "end": 610.61,
+  "text": "expected value right which we stored in"
+ },
+ {
+  "start": 610.62,
+  "end": 613.449,
+  "text": "the buffer and then we are actually"
+ },
+ {
+  "start": 613.459,
+  "end": 617.509,
+  "text": "verifying it with our actual value okay"
+ },
+ {
+  "start": 617.519,
+  "end": 621.47,
+  "text": "so this is one small example how you can"
+ },
+ {
+  "start": 621.48,
+  "end": 624.29,
+  "text": "use the action mode buffer it can be"
+ },
+ {
+  "start": 624.3,
+  "end": 627.65,
+  "text": "used in different scenarios like if you"
+ },
+ {
+  "start": 627.66,
+  "end": 630.47,
+  "text": "want to verify some table values you"
+ },
+ {
+  "start": 630.48,
+  "end": 632.389,
+  "text": "buffer those values either in the"
+ },
+ {
+  "start": 632.399,
+  "end": 635.449,
+  "text": "database or in the web application and"
+ },
+ {
+  "start": 635.459,
+  "end": 639.11,
+  "text": "then you use those buffer values and"
+ },
+ {
+  "start": 639.12,
+  "end": 642.41,
+  "text": "verify it against the application or the"
+ },
+ {
+  "start": 642.42,
+  "end": 644.389,
+  "text": "database right so there are many"
+ },
+ {
+  "start": 644.399,
+  "end": 646.37,
+  "text": "scenarios where you can use this it's"
+ },
+ {
+  "start": 646.38,
+  "end": 648.11,
+  "text": "very useful"
+ },
+ {
+  "start": 648.12,
+  "end": 650.15,
+  "text": "um whenever you are trying to automate"
+ },
+ {
+  "start": 650.16,
+  "end": 653.509,
+  "text": "different scenarios okay"
+ },
+ {
+  "start": 653.519,
+  "end": 655.91,
+  "text": "so the last thing uh which we want to"
+ },
+ {
+  "start": 655.92,
+  "end": 658.49,
+  "text": "verify is whether this buffer value was"
+ },
+ {
+  "start": 658.5,
+  "end": 659.63,
+  "text": "stored"
+ },
+ {
+  "start": 659.64,
+  "end": 662.93,
+  "text": "um in the Tosca Commander okay so I told"
+ },
+ {
+  "start": 662.94,
+  "end": 664.67,
+  "text": "you that we can see that under settings"
+ },
+ {
+  "start": 664.68,
+  "end": 666.71,
+  "text": "and under engine"
+ },
+ {
+  "start": 666.72,
+  "end": 669.61,
+  "text": "so this buffer value with the name email"
+ },
+ {
+  "start": 669.62,
+  "end": 673.67,
+  "text": "and the username in the value column is"
+ },
+ {
+  "start": 673.68,
+  "end": 676.49,
+  "text": "added under this buffer okay"
+ },
+ {
+  "start": 676.5,
+  "end": 680.09,
+  "text": "so this is a temporary uh kind of"
+ },
+ {
+  "start": 680.1,
+  "end": 682.67,
+  "text": "variable which can be used in your test"
+ },
+ {
+  "start": 682.68,
+  "end": 686.509,
+  "text": "cases to perform different steps right"
+ },
+ {
+  "start": 686.519,
+  "end": 689.269,
+  "text": "we'll look at some of the other action"
+ },
+ {
+  "start": 689.279,
+  "end": 691.55,
+  "text": "modes like weight on in our coming up"
+ },
+ {
+  "start": 691.56,
+  "end": 693.86,
+  "text": "session"
+ }
+]

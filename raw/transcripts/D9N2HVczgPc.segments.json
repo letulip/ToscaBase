@@ -1,0 +1,882 @@
+[
+ {
+  "start": 8.81,
+  "end": 8.82,
+  "text": "hey everyone welcome back to our Channel"
+ },
+ {
+  "start": 8.82,
+  "end": 11.39,
+  "text": "I am back with another interesting topic"
+ },
+ {
+  "start": 11.4,
+  "end": 14.33,
+  "text": "in the Tosca automation playlist in this"
+ },
+ {
+  "start": 14.34,
+  "end": 17.21,
+  "text": "video we are going to discuss about the"
+ },
+ {
+  "start": 17.22,
+  "end": 20.21,
+  "text": "business test cases which are an option"
+ },
+ {
+  "start": 20.22,
+  "end": 22.609,
+  "text": "under the test cases section in Tosca"
+ },
+ {
+  "start": 22.619,
+  "end": 23.87,
+  "text": "workspace"
+ },
+ {
+  "start": 23.88,
+  "end": 26.33,
+  "text": "now what are these business test cases"
+ },
+ {
+  "start": 26.34,
+  "end": 29.57,
+  "text": "and how are they useful"
+ },
+ {
+  "start": 29.58,
+  "end": 32.089,
+  "text": "so business test cases help you to"
+ },
+ {
+  "start": 32.099,
+  "end": 35.209,
+  "text": "basically give you an overview of the"
+ },
+ {
+  "start": 35.219,
+  "end": 37.13,
+  "text": "end-to-end scenarios"
+ },
+ {
+  "start": 37.14,
+  "end": 39.95,
+  "text": "and this end-to-end scenarios could be"
+ },
+ {
+  "start": 39.96,
+  "end": 42.229,
+  "text": "made up of individual test cases that"
+ },
+ {
+  "start": 42.239,
+  "end": 45.29,
+  "text": "cover different requirements or it could"
+ },
+ {
+  "start": 45.3,
+  "end": 48.35,
+  "text": "also cover different releases or"
+ },
+ {
+  "start": 48.36,
+  "end": 50.33,
+  "text": "different applications"
+ },
+ {
+  "start": 50.34,
+  "end": 52.61,
+  "text": "so these business test cases they are"
+ },
+ {
+  "start": 52.62,
+  "end": 55.13,
+  "text": "created in order to determine the order"
+ },
+ {
+  "start": 55.14,
+  "end": 57.35,
+  "text": "of the test cases which needs to be"
+ },
+ {
+  "start": 57.36,
+  "end": 58.369,
+  "text": "executed"
+ },
+ {
+  "start": 58.379,
+  "end": 61.25,
+  "text": "and how they should be assigned"
+ },
+ {
+  "start": 61.26,
+  "end": 63.77,
+  "text": "also they are used to map the"
+ },
+ {
+  "start": 63.78,
+  "end": 65.929,
+  "text": "chronological and business perspective"
+ },
+ {
+  "start": 65.939,
+  "end": 67.25,
+  "text": "together"
+ },
+ {
+  "start": 67.26,
+  "end": 70.25,
+  "text": "so business execution lists which we"
+ },
+ {
+  "start": 70.26,
+  "end": 72.53,
+  "text": "create they combine different execution"
+ },
+ {
+  "start": 72.54,
+  "end": 75.35,
+  "text": "lists which have been executed in a"
+ },
+ {
+  "start": 75.36,
+  "end": 77.69,
+  "text": "certain chronological order"
+ },
+ {
+  "start": 77.7,
+  "end": 81.35,
+  "text": "and then they are brought together into"
+ },
+ {
+  "start": 81.36,
+  "end": 83.149,
+  "text": "a single unit"
+ },
+ {
+  "start": 83.159,
+  "end": 86.63,
+  "text": "so looking at those results uh we can"
+ },
+ {
+  "start": 86.64,
+  "end": 90.469,
+  "text": "make different perspectives of the"
+ },
+ {
+  "start": 90.479,
+  "end": 92.749,
+  "text": "complete business processes"
+ },
+ {
+  "start": 92.759,
+  "end": 95.99,
+  "text": "so these are not concentrated on"
+ },
+ {
+  "start": 96.0,
+  "end": 100.609,
+  "text": "specific test cases or a specific areas"
+ },
+ {
+  "start": 100.619,
+  "end": 103.789,
+  "text": "of your application these are more wider"
+ },
+ {
+  "start": 103.799,
+  "end": 107.09,
+  "text": "business processes so you need to"
+ },
+ {
+  "start": 107.1,
+  "end": 110.21,
+  "text": "combine a lot of different test cases to"
+ },
+ {
+  "start": 110.22,
+  "end": 113.51,
+  "text": "make a complete end-to-end business flow"
+ },
+ {
+  "start": 113.52,
+  "end": 115.969,
+  "text": "then when you combine the results of all"
+ },
+ {
+  "start": 115.979,
+  "end": 118.31,
+  "text": "the execution lists which are linked to"
+ },
+ {
+  "start": 118.32,
+  "end": 120.649,
+  "text": "all these different test cases you can"
+ },
+ {
+  "start": 120.659,
+  "end": 124.249,
+  "text": "give a business perspective to your uh"
+ },
+ {
+  "start": 124.259,
+  "end": 126.59,
+  "text": "Management on whether this business"
+ },
+ {
+  "start": 126.6,
+  "end": 129.71,
+  "text": "process is working or something is"
+ },
+ {
+  "start": 129.72,
+  "end": 132.71,
+  "text": "broken within this business process and"
+ },
+ {
+  "start": 132.72,
+  "end": 134.39,
+  "text": "this might include different"
+ },
+ {
+  "start": 134.4,
+  "end": 136.85,
+  "text": "applications different releases"
+ },
+ {
+  "start": 136.86,
+  "end": 140.69,
+  "text": "different execution runs or different"
+ },
+ {
+  "start": 140.7,
+  "end": 143.75,
+  "text": "test cases let's see now how we can"
+ },
+ {
+  "start": 143.76,
+  "end": 146.21,
+  "text": "create a business test case and how we"
+ },
+ {
+  "start": 146.22,
+  "end": 148.61,
+  "text": "can create a business execution list how"
+ },
+ {
+  "start": 148.62,
+  "end": 151.67,
+  "text": "we can link all of this together and get"
+ },
+ {
+  "start": 151.68,
+  "end": 153.71,
+  "text": "an overview of the end-to-end business"
+ },
+ {
+  "start": 153.72,
+  "end": 155.33,
+  "text": "process"
+ },
+ {
+  "start": 155.34,
+  "end": 158.27,
+  "text": "so coming to our test cases section so"
+ },
+ {
+  "start": 158.28,
+  "end": 161.39,
+  "text": "here um under the demo webshop I have"
+ },
+ {
+  "start": 161.4,
+  "end": 164.69,
+  "text": "created three different test cases one"
+ },
+ {
+  "start": 164.7,
+  "end": 167.63,
+  "text": "is for registering a user one is logging"
+ },
+ {
+  "start": 167.64,
+  "end": 170.63,
+  "text": "a user and one is the order processing"
+ },
+ {
+  "start": 170.64,
+  "end": 173.15,
+  "text": "so these are the three main"
+ },
+ {
+  "start": 173.16,
+  "end": 175.91,
+  "text": "functionalities uh which I want to test"
+ },
+ {
+  "start": 175.92,
+  "end": 178.43,
+  "text": "which might be part of one of my"
+ },
+ {
+  "start": 178.44,
+  "end": 181.85,
+  "text": "requirements or might be part of one of"
+ },
+ {
+  "start": 181.86,
+  "end": 184.55,
+  "text": "my business process so this is like an"
+ },
+ {
+  "start": 184.56,
+  "end": 187.43,
+  "text": "end-to-end scenario which I want to test"
+ },
+ {
+  "start": 187.44,
+  "end": 190.55,
+  "text": "uh in my application"
+ },
+ {
+  "start": 190.56,
+  "end": 193.13,
+  "text": "so to create a business test case I have"
+ },
+ {
+  "start": 193.14,
+  "end": 194.57,
+  "text": "created a folder called business"
+ },
+ {
+  "start": 194.58,
+  "end": 196.61,
+  "text": "scenarios under which I'll be creating"
+ },
+ {
+  "start": 196.62,
+  "end": 198.77,
+  "text": "my business test case so right click on"
+ },
+ {
+  "start": 198.78,
+  "end": 201.53,
+  "text": "that folder and then you will find a"
+ },
+ {
+  "start": 201.54,
+  "end": 205.13,
+  "text": "briefcase like sign which indicates that"
+ },
+ {
+  "start": 205.14,
+  "end": 206.99,
+  "text": "you can create a business test case"
+ },
+ {
+  "start": 207.0,
+  "end": 209.69,
+  "text": "using this particular option so click on"
+ },
+ {
+  "start": 209.7,
+  "end": 212.509,
+  "text": "that and then this will be your business"
+ },
+ {
+  "start": 212.519,
+  "end": 215.99,
+  "text": "test case so I'm going to name this"
+ },
+ {
+  "start": 216.0,
+  "end": 219.41,
+  "text": "end to end"
+ },
+ {
+  "start": 221.149,
+  "end": 221.159,
+  "text": "scenario"
+ },
+ {
+  "start": 221.159,
+  "end": 222.229,
+  "text": "okay"
+ },
+ {
+  "start": 222.239,
+  "end": 224.57,
+  "text": "and this end-to-end scenario will"
+ },
+ {
+  "start": 224.58,
+  "end": 227.21,
+  "text": "contain all the different flows which is"
+ },
+ {
+  "start": 227.22,
+  "end": 231.41,
+  "text": "part of this scenario so I'm going to"
+ },
+ {
+  "start": 231.42,
+  "end": 235.25,
+  "text": "uh drag all of these different"
+ },
+ {
+  "start": 235.26,
+  "end": 237.949,
+  "text": "test cases into this particular business"
+ },
+ {
+  "start": 237.959,
+  "end": 240.53,
+  "text": "test case which is the end-to-end"
+ },
+ {
+  "start": 240.54,
+  "end": 243.229,
+  "text": "scenario now keep in mind that when you"
+ },
+ {
+  "start": 243.239,
+  "end": 246.77,
+  "text": "create a business test case it is only a"
+ },
+ {
+  "start": 246.78,
+  "end": 249.229,
+  "text": "structural test case it is not a test"
+ },
+ {
+  "start": 249.239,
+  "end": 251.929,
+  "text": "case which you can execute okay so it"
+ },
+ {
+  "start": 251.939,
+  "end": 254.21,
+  "text": "only contains the reference of the test"
+ },
+ {
+  "start": 254.22,
+  "end": 257.81,
+  "text": "cases which it is linked to so you can"
+ },
+ {
+  "start": 257.82,
+  "end": 259.969,
+  "text": "consider it as a structure which"
+ },
+ {
+  "start": 259.979,
+  "end": 261.71,
+  "text": "contains all the different test cases"
+ },
+ {
+  "start": 261.72,
+  "end": 265.07,
+  "text": "which you want to create a business flow"
+ },
+ {
+  "start": 265.08,
+  "end": 267.29,
+  "text": "for yourself okay"
+ },
+ {
+  "start": 267.3,
+  "end": 269.39,
+  "text": "so this is a business test case now"
+ },
+ {
+  "start": 269.4,
+  "end": 271.49,
+  "text": "which contains all the different test"
+ },
+ {
+  "start": 271.5,
+  "end": 273.249,
+  "text": "cases which are linked to it"
+ },
+ {
+  "start": 273.259,
+  "end": 275.99,
+  "text": "now we also need to create a business"
+ },
+ {
+  "start": 276.0,
+  "end": 279.65,
+  "text": "execution list okay and for that uh"
+ },
+ {
+  "start": 279.66,
+  "end": 281.93,
+  "text": "we'll again go to demo webshop and here"
+ },
+ {
+  "start": 281.94,
+  "end": 284.689,
+  "text": "I have got the business scenarios"
+ },
+ {
+  "start": 284.699,
+  "end": 288.11,
+  "text": "so here I am going to create a business"
+ },
+ {
+  "start": 288.12,
+  "end": 291.77,
+  "text": "execution list okay"
+ },
+ {
+  "start": 291.78,
+  "end": 296.27,
+  "text": "now again I'm going to name this as end"
+ },
+ {
+  "start": 296.28,
+  "end": 299.57,
+  "text": "to end scenario"
+ },
+ {
+  "start": 299.58,
+  "end": 304.43,
+  "text": "and then I'm going to link this to our"
+ },
+ {
+  "start": 304.44,
+  "end": 306.77,
+  "text": "business test case okay"
+ },
+ {
+  "start": 306.78,
+  "end": 309.17,
+  "text": "so I'm going to drag and drop this"
+ },
+ {
+  "start": 309.18,
+  "end": 311.39,
+  "text": "business test case into this business"
+ },
+ {
+  "start": 311.4,
+  "end": 313.79,
+  "text": "execution list"
+ },
+ {
+  "start": 313.8,
+  "end": 318.79,
+  "text": "now uh apart from this we also need to"
+ },
+ {
+  "start": 318.8,
+  "end": 322.129,
+  "text": "link the individual execution list"
+ },
+ {
+  "start": 322.139,
+  "end": 324.77,
+  "text": "related to this test cases to this"
+ },
+ {
+  "start": 324.78,
+  "end": 327.469,
+  "text": "business execution list okay"
+ },
+ {
+  "start": 327.479,
+  "end": 330.95,
+  "text": "so uh now let's drag and drop the"
+ },
+ {
+  "start": 330.96,
+  "end": 334.07,
+  "text": "individual execution list okay"
+ },
+ {
+  "start": 334.08,
+  "end": 336.409,
+  "text": "and"
+ },
+ {
+  "start": 336.419,
+  "end": 341.029,
+  "text": "it should be in a specific order okay"
+ },
+ {
+  "start": 341.039,
+  "end": 345.17,
+  "text": "so let's see if these are in the"
+ },
+ {
+  "start": 345.18,
+  "end": 347.57,
+  "text": "specific order okay so first register"
+ },
+ {
+  "start": 347.58,
+  "end": 350.33,
+  "text": "then login and then order processing so"
+ },
+ {
+  "start": 350.34,
+  "end": 352.909,
+  "text": "it is in the specific order which it"
+ },
+ {
+  "start": 352.919,
+  "end": 355.79,
+  "text": "should be okay now the business"
+ },
+ {
+  "start": 355.8,
+  "end": 359.57,
+  "text": "execution list is also only a structure"
+ },
+ {
+  "start": 359.58,
+  "end": 362.45,
+  "text": "you cannot actually execute this so"
+ },
+ {
+  "start": 362.46,
+  "end": 364.67,
+  "text": "there is no option to execute a business"
+ },
+ {
+  "start": 364.68,
+  "end": 368.81,
+  "text": "execution list or a business test case"
+ },
+ {
+  "start": 368.82,
+  "end": 371.27,
+  "text": "so now what it will do"
+ },
+ {
+  "start": 371.28,
+  "end": 374.749,
+  "text": "it will uh concatenate all the results"
+ },
+ {
+  "start": 374.759,
+  "end": 377.51,
+  "text": "from all these different execution lists"
+ },
+ {
+  "start": 377.52,
+  "end": 380.029,
+  "text": "which you have linked and you will get"
+ },
+ {
+  "start": 380.039,
+  "end": 383.39,
+  "text": "an overview of your end-to-end business"
+ },
+ {
+  "start": 383.4,
+  "end": 387.469,
+  "text": "test flow of what is the result okay so"
+ },
+ {
+  "start": 387.479,
+  "end": 390.409,
+  "text": "in this you can see it has already taken"
+ },
+ {
+  "start": 390.419,
+  "end": 392.87,
+  "text": "all the results from the execution list"
+ },
+ {
+  "start": 392.88,
+  "end": 395.57,
+  "text": "and it is showing it here so our"
+ },
+ {
+  "start": 395.58,
+  "end": 398.57,
+  "text": "register user flow is working fine our"
+ },
+ {
+  "start": 398.58,
+  "end": 401.27,
+  "text": "login user flow is working fine but our"
+ },
+ {
+  "start": 401.28,
+  "end": 403.37,
+  "text": "order processing flow is currently"
+ },
+ {
+  "start": 403.38,
+  "end": 406.909,
+  "text": "failing okay so this is the part which"
+ },
+ {
+  "start": 406.919,
+  "end": 408.83,
+  "text": "is not working in the complete"
+ },
+ {
+  "start": 408.84,
+  "end": 411.95,
+  "text": "end-to-end business flow and this is"
+ },
+ {
+  "start": 411.96,
+  "end": 413.57,
+  "text": "what we can communicate back to the"
+ },
+ {
+  "start": 413.58,
+  "end": 415.85,
+  "text": "business that this is the part which is"
+ },
+ {
+  "start": 415.86,
+  "end": 418.189,
+  "text": "not working so we need to work on this"
+ },
+ {
+  "start": 418.199,
+  "end": 421.67,
+  "text": "and we can fix this uh and then the"
+ },
+ {
+  "start": 421.68,
+  "end": 425.029,
+  "text": "business flow would be working uh on an"
+ },
+ {
+  "start": 425.039,
+  "end": 427.79,
+  "text": "end-to-end basis now this is just one"
+ },
+ {
+  "start": 427.8,
+  "end": 430.49,
+  "text": "example of how you can do this"
+ },
+ {
+  "start": 430.5,
+  "end": 432.469,
+  "text": "um as I said it could contain different"
+ },
+ {
+  "start": 432.479,
+  "end": 434.93,
+  "text": "applications so you can drag different"
+ },
+ {
+  "start": 434.94,
+  "end": 436.99,
+  "text": "test cases from different applications"
+ },
+ {
+  "start": 437.0,
+  "end": 440.21,
+  "text": "or maybe if you want to get in a"
+ },
+ {
+  "start": 440.22,
+  "end": 443.089,
+  "text": "business flow for a different releases"
+ },
+ {
+  "start": 443.099,
+  "end": 446.689,
+  "text": "so you can drag different uh execution"
+ },
+ {
+  "start": 446.699,
+  "end": 448.85,
+  "text": "lists from different release executions"
+ },
+ {
+  "start": 448.86,
+  "end": 450.95,
+  "text": "which you have done earlier and then you"
+ },
+ {
+  "start": 450.96,
+  "end": 453.73,
+  "text": "can provide the business a proper view"
+ },
+ {
+  "start": 453.74,
+  "end": 457.79,
+  "text": "of what is the current scenario for the"
+ },
+ {
+  "start": 457.8,
+  "end": 460.969,
+  "text": "end-to-end business flows okay"
+ },
+ {
+  "start": 460.979,
+  "end": 464.029,
+  "text": "so this business just cases and business"
+ },
+ {
+  "start": 464.039,
+  "end": 467.57,
+  "text": "execution lists are used for providing a"
+ },
+ {
+  "start": 467.58,
+  "end": 469.969,
+  "text": "perspective to your complete end-to-end"
+ },
+ {
+  "start": 469.979,
+  "end": 472.189,
+  "text": "business scenarios and this is how you"
+ },
+ {
+  "start": 472.199,
+  "end": 473.689,
+  "text": "can create them"
+ },
+ {
+  "start": 473.699,
+  "end": 478.01,
+  "text": "um and how you can link them together"
+ },
+ {
+  "start": 480.83,
+  "end": 480.84,
+  "text": "that's all for this particular video if"
+ },
+ {
+  "start": 480.84,
+  "end": 482.629,
+  "text": "you have any questions then please leave"
+ },
+ {
+  "start": 482.639,
+  "end": 484.129,
+  "text": "it in the comments"
+ },
+ {
+  "start": 484.139,
+  "end": 485.99,
+  "text": "if you like this video then please"
+ },
+ {
+  "start": 486.0,
+  "end": 487.73,
+  "text": "subscribe to our Channel"
+ },
+ {
+  "start": 487.74,
+  "end": 490.01,
+  "text": "thanks for watching and I will see you"
+ },
+ {
+  "start": 490.02,
+  "end": 492.8,
+  "text": "in the next video"
+ }
+]

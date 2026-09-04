@@ -1,0 +1,2112 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:05.880 --> 00:00:08.390 align:start position:0%
+ 
+hey<00:00:06.359><c> everyone</c><00:00:06.540><c> welcome</c><00:00:07.319><c> back</c><00:00:07.620><c> to</c><00:00:07.799><c> this</c><00:00:07.980><c> Tosca</c>
+
+00:00:08.390 --> 00:00:08.400 align:start position:0%
+hey everyone welcome back to this Tosca
+ 
+
+00:00:08.400 --> 00:00:10.370 align:start position:0%
+hey everyone welcome back to this Tosca
+automation<00:00:08.880><c> playlist</c><00:00:09.179><c> and</c><00:00:09.840><c> today</c><00:00:09.960><c> we</c><00:00:10.200><c> are</c>
+
+00:00:10.370 --> 00:00:10.380 align:start position:0%
+automation playlist and today we are
+ 
+
+00:00:10.380 --> 00:00:13.629 align:start position:0%
+automation playlist and today we are
+going<00:00:10.500><c> to</c><00:00:10.679><c> learn</c><00:00:10.920><c> about</c><00:00:11.280><c> a</c><00:00:12.120><c> new</c><00:00:12.300><c> way</c><00:00:13.139><c> of</c>
+
+00:00:13.629 --> 00:00:13.639 align:start position:0%
+going to learn about a new way of
+ 
+
+00:00:13.639 --> 00:00:16.670 align:start position:0%
+going to learn about a new way of
+embedding<00:00:14.639><c> the</c><00:00:14.820><c> controls</c><00:00:15.360><c> inside</c><00:00:16.139><c> a</c>
+
+00:00:16.670 --> 00:00:16.680 align:start position:0%
+embedding the controls inside a
+ 
+
+00:00:16.680 --> 00:00:19.550 align:start position:0%
+embedding the controls inside a
+particular<00:00:16.980><c> object</c><00:00:17.400><c> inside</c><00:00:18.000><c> Tosca</c>
+
+00:00:19.550 --> 00:00:19.560 align:start position:0%
+particular object inside Tosca
+ 
+
+00:00:19.560 --> 00:00:21.290 align:start position:0%
+particular object inside Tosca
+and<00:00:20.160><c> there</c><00:00:20.400><c> are</c><00:00:20.520><c> different</c><00:00:20.640><c> ways</c><00:00:21.000><c> of</c><00:00:21.119><c> doing</c>
+
+00:00:21.290 --> 00:00:21.300 align:start position:0%
+and there are different ways of doing
+ 
+
+00:00:21.300 --> 00:00:23.330 align:start position:0%
+and there are different ways of doing
+this<00:00:21.600><c> uh</c><00:00:22.140><c> we'll</c><00:00:22.320><c> see</c><00:00:22.560><c> how</c><00:00:22.740><c> you</c><00:00:22.859><c> can</c><00:00:22.980><c> embed</c>
+
+00:00:23.330 --> 00:00:23.340 align:start position:0%
+this uh we'll see how you can embed
+ 
+
+00:00:23.340 --> 00:00:26.450 align:start position:0%
+this uh we'll see how you can embed
+controls<00:00:23.939><c> inside</c><00:00:24.359><c> a</c><00:00:24.840><c> table</c><00:00:25.019><c> object</c><00:00:25.560><c> but</c><00:00:26.279><c> this</c>
+
+00:00:26.450 --> 00:00:26.460 align:start position:0%
+controls inside a table object but this
+ 
+
+00:00:26.460 --> 00:00:28.429 align:start position:0%
+controls inside a table object but this
+could<00:00:26.640><c> be</c><00:00:26.820><c> applied</c><00:00:27.240><c> to</c><00:00:27.599><c> any</c><00:00:27.840><c> other</c><00:00:28.019><c> object</c>
+
+00:00:28.429 --> 00:00:28.439 align:start position:0%
+could be applied to any other object
+ 
+
+00:00:28.439 --> 00:00:30.410 align:start position:0%
+could be applied to any other object
+type<00:00:28.740><c> when</c><00:00:29.460><c> you</c><00:00:29.640><c> are</c><00:00:29.760><c> working</c><00:00:29.880><c> with</c><00:00:30.119><c> a</c><00:00:30.300><c> web</c>
+
+00:00:30.410 --> 00:00:30.420 align:start position:0%
+type when you are working with a web
+ 
+
+00:00:30.420 --> 00:00:31.490 align:start position:0%
+type when you are working with a web
+application
+
+00:00:31.490 --> 00:00:31.500 align:start position:0%
+application
+ 
+
+00:00:31.500 --> 00:00:34.190 align:start position:0%
+application
+okay<00:00:32.099><c> so</c><00:00:32.579><c> the</c><00:00:32.759><c> scenario</c><00:00:33.120><c> which</c><00:00:33.360><c> I</c><00:00:33.480><c> picked</c><00:00:33.840><c> is</c>
+
+00:00:34.190 --> 00:00:34.200 align:start position:0%
+okay so the scenario which I picked is
+ 
+
+00:00:34.200 --> 00:00:36.350 align:start position:0%
+okay so the scenario which I picked is
+this<00:00:34.500><c> obstacle</c><00:00:34.980><c> course</c><00:00:35.280><c> from</c><00:00:35.700><c> try</c><00:00:35.940><c> centers</c>
+
+00:00:36.350 --> 00:00:36.360 align:start position:0%
+this obstacle course from try centers
+ 
+
+00:00:36.360 --> 00:00:38.750 align:start position:0%
+this obstacle course from try centers
+and<00:00:37.140><c> here</c><00:00:37.380><c> you</c><00:00:37.620><c> can</c><00:00:37.739><c> see</c><00:00:37.920><c> this</c><00:00:38.219><c> is</c><00:00:38.340><c> a</c><00:00:38.640><c> table</c>
+
+00:00:38.750 --> 00:00:38.760 align:start position:0%
+and here you can see this is a table
+ 
+
+00:00:38.760 --> 00:00:41.869 align:start position:0%
+and here you can see this is a table
+with<00:00:39.180><c> different</c><00:00:39.420><c> rows</c><00:00:39.960><c> and</c><00:00:40.200><c> columns</c><00:00:40.680><c> and</c><00:00:41.640><c> then</c>
+
+00:00:41.869 --> 00:00:41.879 align:start position:0%
+with different rows and columns and then
+ 
+
+00:00:41.879 --> 00:00:44.389 align:start position:0%
+with different rows and columns and then
+there<00:00:42.180><c> is</c><00:00:42.360><c> a</c><00:00:42.719><c> control</c><00:00:42.840><c> here</c><00:00:43.260><c> a</c><00:00:43.620><c> button</c><00:00:43.980><c> which</c>
+
+00:00:44.389 --> 00:00:44.399 align:start position:0%
+there is a control here a button which
+ 
+
+00:00:44.399 --> 00:00:46.430 align:start position:0%
+there is a control here a button which
+is<00:00:44.579><c> inside</c><00:00:44.940><c> this</c><00:00:45.360><c> particular</c><00:00:45.660><c> table</c><00:00:45.840><c> and</c><00:00:46.320><c> it</c>
+
+00:00:46.430 --> 00:00:46.440 align:start position:0%
+is inside this particular table and it
+ 
+
+00:00:46.440 --> 00:00:49.250 align:start position:0%
+is inside this particular table and it
+has<00:00:46.620><c> got</c><00:00:46.860><c> this</c><00:00:47.760><c> for</c><00:00:48.059><c> each</c><00:00:48.420><c> and</c><00:00:48.600><c> every</c><00:00:48.780><c> row</c>
+
+00:00:49.250 --> 00:00:49.260 align:start position:0%
+has got this for each and every row
+ 
+
+00:00:49.260 --> 00:00:51.709 align:start position:0%
+has got this for each and every row
+right<00:00:49.620><c> so</c><00:00:50.160><c> what</c><00:00:50.280><c> I</c><00:00:50.460><c> want</c><00:00:50.579><c> to</c><00:00:50.700><c> do</c><00:00:50.879><c> here</c><00:00:51.180><c> is</c><00:00:51.539><c> I</c>
+
+00:00:51.709 --> 00:00:51.719 align:start position:0%
+right so what I want to do here is I
+ 
+
+00:00:51.719 --> 00:00:54.350 align:start position:0%
+right so what I want to do here is I
+want<00:00:51.840><c> to</c><00:00:52.020><c> click</c><00:00:52.320><c> on</c><00:00:52.620><c> this</c><00:00:52.800><c> go</c><00:00:53.160><c> for</c><00:00:53.399><c> it</c><00:00:53.700><c> button</c>
+
+00:00:54.350 --> 00:00:54.360 align:start position:0%
+want to click on this go for it button
+ 
+
+00:00:54.360 --> 00:00:58.010 align:start position:0%
+want to click on this go for it button
+in<00:00:54.960><c> the</c><00:00:55.079><c> first</c><00:00:55.260><c> row</c><00:00:55.739><c> okay</c><00:00:56.100><c> or</c><00:00:56.520><c> maybe</c><00:00:56.940><c> any</c><00:00:57.300><c> row</c><00:00:57.660><c> I</c>
+
+00:00:58.010 --> 00:00:58.020 align:start position:0%
+in the first row okay or maybe any row I
+ 
+
+00:00:58.020 --> 00:01:00.830 align:start position:0%
+in the first row okay or maybe any row I
+like<00:00:58.379><c> right</c><00:00:58.800><c> so</c><00:00:59.640><c> this</c><00:01:00.120><c> is</c><00:01:00.180><c> an</c><00:01:00.420><c> embedded</c>
+
+00:01:00.830 --> 00:01:00.840 align:start position:0%
+like right so this is an embedded
+ 
+
+00:01:00.840 --> 00:01:03.170 align:start position:0%
+like right so this is an embedded
+control<00:01:01.079><c> inside</c><00:01:01.680><c> this</c><00:01:02.039><c> table</c><00:01:02.219><c> and</c><00:01:02.760><c> I</c><00:01:02.879><c> want</c><00:01:03.059><c> to</c>
+
+00:01:03.170 --> 00:01:03.180 align:start position:0%
+control inside this table and I want to
+ 
+
+00:01:03.180 --> 00:01:07.370 align:start position:0%
+control inside this table and I want to
+click<00:01:03.480><c> on</c><00:01:03.660><c> this</c><00:01:03.899><c> okay</c><00:01:04.379><c> so</c><00:01:05.360><c> it's</c><00:01:06.360><c> not</c><00:01:06.780><c> that</c><00:01:07.080><c> you</c>
+
+00:01:07.370 --> 00:01:07.380 align:start position:0%
+click on this okay so it's not that you
+ 
+
+00:01:07.380 --> 00:01:09.530 align:start position:0%
+click on this okay so it's not that you
+can<00:01:07.500><c> do</c><00:01:07.740><c> it</c><00:01:08.040><c> straight</c><00:01:08.340><c> away</c><00:01:08.520><c> by</c><00:01:09.000><c> just</c><00:01:09.180><c> scanning</c>
+
+00:01:09.530 --> 00:01:09.540 align:start position:0%
+can do it straight away by just scanning
+ 
+
+00:01:09.540 --> 00:01:11.810 align:start position:0%
+can do it straight away by just scanning
+it<00:01:09.720><c> and</c><00:01:09.960><c> then</c><00:01:10.080><c> clicking</c><00:01:10.500><c> on</c><00:01:10.619><c> it</c><00:01:10.799><c> because</c><00:01:11.400><c> all</c>
+
+00:01:11.810 --> 00:01:11.820 align:start position:0%
+it and then clicking on it because all
+ 
+
+00:01:11.820 --> 00:01:14.090 align:start position:0%
+it and then clicking on it because all
+these<00:01:12.000><c> controls</c><00:01:12.540><c> are</c><00:01:12.900><c> similar</c><00:01:13.320><c> right</c><00:01:13.560><c> so</c><00:01:13.860><c> they</c>
+
+00:01:14.090 --> 00:01:14.100 align:start position:0%
+these controls are similar right so they
+ 
+
+00:01:14.100 --> 00:01:17.270 align:start position:0%
+these controls are similar right so they
+will<00:01:14.280><c> have</c><00:01:14.520><c> the</c><00:01:15.000><c> same</c><00:01:15.180><c> properties</c><00:01:15.680><c> so</c><00:01:16.680><c> there</c>
+
+00:01:17.270 --> 00:01:17.280 align:start position:0%
+will have the same properties so there
+ 
+
+00:01:17.280 --> 00:01:19.910 align:start position:0%
+will have the same properties so there
+has<00:01:17.460><c> to</c><00:01:17.580><c> be</c><00:01:17.700><c> a</c><00:01:17.939><c> way</c><00:01:18.119><c> of</c><00:01:18.600><c> clicking</c><00:01:19.200><c> just</c><00:01:19.619><c> this</c>
+
+00:01:19.910 --> 00:01:19.920 align:start position:0%
+has to be a way of clicking just this
+ 
+
+00:01:19.920 --> 00:01:21.770 align:start position:0%
+has to be a way of clicking just this
+particular<00:01:20.220><c> button</c><00:01:20.580><c> now</c><00:01:21.000><c> we</c><00:01:21.180><c> know</c><00:01:21.360><c> there</c><00:01:21.600><c> are</c>
+
+00:01:21.770 --> 00:01:21.780 align:start position:0%
+particular button now we know there are
+ 
+
+00:01:21.780 --> 00:01:23.990 align:start position:0%
+particular button now we know there are
+different<00:01:22.020><c> ways</c><00:01:22.439><c> of</c><00:01:22.560><c> doing</c><00:01:22.680><c> it</c><00:01:22.920><c> you</c><00:01:23.640><c> can</c><00:01:23.759><c> use</c>
+
+00:01:23.990 --> 00:01:24.000 align:start position:0%
+different ways of doing it you can use
+ 
+
+00:01:24.000 --> 00:01:26.570 align:start position:0%
+different ways of doing it you can use
+index<00:01:24.540><c> you</c><00:01:24.900><c> can</c><00:01:25.020><c> use</c><00:01:25.259><c> the</c><00:01:25.560><c> table</c><00:01:25.740><c> sharing</c>
+
+00:01:26.570 --> 00:01:26.580 align:start position:0%
+index you can use the table sharing
+ 
+
+00:01:26.580 --> 00:01:28.910 align:start position:0%
+index you can use the table sharing
+methods<00:01:27.119><c> to</c><00:01:27.659><c> click</c><00:01:28.259><c> on</c><00:01:28.500><c> this</c><00:01:28.619><c> particular</c>
+
+00:01:28.910 --> 00:01:28.920 align:start position:0%
+methods to click on this particular
+ 
+
+00:01:28.920 --> 00:01:33.230 align:start position:0%
+methods to click on this particular
+button<00:01:29.340><c> right</c><00:01:29.880><c> but</c><00:01:30.479><c> we'll</c><00:01:30.720><c> see</c><00:01:31.020><c> uh</c><00:01:31.500><c> how</c><00:01:32.460><c> the</c>
+
+00:01:33.230 --> 00:01:33.240 align:start position:0%
+button right but we'll see uh how the
+ 
+
+00:01:33.240 --> 00:01:36.469 align:start position:0%
+button right but we'll see uh how the
+control<00:01:33.540><c> is</c><00:01:34.380><c> basically</c><00:01:34.740><c> separated</c><00:01:35.340><c> from</c><00:01:36.119><c> the</c>
+
+00:01:36.469 --> 00:01:36.479 align:start position:0%
+control is basically separated from the
+ 
+
+00:01:36.479 --> 00:01:39.050 align:start position:0%
+control is basically separated from the
+table<00:01:36.600><c> controls</c><00:01:37.320><c> and</c><00:01:37.979><c> that</c><00:01:38.220><c> is</c><00:01:38.340><c> where</c><00:01:38.640><c> we</c><00:01:38.880><c> want</c>
+
+00:01:39.050 --> 00:01:39.060 align:start position:0%
+table controls and that is where we want
+ 
+
+00:01:39.060 --> 00:01:41.929 align:start position:0%
+table controls and that is where we want
+to<00:01:39.240><c> embed</c><00:01:39.600><c> this</c><00:01:39.900><c> control</c><00:01:40.140><c> uh</c><00:01:40.979><c> into</c><00:01:41.220><c> the</c><00:01:41.520><c> module</c>
+
+00:01:41.929 --> 00:01:41.939 align:start position:0%
+to embed this control uh into the module
+ 
+
+00:01:41.939 --> 00:01:45.770 align:start position:0%
+to embed this control uh into the module
+or<00:01:42.479><c> into</c><00:01:42.659><c> the</c><00:01:42.960><c> table</c><00:01:43.140><c> okay</c><00:01:43.920><c> inside</c><00:01:44.460><c> the</c><00:01:44.820><c> module</c>
+
+00:01:45.770 --> 00:01:45.780 align:start position:0%
+or into the table okay inside the module
+ 
+
+00:01:45.780 --> 00:01:49.550 align:start position:0%
+or into the table okay inside the module
+so<00:01:46.380><c> let's</c><00:01:46.619><c> see</c><00:01:47.040><c> how</c><00:01:47.280><c> we</c><00:01:47.400><c> can</c><00:01:47.579><c> do</c><00:01:47.700><c> this</c>
+
+00:01:49.550 --> 00:01:49.560 align:start position:0%
+so let's see how we can do this
+ 
+
+00:01:49.560 --> 00:01:53.210 align:start position:0%
+so let's see how we can do this
+so<00:01:50.280><c> first</c><00:01:50.700><c> let</c><00:01:51.360><c> me</c><00:01:51.540><c> go</c><00:01:51.720><c> ahead</c><00:01:52.079><c> and</c><00:01:52.619><c> scan</c><00:01:53.040><c> this</c>
+
+00:01:53.210 --> 00:01:53.220 align:start position:0%
+so first let me go ahead and scan this
+ 
+
+00:01:53.220 --> 00:01:54.950 align:start position:0%
+so first let me go ahead and scan this
+particular<00:01:53.579><c> module</c><00:01:53.939><c> and</c><00:01:54.240><c> then</c><00:01:54.420><c> let</c><00:01:54.780><c> me</c>
+
+00:01:54.950 --> 00:01:54.960 align:start position:0%
+particular module and then let me
+ 
+
+00:01:54.960 --> 00:01:57.590 align:start position:0%
+particular module and then let me
+explain<00:01:55.140><c> uh</c><00:01:56.100><c> you</c><00:01:56.340><c> how</c><00:01:56.880><c> this</c><00:01:57.000><c> embed</c><00:01:57.420><c> control</c>
+
+00:01:57.590 --> 00:01:57.600 align:start position:0%
+explain uh you how this embed control
+ 
+
+00:01:57.600 --> 00:02:01.010 align:start position:0%
+explain uh you how this embed control
+looks<00:01:58.140><c> like</c><00:01:58.259><c> so</c><00:01:59.159><c> automatically</c><00:01:59.880><c> uh</c><00:02:00.420><c> Tosca</c><00:02:00.840><c> is</c>
+
+00:02:01.010 --> 00:02:01.020 align:start position:0%
+looks like so automatically uh Tosca is
+ 
+
+00:02:01.020 --> 00:02:03.170 align:start position:0%
+looks like so automatically uh Tosca is
+not<00:02:01.140><c> going</c><00:02:01.380><c> to</c><00:02:01.500><c> add</c><00:02:01.860><c> it</c><00:02:02.100><c> as</c><00:02:02.579><c> an</c><00:02:02.759><c> embedded</c>
+
+00:02:03.170 --> 00:02:03.180 align:start position:0%
+not going to add it as an embedded
+ 
+
+00:02:03.180 --> 00:02:07.130 align:start position:0%
+not going to add it as an embedded
+control<00:02:03.479><c> okay</c><00:02:04.140><c> so</c><00:02:05.040><c> uh</c><00:02:05.700><c> it</c><00:02:06.060><c> will</c><00:02:06.180><c> show</c><00:02:06.479><c> it</c><00:02:06.719><c> as</c><00:02:06.960><c> a</c>
+
+00:02:07.130 --> 00:02:07.140 align:start position:0%
+control okay so uh it will show it as a
+ 
+
+00:02:07.140 --> 00:02:09.949 align:start position:0%
+control okay so uh it will show it as a
+separate<00:02:07.439><c> control</c><00:02:07.740><c> so</c><00:02:08.700><c> if</c><00:02:08.940><c> you</c><00:02:09.000><c> see</c><00:02:09.239><c> here</c>
+
+00:02:09.949 --> 00:02:09.959 align:start position:0%
+separate control so if you see here
+ 
+
+00:02:09.959 --> 00:02:12.229 align:start position:0%
+separate control so if you see here
+uh<00:02:10.679><c> in</c><00:02:10.800><c> this</c><00:02:10.979><c> table</c><00:02:11.220><c> so</c><00:02:11.640><c> this</c><00:02:11.819><c> is</c><00:02:11.940><c> the</c><00:02:12.120><c> table</c>
+
+00:02:12.229 --> 00:02:12.239 align:start position:0%
+uh in this table so this is the table
+ 
+
+00:02:12.239 --> 00:02:14.390 align:start position:0%
+uh in this table so this is the table
+which<00:02:12.720><c> contains</c><00:02:13.319><c> all</c><00:02:13.620><c> the</c><00:02:13.800><c> different</c><00:02:13.920><c> rows</c>
+
+00:02:14.390 --> 00:02:14.400 align:start position:0%
+which contains all the different rows
+ 
+
+00:02:14.400 --> 00:02:16.729 align:start position:0%
+which contains all the different rows
+and<00:02:14.580><c> rows</c><00:02:15.239><c> and</c><00:02:15.360><c> columns</c><00:02:15.780><c> right</c>
+
+00:02:16.729 --> 00:02:16.739 align:start position:0%
+and rows and columns right
+ 
+
+00:02:16.739 --> 00:02:19.430 align:start position:0%
+and rows and columns right
+and<00:02:17.340><c> we</c><00:02:17.520><c> need</c><00:02:17.640><c> to</c><00:02:17.760><c> select</c><00:02:18.060><c> this</c><00:02:18.180><c> table</c><00:02:18.420><c> okay</c><00:02:19.020><c> to</c>
+
+00:02:19.430 --> 00:02:19.440 align:start position:0%
+and we need to select this table okay to
+ 
+
+00:02:19.440 --> 00:02:21.650 align:start position:0%
+and we need to select this table okay to
+access<00:02:19.620><c> all</c><00:02:19.980><c> these</c><00:02:20.220><c> controls</c><00:02:20.700><c> and</c><00:02:21.360><c> then</c><00:02:21.480><c> you</c>
+
+00:02:21.650 --> 00:02:21.660 align:start position:0%
+access all these controls and then you
+ 
+
+00:02:21.660 --> 00:02:24.050 align:start position:0%
+access all these controls and then you
+will<00:02:21.840><c> see</c><00:02:22.080><c> these</c><00:02:22.379><c> links</c><00:02:22.739><c> which</c><00:02:23.099><c> is</c><00:02:23.340><c> go</c><00:02:23.580><c> for</c><00:02:23.760><c> it</c>
+
+00:02:24.050 --> 00:02:24.060 align:start position:0%
+will see these links which is go for it
+ 
+
+00:02:24.060 --> 00:02:26.270 align:start position:0%
+will see these links which is go for it
+right<00:02:24.540><c> so</c><00:02:24.900><c> all</c><00:02:25.140><c> these</c><00:02:25.379><c> links</c><00:02:25.680><c> are</c><00:02:26.099><c> for</c>
+
+00:02:26.270 --> 00:02:26.280 align:start position:0%
+right so all these links are for
+ 
+
+00:02:26.280 --> 00:02:29.449 align:start position:0%
+right so all these links are for
+different<00:02:26.580><c> rows</c><00:02:27.060><c> and</c><00:02:28.020><c> if</c><00:02:28.319><c> I</c><00:02:28.680><c> increase</c><00:02:28.920><c> this</c>
+
+00:02:29.449 --> 00:02:29.459 align:start position:0%
+different rows and if I increase this
+ 
+
+00:02:29.459 --> 00:02:31.850 align:start position:0%
+different rows and if I increase this
+filtered<00:02:29.879><c> items</c><00:02:30.480><c> you</c><00:02:30.900><c> can</c><00:02:31.020><c> see</c><00:02:31.200><c> it</c><00:02:31.440><c> properly</c>
+
+00:02:31.850 --> 00:02:31.860 align:start position:0%
+filtered items you can see it properly
+ 
+
+00:02:31.860 --> 00:02:35.630 align:start position:0%
+filtered items you can see it properly
+okay<00:02:32.400><c> so</c><00:02:33.300><c> you</c><00:02:33.540><c> can</c><00:02:33.840><c> see</c><00:02:34.020><c> now</c><00:02:34.200><c> the</c><00:02:34.560><c> TR</c><00:02:34.800><c> which</c><00:02:35.459><c> is</c>
+
+00:02:35.630 --> 00:02:35.640 align:start position:0%
+okay so you can see now the TR which is
+ 
+
+00:02:35.640 --> 00:02:38.570 align:start position:0%
+okay so you can see now the TR which is
+the<00:02:36.000><c> table</c><00:02:36.239><c> row</c><00:02:36.660><c> has</c><00:02:36.959><c> got</c><00:02:37.200><c> the</c><00:02:37.560><c> go</c><00:02:37.739><c> for</c><00:02:37.980><c> it</c><00:02:38.220><c> link</c>
+
+00:02:38.570 --> 00:02:38.580 align:start position:0%
+the table row has got the go for it link
+ 
+
+00:02:38.580 --> 00:02:42.530 align:start position:0%
+the table row has got the go for it link
+right<00:02:39.319><c> but</c><00:02:40.319><c> uh</c><00:02:40.860><c> it's</c><00:02:41.220><c> not</c><00:02:41.340><c> best</c><00:02:41.640><c> practice</c><00:02:41.879><c> to</c>
+
+00:02:42.530 --> 00:02:42.540 align:start position:0%
+right but uh it's not best practice to
+ 
+
+00:02:42.540 --> 00:02:45.229 align:start position:0%
+right but uh it's not best practice to
+directly<00:02:43.080><c> select</c><00:02:43.500><c> the</c><00:02:43.920><c> table</c><00:02:44.099><c> row</c><00:02:44.580><c> okay</c><00:02:44.940><c> and</c>
+
+00:02:45.229 --> 00:02:45.239 align:start position:0%
+directly select the table row okay and
+ 
+
+00:02:45.239 --> 00:02:47.990 align:start position:0%
+directly select the table row okay and
+then<00:02:45.360><c> select</c><00:02:45.660><c> the</c><00:02:45.780><c> go</c><00:02:45.959><c> for</c><00:02:46.200><c> it</c><00:02:46.379><c> still</c><00:02:47.160><c> it</c><00:02:47.459><c> won't</c>
+
+00:02:47.990 --> 00:02:48.000 align:start position:0%
+then select the go for it still it won't
+ 
+
+00:02:48.000 --> 00:02:50.809 align:start position:0%
+then select the go for it still it won't
+be<00:02:48.300><c> a</c><00:02:48.480><c> embedded</c><00:02:48.959><c> control</c><00:02:49.200><c> okay</c>
+
+00:02:50.809 --> 00:02:50.819 align:start position:0%
+be a embedded control okay
+ 
+
+00:02:50.819 --> 00:02:53.930 align:start position:0%
+be a embedded control okay
+so<00:02:51.360><c> for</c><00:02:51.540><c> now</c><00:02:51.780><c> if</c><00:02:52.379><c> I</c><00:02:52.560><c> go</c><00:02:52.739><c> ahead</c><00:02:52.980><c> and</c><00:02:53.459><c> maybe</c>
+
+00:02:53.930 --> 00:02:53.940 align:start position:0%
+so for now if I go ahead and maybe
+ 
+
+00:02:53.940 --> 00:02:57.770 align:start position:0%
+so for now if I go ahead and maybe
+select<00:02:54.540><c> this</c><00:02:54.780><c> first</c><00:02:55.019><c> link</c><00:02:55.319><c> okay</c>
+
+00:02:57.770 --> 00:02:57.780 align:start position:0%
+select this first link okay
+ 
+
+00:02:57.780 --> 00:03:00.830 align:start position:0%
+select this first link okay
+so<00:02:58.680><c> Tosca</c><00:02:59.220><c> will</c><00:02:59.400><c> say</c><00:02:59.580><c> that</c><00:02:59.819><c> it</c><00:03:00.060><c> is</c><00:03:00.239><c> not</c><00:03:00.540><c> a</c>
+
+00:03:00.830 --> 00:03:00.840 align:start position:0%
+so Tosca will say that it is not a
+ 
+
+00:03:00.840 --> 00:03:04.130 align:start position:0%
+so Tosca will say that it is not a
+unique<00:03:01.080><c> control</c><00:03:01.319><c> right</c><00:03:01.980><c> so</c><00:03:02.400><c> that's</c><00:03:02.940><c> fine</c>
+
+00:03:04.130 --> 00:03:04.140 align:start position:0%
+unique control right so that's fine
+ 
+
+00:03:04.140 --> 00:03:06.290 align:start position:0%
+unique control right so that's fine
+um<00:03:04.200><c> obviously</c><00:03:04.620><c> I</c><00:03:04.980><c> can</c><00:03:05.099><c> change</c><00:03:05.459><c> some</c><00:03:05.940><c> technical</c>
+
+00:03:06.290 --> 00:03:06.300 align:start position:0%
+um obviously I can change some technical
+ 
+
+00:03:06.300 --> 00:03:08.630 align:start position:0%
+um obviously I can change some technical
+properties<00:03:06.840><c> to</c><00:03:07.200><c> make</c><00:03:07.319><c> it</c><00:03:07.500><c> unique</c><00:03:07.800><c> or</c><00:03:08.160><c> use</c><00:03:08.340><c> the</c>
+
+00:03:08.630 --> 00:03:08.640 align:start position:0%
+properties to make it unique or use the
+ 
+
+00:03:08.640 --> 00:03:11.630 align:start position:0%
+properties to make it unique or use the
+index<00:03:09.000><c> right</c><00:03:09.360><c> but</c><00:03:10.080><c> we</c><00:03:10.260><c> don't</c><00:03:10.500><c> want</c><00:03:10.739><c> to</c><00:03:10.860><c> go</c><00:03:11.099><c> uh</c>
+
+00:03:11.630 --> 00:03:11.640 align:start position:0%
+index right but we don't want to go uh
+ 
+
+00:03:11.640 --> 00:03:14.089 align:start position:0%
+index right but we don't want to go uh
+in<00:03:11.879><c> that</c><00:03:12.120><c> path</c><00:03:12.480><c> we</c><00:03:12.959><c> want</c><00:03:13.260><c> to</c><00:03:13.379><c> see</c><00:03:13.680><c> a</c><00:03:13.860><c> different</c>
+
+00:03:14.089 --> 00:03:14.099 align:start position:0%
+in that path we want to see a different
+ 
+
+00:03:14.099 --> 00:03:17.509 align:start position:0%
+in that path we want to see a different
+way<00:03:14.400><c> of</c><00:03:14.640><c> doing</c><00:03:14.819><c> this</c><00:03:15.480><c> okay</c><00:03:15.900><c> so</c><00:03:16.200><c> for</c><00:03:16.379><c> now</c><00:03:16.680><c> I'm</c>
+
+00:03:17.509 --> 00:03:17.519 align:start position:0%
+way of doing this okay so for now I'm
+ 
+
+00:03:17.519 --> 00:03:19.430 align:start position:0%
+way of doing this okay so for now I'm
+going<00:03:17.760><c> to</c><00:03:17.940><c> save</c><00:03:18.120><c> this</c><00:03:18.360><c> module</c>
+
+00:03:19.430 --> 00:03:19.440 align:start position:0%
+going to save this module
+ 
+
+00:03:19.440 --> 00:03:21.050 align:start position:0%
+going to save this module
+okay
+
+00:03:21.050 --> 00:03:21.060 align:start position:0%
+okay
+ 
+
+00:03:21.060 --> 00:03:23.330 align:start position:0%
+okay
+and<00:03:21.659><c> let's</c><00:03:21.840><c> go</c><00:03:22.140><c> back</c><00:03:22.319><c> here</c>
+
+00:03:23.330 --> 00:03:23.340 align:start position:0%
+and let's go back here
+ 
+
+00:03:23.340 --> 00:03:27.110 align:start position:0%
+and let's go back here
+and<00:03:24.000><c> this</c><00:03:24.180><c> is</c><00:03:24.360><c> our</c><00:03:24.599><c> module</c><00:03:25.140><c> right</c>
+
+00:03:27.110 --> 00:03:27.120 align:start position:0%
+and this is our module right
+ 
+
+00:03:27.120 --> 00:03:31.309 align:start position:0%
+and this is our module right
+so<00:03:27.720><c> this</c><00:03:28.019><c> is</c><00:03:28.140><c> the</c><00:03:28.440><c> obstacle</c><00:03:29.099><c> list</c><00:03:29.760><c> module</c><00:03:30.360><c> and</c>
+
+00:03:31.309 --> 00:03:31.319 align:start position:0%
+so this is the obstacle list module and
+ 
+
+00:03:31.319 --> 00:03:32.869 align:start position:0%
+so this is the obstacle list module and
+let<00:03:31.500><c> me</c><00:03:31.620><c> rename</c><00:03:32.040><c> this</c>
+
+00:03:32.869 --> 00:03:32.879 align:start position:0%
+let me rename this
+ 
+
+00:03:32.879 --> 00:03:35.449 align:start position:0%
+let me rename this
+and<00:03:33.300><c> here</c><00:03:33.480><c> you</c><00:03:33.659><c> will</c><00:03:33.780><c> see</c><00:03:34.019><c> that</c><00:03:34.379><c> this</c><00:03:34.980><c> is</c><00:03:35.159><c> the</c>
+
+00:03:35.449 --> 00:03:35.459 align:start position:0%
+and here you will see that this is the
+ 
+
+00:03:35.459 --> 00:03:37.490 align:start position:0%
+and here you will see that this is the
+table<00:03:35.640><c> and</c><00:03:36.300><c> it</c><00:03:36.540><c> has</c><00:03:36.659><c> got</c><00:03:36.780><c> the</c><00:03:37.080><c> rows</c><00:03:37.379><c> and</c>
+
+00:03:37.490 --> 00:03:37.500 align:start position:0%
+table and it has got the rows and
+ 
+
+00:03:37.500 --> 00:03:41.750 align:start position:0%
+table and it has got the rows and
+columns<00:03:37.920><c> but</c><00:03:38.580><c> the</c><00:03:39.300><c> link</c><00:03:39.480><c> is</c><00:03:39.780><c> not</c><00:03:40.319><c> inside</c><00:03:41.099><c> that</c>
+
+00:03:41.750 --> 00:03:41.760 align:start position:0%
+columns but the link is not inside that
+ 
+
+00:03:41.760 --> 00:03:45.170 align:start position:0%
+columns but the link is not inside that
+particular<00:03:42.060><c> row</c><00:03:42.480><c> okay</c><00:03:42.840><c> so</c><00:03:43.739><c> when</c><00:03:44.099><c> I</c><00:03:44.580><c> go</c><00:03:44.819><c> ahead</c>
+
+00:03:45.170 --> 00:03:45.180 align:start position:0%
+particular row okay so when I go ahead
+ 
+
+00:03:45.180 --> 00:03:48.110 align:start position:0%
+particular row okay so when I go ahead
+and<00:03:45.840><c> I've</c><00:03:46.019><c> created</c><00:03:46.440><c> a</c><00:03:46.860><c> test</c><00:03:46.980><c> case</c><00:03:47.220><c> folder</c><00:03:47.760><c> and</c>
+
+00:03:48.110 --> 00:03:48.120 align:start position:0%
+and I've created a test case folder and
+ 
+
+00:03:48.120 --> 00:03:52.009 align:start position:0%
+and I've created a test case folder and
+a<00:03:48.480><c> test</c><00:03:48.659><c> case</c><00:03:48.900><c> okay</c><00:03:49.200><c> just</c><00:03:49.560><c> for</c><00:03:49.920><c> this</c><00:03:50.580><c> demo</c><00:03:51.360><c> and</c>
+
+00:03:52.009 --> 00:03:52.019 align:start position:0%
+a test case okay just for this demo and
+ 
+
+00:03:52.019 --> 00:03:55.670 align:start position:0%
+a test case okay just for this demo and
+if<00:03:52.260><c> I</c><00:03:52.379><c> go</c><00:03:52.560><c> ahead</c><00:03:52.799><c> and</c><00:03:53.040><c> add</c><00:03:53.220><c> this</c><00:03:53.400><c> module</c><00:03:53.819><c> here</c>
+
+00:03:55.670 --> 00:03:55.680 align:start position:0%
+if I go ahead and add this module here
+ 
+
+00:03:55.680 --> 00:03:57.710 align:start position:0%
+if I go ahead and add this module here
+um so<00:03:56.099><c> you</c><00:03:56.159><c> will</c><00:03:56.280><c> see</c><00:03:56.519><c> that</c><00:03:56.819><c> it's</c><00:03:57.180><c> not</c><00:03:57.480><c> inside</c>
+
+00:03:57.710 --> 00:03:57.720 align:start position:0%
+um so you will see that it's not inside
+ 
+
+00:03:57.720 --> 00:03:59.930 align:start position:0%
+um so you will see that it's not inside
+the<00:03:58.140><c> particular</c><00:03:58.440><c> cell</c><00:03:58.739><c> right</c><00:03:59.159><c> so</c><00:03:59.580><c> that</c><00:03:59.819><c> should</c>
+
+00:03:59.930 --> 00:03:59.940 align:start position:0%
+the particular cell right so that should
+ 
+
+00:03:59.940 --> 00:04:01.610 align:start position:0%
+the particular cell right so that should
+be<00:04:00.120><c> the</c><00:04:00.299><c> ideal</c><00:04:00.599><c> way</c><00:04:00.780><c> because</c><00:04:01.080><c> it's</c><00:04:01.379><c> an</c>
+
+00:04:01.610 --> 00:04:01.620 align:start position:0%
+be the ideal way because it's an
+ 
+
+00:04:01.620 --> 00:04:04.309 align:start position:0%
+be the ideal way because it's an
+embedded<00:04:02.040><c> control</c><00:04:02.340><c> inside</c><00:04:03.239><c> each</c><00:04:03.720><c> row</c><00:04:04.019><c> this</c>
+
+00:04:04.309 --> 00:04:04.319 align:start position:0%
+embedded control inside each row this
+ 
+
+00:04:04.319 --> 00:04:08.270 align:start position:0%
+embedded control inside each row this
+particular<00:04:04.620><c> link</c><00:04:04.860><c> is</c><00:04:05.099><c> present</c><00:04:05.459><c> right</c><00:04:06.420><c> so</c><00:04:07.080><c> if</c><00:04:07.860><c> I</c>
+
+00:04:08.270 --> 00:04:08.280 align:start position:0%
+particular link is present right so if I
+ 
+
+00:04:08.280 --> 00:04:11.869 align:start position:0%
+particular link is present right so if I
+have<00:04:08.400><c> selected</c><00:04:08.819><c> the</c><00:04:09.060><c> first</c><00:04:09.239><c> link</c><00:04:09.540><c> and</c><00:04:10.500><c> I</c><00:04:11.099><c> go</c>
+
+00:04:11.869 --> 00:04:11.879 align:start position:0%
+have selected the first link and I go
+ 
+
+00:04:11.879 --> 00:04:14.089 align:start position:0%
+have selected the first link and I go
+ahead<00:04:12.120><c> and</c><00:04:12.420><c> click</c><00:04:12.720><c> on</c><00:04:12.959><c> this</c><00:04:13.200><c> or</c><00:04:13.500><c> perform</c><00:04:13.739><c> the</c>
+
+00:04:14.089 --> 00:04:14.099 align:start position:0%
+ahead and click on this or perform the
+ 
+
+00:04:14.099 --> 00:04:17.449 align:start position:0%
+ahead and click on this or perform the
+click<00:04:14.400><c> method</c><00:04:14.760><c> if</c><00:04:15.659><c> I</c><00:04:15.780><c> execute</c><00:04:16.199><c> this</c><00:04:16.560><c> uh</c><00:04:17.220><c> it's</c>
+
+00:04:17.449 --> 00:04:17.459 align:start position:0%
+click method if I execute this uh it's
+ 
+
+00:04:17.459 --> 00:04:19.969 align:start position:0%
+click method if I execute this uh it's
+going<00:04:17.639><c> to</c><00:04:17.820><c> fail</c><00:04:18.120><c> okay</c><00:04:18.840><c> and</c><00:04:19.440><c> the</c><00:04:19.560><c> reason</c><00:04:19.680><c> is</c>
+
+00:04:19.969 --> 00:04:19.979 align:start position:0%
+going to fail okay and the reason is
+ 
+
+00:04:19.979 --> 00:04:21.530 align:start position:0%
+going to fail okay and the reason is
+pretty<00:04:20.160><c> simple</c><00:04:20.459><c> there</c><00:04:21.000><c> are</c><00:04:21.120><c> multiple</c>
+
+00:04:21.530 --> 00:04:21.540 align:start position:0%
+pretty simple there are multiple
+ 
+
+00:04:21.540 --> 00:04:24.650 align:start position:0%
+pretty simple there are multiple
+controls<00:04:22.260><c> with</c><00:04:22.800><c> the</c><00:04:23.160><c> same</c><00:04:23.340><c> properties</c><00:04:23.820><c> so</c>
+
+00:04:24.650 --> 00:04:24.660 align:start position:0%
+controls with the same properties so
+ 
+
+00:04:24.660 --> 00:04:27.110 align:start position:0%
+controls with the same properties so
+it's<00:04:24.840><c> not</c><00:04:25.020><c> going</c><00:04:25.320><c> to</c><00:04:25.680><c> uh</c><00:04:25.979><c> click</c><00:04:26.460><c> on</c><00:04:26.940><c> a</c>
+
+00:04:27.110 --> 00:04:27.120 align:start position:0%
+it's not going to uh click on a
+ 
+
+00:04:27.120 --> 00:04:29.689 align:start position:0%
+it's not going to uh click on a
+particular<00:04:27.360><c> button</c><00:04:28.199><c> because</c><00:04:28.440><c> it's</c><00:04:28.979><c> not</c><00:04:29.400><c> able</c>
+
+00:04:29.689 --> 00:04:29.699 align:start position:0%
+particular button because it's not able
+ 
+
+00:04:29.699 --> 00:04:32.570 align:start position:0%
+particular button because it's not able
+to<00:04:29.820><c> uniquely</c><00:04:30.720><c> identify</c><00:04:31.259><c> it</c><00:04:31.380><c> okay</c><00:04:31.680><c> so</c><00:04:32.400><c> we'll</c>
+
+00:04:32.570 --> 00:04:32.580 align:start position:0%
+to uniquely identify it okay so we'll
+ 
+
+00:04:32.580 --> 00:04:36.950 align:start position:0%
+to uniquely identify it okay so we'll
+see<00:04:32.820><c> that</c><00:04:33.120><c> error</c><00:04:34.040><c> once</c><00:04:35.040><c> this</c><00:04:35.220><c> test</c><00:04:35.460><c> case</c><00:04:35.699><c> fails</c>
+
+00:04:36.950 --> 00:04:36.960 align:start position:0%
+see that error once this test case fails
+ 
+
+00:04:36.960 --> 00:04:38.689 align:start position:0%
+see that error once this test case fails
+and<00:04:37.440><c> then</c><00:04:37.560><c> we'll</c><00:04:37.800><c> see</c>
+
+00:04:38.689 --> 00:04:38.699 align:start position:0%
+and then we'll see
+ 
+
+00:04:38.699 --> 00:04:40.850 align:start position:0%
+and then we'll see
+um how<00:04:39.060><c> we</c><00:04:39.240><c> can</c><00:04:39.360><c> basically</c><00:04:39.840><c> fix</c><00:04:40.139><c> this</c><00:04:40.500><c> error</c>
+
+00:04:40.850 --> 00:04:40.860 align:start position:0%
+um how we can basically fix this error
+ 
+
+00:04:40.860 --> 00:04:43.790 align:start position:0%
+um how we can basically fix this error
+okay
+
+00:04:43.790 --> 00:04:43.800 align:start position:0%
+ 
+ 
+
+00:04:43.800 --> 00:04:46.310 align:start position:0%
+ 
+so<00:04:44.759><c> now</c><00:04:44.820><c> you</c><00:04:45.060><c> can</c><00:04:45.120><c> see</c><00:04:45.240><c> the</c><00:04:45.360><c> test</c><00:04:45.540><c> cases</c><00:04:45.840><c> failed</c>
+
+00:04:46.310 --> 00:04:46.320 align:start position:0%
+so now you can see the test cases failed
+ 
+
+00:04:46.320 --> 00:04:49.790 align:start position:0%
+so now you can see the test cases failed
+and<00:04:46.919><c> it</c><00:04:47.160><c> will</c><00:04:47.340><c> also</c><00:04:47.580><c> show</c><00:04:47.820><c> the</c><00:04:48.180><c> log</c><00:04:48.360><c> info</c><00:04:48.840><c> as</c>
+
+00:04:49.790 --> 00:04:49.800 align:start position:0%
+and it will also show the log info as
+ 
+
+00:04:49.800 --> 00:04:51.770 align:start position:0%
+and it will also show the log info as
+more<00:04:50.100><c> than</c><00:04:50.280><c> one</c><00:04:50.520><c> control</c><00:04:50.699><c> found</c><00:04:51.180><c> for</c><00:04:51.600><c> this</c>
+
+00:04:51.770 --> 00:04:51.780 align:start position:0%
+more than one control found for this
+ 
+
+00:04:51.780 --> 00:04:54.110 align:start position:0%
+more than one control found for this
+action<00:04:52.080><c> go</c><00:04:52.740><c> for</c><00:04:52.919><c> it</c><00:04:53.100><c> and</c><00:04:53.520><c> that's</c><00:04:53.639><c> why</c><00:04:53.820><c> it</c><00:04:54.000><c> was</c>
+
+00:04:54.110 --> 00:04:54.120 align:start position:0%
+action go for it and that's why it was
+ 
+
+00:04:54.120 --> 00:04:56.629 align:start position:0%
+action go for it and that's why it was
+not<00:04:54.360><c> able</c><00:04:54.600><c> to</c><00:04:54.720><c> click</c><00:04:54.960><c> on</c><00:04:55.080><c> this</c><00:04:55.259><c> okay</c><00:04:55.560><c> so</c><00:04:56.400><c> that</c>
+
+00:04:56.629 --> 00:04:56.639 align:start position:0%
+not able to click on this okay so that
+ 
+
+00:04:56.639 --> 00:04:59.330 align:start position:0%
+not able to click on this okay so that
+was<00:04:56.820><c> on</c><00:04:57.180><c> expected</c><00:04:57.720><c> lines</c><00:04:58.080><c> okay</c><00:04:58.560><c> it</c><00:04:59.040><c> was</c>
+
+00:04:59.330 --> 00:04:59.340 align:start position:0%
+was on expected lines okay it was
+ 
+
+00:04:59.340 --> 00:05:00.710 align:start position:0%
+was on expected lines okay it was
+supposed<00:04:59.580><c> to</c><00:04:59.820><c> fail</c>
+
+00:05:00.710 --> 00:05:00.720 align:start position:0%
+supposed to fail
+ 
+
+00:05:00.720 --> 00:05:02.810 align:start position:0%
+supposed to fail
+but<00:05:01.139><c> let's</c><00:05:01.320><c> now</c><00:05:01.560><c> see</c><00:05:01.800><c> how</c><00:05:01.979><c> we</c><00:05:02.160><c> can</c><00:05:02.280><c> fix</c><00:05:02.520><c> this</c>
+
+00:05:02.810 --> 00:05:02.820 align:start position:0%
+but let's now see how we can fix this
+ 
+
+00:05:02.820 --> 00:05:05.510 align:start position:0%
+but let's now see how we can fix this
+easily<00:05:03.419><c> okay</c><00:05:03.720><c> so</c><00:05:04.320><c> how</c><00:05:04.500><c> we</c><00:05:04.680><c> can</c><00:05:04.860><c> make</c><00:05:05.040><c> this</c><00:05:05.280><c> go</c>
+
+00:05:05.510 --> 00:05:05.520 align:start position:0%
+easily okay so how we can make this go
+ 
+
+00:05:05.520 --> 00:05:08.210 align:start position:0%
+easily okay so how we can make this go
+for<00:05:05.699><c> it</c><00:05:05.940><c> link</c><00:05:06.180><c> as</c><00:05:06.600><c> an</c><00:05:06.840><c> embedded</c><00:05:07.320><c> control</c><00:05:07.560><c> for</c>
+
+00:05:08.210 --> 00:05:08.220 align:start position:0%
+for it link as an embedded control for
+ 
+
+00:05:08.220 --> 00:05:11.090 align:start position:0%
+for it link as an embedded control for
+that<00:05:08.639><c> particular</c><00:05:08.940><c> row</c><00:05:09.360><c> so</c><00:05:09.960><c> that</c><00:05:10.199><c> we</c><00:05:10.440><c> can</c><00:05:10.560><c> steer</c>
+
+00:05:11.090 --> 00:05:11.100 align:start position:0%
+that particular row so that we can steer
+ 
+
+00:05:11.100 --> 00:05:13.310 align:start position:0%
+that particular row so that we can steer
+that<00:05:11.639><c> particular</c><00:05:11.940><c> control</c><00:05:12.240><c> from</c><00:05:12.900><c> the</c><00:05:13.139><c> table</c>
+
+00:05:13.310 --> 00:05:13.320 align:start position:0%
+that particular control from the table
+ 
+
+00:05:13.320 --> 00:05:15.290 align:start position:0%
+that particular control from the table
+row<00:05:13.800><c> itself</c><00:05:14.160><c> okay</c>
+
+00:05:15.290 --> 00:05:15.300 align:start position:0%
+row itself okay
+ 
+
+00:05:15.300 --> 00:05:17.689 align:start position:0%
+row itself okay
+so<00:05:15.900><c> for</c><00:05:16.139><c> that</c><00:05:16.320><c> I'm</c><00:05:16.560><c> going</c><00:05:16.740><c> back</c><00:05:16.979><c> to</c><00:05:17.160><c> my</c><00:05:17.340><c> module</c>
+
+00:05:17.689 --> 00:05:17.699 align:start position:0%
+so for that I'm going back to my module
+ 
+
+00:05:17.699 --> 00:05:21.170 align:start position:0%
+so for that I'm going back to my module
+here<00:05:17.940><c> you</c><00:05:18.300><c> can</c><00:05:18.419><c> see</c><00:05:18.740><c> and</c><00:05:19.740><c> I</c><00:05:20.280><c> want</c><00:05:20.460><c> this</c>
+
+00:05:21.170 --> 00:05:21.180 align:start position:0%
+here you can see and I want this
+ 
+
+00:05:21.180 --> 00:05:23.150 align:start position:0%
+here you can see and I want this
+particular<00:05:21.479><c> link</c><00:05:21.780><c> inside</c><00:05:22.380><c> this</c><00:05:22.860><c> particular</c>
+
+00:05:23.150 --> 00:05:23.160 align:start position:0%
+particular link inside this particular
+ 
+
+00:05:23.160 --> 00:05:26.930 align:start position:0%
+particular link inside this particular
+cell<00:05:23.460><c> right</c><00:05:24.060><c> because</c><00:05:24.900><c> uh</c><00:05:25.680><c> it's</c><00:05:25.979><c> inside</c><00:05:26.400><c> the</c>
+
+00:05:26.930 --> 00:05:26.940 align:start position:0%
+cell right because uh it's inside the
+ 
+
+00:05:26.940 --> 00:05:30.110 align:start position:0%
+cell right because uh it's inside the
+first<00:05:27.120><c> row</c><00:05:27.539><c> you</c><00:05:27.720><c> can</c><00:05:27.780><c> see</c><00:05:27.960><c> and</c><00:05:28.740><c> inside</c><00:05:29.039><c> this</c><00:05:29.880><c> is</c>
+
+00:05:30.110 --> 00:05:30.120 align:start position:0%
+first row you can see and inside this is
+ 
+
+00:05:30.120 --> 00:05:32.629 align:start position:0%
+first row you can see and inside this is
+the<00:05:30.360><c> cell</c><00:05:30.600><c> okay</c><00:05:31.080><c> table</c><00:05:31.380><c> cell</c>
+
+00:05:32.629 --> 00:05:32.639 align:start position:0%
+the cell okay table cell
+ 
+
+00:05:32.639 --> 00:05:36.409 align:start position:0%
+the cell okay table cell
+so<00:05:33.300><c> uh</c><00:05:34.259><c> what</c><00:05:34.560><c> you</c><00:05:34.680><c> can</c><00:05:34.860><c> do</c><00:05:35.039><c> is</c><00:05:35.639><c> to</c><00:05:35.940><c> make</c><00:05:36.060><c> it</c><00:05:36.240><c> a</c>
+
+00:05:36.409 --> 00:05:36.419 align:start position:0%
+so uh what you can do is to make it a
+ 
+
+00:05:36.419 --> 00:05:38.990 align:start position:0%
+so uh what you can do is to make it a
+embedded<00:05:36.840><c> control</c><00:05:37.020><c> you</c><00:05:37.680><c> can</c><00:05:37.800><c> just</c><00:05:38.100><c> drag</c><00:05:38.580><c> this</c>
+
+00:05:38.990 --> 00:05:39.000 align:start position:0%
+embedded control you can just drag this
+ 
+
+00:05:39.000 --> 00:05:42.110 align:start position:0%
+embedded control you can just drag this
+particular<00:05:39.300><c> link</c><00:05:39.620><c> inside</c><00:05:40.620><c> and</c><00:05:41.520><c> put</c><00:05:41.699><c> it</c><00:05:41.820><c> inside</c>
+
+00:05:42.110 --> 00:05:42.120 align:start position:0%
+particular link inside and put it inside
+ 
+
+00:05:42.120 --> 00:05:44.390 align:start position:0%
+particular link inside and put it inside
+this<00:05:42.539><c> cell</c><00:05:42.780><c> okay</c>
+
+00:05:44.390 --> 00:05:44.400 align:start position:0%
+this cell okay
+ 
+
+00:05:44.400 --> 00:05:48.409 align:start position:0%
+this cell okay
+so<00:05:44.940><c> now</c><00:05:45.120><c> if</c><00:05:45.419><c> you</c><00:05:45.539><c> see</c><00:05:45.840><c> uh</c><00:05:46.500><c> the</c><00:05:46.740><c> table</c><00:05:47.060><c> the</c><00:05:48.060><c> row</c>
+
+00:05:48.409 --> 00:05:48.419 align:start position:0%
+so now if you see uh the table the row
+ 
+
+00:05:48.419 --> 00:05:51.469 align:start position:0%
+so now if you see uh the table the row
+and<00:05:49.139><c> then</c><00:05:49.320><c> inside</c><00:05:49.560><c> the</c><00:05:49.919><c> cell</c><00:05:50.100><c> we</c><00:05:50.460><c> have</c><00:05:50.639><c> got</c><00:05:51.060><c> the</c>
+
+00:05:51.469 --> 00:05:51.479 align:start position:0%
+and then inside the cell we have got the
+ 
+
+00:05:51.479 --> 00:05:53.749 align:start position:0%
+and then inside the cell we have got the
+link<00:05:51.660><c> so</c><00:05:52.199><c> it</c><00:05:52.380><c> has</c><00:05:52.500><c> become</c><00:05:52.800><c> now</c><00:05:53.039><c> embedded</c>
+
+00:05:53.749 --> 00:05:53.759 align:start position:0%
+link so it has become now embedded
+ 
+
+00:05:53.759 --> 00:05:57.290 align:start position:0%
+link so it has become now embedded
+control<00:05:54.199><c> inside</c><00:05:55.199><c> the</c><00:05:55.560><c> table</c><00:05:55.740><c> row</c><00:05:56.280><c> itself</c><00:05:56.639><c> okay</c>
+
+00:05:57.290 --> 00:05:57.300 align:start position:0%
+control inside the table row itself okay
+ 
+
+00:05:57.300 --> 00:06:02.570 align:start position:0%
+control inside the table row itself okay
+so<00:05:58.259><c> now</c><00:05:59.220><c> if</c><00:05:59.639><c> I</c><00:05:59.940><c> go</c><00:06:00.180><c> ahead</c><00:06:00.600><c> and</c><00:06:01.320><c> delete</c><00:06:01.800><c> this</c><00:06:02.220><c> and</c>
+
+00:06:02.570 --> 00:06:02.580 align:start position:0%
+so now if I go ahead and delete this and
+ 
+
+00:06:02.580 --> 00:06:05.270 align:start position:0%
+so now if I go ahead and delete this and
+again<00:06:02.880><c> drag</c><00:06:03.780><c> this</c><00:06:04.080><c> module</c><00:06:04.560><c> into</c><00:06:04.800><c> the</c><00:06:05.100><c> test</c>
+
+00:06:05.270 --> 00:06:05.280 align:start position:0%
+again drag this module into the test
+ 
+
+00:06:05.280 --> 00:06:06.650 align:start position:0%
+again drag this module into the test
+case
+
+00:06:06.650 --> 00:06:06.660 align:start position:0%
+case
+ 
+
+00:06:06.660 --> 00:06:09.409 align:start position:0%
+case
+so<00:06:07.199><c> now</c><00:06:07.440><c> if</c><00:06:07.860><c> I</c><00:06:08.039><c> go</c><00:06:08.160><c> into</c><00:06:08.280><c> the</c><00:06:08.520><c> test</c><00:06:08.759><c> case</c><00:06:09.000><c> you</c>
+
+00:06:09.409 --> 00:06:09.419 align:start position:0%
+so now if I go into the test case you
+ 
+
+00:06:09.419 --> 00:06:11.390 align:start position:0%
+so now if I go into the test case you
+will<00:06:09.600><c> see</c><00:06:09.780><c> that</c><00:06:10.080><c> it</c><00:06:10.440><c> has</c><00:06:10.620><c> got</c><00:06:10.800><c> this</c><00:06:11.100><c> particular</c>
+
+00:06:11.390 --> 00:06:11.400 align:start position:0%
+will see that it has got this particular
+ 
+
+00:06:11.400 --> 00:06:13.730 align:start position:0%
+will see that it has got this particular
+cell<00:06:11.699><c> okay</c><00:06:12.479><c> inside</c><00:06:12.720><c> the</c><00:06:13.020><c> cell</c><00:06:13.199><c> we</c><00:06:13.440><c> have</c><00:06:13.620><c> got</c>
+
+00:06:13.730 --> 00:06:13.740 align:start position:0%
+cell okay inside the cell we have got
+ 
+
+00:06:13.740 --> 00:06:15.529 align:start position:0%
+cell okay inside the cell we have got
+the<00:06:14.039><c> control</c>
+
+00:06:15.529 --> 00:06:15.539 align:start position:0%
+the control
+ 
+
+00:06:15.539 --> 00:06:18.110 align:start position:0%
+the control
+and<00:06:16.199><c> now</c><00:06:16.440><c> I</c><00:06:16.919><c> can</c><00:06:16.979><c> go</c><00:06:17.160><c> ahead</c><00:06:17.340><c> and</c><00:06:17.520><c> click</c><00:06:17.820><c> on</c><00:06:17.940><c> it</c>
+
+00:06:18.110 --> 00:06:18.120 align:start position:0%
+and now I can go ahead and click on it
+ 
+
+00:06:18.120 --> 00:06:21.050 align:start position:0%
+and now I can go ahead and click on it
+but<00:06:18.539><c> first</c><00:06:18.840><c> I</c><00:06:19.320><c> will</c><00:06:19.440><c> select</c><00:06:19.800><c> the</c><00:06:20.039><c> first</c><00:06:20.160><c> row</c>
+
+00:06:21.050 --> 00:06:21.060 align:start position:0%
+but first I will select the first row
+ 
+
+00:06:21.060 --> 00:06:23.629 align:start position:0%
+but first I will select the first row
+and<00:06:21.539><c> then</c><00:06:21.720><c> I</c><00:06:21.960><c> will</c><00:06:22.080><c> select</c><00:06:22.500><c> the</c><00:06:22.800><c> respective</c>
+
+00:06:23.629 --> 00:06:23.639 align:start position:0%
+and then I will select the respective
+ 
+
+00:06:23.639 --> 00:06:26.210 align:start position:0%
+and then I will select the respective
+cell<00:06:23.940><c> so</c><00:06:24.539><c> this</c><00:06:24.840><c> is</c><00:06:24.960><c> the</c><00:06:25.199><c> action</c><00:06:25.440><c> cell</c><00:06:25.800><c> okay</c>
+
+00:06:26.210 --> 00:06:26.220 align:start position:0%
+cell so this is the action cell okay
+ 
+
+00:06:26.220 --> 00:06:28.610 align:start position:0%
+cell so this is the action cell okay
+which<00:06:26.580><c> contains</c><00:06:27.120><c> this</c><00:06:27.419><c> particular</c><00:06:27.720><c> link</c>
+
+00:06:28.610 --> 00:06:28.620 align:start position:0%
+which contains this particular link
+ 
+
+00:06:28.620 --> 00:06:31.430 align:start position:0%
+which contains this particular link
+and<00:06:29.400><c> here</c><00:06:29.699><c> I'm</c><00:06:30.000><c> going</c><00:06:30.300><c> to</c><00:06:30.600><c> change</c><00:06:30.900><c> it</c><00:06:31.139><c> to</c>
+
+00:06:31.430 --> 00:06:31.440 align:start position:0%
+and here I'm going to change it to
+ 
+
+00:06:31.440 --> 00:06:32.930 align:start position:0%
+and here I'm going to change it to
+select
+
+00:06:32.930 --> 00:06:32.940 align:start position:0%
+select
+ 
+
+00:06:32.940 --> 00:06:37.370 align:start position:0%
+select
+okay<00:06:33.539><c> and</c><00:06:34.380><c> then</c><00:06:34.620><c> I'm</c><00:06:34.919><c> going</c><00:06:35.160><c> to</c><00:06:35.340><c> click</c><00:06:35.759><c> on</c><00:06:35.880><c> it</c>
+
+00:06:37.370 --> 00:06:37.380 align:start position:0%
+okay and then I'm going to click on it
+ 
+
+00:06:37.380 --> 00:06:41.270 align:start position:0%
+okay and then I'm going to click on it
+so<00:06:38.039><c> this</c><00:06:38.400><c> way</c><00:06:38.639><c> you</c><00:06:39.539><c> can</c><00:06:39.800><c> embed</c><00:06:40.800><c> a</c><00:06:41.039><c> control</c>
+
+00:06:41.270 --> 00:06:41.280 align:start position:0%
+so this way you can embed a control
+ 
+
+00:06:41.280 --> 00:06:43.909 align:start position:0%
+so this way you can embed a control
+inside<00:06:41.759><c> a</c><00:06:42.060><c> particular</c><00:06:42.360><c> table</c><00:06:42.600><c> cell</c><00:06:43.020><c> and</c><00:06:43.800><c> then</c>
+
+00:06:43.909 --> 00:06:43.919 align:start position:0%
+inside a particular table cell and then
+ 
+
+00:06:43.919 --> 00:06:46.969 align:start position:0%
+inside a particular table cell and then
+perform<00:06:44.160><c> the</c><00:06:44.580><c> necessary</c><00:06:44.940><c> operation</c><00:06:45.479><c> okay</c><00:06:46.139><c> so</c>
+
+00:06:46.969 --> 00:06:46.979 align:start position:0%
+perform the necessary operation okay so
+ 
+
+00:06:46.979 --> 00:06:49.850 align:start position:0%
+perform the necessary operation okay so
+now<00:06:47.160><c> if</c><00:06:47.400><c> I</c><00:06:47.580><c> go</c><00:06:47.759><c> ahead</c><00:06:48.000><c> and</c><00:06:48.479><c> run</c><00:06:48.660><c> this</c><00:06:49.020><c> this</c><00:06:49.560><c> time</c>
+
+00:06:49.850 --> 00:06:49.860 align:start position:0%
+now if I go ahead and run this this time
+ 
+
+00:06:49.860 --> 00:06:52.189 align:start position:0%
+now if I go ahead and run this this time
+it<00:06:50.400><c> will</c><00:06:50.520><c> be</c><00:06:50.699><c> able</c><00:06:51.060><c> to</c><00:06:51.240><c> click</c><00:06:51.780><c> on</c><00:06:51.960><c> that</c>
+
+00:06:52.189 --> 00:06:52.199 align:start position:0%
+it will be able to click on that
+ 
+
+00:06:52.199 --> 00:06:55.189 align:start position:0%
+it will be able to click on that
+particular<00:06:52.560><c> link</c><00:06:52.940><c> inside</c><00:06:53.940><c> the</c><00:06:54.660><c> table</c><00:06:54.780><c> itself</c>
+
+00:06:55.189 --> 00:06:55.199 align:start position:0%
+particular link inside the table itself
+ 
+
+00:06:55.199 --> 00:07:03.830 align:start position:0%
+particular link inside the table itself
+okay
+
+00:07:03.830 --> 00:07:03.840 align:start position:0%
+ 
+ 
+
+00:07:03.840 --> 00:07:06.590 align:start position:0%
+ 
+so<00:07:04.319><c> as</c><00:07:04.440><c> you</c><00:07:04.560><c> can</c><00:07:04.680><c> see</c><00:07:04.740><c> it</c><00:07:04.979><c> has</c><00:07:05.160><c> clicked</c><00:07:05.520><c> on</c><00:07:06.120><c> the</c>
+
+00:07:06.590 --> 00:07:06.600 align:start position:0%
+so as you can see it has clicked on the
+ 
+
+00:07:06.600 --> 00:07:09.529 align:start position:0%
+so as you can see it has clicked on the
+first<00:07:06.840><c> obstacle</c><00:07:07.560><c> go</c><00:07:08.100><c> for</c><00:07:08.280><c> it</c><00:07:08.460><c> and</c><00:07:09.240><c> it</c><00:07:09.419><c> has</c>
+
+00:07:09.529 --> 00:07:09.539 align:start position:0%
+first obstacle go for it and it has
+ 
+
+00:07:09.539 --> 00:07:12.110 align:start position:0%
+first obstacle go for it and it has
+reached<00:07:10.020><c> this</c><00:07:10.380><c> page</c><00:07:10.560><c> right</c>
+
+00:07:12.110 --> 00:07:12.120 align:start position:0%
+reached this page right
+ 
+
+00:07:12.120 --> 00:07:14.450 align:start position:0%
+reached this page right
+so<00:07:12.600><c> this</c><00:07:12.780><c> was</c><00:07:12.960><c> the</c><00:07:13.199><c> first</c><00:07:13.380><c> way</c><00:07:13.680><c> of</c><00:07:13.860><c> doing</c><00:07:14.100><c> this</c>
+
+00:07:14.450 --> 00:07:14.460 align:start position:0%
+so this was the first way of doing this
+ 
+
+00:07:14.460 --> 00:07:17.210 align:start position:0%
+so this was the first way of doing this
+just<00:07:15.180><c> dragging</c><00:07:15.960><c> the</c><00:07:16.080><c> control</c><00:07:16.259><c> inside</c><00:07:16.800><c> the</c>
+
+00:07:17.210 --> 00:07:17.220 align:start position:0%
+just dragging the control inside the
+ 
+
+00:07:17.220 --> 00:07:19.370 align:start position:0%
+just dragging the control inside the
+particular<00:07:17.580><c> cell</c><00:07:17.880><c> or</c><00:07:18.419><c> particular</c><00:07:18.780><c> object</c>
+
+00:07:19.370 --> 00:07:19.380 align:start position:0%
+particular cell or particular object
+ 
+
+00:07:19.380 --> 00:07:22.129 align:start position:0%
+particular cell or particular object
+right<00:07:19.979><c> so</c><00:07:20.699><c> you</c><00:07:20.940><c> can</c><00:07:21.000><c> embed</c><00:07:21.479><c> that</c><00:07:21.900><c> particular</c>
+
+00:07:22.129 --> 00:07:22.139 align:start position:0%
+right so you can embed that particular
+ 
+
+00:07:22.139 --> 00:07:25.129 align:start position:0%
+right so you can embed that particular
+control<00:07:22.440><c> uh</c><00:07:23.400><c> using</c><00:07:23.880><c> this</c><00:07:24.120><c> way</c>
+
+00:07:25.129 --> 00:07:25.139 align:start position:0%
+control uh using this way
+ 
+
+00:07:25.139 --> 00:07:27.890 align:start position:0%
+control uh using this way
+the<00:07:25.620><c> other</c><00:07:25.740><c> way</c><00:07:25.979><c> around</c><00:07:26.160><c> is</c>
+
+00:07:27.890 --> 00:07:27.900 align:start position:0%
+the other way around is
+ 
+
+00:07:27.900 --> 00:07:30.830 align:start position:0%
+the other way around is
+so<00:07:28.380><c> say</c><00:07:28.620><c> for</c><00:07:28.800><c> example</c><00:07:29.099><c> we</c><00:07:30.000><c> don't</c><00:07:30.180><c> have</c><00:07:30.599><c> this</c>
+
+00:07:30.830 --> 00:07:30.840 align:start position:0%
+so say for example we don't have this
+ 
+
+00:07:30.840 --> 00:07:32.689 align:start position:0%
+so say for example we don't have this
+particular<00:07:31.139><c> control</c><00:07:31.440><c> we</c><00:07:31.919><c> have</c><00:07:32.099><c> not</c><00:07:32.220><c> scanned</c>
+
+00:07:32.689 --> 00:07:32.699 align:start position:0%
+particular control we have not scanned
+ 
+
+00:07:32.699 --> 00:07:36.050 align:start position:0%
+particular control we have not scanned
+it<00:07:32.819><c> right</c><00:07:33.539><c> so</c><00:07:33.960><c> last</c><00:07:34.199><c> time</c><00:07:34.500><c> we</c><00:07:35.280><c> scanned</c><00:07:35.699><c> this</c>
+
+00:07:36.050 --> 00:07:36.060 align:start position:0%
+it right so last time we scanned this
+ 
+
+00:07:36.060 --> 00:07:39.350 align:start position:0%
+it right so last time we scanned this
+explicitly<00:07:37.020><c> this</c><00:07:37.560><c> particular</c><00:07:37.979><c> control</c><00:07:38.360><c> but</c>
+
+00:07:39.350 --> 00:07:39.360 align:start position:0%
+explicitly this particular control but
+ 
+
+00:07:39.360 --> 00:07:43.270 align:start position:0%
+explicitly this particular control but
+if<00:07:39.960><c> I</c><00:07:40.440><c> go</c><00:07:40.620><c> ahead</c><00:07:40.800><c> and</c><00:07:41.099><c> remove</c><00:07:41.280><c> this</c><00:07:41.759><c> okay</c>
+
+00:07:43.270 --> 00:07:43.280 align:start position:0%
+if I go ahead and remove this okay
+ 
+
+00:07:43.280 --> 00:07:46.490 align:start position:0%
+if I go ahead and remove this okay
+and<00:07:44.280><c> right</c><00:07:44.880><c> now</c><00:07:45.060><c> I've</c><00:07:45.479><c> just</c><00:07:45.720><c> got</c><00:07:45.960><c> a</c><00:07:46.319><c> table</c>
+
+00:07:46.490 --> 00:07:46.500 align:start position:0%
+and right now I've just got a table
+ 
+
+00:07:46.500 --> 00:07:48.890 align:start position:0%
+and right now I've just got a table
+which<00:07:47.280><c> I</c><00:07:47.460><c> have</c><00:07:47.580><c> scanned</c><00:07:47.940><c> okay</c><00:07:48.360><c> on</c><00:07:48.720><c> this</c>
+
+00:07:48.890 --> 00:07:48.900 align:start position:0%
+which I have scanned okay on this
+ 
+
+00:07:48.900 --> 00:07:50.210 align:start position:0%
+which I have scanned okay on this
+particular<00:07:49.199><c> page</c>
+
+00:07:50.210 --> 00:07:50.220 align:start position:0%
+particular page
+ 
+
+00:07:50.220 --> 00:07:52.610 align:start position:0%
+particular page
+so<00:07:50.639><c> now</c><00:07:50.759><c> what</c><00:07:51.000><c> we</c><00:07:51.120><c> can</c><00:07:51.300><c> do</c><00:07:51.479><c> is</c><00:07:51.900><c> we</c><00:07:52.139><c> can</c><00:07:52.319><c> create</c>
+
+00:07:52.610 --> 00:07:52.620 align:start position:0%
+so now what we can do is we can create
+ 
+
+00:07:52.620 --> 00:07:55.189 align:start position:0%
+so now what we can do is we can create
+our<00:07:53.160><c> own</c><00:07:53.340><c> embedded</c><00:07:53.880><c> control</c><00:07:54.180><c> inside</c><00:07:54.720><c> a</c>
+
+00:07:55.189 --> 00:07:55.199 align:start position:0%
+our own embedded control inside a
+ 
+
+00:07:55.199 --> 00:07:57.770 align:start position:0%
+our own embedded control inside a
+particular<00:07:55.500><c> table</c><00:07:55.740><c> row</c><00:07:56.220><c> cell</c><00:07:56.340><c> okay</c><00:07:57.120><c> so</c><00:07:57.419><c> if</c><00:07:57.599><c> I</c>
+
+00:07:57.770 --> 00:07:57.780 align:start position:0%
+particular table row cell okay so if I
+ 
+
+00:07:57.780 --> 00:08:01.370 align:start position:0%
+particular table row cell okay so if I
+go<00:07:58.020><c> inside</c><00:07:58.319><c> this</c><00:07:58.800><c> cable</c><00:07:59.160><c> row</c><00:07:59.880><c> and</c><00:08:00.060><c> then</c><00:08:00.240><c> cell</c><00:08:00.599><c> I</c>
+
+00:08:01.370 --> 00:08:01.380 align:start position:0%
+go inside this cable row and then cell I
+ 
+
+00:08:01.380 --> 00:08:03.950 align:start position:0%
+go inside this cable row and then cell I
+right<00:08:01.620><c> click</c><00:08:01.919><c> on</c><00:08:01.979><c> it</c><00:08:02.160><c> and</c><00:08:02.819><c> then</c><00:08:03.000><c> you</c><00:08:03.479><c> go</c><00:08:03.720><c> into</c>
+
+00:08:03.950 --> 00:08:03.960 align:start position:0%
+right click on it and then you go into
+ 
+
+00:08:03.960 --> 00:08:06.950 align:start position:0%
+right click on it and then you go into
+this<00:08:04.259><c> three</c><00:08:04.500><c> ellipses</c><00:08:05.039><c> expand</c><00:08:05.699><c> this</c><00:08:05.940><c> and</c><00:08:06.840><c> then</c>
+
+00:08:06.950 --> 00:08:06.960 align:start position:0%
+this three ellipses expand this and then
+ 
+
+00:08:06.960 --> 00:08:08.510 align:start position:0%
+this three ellipses expand this and then
+you<00:08:07.139><c> will</c><00:08:07.319><c> see</c><00:08:07.500><c> here</c><00:08:07.740><c> there</c><00:08:08.160><c> are</c><00:08:08.340><c> different</c>
+
+00:08:08.510 --> 00:08:08.520 align:start position:0%
+you will see here there are different
+ 
+
+00:08:08.520 --> 00:08:11.390 align:start position:0%
+you will see here there are different
+controls<00:08:09.240><c> okay</c><00:08:09.599><c> now</c><00:08:10.139><c> depending</c><00:08:10.620><c> on</c><00:08:10.919><c> what</c><00:08:11.220><c> type</c>
+
+00:08:11.390 --> 00:08:11.400 align:start position:0%
+controls okay now depending on what type
+ 
+
+00:08:11.400 --> 00:08:13.430 align:start position:0%
+controls okay now depending on what type
+of<00:08:11.520><c> control</c><00:08:11.699><c> you</c><00:08:12.060><c> want</c><00:08:12.180><c> to</c><00:08:12.300><c> create</c><00:08:12.479><c> you</c><00:08:13.319><c> can</c>
+
+00:08:13.430 --> 00:08:13.440 align:start position:0%
+of control you want to create you can
+ 
+
+00:08:13.440 --> 00:08:16.010 align:start position:0%
+of control you want to create you can
+select<00:08:13.860><c> that</c><00:08:14.280><c> particular</c><00:08:14.520><c> control</c><00:08:14.819><c> okay</c><00:08:15.360><c> so</c>
+
+00:08:16.010 --> 00:08:16.020 align:start position:0%
+select that particular control okay so
+ 
+
+00:08:16.020 --> 00:08:19.070 align:start position:0%
+select that particular control okay so
+for<00:08:16.199><c> me</c><00:08:16.380><c> uh</c><00:08:17.039><c> that</c><00:08:17.400><c> particular</c><00:08:17.759><c> control</c><00:08:18.479><c> is</c><00:08:18.900><c> a</c>
+
+00:08:19.070 --> 00:08:19.080 align:start position:0%
+for me uh that particular control is a
+ 
+
+00:08:19.080 --> 00:08:21.170 align:start position:0%
+for me uh that particular control is a
+link<00:08:19.259><c> so</c><00:08:19.979><c> I'll</c><00:08:20.099><c> be</c><00:08:20.280><c> clicking</c><00:08:20.580><c> on</c><00:08:20.819><c> this</c><00:08:21.000><c> create</c>
+
+00:08:21.170 --> 00:08:21.180 align:start position:0%
+link so I'll be clicking on this create
+ 
+
+00:08:21.180 --> 00:08:24.230 align:start position:0%
+link so I'll be clicking on this create
+embedded<00:08:21.900><c> link</c><00:08:22.259><c> control</c><00:08:22.620><c> okay</c>
+
+00:08:24.230 --> 00:08:24.240 align:start position:0%
+embedded link control okay
+ 
+
+00:08:24.240 --> 00:08:27.890 align:start position:0%
+embedded link control okay
+and<00:08:24.840><c> then</c><00:08:25.020><c> I</c><00:08:25.560><c> can</c><00:08:25.620><c> put</c><00:08:25.919><c> a</c><00:08:26.280><c> name</c><00:08:26.520><c> here</c><00:08:26.759><c> say</c><00:08:27.419><c> I</c><00:08:27.660><c> put</c>
+
+00:08:27.890 --> 00:08:27.900 align:start position:0%
+and then I can put a name here say I put
+ 
+
+00:08:27.900 --> 00:08:29.270 align:start position:0%
+and then I can put a name here say I put
+it<00:08:28.080><c> go</c>
+
+00:08:29.270 --> 00:08:29.280 align:start position:0%
+it go
+ 
+
+00:08:29.280 --> 00:08:31.969 align:start position:0%
+it go
+okay<00:08:29.759><c> now</c><00:08:30.419><c> this</c><00:08:30.660><c> is</c><00:08:30.780><c> going</c><00:08:30.900><c> to</c><00:08:31.080><c> work</c><00:08:31.319><c> because</c>
+
+00:08:31.969 --> 00:08:31.979 align:start position:0%
+okay now this is going to work because
+ 
+
+00:08:31.979 --> 00:08:35.230 align:start position:0%
+okay now this is going to work because
+uh<00:08:32.880><c> there</c><00:08:33.479><c> is</c><00:08:33.659><c> only</c><00:08:33.959><c> single</c>
+
+00:08:35.230 --> 00:08:35.240 align:start position:0%
+uh there is only single
+ 
+
+00:08:35.240 --> 00:08:38.449 align:start position:0%
+uh there is only single
+Link<00:08:36.240><c> in</c><00:08:36.899><c> this</c><00:08:37.080><c> particular</c><00:08:37.320><c> table</c><00:08:37.620><c> row</c><00:08:38.099><c> okay</c>
+
+00:08:38.449 --> 00:08:38.459 align:start position:0%
+Link in this particular table row okay
+ 
+
+00:08:38.459 --> 00:08:41.570 align:start position:0%
+Link in this particular table row okay
+but<00:08:39.000><c> if</c><00:08:39.180><c> there</c><00:08:39.300><c> are</c><00:08:39.419><c> multiple</c><00:08:39.899><c> uh</c>
+
+00:08:41.570 --> 00:08:41.580 align:start position:0%
+but if there are multiple uh
+ 
+
+00:08:41.580 --> 00:08:44.750 align:start position:0%
+but if there are multiple uh
+multiple<00:08:42.300><c> controls</c><00:08:42.839><c> like</c><00:08:43.380><c> two</c><00:08:43.979><c> links</c><00:08:44.399><c> or</c><00:08:44.640><c> two</c>
+
+00:08:44.750 --> 00:08:44.760 align:start position:0%
+multiple controls like two links or two
+ 
+
+00:08:44.760 --> 00:08:47.810 align:start position:0%
+multiple controls like two links or two
+buttons<00:08:45.300><c> then</c><00:08:46.260><c> if</c><00:08:46.980><c> you</c><00:08:47.100><c> don't</c><00:08:47.220><c> add</c><00:08:47.580><c> any</c>
+
+00:08:47.810 --> 00:08:47.820 align:start position:0%
+buttons then if you don't add any
+ 
+
+00:08:47.820 --> 00:08:49.670 align:start position:0%
+buttons then if you don't add any
+particular<00:08:48.180><c> properties</c><00:08:48.720><c> right</c><00:08:49.260><c> technical</c>
+
+00:08:49.670 --> 00:08:49.680 align:start position:0%
+particular properties right technical
+ 
+
+00:08:49.680 --> 00:08:51.170 align:start position:0%
+particular properties right technical
+properties<00:08:50.160><c> for</c><00:08:50.519><c> this</c><00:08:50.700><c> particular</c><00:08:50.940><c> control</c>
+
+00:08:51.170 --> 00:08:51.180 align:start position:0%
+properties for this particular control
+ 
+
+00:08:51.180 --> 00:08:53.990 align:start position:0%
+properties for this particular control
+which<00:08:51.540><c> you</c><00:08:51.660><c> have</c><00:08:51.779><c> created</c><00:08:52.080><c> uh</c><00:08:52.920><c> it</c><00:08:53.160><c> won't</c><00:08:53.279><c> work</c>
+
+00:08:53.990 --> 00:08:54.000 align:start position:0%
+which you have created uh it won't work
+ 
+
+00:08:54.000 --> 00:08:55.790 align:start position:0%
+which you have created uh it won't work
+so<00:08:54.480><c> everything</c><00:08:54.720><c> will</c><00:08:55.140><c> have</c><00:08:55.380><c> the</c><00:08:55.620><c> same</c>
+
+00:08:55.790 --> 00:08:55.800 align:start position:0%
+so everything will have the same
+ 
+
+00:08:55.800 --> 00:08:59.570 align:start position:0%
+so everything will have the same
+properties<00:08:56.279><c> so</c><00:08:57.120><c> it's</c><00:08:57.420><c> pretty</c><00:08:57.720><c> ideal</c><00:08:58.279><c> and</c><00:08:59.279><c> a</c>
+
+00:08:59.570 --> 00:08:59.580 align:start position:0%
+properties so it's pretty ideal and a
+ 
+
+00:08:59.580 --> 00:09:01.190 align:start position:0%
+properties so it's pretty ideal and a
+best<00:08:59.760><c> practice</c><00:09:00.060><c> so</c><00:09:00.540><c> whenever</c><00:09:00.839><c> you</c><00:09:01.080><c> are</c>
+
+00:09:01.190 --> 00:09:01.200 align:start position:0%
+best practice so whenever you are
+ 
+
+00:09:01.200 --> 00:09:03.530 align:start position:0%
+best practice so whenever you are
+creating<00:09:01.500><c> an</c><00:09:01.800><c> embedded</c><00:09:02.220><c> control</c><00:09:02.459><c> you</c><00:09:03.420><c> should</c>
+
+00:09:03.530 --> 00:09:03.540 align:start position:0%
+creating an embedded control you should
+ 
+
+00:09:03.540 --> 00:09:06.470 align:start position:0%
+creating an embedded control you should
+be<00:09:03.660><c> creating</c><00:09:04.140><c> or</c><00:09:04.860><c> adding</c><00:09:05.399><c> uh</c><00:09:05.940><c> new</c><00:09:06.180><c> technical</c>
+
+00:09:06.470 --> 00:09:06.480 align:start position:0%
+be creating or adding uh new technical
+ 
+
+00:09:06.480 --> 00:09:09.290 align:start position:0%
+be creating or adding uh new technical
+properties<00:09:07.080><c> for</c><00:09:07.380><c> it</c><00:09:07.500><c> at</c><00:09:08.040><c> least</c><00:09:08.220><c> the</c><00:09:08.880><c> ones</c><00:09:09.180><c> you</c>
+
+00:09:09.290 --> 00:09:09.300 align:start position:0%
+properties for it at least the ones you
+ 
+
+00:09:09.300 --> 00:09:11.210 align:start position:0%
+properties for it at least the ones you
+know<00:09:09.540><c> okay</c>
+
+00:09:11.210 --> 00:09:11.220 align:start position:0%
+know okay
+ 
+
+00:09:11.220 --> 00:09:14.930 align:start position:0%
+know okay
+so<00:09:11.760><c> for</c><00:09:12.120><c> that</c><00:09:12.300><c> again</c><00:09:13.260><c> if</c><00:09:14.160><c> we</c><00:09:14.339><c> can</c><00:09:14.459><c> go</c><00:09:14.640><c> to</c><00:09:14.760><c> the</c>
+
+00:09:14.930 --> 00:09:14.940 align:start position:0%
+so for that again if we can go to the
+ 
+
+00:09:14.940 --> 00:09:18.889 align:start position:0%
+so for that again if we can go to the
+properties<00:09:15.420><c> here</c><00:09:16.080><c> okay</c><00:09:17.000><c> and</c><00:09:18.000><c> right</c><00:09:18.420><c> click</c><00:09:18.779><c> on</c>
+
+00:09:18.889 --> 00:09:18.899 align:start position:0%
+properties here okay and right click on
+ 
+
+00:09:18.899 --> 00:09:21.829 align:start position:0%
+properties here okay and right click on
+this<00:09:19.140><c> again</c><00:09:19.620><c> go</c><00:09:19.920><c> to</c><00:09:20.040><c> that</c><00:09:20.220><c> three</c><00:09:20.399><c> ellipses</c><00:09:21.000><c> and</c>
+
+00:09:21.829 --> 00:09:21.839 align:start position:0%
+this again go to that three ellipses and
+ 
+
+00:09:21.839 --> 00:09:23.870 align:start position:0%
+this again go to that three ellipses and
+expand<00:09:22.140><c> it</c><00:09:22.380><c> and</c><00:09:22.920><c> there</c><00:09:23.100><c> you</c><00:09:23.220><c> will</c><00:09:23.339><c> find</c><00:09:23.580><c> create</c>
+
+00:09:23.870 --> 00:09:23.880 align:start position:0%
+expand it and there you will find create
+ 
+
+00:09:23.880 --> 00:09:26.930 align:start position:0%
+expand it and there you will find create
+technical<00:09:24.360><c> ID</c><00:09:24.660><c> parameter</c><00:09:25.380><c> okay</c><00:09:25.860><c> so</c><00:09:26.580><c> I'm</c><00:09:26.700><c> going</c>
+
+00:09:26.930 --> 00:09:26.940 align:start position:0%
+technical ID parameter okay so I'm going
+ 
+
+00:09:26.940 --> 00:09:29.269 align:start position:0%
+technical ID parameter okay so I'm going
+to<00:09:27.180><c> click</c><00:09:27.600><c> on</c><00:09:27.720><c> this</c><00:09:27.959><c> I'm</c><00:09:28.320><c> going</c><00:09:28.560><c> to</c><00:09:28.740><c> add</c><00:09:28.980><c> some</c>
+
+00:09:29.269 --> 00:09:29.279 align:start position:0%
+to click on this I'm going to add some
+ 
+
+00:09:29.279 --> 00:09:31.670 align:start position:0%
+to click on this I'm going to add some
+technical<00:09:29.580><c> properties</c><00:09:30.180><c> right</c>
+
+00:09:31.670 --> 00:09:31.680 align:start position:0%
+technical properties right
+ 
+
+00:09:31.680 --> 00:09:36.889 align:start position:0%
+technical properties right
+so<00:09:32.279><c> here</c><00:09:32.600><c> I</c><00:09:33.600><c> know</c><00:09:33.779><c> that</c><00:09:34.440><c> the</c><00:09:34.800><c> tag</c><00:09:35.100><c> value</c><00:09:35.580><c> is</c><00:09:36.420><c> a</c>
+
+00:09:36.889 --> 00:09:36.899 align:start position:0%
+so here I know that the tag value is a
+ 
+
+00:09:36.899 --> 00:09:40.310 align:start position:0%
+so here I know that the tag value is a
+because<00:09:37.500><c> it</c><00:09:38.040><c> is</c><00:09:38.220><c> a</c><00:09:38.580><c> link</c><00:09:38.760><c> okay</c>
+
+00:09:40.310 --> 00:09:40.320 align:start position:0%
+because it is a link okay
+ 
+
+00:09:40.320 --> 00:09:43.790 align:start position:0%
+because it is a link okay
+and<00:09:40.980><c> then</c><00:09:41.220><c> I</c><00:09:42.180><c> can</c><00:09:42.240><c> add</c><00:09:42.480><c> another</c><00:09:42.779><c> one</c><00:09:43.140><c> although</c>
+
+00:09:43.790 --> 00:09:43.800 align:start position:0%
+and then I can add another one although
+ 
+
+00:09:43.800 --> 00:09:48.530 align:start position:0%
+and then I can add another one although
+it's<00:09:43.920><c> optional</c><00:09:44.459><c> I</c><00:09:45.240><c> can</c><00:09:45.360><c> add</c><00:09:45.660><c> the</c><00:09:45.899><c> inner</c><00:09:46.260><c> text</c>
+
+00:09:48.530 --> 00:09:48.540 align:start position:0%
+ 
+ 
+
+00:09:48.540 --> 00:09:52.070 align:start position:0%
+ 
+okay<00:09:48.959><c> and</c><00:09:49.620><c> for</c><00:09:50.100><c> this</c><00:09:50.339><c> I</c><00:09:50.820><c> know</c><00:09:50.940><c> it</c><00:09:51.240><c> is</c><00:09:51.420><c> the</c><00:09:51.899><c> text</c>
+
+00:09:52.070 --> 00:09:52.080 align:start position:0%
+okay and for this I know it is the text
+ 
+
+00:09:52.080 --> 00:09:53.630 align:start position:0%
+okay and for this I know it is the text
+go<00:09:52.440><c> for</c><00:09:52.680><c> it</c>
+
+00:09:53.630 --> 00:09:53.640 align:start position:0%
+go for it
+ 
+
+00:09:53.640 --> 00:09:56.449 align:start position:0%
+go for it
+okay<00:09:54.000><c> so</c><00:09:54.300><c> this</c><00:09:54.540><c> way</c><00:09:54.720><c> I</c><00:09:55.260><c> can</c><00:09:55.380><c> make</c><00:09:55.680><c> sure</c><00:09:55.920><c> that</c>
+
+00:09:56.449 --> 00:09:56.459 align:start position:0%
+okay so this way I can make sure that
+ 
+
+00:09:56.459 --> 00:09:59.090 align:start position:0%
+okay so this way I can make sure that
+this<00:09:57.240><c> particular</c><00:09:57.600><c> link</c><00:09:57.899><c> is</c><00:09:58.800><c> getting</c>
+
+00:09:59.090 --> 00:09:59.100 align:start position:0%
+this particular link is getting
+ 
+
+00:09:59.100 --> 00:10:01.610 align:start position:0%
+this particular link is getting
+identified<00:09:59.940><c> by</c><00:10:00.300><c> Tosca</c><00:10:00.779><c> using</c><00:10:01.140><c> this</c><00:10:01.320><c> technical</c>
+
+00:10:01.610 --> 00:10:01.620 align:start position:0%
+identified by Tosca using this technical
+ 
+
+00:10:01.620 --> 00:10:04.250 align:start position:0%
+identified by Tosca using this technical
+properties<00:10:02.160><c> which</c><00:10:02.459><c> I</c><00:10:02.640><c> have</c><00:10:02.700><c> added</c><00:10:03.060><c> okay</c><00:10:03.779><c> so</c><00:10:04.019><c> if</c>
+
+00:10:04.250 --> 00:10:04.260 align:start position:0%
+properties which I have added okay so if
+ 
+
+00:10:04.260 --> 00:10:05.870 align:start position:0%
+properties which I have added okay so if
+you<00:10:04.380><c> have</c><00:10:04.500><c> got</c><00:10:04.680><c> multiple</c><00:10:05.100><c> controls</c><00:10:05.700><c> which</c>
+
+00:10:05.870 --> 00:10:05.880 align:start position:0%
+you have got multiple controls which
+ 
+
+00:10:05.880 --> 00:10:08.090 align:start position:0%
+you have got multiple controls which
+have<00:10:06.060><c> got</c><00:10:06.240><c> the</c><00:10:06.420><c> same</c><00:10:06.600><c> properties</c><00:10:07.080><c> and</c><00:10:07.740><c> you</c><00:10:07.920><c> are</c>
+
+00:10:08.090 --> 00:10:08.100 align:start position:0%
+have got the same properties and you are
+ 
+
+00:10:08.100 --> 00:10:11.210 align:start position:0%
+have got the same properties and you are
+adding<00:10:08.459><c> another</c><00:10:08.880><c> embedded</c><00:10:09.839><c> control</c><00:10:10.200><c> which</c><00:10:11.100><c> is</c>
+
+00:10:11.210 --> 00:10:11.220 align:start position:0%
+adding another embedded control which is
+ 
+
+00:10:11.220 --> 00:10:13.730 align:start position:0%
+adding another embedded control which is
+pretty<00:10:11.399><c> similar</c><00:10:11.880><c> then</c><00:10:12.660><c> try</c><00:10:12.959><c> to</c><00:10:13.140><c> make</c><00:10:13.560><c> it</c>
+
+00:10:13.730 --> 00:10:13.740 align:start position:0%
+pretty similar then try to make it
+ 
+
+00:10:13.740 --> 00:10:16.250 align:start position:0%
+pretty similar then try to make it
+unique<00:10:14.160><c> using</c><00:10:14.760><c> this</c><00:10:15.120><c> additional</c><00:10:15.779><c> technical</c>
+
+00:10:16.250 --> 00:10:16.260 align:start position:0%
+unique using this additional technical
+ 
+
+00:10:16.260 --> 00:10:19.310 align:start position:0%
+unique using this additional technical
+properties<00:10:16.860><c> which</c><00:10:17.220><c> you</c><00:10:17.399><c> can</c><00:10:17.519><c> add</c><00:10:18.080><c> on</c><00:10:19.080><c> your</c>
+
+00:10:19.310 --> 00:10:19.320 align:start position:0%
+properties which you can add on your
+ 
+
+00:10:19.320 --> 00:10:21.889 align:start position:0%
+properties which you can add on your
+control<00:10:19.560><c> okay</c>
+
+00:10:21.889 --> 00:10:21.899 align:start position:0%
+control okay
+ 
+
+00:10:21.899 --> 00:10:24.530 align:start position:0%
+control okay
+so<00:10:22.740><c> even</c><00:10:23.100><c> without</c><00:10:23.459><c> scanning</c><00:10:24.120><c> a</c><00:10:24.240><c> particular</c>
+
+00:10:24.530 --> 00:10:24.540 align:start position:0%
+so even without scanning a particular
+ 
+
+00:10:24.540 --> 00:10:27.290 align:start position:0%
+so even without scanning a particular
+control<00:10:24.839><c> I</c><00:10:25.680><c> can</c><00:10:25.920><c> add</c><00:10:26.399><c> my</c><00:10:26.700><c> own</c><00:10:26.880><c> embedded</c>
+
+00:10:27.290 --> 00:10:27.300 align:start position:0%
+control I can add my own embedded
+ 
+
+00:10:27.300 --> 00:10:29.630 align:start position:0%
+control I can add my own embedded
+control<00:10:27.600><c> and</c><00:10:28.200><c> then</c><00:10:28.380><c> I</c><00:10:28.560><c> can</c><00:10:28.680><c> use</c><00:10:28.980><c> it</c><00:10:29.160><c> inside</c><00:10:29.339><c> my</c>
+
+00:10:29.630 --> 00:10:29.640 align:start position:0%
+control and then I can use it inside my
+ 
+
+00:10:29.640 --> 00:10:31.910 align:start position:0%
+control and then I can use it inside my
+test<00:10:29.820><c> case</c><00:10:30.060><c> okay</c>
+
+00:10:31.910 --> 00:10:31.920 align:start position:0%
+test case okay
+ 
+
+00:10:31.920 --> 00:10:33.949 align:start position:0%
+test case okay
+so<00:10:32.279><c> now</c><00:10:32.459><c> that</c><00:10:32.640><c> we</c><00:10:32.820><c> have</c><00:10:32.880><c> added</c><00:10:33.300><c> uh</c><00:10:33.779><c> the</c>
+
+00:10:33.949 --> 00:10:33.959 align:start position:0%
+so now that we have added uh the
+ 
+
+00:10:33.959 --> 00:10:35.870 align:start position:0%
+so now that we have added uh the
+embedded<00:10:34.380><c> control</c><00:10:34.620><c> and</c><00:10:35.220><c> the</c><00:10:35.580><c> additional</c>
+
+00:10:35.870 --> 00:10:35.880 align:start position:0%
+embedded control and the additional
+ 
+
+00:10:35.880 --> 00:10:38.690 align:start position:0%
+embedded control and the additional
+technical<00:10:36.240><c> properties</c><00:10:36.779><c> let's</c><00:10:37.440><c> go</c><00:10:37.800><c> ahead</c><00:10:38.100><c> and</c>
+
+00:10:38.690 --> 00:10:38.700 align:start position:0%
+technical properties let's go ahead and
+ 
+
+00:10:38.700 --> 00:10:41.210 align:start position:0%
+technical properties let's go ahead and
+add<00:10:39.000><c> this</c><00:10:39.180><c> module</c><00:10:39.540><c> into</c><00:10:39.720><c> the</c><00:10:39.959><c> test</c><00:10:40.140><c> case</c><00:10:40.380><c> and</c>
+
+00:10:41.210 --> 00:10:41.220 align:start position:0%
+add this module into the test case and
+ 
+
+00:10:41.220 --> 00:10:44.269 align:start position:0%
+add this module into the test case and
+let's<00:10:41.399><c> see</c><00:10:41.700><c> if</c><00:10:42.300><c> it</c><00:10:42.720><c> can</c><00:10:42.959><c> still</c><00:10:43.380><c> work</c><00:10:43.680><c> the</c><00:10:44.160><c> same</c>
+
+00:10:44.269 --> 00:10:44.279 align:start position:0%
+let's see if it can still work the same
+ 
+
+00:10:44.279 --> 00:10:47.690 align:start position:0%
+let's see if it can still work the same
+way<00:10:44.459><c> okay</c><00:10:45.180><c> so</c><00:10:46.140><c> we'll</c><00:10:46.500><c> steer</c><00:10:46.920><c> it</c><00:10:47.040><c> in</c><00:10:47.339><c> a</c><00:10:47.459><c> similar</c>
+
+00:10:47.690 --> 00:10:47.700 align:start position:0%
+way okay so we'll steer it in a similar
+ 
+
+00:10:47.700 --> 00:10:50.329 align:start position:0%
+way okay so we'll steer it in a similar
+way<00:10:48.000><c> I</c><00:10:48.540><c> will</c><00:10:48.720><c> select</c><00:10:48.959><c> the</c><00:10:49.140><c> first</c><00:10:49.320><c> row</c><00:10:49.800><c> I</c><00:10:50.160><c> will</c>
+
+00:10:50.329 --> 00:10:50.339 align:start position:0%
+way I will select the first row I will
+ 
+
+00:10:50.339 --> 00:10:53.630 align:start position:0%
+way I will select the first row I will
+select<00:10:50.700><c> the</c><00:10:50.880><c> cell</c><00:10:51.120><c> which</c><00:10:51.959><c> is</c><00:10:52.079><c> action</c><00:10:52.500><c> uh</c><00:10:53.459><c> we'll</c>
+
+00:10:53.630 --> 00:10:53.640 align:start position:0%
+select the cell which is action uh we'll
+ 
+
+00:10:53.640 --> 00:10:56.090 align:start position:0%
+select the cell which is action uh we'll
+change<00:10:53.880><c> the</c><00:10:54.120><c> action</c><00:10:54.360><c> mode</c><00:10:54.600><c> to</c><00:10:54.959><c> select</c>
+
+00:10:56.090 --> 00:10:56.100 align:start position:0%
+change the action mode to select
+ 
+
+00:10:56.100 --> 00:10:59.870 align:start position:0%
+change the action mode to select
+and<00:10:56.820><c> then</c><00:10:57.000><c> for</c><00:10:57.480><c> go</c><00:10:57.779><c> you</c><00:10:58.200><c> need</c><00:10:58.320><c> to</c><00:10:58.440><c> type</c><00:10:58.880><c> the</c>
+
+00:10:59.870 --> 00:10:59.880 align:start position:0%
+and then for go you need to type the
+ 
+
+00:10:59.880 --> 00:11:02.269 align:start position:0%
+and then for go you need to type the
+click<00:11:00.180><c> method</c><00:11:00.540><c> okay</c><00:11:00.899><c> so</c><00:11:01.620><c> by</c><00:11:01.800><c> default</c><00:11:02.100><c> you</c>
+
+00:11:02.269 --> 00:11:02.279 align:start position:0%
+click method okay so by default you
+ 
+
+00:11:02.279 --> 00:11:03.889 align:start position:0%
+click method okay so by default you
+won't<00:11:02.459><c> get</c><00:11:02.700><c> it</c><00:11:02.940><c> because</c><00:11:03.120><c> it</c><00:11:03.420><c> is</c><00:11:03.540><c> a</c><00:11:03.720><c> custom</c>
+
+00:11:03.889 --> 00:11:03.899 align:start position:0%
+won't get it because it is a custom
+ 
+
+00:11:03.899 --> 00:11:06.530 align:start position:0%
+won't get it because it is a custom
+embedded<00:11:04.620><c> control</c><00:11:04.920><c> so</c><00:11:05.700><c> we</c><00:11:05.880><c> need</c><00:11:06.000><c> to</c><00:11:06.120><c> type</c><00:11:06.300><c> the</c>
+
+00:11:06.530 --> 00:11:06.540 align:start position:0%
+embedded control so we need to type the
+ 
+
+00:11:06.540 --> 00:11:09.009 align:start position:0%
+embedded control so we need to type the
+value<00:11:06.720><c> as</c><00:11:07.019><c> click</c><00:11:07.440><c> okay</c>
+
+00:11:09.009 --> 00:11:09.019 align:start position:0%
+value as click okay
+ 
+
+00:11:09.019 --> 00:11:16.430 align:start position:0%
+value as click okay
+let's<00:11:10.019><c> go</c><00:11:10.320><c> ahead</c><00:11:10.560><c> and</c><00:11:10.980><c> execute</c><00:11:11.519><c> this</c><00:11:11.940><c> now</c>
+
+00:11:16.430 --> 00:11:16.440 align:start position:0%
+ 
+ 
+
+00:11:16.440 --> 00:11:18.290 align:start position:0%
+ 
+and<00:11:16.860><c> you</c><00:11:16.980><c> can</c><00:11:17.100><c> see</c><00:11:17.279><c> that</c><00:11:17.579><c> it</c><00:11:18.000><c> is</c><00:11:18.120><c> still</c>
+
+00:11:18.290 --> 00:11:18.300 align:start position:0%
+and you can see that it is still
+ 
+
+00:11:18.300 --> 00:11:21.530 align:start position:0%
+and you can see that it is still
+clicking<00:11:18.720><c> on</c><00:11:19.200><c> the</c><00:11:19.440><c> first</c><00:11:20.100><c> row</c><00:11:20.579><c> for</c><00:11:21.300><c> that</c>
+
+00:11:21.530 --> 00:11:21.540 align:start position:0%
+clicking on the first row for that
+ 
+
+00:11:21.540 --> 00:11:23.870 align:start position:0%
+clicking on the first row for that
+particular<00:11:21.899><c> link</c><00:11:22.200><c> which</c><00:11:22.500><c> is</c><00:11:22.680><c> go</c><00:11:22.920><c> for</c><00:11:23.160><c> it</c><00:11:23.339><c> okay</c>
+
+00:11:23.870 --> 00:11:23.880 align:start position:0%
+particular link which is go for it okay
+ 
+
+00:11:23.880 --> 00:11:27.949 align:start position:0%
+particular link which is go for it okay
+so<00:11:24.779><c> this</c><00:11:25.019><c> way</c><00:11:25.279><c> you</c><00:11:26.279><c> can</c><00:11:26.459><c> add</c><00:11:26.880><c> your</c><00:11:27.240><c> own</c><00:11:27.480><c> custom</c>
+
+00:11:27.949 --> 00:11:27.959 align:start position:0%
+so this way you can add your own custom
+ 
+
+00:11:27.959 --> 00:11:31.730 align:start position:0%
+so this way you can add your own custom
+embedded<00:11:28.620><c> control</c><00:11:28.920><c> into</c><00:11:29.820><c> a</c><00:11:30.360><c> particular</c><00:11:30.740><c> table</c>
+
+00:11:31.730 --> 00:11:31.740 align:start position:0%
+embedded control into a particular table
+ 
+
+00:11:31.740 --> 00:11:35.449 align:start position:0%
+embedded control into a particular table
+row<00:11:32.579><c> cell</c><00:11:32.760><c> or</c><00:11:33.540><c> basically</c><00:11:33.959><c> any</c><00:11:34.320><c> other</c><00:11:34.560><c> object</c>
+
+00:11:35.449 --> 00:11:35.459 align:start position:0%
+row cell or basically any other object
+ 
+
+00:11:35.459 --> 00:11:37.970 align:start position:0%
+row cell or basically any other object
+type<00:11:35.760><c> which</c><00:11:36.180><c> you</c><00:11:36.300><c> are</c><00:11:36.480><c> currently</c><00:11:36.779><c> working</c><00:11:37.019><c> on</c>
+
+00:11:37.970 --> 00:11:37.980 align:start position:0%
+type which you are currently working on
+ 
+
+00:11:37.980 --> 00:11:41.210 align:start position:0%
+type which you are currently working on
+okay<00:11:38.579><c> so</c><00:11:39.360><c> I've</c><00:11:39.480><c> shown</c><00:11:39.720><c> you</c><00:11:39.899><c> both</c><00:11:40.079><c> the</c><00:11:40.260><c> ways</c><00:11:40.620><c> uh</c>
+
+00:11:41.210 --> 00:11:41.220 align:start position:0%
+okay so I've shown you both the ways uh
+ 
+
+00:11:41.220 --> 00:11:44.210 align:start position:0%
+okay so I've shown you both the ways uh
+one<00:11:41.700><c> is</c><00:11:42.060><c> the</c><00:11:42.360><c> simple</c><00:11:42.540><c> way</c><00:11:42.839><c> you</c><00:11:43.500><c> scan</c><00:11:43.740><c> it</c><00:11:43.920><c> and</c>
+
+00:11:44.210 --> 00:11:44.220 align:start position:0%
+one is the simple way you scan it and
+ 
+
+00:11:44.220 --> 00:11:46.790 align:start position:0%
+one is the simple way you scan it and
+then<00:11:44.339><c> you</c><00:11:44.700><c> drag</c><00:11:44.880><c> and</c><00:11:45.120><c> drop</c><00:11:45.420><c> it</c><00:11:45.660><c> and</c><00:11:46.500><c> the</c><00:11:46.680><c> other</c>
+
+00:11:46.790 --> 00:11:46.800 align:start position:0%
+then you drag and drop it and the other
+ 
+
+00:11:46.800 --> 00:11:49.490 align:start position:0%
+then you drag and drop it and the other
+way<00:11:47.160><c> is</c><00:11:47.579><c> you</c><00:11:48.060><c> don't</c><00:11:48.180><c> even</c><00:11:48.420><c> need</c><00:11:48.660><c> to</c><00:11:48.779><c> scan</c><00:11:49.140><c> that</c>
+
+00:11:49.490 --> 00:11:49.500 align:start position:0%
+way is you don't even need to scan that
+ 
+
+00:11:49.500 --> 00:11:51.290 align:start position:0%
+way is you don't even need to scan that
+particular<00:11:49.800><c> control</c><00:11:50.040><c> you</c><00:11:50.640><c> can</c><00:11:50.700><c> add</c><00:11:50.940><c> a</c><00:11:51.180><c> custom</c>
+
+00:11:51.290 --> 00:11:51.300 align:start position:0%
+particular control you can add a custom
+ 
+
+00:11:51.300 --> 00:11:54.829 align:start position:0%
+particular control you can add a custom
+control<00:11:51.800><c> uh</c><00:11:52.800><c> as</c><00:11:53.040><c> an</c><00:11:53.220><c> embedded</c><00:11:53.700><c> control</c><00:11:54.240><c> into</c>
+
+00:11:54.829 --> 00:11:54.839 align:start position:0%
+control uh as an embedded control into
+ 
+
+00:11:54.839 --> 00:11:58.430 align:start position:0%
+control uh as an embedded control into
+that<00:11:55.200><c> particular</c><00:11:55.500><c> object</c><00:11:56.100><c> okay</c>
+
+00:11:58.430 --> 00:11:58.440 align:start position:0%
+that particular object okay
+ 
+
+00:11:58.440 --> 00:12:00.769 align:start position:0%
+that particular object okay
+so<00:11:58.740><c> that's</c><00:11:58.860><c> all</c><00:11:59.100><c> for</c><00:11:59.279><c> this</c><00:11:59.459><c> video</c><00:11:59.640><c> uh</c><00:12:00.180><c> I</c><00:12:00.480><c> hope</c>
+
+00:12:00.769 --> 00:12:00.779 align:start position:0%
+so that's all for this video uh I hope
+ 
+
+00:12:00.779 --> 00:12:03.170 align:start position:0%
+so that's all for this video uh I hope
+uh<00:12:01.260><c> you</c><00:12:01.440><c> enjoyed</c><00:12:01.860><c> it</c><00:12:02.040><c> and</c><00:12:02.640><c> you</c><00:12:02.820><c> learned</c>
+
+00:12:03.170 --> 00:12:03.180 align:start position:0%
+uh you enjoyed it and you learned
+ 
+
+00:12:03.180 --> 00:12:04.910 align:start position:0%
+uh you enjoyed it and you learned
+something<00:12:03.240><c> new</c><00:12:03.540><c> today</c><00:12:03.779><c> if</c><00:12:04.500><c> you</c><00:12:04.620><c> have</c><00:12:04.740><c> not</c>
+
+00:12:04.910 --> 00:12:04.920 align:start position:0%
+something new today if you have not
+ 
+
+00:12:04.920 --> 00:12:06.290 align:start position:0%
+something new today if you have not
+already<00:12:05.100><c> subscribed</c><00:12:05.640><c> to</c><00:12:05.760><c> our</c><00:12:05.940><c> channel</c><00:12:06.060><c> do</c>
+
+00:12:06.290 --> 00:12:06.300 align:start position:0%
+already subscribed to our channel do
+ 
+
+00:12:06.300 --> 00:12:08.930 align:start position:0%
+already subscribed to our channel do
+subscribe<00:12:06.779><c> as</c><00:12:07.320><c> we</c><00:12:07.500><c> are</c><00:12:07.620><c> coming</c><00:12:07.800><c> up</c><00:12:08.040><c> with</c><00:12:08.519><c> lots</c>
+
+00:12:08.930 --> 00:12:08.940 align:start position:0%
+subscribe as we are coming up with lots
+ 
+
+00:12:08.940 --> 00:12:11.630 align:start position:0%
+subscribe as we are coming up with lots
+of<00:12:09.060><c> more</c><00:12:09.480><c> interesting</c><00:12:10.140><c> videos</c><00:12:10.380><c> on</c><00:12:10.740><c> Tosca</c><00:12:11.220><c> and</c>
+
+00:12:11.630 --> 00:12:11.640 align:start position:0%
+of more interesting videos on Tosca and
+ 
+
+00:12:11.640 --> 00:12:14.750 align:start position:0%
+of more interesting videos on Tosca and
+many<00:12:12.180><c> other</c><00:12:12.420><c> different</c><00:12:12.779><c> automation</c><00:12:13.380><c> tools</c>
+
+00:12:14.750 --> 00:12:14.760 align:start position:0%
+many other different automation tools
+ 
+
+00:12:14.760 --> 00:12:16.910 align:start position:0%
+many other different automation tools
+so<00:12:15.240><c> until</c><00:12:15.360><c> the</c><00:12:15.660><c> next</c><00:12:15.779><c> video</c><00:12:16.019><c> keep</c><00:12:16.500><c> watching</c>
+
+00:12:16.910 --> 00:12:16.920 align:start position:0%
+so until the next video keep watching
+ 
+
+00:12:16.920 --> 00:12:20.240 align:start position:0%
+so until the next video keep watching
+and<00:12:17.279><c> keep</c><00:12:17.459><c> learning</c><00:12:17.820><c> Tosca</c>
+

@@ -1,0 +1,968 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:04.920 --> 00:00:06.730 align:start position:0%
+ 
+foreign
+
+00:00:06.730 --> 00:00:06.740 align:start position:0%
+foreign
+ 
+
+00:00:06.740 --> 00:00:09.049 align:start position:0%
+foreign
+welcome<00:00:07.740><c> back</c><00:00:08.040><c> to</c><00:00:08.220><c> our</c><00:00:08.340><c> Channel</c>
+
+00:00:09.049 --> 00:00:09.059 align:start position:0%
+welcome back to our Channel
+ 
+
+00:00:09.059 --> 00:00:11.690 align:start position:0%
+welcome back to our Channel
+I<00:00:09.599><c> am</c><00:00:09.720><c> back</c><00:00:10.019><c> with</c><00:00:10.440><c> another</c><00:00:10.679><c> interesting</c><00:00:11.219><c> topic</c>
+
+00:00:11.690 --> 00:00:11.700 align:start position:0%
+I am back with another interesting topic
+ 
+
+00:00:11.700 --> 00:00:14.509 align:start position:0%
+I am back with another interesting topic
+in<00:00:12.300><c> the</c><00:00:12.540><c> Tosca</c><00:00:12.960><c> automation</c><00:00:13.380><c> playlist</c>
+
+00:00:14.509 --> 00:00:14.519 align:start position:0%
+in the Tosca automation playlist
+ 
+
+00:00:14.519 --> 00:00:16.849 align:start position:0%
+in the Tosca automation playlist
+in<00:00:15.059><c> this</c><00:00:15.179><c> session</c><00:00:15.360><c> we</c><00:00:16.080><c> are</c><00:00:16.199><c> going</c><00:00:16.379><c> to</c><00:00:16.500><c> discuss</c>
+
+00:00:16.849 --> 00:00:16.859 align:start position:0%
+in this session we are going to discuss
+ 
+
+00:00:16.859 --> 00:00:19.970 align:start position:0%
+in this session we are going to discuss
+how<00:00:17.820><c> we</c><00:00:18.000><c> can</c><00:00:18.180><c> synchronize</c><00:00:18.779><c> execution</c><00:00:19.440><c> lists</c>
+
+00:00:19.970 --> 00:00:19.980 align:start position:0%
+how we can synchronize execution lists
+ 
+
+00:00:19.980 --> 00:00:22.010 align:start position:0%
+how we can synchronize execution lists
+with<00:00:20.520><c> the</c><00:00:20.820><c> test</c><00:00:21.000><c> cases</c>
+
+00:00:22.010 --> 00:00:22.020 align:start position:0%
+with the test cases
+ 
+
+00:00:22.020 --> 00:00:24.769 align:start position:0%
+with the test cases
+but<00:00:22.500><c> first</c><00:00:22.680><c> let's</c><00:00:22.980><c> understand</c><00:00:23.480><c> why</c><00:00:24.480><c> do</c><00:00:24.600><c> we</c>
+
+00:00:24.769 --> 00:00:24.779 align:start position:0%
+but first let's understand why do we
+ 
+
+00:00:24.779 --> 00:00:26.509 align:start position:0%
+but first let's understand why do we
+even<00:00:24.900><c> need</c><00:00:25.140><c> to</c><00:00:25.260><c> synchronize</c><00:00:25.800><c> this</c><00:00:26.100><c> execution</c>
+
+00:00:26.509 --> 00:00:26.519 align:start position:0%
+even need to synchronize this execution
+ 
+
+00:00:26.519 --> 00:00:29.630 align:start position:0%
+even need to synchronize this execution
+list<00:00:26.880><c> with</c><00:00:27.420><c> the</c><00:00:27.900><c> test</c><00:00:28.080><c> cases</c>
+
+00:00:29.630 --> 00:00:29.640 align:start position:0%
+list with the test cases
+ 
+
+00:00:29.640 --> 00:00:32.510 align:start position:0%
+list with the test cases
+so<00:00:30.119><c> whenever</c><00:00:30.840><c> you</c><00:00:31.080><c> make</c><00:00:31.320><c> any</c><00:00:31.619><c> changes</c><00:00:32.099><c> to</c><00:00:32.340><c> your</c>
+
+00:00:32.510 --> 00:00:32.520 align:start position:0%
+so whenever you make any changes to your
+ 
+
+00:00:32.520 --> 00:00:33.770 align:start position:0%
+so whenever you make any changes to your
+test<00:00:32.640><c> cases</c>
+
+00:00:33.770 --> 00:00:33.780 align:start position:0%
+test cases
+ 
+
+00:00:33.780 --> 00:00:35.930 align:start position:0%
+test cases
+some<00:00:34.260><c> of</c><00:00:34.440><c> the</c><00:00:34.559><c> changes</c><00:00:34.980><c> are</c><00:00:35.340><c> automatically</c>
+
+00:00:35.930 --> 00:00:35.940 align:start position:0%
+some of the changes are automatically
+ 
+
+00:00:35.940 --> 00:00:39.530 align:start position:0%
+some of the changes are automatically
+synchronized<00:00:36.719><c> with</c><00:00:37.260><c> the</c><00:00:37.559><c> execution</c><00:00:38.040><c> list</c><00:00:38.540><c> but</c>
+
+00:00:39.530 --> 00:00:39.540 align:start position:0%
+synchronized with the execution list but
+ 
+
+00:00:39.540 --> 00:00:42.410 align:start position:0%
+synchronized with the execution list but
+some<00:00:40.079><c> of</c><00:00:40.260><c> the</c><00:00:40.440><c> things</c><00:00:40.800><c> are</c><00:00:41.520><c> not</c><00:00:41.760><c> synchronized</c>
+
+00:00:42.410 --> 00:00:42.420 align:start position:0%
+some of the things are not synchronized
+ 
+
+00:00:42.420 --> 00:00:44.990 align:start position:0%
+some of the things are not synchronized
+automatically<00:00:43.079><c> by</c><00:00:43.320><c> Tosca</c><00:00:43.800><c> and</c><00:00:44.460><c> you</c><00:00:44.640><c> need</c><00:00:44.879><c> to</c>
+
+00:00:44.990 --> 00:00:45.000 align:start position:0%
+automatically by Tosca and you need to
+ 
+
+00:00:45.000 --> 00:00:47.389 align:start position:0%
+automatically by Tosca and you need to
+synchronize<00:00:45.480><c> them</c><00:00:45.719><c> manually</c>
+
+00:00:47.389 --> 00:00:47.399 align:start position:0%
+synchronize them manually
+ 
+
+00:00:47.399 --> 00:00:49.910 align:start position:0%
+synchronize them manually
+but<00:00:47.879><c> first</c><00:00:48.059><c> let's</c><00:00:48.600><c> discuss</c><00:00:49.079><c> what</c><00:00:49.800><c> is</c>
+
+00:00:49.910 --> 00:00:49.920 align:start position:0%
+but first let's discuss what is
+ 
+
+00:00:49.920 --> 00:00:52.549 align:start position:0%
+but first let's discuss what is
+synchronized<00:00:50.520><c> automatically</c><00:00:51.180><c> okay</c>
+
+00:00:52.549 --> 00:00:52.559 align:start position:0%
+synchronized automatically okay
+ 
+
+00:00:52.559 --> 00:00:55.790 align:start position:0%
+synchronized automatically okay
+so<00:00:53.219><c> any</c><00:00:53.700><c> changes</c><00:00:54.120><c> which</c><00:00:54.660><c> you</c><00:00:55.079><c> make</c><00:00:55.260><c> directly</c>
+
+00:00:55.790 --> 00:00:55.800 align:start position:0%
+so any changes which you make directly
+ 
+
+00:00:55.800 --> 00:00:57.889 align:start position:0%
+so any changes which you make directly
+to<00:00:56.039><c> the</c><00:00:56.160><c> test</c><00:00:56.340><c> case</c><00:00:56.640><c> whether</c><00:00:57.539><c> you</c><00:00:57.780><c> are</c>
+
+00:00:57.889 --> 00:00:57.899 align:start position:0%
+to the test case whether you are
+ 
+
+00:00:57.899 --> 00:01:00.350 align:start position:0%
+to the test case whether you are
+changing<00:00:58.260><c> any</c><00:00:58.559><c> particular</c><00:00:58.920><c> test</c><00:00:59.280><c> step</c><00:00:59.520><c> or</c><00:01:00.180><c> you</c>
+
+00:01:00.350 --> 00:01:00.360 align:start position:0%
+changing any particular test step or you
+ 
+
+00:01:00.360 --> 00:01:03.770 align:start position:0%
+changing any particular test step or you
+are<00:01:00.480><c> changing</c><00:01:00.780><c> any</c><00:01:01.079><c> value</c><00:01:01.379><c> here</c><00:01:01.940><c> or</c><00:01:02.940><c> if</c><00:01:03.480><c> even</c>
+
+00:01:03.770 --> 00:01:03.780 align:start position:0%
+are changing any value here or if even
+ 
+
+00:01:03.780 --> 00:01:06.289 align:start position:0%
+are changing any value here or if even
+if<00:01:04.080><c> you</c><00:01:04.199><c> are</c><00:01:04.379><c> changing</c><00:01:04.739><c> the</c><00:01:05.580><c> name</c><00:01:05.760><c> of</c><00:01:05.939><c> the</c><00:01:06.119><c> test</c>
+
+00:01:06.289 --> 00:01:06.299 align:start position:0%
+if you are changing the name of the test
+ 
+
+00:01:06.299 --> 00:01:09.170 align:start position:0%
+if you are changing the name of the test
+case<00:01:06.619><c> all</c><00:01:07.619><c> these</c><00:01:07.799><c> changes</c><00:01:08.220><c> are</c><00:01:08.520><c> synchronized</c>
+
+00:01:09.170 --> 00:01:09.180 align:start position:0%
+case all these changes are synchronized
+ 
+
+00:01:09.180 --> 00:01:12.350 align:start position:0%
+case all these changes are synchronized
+automatically<00:01:09.960><c> in</c><00:01:10.619><c> your</c><00:01:10.860><c> execution</c><00:01:11.340><c> list</c>
+
+00:01:12.350 --> 00:01:12.360 align:start position:0%
+automatically in your execution list
+ 
+
+00:01:12.360 --> 00:01:15.890 align:start position:0%
+automatically in your execution list
+so<00:01:13.080><c> for</c><00:01:13.439><c> example</c><00:01:13.760><c> if</c><00:01:14.760><c> I</c><00:01:14.939><c> change</c><00:01:15.119><c> the</c><00:01:15.420><c> name</c><00:01:15.600><c> of</c>
+
+00:01:15.890 --> 00:01:15.900 align:start position:0%
+so for example if I change the name of
+ 
+
+00:01:15.900 --> 00:01:21.950 align:start position:0%
+so for example if I change the name of
+this<00:01:16.080><c> test</c><00:01:16.260><c> case</c><00:01:16.560><c> now</c><00:01:16.860><c> okay</c><00:01:17.400><c> to</c><00:01:18.119><c> Execute</c><00:01:18.720><c> order</c>
+
+00:01:21.950 --> 00:01:21.960 align:start position:0%
+ 
+ 
+
+00:01:21.960 --> 00:01:24.469 align:start position:0%
+ 
+you<00:01:22.500><c> will</c><00:01:22.619><c> see</c><00:01:22.860><c> that</c><00:01:23.520><c> the</c><00:01:23.820><c> name</c><00:01:24.000><c> is</c>
+
+00:01:24.469 --> 00:01:24.479 align:start position:0%
+you will see that the name is
+ 
+
+00:01:24.479 --> 00:01:27.289 align:start position:0%
+you will see that the name is
+automatically<00:01:25.200><c> changed</c><00:01:25.860><c> in</c><00:01:26.340><c> the</c><00:01:26.640><c> execution</c>
+
+00:01:27.289 --> 00:01:27.299 align:start position:0%
+automatically changed in the execution
+ 
+
+00:01:27.299 --> 00:01:29.090 align:start position:0%
+automatically changed in the execution
+list<00:01:27.720><c> as</c><00:01:28.200><c> well</c>
+
+00:01:29.090 --> 00:01:29.100 align:start position:0%
+list as well
+ 
+
+00:01:29.100 --> 00:01:31.310 align:start position:0%
+list as well
+so<00:01:29.460><c> the</c><00:01:29.700><c> changes</c><00:01:30.060><c> are</c><00:01:30.360><c> getting</c><00:01:30.540><c> synchronized</c>
+
+00:01:31.310 --> 00:01:31.320 align:start position:0%
+so the changes are getting synchronized
+ 
+
+00:01:31.320 --> 00:01:33.770 align:start position:0%
+so the changes are getting synchronized
+automatically<00:01:32.100><c> here</c>
+
+00:01:33.770 --> 00:01:33.780 align:start position:0%
+automatically here
+ 
+
+00:01:33.780 --> 00:01:37.550 align:start position:0%
+automatically here
+but<00:01:34.200><c> some</c><00:01:34.439><c> of</c><00:01:34.619><c> the</c><00:01:34.799><c> changes</c><00:01:35.220><c> like</c><00:01:36.180><c> if</c><00:01:36.659><c> I</c><00:01:37.079><c> uh</c>
+
+00:01:37.550 --> 00:01:37.560 align:start position:0%
+but some of the changes like if I uh
+ 
+
+00:01:37.560 --> 00:01:41.149 align:start position:0%
+but some of the changes like if I uh
+rename<00:01:38.460><c> some</c><00:01:38.880><c> of</c><00:01:39.060><c> the</c><00:01:39.180><c> test</c><00:01:39.360><c> case</c><00:01:39.600><c> folder</c><00:01:40.159><c> or</c>
+
+00:01:41.149 --> 00:01:41.159 align:start position:0%
+rename some of the test case folder or
+ 
+
+00:01:41.159 --> 00:01:44.330 align:start position:0%
+rename some of the test case folder or
+if<00:01:41.640><c> I</c><00:01:42.119><c> move</c><00:01:42.540><c> the</c><00:01:43.140><c> test</c><00:01:43.380><c> case</c><00:01:43.680><c> to</c><00:01:44.100><c> another</c>
+
+00:01:44.330 --> 00:01:44.340 align:start position:0%
+if I move the test case to another
+ 
+
+00:01:44.340 --> 00:01:47.210 align:start position:0%
+if I move the test case to another
+folder<00:01:45.000><c> so</c><00:01:45.780><c> these</c><00:01:46.140><c> changes</c><00:01:46.560><c> are</c><00:01:46.979><c> not</c>
+
+00:01:47.210 --> 00:01:47.220 align:start position:0%
+folder so these changes are not
+ 
+
+00:01:47.220 --> 00:01:49.490 align:start position:0%
+folder so these changes are not
+automatically<00:01:47.820><c> reflected</c><00:01:48.479><c> in</c><00:01:48.900><c> the</c><00:01:49.079><c> execution</c>
+
+00:01:49.490 --> 00:01:49.500 align:start position:0%
+automatically reflected in the execution
+ 
+
+00:01:49.500 --> 00:01:50.569 align:start position:0%
+automatically reflected in the execution
+list
+
+00:01:50.569 --> 00:01:50.579 align:start position:0%
+list
+ 
+
+00:01:50.579 --> 00:01:54.050 align:start position:0%
+list
+so<00:01:51.180><c> for</c><00:01:51.420><c> example</c><00:01:51.720><c> if</c><00:01:52.619><c> now</c><00:01:52.920><c> I</c><00:01:53.280><c> move</c><00:01:53.460><c> this</c><00:01:53.820><c> test</c>
+
+00:01:54.050 --> 00:01:54.060 align:start position:0%
+so for example if now I move this test
+ 
+
+00:01:54.060 --> 00:01:57.350 align:start position:0%
+so for example if now I move this test
+case<00:01:54.360><c> to</c><00:01:55.020><c> this</c><00:01:55.380><c> particular</c><00:01:55.759><c> new</c><00:01:56.759><c> folder</c><00:01:57.180><c> which</c>
+
+00:01:57.350 --> 00:01:57.360 align:start position:0%
+case to this particular new folder which
+ 
+
+00:01:57.360 --> 00:02:00.830 align:start position:0%
+case to this particular new folder which
+is<00:01:57.479><c> webshop</c><00:01:58.140><c> from</c><00:01:58.740><c> the</c><00:01:58.920><c> demo</c><00:01:59.220><c> webshop</c><00:01:59.700><c> okay</c>
+
+00:02:00.830 --> 00:02:00.840 align:start position:0%
+is webshop from the demo webshop okay
+ 
+
+00:02:00.840 --> 00:02:03.649 align:start position:0%
+is webshop from the demo webshop okay
+and<00:02:01.500><c> if</c><00:02:01.740><c> I</c><00:02:01.860><c> look</c><00:02:02.040><c> back</c><00:02:02.280><c> at</c><00:02:02.700><c> my</c><00:02:02.880><c> execution</c><00:02:03.299><c> list</c>
+
+00:02:03.649 --> 00:02:03.659 align:start position:0%
+and if I look back at my execution list
+ 
+
+00:02:03.659 --> 00:02:07.130 align:start position:0%
+and if I look back at my execution list
+you<00:02:04.140><c> will</c><00:02:04.259><c> see</c><00:02:04.439><c> that</c><00:02:04.619><c> Execute</c><00:02:05.159><c> order</c><00:02:05.719><c> is</c><00:02:06.719><c> still</c>
+
+00:02:07.130 --> 00:02:07.140 align:start position:0%
+you will see that Execute order is still
+ 
+
+00:02:07.140 --> 00:02:10.490 align:start position:0%
+you will see that Execute order is still
+under<00:02:07.439><c> the</c><00:02:07.680><c> demo</c><00:02:08.039><c> webshop</c><00:02:08.399><c> folder</c><00:02:08.940><c> it</c><00:02:09.720><c> has</c><00:02:10.020><c> not</c>
+
+00:02:10.490 --> 00:02:10.500 align:start position:0%
+under the demo webshop folder it has not
+ 
+
+00:02:10.500 --> 00:02:13.309 align:start position:0%
+under the demo webshop folder it has not
+been<00:02:10.800><c> moved</c><00:02:11.220><c> to</c><00:02:11.520><c> the</c><00:02:11.700><c> other</c><00:02:11.819><c> folder</c><00:02:12.360><c> like</c><00:02:13.080><c> we</c>
+
+00:02:13.309 --> 00:02:13.319 align:start position:0%
+been moved to the other folder like we
+ 
+
+00:02:13.319 --> 00:02:17.089 align:start position:0%
+been moved to the other folder like we
+have<00:02:13.440><c> done</c><00:02:13.680><c> for</c><00:02:14.220><c> the</c><00:02:15.120><c> webshop</c><00:02:15.599><c> right</c><00:02:15.780><c> so</c><00:02:16.739><c> if</c>
+
+00:02:17.089 --> 00:02:17.099 align:start position:0%
+have done for the webshop right so if
+ 
+
+00:02:17.099 --> 00:02:21.890 align:start position:0%
+have done for the webshop right so if
+now<00:02:17.580><c> I</c><00:02:18.200><c> synchronize</c><00:02:19.200><c> this</c><00:02:19.560><c> okay</c>
+
+00:02:21.890 --> 00:02:21.900 align:start position:0%
+now I synchronize this okay
+ 
+
+00:02:21.900 --> 00:02:24.410 align:start position:0%
+now I synchronize this okay
+so<00:02:22.379><c> you</c><00:02:22.620><c> will</c><00:02:22.739><c> see</c><00:02:22.980><c> that</c><00:02:23.280><c> the</c><00:02:23.700><c> test</c><00:02:23.819><c> case</c><00:02:24.060><c> is</c>
+
+00:02:24.410 --> 00:02:24.420 align:start position:0%
+so you will see that the test case is
+ 
+
+00:02:24.420 --> 00:02:25.369 align:start position:0%
+so you will see that the test case is
+gone
+
+00:02:25.369 --> 00:02:25.379 align:start position:0%
+gone
+ 
+
+00:02:25.379 --> 00:02:27.710 align:start position:0%
+gone
+so<00:02:25.980><c> that</c><00:02:26.160><c> is</c><00:02:26.280><c> how</c><00:02:26.580><c> you</c><00:02:26.819><c> can</c><00:02:26.940><c> synchronize</c><00:02:27.480><c> your</c>
+
+00:02:27.710 --> 00:02:27.720 align:start position:0%
+so that is how you can synchronize your
+ 
+
+00:02:27.720 --> 00:02:30.170 align:start position:0%
+so that is how you can synchronize your
+execution<00:02:28.140><c> list</c><00:02:28.560><c> with</c><00:02:29.220><c> your</c><00:02:29.580><c> test</c><00:02:29.700><c> cases</c>
+
+00:02:30.170 --> 00:02:30.180 align:start position:0%
+execution list with your test cases
+ 
+
+00:02:30.180 --> 00:02:31.369 align:start position:0%
+execution list with your test cases
+changes
+
+00:02:31.369 --> 00:02:31.379 align:start position:0%
+changes
+ 
+
+00:02:31.379 --> 00:02:33.589 align:start position:0%
+changes
+so<00:02:32.040><c> you</c><00:02:32.459><c> have</c><00:02:32.580><c> to</c><00:02:32.760><c> right</c><00:02:32.940><c> click</c><00:02:33.300><c> on</c><00:02:33.480><c> the</c>
+
+00:02:33.589 --> 00:02:33.599 align:start position:0%
+so you have to right click on the
+ 
+
+00:02:33.599 --> 00:02:35.510 align:start position:0%
+so you have to right click on the
+execution<00:02:33.959><c> list</c><00:02:34.319><c> and</c><00:02:34.739><c> then</c><00:02:34.860><c> click</c><00:02:35.220><c> on</c>
+
+00:02:35.510 --> 00:02:35.520 align:start position:0%
+execution list and then click on
+ 
+
+00:02:35.520 --> 00:02:37.610 align:start position:0%
+execution list and then click on
+synchronize<00:02:36.239><c> okay</c><00:02:36.780><c> so</c><00:02:37.319><c> it</c><00:02:37.500><c> will</c>
+
+00:02:37.610 --> 00:02:37.620 align:start position:0%
+synchronize okay so it will
+ 
+
+00:02:37.620 --> 00:02:39.410 align:start position:0%
+synchronize okay so it will
+automatically<00:02:38.220><c> synchronize</c><00:02:38.879><c> all</c><00:02:39.239><c> the</c>
+
+00:02:39.410 --> 00:02:39.420 align:start position:0%
+automatically synchronize all the
+ 
+
+00:02:39.420 --> 00:02:42.229 align:start position:0%
+automatically synchronize all the
+changes<00:02:39.720><c> which</c><00:02:39.900><c> you</c><00:02:40.080><c> have</c><00:02:40.200><c> made</c><00:02:40.379><c> like</c><00:02:41.220><c> here</c><00:02:41.519><c> so</c>
+
+00:02:42.229 --> 00:02:42.239 align:start position:0%
+changes which you have made like here so
+ 
+
+00:02:42.239 --> 00:02:44.570 align:start position:0%
+changes which you have made like here so
+now<00:02:42.540><c> the</c><00:02:42.959><c> test</c><00:02:43.140><c> case</c><00:02:43.319><c> fold</c><00:02:43.620><c> the</c><00:02:43.800><c> demo</c><00:02:44.099><c> webshop</c>
+
+00:02:44.570 --> 00:02:44.580 align:start position:0%
+now the test case fold the demo webshop
+ 
+
+00:02:44.580 --> 00:02:47.570 align:start position:0%
+now the test case fold the demo webshop
+does<00:02:44.879><c> not</c><00:02:45.060><c> have</c><00:02:45.420><c> that</c><00:02:46.319><c> particular</c><00:02:46.680><c> test</c><00:02:47.340><c> case</c>
+
+00:02:47.570 --> 00:02:47.580 align:start position:0%
+does not have that particular test case
+ 
+
+00:02:47.580 --> 00:02:50.030 align:start position:0%
+does not have that particular test case
+right<00:02:47.879><c> and</c><00:02:48.360><c> that's</c><00:02:48.660><c> what</c><00:02:49.080><c> is</c><00:02:49.319><c> being</c><00:02:49.500><c> reflected</c>
+
+00:02:50.030 --> 00:02:50.040 align:start position:0%
+right and that's what is being reflected
+ 
+
+00:02:50.040 --> 00:02:52.550 align:start position:0%
+right and that's what is being reflected
+here<00:02:50.280><c> it</c><00:02:50.940><c> has</c><00:02:51.120><c> been</c><00:02:51.300><c> moved</c><00:02:51.780><c> to</c><00:02:52.200><c> the</c><00:02:52.379><c> other</c>
+
+00:02:52.550 --> 00:02:52.560 align:start position:0%
+here it has been moved to the other
+ 
+
+00:02:52.560 --> 00:02:55.369 align:start position:0%
+here it has been moved to the other
+folder<00:02:53.160><c> okay</c>
+
+00:02:55.369 --> 00:02:55.379 align:start position:0%
+folder okay
+ 
+
+00:02:55.379 --> 00:02:59.270 align:start position:0%
+folder okay
+or<00:02:56.280><c> if</c><00:02:57.120><c> I</c><00:02:57.360><c> am</c><00:02:57.540><c> going</c><00:02:57.780><c> to</c><00:02:58.019><c> put</c><00:02:58.319><c> this</c><00:02:58.620><c> back</c><00:02:58.860><c> into</c>
+
+00:02:59.270 --> 00:02:59.280 align:start position:0%
+or if I am going to put this back into
+ 
+
+00:02:59.280 --> 00:03:02.809 align:start position:0%
+or if I am going to put this back into
+the<00:02:59.459><c> demo</c><00:02:59.760><c> webshop</c><00:03:00.180><c> now</c><00:03:00.540><c> okay</c><00:03:01.040><c> and</c><00:03:02.040><c> now</c><00:03:02.519><c> let's</c>
+
+00:03:02.809 --> 00:03:02.819 align:start position:0%
+the demo webshop now okay and now let's
+ 
+
+00:03:02.819 --> 00:03:06.050 align:start position:0%
+the demo webshop now okay and now let's
+go<00:03:03.180><c> back</c><00:03:03.420><c> and</c><00:03:04.200><c> synchronize</c><00:03:04.920><c> it</c><00:03:05.160><c> again</c><00:03:05.400><c> to</c><00:03:05.879><c> see</c>
+
+00:03:06.050 --> 00:03:06.060 align:start position:0%
+go back and synchronize it again to see
+ 
+
+00:03:06.060 --> 00:03:09.830 align:start position:0%
+go back and synchronize it again to see
+the<00:03:06.300><c> change</c><00:03:06.420><c> okay</c><00:03:07.260><c> so</c><00:03:07.680><c> it's</c><00:03:08.040><c> still</c><00:03:08.459><c> there</c>
+
+00:03:09.830 --> 00:03:09.840 align:start position:0%
+the change okay so it's still there
+ 
+
+00:03:09.840 --> 00:03:13.490 align:start position:0%
+the change okay so it's still there
+also<00:03:10.440><c> some</c><00:03:10.860><c> of</c><00:03:11.040><c> the</c><00:03:11.220><c> changes</c><00:03:11.700><c> like</c><00:03:12.360><c> uh</c><00:03:12.900><c> if</c><00:03:13.260><c> I</c>
+
+00:03:13.490 --> 00:03:13.500 align:start position:0%
+also some of the changes like uh if I
+ 
+
+00:03:13.500 --> 00:03:16.309 align:start position:0%
+also some of the changes like uh if I
+rename<00:03:13.920><c> this</c><00:03:14.280><c> folder</c><00:03:14.700><c> from</c><00:03:15.120><c> demo</c><00:03:15.540><c> webshop</c><00:03:15.900><c> to</c>
+
+00:03:16.309 --> 00:03:16.319 align:start position:0%
+rename this folder from demo webshop to
+ 
+
+00:03:16.319 --> 00:03:17.930 align:start position:0%
+rename this folder from demo webshop to
+demo<00:03:16.739><c> shop</c>
+
+00:03:17.930 --> 00:03:17.940 align:start position:0%
+demo shop
+ 
+
+00:03:17.940 --> 00:03:20.149 align:start position:0%
+demo shop
+you<00:03:18.360><c> will</c><00:03:18.480><c> see</c><00:03:18.720><c> that</c><00:03:18.959><c> in</c><00:03:19.260><c> the</c><00:03:19.379><c> execution</c><00:03:19.800><c> list</c>
+
+00:03:20.149 --> 00:03:20.159 align:start position:0%
+you will see that in the execution list
+ 
+
+00:03:20.159 --> 00:03:24.110 align:start position:0%
+you will see that in the execution list
+that<00:03:20.700><c> folder</c><00:03:21.300><c> has</c><00:03:21.959><c> not</c><00:03:22.260><c> changed</c><00:03:22.800><c> right</c>
+
+00:03:24.110 --> 00:03:24.120 align:start position:0%
+that folder has not changed right
+ 
+
+00:03:24.120 --> 00:03:27.589 align:start position:0%
+that folder has not changed right
+so<00:03:24.780><c> it</c><00:03:25.140><c> is</c><00:03:25.379><c> still</c><00:03:25.860><c> demo</c><00:03:26.519><c> webshop</c><00:03:26.879><c> this</c><00:03:27.360><c> is</c><00:03:27.420><c> the</c>
+
+00:03:27.589 --> 00:03:27.599 align:start position:0%
+so it is still demo webshop this is the
+ 
+
+00:03:27.599 --> 00:03:29.390 align:start position:0%
+so it is still demo webshop this is the
+test<00:03:27.780><c> case</c><00:03:27.959><c> folder</c><00:03:28.500><c> which</c><00:03:28.739><c> is</c><00:03:28.860><c> it</c><00:03:29.280><c> is</c>
+
+00:03:29.390 --> 00:03:29.400 align:start position:0%
+test case folder which is it is
+ 
+
+00:03:29.400 --> 00:03:31.910 align:start position:0%
+test case folder which is it is
+referring<00:03:29.819><c> to</c><00:03:30.000><c> so</c><00:03:30.659><c> it</c><00:03:30.900><c> is</c><00:03:31.019><c> still</c><00:03:31.140><c> demo</c><00:03:31.560><c> webshop</c>
+
+00:03:31.910 --> 00:03:31.920 align:start position:0%
+referring to so it is still demo webshop
+ 
+
+00:03:31.920 --> 00:03:35.630 align:start position:0%
+referring to so it is still demo webshop
+not<00:03:32.400><c> demo</c><00:03:32.940><c> shop</c><00:03:33.599><c> and</c><00:03:34.319><c> if</c><00:03:34.680><c> now</c><00:03:34.860><c> I</c><00:03:35.220><c> go</c><00:03:35.340><c> ahead</c><00:03:35.459><c> and</c>
+
+00:03:35.630 --> 00:03:35.640 align:start position:0%
+not demo shop and if now I go ahead and
+ 
+
+00:03:35.640 --> 00:03:37.309 align:start position:0%
+not demo shop and if now I go ahead and
+synchronize<00:03:36.180><c> this</c><00:03:36.360><c> you</c><00:03:36.659><c> will</c><00:03:36.840><c> see</c><00:03:37.019><c> it</c><00:03:37.200><c> has</c>
+
+00:03:37.309 --> 00:03:37.319 align:start position:0%
+synchronize this you will see it has
+ 
+
+00:03:37.319 --> 00:03:39.770 align:start position:0%
+synchronize this you will see it has
+changed<00:03:37.680><c> to</c><00:03:37.860><c> demo</c><00:03:38.220><c> shop</c><00:03:38.400><c> okay</c>
+
+00:03:39.770 --> 00:03:39.780 align:start position:0%
+changed to demo shop okay
+ 
+
+00:03:39.780 --> 00:03:43.250 align:start position:0%
+changed to demo shop okay
+similarly<00:03:40.620><c> if</c><00:03:41.280><c> I</c><00:03:41.640><c> add</c><00:03:41.879><c> a</c><00:03:42.239><c> new</c><00:03:42.360><c> test</c><00:03:42.599><c> case</c><00:03:42.900><c> here</c>
+
+00:03:43.250 --> 00:03:43.260 align:start position:0%
+similarly if I add a new test case here
+ 
+
+00:03:43.260 --> 00:03:44.869 align:start position:0%
+similarly if I add a new test case here
+on<00:03:43.680><c> the</c><00:03:43.799><c> demo</c><00:03:44.159><c> shop</c>
+
+00:03:44.869 --> 00:03:44.879 align:start position:0%
+on the demo shop
+ 
+
+00:03:44.879 --> 00:03:48.229 align:start position:0%
+on the demo shop
+okay<00:03:45.420><c> so</c><00:03:46.379><c> that</c><00:03:46.920><c> particular</c><00:03:47.280><c> new</c><00:03:47.580><c> test</c><00:03:47.879><c> case</c>
+
+00:03:48.229 --> 00:03:48.239 align:start position:0%
+okay so that particular new test case
+ 
+
+00:03:48.239 --> 00:03:50.690 align:start position:0%
+okay so that particular new test case
+which<00:03:48.720><c> is</c><00:03:48.900><c> present</c><00:03:49.260><c> in</c><00:03:49.620><c> our</c><00:03:49.739><c> test</c><00:03:49.980><c> case</c><00:03:50.220><c> folder</c>
+
+00:03:50.690 --> 00:03:50.700 align:start position:0%
+which is present in our test case folder
+ 
+
+00:03:50.700 --> 00:03:54.949 align:start position:0%
+which is present in our test case folder
+is<00:03:51.659><c> not</c><00:03:52.140><c> automatically</c><00:03:53.040><c> displayed</c><00:03:54.000><c> under</c><00:03:54.599><c> the</c>
+
+00:03:54.949 --> 00:03:54.959 align:start position:0%
+is not automatically displayed under the
+ 
+
+00:03:54.959 --> 00:03:57.710 align:start position:0%
+is not automatically displayed under the
+execution<00:03:55.500><c> list</c><00:03:55.980><c> okay</c><00:03:56.640><c> you</c><00:03:57.360><c> need</c><00:03:57.540><c> to</c>
+
+00:03:57.710 --> 00:03:57.720 align:start position:0%
+execution list okay you need to
+ 
+
+00:03:57.720 --> 00:03:59.809 align:start position:0%
+execution list okay you need to
+synchronize<00:03:58.260><c> whenever</c><00:03:58.920><c> you</c><00:03:59.159><c> are</c><00:03:59.280><c> adding</c><00:03:59.640><c> new</c>
+
+00:03:59.809 --> 00:03:59.819 align:start position:0%
+synchronize whenever you are adding new
+ 
+
+00:03:59.819 --> 00:04:02.990 align:start position:0%
+synchronize whenever you are adding new
+test<00:04:00.060><c> cases</c><00:04:00.540><c> to</c><00:04:00.780><c> your</c><00:04:00.900><c> test</c><00:04:01.080><c> cases</c><00:04:01.440><c> folder</c><00:04:02.459><c> so</c>
+
+00:04:02.990 --> 00:04:03.000 align:start position:0%
+test cases to your test cases folder so
+ 
+
+00:04:03.000 --> 00:04:05.089 align:start position:0%
+test cases to your test cases folder so
+right<00:04:03.420><c> click</c><00:04:03.780><c> here</c><00:04:03.900><c> again</c><00:04:04.140><c> and</c><00:04:04.739><c> do</c>
+
+00:04:05.089 --> 00:04:05.099 align:start position:0%
+right click here again and do
+ 
+
+00:04:05.099 --> 00:04:07.130 align:start position:0%
+right click here again and do
+synchronize<00:04:05.700><c> and</c><00:04:06.420><c> you</c><00:04:06.540><c> will</c><00:04:06.659><c> see</c><00:04:06.840><c> the</c><00:04:07.019><c> new</c>
+
+00:04:07.130 --> 00:04:07.140 align:start position:0%
+synchronize and you will see the new
+ 
+
+00:04:07.140 --> 00:04:11.030 align:start position:0%
+synchronize and you will see the new
+test<00:04:07.379><c> case</c><00:04:07.680><c> now</c><00:04:08.459><c> appears</c><00:04:09.060><c> here</c><00:04:09.299><c> okay</c>
+
+00:04:11.030 --> 00:04:11.040 align:start position:0%
+test case now appears here okay
+ 
+
+00:04:11.040 --> 00:04:13.970 align:start position:0%
+test case now appears here okay
+so<00:04:11.819><c> all</c><00:04:12.180><c> these</c><00:04:12.360><c> changes</c><00:04:12.720><c> are</c><00:04:12.959><c> required</c><00:04:13.379><c> if</c><00:04:13.799><c> you</c>
+
+00:04:13.970 --> 00:04:13.980 align:start position:0%
+so all these changes are required if you
+ 
+
+00:04:13.980 --> 00:04:16.189 align:start position:0%
+so all these changes are required if you
+have<00:04:14.159><c> already</c><00:04:14.519><c> created</c><00:04:15.120><c> an</c><00:04:15.360><c> execution</c><00:04:15.840><c> list</c>
+
+00:04:16.189 --> 00:04:16.199 align:start position:0%
+have already created an execution list
+ 
+
+00:04:16.199 --> 00:04:18.170 align:start position:0%
+have already created an execution list
+for<00:04:16.560><c> your</c><00:04:16.739><c> test</c><00:04:16.919><c> case</c><00:04:17.160><c> and</c><00:04:17.639><c> then</c><00:04:17.820><c> you</c><00:04:18.000><c> are</c>
+
+00:04:18.170 --> 00:04:18.180 align:start position:0%
+for your test case and then you are
+ 
+
+00:04:18.180 --> 00:04:20.810 align:start position:0%
+for your test case and then you are
+making<00:04:18.359><c> those</c><00:04:18.720><c> changes</c><00:04:19.260><c> inside</c><00:04:20.220><c> your</c><00:04:20.639><c> test</c>
+
+00:04:20.810 --> 00:04:20.820 align:start position:0%
+making those changes inside your test
+ 
+
+00:04:20.820 --> 00:04:24.530 align:start position:0%
+making those changes inside your test
+cases<00:04:21.299><c> okay</c><00:04:22.019><c> it</c><00:04:22.860><c> is</c><00:04:22.979><c> not</c><00:04:23.160><c> required</c><00:04:23.639><c> if</c><00:04:24.060><c> you</c><00:04:24.360><c> are</c>
+
+00:04:24.530 --> 00:04:24.540 align:start position:0%
+cases okay it is not required if you are
+ 
+
+00:04:24.540 --> 00:04:26.150 align:start position:0%
+cases okay it is not required if you are
+still<00:04:24.660><c> developing</c><00:04:25.139><c> or</c><00:04:25.500><c> if</c><00:04:25.800><c> you</c><00:04:26.040><c> have</c>
+
+00:04:26.150 --> 00:04:26.160 align:start position:0%
+still developing or if you have
+ 
+
+00:04:26.160 --> 00:04:28.490 align:start position:0%
+still developing or if you have
+completely<00:04:26.759><c> finished</c><00:04:27.060><c> your</c><00:04:27.840><c> test</c><00:04:28.080><c> cases</c>
+
+00:04:28.490 --> 00:04:28.500 align:start position:0%
+completely finished your test cases
+ 
+
+00:04:28.500 --> 00:04:30.710 align:start position:0%
+completely finished your test cases
+development<00:04:29.100><c> and</c><00:04:29.759><c> then</c><00:04:29.940><c> you</c><00:04:30.120><c> are</c><00:04:30.240><c> creating</c><00:04:30.540><c> an</c>
+
+00:04:30.710 --> 00:04:30.720 align:start position:0%
+development and then you are creating an
+ 
+
+00:04:30.720 --> 00:04:32.870 align:start position:0%
+development and then you are creating an
+execution<00:04:31.139><c> list</c><00:04:31.440><c> so</c><00:04:31.860><c> if</c><00:04:32.040><c> you</c><00:04:32.160><c> don't</c><00:04:32.280><c> make</c><00:04:32.580><c> any</c>
+
+00:04:32.870 --> 00:04:32.880 align:start position:0%
+execution list so if you don't make any
+ 
+
+00:04:32.880 --> 00:04:35.689 align:start position:0%
+execution list so if you don't make any
+changes<00:04:33.479><c> like</c><00:04:34.380><c> adding</c><00:04:34.860><c> new</c><00:04:35.040><c> test</c><00:04:35.220><c> cases</c>
+
+00:04:35.689 --> 00:04:35.699 align:start position:0%
+changes like adding new test cases
+ 
+
+00:04:35.699 --> 00:04:38.810 align:start position:0%
+changes like adding new test cases
+removing<00:04:36.600><c> the</c><00:04:37.199><c> test</c><00:04:37.380><c> cases</c><00:04:37.800><c> from</c><00:04:38.220><c> the</c><00:04:38.400><c> folder</c>
+
+00:04:38.810 --> 00:04:38.820 align:start position:0%
+removing the test cases from the folder
+ 
+
+00:04:38.820 --> 00:04:41.210 align:start position:0%
+removing the test cases from the folder
+or<00:04:39.120><c> renaming</c><00:04:39.600><c> the</c><00:04:39.780><c> folders</c><00:04:40.259><c> if</c><00:04:40.919><c> you</c><00:04:41.040><c> don't</c>
+
+00:04:41.210 --> 00:04:41.220 align:start position:0%
+or renaming the folders if you don't
+ 
+
+00:04:41.220 --> 00:04:43.370 align:start position:0%
+or renaming the folders if you don't
+make<00:04:41.520><c> these</c><00:04:41.880><c> kind</c><00:04:41.940><c> of</c><00:04:42.060><c> changes</c><00:04:42.479><c> then</c><00:04:43.020><c> the</c>
+
+00:04:43.370 --> 00:04:43.380 align:start position:0%
+make these kind of changes then the
+ 
+
+00:04:43.380 --> 00:04:45.530 align:start position:0%
+make these kind of changes then the
+synchronization<00:04:43.860><c> is</c><00:04:44.220><c> not</c><00:04:44.400><c> required</c><00:04:44.820><c> because</c>
+
+00:04:45.530 --> 00:04:45.540 align:start position:0%
+synchronization is not required because
+ 
+
+00:04:45.540 --> 00:04:48.110 align:start position:0%
+synchronization is not required because
+all<00:04:46.199><c> the</c><00:04:46.380><c> remaining</c><00:04:46.800><c> changes</c><00:04:47.280><c> what</c><00:04:47.759><c> you</c><00:04:47.940><c> make</c>
+
+00:04:48.110 --> 00:04:48.120 align:start position:0%
+all the remaining changes what you make
+ 
+
+00:04:48.120 --> 00:04:50.930 align:start position:0%
+all the remaining changes what you make
+in<00:04:48.720><c> the</c><00:04:48.840><c> test</c><00:04:49.080><c> case</c><00:04:49.320><c> would</c><00:04:50.100><c> be</c><00:04:50.280><c> synchronized</c>
+
+00:04:50.930 --> 00:04:50.940 align:start position:0%
+in the test case would be synchronized
+ 
+
+00:04:50.940 --> 00:04:53.270 align:start position:0%
+in the test case would be synchronized
+automatically<00:04:51.720><c> so</c><00:04:52.380><c> you</c><00:04:52.560><c> don't</c><00:04:52.680><c> need</c><00:04:52.860><c> to</c><00:04:53.100><c> go</c>
+
+00:04:53.270 --> 00:04:53.280 align:start position:0%
+automatically so you don't need to go
+ 
+
+00:04:53.280 --> 00:04:55.730 align:start position:0%
+automatically so you don't need to go
+and<00:04:53.639><c> manually</c><00:04:54.000><c> synchronize</c><00:04:54.660><c> it</c><00:04:55.320><c> is</c><00:04:55.500><c> only</c>
+
+00:04:55.730 --> 00:04:55.740 align:start position:0%
+and manually synchronize it is only
+ 
+
+00:04:55.740 --> 00:04:59.450 align:start position:0%
+and manually synchronize it is only
+required<00:04:56.340><c> in</c><00:04:56.880><c> these</c><00:04:57.360><c> three</c><00:04:57.600><c> scenarios</c><00:04:58.460><c> when</c>
+
+00:04:59.450 --> 00:04:59.460 align:start position:0%
+required in these three scenarios when
+ 
+
+00:04:59.460 --> 00:05:02.930 align:start position:0%
+required in these three scenarios when
+you<00:05:00.060><c> change</c><00:05:00.300><c> the</c><00:05:00.720><c> folder</c><00:05:01.080><c> names</c><00:05:01.460><c> when</c><00:05:02.460><c> you</c>
+
+00:05:02.930 --> 00:05:02.940 align:start position:0%
+you change the folder names when you
+ 
+
+00:05:02.940 --> 00:05:06.350 align:start position:0%
+you change the folder names when you
+remove<00:05:03.120><c> the</c><00:05:03.479><c> folders</c><00:05:03.979><c> or</c><00:05:04.979><c> if</c><00:05:05.400><c> you</c><00:05:05.580><c> add</c><00:05:06.120><c> more</c>
+
+00:05:06.350 --> 00:05:06.360 align:start position:0%
+remove the folders or if you add more
+ 
+
+00:05:06.360 --> 00:05:09.290 align:start position:0%
+remove the folders or if you add more
+test<00:05:06.660><c> cases</c><00:05:07.139><c> to</c><00:05:07.500><c> the</c><00:05:07.680><c> test</c><00:05:07.800><c> case</c><00:05:08.040><c> folders</c><00:05:08.580><c> so</c>
+
+00:05:09.290 --> 00:05:09.300 align:start position:0%
+test cases to the test case folders so
+ 
+
+00:05:09.300 --> 00:05:11.570 align:start position:0%
+test cases to the test case folders so
+in<00:05:09.600><c> all</c><00:05:09.900><c> of</c><00:05:09.960><c> these</c><00:05:10.259><c> scenarios</c><00:05:10.620><c> you</c><00:05:11.040><c> to</c>
+
+00:05:11.570 --> 00:05:11.580 align:start position:0%
+in all of these scenarios you to
+ 
+
+00:05:11.580 --> 00:05:14.510 align:start position:0%
+in all of these scenarios you to
+synchronize<00:05:12.360><c> your</c><00:05:12.780><c> execution</c><00:05:13.320><c> list</c><00:05:13.680><c> with</c>
+
+00:05:14.510 --> 00:05:14.520 align:start position:0%
+synchronize your execution list with
+ 
+
+00:05:14.520 --> 00:05:16.610 align:start position:0%
+synchronize your execution list with
+your<00:05:14.820><c> test</c><00:05:15.000><c> case</c>
+
+00:05:16.610 --> 00:05:16.620 align:start position:0%
+your test case
+ 
+
+00:05:16.620 --> 00:05:19.490 align:start position:0%
+your test case
+that's<00:05:17.220><c> all</c><00:05:17.460><c> for</c><00:05:17.759><c> this</c><00:05:18.000><c> particular</c><00:05:18.240><c> video</c><00:05:18.540><c> if</c>
+
+00:05:19.490 --> 00:05:19.500 align:start position:0%
+that's all for this particular video if
+ 
+
+00:05:19.500 --> 00:05:21.230 align:start position:0%
+that's all for this particular video if
+you<00:05:19.620><c> have</c><00:05:19.740><c> any</c><00:05:20.040><c> questions</c><00:05:20.220><c> then</c><00:05:20.759><c> please</c><00:05:21.000><c> leave</c>
+
+00:05:21.230 --> 00:05:21.240 align:start position:0%
+you have any questions then please leave
+ 
+
+00:05:21.240 --> 00:05:23.749 align:start position:0%
+you have any questions then please leave
+it<00:05:21.479><c> in</c><00:05:21.720><c> the</c><00:05:21.840><c> comments</c><00:05:22.680><c> if</c><00:05:23.220><c> you</c><00:05:23.400><c> like</c><00:05:23.580><c> this</c>
+
+00:05:23.749 --> 00:05:23.759 align:start position:0%
+it in the comments if you like this
+ 
+
+00:05:23.759 --> 00:05:25.430 align:start position:0%
+it in the comments if you like this
+video<00:05:23.940><c> then</c><00:05:24.479><c> please</c><00:05:24.720><c> subscribe</c><00:05:25.139><c> to</c><00:05:25.320><c> our</c>
+
+00:05:25.430 --> 00:05:25.440 align:start position:0%
+video then please subscribe to our
+ 
+
+00:05:25.440 --> 00:05:26.390 align:start position:0%
+video then please subscribe to our
+Channel
+
+00:05:26.390 --> 00:05:26.400 align:start position:0%
+Channel
+ 
+
+00:05:26.400 --> 00:05:28.550 align:start position:0%
+Channel
+thanks<00:05:26.940><c> for</c><00:05:27.120><c> watching</c><00:05:27.479><c> and</c><00:05:27.900><c> I</c><00:05:28.080><c> will</c><00:05:28.199><c> see</c><00:05:28.440><c> you</c>
+
+00:05:28.550 --> 00:05:28.560 align:start position:0%
+thanks for watching and I will see you
+ 
+
+00:05:28.560 --> 00:05:31.400 align:start position:0%
+thanks for watching and I will see you
+in<00:05:28.860><c> the</c><00:05:28.979><c> next</c><00:05:29.100><c> video</c>
+
