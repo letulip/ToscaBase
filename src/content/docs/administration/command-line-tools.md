@@ -30,7 +30,7 @@ TCShell is installed with Commander; nothing needs to be set up. It takes the wo
 | script | Path to a `.tcs` script file (script mode only) |
 
 :::note
-The subtitles do not make the exact switch syntax legible; only the parameter names above are audible. Run `help` inside TCShell (or read the Commander documentation) for the precise spelling before writing a batch file.
+The exact switch spelling is only shown on screen, never spoken. Run `help` inside TCShell (or read the Commander documentation) for the precise syntax before writing a batch file.
 :::
 
 ### Interactive mode

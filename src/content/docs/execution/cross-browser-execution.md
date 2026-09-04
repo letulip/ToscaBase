@@ -25,16 +25,14 @@ On the TestCase or ExecutionList, open **Test Configuration** and add the Test C
 
 Instead of a constant, give `Browser` a **Buffer reference**, then set that Buffer from inside the TestCase before each part that must run in a different browser.
 
-1. Structure the TestCase into one folder per browser run. In the demo the `Login process` folder (Open URL, login steps, Close Browser) is copied so there are two: `Login process 1` and `Login process 2`.
-2. In **Test Configuration** of the TestCase, set `Browser` to a Buffer reference, for example `{B[Browser]}` for a Buffer named `Browser`.
-3. As the **first TestStep** of each folder add **TBox Set Buffer** (see [Buffer operations](/ToscaBase/standard-modules/buffer-operations/)): Buffer name `Browser`, value `Chrome` in the first folder, `Edge` in the second.
+1. Structure the TestCase into one folder per browser run. In the demo the `Login process` folder (Open URL, Close Browser) is copied so there are two: `Login process 1` and `Login process 2`; Close Browser is removed from the first one.
+2. In **Test Configuration** of the TestCase, set `Browser` to a Buffer reference; the demo uses `{B[B_browser]}` for a Buffer named `B_browser`.
+3. As the **first TestStep** of each folder add **TBox Set Buffer** (see [Buffer operations](/ToscaBase/standard-modules/buffer-operations/)): Buffer name `B_browser`, value `Chrome` in the first folder, `Edge` in the second.
 4. Run. The log shows the Buffer being set to `Chrome`, the URL opening in Chrome, then the Buffer set to `Edge` and the URL opening in Edge; the Close Browser step closes the browser that the current folder opened.
 
 Because the browser is read from the Buffer at the time each Open URL runs, one TestCase covers as many browsers as you have Set Buffer steps. No duplicate TestCases per browser and no distributed execution are needed for this.
 
-:::note
-The subtitle transcript renders the Buffer name as "bore browser"; the exact name is your choice, it only has to match between the Set Buffer step and the `{B[...]}` reference.
-:::
+The Buffer name is your choice; it only has to match between the Set Buffer step and the `{B[...]}` reference.
 
 If the first folder does not close its browser, that browser stays open after the run, which is what the demo shows for Chrome.
 

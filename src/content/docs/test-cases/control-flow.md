@@ -54,13 +54,9 @@ The flow: set a counter buffer to 0; while the counter is less than 5, add 1 to 
 1. Add **TBox Set Buffer** with buffer name `R` and value `0`. Rename the step `Set repetition`. (Buffers are explained in [Buffers](/ToscaBase/data-and-parameters/buffers/).)
 2. Right-click the TestCase and choose **Create While statement**. Tosca adds a `While` object with a **Condition** part and a **Loop** part.
 3. In **Condition**, add **TBox Evaluation Tool** with the expression `{B[R]} < 5`. Rename it `Check repetition less than 5`.
-4. In **Loop**, add another **TBox Set Buffer** for `R` whose value is a math expression adding 1 to `{B[R]}`. Rename it `Calculate repetition`.
+4. In **Loop**, add another **TBox Set Buffer** for `R` with the value `{MATH[{B[R]}+1]}`, the math expression that adds 1 to the current buffer value (syntax in [String operations](/ToscaBase/expressions/string-operations/)). Rename it `Calculate repetition`.
 
 Run it in the ScratchBook: the result shows the condition evaluated to true five times, the calculation ran on each pass, and on the sixth check `5 < 5` evaluated to false and execution left the loop.
-
-:::note
-The speaker types "a function called math" in the Set Buffer value but does not spell out the syntax. Math expressions are documented in the [Expressions](/ToscaBase/expressions/) section.
-:::
 
 :::caution
 Buffer names are case-sensitive in expressions. In the source the buffer was accidentally renamed while renaming the TestStep, and the expression `{B[R]}` stopped matching until the buffer name was set back to `R`.

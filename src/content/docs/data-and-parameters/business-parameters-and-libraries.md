@@ -47,7 +47,7 @@ A reference to a block still carries the block's own values: both login cases wo
 4. Go back to the TestCases. Every reference to the block now lists the Business Parameters with empty values; fill them per TestCase (`standard_user` in one, `locked_out_user` in the other, the same URL in both).
 
 :::note
-The speaker describes the reference as "PL followed by the parameter name"; `{PL[name]}` is the written form used here, by analogy with `{B[...]}` and `{CP[...]}`. Check what Tosca inserts when you drop the parameter.
+The reference is only read out as "PL followed by the parameter name"; `{PL[name]}` follows the `{B[...]}` / `{CP[...]}` pattern. Check what Tosca inserts when you drop the parameter.
 :::
 
 Values passed to a reference can themselves be parameters. The first video creates a Test Configuration Parameter `SearchText` = `Tricentis Tosca` on the TestCase and enters `{CP[SearchText]}` as the Business Parameter value, so that the search text is configured in the **Test Configuration** tab rather than in the step. The same works for a URL kept at folder level. See [Test Configuration Parameters](/ToscaBase/data-and-parameters/test-configuration-parameters/).

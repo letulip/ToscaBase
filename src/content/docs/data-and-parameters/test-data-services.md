@@ -25,7 +25,7 @@ TDS answers this with one place to register data after it is created, pick the r
 
 ## Where TDS runs
 
-TDS is installed **with Tosca Server**; nothing extra is needed. Open the Tosca Server landing page (in the video `http://localhost:` followed by the server port) and go to **Test Data Management**. The backend is a database: SQLite by default, stored as a `.db` file in a local folder under the Tosca Server program data, or a Microsoft SQL Server or Oracle database for a shared setup. See [Tosca Server](/ToscaBase/administration/tosca-server/).
+TDS is installed **with Tosca Server**; nothing extra is needed. Open the Tosca Server landing page (`http://localhost:8080` in the video) and go to **Test Data Management**. The backend is a database: SQLite by default, stored as a `.db` file in a local folder under the Tosca Server program data, or a Microsoft SQL Server or Oracle database for a shared setup. See [Tosca Server](/ToscaBase/administration/tosca-server/).
 
 Everything below can be done in the web interface **or** from Tosca Commander with Standard Modules. The interface is for exploring and maintenance; in a real project the data is prepared by the TestCases themselves before they run.
 
@@ -72,7 +72,7 @@ Before any TDS Module executes, the TestCase must see two Test Configuration Par
 Create them under the project's **Configurations** (a `Test Data Service` configuration is among the defaults) or in the **Test Configuration** tab of the folder that holds the TestCases; a root or component level is best so every TestCase inherits them. See [Test Configuration Parameters](/ToscaBase/data-and-parameters/test-configuration-parameters/).
 
 :::note
-The video says the endpoint ends in "slash test data service" and the port is spoken; the spelling `/testdataservice` follows the pre-filled value the speaker accepts. Check the pre-filled value in your installation.
+The path is only read out as "slash test data service" and the port is never stated (only that it is not the default); `/testdataservice` follows the pre-filled value the speaker keeps. Check the pre-filled value in your installation.
 :::
 
 ## Reading TDS values in TestSteps

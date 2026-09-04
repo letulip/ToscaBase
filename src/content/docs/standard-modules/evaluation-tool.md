@@ -56,7 +56,7 @@ Scan the page into a Module with four controls: first number, operator, second n
 5. Set the Workstate to Completed and run several times. Each run buffers different values, exactly one `If` matches, and the result box receives the right value.
 
 :::note
-The transcript says the condition checks whether the buffer "equals" the sign; `==` is the operator shown in Lesson 16, so that is the safe choice. The math expression is referred to only as "the math expression"; its syntax is covered in [Intervals and verification expressions](/ToscaBase/expressions/intervals-and-verification-expressions/).
+The operator and the math expression are shown on screen only: the speaker says "equals" (`==`, as written in Lesson 16) and "the math expression" with the two buffers inside it. The math expression syntax is covered in [Intervals and verification expressions](/ToscaBase/expressions/intervals-and-verification-expressions/).
 :::
 
 Four sequential `If` blocks are not elegant but are the only way to express a multi-way branch in Tosca. The result is effectively an automated calculator.

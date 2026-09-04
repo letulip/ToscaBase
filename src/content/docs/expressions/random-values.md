@@ -40,7 +40,7 @@ Every expression is typed into the **Value** column of a TestStep. As soon as yo
 The speaker also mentions that a string with a timestamp can be generated, but does not show it; see [Date expressions](/ToscaBase/expressions/date-expressions/) for `DATETIME`.
 
 :::note
-The transcripts are subtitle-based, so the argument order for `RNDDECIMAL` is taken from how the speaker reads it out (length first, then decimal places; or decimal places, then the range). The spelling of all expression names follows the names Tosca offers in the autocomplete list. If a value is not highlighted after you press Enter, the expression is malformed. Use **Translate value** (below) to confirm what Tosca will actually produce.
+If a value is not highlighted after you press Enter, the expression is malformed. Use **Translate value** (below) to confirm what Tosca will actually produce.
 :::
 
 ## Checking what an expression produces

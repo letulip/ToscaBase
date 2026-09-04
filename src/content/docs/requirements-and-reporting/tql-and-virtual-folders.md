@@ -37,7 +37,7 @@ Operators the lesson uses:
 | `>` | greater than | `NumberOfTestCasesPassed>1` |
 | `<` | less than | `NumberOfTestCasesFailed<1` |
 
-The transcript does not spell out the full query text character by character; the shape above (scope, then object type, then constraint) is what the speaker assembles. In the report definition editor the same query is built from **Link**, **Object type** and **Constraint** fields, which also shows you the exact spelling Tosca expects.
+The operators are as spoken in the lesson; the property names are spoken only as words ("number of test cases passed", "created by"), so their exact spelling is what you see in the search window's column list. In the report definition editor the same query is built from **Link**, **Object type** and **Constraint** fields, which also shows you the exact spelling Tosca expects.
 
 ### Example: ExecutionList health
 

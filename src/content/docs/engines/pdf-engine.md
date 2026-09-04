@@ -94,7 +94,7 @@ After execution the log info shows each verification: text expected and actual v
 Some PDFs have no page number in the header or footer, so there is no element to read the total from. The workaround uses the fact that a PDF Module walks through all pages when a control is allowed on any page.
 
 1. **Scan > PDF**, open the document and create one **Text** control anywhere on a page; where does not matter. Save and rename the Module (for example `SamplePDF`).
-2. Below the text-area control the Module holds a document-level element. If it is not shown, select the Module and press **F12**.
+2. Below the text-area control the Module holds a document-level element, which the speaker calls the "div element". If it is not shown, select the Module and press **F12**.
 3. Open the properties of that element. Its `Page` property is `1`; change it to `*` (any page). Close the properties.
 4. Create a TestCase, add the Module and set `Target PDF`.
 5. On the document-level element choose ActionMode `Buffer` with a buffer name such as `PageCount`.
@@ -104,7 +104,7 @@ Some PDFs have no page number in the header or footer, so there is no element to
 The log shows the buffer being set to 1, 2, 3 ... and finally to the last page number (57 in the video); the verification succeeds because `*` is always true. Check the final value under **Tools > Buffer Viewer** or verify it in a later TestStep.
 
 :::note
-In the auto-generated subtitles the speaker calls the document-level element a "div element". The exact name in the Module tree could not be confirmed from the audio; look for the element that carries the `Page` property.
+"Div element" is the speaker's name for it; its label in the Module tree is not shown legibly, so look for the element that carries the `Page` property.
 :::
 
 If the PDF does have page numbers in a header or footer, scan that area as a text control, mark it as a repetitive area in PDF Scan and buffer its value while iterating; the last buffered value is the page count.

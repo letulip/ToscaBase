@@ -47,7 +47,7 @@ To see what was found, follow it with `TBox Set Buffer`, buffer `status`, value 
 Alternatively filter with a **TDQL query**, which reads like SQL: `vehicle[make=="BMW"]` selects the BMW item. The TestCase passes without visible output, which shows the query matched.
 
 :::note
-The transcript states the query as "vehicle, square bracket, make equals equals BMW"; whether the value needs quotes is not audible. Try both forms.
+The query is only read out ("vehicle, square bracket, make equals equals BMW", in the Expert Module's find task); whether the value needs quotes is not spoken. Try both forms.
 :::
 
 ## Step 3: update the state

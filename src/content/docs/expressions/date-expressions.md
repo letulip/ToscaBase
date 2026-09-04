@@ -83,7 +83,7 @@ Tosca's own description of the expression uses the example: base date 23 May 201
 | `{DATE[{B[todaydate]}][][dd<sep>MM<sep>yyyy]}` | Reformat a buffered date without an offset |
 
 :::note
-`<sep>` marks a separator the speaker types but the subtitle transcript does not capture (`.`, `/` or `-`). Where the video says the separator out loud (`MM/dd/yyyy` in Lesson 36) it is given literally. `MONTHFIRST` accepts the same base/offset/format arguments as `DATE`.
+`<sep>` stands for the separator between day, month and year (`.`, `/` or `-`): in Lessons 38, 123, 135 and 139 the speaker types it but never says it, so it cannot be confirmed from the audio. Where it is spoken (`MM/dd/yyyy` in Lesson 36) it is given literally. `MONTHFIRST` accepts the same base/offset/format arguments as `DATE`.
 :::
 
 Right-click a value and choose **Translate value** to see the computed date before running; the videos use it on every expression.

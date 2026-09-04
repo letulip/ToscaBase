@@ -31,7 +31,7 @@ All operations take the input string as the first argument; that string is norma
 
 | Expression | Result | Example from the videos |
 |---|---|---|
-| `{STRINGLENGTH[string]}` | Number of characters | `{STRINGLENGTH[{B[str]}]}` returned `15` for a website address |
+| `{STRINGLENGTH[string]}` | Number of characters | `{STRINGLENGTH[{B[str]}]}` returned `15` for the sample `Tricentis Tosca` |
 | `{STRINGTOUPPER[string]}` | Lower-case letters converted to upper case | `{STRINGTOUPPER[{B[str]}]}` |
 | `{STRINGTOLOWER[string]}` | Upper-case letters converted to lower case | `{STRINGTOLOWER[{B[str]}]}` |
 | `{NUMBEROFOCCURRENCES[string][pattern]}` | How often the pattern (one or more characters) occurs, case-sensitive | `{NUMBEROFOCCURRENCES[{B[str]}][t]}` returned `1` |
@@ -77,7 +77,7 @@ Two items in a cart show `$` prices; the TestCase must verify their total.
 1. Scan the two price elements (raise the filtered-items count in the scan dialog until they appear), rename them `item1`, `item2`, save the Module as `cart`.
 2. **Buffer** the `InnerText` of each into `price1` and `price2`.
 3. `{MATH[{B[price1]}+{B[price2]}]}` in a Set Buffer named `sum` fails: the `$` makes it *not a valid expression*.
-4. Replace the buffers with cleaned versions using `{STRINGREPLACE[{B[price1]}]["\$"][]}` (and the same for `price2`), then run the `MATH` expression again. The run passes and the log shows the total; it can be checked against the page with a **Verify** step.
+4. Replace the buffers with cleaned versions using `{STRINGREPLACE[{B[price1]}]["\$"][]}` (and the same for `price2`), then run the `MATH` expression again. The run passes and the log shows the total (`39.98` in the video); it can be checked against the page with a **Verify** step.
 
 ### Encode and decode credentials with Base64
 

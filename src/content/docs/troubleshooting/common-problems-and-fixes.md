@@ -62,9 +62,7 @@ The same idea applies to any missing method: if a user can do it with the keyboa
 2. Name it `ConstraintIndex` and set the value to the index of the tab to use (`2` selects the second tab). The click now lands in that tab.
 3. A static index in the Module is fragile, so make it dynamic: add a `TBox Set Buffer` step before the click that sets a buffer `index` to `1` or `2`, and in the Module replace the value with `{B[index]}`. The TestCase, a TestCase-Design sheet or a Test Configuration Parameter now decides which tab is steered, and the Module never changes again.
 
-:::note
-The speaker says the parameter name is "constraint index"; `ConstraintIndex` is the spelling used here. Module-level Configuration Parameters are described in [Module properties and parameters](/ToscaBase/modules/module-properties-and-parameters/); they are a different mechanism from [Test Configuration Parameters](/ToscaBase/data-and-parameters/test-configuration-parameters/).
-:::
+Module-level Configuration Parameters are described in [Module properties and parameters](/ToscaBase/modules/module-properties-and-parameters/); they are a different mechanism from [Test Configuration Parameters](/ToscaBase/data-and-parameters/test-configuration-parameters/).
 
 ## Counting all links (or any set of similar controls)
 

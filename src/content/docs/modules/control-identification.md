@@ -49,7 +49,7 @@ An anchor is another control, in the neighbourhood of the target, that *is* uniq
 The message on the target changes to *selected item is unique* and the orange bar disappears.
 
 :::note
-The anchor-mode names are read from speech; the source does not explain how the algorithms differ. Do not rely on the exact option names without checking the pane.
+The speaker names the options *Auto*, *Always*, *Shortest path* and *Coordinate* (and speaks of "three different algorithms") without explaining how they differ; the pane itself is not readable in the video. Check the exact option names in your version.
 :::
 
 ## Identify by image

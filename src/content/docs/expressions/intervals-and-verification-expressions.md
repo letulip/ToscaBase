@@ -89,7 +89,7 @@ To see the current page title in Chrome, open the developer tools (inspect) and 
 :::
 
 :::note
-The French strings are reconstructed from the subtitle transcript, which renders them phonetically ("April photo"); check the exact wording on the page you automate.
+The speaker reads the French link text aloud (it sounds like "April photo") but never spells it, and the French title is only shown on screen. `Appareils photo` is the standard French wording for *Cameras*; check the exact strings on the page you automate.
 :::
 
 ## Extracting parts of a value with named groups

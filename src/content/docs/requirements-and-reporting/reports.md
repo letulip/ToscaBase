@@ -35,13 +35,9 @@ Each is a report definition (layout) plus a data set definition (which objects t
 
 1. Right-click an ExecutionList, an ExecutionList folder, a TestCase folder or a requirement set **> Print Report**. Only the definitions matching that object type are offered.
 2. Pick a definition, e.g. **Execution entries with detailed logs**. The print dialog opens again, but the output now follows the definition rather than the screen.
-3. Click **Start**, save the file, and answer the prompts: whether to show only failed items (answer No to include everything) and whether to include screenshots (Yes).
+3. Click **Start**, save the file, and answer the prompts: whether to show only failed TestCases (answer No to include everything) and whether to include screenshots (Yes).
 
 The report contains a header with the Tricentis logo (replaceable in the Reporting section), the creation date, a summary with a pie chart (for example 19 TestCases: 3 passed, 14 no result, 2 failed), then one block per ExecutionList and entry with every TestStep, start and end time, who executed it, the log, and a screenshot wherever a step failed. It works equally for a single [business TestCase](/ToscaBase/execution/execution-repetitions-and-business-test-cases/) and for a whole [ExecutionList](/ToscaBase/execution/execution-lists/) folder.
-
-:::note
-The subtitle for the first prompt reads "only field stations"; it is most likely "only failed TestSteps". The speaker answers No.
-:::
 
 ## Create your own report definition
 

@@ -41,7 +41,7 @@ The icons differ slightly in the Modules tree. Everything in this knowledge base
 The source lists the 3.0 generation of TBox-compatible engines: XScan 3.0, AnyUI Engine 3.0, API Engine 3.0, Database Engine 3.0, .NET Engine 3.0, Mobile Engine 3.0 and SAP Engine 3.0. Engine-specific details are in the [Engines](/ToscaBase/engines/) section.
 
 :::note
-The engine names come from an automatic subtitle track and one of them is garbled ("ap engine"); it is read here as the API Engine. Treat the list as illustrative rather than complete.
+The speaker says "AP Engine 3.0"; it is read here as the API Engine. The spoken list ends with "etc.", so treat it as illustrative rather than complete.
 :::
 
 ## Standard and user-defined Modules

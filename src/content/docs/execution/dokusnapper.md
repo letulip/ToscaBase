@@ -16,12 +16,12 @@ sources:
 ## Enabling DokuSnapper
 
 1. **Project > Settings** opens the settings wizard.
-2. In the left tree, open the DokuSnapper node and set **Enable Snapper** to `Yes`.
+2. In the left tree, expand the engine node under **Settings**, select **DokuSnapper** and set **Enable Snapper** to `Yes`.
 3. Adjust the other DokuSnapper options, including the document paths, if needed.
 4. Close the wizard.
 
 :::note
-The transcript is subtitle-based and names the node ambiguously ("navigation engine and DokuSnapper ... under Settings"). Look for the DokuSnapper entry in the settings tree; the option to switch is **Enable Snapper**.
+The tree path is only read out ("engine and DokuSnapper, under Settings"); the exact label of the engine node is not shown.
 :::
 
 ## What is generated

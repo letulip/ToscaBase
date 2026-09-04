@@ -62,9 +62,7 @@ sources:
 2. Назовите его `ConstraintIndex` и задайте значение — индекс нужной вкладки (`2` выбирает вторую). Клик теперь попадает в неё.
 3. Статический индекс в Module хрупок, поэтому сделайте его динамическим: перед кликом добавьте шаг `TBox Set Buffer`, который записывает в буфер `index` значение `1` или `2`, а в Module замените значение на `{B[index]}`. Какая вкладка управляется, теперь решает TestCase, лист TestCase-Design или Test Configuration Parameter, а Module больше не меняется.
 
-:::note
-Автор произносит имя параметра как «constraint index»; здесь используется написание `ConstraintIndex`. Configuration Parameters уровня Module описаны в [Свойствах и параметрах Module](/ToscaBase/ru/modules/module-properties-and-parameters/); это другой механизм, чем [Test Configuration Parameters](/ToscaBase/ru/data-and-parameters/test-configuration-parameters/).
-:::
+Configuration Parameters уровня Module описаны в [Свойствах и параметрах Module](/ToscaBase/ru/modules/module-properties-and-parameters/); это другой механизм, чем [Test Configuration Parameters](/ToscaBase/ru/data-and-parameters/test-configuration-parameters/).
 
 ## Подсчёт всех ссылок (или любого набора похожих контролов)
 

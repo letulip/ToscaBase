@@ -74,7 +74,7 @@ Both expressions are predefined in Tosca and appear in the value auto-complete i
 Both mark every character inside as literal. The same escaping applies whenever a value contains characters Tosca would otherwise parse (`{`, `}`, `[`, `]`, `"`), see [String operations](/ToscaBase/expressions/string-operations/).
 
 :::note
-In Tosca the click operation is normally written `{CLICK}` with braces. The transcript states that the bare word `click` is also interpreted as a click; this could not be verified from the video and may depend on the Tosca version. Escaping works in either case.
+In Tosca the click operation is normally written `{CLICK}` with braces. The speaker says the bare word `click` is read as the click operation, but the video does not show the value cell; treat this as unverified and possibly version-dependent. Escaping works in either case.
 :::
 
 ## Halfway (obstacle 27)
@@ -92,7 +92,7 @@ In Tosca the click operation is normally written `{CLICK}` with braces. The tran
 `{LONGCLICK}` holds the left mouse button for at least two seconds and takes the same offsets; use it for controls that need a long press or that fail to react to a quick click.
 
 :::note
-The video shows the parameter names `OffsetHorizontal`, `OffsetVertical` and the value `90%`, but the exact assignment syntax is shown only in Tosca's value auto-complete. Check the tooltip in your version before relying on the form above.
+The speaker confirms that the offset is written inside the `{CLICK}` expression with the value `90%`, but never spells out how the parameter name and value are joined; the form above follows Tosca's value auto-complete. Check the tooltip in your version.
 :::
 
 ## Red stripe (obstacle 30)

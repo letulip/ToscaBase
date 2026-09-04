@@ -58,7 +58,7 @@ When the sheet is linked, Tosca fills every **empty** TestStepValue whose Module
 Replace every hard-coded value this way; a template with constants produces identical TestCases.
 
 :::note
-The Lesson 55 speaker describes the typed form as "excel dot, square bracket" and the live-session speaker as "this Excel link, an expression selecting a value from the Excel sheet". Neither video shows the characters on screen clearly enough to quote the exact syntax, so this doc only names the parts: an `XL` reference wrapping `Attribute.SubAttribute`. Prefer the drag-and-drop method.
+Neither video spells the typed syntax out: Lesson 55 only says "Excel dot ... square bracket" before the attribute list appears, and the live session calls it "this Excel link". What is certain is the shape: an `XL` reference, square brackets, `Attribute.SubAttribute` inside. Prefer the drag-and-drop method.
 :::
 
 Values that come from a class reference are mapped the same way as sheet attributes ([Design classes](/ToscaBase/test-case-design/design-classes/)).
@@ -82,12 +82,8 @@ Generated TestCases do not follow later edits by themselves. After you change th
 Without conditions, every generated TestCase has every TestStep of the template. In the login example the valid `standard_user` TestCase still contains the `Validate error message` step; with an empty value it does nothing at execution, but it clutters the TestCase and confuses whoever reads it. When a template grows to many steps, the flow of each instance should follow business logic instead: a step is part of an instance only when a condition on the sheet data holds.
 
 1. In the template, open the **Column Chooser** and add the **Condition** column (double-click it or drag it into the header).
-2. Select the TestStep that should be conditional (`Validate error message`) and fill its Condition cell. The recommended way is drag and drop, not typing: open the TestSheet, expand the instances of the attribute the logic depends on (`Process.Username`), and drag the instance `locked_out_user` into the cell. Tosca writes the condition itself, in the form *attribute equals value* (the speaker reads it as `Process.Username == locked_out_user`). Typing the same text is possible but error-prone.
+2. Select the TestStep that should be conditional (`Validate error message`) and fill its Condition cell. The recommended way is drag and drop, not typing: open the TestSheet, expand the instances of the attribute the logic depends on (`Process.Username`), and drag the instance `locked_out_user` into the cell. Tosca writes the condition itself: `Process.Username == locked_out_user` (the speaker reads the generated text aloud as "process dot username equals equals locked out user"). Typing the same text is possible but error-prone.
 3. The step's icon changes: a conditional TestStep shows the two arrows with two dots; an unconditional one shows plain arrows.
 4. **Reinstantiate** the instances. The step is now present only in TestCases whose column satisfies the condition: the locked-out TestCase keeps `Validate error message`, the standard-user TestCase loses it.
 
 The condition can be phrased either way round: *username equals locked_out_user* to include the step for the error case, or *username not equals standard_user*. Conditions work on folders too, so a template can hold alternative branches and each instance gets only the branch its data selects. That pattern, on the *Vehicle Insurance* sample, is in [Worked example: end-to-end live project](/ToscaBase/troubleshooting/worked-example-live-project/), step 2.
-
-:::note
-Lesson 57 shows the drag-and-drop condition being generated, but the subtitle transcript only reads the result aloud. Treat the `==` form above as reported, not verified; create conditions by dragging instances and check the generated text in the Condition column.
-:::

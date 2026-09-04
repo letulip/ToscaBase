@@ -45,12 +45,8 @@ SQLite is for practising and for trying out the multi-user features. It is not a
 2. Set **Type of repository** to `SQLite` (or a database type and its connection string; test the connection).
 3. Pick the folder and give the workspace a name (the source uses `MultiDemo`).
 4. Leave **Slim workspace** unchecked unless the repository is large: a slim workspace takes less disk space and speeds up a big repository.
-5. Leave **Use existing repository** unchecked when this is the first workspace on this repository, so that Tosca creates the repository. Check it for every later workspace on the same repository (a second team member, or a [branch](/ToscaBase/administration/branches/)).
+5. Leave **Use existing repository** unchecked when this is the first workspace on this repository, so that Tosca creates the repository; with it checked on a repository that does not exist yet you cannot proceed. Check it for every later workspace on the same repository (a second team member, or a [branch](/ToscaBase/administration/branches/)).
 6. Click **OK**. Creation takes a moment, then the workspace opens.
-
-:::note
-The speaker's wording about **Use existing repository** in Lesson 90 is contradictory; the behaviour above is what the demonstration and Lesson 92 show.
-:::
 
 ## The login screen and the default user
 

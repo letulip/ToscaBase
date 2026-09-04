@@ -83,18 +83,18 @@ The pattern "buffer, write to file, scan the file, constrain, buffer" is reusabl
 
 ## Worked example: extract two values from a downloaded XML
 
-Obstacle 28 is the simpler cousin of the previous example. A `catalog` link downloads an XML file; each entry under `catalog` has a name, a `prefix` and a `number`. The task: find the entry named *Sue* and type its prefix followed by its number into a text box.
+Obstacle 28 is the simpler cousin of the previous example. A `catalog` link downloads an XML file; each entry under `catalog` has an `id` (the person's name), a `prefix`, a `number` and a `gender`. The task: find the entry named *Sue* and type its prefix followed by its number into a text box.
 
 1. Download the file through the link and note its location in the Downloads folder.
 2. **Scan > More > File Scan**, select `catalog.xml`; Tosca creates a Module with the whole node tree. **Scan > Application** the browser and save the text box as a second Module (`Number`). Keep both in a folder named after the obstacle.
 3. TestCase, first step: **Open/Create XML File** with resource `catalog` and the file path. Without it no node can be read.
-4. Second step: the scanned XML Module with resource `catalog`. On the `name` node set ActionMode `Constraint` with `Sue`, so only that entry is selected. On `prefix` set ActionMode `Buffer` with buffer name `pre`, on `number` ActionMode `Buffer` with `num`.
+4. Second step: the scanned XML Module with resource `catalog`. On the `id` node set ActionMode `Constraint` with `Sue`, so only that entry is selected. On `prefix` set ActionMode `Buffer` with buffer name `pre`, on `number` ActionMode `Buffer` with `num`.
 5. Third step: the text-box Module, input `{B[pre]}{B[num]}`. Two buffers written one after the other concatenate the values.
 
 Set the Workstate to completed and run: the text box receives the prefix and number together.
 
 :::note
-The transcript of this lesson is a machine translation with damaged terms (the tool is called "TSA", obstacles are "bans"). The node names above follow the speaker's description; check them against your own file.
+The node names are as the speaker reads them; their exact spelling and case are not shown legibly, so take them from the scanned Module.
 :::
 
 ## Related

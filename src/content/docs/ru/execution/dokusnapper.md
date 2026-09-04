@@ -16,12 +16,12 @@ sources:
 ## Включение DokuSnapper
 
 1. **Project > Settings** открывает мастер настроек.
-2. В дереве слева откройте узел DokuSnapper и установите **Enable Snapper** в `Yes`.
+2. В дереве слева раскройте узел engine под **Settings**, выберите **DokuSnapper** и установите **Enable Snapper** в `Yes`.
 3. При необходимости настройте другие опции DokuSnapper, включая пути к документам.
 4. Закройте мастер.
 
 :::note
-Транскрипт основан на субтитрах и называет узел неоднозначно («navigation engine and DokuSnapper ... under Settings»). Ищите пункт DokuSnapper в дереве настроек; переключаемая опция — **Enable Snapper**.
+Путь в дереве только проговаривается («engine and DokuSnapper, under Settings»); точное название узла engine не показано.
 :::
 
 ## Что создаётся

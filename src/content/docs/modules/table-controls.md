@@ -36,12 +36,12 @@ The same selectors work on rows, columns and cells:
 | `$1`, `$2`, `$3` ... | Row, column or cell at that fixed position |
 | `$last` | The last row, column or cell |
 | `$header` | A cell in the table header |
-| *last content row* | The last row that has a value |
+| `$lastContentRow` | The last row that has a value |
 | *first empty row* | The first row without a value |
 | `#2` | The second match when a constraint matches several rows (see example 4) |
 
 :::note
-The speaker reads the last two selectors aloud (*last content row*, *first empty row*) without showing the spelling. Look them up in the value drop-down of the row node before using them.
+The speaker reads *last content row* and *first empty row* aloud without showing the spelling. `$lastContentRow` is confirmed by Lesson 125 ([Obstacles: tables](/ToscaBase/troubleshooting/obstacles-tables/#last-row-obstacle-19)); the spelling of the first-empty-row selector is not shown, so look it up in the value drop-down of the row node.
 :::
 
 ## ActionModes on tables
@@ -76,7 +76,7 @@ All examples use the obstacle-list table of the Tricentis Obstacle Course (colum
 3. **Row by value, without constraint.** Put the value directly on the row node: row = `Wait a moment`, then cell `Category` = `easy` with `Verify`. Works only when the value is unique across all rows; it is faster than a constraint on a large table, because a constraint has to filter the rows.
 4. **The n-th matching row.** Row `#2`, cell `Category` = `easy` with `Constraint`, cell `Name` = `Twins` with `Verify`. Several rows have category `easy`; `#2` takes the second of them.
 5. **Row and column count.** On the table node choose property `RowCount`, ActionMode `Verify`, value `12`. The same with `ColumnCount`; the speaker's guess of `10` fails because the table has nine columns. The verification runs at table level, so the log shows less detail than a cell verification.
-6. **Buffer a cell.** Column `Name`, cell `$5`, property `Text`, ActionMode `Buffer`, value `p_name`. The Buffer receives `Fun with tables`, visible afterwards in the Buffer Viewer.
+6. **Buffer a cell.** Column `Name`, cell `$5`, property `Text`, ActionMode `Buffer`, value `b_name`. The Buffer receives `Fun with tables`, visible afterwards in the Buffer Viewer.
 
 The pattern is always the same: first find the row or column by a search criterion, then act on a cell in it.
 

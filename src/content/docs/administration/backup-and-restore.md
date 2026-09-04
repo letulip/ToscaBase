@@ -40,7 +40,7 @@ Steps:
 Depending on the repository size this takes minutes or hours; a small demo repository finishes instantly. The result is a single dump file with the extension `.tdp`.
 
 :::note
-The subtitles render the extension both as "tdp" and "tgp"; the speaker names it `.tdp` when describing the backup. Check the file Tosca writes.
+The speaker says `.tdp` when the backup is written but reads the file's extension differently when selecting it for the restore; the extension is only legible on screen. Check the file Tosca writes.
 :::
 
 ## Restoring a repository

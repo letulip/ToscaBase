@@ -29,10 +29,6 @@ A component folder holds the sections for the session. The *Enter vehicle data* 
 2. Give `Engine performance` the boundary values `1` and `2000` (the field accepts 1 to 2,000) and an out-of-range `12000`. The invalid value exists on purpose: negative scenarios come from invalid instances.
 3. Set **Character** and **Position**: `1` and `2000` are `Valid`, `12000` is `Invalid` (position `Inner`, since it is not a boundary of the valid range). One value per attribute becomes `Straight through`: `Audi` for the make, `2000` for engine performance. `1` is marked `Boundary`; `2000` would be a boundary too, but as soon as its character is `Straight through` Tosca sets the position to `Inner` and makes it read-only.
 
-:::note
-The subtitle transcript mentions `2001` as "at the boundary" once, although that instance was never created on screen. The rule the speaker states is clear: one straight-through instance per attribute, boundary values marked as such.
-:::
-
 ## Step 3: TestCase instances, by hand and generated
 
 1. Right-click the sheet **> Create Instance** three times. Three columns appear; in each, pick a value per attribute from the dropdown: a column with all straight-through values, a column with other valid values, a column with the invalid `12000`.

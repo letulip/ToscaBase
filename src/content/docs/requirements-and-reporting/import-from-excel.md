@@ -48,12 +48,8 @@ If any rule is broken the structure will not import as intended.
 
 1. In Excel select every row of the structure and press **Ctrl+C**.
 2. In Tosca Commander create or choose the target folder. Any folder works (a TestCases folder, for instance), but the recommended target is a **component folder**, for example `Import from Excel`.
-3. Right-click the folder **> Create Folder Structure**. Commander builds the tree from the copied cells.
+3. Right-click the folder **> Create Folder Structure**; the lesson also names the shortcuts Ctrl+N and Ctrl+S for this action. Commander builds the tree from the copied cells.
 4. Right-click **> Expand All** to check the result: every folder from the worksheet exists, nested exactly by column.
-
-:::note
-The speaker mentions keyboard shortcuts for the create action and names them as Ctrl+N and Ctrl+S; the subtitles are unclear here, so use the context menu entry if in doubt.
-:::
 
 :::caution
 Sibling folders may come out in a different order than in the worksheet (`Process` before `Pre-processing`, for example). Reorder them by hand afterwards.

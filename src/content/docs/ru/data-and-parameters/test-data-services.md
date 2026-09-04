@@ -25,7 +25,7 @@ TDS отвечает на это одним местом, где данные р
 
 ## Где работает TDS
 
-TDS устанавливается **вместе с Tosca Server**; ничего дополнительного не нужно. Откройте стартовую страницу Tosca Server (в видео это `http://localhost:` и порт сервера) и перейдите в **Test Data Management**. Бэкенд — база данных: по умолчанию SQLite, хранится как файл `.db` в локальной папке под program data Tosca Server, либо Microsoft SQL Server или Oracle для общей установки. См. [Tosca Server](/ToscaBase/ru/administration/tosca-server/).
+TDS устанавливается **вместе с Tosca Server**; ничего дополнительного не нужно. Откройте стартовую страницу Tosca Server (в видео это `http://localhost:8080`) и перейдите в **Test Data Management**. Бэкенд — база данных: по умолчанию SQLite, хранится как файл `.db` в локальной папке под program data Tosca Server, либо Microsoft SQL Server или Oracle для общей установки. См. [Tosca Server](/ToscaBase/ru/administration/tosca-server/).
 
 Всё описанное ниже можно делать в веб-интерфейсе **или** из Tosca Commander стандартными Module. Интерфейс — для изучения и сопровождения; в реальном проекте данные готовят сами TestCase перед запуском.
 
@@ -72,7 +72,7 @@ TDS устанавливается **вместе с Tosca Server**; ничег�
 Создайте их в **Configurations** проекта (среди предустановленных есть конфигурация `Test Data Service`) или во вкладке **Test Configuration** папки с TestCase; лучше всего на уровне корня или компонента, чтобы каждый TestCase их наследовал. См. [Test Configuration Parameters](/ToscaBase/ru/data-and-parameters/test-configuration-parameters/).
 
 :::note
-В видео endpoint заканчивается на «slash test data service», а порт назван на слух; написание `/testdataservice` следует предзаполненному значению, которое принимает автор. Сверьтесь с предзаполненным значением в вашей установке.
+Путь только проговаривается как «slash test data service», а порт не назван (сказано лишь, что он не стандартный); написание `/testdataservice` следует предзаполненному значению, которое автор оставляет. Сверьтесь с предзаполненным значением в вашей установке.
 :::
 
 ## Чтение значений TDS в TestStep

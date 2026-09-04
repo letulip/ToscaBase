@@ -78,7 +78,7 @@ Run the folder. In the results the Start Timer log entry shows the timer startin
 TBox Stop Timer also has a **Maximum duration**. Fill it in and set the ActionMode to `Verify`: if the measured time exceeds the maximum, the Stop Timer step fails with an expected/actual message, which marks the TestCase as not meeting its performance expectation.
 
 :::note
-The video sets the maximum to 10 and describes the failure message as expecting less than 10 while taking 43, once calling the units milliseconds and once seconds. Check the unit Tosca shows for Measured value in your version before choosing a limit.
+The speaker calls the measured value "28 milliseconds" and the maximum "10 milliseconds", then reads the failure message as "less than 10 seconds, actually took 43 seconds". The unit is visible on screen only; check what Tosca shows for Measured value in your version before choosing a limit.
 :::
 
 ## Clearing the Chrome cache

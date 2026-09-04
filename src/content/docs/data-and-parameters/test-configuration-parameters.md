@@ -62,7 +62,7 @@ The complete list is in the Tricentis documentation; these are the ones the vide
 | Mobile | APM server, browser, device model, device name, live view, simulator | Mobile engine settings, covered in the mobile lessons |
 
 :::note
-The transcript names most parameters in speech ("page sync", "avoid execution recorder"); only the ones shown in code above appear spelled out elsewhere in this knowledge base. Check the drop-down or the Tricentis documentation for the exact identifiers.
+The parameter names are read from a slide, not spelled out; only the ones shown in code above are confirmed in writing elsewhere in this knowledge base. Check the drop-down or the Tricentis documentation for the exact identifiers.
 :::
 
 ## Project-level Configurations

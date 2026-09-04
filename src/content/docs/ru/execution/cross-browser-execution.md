@@ -25,16 +25,14 @@ sources:
 
 Вместо константы дайте `Browser` **ссылку на Buffer (буфер)**, а затем задавайте этот Buffer внутри TestCase перед каждой частью, которая должна выполняться в другом браузере.
 
-1. Разбейте TestCase на папки, по одной на прогон в браузере. В демо папка `Login process` (Open URL, шаги входа, Close Browser) копируется, получаются `Login process 1` и `Login process 2`.
-2. В **Test Configuration** TestCase задайте `Browser` как ссылку на Buffer, например `{B[Browser]}` для Buffer с именем `Browser`.
-3. **Первым TestStep** каждой папки добавьте **TBox Set Buffer** (см. [Операции с буферами](/ToscaBase/ru/standard-modules/buffer-operations/)): имя Buffer `Browser`, значение `Chrome` в первой папке, `Edge` во второй.
+1. Разбейте TestCase на папки, по одной на прогон в браузере. В демо папка `Login process` (Open URL, Close Browser) копируется, получаются `Login process 1` и `Login process 2`; из первой Close Browser убирается.
+2. В **Test Configuration** TestCase задайте `Browser` как ссылку на Buffer; в демо это `{B[B_browser]}` для Buffer с именем `B_browser`.
+3. **Первым TestStep** каждой папки добавьте **TBox Set Buffer** (см. [Операции с буферами](/ToscaBase/ru/standard-modules/buffer-operations/)): имя Buffer `B_browser`, значение `Chrome` в первой папке, `Edge` во второй.
 4. Запустите. В логе видно, как Buffer получает `Chrome`, URL открывается в Chrome, затем Buffer получает `Edge` и URL открывается в Edge; шаг Close Browser закрывает браузер, открытый текущей папкой.
 
 Поскольку браузер читается из Buffer в момент каждого Open URL, один TestCase покрывает столько браузеров, сколько у вас шагов Set Buffer. Дублировать TestCase на каждый браузер и поднимать распределённое выполнение для этого не нужно.
 
-:::note
-Транскрипт по субтитрам передаёт имя Buffer как «bore browser»; точное имя — на ваш выбор, оно лишь должно совпадать в шаге Set Buffer и ссылке `{B[...]}`.
-:::
+Имя Buffer — на ваш выбор, оно лишь должно совпадать в шаге Set Buffer и ссылке `{B[...]}`.
 
 Если первая папка не закрывает свой браузер, он остаётся открытым после прогона, что демо и показывает для Chrome.
 

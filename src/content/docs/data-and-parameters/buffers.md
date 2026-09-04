@@ -62,7 +62,7 @@ Scenario from the video: a success message reads "Purchase completed" followed b
 At run time the `Verify` step checks that the fixed text matches and stores whatever stands in the `{XB[amount]}` position in the buffer `amount`; the next step types it. The execution log shows both the verification and the input.
 
 :::note
-The speaker also says he "put a regular expression" at the place of the amount, but the exact pattern is not visible in the transcript. The step works as described with the plain `{XB[amount]}` placeholder; combine it with a regular expression only if the fixed text itself varies. Regular expressions in verifications are covered in [Intervals and verification expressions](/ToscaBase/expressions/intervals-and-verification-expressions/).
+The speaker calls what he types at the amount position a "regular expression" but dictates only `{XB[amount]}`; whether any pattern precedes it is visible on screen only. The plain placeholder is enough for this obstacle. Regular expressions in verifications are covered in [Intervals and verification expressions](/ToscaBase/expressions/intervals-and-verification-expressions/).
 :::
 
 The same technique reads a changing cell of a web table, see [Obstacles: tables](/ToscaBase/troubleshooting/obstacles-tables/).
