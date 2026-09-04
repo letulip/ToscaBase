@@ -72,16 +72,16 @@ DEX работает только с **многопользовательски�
 
 **TestEvent** существуют только в многопользовательских workspace, под папкой Execution. TestEvent нужна **конфигурация** и **ExecutionList**:
 
-1. Возьмите папку TestEvents на check-out и создайте TestEvent (`dex event`).
+1. Возьмите папку TestEvents на check-out (взятие на редактирование) и создайте TestEvent (`dex event`).
 2. Перетащите на него конфигурацию (`Any` позволяет серверу выбрать свободного агента; конкретная конфигурация закрепляет тип агента).
 3. Перетащите на него ExecutionList для запуска. Test mandate и другие объекты выполнения добавляются так же.
-4. **Сделайте check in всего**: TestEvent, ExecutionList и его TestCase.
+4. **Сделайте check-in всего**: TestEvent, ExecutionList и его TestCase.
 5. Правый клик по TestEvent > **Execute now**.
 
 TestEvent появляется в **Event view** монитора со статусом, временем начала и создателем; откройте его для подробностей. Agent view показывает агента в выполнении, затем снова idle.
 
 :::caution
-TestEvent или ExecutionList на check-out приводит к статусу события **cancelled** и «failed to retrieve the needed automation objects». Сначала сделайте check in.
+TestEvent или ExecutionList на check-out приводит к статусу события **cancelled** и «failed to retrieve the needed automation objects». Сначала сделайте check-in.
 :::
 
 ## Собственные конфигурации
@@ -91,7 +91,7 @@ TestEvent или ExecutionList на check-out приводит к статусу
 1. Возьмите корень проекта на check-out, правый клик **Configurations > Update configurations from server** (без корня на check-out завершится ошибкой).
 2. Создайте новую конфигурацию (`local`) и задайте её свойства: ОС `Windows 11`, память `16 GB`, тип `64bit`.
 3. На агенте задайте **те же** значения в его конфигурации.
-4. Check in всего и **Refresh agents**; агент теперь появится под `local`.
+4. Сделайте check-in всего и **Refresh agents**; агент теперь появится под `local`.
 5. Замените `Any` в TestEvent на `local`, чтобы запускать только на подходящих агентах.
 
 Конфигурация, свойства агента и XML должны совпадать; в этом всё правило сопоставления.

@@ -72,7 +72,7 @@ Tosca 16.0 — выпуск с долгосрочной поддержкой, г
 - Нововведения для SAP
 - Интеграция с qTest
 - Улучшения DEX (распределённого выполнения); см. [Распределённое выполнение](/ToscaBase/ru/execution/distributed-execution-dex/)
-- Улучшения автоматизации и сравнения PDF; см. [PDF engine](/ToscaBase/ru/engines/pdf-engine/)
+- Улучшения автоматизации и сравнения PDF; см. [Движок PDF](/ToscaBase/ru/engines/pdf-engine/)
 - Улучшения для мейнфреймов
 - Поддержка приложений на Java 17
 - Поддержка Windows 11

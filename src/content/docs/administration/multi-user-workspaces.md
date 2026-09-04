@@ -1,6 +1,6 @@
 ---
 title: Multi-user workspaces
-description: Create a multi-user workspace on a shared repository (SQLite for practice, Oracle, MS SQL Server or DB2 for projects), work with Update All, Checkout, Checkout Tree and Check In All, inspect or revoke another user's checkout, and understand the Synchronization policy behind greyed-out folders.
+description: Create a multi-user workspace on a shared repository (SQLite for practice, Oracle, MS SQL Server or DB2 for projects), work with Update All, Checkout, Checkout Tree and Check In All, inspect or revoke another user's check-out, and understand the Synchronization policy behind greyed-out folders.
 level: 4
 sidebar:
   order: 10
@@ -83,7 +83,7 @@ Right-click any object (this works whether you are an admin or a normal user):
 - **Show latest change details** lists the object name, the time of the last change and the user who made it.
 - **Show checkout details** shows when the object was checked out, by which user, and the object name. If you need an object that shows a red stripe, this tells you whom to ask.
 
-## Revoking a checkout
+## Revoking a check-out
 
 Only an admin user can take a checked-out object away from another user; every new workspace has the groups `Admins` and `All users`, and the default `Admin` user belongs to `Admins`. Right-click the object and choose **Revoke checkout**. Tosca warns that all changes in the object will be discarded: what the other user did while holding it is lost, even if they check in later. After **OK** the object is free again; check it out yourself to work on it.
 

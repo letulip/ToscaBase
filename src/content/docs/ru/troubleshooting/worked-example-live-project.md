@@ -11,28 +11,28 @@ sources:
     at: "00:04"
 ---
 
-Этот разбор доводит демо-приложение *Vehicle Insurance* до конца сквозного сценария. Он начинается с рабочего пространства, уже построенного по лучшим практикам предыдущих сессий, и завершает последние три страницы: выбор тарифа, отправку котировки и подтверждение результата. Суть не в самих страницах, а в том, как части складываются вместе: Modules (модули), шаблон TestCase, TestSheet с атрибутами и условиями, экземпляры шаблона, ScratchBook и ExecutionList (список выполнения). У каждой техники есть свой документ; подробности — по ссылкам.
+Этот разбор доводит демо-приложение *Vehicle Insurance* до конца сквозного сценария. Он начинается с workspace, уже построенного по лучшим практикам предыдущих сессий, и завершает последние три страницы: выбор тарифа, отправку котировки и подтверждение результата. Суть не в самих страницах, а в том, как части складываются вместе: Modules (модули), шаблон TestCase, TestSheet с атрибутами и условиями, экземпляры шаблона, ScratchBook и ExecutionList (список выполнения). У каждой техники есть свой документ; подробности — по ссылкам.
 
 ## Исходная точка
 
 В компонентной папке *Vehicle Insurance* уже есть:
 
-- Modules для каждой страницы (см. [Обзор Modules](/ToscaBase/ru/modules/modules-overview/)).
-- TestCase design (TestSheet) с данными по автомобилю и продукту ([TestSheets и атрибуты](/ToscaBase/ru/test-case-design/test-sheets-and-attributes/)).
+- Modules для каждой страницы (см. [Обзор Module](/ToscaBase/ru/modules/modules-overview/)).
+- TestCase design (TestSheet) с данными по автомобилю и продукту ([TestSheet и атрибуты](/ToscaBase/ru/test-case-design/test-sheets-and-attributes/)).
 - Шаблон с шагами pre-processing и post-processing ([Шаблоны и инстанцирование](/ToscaBase/ru/test-case-design/templates-and-instantiation/)).
-- Четыре экземпляра: один straight-through, два валидных с разными данными, один невалидный; в одном уже стоят точки верификации.
+- Четыре экземпляра: один straight-through, два валидных с разными данными, один невалидный; в одном уже стоят точки проверки.
 - Требования, привязанные к кейсам ([Требования и риски](/ToscaBase/ru/requirements-and-reporting/requirements-and-risk/)).
 
 Запуск экземпляров показывает, насколько далеко идёт покрытие: ввод данных до таблицы тарифов, проверка показанных цен и выбор варианта. Осталось: проверить сгенерированный PDF (отложено), нажать *Next*, заполнить страницу *Send Quote*, нажать *Send* и проверить сообщение об успехе.
 
 ## Шаг 1: отсканировать недостающие контролы
 
-1. Откройте Module *Select price option*, где пока только таблица тарифов, и **пересканируйте** его ([Пересканирование Modules](/ToscaBase/ru/modules/rescan-modules/)). Добавьте только ссылку *Download quote* и кнопку *Next*.
+1. Откройте Module *Select price option*, где пока только таблица тарифов, и **пересканируйте** его ([Пересканирование Module](/ToscaBase/ru/modules/rescan-modules/)). Добавьте только ссылку *Download quote* и кнопку *Next*.
 2. Отсканируйте новый Module для страницы *Send Quote* в базовом виде: поля ввода и кнопку *Send*.
 3. Заполните страницу вручную, нажмите *Send*, дождитесь диалога подтверждения и отсканируйте его кнопку *OK* в отдельный Module. XScan даст ему то же имя, что и предыдущему; переименуйте в *Confirmation message*.
 
 :::tip
-Добавляйте только те контролы, которые реально использует автоматизация. Сканирование целых страниц стоит производительности и размера рабочего пространства и противоречит рекомендуемой практике ([Гигиена Modules](/ToscaBase/ru/best-practices/module-hygiene/)).
+Добавляйте только те контролы, которые реально использует автоматизация. Сканирование целых страниц стоит производительности и размера workspace и противоречит рекомендуемой практике ([Гигиена Module](/ToscaBase/ru/best-practices/module-hygiene/)).
 :::
 
 ## Шаг 2: тариф из данных и условные папки
@@ -56,7 +56,7 @@ sources:
 ## Шаг 3: отправить котировку
 
 1. В TestSheet добавьте атрибут `Send quote` с вложенными `Email`, `Phone`, `Username`, `Password`, `Confirm password`, `Comments` и задайте им экземпляры (общий email для демо допустим; в реальных проектах будут разные пользователи). `Phone` и `Comments` на странице необязательны и остаются пустыми.
-2. В шаблоне создайте папку *Send quote* с Module *Send Quote*. Каждое поле берёт значение из атрибута TestSheet; никаких статических значений в шаблоне ([Структура тест-кейса](/ToscaBase/ru/best-practices/test-case-structure/)).
+2. В шаблоне создайте папку *Send quote* с Module *Send Quote*. Каждое поле берёт значение из атрибута TestSheet; никаких статических значений в шаблоне ([Структура TestCase](/ToscaBase/ru/best-practices/test-case-structure/)).
 3. Обусловьте папку валидными данными, как раньше.
 4. Нажмите *Send*.
 
@@ -77,12 +77,12 @@ sources:
 ## Что осталось за кадром и куда это вставить
 
 - **Проверка PDF** скачанной котировки показана отдельно и вставляется после *Download quote*: [PDF-движок](/ToscaBase/ru/engines/pdf-engine/).
-- **Проверка email** на демо невозможна (письмо не отправляется). На реальной системе проверяйте через UI или добавьте API-шаги, если письмо уходит через API: [API TestCases](/ToscaBase/ru/api-testing/api-test-cases/).
-- **Test events** для запуска на нескольких агентах требуют многопользовательского рабочего пространства: [Распределённое выполнение](/ToscaBase/ru/execution/distributed-execution-dex/).
+- **Проверка email** на демо невозможна (письмо не отправляется). На реальной системе проверяйте через UI или добавьте API-шаги, если письмо уходит через API: [TestCase для API](/ToscaBase/ru/api-testing/api-test-cases/).
+- **Test events** для запуска на нескольких агентах требуют многопользовательского workspace: [Распределённое выполнение](/ToscaBase/ru/execution/distributed-execution-dex/).
 
 ## Практики, на которые опирается проект
 
-- Одна **компонентная папка** на проект с Modules, TestCases, TestCase design, требованиями и ExecutionLists; несколько компонентных папок для нескольких проектов ([Структура тест-кейса](/ToscaBase/ru/best-practices/test-case-structure/)).
+- Одна **компонентная папка** на проект с Modules, TestCases, TestCase design, требованиями и ExecutionLists; несколько компонентных папок для нескольких проектов ([Структура TestCase](/ToscaBase/ru/best-practices/test-case-structure/)).
 - **Соглашения об именовании** для Modules, TestCases и TestSteps ([Соглашения об именовании](/ToscaBase/ru/best-practices/naming-conventions/)).
 - **Никаких констант** в TestCase: параметризуйте через TestSheet или Test Configuration Parameters ([Test Configuration Parameters](/ToscaBase/ru/data-and-parameters/test-configuration-parameters/)).
 - **Условия** на папках шаблона, чтобы каждый экземпляр был отдельным сценарием, а не тем же сценарием с другими подписями.

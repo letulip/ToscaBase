@@ -31,8 +31,8 @@ Tosca Commander — приложение, в котором проходит в�
 
 | Раздел | Содержимое |
 |---|---|
-| **TestCases** | Папки, TestCase и их TestStep (шаги); место, где собирается автоматизация |
-| **Modules** | Техническая информация о контролах приложения, полученная XScan. См. [Обзор модулей](/ToscaBase/ru/modules/modules-overview/) |
+| **TestCases** | Папки, TestCase и их TestStep (шаги теста); место, где собирается автоматизация |
+| **Modules** | Техническая информация о контролах приложения, полученная XScan. См. [Обзор Module](/ToscaBase/ru/modules/modules-overview/) |
 | **Requirements** | Требования с весом риска, связанные с TestCase. См. [Требования и риски](/ToscaBase/ru/requirements-and-reporting/requirements-and-risk/) |
 | **TestCase-Design** | TestSheet, атрибуты и экземпляры для data-driven дизайна. См. [Дизайн TestCase](/ToscaBase/ru/test-case-design/) |
 | **Execution** | ExecutionList и их постоянные результаты. См. [ExecutionList](/ToscaBase/ru/execution/execution-lists/) |

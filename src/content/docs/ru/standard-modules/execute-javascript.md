@@ -11,11 +11,11 @@ sources:
     at: "00:07"
 ---
 
-Два стандартных модуля в **Modules > Standard modules > TBox XEngines > HTML** позволяют TestCase выполнять JavaScript в браузере: **Execute JavaScript** запускает скрипт, а **Verify JavaScript Result** запускает скрипт и проверяет возвращённое значение. Через них доступно всё, что JavaScript умеет на странице: переход, действия с элементами, чтение состояния `document`.
+Два стандартных Module в **Modules > Standard modules > TBox XEngines > HTML** позволяют TestCase выполнять JavaScript в браузере: **Execute JavaScript** запускает скрипт, а **Verify JavaScript Result** запускает скрипт и проверяет возвращённое значение. Через них доступно всё, что JavaScript умеет на странице: переход, действия с элементами, чтение состояния `document`.
 
 ## Предварительное условие: Test Configuration Parameter Browser
 
-Оба модуля выбрасывают `InvalidOperationException`, а лог просит задать Test Configuration Parameter (параметр тестовой конфигурации) для браузера, если он не задан. Решение:
+Оба Module выбрасывают `InvalidOperationException`, а лог просит задать Test Configuration Parameter (параметр тестовой конфигурации) для браузера, если он не задан. Решение:
 
 1. Выберите TestCase (лучше его папку, чтобы все TestCase его унаследовали) и откройте вкладку **Test Configuration**.
 2. Добавьте параметр с именем `Browser` и задайте нужный браузер, например `Chrome`.

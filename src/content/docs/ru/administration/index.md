@@ -11,7 +11,7 @@ sidebar:
 | Документ | О чём |
 |---|---|
 | [Многопользовательские workspace](/ToscaBase/ru/administration/multi-user-workspaces/) | Типы репозитория (SQLite, Oracle, MS SQL Server, DB2), создание workspace, Update All / Checkout / Checkout Tree / Check In All, сведения об изменениях и checkout, отзыв checkout |
-| [Пользователи и группы](/ToscaBase/ru/administration/users-and-groups/) | Создание пользователей и групп, пароли, группа Admins, owning и viewing group на разделах, отключение пользователей, personal data report |
+| [Пользователи и группы](/ToscaBase/ru/administration/users-and-groups/) | Создание пользователей и групп, пароли, группа Admins, группы owning и viewing на разделах, отключение пользователей, personal data report |
 | [Ветки](/ToscaBase/ru/administration/branches/) | Создать ветку, работать в ней в отдельном workspace, слить в Master, удалить |
 | [Резервное копирование и восстановление](/ToscaBase/ru/administration/backup-and-restore/) | Export subset для однопользовательских проектов; резервная копия и восстановление репозитория для многопользовательских |
 | [Версионирование и восстановление объектов](/ToscaBase/ru/administration/versioning-and-recovery/) | Настройки версионирования, история изменений, восстановление удалённого объекта через Export subset for revision |

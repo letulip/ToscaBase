@@ -31,7 +31,7 @@ Without a verification the expected result is never compared with the actual res
 
 The fix is a TestStep with ActionMode `Verify` on something that proves the outcome. For a login, verify that the `Logout` link is visible (`Visible` with value `True`, ActionMode `Verify`). In the ExecutionLog this produces an explicit verification entry with expected and actual values; when the link is missing the TestCase fails, which is exactly what you want, because a failure is what gets a defect logged.
 
-Verification points are also what tie a TestCase to its requirements: whatever the manual test validates becomes a `Verify` step in the automated one. A TestCase may have several; it must have at least one. ActionModes are explained in [Action modes](/ToscaBase/test-cases/action-modes/).
+Verification points are also what tie a TestCase to its requirements: whatever the manual test validates becomes a `Verify` step in the automated one. A TestCase may have several; it must have at least one. ActionModes are explained in [ActionModes](/ToscaBase/test-cases/action-modes/).
 
 ## Group TestSteps into folders
 

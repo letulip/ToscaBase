@@ -57,7 +57,7 @@ A recorded TestCase runs, but it is not finished:
 
 - **Rename** Modules, ModuleAttributes and TestSteps according to your [naming conventions](/ToscaBase/best-practices/naming-conventions/); the generated names describe nothing.
 - **Remove duplicates.** Clicking a control several times during recording produces several steps; in the source the order number was verified three times and two of the steps had to go.
-- **Replace static values.** The recorded verification compares against the literal order number seen during recording, which changes on every order. Buffer it or verify a pattern instead; see [Action modes](/ToscaBase/test-cases/action-modes/) and [Intervals and verification expressions](/ToscaBase/expressions/intervals-and-verification-expressions/).
+- **Replace static values.** The recorded verification compares against the literal order number seen during recording, which changes on every order. Buffer it or verify a pattern instead; see [ActionModes](/ToscaBase/test-cases/action-modes/) and [Intervals and verification expressions](/ToscaBase/expressions/intervals-and-verification-expressions/).
 - **Restructure** into folders and reusable steps as described in [TestCase structure](/ToscaBase/best-practices/test-case-structure/).
 
 The trade-off is time: recording an end-to-end flow takes a few minutes, scanning every Module separately takes longer; the price is generated names and structure you would not have chosen. For documenting a manual session with screenshots rather than generating a TestCase, use the [exploratory testing](/ToscaBase/test-cases/exploratory-testing/) recorder instead.

@@ -1,6 +1,6 @@
 ---
 title: Data and parameters
-description: Where values live outside TestSteps - buffers, Test Configuration Parameters, Business Parameters with TestStep libraries, and Test Data Services.
+description: Where values live outside TestSteps - buffers, Test Configuration Parameters, Business Parameters with TestStepLibraries, and Test Data Services.
 level: 2
 sidebar:
   order: 0
@@ -12,7 +12,7 @@ A TestStep with a hard-coded value has to be edited every time the data changes.
 |---|---|
 | [Buffers](/ToscaBase/data-and-parameters/buffers/) | The `Buffer` ActionMode, `{B[name]}`, the dynamic XBuffer `{XB[name]}`, buffer lifetime, the Buffer Viewer |
 | [Test Configuration Parameters](/ToscaBase/data-and-parameters/test-configuration-parameters/) | `{CP[name]}`, inheritance from folders, system-defined parameters, project-level Configurations, the Module-level `ConstraintIndex` for identical browser tabs |
-| [Business Parameters and TestStep libraries](/ToscaBase/data-and-parameters/business-parameters-and-libraries/) | TestStepBlocks, TestStep Libraries, reusable TestStepBlocks, Business Parameter containers |
+| [Business Parameters and TestStepLibraries](/ToscaBase/data-and-parameters/business-parameters-and-libraries/) | TestStepBlocks, TestStepLibraries, reusable TestStepBlocks, Business Parameter containers |
 | [Test Data Services](/ToscaBase/data-and-parameters/test-data-services/) | Test data management on Tosca Server: repositories, types, items, required parameters, `{TDS[type.attribute]}` |
 | [Test Data Service Modules](/ToscaBase/data-and-parameters/test-data-service-modules/) | Create, find, update, move and delete items from a TestCase; Expert Module; bulk data with Repetitions |
 

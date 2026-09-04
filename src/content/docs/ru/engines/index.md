@@ -1,6 +1,6 @@
 ---
 title: Движки
-description: Движки Tosca для документов и трудно сканируемых контролов - Excel, PDF, XML, а также UIA и WinX для окон десктопа и диалогов браузера.
+description: Движки Tosca для документов и трудно сканируемых контролов — Excel, PDF, XML, а также UIA и WinX для окон десктопа и диалогов браузера.
 level: 3
 sidebar:
   order: 0
@@ -10,9 +10,9 @@ sidebar:
 
 Порядок чтения:
 
-1. [Excel engine](/ToscaBase/ru/engines/excel-engine/): открытие, создание и сравнение книг, определение диапазонов, чтение и проверка ячеек, буферизация числа строк и столбцов модулями TBox Excel.
-2. [PDF engine](/ToscaBase/ru/engines/pdf-engine/): сравнение двух PDF модулем `1:1 Compare`, сканирование текста, картинок и таблиц через PDF Scan, подсчёт страниц документа без номеров страниц.
-3. [XML engine](/ToscaBase/ru/engines/xml-engine/): открытие и проверка XML по XPath, сканирование XML-файла в Module, связка браузерного, файлового и XML-движков в одном TestCase.
+1. [Движок Excel](/ToscaBase/ru/engines/excel-engine/): открытие, создание и сравнение книг, определение диапазонов, чтение и проверка ячеек, буферизация числа строк и столбцов модулями TBox Excel.
+2. [Движок PDF](/ToscaBase/ru/engines/pdf-engine/): сравнение двух PDF модулем `1:1 Compare`, сканирование текста, картинок и таблиц через PDF Scan, подсчёт страниц документа без номеров страниц.
+3. [Движок XML](/ToscaBase/ru/engines/xml-engine/): открытие и проверка XML по XPath, сканирование XML-файла в Module, связка браузерного, файлового и XML-движков в одном TestCase.
 4. [UIA engine и десктопные контролы](/ToscaBase/ru/engines/uia-engine-and-desktop/): смена движка XScan (WinX, UIA, Vision AI), когда Application scan не видит контролы, добавление generic list item в combo box, закрытие JavaScript alert.
 
 Об HTML-движке и повседневных веб-контролах см. [Modules](/ToscaBase/ru/modules/), о проблемных контролах в целом — [Troubleshooting](/ToscaBase/ru/troubleshooting/).

@@ -10,7 +10,7 @@ Every Tosca term used in this knowledge base, in alphabetical order, with a one-
 
 ## Symbols and numbers
 
-**{DRAG} / {DROP}** — Built-in TestStep values for drag and drop: `{DRAG}` on the source control and `{DROP}` on the target control in the same TestStep. See [Obstacles: input and clicks](/ToscaBase/troubleshooting/obstacles-input-and-clicks/).
+**{DRAG} / {DROP}** — Built-in TestStepValues for drag and drop: `{DRAG}` on the source control and `{DROP}` on the target control in the same TestStep. See [Obstacles: input and clicks](/ToscaBase/troubleshooting/obstacles-input-and-clicks/).
 
 **{TDS[type.attribute]}** — Expression that reads an attribute of the Test Data Services item currently provided to the TestCase. TDQL (Test Data Query Language, e.g. `vehicle[make=="BMW"]`) filters which item is provided. See [Test Data Service Modules](/ToscaBase/data-and-parameters/test-data-service-modules/).
 
@@ -18,7 +18,7 @@ Every Tosca term used in this knowledge base, in alphabetical order, with a one-
 
 ## A
 
-**ActionMode** — How a TestStep value is applied to a control: `Input`, `Insert`, `Verify`, `Buffer`, `WaitOn`, `Select` or `Constraint`. See [Action modes](/ToscaBase/test-cases/action-modes/).
+**ActionMode** — How a TestStepValue is applied to a control: `Input`, `Insert`, `Verify`, `Buffer`, `WaitOn`, `Select` or `Constraint`. See [ActionModes](/ToscaBase/test-cases/action-modes/).
 
 **ActualLog** — The log object under an ExecutionList that holds the current execution results. It can be cleared, archived as a named snapshot (an archive can be dragged back to become current again) and charted as a trend chart of passed, failed and no-result counts over time. See [Results and logs](/ToscaBase/execution/execution-results-and-logs/).
 
@@ -48,7 +48,7 @@ Every Tosca term used in this knowledge base, in alphabetical order, with a one-
 
 **Buffer Viewer** — Tools window that lists all buffers in the workspace and lets you search, rename, edit, add and delete them. See [Buffers](/ToscaBase/data-and-parameters/buffers/).
 
-**Business Parameter** — Named input of a reusable TestStepBlock, referenced as `{PL[name]}` and valued separately for each reference. See [Business Parameters and TestStep libraries](/ToscaBase/data-and-parameters/business-parameters-and-libraries/).
+**Business Parameter** — Named input of a reusable TestStepBlock, referenced as `{PL[name]}` and valued separately for each reference. See [Business Parameters and TestStepLibraries](/ToscaBase/data-and-parameters/business-parameters-and-libraries/).
 
 **Business Relevant** — TestSheet attribute property with the values `Yes`, `No` and `Result`, marking real test data, metadata or expected results. See [TestSheets and attributes](/ToscaBase/test-case-design/test-sheets-and-attributes/).
 
@@ -66,7 +66,7 @@ Every Tosca term used in this knowledge base, in alphabetical order, with a one-
 
 **Class (TestCase-Design)** — Reusable set of attributes and instances shared by several TestSheets. A class reference is a read-only link from a sheet; resolving it detaches a local copy. See [Design classes](/ToscaBase/test-case-design/design-classes/).
 
-**Cleanup Scenario** — TestSteps that run when the Recovery Scenario itself fails, restoring the application to a known state. See [Recovery and cleanup scenarios](/ToscaBase/test-cases/recovery-and-cleanup-scenarios/).
+**Cleanup Scenario** — TestSteps that run when the Recovery Scenario itself fails, restoring the application to a known state. See [Recovery and Cleanup Scenarios](/ToscaBase/test-cases/recovery-and-cleanup-scenarios/).
 
 **Combinatorial methods** — The Generate Instances options in TestCase-Design: all combinations, orthogonal, pairwise and linear expansion (recommended). Linear expansion needs one straight-through (happy-path) instance per attribute. See [Instances and combinatorics](/ToscaBase/test-case-design/instances-and-combinatorics/).
 
@@ -78,7 +78,7 @@ Every Tosca term used in this knowledge base, in alphabetical order, with a one-
 
 **Configuration Parameter (Module-level)** — Per-ModuleAttribute steering setting such as `ExplicitName` or `ConstraintIndex`; distinct from a Test Configuration Parameter. See [Module properties and parameters](/ToscaBase/modules/module-properties-and-parameters/).
 
-**Constraint** — ActionMode that filters which row, node or control a TestStep addresses (for example a table row whose cell has a given value) instead of steering it. See [Action modes](/ToscaBase/test-cases/action-modes/).
+**Constraint** — ActionMode that filters which row, node or control a TestStep addresses (for example a table row whose cell has a given value) instead of steering it. See [ActionModes](/ToscaBase/test-cases/action-modes/).
 
 **ConstraintIndex** — Module-level Configuration Parameter that selects which of several identical browser tabs or windows a control is steered in. See [Test Configuration Parameters](/ToscaBase/data-and-parameters/test-configuration-parameters/).
 
@@ -136,7 +136,7 @@ Every Tosca term used in this knowledge base, in alphabetical order, with a one-
 
 **Identification, steering and transition parameters** — Three of the four parameter families on Modules and ModuleAttributes (the fourth is the Module-level Configuration Parameter): identification parameters find the control, steering parameters such as `ScrollingBehavior` change how it is operated, transition parameters describe what happens after. See [Module properties and parameters](/ToscaBase/modules/module-properties-and-parameters/).
 
-**Insert** — ActionMode for non-GUI interfaces that creates objects, for example XML nodes. See [Action modes](/ToscaBase/test-cases/action-modes/).
+**Insert** — ActionMode for non-GUI interfaces that creates objects, for example XML nodes. See [ActionModes](/ToscaBase/test-cases/action-modes/).
 
 **Instance** — One value of an attribute in TestCase-Design; an instance of a whole TestSheet is one generated TestCase (one column). See [Instances and combinatorics](/ToscaBase/test-case-design/instances-and-combinatorics/).
 
@@ -162,7 +162,7 @@ Every Tosca term used in this knowledge base, in alphabetical order, with a one-
 
 **MTOM** — SOAP binary-attachment option, enabled with Enable MTOM on the Attachments tab of API Scan. See [Message structure, SOAP and attachments](/ToscaBase/api-testing/api-message-structure-and-soap/).
 
-**Multi-user workspace** — A workspace bound to a common repository; adds login, check-out and check-in, user management, branches, versioning and test mandates. The Slim workspace option reduces its size for high-volume repositories. See [Multi-user workspaces](/ToscaBase/administration/multi-user-workspaces/).
+**Multi-user workspace** — A workspace bound to a common repository; adds login, check-out and check-in, user management, branches, versioning and Test mandates. The Slim workspace option reduces its size for high-volume repositories. See [Multi-user workspaces](/ToscaBase/administration/multi-user-workspaces/).
 
 ## N
 
@@ -186,7 +186,7 @@ Every Tosca term used in this knowledge base, in alphabetical order, with a one-
 
 **Recorder** — Home-menu feature that generates Modules and a TestCase from recorded actions; its verification mode (Ctrl+Shift+V) turns clicks into Verify steps. See [Recorder](/ToscaBase/test-cases/recorder/).
 
-**Recovery Scenario** — TestSteps that the recovery engine runs when a TestCase, TestStep or TestStepValue fails, then retries at the configured Retry level (TestCase, TestStep or TestStepValue). See [Recovery and cleanup scenarios](/ToscaBase/test-cases/recovery-and-cleanup-scenarios/).
+**Recovery Scenario** — TestSteps that the recovery engine runs when a TestCase, TestStep or TestStepValue fails, then retries at the configured Retry level (TestCase, TestStep or TestStepValue). See [Recovery and Cleanup Scenarios](/ToscaBase/test-cases/recovery-and-cleanup-scenarios/).
 
 **Relative Weight** — A requirement's Weight compared with the other weights in its requirement set. See [Requirements and risk weighting](/ToscaBase/requirements-and-reporting/requirements-and-risk/).
 
@@ -214,7 +214,7 @@ Every Tosca term used in this knowledge base, in alphabetical order, with a one-
 
 **ScrollingBehavior** — Steering parameter (`Top`, `Bottom`, `Center`, `None`) that positions a control in the viewport before it is steered. See [Obstacles: identifying controls](/ToscaBase/troubleshooting/obstacles-identification/).
 
-**Select** — ActionMode that picks a node in a hierarchy; assigned automatically on table and row paths. See [Action modes](/ToscaBase/test-cases/action-modes/).
+**Select** — ActionMode that picks a node in a hierarchy; assigned automatically on table and row paths. See [ActionModes](/ToscaBase/test-cases/action-modes/).
 
 **SendKeys** — Keyboard emulation: `{SENDKEYS["..."]}` in a TestStepValue or the TBox Send Keys Module, using .NET SendKeys codes (`^` Ctrl, `+` Shift, `%` Alt). See [Common problems and fixes](/ToscaBase/troubleshooting/common-problems-and-fixes/).
 
@@ -266,11 +266,11 @@ Every Tosca term used in this knowledge base, in alphabetical order, with a one-
 
 **TestStep** — One action inside a TestCase, created by dragging a Module in; it holds TestStepValues for the Module's attributes. See [TestCase basics](/ToscaBase/test-cases/test-case-basics/).
 
-**TestStep Library** — Container (one per folder, Ctrl+L) holding reusable TestStepBlocks that TestCases reference instead of copying. See [Business Parameters and TestStep libraries](/ToscaBase/data-and-parameters/business-parameters-and-libraries/).
+**TestStepLibrary** — Container (one per folder, Ctrl+L) holding reusable TestStepBlocks that TestCases reference instead of copying. See [Business Parameters and TestStepLibraries](/ToscaBase/data-and-parameters/business-parameters-and-libraries/).
 
-**TestStepBlock** — Folder inside a TestCase that groups the TestSteps of one task; stored in a TestStep Library it becomes a reusable TestStepBlock. See [Business Parameters and TestStep libraries](/ToscaBase/data-and-parameters/business-parameters-and-libraries/).
+**TestStepBlock** — Folder inside a TestCase that groups the TestSteps of one task; stored in a TestStepLibrary it becomes a reusable TestStepBlock. See [Business Parameters and TestStepLibraries](/ToscaBase/data-and-parameters/business-parameters-and-libraries/).
 
-**TestStepValue** — The value plus ActionMode set on one ModuleAttribute within a TestStep. See [Action modes](/ToscaBase/test-cases/action-modes/).
+**TestStepValue** — The value plus ActionMode set on one ModuleAttribute within a TestStep. See [ActionModes](/ToscaBase/test-cases/action-modes/).
 
 **Tosca Commander** — The desktop client where Modules, TestCases, ExecutionLists and requirements are created and managed. See [Architecture](/ToscaBase/getting-started/architecture/).
 
@@ -300,7 +300,7 @@ Every Tosca term used in this knowledge base, in alphabetical order, with a one-
 
 ## W
 
-**WaitOn** — ActionMode that waits until a control reaches the given value or state, up to the Synchronization timeout (Settings > TBox > Synchronization, default 20000 ms). See [Action modes](/ToscaBase/test-cases/action-modes/).
+**WaitOn** — ActionMode that waits until a control reaches the given value or state, up to the Synchronization timeout (Settings > TBox > Synchronization, default 20000 ms). See [ActionModes](/ToscaBase/test-cases/action-modes/).
 
 **Weight** — A requirement's business-risk value (default 1, recommended scale 1-5), optionally derived as 2^Frequency Class * 2^Damage Class; it drives Contribution and Relative Weight. See [Requirements and risk weighting](/ToscaBase/requirements-and-reporting/requirements-and-risk/).
 

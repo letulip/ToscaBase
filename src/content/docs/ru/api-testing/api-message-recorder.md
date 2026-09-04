@@ -1,5 +1,5 @@
 ---
-title: Message Recorder
+title: Message Recorder (запись сообщений API)
 description: Захват HTTP-трафика между приложением и его бэкендом с помощью Message Recorder в API Scan, разбор вызовов и экспорт их как API-сообщений для построения TestCase.
 level: 3
 sidebar:
@@ -38,7 +38,7 @@ sources:
 1. **Выделите все сообщения**, которые нужны. Экспортируются только выделенные; в источнике первый экспорт с одним выделенным даёт одно сообщение.
 2. Нажмите **Export**.
 
-API Scan создаёт папку `Trace_import` с папкой на каждое сообщение, где лежит сообщение с endpoint, resource и payload ровно в записанном виде. Дальше рабочий процесс обычный: подправьте сообщения, запустите их и экспортируйте в Commander, как описано в [API TestCases](/ToscaBase/ru/api-testing/api-test-cases/).
+API Scan создаёт папку `Trace_import` с папкой на каждое сообщение, где лежит сообщение с endpoint, resource и payload ровно в записанном виде. Дальше рабочий процесс обычный: подправьте сообщения, запустите их и экспортируйте в Commander, как описано в [TestCase для API](/ToscaBase/ru/api-testing/api-test-cases/).
 
 Очистка списка и повторное нажатие **Start** начинают новый сеанс.
 

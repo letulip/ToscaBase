@@ -34,7 +34,7 @@ Each block in the Commander window is a section of the workspace. The main ones:
 | **TestCases** | Folders, TestCases and their TestSteps; the place where automation is assembled |
 | **Modules** | The technical information about the application's controls, produced by XScan. See [Modules overview](/ToscaBase/modules/modules-overview/) |
 | **Requirements** | Requirements with risk weighting, linked to TestCases. See [Requirements and risk](/ToscaBase/requirements-and-reporting/requirements-and-risk/) |
-| **TestCase-Design** | TestSheets, attributes and instances for data-driven test design. See [TestCase design](/ToscaBase/test-case-design/) |
+| **TestCase-Design** | TestSheets, attributes and instances for data-driven test design. See [TestCase-Design](/ToscaBase/test-case-design/) |
 | **Execution** | ExecutionLists and their permanent results. See [ExecutionLists](/ToscaBase/execution/execution-lists/) |
 | **Issues** | Defects linked to executions |
 | **Tutorial** | Built-in tutorial material; not needed for this knowledge base |
@@ -52,8 +52,8 @@ The section is a tree: parent folders, child folders, and TestCases inside them 
 - **Create Folder** (`Ctrl+N`) and **Create Virtual Folder** (a query-based folder; see [TQL and virtual folders](/ToscaBase/requirements-and-reporting/tql-and-virtual-folders/))
 - **Create TestCase**
 - **Create Business TestCase** (see [Execution repetitions and business TestCases](/ToscaBase/execution/execution-repetitions-and-business-test-cases/))
-- **Create TestStep Library** (see [Business parameters and libraries](/ToscaBase/data-and-parameters/business-parameters-and-libraries/))
-- **Create Recovery Scenario Collection** (see [Recovery and cleanup scenarios](/ToscaBase/test-cases/recovery-and-cleanup-scenarios/))
+- **Create TestStepLibrary** (see [Business parameters and libraries](/ToscaBase/data-and-parameters/business-parameters-and-libraries/))
+- **Create Recovery Scenario Collection** (see [Recovery and Cleanup Scenarios](/ToscaBase/test-cases/recovery-and-cleanup-scenarios/))
 - **Create Test Configuration Parameter**
 
 Keyboard shortcuts are shown next to each menu entry; `Ctrl+T` opens a search to add a TestStep from a Module.

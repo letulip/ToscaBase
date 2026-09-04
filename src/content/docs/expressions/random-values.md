@@ -80,7 +80,7 @@ The page shows two randomly generated numbers and expects their sum in a text bo
 3. In `result` do not write `{B[num1]}+{B[num2]}`: a bare `+` between two buffers returns no result. Arithmetic has to go through the math expression: `{MATH[{B[num1]}+{B[num2]}]}` (operands are the buffers, the operator is `+`; subtraction, multiplication and division work the same way).
 4. The sum is entered correctly, but the obstacle is still not marked complete, because the page expects key-by-key typing. Wrap the same expression in **SendKeys** so Tosca emulates a user typing: `{SENDKEYS["{MATH[{B[num1]}+{B[num2]}]}"]}`. With SendKeys the obstacle completes.
 
-Set the TestCase workstate to **Completed** before running from ScratchBook, as the video does each time.
+Set the TestCase Workstate to **Completed** before running from ScratchBook, as the video does each time.
 
 ### Buffer random text and select it in a combo box
 

@@ -19,7 +19,7 @@ sources:
     at: "49:36"
 ---
 
-A **class** in the TestCase-Design section is a container for attributes and instances that several TestSheets need. Instead of creating the same `Enter vehicle data` attributes with the same instances in an `Automobile` sheet and again in a `Truck` sheet, you create them once in a class and put a **class reference** into each sheet. Changes are made in the class and appear in every reference. It is the TestCase-Design counterpart of a TestStep library ([Business parameters and libraries](/ToscaBase/data-and-parameters/business-parameters-and-libraries/)) or of a function you call from many places. TestSheets and attributes themselves are described in [TestSheets and attributes](/ToscaBase/test-case-design/test-sheets-and-attributes/).
+A **class** in the TestCase-Design section is a container for attributes and instances that several TestSheets need. Instead of creating the same `Enter vehicle data` attributes with the same instances in an `Automobile` sheet and again in a `Truck` sheet, you create them once in a class and put a **class reference** into each sheet. Changes are made in the class and appear in every reference. It is the TestCase-Design counterpart of a TestStepLibrary ([Business parameters and libraries](/ToscaBase/data-and-parameters/business-parameters-and-libraries/)) or of a function you call from many places. TestSheets and attributes themselves are described in [TestSheets and attributes](/ToscaBase/test-case-design/test-sheets-and-attributes/).
 
 ## When a class pays off
 
@@ -42,7 +42,7 @@ Drag the class onto a TestSheet. The sheet now shows a **class reference** with 
 - The reference is read-only: attributes and instances cannot be changed inside it. Edit the class, and every reference reflects the change (deleting an instance in the class removes it from all references).
 - Right-click the reference **> Jump to referenced class** opens the class.
 - When the class has class instances, select the wanted set (`Set 1` or `Set 2`) in the reference; the sheet then uses that set's values.
-- In a template, class-reference attributes are mapped to TestStep values the same way as sheet attributes ([Templates and instantiation](/ToscaBase/test-case-design/templates-and-instantiation/)).
+- In a template, class-reference attributes are mapped to TestStepValues the same way as sheet attributes ([Templates and instantiation](/ToscaBase/test-case-design/templates-and-instantiation/)).
 
 ## Resolve a reference
 

@@ -15,7 +15,7 @@ sources:
     at: "08:14"
 ---
 
-Первый TestCase — вход в систему: открыть демонстрационный интернет-магазин (демо-сайт Sauce Labs «Swag Labs» со страницей входа и списком товаров), ввести имя пользователя и пароль, нажать **Login** и закрыть браузер. При всей простоте он проходит полный рабочий цикл Tosca: сканирование страницы в Module, сборку TestCase из Module, добавление стандартных модулей, открывающих и закрывающих браузер, задание браузера через Test Configuration Parameter и запуск в ScratchBook. Предпосылки: workspace, созданный из стандартного шаблона ([Workspace и настройка проекта](/ToscaBase/ru/getting-started/workspace-and-project-setup/)), Chrome с расширением Tosca ([Установка](/ToscaBase/ru/getting-started/installation/#расширение-браузера-для-xscan)) и открытая в Chrome демо-страница.
+Первый TestCase — вход в систему: открыть демонстрационный интернет-магазин (демо-сайт Sauce Labs «Swag Labs» со страницей входа и списком товаров), ввести имя пользователя и пароль, нажать **Login** и закрыть браузер. При всей простоте он проходит полный рабочий цикл Tosca: сканирование страницы в Module, сборку TestCase из Module, добавление стандартных Module, открывающих и закрывающих браузер, задание браузера через Test Configuration Parameter и запуск в ScratchBook. Предпосылки: workspace, созданный из стандартного шаблона ([Workspace и настройка проекта](/ToscaBase/ru/getting-started/workspace-and-project-setup/)), Chrome с расширением Tosca ([Установка](/ToscaBase/ru/getting-started/installation/#расширение-браузера-для-xscan)) и открытая в Chrome демо-страница.
 
 ## 1. Структура папок в TestCases
 
@@ -38,7 +38,7 @@ sources:
 5. Нажмите **Save** и закройте XScan. Раздел **Advanced**, где меняют идентифицирующие свойства, когда контрол не уникален, здесь не нужен; см. [Идентификация контролов](/ToscaBase/ru/modules/control-identification/).
 6. Переименуйте новый Module во что-то понятное любому, например `Login Page`.
 
-Развернув Module, вы увидите три ModuleAttribute с их **ActionMode**, **диапазоном значений** и, на панели Properties, идентифицирующими свойствами, которые будет использовать Tosca. Пока каждый контрол уникален на странице, менять нечего. Подробно — [XScan](/ToscaBase/ru/modules/xscan/).
+Развернув Module, вы увидите три ModuleAttribute с их **ActionMode**, **диапазоном значений** и, на панели Properties, идентифицирующими свойствами, которые будет использовать Tosca. Если каждый контрол уникален на странице, менять нечего. Подробно — [XScan](/ToscaBase/ru/modules/xscan/).
 
 ## 3. Перетаскивание Module в TestCase
 
@@ -58,7 +58,7 @@ Tosca должна знать, какой браузер использоват�
 
 ## 5. Открытие приложения (Prerequisites)
 
-Браузер выбран, но ничто его пока не открывает. В `Prerequisites` добавьте TestStep из стандартных модулей, пришедших с шаблоном: откройте раздел Modules (если вы его закрыли, откройте заново, см. [Обзор Commander](/ToscaBase/ru/getting-started/commander-overview/#расположение-разделов)) и найдите **TBox XEngines > HTML > Open Url**, либо нажмите `Ctrl+T` в папке и воспользуйтесь поиском. Перетащите его, переименуйте шаг в `Open Application` и вставьте URL демо-сайта в значение **Url**. Необязательные значения `ActiveTab` и аргументы браузера можно оставить пустыми.
+Браузер выбран, но ничто его пока не открывает. В `Prerequisites` добавьте TestStep из стандартных Module, пришедших с шаблоном: откройте раздел Modules (если вы его закрыли, откройте заново, см. [Обзор Commander](/ToscaBase/ru/getting-started/commander-overview/#расположение-разделов)) и найдите **TBox XEngines > HTML > Open Url**, либо нажмите `Ctrl+T` в папке и воспользуйтесь поиском. Перетащите его, переименуйте шаг в `Open Application` и вставьте URL демо-сайта в значение **Url**. Необязательные значения `ActiveTab` и аргументы браузера можно оставить пустыми.
 
 ## 6. Запуск в ScratchBook
 
@@ -77,7 +77,7 @@ Tosca должна знать, какой браузер использоват�
 | Caption | `Select` | `Swag*` — заголовок окна начинается со «Swag Labs», подстановочный знак покрывает остальное |
 | Operation | `Input` | `Close` (в списке также Maximize, Minimize, Normal и другие) |
 
-Запустите родительскую папку снова: теперь видны три шага (Open Url, Login Page, TBox Window Operation), и в конце браузер закрывается. Модуль описан в [Операциях с окнами](/ToscaBase/ru/standard-modules/window-operations/).
+Запустите родительскую папку снова: теперь видны три шага (Open Url, Login Page, TBox Window Operation), и в конце браузер закрывается. Module описан в [Операциях с окнами](/ToscaBase/ru/standard-modules/window-operations/).
 
 ## 8. Установка Workstate
 

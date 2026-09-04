@@ -1,6 +1,6 @@
 ---
 title: Synchronisation, not waits
-description: Replace static TBox Wait steps with the WaitOn ActionMode and avoid mouse and keyboard methods in TestStep values, with the Calculate / Send progress-bar example worked both ways.
+description: Replace static TBox Wait steps with the WaitOn ActionMode and avoid mouse and keyboard methods in TestStepValues, with the Calculate / Send progress-bar example worked both ways.
 level: 3
 sidebar:
   order: 40
@@ -15,13 +15,13 @@ sources:
     at: "00:35"
 ---
 
-A TestCase should wait exactly as long as the application needs and interact with controls the way Tosca does internally, not the way a human does. Two Tricentis best practices follow from this: no static waits, and no mouse or keyboard methods in TestStep values. Both make execution faster and more stable.
+A TestCase should wait exactly as long as the application needs and interact with controls the way Tosca does internally, not the way a human does. Two Tricentis best practices follow from this: no static waits, and no mouse or keyboard methods in TestStepValues. Both make execution faster and more stable.
 
 ## No static waits
 
 A static wait is a TestStep with the standard Module `TBox Wait` and a fixed `Duration`. Tosca pauses for that long regardless of the application's state. If the control you need appeared after two seconds, the remaining time is wasted; add a few of these and the execution time of a TestCase grows by minutes. Worse, the value is a guess: page load time depends on network bandwidth and other factors you cannot control, so a wait that is long enough today is too short tomorrow, and the TestCase fails intermittently.
 
-The dynamic alternative is the ActionMode `WaitOn` (see [Action modes](/ToscaBase/test-cases/action-modes/)). A `WaitOn` step polls the control until the specified condition is met, then proceeds immediately; it only gives up after the maximum wait time configured in the settings. Static waits always wait the full time; `WaitOn` waits only as long as needed.
+The dynamic alternative is the ActionMode `WaitOn` (see [ActionModes](/ToscaBase/test-cases/action-modes/)). A `WaitOn` step polls the control until the specified condition is met, then proceeds immediately; it only gives up after the maximum wait time configured in the settings. Static waits always wait the full time; `WaitOn` waits only as long as needed.
 
 The source demonstrates it on a Tricentis obstacle page: clicking **Calculate** starts a progress bar, and the **Send** button is enabled only when the bar reaches 100%.
 
@@ -32,9 +32,9 @@ The source demonstrates it on a Tricentis obstacle page: clicking **Calculate** 
 Use a static wait only as a last resort, when no condition on the application can express what you are waiting for, and keep such steps to a minimum. `WaitOn` is the main mechanism; the speaker notes that Tosca offers other dynamic options too, without naming them.
 :::
 
-## No mouse or keyboard methods in TestStep values
+## No mouse or keyboard methods in TestStepValues
 
-To click a button or link, many testers type a click method into the TestStep value, or send key combinations through a SendKeys step. These methods simulate physical keystrokes and mouse clicks using the Microsoft-defined keys of the Windows operating system, which means Tosca has to go through several APIs to perform a simple click. That is slower and less stable than the alternative.
+To click a button or link, many testers type a click method into the TestStepValue, or send key combinations through a SendKeys step. These methods simulate physical keystrokes and mouse clicks using the Microsoft-defined keys of the Windows operating system, which means Tosca has to go through several APIs to perform a simple click. That is slower and less stable than the alternative.
 
 For a button or link, set the value to `X` with ActionMode `Input` instead. It performs the same click, but Tosca does it internally without moving the pointer; in the demonstration the mouse cursor visibly does not travel to the button. On a single step the difference is invisible; across a large regression suite the accumulated time saving is significant.
 

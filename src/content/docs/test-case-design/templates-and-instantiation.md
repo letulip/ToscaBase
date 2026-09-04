@@ -48,9 +48,9 @@ Drag the TestSheet from the TestCase-Design section and drop it onto the templat
 
 **Check Template** (ribbon or context menu) validates the template against the schema: it compares the names used in the template with the attribute names of the sheet, and also checks conditions, properties and Test Configuration Parameters. Run it every time you link a sheet or change the template. The result is either `No errors found in template` or a list of errors. **Edit schema path** opens a wizard to switch the template to another data source.
 
-## Map TestStep values to attributes
+## Map TestStepValues to attributes
 
-When the sheet is linked, Tosca fills every **empty** TestStep value whose ModuleAttribute name matches a sheet attribute with a reference into the sheet, for example `Process.Username` and `Process.Password` under the `Login user` step. Values that already contain something are left alone. To map those, and any value whose name does not match:
+When the sheet is linked, Tosca fills every **empty** TestStepValue whose ModuleAttribute name matches a sheet attribute with a reference into the sheet, for example `Process.Username` and `Process.Password` under the `Login user` step. Values that already contain something are left alone. To map those, and any value whose name does not match:
 
 - **Drag the attribute** from the TestSheet into the Value cell of the TestStepValue, or
 - **Type the reference**: start typing the `XL` reference with a dot or opening bracket and Tosca offers the attributes of the linked sheet to pick from, for example `Verification.Message` for the error field that should be verified.

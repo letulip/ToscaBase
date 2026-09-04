@@ -43,4 +43,4 @@ Both ways set the same property; changing it in the properties pane updates the 
 
 - [Control flow](/ToscaBase/test-cases/control-flow/) for `While` and `Do` loops when the count depends on a condition.
 - [Execution repetitions and business TestCases](/ToscaBase/execution/execution-repetitions-and-business-test-cases/) for repeating a whole TestCase from an ExecutionList, which is a different property.
-- [Instances and combinatorics](/ToscaBase/test-case-design/instances-and-combinatorics/) for running the same steps with different data, which is what TestCase design is for rather than Repetitions.
+- [Instances and combinatorics](/ToscaBase/test-case-design/instances-and-combinatorics/) for running the same steps with different data, which is what TestCase-Design is for rather than Repetitions.

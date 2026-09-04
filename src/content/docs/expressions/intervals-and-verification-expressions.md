@@ -110,7 +110,7 @@ A transaction ID such as `IN` + a bank abbreviation + a three-digit number + mor
 | `part3` | `\d{3}` | Exactly the next three digits |
 | `part4` | `\d*` | All remaining digits |
 
-3. Set the TestCase workstate to Completed and run. With ActionMode **Input** the run fails with a message that the value has to be an input value; extracting text with `REGEX` requires **Verify**.
+3. Set the TestCase Workstate to Completed and run. With ActionMode **Input** the run fails with a message that the value has to be an input value; extracting text with `REGEX` requires **Verify**.
 4. Check the results in **Tools > Buffer Viewer**; searching for `part` lists the four buffers with their values.
 
 The same technique reads three random numbers out of a random sentence in [Random values](/ToscaBase/expressions/random-values/#extract-several-random-numbers-from-a-random-string-named-groups), where the groups are separated by `.*` and the pattern is anchored with `^` and `$`.

@@ -69,5 +69,5 @@ Run it from an ExecutionList (step 5 needs it). The log shows `B_order` set to t
 
 ## Related
 
-- [Action modes](/ToscaBase/test-cases/action-modes/) for the `Buffer` and `Verify` ActionModes
+- [ActionModes](/ToscaBase/test-cases/action-modes/) for the `Buffer` and `Verify` ActionModes
 - [Buffers](/ToscaBase/data-and-parameters/buffers/) for the Buffer Viewer and XBuffer

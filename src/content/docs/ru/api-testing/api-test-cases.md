@@ -1,5 +1,5 @@
 ---
-title: API TestCases
+title: TestCase для API
 description: Экспорт сообщений из API Scan в Tosca Commander, добавление ModuleAttribute для кодов состояния и полей payload, верификация ответов, буферизация значений для цепочки запросов и запуск API TestCase из ExecutionList.
 level: 3
 sidebar:
@@ -27,7 +27,7 @@ sources:
 
 ## Экспорт сообщений из API Scan
 
-1. В Commander создайте **component folder (папку компонента)** для API (например, `API testing`) и **выделите её**. Если ничего не выделено, экспорт попадёт в корневую папку. Рабочее пространство или хотя бы целевая папка должны быть **взяты на редактирование (checked out)**; в многопользовательском workspace экспорт иначе завершается ошибкой (см. [Многопользовательские workspace](/ToscaBase/ru/administration/multi-user-workspaces/)).
+1. В Commander создайте **component folder (папку компонента)** для API (например, `API testing`) и **выделите её**. Если ничего не выделено, экспорт попадёт в корневую папку. Workspace или хотя бы целевая папка должны быть взяты на **check-out** (взятие на редактирование); в многопользовательском workspace экспорт иначе завершается ошибкой (см. [Многопользовательские workspace](/ToscaBase/ru/administration/multi-user-workspaces/)).
 2. В API Scan **выделите все сообщения**, которые хотите экспортировать. Экспортируются только выделенные; при одном выделенном сообщении получите ровно одно.
 3. Откройте **API Test Case > Export** и после завершения закройте API Scan.
 
@@ -100,4 +100,4 @@ sources:
 
 ## Запуск API TestCase
 
-Запускайте из ScratchBook или создайте папку ExecutionList (например, `API Suite`), сам ExecutionList (`Swagger App`), перетащите туда TestCase, сохраните порядок и нажмите **Run** (см. [ExecutionLists](/ToscaBase/ru/execution/execution-lists/)). Во время выполнения UI не появляется. Лог выполнения показывает статус каждого запроса и ответа, буферизованное значение и значение, использованное позже; [Buffer Viewer](/ToscaBase/ru/data-and-parameters/buffers/) перечисляет буферы. После этого сохраните и сдайте (check in) workspace.
+Запускайте из ScratchBook или создайте папку ExecutionList (например, `API Suite`), сам ExecutionList (`Swagger App`), перетащите туда TestCase, сохраните порядок и нажмите **Run** (см. [ExecutionLists](/ToscaBase/ru/execution/execution-lists/)). Во время выполнения UI не появляется. Лог выполнения показывает статус каждого запроса и ответа, буферизованное значение и значение, использованное позже; [Buffer Viewer](/ToscaBase/ru/data-and-parameters/buffers/) перечисляет буферы. После этого сохраните workspace и сделайте check-in.

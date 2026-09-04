@@ -19,7 +19,7 @@ sources:
     at: "02:14"
 ---
 
-**TBox Window Operation (операция с окном)** посылает команду окну, найденному по заголовку (caption): вывести на передний план, изменить размер, закрыть или дождаться появления. **TBox Scroll Window Operation** прокручивает содержимое окна на заданное число пикселей или строк. Оба модуля находятся в **Modules > Standard modules > TBox Automation Tools > Basic window operations** и рассчитаны прежде всего на Windows-приложения, но работают и с окнами браузера, например со всплывающими.
+**TBox Window Operation (операция с окном)** посылает команду окну, найденному по заголовку (caption): вывести на передний план, изменить размер, закрыть или дождаться появления. **TBox Scroll Window Operation** прокручивает содержимое окна на заданное число пикселей или строк. Оба Module находятся в **Modules > Standard modules > TBox Automation Tools > Basic window operations** и рассчитаны прежде всего на Windows-приложения, но работают и с окнами браузера, например со всплывающими.
 
 ## TBox Window Operation
 
@@ -76,10 +76,10 @@ sources:
 
 Обязательны не все атрибуты: caption и хотя бы одно из Vertical или Horizontal. Index, mouse policy (`Center` подходит), direction policy и delay необязательны.
 
-Пример на странице с бесконечной прокруткой и заголовком `The Internet`: caption `The Internet` с regex, чтобы будущая смена заголовка не сломала шаг, без index, Vertical `500` (пикселей), mouse policy `Center`, direction policy `Vertical first`, без delay. Запуск в ScratchBook прокручивает страницу на 500 пикселей вниз; для большей прокрутки увеличьте значение. Модуль работает с любым окном с полосами прокрутки, веб или настольным.
+Пример на странице с бесконечной прокруткой и заголовком `The Internet`: caption `The Internet` с regex, чтобы будущая смена заголовка не сломала шаг, без index, Vertical `500` (пикселей), mouse policy `Center`, direction policy `Vertical first`, без delay. Запуск в ScratchBook прокручивает страницу на 500 пикселей вниз; для большей прокрутки увеличьте значение. Module работает с любым окном с полосами прокрутки, веб или настольным.
 
 :::note
-Модуль появился в Tosca 16 и недоступен в более старых версиях. В названии видео он назван «TBox Window Scroll Operation», а автор говорит «scroll window operation»; ищите его по запросу `TBox Scroll`.
+Module появился в Tosca 16 и недоступен в более старых версиях. В названии видео он назван «TBox Window Scroll Operation», а автор говорит «scroll window operation»; ищите его по запросу `TBox Scroll`.
 :::
 
 ## См. также

@@ -53,7 +53,7 @@ Scan the page into a Module with four controls: first number, operator, second n
 2. **If (addition).** Add an `If` statement. Its condition is a **TBox Evaluation Tool** step whose expression compares `'{B[Operand]}'` with `'+'`.
 3. **Then.** A TestStep that enters into `Result` a math expression adding `{B[Num1]}` and `{B[Num2]}`.
 4. Copy the `If` block three times, changing only the operator in the condition (`-`, `*`, the modulo sign) and inside the math expression.
-5. Set the workstate to Completed and run several times. Each run buffers different values, exactly one `If` matches, and the result box receives the right value.
+5. Set the Workstate to Completed and run several times. Each run buffers different values, exactly one `If` matches, and the result box receives the right value.
 
 :::note
 The transcript says the condition checks whether the buffer "equals" the sign; `==` is the operator shown in Lesson 16, so that is the safe choice. The math expression is referred to only as "the math expression"; its syntax is covered in [Intervals and verification expressions](/ToscaBase/expressions/intervals-and-verification-expressions/).

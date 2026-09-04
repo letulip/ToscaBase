@@ -46,7 +46,7 @@ The subtitle transcript mentions `2001` as "at the boundary" once, although that
 1. In the TestCases section right-click the TestCase **> Convert to Template**. It can no longer be executed. [Templates and instantiation](/ToscaBase/test-case-design/templates-and-instantiation/)
 2. Drag the `Vehicle data` sheet onto the template. The template's **Schema path** property now shows the sheet name; **Jump to Schema Definition** opens the sheet.
 3. Click **Check Template**: `No errors found in template`.
-4. Look at the TestStep values: the empty ones were filled with references into the sheet (attribute and sub-attribute). Values that were already filled were not touched; for those, drag the attribute from the sheet into the value, or type the reference.
+4. Look at the TestStepValues: the empty ones were filled with references into the sheet (attribute and sub-attribute). Values that were already filled were not touched; for those, drag the attribute from the sheet into the value, or type the reference.
 
 ## Step 5: instantiate, execute, maintain
 

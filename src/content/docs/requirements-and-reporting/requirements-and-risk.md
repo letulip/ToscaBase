@@ -15,13 +15,13 @@ sources:
     at: "04:05"
 ---
 
-The **Requirements** section of Tosca Commander holds the business requirements of the application under test, lets you assign a risk weight to each of them, and links them to TestCases, ExecutionLists and TestCase design sheets. Once linked, the section works as a project dashboard: it shows how much of each requirement is covered by specified TestCases and how much of it has passed or failed in execution. This is the foundation of risk-based testing, one of the two pillars Tosca is built on (the other being its modular, model-based approach): cover the highest-risk requirements with the fewest TestCases.
+The **Requirements** section of Tosca Commander holds the business requirements of the application under test, lets you assign a risk weight to each of them, and links them to TestCases, ExecutionLists and TestCase-Design sheets. Once linked, the section works as a project dashboard: it shows how much of each requirement is covered by specified TestCases and how much of it has passed or failed in execution. This is the foundation of risk-based testing, one of the two pillars Tosca is built on (the other being its modular, model-based approach): cover the highest-risk requirements with the fewest TestCases.
 
 ## Where the section lives
 
 `Requirements` is a default section of every project. If it is not visible, open it from the **Sections** menu (choose **Requirements**). The **Requirements** entry on the top menu offers the same create actions as the right-click menu. You can also create a Requirements folder inside your own component folder.
 
-Before you start, make sure the columns you need are visible. Right-click any column header, choose **Column Chooser**, and click a column to add it. The important ones are `Frequency Class`, `Damage Class` and `Weight`; useful extras are `Contribution`, `Relative Weight`, `Coverage Specified`, `Coverage Executed`, `Execution State`, `Required TestCases`, `Aggregated Weight`, `Result Aggregation` (requirement-set level), `Requirement Type` and a TestCase design column.
+Before you start, make sure the columns you need are visible. Right-click any column header, choose **Column Chooser**, and click a column to add it. The important ones are `Frequency Class`, `Damage Class` and `Weight`; useful extras are `Contribution`, `Relative Weight`, `Coverage Specified`, `Coverage Executed`, `Execution State`, `Required TestCases`, `Aggregated Weight`, `Result Aggregation` (requirement-set level), `Requirement Type` and a TestCase-Design column.
 
 ## Structure: folder, requirement set, requirement
 
@@ -72,7 +72,7 @@ By default every requirement has the type `Requirement`. To classify requirement
 
 Drag a TestCase, or a whole TestCase folder (for example a folder of template instances), onto a **requirement**. TestCases can only be linked to requirements, never to a requirement set. An alternative is right-click the requirement **> Create TestCase Link**, rename the link and drag the TestCases onto it; drag-and-drop directly onto the requirement is the quicker option.
 
-`Coverage Specified` shows how complete the linked TestCases are. It is driven by the TestCase **workstate**, which maps to a fixed percentage:
+`Coverage Specified` shows how complete the linked TestCases are. It is driven by the TestCase **Workstate**, which maps to a fixed percentage:
 
 | Workstate | Counts as |
 |---|---|
@@ -80,7 +80,7 @@ Drag a TestCase, or a whole TestCase folder (for example a folder of template in
 | `In Work` | 50% |
 | `Completed` | 100% |
 
-Coverage specified = relative weight * workstate percentage, aggregated over the linked TestCases. With every TestCase `Completed` the requirement shows 100%; set one to `In Work` and one to `Planned` and the figure drops (87% in the webinar example). Always mark finished TestCases `Completed`, otherwise the dashboard under-reports coverage. See [TestCase structure and workstates](/ToscaBase/best-practices/test-case-structure/).
+Coverage specified = relative weight * Workstate percentage, aggregated over the linked TestCases. With every TestCase `Completed` the requirement shows 100%; set one to `In Work` and one to `Planned` and the figure drops (87% in the webinar example). Always mark finished TestCases `Completed`, otherwise the dashboard under-reports coverage. See [TestCase structure and Workstates](/ToscaBase/best-practices/test-case-structure/).
 
 ## Linking ExecutionLists: execution state
 
@@ -88,7 +88,7 @@ Drag an [ExecutionList](/ToscaBase/execution/execution-lists/), or individual ex
 
 The properties of a requirement show the same figures under **Status** (passed, failed, not linked) and **Calculation results**.
 
-## Linking TestCase design
+## Linking TestCase-Design
 
 A [TestSheet](/ToscaBase/test-case-design/test-sheets-and-attributes/) can also be dragged onto a requirement; Tosca creates a TestCase substitute link.
 

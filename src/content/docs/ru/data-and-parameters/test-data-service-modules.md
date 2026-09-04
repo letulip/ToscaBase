@@ -11,11 +11,11 @@ sources:
     at: "22:27"
 ---
 
-Test Data Services задуманы для управления из TestCase, чтобы данные существовали до запуска кейсов, которым они нужны. Поиск `test data` в **Add TestStep** выводит стандартные модули TDS из Standard subset. Эта страница проходит по ним в порядке, в котором их использует реальный поток. Концепция, веб-интерфейс и два обязательных Test Configuration Parameter (`TestDataEndpoint`, `TestDataRepository`) — в [Test Data Services](/ToscaBase/ru/data-and-parameters/test-data-services/); без этих параметров каждый модуль ниже падает.
+Test Data Services задуманы для управления из TestCase, чтобы данные существовали до запуска кейсов, которым они нужны. Поиск `test data` в **Add TestStep** выводит стандартные Module TDS из Standard subset. Эта страница проходит по ним в порядке, в котором их использует реальный поток. Концепция, веб-интерфейс и два обязательных Test Configuration Parameter (`TestDataEndpoint`, `TestDataRepository`) — в [Test Data Services](/ToscaBase/ru/data-and-parameters/test-data-services/); без этих параметров каждый Module ниже падает.
 
 ## Модули
 
-| Модуль | Назначение |
+| Module | Назначение |
 |---|---|
 | **Create and Provide New Item** | Создаёт элемент в типе (создавая тип, если его нет) и *предоставляет* его последующим шагам |
 | **Find and Provide Item** | Выбирает существующий элемент по фильтру или запросу и предоставляет его |
@@ -24,19 +24,19 @@ Test Data Services задуманы для управления из TestCase, �
 | **Move Item to Type** | Переносит предоставленный элемент из одного типа в другой |
 | **Delete Item** | Удаляет предоставленный элемент (только его) |
 | **Import Items**, **Export Items** | Импорт и экспорт файлов, как в веб-интерфейсе |
-| **Expert Module** | Один модуль с папкой *Test Data Task*, покрывающий всё выше плюс задачи, доступные только здесь |
+| **Expert Module** | Один Module с папкой *Test Data Task*, покрывающий всё выше плюс задачи, доступные только здесь |
 
 Общие ModuleAttributes: **existing or new TDS type** (после первого успешного прогона выпадающий список показывает известные типы), необязательное **alias name**, **data structure**, куда добавляется по паре атрибут-значение на столбец, а для операций поиска — **position** (первый, случайный; по умолчанию 1), **TDQL query** и **sort**.
 
 :::caution
-Модули образуют **поток**: каждый шаг передаёт предоставленный элемент в памяти следующему. `Update Item`, `Move Item to Type` и `Delete Item` падают с ошибкой *no available test data was found*, если до них ничего не предоставлено или фильтр поиска ничего не нашёл. Запускайте шаги вместе, а не по отдельности.
+Module образуют **поток**: каждый шаг передаёт предоставленный элемент в памяти следующему. `Update Item`, `Move Item to Type` и `Delete Item` падают с ошибкой *no available test data was found*, если до них ничего не предоставлено или фильтр поиска ничего не нашёл. Запускайте шаги вместе, а не по отдельности.
 :::
 
 ## Шаг 1: создать элемент
 
 Добавьте **Create and Provide New Item**, задайте тип (`Vehicle`), затем добавьте атрибуты и значения в data structure: `Make` = `BMW`, `Engine`, `DOM` = `01/01/2014`, `Seats` = `4`, `FuelType`, `Price`, `Mileage` = `1000` — по полям формы автомобиля. Добавьте и пользовательский атрибут **`Status`** = `new`: это поле отслеживает, использован ли уже элемент.
 
-Запустите в ScratchBook. В логе ничего особенного; проверяйте, обновив тип на странице сервера, где появляется новая строка. Смена типа на `Automo` и марки на `Audi` с повторным запуском добавляет строку уже в тот тип, так что один модуль и создаёт типы, и наполняет существующие.
+Запустите в ScratchBook. В логе ничего особенного; проверяйте, обновив тип на странице сервера, где появляется новая строка. Смена типа на `Automo` и марки на `Audi` с повторным запуском добавляет строку уже в тот тип, так что один Module и создаёт типы, и наполняет существующие.
 
 ## Шаг 2: найти элемент
 
@@ -64,7 +64,7 @@ Test Data Services задуманы для управления из TestCase, �
 
 ## Expert Module
 
-**Expert Module** содержит папку *Test Data Task* с create, find, update, delete и дополнительно **assign read-only**, **delete type**, **delete all** (не рекомендуется: удаляет всё), **lock item / unlock item**, **lock type / unlock type**. Принимает те же входы (тип, position, data structure или query, sort). Используйте его, если предпочитаете один модуль для всех задач или нужны дополнительные.
+**Expert Module** содержит папку *Test Data Task* с create, find, update, delete и дополнительно **assign read-only**, **delete type**, **delete all** (не рекомендуется: удаляет всё), **lock item / unlock item**, **lock type / unlock type**. Принимает те же входы (тип, position, data structure или query, sort). Используйте его, если предпочитаете один Module для всех задач или нужны дополнительные.
 
 ## Данные TDS в реальном TestCase
 

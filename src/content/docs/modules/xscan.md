@@ -60,7 +60,7 @@ Fixing a non-unique control is a topic of its own: tick more technical propertie
 1. Rename each control to a logical name (`Search box`, `Search button`) instead of the technical default. Names carry over into TestSteps and make TestCases readable; see [Naming conventions](/ToscaBase/best-practices/naming-conventions/).
 2. Click **Save** and close XScan. The new Module appears in the folder you scanned into.
 3. Select the Module: its controls are listed in the middle pane, and the **Properties** pane on the right shows each control's technical properties as parameters (see [Module properties and parameters](/ToscaBase/modules/module-properties-and-parameters/)).
-4. In a multi-user workspace, click **Check in all** so the Module reaches the central repository.
+4. In a multi-user workspace, click **Check In All** so the Module reaches the central repository.
 
 The Module is now ready to be dragged into a TestCase, where each control becomes a TestStepValue; see [TestCase basics](/ToscaBase/test-cases/test-case-basics/).
 

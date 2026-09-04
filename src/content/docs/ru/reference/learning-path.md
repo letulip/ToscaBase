@@ -43,12 +43,12 @@ sidebar:
 ### [Тест-кейсы](/ToscaBase/ru/test-cases/)
 
 17. [Основы TestCase](/ToscaBase/ru/test-cases/test-case-basics/) — Что такое TestCase в Tosca, технические и бизнес-TestCase, как TestStep собираются из Module, и первый сквозной пример с WaitOn, Input и Verify.
-18. [Режимы действия](/ToscaBase/ru/test-cases/action-modes/) — Полный справочник по ActionMode в Tosca - Input, Insert, Verify, Buffer, WaitOn, Select и Constraint - с синтаксисом значений, настройками и рабочими примерами на формах и таблицах.
-19. [Управление потоком](/ToscaBase/ru/test-cases/control-flow/) — Условия If/Then и циклы While и Do-While внутри TestCase - как их создать, что писать в Condition и как свойство Maximum repetitions защищает от бесконечных циклов.
+18. [Режимы действия](/ToscaBase/ru/test-cases/action-modes/) — Полный справочник по ActionMode в Tosca — Input, Insert, Verify, Buffer, WaitOn, Select и Constraint — с синтаксисом значений, настройками и рабочими примерами на формах и таблицах.
+19. [Управление потоком](/ToscaBase/ru/test-cases/control-flow/) — Условия If/Then и циклы While и Do-While внутри TestCase — как их создать, что писать в Condition и как свойство Maximum repetitions защищает от бесконечных циклов.
 20. [Повторения](/ToscaBase/ru/test-cases/repetitions/) — Выполнение TestStep папки фиксированное число раз через свойство Repetition, задаваемое через выбор колонок или свойства папки.
-21. [Сценарии восстановления и очистки](/ToscaBase/ru/test-cases/recovery-and-cleanup-scenarios/) — Как recovery engine Tosca повторяет упавший TestCase - включение восстановления глобально или на папке, создание Recovery Scenario Collection, настройка Retry level и добавление Cleanup Scenario на случай, если само восстановление упадёт.
-22. [Рекордер](/ToscaBase/ru/test-cases/recorder/) — Запишите действия в приложении, и Tosca автоматически сгенерирует Module и TestCase - панель рекордера, режим верификации, настройки, что генерируется и что придётся доработать.
-23. [Исследовательское тестирование](/ToscaBase/ru/test-cases/exploratory-testing/) — Поддержка исследовательского тестирования в Tosca - explorative session, запись взаимодействия через Explorative Scenario Manager и экспорт документа сценария со скриншотами в PDF или DOCX.
+21. [Сценарии восстановления и очистки](/ToscaBase/ru/test-cases/recovery-and-cleanup-scenarios/) — Как recovery engine Tosca повторяет упавший TestCase — включение восстановления глобально или на папке, создание Recovery Scenario Collection, настройка Retry level и добавление Cleanup Scenario на случай, если само восстановление упадёт.
+22. [Рекордер](/ToscaBase/ru/test-cases/recorder/) — Запишите действия в приложении, и Tosca автоматически сгенерирует Module и TestCase — панель рекордера, режим верификации, настройки, что генерируется и что придётся доработать.
+23. [Исследовательское тестирование](/ToscaBase/ru/test-cases/exploratory-testing/) — Поддержка исследовательского тестирования в Tosca — explorative session, запись взаимодействия через Explorative Scenario Manager и экспорт документа сценария со скриншотами в PDF или DOCX.
 
 ## Уровень 2 · Построение тестов
 
@@ -68,7 +68,7 @@ sidebar:
 7. [Операции с файлами и папками](/ToscaBase/ru/standard-modules/file-and-folder-operations/) — Стандартные модули TBox для создания, копирования, сравнения и удаления файлов и папок, а также для проверки существования папки.
 8. [Операции с буферами](/ToscaBase/ru/standard-modules/buffer-operations/) — Четыре модуля TBox для буферов (Set Buffer, Partial Buffer, Name to Buffer, Delete Buffer) и их применение для извлечения значения, например номера заказа.
 9. [Запуск и закрытие программ](/ToscaBase/ru/standard-modules/start-and-close-programs/) — TBox Start Program для запуска приложений с аргументами, закрытия их через taskkill, очистки кэша Chrome через cmd, а также TBox Start/Stop Timer для измерения длительности шагов.
-10. [Evaluation tool](/ToscaBase/ru/standard-modules/evaluation-tool/) — TBox Evaluation Tool сравнивает два динамических выражения (буферы, Configuration Parameters, литералы) с результатом true/false; используется для верификаций и как условие If, операнды в кавычках.
+10. [TBox Evaluation Tool](/ToscaBase/ru/standard-modules/evaluation-tool/) — TBox Evaluation Tool сравнивает два динамических выражения (буферы, Configuration Parameters, литералы) с результатом true/false; используется для верификаций и как условие If, операнды в кавычках.
 11. [Скриншоты при сбое](/ToscaBase/ru/standard-modules/screenshots-on-failure/) — Снимок экрана на любом TestStep через TBox Take Screenshot и автоматический скриншот при каждой неудачной верификации через настройки проекта.
 12. [Операции с окнами](/ToscaBase/ru/standard-modules/window-operations/) — TBox Window Operation (на передний план, развернуть, свернуть, закрыть, ждать открытия) и TBox Scroll Window Operation, включая закрытие всплывающего окна без его сканирования.
 13. [Диалоги рабочего стола](/ToscaBase/ru/standard-modules/desktop-dialogs/) — Автоматизация диалога Windows «Save As» модулем TBox Save As, включая всплывающее окно подтверждения после нажатия Save.
@@ -109,15 +109,15 @@ sidebar:
 
 ### [Движки](/ToscaBase/ru/engines/)
 
-1. [Excel engine](/ToscaBase/ru/engines/excel-engine/) — Сравнение двух книг модулем Excel 1:1 File Compare и создание, заполнение, проверка и чтение листов Excel стандартными модулями TBox Excel - открытие, лист, диапазон, манипуляция, закрытие, число строк и столбцов.
-2. [PDF engine](/ToscaBase/ru/engines/pdf-engine/) — Сравнение двух PDF модулем 1:1 Compare, сканирование текста, картинок и таблиц через PDF Scan и подсчёт страниц PDF без номеров страниц.
-3. [XML engine](/ToscaBase/ru/engines/xml-engine/) — Открытие, создание и проверка XML-файлов модулями XML engine, составление XPath, сканирование XML-файла в Module и извлечение значений из XML в буферы и веб-формы.
-4. [UIA engine и десктопные контролы](/ToscaBase/ru/engines/uia-engine-and-desktop/) — Что делать, когда Application scan не видит контролы - сменить движок XScan (WinX, UIA, Vision AI), добавить generic list item в combo box и закрыть JavaScript alert.
+1. [Движок Excel](/ToscaBase/ru/engines/excel-engine/) — Сравнение двух книг модулем Excel 1:1 File Compare и создание, заполнение, проверка и чтение листов Excel стандартными модулями TBox Excel — открытие, лист, диапазон, манипуляция, закрытие, число строк и столбцов.
+2. [Движок PDF](/ToscaBase/ru/engines/pdf-engine/) — Сравнение двух PDF модулем 1:1 Compare, сканирование текста, картинок и таблиц через PDF Scan и подсчёт страниц PDF без номеров страниц.
+3. [Движок XML](/ToscaBase/ru/engines/xml-engine/) — Открытие, создание и проверка XML-файлов модулями XML engine, составление XPath, сканирование XML-файла в Module и извлечение значений из XML в буферы и веб-формы.
+4. [UIA engine и десктопные контролы](/ToscaBase/ru/engines/uia-engine-and-desktop/) — Что делать, когда Application scan не видит контролы — сменить движок XScan (WinX, UIA, Vision AI), добавить generic list item в combo box и закрыть JavaScript alert.
 
 ### [Тестирование API](/ToscaBase/ru/api-testing/)
 
 5. [Основы API Scan](/ToscaBase/ru/api-testing/api-scan-basics/) — Зачем тестировать API в Tosca, как запустить Tosca API Scan, отправить запрос вручную и отсканировать определение Swagger, OpenAPI, WSDL или WADL в готовые сообщения.
-6. [API TestCases](/ToscaBase/ru/api-testing/api-test-cases/) — Экспорт сообщений из API Scan в Tosca Commander, добавление ModuleAttribute для кодов состояния и полей payload, верификация ответов, буферизация значений для цепочки запросов и запуск API TestCase из ExecutionList.
+6. [TestCase для API](/ToscaBase/ru/api-testing/api-test-cases/) — Экспорт сообщений из API Scan в Tosca Commander, добавление ModuleAttribute для кодов состояния и полей payload, верификация ответов, буферизация значений для цепочки запросов и запуск API TestCase из ExecutionList.
 7. [Аутентификация API](/ToscaBase/ru/api-testing/api-authentication/) — Авторизация API-запросов в Tosca API Scan с Basic и Digest аутентификацией, чем Digest отличается внутри, и куда попадают токены и учётные данные при сканировании.
 8. [Структура сообщений, SOAP и вложения](/ToscaBase/ru/api-testing/api-message-structure-and-soap/) — Инструменты Validate, Pretty Print, Word Wrap и Search in payload в API Scan, сканирование и верификация SOAP-сервиса, отправка файла как вложения.
 9. [Message Recorder](/ToscaBase/ru/api-testing/api-message-recorder/) — Захват HTTP-трафика между приложением и его бэкендом с помощью Message Recorder в API Scan, разбор вызовов и экспорт их как API-сообщений для построения TestCase.
@@ -132,7 +132,7 @@ sidebar:
 ### [Лучшие практики](/ToscaBase/ru/best-practices/)
 
 14. [Соглашения об именовании](/ToscaBase/ru/best-practices/naming-conventions/) — Почему единообразные имена Module, TestCase, папок и TestStep решают, останется ли проект Tosca поддерживаемым, с примером «до и после».
-15. [Структура TestCase](/ToscaBase/ru/best-practices/test-case-structure/) — Четыре структурных правила поддерживаемого TestCase - всегда что-то проверять, группировать TestStep в папки, предпочитать Repetition и Constraint циклам и поддерживать актуальный Workstate.
+15. [Структура TestCase](/ToscaBase/ru/best-practices/test-case-structure/) — Четыре структурных правила поддерживаемого TestCase — всегда что-то проверять, группировать TestStep в папки, предпочитать Repetition и Constraint циклам и поддерживать актуальный Workstate.
 16. [Гигиена Module](/ToscaBase/ru/best-practices/module-hygiene/) — Держите Module небольшими и разбитыми по функциональности и регулярно сливайте дубликаты, чтобы беречь размер workspace и скорость выполнения.
 17. [Синхронизация вместо ожиданий](/ToscaBase/ru/best-practices/synchronisation-not-waits/) — Замените статические шаги TBox Wait на ActionMode WaitOn и откажитесь от методов мыши и клавиатуры в значениях TestStep; пример с индикатором прогресса Calculate / Send разобран в обоих вариантах.
 18. [Процесс ревью](/ToscaBase/ru/best-practices/review-process/) — Рабочий процесс ревью на папках с тремя стадиями утверждения и принципом «четырёх глаз» для Module, TestCase и других артефактов Tosca.
@@ -152,7 +152,7 @@ sidebar:
 ### [Администрирование](/ToscaBase/ru/administration/)
 
 1. [Многопользовательские workspace](/ToscaBase/ru/administration/multi-user-workspaces/) — Создайте многопользовательский workspace на общем репозитории (SQLite для практики, Oracle, MS SQL Server или DB2 для проектов), работайте через Update All, Checkout, Checkout Tree и Check In All, смотрите и отзывайте чужой checkout.
-2. [Пользователи и группы](/ToscaBase/ru/administration/users-and-groups/) — Создавайте пользователей и группы в многопользовательском workspace, задавайте и меняйте пароли, выдавайте роль Admins, ограничивайте разделы через owning и viewing group, отключайте пользователей и читайте personal data report.
+2. [Пользователи и группы](/ToscaBase/ru/administration/users-and-groups/) — Создавайте пользователей и группы в многопользовательском workspace, задавайте и меняйте пароли, выдавайте роль Admins, ограничивайте разделы через группы owning и viewing, отключайте пользователей и читайте personal data report.
 3. [Ветки](/ToscaBase/ru/administration/branches/) — Создайте ветку многопользовательского репозитория, работайте в ней в отдельном workspace, слейте обратно в Master и удалите — по Git-подобному workflow.
 4. [Резервное копирование и восстановление](/ToscaBase/ru/administration/backup-and-restore/) — Сохраните однопользовательский проект через Export subset, сделайте резервную копию общего репозитория многопользовательского проекта как администратор и восстановите её в новый репозиторий.
 5. [Версионирование и восстановление объектов](/ToscaBase/ru/administration/versioning-and-recovery/) — Управляйте историей версий многопользовательского репозитория, читайте историю изменений проекта или дерева и восстанавливайте удалённый TestCase через Export subset for revision.

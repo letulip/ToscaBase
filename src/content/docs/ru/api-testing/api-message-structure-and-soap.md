@@ -19,7 +19,7 @@ sources:
     at: "00:07"
 ---
 
-Помимо отправки и сканирования, в API Scan есть секция **Message** с инструментами проверки и приведения в порядок payload; SOAP-сервисы с XML-телами он обрабатывает так же, как REST; и он умеет прикреплять файлы к запросу. Документ покрывает эти три возможности. Само сканирование — в [Основах API Scan](/ToscaBase/ru/api-testing/api-scan-basics/); построение TestCase из сообщений — в [API TestCases](/ToscaBase/ru/api-testing/api-test-cases/).
+Помимо отправки и сканирования, в API Scan есть секция **Message** с инструментами проверки и приведения в порядок payload; SOAP-сервисы с XML-телами он обрабатывает так же, как REST; и он умеет прикреплять файлы к запросу. Документ покрывает эти три возможности. Само сканирование — в [Основах API Scan](/ToscaBase/ru/api-testing/api-scan-basics/); построение TestCase из сообщений — в [TestCase для API](/ToscaBase/ru/api-testing/api-test-cases/).
 
 ## Инструменты payload в секции Message
 
@@ -49,7 +49,7 @@ SOAP API используют XML вместо JSON и для запроса, и
 
 ### Верификация SOAP-вычисления через Configuration Parameters
 
-Источник экспортирует сообщение `Add` из standalone API Scan как subset, импортирует его в папку компонента `SOAP API testing` (механизм описан в [API TestCases](/ToscaBase/ru/api-testing/api-test-cases/)), затем:
+Источник экспортирует сообщение `Add` из standalone API Scan как subset, импортирует его в папку компонента `SOAP API testing` (механизм описан в [TestCase для API](/ToscaBase/ru/api-testing/api-test-cases/)), затем:
 
 1. В Module запроса добавьте оба узла-операнда как ModuleAttribute; в Module ответа — **код состояния** и узел **result**.
 2. В TestCase верифицируйте код состояния как `200`.

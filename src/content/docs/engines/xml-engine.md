@@ -75,7 +75,7 @@ TestSteps, in order:
 4. **Search the book**. Add the scanned XML Module with the same resource `Books`. On the `title` node set ActionMode `Constraint` with the value `Testing Computer Software`; the constraint filters the tree down to that book. On the `isbn` node of the same book set ActionMode `Buffer` with buffer name `BookISBN`.
 5. **Enter the result**. Add the web Module again and input `{B[BookISBN]}` into the ISBN text field.
 
-Set the workstate to completed, refresh the page and run the whole TestCase: the link is clicked, the XML is buffered and written to `books.xml`, the file is opened and searched, and the ISBN lands in the text field. Compare it with the file to confirm.
+Set the Workstate to completed, refresh the page and run the whole TestCase: the link is clicked, the XML is buffered and written to `books.xml`, the file is opened and searched, and the ISBN lands in the text field. Compare it with the file to confirm.
 
 :::tip
 The pattern "buffer, write to file, scan the file, constrain, buffer" is reusable for any data an application shows only as raw text.
@@ -91,7 +91,7 @@ Obstacle 28 is the simpler cousin of the previous example. A `catalog` link down
 4. Second step: the scanned XML Module with resource `catalog`. On the `name` node set ActionMode `Constraint` with `Sue`, so only that entry is selected. On `prefix` set ActionMode `Buffer` with buffer name `pre`, on `number` ActionMode `Buffer` with `num`.
 5. Third step: the text-box Module, input `{B[pre]}{B[num]}`. Two buffers written one after the other concatenate the values.
 
-Set the workstate to completed and run: the text box receives the prefix and number together.
+Set the Workstate to completed and run: the text box receives the prefix and number together.
 
 :::note
 The transcript of this lesson is a machine translation with damaged terms (the tool is called "TSA", obstacles are "bans"). The node names above follow the speaker's description; check them against your own file.

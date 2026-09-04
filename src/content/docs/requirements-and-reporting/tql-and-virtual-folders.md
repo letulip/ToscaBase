@@ -58,7 +58,7 @@ A virtual folder owns no objects. It holds only a TQL query, and its content is 
 2. Right-click the folder **> Create Virtual Folder**. Rename it; with several virtual folders an explicit name matters.
 3. Open the folder's **Properties** and enter the TQL query. Example from the `TestCases` folder: `SubParts`, object type `TestCase`, constraint `CreatedBy=="Admin"`. Click **OK** and the folder fills with every TestCase created by that user.
 
-Extend the constraint to filter by creation date, by workstate (completed or not), by whether the TestCase is a template, and so on. Which user created how many TestCases is a ready-made report for management.
+Extend the constraint to filter by creation date, by Workstate (completed or not), by whether the TestCase is a template, and so on. Which user created how many TestCases is a ready-made report for management.
 
 ### Use one
 

@@ -37,7 +37,7 @@ sources:
 
 Web tables are where most real-world steering problems live: rows change position between page loads, the number of rows is unknown, what looks like a table is a pile of `div` elements, or a control sits inside a cell but XScan placed it outside the row. The obstacles below are solved with a small toolset: the `Constraint` ActionMode to pick a row, the `Buffer` ActionMode to read a cell, the properties `RowCount`, `ColumnCount` and `ResultCount`, row selectors such as `$last`, the dynamic buffer `{XB[...]}`, and embedded controls inside the row. Concepts are in [Table controls](/ToscaBase/modules/table-controls/) and [ActionModes](/ToscaBase/test-cases/action-modes/).
 
-Each obstacle follows the same routine: scan a Module under an *Obstacles* folder, create a TestCase named after the obstacle, drag the Module in, set the workstate to *Completed*, run in ScratchBook.
+Each obstacle follows the same routine: scan a Module under an *Obstacles* folder, create a TestCase named after the obstacle, drag the Module in, set the Workstate to *Completed*, run in ScratchBook.
 
 ## Not a table (obstacle 3)
 

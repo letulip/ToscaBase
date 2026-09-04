@@ -35,7 +35,7 @@ The feature that defines Tosca. For every unit-level functionality or screen of 
 | Risk-based testing | Requirements carry a risk weighting; Tosca picks the subset of the suite that minimises risk and measures risk coverage from execution results. See [Requirements and risk](/ToscaBase/requirements-and-reporting/requirements-and-risk/) |
 | Distributed execution | Runs are spread over several machines and scheduled unattended. See [Distributed execution](/ToscaBase/execution/distributed-execution-dex/) |
 | CI/CD integration | Jenkins, Azure DevOps, Jira and similar tools. See [CI integration](/ToscaBase/execution/ci-integration-jenkins/) |
-| Dynamic test data | TCD (test case design), TDM (test data management) and TDS (test data service); test data can live in Tosca's own database or an external one |
+| Dynamic test data | TCD (TestCase-Design), TDM (test data management) and TDS (test data service); test data can live in Tosca's own database or an external one |
 | Recording | Test scenarios are recorded and turned into TestCases in one action. See [Recorder](/ToscaBase/test-cases/recorder/) |
 | API testing | Components exposed through APIs are tested before the UI exists. See [API testing](/ToscaBase/api-testing/) |
 | Service virtualisation | Dependent systems that are unavailable during execution are emulated so the run can proceed |

@@ -1,5 +1,5 @@
 ---
-title: Tosca Execution Client
+title: Tosca Execution Client (клиент выполнения)
 description: Запуск DEX TestEvent из командной строки или CI/CD-конвейера скриптом Tosca Execution Client (PowerShell/shell) и вызов его из Jenkins.
 level: 2
 sidebar:

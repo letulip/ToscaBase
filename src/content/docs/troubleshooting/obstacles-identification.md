@@ -77,7 +77,7 @@ Parents and neighbours often carry the property the element lacks.
 
 **Solution.**
 
-1. In the Module attribute, replace the changing numeric part of the `id` with `*`, keeping the constant prefix (`rd_*`). The wildcard matches whatever digits appear.
+1. In the ModuleAttribute, replace the changing numeric part of the `id` with `*`, keeping the constant prefix (`rd_*`). The wildcard matches whatever digits appear.
 2. Drag the Module into the TestCase twice (*Click once*, *Click twice*), each with the value `X`.
 
 :::note
@@ -88,7 +88,7 @@ The speaker calls `*` a regular expression; in Tosca property values it is a wil
 
 **Problem.** A multi-select list box lists testing methods. Four of them (*Functional testing*, *GUI testing*, *End-to-End testing*, *Exploratory testing*) must be selected.
 
-**Cause.** By default a Module attribute can be used once per TestStep (cardinality `0-1`), and its name is fixed in the Module, so one scanned list item cannot address four different entries.
+**Cause.** By default a ModuleAttribute can be used once per TestStep (cardinality `0-1`), and its name is fixed in the Module, so one scanned list item cannot address four different entries.
 
 **Solution.** Scan only the list box and **one** list item; all items share the same properties, only their names differ. On the item attribute set **cardinality** to `0-n` and add the Configuration Parameter `ExplicitName = True`, so that the attribute can be used any number of times and the name given in the TestStep decides which item is steered (mechanism: [Control identification](/ToscaBase/modules/control-identification/#choosing-from-the-testcase-explicitname)).
 

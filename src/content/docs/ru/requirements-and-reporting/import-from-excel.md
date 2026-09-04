@@ -15,7 +15,7 @@ sources:
 
 ## Пример структуры
 
-В уроке используется демо-приложение страхования автомобилей и рекомендуемая схема pre-processing / process / post-processing (см. [Структура тест-кейсов](/ToscaBase/ru/best-practices/test-case-structure/)):
+В уроке используется демо-приложение страхования автомобилей и рекомендуемая схема pre-processing / process / post-processing (см. [Структура TestCase](/ToscaBase/ru/best-practices/test-case-structure/)):
 
 ```
 Vehicle Insurance Offer
@@ -63,4 +63,4 @@ Vehicle Insurance Offer
 
 - Миграция реестра тестов, который до Tosca вёлся в Excel.
 - Быстрое создание скелета папок нового проекта из тест-плана.
-- Импорт согласованной с бизнесом структуры в стиле требований, которую затем наполняют тест-кейсами и привязывают к [требованиям](/ToscaBase/ru/requirements-and-reporting/requirements-and-risk/).
+- Импорт согласованной с бизнесом структуры в стиле требований, которую затем наполняют TestCase и привязывают к [требованиям](/ToscaBase/ru/requirements-and-reporting/requirements-and-risk/).

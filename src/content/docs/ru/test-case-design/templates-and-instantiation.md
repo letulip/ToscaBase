@@ -32,7 +32,7 @@ sources:
 ## Преобразование TestCase в шаблон
 
 1. Постройте TestCase как обычно. Пример урока 55, `Validate login`, состоит из четырёх шагов: открыть URL (берётся из Test Configuration Parameter), `Login user` (имя, пароль, кнопка входа), `Validate error message` (поле ошибки в ActionMode `Verify`) и `TBox Window Operation`, закрывающий браузер.
-2. В многопользовательском рабочем пространстве сделайте check-out TestCase.
+2. В многопользовательском workspace возьмите TestCase на check-out (взятие на редактирование).
 3. Правой кнопкой по TestCase **> Convert to Template**. Символ `T` на иконке помечает шаблон. Шаблон нельзя выполнить; он существует для генерации TestCase.
 
 Правой кнопкой **> Convert to TestCase** превращает шаблон обратно в обычный TestCase.

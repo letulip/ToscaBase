@@ -18,7 +18,7 @@ This walkthrough completes the *Vehicle Insurance* sample application end to end
 Inside the *Vehicle Insurance* component folder there are already:
 
 - Modules for every page (see [Modules overview](/ToscaBase/modules/modules-overview/)).
-- A TestCase design (TestSheet) with the vehicle and product data ([TestSheets and attributes](/ToscaBase/test-case-design/test-sheets-and-attributes/)).
+- A TestCase-Design (TestSheet) with the vehicle and product data ([TestSheets and attributes](/ToscaBase/test-case-design/test-sheets-and-attributes/)).
 - A template with pre-processing and post-processing steps ([Templates and instantiation](/ToscaBase/test-case-design/templates-and-instantiation/)).
 - Four instances: one straight-through case, two valid cases with different data, one invalid case; one of them already has verification points.
 - Requirements linked to the cases ([Requirements and risk](/ToscaBase/requirements-and-reporting/requirements-and-risk/)).
@@ -82,7 +82,7 @@ This is the core pattern: the template holds every branch, conditions on folders
 
 ## Practices the project relies on
 
-- One **component folder** per project holding Modules, TestCases, TestCase design, requirements and ExecutionLists; several component folders for several projects ([Test case structure](/ToscaBase/best-practices/test-case-structure/)).
+- One **component folder** per project holding Modules, TestCases, TestCase-Design, requirements and ExecutionLists; several component folders for several projects ([Test case structure](/ToscaBase/best-practices/test-case-structure/)).
 - **Naming conventions** for Modules, TestCases and TestSteps ([Naming conventions](/ToscaBase/best-practices/naming-conventions/)).
 - **No constants** in TestCases: parameterise through the TestSheet or Test Configuration Parameters ([Test configuration parameters](/ToscaBase/data-and-parameters/test-configuration-parameters/)).
 - **Conditions** on template folders so that each instance is a distinct scenario, not the same scenario with different labels.

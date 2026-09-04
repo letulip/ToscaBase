@@ -75,7 +75,7 @@ A `GET` or `DELETE` by ID needs the ID the `POST` returned. Chain the requests t
 1. In the response Module of the `POST`, add `id` as a ModuleAttribute.
 2. In the `POST` TestCase, set its ActionMode to `Buffer` and enter the buffer name as the value, for example `B_pet_ID`.
 3. In the `GET` and `DELETE` request Modules, add the path parameter `petId` (and, for `DELETE`, the `api_key` header) as ModuleAttributes.
-4. In those TestCases set `petId` to `{B[B_pet_ID]}`. A constant such as the API key can stay literal or become a Configuration Parameter (see [Test Configuration Parameters](/ToscaBase/data-and-parameters/test-configuration-parameters/)).
+4. In those TestCases set `petId` to `{B[B_pet_ID]}`. A constant such as the API key can stay literal or become a Test Configuration Parameter (see [Test Configuration Parameters](/ToscaBase/data-and-parameters/test-configuration-parameters/)).
 
 Run the `POST` in ScratchBook: the log shows the returned ID stored in `B_pet_ID`, and the following requests use it. Add a status code verification to the `GET` and `DELETE` responses as well.
 

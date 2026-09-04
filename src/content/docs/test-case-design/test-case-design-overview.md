@@ -59,7 +59,7 @@ The Part 10 tutorial also lists "steps" (a TestSheet "may have TestSteps", "a st
 A complete pass over the *Vehicle Insurance* sample is in [Worked example: end to end](/ToscaBase/test-case-design/worked-example-end-to-end/).
 
 :::tip
-The TestCase-Design section can be opened as a floating window on top of the TestCases section. That makes dragging a TestSheet onto a template, or an attribute into a TestStep value, a single movement instead of a switch between sections.
+The TestCase-Design section can be opened as a floating window on top of the TestCases section. That makes dragging a TestSheet onto a template, or an attribute into a TestStepValue, a single movement instead of a switch between sections.
 :::
 
 ## Advantages and costs

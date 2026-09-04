@@ -31,7 +31,7 @@ A **Buffer** is Tosca's variable: a named value that a TestStep writes during ex
 
 There are three ways to write a buffer:
 
-1. **ActionMode `Buffer` on any TestStepValue.** Set the ActionMode of a ModuleAttribute to `Buffer` and enter the buffer name as the value. At run time Tosca reads the control's current value (for a text element, its inner text) and stores it under that name. This is how you capture what the application shows. See [Action modes](/ToscaBase/test-cases/action-modes/).
+1. **ActionMode `Buffer` on any TestStepValue.** Set the ActionMode of a ModuleAttribute to `Buffer` and enter the buffer name as the value. At run time Tosca reads the control's current value (for a text element, its inner text) and stores it under that name. This is how you capture what the application shows. See [ActionModes](/ToscaBase/test-cases/action-modes/).
 2. **`TBox Set Buffer`** and the other buffer Standard Modules, when the value is known in the TestCase (a literal, an expression, another buffer or a Test Configuration Parameter). The four Modules, `Set Buffer`, `Partial Buffer`, `Name to Buffer` and `Delete Buffer`, are documented in [Buffer operations](/ToscaBase/standard-modules/buffer-operations/).
 3. **A dynamic XBuffer inside a `Verify` step**, described below, when only part of a text is interesting.
 
@@ -84,5 +84,5 @@ Use the Buffer Viewer after a ScratchBook run to confirm what a step actually ca
 ## Related
 
 - [Buffer operations](/ToscaBase/standard-modules/buffer-operations/): `TBox Set Buffer`, `Partial Buffer`, `Name to Buffer`, `Delete Buffer` with a worked example
-- [Action modes](/ToscaBase/test-cases/action-modes/): the `Buffer` and `Verify` ActionModes
+- [ActionModes](/ToscaBase/test-cases/action-modes/): the `Buffer` and `Verify` ActionModes
 - [String operations](/ToscaBase/expressions/string-operations/): trimming and cutting buffered text

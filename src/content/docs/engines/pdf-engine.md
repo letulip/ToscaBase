@@ -99,7 +99,7 @@ Some PDFs have no page number in the header or footer, so there is no element to
 4. Create a TestCase, add the Module and set `Target PDF`.
 5. On the document-level element choose ActionMode `Buffer` with a buffer name such as `PageCount`.
 6. On the text control (`PDF Area 1`) verify the value `*`, which matches any text on any page.
-7. Set the workstate to completed and run in the ScratchBook. Execution takes longer for long documents because Tosca visits every page.
+7. Set the Workstate to completed and run in the ScratchBook. Execution takes longer for long documents because Tosca visits every page.
 
 The log shows the buffer being set to 1, 2, 3 ... and finally to the last page number (57 in the video); the verification succeeds because `*` is always true. Check the final value under **Tools > Buffer Viewer** or verify it in a later TestStep.
 

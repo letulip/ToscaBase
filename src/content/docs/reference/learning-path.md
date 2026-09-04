@@ -43,16 +43,16 @@ After this level you can install Tosca, create a workspace, scan an application 
 ### [Test cases](/ToscaBase/test-cases/)
 
 17. [TestCase basics](/ToscaBase/test-cases/test-case-basics/) — What a Tosca TestCase is, technical versus business TestCases, how TestSteps are built from Modules, and a first end-to-end example with WaitOn, Input and Verify.
-18. [Action modes](/ToscaBase/test-cases/action-modes/) — Complete reference for the Tosca ActionModes - Input, Insert, Verify, Buffer, WaitOn, Select and Constraint - with value syntax, settings, and worked examples on forms and tables.
+18. [ActionModes](/ToscaBase/test-cases/action-modes/) — Complete reference for the Tosca ActionModes - Input, Insert, Verify, Buffer, WaitOn, Select and Constraint - with value syntax, settings, and worked examples on forms and tables.
 19. [Control flow](/ToscaBase/test-cases/control-flow/) — If/Then conditions and While and Do-While loops inside a TestCase - how to create them, what goes in the Condition, and how the Maximum repetitions property prevents infinite loops.
 20. [Repetitions](/ToscaBase/test-cases/repetitions/) — Run the TestSteps in a folder a fixed number of times with the Repetition property, set either through the column chooser or the folder's properties.
-21. [Recovery and cleanup scenarios](/ToscaBase/test-cases/recovery-and-cleanup-scenarios/) — How the Tosca recovery engine retries a failed TestCase - enabling recovery globally or per folder, creating a Recovery Scenario Collection, setting the Retry level, and adding a Cleanup Scenario for when recovery itself fails.
+21. [Recovery and Cleanup Scenarios](/ToscaBase/test-cases/recovery-and-cleanup-scenarios/) — How the Tosca recovery engine retries a failed TestCase - enabling recovery globally or per folder, creating a Recovery Scenario Collection, setting the Retry level, and adding a Cleanup Scenario for when recovery itself fails.
 22. [Recorder](/ToscaBase/test-cases/recorder/) — Record your actions on an application and let Tosca generate the Modules and a TestCase automatically - the recorder toolbar, verification mode, settings, what gets generated and what you still have to fix.
 23. [Exploratory testing](/ToscaBase/test-cases/exploratory-testing/) — Tosca's exploratory testing support - explorative sessions, recording an interaction with the Explorative Scenario Manager, and exporting the resulting scenario document with screenshots to PDF or DOCX.
 
 ## Level 2 · Building tests
 
-After this level you can keep test data apart from TestCases with TestCase-Design, use the TBox Standard Modules and dynamic expressions in TestStep values, share values through Buffers, Test Configuration Parameters and reusable TestStepBlocks, and run everything from ExecutionLists, read the results, and automate runs through a scheduler, Jenkins or distributed execution.
+After this level you can keep test data apart from TestCases with TestCase-Design, use the TBox Standard Modules and dynamic expressions in TestStepValues, share values through Buffers, Test Configuration Parameters and reusable TestStepBlocks, and run everything from ExecutionLists, read the results, and automate runs through a scheduler, Jenkins or distributed execution.
 
 ### [Test case design](/ToscaBase/test-case-design/)
 
@@ -68,7 +68,7 @@ After this level you can keep test data apart from TestCases with TestCase-Desig
 7. [File and folder operations](/ToscaBase/standard-modules/file-and-folder-operations/) — TBox Standard Modules for creating, copying, comparing and deleting files and folders, and for checking that a folder exists.
 8. [Buffer operations](/ToscaBase/standard-modules/buffer-operations/) — The four TBox buffer Modules (Set Buffer, Partial Buffer, Name to Buffer, Delete Buffer) and how to use them to extract a value such as an order number.
 9. [Start and close programs](/ToscaBase/standard-modules/start-and-close-programs/) — Use TBox Start Program to launch applications with arguments, close them with taskkill, clear the Chrome cache with cmd, and measure step duration with TBox Start/Stop Timer.
-10. [Evaluation tool](/ToscaBase/standard-modules/evaluation-tool/) — TBox Evaluation Tool compares two dynamic expressions (buffers, Configuration Parameters, literals) with a true/false result; use it for verifications and as an If condition, quoting the operands.
+10. [Evaluation tool](/ToscaBase/standard-modules/evaluation-tool/) — TBox Evaluation Tool compares two dynamic expressions (buffers, Test Configuration Parameters, literals) with a true/false result; use it for verifications and as an If condition, quoting the operands.
 11. [Screenshots on failure](/ToscaBase/standard-modules/screenshots-on-failure/) — Take a screenshot at any TestStep with TBox Take Screenshot, and let Tosca capture one automatically on every failed verification through the project settings.
 12. [Window operations](/ToscaBase/standard-modules/window-operations/) — TBox Window Operation (bring to front, maximise, minimise, close, wait on open) and TBox Scroll Window Operation, including how to close a popup window without scanning it.
 13. [Desktop dialogs](/ToscaBase/standard-modules/desktop-dialogs/) — Automate the Windows Save As dialog with the TBox Save As Module, including the confirmation popup that may follow the Save click.
@@ -85,7 +85,7 @@ After this level you can keep test data apart from TestCases with TestCase-Desig
 
 19. [Buffers](/ToscaBase/data-and-parameters/buffers/) — What a Tosca buffer is, how to create one with the Buffer ActionMode or TBox Set Buffer, read it with {B[name]}, extract dynamic text with the XBuffer {XB[name]}, and inspect or edit buffers in the Buffer Viewer.
 20. [Test Configuration Parameters](/ToscaBase/data-and-parameters/test-configuration-parameters/) — Test Configuration Parameters (TCPs) hold environment and settings data outside the TestSteps; where to define them, the {CP[name]} syntax, system-defined parameters, project-level Configurations, and the Module-level Configuration Parameter ConstraintIndex for identical browser tabs.
-21. [Business Parameters and TestStep libraries](/ToscaBase/data-and-parameters/business-parameters-and-libraries/) — Group TestSteps into TestStepBlocks, move them into a TestStep Library as reusable TestStepBlocks referenced from many TestCases, and pass different data into each reference with Business Parameters.
+21. [Business Parameters and TestStepLibraries](/ToscaBase/data-and-parameters/business-parameters-and-libraries/) — Group TestSteps into TestStepBlocks, move them into a TestStepLibrary as reusable TestStepBlocks referenced from many TestCases, and pass different data into each reference with Business Parameters.
 22. [Test Data Services](/ToscaBase/data-and-parameters/test-data-services/) — Tosca's Test Data Services (TDS) register test data centrally on Tosca Server, track its state across processes and share it between applications; how repositories, types and items work in the web interface and which Test Configuration Parameters a TestCase needs to use them.
 23. [Test Data Service Modules](/ToscaBase/data-and-parameters/test-data-service-modules/) — The Standard Modules that drive Test Data Services from a TestCase (Create and Provide New Item, Find and Provide Item, Update Item, Move Item to Type, Delete Item, Expert Module), the create-find-update flow, reading items with {TDS[type.attribute]}, and generating bulk data with random values and Repetitions.
 
@@ -134,7 +134,7 @@ After this level you can automate Excel, PDF and XML documents and hard-to-scan 
 14. [Naming conventions](/ToscaBase/best-practices/naming-conventions/) — Why consistent names for Modules, TestCases, folders and TestSteps decide whether a Tosca project stays maintainable, with a before-and-after example.
 15. [TestCase structure](/ToscaBase/best-practices/test-case-structure/) — Four structural rules for a maintainable TestCase - always verify something, group TestSteps into folders, prefer Repetitions and Constraints over loops, and keep the Workstate current.
 16. [Module hygiene](/ToscaBase/best-practices/module-hygiene/) — Keep Modules small and categorised by functionality, and merge duplicate Modules regularly, to protect workspace size and execution performance.
-17. [Synchronisation, not waits](/ToscaBase/best-practices/synchronisation-not-waits/) — Replace static TBox Wait steps with the WaitOn ActionMode and avoid mouse and keyboard methods in TestStep values, with the Calculate / Send progress-bar example worked both ways.
+17. [Synchronisation, not waits](/ToscaBase/best-practices/synchronisation-not-waits/) — Replace static TBox Wait steps with the WaitOn ActionMode and avoid mouse and keyboard methods in TestStepValues, with the Calculate / Send progress-bar example worked both ways.
 18. [Review process](/ToscaBase/best-practices/review-process/) — A folder-based review workflow with three approval stages and the four-eyes principle for Modules, TestCases and other Tosca artifacts.
 
 ### [Troubleshooting](/ToscaBase/troubleshooting/)
@@ -147,15 +147,15 @@ After this level you can automate Excel, PDF and XML documents and hard-to-scan 
 
 ## Level 4 · Enterprise
 
-After this level you can set up a multi-user workspace on a common repository, manage users, groups, branches, backups and versioning, let several testers share an ExecutionList through test mandates, drive Commander from the command line, and operate Tosca Server.
+After this level you can set up a multi-user workspace on a common repository, manage users, groups, branches, backups and versioning, let several testers share an ExecutionList through Test mandates, drive Commander from the command line, and operate Tosca Server.
 
 ### [Administration](/ToscaBase/administration/)
 
-1. [Multi-user workspaces](/ToscaBase/administration/multi-user-workspaces/) — Create a multi-user workspace on a shared repository (SQLite for practice, Oracle, MS SQL Server or DB2 for projects), work with Update All, Checkout, Checkout Tree and Check In All, and inspect or revoke another user's checkout.
+1. [Multi-user workspaces](/ToscaBase/administration/multi-user-workspaces/) — Create a multi-user workspace on a shared repository (SQLite for practice, Oracle, MS SQL Server or DB2 for projects), work with Update All, Checkout, Checkout Tree and Check In All, and inspect or revoke another user's check-out.
 2. [Users and groups](/ToscaBase/administration/users-and-groups/) — Create users and user groups in a multi-user workspace, set and change passwords, grant the Admins role, restrict sections with owning and viewing groups, disable users, and read the personal data report.
 3. [Branches](/ToscaBase/administration/branches/) — Create a branch of a multi-user repository, work on it in a separate workspace, merge it back into Master and delete it, following a Git-like workflow.
 4. [Backup and restore](/ToscaBase/administration/backup-and-restore/) — Back up a single-user project with Export subset, back up a multi-user common repository as an administrator, and restore it into a new repository.
 5. [Versioning and recovery](/ToscaBase/administration/versioning-and-recovery/) — Manage the version history of a multi-user repository, read the change history of a project or a tree, and recover a deleted TestCase with Export subset for revision.
-6. [Test mandates](/ToscaBase/administration/test-mandates/) — Let several users execute the same ExecutionList at the same time without overwriting each other's results by linking it to a test mandate, and clear the auto-merge link when it is no longer needed.
+6. [Test mandates](/ToscaBase/administration/test-mandates/) — Let several users execute the same ExecutionList at the same time without overwriting each other's results by linking it to a Test mandate, and clear the auto-merge link when it is no longer needed.
 7. [Command-line tools](/ToscaBase/administration/command-line-tools/) — Steer Tosca Commander from the command line with TCShell in interactive or script mode to execute ExecutionLists and check in, and clone a workspace for every team member with TCWorkspaceUtil instead of copying it.
 8. [Tosca Server](/ToscaBase/administration/tosca-server/) — What Tosca Server is in the Tosca architecture, how to download and install it with matching Commander version, which services it runs, how to restart them, and what the dashboard and DEX monitor show.

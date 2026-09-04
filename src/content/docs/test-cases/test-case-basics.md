@@ -11,7 +11,7 @@ sources:
     at: "01:15"
 ---
 
-A TestCase is a set of instructions that walks through the application and verifies the result. It is written from the software requirements and can be manual or automated; in Tosca an automated TestCase is assembled from Modules (standard and user-defined) plus the test data those Modules need. This page covers the object itself: the two kinds of TestCase, how TestSteps come from Modules, and a complete first example. Which ActionMode to use on each value is the subject of [Action modes](/ToscaBase/test-cases/action-modes/).
+A TestCase is a set of instructions that walks through the application and verifies the result. It is written from the software requirements and can be manual or automated; in Tosca an automated TestCase is assembled from Modules (standard and user-defined) plus the test data those Modules need. This page covers the object itself: the two kinds of TestCase, how TestSteps come from Modules, and a complete first example. Which ActionMode to use on each value is the subject of [ActionModes](/ToscaBase/test-cases/action-modes/).
 
 ## Technical and business TestCases
 
@@ -58,7 +58,7 @@ Every TestStepValue carries an ActionMode that tells Tosca what to do with the v
 - `Select` navigates hierarchy levels to reach child items, typically table rows and cells.
 - `Constraint` restricts a search to items with a particular value, mostly in table columns.
 
-The full reference, with syntax and examples for each, is [Action modes](/ToscaBase/test-cases/action-modes/).
+The full reference, with syntax and examples for each, is [ActionModes](/ToscaBase/test-cases/action-modes/).
 
 ## Worked example: Google search
 
@@ -85,6 +85,6 @@ The TestCase is now ready to run from an [ExecutionList](/ToscaBase/execution/ex
 
 ## Where to go next
 
-- [Action modes](/ToscaBase/test-cases/action-modes/) for each ActionMode in depth.
+- [ActionModes](/ToscaBase/test-cases/action-modes/) for each ActionMode in depth.
 - [TestCase structure](/ToscaBase/best-practices/test-case-structure/) for folders, verification points and Workstate.
 - [Business parameters and libraries](/ToscaBase/data-and-parameters/business-parameters-and-libraries/) for reusing TestSteps across TestCases.

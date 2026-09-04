@@ -1,5 +1,5 @@
 ---
-title: Action modes
+title: ActionModes
 description: Complete reference for the Tosca ActionModes - Input, Insert, Verify, Buffer, WaitOn, Select and Constraint - with value syntax and settings, and links to the worked examples.
 level: 1
 sidebar:

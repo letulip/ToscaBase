@@ -23,7 +23,7 @@ sources:
     at: "01:14"
 ---
 
-Four questions that come up repeatedly in real projects and have no obvious module: moving between browser tabs, steering one of two identical tabs, counting every link (or button, or checkbox) on a page, and downloading a file so that it can be verified. The common thread is the fallback rule: when Tosca has no direct method, emulate what a user would do at the keyboard, generalise one Module attribute so it matches many controls, or start an external command-line tool. The Obstacle Course docs ([identification](/ToscaBase/troubleshooting/obstacles-identification/), [tables](/ToscaBase/troubleshooting/obstacles-tables/), [input and clicks](/ToscaBase/troubleshooting/obstacles-input-and-clicks/)) cover the page-level puzzles; this doc covers environment-level ones.
+Four questions that come up repeatedly in real projects and have no obvious module: moving between browser tabs, steering one of two identical tabs, counting every link (or button, or checkbox) on a page, and downloading a file so that it can be verified. The common thread is the fallback rule: when Tosca has no direct method, emulate what a user would do at the keyboard, generalise one ModuleAttribute so it matches many controls, or start an external command-line tool. The Obstacle Course docs ([identification](/ToscaBase/troubleshooting/obstacles-identification/), [tables](/ToscaBase/troubleshooting/obstacles-tables/), [input and clicks](/ToscaBase/troubleshooting/obstacles-input-and-clicks/)) cover the page-level puzzles; this doc covers environment-level ones.
 
 ## Switching between browser tabs
 
@@ -70,7 +70,7 @@ The speaker says the parameter name is "constraint index"; `ConstraintIndex` is 
 
 **Problem.** Verify that a product page shows six products. The product titles are links; a page could show a hundred of them, so scanning each one is not an option.
 
-**Cause.** By default a Module attribute matches exactly one control and can be used once.
+**Cause.** By default a ModuleAttribute matches exactly one control and can be used once.
 
 **Solution.** Make one attribute match all of them and count the matches. Example from the SauceDemo products page:
 

@@ -1,6 +1,6 @@
 ---
 title: UIA engine и десктопные контролы
-description: Что делать, когда Application scan не видит контролы - сменить движок XScan (WinX, UIA, Vision AI), добавить generic list item в combo box и закрыть JavaScript alert.
+description: Что делать, когда Application scan не видит контролы — сменить движок XScan (WinX, UIA, Vision AI), добавить generic list item в combo box и закрыть JavaScript alert.
 level: 3
 sidebar:
   order: 40
@@ -65,4 +65,4 @@ JavaScript `alert()` открывает нативное окно браузер
 
 - [Идентификация контролов](/ToscaBase/ru/modules/control-identification/): идентификация по explicit name.
 - [Obstacles: идентификация](/ToscaBase/ru/troubleshooting/obstacles-identification/): другие случаи, когда Tosca не видит контролы.
-- [Десктопные диалоги](/ToscaBase/ru/standard-modules/desktop-dialogs/): стандартные модули для нативных диалогов.
+- [Десктопные диалоги](/ToscaBase/ru/standard-modules/desktop-dialogs/): стандартные Module для нативных диалогов.

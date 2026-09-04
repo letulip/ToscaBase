@@ -27,17 +27,17 @@ sources:
 
 - отчёты по ExecutionList: **Execution entries with actual log** и **Execution entries with detailed logs**;
 - отчёт по требованиям;
-- отчёт по тест-кейсам.
+- отчёт по TestCase.
 
 Каждый состоит из определения отчёта (оформление) и определения набора данных (какие объекты выбрать).
 
 ### Печать стандартного отчёта
 
-1. Правой кнопкой по ExecutionList, папке ExecutionList, папке тест-кейсов или requirement set **> Print Report**. Предлагаются только определения, подходящие этому типу объекта.
+1. Правой кнопкой по ExecutionList, папке ExecutionList, папке TestCase или requirement set **> Print Report**. Предлагаются только определения, подходящие этому типу объекта.
 2. Выберите определение, например **Execution entries with detailed logs**. Снова откроется диалог печати, но вывод теперь следует определению, а не экрану.
 3. Нажмите **Start**, сохраните файл и ответьте на вопросы: показывать ли только упавшие элементы (ответьте No, чтобы включить всё) и включать ли скриншоты (Yes).
 
-Отчёт содержит шапку с логотипом Tricentis (его можно заменить в разделе Reporting), дату создания, сводку с круговой диаграммой (например, 19 тест-кейсов: 3 passed, 14 no result, 2 failed), затем блок на каждый ExecutionList и запись с каждым TestStep, временем начала и окончания, исполнителем, логом и скриншотом там, где шаг упал. Одинаково работает и для одного [бизнес-тест-кейса](/ToscaBase/ru/execution/execution-repetitions-and-business-test-cases/), и для целой папки [ExecutionList](/ToscaBase/ru/execution/execution-lists/).
+Отчёт содержит шапку с логотипом Tricentis (его можно заменить в разделе Reporting), дату создания, сводку с круговой диаграммой (например, 19 TestCase: 3 passed, 14 no result, 2 failed), затем блок на каждый ExecutionList и запись с каждым TestStep, временем начала и окончания, исполнителем, логом и скриншотом там, где шаг упал. Одинаково работает и для одного [бизнес-TestCase](/ToscaBase/ru/execution/execution-repetitions-and-business-test-cases/), и для целой папки [ExecutionList](/ToscaBase/ru/execution/execution-lists/).
 
 :::note
 В субтитрах первый вопрос звучит как «only field stations»; скорее всего это «only failed TestSteps». Спикер отвечает No.
@@ -57,5 +57,5 @@ sources:
 5. Правой кнопкой по целевому объекту **> Print Report** и выберите своё определение.
 
 :::tip
-Для ExecutionList, папки тест-кейсов или requirement set обычно хватает стандартных определений. Собственное определение стоит делать только при нужной выборке объектов (через TQL или [виртуальную папку](/ToscaBase/ru/requirements-and-reporting/tql-and-virtual-folders/)) или фирменном оформлении.
+Для ExecutionList, папки TestCase или requirement set обычно хватает стандартных определений. Собственное определение стоит делать только при нужной выборке объектов (через TQL или [виртуальную папку](/ToscaBase/ru/requirements-and-reporting/tql-and-virtual-folders/)) или фирменном оформлении.
 :::

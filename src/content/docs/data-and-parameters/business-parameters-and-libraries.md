@@ -1,6 +1,6 @@
 ---
-title: Business Parameters and TestStep libraries
-description: Group TestSteps into TestStepBlocks, move them into a TestStep Library as reusable TestStepBlocks referenced from many TestCases, and pass different data into each reference with Business Parameters.
+title: Business Parameters and TestStepLibraries
+description: Group TestSteps into TestStepBlocks, move them into a TestStepLibrary as reusable TestStepBlocks referenced from many TestCases, and pass different data into each reference with Business Parameters.
 level: 2
 sidebar:
   order: 30
@@ -15,21 +15,21 @@ sources:
     at: "03:10"
 ---
 
-Most suites repeat the same few actions in every TestCase: open the application, log in, create a record, log out. Tosca lets you keep such a sequence once, in a **TestStep Library**, and reference it from any TestCase as a **reusable TestStepBlock**. **Business Parameters** are the inputs of that block, so each reference can run it with its own data. A change to the block is made in one place and every reference follows, which shortens development and, above all, maintenance.
+Most suites repeat the same few actions in every TestCase: open the application, log in, create a record, log out. Tosca lets you keep such a sequence once, in a **TestStepLibrary**, and reference it from any TestCase as a **reusable TestStepBlock**. **Business Parameters** are the inputs of that block, so each reference can run it with its own data. A change to the block is made in one place and every reference follows, which shortens development and, above all, maintenance.
 
 ## The building blocks
 
 | Term | Meaning |
 |---|---|
 | **TestStepBlock** | A folder inside a TestCase that groups TestSteps performing one task (login, logout, create record). It improves readability and reduces maintenance even without a library. |
-| **TestStep Library** | A container for reusable TestStepBlocks. It can be created in any folder of the **TestCases** section, but a folder can hold **only one** library. Its icon is a TestCase folder marked with an **L**. |
+| **TestStepLibrary** | A container for reusable TestStepBlocks. It can be created in any folder of the **TestCases** section, but a folder can hold **only one** library. Its icon is a TestCase folder marked with an **L**. |
 | **Reusable TestStepBlock** | A TestStepBlock that lives inside a library. TestCases do not copy it; they hold a **reference** to it. |
 | **Business Parameter** | A named input of a reusable TestStepBlock. The block uses the parameter instead of a literal, and each reference supplies the value. |
 
 ## Creating a library and a reusable block
 
 1. In a multi-user workspace, check out the parent folder first ([Multi-user workspaces](/ToscaBase/administration/multi-user-workspaces/)).
-2. Right-click the folder and choose **Create TestStep Library** (the entry with the L icon; shortcut **Ctrl+L**).
+2. Right-click the folder and choose **Create TestStepLibrary** (the entry with the L icon; shortcut **Ctrl+L**).
 3. Put a block into the library in one of two ways:
    - **Create it new**: right-click the library, create a reusable TestStepBlock, give it a functional name (`Google Search`, `Login User`) and drag the TestSteps in from an existing TestCase.
    - **Convert an existing block**: drag a TestStepBlock, or the steps themselves, from a TestCase into the library. The steps move into the library and what remains in the TestCase turns into a reference, shown with an arrow icon.

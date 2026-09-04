@@ -47,7 +47,7 @@ SOAP APIs use XML instead of JSON for both request and response, and the request
 
 The only difference from REST is the payload format, so the checks you add are shaped by XML nodes rather than JSON fields. Everything else (export, Modules, TestCases, verifications) is the same.
 
-### Verifying a SOAP calculation with Configuration Parameters
+### Verifying a SOAP calculation with Test Configuration Parameters
 
 The source exports the `Add` message from the standalone API Scan as a subset, imports it into a `SOAP API testing` component folder (the mechanism is described in [API TestCases](/ToscaBase/api-testing/api-test-cases/)), then:
 

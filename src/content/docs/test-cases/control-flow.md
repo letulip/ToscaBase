@@ -87,5 +87,5 @@ The run calculates first, then evaluates; it repeats until the expression is fal
 | Repeat while something is true, possibly zero times | `While` |
 | Repeat at least once, then check | `Do` |
 | Repeat a fixed number of times | Folder [Repetition](/ToscaBase/test-cases/repetitions/) property, no loop |
-| Find a table row by content | `Constraint` ActionMode, no loop; see [Action modes](/ToscaBase/test-cases/action-modes/) |
-| React to a failure rather than a condition | [Recovery and cleanup scenarios](/ToscaBase/test-cases/recovery-and-cleanup-scenarios/) |
+| Find a table row by content | `Constraint` ActionMode, no loop; see [ActionModes](/ToscaBase/test-cases/action-modes/) |
+| React to a failure rather than a condition | [Recovery and Cleanup Scenarios](/ToscaBase/test-cases/recovery-and-cleanup-scenarios/) |

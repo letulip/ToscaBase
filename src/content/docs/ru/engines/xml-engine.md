@@ -1,5 +1,5 @@
 ---
-title: XML engine
+title: Движок XML
 description: Открытие, создание и проверка XML-файлов модулями XML engine, составление XPath, сканирование XML-файла в Module и извлечение значений из XML в буферы и веб-формы.
 level: 3
 sidebar:
@@ -21,9 +21,9 @@ sources:
 
 XML engine (движок XML) поставляет стандартные Module (модули), которые открывают (или создают) XML-файл и проверяют его узлы по XPath. Для более сложных задач **File Scan** превращает XML-файл в Module, где ModuleAttribute (атрибуты модуля) — это узлы XML, так что к ним применим любой ActionMode (режим действия): проверка, ограничение поиска, буферизация значения. Здесь описаны оба подхода и разобран пример, где ISBN вычитывается из XML, сгенерированного веб-страницей.
 
-## Проверка узла стандартными модулями
+## Проверка узла стандартными Module
 
-Для простой проверки хватает двух модулей XML engine. Найдите в Modules по слову `XML` и добавьте оба в TestCase (тест-кейс):
+Для простой проверки хватает двух Module XML engine. Найдите в Modules по слову `XML` и добавьте оба в TestCase (тест-кейс):
 
 1. **Open/Create XML File** открывает существующий файл или создаёт новый. Заполните:
    - **Resource**: произвольное имя открытого документа, например `BooksXML`. Все последующие XML-шаги обращаются к файлу по этому имени.
@@ -59,21 +59,21 @@ Id книги в автосубтитрах распознан как «pk110»;
 2. Укажите XML-файл. Tosca создаст Module с именем файла; переименуйте его (например `BooksXML`).
 3. Module содержит атрибут `Resource` и по одному ModuleAttribute на каждый узел файла (для `books.xml`: каталог, каждая книга, её title, ISBN и т.д.).
 
-Перед использованием этого Module в TestCase файл нужно открыть модулем **Open XML** (тот же модуль открытия, что выше), а значение `Resource` в обоих TestStep должно совпадать.
+Перед использованием этого Module в TestCase файл нужно открыть с помощью Module **Open XML** (тот же Module открытия, что выше), а значение `Resource` в обоих TestStep должно совпадать.
 
 ## Пример: найти ISBN в сгенерированном XML
 
 Obstacle 12 на тренировочном сайте объединяет несколько движков. Ссылка **Load Books** заполняет заблокированную текстовую область XML-кодом; нужно найти ISBN книги *Testing Computer Software* и ввести его в текстовое поле. Так как текстовая область заблокирована, искать в браузере нельзя: XML записывается в файл и ищется там.
 
-Нужные Module: веб-страница (ссылка, текстовая область, текстовое поле), отсканированная XScan; стандартные модули **TBox Create File** и **Open XML**; File-Scan-модуль XML-файла. Автор держит модули для obstacles в отдельной папке и называет их по номеру задачи.
+Нужные Module: веб-страница (ссылка, текстовая область, текстовое поле), отсканированная XScan; стандартные Module **TBox Create File** и **Open XML**; Module XML-файла, созданный File Scan. Автор держит Module для obstacles в отдельной папке и называет их по номеру задачи.
 
 TestStep (шаги теста) по порядку:
 
 1. **Загрузить XML.** Кликнуть ссылку `Load Books`, затем для текстовой области задать ActionMode `Buffer` с именем буфера `XMLText`.
 2. **Записать файл.** Добавить **TBox Create File** (в субтитрах «read create file»): целевая папка, имя файла `books.xml`, `Text` = `{B[XMLText]}` и `Override` = `True`, чтобы существующий файл перезаписывался. Выполните эти два шага один раз, откройте файл и убедитесь в содержимом, затем сделайте на нём File Scan, описанный выше.
 3. **Открыть файл.** Добавить **Open XML** с resource `Books` и путём к файлу. Если шаг добавлен позже, перетащите его выше шага поиска.
-4. **Найти книгу.** Добавить отсканированный XML-модуль с тем же resource `Books`. Для узла `title` задать ActionMode `Constraint` со значением `Testing Computer Software`; ограничение отфильтровывает дерево до этой книги. Для узла `isbn` той же книги задать ActionMode `Buffer` с именем буфера `BookISBN`.
-5. **Ввести результат.** Снова добавить веб-модуль и ввести `{B[BookISBN]}` в поле ISBN.
+4. **Найти книгу.** Добавить отсканированный XML Module с тем же resource `Books`. Для узла `title` задать ActionMode `Constraint` со значением `Testing Computer Software`; Constraint отфильтровывает дерево до этой книги. Для узла `isbn` той же книги задать ActionMode `Buffer` с именем буфера `BookISBN`.
+5. **Ввести результат.** Снова добавить Module веб-страницы и ввести `{B[BookISBN]}` в поле ISBN.
 
 Установите workstate «completed», обновите страницу и запустите весь TestCase: ссылка кликается, XML буферизуется и пишется в `books.xml`, файл открывается и ищется, ISBN попадает в поле. Сверьте его с файлом.
 
@@ -88,8 +88,8 @@ Obstacle 28 — упрощённый родственник предыдущег
 1. Скачайте файл по ссылке и запомните его расположение в папке Downloads.
 2. **Scan > More > File Scan**, выберите `catalog.xml`; Tosca создаст Module со всем деревом узлов. Отсканируйте браузер через **Scan > Application** и сохраните текстовое поле как второй Module (`Number`). Держите оба в папке с номером obstacle.
 3. TestCase, первый шаг: **Open/Create XML File** с resource `catalog` и путём к файлу. Без него ни один узел прочитать нельзя.
-4. Второй шаг: отсканированный XML-модуль с resource `catalog`. Для узла `name` задайте ActionMode `Constraint` со значением `Sue`, чтобы выбрать только эту запись. Для `prefix` задайте ActionMode `Buffer` с именем буфера `pre`, для `number` — ActionMode `Buffer` с `num`.
-5. Третий шаг: модуль текстового поля, ввод `{B[pre]}{B[num]}`. Два буфера, записанные подряд, конкатенируют значения.
+4. Второй шаг: отсканированный XML Module с resource `catalog`. Для узла `name` задайте ActionMode `Constraint` со значением `Sue`, чтобы выбрать только эту запись. Для `prefix` задайте ActionMode `Buffer` с именем буфера `pre`, для `number` — ActionMode `Buffer` с `num`.
+5. Третий шаг: Module текстового поля, ввод `{B[pre]}{B[num]}`. Два буфера, записанные подряд, конкатенируют значения.
 
 Установите workstate «completed» и запустите: в текстовое поле попадают prefix и number вместе.
 
@@ -102,4 +102,4 @@ Obstacle 28 — упрощённый родственник предыдущег
 - [Buffers](/ToscaBase/ru/data-and-parameters/buffers/): синтаксис `{B[...]}`.
 - [ActionModes](/ToscaBase/ru/test-cases/action-modes/): `Constraint` и `Buffer`.
 - [Операции с файлами и папками](/ToscaBase/ru/standard-modules/file-and-folder-operations/): TBox Create File.
-- [PDF engine](/ToscaBase/ru/engines/pdf-engine/) и [Excel engine](/ToscaBase/ru/engines/excel-engine/).
+- [Движок PDF](/ToscaBase/ru/engines/pdf-engine/) и [Движок Excel](/ToscaBase/ru/engines/excel-engine/).

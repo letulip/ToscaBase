@@ -54,7 +54,7 @@ An automation obstacle opens a new window when a button is clicked and asks you 
 2. Add **TBox Window Operation**. For the caption take the part of the popup title that is unique (in the example an account handle such as `@tricentis`; the word `Tricentis` alone also appears in the main window's title) and surround it with regex wildcards.
 3. Operation `Wait on open`. Without it the step may run before the window is there and fail.
 4. Add a second TBox Window Operation with the same caption and operation `Close`.
-5. Set the workstate to Completed and execute: the button is clicked, the popup appears, is waited for and closed.
+5. Set the Workstate to Completed and execute: the button is clicked, the popup appears, is waited for and closed.
 
 :::tip
 `Wait on open` is the window-level equivalent of the `WaitOn` ActionMode. Use it in front of any operation on a window that takes time to appear rather than adding a static wait. See [Synchronisation, not waits](/ToscaBase/best-practices/synchronisation-not-waits/).

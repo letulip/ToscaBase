@@ -41,7 +41,7 @@ TCP сочетаются с другими видами параметров:
 
 - `TBox Set Buffer` со значением `{CP[MyTCP]}` копирует конфигурационное значение в [буфер](/ToscaBase/ru/data-and-parameters/buffers/); лог ScratchBook показывает подставленное значение.
 - [Business Parameter](/ToscaBase/ru/data-and-parameters/business-parameters-and-libraries/) переиспользуемого TestStepBlock можно заполнить через `{CP[SearchText]}` вместо литерала.
-- Некоторые стандартные модули и Test Data Services вообще не запускаются без определённых TCP: `Browser` для [Execute JavaScript](/ToscaBase/ru/standard-modules/execute-javascript/), `TestDataEndpoint` и `TestDataRepository` для [Test Data Services](/ToscaBase/ru/data-and-parameters/test-data-services/).
+- Некоторые стандартные Module и Test Data Services вообще не запускаются без определённых TCP: `Browser` для [Execute JavaScript](/ToscaBase/ru/standard-modules/execute-javascript/), `TestDataEndpoint` и `TestDataRepository` для [Test Data Services](/ToscaBase/ru/data-and-parameters/test-data-services/).
 
 ## Системные параметры, которые стоит знать
 
@@ -72,9 +72,9 @@ TCP сочетаются с другими видами параметров:
 - **Применить** Configuration — перетащить её на TestCase, папку или ExecutionList. Объект наследует весь набор.
 - **Заблокировать** Configuration — открыть её **Properties** и установить **Predefined** в `true`. Предопределённую Configuration нельзя изменить или удалить, только наследовать. TestCase, который её наследует, всё же может переопределить значение локально (скажем, Chrome на Edge), и это переопределение действует только в этом TestCase; оригинал не меняется. Так проектные настройки остаются под контролем администратора.
 
-## Configuration Parameters уровня модуля — другой механизм
+## Configuration Parameters уровня Module — другой механизм
 
-Модули тоже несут **Configuration Parameters** (`ExplicitName`, `ConstraintIndex` и другие), задаваемые на ModuleAttribute: они настраивают, как Tosca управляет контролом, и через `{CP[...]}` не читаются; см. [Свойства и параметры модуля](/ToscaBase/ru/modules/module-properties-and-parameters/) и, для `ExplicitName`, [Идентификацию контролов](/ToscaBase/ru/modules/control-identification/). Единственный случай, когда такой параметр управляется из TestCase через буфер (`ConstraintIndex` для двух одинаковых вкладок браузера), — рецепт в [Типичных проблемах и решениях](/ToscaBase/ru/troubleshooting/common-problems-and-fixes/#одинаковые-вкладки-браузера).
+Module тоже несут **Configuration Parameters** (`ExplicitName`, `ConstraintIndex` и другие), задаваемые на ModuleAttribute: они настраивают, как Tosca управляет контролом, и через `{CP[...]}` не читаются; см. [Свойства и параметры Module](/ToscaBase/ru/modules/module-properties-and-parameters/) и, для `ExplicitName`, [Идентификацию контролов](/ToscaBase/ru/modules/control-identification/). Единственный случай, когда такой параметр управляется из TestCase через буфер (`ConstraintIndex` для двух одинаковых вкладок браузера), — рецепт в [Типичных проблемах и решениях](/ToscaBase/ru/troubleshooting/common-problems-and-fixes/#одинаковые-вкладки-браузера).
 
 ## Смежное
 

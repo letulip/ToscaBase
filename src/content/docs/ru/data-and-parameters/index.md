@@ -11,9 +11,9 @@ TestStep с жёстко прописанным значением приход�
 | Документ | Содержание |
 |---|---|
 | [Буферы](/ToscaBase/ru/data-and-parameters/buffers/) | ActionMode `Buffer`, `{B[имя]}`, динамический XBuffer `{XB[имя]}`, время жизни буфера, Buffer Viewer |
-| [Test Configuration Parameters](/ToscaBase/ru/data-and-parameters/test-configuration-parameters/) | `{CP[имя]}`, наследование от папок, системные параметры, Configurations уровня проекта, `ConstraintIndex` модуля для одинаковых вкладок браузера |
+| [Test Configuration Parameters](/ToscaBase/ru/data-and-parameters/test-configuration-parameters/) | `{CP[имя]}`, наследование от папок, системные параметры, Configurations уровня проекта, `ConstraintIndex` Module для одинаковых вкладок браузера |
 | [Business Parameters и библиотеки TestStep](/ToscaBase/ru/data-and-parameters/business-parameters-and-libraries/) | TestStepBlock, TestStep Library, переиспользуемые TestStepBlock, контейнеры Business Parameter |
 | [Test Data Services](/ToscaBase/ru/data-and-parameters/test-data-services/) | Управление тестовыми данными на Tosca Server: репозитории, типы, элементы, обязательные параметры, `{TDS[тип.атрибут]}` |
 | [Модули Test Data Service](/ToscaBase/ru/data-and-parameters/test-data-service-modules/) | Создание, поиск, обновление, перенос и удаление элементов из TestCase; Expert Module; массовые данные через Repetitions |
 
-Читайте по порядку: буферы встречаются почти в каждом TestCase, Test Configuration Parameters — в каждом наборе, библиотеки — когда в наборе появились повторяющиеся шаги, а Test Data Services — когда данные делят несколько процессов. Сами буферные стандартные модули описаны в [Операциях с буферами](/ToscaBase/ru/standard-modules/buffer-operations/).
+Читайте по порядку: буферы встречаются почти в каждом TestCase, Test Configuration Parameters — в каждом наборе, библиотеки — когда в наборе появились повторяющиеся шаги, а Test Data Services — когда данные делят несколько процессов. Сами буферные стандартные Module описаны в [Операциях с буферами](/ToscaBase/ru/standard-modules/buffer-operations/).

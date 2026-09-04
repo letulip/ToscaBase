@@ -1,5 +1,5 @@
 ---
-title: Recovery and cleanup scenarios
+title: Recovery and Cleanup Scenarios
 description: How the Tosca recovery engine retries a failed TestCase - enabling recovery globally or per folder, creating a Recovery Scenario Collection, setting the Retry level, and adding a Cleanup Scenario for when recovery itself fails.
 level: 1
 sidebar:
@@ -81,10 +81,10 @@ Recovery Scenarios only run when the TestCase is executed from an **ExecutionLis
 :::
 
 :::tip
-Changed a TestCase after adding it to an ExecutionList? Right-click the ExecutionList and choose **Synchronize** so the entry reflects the changes before you run it.
+Edits to TestSteps and values inside a TestCase reach its ExecutionList entry automatically. **Synchronize** (right-click the ExecutionList) is only strictly needed for structural changes - renamed or moved folders and newly added TestCases; running it after any change is a harmless precaution. See [ExecutionLists](/ToscaBase/execution/execution-lists/).
 :::
 
-The example uses a `WaitOn` inside the recovery, which is a workaround for a missing synchronisation step; in a real project you would also fix the TestCase. Recovery is for the failures you did not foresee. See [Action modes](/ToscaBase/test-cases/action-modes/) for `WaitOn`.
+The example uses a `WaitOn` inside the recovery, which is a workaround for a missing synchronisation step; in a real project you would also fix the TestCase. Recovery is for the failures you did not foresee. See [ActionModes](/ToscaBase/test-cases/action-modes/) for `WaitOn`.
 
 ## Cleanup Scenarios
 
