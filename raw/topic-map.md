@@ -88,7 +88,8 @@ Ids are in `raw/manifest.json`. Update this file when docs are added or merged.
 | cross-browser-execution | P2-L144, L143b (no feasible executor) |
 | dokusnapper | P1-6 |
 | ci-integration-jenkins | P2-L89 |
-| distributed-execution-dex | P2-L152, L153 |
+| distributed-execution-dex | P2-L152 |
+| tosca-execution-client | P2-L153 |
 
 ## data-and-parameters (level 2)
 | doc | sources |
