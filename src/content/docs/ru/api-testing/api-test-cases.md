@@ -54,9 +54,7 @@ sources:
 
 Атрибут сразу появляется во всех TestCase, использующих этот Module. В TestStep выберите значение из выпадающего списка (там значения, захваченные при сканировании) или введите своё и задайте ActionMode (см. [ActionModes](/ToscaBase/ru/test-cases/action-modes/)).
 
-:::note
-В части LambdaGeeks та же операция описана как открытие «attribute assistant» через опцию, которую субтитры передают как «buffer module attributes with dynamic list items», где вы выбираете поля и нажимаете **Add**. Формулировка ненадёжна; подтверждённый путь — шаги QASCRIPT выше.
-:::
+В части LambdaGeeks то же делается через **Attribute assistant (помощник атрибутов)**: он открывается опцией **Buffer module attributes with dynamic list items**; выделите поля (для запроса логина — `username` и `password`; для Module ответа — `status code` и нужные поля payload, например `token`, `id` или `name`) и нажмите **Add**. Ненужные для теста атрибуты просто не создаются.
 
 ## Верификация ответа
 
@@ -88,15 +86,11 @@ sources:
 | TestStep | Значения |
 |---|---|
 | Login request | `username`, `password` |
-| Login response | Verify `status code`; буфер `token` под именем `auth_token` |
+| Login response | Verify `status code` = `200`; буфер `token` под именем `auth_token` |
 | Post coffee request | `name` = `test 1`, `description` = `test coffee`, `authorization` = слово `token`, пробел, затем `{B[auth_token]}` |
 | Post coffee response | Verify `status code`; буфер `id` |
 | Get coffee by id request | `id` = буферизованный id, `authorization` как выше |
 | Get coffee by id response | Verify `status code` = `200`, verify `name` = `test 1` |
-
-:::note
-Субтитры называют код состояния логина «0 ok», а финальный — «200 ok». Первое, скорее всего, ослышка вместо `200`; подтвердить может только реальный ответ сервиса.
-:::
 
 ## Запуск API TestCase
 

@@ -54,9 +54,7 @@ To verify or parameterize anything, turn message elements into ModuleAttributes.
 
 The attribute immediately shows up in every TestCase that uses the Module. In the TestStep, either pick a value from the drop-down (it holds the values captured by the scan) or type one, and set the ActionMode (see [ActionModes](/ToscaBase/test-cases/action-modes/)).
 
-:::note
-The LambdaGeeks part describes the same operation as opening an "attribute assistant" through an option the subtitles render as "buffer module attributes with dynamic list items", where you select fields and click **Add**. The wording is unreliable; the QASCRIPT steps above are the confirmed path.
-:::
+The LambdaGeeks part does the same through the **Attribute assistant**: open it with the option **Buffer module attributes with dynamic list items**, select the fields (for the login request `username` and `password`; for response Modules `status code` plus the payload fields you need, such as `token`, `id` or `name`) and click **Add**. Attributes that are not needed for the test are simply not created.
 
 ## Verifying the response
 
@@ -88,15 +86,11 @@ The LambdaGeeks part builds one TestCase, `Add Coffee`, against the Tricentis sa
 | TestStep | Values |
 |---|---|
 | Login request | `username`, `password` |
-| Login response | Verify `status code`; buffer `token` as `auth_token` |
+| Login response | Verify `status code` = `200`; buffer `token` as `auth_token` |
 | Post coffee request | `name` = `test 1`, `description` = `test coffee`, `authorization` = the word `token`, a space, then `{B[auth_token]}` |
 | Post coffee response | Verify `status code`; buffer `id` |
 | Get coffee by id request | `id` = the buffered id, `authorization` as above |
 | Get coffee by id response | Verify `status code` = `200`, verify `name` = `test 1` |
-
-:::note
-The subtitles give the login status code as "0 ok" and the final one as "200 ok". The first is most likely a mishearing of `200`; only the response of the service can confirm it.
-:::
 
 ## Running API TestCases
 

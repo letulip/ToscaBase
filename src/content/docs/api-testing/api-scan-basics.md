@@ -88,7 +88,7 @@ Scanning cuts out most of the preparation work. It is worth doing even when you 
 The LambdaGeeks part scans the Tricentis sample Swagger service instead. Its `auth` folder holds the login request: the payload carries `user` and `password`, and running it returns a **token** and an `expires` timestamp. The token is then supplied with every other request, for example `GET` all coffees (empty payload; status `200` and the coffee list in JSON), `POST` coffee (`description`, `id` and `name` in the payload), delete coffee or search coffee by `id` (the `id` is mandatory). The full parameterized version of this scenario is in [API TestCases](/ToscaBase/api-testing/api-test-cases/).
 
 :::note
-The subtitle-based transcript says the token is entered on the "forms" tab of the request; the wording is unclear. In the QASCRIPT lessons the token is passed as a header parameter, which is the same idea.
+The Whisper transcript has the token entered on the "Perms tab" of the `GET` request, most plausibly the **Params** tab; the exact tab name is not confirmed by the audio. In the QASCRIPT lessons the token is passed as a header parameter, which is the same idea.
 :::
 
 ## Limits of API Scan on its own
