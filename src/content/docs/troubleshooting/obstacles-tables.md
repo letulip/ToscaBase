@@ -37,11 +37,47 @@ sources:
     title: "Tosca Tutorial | Lesson 129 - Dropdown Table | Dynamic XBuffer | Embedded Controls | Obstacle 23"
     url: https://www.youtube.com/watch?v=UQpoXy-e3no
     at: "03:16"
+  - id: 4gM7fyyRJpE
+    title: "TRICENTIS Tosca 16.0 - Lesson 45 | OBSTACLE#3 | Dynamically changing Table Elements – Not a Table |"
+    url: https://www.youtube.com/watch?v=4gM7fyyRJpE
+    at: "01:14"
+  - id: vPB8nzD54Hs
+    title: "TRICENTIS Tosca 16.0 - Lesson 47 | OBSTACLE#5 | Complex Table Interactions | Dynamic Rows |"
+    url: https://www.youtube.com/watch?v=vPB8nzD54Hs
+    at: "01:15"
+  - id: 6sOxIsT81YI
+    title: "TRICENTIS Tosca 16.0 - Lesson 37 | Drag & Drop Operations | Web Table | Repetition |"
+    url: https://www.youtube.com/watch?v=6sOxIsT81YI
+    at: "01:19"
+  - id: IasTOBRqL2Y
+    title: "TRICENTIS Tosca 16.0 - Lesson 51 | OBSTACLE #9 | Drag & Drop Dynamic WebTable Rows | Repetition |"
+    url: https://www.youtube.com/watch?v=IasTOBRqL2Y
+    at: "01:15"
+  - id: 3m45f0Yu9G8
+    title: "TRICENTIS Tosca 16.0 - Lesson 60 | OBSTACLE #18 | Dynamic Web Table | Count Number of Rows| RowCount"
+    url: https://www.youtube.com/watch?v=3m45f0Yu9G8
+    at: "01:15"
+  - id: fWUEjwHsCls
+    title: "TRICENTIS Tosca 16.0 - Lesson 61 | OBSTACLE #19 | Get Last Table Row Value | LastContentRow"
+    url: https://www.youtube.com/watch?v=fWUEjwHsCls
+    at: "01:14"
+  - id: iYsG4hbu7sw
+    title: "TRICENTIS Tosca 16.0 - Lesson 63 | OBSTACLE #21 | Search Table Cell Value | Constraint Action Mode"
+    url: https://www.youtube.com/watch?v=iYsG4hbu7sw
+    at: "01:13"
+  - id: iOh_KgFyhWU
+    title: "TRICENTIS Tosca 16.0 - Lesson 64 | OBSTACLE #22 | Table Search | Dynamic Table | Buffer Action Mode"
+    url: https://www.youtube.com/watch?v=iOh_KgFyhWU
+    at: "01:12"
+  - id: NKe6fY6ffWE
+    title: "TRICENTIS Tosca 16.0 - Lesson 68 | OBSTACLE #26 | Dropdown Table |Dynamic XBuffer |Embedded Controls"
+    url: https://www.youtube.com/watch?v=NKe6fY6ffWE
+    at: "01:13"
 ---
 
 Most real-world steering problems live in web tables: rows move between page loads, the row count is unknown, a "table" is a pile of `div` elements, or a control sits inside a cell but XScan placed it outside the row. The toolset is small: the `Constraint` ActionMode to pick a row, `Buffer` to read a cell, the properties `RowCount`, `ColumnCount` and `ResultCount`, row selectors such as `$last`, `{XB[...]}`, embedded controls, and the `Repetition` folder property. Concepts are in [Table controls](/ToscaBase/modules/table-controls/) and [ActionModes](/ToscaBase/test-cases/action-modes/).
 
-Routine for every obstacle: scan a Module into an *Obstacles* folder, create a TestCase named after the obstacle, drag the Module in, set Workstate *Completed*, run in ScratchBook.
+Routine for every obstacle: scan a Module into an *Obstacles* folder, create a TestCase named after the obstacle, drag the Module in, set Workstate *Completed*, run in ScratchBook. The Tosca 16 series (Lessons 45–68; *Drop-down table* is obstacle 26 there) solves each identically; its extra details are noted in place.
 
 ## Not a table (obstacle 3)
 
@@ -81,15 +117,14 @@ Two constraints filter to exactly one row regardless of its position; the click 
 **Solution.**
 
 1. Module: both tables.
-2. TestCase: create a folder `Repetition`, move the table TestStep into it and set the folder's [Repetition](/ToscaBase/test-cases/repetitions/) property to `6`.
-3. In the *To-do tasks* table choose the column *ID* and give the cell the value `{REPETITION}`. The expression returns the current pass number (1, then 2, and so on), so each pass addresses the row whose ID equals it.
-4. That row → `{DRAG}`, ActionMode `Input`.
-5. *Completed tasks* table → `{DROP}`, with no row or column: the row is dropped into the table as a whole.
+2. TestCase: in the *To-do tasks* table choose the column *ID*, cell value `1`; the row → `{DRAG}` (ActionMode `Input`); the *Completed tasks* table → `{DROP}` (also `Input`), with no row or column, so the row lands in the table as a whole. Run once to confirm one row moves.
+3. Create a folder `Repetition`, move the TestStep into it and set the folder's [Repetition](/ToscaBase/test-cases/repetitions/) property to `6`.
+4. Replace the `1` with `{REPETITION}`. The expression returns the current pass number (1, then 2, and so on), so each pass addresses the row whose ID equals it.
 
-Pass number and ID advance together, so the rows move in order. Any unique column numbered 1 to *n* can play the role of *ID*.
+Pass number and ID advance together, so the rows move in order; the execution log lists each pass separately. Any unique column numbered 1 to *n* can play the role of *ID*.
 
 :::note
-The subtitles garble the expression name; it is `{REPETITION}`. The speaker does not say which ActionMode the *ID* cell uses; `Constraint` (obstacle 5) is the natural fit.
+The subtitles garble the expression name; it is `{REPETITION}`. None of the three lessons says which ActionMode the *ID* cell uses; `Constraint` (obstacle 5) is the natural fit. If `{DROP}` is left on the default `Verify`, the run fails with *could not find table* (Lesson 37).
 :::
 
 ## Lots of rows (obstacle 18)
@@ -110,7 +145,7 @@ The subtitles garble the expression name; it is `{REPETITION}`. The speaker does
 
 **Cause.** The row index of "the last row" changes.
 
-**Solution.** In the table's row attribute use a row selector from the drop-down instead of a number: `$last` selects the last row; `$lastContentRow` does the same here. In the cell of the *Value* column set ActionMode `Buffer` with value `b_val`, and enter `{B[b_val]}` into the text box.
+**Solution.** In the table's row attribute use a row selector from the drop-down instead of a number: `$last` selects the last row; `$lastContentRow` does the same here and needs ActionMode `Select` on the row. In the cell of the *Value* column set ActionMode `Buffer` with value `b_val`, and enter `{B[b_val]}` into the text box.
 
 The drop-down also offers `$1`, `$n`, the header row and the first empty row, so any row can be addressed without hard-coding its position.
 
@@ -138,9 +173,9 @@ Constraint plus `Exists` is the fastest whole-table search.
 **Solution.**
 
 1. Module: the timetable and the result text box.
-2. TestCase: in the row attribute, type the row header text (`11 - 13`, as it appears on the page). Tosca selects the row by that text as long as it is unique.
+2. TestCase: in the row attribute, type the row header text (`11 - 13`, as it appears on the page), ActionMode `Select`. Tosca selects the row by that text as long as it is unique.
 3. Cell: choose the column `Thursday` from the column headers, ActionMode `Buffer`, value `b_status`.
-4. Text box → `{SENDKEYS "{B[b_status]}"}`.
+4. Text box → `{B[b_status]}` with `Input` (Lesson 128 uses `{SENDKEYS "{B[b_status]}"}`; both work).
 
 :::note
 A dynamic time would have to be buffered or constrained first; the speaker mentions this but does not show it.
@@ -154,7 +189,7 @@ A dynamic time would have to be buffered or constrained first; the speaker menti
 
 **Solution.**
 
-1. Module: *Generate*, *Submit*, the table, and one drop-down (not unique; fine). Make the `select` an [embedded control](/ToscaBase/modules/table-controls/#embedded-controls-inside-a-table) of the cell, so that it exists in every row.
+1. Click *Generate* before scanning so that the drop-downs exist. Module: *Generate*, *Submit*, the table, and one drop-down (not unique; fine). Drag the `select` into the cell so it becomes an [embedded control](/ToscaBase/modules/table-controls/#embedded-controls-inside-a-table) that exists in every row.
 2. TestCase:
    - *Generate* → `X`.
    - Row `$2` (row 1 is the header). First cell → ActionMode `Verify`, value: the constant text followed by `{XB[letter]}`. The dynamic XBuffer verifies the fixed part and stores the changing letter in `letter` at the same time.

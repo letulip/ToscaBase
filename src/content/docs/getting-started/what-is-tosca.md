@@ -13,6 +13,10 @@ sources:
     title: "Tosca Tutorial | Lesson 1 - Introduction To Tosca | What is Tosca | Codeless Automation Tool |"
     url: https://www.youtube.com/watch?v=4At7coUGDJU
     at: "00:02"
+  - id: 0Hc_M7ksots
+    title: "TRICENTIS Tosca 16.0 - Lesson 05 | Model-Based Test Automation | Standard Modules of Tosca |"
+    url: https://www.youtube.com/watch?v=0Hc_M7ksots
+    at: "01:02"
 ---
 
 Tricentis Tosca is a scriptless, model-based test automation platform for end-to-end testing. Instead of writing scripts, you scan the application under test into **Modules** and assemble **TestCases** from them by drag and drop, so functional, regression and API tests can be built with a small skill set and a short learning curve. It is a commercial product by Tricentis, positioned as a continuous testing platform that feeds fast results back into agile and DevOps pipelines.
@@ -25,7 +29,7 @@ Tosca is used for functional and regression testing, and API testing is part of 
 
 ## Model-based testing
 
-The feature that defines Tosca. For every unit-level functionality or screen of the application, the tester creates a **Module** that stores the technical information needed to steer it (the controls and their identifying properties). TestCases are then built by combining Modules. Because the technical detail lives in the Module and not in every test, a change in the application is fixed once, in the Module. See [Modules overview](/ToscaBase/modules/modules-overview/).
+The feature that defines Tosca. For every unit-level functionality or screen of the application, the tester creates a **Module** that stores the technical information needed to steer it (the controls and their identifying properties) and, as the Tosca 16 lesson puts it, the expected behaviour of the system under test. TestCases are then built by combining Modules and feeding the model with the business data the test needs: the same Module can be reused in as many TestCases as you like, and no scripting knowledge is required, so anyone on the team can contribute. Because the technical detail lives in the Module and not in every test, a change in the application is fixed once, in the Module, and every TestCase that uses it picks the change up. See [Modules overview](/ToscaBase/modules/modules-overview/). The ready-made Modules that ship with the installation are described in [Standard modules](/ToscaBase/standard-modules/).
 
 ## Main features
 

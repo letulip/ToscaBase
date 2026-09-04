@@ -17,6 +17,10 @@ sources:
     title: "Tosca Tutorial | Lesson 122 - Close Window Popup | Window Operations |Obstacle 16 |"
     url: https://www.youtube.com/watch?v=doHtSzuBCFY
     at: "02:14"
+  - id: zr-SyuOhTeQ
+    title: "TRICENTIS Tosca 16.0 - Lesson 58 | OBSTACLE #16 | Window Operations | Window Popup | Standard Module"
+    url: https://www.youtube.com/watch?v=zr-SyuOhTeQ
+    at: "06:24"
 ---
 
 **TBox Window Operation** sends a command to a window identified by its caption: bring it to the front, resize it, close it, or wait for it to appear. **TBox Scroll Window Operation** scrolls a window's content by a number of pixels or lines. Both live under **Modules > Standard modules > TBox Automation Tools > Basic window operations** and are aimed mainly at Windows-based applications, but they also work on browser windows, for example for popups.
@@ -51,9 +55,9 @@ Run the steps one at a time in the ScratchBook to watch each effect; a full run 
 An automation obstacle opens a new window when a button is clicked and asks you to close it. You do **not** need to scan the popup: TBox Window Operation finds it by caption.
 
 1. Scan only the button into a Module and add a TestStep that clicks it.
-2. Add **TBox Window Operation**. For the caption take the part of the popup title that is unique (in the example an account handle such as `@tricentis`; the word `Tricentis` alone also appears in the main window's title) and surround it with regex wildcards.
-3. Operation `Wait on open`. Without it the step may run before the window is there and fail.
-4. Add a second TBox Window Operation with the same caption and operation `Close`.
+2. Add **TBox Window Operation** (drag it from **Standard modules > TBox Automation Tools > Basic window operations**). For the caption take the part of the popup title that is unique (in the example an account handle such as `@tricentis`; the word `Tricentis` alone also appears in the main window's title, so `*tricentis*` would close the main page) and surround it with regex wildcards.
+3. Operation `Wait on open`. The popup takes a moment to load; without the wait the step runs before the window is there and fails.
+4. Operation `Close` on the same caption. Lesson 122 puts it in a second TBox Window Operation step; in Lesson 58 (Tosca 16) choosing an operation adds another empty *Operation* row to the same TestStep, so `Wait on open` and `Close` are stacked in one step. Both forms pass.
 5. Set the Workstate to Completed and execute: the button is clicked, the popup appears, is waited for and closed.
 
 :::tip

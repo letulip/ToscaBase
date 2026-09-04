@@ -33,12 +33,40 @@ sources:
     title: "Tosca Tutorial | Lesson 131 - Scroll Into View | Steering Parameter | Scrolling | Obstacle 25"
     url: https://www.youtube.com/watch?v=RsbKnsNt8Rs
     at: "02:17"
+  - id: hoxsuJ47IPg
+    title: "TRICENTIS Tosca 16.0 - Lesson 43 | OBSTACLE#1 | IDs are not everything – Elements with Same IDs"
+    url: https://www.youtube.com/watch?v=hoxsuJ47IPg
+    at: "02:16"
+  - id: kIRtbXyTE0w
+    title: "TRICENTIS Tosca 16.0 - Lesson 44 | OBSTACLE#2 | Duplicate Elements with Same Properties |"
+    url: https://www.youtube.com/watch?v=kIRtbXyTE0w
+    at: "01:14"
+  - id: xFnTy2jdEyk
+    title: "TRICENTIS Tosca 16.0 - Lesson 46 | OBSTACLE#4 | Dynamically Changing ID Property |"
+    url: https://www.youtube.com/watch?v=xFnTy2jdEyk
+    at: "01:13"
+  - id: YUJi9vmPwQ4
+    title: "TRICENTIS Tosca 16.0 - Lesson 48 | OBSTACLE #6 | Multiselect ListBox | Cardinality | Explicit Name |"
+    url: https://www.youtube.com/watch?v=YUJi9vmPwQ4
+    at: "01:16"
+  - id: vV0O1w_lLyM
+    title: "TRICENTIS Tosca 16.0 - Lesson 49 | OBSTACLE #7 | Autocomplete TextBox | ResultCount | InnerText |"
+    url: https://www.youtube.com/watch?v=vV0O1w_lLyM
+    at: "02:16"
+  - id: TgtrmH4JmTY
+    title: "TRICENTIS Tosca 16.0 - Lesson 67 | OBSTACLE #25 | Hidden Element | Click Element"
+    url: https://www.youtube.com/watch?v=TgtrmH4JmTY
+    at: "01:15"
+  - id: ZnmDHKg7rrY
+    title: "TRICENTIS Tosca 16.0 - Lesson 69 | OBSTACLE #27 | Steering Parameter | ScrollingBehavior"
+    url: https://www.youtube.com/watch?v=ZnmDHKg7rrY
+    at: "01:14"
 ---
 
-The Tricentis *Obstacle Course* is a public web page of small automation riddles, each reproducing a problem you will meet in real applications. This doc collects the obstacles whose difficulty is in **identifying** the control: XScan reports *selected item is not unique*, the identifying property changes between runs, or the element is not visible at all. The lesson is the same every time: `id` is a good default, but when it fails, use other properties, the parent hierarchy, a different identification method or a steering parameter. The methods themselves are described in [Control identification](/ToscaBase/modules/control-identification/); here you see them applied. Table obstacles are in [Obstacles: tables](/ToscaBase/troubleshooting/obstacles-tables/), input and click obstacles in [Obstacles: input and clicks](/ToscaBase/troubleshooting/obstacles-input-and-clicks/).
+The Tricentis *Obstacle Course* is a public web page of small automation riddles taken from real applications. This doc collects the obstacles whose difficulty is in **identifying** the control: XScan reports *selected item is not unique*, the identifying property changes between runs, or the element is not visible at all. The lesson is the same every time: `id` is a good default, but when it fails, use other properties, the parent hierarchy, a different identification method or a steering parameter. The methods themselves are described in [Control identification](/ToscaBase/modules/control-identification/); here you see them applied. Table obstacles are in [Obstacles: tables](/ToscaBase/troubleshooting/obstacles-tables/), input and click obstacles in [Obstacles: input and clicks](/ToscaBase/troubleshooting/obstacles-input-and-clicks/), loops in [Obstacles: loops and conditions](/ToscaBase/troubleshooting/obstacles-logic/). Every obstacle was solved identically in two lesson series (107–137 and the Tosca 16 Lessons 43–75, which count *Hidden element* as 25 and *Scroll into view* as 27); differences are noted in place.
 
 :::tip
-All obstacles are clicked with the value `X` (ActionMode `Input`) rather than `{CLICK}`. `{CLICK}` drives the real mouse, which is slower and not recommended by Tricentis; `X` does the same through the engine.
+All obstacles are clicked with the value `X` (ActionMode `Input`) rather than `{CLICK}`. `{CLICK}` drives the real mouse, which is slower and not recommended by Tricentis; `X` does the same through the engine. `{CLICK}` still helps while debugging: the cursor visibly moves, so you see which twin was hit.
 :::
 
 ## IDs are not everything (obstacle 1)
@@ -77,8 +105,9 @@ Parents and neighbours often carry the property the element lacks.
 
 **Solution.**
 
-1. In the ModuleAttribute, replace the changing numeric part of the `id` with `*`, keeping the constant prefix (`rd_*`). The wildcard matches whatever digits appear.
-2. Drag the Module into the TestCase twice (*Click once*, *Click twice*), each with the value `X`.
+1. Scan before the first click; to see which part of the `id` moves, click once and rescan.
+2. In the ModuleAttribute, replace the changing numeric part of the `id` with `*`, keeping the constant prefix (`rd_*`). The wildcard matches whatever digits appear.
+3. Drag the Module into the TestCase twice (*Click once*, *Click twice*), each with the value `X`.
 
 :::note
 The speaker calls `*` a regular expression; in Tosca property values it is a wildcard. Full regular expressions are covered in [Intervals and verification expressions](/ToscaBase/expressions/intervals-and-verification-expressions/).
@@ -90,9 +119,9 @@ The speaker calls `*` a regular expression; in Tosca property values it is a wil
 
 **Cause.** By default a ModuleAttribute can be used once per TestStep (cardinality `0-1`), and its name is fixed in the Module, so one scanned list item cannot address four different entries.
 
-**Solution.** Scan only the list box and **one** list item; all items share the same properties, only their names differ. On the item attribute set **cardinality** to `0-n` and add the Configuration Parameter `ExplicitName = True`, so that the attribute can be used any number of times and the name given in the TestStep decides which item is steered (mechanism: [Control identification](/ToscaBase/modules/control-identification/#choosing-from-the-testcase-explicitname)).
+**Solution.** Scan only the list box and **one** list item. Untick the item's `InnerText` (identified by `tag` alone, *not unique* is fine) and rename it `item`. On the item attribute set **cardinality** to `0-n` and right-click → **Create Configuration Parameter** `ExplicitName = True`, so that the attribute can be used any number of times and the name given in the TestStep decides which item is steered (mechanism: [Control identification](/ToscaBase/modules/control-identification/#choosing-from-the-testcase-explicitname)).
 
-In the TestCase, rename the item to `Functional testing`; a fresh empty item row appears, which you rename to the next method, and so on. ActionMode stays `Input`, which selects the entry. Use the full visible name (`End-to-End testing`, not `End-to-End`), otherwise the entry is not matched.
+In the TestCase the list box gets ActionMode `Select`. Rename the item to `Functional testing`; a fresh empty item row appears, which you rename to the next method, and so on. The items keep ActionMode `Input`, which selects the entry. Use the full visible name (`End-to-End testing`, not `End-to-End`), otherwise the entry is not matched.
 
 ## Autocomplete text box (obstacle 7, "And counting")
 
@@ -100,14 +129,14 @@ In the TestCase, rename the item to `Functional testing`; a fresh empty item row
 
 **Cause.** The search text is dynamic; a normal `Input` into the autocomplete box does not open the suggestion list; the suggestions are a list of unknown length.
 
-**Solution.** Module: the `span`, the autocomplete box, one list item with cardinality `0-n`, and the count text box. The page title may be dynamic; put a wildcard in the title property. TestSteps:
+**Solution.** Type any text into the box *before* scanning, otherwise the suggestion list does not exist in the DOM. Module: the `span` (untick its dynamic `InnerText`, keep `id` and `tag`), the autocomplete box, one `li` of the suggestion list, and the count text box. The page title may be dynamic; put a wildcard in the title property. TestSteps:
 
 1. `span` → property `InnerText`, ActionMode `Buffer`, value `text`.
 2. Autocomplete box → `{SENDKEYS "{B[text]}"}`. Sending keys one by one triggers the autocomplete; a plain `Input` does not.
 3. List item → property `ResultCount`, ActionMode `Buffer`, value `count`. `ResultCount` returns how many controls matched the attribute.
 4. Count text box → `{B[count]}` with ActionMode `Input`.
 
-`ResultCount` is the same trick used to count links in [Common problems and fixes](/ToscaBase/troubleshooting/common-problems-and-fixes/).
+`ResultCount` only counts what the attribute matches, so untick the `li`'s `id` (unique per entry) and keep `tag` alone; Lesson 113 additionally sets cardinality `0-n`. It is the same trick used to count links in [Common problems and fixes](/ToscaBase/troubleshooting/common-problems-and-fixes/).
 
 ## Hidden element (obstacle 24)
 
@@ -130,7 +159,7 @@ In the TestCase, rename the item to `Functional testing`; a fresh empty item row
 **Solution.** Use a **steering parameter** instead of a scroll step:
 
 1. Scan the text field (XScan shows it nested `iframe` → HTML document → text field) and the *Submit* button.
-2. Right-click the text field attribute, **Create Steering Parameter**, name it `ScrollingBehavior` and set it to `Top` (other values: `Bottom`, `Center`, `None`).
+2. Right-click the text field attribute, **Create Steering Parameter**, name it `ScrollingBehavior` (exact spelling, no space) and set it to `Top` (other values: `Bottom`, `Center`, `None`).
 3. TestCase: *Enter text* (`Tosca`, ActionMode `Input`), then *Click submit* (`X`).
 
 Tosca scrolls the field to the top of the viewport before typing; no static wait or scroll module is needed. Other steering parameters are listed in [Module properties and parameters](/ToscaBase/modules/module-properties-and-parameters/); see also [Synchronisation, not waits](/ToscaBase/best-practices/synchronisation-not-waits/).

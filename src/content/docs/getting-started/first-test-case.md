@@ -13,6 +13,14 @@ sources:
     title: "Tosca Tutorial | Lesson 4 - Tosca Commander Overview | Execute First Test Case | Test Results |"
     url: https://www.youtube.com/watch?v=U9X3juv6tz4
     at: "08:14"
+  - id: nEcKRePDKa0
+    title: "TRICENTIS Tosca 16.0 - Lesson 09 | Test Case Automation | Create Test Steps using Modules |"
+    url: https://www.youtube.com/watch?v=nEcKRePDKa0
+    at: "09:17"
+  - id: ZZ6lWHHHnCg
+    title: "TRICENTIS Tosca 16.0 - Lesson 10 | Test Case Automation | Populate TestStep Values for Test Cases |"
+    url: https://www.youtube.com/watch?v=ZZ6lWHHHnCg
+    at: "04:05"
 ---
 
 The first TestCase is a login: open a demo web shop (the Sauce Labs "Swag Labs" demo site with a login page and a product list), enter username and password, click **Login**, and close the browser. Small as it is, it exercises the complete Tosca workflow: scan the page into a Module, assemble the TestCase from the Module, add the Standard modules that open and close the browser, set the browser as a Test Configuration Parameter, and run in the ScratchBook. Prerequisites: a workspace created from the standard template ([Workspace and project setup](/ToscaBase/getting-started/workspace-and-project-setup/)), Chrome with the Tosca extension ([Installation](/ToscaBase/getting-started/installation/#browser-extension-for-xscan)), and the demo page open in Chrome.
@@ -32,7 +40,7 @@ How you nest folders and TestCases is up to you; the point is that a folder can 
 TestCases hold no technical information; that lives in **Modules**, Tosca's equivalent of page objects.
 
 1. In the **Modules** section create a folder (for example `Sauce Demo`).
-2. Right-click it and open **Scan**. The dropdown lists scan types: application, API, mobile, PDF, remote terminal, WebDriver, Salesforce, file scan, legacy scan. Choose **Application**.
+2. Right-click it and open **Scan**. The dropdown lists several scan types (application, API, mobile, PDF and others). Choose **Application**.
 3. The XScan agent lists the windows currently open. Select the Chrome window with the demo page and click **Scan**.
 4. XScan asks you to click controls in the application to add them. Click the **username** field, the **password** field and the **Login** button. They appear in the XScan window with tick marks.
 5. Click **Save** and close XScan. The **Advanced** section, where identification properties are changed when a control is not unique, is not needed here; see [Control identification](/ToscaBase/modules/control-identification/).
@@ -42,7 +50,7 @@ Expanding the Module shows the three ModuleAttributes with their **ActionMode**,
 
 ## 3. Drag the Module into the TestCase
 
-Dock **Modules** next to **TestCases** (drag the section tab to the right docking target; see [Commander overview](/ToscaBase/getting-started/commander-overview/#arranging-sections)). Drag `Login Page` onto `Login Test`. Tosca creates a TestStep with one TestStepValue per ModuleAttribute. Now fill it in:
+Dock **Modules** next to **TestCases** (drag the section tab to the right docking target; see [Commander overview](/ToscaBase/getting-started/commander-overview/#arranging-sections)). Drag `Login Page` onto `Login Test`. The other way, used for most steps in the Tosca 16 lessons, is to right-click the TestCase (or a folder) and choose the *search and add step* entry, or press `Ctrl+T`, then pick the Module from the search. Either way Tosca creates a TestStep with one TestStepValue per ModuleAttribute; rename it after the business action it performs. Now fill it in:
 
 | TestStepValue | Data type | ActionMode | Value |
 |---|---|---|---|
@@ -50,7 +58,11 @@ Dock **Modules** next to **TestCases** (drag the section tab to the right dockin
 | Password | Password | `Input` | the matching password; it is masked once typed |
 | Login | String | `Input` | `X` |
 
-A text box takes an `Input` with a value; a button is not a text box, so its value `X` tells Tosca to click it, while the ActionMode stays `Input`. `X` is an internal click, done without moving the pointer, and is the recommended way to click. The video instead picks **Click** from the value dropdown, which inserts `{CLICK}`, a physical mouse click; it works, but it is slower and less reliable, see [Synchronisation, not waits](/ToscaBase/best-practices/synchronisation-not-waits/). Every ActionMode is explained in [ActionModes](/ToscaBase/test-cases/action-modes/).
+Typing or pasting a value switches the ActionMode to `Input` automatically; the data type defaults to String (Numeric, Date and others exist). A text box takes an `Input` with a value; a button or link is not a text box, so its value `X` tells Tosca to click it, while the ActionMode stays `Input`. `X` is an internal click, done without moving the pointer, and is the recommended way to click. An empty value with `Input` also clicks, but the Tosca 16 lesson recommends `X` so that the intent is visible in the step. A checkbox takes `True` to tick it. The video instead picks **Click** from the value dropdown, which inserts `{CLICK}`, a physical mouse click; it works, but it is slower and less reliable, see [Synchronisation, not waits](/ToscaBase/best-practices/synchronisation-not-waits/). Every ActionMode is explained in [ActionModes](/ToscaBase/test-cases/action-modes/).
+
+:::tip
+Once a TestCase has many steps, `F9` toggles the TestCases section between showing only the TestStepValues that carry a value and showing all of them. **Expand all** works at TestStep, TestCase and folder level.
+:::
 
 ## 4. Browser as a Test Configuration Parameter
 
@@ -58,7 +70,7 @@ Tosca must know which browser to use. Right-click the parent folder `Sauce Demo 
 
 ## 5. Open the application (Prerequisites)
 
-The browser is chosen, but nothing opens it yet. In `Prerequisites` add a TestStep from the Standard modules that came with the template: open the Modules section (reopen it if you closed it, see [Commander overview](/ToscaBase/getting-started/commander-overview/#arranging-sections)) and find **TBox XEngines > HTML > Open Url**, or press `Ctrl+T` in the folder and search. Drag it in, rename the step `Open Application`, and paste the demo site's URL into the **Url** value. The optional `ActiveTab` and browser-arguments values can stay empty.
+The browser is chosen, but nothing opens it yet. In `Prerequisites` add a TestStep from the Standard modules that came with the template: **TBox XEngines > HTML > Open Url** in the Modules section, or `Ctrl+T` in the folder and search. Rename the step `Open Application` and paste the demo site's URL into the **Url** value. The optional `ActiveTab` and browser-arguments values can stay empty.
 
 ## 6. Run in the ScratchBook
 
@@ -85,4 +97,4 @@ Every TestCase has a **Workstate**: `Planned`, `In Work`, `Completed`. Set `In W
 
 ## What you have learned
 
-Scan a page into a Module, build a TestCase from Modules, supply values and ActionModes, parameterise the browser, wrap the test with prerequisites and cleanup, and run it. Every later topic (verification, Buffers, control flow, ExecutionLists) extends this skeleton. Continue with [TestCase basics](/ToscaBase/test-cases/test-case-basics/).
+Scan a page into a Module, build a TestCase from Modules, supply values and ActionModes, parameterise the browser, wrap the test with prerequisites and cleanup, and run it. Every later topic extends this skeleton. Continue with [TestCase basics](/ToscaBase/test-cases/test-case-basics/), which also covers the longer end-to-end web shop scenario (precondition, process, postcondition folders) of the Tosca 16 lessons.

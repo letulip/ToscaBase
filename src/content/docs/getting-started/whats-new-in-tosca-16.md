@@ -36,7 +36,7 @@ From now on every other control in that application (the *Last name* field, for 
 The demonstration scans an "add absence" page whose three buttons **Save and close**, **Submit** and **Cancel** sit inside a table.
 
 - In the XScan **settings icon > General settings** there is a checkbox to **ignore ARIA controls**. It is unticked by default, so ARIA controls are taken into account; tick it to identify everything by ordinary properties instead.
-- Without ARIA support those three buttons appear as `div` elements, which are hard to identify because they have no unique properties. With it, they appear as **buttons**, and the control's adapter property reads `Tricentis.Automation.Engines.Adapter.Aria.AriaButtonAdapter` (as spoken in the source).
+- Without ARIA support those three buttons appear as `div` elements, which are hard to identify because they have no unique properties. With it, they appear as **buttons**, and the control's adapter property reads `Tricentis.Automation.Engines.Adapter.Aria.AriaButtonAdapter` (read out in the source; capitalisation reconstructed).
 - Select the buttons, save the Module, and steer them like any other button.
 
 Leave ARIA support enabled whenever the application uses ARIA controls.

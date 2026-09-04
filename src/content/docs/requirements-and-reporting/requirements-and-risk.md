@@ -13,6 +13,10 @@ sources:
     title: "Tosca Tutorial | Live Webinar Session | Requirements Management | Risk Based Testing | Live Project |"
     url: https://www.youtube.com/watch?v=Vgo6EM86-7k
     at: "04:05"
+  - id: eaXtMXX84-o
+    title: "TRICENTIS Tosca 16.0 - Lesson 18 | Link Automated Test Cases to Requirements | Link Execution Lists|"
+    url: https://www.youtube.com/watch?v=eaXtMXX84-o
+    at: "03:38"
 ---
 
 The **Requirements** section of Tosca Commander holds the business requirements of the application under test, lets you assign a risk weight to each of them, and links them to TestCases, ExecutionLists and TestCase-Design sheets. Once linked, the section works as a project dashboard: it shows how much of each requirement is covered by specified TestCases and how much of it has passed or failed in execution. This is the foundation of risk-based testing, one of the two pillars Tosca is built on (the other being its modular, model-based approach): cover the highest-risk requirements with the fewest TestCases.
@@ -29,9 +33,9 @@ The hierarchy is always:
 
 1. **Folder** (right-click **Requirements > Create Folder**). Recommended even though it is optional. Structure folders by application, by functional area, by release or sprint, or by testing view (regression, smoke), whatever matches the project. Example: `Release` > `Sprint 1`.
 2. **Requirement set** (right-click the folder > **Create Requirement Set**). A group of related requirements, e.g. `User Actions` or `Product Actions`. A new set shows 100% coverage because it contains nothing yet.
-3. **Requirement** (right-click the set > **Create Requirement**), e.g. `Login User`, `Register User`, `Filter Products`, `Add Products`, `Search Products`, or one requirement per vehicle type (`Automobile`, `Truck`, `Motorcycle`, `Camper`) in the vehicle-insurance example.
+3. **Requirement** (right-click the set > **Create Requirement**), e.g. `Login User`, `Register User`, `Filter Products`, `Add Products`, `Search Products`. A requirement can hold **sub-requirements** (right-click the requirement > **Create Requirement**): the Tosca 16 webshop example has `Customer Tasks` with `Register`, `Login`, `Modify Customer Data` and `Check Order` underneath, next to `Handle Product`, `Shopping Cart` and `Order Process`.
 
-Give each requirement a description ("User should be able to log in to the application"). If a requirements document already exists, transfer it as is.
+Give each requirement a description ("User should be able to log in to the application"); an existing requirements document can be transferred as is.
 
 ## Weighting requirements
 
@@ -70,7 +74,7 @@ By default every requirement has the type `Requirement`. To classify requirement
 
 ## Linking TestCases: coverage specified
 
-Drag a TestCase, or a whole TestCase folder (for example a folder of template instances), onto a **requirement**. TestCases can only be linked to requirements, never to a requirement set. An alternative is right-click the requirement **> Create TestCase Link**, rename the link and drag the TestCases onto it; drag-and-drop directly onto the requirement is the quicker option.
+Drag a TestCase, or a whole TestCase folder (for example a folder of template instances), onto a **requirement**; docking the Requirements section next to TestCases (split-screen view) makes this easier. TestCases can only be linked to requirements, never to a requirement set. An alternative is right-click the requirement **> Create TestCase Link**, rename the link and drag the TestCases onto it; drag-and-drop directly onto the requirement is the quicker option.
 
 `Coverage Specified` shows how complete the linked TestCases are. It is driven by the TestCase **Workstate**, which maps to a fixed percentage:
 
@@ -84,7 +88,9 @@ Coverage specified = relative weight * Workstate percentage, aggregated over the
 
 ## Linking ExecutionLists: execution state
 
-Drag an [ExecutionList](/ToscaBase/execution/execution-lists/), or individual execution entries, onto a requirement set or requirement. `Execution State` then splits into passed, failed, not executed and not linked (for example 37% passed, 30% failed, 20% not executed, 13% not linked). Before anything is linked, `Coverage Specified` and `Execution State` are grey and show 100% by default.
+Drag an [ExecutionList](/ToscaBase/execution/execution-lists/), or individual execution entries, onto a requirement set or requirement. Linking TestCases alone is not enough: the results of a run reach the requirements only through a linked ExecutionList, so link the list that runs those TestCases to their parent **requirement set** (the webshop example links the `Webshop` ExecutionList to the `Webshop Frontend` set). `Execution State` then splits into passed, failed, not executed and not linked (for example 37% passed, 30% failed, 20% not executed, 13% not linked). Before anything is linked, `Coverage Specified` and `Execution State` are grey and show 100% by default.
+
+Figures aggregate upwards by weight: with one sub-requirement at 100% coverage and another at 20%, the parent showed 49%, and a requirement whose only linked TestCase failed showed 100% failed. Together the two columns form the traceability matrix of the project.
 
 The properties of a requirement show the same figures under **Status** (passed, failed, not linked) and **Calculation results**.
 
@@ -93,7 +99,7 @@ The properties of a requirement show the same figures under **Status** (passed, 
 A [TestSheet](/ToscaBase/test-case-design/test-sheets-and-attributes/) can also be dragged onto a requirement; Tosca creates a TestCase substitute link.
 
 :::note
-In the webinar the drag-and-drop of a TestSheet was refused. The speaker suspected the sheet contained only a design class and no attributes or instances, and promised a follow-up. Treat the TestSheet link as possible but unverified; TestCases and ExecutionLists are the links that matter for the dashboard.
+In the webinar the drag-and-drop of a TestSheet was refused; the speaker suspected the sheet contained only a design class without attributes or instances. Treat the TestSheet link as possible but unverified; TestCases and ExecutionLists are the links that matter for the dashboard.
 :::
 
 ## Keeping the values current

@@ -17,6 +17,10 @@ sources:
     title: "Tosca Tutorial | Lesson 122 - Close Window Popup | Window Operations |Obstacle 16 |"
     url: https://www.youtube.com/watch?v=doHtSzuBCFY
     at: "02:14"
+  - id: zr-SyuOhTeQ
+    title: "TRICENTIS Tosca 16.0 - Lesson 58 | OBSTACLE #16 | Window Operations | Window Popup | Standard Module"
+    url: https://www.youtube.com/watch?v=zr-SyuOhTeQ
+    at: "06:24"
 ---
 
 **TBox Window Operation (операция с окном)** посылает команду окну, найденному по заголовку (caption): вывести на передний план, изменить размер, закрыть или дождаться появления. **TBox Scroll Window Operation** прокручивает содержимое окна на заданное число пикселей или строк. Оба Module находятся в **Modules > Standard modules > TBox Automation Tools > Basic window operations** и рассчитаны прежде всего на Windows-приложения, но работают и с окнами браузера, например со всплывающими.
@@ -51,9 +55,9 @@ sources:
 Одно из «препятствий» автоматизации открывает новое окно по нажатию кнопки и просит закрыть его. Сканировать всплывающее окно **не нужно**: TBox Window Operation находит его по caption.
 
 1. Отсканируйте в Module только кнопку и добавьте TestStep, который её нажимает.
-2. Добавьте **TBox Window Operation**. Для caption возьмите уникальную часть заголовка попапа (в примере это имя аккаунта вида `@tricentis`; слово `Tricentis` само по себе есть и в заголовке основного окна) и окружите её подстановочными знаками regex.
-3. Операция `Wait on open`. Без неё шаг может выполниться до появления окна и упасть.
-4. Добавьте вторую TBox Window Operation с тем же caption и операцией `Close`.
+2. Добавьте **TBox Window Operation** (перетащите из **Standard modules > TBox Automation Tools > Basic window operations**). Для caption возьмите уникальную часть заголовка попапа (в примере это имя аккаунта вида `@tricentis`; слово `Tricentis` само по себе есть и в заголовке основного окна, так что `*tricentis*` закрыл бы основную страницу) и окружите её подстановочными знаками regex.
+3. Операция `Wait on open`. Попап загружается не мгновенно; без ожидания шаг выполняется до появления окна и падает.
+4. Операция `Close` с тем же caption. В уроке 122 она стоит во втором шаге TBox Window Operation; в уроке 58 (Tosca 16) выбор операции добавляет в тот же TestStep ещё одну пустую строку *Operation*, поэтому `Wait on open` и `Close` стоят в одном шаге. Оба варианта проходят.
 5. Установите workstate Completed и выполните: кнопка нажимается, попап появляется, дожидается и закрывается.
 
 :::tip

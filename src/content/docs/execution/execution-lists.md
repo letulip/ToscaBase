@@ -17,6 +17,10 @@ sources:
     title: "Tosca Tutorial | Lesson 61 - Synchronize Execution List with Test Cases | Execution Lists |"
     url: https://www.youtube.com/watch?v=c42YuuEksL0
     at: "00:06"
+  - id: Ps208sEHH5Y
+    title: "TRICENTIS Tosca 16.0 - Lesson 17 | Create Execution Lists | Link Test Cases to Execution Lists |"
+    url: https://www.youtube.com/watch?v=Ps208sEHH5Y
+    at: "02:00"
 ---
 
 An **ExecutionList** is a collection of TestCases that are ready to run, together with every result those runs ever produced. It lives in the **Execution** section of the workspace and is the recommended way to execute tests once development is finished: unlike the ScratchBook, its logs survive, so you can debug, report, and compare iterations later.
@@ -45,10 +49,15 @@ An ExecutionList cannot be created directly under the Execution root; it needs a
 1. Check out the Execution folder (or your parent folder).
 2. Right-click it > **Create ExecutionList folder** (also available as a toolbar icon) and rename it, for example to the name of the application or release.
 3. Right-click the new folder > **Create ExecutionList** and name it.
-4. Add TestCases by **drag and drop** from the TestCases section. Dropping a whole TestCase folder recreates the same folder structure inside the list; dropping single TestCases adds them one by one. You can also build your own folder structure inside the list by hand, for example per functionality.
+4. Add TestCases by **drag and drop** from the TestCases section. Dropping a whole TestCase folder recreates the same folder structure inside the list; dropping single TestCases adds them one by one. You can also build your own folder structure inside the list by hand, for example per functionality. Before adding a TestCase, set its Workstate to `Completed`: the list is for finished TestCases, and the Workstate also drives requirement coverage (see [Requirements and risk weighting](/ToscaBase/requirements-and-reporting/requirements-and-risk/)).
 5. **Check in** to save the list to the shared repository.
 
-Each TestCase added to a list becomes an **execution entry**; folders become **execution entry folders**. The list also has a **Test Configuration** tab showing the Test Configuration Parameters defined during TestCase development; a change made there applies to this ExecutionList only (see [Test Configuration Parameters](/ToscaBase/data-and-parameters/test-configuration-parameters/)).
+Each TestCase added to a list becomes an **execution entry**; folders become **execution entry folders**. The list also has a **Test Configuration** tab showing the Test Configuration Parameters defined during TestCase development; a change made there applies to this ExecutionList only (see [Test Configuration Parameters](/ToscaBase/data-and-parameters/test-configuration-parameters/)). A parameter set on the ExecutionList **takes precedence** over the same parameter on the TestCase: with `Browser` = Edge on the list and Chrome on the TestCase, the entry runs in Edge. If the list defines nothing, the TestCase's own configuration applies.
+
+### Excluding and repeating entries
+
+- To leave an entry out of a run without removing it, right-click it > **Disable**; the entry is greyed out and skipped until you right-click > **Enable** again.
+- To run a TestCase or a whole folder several times, set the `Repetitions` property on the execution entry or on the execution entry folder; the ExecutionList itself has no such property. Details in [Repetitions and business TestCases](/ToscaBase/execution/execution-repetitions-and-business-test-cases/).
 
 ## Running an ExecutionList
 
@@ -57,7 +66,7 @@ Each TestCase added to a list becomes an **execution entry**; folders become **e
 3. Tosca runs the entries one after another, processes the results and returns you to the list.
 4. Check in again so the results are stored permanently in the repository.
 
-The **Details** pane shows the outcome per entry; expand an entry to see which TestSteps passed and which failed. Use the **column chooser** to add columns such as summary, start time, end time or duration. Results stay in the list until you delete or archive them; how to read, reshape and export them is in [Results and logs](/ToscaBase/execution/execution-results-and-logs/).
+The **Details** pane shows the outcome per entry; expand an entry to see which TestSteps passed and which failed, and double-click a result to open its log with the failure reason (for example a control that was not found). Use the **column chooser** to add columns such as summary, start time, end time or duration. Every run **appends a new row** under the entry, so the list keeps the complete history of every TestCase it contains. Results stay there until you delete or archive them; how to read, reshape and export them is in [Results and logs](/ToscaBase/execution/execution-results-and-logs/).
 
 ## Keeping the list in sync with TestCases
 

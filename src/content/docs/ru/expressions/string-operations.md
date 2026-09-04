@@ -21,6 +21,22 @@ sources:
     title: "Tosca Tutorial | Lesson 148 - Common Issues | Remove Special Characters | String Replace | Escape |"
     url: https://www.youtube.com/watch?v=ajyFN1dqNHE
     at: "05:31"
+  - id: XYRtKA8lkBI
+    title: "TRICENTIS Tosca 16.0 - Lesson 13 | Action Mode Buffer | Math Function | Dynamic Expressions |"
+    url: https://www.youtube.com/watch?v=XYRtKA8lkBI
+    at: "08:35"
+  - id: GsSNWhKRiRQ
+    title: "TRICENTIS Tosca 16.0 - Lesson 13 (Updated) | Action Mode Buffer |Math Function |Dynamic Expressions|"
+    url: https://www.youtube.com/watch?v=GsSNWhKRiRQ
+    at: "11:11"
+  - id: P_sVOT6WM_k
+    title: "TRICENTIS Tosca 16.0 - Lesson 38 | String Operations – Part 1 | Trim | Replace"
+    url: https://www.youtube.com/watch?v=P_sVOT6WM_k
+    at: "06:26"
+  - id: Xsp0uyuYib4
+    title: "TRICENTIS Tosca 16.0 - Lesson 39 | String to Lower/Upper Case| Number of  Occurrences| String Length"
+    url: https://www.youtube.com/watch?v=Xsp0uyuYib4
+    at: "03:16"
 ---
 
 Значения, прочитанные из приложения, редко приходят в том виде, который нужен проверке: номер заказа встроен в подпись, цена содержит знак валюты, в тексте лишние пробелы. Строковые операции Tosca — динамические выражения, преобразующие строку на месте, обычно внутри шага `TBox Set Buffer`, чтобы очищенное значение можно было сохранить в Buffer (буфер) и использовать дальше. Они заменяют методы `String` из Java или .NET.
@@ -31,17 +47,17 @@ sources:
 
 | Выражение | Результат | Пример из видео |
 |---|---|---|
-| `{STRINGLENGTH[строка]}` | Число символов | `{STRINGLENGTH[{B[str]}]}` вернул `15` для образца `Tricentis Tosca` |
+| `{STRINGLENGTH[строка]}` | Число символов | `{STRINGLENGTH[{B[str]}]}` вернул `15` для образца `Tricentis Tosca` и `26` для `Tricentis Tosca Automation` (пробелы считаются) |
 | `{STRINGTOUPPER[строка]}` | Строчные буквы переведены в верхний регистр | `{STRINGTOUPPER[{B[str]}]}` |
 | `{STRINGTOLOWER[строка]}` | Заглавные буквы переведены в нижний регистр | `{STRINGTOLOWER[{B[str]}]}` |
-| `{NUMBEROFOCCURRENCES[строка][шаблон]}` | Сколько раз встречается шаблон (один или несколько символов), с учётом регистра | `{NUMBEROFOCCURRENCES[{B[str]}][t]}` вернул `1` |
-| `{NUMBEROFOCCURRENCES[строка][шаблон][IGNORECASE]}` | То же без учёта регистра | `{NUMBEROFOCCURRENCES[{B[str]}][t][IGNORECASE]}` вернул `3` |
+| `{NUMBEROFOCCURRENCES[строка][шаблон]}` | Сколько раз встречается шаблон (один или несколько символов), с учётом регистра | `{NUMBEROFOCCURRENCES[{B[str]}][t]}` вернул `1` (`3` для длинного образца) |
+| `{NUMBEROFOCCURRENCES[строка][шаблон][IGNORECASE]}` | То же без учёта регистра | `{NUMBEROFOCCURRENCES[{B[str]}][t][IGNORECASE]}` вернул `3` (`5` для длинного образца) |
 | `{TRIM[строка]}` | Убирает пробелы в начале и конце | `{TRIM[{B[B_order]}]}` |
 | `{STRINGREPLACE[строка][шаблон][замена]}` | Заменяет каждое вхождение шаблона | `{STRINGREPLACE[{B[price1]}]["\$"][]}` |
 | `{STRINGREPLACE[строка][шаблон][замена][IGNORECASE]}` | То же без учёта регистра | `{STRINGREPLACE[{B[B_order]}][Order number:][][IGNORECASE]}` |
 | `{BASE64[текст][ENCODE]}` | Кодирует текст в Base64 | `{BASE64[{CP[username]}][ENCODE]}` |
 | `{BASE64[закодированный текст][DECODE]}` | Декодирует строку Base64 | `{BASE64[{B[encode_username]}][DECODE]}` |
-| `{MATH[выражение]}` | Вычисляет арифметическое выражение | `{MATH[{B[price1]}+{B[price2]}]}` |
+| `{MATH[выражение]}` | Вычисляет арифметическое выражение; операнды — буферы или литералы | `{MATH[{B[price1]}+{B[price2]}]}`, `{MATH[{B[price]}*25]}` |
 
 :::note
 В видео урока 148 арифметическое выражение называется `CALC`; в этой базе знаний везде используется `MATH` (см. [Случайные значения](/ToscaBase/ru/expressions/random-values/)). Правильно составленное выражение подсвечивается в ячейке; если оно остаётся обычным текстом — ошибка в скобках.
@@ -78,6 +94,17 @@ sources:
 2. **Buffer** `InnerText` каждого в `price1` и `price2`.
 3. `{MATH[{B[price1]}+{B[price2]}]}` в Set Buffer с именем `sum` падает: из-за `$` это *not a valid expression*.
 4. Замените буферы очищенными версиями через `{STRINGREPLACE[{B[price1]}]["\$"][]}` (и так же для `price2`), затем повторите выражение `MATH`. Прогон проходит, лог показывает сумму (`39.98` в видео); её можно сверить со страницей шагом **Verify**.
+
+### Умножить буферизованную цену на количество и проверить итог
+
+Заказ в интернет-магазине кладёт в корзину 25 единиц одного товара; страница подтверждения показывает промежуточную сумму и итог, стоимость доставки известна — `10`.
+
+1. На странице товара сохраните (**Buffer**) `InnerText` элемента с ценой в буфер `price_blue_jeans`. При выборе ActionMode Buffer знак `=` в ячейке значения превращается в стрелку.
+2. На странице подтверждения проверьте (**Verify**) промежуточную сумму выражением `{MATH[{B[price_blue_jeans]}*25]}` — буфер, умноженный на литерал.
+3. Сохраните показанную промежуточную сумму в буфер `subtotal`, затем проверьте итог выражением `{MATH[{B[subtotal]}+10]}`.
+4. Первый прогон завалил проверку итога, хотя ожидаемое и фактическое значения оба читались как `35`: значение сравнивалось как строка. Для верификаций результатов `MATH` установите тип данных TestStepValue в **Numeric**; после этого все три проверки проходят.
+
+**Translate value** на каждом выражении (`25`, `35`) подтверждает расчёт до запуска.
 
 ### Кодирование и декодирование учётных данных через Base64
 

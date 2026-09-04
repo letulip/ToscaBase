@@ -17,6 +17,10 @@ sources:
     title: "Tosca Tutorial | Lesson 5 - Create First Test Case | Tosca Commander | New Workspace |"
     url: https://www.youtube.com/watch?v=6Z-XkFoVoxw
     at: "09:21"
+  - id: S4Sf6O9PHNY
+    title: "TRICENTIS Tosca 16.0 - Lesson 02 | Navigate Tosca | Navigations in Tosca | Automation Tool"
+    url: https://www.youtube.com/watch?v=S4Sf6O9PHNY
+    at: "01:00"
 ---
 
 Tosca Commander is the application where the whole testing life cycle happens: Modules, TestCases, requirements, test design, execution and results are all sections of one window. The quickest way to get oriented is the **First Steps** sample project that ships with Tosca. It contains ready-made TestCases you can open, inspect and run before you build anything yourself.
@@ -24,6 +28,15 @@ Tosca Commander is the application where the whole testing life cycle happens: M
 ## Start page and the First Steps project
 
 After the license is connected, Commander shows its start page with the recently used workspaces and, by default, the **First Steps** project. Click it to open. Its **TestCases** section holds sample folders for manual tests, automated tests, data-driven tests and helpers, plus a TestCase named `Run me` intended for a first run.
+
+## Layout of the window
+
+The Tosca 16 lesson divides the default view into four areas:
+
+- **Navigation pane** on the left: the tree that gives the overview of your work.
+- **Working pane** in the middle and right: where you edit individual items.
+- **Column headers** of the working pane. Right-click a header and choose **Column Chooser** to see every available column; double-click one (for example `Condition`) to add it. To remove a column, drag its header out of the header row until a cross appears and drop it.
+- **Ribbon** at the top with the tabs **Home**, **Project**, **View**, **TestCases** and so on, and below it the tabs of the sections.
 
 ## Sections of a workspace
 
@@ -37,13 +50,20 @@ Each block in the Commander window is a section of the workspace. The main ones:
 | **TestCase-Design** | TestSheets, attributes and instances for data-driven test design. See [TestCase-Design](/ToscaBase/test-case-design/) |
 | **Execution** | ExecutionLists and their permanent results. See [ExecutionLists](/ToscaBase/execution/execution-lists/) |
 | **Issues** | Defects linked to executions |
+| **Configurations**, **Test Planning** | Listed among the section tabs in the Tosca 16 lesson; not used in this knowledge base |
 | **Tutorial** | Built-in tutorial material; not needed for this knowledge base |
+
+The Tosca 16 lesson concentrates on the first four: Modules are an object repository (the controls and their locators, but richer than the repositories of other tools), TestCases hold the business logic, the flow and the test data, Execution runs them and shows the results, and Requirements give traceability (completion percentage, execution state, coverage) once TestCases and ExecutionLists are linked to them.
 
 To see the hierarchy of the whole project, click **Project** in the **Home** tab.
 
 ### Arranging sections
 
-Sections can be shown side by side. Drag a section's tab and drop it on one of the docking targets (centre, top, bottom, left, right) to split the window; with **Modules** on the right and **TestCases** on the left, you can drag Modules straight into TestCases. A section you have closed is reopened from the **Sections** menu, which lists every section (this is how the [Reports](/ToscaBase/requirements-and-reporting/reports/) lesson reopens one; the overview videos cited here do not show the step).
+Sections can be shown side by side. Drag a section's tab and drop it on one of the docking targets (centre, top, bottom, left, right) to split the window; with **Modules** on the right and **TestCases** on the left, you can drag Modules straight into TestCases. Right-clicking a section tab offers **Close**, **Close all but this**, **Float** (the section becomes a floating window), **New Vertical Tab Group** and **Move to next tab group**. A section you have closed is reopened from the **Sections** menu, which lists every section and can also open one as a floating window (shown in the Tosca 16 lesson and in the [Reports](/ToscaBase/requirements-and-reporting/reports/) lesson).
+
+### Your own sections
+
+The default sections are folders of the project. To add one, open **Project** in the **Home** tab, right-click the project root and choose **Create Component Folder**; inside it create your own Modules, TestCases, Execution and Requirements folders. Each becomes a section of its own.
 
 ## Inside the TestCases section
 
@@ -69,6 +89,10 @@ The TestCase's details also show a **control flow diagram**, a graphical represe
 ### Test Configuration Parameters
 
 The sample TestCase carries a **Test Configuration** with a parameter `Browser` whose value is `Internet Explorer`, the browser it was designed for. Change the value to `Chrome`, `Edge` or `Firefox` to run it elsewhere, and reset to the default afterwards. New parameters are added by right-clicking the TestCase (or a folder) and choosing **Create Test Configuration Parameter**. Full treatment in [Test Configuration Parameters](/ToscaBase/data-and-parameters/test-configuration-parameters/).
+
+## Save, undo and redo
+
+The quick-access buttons at the top of the window save the workspace, undo and redo. Undo and redo work only on changes that are not saved yet: once you save, the history is gone. Save deliberately.
 
 ## Running a TestCase in the ScratchBook
 

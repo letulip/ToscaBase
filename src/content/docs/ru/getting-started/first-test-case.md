@@ -13,6 +13,14 @@ sources:
     title: "Tosca Tutorial | Lesson 4 - Tosca Commander Overview | Execute First Test Case | Test Results |"
     url: https://www.youtube.com/watch?v=U9X3juv6tz4
     at: "08:14"
+  - id: nEcKRePDKa0
+    title: "TRICENTIS Tosca 16.0 - Lesson 09 | Test Case Automation | Create Test Steps using Modules |"
+    url: https://www.youtube.com/watch?v=nEcKRePDKa0
+    at: "09:17"
+  - id: ZZ6lWHHHnCg
+    title: "TRICENTIS Tosca 16.0 - Lesson 10 | Test Case Automation | Populate TestStep Values for Test Cases |"
+    url: https://www.youtube.com/watch?v=ZZ6lWHHHnCg
+    at: "04:05"
 ---
 
 Первый TestCase — вход в систему: открыть демонстрационный интернет-магазин (демо-сайт Sauce Labs «Swag Labs» со страницей входа и списком товаров), ввести имя пользователя и пароль, нажать **Login** и закрыть браузер. При всей простоте он проходит полный рабочий цикл Tosca: сканирование страницы в Module, сборку TestCase из Module, добавление стандартных Module, открывающих и закрывающих браузер, задание браузера через Test Configuration Parameter и запуск в ScratchBook. Предпосылки: workspace, созданный из стандартного шаблона ([Workspace и настройка проекта](/ToscaBase/ru/getting-started/workspace-and-project-setup/)), Chrome с расширением Tosca ([Установка](/ToscaBase/ru/getting-started/installation/#расширение-браузера-для-xscan)) и открытая в Chrome демо-страница.
@@ -32,7 +40,7 @@ sources:
 В TestCase нет технической информации; она живёт в **Module** — аналоге page object в Tosca.
 
 1. В разделе **Modules** создайте папку (например, `Sauce Demo`).
-2. Правый щелчок по ней — **Scan**. Выпадающий список показывает типы сканирования: application, API, mobile, PDF, remote terminal, WebDriver, Salesforce, file scan, legacy scan. Выберите **Application**.
+2. Правый щелчок по ней — **Scan**. Выпадающий список показывает несколько типов сканирования (application, API, mobile, PDF и другие). Выберите **Application**.
 3. Агент XScan перечисляет открытые окна. Выберите окно Chrome с демо-страницей и нажмите **Scan**.
 4. XScan просит щёлкать контролы в приложении, чтобы добавить их. Щёлкните поле **username**, поле **password** и кнопку **Login**. Они появляются в окне XScan с галочками.
 5. Нажмите **Save** и закройте XScan. Раздел **Advanced**, где меняют идентифицирующие свойства, когда контрол не уникален, здесь не нужен; см. [Идентификация контролов](/ToscaBase/ru/modules/control-identification/).
@@ -42,7 +50,7 @@ sources:
 
 ## 3. Перетаскивание Module в TestCase
 
-Закрепите **Modules** рядом с **TestCases** (перетащите вкладку раздела на правую цель докинга; см. [Обзор Commander](/ToscaBase/ru/getting-started/commander-overview/#расположение-разделов)). Перетащите `Login Page` на `Login Test`. Tosca создаёт TestStep с одним TestStepValue на каждый ModuleAttribute. Заполните его:
+Закрепите **Modules** рядом с **TestCases** (перетащите вкладку раздела на правую цель докинга; см. [Обзор Commander](/ToscaBase/ru/getting-started/commander-overview/#расположение-разделов)). Перетащите `Login Page` на `Login Test`. Другой способ, которым в уроках по Tosca 16 добавляют большинство шагов, — правый щелчок по TestCase (или папке), пункт *search and add step* либо `Ctrl+T`, затем выбор Module в поиске. В обоих случаях Tosca создаёт TestStep с одним TestStepValue на каждый ModuleAttribute; переименуйте его по бизнес-действию, которое он выполняет. Заполните его:
 
 | TestStepValue | Тип данных | ActionMode | Значение |
 |---|---|---|---|
@@ -50,7 +58,11 @@ sources:
 | Password | Password | `Input` | соответствующий пароль; после ввода он маскируется |
 | Login | String | `Input` | `X` |
 
-Текстовое поле принимает `Input` со значением; кнопка — не текстовое поле, поэтому её значение `X` велит Tosca нажать её, при том что ActionMode остаётся `Input`. `X` — внутренний клик без перемещения указателя, и это рекомендуемый способ нажатия. В видео вместо этого выбирают **Click** из выпадающего списка значений, что подставляет `{CLICK}` — физический клик мышью; он работает, но медленнее и менее надёжен, см. [Синхронизация вместо ожиданий](/ToscaBase/ru/best-practices/synchronisation-not-waits/). Все ActionMode описаны в [ActionMode](/ToscaBase/ru/test-cases/action-modes/).
+Ввод или вставка значения автоматически переключает ActionMode на `Input`; тип данных по умолчанию — String (есть также Numeric, Date и другие). Текстовое поле принимает `Input` со значением; кнопка или ссылка — не текстовое поле, поэтому её значение `X` велит Tosca нажать её, при том что ActionMode остаётся `Input`. `X` — внутренний клик без перемещения указателя, и это рекомендуемый способ нажатия. Пустое значение с `Input` тоже нажимает, но урок по Tosca 16 рекомендует `X`, чтобы намерение было видно в шаге. Флажок принимает `True`, чтобы его отметить. В видео вместо этого выбирают **Click** из выпадающего списка значений, что подставляет `{CLICK}` — физический клик мышью; он работает, но медленнее и менее надёжен, см. [Синхронизация вместо ожиданий](/ToscaBase/ru/best-practices/synchronisation-not-waits/). Все ActionMode описаны в [ActionMode](/ToscaBase/ru/test-cases/action-modes/).
+
+:::tip
+Когда в TestCase много шагов, `F9` переключает раздел TestCases между показом только тех TestStepValue, у которых есть значение, и показом всех. **Expand all** работает на уровне TestStep, TestCase и папки.
+:::
 
 ## 4. Браузер как Test Configuration Parameter
 
@@ -58,7 +70,7 @@ Tosca должна знать, какой браузер использоват�
 
 ## 5. Открытие приложения (Prerequisites)
 
-Браузер выбран, но ничто его пока не открывает. В `Prerequisites` добавьте TestStep из стандартных Module, пришедших с шаблоном: откройте раздел Modules (если вы его закрыли, откройте заново, см. [Обзор Commander](/ToscaBase/ru/getting-started/commander-overview/#расположение-разделов)) и найдите **TBox XEngines > HTML > Open Url**, либо нажмите `Ctrl+T` в папке и воспользуйтесь поиском. Перетащите его, переименуйте шаг в `Open Application` и вставьте URL демо-сайта в значение **Url**. Необязательные значения `ActiveTab` и аргументы браузера можно оставить пустыми.
+Браузер выбран, но ничто его пока не открывает. В `Prerequisites` добавьте TestStep из стандартных Module, пришедших с шаблоном: **TBox XEngines > HTML > Open Url** в разделе Modules либо `Ctrl+T` в папке и поиск. Переименуйте шаг в `Open Application` и вставьте URL демо-сайта в значение **Url**. Необязательные значения `ActiveTab` и аргументы браузера можно оставить пустыми.
 
 ## 6. Запуск в ScratchBook
 
@@ -85,4 +97,4 @@ Tosca должна знать, какой браузер использоват�
 
 ## Что вы освоили
 
-Сканировать страницу в Module, строить TestCase из Module, задавать значения и ActionMode, параметризовать браузер, обрамлять тест предусловиями и очисткой и запускать его. Каждая следующая тема (проверки, Buffer, поток управления, ExecutionList) расширяет этот каркас. Продолжайте с [Основ TestCase](/ToscaBase/ru/test-cases/test-case-basics/).
+Сканировать страницу в Module, строить TestCase из Module, задавать значения и ActionMode, параметризовать браузер, обрамлять тест предусловиями и очисткой и запускать его. Каждая следующая тема расширяет этот каркас. Продолжайте с [Основ TestCase](/ToscaBase/ru/test-cases/test-case-basics/), где разобран и длинный сквозной сценарий демо-магазина (папки precondition, process, postcondition) из уроков по Tosca 16.

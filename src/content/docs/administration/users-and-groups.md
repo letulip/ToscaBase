@@ -13,13 +13,17 @@ sources:
     title: "Tosca Tutorial | Lesson 91 - Create and Manage User Groups with Users | Multi-User Workspace |"
     url: https://www.youtube.com/watch?v=PDP4hgWD9zY
     at: "00:14"
+  - id: K8oTSYoowWo
+    title: "TRICENTIS Tosca 16.0 - Lesson 41 | Multi-user Workspace| Manage Users & User Groups | User Access"
+    url: https://www.youtube.com/watch?v=K8oTSYoowWo
+    at: "02:18"
 ---
 
 User management exists only in a [multi-user workspace](/ToscaBase/administration/multi-user-workspaces/). It answers two questions: *authentication* (who may log in, with which password) and *authorization* (which group may change or view which part of the workspace). Both are configured by an administrator inside Tosca Commander; there is no separate admin tool.
 
 ## Where user management is
 
-It is not on the top menu. Select the root project node and open its **User management** tab; the right-hand part of the window lists groups and users. Every change here requires the root project to be checked out first, and every change must be checked in (**Check In All**) before other users see it, including a new password.
+It is not on the top menu. Select the root project node and open its **User management** tab (in Tosca 16 it sits next to **Details**, **Test configurations**, **Properties** and **Definition**); the right-hand part of the window lists groups and users. Every change here requires the root project to be checked out first, and every change must be checked in (**Check In All**) before other users see it, including a new password.
 
 Two groups exist by default:
 
@@ -28,7 +32,7 @@ Two groups exist by default:
 
 ## Creating a group
 
-Right-click the root project (or the top of the user management area) and choose **Create user group**, then rename the new group. Groups can reflect roles (the source creates `Tosca specialists` and `Tosca design specialists`) or projects that need separate access. Deleting a group does not delete its users.
+Right-click the root project (or the top of the user management area) and choose **Create user group**, then rename the new group. Groups can reflect roles (the sources create `Tosca specialists` and `Tosca design specialists`) or projects that need separate access (`Project XYZ`). Right-click > **Delete** removes a group but keeps its users: they stay in `All users`, where you delete or disable them.
 
 ## Creating a user
 
@@ -39,19 +43,19 @@ Right-click a group and choose **Create user** (the `All users` group has the sa
 | **Enabled** | Checked by default. Uncheck to lock the user out (see below). |
 | **Description** | Free text, e.g. what the user or group is for. |
 | **Domain** | Optional domain for the user. |
-| **Set result allowed** | When unchecked, the user cannot set an execution result manually to passed or failed; only the result Tosca produces is shown. |
+| **Set result allowed** | When unchecked, the user cannot set an execution result manually to passed or failed; only the result Tosca produces is shown. Lesson 41 unchecks it for design specialists, who only build TestCases, and keeps it for testers. |
 | **Level** | `Basic`, `Advanced` or `Expert`. |
-| **Owning group** | `Admins` or `All users`: only members of the owning group can change this user or group entry. |
+| **Owning group** | `Admins` or `All users`: only members of the owning group can change this user or group entry. A `Super users` group with owning group `Admins` can be managed by administrators only (Lesson 41). |
 
 :::note
-The two sources disagree on **Level**: Part 14 calls it the user's proficiency, Lesson 91 says it gives different access to different sections. Neither shows a concrete effect. Treat it as a classification until you verify it in your version.
+The sources disagree on **Level**: Part 14 calls it the user's proficiency, Lessons 91 and 41 say it gives different access to different sections. None shows a concrete effect. Treat it as a classification until you verify it in your version.
 :::
 
 A user can belong to several groups. Drag the user into another group to add it there; the entries are instances of the same user, and a change made in one place (a password, the Enabled flag) is reflected in all of them. To make a user an administrator, drag it into `Admins`.
 
 ## Passwords
 
-A new user has an empty password, so set one immediately: right-click the user, choose **Set password**, enter and confirm it. Only an administrator sees this command; an admin can set or reset any user's password with it at any time.
+A new user has an empty password, so set one immediately: right-click the user, choose **Set password**, enter and confirm it. Only an administrator sees this command; an admin can set, change or remove any user's password with it at any time and hands the password to the team member.
 
 A logged-in user changes their own password by right-clicking the root project (checked out) and choosing **Change my password**: enter the old password, then the new one twice. Check in; the new password applies from the next login.
 
@@ -64,7 +68,7 @@ Access is granted per section or folder through two properties, visible after ch
 - **Owning group name**: the group allowed to change the object (create, delete, update). Default is `All users`, inherited from the parent.
 - **Viewing group name**: empty by default. When set, members of that group can open the object but not change it.
 
-Example from the source: on the `Modules` section set the owning group to `Tosca design specialists` and the viewing group to `Tosca specialists` (or leave it at `All users`); design specialists maintain the Modules, everybody else can only read them. The same works on any component folder, so a project team can be given exactly its own folder.
+Example from the source: on the `Modules` section set the owning group to `Tosca design specialists` and the viewing group to `Tosca specialists` (or leave it at `All users`); design specialists maintain the Modules, everybody else can only read them. Lesson 41 does the same on the `TestCases` section (viewing `All users`, owning `Tosca specialists`) and on **Configurations**, where DEX agents and the database are set up: viewing `All users`, owning `Super users`, so only that group can add or manage agents. Use **Checkout Tree** on the section before editing the properties. The same works at any level: the whole project, a component folder, or a single TestCase, so a project team can be given exactly its own folder.
 
 ## Disabling a user
 
@@ -72,7 +76,7 @@ Select the user and uncheck **Enabled**; the change is replicated to all instanc
 
 ## Personal data report
 
-Tosca can generate a **personal data report** per user, an Excel file created inside the workspace, to trace what a user did: machine ID, workspace ID, user ID and user name, revisions with their creation date, the object IDs that were changed, and comments. A user who has never logged in has an empty report.
+Right-click a user and choose **Create personal data report**: Tosca writes an Excel file into a folder of the workspace, to trace what the user did: machine ID, workspace ID, user ID and user name, revisions with their creation date, the object IDs that were changed, and comments. A user who has never logged in has an empty report.
 
 ## Related
 

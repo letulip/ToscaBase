@@ -9,6 +9,10 @@ sources:
     title: "Tosca Tutorial | Lesson 157 - Module Properties | Configuration, Identification & Steering Params |"
     url: https://www.youtube.com/watch?v=IYGr51H7CIg
     at: "00:10"
+  - id: TuRpQ3aLCdw
+    title: "TRICENTIS Tosca 16.0 - Lesson 15 | Apply Value Range | Rescan | Module Merge"
+    url: https://www.youtube.com/watch?v=TuRpQ3aLCdw
+    at: "09:30"
 ---
 
 Every Module and every ModuleAttribute carries a set of **properties** that XScan fills in when it scans, plus optional **parameters** that you or Tosca add to change how a control is found and steered. Both live in the **Properties** pane on the right of Commander (expand it with the arrow if collapsed). Some are read-only, some editable. Knowing them lets you fix a control that scans fine but does not steer, without rescanning.
@@ -28,7 +32,12 @@ Properties with a blue icon are created by Tosca. The important ones:
 | **Unique ID** | Both | The object's unique number in the workspace; use it to search for the object |
 | **Owning group name**, **Viewing group name** | Module | The user groups that own the object and may see it; see [Users and groups](/ToscaBase/administration/users-and-groups/) |
 | **Data type**, **ActionMode**, **Default value** | Attribute | Type of the value, the default ActionMode, and a default value for the TestStepValue |
+| **Value range** | Attribute | Allowed values for the TestStepValue, offered as a drop-down in the TestCase; see below |
 | **Interface type** | Attribute | `GUI`, `Non-GUI` or `Implicit` |
+
+### Value range
+
+The **Value range** column of the attribute list holds the values a tester may enter for that control, separated by `;` without spaces: `code1;code2;code3`. In a TestStep the TestStepValue then offers them in its drop-down next to `{CLICK}`, `{DBLCLICK}` and `{RIGHTCLICK}`, so nobody has to remember them. Lesson 15 fills the range of a *Discount coupon code* text box with the demo web shop's coupon codes: test data that belongs to a control lives in the Module. `ExplicitName` set to a range restricts attribute *names* the same way.
 
 ## Parameters
 

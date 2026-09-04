@@ -13,6 +13,10 @@ sources:
     title: "Tosca Tutorial | Lesson 126 - Random Mathematical Operations | Evaluation Tool | Obstacle 20 |"
     url: https://www.youtube.com/watch?v=2sbIUWs5wcI
     at: "04:19"
+  - id: P387hZrvq_k
+    title: "TRICENTIS Tosca 16.0 - Lesson 62 | OBSTACLE #20 | Random Mathematical Operations | Evaluation Tool"
+    url: https://www.youtube.com/watch?v=P387hZrvq_k
+    at: "08:35"
 ---
 
 **TBox Evaluation Tool** is a Standard Module in the *expression evaluation* group of the Standard subset. It evaluates a comparison and returns true or false: true passes the step, false fails it. It has a single ModuleAttribute, **Expression**, whose ActionMode is `Verify` by default because the step is a verification. The expression holds two values and a comparison operator (`==`, `!=`, `<`, `>` and so on), and each value can be any dynamic expression: a buffer against another buffer, a buffer against a Test Configuration Parameter, a buffer against a literal or a computed expression. That makes it the general-purpose comparison step in Tosca, and, placed inside an `If`, its multi-way branch.
@@ -50,13 +54,13 @@ Scan the page into a Module with four controls: first number, operator, second n
 ### TestCase
 
 1. **Buffer values.** One TestStep with ActionMode `Buffer` on `Num1`, `Operand` and `Num2`.
-2. **If (addition).** Add an `If` statement. Its condition is a **TBox Evaluation Tool** step whose expression compares `'{B[Operand]}'` with `'+'`.
-3. **Then.** A TestStep that enters into `Result` a math expression adding `{B[Num1]}` and `{B[Num2]}`.
-4. Copy the `If` block three times, changing only the operator in the condition (`-`, `*`, the modulo sign) and inside the math expression.
-5. Set the Workstate to Completed and run several times. Each run buffers different values, exactly one `If` matches, and the result box receives the right value.
+2. **If (addition).** Right-click the TestCase, **Create If statement**. Under *Condition* add a **TBox Evaluation Tool** step (ActionMode `Verify`) with the expression `'{B[Operand]}'=='+'`.
+3. **Then.** Drag the Module under *Then* and enter into `Result` the value `{MATH[{B[Num1]}+{B[Num2]}]}` with ActionMode `Input`.
+4. Copy the `If` block three times, changing only the operator in the condition (`-`, `*`, the modulo sign) and inside the `MATH` expression.
+5. Set the Workstate to Completed and run several times, pressing the page's *Try again* in between. Each run buffers different values, exactly one `If` matches, and the result box receives the right value.
 
 :::note
-The operator and the math expression are shown on screen only: the speaker says "equals" (`==`, as written in Lesson 16) and "the math expression" with the two buffers inside it. The math expression syntax is covered in [Intervals and verification expressions](/ToscaBase/expressions/intervals-and-verification-expressions/).
+Lesson 126 shows the operator and the expression on screen only; Lesson 62 (Tosca 16) spells them out as above. The `MATH` syntax is covered in [String operations](/ToscaBase/expressions/string-operations/) and [Random values](/ToscaBase/expressions/random-values/).
 :::
 
 Four sequential `If` blocks are not elegant but are the only way to express a multi-way branch in Tosca. The result is effectively an automated calculator.

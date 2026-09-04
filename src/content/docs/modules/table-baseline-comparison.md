@@ -9,17 +9,21 @@ sources:
     title: "Tosca Tutorial | Lesson 47 - Use Baseline Comparison for Table Control | Compare Web Tables |"
     url: https://www.youtube.com/watch?v=u33y-Vu12fQ
     at: "02:11"
+  - id: ykanlKKy8tY
+    title: "TRICENTIS Tosca 16.0 - Lesson 76 | OBSTACLE #34 | Table Baseline Comparison | Store Baseline Table"
+    url: https://www.youtube.com/watch?v=ykanlKKy8tY
+    at: "04:07"
 ---
 
 Web tables are dynamic: cell values change between runs, and sometimes the structure changes too. Verifying every cell by hand does not scale. Tosca's **table compare** lets you take a snapshot of a table control, the **baseline**, when its content is correct according to the requirements, and then verify at each execution that the current table still matches it. A difference fails the TestStep and the log shows what changed. It is meant for content that should *not* change; rows and columns that legitimately vary are excluded from the comparison. The table control itself is explained in [Table controls](/ToscaBase/modules/table-controls/).
 
-The source uses the sample insurance application: a Module `Select price option` containing the price table, in a TestCase `Compare table baseline`.
+Lesson 47 uses the sample insurance application: a Module `Select price option` containing the price table, in a TestCase `Compare table baseline`. Lesson 76 solves obstacle 34 of the Tricentis Obstacle Course, *Find the changed cell*, with the same feature.
 
 ## Create a baseline manually
 
 1. Drag the Module into the TestCase so that the table with its rows and columns is in the TestStep. Open the application at the page with the table.
-2. Select the table node in the TestStep. On the **TestCases** tab of the ribbon the last command is **Create baseline**. Click it.
-3. Tosca reads the table that is currently open in the application, stores all its values and confirms that the baseline was created.
+2. Select the table node in the TestStep and click **Create baseline**: the last command on the **TestCases** tab of the ribbon, or the same entry in the node's right-click menu (Lesson 76, Tosca 16).
+3. Tosca reads the table that is currently open in the application, stores all its values (a progress percentage runs for a few seconds on a large table) and confirms that the baseline was created.
 
 Afterwards the table node holds a **table compare expression** as its value with ActionMode `Verify`, and a baseline object with its creation time appears under the table in the TestCase.
 
@@ -36,7 +40,9 @@ The baseline now acts as the expected result for every later comparison.
 
 Add the TestCase to an ExecutionList and execute it (see [Execution lists](/ToscaBase/execution/execution-lists/)). With the application unchanged the TestStep passes and the result shows that the verification against the baseline succeeded.
 
-To see a failure, the source changes the insurance sum on the *Enter product data* page, which changes the yearly prices in the table. The next execution fails, and the result lists the details: *verification failed*, the column that was modified, expected versus actual values, the affected row, and a screenshot. Both **values** and **structure** are compared, so a changed table layout is reported as well, which is a defect to raise with the development team.
+To see a failure, Lesson 47 changes the insurance sum on the *Enter product data* page, which changes the yearly prices in the table. The next execution fails, and the result lists the details: *verification failed*, the column that was modified, expected versus actual values, the affected row, and a screenshot. Both **values** and **structure** are compared, so a changed table layout is reported as well, which is a defect to raise with the development team.
+
+The failure log also works as a diff tool. In obstacle 34 the page changes one random cell of a large table; the eye cannot find it, Tosca can. Scan only the table, create the baseline while the original table is shown, switch the page to the changed table and run the TestCase in ScratchBook. It fails with the message that column *X* in row *23* was modified, with expected (original) and actual (changed) values; those four items are what the obstacle asks for. A run in ScratchBook compares against the baseline just like an ExecutionList run.
 
 ## Update the baseline
 

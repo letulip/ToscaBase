@@ -17,6 +17,14 @@ sources:
     title: "Tosca Tutorial | Lesson 134 - Extract XML | Scan XML | Buffer Values | File Scan | Obstacle 28"
     url: https://www.youtube.com/watch?v=ym1ewJCAAJk
     at: "02:47"
+  - id: CluD_lnzgAA
+    title: "TRICENTIS Tosca 16.0 - Lesson 54 | OBSTACLE #12 | XML Engine | Load, Create & Scan XML File"
+    url: https://www.youtube.com/watch?v=CluD_lnzgAA
+    at: "04:18"
+  - id: FQOIAiFzi5I
+    title: "TRICENTIS Tosca 16.0 - Lesson 70 | OBSTACLE #28 | Scan XML | Extract XML File Scan | Buffer Values"
+    url: https://www.youtube.com/watch?v=FQOIAiFzi5I
+    at: "04:23"
 ---
 
 XML engine (движок XML) поставляет стандартные Module (модули), которые открывают (или создают) XML-файл и проверяют его узлы по XPath. Для более сложных задач **File Scan** превращает XML-файл в Module, где ModuleAttribute (атрибуты модуля) — это узлы XML, так что к ним применим любой ActionMode (режим действия): проверка, ограничение поиска, буферизация значения. Здесь описаны оба подхода и разобран пример, где ISBN вычитывается из XML, сгенерированного веб-страницей.
@@ -56,16 +64,16 @@ Id книги в автосубтитрах распознан как «pk110»;
 Вместо ручного XPath можно поручить Tosca построить Module из файла:
 
 1. В **Modules** выберите **Scan > More > File Scan**.
-2. Укажите XML-файл. Tosca создаст Module с именем файла; переименуйте его (например `BooksXML`).
+2. Укажите XML-файл. Tosca создаст Module с именем файла (Tosca 16 добавляет суффикс `Request`: `books Request`, `catalog Request`); переименуйте его (например `BooksXML`).
 3. Module содержит атрибут `Resource` и по одному ModuleAttribute на каждый узел файла (для `books.xml`: каталог, каждая книга, её title, ISBN и т.д.).
 
-Перед использованием этого Module в TestCase файл нужно открыть с помощью Module **Open XML** (тот же Module открытия, что выше), а значение `Resource` в обоих TestStep должно совпадать.
+Перед использованием этого Module в TestCase файл нужно открыть с помощью Module **Open XML** (тот же Module открытия, что выше), а значение `Resource` в обоих TestStep должно совпадать. Если оставить его пустым в TestStep отсканированного Module, прогон падает с ошибкой *Either a resource or a transition has to be specified* (урок 54); впишите то же имя и запустите снова.
 
 ## Пример: найти ISBN в сгенерированном XML
 
 Obstacle 12 на тренировочном сайте объединяет несколько движков. Ссылка **Load Books** заполняет заблокированную текстовую область XML-кодом; нужно найти ISBN книги *Testing Computer Software* и ввести его в текстовое поле. Так как текстовая область заблокирована, искать в браузере нельзя: XML записывается в файл и ищется там.
 
-Нужные Module: веб-страница (ссылка, текстовая область, текстовое поле), отсканированная XScan; стандартные Module **TBox Create File** и **Open XML**; Module XML-файла, созданный File Scan. Автор держит Module для obstacles в отдельной папке и называет их по номеру задачи.
+Нужные Module: веб-страница (ссылка, текстовая область, текстовое поле), отсканированная XScan; стандартные Module **TBox Create File** и **Open XML**; Module XML-файла, созданный File Scan, — все в папке с именем obstacle.
 
 TestStep (шаги теста) по порядку:
 
@@ -75,7 +83,7 @@ TestStep (шаги теста) по порядку:
 4. **Найти книгу.** Добавить отсканированный XML Module с тем же resource `Books`. Для узла `title` задать ActionMode `Constraint` со значением `Testing Computer Software`; Constraint отфильтровывает дерево до этой книги. Для узла `isbn` той же книги задать ActionMode `Buffer` с именем буфера `BookISBN`.
 5. **Ввести результат.** Снова добавить Module веб-страницы и ввести `{B[BookISBN]}` в поле ISBN.
 
-Установите workstate «completed», обновите страницу и запустите весь TestCase: ссылка кликается, XML буферизуется и пишется в `books.xml`, файл открывается и ищется, ISBN попадает в поле. Сверьте его с файлом.
+Установите workstate «completed», обновите страницу и запустите весь TestCase в ScratchBook: ссылка кликается, XML буферизуется и пишется в `books.xml`, файл открывается и ищется, ISBN попадает в поле.
 
 :::tip
 Схема «буферизовать, записать в файл, отсканировать файл, ограничить, буферизовать» пригодна для любых данных, которые приложение показывает только как сырой текст.
@@ -86,7 +94,7 @@ TestStep (шаги теста) по порядку:
 Obstacle 28 — упрощённый родственник предыдущего примера. Ссылка `catalog` скачивает XML-файл; у каждой записи под `catalog` есть `id` (имя человека), `prefix`, `number` и `gender`. Задача: найти запись с именем *Sue* и ввести в текстовое поле её prefix, а следом number.
 
 1. Скачайте файл по ссылке и запомните его расположение в папке Downloads.
-2. **Scan > More > File Scan**, выберите `catalog.xml`; Tosca создаст Module со всем деревом узлов. Отсканируйте браузер через **Scan > Application** и сохраните текстовое поле как второй Module (`Number`). Держите оба в папке с номером obstacle.
+2. **Scan > More > File Scan**, выберите `catalog.xml`; Tosca создаст Module со всем деревом узлов. Отсканируйте браузер через **Scan > Application** и сохраните текстовое поле как второй Module (`Number`).
 3. TestCase, первый шаг: **Open/Create XML File** с resource `catalog` и путём к файлу. Без него ни один узел прочитать нельзя.
 4. Второй шаг: отсканированный XML Module с resource `catalog`. Для узла `id` задайте ActionMode `Constraint` со значением `Sue`, чтобы выбрать только эту запись. Для `prefix` задайте ActionMode `Buffer` с именем буфера `pre`, для `number` — ActionMode `Buffer` с `num`.
 5. Третий шаг: Module текстового поля, ввод `{B[pre]}{B[num]}`. Два буфера, записанные подряд, конкатенируют значения.
@@ -94,7 +102,7 @@ Obstacle 28 — упрощённый родственник предыдущег
 Установите workstate «completed» и запустите: в текстовое поле попадают prefix и number вместе.
 
 :::note
-Имена узлов приведены так, как их читает автор; точное написание и регистр на экране не видны, поэтому берите их из отсканированного Module.
+Имена узлов приведены так, как их читает автор; точное написание и регистр берите из отсканированного Module. В уроке 70 отсканированное дерево названо «JSON structure»; на самом деле файл — XML.
 :::
 
 ## См. также

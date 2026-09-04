@@ -17,13 +17,17 @@ sources:
     title: "Tosca Tutorial | Lesson 3 - Setup Tosca 16 | AWS EC2 | Virtual Windows Server | Cloud |"
     url: https://www.youtube.com/watch?v=qzYWlZJ8oac
     at: "00:04"
+  - id: Cdmul1knpsI
+    title: "TRICENTIS Tosca 16.0 - Lesson 01 | Download Tosca | Install Tosca 16.0 | Activate license|Automation"
+    url: https://www.youtube.com/watch?v=Cdmul1knpsI
+    at: "06:10"
 ---
 
 Tosca runs on Windows only. Installing it is a download of about 1.5 GB (the size varies with the installer version; the Tosca 15 LTS trial installer in [Licensing](/ToscaBase/getting-started/licensing/) is about 1.4 GB), a wizard where the defaults are fine, a license connection, and one browser extension so that XScan can see web pages. If your own machine is not a Windows box or is too small, the same steps work on a virtual Windows Server in AWS, which is also the only way to drive Tosca from a Mac. A support account and a license request are prerequisites; see [Licensing](/ToscaBase/getting-started/licensing/).
 
 ## Download
 
-- **Support portal route**: log in, open the license request page (where your training license shows as Deployed) and follow the download link, or open the **Downloads** tab. The list contains many Tricentis products; pick the one whose product is Tosca and whose title is **Tricentis Tosca 16.0 LTS** (version 16.0). Do not confuse it with other 16.0-related products.
+- **Support portal route**: log in, open the license request page (where your training license shows as Deployed) and follow the download link, or open the **Downloads** tab. The list contains many Tricentis products; pick the one whose product is Tosca and whose title is **Tricentis Tosca 16.0 LTS** (version 16.0). Do not confuse it with other 16.0-related products. The Tosca 16 lesson reaches the same file from the portal's download page by selecting **Tricentis Tosca** and then the **Tosca 16** entry; the lesson dates the 16.0 release to early December 2022.
 - **Free trial route**: the confirmation page of the trial request offers the installer directly (Tosca 15 LTS at the time of recording).
 
 Download time depends on the connection; the file is a zip. Extract it: the folder contains the installer application and a `sha256` checksum file. Double-click the application to start the wizard.
@@ -41,9 +45,9 @@ Download time depends on the connection; the file is a zip. Extract it: the fold
 9. **Review**: the list of features to install; individual features can still be removed here. Click **Install**.
 10. Installation takes a couple of minutes. Each feature shows a green tick when done; logs are available if something fails. Click **Finish**.
 
-If an older Tosca (for example 14.3) is already installed, the installer offers an **upgrade** to the downloaded version instead of a fresh install.
+If an older Tosca (for example 14.3) is already installed, the installer offers an **upgrade** to the downloaded version instead of a fresh install. If the same version is already there, it offers **Uninstall**, **Repair** or **Modify** instead.
 
-After installation the Windows Start menu has a **Tricentis** folder with all installed components; the one you need is **Tosca Commander**. On first launch it asks for a license: connect it as described in [Licensing](/ToscaBase/getting-started/licensing/), then it opens the start page where you create a workspace ([Workspace and project setup](/ToscaBase/getting-started/workspace-and-project-setup/)).
+After installation the Windows Start menu has a **Tricentis** folder with all installed components; the one you need is **Tosca Commander**. The **About Tosca** dialog in Commander shows the installed version, which is how the Tosca 16 lesson confirms that 16.0 is running. On first launch it asks for a license: connect it as described in [Licensing](/ToscaBase/getting-started/licensing/), then it opens the start page where you create a workspace ([Workspace and project setup](/ToscaBase/getting-started/workspace-and-project-setup/)).
 
 ## Browser extension for XScan
 
@@ -53,7 +57,7 @@ Scanning a web application requires a Tosca extension in that browser. Without i
 2. Click **Add to Chrome** and confirm.
 3. Close the page and scan again; the XScan window now opens and controls can be added.
 
-See [XScan](/ToscaBase/modules/xscan/) for the scan itself.
+To install the extension by hand, add it to Edge or Firefox, and get to know the sample web shop the Tosca 16 lessons automate, see [Tosca Automation Extension](/ToscaBase/getting-started/tosca-automation-extension/). See [XScan](/ToscaBase/modules/xscan/) for the scan itself.
 
 ## Running Tosca on an AWS EC2 Windows Server
 

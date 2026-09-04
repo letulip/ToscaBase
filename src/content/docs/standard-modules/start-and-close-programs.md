@@ -17,13 +17,17 @@ sources:
     title: "Tosca Tutorial | Lesson 27  - Automatically Clear Cache in Chrome Browser | TBox Start Program"
     url: https://www.youtube.com/watch?v=OnymDRufrak
     at: "02:10"
+  - id: zhxLYcSdnJ8
+    title: "TRICENTIS Tosca 16.0 - Lesson 32 | Close Programs | Task Kill | TBox Start Program"
+    url: https://www.youtube.com/watch?v=zhxLYcSdnJ8
+    at: "03:17"
 ---
 
 The process operations in the TBox Automation Modules let a TestCase start any executable, desktop application or browser, and, through the Windows `taskkill` command, close programs that are running. Two companion Modules, TBox Start Timer and TBox Stop Timer, measure how long the steps between them take, which turns a functional step into a simple performance check.
 
 ## TBox Start Program
 
-Add the Module with **Add TestStep** and search for `TBox Start Program`.
+Add the Module with **Add TestStep** and search for `TBox Start Program`; in the Modules section it sits under **Standard modules > Process operations** (Tosca 16 lists it as *Start Program*).
 
 | ModuleAttribute | Meaning |
 |---|---|
@@ -52,6 +56,10 @@ TBox Start Program does not only start programs. Point it at Windows' own `taskk
    - `/IM` selects the process by its image name. `/PID` (process id) is the alternative.
    - `/F` forces termination of every process with that image name. Without it a program such as an editor may show a "do you want to save?" prompt instead of closing, so always include it.
 4. Run the step. The log shows taskkill started with the arguments, and the program disappears.
+
+:::caution
+`/IM` must be immediately followed by the image name. In Lesson 32 the Notepad++ step passed but closed nothing because the arguments were `/F notepad++.exe` without `/IM`; `/IM notepad++.exe /F` fixed it. One image name ends all processes of the program, for example every Chrome tab and window.
+:::
 
 To find the image name open **Task Manager > Processes**, select the app, choose **Go to details**, and read the **Name** column; that is also where the PID is shown. Examples from the video:
 

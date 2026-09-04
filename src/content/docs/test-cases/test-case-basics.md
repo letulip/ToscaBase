@@ -1,6 +1,6 @@
 ---
 title: TestCase basics
-description: What a Tosca TestCase is, technical versus business TestCases, how TestSteps are built from Modules, and a first end-to-end example with WaitOn, Input and Verify.
+description: What a Tosca TestCase is, technical versus business TestCases, how TestSteps are built from Modules, TestStep folders that mirror the business flow, entering values, and a first end-to-end example with WaitOn, Input and Verify.
 level: 1
 sidebar:
   order: 10
@@ -9,9 +9,21 @@ sources:
     title: "Tricentis Tosca Tutorial Part-5 : Tosca Test Case, Tosca Test Case Design and Best Practices"
     url: https://www.youtube.com/watch?v=TMfn5am9x-c
     at: "01:15"
+  - id: R5IzSJwGgSc
+    title: "TRICENTIS Tosca 16.0 - Lesson 08 | Test Case Automation | Create TestCase Structure |"
+    url: https://www.youtube.com/watch?v=R5IzSJwGgSc
+    at: "02:04"
+  - id: nEcKRePDKa0
+    title: "TRICENTIS Tosca 16.0 - Lesson 09 | Test Case Automation | Create Test Steps using Modules |"
+    url: https://www.youtube.com/watch?v=nEcKRePDKa0
+    at: "01:01"
+  - id: ZZ6lWHHHnCg
+    title: "TRICENTIS Tosca 16.0 - Lesson 10 | Test Case Automation | Populate TestStep Values for Test Cases |"
+    url: https://www.youtube.com/watch?v=ZZ6lWHHHnCg
+    at: "04:05"
 ---
 
-A TestCase is a set of instructions that walks through the application and verifies the result. It is written from the software requirements and can be manual or automated; in Tosca an automated TestCase is assembled from Modules (standard and user-defined) plus the test data those Modules need. This page covers the object itself: the two kinds of TestCase, how TestSteps come from Modules, and a complete first example. Which ActionMode to use on each value is the subject of [ActionModes](/ToscaBase/test-cases/action-modes/).
+A TestCase is a set of instructions that walks through the application and verifies the result. It is written from the requirements and can be manual or automated; in Tosca an automated TestCase is assembled from Modules (standard and user-defined) plus the test data they need. Modules hold the technical information (how to find each control), the TestCase holds the business information (the sequence of actions), so automating a manual test is four steps: lay out the TestCase structure, add TestSteps from Modules, enter the values, then configure the browser and run. This page covers the object itself; the click-by-click walkthrough of one such test is [First TestCase](/ToscaBase/getting-started/first-test-case/), and which ActionMode to use on each value is the subject of [ActionModes](/ToscaBase/test-cases/action-modes/).
 
 ## Technical and business TestCases
 
@@ -30,13 +42,25 @@ Everything below is about technical TestCases. Business TestCases are covered wi
 The chord **Ctrl+N**, **Ctrl+T** (two keys in sequence) creates a TestCase; **Ctrl+T** on its own, inside a TestCase, opens the search for adding a TestStep from a Module.
 :::
 2. Give the TestCase a logical name. The new TestCase is empty: it has no TestSteps yet.
-3. Drag a Module from the **Modules** section onto the TestCase. Each dragged Module becomes one TestStep whose TestStepValues are the Module's controls.
+3. Add TestSteps from Modules in one of two ways: drag a Module from the **Modules** section onto the TestCase (or onto a TestStep folder in it), or right-click the TestCase or folder, choose **Search and add TestStep** (**Ctrl+T**) and pick the Module by name from the search list. Either way each Module becomes one TestStep whose TestStepValues are the Module's controls, and the same Module can be added as often as needed (one top-menu Module gives the steps that open the login page, open the cart and log out).
 4. For each control you need, enter a value in the **Value** column and choose an ActionMode. Controls you do not touch are ignored.
-5. Rename each TestStep after the activity it performs (for example `Open Google`, `Search Tricentis Tosca`). Renaming is not required but makes the log readable.
+5. Rename each TestStep after the activity it performs (`Navigate to login page`, `Order blue jeans`); not required, but it makes the log readable. Reorder steps by dragging them; **Expand all** on the context menu of a TestCase, folder or TestStep opens every level at once.
 
 :::tip
-Folders are optional but recommended: group TestCases logically before you create them. In a shared repository, check out the **TestCases** section (or the folder) before creating anything in it. See [Multi-user workspaces](/ToscaBase/administration/multi-user-workspaces/).
+Group TestCases into folders before you create them. In a shared repository, check out the **TestCases** section (or the folder) first; see [Multi-user workspaces](/ToscaBase/administration/multi-user-workspaces/).
 :::
+
+## TestStep folders
+
+TestSteps can be grouped into folders inside the TestCase (right-click the TestCase, **Create folder**), and the folder tree is best written before any Module is dragged in, straight from the manual test. The source builds every TestCase from `Precondition` (open the URL, go to the login page, log in), `Process` and `Post condition` (log out, close the browser), and splits `Process` into one subfolder per stage: `Order product`, `Start checkout`, `Checkout process`, `Verification of prices`, `Confirmation`, `Verification of success`. An empty TestCase structured this way already reads like the manual test; TestSteps are then added folder by folder, and a single folder can be run on its own in the ScratchBook. The left pane shows the tree, the right pane (double-click) is where TestSteps and values are edited. Why folders matter for maintenance is in [TestCase structure](/ToscaBase/best-practices/test-case-structure/#group-teststeps-into-folders); a folder is also the only place a [Repetition](/ToscaBase/test-cases/repetitions/) can be set.
+
+## Entering values
+
+- Type or pick a value in the **Value** column; as soon as a value is entered Tosca sets the ActionMode to `Input`, which is what most steps need. A text field takes the text, a drop-down offers the options XScan captured, a checkbox takes `True`, a button or link takes `X` (a click). An empty value on a clickable control still clicks it under `Input`, but the source recommends `X` so the intent is visible in the step.
+- Every TestStepValue also has a **data type**: `String` by default, with `Numeric`, `Date` and others in the drop-down. It matters for verifications, where two equal numbers compared as strings can fail; see [Verify](/ToscaBase/test-cases/action-modes/#verify).
+- Modules that identify a window by its title, such as `Close Browser`, take a wildcard (`Demo Web Shop*`) with ActionMode `Select`, because nothing is entered.
+- **F9** filters the TestCase to the TestStepValues that have a value; press it again to show every control. Useful in Modules with many attributes of which only a few are used.
+- Values can stay empty while the steps are laid out; the source adds all TestSteps first and fills the values in a second pass.
 
 ## Workstate
 
@@ -48,17 +72,7 @@ The source calls the first state "planning"; the Workstate column in Commander s
 
 ## ActionModes at a glance
 
-Every TestStepValue carries an ActionMode that tells Tosca what to do with the value:
-
-- `Input` enters data or performs a click.
-- `Insert` creates objects in non-UI structures (XML, for example).
-- `Verify` compares a property of the control with the value; the value holds the condition.
-- `Buffer` stores the control's value in a named buffer.
-- `WaitOn` pauses execution until the condition in the value is satisfied (synchronisation).
-- `Select` navigates hierarchy levels to reach child items, typically table rows and cells.
-- `Constraint` restricts a search to items with a particular value, mostly in table columns.
-
-The full reference, with syntax and examples for each, is [ActionModes](/ToscaBase/test-cases/action-modes/).
+Every TestStepValue carries an ActionMode that tells Tosca what to do with the value: `Input` enters data or clicks, `Verify` compares a property with the value, `Buffer` stores the control's value under a name, `WaitOn` pauses until a condition holds, `Select` and `Constraint` navigate and narrow down inside tables, `Insert` creates objects in non-UI structures such as XML. Syntax and examples for each are in [ActionModes](/ToscaBase/test-cases/action-modes/).
 
 ## Worked example: Google search
 
@@ -75,16 +89,12 @@ The scenario: open Google in Chrome, search for *Tricentis Tosca*, open the firs
 
 Notes on individual steps:
 
-- **Step 1.** The generic **TBox Automation Tools > Process Automation** Module can start any program, but for a web application the dedicated `OpenUrl` Module is the right choice; the source first drags the generic one, then replaces it.
+- **Step 1.** The generic **TBox Automation Tools > Process Automation** Module can start any program; for a web application the dedicated `OpenUrl` is the right choice.
 - **Step 2.** The `WaitOn` on the Google icon handles synchronisation: the step does not continue until the page has rendered the icon.
-- **Step 3.** The speaker adds a static 5 s wait because search results can be slow on a poor network. This is what the source does, but Tricentis' own best practice is to replace static waits with `WaitOn`; see [Synchronisation, not waits](/ToscaBase/best-practices/synchronisation-not-waits/).
-- **Step 6.** `Close Browser` identifies the window by title. The asterisk is a wildcard: `Tricentis Tosca*` matches any title starting with that text.
+- **Step 3.** The static 5 s wait is what the source does for slow search results; Tricentis' best practice is to replace static waits with `WaitOn`, see [Synchronisation, not waits](/ToscaBase/best-practices/synchronisation-not-waits/).
+- **Step 6.** `Close Browser` identifies the window by title; the asterisk in `Tricentis Tosca*` is a wildcard.
 - **Browser.** Tosca drives Internet Explorer by default. To run in Chrome, add a Test Configuration Parameter `Browser` on the TestCase and set it to `Chrome`. See [Test Configuration Parameters](/ToscaBase/data-and-parameters/test-configuration-parameters/).
 
 The TestCase is now ready to run from an [ExecutionList](/ToscaBase/execution/execution-lists/) or the ScratchBook.
 
-## Where to go next
-
-- [ActionModes](/ToscaBase/test-cases/action-modes/) for each ActionMode in depth.
-- [TestCase structure](/ToscaBase/best-practices/test-case-structure/) for folders, verification points and Workstate.
-- [Business parameters and libraries](/ToscaBase/data-and-parameters/business-parameters-and-libraries/) for reusing TestSteps across TestCases.
+For reusing TestSteps across TestCases see [Business parameters and libraries](/ToscaBase/data-and-parameters/business-parameters-and-libraries/).

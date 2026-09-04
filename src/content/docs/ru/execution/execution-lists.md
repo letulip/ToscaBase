@@ -17,6 +17,10 @@ sources:
     title: "Tosca Tutorial | Lesson 61 - Synchronize Execution List with Test Cases | Execution Lists |"
     url: https://www.youtube.com/watch?v=c42YuuEksL0
     at: "00:06"
+  - id: Ps208sEHH5Y
+    title: "TRICENTIS Tosca 16.0 - Lesson 17 | Create Execution Lists | Link Test Cases to Execution Lists |"
+    url: https://www.youtube.com/watch?v=Ps208sEHH5Y
+    at: "02:00"
 ---
 
 **ExecutionList (список выполнения)** — это набор готовых к запуску TestCase вместе со всеми результатами, которые эти запуски когда-либо дали. Он живёт в разделе **Execution** workspace и является рекомендуемым способом выполнять тесты после завершения разработки: в отличие от ScratchBook, его логи сохраняются, так что позже можно отлаживать, строить отчёты и сравнивать итерации.
@@ -45,10 +49,15 @@ ExecutionList нельзя создать прямо в корне Execution; с
 1. Возьмите на check-out папку Execution (или вашу родительскую папку).
 2. Правый клик > **Create ExecutionList folder** (есть и как иконка на панели) и переименуйте её, например по названию приложения или релиза.
 3. Правый клик по новой папке > **Create ExecutionList** и задайте имя.
-4. Добавьте TestCase **перетаскиванием** из раздела TestCases. Перетаскивание целой папки TestCase воссоздаёт ту же структуру папок внутри списка; отдельные TestCase добавляются по одному. Можно и вручную собрать внутри списка свою структуру папок, например по функциональности.
+4. Добавьте TestCase **перетаскиванием** из раздела TestCases. Перетаскивание целой папки TestCase воссоздаёт ту же структуру папок внутри списка; отдельные TestCase добавляются по одному. Можно и вручную собрать внутри списка свою структуру папок, например по функциональности. Перед добавлением переведите Workstate TestCase в `Completed`: список предназначен для готовых TestCase, а Workstate к тому же определяет покрытие требований (см. [Требования и взвешивание по риску](/ToscaBase/ru/requirements-and-reporting/requirements-and-risk/)).
 5. Сделайте **check in**, чтобы сохранить список в общий репозиторий.
 
-Каждый TestCase, добавленный в список, становится **execution entry (записью выполнения)**; папки становятся **execution entry folder**. У списка есть вкладка **Test Configuration**, где показаны Test Configuration Parameter, заданные при разработке TestCase; изменение там действует только на этот ExecutionList (см. [Test Configuration Parameters](/ToscaBase/ru/data-and-parameters/test-configuration-parameters/)).
+Каждый TestCase, добавленный в список, становится **execution entry (записью выполнения)**; папки становятся **execution entry folder**. У списка есть вкладка **Test Configuration**, где показаны Test Configuration Parameter, заданные при разработке TestCase; изменение там действует только на этот ExecutionList (см. [Test Configuration Parameters](/ToscaBase/ru/data-and-parameters/test-configuration-parameters/)). Параметр, заданный на ExecutionList, **имеет приоритет** над тем же параметром на TestCase: при `Browser` = Edge на списке и Chrome на TestCase запись выполнится в Edge. Если список ничего не задаёт, действует собственная конфигурация TestCase.
+
+### Исключение и повторение записей
+
+- Чтобы не запускать запись, не удаляя её, правый клик > **Disable**; запись становится серой и пропускается, пока вы не сделаете правый клик > **Enable**.
+- Чтобы выполнить TestCase или целую папку несколько раз, задайте свойство `Repetitions` на execution entry или на execution entry folder; у самого ExecutionList такого свойства нет. Подробнее в [Repetitions и бизнес-TestCase](/ToscaBase/ru/execution/execution-repetitions-and-business-test-cases/).
 
 ## Запуск ExecutionList
 
@@ -57,7 +66,7 @@ ExecutionList нельзя создать прямо в корне Execution; с
 3. Tosca выполняет записи одну за другой, обрабатывает результаты и возвращает вас к списку.
 4. Снова сделайте check in, чтобы результаты постоянно хранились в репозитории.
 
-Панель **Details** показывает результат по каждой записи; раскройте запись, чтобы увидеть, какие TestStep прошли, а какие упали. Через **column chooser** добавьте колонки: summary, время начала и конца, длительность. Результаты остаются в списке, пока вы их не удалите или не заархивируете; как читать, настраивать и экспортировать их — в [Результаты и логи](/ToscaBase/ru/execution/execution-results-and-logs/).
+Панель **Details** показывает результат по каждой записи; раскройте запись, чтобы увидеть, какие TestStep прошли, а какие упали, и откройте результат двойным кликом — в его логе видна причина сбоя (например, ненайденный контрол). Через **column chooser** добавьте колонки: summary, время начала и конца, длительность. Каждый прогон **добавляет новую строку** под записью, так что список хранит полную историю каждого входящего в него TestCase. Результаты остаются там, пока вы их не удалите или не заархивируете; как читать, настраивать и экспортировать их — в [Результаты и логи](/ToscaBase/ru/execution/execution-results-and-logs/).
 
 ## Синхронизация списка с TestCase
 

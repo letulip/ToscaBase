@@ -17,6 +17,14 @@ sources:
     title: "Tosca Tutorial | Lesson 46 - Verify Row and Column Count of a Web Table | Table Controls |"
     url: https://www.youtube.com/watch?v=O5DWq3HSn3c
     at: "00:07"
+  - id: L7UgsxsncrA
+    title: "TRICENTIS Tosca 16.0 - Lesson 30 | Handle Web Tables | Handling Embedded Controls Inside Table Cells"
+    url: https://www.youtube.com/watch?v=L7UgsxsncrA
+    at: "02:15"
+  - id: 4ELkBwejJIU
+    title: "TRICENTIS Tosca 16.0 - Lesson 24 | Set Repetition on Folder Level | Explicit Name | ResultCount"
+    url: https://www.youtube.com/watch?v=4ELkBwejJIU
+    at: "12:22"
 ---
 
 A table scanned with XScan becomes a TBox table control: a ModuleAttribute with a fixed inner structure of rows, columns and cells. In the TestCase you do not address a cell by its HTML; you say which row, which column and which cell, using selectors, constraints and properties that Tosca provides for every table. This doc covers the structure, the selectors, the ActionModes and properties, and the standard steering patterns. Problem tables (shuffled rows, `div` tables, unknown row counts) are in [Obstacles: tables](/ToscaBase/troubleshooting/obstacles-tables/); comparing a table against a saved snapshot is in [Table baseline comparison](/ToscaBase/modules/table-baseline-comparison/).
@@ -65,7 +73,7 @@ Set on the table node (or a row/column/cell node) by choosing the property inste
 | `RowCount` | Number of rows |
 | `ColumnNumber`, `RowNumber` | Index of the selected column or row, counted from 0, relative to the header column or row |
 | `RawColumnNumber`, `RawRowNumber` | The same index counted from 1 |
-| `ResultCount` | Number of cells containing the specified content |
+| `ResultCount` | Number of matches: cells containing the specified content, or, on the row node without a value, the number of rows (header included) |
 
 ## Steering examples
 
@@ -90,16 +98,18 @@ Example 5 verifies the count directly. The other source does it in two steps, wh
 
 On the sample table the header row is counted: four data rows give `RowCount = 5`. See [Evaluation tool](/ToscaBase/standard-modules/evaluation-tool/) for the expression syntax.
 
+Lesson 24 does the same on the web shop cart with `ResultCount`: row node → property `ResultCount`, ActionMode `Buffer`, value `cart items`; `TBox Set Buffer` then computes `{MATH[{B[cart items]}-1]}` to drop the header, and the result drives a folder Repetition that ticks the *Remove* checkbox of row `{REPETITION}` on every pass; see [Repetitions](/ToscaBase/test-cases/repetitions/).
+
 ## Embedded controls inside a table
 
-A button or link that appears in every row (a *Go for it* link in the obstacle list) is scanned by XScan as a control **next to** the table, not inside a row. All such links share the same properties, so a click fails with *more than one control found*. The fix is to make the control part of a cell, so that it is addressed through the row.
+A button, link or checkbox that appears in every row (a *Go for it* link in the obstacle list, the *Remove* checkbox in the web shop cart) is scanned by XScan as a control **next to** the table, not inside a row. All such controls share the same properties (`name` = `removefromcart`, `tag` = `input` for every checkbox), so steering one fails with *more than one control found*. The fix is to make the control part of a cell, so that it is addressed through the row.
 
-**Way 1, rearrange the scanned control.** Scan the table and one link (ignore *not unique*). In the Module, drag the link attribute into the cell of the row that contains it. The tree now reads table → row → cell → link. Re-add the Module to the TestCase: row `$1`, cell `Action` with ActionMode `Select`, link → click. The click lands on the first row's link.
+**Way 1, rearrange the scanned control.** Scan the table and one link (ignore *not unique* on the control; if the table itself is not unique, click **Make unique**, and raise **Filtered items** to see the `table` and `tr` elements). In the Module, drag the link attribute into the cell of the row that contains it. The tree now reads table → row → cell → link. Re-add the Module to the TestCase: row `$1`, cell `Action` with ActionMode `Select`, link → click. The click lands on the first row's link. For the checkbox: row `$1`, cell `Remove` → `Select`, checkbox → `True`.
 
 **Way 2, create the embedded control by hand.** With only the table scanned:
 
-1. In the Module, right-click the cell under the row, open the **...** menu and choose **Create embedded link control** (other control types are offered). Name it, for example `Go`.
-2. Right-click the new control, open **...** again and **Create technical ID parameter**. Add the properties you know: `tag` = `a`, and optionally `InnerText` = `Go for it`. Without technical properties the control only works while there is a single link in the cell.
+1. In the Module, right-click the cell under the row, open the **...** menu and choose **Create embedded link control** (**Create embedded checkbox control** and other types are offered). Name it, for example `Go`.
+2. Right-click the new control, open **...** again and **Create technical ID parameter**. Add the properties you know: `tag` = `a`, and optionally `InnerText` = `Go for it`. Without technical properties the control only works while the cell holds a single control of that business type: Lesson 30 deletes the checkbox's `name` and `tag` parameters again and row `$2` → `Remove` → `True` still works.
 3. In the TestCase: row `$1`, cell `Action` → `Select`, `Go` → type the click method by hand; the drop-down does not offer it for a custom control.
 
 Both ways work for any container, not only tables. The same technique solves obstacle 5 in [Obstacles: tables](/ToscaBase/troubleshooting/obstacles-tables/).

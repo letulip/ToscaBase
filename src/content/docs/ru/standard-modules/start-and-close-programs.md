@@ -17,13 +17,17 @@ sources:
     title: "Tosca Tutorial | Lesson 27  - Automatically Clear Cache in Chrome Browser | TBox Start Program"
     url: https://www.youtube.com/watch?v=OnymDRufrak
     at: "02:10"
+  - id: zhxLYcSdnJ8
+    title: "TRICENTIS Tosca 16.0 - Lesson 32 | Close Programs | Task Kill | TBox Start Program"
+    url: https://www.youtube.com/watch?v=zhxLYcSdnJ8
+    at: "03:17"
 ---
 
 Операции с процессами в TBox Automation Modules позволяют TestCase запустить любой исполняемый файл, настольное приложение или браузер, а через команду Windows `taskkill` — закрыть работающие программы. Два сопутствующих Module, TBox Start Timer и TBox Stop Timer, измеряют, сколько времени занимают шаги между ними, превращая функциональный шаг в простую проверку производительности.
 
 ## TBox Start Program
 
-Добавьте Module через **Add TestStep**, найдя `TBox Start Program`.
+Добавьте Module через **Add TestStep**, найдя `TBox Start Program`; в разделе Modules он лежит в **Standard modules > Process operations** (в Tosca 16 он значится как *Start Program*).
 
 | ModuleAttribute | Значение |
 |---|---|
@@ -52,6 +56,10 @@ TBox Start Program не только запускает программы. На
    - `/IM` выбирает процесс по имени образа. Альтернатива — `/PID` (идентификатор процесса).
    - `/F` принудительно завершает все процессы с таким именем. Без него редактор может вместо закрытия показать окно «сохранить?», поэтому всегда добавляйте этот ключ.
 4. Запустите шаг. В логе видно, что taskkill запущен с аргументами, а программа исчезает.
+
+:::caution
+Сразу за `/IM` должно идти имя образа. В уроке 32 шаг для Notepad++ прошёл, но ничего не закрыл, потому что аргументы были `/F notepad++.exe` без `/IM`; вариант `/IM notepad++.exe /F` всё исправил. Одно имя образа завершает все процессы программы, например все вкладки и окна Chrome.
+:::
 
 Имя образа находится в **Task Manager > Processes**: выбрать приложение, **Go to details**, прочитать столбец **Name**; там же показан PID. Примеры из видео:
 

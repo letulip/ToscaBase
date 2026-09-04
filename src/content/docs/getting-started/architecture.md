@@ -28,7 +28,7 @@ Tosca is not one program but a suite. The part you work in every day is Tosca Co
 | **License server** | Configures, connects and validates licenses so that users can access Tosca. See [Licensing](/ToscaBase/getting-started/licensing/) |
 
 :::note
-The LambdaGeeks tutorial describes Tosca as "five components" including the license server; the QASCRIPT introduction lists four (Commander, Executor, XScan, test repository) and describes the repository as holding "the test data needed for all test execution". Both are simplifications of the same suite; the table above merges them.
+The LambdaGeeks tutorial names five components, the ones in the table above; the QASCRIPT introduction lists four (Commander, Executor, XScan, test repository), leaves out the license server, and describes the repository as holding "the test data needed for all test execution". Both describe the same suite.
 :::
 
 ## Interfaces

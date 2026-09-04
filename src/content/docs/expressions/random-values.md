@@ -21,6 +21,26 @@ sources:
     title: "Tosca Tutorial | Lesson 137 - Select Random Combo Box Item | Random Text | Buffer | Obstacle 31 |"
     url: https://www.youtube.com/watch?v=KyyPVKyA60A
     at: "02:16"
+  - id: XYRtKA8lkBI
+    title: "TRICENTIS Tosca 16.0 - Lesson 13 | Action Mode Buffer | Math Function | Dynamic Expressions |"
+    url: https://www.youtube.com/watch?v=XYRtKA8lkBI
+    at: "22:15"
+  - id: GsSNWhKRiRQ
+    title: "TRICENTIS Tosca 16.0 - Lesson 13 (Updated) | Action Mode Buffer |Math Function |Dynamic Expressions|"
+    url: https://www.youtube.com/watch?v=GsSNWhKRiRQ
+    at: "21:32"
+  - id: UVziTWgMx5o
+    title: "TRICENTIS Tosca 16.0 - Lesson 53| OBSTACLE #11 | Add Random Number |Math Expression| UserSimulation|"
+    url: https://www.youtube.com/watch?v=UVziTWgMx5o
+    at: "06:25"
+  - id: _FC8SPRlez0
+    title: "TRICENTIS Tosca 16.0 - Lesson 55 | OBSTACLE #13 | Regex | Named Group | Extract Random Numbers"
+    url: https://www.youtube.com/watch?v=_FC8SPRlez0
+    at: "06:30"
+  - id: P387hZrvq_k
+    title: "TRICENTIS Tosca 16.0 - Lesson 62 | OBSTACLE #20 | Random Mathematical Operations | Evaluation Tool"
+    url: https://www.youtube.com/watch?v=P387hZrvq_k
+    at: "10:37"
 ---
 
 A TestStepValue does not have to be a fixed string. Tosca ships a set of dynamic expressions, written in curly braces, that generate a new random integer, decimal or string on every run. This makes a TestCase reusable for registration forms, unique IDs and any field that rejects duplicate data. The second half of this page covers the reverse problem: the *application* produces a random value and the TestCase has to read it back, calculate with it or select it.
@@ -32,12 +52,12 @@ Every expression is typed into the **Value** column of a TestStep. As soon as yo
 | Expression | What it generates | Example |
 |---|---|---|
 | `{RND[length]}` | An integer of the given number of digits, without limits. Any length works (the video names 9, 10, 50, 100). | `{RND[10]}` for a 10-digit telephone number |
-| `{RND[lower][upper]}` | An integer between a lower and an upper limit. | `{RND[1000][10000]}` |
+| `{RND[lower][upper]}` | An integer between a lower and an upper limit. | `{RND[1000][10000]}`; `{RND[100][999]}` for a three-digit card code |
 | `{RNDDECIMAL[length][decimal places]}` | A number of the given length with the given number of decimal places (2, 3, 4...). | `{RNDDECIMAL[5][2]}` |
 | `{RNDDECIMAL[decimal places][lower][upper]}` | A decimal number with the given number of decimal places, inside a range. | `{RNDDECIMAL[2][1000][10000]}` |
-| `{RANDOMTEXT[length]}` | A random string of the given length, mixing letters and digits. | `{RANDOMTEXT[5]}` |
+| `{RANDOMTEXT[length]}` | A random string of the given length, mixing letters and digits. | `{RANDOMTEXT[5]}`; `{RANDOMTEXT[10]}` as a card-holder name |
 
-The speaker also mentions that a string with a timestamp can be generated, but does not show it; see [Date expressions](/ToscaBase/expressions/date-expressions/) for `DATETIME`.
+For dates and timestamps see [Date expressions](/ToscaBase/expressions/date-expressions/).
 
 :::note
 If a value is not highlighted after you press Enter, the expression is malformed. Use **Translate value** (below) to confirm what Tosca will actually produce.
@@ -45,7 +65,7 @@ If a value is not highlighted after you press Enter, the expression is malformed
 
 ## Checking what an expression produces
 
-Right-click the TestStepValue and choose **Translate value**. Tosca shows the concrete value it would generate for that expression: a five-character mix of letters and digits for `{RANDOMTEXT[5]}`, a ten-digit number for `{RND[10]}`. This is the fastest way to validate an expression before running the TestCase.
+Right-click the TestStepValue and choose **Translate value**. Tosca shows the concrete value it would generate for that expression: a five-character mix of letters and digits for `{RANDOMTEXT[5]}`, a ten-digit number for `{RND[10]}`. This is the fastest way to validate an expression before running the TestCase. A malformed expression is reported here too: with a closing brace missing, Translate value shows *unexpected end value token* instead of a value.
 
 ## Worked example: registering an account
 
@@ -56,12 +76,12 @@ The example TestCase fills a registration form (first name, last name, e-mail, t
 3. Set the values:
    - First name: `{RANDOMTEXT[5]}`
    - Last name: `{RANDOMTEXT[5]}`
-   - E-mail and password: static values (the video enters a fixed e-mail and password)
+   - E-mail and password: static values
    - Telephone: `{RND[10]}`
    - Radio button: click; checkbox: `true`/`false`; Continue button: click
 4. Run in ScratchBook. The log shows a different generated name and telephone on each run.
 
-The run in the video then fails on the radio button with *more than one control found*: two controls share the same identification properties. That is a Module problem, not an expression problem; fix it by rescanning the Module and picking a unique property (see [Rescan Modules](/ToscaBase/modules/rescan-modules/) and [Control identification](/ToscaBase/modules/control-identification/)).
+The run in the video then fails on the radio button with *more than one control found*: two controls share the same identification properties. That is a Module problem, not an expression problem; see [Rescan Modules](/ToscaBase/modules/rescan-modules/) and [Control identification](/ToscaBase/modules/control-identification/).
 
 :::tip
 A random *password* has to be typed twice (password and confirm password) with the same value, so a plain `{RANDOMTEXT[8]}` in each field would not match. The video defers this case; the pattern is to generate the value once, store it in a [Buffer](/ToscaBase/data-and-parameters/buffers/) and reuse the buffer in both fields.
@@ -71,16 +91,17 @@ A random *password* has to be typed twice (password and confirm password) with t
 
 Three obstacle-course scenarios show how to consume random data instead of generating it. All of them rely on the **Buffer** ActionMode (see [ActionModes](/ToscaBase/test-cases/action-modes/)).
 
-### Read two random numbers and add them (MATH, SENDKEYS)
+### Read two random numbers and add them (MATH, SENDKEYS, UserSimulation)
 
 The page shows two randomly generated numbers and expects their sum in a text box.
 
 1. Scan the two number elements and the result field; rename the ModuleAttributes to `num1`, `num2` and `result`.
 2. For `num1` and `num2` set ActionMode **Buffer**, buffer the `InnerText` property and give each buffer a name.
 3. In `result` do not write `{B[num1]}+{B[num2]}`: a bare `+` between two buffers returns no result. Arithmetic has to go through the math expression: `{MATH[{B[num1]}+{B[num2]}]}` (operands are the buffers, the operator is `+`; subtraction, multiplication and division work the same way).
-4. The sum is entered correctly, but the obstacle is still not marked complete, because the page expects key-by-key typing. Wrap the same expression in **SendKeys** so Tosca emulates a user typing: `{SENDKEYS["{MATH[{B[num1]}+{B[num2]}]}"]}`. With SendKeys the obstacle completes.
+4. The sum is entered correctly (ActionMode **Input**), but the obstacle is still not marked complete, because the page expects key-by-key typing. Wrap the same expression in **SendKeys** so Tosca emulates a user typing: `{SENDKEYS["{MATH[{B[num1]}+{B[num2]}]}"]}`. With SendKeys the obstacle completes.
+5. Alternative without SendKeys (Lesson 53): in the Module, right-click the `result` ModuleAttribute, choose **Create steering parameter**, name it `UserSimulation` (exact spelling, no space) and set it to `true`. The plain `{MATH[...]}` value is then entered as if a user typed it. See [Module properties and parameters](/ToscaBase/modules/module-properties-and-parameters/).
 
-Set the TestCase Workstate to **Completed** before running from ScratchBook, as the video does each time.
+Set the TestCase Workstate to **Completed** before running from ScratchBook, as the video does each time. The same `MATH` expressions with `-`, `*` and modulo, chosen by an `If` per operator, solve the randomised-arithmetic obstacle in [Evaluation tool](/ToscaBase/standard-modules/evaluation-tool/).
 
 ### Buffer random text and select it in a combo box
 
@@ -93,16 +114,20 @@ A button generates a random string that is also one of the entries of a select b
 | Select random text | Select box | **Select**, value `{B[RND]}` |
 | Click submit | Submit button | click (`X`) |
 
-The Module is dragged in four times, one TestStep per action, and every TestStep is renamed. The speaker's recommendation: keep a single action or value per TestStep.
+The Module is dragged in four times, one TestStep per action; the speaker's recommendation is a single action or value per TestStep.
 
 ### Extract several random numbers from a random string (named groups)
 
 Clicking the first edit box reveals a random sentence containing three large numbers, which must be entered into three other boxes. Buffering the whole text is not enough; the numbers are extracted with a regular expression and **named groups**, each group storing its match in a buffer:
 
 ```
-{REGEX[^.*(?<number1>[0-9]+).*(?<number2>[0-9]+).*(?<number3>[0-9]+).*$]}
+{REGEX[^.*?(?<number1>[0-9]+).*?(?<number2>[0-9]+).*?(?<number3>[0-9]+).*?$]}
 ```
 
-Each `(?<name>...)` group stores its match in the buffer of that name; the named-group syntax is explained in [Extracting parts of a value with named groups](/ToscaBase/expressions/intervals-and-verification-expressions/#extracting-parts-of-a-value-with-named-groups). Here the groups are separated by `.*` to swallow the surrounding text and the pattern is anchored with `^` and `$`. As there, the TestStep must use ActionMode **Verify** ("input is not supported for regex values").
+Each `(?<name>...)` group stores its match in the buffer of that name; the named-group syntax is explained in [Extracting parts of a value with named groups](/ToscaBase/expressions/intervals-and-verification-expressions/#extracting-parts-of-a-value-with-named-groups). The groups are separated by `.*?` to swallow the surrounding text (any character except a line break) and the pattern is anchored with `^` and `$`. As there, the TestStep must use ActionMode **Verify** ("input is not supported for regex values").
+
+:::note
+Lesson 119 writes the separators as greedy `.*`, Lesson 55 as lazy `.*?`. Only the lazy form is reliable: a greedy `.*` takes as much text as it can, so `[0-9]+` is left with the last digits of a number instead of the whole number. Use `.*?`.
+:::
 
 The three boxes are then filled with `{B[number1]}`, `{B[number2]}` and `{B[number3]}`.

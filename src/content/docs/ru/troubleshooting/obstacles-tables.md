@@ -37,11 +37,47 @@ sources:
     title: "Tosca Tutorial | Lesson 129 - Dropdown Table | Dynamic XBuffer | Embedded Controls | Obstacle 23"
     url: https://www.youtube.com/watch?v=UQpoXy-e3no
     at: "03:16"
+  - id: 4gM7fyyRJpE
+    title: "TRICENTIS Tosca 16.0 - Lesson 45 | OBSTACLE#3 | Dynamically changing Table Elements – Not a Table |"
+    url: https://www.youtube.com/watch?v=4gM7fyyRJpE
+    at: "01:14"
+  - id: vPB8nzD54Hs
+    title: "TRICENTIS Tosca 16.0 - Lesson 47 | OBSTACLE#5 | Complex Table Interactions | Dynamic Rows |"
+    url: https://www.youtube.com/watch?v=vPB8nzD54Hs
+    at: "01:15"
+  - id: 6sOxIsT81YI
+    title: "TRICENTIS Tosca 16.0 - Lesson 37 | Drag & Drop Operations | Web Table | Repetition |"
+    url: https://www.youtube.com/watch?v=6sOxIsT81YI
+    at: "01:19"
+  - id: IasTOBRqL2Y
+    title: "TRICENTIS Tosca 16.0 - Lesson 51 | OBSTACLE #9 | Drag & Drop Dynamic WebTable Rows | Repetition |"
+    url: https://www.youtube.com/watch?v=IasTOBRqL2Y
+    at: "01:15"
+  - id: 3m45f0Yu9G8
+    title: "TRICENTIS Tosca 16.0 - Lesson 60 | OBSTACLE #18 | Dynamic Web Table | Count Number of Rows| RowCount"
+    url: https://www.youtube.com/watch?v=3m45f0Yu9G8
+    at: "01:15"
+  - id: fWUEjwHsCls
+    title: "TRICENTIS Tosca 16.0 - Lesson 61 | OBSTACLE #19 | Get Last Table Row Value | LastContentRow"
+    url: https://www.youtube.com/watch?v=fWUEjwHsCls
+    at: "01:14"
+  - id: iYsG4hbu7sw
+    title: "TRICENTIS Tosca 16.0 - Lesson 63 | OBSTACLE #21 | Search Table Cell Value | Constraint Action Mode"
+    url: https://www.youtube.com/watch?v=iYsG4hbu7sw
+    at: "01:13"
+  - id: iOh_KgFyhWU
+    title: "TRICENTIS Tosca 16.0 - Lesson 64 | OBSTACLE #22 | Table Search | Dynamic Table | Buffer Action Mode"
+    url: https://www.youtube.com/watch?v=iOh_KgFyhWU
+    at: "01:12"
+  - id: NKe6fY6ffWE
+    title: "TRICENTIS Tosca 16.0 - Lesson 68 | OBSTACLE #26 | Dropdown Table |Dynamic XBuffer |Embedded Controls"
+    url: https://www.youtube.com/watch?v=NKe6fY6ffWE
+    at: "01:13"
 ---
 
 Большинство реальных проблем управления живёт в веб-таблицах: строки меняют позицию между загрузками страницы, число строк неизвестно, «таблица» оказывается набором `div`, или контрол находится внутри ячейки, а XScan поместил его вне строки. Набор инструментов невелик: ActionMode `Constraint` (ограничение) для выбора строки, `Buffer` для чтения ячейки, свойства `RowCount`, `ColumnCount` и `ResultCount`, селекторы строк вроде `$last`, `{XB[...]}`, встроенные контролы и свойство папки `Repetition` (повторение). Базовые понятия — в [Табличных контролах](/ToscaBase/ru/modules/table-controls/) и [ActionModes](/ToscaBase/ru/test-cases/action-modes/).
 
-Рутина для каждого препятствия: отсканировать Module в папку *Obstacles*, создать TestCase с именем препятствия, перетащить в него Module, поставить workstate *Completed*, запустить в ScratchBook.
+Рутина для каждого препятствия: отсканировать Module в папку *Obstacles*, создать TestCase с именем препятствия, перетащить в него Module, поставить workstate *Completed*, запустить в ScratchBook. Серия Tosca 16 (уроки 45–68; *Drop-down table* там — препятствие 26) решает каждое так же; её дополнительные детали отмечены по месту.
 
 ## Не таблица (препятствие 3)
 
@@ -81,15 +117,14 @@ sources:
 **Решение.**
 
 1. Module: обе таблицы.
-2. TestCase: создайте папку `Repetition`, перенесите в неё TestStep таблицы и задайте папке свойство [Repetition](/ToscaBase/ru/test-cases/repetitions/) равным `6`.
-3. В таблице *To-do tasks* выберите столбец *ID* и задайте ячейке значение `{REPETITION}`. Выражение возвращает номер текущего прохода (1, затем 2 и так далее), поэтому на каждом проходе адресуется строка, чей ID равен этому номеру.
-4. Эта строка → `{DRAG}`, ActionMode `Input`.
-5. Таблица *Completed tasks* → `{DROP}`, без строки и столбца: строка сбрасывается в таблицу целиком.
+2. TestCase: в таблице *To-do tasks* выберите столбец *ID*, значение ячейки `1`; строка → `{DRAG}` (ActionMode `Input`); таблица *Completed tasks* → `{DROP}` (тоже `Input`), без строки и столбца, чтобы строка попала в таблицу целиком. Запустите один раз и убедитесь, что одна строка переносится.
+3. Создайте папку `Repetition`, перенесите в неё TestStep и задайте папке свойство [Repetition](/ToscaBase/ru/test-cases/repetitions/) равным `6`.
+4. Замените `1` на `{REPETITION}`. Выражение возвращает номер текущего прохода (1, затем 2 и так далее), поэтому на каждом проходе адресуется строка, чей ID равен этому номеру.
 
-Номер прохода и ID растут вместе, поэтому строки переносятся по порядку. Роль *ID* может играть любой уникальный столбец с номерами от 1 до *n*.
+Номер прохода и ID растут вместе, поэтому строки переносятся по порядку; в логе выполнения каждый проход показан отдельно. Роль *ID* может играть любой уникальный столбец с номерами от 1 до *n*.
 
 :::note
-Субтитры искажают имя выражения; правильно — `{REPETITION}`. Автор не говорит, какой ActionMode стоит у ячейки *ID*; естественный вариант — `Constraint` (препятствие 5).
+Субтитры искажают имя выражения; правильно — `{REPETITION}`. Ни один из трёх уроков не говорит, какой ActionMode стоит у ячейки *ID*; естественный вариант — `Constraint` (препятствие 5). Если оставить у `{DROP}` ActionMode `Verify` по умолчанию, запуск падает с ошибкой *could not find table* (урок 37).
 :::
 
 ## Много строк (препятствие 18)
@@ -110,7 +145,7 @@ sources:
 
 **Причина.** Индекс «последней строки» меняется.
 
-**Решение.** В атрибуте строки таблицы используйте селектор из выпадающего списка вместо номера: `$last` выбирает последнюю строку; `$lastContentRow` здесь делает то же самое. В ячейке столбца *Value* поставьте ActionMode `Buffer` со значением `b_val` и введите `{B[b_val]}` в текстовое поле.
+**Решение.** В атрибуте строки таблицы используйте селектор из выпадающего списка вместо номера: `$last` выбирает последнюю строку; `$lastContentRow` здесь делает то же самое и требует у строки ActionMode `Select`. В ячейке столбца *Value* поставьте ActionMode `Buffer` со значением `b_val` и введите `{B[b_val]}` в текстовое поле.
 
 В списке также есть `$1`, `$n`, строка заголовка и первая пустая строка, так что любую строку можно адресовать, не привязываясь к её позиции.
 
@@ -138,9 +173,9 @@ Constraint плюс `Exists` — самый быстрый поиск по вс�
 **Решение.**
 
 1. Module: расписание и поле результата.
-2. TestCase: в атрибуте строки введите текст заголовка строки (`11 - 13`, как на странице). Tosca выберет строку по этому тексту при условии, что он уникален.
+2. TestCase: в атрибуте строки введите текст заголовка строки (`11 - 13`, как на странице), ActionMode `Select`. Tosca выберет строку по этому тексту при условии, что он уникален.
 3. Ячейка: выберите столбец `Thursday` из заголовков столбцов, ActionMode `Buffer`, значение `b_status`.
-4. Текстовое поле → `{SENDKEYS "{B[b_status]}"}`.
+4. Текстовое поле → `{B[b_status]}` с `Input` (урок 128 использует `{SENDKEYS "{B[b_status]}"}`; работают оба варианта).
 
 :::note
 Динамическое время пришлось бы сначала буферизовать или наложить на него Constraint; автор упоминает это, но не показывает.
@@ -154,7 +189,7 @@ Constraint плюс `Exists` — самый быстрый поиск по вс�
 
 **Решение.**
 
-1. Module: *Generate*, *Submit*, таблица и один выпадающий список (не уникален — нормально). Сделайте `select` [встроенным контролом](/ToscaBase/ru/modules/table-controls/#встроенные-контролы-внутри-таблицы) ячейки, чтобы он существовал в каждой строке.
+1. Нажмите *Generate* до сканирования, чтобы выпадающие списки существовали. Module: *Generate*, *Submit*, таблица и один выпадающий список (не уникален — нормально). Перетащите `select` внутрь ячейки — он станет [встроенным контролом](/ToscaBase/ru/modules/table-controls/#встроенные-контролы-внутри-таблицы), существующим в каждой строке.
 2. TestCase:
    - *Generate* → `X`.
    - Строка `$2` (строка 1 — заголовок). Первая ячейка → ActionMode `Verify`, значение: постоянный текст плюс `{XB[letter]}`. Динамический XBuffer одновременно верифицирует фиксированную часть и сохраняет меняющуюся букву в `letter`.

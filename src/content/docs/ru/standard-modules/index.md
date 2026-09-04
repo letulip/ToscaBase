@@ -4,6 +4,11 @@ description: Модули TBox Automation Modules, входящие в пост�
 level: 2
 sidebar:
   order: 0
+sources:
+  - id: 0Hc_M7ksots
+    title: "TRICENTIS Tosca 16.0 - Lesson 05 | Model-Based Test Automation | Standard Modules of Tosca |"
+    url: https://www.youtube.com/watch?v=0Hc_M7ksots
+    at: "03:02"
 ---
 
 Tosca поставляется с библиотекой готовых модулей — **Standard modules (стандартные модули)**, они же TBox Automation Modules. Они покрывают общие операции, нужные TestCase вокруг тестируемого приложения, и добавляются через **Add TestStep** без сканирования. Раздел описывает каждую группу: что делает модуль, его ModuleAttributes и подводные камни.
@@ -20,3 +25,17 @@ Tosca поставляется с библиотекой готовых моду
 | [Выполнение JavaScript](/ToscaBase/ru/standard-modules/execute-javascript/) | Execute JavaScript и Verify JavaScript Result в TBox XEngines > HTML |
 
 Читайте по порядку: файловые и буферные операции нужны почти каждому TestCase, модули процессов и окон вступают в игру для настольных приложений, а Module для JavaScript — запасной вариант для веб-сценариев, которые HTML engine не выражает напрямую.
+
+## Откуда они берутся
+
+Стандартные модули поставляются как subset (подмножество) `Standard.tsu` в папке установки Tosca. При создании workspace (рабочего пространства) пункт **Use workspace template** указывает на этот файл, и в новом workspace в разделе Modules появляется папка **Standard modules** (см. [Настройка workspace и проекта](/ToscaBase/ru/getting-started/workspace-and-project-setup/)). Что в ней есть, как показано в уроке 5:
+
+| Папка | Примеры |
+|---|---|
+| TBox Automation Tools | Basic window operations (отправка клавиш, операции с окном, прокрутка окна), file operations (сравнение файлов) |
+| TBox XEngines > HTML | `OpenUrl`, `Close Browser` |
+| Excel | Открыть и закрыть книгу, создать и удалить лист ([Excel engine](/ToscaBase/ru/engines/excel-engine/)) |
+| PDF | Сравнение PDF-файлов ([PDF engine](/ToscaBase/ru/engines/pdf-engine/)) |
+| SAP | Модули для приложений SAP |
+
+Каждый из них — готовая функция, которую иначе пришлось бы писать скриптом: открыть URL, закрыть браузер, сравнить файлы, обработать попап. Их можно перетаскивать в любое число TestCase.

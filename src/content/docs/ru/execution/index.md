@@ -6,7 +6,7 @@ sidebar:
   order: 0
 ---
 
-Раздел **Execution** workspace — место, где запускаются готовые TestCase и где живут их результаты. Этот раздел начинается с базовой единицы, ExecutionList (списка выполнения), затем переходит к работе с результатами, вариантам прогона (ручной, повторный, записанный, задокументированный, мультибраузерный) и, наконец, к выносу прогона за пределы Commander: по расписанию, из CI-сервера или на DEX-агенты.
+Раздел **Execution** workspace — место, где запускаются готовые TestCase и где живут их результаты. Этот раздел начинается с базовой единицы, ExecutionList (списка выполнения), затем переходит к работе с результатами, вариантам прогона (ручной, повторный, записанный, задокументированный, мультибраузерный) к выносу прогона за пределы Commander: по расписанию, из CI-сервера или на DEX-агенты, и, наконец, к self-healing, который не даёт прогону упасть при изменении приложения.
 
 | Документ | О чём |
 |---|---|
@@ -21,5 +21,6 @@ sidebar:
 | [Интеграция с Jenkins](/ToscaBase/ru/execution/ci-integration-jenkins/) | Freestyle-задание, запускающее bat-файл с TCShell |
 | [Распределённое выполнение (DEX)](/ToscaBase/ru/execution/distributed-execution-dex/) | Workspace AOS, DEX-агент, Configurations, TestEvent |
 | [Tosca Execution Client](/ToscaBase/ru/execution/tosca-execution-client/) | Запуск TestEvent из PowerShell, shell или Jenkins |
+| [Режим self-healing](/ToscaBase/ru/execution/self-healing/) | Self-healing properties в Module, параметр `SelfHealing` (Weighted, Combination), вылеченные шаги в логе, Apply self-healing properties |
 
 Прочитайте первые два раньше остальных; каждый следующий документ предполагает, что вы умеете создать список и прочитать его лог. Recovery и Cleanup Scenarios (сценарии восстановления и очистки), реагирующие на сбои во время прогона, описаны в [Тест-кейсах](/ToscaBase/ru/test-cases/recovery-and-cleanup-scenarios/).

@@ -13,11 +13,15 @@ sources:
     title: "Tosca Tutorial | Lesson 104 - Merge Duplicate Modules | Workspace Performance | Best Practices |"
     url: https://www.youtube.com/watch?v=VT4f_mHizH4
     at: "03:13"
+  - id: TuRpQ3aLCdw
+    title: "TRICENTIS Tosca 16.0 - Lesson 15 | Apply Value Range | Rescan | Module Merge"
+    url: https://www.youtube.com/watch?v=TuRpQ3aLCdw
+    at: "15:49"
 ---
 
 In a team, the same screen gets scanned more than once: the existing Module is badly named, hard to find among hundreds, or nobody is sure it does what its name says, so someone scans again. Each copy adds objects to the workspace, and every change to the screen must then be made in every copy. Tosca's **Module merge assistant** finds such duplicates and merges them into one Module, re-linking every TestCase that used the removed copy. Why this matters for workspace size and performance is in [Module hygiene](/ToscaBase/best-practices/module-hygiene/); this doc is the procedure.
 
-Both sources demonstrate on a login form (username, password, login button) scanned twice, or copied to simulate a duplicate.
+Lessons 10 and 104 demonstrate on a login form (username, password, login button) scanned twice, or copied to simulate a duplicate; Lesson 15 (Tosca 16) merges two shopping-cart Modules, one of which was extended by [Rescan](/ToscaBase/modules/rescan-modules/).
 
 ## Where the commands are
 
@@ -45,8 +49,8 @@ Use this when you already know the two Modules are the same, or when their attri
 1. Select both Modules (`Login page` and `Login page_2` in the source) and click **Merge Modules**.
 2. The dialog shows the **target** and the **source** with their attributes side by side, and three commands: **Merge**, **Switch Modules** and **Show**.
 3. **Switch Modules** swaps which one is the target. The target is the final Module, so the Module with the better name and complete attributes should be the target.
-4. Attributes that exist in the source but not in the target are shown as differences. For each you can **link** it into the target (keep it) or **unlink** it (drop it). Linking and unlinking can be undone before merging. In the source, `Login page_2` lacks the login button; with `Login page_2` as target the button would be removed, so the speaker switches them.
-5. Click **Merge**. Tosca reports what it did: change rights checked, *n* ModuleAttributes updated in the target, usages re-linked, source deleted.
+4. Attributes with the same identification are linked automatically. Attributes that exist in the source but not in the target are shown as differences. For each you can **link** it into the target (keep it) or **unlink** it (drop it). Linking and unlinking can be undone before merging. In the source, `Login page_2` lacks the login button; with `Login page_2` as target the button would be removed, so the speaker switches them. In Lesson 15 the assistant links the matching *Checkout* and *Terms of service* attributes and flags one attribute as *has conflict, resolve conflict* (self-healing data on one copy); the speaker deletes that attribute rather than resolving it.
+5. Click **Merge**. Tosca reports what it did: change rights checked, *n* ModuleAttributes updated in the target, usages re-linked, source deleted. Rename the surviving Module if its name carries a suffix.
 
 ## What happens to TestCases
 

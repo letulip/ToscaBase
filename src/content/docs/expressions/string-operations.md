@@ -21,6 +21,22 @@ sources:
     title: "Tosca Tutorial | Lesson 148 - Common Issues | Remove Special Characters | String Replace | Escape |"
     url: https://www.youtube.com/watch?v=ajyFN1dqNHE
     at: "05:31"
+  - id: XYRtKA8lkBI
+    title: "TRICENTIS Tosca 16.0 - Lesson 13 | Action Mode Buffer | Math Function | Dynamic Expressions |"
+    url: https://www.youtube.com/watch?v=XYRtKA8lkBI
+    at: "08:35"
+  - id: GsSNWhKRiRQ
+    title: "TRICENTIS Tosca 16.0 - Lesson 13 (Updated) | Action Mode Buffer |Math Function |Dynamic Expressions|"
+    url: https://www.youtube.com/watch?v=GsSNWhKRiRQ
+    at: "11:11"
+  - id: P_sVOT6WM_k
+    title: "TRICENTIS Tosca 16.0 - Lesson 38 | String Operations – Part 1 | Trim | Replace"
+    url: https://www.youtube.com/watch?v=P_sVOT6WM_k
+    at: "06:26"
+  - id: Xsp0uyuYib4
+    title: "TRICENTIS Tosca 16.0 - Lesson 39 | String to Lower/Upper Case| Number of  Occurrences| String Length"
+    url: https://www.youtube.com/watch?v=Xsp0uyuYib4
+    at: "03:16"
 ---
 
 Values read from an application seldom arrive in the shape a verification needs: an order number is embedded in a label, a price carries a currency sign, a text has stray whitespace. Tosca's string operations are dynamic expressions that transform a string in place, usually inside a `TBox Set Buffer` TestStep, so the cleaned value can be buffered and reused. They replace what would be `String` methods in Java or .NET.
@@ -31,17 +47,17 @@ All operations take the input string as the first argument; that string is norma
 
 | Expression | Result | Example from the videos |
 |---|---|---|
-| `{STRINGLENGTH[string]}` | Number of characters | `{STRINGLENGTH[{B[str]}]}` returned `15` for the sample `Tricentis Tosca` |
+| `{STRINGLENGTH[string]}` | Number of characters | `{STRINGLENGTH[{B[str]}]}` returned `15` for the sample `Tricentis Tosca` and `26` for `Tricentis Tosca Automation` (spaces count) |
 | `{STRINGTOUPPER[string]}` | Lower-case letters converted to upper case | `{STRINGTOUPPER[{B[str]}]}` |
 | `{STRINGTOLOWER[string]}` | Upper-case letters converted to lower case | `{STRINGTOLOWER[{B[str]}]}` |
-| `{NUMBEROFOCCURRENCES[string][pattern]}` | How often the pattern (one or more characters) occurs, case-sensitive | `{NUMBEROFOCCURRENCES[{B[str]}][t]}` returned `1` |
-| `{NUMBEROFOCCURRENCES[string][pattern][IGNORECASE]}` | Same, ignoring case | `{NUMBEROFOCCURRENCES[{B[str]}][t][IGNORECASE]}` returned `3` |
+| `{NUMBEROFOCCURRENCES[string][pattern]}` | How often the pattern (one or more characters) occurs, case-sensitive | `{NUMBEROFOCCURRENCES[{B[str]}][t]}` returned `1` (`3` for the longer sample) |
+| `{NUMBEROFOCCURRENCES[string][pattern][IGNORECASE]}` | Same, ignoring case | `{NUMBEROFOCCURRENCES[{B[str]}][t][IGNORECASE]}` returned `3` (`5` for the longer sample) |
 | `{TRIM[string]}` | Removes whitespace from the start and end | `{TRIM[{B[B_order]}]}` |
 | `{STRINGREPLACE[string][pattern][replacement]}` | Replaces every occurrence of the pattern | `{STRINGREPLACE[{B[price1]}]["\$"][]}` |
 | `{STRINGREPLACE[string][pattern][replacement][IGNORECASE]}` | Same, ignoring case | `{STRINGREPLACE[{B[B_order]}][Order number:][][IGNORECASE]}` |
 | `{BASE64[text][ENCODE]}` | Base64-encodes the text | `{BASE64[{CP[username]}][ENCODE]}` |
 | `{BASE64[encoded text][DECODE]}` | Decodes a Base64 string | `{BASE64[{B[encode_username]}][DECODE]}` |
-| `{MATH[expression]}` | Evaluates an arithmetic expression | `{MATH[{B[price1]}+{B[price2]}]}` |
+| `{MATH[expression]}` | Evaluates an arithmetic expression; operands can be buffers or literals | `{MATH[{B[price1]}+{B[price2]}]}`, `{MATH[{B[price]}*25]}` |
 
 :::note
 The Lesson 148 video calls the arithmetic expression `CALC`; this knowledge base uses `MATH` throughout (see [Random values](/ToscaBase/expressions/random-values/)). A correctly formed expression is highlighted in the value cell; if it stays plain text, a brace or bracket is wrong.
@@ -78,6 +94,17 @@ Two items in a cart show `$` prices; the TestCase must verify their total.
 2. **Buffer** the `InnerText` of each into `price1` and `price2`.
 3. `{MATH[{B[price1]}+{B[price2]}]}` in a Set Buffer named `sum` fails: the `$` makes it *not a valid expression*.
 4. Replace the buffers with cleaned versions using `{STRINGREPLACE[{B[price1]}]["\$"][]}` (and the same for `price2`), then run the `MATH` expression again. The run passes and the log shows the total (`39.98` in the video); it can be checked against the page with a **Verify** step.
+
+### Multiply a buffered price by a quantity and verify the total
+
+A web-shop order puts 25 units of one product in the cart; the confirmation page shows a subtotal and a total, and the shipping cost is a known `10`.
+
+1. On the product page, **Buffer** the `InnerText` of the price element into `price_blue_jeans`. When you choose the Buffer ActionMode the `=` in the value cell turns into an arrow.
+2. On the confirmation page, **Verify** the subtotal with `{MATH[{B[price_blue_jeans]}*25]}`: a buffer multiplied by a literal.
+3. **Buffer** the displayed subtotal into `subtotal`, then **Verify** the total with `{MATH[{B[subtotal]}+10]}`.
+4. The first run failed the total check although expected and actual both read `35`: the value was compared as a string. Set the TestStepValue's data type to **Numeric** for verifications of `MATH` results; after that all three checks pass.
+
+**Translate value** on each expression (`25`, `35`) confirms the arithmetic before the run.
 
 ### Encode and decode credentials with Base64
 

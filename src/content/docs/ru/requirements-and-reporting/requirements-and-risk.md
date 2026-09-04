@@ -13,6 +13,10 @@ sources:
     title: "Tosca Tutorial | Live Webinar Session | Requirements Management | Risk Based Testing | Live Project |"
     url: https://www.youtube.com/watch?v=Vgo6EM86-7k
     at: "04:05"
+  - id: eaXtMXX84-o
+    title: "TRICENTIS Tosca 16.0 - Lesson 18 | Link Automated Test Cases to Requirements | Link Execution Lists|"
+    url: https://www.youtube.com/watch?v=eaXtMXX84-o
+    at: "03:38"
 ---
 
 Раздел **Requirements** (требования) в Tosca Commander хранит бизнес-требования к тестируемому приложению, позволяет назначить каждому из них вес риска и привязать к ним TestCase (тест-кейсы), ExecutionList (списки выполнения) и листы TestCase design. После привязки раздел превращается в дашборд проекта: видно, насколько каждое требование покрыто спроектированными TestCase и какая доля прошла или упала при выполнении. Это основа risk-based testing (тестирования на основе рисков), одного из двух столпов Tosca (второй — модульный, модельный подход): покрыть самые рискованные требования минимальным числом TestCase.
@@ -29,9 +33,9 @@ sources:
 
 1. **Папка** (правой кнопкой **Requirements > Create Folder**). Рекомендуется, хотя и не обязательна. Делите папки по приложению, функциональной области, релизу или спринту либо по виду тестирования (regression, smoke) — как удобно проекту. Пример: `Release` > `Sprint 1`.
 2. **Requirement set** (набор требований; правой кнопкой по папке **> Create Requirement Set**). Группа связанных требований, например `User Actions` или `Product Actions`. Новый набор показывает покрытие 100%, потому что пока пуст.
-3. **Requirement** (требование; правой кнопкой по набору **> Create Requirement**), например `Login User`, `Register User`, `Filter Products`, `Add Products`, `Search Products` или по одному требованию на тип транспорта (`Automobile`, `Truck`, `Motorcycle`, `Camper`) в примере со страхованием автомобилей.
+3. **Requirement** (требование; правой кнопкой по набору **> Create Requirement**), например `Login User`, `Register User`, `Filter Products`, `Add Products`, `Search Products`. Требование может содержать **подтребования** (правой кнопкой по требованию **> Create Requirement**): в примере с webshop для Tosca 16 у `Customer Tasks` внутри лежат `Register`, `Login`, `Modify Customer Data` и `Check Order`, а рядом стоят `Handle Product`, `Shopping Cart` и `Order Process`.
 
-Дайте каждому требованию описание («Пользователь должен иметь возможность войти в приложение»). Если документ с требованиями уже есть, перенесите его как есть.
+Дайте каждому требованию описание («Пользователь должен иметь возможность войти в приложение»); готовый документ с требованиями можно перенести как есть.
 
 ## Взвешивание требований
 
@@ -70,7 +74,7 @@ Weight = 2 ^ FrequencyClass * 2 ^ DamageClass
 
 ## Привязка TestCase: coverage specified
 
-Перетащите TestCase или целую папку TestCase (например, папку экземпляров шаблона) на **требование**. TestCase привязываются только к требованиям, никогда к requirement set. Альтернатива: правой кнопкой по требованию **> Create TestCase Link**, переименовать ссылку и перетащить на неё TestCase; прямое перетаскивание на требование быстрее.
+Перетащите TestCase или целую папку TestCase (например, папку экземпляров шаблона) на **требование**; удобнее закрепить раздел Requirements рядом с TestCases (split-screen view). TestCase привязываются только к требованиям, никогда к requirement set. Альтернатива: правой кнопкой по требованию **> Create TestCase Link**, переименовать ссылку и перетащить на неё TestCase; прямое перетаскивание на требование быстрее.
 
 `Coverage Specified` (заданное покрытие) показывает, насколько готовы привязанные TestCase. Оно зависит от **workstate** (рабочего состояния) TestCase, которому соответствует фиксированный процент:
 
@@ -84,7 +88,9 @@ Coverage specified = относительный вес * процент workstat
 
 ## Привязка ExecutionList: execution state
 
-Перетащите [ExecutionList](/ToscaBase/ru/execution/execution-lists/) или отдельные записи выполнения на requirement set или требование. `Execution State` (состояние выполнения) тогда раскладывается на passed, failed, not executed и not linked (например, 37% passed, 30% failed, 20% not executed, 13% not linked). Пока ничего не привязано, `Coverage Specified` и `Execution State` серые и по умолчанию показывают 100%.
+Перетащите [ExecutionList](/ToscaBase/ru/execution/execution-lists/) или отдельные записи выполнения на requirement set или требование. Одной привязки TestCase недостаточно: результаты прогона доходят до требований только через привязанный ExecutionList, поэтому привяжите список, который выполняет эти TestCase, к их родительскому **requirement set** (в примере с webshop ExecutionList `Webshop` привязан к набору `Webshop Frontend`). `Execution State` (состояние выполнения) тогда раскладывается на passed, failed, not executed и not linked (например, 37% passed, 30% failed, 20% not executed, 13% not linked). Пока ничего не привязано, `Coverage Specified` и `Execution State` серые и по умолчанию показывают 100%.
+
+Показатели агрегируются вверх с учётом веса: при одном подтребовании с покрытием 100% и другом с 20% родитель показал 49%, а требование, единственный привязанный TestCase которого упал, показало 100% failed. Вместе эти две колонки образуют матрицу трассируемости проекта.
 
 В свойствах требования те же цифры показаны в блоках **Status** (passed, failed, not linked) и **Calculation results**.
 
@@ -93,7 +99,7 @@ Coverage specified = относительный вес * процент workstat
 [TestSheet](/ToscaBase/ru/test-case-design/test-sheets-and-attributes/) тоже можно перетащить на требование; Tosca создаёт ссылку-заместитель TestCase (TestCase substitute link).
 
 :::note
-На вебинаре перетаскивание TestSheet не сработало. Спикер предположил, что лист содержал только design class без атрибутов и экземпляров, и обещал разобраться позже. Считайте привязку TestSheet возможной, но непроверенной; для дашборда важны привязки TestCase и ExecutionList.
+На вебинаре перетаскивание TestSheet не сработало; спикер предположил, что лист содержал только design class без атрибутов и экземпляров. Считайте привязку TestSheet возможной, но непроверенной; для дашборда важны привязки TestCase и ExecutionList.
 :::
 
 ## Поддержание актуальности значений

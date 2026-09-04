@@ -33,14 +33,42 @@ sources:
     title: "Tosca Tutorial | Lesson 131 - Scroll Into View | Steering Parameter | Scrolling | Obstacle 25"
     url: https://www.youtube.com/watch?v=RsbKnsNt8Rs
     at: "02:17"
+  - id: hoxsuJ47IPg
+    title: "TRICENTIS Tosca 16.0 - Lesson 43 | OBSTACLE#1 | IDs are not everything – Elements with Same IDs"
+    url: https://www.youtube.com/watch?v=hoxsuJ47IPg
+    at: "02:16"
+  - id: kIRtbXyTE0w
+    title: "TRICENTIS Tosca 16.0 - Lesson 44 | OBSTACLE#2 | Duplicate Elements with Same Properties |"
+    url: https://www.youtube.com/watch?v=kIRtbXyTE0w
+    at: "01:14"
+  - id: xFnTy2jdEyk
+    title: "TRICENTIS Tosca 16.0 - Lesson 46 | OBSTACLE#4 | Dynamically Changing ID Property |"
+    url: https://www.youtube.com/watch?v=xFnTy2jdEyk
+    at: "01:13"
+  - id: YUJi9vmPwQ4
+    title: "TRICENTIS Tosca 16.0 - Lesson 48 | OBSTACLE #6 | Multiselect ListBox | Cardinality | Explicit Name |"
+    url: https://www.youtube.com/watch?v=YUJi9vmPwQ4
+    at: "01:16"
+  - id: vV0O1w_lLyM
+    title: "TRICENTIS Tosca 16.0 - Lesson 49 | OBSTACLE #7 | Autocomplete TextBox | ResultCount | InnerText |"
+    url: https://www.youtube.com/watch?v=vV0O1w_lLyM
+    at: "02:16"
+  - id: TgtrmH4JmTY
+    title: "TRICENTIS Tosca 16.0 - Lesson 67 | OBSTACLE #25 | Hidden Element | Click Element"
+    url: https://www.youtube.com/watch?v=TgtrmH4JmTY
+    at: "01:15"
+  - id: ZnmDHKg7rrY
+    title: "TRICENTIS Tosca 16.0 - Lesson 69 | OBSTACLE #27 | Steering Parameter | ScrollingBehavior"
+    url: https://www.youtube.com/watch?v=ZnmDHKg7rrY
+    at: "01:14"
 ---
 
-*Obstacle Course* (полоса препятствий) Tricentis — это публичная веб-страница с серией небольших задач по автоматизации. Каждая воспроизводит проблему, которая встречается в реальных приложениях. В этом документе собраны препятствия, сложность которых — в **идентификации** контрола: XScan сообщает *selected item is not unique*, идентифицирующее свойство меняется от запуска к запуску или элемент вообще не виден. Вывод всегда один: атрибут `id` — хорошее значение по умолчанию, но когда он не работает, используйте другие свойства, родительскую иерархию, другой метод идентификации или Steering Parameter (параметр управления). Сами методы описаны в [Идентификации контролов](/ToscaBase/ru/modules/control-identification/); здесь показано их применение.
+*Obstacle Course* (полоса препятствий) Tricentis — это публичная веб-страница с серией небольших задач по автоматизации, взятых из реальных приложений. В этом документе собраны препятствия, сложность которых — в **идентификации** контрола: XScan сообщает *selected item is not unique*, идентифицирующее свойство меняется от запуска к запуску или элемент вообще не виден. Вывод всегда один: атрибут `id` — хорошее значение по умолчанию, но когда он не работает, используйте другие свойства, родительскую иерархию, другой метод идентификации или Steering Parameter (параметр управления). Сами методы описаны в [Идентификации контролов](/ToscaBase/ru/modules/control-identification/); здесь показано их применение.
 
-Препятствия с веб-таблицами — в [Препятствия: таблицы](/ToscaBase/ru/troubleshooting/obstacles-tables/); ввод, клики и перетаскивание — в [Препятствия: ввод и клики](/ToscaBase/ru/troubleshooting/obstacles-input-and-clicks/).
+Препятствия с веб-таблицами — в [Препятствия: таблицы](/ToscaBase/ru/troubleshooting/obstacles-tables/); ввод, клики и перетаскивание — в [Препятствия: ввод и клики](/ToscaBase/ru/troubleshooting/obstacles-input-and-clicks/); циклы — в [Препятствия: циклы и условия](/ToscaBase/ru/troubleshooting/obstacles-logic/). Каждое препятствие решено одинаково в двух сериях уроков (107–137 и уроки 43–75 по Tosca 16, где *Hidden element* — препятствие 25, а *Scroll into view* — 27); различия отмечены по месту.
 
 :::tip
-Во всех препятствиях клик выполняется значением `X` (ActionMode `Input`), а не `{CLICK}`. `{CLICK}` двигает реальную мышь — это медленнее и не рекомендуется Tricentis; `X` делает то же самое через движок.
+Во всех препятствиях клик выполняется значением `X` (ActionMode `Input`), а не `{CLICK}`. `{CLICK}` двигает реальную мышь — это медленнее и не рекомендуется Tricentis; `X` делает то же самое через движок. При отладке `{CLICK}` всё же полезен: курсор заметно перемещается, и видно, в какого «близнеца» попал клик.
 :::
 
 ## ID не решают всё (IDs are not everything, препятствие 1)
@@ -79,8 +107,9 @@ sources:
 
 **Решение.**
 
-1. В атрибуте Module замените меняющуюся числовую часть `id` на `*`, оставив постоянный префикс (`rd_*`). Подстановочный знак принимает любые цифры.
-2. Перетащите Module в TestCase дважды (*Click once*, *Click twice*), в обоих случаях со значением `X`.
+1. Сканируйте до первого клика; чтобы увидеть, какая часть `id` меняется, кликните один раз и пересканируйте.
+2. В атрибуте Module замените меняющуюся числовую часть `id` на `*`, оставив постоянный префикс (`rd_*`). Подстановочный знак принимает любые цифры.
+3. Перетащите Module в TestCase дважды (*Click once*, *Click twice*), в обоих случаях со значением `X`.
 
 :::note
 Автор называет `*` регулярным выражением; в значениях свойств Tosca это подстановочный знак. Полноценные регулярные выражения описаны в [Интервалах и выражениях проверки](/ToscaBase/ru/expressions/intervals-and-verification-expressions/).
@@ -92,9 +121,9 @@ sources:
 
 **Причина.** По умолчанию атрибут Module можно использовать один раз в TestStep (cardinality `0-1`), а его имя зафиксировано в Module, поэтому один отсканированный элемент списка не может обращаться к четырём разным записям.
 
-**Решение.** Сканируйте только сам список и **один** элемент списка: у всех элементов одинаковые свойства, различаются только имена. У атрибута элемента установите **cardinality** (кардинальность) `0-n` и добавьте Configuration Parameter `ExplicitName = True`: атрибут можно использовать любое число раз, а имя, заданное в TestStep, решает, какой элемент управляется (механизм — в [Идентификации контролов](/ToscaBase/ru/modules/control-identification/#explicitname-выбор-из-testcase)).
+**Решение.** Сканируйте только сам список и **один** элемент списка. Снимите у элемента `InnerText` (идентификация только по `tag`, *not unique* не мешает) и переименуйте его в `item`. У атрибута элемента установите **cardinality** (кардинальность) `0-n` и правой кнопкой — **Create Configuration Parameter** `ExplicitName = True`: атрибут можно использовать любое число раз, а имя, заданное в TestStep, решает, какой элемент управляется (механизм — в [Идентификации контролов](/ToscaBase/ru/modules/control-identification/#explicitname-выбор-из-testcase)).
 
-В TestCase переименуйте элемент в `Functional testing`; появится новая пустая строка элемента, которую переименовываете в следующий метод, и так далее. ActionMode остаётся `Input` — он выбирает запись. Используйте полное видимое имя (`End-to-End testing`, а не `End-to-End`), иначе запись не найдётся.
+В TestCase у списка ActionMode `Select`. Переименуйте элемент в `Functional testing`; появится новая пустая строка элемента, которую переименовываете в следующий метод, и так далее. У элементов остаётся ActionMode `Input` — он выбирает запись. Используйте полное видимое имя (`End-to-End testing`, а не `End-to-End`), иначе запись не найдётся.
 
 ## Поле с автодополнением (Autocomplete text box, препятствие 7, «And counting»)
 
@@ -102,14 +131,14 @@ sources:
 
 **Причина.** Три отдельные трудности: текст поиска динамический; обычный `Input` в поле автодополнения не открывает список подсказок; подсказки — список неизвестной длины.
 
-**Решение.** Module: `span`, поле автодополнения, один элемент списка с cardinality `0-n` и поле для количества. Заголовок страницы может быть динамическим — поставьте подстановочный знак в свойство title. TestSteps:
+**Решение.** Введите в поле любой текст *до* сканирования, иначе списка подсказок нет в DOM. Module: `span` (снимите его динамический `InnerText`, оставьте `id` и `tag`), поле автодополнения, один `li` списка подсказок и поле для количества. Заголовок страницы может быть динамическим — поставьте подстановочный знак в свойство title. TestSteps:
 
 1. `span` → свойство `InnerText`, ActionMode `Buffer`, значение `text`.
 2. Поле автодополнения → `{SENDKEYS "{B[text]}"}`. Посимвольная отправка клавиш запускает автодополнение; обычный `Input` — нет.
 3. Элемент списка → свойство `ResultCount`, ActionMode `Buffer`, значение `count`. `ResultCount` возвращает, сколько контролов подошло под атрибут.
 4. Поле количества → `{B[count]}` с ActionMode `Input`.
 
-`ResultCount` — тот же приём, что и подсчёт ссылок в [Типичных проблемах и решениях](/ToscaBase/ru/troubleshooting/common-problems-and-fixes/).
+`ResultCount` считает только то, что подходит под атрибут, поэтому снимите у `li` его `id` (уникальный у каждой записи) и оставьте один `tag`; урок 113 дополнительно задаёт cardinality `0-n`. Это тот же приём, что и подсчёт ссылок в [Типичных проблемах и решениях](/ToscaBase/ru/troubleshooting/common-problems-and-fixes/).
 
 ## Скрытый элемент (Hidden element, препятствие 24)
 
@@ -132,7 +161,7 @@ sources:
 **Решение.** Используйте **Steering Parameter** вместо шага прокрутки:
 
 1. Отсканируйте текстовое поле (XScan показывает вложенность `iframe` → HTML-документ → поле) и кнопку *Submit*.
-2. Правой кнопкой по атрибуту поля — **Create Steering Parameter**, назовите его `ScrollingBehavior` и установите `Top` (другие значения: `Bottom`, `Center`, `None`).
+2. Правой кнопкой по атрибуту поля — **Create Steering Parameter**, назовите его `ScrollingBehavior` (точное написание, без пробела) и установите `Top` (другие значения: `Bottom`, `Center`, `None`).
 3. TestCase: *Enter text* (`Tosca`, ActionMode `Input`), затем *Click submit* (`X`).
 
 Tosca прокручивает поле к верху viewport перед вводом, поэтому не нужны ни статическое ожидание, ни Module прокрутки. Другие Steering Parameters перечислены в [Свойствах и параметрах Module](/ToscaBase/ru/modules/module-properties-and-parameters/); почему стоит избегать явных ожиданий — в [Синхронизация вместо ожиданий](/ToscaBase/ru/best-practices/synchronisation-not-waits/).

@@ -1,6 +1,6 @@
 ---
 title: Основы TestCase
-description: Что такое TestCase в Tosca, технические и бизнес-TestCase, как TestStep собираются из Module, и первый сквозной пример с WaitOn, Input и Verify.
+description: Что такое TestCase в Tosca, технические и бизнес-TestCase, как TestStep собираются из Module, папки TestStep, повторяющие бизнес-процесс, ввод значений и первый сквозной пример с WaitOn, Input и Verify.
 level: 1
 sidebar:
   order: 10
@@ -9,9 +9,21 @@ sources:
     title: "Tricentis Tosca Tutorial Part-5 : Tosca Test Case, Tosca Test Case Design and Best Practices"
     url: https://www.youtube.com/watch?v=TMfn5am9x-c
     at: "01:15"
+  - id: R5IzSJwGgSc
+    title: "TRICENTIS Tosca 16.0 - Lesson 08 | Test Case Automation | Create TestCase Structure |"
+    url: https://www.youtube.com/watch?v=R5IzSJwGgSc
+    at: "02:04"
+  - id: nEcKRePDKa0
+    title: "TRICENTIS Tosca 16.0 - Lesson 09 | Test Case Automation | Create Test Steps using Modules |"
+    url: https://www.youtube.com/watch?v=nEcKRePDKa0
+    at: "01:01"
+  - id: ZZ6lWHHHnCg
+    title: "TRICENTIS Tosca 16.0 - Lesson 10 | Test Case Automation | Populate TestStep Values for Test Cases |"
+    url: https://www.youtube.com/watch?v=ZZ6lWHHHnCg
+    at: "04:05"
 ---
 
-TestCase (тест-кейс) — это набор инструкций, который проходит через приложение и проверяет результат. Он пишется по требованиям к ПО и может быть ручным или автоматизированным; в Tosca автоматизированный TestCase собирается из Module (модулей) — стандартных и пользовательских — плюс тестовых данных, которые этим Module нужны. Эта страница про сам объект: два вида TestCase, как TestStep (шаги теста) получаются из Module, и полный первый пример. Какой ActionMode (режим действия) ставить на каждое значение — тема документа [Режимы действия](/ToscaBase/ru/test-cases/action-modes/).
+TestCase (тест-кейс) — это набор инструкций, который проходит через приложение и проверяет результат. Он пишется по требованиям и может быть ручным или автоматизированным; в Tosca автоматизированный TestCase собирается из Module (модулей) — стандартных и пользовательских — плюс нужных им тестовых данных. Module хранят техническую информацию (как найти каждый контрол), TestCase — бизнес-информацию (последовательность действий), поэтому автоматизация ручного теста состоит из четырёх шагов: разметить структуру TestCase, добавить TestStep (шаги теста) из Module, ввести значения, затем настроить браузер и запустить. Эта страница — про сам объект; пошаговый разбор одного такого теста — [Первый TestCase](/ToscaBase/ru/getting-started/first-test-case/), а какой ActionMode (режим действия) ставить на каждое значение — тема документа [Режимы действия](/ToscaBase/ru/test-cases/action-modes/).
 
 ## Технические и бизнес-TestCase
 
@@ -30,13 +42,25 @@ TestCase (тест-кейс) — это набор инструкций, кот�
 Аккорд **Ctrl+N**, **Ctrl+T** (две клавиши подряд) создаёт TestCase; одиночный **Ctrl+T** внутри TestCase открывает поиск для добавления TestStep из Module.
 :::
 2. Дайте TestCase осмысленное имя. Новый TestCase пуст: в нём пока нет TestStep.
-3. Перетащите Module из секции **Modules** на TestCase. Каждый перетащенный Module становится одним TestStep, а его TestStepValue — это контролы Module.
+3. Добавьте TestStep из Module одним из двух способов: перетащите Module из секции **Modules** на TestCase (или на папку TestStep внутри него) либо щёлкните правой кнопкой по TestCase или папке, выберите **Search and add TestStep** (**Ctrl+T**) и найдите Module по имени в списке поиска. В обоих случаях каждый Module становится одним TestStep, а его TestStepValue — это контролы Module; один и тот же Module можно добавлять сколько угодно раз (один Module верхнего меню даёт шаги, которые открывают страницу логина, открывают корзину и выполняют выход).
 4. Для каждого нужного контрола введите значение в колонке **Value** и выберите ActionMode. Нетронутые контролы игнорируются.
-5. Переименуйте каждый TestStep по выполняемому действию (например `Open Google`, `Search Tricentis Tosca`). Это необязательно, но делает лог читаемым.
+5. Переименуйте каждый TestStep по выполняемому действию (`Navigate to login page`, `Order blue jeans`); необязательно, но лог становится читаемым. Порядок шагов меняется перетаскиванием; **Expand all** в контекстном меню TestCase, папки или TestStep раскрывает все уровни сразу.
 
 :::tip
-Папки необязательны, но рекомендуются: логически сгруппируйте TestCase до их создания. В общем репозитории перед созданием чего-либо нужно сделать check-out (взять на редактирование) секцию **TestCases** (или папки). См. [Многопользовательские workspace](/ToscaBase/ru/administration/multi-user-workspaces/).
+Сгруппируйте TestCase по папкам до их создания. В общем репозитории сначала сделайте check-out (возьмите на редактирование) секцию **TestCases** (или папку); см. [Многопользовательские workspace](/ToscaBase/ru/administration/multi-user-workspaces/).
 :::
+
+## Папки TestStep
+
+TestStep можно группировать в папки внутри TestCase (правой кнопкой по TestCase, **Create folder**), и дерево папок лучше разметить до того, как перетащен первый Module, — прямо по ручному тесту. В источнике каждый TestCase строится из `Precondition` (открыть URL, перейти на страницу логина, войти), `Process` и `Post condition` (выйти, закрыть браузер), а `Process` делится на подпапку для каждого этапа: `Order product`, `Start checkout`, `Checkout process`, `Verification of prices`, `Confirmation`, `Verification of success`. Пустой TestCase с такой структурой уже читается как ручной тест; затем TestStep добавляются папка за папкой, а отдельную папку можно запустить саму по себе в ScratchBook. Левая панель показывает дерево, правая (по двойному щелчку) — место редактирования TestStep и значений. Почему папки важны для сопровождения, см. в [Структуре TestCase](/ToscaBase/ru/best-practices/test-case-structure/); папка — ещё и единственное место, где задаётся [Repetition](/ToscaBase/ru/test-cases/repetitions/).
+
+## Ввод значений
+
+- Введите или выберите значение в колонке **Value**; как только значение введено, Tosca ставит ActionMode `Input` — то, что нужно большинству шагов. Текстовое поле принимает текст, выпадающий список предлагает варианты, захваченные XScan, чекбокс принимает `True`, кнопка или ссылка — `X` (клик). Пустое значение на кликабельном контроле под `Input` тоже кликает, но источник рекомендует `X`, чтобы намерение было видно в шаге.
+- У каждого TestStepValue есть и **тип данных**: по умолчанию `String`, в списке также `Numeric`, `Date` и другие. Он важен для проверок, где два равных числа, сравниваемые как строки, могут не совпасть; см. [Verify](/ToscaBase/ru/test-cases/action-modes/#verify).
+- Module, которые находят окно по заголовку, например `Close Browser`, принимают подстановочный шаблон (`Demo Web Shop*`) с ActionMode `Select`, потому что ничего не вводится.
+- **F9** фильтрует TestCase до TestStepValue, у которых есть значение; повторное нажатие показывает все контролы. Удобно в Module со многими атрибутами, из которых используются несколько.
+- Значения могут оставаться пустыми, пока раскладываются шаги; в источнике сначала добавляются все TestStep, а значения заполняются вторым проходом.
 
 ## Workstate
 
@@ -48,17 +72,7 @@ TestCase (тест-кейс) — это набор инструкций, кот�
 
 ## ActionMode вкратце
 
-Каждый TestStepValue несёт ActionMode, который говорит Tosca, что делать со значением:
-
-- `Input` вводит данные или выполняет клик.
-- `Insert` создаёт объекты в не-UI структурах (например, XML).
-- `Verify` сравнивает свойство контрола со значением; в значении записано условие.
-- `Buffer` сохраняет значение контрола в именованный буфер.
-- `WaitOn` приостанавливает выполнение, пока условие в значении не выполнится (синхронизация).
-- `Select` проходит по уровням иерархии до дочерних элементов, обычно строк и ячеек таблиц.
-- `Constraint` ограничивает поиск элементами с определённым значением, в основном в колонках таблиц.
-
-Полный справочник с синтаксисом и примерами — [Режимы действия](/ToscaBase/ru/test-cases/action-modes/).
+Каждый TestStepValue несёт ActionMode, который говорит Tosca, что делать со значением: `Input` вводит данные или кликает, `Verify` сравнивает свойство со значением, `Buffer` сохраняет значение контрола под именем, `WaitOn` ждёт выполнения условия, `Select` и `Constraint` проходят по таблицам и сужают поиск, `Insert` создаёт объекты в не-UI структурах вроде XML. Синтаксис и примеры для каждого — в [Режимах действия](/ToscaBase/ru/test-cases/action-modes/).
 
 ## Рабочий пример: поиск в Google
 
@@ -75,16 +89,12 @@ TestCase (тест-кейс) — это набор инструкций, кот�
 
 Замечания по шагам:
 
-- **Шаг 1.** Универсальный Module **TBox Automation Tools > Process Automation** запускает любую программу, но для веб-приложения правильный выбор — специализированный `OpenUrl`; в источнике сначала перетаскивают универсальный, потом заменяют.
+- **Шаг 1.** Универсальный Module **TBox Automation Tools > Process Automation** запускает любую программу; для веб-приложения правильный выбор — специализированный `OpenUrl`.
 - **Шаг 2.** `WaitOn` на значке Google обеспечивает синхронизацию: шаг не продолжается, пока страница не отрисует значок.
-- **Шаг 3.** Автор добавляет статическое ожидание 5 с, потому что результаты поиска могут грузиться медленно при плохой сети. Так сделано в источнике, но лучшая практика Tricentis — заменять статические ожидания на `WaitOn`; см. [Синхронизация вместо ожиданий](/ToscaBase/ru/best-practices/synchronisation-not-waits/).
-- **Шаг 6.** `Close Browser` находит окно по заголовку. Звёздочка — подстановочный символ: `Tricentis Tosca*` соответствует любому заголовку, начинающемуся с этого текста.
+- **Шаг 3.** Статическое ожидание 5 с — так в источнике сделано для медленных результатов поиска; лучшая практика Tricentis — заменять статические ожидания на `WaitOn`, см. [Синхронизация вместо ожиданий](/ToscaBase/ru/best-practices/synchronisation-not-waits/).
+- **Шаг 6.** `Close Browser` находит окно по заголовку; звёздочка в `Tricentis Tosca*` — подстановочный символ.
 - **Браузер.** По умолчанию Tosca работает с Internet Explorer. Чтобы запускать в Chrome, добавьте на TestCase Test Configuration Parameter `Browser` со значением `Chrome`. См. [Test Configuration Parameters](/ToscaBase/ru/data-and-parameters/test-configuration-parameters/).
 
 TestCase готов к запуску из [ExecutionList](/ToscaBase/ru/execution/execution-lists/) или ScratchBook.
 
-## Куда дальше
-
-- [Режимы действия](/ToscaBase/ru/test-cases/action-modes/) — каждый ActionMode подробно.
-- [Структура TestCase](/ToscaBase/ru/best-practices/test-case-structure/) — папки, точки проверки и Workstate.
-- [Business Parameter и библиотеки](/ToscaBase/ru/data-and-parameters/business-parameters-and-libraries/) — переиспользование TestStep между TestCase.
+О переиспользовании TestStep между TestCase см. [Business Parameters и библиотеки TestStep](/ToscaBase/ru/data-and-parameters/business-parameters-and-libraries/).

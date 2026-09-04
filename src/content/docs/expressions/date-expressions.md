@@ -29,6 +29,18 @@ sources:
     title: "Tosca Tutorial | Lesson 139 - Common RealTime Tosca Problems & Fixes | Tosca Date Format |"
     url: https://www.youtube.com/watch?v=ucnJlmkhs04
     at: "02:19"
+  - id: qpASGoSgKww
+    title: "TRICENTIS Tosca 16.0 - Lesson 56 | OBSTACLE #14 | Dynamic Date | Date Expressions | Calc Date"
+    url: https://www.youtube.com/watch?v=qpASGoSgKww
+    at: "07:29"
+  - id: dAx-dE1xf-I
+    title: "TRICENTIS Tosca 16.0 - Lesson 59 | OBSTACLE #17 | Dynamic Date Expression | Tomorrow’s Date"
+    url: https://www.youtube.com/watch?v=dAx-dE1xf-I
+    at: "05:24"
+  - id: 646CwrhT93k
+    title: "TRICENTIS Tosca 16.0 - Lesson 71 | OBSTACLE #29 | Future Date| LDay | Date Expressions| Offset"
+    url: https://www.youtube.com/watch?v=646CwrhT93k
+    at: "05:19"
 ---
 
 Date fields rarely accept a fixed value: a start date must lie one month in the future, a form wants tomorrow's date, a report needs the first day of the next month. A static date stored in a TestSheet works on the day it was written and fails the next day. Tosca's date expressions compute the value at run time from the current date (or any base date), apply an offset and print it in the format the application expects, without any Java or .NET code.
@@ -50,9 +62,9 @@ Typing `{` in a TestStepValue lists all expressions; the date-related ones are b
 | `{SYSTEMDATE}` | The full date in the format defined by the operating system | system-formatted date |
 | `{NDAY}`, `{NMONTH}`, `{NYEAR}` | Day, month, year as two digits, zero-padded (`8` becomes `08`) | `08` for August |
 | `{ADAY}`, `{AMONTH}` | Three-letter abbreviation of the weekday or month | `Mon`, `Mar` |
-| `{LDAY[date expression]}` | The weekday of a date, as a word, according to the system settings | `Friday` |
+| `{LDAY[date][offset][format]}` | The weekday of a date, as a word, according to the system settings; offset and format are optional and work as in `DATE` | `Friday` |
 
-The speaker notes that more expressions exist than these; the list is what the videos demonstrate.
+More expressions exist; the list is what the videos demonstrate.
 
 ## Calculated dates: DATE with base, offset and format
 
@@ -76,14 +88,14 @@ Tosca's own description of the expression uses the example: base date 23 May 201
 |---|---|
 | `{DATE[][+1M+1D][MM/dd/yyyy]}` | One month and one day from today, US format: `11/17/2023` when run on 16 October 2023 |
 | `{DATE[][+1D][]}` | Tomorrow in the default format |
-| `{DATE[][+1D][dd<sep>MM<sep>yyyy]}` | Tomorrow as day-month-year (the obstacle in Lesson 123 requires this order) |
+| `{DATE[][+1D][dd.MM.yyyy]}` | Tomorrow as day-month-year: `14.10.2024` when run on 13 October 2024 (obstacle 17) |
 | `{DATE[{B[fulldate]}][+2M-1D][yyyy<sep>MM<sep>dd]}` | Two months ahead, one day back, from a buffered date: 14.8.2023 becomes 13 October 2023 |
 | `{MONTHFIRST[{B[generatedDate]}][+2M][yyyy-MM-dd]}` | First day of the second following month, ISO format |
-| `{LDAY[{DATE[25<sep>12<sep>2024][+2Y][]}]}` | Weekday of 25 December 2026: `Friday` |
+| `{LDAY[{DATE[25.12.2025][+2Y][]}]}` | Weekday of 25 December 2027: `Saturday` (with base `25.12.2024`, Lesson 135: `Friday`) |
 | `{DATE[{B[todaydate]}][][dd<sep>MM<sep>yyyy]}` | Reformat a buffered date without an offset |
 
 :::note
-`<sep>` stands for the separator between day, month and year (`.`, `/` or `-`): in Lessons 38, 123, 135 and 139 the speaker types it but never says it, so it cannot be confirmed from the audio. Where it is spoken (`MM/dd/yyyy` in Lesson 36) it is given literally. `MONTHFIRST` accepts the same base/offset/format arguments as `DATE`.
+`<sep>` stands for the separator between day, month and year (`.`, `/` or `-`): in Lessons 38 and 139 the speaker types it but never says it. Where it is spoken it is given literally: `MM/dd/yyyy` in Lesson 36, `dd.MM.yyyy` and `25.12.2025` in Lessons 59 and 71. `MONTHFIRST` accepts the same base/offset/format arguments as `DATE`; Lesson 56 puts the format in double quotes (`["yyyy-MM-dd"]`), Lesson 120 does not, and both run.
 :::
 
 Right-click a value and choose **Translate value** to see the computed date before running; the videos use it on every expression.
@@ -96,15 +108,15 @@ The Tricentis vehicle demo application's *Enter product data* screen rejects a s
 
 ### Tomorrow's date (obstacles 17 and "get tomorrow's date")
 
-Scan the single text box, drag the Module in, and set `{DATE[][+1D][]}` if the default format already matches, or `{DATE[][+1D][dd<sep>MM<sep>yyyy]}` when the field dictates day-month-year. Translate value confirms tomorrow's date. If the page does not react to the entered text (the obstacle in Lesson 123 did not detect the input), type it with `{SENDKEYS[...]}` instead, as described in [Random values](/ToscaBase/expressions/random-values/#read-two-random-numbers-and-add-them-math-sendkeys).
+Scan the single text box, drag the Module in, and set `{DATE[][+1D][]}` if the default format already matches, or `{DATE[][+1D][dd.MM.yyyy]}` when the field dictates day-month-year. Tosca's tooltip for `DATE` says it: a value is calculated from a base date with deviations and displayed in a user-defined format; an empty base is the system date. Translate value confirms tomorrow's date. If the page does not react to the entered text (the obstacle in Lesson 123 did not detect the input), type it with `{SENDKEYS[...]}` instead, as described in [Random values](/ToscaBase/expressions/random-values/#read-two-random-numbers-and-add-them-math-sendkeys).
 
 ### First day of the second following month (obstacle 14, "confusing dates")
 
 A calendar button generates a date in US format; the answer must be the first of the second following month in ISO format, then **Done** is clicked.
 
 1. Scan the calendar button, the generated-date box, the solution box and the Done button.
-2. For both date ModuleAttributes, right-click in the properties section, choose **Configuration Parameter**, and add the system-defined parameter `TargetDateFormat` with the US month/day/year pattern as its value. The name must be spelled exactly as Tosca defines it.
-3. TestSteps: click the button; **Buffer** the generated date into `generatedDate` and change its data type from String to **Date**; enter `{MONTHFIRST[{B[generatedDate]}][+2M][yyyy-MM-dd]}` into the solution box; click Done.
+2. For both date ModuleAttributes, right-click in the properties section, choose **Create configuration parameter**, and add the system-defined parameter `TargetDateFormat` with the value `M/d/yyyy` (Lesson 56 spells it out). The name must be spelled exactly as Tosca defines it.
+3. TestSteps: click the button; **Buffer** the generated date into `generatedDate` and change its data type from String to **Date**; enter `{MONTHFIRST[{B[generatedDate]}][+2M][yyyy-MM-dd]}` into the solution box; click Done. Buffering the `InnerText` as a string instead (Lesson 56's first attempt) produces a wrong year; the value has to be buffered as a Date.
 
 :::note
 In the video the expression silently turned into `MONTH` while being typed and had to be corrected back to `MONTHFIRST`; check the highlighted name before running.
@@ -112,7 +124,7 @@ In the video the expression silently turned into `MONTH` while being typed and h
 
 ### Weekday of a future date (obstacle 29, "future Christmas")
 
-The field wants the weekday, as a word, on which 25 December falls two years from now. Nest a `DATE` with the literal base date and `+2Y` offset inside `LDAY`: `{LDAY[{DATE[25<sep>12<sep>2024][+2Y][]}]}`. Translate value returns `Friday`, which is entered into the text box.
+The field wants the weekday, as a word, on which 25 December falls two years from now. Nest a `DATE` with the literal base date and `+2Y` offset inside `LDAY`: `{LDAY[{DATE[25.12.2025][+2Y][]}]}`. Translate value returns `Saturday` (25 December 2027), which is entered into the text box; with `+1Y` it returns `Friday`, without an offset `Thursday`. Lesson 135 ran the same expression a year earlier with base `25.12.2024` and got `Friday`.
 
 ## The Tosca date format problem
 

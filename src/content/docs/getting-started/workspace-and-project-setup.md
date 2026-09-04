@@ -17,6 +17,14 @@ sources:
     title: "Tosca Tutorial | Lesson 3 - Setup Tosca 16 | AWS EC2 | Virtual Windows Server | Cloud |"
     url: https://www.youtube.com/watch?v=qzYWlZJ8oac
     at: "18:39"
+  - id: uw00il1mL40
+    title: "TRICENTIS Tosca 16.0 - Lesson 03 | Create Workspace | Add Subset .tsu File | Automation Tool"
+    url: https://www.youtube.com/watch?v=uw00il1mL40
+    at: "02:02"
+  - id: 0Hc_M7ksots
+    title: "TRICENTIS Tosca 16.0 - Lesson 05 | Model-Based Test Automation | Standard Modules of Tosca |"
+    url: https://www.youtube.com/watch?v=0Hc_M7ksots
+    at: "05:07"
 ---
 
 A **workspace** is the repository Tosca Commander works in. Everything you build (Modules, TestCases, test data, ExecutionLists, requirements) lives in a workspace, and you must connect to one before you can develop, maintain or execute anything. The workspace itself is defined on the local machine; its data can be kept locally or synchronised with a database that acts as a shared repository for a team. The first thing to do after installing and licensing Tosca is to create one.
@@ -36,7 +44,11 @@ For learning Tosca, a single-user workspace is all you need, and it is what the 
 
 The creation dialog offers **Use workspace template**. The standard template, `Standard.tsu`, preloads the workspace with default Modules (the [Standard modules](/ToscaBase/standard-modules/)), reusables, report templates and sample TestCases that every project needs. Always use it for a new project; you can also supply your own template.
 
-If the template is not listed, browse to it: it sits under the Tosca projects folder, `C:\Tosca_Projects\`, which also holds the `Common Repositories` and `Workspaces` folders, in the `Tosca Commander` subfolder as `Standard.tsu` (folder names as spoken in the source).
+If the template is not listed, browse to it: it sits under the Tosca projects folder, `C:\Tosca_Projects\`, which also holds the `Common Repositories` and `Workspaces` folders, in the `Tosca Commander` subfolder as `Standard.tsu` (folder names as read out in the QASCRIPT lesson, not verified on screen; the LambdaGeeks tutorial keeps the default path and does not name them). The Tosca 16 lessons confirm this: the path of `Standard.tsu` appears in the template field of the dialog, and the installer creates the folders.
+
+### Training subset: Automation Specialist Level 1 Base.tsu
+
+A `.tsu` file is a Tosca **subset**, a package of workspace objects. The Tosca 16 lessons build their workspace not from `Standard.tsu` but from `Automation Specialist Level 1 Base.tsu`, the subset of the Tricentis Automation Specialist Level 1 course. Besides the Standard modules it contains a `Workshop` folder of ready-made Modules with the controls and locators of the demo web shop that the lessons automate, so you can start on TestCases without scanning first. The lesson says both that the file is downloaded and that it comes with the Tosca 16 installation; look for it next to `Standard.tsu` and download it from the Tricentis training material if it is not there. Use it exactly like the standard template: tick **Use workspace template**, **Browse** to the `.tsu`, and create the workspace (the lesson names it `Project e-commerce`). After creation the **Modules** section shows both the `Standard modules` and the `Workshop` folder.
 
 ## Create a single-user workspace
 

@@ -9,6 +9,10 @@ sources:
     title: "Tosca Tutorial | Lesson 157 - Module Properties | Configuration, Identification & Steering Params |"
     url: https://www.youtube.com/watch?v=IYGr51H7CIg
     at: "00:10"
+  - id: TuRpQ3aLCdw
+    title: "TRICENTIS Tosca 16.0 - Lesson 15 | Apply Value Range | Rescan | Module Merge"
+    url: https://www.youtube.com/watch?v=TuRpQ3aLCdw
+    at: "09:30"
 ---
 
 У каждого Module и каждого ModuleAttribute есть набор **свойств** (properties), которые XScan заполняет при сканировании, и необязательные **параметры** (parameters), которые добавляете вы или Tosca, чтобы изменить, как контрол ищется и управляется (steering). И те и другие живут в панели **Properties** справа в Commander (если она свёрнута, разверните стрелкой): выделите Module или атрибут — и панель их перечислит. Часть доступна только для чтения, часть редактируется. Знание этих настроек позволяет починить контрол, который сканируется нормально, но не управляется, без пересканирования. Имена чувствительны к регистру.
@@ -28,7 +32,12 @@ sources:
 | **Unique ID** | Оба | Уникальный номер объекта в workspace; по нему объект можно искать |
 | **Owning group name**, **Viewing group name** | Module | Группы пользователей, владеющие объектом и имеющие право его видеть; см. [Пользователи и группы](/ToscaBase/ru/administration/users-and-groups/) |
 | **Data type**, **ActionMode**, **Default value** | Атрибут | Тип значения, ActionMode по умолчанию и значение по умолчанию для TestStepValue |
+| **Value range** (диапазон значений) | Атрибут | Допустимые значения TestStepValue, предлагаемые выпадающим списком в TestCase; см. ниже |
 | **Interface type** | Атрибут | `GUI`, `Non-GUI` или `Implicit` |
+
+### Value range
+
+Столбец **Value range** списка атрибутов хранит значения, которые тестировщик может ввести для этого контрола, через `;` без пробелов: `code1;code2;code3`. В TestStep TestStepValue предлагает их в выпадающем списке рядом с `{CLICK}`, `{DBLCLICK}` и `{RIGHTCLICK}`, так что запоминать их не нужно. В уроке 15 диапазон текстового поля *Discount coupon code* заполняется кодами купонов демо-магазина: тестовые данные, относящиеся к контролу, живут в Module. `ExplicitName`, заданный диапазоном, так же ограничивает *имена* атрибута.
 
 ## Параметры
 

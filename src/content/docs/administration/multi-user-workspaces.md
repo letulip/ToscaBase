@@ -21,6 +21,10 @@ sources:
     title: "Tosca Tutorial | Lesson 138 - Common RealTime Tosca Problems & Fixes | Synchronization Policy |"
     url: https://www.youtube.com/watch?v=o1b8cACf4Hs
     at: "00:12"
+  - id: ZvUmWsHkAaI
+    title: "TRICENTIS Tosca 16.0 - Lesson 40 | Create Multi-user Workspace| Check-in | Checkout | Update All |"
+    url: https://www.youtube.com/watch?v=ZvUmWsHkAaI
+    at: "02:15"
 ---
 
 A single-user workspace (see [Workspace and project setup](/ToscaBase/getting-started/workspace-and-project-setup/)) serves one person at a time. When a team shares the same Modules, TestCases and ExecutionLists, each member needs their own workspace connected to a **common repository**, a database that holds the master copy of every object. That is a multi-user workspace. It brings a check-out cycle, a login screen, user management, branches, versioning and Test mandates. This doc covers creation, the daily check-out cycle and the Synchronization policy; the rest have their own docs in this section.
@@ -33,7 +37,7 @@ When you create a workspace, the **Type of repository** field decides what you g
 |---|---|---|
 | `None` | Single-user workspace | none |
 | `SQLite` | Multi-user workspace on a local database | none: no connection string, no schema |
-| `Oracle`, `MS SQL Server`, `DB2` | Multi-user workspace on a dedicated database server | database fields appear: a **connection string** (user, password and database address), which is required, and a **schema**, which Lesson 90 calls optional; **Test connection** before creating |
+| `Oracle`, `MS SQL Server`, `DB2` | Multi-user workspace on a dedicated database server | a **connection string** (user, password, database address) is required, a **schema** is optional (Lessons 40 and 90); click **Test connection** before creating |
 
 :::caution
 SQLite is for practising and for trying out the multi-user features. It is not a solution for a real project; a real project needs a dedicated Oracle, MS SQL Server or DB2 instance.
@@ -44,13 +48,17 @@ SQLite is for practising and for trying out the multi-user features. It is not a
 1. In Tosca Commander choose **Create new** workspace.
 2. Set **Type of repository** to `SQLite` (or a database type and its connection string; test the connection).
 3. Pick the folder and give the workspace a name (the source uses `MultiDemo`).
-4. Leave **Slim workspace** unchecked unless the repository is large: a slim workspace takes less disk space and speeds up a big repository.
-5. Leave **Use existing repository** unchecked when this is the first workspace on this repository, so that Tosca creates the repository; with it checked on a repository that does not exist yet you cannot proceed. Check it for every later workspace on the same repository (a second team member, or a [branch](/ToscaBase/administration/branches/)).
+4. Tick **Slim workspace** only for a large repository: it takes less disk space and speeds it up.
+5. Leave **Use existing repository** unchecked for the first workspace, so that Tosca creates the repository (checked, it refuses a repository that does not exist yet). Check it for every later workspace on the same repository (a second team member, or a [branch](/ToscaBase/administration/branches/)).
 6. Click **OK**. Creation takes a moment, then the workspace opens.
 
 ## The login screen and the default user
 
 A multi-user workspace always asks for a user name and password. On a freshly created workspace Tosca has already created one user, `Admin`, with an empty password: enter `Admin`, leave the password blank and click **Login**. Create the real users afterwards as described in [Users and groups](/ToscaBase/administration/users-and-groups/).
+
+:::note
+The Tosca 16 lessons differ on the first login. Lesson 40 logs in with `Admin` and an empty password, like Lesson 90; in Lesson 42 the create dialog asks for an admin user name and password while it creates the new repository, and that user is used at the login prompt. If your version asks, enter the credentials you set there.
+:::
 
 ## Check-out and check-in
 
@@ -58,6 +66,8 @@ Every object in the repository is either free, checked out by you, or checked ou
 
 - A **green mark** in front of an object means it is checked out by you. Only checked-out objects can be edited; on a free folder the context menu shows no **Create** entries at all.
 - A **red stripe** in front of an object means another user has it checked out. You cannot change it until that user checks in.
+
+Right after creation every folder of the project is green: the user who created the workspace holds everything. Run **Check In All** once before the others start, otherwise they see the structure but can change nothing (Lesson 40).
 
 While you hold an object nobody else can change it: unlike Git, Tosca does not merge concurrent edits of one object, it prevents them, so there are no conflicts to resolve. Edits by different users to different objects are merged at check-in.
 
@@ -81,7 +91,7 @@ Right-click any object (this works whether you are an admin or a normal user):
 
 ## Revoking a check-out
 
-Only an admin user can take a checked-out object away from another user; every new workspace has the groups `Admins` and `All users`, and the default `Admin` user belongs to `Admins`. Right-click the object and choose **Revoke checkout**. Tosca warns that all changes in the object will be discarded: what the other user did while holding it is lost, even if they check in later. After **OK** the object is free again; check it out yourself to work on it.
+Only a member of `Admins` (the default `Admin` user is one) can take a checked-out object away from another user. Right-click the object and choose **Revoke checkout**. Tosca warns that all changes in the object will be discarded: what the other user did while holding it is lost, even if they check in later. After **OK** the object is free again; check it out yourself to work on it.
 
 ## Synchronization policy
 
@@ -93,7 +103,7 @@ An excluded folder looks locked, but is not:
 - **Checkout** is disabled in the context menu, and **Checkout Tree** reports that there are no objects to check out;
 - you cannot create, edit or check out anything inside it.
 
-To make it accessible, right-click it and choose **Include for synchronization** (the object itself) or **Include all necessary items for tree** (the object with its children). Tosca synchronizes them with the repository and the folder becomes usable. The reverse commands, **Exclude from synchronization** and **Exclude tree from synchronization**, grey the object (or the whole subtree) out, and from the next check-in it is no longer synchronized with the repository.
+To make it accessible, right-click it and choose **Include for synchronization** (the object) or **Include all necessary items for tree** (with its children); the folder becomes usable. **Exclude from synchronization** and **Exclude tree from synchronization** do the reverse: the object (or subtree) is greyed out and no longer synchronized from the next check-in.
 
 What may be excluded is governed by the **Synchronization policy** property, shown in the Properties pane of a checked-out object:
 
