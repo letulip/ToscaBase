@@ -12,6 +12,8 @@ Every Tosca term used in this knowledge base, in alphabetical order, with a one-
 
 **{DRAG} / {DROP}** — Built-in TestStepValues for drag and drop: `{DRAG}` on the source control and `{DROP}` on the target control in the same TestStep. See [Obstacles: input and clicks](/ToscaBase/troubleshooting/obstacles-input-and-clicks/).
 
+**{REPETITION}** — Expression that returns the number of the current pass (1, 2, 3, ...) inside a folder that has a Repetition; as the row selector `${REPETITION}` or as an `ExplicitName` it addresses a different row or control on every pass. See [Repetitions](/ToscaBase/test-cases/repetitions/).
+
 **{TDS[type.attribute]}** — Expression that reads an attribute of the Test Data Services item currently provided to the TestCase. TDQL (Test Data Query Language, e.g. `vehicle[make=="BMW"]`) filters which item is provided. See [Test Data Service Modules](/ToscaBase/data-and-parameters/test-data-service-modules/).
 
 **1:1 Compare** — TBox standard Module of the PDF engine that compares a target PDF with a reference PDF at a given accuracy percentage, optionally excluding pages. See [PDF engine](/ToscaBase/engines/pdf-engine/).
@@ -21,6 +23,8 @@ Every Tosca term used in this knowledge base, in alphabetical order, with a one-
 **ActionMode** — How a TestStepValue is applied to a control: `Input`, `Insert`, `Verify`, `Buffer`, `WaitOn`, `Select` or `Constraint`. See [ActionModes](/ToscaBase/test-cases/action-modes/).
 
 **ActualLog** — The log object under an ExecutionList that holds the current execution results. It can be cleared, archived as a named snapshot (an archive can be dragged back to become current again) and charted as a trend chart of passed, failed and no-result counts over time. See [Results and logs](/ToscaBase/execution/execution-results-and-logs/).
+
+**Agentic test automation** — Feature of Tricentis Tosca Cloud in which an AI agent reads test steps written in plain English, drives the application, creates the Modules and the TestCase and runs it; it needs the launcher, the Chrome extension and a local agent on a Windows machine. See [Agentic test automation](/ToscaBase/getting-started/agentic-test-automation/).
 
 **Anchor** — A uniquely identified neighbouring control used as a reference point to locate a control that is not unique on its own (Identify by anchor). See [Control identification](/ToscaBase/modules/control-identification/).
 
@@ -33,6 +37,8 @@ Every Tosca term used in this knowledge base, in alphabetical order, with a one-
 **API Module** — Module generated from an API message. It has an extra Technical view tab mirroring the API Scan message view, where payload elements and status codes are added as ModuleAttributes. See [API TestCases](/ToscaBase/api-testing/api-test-cases/).
 
 **API Scan** — Tosca's separate tool, opened from Commander's API Testing tab or standalone (license-free), for composing, sending and scanning API messages. See [API Scan basics](/ToscaBase/api-testing/api-scan-basics/).
+
+**Apply self-healing properties** — Right-click command on a healed step in the execution log that writes the property self-healing found (`ClassName` in the lesson) into the ModuleAttribute in place of the old identification, so the next run no longer needs healing. See [Self-healing mode](/ToscaBase/execution/self-healing/).
 
 **ARIA support** — Tosca 16.0 feature that identifies ARIA-labelled controls natively; toggled under XScan settings > General settings. See [What's new in Tosca 16](/ToscaBase/getting-started/whats-new-in-tosca-16/).
 
@@ -68,6 +74,8 @@ Every Tosca term used in this knowledge base, in alphabetical order, with a one-
 
 **Cleanup Scenario** — TestSteps that run when the Recovery Scenario itself fails, restoring the application to a known state. See [Recovery and Cleanup Scenarios](/ToscaBase/test-cases/recovery-and-cleanup-scenarios/).
 
+**Cloud APM** — Connection type in Scan > Mobile (instead of `TMA`) for device farms such as SauceLabs, BrowserStack and Tricentis Device Cloud; it takes the farm's URL (SauceLabs' OnDemand URL) as APM server address. See [Mobile automation](/ToscaBase/engines/mobile-automation/).
+
 **Combinatorial methods** — The Generate Instances options in TestCase-Design: all combinations, orthogonal, pairwise and linear expansion (recommended). Linear expansion needs one straight-through (happy-path) instance per attribute. See [Instances and combinatorics](/ToscaBase/test-case-design/instances-and-combinatorics/).
 
 **Common repository** — The database (SQLite, Oracle, MS SQL Server or DB2) that holds the master copy of all objects and that multi-user workspaces check out from. See [Multi-user workspaces](/ToscaBase/administration/multi-user-workspaces/).
@@ -81,6 +89,8 @@ Every Tosca term used in this knowledge base, in alphabetical order, with a one-
 **Constraint** — ActionMode that filters which row, node or control a TestStep addresses (for example a table row whose cell has a given value) instead of steering it. See [ActionModes](/ToscaBase/test-cases/action-modes/).
 
 **ConstraintIndex** — Module-level Configuration Parameter that selects which of several identical browser tabs or windows a control is steered in. See [Test Configuration Parameters](/ToscaBase/data-and-parameters/test-configuration-parameters/).
+
+**Control group** — Named node inside a Module that holds several ModuleAttributes; created in XScan with Convert to control group and dissolved with Convert to separate XModuleAttributes. It only organises the attributes and changes nothing about their identification. See [Control groups](/ToscaBase/modules/control-groups/).
 
 **Coverage Specified** — Share of a requirement covered by linked TestCases, weighted by their Workstate (Planned 20%, In Work 50%, Completed 100%). See [Requirements and risk weighting](/ToscaBase/requirements-and-reporting/requirements-and-risk/).
 
@@ -99,6 +109,8 @@ Every Tosca term used in this knowledge base, in alphabetical order, with a one-
 **Dynamic expression** — A value in `{...}` inside a TestStepValue that Tosca evaluates at run time (buffer, date, random value, string operation, math) instead of a literal. See [Expressions](/ToscaBase/expressions/).
 
 ## E
+
+**Else statement** — Second branch of an `If` object, created with right-click > Create Else statement; the Then part runs when the Condition is true, the Else part otherwise, and Else always comes last. See [Control flow](/ToscaBase/test-cases/control-flow/).
 
 **Embedded control** — A control such as a link or button placed inside a table cell in the Module so that it is addressed through the row. See [Table controls](/ToscaBase/modules/table-controls/).
 
@@ -150,6 +162,8 @@ Every Tosca term used in this knowledge base, in alphabetical order, with a one-
 
 ## M
 
+**Make unique** — XScan command used on a control that the scanner reports as *selected item is not unique*, so that it can still be saved with a unique identification; the sources use it on a table element and on the login fields of a mobile app. See [Table controls](/ToscaBase/modules/table-controls/) and [Mobile automation](/ToscaBase/engines/mobile-automation/).
+
 **Maximum repetitions** — Property of While and Do objects that caps the number of iterations (default 30) to prevent infinite loops. See [Control flow](/ToscaBase/test-cases/control-flow/).
 
 **Message Recorder** — API Scan feature that records HTTP traffic between an application and its backend and exports captured calls as API messages. See [Message Recorder](/ToscaBase/api-testing/api-message-recorder/).
@@ -180,6 +194,8 @@ Every Tosca term used in this knowledge base, in alphabetical order, with a one-
 
 **PDF Scan** — Scan mode of the PDF engine that turns drawn areas of a PDF (text, image, table) into a Module. See [PDF engine](/ToscaBase/engines/pdf-engine/).
 
+**Performance session / issue card** — In Tricentis Device Cloud every Tosca run, Testim run or manual mirroring session produces a performance session: a waterfall with the screen recording, time series of the recorded metrics, and issue cards that the mobile AI engine derives from the telemetry (slow server, slow downloads, low frame rate and others), each with an impact score and a suggested action. See [Tricentis Device Cloud](/ToscaBase/engines/device-cloud/).
+
 **Pre-execution approval** — Tosca 16.0 automated TestCase approval workflow driven by Workstate; multi-user workspaces only. See [What's new in Tosca 16](/ToscaBase/getting-started/whats-new-in-tosca-16/).
 
 ## R
@@ -200,6 +216,8 @@ Every Tosca term used in this knowledge base, in alphabetical order, with a one-
 
 **Rescan** — Reopening an existing Module in XScan against the live application to add properties or controls without breaking the TestCases that use it. See [Rescan Modules](/ToscaBase/modules/rescan-modules/).
 
+**Resolve Reference** — Right-click command on a referenced TestStepBlock in a TestCase that turns it into an independent copy of the TestSteps, so it can be edited without touching the library block or the other TestCases that reference it. See [Business Parameters and TestStepLibraries](/ToscaBase/data-and-parameters/business-parameters-and-libraries/).
+
 **Resource (XML engine)** — Name given to an opened XML document; every XML TestStep refers to the file by it. See [XML engine](/ToscaBase/engines/xml-engine/).
 
 **ResultCount** — Control property returning how many controls matched a ModuleAttribute, for example to count all links on a page. See [Common problems and fixes](/ToscaBase/troubleshooting/common-problems-and-fixes/).
@@ -214,7 +232,13 @@ Every Tosca term used in this knowledge base, in alphabetical order, with a one-
 
 **ScrollingBehavior** — Steering parameter (`Top`, `Bottom`, `Center`, `None`) that positions a control in the viewport before it is steered. See [Obstacles: identifying controls](/ToscaBase/troubleshooting/obstacles-identification/).
 
+**Search and add TestStep (Ctrl+T)** — Context-menu command on a TestCase or folder that opens a search over all Modules in the workspace and adds the chosen one as a TestStep, instead of dragging it from the Modules section. See [TestCase basics](/ToscaBase/test-cases/test-case-basics/).
+
 **Select** — ActionMode that picks a node in a hierarchy; assigned automatically on table and row paths. See [ActionModes](/ToscaBase/test-cases/action-modes/).
+
+**Self-healing mode** — Execution mode in which Tosca, when a control's identification no longer matches, falls back to the self-healing properties stored with the ModuleAttribute, finds the control, marks the step in the log with a heart icon and lets you apply the new identification. Only controls scanned with self-healing properties can be healed. See [Self-healing mode](/ToscaBase/execution/self-healing/).
+
+**SelfHealing (Test Configuration Parameter)** — Test Configuration Parameter on a TestCase, folder or ExecutionList that switches self-healing mode on: `Weighted` uses the weights of the self-healing properties to find the most unique control, `Combination` tries combinations of the stored properties until one identifies a suitable control, `False` (default) disables it. See [Self-healing mode](/ToscaBase/execution/self-healing/).
 
 **SendKeys** — Keyboard emulation: `{SENDKEYS["..."]}` in a TestStepValue or the TBox Send Keys Module, using .NET SendKeys codes (`^` Ctrl, `+` Shift, `%` Alt). See [Common problems and fixes](/ToscaBase/troubleshooting/common-problems-and-fixes/).
 
@@ -226,7 +250,7 @@ Every Tosca term used in this knowledge base, in alphabetical order, with a one-
 
 **Subset (.tsu) and .tdp** — `.tsu` is the subset export file produced by Export subset (and by standalone API Scan); `.tdp` is the repository backup dump created by an administrator. See [Backup and restore](/ToscaBase/administration/backup-and-restore/).
 
-**Synchronization policy** — Object property in multi-user workspaces controlling whether an object can be excluded from repository synchronisation; Include and Exclude for synchronization are the context-menu actions, and excluded objects appear greyed out. See [Synchronisation, not waits](/ToscaBase/administration/multi-user-workspaces/).
+**Synchronization policy** — Object property in multi-user workspaces controlling whether an object can be excluded from repository synchronisation; Include and Exclude for synchronization are the context-menu actions, and excluded objects appear greyed out. See [Multi-user workspaces](/ToscaBase/administration/multi-user-workspaces/).
 
 ## T
 
@@ -272,6 +296,8 @@ Every Tosca term used in this knowledge base, in alphabetical order, with a one-
 
 **TestStepValue** — The value plus ActionMode set on one ModuleAttribute within a TestStep. See [ActionModes](/ToscaBase/test-cases/action-modes/).
 
+**Tosca Automation Extension** — Browser extension for Chrome, Firefox and Edge that the XBrowser engine needs to reach a page; without it XScan cannot create XBrowser Modules and a TestCase cannot steer the browser. Install it in every browser used as a value of the `Browser` parameter. See [Tosca Automation Extension](/ToscaBase/getting-started/tosca-automation-extension/).
+
 **Tosca Commander** — The desktop client where Modules, TestCases, ExecutionLists and requirements are created and managed. See [Architecture](/ToscaBase/getting-started/architecture/).
 
 **Tosca Execution Client** — PowerShell/shell script (Tosca 15.2+) that triggers TestEvents from CI/CD and writes JUnit-style XML results. See [Tosca Execution Client](/ToscaBase/execution/tosca-execution-client/).
@@ -288,11 +314,19 @@ Every Tosca term used in this knowledge base, in alphabetical order, with a one-
 
 **Translate value** — Right-click command on a TestStepValue that shows the concrete value a dynamic expression will produce. See [Date expressions](/ToscaBase/expressions/date-expressions/).
 
+**Tricentis Device Cloud (TDC)** — Tricentis' own farm of real smartphones and tablets in the cloud on which Tosca and Testim TestCases run; it adds remote control of the devices, performance sessions with issue cards from a mobile AI engine, and performance monitoring of user flows over time. Tosca connects to it through a Cloud APM connection. See [Tricentis Device Cloud](/ToscaBase/engines/device-cloud/).
+
+**Tricentis Mobile Agent (TMA)** — Separate service with its own console through which the Mobile engine reaches a device attached to the agent's machine (USB, Wi-Fi or an Android Studio emulator); a `Remote` mobile connection of type `TMA` carries the address of the TMA server. See [Mobile automation](/ToscaBase/engines/mobile-automation/).
+
 ## U
+
+**UDID** — Unique id of a mobile device or emulator, read from the TMA console (Open console > Configure devices) and entered as the value of the `DeviceName` Test Configuration Parameter of a mobile TestCase. See [Mobile automation](/ToscaBase/engines/mobile-automation/).
 
 **Unattended execution** — Scheduled runs without a person present, through Windows Task Scheduler, Jenkins or the Tosca Execution Client. See [Scheduling executions](/ToscaBase/execution/scheduling-executions/).
 
 ## V
+
+**Value range** — ModuleAttribute property holding the values a tester may enter for that control, separated by `;` (`code1;code2;code3`); the TestStepValue offers them in its drop-down. `ExplicitName` set to a range restricts the attribute's names the same way. See [Module properties and parameters](/ToscaBase/modules/module-properties-and-parameters/).
 
 **Verification point** — A TestStep with ActionMode `Verify` that compares an expected value with the actual one; without one a TestCase can only produce a false positive. See [TestCase structure](/ToscaBase/best-practices/test-case-structure/).
 
@@ -303,6 +337,8 @@ Every Tosca term used in this knowledge base, in alphabetical order, with a one-
 **WaitOn** — ActionMode that waits until a control reaches the given value or state, up to the Synchronization timeout (Settings > TBox > Synchronization, default 20000 ms). See [ActionModes](/ToscaBase/test-cases/action-modes/).
 
 **Weight** — A requirement's business-risk value (default 1, recommended scale 1-5), optionally derived as 2^Frequency Class * 2^Damage Class; it drives Contribution and Relative Weight. See [Requirements and risk weighting](/ToscaBase/requirements-and-reporting/requirements-and-risk/).
+
+**Wildcard (dynamic ID)** — `*` in an identification property value in place of the part that changes between pages or runs (a *dynamic ID*), for example `Demo Web Shop.*` for a page title or `rd_*` for a numbered id; Tosca then matches only the constant part. See [Control identification](/ToscaBase/modules/control-identification/).
 
 **Workspace** — The local project that Tosca Commander opens; it holds Modules, TestCases, ExecutionLists and requirements, either standalone or bound to a common repository. See [Workspace and project setup](/ToscaBase/getting-started/workspace-and-project-setup/).
 

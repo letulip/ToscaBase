@@ -12,6 +12,8 @@ sidebar:
 
 **{DRAG} / {DROP}** (перетаскивание) — встроенные значения TestStep для drag and drop: `{DRAG}` на исходном контроле и `{DROP}` на целевом в одном TestStep. См. [Препятствия: ввод и клики](/ToscaBase/ru/troubleshooting/obstacles-input-and-clicks/).
 
+**{REPETITION}** (номер прохода) — выражение, возвращающее номер текущего прохода (1, 2, 3, ...) внутри папки с Repetition; как селектор строки `${REPETITION}` или как `ExplicitName` оно на каждом проходе адресует другую строку или контрол. См. [Повторения](/ToscaBase/ru/test-cases/repetitions/).
+
 **{TDS[type.attribute]}** (выражение TDS) — выражение, читающее атрибут элемента Test Data Services, который сейчас предоставлен TestCase. TDQL (Test Data Query Language, например `vehicle[make=="BMW"]`) отбирает, какой элемент будет предоставлен. См. [Модули Test Data Service](/ToscaBase/ru/data-and-parameters/test-data-service-modules/).
 
 **1:1 Compare** (сравнение PDF один к одному) — стандартный Module TBox движка PDF, сравнивающий целевой PDF с эталонным при заданной точности в процентах, с возможностью исключить страницы. См. [Движок PDF](/ToscaBase/ru/engines/pdf-engine/).
@@ -21,6 +23,8 @@ sidebar:
 **ActionMode** (режим действия) — способ применения значения TestStep к контролу: `Input`, `Insert`, `Verify`, `Buffer`, `WaitOn`, `Select` или `Constraint`. См. [Режимы действия](/ToscaBase/ru/test-cases/action-modes/).
 
 **ActualLog** (текущий лог) — объект лога под ExecutionList, хранящий текущие результаты выполнения. Его можно очистить, архивировать как именованный снимок (архив можно перетащить обратно и сделать текущим) и построить по нему трендовую диаграмму passed/failed/no result во времени. См. [Результаты и логи](/ToscaBase/ru/execution/execution-results-and-logs/).
+
+**Agentic test automation** (агентная автоматизация тестов) — возможность Tricentis Tosca Cloud: AI-агент читает шаги теста на простом английском, управляет приложением, создаёт Module и TestCase и запускает его; нужны launcher, расширение для Chrome и локальный агент на машине с Windows. См. [Агентная автоматизация тестов](/ToscaBase/ru/getting-started/agentic-test-automation/).
 
 **Anchor** (якорь) — уникально идентифицируемый соседний контрол, относительно которого находят контрол, не уникальный сам по себе (Identify by anchor). См. [Идентификация контролов](/ToscaBase/ru/modules/control-identification/).
 
@@ -33,6 +37,8 @@ sidebar:
 **API Module** (API-модуль) — Module, сгенерированный из API-сообщения. У него есть дополнительная вкладка Technical view, повторяющая вид сообщения в API Scan, где элементы payload и коды состояния добавляются как ModuleAttribute. См. [TestCase для API](/ToscaBase/ru/api-testing/api-test-cases/).
 
 **API Scan** (сканер API) — отдельный инструмент Tosca, открываемый с вкладки API Testing в Commander или автономно (без лицензии), для составления, отправки и сканирования API-сообщений. См. [Основы API Scan](/ToscaBase/ru/api-testing/api-scan-basics/).
+
+**Apply self-healing properties** (применить свойства self-healing) — команда контекстного меню «вылеченного» шага в логе выполнения, записывающая найденное свойство (в уроке `ClassName`) в ModuleAttribute вместо старой идентификации, чтобы следующий прогон обходился без лечения. См. [Режим self-healing](/ToscaBase/ru/execution/self-healing/).
 
 **ARIA support** (поддержка ARIA) — возможность Tosca 16.0 нативно идентифицировать контролы с ARIA-разметкой; включается в XScan settings > General settings. См. [Что нового в Tosca 16](/ToscaBase/ru/getting-started/whats-new-in-tosca-16/).
 
@@ -68,6 +74,8 @@ sidebar:
 
 **Cleanup Scenario** (сценарий очистки) — TestStep, выполняемые, когда сам Recovery Scenario завершился неудачей, чтобы вернуть приложение в известное состояние. См. [Сценарии восстановления и очистки](/ToscaBase/ru/test-cases/recovery-and-cleanup-scenarios/).
 
+**Cloud APM** (подключение к облачной ферме устройств) — тип подключения в Scan > Mobile (вместо `TMA`) для ферм устройств SauceLabs, BrowserStack и Tricentis Device Cloud; в качестве адреса APM-сервера принимает URL фермы (у SauceLabs — OnDemand URL). См. [Мобильная автоматизация](/ToscaBase/ru/engines/mobile-automation/).
+
 **Combinatorial methods** (комбинаторные методы) — варианты команды Generate Instances в TestCase-Design: all combinations, orthogonal, pairwise и linear expansion (рекомендуемый). Linear expansion требует по одному straight-through (happy-path) экземпляру на атрибут. См. [Экземпляры и комбинаторика](/ToscaBase/ru/test-case-design/instances-and-combinatorics/).
 
 **Common repository** (общий репозиторий) — база данных (SQLite, Oracle, MS SQL Server или DB2), хранящая мастер-копию всех объектов, из которой многопользовательские workspace берут объекты на checkout. См. [Многопользовательские workspace](/ToscaBase/ru/administration/multi-user-workspaces/).
@@ -81,6 +89,8 @@ sidebar:
 **Constraint** (ограничение) — ActionMode, который отбирает, к какой строке, узлу или контролу обращается TestStep (например, к строке таблицы с заданным значением ячейки), вместо того чтобы управлять им. См. [Режимы действия](/ToscaBase/ru/test-cases/action-modes/).
 
 **ConstraintIndex** (индекс окна) — Configuration Parameter уровня Module, выбирающий, в какой из нескольких одинаковых вкладок или окон браузера управлять контролом. См. [Test Configuration Parameters](/ToscaBase/ru/data-and-parameters/test-configuration-parameters/).
+
+**Control group** (группа контролов) — именованный узел внутри Module, содержащий несколько ModuleAttribute; создаётся в XScan командой Convert to control group и распускается командой Convert to separate XModuleAttributes. Только упорядочивает атрибуты и ничего не меняет в их идентификации. См. [Группы контролов](/ToscaBase/ru/modules/control-groups/).
 
 **Coverage Specified** (заявленное покрытие) — доля требования, покрытая привязанными TestCase, с весом по их Workstate (Planned 20%, In Work 50%, Completed 100%). См. [Требования и взвешивание по риску](/ToscaBase/ru/requirements-and-reporting/requirements-and-risk/).
 
@@ -99,6 +109,8 @@ sidebar:
 **Dynamic expression** (динамическое выражение) — значение в `{...}` внутри TestStepValue, которое Tosca вычисляет во время выполнения (буфер, дата, случайное значение, строковая операция, арифметика) вместо литерала. См. [Выражения](/ToscaBase/ru/expressions/).
 
 ## E
+
+**Else statement** (ветка Else) — вторая ветка объекта `If`, создаваемая через правую кнопку > Create Else statement; часть Then выполняется, когда Condition истинно, часть Else — иначе, и Else всегда идёт последней. См. [Управление потоком](/ToscaBase/ru/test-cases/control-flow/).
 
 **Embedded control** (встроенный контрол) — контрол вроде ссылки или кнопки, помещённый в Module внутрь ячейки таблицы, чтобы обращаться к нему через строку. См. [Табличные контролы](/ToscaBase/ru/modules/table-controls/).
 
@@ -150,6 +162,8 @@ sidebar:
 
 ## M
 
+**Make unique** (сделать уникальным) — команда XScan для контрола, о котором сканер сообщает *selected item is not unique*, чтобы его всё же можно было сохранить с уникальной идентификацией; в источниках применяется к элементу таблицы и к полям входа мобильного приложения. См. [Табличные контролы](/ToscaBase/ru/modules/table-controls/) и [Мобильная автоматизация](/ToscaBase/ru/engines/mobile-automation/).
+
 **Maximum repetitions** (максимум повторений) — свойство объектов While и Do, ограничивающее число итераций (по умолчанию 30) и защищающее от бесконечных циклов. См. [Управление потоком](/ToscaBase/ru/test-cases/control-flow/).
 
 **Message Recorder** (запись сообщений) — функция API Scan, записывающая HTTP-трафик между приложением и его бэкендом и экспортирующая перехваченные вызовы как API-сообщения. См. [Message Recorder](/ToscaBase/ru/api-testing/api-message-recorder/).
@@ -180,6 +194,8 @@ sidebar:
 
 **PDF Scan** (сканирование PDF) — режим сканирования движка PDF, превращающий выделенные области PDF (текст, изображение, таблица) в Module. См. [Движок PDF](/ToscaBase/ru/engines/pdf-engine/).
 
+**Performance session / issue card** (сессия производительности / карточка проблемы) — в Tricentis Device Cloud каждый прогон Tosca, прогон Testim или ручная сессия зеркалирования создаёт performance session: waterfall с записью экрана, временные ряды собранных метрик и issue cards, которые mobile AI engine выводит из телеметрии (slow server, slow downloads, low frame rate и другие), каждая с оценкой влияния и рекомендацией. См. [Tricentis Device Cloud](/ToscaBase/ru/engines/device-cloud/).
+
 **Pre-execution approval** (утверждение перед выполнением) — автоматизированный workflow утверждения TestCase в Tosca 16.0, управляемый Workstate; только для многопользовательских workspace. См. [Что нового в Tosca 16](/ToscaBase/ru/getting-started/whats-new-in-tosca-16/).
 
 ## R
@@ -200,6 +216,8 @@ sidebar:
 
 **Rescan** (пересканирование) — повторное открытие существующего Module в XScan на живом приложении, чтобы добавить свойства или контролы, не ломая использующие его TestCase. См. [Пересканирование Module](/ToscaBase/ru/modules/rescan-modules/).
 
+**Resolve Reference** (разрешить ссылку) — команда контекстного меню блока-ссылки на TestStepBlock в TestCase, превращающая его в независимую копию TestStep, которую можно править, не затрагивая блок в библиотеке и другие TestCase, ссылающиеся на него. См. [Business Parameters и библиотеки TestStep](/ToscaBase/ru/data-and-parameters/business-parameters-and-libraries/).
+
 **Resource (XML engine)** (ресурс XML) — имя, присвоенное открытому XML-документу; каждый XML TestStep ссылается на файл по нему. См. [Движок XML](/ToscaBase/ru/engines/xml-engine/).
 
 **ResultCount** (число совпадений) — свойство контрола, возвращающее, сколько контролов подошло под ModuleAttribute, например чтобы посчитать все ссылки на странице. См. [Типичные проблемы и решения](/ToscaBase/ru/troubleshooting/common-problems-and-fixes/).
@@ -214,7 +232,13 @@ sidebar:
 
 **ScrollingBehavior** (поведение прокрутки) — параметр управления (`Top`, `Bottom`, `Center`, `None`), располагающий контрол в видимой области перед действием. См. [Препятствия: идентификация контролов](/ToscaBase/ru/troubleshooting/obstacles-identification/).
 
+**Search and add TestStep (Ctrl+T)** (поиск и добавление TestStep) — команда контекстного меню TestCase или папки, открывающая поиск по всем Module workspace и добавляющая выбранный как TestStep, вместо перетаскивания из секции Modules. См. [Основы TestCase](/ToscaBase/ru/test-cases/test-case-basics/).
+
 **Select** (выбор узла) — ActionMode, выбирающий узел в иерархии; назначается автоматически на путях к таблицам и строкам. См. [Режимы действия](/ToscaBase/ru/test-cases/action-modes/).
+
+**Self-healing mode** (режим самовосстановления) — режим выполнения, в котором Tosca при несовпадении идентификации контрола переходит к self-healing properties, сохранённым у ModuleAttribute, находит контрол, помечает шаг в логе значком-сердцем и позволяет применить новую идентификацию. Лечатся только контролы, отсканированные с self-healing properties. См. [Режим self-healing](/ToscaBase/ru/execution/self-healing/).
+
+**SelfHealing (Test Configuration Parameter)** (параметр self-healing) — Test Configuration Parameter на TestCase, папке или ExecutionList, включающий режим self-healing: `Weighted` использует веса self-healing properties, чтобы найти наиболее уникальный контрол; `Combination` перебирает комбинации сохранённых свойств, пока одна не определит подходящий контрол; `False` (по умолчанию) выключает режим. См. [Режим self-healing](/ToscaBase/ru/execution/self-healing/).
 
 **SendKeys** (эмуляция клавиатуры) — ввод с клавиатуры: `{SENDKEYS["..."]}` в TestStepValue или Module TBox Send Keys с кодами .NET SendKeys (`^` Ctrl, `+` Shift, `%` Alt). См. [Типичные проблемы и решения](/ToscaBase/ru/troubleshooting/common-problems-and-fixes/).
 
@@ -266,11 +290,13 @@ sidebar:
 
 **TestStep** (шаг теста) — одно действие внутри TestCase, создаваемое перетаскиванием Module; содержит TestStepValue для атрибутов Module. См. [Основы TestCase](/ToscaBase/ru/test-cases/test-case-basics/).
 
-**TestStep Library** (библиотека TestStep) — контейнер (один на папку, Ctrl+L) с переиспользуемыми TestStepBlock, на которые TestCase ссылаются вместо копирования. См. [Business Parameters и библиотеки TestStep](/ToscaBase/ru/data-and-parameters/business-parameters-and-libraries/).
+**TestStepLibrary** (библиотека TestStep) — контейнер (один на папку, Ctrl+L) с переиспользуемыми TestStepBlock, на которые TestCase ссылаются вместо копирования. См. [Business Parameters и библиотеки TestStep](/ToscaBase/ru/data-and-parameters/business-parameters-and-libraries/).
 
 **TestStepBlock** (блок TestStep) — папка внутри TestCase, группирующая TestStep одной задачи; помещённая в TestStep Library, она становится переиспользуемым TestStepBlock. См. [Business Parameters и библиотеки TestStep](/ToscaBase/ru/data-and-parameters/business-parameters-and-libraries/).
 
 **TestStepValue** (значение шага теста) — значение вместе с ActionMode, заданное для одного ModuleAttribute внутри TestStep. См. [Режимы действия](/ToscaBase/ru/test-cases/action-modes/).
+
+**Tosca Automation Extension** (расширение браузера Tosca) — расширение для Chrome, Firefox и Edge, без которого движок XBrowser не может работать со страницей: XScan не создаст XBrowser Module, а TestCase не сможет управлять браузером. Устанавливается в каждый браузер, используемый как значение параметра `Browser`. См. [Tosca Automation Extension](/ToscaBase/ru/getting-started/tosca-automation-extension/).
 
 **Tosca Commander** (клиент Tosca) — настольный клиент, в котором создают и ведут Module, TestCase, ExecutionList и требования. См. [Архитектура](/ToscaBase/ru/getting-started/architecture/).
 
@@ -288,11 +314,19 @@ sidebar:
 
 **Translate value** (перевести значение) — команда контекстного меню TestStepValue, показывающая конкретное значение, которое даст динамическое выражение. См. [Выражения дат](/ToscaBase/ru/expressions/date-expressions/).
 
+**Tricentis Device Cloud (TDC)** (облако устройств Tricentis) — собственная ферма реальных смартфонов и планшетов Tricentis в облаке, на которой выполняются TestCase Tosca и Testim; добавляет удалённое управление устройствами, performance sessions с issue cards от mobile AI engine и мониторинг производительности user flows во времени. Tosca подключается к ней через подключение Cloud APM. См. [Tricentis Device Cloud](/ToscaBase/ru/engines/device-cloud/).
+
+**Tricentis Mobile Agent (TMA)** (мобильный агент Tricentis) — отдельный сервис с собственной консолью, через который Mobile engine получает доступ к устройству, подключённому к машине агента (USB, Wi-Fi или эмулятор Android Studio); мобильное подключение `Remote` типа `TMA` хранит адрес сервера TMA. См. [Мобильная автоматизация](/ToscaBase/ru/engines/mobile-automation/).
+
 ## U
+
+**UDID** (уникальный идентификатор устройства) — уникальный идентификатор мобильного устройства или эмулятора; берётся из консоли TMA (Open console > Configure devices) и вводится как значение Test Configuration Parameter `DeviceName` мобильного TestCase. См. [Мобильная автоматизация](/ToscaBase/ru/engines/mobile-automation/).
 
 **Unattended execution** (выполнение без оператора) — запуски по расписанию без участия человека: через Планировщик заданий Windows, Jenkins или Tosca Execution Client. См. [Планирование выполнения](/ToscaBase/ru/execution/scheduling-executions/).
 
 ## V
+
+**Value range** (диапазон значений) — свойство ModuleAttribute со значениями, которые тестировщик может ввести для контрола, через `;` (`code1;code2;code3`); TestStepValue предлагает их в выпадающем списке. `ExplicitName`, заданный диапазоном, так же ограничивает имена атрибута. См. [Свойства и параметры Module](/ToscaBase/ru/modules/module-properties-and-parameters/).
 
 **Verification point** (точка проверки) — TestStep с ActionMode `Verify`, сравнивающий ожидаемое значение с фактическим; без неё TestCase способен дать только ложноположительный результат. См. [Структура TestCase](/ToscaBase/ru/best-practices/test-case-structure/).
 
@@ -303,6 +337,8 @@ sidebar:
 **WaitOn** (ожидание состояния) — ActionMode, ждущий, пока контрол не примет заданное значение или состояние, не дольше Synchronization timeout (Settings > TBox > Synchronization, по умолчанию 20000 мс). См. [Режимы действия](/ToscaBase/ru/test-cases/action-modes/).
 
 **Weight** (вес требования) — значение бизнес-риска требования (по умолчанию 1, рекомендуемая шкала 1-5), которое можно вывести как 2^Frequency Class * 2^Damage Class; от него зависят Contribution и Relative Weight. См. [Требования и взвешивание по риску](/ToscaBase/ru/requirements-and-reporting/requirements-and-risk/).
+
+**Wildcard (dynamic ID)** (подстановочный знак для динамического ID) — `*` в значении свойства идентификации вместо части, меняющейся между страницами или прогонами (*dynamic ID*), например `Demo Web Shop.*` для заголовка страницы или `rd_*` для нумерованного id; Tosca сопоставляет только постоянную часть. См. [Идентификация контролов](/ToscaBase/ru/modules/control-identification/).
 
 **Workspace** (рабочее пространство) — локальный проект, который открывает Tosca Commander; содержит Module, TestCase, ExecutionList и требования, автономно или с привязкой к общему репозиторию. См. [Workspace и настройка проекта](/ToscaBase/ru/getting-started/workspace-and-project-setup/).
 
