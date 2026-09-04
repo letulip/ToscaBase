@@ -67,12 +67,12 @@ Measured on a 5-minute video (`k_paxCad6Kw`):
 
 | source | wall time | notes |
 |--------|-----------|-------|
-| `subs` | seconds | no punctuation, casing, or sentence breaks; Tosca terms often mangled |
-| `whisper --model medium` | ~1.2x real time | punctuated, good on vocabulary; occasional term slips |
-| `whisper --model large-v3` | ~2.5x real time | best spelling of Tosca terms; slower, more RAM (~3 GB) |
+| `subs` | 3 s | no punctuation, casing, or sentence breaks; brand/term spelling from YouTube ASR |
+| `whisper --model medium` | 148 s (≈0.4x real time; 230 s incl. audio download) | punctuated, clean, Tosca terms mostly right; no hallucinated repeats |
+| `whisper --model large-v3` | 642 s (≈1.8x real time) | slightly better brand spelling, but repeated a sentence twice and split "Scratchbook"; ~3 GB RAM |
 
-Use `medium` for bulk runs, `large-v3` when quality matters more than time.
-`small` is only useful for smoke tests.
+Use `medium` for bulk runs (recommended). `large-v3` is 4x slower and was not
+better on this material. `small` is only useful for smoke tests.
 
 ## Outputs
 

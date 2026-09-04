@@ -17,6 +17,8 @@ export const collections = {
 		schema: docsSchema({
 			extend: z.object({
 				sources: z.array(sourceSchema).optional(),
+				/** Mastery level: 1 foundations, 2 building tests, 3 specialised, 4 enterprise. */
+				level: z.number().int().min(1).max(4).optional(),
 			}),
 		}),
 	}),
@@ -25,6 +27,7 @@ export const collections = {
 		schema: i18nSchema({
 			extend: z.object({
 				'toscabase.sources': z.string().optional(),
+				'toscabase.level': z.string().optional(),
 			}),
 		}),
 	}),

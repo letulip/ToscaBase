@@ -206,7 +206,7 @@ def resolve_inputs(items: list[str], playlist: Optional[str]) -> list[VideoRef]:
     for arg in sources:
         list_id = extract_playlist_id(arg)
         vid = extract_video_id(arg)
-        if list_id and (arg == playlist or not vid or "playlist" in arg):
+        if list_id:  # any list= means "the whole playlist, in order"
             for ref in resolve_playlist(f"https://www.youtube.com/playlist?list={list_id}"):
                 add(ref)
         elif vid:
@@ -483,6 +483,23 @@ def update_manifest(meta: VideoMeta, transcript: Path, source: str) -> None:
 
 # --------------------------------------------------------------------------- per-video driver
 
+def backfill_playlist(ref: VideoRef) -> bool:
+    """A skipped video ingested standalone earlier learns its playlist position now."""
+    if not ref.playlist:
+        return False
+    manifest = load_manifest()
+    entry = next((v for v in manifest["videos"] if v.get("id") == ref.id), None)
+    if entry is None or entry.get("playlist"):
+        return False
+    entry["playlist"] = ref.playlist
+    entry["playlist_index"] = ref.playlist_index
+    manifest["videos"].sort(
+        key=lambda v: (v.get("playlist") or "", v.get("playlist_index") or 0, v.get("title") or ""))
+    MANIFEST_PATH.write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + "\n",
+                             encoding="utf-8")
+    return True
+
+
 def source_label(opts: Options) -> str:
     return f"whisper:{opts.model}" if opts.source == "whisper" else "youtube-subs"
 
@@ -490,7 +507,10 @@ def source_label(opts: Options) -> str:
 def ingest_one(ref: VideoRef, opts: Options) -> Result:
     transcript = TRANSCRIPTS_DIR / f"{ref.id}.md"
     if transcript.exists() and not opts.force:
-        return Result(ref.id, "skipped", "transcript exists (use --force)")
+        note = "transcript exists (use --force)"
+        if not opts.dry_run and backfill_playlist(ref):
+            note += "; manifest playlist backfilled"
+        return Result(ref.id, "skipped", note)
     if opts.dry_run:
         need = "audio" if opts.source == "whisper" else "subs"
         have = (AUDIO_DIR / f"{ref.id}.m4a").exists() if need == "audio" else bool(

@@ -8,9 +8,16 @@ import Default from '@astrojs/starlight/components/MarkdownContent.astro';
 
 const sources = Astro.locals.starlightRoute.entry.data.sources ?? [];
 const label = Astro.locals.t('toscabase.sources');
+const level = Astro.locals.starlightRoute.entry.data.level;
+const levelLabel = Astro.locals.t('toscabase.level');
 ---
 
 <Default>
+	{level && (
+		<p class="tb-level not-content">
+			<span class="tb-level__badge">{levelLabel} {level}</span>
+		</p>
+	)}
 	<slot />
 	{
 		sources.length > 0 && (
@@ -32,6 +39,19 @@ const label = Astro.locals.t('toscabase.sources');
 </Default>
 
 <style>
+	.tb-level {
+		margin: 0 0 1rem;
+	}
+	.tb-level__badge {
+		display: inline-block;
+		padding: 0.15rem 0.6rem;
+		border-radius: 999px;
+		font-size: var(--sl-text-xs);
+		font-weight: 600;
+		letter-spacing: 0.04em;
+		color: var(--sl-color-accent-high);
+		background: var(--sl-color-accent-low);
+	}
 	.tb-sources {
 		margin-top: 3rem;
 		padding-top: 1rem;

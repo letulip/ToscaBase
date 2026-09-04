@@ -9,7 +9,7 @@ duration: 353
 upload_date: "20210915"
 source: "whisper:medium"
 language: "en"
-transcribed_at: "2026-09-04T07:41:46Z"
+transcribed_at: "2026-09-04T07:55:28Z"
 status: "raw"
 ---
 

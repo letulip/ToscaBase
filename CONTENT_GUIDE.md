@@ -31,6 +31,37 @@ transcript is unclear or wrong, say so in an admonition rather than inventing.
 One doc = one topic. If a video covers three topics, write three docs (or update three).
 If a topic already has a doc, update it: merge new facts, keep structure, do not duplicate.
 
+
+## Mastery levels (how the sidebar is organised)
+
+Directories are grouped into four levels so a reader can go from general to Tosca-specific:
+
+| Level | Sidebar group (EN / RU)                  | Directories                                                        |
+|-------|------------------------------------------|--------------------------------------------------------------------|
+| 1     | Foundations / Основы                     | getting-started, modules, test-cases                               |
+| 2     | Building tests / Построение тестов       | test-case-design, standard-modules, expressions, data-and-parameters, execution |
+| 3     | Specialised / Специализация              | engines, api-testing, requirements-and-reporting, best-practices, troubleshooting |
+| 4     | Enterprise / Enterprise                  | administration                                                     |
+| —     | Reference / Справочник                   | reference (glossary, learning path, cheat sheets)                  |
+
+Every doc declares `level: 1 | 2 | 3 | 4` in frontmatter (rendered as a badge). Within a
+directory, `sidebar.order` follows the learning order: prerequisites first.
+`reference/learning-path.md` is the curated reading order across all levels; add every new doc to it.
+
+## Deduplication (mandatory before writing)
+
+New videos overlap with existing docs. Before writing anything from a transcript:
+
+1. List the topics the transcript covers (one line each).
+2. For each topic, search existing docs: `grep -ril "<term>" src/content/docs --include=*.md` and read
+   `raw/manifest.json` to see which docs earlier videos produced.
+3. Decide per topic: **update** an existing doc (merge new facts into the right section, keep its
+   structure), **create** a new doc (only if no doc covers it), or **skip** (already covered, nothing new).
+4. Write the decision as a short merge plan before editing. Two docs must never explain the same
+   thing; one explains, the other links to it. Cross-links are the only allowed "duplication".
+5. When you update an EN doc, its RU twin must be updated in the same pass.
+6. Record the outcome in `raw/manifest.json` under the video (`docs: [paths]`, including updated ones).
+
 ## File and frontmatter
 
 File name: kebab-case, `<directory>/<topic>.md`. Same path under `ru/` for the translation.
@@ -39,6 +70,7 @@ File name: kebab-case, `<directory>/<topic>.md`. Same path under `ru/` for the t
 ---
 title: Execution Lists
 description: One sentence, shown in search results and page meta.
+level: 2               # 1 foundations, 2 building tests, 3 specialised, 4 enterprise
 sidebar:
   order: 20            # 10, 20, 30... leaves room for inserts
 sources:

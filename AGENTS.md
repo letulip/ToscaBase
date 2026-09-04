@@ -16,8 +16,9 @@ Built with Astro + Starlight, hosted on GitHub Pages at https://letulip.github.i
 ## Adding a new video
 
 1. `npm run ingest -- <youtube url or playlist url>` writes `raw/transcripts/<id>.md`.
-2. In a Claude Code session: turn the transcript into topic docs following `CONTENT_GUIDE.md`
-   (create new pages or update existing ones), then translate the touched pages into `ru/`.
+2. In a Claude Code session: run the deduplication step from `CONTENT_GUIDE.md` (find existing
+   docs on the same topics, write a merge plan), then update or create topic docs, then translate
+   every touched page into `ru/`. Add new docs to `reference/learning-path.md`.
 3. Record the produced doc paths in `raw/manifest.json` under that video.
 4. `npm run build` must pass. Commit and push; GitHub Actions deploys.
 
