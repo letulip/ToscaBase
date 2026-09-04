@@ -1,6 +1,6 @@
 ---
-title: Distributed execution (DEX)
-description: Setting up Tosca distributed execution with AOS: the AOS workspace, the DEX agent, Commander settings, Configurations, TestEvents, and matching agents to configurations.
+title: "Distributed execution (DEX)"
+description: "Setting up Tosca distributed execution with AOS: the AOS workspace, the DEX agent, Commander settings, Configurations, TestEvents, and matching agents to configurations."
 level: 2
 sidebar:
   order: 100

@@ -25,7 +25,8 @@ Ids are in `raw/manifest.json`. Update this file when docs are added or merged.
 | rescan-modules | P2-L9 |
 | duplicate-and-merge-modules | P2-L10, L104 |
 | module-properties-and-parameters | P2-L157 (configuration / identification / steering params) |
-| table-controls | P2-L155, L45 (embedded), L46 (row/column count), L47 (baseline comparison) |
+| table-controls | P2-L155, L45 (embedded), L46 (row/column count) |
+| table-baseline-comparison | P2-L47 |
 
 ## test-cases (level 1)
 | doc | sources |

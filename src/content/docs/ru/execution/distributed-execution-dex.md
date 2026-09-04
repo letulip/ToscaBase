@@ -1,6 +1,6 @@
 ---
-title: Распределённое выполнение (DEX)
-description: Настройка распределённого выполнения Tosca с AOS: workspace для AOS, DEX-агент, настройки Commander, Configurations, TestEvent и сопоставление агентов с конфигурациями.
+title: "Распределённое выполнение (DEX)"
+description: "Настройка распределённого выполнения Tosca с AOS: workspace для AOS, DEX-агент, настройки Commander, Configurations, TestEvent и сопоставление агентов с конфигурациями."
 level: 2
 sidebar:
   order: 100
