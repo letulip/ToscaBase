@@ -1,6 +1,7 @@
 ---
 title: Данные и параметры
 description: Где живут значения вне TestStep — буферы, Test Configuration Parameters, Business Parameters с библиотеками TestStep и Test Data Services.
+level: 2
 sidebar:
   order: 0
 ---

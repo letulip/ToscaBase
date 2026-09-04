@@ -32,7 +32,7 @@ sources:
 Записать буфер можно тремя способами:
 
 1. **ActionMode `Buffer` на любом TestStepValue.** Установите ActionMode атрибута модуля в `Buffer` и введите имя буфера как значение. Во время выполнения Tosca читает текущее значение контрола (у текстового элемента — его inner text) и сохраняет под этим именем. Так захватывают то, что показывает приложение. См. [Action modes](/ToscaBase/ru/test-cases/action-modes/).
-2. **`TBox Set Buffer`** и остальные буферные стандартные модули — когда значение известно в TestCase (литерал, выражение, другой буфер или Configuration Parameter). Четыре модуля — `Set Buffer`, `Partial Buffer`, `Name to Buffer`, `Delete Buffer` — описаны в [Операциях с буферами](/ToscaBase/ru/standard-modules/buffer-operations/).
+2. **`TBox Set Buffer`** и остальные буферные стандартные модули — когда значение известно в TestCase (литерал, выражение, другой буфер или Test Configuration Parameter). Четыре модуля — `Set Buffer`, `Partial Buffer`, `Name to Buffer`, `Delete Buffer` — описаны в [Операциях с буферами](/ToscaBase/ru/standard-modules/buffer-operations/).
 3. **Динамический XBuffer внутри шага `Verify`**, описанный ниже, — когда интересна только часть текста.
 
 Лог ScratchBook сообщает о каждом буфере, который создал шаг, вместе со значением, поэтому ScratchBook — быстрый способ проверить, что буферный шаг работает.
@@ -44,7 +44,7 @@ sources:
 - значение **Input** для контрола — чтобы ввести захваченное значение обратно в приложение;
 - **Value** в `TBox Set Buffer` или `TBox Partial Buffer` — чтобы скопировать или вырезать буфер;
 - внутри [выражений](/ToscaBase/ru/expressions/), например строковых операций, где буфер обычно первый аргумент;
-- значение Configuration Parameter уровня модуля, чтобы настройка вроде `ConstraintIndex` управлялась из TestCase (см. [Test Configuration Parameters](/ToscaBase/ru/data-and-parameters/test-configuration-parameters/)).
+- значение Configuration Parameter уровня модуля, чтобы настройка вроде `ConstraintIndex` управлялась из TestCase (см. [Типичные проблемы и решения](/ToscaBase/ru/troubleshooting/common-problems-and-fixes/#одинаковые-вкладки-браузера)).
 
 Буферы и Test Configuration Parameters естественно сочетаются: `TBox Set Buffer` со значением `{CP[MyTCP]}` копирует конфигурационное значение в буфер, и лог показывает подставленное значение.
 

@@ -1,6 +1,7 @@
 ---
 title: Getting started
 description: What Tosca is and how it is built, getting a license, installing it locally or on AWS, creating a workspace, finding your way around Tosca Commander, and building a first TestCase.
+level: 1
 sidebar:
   order: 0
 ---

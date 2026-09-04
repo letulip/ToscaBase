@@ -1,6 +1,6 @@
 ---
 title: Common problems and fixes
-description: Switching browser tabs with SendKeys, counting all links or similar controls with ResultCount, and downloading and verifying a file with curl from Tosca.
+description: Switching browser tabs with SendKeys, steering one of two identical tabs with ConstraintIndex, counting all links or similar controls with ResultCount, and downloading and verifying a file with curl from Tosca.
 level: 3
 sidebar:
   order: 40
@@ -9,6 +9,10 @@ sources:
     title: "Tosca Tutorial | Lesson 147 - Common Problems & Fixes | Switch Browser Tabs | SendKeys"
     url: https://www.youtube.com/watch?v=pfEIPPUBbo0
     at: "00:02"
+  - id: 1khI-I1gonk
+    title: "Tosca Tutorial | Lesson 106 - Handle multiple browser tabs | Configuration Parameter | Obstacles |"
+    url: https://www.youtube.com/watch?v=1khI-I1gonk
+    at: "02:11"
   - id: oA61Emt_HUs
     title: "Tosca Tutorial | Lesson 149 - Common Issues | Count All Links | ResultCount | Cardinality | Regex"
     url: https://www.youtube.com/watch?v=oA61Emt_HUs
@@ -19,7 +23,7 @@ sources:
     at: "01:14"
 ---
 
-Three questions that come up repeatedly in real projects and have no obvious module: moving between browser tabs, counting every link (or button, or checkbox) on a page, and downloading a file so that it can be verified. The common thread is the fallback rule: when Tosca has no direct method, emulate what a user would do at the keyboard, generalise one Module attribute so it matches many controls, or start an external command-line tool. The Obstacle Course docs ([identification](/ToscaBase/troubleshooting/obstacles-identification/), [tables](/ToscaBase/troubleshooting/obstacles-tables/), [input and clicks](/ToscaBase/troubleshooting/obstacles-input-and-clicks/)) cover the page-level puzzles; this doc covers environment-level ones.
+Four questions that come up repeatedly in real projects and have no obvious module: moving between browser tabs, steering one of two identical tabs, counting every link (or button, or checkbox) on a page, and downloading a file so that it can be verified. The common thread is the fallback rule: when Tosca has no direct method, emulate what a user would do at the keyboard, generalise one Module attribute so it matches many controls, or start an external command-line tool. The Obstacle Course docs ([identification](/ToscaBase/troubleshooting/obstacles-identification/), [tables](/ToscaBase/troubleshooting/obstacles-tables/), [input and clicks](/ToscaBase/troubleshooting/obstacles-input-and-clicks/)) cover the page-level puzzles; this doc covers environment-level ones.
 
 ## Switching between browser tabs
 
@@ -44,6 +48,22 @@ Use the numbered form when you know which tab you need; use `^{TAB}` / `^+{TAB}`
 
 :::tip
 The same idea applies to any missing method: if a user can do it with the keyboard, `TBox Send Keys` can do it too.
+:::
+
+## Identical browser tabs
+
+**Problem.** Two browser tabs show the **same page** (same title, same controls). A TestCase that clicks a link works for a while, then fails after Tosca has switched between the tabs; the log says more than one matching tab was found.
+
+**Cause.** The Module identifies the browser window by properties both tabs share, so the match is ambiguous. Rescanning does not help: the tabs really are identical.
+
+**Solution.** Tell the Module which of the matching tabs to use with the Module-level Configuration Parameter `ConstraintIndex`, and drive its value from the TestCase:
+
+1. Open the Module, right-click the control and choose **Create Configuration Parameter**.
+2. Name it `ConstraintIndex` and set the value to the index of the tab to use (`2` selects the second tab). The click now lands in that tab.
+3. A static index in the Module is fragile, so make it dynamic: add a `TBox Set Buffer` step before the click that sets a buffer `index` to `1` or `2`, and in the Module replace the value with `{B[index]}`. The TestCase, a TestCase-Design sheet or a Test Configuration Parameter now decides which tab is steered, and the Module never changes again.
+
+:::note
+The speaker says the parameter name is "constraint index"; `ConstraintIndex` is the spelling used here. Module-level Configuration Parameters are described in [Module properties and parameters](/ToscaBase/modules/module-properties-and-parameters/); they are a different mechanism from [Test Configuration Parameters](/ToscaBase/data-and-parameters/test-configuration-parameters/).
 :::
 
 ## Counting all links (or any set of similar controls)

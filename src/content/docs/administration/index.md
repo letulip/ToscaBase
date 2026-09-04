@@ -1,6 +1,6 @@
 ---
 title: Administration
-description: Multi-user workspaces on a common repository, users and groups, branches, backup and versioning, test mandates, command-line tools and Tosca Server.
+description: Multi-user workspaces on a common repository, users and groups, branches, backup and versioning, Test mandates, command-line tools and Tosca Server.
 level: 4
 sidebar:
   order: 0
@@ -19,4 +19,4 @@ Everything in this section presupposes a team: several people working on the sam
 | [Command-line tools](/ToscaBase/administration/command-line-tools/) | TCShell in interactive and script mode; cloning workspaces with TCWorkspaceUtil |
 | [Tosca Server](/ToscaBase/administration/tosca-server/) | Architecture, installation, services, dashboard and DEX monitor |
 
-The repository **Synchronization policy**, the most common source of "I cannot check this folder out" questions, is explained in [Synchronisation, not waits](/ToscaBase/best-practices/synchronisation-not-waits/).
+The repository **Synchronization policy**, the most common source of "I cannot check this folder out" questions, is explained in [Multi-user workspaces](/ToscaBase/administration/multi-user-workspaces/#synchronization-policy).

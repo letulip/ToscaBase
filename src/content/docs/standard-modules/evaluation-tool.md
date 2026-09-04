@@ -1,6 +1,6 @@
 ---
 title: Evaluation tool
-description: TBox Evaluation Tool compares two dynamic expressions (buffers, Configuration Parameters, literals) with a true/false result; use it for verifications and as an If condition, quoting the operands.
+description: TBox Evaluation Tool compares two dynamic expressions (buffers, Test Configuration Parameters, literals) with a true/false result; use it for verifications and as an If condition, quoting the operands.
 level: 2
 sidebar:
   order: 40
@@ -15,15 +15,15 @@ sources:
     at: "04:19"
 ---
 
-**TBox Evaluation Tool** is a Standard Module in the *expression evaluation* group of the Standard subset. It evaluates a comparison and returns true or false: true passes the step, false fails it. It has a single ModuleAttribute, **Expression**, whose ActionMode is `Verify` by default because the step is a verification. The expression holds two values and a comparison operator (`==`, `!=`, `<`, `>` and so on), and each value can be any dynamic expression: a buffer against another buffer, a buffer against a Configuration Parameter, a buffer against a literal or a computed expression. That makes it the general-purpose comparison step in Tosca, and, placed inside an `If`, its multi-way branch.
+**TBox Evaluation Tool** is a Standard Module in the *expression evaluation* group of the Standard subset. It evaluates a comparison and returns true or false: true passes the step, false fails it. It has a single ModuleAttribute, **Expression**, whose ActionMode is `Verify` by default because the step is a verification. The expression holds two values and a comparison operator (`==`, `!=`, `<`, `>` and so on), and each value can be any dynamic expression: a buffer against another buffer, a buffer against a Test Configuration Parameter, a buffer against a literal or a computed expression. That makes it the general-purpose comparison step in Tosca, and, placed inside an `If`, its multi-way branch.
 
-## Comparing a buffer with a Configuration Parameter
+## Comparing a buffer with a Test Configuration Parameter
 
-Scenario: on the demo web shop, click Login, log in with an email and password stored as Configuration Parameters, and verify that the username is displayed on the page.
+Scenario: on the demo web shop, click Login, log in with an email and password stored as Test Configuration Parameters (TCPs), and verify that the username is displayed on the page.
 
 ### The usual way
 
-A TestStep on the username control with ActionMode `Verify` and the value `=={CP[username]}` compares the control's inner text with the Configuration Parameter. This works and the log shows expected and actual values.
+A TestStep on the username control with ActionMode `Verify` and the value `=={CP[username]}` compares the control's inner text with the TCP. This works and the log shows expected and actual values.
 
 ### With the Evaluation Tool
 

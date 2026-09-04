@@ -13,25 +13,7 @@ sources:
 
 Automated tests that someone has to start by hand every day waste the automation. Every project should have **unattended execution**: a schedule that runs the ExecutionLists without a person at the desk. The usual answer is a CI/CD tool ([Jenkins](/ToscaBase/execution/ci-integration-jenkins/)), but when no CI tool is available, **Windows Task Scheduler** can start a TCShell script on any schedule.
 
-The building blocks are the same as for the Jenkins integration: a `.tcs` script that tells Commander what to do, and a `.bat` file that calls TCShell with that script. Task Scheduler only replaces the trigger.
-
-## The TCShell script
-
-TCShell is Tosca's command-line tool for driving Commander without opening it; its commands are covered in [Command-line tools](/ToscaBase/administration/command-line-tools/). The script in the demo (`script.tcs`) does four things:
-
-1. `jumptonode` to the ExecutionList to run, by its path in the Execution section (Execution folder > ExecutionList folder > `Swag Labs` > `Run login`).
-2. A task that **clears the log**.
-3. A task that **runs** the ExecutionList.
-4. A task that **saves** the results.
-
-## The batch file
-
-The batch file (`execute.bat` in the demo) contains two commands:
-
-1. `cd` into the Commander home directory.
-2. The TCShell command with the workspace file path, the login credentials (empty for a local workspace) and the script path as parameter, for example `C:\training\tcshell_script.tcs`.
-
-Create it in Notepad and save with the `.bat` extension.
+Task Scheduler only replaces the trigger. What it starts is the same as for the Jenkins integration: a `.bat` file that calls TCShell with a `.tcs` script (jump to the ExecutionList, clear the log, run it, save the results). Writing the script and the batch file is covered in [Command-line tools](/ToscaBase/administration/command-line-tools/); the demo uses `script.tcs` and `execute.bat`.
 
 ## Creating the scheduled task
 

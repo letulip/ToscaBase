@@ -22,4 +22,4 @@ sidebar:
 | [Распределённое выполнение (DEX)](/ToscaBase/ru/execution/distributed-execution-dex/) | Workspace AOS, DEX-агент, Configurations, TestEvent |
 | [Tosca Execution Client](/ToscaBase/ru/execution/tosca-execution-client/) | Запуск TestEvent из PowerShell, shell или Jenkins |
 
-Прочитайте первые два раньше остальных; каждый следующий документ предполагает, что вы умеете создать список и прочитать его лог. Сценарии восстановления и очистки, реагирующие на сбои во время прогона, описаны в [Тест-кейсах](/ToscaBase/ru/test-cases/recovery-and-cleanup-scenarios/).
+Прочитайте первые два раньше остальных; каждый следующий документ предполагает, что вы умеете создать список и прочитать его лог. Recovery и Cleanup Scenarios (сценарии восстановления и очистки), реагирующие на сбои во время прогона, описаны в [Тест-кейсах](/ToscaBase/ru/test-cases/recovery-and-cleanup-scenarios/).

@@ -35,7 +35,7 @@ sources:
     at: "03:16"
 ---
 
-Web tables are where most real-world steering problems live: rows change position between page loads, the number of rows is unknown, what looks like a table is a pile of `div` elements, or a control sits inside a cell but XScan placed it outside the row. The obstacles below are solved with a small toolset: the `Constraint` ActionMode to pick a row, the `Buffer` ActionMode to read a cell, the properties `RowCount`, `ColumnCount` and `ResultCount`, row selectors such as `$last`, the dynamic buffer `{XB[...]}`, and rearranging Module attributes so that embedded controls live inside the row. Concepts are in [Table controls](/ToscaBase/modules/table-controls/) and [ActionModes](/ToscaBase/test-cases/action-modes/).
+Web tables are where most real-world steering problems live: rows change position between page loads, the number of rows is unknown, what looks like a table is a pile of `div` elements, or a control sits inside a cell but XScan placed it outside the row. The obstacles below are solved with a small toolset: the `Constraint` ActionMode to pick a row, the `Buffer` ActionMode to read a cell, the properties `RowCount`, `ColumnCount` and `ResultCount`, row selectors such as `$last`, the dynamic buffer `{XB[...]}`, and embedded controls inside the row. Concepts are in [Table controls](/ToscaBase/modules/table-controls/) and [ActionModes](/ToscaBase/test-cases/action-modes/).
 
 Each obstacle follows the same routine: scan a Module under an *Obstacles* folder, create a TestCase named after the obstacle, drag the Module in, set the workstate to *Completed*, run in ScratchBook.
 
@@ -59,13 +59,12 @@ Anchor identification is described in [Control identification](/ToscaBase/module
 
 **Problem.** Click the *Edit* button in the row of *John Doe*. Every refresh shuffles the rows, and there are two rows with the first name *John*.
 
-**Cause.** The row index is meaningless. In addition, XScan puts the scanned *Edit* button directly under the table, not inside a row, so it cannot be tied to the row you select.
+**Cause.** The row index is meaningless, and XScan puts the scanned *Edit* button next to the table instead of inside a row.
 
 **Solution.**
 
-1. Scan the table and one *Edit* button. XScan says the button is not unique; ignore that, it is resolved in the TestCase.
-2. In the Module, drag the *Edit* attribute from the table level into the **row**, next to the cell. Module attributes can be rearranged freely, and now every row has a cell and an edit button.
-3. TestCase: in the row, cell *First name* = `John` with ActionMode `Constraint`; cell *Last name* = `Doe` with ActionMode `Constraint` (one constraint is not enough because *John* appears twice); *Edit* → `X`.
+1. Scan the table and one *Edit* button (ignore *not unique*) and make the button an embedded control of the row, as described in [Embedded controls inside a table](/ToscaBase/modules/table-controls/#embedded-controls-inside-a-table).
+2. TestCase: in the row, cell *First name* = `John` and cell *Last name* = `Doe`, both with ActionMode `Constraint` (one is not enough because *John* appears twice); *Edit* → `X`.
 
 Two constraints filter to exactly one row regardless of its position; the click then applies to that row's button.
 
@@ -134,17 +133,16 @@ If the time were dynamic you would need to buffer it first, or constrain on it; 
 
 **Problem.** Each row has a task like *Select the word that starts with letter M* and a drop-down; *Generate* changes the letters. For each row select the only matching word, then *Submit*.
 
-**Cause.** The letter is unknown until run time, and XScan places the scanned `select` outside the row, so it cannot be addressed per row.
+**Cause.** The letter is unknown until run time, and XScan places the scanned `select` outside the row.
 
 **Solution.**
 
-1. Module: *Generate*, *Submit*, the table, and one drop-down (not unique; fine).
-2. Drag the `select` attribute into the **cell** inside the row. It is now an embedded control that exists in every row.
-3. TestCase:
+1. Module: *Generate*, *Submit*, the table, and one drop-down (not unique; fine). Make the `select` an [embedded control](/ToscaBase/modules/table-controls/#embedded-controls-inside-a-table) of the cell, so that it exists in every row.
+2. TestCase:
    - *Generate* → `X`.
    - Row `$2` (row 1 is the header). First cell → ActionMode `Verify`, value: the constant text followed by `{XB[letter]}`. The dynamic XBuffer verifies the fixed part and stores the changing letter in the buffer `letter` at the same time.
    - Second cell → ActionMode `Select` (Tosca defaults it to `Verify`; change it). Nested drop-down → `{B[letter]}*` so the word starting with that letter is selected without knowing the rest.
    - Copy the row block for rows `$3` to `$6` (five data rows), changing only the row number. The same buffer name is reused; each row overwrites it.
    - *Submit* → `X`.
 
-`{XB[...]}` is covered in [Buffers](/ToscaBase/data-and-parameters/buffers/); embedded controls in [Table controls](/ToscaBase/modules/table-controls/).
+`{XB[...]}` is covered in [Buffers](/ToscaBase/data-and-parameters/buffers/).

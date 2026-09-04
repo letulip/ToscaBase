@@ -103,8 +103,6 @@ Clicking the first edit box reveals a random sentence containing three large num
 {REGEX[^.*(?<number1>[0-9]+).*(?<number2>[0-9]+).*(?<number3>[0-9]+).*$]}
 ```
 
-- `^` and `$` mark start and end, `.*` swallows any surrounding text.
-- `(?<number1>[0-9]+)` is a named group: the buffer name in angle brackets, then the sub-expression (`[0-9]+`, one or more digits) whose match is stored in that buffer.
-- The **Input** ActionMode is not supported for regex values ("input is not supported for regex values"); set the TestStep to **Verify**.
+Each `(?<name>...)` group stores its match in the buffer of that name; the named-group syntax is explained in [Extracting parts of a value with named groups](/ToscaBase/expressions/intervals-and-verification-expressions/#extracting-parts-of-a-value-with-named-groups). Here the groups are separated by `.*` to swallow the surrounding text and the pattern is anchored with `^` and `$`. As there, the TestStep must use ActionMode **Verify** ("input is not supported for regex values").
 
-The three boxes are then filled with `{B[number1]}`, `{B[number2]}` and `{B[number3]}`. The full regex reference, including splitting an ID into parts, is in [Intervals and verification expressions](/ToscaBase/expressions/intervals-and-verification-expressions/).
+The three boxes are then filled with `{B[number1]}`, `{B[number2]}` and `{B[number3]}`.

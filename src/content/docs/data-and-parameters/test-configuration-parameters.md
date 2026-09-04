@@ -1,6 +1,6 @@
 ---
 title: Test Configuration Parameters
-description: Test Configuration Parameters (TCPs) hold environment and settings data outside the TestSteps; where to define them, the {CP[name]} syntax, system-defined parameters, project-level Configurations, and the Module-level Configuration Parameter ConstraintIndex for identical browser tabs.
+description: Test Configuration Parameters (TCPs) hold environment and settings data outside the TestSteps; where to define them, the {CP[name]} syntax, system-defined parameters, and project-level Configurations.
 level: 2
 sidebar:
   order: 20
@@ -13,10 +13,6 @@ sources:
     title: "Tosca Tutorial | Lesson 156 - Test Configuration Parameters | Project Configurations |"
     url: https://www.youtube.com/watch?v=H5M6Y_Su4OQ
     at: "00:09"
-  - id: 1khI-I1gonk
-    title: "Tosca Tutorial | Lesson 106 - Handle multiple browser tabs | Configuration Parameter | Obstacles |"
-    url: https://www.youtube.com/watch?v=1khI-I1gonk
-    at: "02:11"
 ---
 
 A **Test Configuration Parameter** (TCP) is a named value defined on a Tosca object rather than inside a TestStep. TestSteps refer to it with `{CP[name]}`, so changing the value in one place changes every step that uses it. TCPs are the right home for data that is the same across a suite but differs between environments or runs: application URL, credentials, browser, timeouts, report paths. Hard-coding such values in TestSteps means editing the TestCase every time the data changes; with a thousand steps using the same URL, that is a thousand edits.
@@ -76,21 +72,9 @@ The **Configurations** section of the project holds reusable sets of TCPs. It sh
 - **Use** a Configuration by dragging it onto a TestCase, folder or ExecutionList. The object then inherits the whole set.
 - **Lock** a Configuration by opening its **Properties** and setting **Predefined** to `true`. A predefined Configuration cannot be modified or deleted, only inherited. A TestCase that inherits it can still override a value locally (Chrome to Edge, say), and that override applies only to that TestCase; the original stays unchanged. This keeps project-wide settings under the control of an administrator.
 
-## Module-level Configuration Parameters: the identical-tabs case
+## Module-level Configuration Parameters are a different thing
 
-Modules also carry Configuration Parameters, set per ModuleAttribute, and they are a different mechanism from TCPs: they tune how Tosca steers a control. They are covered in [Module properties and parameters](/ToscaBase/modules/module-properties-and-parameters/); one case belongs here because its value is usually driven from the TestCase.
-
-Problem: two browser tabs show the **same page** (same title, same controls). A TestCase that clicks a link fails after Tosca switches between the tabs for a while; the log says more than one matching tab was found.
-
-Fix without rescanning:
-
-1. Open the Module, right-click the control and choose **Create Configuration Parameter**.
-2. Name it `ConstraintIndex` and set the value to the index of the tab to use (`2` selects the second tab). The click now lands in that tab.
-3. A static index in the Module is fragile, so make it dynamic: add a `TBox Set Buffer` step before the click that sets a buffer `index` to `1` or `2`, and in the Module replace the value with `{B[index]}`. The TestCase, a TestCase-Design sheet or a TCP now decides which tab is steered, and the Module never changes again.
-
-:::note
-The speaker says the parameter name is "constraint index"; `ConstraintIndex` is the spelling used here. The related Module-level parameter `ExplicitName` is described in [Obstacles: identification](/ToscaBase/troubleshooting/obstacles-identification/).
-:::
+Modules also carry **Configuration Parameters** (`ExplicitName`, `ConstraintIndex` and others), set per ModuleAttribute: they tune how Tosca steers a control and are never read with `{CP[...]}`; see [Module properties and parameters](/ToscaBase/modules/module-properties-and-parameters/) and, for `ExplicitName`, [Control identification](/ToscaBase/modules/control-identification/). The one case where such a parameter is driven from the TestCase through a buffer (`ConstraintIndex` for two identical browser tabs) is a troubleshooting recipe in [Common problems and fixes](/ToscaBase/troubleshooting/common-problems-and-fixes/#identical-browser-tabs).
 
 ## Related
 

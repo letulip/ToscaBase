@@ -226,7 +226,7 @@ Every Tosca term used in this knowledge base, in alphabetical order, with a one-
 
 **Subset (.tsu) and .tdp** — `.tsu` is the subset export file produced by Export subset (and by standalone API Scan); `.tdp` is the repository backup dump created by an administrator. See [Backup and restore](/ToscaBase/administration/backup-and-restore/).
 
-**Synchronization policy** — Object property in multi-user workspaces controlling whether an object can be excluded from repository synchronisation; Include and Exclude for synchronization are the context-menu actions, and excluded objects appear greyed out. See [Synchronisation, not waits](/ToscaBase/best-practices/synchronisation-not-waits/).
+**Synchronization policy** — Object property in multi-user workspaces controlling whether an object can be excluded from repository synchronisation; Include and Exclude for synchronization are the context-menu actions, and excluded objects appear greyed out. See [Synchronisation, not waits](/ToscaBase/administration/multi-user-workspaces/).
 
 ## T
 

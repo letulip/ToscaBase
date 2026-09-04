@@ -134,7 +134,7 @@ After this level you can automate Excel, PDF and XML documents and hard-to-scan 
 14. [Naming conventions](/ToscaBase/best-practices/naming-conventions/) — Why consistent names for Modules, TestCases, folders and TestSteps decide whether a Tosca project stays maintainable, with a before-and-after example.
 15. [TestCase structure](/ToscaBase/best-practices/test-case-structure/) — Four structural rules for a maintainable TestCase - always verify something, group TestSteps into folders, prefer Repetitions and Constraints over loops, and keep the Workstate current.
 16. [Module hygiene](/ToscaBase/best-practices/module-hygiene/) — Keep Modules small and categorised by functionality, and merge duplicate Modules regularly, to protect workspace size and execution performance.
-17. [Synchronisation, not waits](/ToscaBase/best-practices/synchronisation-not-waits/) — Replace static TBox Wait steps with the WaitOn ActionMode, avoid mouse and keyboard methods in TestStep values, and understand the separate meaning of the Synchronization policy in multi-user workspaces.
+17. [Synchronisation, not waits](/ToscaBase/best-practices/synchronisation-not-waits/) — Replace static TBox Wait steps with the WaitOn ActionMode and avoid mouse and keyboard methods in TestStep values, with the Calculate / Send progress-bar example worked both ways.
 18. [Review process](/ToscaBase/best-practices/review-process/) — A folder-based review workflow with three approval stages and the four-eyes principle for Modules, TestCases and other Tosca artifacts.
 
 ### [Troubleshooting](/ToscaBase/troubleshooting/)

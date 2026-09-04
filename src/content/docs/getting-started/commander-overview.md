@@ -34,7 +34,7 @@ Each block in the Commander window is a section of the workspace. The main ones:
 | **TestCases** | Folders, TestCases and their TestSteps; the place where automation is assembled |
 | **Modules** | The technical information about the application's controls, produced by XScan. See [Modules overview](/ToscaBase/modules/modules-overview/) |
 | **Requirements** | Requirements with risk weighting, linked to TestCases. See [Requirements and risk](/ToscaBase/requirements-and-reporting/requirements-and-risk/) |
-| **TestCase Design** | TestSheets, attributes and instances for data-driven test design. See [TestCase design](/ToscaBase/test-case-design/) |
+| **TestCase-Design** | TestSheets, attributes and instances for data-driven test design. See [TestCase design](/ToscaBase/test-case-design/) |
 | **Execution** | ExecutionLists and their permanent results. See [ExecutionLists](/ToscaBase/execution/execution-lists/) |
 | **Issues** | Defects linked to executions |
 | **Tutorial** | Built-in tutorial material; not needed for this knowledge base |
@@ -43,7 +43,7 @@ To see the hierarchy of the whole project, click **Project** in the **Home** tab
 
 ### Arranging sections
 
-Sections can be shown side by side. Drag a section's tab and drop it on one of the docking targets (centre, top, bottom, left, right) to split the window; with **Modules** on the right and **TestCases** on the left, you can drag Modules straight into TestCases. A section you have closed is reopened from the **Home** tab, where every section is listed.
+Sections can be shown side by side. Drag a section's tab and drop it on one of the docking targets (centre, top, bottom, left, right) to split the window; with **Modules** on the right and **TestCases** on the left, you can drag Modules straight into TestCases. A section you have closed is reopened from the **Sections** menu, which lists every section (this is how the [Reports](/ToscaBase/requirements-and-reporting/reports/) lesson reopens one; the overview videos cited here do not show the step).
 
 ## Inside the TestCases section
 

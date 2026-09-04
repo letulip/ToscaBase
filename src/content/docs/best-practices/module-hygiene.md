@@ -42,13 +42,7 @@ The cost compounds over time:
 - Every change to a screen has to be applied to every copy, so migration and maintenance effort multiplies.
 - Different team members use different copies, so a fix in one does not reach the others.
 
-Tosca ships a **Module merge assistant** for exactly this, and the recommendation is to run it on a schedule, not only when something breaks.
-
-1. If you already know the two Modules are duplicates, select them and merge directly.
-2. Otherwise select a Module and use **Find duplicate Modules**; Tosca lists Modules with the same ModuleAttributes (in the source, two scans of a `Swag Labs` login form, each with `Username`, `Password` and `Login`).
-3. Select the ones to combine and choose **Merge selected**.
-
-The merge takes the source Module and merges it into the target. The target Module is left unchanged, every usage of the source Module in TestCases is re-linked to the target, and the source Module is deleted. Nothing needs to be fixed by hand afterwards. The full procedure, with screenshots of the assistant, is in [Duplicate and merge Modules](/ToscaBase/modules/duplicate-and-merge-modules/).
+Tosca ships a **Module merge assistant** for exactly this, and the recommendation is to run it on a schedule, not only when something breaks. It finds Modules with the same ModuleAttributes (in the source, two scans of a `Swag Labs` login form), merges the source Module into the target, re-links every usage of the source in TestCases to the target and deletes the source, so nothing needs to be fixed by hand afterwards. The target keeps its attributes; whether it also keeps its own name or takes the source's is where the two sources disagree. The procedure, the conflict dialog and that note are in [Duplicate and merge Modules](/ToscaBase/modules/duplicate-and-merge-modules/).
 
 :::caution
 The merge assistant only finds Modules whose attributes match. Duplicates that were scanned with different control selections will not be flagged; catching those needs a naming convention and a [review process](/ToscaBase/best-practices/review-process/).

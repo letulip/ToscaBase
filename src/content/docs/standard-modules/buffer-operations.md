@@ -11,7 +11,7 @@ sources:
     at: "02:10"
 ---
 
-A Buffer is a named value that lives for the duration of an execution. Besides the `Buffer` ActionMode on any control, the TBox Automation Modules give you four dedicated buffer operations. Searching **Add TestStep** for `TBox buffer` lists all of them: **TBox Set Buffer**, **TBox Partial Buffer**, **TBox Name to Buffer** and **TBox Delete Buffer**. For the buffer concept itself and the Buffer Viewer, see [Buffers](/ToscaBase/data-and-parameters/buffers/).
+A Buffer is a named value that a TestStep writes during execution. It does not disappear when the run ends: it stays in the local workspace until it is overwritten or deleted, which is why it can be inspected afterwards in the Buffer Viewer (lifetime, scope and the viewer are covered in [Buffers](/ToscaBase/data-and-parameters/buffers/)). Besides the `Buffer` ActionMode on any control, the TBox Automation Modules give you four dedicated buffer operations. Searching **Add TestStep** for `TBox buffer` lists all of them: **TBox Set Buffer**, **TBox Partial Buffer**, **TBox Name to Buffer** and **TBox Delete Buffer**.
 
 ## TBox Set Buffer
 

@@ -34,7 +34,7 @@ Tosca Commander — приложение, в котором проходит в�
 | **TestCases** | Папки, TestCase и их TestStep (шаги); место, где собирается автоматизация |
 | **Modules** | Техническая информация о контролах приложения, полученная XScan. См. [Обзор модулей](/ToscaBase/ru/modules/modules-overview/) |
 | **Requirements** | Требования с весом риска, связанные с TestCase. См. [Требования и риски](/ToscaBase/ru/requirements-and-reporting/requirements-and-risk/) |
-| **TestCase Design** | TestSheet, атрибуты и экземпляры для data-driven дизайна. См. [Дизайн TestCase](/ToscaBase/ru/test-case-design/) |
+| **TestCase-Design** | TestSheet, атрибуты и экземпляры для data-driven дизайна. См. [Дизайн TestCase](/ToscaBase/ru/test-case-design/) |
 | **Execution** | ExecutionList и их постоянные результаты. См. [ExecutionList](/ToscaBase/ru/execution/execution-lists/) |
 | **Issues** | Дефекты, связанные с выполнениями |
 | **Tutorial** | Встроенные учебные материалы; для этой базы знаний не нужны |
@@ -43,7 +43,7 @@ Tosca Commander — приложение, в котором проходит в�
 
 ### Расположение разделов
 
-Разделы можно показывать рядом. Перетащите вкладку раздела на одну из целей докинга (центр, верх, низ, лево, право), чтобы разделить окно; с **Modules** справа и **TestCases** слева можно перетаскивать Module прямо в TestCase. Закрытый раздел открывается заново с вкладки **Home**, где перечислены все разделы.
+Разделы можно показывать рядом. Перетащите вкладку раздела на одну из целей докинга (центр, верх, низ, лево, право), чтобы разделить окно; с **Modules** справа и **TestCases** слева можно перетаскивать Module прямо в TestCase. Закрытый раздел открывается заново через меню **Sections**, где перечислены все разделы (так его открывают в уроке об [отчётах](/ToscaBase/ru/requirements-and-reporting/reports/); в обзорных видео, на которые опирается эта страница, этот шаг не показан).
 
 ## Внутри раздела TestCases
 

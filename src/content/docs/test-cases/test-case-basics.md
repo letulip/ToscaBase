@@ -25,6 +25,10 @@ Everything below is about technical TestCases. Business TestCases are covered wi
 ## Creating a TestCase
 
 1. In the **TestCases** section, right-click a folder and choose the create-TestCase icon (the blue circular arrow), or press **Ctrl+N** followed by **Ctrl+T**.
+
+:::note
+The chord **Ctrl+N**, **Ctrl+T** (two keys in sequence) creates a TestCase; **Ctrl+T** on its own, inside a TestCase, opens the search for adding a TestStep from a Module.
+:::
 2. Give the TestCase a logical name. The new TestCase is empty: it has no TestSteps yet.
 3. Drag a Module from the **Modules** section onto the TestCase. Each dragged Module becomes one TestStep whose TestStepValues are the Module's controls.
 4. For each control you need, enter a value in the **Value** column and choose an ActionMode. Controls you do not touch are ignored.
@@ -36,7 +40,7 @@ Folders are optional but recommended: group TestCases logically before you creat
 
 ## Workstate
 
-A TestCase has three states: `Planning`, `In Work` and `Completed`. The state is not cosmetic; it feeds requirement coverage figures. When to set which value is explained in [TestCase structure](/ToscaBase/best-practices/test-case-structure/).
+A TestCase has three states: `Planned`, `In Work` and `Completed`. The state is not cosmetic; it feeds requirement coverage figures. When to set which value is explained in [TestCase structure](/ToscaBase/best-practices/test-case-structure/).
 
 :::note
 The source calls the first state "planning"; the Workstate column in Commander shows `Planned`. Treat the two as the same value.
@@ -62,7 +66,7 @@ The scenario: open Google in Chrome, search for *Tricentis Tosca*, open the firs
 
 | # | TestStep | Module | Values and ActionModes |
 |---|---|---|---|
-| 1 | Open Google | `OpenUrl` (standard Module, **TBox Engines > HTML**) | URL `www.google.com`, `Input` |
+| 1 | Open Google | `OpenUrl` (standard Module, **TBox XEngines > HTML**) | URL `www.google.com`, `Input` |
 | 2 | Search Tricentis Tosca | Google search screen | Google icon: `Exists` = `True`, `WaitOn`; search field: `Tricentis Tosca`, `Input`; search button: click, `Input` |
 | 3 | Pause | `TBox Wait` (standard Module) | `5000` (milliseconds) |
 | 4 | Open first result | Search results screen | first result link: click, `Input` |

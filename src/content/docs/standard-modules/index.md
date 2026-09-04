@@ -1,6 +1,7 @@
 ---
 title: Standard modules
 description: The TBox Automation Modules that ship with Tosca for files, folders, buffers, processes, screenshots, windows and JavaScript.
+level: 2
 sidebar:
   order: 0
 ---

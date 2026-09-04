@@ -32,7 +32,7 @@ A **Buffer** is Tosca's variable: a named value that a TestStep writes during ex
 There are three ways to write a buffer:
 
 1. **ActionMode `Buffer` on any TestStepValue.** Set the ActionMode of a ModuleAttribute to `Buffer` and enter the buffer name as the value. At run time Tosca reads the control's current value (for a text element, its inner text) and stores it under that name. This is how you capture what the application shows. See [Action modes](/ToscaBase/test-cases/action-modes/).
-2. **`TBox Set Buffer`** and the other buffer Standard Modules, when the value is known in the TestCase (a literal, an expression, another buffer or a Configuration Parameter). The four Modules, `Set Buffer`, `Partial Buffer`, `Name to Buffer` and `Delete Buffer`, are documented in [Buffer operations](/ToscaBase/standard-modules/buffer-operations/).
+2. **`TBox Set Buffer`** and the other buffer Standard Modules, when the value is known in the TestCase (a literal, an expression, another buffer or a Test Configuration Parameter). The four Modules, `Set Buffer`, `Partial Buffer`, `Name to Buffer` and `Delete Buffer`, are documented in [Buffer operations](/ToscaBase/standard-modules/buffer-operations/).
 3. **A dynamic XBuffer inside a `Verify` step**, described below, when only part of a text is interesting.
 
 The ScratchBook log reports every buffer that a step creates, with its value, which makes ScratchBook a quick way to check that a buffer step works.
@@ -44,7 +44,7 @@ Wherever a TestStepValue accepts text, `{B[MyBuffer1]}` is replaced by the curre
 - as the **Input** value of a control, to type a captured value back into the application;
 - as the **Value** of `TBox Set Buffer` or `TBox Partial Buffer`, to copy or cut a buffer;
 - inside [expressions](/ToscaBase/expressions/) such as string operations, where the buffer is normally the first argument;
-- as the value of a Module-level Configuration Parameter, so that a Module setting such as `ConstraintIndex` is driven from the TestCase (see [Test Configuration Parameters](/ToscaBase/data-and-parameters/test-configuration-parameters/)).
+- as the value of a Module-level Configuration Parameter, so that a Module setting such as `ConstraintIndex` is driven from the TestCase (see [Common problems and fixes](/ToscaBase/troubleshooting/common-problems-and-fixes/#identical-browser-tabs)).
 
 Buffers and Test Configuration Parameters combine naturally: `TBox Set Buffer` with the value `{CP[MyTCP]}` copies a configuration value into a buffer, and the log shows the resolved value.
 

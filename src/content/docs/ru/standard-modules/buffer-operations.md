@@ -11,7 +11,7 @@ sources:
     at: "02:10"
 ---
 
-Buffer (буфер) — именованное значение, живущее на время выполнения. Помимо ActionMode (режима действия) `Buffer` на любом контроле, модули TBox Automation Modules дают четыре отдельные операции с буферами. Поиск `TBox buffer` в **Add TestStep** показывает их все: **TBox Set Buffer**, **TBox Partial Buffer**, **TBox Name to Buffer** и **TBox Delete Buffer**. О самих буферах и Buffer Viewer см. [Буферы](/ToscaBase/ru/data-and-parameters/buffers/).
+Buffer (буфер) — именованное значение, которое TestStep записывает во время выполнения. После окончания прогона оно не исчезает: буфер остаётся в локальном workspace, пока его не перезапишут или не удалят, поэтому его можно посмотреть в Buffer Viewer (время жизни, область видимости и сам viewer описаны в [Буферах](/ToscaBase/ru/data-and-parameters/buffers/)). Помимо ActionMode (режима действия) `Buffer` на любом контроле, модули TBox Automation Modules дают четыре отдельные операции с буферами. Поиск `TBox buffer` в **Add TestStep** показывает их все: **TBox Set Buffer**, **TBox Partial Buffer**, **TBox Name to Buffer** и **TBox Delete Buffer**.
 
 ## TBox Set Buffer
 

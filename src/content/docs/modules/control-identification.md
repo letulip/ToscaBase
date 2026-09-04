@@ -31,13 +31,13 @@ At run time Tosca has to find each control on the screen from what the Module st
 
 All four sources use the same example: the Google start page, where the *Google Search* button is not unique because a second, invisible button has exactly the same properties (`name`, `type`, `value`). The text box next to it is unique.
 
-## 1. Identify by properties
+## Identify by properties
 
 The default. Tosca matches the technical properties ticked in XScan (`id`, `name`, `tag`, `value`, `InnerText`, `alt`, ...). Always prefer it: it is the most stable and the fastest.
 
 When XScan reports *selected item is not unique*, the first move is to tick more properties in the Advanced view. Often one extra property is enough (`alt` for the Google logo, `value` for a radio button in [Rescan Modules](/ToscaBase/modules/rescan-modules/)). Pick properties that describe identity, not state. If every sensible property is already ticked and the control is still not unique, as with the *Google Search* button, move on to anchor.
 
-## 2. Identify by anchor
+## Identify by anchor
 
 An anchor is another control, in the neighbourhood of the target, that *is* unique. Tosca finds the anchor first and then the target relative to it. Use it only when properties fail; if no stable, uniquely identified control is available nearby, this method is not an option.
 
@@ -52,7 +52,7 @@ The message on the target changes to *selected item is unique* and the orange ba
 The anchor-mode names are read from speech; the source does not explain how the algorithms differ. Do not rely on the exact option names without checking the pane.
 :::
 
-## 3. Identify by image
+## Identify by image
 
 Tosca stores a bitmap of the control and finds it on screen by image matching. It is the fallback after anchor, and the source is explicit that it should be the last resort before index, because it depends on many run-time conditions.
 
@@ -63,7 +63,7 @@ Tosca stores a bitmap of the control and finds it on screen by image matching. I
 
 The control is then identified by properties **and** image; XScan shows both. Its weaknesses are the recorded values: a different screen resolution at execution time, a changed offset, a method other than full screen, or a match below the accuracy threshold all make the step fail. Keep execution machines identical to the scanning machine if you use it.
 
-## 4. Identify by index
+## Identify by index (ConstraintIndex)
 
 When several controls have the same properties, the index is the position of the target among them. It is the last option in the hierarchy.
 
@@ -72,7 +72,7 @@ When several controls have the same properties, the index is the position of the
 
 Under the hood the Module gets the configuration parameter `ConstraintIndex` with that number; XScan reports that the control uses a constraint index for identification. The index is fragile because the order of identical controls can change with the page; a similar control may end up at the index you recorded. The same parameter can be created by hand, see [Module properties and parameters](/ToscaBase/modules/module-properties-and-parameters/).
 
-## Choosing from the TestCase: ExplicitName
+## ExplicitName: choosing from the TestCase
 
 Sometimes you do not want to fix the identity in the Module at all. On a product list every *Add to cart* button has the same properties; which one to click depends on the TestCase. With the default settings a TestStepValue name cannot be changed in the TestCase, and a click on the scanned button fails after the timeout with *more than one control found*.
 

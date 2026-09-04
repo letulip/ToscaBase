@@ -27,7 +27,7 @@ Values read from an application seldom arrive in the shape a verification needs:
 
 ## Reference
 
-All operations take the input string as the first argument; that string is normally a buffer (`{B[name]}`) or a configuration parameter (`{CP[name]}`). Expressions nest freely.
+All operations take the input string as the first argument; that string is normally a buffer (`{B[name]}`) or a Test Configuration Parameter (`{CP[name]}`). Expressions nest freely.
 
 | Expression | Result | Example from the videos |
 |---|---|---|
@@ -41,10 +41,10 @@ All operations take the input string as the first argument; that string is norma
 | `{STRINGREPLACE[string][pattern][replacement][IGNORECASE]}` | Same, ignoring case | `{STRINGREPLACE[{B[B_order]}][Order number:][][IGNORECASE]}` |
 | `{BASE64[text][ENCODE]}` | Base64-encodes the text | `{BASE64[{CP[username]}][ENCODE]}` |
 | `{BASE64[encoded text][DECODE]}` | Decodes a Base64 string | `{BASE64[{B[encode_username]}][DECODE]}` |
-| `{CALC[expression]}` | Evaluates an arithmetic expression | `{CALC[{B[price1]}+{B[price2]}]}` |
+| `{MATH[expression]}` | Evaluates an arithmetic expression | `{MATH[{B[price1]}+{B[price2]}]}` |
 
 :::note
-The videos use two names for arithmetic: `CALC` in Lesson 148 and `MATH` in Lesson 117 (see [Random values](/ToscaBase/expressions/random-values/)). Both are read out from subtitle-only transcripts; use whichever Tosca offers in the autocomplete list after typing `{`. A correctly formed expression is highlighted in the value cell; if it stays plain text, a brace or bracket is wrong.
+The Lesson 148 video calls the arithmetic expression `CALC`; this knowledge base uses `MATH` throughout (see [Random values](/ToscaBase/expressions/random-values/)). A correctly formed expression is highlighted in the value cell; if it stays plain text, a brace or bracket is wrong.
 :::
 
 ## Escaping special characters in patterns
@@ -76,12 +76,12 @@ Two items in a cart show `$` prices; the TestCase must verify their total.
 
 1. Scan the two price elements (raise the filtered-items count in the scan dialog until they appear), rename them `item1`, `item2`, save the Module as `cart`.
 2. **Buffer** the `InnerText` of each into `price1` and `price2`.
-3. `{CALC[{B[price1]}+{B[price2]}]}` in a Set Buffer named `sum` fails: the `$` makes it *not a valid expression*.
-4. Replace the buffers with cleaned versions using `{STRINGREPLACE[{B[price1]}]["\$"][]}` (and the same for `price2`), then run the `CALC` again. The run passes and the log shows the total; it can be checked against the page with a **Verify** step.
+3. `{MATH[{B[price1]}+{B[price2]}]}` in a Set Buffer named `sum` fails: the `$` makes it *not a valid expression*.
+4. Replace the buffers with cleaned versions using `{STRINGREPLACE[{B[price1]}]["\$"][]}` (and the same for `price2`), then run the `MATH` expression again. The run passes and the log shows the total; it can be checked against the page with a **Verify** step.
 
 ### Encode and decode credentials with Base64
 
-Usernames, passwords or database details stored in Configuration Parameters can be masked with Base64 so the clear text does not travel through the suite.
+Usernames, passwords or database details stored in Test Configuration Parameters can be masked with Base64 so the clear text does not travel through the suite.
 
 | Set Buffer name | Value |
 |---|---|

@@ -1,6 +1,7 @@
 ---
 title: Reference
 description: Glossary of Tosca terms and the curated learning path through ToscaBase.
+level: 1
 sidebar:
   order: 0
 ---

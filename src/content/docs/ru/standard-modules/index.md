@@ -1,6 +1,7 @@
 ---
 title: Стандартные модули
 description: Модули TBox Automation Modules, входящие в поставку Tosca, для файлов, папок, буферов, процессов, скриншотов, окон и JavaScript.
+level: 2
 sidebar:
   order: 0
 ---

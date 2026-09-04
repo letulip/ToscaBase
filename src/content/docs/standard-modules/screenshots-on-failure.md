@@ -65,4 +65,4 @@ Do not switch windows or close the browser while the execution is still running;
 ## Related
 
 - [Execution results and logs](/ToscaBase/execution/execution-results-and-logs/)
-- [Dokusnapper](/ToscaBase/execution/dokusnapper/) for step-by-step documentation of a run
+- [DokuSnapper](/ToscaBase/execution/dokusnapper/) for step-by-step documentation of a run

@@ -13,7 +13,7 @@ sidebar:
 | [Соглашения об именовании](/ToscaBase/ru/best-practices/naming-conventions/) | Единообразные имена для Module, TestCase, папок и TestStep; пример «до и после» |
 | [Структура TestCase](/ToscaBase/ru/best-practices/test-case-structure/) | Точки проверки, группировка в папки (pre-processing, processing, post-processing), Repetition и Constraint вместо циклов, Workstate и его влияние на покрытие требований |
 | [Гигиена Module](/ToscaBase/ru/best-practices/module-hygiene/) | Ограниченный набор ModuleAttribute, разбиение Module по функциональности, поиск и слияние дубликатов |
-| [Синхронизация вместо ожиданий](/ToscaBase/ru/best-practices/synchronisation-not-waits/) | `WaitOn` вместо `TBox Wait`, `X` вместо методов мыши и клавиатуры, а также Synchronization policy репозитория в многопользовательских workspace |
+| [Синхронизация вместо ожиданий](/ToscaBase/ru/best-practices/synchronisation-not-waits/) | `WaitOn` вместо `TBox Wait`, `X` вместо методов мыши и клавиатуры, с примером индикатора прогресса Calculate / Send |
 | [Процесс ревью](/ToscaBase/ru/best-practices/review-process/) | Три стадии утверждения в виде папок, принцип «четырёх глаз», что проверяют ревьюеры |
 
 Читайте по порядку: процесс ревью в конце превращает предыдущие четыре практики в командный чек-лист.

@@ -25,6 +25,10 @@ TestCase (тест-кейс) - это набор инструкций, кото�
 ## Создание TestCase
 
 1. В секции **TestCases** щёлкните правой кнопкой по папке и выберите значок создания TestCase (синяя круговая стрелка) или нажмите **Ctrl+N**, затем **Ctrl+T**.
+
+:::note
+Аккорд **Ctrl+N**, **Ctrl+T** (две клавиши подряд) создаёт TestCase; одиночный **Ctrl+T** внутри TestCase открывает поиск для добавления TestStep из Module.
+:::
 2. Дайте TestCase осмысленное имя. Новый TestCase пуст: в нём пока нет TestStep.
 3. Перетащите Module из секции **Modules** на TestCase. Каждый перетащенный Module становится одним TestStep, а его TestStepValue - это контролы Module.
 4. Для каждого нужного контрола введите значение в колонке **Value** и выберите ActionMode. Нетронутые контролы игнорируются.
@@ -36,7 +40,7 @@ TestCase (тест-кейс) - это набор инструкций, кото�
 
 ## Workstate
 
-У TestCase три состояния: `Planning`, `In Work` и `Completed`. Состояние не декоративно - оно влияет на цифры покрытия требований. Когда какое значение ставить, объяснено в документе [Структура TestCase](/ToscaBase/ru/best-practices/test-case-structure/).
+У TestCase три состояния: `Planned`, `In Work` и `Completed`. Состояние не декоративно - оно влияет на цифры покрытия требований. Когда какое значение ставить, объяснено в документе [Структура TestCase](/ToscaBase/ru/best-practices/test-case-structure/).
 
 :::note
 В источнике первое состояние названо «planning»; колонка Workstate в Commander показывает `Planned`. Считайте это одним и тем же значением.
@@ -62,7 +66,7 @@ TestCase (тест-кейс) - это набор инструкций, кото�
 
 | # | TestStep | Module | Значения и ActionMode |
 |---|---|---|---|
-| 1 | Open Google | `OpenUrl` (стандартный Module, **TBox Engines > HTML**) | URL `www.google.com`, `Input` |
+| 1 | Open Google | `OpenUrl` (стандартный Module, **TBox XEngines > HTML**) | URL `www.google.com`, `Input` |
 | 2 | Search Tricentis Tosca | Экран поиска Google | значок Google: `Exists` = `True`, `WaitOn`; поле поиска: `Tricentis Tosca`, `Input`; кнопка поиска: клик, `Input` |
 | 3 | Pause | `TBox Wait` (стандартный Module) | `5000` (миллисекунды) |
 | 4 | Open first result | Экран результатов | ссылка первого результата: клик, `Input` |

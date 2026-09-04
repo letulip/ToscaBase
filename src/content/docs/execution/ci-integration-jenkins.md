@@ -15,12 +15,7 @@ TCShell lets you execute an ExecutionList from a command prompt without opening 
 
 ## Prerequisite: a batch file
 
-Jenkins cannot execute a `.tcs` script directly, so it needs a Windows batch file that calls TCShell. The demo's `execute.bat` contains the same two commands used from the command prompt:
-
-1. `cd` to the Commander home folder.
-2. The TCShell command that calls `script.tcs`.
-
-The `.tcs` script holds the Commander tasks (jump to an ExecutionList, run it, save), so the batch file never changes: to do something else, change the script. Create the batch file in Notepad and save it as `.bat`.
+Jenkins cannot execute a `.tcs` script directly, so it needs a Windows batch file that calls TCShell with the script (`execute.bat` and `script.tcs` in the demo). Writing both is covered in [Command-line tools](/ToscaBase/administration/command-line-tools/). The Commander tasks live in the script, so the batch file never changes: to do something else, change the script.
 
 ## Creating the Jenkins job
 

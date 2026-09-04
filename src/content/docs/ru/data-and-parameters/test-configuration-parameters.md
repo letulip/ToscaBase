@@ -1,6 +1,6 @@
 ---
 title: Test Configuration Parameters
-description: Test Configuration Parameters (TCP) хранят данные окружения и настройки вне TestStep; где их задавать, синтаксис {CP[имя]}, системные параметры, Configurations уровня проекта и Configuration Parameter модуля ConstraintIndex для одинаковых вкладок браузера.
+description: Test Configuration Parameters (TCP) хранят данные окружения и настройки вне TestStep; где их задавать, синтаксис {CP[имя]}, системные параметры и Configurations уровня проекта.
 level: 2
 sidebar:
   order: 20
@@ -13,10 +13,6 @@ sources:
     title: "Tosca Tutorial | Lesson 156 - Test Configuration Parameters | Project Configurations |"
     url: https://www.youtube.com/watch?v=H5M6Y_Su4OQ
     at: "00:09"
-  - id: 1khI-I1gonk
-    title: "Tosca Tutorial | Lesson 106 - Handle multiple browser tabs | Configuration Parameter | Obstacles |"
-    url: https://www.youtube.com/watch?v=1khI-I1gonk
-    at: "02:11"
 ---
 
 **Test Configuration Parameter (параметр тестовой конфигурации, TCP)** — именованное значение, заданное на объекте Tosca, а не внутри TestStep. Шаги ссылаются на него через `{CP[имя]}`, поэтому смена значения в одном месте меняет все шаги, которые его используют. TCP — правильное место для данных, одинаковых во всём наборе, но разных между окружениями или прогонами: URL приложения, учётные данные, браузер, таймауты, пути отчётов. Жёстко прописанные значения означают правку TestCase при каждой смене данных; при тысяче шагов с одним URL это тысяча правок.
@@ -76,21 +72,9 @@ TCP сочетаются с другими видами параметров:
 - **Применить** Configuration — перетащить её на TestCase, папку или ExecutionList. Объект наследует весь набор.
 - **Заблокировать** Configuration — открыть её **Properties** и установить **Predefined** в `true`. Предопределённую Configuration нельзя изменить или удалить, только наследовать. TestCase, который её наследует, всё же может переопределить значение локально (скажем, Chrome на Edge), и это переопределение действует только в этом TestCase; оригинал не меняется. Так проектные настройки остаются под контролем администратора.
 
-## Configuration Parameters уровня модуля: случай одинаковых вкладок
+## Configuration Parameters уровня модуля — другой механизм
 
-Модули тоже несут Configuration Parameters, задаваемые на ModuleAttribute, и это другой механизм, чем TCP: они настраивают, как Tosca управляет контролом. Они описаны в [Свойствах и параметрах модуля](/ToscaBase/ru/modules/module-properties-and-parameters/); один случай относится сюда, потому что его значение обычно управляется из TestCase.
-
-Проблема: две вкладки браузера показывают **одну и ту же страницу** (тот же заголовок, те же контролы). TestCase, кликающий по ссылке, после переключений между вкладками падает; лог говорит, что найдено больше одной подходящей вкладки.
-
-Решение без пересканирования:
-
-1. Откройте модуль, кликните правой кнопкой по контролу и выберите **Create Configuration Parameter**.
-2. Назовите его `ConstraintIndex` и задайте значение — индекс нужной вкладки (`2` выбирает вторую). Клик теперь попадает в неё.
-3. Статический индекс в модуле хрупок, поэтому сделайте его динамическим: перед кликом добавьте шаг `TBox Set Buffer`, который записывает в буфер `index` значение `1` или `2`, а в модуле замените значение на `{B[index]}`. Какая вкладка управляется, теперь решает TestCase, лист TestCase-Design или TCP, а модуль больше не меняется.
-
-:::note
-Автор произносит имя параметра как «constraint index»; здесь используется написание `ConstraintIndex`. Смежный параметр модуля `ExplicitName` описан в [Препятствиях: идентификация](/ToscaBase/ru/troubleshooting/obstacles-identification/).
-:::
+Модули тоже несут **Configuration Parameters** (`ExplicitName`, `ConstraintIndex` и другие), задаваемые на ModuleAttribute: они настраивают, как Tosca управляет контролом, и через `{CP[...]}` не читаются; см. [Свойства и параметры модуля](/ToscaBase/ru/modules/module-properties-and-parameters/) и, для `ExplicitName`, [Идентификацию контролов](/ToscaBase/ru/modules/control-identification/). Единственный случай, когда такой параметр управляется из TestCase через буфер (`ConstraintIndex` для двух одинаковых вкладок браузера), — рецепт в [Типичных проблемах и решениях](/ToscaBase/ru/troubleshooting/common-problems-and-fixes/#одинаковые-вкладки-браузера).
 
 ## Смежное
 

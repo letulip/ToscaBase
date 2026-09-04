@@ -1,6 +1,6 @@
 ---
 title: Synchronisation, not waits
-description: Replace static TBox Wait steps with the WaitOn ActionMode, avoid mouse and keyboard methods in TestStep values, and understand the separate meaning of the Synchronization policy in multi-user workspaces.
+description: Replace static TBox Wait steps with the WaitOn ActionMode and avoid mouse and keyboard methods in TestStep values, with the Calculate / Send progress-bar example worked both ways.
 level: 3
 sidebar:
   order: 40
@@ -13,13 +13,9 @@ sources:
     title: "Tosca Tutorial | Lesson 101 - No Mouse or Keyboard Methods in Test Step Values | Best Practices |"
     url: https://www.youtube.com/watch?v=NRzZcXaskvo
     at: "00:35"
-  - id: o1b8cACf4Hs
-    title: "Tosca Tutorial | Lesson 138 - Common RealTime Tosca Problems & Fixes | Synchronization Policy |"
-    url: https://www.youtube.com/watch?v=o1b8cACf4Hs
-    at: "00:12"
 ---
 
-A TestCase should wait exactly as long as the application needs and interact with controls the way Tosca does internally, not the way a human does. Two Tricentis best practices follow from this: no static waits, and no mouse or keyboard methods in TestStep values. Both make execution faster and more stable. The last section covers a different thing that also goes by "synchronization" in Tosca, the repository **Synchronization policy**, because newcomers routinely confuse the two.
+A TestCase should wait exactly as long as the application needs and interact with controls the way Tosca does internally, not the way a human does. Two Tricentis best practices follow from this: no static waits, and no mouse or keyboard methods in TestStep values. Both make execution faster and more stable.
 
 ## No static waits
 
@@ -48,35 +44,6 @@ The transcript refers only to "the click method". In Tosca's value syntax the mo
 
 Where a keyboard or mouse method is genuinely needed (drag and drop, special key combinations) it remains available; the recommendation is to minimise it and always look for a faster, internal equivalent first.
 
-## The other "synchronization": repository Synchronization policy
-
-In a multi-user workspace connected to a common repository, *synchronization* means keeping your local workspace up to date with the repository. It has nothing to do with waits, but it produces one of the most common problems newcomers hit, so it belongs alongside the term. See [Multi-user workspaces](/ToscaBase/administration/multi-user-workspaces/) for check-in and check-out in general.
-
-### Symptom
-
-After **Update All** the workspace is current, yet a folder (in the source, a `Vehicle Insurance` component folder) and everything in it is greyed out. You cannot create, edit or check out objects in it. In the context menu **Checkout** is disabled while **Checkout Tree** is enabled, but running it reports that there are no objects to check out. Some items inside show a cloud icon and become accessible when clicked; the rest stay disabled.
-
-### Cause
-
-The folder and its objects are excluded from synchronization. In large workspaces this is done on purpose: synchronising every object each time a workspace opens is slow, so only the folders a tester works on are included, and the rest are left out until needed.
-
-### Fix
-
-Right-click the object and choose **Include for synchronization**, or **Include all necessary items for tree** to include the parent with its children. Tosca synchronises the objects with the repository and the folder becomes editable. The reverse options are **Exclude from synchronization** (the object) and **Exclude tree from synchronization** (the object and all children); excluded objects are greyed out and are not synchronised with the repository at the next check-in.
-
-### Synchronization policy property
-
-Check out an object and open its properties to find **Synchronization policy**. The values described in the source:
-
-| Value | Effect |
-|---|---|
-| `Customizable, default is on` | Default. Included for synchronization, but any user may exclude it |
-| off | Not included for synchronization |
-| `Cannot be excluded` | Nobody can exclude this object |
-| `Cannot be excluded for whole tree` | Nobody can exclude this object or any of its children |
-
-Child objects created under an object inherit its policy. Exporting and importing objects resets the policy to `Customizable, default is on`.
-
 :::note
-The speaker describes the second value only as "set this off"; the exact option label is not audible in the recording. Verify the label in your Tosca version.
+"Synchronization" also names an unrelated multi-user repository feature, the Synchronization policy that decides which objects a workspace keeps in sync with the common repository; see [Multi-user workspaces](/ToscaBase/administration/multi-user-workspaces/).
 :::

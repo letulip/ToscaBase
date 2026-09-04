@@ -1,6 +1,6 @@
 ---
 title: Multi-user workspaces
-description: Create a multi-user workspace on a shared repository (SQLite for practice, Oracle, MS SQL Server or DB2 for projects), work with Update All, Checkout, Checkout Tree and Check In All, and inspect or revoke another user's checkout.
+description: Create a multi-user workspace on a shared repository (SQLite for practice, Oracle, MS SQL Server or DB2 for projects), work with Update All, Checkout, Checkout Tree and Check In All, inspect or revoke another user's checkout, and understand the Synchronization policy behind greyed-out folders.
 level: 4
 sidebar:
   order: 10
@@ -13,9 +13,17 @@ sources:
     title: "Tosca Tutorial | Lesson 95 - View Latest Change Details | Checkout Details | Revoke Checkout |"
     url: https://www.youtube.com/watch?v=kkhG9MAM41A
     at: "00:08"
+  - id: PDP4hgWD9zY
+    title: "Tosca Tutorial | Lesson 91 - Create and Manage User Groups with Users | Multi-User Workspace |"
+    url: https://www.youtube.com/watch?v=PDP4hgWD9zY
+    at: "02:17"
+  - id: o1b8cACf4Hs
+    title: "Tosca Tutorial | Lesson 138 - Common RealTime Tosca Problems & Fixes | Synchronization Policy |"
+    url: https://www.youtube.com/watch?v=o1b8cACf4Hs
+    at: "00:12"
 ---
 
-A single-user workspace (see [Workspace and project setup](/ToscaBase/getting-started/workspace-and-project-setup/)) can be used by one person at a time. When a team shares the same Modules, TestCases and ExecutionLists, each member needs their own workspace connected to a **common repository**, a database that holds the master copy of every object. That is a multi-user workspace. It brings a check-out and check-in cycle, a login screen, user management, branches, versioning and test mandates, none of which exist in a single-user workspace. This doc covers creating the workspace and the daily check-out cycle; the other features have their own docs in this section.
+A single-user workspace (see [Workspace and project setup](/ToscaBase/getting-started/workspace-and-project-setup/)) serves one person at a time. When a team shares the same Modules, TestCases and ExecutionLists, each member needs their own workspace connected to a **common repository**, a database that holds the master copy of every object. That is a multi-user workspace. It brings a check-out cycle, a login screen, user management, branches, versioning and Test mandates. This doc covers creation, the daily check-out cycle and the Synchronization policy; the rest have their own docs in this section.
 
 ## Repository types
 
@@ -25,7 +33,7 @@ When you create a workspace, the **Type of repository** field decides what you g
 |---|---|---|
 | `None` | Single-user workspace | none |
 | `SQLite` | Multi-user workspace on a local database | none: no connection string, no schema |
-| `Oracle`, `MS SQL Server`, `DB2` | Multi-user workspace on a dedicated database server | connection string (contains the user, password and database address); schema is optional; **Test connection** before creating |
+| `Oracle`, `MS SQL Server`, `DB2` | Multi-user workspace on a dedicated database server | database fields appear: a **connection string** (user, password and database address), which is required, and a **schema**, which Lesson 90 calls optional; **Test connection** before creating |
 
 :::caution
 SQLite is for practising and for trying out the multi-user features. It is not a solution for a real project; a real project needs a dedicated Oracle, MS SQL Server or DB2 instance.
@@ -36,17 +44,17 @@ SQLite is for practising and for trying out the multi-user features. It is not a
 1. In Tosca Commander choose **Create new** workspace.
 2. Set **Type of repository** to `SQLite` (or a database type and its connection string; test the connection).
 3. Pick the folder and give the workspace a name (the source uses `MultiDemo`).
-4. Leave **Slim workspace** unchecked unless the repository holds a high data volume. A slim workspace takes less disk space and speeds up a large repository; for a small one the speaker prefers a normal workspace.
-5. Leave **Use existing repository** unchecked when this is the first workspace on this repository, so that Tosca creates the repository. Check it for every later workspace that should attach to the same repository (a second team member, or a workspace on a [branch](/ToscaBase/administration/branches/)).
+4. Leave **Slim workspace** unchecked unless the repository is large: a slim workspace takes less disk space and speeds up a big repository.
+5. Leave **Use existing repository** unchecked when this is the first workspace on this repository, so that Tosca creates the repository. Check it for every later workspace on the same repository (a second team member, or a [branch](/ToscaBase/administration/branches/)).
 6. Click **OK**. Creation takes a moment, then the workspace opens.
 
 :::note
-The speaker's wording about **Use existing repository** in Lesson 90 is contradictory; the behaviour above is what the demonstration and the follow-up in Lesson 92 show: the option is unavailable until a repository exists, and selected afterwards.
+The speaker's wording about **Use existing repository** in Lesson 90 is contradictory; the behaviour above is what the demonstration and Lesson 92 show.
 :::
 
 ## The login screen and the default user
 
-A multi-user workspace always asks for a user name and password. On a freshly created workspace Tosca has already created one user, `Admin`, with an empty password: enter `Admin`, leave the password blank and click **Login**. Create the real users afterwards as described in [Users and groups](/ToscaBase/administration/users-and-groups/). Credentials are case-sensitive.
+A multi-user workspace always asks for a user name and password. On a freshly created workspace Tosca has already created one user, `Admin`, with an empty password: enter `Admin`, leave the password blank and click **Login**. Create the real users afterwards as described in [Users and groups](/ToscaBase/administration/users-and-groups/).
 
 ## Check-out and check-in
 
@@ -55,22 +63,18 @@ Every object in the repository is either free, checked out by you, or checked ou
 - A **green mark** in front of an object means it is checked out by you. Only checked-out objects can be edited; on a free folder the context menu shows no **Create** entries at all.
 - A **red stripe** in front of an object means another user has it checked out. You cannot change it until that user checks in.
 
-While you hold an object, nobody else can change it. This is the main difference from a code repository such as Git: Tosca does not merge concurrent edits of one object, it prevents them, so there are no conflicts to resolve. Changes from different users on different objects are merged when they check in.
+While you hold an object nobody else can change it: unlike Git, Tosca does not merge concurrent edits of one object, it prevents them, so there are no conflicts to resolve. Edits by different users to different objects are merged at check-in.
 
 The four operations, available on the toolbar of the multi-user section and in the context menu of each object:
 
 | Operation | Effect |
 |---|---|
-| **Update All** | Fetches every change other users have checked in and merges it into your workspace. Do this before you start working. It can be automated with TCShell, see [Command-line tools](/ToscaBase/administration/command-line-tools/). |
+| **Update All** | Fetches every change other users have checked in into your workspace. Do this before you start; TCShell can automate it ([Command-line tools](/ToscaBase/administration/command-line-tools/)). |
 | **Checkout** | Checks out one object only, for example the `Execution` folder but nothing inside it. |
-| **Checkout Tree** | Checks out the object and everything it contains. Use it on a TestCase folder you are about to rework so that nobody changes its contents meanwhile. |
+| **Checkout Tree** | Checks out the object and everything it contains. Use it on a folder you are about to rework so nobody changes its contents meanwhile. |
 | **Check In All** | Checks in every object you hold and makes your changes available to the others. Do this when you finish. |
 
-The recommended rhythm is: **Update All**, check out what you need (tree for a folder you will rework), work, **Check In All**. Closing a workspace with checked-out objects prompts you to check in; answering **No** leaves them checked out in the repository, which is what the next section is about.
-
-:::tip
-A folder that stays greyed out after **Update All**, with **Checkout** disabled and **Checkout Tree** reporting nothing to check out, is not locked by another user: it is excluded from synchronization. See the Synchronization policy section of [Synchronisation, not waits](/ToscaBase/best-practices/synchronisation-not-waits/).
-:::
+The recommended rhythm is: **Update All**, check out what you need (tree for a folder you will rework), work, **Check In All**. Closing a workspace with checked-out objects prompts you to check in; **No** leaves them checked out in the repository.
 
 ## Who changed it, who holds it
 
@@ -81,7 +85,30 @@ Right-click any object (this works whether you are an admin or a normal user):
 
 ## Revoking a checkout
 
-Only a member of the `Admins` group can take a checked-out object away from another user. Right-click the object and choose **Revoke checkout**. Tosca warns that all changes in the object will be discarded: whatever the other user did while holding it is lost, and it will not be merged even if that user checks in later. After **OK** the object is free again; check it out yourself to work on it.
+Only an admin user can take a checked-out object away from another user; every new workspace has the groups `Admins` and `All users`, and the default `Admin` user belongs to `Admins`. Right-click the object and choose **Revoke checkout**. Tosca warns that all changes in the object will be discarded: what the other user did while holding it is lost, even if they check in later. After **OK** the object is free again; check it out yourself to work on it.
+
+## Synchronization policy
+
+*Synchronization* is the process that keeps the objects in your workspace in step with the changes in the common repository; **Update All** triggers it. In large repositories not every folder is synchronized: to shorten the time it takes to open and update a workspace, folders that most testers do not need are **excluded from synchronization** on purpose, and each tester includes only the folders they work on.
+
+An excluded folder looks locked, but is not:
+
+- the folder and the objects inside it stay greyed out after **Update All**;
+- **Checkout** is disabled in the context menu, and **Checkout Tree** reports that there are no objects to check out;
+- you cannot create, edit or check out anything inside it.
+
+To make it accessible, right-click it and choose **Include for synchronization** (the object itself) or **Include all necessary items for tree** (the object with its children). Tosca synchronizes them with the repository and the folder becomes usable. The reverse commands, **Exclude from synchronization** and **Exclude tree from synchronization**, grey the object (or the whole subtree) out, and from the next check-in it is no longer synchronized with the repository.
+
+What may be excluded is governed by the **Synchronization policy** property, shown in the Properties pane of a checked-out object:
+
+| Value | Meaning |
+|---|---|
+| `Customizable, default is on` | Default. Synchronized, but any user may exclude the object |
+| `off` | Not synchronized |
+| `Cannot be excluded` | Always synchronized; nobody can exclude the object |
+| `Cannot be excluded for whole tree` | The object and all its children cannot be excluded |
+
+Objects created under a parent inherit the parent's value. Exporting or importing an object resets the property to `Customizable, default is on`.
 
 ## Related
 

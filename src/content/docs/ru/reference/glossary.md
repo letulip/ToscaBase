@@ -226,7 +226,7 @@ sidebar:
 
 **Subset (.tsu) and .tdp** (файл подмножества и дамп репозитория) — `.tsu` — файл экспорта подмножества, создаваемый командой Export subset (и автономным API Scan); `.tdp` — дамп резервной копии репозитория, создаваемый администратором. См. [Резервное копирование и восстановление](/ToscaBase/ru/administration/backup-and-restore/).
 
-**Synchronization policy** (политика синхронизации) — свойство объекта в многопользовательском workspace, определяющее, можно ли исключить объект из синхронизации с репозиторием; Include и Exclude for synchronization — команды контекстного меню, исключённые объекты показаны серым. См. [Синхронизация вместо ожиданий](/ToscaBase/ru/best-practices/synchronisation-not-waits/).
+**Synchronization policy** (политика синхронизации) — свойство объекта в многопользовательском workspace, определяющее, можно ли исключить объект из синхронизации с репозиторием; Include и Exclude for synchronization — команды контекстного меню, исключённые объекты показаны серым. См. [Синхронизация вместо ожиданий](/ToscaBase/ru/administration/multi-user-workspaces/).
 
 ## T
 

@@ -65,4 +65,4 @@ ScratchBook не может показать автоматический скр
 ## См. также
 
 - [Результаты выполнения и логи](/ToscaBase/ru/execution/execution-results-and-logs/)
-- [Dokusnapper](/ToscaBase/ru/execution/dokusnapper/) для пошаговой документации прогона
+- [DokuSnapper](/ToscaBase/ru/execution/dokusnapper/) для пошаговой документации прогона

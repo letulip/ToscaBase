@@ -71,7 +71,7 @@ sources:
 
 1. Снова **Check template**, **reinstantiate**. Экземпляры получают папку *Send quote* со своими значениями.
 2. Запустите один экземпляр в ScratchBook: выбирается вариант, нажимается *Next*, заполняется форма, ожидание ловит подтверждение, нажимается *OK*.
-3. Синхронизируйте ExecutionList с изменёнными TestCase и запустите оттуда. Результат тот же, что в ScratchBook; разница в том, что ExecutionList хранит его с датой, временем и длительностью ([Списки выполнения](/ToscaBase/ru/execution/execution-lists/), [Результаты и логи](/ToscaBase/ru/execution/execution-results-and-logs/)).
+3. Правый клик по ExecutionList > **Synchronize** (безвредная предосторожность: строго говоря, она нужна только при изменении папок) и запустите оттуда. Результат тот же, что в ScratchBook; разница в том, что ExecutionList хранит его с датой, временем и длительностью ([Списки выполнения](/ToscaBase/ru/execution/execution-lists/), [Результаты и логи](/ToscaBase/ru/execution/execution-results-and-logs/)).
 4. Для отчётности руководству используйте **print view** ExecutionList и экспорт в Excel или PDF. Добавляйте или убирайте столбцы в ExecutionList — экспорт следует за ними; немного форматирования в Excel делает отчёт презентабельным ([Отчёты](/ToscaBase/ru/requirements-and-reporting/reports/)).
 
 ## Что осталось за кадром и куда это вставить

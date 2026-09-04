@@ -23,16 +23,12 @@ Properties with a blue icon are created by Tosca. The important ones:
 | **Business type** | Module and attribute | The technology-specific type. On a Module it is the root element, `HTML document` or `XML document`; on an attribute it is the control type, for example `TextBox` |
 | **Cardinality** | Attribute | How often the attribute may be used as a TestStepValue in one TestStep. Default `0-1` (once). Set `0-n` to use it any number of times, for example a list item or a checkbox you need repeatedly |
 | **Node path** | Both | Unique path of the object in the workspace, from the root through `Modules` down to the attribute |
-| **Synchronization policy** | Module | Whether the object is included in repository synchronization: `Default is on`, `Default is off`, `Cannot be excluded`, `Cannot be excluded for whole tree`. Explained in [Synchronisation, not waits](/ToscaBase/best-practices/synchronisation-not-waits/) |
+| **Synchronization policy** | Module | Whether the object is included in repository synchronization: `Customizable, default is on` (any user may exclude it), `Cannot be excluded`, `Cannot be excluded for whole tree`. The feature is explained in [Multi-user workspaces](/ToscaBase/administration/multi-user-workspaces/) |
 | **Technical ID** | Module | A technology-specific property, mostly set by Tosca; not every Module has one |
 | **Unique ID** | Both | The object's unique number in the workspace; use it to search for the object |
 | **Owning group name**, **Viewing group name** | Module | The user groups that own the object and may see it; see [Users and groups](/ToscaBase/administration/users-and-groups/) |
-| **Data type**, **Action mode**, **Default value** | Attribute | Type of the value, the default ActionMode, and a default value for the TestStepValue |
+| **Data type**, **ActionMode**, **Default value** | Attribute | Type of the value, the default ActionMode, and a default value for the TestStepValue |
 | **Interface type** | Attribute | `GUI`, `Non-GUI` or `Implicit` |
-
-:::note
-The Synchronization policy values are read twice in the source; the second reading, at 07:09, is the one used above. The first mentions *customizable, default is on*, which is also the wording used in the best-practices doc. Check the drop-down in your version.
-:::
 
 ## Parameters
 

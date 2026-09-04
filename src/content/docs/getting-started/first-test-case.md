@@ -48,9 +48,9 @@ Dock **Modules** next to **TestCases** (drag the section tab to the right dockin
 |---|---|---|---|
 | Username | String | `Input` | the demo site's standard user name (shown on the login page) |
 | Password | Password | `Input` | the matching password; it is masked once typed |
-| Login | String | `Input` | `{CLICK}` (choose **Click** from the value dropdown) |
+| Login | String | `Input` | `X` |
 
-A text box takes an `Input` with a value; a button is not a text box, so its value is the click action picked from the dropdown while the ActionMode stays `Input`. Every ActionMode is explained in [ActionModes](/ToscaBase/test-cases/action-modes/).
+A text box takes an `Input` with a value; a button is not a text box, so its value `X` tells Tosca to click it, while the ActionMode stays `Input`. `X` is an internal click, done without moving the pointer, and is the recommended way to click. The video instead picks **Click** from the value dropdown, which inserts `{CLICK}`, a physical mouse click; it works, but it is slower and less reliable, see [Synchronisation, not waits](/ToscaBase/best-practices/synchronisation-not-waits/). Every ActionMode is explained in [ActionModes](/ToscaBase/test-cases/action-modes/).
 
 ## 4. Browser as a Test Configuration Parameter
 
@@ -58,7 +58,7 @@ Tosca must know which browser to use. Right-click the parent folder `Sauce Demo 
 
 ## 5. Open the application (Prerequisites)
 
-The browser is chosen, but nothing opens it yet. In `Prerequisites` add a TestStep from the Standard modules that came with the template: open the Modules section (from the **Home** tab if you closed it) and find **TBox XEngines > HTML > Open Url**, or press `Ctrl+T` in the folder and search. Drag it in, rename the step `Open Application`, and paste the demo site's URL into the **Url** value. The optional `ActiveTab` and browser-arguments values can stay empty.
+The browser is chosen, but nothing opens it yet. In `Prerequisites` add a TestStep from the Standard modules that came with the template: open the Modules section (reopen it if you closed it, see [Commander overview](/ToscaBase/getting-started/commander-overview/#arranging-sections)) and find **TBox XEngines > HTML > Open Url**, or press `Ctrl+T` in the folder and search. Drag it in, rename the step `Open Application`, and paste the demo site's URL into the **Url** value. The optional `ActiveTab` and browser-arguments values can stay empty.
 
 ## 6. Run in the ScratchBook
 

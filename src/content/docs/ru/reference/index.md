@@ -1,6 +1,7 @@
 ---
 title: Справочник
 description: Глоссарий терминов Tosca и рекомендуемый путь обучения по ToscaBase.
+level: 1
 sidebar:
   order: 0
 ---

@@ -71,7 +71,7 @@ This is the core pattern: the template holds every branch, conditions on folders
 
 1. **Check template** again, **reinstantiate**. The instances gain the *Send quote* folder with their own values.
 2. Run one instance in ScratchBook: the option is chosen, *Next* is clicked, the form is filled, the wait picks up the confirmation, *OK* is clicked.
-3. Synchronise the ExecutionList with the changed TestCases and run from there. The result is the same as in ScratchBook; the difference is that the ExecutionList stores it with date, time and duration ([Execution lists](/ToscaBase/execution/execution-lists/), [Results and logs](/ToscaBase/execution/execution-results-and-logs/)).
+3. Right-click the ExecutionList > **Synchronize** (a harmless precaution; strictly only folder changes need it) and run from there. The result is the same as in ScratchBook; the difference is that the ExecutionList stores it with date, time and duration ([Execution lists](/ToscaBase/execution/execution-lists/), [Results and logs](/ToscaBase/execution/execution-results-and-logs/)).
 4. For management reporting use the ExecutionList **print view** and export to Excel or PDF. Add or remove columns in the ExecutionList and the export follows; a little formatting in Excel makes it presentable ([Reports](/ToscaBase/requirements-and-reporting/reports/)).
 
 ## What was left out, and where it goes

@@ -75,7 +75,7 @@ Not synchronised automatically, you must right-click the ExecutionList (or folde
 - adding a new TestCase to a folder that is already in the list (the new entry appears only after synchronising).
 
 :::tip
-Synchronising is only needed when you keep restructuring TestCases after the ExecutionList exists. If you create the list after development is finished and only edit TestSteps afterwards, you never need it.
+Synchronising is only needed when you keep restructuring TestCases after the ExecutionList exists. If you create the list after development is finished and only edit TestSteps afterwards, you never need it. Other lessons (for example [Recovery and Cleanup Scenarios](/ToscaBase/test-cases/recovery-and-cleanup-scenarios/)) still advise a **Synchronize** after any change to a TestCase "to be sure"; it is harmless, so when in doubt, synchronise before running.
 :::
 
 ## Related

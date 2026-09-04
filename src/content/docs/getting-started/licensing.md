@@ -51,7 +51,7 @@ Tricentis later simplified the process: the download and the trial license come 
 1. On `tricentis.com` go to **Demos and trials**, find Tosca and click **Free trial**.
 2. Check the system requirements shown on the page: about 1.4 GB of disk space, five to ten minutes of download on a stable connection, Windows 7 or later.
 3. Fill in the form: email address, the required details, optionally your role and your goals for the trial (for example, learning Tosca). Submit.
-4. The confirmation page explains what happens next, links videos for installing, activating the license and creating a first TestCase, and offers the installer download (about 1.4 GB, Tosca 15 LTS at the time of recording).
+4. The confirmation page explains what happens next, links videos for installing, activating the license and creating a first TestCase, and offers the installer download (about 1.4 GB for Tosca 15 LTS at the time of recording; other versions differ, [Installation](/ToscaBase/getting-started/installation/) quotes 1.5 GB).
 
 The trial can be extended by 30 days; beyond that you must contact Tricentis. The trial covers Tosca only, not NeoLoad or qTest.
 

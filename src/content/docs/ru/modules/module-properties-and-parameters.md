@@ -23,16 +23,12 @@ sources:
 | **Business type** | Module и атрибут | Технологический тип. У Module это корневой элемент, `HTML document` или `XML document`; у атрибута — тип контрола, например `TextBox` |
 | **Cardinality** (кардинальность) | Атрибут | Сколько раз атрибут может использоваться как TestStepValue в одном TestStep. По умолчанию `0-1` (один раз). `0-n` разрешает любое число раз, например для элемента списка или чекбокса, нужного многократно |
 | **Node path** | Оба | Уникальный путь объекта в workspace, от корня через `Modules` до атрибута |
-| **Synchronization policy** | Module | Включён ли объект в синхронизацию с репозиторием: `Default is on`, `Default is off`, `Cannot be excluded`, `Cannot be excluded for whole tree`. Разобрано в [Синхронизации вместо ожиданий](/ToscaBase/ru/best-practices/synchronisation-not-waits/) |
+| **Synchronization policy** | Module | Включён ли объект в синхронизацию с репозиторием: `Customizable, default is on` (любой пользователь может исключить), `Cannot be excluded`, `Cannot be excluded for whole tree`. Сама функция разобрана в [Многопользовательских workspace](/ToscaBase/ru/administration/multi-user-workspaces/) |
 | **Technical ID** | Module | Технологическое свойство, обычно выставляемое Tosca; есть не у каждого Module |
 | **Unique ID** | Оба | Уникальный номер объекта в workspace; по нему объект можно искать |
 | **Owning group name**, **Viewing group name** | Module | Группы пользователей, владеющие объектом и имеющие право его видеть; см. [Пользователи и группы](/ToscaBase/ru/administration/users-and-groups/) |
-| **Data type**, **Action mode**, **Default value** | Атрибут | Тип значения, ActionMode по умолчанию и значение по умолчанию для TestStepValue |
+| **Data type**, **ActionMode**, **Default value** | Атрибут | Тип значения, ActionMode по умолчанию и значение по умолчанию для TestStepValue |
 | **Interface type** | Атрибут | `GUI`, `Non-GUI` или `Implicit` |
-
-:::note
-Значения Synchronization policy в источнике зачитываются дважды; выше использовано второе чтение, на 07:09. В первом упоминается *customizable, default is on* — та же формулировка, что и в документе по лучшим практикам. Проверьте выпадающий список в своей версии.
-:::
 
 ## Параметры
 

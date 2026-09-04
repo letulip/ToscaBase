@@ -42,7 +42,7 @@ All three are required.
 | Continue execution | Carry on with the next step |
 | Recover | Run the Recovery Scenario |
 
-Choose **Recover** for each failure type you want recovery scenarios to handle. Three more settings in the same dialog cap the number of attempts: **TestCase retries**, **TestStep retries** and **TestStepValue retries**, the maximum number of recovery attempts per TestCase, TestStep and TestStepValue respectively. Any values are allowed; they can differ. Close the dialog and recovery is enabled for every object in the workspace.
+Choose **Recover** for each failure type you want Recovery Scenarios to handle. Three more settings in the same dialog cap the number of attempts: **TestCase retries**, **TestStep retries** and **TestStepValue retries**, the maximum number of recovery attempts per TestCase, TestStep and TestStepValue respectively. Any values are allowed; they can differ. Close the dialog and recovery is enabled for every object in the workspace.
 
 ### Step 1b: enable per folder
 
@@ -88,7 +88,7 @@ The example uses a `WaitOn` inside the recovery, which is a workaround for a mis
 
 ## Cleanup Scenarios
 
-A Recovery Scenario changes the application state so that the retry can succeed. If the recovery itself fails, the application is stuck in a state from which every following TestStep would fail too. A **Cleanup Scenario**, also part of the recovery engine, runs when the recovery scenario has failed and holds the TestSteps that return the application to its original state, for example relaunch the application, log in and navigate back to the page where the next steps expect to be.
+A Recovery Scenario changes the application state so that the retry can succeed. If the recovery itself fails, the application is stuck in a state from which every following TestStep would fail too. A **Cleanup Scenario**, also part of the recovery engine, runs when the Recovery Scenario has failed and holds the TestSteps that return the application to its original state, for example relaunch the application, log in and navigate back to the page where the next steps expect to be.
 
 ### Creating one
 

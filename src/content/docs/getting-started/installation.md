@@ -19,7 +19,7 @@ sources:
     at: "00:04"
 ---
 
-Tosca runs on Windows only. Installing it is a download of about 1.5 GB, a wizard where the defaults are fine, a license connection, and one browser extension so that XScan can see web pages. If your own machine is not a Windows box or is too small, the same steps work on a virtual Windows Server in AWS, which is also the only way to drive Tosca from a Mac. A support account and a license request are prerequisites; see [Licensing](/ToscaBase/getting-started/licensing/).
+Tosca runs on Windows only. Installing it is a download of about 1.5 GB (the size varies with the installer version; the Tosca 15 LTS trial installer in [Licensing](/ToscaBase/getting-started/licensing/) is about 1.4 GB), a wizard where the defaults are fine, a license connection, and one browser extension so that XScan can see web pages. If your own machine is not a Windows box or is too small, the same steps work on a virtual Windows Server in AWS, which is also the only way to drive Tosca from a Mac. A support account and a license request are prerequisites; see [Licensing](/ToscaBase/getting-started/licensing/).
 
 ## Download
 

@@ -1,6 +1,7 @@
 ---
 title: Expressions
 description: Dynamic values in TestStepValues - random data, calculated dates, string operations, arithmetic and regular expressions.
+level: 2
 sidebar:
   order: 0
 ---
@@ -9,7 +10,7 @@ A TestStepValue can be more than a literal: anything written in curly braces is 
 
 - [Random values](/ToscaBase/expressions/random-values/) - `RND`, `RNDDECIMAL` and `RANDOMTEXT` for generated data, plus `MATH` and `SENDKEYS` for calculating with values the application generates and typing them back.
 - [Date expressions](/ToscaBase/expressions/date-expressions/) - `DATE`, `DATETIME`, `MONTHFIRST`, `LDAY` and related expressions with base date, offset and format, and the `ToscaDateFormat` fix when a date literal is not recognised.
-- [String operations](/ToscaBase/expressions/string-operations/) - `STRINGLENGTH`, `STRINGTOUPPER`/`STRINGTOLOWER`, `NUMBEROFOCCURRENCES`, `TRIM`, `STRINGREPLACE` with escaped characters, `BASE64` encode/decode and `CALC`.
+- [String operations](/ToscaBase/expressions/string-operations/) - `STRINGLENGTH`, `STRINGTOUPPER`/`STRINGTOLOWER`, `NUMBEROFOCCURRENCES`, `TRIM`, `STRINGREPLACE` with escaped characters, `BASE64` encode/decode and `MATH`.
 - [Intervals and verification expressions](/ToscaBase/expressions/intervals-and-verification-expressions/) - `INTERVAL` for verifying a value within a range, `REGEX` in ModuleAttributes and Verify steps, multilingual identification with alternatives, and named groups that split a value into buffers.
 
 Expressions are usually combined with buffers (`{B[name]}`) and configuration parameters (`{CP[name]}`); those are covered in [Buffers](/ToscaBase/data-and-parameters/buffers/). How the Verify, Buffer and Input ActionModes interact with expressions is explained in [ActionModes](/ToscaBase/test-cases/action-modes/).

@@ -61,16 +61,13 @@ Combine several technical properties when one is not enough; do not stick to `id
 
 **Cause.** The controls themselves carry no distinguishing property. The difference is only in *where* they sit in the page structure.
 
-**Solution.** Two options.
+**Solution.** [Identify by index](/ToscaBase/modules/control-identification/#4-identify-by-index) works but breaks as soon as a similar link is added to the page. Identify through the parent container instead:
 
-- *Identify by index* (quick, not recommended). Select the second occurrence by index. It breaks as soon as another similar link is added to the page, because the index shifts.
-- *Identify through the parent container* (recommended).
-  1. In XScan, raise the **filtered items** level (to the last-but-one level) so that parent and child elements become visible.
-  2. Find the container wrapping the target button. Here the right-hand container has a unique `id`; the left-hand container's `id` is empty.
-  3. Add the container to the Module, then the button inside it. The button is now unique because it is resolved inside a unique parent.
-  4. In the TestCase Tosca sets the container's ActionMode to `Select` automatically; put `X` on the nested link.
+1. In XScan, raise the **filtered items** level so that parent elements become visible.
+2. Find the container wrapping the target button; here the right-hand container has a unique `id`, the left-hand one's is empty.
+3. Add the container to the Module, then the button inside it. In the TestCase Tosca sets the container's ActionMode to `Select`; put `X` on the nested link.
 
-Look beyond the element itself: parents and neighbours often carry the property the element lacks.
+Parents and neighbours often carry the property the element lacks.
 
 ## Two times (obstacle 4)
 
@@ -80,11 +77,11 @@ Look beyond the element itself: parents and neighbours often carry the property 
 
 **Solution.**
 
-1. In the Module attribute, replace the changing numeric part of the `id` with `*`, keeping the constant prefix (`rd_*`). The wildcard matches whatever digits appear, so the control is found whether the `id` changes or not.
+1. In the Module attribute, replace the changing numeric part of the `id` with `*`, keeping the constant prefix (`rd_*`). The wildcard matches whatever digits appear.
 2. Drag the Module into the TestCase twice (*Click once*, *Click twice*), each with the value `X`.
 
 :::note
-The speaker calls `*` "a regular expression for one or more occurrences". In Tosca property values it is a wildcard; full regular expressions are also supported in property values and are covered in [Intervals and verification expressions](/ToscaBase/expressions/intervals-and-verification-expressions/).
+The speaker calls `*` a regular expression; in Tosca property values it is a wildcard. Full regular expressions are covered in [Intervals and verification expressions](/ToscaBase/expressions/intervals-and-verification-expressions/).
 :::
 
 ## Multiselect list box (obstacle 6, "Testing methods")
@@ -93,14 +90,9 @@ The speaker calls `*` "a regular expression for one or more occurrences". In Tos
 
 **Cause.** By default a Module attribute can be used once per TestStep (cardinality `0-1`), and its name is fixed in the Module, so one scanned list item cannot address four different entries.
 
-**Solution.** Scan only the list box and **one** list item; all items share the same properties, only their names differ. Then, on the item attribute:
+**Solution.** Scan only the list box and **one** list item; all items share the same properties, only their names differ. On the item attribute set **cardinality** to `0-n` and add the Configuration Parameter `ExplicitName = True`, so that the attribute can be used any number of times and the name given in the TestStep decides which item is steered (mechanism: [Control identification](/ToscaBase/modules/control-identification/#choosing-from-the-testcase-explicitname)).
 
-1. Change **cardinality** from `0-1` to `0-n`, so the attribute can be used any number of times in one TestStep.
-2. Right-click the attribute, **Create Configuration Parameter**, choose `ExplicitName` and set it to `True`. Renaming the attribute inside a TestStep now changes which item is steered, instead of being a cosmetic rename.
-
-In the TestCase, rename the item to `Functional testing`; because of the cardinality a fresh empty item row appears, which you rename to the next method, and so on. ActionMode stays `Input`, which selects the entry. Use the full visible name (`End-to-End testing`, not `End-to-End`), otherwise the entry is not matched.
-
-See [Module properties and parameters](/ToscaBase/modules/module-properties-and-parameters/) for the parameter dialog itself.
+In the TestCase, rename the item to `Functional testing`; a fresh empty item row appears, which you rename to the next method, and so on. ActionMode stays `Input`, which selects the entry. Use the full visible name (`End-to-End testing`, not `End-to-End`), otherwise the entry is not matched.
 
 ## Autocomplete text box (obstacle 7, "And counting")
 
@@ -115,7 +107,7 @@ See [Module properties and parameters](/ToscaBase/modules/module-properties-and-
 3. List item → property `ResultCount`, ActionMode `Buffer`, value `count`. `ResultCount` returns how many controls matched the attribute.
 4. Count text box → `{B[count]}` with ActionMode `Input`.
 
-`ResultCount` is the same trick used to count links on a page in [Common problems and fixes](/ToscaBase/troubleshooting/common-problems-and-fixes/). Buffers are explained in [Buffers](/ToscaBase/data-and-parameters/buffers/).
+`ResultCount` is the same trick used to count links in [Common problems and fixes](/ToscaBase/troubleshooting/common-problems-and-fixes/).
 
 ## Hidden element (obstacle 24)
 
@@ -127,7 +119,7 @@ See [Module properties and parameters](/ToscaBase/modules/module-properties-and-
 
 1. Raise the **filtered items** level in XScan until the whole HTML tree is listed.
 2. Orient yourself by visible neighbours (here the text *easy* sits in the same `div`) and find the target `span`. It has a unique `id`; no other property is needed.
-3. Add it to the Module and click it with `X` in the TestCase. All the work is in the scan; the TestCase is one step.
+3. Add it to the Module and click it with `X` in the TestCase; all the work is in the scan.
 
 ## Scroll into view (obstacle 25)
 
@@ -138,8 +130,7 @@ See [Module properties and parameters](/ToscaBase/modules/module-properties-and-
 **Solution.** Use a **steering parameter** instead of a scroll step:
 
 1. Scan the text field (XScan shows it nested `iframe` → HTML document → text field) and the *Submit* button.
-2. Right-click the text field attribute, **Create Steering Parameter**, name it `ScrollingBehavior`. It accepts `Top`, `Bottom`, `Center` or `None` and defines where the control is positioned on screen before it is steered.
-3. Set it to `Top`.
-4. TestCase: *Enter text* (`Tosca`, ActionMode `Input`), then *Click submit* (`X`).
+2. Right-click the text field attribute, **Create Steering Parameter**, name it `ScrollingBehavior` and set it to `Top` (other values: `Bottom`, `Center`, `None`).
+3. TestCase: *Enter text* (`Tosca`, ActionMode `Input`), then *Click submit* (`X`).
 
 Tosca scrolls the field to the top of the viewport before typing; no static wait or scroll module is needed. Other steering parameters are listed in [Module properties and parameters](/ToscaBase/modules/module-properties-and-parameters/); see also [Synchronisation, not waits](/ToscaBase/best-practices/synchronisation-not-waits/).

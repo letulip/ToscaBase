@@ -47,7 +47,7 @@ Use **Save and close** to store the scenario in the session and move on to the n
 
 The session document can be exported as **DOCX** or **PDF**; the speaker recommends PDF.
 
-1. Choose the export and tick what to include: **steps and step values**, extra columns (**actual result**, **action mode**, **action property**), **media** (included by default) and the **page setup**.
+1. Choose the export and tick what to include: **steps and step values**, extra columns (**actual result**, **ActionMode**, **action property**), **media** (included by default) and the **page setup**.
 2. Pick a target folder and click **OK**.
 
 The exported PDF contains more than what was recorded:

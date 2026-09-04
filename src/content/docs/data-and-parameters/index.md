@@ -1,6 +1,7 @@
 ---
 title: Data and parameters
 description: Where values live outside TestSteps - buffers, Test Configuration Parameters, Business Parameters with TestStep libraries, and Test Data Services.
+level: 2
 sidebar:
   order: 0
 ---

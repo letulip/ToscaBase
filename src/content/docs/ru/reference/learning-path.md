@@ -134,7 +134,7 @@ sidebar:
 14. [Соглашения об именовании](/ToscaBase/ru/best-practices/naming-conventions/) — Почему единообразные имена Module, TestCase, папок и TestStep решают, останется ли проект Tosca поддерживаемым, с примером «до и после».
 15. [Структура TestCase](/ToscaBase/ru/best-practices/test-case-structure/) — Четыре структурных правила поддерживаемого TestCase - всегда что-то проверять, группировать TestStep в папки, предпочитать Repetition и Constraint циклам и поддерживать актуальный Workstate.
 16. [Гигиена Module](/ToscaBase/ru/best-practices/module-hygiene/) — Держите Module небольшими и разбитыми по функциональности и регулярно сливайте дубликаты, чтобы беречь размер workspace и скорость выполнения.
-17. [Синхронизация вместо ожиданий](/ToscaBase/ru/best-practices/synchronisation-not-waits/) — Замените статические шаги TBox Wait на ActionMode WaitOn, откажитесь от методов мыши и клавиатуры в значениях TestStep и разберитесь в отдельном смысле Synchronization policy в многопользовательских workspace.
+17. [Синхронизация вместо ожиданий](/ToscaBase/ru/best-practices/synchronisation-not-waits/) — Замените статические шаги TBox Wait на ActionMode WaitOn и откажитесь от методов мыши и клавиатуры в значениях TestStep; пример с индикатором прогресса Calculate / Send разобран в обоих вариантах.
 18. [Процесс ревью](/ToscaBase/ru/best-practices/review-process/) — Рабочий процесс ревью на папках с тремя стадиями утверждения и принципом «четырёх глаз» для Module, TestCase и других артефактов Tosca.
 
 ### [Устранение проблем](/ToscaBase/ru/troubleshooting/)

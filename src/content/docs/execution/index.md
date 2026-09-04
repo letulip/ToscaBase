@@ -22,4 +22,4 @@ The **Execution** section of the workspace is where finished TestCases are run a
 | [Distributed execution (DEX)](/ToscaBase/execution/distributed-execution-dex/) | AOS workspace, DEX agent, Configurations, TestEvents |
 | [Tosca Execution Client](/ToscaBase/execution/tosca-execution-client/) | Triggering TestEvents from PowerShell, shell or Jenkins |
 
-Read the first two before anything else; every later doc assumes you can create a list and read its log. Recovery and clean-up scenarios that react to failures during a run are in [Test cases](/ToscaBase/test-cases/recovery-and-cleanup-scenarios/).
+Read the first two before anything else; every later doc assumes you can create a list and read its log. Recovery and Cleanup Scenarios that react to failures during a run are in [Test cases](/ToscaBase/test-cases/recovery-and-cleanup-scenarios/).

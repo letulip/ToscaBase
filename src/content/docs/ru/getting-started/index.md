@@ -1,6 +1,7 @@
 ---
 title: Начало работы
 description: Что такое Tosca и как она устроена, получение лицензии, установка локально или в AWS, создание workspace, ориентирование в Tosca Commander и первый TestCase.
+level: 1
 sidebar:
   order: 0
 ---
